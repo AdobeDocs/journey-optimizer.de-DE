@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 215d2e548bc3d711d359138ff36283f6a8bb9828
+source-git-commit: c2c32e7c8cb409ccadea0b6aae42a9d3a52f079a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 7%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Array-Funktionen**
 
-<table style="table-layout:fixed">
+<table>
     <tr><td>[Durchschnitt](aggregation.md#average)</td><td>[In](arrays-Liste.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
     <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
@@ -47,21 +47,6 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
     <tr><td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max.)</td><td>[Superset of](arrays-Liste.md#superset)</td></tr>
 </table>
 
-* [Durchschnittlich](aggregation.md#average)
-* [Count](aggregation.md#count)
-* [Unterscheiden](arrays-list.md#distinct)
-* [Erster Posten](arrays-list.md#head)  (Kopf)
-* [Erstes n im Array](arrays-list.md#first-n)  (topN)
-* [In](arrays-list.md#in)
-* [Enthält](arrays-list.md#includes)
-* [Intersekten](arrays-list.md#intersects)
-* [Letztes n im Array](arrays-list.md#last-n)  (lastN)
-* [Maximum](aggregation.md#maximum) (max.)
-* [Minimum](aggregation.md#minimum)  (min)
-* [Not in](arrays-list.md#notin) (notIn)
-* [Untergruppe von](arrays-list.md#subset)
-* Summe
-* [Superset](arrays-list.md#superset)
 
 **Funktionen zuordnen**
 
@@ -76,31 +61,25 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Zeichenfolgen-Funktionen**
 
-* Camel Case
-* Concat
-* [Enthält](string.md#contains)
-* [Enthält nicht](string.md#doesNotContain)
-* [Endet nicht mit](string.md#doesNotEndWith)
-* [Beginnt nicht mit](string.md#doesNotStartWith)
-* Encode64
-* [Endet mit](string.md#endsWith)
-* [Gleich](string.md#equals)
-* EqualsIgnoreCase
-* IsEmpty
-* Length
-* [Ist wie](string.md#like)
-* [Kleinbuchstabe](#lower)
-* [Übereinstimmungen](string.md#matches)
-* MD5
-* [Ungleich](string.md#notEqualTo)
-* [Reguläre Ausdruck-Gruppe](string.md#regexGroup) (regexGroup)
-* Replace
-* ReplaceAll
-* Aufspaltung
-* [Beginnt mit](string.md#startsWith)
-* Titelfall
-* Beschneiden
-* [Großbuchstabe](#upper)
+<table>
+    <tr><td>[Durchschnitt](aggregation.md#average)</td><td>[In](arrays-Liste.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
+    <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
+    <tr><td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td>Summe</td></tr>
+    <tr><td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max.)</td><td>[Superset of](arrays-Liste.md#superset)</td></tr>
+</table>
+
+
+<table>
+    <tr><td> Camel Case</td><td>Concat</td><td>[Enthält](string.md#contains)</td></tr>
+    <tr><td> [Enthält nicht](string.md#doesNotContain)</td><td>[Endet nicht mit](string.md#doesNotEndWith)</td><td>[Beginn nicht mit](string.md#doesNotStartWith)</td></tr>
+    <tr><td> Encode64</td><td>[Ends with](string.md#endsWith)</td><td>[Gleich](string.md#equals)</td></tr>
+    <tr><td> EqualsIgnoreCase</td><td>IsEmpty</td><td>Length</td></tr>
+    <tr><td> [like](string.md#like)</td><td>[Kleinbuchstabe](string.md#lower)</td><td>[Übereinstimmungen](string.md#match)</td></tr>
+    <tr><td> MD5</td><td>[Nicht gleich](string.md#notEqualTo)</td><td>[Reguläre Ausdruck-Gruppe](string.md#regexGroup) (regexGroup)</td></tr>
+    <tr><td> Replace</td><td>ReplaceAll</td><td>Aufspaltung</td></tr>
+    <tr><td> [Beginn mit](string.md#startsWith)</td><td>Titelfall</td><td>Beschneiden</td></tr>
+    <tr><td> [Großbuchstabe](string.md#upper)</td><td>—</td><td>—</td></tr>
 
 ### Helfer{#helper-helper}
 
@@ -114,55 +93,19 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 Diese Operatoren können nur mit Zahlen verwendet werden.
 
-* [Addition](maths.md#add) (+) - Dieser Operator fügt zwei Zahlen hinzu
-* [Und](operators.md#and) (und) - Dieser Operator erstellt eine logische Verbindung
-* [Division](maths.md#divide) (/) - Dieser Operator wird verwendet, um den Quotient aus zwei Zahlen zu finden.
-* [Entspricht](operators.md#and) (=) - Dieser Vorgang überprüft, ob die Werte gleich sind
-* [Größer als](operators.md#greaterthan) (>) - Dieser Operator prüft, ob der erste Wert größer als der zweite ist
-* [Größer oder gleich](operators.md#greaterthanorequal)  (>=) - Dieser Operator prüft, ob der erste Wert größer oder gleich dem zweiten Wert ist
-* [Multiplikation](maths.md#multiply) (*) - Dieser Operator multipliziert zwei Zahlen
-* [Negation](operators.md#not) (!) - Dieser Operator erstellt eine logische Negation
-* [Nicht gleich](operators.md#notequal)  (=!) - Dieser Operator prüft, ob der angegebene Ausdruck nicht gleich dem Wert ist
-* [Oder](operators.md#or)  (oder) - Dieser Operator erstellt eine logische Trennung
-* [Remainder](maths.md#remainder) (%) - Dieser Operator wird zur Berechnung der verbleibenden Werte nach der Division zweier Zahlen verwendet
-* Kleiner als (&lt;) - Dieser Operator prüft, ob der erste Wert kleiner als der zweite ist
-* Kleiner oder gleich (&lt;=) - Dieser Operator prüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist
-* [Subtraktion](maths.md#substract) (-) - Dieser Operator ersetzt zwei Zahlen
-
-## Funktionen
-
-### Kleinbuchstabe{#lower}
-
-Die Funktion **lowerCase** wandelt eine Zeichenfolge in Kleinbuchstaben um.
-
-Syntax:
-
-```sql
-{%=lowerCase(string)%}
-```
-
-Beispiel:
-
-Diese Funktion wandelt den Vornamen des Profils in Kleinbuchstaben um.
-
-```sql
-{%=lowerCase(profile.person.name.firstName)%}
-```
-
-### Großbuchstabe{#upper}
-
-Die Funktion **upper** wandelt eine Zeichenfolge in Kleinbuchstaben um.
-
-Syntax:
-
-```sql
-{%=upperCase(string)%}
-```
-
-Beispiel:
-
-Diese Funktion wandelt den Nachnamen des Profils in Großbuchstaben um.
-
-```sql
-{%=upperCase(profile.person.name.lastName)%}
-```
+<table>
+    <tr><td>[Zusatz](maths.md#add) (+)</td><td>Dieser Operator fügt zwei Zahlen hinzu</td></tr>
+    <tr><td>[Und](operator.md#and) (und)</td><td>Dieser Operator erstellt eine logische Verbindung</td></tr>
+    <tr><td>[Division](maths.md#divide) (/)</td><td>Dieser Operator wird verwendet, um die Quotient aus zwei Zahlen zu finden.</td></tr>
+    <tr><td>[Entspricht](operator.md#and) (=)</td><td>Dieser Vorgang überprüft, ob Werte gleich sind</td></tr>
+    <tr><td>[Größer als](operator.md#greaterthan) (&gt;) </td><td>Dieser Operator prüft, ob der erste Wert größer als der zweite ist</td></tr>
+    <tr><td>[Größer oder gleich](operator.md#greaterthanorequal) (&gt;=) </td><td>Dieser Operator prüft, ob der erste Wert größer oder gleich dem zweiten Wert ist</td></tr>
+    <tr><td>[Multiplikation](maths.md#multiply) (*) </td><td>Dieser Operator multipliziert zwei Zahlen</td></tr>
+    <tr><td>[Negation](operator.md#not) (!) </td><td>Dieser Operator erstellt eine logische Negation</td></tr>
+    <tr><td>[Nicht gleich](operator.md#notequal) (=!) </td><td>Dieser Operator prüft, ob der angegebene Ausdruck nicht gleich dem Wert gibt</td></tr>
+    <tr><td>[Oder](operator.md#or) (oder) </td><td>Dieser Operator erstellt eine logische Trennung</td></tr>
+    <tr><td>[Rest](maths.md#rest) (%) </td><td>Dieser Operator wird verwendet, um die verbleibenden Elemente nach der Division zweier Zahlen zu berechnen.</td></tr>
+    <tr><td>Kleiner als</td><td>Dieser Operator prüft, ob der erste Wert kleiner als der zweite ist</td></tr>
+    <tr><td>Kleiner oder gleich</td><td>Dieser Operator prüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist</td></tr>
+    <tr><td>[Substraction](maths.md#substract) (-) </td><td>Dieser Operator ersetzt zwei Zahlen</td></tr>
+</table>
