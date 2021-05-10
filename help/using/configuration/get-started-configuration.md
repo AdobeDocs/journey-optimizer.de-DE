@@ -13,10 +13,10 @@ internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 289d73da78f369854c851d7822ea69849c9ebd2d
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 8%
 
 ---
 
@@ -25,38 +25,26 @@ ht-degree: 0%
 
 Beim erstmaligen Zugriff auf Journey Optimizer erhalten Sie eine Produktions-Sandbox und je nach Vertrag eine bestimmte Anzahl von IPs.
 
-Um Journey erstellen und Nachrichten senden zu können, müssen Sie die Konfigurationsschritte auf dieser Seite ausführen.
+Um Journey erstellen und Nachrichten senden zu können, müssen Sie die folgenden Konfigurationsschritte ausführen:
 
-## Subdomänen delegieren
+1. **Subdomänen** delegieren.
 
-<img src="../assets/do-not-localize/icon-subdomains.svg" width="50px">
+   Für jede neue Subdomäne, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Mehr dazu](about-subdomain-delegation.md)
 
-Für jede neue Subdomäne, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Weitere Informationen](about-subdomain-delegation.md)
+2. **Erstellen Sie IP-Pools.**
 
-## Erstellen von IP-Pools
+   Verbessern Sie die Zustellbarkeit und den Ruf Ihrer E-Mail, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Mehr dazu](ip-pools.md)
 
-<img src="../assets/do-not-localize/icon-pools.svg" width="50px">
+3. **Konfigurieren Sie E-Mail- und Push-Nachrichten**.
 
-Verbessern Sie die Zustellbarkeit und den Ruf Ihrer E-Mail, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](ip-pools.md)
+   1. Bevor Sie mit dem Senden von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie die Einstellungen in [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch] definieren. [Mehr dazu](../push-configuration.md)
 
-## Nachrichten konfigurieren
+   1. Erstellen Sie Nachrichtenvorgaben, um alle technischen Parameter zu konfigurieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind. [Mehr dazu](message-presets.md)
 
-<img src="../assets/do-not-localize/icon-message.svg" width="50px">
+   1. Bestimmen Sie, welche E-Mail-Adresse vorrangig für Ihre Empfänger verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Mehr dazu](primary-email-addresses.md)
 
-Bevor Sie mit dem Senden von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie die Einstellungen in [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch] definieren. [Weitere Informationen](../push-configuration.md)
+   1. Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche ausgeführt werden, bevor Sie E-Mail-Adressen an die Unterdrückungs-Liste senden. [Mehr dazu](get-started-quarantines.md)
 
-Erstellen Sie Nachrichtenvorgaben, um alle technischen Parameter zu konfigurieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](message-presets.md)
+1. **Konfigurieren Sie Journey**.
 
-Bestimmen Sie, welche E-Mail-Adresse vorrangig für Ihre Empfänger verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Informationen](primary-email-addresses.md)
-
-## Verfolgen des Rufs von E-Mail-Adressen
-
-<img src="../assets/do-not-localize/icon-quarantines.svg" width="50px">
-
-Überwachen und exportieren Sie die E-Mail-Adressen, die an die Unterdrückungs-Liste gesendet wurden, und verwalten Sie die Anzahl der weitere Zustellversuche, bevor Sie sie ausschließen. [Weitere Informationen](get-started-quarantines.md)
-
-## Journey konfigurieren
-
-<img src="../assets/do-not-localize/icon-journey.svg" width="50px">
-
-Um Journey zu erstellen, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignis]** und **[!UICONTROL Aktionen]** konfigurieren. [Weitere Informationen](about-data-sources-events-actions.md)
+   Um Journey zu erstellen, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignis]** und **[!UICONTROL Aktionen]** konfigurieren. [Mehr dazu](about-data-sources-events-actions.md)
