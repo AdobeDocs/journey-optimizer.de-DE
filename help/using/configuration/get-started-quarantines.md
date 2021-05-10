@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
 
 Mit Journey Optimizer können Sie alle E-Mail-Adressen überwachen, die automatisch vom Senden einer Journey ausgeschlossen werden.
 
-Die detaillierte Liste der ausgeschlossenen E-Mail-Adressen finden Sie im Menü Einstellungen / Allgemeine Einstellungen, indem Sie auf den Link Liste Unterdrücken der Ansicht klicken.
+Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen zuzugreifen, öffnen Sie das Menü **[!UICONTROL Kanal]** / **[!UICONTROL Allgemein]** und klicken Sie dann auf den Link **[!UICONTROL Listen zur Unterdrückung der Ansicht]**.
 
 ![](../assets/message-settings.png)
 
 Es stehen Filter zur Verfügung, die Ihnen beim Durchsuchen der Liste helfen (Unterdrückungsdatum, Kategorie und Grund). Sie können die Liste auch als CSV-Datei für Analyse und Berichte herunterladen.
 
-!! Bei der Staging-Phase nur Erstellungsdatumsfilter
-
 ![](../assets/suppression-list.png)
+
+    !! Beim Staging ist nur der Erstellungsdatumsfilter verfügbar.
