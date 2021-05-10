@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Info zu IP-Pools
 
-Mit Journey Optimizer können Sie IP-Pools erstellen, um IP-Adressen Ihrer Subdomänen zu gruppieren.
+Mit Journey Optimizer können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomänen zu gruppieren.
 
 Die Erstellung von IP-Pools wird dringend empfohlen, um eine E-Mail-Zustellung zu ermöglichen. Auf diese Weise können Sie verhindern, dass der Ruf einer Subdomäne Ihre anderen Subdomänen beeinflusst.
 
@@ -34,7 +34,7 @@ Eine der Best Practices besteht beispielsweise darin, einen IP-Pool für Ihre Ma
 
 Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
-1. Rufen Sie das Menü **[Nachrichtenkonfiguration]** / **[!UICONTROL IP-Pool]** auf und klicken Sie dann auf **[!UICONTROL IP-Pool erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanal]** / **[!UICONTROL IP-Pools]** auf und klicken Sie dann auf **[!UICONTROL IP-Pool erstellen]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -42,22 +42,18 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
 1. Wählen Sie in der Dropdown-Liste die IP-Adressen aus, die in den Pool aufgenommen werden sollen, und klicken Sie dann auf **[!UICONTROL Senden]**.
 
+   ![](../assets/ip-pool-config.png)
+
    >[!NOTE]
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-   ![](../assets/ip-pool-config.png)
-
-   !! Schaltfläche &quot;Senden&quot;in der Anzeigeinstanz grau dargestellt
-
 Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können sie auswählen, um auf ihre Eigenschaften zuzugreifen und die zugehörigen Nachrichtenvorgaben anzuzeigen (siehe [Eine Nachrichtenvorgabe erstellen](message-presets.md)).
 
-    -SCREENSHOT-
-    
-    !!kein erstellter IP-Pool auf der Bühne
+![](../assets/ip-pool-created.png)
 
 Um einen IP-Pool zu bearbeiten, öffnen Sie ihn und bearbeiten Sie dann seine Eigenschaften nach Bedarf.
 
 >[!NOTE]
 >
->Wenn eine Nachrichtenvorgabe verknüpft wurde, müssen Sie sie zunächst entfernen, um den IP-Pool zu bearbeiten. Nachdem der IP-Pool geändert wurde, können Sie die Nachrichtenvorgabe erneut verknüpfen.
+>Wenn eine Nachrichtenvorgabe mit dem IP-Pool verknüpft wurde, müssen Sie sie zunächst entfernen, bevor Sie den IP-Pool bearbeiten. Nachdem die Änderungen vorgenommen wurden, können Sie die Nachrichtenvorgabe erneut verknüpfen.
