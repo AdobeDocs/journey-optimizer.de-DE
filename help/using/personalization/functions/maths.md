@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '180'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Arithmetische Funktionen werden verwendet, um grundlegende Berechnungen für Werte in [!DNL Profile Query Language] (PQL) durchzuführen.
 
-## hinzufügen
+## hinzufügen{#add}
 
 Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdrücken zu finden.
 
@@ -27,13 +27,13 @@ Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdr
 
 **Beispiel**
 
-Die folgende PQL-Abfrage fasst den Preis von zwei verschiedenen Produkten zusammen.
+Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
 
-```sql
-product1.price + product2.price
+```
+{%=product1.price + product2.price%}
 ```
 
-## Multiplizieren
+## Multiplizieren{#multiply}
 
 Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument-Ausdruck zu finden.
 
@@ -45,13 +45,13 @@ Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument
 
 **Beispiel**
 
-Die folgende PQL-Abfrage findet das Produkt des Bestandes und den Produktpreis, um den Bruttowert des Produkts zu ermitteln.
+Das folgende Verfahren ermittelt das Produkt des Bestandes und den Preis eines Produkts, um den Bruttowert des Produkts zu ermitteln.
 
-```sql
-product.inventory * product.price
+```
+{%=product.inventory * product.price%}
 ```
 
-## Subtrahieren
+## Subtrahieren{#substract}
 
 Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argument-Ausdrücken zu ermitteln.
 
@@ -63,13 +63,13 @@ Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argum
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
+Im Folgenden wird der Preisunterschied zwischen zwei verschiedenen Produkten ermittelt.
 
-```sql
-product1.price - product2.price
+```
+{%=product1.price - product2.price%}
 ```
 
-## Teilung
+## Dividieren{#divide}
 
 Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausdruck zu finden.
 
@@ -81,13 +81,13 @@ Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausd
 
 **Beispiel**
 
-Die folgende PQL-Abfrage findet den Quotienten zwischen den insgesamt verkauften Produkten und dem gesamten verdienten Geld, um die durchschnittlichen Kosten pro Artikel zu sehen.
+Im Folgenden wird der Quotient zwischen den insgesamt verkauften Produkten und dem verdienten Gesamtgeld ermittelt, um die durchschnittlichen Kosten pro Artikel zu sehen.
 
-```sql
-totalProduct.price / totalProduct.sold
+```
+{%=totalProduct.price / totalProduct.sold%}
 ```
 
-## Remainer
+## Remainder{#remainder}
 
 Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der beiden Argument-Ausdruck zu finden.
 
@@ -99,8 +99,8 @@ Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der 
 
 **Beispiel**
 
-Die folgende PQL-Abfrage prüft, ob das Alter der Person durch fünf teilbar ist.
+Der folgende Vorgang überprüft, ob das Alter der Person durch fünf teilbar ist.
 
-```sql
-person.age % 5 = 0
+```
+{%=person.age % 5 = 0%}
 ```
