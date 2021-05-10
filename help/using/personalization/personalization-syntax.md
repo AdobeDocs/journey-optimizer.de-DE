@@ -2,10 +2,10 @@
 title: Personalisierungssyntax
 description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-## Einführung
+## Einleitung
 
 Die Personalisierung in Journey Optimizer basiert auf der Vorlagensyntax Handlebars.
 Eine vollständige Beschreibung der Handlebars-Syntax finden Sie unter [HandlebarsJS](https://handlebarsjs.com/).
@@ -29,7 +29,7 @@ Einfaches Ausdruck-Beispiel:
 where:
 
 * **profileis** ein Namensraum.
-* **person.** nameis ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform XDM-Schema definiert. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* **person.** nameis ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform XDM-Schema definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 ## Allgemeine Syntaxregeln
 
@@ -144,7 +144,7 @@ Jeder Parameter ist ein Handlebars-Ausdruck. Diese Helfer können von jedem beli
 Diese Blockhelfer werden durch ein # identifiziert, das dem Helfernamen vorausgeht, und erfordern ein passendes Schließen /, mit demselben Namen.
 Blöcke sind Ausdruck mit Blocköffnungs- ({{# }}) und -schließenden ({{/}}).
 
-### if
+### If{#if}
 
 Der Helfer **if** wird zum Definieren eines bedingten Blocks verwendet.
 Wenn die Auswertung des Ausdrucks &quot;true&quot;zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
@@ -167,7 +167,7 @@ Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweis
 {%/if%}
 ```
 
-### Sofern
+### Sofern{#unless}
 
 **#** unlesshelper wird verwendet, um einen bedingten Block zu definieren. Wenn die Auswertung des Ausdrucks &quot;false&quot;zurückgibt, wird der Block entgegen dem Helfer **#if** gerendert.
 
@@ -181,7 +181,7 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-### Jeder
+### Jede{#each}
 
 Der **Jeder**-Helfer wird verwendet, um über ein Array zu iterieren.
 Die Syntax des Helfers ist ```{{#each ArrayName}}``` YourContent {{/each}}
@@ -211,7 +211,7 @@ Beispiel:
 {{/each}}
 ```
 
-### with
+### Mit{#with}
 
 Der **#with**-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu ändern.
 
