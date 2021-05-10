@@ -2,9 +2,9 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: a7b1c24b1a5a07807050237d3e89c51ced28c749
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
@@ -48,9 +48,9 @@ Sie sind in drei Kategorien unterteilt: Funktionen, Helfer und Bediener
 * [Enthält](arrays-list.md#includes)
 * [Intersekten](arrays-list.md#intersects)
 * [Letztes n im Array](arrays-list.md#last-n)  (lastN)
-* [Maximum](aggregation.md#maximum)
-* [Minimum](aggregation.md#minimum)
-* [Not in](arrays-list.md#notin)
+* [Maximum](aggregation.md#maximum) (max.)
+* [Minimum](aggregation.md#minimum)  (min)
+* [Not in](arrays-list.md#notin) (notIn)
 * [Untergruppe von](arrays-list.md#subset)
 * Sum
 * [Superset](arrays-list.md#superset)
@@ -129,7 +129,7 @@ Die Funktion **lowerCase** wandelt eine Zeichenfolge in Kleinbuchstaben um.
 
 Syntax:
 
-```
+```sql
 {%=lowerCase(string)%}
 ```
 
@@ -137,7 +137,7 @@ Beispiel:
 
 Diese Funktion wandelt den Vornamen des Profils in Kleinbuchstaben um.
 
-```
+```sql
 {%=lowerCase(profile.person.name.firstName)%}
 ```
 
@@ -147,7 +147,7 @@ Die Funktion **upper** wandelt eine Zeichenfolge in Kleinbuchstaben um.
 
 Syntax:
 
-```
+```sql
 {%=upperCase(string)%}
 ```
 
@@ -155,6 +155,6 @@ Beispiel:
 
 Diese Funktion wandelt den Nachnamen des Profils in Großbuchstaben um.
 
-```
+```sql
 {%=upperCase(profile.person.name.lastName)%}
 ```
