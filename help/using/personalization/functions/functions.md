@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: 701d6b64d167b5c38268368fcb640cc18d8ec817
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
@@ -33,11 +33,17 @@ Die Vorlagensprache wird bei Hilfsfunktionen genutzt, die in der Dropdown-Liste 
 
 ![](../assets/access-helper-functions.png)
 
-Sie sind in drei Kategorien unterteilt: Funktionen, Helfer und Bediener
+Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
 
-### Funktionen
+### Funktionen{#functions-helper}
 
 **Array-Funktionen**
+
+| [Durchschnitt](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
+| [Anzahl](aggregation.md#count) | [einschließlich](arrays-list.md#includes)  | [Nicht in](arrays-list.md#notin) (notIn) |
+| [Unterscheiden](arrays-list.md#distinct) | [Überschneidungen](arrays-list.md#intersects) | [Untergruppe von](arrays-list.md#subset) |
+| [Erster Eintrag](arrays-list.md#head) (Kopf) | [Letztes n im Array](arrays-list.md#last-n) (lastN) | Summe |
+| [First n in array](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset of](arrays-list.md#superset) |
 
 * [Durchschnittlich](aggregation.md#average)
 * [Count](aggregation.md#count)
@@ -94,7 +100,7 @@ Sie sind in drei Kategorien unterteilt: Funktionen, Helfer und Bediener
 * Beschneiden
 * [Großbuchstabe](#upper)
 
-### Helfer
+### Helfer{#helper-helper}
 
 * [Jeder](../personalization-syntax.md#each)
 * [if](../personalization-syntax.md#if)
@@ -102,7 +108,7 @@ Sie sind in drei Kategorien unterteilt: Funktionen, Helfer und Bediener
 * [not](../personalization-syntax.md#unless)
 * [durch](../personalization-syntax.md#with)
 
-### Benutzer
+### Benutzer{#operators-helper}
 
 Diese Operatoren können nur mit Zahlen verwendet werden.
 
