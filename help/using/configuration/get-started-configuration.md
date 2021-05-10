@@ -13,7 +13,7 @@ internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 translation-type: tm+mt
-source-git-commit: 289d73da78f369854c851d7822ea69849c9ebd2d
+source-git-commit: c7c0c3921374265072d9f4ad117ddd5115dbe8e6
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 8%
@@ -31,11 +31,11 @@ Um Journey erstellen und Nachrichten senden zu können, müssen Sie die folgende
 
    Für jede neue Subdomäne, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Mehr dazu](about-subdomain-delegation.md)
 
-2. **Erstellen Sie IP-Pools.**
+1. **Erstellen Sie IP-Pools.**
 
    Verbessern Sie die Zustellbarkeit und den Ruf Ihrer E-Mail, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Mehr dazu](ip-pools.md)
 
-3. **Konfigurieren Sie E-Mail- und Push-Nachrichten**.
+1. **Konfigurieren Sie E-Mail- und Push-Nachrichten**.
 
    1. Bevor Sie mit dem Senden von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie die Einstellungen in [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch] definieren. [Mehr dazu](../push-configuration.md)
 
