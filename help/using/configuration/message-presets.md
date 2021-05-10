@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstel
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Nachrichtenkonfiguration]** / **[!UICONTROL Nachrichtenvorgaben]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvorgabe erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanal]** / **[!UICONTROL Nachrichtenvorgaben]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvorgabe erstellen]**.
 
    ![](../assets/preset-create.png)
 
@@ -63,28 +63,23 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    Während dieses Schritts werden mehrere Prüfungen durchgeführt, um sicherzustellen, dass die Konfiguration ordnungsgemäß durchgeführt wurde. Die Verarbeitungszeit beträgt etwa 48-72 Stunden und kann bis zu 7-10 Tage dauern.
 
-   Sie können den Überprüfungsprozess verfolgen, indem Sie die Nachrichtenvorgabe aus der Liste öffnen.
+   Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellteam der Adobe durchgeführt werden:
 
-       -SCREENSHOT ZWEI KONTROLLEN -
-   
-   !!Keine Verarbeitungsvorgabe auf der Bühne + Vorgabe kann nicht gesendet werden
+   * SPF-Validierung,
+   * DKIM-Validierung,
+   * MX-Datensatzvalidierung,
+   * Checkliste für IP-Adressen,
+   * Helo-Host-Prüfung,
+   * IP-Pool-Überprüfung,
+   * A/PTR-Datensatz, Prüfung der Subdomäne t/m/res.
 
-   * **xxxx**:
-   * **Prüfschritt**: Auslieferungstests werden vom Adobe-Auslieferungsteam durchgeführt. Dieser Schritt kann bis zu 10 Tage dauern, wenn einige Schritte während der Prüfung fehlschlagen. Die Kontrollen umfassen:
+1. Sobald die Prüfungen erfolgreich abgeschlossen sind, werden Sie über eine **[!DNL Journey Optimizer]**-Benachrichtigung informiert und die Nachrichtenvorgabe erhält den Status **[!UICONTROL Aktiv]**. Es kann jetzt verwendet werden, um Nachrichten zu senden.
 
-      * SPF-Validierung,
-      * DKIM-Validierung,
-      * MX-Datensatzvalidierung,
-      * Checkliste für IP-Adressen,
-      * Helo-Host-Prüfung,
-      * IP-Pool-Überprüfung,
-      * A/PTR-Datensatz, Prüfung der Subdomäne t/m/res.
+   ![](../assets/preset-active.png)
 
-1. Sobald die Prüfungen erfolgreich sind, werden Sie benachrichtigt (!!where?). und die Nachrichtenvorgabe erhält den Status **[!UICONTROL Aktiv]**. Es kann jetzt verwendet werden, um Nachrichten zu senden.
+## Vorgaben für Monitormeldungen
 
-## Nachrichtenvorgaben verwalten und bearbeiten
-
-Alle Nachrichtenvorgaben werden im Menü **[!UICONTROL Nachrichtenkonfiguration]** / **[!UICONTROL Nachrichtenvorgaben]** angezeigt. Es stehen Filter zur Verfügung, die Ihnen beim Durchsuchen der Liste helfen (Kanal-Typ, Benutzer, Status).
+Alle Nachrichtenvorgaben werden im Menü **[!UICONTROL Kanal]** / **[!UICONTROL Nachrichtenvorgaben]** angezeigt. Es stehen Filter zur Verfügung, die Ihnen beim Durchsuchen der Liste helfen (Kanal-Typ, Benutzer, Status).
 
 ![](../assets/preset-filters.png)
 
@@ -96,9 +91,9 @@ Nachrichtenvorgaben können folgende Status haben:
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind während der Überprüfung der Nachrichtenvorgabe fehlgeschlagen.
 * **[!UICONTROL Deaktiviert]**: Die Nachrichtenvorgabe ist deaktiviert. Es kann nicht zum Erstellen von Nachrichten verwendet werden.
 
-Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren, damit sie nicht mehr verfügbar ist, um neue Nachrichten zu erstellen (veröffentlichte Nachrichten, die diese Vorgabe verwenden, sind nicht betroffen und funktionieren weiterhin).
+## Bearbeiten von Nachrichtenvorgaben
 
-Anschließend müssen Sie die Vorgabe für die Nachricht Duplikat vornehmen, um eine neue Version zu erstellen, mit der neue Nachrichten erstellt werden:
+Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren, damit sie nicht mehr verfügbar ist, um neue Nachrichten zu erstellen (veröffentlichte Nachrichten, die diese Vorgabe verwenden, sind nicht betroffen und funktionieren weiterhin). Anschließend müssen Sie die Vorgabe für die Nachricht Duplikat vornehmen, um eine neue Version zu erstellen, mit der neue Nachrichten erstellt werden:
 
 1. Rufen Sie die Liste der Nachrichtenvorgaben auf und deaktivieren Sie dann die Nachrichtenvorgabe, die Sie bearbeiten möchten.
 
@@ -111,7 +106,5 @@ Anschließend müssen Sie die Vorgabe für die Nachricht Duplikat vornehmen, um 
 1. Öffnen Sie die duplizierte Nachrichtenvorgabe, ändern Sie sie entsprechend Ihren Anforderungen und senden Sie dann Ihre Änderungen. Die Nachrichtenvorgabe durchläuft denselben Überprüfungszyklus wie während des [Erstellungsschritts](#create-message-preset).
 
 1. Nach der Validierung erhält es den Status **[!UICONTROL Aktiv]** und kann zum Erstellen neuer Nachrichten verwendet werden.
-
-   ![](../assets/preset-active.png)
 
 <!--que fait-on ensuite avec l'ancienne version deactivated: reste là pour être utilisée par les anciens messages?). quand un deactivate preset est-il enlevé de la liste?-->
