@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 TBC CJM-Zeichenfolgen-Funktionen
 
-## like
+## Ist wie{#like}
 
 Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Muster entspricht.
 
@@ -39,7 +39,7 @@ In der folgenden Abfrage werden alle Städte mit dem Muster &quot;es&quot;abgeru
 like (city ,"%es%")
 ```
 
-## Beginnt mit
+## Beginnt mit{#startsWith}
 
 Mit der Funktion `startsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge Beginn.
 
@@ -63,7 +63,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 startsWith(person.name,"Joe")
 ```
 
-## Beginnt nicht mit
+## Beginnt nicht mit{#doesNotStartWith}
 
 Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge Beginn.
 
@@ -87,7 +87,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der P
 doesNotStartWith(person.name,"Joe")
 ```
 
-## Endet mit
+## Endet mit{#endsWith}
 
 Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
 
@@ -111,7 +111,7 @@ In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung
 endsWith(person.emailAddress,".com")
 ```
 
-## Endet nicht mit
+## Endet nicht mit{#doesNotEndWith}
 
 Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge endet.
 
@@ -135,7 +135,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob die E
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Enthält
+## Enthält{#contains}
 
 Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
 
@@ -159,7 +159,7 @@ Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung
 contains(person.emailAddress,"2010@gm")
 ```
 
-## Enthält nicht
+## Enthält nicht{#doesNotContain}
 
 Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge keine angegebene Unterzeichenfolge enthält.
 
@@ -183,7 +183,7 @@ Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung
 doesNotContain(person.emailAddress,"2010@gm")
 ```
 
-## Gleich
+## Gleich{#equals}
 
 Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge mit der angegebenen Zeichenfolge übereinstimmt.
 
@@ -206,7 +206,7 @@ Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibun
 equals(person.name,"John")
 ```
 
-## Ungleich
+## Ungleich{#notEqualTo}
 
 Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht mit der angegebenen Zeichenfolge übereinstimmt.
 
@@ -229,7 +229,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 notEqualTo(person.name,"John")
 ```
 
-## Übereinstimmungen
+## Übereinstimmungen{#matches}
 
 Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt. Weitere Informationen zu Übereinstimmungsmustern in regulären Ausdrücken finden Sie in [diesem Dokument](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
@@ -247,7 +247,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 matches(person.name.,"(?i)^John")
 ```
 
-## Regelmäßiger Ausdruck
+## Gruppe regulärer Ausdruck{#regexGroup}
 
 Die Funktion `regexGroup` wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
 
