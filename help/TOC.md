@@ -7,10 +7,10 @@ type: Documentation
 solution: Journey Optimizer
 hide: true
 translation-type: tm+mt
-source-git-commit: d16d866ef32fbfd8c16878f0b8812d27d89383e6
+source-git-commit: a04249301947e694d0f775c4cfcc751f20b4f2a3
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 0%
       + [Personalisierungsüberprüfung](using/personalization/personalization-validation.md)
       + [Anwendungsfall für Personalisierung](using/personalization/personalization-use-case.md)
       + Arbeitssprache{#functions}
-         + [Benutzer](using/personalization/functions/operators.md)
+         + [Operatoren](using/personalization/functions/operators.md)
          + [Aggregation](using/personalization/functions/aggregation.md)
          + [Arrays und Listen](using/personalization/functions/arrays-list.md)
          + [Mathematisch](using/personalization/functions/maths.md)
          + [Karten](using/personalization/functions/maps.md)
          + [Objekte](using/personalization/functions/objects.md)
-         + [Zeichenfolge](using/personalization/functions/string.md)
+         + [String ](using/personalization/functions/string.md)
    + [hinzufügen personalisierte Angebot](using/deliver-personalized-offers.md)
    + {#create-message} validieren und veröffentlichen
       + [Vorschau und Testversände](using/preview.md)
@@ -61,7 +61,7 @@ ht-degree: 0%
    + [Segmente erstellen](using/segment/creating-a-segment.md)
 + Journeys {#orchestrate-journeys}
    + Info zu Journey{#about-journeys}
-      + [Allgemeiner Grundsatz](using/building-journeys/journey.md)
+      + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
       + [Einschränkungen](using/building-journeys/limitations.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Testprofile](using/building-journeys/creating-test-profiles.md)
@@ -70,7 +70,7 @@ ht-degree: 0%
       + [Gestalten Ihrer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Journey testen](using/building-journeys/testing-the-journey.md)
       + [Journey veröffentlichen](using/building-journeys/publishing-the-journey.md)
-      + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Zeitzonen](using/building-journeys/timezone-management.md)
       + [Fehlerbehebung bei der Journey](using/building-journeys/troubleshooting.md)
    + Aktivitäten {#about-journey-building}
       + [Informationen zu Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
@@ -87,9 +87,7 @@ ht-degree: 0%
       + [Profil aktualisieren](using/building-journeys/update-profiles.md)
    + Anwendungsbeispiele {#journey-use-cases}
       + [Senden von Nachrichten mit mehreren Kanälen](using/building-journeys/journeys-uc.md)
-+ 
-    Tracken und überwachen{#reporting}
-    
++ Tracken und überwachen {#reporting}
    + [Nachrichten-Tracking](using/message-tracking.md)
    + [Nachrichtenüberwachung](using/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -152,9 +150,9 @@ ht-degree: 0%
          + Entscheidungsregeln {#decision-rules}
             + [Entscheidungsregeln auflisten](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [Entscheidungsregel nachschlagen](using/offers/api-reference/offers-api/decision-rules/lookup.md)
-            + [Eine Entscheidungsregel erstellen](using/offers/api-reference/offers-api/decision-rules/create.md)
-            + [Eine Entscheidungsregel aktualisieren](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [Eine Entscheidungsregel löschen](using/offers/api-reference/offers-api/decision-rules/delete.md)
+            + [Entscheidungsregel erstellen](using/offers/api-reference/offers-api/decision-rules/create.md)
+            + [Entscheidungsregel aktualisieren](using/offers/api-reference/offers-api/decision-rules/update.md)
+            + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Tags {#tags}
             + [Tags auflisten](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Tag nachschlagen](using/offers/api-reference/offers-api/tags/lookup.md)
@@ -164,9 +162,9 @@ ht-degree: 0%
          + Personalisierte Angebote {#personalized-offers}
             + [Personalisierte Angebote auflisten](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Personalisiertes Angebot nachschlagen](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
-            + [Erstellen eines personalisierten Angebots](using/offers/api-reference/offers-api/personalized-offers/create.md)
-            + [Aktualisieren eines personalisierten Angebots](using/offers/api-reference/offers-api/personalized-offers/update.md)
-            + [Löschen eines personalisierten Angebots](using/offers/api-reference/offers-api/personalized-offers/delete.md)
+            + [Personalisiertes Angebot erstellen](using/offers/api-reference/offers-api/personalized-offers/create.md)
+            + [Personalisiertes Angebot aktualisieren](using/offers/api-reference/offers-api/personalized-offers/update.md)
+            + [Personalisiertes Angebot löschen](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Kollektionen {#collections}
             + [Kollektionen auflisten](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [Kollektion nachschlagen](using/offers/api-reference/offers-api/collections/lookup.md)
@@ -175,10 +173,10 @@ ht-degree: 0%
             + [Kollektion löschen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
             + [Fallback-Angebote auflisten](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
-            + [Auffinden eines Ausweich-Angebots](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Ein Ausweichmanöver-Angebot erstellen](using/offers/api-reference/offers-api/fallback-offers/create.md)
-            + [Angebot für eine Ausweichmöglichkeit aktualisieren](using/offers/api-reference/offers-api/fallback-offers/update.md)
-            + [Ausweichmanöver-Angebot löschen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
+            + [Fallback-Angebot nachschlagen](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
+            + [Fallback-Angebot erstellen](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Fallback-Angebot aktualisieren](using/offers/api-reference/offers-api/fallback-offers/update.md)
+            + [Fallback-Angebot löschen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + Entscheidungen mit APIs {#activities-api} erstellen und verwalten
          + [Beschlüsse der Liste](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Suchen einer Entscheidung](using/offers/api-reference/activities-api/activities/lookup.md)
@@ -188,7 +186,7 @@ ht-degree: 0%
       + Angebot-Versand mit APIs {#offer-delivery}
          + [Decisions-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web-SDK](using/offers/api-reference/web-sdk.md)
-+ Konfiguration     {#configuration}
++ Konfiguration {#configuration}
    + [Erste Schritte](using/configuration/get-started-configuration.md)
    + Stellvertretende Subdomänen {#delegate-subdomains}
       + [Erste Schritte mit der Subdomänendelegation](using/configuration/about-subdomain-delegation.md)
@@ -198,9 +196,9 @@ ht-degree: 0%
       + [Zugriff auf PTR-Aufzeichnungen](using/configuration/ptr-records.md)
    + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
    + Nachrichten konfigurieren {#configure-messages}
-      + [Primäre Adressen von Profilen bestimmen](using/configuration/primary-email-addresses.md)
-      + [Nachrichtenvorgaben erstellen](using/configuration/message-presets.md)
       + [Push-Benachrichtigungen konfigurieren](using/push-configuration.md)
+      + [Nachrichtenvorgaben erstellen](using/configuration/message-presets.md)
+      + [Primäre Adressen von Profilen bestimmen](using/configuration/primary-email-addresses.md)
    + Überwachung des Rufs von E-Mail-Adressen {#manage-quarantines}
       + [Erste Schritte mit Listen zur Unterdrückung](using/configuration/get-started-quarantines.md)
       + [Kategorien und Gründe der Unterdrückung](using/configuration/suppression-categories-reasons.md)
@@ -208,7 +206,7 @@ ht-degree: 0%
    + Journey {#configure-journeys} konfigurieren
       + [Datenquellen, Ereignis und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Ereigniskonfiguration {#events-journeys}
-         + [Allgemeiner Grundsatz](using/event/about-events.md)
+         + [Allgemeine Funktionsweise](using/event/about-events.md)
          + Einheitliches Ereignis {#unitary-events} konfigurieren
             + [Erste Schritte mit einheitlichen Ereignissen](using/event/about-creating.md)
             + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
