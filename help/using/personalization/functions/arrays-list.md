@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '535'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Profile Query Language] (PQL) Angebot-Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
-## In
+## In{#in}
 
 Mit der Funktion `in` wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist.
 
@@ -33,7 +33,7 @@ Die folgende PQL-Abfrage definiert Personen mit Geburtstagen im März, Juni oder
 in (person.birthMonth, [3, 6, 9])
 ```
 
-## Not in
+## Nicht in{#notin}
 
 Mit der Funktion `notIn` wird bestimmt, ob ein Element nicht Mitglied eines Arrays oder einer Liste ist.
 
@@ -55,7 +55,7 @@ Die folgende PQL-Abfrage definiert Personen mit Geburtstagen, die nicht im März
 notIn (person.birthMonth ,[3, 6, 9])
 ```
 
-## Intersekten
+## Überschneidungen{#intersects}
 
 Mit der Funktion `intersects` wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Mitglied haben.
 
@@ -73,7 +73,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Lieblingsfarben mindestens ei
 intersects(person.favoriteColors,["red", "blue", "green"])
 ```
 
-## Schnittmenge
+## Schnittmenge{#intersection}
 
 Die `intersection`-Funktion wird verwendet, um die gemeinsamen Mitglieder von zwei Arrays oder Listen zu bestimmen.
 
@@ -91,7 +91,7 @@ Die folgende PQL-Abfrage definiert, ob die Farben Rot, Blau und Grün von Person
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
 
-## Untergruppe von
+## Untergruppe von{#subset}
 
 Mit der Funktion `subsetOf` wird bestimmt, ob ein bestimmtes Array (Array A) eine Untergruppe eines anderen Arrays (Array B) ist. Anders ausgedrückt, dass alle Elemente im Array A Elemente des Arrays B sind.
 
@@ -109,7 +109,7 @@ Die folgende PQL-Abfrage definiert Personen, die alle ihre Lieblingsstädte besu
 subsetOf(person.favoriteCities,person.visitedCities)
 ```
 
-## Superset
+## Übersatz von{#superset}
 
 Mit der Funktion `supersetOf` wird bestimmt, ob ein bestimmtes Array (Array A) eine Übermenge eines anderen Arrays (Array B) ist. Mit anderen Worten, dieses Array A enthält alle Elemente im Array B.
 
@@ -127,7 +127,7 @@ Die folgende PQL-Abfrage definiert Personen, die mindestens einmal Sushi und Piz
 supersetOf(person.eatenFoods,["sushi", "pizza"])
 ```
 
-## Enthält
+## Umfasst{#includes}
 
 Mit der Funktion `includes` wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
@@ -145,7 +145,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Lieblingsfarbe Rot enthält.
 includes(person.favoriteColors,"red")
 ```
 
-## Unterscheiden
+## Distinct{#distinct}
 
 Mit der Funktion `distinct` werden Duplikat-Werte aus einem Array oder einer Liste entfernt.
 
@@ -211,7 +211,7 @@ Die folgende PQL-Abfrage gibt die fünf wichtigsten Bestellungen mit dem niedrig
 bottomN(orders,price, 5)
 ```
 
-## Erster Posten
+## Erster Eintrag{#head}
 
 Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurückgegeben.
 
