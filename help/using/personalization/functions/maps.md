@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 6%
+source-wordcount: '98'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ get({MAP},{STRING})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft den Wert der Identitätskarte für den Schlüssel `example@example.com` ab.
+Der folgende Vorgang ruft den Wert der Identitätskarte für den Schlüssel `example@example.com` ab.
 
 ```sql
 get(identityMap,"example@example.com")
@@ -45,7 +45,7 @@ keys({MAP})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft alle Schlüssel für die Map `identityMap` ab.
+Der folgende Vorgang ruft alle Schlüssel für die Map ab.`identityMap`
 
 ```sql
 keys(identityMap)
@@ -63,7 +63,7 @@ values({MAP})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft alle Werte für die Zuordnung ab.`identityMap`
+Der folgende Vorgang ruft alle Werte für die Zuordnung ab.`identityMap`
 
 ```sql
 values(identityMap)
