@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65e677860a6ba77532cc23b992d2671652548d0f
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 11%
 
 ---
 
@@ -32,11 +32,13 @@ Mit Journey Optimizer können Sie Ihre Subdomänen vollständig an die Adobe del
 
 Gehen Sie wie folgt vor, um eine neue Subdomäne zu delegieren:
 
-1. Rufen Sie das Menü **[!UICONTROL Message Configuration]** / **[!UICONTROL Subdomain delegation]** auf und klicken Sie dann auf **[!UICONTROL Subdomäne]** delegieren.
+1. Rufen Sie das Menü **[!UICONTROL Kanal]** / **[!UICONTROL Subdomänen]** auf und klicken Sie dann auf **[!UICONTROL Subdomäne delegieren]**.
 
    ![](../assets/subdomain-delegate.png)
 
 1. Geben Sie den Namen der Subdomäne an, die delegiert werden soll.
+
+   ![](../assets/subdomain-name.png)
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
@@ -50,8 +52,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomäne zu delegieren:
 
 1. Sobald die Subdomänendelegation gesendet wurde, wird die Subdomäne in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt. Weitere Informationen zu den Status von Subdomänen finden Sie in [diesem Abschnitt](access-subdomains.md).
 
-   ![](../assets/subdomain-processing.png)
-
    Die folgenden Konfigurationsüberprüfungen werden durchgeführt, bis die Subdomäne überprüft wird und zum Konfigurieren von Nachrichtenvorgaben zum Senden von Nachrichten verwendet werden kann:
 
    1. NS records,
@@ -59,15 +59,15 @@ Gehen Sie wie folgt vor, um eine neue Subdomäne zu delegieren:
    1. URLs-Konfiguration,
    1. Prüfung der Lieferbarkeit.
 
-   Sie können den Überprüfungsvorgang für eine Subdomäne jederzeit verfolgen, indem Sie sie aus der Liste öffnen.
+   ![](../assets/subdomain-processing.png)
 
-   ![](../assets/subdomain-processing-steps.png)
+1. Sobald die Prüfungen erfolgreich abgeschlossen sind, werden Sie über eine **[!DNL Journey Optimizer]**-Benachrichtigung informiert und die Subdomäne erhält den Status **[!UICONTROL Erfolg]**. Es kann jetzt verwendet werden, um Nachrichten zu senden.
 
-1. Sobald die Prüfungen erfolgreich sind, werden Sie benachrichtigt xxxxx (!!wobei die Benutzer benachrichtigt werden: Müssen Sie die Seite manuell überprüfen oder per E-Mail/Benachrichtigung im Puls?)
+   Weitere Informationen zu den Status von Subdomänen finden Sie in [diesem Abschnitt](access-subdomains.md).
 
-   Die Subdomäne erhält das **[!UICONTROL Success]** (!!oder Geprüft?) -Status und ist nun bereit, um Nachrichten zu senden. Weitere Informationen zu den Status von Subdomänen finden Sie in [diesem Abschnitt](access-subdomains.md).
+   ![](../assets/subdomain-notification.png)
 
-   Sie können auf detaillierte Informationen zugreifen, indem Sie die Subdomäne aus der Liste öffnen:
+   Sie können auf detaillierte Informationen zur Subdomäne zugreifen, indem Sie sie in der Liste öffnen. Sie haben folgende Möglichkeiten:
 
    * Rufen Sie den während des Delegierungsprozesses konfigurierten Subdomänennamen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirrorseite, Tracking-URLs) ab,
    * hinzufügen Sie einen TXT-Eintrag zur Überprüfung Ihrer Subdomäne durch Google-Site an, um sicherzustellen, dass er überprüft wird (siehe [Hinzufügen einen Google TXT-Datensatz zu einer Subdomäne](google-txt.md)).
