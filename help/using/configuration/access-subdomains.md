@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9368f01d2a15879ce58518b09a78d09d5390818b
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 # Auf delegierte Subdomänen zugreifen
 
-Alle Ihre delegierten Subdomänen werden im Menü **[!UICONTROL Message Configuration]** / **[!UICONTROL Subdomain delegation]** angezeigt.
+Alle Ihre delegierten Subdomänen werden im Menü **[!UICONTROL Kanal]** / **[!UICONTROL Subdomänen]** angezeigt.
 
 Es stehen mehrere Filter zur Verfügung, mit denen Sie die Liste verfeinern können (Delegationsdatum, Benutzer oder Status).
 
 ![](../assets/subdomain-list.png)
 
-Die Spalte &quot;Status&quot;enthält Informationen zum Delegierungsprozess der Subdomäne:
+Die Spalte **[!UICONTROL Status]** enthält Informationen zum Delegierungsprozess der Subdomäne:
 
-* **[!UICONTROL Entwurf]**: die Subdomänendelegation als Entwurf gespeichert wurde. Klicken Sie auf die Zeile, um die Subdomänendelegation wieder aufzunehmen.
+* **[!UICONTROL Entwurf]**: Die Subdomänendelegation wurde als Entwurf gespeichert. Klicken Sie auf den Subdomänennamen, um den Delegierungsprozess wiederaufzunehmen,
 
-* **[!UICONTROL Verarbeitung]**: die Subdomäne vor der Verwendung mehrere Konfigurationsprüfungen durchläuft.
+* **[!UICONTROL Verarbeitung]**: Die Subdomäne wird vor ihrer Verwendung einer Reihe von Konfigurationsprüfungen unterzogen.
 
-* **[!UICONTROL Erfolg]** (!!oder Geprüft?): Die Subdomäne hat die Prüfungen erfolgreich durchgeführt und kann zur Auslieferung von Nachrichten verwendet werden.
+* **[!UICONTROL Erfolg]**: Die Subdomäne hat die Prüfungen erfolgreich durchlaufen und kann zur Übermittlung von Nachrichten,
 
-* **[!UICONTROL Fehlgeschlagen]**: eine oder mehrere Prüfungen sind nach dem Senden der Subdomänendelegation fehlgeschlagen.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind nach dem Senden der Subdomänendelegation fehlgeschlagen.
