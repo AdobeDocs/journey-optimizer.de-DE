@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Aggregationsfunktionen werden verwendet, um mehrere Werte innerhalb von [!DNL Profile Query Language] (PQL)-Arrays zu gruppieren, um einen einzigen Zusammenfassungswert zu bilden.
 
-## Count
+## Count{#count}
 
 Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
 
@@ -33,7 +33,7 @@ Die folgende PQL-Abfrage gibt die Anzahl der Bestellungen im Array zurück.
 count(orders)
 ```
 
-## Sum
+## Sum{#sum}
 
 Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
 
@@ -51,7 +51,7 @@ Die folgende PQL-Abfrage gibt die Summe aller Bestellpreise zurück.
 sum(orders.order.price)
 ```
 
-## Durchschnittlich
+## Durchschnitt{#average}
 
 Die Funktion `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück.
 
@@ -69,7 +69,7 @@ Die folgende PQL-Abfrage gibt den Durchschnittspreis aller Bestellungen zurück.
 average(orders.order.price)
 ```
 
-## Minimum
+## Minimum{#min}
 
 Die Funktion `min` gibt die kleinsten aller ausgewählten Werte im Array zurück.
 
@@ -87,7 +87,7 @@ Die folgende PQL-Abfrage gibt den niedrigsten Preis aller Bestellungen zurück.
 min(orders.order.price)
 ```
 
-## Maximum
+## Maximum{#max}
 
 Die Funktion `max` gibt den größten der ausgewählten Werte im Array zurück.
 
