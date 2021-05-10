@@ -2,18 +2,18 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Operatoren {#operators}
+# Benutzer {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## und
+## Und{#and}
 
 Die Funktion `and` wird zur Erstellung einer logischen Verbindung verwendet.
 
@@ -31,7 +31,7 @@ Die folgende PQL Abfrage wird alle Menschen mit Heimat als Kanada und Geburtsjah
 homeAddress.countryISO = "CA" and person.birthYear = 1985
 ```
 
-## Oder
+## Oder{#or}
 
 Die Funktion `or` wird verwendet, um eine logische Trennung zu erstellen.
 
@@ -49,7 +49,7 @@ Die folgende PQL Abfrage wird alle Menschen mit Heimat als Kanada oder Geburtsja
 homeAddress.countryISO = "CA" or person.birthYear = 1985
 ```
 
-## not
+## Not{#not}
 
 Die Funktion `not` (oder `!`) wird zum Erstellen einer logischen Negation verwendet.
 
@@ -68,7 +68,7 @@ Die folgende PQL-Abfrage gibt alle Menschen zurück, die ihr Heimatland nicht al
 not (homeAddress.countryISO = "CA")
 ```
 
-## if
+## If{#if}
 
 Die Funktion `if` wird verwendet, um einen Ausdruck aufzulösen, je nachdem, ob eine angegebene Bedingung wahr ist.
 
@@ -92,7 +92,7 @@ Die folgende PQL-Abfrage setzt den Wert auf `1`, wenn das Heimatland Kanada ist,
 if (homeAddress.countryISO = "CA", 1, 2)
 ```
 
-## Gleich
+## Gleich{#equals}
 
 Die Funktion `=` (gleich) prüft, ob ein Wert oder Ausdruck gleich einem anderen Wert oder Ausdruck ist.
 
@@ -110,7 +110,7 @@ Die folgende PQL-Abfrage prüft, ob sich das Land mit der Heimatadresse in Kanad
 homeAddress.countryISO = "CA"
 ```
 
-## ungleich
+## Nicht gleich{#notequal}
 
 Die Funktion `!=` (nicht gleich) prüft, ob ein Wert oder Ausdruck **nicht** einem anderen Wert oder Ausdruck entspricht.
 
@@ -128,7 +128,7 @@ Die folgende PQL-Abfrage überprüft, ob das Land der Wohnadresse nicht in Kanad
 homeAddress.countryISO != "CA"
 ```
 
-## Größer als
+## Größer als{#greaterthan}
 
 Mit der Funktion `>` (Größer als) wird überprüft, ob der erste Wert größer als der zweite ist.
 
@@ -146,7 +146,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Geburtstage nicht im Januar o
 person.birthMonth > 2
 ```
 
-## Größer oder gleich
+## Größer oder gleich{#greaterthanorequal}
 
 Mit der Funktion `>=` (größer oder gleich) wird überprüft, ob der erste Wert größer oder gleich dem zweiten Wert ist.
 
@@ -164,7 +164,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Geburtstage nicht im Januar o
 person.birthMonth >= 3
 ```
 
-## Niedriger als
+## Niedriger als{#lessthan}
 
 Mit der Vergleichsfunktion `<` (less than) wird geprüft, ob der erste Wert kleiner als der zweite ist.
 
@@ -182,7 +182,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Geburtstag im Januar liegt.
 person.birthMonth < 2
 ```
 
-## Kleiner oder gleich
+## Kleiner oder gleich{#lessthanorequal}
 
 Mit der Vergleichsfunktion `<=` (kleiner oder gleich) wird geprüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist.
 
@@ -200,7 +200,7 @@ Die folgende PQL-Abfrage definiert Personen, deren Geburtstag im Januar oder Feb
 person.birthMonth <= 2
 ```
 
-## hinzufügen
+## hinzufügen{#add}
 
 Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdrücken zu finden.
 
@@ -218,7 +218,7 @@ Die folgende PQL-Abfrage fasst den Preis von zwei verschiedenen Produkten zusamm
 product1.price + product2.price
 ```
 
-## Multiplizieren
+## Multiplizieren{#multiply}
 
 Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument-Ausdruck zu finden.
 
@@ -236,7 +236,7 @@ Die folgende PQL-Abfrage findet das Produkt des Bestandes und den Produktpreis, 
 product.inventory * product.price
 ```
 
-## Subtrahieren
+## Subtrahieren{#substract}
 
 Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argument-Ausdrücken zu ermitteln.
 
@@ -254,7 +254,7 @@ Die folgende PQL-Abfrage ermittelt den Preisunterschied zwischen zwei verschiede
 product1.price - product2.price
 ```
 
-## Teilung
+## Dividieren{#divide}
 
 Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausdruck zu finden.
 
@@ -272,7 +272,7 @@ Die folgende PQL-Abfrage findet den Quotienten zwischen den insgesamt verkauften
 totalProduct.price / totalProduct.sold
 ```
 
-## Remainer
+## Remainder{#remainder}
 
 Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der beiden Argument-Ausdruck zu finden.
 
