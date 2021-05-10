@@ -2,14 +2,14 @@
 title: Kontexte der Personalisierung in Journey Optimizer
 description: Erfahren Sie, in welchen Kontexten Sie Personalisierung hinzufügen können
 translation-type: tm+mt
-source-git-commit: e0d412eff669282a42673392896f5df4139d55d7
+source-git-commit: 11e73011374fee3af1c0780acf9d96f122214e8e
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 1%
 
 ---
 
-# Personalisierungsbereiche {#personalization-areas}
+# Personalisierungskontext und -tool {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ Alle mit dem Editor-Symbol verknüpften Felder können den Personalisierungsedit
 
 ## E-Mails personalisieren
 
-Bei der Erstellung von E-Mail-Kanälen ist das Feld **E-Mail-Betreff** personalisierbar.
+Wenn Sie eine E-Mail erstellen, können Sie Personalisierung im Feld **E-Mail-Betreff** der Nachricht hinzufügen.
 
 ![](assets/perso_subject.png)
 
@@ -37,9 +37,7 @@ Im E-Mail-Designer können Sie den Inhalt personalisieren:
 
 ## Push-Benachrichtigungen personalisieren
 
-Im Kanal **Push** können Sie mit der Personalisierung Ihre Push-Benachrichtigung präzisieren.
-
-Sie können Personalisierung in den folgenden Feldern hinzufügen:
+Sie können Ihre **Push-Benachrichtigungen** auch in den folgenden Feldern personalisieren:
 
 * **Title**
 * **Body**
@@ -49,8 +47,7 @@ Sie können Personalisierung in den folgenden Feldern hinzufügen:
 
 ![](assets/perso_push.png)
 
-Eine vollständige Dokumentation zur Konfiguration der Push-Benachrichtigung finden Sie in [diesem Abschnitt](../configure-push.md).
-
+Weitere Informationen zur Konfiguration der Push-Benachrichtigung finden Sie in [diesem Abschnitt](../configure-push.md).
 
 ## Ausdruck-Editor verwenden
 
