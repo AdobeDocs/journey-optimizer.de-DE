@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9368f01d2a15879ce58518b09a78d09d5390818b
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 5%
 
 ---
 
@@ -26,8 +26,8 @@ Bei der Zielgruppe eines Profils stehen eventuell mehrere E-Mail-Adressen in der
 
 Mit Journey Optimizer können Sie festlegen, welche E-Mail-Adresse vom Profil-Dienst verwendet werden soll, und Prioritäten setzen, wenn mehrere Adressen verfügbar sind. Gehen Sie dazu wie folgt vor:
 
-1. Rufen Sie das Menü Einstellungen/Allgemeine Einstellungen auf.
-1. Das Feld &quot;Ausführungsadressen&quot;zeigt an, welches Feld derzeit standardmäßig zur Bestimmung der E-Mail-Adressen der Profile verwendet wird. Klicken Sie auf die Schaltfläche Bearbeiten, um sie zu ändern.
+1. Rufen Sie das Menü **[!UICONTROL Kanal]** / **[!UICONTROL Allgemein]** auf.
+1. In diesem Bildschirm wird das derzeit standardmäßig verwendete Feld zur Bestimmung der E-Mail-Adressen der Profile angezeigt. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um es zu ändern.
 
 ![](../assets/primary-address.png)
 
@@ -35,10 +35,8 @@ Mit Journey Optimizer können Sie festlegen, welche E-Mail-Adresse vom Profil-Di
 
 ![](../assets/primary-address-edit.png)
 
-1. Die Liste aller XDM-Felder vom Typ E-Mail-Adresse wird angezeigt. Wählen Sie das zu verwendende Feld aus und klicken Sie dann auf Hinzufügen.
+1. Die Liste der verfügbaren XDM-Felder wird angezeigt. Wählen Sie das zu verwendende Feld aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   -SCREENSHOT-
+   ![](../assets/primary-address-field.png)
 
-!!keine XDM-Felder auf der Bühne verfügbar
-
-1. Sie können auch ein zusätzliches Feld auswählen, das als sekundäre E-Mail-Adresse verwendet werden soll. Auf diese Weise können Sie festlegen, welches Feld verwendet werden soll, wenn das Primärfeld für ein Profil leer ist.
+<!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile.-->
