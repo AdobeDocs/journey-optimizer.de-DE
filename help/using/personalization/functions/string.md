@@ -2,9 +2,9 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 2cd1a6cfede96bd1afb0b3f784d20cda5ebc6cb7
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '747'
 ht-degree: 7%
 
 ---
@@ -263,4 +263,43 @@ Die folgende Abfrage wird verwendet, um den Domänennamen aus einer E-Mail-Adres
 
 ```sql
 regexGroup(emailAddress,"@(\w+)", 1)
+```
+
+
+## Funktionen
+
+## Kleinbuchstabe{#lower}
+
+Die Funktion **lowerCase** wandelt eine Zeichenfolge in Kleinbuchstaben um.
+
+Syntax:
+
+```sql
+{%=lowerCase(string)%}
+```
+
+Beispiel:
+
+Diese Funktion wandelt den Vornamen des Profils in Kleinbuchstaben um.
+
+```sql
+{%=lowerCase(profile.person.name.firstName)%}
+```
+
+## Großbuchstabe{#upper}
+
+Die Funktion **upper** wandelt eine Zeichenfolge in Kleinbuchstaben um.
+
+Syntax:
+
+```sql
+{%=upperCase(string)%}
+```
+
+Beispiel:
+
+Diese Funktion wandelt den Nachnamen des Profils in Großbuchstaben um.
+
+```sql
+{%=upperCase(profile.person.name.lastName)%}
 ```
