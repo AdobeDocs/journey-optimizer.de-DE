@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Ist null
+## Ist null{#isNull}
 
 Die Funktion `isNull` bestimmt, ob keine Objektreferenz vorhanden ist.
 
@@ -31,7 +31,7 @@ Die folgende PQL-Abfrage prüft, ob die Privatadresse der Person nicht vorhanden
 isNull(person.homeAddress)
 ```
 
-## Ist nicht null
+## Ist nicht null{#isNotNull}
 
 Die Funktion `isNotNull` bestimmt, ob eine Objektreferenz vorhanden ist.
 
