@@ -2,9 +2,9 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ in ({VALUE},{ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen mit Geburtstagen im März, Juni oder September.
+Der folgende Vorgang definiert Personen mit Geburtstagen im März, Juni oder September.
 
 ```sql
 in (person.birthMonth, [3, 6, 9])
@@ -49,10 +49,10 @@ notIn ({VALUE},{ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen mit Geburtstagen, die nicht im März, Juni oder September leben.
+Der folgende Vorgang definiert Personen mit Geburtstagen, die nicht im März, Juni oder September leben.
 
 ```sql
-notIn (person.birthMonth ,[3, 6, 9])
+{%=notIn(person.birthMonth ,[3, 6, 9])%}
 ```
 
 ## Überschneidungen{#intersects}
@@ -67,15 +67,15 @@ intersects({ARRAY},{ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, deren Lieblingsfarben mindestens eine Farbe Rot, Blau oder Grün enthalten.
+Der folgende Vorgang definiert Personen, deren Lieblingsfarben mindestens eine Farbe Rot, Blau oder Grün enthalten.
 
 ```sql
-intersects(person.favoriteColors,["red", "blue", "green"])
+{%=intersects(person.favoriteColors,["red", "blue", "green"])%}
 ```
 
-## Schnittmenge{#intersection}
+<!-- ## Intersection{#intersection}
 
-Die `intersection`-Funktion wird verwendet, um die gemeinsamen Mitglieder von zwei Arrays oder Listen zu bestimmen.
+The `intersection` function is used to determine the common members of two arrays or lists.
 
 **Format**
 
@@ -83,13 +83,14 @@ Die `intersection`-Funktion wird verwendet, um die gemeinsamen Mitglieder von zw
 intersection({ARRAY},{ARRAY})
 ```
 
-**Beispiel**
+**Example**
 
-Die folgende PQL-Abfrage definiert, ob die Farben Rot, Blau und Grün von Person 1 und Person 2 jeweils am liebsten sind.
+The following operation defines if person 1 and person 2 both have favorite colors of red, blue, and green.
 
 ```sql
 intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
 ```
+-->
 
 ## Untergruppe von{#subset}
 
@@ -103,10 +104,10 @@ subsetOf({ARRAY},{ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, die alle ihre Lieblingsstädte besucht haben.
+Die folgende Operation definiert Personen, die alle ihre Lieblingsstädte besucht haben.
 
 ```sql
-subsetOf(person.favoriteCities,person.visitedCities)
+{%=subsetOf(person.favoriteCities,person.visitedCities)%}
 ```
 
 ## Übersatz von{#superset}
@@ -121,10 +122,10 @@ supersetOf({ARRAY},{ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, die mindestens einmal Sushi und Pizza gegessen haben.
+Die folgende Operation definiert Personen, die mindestens einmal Sushi und Pizza gegessen haben.
 
 ```sql
-supersetOf(person.eatenFoods,["sushi", "pizza"])
+{%=supersetOf(person.eatenFoods,["sushi", "pizza"]%}
 ```
 
 ## Umfasst{#includes}
@@ -139,10 +140,10 @@ includes({ARRAY},{ITEM})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, deren Lieblingsfarbe Rot enthält.
+Der folgende Vorgang definiert Personen, deren Lieblingsfarbe Rot enthält.
 
 ```sql
-includes(person.favoriteColors,"red")
+{%=includes(person.favoriteColors,"red")%}
 ```
 
 ## Distinct{#distinct}
@@ -157,10 +158,10 @@ distinct({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt Personen an, die Bestellungen in mehr als einem Store aufgegeben haben.
+Der folgende Vorgang gibt Personen an, die Bestellungen in mehr als einem Store aufgegeben haben.
 
 ```sql
-distinct(person.orders.storeId).count() > 1
+{%=distinct(person.orders.storeId).count() > 1%}
 ```
 
 ## First `n` in array {#first-n}
@@ -181,13 +182,13 @@ topN({ARRAY},{VALUE}, {AMOUNT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die fünf wichtigsten Bestellungen mit dem höchsten Preis zurück.
+Der folgende Vorgang gibt die fünf wichtigsten Bestellungen mit dem höchsten Preis zurück.
 
 ```sql
-topN(orders,price, 5)
+{%=topN(orders,price, 5)%}
 ```
 
-## Letztes `n` im Array
+## Letzte `n` in Array{#last-n}
 
 Die Funktion `bottomN` gibt die letzten `N` Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden.
 
@@ -205,10 +206,10 @@ bottomN({ARRAY},{VALUE}, {AMOUNT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die fünf wichtigsten Bestellungen mit dem niedrigsten Preis zurück.
+Der folgende Vorgang gibt die fünf wichtigsten Bestellungen mit dem niedrigsten Preis zurück.
 
 ```sql
-bottomN(orders,price, 5)
+{%=bottomN(orders,price, 5)%
 ```
 
 ## Erster Eintrag{#head}
@@ -223,8 +224,8 @@ head({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die erste der fünf Top-Bestellungen mit dem höchsten Preis zurück. Weitere Informationen zur Funktion `topN` finden Sie im Abschnitt [first `n` im Array](#first-n).
+Der folgende Vorgang gibt die erste der fünf wichtigsten Bestellungen mit dem höchsten Preis zurück. Weitere Informationen zur Funktion `topN` finden Sie im Abschnitt [first `n` im Array](#first-n).
 
 ```sql
-head(topN(orders,price, 5))
+{%=head(topN(orders,price, 5))%}
 ```
