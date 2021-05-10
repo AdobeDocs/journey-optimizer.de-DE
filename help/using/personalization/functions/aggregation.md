@@ -2,9 +2,9 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '158'
 ht-degree: 7%
 
 ---
@@ -27,10 +27,10 @@ count({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die Anzahl der Bestellungen im Array zurück.
+Der folgende Vorgang gibt die Anzahl der Bestellungen im Array zurück.
 
 ```sql
-count(orders)
+{%=count(orders)%}
 ```
 
 ## Sum{#sum}
@@ -45,10 +45,10 @@ sum({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die Summe aller Bestellpreise zurück.
+Der folgende Vorgang gibt die Summe aller Bestellpreise zurück.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
 ## Durchschnitt{#average}
@@ -63,10 +63,10 @@ average({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt den Durchschnittspreis aller Bestellungen zurück.
+Der folgende Vorgang gibt den Durchschnittspreis aller Bestellungen zurück.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
 ## Minimum{#min}
@@ -81,10 +81,10 @@ min({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt den niedrigsten Preis aller Bestellungen zurück.
+Der folgende Vorgang gibt den niedrigsten Preis aller Bestellungen zurück.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
 ## Maximum{#max}
@@ -99,8 +99,8 @@ max({ARRAY})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt den höchsten Preis aller Bestellungen zurück.
+Der folgende Vorgang gibt den höchsten Preis aller Bestellungen zurück.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```
