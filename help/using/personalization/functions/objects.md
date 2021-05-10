@@ -2,9 +2,9 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ isNull({OBJECT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage prüft, ob die Privatadresse der Person nicht vorhanden ist.
+Der folgende Vorgang überprüft, ob die Heimatadresse der Person nicht vorhanden ist.
 
 ```sql
 isNull(person.homeAddress)
@@ -43,7 +43,7 @@ isNotNull({OBJECT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage prüft, ob die Privatadresse der Person vorhanden ist.
+Der folgende Vorgang prüft, ob die Privatadresse der Person vorhanden ist.
 
 ```sql
 isNotNull(person.homeAddress)
