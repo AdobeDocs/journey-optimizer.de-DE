@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,14 @@ Bei PTR-Aufzeichnungen können Empfänger-E-Mail-Server die Authentizität des V
 
 ## Zugriff auf PTR-Datensätze Ihrer Subdomänen
 
-Nachdem eine Subdomäne in Customer Journey Management delegiert wurde, wird automatisch ein PTR-Datensatz erstellt und dieser Subdomäne zugeordnet. Sie können darauf über das Menü **[!UICONTROL Message Configuration]** / **[!UICONTROL PTR records]** zugreifen.
+Nachdem eine Subdomäne in Customer Journey Management delegiert wurde, wird automatisch ein PTR-Datensatz erstellt und dieser Subdomäne zugeordnet. Sie können darauf über das Menü **[!UICONTROL Kanal]** / **[!UICONTROL PTR-Datensätze]** zugreifen.
 
-    -SCREENSHOT-
+![](../assets/ptr-records.png)
 
 Die Liste zeigt die für jede delegierte Subdomäne generierten PTR-Datensätze anhand der folgenden Syntax an:
 
-PTR-Datensätze folgen einer bestimmten Benennungssyntax:
 * ‚r‘ für Datensatz,
-* &quot;xx&quot; für 2 letzte Zahlen der IP-Adresse,
+* &quot;xx&quot; für die beiden letzten Zahlen der IP-Adresse,
 * Subdomänenname.
 
 Sie können einen PTR-Datensatz aus der Liste öffnen, um den zugehörigen Subdomänennamen und die IP-Adresse anzuzeigen.
