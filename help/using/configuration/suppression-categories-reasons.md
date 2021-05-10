@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 0%
+source-wordcount: '139'
+ht-degree: 2%
 
 ---
 
@@ -37,4 +37,5 @@ Mögliche Fehlerursachen und die damit verbundene Kategorie sind:
 | Postfach voll | Das Postfach des Empfängers ist voll und konnte die Nachricht nicht empfangen. | Soft |
 | DNS-Fehler | xxx | Weich |
 | Ungültiger Empfänger | xxx | Hard |
-!!- die Anreicherung
+
+    !! Liste zum Aufwerten
