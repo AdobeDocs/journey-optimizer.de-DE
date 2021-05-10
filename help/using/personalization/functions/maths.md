@@ -2,7 +2,7 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 5%
@@ -29,7 +29,7 @@ Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdr
 
 Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
 
-```
+```sql
 {%=product1.price + product2.price%}
 ```
 
@@ -47,7 +47,7 @@ Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument
 
 Das folgende Verfahren ermittelt das Produkt des Bestandes und den Preis eines Produkts, um den Bruttowert des Produkts zu ermitteln.
 
-```
+```sql
 {%=product.inventory * product.price%}
 ```
 
@@ -65,7 +65,7 @@ Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argum
 
 Im Folgenden wird der Preisunterschied zwischen zwei verschiedenen Produkten ermittelt.
 
-```
+```sql
 {%=product1.price - product2.price%}
 ```
 
@@ -83,7 +83,7 @@ Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausd
 
 Im Folgenden wird der Quotient zwischen den insgesamt verkauften Produkten und dem verdienten Gesamtgeld ermittelt, um die durchschnittlichen Kosten pro Artikel zu sehen.
 
-```
+```sql
 {%=totalProduct.price / totalProduct.sold%}
 ```
 
@@ -101,6 +101,6 @@ Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der 
 
 Der folgende Vorgang überprüft, ob das Alter der Person durch fünf teilbar ist.
 
-```
+```sql
 {%=person.age % 5 = 0%}
 ```
