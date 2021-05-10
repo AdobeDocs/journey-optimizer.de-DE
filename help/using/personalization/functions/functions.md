@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 701d6b64d167b5c38268368fcb640cc18d8ec817
+source-git-commit: d34871fdbe36629cf38ad0b9f8ac76f14e1c0284
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -39,14 +39,16 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Array-Funktionen**
 
-| [Durchschnitt](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum) (min) |
-| [Anzahl](aggregation.md#count) | [einschließlich](arrays-list.md#includes)  | [Nicht in](arrays-list.md#notin) (notIn) |
-| [Unterscheiden](arrays-list.md#distinct) | [Überschneidungen](arrays-list.md#intersects) | [Untergruppe von](arrays-list.md#subset) |
-| [Erster Eintrag](arrays-list.md#head) (Kopf) | [Letztes n im Array](arrays-list.md#last-n) (lastN) | Summe |
-| [First n in array](arrays-list.md#first-n) (topN)| [Maximum](aggregation.md#maximum) (max) | [Superset of](arrays-list.md#superset) |
+|  |  |  |
+| --------- | ----------- | ----------- |
+| [Durchschnittlich](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum)  (min) |
+| [Count](aggregation.md#count) | [Enthält](arrays-list.md#includes) | [Not in](arrays-list.md#notin) (notIn) |
+| [Unterscheiden](arrays-list.md#distinct) | [Intersekten](arrays-list.md#intersects) | [Untergruppe von](arrays-list.md#subset) |
+| [Erster Posten](arrays-list.md#head)  (Kopf) | [Letztes n im Array](arrays-list.md#last-n)  (lastN) | Sum |
+| [Erstes n im Array](arrays-list.md#first-n)  (topN) | [Maximum](aggregation.md#maximum) (max.) | [Superset](arrays-list.md#superset) |
 
 * [Durchschnittlich](aggregation.md#average)
-* [Count](aggregation.md#count)
+* [Anzahl](aggregation.md#count)
 * [Unterscheiden](arrays-list.md#distinct)
 * [Erster Posten](arrays-list.md#head)  (Kopf)
 * [Erstes n im Array](arrays-list.md#first-n)  (topN)
@@ -58,7 +60,7 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 * [Minimum](aggregation.md#minimum)  (min)
 * [Not in](arrays-list.md#notin) (notIn)
 * [Untergruppe von](arrays-list.md#subset)
-* Sum
+* Summe
 * [Superset](arrays-list.md#superset)
 
 **Funktionen zuordnen**
