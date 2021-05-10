@@ -2,20 +2,20 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Zuordnungsfunktionen {#maps}
+# Zuordnungsfunktionen{#maps}
 
 ![](../../assets/do-not-localize/badge.png)
 
 [!DNL Profile Query Language] (PQL) Angebote Funktionen, um die Interaktion mit Karten zu erleichtern.
 
-## Get
+## Get{#get}
 
 Die Funktion `get` wird verwendet, um den Wert einer Zuordnung für einen bestimmten Schlüssel abzurufen.
 
@@ -33,7 +33,7 @@ Die folgende PQL-Abfrage ruft den Wert der Identitätskarte für den Schlüssel 
 get(identityMap,"example@example.com")
 ```
 
-## Schlüssel
+## Schlüssel{#keys}
 
 Die Funktion `keys` wird zum Abrufen aller Schlüssel für eine bestimmte Map verwendet.
 
@@ -51,7 +51,7 @@ Die folgende PQL-Abfrage ruft alle Schlüssel für die Map `identityMap` ab.
 keys(identityMap)
 ```
 
-## Werte
+## Werte{#values}
 
 Die Funktion `values` wird verwendet, um alle Werte einer angegebenen Map abzurufen.
 
