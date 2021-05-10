@@ -2,7 +2,7 @@
 title: Personalisierungssyntax
 description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
 translation-type: tm+mt
-source-git-commit: ae0d32c271a77a859ee04d678c884e0203b6a256
+source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Es verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate
 
 Einfaches Ausdruck-Beispiel:
 
-```
+```sql
 {{profile.person.name}}
 ```
 
@@ -65,7 +65,7 @@ Alle Verweise werden mit einem Überprüfungsmechanismus validiert, der [hier](p
 
 **E-Mail-Adresserweiterung** bestimmen:
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
 {%else if contains(profile.personalEmail.address, ".org")%}
@@ -81,7 +81,7 @@ Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in
 
 **Sie können unterschiedliche Inhalte basierend auf der Segmentmitgliedschaft** rendern:
 
-```
+```sql
 {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
 {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
@@ -91,7 +91,7 @@ Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in
 
 **Stellen Sie fest, ob ein Profil bereits Mitglied** ist:
 
-```
+```sql
 {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
     You're a member!
 {%else%}
@@ -149,7 +149,7 @@ Blöcke sind Ausdruck mit Blocköffnungs- ({{# }}) und -schließenden ({{/}}).
 Der Helfer **if** wird zum Definieren eines bedingten Blocks verwendet.
 Wenn die Auswertung des Ausdrucks &quot;true&quot;zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
 
-```
+```sql
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
@@ -159,7 +159,7 @@ Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweis
 
 **Verschiedene Store-Links basierend auf bedingten Ausdrücken** rendern:
 
-```
+```sql
 {%#if profile.homeAddress.countryCode = "FR"%}
   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
 {%else%}
@@ -173,7 +173,7 @@ Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweis
 
 **Rendering einiger Inhalte basierend auf der E-Mail-Adresserweiterung**:
 
-```
+```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
@@ -189,14 +189,14 @@ Wir können auf die einzelnen Array-Elemente verweisen, indem wir den Suchbegrif
 
 Beispiel:
 
-```
+```sql
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
     </br>
 {{/each}}
 ```
 
-```
+```sql
 {{#each profile.homeAddress.city}}
   {{@index}} : {{this}}<br>
 {{/each}}
@@ -204,7 +204,7 @@ Beispiel:
 
 **Eine Liste von Produkten, die dieser Benutzer im Warenkorb** hat, rendern:
 
-```
+```sql
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
    </br>
@@ -217,7 +217,7 @@ Der **#with**-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu
 
 Beispiel:
 
-```
+```sql
 {{#with profile.person.name}}
 {{this.firstName}} {{this.lastName}}
 {{/with}}
