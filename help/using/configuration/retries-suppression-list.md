@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 6988a6ab9412e5d27f1ba9d1145cc11c7c06e7b7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Wenn eine Nachricht aufgrund eines Fehlers bei einem weichen Absprung fehlschlä
 
 In der Standardkonfiguration ist die Limit-Schwellenwert-Nummer auf 3-Fehler festgelegt, d. h. die Adresse wird an die Quartil-Liste zum dritten aufgetretenen Fehler gesendet. Wenn ein Versand nach einem erneuten Versuch erfolgreich war, wird der Fehlerzähler erneut initialisiert.
 
-Sie können den Limit-Schwellenwert direkt über die Schaltfläche Bearbeiten im Menü Allgemeine Einstellungen ändern.
+Sie können den Grenzwert mithilfe der Schaltfläche **[!UICONTROL Bearbeiten]** ändern.
 
 ![](../assets/retries-edition.png)
