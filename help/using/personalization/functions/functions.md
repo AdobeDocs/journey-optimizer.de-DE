@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: d34871fdbe36629cf38ad0b9f8ac76f14e1c0284
+source-git-commit: 1220db4c2210338ca4fb8b4df9d1d96288f0e72d
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 7%
 
 ---
 
@@ -39,16 +39,16 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Array-Funktionen**
 
-|  |  |  |
-| --------- | ----------- | ----------- |
-| [Durchschnittlich](aggregation.md#average) | [In](arrays-list.md#in) | [Minimum](aggregation.md#minimum)  (min) |
-| [Count](aggregation.md#count) | [Enthält](arrays-list.md#includes) | [Not in](arrays-list.md#notin) (notIn) |
-| [Unterscheiden](arrays-list.md#distinct) | [Intersekten](arrays-list.md#intersects) | [Untergruppe von](arrays-list.md#subset) |
-| [Erster Posten](arrays-list.md#head)  (Kopf) | [Letztes n im Array](arrays-list.md#last-n)  (lastN) | Sum |
-| [Erstes n im Array](arrays-list.md#first-n)  (topN) | [Maximum](aggregation.md#maximum) (max.) | [Superset](arrays-list.md#superset) |
+<table>
+    <tr><td>[Durchschnitt](aggregation.md#average)</td><td>[In](arrays-Liste.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
+    <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
+    <tr><td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td>Sum</td></tr>
+    <tr><td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max.)</td><td>[Superset of](arrays-Liste.md#superset)</td></tr>
+</table>
 
 * [Durchschnittlich](aggregation.md#average)
-* [Anzahl](aggregation.md#count)
+* [Count](aggregation.md#count)
 * [Unterscheiden](arrays-list.md#distinct)
 * [Erster Posten](arrays-list.md#head)  (Kopf)
 * [Erstes n im Array](arrays-list.md#first-n)  (topN)
