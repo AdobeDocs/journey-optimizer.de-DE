@@ -2,7 +2,7 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 1220db4c2210338ca4fb8b4df9d1d96288f0e72d
+source-git-commit: 215d2e548bc3d711d359138ff36283f6a8bb9828
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 7%
@@ -39,7 +39,7 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Array-Funktionen**
 
-<table>
+<table style="table-layout:fixed">
     <tr><td>[Durchschnitt](aggregation.md#average)</td><td>[In](arrays-Liste.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
     <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
