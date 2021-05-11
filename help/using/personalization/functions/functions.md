@@ -2,9 +2,9 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: e6d736ee9c1b2c83ce510d6ee96a133814a8c463
+source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
@@ -104,51 +104,99 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 **Objektfunktionen**
 
-* [Ist nicht null](objects.md#isNotNull)
-* [Ist null](objects.md#isNull)
+<table>
+    <tr>
+        <td><a href="objects.md#isNotNull">Ist nicht null</a> (isNotNull)</td><td>Mit dieser Funktion wird bestimmt, ob eine Objektreferenz vorhanden ist</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#isNull">Ist null</a> (isNull)</td><td>Mit dieser Funktion wird bestimmt, ob keine Objektreferenz vorhanden ist</td>
+    </tr>
+</table>
 
 **Zeichenfolgen-Funktionen**
 
 <table>
     <tr>
-        <td>Camel Case</td>
-        <td>Concat</td>
-        <td>[Enthält](string.md#contains)</td>
+        <td><a href="objects.md#isNotNull">Camel Case</a> (camelCase)</td><td>Diese Funktion wird verwendet, um</td>
     </tr>
     <tr>
-        <td>[Enthält nicht](string.md#doesNotContain)</td>
-        <td>[Endet nicht mit](string.md#doesNotEndWith)</td>
-        <td>[Beginn nicht mit](string.md#doesNotStartWith)</td>
+        <td><a href="objects.md#isNull">Concat</a> (Concat)</td><td>Diese Funktion wird verwendet, um</td>
     </tr>
     <tr>
-        <td>Encode64</td>
-        <td>[Ends with](string.md#endsWith)</td>
-        <td>[Gleich](string.md#equals)</td>
+        <td><a href="string.md#contains">Enthält</a> (enthält)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält</td>
     </tr>
     <tr>
-        <td>EqualsIgnoreCase</td>
-        <td>IsEmpty</td>
-        <td>Length</td>
+        <td><a href="string.md#doesNotContain">Enthält</a>  nicht (doesNotContain)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge keine angegebene Unterzeichenfolge enthält</td>
     </tr>
     <tr>
-        <td>[like](string.md#like)</td>
-        <td>[Kleinbuchstabe](string.md#lower)</td>
-        <td>[Übereinstimmungen](string.md#match)</td>
+        <td><a href="string.md#doesNotEndWith">endet nicht mit</a> (doesNotEndWith)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge endet</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#doesNotStartWith">Beginn nicht mit</a> (doesNotStartWith)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge Beginn</td>
     </tr>
     <tr>
-        <td> MD5</td>
-        <td>[Nicht gleich](string.md#notEqualTo)</td>
-        <td>[Reguläre Ausdruck-Gruppe](string.md#regexGroup) (regexGroup)</td>
+        <td><a href="string.md#doesNotContain">Encode64</a> ()</td><td>Diese Funktion wird verwendet, um</td>
     </tr>
     <tr>
-        <td>Replace</td><td>ReplaceAll</td>
-        <td>Aufspaltung</td>
-        <td>[Beginn mit](string.md#startsWith)</td>
+        <td><a href="string.md#endsWith">Endet mit</a> (endsWith)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.</td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Gleich</a> (=)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge Beginn</td>
     </tr>
     <tr>
-        <td>Titelfall</td>
-        <td>Beschneiden</td>
-        <td>[Großbuchstabe](string.md#upper)</td>
+        <td><a href="string.md#doesNotContain">EqualsIgnoreCase</a> ()</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#endsWith">IsEmpty</a> ()</td><td>Diese Funktion wird verwendet, um </td>
+    </tr>
+        </tr>
+    <tr>
+        <td><a href="string.md#equals">Length</a> ()</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">like</a>  (like)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge einem angegebenen Muster entspricht</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#lower">Kleinbuchstabe</a> (Kleinbuchstabe)</td><td>Diese Funktion konvertiert eine Zeichenfolge in Kleinbuchstaben</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#matches">Übereinstimmungen</a>  (Übereinstimmungen)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">MD5</a> ()</td><td>Diese Funktion wird verwendet, um </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">ungleich</a> (notEqualsTo)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht der angegebenen Zeichenfolge entspricht</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Reguläre Ausdruck-Gruppe</a> (regexGroup)</td><td>Diese Funktion wird verwendet, um spezifische Informationen basierend auf dem regulären Ausdruck zu extrahieren, der bereitgestellt wird.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#like">Ersetzen</a>  (Ersetzen)</td><td>Diese Funktion wird verwendet, um </td>
+    </tr>
+    <tr>
+        <td><a href="string.md#notEqualTo">Alle</a>  ersetzen(replaceAll)</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Teilen</a>  (geteilt)</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Beginn mit</a> (startsWith)</td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge Beginn</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#startsWith">Fall</a>  des Titels (titleCase)</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    </tr>
+    <tr>
+        <td><a href="string.md#regexGroup">Trim</a> (trim)</td><td>Diese Funktion wird verwendet, um</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#upper">Großbuchstabe</a> (Großbuchstabe)</td><td>Diese Funktion konvertiert eine Zeichenfolge in Großbuchstaben</td>
     </tr>
 </table>
 
