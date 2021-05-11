@@ -7,10 +7,10 @@ type: Documentation
 solution: Journey Optimizer
 hide: true
 translation-type: tm+mt
-source-git-commit: 11e73011374fee3af1c0780acf9d96f122214e8e
+source-git-commit: 3fa63e103c2185062ff779c35d19387aea523f62
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 42%
+source-wordcount: '599'
+ht-degree: 41%
 
 ---
 
@@ -47,7 +47,6 @@ ht-degree: 42%
          + [Operatoren](using/personalization/functions/operators.md)
          + [Aggregation](using/personalization/functions/aggregation.md)
          + [Arrays und Listen](using/personalization/functions/arrays-list.md)
-         + [Mathematisch](using/personalization/functions/maths.md)
          + [Karten](using/personalization/functions/maps.md)
          + [Objekte](using/personalization/functions/objects.md)
          + [String ](using/personalization/functions/string.md)
