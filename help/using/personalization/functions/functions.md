@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 071e5e2a854c3fce289398ffe639d5ca47e4f59e
+source-git-commit: db6f737c306801935887320bb3c6ff634cbc074c
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 3%
 
 ---
 
@@ -40,36 +40,14 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 **Array-Funktionen**
 
 <table>
-    <tr><td><a href="aggregation.md#average">Durchschnittlich</a></td><td><a href="arrays-list.md#in">In</a></td><td><a href="aggregation.md#minimum">Minimum</a></td></tr>
-    <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
-    <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
-    <tr><td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td>Sum</td></tr>
-    <tr><td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td>[Maximum](aggregation.md#maximum) (max.)</td><td>[Superset of](arrays-Liste.md#superset)</td></tr>
-</table>
-
-
-**Funktionen zuordnen**
-
-* [Get](maps.md#get)
-* [Schlüssel](maps.md#keys)
-* [Werte](maps.md#values)
-
-**Objektfunktionen**
-
-* [Ist nicht null](objects.md#isNotNull)
-* [Ist null](objects.md#isNull)
-
-**Zeichenfolgen-Funktionen**
-
-<table>
     <tr>
-        <td>[Durchschnitt](aggregation.md#average)</td><td>Die Funktion "Durchschnitt"gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#average">Durchschnittlich</a></td><td>Die Funktion "Durchschnitt"gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td>[In](arrays-Liste.md#in)</td><td>Mit der Funktion "in"wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
+        <td><a href="arrays-list.md#in">In</a></td><td>Mit der Funktion "in"wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
     </tr>
     <tr>
-        <td>[Minimum](aggregation.md#minimum) (min)</td><td>Die Funktion "min"gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>Die Funktion "min"gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
         <td>[Anzahl](aggregation.md#count)</td><td></td>
@@ -96,7 +74,7 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
         <td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td></td>
     </tr>
     <tr>
-        <td>Summe</td><td></td>
+        <td>Sum</td><td></td>
     </tr>
     <tr>
         <td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td></td>
@@ -105,10 +83,23 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
         <td>[Maximum](aggregation.md#maximum) (max.)</td><td></td>
     </tr>
     <tr>
-        <td>[Superset of](arrays-Liste.md#superset)</td><td></td>
+    <td>[Superset of](arrays-Liste.md#superset)</td><td></td>
     </tr>
 </table>
 
+
+**Funktionen zuordnen**
+
+* [Get](maps.md#get)
+* [Schlüssel](maps.md#keys)
+* [Werte](maps.md#values)
+
+**Objektfunktionen**
+
+* [Ist nicht null](objects.md#isNotNull)
+* [Ist null](objects.md#isNull)
+
+**Zeichenfolgen-Funktionen**
 
 <table>
     <tr>
