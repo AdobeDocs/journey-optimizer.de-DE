@@ -2,9 +2,9 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '493'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ Der folgende Vorgang definiert Personen, deren Lieblingsfarbe Rot enthält.
 
 ## Distinct{#distinct}
 
-Mit der Funktion `distinct` werden Duplikat-Werte aus einem Array oder einer Liste entfernt.
+Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste mit entfernten Duplikaten abzurufen.
 
 **Format**
 
