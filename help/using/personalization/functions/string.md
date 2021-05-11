@@ -2,7 +2,7 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
+source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 7%
@@ -285,7 +285,7 @@ Diese Funktion wandelt den Vornamen des Profils in Kleinbuchstaben um.
 
 ## Großbuchstabe{#upper}
 
-Die Funktion **upper** wandelt eine Zeichenfolge in Kleinbuchstaben um.
+Die Funktion **upper** wandelt eine Zeichenfolge in Großbuchstaben um.
 
 Syntax:
 
