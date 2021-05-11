@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: db6f737c306801935887320bb3c6ff634cbc074c
+source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '628'
+ht-degree: 2%
 
 ---
 
@@ -41,49 +41,49 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Durchschnittlich</a></td><td>Die Funktion "Durchschnitt"gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#average">Durchschnittlich</a></td><td>Diese Funktion gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>Mit der Funktion "in"wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
+        <td><a href="arrays-list.md#in">In</a></td><td>Mit dieser Funktion wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>Die Funktion "min"gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#min">Minimum</a> (min)</td><td>Diese Funktion gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td>[Anzahl](aggregation.md#count)</td><td></td>
+        <td><a href="aggregation.md#count">Count</a></td><td>Diese Funktion gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück</td>
     </tr>
     <tr>
-        <td>[Enthält](arrays-Liste.md#contains)</td><td></td>
+        <td><a href="arrays-list.md#includes">Enthält</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
     </tr>
     <tr>
-        <td>[Nicht in](arrays-Liste.md#notin) (notIn)</td><td></td>
+        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>Diese Funktion bestimmt, ob ein Element kein Element eines Arrays oder einer Liste ist.</td>
     </tr>
     <tr>
-        <td>[Distinct](arrays-Liste.md#different)</td><td></td>
+        <td><a href="arrays-list.md#distinct">Unterscheiden</a></td><td>Diese Funktion ruft Werte aus einem Array oder einer Liste mit entfernten Duplikaten ab.</td>
     </tr>
     <tr>
-        <td>[Intersects](arrays-Liste.md#intersects)</td><td></td>
+        <td><a href="arrays-list.md#intersects">Intersekten</a></td><td>Diese Funktion ermittelt, ob zwei Arrays oder Listen mindestens ein gemeinsames Mitglied haben</td>
     </tr>
     <tr>
-        <td>[Untergruppe von](arrays-Liste.md#subset)</td><td></td>
+        <td><a href="arrays-list.md#subset">Untergruppe von</a>(UntergruppeOf)</td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Untergruppe eines anderen Arrays (Array B) ist, d. h. wenn alle Elemente im Array A Elemente des Arrays B sind</td>
     </tr>
     <tr>
-        <td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td></td>
+        <td><a href="arrays-list.md#head">Erster Posten</a> (Kopf)</td><td>Diese Funktion gibt das erste Element im Array oder in der Liste zurück</td>
     </tr>
     <tr>
-        <td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td></td>
+        <td><a href="arrays-list.md#last-n">Letztes n im Array</a> (lastN)</td><td>Diese Funktion gibt die letzten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td></td>
+        <td><a href="arrays-list.md#first-n">Erstes n im Array</a> (topN)</td><td>Diese Funktion gibt die ersten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
     </tr>
     <tr>
-        <td>[Maximum](aggregation.md#maximum) (max.)</td><td></td>
+        <td><a href="aggregation.md#max">Maximum</a>(max.)</td><td>Diese Funktion gibt den größten der ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-    <td>[Superset of](arrays-Liste.md#superset)</td><td></td>
+    <td><a href="arrays-list.md#superset">Superset</td><td>Diese Funktion wird beendet, wenn ein bestimmtes Array (Array A) eine Übermenge eines anderen Arrays (Array B) ist, d. h. wenn dieses Array A alle Elemente im Array B enthält.</td>
     </tr>
 </table>
 
