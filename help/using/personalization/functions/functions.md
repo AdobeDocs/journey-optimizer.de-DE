@@ -2,9 +2,9 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 1fe06829b1030bdaa42427a31f6f329512d05242
+source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 **Array-Funktionen**
 
 <table>
-    <tr><td>[Durchschnitt](aggregation.md#average)</td><td>[In](arrays-Liste.md#in)</td><td>[Minimum](aggregation.md#minimum) (min)</td></tr>
+    <tr><td><a href="aggregation.md#average">Durchschnittlich</a></td><td><a href="arrays-list.md#in">In</a></td><td><a href="aggregation.md#minimum">Minimum</a></td></tr>
     <tr><td>[Anzahl](aggregation.md#count)</td><td>[Enthält](arrays-Liste.md#contains)</td><td>[Nicht in](arrays-Liste.md#notin) (notIn)</td></tr>
     <tr><td>[Distinct](arrays-Liste.md#different)</td><td>[Intersects](arrays-Liste.md#intersects)</td><td>[Untergruppe von](arrays-Liste.md#subset)</td></tr>
     <tr><td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td>Sum</td></tr>
