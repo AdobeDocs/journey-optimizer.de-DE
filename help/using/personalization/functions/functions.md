@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 6326dbd0efdca6f7013e5fa4b59eb0e39d302bc3
+source-git-commit: e6d736ee9c1b2c83ce510d6ee96a133814a8c463
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -41,58 +41,66 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Durchschnittlich</a></td><td>Diese Funktion gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#average">Durchschnitt</a> (Durchschnitt)</td><td>Diese Funktion gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>Mit dieser Funktion wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
+        <td><a href="arrays-list.md#in">In</a> (in)</td><td>Mit dieser Funktion wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimum</a> (min)</td><td>Diese Funktion gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#min">Minimum</a>  (min)</td><td>Diese Funktion gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count">Count</a></td><td>Diese Funktion gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück</td>
+        <td><a href="aggregation.md#count">Anzahl</a>  (Anzahl)</td><td>Diese Funktion gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Enthält</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
+        <td><a href="arrays-list.md#includes">Enthält</a>  (einschließlich)</td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Not in</a>(notIn)</td><td>Diese Funktion bestimmt, ob ein Element kein Element eines Arrays oder einer Liste ist.</td>
+        <td><a href="arrays-list.md#notin">Not in</a> (notIn)</td><td>Diese Funktion bestimmt, ob ein Element kein Element eines Arrays oder einer Liste ist.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">Unterscheiden</a></td><td>Diese Funktion ruft Werte aus einem Array oder einer Liste mit entfernten Duplikaten ab.</td>
+        <td><a href="arrays-list.md#distinct">Distinct</a> (different)</td><td>Diese Funktion ruft Werte aus einem Array oder einer Liste mit entfernten Duplikaten ab.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersekten</a></td><td>Diese Funktion ermittelt, ob zwei Arrays oder Listen mindestens ein gemeinsames Mitglied haben</td>
+        <td><a href="arrays-list.md#intersects">Intersects</a> (intersects)</td><td>Diese Funktion ermittelt, ob zwei Arrays oder Listen mindestens ein gemeinsames Mitglied haben</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">Untergruppe von</a>(UntergruppeOf)</td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Untergruppe eines anderen Arrays (Array B) ist, d. h. wenn alle Elemente im Array A Elemente des Arrays B sind</td>
+        <td><a href="arrays-list.md#subset">Untergruppe von</a> (UntergruppeOf)</td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Untergruppe eines anderen Arrays (Array B) ist, d. h. wenn alle Elemente im Array A Elemente des Arrays B sind</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#head">Erster Posten</a> (Kopf)</td><td>Diese Funktion gibt das erste Element im Array oder in der Liste zurück</td>
+        <td><a href="arrays-list.md#head">Erster Posten</a>  (Kopf)</td><td>Diese Funktion gibt das erste Element im Array oder in der Liste zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Letztes n im Array</a> (lastN)</td><td>Diese Funktion gibt die letzten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
+        <td><a href="arrays-list.md#last-n">Letztes n im Array</a>  (lastN)</td><td>Diese Funktion gibt die letzten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
     </tr>
     <tr>
         <td>Sum</td><td></td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">Erstes n im Array</a> (topN)</td><td>Diese Funktion gibt die ersten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
+        <td><a href="arrays-list.md#first-n">Erstes n im Array</a>  (topN)</td><td>Diese Funktion gibt die ersten "N"-Elemente in einem Array zurück, wenn sie in aufsteigender Reihenfolge nach dem angegebenen numerischen Ausdruck sortiert werden</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">Maximum</a>(max.)</td><td>Diese Funktion gibt den größten der ausgewählten Werte im Array zurück</td>
+        <td><a href="aggregation.md#max">Maximum</a> (max.)</td><td>Diese Funktion gibt den größten der ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset</td><td>Diese Funktion wird beendet, wenn ein bestimmtes Array (Array A) eine Übermenge eines anderen Arrays (Array B) ist, d. h. wenn dieses Array A alle Elemente im Array B enthält.</td>
+    <td><a href="arrays-list.md#superset">Superset of</a> (supersetOf)</td><td>Diese Funktion wird beendet, wenn ein bestimmtes Array (Array A) eine Übermenge eines anderen Arrays (Array B) ist, d. h. wenn dieses Array A alle Elemente im Array B enthält.</td>
     </tr>
 </table>
 
 
 **Funktionen zuordnen**
 
-* [Get](maps.md#get)
-* [Schlüssel](maps.md#keys)
-* [Werte](maps.md#values)
+<table>
+    <tr>
+        <td><a href="maps.md#get">Get</a> (get)</td><td>Diese Funktion wird zum Abrufen des Wertes einer Zuordnung für einen bestimmten Schlüssel verwendet</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#keys">Schlüssel</a> (Schlüssel)</td><td>Mit dieser Funktion werden alle Schlüssel für eine bestimmte Zuordnung abgerufen</td>
+    </tr>
+    <tr>
+        <td><a href="maps.md#values">Werte</a> (Werte)</td><td>Diese Funktion ruft alle Werte einer angegebenen Map ab</td>
+    </tr>
+</table>
 
 **Objektfunktionen**
 
