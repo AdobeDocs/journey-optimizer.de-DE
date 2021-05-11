@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 3114dd81b3006c76d179543ac8063894a2c7aee4
+source-git-commit: 071e5e2a854c3fce289398ffe639d5ca47e4f59e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 3%
+source-wordcount: '522'
+ht-degree: 2%
 
 ---
 
@@ -63,29 +63,49 @@ Sie sind in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper
 
 <table>
     <tr>
-        <td>[Durchschnitt](aggregation.md#average)</td>
-        <td>[In](arrays-Liste.md#in)</td>
-        <td>[Minimum](aggregation.md#minimum) (min)</td>
+        <td>[Durchschnitt](aggregation.md#average)</td><td>Die Funktion "Durchschnitt"gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td>[Anzahl](aggregation.md#count)</td>
-        <td>[Enthält](arrays-Liste.md#contains)</td>
-        <td>[Nicht in](arrays-Liste.md#notin) (notIn)</td>
+        <td>[In](arrays-Liste.md#in)</td><td>Mit der Funktion "in"wird bestimmt, ob ein Element Mitglied eines Arrays oder einer Liste ist</td>
     </tr>
     <tr>
-        <td>[Distinct](arrays-Liste.md#different)</td>
-        <td>[Intersects](arrays-Liste.md#intersects)</td>
-        <td>[Untergruppe von](arrays-Liste.md#subset)</td>
+        <td>[Minimum](aggregation.md#minimum) (min)</td><td>Die Funktion "min"gibt die kleinsten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td>
-        <td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td>
-        <td>Summe</td>
+        <td>[Anzahl](aggregation.md#count)</td><td></td>
     </tr>
     <tr>
-        <td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td>
-        <td>[Maximum](aggregation.md#maximum) (max.)</td>
-        <td>[Superset of](arrays-Liste.md#superset)</td>
+        <td>[Enthält](arrays-Liste.md#contains)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Nicht in](arrays-Liste.md#notin) (notIn)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Distinct](arrays-Liste.md#different)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Intersects](arrays-Liste.md#intersects)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Untergruppe von](arrays-Liste.md#subset)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Erster Artikel](Arrays-Liste.md#head) (Kopf)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Zuletzt im Array](arrays-Liste.md#last-n) (lastN)</td><td></td>
+    </tr>
+    <tr>
+        <td>Summe</td><td></td>
+    </tr>
+    <tr>
+        <td>[Erstes n in Array](arrays-Liste.md#first-n) (topN)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Maximum](aggregation.md#maximum) (max.)</td><td></td>
+    </tr>
+    <tr>
+        <td>[Superset of](arrays-Liste.md#superset)</td><td></td>
     </tr>
 </table>
 
