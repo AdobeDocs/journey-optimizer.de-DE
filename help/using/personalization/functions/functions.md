@@ -2,10 +2,10 @@
 title: Bibliothek mit Hilfsfunktionen
 description: Journey Optimizer Helper-Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 0bfc6dbf63edd8dc2bc3127d613628ddc45c7d78
+source-git-commit: 3fa63e103c2185062ff779c35d19387aea523f62
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 1%
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 1%
 ## Grundlagen zur Vorlagensprache
 
 Verwenden Sie die Journey Optimizer-Vorlagensprache, um Vorgänge mit Daten wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und deren Bearbeitung im Zusammenhang mit der Personalisierung durchzuführen.
-
-Die verfügbaren Funktionen sind auf den folgenden Seiten aufgeführt:
-
-* [Operatoren](operators.md)
-* [Aggregation](aggregation.md)
-* [Arrays und Listen](arrays-list.md)
-* [Mathematisch](maths.md)
-* [Karten](maps.md)
-* [Objekte](objects.md)
-* [String ](string.md)
 
 Die Vorlagensprache wird bei Hilfsfunktionen genutzt, die in der Dropdown-Liste Personalisierung des Ausdruck-Editors verfügbar sind.
 
