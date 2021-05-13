@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Help Center {#cjm-documentation}
+# Hilfezentrum {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 ![](using/assets/do-not-localize/badge.png)
 **[!DNL Journey Optimizer]** ist derzeit in der  **Beta-** Version und unterliegt häufigen Änderungen ohne Vorankündigung. Geben Sie als Benutzer Ihr Erlebnis über die Schaltfläche Beta-Feedback in der Benutzeroberfläche des Produkts frei. Bekannte Probleme werden in dieser [Seite](using/known-issues.md) aufgeführt.
 
-## Was ist neu?
+## Neuigkeiten?
 
 
 * [Entscheidungs-](using/offers/get-started/starting-offer-decisioning.md) </br> ManagementErstellen Sie Angebot und liefern Sie Ihren Kunden das beste Angebot und die beste Erfahrung
@@ -43,4 +43,4 @@ ht-degree: 0%
 
 * [Adobe Experience Platform-Handbuch](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
 * [Übersicht über den Zugriff auf Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)
-* [Adobe Experience Platform-Entwicklerressourcen](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Adobe Experience Platform-Entwicklerressourcen](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
