@@ -1,17 +1,17 @@
 ---
 title: Entscheidungsregeln erstellen
-description: Entscheidungsregeln sind Einschränkungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
+description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Entscheidungsregel erstellen
 
-Entscheidungsregeln sind Beschränkungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Berechtigung zu bestimmen.
+Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 
 ## Header „Accept“ und „Content-Type“
 
@@ -19,8 +19,8 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API-Format**
 
