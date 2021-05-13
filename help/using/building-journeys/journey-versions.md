@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer 
 >
 >Weitere Informationen zu Einschränkungen für Journey-Versionen finden Sie auf [dieser Seite](../building-journeys/limitations.md#journey-versions-limitations).
 
-1. Öffnen Sie die neueste Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
+1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
    ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Sie können nur aus der neuesten Version einer Journey eine neue Journey erstellen.
+   >Sie können nur aus der aktuellen Version einer Journey eine neue Journey erstellen.
 
 1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
 
