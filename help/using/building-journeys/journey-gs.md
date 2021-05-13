@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 0b48a0b0793d523021a2e19f86e101bdbab88305
 workflow-type: tm+mt
 source-wordcount: '1511'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-## Voraussetzungen:    
+## Voraussetzungen
 
 Um Nachrichten mit Journey zu senden, muss folgende Konfiguration durchgeführt werden:
 
@@ -21,11 +21,11 @@ Um Nachrichten mit Journey zu senden, muss folgende Konfiguration durchgeführt 
 
    ![](../assets/jo-event7.png)
 
-1. **Segment** erstellen: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an eine bestimmte Gruppe von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Lesen Sie mehr](../segment/about-segments.md).
+1. **Segment** erstellen: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an eine bestimmte Gruppe von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Mehr dazu](../segment/about-segments.md).
 
    ![](../assets/segment2.png)
 
-1. **Datenquelle** konfigurieren: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z.B. in Ihren Bedingungen. Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Benutzer** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
+1. **Datenquelle** konfigurieren: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z.B. in Ihren Bedingungen. Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
 
    ![](../assets/jo-datasource.png)
 
@@ -35,7 +35,7 @@ Um Nachrichten mit Journey zu senden, muss folgende Konfiguration durchgeführt 
 
 ## Erstellen Ihrer Journey{#jo-build}
 
-Dieser Schritt wird vom **Geschäftsbenutzer** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
+Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
 Im Folgenden finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journey:
 
@@ -69,7 +69,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Senden von Nachrichten übe
 
 Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen. 
 
-Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Zutritt erlauben, Start- und Enddatum auswählen und eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
+Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
 
 Mit dem Befehl **Technische Details kopieren** können Sie technische Informationen zur Journey kopieren, die das Supportteam zur Fehlerbehebung verwenden kann. Die folgenden Informationen werden kopiert: JourneyVersion UID, OrgID, orgName, sandboxName.
 
@@ -79,13 +79,13 @@ Mit dem Befehl **Technische Details kopieren** können Sie technische Informatio
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
 
-Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
+Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
 Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
-Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Zeitüberschreitungsdauer überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
+Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Dauer der maximalen Wartezeit überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
 Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
@@ -93,15 +93,15 @@ Es wird empfohlen, unter **[!UICONTROL Zeitüberschreitung und Fehler]** einen s
 
 Journey verwenden auch einen globalen Timeout. Siehe [nächster Abschnitt](#global_timeout).
 
-### Globale Journey-Zeitüberschreitung {#global_timeout}
+### Maximale globale Wartezeit der Journey {#global_timeout}
 
-Zusätzlich zu der in den Journey-Aktivitäten verwendeten [Zeitüberschreitung](#timeout_and_error) gibt es auch eine globale Journey-Zeitüberschreitung, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, nach der Zeitüberschreitung noch in der Journey befinden, werden angehalten und beim Reporting als Fehler berücksichtigt.
+Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
 
 >[!NOTE]
 >
 >Journey reagieren nicht direkt auf Abmelde-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
 
-Aufgrund der Journey-Zeitüberschreitung nach 30 Tagen können wir, wenn der erneute Zutritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Zutritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Zutritt hatte.
+Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
 ### Zeitzone und Zeitzone des Profils {#timezone}
 
@@ -126,13 +126,13 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 * Eine segmentbasierte Journey mit einmaliger Ausführung.
 * Nach dem letzten Auftreten einer wiederholten segmentbasierten Journey.
 
-Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey wird aufhören, neue Personen in die Journey eintreten zu lassen. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
 
 So schließen oder stoppen Sie eine Journey manuell:
 
-Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Zutritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art und Weise, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Das Anhalten einer Journey bedeutet, dass Personen, die bereits an der Journey teilnehmen, in ihrem Fortschritt angehalten werden. Die Journey ist im Grunde abgeschaltet.
+Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
 
 >[!NOTE]
 >
@@ -142,29 +142,29 @@ Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Zutritte s
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
 
-Nach dem Schließen erhält eine Journey den Status **[!UICONTROL Geschlossen (kein Eingang)]**. Nach dem standardmäßigen globalen Timeout von 30 Tagen wechselt die Journey zum Status **Fertig**. Siehe [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
-Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für neue Zutritte schließen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
+Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**, während Sie die Maus über die jeweilige Journey in der Liste der Journeys bewegen.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-Außerdem haben Sie folgende Möglichkeiten:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Klicken Sie in der Liste **[!UICONTROL Journey]** auf die Journey, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Zutritte schließen]**.
+1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Das folgende Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Eintritte schließen]**.
 
 ### Stoppen einer Journey
 
 Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss.
 
-Eine angehaltene Journey-Version kann nicht neu gestartet werden.
+Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
 Wird eine Journey gestoppt, hat sie den Status **[!UICONTROL Gestoppt]**.
 
@@ -172,12 +172,12 @@ Sie können eine Journey stoppen (z. B. wenn ein Marketing-Experte erkennt, das
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-Sie können auch:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Klicken Sie in der Liste **[!UICONTROL Journey]** auf die Journey, die Sie beenden möchten.
-1. Klicken Sie oben rechts auf den Pfeil nach unten.
+1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
 ![](../assets/finish_drop_down_list.png)
 
-1. Klicken Sie auf **[!UICONTROL Anhalten]**. Ein Dialogfeld wird angezeigt.
-1. Klicken Sie zur Bestätigung auf **[!UICONTROL Anhalten]**.
+1. Klicken Sie auf **[!UICONTROL Anhalten]**. Das folgende Dialogfeld wird angezeigt.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL Stoppen]**.
