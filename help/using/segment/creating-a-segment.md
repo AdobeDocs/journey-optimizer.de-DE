@@ -5,11 +5,11 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Segmente {#build-segments} erstellen
+# Segmente erstellen {#build-segments}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -31,7 +31,7 @@ In diesem Beispiel werden wir ein Segment zur Zielgruppe aller in Atlanta, San F
 
    >[!NOTE]
    >
-   >Beachten Sie, dass die im linken Bereich verfügbaren Felder je nach Konfiguration der Schema **XDM Individuelles Profil** und **XDM ExperienceEvent** für Ihr Unternehmen variieren.  Weitere Informationen finden Sie in der Dokumentation [Erlebnisdatenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+   >Beachten Sie, dass die im linken Bereich verfügbaren Felder je nach Konfiguration der Schema **XDM Individuelles Profil** und **XDM ExperienceEvent** für Ihr Unternehmen variieren.  Weitere Informationen finden Sie in der Dokumentation [Erlebnisdatenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
    ![](../assets/drag-fields.png)
 
