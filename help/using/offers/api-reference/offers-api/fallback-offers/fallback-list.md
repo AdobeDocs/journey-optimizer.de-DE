@@ -1,19 +1,19 @@
 ---
-title: Liste-Fallback-Angebot
-description: Ein Ausweich-Angebot wird an Kunden gesendet, wenn sie nicht für andere Angebot zugelassen sind
+title: Fallback-Angebote auflisten
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Liste-Fallback-Angebot
+# Fallback-Angebote auflisten
 
-Ein Ausweich-Angebot wird an Kunden gesendet, wenn sie nicht für andere Angebot zugelassen sind. Die Schritte zum Erstellen eines Ausweich-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen, z. B. beim Erstellen eines Angebots.
+Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
-Sie können eine Liste aller Fallback-Angebot innerhalb eines Containers durch eine einzige GET an die [!DNL Offer Library]-API Ansicht ausführen.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Fallback-Angebote in einem Container anzeigen.
 
 **API-Format**
 
@@ -24,11 +24,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Fallback-Angebot befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FALLBACK_OFFER}` | Definiert das Schema, das mit Ausweichmanövern-Angeboten verknüpft ist. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `{QUERY_PARAMS}` | Optionale Abfragen-Parameter zum Filtern der Ergebnisse. | `limit=1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Fallback-Angebote befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FALLBACK_OFFER}` | Definiert das Schema, das Fallback-Angeboten zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
+| `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=1` |
 
-**Anforderung**
+**Anfrage**
 
 ```shell
 curl -X GET \
@@ -40,25 +40,25 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Verwenden von Abfrage-Parametern
+## Verwenden von Abfrageparametern
 
-Sie können beim Auflisten von Abfragen Parameter verwenden, um die Ergebnisse zu sortieren und zu filtern.
+Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
 
-### Seite
+### Paging
 
-Zu den gebräuchlichsten Parametern für die Abfrage von Paging gehören:
+Zu den häufigsten Abfrageparametern für das Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `q` | Eine optionale Abfrage-Zeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Zeichenfolge der Abfrage sollte in Kleinbuchstaben geschrieben werden und kann von Dublette-Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu vermeiden. Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfrage mit einem umgekehrten Schrägstrich versehen werden. | `default` |
-| `qop` | Wendet den UND- oder ODER-Operator auf Werte im q-Abfrage-Zeichenfolgenparameter an. | `AND` /  `OR` |
-| `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfad-Ausdruck bestehen aus punktgetrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines `-` vor dem Titel (`orderby=-title`) werden Elemente in absteigender Reihenfolge nach Titel sortiert (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Ausweichdaten ein. | `limit=5` |
+| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben verfasst werden und kann von doppelten Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu umgehen (Escape). Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `default` |
+| `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
+| `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
+| `limit` | Schränken Sie die Anzahl der zurückgegebenen Fallback-Angebote ein. | `limit=5` |
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Ausweich-Angeboten zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Fallback-Angeboten zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {
