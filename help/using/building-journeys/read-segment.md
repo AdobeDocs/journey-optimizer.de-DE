@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -49,7 +49,7 @@ Die Aktivität zum Lesen der Segmente wird wie folgt konfiguriert:
 
    ![](../assets/read-segment-copy.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Einzelanwender verwendet werden soll. [Erfahren Sie mehr über Namensraum](../event/about-creating.md#select-the-namespace).
+1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. [Erfahren Sie mehr über Namensraum](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
