@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1609'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    >[!NOTE]
    >
-   >Wenn in einer Journey ein Reaktionsereignis verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Siehe [diesen Abschnitt](../building-journeys/reaction-events.md).
+   >Wenn in einer Journey ein Reaktionsereignis verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
 
 1. Klicken Sie auf **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
@@ -49,10 +49,10 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise      {#important_notes}
+## Wichtige Hinweise {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
-* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe [Abschnitt](../building-journeys/creating-test-profiles.md).
+* Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../building-journeys/creating-test-profiles.md).
 * Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die in die Journey eintritt, ein Profil ist oder nicht und daher Adobe Experience Platform erreichen kann.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
@@ -69,11 +69,11 @@ Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereign
 
 Voraussetzung ist, dass Sie wissen müssen, welche Profil in Adobe Experience Platform als Test-Profil gekennzeichnet werden. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
-Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Die Oberfläche hilft Ihnen, die richtigen Informationen in der Ereignis-Payload weiterzugeben und sicherzustellen, dass der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
+Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
 ![](../assets/journeytest4.png)
 
-Über die Oberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Kollektionen oder andere erweiterte Objekte in dem Ereignis weitergeben möchten, können Sie auf **[!UICONTROL Codeansicht]** klicken, um den gesamten Code der Payload anzuzeigen und ihn zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
+Über die Benutzeroberfläche können Sie einfache Ereignisparameter übergeben. Wenn Sie Sammlungen oder andere erweiterte Objekte in dem Ereignis verwenden möchten, können Sie auf **[!UICONTROL Codeansicht]** klicken, um den gesamten Code der Payload anzuzeigen und zu ändern. Beispielsweise können Sie die von einem technischen Anwender erstellten Ereignisinformationen kopieren und einfügen.
 
 ![](../assets/journeytest5.png)
 
@@ -115,15 +115,15 @@ Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Tester
 >
 >In den Testprotokollen werden bei einem fehlerhaften Aufruf eines Drittanbietersystems (Datenquelle oder Aktion) der Fehlercode und die Fehlerantwort angezeigt.
 
-Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Hier finden Sie nützliche Informationen, die für jeden Kontakt angezeigt werden:
+Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die sich derzeit innerhalb der Journey befinden, wird angezeigt. Außerdem finden Sie hier nützliche Informationen zu jedem Kontakt:
 
 * _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
-* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel hinzuzufügen, damit Sie sie leichter identifizieren können.
-* _currentstep > phase_: der Status der Journey des Kontakts (Läuft, Abgeschlossen, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
+* _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel zu geben, damit Sie sie leichter identifizieren können.
+* _currentstep > phase_: der Status der Journey des Kontakts (Läuft, Beendet, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
 * _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextbezogene Informationen.
 * _currentstep_ > _fetchErrors_: Informationen zu Datenfehlern beim Abrufen, die während dieses Schritts aufgetreten sind.
 * _externalKeys_: der Wert für die im Ereignis definierte Schlüsselformel.
-* _enrichedData_: die Daten, die die Journey abgerufen hat, wenn die Journey Datenquellen verwendet.
+* _enrichedData_: die Daten, die die Journey abgerufen hat, falls sie Datenquellen verwendet hat.
 * _transitionHistory_: die Schritte, denen der betreffende Kontakt folgte. Bei Ereignissen wird die Payload angezeigt.
 * _actionExecutionErrors_: Informationen zu den aufgetretenen Fehlern.
 
@@ -132,7 +132,7 @@ Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
 * _Läuft_: der Kontakt befindet sich derzeit in der Journey.
 * _Beendet_: der Kontakt befindet sich am Ende der Journey.
 * _Fehler_: der Kontakt wird aufgrund eines Fehlers in der Journey gestoppt.
-* _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey angehalten.
+* _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey gestoppt.
 
 Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 
