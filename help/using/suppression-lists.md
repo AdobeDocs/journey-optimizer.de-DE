@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Um die E-Mail-Nachrichten zu kontrollieren, die von den Inbox-Inhabern empfangen
 
 Wenn Sie kein Feedback abgeben (z. B. Spam-Beschwerden, Absprünge usw.) berücksichtigen, wird Ihr Ruf heruntergestuft. Die Unterdrückungs-Liste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
 
-Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch aus dem Versand der Nachricht ausgeschlossen. Dies beschleunigt die Versand, da die Fehlerquote sich erheblich auf die Geschwindigkeit des Versands auswirkt.
+Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch aus dem Versand der Nachricht ausgeschlossen. Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
 
 ### Spam-Beschwerden {#spam-complaints}
 
@@ -31,7 +31,7 @@ Die Unterdrückungs-Liste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam k
 
 Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domäne blockiert wird, was vermieden werden kann, dass diese Adressen auf der Unterdrückungs-Liste vorhanden sind.
 
-### Absprünge {#bounces}
+### Bounces {#bounces}
 
 Darüber hinaus enthält die Unterdrückungs-Liste E-Mail-Adressen, die zu oft abgesprungen werden oder zu oft abspringen. Wenn Sie weiterhin an diese Adressen senden, kann dies sich auf Ihre Versand-Raten auswirken, da es den ISPs mitteilt, dass Sie möglicherweise die Best Practices zur Wartung der E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Absender sind.
 
@@ -51,10 +51,10 @@ Wenn zum Beispiel jemand an einen Kundendienst schreibt, der darum bittet, nie w
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
-Es gibt drei Fehlertypen, wenn ein Versand fehlschlägt:
+Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
-* **Harter Absprung**. Eine feste Adresse weist auf eine ungültige E-Mail-Adresse hin (d. h. eine nicht vorhandene E-Mail-Adresse). Dies umfasst eine Absprungmeldung des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist, z. B. &quot;Unbekannte Nutzer&quot;.
-* **Weicher Absprung**. Dies ist ein temporärer E-Mail-Absprung, der für eine gültige E-Mail-Adresse aufgetreten ist.
+* **Hardbounce**. Eine feste Adresse weist auf eine ungültige E-Mail-Adresse hin (d. h. eine nicht vorhandene E-Mail-Adresse). Dies umfasst eine Absprungmeldung des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist, z. B. &quot;Unbekannte Nutzer&quot;.
+* **Softbounce**. Dies ist ein temporärer E-Mail-Absprung, der für eine gültige E-Mail-Adresse aufgetreten ist.
 * **Ignoriert**. Hierbei handelt es sich um einen E-Mail-Absprung, der für eine gültige E-Mail-Adresse aufgetreten ist, aber als vorübergehend bekannt ist, z. B. ein fehlgeschlagener Verbindungsversuch, ein temporäres Spam-Problem (E-Mail-Ruf) oder ein temporäres technisches Problem.
 
 Die harten Absprünge und weichen Absprünge können ein Grund dafür sein, dass eine E-Mail-Adresse automatisch zur Unterdrückungs-Liste hinzugefügt wird.
@@ -73,7 +73,7 @@ E-Mail-Adressen werden wie folgt zur Unterdrückungs-Liste hinzugefügt:
 
    Wenn ein Versand nach einem erneuten Versuch erfolgreich war, wird der Fehlerzähler der Adresse erneut initialisiert.
 
-### weitere Zustellversuche {#retries}
+### Weitere Zustellversuche {#retries}
 
 Wenn eine Nachricht aufgrund eines temporären Absprungs des Typs **Ignoriert** fehlschlägt, werden weitere Zustellversuche für **3,5 Tage** ausgeführt, nachdem die Nachricht der E-Mail-Warteschlange hinzugefügt wurde.
 
