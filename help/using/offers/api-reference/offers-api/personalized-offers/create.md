@@ -1,17 +1,17 @@
 ---
 title: Personalisierte Angebote erstellen
-description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen aufbaut.
+description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Personalisiertes Angebot erstellen
 
-Ein personalisiertes Angebot ist eine benutzerspezifische Marketingbotschaft, die auf Eignungsregeln und Einschränkungen basiert.
+Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 
 Sie können ein personalisiertes Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
@@ -21,8 +21,8 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API-Format**
 
