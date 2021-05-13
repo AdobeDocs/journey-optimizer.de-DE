@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Verwenden Sie den Modus **[!UICONTROL Code your own]**, um HTML-Rohdaten zu impo
 
 1. Geben Sie Ihren HTML-Rohcode ein oder fügen Sie ihn ein.
 
-1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen von [!DNL Journey Optimizer] zu nutzen. Weitere Informationen finden Sie in [diesem Abschnitt](personalization/personalize.md).
+1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen von [!DNL Journey Optimizer] zu nutzen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](personalization/personalize.md).
 
    ![](assets/code-editor.png)
 
@@ -47,7 +47,7 @@ Verwenden Sie den Modus **[!UICONTROL Code your own]**, um HTML-Rohdaten zu impo
 
    ![](assets/code-editor-change-design.png)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um den Nachrichtenentwurf und die Personalisierung mithilfe von Test-Profilen zu überprüfen. Weitere Informationen finden Sie in [diesem Abschnitt](preview.md).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um den Nachrichtenentwurf und die Personalisierung mithilfe von Test-Profilen zu überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
 
    ![](assets/code-editor-preview.png)
 
@@ -75,6 +75,6 @@ Gehen Sie wie folgt vor, um eine Datei zu importieren, die HTML-Inhalte enthält
 
 1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag &amp; Drop.
 
-1. Sobald der HTML-Inhalt hochgeladen wurde, können Sie die E-Mail-Designer-Funktionen nutzen, um Ihre E-Mail zu bearbeiten und Vorschauen zu erstellen. [Weitere Informationen finden Sie in diesem Abschnitt](create-email-content.md).
+1. Sobald der HTML-Inhalt hochgeladen wurde, können Sie die E-Mail-Designer-Funktionen nutzen, um Ihre E-Mail zu bearbeiten und Vorschauen zu erstellen. [Weiterführende Informationen finden Sie in diesem Abschnitt](create-email-content.md).
 
    ![](assets/html-imported.png)
