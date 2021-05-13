@@ -1,15 +1,15 @@
 ---
-title: Quick Beginn
+title: Schnellstart
 description: Journey Optimizer Quick Beginn
 translation-type: tm+mt
-source-git-commit: 98a0908f81caff578cc5bed4e0b1647885eaf678
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Quick Beginn {#cjm-quick-start}
+# Schnellstart {#cjm-quick-start}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -19,13 +19,13 @@ Mit Journey Optimizer können Sie bestehende Inhalte importieren und neue Inhalt
 
 Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach Zugriffsberechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-### Voraussetzungen {#cjm-prerequisites}
+### Voraussetzungen   {#cjm-prerequisites}
 
 Bevor Sie mit der Verwendung von Adobe Journey Optimizer beginnen, müssen Sie:
 
 * **Legen Sie Benutzerberechtigungen** fest: Melden Sie sich bei Journey Optimizer an und gewähren Sie Zugriff auf Ihre Teammitglieder. [Mehr dazu](permissions.md)
 
-* **Kanal und Branding** konfigurieren: arbeiten Sie mit Adobe, um die Einstellungen für E-Mail- und Push-Benachrichtigungen zu definieren und Ihre Vorgaben zu erstellen. [Mehr dazu](configuration/get-started-configuration.md)
+* **Kanal und Branding** konfigurieren: arbeiten Sie mit Adobe, um die Einstellungen für E-Mail- und Push-Benachrichtigungen zu definieren und Ihre Vorgaben zu erstellen. [Mehr dazu](administration.md)
 
 * **Identifizieren Sie Daten und erstellen Sie Schema und Datensatz**: Sie können Ihre Daten in Adobe Experience Platform abrufen, einen Identitäts-Namensraum und einen Datensatz erstellen, der für Profil aktiviert ist, Segmente erstellen und Profil testen. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
