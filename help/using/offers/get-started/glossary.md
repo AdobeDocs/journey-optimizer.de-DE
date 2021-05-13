@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
@@ -13,28 +13,28 @@ ht-degree: 0%
 
 Hier sind die wichtigsten Konzepte, mit denen Sie bei der Verwendung von Decision Management arbeiten werden.
 
-* **** Zuordnen oder  **Frequenzzuordnung**: Durch die Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Obergrenzen: Wie oft ein Angebot über die kombinierte Audience hinweg vorgeschlagen werden kann, auch als &quot;Gesamtkappen&quot;bezeichnet, und wie oft ein Angebot für denselben Endbenutzer vorgeschlagen werden kann, auch als &quot;Profil Cap&quot;bezeichnet.
+* **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot der kombinierten Ziel-Audience vorgeschlagen werden kann (auch als „Gesamtobergrenzen“ bezeichnet) und wie oft ein Angebot demselben Endbenutzer unterbreitet werden kann (auch als „Profilbegrenzung“ bezeichnet).
 
-* **Sammlungen**: Sammlungen sind Untergruppen von Angeboten, die auf vordefinierten, von einem Marketingexperten definierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+* **Kollektionen**: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
 * **Entscheidung**  (früher Angebot Aktivität): Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
 
-* **Entscheidungsregel**: Entscheidungsregeln sind Beschränkungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Berechtigung zu bestimmen.
+* **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu ermitteln.
 
-* **Förderfähiges Angebot**: Ein förderfähiges Angebot erfüllt die im Upstream definierten Einschränkungen, die einem Profil konsistent angeboten werden können.
+* **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Bedingungen und kann einem Profil somit auf kohärente Weise unterbreitet werden.
 
 * **Entscheidungsverwaltung**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebot-Erlebnisse für Endbenutzer über Kanal und Anwendungen hinweg mithilfe von Geschäftslogik und Entscheidungsregeln.
 
-* **Fallback-Angebot**: Ein Ausweichmanöver-Angebot ist das Standard-Angebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebot in der Sammlung berechtigt ist.
+* **Fallback-Angebot**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote in der Kollektion geeignet ist.
 
-* **Angebot**: Ein Angebot ist eine Marketingmeldung, der möglicherweise Regeln zugeordnet sind, die angeben, wer zum Anzeigen des Angebots berechtigt ist.
+* **Angebot**: Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer sich zum Anzeigen des Angebots eignet.
 
 * **Angebot-Bibliothek**: Die Angebot Library ist eine zentrale Bibliothek, die zur Verwaltung personalisierter und Ausweichentscheidungen, Angebot und Entscheidungsregeln verwendet wird.
 
-* **Personalisierte Angebot**: Ein personalisiertes Angebot ist eine benutzerspezifische Marketingbotschaft, die auf Eignungsregeln und Einschränkungen basiert.
+* **Personalisierte Angebote**: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
 
-* **Platzierungen**: Eine Platzierung ist der Ort und der Kontext, in dem ein Angebot für einen Endbenutzer angezeigt wird.
+* **Platzierung**: Eine Platzierung ist der Ort und/oder Kontext, in dem ein Angebot für einen Endnutzer erscheint.
 
-* **Priorität**: Mit Priorität werden Angebot sortiert, die alle Einschränkungen erfüllen, z. B. Förderfähigkeit, Kalender und Deckelung.
+* **Priorität**: Die Priorität dient zur Einstufung von Angeboten, die alle Einschränkungen wie Eignung, Termine und Begrenzungen erfüllen.
 
-* **Vertretungen**: Eine Darstellung sind Informationen, die von einem Kanal verwendet werden, z. B. Ort oder Sprache, um ein Angebot anzuzeigen.
+* **Darstellungen**: Eine Darstellung besteht aus Informationen, die von einem Kanal verwendet werden (z. B. Ort oder Sprache), um ein Angebot zu unterbreiten.
