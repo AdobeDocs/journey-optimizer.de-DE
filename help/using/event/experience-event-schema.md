@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Optimizer
 
 Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
 
-* Das Schema muss der XDM-ExperienceEvent-Klasse angehören.
+* Das Schema muss der ExperienceEvent-XDM-Klasse angehören.
 
    ![](../assets/schema2.png)
 
