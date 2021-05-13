@@ -2,10 +2,10 @@
 title: Benutzeroberfläche
 description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
@@ -21,7 +21,7 @@ Verwenden Sie das Menü **[!UICONTROL Angebot]**, um personalisierte und Ausweic
 
 * **[!UICONTROL Beschlüsse]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebot. Siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md).
 
-![](../assets/offers_menu.png)
+![](../../assets/offers_menu.png)
 
 Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von Angeboten erforderlichen Komponenten zu verwalten:
 
@@ -33,7 +33,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 * **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Ranking-Formeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst angezeigt werden soll. Siehe [Ranking Formeln](../offer-library/create-ranking-formulas.md) erstellen.
 
-![](../assets/offer_activities.png)
+![](../../assets/offer_activities.png)
 
 ## Informationen suchen und filtern
 
@@ -41,7 +41,7 @@ Verwenden Sie die **Suchleiste**, um ein bestimmtes Element zu suchen.
 
 Sie können auch auf **Filter** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Damit können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können beispielsweise Platzierungen filtern, die für den E-Mail-Kommunikationskanal und Inhalte vom Typ Bild erstellt wurden.
 
-![](../assets/filters.png)
+![](../../assets/filters.png)
 
 ## Angezeigte Informationen anpassen
 
@@ -51,21 +51,21 @@ So können Sie je nach Bedarf die Informationen auswählen, die angezeigt werden
 
 Beachten Sie, dass die Spaltenanpassung für jeden Benutzer gespeichert wird.
 
-![](../assets/columns.png)
+![](../../assets/columns.png)
 
 ## Informationsbereich
 
 Wählen Sie in den verschiedenen Listen ein Element aus, um einen Informationsbereich anzuzeigen, in dem Sie Informationen abrufen und grundlegende Aktionen für das Element ausführen können.
 
-![](../assets/information-pane.png)
+![](../../assets/information-pane.png)
 
 Die Listen für Angebot und Entscheidungen ermöglichen es Ihnen auch, Massenaktionen für mehrere Elemente durchzuführen. Wählen Sie dazu die gewünschten Angebot oder Entscheidungen aus und wählen Sie dann im Informationsbereich die gewünschte Aktion aus.
 
-![](../assets/bulk-actions.png)
+![](../../assets/bulk-actions.png)
 
 Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine vorhandene Entscheidungskopie mit dem Status **[!UICONTROL Entwurf]** Duplikat erstellen können. Dies kann entweder über den Informationsbereich oder über ein Angebot oder die detaillierte Ansicht einer Entscheidung erfolgen.
 
-![](../assets/duplicate-offer.png)
+![](../../assets/duplicate-offer.png)
 
 ## Änderungsprotokolle zu Angeboten und Entscheidungen {#changes-logs}
 
@@ -73,4 +73,4 @@ Mit der Angebot-Bibliothek können Sie alle Änderungen anzeigen, die an einem A
 
 In diesem Bildschirm werden alle vorgenommenen Änderungen sowie der Name des Benutzers angezeigt, der die Änderungen vorgenommen hat.
 
-![](../assets/change-logs.png)
+![](../../assets/change-logs.png)
