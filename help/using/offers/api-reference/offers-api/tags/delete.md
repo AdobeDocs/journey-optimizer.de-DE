@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,6 @@ curl -X DELETE \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden der HTTP-Status 202 (Kein Inhalt) und ein leerer Haupttext zurückgegeben.
+Eine erfolgreiche Antwort gibt den HTTP-Status 202 (kein Inhalt) und leeren Text zurück.
 
 Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für das Tag ausführen. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da das Tag aus dem Container entfernt wurde.
