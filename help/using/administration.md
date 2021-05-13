@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -20,13 +20,13 @@ Marken können von Endbenutzern nicht erstellt oder geändert werden: Diese Konf
 
 Um Branding-Parameter für Ihre [!DNL Journey Optimizer]-Instanz einzurichten, müssen Sie sich an die Adobe wenden und die folgenden Details freigeben:
 
-* Unternehmensname
+* Firmenname
 
 * E-Mail-Adresse des Absenders (von)
 
 * Name des Absenders (von)
 
-* Antwort-Adresse
+* Antwortadresse
 
 Sobald die Branding-Parameter konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten auswählen.
 
@@ -42,17 +42,17 @@ Für jede neue Subdomäne, die in [!DNL Journey Optimizer] verwendet werden soll
 
 Bei der Implementierung einer Lösung gibt es Anforderungen an nach außen gerichtete Komponenten: Dazu gehören das Einrichten von Links und Webseiten, die verfolgt werden sollen, das Anzeigen von Mirrorseiten usw.
 
-Während diese Anforderungen über Komponenten verwaltet werden, die sowohl von der Adobe als auch vom Kunden gehostet werden, enthalten sie URLs, die vom Empfänger der E-Mails gesehen werden können.  Um zu vermeiden, dass URLs vorhanden sind, die die zugrunde liegende technische Lösung oder den Hosting-Anbieter angeben, können Subdomänen eingerichtet werden, um dies für den Empfänger der E-Mails transparent zu machen.
+Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.
 
-Im Anschluss an diese Delegationen stellt die von der Adobe eingerichtete Infrastruktur sicher, dass für jede übertragene oder CNAME-Alias übertragene Sendeindustrie folgende Dienste erbracht werden:
+Im Anschluss an diese Zuweisungen stellt die von Adobe eingerichtete Infrastruktur sicher, dass die folgenden Services für jede zugewiesene Domain oder Versand-Domain mit CNAME-Alias ausgeführt werden:
 
-* Postmaster@- und Missbrauchs@-Postfächer erstellen
+* Erstellen von postmaster@- und abuse@-Posteingängen
 
-* Einrichtung von Feedback-Schleifen für die delegierte Domäne
+* Einrichten von Feedback-Schleifen für die zugewiesene Domain
 
 * Grundlegende DMARC-Datensatzkonfiguration
 
-Die von der Adobe festgelegten Parameter gelten erst ab dem Zeitpunkt, zu dem die Übertragung abgeschlossen und dann durch Adobe überprüft wurde, und bleiben funktionsfähig.
+Von Adobe festgelegte Parameter sind ab dem Zeitpunkt gültig, an dem die Zuweisung abgeschlossen und anschließend von Adobe überprüft wurde, und bleiben funktionsfähig, bis der Service gekündigt wird.
 
 [Erfahren Sie mehr über die Domänendelegation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
@@ -63,7 +63,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Admin]**, um **[!UICONTROL Datenquelle
 
 ![](assets/admin-menu.png)
 
-### Datenquellen
+### Data Sources
 
 Mit der Datenquellenkonfiguration können Sie eine Systemverbindung definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden.
 
