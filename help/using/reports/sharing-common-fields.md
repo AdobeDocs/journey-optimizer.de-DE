@@ -1,11 +1,11 @@
 ---
 title: Gemeinsame Felder für journeyStep-Ereignisse
-description: Wegeysteps Ereignisse gemeinsame Felder
+description: Gemeinsame Felder für journeyStep-Ereignisse
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Ak
 
 Gibt an, ob der Benutzer in die Journey eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
-Typ: boolesch
+Typ: boolean
 
 Werte: true/false
 
 ## reentrance
 
-Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Ist der Wert nicht vorhanden, wird angenommen, dass er &quot;false&quot;ist.
+Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
 Typ: boolean
 
@@ -51,25 +51,25 @@ Typ: Zeichenfolge
 
 Kennung des Client-Knotens (von der Arbeitsfläche).
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepID
 
 Eindeutige Kennung des Schritts, der gerade verarbeitet wird.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepName
 
-Name des Schritts, der derzeit verarbeitet wird.
+Name des Schritts, der gerade verarbeitet wird.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## stepType
 
 Art des Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 Mögliche Werte:
 
@@ -82,7 +82,7 @@ Mögliche Werte:
 
 Status des Schritts, der den Status des Schritts darstellt, nachdem die Verarbeitung abgeschlossen (und das Schrittereignis ausgelöst) wurde.
 
-Typ: string
+Typ: Zeichenfolge
 
 Der Status kann folgendermaßen lauten:
 
@@ -90,68 +90,68 @@ Der Status kann folgendermaßen lauten:
 * error: Bei der Schrittverarbeitung ist ein Fehler aufgetreten.
 * transitions: Der Schritt wartet darauf, bis ein Ereignis durch Transition in einen anderen Schritt gelangt.
 * capped: Der Schritt ist aufgrund eines Begrenzungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
-* timedout: der Schritt bei einem Timeout-Fehler, der während einer Aktion oder Anreicherung ausgelöst wurde, fehlgeschlagen ist.
+* timedout: Der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
 * instanceTimedout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
 
 ## journeyID
 
 Kennung der Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## journeyVersionID
 
-ID der Journey. Diese Kennung stellt bei journeyStepEvent den Identitätsverweis auf die Journey dar.
+Kennung der Journey-Version. Diese Kennung stellt bei journeyStepEvent den Identitätsverweis auf die Journey dar.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## journeyVersionName
 
 Name der Journey-Version.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## journeyVersion
 
-Version der Journey.
+Version der Journey-Version.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## instanceID
 
 Interne Kennung der Journey-Instanz.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## externalKey
 
 Externer Schlüssel, der aus dem Ereignis zur Verarbeitung extrahiert wurde.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentStepID
 
 Kennung des übergeordneten Schritts des in der Instanz gerade verarbeiteten Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentStepName
 
 Name des übergeordneten Schritts des aktuellen Schritts.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentTransitionID
 
 Kennung der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## parentTransitionName
 
-Name der Transition, die die Instanz zum verarbeiteten Schritt gebracht hat.
+Name der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## inTest
 
@@ -169,7 +169,7 @@ Typ: lang
 
 Gibt den Instanztyp an (Batch oder unitär).
 
-Typ: string
+Typ: Zeichenfolge
 
 Werte: batch/unitary
 
@@ -177,7 +177,7 @@ Werte: batch/unitary
 
 Index des Intervalls, wenn es sich bei der Journey um einen wiederkehrenden Batch-Vorgang handelt (erste Ausführung führt zu recurrenceIndex = 1).
 
-Typ: long
+Typ: lang
 
 ## isBatchToUnitary
 
@@ -189,16 +189,16 @@ Typ: boolean
 
 Externer Schlüssel für das Batch-Ereignis.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchInstanceID
 
 Dies ist die Kennung der Batch-Instanz.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchUnitaryBranchID
 
 Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, unitäre Verzweigungs-ID.
 
-Typ: string
+Typ: Zeichenfolge
