@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
@@ -31,17 +31,17 @@ In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinier
    * Journeys lesen
    * Berichte lesen
 
-* **[!UICONTROL Administrator]**: Benutzer mit Zugriff auf die Verwaltungsmenüs und mit der Fähigkeit, Journeys, Ereignisse und Berichte zu verwalten. Dieses Profil umfasst die folgenden Berechtigungen:
+* **[!UICONTROL Administrator]**: Benutzer mit Zugriff auf die Verwaltungsmenüs und mit der Fähigkeit, Journeys, Ereignisse und Berichte zu verwalten. Dieses Produktprofil umfasst folgende Berechtigungen:
    * Journeys verwalten
    * Journeys veröffentlichen
    * Ereignisse, Datenquellen und Aktionen verwalten
    * Berichte verwalten
 
-* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. Verwaltung von Journeys. Dieses Profil umfasst die folgenden Berechtigungen:
-   * Journey verwalten
-   * Journey veröffentlichen
+* **[!UICONTROL Standardbenutzer]**: Benutzer mit Basiszugriff, wie z. B. zur Verwaltung von Journeys. Dieses Produktprofil umfasst folgende Berechtigungen:
+   * Journeys verwalten
+   * Journeys veröffentlichen
    * Berichte verwalten
-   * Ereignisse, Datenquellen und Aktionen lesen
+   * Lesen von Ereignissen, Datenquellen und Aktionen
 
 Wenn die nativen Profile für Ihre Anforderungen nicht ausreichend sind, können Sie auch eigene Produktprofile erstellen.
 Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen bestimmte native Berechtigungen zuweisen können, z. B.:
@@ -102,14 +102,14 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
 Ihr Profil wurde erstellt und konfiguriert. Anwender, die mit diesem Profil verknüpft sind, können jetzt eine Verbindung mit [!DNL Journey Optimizer] herstellen.
 
-### Zuweisen eines Profils {#assigning-product-profile}
+### Zuweisen eines Produktprofils {#assigning-product-profile}
 
 Produktprofile werden einer Reihe von Benutzern zugewiesen, die innerhalb Ihres Unternehmens dieselben Rechte haben.
 Die Liste aller nativen Produktprofile mit zugewiesenen Berechtigungen finden Sie in diesem Abschnitt.
 
 So weisen Sie einem Benutzer ein Profil für den Zugriff auf Journey zu:
 
-1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]**.
+1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus.
 
    ![](assets/do-not-localize/user_management.png)
 
@@ -164,7 +164,7 @@ Jedes Asset wird in Ordnern oder Unterordnern gespeichert. Sie können festlegen
 
 1. Wählen Sie zwischen den verschiedenen Zugriffsebenen:
 
-   * **[!UICONTROL Kann Ansicht]**
+   * **[!UICONTROL Kann anzeigen]**
    * **[!UICONTROL Kann bearbeiten]**
    * **[!UICONTROL Eigentümer (kann freigeben, bearbeiten und löschen)]**
 
