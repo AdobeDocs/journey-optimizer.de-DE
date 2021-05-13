@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 Sie können ein Tag in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Operationen, finden Sie in der offiziellen [JSON Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
 ## Header „Accept“ und „Content-Type“
 
@@ -21,8 +21,8 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API-Format**
 
