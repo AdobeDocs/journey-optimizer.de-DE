@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
 workflow-type: tm+mt
 source-wordcount: '1498'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-Die vorliegende Dokumentation wird regelmäßig aktualisiert, um aktuelle Änderungen am Produkt widerzuspiegeln. Einige Screenshots unterscheiden sich jedoch geringfügig von der Benutzeroberfläche.
+Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Einige Screenshots unterscheiden sich jedoch geringfügig von der Benutzeroberfläche.
 
-## Arbeitsbereich     {#cjm-workspace}
+## Arbeitsbereich {#cjm-workspace}
 
 Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) hergestellt ist, navigieren Sie zu [!DNL Journey Optimizer].
 
@@ -33,25 +33,25 @@ Verwenden Sie die Links auf der linken Seite, um die Funktionen zu durchsuchen.
 
 Unten finden Sie die vollständige Liste der Einträge in der linken Leiste und Links zur zugehörigen Dokumentation.
 
-**Home**
+**Startseite**
 
 [!DNL Journey Optimizer] Startseite enthält wichtige Links und Ressourcen für Beginn. Die Liste **[!UICONTROL Letzte]** enthält Verknüpfungen zu den kürzlich erstellten oder aktualisierten Nachrichten, Ereignissen und Journey. Diese Liste zeigt die Erstellungs- und Änderungsdaten und den Status an.
 
 **[!UICONTROL Journey MANAGEMENT]**
 
-* **[!UICONTROL Journey]**  - Erstellen, konfigurieren und orchestrieren Sie Ihre Journey. Weitere Informationen finden Sie in [diesem Abschnitt](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journey]**  - Erstellen, konfigurieren und orchestrieren Sie Ihre Journey. Weiterführende Informationen finden Sie [in diesem Abschnitt](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Nachrichten]**  - Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. Weitere Informationen [in diesem Abschnitt](create-message.md)
+* **[!UICONTROL Nachrichten]**  - Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. Weiterführende Informationen finden Sie [in diesem Abschnitt](create-message.md)
 
 **[!UICONTROL ENTSCHEIDUNGSMANAGEMENT]**
 
-* **[!UICONTROL Angebote]**  - Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebot zu erstellen. [Weitere Informationen](offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Angebote]**  - Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebot zu erstellen. [Weitere Infos](offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL Komponenten]**  - Erstellen Sie Platzierungen, Regeln und Tags. Weiterführende Informationen finden Sie in diesem [Abschnitt](offers/offer-library/key-steps.md)
 
 **[!UICONTROL Content-Management]**
 
-* **[!UICONTROL Assets]**  -  [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, mit dem Sie Ihre Nachrichten füllen können. Weitere Informationen finden Sie in [diesem Abschnitt](assets-essentials.md)
+* **[!UICONTROL Assets]**  -  [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, mit dem Sie Ihre Nachrichten füllen können. Weiterführende Informationen finden Sie in diesem [Abschnitt](assets-essentials.md)
 
 **[!UICONTROL Data Management]**
 
@@ -110,7 +110,7 @@ In den meisten Listen können Sie in einer Suchleiste nach einem Element suchen.
 
 Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern. Sie können festlegen, dass nur Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden.
 
-In der Journey-Liste können Sie zusätzlich zu den **[!UICONTROL Erstellungs-Filtern]** auch die angezeigten Journey nach ihrem Status und ihrer Version (**[!UICONTROL Status- und Versionsstatus-Filter]**) filtern. Sie können festlegen, dass nur Journey angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldgruppe oder eine bestimmte Aktion (**[!UICONTROL Aktivität-Filter]** und **[!UICONTROL Daten-Filter]**) verwenden. Mit den Filtern **[!UICONTROL Veröffentlichung]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise die neuesten Versionen der gestern veröffentlichten Live-Journey anzeigen. [Mehr dazu](building-journeys/using-the-journey-designer.md).
+In der Journey-Liste können Sie zusätzlich zu den **[!UICONTROL Erstellungs-Filtern]** auch die angezeigten Journey nach ihrem Status und ihrer Version (**[!UICONTROL Status- und Versionsstatus-Filter]**) filtern. Sie können festlegen, dass nur Journey angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldgruppe oder eine bestimmte Aktion (**[!UICONTROL Aktivität-Filter]** und **[!UICONTROL Daten-Filter]**) verwenden. Mit den Filtern **[!UICONTROL Veröffentlichung]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise die neuesten Versionen der gestern veröffentlichten Live-Journey anzeigen. [Weitere Infos](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 Bei der Definition von [Ereignis-Payload](event/about-creating.md#define-the-payload-fields), [Feldgruppen-Payload](datasource/configure-data-sources.md#define-field-groups) und der Auswahl von Feldern im [Ausdruckseditor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternativeDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders beim Arbeiten mit &quot;eVars&quot;und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders beim Arbeiten mit &quot;eVars&quot;und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/xdm-from-descriptors.png)
 
@@ -155,7 +155,7 @@ _Beim Konfigurieren einer Aktivität in einer Journey:_
 Die Arbeitsfläche wird automatisch gespeichert. Oben links in der Arbeitsfläche sehen Sie den Speicherstatus.
 
 * Drücken Sie **Esc**, um den Konfigurationsbereich zu schließen und die vorgenommenen Änderungen zu verwerfen. Dies entspricht der Schaltfläche **[!UICONTROL Abbrechen]**.
-* Drücken Sie die **Eingabetaste** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL Ok]**.
+* Drücken Sie die **Eingabetaste** oder klicken Sie außerhalb des Bereichs, um den Konfigurationsbereich zu schließen. Änderungen werden gespeichert. Dies entspricht der Schaltfläche **[!UICONTROL OK]**.
 * Wenn Sie die Taste **Löschen** oder die **Rücktaste** drücken, können Sie den Löschvorgang durch anschließendes Drücken der **Eingabetaste** bestätigen.
 
 _In Popups:_
