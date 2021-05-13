@@ -2,10 +2,10 @@
 title: Entscheidungsregeln erstellen
 description: Erfahren Sie, wie Sie in Adobe Experience Platform Entscheidungsregeln erstellen.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie Entscheidungsregeln für Angebote erstellen. Entscheidungsregeln bestimmen, wem ein Angebot unterbreitet werden kann.
 
-Sie können beispielsweise festlegen, dass das Angebot „Winterbekleidung für Frauen“ nur dann angezeigt werden soll, wenn Geschlecht = „weiblich“ und Region = „Nordosten“.
+Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für Frauen“ nur dann angezeigt werden soll, wenn (Geschlecht = „Weiblich“) und (Region = „Nordost“) zutrifft.
 
-![](../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 Die Liste der erstellten Entscheidungsregeln ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
-![](../assets/decision_rules_list.png)
+![](../../assets/decision_rules_list.png)
 
 Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Gehen Sie zur Registerkarte **[!UICONTROL Regeln]** und klicken Sie auf **[!UICONTROL Regel erstellen]**.
 
-   ![](../assets/offers_decision_rule_creation.png)
+   ![](../../assets/offers_decision_rule_creation.png)
 
 1. Benennen Sie Ihre Regel, geben Sie eine Beschreibung ein und konfigurieren Sie dann die Regel entsprechend Ihren Anforderungen.
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
    In diesem Beispiel werden Kunden mit der Treuestufe „Gold“ als Zielgruppe ausgewählt.
 
-   ![](../assets/offers_decision_rule_creation_segment.png)
+   ![](../../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -43,9 +43,9 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Nachdem die Regel erstellt wurde, wird sie in der Regelliste angezeigt. Sie können sie auswählen, um ihre Eigenschaften anzuzeigen und zu bearbeiten oder zu löschen.
 
-   ![](../assets/rule_created.png)
+   ![](../../assets/rule_created.png)
 
-## tutorial {#video}
+## Tutorial {#video}
 
 >[!NOTE]
 >
