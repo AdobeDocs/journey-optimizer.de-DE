@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 0%
+ht-degree: 64%
 
 ---
 
@@ -53,7 +53,7 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben verfasst werden und kann von doppelten Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu umgehen (Escape). Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `default` |
 | `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines `-`-Zeichens vor dem Titel (`orderby=-title`) werden Elemente nach Titeln in absteigender Reihenfolge sortiert (Z-A). | `-repo:createdDate` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
 | `limit` | Beschränken Sie die Anzahl der zurückgegebenen Entscheidungen. | `limit=5` |
 
 **Antwort**
