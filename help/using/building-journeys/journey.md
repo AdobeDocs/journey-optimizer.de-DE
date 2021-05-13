@@ -1,11 +1,11 @@
 ---
-title: Allgemeiner Grundsatz
-description: Allgemeiner Grundsatz
+title: Allgemeine Funktionsweise
+description: Allgemeine Funktionsweise
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
