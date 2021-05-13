@@ -2,10 +2,10 @@
 title: Warteaktivität
 description: Erfahren Sie mehr über die Warteaktivität
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen vier Optionen zur Verfügung:
+Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
 * [Dauer](#duration)
 * [Festgelegtes Datum](#fixed_date)
-* [Benutzerdefiniert](#custom)
+* [Benutzerspezifisch](#custom)
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
@@ -33,7 +33,7 @@ Sie können eine Bedingung definieren, wenn Sie die Wartezeit auf eine bestimmte
 >
 >Die maximale Wartezeit beträgt 30 Tage.
 >
->Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
+>Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Siehe [diese Seite](../building-journeys/testing-the-journey.md)
 
 ## Wartezeit mit Dauer{#duration}
 
@@ -53,7 +53,7 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 
 >[!NOTE]
 >
->Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, das Feld im Ereignis hat die folgende Form: 2016-08-12T09:46:06Z.
+>Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@{Ereignis.offerOpen.Aktivität.endTime}); das Ereignis im Format 2016-08-12T09:46:06Z.
 >
 >Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016-08-12T09:46:06.982-05) zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
