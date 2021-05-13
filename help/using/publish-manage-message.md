@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Nachdem die Nachricht erstellt wurde, können Sie sie veröffentlichen, um sie f
 
 >[!CAUTION]
 >
->Prüfen Sie Warnungen vor der Veröffentlichung und lösen Sie sie. [Weitere Informationen](alerts.md).
+>Prüfen Sie Warnungen vor der Veröffentlichung und lösen Sie sie. [Weitere Infos](alerts.md).
 
 ![](assets/publish-message.png)
 
@@ -46,7 +46,7 @@ So aktualisieren Sie eine veröffentlichte Nachricht:
 
    ![](assets/message-modify.png)
 
-1. Bestätigen Sie Ihre Wahl. Eine Entwurfsversion der Nachricht wird erstellt.
+1. Bestätigen Sie Ihre Auswahl. Eine Entwurfsversion der Nachricht wird erstellt.
 
    ![](assets/message-modify-v2.png)
 
