@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 0%
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ In Adobe Experience Platform gibt es verschiedene Möglichkeiten, ein Testprofil
 
 Das Erstellen eines Testprofils ähnelt dem Erstellen von Standardprofilen in Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de).
 
-## Voraussetzungen{#test-profile-prerequisites}
+## Voraussetzungen {#test-profile-prerequisites}
 
 Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Datensatz in Adobe Experience Platform erstellen.
 
@@ -39,7 +39,7 @@ Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
    ![](../assets/test-profiles-2.png)
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
-1. Markieren Sie im rechten Panel **Feldeigenschaften** die Optionen **Identität** und **Primäre Identität** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **E-Mail**. Klicken Sie auf **Anwenden**.
+1. Markieren Sie im rechten Panel **Feldeigenschaften** die Optionen **Identität** und **Primäre Identität** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **E-Mail**. Klicken Sie auf **Übernehmen**.
    ![](../assets/test-profiles-4.png)
 1. Wählen Sie das Schema aus und aktivieren Sie die Option **Profil** in den **Schema-Eigenschaften**.
    ![](../assets/test-profiles-5.png)
@@ -64,7 +64,7 @@ Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile import
 
 >[!NOTE]
 >
-> Weitere Informationen zur Dataset-Erstellung finden Sie in der [Katalogdienstdokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
+> Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zum Katalogdienst](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
 
 ## Umwandeln eines Profils in ein Testprofil{#turning-profile-into-test}
 
@@ -76,7 +76,7 @@ Ihre Journey besteht aus einem **Read-Profil** und einer **Update-Aktivität**. 
 
 >[!NOTE]
 >
-> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss die **Profil-Testdetails** enthalten. Siehe [diesen Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss die **Profil-Testdetails** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Klicken Sie in Journey Optimizer im linken Menü auf **Segmente** und dann auf **Segment** erstellen, rechts oben.
    ![](../assets/test-profiles-22.png)
@@ -132,7 +132,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials).
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
 
