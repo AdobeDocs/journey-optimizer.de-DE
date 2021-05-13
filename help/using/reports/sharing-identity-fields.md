@@ -1,11 +1,11 @@
 ---
 title: Identitätsfelder für journeyStep-Ereignisse
-description: travelStep Ereignis-Identitätsfelder
+description: Identitätsfelder für journeyStep-Ereignisse
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ Typ: Zeichenfolge
 
 Namespace der Profilkennung
 
-Typ: string
+Typ: Zeichenfolge
