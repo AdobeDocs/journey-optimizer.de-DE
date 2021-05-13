@@ -1,26 +1,26 @@
 ---
 title: Zugriff auf den exportierten Angebotskatalog
-description: Erfahren Sie, wie Sie nach dem Exportieren auf den Angebotskatalog auf Adobe Experience Platform zugreifen können.
+description: Erfahren Sie, wie Sie nach dem Exportieren in Adobe Experience Platform auf den Angebotskatalog zugreifen können.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Zugriff auf den exportierten Angebotskatalog {#access-exported-catalog}
 
-Auf den exportierten Angebotskatalog kann im Menü &quot;Adobe Experience Platform **[!UICONTROL Datensätze]**&quot;zugegriffen werden. Für jedes Objekt Ihrer Angebot-Bibliothek wird ein Datensatz erstellt.
+Auf den exportierten Angebotskatalog kann im Menü **[!UICONTROL Datensätze]** von Adobe Experience Platform zugegriffen werden. Für jedes Objekt Ihrer Angebotsbibliothek wird ein Datensatz erstellt.
 
-![](../assets/datasets-list.png)
+![](../../assets/datasets-list.png)
 
 Klicken Sie auf einen Datensatz, um auf dessen Details zuzugreifen.
 
-![](../assets/dataset-activity.png)
+![](../../assets/dataset-activity.png)
 
-Mit der Schaltfläche **[!UICONTROL Vorschau dataset]** können Sie den zuletzt erfolgreichen Stapel im Datensatz anzeigen. Im linken Bereich finden Sie Informationen zu den Datentypen, die exportiert wurden.
+Mit der Schaltfläche **[!UICONTROL Datensatz in der Vorschau ansehen]** können Sie den letzten erfolgreichen Batch im Datensatz anzeigen. Im linken Bereich finden Sie Informationen zu den Datentypen, die exportiert wurden.
 
-![](../assets/dataset-preview.png)
+![](../../assets/dataset-preview.png)
 
-Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform-Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie in der [Dokumentation zu Datensätzen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
