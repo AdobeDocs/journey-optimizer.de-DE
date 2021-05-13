@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -25,9 +25,9 @@ Nachdem Sie [Ihre Nachricht ](create-message.md) erstellt haben, können Sie Ihr
 
    * Wählen Sie **[!UICONTROL Beginn aus der Vorlage]** aus, um Ihre E-Mail aus einer integrierten Liste von Vorlagen zu erstellen. Beachten Sie, dass Sie keine anderen Vorlagen erstellen können.
 
-   * Wählen Sie **[!UICONTROL Code your own]**, um HTML-Rohcode einzugeben oder einzufügen. [Mehr dazu](existing-content.md#import-raw-html-code).
+   * Wählen Sie **[!UICONTROL Code your own]**, um HTML-Rohcode einzugeben oder einzufügen. [Weitere Infos](existing-content.md#import-raw-html-code).
 
-   * Wählen Sie **[!UICONTROL HTML]** importieren, um eine HTML- oder ZIP-Datei zu importieren. [Weitere Informationen](existing-content.md#import-html-content-from-file).
+   * Wählen Sie **[!UICONTROL HTML]** importieren, um eine HTML- oder ZIP-Datei zu importieren. [Weitere Infos](existing-content.md#import-html-content-from-file).
 
    ![](assets/email_designer_25.png)
 
@@ -100,7 +100,7 @@ Eine blaue Linie kennzeichnet die Stelle, an der die Strukturkomponente platzier
 
    >[!NOTE]
    >
-   >Beachten Sie, dass Spaltenstapel nicht mit allen E-Mail-Programmen kompatibel sind. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
+   >Beachten Sie, dass das Stapeln von Spalten nicht mit allen E-Mail-Programmen kompatibel ist. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
    >
    >Sobald die Komponenten in der E-Mail platziert sind, können sie nicht mehr verschoben oder entfernt werden, außer es befindet sich bereits eine Inhaltskomponente oder ein Fragment darin.
 
