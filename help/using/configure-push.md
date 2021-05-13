@@ -1,12 +1,11 @@
 ---
 title: Push-Benachrichtigung konfigurieren
 description: Erfahren Sie, wie Sie eine Push-Benachrichtigung in Journey Optimizer erstellen
-exl-id: 3b9deb7d-77cf-47ca-998e-63aa8aca42fd
 translation-type: tm+mt
-source-git-commit: 71eeab336d42f1b8ebe4e4baa4b3217f4778368b
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 0%
+source-wordcount: '976'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 Push-Benachrichtigungen werden beim Erstellen einer Nachricht auf der Registerkarte **[!UICONTROL Push Notification]** konfiguriert (siehe [Eine Nachricht erstellen](create-message.md)).
 
-Verwenden Sie die dedizierten Registerkarten, um die Push-Benachrichtigungseinstellungen für iOS- und Android-Betriebssysteme zu definieren.
+Sie können Inhalte von Push-Benachrichtigungen für iOS- oder Android-Betriebssysteme mithilfe der dedizierten Registerkarten konfigurieren.
 
 ![](assets/create-content-push.png)
 
@@ -40,40 +39,6 @@ Wählen Sie das Verhalten aus, wenn ein Empfänger auf den Text der Push-Benachr
 * Verwenden Sie die Option **[!UICONTROL Deeplink]**, um den Empfänger zu einem bestimmten Inhalt innerhalb der Anwendung umzuleiten. Geben Sie den Deeplink in das entsprechende Feld ein.
 * Verwenden Sie die Option **[!UICONTROL Web-URL]**, um den Empfänger zu einer externen URL umzuleiten. Geben Sie die URL in das entsprechende Feld ein.
 
-## hinzufügen
-
-In der iOS-Version können Sie ein Bild, ein Video oder ein GIF hinzufügen, das bzw. das in Ihrer Benachrichtigung angezeigt wird.
-
-In der Android-Version können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachrichtigungen hinzufügen.
-
-Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen Medien]**, um ein Asset in [!DNL Adobe Experience Manager Assets Essentials] auszuwählen.
-
-![](assets/push-config-add-media.png)
-
-Erfahren Sie, wie Sie [!DNL Adobe Experience Manager Assets Essentials] auf [dieser Seite](assets-essentials.md) verwenden.
-
-Sie können auch die URL des Mediums eingeben und Personalisierung hinzufügen, indem Sie auf das Feld **[!UICONTROL Hinzufügen media]** klicken. **SO ÜBERPRÜFEN / FUNKTIONIEREN SIE NICHT**
-
-Nach dem Hinzufügen wird das Medium rechts neben der Benachrichtigungsstelle angezeigt.
-
-![](assets/push-config-media-preview.png)
-
-## hinzufügen
-
-Sie können umsetzbare Benachrichtigungen erstellen, indem Sie Ihren Push-Benachrichtigungen Schaltflächen hinzufügen.
-
-Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt: nur der Titel und die Meldung der Benachrichtigung sind sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfänger die Schaltflächen.
-
-In der iOS-Version können Sie bis zu 4 Schaltflächen hinzufügen. In der Android-Version können Sie bis zu 3 Schaltflächen hinzufügen.
-
-Klicken Sie auf **[!UICONTROL Hinzufügen, um die Einstellungen zu definieren: die Beschriftung und die zugehörige Aktion.]** Mögliche Aktionen sind identisch mit denen für [On-Click-Verhalten](#on-click-behavior).
-
-**FUNKTIONIERT NICHT**
-
->[!NOTE]
->
->Bei iOS verwenden Sie das Feld **[!UICONTROL iOS-Kategorie]**, um Aktionen mit einer Benachrichtigungsaktion-Kategorie zu verknüpfen.
-
 ## Eine Benachrichtigung senden
 
 Eine automatische Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Anwendung gesendet wird. Es wird beispielsweise verwendet, um Ihre Anwendung über die Verfügbarkeit neuer Inhalte zu informieren oder einen Download im Hintergrund zu starten.
@@ -81,8 +46,6 @@ Eine automatische Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist e
 Wählen Sie die Option **[!UICONTROL Silent Notification]**, um die Anwendung unbeaufsichtigt zu benachrichtigen: in diesem Fall wird die Anmeldung direkt auf den Antrag übertragen. Auf dem Gerätebildschirm wird keine Warnung angezeigt.
 
 Verwenden Sie den Abschnitt **[!UICONTROL Benutzerspezifische Daten]**, um Schlüssel/Wert-Paare hinzuzufügen.
-
-![](assets/push-config-silent-notification.png)
 
 ## Erweiterte Optionen
 
@@ -103,12 +66,5 @@ Konfigurieren Sie die erweiterten Optionen **[!UICONTROL a1/>.]** Verfügbare Pa
 
 ## Benutzerspezifische Daten
 
-Im Abschnitt **[!UICONTROL Benutzerspezifische Daten]** können Sie der Nutzlast je nach Konfiguration Ihrer mobilen Anwendung benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zum Starten der Adobe finden Sie in [diesem Abschnitt](push-configuration.md).
+Im Abschnitt **[!UICONTROL Benutzerspezifische Daten]** können Sie der Nutzlast je nach Konfiguration Ihrer mobilen Anwendung benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zum Starten der Adobe finden Sie in [diesem Abschnitt](push-configuration.md)
 
-## Eine Benachrichtigung senden
-
-Eine automatische Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Anwendung gesendet wird. Es wird beispielsweise verwendet, um Ihre Anwendung über die Verfügbarkeit neuer Inhalte zu informieren oder einen Download im Hintergrund zu starten.
-
-Wählen Sie die Option **[!UICONTROL Silent Notification]**, um die Anwendung unbeaufsichtigt zu benachrichtigen: in diesem Fall wird die Anmeldung direkt auf den Antrag übertragen. Auf dem Gerätebildschirm wird keine Warnung angezeigt.
-
-Verwenden Sie den Abschnitt **[!UICONTROL Benutzerspezifische Daten]**, um Schlüssel/Wert-Paare hinzuzufügen.
