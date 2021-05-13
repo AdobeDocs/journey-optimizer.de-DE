@@ -1,28 +1,28 @@
 ---
 title: Platzierung aktualisieren
-description: Platzierungen sind Container, mit denen Ihre Angebot präsentiert werden.
+description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Platzierung aktualisieren
 
-Sie können eine Platzierung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anforderung an die API [!DNL Offer Library] stellen.
+Sie können eine Platzierung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zum JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON Patch Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
-## Überschriften vom Typ &quot;Accept&quot;und &quot;Content&quot;
+## Header „Accept“ und „Content-Type“
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anforderungsheader enthalten:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API-Format**
 
@@ -36,7 +36,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | `{CONTAINER_ID}` | Der Container, in dem sich die Platzierungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | Die Instanz-ID der Platzierung, die Sie aktualisieren möchten. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
-**Anforderung**
+**Anfrage**
 
 ```shell
 curl -X PATCH \
@@ -63,13 +63,13 @@ curl -X PATCH \
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Vorgangsaufruf, der zum Definieren der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Aktivitäten umfassen: `add`, `replace` und `remove`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Operationen umfassen: `add`, `replace` und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Platzierung zurück, einschließlich der eindeutigen Instanz-ID und Platzierung `@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Platzierung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`.
 
 ```json
 {
