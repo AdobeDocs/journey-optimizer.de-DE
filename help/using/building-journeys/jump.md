@@ -1,46 +1,46 @@
 ---
-title: Springen von einer Journey zur anderen
-description: Springen von einer Journey zur anderen
+title: Springen zwischen Journeys
+description: Springen zwischen Journeys
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
-# Aufspringen von einer Journey zu einer anderen {#jump}
+# Springen zwischen Journeys {#jump}
 
 ![](../assets/do-not-localize/badge.png)
 
-Mit der Aktivität **[!UICONTROL Jump]** können Sie Personen von einer Journey in eine andere verschieben. Mit dieser Funktion können Sie:
+Mit der Aktionsaktivität **[!UICONTROL Sprung]** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:
 
-* die Gestaltung sehr komplexer Journey zu vereinfachen, indem sie in mehrere aufgeteilt werden
-* Erstellen von Journey basierend auf gemeinsamen und wiederverwendbaren Journey-Mustern
+* Vereinfachung der Gestaltung sehr komplexer Journeys durch Aufteilung in mehrere Journeys
+* Erstellung von Journeys anhand allgemeiner und wiederverwendbarer Journey-Muster
 
-Fügen Sie im Journey &quot;Herkunft&quot;einfach eine Aktivität **[!UICONTROL Jump]** hinzu und wählen Sie eine Journey der Zielgruppe aus. Wenn die Person den Schritt **[!UICONTROL Jump]** aufruft, wird ein internes Ereignis an das erste Ereignis der Zielgruppe-Journey gesendet. Wenn die Aktion **[!UICONTROL Jump]** erfolgreich ausgeführt wird, wird die Journey fortgesetzt. Das Verhalten ist mit anderen Aktionen vergleichbar.
+Fügen Sie in der Ursprungs-Journey einfach eine **[!UICONTROL Sprungaktivität]** hinzu und wählen Sie eine Ziel-Journey aus. Wenn der Kontakt in den **[!UICONTROL Sprungschritt]** eintritt, wird ein internes Ereignis an das erste Ereignis der Ziel-Journey gesendet. Wenn die **[!UICONTROL Sprungaktion]** erfolgreich ist, schreitet der Kontakt in der Journey fort. Das Verhalten ist mit anderen Aktionen vergleichbar.
 
-In der Journey &quot;Zielgruppe&quot;wird das erste intern durch die Aktivität **[!UICONTROL Jump]** ausgelöste Ereignis den individuellen Fluss in der Journey auslösen.
+In der Ziel-Journey leitet das erste Ereignis, das intern durch die **[!UICONTROL Sprungaktivität]** ausgelöst wurde, den Kontakt in die Journey.
 
 >[!NOTE]
 >
->Siehe auch das Lernvideo [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Weitere Informationen erfahren Sie [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de) im Anleitungsvideo.
 
 ## Lebenszyklus
 
-Nehmen wir an, Sie haben eine **[!UICONTROL Jump]**-Aktivität in einer Journey A zu einer Journey B hinzugefügt. Journey A ist die Journey **Herkunft und Journey B, die Journey** Zielgruppe **.**
-Im Folgenden sind die verschiedenen Schritte des Ausführungsprozesses aufgeführt:
+Nehmen wir an, Sie haben in einer Journey A eine **[!UICONTROL Sprungaktivität]** zu einer Journey B hinzugefügt. Journey A ist dann die **Ursprungs-Journey** und Journey B die **Ziel-Journey**.
+Im Folgenden finden Sie die verschiedenen Schritte des Ausführungsprozesses:
 
-**Journey** AIS wird von einem externen Ereignis ausgelöst:
+**Journey A** wird von einem externen Ereignis ausgelöst:
 
-1. Journey A erhält ein externes Ereignis, das mit einer Einzelperson verbunden ist.
-1. Die Einzelperson erreicht den Schritt **[!UICONTROL Jump]**.
-1. Die Einzelperson wird zu Journey B gedrückt und fährt nach dem Schritt **[!UICONTROL Jump]** mit den nächsten Schritten in Journey A fort.
+1. Journey A empfängt ein externes Ereignis, das mit einem Kontakt in Verbindung steht.
+1. Der Kontakt erreicht den **[!UICONTROL Sprungschritt]**.
+1. Der Kontakt wird in Journey B geleitet und fährt nach dem **[!UICONTROL Sprungschritt]** mit den nächsten Schritten in Journey A fort.
 
-In Journey B wird das erste Ereignis intern über die Aktivität **[!UICONTROL Jump]** von Journey A ausgelöst:
+In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivität]** von Journey A ausgelöst:
 
 1. Journey B erhielt ein internes Ereignis von Journey A.
-1. Die einzelnen Beginn fließen in Journey B.
+1. Der Kontakt wird in Journey B geleitet.
 
 >[!NOTE]
 >
@@ -50,65 +50,65 @@ In Journey B wird das erste Ereignis intern über die Aktivität **[!UICONTROL J
 
 ### Authoring
 
-* Die Aktivität **[!UICONTROL Jump]** steht nur in Journey zur Verfügung, die einen Namensraum verwenden.
-* Sie können nur zu einer Journey springen, die denselben Namensraum wie die Herkunft Journey verwendet.
+* Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
+* Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
 * Sie können nicht zu einer Journey springen, die Beginn mit einem **Segmentqualifizierung**-Ereignis oder **Read segment** enthält.
 * Sie können keine **[!UICONTROL Jump]**-Aktivität und eine **Segmentqualifizierung** oder ein **Read-Ereignis** im selben Journey haben.
-* Sie können so viele **[!UICONTROL Jump]**-Aktivitäten einschließen, wie Sie in einer Journey benötigen. Nach einem **[!UICONTROL Jump]** können Sie jede erforderliche Aktivität hinzufügen.
-* Sie können so viele Sprungstufen wie nötig haben. Beispielsweise springt Journey A zu Journey B, das zu Journey C springt usw.
-* Die Journey der Zielgruppe kann auch so viele **[!UICONTROL Jump]**-Aktivitäten enthalten, wie erforderlich.
-* Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Journey miteinander zu verbinden, was eine unendliche Schleife erzeugen würde. Der Konfigurationsbildschirm **[!UICONTROL Jump]** verhindert, dass Sie dies tun.
+* Sie können so viele **[!UICONTROL Sprungaktivitäten]** in eine Journey aufnehmen, wie Sie benötigen. Nach einem **[!UICONTROL Sprung]** können Sie jede erforderliche Aktivität hinzufügen.
+* Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
+* Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
+* Schleifenmuster werden nicht unterstützt. Es gibt keine Möglichkeit, zwei oder mehr Journeys miteinander zu verbinden, die eine Endlosschleife erzeugen würden. Der Konfigurationsbildschirm für **[!UICONTROL Sprungaktivitäten]** verhindert dies.
 
 ### Ausführung
 
-* Wenn die Aktivität **[!UICONTROL Jump]** ausgeführt wird, wird die neueste Version der Zielgruppe-Journey ausgelöst.
-* Wie üblich kann eine Einzelperson nur einmal in einer Journey vorhanden sein. Wenn sich das aus der Herkunft gedrängte Individuum bereits in der Zielgruppe Journey befindet, wird das Individuum nicht in die Zielgruppe Journey. Für die Aktivität **[!UICONTROL Jump]** wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
+* Wenn die **[!UICONTROL Sprungaktivität]** ausgeführt wird, wird die aktuelle Version der Ziel-Journey ausgelöst.
+* Wie üblich darf sich ein eindeutiger Kontakt nur einmal in einer Journey befinden. Wenn sich der Kontakt, der aus der Ursprungs-Journey bewegt wurde, bereits in der Ziel-Journey befindet, tritt der Kontakt also nicht mehr in die Ziel-Journey ein. Bei der **[!UICONTROL Sprungaktivität]** wird kein Fehler gemeldet, da dies ein normales Verhalten ist.
 
-## Konfigurieren der Jump-Aktivität
+## Konfigurieren der Sprungaktivität
 
-1. Entwerfen Sie Ihre **Herkunft Journey**.
+1. Konfigurieren Sie die **Ursprungs-Journey**.
 
    ![](../assets/jump1.png)
 
-1. Fügen Sie an jeder Stelle der Journey eine Aktivität **[!UICONTROL Jump]** aus der Kategorie **[!UICONTROL ACTIONS]** hinzu. hinzufügen einer Bezeichnung und Beschreibung.
+1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie einen Titel und eine Beschreibung hinzu.
 
    ![](../assets/jump2.png)
 
-1. Klicken Sie in das Feld **Zielgruppe Journey**.
-Die Liste zeigt alle Journey-Versionen an, die als Entwurf, live oder im Testmodus vorliegen. Journey, die einen anderen Namensraum oder diesen Beginn mit einem **Segmentqualifizierung**-Ereignis verwenden, sind nicht verfügbar. Zielgruppe-Journey, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+1. Klicken Sie in das Feld **Ziel-Journey**.
+Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifikationsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![](../assets/jump3.png)
 
    >[!NOTE]
    >
-   >Sie können auf das Symbol **Zielgruppe öffnen Journey** rechts klicken, um die Zielgruppe-Journey in einer neuen Registerkarte zu öffnen.
+   >Sie können rechts auf das Symbol **Zielgruppen-Journey öffnen** klicken, um die Ziel-Journey in einem neuen Tab zu öffnen.
 
-1. Wählen Sie die Journey der Zielgruppe aus, zu der Sie springen möchten.
-Das Feld **Erstes Ereignis** wird mit dem Namen des ersten Ereignisses der Zielgruppe vorausgefüllt. Wenn Ihre Zielgruppe-Journey mehrere Ereignis enthält, ist **[!UICONTROL Jump]** nur für das erste Ereignis zulässig.
+1. Wählen Sie die Ziel-Journey aus, zu der Sie springen möchten.
+Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der Ziel-Journey gefüllt. Wenn Ihre Ziel-Journey mehrere Ereignisse umfasst, ist der **[!UICONTROL Sprung]** nur zum ersten Ereignis zulässig.
 
    ![](../assets/jump4.png)
 
-1. Im Abschnitt **Aktionsparameter** werden alle Felder des Ereignisses &quot;Zielgruppe&quot;angezeigt. Ordnen Sie wie bei anderen Aktionstypen die Felder aus dem Ereignis der Herkunft oder der Datenquelle jedem Feld zu. Diese Informationen werden zur Laufzeit an die Zielgruppe Journey weitergeleitet.
-1. hinzufügen die nächsten Aktivitäten, um Ihre Herkunft Journey zu beenden.
+1. Im Abschnitt **Aktionsparameter** werden alle Felder des Zielereignisses angezeigt. Ordnen Sie wie bei anderen Arten von Aktionen jedem Feld Felder aus dem Ursprungsereignis oder der Datenquelle zu. Diese Informationen werden zur Laufzeit an die Ziel-Journey weitergegeben.
+1. Fügen Sie die nächsten Aktivitäten hinzu, um Ihre Ursprungs-Journey zu beenden.
 
    ![](../assets/jump5.png)
 
 
    >[!NOTE]
    >
-   >Die Identität der Person wird automatisch zugeordnet. Diese Informationen sind auf der Benutzeroberfläche nicht sichtbar.
+   >Die Identität des Kontakts wird automatisch zugeordnet. Diese Informationen sind auf der Benutzeroberfläche nicht sichtbar.
 
-Ihre **[!UICONTROL Jump]**-Aktivität ist konfiguriert. Sobald Ihre Journey live oder im Testmodus ist, werden Personen, die den Schritt **[!UICONTROL Jump]** erreichen, von der Journey der Zielgruppe weitergeleitet.
+Ihre **[!UICONTROL Sprungaktivität]** ist konfiguriert. Sobald Ihre Journey live oder im Testmodus ist, werden Kontakte, die den **[!UICONTROL Sprungschritt]** erreichen, in die Ziel-Journey geleitet.
 
-Wenn eine **[!UICONTROL Jump]**-Aktivität in einer Journey konfiguriert ist, wird automatisch ein **[!UICONTROL Jump]**-Eintragssymbol am Anfang der Zielgruppe-Journey hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey extern, aber auch intern von einer **[!UICONTROL Jump]**-Aktivität ausgelöst werden kann.
+Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, wird zu Beginn der Ziel-Journey automatisch ein **[!UICONTROL Sprungeintrittssymbol]** hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey sowohl extern als auch intern durch eine **[!UICONTROL Sprungaktivität]** ausgelöst werden kann.
 
 ![](../assets/jump7.png)
 
 ## Fehlerbehebung
 
 Wenn die Journey veröffentlicht wird oder sich im Testmodus befindet, treten Fehler auf, wenn:
-* die Zielgruppe Journey nicht mehr vorhanden
-* die Zielgruppe Journey wird als Entwurf, geschlossen oder gestoppt
-* wenn das erste Ereignis der Zielgruppe-Journey geändert wurde und die Zuordnung beschädigt ist
+* die Ziel-Journey nicht mehr existiert,
+* der Zustand der Ziel-Journey „Entwurf“, „geschlossen“ oder „gestoppt“ ist,
+* wenn sich das erste Ereignis der Ziel-Journey geändert hat und die Zuordnung unterbrochen ist.
 
 ![](../assets/jump6.png)
