@@ -2,10 +2,10 @@
 title: Nachricht erstellen
 description: Erfahren Sie, wie Sie eine Nachricht erstellen
 translation-type: tm+mt
-source-git-commit: 8ba98f797fd146cc39e09fd697de38247a56e3e9
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    * Wählen Sie **[!UICONTROL Vorgabe]** aus, die für die Nachricht verwendet werden soll.
 
-      Vorgaben enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung entsprechend Ihrer Marke gesendet werden kann. [Erfahren Sie mehr über das Branding](configuration/about-subdomain-delegation.md).
+      Vorgaben enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung entsprechend Ihrer Marke gesendet werden kann. [Erfahren Sie mehr über das Branding](administration.md#cjm-branding).
 
    * Wählen Sie die Kanal aus, die Sie für diese Meldung verwenden möchten: E-Mail- und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
    Beachten Sie, dass Sie jederzeit über die Schaltfläche **[!UICONTROL Eigenschaften]** auf den Titel, die Beschreibung und die Vorgabe der Nachricht zugreifen und diese ändern können.
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
    >Sie können Ihre Nachrichten mit den Daten der Profile im Ausdruck-Editor personalisieren. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalize.md).
 
 
-1. Kontrollieren Sie das Rendering Ihrer Nachrichten und überprüfen Sie die Personalisierungseinstellungen mit den Test-Profilen, indem Sie den Abschnitt &quot;Vorschau&quot;auf der linken Seite verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](preview.md).
+1. Kontrollieren Sie das Rendering Ihrer Nachrichten und überprüfen Sie die Personalisierungseinstellungen mit den Test-Profilen, indem Sie den Abschnitt &quot;Vorschau&quot;auf der linken Seite verwenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
 
    ![](assets/messages-simple-preview.png)
 
