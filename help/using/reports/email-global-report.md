@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -85,6 +85,6 @@ Das **[!UICONTROL Öffnen vs. Klicken]** identifiziert die Interaktion der Empf�
 
 * **[!UICONTROL Eindeutige Klicks]**: Anzahl der Empfänger, die in einer E-Mail auf einen Inhalt geklickt haben.
 
-* **[!UICONTROL Eindeutige Öffnen]**: Anzahl der Empfänger, die den Versand geöffnet haben.
+* **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
 
 Das Diagramm **[!UICONTROL E-Mail - Top-URL]** und die Tabellendetails, welche URLs von Ihrem Versand am häufigsten besucht werden.
