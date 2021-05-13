@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -77,6 +77,6 @@ Gehen Sie dazu wie folgt vor:
    >
    >Standardmäßig treten Segmente **[!UICONTROL so bald wie möglich]** in die Journey ein, d. h. eine Stunde nach der Veröffentlichung der Journey.
 
-1. Klicken Sie auf **[!UICONTROL OK]**, um Ihre Änderungen zu speichern.
+1. Klicken Sie auf **[!UICONTROL OK]**, um die Änderungen zu speichern.
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->
