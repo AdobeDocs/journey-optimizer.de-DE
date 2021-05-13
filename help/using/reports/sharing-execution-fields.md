@@ -1,11 +1,11 @@
 ---
 title: Aktionsausführungsfelder für journeyStep-Ereignisse
-description: Aktionsausführungsfelder für Ereignis von "travelStep"
+description: Aktionsausführungsfelder für journeyStep-Ereignisse
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ Typ: Zeichenfolge
 
 Name der Aktion. Wenn kein Name festgelegt wurde, wird der stepName verwendet.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionType
 
 Art der Aktion.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionParameterized
 
 Gibt an, ob die Aktion parametrisiert wurde oder nicht.
 
-Typ: boolesch
+Typ: boolean
 
 ## actionExecutionTime
 
@@ -51,7 +51,7 @@ Typ: lang
 
 Fehlertyp, der beim Aufrufen der Aktion auftritt.
 
-Typ: string
+Typ: Zeichenfolge
 
 Werte:
 * http
@@ -63,7 +63,7 @@ Werte:
 
 Code für Fehler bei der Ausführung der Aktion. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionExecutionOriginError
 
@@ -72,7 +72,7 @@ Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 * beim ersten Versuch der Ausführung einer Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
 * bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der Zeitüberschreitung. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
+Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der maximalen Wartezeit. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...
@@ -85,13 +85,13 @@ Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-F
     "actionExecOrigErrorCode": "500"
 ```
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionExecutionOriginCode
 
 Fehler-Code von actionExecOrigError.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## actionBusinessType
 
@@ -107,19 +107,19 @@ Werte:
 * Epsilon
 * ...
 
-Typ: string
+Typ: Zeichenfolge
 
 ## deliveryJobID
 
 Beschreibt die Versand-Vorgangskennung für die Batch-Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## batchDeliveryID
 
-Hier wird die Versand-ID für die Batch-Journey beschrieben.
+Beschreibt die Versandkennung für die Batch-Journey.
 
-Typ: string
+Typ: Zeichenfolge
 
 ## fromSegmentTrigger
 
@@ -131,4 +131,4 @@ Typ: boolean
 
 Anzahl der Planungs-Benachrichtigungsanfragen, die bei der Schrittverarbeitung an den Planungsdienst gesendet werden.
 
-Typ: long
+Typ: lang
