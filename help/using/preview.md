@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Um mögliche Fehler in E-Mail-Inhalten oder Personalisierungseinstellungen zu er
 
 >[!CAUTION]
 >
->Sie müssen über Testing-Profil verfügen, um Ihre Nachrichten Vorschau und Testversand zu senden. [Mehr dazu](building-journeys/testing-the-journey.md#create-test-profile).
+>Sie müssen über Testing-Profil verfügen, um Ihre Nachrichten Vorschau und Testversand zu senden. [Weitere Infos](building-journeys/testing-the-journey.md#create-test-profile).
 
 Zum Testen des Nachrichteninhalts müssen Sie:
 
@@ -122,7 +122,7 @@ Sobald [Profil](#select-test-profiles) ausgewählt sind, können Sie Testversand
 
 Sie müssen Testversand nach jeder Änderung am Inhalt der Nachricht senden.
 
-## Email rendering{#email-rendering}
+## E-Mail-Rendering{#email-rendering}
 
 Sie können Ihr **Litmus**-Konto in [!DNL Journey Optimizer] nutzen, um Ihre **E-Mail-Wiedergabe** in beliebten E-Mail-Clients sofort Vorschau.
 
