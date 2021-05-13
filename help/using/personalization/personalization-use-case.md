@@ -2,10 +2,10 @@
 title: Anwendungsfall für Personalisierung
 description: Anwendungsfall für Personalisierung
 translation-type: tm+mt
-source-git-commit: 3dc152e04c217ccce405725e8ce50cebfeb057f0
+source-git-commit: 274086b4479a482ceb8e79e56d554f7d7b6cf545
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Ziel dieses Beispiels ist es, ein Ereignis bei jeder Aktualisierung einer Kunden
 Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
 
 * eine Push-Benachrichtigung erstellen und entwerfen, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
-* ein Ereignis mit Bestellnummer, Status und Artikelnamen konfigurieren. Siehe [Abschnitt](../event/about-events.md).
+* ein Ereignis mit Bestellnummer, Status und Artikelnamen konfigurieren. Siehe diesen [Abschnitt](../event/about-events.md).
 * eine Entscheidung zu erstellen (früher &quot;Angebot-Aktivität&quot;), siehe [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
 ## Schritt 1: Hinzufügen Personalisierung auf Profil
@@ -56,7 +56,7 @@ Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
 
    ![](assets/perso-uc5.png)
 
-1. Wählen Sie in der Aktivität **Meldung** die zuvor erstellte Meldung aus. Bestätigen Sie die Aktion mit der Schaltfläche **OK**.
+1. Wählen Sie in der Aktivität **Meldung** die zuvor erstellte Meldung aus. Klicken Sie auf **OK**.
 
    ![](assets/perso-uc6.png)
 
