@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Nach der ersten Nachricht warten wir einen Tag, bis Kunden die Push- oder E-Mail
 
 Dann warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu danken.
 
-## Voraussetzungen
+## Voraussetzungen 
 
 Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
 
@@ -65,11 +65,11 @@ Dafür verwenden wir ein regelbasiertes Ereignis. Weitere Informationen zu Ereig
 
 1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** **[!UICONTROL Regel-basiert]**.
 
-1. Definieren Sie die Felder **[!UICONTROL Schema]** und Payload **[!UICONTROL und &lt; a3/>.]** Sie können mehrere Felder verwenden, z. B. das erworbene Produkt, das Kaufdatum und die Kaufkennung.
+1. Definieren Sie die **[!UICONTROL Schema]**- und **[!UICONTROL Payload]**-Felder. Sie können mehrere Felder verwenden, z. B. das erworbene Produkt, das Kaufdatum und die Kaufkennung.
 
 1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignis zu identifizieren, die Ihren Journey Trigger haben. Sie können beispielsweise ein `purchaseMessage`-Feld hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
 
-1. Definieren Sie den **[!UICONTROL Namensraum]** und **[!UICONTROL Schlüssel]**.
+1. Geben Sie den **[!UICONTROL Namespace]** und den **[!UICONTROL Schlüssel]** an.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -117,11 +117,11 @@ In diesem Abschnitt [erfahren Sie, wie Sie diese Meldungen entwerfen und veröff
 
 1. Legen Sie nach dem Ereignis eine **Nachricht**-Aktivität ab und wählen Sie die E-Mail-Nachricht &quot;Vielen Dank&quot;.
 
-1. hinzufügen einer **End**-Aktivität.
+1. Fügen Sie eine Aktivität vom Typ **Ende** hinzu.
 
-## Journey testen und veröffentlichen
+## Testen und Veröffentlichen der Journey
 
-1. Überprüfen Sie vor dem Testen der Journey, ob sie gültig ist und ob kein Fehler vorliegt.
+1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen.
 
 1. Klicken Sie auf den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. Legen Sie fest, wie die Profil in den Test eintreten sollen: ein einzelnes Profil oder bis zu 100 gleichzeitig. Lesen Sie den Abschnitt [in dem Sie erfahren, wie Sie den Testmodus verwenden.](testing-the-journey.md)
 
