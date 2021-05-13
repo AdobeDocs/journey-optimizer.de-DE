@@ -2,14 +2,14 @@
 title: Kontexte der Personalisierung in Journey Optimizer
 description: Erfahren Sie, in welchen Kontexten Sie Personalisierung hinzufügen können
 translation-type: tm+mt
-source-git-commit: 11e73011374fee3af1c0780acf9d96f122214e8e
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 1%
+source-wordcount: '397'
+ht-degree: 2%
 
 ---
 
-# Personalisierungskontext und -tool {#personalization-areas}
+# Personalisierungsbereiche {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ Alle mit dem Editor-Symbol verknüpften Felder können den Personalisierungsedit
 
 ## E-Mails personalisieren
 
-Wenn Sie eine E-Mail erstellen, können Sie Personalisierung im Feld **E-Mail-Betreff** der Nachricht hinzufügen.
+Bei der Erstellung von E-Mail-Kanälen ist das Feld **E-Mail-Betreff** personalisierbar.
 
 ![](assets/perso_subject.png)
 
@@ -37,9 +37,11 @@ Im E-Mail-Designer können Sie den Inhalt personalisieren:
 
 ## Push-Benachrichtigungen personalisieren
 
-Sie können Ihre **Push-Benachrichtigungen** auch in den folgenden Feldern personalisieren:
+Im Kanal **Push** können Sie mit der Personalisierung Ihre Push-Benachrichtigung präzisieren.
 
-* **Title**
+Sie können Personalisierung in den folgenden Feldern hinzufügen:
+
+* **Titel**
 * **Body**
 * **Benutzerdefinierter Sound**
 * **Abzeichen**
@@ -47,7 +49,8 @@ Sie können Ihre **Push-Benachrichtigungen** auch in den folgenden Feldern perso
 
 ![](assets/perso_push.png)
 
-Weitere Informationen zur Konfiguration der Push-Benachrichtigung finden Sie in [diesem Abschnitt](../configure-push.md).
+Eine vollständige Dokumentation zur Konfiguration der Push-Benachrichtigung finden Sie in [diesem Abschnitt](../configure-push.md).
+
 
 ## Ausdruck-Editor verwenden
 
@@ -61,10 +64,9 @@ In der Benutzeroberfläche des Ausdruck-Editors können Sie alle Daten auswähle
 
 Im linken Bildschirmbereich wird ein Domänenselektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können.
 
-* **Profil** : Liste aller Verweise, die mit dem Profil-Schema in der XDM-Dokumentation ( [Adobe Experience Platform Data Model) verknüpft sind](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
-* **Segmentmitgliedschaft** : Liste aller im Adobe Experience Platform-Segmentierungsdienst erstellten Segmente. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.corp.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **Angebote** : Liste aller Angebot, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebot in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](https://experienceleague.corp.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
-* **Kontext** : Wenn die  **** Messagesaktivität in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Siehe [diesen Abschnitt](https://experienceleague.corp.adobe.com/docs/customer-journey-management/using/create-messages/deliver-personalized-offers.html?lang=en#about-offer-decisioning)
+* **Profil** : Liste aller Verweise, die mit dem Profil-Schema in der XDM-Dokumentation ( [Adobe Experience Platform Data Model) verknüpft sind](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+* **Segmentmitgliedschaft** : Liste aller im Adobe Experience Platform-Segmentierungsdienst erstellten Segmente. Weitere Informationen zur Segmentierung finden Sie unter [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+* **Angebote** : Liste aller Angebot, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebot in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../../using/offers/get-started/starting-offer-decisioning.md).
 
 Bei Auswahl wird der Verweis im Editor hinzugefügt.
 
