@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 83%
 
 ---
 
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Um Ereignis zu konfigurieren, die an **[!UICONTROL Streaming Ingestion APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
+Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
 1. Rufen Sie die Einlass-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming Ingestion APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
-1. Kopieren Sie die Nutzlast aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weitere Informationen finden Sie auf [dieser Seite](../event/about-creating.md#define-the-payload-fields).
+1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weiterführende Informationen finden Sie auf [dieser Seite](../event/about-creating.md#define-the-payload-fields).
 
-Anschließend müssen Sie das Datensystem konfigurieren, das Ereignis mithilfe der kopierten Nutzlast an Streaming Ingestion APIs sendet:
+Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 
-1. Richten Sie einen POST-API-Aufruf an die Streaming-Einschluss-APIs-URL ein (als Einlass bezeichnet).
-1. Verwenden Sie die Nutzlast, die Sie von [!DNL Journey Optimizer] im Hauptteil (&quot;Datenabschnitt&quot;) des API-Aufrufs für Streaming Ingestion APIs kopiert haben. Beispiel siehe unten
-1. Legen Sie fest, wo alle Variablen in der Nutzlast abgelegt werden sollen. Beispiel: Wenn das Ereignis die Adresse übermitteln soll, zeigt die eingefügte Nutzlast &quot;Adresse&quot; an: &quot;string&quot;. &quot;string&quot; sollte durch die Variable ersetzt werden, die automatisch den richtigen Wert ausfüllt, die E-Mail der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau im Abschnitt **[!UICONTROL Kopfzeile]** viele Werte automatisch ausgefüllt werden, die Ihre Arbeit erleichtern sollen.
-1. Wählen Sie &quot;application/json&quot;als Texttyp.
-1. Geben Sie Ihre IMS-Organisations-ID im Header mit dem Schlüssel &quot;x-gw-ims-org-id&quot;weiter. Verwenden Sie für diesen Wert Ihre IMS-Organisations-ID (&quot;XXX@AdobeOrg&quot;).
+1. Richten Sie einen POST-API-Aufruf zur URL der Streaming-Aufnahme-APIs ein (als Inlet bezeichnet).
+1. Verwenden Sie die Payload, die Sie im Hauptteil („Datenabschnitt“) des API-Aufrufs aus [!DNL Journey Optimizer] zu den Streaming-Aufnahme-APIs kopiert haben. Unten finden Sie ein Beispiel
+1. Legen Sie fest, von wo alle Variablen in der Payload abgerufen werden sollen. Beispiel: Wenn das Ereignis die Adresse vermitteln soll, wird in der eingefügten Payload &quot;address&quot;: &quot;string&quot; angezeigt. „string“ sollte durch die Variable ersetzt werden, die automatisch mit dem richtigen Wert ausgefüllt wird, nämlich mit der E-Mail-Adresse der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau im Abschnitt **[!UICONTROL Kopfzeile]** viele Werte automatisch ausgefüllt werden, was Ihre Arbeit erleichtern sollte.
+1. Wählen Sie „application/json“ als Typ für den Hauptteil aus.
+1. Übergeben Sie Ihre IMS-Organisations-ID in der Kopfzeile mit dem Schlüssel „x-gw-ims-org-id“. Verwenden Sie für den Wert Ihre IMS-Organisations-ID („XXX@AdobeOrg“).
 
-Im Folgenden finden Sie ein Ereignis zu Streaming Ingestion APIs:
+Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 
 ```
 {
@@ -83,6 +83,6 @@ Im Folgenden finden Sie ein Ereignis zu Streaming Ingestion APIs:
 }
 ```
 
-Um die Identifizierung des Ortes zu erleichtern, an dem der Teil &quot;Daten&quot;eingefügt werden soll, können Sie ein JSON-Visualisierungstool wie [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com) verwenden.
+Um die Identifizierung der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Informationen zur Fehlerbehebung bei Streaming Ingestion APIs finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
