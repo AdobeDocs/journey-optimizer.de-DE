@@ -2,7 +2,7 @@
 title: Warnungen in Nachrichten
 description: Erfahren Sie, wie Sie die Überprüfung des Nachrichteninhalts überprüfen und Fehler beheben können
 translation-type: tm+mt
-source-git-commit: a65cefd0bbd15ffa389bac910eaceb40181cb38d
+source-git-commit: 03af839084edafbc93188750db1f9f6c8b559d9e
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Alle möglichen Warnungen und Fehler sind [unten](#alerts-and-warnings) detailli
 
 Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie finden hier auch Informationen zur Anpassung Ihrer Konfiguration, um die entsprechenden Probleme zu lösen.
 
-**Warnhinweise**:
+**Warnungen**:
 
 * **[!UICONTROL Opt-out Link nicht im E-Mail-Text]** vorhanden: Es empfiehlt sich, einen Link zur Abmeldung in Ihren E-Mail-Textkörper einzufügen. Erfahren Sie, wie Sie es in [diesem Abschnitt](consent.md) konfigurieren.
 
@@ -61,7 +61,7 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
 * **[!UICONTROL E-Mail-Variante ist leer]**: dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. Erfahren Sie, wie Sie E-Mail-Inhalte in [diesem Abschnitt](design-emails.md) entwerfen.
 
-* **[!UICONTROL Vorgabe ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die ausgewählte Vorgabe nach der Erstellung der Nachricht gelöscht wurde. Wenn dieser Fehler auftritt, wählen Sie in der Meldung **[!UICONTROL Eigenschaften]** eine andere Vorgabe aus. Weitere Informationen zum Branding finden Sie in [diesem Abschnitt](configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Vorgabe ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die ausgewählte Vorgabe nach der Erstellung der Nachricht gelöscht wurde. Wenn dieser Fehler auftritt, wählen Sie in der Meldung **[!UICONTROL Eigenschaften]** eine andere Vorgabe aus. Weitere Informationen zum Branding finden Sie in [diesem Abschnitt](administration.md#cjm-branding).
 
 * **[!UICONTROL Die Push-iOS-/Android-Nutzlast überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. Erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte in [diesem Abschnitt](configure-push.md) verwalten.
 
