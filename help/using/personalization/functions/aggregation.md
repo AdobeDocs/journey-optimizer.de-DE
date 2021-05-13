@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 7%
+source-wordcount: '163'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 Aggregationsfunktionen werden verwendet, um mehrere Werte innerhalb von [!DNL Profile Query Language] (PQL)-Arrays zu gruppieren, um einen einzigen Zusammenfassungswert zu bilden.
 
-## Count{#count}
+## Anzahl
 
 Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
 
@@ -27,13 +27,13 @@ count({ARRAY})
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Anzahl der Bestellungen im Array zurück.
+Die folgende PQL-Abfrage gibt die Anzahl der Bestellungen im Array zurück.
 
 ```sql
-{%=count(orders)%}
+count(orders)
 ```
 
-## Sum{#sum}
+## Sum
 
 Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
 
@@ -45,13 +45,13 @@ sum({ARRAY})
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Summe aller Bestellpreise zurück.
+Die folgende PQL-Abfrage gibt die Summe aller Bestellpreise zurück.
 
 ```sql
-{%=sum(orders.order.price)%}
+sum(orders.order.price)
 ```
 
-## Durchschnitt{#average}
+## Durchschnittlicher
 
 Die Funktion `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück.
 
@@ -63,13 +63,13 @@ average({ARRAY})
 
 **Beispiel**
 
-Der folgende Vorgang gibt den Durchschnittspreis aller Bestellungen zurück.
+Die folgende PQL-Abfrage gibt den Durchschnittspreis aller Bestellungen zurück.
 
 ```sql
-{%=average(orders.order.price)%}
+average(orders.order.price)
 ```
 
-## Minimum{#min}
+## Minimum
 
 Die Funktion `min` gibt die kleinsten aller ausgewählten Werte im Array zurück.
 
@@ -81,13 +81,13 @@ min({ARRAY})
 
 **Beispiel**
 
-Der folgende Vorgang gibt den niedrigsten Preis aller Bestellungen zurück.
+Die folgende PQL-Abfrage gibt den niedrigsten Preis aller Bestellungen zurück.
 
 ```sql
-{%=min(orders.order.price)%}
+min(orders.order.price)
 ```
 
-## Maximum{#max}
+## Maximum
 
 Die Funktion `max` gibt den größten der ausgewählten Werte im Array zurück.
 
@@ -99,8 +99,8 @@ max({ARRAY})
 
 **Beispiel**
 
-Der folgende Vorgang gibt den höchsten Preis aller Bestellungen zurück.
+Die folgende PQL-Abfrage gibt den höchsten Preis aller Bestellungen zurück.
 
 ```sql
-{%=max(orders.order.price)%}
+max(orders.order.price)
 ```
