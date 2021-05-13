@@ -2,18 +2,18 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 5304db1456f0541d18823f862ae420892e46fd89
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 8%
+source-wordcount: '561'
+ht-degree: 37%
 
 ---
 
-# Benutzer {#operators}
+# Operatoren   {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Und{#and}
+## Und
 
 Die Funktion `and` wird zur Erstellung einer logischen Verbindung verwendet.
 
@@ -25,13 +25,13 @@ Die Funktion `and` wird zur Erstellung einer logischen Verbindung verwendet.
 
 **Beispiel**
 
-Die folgende Operation wird alle Menschen mit Heimat-Land als Kanada und Geburtsjahr von 1985.
+Die folgende PQL Abfrage wird alle Menschen mit Heimat als Kanada und Geburtsjahr von 1985.
 
 ```sql
 homeAddress.countryISO = "CA" and person.birthYear = 1985
 ```
 
-## Oder{#or}
+## Oder
 
 Die Funktion `or` wird verwendet, um eine logische Trennung zu erstellen.
 
@@ -43,13 +43,13 @@ Die Funktion `or` wird verwendet, um eine logische Trennung zu erstellen.
 
 **Beispiel**
 
-Die folgende Operation wird alle Menschen mit Heimat-Land als Kanada oder Geburtsjahr von 1985.
+Die folgende PQL Abfrage wird alle Menschen mit Heimat als Kanada oder Geburtsjahr von 1985.
 
 ```sql
 homeAddress.countryISO = "CA" or person.birthYear = 1985
 ```
 
-## Not{#not}
+## Nicht
 
 Die Funktion `not` (oder `!`) wird zum Erstellen einer logischen Negation verwendet.
 
@@ -62,13 +62,13 @@ not ({QUERY})
 
 **Beispiel**
 
-Mit der folgenden Operation werden alle Personen, die ihr Heimatland nicht als Kanada haben, zurückgeschickt.
+Die folgende PQL-Abfrage gibt alle Menschen zurück, die ihr Heimatland nicht als Kanada haben.
 
 ```sql
 not (homeAddress.countryISO = "CA")
 ```
 
-## If{#if}
+## Wenn 
 
 Die Funktion `if` wird verwendet, um einen Ausdruck aufzulösen, je nachdem, ob eine angegebene Bedingung wahr ist.
 
@@ -86,13 +86,13 @@ if ({TEST_EXPRESSION}, {TRUE_EXPRESSION}, {FALSE_EXPRESSION})
 
 **Beispiel**
 
-Der folgende Vorgang setzt den Wert auf `1`, wenn das Heimatland Kanada ist, und `2`, wenn das Heimatland nicht Kanada ist.
+Die folgende PQL-Abfrage setzt den Wert auf `1`, wenn das Heimatland Kanada ist, und `2`, wenn das Heimatland nicht Kanada ist.
 
 ```sql
 if (homeAddress.countryISO = "CA", 1, 2)
 ```
 
-## Gleich{#equals}
+## Gleich
 
 Die Funktion `=` (gleich) prüft, ob ein Wert oder Ausdruck gleich einem anderen Wert oder Ausdruck ist.
 
@@ -104,13 +104,13 @@ Die Funktion `=` (gleich) prüft, ob ein Wert oder Ausdruck gleich einem anderen
 
 **Beispiel**
 
-Der folgende Vorgang überprüft, ob sich das Land mit der Heimatadresse in Kanada befindet.
+Die folgende PQL-Abfrage prüft, ob sich das Land mit der Heimatadresse in Kanada befindet.
 
 ```sql
 homeAddress.countryISO = "CA"
 ```
 
-## Nicht gleich{#notequal}
+## Ungleich
 
 Die Funktion `!=` (nicht gleich) prüft, ob ein Wert oder Ausdruck **nicht** einem anderen Wert oder Ausdruck entspricht.
 
@@ -122,13 +122,13 @@ Die Funktion `!=` (nicht gleich) prüft, ob ein Wert oder Ausdruck **nicht** ein
 
 **Beispiel**
 
-Der folgende Vorgang überprüft, ob sich das Land der Heimatadresse nicht in Kanada befindet.
+Die folgende PQL-Abfrage überprüft, ob das Land der Wohnadresse nicht in Kanada liegt.
 
 ```sql
 homeAddress.countryISO != "CA"
 ```
 
-## Größer als{#greaterthan}
+## Größer als
 
 Mit der Funktion `>` (Größer als) wird überprüft, ob der erste Wert größer als der zweite ist.
 
@@ -140,13 +140,13 @@ Mit der Funktion `>` (Größer als) wird überprüft, ob der erste Wert größer
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, deren Geburtstage nicht im Januar oder Februar liegen.
+Die folgende PQL-Abfrage definiert Personen, deren Geburtstage nicht im Januar oder Februar liegen.
 
 ```sql
 person.birthMonth > 2
 ```
 
-## Größer oder gleich{#greaterthanorequal}
+## Größer oder gleich
 
 Mit der Funktion `>=` (größer oder gleich) wird überprüft, ob der erste Wert größer oder gleich dem zweiten Wert ist.
 
@@ -158,13 +158,13 @@ Mit der Funktion `>=` (größer oder gleich) wird überprüft, ob der erste Wert
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, deren Geburtstage nicht im Januar oder Februar liegen.
+Die folgende PQL-Abfrage definiert Personen, deren Geburtstage nicht im Januar oder Februar liegen.
 
 ```sql
 person.birthMonth >= 3
 ```
 
-## Niedriger als{#lessthan}
+## Kleiner als
 
 Mit der Vergleichsfunktion `<` (less than) wird geprüft, ob der erste Wert kleiner als der zweite ist.
 
@@ -176,13 +176,13 @@ Mit der Vergleichsfunktion `<` (less than) wird geprüft, ob der erste Wert klei
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, deren Geburtstag im Januar liegt.
+Die folgende PQL-Abfrage definiert Personen, deren Geburtstag im Januar liegt.
 
 ```sql
 person.birthMonth < 2
 ```
 
-## Kleiner oder gleich{#lessthanorequal}
+## Kleiner oder gleich
 
 Mit der Vergleichsfunktion `<=` (kleiner oder gleich) wird geprüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist.
 
@@ -194,15 +194,15 @@ Mit der Vergleichsfunktion `<=` (kleiner oder gleich) wird geprüft, ob der erst
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, deren Geburtstag im Januar oder Februar liegt.
+Die folgende PQL-Abfrage definiert Personen, deren Geburtstag im Januar oder Februar liegt.
 
 ```sql
 person.birthMonth <= 2
 ```
 
-## hinzufügen{#add}
+## Addieren
 
-Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdrücken zu finden.
+Mit der Funktion `+` (Addition) wird die Summe zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -212,15 +212,15 @@ Die Funktion `+` (Addition) wird verwendet, um die Summe von zwei Argument-Ausdr
 
 **Beispiel**
 
-Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
+Die folgende PQL-Abfrage addiert die Preise von zwei verschiedenen Produkten.
 
 ```sql
 product1.price + product2.price
 ```
 
-## Multiplizieren{#multiply}
+## Multiplizieren
 
-Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument-Ausdruck zu finden.
+Mit der Funktion `*` (Multiplikation) wird das Produkt zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -230,15 +230,15 @@ Die Funktion `*` (Multiplikation) wird verwendet, um das Produkt zweier Argument
 
 **Beispiel**
 
-Das folgende Verfahren ermittelt das Produkt des Bestandes und den Preis eines Produkts, um den Bruttowert des Produkts zu ermitteln.
+Die folgende PQL-Abfrage ermittelt das Produkt im Bestand sowie den Preis eines Produkts, um den Bruttowert des Produkts zu berechnen.
 
 ```sql
 product.inventory * product.price
 ```
 
-## Subtrahieren{#substract}
+## Subtrahieren
 
-Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argument-Ausdrücken zu ermitteln.
+Mit der Funktion `-` (Subtraktion) wird der Unterschied zwischen zwei Argumentausdrücken ermittelt.
 
 **Format**
 
@@ -248,15 +248,15 @@ Die Funktion `-` (Subtraktion) wird verwendet, um den Unterschied von zwei Argum
 
 **Beispiel**
 
-Im Folgenden wird der Preisunterschied zwischen zwei verschiedenen Produkten ermittelt.
+Die folgende PQL-Abfrage ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
 
 ```sql
 product1.price - product2.price
 ```
 
-## Dividieren{#divide}
+## Dividieren
 
-Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausdruck zu finden.
+Mit der Funktion `/` (Division) wird der Quotient zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -266,15 +266,15 @@ Die Funktion `/` (Division) wird verwendet, um den Quotient zweier Argument-Ausd
 
 **Beispiel**
 
-Im Folgenden wird der Quotient zwischen den insgesamt verkauften Produkten und dem verdienten Gesamtgeld ermittelt, um die durchschnittlichen Kosten pro Artikel zu sehen.
+Die folgende PQL-Abfrage ermittelt den Quotienten zwischen den insgesamt verkauften Produkten und dem insgesamt verdienten Geld, um so die durchschnittlichen Kosten pro Artikel zu berechnen.
 
 ```sql
 totalProduct.price / totalProduct.sold
 ```
 
-## Remainder{#remainder}
+## Rest
 
-Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der beiden Argument-Ausdruck zu finden.
+Mit der Funktion `%` (Modulo/Rest) wird nach der Division der beiden Argumentausdrücke der Rest ermittelt.
 
 **Format**
 
@@ -284,7 +284,7 @@ Die `%`-Funktion (Modulo/Rest) wird verwendet, um den Rest nach der Teilung der 
 
 **Beispiel**
 
-Der folgende Vorgang überprüft, ob das Alter der Person durch fünf teilbar ist.
+Die folgende PQL-Abfrage prüft, ob das Alter der Person durch fünf teilbar ist.
 
 ```sql
 person.age % 5 = 0
