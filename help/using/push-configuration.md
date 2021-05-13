@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '902'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,10 +50,10 @@ So weisen Sie Eigenschaften- und Firmen-Rechte zu:
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen alle]**. Dadurch werden Ihrem Produkt-Profil die folgenden Rechte hinzugefügt:
    * **[!UICONTROL Genehmigen]**
-   * **[!UICONTROL Entwicklung]**
+   * **[!UICONTROL Entwickeln]**
    * **[!UICONTROL Umgebung verwalten]**
    * **[!UICONTROL Erweiterungen verwalten]**
-   * **[!UICONTROL Veröffentlichen]**
+   * **[!UICONTROL Veröffentlichen Sie]**
 
    ![](assets/push_product_3.png)
 
