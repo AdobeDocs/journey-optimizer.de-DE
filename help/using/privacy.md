@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -31,7 +31,7 @@ Als Firma zum Sammeln und Freigeben von personenbezogenen Daten sind Sie der Dat
 
 Persönliche und sensible Daten müssen sorgfältig verwaltet werden. Befolgen Sie die folgenden allgemeinen Grundsätze:
 
-* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit personenbezogenen Daten um.
+* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit persönlichen Informationen um.
 
 * Keine unerwünschten Nachrichten (&quot;Spam&quot;) senden. Adobe ist fest an die Grundsätze des Permission Marketings zur Förderung des Lebensdauerwerts und der Kundenloyalität gebunden und verbietet daher strikt die Verwendung von Journey Optimizer beim Versenden von unerbetenen Nachrichten.
 
@@ -54,7 +54,7 @@ Um die Privatsphäre korrekt zu behandeln und personenbezogene Daten zu verwalte
 
 Journey Optimizer übernimmt die meisten in Adobe Experience Platform vorgenommenen Änderungen am Datensatz.
 
-Daher werden Datenschutzanforderungen (Zugriffsrecht und Recht auf Vergessen) über Experience Platform verwaltet. Sie müssen Ihre Anforderungen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) senden und **Profil** und **AEP Data Lake** aus der Liste [beim Erstellen Ihrer Datenschutzanforderung](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder) auswählen. <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
+Daher werden Datenschutzanforderungen (Zugriffsrecht und Recht auf Vergessen) über Experience Platform verwaltet. Sie müssen Ihre Anforderungen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de-DE) senden und **Profil** und **AEP Data Lake** aus der Liste [beim Erstellen Ihrer Datenschutzanforderung](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder) auswählen. <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
@@ -62,17 +62,17 @@ Daher werden Datenschutzanforderungen (Zugriffsrecht und Recht auf Vergessen) ü
 
 ## Adobe Experience Cloud – Datenschutz {#experience-cloud-privacy}
 
-Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen der Adobe Experience Cloud. [Erfahren Sie mehr über die Privatsphäre](https://www.adobe.com/de/privacy/marketing-cloud.html) in Adobe Experience Cloud.
+Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen der Adobe Experience Cloud. [Erfahren Sie mehr über die Privatsphäre](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
 
-Als Unternehmen, das Adobe Experience Cloud-Lösungen nutzt, entscheiden Sie selbst, welche Informationen erfasst und an Ihr Adobe Experience Cloud-Konto gesendet werden sollen. Beispiele für die Arten von Informationen, die erfasst werden können, sind Webbrowsing-Aktivitäten, IP-Adressen, Standortinformationen von Mobilgeräten, Erfolgsquoten von Kampagnen, gekaufte oder in den Warenkorb gelegte Artikel usw. Weitere Informationen finden Sie in der [Datenschutzerklärung von Adobe](https://www.adobe.com/privacy/policy.html).
+Als Unternehmen, das Adobe Experience Cloud-Lösungen nutzt, entscheiden Sie selbst, welche Informationen erfasst und an Ihr Adobe Experience Cloud-Konto gesendet werden sollen. Beispiele für die Arten von Informationen, die erfasst werden können, sind Webbrowsing-Aktivitäten, IP-Adressen, Standortinformationen von Mobilgeräten, Erfolgsquoten von Kampagnen, gekaufte oder in den Warenkorb gelegte Artikel usw. Weitere Informationen finden Sie in der [Datenschutzerklärung von Adobe](https://www.adobe.com/de/privacy/policy.html).
 
 Adobe fordert Sie auf, Ihren Kunden Datenschutzrichtlinien bereitzustellen, in denen Folgendes beschrieben wird:
 
 * Ihre Datenschutzpraktiken in Verbindung mit Adobe Experience Cloud
-* Die Art und Weise, in der Benutzer ihre Voreinstellungen für die Erfassung oder Verwendung ihrer Informationen in Verbindung mit Adobe Experience Cloud festlegen können
+* Die Art und Weise, auf die Benutzer ihre Voreinstellungen für die Erfassung oder Verwendung ihrer Informationen in Verbindung mit Adobe Experience Cloud festlegen können
 
 >[!NOTE]
 >
->Wie bei allen Produkten der Adobe können Journey Optimizer-Benutzer die Freigabe von Informationen, die über Apps und Websites erfasst wurden, deaktivieren. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
+>Wie bei allen Produkten der Adobe können Journey Optimizer-Benutzer die Freigabe von Informationen, die über Apps und Websites erfasst wurden, deaktivieren. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
