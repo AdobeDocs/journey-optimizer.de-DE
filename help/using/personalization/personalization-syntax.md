@@ -2,10 +2,10 @@
 title: Personalisierungssyntax
 description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
 translation-type: tm+mt
-source-git-commit: 4f097636e059c5d0676b0129cdbdb125e5ad9415
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-## Einleitung
+## Einführung
 
 Die Personalisierung in Journey Optimizer basiert auf der Vorlagensyntax Handlebars.
 Eine vollständige Beschreibung der Handlebars-Syntax finden Sie unter [HandlebarsJS](https://handlebarsjs.com/).
@@ -22,14 +22,14 @@ Es verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate
 
 Einfaches Ausdruck-Beispiel:
 
-```sql
+```
 {{profile.person.name}}
 ```
 
 where:
 
 * **profileis** ein Namensraum.
-* **person.** nameis ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform XDM-Schema definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+* **person.** nameis ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform XDM-Schema definiert. [Weitere Infos](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
 ## Allgemeine Syntaxregeln
 
@@ -65,7 +65,7 @@ Alle Verweise werden mit einem Überprüfungsmechanismus validiert, der [hier](p
 
 **E-Mail-Adresserweiterung** bestimmen:
 
-```sql
+```
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
 {%else if contains(profile.personalEmail.address, ".org")%}
@@ -81,7 +81,7 @@ Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in
 
 **Sie können unterschiedliche Inhalte basierend auf der Segmentmitgliedschaft** rendern:
 
-```sql
+```
 {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
   Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
 {%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
@@ -91,7 +91,7 @@ Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in
 
 **Stellen Sie fest, ob ein Profil bereits Mitglied** ist:
 
-```sql
+```
 {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
     You're a member!
 {%else%}
@@ -111,9 +111,9 @@ Dieser Pfad hat die folgende Struktur:
 3 - Aktivitäten-ID
 4 - Angebot-spezifische Attribute. Je nach Angebot können unterstützte Attribute verwendet werden. Beispiel für Bilder `deliveryUrl`.
 
-Weitere Informationen zur Entscheidungen-API finden Sie auf dieser [Seite](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Weitere Informationen zur Entscheidungen-API finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
 
-Weitere Informationen zur Darstellung von Angeboten finden Sie auf dieser [Seite](https://experienceleague.corp.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+Weitere Informationen zur Darstellung von Angeboten finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
 Alle Verweise werden mit einem Überprüfungsmechanismus validiert, der [hier](personalization-validation.md) beschrieben wird, und zwar mit einem Angebot-Schema.
 
@@ -144,12 +144,12 @@ Jeder Parameter ist ein Handlebars-Ausdruck. Diese Helfer können von jedem beli
 Diese Blockhelfer werden durch ein # identifiziert, das dem Helfernamen vorausgeht, und erfordern ein passendes Schließen /, mit demselben Namen.
 Blöcke sind Ausdruck mit Blocköffnungs- ({{# }}) und -schließenden ({{/}}).
 
-### If{#if}
+### Wenn 
 
 Der Helfer **if** wird zum Definieren eines bedingten Blocks verwendet.
 Wenn die Auswertung des Ausdrucks &quot;true&quot;zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
 
-```sql
+```
 {%#if contains(profile.personalEmail.address, ".edu")%}
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
@@ -159,7 +159,7 @@ Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweis
 
 **Verschiedene Store-Links basierend auf bedingten Ausdrücken** rendern:
 
-```sql
+```
 {%#if profile.homeAddress.countryCode = "FR"%}
   <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
 {%else%}
@@ -167,13 +167,13 @@ Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweis
 {%/if%}
 ```
 
-### Sofern{#unless}
+### Sofern
 
 **#** unlesshelper wird verwendet, um einen bedingten Block zu definieren. Wenn die Auswertung des Ausdrucks &quot;false&quot;zurückgibt, wird der Block entgegen dem Helfer **#if** gerendert.
 
 **Rendering einiger Inhalte basierend auf der E-Mail-Adresserweiterung**:
 
-```sql
+```
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
 Some Normal Content
 {%else%}
@@ -181,7 +181,7 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-### Jede{#each}
+### Jeder
 
 Der **Jeder**-Helfer wird verwendet, um über ein Array zu iterieren.
 Die Syntax des Helfers ist ```{{#each ArrayName}}``` YourContent {{/each}}
@@ -189,14 +189,14 @@ Wir können auf die einzelnen Array-Elemente verweisen, indem wir den Suchbegrif
 
 Beispiel:
 
-```sql
+```
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
     </br>
 {{/each}}
 ```
 
-```sql
+```
 {{#each profile.homeAddress.city}}
   {{@index}} : {{this}}<br>
 {{/each}}
@@ -204,20 +204,20 @@ Beispiel:
 
 **Eine Liste von Produkten, die dieser Benutzer im Warenkorb** hat, rendern:
 
-```sql
+```
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
    </br>
 {{/each}}
 ```
 
-### Mit{#with}
+### Mit 
 
 Der **#with**-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu ändern.
 
 Beispiel:
 
-```sql
+```
 {{#with profile.person.name}}
 {{this.firstName}} {{this.lastName}}
 {{/with}}
