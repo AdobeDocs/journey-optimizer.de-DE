@@ -5,52 +5,52 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
-# Profil {#update-profile} aktualisieren
+# Profil aktualisieren {#update-profile}
 
 ![](../assets/do-not-localize/badge.png)
 
-Mit der Aktivität **[!UICONTROL Profil aktualisieren]** können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aktualisieren, die aus dem Ereignis, einer Datenquelle oder einem bestimmten Wert stammen.
+Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein vorhandenes Adobe Experience Platform-Profil mit Informationen aus dem Ereignis, aus einer Datenquelle oder mit einem bestimmten Wert aktualisieren.
 
-## Wichtige Hinweise
+## Wichtige Hinweise     
 
-* Die Aktion **Profil aktualisieren** kann nur in Journey verwendet werden, beginnend mit einem Ereignis mit einem Namensraum.
-* Die Aktion aktualisiert nur die vorhandenen Felder, sie erstellt keine neuen Profil-Felder.
-* Sie können die Aktion **Profil aktualisieren** nicht verwenden, um Erlebnis-Ereignis zu generieren, z. B. einen Kauf.
-* Wie bei jeder anderen Aktion können Sie auch im Fehlerfall oder bei Zeitüberschreitung einen alternativen Pfad definieren und zwei Aktionen nicht parallel platzieren.
-* Die an die Plattform gesendete Aktualisierungsanforderung erfolgt schnell, jedoch nicht sofort/innerhalb einer Sekunde. Es dauert normalerweise ein paar Sekunden, manchmal aber auch mehr ohne Garantie. Wenn eine Aktion beispielsweise &quot;field 1&quot;verwendet, die durch eine zuvor positionierte Aktualisierungsaktion aktualisiert wurde, sollten Sie nicht erwarten, dass &quot;field 1&quot;in der Profil-Aktion aktualisiert wird.
-* Datenquellen haben eine Vorstellung von der Cachedauer auf Feldebene. Wenn Sie erwarten, dass Sie in einer Journey ein kürzlich aktualisiertes Profil-Feld nutzen, sollten Sie eine sehr kurze Cache-Dauer definieren.
+* Die Aktion **Profil aktualisieren** kann nur in Journeys verwendet werden, die mit einem Ereignis beginnen, das über einen Namespace verfügt.
+* Die Aktion aktualisiert nur die vorhandenen Felder, sie erstellt keine neuen Profilfelder.
+* Sie können die Aktion **Profil aktualisieren** nicht verwenden, um Erlebnisereignisse zu generieren, z. B. einen Kauf.
+* Wie bei jeder anderen Aktion können Sie einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung definieren und Sie können nicht zwei Aktionen parallel platzieren.
+* Die an Platform gesendete Aktualisierungsanfrage erfolgt schnell, jedoch nicht sofort/innerhalb einer Sekunde. Es dauert normalerweise ein paar Sekunden, manchmal aber auch mehr, ohne dass dies garantiert werden kann. Wenn eine Aktion beispielsweise „Feld 1“ verwendet, das durch eine davor positionierte Profilaktualisierungsaktion aktualisiert wurde, sollte nicht davon ausgegangen werden, dass „Feld 1“ durch die Aktion aktualisiert wird.
+* Datenquellen verfügen auf Feldergruppenebene über eine Einstellungsmöglichkeit für die Aufbewahrungsfrist im Cache. Soll in einer Journey ein kürzlich aktualisiertes Profilfeld genutzt werden, sollte eine sehr kurze Aufbewahrungsfrist im Cache definiert werden.
 
 ## Verwenden des Testmodus {#using-the-test-mode}
 
-Im Testmodus wird die Aktualisierung des Profils nicht simuliert. Die Aktualisierung wird am Test-Profil durchgeführt.
+Im Testmodus wird die Aktualisierung des Profils nicht simuliert. Die Aktualisierung wird für das Testprofil durchgeführt.
 
-Nur Profil können im Testmodus in eine Journey wechseln. Sie können entweder ein neues Profil erstellen oder ein vorhandenes Profil in ein Test-Profil umwandeln. In Adobe Experience Platform können Sie Attribute von Profilen über einen CSV-Dateiimport- oder API-Aufruf aktualisieren. Eine einfachere Methode besteht darin, eine Aktivität für die Aktion **Profil aktualisieren** zu verwenden und das boolesche Testfeld des Profils von &quot;false&quot;in &quot;true&quot;zu ändern.
+Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder ein neues Testprofil erstellen oder ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie Attribute von Profilen über einen CSV-Dateiimport- oder API-Aufruf aktualisieren. Eine einfachere Methode besteht darin, eine Aktivität für die Aktion **Profil aktualisieren** zu verwenden und das boolesche Testfeld des Profils von &quot;false&quot;in &quot;true&quot;zu ändern.
 
 Weitere Informationen dazu, wie Sie ein vorhandenes Profil in ein Test-Profil umwandeln, finden Sie in diesem [Abschnitt](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
-## Profil-Update verwenden
+## Verwenden der Profilaktualisierung
 
-1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Siehe [Abschnitt](../building-journeys/journey.md).
+1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Siehe diesen [Abschnitt](../building-journeys/journey.md).
 
-1. Legen Sie im Bereich **Aktion** der Palette die Aktivität **Profil** aktualisieren auf der Arbeitsfläche ab.
+1. Legen Sie im Abschnitt **Aktion** der Palette die Aktivität **Profil aktualisieren** auf der Arbeitsfläche ab.
 
    ![](../assets/profileupdate0.png)
 
-1. Wählen Sie ein Schema aus der Liste.
+1. Wählen Sie ein Schema aus der Liste aus.
 
 1. Klicken Sie auf **Felder**, um das Feld auszuwählen, das Sie aktualisieren möchten. Es kann nur ein Feld ausgewählt werden.
 
    ![](../assets/profileupdate2.png)
 
-1. Wählen Sie einen Datensatz aus der Liste aus. Die Datensatzauswahl bestimmt, wo der neue Profil gespeichert wird.
+1. Wählen Sie einen Datensatz aus der Liste aus. Die Auswahl des Datensatzes bestimmt, wo der neue Wert des Profilfelds gespeichert wird.
 
 1. Klicken Sie auf das Feld **Wert**, um den gewünschten Wert zu definieren:
 
-   * Mit dem einfachen Ausdruck-Editor können Sie ein Feld aus einer Datenquelle oder aus dem eingehenden Ereignis auswählen.
+   * Mit dem einfachen Ausdruckseditor können Sie ein Feld aus einer Datenquelle oder aus dem eingehenden Ereignis auswählen.
 
       ![](../assets/profileupdate4.png)
 
@@ -58,6 +58,6 @@ Weitere Informationen dazu, wie Sie ein vorhandenes Profil in ein Test-Profil um
 
       ![](../assets/profileupdate3.png)
 
-Das Profil **Aktualisieren** ist jetzt konfiguriert.
+Die Aktivität **Profil aktualisieren** ist jetzt konfiguriert.
 
 ![](../assets/profileupdate1.png)
