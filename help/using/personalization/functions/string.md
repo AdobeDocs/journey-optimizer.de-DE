@@ -2,10 +2,10 @@
 title: Funktionsbibliothek
 description: Funktionsbibliothek
 translation-type: tm+mt
-source-git-commit: 031bce5c0bd45a591993d53b16b87cacefc6102c
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 7%
+source-wordcount: '696'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 TBC CJM-Zeichenfolgen-Funktionen
 
-## Ist wie{#like}
+## like
 
 Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Muster entspricht.
 
@@ -39,7 +39,7 @@ In der folgenden Abfrage werden alle Städte mit dem Muster &quot;es&quot;abgeru
 like (city ,"%es%")
 ```
 
-## Beginnt mit{#startsWith}
+## Beginnt mit
 
 Mit der Funktion `startsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge Beginn.
 
@@ -63,7 +63,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 startsWith(person.name,"Joe")
 ```
 
-## Beginnt nicht mit{#doesNotStartWith}
+## Beginnt nicht mit
 
 Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge Beginn.
 
@@ -87,7 +87,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der P
 doesNotStartWith(person.name,"Joe")
 ```
 
-## Endet mit{#endsWith}
+## Endet mit
 
 Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
 
@@ -111,7 +111,7 @@ In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung
 endsWith(person.emailAddress,".com")
 ```
 
-## Endet nicht mit{#doesNotEndWith}
+## Endet nicht mit
 
 Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge endet.
 
@@ -135,7 +135,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob die E
 doesNotEndWith(person.emailAddress,".com")
 ```
 
-## Enthält{#contains}
+## Contains
 
 Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
 
@@ -159,7 +159,7 @@ Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung
 contains(person.emailAddress,"2010@gm")
 ```
 
-## Enthält nicht{#doesNotContain}
+## Enthält nicht
 
 Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge keine angegebene Unterzeichenfolge enthält.
 
@@ -183,7 +183,7 @@ Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung
 doesNotContain(person.emailAddress,"2010@gm")
 ```
 
-## Gleich{#equals}
+## Gleich
 
 Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge mit der angegebenen Zeichenfolge übereinstimmt.
 
@@ -206,7 +206,7 @@ Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibun
 equals(person.name,"John")
 ```
 
-## Ungleich{#notEqualTo}
+## Ungleich
 
 Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht mit der angegebenen Zeichenfolge übereinstimmt.
 
@@ -229,7 +229,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 notEqualTo(person.name,"John")
 ```
 
-## Übereinstimmungen{#matches}
+## Stimmt überein mit
 
 Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt. Weitere Informationen zu Übereinstimmungsmustern in regulären Ausdrücken finden Sie in [diesem Dokument](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
@@ -247,7 +247,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 matches(person.name.,"(?i)^John")
 ```
 
-## Gruppe regulärer Ausdruck{#regexGroup}
+## Regelmäßiger Ausdruck
 
 Die Funktion `regexGroup` wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
 
@@ -263,40 +263,4 @@ Die folgende Abfrage wird verwendet, um den Domänennamen aus einer E-Mail-Adres
 
 ```sql
 regexGroup(emailAddress,"@(\w+)", 1)
-```
-
-## Kleinbuchstabe{#lower}
-
-Die Funktion **lowerCase** wandelt eine Zeichenfolge in Kleinbuchstaben um.
-
-Syntax:
-
-```sql
-{%=lowerCase(string)%}
-```
-
-Beispiel:
-
-Diese Funktion wandelt den Vornamen des Profils in Kleinbuchstaben um.
-
-```sql
-{%=lowerCase(profile.person.name.firstName)%}
-```
-
-## Großbuchstabe{#upper}
-
-Die Funktion **upper** wandelt eine Zeichenfolge in Großbuchstaben um.
-
-Syntax:
-
-```sql
-{%=upperCase(string)%}
-```
-
-Beispiel:
-
-Diese Funktion wandelt den Nachnamen des Profils in Großbuchstaben um.
-
-```sql
-{%=upperCase(profile.person.name.lastName)%}
 ```
