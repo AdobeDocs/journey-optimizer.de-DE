@@ -1,7 +1,6 @@
 ---
 title: Kontexte der Personalisierung in Journey Optimizer
 description: Erfahren Sie, in welchen Kontexten Sie Personalisierung hinzufügen können
-translation-type: tm+mt
 source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '397'
