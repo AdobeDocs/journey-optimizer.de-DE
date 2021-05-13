@@ -5,11 +5,11 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# Datenquelle {#configure-data-source} konfigurieren
+# Datenquelle konfigurieren {#configure-data-source}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -47,7 +47,7 @@ Wenn ein Datenquellenfeld in einer Journey verwendet wird, ruft das System alle 
 
 Die **[!UICONTROL Aufbewahrungsfrist im Cache]** ist ebenfalls wichtig, da sie Ihnen bei der Performance-Optimierung hilft. Die Aufbewahrungsfrist im Cache bedeutet, dass das System in einer Journey Daten aus einer Feldergruppe, die einmal abgerufen wurden, vorübergehend zwischenspeichert. Wenn dieselben Daten später in derselben Journey benötigt werden, sendet das System keine weitere Anfrage an die Datenquelle. Die Konfiguration der Aufbewahrungsfrist im Cache sollte für jeden Anwendungsfall angepasst werden. Wenn Sie Echtzeitdaten wie z. B. den Status der Hotelreservierung, Wetterinformationen oder die Anzahl der Treuepunkte abrufen müssen, verbinden Sie die Feldergruppe mit diesen Feldern mit einer kurzen Aufbewahrungsfrist im Cache (z. B. 1 Sekunde). Bei Feldern, die seltener aktualisiert werden (Name, Geschlecht), erstellen Sie eine zweite Feldergruppe mit einer längeren Aufbewahrungsfrist im Cache (z. B. 5 Tage).
 
-Die Anzahl der Journeys, die eine Feldergruppe verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit dieser Feldergruppe anzuzeigen.
+Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit dieser Feldergruppe anzuzeigen.
 
 >[!NOTE]
 >
