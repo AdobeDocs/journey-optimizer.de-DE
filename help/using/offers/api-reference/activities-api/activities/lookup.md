@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 45%
 
 ---
 
@@ -24,10 +24,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem die Entscheidungen getroffen werden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Definiert das Schema im Zusammenhang mit Entscheidungen. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Eine Zeichenfolge, die mit der `@id`-Eigenschaft der Entitäten übereinstimmt. Die Zeichenfolge ist exakt identisch. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Eine Zeichenfolge, die mit der Eigenschaft xdm:name der Entitäten übereinstimmt. Die Zeichenfolge ist exakt mit der Groß-/Kleinschreibung identisch, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter &quot;id&quot;und &quot;name&quot;können nicht zusammen verwendet werden | `LBAR` |
+| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter „id“ und „name“ können nicht zusammen verwendet werden. | `LBAR` |
 
-**Anforderung**
+**Anfrage**
 
 ```shell
 curl -X GET \
@@ -39,7 +39,7 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
 Eine erfolgreiche Antwort gibt die Details der Platzierung zurück, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und eindeutigen Entscheidung `@id`.
 
