@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ Gehen Sie wie folgt vor, um einen Link zum Abmelden hinzuzufügen:
 
    >[!NOTE]
    >
-   >Ihre Drittanbieter-Landingpage-URL enthält drei Parameter, mit denen die Voreinstellungen der Profile über einen Adobe I/O-Aufruf aktualisiert werden. &#x200B; [Weitere Informationen finden Sie in diesem Abschnitt](#consent-service-api).
+   >Ihre Drittanbieter-Landingpage-URL enthält drei Parameter, mit denen die Voreinstellungen der Profile über einen Adobe I/O-Aufruf aktualisiert werden. &#x200B; [Weiterführende Informationen finden Sie in diesem Abschnitt](#consent-service-api).
 
 1. Senden Sie Ihre Nachricht mit dem Link zu Ihrer Landingpage über eine [Journey](building-journeys/journey.md).
 
@@ -94,7 +94,7 @@ Dieser Aufruf zur POST der Adobe I/O lautet wie folgt:
 
 Endpunkt: cjm.adobe.io/imp/consent/preferences
 
-Abfrage:
+Abfrageparameter:
 * **params**: enthält die verschlüsselte Nutzlast
 * **sig**: signature  <!--which signature?-->
 * **pid**: verschlüsselte Profil-ID
@@ -111,7 +111,7 @@ Kopfzeilenanforderungen:
 * x-sandbox-name
 * Autorisierung (Benutzertoken aus Ihrem technischen Konto) <!--How do you find this information? And other header elements?-->
 
-Anforderungsgremium:
+Anfrageinhalt:
 
 ```
 {
