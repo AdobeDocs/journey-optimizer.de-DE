@@ -1,19 +1,19 @@
 ---
-title: Liste personalisierter Angebot
-description: Ein personalisiertes Angebot ist eine benutzerspezifische Marketingbotschaft, die auf Eignungsregeln und Einschränkungen basiert.
+title: Personalisierte Angebote auflisten
+description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Suchen Sie nach einem personalisierten Angebot
+# Personalisiertes Angebot nachschlagen
 
-Ein personalisiertes Angebot ist eine benutzerspezifische Marketingbotschaft, die auf Eignungsregeln und Einschränkungen basiert.
+Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 
-Sie können spezifische personalisierte Angebot nachschlagen, indem Sie eine GET an die [!DNL Offer Library]-API anfordern, die entweder das personalisierte Angebot `@id` oder den Namen des personalisierten Angebots im Anforderungspfad enthält.
+Sie können nach einzelnen personalisierten Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` des personalisierten Angebots oder den Namen des personalisierten Angebots im Anfragepfad enthält.
 
 **API-Format**
 
@@ -24,12 +24,12 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die personalisierten Angebot befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die personalisierten Angebote befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Definiert das Schema, das mit personalisierten Angeboten verknüpft ist. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Eine Zeichenfolge, die mit der `@id`-Eigenschaft der Entitäten übereinstimmt. Die Zeichenfolge ist exakt identisch. Die Parameter &quot;id&quot;und &quot;name&quot;können nicht zusammen verwendet werden. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Eine Zeichenfolge, die mit der Eigenschaft xdm:name der Entitäten übereinstimmt. Die Zeichenfolge ist exakt mit der Groß-/Kleinschreibung identisch, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden | `Discount offer` |
+| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter „id“ und „name“ können nicht zusammen verwendet werden. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Discount offer` |
 
-**Anforderung**
+**Anfrage**
 
 ```shell
 curl -X GET \
@@ -41,9 +41,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der Platzierung zurück, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und dem eindeutigen personalisierten Angebot `@id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen `@id` des personalisierten Angebots.
 
 ```json
 {
