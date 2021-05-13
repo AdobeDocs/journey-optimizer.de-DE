@@ -2,53 +2,53 @@
 title: Erste Schritte
 description: Erfahren Sie, wie Sie mit der Angebot-Bibliotheks-API Beginn ausführen, um wichtige Vorgänge mit der Entscheidungsverwaltungsmodul durchzuführen.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
 # Entwicklerhandbuch für die Entscheidungs-API
 
-In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der [!DNL Offer Library]-API Beginn ausführen können. Das Handbuch bietet dann Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungsverwaltungsmodul.
+In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch bietet dann Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungsverwaltungsmodul.
 
-![](../assets/do-not-localize/how-to-video.png) [Diese Funktion im Video entdecken](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
 ## Voraussetzungen
 
-Dieses Handbuch erfordert ein Verständnis der folgenden Komponenten von Adobe Experience Platform:
+Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Experience Platform voraus:
 
-* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html): Das standardisierte Framework, mit dem Kundenerlebnisdaten  [!DNL Experience Platform] organisiert werden.
-   * [Grundlagen der Zusammensetzung](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) des Schemas: Erfahren Sie mehr über die grundlegenden Bausteine von XDM-Schemas.
-* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für die Experience Decision im Allgemeinen und für die Offer decisioning im Besonderen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während des Kundenerlebnisses angezeigt werden soll.
-* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/en/experience-platform/segmentation/pql/overview.html): PQL ist eine leistungsstarke Sprache, um Ausdruck über XDM-Instanzen zu schreiben. PQL wird zur Definition von Entscheidungsregeln verwendet.
+* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html): Das standardisierte Framework, mit dem [!DNL Experience Platform] Kundenerlebnisdaten organisiert.
+   * [Grundlagen der Schemakomposition](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/schema/composition.html): Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
+* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für die Experience Decision im Allgemeinen und für die Offer decisioning im Besonderen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
+* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/pql/overview.html): PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken über XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen
 
-In diesem Handbuch finden Sie Beispiele für API-Aufrufe, die zeigen, wie Sie Ihre Anforderungen formatieren. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anforderungs-Nutzdaten. Beispiel-JSON, die in API-Antworten zurückgegeben wird, wird ebenfalls bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt [Anleitung zum Lesen von Beispiel-API-Aufrufen](https://docs.adobe.com/content/help/en/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) im Handbuch [!DNL Experience Platform] zur Fehlerbehebung.
+In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://docs.adobe.com/content/help/de-DE/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) im Fehlerbehebungshandbuch für [!DNL Experience Platform]
 
-## Werte für erforderliche Kopfzeilen sammeln
+## Sammeln von Werten für erforderliche Kopfzeilen
 
-Um Aufrufe an APIs für [!DNL Platform] durchzuführen, müssen Sie zunächst das [Authentifizierungstutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) abschließen. Wenn Sie das Authentifizierungstreutorial abschließen, werden die Werte für die einzelnen erforderlichen Kopfzeilen in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
+Um [!DNL Platform]-APIs aufzurufen, müssen Sie zunächst das [Authentifizierungs-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html) abschließen. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
 
-Für alle Anforderungen mit einer Nutzlast (POST, PUT, PATCH) ist ein zusätzlicher Header erforderlich:
+Bei allen Anfragen mit einer Payload (POST, PUT, PATCH) ist eine zusätzliche Kopfzeile erforderlich:
 
 * `Content-Type: application/json`
 
 ## Zugriff auf einen Container verwalten
 
-Ein Container ist ein Isolationsmechanismus, der unterschiedliche Anliegen voneinander trennt. Die Container-ID ist das erste Pfadelement für alle Repository-APIs. Alle Entscheidungsobjekte befinden sich in einem Container.
+Ein Container ist ein Isolationsmechanismus, der unterschiedliche Aufgaben voneinander trennt. Die Container-ID ist das erste Pfadelement für alle Repository-APIs. Alle Entscheidungsobjekte befinden sich in einem Container.
 
-Ein Administrator kann ähnliche Prinzipale, Ressourcen und Zugriffsberechtigungen in Profilen gruppieren. Dies verringert den Verwaltungsaufwand und wird von [Adobe Admin Console](https://adminconsole.adobe.com/) unterstützt. Sie müssen Produktadministrator für Adobe Experience Platform in Ihrem Unternehmen sein, um Profile zu erstellen und Benutzer zuzuweisen. Es reicht aus, Produktanpassungen zu erstellen, die bestimmten Berechtigungen in einem einmaligen Schritt entsprechen, und diese Profil dann einfach zu diesen Profilen hinzuzufügen. Profil fungieren als Gruppen, denen Berechtigungen erteilt wurden, und alle echten Benutzer oder technischen Benutzer in dieser Gruppe erben diese Berechtigungen.
+Ein Administrator kann ähnliche Prinzipale, Ressourcen und Zugriffsberechtigungen in Profilen anordnen. Dies verringert den Verwaltungsaufwand und wird von der [Adobe Admin Console](https://adminconsole.adobe.com/) unterstützt. Sie müssen in Ihrem Unternehmen ein Produktadministrator für Adobe Experience Platform sein, um Profile erstellen und mit Benutzern verknüpfen zu können. Es reicht aus, in einem einmaligen Schritt Produktprofile einzurichten, die bestimmten Berechtigungen entsprechen, und diesen Profilen dann einfach Benutzer hinzuzufügen. Profile dienen als Gruppen, denen Berechtigungen erteilt wurden; alle echten Benutzer oder technischen Benutzer in dieser Gruppe erben diese Berechtigungen.
 
-Mit Administratorberechtigungen können Sie Benutzern über das [Adobe Admin Console](https://adminconsole.adobe.com/) Berechtigungen erteilen oder entziehen. Weitere Informationen finden Sie unter [Übersicht über die Zugriffskontrolle](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html).
+Mit Administratorberechtigungen können Sie Benutzern über die [Adobe Admin Console](https://adminconsole.adobe.com/) Berechtigungen erteilen oder entziehen. Weiterführende Informationen finden Sie in der [Übersicht zur Zugriffskontrolle](https://docs.adobe.com/content/help/de-DE/experience-platform/access-control/home.html).
 
-### Benutzerfreundliche Liste-Container und Integrationen
+### Container auflisten, die für Benutzer und Integrationen zugänglich sind
 
 **API-Format**
 
@@ -59,10 +59,10 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | Filter der Liste von Containern durch ihre Verbindung zu den Kontexten der Produkte. | `acp` |
-| `{PROPERTY}` | Filter des zurückgegebenen Containers. | `_instance.containerType==decisioning` |
+| `{PRODUCT_CONTEXT}` | Filtert die Liste mit Containern anhand ihrer Verknüpfung mit Produktkontexten. | `acp` |
+| `{PROPERTY}` | Filtert die Art des zurückgegebenen Containers. | `_instance.containerType==decisioning` |
 
-**Anforderung**
+**Anfrage**
 
 ```shell
 curl -X GET \
@@ -73,7 +73,7 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
 Bei einer erfolgreichen Antwort werden Informationen zu Containern des Entscheidungsmanagements zurückgegeben. Dazu gehört ein `instanceId`-Attribut, dessen Wert Ihre Container-ID ist.
 
@@ -122,9 +122,9 @@ Bei einer erfolgreichen Antwort werden Informationen zu Containern des Entscheid
 
 ## Nächste Schritte
 
-Dieses Dokument deckte die erforderlichen Kenntnisse ab, um Aufrufe an die [!DNL Offer Library]-API durchzuführen, einschließlich des Erwerbs Ihrer Container-ID. Sie können nun zu den Beispielaufrufen in diesem Entwicklerhandbuch fortfahren und deren Anweisungen folgen.
+In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen von Aufrufen an die [!DNL Offer Library]-API benötigt werden, einschließlich der Beschaffung Ihrer Container-ID. Sie können nun mit den Beispielaufrufen in diesem Entwicklerhandbuch fortfahren und den entsprechenden Anweisungen folgen.
 
-## Lernvideo {#video}
+## Tutorial {#video}
 
 Das folgende Video soll Ihnen dabei helfen, die Komponenten von Decision Management besser zu verstehen.
 
