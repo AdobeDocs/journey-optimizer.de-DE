@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '783'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    ![](../assets/segment5.png)
 
-1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
+1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu.  Dieser Schritt ist optional.
 
 1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die gewünschten Segmente aus.
 
@@ -78,9 +78,9 @@ Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeig
 
 ### Batch-Segmente{#batch-speed-segment-qualification}
 
-Beachten Sie bei Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Der Umfang der Spitze hängt von der Zahl der Personen ab, die in das Segment täglich eintreten (bzw. austreten).
+Beachten Sie bei Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Der Umfang der Spitze hängt von der Zahl der Kontakte ab, die in das Segment täglich eintreten (bzw. austreten).
 
-Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Personen in die Journey eintreten.
+Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
 
 ### Streaming-Segmente{#streamed-speed-segment-qualification}
 
@@ -98,6 +98,6 @@ Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** 
 
 Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden (siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Personen auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie das Menü **[!UICONTROL Segmente]** öffnen, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
+Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie das Menü **[!UICONTROL Segmente]** öffnen, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
 
 ![](../assets/segment-overload.png)
