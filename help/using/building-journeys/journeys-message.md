@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können
 
    ![](../assets/jo-message1.png)
 
-1. hinzufügen einer Bezeichnung und Beschreibung.
+1. Fügen Sie einen Titel und eine Beschreibung hinzu.
 
    ![](../assets/jo-message2.png)
 
@@ -47,7 +47,7 @@ Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können
 
 ## Kanal-Parameter
 
-Die Parameter **Kanal** werden angezeigt. Diese Felder sind schreibgeschützt. Diese Konfiguration wird beim Erstellen der Nachricht durchgeführt. Siehe [diesen Abschnitt](../get-started-content.md).
+Die Parameter **Kanal** werden angezeigt. Diese Felder sind schreibgeschützt. Diese Konfiguration wird beim Erstellen der Nachricht durchgeführt. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
