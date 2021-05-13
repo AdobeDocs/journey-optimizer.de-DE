@@ -1,11 +1,11 @@
 ---
 title: Übersicht über die Freigabe von Journey-Schritten
-description: Übersicht über die Journey-Schrittfreigabe
+description: Übersicht über die Freigabe von Journey-Schritten
 translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -21,13 +21,13 @@ Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Funktionen 
 
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Optimizer]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Informationen können mit Daten auf Adobe Experience Platform kombiniert werden, entweder von anderen digitalen Eigenschaften oder von Offline-Eigenschaften, um eine umfassendere Ansicht der Leistung zu erhalten.
 
-[!DNL Journey Optimizer] erstellt automatisch die erforderlichen Schema und streamt die Daten für jeden Schritt, den ein Einzelner in einer Journey unternimmt, in Adobe Experience Platform zu. Ein Schrittereignis entspricht einem Kontakt, die bei einer Journey von einem Knoten zu einem anderen wechselt. In einer Journey mit einem Ereignis, einer Bedingung und einer Aktion werden beispielsweise drei Ereignis an Adobe Experience Platform gesendet.
+[!DNL Journey Optimizer] erstellt automatisch die erforderlichen Schema und streamt die Daten für jeden Schritt, den ein Einzelner in einer Journey unternimmt, in Adobe Experience Platform zu. Ein Schrittereignis entspricht einem Kontakt, der bei einer Journey von einem Knoten zu einem anderen wechselt. In einer Journey mit einem Ereignis, einer Bedingung und einer Aktion werden beispielsweise drei Ereignis an Adobe Experience Platform gesendet.
 
 Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten systemgenerierte Codes, andere haben lesbare Anzeigenamen. Beispiele sind die Bezeichnung der Journey-Aktivität und der Schrittstatus: wie oft eine Aktion die Zeit überschritten hat oder fehlerhaft endete.
 
 >[!CAUTION]
 >
->Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist.
+>Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist..
 
 Journeys sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
