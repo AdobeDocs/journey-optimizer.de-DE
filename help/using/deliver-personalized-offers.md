@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
 1. Wählen Sie die Platzierung aus, die den anzuzeigenden Angeboten entspricht.
 
-   Platzierungen sind Container, mit denen Ihre Angebot präsentiert werden. In diesem Beispiel verwenden wir die Platzierung &quot;E-Mail-Top-Bild&quot;. Diese Platzierung wurde in der Angebot-Bibliothek erstellt, um Angebote mit Bildtyp am Anfang von Nachrichten anzuzeigen.
+   Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. In diesem Beispiel verwenden wir die Platzierung &quot;E-Mail-Top-Bild&quot;. Diese Platzierung wurde in der Angebot-Bibliothek erstellt, um Angebote mit Bildtyp am Anfang von Nachrichten anzuzeigen.
 
 1. Wählen Sie die in der Inhaltskomponente zu verwendende Angebot-Aktivität aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
