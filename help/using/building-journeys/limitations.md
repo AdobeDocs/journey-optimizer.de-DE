@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ Hier sind Einschränkungen hinsichtlich der Verwendung von Journey.
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
 * Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen.
-Sie können eine Journey nicht mit einem **Segmentqualifikationsereignis** starten.
+Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
 * Eine Journey, die in Version 1 mit einer **Segmentqualifikationsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
@@ -45,9 +45,9 @@ Sie können eine Journey nicht mit einem **Segmentqualifikationsereignis** start
 
 ## Einschränkungen bei benutzerdefinierten Aktionen
 
-* Die URL der benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
+* Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
-* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ or &quot;$&quot;. 
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder &quot;$&quot;. 
 * IP-Adressen sind nicht zulässig. 
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
  
