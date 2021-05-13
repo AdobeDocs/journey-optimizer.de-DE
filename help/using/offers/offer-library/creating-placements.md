@@ -2,49 +2,49 @@
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen in Adobe Experience Platform erstellen.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 # Erstellen von Platzierungen {#creating-placements}
 
-Eine Platzierung hilft sicherzustellen, dass der richtige Angebot-Inhalt an der richtigen Stelle in Ihrer Nachricht angezeigt wird. Wenn Sie einem Angebot Inhalte hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der der Inhalt angezeigt werden kann.
+Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-![](../assets/do-not-localize/how-to-video.png) [Diese Funktion im Video entdecken](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Im unten stehenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
+Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
-Die Liste der Platzierungen ist im Menü **[!UICONTROL Komponenten]** verfügbar. Es stehen Filter zur Verfügung, mit denen Sie Platzierungen gemäß einem bestimmten Kanal oder Inhalt abrufen können.
+Die Liste der Platzierungen ist im Menü **[!UICONTROL Komponenten]** verfügbar. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Platzierung erstellen]**.
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. Definieren Sie die Eigenschaften der Platzierung:
 
-   * **[!UICONTROL Name]**: Der Name der Platzierung. Achten Sie darauf, einen aussagekräftigen Namen zu definieren, um ihn einfacher abzurufen.
-   * **[!UICONTROL Kanal]**: Der Kanal, für den die Platzierung verwendet wird.
-   * **[!UICONTROL Content type]**: Der Inhaltstyp, der für die Platzierung angezeigt werden darf: Text-, HTML- oder Bildlink.
-   * **[!UICONTROL Beschreibung]**: Eine Beschreibung der Platzierung (optional).
+   * **[!UICONTROL Name]**: der Name der Platzierung. Achten Sie darauf, einen aussagekräftigen Namen zu wählen, um die Platzierung leichter abrufen zu können.
+   * **[!UICONTROL Kanaltyp]**: Der Kanal, für den die Platzierung verwendet wird.
+   * **[!UICONTROL Inhaltstyp]**: Der Inhaltstyp, den die Platzierung anzeigen darf: Text, HTML oder Bild-Link.
+   * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-1. Nachdem die Platzierung erstellt wurde, wird sie in der Liste Platzierungen angezeigt. Sie können ihn auswählen, um seine Eigenschaften anzuzeigen und zu bearbeiten.
+1. Nachdem die Platzierung erstellt wurde, wird sie in der Liste der Platzierungen angezeigt. Sie können das Fallback-Angebot auswählen, um seine Eigenschaften anzuzeigen und zu bearbeiten.
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
-## Lernvideo {#video}
+## Tutorial {#video}
 
 >[!NOTE]
 >
