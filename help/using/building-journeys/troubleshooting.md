@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
 workflow-type: tm+mt
 source-wordcount: '1059'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -13,74 +13,74 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Abschnitt erfahren Sie, wie Sie Journey vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder die Journey live ist. Die Empfehlung besteht darin, alle unten aufgeführten Prüfungen im Testmodus durchzuführen und dann mit der Veröffentlichung fortzufahren. Siehe [diese Seite](../building-journeys/testing-the-journey.md).
+In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-## Vor dem Testen auf Fehler überprüfen{#section_h3q_kqk_fhb}
+## Fehlersuche vor dem Testen{#section_h3q_kqk_fhb}
 
-Überprüfen Sie vor dem Testen und Veröffentlichen der Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Sie können keine Tests oder Veröffentlichungen durchführen, wenn das System weiterhin Fehler erkennt.
+Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
 
-Fehler werden mit einem Warnsymbol auf den Aktivitäten auf der Arbeitsfläche angezeigt. Platzieren Sie den Cursor auf das Ausrufezeichen, um die Fehlermeldung anzuzeigen. Wenn Sie auf die Aktivität klicken, sollte die Zeile mit einer Warnung angezeigt werden. Wenn beispielsweise ein Pflichtfeld leer ist, wird ein Fehler angezeigt.
+Fehler werden in der Arbeitsfläche mit einem Warnsymbol auf den Aktivitäten selbst angezeigt. Platzieren Sie den Cursor auf dem Ausrufezeichen, um die entsprechende Fehlermeldung anzuzeigen. Wenn Sie auf die Aktivität klicken, sollte die fehlerhafte Zeile mit einer Warnung angezeigt werden. Beispielsweise wird ein Fehler angezeigt, wenn ein Pflichtfeld leer ist.
 
 ![](../assets/journey63.png)
 
-Wenn auf der Arbeitsfläche beispielsweise zwei Aktivitäten getrennt sind, wird eine Warnmeldung angezeigt.
+Auch wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung angezeigt.
 
 ![](../assets/canvas-disconnected.png)
 
-Neben dem Umschalter **[!UICONTROL Test]** und der Schaltfläche **[!UICONTROL Veröffentlichen]** kann ein Warnzeichen angezeigt werden. Dieses Warnzeichen zeigt Systemfehler an und verhindert die Aktivierung des Testmodus oder die Journey-Veröffentlichung. In den meisten Fällen werden vom System erkannte Fehler mit Fehlern in Verbindung gebracht, die auf den Aktivitäten sichtbar sind, gelegentlich aber mit anderen Problemen. In diesem Fall können Sie sie anzeigen und versuchen, das Problem anhand der Fehlerbeschreibung zu identifizieren. Wenn Sie das Problem nicht identifizieren können, können Sie die Details kopieren und an den Administrator oder den Support senden. Beachten Sie, dass Fehler, die den Test blockieren, und Fehler, die die Veröffentlichung blockieren, ähnlich sind.
+Neben dem Umschalter **[!UICONTROL Testen]** und der Schaltfläche **[!UICONTROL Veröffentlichen]** kann ein Warnzeichen angezeigt werden. Dieses Warnzeichen weist auf Fehler hin, die vom System erkannt wurden, und verhindert die Aktivierung des Testmodus oder die Veröffentlichung der Journey. In den meisten Fällen sind vom System erkannte Fehler mit Fehlern verbunden, die in den Aktivitäten sichtbar sind, gelegentlich aber auch mit anderen Problemen. In diesem Fall können Sie sie anzeigen und versuchen, das Problem anhand der Fehlerbeschreibung zu ermitteln. Gelingt es Ihnen nicht, das Problem zu identifizieren, können Sie die Details kopieren und an den Administrator oder den Support senden. Beachten Sie, dass Fehler, die den Test blockieren, und Fehler, die die Veröffentlichung blockieren, ähnlich sind.
 
-Das System erkennt zwei Arten von Problemen: Fehler und Warnungen. Fehler blockieren die Veröffentlichung und die Aktivierung des Tests. Warnungen weisen auf potenzielle Probleme hin, die die Aktivierung oder Veröffentlichung von Tests nicht blockieren. Daraufhin werden eine Beschreibung des Problems und eine Ausgabe-Protokoll-ID des Typs ERR_XXX_XXX angezeigt. Dies hilft dem technischen Support bei der Identifizierung des Problems.
+Das System erkennt zwei Arten von Problemen: Fehler und Warnungen. Fehler blockieren die Veröffentlichung und Testaktivierung. Warnungen weisen auf mögliche Probleme hin, blockieren aber nicht die Testaktivierung oder Veröffentlichung. Angezeigt werden eine Beschreibung des Problems sowie eine Problem-Protokoll-ID vom Typ ERR_XXX_XXX. Damit kann der technische Support das Problem identifizieren.
 
-Auf dem Zeichen neben dem Umschalter **[!UICONTROL Test]** und der Schaltfläche **[!UICONTROL Veröffentlichen]** können zwei verschiedene Farben angezeigt werden. Das Zeichen wird bei Fehlern rot angezeigt. Es wird bei Warnungen orange angezeigt.
+Auf dem Zeichen neben dem Umschalter **[!UICONTROL Testen]** und der Schaltfläche **[!UICONTROL Veröffentlichen]** können zwei verschiedene Farben angezeigt werden. Bei Fehlern wird ein rotes Zeichen angezeigt. Bei Warnungen wird ein orangefarbenes Zeichen angezeigt.
 
 ![](../assets/journey75.png)
 
-Fehler und Warnungen, die für die Journey gelten, werden zuerst in der Liste angezeigt. Fehler und Warnungen in Bezug auf bestimmte Aktivitäten werden nach, nach der Reihenfolge der Aktivität oder nach dem Erscheinungsbild im Journey von links nach rechts aufgelistet. Die Schaltfläche **[!UICONTROL Details kopieren]** kopiert technische Informationen über die Journey, die das Supportteam zur Fehlerbehebung verwenden kann.
+Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Mit der Schaltfläche **[!UICONTROL Details kopieren]** lassen sich technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen.
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey einer einzelnen Instanz beendet. Die einzige Möglichkeit, den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen **[!UICONTROL Hinzufügen einen alternativen Pfad im Falle eines Timeouts oder eines Fehlers]** zu markieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-## Überprüfen, ob Ereignis ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
+## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
 
-Der Ausgangspunkt einer Journey ist immer ein Ereignis. Sie können Tests mit Tools wie Postman durchführen.
+Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von Tools wie Postman Tests durchführen.
 
-Sie können überprüfen, ob der API-Aufruf, den Sie über diese Tools senden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler zurückerhalten, bedeutet dies, dass Ihr Aufruf ein Problem hat. Überprüfen Sie erneut die Nutzlast, den Header (und insbesondere die Organisations-ID) und die Ziel-URL. Sie können Ihren Administrator fragen, welche URL Sie treffen sollten.
+Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden nicht direkt von der Quelle an die Journey weitergeleitet. Tatsächlich sind Journey auf die Streaming-APIs von Adobe Experience Platform angewiesen. Daher können Sie bei Problemen mit Ereignissen auf [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) für die Fehlerbehebung bei Streaming-APIs verweisen.
+Ereignisse werden nicht direkt von der Quelle an die Journey weitergeleitet. Tatsächlich sind Journey auf die Streaming-APIs von Adobe Experience Platform angewiesen. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
-## Überprüfen, ob Personen die Journey eingeben{#section_x4v_zzs_dgb}
+## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
-Journey Berichte misst die Eingänge der Menschen in eine Journey in Echtzeit.
+Berichte zu Journey messen den Einstieg von Personen in eine Journey auf Echtzeitbasis.
 
-Wenn Sie das Ereignis erfolgreich senden, aber keinen Eingang in die Journey sehen, bedeutet das, dass etwas schiefgeht zwischen dem Ereignis senden und dem Ereignis Empfang in der Journey.
+Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
-Im Folgenden finden Sie einige Punkte, die der Administrator überprüfen sollte:
+Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfen sollte:
 
-* Sind Sie sicher, dass sich die Journey, bei der Sie das eingehende Ereignis erwarten, im Testmodus oder live befindet?
-* Haben Sie Ihr Ereignis gespeichert, bevor Sie die Nutzlast aus der Payload-Vorschau kopiert haben?
-* Enthält Ihre Ereignis-Nutzlast eine Ereignis-ID?
-* Haben Sie die richtige URL erreicht?
-* Haben Sie die Nutzlaststruktur der Streaming Ingestion APIs mithilfe der Vorschau für die Nutzlaststruktur im Bereich &quot;Ereignis-Konfiguration&quot;befolgt? Siehe [diese Seite](../event/about-creating.md#preview-the-payload).
-* Haben Sie die richtigen Schlüssel/Wert-Paare in der Kopfzeile Ihres Ereignisses verwendet?
+* Sind Sie sicher, dass sich die Journey, bei der Sie das eingehende Ereignis erwarten, im Testmodus befindet oder live ist?
+* Haben Sie das Ereignis gespeichert, bevor Sie die Payload aus der Payload-Vorschau kopiert haben?
+* Enthält die Payload des Ereignisses eine Ereignis-ID?
+* Haben Sie die richtige URL aufgerufen?
+* Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Weitere Informationen finden Sie auf [dieser Seite](../event/about-creating.md#preview-the-payload).
+* Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
 
    ```
    X-gw-ims-org-id - your ORGID
    Content-type - application/json
    ```
 
-## Überprüfen der Navigation durch die Journey{#section_l5y_yzs_dgb}
+## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
 
-Journey Berichte misst den Fortschritt von Einzelpersonen innerhalb einer Journey. Es ist einfach herauszufinden, wo und warum eine Person angehalten wurde.
+Berichte zu Journey messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
-Im Folgenden sind einige Punkte zu prüfen:
+Prüfen Sie folgende Punkte:
 
-* Ist das auf eine Bedingung zurückzuführen, die die Person ausschließt? Zum Beispiel ist die Krankheit &quot;Geschlecht = männlich&quot;und die Person eine Frau. Diese Prüfung kann von einem Geschäftsbenutzer durchgeführt werden, wenn die Bedingung nicht zu komplex ist.
-* Ist dies auf einen Aufruf an eine Datenquelle zurückzuführen, die nicht reagiert? Wenn die Journey im Test ist, können diese Informationen in Testmodusprotokollen angezeigt werden. Wenn die Journey live ist, kann ein Administrator Direktaufrufe an die Datenquelle testen und die erhaltene Antwort überprüfen. Ein Administrator kann die Journey auch Duplikat und testen.
+* Ist das Problem auf eine Bedingung zurückzuführen, mit der die Person ausgeschlossen wird? Beispiel: Die Bedingung lautet „Geschlecht = männlich“, während die Person eine Frau ist. Die Prüfung kann von einem Business-Anwender vorgenommen werden, solange die Bedingung nicht zu komplex ist.
+* Ist das Problem auf einen Aufruf einer Datenquelle zurückzuführen, die nicht reagiert? Wenn sich die Journey im Test befindet, können diese Informationen in Testmodusprotokollen angezeigt werden. Wenn die Journey live ist, kann ein Administrator direkte Aufrufe an die Datenquelle testen und die erhaltene Antwort überprüfen. Alternativ kann ein Administrator die Journey duplizieren und dann testen.
 
 ## Überprüfen, ob Nachrichten erfolgreich gesendet werden{#section_qb1_yzs_dgb}
 
-Wenn Einzelpersonen den richtigen Weg in die Journey gehen, aber keine Nachrichten erhalten, die sie empfangen sollten, können Sie prüfen, ob:
+Wenn Kontakte dem richtigen Weg entlang der Journey folgen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes prüfen:
 
 * Journey Optimizer hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Geschäftsbenutzer kann auf die Nachricht zugreifen, die gesendet werden soll, und prüfen, ob der Zeitpunkt der letzten Ausführung der Ausführungszeit Ihres Journey entspricht. Er kann auch die neuesten API-Aufrufe/Ereignis überprüfen.
-* Journey Optimizer hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status jeder Ausführung sehen. Sie können sehen, ob es grün, rot ist und was das Problem war. Ein Geschäftsbenutzer kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Prüfung an einen Administrator senden.
+* Journey Optimizer hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status jeder Ausführung sehen. Sie können sehen, ob der Status grün oder rot ist und worin das Problem bestand. Ein Business-Anwender kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Analyse an einen Administrator senden.
 
-Bei einer über eine benutzerdefinierte Aktion gesendeten Meldung kann während des Journey-Tests nur geprüft werden, ob der Aufruf des Systems der benutzerdefinierten Aktion zu einem Fehler führt oder nicht. Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, sondern nicht zum Senden einer Nachricht führt, sollten einige Untersuchungen auf der Seite des externen Systems durchgeführt werden.
+Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey­-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht. Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.
