@@ -1,11 +1,10 @@
 ---
 title: Entscheidungsregeln erstellen
 description: Erfahren Sie, wie Sie in Adobe Experience Platform Entscheidungsregeln erstellen.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 85%
+source-wordcount: '271'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Benennen Sie Ihre Regel, geben Sie eine Beschreibung ein und konfigurieren Sie dann die Regel entsprechend Ihren Anforderungen.
 
-   Dazu steht Ihnen der **Segment Builder** in Adobe Experience Platform zur Verfügung, mit dem Sie die Regelbedingungen erstellen können. Weiterführende Informationen zu dessen Verwendung finden Sie im [entsprechenden Handbuch](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/ui/segment-builder.html).
+   Dazu steht Ihnen der **Segment Builder** in Adobe Experience Platform zur Verfügung, mit dem Sie die Regelbedingungen erstellen können. Weiterführende Informationen zu dessen Verwendung finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
    In diesem Beispiel werden Kunden mit der Treuestufe „Gold“ als Zielgruppe ausgewählt.
 
@@ -49,6 +48,6 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den Anwendungsdienst Offer-Decisioning von Adobe Experience Platform. Sie enthält jedoch allgemeine Hinweise für die Nutzung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
