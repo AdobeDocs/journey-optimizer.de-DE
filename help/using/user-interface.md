@@ -1,11 +1,10 @@
 ---
 title: Benutzeroberfläche
-description: Journey Optimizer-Benutzeroberfläche
-translation-type: tm+mt
-source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
+description: Benutzeroberfläche von Journey Optimizer
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 43%
+source-wordcount: '1501'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 43%
 
 ![](assets/do-not-localize/badge.png)
 
-Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Einige Screenshots unterscheiden sich jedoch geringfügig von der Benutzeroberfläche.
+Die vorliegende Dokumentation wird entsprechend den Produktänderungen regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 
 ## Arbeitsbereich {#cjm-workspace}
 
@@ -21,81 +20,81 @@ Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) h
 
 >[!NOTE]
 >
->Die wichtigsten Konzepte beim Durchsuchen der Benutzeroberfläche werden in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) beschrieben.
+>Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche werden in der Dokumentation von [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide) beschrieben.
 
-Verwenden Sie die Links auf der linken Seite, um die Funktionen zu durchsuchen.
+Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
 
 ![](assets/ajo-home.png)
 
 >[!NOTE]
 >
->Die verfügbaren Funktionen hängen von Ihren Berechtigungen und der Lizenzvereinbarung ab.
+>Die verfügbaren Funktionen hängen von Ihren Berechtigungen und Ihrer Lizenzvereinbarung ab.
 
-Unten finden Sie die vollständige Liste der Einträge in der linken Leiste und Links zur zugehörigen Dokumentation.
+Unten finden Sie die vollständige Liste der Dienste und Funktionen, die im linken Navigationsbereich verfügbar sind, sowie Links zur zugehörigen Dokumentation.
 
 **Startseite**
 
-[!DNL Journey Optimizer] Startseite enthält wichtige Links und Ressourcen für Beginn. Die Liste **[!UICONTROL Letzte]** enthält Verknüpfungen zu den kürzlich erstellten oder aktualisierten Nachrichten, Ereignissen und Journey. Diese Liste zeigt die Erstellungs- und Änderungsdaten und den Status an.
+Die [!DNL Journey Optimizer]-Startseite enthält wichtige Links und Ressourcen für den Start. Die Liste **[!UICONTROL Zuletzt erstellt]** enthält Verknüpfungen zu den kürzlich erstellten oder aktualisierten Nachrichten, Ereignissen und Journey. Diese Liste zeigt die Erstellungs- und Änderungsdaten sowie den Status an.
 
-**[!UICONTROL Journey MANAGEMENT]**
+**[!UICONTROL JOURNEY-MANAGEMENT]**
 
-* **[!UICONTROL Journey]**  - Erstellen, konfigurieren und orchestrieren Sie Ihre Journey. Weiterführende Informationen finden Sie [in diesem Abschnitt](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. Weiterführende Informationen finden Sie [in diesem Abschnitt](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Nachrichten]**  - Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. Weiterführende Informationen finden Sie [in diesem Abschnitt](create-message.md)
+* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. Weiterführende Informationen finden Sie [in diesem Abschnitt](create-message.md)
 
-**[!UICONTROL ENTSCHEIDUNGSMANAGEMENT]**
+**[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
-* **[!UICONTROL Angebote]**  - Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebot zu erstellen. [Weitere Infos](offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Angebote]**: Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebote zu erstellen. [Weitere Infos](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Komponenten]**  - Erstellen Sie Platzierungen, Regeln und Tags. Weiterführende Informationen finden Sie in diesem [Abschnitt](offers/offer-library/key-steps.md)
+* **[!UICONTROL Komponenten]**: Erstellen Sie Platzierungen, Regeln und Tags. Weiterführende Informationen finden Sie in diesem [Abschnitt](offers/offer-library/key-steps.md)
 
-**[!UICONTROL Content-Management]**
+**[!UICONTROL CONTENT-MANAGEMENT]**
 
-* **[!UICONTROL Assets]**  -  [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, mit dem Sie Ihre Nachrichten füllen können. Weiterführende Informationen finden Sie in diesem [Abschnitt](assets-essentials.md)
+* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. Weiterführende Informationen finden Sie in diesem [Abschnitt](assets-essentials.md)
 
-**[!UICONTROL Data Management]**
+**[!UICONTROL DATEN-MANAGEMENT]**
 
-* **[!UICONTROL Schemas]**  - Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schema in einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen finden Sie in der Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)
+* **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de)
 
-* **[!UICONTROL Datasets]** : Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben im Data Lake als Datensätze erhalten. Ein Datensatz ist ein Datenspeicherung- und Verwaltungskonstrukt für eine Datenerfassung, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält. [Informationen zur Vorschau und Erstellung eines Datensatzes finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de)
+* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Erfahren Sie in dieser Dokumentation, wie Sie einen Datensatz erstellen und in der Vorschau anzeigen können](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de)
 
-* **[!UICONTROL Abfragen]** : Verwenden Sie den Adobe Experience Platform Abfrage Service, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen zu Ansichten und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen finden Sie in der Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
+* **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=de)
 
-* **[!UICONTROL Überwachung]** : Verwenden Sie dieses Menü, um die Datenerfassung in der Adobe Experience Platform-Benutzeroberfläche zu überwachen. [Weitere Informationen finden Sie in der Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
+* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenerfassung in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de)
 
 **[!UICONTROL VERBINDUNGEN]**
 
-* **[!UICONTROL Quellen]**  - Verwenden Sie dieses Menü, um Daten aus verschiedenen Quellen zu erfassen - wie z. B. Adoben, Cloud-basierte Datenspeicherung, Datenbanken usw. - und eingehende Daten zu strukturieren, zu beschriften und zu verbessern. [Weitere Informationen finden Sie in der Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
+* **[!UICONTROL Quellen]**: Verwenden Sie dieses Menü, um Daten aus verschiedenen Quellen aufzunehmen, z. B. Adobe-Programme, Cloud-basierte Datenspeicher, Datenbanken usw., und eingehende Daten zu strukturieren, zu kennzeichnen und zu optimieren. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de)
 
 **[!UICONTROL KUNDE]**
 
-* **[!UICONTROL Segmente]**  - Erstellen und verwalten Sie Segmentdefinitionen für Experience Platformen und nutzen Sie sie in Ihren Journey. Weiterführende Informationen finden Sie auf [dieser Seite](segment/about-segments.md)
+* **[!UICONTROL Segmente]**: Erstellen und verwalten Sie Segmentdefinitionen für Adobe Experience Platform und nutzen Sie diese in Ihren Journeys. Weiterführende Informationen finden Sie auf [dieser Seite](segment/about-segments.md)
 
-* **[!UICONTROL Profil]**  - Das Echtzeit-Profil des Kunden erstellt eine ganzheitliche Ansicht der einzelnen Kunden und kombiniert Daten aus mehreren Kanälen, einschließlich Online-, Offline-, CRM- und Drittanbieterdaten. [Weitere Informationen finden Sie in der Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
+* **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de)
 
-* **[!UICONTROL Identitäten]**  - Der Adobe Experience Platform Identity Service verwaltet die geräteübergreifende, geräteübergreifende und nahezu Echtzeit-Identifizierung Ihrer Kunden in einem so genannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Informationen zum Erstellen eines Identitäts-Namensraums in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+* **[!UICONTROL Identitäten]**: Der Adobe Experience Platform Identity Service verwaltet die geräte- und kanalübergreifende, nahezu in Echtzeit ausgeführte Identifizierung Ihrer Kunden in einem so genannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Erfahren Sie in dieser Dokumentation, wie Sie einen Identitäts-Namespace erstellen](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces)
 
-**[!UICONTROL VERWALTUNG]**
+**[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]**  - Verwenden Sie dieses Menü, um  [Ereignis](event/about-events.md),  [Datenquellen und ](datasource/about-data-sources.md) Aktionen zu konfigurieren, die Sie in Ihren Journey verwenden  [](action/action.md) können.
+* **[!UICONTROL Journey-Administration]**: Verwenden Sie dieses Menü, um [Ereignisse](event/about-events.md), [Datenquellen](datasource/about-data-sources.md) und [Aktionen](action/action.md) zu konfigurieren, die Sie in Ihren Journey verwenden können.
 
-* **[!UICONTROL Sandboxes]**  - Adobe Experience Platform bietet Sandboxen, die eine Instanz in separate virtuelle Umgebung unterteilen, um Anwendungen für digitale Erlebnisse zu entwickeln und weiterzuentwickeln. [Weitere Informationen zu Sandboxen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
+* **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen zu Sandboxen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de)
 
 ## Browser- und Sprachunterstützung
 
-Die Benutzeroberfläche der Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern kann es zu Problemen kommen.
+Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
-Die Benutzeroberfläche ist derzeit in den folgenden Sprachen verfügbar:
+Die Benutzeroberfläche ist derzeit in folgenden Sprachen verfügbar:
 
-* englisch
+* Englisch
 * Französisch
 * Deutsch
 
-Die Standardsprache der Benutzeroberfläche wird von der in Ihrem Profil angegebenen Sprache bestimmt.
+Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Profil angegeben haben.
 
-So ändern Sie Ihre Sprache:
+Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
-* Klicken Sie auf **Voreinstellungen bearbeiten** in Ihrem Avatar, oben rechts.
+* Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen bearbeiten**.
 * Klicken Sie dann auf **Adobe-Konto**, um auf Ihr Adobe-Profil zuzugreifen.
 * Wählen Sie oben die Registerkarte **Benachrichtigungen** und klicken Sie auf **Voreinstellungen**.
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**.
@@ -108,19 +107,19 @@ So ändern Sie Ihre Sprache:
 
 In den meisten Listen können Sie in einer Suchleiste nach einem Element suchen.
 
-Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern. Sie können festlegen, dass nur Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden.
+Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
 
-In der Journey-Liste können Sie zusätzlich zu den **[!UICONTROL Erstellungs-Filtern]** auch die angezeigten Journey nach ihrem Status und ihrer Version (**[!UICONTROL Status- und Versionsstatus-Filter]**) filtern. Sie können festlegen, dass nur Journey angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldgruppe oder eine bestimmte Aktion (**[!UICONTROL Aktivität-Filter]** und **[!UICONTROL Daten-Filter]**) verwenden. Mit den Filtern **[!UICONTROL Veröffentlichung]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise die neuesten Versionen der gestern veröffentlichten Live-Journey anzeigen. [Weitere Infos](building-journeys/using-the-journey-designer.md).
+In der Journey-Liste können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion nutzen (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Infos](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Die Personalisierung wird für jeden Benutzer individuell gespeichert.
 
-Verwenden Sie die Spalten **[!UICONTROL Letztes Update]** und **[!UICONTROL Letztes Update von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
+Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
 
 ![](assets/journey74.png)
 
-Im Bereich Ereignis, Datenquelle und Aktionskonfiguration zeigt das Feld **[!UICONTROL Wird in]** verwendet die Anzahl der Journey an, die dieses bestimmte Ereignis, diese Feldgruppe oder Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
 ![](assets/journey3bis.png)
 
@@ -128,11 +127,11 @@ In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elem
 
 ![](assets/journey4.png)
 
-## Durchsuchen Sie die Adobe Experience Platform-Felder {#friendly-names-display}
+## Durchsuchen von Adobe Experience Platform-Feldern {#friendly-names-display}
 
-Bei der Definition von [Ereignis-Payload](event/about-creating.md#define-the-payload-fields), [Feldgruppen-Payload](datasource/configure-data-sources.md#define-field-groups) und der Auswahl von Feldern im [Ausdruckseditor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
+Bei der Definition von [Ereignis-Payload](event/about-creating.md#define-the-payload-fields), [Feldgruppen-Payload](datasource/configure-data-sources.md#define-field-groups) und der Auswahl von Feldern im [Ausdruckseditor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=de) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
 
-Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders beim Arbeiten mit &quot;eVars&quot;und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders beim Arbeiten mit &quot;eVars&quot;und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
 
 ![](assets/xdm-from-descriptors.png)
 
