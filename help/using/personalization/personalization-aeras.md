@@ -1,79 +1,80 @@
 ---
 title: Kontexte der Personalisierung in Journey Optimizer
 description: Erfahren Sie, in welchen Kontexten Sie Personalisierung hinzufügen können
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 80%
 
 ---
 
-# Personalisierungsbereiche {#personalization-areas}
+# Personalisierungskontext und -tool {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
-Inhalt und Anzeige der von Journey Optimizer gelieferten Nachrichten können auf verschiedene Weise personalisiert werden.
+Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in Journey Optimizer zu personalisieren.
 
-Alle mit dem Editor-Symbol verknüpften Felder können den Personalisierungseditor öffnen und Personalisierungsinhalte empfangen.
+Alle mit dem Editor-Symbol verknüpften Felder können den Personalisierungs-Editor öffnen und Personalisierungsinhalte empfangen.
 
 ![](assets/perso_icon.png)
 
 ## E-Mails personalisieren
 
-Bei der Erstellung von E-Mail-Kanälen ist das Feld **E-Mail-Betreff** personalisierbar.
+Wenn Sie eine E-Mail erstellen, können Sie im Feld **E-Mail-Betreff** der Nachricht eine Personalisierung hinzufügen.
 
 ![](assets/perso_subject.png)
 
-Im E-Mail-Designer können Sie den Inhalt personalisieren:
+Im Email Designer können Sie den Inhalt personalisieren:
 
-* In der **Meldung**: Klicken Sie in einen Textblock, klicken Sie in der Kontextsymbolleiste auf das Symbol **Personalize** und wählen Sie das Feld **Personalisierung** einfügen. Weitere Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in diesem Abschnitt [Abschnitt](../design-emails.md).
+* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../design-emails.md).
 
    ![](assets/perso_insert.png)
 
-* Für einen **Link**: Wählen Sie Text oder Bild in einem Textblock aus und klicken Sie in der Kontextsymbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Personalisierungsblock hinzufügen, indem Sie auf das Symbol **Hinzufügen Personalisierung** klicken.
+* Für einen **Link**: Wählen Sie Text oder ein Bild in einem Textblock aus und klicken Sie in der kontextbezogenen Symbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Personalisierungsblock hinzufügen, indem Sie auf das Symbol **Personalisierung hinzufügen** klicken.
 
    ![](assets/perso_link.png)
 
 ## Push-Benachrichtigungen personalisieren
 
-Im Kanal **Push** können Sie mit der Personalisierung Ihre Push-Benachrichtigung präzisieren.
-
-Sie können Personalisierung in den folgenden Feldern hinzufügen:
+Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalisieren:
 
 * **Titel**
-* **Body**
-* **Benutzerdefinierter Sound**
-* **Abzeichen**
+* **Textkörper**
+* **Benutzerdefinierter Klang**
+* **Badges**
 * **Benutzerspezifische Daten**
 
 ![](assets/perso_push.png)
 
-Eine vollständige Dokumentation zur Konfiguration der Push-Benachrichtigung finden Sie in [diesem Abschnitt](../configure-push.md).
+Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../create-push.md).
 
+## Ausdruckseditor verwenden
 
-## Ausdruck-Editor verwenden
+Der Ausdruckseditor ist das Herzstück der Personalisierung in Journey Optimizer.
 
-Der Ausdruck-Editor ist das Herzstück der Personalisierung in Journey Optimizer.
+Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
 
-Es ist in jedem Kontext verfügbar, in dem Sie Personalisierung definieren müssen, wie E-Mails, Push- und Angebote.
-
-In der Benutzeroberfläche des Ausdruck-Editors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
+In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
 
 ![](assets/perso_ee1.png)
 
-Im linken Bildschirmbereich wird ein Domänenselektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können.
+Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können.
 
-* **Profil** : Liste aller Verweise, die mit dem Profil-Schema in der XDM-Dokumentation ( [Adobe Experience Platform Data Model) verknüpft sind](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
-* **Segmentmitgliedschaft** : Liste aller im Adobe Experience Platform-Segmentierungsdienst erstellten Segmente. Weitere Informationen zur Segmentierung finden Sie unter [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
-* **Angebote** : Liste aller Angebot, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebot in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../../using/offers/get-started/starting-offer-decisioning.md).
+* **Profil** : Listet alle Verweise auf, die mit dem Profilschema, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind.
+* **Segmentzugehörigkeit** : Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
+* **Angebote**: Listet alle Angebot auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md)
+* **Kontext** : Wenn die  **** Nachrichtentätigkeit in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Siehe [diesen Abschnitt](personalization-use-case.md)
+* **Hilfsfunktionen** : listet alle Hilfsfunktionen auf, die für die Durchführung von Datenvorgängen wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und deren Bearbeitung im Kontext der Personalisierung verfügbar sind. [Weitere Infos](functions/functions.md)
 
-Bei Auswahl wird der Verweis im Editor hinzugefügt.
+
+
+Bei der Auswahl wird die Referenz im Editor hinzugefügt.
 
 >[!NOTE]
 >
->Das Infosymbol neben dem Symbol &quot;+&quot;öffnet eine QuickInfo mit weiteren Details zu jeder Variablen.
+>Das Infosymbol neben dem Symbol „+“ öffnet eine QuickInfo mit weiteren Details zu jeder Variablen.
 
-Im folgenden Beispiel können Sie mit dem Ausdruck-Editor die Profil auswählen, deren Geburtstag heute liegt, und dann die Anpassung abschließen, indem Sie ein bestimmtes Angebot einfügen, das diesem Tag entspricht.
+Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen, die heute Geburtstag haben, und dann die Anpassung vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
 
 ![](assets/perso_ee2.png)
 
