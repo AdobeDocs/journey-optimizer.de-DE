@@ -1,70 +1,69 @@
 ---
 title: Funktionsbibliothek
 description: Funktionsbibliothek
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '98'
+ht-degree: 66%
 
 ---
 
-# Zuordnungsfunktionen {#maps}
+# Zuordnungsfunktionen{#maps}
 
 ![](../../assets/do-not-localize/badge.png)
 
-[!DNL Profile Query Language] (PQL) Angebote Funktionen, um die Interaktion mit Karten zu erleichtern.
+[!DNL Profile Query Language] (PQL) bietet Funktionen, die die Interaktion mit Zuordnungen erleichtern.
 
-## Abrufen
+## Abrufen{#get}
 
 Mit der `get`-Funktion wird der Wert einer Zuordnung für einen bestimmten Schlüssel abgerufen.
 
 **Format**
 
 ```sql
-get({MAP},{STRING})
+{%= get(map, string) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft den Wert der dentitätszuordnung für den Schlüssel `example@example.com` ab.
+Der folgende Vorgang ruft den Wert der Identitätszuordnung für den Schlüssel `example@example.com` ab.
 
 ```sql
-get(identityMap,"example@example.com")
+{%= get(identityMap,"example@example.com") %}
 ```
 
-## Schlüssel
+## Schlüssel{#keys}
 
 Die `keys`-Funktion wird zum Abrufen aller Schlüssel einer gegebenen Zuordnung verwendet.
 
 **Format**
 
 ```sql
-keys({MAP})
+{%= keys(map) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft alle Schlüssel für die `identityMap`-Zuordnung ab.
+Der folgende Vorgang ruft alle Schlüssel für die Zuordnung `identityMap` ab.
 
 ```sql
-keys(identityMap)
+{%= keys(identityMap) %}
 ```
 
-## Werte
+## Werte{#values}
 
 Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung verwendet.
 
 **Format**
 
 ```sql
-values({MAP})
+{%= values(map) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage ruft alle Werte für die `identityMap`-Zuordnung ab.
+Der folgende Vorgang ruft alle Werte für die Zuordnung `identityMap` ab.
 
 ```sql
-values(identityMap)
+{%= values(identityMap) %}
 ```
