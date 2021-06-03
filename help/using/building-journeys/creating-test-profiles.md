@@ -1,11 +1,10 @@
 ---
 title: Erstellen eines Testprofils
-description: Erfahren Sie, wie Sie ein Test-Profil erstellen
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: Erfahren Sie, wie Sie ein Testprofil erstellen
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 72%
+source-wordcount: '988'
+ht-degree: 74%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 72%
 
 ![](../assets/do-not-localize/badge.png)
 
-Bei der Verwendung des Testmodus in einer Journey sind Testprofile erforderlich. Sie können entweder ein [vorhandenes Profil](../building-journeys/creating-test-profiles.md#turning-profile-into-test) in ein Test-Profil umwandeln oder [ein Test-Profil](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) erstellen. Informationen zur Verwendung des Testmodus finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
+Bei der Verwendung des Testmodus in einer Journey sind Testprofile erforderlich. Sie können entweder ein [vorhandenes Profil](../building-journeys/creating-test-profiles.md#turning-profile-into-test) in ein Testprofil umwandeln oder [ein Testprofil](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) erstellen. Informationen zur Verwendung des Testmodus finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 
 In Adobe Experience Platform gibt es verschiedene Möglichkeiten, ein Testprofil zu erstellen. In dieser Dokumentation konzentrieren wir uns auf zwei Methoden: Hochladen einer [CSV-Datei](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) und Verwenden von [API-Aufrufen](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Sie können auch eine JSON-Datei in einem Datensatz hochladen. Weitere Informationen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset).
 
@@ -21,27 +20,32 @@ Das Erstellen eines Testprofils ähnelt dem Erstellen von Standardprofilen in Ad
 
 ## Voraussetzungen {#test-profile-prerequisites}
 
-Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Datensatz in Adobe Experience Platform erstellen.
+Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Datensatz in der Adobe [!DNL Journey Optimizer] erstellen.
 
 Zuerst müssen Sie **ein Schema erstellen**. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie in Adobe Experience Platform im linken Menü auf **Schemata**.
+1. Klicken Sie im Abschnitt ADMINISTRATION auf **[!UICONTROL Schemas]**.
    ![](../assets/test-profiles-0.png)
-1. Klicken Sie oben rechts auf **Schema erstellen** und wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**.
    ![](../assets/test-profiles-1.png)
-1. Wählen Sie einen Namen für Ihr Schema aus.
-1. Klicken Sie im Bereich **Mixins** auf **Hinzufügen**.
-   ![](../assets/test-profiles-1-bis.png)
-1. Wählen Sie die entsprechenden Mixins aus. Stellen Sie sicher, dass Sie das Mixin **Profil-Testdetails** hinzufügen. Klicken Sie auf **Mixin hinzufügen**.
+1. Wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldergruppe **Profiltestdetails** hinzufügen.
    ![](../assets/test-profiles-1-ter.png)
-Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
-
+Klicken Sie abschließend auf  **[!UICONTROL Feldergruppen hinzufügen]**: Die Liste der Feldergruppen wird im Bildschirm Schemaübersicht angezeigt.
    ![](../assets/test-profiles-2.png)
+
+   >[!NOTE]
+   >
+   >* Klicken Sie auf den Namen des Schemas, um es zu ändern und seine Eigenschaften zu aktualisieren.
+      >
+      >
+   * Klicken Sie im Abschnitt Feldgruppen auf die Schaltfläche **[!UICONTROL Hinzufügen]** , um andere Feldergruppen auszuwählen, die dem Schema hinzugefügt werden sollen.
+
+
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
-1. Markieren Sie im rechten Panel **Feldeigenschaften** die Optionen **Identität** und **Primäre Identität** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **E-Mail**. Klicken Sie auf **Übernehmen**.
+1. Aktivieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen ****[!UICONTROL Identität]** und ****[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **E-Mail**. Klicken Sie auf **Übernehmen**.
    ![](../assets/test-profiles-4.png)
-1. Wählen Sie das Schema aus und aktivieren Sie die Option **Profil** in den **Schema-Eigenschaften**.
+1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** in den **[!UICONTROL Schema-Eigenschaften]**.
    ![](../assets/test-profiles-5.png)
 1. Klicken Sie auf **Speichern**.
 
@@ -51,60 +55,59 @@ Die Liste der Mixins wird im Übersichtsbildschirm des Schemas angezeigt.
 
 Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile importiert werden. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie in Adobe Experience Platform im linken Menü auf **Datensätze** und dann auf **Datensatz erstellen**.
+1. Navigieren Sie zu **[!UICONTROL Datensätze]** und klicken Sie dann auf **[!UICONTROL Datensatz erstellen]**.
    ![](../assets/test-profiles-6.png)
-1. Wählen Sie **Datensatz aus Schema erstellen** aus.
+1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
    ![](../assets/test-profiles-7.png)
-1. Wählen Sie das zuvor erstellte Schema aus und klicken Sie dann auf **Weiter**.
+1. Wählen Sie das zuvor erstellte Schema aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
    ![](../assets/test-profiles-8.png)
-1. Wählen Sie einen Namen und klicken Sie dann auf **Beenden**.
+1. Wählen Sie einen Namen und klicken Sie dann auf **[!UICONTROL Beenden]**.
    ![](../assets/test-profiles-9.png)
-1. Aktivieren Sie die Option **Profil**.
+1. Aktivieren Sie die Option **[!UICONTROL Profil]**.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
 > Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zum Katalogdienst](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
 
-## Umwandeln eines Profils in ein Testprofil{#turning-profile-into-test}
+## Profil in ein Testprofil umwandeln{#turning-profile-into-test}
 
-Sie können ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie die Attribute von Profilen auf dieselbe Weise aktualisieren wie beim Erstellen eines Profils.
+Sie können ein vorhandenes Profil in ein Testprofil umwandeln: Sie können Profilattribute auf dieselbe Weise aktualisieren wie bei der Erstellung eines Profils.
 
-Eine einfachere Möglichkeit ist die Verwendung einer Aktion **Update-Profil** in einer Journey und die Änderung des booleschen Felds testProfile von false in true.
+Eine einfache Möglichkeit besteht darin, die Aktionsaktivität **[!UICONTROL Profil]** in einer Journey zu aktualisieren und das boolesche Feld testProfile von false in true zu ändern.
 
-Ihre Journey besteht aus einem **Read-Profil** und einer **Update-Aktivität**. Zunächst müssen Sie ein Segment erstellen, das auf die Profil ausgerichtet ist, die Sie in Test-Profil umwandeln möchten.
+Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[!UICONTROL Profil aktualisieren]**. Zunächst müssen Sie ein Segment erstellen, das auf die Profile zielt, die Sie in Testprofile umwandeln möchten.
 
 >[!NOTE]
 >
-> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss die **Profil-Testdetails** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss das Mixin **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Klicken Sie in Journey Optimizer im linken Menü auf **Segmente** und dann auf **Segment** erstellen, rechts oben.
+1. Navigieren Sie oben rechts zu **Segmente** und dann **Segment** erstellen .
    ![](../assets/test-profiles-22.png)
-1. Definieren Sie einen Namen für Ihr Segment und erstellen Sie das Segment: Wählen Sie die Felder und Werte aus, um die gewünschten Profil Zielgruppe.
+1. Definieren Sie einen Namen für Ihr Segment und erstellen Sie das Segment: Wählen Sie die Felder und Werte aus, um die gewünschten Profile anzusprechen.
    ![](../assets/test-profiles-23.png)
-1. Klicken Sie auf **Speichern** und überprüfen Sie, ob die Profil korrekt auf das Segment ausgerichtet sind.
+1. Klicken Sie auf **Speichern** und prüfen Sie, ob die Profile korrekt durch das Segment angesprochen werden.
    ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
    > Die Segmentberechnung kann einige Zeit in Anspruch nehmen. Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-1. Erstellen Sie jetzt eine neue Journey und einen neuen Beginn mit einer Orchestersegmentgruppe **Lesen**-Aktivität.
-1. Wählen Sie das zuvor erstellte Segment und den Namensraum aus, den Ihre Profil verwenden.
+1. Erstellen Sie jetzt eine neue Journey und beginnen Sie mit einer Orchestrierungsaktivität **[!UICONTROL Segment lesen]**.
+1. Wählen Sie das zuvor erstellte Segment und den Namespace aus, den Ihre Profile verwenden.
    ![](../assets/test-profiles-25.png)
-1. hinzufügen Sie eine Aktivität für die Aktion **Profil aktualisieren**.
-1. Wählen Sie das Schema, das Feld **testProfiles**, den Datensatz und legen Sie den Wert auf &quot;true&quot;fest.
+1. Fügen Sie eine Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
+1. Wählen Sie das Schema, das Feld **testProfiles**, den Datensatz aus und setzen Sie den Wert auf **True**. Klicken Sie dazu im Feld **[!UICONTROL VALUE]** auf das Symbol **Pen** rechts, wählen Sie **[!UICONTROL Erweiterter Modus]** aus und geben Sie **true** ein.
    ![](../assets/test-profiles-26.png)
-1. hinzufügen Sie eine Aktivität **End** und klicken Sie auf **Publish**.
-   ![](../assets/test-profiles-27.png)
-1. Überprüfen Sie in Adobe Experience Platform, ob die Profil korrekt aktualisiert wurden.
+1. Fügen Sie eine **Ende**-Aktivität hinzu und klicken Sie auf **[!UICONTROL Veröffentlichen]**.
+1. Überprüfen Sie im Abschnitt **[!UICONTROL Segmente]** , ob die Profile korrekt aktualisiert wurden.
    ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Weitere Informationen zur Aktivität **Profil aktualisieren** finden Sie in [diesem Abschnitt](../building-journeys/update-profiles.md).
+   > Nähere Informationen zur Aktivität **[!UICONTROL Profil aktualisieren]** erhalten Sie in [diesem Abschnitt](../building-journeys/update-profiles.md).
 
-## Erstellen eines Testprofils mithilfe einer CSV-Datei{#create-test-profiles-csv}
+## Testprofil mit einer CSV-Datei erstellen{#create-test-profiles-csv}
 
 In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-Datei, die die verschiedenen Profilfelder enthält, in Ihren Datensatz hochladen. Dies ist die einfachste Methode.
 
@@ -114,7 +117,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 1. Fügen Sie pro Profil eine Zeile hinzu und geben Sie die Werte für die einzelnen Felder ein.
    ![](../assets/test-profiles-12.png)
 1. Speichern Sie die Tabelle als CSV-Datei. Verwenden Sie als Trennzeichen Kommas.
-1. Klicken Sie in Adobe Experience Platform im linken Menü auf **Workflows**.
+1. Navigieren Sie zu Adobe Experience Platform **Workflows**.
    ![](../assets/test-profiles-14.png)
 1. Wählen Sie **CSV einem XDM-Schema zuordnen** und klicken Sie dann auf **Starten**.
    ![](../assets/test-profiles-16.png)
@@ -134,9 +137,9 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 >
 > Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials).
 
-## Erstellen von Testprofilen mithilfe von API-Aufrufen{#create-test-profiles-api}
+## Erstellen von Testprofilen mit API-Aufrufen{#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Sie können Testprofile auch über API-Aufrufe erstellen. Weiterführende Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Sie müssen ein Profilschema verwenden, das das Mixin „Profil-Testdetails“ enthält. Die Markierung „testProfile“ ist Teil dieses Mixins.
 
