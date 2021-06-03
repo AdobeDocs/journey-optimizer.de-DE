@@ -1,25 +1,24 @@
 ---
 title: Personalisierungssyntax
 description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 3%
+source-wordcount: '559'
+ht-degree: 56%
 
 ---
+
 
 # Personalisierungssyntax {#personalization-syntax}
 
 ![](../assets/do-not-localize/badge.png)
 
-## Einführung
+Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax namens &quot;Handlebars&quot;.
+Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [HandlebarsJS-Dokumentation](https://handlebarsjs.com/).
 
-Die Personalisierung in Journey Optimizer basiert auf der Vorlagensyntax Handlebars.
-Eine vollständige Beschreibung der Handlebars-Syntax finden Sie unter [HandlebarsJS](https://handlebarsjs.com/).
+Sie verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
 
-Es verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
-
-Einfaches Ausdruck-Beispiel:
+Beispiel für einen einfachen Ausdruck:
 
 ```
 {{profile.person.name}}
@@ -27,213 +26,119 @@ Einfaches Ausdruck-Beispiel:
 
 where:
 
-* **profileis** ein Namensraum.
-* **person.** nameis ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform XDM-Schema definiert. [Weitere Infos](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+* **profileis** ist ein Namespace.
+* **person.name** ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Infos](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
 ## Allgemeine Syntaxregeln
 
-Bezeichner können beliebige Unicode-Zeichen sein, mit Ausnahme der folgenden:
+Kennungen können beliebige Unicode-Zeichen sein, mit Ausnahme folgender Einschränkungen:
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 ```
 
-Bei der Syntax wird zwischen Groß- und Kleinschreibung unterschieden.
+Die Syntax unterscheidet zwischen Groß- und Kleinschreibung.
 
-Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Ausdruck eines Pfades zulässig.
+Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
-In Handlebars sind die von {{Ausdruck}} zurückgegebenen Werte **HTML-Escaped**. Wenn der Ausdruck &quot;&amp;&quot;enthält, wird die zurückgegebene Ausgabe mit HTML-Escape-Zeichen als &amp; generiert. Wenn Sie nicht möchten, dass Handlebars einem Wert entkommen, verwenden Sie den &quot;Triple-Stash&quot;.
+In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen** hinzugefügt. Wenn der Ausdruck `&` enthält, wird die zurückgegebene HTML-maskierte Ausgabe als `&amp;` generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
 
 ## Profil
 
-Mit diesem Namensraum können Sie auf alle Attribute verweisen, die im Profil-Schema definiert sind, das unter [Adobe Experience Platform Data Model (XDM) documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschrieben wird.
+Dieser Namespace erlaubt die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschrieben werden.
 
-Die Attribute müssen im Schema definiert werden, bevor sie in einem Journey Optimizer-Personalisierungsblock referenziert werden.
+Die Attribute müssen im Schema definiert werden, bevor sie in einem Gestaltungsbaustein [!DNL Journey Optimizer] referenziert werden.
 
-Alle Verweise werden mit einem Überprüfungsmechanismus validiert, der [hier](personalization-validation.md) beschrieben wird, und zwar mit einem Profil-Schema.
+>[!NOTE]
+>
+>Erfahren Sie in [diesem Abschnitt](functions/helpers.md#if-function), wie Sie Profilattribute in Bedingungen nutzen können.
 
 **Beispielverweise:**
 
-* ```{{profile.person.name.fullName}}```
-* ```{{profile.person.name.firstName}}```
-* ```{{profile.person.gender}}```
-* ```{{profile.personalEmail.address}}```
-* ```{{profile.mobilePhone.number}}```
-* ```{{profile.homeAddress.city}}```
-* ```{{profile.faxPhone.number}}```
-
-**E-Mail-Adresserweiterung** bestimmen:
-
 ```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Checkout our page for Academia personals</a>
-{%else if contains(profile.personalEmail.address, ".org")%}
-<a href="https://www.adobe.com/orgs">Checkout our page for Non Profits</a>
-{%else%}
-<a href="https://www.adobe.com/users">Checkout our page</a>
-{%/if%}
+{{profile.person.name.fullName}}
+{{profile.person.name.firstName}}
+{{profile.person.gender}}
+{{profile.personalEmail.address}}
+{{profile.mobilePhone.number}}
+{{profile.homeAddress.city}}
+{{profile.faxPhone.number}}
 ```
 
-## Segmente
+## Segmente{#perso-segments}
 
-Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in diesem [Abschnitt](../segment/about-segments.md).
+Erfahren Sie in [diesem Abschnitt](functions/helpers.md#if-function), wie Sie Profilattribute in Bedingungen nutzen können.
 
-**Sie können unterschiedliche Inhalte basierend auf der Segmentmitgliedschaft** rendern:
+>[!NOTE]
+>Weitere Informationen zu Segmentierungs- und Segmentierungsdienst finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-```
-{%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
-  Hi! Esteemed gold member. <a href="https://www.somedomain.com/gold">Checkout your exclusive perks </a>
-{%else%} if 'profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8c").status = "existing"'%}
-  Hi! Esteemed silver member. <a href="https://www.somedomain.com/silver">Checkout your exclusive perks </a>
-{%/if%}
-```
-
-**Stellen Sie fest, ob ein Profil bereits Mitglied** ist:
-
-```
-{%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
-    You're a member!
-{%else%}
-    You should be a member! Sign up now!
-{%/if%}
-```
 
 ## Angebote
 
-In diesem Namensraum können Sie auf bestehende Angebote verweisen.
-Um auf ein Angebot zu verweisen, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die ein Angebot definieren.
+In diesem Namespace können Sie bestehende Angebote referenzieren.
+Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die das Angebot definieren.
 
-Dieser Pfad hat die folgende Struktur:
-0 - &quot;Angebote: identifiziert den Pfad-Ausdruck, der zu Angebot Namensraum gehört
-1 - Typ: bestimmt den Typ der Angebotsdarstellung. Gültige Werte sind &quot;image&quot;, &quot;html&quot;und &quot;text&quot;
-2 - Platzierungs-ID
-3 - Aktivitäten-ID
-4 - Angebot-spezifische Attribute. Je nach Angebot können unterstützte Attribute verwendet werden. Beispiel für Bilder `deliveryUrl`.
+Dieser Pfad weist die folgende Struktur auf:
 
-Weitere Informationen zur Entscheidungen-API finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
 
-Weitere Informationen zur Darstellung von Angeboten finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+wobei:
 
-Alle Verweise werden mit einem Überprüfungsmechanismus validiert, der [hier](personalization-validation.md) beschrieben wird, und zwar mit einem Angebot-Schema.
+* `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört
+* `Type`  bestimmt den Typ der Angebotsdarstellung. Mögliche Werte sind: `image`, `html` und `text`
+* `Placement Id` und  `Activity Id` sind Platzierungs- und Aktivitätskennungen
+* `Attributes` sind angebotspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder.
+
+Weitere Informationen zur Decisions-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+
+Alle Verweise werden mit einem in [dieser Seite](personalization-validation.md) beschriebenen Validierungsmechanismus für das Angebotsschema validiert.
 
 **Beispielverweise:**
 
 * Speicherort, an dem das Bild gehostet wird:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* Zielgruppen-URL beim Klicken auf das Bild:
+* Target-URL beim Klicken auf das Bild:
 
-```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Textinhalt des Angebots aus der Entscheidungsmaschine:
+* Text-Content des Angebots aus der Decisioning-Engine:
 
-```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML-Inhalt des Angebots aus der Entscheidungsmaschine:
+* HTML-Content des Angebots aus der Decisioning-Engine:
 
-```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
-
-
-## Helfer
-
-Ein Handlebars Helper ist ein einfacher Bezeichner, dem Parameter folgen können.
-Jeder Parameter ist ein Handlebars-Ausdruck. Diese Helfer können von jedem beliebigen Kontext in einer Vorlage aufgerufen werden.
-
-Diese Blockhelfer werden durch ein # identifiziert, das dem Helfernamen vorausgeht, und erfordern ein passendes Schließen /, mit demselben Namen.
-Blöcke sind Ausdruck mit Blocköffnungs- ({{# }}) und -schließenden ({{/}}).
-
-### Wenn 
-
-Der Helfer **if** wird zum Definieren eines bedingten Blocks verwendet.
-Wenn die Auswertung des Ausdrucks &quot;true&quot;zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
-
-```
-{%#if contains(profile.personalEmail.address, ".edu")%}
-<a href="https://www.adobe.com/academia">Check out this link</a>
-```
-
-Nach dem Helfer **if** können Sie eine **else**-Anweisung eingeben, um einen Codeblock anzugeben, der ausgeführt werden soll, wenn dieselbe Bedingung &quot;false&quot;lautet.
-Die **else if**-Anweisung gibt eine neue Testbedingung an, wenn die erste Anweisung &quot;false&quot;zurückgibt.
-
-**Verschiedene Store-Links basierend auf bedingten Ausdrücken** rendern:
-
-```
-{%#if profile.homeAddress.countryCode = "FR"%}
-  <a href="https://www.somedomain.com/fr">Consultez notre catalogue</a>
-{%else%}
-  <a href="https://www.somedomain.com/en">Checkout our catalogue</a>
-{%/if%}
-```
-
-### Sofern
-
-**#** unlesshelper wird verwendet, um einen bedingten Block zu definieren. Wenn die Auswertung des Ausdrucks &quot;false&quot;zurückgibt, wird der Block entgegen dem Helfer **#if** gerendert.
-
-**Rendering einiger Inhalte basierend auf der E-Mail-Adresserweiterung**:
-
-```
-{%#unless endsWith(profile.personalEmail.address, ".edu")%}
-Some Normal Content
-{%else%}
-Some edu specific content Content
-{%/unless%}
-```
-
-### Jeder
-
-Der **Jeder**-Helfer wird verwendet, um über ein Array zu iterieren.
-Die Syntax des Helfers ist ```{{#each ArrayName}}``` YourContent {{/each}}
-Wir können auf die einzelnen Array-Elemente verweisen, indem wir den Suchbegriff **this** innerhalb des Blocks verwenden. Der Index des Elements des Arrays kann mithilfe von {{@index}} gerendert werden.
-
-Beispiel:
-
-```
-{{#each profile.productsInCart}}
-    <li>{{this.name}}</li>
-    </br>
-{{/each}}
-```
-
-```
-{{#each profile.homeAddress.city}}
-  {{@index}} : {{this}}<br>
-{{/each}}
-```
-
-**Eine Liste von Produkten, die dieser Benutzer im Warenkorb** hat, rendern:
-
-```
-{{#each profile.products as |product|}}
-    <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
-{{/each}}
-```
-
-### Mit 
-
-Der **#with**-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu ändern.
-
-Beispiel:
-
-```
-{{#with profile.person.name}}
-{{this.firstName}} {{this.lastName}}
-{{/with}}
-```
-
-Der **#with**-Helfer ist nützlich, um auch eine Kontextvariable zu definieren.
-
-**Verwenden Sie dies zum Aliasing langer Variablennamen für kürzere**:
-
-```
-{{#with profile.person.name as |name|}}
- Hi {{name.firstName}} {{name.lastName}}!
- Checkout our trending products for today!
-{{/with}}
-```
+   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Einschränkungen
+## Helpers{#helpers-all}
 
-* Die Verwendung der Variablen **xEvent** ist in Personalisierungs-Ausdrücken nicht verfügbar. Jeder Verweis auf xEvent führt zu Überprüfungsfehlern.
+Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können.
+Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
+
+Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden Abschluss mit /, desselben Namens.
+Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
+
+
+>[!NOTE]
+>
+>Hilfsfunktionen werden in [diesem Abschnitt](functions/helpers.md) beschrieben.
+
+
+## Literaltypen
+
+[!DNL Adobe Journey Optimizer] unterstützt die folgenden Literaltypen:
+
+| Literal | Definition |
+| ------- | ---------- |
+| Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
+| Boolesch | Ein Datentyp, der entweder &quot;true&quot;oder &quot;false&quot;ist. |
+| Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
+| Array | Ein Datentyp, der als Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
+
+>[!CAUTION]
+>
+>Die Variable **xEvent** ist in Personalisierungsausdrücken nicht verfügbar. Die Verwendung von xEvent führt zu Überprüfungsfehlern.
