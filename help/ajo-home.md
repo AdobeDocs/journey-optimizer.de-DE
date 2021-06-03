@@ -1,11 +1,10 @@
 ---
 keywords: Journey Optimizer;Home;beliebte Themen
-title: Journey Optimizer-Produktdokumentation
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Produktdokumentation zu Journey Optimizer
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 5%
+source-wordcount: '223'
+ht-degree: 79%
 
 ---
 
@@ -14,33 +13,34 @@ ht-degree: 5%
 ![](using/assets/do-not-localize/banner-cjm.png)
 
 ![](using/assets/do-not-localize/badge.png)
-**[!DNL Journey Optimizer]** ist derzeit in der  **Beta-** Version und unterliegt häufigen Änderungen ohne Vorankündigung. Geben Sie als Benutzer Ihr Erlebnis über die Schaltfläche Beta-Feedback in der Benutzeroberfläche des Produkts frei. Bekannte Probleme werden in dieser [Seite](using/known-issues.md) aufgeführt.
+**[!DNL Journey Optimizer]** ist derzeit in der **Beta-Version** und unterliegt häufigen Änderungen ohne Vorankündigung. Teilen Sie als Benutzer Ihre Erfahrungen über den Button Beta-Feedback in der Produkt-Benutzeroberfläche mit. Bekannte Probleme werden auf dieser [Seite](using/known-issues.md) aufgeführt.
 
 ## Neuigkeiten?
 
+* [Zugriffskontrolle ](using/administration/permissions-overview.md) </br> Erfahren Sie, wie Sie die  [!DNL Journey Optimizer] Benutzern zugewiesenen Berechtigungen definieren und verwalten
 
-* [Entscheidungs-](using/offers/get-started/starting-offer-decisioning.md) </br> ManagementErstellen Sie Angebot und liefern Sie Ihren Kunden das beste Angebot und die beste Erfahrung
+* [Hilfsfunktionen](using/personalization/functions/functions.md) </br> Nutzen Sie Helper-Funktionen im Ausdruckseditor zur Personalisierung des Nachrichteninhalts
 
-* [Vorschauen- und ](using/preview.md) </br> TestmeldungenVerwenden Sie Testmeldungen, um Vorschauen zu senden, Testversand zu senden und die E-Mail-Wiedergabe zu steuern.
+* [Entscheidungsmanagement](using/offers/get-started/starting-offer-decisioning.md) </br> Erstellen Sie Angebote und liefern Sie Ihren Kunden das beste Angebot und das beste Erlebnis
 
-* [Live-](using/reports/live-report.md) </br> BerichteDiscover Echtzeitberichte für Ihre Journey und Nachrichten
+* [Vorschau und Testnachrichten](using/preview.md) </br> Verwenden Sie Testprofile, um Vorschauen von Nachrichten zu sehen, Testversände zu senden und das E-Mail-Rendering zu steuern.
 
-* [Globale ](using/reports/global-report.md) </br> BerichteErfahren Sie, wie Sie die Effektivität Ihrer Journey und Nachrichten verfolgen und messen können
+* [Live-](using/reports/live-report.md) Berichte und  [globale ](using/reports/global-report.md)</br> BerichteDiscover Reporting-Funktionen zur Verfolgung und Messung der Effektivität Ihrer Journey und Nachrichten
 
-* [Testprofile erstellenErstellen Sie ](using/building-journeys/creating-test-profiles.md) </br> Testprofile und verwenden Sie diese zum Testen Ihrer Nachrichten und Journey
+* [Testprofile erstellen](using/building-journeys/creating-test-profiles.md) </br> Erstellen Sie Testprofile und verwenden Sie diese zum Testen Ihrer Nachrichten und Ihrer Journeys
 
 ## Erste Schritte
 
 * [Was ist Journey Optimizer?](using/get-started.md) </br> Entdecken Sie die wichtigsten Funktionen und Anleitungen.
 
-* [Entwerfen eines E-Mail-](using/design-emails.md) </br>InhaltsEntwerfen einer neuen E-Mail oder Importieren eines vorhandenen HTML-Inhalts
+* [Entwerfen eines E-Mail-Inhalts](using/design-emails.md) </br> Entwerfen Sie eine neue E-Mail oder importieren Sie einen vorhandenen HTML-Inhalt
 
-* [Senden von ](using/building-journeys/journey.md) </br> NachrichtenErfahren Sie, wie Sie Ihren Journey Push- und E-Mail-Nachrichten hinzufügen
+* [Senden von Nachrichten](using/building-journeys/journey.md) </br> Erfahren Sie, wie Sie Ihren Customer Journeys Push-Benachrichtigungen und E-Mail-Nachrichten hinzufügen
 
-* [Erstellen Sie Ihre erste ](using/building-journeys/journeys-uc.md) </br>ReiseErfahren Sie, wie Sie eine Journey erstellen und ausführen
+* [Erstellen der ersten Journey](using/building-journeys/journeys-uc.md) </br> Erfahren Sie, wie Sie eine Journey erstellen und ausführen
 
 ## Zusätzliche Ressourcen
 
-* [Adobe Experience Platform-Handbuch](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)
-* [Übersicht über den Zugriff auf Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html)
-* [Adobe Experience Platform-Entwicklerressourcen](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
+* [Anleitung zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de)
+* [Zugriffsübersicht für Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de)
+* [Entwickler-Ressourcen für Adobe Experience Platform](https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html)
