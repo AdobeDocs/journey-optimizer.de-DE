@@ -1,35 +1,34 @@
 ---
-title: Erste Schritte mit Journey
-description: Erste Schritte mit Journey
-translation-type: tm+mt
-source-git-commit: 0b48a0b0793d523021a2e19f86e101bdbab88305
+title: Erste Schritte mit Journeys
+description: Erste Schritte mit Journeys
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 76%
+source-wordcount: '1512'
+ht-degree: 99%
 
 ---
 
-# Erste Schritte mit Journey{#jo-quick-start}
+# Erste Schritte mit Journeys{#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
 ## Voraussetzungen
 
-Um Nachrichten mit Journey zu senden, muss folgende Konfiguration durchgeführt werden:
+Um Nachrichten mit Journey zu senden, ist folgende Konfiguration notwendig:
 
-1. **Ereignis** konfigurieren: Wenn Sie Ihre Journey beim Empfang eines Ereignisses einheitlich Trigger haben möchten, müssen Sie ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen und wie sie verarbeitet werden. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
+1. **Ereignis konfigurieren**: Wenn Sie Ihre Journeys beim Empfang eines Ereignisses unitär triggern möchte, müssen Sie zunächst ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
 
    ![](../assets/jo-event7.png)
 
-1. **Segment** erstellen: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an eine bestimmte Gruppe von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Mehr dazu](../segment/about-segments.md).
+1. **Segment erstellen**: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Mehr dazu](../segment/about-segments.md).
 
    ![](../assets/segment2.png)
 
-1. **Datenquelle** konfigurieren: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z.B. in Ihren Bedingungen. Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
+1. **Datenquelle konfigurieren**:Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
 
    ![](../assets/jo-datasource.png)
 
-1. **Konfigurieren einer Aktion**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert, Sie müssen nur Ihre Inhalte entwerfen und Ihre Nachricht veröffentlichen. Siehe [diesen Abschnitt](../get-started-content.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
+1. **Aktion konfigurieren**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert. Sie müssen lediglich Ihren Content entwerfen und Ihre Nachricht veröffentlichen. Siehe [diesen Abschnitt](../get-started-content.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
    ![](../assets/create-content-push.png)
 
@@ -37,9 +36,9 @@ Um Nachrichten mit Journey zu senden, muss folgende Konfiguration durchgeführt 
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
-Im Folgenden finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journey:
+Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journeys:
 
-1. Klicken Sie im linken Menü auf **[!UICONTROL Journey]**. Die Liste der Journeys wird angezeigt.
+1. Klicken Sie im Bereich JOURNEY MANAGEMENT auf **[!UICONTROL Journey]**. Die Liste der Journeys wird angezeigt.
 
    ![](../assets/interface-journeys.png)
 
@@ -49,11 +48,11 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Senden von Nachrichten übe
 
    ![](../assets/jo-properties.png)
 
-1. Beginn durch Ziehen und Ablegen eines Ereignisses oder einer **Read segment**-Aktivität aus der Palette in die Arbeitsfläche. Weitere Informationen zum Journey-Design finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie zuerst ein Ereignis oder eine Aktivität **Segment lesen** aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
    ![](../assets/read-segment.png)
 
-1. Ziehen Sie die nächsten Schritte, die der Benutzer ausführen soll, per Drag &amp; Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie die nächsten Schritte, die der Benutzer ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
 1. Testen Sie Ihre Journey mit Test-Profilen. Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md)
 
@@ -61,7 +60,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zum Senden von Nachrichten übe
 
    ![](../assets/jo-journeyuc2_32bis.png)
 
-1. Überwachen Sie Ihre Journey mithilfe der dedizierten Berichte-Tools, um die Effektivität Ihrer Journey zu messen. Weitere Informationen finden Sie in diesem [Abschnitt](../reports/live-report.md).
+1. Überwachen Sie Ihre Journey mithilfe der dedizierten Reporting-Tools, um die Effektivität Ihrer Journey zu messen. Weitere Informationen finden Sie in diesem [Abschnitt](../reports/live-report.md).
 
    ![](../assets/jo-dynamic_report_journey_12.png)
 
@@ -71,7 +70,7 @@ Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Jo
 
 Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
 
-Mit dem Befehl **Technische Details kopieren** können Sie technische Informationen zur Journey kopieren, die das Supportteam zur Fehlerbehebung verwenden kann. Die folgenden Informationen werden kopiert: JourneyVersion UID, OrgID, orgName, sandboxName.
+Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Dabei werden die folgenden Informationen kopiert: JourneyVersion UID, OrgID, orgName, sandboxName.
 
 ![](../assets/journey32.png)
 
@@ -91,7 +90,7 @@ Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
 Es wird empfohlen, unter **[!UICONTROL Zeitüberschreitung und Fehler]** einen sehr kurzen Wert festzulegen, wenn Ihre Journey zeitkritisch ist (z. B. Reaktion auf den Echtzeit-Standort einer Person), da Sie Ihre Aktion nicht länger als einige Sekunden verzögern können. Wenn Ihre Journey weniger zeitkritisch ist, können Sie einen längeren Wert verwenden, um dem aufgerufenen System mehr Zeit zum Senden einer gültigen Antwort zu geben.
 
-Journey verwenden auch einen globalen Timeout. Siehe [nächster Abschnitt](#global_timeout).
+Bei Journeys wird auch eine maximale globale Wartezeit verwendet. Siehe [nächster Abschnitt](#global_timeout).
 
 ### Maximale globale Wartezeit der Journey {#global_timeout}
 
@@ -99,7 +98,7 @@ Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit]
 
 >[!NOTE]
 >
->Journey reagieren nicht direkt auf Abmelde-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
+>Journeys reagieren nicht direkt auf Datenschutz-Opt-out-, Zugriffs- oder Löschanfragen. Die maximale globale Wartezeit stellt jedoch sicher, dass Kontakte auf keinen Fall länger als 30 Tage in der Journey bleiben.
 
 Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
@@ -123,14 +122,14 @@ Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt e
 Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 * Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
-* Eine segmentbasierte Journey mit einmaliger Ausführung.
-* Nach dem letzten Auftreten einer wiederholten segmentbasierten Journey.
+* Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
+* Nach dem letzten Auftreten einer wiederkehrenden segmentbasierten Journey.
 
 Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen (kein Eintritt)]** auf. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
 
-So schließen oder stoppen Sie eine Journey manuell:
+So kann eine Journey manuell geschlossen oder gestoppt werden:
 
 Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
 
@@ -152,7 +151,7 @@ Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für ne
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie in der Liste **[!UICONTROL Journey]** auf die Journey, die Sie schließen möchten.
+1. Wählen Sie auf der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](../assets/finish_drop_down_list.png)
@@ -174,7 +173,7 @@ Sie können eine Journey stoppen (z. B. wenn ein Marketing-Experte erkennt, das
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Klicken Sie in der Liste **[!UICONTROL Journey]** auf die Journey, die Sie beenden möchten.
+1. Wählen Sie auf der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
 ![](../assets/finish_drop_down_list.png)
