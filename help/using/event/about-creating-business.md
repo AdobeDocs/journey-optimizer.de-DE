@@ -1,40 +1,39 @@
 ---
-title: Business-Ereignis konfigurieren
-description: Erfahren Sie, wie Sie ein geschäftliches Ereignis erstellen
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Geschäftsereignis konfigurieren
+description: Erfahren Sie, wie Sie ein Geschäftsereignis erstellen
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 50%
+source-wordcount: '836'
+ht-degree: 98%
 
 ---
 
-# Business-Ereignis {#configure-a-business-event} konfigurieren
+# Geschäftsereignis konfigurieren {#configure-a-business-event}
 
 ![](../assets/do-not-localize/badge.png)
 
-Im Gegensatz zu einheitlichen Ereignissen sind geschäftliche Ereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Lesen Sie mehr über geschäftliche Ereignisse in [diesem Abschnitt](../event/about-events.md).
+Im Gegensatz zu einheitlichen Ereignissen sind Geschäftsereignis nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
-Auf Lesesegmenten basierende Journey können in einer Einzelaufnahme durch eine Planung auf regulärer Basis oder durch ein geschäftliches Ereignis ausgelöst werden, wenn das Ereignis eintritt.
+Auf dem Lesen von Segmenten basierende Journeys können einmalig durch eine Planung auf regulärer Basis oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
-Business Ereignisses können &quot;ein Produkt ist wieder auf Lager&quot;, &quot;der Aktienkurs einer Firma erreicht einen bestimmten Wert&quot; usw. sein.
+Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs einer Firma erreicht einen bestimmten Wert“ usw.
 
-## Wichtige Hinweise      
+## Wichtige Hinweise
 
 * Das Ereignis-Schema muss eine primäre Identität enthalten.
-* Business-Ereignis können nur als erster Schritt einer Journey fallen gelassen werden.
-* Wenn Sie ein Business-Ereignis als ersten Schritt einer Journey ablegen, lautet der Typ der Planung der Journey &quot;Business-Ereignis&quot;.
-* Nach einem geschäftlichen Ereignis kann nur eine Aktivität für gelesene Segmente abgelegt werden. Es wird automatisch als nächster Schritt hinzugefügt.
-* Geschäftliche Ereignis können nicht häufiger als eine Stunde ausgelöst werden.
-* Nachdem ein geschäftliches Ereignis ausgelöst wurde, wird es verzögert, das Segment von 15 auf bis zu eine Stunde exportieren zu lassen.
-* Beim Testen eines Business-Ereignisses müssen Sie die Ereignis-Parameter und die ID des Test-Profils übergeben, das die Journey in den Test eingibt. Beim Testen einer Business-Ereignis-basierten Journey können Sie außerdem nur den Trigger eines einzelnen Profils verwenden. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Code-Ansicht-Modus verfügbar.
-* Was passiert mit Personen, die sich derzeit in der Journey befinden, wenn ein neues Business-Ereignis eintrifft? Es verhält sich genauso wie bei einer erneuten Journey, wenn sich Personen immer noch in einer wiederkehrenden Phase befinden. Ihr Weg ist vorbei. Daher müssen Marketingexperten darauf achten, nicht zu lange Journey zu bauen, wenn sie häufige geschäftliche Ereignis erwarten.
+* Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
+* Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
+* Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
+* Geschäftsereignisse können nicht häufiger als jede Stunde ausgelöst werden.
+* Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
+* Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
+* Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu bauen, wenn sie häufige Geschäftsereignisse erwarten.
 
-## Erste Schritte mit geschäftlichen Ereignissen
+## Erste Schritte mit Geschäftsereignissen
 
-Im Folgenden werden die ersten Schritte zum Konfigurieren eines Business-Ereignisses beschrieben:
+Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftsereignisses:
 
-1. Klicken Sie im linken Menü auf das Symbol **[!UICONTROL Admin]** und dann auf **[!UICONTROL Ereignis]**. Die Liste der Ereignisse wird angezeigt.
+1. Navigieren Sie im Abschnitt ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Die Liste der Ereignisse wird angezeigt.
 
    ![](../assets/jo-event1.png)
 
@@ -50,24 +49,24 @@ Im Folgenden werden die ersten Schritte zum Konfigurieren eines Business-Ereigni
    >
    >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
 
-1. Wählen Sie im Feld **[!UICONTROL Typ]** **Unternehmen**.
+1. Wählen Sie im Feld **[!UICONTROL Typ]** **Geschäftlich**.
 
    ![](../assets/jo-event3bis-business.png)
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
-1. Definieren Sie die Schema- und Payload-Felder: Hier wählen Sie die Ereignis-Informationen aus (meist Nutzlast genannt), die Journey erwarten. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
+1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](../assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. Experience Ereignisses-, Decision Ereignisses- und Journey Step Ereignisses-Schema sind nicht verfügbar. Das Ereignis-Schema muss eine primäre Identität enthalten.
+   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignis-Schema muss eine primäre Identität enthalten.
 
    ![](../assets/test-profiles-4.png)
 
 1. Klicken Sie in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
    ![](../assets/jo-event6-business.png)
 
-   In unserem Beispiel haben wir eine Bedingung geschrieben, die auf der Produkt-ID basiert. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis erhält, das dieser Bedingung entspricht, es an die Journey weiterleitet.
+   In unserem Beispiel haben wir eine Bedingung basierend auf der Kennung des Produkts geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis erhält, das dieser Bedingung entspricht, dieses an Journeys weitergibt.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -75,7 +74,7 @@ Im Folgenden werden die ersten Schritte zum Konfigurieren eines Business-Ereigni
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## Definieren Sie die Payload-Felder {#define-the-payload-fields}
+## Definieren der Payload-Felder {#define-the-payload-fields}
 
 Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
@@ -83,7 +82,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    ![](../assets/journey8-business.png)
 
-   Alle im Schema definierten Felder werden angezeigt. Die Liste der Felder variiert von Schema zu Schema. Sie können nach einem bestimmten Feld suchen oder die Filter verwenden, um alle Knoten und Felder oder nur die ausgewählten Felder anzuzeigen. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein. Sie können die Auswahl nicht aufheben. Alle Felder, die für den ordnungsgemäßen Empfang des Ereignisses durch Journey erforderlich sind, werden standardmäßig ausgewählt.
+   Alle im Schema definierten Felder werden angezeigt. Die Liste der Felder variiert von Schema zu Schema. Sie können nach einem bestimmten Feld suchen oder die Filter verwenden, um alle Knoten und Felder oder nur die ausgewählten Felder anzuzeigen. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein. Sie können die Auswahl nicht aufheben. Alle Felder, die für den korrekten Empfang des Ereignisses durch Journeys erforderlich sind, sind standardmäßig ausgewählt.
 
    ![](../assets/journey9-business.png)
 
@@ -97,7 +96,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    ![](../assets/journey12-business.png)
 
-## Vorschau der Nutzlast {#preview-the-payload}
+## Vorschau der Payload {#preview-the-payload}
 
 Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
