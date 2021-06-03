@@ -1,166 +1,53 @@
 ---
 title: Funktionsbibliothek
 description: Funktionsbibliothek
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 96%
+source-wordcount: '493'
+ht-degree: 67%
 
 ---
 
-# Arrays und Listen{#arrays}
+# Arrays und Listenfunktionen {#arrays}
 
 ![](../../assets/do-not-localize/badge.png)
 
-[!DNL Profile Query Language] (PQL) Angebot-Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
+Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
-## Enthalten
+## Verschieden{#distinct}
 
-Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört.
-
-**Format**
-
-```sql
-in ({VALUE},{ARRAY})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert Personen, die im März, Juni oder September Geburtstag haben.
-
-```sql
-in (person.birthMonth, [3, 6, 9])
-```
-
-## Nicht enthalten
-
-Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste nicht angehört.
-
->[!NOTE]
->
-> Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
+Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste mit entfernten doppelten Werten abzurufen.
 
 **Format**
 
 ```sql
-notIn ({VALUE},{ARRAY})
+{%= distinct(array) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, die nicht im März, Juni oder September Geburtstag haben.
+Der folgende Vorgang gibt Personen an, die Bestellungen in mehr als einem Store aufgegeben haben.
 
 ```sql
-notIn (person.birthMonth ,[3, 6, 9])
+{%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Schnittmengen
+## Erstes Element{#head}
 
-Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
+Mit der `head`-Funktion wird das erste Element im Array oder in der Liste zurückgegeben.
 
 **Format**
 
 ```sql
-intersects({ARRAY},{ARRAY})
+{%= head({array}) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage definiert Personen, deren Lieblingsfarben mindestens eine der folgenden Farben beinhalten: Rot, Blau oder Grün.
+Der folgende Vorgang gibt die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurück. Weiterführende Informationen zur `topN`-Funktion finden Sie im Abschnitt [Erste `n` in Array](#first-n).
 
 ```sql
-intersects(person.favoriteColors,["red", "blue", "green"])
-```
-
-## Schnittmenge
-
-Die `intersection`-Funktion dient zur Bestimmung der gemeinsamen Elemente von zwei Arrays oder Listen.
-
-**Format**
-
-```sql
-intersection({ARRAY},{ARRAY})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert, ob unter den Lieblingsfarben von Person 1 und auch Person 2 die Farben Rot, Blau und Grün sind.
-
-```sql
-intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
-```
-
-## Teilmenge von
-
-Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob alle Elemente in Array A Elemente von Array B sind.
-
-**Format**
-
-```sql
-subsetOf({ARRAY},{ARRAY})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert Personen, die alle ihrer Lieblingsstädte besucht haben.
-
-```sql
-subsetOf(person.favoriteCities,person.visitedCities)
-```
-
-## Obermenge
-
-Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
-
-**Format**
-
-```sql
-supersetOf({ARRAY},{ARRAY})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert Personen, die mindestens einmal Sushi und mindestens einmal Pizza gegessen haben.
-
-```sql
-supersetOf(person.eatenFoods,["sushi", "pizza"])
-```
-
-## Enthält
-
-Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
-
-**Format**
-
-```sql
-includes({ARRAY},{ITEM})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert Personen, zu deren Lieblingsfarben Rot gehört.
-
-```sql
-includes(person.favoriteColors,"red")
-```
-
-## Verschieden
-
-Die `distinct`-Funktion dient dazu, doppelt vorhandene Werte aus einem Array oder einer Liste zu entfernen.
-
-**Format**
-
-```sql
-distinct({ARRAY})
-```
-
-**Beispiel**
-
-Die folgende PQL-Abfrage definiert Personen, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
-
-```sql
-distinct(person.orders.storeId).count() > 1
+{%= head(topN(orders,price, 5)) %}
 ```
 
 ## Erste `n` in Array {#first-n}
@@ -170,7 +57,7 @@ Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn si
 **Format**
 
 ```sql
-topN({ARRAY},{VALUE}, {AMOUNT})
+{%= topN(array, value, amount) %}
 ```
 
 | Argument | Beschreibung |
@@ -181,20 +68,94 @@ topN({ARRAY},{VALUE}, {AMOUNT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die fünf häufigsten Bestellungen mit dem höchsten Preis zurück.
+Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem höchsten Preis zurück.
 
 ```sql
-topN(orders,price, 5)
+{%= topN(orders,price, 5) %}
 ```
 
-## Letzte `n` in Array
+## Enthalten{#in}
+
+Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört.
+
+**Format**
+
+```sql
+{%= in(value, array) %}
+```
+
+**Beispiel**
+
+Der folgende Vorgang definiert Personen, die im März, Juni oder September Geburtstag haben.
+
+```sql
+{%= in (person.birthMonth, [3, 6, 9]) %}
+```
+
+## Enthält{#includes}
+
+Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
+
+**Format**
+
+```sql
+{%= includes(array,item) %}
+```
+
+**Beispiel**
+
+Die folgende Operation definiert Personen, deren Lieblingsfarbe Rot enthält.
+
+```sql
+{%= includes(person.favoriteColors,"red") %}
+```
+
+## Schnittmengen{#intersects}
+
+Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
+
+**Format**
+
+```sql
+{%= intersects(array1, array2) %}
+```
+
+**Beispiel**
+
+Der folgende Vorgang definiert Personen, deren Lieblingsfarben mindestens eine der Farben Rot, Blau oder Grün enthalten.
+
+```sql
+{%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
+```
+
+
+<!-- ## Intersection{#intersection}
+
+The `intersection` function is used to determine the common members of two arrays or lists.
+
+**Format**
+
+```sql
+intersection({ARRAY},{ARRAY})
+```
+
+**Example**
+
+The following operation defines if person 1 and person 2 both have favorite colors of red, blue, and green.
+
+```sql
+intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "green"]
+```
+-->
+
+## Letzte `n` in Array{#last-n}
 
 Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
 
 **Format**
 
 ```sql
-bottomN({ARRAY},{VALUE}, {AMOUNT})
+{%= bottomN(array, value, amount) %}
 ```
 
 | Argument | Beschreibung |
@@ -205,26 +166,75 @@ bottomN({ARRAY},{VALUE}, {AMOUNT})
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurück.
+Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurück.
 
 ```sql
-bottomN(orders,price, 5)
+{%= bottomN(orders,price, 5) %}
 ```
 
-## Erstes Element
 
-Mit der `head`-Funktion wird das erste Element im Array oder in der Liste zurückgegeben.
+## Nicht enthalten{#notin}
+
+Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste nicht angehört.
+
+>[!NOTE]
+>
+> Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
 
 **Format**
 
 ```sql
-head({ARRAY})
+{%= notIn(value, array) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage gibt die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurück. Weiterführende Informationen zur `topN`-Funktion finden Sie im Abschnitt [Erste `n` in Array](#first-n).
+Der folgende Vorgang definiert Personen, die nicht im März, Juni oder September Geburtstag haben.
 
 ```sql
-head(topN(orders,price, 5))
+{%= notIn(person.birthMonth ,[3, 6, 9]) %}
 ```
+
+
+## Teilmenge von{#subset}
+
+Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob alle Elemente in Array A Elemente von Array B sind.
+
+**Format**
+
+```sql
+{%= subsetOf(array1, array2) %}
+```
+
+**Beispiel**
+
+Im Folgenden werden Personen beschrieben, die alle ihrer Lieblingsstädte besucht haben.
+
+```sql
+{%= subsetOf(person.favoriteCities,person.visitedCities) %}
+```
+
+## Obermenge{#superset}
+
+Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
+
+**Format**
+
+```sql
+{%= supersetOf(array1, array2) %}
+```
+
+**Beispiel**
+
+Die folgende Operation definiert Personen, die mindestens einmal Sushi und Pizza gegessen haben.
+
+```sql
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+```
+
+
+
+
+
+
+
