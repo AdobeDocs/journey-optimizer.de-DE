@@ -1,17 +1,16 @@
 ---
 title: Erste Schritte
-description: Erfahren Sie, wie Sie mit der Angebot-Bibliotheks-API Beginn ausführen, um wichtige Vorgänge mit der Entscheidungsverwaltungsmodul durchzuführen.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+description: Erfahren Sie, wie Sie die Angebotsbibliotheks-API verwenden, um wichtige Aktionen mit der Entscheidungs-Management-Engine auszuführen.
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 82%
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# Entwicklerhandbuch für die Entscheidungs-API
+# Entwicklerhandbuch für die Entscheidungs-Management-API
 
-In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch bietet dann Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungsverwaltungsmodul.
+In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Außerdem enthält das Handbuch Beispiel-API-Aufrufe für die Ausführung von wichtigen Operationen mit der Entscheidungs-Management-Engine.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
@@ -19,18 +18,18 @@ In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung 
 
 Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Experience Platform voraus:
 
-* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/home.html): Das standardisierte Framework, mit dem [!DNL Experience Platform] Kundenerlebnisdaten organisiert.
-   * [Grundlagen der Schemakomposition](https://docs.adobe.com/content/help/de-DE/experience-platform/xdm/schema/composition.html): Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
-* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für die Experience Decision im Allgemeinen und für die Offer decisioning im Besonderen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
-* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/de-DE/experience-platform/segmentation/pql/overview.html): PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken über XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de): Das standardisierte Framework, mit dem [!DNL Experience Platform] Kundenerlebnisdaten organisiert.
+   * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html): Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
+* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten, die für Erlebnisentscheidungen im Allgemeinen und Angebotsentscheidungen im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de): PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken über XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen
 
-In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://docs.adobe.com/content/help/de-DE/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) im Fehlerbehebungshandbuch für [!DNL Experience Platform]
+In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) im Handbuch zur Fehlerbehebung für [!DNL Experience Platform]
 
 ## Sammeln von Werten für erforderliche Kopfzeilen
 
-Um [!DNL Platform]-APIs aufzurufen, müssen Sie zunächst das [Authentifizierungs-Tutorial](https://docs.adobe.com/content/help/de-DE/experience-platform/tutorials/authentication.html) abschließen. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
+Um [!DNL Platform]-APIs aufzurufen, müssen Sie zunächst das [Authentifizierungs-Tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html) abschließen. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -46,7 +45,7 @@ Ein Container ist ein Isolationsmechanismus, der unterschiedliche Aufgaben vonei
 
 Ein Administrator kann ähnliche Prinzipale, Ressourcen und Zugriffsberechtigungen in Profilen anordnen. Dies verringert den Verwaltungsaufwand und wird von der [Adobe Admin Console](https://adminconsole.adobe.com/) unterstützt. Sie müssen in Ihrem Unternehmen ein Produktadministrator für Adobe Experience Platform sein, um Profile erstellen und mit Benutzern verknüpfen zu können. Es reicht aus, in einem einmaligen Schritt Produktprofile einzurichten, die bestimmten Berechtigungen entsprechen, und diesen Profilen dann einfach Benutzer hinzuzufügen. Profile dienen als Gruppen, denen Berechtigungen erteilt wurden; alle echten Benutzer oder technischen Benutzer in dieser Gruppe erben diese Berechtigungen.
 
-Mit Administratorberechtigungen können Sie Benutzern über die [Adobe Admin Console](https://adminconsole.adobe.com/) Berechtigungen erteilen oder entziehen. Weiterführende Informationen finden Sie in der [Übersicht zur Zugriffskontrolle](https://docs.adobe.com/content/help/de-DE/experience-platform/access-control/home.html).
+Mit Administratorberechtigungen können Sie Benutzern über die [Adobe Admin Console](https://adminconsole.adobe.com/) Berechtigungen erteilen oder entziehen. Weiterführende Informationen finden Sie in der [Übersicht zur Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de).
 
 ### Container auflisten, die für Benutzer und Integrationen zugänglich sind
 
@@ -75,7 +74,7 @@ curl -X GET \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zu Containern des Entscheidungsmanagements zurückgegeben. Dazu gehört ein `instanceId`-Attribut, dessen Wert Ihre Container-ID ist.
+Bei einer erfolgreichen Antwort werden Informationen zu Entscheidungs-Management-Containern zurückgegeben. Dazu gehört ein `instanceId`-Attribut, dessen Wert Ihre Container-ID ist.
 
 ```json
 {
@@ -126,10 +125,10 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 ## Tutorial {#video}
 
-Das folgende Video soll Ihnen dabei helfen, die Komponenten von Decision Management besser zu verstehen.
+Im folgenden Video werden die Komponenten von Entscheidungs-Management erklärt.
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer-Decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Hinweise für die Nutzung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
