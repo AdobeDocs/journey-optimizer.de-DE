@@ -1,11 +1,10 @@
 ---
 title: Datenschutz
-description: Erfahren Sie, wie Sie den Datenschutz verwalten
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+description: Erfahren Sie, wie Sie Datenschutz verwalten.
+source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 50%
 
 ![](assets/do-not-localize/badge.png)
 
-Journey Optimizer ist ein leistungsstarkes Werkzeug zur Verarbeitung großer Datenmengen, einschließlich personenbezogener Daten und sensibler Daten.
+Journey Optimizer ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen.
 
 * **Personenbezogene Daten** sind Informationen, die eine lebende Person direkt oder indirekt identifizieren können.
 * **Vertrauliche personenbezogene Daten** sind Informationen zu Rasse, politischen Ansichten, religiösen Überzeugungen, kriminellem Hintergrund, genetischen Informationen, Gesundheitsdaten, sexuellen Vorlieben, biometrischen Informationen sowie zur Gewerkschaftsmitgliedschaft.
@@ -25,25 +24,25 @@ Die wichtigsten Rechtsvorschriften beziehen sich auf die verschiedenen Einheiten
 * Ein **Auftragsverarbeiter** ist eine natürliche oder juristische Person, die personenbezogene Daten gemäß den Anweisungen des Datenverantwortlichen erfasst, verwendet oder weitergibt.
 * Eine **betroffene Person** ist eine lebende Person, deren personenbezogene Daten erfasst, verwendet oder weitergegeben werden und die direkt oder indirekt anhand dieser personenbezogenen Daten identifiziert werden kann.
 
-Als Firma zum Sammeln und Freigeben von personenbezogenen Daten sind Sie der Datenverantwortliche, Ihre Kunden sind die Datensubjekte und Adobe Experience Cloud fungiert als Datenverarbeiter bei der Verarbeitung Ihrer personenbezogenen Daten, wie von Ihnen angegeben. Beachten Sie, dass Sie als Datencontroller für die Verarbeitung der Beziehung zu den Datensubjekten verantwortlich sind.
+Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Cloud fungiert als Auftragsverarbeiter, wenn wir deren personenbezogene Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass Sie als Datenverantwortlicher für die Beziehung zu den betroffenen Personen verantwortlich sind.
 
 ## Allgemeine Empfehlungen {#general-recommendations}
 
-Persönliche und sensible Daten müssen sorgfältig verwaltet werden. Befolgen Sie die folgenden allgemeinen Grundsätze:
+Personenbezogene und vertrauliche Daten müssen sorgfältig verwaltet werden. Befolgen Sie die folgenden allgemeinen Grundsätze:
 
-* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit persönlichen Informationen um.
+* Gehen Sie stets verantwortungsvoll und ethisch korrekt mit personenbezogenen Informationen um.
 
-* Keine unerwünschten Nachrichten (&quot;Spam&quot;) senden. Adobe ist fest an die Grundsätze des Permission Marketings zur Förderung des Lebensdauerwerts und der Kundenloyalität gebunden und verbietet daher strikt die Verwendung von Journey Optimizer beim Versenden von unerbetenen Nachrichten.
+* Senden Sie keine unerwünschten Nachrichten („Spam“). Adobe glaubt fest an Permission Marketing, um den Kundenlebenszeitwert und die Treue zu fördern, und verbietet daher strikt die Verwendung von Journey Optimizer zum Versenden von unerwünschten Nachrichten.
 
-Journey Optimizer bietet Ihnen die Möglichkeit, die den Benutzern zugewiesenen Rechte über verschiedene vordefinierte oder benutzerdefinierte Profil zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen zum Verwalten von Benutzerzugriffsrechten finden Sie unter [Berechtigungen verwalten](permissions.md).
+Journey Optimizer bietet Ihnen die Möglichkeit, die Ihren Benutzern zugewiesenen Rechte über verschiedene vorgefertigte oder benutzerdefinierte Produktprofile zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen zum Verwalten von Benutzerzugriffsrechten finden Sie unter [Berechtigungen verwalten](../administration/permissions.md).
 
-Mit Journey Optimizer können Sie auch die gesendeten Nachrichten und das Verhalten Ihrer Empfänger durch Öffnungen und Klicks auf Links verfolgen. [Erfahren Sie mehr über das Tracking-Management](message-tracking.md).
+Mit Journey Optimizer können Sie auch die gesendeten Nachrichten und das Verhalten Ihrer Empfänger durch Öffnungen und Klicks auf Links verfolgen. [Erfahren Sie mehr über die Verwaltung des Trackings](message-tracking.md).
 
 ## Datenschutzverwaltung {#privacy-management}
 
-Das Datenschutzmanagement bezieht sich auf alle Prozesse und Tools, die Ihnen bei der Einhaltung der Datenschutzbestimmungen helfen können.
+Die Datenschutzverwaltung bezieht sich auf alle Prozesse und Tools, die Ihnen helfen, die Datenschutzbestimmungen einzuhalten.
 
-Um die Privatsphäre korrekt zu behandeln und personenbezogene Daten zu verwalten, müssen Sie daher innerhalb der Rechtsvorschriften arbeiten, die für die Region/die Regionen gelten, in der/denen Sie tätig sind. Zu diesen Verordnungen gehören:
+Um den Datenschutz korrekt zu handhaben und personenbezogene Daten korrekt zu verwalten, müssen Sie daher im Rahmen der Gesetzgebung arbeiten, die für die Region(en) gilt, in der/denen Sie tätig sind. Zu diesen Verordnungen gehören:
 
 * [DSGVO](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_de) (Europäische Datenschutz-Grundverordnung)
 * [DPA](https://www.gov.uk/data-protection) (Umsetzung der DSGVO durch das Vereinigte Königreich)
@@ -52,17 +51,17 @@ Um die Privatsphäre korrekt zu behandeln und personenbezogene Daten zu verwalte
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (kalifornisches Verbraucherschutzgesetz)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (thailändisches Gesetz zum Schutz personenbezogener Daten)
 
-Journey Optimizer übernimmt die meisten in Adobe Experience Platform vorgenommenen Änderungen am Datensatz.
+Journey Optimizer übernimmt die meisten Datensatzänderungen, die in Adobe Experience Platform vorgenommen wurden.
 
-Daher werden Datenschutzanforderungen (Zugriffsrecht und Recht auf Vergessen) über Experience Platform verwaltet. Sie müssen Ihre Anforderungen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de-DE) senden und **Profil** und **AEP Data Lake** aus der Liste [beim Erstellen Ihrer Datenschutzanforderung](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder) auswählen. <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
+Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwerden) über Experience Platform verwaltet. Sie müssen Ihre Anfragen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) senden und **Profil** und **AEP Data Lake** aus der Liste auswählen, wenn Sie [Ihre Datenschutzanfrage erstellen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
->[Die ](../../help/using/consent.md) Verwaltung der Zustimmung erfolgt direkt innerhalb von Journey Optimizer.
+>[Die Einverständnisverwaltung](../../help/using/consent.md) erfolgt direkt innerhalb von Journey Optimizer.
 
 ## Adobe Experience Cloud – Datenschutz {#experience-cloud-privacy}
 
-Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen der Adobe Experience Cloud. [Erfahren Sie mehr über die Privatsphäre](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
+Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen der Adobe Experience Cloud. [Erfahren Sie mehr über den Datenschutz in Adobe Experience Cloud](https://www.adobe.com/de/privacy/experience-cloud.html).
 
 Als Unternehmen, das Adobe Experience Cloud-Lösungen nutzt, entscheiden Sie selbst, welche Informationen erfasst und an Ihr Adobe Experience Cloud-Konto gesendet werden sollen. Beispiele für die Arten von Informationen, die erfasst werden können, sind Webbrowsing-Aktivitäten, IP-Adressen, Standortinformationen von Mobilgeräten, Erfolgsquoten von Kampagnen, gekaufte oder in den Warenkorb gelegte Artikel usw. Weitere Informationen finden Sie in der [Datenschutzerklärung von Adobe](https://www.adobe.com/de/privacy/policy.html).
 
@@ -73,6 +72,6 @@ Adobe fordert Sie auf, Ihren Kunden Datenschutzrichtlinien bereitzustellen, in d
 
 >[!NOTE]
 >
->Wie bei allen Produkten der Adobe können Journey Optimizer-Benutzer die Freigabe von Informationen, die über Apps und Websites erfasst wurden, deaktivieren. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
+>Wie bei allen Produkten von Adobe können Journey Optimizer-Benutzer der Weitergabe ihrer Informationen, die über Apps und Websites erfasst wurden, widersprechen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
