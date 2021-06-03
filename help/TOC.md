@@ -1,16 +1,15 @@
 ---
 product: experience cloud
 audience: end-user
-user-guide-title: Journey Optimizer-Handbuch
-user-guide-description: Verwenden Sie Journey Optimizer, um Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereitzustellen.
+user-guide-title: Handbuch für Journey Optimizer
+user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
 hide: true
-translation-type: tm+mt
-source-git-commit: 1e4b037a54f3b79270890ae4f2909670b17a5cb6
+source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 53%
+source-wordcount: '632'
+ht-degree: 83%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 53%
 
 + [Produktdokumentation](ajo-home.md)
 + Erste Schritte{#get-started}
-   + [Was ist Journey Optimizer](using/get-started.md)
+   + [Was ist Journey Optimizer?](using/get-started.md)
    + [Schnellstart](using/quick-start.md)
    + [Benutzeroberfläche](using/user-interface.md)
    + [Verwalten von Berechtigungen](using/permissions.md)
@@ -27,53 +26,55 @@ ht-degree: 53%
 + Nachrichten {#create-messages}
    + [Erste Schritte mit Nachrichten](using/get-started-content.md)
    + Nachrichten erstellen {#create-message}
-      + [Nachricht erstellen](using/create-message.md)
-      + [E-Mail konfigurieren](using/configure-email.md)
-      + [Push-Benachrichtigung konfigurieren](using/configure-push.md)
-   + [hinzufügen und Verwalten von Assets](using/assets-essentials.md)
+      + [Nachrichten erstellen](using/create-message.md)
+      + [E-Mail erstellen](using/create-email.md)
+      + [Push-Benachrichtigung erstellen](using/create-push.md)
+   + [Assets hinzufügen und verwalten](using/assets-essentials.md)
    + Email Designer {#email-designer}
-      + [Erste Schritte mit E-Mail-Design](using/design-emails.md)
-      + [Entwerfen von E-Mail-Inhalten in der Benutzeroberfläche](using/create-email-content.md)
-      + [E-Mail-Inhalt importieren oder kodieren](using/existing-content.md)
-      + [Inhaltskomponenten des E-Mail-Designers verwenden](using/content-components.md)
+      + [Erste Schritte mit dem Entwerfen von E-Mails](using/design-emails.md)
+      + [Entwerfen von E-Mail-Inhalten über die Benutzeroberfläche](using/create-email-content.md)
+      + [E-Mail-Inhalte importieren oder kodieren](using/existing-content.md)
+      + [Verwenden von Inhaltskomponenten des E-Mail-Designers](using/content-components.md)
    + Personalisierung{#personalization}
       + [Erste Schritte](using/personalization/personalize.md)
       + [Personalisierungsbereiche](using/personalization/personalization-aeras.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
-      + [Personalisierungsüberprüfung](using/personalization/personalization-validation.md)
+      + [Validieren der Personalisierung](using/personalization/personalization-validation.md)
       + [Anwendungsfall für Personalisierung](using/personalization/personalization-use-case.md)
-      + Arbeitssprache{#functions}
-         + [Operatoren ](using/personalization/functions/operators.md)
-         + [Aggregation](using/personalization/functions/aggregation.md)
-         + [Arrays und Listen](using/personalization/functions/arrays-list.md)
-         + [Mathematisch](using/personalization/functions/maths.md)
-         + [Karten](using/personalization/functions/maps.md)
-         + [Objekte](using/personalization/functions/objects.md)
-         + [Zeichenfolge](using/personalization/functions/string.md)
-   + [hinzufügen personalisierte Angebot](using/deliver-personalized-offers.md)
-   + {#create-message} validieren und veröffentlichen
-      + [Vorschau und Testversände](using/preview.md)
-      + [Warnungen prüfen](using/alerts.md)
-      + [Meldungen veröffentlichen](using/publish-manage-message.md)
-   + [Abmeldeverwaltung verwalten](using/consent.md)
+      + Helper-Funktionen{#functions}
+         + [Liste der Hilfsfunktionen](using/personalization/functions/functions.md)
+         + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
+         + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
+         + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
+         + [Boolesche und Vergleichsfunktionen](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
+         + [Objektfunktionen](using/personalization/functions/objects.md)
+         + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
+   + [Hinzufügen von personalisierten Angeboten](using/deliver-personalized-offers.md)
+   + Validieren und veröffentlichen {#create-message}
+      + [Vorschau und Testversand](using/preview.md)
+      + [Warnhinweise prüfen](using/alerts.md)
+      + [Nachrichten veröffentlichen](using/publish-manage-message.md)
+   + [Opt-out verwalten](using/consent.md)
 + Segmente{#segment}
-   + [Segmente](using/segment/about-segments.md)
+   + [Über Segmente](using/segment/about-segments.md)
    + [Segmente erstellen](using/segment/creating-a-segment.md)
 + Journeys {#orchestrate-journeys}
-   + Info zu Journey{#about-journeys}
+   + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
       + [Einschränkungen](using/building-journeys/limitations.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Testprofile](using/building-journeys/creating-test-profiles.md)
    + Eine Journey erstellen{#create-journey}
-      + [Erste Schritte mit Journey](using/building-journeys/journey-gs.md)
+      + [Erste Schritte mit Journeys](using/building-journeys/journey-gs.md)
       + [Gestalten Ihrer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Journey testen](using/building-journeys/testing-the-journey.md)
       + [Journey veröffentlichen](using/building-journeys/publishing-the-journey.md)
-      + [Zeitzonen](using/building-journeys/timezone-management.md)
-      + [Fehlerbehebung bei der Journey](using/building-journeys/troubleshooting.md)
+      + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Beheben von Fehlern Ihrer Journey](using/building-journeys/troubleshooting.md)
    + Aktivitäten {#about-journey-building}
-      + [Informationen zu Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
+      + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktion](using/building-journeys/reaction-events.md)
       + [Segmentqualifikation](using/building-journeys/segment-qualification-events.md)
@@ -86,7 +87,7 @@ ht-degree: 53%
       + [Sprung](using/building-journeys/jump.md)
       + [Profil aktualisieren](using/building-journeys/update-profiles.md)
    + Anwendungsbeispiele {#journey-use-cases}
-      + [Senden von Nachrichten mit mehreren Kanälen](using/building-journeys/journeys-uc.md)
+      + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
 + Tracken und überwachen {#reporting}
    + [Nachrichten-Tracking](using/message-tracking.md)
    + [Nachrichtenüberwachung](using/message-monitoring.md)
@@ -94,25 +95,25 @@ ht-degree: 53%
       + [Übersicht](using/reports/live-report.md)
       + [Journey-Live-Bericht](using/reports/journey-live-report.md)
       + [Live-Bericht per E-Mail](using/reports/email-live-report.md)
-      + [Live-Bericht verschieben](using/reports/push-live-report.md)
+      + [Live-Bericht anfordern](using/reports/push-live-report.md)
    + Globaler Bericht {#global-report}
       + [Übersicht](using/reports/global-report.md)
-      + [Journey Global Report](using/reports/journey-global-report.md)
-      + [Globalen Bericht per E-Mail](using/reports/email-global-report.md)
-      + [Globalen Bericht verschieben](using/reports/push-global-report.md)
+      + [Globaler Journey-Bericht](using/reports/journey-global-report.md)
+      + [Globaler Bericht per E-Mail](using/reports/email-global-report.md)
+      + [Globalen Bericht anfordern](using/reports/push-global-report.md)
    + Journey-Berichte {#reports}
-      + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
+      + [Journey-Berichte erstellen](using/reports/sharing-overview.md)
       + [Journey-Felder](using/reports/sharing-journey-fields.md)
       + [Allgemeine Felder](using/reports/sharing-common-fields.md)
       + [Aktionsausführungsfelder](using/reports/sharing-execution-fields.md)
-      + [Datenabruf-Felder](using/reports/sharing-fetch-fields.md)
+      + [Datenabruffelder](using/reports/sharing-fetch-fields.md)
       + [Identitätsfelder](using/reports/sharing-identity-fields.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
-      + [Listen der Unterdrückung](using/suppression-lists.md)
+      + [Unterdrückungsliste](using/suppression-list.md)
 + Entscheidungsverwaltung {#offer-decisioniong}
-   + Erste Schritte mit der Entscheidungsverwaltung {#get-started}
-      + [Informationen zur Entscheidungsverwaltung](using/offers/get-started/starting-offer-decisioning.md)
+   + Erste Schritte mit Entscheidungs-Management {#get-started}
+      + [Über die Entscheidungsverwaltung](using/offers/get-started/starting-offer-decisioning.md)
       + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
       + [Glossar](using/offers/get-started/glossary.md)
    + Angebote erstellen und verwalten {#managing-offers-in-the-offer-library}
@@ -120,23 +121,23 @@ ht-degree: 53%
       + [Platzierungen erstellen](using/offers/offer-library/creating-placements.md)
       + [Entscheidungsregeln erstellen](using/offers/offer-library/creating-decision-rules.md)
       + [Tags erstellen](using/offers/offer-library/creating-tags.md)
-      + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
-      + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
+      + [Personalisierte Angebote erstellen](using/offers/offer-library/creating-personalized-offers.md)
+      + [Fallback-Angebote erstellen](using/offers/offer-library/creating-fallback-offers.md)
       + [Kollektionen erstellen](using/offers/offer-library/creating-collections.md)
-      + [Rangfolgeformeln erstellen](using/offers/offer-library/create-ranking-formulas.md)
-   + Entscheidungen erstellen und verwalten {#create-manage-activities}
+      + [Erstellen von Rangfolgeformeln](using/offers/offer-library/create-ranking-formulas.md)
+   + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
       + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
-      + [Auswahl von Angeboten in Entscheidungen konfigurieren](using/offers/offer-activities/configure-offer-selection.md)
-   + Erstellen von Entscheidungsverwaltungsberichten {create-reports}
-      + [Erste Schritte mit den Ereignissen zur Entscheidungsverwaltung](using/offers/reports/get-started-events.md)
+      + [Auswahl von Angeboten für Entscheidungen konfigurieren](using/offers/offer-activities/configure-offer-selection.md)
+   + Erstellen von Entscheidungs-Management-Berichten {create-reports}
+      + [Erste Schritte mit Entscheidungsverwaltungsereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Angebotskatalog exportieren {#export-catalog}
-      + [Erste Schritte mit dem Exportieren eines Angebotskatalogs](using/offers/export-catalog/get-started-export.md)
-      + [Auf den exportierten Angebotskatalog zugreifen](using/offers/export-catalog/access-dataset.md)
-      + [Datenbestand zu personalisierten Angeboten](using/offers/export-catalog/export-offers.md)
-      + [Entscheidungsdataset](using/offers/export-catalog/export-decisions.md)
-      + [Platzierungsdataset](using/offers/export-catalog/export-placements.md)
+      + [Erste Schritte mit dem Exportieren eines Angebotskatalogs ](using/offers/export-catalog/get-started-export.md)
+      + [Zugriff auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
+      + [Datensatz für personalisierte Angebote](using/offers/export-catalog/export-offers.md)
+      + [Entscheidungs-Datensatz](using/offers/export-catalog/export-decisions.md)
+      + [Platzierungs-Datensatz](using/offers/export-catalog/export-placements.md)
       + [Fallback-Datensatz](using/offers/export-catalog/export-fallback.md)
    + API-Referenz {#api-reference}
       + [Erste Schritte](using/offers/api-reference/getting-started.md)
@@ -144,7 +145,7 @@ ht-degree: 53%
          + Platzierungen {#placements}
             + [Platzierungen auflisten](using/offers/api-reference/offers-api/placements/placements-list.md)
             + [Platzierung nachschlagen](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Platzierung erstellen](using/offers/api-reference/offers-api/placements/create.md)
+            + [Erstellen einer Platzierung](using/offers/api-reference/offers-api/placements/create.md)
             + [Platzierung aktualisieren](using/offers/api-reference/offers-api/placements/update.md)
             + [Platzierung löschen](using/offers/api-reference/offers-api/placements/delete.md)
          + Entscheidungsregeln {#decision-rules}
@@ -168,40 +169,65 @@ ht-degree: 53%
          + Kollektionen {#collections}
             + [Kollektionen auflisten](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [Kollektion nachschlagen](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Kollektionen erstellen](using/offers/api-reference/offers-api/collections/create.md)
+            + [Erstellen von Kollektionen](using/offers/api-reference/offers-api/collections/create.md)
             + [Kollektion aktualisieren](using/offers/api-reference/offers-api/collections/update.md)
-            + [Kollektionen löschen](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Löschen von Kollektionen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
             + [Fallback-Angebote auflisten](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Fallback-Angebot nachschlagen](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
             + [Fallback-Angebot erstellen](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Fallback-Angebot aktualisieren](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Fallback-Angebot löschen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Entscheidungen mit APIs {#activities-api} erstellen und verwalten
-         + [Beschlüsse der Liste](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Suchen einer Entscheidung](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Eine Entscheidung erstellen](using/offers/api-reference/activities-api/activities/create.md)
+      + Entscheidungen mithilfe von APIs erstellen und verwalten {#activities-api}
+         + [Entscheidungen auflisten](using/offers/api-reference/activities-api/activities/activities-list.md)
+         + [Entscheidung nachschlagen](using/offers/api-reference/activities-api/activities/lookup.md)
+         + [Entscheidung erstellen](using/offers/api-reference/activities-api/activities/create.md)
          + [Entscheidung aktualisieren](using/offers/api-reference/activities-api/activities/update.md)
-         + [Eine Entscheidung löschen](using/offers/api-reference/activities-api/activities/delete.md)
-      + Angebot-Versand mit APIs {#offer-delivery}
+         + [Entscheidung löschen](using/offers/api-reference/activities-api/activities/delete.md)
+      + Angebotsversand mit APIs {#offer-delivery}
          + [Decisions-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
-+ Konfiguration {#configuration}
-   + [Technische Einstellungen](using/administration.md)
-   + [Konfiguration von Push-Benachrichtigungen](using/push-configuration.md)
-   + Ereigniskonfiguration {#events-journeys}
-      + [Informationen zu Ereignissen](using/event/about-events.md)
-      + Einheitliches Ereignis {#unitary-events} konfigurieren
-         + [Erste Schritte mit einheitlichen Ereignissen](using/event/about-creating.md)
-         + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
-         + [Adobe Analytics nutzen](using/event/about-analytics.md)
-      + [Business-Ereignis konfigurieren](using/event/about-creating-business.md)
-      + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-   + Datenquellenkonfiguration{#data-source-journeys}
-      + [Informationen zu Datenquellen](using/datasource/about-data-sources.md)
-      + [Datenquelle konfigurieren](using/datasource/configure-data-sources.md)
-      + [Datenquelle von Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
-      + [Externe Datenquellen](using/datasource/external-data-sources.md)
-   + Aktionskonfiguration {#action-journeys}
-      + [Informationen zu Aktionen](using/action/action.md)
-      + [Konfigurieren einer Aktion](using/action/about-custom-action-configuration.md)
++ Konfiguration {#get-started}
+   + [Erste Schritte mit der Journey Optimizer-Konfiguration](using/configuration/get-started-configuration.md)
+   + Nachrichten konfigurieren {#configuration}
+      + [Technische Einstellungen](using/administration/administration.md)
+      + [Nachrichtenvorgaben erstellen](using/configuration/message-presets.md)
+      + Konfiguration von Push-Benachrichtigungen{#push-config}
+         + [Erste Schritte mit Push-Benachrichtigungen](using/push-gs.md)
+         + [Push-Kanal konfigurieren](using/push-configuration.md)
+      + E-Mail-Konfiguration {#email-config}
+         + Zuweisen von Subdomains {#delegate-subdomains}
+            + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
+            + [Zuweisen einer Subdomain](using/configuration/delegate-subdomain.md)
+            + [Auf zugewiesene Subdomains zugreifen](using/configuration/access-subdomains.md)
+            + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
+            + [Zugreifen auf PTR-Datensätze](using/configuration/ptr-records.md)
+         + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
+         + Überwachung von E-Mail-Adressen {#monitor-reputation}
+            + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
+            + [Weitere Zustellversuche](using/configuration/retries.md)
+         + [Primäre E-Mail-Adresse ändern](using/configuration/primary-email-addresses.md)
+   + Journey konfigurieren {#configure-journeys}
+      + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
+      + Ereigniskonfiguration {#events-journeys}
+         + [Allgemeine Funktionsweise](using/event/about-events.md)
+         + Unitäres Ereignis konfigurieren {#unitary-events}
+            + [Erste Schritte mit unitären Ereignissen](using/event/about-creating.md)
+            + [Informationen zu ExperienceEvent-Schemata](using/event/experience-event-schema.md)
+            + [Adobe Analytics nutzen](using/event/about-analytics.md)
+         + [Geschäftsereignis konfigurieren](using/event/about-creating-business.md)
+         + [Zusätzliche Schritte zum Senden von Ereignissen](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+      + Konfiguration von Datenquellen{#data-source-journeys}
+         + [Informationen zu Datenquellen](using/datasource/about-data-sources.md)
+         + [Datenquelle konfigurieren](using/datasource/configure-data-sources.md)
+         + [Datenquelle von Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+         + [Externe Datenquellen](using/datasource/external-data-sources.md)
+      + Aktionskonfiguration {#action-journeys}
+         + [Informationen zu Aktionen](using/action/action.md)
+         + [Konfigurieren einer Aktion](using/action/about-custom-action-configuration.md)
++ Zugriffskontrolle {#administration}
+   + [Zugriffskontrolle – Übersicht](using/administration/permissions-overview.md)
+   + [Integrierte Produktprofile](using/administration/ootb-product-profiles.md)
+   + [Benutzer und Produktprofile verwalten](using/administration/permissions.md)
+   + [Berechtigungsebenen](using/administration/high-low-permissions.md)
+   + [Sandbox-Verwaltung](using/administration/sandboxes.md)
