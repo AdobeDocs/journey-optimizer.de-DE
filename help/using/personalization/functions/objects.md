@@ -1,11 +1,10 @@
 ---
 title: Funktionsbibliothek
 description: Funktionsbibliothek
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 89%
+source-wordcount: '55'
+ht-degree: 60%
 
 ---
 
@@ -13,38 +12,38 @@ ht-degree: 89%
 
 ![](../../assets/do-not-localize/badge.png)
 
-## Is null
+## Is null{#isNull}
 
 Die `isNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
 **Format**
 
 ```sql
-isNull({OBJECT})
+{%= isNull(object) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage prüft, ob die Privatadresse der Person nicht vorhanden ist.
+Der folgende Vorgang prüft, ob die Privatadresse der Person nicht vorhanden ist.
 
 ```sql
-isNull(person.homeAddress)
+{%= isNull(person.homeAddress) %}
 ```
 
-## Is not null
+## Is not null{#isNotNull}
 
 Die `isNotNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
 **Format**
 
 ```sql
-isNotNull({OBJECT})
+{%= isNotNull(object) %}
 ```
 
 **Beispiel**
 
-Die folgende PQL-Abfrage prüft, ob die Privatadresse der Person vorhanden ist.
+Der folgende Vorgang prüft, ob die Privatadresse der Person vorhanden ist.
 
 ```sql
-isNotNull(person.homeAddress)
+{%= isNotNull(person.homeAddress) %}
 ```
