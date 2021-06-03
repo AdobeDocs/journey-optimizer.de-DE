@@ -1,34 +1,33 @@
 ---
 title: Anwendungsfall für Personalisierung
 description: Anwendungsfall für Personalisierung
-translation-type: tm+mt
-source-git-commit: 274086b4479a482ceb8e79e56d554f7d7b6cf545
+source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 2%
+ht-degree: 95%
 
 ---
 
 
-# Personalisierungsanwendungsfall {#personalization-use-case}
+# Anwendungsfall für Personalisierung {#personalization-use-case}
 
 ![](../assets/do-not-localize/badge.png)
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
-* Profil: Personalisierung von Nachrichten basierend auf einem Profil-Feld
-* Beschluss des Angebots: Personalisierung basierend auf Angebot-Entscheidungsvariablen
-* Kontext: Personalisierung basierend auf Kontextdaten der Journey
+* **Profil**: Personalisierung von Nachrichten basierend auf einem Profilfeld
+* **Angebotsentscheidung**: Personalisierung basierend auf Variablen für Angebotsentscheidungen
+* **Kontext**: Personalisierung basierend auf Kontextdaten von der Journey
 
-Ziel dieses Beispiels ist es, ein Ereignis bei jeder Aktualisierung einer Kundenbestellung an Journey Optimizer zu senden. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
+Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an Journey Optimizer zu senden. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
 
-Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
+Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
-* eine Push-Benachrichtigung erstellen und entwerfen, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
-* ein Ereignis mit Bestellnummer, Status und Artikelnamen konfigurieren. Siehe diesen [Abschnitt](../event/about-events.md).
-* eine Entscheidung zu erstellen (früher &quot;Angebot-Aktivität&quot;), siehe [Abschnitt](../offers/offer-activities/create-offer-activities.md).
+* eine Push-Benachrichtigung erstellen und gestalten, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
+* ein Bestellereignis mit Bestellnummer, Status und Artikelnamen konfigurieren. Siehe diesen [Abschnitt](../event/about-events.md).
+* eine Entscheidung erstellen (früher als „Angebotsaktivität“ bezeichnet), siehe diesen [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
-## Schritt 1: Hinzufügen Personalisierung auf Profil
+## Schritt 1 – Personalisierung auf Profil hinzufügen
 
 1. Klicken Sie auf das Menü **[!UICONTROL Nachricht]** und wählen Sie Ihre Nachricht aus.
 
@@ -38,29 +37,29 @@ Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
 
    ![](assets/perso-uc2.png)
 
-1. Geben Sie den Betreff ein und fügen Sie eine Personalisierung des Profils hinzu. Verwenden Sie die Suchleiste, um das Vornamenfeld des Profils zu finden. Platzieren Sie im Betreff den Cursor an der Stelle, an der Sie das Personalisierungsfeld einfügen möchten, und klicken Sie auf das Symbol **+**. Klicken Sie auf **Speichern**.
+1. Geben Sie den Betreff ein und fügen Sie eine Personalisierung aus dem Profil hinzu. Verwenden Sie die Suchleiste, um das Feld „Vorname“ des Profils zu finden. Setzen Sie den Cursor im Betrefftext an die Stelle, an der Sie das Personalisierungsfeld einfügen möchten, und klicken Sie auf das Symbol **+**. Klicken Sie auf **Speichern**.
 
    ![](assets/perso-uc3.png)
 
    >[!NOTE]
    >
-   >Lassen Sie die Nachricht im Entwurf. Veröffentlichen Sie es noch nicht.
+   >Belassen Sie die Nachricht als Entwurf. Veröffentlichen Sie sie noch nicht.
 
-## Schritt 2: Erstellen der Journey
+## Schritt 2 – Journey erstellen
 
 1. Klicken Sie auf das Menü **[!UICONTROL Journey]** und erstellen Sie eine neue Journey.
 
    ![](assets/perso-uc4.png)
 
-1. hinzufügen Sie Ihr Ereignis für die Eingabe, eine **Meldung** und eine **End**-Aktivität.
+1. Fügen Sie Ihr Eintrittsereignis, eine **Nachricht** und eine **Ende**-Aktivität hinzu.
 
    ![](assets/perso-uc5.png)
 
-1. Wählen Sie in der Aktivität **Meldung** die zuvor erstellte Meldung aus. Klicken Sie auf **OK**.
+1. Wählen Sie in der Aktivität **Nachricht** die zuvor erstellte Nachricht aus. Klicken Sie auf **OK**.
 
    ![](assets/perso-uc6.png)
 
-   Es wird eine Meldung angezeigt, die Sie darüber informiert, dass die Daten zum Ereignis der Einsendung und die Journey-Eigenschaften an die Nachricht übergeben wurden.
+   Es wird eine Meldung angezeigt, die Sie darüber informiert, dass die Daten des Eintrittsereignisses und die Journey-Eigenschaften an die Nachricht übergeben wurden.
 
    ![](assets/perso-uc7.png)
 
@@ -68,9 +67,9 @@ Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
    >
    >Die Meldung wird mit einem Warnsymbol angezeigt. Dies liegt daran, dass die Nachricht noch nicht veröffentlicht wurde.
 
-## Schritt 3: Hinzufügen Personalisierung für Kontextdaten
+## Schritt 3 – Personalisierung für Kontextdaten hinzufügen 
 
-1. Klicken Sie in der Aktivität **Meldung** auf das Symbol **Nachricht öffnen**. Die Nachricht wird in einer neuen Registerkarte geöffnet.
+1. Klicken Sie in der Aktivität **Nachricht** auf das Symbol **Nachricht öffnen**. Die Nachricht wird in einer neuen Registerkarte geöffnet.
 
    ![](assets/perso-uc8.png)
 
@@ -80,28 +79,28 @@ Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
 
 1. Wählen Sie die Kategorie **Kontext**. Dieses Element ist nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
-   * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen, die vor der  **** Nachrichten-Aktivität in der Journey platziert wurden.
-   * **Journey-Eigenschaften**: die technischen Felder für die Journey für ein bestimmtes Profil, z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Weitere Informationen finden Sie in der [Journey Orchestration-Dokumentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
+   * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen, die vor der Aktivität **Nachrichten** in der Journey platziert wurden, neu.
+   * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=de#building-advanced-conditions-journeys).
 
    ![](assets/perso-uc10.png)
 
-1. Erweitern Sie das Element **Ereignis** und suchen Sie das Feld für die Bestellnummer, das sich auf Ihr Ereignis bezieht. Sie können auch das Suchfeld verwenden. Klicken Sie auf das Symbol **+**, um das Personalisierungsfeld in den Betreff-Text einzufügen. Klicken Sie auf **Speichern**.
+1. Erweitern Sie das Element **Ereignis** und suchen Sie das Feld für die Bestellnummer, das sich auf Ihr Ereignis bezieht. Sie können auch das Suchfeld verwenden. Klicken Sie auf das Symbol **+**, um das Personalisierungsfeld in den Betrefftext einzufügen. Klicken Sie auf **Speichern**.
 
    ![](assets/perso-uc11.png)
 
-1. Klicken Sie nun auf das Feld **Body**.
+1. Klicken Sie nun auf das Feld **Textkörper**.
 
    ![](assets/perso-uc12.png)
 
-1. Geben Sie die Meldung ein und fügen Sie in der Kategorie **Kontext** den Bestellartikelnamen und den Bestellstatus ein.
+1. Geben Sie die Nachricht ein und fügen Sie in der Kategorie **Kontext** den Bestellartikelnamen und den Bestellstatus ein.
 
    ![](assets/perso-uc13.png)
 
-1. Wählen Sie aus der Dropdownliste **Angebot Decision** aus, um eine offer decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie auf das Symbol **+** neben der Entscheidung (vorher als &quot;Angebot-Aktivität&quot;bezeichnet), um sie dem Textkörper hinzuzufügen.
+1. Wählen Sie aus der Dropdown-Liste **Angebotsentscheidung** aus, um eine Offer Decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie auf das Symbol **+** neben der Entscheidung (früher als „Angebotsaktivität“ bezeichnet), um sie dem Textkörper hinzuzufügen.
 
    ![](assets/perso-uc14.png)
 
-1. Klicken Sie auf Bestätigen, um sicherzustellen, dass keine Fehler auftreten, und klicken Sie auf **Speichern**.
+1. Klicken Sie auf „Validieren“, um sicherzustellen, dass keine Fehler auftreten, und klicken Sie auf **Speichern**.
 
    ![](assets/perso-uc15.png)
 
@@ -109,13 +108,13 @@ Für diesen Anwendungsfall sind die folgenden Voraussetzungen erforderlich:
 
    ![](assets/perso-uc16.png)
 
-## Schritt 4: Journey testen und veröffentlichen
+## Schritt 4 – Journey testen und veröffentlichen 
 
-1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf die Schaltfläche **Test** und dann auf **Trigger eines Ereignisses**.
+1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf den Button **Test** und dann auf **Ereignis auslösen**.
 
    ![](assets/perso-uc17.png)
 
-1. Geben Sie die verschiedenen Werte ein, die der Test bestehen soll. Der Testmodus funktioniert nur mit Test-Profilen. Die Profil-ID muss mit einem Test-Profil übereinstimmen. Klicken Sie auf **Senden**.
+1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Test-Profilen. Die Profilkennung muss mit einem Test-Profil übereinstimmen. Klicken Sie auf **Senden**.
 
    ![](assets/perso-uc18.png)
 
