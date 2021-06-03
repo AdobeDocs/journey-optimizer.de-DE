@@ -1,29 +1,28 @@
 ---
-title: Anwendungsfälle bei Journey
-description: Anwendungsfälle bei Journey
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Anwendungsfälle für Journeys
+description: Anwendungsfälle für Journeys
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 7%
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
-# Anwendungsfall Journey
+# Journey-Anwendungsfall
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der ein Read-Segment, ein Ereignis, Ereignis zur Reaktion und E-Mail-/Push-Nachrichten kombiniert.
+In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der „Segment lesen“, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
 
 ![](../assets/jo-uc1.png)
 
 ## Beschreibung des Anwendungsfalls
 
-In diesem Fall möchten wir eine erste Nachricht (E-Mail und Push) an alle Kunden senden, die zu einem bestimmten Segment gehören.
+Bei diesem Anwendungsfall möchten wir eine erste Nachricht (E-Mail und Push) an alle Kunden senden, die zu einem bestimmten Segment gehören.
 
-Aufgrund ihrer Reaktion auf die erste Nachricht möchten wir bestimmte Nachrichten senden.
+Abhängig von ihrer jeweiligen Reaktion auf die erste Nachricht möchten wir spezifische Nachrichten senden.
 
-Nach der ersten Nachricht warten wir einen Tag, bis Kunden die Push- oder E-Mail-Nachricht öffnen. Wenn keine Reaktion erfolgt, senden wir ihnen eine Follow-up-E-Mail.
+Nach der ersten Nachricht warten wir einen Tag lang, bis Kunden die Push- oder E-Mail-Nachricht öffnen. Wenn keine Reaktion erfolgt, senden wir eine Follow-up-E-Mail.
 
 Dann warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu danken.
 
@@ -31,43 +30,43 @@ Dann warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu 
 
 Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
 
-* ein Segment für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
-* ein Ereignis
-* drei Nachrichten
+* Ein Segment für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
+* Ein Ereignis
+* Drei Nachrichten
 
-### Segment erstellen
+### Erstellen des Segments
 
-In unserer Journey möchten wir ein bestimmtes Kundensegment nutzen. Alle dem Segment angehörenden Personen treten in die Journey ein und befolgen die verschiedenen Schritte. In unserem Beispiel brauchen wir ein Segment, das alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden, Zielgruppe.
+In unserer Journey möchten wir ein bestimmtes Kundensegment verwenden. Alle diesem Segment angehörenden Einzelpersonen treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel benötigen wir ein Segment, das alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden enthält.
 
-Weitere Informationen zu Segmenten finden Sie auf dieser [Seite](../segment/about-segments.md).
+Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segment/about-segments.md).
 
-1. Klicken Sie im Menü **[!UICONTROL Segmente]** auf **[!UICONTROL Segment]** erstellen.
+1. Klicken Sie im Menü **[!UICONTROL Segmente]** auf **[!UICONTROL Segment erstellen]**.
 
 1. Geben Sie im Bereich **[!UICONTROL Segmenteigenschaften]** einen Namen für das Segment ein.
 
-1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie sie dann entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir die Attributfelder **City** und **Geburtsjahr**.
+1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie die Felder dann entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir die Attributfelder **Stadt** und **Geburtsjahr**.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](../assets/add-attributes.png)
 
-Das Segment wird jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Read segment** können Sie alle Segmentpersonen in die Journey einbinden.
+Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey einbinden.
 
-### Ereignis konfigurieren
+### Konfigurieren des Ereignisses
 
-Sie müssen ein Ereignis konfigurieren, das an Ihre Journey gesendet wird, wenn ein Kunde einen Kauf tätigt. Wenn die Journey das Ereignis erhält, wird die Meldung &quot;Vielen Dank&quot; Trigger.
+Sie müssen ein Ereignis konfigurieren, das an Ihre Journey gesendet wird, wenn ein Kunde einen Kauf tätigt. Wenn die Journey das Ereignis erhält, wird die Nachricht „Vielen Dank“ verschickt.
 
-Dafür verwenden wir ein regelbasiertes Ereignis. Weitere Informationen zu Ereignissen finden Sie auf dieser [Seite](../event/about-events.md).
+Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Informationen zu Ereignissen finden Sie auf dieser [Seite](../event/about-events.md).
 
-1. Klicken Sie im linken Menü auf das Symbol **[!UICONTROL Admin]** und dann auf **[!UICONTROL Ereignis]**. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen.
+1. Navigieren Sie im Abschnitt ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen.
 
 1. Geben Sie den Namen Ihres Ereignisses ein.
 
-1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** **[!UICONTROL Regel-basiert]**.
+1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** die Option **[!UICONTROL Regelbasiert]** aus.
 
-1. Definieren Sie die **[!UICONTROL Schema]**- und **[!UICONTROL Payload]**-Felder. Sie können mehrere Felder verwenden, z. B. das erworbene Produkt, das Kaufdatum und die Kaufkennung.
+1. Definieren Sie die **[!UICONTROL Schema]**- und **[!UICONTROL Payload]**-Felder. Sie können mehrere Felder verwenden, beispielsweise das erworbene Produkt, das Kaufdatum und die Kauf-ID.
 
-1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignis zu identifizieren, die Ihren Journey Trigger haben. Sie können beispielsweise ein `purchaseMessage`-Feld hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
+1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die einen Trigger an Ihre Journey übermitteln. Sie können beispielsweise ein `purchaseMessage`-Feld hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
 
 1. Geben Sie den **[!UICONTROL Namespace]** und den **[!UICONTROL Schlüssel]** an.
 
@@ -75,47 +74,47 @@ Dafür verwenden wir ein regelbasiertes Ereignis. Weitere Informationen zu Ereig
 
    ![](../assets/jo-uc2.png)
 
-Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. Mit der entsprechenden Ereignis-Aktivität können Sie eine Aktion jedes Mal, wenn ein Kunde einen Einkauf tätigt, Trigger ausführen.
+Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. Mit der entsprechenden Ereignisaktivität können Sie eine Aktion jedes Mal auslösen, wenn ein Kunde einen Einkauf tätigt.
 
-### Nachrichten erstellen
+### Erstellen der Nachrichten
 
-Für diesen Verwendungsfall müssen wir drei Nachrichten erstellen:
+Für diesen Anwendungsfall müssen wir drei Nachrichten erstellen:
 
-* eine erste Push- und E-Mail-Nachricht
-* eine Push-Nachricht &quot;Vielen Dank&quot;
-* eine E-Mail-Follow-up-Nachricht
+* Eine erste Push- und E-Mail-Nachricht
+* Eine Push-Nachricht „Vielen Dank“
+* Eine E-Mail-Folgenachricht
 
 ![](../assets/jo-uc3.png)
 
-In diesem Abschnitt [erfahren Sie, wie Sie diese Meldungen entwerfen und veröffentlichen.](../segment/about-segments.md)
+In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese Nachrichten entwerfen und veröffentlichen.
 
 ## Entwerfen der Journey
 
-1. Beginn der Journey mit einer Aktivität **Read segment**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Personen treten in die Journey ein.
+1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Segment lesen**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
 
    ![](../assets/jo-uc4.png)
 
-1. Legen Sie eine **Message**-Aktivität ab und wählen Sie die erste Push- und E-Mail-Nachricht aus. Diese Nachricht wird an alle Personen in der Journey gesendet.
+1. Fügen Sie per Drag-and-Drop eine Aktivität vom Typ **Nachricht** ein und wählen Sie die erste Push- und E-Mail-Nachricht aus. Diese Nachricht wird an alle Personen in der Journey gesendet.
 
    ![](../assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf der Aktivität und klicken Sie auf das Pluszeichen &quot;+&quot;, um einen neuen Pfad zu erstellen.
+1. Platzieren Sie den Cursor auf der Nachricht-Aktivität und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
 
-1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Geöffnetes Push**. Das Ereignis wird ausgelöst, wenn eine zum Segment gehörende Person die Push-Version der ersten Nachricht öffnet.
+1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald eine zum Segment gehörende Person die Push-Version der ersten Nachricht öffnet.
 
-1. Fügen Sie im zweiten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, wenn die Person die E-Mail öffnet.
+1. Fügen Sie im zweiten Pfad ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald die Person die E-Mail öffnet.
 
-1. Markieren Sie in einer der Aktivitäten die Option **Definieren des Ereignis-Timeouts**, definieren Sie eine Dauer (1 Tag in unserem Beispiel) und aktivieren Sie **Legen Sie einen Timeout-Pfad** fest. Dadurch wird ein anderer Pfad für Personen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
+1. Markieren Sie in einer der Reaktionsaktivitäten die Option **Maximale Wartezeit für das Ereignis definieren**, definieren Sie die Dauer (1 Tag in unserem Beispiel) und aktivieren Sie **Zeitüberschreitungspfad einrichten**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
    >[!NOTE]
    >
-   >Beim Konfigurieren eines Timeouts für mehrere Ereignis (in diesem Fall die beiden Reaktionen) müssen Sie nur den Timeout für eines dieser Ereignis konfigurieren.
+   >Beim Konfigurieren der maximalen Wartezeit für mehrere Ereignisse (in diesem Fall die beiden Reaktionen) müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
 
-1. Legen Sie im Timeout-Pfad eine **Message**-Aktivität ab und wählen Sie die E-Mail-Folgemeldung aus. Diese Nachricht wird an Personen gesendet, die am nächsten Tag keine E-Mail oder erste Push-Nachricht öffnen.
+1. Fügen Sie im Pfad für Personen, bei denen die maximale Wartezeit ohne Kauf verstreicht, eine Aktivität vom Typ **Nachricht** ein und wählen Sie die E-Mail-Folgenachricht aus. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Nachricht öffnen.
 
-1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Ereignis. Das Ereignis wird ausgelöst, wenn eine Person einen Kauf tätigt.
+1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn eine Person einen Kauf tätigt.
 
-1. Legen Sie nach dem Ereignis eine **Nachricht**-Aktivität ab und wählen Sie die E-Mail-Nachricht &quot;Vielen Dank&quot;.
+1. Fügen Sie nach dem Ereignis eine Aktivität vom Typ **Nachricht** per Drag-and-Drop ein und wählen Sie die E-Mail-Nachricht „Vielen Dank“.
 
 1. Fügen Sie eine Aktivität vom Typ **Ende** hinzu.
 
@@ -123,6 +122,6 @@ In diesem Abschnitt [erfahren Sie, wie Sie diese Meldungen entwerfen und veröff
 
 1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen.
 
-1. Klicken Sie auf den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. Legen Sie fest, wie die Profil in den Test eintreten sollen: ein einzelnes Profil oder bis zu 100 gleichzeitig. Lesen Sie den Abschnitt [in dem Sie erfahren, wie Sie den Testmodus verwenden.](testing-the-journey.md)
+1. Klicken Sie auf den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. Legen Sie fest, wie die Testprofile in den Testlauf eintreten sollen: als einzelnes Profil oder bis zu 100 gleichzeitig. In diesem [Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie den Testmodus verwenden.
 
-1. Wenn die Journey fertig ist, veröffentlichen Sie sie mit der Schaltfläche **Veröffentlichen**, die sich oben rechts befindet.
+1. Wenn die Journey fertig ist, veröffentlichen Sie diese mit dem Button **Veröffentlichen** rechts oben.
