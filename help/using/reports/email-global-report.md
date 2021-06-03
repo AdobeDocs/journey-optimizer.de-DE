@@ -1,90 +1,89 @@
 ---
-title: Globalen Bericht per E-Mail
+title: Globaler E-Mail-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem globalen E-Mail-Bericht verwenden.
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 8%
+source-wordcount: '518'
+ht-degree: 97%
 
 ---
 
-# Globalen Bericht per E-Mail {#email-global-report}
+# Globaler E-Mail-Bericht {#email-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
-Die E-Mail **[!UICONTROL Globaler Bericht]** Zielgruppe nur einen bestimmten E-Mail-Versand.
+Der **[!UICONTROL Globale E-Mail-Bericht]** berücksichtigt immer nur eine Form des E-Mail-Versands.
 
-Wählen Sie auf der Registerkarte **[!UICONTROL Ausführen]** des Menüs **[!UICONTROL Nachrichten]** die Option **[!UICONTROL Globale Ansicht]** und wählen Sie dann im erweiterten Menü des ausgewählten Versands **[!UICONTROL Globaler Bericht]**.
+Wählen Sie auf der Registerkarte **[!UICONTROL Ausführungen]** des Menüs **[!UICONTROL Nachrichten]** die Option **[!UICONTROL Globale Ansicht]** und wählen Sie dann im erweiterten Menü des ausgewählten Versandes **[!UICONTROL Globaler Bericht]**.
 
 ![](../assets/global_report_3.png)
 
-Die E-Mail **[!UICONTROL Globaler Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weitere Informationen hierzu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
+Der **[!UICONTROL Globale E-Mail-Bericht]** ist in verschiedene Widgets unterteilt, die Erfolg und Fehler beim Versand detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
 ![](../assets/global_report_4.png)
 
-**[!UICONTROL Bei der E-Mail-]** Leistung werden die wichtigsten Informationen zu Ihrer Nachricht mit KPIs im Detail beschrieben:
+**[!UICONTROL E-Mail-Effektivität]** detailliert die wichtigsten Informationen zu Ihrer Nachricht mit KPIs:
 
-* **[!UICONTROL Gesendet]**: Gesamtanzahl der Sends für den Versand.
+* **[!UICONTROL Versand]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Versand-Rate]**: Prozentsatz der erfolgreich gesendeten Nachrichten.
+* **[!UICONTROL Zustellungsrate]**: Prozentsatz der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Absprungrate]**: Prozentsatz der E-Mails, die im Vergleich zu gesendeten E-Mails abgeschnitten wurden.
+* **[!UICONTROL Bounce-Rate]**: Prozentsatz der E-Mails, die nicht erfolgreich zugestellt wurden, im Vergleich zur Zahl der gesendeten E-Mails.
 
-* **[!UICONTROL Fehlerquote]**: Prozentsatz der Fehler, die während eines Versands auftraten, der das Senden des Fehlers verhinderte, im Vergleich zu gesendeten E-Mails.
+* **[!UICONTROL Fehlerrate]**: Prozentsatz der Fehler, die während des Versandes auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.
 
-* **[!UICONTROL Offene Rate]**: Prozentsatz der geöffneten Nachrichten.
+* **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks in einem Versand.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks für eine Zustellung.
 
-* **[!UICONTROL Spam-Beschwerderate]**: Prozentsatz der E-Mails, die von Empfängern im Vergleich zu den bereitgestellten Nachrichten als Spam gekennzeichnet wurden. Weitere Informationen zu Beschwerden finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam-Beschwerderate]**: Prozentsatz der E-Mails, die von Empfängern im Vergleich zu den zugestellten Nachrichten als Spam gekennzeichnet wurden. Weiterführende Informationen zu Beschwerden finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability?lang=de).
 
-* **[!UICONTROL Abmelderate]**: Anzahl der eindeutigen Abmeldungen im Vergleich zu den bereitgestellten Nachrichten.
+* **[!UICONTROL Abmeldungsrate]**: Zahl der eindeutigen Abmeldungen im Vergleich zur Zahl der zugestellten Nachrichten.
 
-Das Diagramm **[!UICONTROL Entsendende Statistiken]** zeigt den Erfolg Ihres Versands an:
+Das Diagramm **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihrer Zustellung dar:
 
-* **[!UICONTROL Ausgeliefert]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Absprünge]**: Gesamtzahl der während des Versands und der automatischen Rückgabeverarbeitung gesammelten Fehler im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der über den Versand und der automatischen Bounce-Verarbeitung hinweg kumulierten Fehler im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während eines Versands aufgetreten sind und die Versendung an Profil verhinderten.
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während eines Versands aufgetreten sind und das Versenden an Profile verhinderten.
 
-Die Widgets **[!UICONTROL Absprunggründe]** und **[!UICONTROL Absprunggrundsätze]** enthalten die verfügbaren Daten zu absprungenen Kategorien wie:
+Die Widgets **[!UICONTROL Gründe für Bounces]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten, wie:
 
-* **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dies umfasst eine Fehlermeldung, die explizit angibt, dass die Adresse ungültig ist, z. B. Unbekannte Nutzer.
+* **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dabei handelt es sich um eine Fehlermeldung, die explizit angibt, dass die Adresse ungültig ist, z. B. Unbekannter Benutzer.
 
 * **[!UICONTROL Softbounce]**: die Gesamtzahl der temporären Fehler, wie eine volle Inbox.
 
-* **[!UICONTROL Ignoriert]**: Die Gesamtanzahl der temporären Ereignisse, z. B. Abwesenheitszeiten, oder ein technischer Fehler, z. B. wenn der Absendertyp Postmaster ist.
+* **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder ein technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-Weitere Informationen zu Absprüngen finden Sie auf der Seite [Unterdrückungs-Listen verwalten](../suppression-lists.md).
+Weiterführende Informationen zu Bounces finden Sie auf der Seite [Unterdrückungsliste](../suppression-list.md) .
 
 ![](../assets/global_report_5.png)
 
-In der Grafik und Tabelle **[!UICONTROL Fehlergründe]** können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versandes aufgetreten ist.
 
-Das Diagramm **[!UICONTROL E-Mail - Beste Empfänger-Domäne]** und die Tabellendetails, welche Domänen von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
+Das Diagramm **[!UICONTROL E-Mail – beste Empfängerdomäne]** und die Tabelle zeigen, welche Domänen von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
 ![](../assets/global_report_6.png)
 
-Die **[!UICONTROL Email - Tracking statistics]**-Tabelle enthält die verfügbaren Daten für die Aktivität des Empfängers für Ihren Versand:
+Die Tabelle **[!UICONTROL Email – Tracking-Statistik]** enthält die verfügbaren Daten zu den Aktivitäten von Empfängern für Ihre Zustellung:
 
-* **[!UICONTROL Öffnet]**: Gibt an, wie oft der Versand in einem Versand geöffnet wurde.
-
-* **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
-
-* **[!UICONTROL Offene Rate]**: Prozentsatz der geöffneten Nachrichten.
-
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einer E-Mail.
-
-* **[!UICONTROL Eindeutige Klicks]**: Anzahl der Empfänger, die in einer E-Mail auf einen Inhalt geklickt haben.
-
-* **[!UICONTROL Durchklickrate]**: Prozentsatz der Klicks in einem Versand.
-
-Das **[!UICONTROL Öffnen vs. Klicken]** identifiziert die Interaktion der Empfänger mit dem Versand:
-
-* **[!UICONTROL Eindeutige Klicks]**: Anzahl der Empfänger, die in einer E-Mail auf einen Inhalt geklickt haben.
+* **[!UICONTROL Öffnungen]**: Gibt an, wie oft die Sendung einer Zustellung geöffnet wurde.
 
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
 
-Das Diagramm **[!UICONTROL E-Mail - Top-URL]** und die Tabellendetails, welche URLs von Ihrem Versand am häufigsten besucht werden.
+* **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
+
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Content einer E-Mail.
+
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die einen Content in einer E-Mail angeklickt haben.
+
+* **[!UICONTROL Clickthrough-Rate]**: Prozentsatz der Klicks für eine Zustellung.
+
+**[!UICONTROL Öffnen vs. Klicken]** zeigt die Interaktion der Empfänger mit der Zustellung:
+
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die einen Content in einer E-Mail angeklickt haben.
+
+* **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
+
+Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihrer Zustellung am häufigsten besucht werden.
