@@ -1,11 +1,10 @@
 ---
-title: Journey Fehlerbehebung
-description: Erfahren Sie, wie Sie Fehler in Journey beheben können
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Fehlerbehebung bei Journeys
+description: Erfahren Sie, wie Sie Probleme bei Journey beheben können
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 89%
+source-wordcount: '1055'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +36,7 @@ Auf dem Zeichen neben dem Umschalter **[!UICONTROL Testen]** und der Schaltfläc
 
 Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zuerst aufgeführt. Fehler und Warnungen, die einzelne Aktivitäten betreffen, werden danach aufgeführt (anhand der Aktivitätsreihenfolge oder des Auftretens in der Journey von links nach rechts). Mit der Schaltfläche **[!UICONTROL Details kopieren]** lassen sich technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen.
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Siehe [diesen Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
 
@@ -45,7 +44,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden nicht direkt von der Quelle an die Journey weitergeleitet. Tatsächlich sind Journey auf die Streaming-APIs von Adobe Experience Platform angewiesen. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
@@ -80,7 +79,7 @@ Prüfen Sie folgende Punkte:
 
 Wenn Kontakte dem richtigen Weg entlang der Journey folgen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes prüfen:
 
-* Journey Optimizer hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Geschäftsbenutzer kann auf die Nachricht zugreifen, die gesendet werden soll, und prüfen, ob der Zeitpunkt der letzten Ausführung der Ausführungszeit Ihres Journey entspricht. Er kann auch die neuesten API-Aufrufe/Ereignis überprüfen.
-* Journey Optimizer hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status jeder Ausführung sehen. Sie können sehen, ob der Status grün oder rot ist und worin das Problem bestand. Ein Business-Anwender kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Analyse an einen Administrator senden.
+* [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der aktuellen Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten API-Aufrufe/Ereignisse prüfen.
+* [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status der jeweiligen Ausführung anzeigen. Sie können sehen, ob der Status grün oder rot ist und worin das Problem bestand. Ein Business-Anwender kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Analyse an einen Administrator senden.
 
 Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey­-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht. Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.
