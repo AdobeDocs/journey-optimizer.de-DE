@@ -1,12 +1,11 @@
 ---
 solution: Journey Orchestration
 title: Allgemeine Ereignisse
-description: Allgemeine Ereignisse
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: Erfahren Sie, wie Sie allgemeine Ereignisse verwenden
+source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 86%
+ht-degree: 76%
 
 ---
 
@@ -18,7 +17,7 @@ Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzuf
 
 ![](../assets/general-events.png)
 
-Wenn Sie ein geschäftliches Ereignis ablegen, wird automatisch eine Aktivität **Read segment** hinzugefügt. Weitere Informationen zu geschäftlichen Ereignissen finden Sie in [diesem Abschnitt](../event/about-events.md)
+Wenn Sie ein Geschäftsereignis ablegen, wird automatisch eine Aktivität **Segment lesen** hinzugefügt. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
 ## Überwachen von Ereignissen während eines bestimmten Zeitraums {#events-specific-time}
 
@@ -38,11 +37,11 @@ Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigu
 
 In diesem Beispiel sendet die Journey einen ersten Willkommens-Push an einen Kunden. Es wird nur dann ein Essensrabatt-Push gesendet, wenn der Kunde das Restaurant innerhalb des nächsten Tages betritt. Deshalb wurde das Restaurantereignis mit einer maximalen Wartezeit von 1 Tag konfiguriert:
 
-* Wenn das Restaurant-Ereignis weniger als 1 Tag nach dem Begrüßungs-Push erhalten wird, wird die Push-Nachricht mit dem Mahl-Rabatt gesendet.
+* Wenn das Restaurantereignis weniger als 1 Tag nach der Begrüßungs-Push-Benachrichtigung empfangen wird, wird die Push-Aktivität für den Rabatt gesendet.
 * Wenn innerhalb des nächsten Tags kein Restaurantereignis eingeht, wird die Person durch den Zeitüberschreitungspfad geleitet.
 
-Wenn Sie eine maximale Wartezeit für mehrere Ereignisse konfigurieren möchten, die sich nach einer **[!UICONTROL Warteaktivität]** befinden, müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
+Wenn Sie eine Zeitüberschreitung für mehrere Ereignisse konfigurieren möchten, die nach einer **[!UICONTROL Wait]** -Aktivität positioniert sind, müssen Sie die Zeitüberschreitung nur für eines dieser Ereignisse konfigurieren.
 
-Die maximale Wartezeit gilt für alle Ereignisse, die nach der **[!UICONTROL Warteaktivität]** positioniert wurden. Wenn nach der spezifizierten maximalen Wartezeit kein Ereignis empfangen wird, werden die Kontakte in einen einzigen Zeitüberschreitungspfad geleitet oder ihre Journey wird beendet.
+Die Zeitüberschreitung gilt für alle Ereignisse, die nach der Aktivität **[!UICONTROL Warten]** positioniert werden. Wenn vor der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, fließen die Kontakte in einen einzigen Zeitüberschreitungspfad oder beenden ihre Journey.
 
 ![](../assets/event-timeout-group.png)
