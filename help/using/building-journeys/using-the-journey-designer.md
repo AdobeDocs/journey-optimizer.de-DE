@@ -1,21 +1,20 @@
 ---
-title: Gestalten Ihrer Journey
-description: Entwerfen Ihrer Journey
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+title: Entwerfen Ihrer Journey
+description: Erfahren Sie, wie Sie Ihre Journey entwerfen
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 72%
+source-wordcount: '1435'
+ht-degree: 98%
 
 ---
 
-# Gestalten Ihrer Journey
+# Entwerfen Ihrer Journey
 
 ![](../assets/do-not-localize/badge.png)
 
 Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
-## Erste Schritte mit Journey
+## Erste Schritte mit dem Entwerfen von Journeys
 
 Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: **[!UICONTROL Ereignisse]**, **[!UICONTROL Orchestrierung]** und **[!UICONTROL Aktionen]**. Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
 
@@ -41,41 +40,41 @@ Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, 
 
 ![](../assets/journey59bis.png)
 
-Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist.
+Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Der Button für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![](../assets/journey41.png)
 
 ## Starten der Journey
 
-Wenn Sie Ihre Journey entwerfen, stellen Sie sich als erste Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
+Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
 
-**Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse hört, treten Einzelpersonen in Echtzeit in die Journey ein,  **** ohne dass dies der Fall ist. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey fließt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
+**Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-**Beginn mit einem Read-Segment**: Sie können Ihre Journey so einstellen, dass Adobe Experience Platform-Segmente überwacht werden. In diesem Fall geben alle dem angegebenen Segment angehörenden Personen die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Weitere Informationen zum Lesen von Segmenten](read-segment.md).
+**Beginn mit einem Schritt „Segment lesen“**: Sie können Ihre Journey so einstellen, dass sie auf Adobe Experience Platform-Segmente wartet. In diesem Fall treten alle dem angegebenen Segment angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Erfahren Sie mehr über das Lesen von Segmenten](read-segment.md).
 
 ## Nächste Schritte definieren
 
-Nach dem ersten Ereignis oder dem Lesen-Segment können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Szenarien mit mehreren Kanälen zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
+Nach dem ersten Ereignis oder dem Schritt „Segment lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
 **Ereignisse**
 
-Wenn Sie Ihre Journey mit einem Ereignis Beginn haben, wird die Journey ausgelöst, sobald das Ereignis empfangen wird. Die Person folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis empfangen wird. Die Person folgt dann individuell den nächsten Schritten, die in Ihrer Journey definiert sind.
 
-Sie können **mehrere Ereignis** in Ihrer Journey hinzufügen, sofern sie denselben Namensraum verwenden. Ereignis werden zuvor konfiguriert. [Weitere Informationen zu Ereignissen](about-journey-activities.md#event-activities)
+Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie denselben Namespace verwenden. Die Ereignisse werden zuvor konfiguriert. [Weitere Informationen zu Ereignissen](about-journey-activities.md#event-activities)
 
-Sie können nach einer Meldung auch ein **Reaction**-Ereignis hinzufügen, um auf Verfolgungsdaten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn die Person die vorherige Nachricht geöffnet oder in sie geklickt hat. Weitere Informationen finden Sie in diesem [Abschnitt](reaction-events.md).
+Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Traching-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn die Person die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. Weitere Informationen finden Sie in diesem [Abschnitt](reaction-events.md).
 
-Mit der Aktivität **Segmentqualifizierung** können Sie Einzelpersonen anhand von Adobe Experience Platform-Segmenteingängen und -Ausstiegen dazu bewegen, in eine Journey einzusteigen oder sich vorwärts zu bewegen. Sie können alle neuen Silber-Kunden dazu bringen, eine Journey einzugeben und personalisierte Nachrichten zu senden. Weitere Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
+Verwenden Sie die Ereignisaktivität **Segmentqualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder in einer Journey fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weitere Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
 
 **Orchestrierung**
 
-In den Aktivitäten zur Orchestrierung finden Sie die Aktivität **Read segment**, mit der Sie Ihre Journey so einstellen können, dass sie ein Adobe Experience Platform-Segment abhören. [Erfahren Sie mehr über die Aktivität](read-segment.md) zum Lesen von Segmenten.
+In den Orchestrierungsaktivitäten finden Sie die Aktivität **Segment lesen**, mit der Sie Ihre Journey so einstellen können, dass sie auf ein Adobe Experience Platform-Segment wartet. [Erfahren Sie mehr über die Aktivität „Segment lesen“](read-segment.md).
 
 Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. Weitere Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#orchestration-activities).
 
 **Aktionen**
 
-Hier finden Sie die Aktivität **Message**, mit der Sie eine in Journey Optimizer entworfene Nachricht einschließen können. [Weitere Informationen zur Message-Aktivität](journeys-message.md)
+Hier finden Sie die Aktivität **Message** , mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einfügen können. [Weitere Informationen zur Aktivität „Nachricht“](journeys-message.md)
 
 Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weitere Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
 
@@ -87,7 +86,7 @@ Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsakt
 
 Verschiedene Aktivitäten (Ereignis, Aktion, Warten) ermöglichen es Ihnen, nach der Aktivität mehrere Pfade hinzuzufügen. Setzen Sie dazu den Cursor auf die Aktivität und klicken Sie auf das „+“-Symbol. Nur Ereignis- und Warteaktivitäten können parallel festgelegt werden. Wenn mehrere Ereignisse parallel festgelegt werden, wird der Pfad des Ereignisses ausgewählt, das zuerst stattfindet.
 
-Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Siehe [diesen Abschnitt](../building-journeys/general-events.md#events-specific-time).
+Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/general-events.md#events-specific-time).
 
 Um den Pfad zu löschen, platzieren Sie den Cursor darauf und klicken Sie auf das Symbol **[!UICONTROL Pfad löschen]**.
 
