@@ -1,83 +1,82 @@
 ---
-title: Nachricht erstellen
+title: Erstellen einer Nachricht
 description: Erfahren Sie, wie Sie eine Nachricht erstellen
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 2%
+source-wordcount: '487'
+ht-degree: 96%
 
 ---
 
-# Nachricht {#create-message} erstellen
+# Erstellen einer Nachricht {#create-message}
 
 ![](assets/do-not-localize/badge.png)
 
-Meldungen sind über den Tastaturbefehl **[!UICONTROL Nachrichten]** auf der linken Leiste verfügbar. Alle Nachrichten werden aufgelistet, sortiert nach Veröffentlichungsdatum (für veröffentlichte Nachrichten) oder Erstellungsdatum (für Nachrichtenentwürfe).
+Nachrichten sind über den Tastaturbefehl **[!UICONTROL Nachrichten]** im linken Navigationsbereich verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
 
 >[!NOTE]
 >
->Jeder Benutzer kann auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und veröffentlichen. Weitere Informationen zu Benutzerberechtigungen [in diesem Abschnitt ](permissions.md).
+>Jeder Benutzer kann auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
-Verwenden Sie den Umschalter **[!UICONTROL Neuigkeiten anzeigen]**, um den Nachrichten, auf die Sie in den letzten 5 Tagen zugegriffen haben, direkte Links hinzuzufügen.
+Verwenden Sie den Umschalter **[!UICONTROL Aktuelle Nachrichten anzeigen]**, um den Nachrichten, die Sie in den letzten 5 Tagen geöffnet haben, direkte Links hinzuzufügen.
 
 ![](assets/show-recent-messages.png)
 
-Verwenden Sie das Filtersymbol, um nur entworfene, veröffentlichte oder veröffentlichte Nachrichten anzuzeigen. Sie können auch auf der Meldungsbeschriftung suchen:
+Klicken Sie auf das Filtersymbol, um nur Entwürfe, bereits veröffentlichte Nachrichten oder in Veröffentlichung befindliche Nachrichten anzuzeigen. Außerdem können Sie nach Nachrichtenbezeichnungen suchen:
 
 ![](assets/filter-messages.png)
 
-## Neue Nachricht erstellen
+## Erstellen einer neuen Nachricht
 
 Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
-1. Rufen Sie die Liste der Nachricht auf und klicken Sie dann auf **[!UICONTROL Nachricht erstellen]**.
+1. Rufen Sie die Nachrichtenliste auf und klicken Sie anschließend auf **[!UICONTROL Nachricht erstellen]**.
 
 1. Definieren Sie die Nachrichteneigenschaften.
 
    ![](assets/create-message-properties.png)
 
-   * Geben Sie einen **[!UICONTROL Titel]** (obligatorisch) und einen **[!UICONTROL Beschreibung]** ein.
+   * Geben Sie einen **[!UICONTROL Titel]** (obligatorisch) und eine **[!UICONTROL Beschreibung]** ein.
 
-   * Wählen Sie **[!UICONTROL Vorgabe]** aus, die für die Nachricht verwendet werden soll.
+   * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
-      Vorgaben enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung entsprechend Ihrer Marke gesendet werden kann. [Erfahren Sie mehr über das Branding](administration.md#cjm-branding).
+      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. [Weitere Informationen zu Vorgaben](../using/configuration/message-presets.md).
 
-   * Wählen Sie die Kanal aus, die Sie für diese Meldung verwenden möchten: E-Mail- und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
-   Beachten Sie, dass Sie jederzeit über die Schaltfläche **[!UICONTROL Eigenschaften]** auf den Titel, die Beschreibung und die Vorgabe der Nachricht zugreifen und diese ändern können.
+   * Wählen Sie den oder die Kanäle aus, die Sie für diese Nachricht nutzen möchten: E-Mail und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
+   Beachten Sie, dass Sie über den Button **[!UICONTROL Eigenschaften]** jederzeit auf Titel, Beschreibung und Voreinstellung der Nachricht zugreifen und diese ändern können.
 
    ![](assets/message-properties.png)
 
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Erstellung der Nachricht zu bestätigen. Ihre Nachricht wird in der Liste der Nachricht im Status **[!UICONTROL Entwurf]** hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Nachrichterstellung zu bestätigen. Ihre Nachricht wird mit dem Status **[!UICONTROL Entwurf]** der Nachrichtenliste hinzugefügt.
 
-   Für jeden ausgewählten Kanal steht eine Registerkarte zur Verfügung. Verwenden Sie diese Registerkarten, um den Inhalt für jeden Kanal zu konfigurieren. Sie können eine Registerkarte entfernen, indem Sie sie markieren und auf der rechten Seite auf die Schaltfläche **[!UICONTROL Kanal löschen]** klicken.
+   Für jeden ausgewählten Kanal steht eine Registerkarte zur Verfügung. Mit diesen Registerkarten können Sie den Content für jeden Kanal konfigurieren. Um eine Registerkarte zu entfernen, wählen sie diese aus und klicken auf der rechten Seite auf den Button **[!UICONTROL Kanal löschen]**.
 
    ![](assets/create-messages-content.png)
 
-   Sie können jetzt den Inhalt der Nachricht erstellen und Einstellungen anpassen. Ausführliche Informationen zur Konfiguration von E-Mail- und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
+   Nun können Sie den Content für die Nachricht erstellen und die Einstellungen anpassen. Detaillierte Informationen zur Konfiguration von E-Mails und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
 
-   * [E-Mails konfigurieren](configure-email.md)
-   * [Push-Benachrichtigungen konfigurieren](configure-push.md)
+   * [E-Mail erstellen](create-email.md)
+   * [Push-Benachrichtigungen erstellen](create-push.md)
 
    >[!NOTE]
    >   
-   >Sie können Ihre Nachrichten mit den Daten der Profile im Ausdruck-Editor personalisieren. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalize.md).
+   >Sie können Ihre Nachrichten im Ausdruck-Editor anhand der Profildaten personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalize.md).
 
 
-1. Kontrollieren Sie das Rendering Ihrer Nachrichten und überprüfen Sie die Personalisierungseinstellungen mit den Test-Profilen, indem Sie den Abschnitt &quot;Vorschau&quot;auf der linken Seite verwenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
+1. Im Abschnitt „Vorschau“ auf der linken Seite können Sie das Nachrichten-Rendering anpassen und die Personalisierungseinstellungen mithilfe der Testprofile überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
 
    ![](assets/messages-simple-preview.png)
 
-1. Überprüfen Sie Warnungen im oberen Bereich des Editors.  Einige davon sind einfache Warnungen, andere können Sie daran hindern, die Nachricht zu veröffentlichen. Weiterführende Informationen finden Sie in diesem [Abschnitt](alerts.md).
+1. Überprüfen Sie Warnhinweise im oberen Abschnitt des Editors.  Einige davon sind einfache Warnhinweise, andere können die Veröffentlichung der Nachricht verhindern. Weiterführende Informationen finden Sie in diesem [Abschnitt](alerts.md).
 
-1. Sie können Ihre Nachricht jetzt veröffentlichen, indem Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]** klicken oder sie als Entwurf beibehalten und später veröffentlichen. Weitere Informationen zum Veröffentlichen von Nachrichten finden Sie in [diesem Abschnitt](publish-manage-message.md).
+1. Sie können Ihre Nachricht jetzt veröffentlichen, indem Sie auf den Button **[!UICONTROL Veröffentlichen]** klicken, oder die Nachricht als Entwurf speichern und zu einem späteren Zeitpunkt veröffentlichen. Weiterführende Informationen zur Veröffentlichung von Nachrichten finden Sie in [diesem Abschnitt](publish-manage-message.md).
 
-## Duplikat einer Nachricht
+## Duplizieren einer Nachricht
 
-Um eine Nachricht aus einer vorhandenen Nachricht zu erstellen, verwenden Sie die Schaltfläche **[!UICONTROL Duplikat]** in der Nachrichtenschnittstelle. Alle Einstellungen und Konfigurationen werden in die neue Nachricht kopiert
+Um eine Nachricht aus einer bestehenden Nachricht zu erstellen, verwenden Sie den Button **[!UICONTROL Duplizieren]** im Nachrichtenbereich. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
 ![](assets/message-duplicate.png)
 
@@ -87,8 +86,8 @@ Sie können die Nachricht umbenennen, bevor Sie die Duplizierung bestätigen.
 
 Eine Bestätigungsmeldung wird am unteren Rand des Fensters angezeigt, sobald die neue Nachricht erstellt wurde.
 
-Sie können eine Nachricht auch über die Liste der Nachricht mit dem dedizierten Symbol Duplikat haben.
+Sie können eine Nachricht auch über die Nachrichtenliste durch das Anklicken des entsprechenden Symbols duplizieren.
 
 ![](assets/message-duplicate-from-list.png)
 
-Es gilt der gleiche Bestätigungsprozess.
+Darauf folgt der gleiche Bestätigungsprozess.
