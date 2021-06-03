@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 85%
+source-wordcount: '243'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 85%
 >title="Informationen zu Aktionen"
 >abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung. "
 
-Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bereitstellen können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Unternehmen verwenden. 
+Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Siehe [diesen Abschnitt](../get-started-content.md).
 
@@ -29,12 +28,12 @@ Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) 
 
 >[!CAUTION]
 >
->Die Konfiguration von benutzerdefinierten Aktionen muss von einem **technischen Benutzer** durchgeführt werden.
+>Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
 Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
 In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen  finden Sie in [diesem Abschnitt](../user-interface.md#cjm-accessibility).
 
-Um die Aktionsaktion Ansicht oder eine neue Liste zu konfigurieren, klicken Sie in den linken Menüs auf **[!UICONTROL Admin]** / **[!UICONTROL Aktionen]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
+Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, navigieren Sie im linken Navigationsbereich zu **[!UICONTROL Administration]** / **[!UICONTROL Konfiguration]** . Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
 
 ![](../assets/custom1.png)
