@@ -1,11 +1,10 @@
 ---
 title: Allgemeine Funktionsweise
 description: Allgemeine Funktionsweise
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 5%
+source-wordcount: '115'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +12,14 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/badge.png)
 
-Journey ermöglichen Ihnen das Erstellen von Echtzeit-Orchestrierungs-Anwendungsfällen mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert werden.
+[!DNL Journey Optimizer]Mit können Sie Anwendungsfälle für die Orchestrierung in Echtzeit erstellen und dabei kontextbezogene Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind.
 
-Entwickeln Sie mehrstufige Szenarien mit folgenden Funktionen:
+Entwickeln Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
-* Senden Sie bei Eingang eines Ereignisses (**unitäre Nachrichten**) oder **im Batch** unter Verwendung von Adobe Experience Platform-Segmenten in Echtzeit ().
+* Senden Sie **einheitliche Nachrichten** in Echtzeit, ausgelöst durch den Empfang eines Ereignisses, oder **im Batch** mit Adobe Experience Platform-Segmenten.
 
-* Nutzen Sie **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern.
+* Nutzen Sie **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-* Verwenden Sie die integrierte Aktion **zum Senden von in Journey Optimizer entworfenen Nachrichten oder zum Erstellen von** benutzerspezifischen Aktionen **, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.**
+* Verwenden Sie die **integrierte Aktion**[!DNL Journey Optimizer] zum Senden von in entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach ein Ereignis oder eine Aktivität zum Lesen von Segmenten, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Srop ein Ereignis oder eine Aktivität zum Lesen von Segmenten herein, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
