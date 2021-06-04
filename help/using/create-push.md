@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren einer Push-Benachrichtigung
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Push-Benachrichtigung erstellen
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 74%
@@ -83,7 +83,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 
 ## Benutzerspezifische Daten
 
-Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zu Adobe Launch finden Sie in [diesem Abschnitt](push-configuration.md)
+Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zu Adobe Launch finden Sie in [diesem Abschnitt](push-gs.md)
 
 ## Erweiterte Optionen
 
@@ -109,7 +109,7 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Push-Kanal konfigurieren](push-configuration.md)
+* [Push-Kanal konfigurieren](push-gs.md)
 * [Erstellen einer neuen Nachricht](create-message.md)
 * [Hinzufügen einer Nachricht zu einer Journey](building-journeys/journeys-message.md)
 
