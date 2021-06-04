@@ -6,10 +6,10 @@ user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 83%
       + [Technische Einstellungen](using/administration/administration.md)
       + [Nachrichtenvorgaben erstellen](using/configuration/message-presets.md)
       + Konfiguration von Push-Benachrichtigungen{#push-config}
-         + [Erste Schritte mit Push-Benachrichtigungen](using/push-gs.md)
+         + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/push-gs.md)
          + [Push-Kanal konfigurieren](using/push-configuration.md)
       + E-Mail-Konfiguration {#email-config}
          + Zuweisen von Subdomains {#delegate-subdomains}
