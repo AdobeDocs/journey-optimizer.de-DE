@@ -1,9 +1,9 @@
 ---
 title: Nachrichtenvorgaben erstellen
-description: Erfahren Sie, wie Sie E-Mail- und Push-Benachrichtigungsvorgaben erstellen
-source-git-commit: 4353b8f01bb4e47f6f2384e464341c0ee80ecaf2
+description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
+source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,12 @@ ht-degree: 0%
 
 # Nachrichtenvorgaben erstellen
 
-Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind (E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps usw.).
+Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, mobile Apps und mehr.
 
-Je nach den verschiedenen Marken, für die Sie kommunizieren müssen, können Sie beliebig viele Nachrichtenvorgaben einrichten.
+>[!CAUTION]
+>
+> Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Infos](../administration/ootb-product-profiles.md#journey-administrator)
+
 
 Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
 
@@ -25,24 +28,48 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    ![](../assets/preset-create.png)
 
-1. Geben Sie einen Namen und eine Beschreibung (optional) für die Vorgabe ein und geben Sie dann die Kanäle an, die Sie konfigurieren möchten.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Vorgabe ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
    ![](../assets/preset-general.png)
 
-1. Konfigurieren Sie die Einstellungen für E-Mail- und Push-Benachrichtigungen:
 
-   Geben Sie für den E-Mail-Kanal Folgendes an:
+   >[!NOTE]
+   >
+   > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_`, `.`, `-` Zeichen enthalten.
 
-   * Die Art der mit der Vorgabe gesendeten Nachrichten (Transaktions- oder Marketingnachrichten),
-   * Die [Subdomain](about-subdomain-delegation.md), die zum Senden der E-Mails verwendet werden soll,
-   * Der [IP-Pool](ip-pools.md), der mit der Vorgabe verknüpft werden soll,
-   * Die Kopfzeilenparameter, die für die mit der Vorgabe gesendeten E-Mails verwendet werden sollen.
+
+1. Konfigurieren Sie die Einstellungen **email** .
 
    ![](../assets/preset-email.png)
 
-   Geben Sie für den Push-Benachrichtigungskanal die iOS- und/oder Android-Mobile-Apps an, die für Ihre Nachrichten verwendet werden sollen. Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-configuration.md).
+   * Wählen Sie den Nachrichtentyp aus, der mit der Vorgabe gesendet werden soll: **Transactional** oder **Marketing**
+
+      >[!CAUTION]
+      >
+      > **** Transaktionsnachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden, z. B. beim Zurücksetzen des Kennworts, beim Bestellstatus oder bei Versandbenachrichtigungen.
+
+   * Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Infos](about-subdomain-delegation.md)
+   * Wählen Sie den IP-Pool aus, der mit der Vorgabe verknüpft werden soll. [Weitere Infos](ip-pools.md)
+   * Geben Sie die Header-Parameter für die mit der Vorgabe gesendeten E-Mails ein.
+
+      >[!NOTE]
+      >
+      > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_`, `.`, `-` Zeichen enthalten.
+         > 
+         > 
+      * Mit Ausnahme von **Antwort an (Weiterleiten von E-Mails)** muss die E-Mail-Adressen-Domain die aktuelle ausgewählte Subdomain verwenden.
+
+
+
+1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigung**.
 
    ![](../assets/preset-push.png)
+
+   * Wählen Sie mindestens eine Plattform aus: iOS und/oder Android
+
+   * Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
+
+      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-configuration.md).
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]** . Sie können die Nachrichtenvorgabe auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
@@ -54,13 +81,13 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellbarkeitsteam der Adobe durchgeführt werden:
 
-   * SPF-Validierung,
-   * DKIM-Validierung,
-   * MX-Datensatzvalidierung,
-   * IP-Adressen auf die Blacklist setzen,
-   * Helo-Host-Prüfung,
-   * Verifizierung des IP-Pools,
-   * A/PTR-Eintrag, Verifizierung der Subdomain von t/m/res.
+   * SPF-Validierung
+   * DKIM-Validierung
+   * MX-Datensatzvalidierung
+   * IP-auf die Blockierungsliste setz überprüfen
+   * Helo-Host-Prüfung
+   * IP-Poolverifizierung
+   * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
 
 1. Sobald die Prüfungen erfolgreich sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]** . Es kann zum Versand von Nachrichten verwendet werden.
 
@@ -101,3 +128,4 @@ Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren
    >[!NOTE]
    >
    >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journey zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
+
