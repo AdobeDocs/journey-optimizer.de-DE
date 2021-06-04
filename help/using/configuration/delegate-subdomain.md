@@ -11,15 +11,20 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 068ee9c8966e5968a488c12b2a48fa2ba2ab5245
+source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 17%
 
 ---
 
 
 # Zuweisen einer Subdomain
+
+Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Wenn ein Kunde die Zone &quot;example.com&quot;verarbeitet, kann er die Unterzone &quot;marketing.example.com&quot;an Adobe delegieren.
+
+Durch die Zuweisung einer Subdomain zur Verwendung mit Adobe Optimizer können sich Kunden auf die Adobe verlassen, die DNS-Infrastruktur zu verwalten, die erforderlich ist, um die branchenüblichen Zustellbarkeitsanforderungen für ihre E-Mail-Marketing-Versanddomänen zu erfüllen, und gleichzeitig das DNS für ihre E-Mail-Marketing-Subdomains zu verwalten und zu kontrollieren.
+interne E-Mail-Domänen.
 
 Mit Journey Optimizer können Sie Ihre Subdomains vollständig der Adobe zuweisen. Dadurch kann Adobe Nachrichten als verwalteten Dienst bereitstellen, indem alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, das Rendering und die Verfolgung von E-Mail-Kampagnen erforderlich sind.
 
