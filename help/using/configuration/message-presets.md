@@ -1,7 +1,7 @@
 ---
 title: Nachrichtenvorgaben erstellen
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die all
 > Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Infos](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
 
 ## Nachrichtenvorgabe {#create-message-preset} erstellen
@@ -27,6 +28,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Nachrichtenvorgaben]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvorgabe erstellen]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Geben Sie einen Namen und eine Beschreibung (optional) für die Vorgabe ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
@@ -80,6 +82,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellbarkeitsteam der Adobe durchgeführt werden:
 
+
    * SPF-Validierung
    * DKIM-Validierung
    * MX-Datensatzvalidierung
@@ -87,6 +90,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    * Helo-Host-Prüfung
    * IP-Poolverifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
+
 
 1. Sobald die Prüfungen erfolgreich sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]** . Es kann zum Versand von Nachrichten verwendet werden.
 
