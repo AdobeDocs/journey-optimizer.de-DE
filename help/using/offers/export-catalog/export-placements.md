@@ -1,10 +1,10 @@
 ---
 title: Datensatz für Platzierungen
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Platzierungen verwendet werden.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 86%
 
 ---
 
@@ -60,13 +60,13 @@ Hier finden Sie die Liste aller Felder, die im Datasatz **[!UICONTROL Entscheidu
 **Feld:** contentTypes 
 **Typ:** Array
 
-* **MIME-Medientyp**
+**_experience > decisioning > contentTypes > MIME Media Type**
 
-   **Titel:** MIME-Medientyp
-   **Beschreibung:** Eine Begrenzung für den Medientyp der Komponenten, der an dieser Platzierung erwartet wird. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
-   **Typ:** Zeichenfolge
+**Titel:** MIME-Medientyp 
+**Beschreibung:** Eine Beschränkung für den Medientyp der Komponenten, die in dieser Platzierung erwartet werden. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
+**Typ:** Zeichenfolge
 
-#### _experience > decisioning > Placement Description
+#### _Erlebnis > Entscheidung > Platzierungsbeschreibung
 
 **Feld:** Beschreibung 
 **Titel:** Beschreibung der Platzierung 
