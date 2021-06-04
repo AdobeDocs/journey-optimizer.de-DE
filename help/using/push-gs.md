@@ -1,12 +1,10 @@
 ---
 title: Erste Schritte mit der Konfiguration von Push-Benachrichtigungen
 description: Datenfluss und Komponenten von Push-Benachrichtigungen verstehen
-hide: true
-hidefromtoc: true
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 0%
+source-wordcount: '861'
+ht-degree: 1%
 
 ---
 
@@ -14,59 +12,61 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-Push-Benachrichtigungen dienen als schnelle Kommunikationskanäle, über die Sie Nachrichten, Angebote oder andere Informationen an Ihre Mobile-App-Benutzer übermitteln können. In der Regel muss sich der Endbenutzer für den Empfang von Push-Benachrichtigungen anmelden. -Opt-in findet in der Regel während des Installationsprozesses statt und Endbenutzer erhalten eine Möglichkeit, Benachrichtigungen zu verwalten, wenn sie später ihre Meinung ändern. Ein wichtiger Vorteil von Push-Benachrichtigungen in der Mobilgeräteverarbeitung besteht darin, dass für die Zustellung einer Nachricht keine spezifischen Anwendungen auf einem Mobilgerät erforderlich sind. Dadurch kann ein Smartphone Benachrichtigungen empfangen und anzeigen, selbst wenn der Bildschirm des Geräts gesperrt ist und sich die App im Hintergrund befindet oder geschlossen ist.
+Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen - insbesondere dann, wenn sie Ihre App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen zu erreichen, z. B. die Bereitstellung von Aktualisierungen zu Ihrem Dienst, die Aufforderung eines Benutzers, Maßnahmen zu ergreifen, den Benutzer auf ein neues Geschäft aufmerksam zu machen usw. Geräteplattformen erfordern eine Anmeldung, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Die Anmeldung für den Benutzer kann so früh erfolgen, nachdem die App zum ersten Mal nach der Installation oder in einer nachfolgenden Sitzung oder einem entsprechenden Workflow gestartet wurde. [!DNL Journey Optimizer] unterstützt Push-Benachrichtigungen und unterstützt Sie beim Senden hochrelevanter Benachrichtigungen mit branchenführenden Durchsatzraten. Push-Benachrichtigungen können Personalisierung und Journey-basierten Kontext enthalten, um Dateneinblicke zu nutzen, die Ihre Marke mit Adobe Experience Cloud hat.
 
-**[!DNL Adobe Journey Optimizer]**  ermöglicht den Versand zeitkritischer, relevanter und personalisierter Push-Nachrichten in großem Maßstab. Ein Segment mit Kundenprofilen kann angesprochen werden, um Rich-Push-Benachrichtigungen auf ihren iOS- und Android-Mobilgeräten zu erhalten. Diese Segmente können auf der Grundlage vergangener oder Live-Benutzererlebnisereignisse, Benutzerdatensatzdaten oder einer Kombination aus Benutzerinteraktionen und Daten erstellt werden. Sobald eine Journey live ist, können Sie detaillierte Berichte zur Anzahl der gesendeten Nachrichten, zu fehlgeschlagenen Nachrichten aus welchen Gründen und zu Push-Tracking-Informationen anzeigen, z. B. wie viele Benutzer darauf geklickt haben.
+Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Dienste und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind.
 
-In diesem Dokument werden Sie durch einen einfachen Datenfluss von End-to-End-Push-Benachrichtigungen mit [!DNL Journey Optimizer] und einem Diagramm zum Benutzerfluss geführt, um zu erklären, wie jede Rolle ihre Aufgaben erfüllt und zusammenarbeitet, um den Push-Datenfluss zusammenzuführen.
+## Push-Benachrichtigungen mit Adobe Journey Optimizer einrichten
 
+Um Push-Benachrichtigungen mit Adobe Journey Optimizer zu senden, müssen Sie die folgenden Schritte ausführen:
 
-## Beteiligte Komponenten und Dienste
+1. Befolgen Sie die Dokumentation , um die Einrichtung mit [Adobe Journey Optimizer und Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in Ihrer App zu erhalten.
+1. Erstellen Sie die Vorgabe [für den Push-Nachrichtenkanal](configuration/message-presets.md)
 
-* **Cloud Messaging-** Anbieter sind Drittanbieterdienste, mit denen wir Benachrichtigungen von Remote-Servern an mobile Apps senden können.
+## Push-Benachrichtigungen und Adobe Journey Optimizer
 
-   [!DNL Adobe Journey Optimizer]  unterstützt sowohl Android- als auch iOS-Plattformen und behandelt zwei primäre Cloud-Messaging-Dienste:
-   * Firebase Cloud Messaging (FCM) - zum Senden von Benachrichtigungen an eine mobile Android-App
-   * Apple Push Notification Service (APNs) - zum Senden von Benachrichtigungen an eine mobile iOS-App
-
-* **Mobile App mit Adobe Mobile** SDK integriert, wodurch mobile Apps mit Adobe Experience Cloud-Lösungen integriert werden können. Das Mobile SDK besteht aus verschiedenen Experience Cloud-Lösungserweiterungen, um Funktionen bereitzustellen, die für den von ihnen repräsentierten Dienst spezifisch sind. Diese Erweiterungen stellen verschiedene APIs bereit, um Datenflüsse zu ermöglichen, z. B. die Registrierung des Push-Tokens oder das Senden von Push-Tracking-Ereignissen oder anderen benutzerspezifischen Erlebnisereignissen an Adobe Experience Platform.
-
-* **Adobe Launch**  (oder Datenerfassung) ist die nächste Generation von mobilen SDK-Verwaltungsfunktionen, die den Datenfluss vom Mobile SDK zu  [!DNL Adobe Experience Platform]ermöglichen. Es bietet Funktionen zum Registrieren von Erweiterungen, Erstellen von Regeln und Datenelementen, um Daten von Ihrer App an die Adobe Experience Cloud-Lösungen zu senden. In Bezug auf den Datenfluss von Push-Benachrichtigungen sind in Adobe Launch folgende Hauptkonfigurationen erforderlich:
-
-   * Erstellen eines Datenspeichers zum Konfigurieren der Profil- und Erlebnisereignis-Datensätze, anhand derer die Daten in die Erlebnisplattform fließen.
-   * Erstellen einer clientseitigen mobilen Eigenschaft und Hinzufügen von Erweiterungen. Das Mobile SDK lässt sich eng mit diesen Erweiterungen integrieren, um eine nahtlose Datenerfassung zu ermöglichen.
-   * Registrieren der App-Bundle-ID und der App-Anmeldeinformationen, die dabei helfen, die Integrität der App zum Zeitpunkt der Bereitstellung der Push-Benachrichtigung eindeutig zu identifizieren und zu validieren.
-
-* **Echtzeit-Kundenprofil** ist die Komponente in Adobe Experience Platform, mit der Sie eine ganzheitliche Sicht auf jeden einzelnen Kunden anzeigen können, indem Daten aus verschiedenen Kanälen kombiniert werden, einschließlich Web, Mobile, CRM und Drittanbieter. Mit dem Profil können Sie Ihre Kundendaten in einer einheitlichen Ansicht zusammenfassen, die eine umsetzbare, mit Zeitstempel versehene Übersicht über jede Kundeninteraktion bietet. Statische Daten, die den Benutzer der Mobile App identifizieren, z. B. ein Push-Token, werden unter dem Profil des Benutzers als Datensatzdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden.
-
-* **[!DNL Adobe Journey Optimizer]** : Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet sind und Ihre Kundenprofile als Echtzeit-Kundenprofile verfügbar sind, können Sie leistungsstarke Funktionen zur Zielgruppensegmentierung in nutzen,  [!DNL Adobe Journey Optimizer]  um für jede Person ein optimales Erlebnis sicherzustellen.
-
-
-## Push-Datenfluss
-
-Dieses Diagramm zeigt einen grundlegenden Datenfluss von Push-Nachrichten und bietet einen Einblick in die verschiedenen Adoben, die am Datenfluss beteiligt sind.
+Das folgende Bild zeigt die Systeme und Dienste, die mit den zugehörigen Datenflüssen verbunden sind und beleuchten, wie Push-Benachrichtigungen von einem End-to-End-Service-Standpunkt aus bereitgestellt werden.
 
 ![](assets/push-flow.png)
 
+1. Registrierung Ihrer gebrandeten Mobile App (Android oder iOS) mit den Apple-APNs und Google FCM-Push-Messaging-Diensten
+1. Messaging Services generieren ein Push-Token, das eine Kennung ist, die Adobe Journey Optimizer verwendet, um das jeweilige Gerät mit einer Push-Benachrichtigung als Ziel auszuwählen.
+1. Das zuvor generierte Push-Token wird an Adobe Experience Platform übergeben und mit dem Echtzeit-Kundenprofil synchronisiert. Dies erfolgt OOTB mit einem einfachen Client-SDK.
+1. Push-Nachrichten werden in Adobe Journey Optimizer erstellt, Push-Nachrichten werden mit einer Nachrichtenvorgabe erstellt
+1. Push-Nachrichten können in die Orchestrierungsarbeitsfläche von Journey aufgenommen werden
+1. Nach der Journey-Publikation werden Kundenprofile, die auf Journey-Bedingungen basieren, für den Empfang von Push-Benachrichtigungen qualifiziert. In diesem Schritt werden Push-Nachrichten-Payloads personalisiert
+1. Personalisierte Push-Payloads werden an einen internen Push-Nachrichtenversanddienst weitergeleitet
+1. Dieser interne Dienst überprüft dann die Anmeldeinformationen der App, die mit der Nachricht verknüpft ist, und
+1. Sendet die Nachricht zur endgültigen Auslieferung an Apple &amp; Google Messaging Services
+1. Feedback von Messaging-Services wird zur Berichterstellung in Journey Live &amp; Global-Berichten aufgeführt, Fehler und Erfolge werden protokolliert
+1. Push-Benachrichtigungen werden an Endbenutzergeräte gesendet
+1. Push-Benachrichtigungsinteraktionen für Endbenutzer werden über die SDK-Integration als Erlebnisereignisse vom Endbenutzer-Client gesendet
 
-1. Der Kunde entwickelt eine mobile App unter Android oder iOS, die er für seine Benutzer freigeben würde. Um die von Push-Anbietern bereitgestellte Push-Funktion (APNS von Apple und FCM von Google) zu nutzen, registriert sich die Mobile App und aktiviert die Push-Funktion.
-1. Die Push-Provider generieren und senden ein Push-Token an die mobile App. Ein Push-Token ist eine Kennung, mit der Absender bestimmte Geräte mit einer Push-Benachrichtigung ansprechen.
-1. Die mobile App ist in das Adobe Mobile SDK integriert, das verschiedene Erweiterungen und APIs verfügbar macht. Die Messaging-Erweiterung stellt eine API zum Registrieren des Push-Tokens in Adobe Experience Platform anhand des Kundenprofils bereit.
-1. Sobald die Mobile App fertig ist, wird sie unter **[!DNL Journey Launch]** `>` **App-Konfigurationen** sowie die Anmeldeinformationen konfiguriert.
-Der Marketingexperte verfasst jetzt eine Push-Benachrichtigung in **[!DNL Adone Journey Optimizer]** `>` **Nachrichten** für die registrierte Mobile App.
-1. Der Marketingexperte orchestriert eine Journey, die den Fluss von Ereignissen und Aktionen definiert. Um eine Push-Benachrichtigung in einer Phase des Journey zu senden, fügt der Marketingexperte eine Aktion vom Typ &#39;Nachricht&#39; hinzu und ordnet sie der im vorherigen Schritt erstellten Nachricht zu.
-1. Wenn ein Kundenprofil berechtigt ist, die Push-Benachrichtigung aus einem beliebigen Grund, z. B. zum Trigger eines Ereignisses oder zur Segmentqualifikation, zu erhalten, wird die Nachricht gegebenenfalls entsprechend dem Profil personalisiert.
-1. Die personalisierte Push-Nachricht wird zur weiteren Verarbeitung an den Push-Versand-Dienst gesendet.
-1. Der Push-Versand-Dienst überprüft die Anmeldeinformationen der App, die mit der Nachricht verknüpft ist.
-1. Die Nachricht wird an die Push-Provider gesendet, um sie mit dem entsprechenden Push-Token und den entsprechenden Anmeldeinformationen an die Mobile App zu senden.
-1. Die Push-Provider senden ein Feedback, aus dem hervorgeht, ob die Nachricht erfolgreich an den Provider gesendet wurde oder nicht. Andernfalls ist die entsprechende Fehlermeldung Teil des Feedbacks. Dieses Feedback wird an die Adobe-Berichterstellung gesendet, damit der Kunde die Journey [Live](reports/live-report.md) und [Globale Berichte](reports/global-report.md) anzeigen kann.
-1. In der Zwischenzeit übermitteln die Push-Provider die erfolgreiche Push-Benachrichtigung asynchron an die Mobile App.
-1. Wenn der Kunde mit der Benachrichtigung interagiert, können die Impressionen wie Klicks/Öffnungen als **Erlebnisereignisse** verfolgt werden. Die Messaging-Erweiterung stellt APIs zum Senden von Tracking-Ereignissen an Adobe Experience Platform für das Kundenprofil bereit.
+## Rollen von Schlüsseldiensten in Push-Benachrichtigungen
 
-## Push-Benutzerfluss
+* **Push-Benachrichtigungs-Service-** Anbieter sind die Kernkomponenten-Webdienste, die Benachrichtigungen von Remote-Servern an mobile Apps senden.
 
-In diesem Diagramm werden die verschiedenen Schritte zum Konfigurieren der Komponenten dargestellt, die das Skelett des Push-Datenflusses bilden. Die Aktionselemente wurden basierend auf der Rolle, die die Konfiguration durchführt, und der zu konfigurierenden Komponente kategorisiert. Wie Sie sehen können, müssen Sie vor dem Start des Versands von Push-Benachrichtigungen mit **[!DNL Adobe Journey Optimizer]** sicherstellen, dass Konfigurationen und Integrationen in der Mobile App vorhanden sind, **[!DNL Adobe Launch]** und **[!DNL Adobe Experience Platform]**.
+   [!DNL Adobe Journey Optimizer]  unterstützt sowohl Android- als auch iOS-Plattformen und integriert daher in Folgendes:
+   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)  - zum Senden von Benachrichtigungen an eine Android Mobile App
+   * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  - zum Senden von Benachrichtigungen an eine iOS-Mobile-App
+
+* **Adobe Experience Platform Mobile** SDK, das clientseitige Integrations-APIs für Ihre Mobiltelefone über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine Adobe Journey Optimizer-Erweiterung, die eine Vielzahl von APIs verfügbar macht, die für Push-Nachrichten spezifisch sind, und Datenfluss ermöglicht, z. B. die Registrierung des Push-Tokens oder das Senden von Push-Tracking-Ereignissen oder anderen benutzerspezifischen Erlebnisereignissen an Adobe Experience Platform. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Adobe Experience Cloud- sowie Drittanbieter-Partnerfunktionen ermöglichen.
+
+   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassungsdiensten](https://experienceleague.adobe.com/docs/launch/using/home.html), z. B.:
+
+   * Erstellen eines Datenspeichers zum Konfigurieren der Profil- und Erlebnisereignis-Datensätze, anhand derer die Daten in Adobe Experience Platform fließen
+   * Erstellen der clientseitigen mobilen Eigenschaft und Hinzufügen von Erweiterungen. Das SDK ist eng mit diesen Erweiterungen integriert, um eine nahtlose Datenerfassung zu ermöglichen.
+   * Registrieren der App-Bundle-ID und App-Anmeldeinformationen
+
+* **Das Echtzeit-Kundenprofil von Adobe Experience Platform**  bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Web, Mobile, CRM und Drittanbieter, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer einheitlichen Ansicht zusammenfassen, die eine umsetzbare, mit Zeitstempel versehene Übersicht über jede Kundeninteraktion bietet. Das Push-Token für einen bestimmten App-Benutzer wird im Profil des Benutzers als Datensatzdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Erfahren Sie mehr über das Echtzeit-Kundenprofil von Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
+
+* **[!DNL Adobe Journey Optimizer]** : Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet sind und Ihre Kundenprofile in Adobe Experience Platform vorhanden sind, können Sie Push-Benachrichtigungen in Adobe Journey Optimizer erstellen und koordinieren, um mit Ihren Benutzern zu interagieren.
+
+## Technische Einrichtung und praktische Workflows für Push-Benachrichtigungen
+
+In der folgenden Abbildung werden die verschiedenen Schritte (End-to-End) gezeigt, die an der Konfiguration der Komponenten beteiligt sind, die das Skelett des Push-Datenflusses bilden. Die Aktionselemente wurden basierend auf der Rolle, die die Konfiguration durchführt, und der zu konfigurierenden Komponente kategorisiert.
 
 ![](assets/user-flow.png)
+
 
 Detaillierte Schritte zum Konfigurieren des Push-Kanals und zum Aktivieren von Push-Benachrichtigungen in [!DNL Journey Optimizer] finden Sie auf [dieser Seite](push-configuration.md).
