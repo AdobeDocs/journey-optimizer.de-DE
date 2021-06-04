@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 17%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 17%
 
 Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Wenn ein Kunde die Zone &quot;example.com&quot;verarbeitet, kann er die Unterzone &quot;marketing.example.com&quot;an Adobe delegieren.
 
-Durch die Zuweisung einer Subdomain zur Verwendung mit Adobe Optimizer können sich Kunden auf die Adobe verlassen, die DNS-Infrastruktur zu verwalten, die erforderlich ist, um die branchenüblichen Zustellbarkeitsanforderungen für ihre E-Mail-Marketing-Versanddomänen zu erfüllen, und gleichzeitig das DNS für ihre E-Mail-Marketing-Subdomains zu verwalten und zu kontrollieren.
-interne E-Mail-Domänen.
+Durch die Zuweisung einer Subdomain zur Verwendung mit [!DNL Journey Optimizer] können sich Kunden auf die Adobe verlassen, um die DNS-Infrastruktur zu verwalten, die erforderlich ist, um die Anforderungen an die Zustellbarkeit ihrer E-Mail-Marketing-Versanddomänen gemäß Industriestandard zu erfüllen, und gleichzeitig das DNS für ihre internen E-Mail-Domains zu verwalten und zu kontrollieren.
 
-Mit Journey Optimizer können Sie Ihre Subdomains vollständig der Adobe zuweisen. Dadurch kann Adobe Nachrichten als verwalteten Dienst bereitstellen, indem alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, das Rendering und die Verfolgung von E-Mail-Kampagnen erforderlich sind.
+[!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains zur Adobe direkt über die Produktoberfläche. Dadurch kann Adobe Nachrichten als verwalteten Dienst bereitstellen, indem alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, das Rendering und die Verfolgung von E-Mail-Kampagnen erforderlich sind.
 
 >[!NOTE]
 >
