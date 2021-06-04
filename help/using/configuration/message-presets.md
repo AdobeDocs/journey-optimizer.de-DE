@@ -1,7 +1,7 @@
 ---
 title: Nachrichtenvorgaben erstellen
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    * Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
 
-      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-configuration.md).
+      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-gs.md).
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]** . Sie können die Nachrichtenvorgabe auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
