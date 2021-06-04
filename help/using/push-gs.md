@@ -1,14 +1,14 @@
 ---
 title: Erste Schritte mit der Konfiguration von Push-Benachrichtigungen
 description: Datenfluss und Komponenten von Push-Benachrichtigungen verstehen
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
 
-# Erste Schritte mit der Konfiguration von Push-Benachrichtigungen {#get-started-push}
+# Konfiguration von Push-Benachrichtigungen {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -68,5 +68,3 @@ In der folgenden Abbildung werden die verschiedenen Schritte (End-to-End) gezeig
 
 ![](assets/user-flow.png)
 
-
-Detaillierte Schritte zum Konfigurieren des Push-Kanals und zum Aktivieren von Push-Benachrichtigungen in [!DNL Journey Optimizer] finden Sie auf [dieser Seite](push-configuration.md).
