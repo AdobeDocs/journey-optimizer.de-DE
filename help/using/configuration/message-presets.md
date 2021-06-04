@@ -1,9 +1,9 @@
 ---
 title: Nachrichtenvorgaben erstellen
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    >[!NOTE]
    >
-   > Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_` `.` `-` Zeichen enthalten.
+   > Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
 
 1. Konfigurieren Sie die Einstellungen **email** .
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
       >[!NOTE]
       >
-      > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_`, `.`, `-` Zeichen enthalten.
+      > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
          > 
          > 
       * Mit Ausnahme von **Antwort an (Weiterleiten von E-Mails)** muss die E-Mail-Adressen-Domain die aktuelle ausgewählte Subdomain verwenden.
