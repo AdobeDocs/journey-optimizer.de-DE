@@ -1,7 +1,7 @@
 ---
 title: Nachrichtenvorgaben erstellen
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    >[!NOTE]
    >
-   > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_`, `.`, `-` Zeichen enthalten.
-
+   > Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen und `_` `.` `-` Zeichen enthalten.
 
 1. Konfigurieren Sie die Einstellungen **email** .
 
@@ -65,7 +64,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    ![](../assets/preset-push.png)
 
-   * Wählen Sie mindestens eine Plattform aus: iOS und/oder Android
+   * Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**
 
    * Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
 
@@ -77,7 +76,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
 1. Nachdem die Nachrichtenvorgabe erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu überprüfen, ob die Konfiguration korrekt ist. Die Verarbeitungszeit beträgt ca. 48-72 Stunden und kann bis zu 7-10 Tage dauern.
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu überprüfen, ob die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48h-72h** und kann bis zu **7-10 Tage** dauern.
 
    Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellbarkeitsteam der Adobe durchgeführt werden:
 
