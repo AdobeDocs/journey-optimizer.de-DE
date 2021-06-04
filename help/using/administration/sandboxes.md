@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 69%
+source-wordcount: '347'
+ht-degree: 70%
 
 ---
 
@@ -47,13 +47,21 @@ So weisen Sie Sandboxes zu:
 
 1. Wählen Sie ein **[!UICONTROL Produktprofil]** aus.
 
+   ![](../assets/sandbox_1.png)
+
 1. Wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
-1. Wählen Sie die Funktion **[!UICONTROL Sandbox-Zugriff]** aus.
+1. Wählen Sie die Funktion **[!UICONTROL Sandboxes]** aus.
+
+   ![](../assets/sandbox_2.png)
 
 1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
 
+   ![](../assets/sandbox_3.png)
+
 1. Klicken Sie bei Bedarf unter **[!UICONTROL Eingeschlossene Berechtigungselemente]** auf das X-Symbol neben dem Entfernen von Sandboxes-Zugriff auf Ihr **[!UICONTROL Produktprofil]**.
+
+   ![](../assets/sandbox_4.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
