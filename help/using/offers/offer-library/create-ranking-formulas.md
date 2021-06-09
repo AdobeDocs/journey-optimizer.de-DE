@@ -1,11 +1,10 @@
 ---
 title: Erstellen von Rangfolgeformeln
 description: Erfahren Sie, wie Sie Rangfolgeformeln in Adobe Experience Platform erstellen.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,26 +16,28 @@ Mithilfe von **Rangfolgeformeln** können Sie festlegen, welches Angebot für ei
 
 Rangfolgeformeln werden in der **PQL-Syntax** angegeben und können Profil-, Kontextdaten- und Angebotsattribute nutzen. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
 
-Nachdem eine Ranking-Formel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen (früher als Angebot-Aktivität bezeichnet). Weitere Informationen hierzu finden Sie unter [Auswahl der Angebot in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
+Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Platzierung in einem Angebot (früher Angebotsaktivität) zuweisen. Weitere Informationen finden Sie unter [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
 
 ## Erstellen einer Rangfolgeformel {#create-ranking-formula}
 
 Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
-* Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rankings]**.
+1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgen.]** Die Liste der zuvor erstellten Ranglisten wird angezeigt.
 
-* Klicken Sie auf **[!UICONTROL Formel erstellen]**, um eine neue Rangfolgeformel zu erstellen.
+   ![](../../assets/rankings-list.png)
+
+1. Klicken Sie auf **[!UICONTROL Rang erstellen]** , um eine neue Rangliste zu erstellen.
 
    ![](../../assets/ranking-create-formula.png)
 
-* Geben Sie Namen und die Beschreibung der Rangfolgeformel sowie die Formel selbst an.
+1. Geben Sie Namen und die Beschreibung der Rangfolgeformel sowie die Formel selbst an.
 
    In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
 
    ![](../../assets/ranking-syntax.png)
 
-* Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
 
-   Es kann jetzt in einer Entscheidung verwendet werden, um förderfähige Angebot für eine Platzierung einzustufen (siehe [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md)).
+   Sie kann jetzt für eine Entscheidung verwendet werden, um die geeigneten Angebote für eine Platzierung zu sortieren (siehe [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md)).
 
    ![](../../assets/ranking-formula-created.png)
