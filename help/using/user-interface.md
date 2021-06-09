@@ -1,10 +1,10 @@
 ---
 title: Benutzeroberfläche
 description: Benutzeroberfläche von Journey Optimizer
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 98%
+source-wordcount: '1538'
+ht-degree: 87%
 
 ---
 
@@ -94,22 +94,30 @@ Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Pr
 
 Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
-* Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen bearbeiten**.
-* Klicken Sie dann auf **Adobe-Konto**, um auf Ihr Adobe-Profil zuzugreifen.
-* Wählen Sie oben die Registerkarte **Benachrichtigungen** und klicken Sie auf **Voreinstellungen**.
-* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**.
+* Klicken Sie oben rechts in Ihrem Avatar auf **Voreinstellungen** .
+   ![](assets/preferences.png)
+* Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
+* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->Sie müssen sich abmelden und erneut bei [!DNL Journey Optimizer] anmelden, um Änderungen anzuwenden.
+## Durchsuchen
 
-## Suchen und filtern{#section_lgm_hpz_pgb}
+Verwenden Sie die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste, um Assets, Journey oder Nachrichten über Ihre Sandboxes hinweg zu finden. Beginnen Sie mit der Eingabe des Inhalts, um die wichtigsten Ergebnisse anzuzeigen.
 
-In den meisten Listen können Sie in einer Suchleiste nach einem Element suchen.
+![](assets/unified-search.png)
 
-Sie können auf die **[!UICONTROL Filter]** zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen.
+Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse und Filter zuzugreifen.
 
-In der Journey-Liste können Sie die angezeigten Journeys zusätzlich zu den **[!UICONTROL Erstellungsfiltern]** auch nach Status und Version filtern (**[!UICONTROL Status- und Versionsfilter]**). Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion nutzen (**[!UICONTROL Aktivitätsfilter]** und **[!UICONTROL Datenfilter]**). Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Infos](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Filterlisten{#section_lgm_hpz_pgb}
+
+In den meisten Listen können Sie über eine Suchleiste nach einem bestimmten Element suchen und Filterkriterien auswählen.
+
+Der Zugriff auf Filter erfolgt über das Filtersymbol links oben in der Liste. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
+
+In der Liste der Journey können Sie Journey anhand ihres Status und ihrer Version aus den **[!UICONTROL Status- und Versionsfiltern]** filtern. Sie können festlegen, dass nur Journey angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfilter]** verwenden. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Infos](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ In der Journey-Liste können Sie die angezeigten Journeys zusätzlich zu den **[
 
 Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
