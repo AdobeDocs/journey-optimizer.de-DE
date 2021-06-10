@@ -1,11 +1,10 @@
 ---
 title: Informationen zu Datenquellen
 description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
-translation-type: tm+mt
 source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +24,7 @@ Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System de
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
 * [Definition von Zeitzonen](../building-journeys/timezone-management.md)
 
-Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey z. B. aus einem Ereignis und einer Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
+Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 
 Es gibt zwei Arten von Datenquellen:
 
@@ -34,4 +33,4 @@ Es gibt zwei Arten von Datenquellen:
 
 Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen abgerufen werden sollen. Feldergruppen sind Gruppen von Feldern, die aus einer Datenquelle abgerufen werden können. Weitere Informationen finden Sie auf [dieser Seite](../datasource/configure-data-sources.md#define-field-groups).
 
-Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=de).
