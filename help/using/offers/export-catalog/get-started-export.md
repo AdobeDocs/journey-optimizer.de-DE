@@ -1,11 +1,10 @@
 ---
 title: Erste Schritte mit dem Exportieren eines Angebotskatalogs
 description: Erfahren Sie, wie Sie Ihren Angebotskatalog als Datensatz exportieren.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +17,7 @@ Beim Export wird für jedes Objekt Ihrer Angebotsbibliothek ein Datensatz erstel
 * Personalisierte Angebote
 * Fallback-Angebote
 * Platzierungen
-* Beschlüsse (früher als Angebot-Aktivitäten bezeichnet)
+* Entscheidungen (früher als Angebotsaktivitäten bezeichnet)
 
 Jedes Mal, wenn eines dieser Objekte in der Angebotsbibliothek geändert wird, wird automatisch ein neuer Exportvorgang ausgeführt, um die Datensätze zu aktualisieren.
 
