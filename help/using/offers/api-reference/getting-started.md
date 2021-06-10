@@ -125,10 +125,10 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 ## Tutorial {#video}
 
-Im folgenden Video werden die Komponenten von Entscheidungs-Management erklärt.
+Im folgenden Video werden die Komponenten des Entscheidungs-Managements erklärt.
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer-Decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Hinweise für die Nutzung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
