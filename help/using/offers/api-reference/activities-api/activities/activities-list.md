@@ -1,19 +1,18 @@
 ---
-title: Beschlüsse der Liste
-description: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
-translation-type: tm+mt
+title: Entscheidungen auflisten
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# Beschlüsse der Liste
+# Entscheidungen auflisten
 
-Eine Entscheidung (früher als Angebot-Aktivität bezeichnet) enthält die Logik, die die Auswahl eines Angebots informiert.
+Eine Entscheidung (früher als „Angebotsaktivität“ bezeichnet) enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 
-Sie können eine Liste aller Entscheidungen in einem Container durch eine einzige GET an die [!DNL Offer Library]-API Ansicht ausführen.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Entscheidungen in einem Container anzeigen.
 
 **API-Format**
 
@@ -24,8 +23,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem die Entscheidungen getroffen werden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Definiert das Schema im Zusammenhang mit Entscheidungen. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | Definiert das mit Entscheidungen verknüpfte Schema. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 
 **Anfrage**
@@ -54,11 +53,11 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Beschränken Sie die Anzahl der zurückgegebenen Entscheidungen. | `limit=5` |
+| `limit` | Schränkt die Anzahl der zurückgegebenen Entscheidungen ein. | `limit=5` |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Entscheidungen zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Entscheidungen zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {
