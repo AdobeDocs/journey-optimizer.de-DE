@@ -1,15 +1,14 @@
 ---
-title: Segmentnutzung in einer Journey
-description: Erfahren Sie, wie Sie ein Segment in einer Journey verwenden
-translation-type: tm+mt
+title: Segment in einer Journey verwenden
+description: Erfahren Sie, wie Sie ein Segment in einer Journey verwenden können
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# Segment in einer Journey verwenden{#segment-trigger-activity}
+# Segment in einer Journey verwenden {#segment-trigger-activity}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -17,15 +16,15 @@ ht-degree: 48%
 
 Mit der Aktivität „Segment-Lesen“ können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir als Beispiel das Segment &quot;Luma app open and checkout&quot;, das im Anwendungsfall [Build segmente](../segment/about-segments.md) erstellt wurde. Mit der Aktivität zum Lesen von Segmenten können Sie alle zu diesem Segment gehörenden Personen in eine Journey einbinden und sie in individuelle Journey umwandeln, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim Anwendungsfall [Segmente erstellen](../segment/about-segments.md) erstellt wurde. Mit der Aktivität „Segment lesen“ können Sie alle Kontakte, die zu diesem Segment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
 >
->Es ist nicht möglich, eine segmentbasierte Journey innerhalb eines kürzeren Zeitrahmens als 1 Stunde Trigger.
+>Es ist nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
 
-### Aktivität {#configuring-segment-trigger-activity} konfigurieren
+### Aktivität konfigurieren {#configuring-segment-trigger-activity}
 
-Die Aktivität zum Lesen der Segmente wird wie folgt konfiguriert:
+Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segment lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -33,13 +32,13 @@ Die Aktivität zum Lesen der Segmente wird wie folgt konfiguriert:
 
 1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu (optional).
 
-1. Wählen Sie im Feld **[!UICONTROL Segment]** das Adobe Experience Platform-Segment, das die Journey eingibt, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Wählen Sie im Feld **[!UICONTROL Segment]** das Adobe Experience Platform-Segment aus, das in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
    >[!NOTE]
    >
-   >Nur Personen mit den Segmentteilnahmestatus **Realized** und **Vorhandene** werden in die Journey aufgenommen. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
+   >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
    ![](../assets/read-segment-selection.png)
 
@@ -49,7 +48,7 @@ Die Aktivität zum Lesen der Segmente wird wie folgt konfiguriert:
 
    ![](../assets/read-segment-copy.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. [Erfahren Sie mehr über Namensraum](../event/about-creating.md#select-the-namespace).
+1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
@@ -75,7 +74,7 @@ Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gew
 
 ![](../assets/read-segment-test-mode.png)
 
-Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey](testing-the-journey.md) testen.
+Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
 Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
 
@@ -91,48 +90,48 @@ Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen
 
 >[!NOTE]
 >
->Wenn eine segmentbasierte Journey ausgeführt wird, die nicht wiederholt auftritt (&quot;sobald wie möglich starten&quot;oder &quot;einmal&quot;), wird der Status automatisch in &quot;geschlossen&quot;geändert.
+>Bei Ausführung einer segmentbasierten, nicht wiederkehrenden Journey („sobald wie möglich starten“ oder „einmal“), wird automatisch der Status „geschlossen“ zugewiesen.
 >
->Bei wiederholten segmentbasierten Journey wird die Journey automatisch geschlossen, sobald das letzte Vorkommen ausgeführt wird. Wenn kein Enddatum/keine Endzeit angegeben wurde, müssen Sie die Journey an neuen Eingängen manuell schließen, um sie zu beenden.
+>Bei segmentbasierten, wiederkehrenden Journeys wird die Journey automatisch nach der letztmaligen Ausführung geschlossen. Wenn kein Enddatum/keine Endzeit angegeben wurde, müssen Sie die Journey manuell für neue Eintritte schließen, um sie zu beenden.
 
 
-## Audiencen-Targeting in segmentbasierten Journey
+## Zielgruppenbestimmung bei segmentbasierten Journeys
 
-Segmentbasierte Journey verwenden immer einen Beginn mit der Aktivität **Read segment**, um Personen abzurufen, die zu einem Adobe Experience Platform-Segment gehören.
+Segmentbasierte Journey beginnen immer mit der Aktivität **Segment lesen**, um Personen abzurufen, die einem Adobe Experience Platform-Segment angehören.
 
-Die Audience des Segments wird ein- oder regelmäßig abgerufen.
+Die Audience des Segments wird einmalig oder regelmäßig abgerufen.
 
-Nach der Eingabe der Journey können Sie Anwendungsfälle für die Audience-Orchestrierung erstellen, sodass Einzelpersonen aus dem ersten Segment in verschiedene Zweige der Journey fließen.
+Nach Eintritt in die Journey können Sie Anwendungsfälle für die Audience-Orchestrierung erstellen, sodass Einzelpersonen aus dem ersten Segment in verschiedene Zweige der Journey geleitet werden.
 
 **Segmentierung**
 
-Sie können Bedingungen verwenden, um mithilfe der Aktivität **Bedingung** eine Segmentierung durchzuführen. Sie können beispielsweise VIP Personen einen bestimmten Pfad und nicht VIP Fluss in einem anderen Pfad einschlagen lassen.
+Mithilfe der Aktivität **Bedingung** können Sie eine Segmentierung anhand von Bedingungen durchführen. Sie können beispielsweise VIP-Personen auf einen bestimmten Pfad führen und alle übrigen Personen auf einen anderen Pfad.
 
-Die Segmentierung kann auf Folgendem basieren:
+Die Segmentierung kann basieren auf:
 
-* Datenquellendaten
-* der Kontext von Ereignissen Teil der Journey-Daten, z. B.: Hat eine Person auf die Nachricht geklickt, die sie vor einer Stunde erhalten hat?
-* ein Datum, z. B.: Sind wir im Juni, wenn eine Person durch die Journey geht?
-* eine Zeit, z. B.: Ist es Morgen in der Zeitzone der Person?
-* ein Algorithmus, der die in der Journey fließende Audience auf Grundlage eines Prozentsatzes aufteilt, z. B.: 90 % - 10 % für den Ausschluss einer Kontrollgruppe
+* Daten aus Datenquellen
+* Kontext von Ereignissen, die Teil der Journey-Daten sind – Beispiel: Hat eine Person auf die Nachricht geklickt, die sie vor einer Stunde erhalten hat?
+* Datum – Beispiel: Sind wir im Juni, wenn eine Person durch die Journey navigiert?
+* Tageszeit – Beispiel: Ist es morgens in der Zeitzone der Person?
+* Algorithmus, der die in die Journey geführte Audience auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 % - 10 % für den Ausschluss einer Kontrollgruppe
 
 ![](../assets/read-segment-audience1.png)
 
 **Ausschluss**
 
-Die gleiche **Bedingung**-Aktivität, die für die Segmentierung verwendet wird (siehe oben), ermöglicht es Ihnen auch, einen Teil der Population auszuschließen. Sie können beispielsweise VIP Personen ausschließen, indem Sie sie mit einem Endschritt direkt danach in eine Zweigniederlassung leiten lassen.
+Die selbe Aktivität **Bedingung**, die für die Segmentierung verwendet wird (siehe oben), ermöglicht es Ihnen auch, einen Teil der Population auszuschließen. Sie können beispielsweise VIP-Personen ausschließen, indem Sie diese in einen Zweig mit direkt anschließendem Beenden-Schritt führen.
 
-Dieser Ausschluss kann unmittelbar nach Segmentabruf, zu Zwecken der Bevölkerungszählung oder entlang einer mehrstufigen Journey erfolgen.
+Dieser Ausschluss kann unmittelbar nach Segmentabruf, zu Zwecken der Populationszählung oder als Teil einer mehrstufigen Journey erfolgen.
 
 ![](../assets/read-segment-audience2.png)
 
 **Vereinigung**
 
-Mit Journey können Sie N Zweige erstellen und nach einer Segmentierung zusammenführen.
+Journeys erlauben das Erstellen von n Zweigen, die nach einer Segmentierung zusammengeführt werden.
 
-Daher können Sie zwei Audiencen zu einem allgemeinen Erlebnis zurückkehren lassen.
+Daher können Sie zwei Audiences zu einem gemeinsamen Erlebnis zurückkehren lassen.
 
-Wenn Sie beispielsweise während zehn Tagen in einer Journey einem anderen Erlebnis folgen, können VIP und Nicht-VIP zum gleichen Pfad zurückkehren.
+Ein Beispiel: Im Anschluss an ein zehntägiges differenziertes Erlebnis in einer Journey können VIP- und Nicht-VIP-Kunden zum selben Pfad zurückkehren.
 
 Nach einer Vereinigung können Sie die Audience erneut teilen, indem Sie eine Segmentierung oder einen Ausschluss durchführen.
 
