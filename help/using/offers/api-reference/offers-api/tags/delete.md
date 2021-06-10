@@ -1,9 +1,8 @@
 ---
 title: Tags löschen
 description: Mit Tags können Sie Ihre Angebote besser organisieren und sortieren.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
