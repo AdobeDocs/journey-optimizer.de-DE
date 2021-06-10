@@ -1,11 +1,10 @@
 ---
 title: Erstellen von Kollektionen
 description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +56,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Kollektion zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Kollektion zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Sammlung `@id` in einem späteren Lernprogramm verwenden, um eine Entscheidung zu erstellen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Kollektion zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Kollektion zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Kollektions-`@id` in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
 
 ```json
 {
