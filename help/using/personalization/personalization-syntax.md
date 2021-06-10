@@ -24,10 +24,10 @@ Beispiel für einen einfachen Ausdruck:
 {{profile.person.name}}
 ```
 
-where:
+Hier gilt:
 
 * **profileis** ist ein Namespace.
-* **person.name** ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Infos](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+* **person.name** ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
 ## Allgemeine Syntaxregeln
 
@@ -75,7 +75,7 @@ Erfahren Sie in [diesem Abschnitt](functions/helpers.md#if-function), wie Sie Pr
 
 ## Angebote
 
-In diesem Namespace können Sie bestehende Angebote referenzieren.
+In diesem Namespace können Sie bestehende Entscheidungen referenzieren.
 Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die das Angebot definieren.
 
 Dieser Pfad weist die folgende Struktur auf:
@@ -84,7 +84,7 @@ Dieser Pfad weist die folgende Struktur auf:
 offers.Type.[Placement Id].[Activity Id].Attribute
 ```
 
-wobei:
+Hier gilt:
 
 * `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört
 * `Type`  bestimmt den Typ der Angebotsdarstellung. Mögliche Werte sind: `image`, `html` und `text`
@@ -101,25 +101,25 @@ Alle Verweise werden mit einem in [dieser Seite](personalization-validation.md) 
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
-* Target-URL beim Klicken auf das Bild:
+* Ziel-URL beim Klicken auf das Bild:
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Text-Content des Angebots aus der Decisioning-Engine:
+* Text-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML-Content des Angebots aus der Decisioning-Engine:
+* HTML-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## Helper{#helpers-all}
 
 Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können.
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
-Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden Abschluss mit /, desselben Namens.
+Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden Abschluss mit / desselben Namens.
 Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
 
 
