@@ -1,42 +1,41 @@
 ---
-title: Entscheidungen erstellen
+title: Erstellen von Entscheidungen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# Entscheidungen erstellen {#create-offer-activities}
+# Erstellen von Entscheidungen {#create-offer-activities}
 
-Entscheidungen (früher als Angebot-Aktivitäten bezeichnet) sind Container für Ihre Angebot, die die Angebot-Entscheidungsmaschine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands bereitgestellt werden soll.
+Entscheidungen (früher als „Angebotsaktivitäten“ bezeichnet) sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands unterbreitet werden kann.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste der Entscheidungen steht auf der Registerkarte **[!UICONTROL Angebot]** / **[!UICONTROL Entscheidungen]** zur Verfügung. Es stehen Filter zur Verfügung, mit denen Sie Entscheidungen nach Status, Beginn und Enddatum abrufen können.
+Die Liste der Entscheidungen steht im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** zur Verfügung. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
 
 ![](../../assets/activities-list.png)
 
-Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Komponenten in der Angebot-Bibliothek erstellt wurden:
+Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Komponenten in der Angebotsbibliothek erstellt wurden:
 
 * [Platzierungen](../offer-library/creating-placements.md),
 * [Kollektionen](../offer-library/creating-collections.md),
 * [Personalisierte Angebote](../offer-library/creating-personalized-offers.md),
 * [Fallback-Angebote](../offer-library/creating-fallback-offers.md).
 
-## Entscheidung {#create-activity} erstellen
+## Entscheidung erstellen {#create-activity}
 
 1. Greifen Sie auf die Liste der Entscheidungen zu und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
 
-1. Geben Sie den Namen der Entscheidung sowie Beginn und Enddatum und -zeit ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Geben Sie den Namen der Entscheidung sowie das Anfangs- und Enddatum mit Uhrzeit ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](../../assets/activities-name.png)
 
 ## Entscheidungen hinzufügen {#add-decisions}
 
-1. Ziehen Sie eine Platzierung per Drag &amp; Drop aus der Liste, um sie der Entscheidung hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Hinzufügen Sammlung]**.
+1. Ziehen Sie eine Platzierung per Drag-and-Drop aus der Liste, um sie der Entscheidung hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
 
    ![](../../assets/activities-placement.png)
 
@@ -60,7 +59,7 @@ Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Ko
 
    Fügen Sie eines oder mehrere Segmente aus dem linken Bereich hinzu, kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]** und klicken Sie dann zur Bestätigung auf **[!UICONTROL Auswählen]**.
 
-   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -74,9 +73,9 @@ Wählen Sie das Fallback-Angebot aus, das Kunden, die nicht den Regeln der Angeb
 
 ![](../../assets/add-fallback-offer.png)
 
-## Überprüfen und speichern Sie die Entscheidung {#review}
+## Entscheidung überprüfen und speichern {#review}
 
-Wenn alles korrekt konfiguriert ist und Ihre Entscheidung verwendet werden kann, um Angebot Kunden vorzustellen, klicken Sie auf **[!UICONTROL Fertig stellen]** und wählen Sie **[!UICONTROL Speichern und aktivieren]**.
+Wenn alles richtig konfiguriert und Ihre Entscheidung bereit für die Unterbreitung von Angeboten an Kunden ist, klicken Sie auf **[!UICONTROL Beenden]** und dann auf **[!UICONTROL Speichern und aktivieren]**.
 
 Sie können die Entscheidung auch als Entwurf speichern, um sie später zu bearbeiten und zu aktivieren.
 
@@ -86,21 +85,21 @@ Die Entscheidung wird in der Liste mit dem Status **[!UICONTROL Live]** oder **[
 
 Sie ist jetzt bereit, für das Senden von Angeboten an Kunden genutzt zu werden. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
 
-Weitere Informationen zur Bereitstellung von Angeboten finden Sie in den folgenden Abschnitten:
+Weitere Informationen zur Unterbreitung von Angeboten finden Sie in den folgenden Abschnitten:
 
-* [hinzufügen personalisierter Angebot in Nachrichten](../../deliver-personalized-offers.md)
-* [Bereitstellen von Angeboten mithilfe von APIs](../api-reference/decisions-api/deliver-offers.md)
+* [Einfügen personalisierter Angebote in Nachrichten](../../deliver-personalized-offers.md)
+* [Unterbreiten von Angeboten mithilfe von APIs](../api-reference/decisions-api/deliver-offers.md)
 
 ![](../../assets/activities-created.png)
 
 >[!NOTE]
 >
->Nachdem eine Entscheidung erstellt wurde, können Sie in der Liste auf ihren Namen klicken, um auf detaillierte Informationen zuzugreifen und alle daran vorgenommenen Änderungen mithilfe der Registerkarte **[!UICONTROL Änderungsprotokoll]** zu überprüfen (siehe [Änderungsprotokoll](../get-started/user-interface.md#changes-log) für Angebot und Entscheidungen).
+>Sobald eine Entscheidung erstellt wurde, können Sie auf ihren Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen auf der Registerkarte **[!UICONTROL Änderungsprotokoll]** einsehen (siehe [Änderungsprotokoll für Angebote und Entscheidungen](../get-started/user-interface.md#changes-log)).
 
 ## Tutorial {#video}
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
