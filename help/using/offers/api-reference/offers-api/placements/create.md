@@ -1,11 +1,10 @@
 ---
 title: Erstellen einer Platzierung
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +53,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details zur neu erstellten Platzierung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Platzierung zu aktualisieren oder zu löschen. Sie können Ihre einmalige Platzierung `@id` in späteren Übungen verwenden, um Entscheidungen, Entscheidungsregeln und Ausweichregeln zu erstellen.
+Bei einer erfolgreichen Antwort werden die Details zur neu erstellten Platzierung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Platzierung zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihrer Platzierung in späteren Tutorials zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten nutzen.
 
 ```json
 {
