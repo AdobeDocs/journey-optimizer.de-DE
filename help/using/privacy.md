@@ -24,7 +24,7 @@ Die wichtigsten Rechtsvorschriften beziehen sich auf die verschiedenen Einheiten
 * Ein **Auftragsverarbeiter** ist eine natürliche oder juristische Person, die personenbezogene Daten gemäß den Anweisungen des Datenverantwortlichen erfasst, verwendet oder weitergibt.
 * Eine **betroffene Person** ist eine lebende Person, deren personenbezogene Daten erfasst, verwendet oder weitergegeben werden und die direkt oder indirekt anhand dieser personenbezogenen Daten identifiziert werden kann.
 
-Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Cloud fungiert als Auftragsverarbeiter, wenn wir deren personenbezogene Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass Sie als Datenverantwortlicher für die Beziehung zu den betroffenen Personen verantwortlich sind.
+Als Unternehmen, das personenbezogene Daten erfasst und weitergibt, sind Sie daher der Datenverantwortliche, Ihre Kunden sind die betroffenen Personen und Adobe Experience Cloud fungiert als Auftragsverarbeiter, wenn wir deren personenbezogene Daten gemäß Ihren Anweisungen verarbeiten. Beachten Sie, dass Sie als Datenverantwortlicher für die Beziehung zu den betroffenen Personen verantwortlich sind.
 
 ## Allgemeine Empfehlungen {#general-recommendations}
 
@@ -61,7 +61,7 @@ Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwe
 
 ## Adobe Experience Cloud – Datenschutz {#experience-cloud-privacy}
 
-Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen der Adobe Experience Cloud. [Erfahren Sie mehr über den Datenschutz in Adobe Experience Cloud](https://www.adobe.com/de/privacy/experience-cloud.html).
+Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen von Adobe Experience Cloud. [Weitere Informationen zum Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
 
 Als Unternehmen, das Adobe Experience Cloud-Lösungen nutzt, entscheiden Sie selbst, welche Informationen erfasst und an Ihr Adobe Experience Cloud-Konto gesendet werden sollen. Beispiele für die Arten von Informationen, die erfasst werden können, sind Webbrowsing-Aktivitäten, IP-Adressen, Standortinformationen von Mobilgeräten, Erfolgsquoten von Kampagnen, gekaufte oder in den Warenkorb gelegte Artikel usw. Weitere Informationen finden Sie in der [Datenschutzerklärung von Adobe](https://www.adobe.com/de/privacy/policy.html).
 
@@ -72,6 +72,6 @@ Adobe fordert Sie auf, Ihren Kunden Datenschutzrichtlinien bereitzustellen, in d
 
 >[!NOTE]
 >
->Wie bei allen Produkten von Adobe können Journey Optimizer-Benutzer der Weitergabe ihrer Informationen, die über Apps und Websites erfasst wurden, widersprechen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
+>Wie bei allen Produkten von Adobe können Journey Optimizer-Benutzer der Weitergabe ihrer Informationen, die über Mobile Apps und Websites erfasst wurden, widersprechen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
