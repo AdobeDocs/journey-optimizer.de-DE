@@ -1,25 +1,24 @@
 ---
-title: Info zu ExperienceEvent-Schemas für Journey-Ereignis
-description: Erfahren Sie mehr über ExperienceEvent-Schema für Journey-Ereignis
-translation-type: tm+mt
+title: Über ExperienceEvent-Schemas für Journey-Ereignisse
+description: Erfahren Sie mehr über ExperienceEvent-Schemas für Journey-Ereignisse
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# Informationen zu ExperienceEvent-Schemata für [!DNL Journey Optimizer]-Ereignisse
+# Informationen zu ExperienceEvent-Schemasa für [!DNL Journey Optimizer]-Ereignisse
 
 ![](../assets/do-not-localize/badge.png)
 
-[!DNL Journey Optimizer] Ereignis sind XDM Experience Ereignis, die über Streaming Ingestion an Adobe Experience Platform gesendet werden.
+[!DNL Journey Optimizer]-Ereignisse sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
 
-Eine wichtige Voraussetzung für das Einrichten von Ereignissen für [!DNL Journey Optimizer] ist, dass Sie mit dem Adobe Experience Platform Experience Data Model (oder XDM) vertraut sind und wie Sie XDM Experience Ereignis-Schema zusammenstellen sowie wie Sie XDM-formatierte Daten an Adobe Experience Platform streamen können.
+Eine wichtige Voraussetzung für das Einrichten von [!DNL Journey Optimizer]-Ereignissen ist daher, dass Sie mit dem Experience-Datenmodell (oder XDM) von Adobe Experience Platform und dem Erstellen von XDM-Erlebnisereignisschemas sowie dem Streamen von XDM-formatierten Daten an Adobe Experience Platform vertraut sind.
 
 ## Schemaanforderungen an [!DNL Journey Optimizer]-Ereignisse
 
-Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Optimizer] besteht darin, sicherzustellen, dass ein XDM-Schema zur Darstellung des Ereignisses definiert ist und ein Datensatz, der zum Aufzeichnen von Instanzen des Ereignisses auf Adobe Experience Platform erstellt wurde. Es ist nicht unbedingt erforderlich, einen Datensatz für Ihre Ereignisse zu haben. Wenn Sie die Ereignisse jedoch an einen bestimmten Datensatz senden, können Sie den Ereignisverlauf der Benutzer zur späteren Bezugnahme und Analyse aufbewahren. Dies ist daher immer empfehlenswert. Wenn Sie noch kein geeignetes Schema und einen entsprechenden Datensatz für Ihr Ereignis haben, können beide Aufgaben in der Adobe Experience Platform-Weboberfläche durchgeführt werden.
+Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Optimizer] besteht darin sicherzustellen, dass Sie ein XDM-Schema zur Darstellung des Ereignisses definiert und einen Datensatz erstellt haben, um Instanzen des Ereignisses in Adobe Experience Platform zu erfassen. Es ist nicht unbedingt erforderlich, einen Datensatz für Ihre Ereignisse zu haben. Wenn Sie die Ereignisse jedoch an einen bestimmten Datensatz senden, können Sie den Ereignisverlauf der Benutzer zur späteren Bezugnahme und Analyse aufbewahren. Dies ist daher immer empfehlenswert. Wenn Sie noch kein geeignetes Schema oder keinen geeigneten Datensatz für Ihr Ereignis haben, können Sie beide über die Web-Oberfläche von Adobe Experience Platform erstellen.
 
 ![](../assets/schema1.png)
 
