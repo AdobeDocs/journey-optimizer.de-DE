@@ -1,82 +1,81 @@
 ---
-title: Überwachung der Nachrichtenausführung
-description: Richtlinien zur Überwachung und Bereitstellung
-translation-type: tm+mt
+title: Überwachen der Nachrichtenausführung
+description: Lernen Sie Richtlinien zur Überwachung und Zustellbarkeit kennen
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Verwalten von Unterdrückungs-Listen {#manage-suppression-lists}
+# Verwalten von Unterdrückungslisten {#manage-suppression-lists}
 
 ![](assets/do-not-localize/badge.png)
 
-Eine Unterdrückungs-Liste besteht aus E-Mail-Adressen, die Sie von Ihren Versänden ausschließen möchten, da das Senden an diese Kontakte Ihren Ruf und Ihre Versand beeinträchtigen könnte.
+Eine Unterdrückungsliste besteht aus E-Mail-Adressen, die Sie von Ihren Sendungen ausschließen möchten, da das Senden an diese Kontakte Ihren Ruf als Versender und Ihre Versandraten beeinträchtigen könnte.
 
-Die Journey Optimizer **Suppression-Liste** wird auf Ihrer eigenen Umgebung verwaltet. Es sammelt Spam-Beschwerden, harte Absprünge und weiche Absprünge, die konsistent ablaufen.
+Die **Unterdrückungsliste** in Journey Optimizer wird auf der Ebene Ihrer eigenen Umgebung verwaltet. Sie sammelt Spam-Beschwerden, Hardbounces und Softbounces, die ständig auftreten.
 
-## Warum unterdrückende Listen? {#why-suppression-lists}
+## Warum Unterdrückungslisten? {#why-suppression-lists}
 
-Um die E-Mail-Nachrichten zu kontrollieren, die von den Inbox-Inhabern empfangen werden, und sicherzustellen, dass sie nur die von ihnen gewünschten Nachrichten erhalten, verfügen Internet-Dienstleister (ISPs) und kommerzielle Spam-Filter über eigene Algorithmen, um den allgemeinen Ruf von E-Mail-Absendern anhand der IP-Adressen und der sendenden Domäne(n), die sie verwenden, zu verfolgen.
+Um die E-Mail-Nachrichten zu kontrollieren, die von den Inhabern der Posteingänge empfangen werden, und sicherzustellen, dass sie nur die von ihnen gewünschten Nachrichten erhalten, verfügen Internet-Dienstleister (ISPs) und kommerzielle Spam-Filter über eigene Algorithmen, um den allgemeinen Ruf von E-Mail-Versendern anhand der IP-Adressen und der sendenden Domain(s), die sie verwenden, zu verfolgen.
 
-Wenn Sie kein Feedback abgeben (z. B. Spam-Beschwerden, Absprünge usw.) berücksichtigen, wird Ihr Ruf heruntergestuft. Die Unterdrückungs-Liste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
+Wenn Sie deren Feedback (z. B. Spam-Beschwerden, Bounces usw.) nicht berücksichtigen, werden sie Ihre Reputation herabstufen. Die Unterdrückungsliste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
 
-Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch aus dem Versand der Nachricht ausgeschlossen. Dies beschleunigt die Zustellung, da sich die Fehlerrate maßgeblich auf die Zustellgeschwindigkeit auswirkt.
+Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vom Versand der Nachricht ausgeschlossen. Dies beschleunigt den Versand, da sich die Fehlerrate maßgeblich auf die Versandgeschwindigkeit auswirkt.
 
 ### Spam-Beschwerden {#spam-complaints}
 
-Die Unterdrückungs-Liste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam kennzeichnen. Das Senden an Empfänger, nachdem sie eine Spam-Beschwerde eingereicht haben, kann sich sehr auf Ihren Ruf auswirken, da es ISPs mitteilt, dass Sie unerwünschte E-Mails senden und möglicherweise nicht auf Ihre Empfänger hören.
+Die Unterdrückungsliste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam kennzeichnen. Das Senden an Empfänger, nachdem sie eine Spam-Beschwerde eingereicht haben, kann sich sehr auf Ihren Ruf auswirken, da es den ISPs mitteilt, dass Sie unerwünschte E-Mails senden und möglicherweise nicht auf Ihre Empfänger hören.
 
-Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domäne blockiert wird, was vermieden werden kann, dass diese Adressen auf der Unterdrückungs-Liste vorhanden sind.
+Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domain blockiert wird. Das kann vermieden werden, wenn diese Adressen auf der Unterdrückungsliste vorhanden sind.
 
 ### Bounces {#bounces}
 
-Darüber hinaus enthält die Unterdrückungs-Liste E-Mail-Adressen, die zu oft abgesprungen werden oder zu oft abspringen. Wenn Sie weiterhin an diese Adressen senden, kann dies sich auf Ihre Versand-Raten auswirken, da es den ISPs mitteilt, dass Sie möglicherweise die Best Practices zur Wartung der E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Absender sind.
+Darüber hinaus enthält die Unterdrückungsliste E-Mail-Adressen, die zu Hardbounces führen oder zu oft zu Softbounces führen. Wenn Sie weiterhin an diese Adressen senden, kann sich dies auf Ihre Versandraten auswirken, da es den ISPs mitteilt, dass Sie möglicherweise die Best Practices zur Wartung von E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Versender sind.
 
-## Suppression-Liste-Management {#suppression-list-management}
+## Verwalten der Unterdrückungsliste {#suppression-list-management}
 
-Die Journey Optimizer-Unterdrückungs-Liste erfasst E-Mail-Adressen und Domänen, die in allen Mailings **in einer Client-Umgebung** unterdrückt werden, was für eine IMS-Organisations-ID gilt, die mit einer Sandbox-ID verknüpft ist.
+Die Unterdrückungsliste in Journey Optimizer sammelt E-Mail-Adressen und Domains, die für alle Mailings **in einer einzigen Client-Umgebung** unterdrückt werden, d. h. spezifisch für eine IMS-Organisations-ID, die mit einer Sandbox-ID verbunden ist.
 
-Mit der Unterdrückungs-Liste können Sie automatisch Folgendes erfassen:
-* E-Mail-Adressen, die ungültig sind oder die durchgängig weich abspringen und sich negativ auf Ihren E-Mail-Ruf auswirken können, wenn Sie sie weiterhin in Ihre Versand aufnehmen.
-* Empfänger, die eine Spam-Beschwerde gegen eine Ihrer E-Mails ausstellen.
+Mit der Unterdrückungsliste können Sie automatisch Folgendes erfassen:
+* E-Mail-Adressen, die ungültig sind oder die durchgängig zu Softbounces führen und sich negativ auf Ihre E-Mail-Reputation auswirken können, wenn Sie sie weiterhin in Ihre Sendungen aufnehmen.
+* Empfänger, die eine Spam-Beschwerde gegen eine Ihrer E-Mails einreichen.
 
-Wenn zum Beispiel jemand an einen Kundendienst schreibt, der darum bittet, nie wieder E-Mails von Ihnen zu erhalten, wird die E-Mail-Adresse dieser Person in Ihrer gesamten Instanz unterdrückt, und Sie können diese Adresse nicht mehr an diese Adresse senden.
+Wenn zum Beispiel jemand an den Kundendienst schreibt und darum bittet, nie wieder E-Mails von Ihnen zu erhalten, wird die E-Mail-Adresse dieser Person in Ihrer Instanz unterdrückt und Sie können nicht mehr an diese Adresse versenden.
 
 <!--For each address, the basic reason for suppression (soft bounces, a hard bounce or a spam complaint) will be shown in the Suppression list.-->
 
-### Versand-Fehler {#delivery-failures}
+### Versandfehler {#delivery-failures}
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
 Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
-* **Hardbounce**. Eine feste Adresse weist auf eine ungültige E-Mail-Adresse hin (d. h. eine nicht vorhandene E-Mail-Adresse). Dies umfasst eine Absprungmeldung des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist, z. B. &quot;Unbekannte Nutzer&quot;.
-* **Softbounce**. Dies ist ein temporärer E-Mail-Absprung, der für eine gültige E-Mail-Adresse aufgetreten ist.
-* **Ignoriert**. Hierbei handelt es sich um einen E-Mail-Absprung, der für eine gültige E-Mail-Adresse aufgetreten ist, aber als vorübergehend bekannt ist, z. B. ein fehlgeschlagener Verbindungsversuch, ein temporäres Spam-Problem (E-Mail-Ruf) oder ein temporäres technisches Problem.
+* **Hardbounce**. Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies umfasst eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist, z. B. „Nutzer unbekannt“.
+* **Softbounce**. Dies ist ein temporärer E-Mail-Bounce, der bei einer gültige E-Mail-Adresse aufgetreten ist.
+* **Ignoriert**. Dies ist ein E-Mail-Bounce, der bei einer gültigen E-Mail-Adresse aufgetreten ist, aber bekanntermaßen vorübergehend ist, z. B. ein fehlgeschlagener Verbindungsversuch, ein vorübergehendes Spam-Problem (E-Mail-Reputation) oder ein vorübergehendes technisches Problem.
 
-Die harten Absprünge und weichen Absprünge können ein Grund dafür sein, dass eine E-Mail-Adresse automatisch zur Unterdrückungs-Liste hinzugefügt wird.
+Hardbounces und Softbounces können ein Grund dafür sein, dass eine E-Mail-Adresse automatisch in die Unterdrückungsliste aufgenommen wird.
 
-### Was ist mit der Unterdrückungs-Liste? {#what-s-on-suppression-list}
+### Was steht in der Unterdrückungsliste? {#what-s-on-suppression-list}
 
-E-Mail-Adressen werden wie folgt zur Unterdrückungs-Liste hinzugefügt:
+E-Mail-Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
 
-* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden E-Mail-Adressen nach einem einzigen Vorfall automatisch an die Suppression-Liste.
+* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden E-Mail-Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste.
 
-* **Weiche** Absprünge senden nicht sofort eine E-Mail-Adresse an die Unterdrückungs-Liste, sondern erhöhen einen Fehlerzähler. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungs-Liste hinzugefügt.
+* **Softbounces** senden eine E-Mail-Adresse nicht sofort an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die E-Mail-Adresse der Unterdrückungsliste hinzugefügt.
 
-   Der Schwellenwert wird auf drei Fehler festgelegt:
+   Der Schwellenwert ist auf drei Fehler festgelegt:
    * Im selben Versand wird die Adresse beim dritten Versuch unterdrückt.
-   * Wenn es unterschiedliche Versand gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler inkrementiert und die Adresse wird auch beim dritten Versuch unterdrückt.
+   * Wenn es unterschiedliche Sendungen gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim dritten Versuch unterdrückt.
 
-   Wenn ein Versand nach einem erneuten Versuch erfolgreich war, wird der Fehlerzähler der Adresse erneut initialisiert.
+   Wenn ein Versand nach einem erneuten Versuch erfolgreich war, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
 
 ### Weitere Zustellversuche {#retries}
 
-Wenn eine Nachricht aufgrund eines temporären Absprungs des Typs **Ignoriert** fehlschlägt, werden weitere Zustellversuche für **3,5 Tage** ausgeführt, nachdem die Nachricht der E-Mail-Warteschlange hinzugefügt wurde.
+Wenn eine Nachricht aufgrund eines temporären Bounces des Typs **Ignoriert** fehlschlägt, werden Wiederholungsversuche für **3,5 Tage** ab dem Zeitpunkt, an dem die Nachricht der E-Mail-Warteschlange hinzugefügt wurde, durchgeführt.
 
-Die minimale Verzögerung zwischen weiteren Zustellversuchen und die maximale Anzahl der auszuführenden weitere Zustellversuche sind <!--managed by the Enhanced MTA,--> abhängig davon, wie gut eine IP läuft, sowohl historisch als auch aktuell in einer bestimmten Domäne.
+Das Mindestintervall zwischen erneuten Zustellversuchen und die maximale Anzahl weiterer Zustellversuche <!--managed by the Enhanced MTA,--> basieren sowohl auf der historischen als auch aktuellen Leistung einer IP-Adresse in einer bestimmten Domain.
 
-Nach 3,5 Tagen werden alle Nachrichten in der Warteschlange zum Wiederholen aus der Warteschlange entfernt und als Absprung zurückgesendet.
+Nach 3,5 Tagen wird jede Nachricht aus der Warteschlange für weitere Versuche entfernt und als Bounce zurückgesendet.
