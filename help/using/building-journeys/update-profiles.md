@@ -1,11 +1,10 @@
 ---
 title: Profil aktualisieren
-description: Erfahren Sie, wie Sie die Aktivität Update Profil in einer Journey verwenden
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+description: Erfahren Sie, wie Sie die Aktivität „Profil aktualisieren“ in einer Journey verwenden
+source-git-commit: ce9484905b359900096858e46c05aef09efaa760
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '462'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +27,9 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
 Im Testmodus wird die Aktualisierung des Profils nicht simuliert. Die Aktualisierung wird für das Testprofil durchgeführt.
 
-Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder ein neues Testprofil erstellen oder ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie Attribute von Profilen über einen CSV-Dateiimport- oder API-Aufruf aktualisieren. Eine einfachere Methode besteht darin, eine Aktivität für die Aktion **Profil aktualisieren** zu verwenden und das boolesche Testfeld des Profils von &quot;false&quot;in &quot;true&quot;zu ändern.
+Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder ein neues Testprofil erstellen oder ein vorhandenes Profil in ein Testprofil umwandeln. In Adobe Experience Platform können Sie Attribute von Profilen über einen CSV-Dateiimport oder API-Aufruf aktualisieren. Eine einfachere Methode besteht darin, eine Aktivität für die Aktion **Profil aktualisieren** zu verwenden und das boolesche Feld „Testprofil“ von „false“ in „true“ zu ändern.
 
-Weitere Informationen dazu, wie Sie ein vorhandenes Profil in ein Test-Profil umwandeln, finden Sie in diesem [Abschnitt](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+Weitere Informationen dazu, wie Sie ein vorhandenes Profil in ein Testprofil umwandeln, finden Sie in diesem [Abschnitt](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
 
 ## Verwenden der Profilaktualisierung
 
@@ -46,7 +45,11 @@ Weitere Informationen dazu, wie Sie ein vorhandenes Profil in ein Test-Profil um
 
    ![](../assets/profileupdate2.png)
 
-1. Wählen Sie einen Datensatz aus der Liste aus. Die Auswahl des Datensatzes bestimmt, wo der neue Wert des Profilfelds gespeichert wird.
+1. Wählen Sie einen Datensatz aus der Liste aus.
+
+   >[!NOTE]
+   >
+   >Die Aktion **Profil** aktualisieren aktualisiert die Profildaten in Echtzeit, aktualisiert jedoch keine Datensätze. Die Datensatzauswahl ist erforderlich, da das Profil ein Datensatz ist, der mit einem Datensatz verknüpft ist.
 
 1. Klicken Sie auf das Feld **Wert**, um den gewünschten Wert zu definieren:
 
