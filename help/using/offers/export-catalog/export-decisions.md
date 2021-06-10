@@ -18,27 +18,27 @@ Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchis
 
 >[!NOTE]
 >
->In [diesem Abschnitt](../export-catalog/access-dataset.md) erfahren Sie, wie Sie auf die exportierten Datensätze für die einzelnen Objekte Ihrer Angebotsbibliothek zugreifen.
+>In [diesem Abschnitt ](../export-catalog/access-dataset.md) erfahren Sie, wie Sie auf die exportierten Datensätze für die einzelnen Objekte Ihrer Angebotsbibliothek zugreifen.
 
 Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL Entscheidungsobjekt-Repository – Entscheidungen]** (ehemals „Entscheidungsobjekt-Repository – Aktivitäten“) verwendet werden können.
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## ID
+## Kennung
 
 **Feld:** _id
-**Titel:** Kennung 
-**Beschreibung:** Eine eindeutige Kennung für den Eintrag.
+**Titel:** Kennung
+**Beschreibung:** Eindeutige Kennung des Datensatzes.
 **Typ:** Zeichenfolge
 
-## _Erlebnis
+## _experience
 
-**Feld:** _Erlebnis 
+**Feld:** _experience 
 **Typ:** Objekt
 
 ### _experience > decisioning
 
-**Feld:** Entscheidungsfindung 
+**Feld:** decisioning
 **Typ:** Objekt
 
 #### _experience > decisioning > kriterien
@@ -46,7 +46,7 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 **Feld:** Kriterien
 **Titel:** Kriterien
 **Beschreibung:** Definiert einen Satz von Entscheidungskriterien, bei denen jede eine Reihe von Einschränkungen enthält.
-**Typ:** Array
+**Typ: Array**
 
 **_experience > decisioning > kriterien > description**
 
@@ -60,36 +60,36 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 **Feld:** optionSelection 
 **Title:** Option Selection 
 **Description:** Die Optionsauswahl definiert die Gültigkeit/Anwendbarkeit von Optionen in diesem Kontext.
-**Typ:** Objekt
+**Typ: Objekt**
 
 * **Beschreibung**
 
-   **Feld:** Beschreibung
+   **Feld:** description
    **Titel:** Beschreibung
-   **Beschreibung:** Beschreibung der Optionsauswahl. Es wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum diese Optionsauswahl konstruiert wurde und/oder welche Option am besten passt.
+   **Beschreibung:** Beschreibung der Optionsauswahl. Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum diese Optionsauswahl konstruiert wurde und/oder welche Option am besten passt.
    **Typ:** Zeichenfolge
 
 * **Optionsfilter**
 
-   **Feld:** Filter
+   **Feld:** filter
    **Titel:** Optionsfilter
    **Beschreibung:** Der Verweis auf einen Tag-basierten Filter, der Optionen aus einem Bestand anhand ihrer beigefügten Tags zuordnet. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
    **Typ:** Zeichenfolge
 
-* **Profilbegrenzungs-Typ**
+* **Profilbegrenzungstyp**
 
    **Feld:** optionSelectionType
-   **Titel:** Profilbegrenzungs-Typ
-   **Beschreibung:** Ermittelt, ob aktuell Begrenzungen gesetzt sind und wie die Begrenzungen ausgedrückt werden. Es kann über eine Filterabfrage oder über eine oder mehrere Segmentzugehörigkeit/en erfolgen.
+   **Titel:**Profilbegrenzungstyp
+   **Beschreibung:** Bestimmt, ob Begrenzungen derzeit aktiv sind und in welcher Form die Begrenzungen definiert sind. Es kann über eine Filterabfrage oder über eine oder mehrere Segmentzugehörigkeiten erfolgen.
    **Typ:** Zeichenfolge
    **Mögliche Werte:** &quot;none&quot;(Standard), &quot;directList&quot;, &quot;filter&quot;
 
 * **Optionsliste**
 
-   **Feld:** Optionen
+   **Feld:** options
    **Titel:** Optionsliste
-   **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
-   **Typ:** Array
+   **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage auszuwerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
+   **Typ: Array**
 
    <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -98,7 +98,7 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 **Feld:** Platzierungstitel 
 **:** Platzierungsbeschränkungen 
 **Beschreibung:** Die Platzierungsbegrenzung gibt an, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die Zielplatzierung in der Liste `xdm:placements` befindet, wird die Optionsauswahl berücksichtigt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede Zielplatzierung berücksichtigt. Die hier aufgeführten Platzierungen stellen implizite Kriterien für die Optionsauswahl dar. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
-**Typ:** Array
+**Typ: Array**
 
 * **Platzierungs-ID**
 
@@ -110,42 +110,42 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 
 **Feld:** profileConstraints 
 **Title:** Profile Constraint 
-**Description:**  Die Profilbegrenzung entscheidet, ob eine Optionsauswahl in diesem Moment, in diesem Kontext, für diese Profilidentität geeignet ist. Wenn die Profilbegrenzung die Werte der einzelnen Optionen nicht berücksichtigen muss und invariant gegenüber der Optionsauswahl ist, wird die gesamte Optionsauswahl durch die Profilbegrenzung, die als „false“ ausgewertet wird, abgebrochen. Andererseits wird eine Profilbegrenzungsregel, die eine Option als Parameter akzeptiert, für jede geeignete Option der Optionsauswahl ausgewertet.
-**Typ:** Objekt
+**Description:**  Die Profilbegrenzung entscheidet, ob eine Optionsauswahl in diesem Moment, in diesem Kontext, für diese Profilidentität geeignet ist. Wenn die Profilbegrenzung die Werte der einzelnen Optionen nicht berücksichtigen muss und invariant gegenüber der Optionsauswahl ist, wird die gesamte Optionsauswahl durch die Profilbegrenzung abgebrochen, die als „false“ ausgewertet wird. Andererseits wird eine Profilbegrenzungsregel, die eine Option als Parameter akzeptiert, für jede geeignete Option der Optionsauswahl ausgewertet.
+**Typ: Objekt**
 
 * **_experience > decisioning > Kriterien > profileConstraints > Beschreibung**
 
-   **Feld:** Beschreibung
+   **Feld:** description
    **Titel:** Beschreibung
-   **Beschreibung:** Beschreibung der Profilbegrenzung. Es wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum diese Profilbegrenzung konstruiert wurde und/oder welche Option durch sie ein- oder ausgeschlossen wird.
+   **Beschreibung:** Beschreibung der Profilbegrenzung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
    **Typ:** Zeichenfolge
 
 * **_experience > decisioning > kriterien > profileConstraints > Eignungsregel**
 
    **Feld:** eligibilityRule
    **Titel:** Eignungsregel
-   **Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte mit „true“ oder „false“ bewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
+   **Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob eine Option für ein bestimmtes Profil geeignet ist. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
    **Typ:** Zeichenfolge
 
 * **_experience > decisioning > kriterien > profileConstraints > Profil Constraint Type**
 
    **Feld:** profileConstraintType
-   **Titel:** Profilbegrenzungs-Typ
-   **Beschreibung:** Ermittelt, ob aktuell Begrenzungen gesetzt sind und wie die Begrenzungen ausgedrückt werden. Es könnte durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
+   **Titel:**Profilbegrenzungstyp
+   **Beschreibung:** Bestimmt, ob Begrenzungen derzeit aktiv sind und in welcher Form die Begrenzungen definiert sind. Begrenzungen können durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten festgelegt sein.
    **Typ:** Zeichenfolge
    **Mögliche Werte:**
    * „none“ (Standard)
-   * „eligibilityRule“: „Die Profilbegrenzung wird als eine einzige Regel ausgedrückt, die als „true“ bewertet werden muss, bevor die eingeschränkte Aktion zulässig ist.“
-   * „anySegments“: „Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss Mitglied von mindestens einem von ihnen sein, bevor die eingeschränkte Aktion zulässig ist.“
-   * „allSegments“: „Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss Mitglied aller Segmente sein, bevor die eingeschränkte Aktion zulässig ist.“
-   * „rules“: „Die Profilbegrenzung wird als eine Reihe unterschiedlicher Regeln ausgedrückt, z. B. Eignung, Anwendbarkeit, Zweckmäßigkeit, die alle als „true“ bewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
+   * „eligibilityRule“: „Die Profilbegrenzung wird als eine einzige Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die eingeschränkte Aktion zulässig ist.“
+   * „anySegments“: „Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss mindestens einem Segment angehören, damit die begrenzte Aktion zulässig ist.“
+   * „allSegments“: „Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss allen Segmenten angehören, damit die eingeschränkte Aktion zulässig ist.“
+   * „rules“: „Die Profilbegrenzung wird als eine Reihe von verschiedenen Regeln ausgedrückt, wie Qualifizierung, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, damit die eingeschränkte Aktion zulässig ist.“
 
 * **_experience > decisioning > kriterien > profileConstraints > segmentIdentities**
 
    **Feld:** segmentIdentities
    **Titel:** Segmentkennungen
    **Beschreibung:** Kennungen der Segmente.
-   **Typ:** Array
+   **Typ: Array**
 
    * **ID**
 
@@ -156,22 +156,22 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 
    * **namespace**
 
-      **Feld:** Namespace
+      **Feld:** namespace
       **Titel:** Namespace
-      **Beschreibung:** Der mit dem Attribut `xid` verknüpfte Namespace.
-      **Typ:** Objekt
-      **Erforderlich:** „Code“
+      **Beschreibung:** Der mit dem `xid`-Attribut verknüpfte Namespace.
+      **Typ: Objekt**
+      **Erforderlich:** „code“
 
       * **Code**
 
-         **Feld:** Code
+         **Feld:** code
          **Titel:** Code
-         **Beschreibung:** Der Code ist eine für den Menschen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
+         **Beschreibung:** Der Code ist eine von Personen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
          **Typ:** Zeichenfolge
-   * **Erlebnis-ID**
+   * **Erlebniskennung**
 
       **Feld:** xid
-      **Titel:** Erlebnis-ID
+      **Titel:** Erlebniskennung
       **Beschreibung:** Falls vorhanden, stellt dieser Wert eine Namespace-übergreifenden Kennung dar, die über alle Kennungen in allen Namespaces eindeutig ist.
       **Typ:** Zeichenfolge
 
@@ -180,46 +180,46 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 
 **Feld:** ranking 
 **Titel:** Ranking-Details 
-**Beschreibung:** Rangfolge (Priorität) Definiert, wie die \&quot;best option\&quot; angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
-**Typ:** Objekt
+**Beschreibung:** Rangfolge (Priorität) Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
+**Typ: Objekt**
 
 * **_experience > decisioning > kriterien > ranking > order**
 
-   **Feld:** Reihenfolge
-   **Titel:** Bewertung der Reihenfolge
-   **Beschreibung:** Bewertung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalwerten werden vor allen Optionen mit niedrigeren Ordinalwerten ausgewählt. Die mit dieser Methode ermittelten Werte können geordnet werden, aber Abstände zwischen ihnen können nicht gemessen werden und es können weder Summen noch Produkte berechnet werden. Der Median und der Modus sind die einzigen Maße der zentralen Tendenz, die für ordinale Daten verwendet werden können.
-   **Typ:** Objekt
+   **Feld:** order
+   **Titel:** Evaluierung der Rangfolge
+   **Beschreibung:** Evaluierung einer relativen Rangfolge von einer oder mehreren Entscheidungsoptionen. Optionen mit höheren Ordinalwerten werden vor allen Optionen mit niedrigeren Ordinalwerten ausgewählt. Die durch diese Methode ermittelten Werte können sortiert werden, die Abstände zwischen den Werten lassen sich jedoch nicht bestimmen und es können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
+   **Typ: Objekt**
 
    * **Scoring-Funktion**
 
-      **Feld:** Funktion
+      **Feld:** function
       **Titel:** Scoring-Funktion
-      **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Punktwert für diese Entscheidungsoption berechnet. Die Entscheidungsoptionen werden dann nach diesem Punktwert geordnet (gereiht). Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die mit jeweils einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
+      **Beschreibung:** Ein Verweis auf eine Funktion, die ein numerisches Scoring für diese Entscheidungsoption berechnet. Die Entscheidungsoptionen werden dann entsprechend diesem Ergebnis geordnet (sortiert). Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit der Option „on“ aufgerufen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
       **Typ:** Zeichenfolge
 
-   * **Reihenfolgenbewertungstyp**
+   * **Typ der Rangfolgenevaluierung**
 
       **Feld:** orderEvaluationType
-      **Titel:** Reihenfolgenbewertungstyp
-      **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste zum Ordnen erhält.
+      **Titel:** Typ der Rangfolgenevaluierung
+      **Beschreibung:** Bestimmt den Mechanismus zur Evaluierung der Rangfolge, die statische Priorität der Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Strategie zur Bestimmung der Rangfolge, die auf eine Liste angewendet wird.
       **Typ:** Zeichenfolge
       **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 
-   * **Rangfolgestrategie**
+   * **Ranking-Strategie**
 
       **Feld:** rankingStrategy
-      **Titel:** Rangfolgestrategie
-      **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste mit Entscheidungsoptionen in eine Rangfolge bringt. Die Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die mit jeweils einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+      **Titel:** Ranking-Strategie
+      **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste der Entscheidungsoption nach ihrer Rangfolge sortiert. Die Entscheidungsoptionen werden in einer sortierten Liste zurückgegeben. Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit der Option „on“ aufgerufen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
       **Typ:** Zeichenfolge
 
 * **_experience > decisioning > kriterien > ranking > priority**
 
-   **Feld:** Priorität
+   **Feld:** priority
    **Titel:** Priorität
-   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Ordnungsfunktion angegeben ist, werden mit dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor den Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine davon nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
-   **Typ:** Ganzzahl
+   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen ohne definierte Rangfolgen-Funktion werden anhand dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor den Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+   **Typ:** integer
    **Mindestwert:** 0
-   **Standardwert** 0
+   **Standardwert:** 0
 
 #### _experience > decisioning > Activity End Date and Time
 
@@ -230,7 +230,7 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 
 #### _experience > decisioning > Fallback-Option
 
-**Feld:** Fallback 
+**Feld:** fallback 
 **Titel:** Fallback-Option 
 **Beschreibung:** Der Verweis auf eine Fallback-Option, die bei der Entscheidung im Kontext dieser Entscheidung verwendet wird, qualifiziert keine der regulären Optionen (dies geschieht typischerweise, wenn harte Begrenzungen angewendet werden). Der Wert ist der URI (@id) der Fallback-Option, auf die verwiesen wird.
 **Typ:** Zeichenfolge
@@ -242,7 +242,7 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 **Description:** Entscheidungsname (ehemals &quot;activity&quot;), der in verschiedenen Benutzeroberflächen angezeigt wird.
 **Typ:** Zeichenfolge
 
-#### _Erlebnis > Entscheidung > Anfangsdatum und -zeit der Aktivität
+#### _experience > Entscheidung > Anfangsdatum und -zeit der Aktivität
 
 **Feld:** startTime 
 **Title:** Activity Start Date and Time 
@@ -251,7 +251,7 @@ Im Folgenden finden Sie die Liste aller Felder, die im Datensatz **[!UICONTROL E
 
 ## _repo
 
-**Feld:** _repo
+**Feld:** _repo-
 **Typ:** Objekt
 
 ### _repo > Activity ETag
