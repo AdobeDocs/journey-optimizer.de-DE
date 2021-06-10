@@ -1,9 +1,8 @@
 ---
 title: Aktionsausführungsfelder für journeyStep-Ereignisse
 description: Aktionsausführungsfelder für journeyStep-Ereignisse
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ Typ: Zeichenfolge
 
 Gibt an, ob die Aktion parametrisiert wurde oder nicht.
 
-Typ: boolean
+Typ: boolesch
 
 ## actionExecutionTime
 
@@ -125,7 +124,7 @@ Typ: Zeichenfolge
 
 Beschreibt, ob die Batch-Journey im Zielgruppensegment ausgelöst wird.
 
-Typ: boolean
+Typ: boolesch
 
 ## actionSchedulerCount
 
