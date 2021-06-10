@@ -1,11 +1,10 @@
 ---
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,8 +51,8 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
 * Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
-* Sie können nicht zu einer Journey springen, die Beginn mit einem **Segmentqualifizierung**-Ereignis oder **Read segment** enthält.
-* Sie können keine **[!UICONTROL Jump]**-Aktivität und eine **Segmentqualifizierung** oder ein **Read-Ereignis** im selben Journey haben.
+* Sie können nicht in eine Journey springen, die mit einem **Segmentqualifikationsereignis** oder **Segment lesen** beginnt.
+* Dieselbe Journey darf nicht eine **[!UICONTROL Sprungaktivität]** und ein **Segmentqualifikationsereignis** oder **Segment lesen** gleichzeitig enthalten.
 * Sie können so viele **[!UICONTROL Sprungaktivitäten]** in eine Journey aufnehmen, wie Sie benötigen. Nach einem **[!UICONTROL Sprung]** können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
