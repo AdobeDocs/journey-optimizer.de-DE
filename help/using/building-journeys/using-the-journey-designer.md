@@ -1,5 +1,5 @@
 ---
-title: Entwerfen Ihrer Journey
+title: Gestalten einer Journey
 description: Erfahren Sie, wie Sie Ihre Journey entwerfen
 source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
@@ -8,13 +8,13 @@ ht-degree: 98%
 
 ---
 
-# Entwerfen Ihrer Journey
+# Gestalten einer Journey
 
 ![](../assets/do-not-localize/badge.png)
 
 Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
-## Erste Schritte mit dem Entwerfen von Journeys
+## Erste Schritte beim Entwerfen von Journeys
 
 Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: **[!UICONTROL Ereignisse]**, **[!UICONTROL Orchestrierung]** und **[!UICONTROL Aktionen]**. Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
 
@@ -40,7 +40,7 @@ Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, 
 
 ![](../assets/journey59bis.png)
 
-Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Der Button für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
+Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![](../assets/journey41.png)
 
@@ -62,13 +62,13 @@ Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, 
 
 Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie denselben Namespace verwenden. Die Ereignisse werden zuvor konfiguriert. [Weitere Informationen zu Ereignissen](about-journey-activities.md#event-activities)
 
-Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Traching-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn die Person die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. Weitere Informationen finden Sie in diesem [Abschnitt](reaction-events.md).
+Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. Weitere Informationen finden Sie in diesem [Abschnitt](reaction-events.md).
 
 Verwenden Sie die Ereignisaktivität **Segmentqualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder in einer Journey fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weitere Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
 
 **Orchestrierung**
 
-In den Orchestrierungsaktivitäten finden Sie die Aktivität **Segment lesen**, mit der Sie Ihre Journey so einstellen können, dass sie auf ein Adobe Experience Platform-Segment wartet. [Erfahren Sie mehr über die Aktivität „Segment lesen“](read-segment.md).
+In den Orchestrierungsaktivitäten finden Sie die Aktivität **Segment lesen**, mit der Sie Ihre Journey so einstellen können, dass sie auf ein Adobe Experience Platform-Segment wartet. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md).
 
 Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. Weitere Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#orchestration-activities).
 
