@@ -1,11 +1,10 @@
 ---
 title: Datenquelle konfigurieren
 description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +32,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 
    Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden.
 
-## Feldgruppen {#define-field-groups} definieren
+## Feldergruppen definieren {#define-field-groups}
 
 Feldergruppen sind Gruppen von Feldern, die Sie aus einer Datenquelle abrufen und in einer Journey verwenden können.
 
