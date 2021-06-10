@@ -1,17 +1,16 @@
 ---
-title: Beschlüsse der Liste
-description: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
-translation-type: tm+mt
+title: Entscheidungen auflisten
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
-# Entscheidung nachschlagen
+# Eine Entscheidung nachschlagen
 
-Sie können bestimmte Entscheidungen (früher als Angebot-Aktivitäten bezeichnet) nachschlagen, indem Sie eine GET an die [!DNL Offer Library]-API anfordern, die entweder die Entscheidungen `@id` oder den Namen der Entscheidung im Anforderungspfad enthält.
+Sie können einzelne Entscheidungen (früher als „Angebotsaktivität“ bekannt) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder das `@id` der Entscheidung oder den Namen der Entscheidung im Anfragepfad enthält.
 
 **API-Format**
 
@@ -22,8 +21,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem die Entscheidungen getroffen werden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Definiert das Schema im Zusammenhang mit Entscheidungen. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_ACTIVITIES}` | Definiert das mit Entscheidungen verknüpfte Schema. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter „id“ und „name“ können nicht zusammen verwendet werden. | `LBAR` |
 
@@ -41,7 +40,7 @@ curl -X GET \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der Platzierung zurück, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und eindeutigen Entscheidung `@id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Entscheidungs-`@id`.
 
 ```json
 {
