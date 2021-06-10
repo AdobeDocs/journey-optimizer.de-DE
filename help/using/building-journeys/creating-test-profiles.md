@@ -80,7 +80,7 @@ Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[
 
 >[!NOTE]
 >
-> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profil dieses Feld enthalten. Das zugehörige Schema muss das Mixin **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profile dieses Feld enthalten. Das zugehörige Schema muss das Mixin **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Navigieren Sie oben rechts zu **Segmente** und dann **Segment** erstellen .
    ![](../assets/test-profiles-22.png)
@@ -99,7 +99,7 @@ Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[
 1. Fügen Sie eine Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
 1. Wählen Sie das Schema, das Feld **testProfiles**, den Datensatz aus und setzen Sie den Wert auf **True**. Klicken Sie dazu im Feld **[!UICONTROL VALUE]** auf das Symbol **Pen** rechts, wählen Sie **[!UICONTROL Erweiterter Modus]** aus und geben Sie **true** ein.
    ![](../assets/test-profiles-26.png)
-1. Fügen Sie eine **Ende**-Aktivität hinzu und klicken Sie auf **[!UICONTROL Veröffentlichen]**.
+1. Fügen Sie eine Aktivität des Typs **Ende** hinzu und klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 1. Überprüfen Sie im Abschnitt **[!UICONTROL Segmente]** , ob die Profile korrekt aktualisiert wurden.
    ![](../assets/test-profiles-28.png)
 
