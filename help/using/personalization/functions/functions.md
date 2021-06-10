@@ -109,7 +109,7 @@ Im Ausdruckseditor sind Hilfsfunktionen in drei Kategorien unterteilt: [Funktion
         <td><a href="string.md#concat">Concat</a></td><td>Mit dieser Funktion werden zwei Zeichenfolgen zu einer</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält</td>
+        <td><a href="string.md#contains">Enthält</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">Enthält nicht</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge keine angegebene Unterzeichenfolge enthält</td>
@@ -158,7 +158,7 @@ Im Ausdruckseditor sind Hilfsfunktionen in drei Kategorien unterteilt: [Funktion
         <td><a href="string.md#notEqualTo">Ungleich</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht mit der angegebenen Zeichenfolge übereinstimmt</td>
     </tr>
     <tr>
-        <td><a href="string.md#regexGroup">Gruppe regelmäßiger Ausdrucke</a></td><td>Diese Funktion wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.</td>
+        <td><a href="string.md#regexGroup">Gruppe regelmäßiger Ausdrücke</a></td><td>Diese Funktion wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.</td>
     </tr>
     <tr>
         <td><a href="string.md#replace">Ersetzen</a></td><td>Diese Funktion ersetzt eine angegebene Teilzeichenfolge in einer Zeichenfolge durch eine andere Teilzeichenfolge</td>
@@ -187,7 +187,7 @@ Im Ausdruckseditor sind Hilfsfunktionen in drei Kategorien unterteilt: [Funktion
 </table>
 
 
-## Helpers{#helper-helper}
+## Helper{#helper-helper}
 
 Die Helfer werden auf [dieser Seite](helpers.md) beschrieben.
 
@@ -210,7 +210,7 @@ Die Helfer werden auf [dieser Seite](helpers.md) beschrieben.
     </tr>
 </table>
 
-## Operatoren {#operators-helper}
+## Operatoren{#operators-helper}
 
 ### Arithmetische Funktionen {#arithmetic-helper}
 
