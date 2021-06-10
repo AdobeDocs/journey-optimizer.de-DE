@@ -1,11 +1,10 @@
 ---
 title: Journey Optimizer
 description: Erste Schritte mit Journey Optimizer
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -13,47 +12,47 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Einige Testinhalte"
->abstract="Testen Sie Inhalte für die Integration der kontextbezogenen Hilfe in CJM."
+>title="Testinhalt"
+>abstract="Testen Sie den Inhalt für die Integration der kontextbezogenen Hilfe in CJM."
 
 ![](assets/do-not-localize/badge.png)
 
 ## Was ist [!DNL Journey Optimizer]?{#about-cjm}
 
-[!DNL Journey Optimizer] hilft Firmen, ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereitzustellen. Die Journey des Kunden ist der gesamte Vorgang der Kundeninteraktion mit der Marke, vom ersten Moment des Kontakts bis zum Verlassen des Kunden. Es Beginn mit der Bewusstseinsphase, in der der Kunde über die Marke und die Beginn, die sich engagieren, erfährt. Der Kunde wird dann weiter mit der Marke interagieren, Online- und physische Sites besuchen und Einkäufe tätigen, Nachrichten versenden oder Rezensionen posten.
+[!DNL Journey Optimizer] hilft Unternehmen, ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereitzustellen. Die Customer Journey umfasst den gesamten Prozess der Kundeninteraktion mit der Marke, von der ersten Kontaktaufnahme bis zum Kaufabschluss. Sie beginnt mit der Wahrnehmungsphase, in der der Kunde die Marke kennenlernt und Interaktionen mit ihr aufnimmt. Der Kunde wird seine Interaktion mit der Marke weiter vertiefen, die Website und physische Filiale besuchen und Einkäufe tätigen, Nachrichten versenden oder Kundenrezensionen posten.
 
-[!DNL Journey Optimizer] verfolgt Kunden durch alle Phasen der Journey und gibt Firmen die Einblicke, die sie benötigen, um mit hochwertigen Kunden an den wichtigsten Touchpoints zu interagieren. Es hilft Firmen dabei, herauszufinden, wie sie in jeder Phase der Journey am besten mit den Kunden interagieren können.
+[!DNL Journey Optimizer] begeitet Kunden in allen Phasen der Customer Journey und liefert Unternehmen die erforderlichen Erkenntnisse, um mit lukrativen Kunden über die wichtigsten Touchpoints zu kommunizieren. Journey Optimizer zeigt Unternehmen, wie sie in jeder Phase der Customer Journey optimal mit ihrem Kunden interagieren können.
 
-Mithilfe der Funktionen [!DNL Journey Optimizer] und der Funktionen &quot;Messages&quot;und &quot;Read Segment&quot;können Markenbezeichnungen personalisierte Erlebnisse in Echtzeit und im Maßstab mit einer Reihe intelligenter, erweiterbarer API-erster Funktionen bereitstellen. Sie lassen sich einfach ausprobieren, kaufen und realisieren &#x200B;. [!DNL Journey Optimizer] Diese neuen Funktionen bieten Journey in Echtzeit, modernes Authoring und schnelle Versand. &#x200B;
-
->[!NOTE]
->
->[!DNL Journey Optimizer] ist derzeit in der Beta-Version. Der Zugriff ist auf eine kleine Gruppe von Beta-Kunden beschränkt. Bitte beachten Sie, dass sich sowohl die Benutzeroberfläche als auch die Funktionen und der Nutzungsfluss ohne Vorankündigung ändern können. Als Beta-Kunde können Sie [feedback](#cjm-share-feedback) freigeben. Bekannte Probleme werden in dieser [Seite](known-issues.md) aufgeführt.
-
-Die wichtigsten Funktionen sind:
-
-* **Grundlage der Daten- und Segmentierung** : Integrieren Sie Daten aus dem gesamten Unternehmen in ein einzelnes Echtzeit-Profil für Kunden und nutzen Sie leistungsstarke Segmentierungsfunktionen für Audiencen, um eine optimale Benutzererfahrung zu gewährleisten.
-
-* **Inhaltserstellung und kontextbezogene Personalisierung**  - Erstellen Sie ohne Hilfe der IT mühelos ansprechende Inhalte.
-
-* **Erlebnisse über Kanal**  hinweg organisieren - Erstellen Sie visuell komplexe Journey mit einer Drag &amp; Drop-Oberfläche, um personalisierte Nachrichten über E-Mail- und mobile Kanal hinweg zu orchestrieren und zu automatisieren.
-
-* **Berichte- und Optimierungserfolg**  der Kampagne: dynamisch segmentübergreifende Segmentleistungsdaten mit vordefinierten oder anpassbaren Berichten zur Kampagne und zum Auswürfen. Integration mit Adobe Analytics für eine tiefere Analyse der Kampagne Performance und Konversionen.
-
-## Feedback {#cjm-share-feedback} freigeben
-
-Als Beta-Kunde können Sie Feedback mit der blauen Schaltfläche oben im Arbeitsbereich teilen.
-
-Geben Sie einen Betreff, Ihre Kommentare und klicken Sie auf **Senden**. Bei Bedarf können Sie eine Datei an Ihr Feedback anhängen.
+Durch die Kombination der [!DNL Journey Optimizer]-Funktionen mit den Funktionen „Nachrichten“ und „Segment lesen“ ermöglicht [!DNL Journey Optimizer] Marken die Bereitstellung personalisierter Erlebnisse in Echtzeit und im erforderlichen Umfang durch eine Reihe intelligenter, erweiterbarer API-First-Funktionen. Sie lassen sich problemlos ausprobieren, kaufen und einsetzen. Diese neuen Funktionen unterstützen Journeys in Echtzeit, modernes Authoring und schnellen Versand. &#x200B;
 
 >[!NOTE]
 >
->Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und -verfahren von Adobe Experience Cloud. [Erfahren Sie mehr über die Privatsphäre](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
+>[!DNL Journey Optimizer] ist derzeit als Beta-Version verfügbar. Der Zugriff ist auf eine kleine Gruppe von Beta-Kunden beschränkt. Bitte beachten Sie, dass sich sowohl bei der Benutzeroberfläche als auch Funktionen und Workflow jederzeit ohne Vorankündigung Änderungen ergeben können. Als Beta-Kunde können Sie Ihr [Feedback](#cjm-share-feedback) geben. Bekannte Probleme werden auf dieser [Seite](known-issues.md) aufgeführt.
+
+Zu den wichtigsten Funktionen gehören:
+
+* **Fundament von Daten und Segmentierung**: Integrieren Sie Daten aus dem gesamten Unternehmen in ein zentrales Echtzeit-Kundenprofil und nutzen Sie effektive Audience-Segmentierungs-Funktionen, um ein optimales Benutzererlebnis zu gewährleisten.
+
+* **Inhaltserstellung und kontextbezogene Personalisierung**: Erstellen Sie mühelos ansprechenden Inhalt – ohne Hilfe von IT-Experten.
+
+* **Orchestrieren von Erlebnissen für mehrere Kanäle**: Erstellen Sie komplexe Customer Journeys mit visueller Drag-and-Drop-Oberfläche, um personalisierte Nachrichten für E-Mail und mobile Kanäle zu orchestrieren und zu automatisieren.
+
+* **Reporting und Optimierung für erfolgreiche Kampagnen**: Dynamische Aufteilung der Kampagnenleistungsdaten auf die einzelnen Segmente mit einsatzbereiten oder anpassbaren Berichten. Integration mit Adobe Analytics für eine detaillierte Analyse der Kampagnenleistung und Konversionen.
+
+## Feedback geben {#cjm-share-feedback} 
+
+Als Beta-Kunde können Sie mit der blauen Schaltfläche oben im Arbeitsbereich Feedback geben.
+
+Geben Sie einen Betreff und Ihre Kommentare ein und klicken Sie auf **Senden**. Bei Bedarf können Sie eine Datei an Ihr Feedback anhängen.
+
+>[!NOTE]
+>
+>Für [!DNL Journey Optimizer] gelten die allgemeinen Datenschutzrichtlinien und -verfahren von Adobe Experience Cloud. [Weitere Informationen zum Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
 
 
 **Siehe auch**
 
-* [Wichtige Schritte zum Beginn](quick-start.md)
-* [Erste Nachricht erstellen](get-started-content.md)
-* [Journey entwerfen und Nachrichten senden](building-journeys/journey-gs.md)
+* [Wichtige Schritte für den Start](quick-start.md)
+* [Erstellen Ihrer ersten Nachricht](get-started-content.md)
+* [Entwerfen von Journeys und Senden von Nachrichten](building-journeys/journey-gs.md)
 * [Live-Berichte](reports/live-report.md)
