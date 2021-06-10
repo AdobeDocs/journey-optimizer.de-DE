@@ -1,11 +1,10 @@
 ---
 title: Testen der Journey
 description: Erfahren Sie mehr über das Testen von Journeys
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +48,11 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 1. Wenn ein Fehler auftritt, deaktivieren Sie den Testmodus, ändern Sie Ihre Journey und testen Sie sie erneut. Wenn der Test abgeschlossen ist, können Sie Ihre Journey veröffentlichen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/publishing-the-journey.md).
 
-## Wichtige Hinweise {#important_notes}
+## Wichtige Hinweise       {#important_notes}
 
 * Es wird eine Benutzeroberfläche bereitgestellt, über die Ereignisse für die getestete Journey ausgelöst werden können. Ereignisse können aber auch von Drittanbietersystemen wie Postman gesendet werden.
 * Nur Kontakte, die im Echtzeit-Kundenprofil als „Testprofile“ gekennzeichnet sind, dürfen an der getesteten Journey teilnehmen. Siehe diesen [Abschnitt](../building-journeys/creating-test-profiles.md).
-* Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die in die Journey eintritt, ein Profil ist oder nicht und daher Adobe Experience Platform erreichen kann.
+* Der Testmodus ist nur in Entwurfs-Journeys verfügbar, die einen Namespace verwenden. Der Testmodus muss prüfen, ob eine Person, die auf die Journey zugreift, ein Testprofil ist oder nicht, und muss daher in der Lage sein, Adobe Experience Platform zu erreichen.
 * Die maximale Anzahl von Testprofilen, die während einer Testsitzung auf eine Journey zugreifen können, beträgt 100.
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
@@ -61,13 +60,13 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
-Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Zutritt zur Journey veranlasst.
+Mit der Schaltfläche **[!UICONTROL Ereignis auslösen]** können Sie ein Ereignis konfigurieren, das eine Person zum Eintritt in die Journey veranlasst.
 
 >[!NOTE]
 >
 >Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
-Voraussetzung ist, dass Sie wissen müssen, welche Profil in Adobe Experience Platform als Test-Profil gekennzeichnet werden. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
+Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
 Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands. Über die Benutzeroberfläche können Sie die richtigen Informationen in der Ereignis-Payload angeben und prüfen, ob der Informationstyp korrekt ist. Der Testmodus speichert die zuletzt in einer Testsitzung verwendeten Parameter zur späteren Verwendung.
 
@@ -99,11 +98,11 @@ Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfigurati
 
 Weitere Informationen zur Verwendung des Testmodus finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-## Testmodus für geschäftliche Ereignis {#test-business}
+## Testmodus für Geschäftsereignisse {#test-business}
 
-Wenn Sie ein Business-Ereignis verwenden (siehe [diesen Abschnitt](../event/about-events.md)), können Sie im Testmodus einen einzigen Testeintritt im Journey mit einem Profil-Trigger ausführen, das Ereignis simulieren und die richtige Profil-ID übergeben. Sie müssen die Ereignis-Parameter und die ID des Test-Profils übergeben, das die Journey in den Test eingibt. Sie können die Option **[!UICONTROL Bis zu 100 Profil nicht gleichzeitig verwenden, die für andere segmentbasierte Journey vorhanden ist.]** Im Testmodus ist kein Code-Ansicht-Modus für Journey verfügbar, der auf geschäftlichen Ereignissen basiert.
+Wenn Sie ein Geschäftsereignis verwenden (siehe [diesen Abschnitt](../event/about-events.md)), können Sie im Testmodus für die Journey einen einzigen Testprofil-Eintritt mit einem Trigger auslösen, das Ereignis simulieren und die korrekte Profil-ID übergeben. Sie müssen die Ereignisparameter und die Kennung des Testprofils übergeben, das während des Tests in die Journey eintritt. Die Option **[!UICONTROL Bis zu 100 Profile gleichzeitig]**, die für andere segmentbasierte Journeys verfügbar ist, können Sie nicht verwenden. Im Testmodus ist kein Modus „Code-Ansicht“ für Journeys auf der Basis von Geschäftsereignissen verfügbar.
 
-Beachten Sie, dass Sie beim ersten Trigger eines Business-Ereignisses die Definition des Business-Ereignisses nicht in derselben Testsitzung ändern können. Sie können nur festlegen, dass dieselbe Einzelperson oder eine andere Einzelperson die Journey eingibt, die denselben oder einen anderen Bezeichner übergibt. Wenn Sie die Geschäftsparameter ändern möchten, müssen Sie den Testmodus beenden und erneut Beginn ausführen.
+Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Definition des Geschäftsereignisses nicht in derselben Testsitzung ändern können. Sie können nur festlegen, dass derselbe Kontakt oder eine andere Einzelperson in die Journey eintritt, die dieselbe oder eine andere Kennung übergibt. Wenn Sie die Geschäftsereignis-Parameter ändern möchten, müssen Sie den Testmodus beenden und erneut beginnen.
 
 ## Anzeigen der Protokolle {#viewing_logs}
 
