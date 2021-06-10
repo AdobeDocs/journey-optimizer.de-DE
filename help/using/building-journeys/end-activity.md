@@ -1,11 +1,10 @@
 ---
 title: Endaktivität
-description: Erfahren Sie, wie Sie die End-Aktivität verwenden
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie die Endaktivität verwenden.
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '62'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
