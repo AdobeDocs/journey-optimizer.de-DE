@@ -1,11 +1,10 @@
 ---
 title: Datenabruffelder für journeyStep-Ereignisse
 description: Datenabruffelder für journeyStep-Ereignisse
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +24,7 @@ Typ: lang
 
 ## fetchTypeInError
 
-Definiert, ob sich der Fehler &quot;Abrufen in&quot;auf Adobe Experience Platform oder einer benutzerdefinierten Datenquelle befindet.
+Legt fest, ob der Abruffehler bei Adobe Experience Platform oder bei einer benutzerdefinierten Datenquelle liegt.
 
 Typ: Zeichenfolge
 
