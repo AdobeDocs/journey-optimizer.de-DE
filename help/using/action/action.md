@@ -2,10 +2,10 @@
 solution: Journey Orchestration
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 92%
+source-wordcount: '216'
+ht-degree: 91%
 
 ---
 
@@ -31,8 +31,6 @@ Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) 
 >Die Konfiguration von benutzerdefinierten Aktionen wird immer von einem **technischen Anwender** durchgeführt.
 
 Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
-
-In der Liste der **Aktionen** können Sie auf c drücken, um eine neue Journey, Aktion oder Datenquelle oder ein neues Ereignis zu erstellen. Weitere Informationen zu den Tastaturbefehlen  finden Sie in [diesem Abschnitt](../user-interface.md#cjm-accessibility).
 
 Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, navigieren Sie im linken Navigationsbereich zu **[!UICONTROL Administration]** / **[!UICONTROL Konfiguration]** . Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
 
