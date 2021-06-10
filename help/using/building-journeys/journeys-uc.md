@@ -36,7 +36,7 @@ Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
 
 ### Erstellen des Segments
 
-In unserer Journey möchten wir ein bestimmtes Kundensegment verwenden. Alle diesem Segment angehörenden Einzelpersonen treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel benötigen wir ein Segment, das alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden enthält.
+In unserer Journey möchten wir ein bestimmtes Kundensegment verwenden. Alle diesem Segment angehörenden Einzelpersonen treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel benötigen wir ein Segment, das alle Kunden enthält, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
 
 Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segment/about-segments.md).
 
@@ -50,7 +50,7 @@ Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segm
 
    ![](../assets/add-attributes.png)
 
-Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey einbinden.
+Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey eintreten lassen.
 
 ### Konfigurieren des Ereignisses
 
@@ -64,9 +64,9 @@ Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Inf
 
 1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** die Option **[!UICONTROL Regelbasiert]** aus.
 
-1. Definieren Sie die **[!UICONTROL Schema]**- und **[!UICONTROL Payload]**-Felder. Sie können mehrere Felder verwenden, beispielsweise das erworbene Produkt, das Kaufdatum und die Kauf-ID.
+1. Definieren Sie die Felder **[!UICONTROL Schema]** und **[!UICONTROL Payload]**. Sie können mehrere Felder verwenden, beispielsweise das erworbene Produkt, das Kaufdatum und die Kauf-ID.
 
-1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die einen Trigger an Ihre Journey übermitteln. Sie können beispielsweise ein `purchaseMessage`-Feld hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
+1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die einen Trigger an Ihre Journey übermitteln. Sie können beispielsweise ein Feld `purchaseMessage` hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
 
 1. Geben Sie den **[!UICONTROL Namespace]** und den **[!UICONTROL Schlüssel]** an.
 
@@ -98,11 +98,11 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 
    ![](../assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf der Nachricht-Aktivität und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
+1. Platzieren Sie den Cursor auf der Nachrichten-Aktivität und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
 
-1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald eine zum Segment gehörende Person die Push-Version der ersten Nachricht öffnet.
+1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald ein zum Segment gehörender Kontaktdie Push-Version der ersten Nachricht öffnet.
 
-1. Fügen Sie im zweiten Pfad ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald die Person die E-Mail öffnet.
+1. Fügen Sie im zweiten Pfad ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald der Kontakt die E-Mail öffnet.
 
 1. Markieren Sie in einer der Reaktionsaktivitäten die Option **Maximale Wartezeit für das Ereignis definieren**, definieren Sie die Dauer (1 Tag in unserem Beispiel) und aktivieren Sie **Zeitüberschreitungspfad einrichten**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
@@ -112,7 +112,7 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 
 1. Fügen Sie im Pfad für Personen, bei denen die maximale Wartezeit ohne Kauf verstreicht, eine Aktivität vom Typ **Nachricht** ein und wählen Sie die E-Mail-Folgenachricht aus. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Nachricht öffnen.
 
-1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn eine Person einen Kauf tätigt.
+1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
 1. Fügen Sie nach dem Ereignis eine Aktivität vom Typ **Nachricht** per Drag-and-Drop ein und wählen Sie die E-Mail-Nachricht „Vielen Dank“.
 
@@ -124,4 +124,4 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 
 1. Klicken Sie auf den Umschalter **Test** in der oberen rechten Ecke, um den Testmodus zu aktivieren. Legen Sie fest, wie die Testprofile in den Testlauf eintreten sollen: als einzelnes Profil oder bis zu 100 gleichzeitig. In diesem [Abschnitt](testing-the-journey.md) erfahren Sie, wie Sie den Testmodus verwenden.
 
-1. Wenn die Journey fertig ist, veröffentlichen Sie diese mit dem Button **Veröffentlichen** rechts oben.
+1. Wenn die Journey fertig ist, veröffentlichen Sie diese mit der Schaltfläche **Veröffentlichen** rechts oben.
