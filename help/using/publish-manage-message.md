@@ -2,41 +2,40 @@
 title: Veröffentlichen und Ändern einer Nachricht
 description: Erfahren Sie, wie Sie Nachrichten veröffentlichen und aktualisieren
 snippet: y
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Veröffentlichen Sie Ihre Nachrichten {#publish-manage-messages}
+# Veröffentlichen von Nachrichten {#publish-manage-messages}
 
 ![](assets/do-not-localize/badge.png)
 
 ## Veröffentlichen einer Nachricht {#publish-message}
 
-Nachdem die Nachricht erstellt wurde, können Sie sie veröffentlichen, um sie für die Ausführung verfügbar zu machen.
+Nachdem die Nachricht erstellt wurde, können Sie diese veröffentlichen, um sie für die Ausführung verfügbar zu machen.
 
 >[!CAUTION]
 >
->Prüfen Sie Warnungen vor der Veröffentlichung und lösen Sie sie. [Weitere Infos](alerts.md).
+>Prüfen und lösen Sie Warnhinweise vor der Veröffentlichung. [Weitere Informationen](alerts.md).
 
 ![](assets/publish-message.png)
 
 Sobald die Nachricht veröffentlicht wurde, wird sie der Liste mit dem Status **[!UICONTROL Veröffentlicht]** hinzugefügt.
 
-Es kann jetzt von einem oder mehreren [Journey](building-journeys/journey.md) ausgelöst werden.
+Nun kann sie von einer oder mehreren [Journeys](building-journeys/journey.md) ausgelöst werden.
 
-## Aktualisieren einer schreibgeschützten Meldung {#modify-message}
+## Aktualisieren einer schreibgeschützten Nachricht {#modify-message}
 
-Nach der Veröffentlichung befindet sich eine Nachricht im schreibgeschützten Modus. Sie können sie dennoch aktualisieren, indem Sie einen neuen Entwurf der Nachricht erstellen.
+Nach der Veröffentlichung ist eine Nachricht im schreibgeschützten Modus. Sie können sie dennoch aktualisieren, indem Sie einen neuen Entwurf der Nachricht erstellen.
 
-Dadurch können Sie Inhalte aktualisieren oder beispielsweise ein Problem beheben, ohne die gesamte Journey erneut zu veröffentlichen, auf der Ihre Nachricht verwendet wird.
+Dadurch können Sie Inhalte aktualisieren oder beispielsweise ein Problem beheben, ohne die gesamte Journey erneut zu veröffentlichen, in der Ihre Nachricht verwendet wird.
 
 >[!NOTE]
 >
->Die Entwurfsversion kann bearbeitet werden, während die veröffentlichte Version noch veröffentlicht und aktiv ist.
+>Die Entwurfsversion kann bereits bearbeitet werden, während die veröffentlichte Version noch veröffentlicht und aktiv ist.
 
 So aktualisieren Sie eine veröffentlichte Nachricht:
 
@@ -50,8 +49,8 @@ So aktualisieren Sie eine veröffentlichte Nachricht:
 
    ![](assets/message-modify-v2.png)
 
-1. Bearbeiten Sie den Inhalt oder ändern Sie die Einstellungen nach Bedarf.
-1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Diese Aktion veröffentlicht die neue Version der Nachricht, die für die nächsten Ausführungen verwendet wird.
+1. Bearbeiten Sie den Inhalt oder ändern Sie die Einstellungen je nach Bedarf.
+1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Ausführungen verwendet wird.
 
 Sobald die neue Version veröffentlicht ist, wird beim nächsten API-Aufruf eine neue Nachrichtenausführung generiert. Das nächste eingehende Profil erhält die neue Version.
 
