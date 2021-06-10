@@ -1,11 +1,10 @@
 ---
 title: Verwalten von Berechtigungen
-description: Erfahren Sie, wie Sie Berechtigungen verwalten
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie Berechtigungen verwalten.
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +16,13 @@ ht-degree: 68%
 
 In [!DNL Journey Optimizer] können Sie Ihren Benutzern verschiedene Rechte zuweisen und dadurch festlegen, welchen Teil der Benutzeroberfläche sie verwenden können.
 
-Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin Console haben. [Erfahren Sie mehr über Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Rollen können von Administratoren verwaltet werden, die Zugriff auf die Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
 Um Zugriff auf [!DNL Journey Optimizer] zu erhalten, muss ein Benutzer:
 
 * Teil eines [!DNL Journey Optimizer]-**[!UICONTROL Produktprofils]** sein, das mit [!DNL Journey Optimizer]-Berechtigungen verknüpft ist.
 
-* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Optimizer]-Oberfläche erstellen und bearbeiten zu können. [Erfahren Sie mehr über Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#adobe-admin-console).
+* Teil eines [!DNL Adobe Experience Platform]-**[!UICONTROL Produktprofils]** sein. Es ist keine zwingende Berechtigung erforderlich. Der Benutzer sollte über die Berechtigung **[!UICONTROL Profil-Management]** verfügen, um Plattformsegmente über die [!DNL Journey Optimizer]-Oberfläche erstellen und bearbeiten zu können. [Erfahren Sie mehr über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#adobe-admin-console).
 
 In der Admin Console können Sie Ihren Benutzern eines der folgenden vordefinierten Produktprofile zuweisen:
 
@@ -56,13 +55,13 @@ Benutzer müssen stets mit einem Produktprofil verknüpft sein, damit Sie ihnen 
 
 >[!NOTE]
 >
-> Die Berechtigungsverwaltung beinhaltet keine Meldungen: Jeder Benutzer kann Nachrichten erstellen oder ändern.
+> Die Berechtigungsverwaltung umfasst keine Nachrichten: Jeder Benutzer kann Nachrichten erstellen oder ändern.
 
 ### Erstellen eines Produktprofils {#create-product-profile}
 
 [!DNL Journey Optimizer] ermöglicht Ihnen, eigene Produktprofile zu erstellen und Ihren Benutzern eine Reihe von Berechtigungen und Sandboxes zuzuweisen. Mit Produktprofilen können Sie Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche zulassen oder verweigern.
 
-Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de).
 
 So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und Sandboxes zu:
 
@@ -78,7 +77,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    ![](assets/do-not-localize/user_management_1.png)
 
-1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. [Erfahren Sie, wie Sie Profil](permissions.md#assigning-product-profile) zuweisen.
+1. Wählen Sie Ihr neues Produktprofil aus, um Berechtigungen zu verwalten. Fügen Sie Ihrem Produktprofil auf dem Tab **[!UICONTROL Benutzer]** Benutzer hinzu. [Erfahren Sie, wie Sie ein Produktprofil zuweisen](permissions.md#assigning-product-profile).
 
 1. Führen Sie dieselben Schritte wie oben beschrieben aus, um Ihrem Produktprofil **[!UICONTROL Admin]** hinzuzufügen.
 
@@ -86,7 +85,7 @@ So erstellen Sie ein Produktprofil und weisen einen Satz von Berechtigungen und 
 
    ![](assets/do-not-localize/user_management_7.png)
 
-1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandboxes]** die Sandbox(es) aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Weitere Informationen zu Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Wählen Sie in der Berechtigungskategorie **[!UICONTROL Sandboxes]** die Sandbox(es) aus, die Sie Ihrem Produktprofil zuweisen möchten. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
 
    ![](assets/do-not-localize/user_management_8.png)
 
@@ -107,7 +106,7 @@ Ihr Profil wurde erstellt und konfiguriert. Anwender, die mit diesem Profil verk
 Produktprofile werden einer Reihe von Benutzern zugewiesen, die innerhalb Ihres Unternehmens dieselben Rechte haben.
 Die Liste aller nativen Produktprofile mit zugewiesenen Berechtigungen finden Sie in diesem Abschnitt.
 
-So weisen Sie einem Benutzer ein Profil für den Zugriff auf Journey zu:
+So weisen Sie einem Benutzer ein Produktprofil für den Zugriff auf Journeys zu:
 
 1. Wählen Sie in der Admin Console die Option **[!UICONTROL Journey Orchestration]** aus.
 
@@ -119,7 +118,7 @@ So weisen Sie einem Benutzer ein Profil für den Zugriff auf Journey zu:
 
 1. Wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
-   Sie können Ihren neuen Benutzer auch einer Benutzergruppe hinzufügen, um den freigegebenen Berechtigungssatz genauer anzupassen. [Weitere Informationen zu Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html).
+   Sie können Ihren neuen Benutzer auch einer Benutzergruppe hinzufügen, um den freigegebenen Berechtigungssatz genauer anzupassen. [Erfahren Sie mehr über Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html).
 
    ![](assets/do-not-localize/user_management_3.png)
 
@@ -127,50 +126,50 @@ So weisen Sie einem Benutzer ein Profil für den Zugriff auf Journey zu:
 
    ![](assets/do-not-localize/user_management_4.png)
 
-Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur -Instanz erhalten.
+Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur Instanz erhalten.
 
 ## Verwenden von Sandboxes {#sandboxes}
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
-Sandboxes werden über Produktprofile in der Admin Console zugewiesen. [Erfahren Sie, wie Sie Sandboxes](permissions.md#create-product-profile) zuweisen.
+Sandboxes werden über Produktprofile in der Admin Console zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] spiegelt Adobe Experience Platform-Sandboxen wider, die für eine bestimmte Organisation erstellt wurden.
-Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden Sie im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Optimizer] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
+Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden Sie im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de).
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
 
 ## Zugriff auf Inhalte {#content-access}
 
-Zur Konfiguration der Barrierefreiheit von Inhalten müssen Sie jedem Ihrer Sandboxen einen freigegebenen Ordner für Inhalte zuweisen. Sie können den freigegebenen Ordner auf der Registerkarte **[!UICONTROL Datenspeicherung]** erstellen und konfigurieren, die unter [!DNL Admin Console] für Administratoren angezeigt wird. Wenn Sie als Systemadministrator Zugriff auf das [!DNL Admin Console] haben, können Sie freigegebene Ordner erstellen und Delegaten mit unterschiedlicher Zugriffsebene zu Ihren freigegebenen Ordnern hinzufügen.
+Um die Zugänglichkeit Ihrer Inhalte zu konfigurieren, müssen Sie jeder Ihrer Sandboxes einen gemeinsamen Ordner für Inhalte zuweisen.  Sie können den gemeinsamen Ordner auf der Registerkarte **[!UICONTROL Datenspeicherung]**, die unter [!DNL Admin Console] für Administratoren angezeigt wird, erstellen und konfigurieren. Wenn Sie als Systemadministrator Zugriff auf [!DNL Admin Console] haben, können Sie gemeinsame Ordner erstellen und Vertreter mit unterschiedlicher Zugriffsebene zu Ihren gemeinsamen Ordnern hinzufügen.
 
 ![](assets/do-not-localize/content_access.png)
 
-Beachten Sie, dass Sie für die Synchronisierung Ihres Inhalts mit der richtigen Sandbox dieselbe Syntax verwenden müssen wie die Sandbox, z. B. wenn Ihre Sandbox als Entwicklung bezeichnet wird, sollte Ihr freigegebener Ordner denselben Namen haben.
+Beachten Sie, dass Sie für die Synchronisierung Ihres Inhalts mit der richtigen Sandbox dieselbe Syntax verwenden müssen wie die Sandbox, z. B. wenn Ihre Sandbox als „Entwicklung“ bezeichnet wird, sollte Ihr gemeinsamer Ordner denselben Namen haben.
 
-[Erfahren Sie, wie Sie freigegebene Ordner](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) verwalten.
+[Erfahren Sie, wie Sie gemeinsame Ordner verwalten](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
 
-## Assets Essentials-Berechtigungen {#assets-permissions}
+## Berechtigungen in Assets Essentials {#assets-permissions}
 
 Adobe Experience Manager Assets Essentials bietet ein zentrales Repository mit Assets, mit dem Sie Ihre Nachrichten füllen können.
-Jedes Asset wird in Ordnern oder Unterordnern gespeichert. Sie können festlegen, welche Ordner freigegeben und welche Zugriffsebene zugewiesen werden soll.
+Jedes Asset wird in Ordnern oder Unterordnern gespeichert. Sie können festlegen, welche Ordner freigegeben werden sollen und welche Zugriffsebene zugewiesen werden soll.
 
-1. Navigieren Sie auf der Registerkarte **[!UICONTROL Assets]** durch Ihre Ordner, um den Ordner zu finden, den Sie freigeben müssen.
+1. Gehen Sie auf der Registerkarte **[!UICONTROL Assets]** durch Ihre Ordner, um den Ordner zu finden, den Sie freigeben müssen.
 
 1. Wählen Sie den Ordner oder das Asset aus und klicken Sie auf **[!UICONTROL Freigeben]**.
 
    ![](assets/share_media_1.png)
 
-1. Geben Sie die E-Mail-Adresse der anderen Person ein, für die Sie Zugriff auf Ihren Ordner freigeben möchten.
+1. Geben Sie die E-Mail-Adresse der anderen Person ein, für die Sie den Zugriff auf Ihren Ordner freigeben möchten.
 
 1. Wählen Sie zwischen den verschiedenen Zugriffsebenen:
 
    * **[!UICONTROL Kann anzeigen]**
    * **[!UICONTROL Kann bearbeiten]**
-   * **[!UICONTROL Eigentümer (kann freigeben, bearbeiten und löschen)]**
+   * **[!UICONTROL Ist Verantwortlicher (kann freigeben, bearbeiten und löschen)]**
 
    ![](assets/share_media_2.png)
 
-1. hinzufügen Sie bei Bedarf eine Nachricht an Ihre Einladung.
+1. Fügen Sie bei Bedarf eine Nachricht zu Ihrer Einladung hinzu.
 
 1. Klicken Sie auf **[!UICONTROL Einladen]**.
 
