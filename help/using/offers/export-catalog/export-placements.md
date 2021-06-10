@@ -18,27 +18,27 @@ Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchis
 
 >[!NOTE]
 >
->In [diesem Abschnitt](../export-catalog/access-dataset.md) erfahren Sie, wie Sie auf die exportierten Datensätze für die einzelnen Objekte Ihrer Angebotsbibliothek zugreifen.
+>In [diesem Abschnitt ](../export-catalog/access-dataset.md) erfahren Sie, wie Sie auf die exportierten Datensätze für die einzelnen Objekte Ihrer Angebotsbibliothek zugreifen.
 
 Hier finden Sie die Liste aller Felder, die im Datasatz **[!UICONTROL Entscheidungsobjekt-Repository – Platzierungen]** verwendet werden können.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## ID
+## Kennung
 
 **Feld:** _id
-**Titel:** Kennung 
-**Beschreibung:** Eine eindeutige Kennung für den Eintrag.
+**Titel:** Kennung
+**Beschreibung:** Eindeutige Kennung des Datensatzes.
 **Typ:** Zeichenfolge
 
-## _Erlebnis
+## _experience
 
-**Feld:** _Erlebnis 
+**Feld:** _experience 
 **Typ:** Objekt
 
 ### _experience > decisioning
 
-**Feld:** Entscheidungsfindung 
+**Feld:** decisioning
 **Typ:** Objekt
 
 #### _experience > decisioning > Platzierungs-Kanalkennung
@@ -52,7 +52,7 @@ Hier finden Sie die Liste aller Felder, die im Datasatz **[!UICONTROL Entscheidu
 
 **Feld:** componentType 
 **Titel:** Typ der Inhaltskomponente
-**Beschreibung:** Eine Aufzählung von URIs, bei der jeder Wert einem Typ zugeordnet ist, der der Inhaltskomponente gegeben wurde. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der Wert „@type“ ein Verweis auf das Schema ist, in dem zusätzliche Eigenschaften der Inhaltskomponente beschrieben werden.
+**Beschreibung:** Eine Aufzählung von URIs, bei der jeder Wert einem Typ zugeordnet ist, der der Inhaltskomponente zugewiesen wurde. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der Wert „@type“ ein Verweis auf das Schema ist, in dem zusätzliche Eigenschaften der Inhaltskomponente beschrieben werden.
 **Typ:** Zeichenfolge
 
 #### _experience > decisioning > contentTypes
@@ -66,11 +66,11 @@ Hier finden Sie die Liste aller Felder, die im Datasatz **[!UICONTROL Entscheidu
 **Beschreibung:** Eine Beschränkung für den Medientyp der Komponenten, die in dieser Platzierung erwartet werden. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
 **Typ:** Zeichenfolge
 
-#### _Erlebnis > Entscheidung > Platzierungsbeschreibung
+#### _experience > Entscheidung > Platzierungsbeschreibung
 
 **Feld:** Beschreibung 
 **Titel:** Beschreibung der Platzierung 
-**Beschreibung:** Es wird verwendet, um für den Menschen lesbare Absichten darüber zu vermitteln, wie dynamischer Inhalt im gesamten Versand der Nachricht verwendet wird. Dass ein bestimmter Bereich ein \&quot;Banner\&quot; in einer Web-Seite ist, wird oft über die Beschreibung und nicht durch eine formale Methode übertragen.
+**Beschreibung:** Wird verwendet, um für den Menschen lesbare Absichten darüber zu vermitteln, wie dynamischer Inhalt im gesamten Versand der Nachricht verwendet wird. Dass ein bestimmter Bereich ein „Banner“ auf einer Web-Seite ist, wird oft über die Beschreibung und nicht durch eine formale Methode übertragen.
 **Typ:** Zeichenfolge
 
 #### _experience > decisioning > Placement Name
@@ -82,12 +82,12 @@ Hier finden Sie die Liste aller Felder, die im Datasatz **[!UICONTROL Entscheidu
 
 ## _repo
 
-**Feld:** _repo
+**Feld:** _repo-
 **Typ:** Objekt
 
 ### _repo > Placement ETag
 
 **Feld:** ETag
 **Titel:** ETag der Platzierung
-**Beschreibung:** Die Revision, in der sich das Objekt der Entscheidungsoption befand, als der Schnappschuss erstellt wurde.
+**Beschreibung:** Die Überprüfung, bei der sich das Objekt einer Entscheidungsoption zum Zeitpunkt des Snapshots befand.
 **Typ:** Zeichenfolge
