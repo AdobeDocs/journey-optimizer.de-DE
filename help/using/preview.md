@@ -12,22 +12,22 @@ ht-degree: 97%
 
 ![](assets/do-not-localize/badge.png)
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen. Bei Verwendung von [personalisiertem Content](personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
+Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen. Bei Verwendung von [personalisiertem Inhalt](personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
 
-Um mögliche Fehler in E-Mail-Content oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand vorgenommen werden, um den aktualisierten Content zu validieren.
+Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktualisierten Inhalt zu validieren.
 
 >[!CAUTION]
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile. Erfahren Sie, wie Sie in [dieser Seite](building-journeys/creating-test-profiles.md) Testprofile erstellen.
 
-Zum Testen des Nachrichten-Content sind folgende Schritte erforderlich:
+Zum Testen des Nachrichteninhalts sind folgende Schritte erforderlich:
 
-* [Auswählen des Testprofils](#select-test-profiles)
+* [Auswählen der Testprofile](#select-test-profiles)
 * [Überprüfen der Nachrichtenvorschau](#preview-your-messages)
 
 Anschließend können Sie den [Testversand](#send-proofs) an Ihre Testprofile starten.
 
-Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihre **E-Mail-Rendering** in populären E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Content in jedem Posteingang ansprechend aussieht und korrekt funktioniert. In [diesem Abschnitt](#email-rendering) erfahren Sie, wie Sie die Sperre für Litmus-E-Mail-Vorschauen aufheben
+Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. In [diesem Abschnitt](#email-rendering) erfahren Sie, wie Sie die Sperre für Litmus-E-Mail-Vorschauen aufheben
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
@@ -35,15 +35,15 @@ Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zus
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
-1. Klicken Sie im Nachrichtenbereich oder E-Mail-Designer auf den Button **[!UICONTROL Vorschau]**, um die Auswahl der Testprofile vorzunehmen.
+1. Klicken Sie im Nachrichtenbereich oder E-Mail-Designer auf die Schaltfläche **[!UICONTROL Vorschau]**, um die Auswahl der Testprofile vorzunehmen.
 
    ![](assets/email-preview-button.png)
 
-1. Wählen Sie den Namespace aus, der zur Identifizierung der Testprofile verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identity-Namespace]** klicken.
+1. Wählen Sie den Namespace aus, der zur Identifizierung der Testprofile verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identitäts-Namespace]** klicken.
 
    ![](assets/previewselect-namespace.png)
 
-   Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#getting-started).
+   Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#getting-started).
 
    Im folgenden Beispiel verwenden wir den Namespace **E-Mail**.
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/preview-identity-value.png)
 
-1. Wenn Sie Ihrer Nachricht personalisierten Content hinzugefügt haben, ergänzen Sie weitere Testprofile, damit Sie verschiedene Varianten der Nachricht für unterschiedliche Profildaten testen können. Anschließend werden die Profile unter den Auswahlfeldern aufgelistet.
+1. Wenn Sie Ihrer Nachricht personalisierten Inhalt hinzugefügt haben, ergänzen Sie weitere Testprofile, damit Sie verschiedene Varianten der Nachricht für unterschiedliche Profildaten testen können. Anschließend werden die Profile unter den Auswahlfeldern aufgelistet.
 
    ![](assets/preview-profile-list.png)
 
@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
 ## Prüfen der Nachrichtenvorschau{#preview-your-messages}
 
-Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nachrichten als Vorschau anzeigen und den Content überprüfen.
+Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nachrichten als Vorschau anzeigen und den Inhalt überprüfen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Vorschau]**, um Ihre Nachricht zu prüfen.
 
@@ -79,7 +79,7 @@ Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nach
 
 1. In der Nachrichtenvorschau werden die personalisierten Elemente durch die Daten der ausgewählten Testprofile ersetzt.
 
-   Bei dieser Nachricht werden beispielsweise E-Mail-Content und E-Mail-Betreff personalisiert:
+   Bei dieser Nachricht werden beispielsweise E-Mail-Inhalt und E-Mail-Betreff personalisiert:
 
    ![](assets/preview-test-profile.png)
 
@@ -91,23 +91,23 @@ Zum Erstellen einer Vorschau mit Push-Benachrichtigung:
 
    ![](assets/preview-select-channel.png)
 
-1. Führen Sie dieselben Schritte wie oben beschrieben aus, um ein Testprofil und den Gerätetyp für die Vorschau des Content auszuwählen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**
+1. Führen Sie dieselben Schritte wie oben beschrieben aus, um ein Testprofil und den Gerätetyp für die Vorschau des Inhalts auszuwählen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**
 
    ![](assets/preview-iOS.png)
 
-1. Für die Push-Vorschau werden die Daten von Testprofilen im Nachrichten-Content verwendet.
+1. Für die Push-Vorschau werden die Daten von Testprofilen im Nachrichteninhalt verwendet.
 
    Bei dieser Push-Benachrichtigung werden beispielsweise Titel und Textkörper personalisiert:
 
    ![](assets/preview-android.png)
 
-## Durchführen eines Testversandes{#send-proofs}
+## Durchführen eines Testversands{#send-proofs}
 
-Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Zielgruppe gesendet wird. Die Empfänger des Testversandes sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Content, Personalisierungseinstellungen, Konfiguration.
+Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Audience gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 
 Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Testversand starten.
 
-1. Klicken Sie im Bildschirm **[!UICONTROL Vorschau]** auf den Button **[!UICONTROL Testversand starten]**.
+1. Klicken Sie im Bildschirm **[!UICONTROL Vorschau]** auf die Schaltfläche **[!UICONTROL Testversand starten]**.
 
    ![](assets/send-proof-button.png)
 
@@ -115,11 +115,11 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-select.png)
 
-1. Klicken Sie im Bildschirm **[!UICONTROL Vorschau]** auf den Button **[!UICONTROL Testversand anzeigen]**, um den Status zu prüfen.
+1. Klicken Sie im Bildschirm **[!UICONTROL Vorschau]** auf die Schaltfläche **[!UICONTROL Testversand anzeigen]**, um den Status zu prüfen.
 
    ![](assets/send-proof-view.png)
 
-Ein Testversand muss nach jeder Änderung des Nachrichten-Contents ausgeführt werden.
+Ein Testversand muss nach jeder Änderung des Nachrichteninhalts ausgeführt werden.
 
 ## E-Mail-Rendering{#email-rendering}
 
@@ -128,13 +128,13 @@ Nutzen Sie Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um das **E-Mail-Ren
 Um die Rendering-Funktionen für E-Mails zu nutzen, müssen Sie
 
 * ein Litmus-Konto besitzen
-* [Testprofile auswählen](#select-test-profiles)
+* [Auswählen der Testprofile](#select-test-profiles)
 
 Anschließend gehen Sie wie folgt vor:
 
-1. Klicken Sie im E-Mail-Designer auf den Button **[!UICONTROL Vorschau]** und wählen Sie die Registerkarte **[!UICONTROL E-Mail-Rendering]**.
+1. Klicken Sie in Email Designer auf die Schaltfläche **[!UICONTROL Vorschau]** und wählen Sie die Registerkarte **[!UICONTROL E-Mail-Rendering]**.
 
-1. Klicken Sie auf **Verbinden Sie Ihr Litmus-Konto** im oberen rechten Abschnitt.
+1. Klicken Sie auf **Verbinden Sie Ihr Litmus-Konto** im oberen rechten Bereich.
 
    ![](assets/email-rendering-litmus.png)
 
@@ -142,13 +142,13 @@ Anschließend gehen Sie wie folgt vor:
 
    ![](assets/email-rendering-credentials.png)
 
-1. Klicken Sie auf den Button **Test ausführen**, um E-Mail-Vorschauen zu generieren.
+1. Klicken Sie auf die Schaltfläche **Test ausführen**, um E-Mail-Vorschauen zu generieren.
 
-1. Prüfen Sie Ihren E-Mail-Content auf gängigen Clients für Desktop, mobile Geräte und Web.
+1. Prüfen Sie Ihren E-Mail-Inhalt auf gängigen Clients für Desktop, mobile Geräte und Web.
 
    ![](assets/email-rendering-previews.png)
 
 >[!CAUTION]
 >
->Durch die Verknüpfung Ihres **Litmus**-Kontos mit [!DNL Journey Optimizer] erteilen Sie Ihr Einverständnis, dass Testmeldungen an Litmus gesendet werden: Nach dem Versand werden diese E-Mails nicht mehr von Adobe verwaltet. Dementsprechend gelten für diese E-Mails die Litmus-Richtlinien zur Datenspeicherung, einschließlich der Personalisierungsdaten, die in diese Testnachrichten enthalten sein können.
+>Durch die Verknüpfung Ihres **Litmus**-Kontos mit [!DNL Journey Optimizer] erteilen Sie Ihr Einverständnis, dass Testmeldungen an Litmus gesendet werden: Nach dem Versand werden diese E-Mails nicht mehr von Adobe verwaltet. Dementsprechend gelten für diese E-Mails die Litmus-Richtlinien zur Datenspeicherung, einschließlich der Personalisierungsdaten, die in diesen Testnachrichten enthalten sein können.
 
