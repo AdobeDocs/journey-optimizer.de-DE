@@ -1,15 +1,14 @@
 ---
-title: Gemeinsame Felder für journeyStep-Ereignisse
-description: Gemeinsame Felder für journeyStep-Ereignisse
-translation-type: tm+mt
+title: Gemeinsame Felder für journeySteps-Ereignisse
+description: Gemeinsame Felder für journeySteps-Ereignisse
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
 ht-degree: 100%
 
 ---
 
-# Gemeinsame Felder für journeyStep-Ereignisse {#sharing-common-fields}
+# Gemeinsame Felder für journeySteps-Ereignisse {#sharing-common-fields}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -23,7 +22,7 @@ Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Ak
 
 Gibt an, ob der Benutzer in die Journey eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
-Typ: boolean
+Typ: boolesch
 
 Werte: true/false
 
@@ -31,7 +30,7 @@ Werte: true/false
 
 Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
-Typ: boolean
+Typ: boolesch
 
 Werte: true/false
 
@@ -39,7 +38,7 @@ Werte: true/false
 
 Gibt an, ob die Instanz beendet wurde (erfolgreich oder nicht).
 
-Typ: boolean
+Typ: boolesch
 
 ## eventID
 
@@ -157,7 +156,7 @@ Typ: Zeichenfolge
 
 Gibt an, ob sich die Journey im Testmodus befindet oder nicht.
 
-Typ: boolean
+Typ: boolesch
 
 ## processingTime
 
@@ -183,7 +182,7 @@ Typ: lang
 
 Gibt an, ob diese unitäre Instanz von einer Batch-Instanz ausgelöst wurde.
 
-Typ: boolean
+Typ: boolesch
 
 ## batchExternalKey
 
