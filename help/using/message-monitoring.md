@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Sie können sehen, wie sich Ihre Nachrichten <!--and APIs--> in Echtzeit verhalten, wenn Sie die Liste **[!UICONTROL Ausführungen]** aufrufen.
 
-Um auf diese Liste zuzugreifen, wählen Sie in der Startseite von **[!DNL Journey Optimizer]** die Option **[!UICONTROL Nachrichten]** und klicken Sie auf die Registerkarte **[!UICONTROL Ausführungen]**.
+Um auf diese Liste zuzugreifen, wählen Sie auf der Startseite von **[!DNL Journey Optimizer]** die Option **[!UICONTROL Nachrichten]** und klicken Sie auf die Registerkarte **[!UICONTROL Ausführungen]**.
 
 Diese Registerkarte bietet zwei Ansichten: **[!UICONTROL Live-Ansicht]** und **[!UICONTROL Globale Ansicht]**.
 
@@ -48,11 +48,11 @@ Standardmäßig werden die Nachrichten ab dem letzten Ausführungsdatum angezeig
 
 ![](assets/message-execution-tab-filters.png)
 
-Die <!--**[!UICONTROL Quick action]**-->zweite Spalte ermöglicht es Ihnen, die entsprechende [Nachricht](create-message.md) zu öffnen und auf den [Live-Bericht](reports/live-report.md) zuzugreifen, wenn Sie sich in der **[!UICONTROL Live-Ansicht]** befinden, oder auf den [Globalen Bericht](reports/global-report.md), wenn Sie sich in der **[!UICONTROL Globalen Ansicht]** befinden.
+Die zweite Spalte <!--**[!UICONTROL Quick action]**--> ermöglicht es Ihnen, die entsprechende [Nachricht](create-message.md) zu öffnen und auf den [Live-Bericht](reports/live-report.md) zuzugreifen, wenn Sie sich in der **[!UICONTROL Live-Ansicht]** befinden, oder auf den [Globalen Bericht](reports/global-report.md), wenn Sie sich in der **[!UICONTROL Globalen Ansicht]** befinden.
 
 ![](assets/message-execution-open-live-report.png)
 
-Für jede Nachrichtenausführung werden eine Reihe von Indikatoren angezeigt:
+Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 
 * **[!UICONTROL Nachrichtenbezeichnung]**: Nachrichtentitel, den Sie beim [Erstellen der Nachricht](create-message.md) definiert haben. Die automatisch generierte Ausführungs-ID wird in Klammern angezeigt.
 
@@ -81,7 +81,7 @@ Für jede Nachrichtenausführung werden eine Reihe von Indikatoren angezeigt:
 
    >[!NOTE]
    >
-   >Für Push-Benachrichtigungen sind keine Klicks verfügbar: Wenn ein Benutzer auf eine Push-Benachrichtigung klickt, wird die App geöffnet, die nur als Öffnung betrachtet werden kann.
+   >Für Push-Benachrichtigungen sind keine Klicks verfügbar: Wenn ein Benutzer auf eine Push-Benachrichtigung klickt, wird die Mobile App geöffnet, was nur als Öffnung betrachtet werden kann.
 
 * **[!UICONTROL Fehler]**: Anzahl der Nachrichten, die aufgrund eines technischen Fehlers nicht gesendet werden können.
 
