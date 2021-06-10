@@ -1,11 +1,10 @@
 ---
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen in Adobe Experience Platform erstellen.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen
 
 ![](../../assets/offers_placement_schema.png)
 
-Die Liste der Platzierungen ist im Menü **[!UICONTROL Komponenten]** verfügbar. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
+Die Liste der Platzierungen ist über das Menü **[!UICONTROL Komponenten]** zugänglich. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
 
 ![](../../assets/placements_filter.png)
 
@@ -48,6 +47,6 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
