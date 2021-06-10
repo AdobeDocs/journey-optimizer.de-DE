@@ -1,17 +1,16 @@
 ---
-title: Entscheidungen erstellen
-description: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
-translation-type: tm+mt
+title: Erstellen von Entscheidungen
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Eine Entscheidung erstellen
+# Entscheidung erstellen
 
-Sie können eine Entscheidung (früher als Angebot-Aktivität bezeichnet) erstellen, indem Sie eine POST an die [!DNL Offer Library]-API anfordern und dabei Ihre Container-ID angeben.
+Sie können eine Entscheidung (früher als Angebotsaktivität bezeichnet) erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
 ## Header „Accept“ und „Content-Type“
 
@@ -31,7 +30,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem die Entscheidungen getroffen werden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Anfrage**
 
@@ -65,7 +64,7 @@ curl -X POST \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidung zurück, einschließlich ihrer eindeutigen Instanz-ID und Platzierung `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
 
 ```json
 {
