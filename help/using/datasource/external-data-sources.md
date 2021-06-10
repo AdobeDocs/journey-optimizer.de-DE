@@ -1,11 +1,10 @@
 ---
 title: 'Externe Datenquellen '
 description: Erfahren Sie, wie Sie externe Datenquellen konfigurieren
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1321'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +68,7 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
 * **[!UICONTROL Aufbewahrungsfrist im Cache]**: In unserem Fall möchten wir, dass das Wetter 10 Minuten lang zwischengespeichert wird.
 * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie eine neue Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
-* **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+* **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=de).
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
 Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Dynamische Werte]** ein und sie werden automatisch am Ende der Anfrage hinzugefügt. Bei einer POST-Anfrage müssen Sie:
