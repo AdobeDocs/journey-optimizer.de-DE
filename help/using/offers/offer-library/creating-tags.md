@@ -1,11 +1,10 @@
 ---
 title: Tags erstellen
 description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +16,7 @@ Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. S
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
+Die Liste der erstellten Tags ist auf der Registerkarte **[!UICONTROL Komponenten]** verfügbar.
 
 ![](../../assets/tags_list.png)
 
@@ -37,6 +36,6 @@ Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
