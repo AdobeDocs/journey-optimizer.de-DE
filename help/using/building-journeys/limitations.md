@@ -1,11 +1,10 @@
 ---
-title: Einschränkungen beim Journey
-description: Weitere Informationen zu Einschränkungen beim Journey
-translation-type: tm+mt
+title: Einschränkungen von Journeys
+description: Weitere Informationen zu Einschränkungen von Journeys
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +12,11 @@ ht-degree: 70%
 
 ![](../assets/do-not-localize/badge.png)
 
-Hier sind Einschränkungen hinsichtlich der Verwendung von Journey.
+Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
-## Einschränkungen bei Journey Liste
+## Einschränkungen der Journey-Liste
 
-* In der Liste &quot;Journey&quot;werden Filter, Suchvorgänge und Spaltenauswahl bei der Seitenaktualisierung zurückgesetzt.
+* In der Journey-Liste werden Filter, Suchvorgänge und Spaltenauswahl bei der Seitenaktualisierung zurückgesetzt.
 
 ## Allgemeine Aktionseinschränkungen
 
@@ -27,11 +26,11 @@ Hier sind Einschränkungen hinsichtlich der Verwendung von Journey.
 * Die Integration von Adobe Campaign Classic ist nicht als Produkt verfügbar.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 
-## Einschränkungen der Nachrichtenaktion
+## Einschränkungen bei Nachrichtenaktionen
 
-* Die **Message**-Aktivität erlaubt Ihnen nicht, Kontextdaten aus der Journey zu verwenden. Die Personalisierung von Nachrichten wird direkt beim Entwerfen der Nachricht in Journey Optimizer durchgeführt.
+* Die Aktivität **Nachricht** erlaubt Ihnen nicht, Kontextdaten aus der Journey zu verwenden. Die Personalisierung von Nachrichten wird direkt beim Entwerfen der Nachricht in Journey Optimizer durchgeführt.
 
-* Wenn Sie eine Mehrkanal-Nachricht hinzufügen, werden zwei Nachrichten gesendet.
+* Wenn Sie eine Multi-Channel-Nachricht hinzufügen, werden zwei Nachrichten gesendet.
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
@@ -40,7 +39,7 @@ Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** star
 * Eine Journey, die in Version 1 mit einer **Segmentqualifikationsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit einem **Read-Segment** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis Beginn werden.
+* Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
  
 
 ## Einschränkungen bei benutzerdefinierten Aktionen
@@ -54,7 +53,7 @@ Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** star
 
 ## Einschränkungen bei Ereignissen
 
-* Bei systemgenerierten Ereignissen müssen Streaming-Daten, die zum Initiieren einer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Organisations-ID zu erhalten.Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
+* Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
 
 ## Einschränkungen bei Datenquellen
@@ -73,7 +72,7 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
 
-## Segmentbeschränkungen lesen
+## Einschränkungen beim Lesen von Segmenten
 
-* Es ist nicht möglich, eine segmentbasierte Journey innerhalb eines kürzeren Zeitrahmens als 1 Stunde Trigger.
-* Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch nicht zum Zeitpunkt des Abrufs berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung ausgewertet.
+* Es ist nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
+* Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
