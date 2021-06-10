@@ -48,7 +48,7 @@ Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journe
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
-Berichte zu Journey messen den Einstieg von Personen in eine Journey auf Echtzeitbasis.
+Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
