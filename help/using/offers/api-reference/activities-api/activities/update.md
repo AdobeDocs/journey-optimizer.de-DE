@@ -1,17 +1,16 @@
 ---
 title: Entscheidungen aktualisieren
-description: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
-translation-type: tm+mt
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Entscheidung aktualisieren
 
-Sie können eine Entscheidung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH an die [!DNL Offer Library]-API anfordern.
+Sie können eine Entscheidung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
@@ -33,7 +32,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem die Entscheidungen getroffen werden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | Die Instanz-ID der Entscheidung. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Anfrage**
@@ -64,7 +63,7 @@ curl -X PATCH \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Entscheidung zurück, einschließlich der eindeutigen Instanz-ID und Entscheidung `@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Entscheidung`@id`.
 
 ```json
 {
