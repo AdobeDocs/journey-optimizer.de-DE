@@ -1,15 +1,14 @@
 ---
-title: Informationen zu Journey-Aktivitäten
-description: Informationen zu Journey-Aktivitäten
-translation-type: tm+mt
+title: Über Journey-Aktivitäten
+description: Erfahren Sie mehr über Journey-Aktivitäten
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# Informationen zu Journey-Aktivitäten {#about-journey-activities}
+# Über Journey-Aktivitäten {#about-journey-activities}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -17,7 +16,7 @@ Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivit
 
 ## Ereignisaktivitäten {#event-activities}
 
-Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Die folgenden Ereignisse sind verfügbar: Aktivitäten:
+Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
@@ -25,7 +24,7 @@ Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../e
 
 ![](../assets/journey43.png)
 
-Beginn der Journey durch Ziehen und Ablegen einer Ereignis-Aktivität. Sie können auf diese auch doppelklicken.
+Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie können auf diese auch doppelklicken.
 
 ![](../assets/journey44.png)
 
@@ -42,7 +41,7 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 
 ## Aktionsaktivitäten {#action-activities}
 
-In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen.]** Die folgenden Aktivitäten stehen zur Verfügung:
+In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
 * [Nachricht](../building-journeys/journeys-message.md)
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
@@ -56,7 +55,7 @@ Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier angez
 
 ## Best Practices {#best-practices}
 
-Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Beschriftung]** zu definieren. Dadurch wird dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzugefügt. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird die Problembehebung bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
+Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]** zu definieren. Auf diese Weise können Sie dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird die Problembehebung bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
 ![](../assets/journey59bis.png)
 
