@@ -16,7 +16,7 @@ Mithilfe von **Rangfolgeformeln** können Sie festlegen, welches Angebot für ei
 
 Rangfolgeformeln werden in der **PQL-Syntax** angegeben und können Profil-, Kontextdaten- und Angebotsattribute nutzen. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
 
-Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Platzierung in einem Angebot (früher Angebotsaktivität) zuweisen. Weitere Informationen finden Sie unter [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
+Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Platzierung in einer Entscheidung (früher Angebotsaktivität) zuweisen. Weitere Informationen finden Sie unter [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
 
 ## Erstellen einer Rangfolgeformel {#create-ranking-formula}
 
