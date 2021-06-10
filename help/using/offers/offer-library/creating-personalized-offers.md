@@ -1,11 +1,10 @@
 ---
 title: Personalisierte Angebote erstellen
 description: Hier erfahren Sie, wie Sie in Adobe Experience Platform personalisierte Angebote erstellen.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste personalisierter Angebot ist im Menü **[!UICONTROL Angebot]** verfügbar.
+Die Liste personalisierter Angebote ist im Menü **[!UICONTROL Angebot]** verfügbar.
 
 ![](../../assets/offers_list.png)
 
@@ -87,7 +86,7 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
 
    Sie können die Präsentation eines Angebots auf die Mitglieder eines oder mehrerer Adobe Experience Platform-Segmente einschränken. Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]**.
 
-   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -127,12 +126,12 @@ Es kann jetzt Benutzern unterbreitet werden. Sie können das Angebot auswählen,
 
 ![](../../assets/offer_created.png)
 
-Nachdem ein Angebot erstellt wurde, können Sie in der Liste auf seinen Namen klicken, um auf detaillierte Informationen zuzugreifen und alle daran vorgenommenen Änderungen mithilfe der Registerkarte **[!UICONTROL Änderungsprotokoll]** zu überwachen (siehe [Überwachungsänderungen an Angeboten und Entscheidungen](../get-started/user-interface.md#monitoring-changes)).
+Sobald ein Angebot erstellt wurde, können Sie auf seinen Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen über die Registerkarte **[!UICONTROL Änderungsprotokoll]** überwachen (siehe [Änderungen an Angeboten und Entscheidungen überwachen](../get-started/user-interface.md#monitoring-changes)).
 
 ## Tutorial {#video}
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
