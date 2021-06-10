@@ -8,7 +8,7 @@ ht-degree: 60%
 
 ---
 
-# Operatoren  {#operators}
+# Operatoren {#operators}
 
 ![](../../assets/do-not-localize/badge.png)
 
