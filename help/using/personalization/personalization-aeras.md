@@ -24,7 +24,7 @@ Wenn Sie eine E-Mail erstellen, können Sie im Feld **E-Mail-Betreff** der Nachr
 
 ![](assets/perso_subject.png)
 
-Im Email Designer können Sie den Inhalt personalisieren:
+In Email Designer können Sie den Inhalt personalisieren:
 
 * In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../design-emails.md).
 
@@ -40,7 +40,7 @@ Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalis
 
 * **Titel**
 * **Textkörper**
-* **Benutzerdefinierter Klang**
+* **Benutzerdefinierter Benachrichtigungston**
 * **Badges**
 * **Benutzerspezifische Daten**
 
@@ -60,8 +60,8 @@ In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswähle
 
 Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können.
 
-* **Profil** : Listet alle Verweise auf, die mit dem Profilschema, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind.
-* **Segmentzugehörigkeit** : Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
+* **Profil**: Listet alle Verweise auf, die mit dem Profilschema, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) beschrieben ist, verknüpft sind.
+* **Segmentzugehörigkeit**: Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
 * **Angebote**: Listet alle Angebot auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md)
 * **Kontext** : Wenn die  **** Nachrichtentätigkeit in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Siehe [diesen Abschnitt](personalization-use-case.md)
 * **Hilfsfunktionen** : listet alle Hilfsfunktionen auf, die für die Durchführung von Datenvorgängen wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und deren Bearbeitung im Kontext der Personalisierung verfügbar sind. [Weitere Infos](functions/functions.md)
