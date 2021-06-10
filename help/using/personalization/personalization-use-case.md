@@ -23,11 +23,11 @@ Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualis
 
 Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
-* eine Push-Benachrichtigung erstellen und gestalten, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
-* ein Bestellereignis mit Bestellnummer, Status und Artikelnamen konfigurieren. Siehe diesen [Abschnitt](../event/about-events.md).
-* eine Entscheidung erstellen (früher als „Angebotsaktivität“ bezeichnet), siehe diesen [Abschnitt](../offers/offer-activities/create-offer-activities.md).
+* Erstellen und gestalten einer Push-Benachrichtigung, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
+* Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
+* Erstellen einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet), siehe diesen [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
-## Schritt 1 – Personalisierung auf Profil hinzufügen
+## Schritt 1 – Personalisierung in Profil hinzufügen
 
 1. Klicken Sie auf das Menü **[!UICONTROL Nachricht]** und wählen Sie Ihre Nachricht aus.
 
@@ -79,7 +79,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 1. Wählen Sie die Kategorie **Kontext**. Dieses Element ist nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
-   * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen, die vor der Aktivität **Nachrichten** in der Journey platziert wurden, neu.
+   * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen neu, die vor der Aktivität **Nachrichten** in der Journey platziert wurden.
    * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=de#building-advanced-conditions-journeys).
 
    ![](assets/perso-uc10.png)
@@ -110,15 +110,15 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 ## Schritt 4 – Journey testen und veröffentlichen 
 
-1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf den Button **Test** und dann auf **Ereignis auslösen**.
+1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf die Schaltfläche **Test** und dann auf **Ereignis auslösen**.
 
    ![](assets/perso-uc17.png)
 
-1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Test-Profilen. Die Profilkennung muss mit einem Test-Profil übereinstimmen. Klicken Sie auf **Senden**.
+1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss mit einem Testprofil übereinstimmen. Klicken Sie auf **Senden**.
 
    ![](assets/perso-uc18.png)
 
-   Die Push-Benachrichtigung wird gesendet und auf dem Handy des Test-Profils angezeigt.
+   Die Push-Benachrichtigung wird gesendet und auf dem Handy des Testprofils angezeigt.
 
    ![](assets/perso-uc19.png)
 
