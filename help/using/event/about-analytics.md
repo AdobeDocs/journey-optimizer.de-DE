@@ -1,11 +1,10 @@
 ---
 title: Informationen zu Adobe Analytics-Daten
 description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +24,10 @@ Voraussetzung hierfür ist, dass Sie in Adobe Experience Platform die Report Sui
 
 1. Wählen Sie die zu aktivierende Report Suite aus, klicken Sie auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Fertigstellen]**.
 
-1. Geben Sie die Quelldaten-ID für Ihren Beta-Programm-Ansprechpartner frei.
+1. Geben Sie die Daten-ID der Quelle für Ihren dem Beta-Programm zugehörigen Kontaktpunkt frei.
 
 Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. Sobald die Daten eingehen, werden sie in ein Erlebnisereignis umgewandelt und an Adobe Experience Platform gesendet.
 
 ![](../assets/jo-event9.png)
 
-Weitere Informationen zum Adobe Analytics-Quellanschluss finden Sie in der [Dokumentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) und im [Lernprogramm](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de) und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de).
