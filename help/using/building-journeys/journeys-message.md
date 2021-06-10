@@ -12,13 +12,13 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/badge.png)
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Content gestalten und Ihre Nachricht veröffentlichen. Siehe [diesen Abschnitt](../get-started-content.md). Anschließend fügen Sie einfach eine Push- oder E-Mail-Nachricht in Ihre Journey ein, die mit Journey Optimizer entworfen wurde.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md). Anschließend fügen Sie einfach eine Push- oder E-Mail-Nachricht in Ihre Journey ein, die mit Journey Optimizer entworfen wurde.
 
 Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md).
 
 ## Hinzufügen einer Nachrichtenaktivität
 
-1. Beginnen Sie Ihre Journey immer mit einem Ereignis oder einer **Segment lesen**-Aktivität.
+1. Beginnen Sie Ihre Journey immer mit einem Ereignis oder einer Aktivität des Typs **Segment lesen**.
 
    ![](../assets/jo-message0.png)
 
@@ -30,7 +30,7 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
    ![](../assets/jo-message2.png)
 
-1. Klicken Sie in das Feld **Nachricht**. Eine Liste der in Journey Optimizer entworfenen verfügbaren Nachrichten wird angezeigt. Die Elemente dieser Liste können nach ihrem Status filtern.
+1. Klicken Sie in das Feld **Nachricht**. Eine Liste der in Journey Optimizer entworfenen verfügbaren Nachrichten wird angezeigt. Die Elemente dieser Liste können Sie nach ihrem Status filtern.
 
    ![](../assets/jo-message3.png)
 
