@@ -22,4 +22,4 @@ Entwickeln Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 * Verwenden Sie die **integrierte Aktion**[!DNL Journey Optimizer] zum Senden von in entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Srop ein Ereignis oder eine Aktivität zum Lesen von Segmenten herein, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität zum Lesen von Segmenten herein, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
