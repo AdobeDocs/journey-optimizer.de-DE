@@ -1,25 +1,24 @@
 ---
-title: Segment erstellen
-description: Erfahren Sie, wie Sie Segmente erstellen
-translation-type: tm+mt
+title: Erstellen eines Segments
+description: Erfahren Sie, wie Sie ein Segment erstellen
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
-# Segmente erstellen {#build-segments}
+# Erstellen von Segmenten {#build-segments}
 
 ![](../assets/do-not-localize/badge.png)
 
-In diesem Beispiel werden wir ein Segment zur Zielgruppe aller in Atlanta, San Francisco oder Seattle lebenden und nach 1980 geborenen Kunden erstellen. Alle diese Kunden hätten die Luma Anwendung innerhalb der letzten 7 Tage öffnen und dann innerhalb von 2 Stunden nach dem Öffnen des Antrags einen Kauf tätigen sollen.
+In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco oder Seattle wohnenden und nach 1980 geborenen Kunden. Alle diese Kunden sollten das Programm Luma innerhalb der letzten 7 Tage geöffnet und dann innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
 1. Rufen Sie das Menü **[!UICONTROL Segmente]** auf und klicken Sie dann auf die Schaltfläche **[!UICONTROL Segment erstellen]**.
 
    ![](../assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihr Segment einzurichten. Erfahren Sie, wie Sie Segmente in der Dokumentation zum [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) konfigurieren.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihr Segment einzurichten. Erfahren Sie in der Dokumentation zum [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de), wie Sie Segmente konfigurieren.
 
    ![](../assets/segment-builder.png)
 
@@ -27,27 +26,27 @@ In diesem Beispiel werden wir ein Segment zur Zielgruppe aller in Atlanta, San F
 
    ![](../assets/segment-properties.png)
 
-1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie sie dann entsprechend Ihren Anforderungen.
+1. Ziehen Sie per Drag-and-Drop die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie die Felder dann entsprechend Ihren Anforderungen.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass die im linken Bereich verfügbaren Felder je nach Konfiguration der Schema **XDM Individuelles Profil** und **XDM ExperienceEvent** für Ihr Unternehmen variieren.  Weitere Informationen finden Sie in der Dokumentation [Erlebnisdatenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+   >Beachten Sie, dass die Felder im linken Bereich je nach Konfiguration der Schemas **XDM Individual Profile** und **XDM ExperienceEvent** für Ihr Unternehmen abweichen.  Weitere Informationen finden Sie in der [Dokumentation zum Experience-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
    ![](../assets/drag-fields.png)
 
-   In diesem Beispiel müssen zum Erstellen des Segments die Felder **Attribute** und **Ereignis** verwendet werden:
+   In diesem Beispiel müssen für die Segmenterstellung die Felder **Attribute** und **Ereignisse** verwendet werden:
 
-   * **Attribute**: Profile, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden,
-   * **Ereignisse**: Profil, die die Luma-Anwendung innerhalb der letzten 7 Tage geöffnet haben, haben innerhalb von 2 Stunden nach dem Öffnen des Antrags einen Kauf getätigt.
+   * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980
+   * **Ereignisse**: Profile, die das Luma-Programm innerhalb der letzten 7 Tage geöffnet und innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
       ![](../assets/add-attributes.png)
 
       ![](../assets/add-events.png)
 
-1. Wenn Sie neue Felder im Arbeitsbereich hinzufügen und konfigurieren, wird der Bereich **[!UICONTROL Segmenteigenschaften]** automatisch mit Informationen zu den geschätzten Profilen des Segments aktualisiert.
+1. Wenn Sie dem Arbeitsbereich neue Felder hinzufügen und diese konfigurieren, wird der Bereich **[!UICONTROL Segmenteigenschaften]** automatisch mit Informationen zum geschätzten Bestand an Profilen dieses Segments aktualisiert.
 
    ![](../assets/segment-estimate.png)
 
-1. Sobald das Segment fertig ist, klicken Sie auf **[!UICONTROL Speichern]**. Es wird in der Liste von Adobe Experience Platform-Segmenten angezeigt. Beachten Sie, dass eine Suchleiste verfügbar ist, mit der Sie ein bestimmtes Segment in der Liste suchen können.
+1. Wenn das Segment fertig ist, klicken Sie auf **[!UICONTROL Speichern]**. Es wird nun in der Liste von Adobe Experience Platform-Segmenten angezeigt. Mithilfe der Suchleiste können Sie ein bestimmtes Segment in der Liste suchen.
 
-Das Segment kann jetzt in Ihren Journey verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+Das Segment kann jetzt in Ihren Journeys verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../segment/about-segments.md).
