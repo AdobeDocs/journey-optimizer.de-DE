@@ -1,11 +1,10 @@
 ---
 title: Dokumentation – Aktualisierungen
-description: Informationen zu den neuesten Aktualisierungen der Dokumentation
-translation-type: tm+mt
+description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '24'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -15,4 +14,4 @@ ht-degree: 79%
 ![](assets/do-not-localize/badge.png)
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
-Lesen Sie auch die [-Versionshinweise](release-notes.md).
+Lesen Sie auch die [Versionshinweise](release-notes.md).
