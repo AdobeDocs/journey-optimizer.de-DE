@@ -50,7 +50,7 @@ Die folgende Funktion kombiniert Profilstadt und -land in einer einzigen Zeichen
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contains {#contains}
+## Enthält {#contains}
 
 Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
 
@@ -380,7 +380,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Gruppe regelmäßiger Ausdrucke{#regexGroup}
+## Gruppe regelmäßiger Ausdrücke{#regexGroup}
 
 Die Funktion `Group` wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
 
