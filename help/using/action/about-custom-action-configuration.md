@@ -2,11 +2,10 @@
 solution: Journey Orchestration
 title: Informationen zur Konfiguration einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 94%
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 94%
 
 ![](../assets/do-not-localize/badge.png)
 
-Wenn Sie ein Drittanbietersystem zum Senden von Nachrichten verwenden oder wenn Journey API-Aufrufe an ein Drittanbietersystem senden möchten, konfigurieren Sie hier die Verbindung zu Journey. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [diese Seite](../building-journeys/about-journey-activities.md#action-activities). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
+Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass Journeys API-Aufrufe an ein Drittanbietersystem senden, konfigurieren Sie hier seine Verbindung zu Journeys. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [diese Seite](../building-journeys/about-journey-activities.md#action-activities). Im Folgenden finden Sie Beispiele für Systeme, mit denen Sie über benutzerdefinierte Aktionen eine Verbindung herstellen können: Epsilon, Facebook, Adobe.io, Firebase usw.
 Einschränkungen sind auf [dieser Seite](../building-journeys/limitations.md) aufgeführt.
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
@@ -32,7 +31,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu.  Dieser Schritt ist optional.
 1. Die Zahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys anzuzeigen.
 1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
-1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Siehe [diesen Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definieren Sie die **[!UICONTROL Nachrichtenparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -63,13 +62,17 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Kopfzeilen werden gemäß den folgenden [Parsing-Regeln](https://tools.ietf.org/html/rfc7230#section-3.2.4) validiert.
 
-## Definieren der Meldungsparameter {#define-the-message-parameters}
+## Definieren der Nachrichtenparameter {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
-Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der JSON-Payload ein, die an den externen Dienst gesendet werden soll.
+Fügen Sie im Abschnitt **[!UICONTROL Nachrichtenparameter]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Feldnamen in der Payload dürfen keinen &quot;.&quot;enthalten. Zeichen.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
