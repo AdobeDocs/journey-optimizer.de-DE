@@ -1,83 +1,82 @@
 ---
-title: Design-E-Mails in Journey Optimizer
-description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
-translation-type: tm+mt
+title: Entwerfen von E-Mails in Journey Optimizer
+description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1570'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# Entwerfen Sie Ihre E-Mail-Inhalte in der Benutzeroberfläche {#create-email-content}
+# Entwerfen von E-Mail-Inhalten in der Benutzeroberfläche {#create-email-content}
 
 ![](assets/do-not-localize/badge.png)
 
-Nachdem Sie [Ihre Nachricht ](create-message.md) erstellt haben, können Sie Ihren E-Mail-Beginn erstellen.
+Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
-1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL E-Mail-Designer]** im Abschnitt **[!UICONTROL Inhalt bearbeiten]** aus.
+1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Inhalt bearbeiten]** aus.
 
    ![](assets/import-html_1.png)
 
-1. Wählen Sie in der Startseite &quot;E-Mail-Designer&quot;aus den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
+1. Wählen Sie in der Startseite von „Email Designer“ aus den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
 
-   * Wählen Sie **[!UICONTROL Design von Grund auf]**, um die E-Mail-Designer-Funktionen zum Erstellen Ihres E-Mail-Inhalts zu verwenden.
+   * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden.
 
-   * Wählen Sie **[!UICONTROL Beginn aus der Vorlage]** aus, um Ihre E-Mail aus einer integrierten Liste von Vorlagen zu erstellen. Beachten Sie, dass Sie keine anderen Vorlagen erstellen können.
+   * Wählen Sie **[!UICONTROL Von Vorlage starten]** aus, um Ihre E-Mail aus einer integrierten Liste von Vorlagen zu erstellen. Beachten Sie, dass Sie keine anderen Vorlagen erstellen können.
 
-   * Wählen Sie **[!UICONTROL Code your own]**, um HTML-Rohcode einzugeben oder einzufügen. [Weitere Infos](existing-content.md#import-raw-html-code).
+   * Wählen Sie **[!UICONTROL Eigenen Code verwenden]**, um HTML-Roh-Code einzugeben oder einzufügen. [Weitere Informationen](existing-content.md#import-raw-html-code).
 
-   * Wählen Sie **[!UICONTROL HTML]** importieren, um eine HTML- oder ZIP-Datei zu importieren. [Weitere Infos](existing-content.md#import-html-content-from-file).
+   * Wählen Sie **[!UICONTROL HTML importieren]**, um eine HTML-Datei oder einen ZIP-Ordner zu importieren. [Weitere Informationen](existing-content.md#import-html-content-from-file).
 
    ![](assets/email_designer_25.png)
 
-## Design von Grund auf
+## Von Grund auf gestalten
 
-Gehen Sie wie folgt vor, um Beginn beim Erstellen Ihrer E-Mail-Inhalte mit dem E-Mail-Designer zu erhalten:
+Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führen Sie die folgenden Schritte aus:
 
-1. Nach Auswahl der Option **[!UICONTROL Design von Grund auf]** entwerfen Beginn Ihren E-Mail-Inhalt durch Drag &amp; Drop **[!UICONTROL Strukturkomponenten]**, um das Layout Ihrer E-Mail zu definieren.
+1. Nach Auswahl der Option **[!UICONTROL Von Grund auf gestalten]** beginnen Sie mit der Gestaltung Ihres E-Mail-Inhalts, indem Sie **[!UICONTROL Strukturkomponenten]** per Drag-and-Drop hineinziehen, um das Layout Ihrer E-Mail zu definieren.
 
    ![](assets/email_designer_2.png)
 
-1. Aus der Dropdownliste **[!UICONTROL Inhaltskomponenten]** können Sie so viele **[!UICONTROL Inhaltskomponenten]** hinzufügen, wie Sie in Ihrer Strukturkomponente benötigen. [Weitere Informationen zu Inhaltskomponenten](content-components.md).
+1. Aus der Dropdown-Liste **[!UICONTROL Inhaltskomponenten]** können Sie so viele **[!UICONTROL Inhaltskomponenten]** hinzufügen, wie Sie in Ihrer Strukturkomponente benötigen. [Weitere Informationen zu Inhaltskomponenten](content-components.md).
 
    ![](assets/email_designer_3.png)
 
-1. Jede Komponente kann mit dem Abschnitt **[!UICONTROL Komponenteneinstellungen]** weiter angepasst werden. Sie können beispielsweise Ihren Textstil, die Auffüllung oder den Rand Ihrer Komponente ändern. [Weitere Informationen zu Stilen finden Sie im E-Mail-Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html).
+1. Jede Komponente kann mit dem Abschnitt **[!UICONTROL Komponenteneinstellungen]** weiter angepasst werden. Sie können beispielsweise Ihren Textstil, den Abstand oder den Rand Ihrer Komponente ändern. [Weitere Informationen zu Stilen finden Sie im E-Mail-Editor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=de).
 
    ![](assets/email_designer_4.png)
 
-1. Über die Auswahl **[!UICONTROL Assets]** können Sie Ihrer E-Mail direkt Assets hinzufügen, die in der **[!UICONTROL Asset-Bibliothek]** gespeichert sind. [Weitere Informationen zur Asset-Verwaltung](assets-essentials.md).
+1. Über die **[!UICONTROL Asset-Auswahl]** können Sie Ihrer E-Mail direkt Assets hinzufügen, die in der **[!UICONTROL Asset-Bibliothek]** gespeichert sind. [Weitere Informationen über Asset-Management.](assets-essentials.md)
 
-   Klicken Sie bei gedrückter Dublette auf den Ordner, der Ihre Assets enthält, und ziehen Sie das Asset, das Sie Ihrer E-Mail hinzufügen möchten, per Drag &amp; Drop.
+   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält, und ziehen Sie das Asset, das Sie Ihrer E-Mail hinzufügen möchten, per Drag-and-Drop hinein.
 
    ![](assets/email_designer_5.png)
 
-1. hinzufügen Sie Personalisierungsfelder, um den Inhalt Ihrer Profil-Daten anzupassen. [Erfahren Sie mehr über die Personalisierung](personalization/personalize.md) von Inhalten.
+1. Fügen Sie Personalisierungsfelder hinzu, um den Inhalt aus Ihren Profildaten zu personalisieren. [Weitere Informationen über die Personalisierung von Inhalt](personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
 
-1. Überprüfen Sie auf der Registerkarte **[!UICONTROL Links]** im linken Bereich die Liste aller URLs Ihres Inhalts, die verfolgt werden sollen. Sie können bei Bedarf ihre **[!UICONTROL Verfolgungstyp]**, **[!UICONTROL Beschriftung]** und **[!UICONTROL Tags]** ändern.
+1. Überprüfen Sie auf der Registerkarte **[!UICONTROL Links]** im linken Bereich die Liste aller URLs Ihres Inhalts, die verfolgt werden sollen. Sie können bei Bedarf ihren **[!UICONTROL Tracking-Typ]**, **[!UICONTROL Label]** und **[!UICONTROL Tags]** ändern.
 
    ![](assets/email_designer_7.png)
 
-1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zu Code-Editor]** wechseln klicken. Weitere Informationen zum Code-Editor finden Sie auf dieser [Seite](existing-content.md#import-raw-html-code).
+1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Weitere Informationen zum Code-Editor finden Sie auf dieser [Seite](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
-   >Sie können den visuellen Designer nicht für diese E-Mail verwenden, nachdem Sie zum Code-Editor wechseln.
+   >Nach dem Wechsel zum Code-Editor können Sie den visuellen Designer für diese E-Mail nicht mehr verwenden.
 
    ![](assets/email_designer_26.png)
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um Ihre E-Mail-Wiedergabe zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um Ihre gerenderte E-Mail zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
    ![](assets/email_designer_8.png)
 
-1. Wenn Ihre E-Mail fertig ist, klicken Sie auf **[!UICONTROL Speichern &amp; Schließen]**.
+1. Wenn Ihre E-Mail fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
-Ihr E-Mail-Inhalt kann jetzt in einer Nachricht verwendet werden. [Erfahren Sie, wie Sie eine Nachricht](publish-manage-message.md) senden.
+Ihr E-Mail-Inhalt kann jetzt in einer Nachricht verwendet werden. [Erfahren Sie, wie Sie eine Nachricht senden](publish-manage-message.md).
 
-## Definieren der E-Mail-Struktur {#defining-the-email-structure}
+## E-Mail-Struktur definieren {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -95,7 +94,7 @@ Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
 
 1. Öffnen Sie vorhandenen Inhalt oder erstellen Sie neuen.
 1. Öffnen Sie die **[!UICONTROL Strukturkomponenten]** durch Auswahl des Zeichens **+** auf der linken Seite.
-1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten mit Drag &amp; Drop aus.
+1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten per Drag-and-Drop aus.
 Eine blaue Linie kennzeichnet die Stelle, an der die Strukturkomponente platziert wird, wenn Sie sie loslassen. Sie können die Strukturkomponente oberhalb, zwischen oder unterhalb einer anderen Komponente platzieren, nicht jedoch in einer Komponente.
 
    >[!NOTE]
@@ -114,29 +113,29 @@ Eine blaue Linie kennzeichnet die Stelle, an der die Strukturkomponente platzier
 
 Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten zu Ihrer E-Mail hinzufügen.
 
-## Verwenden Sie einen Preheader {#preheader}
+## Verwenden eines Preheaders {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Verwenden eines Preheaders"
->abstract="Mit der Kopfzeile können Sie einen kurzen Zusammenfassungstext konfigurieren, der Ihnen dabei hilft, Ihre E-Mails besser zu verfolgen und anzupassen."
+>abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der Ihnen dabei hilft, Ihre E-Mails besser zu verfolgen und anzupassen."
 
-Eine Kopfzeile ist ein kurzer Zusammenfassungstext, der auf die Betreffzeile folgt, wenn Sie eine E-Mail von Ihrem E-Mail-Client aus anzeigen. Der Preheader kann Ihnen dabei helfen, Ihre E-Mails besser zu verfolgen und anzupassen.
+Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. Der Preheader kann Ihnen dabei helfen, Ihre E-Mails besser zu verfolgen und anzupassen.
 
-Wählen Sie das Bearbeitungsfeld **[!UICONTROL Preheader]** und fügen Sie Inhalte hinzu.
+Aktivieren Sie das Bearbeitungsfeld **[!UICONTROL Preheader]** und geben Sie Inhalte ein.
 
 Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamischen Inhalt]** oder ein **[!UICONTROL Personalisierungsfeld]** in den Preheader-Inhalt einfügen.
 
 >[!NOTE]
 >
->Beachten Sie, dass Preheader nicht mit allen E-Mail-Clients kompatibel sind. Wird der Preheader nicht unterstützt, wird er nicht angezeigt.
+>Beachten Sie, dass Preheader nicht mit allen E-Mail-Programmen kompatibel sind. Wird der Preheader nicht unterstützt, wird er nicht angezeigt.
 
 ## Hintergrundeinstellungen {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
->abstract="Mit dem E-Mail-Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren.Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
+>abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Programmen unterstützt wird."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Zusätzliche Informationen"
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
@@ -169,7 +168,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
 
-### Beispiel: Anpassen der vertikalen Ausrichtung und Umrandung {#example--adjusting-vertical-alignment-and-padding}
+### Beispiel: Anpassung der senkrechten Ausrichtung und des Abstands {#example--adjusting-vertical-alignment-and-padding}
 
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
@@ -206,7 +205,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
 1. Speichern Sie Ihre Änderungen.
 
-## hinzufügen Inline-Stilattribute {#adding-inline-styling-attributes}
+## Hinzufügen von Inline-Stilattributen {#adding-inline-styling-attributes}
 
 Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
@@ -222,13 +221,13 @@ Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordn
 
 Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
-Standardmäßig erstellt der E-Mail-Designer eine **[!UICONTROL Standardversion Ihrer E-Mail einschließlich Personalisierungsfelder.]** Diese Version wird automatisch generiert und mit der HTML-Version Ihres Inhalts synchronisiert.
+Standardmäßig erstellt Email Designer eine **[!UICONTROL Nur-Text-Version]** Ihrer E-Mail einschließlich Personalisierungsfeldern. Diese Version wird automatisch generiert und mit der HTML-Version Ihres Inhalts synchronisiert.
 
 Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie in Ihrer E-Mail die Registerkarte **[!UICONTROL Text]**.
+1. Wählen Sie in Ihrer E-Mail die Registerkarte **[!UICONTROL Nur-Text]** aus.
 
-1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML]** synchronisieren, um die Synchronisierung zu deaktivieren.
+1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML synchronisieren]**, um die Synchronisierung zu deaktivieren.
 
    ![](assets/text_version_1.png)
 
@@ -236,14 +235,14 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 
    ![](assets/text_version_2.png)
 
-1. Sie können die Textversion dann nach Belieben bearbeiten.
+1. Sie können die Nur-Text-Version dann nach Belieben bearbeiten.
 
 >[!CAUTION]
 >
->* Änderungen, die in der Ansicht **[!UICONTROL Normaltext]** vorgenommen wurden, werden nicht in der HTML-Ansicht übernommen.
+>* Die Änderungen, die Sie in der **[!UICONTROL Nur-Text-Ansicht]** vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
    >
    >
-* Wenn Sie die Option **[!UICONTROL Mit HTML]** synchronisieren erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
 >
 
