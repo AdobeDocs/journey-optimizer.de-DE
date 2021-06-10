@@ -1,11 +1,10 @@
 ---
 title: Kollektionen erstellen
 description: Erfahren Sie, wie Sie Angebote mithilfe von Kollektionen organisieren.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +14,7 @@ Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Katego
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste von Angebot-Sammlungen ist im Menü **[!UICONTROL Angebote]** verfügbar.
+Die Liste von Angebots-Kollektionen ist im Menü **[!UICONTROL Angebote]** zugänglich.
 
 ![](../../assets/collections_list.png)
 
@@ -55,6 +54,6 @@ Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Offer decisioning-Anwendungsdienst. Sie enthält jedoch allgemeine Leitlinien für die Verwendung von Angebot im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
