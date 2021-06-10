@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## Mechanismen der Validierung
 
-Im Bildschirm „Ausdruckseditor“ können Sie mit dem Button **Validieren** Ihre Personalisierungssyntax überprüfen.
+Im Bildschirm „Ausdruckseditor“ können Sie mit der Schaltfläche **Validieren** Ihre Personalisierungssyntax überprüfen.
 
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf **Hinzufügen** klicken, um das Editor-Fenster zu schließen.
@@ -39,7 +39,7 @@ In diesem Fall ist **firstName1** nicht als Attribut im Profilschema definiert:
 {{profile.person.name.firstName1}}
 ```
 
-* **Typ für Variable „XYZ“ stimmt nicht überein. Erwartetes Array. Zeichenfolge gefunden.**
+* **Typ für Variable „XYZ“ stimmt nicht überein. Array erwartet, Zeichenfolge gefunden.**
 
 Beim Versuch, über eine Zeichenfolge statt über ein Array zu iterieren:
 
@@ -55,7 +55,7 @@ In diesem Fall ist **product** kein Array:
 
 Wenn eine ungültige Handlebars-Syntax verwendet wird.
 
-Handlebars-Ausdrücke sind von **{{Ausdruck}}** umgeben.
+Handlebars-Ausdrücke sind von **{{expression}}** umgeben.
 
 ```
    {{[profile.person.name.firstName}}
@@ -88,18 +88,18 @@ Die Validierung wird während der Nachrichtenveröffentlichung oder während der
   <tr> 
    <td>Ressource mit der ID placementID und dem Typ OfferPlacement nicht gefunden <br/>
 Ressource mit der ID activityID und dem Typ OfferActivity nicht gefunden<br/></td> 
-   <td>Überprüfen Sie, ob activityID und/oder placementID verfügbar sind.</td> 
+   <td>Überprüfen Sie, ob activityID und/oder placementID verfügbar ist.</td> 
   </tr> 
    <tr> 
    <td>Ressource konnte nicht validiert werden.</td> 
-   <td>Der componentType in der Platzierung sollte mit dem Angebot vom Typ offerType übereinstimmen.</td> 
+   <td>Der componentType in der Platzierung sollte mit dem Angebot offerType übereinstimmen.</td> 
   </tr> 
    <tr> 
    <td>Die öffentliche URL ist in der offerId des Angebots nicht vorhanden.</td> 
    <td>Für die Image-Angebote (alle personalisierten und Fallback-Angebote, die mit dem Entscheidungs- und Platzierungs-Paar verknüpft sind) sollte die öffentliche URL gefüllt sein (deliveryURL sollte nicht leer sein).</td> 
   </tr> 
   <tr> 
-   <td>Die Entscheidung (früher als „Angebot-Aktivität“ bezeichnet) enthält Attribute, die nicht zu Profilen gehören.</td> 
+   <td>Die Entscheidung (früher als „Angebotsaktivität“ bezeichnet) enthält Attribute, die nicht zu Profilen gehören.</td> 
    <td>Die Verwendung des Angebotsmodells sollte nur die Profilattribute enthalten.</td> 
   </tr> 
   <tr> 
