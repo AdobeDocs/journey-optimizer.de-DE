@@ -1,35 +1,34 @@
 ---
 title: Glossar
 description: Glossar für Angebote
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Glossar {#glossary}
 
-Hier sind die wichtigsten Konzepte, mit denen Sie bei der Verwendung von Decision Management arbeiten werden.
+Hier finden Sie die wichtigsten Konzepte, mit denen Sie bei Verwendung von Entscheidungs-Management arbeiten werden.
 
 * **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot der kombinierten Ziel-Audience vorgeschlagen werden kann (auch als „Gesamtobergrenzen“ bezeichnet) und wie oft ein Angebot demselben Endbenutzer unterbreitet werden kann (auch als „Profilbegrenzung“ bezeichnet).
 
 * **Kollektionen**: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-* **Entscheidung**  (früher Angebot Aktivität): Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots informiert.
+* **Entscheidung** (bisher: Angebotsaktivität): Eine Entscheidung beinhaltet die Logik, die die Auswahl eines Angebots bestimmt.
 
 * **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu ermitteln.
 
 * **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Bedingungen und kann einem Profil somit auf kohärente Weise unterbreitet werden.
 
-* **Entscheidungsverwaltung**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebot-Erlebnisse für Endbenutzer über Kanal und Anwendungen hinweg mithilfe von Geschäftslogik und Entscheidungsregeln.
+* **Entscheidungs-Management**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebotserlebnisse für Endbenutzer über verschiedene Kanäle und Anwendungen mithilfe von Business-Logik und Entscheidungsregeln.
 
 * **Fallback-Angebot**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote in der Kollektion geeignet ist.
 
 * **Angebot**: Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer sich zum Anzeigen des Angebots eignet.
 
-* **Angebot-Bibliothek**: Die Angebot Library ist eine zentrale Bibliothek, die zur Verwaltung personalisierter und Ausweichentscheidungen, Angebot und Entscheidungsregeln verwendet wird.
+* **Angebotsbibliothek**: Die Angebotsbibliothek ist eine zentrale Bibliothek, die zum Verwalten von personalisierten Angeboten sowie Fallback-Angeboten, Entscheidungsregeln und Entscheidungen dient.
 
 * **Personalisierte Angebote**: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
 
