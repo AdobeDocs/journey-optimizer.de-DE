@@ -1,19 +1,18 @@
 ---
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
 source-wordcount: '17'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 # customer-journey-management.en
 
-Journey Optimizer-Produktdokumentation
+Produktdokumentation zu Journey Optimizer
 
-Journey Optimizer-Dokumentation mit den folgenden Funktionen:
+Dokumentation zu Journey Optimizer mit folgenden Themen:
 
 * Journeys
-* Nachrichten, Inhalte
+* Nachrichten, Inhalt
 * Angebote
 * Admin
 
