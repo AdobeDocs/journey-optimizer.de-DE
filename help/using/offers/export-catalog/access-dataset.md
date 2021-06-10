@@ -1,9 +1,8 @@
 ---
 title: Zugriff auf den exportierten Angebotskatalog
 description: Erfahren Sie, wie Sie nach dem Exportieren in Adobe Experience Platform auf den Angebotskatalog zugreifen können.
-translation-type: tm+mt
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
