@@ -1,11 +1,10 @@
 ---
 title: Fallback-Angebot erstellen
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +66,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Fallback-Angebot zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Fallback-Angebot zu aktualisieren oder zu löschen. Sie können Ihr eindeutiges Fallback-Angebot `@id` in einem späteren Lernprogramm verwenden, um eine Entscheidung zu erstellen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Fallback-Angebot zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Fallback-Angebot zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Fallback-Angebots in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
 
 
 ```json
