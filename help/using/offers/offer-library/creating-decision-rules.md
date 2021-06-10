@@ -48,6 +48,6 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den Anwendungsdienst Offer-Decisioning von Adobe Experience Platform. Sie enthält jedoch allgemeine Hinweise für die Nutzung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
