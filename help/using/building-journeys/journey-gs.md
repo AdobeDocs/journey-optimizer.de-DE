@@ -8,15 +8,15 @@ ht-degree: 99%
 
 ---
 
-# Erste Schritte mit Journeys{#jo-quick-start}
+# Erste Schritte mit Journeys {#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
 ## Voraussetzungen
 
-Um Nachrichten mit Journey zu senden, ist folgende Konfiguration notwendig:
+Um Nachrichten mit Journeys zu senden, ist folgende Konfiguration notwendig:
 
-1. **Ereignis konfigurieren**: Wenn Sie Ihre Journeys beim Empfang eines Ereignisses unitär triggern möchte, müssen Sie zunächst ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
+1. **Ereignis konfigurieren**: Wenn Sie Ihre Journeys beim Empfang eines Ereignisses unitär triggern möchten, müssen Sie zunächst ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
 
    ![](../assets/jo-event7.png)
 
@@ -24,15 +24,15 @@ Um Nachrichten mit Journey zu senden, ist folgende Konfiguration notwendig:
 
    ![](../assets/segment2.png)
 
-1. **Datenquelle konfigurieren**:Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
+1. **Datenquelle konfigurieren**: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
 
    ![](../assets/jo-datasource.png)
 
-1. **Aktion konfigurieren**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert. Sie müssen lediglich Ihren Content entwerfen und Ihre Nachricht veröffentlichen. Siehe [diesen Abschnitt](../get-started-content.md). Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
+1. **Aktion konfigurieren**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert. Sie müssen lediglich Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md). Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
    ![](../assets/create-content-push.png)
 
-## Erstellen Ihrer Journey{#jo-build}
+## Erstellen Ihrer Journey {#jo-build}
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
@@ -52,9 +52,9 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
    ![](../assets/read-segment.png)
 
-1. Ziehen Sie die nächsten Schritte, die der Benutzer ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
-1. Testen Sie Ihre Journey mit Test-Profilen. Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md)
+1. Testen Sie Ihre Journey mit Testprofilen. Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md)
 
 1. Veröffentlichen Sie Ihre Journey, um sie zu aktivieren. Weitere Informationen finden Sie in diesem [Abschnitt](publishing-the-journey.md).
 
@@ -151,7 +151,7 @@ Wenn Sie eine Journey schließen möchten, klicken Sie auf **[!UICONTROL Für ne
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Wählen Sie auf der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
+1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](../assets/finish_drop_down_list.png)
@@ -173,7 +173,7 @@ Sie können eine Journey stoppen (z. B. wenn ein Marketing-Experte erkennt, das
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Wählen Sie auf der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
+1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
 ![](../assets/finish_drop_down_list.png)
