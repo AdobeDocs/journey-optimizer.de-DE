@@ -1,11 +1,10 @@
 ---
-title: Journey-Bericht
-description: Erfahren Sie, wie Sie Daten aus dem Live-Bericht Journey verwenden
-translation-type: tm+mt
+title: Journey-Live-Bericht
+description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -13,118 +12,118 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/badge.png)
 
-Über die Schaltfläche **[!UICONTROL Live report]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
+Über die Schaltfläche **[!UICONTROL Live-Bericht]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 
 ![](../assets/report_1.png)
 
-Die Seite &quot;Journey **[!UICONTROL Live-Bericht]**&quot;wird mit den folgenden Registerkarten angezeigt:
+Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerkarten angezeigt:
 
 * [Journey](#journey-live)
-* [E-Mail](#email-live)
+* [E-Mail ](#email-live)
 * [Push-Benachrichtigung](#push-live)
 
-Der Journey **[!UICONTROL Live-Bericht]** wird in verschiedene Widgets unterteilt, die Ihren Journey- und Fehlerbericht detailliert angeben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
+Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
-## Journey tab {#journey-live}
+## Registerkarte „Journey“ {#journey-live}
 
-Über die Registerkarte **[!UICONTROL Live-Bericht]** erhalten Sie auf der Registerkarte **[!UICONTROL Journey]** eine klare Ansicht der wichtigsten Verfolgungsdaten zu Ihrer Journey.
+Aus Ihrem **[!UICONTROL Journey-Live-Bericht]** heraus erhalten Sie über die Registerkarte **[!UICONTROL Journey]** eine Sicht auf die wichtigsten Tracking-Daten zur Journey.
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Mit der]** Performance von Journey können Sie den Pfad Ihrer zielgerichteten Profil Schritt für Schritt durch Ihre Journey sehen.
+Mit **[!UICONTROL Performance der Journey]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
 Das Widget **[!UICONTROL Statistiken der Journey]** zeigt die folgenden KPIs an:
 
-* **[!UICONTROL Eingegebene Profil]**: Gesamtzahl der Personen, die das Ereignis der Journey erreicht haben.
+* **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
-* **[!UICONTROL Exittierte Profil]**: Gesamtzahl der Personen, die die Journey verlassen haben.
+* **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben.
 
-* **[!UICONTROL Fehlgeschlagene individuelle Journey]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene individuelle Journey]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
 ![](../assets/report_journey_3.png)
 
-Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde,**[!UICONTROL  und ]**und**[!UICONTROL  Ereignis ]**können Sie sehen, welche Ereignis über Zusammenfassungsnummer, Diagramm und Tabelle erfolgreich ausgeführt wurden.]**
+Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]**, **[!UICONTROL Ausgeführtes Ereignis]** und **[!UICONTROL Ereignis]** können Sie sehen, welche Ereignisse über Gesamtanzahl, Diagramm und Tabelle erfolgreich ausgeführt wurden.
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL Die Aktion, die während der letzten 24]** Stunden ausgeführt wurde,  **[!UICONTROL Aktionen und]** Fehler-Widgets stellen die erfolgreichste Aktion und die Fehler dar, die beim Auslösen Ihrer Aktionen aufgetreten sind. Die Aktionsdiagramm-, Tabellen- und Zusammenfassungs-Zahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
+Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** stellen die erfolgreichste Aktion und die Fehler dar, die beim Auslösen Ihrer Aktionen aufgetreten sind. Die Aktionsdiagramm-, Tabellen- und Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Erfolgreich ausgeführte]** Aktionen: Gesamtanzahl der erfolgreich ausgeführten Aktionen für eine Journey.
+* **[!UICONTROL Erfolgreich ausgeführte Aktionen]**: Gesamtzahl der erfolgreich ausgeführten Aktionen für eine Journey.
 
-* **[!UICONTROL Fehler in Aktion]**: Gesamtanzahl der Fehler, die bei Aktionen aufgetreten sind.
+* **[!UICONTROL Fehler in Aktion]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
 
-## Registerkarte &quot;E-Mail&quot; {#email-live}
+## Registerkarte „E-Mail“ {#email-live}
 
-In Ihrem Journey **[!UICONTROL Live-Bericht]** geben Sie auf der Registerkarte **[!UICONTROL E-Mail]** die Hauptinformationen in Bezug auf die in Ihrer Journey gesendeten E-Mail-Versand an.
+In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
-Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [Live-Bericht per E-Mail senden](email-live-report.md).
+Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [E-Mail-Live-Bericht](email-live-report.md).
 
 ![](../assets/report_email_1.png)
 
-Die Widgets **[!UICONTROL Senden von Statistiken]** und **[!UICONTROL Senden von Metriken per E-Mail]** geben einen Überblick über den Erfolg Ihres Versands:
+Die Widgets **[!UICONTROL Senden von Statistiken]** und **[!UICONTROL Senden von Metriken per E-Mail]** zeigen Details zum Erfolg Ihres Versands:
 
-* **[!UICONTROL Ausgeliefert]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Absprünge]**: Gesamtzahl der während des Versands und der automatischen Rückgabeverarbeitung gesammelten Fehler im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während eines Versands aufgetreten sind und die Versendung an Profil verhinderten.
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
 <!--Hard and bounce - by Email-->
 
-Im Diagramm **[!UICONTROL Email summary]** finden Sie die wichtigsten Informationen zu Ihrer Nachricht:
+Im Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** finden Sie die wichtigsten Informationen zu Ihrer Nachricht:
 
-* **[!UICONTROL Gesendet]**: Gesamtanzahl der Sends für den Versand.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Ausgeliefert]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Absprünge]**: Gesamtzahl der während des Versands und der automatischen Rückgabeverarbeitung gesammelten Fehler im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während eines Versands aufgetreten sind und die Versendung an Profil verhinderten.
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-* **[!UICONTROL Öffnet]**: Gibt an, wie oft eine Nachricht in einem Versand geöffnet wurde.
+* **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einem Versand.
 
 ![](../assets/report_email_2.png)
 
-Die Widgets **[!UICONTROL Absprunggründe]** und **[!UICONTROL Absprunggrundsätze]** enthalten die verfügbaren Daten zu absprungenen Kategorien wie:
+Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten wie:
 
-* **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dies umfasst eine Fehlermeldung, die explizit angibt, dass die Adresse ungültig ist, z. B. Unbekannte Nutzer.
+* **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.
 
-* **[!UICONTROL Softbounce]**: die Gesamtzahl der temporären Fehler, wie eine volle Inbox.
+* **[!UICONTROL Softbounce]**: die Gesamtzahl der temporären Fehler, wie ein voller Posteingang.
 
-* **[!UICONTROL Ignoriert]**: Die Gesamtanzahl der temporären Ereignisse (z. B. Abwesenheitszeiten) oder ein technischer Fehler, z. B. wenn der Absender Postmaster ist.
+* **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-In der Grafik und Tabelle **[!UICONTROL Fehlergründe]** können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
-## Push-Registerkarte {#push-live}
+## Registerkarte „Push-Benachrichtigung“ {#push-live}
 
-In Ihrem Journey **[!UICONTROL Livebericht]** enthält die Registerkarte **[!UICONTROL Push]** die Hauptinformationen zu den Push-Versänden, die in Ihrer Journey gesendet werden.
+In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
-Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im Abschnitt [Live-Bericht ](push-live-report.md) push.
+Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im Abschnitt [Push-Live-Bericht](push-live-report.md).
 
 ![](../assets/report_push_1.png)
 
-**[!UICONTROL Push-Benachrichtigungs-]**,  **[!UICONTROL Push-Benachrichtigungs-]** Zusammenfassung und  **[!UICONTROL Sendenmetriken - nach]** Pushwidgets-Details zu den Hauptinformationen in Bezug auf Ihre Nachricht:
+Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
-* **[!UICONTROL Gesendet]**: Gesamtanzahl der Sends für den Versand.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Ausgeliefert]**: Anzahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Absprünge]**: Gesamtzahl der während des Versands und der automatischen Rückgabeverarbeitung gesammelten Fehler im Verhältnis zur Gesamtanzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während eines Versands aufgetreten sind und die Versendung an Profil verhinderten.
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-* **[!UICONTROL Öffnet]**: Gibt an, wie oft eine Nachricht in einem Versand geöffnet wurde.
+* **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
 
-* **[!UICONTROL Aktionen]**: Gesamtzahl der Aktionen, die bei der zugestellten Push-Benachrichtigung durchgeführt wurden, z. B. Klicken auf oder Abbruch der Schaltfläche.
+* **[!UICONTROL Aktionen]**: Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, d. h. Klick auf Schaltfläche oder Abbruch.
 
-* **[!UICONTROL Interaktionen]**: Gesamtanzahl der Öffnen- und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil den Push geöffnet hat oder auf eine Schaltfläche geklickt wurde.
+* **[!UICONTROL Interaktionen]**: Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet hat oder wenn auf eine Schaltfläche geklickt wurde.
 
-In der Grafik und Tabelle **[!UICONTROL Fehlergründe]** können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
 ![](../assets/report_push_2.png)
 
-Die Diagramme und Tabellen **[!UICONTROL Verfolgung nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem.
+Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem.
 
-Das Widget **[!UICONTROL Senden von Statistiken - Fehlgeschlagen]** ermöglicht Ihnen zu sehen, wie viele Fehler und Absprung aufgetreten sind.
+Mit dem Widget **[!UICONTROL Sendestatistiken – Fehlgeschlagen]** können Sie sehen, wie viele Fehler und Bounces aufgetreten sind.
