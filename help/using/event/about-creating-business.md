@@ -1,5 +1,5 @@
 ---
-title: Geschäftsereignis konfigurieren
+title: Konfigurieren eines Geschäftsereignisses
 description: Erfahren Sie, wie Sie ein Geschäftsereignis erstellen
 source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
@@ -8,11 +8,11 @@ ht-degree: 98%
 
 ---
 
-# Geschäftsereignis konfigurieren {#configure-a-business-event}
+# Konfigurieren eines Geschäftsereignisses {#configure-a-business-event}
 
 ![](../assets/do-not-localize/badge.png)
 
-Im Gegensatz zu einheitlichen Ereignissen sind Geschäftsereignis nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+Im Gegensatz zu einheitlichen Ereignissen sind Geschäftsereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
 Auf dem Lesen von Segmenten basierende Journeys können einmalig durch eine Planung auf regulärer Basis oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
@@ -20,14 +20,14 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 
 ## Wichtige Hinweise
 
-* Das Ereignis-Schema muss eine primäre Identität enthalten.
+* Das Ereignisschema muss eine primäre Identität enthalten.
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
 * Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
 * Geschäftsereignisse können nicht häufiger als jede Stunde ausgelöst werden.
 * Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
-* Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Siehe [diesen Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
-* Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu bauen, wenn sie häufige Geschäftsereignisse erwarten.
+* Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
+* Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
 
 ## Erste Schritte mit Geschäftsereignissen
 
@@ -49,7 +49,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
    >
    >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
 
-1. Wählen Sie im Feld **[!UICONTROL Typ]** **Geschäftlich**.
+1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Geschäftlich**.
 
    ![](../assets/jo-event3bis-business.png)
 
@@ -59,7 +59,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    ![](../assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignis-Schema muss eine primäre Identität enthalten.
+   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten.
 
    ![](../assets/test-profiles-4.png)
 
