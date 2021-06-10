@@ -1,9 +1,8 @@
 ---
 title: Wichtige Schritte zum Erstellen eines Angebots
 description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut.
-translation-type: tm+mt
 source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
