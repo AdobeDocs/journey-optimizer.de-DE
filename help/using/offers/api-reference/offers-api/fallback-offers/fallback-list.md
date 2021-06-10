@@ -1,9 +1,8 @@
 ---
 title: Fallback-Angebote auflisten
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
