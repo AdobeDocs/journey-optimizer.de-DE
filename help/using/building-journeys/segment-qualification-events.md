@@ -1,11 +1,10 @@
 ---
 title: Segmentqualifizierungsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
-translation-type: tm+mt
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +24,14 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 >
 >Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**Streaming**-Segmente, unter Verwendung der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet werden.
 >
->Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um einen Stapel handelt, können Personen, die für dieses Segment neu qualifiziert wurden, möglicherweise die Journey eingeben, wenn die Segmentberechnung auf Adobe Experience Platform ausgeführt wird.
+>Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifizierung]** auf Ihrer Arbeitsfläche ab.
 
    ![](../assets/segment5.png)
 
-1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu.  Dieser Schritt ist optional.
+1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
 
 1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die gewünschten Segmente aus.
 
@@ -90,14 +89,14 @@ Weitere Informationen zur Streaming-Segmentierung finden Sie auf dieser [Seite](
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
-Im Folgenden finden Sie einige Best Practices, die helfen, Überladungen von in Journey verwendeten Systemen zu vermeiden (Datenquellen, benutzerdefinierte Aktionen, **Message**-Aktivitäten).
+Im Folgenden finden Sie Best Practices, die Ihnen dabei helfen, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, **Nachrichten**-Aktionen).
 
 Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** Batch-Segmente nicht unmittelbar nach ihrer Erstellung. So lässt sich die erste Berechnungsspitze vermeiden. Beachten Sie, dass in der Journey-Arbeitsfläche eine gelbe Warnung angezeigt wird, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
 
 ![](../assets/segment-error.png)
 
-Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden (siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
+Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden (siehe diesen [Abschnitt](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de)). Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie das Menü **[!UICONTROL Segmente]** öffnen, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
+Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie auf das Menü **[!UICONTROL Segmente]** klicken, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
 
 ![](../assets/segment-overload.png)
