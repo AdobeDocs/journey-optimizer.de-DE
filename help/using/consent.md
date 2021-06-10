@@ -14,14 +14,14 @@ ht-degree: 100%
 
 Verwenden Sie [!DNL Journey Optimizer], um die Zustimmung Ihrer Empfänger zur Kommunikation nachzuverfolgen und anhand der Verwaltung ihrer Voreinstellungen und Abonnements zu verstehen, wie sie mit Ihrer Marke interagieren möchten. <!--Their preferences and subscriptions are handled through Consent management.-->
 
-Regeln wie GDPR verlangen die Erfüllung bestimmter Anforderungen, bevor Sie Informationen von betroffenen Personen verwenden können. Darüber hinaus sollten die betroffenen Personen ihre Einwilligung jederzeit ändern können.
+Gesetzliche Bestimmungen wie die DSGVO verlangen die Erfüllung bestimmter Anforderungen, bevor Sie Informationen von betroffenen Personen verwenden können. Darüber hinaus sollten die betroffenen Personen ihre Einwilligung jederzeit ändern können.
 
 **Warum ist das wichtig?**
 
 * Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke.
 * Auf diese Weise vermeiden Sie das Verschicken unerwünschter Nachrichten an Empfänger, die Ihre Nachrichten als Spam kennzeichnen und Ihrem Ruf schaden könnten.
 
-Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der [Dokumentation zur Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de).
+Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de).
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -29,21 +29,21 @@ Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den gelten
 
 ## Opt-out-Verwaltung{#opt-out-management}
 
-Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation von [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations).
+Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations).
 
-Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmelden** einfügen:
-* Durch das Anklicken dieses Links werden die Empfänger zu einer Landingpage mit einem Button zur Bestätigung weitergeleitet.
-* Nach Bestätigung der Abmeldung durch einen Klick auf den Opt-out-Button wird ein Adobe I/O-Aufruf ausgeführt, um die Profildaten mit dieser Information zu aktualisieren. [Weitere Informationen hierzu](#consent-service-api).
+Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
+* Durch das Klicken auf diesen Link werden die Empfänger zu einer Landingpage mit einer Schaltfläche zur Bestätigung weitergeleitet.
+* Nach Bestätigung der Abmeldung durch einen Klick auf die Opt-out-Schaltfläche wird ein Adobe I/O-Aufruf ausgeführt, um die Profildaten mit dieser Information zu aktualisieren. [Weitere Informationen hierzu](#consent-service-api).
 
-Um einen Link zum Abmelden hinzuzufügen, gehen Sie wie folgt vor:
+Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
 1. Erstellen Sie Ihre Abmeldungs-Landingpage.
 1. Hosten Sie Ihre Landingpage auf einem Drittanbietersystem Ihrer Wahl.
-1. [Erstellen Sie eine Nachricht](../../help/using/create-message.md) ind [!DNL Journey Optimizer].
+1. [Erstellen Sie eine Nachricht](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->
 
-1. Wählen Sie Text in Ihrem Content aus und fügen Sie einen Link mithilfe der dedizierten Symbolleiste ein.
+1. Wählen Sie Text in Ihrem Inhalt aus und fügen Sie einen Link mithilfe der dedizierten Symbolleiste ein.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -57,7 +57,7 @@ Um einen Link zum Abmelden hinzuzufügen, gehen Sie wie folgt vor:
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Speichern Sie den Content und [veröffentlichen Sie Ihre Nachricht](../../help/using/publish-manage-message.md).
+1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../../help/using/publish-manage-message.md).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Um einen Link zum Abmelden hinzuzufügen, gehen Sie wie folgt vor:
 
    ![](assets/opt-out-lp-example.png)
 
-1. Wenn der Empfänger den Opt-out-Button der Landingpage anklickt (hier der Button **Abmelden**), werden die Profildaten über einen [Adobe I/O-Aufruf](#opt-out-api) aktualisiert.
+1. Wenn der Empfänger auf die Opt-out-Schaltfläche der Landingpage klickt (hier die Schaltfläche **Abmelden**), werden die Profildaten über einen [Adobe I/O-Aufruf](#opt-out-api) aktualisiert.
 
    Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 
@@ -77,7 +77,7 @@ Um einen Link zum Abmelden hinzuzufügen, gehen Sie wie folgt vor:
 
    Ab sofort erhält dieser Benutzer keine weitere Kommunikation von Ihrer Marke, es sei denn, er meldet sich erneut an.
 
-Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started).
+Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identitäts-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started).
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -108,7 +108,7 @@ Header-Anforderungen:
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
-* authorization (Benutzer-Token ihres Technical Account) <!--How do you find this information? And other header elements?-->
+* authorization (Benutzer-Token ihres technischen Accounts) <!--How do you find this information? And other header elements?-->
 
 Hauptteil der Anfrage:
 
@@ -127,7 +127,7 @@ Hauptteil der Anfrage:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Push Opt-out Management{#push-opt-out-management}
+## Push-Opt-out-Verwaltung {#push-opt-out-management}
 
 Push-Empfänger können sich über ihre Geräte selbst abmelden.
 
