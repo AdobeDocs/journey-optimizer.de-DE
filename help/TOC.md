@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 83%
@@ -122,22 +122,22 @@ ht-degree: 83%
       + [Entscheidungsregeln erstellen](using/offers/offer-library/creating-decision-rules.md)
       + [Tags erstellen](using/offers/offer-library/creating-tags.md)
       + [Personalisierte Angebote erstellen](using/offers/offer-library/creating-personalized-offers.md)
-      + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
-      + [Erstellen von Kollektionen](using/offers/offer-library/creating-collections.md)
-      + [Erstellen von Rangfolgeformeln](using/offers/offer-library/create-ranking-formulas.md)
-   + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
-      + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
+      + [Fallback-Angebote erstellen](using/offers/offer-library/creating-fallback-offers.md)
+      + [Kollektionen erstellen](using/offers/offer-library/creating-collections.md)
+      + [Rangfolgeformeln erstellen](using/offers/offer-library/create-ranking-formulas.md)
+   + Entscheidungen erstellen und verwalten {#create-manage-activities}
+      + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten für Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
    + Erstellen von Entscheidungs-Management-Berichten {create-reports}
       + [Erste Schritte mit Entscheidungsverwaltungsereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
-   + Exportieren des Angebotskatalogs {#export-catalog}
+   + Angebotskatalog exportieren {#export-catalog}
       + [Erste Schritte mit dem Exportieren eines Angebotskatalogs ](using/offers/export-catalog/get-started-export.md)
       + [Zugriff auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
       + [Datensatz für personalisierte Angebote](using/offers/export-catalog/export-offers.md)
       + [Entscheidungsdatensatz](using/offers/export-catalog/export-decisions.md)
-      + [Datensatz für Platzierungen](using/offers/export-catalog/export-placements.md)
+      + [Platzierungsdatensatz](using/offers/export-catalog/export-placements.md)
       + [Fallback-Datensatz](using/offers/export-catalog/export-fallback.md)
    + API-Referenz {#api-reference}
       + [Erste Schritte](using/offers/api-reference/getting-started.md)
@@ -145,7 +145,7 @@ ht-degree: 83%
          + Platzierungen {#placements}
             + [Platzierungen auflisten](using/offers/api-reference/offers-api/placements/placements-list.md)
             + [Platzierung nachschlagen](using/offers/api-reference/offers-api/placements/lookup.md)
-            + [Erstellen einer Platzierung](using/offers/api-reference/offers-api/placements/create.md)
+            + [Platzierung erstellen](using/offers/api-reference/offers-api/placements/create.md)
             + [Platzierung aktualisieren](using/offers/api-reference/offers-api/placements/update.md)
             + [Platzierung löschen](using/offers/api-reference/offers-api/placements/delete.md)
          + Entscheidungsregeln {#decision-rules}
@@ -171,14 +171,14 @@ ht-degree: 83%
             + [Kollektion nachschlagen](using/offers/api-reference/offers-api/collections/lookup.md)
             + [Kollektion erstellen](using/offers/api-reference/offers-api/collections/create.md)
             + [Kollektion aktualisieren](using/offers/api-reference/offers-api/collections/update.md)
-            + [Löschen von Kollektionen](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Kollektion löschen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
             + [Fallback-Angebote auflisten](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Fallback-Angebot nachschlagen](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
             + [Fallback-Angebot erstellen](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Fallback-Angebot aktualisieren](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Fallback-Angebot löschen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Entscheidungen mithilfe von APIs erstellen und verwalten {#activities-api}
+      + Entscheidungen mit APIs erstellen und verwalten {#activities-api}
          + [Entscheidungen auflisten](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Entscheidung nachschlagen](using/offers/api-reference/activities-api/activities/lookup.md)
          + [Entscheidung erstellen](using/offers/api-reference/activities-api/activities/create.md)
