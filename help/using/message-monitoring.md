@@ -1,9 +1,13 @@
 ---
 title: Überwachen der Nachrichtenausführung
 description: Hinweise zur Überwachung
-source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
+feature: Überwachung
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 85%
 
 ---
