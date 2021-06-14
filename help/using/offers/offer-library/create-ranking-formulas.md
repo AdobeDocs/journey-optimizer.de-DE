@@ -1,14 +1,18 @@
 ---
-title: Erstellen von Rangfolgeformeln
+title: Rangfolgeformeln erstellen
 description: Erfahren Sie, wie Sie Rangfolgeformeln in Adobe Experience Platform erstellen.
-source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 93%
 
 ---
 
-# Erstellen von Rangfolgeformeln {#create-ranking-formulas}
+# Rangfolgeformeln erstellen {#create-ranking-formulas}
 
 ## Grundlagen zu Rangfolgeformeln {#about-ranking-formulas}
 
@@ -16,7 +20,7 @@ Mithilfe von **Rangfolgeformeln** können Sie festlegen, welches Angebot für ei
 
 Rangfolgeformeln werden in der **PQL-Syntax** angegeben und können Profil-, Kontextdaten- und Angebotsattribute nutzen. Weiterführende Informationen zur Verwendung der PQL-Syntax finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de).
 
-Sobald eine Rangfolgenformel erstellt wurde, können Sie diese einer Platzierung in einer Entscheidung (früher Angebotsaktivität) zuweisen. Weitere Informationen finden Sie unter [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
+Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung (früher als Angebotsaktivität bezeichnet) zuweisen. Weitere Informationen dazu finden Sie unter [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
 
 ## Erstellen einer Rangfolgeformel {#create-ranking-formula}
 
@@ -38,6 +42,6 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
 
-   Sie kann jetzt für eine Entscheidung verwendet werden, um die geeigneten Angebote für eine Platzierung zu sortieren (siehe [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md)).
+   Sie kann jetzt in einer Entscheidung verwendet werden, um die geeigneten Angebote für eine Platzierung zu reihen (siehe [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md)).
 
    ![](../../assets/ranking-formula-created.png)
