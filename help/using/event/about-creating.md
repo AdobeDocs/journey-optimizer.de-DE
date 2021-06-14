@@ -1,9 +1,13 @@
 ---
 title: Konfigurieren eines unitären Ereignisses
 description: Erfahren Sie, wie Sie ein unitäres Ereignis konfigurieren
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Ereignisse
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1676'
 ht-degree: 99%
 
 ---
