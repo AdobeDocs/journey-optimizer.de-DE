@@ -8,9 +8,11 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Anwendungskonfiguration
+topic: Administration
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 29%
 
 ---
@@ -50,6 +52,6 @@ Um Journey erstellen und Nachrichten senden zu können, gehen Sie wie folgt vor:
 
    * Mit der **Datenquelle**-Konfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden. Weitere Informationen zu Datenquellen finden Sie in diesem [Abschnitt](../datasource/about-data-sources.md).
 
-   * **Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Personen zu senden, die in die Journey hineinkommen.** In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). Weitere Informationen zu Ereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+   * **Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.** In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). Weitere Informationen zu Ereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
    * [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen: Sie können Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, erstellen Sie eine **benutzerdefinierte Aktion**. Weitere Informationen zu Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
