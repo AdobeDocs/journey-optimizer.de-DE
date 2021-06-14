@@ -1,9 +1,13 @@
 ---
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen in Adobe Experience Platform erstellen.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '225'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -18,7 +22,7 @@ Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen
 
 ![](../../assets/offers_placement_schema.png)
 
-Die Liste der Platzierungen ist über das Menü **[!UICONTROL Komponenten]** zugänglich. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
+Die Liste der Platzierungen ist im Menü **[!UICONTROL Komponenten]** verfügbar. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
 
 ![](../../assets/placements_filter.png)
 
