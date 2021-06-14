@@ -1,9 +1,13 @@
 ---
 title: Kollektionen erstellen
 description: Erfahren Sie, wie Sie Angebote mithilfe von Kollektionen organisieren.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '296'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -14,7 +18,7 @@ Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Katego
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste von Angebots-Kollektionen ist im Menü **[!UICONTROL Angebote]** zugänglich.
+Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
 ![](../../assets/collections_list.png)
 
