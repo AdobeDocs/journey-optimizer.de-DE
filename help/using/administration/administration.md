@@ -1,11 +1,15 @@
 ---
 title: Technische Einstellungen
-description: Information zu Richtlinien zu Administration und Einstellungen
+description: Erfahren Sie mehr über Richtlinien zu Administration und Einstellungen
 hidefromtoc: true
 hide: true
-source-git-commit: 8a94c63b4a0cba1014e9778caa24720fb975ae52
+feature: Anwendungskonfiguration
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
@@ -35,13 +39,13 @@ Nachdem die Branding-Parameter konfiguriert wurden, können Sie sie beim Erstell
 
 ## Push-Benachrichtigungs-Kanal konfigurieren
 
-In diesem [Abschnitt](../create-push.md) erfahren Sie, wie Sie den Push-Benachrichtigungs-Kanal ikonfigurieren.
+In diesem [Abschnitt](../create-push.md) erfahren Sie, wie Sie den Push-Benachrichtigungs-Kanal konfigurieren.
 
 ## Zuweisen von Subdomains
 
 Für jede neue Subdomain, die in [!DNL Journey Optimizer] verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. Sie müssen sich an Ihren technischen Ansprechpartner bei Adobe wenden.
 
-Bei der Implementierung einer Lösung gibt es Anforderungen an nach außen gerichtete Komponenten: Dazu gehören das Einrichten von Links und Webseiten, die verfolgt werden sollen, das Anzeigen von Mirror-Seiten usw.
+Bei der Implementierung einer Lösung gibt es Anforderungen an nach außen gerichtete Komponenten: Dazu gehören das Einrichten von Links und Web-Seiten, die verfolgt werden sollen, das Anzeigen von Mirror-Seiten usw.
 
 Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.
 
@@ -64,7 +68,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Admin]**, um **[!UICONTROL Datenquelle
 
 ![](../assets/admin-menu.png)
 
-### Data Sources
+### Datenquellen
 
 Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen.
 
@@ -72,7 +76,7 @@ Weitere Informationen zu Datenquellen finden Sie in diesem [Abschnitt](../dataso
 
 ### Ereignisse
 
-Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Personen zu senden, die in die Journey hineinkommen.
+Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.
 
 In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse).
 
@@ -80,6 +84,6 @@ Weitere Informationen zu Ereignissen finden Sie in [diesem Abschnitt](../event/a
 
 ### Aktionen
 
-[!DNL Journey Optimizer] Nachrichtenfunktionen sind integriert: Sie müssen nur Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen.
+Die Nachrichtenfunktionen von [!DNL Journey Optimizer] sind integriert: Sie müssen nur Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen.
 
 Weitere Informationen zu Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
