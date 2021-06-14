@@ -1,9 +1,13 @@
 ---
 title: Entwerfen von E-Mails in Journey Optimizer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '1570'
+feature: Übersicht
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '1573'
 ht-degree: 100%
 
 ---
@@ -240,8 +244,10 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 >[!CAUTION]
 >
 >* Die Änderungen, die Sie in der **[!UICONTROL Nur-Text-Ansicht]** vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
->
->* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+   >
+   >
+* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+
 >
 
 
