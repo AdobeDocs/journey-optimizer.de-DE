@@ -1,9 +1,13 @@
 ---
 title: Personalisierte Angebote erstellen
 description: Hier erfahren Sie, wie Sie in Adobe Experience Platform personalisierte Angebote erstellen.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '965'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '967'
 ht-degree: 100%
 
 ---
@@ -18,7 +22,7 @@ Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste personalisierter Angebote ist im Menü **[!UICONTROL Angebot]** verfügbar.
+Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
 ![](../../assets/offers_list.png)
 
@@ -26,7 +30,7 @@ Die Liste personalisierter Angebote ist im Menü **[!UICONTROL Angebot]** verfü
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
-1. Klicken Sie auf **[!UICONTROL Angebot erstellen]** und wählen Sie **[!UICONTROL Personalisiertes Angebot]**.
+1. Klicken Sie auf **[!UICONTROL Angebot erstellen]** und wählen Sie dann **[!UICONTROL Personalisiertes Angebot]** aus.
 
    ![](../../assets/create_offer.png)
 
@@ -126,7 +130,7 @@ Es kann jetzt Benutzern unterbreitet werden. Sie können das Angebot auswählen,
 
 ![](../../assets/offer_created.png)
 
-Sobald ein Angebot erstellt wurde, können Sie auf seinen Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen über die Registerkarte **[!UICONTROL Änderungsprotokoll]** überwachen (siehe [Änderungen an Angeboten und Entscheidungen überwachen](../get-started/user-interface.md#monitoring-changes)).
+Sobald ein Angebot erstellt wurde, können Sie in der Liste auf seinen Namen klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen über die Registerkarte **[!UICONTROL Änderungsprotokoll]** überwachen (siehe [Änderungen an Angeboten und Entscheidungen überwachen](../get-started/user-interface.md#monitoring-changes)).
 
 ## Tutorial {#video}
 
