@@ -1,9 +1,13 @@
 ---
 title: Validierung der Personalisierung
 description: Erfahren Sie mehr über die Validierung der Personalisierung und wie Sie Fehler beheben können
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+feature: Personalisierung
+topic: Personalisierung
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
