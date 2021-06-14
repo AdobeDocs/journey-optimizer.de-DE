@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e954db290e69ce64a3900e4c52764858214ca439
+feature: Kontrollgruppen
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 18%
+source-wordcount: '158'
+ht-degree: 20%
 
 ---
 
@@ -33,6 +37,6 @@ Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf drei Konzepten:
 
 * **[!UICONTROL Sandbox]**: Virtual Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe [Verwenden von Sandboxes](sandboxes.md)
 
-Jedes Konzept kann von **[!UICONTROL Produkt-Administratoren]** verwaltet werden, die Zugriff auf die Admin Console haben. [Erfahren Sie mehr über Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
+Jedes Konzept kann von **[!UICONTROL Produkt-Administratoren]** verwaltet werden, die Zugriff auf die Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
 ![](../assets/do-not-localize/permissions_2.png)
