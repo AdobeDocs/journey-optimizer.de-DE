@@ -1,9 +1,13 @@
 ---
 title: Journey-Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '789'
+feature: 'Berichterstellung '
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 100%
 Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerkarten angezeigt:
 
 * [Journey](#journey-live)
-* [E-Mail ](#email-live)
+* [E-Mail](#email-live)
 * [Push-Benachrichtigung](#push-live)
 
 Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
