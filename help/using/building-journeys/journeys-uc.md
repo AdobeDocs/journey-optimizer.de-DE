@@ -1,9 +1,13 @@
 ---
 title: Anwendungsfälle für Journeys
 description: Anwendungsfälle für Journeys
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Journeys
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 98%
 
 ---
