@@ -1,24 +1,28 @@
 ---
-title: Erstellen von Entscheidungen
+title: Entscheidungen erstellen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '605'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
 
-# Erstellen von Entscheidungen {#create-offer-activities}
+# Entscheidungen erstellen {#create-offer-activities}
 
-Entscheidungen (früher als „Angebotsaktivitäten“ bezeichnet) sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands unterbreitet werden kann.
+Entscheidungen (früher als Angebotsaktivitäten bezeichnet) sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands unterbreitet werden kann.
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste der Entscheidungen steht im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** zur Verfügung. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
+Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** verfügbar. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
 
 ![](../../assets/activities-list.png)
 
-Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Komponenten in der Angebotsbibliothek erstellt wurden:
+Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten in der Angebotsbibliothek erstellt wurden:
 
 * [Platzierungen](../offer-library/creating-placements.md),
 * [Kollektionen](../offer-library/creating-collections.md),
@@ -27,7 +31,7 @@ Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Ko
 
 ## Entscheidung erstellen {#create-activity}
 
-1. Greifen Sie auf die Liste der Entscheidungen zu und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
+1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
 
 1. Geben Sie den Namen der Entscheidung sowie das Anfangs- und Enddatum mit Uhrzeit ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -59,7 +63,7 @@ Bevor Sie eine Entscheidung erstellen, stellen Sie sicher, dass die folgenden Ko
 
    Fügen Sie eines oder mehrere Segmente aus dem linken Bereich hinzu, kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]** und klicken Sie dann zur Bestätigung auf **[!UICONTROL Auswählen]**.
 
-   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
    ![](../../assets/activity_constraint_segment2.png)
 
