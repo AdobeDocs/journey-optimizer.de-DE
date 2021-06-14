@@ -2,9 +2,13 @@
 solution: Journey Orchestration
 title: Informationen zur Konfiguration einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
-source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
+feature: Aktionen
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
