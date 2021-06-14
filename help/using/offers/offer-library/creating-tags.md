@@ -1,9 +1,13 @@
 ---
 title: Tags erstellen
 description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '167'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '169'
 ht-degree: 100%
 
 ---
@@ -16,7 +20,7 @@ Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. S
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste der erstellten Tags ist auf der Registerkarte **[!UICONTROL Komponenten]** verfügbar.
+Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
 ![](../../assets/tags_list.png)
 
