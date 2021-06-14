@@ -1,16 +1,20 @@
 ---
 title: Entscheidungen löschen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: ht
-source-wordcount: '146'
+feature: Angebote
+topic: Integrationen
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
 
 # Entscheidung löschen
 
-Gelegentlich kann es erforderlich sein, eine Entscheidung (früher als „Angebotsaktivität“ bezeichnet) zu entfernen (DELETE). Es können nur Entscheidungen gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie mit der $id des Fallback-Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
+Hin und wieder kann es erforderlich sein, eine Entscheidung (früher als Angebotsaktivität bezeichnet) zu entfernen (DELETE). Es können nur Entscheidungen gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie mit der $id des Fallback-Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 
 **API-Format**
 
