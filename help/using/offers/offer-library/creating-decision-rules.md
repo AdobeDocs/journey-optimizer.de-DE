@@ -1,9 +1,13 @@
 ---
 title: Entscheidungsregeln erstellen
 description: Erfahren Sie, wie Sie in Adobe Experience Platform Entscheidungsregeln erstellen.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 97%
 
 ---
