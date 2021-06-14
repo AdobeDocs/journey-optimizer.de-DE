@@ -1,6 +1,6 @@
 ---
 title: Erstellen von IP-Pools
-description: Erfahren Sie, wie Sie xxxx verwenden
+description: '"Erfahren Sie, wie Sie IP-Pools verwalten."'
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 2d8b7bbaee7509d4cc33445c64b2382ed14a9678
+feature: Anwendungskonfiguration
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
