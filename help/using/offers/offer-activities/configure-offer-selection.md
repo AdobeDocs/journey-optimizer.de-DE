@@ -1,14 +1,18 @@
 ---
-title: Konfigurieren der Auswahl von Angeboten für Entscheidungen
+title: Auswahl von Angeboten in Entscheidungen konfigurieren
 description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '255'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
 
-# Konfigurieren der Auswahl von Angeboten für Entscheidungen {#offers-selection-in-activities}
+# Auswahl von Angeboten in Entscheidungen konfigurieren {#offers-selection-in-activities}
 
 ## Informationen zur Priorität von Angeboten {#about-offers-priority}
 
@@ -24,7 +28,7 @@ Weiterführende Informationen zur Erstellung einer Regel für Rangfolgen finden 
 
 Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-* Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene und erstellen Sie dann die Platzierungen, die Ihre Angebote enthalten (siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md)).
+* Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene, und erstellen Sie dann die Platzierungen, die Ihre Angebote enthalten (siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md)).
 
 * Wählen Sie für jede Platzierung **[!UICONTROL Rangliste]** aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Rangliste hinzufügen]**.
 
@@ -34,4 +38,4 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
    ![](../../assets/ranking-selection.png)
 
-Die Rangfolgenformel ist nun mit der Platzierung verknüpft. Wenn mehrere Angebote für die Präsentation auf dieser Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst unterbreitet werden soll.
+Die Rangfolgenformel ist nun mit der Platzierung verknüpft. Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
