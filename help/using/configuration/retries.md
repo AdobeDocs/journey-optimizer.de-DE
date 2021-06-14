@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 80c307a349a8ca7449639e7819683bf1f3ec3d13
+feature: Anwendungskonfiguration
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 39%
+source-wordcount: '215'
+ht-degree: 40%
 
 ---
 
@@ -27,7 +31,7 @@ In der Standardkonfiguration<!--so can you edit this setting or not?? contradict
 
 * Für denselben Versand wird beim dritten aufgetretenen Fehler die Adresse unterdrückt.
 
-* Wenn es unterschiedliche Versände gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim dritten Versuch unterdrückt.
+* Wenn es unterschiedliche Sendungen gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim dritten Versuch unterdrückt.
 
 Wenn ein Versand nach einem erneuten Versuch erfolgreich war, wird der Fehlerzähler der Adresse neu initialisiert.
 
