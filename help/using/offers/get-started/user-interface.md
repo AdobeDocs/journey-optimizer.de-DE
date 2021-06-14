@@ -1,9 +1,13 @@
 ---
 title: Benutzeroberfläche
 description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '461'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -30,7 +34,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 * **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. Näheres dazu finden Sie unter [Erstellen einer Entscheidungsregel](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Erstellen und verwalten Sie Formeln für Rankings, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst angezeigt werden soll. Siehe [Formeln für Rankings erstellen](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Rangfolgeformeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. Weitere Informationen finden Sie im Abschnitt [Rangfolgeformeln erstellen](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
 
@@ -58,7 +62,7 @@ Wählen Sie in den verschiedenen Listen ein Element aus, um einen Informationsbe
 
 ![](../../assets/information-pane.png)
 
-Mit den Listen für Angebote und Entscheidungen können Sie auch Massenaktionen für mehrere Elemente durchführen. Wählen Sie dazu die gewünschten Angebote oder Entscheidungen aus und wählen Sie dann im Informationsbereich die gewünschte Aktion aus.
+Mit den Listen für Angebote und Entscheidungen können Sie außerdem Massenaktionen für mehrere Elemente durchführen. Wählen Sie dazu die gewünschten Angebote oder Entscheidungen aus und wählen Sie dann im Informationsbereich die gewünschte Aktion aus.
 
 ![](../../assets/bulk-actions.png)
 
@@ -66,9 +70,9 @@ Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine Entscheidung dupli
 
 ![](../../assets/duplicate-offer.png)
 
-## Änderungsprotokolle zu Angeboten und Entscheidungen {#changes-logs}
+## Änderungsprotokolle für Angebote und Entscheidungen {#changes-logs}
 
-In der Angebotsbibliothek können Sie sich alle Änderungen anzeigen lassen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Öffnen Sie dazu das Angebot oder die Entscheidung, indem Sie in der Liste auf den jeweiligen Namen klicken, und wählen Sie dann die Registerkarte **[!UICONTROL Änderungsprotokoll]** aus.
+In der Angebotsbibliothek können Sie sich alle Änderungen anzeigen lassen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Öffnen Sie dazu das Angebot oder die Entscheidung, indem Sie in der Liste auf den entsprechenden Namen klicken, und wählen Sie dann die Registerkarte **[!UICONTROL Änderungsprotokoll]** aus.
 
 In diesem Bildschirm werden alle vorgenommenen Änderungen sowie der Name des Benutzers angezeigt, der die Änderungen vorgenommen hat.
 
