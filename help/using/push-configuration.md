@@ -3,9 +3,13 @@ title: Konfiguration von Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benachrichtigungen mit Journey Optimizer konfigurieren
 hide: true
 hidefromtoc: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Anwendungskonfiguration
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '698'
 ht-degree: 78%
 
 ---
