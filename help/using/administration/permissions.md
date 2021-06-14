@@ -12,9 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: Kontrollgruppen
+topic: Administration
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 16%
 
 ---
@@ -61,9 +65,9 @@ So weisen Sie ein **[!UICONTROL Produktprofil]** zu:
 
 1. Führen Sie dieselben Schritte wie oben aus, um Ihrem **[!UICONTROL Produktprofil]** weitere Benutzer hinzuzufügen. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur -Instanz erhalten.
+Ihr Benutzer sollte dann eine E-Mail mit einer Umleitung zur Instanz erhalten.
 
-Weitere Informationen zur Benutzerverwaltung finden Sie in der [Admin Console-Dokumentation](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Weitere Informationen zur Benutzerverwaltung finden Sie in der [Admin Console-Dokumentation](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
 Beim Zugriff auf die Instanz wird Ihrem Benutzer je nach den zugewiesenen Berechtigungen im **[!UICONTROL Produktprofil]** eine bestimmte Ansicht angezeigt. Wenn der Benutzer keinen Zugriff auf eine Funktion hat, wird der folgende Bildschirm angezeigt.
 
@@ -149,7 +153,7 @@ So erstellen Sie unsere **Journey schreibgeschützt** **[!UICONTROL Produktprofi
 
    ![](../assets/access_control_13.png)
 
-1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
+1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
