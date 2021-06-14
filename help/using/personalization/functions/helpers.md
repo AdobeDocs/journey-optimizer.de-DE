@@ -1,15 +1,19 @@
 ---
-title: Helpers
-description: Funktionsbibliothek
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+title: Helper
+description: Helper
+feature: Personalisierung
+topic: Personalisierung
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '327'
 ht-degree: 66%
 
 ---
 
 
-# Helpers {#gs-helpers}
+# Helper {#gs-helpers}
 
 ![](../../assets/do-not-localize/badge.png)
 
@@ -26,7 +30,7 @@ Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargest
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung  „false“ zurückgibt.
+Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung „false“ zurückgibt.
 Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
 
 
@@ -103,7 +107,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 >[!NOTE]
 >
->Weitere Informationen zur Segmentierung und und zum Segmentierungsdienst finden Sie in diesem [Abschnitt](../../segment/about-segments.md).
+>Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../segment/about-segments.md).
 
 
 ## Unless{#unless}
@@ -118,7 +122,7 @@ Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Geg
 
 **Beispiel**
 
-Darstellung von Content je nach E-Mail-Adressenerweiterung:
+Darstellung von Inhalt je nach E-Mail-Adressenerweiterung:
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -130,8 +134,8 @@ Some edu specific content Content
 
 ## Each{#each}
 
-Der Helfer `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
-Die Syntax des Helfers ist ```{{#each ArrayName}}``` IhrContent {{/each}}
+Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
+Die Syntax des Helpers ist ```{{#each ArrayName}}``` IhrInhalt {{/each}}
 Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des jeweiligen Array-Elements kann mithilfe von {{@index}} abgerufen werden.
 
 **Syntax**
