@@ -1,9 +1,13 @@
 ---
 title: Fallback-Angebote erstellen
 description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: ht
-source-wordcount: '292'
+feature: Angebote
+topic: Integrationen
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -14,7 +18,7 @@ Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für s
 
 ![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
 
-Die Liste von Fallback-Angeboten ist im Menü **[!UICONTROL Angebote]** verfügbar.
+Die Liste der Fallback-Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
 ![](../../assets/offers_list.png)
 
@@ -24,7 +28,7 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 >
 >Beachten Sie, dass Fallback-Angebote im Gegensatz zu personalisierten Angeboten keine Eignungsregeln und Beschränkungsparameter aufweisen, da sie Kunden in letzter Instanz ohne Bedingung unterbreitet werden.
 
-1. Klicken Sie auf **[!UICONTROL Angebot erstellen]** und wählen Sie **[!UICONTROL Fallback-Angebot]**.
+1. Klicken Sie auf **[!UICONTROL Angebot erstellen]** und wählen Sie dann **[!UICONTROL Fallback-Angebot]** aus.
 
    ![](../../assets/create_fallback.png)
 
