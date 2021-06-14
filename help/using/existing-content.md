@@ -1,9 +1,13 @@
 ---
 title: Importieren oder Kodieren von E-Mails
 description: Erfahren Sie, wie Sie E-Mail-Inhalt importieren oder Ihre E-Mails kodieren
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: ht
-source-wordcount: '359'
+feature: Übersicht
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
