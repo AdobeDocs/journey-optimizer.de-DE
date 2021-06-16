@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 80%
 
 ## Neuigkeiten?
 
-* [Zugriffskontrolle ](using/administration/permissions-overview.md) </br> Erfahren Sie, wie Sie die  [!DNL Journey Optimizer] Benutzern zugewiesenen Berechtigungen definieren und verwalten
+* [Zugriffssteuerung](using/administration/permissions-overview.md) </br> Erfahren Sie, wie Sie die [!DNL Journey Optimizer]-Benutzern zugewiesenen Berechtigungen definieren und verwalten
 
-* [Hilfsfunktionen](using/personalization/functions/functions.md) </br> Nutzen Sie Helper-Funktionen im Ausdruckseditor zur Personalisierung des Nachrichteninhalts
+* [Helper-Funktionen](using/personalization/functions/functions.md) </br> Nutzen Sie Helper-Funktionen im Ausdruckseditor zur Personalisierung der Nachrichteninhalte.
 
 * [Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md) </br> Erstellen Sie Angebote und liefern Sie Ihren Kunden das beste Angebot und das beste Erlebnis
 
 * [Vorschau und Testnachrichten](using/preview.md) </br> Verwenden Sie Testprofile, um Vorschauen von Nachrichten zu sehen, Testsendungen zu senden und das E-Mail-Rendering zu steuern.
 
-* [Live-](using/reports/live-report.md) Berichte und  [globale ](using/reports/global-report.md)</br> BerichteDiscover Reporting-Funktionen zur Verfolgung und Messung der Effektivität Ihrer Journey und Nachrichten
+* [Live-Berichte](using/reports/live-report.md) und [Globale Berichte](using/reports/global-report.md)</br> Erkunden Sie die Reporting-Funktionen, um die Wirksamkeit Ihrer Journeys und Botschaften zu verfolgen und zu messen
 
 * [Testprofile erstellen](using/building-journeys/creating-test-profiles.md) </br> Erstellen Sie Testprofile und verwenden Sie diese zum Testen Ihrer Nachrichten und Ihrer Journeys
 
