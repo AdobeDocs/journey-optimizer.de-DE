@@ -9,7 +9,7 @@ hide: true
 source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 83%
    + [Erste Schritte mit Nachrichten](using/get-started-content.md)
    + Erstellen von Nachrichten {#create-message}
       + [Erstellen einer Nachricht](using/create-message.md)
-      + [E-Mail erstellen](using/create-email.md)
-      + [Push-Benachrichtigung erstellen](using/create-push.md)
+      + [Erstellen einer E-Mail](using/create-email.md)
+      + [Erstellen einer Push-Benachrichtigung](using/create-push.md)
    + [Hinzufügen und Verwalten von Assets](using/assets-essentials.md)
    + Email Designer {#email-designer}
       + [Erste Schritte beim Gestalten von E-Mails ](using/design-emails.md)
@@ -41,7 +41,7 @@ ht-degree: 83%
       + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + [Anwendungsfall für Personalisierung](using/personalization/personalization-use-case.md)
       + Helper-Funktionen{#functions}
-         + [Liste der Hilfsfunktionen](using/personalization/functions/functions.md)
+         + [Liste der Helper-Funktionen](using/personalization/functions/functions.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
          + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
@@ -111,9 +111,9 @@ ht-degree: 83%
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
       + [Unterdrückungsliste](using/suppression-list.md)
-+ Entscheidungsverwaltung {#offer-decisioniong}
-   + Erste Schritte mit Entscheidungs-Management {#get-started}
-      + [Über die Entscheidungsverwaltung](using/offers/get-started/starting-offer-decisioning.md)
++ Entscheidungs-Management {#offer-decisioniong}
+   + Erste Schritte mit dem Entscheidungs-Management {#get-started}
+      + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
       + [Glossar](using/offers/get-started/glossary.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
@@ -129,7 +129,7 @@ ht-degree: 83%
       + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten für Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
    + Erstellen von Entscheidungs-Management-Berichten {create-reports}
-      + [Erste Schritte mit Entscheidungsverwaltungsereignissen](using/offers/reports/get-started-events.md)
+      + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Angebotskatalog exportieren {#export-catalog}
@@ -184,29 +184,29 @@ ht-degree: 83%
          + [Entscheidung erstellen](using/offers/api-reference/activities-api/activities/create.md)
          + [Entscheidung aktualisieren](using/offers/api-reference/activities-api/activities/update.md)
          + [Entscheidung löschen](using/offers/api-reference/activities-api/activities/delete.md)
-      + Angebotsversand mit APIs {#offer-delivery}
+      + Versand von Angeboten mit APIs {#offer-delivery}
          + [Decisions-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
-+ Konfiguration {#get-started}
-   + [Erste Schritte mit der Journey Optimizer-Konfiguration](using/configuration/get-started-configuration.md)
++ Konfiguration{#get-started}
+   + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + Nachrichten konfigurieren {#configuration}
       + [Technische Einstellungen](using/administration/administration.md)
-      + [Nachrichtenvorgaben erstellen](using/configuration/message-presets.md)
-      + [Push-Kanal konfigurieren](using/push-configuration.md)
-      + [Konfiguration von Push-Benachrichtigungen](using/push-gs.md)
+      + [Nachrichtenvoreinstellungen erstellen](using/configuration/message-presets.md)
+      + [Kanal für Push-Benachrichtigungen konfigurieren](using/push-configuration.md)
+      + [Push-Benachrichtigungen konfigurieren](using/push-gs.md)
       + E-Mail-Konfiguration {#email-config}
          + Zuweisen von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
             + [Zuweisen einer Subdomain](using/configuration/delegate-subdomain.md)
-            + [Auf zugewiesene Subdomains zugreifen](using/configuration/access-subdomains.md)
+            + [Zugreifen auf zugewiesene Subdomains](using/configuration/access-subdomains.md)
             + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
-            + [Zugreifen auf PTR-Datensätze](using/configuration/ptr-records.md)
+            + [Zugreifen auf PTR-Einträge](using/configuration/ptr-records.md)
          + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
-         + Überwachung von E-Mail-Adressen {#monitor-reputation}
+         + Überwachen von E-Mail-Adressen {#monitor-reputation}
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
-         + [Primäre E-Mail-Adresse ändern](using/configuration/primary-email-addresses.md)
-   + Journey konfigurieren {#configure-journeys}
+         + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
+   + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + [Integration mit externen Systemen](using/configuration/external-systems.md)
       + Ereigniskonfiguration {#events-journeys}
@@ -228,6 +228,6 @@ ht-degree: 83%
 + Zugriffskontrolle {#administration}
    + [Zugriffskontrolle – Übersicht](using/administration/permissions-overview.md)
    + [Integrierte Produktprofile](using/administration/ootb-product-profiles.md)
-   + [Benutzer und Produktprofile verwalten](using/administration/permissions.md)
+   + [Verwalten von Benutzern und Produktprofilen](using/administration/permissions.md)
    + [Berechtigungsebenen](using/administration/high-low-permissions.md)
-   + [Sandbox-Verwaltung](using/administration/sandboxes.md)
+   + [Sandbox-Management](using/administration/sandboxes.md)
