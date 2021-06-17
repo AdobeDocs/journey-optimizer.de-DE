@@ -2,25 +2,23 @@
 title: Informationen zu Adobe Analytics-Daten
 description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
 feature: Ereignisse
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
 # Nutzung von Adobe Analytics-Daten{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen.
 
 >[!NOTE]
 >
 >Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die mit Adobe Analytics-Daten arbeiten müssen.
-
-Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Platform streamen, zum Auslösen von Journeys und zur Automatisierung von Erlebnissen für Ihre Kunden nutzen.
 
 Voraussetzung hierfür ist, dass Sie in Adobe Experience Platform die Report Suite aktivieren, die Sie nutzen möchten:
 
@@ -34,4 +32,4 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](../assets/jo-event9.png)
 
-Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de) und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de).
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) und im [Tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
