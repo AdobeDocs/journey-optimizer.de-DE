@@ -5,16 +5,14 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 91%
 
 ---
 
 # Journey-Live-Bericht {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 Über die Schaltfläche **[!UICONTROL Live-Bericht]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 
@@ -64,7 +62,7 @@ Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Ab
 
 ![](../assets/report_email_1.png)
 
-Die Widgets **[!UICONTROL Senden von Statistiken]** und **[!UICONTROL Senden von Metriken per E-Mail]** zeigen Details zum Erfolg Ihres Versands:
+Das Widget **[!UICONTROL Statistiken zum E-Mail-Versand]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -72,9 +70,7 @@ Die Widgets **[!UICONTROL Senden von Statistiken]** und **[!UICONTROL Senden von
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-<!--Hard and bounce - by Email-->
-
-Im Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** finden Sie die wichtigsten Informationen zu Ihrer Nachricht:
+Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** zeigen den Erfolg Ihres Versands an:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -88,9 +84,13 @@ Im Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** finden Sie die wichtigsten I
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einem Versand.
 
+* **[!UICONTROL Abmelden]**: Anzahl der Klicks auf den Abmelde-Link.
+
+* **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
+
 ![](../assets/report_email_2.png)
 
-Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten wie:
+Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** und **[!UICONTROL Hard- und Bounce - by Email]** enthalten die verfügbaren Daten zu Bounce-Nachrichten, z. B.:
 
 * **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.
 
