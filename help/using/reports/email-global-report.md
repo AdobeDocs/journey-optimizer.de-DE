@@ -5,16 +5,14 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
-# Globaler E-Mail-Bericht {#email-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Email Global report {#email-global-report}
 
 Der **[!UICONTROL Globale E-Mail-Bericht]** berücksichtigt immer nur eine Form des E-Mail-Versands.
 
@@ -42,7 +40,21 @@ Der **[!UICONTROL Globale E-Mail-Bericht]** ist in verschiedene Widgets untertei
 
 * **[!UICONTROL Spam-Beschwerderate]**: Prozentsatz der E-Mails, die von Empfängern als Spam gekennzeichnet wurden, im Vergleich zu den zugestellten Nachrichten. Weiterführende Informationen zu Beschwerden finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability?lang=de).
 
-* **[!UICONTROL Abmeldungsrate]**: Zahl der eindeutigen Abmeldungen im Vergleich zur Zahl der zugestellten Nachrichten.
+* **[!UICONTROL Abmelderate]**: Prozentsatz der individuellen Abmeldungen in Bezug auf die Anzahl der zugestellten Nachrichten. Dieser Indikator basiert nicht auf der Anzahl der Klicks auf den Abmelde-Link, sondern auf der Anzahl der von den Empfängern initiierten Abmeldungen. Weitere Informationen zu Abmeldungen finden Sie auf dieser [Seite](../consent.md).
+
+Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Daten für die Aktivität der Empfänger für Ihren Versand:
+
+* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
+
+* **[!UICONTROL Eindeutige Öffnungen]**: Prozentsatz der geöffneten zugestellten Nachrichten.
+
+* **[!UICONTROL Öffnungsrate]**: Gesamtzahl der geöffneten Nachrichten im Vergleich zu den versendeten E-Mails.
+
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
+
+* **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die auf Inhalt in einer E-Mail geklickt haben.
+
+* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Journey interagiert haben.
 
 Das Diagramm **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihres Versands dar:
 
@@ -51,6 +63,8 @@ Das Diagramm **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihres Versands 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+![](../assets/global_report_5.png)
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten wie:
 
@@ -62,27 +76,13 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weiterführende Informationen zu Bounces finden Sie auf der Seite [Unterdrückungsliste](../suppression-list.md) .
 
-![](../assets/global_report_5.png)
-
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
-
-Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
 ![](../assets/global_report_6.png)
 
-Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügbaren Daten zu den Aktivitäten von Empfängern für Ihren Versand:
+Das Diagramm **[!UICONTROL E-Mail - Top-Empfänger-Domain]** zeigt, welche Domänen von den Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
-* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
-
-* **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
-
-* **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
-
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
-
-* **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die auf Inhalt in einer E-Mail geklickt haben.
-
-* **[!UICONTROL Clickthrough-Rate]**: Prozentsatz der Klicks für einen Versand.
+Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
 
 **[!UICONTROL Öffnen vs. Klicken]** zeigt die Interaktion der Empfänger mit dem Versand:
 
@@ -90,4 +90,4 @@ Die Tabelle **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfüg
 
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
 
-Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
+
