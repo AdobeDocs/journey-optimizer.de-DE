@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 66%
 
 ---
 
 # Hinzufügen einer Nachricht zu einer Journey
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md). Anschließend fügen Sie einfach eine Push- oder E-Mail-Nachricht in Ihre Journey ein, die mit Journey Optimizer entworfen wurde.
 
@@ -22,7 +20,7 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
 ## Hinzufügen einer Nachrichtenaktivität
 
-1. Beginnen Sie Ihre Journey immer mit einem Ereignis oder einer Aktivität des Typs **Segment lesen**.
+1. Beginnen Sie wie gewohnt mit einem Ereignis oder einer Aktivität vom Typ **Segment lesen** .
 
    ![](../assets/jo-message0.png)
 
@@ -38,7 +36,7 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
    ![](../assets/jo-message3.png)
 
-1. Wählen Sie eine Nachricht aus und klicken Sie auf **Auswählen**. Außerdem können Sie eine neue Nachricht direkt über diesen Bildschirm erstellen, indem Sie auf **Neue erstellen** klicken.
+1. Wählen Sie eine Nachricht aus und klicken Sie auf **Auswählen**. Sie können eine neue Nachricht auch direkt von diesem Bildschirm aus erstellen, indem Sie auf **Nachricht erstellen** klicken.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
 1. Fügen Sie die nächsten Schritte zu Ihrer Journey hinzu.
 
-## Kanalparameter
+## E-Mail-Parameter und Push-Parameter
 
-Die **Kanalparameter** werden angezeigt. Diese Felder sind schreibgeschützt. Diese Konfiguration wird beim Erstellen der Nachricht vorgenommen. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md).
+Die Abschnitte **[!UICONTROL E-Mail-Parameter]** und **[!UICONTROL Push-Parameter]** zeigen schreibgeschützte Felder. Diese Konfiguration wird normalerweise beim Erstellen der Nachricht durchgeführt. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Klicken Sie auf das Symbol **Feldbearbeitung aktivieren** auf der rechten Seite des Felds, um einen bestimmten Wert zu erzwingen. Dies kann im Rahmen von Tests nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Bei Veröffentlichung der Journey wird die Nachricht an Ihre E-Mail-Adresse geschickt.
+Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameter override** rechts neben dem Feld verwenden. Diese Option kann zu Testzwecken nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
