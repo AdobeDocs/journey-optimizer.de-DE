@@ -12,18 +12,18 @@ discoiquuid: null
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Auf zugewiesene Subdomains zugreifen
+# Zugreifen auf zugewiesene Subdomains
 
 Alle zugewiesenen Subdomains werden im Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Subdomains]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste verfeinern können (Delegationsdatum, Benutzer oder Status).
 
@@ -38,7 +38,7 @@ Die Spalte **[!UICONTROL Status]** enthält Informationen zum Prozess der Zuweis
 
 Um auf detaillierte Informationen zu einer Subdomain zuzugreifen, öffnen Sie sie in der Liste. Sie haben folgende Möglichkeiten:
 
-* Rufen Sie den während des Delegierungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirrorseite, Tracking-URLs) ab,
+* Rufen Sie den während des Delegierungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirrorseiten, Tracking-URLs) ab,
 
 * Fügen Sie Ihrer Subdomain einen TXT-Eintrag für die Websiteüberprüfung von Google hinzu, um sicherzustellen, dass er verifiziert ist (siehe [Hinzufügen eines Google TXT-Eintrags zu einer Subdomain](google-txt.md)).
 
