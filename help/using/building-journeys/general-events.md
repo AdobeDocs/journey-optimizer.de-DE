@@ -6,22 +6,20 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 77%
+ht-degree: 63%
 
 ---
 
 # Allgemeine Ereignisse {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt. Weitere Informationen finden Sie auf [dieser Seite](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-Wenn Sie ein Geschäftsereignis ablegen, wird automatisch eine Aktivität **Segment lesen** hinzugefügt. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+Wenn Sie ein Geschäftsereignis ablegen, wird automatisch die Aktivität **Segment lesen** hinzugefügt. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
 ## Überwachen von Ereignissen während eines bestimmten Zeitraums {#events-specific-time}
 
@@ -31,11 +29,11 @@ Die Journey überwacht dann das Ereignis während der in der maximalen Wartezeit
 
 Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigurieren:
 
-1. Aktivieren Sie die Option **[!UICONTROL Zeitüberschreitung für das Ereignis definieren]** in den Eigenschaften des Ereignisses.
+1. Aktivieren Sie die Option **[!UICONTROL Definieren Sie den Ereignis-Timeout]** in den Ereigniseigenschaften.
 
 1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Pfad der Zeitüberschreitung festlegen]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt beendet, sobald die maximale Wartezeit erreicht wird.
+1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad festlegen]** . Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt beendet, sobald die maximale Wartezeit erreicht wird.
 
    ![](../assets/event-timeout.png)
 
