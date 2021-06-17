@@ -6,7 +6,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
@@ -56,4 +56,4 @@ So aktualisieren Sie eine veröffentlichte Nachricht:
 
 Sobald die neue Version veröffentlicht ist, wird beim nächsten API-Aufruf eine neue Nachrichtenausführung generiert. Das nächste eingehende Profil erhält die neue Version.
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
