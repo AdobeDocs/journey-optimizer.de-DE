@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Springen zwischen Journeys {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 Mit der Aktionsaktivität **[!UICONTROL Sprung]** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:
 
@@ -55,8 +53,8 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
 * Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
-* Sie können nicht in eine Journey springen, die mit einem **Segmentqualifikationsereignis** oder **Segment lesen** beginnt.
-* Dieselbe Journey darf nicht eine **[!UICONTROL Sprungaktivität]** und ein **Segmentqualifikationsereignis** oder **Segment lesen** gleichzeitig enthalten.
+* Sie können nicht zu einer Journey springen, die mit einem **Segmentqualifikation** -Ereignis oder **Segment lesen** beginnt.
+* Im selben Journey können Sie keine **[!UICONTROL Sprung]**-Aktivität und kein **Segmentqualifikationsereignis** oder **Segment lesen** haben.
 * Sie können so viele **[!UICONTROL Sprungaktivitäten]** in eine Journey aufnehmen, wie Sie benötigen. Nach einem **[!UICONTROL Sprung]** können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
@@ -78,7 +76,7 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
    ![](../assets/jump2.png)
 
 1. Klicken Sie in das Feld **Ziel-Journey**.
-Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifikationsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journey, die einen anderen Namespace verwenden oder mit einem **Segmentqualifikationsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![](../assets/jump3.png)
 
