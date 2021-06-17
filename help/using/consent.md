@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '740'
+ht-degree: 85%
 
 ---
 
 # Verwalten von Opt-out {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Verwenden Sie [!DNL Journey Optimizer], um die Zustimmung Ihrer Empfänger zur Kommunikation nachzuverfolgen und anhand der Verwaltung ihrer Voreinstellungen und Abonnements zu verstehen, wie sie mit Ihrer Marke interagieren möchten. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,20 @@ Hauptteil der Anfrage:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Link zum Abmelden in der Kopfzeile {#unsubscribe-email}
+
+Wenn der E-Mail-Client des Empfängers die Anzeige eines Abmelde-Links im E-Mail-Header unterstützt, enthalten E-Mails, die mit [!DNL Journey Optimizer] gesendet werden, automatisch diesen Link.
+
+Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
+
+![](assets/unsubscribe-email.png)
+
+Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile einen der folgenden Auswirkungen:
+
+* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* Sie hat die gleiche Wirkung wie das Klicken auf den Abmelde-Link aus dem E-Mail-Inhalt: Der Empfänger wird zu einer Landingpage umgeleitet, die eine Schaltfläche enthält, mit der er seine Abmeldung bestätigt. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](#opt-out-management).
 
 ## Push-Opt-out-Verwaltung {#push-opt-out-management}
 
