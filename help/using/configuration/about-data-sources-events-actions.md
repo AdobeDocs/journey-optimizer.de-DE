@@ -13,17 +13,17 @@ internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 76%
+source-wordcount: '322'
+ht-degree: 88%
 
 ---
 
-# Journey konfigurieren
+# Konfigurieren von Journeys
 
 Um Nachrichten mit Journey zu senden, müssen Sie **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** und **[!UICONTROL Aktionen]** konfigurieren.
 
@@ -42,3 +42,17 @@ In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwar
 ## Aktionen
 
 Journey Optimizer-Nachrichtenfunktionen sind integriert: Sie müssen nur Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Infos](../../using/action/action.md)
+
+## Durchsuchen von Adobe Experience Platform-Feldern {#friendly-names-display}
+
+Bei der Definition von [Ereignis-Payload](../event/about-creating.md#define-the-payload-fields), [Feldgruppen-Payload](../datasource/configure-data-sources.md#define-field-groups) und der Auswahl von Feldern im [Ausdruckseditor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=de) wird der Anzeigename zusätzlich zum Feldnamen angezeigt. Diese Informationen werden aus der Schemadefinition im Experience-Datenmodell abgerufen.
+
+Wenn beim Einrichten von Schemata Deskriptoren wie „xdm:alternateDisplayInfo“ angegeben werden, werden die Anzeigenamen durch benutzerfreundliche Namen ersetzt. Dies ist besonders beim Arbeiten mit „eVars“und generischen Feldern nützlich. Sie können die Deskriptoren für benutzerfreundliche Namen über einen API-Aufruf konfigurieren. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=de).
+
+![](../assets/xdm-from-descriptors.png)
+
+Wenn ein benutzerfreundlicher Name verfügbar ist, wird das Feld als `<friendly-name>(<name>)` angezeigt. Ist kein benutzerfreundlicher Name verfügbar, wird der Anzeigename angezeigt, z. B. `<display-name>(<name>)`. Wenn keiner der Namen definiert ist, wird nur der technische Name des Felds `<name>` angezeigt.
+
+>[!NOTE]
+>
+>Benutzerfreundliche Namen werden nicht abgerufen, wenn Sie Felder aus einer Vereinigungsmenge von Schemas auswählen.
