@@ -5,22 +5,20 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 91%
 
 ---
 
 # Erstellen von Journey-Berichten{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Funktionen für globale Berichte](global-report.md) kann [!DNL Journey Optimizer] Journey-Leistungsdaten automatisch an Adobe Experience Platform senden, damit sie zu Analysezwecken mit anderen Daten kombiniert werden können.
 
 >[!NOTE]
 >
->Diese Funktion ist nicht bei allen neu bereitgestellten Instanzen standardmäßig aktiviert. Die Aktivierung erfolgt auf Anfrage.
+>Diese Funktion ist standardmäßig auf allen Instanzen für Journey-Schrittereignisse aktiviert. Bei Journey-Profilschritt-Ereignissen erfolgt die Aktivierung auf Anfrage. Die Schemata und Datensätze, die bei der Bereitstellung dieser Funktion erstellt wurden, dürfen nicht geändert werden.
 
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Optimizer]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften mit Daten aus Adobe Experience Platform kombiniert werden, um eine umfassendere Ansicht der Leistung zu ermöglichen.
 
