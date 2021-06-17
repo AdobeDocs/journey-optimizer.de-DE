@@ -5,7 +5,7 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Erste Schritte mit Nachrichten {#get-sarted-contents-messages}
-
-![](assets/do-not-localize/badge.png)
 
 Verwenden Sie [!DNL Journey Optimizer], um mehrere Ressourcen wie Assets und Inhalte an einem Ort zu nutzen und personalisierte Push-Benachrichtigungen und E-Mail-Nachrichten zu erstellen und zu veröffentlichen.
 
