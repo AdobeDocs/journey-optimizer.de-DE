@@ -2,19 +2,17 @@
 title: Über ExperienceEvent-Schemas für Journey-Ereignisse
 description: Erfahren Sie mehr über ExperienceEvent-Schemas für Journey-Ereignisse
 feature: Schemas
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 96%
 
 ---
 
 # Informationen zu ExperienceEvent-Schemasa für [!DNL Journey Optimizer]-Ereignisse
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]-Ereignisse sind XDM-Erlebnisereignisse, die über die Streaming-Aufnahme an Adobe Experience Platform gesendet werden.
 
@@ -32,7 +30,7 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
    ![](../assets/schema2.png)
 
-* Bei vom System erstellten Ereignissen muss das Schema das eventID-Orchestrierungs-Mixin enthalten. [!DNL Journey Optimizer] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
+* Bei systemgenerierten Ereignissen muss das Schema die Feldergruppe Orchestration eventID enthalten. [!DNL Journey Optimizer] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
    ![](../assets/schema3.png)
 
