@@ -1,20 +1,18 @@
 ---
-title: Segmentqualifizierungsereignisse
+title: Segmentqualifikationsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 89%
 
 ---
 
-# Segmentqualifizierungsereignisse {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
+# Segmentqualifikationsereignisse {#segment-qualification}
 
 ## Über Segmentqualifizierungsereignisse{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 
 
-1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifizierung]** auf Ihrer Arbeitsfläche ab.
+1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Zeitstempel der Qualifizierung
 * Segmentkennung
 
-Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL Segmentqualifikation]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
+Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die auf eine **[!UICONTROL Segmentqualifikation]** -Aktivität folgt, haben Sie Zugriff auf den Knoten **[!UICONTROL SegmentQualification]** . Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Dienstes. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
