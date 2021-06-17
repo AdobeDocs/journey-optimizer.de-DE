@@ -5,7 +5,7 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 96%
@@ -13,8 +13,6 @@ ht-degree: 96%
 ---
 
 # Erstellen einer Nachricht {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 Nachrichten sind über den Tastaturbefehl **[!UICONTROL Nachrichten]** im linken Navigationsbereich verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
 
@@ -62,7 +60,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    Nun können Sie den Inhalt für die Nachricht erstellen und die Einstellungen anpassen. Detaillierte Informationen zur Konfiguration von E-Mails und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
 
-   * [E-Mail erstellen](create-email.md)
+   * [Erstellen einer E-Mail](create-email.md)
    * [Push-Benachrichtigungen erstellen](create-push.md)
 
    >[!NOTE]
