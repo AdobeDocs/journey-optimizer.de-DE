@@ -2,29 +2,27 @@
 title: Konfigurieren eines unitären Ereignisses
 description: Erfahren Sie, wie Sie ein unitäres Ereignis konfigurieren
 feature: Ereignisse
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 99%
+source-wordcount: '1702'
+ht-degree: 87%
 
 ---
 
 # Konfigurieren eines unitären Ereignisses {#configure-an-event}
 
-![](../assets/do-not-localize/badge.png)
-
 Unitäre Ereignissw sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein. Mehr über unitäre Ereignisse erfahren Sie [in diesem Abschnitt](../event/about-events.md).
 
 Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereignisses:
 
-1. Navigieren Sie im Abschnitt ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Die Liste der Ereignisse wird angezeigt.
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
    ![](../assets/jo-event1.png)
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
+1. Klicken Sie auf **[!UICONTROL Ereignis erstellen]** , um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/jo-event2.png)
 
@@ -36,11 +34,11 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
    >
    >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
 
-1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitäres Ereignis** aus.
+1. Wählen Sie im Feld **[!UICONTROL Typ]** **Einzeln** aus.
 
    ![](../assets/jo-event3bis.png)
 
-1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** den zu verwendenden Ereignistyp aus: **Regelbasiert** oder **Systemgeneriert** Weitere Informationen zum Ereignis-ID-Typ finden Sie in [diesem Abschnitt](../event/about-events.md#event-id-type).
+1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** den Ereignis-ID-Typ aus, den Sie verwenden möchten: **Regelbasiert** oder **System generiert**. Weitere Informationen zum Ereignis-ID-Typ finden Sie in [diesem Abschnitt](../event/about-events.md#event-id-type).
 
    ![](../assets/jo-event4.png)
 
@@ -52,22 +50,24 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
    >[!NOTE]
    >
-   >Wenn Sie den **[!UICONTROL systemgenerierten]** Typ auswählen, sind nur Schemata mit dem eventID-Typ „mixin“ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
+   >Wenn Sie den Typ **[!UICONTROL System Generated]** auswählen, sind nur Schemata mit dem Feld eventID-Typ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
 
 1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
    ![](../assets/jo-event6.png)
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils verwendet. Dies bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (Feld **[!UICONTROL Stadt]** und Wert **[!UICONTROL Paris]**), dieses an Journeys weiterleitet.
 
+   >[!NOTE]
+   >
+   >Der erweiterte Ausdruckseditor ist beim Definieren der **[!UICONTROL Ereignis-ID-Bedingung]** nicht verfügbar.
+
 1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
-1. Definieren Sie den Schlüssel: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journeys wählen den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
+1. Definieren Sie die Profilkennung: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journeys wählen den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
 
    ![](../assets/jo-event7.png)
 
 1. Bei systemgenerierten Ereignissen können Sie eine Bedingung hinzufügen.  Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#add-a-condition).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-   ![](../assets/journey7.png)
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -75,7 +75,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
-1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Payload]** oder das Symbol **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder auf das Symbol **[!UICONTROL Bearbeiten]** .
 
    ![](../assets/journey8.png)
 
@@ -83,23 +83,19 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass Sie das Mixin „orchestration“ zum XDM-Schema hinzugefügt haben. Dadurch wird sichergestellt, dass Ihr Schema alle erforderlichen Informationen für die Zusammenarbeit mit [!DNL Journey Optimizer] enthält.
+   >Stellen Sie bei systemgenerierten Ereignissen sicher, dass Sie die Feldergruppe &quot;Orchestrierung&quot;zum XDM-Schema hinzugefügt haben. Dadurch wird sichergestellt, dass Ihr Schema alle erforderlichen Informationen für die Zusammenarbeit mit [!DNL Journey Optimizer] enthält.
 
    ![](../assets/journey9.png)
 
 1. Wählen Sie die Felder aus, die Sie vom Ereignis erwarten. Dies sind die Felder, die der Business-Anwender in der Journey nutzen wird. Sie müssen auch den Schlüssel enthalten, mit dem die mit dem Ereignis verbundene Person identifiziert werden kann (siehe [diesen Abschnitt](../event/about-creating.md#define-the-event-key)).
 
-   ![](../assets/journey10.png)
-
    >[!NOTE]
    >
    >Das Feld **[!UICONTROL eventID]** wird automatisch in die Liste der ausgewählten Felder eingefügt, damit [!DNL Journey Optimizer] das Ereignis identifizieren kann. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#preview-the-payload).
 
-1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
+1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL OK]** oder drücken Sie die Eingabetaste **[!UICONTROL a3/>.]**
 
-   ![](../assets/journey11.png)
-
-   Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Payload]** angezeigt.
+   Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Felder]** angezeigt.
 
    ![](../assets/journey12.png)
 
@@ -109,7 +105,7 @@ Mit dem Namespace können Sie den Typ des Schlüssels definieren, mit dem die mi
 
 Sie können entweder einen der vordefinierten Namespace verwenden oder mit dem Identity-Namespace-Dienst einen neuen erstellen. Mehr dazu erfahren Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de).
 
-Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **[!UICONTROL Schlüssel]** und **[!UICONTROL Namespace]** vorbelegt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Namespace aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Namespace]**) mit _identityMap > id_ vorbelegt.
+Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profiler-Kennung]** und **[!UICONTROL Namespace]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Namespace aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Namespace]**) mit _identityMap > id_ vorbelegt.
 
 Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
 
@@ -122,13 +118,13 @@ Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
 Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
 
-## Definieren des Ereignisschlüssels {#define-the-event-key}
+## Profilkennung {#define-the-event-key} definieren
 
 Der Schlüssel ist das Feld oder die Feldkombination, die Teil der Ereignis-Payload-Daten ist und es dem System ermöglicht, die mit dem Ereignis verbundene Person zu identifizieren. Der Schlüssel kann beispielsweise die Experience Cloud-ID, eine CRM-ID oder eine E-Mail-Adresse sein.
 
 Wenn Sie Daten nutzen möchten, die in der Echtzeit-Kundenprofildatenbank gespeichert sind, müssen Sie als Ereignisschlüssel die Informationen auswählen, die Sie im [Echtzeit-Kundenprofildienst](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) als Profilidentität definiert haben.
 
-Dadurch kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **[!UICONTROL Schlüssel]** und **[!UICONTROL Namespace]** vorbelegt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Namespace aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Namespace]**) mit _identityMap > id_ vorbelegt.
+Dadurch kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer primären Identität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Namespace]** vorausgefüllt. Wenn keine Identität definiert ist, wählen Sie _identityMap > id_ als Primärschlüssel aus. Wählen Sie anschließend einen Namespace aus und der Schlüssel wird (unter dem Feld **[!UICONTROL Namespace]**) mit _identityMap > id_ vorbelegt.
 
 Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
 
@@ -136,7 +132,7 @@ Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
 
 Wenn Sie einen anderen Schlüssel verwenden müssen, z. B. eine CRM-ID oder eine E-Mail-Adresse, müssen Sie ihn manuell hinzufügen:
 
-1. Klicken Sie in das Feld **[!UICONTROL Schlüssel]** oder auf das Bleistiftsymbol.
+1. Klicken Sie in das Feld **[!UICONTROL Profil-ID]** oder auf das Stiftsymbol.
 
    ![](../assets/journey16.png)
 
