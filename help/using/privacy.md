@@ -1,9 +1,9 @@
 ---
 title: Datenschutz
 description: Erfahren Sie, wie Sie Datenschutz verwalten.
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 100%
 
 # Datenschutz {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen.
+[!DNL Journey Optimizer] ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen.
 
 * **Personenbezogene Daten** sind Informationen, die eine lebende Person direkt oder indirekt identifizieren können.
 * **Vertrauliche personenbezogene Daten** sind Informationen zu Rasse, politischen Ansichten, religiösen Überzeugungen, kriminellem Hintergrund, genetischen Informationen, Gesundheitsdaten, sexuellen Vorlieben, biometrischen Informationen sowie zur Gewerkschaftsmitgliedschaft.
