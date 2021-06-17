@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,9 @@ Wenn in einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet) meh
 
 ![](../../assets/offer-priority.png)
 
-Darüber hinaus können Sie mit Journey Optimizer **Rangfolgenformeln** erstellen. Dabei handelt es sich um Formeln, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst präsentiert werden soll, anstatt die Prioritätswerte der Angebote zu berücksichtigen. Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatum weniger als 24 Stunden entfernt ist, oder die Priorität von Angeboten aus der Kategorie „Laufen“ erhöhen, wenn das Interesse eines Profils „Laufen“ ist.
+Darüber hinaus können Sie mit Journey Optimizer **Rangfolgenformeln** erstellen. Dabei handelt es sich um Formeln, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst präsentiert werden soll, anstatt die Prioritätswerte der Angebote zu berücksichtigen.
+
+Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatum weniger als 24 Stunden entfernt ist, oder die Priorität von Angeboten aus der Kategorie „Laufen“ erhöhen, wenn das Interesse eines Profils „Laufen“ ist.
 
 Weiterführende Informationen zur Erstellung einer Regel für Rangfolgen finden Sie in [diesem Abschnitt](../offer-library/create-ranking-formulas.md).
 
@@ -28,14 +30,18 @@ Weiterführende Informationen zur Erstellung einer Regel für Rangfolgen finden 
 
 Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
-* Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene, und erstellen Sie dann die Platzierungen, die Ihre Angebote enthalten (siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md)).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene, und erstellen Sie dann die Platzierungen, die Ihre Angebote enthalten (siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md)).
 
-* Wählen Sie für jede Platzierung **[!UICONTROL Rangliste]** aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Rangliste hinzufügen]**.
+1. Wählen Sie für jede Platzierung **[!UICONTROL Ranking]** aus der Dropdownliste aus.
+
+1. Klicken Sie auf **[!UICONTROL Ranking]** hinzufügen.
 
    ![](../../assets/offer-activity-ranking.png)
 
-* Wählen Sie die gewünschte Rangfolgenformel aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
+1. Wählen Sie die gewünschte Rangfolgenformel aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
 
    ![](../../assets/ranking-selection.png)
 
-Die Rangfolgenformel ist nun mit der Platzierung verknüpft. Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
+Die Rangfolgenformel ist nun mit der Platzierung verknüpft.
+
+Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
