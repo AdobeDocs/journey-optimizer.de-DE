@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 100%
+source-wordcount: '1641'
+ht-degree: 98%
 
 ---
 
 # Testen der Journey{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fehler beheben. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -61,6 +59,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Wenn Sie den Testmodus deaktivieren, werden alle Personen, die in der Vergangenheit an der Journey teilgenommen haben oder sich derzeit darin befinden, aus der Journey entfernt. Dabei werden auch die Berichte gelöscht.
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
+* Beim Erreichen einer Aufspaltung wird immer der obere Zweig ausgewählt. Sie können die Position der geteilten Verzweigungen neu organisieren, wenn der Test einen anderen Pfad wählen soll.
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 
