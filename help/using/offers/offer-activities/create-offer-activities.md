@@ -5,7 +5,7 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
@@ -24,10 +24,10 @@ Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Regi
 
 Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten in der Angebotsbibliothek erstellt wurden:
 
-* [Platzierungen](../offer-library/creating-placements.md),
-* [Kollektionen](../offer-library/creating-collections.md),
-* [Personalisierte Angebote](../offer-library/creating-personalized-offers.md),
-* [Fallback-Angebote](../offer-library/creating-fallback-offers.md).
+* [Platzierungen](../offer-library/creating-placements.md)
+* [Kollektionen](../offer-library/creating-collections.md)
+* [Personalisierte Angebote](../offer-library/creating-personalized-offers.md)
+* [Fallback-Angebote](../offer-library/creating-fallback-offers.md)
 
 ## Entscheidung erstellen {#create-activity}
 
@@ -37,7 +37,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../../assets/activities-name.png)
 
-## Entscheidungen hinzufügen {#add-decisions}
+## Hinzufügen von Angeboten {#add-offers}
 
 1. Ziehen Sie eine Platzierung per Drag-and-Drop aus der Liste, um sie der Entscheidung hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
 
