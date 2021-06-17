@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '877'
+ht-degree: 87%
 
 ---
 
 # Nachrichtenvorschau und Testversand{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen. Bei Verwendung von [personalisiertem Inhalt](personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
 
@@ -22,7 +20,10 @@ Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu 
 
 >[!CAUTION]
 >
->Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile. Erfahren Sie, wie Sie in [dieser Seite](building-journeys/creating-test-profiles.md) Testprofile erstellen.
+>Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile.
+>
+>Erfahren Sie, wie Sie in [dieser Seite](building-journeys/creating-test-profiles.md) Testprofile erstellen.
+
 
 Zum Testen des Nachrichteninhalts sind folgende Schritte erforderlich:
 
@@ -33,13 +34,18 @@ Anschließend können Sie den [Testversand](#send-proofs) an Ihre Testprofile st
 
 Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. In [diesem Abschnitt](#email-rendering) erfahren Sie, wie Sie die Sperre für Litmus-E-Mail-Vorschauen aufheben
 
+>[!CAUTION]
+>
+>Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Personalisierungsdaten des Profils angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. Erfahren Sie, wie Sie die Personalisierung in [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) testen können.
+
+
 ## Auswählen der Testprofile{#select-test-profiles}
 
 Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Targeting-Kriterien entsprechen.
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
-1. Klicken Sie im Nachrichtenbereich oder E-Mail-Designer auf die Schaltfläche **[!UICONTROL Vorschau]**, um die Auswahl der Testprofile vorzunehmen.
+1. Klicken Sie in der Nachrichtenschnittstelle oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Vorschau anzeigen]** , um auf die Auswahl des Testprofils zuzugreifen.
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
    ![](assets/send-proof-view.png)
 
 Ein Testversand muss nach jeder Änderung des Nachrichteninhalts ausgeführt werden.
+
+>[!NOTE]
+>
+> Im Testversand an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Sie wird nur in den endgültigen Nachrichten aktiviert.
 
 ## E-Mail-Rendering{#email-rendering}
 
