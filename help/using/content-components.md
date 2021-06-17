@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 100%
 >title="Über Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
 
-![](assets/do-not-localize/badge.png)
 
 Wenn Sie Ihren E-Mail-Inhalt von Grund auf neu erstellen, ermöglichen **[!UICONTROL Inhaltskomponenten]** die Personalisierung Ihrer E-Mail mit unbearbeiteten, leeren Komponenten, die Sie verwenden können, sobald sie in eine E-Mail eingefügt wurden.
 Einer **[!UICONTROL Strukturkomponente]**, die das Layout Ihrer E-Mail definiert, können Sie so viele **[!UICONTROL Inhaltskomponenten]** hinzufügen, wie Sie benötigen.
@@ -104,8 +103,6 @@ Um die Kompatibilität von externem Inhalt mit Email Designer zu gewährleisten,
 
 1. Kopieren Sie den HTML-Code, den Sie Ihrer E-Mail hinzufügen möchten, und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/email_designer_24.png)
-
 1. Nun können Sie Ihren HTML-Code weiter anpassen, indem Sie die Parameter **[!UICONTROL Style]**, **[!UICONTROL Margin]** und **[!UICONTROL Border]** ändern oder einen Link hinzufügen, um Ihre Audience zu einem anderen Inhalt weiterzuleiten.
 
 ## Bild {#image}
@@ -116,9 +113,9 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
    ![](assets/email_designer_9.png)
 
-1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine auf Ihrem Computer gespeicherte Bilddatei auszuwählen.
+1. Klicken Sie auf **[!UICONTROL Durchsuchen]** , um eine Bilddatei aus Ihren Assets auszuwählen.
 
-   Sie können auch auf **[!UICONTROL Asset-Auswahl]** klicken, um Ihrer E-Mail ein Asset hinzuzufügen. Weitere Informationen zu Assets finden Sie in diesem [Abschnitt](assets-essentials.md).
+   Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
 
 1. Klicken Sie auf die neu hinzugefügten Komponenten, um ihre **[!UICONTROL Inhaltskomponenten]** zu konfigurieren und die **[!UICONTROL Komponenteneinstellungen]** im rechten Bereich von Email Designer zu bearbeiten.
 
