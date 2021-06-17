@@ -2,30 +2,23 @@
 title: Erste Schritte mit der Konfiguration von Push-Benachrichtigungen
 description: Datenfluss und Komponenten von Push-Benachrichtigungen verstehen
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 2%
+source-wordcount: '808'
+ht-degree: 3%
 
 ---
 
-# Konfiguration von Push-Benachrichtigungen {#get-started-push}
-
-![](assets/do-not-localize/badge.png)
+# Erste Schritte mit der Konfiguration von Push-Benachrichtigungen {#get-started-push}
 
 Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen - insbesondere dann, wenn sie Ihre App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen zu erreichen, z. B. die Bereitstellung von Aktualisierungen zu Ihrem Dienst, die Aufforderung eines Benutzers, Maßnahmen zu ergreifen, den Benutzer auf ein neues Geschäft aufmerksam zu machen usw. Geräteplattformen erfordern eine Anmeldung, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Die Anmeldung für den Benutzer kann so früh erfolgen, nachdem die App zum ersten Mal nach der Installation oder in einer nachfolgenden Sitzung oder einem entsprechenden Workflow gestartet wurde. [!DNL Journey Optimizer] unterstützt Push-Benachrichtigungen und unterstützt Sie beim Senden hochrelevanter Benachrichtigungen mit branchenführenden Durchsatzraten. Push-Benachrichtigungen können Personalisierung und Journey-basierten Kontext enthalten, um Dateneinblicke zu nutzen, die Ihre Marke mit Adobe Experience Cloud hat.
 
 Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Dienste und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind.
 
-## Push-Benachrichtigungen mit Adobe Journey Optimizer einrichten
-
-Um Push-Benachrichtigungen mit Adobe Journey Optimizer zu senden, müssen Sie die folgenden Schritte ausführen:
-
-1. Befolgen Sie die Dokumentation , um die Einrichtung mit [Adobe Journey Optimizer und Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in Ihrer App zu erhalten.
-1. Erstellen Sie die Vorgabe [für den Push-Nachrichtenkanal](configuration/message-presets.md)
+Die Schritte zum Konfigurieren des Push-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
 
 ## Push-Benachrichtigungen und Adobe Journey Optimizer
 
@@ -56,7 +49,7 @@ Das folgende Bild zeigt die Systeme und Dienste, die mit den zugehörigen Datenf
 
 * **Adobe Experience Platform Mobile** SDK, das clientseitige Integrations-APIs für Ihre Mobiltelefone über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine Adobe Journey Optimizer-Erweiterung, die eine Vielzahl von APIs verfügbar macht, die für Push-Nachrichten spezifisch sind, und Datenfluss ermöglicht, z. B. die Registrierung des Push-Tokens oder das Senden von Push-Tracking-Ereignissen oder anderen benutzerspezifischen Erlebnisereignissen an Adobe Experience Platform. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Adobe Experience Cloud- sowie Drittanbieter-Partnerfunktionen ermöglichen.
 
-   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassungsdiensten](https://experienceleague.adobe.com/docs/launch/using/home.html), z. B.:
+   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassungsdiensten](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de), z. B.:
 
    * Erstellen eines Datenspeichers zum Konfigurieren der Profil- und Erlebnisereignis-Datensätze, anhand derer die Daten in Adobe Experience Platform fließen
    * Erstellen der clientseitigen mobilen Eigenschaft und Hinzufügen von Erweiterungen. Das SDK ist eng mit diesen Erweiterungen integriert, um eine nahtlose Datenerfassung zu ermöglichen.
@@ -71,4 +64,3 @@ Das folgende Bild zeigt die Systeme und Dienste, die mit den zugehörigen Datenf
 In der folgenden Abbildung werden die verschiedenen Schritte (End-to-End) gezeigt, die an der Konfiguration der Komponenten beteiligt sind, die das Skelett des Push-Datenflusses bilden. Die Aktionselemente wurden basierend auf der Rolle, die die Konfiguration durchführt, und der zu konfigurierenden Komponente kategorisiert.
 
 ![](assets/user-flow.png)
-
