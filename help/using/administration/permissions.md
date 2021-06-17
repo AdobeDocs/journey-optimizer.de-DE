@@ -1,5 +1,5 @@
 ---
-title: Benutzer und Produktprofile verwalten
+title: Verwalten von Benutzern und Produktprofilen
 description: Erfahren Sie, wie Sie Berechtigungen verwalten.
 page-status-flag: never-activated
 uuid: null
@@ -13,19 +13,17 @@ internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Kontrollgruppen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# Benutzer und Produktprofile verwalten {#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
+# Verwalten von Benutzern und Produktprofilen {#manage-permissions}
 
 >[!IMPORTANT]
 >
@@ -59,7 +57,7 @@ So weisen Sie ein **[!UICONTROL Produktprofil]** zu:
 
 1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein und wählen Sie den Benutzer aus.
 
-   Wenn der Benutzer zuvor nicht in [!DNL Admin Console] erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   Wenn der Benutzer zuvor nicht in [!DNL Admin Console] erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
    ![](../assets/access_control_4.png)
 
@@ -87,7 +85,7 @@ Wenn Sie ein vordefiniertes oder benutzerdefiniertes **[!UICONTROL Produktprofil
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
-   Im Tab **[!UICONTROL Berechtigungen]** wird die Liste der Funktionen angezeigt, die für das Produkt ***[!UICONTROL Experience Cloud - Plattformgestützte Anwendungen]** gelten.
+   Im Tab **[!UICONTROL Berechtigungen]** wird die Liste der Funktionen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud - Plattformgestützte Anwendungen]** gelten.
 
    ![](../assets/access_control_5.png)
 
