@@ -5,16 +5,14 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 74%
+source-wordcount: '1248'
+ht-degree: 62%
 
 ---
 
-# Push-Benachrichtigung erstellen {#create-push-notification}
-
-![](assets/do-not-localize/badge.png)
+# Erstellen einer Push-Benachrichtigung {#create-push-notification}
 
 Nachdem Sie [eine Nachricht ](create-message.md) erstellt haben, klicken Sie auf den Tab **[!UICONTROL Push-Benachrichtigung]** , um die Einstellungen und den Inhalt der Push-Benachrichtigung zu definieren.
 
@@ -30,7 +28,7 @@ Verwenden Sie die dedizierten Registerkarten, um die Push-Benachrichtigungseinst
 
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Mit dem Ausdruckseditor können Sie Inhalt und Personalisierungsdaten definieren. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](personalization/personalize.md) .
 
-Verwenden Sie den zentralen Bereich, um zu visualisieren, wie die Push-Benachrichtigung auf iOS- und Android-Geräten angezeigt wird.
+Verwenden Sie den Bereich &quot;Gerätevorschau&quot;, um zu visualisieren, wie die Push-Benachrichtigung auf iOS- und Android-Geräten angezeigt wird.
 
 ## Klickverhalten {#on-click-behavior}
 
@@ -60,7 +58,6 @@ Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
 Nach dem Hinzufügen werden die Medien rechts neben dem Benachrichtigungsinhalt angezeigt.
 
-
 ## Schaltflächen hinzufügen
 
 Sie können eine verwertbare Benachrichtigung erstellen, indem Sie Schaltflächen zu Ihrem Push-Inhalt hinzufügen.
@@ -69,13 +66,15 @@ Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angez
 
 In der iOS-Version können Sie bis zu 4 Schaltflächen hinzufügen. In der Android-Version können Sie bis zu drei Schaltflächen hinzufügen.
 
-Klicken Sie auf **[!UICONTROL Schaltfläche hinzufügen]** , um die Einstellungen zu definieren: den Titel und die zugehörige Aktion. Mögliche Aktionen sind dieselben wie für [On-Click-Verhalten](#on-click-behavior).
-
-
 >[!NOTE]
 >
 >Verwenden Sie für iOS das Feld **[!UICONTROL iOS-Kategorie]** , um Aktionen einer Benachrichtigungskategorie zuzuordnen.
 
+Klicken Sie auf **[!UICONTROL Schaltfläche hinzufügen]** , um die Einstellungen zu definieren: den Titel und die zugehörige Aktion. Mögliche Aktionen sind dieselben wie für [On-Click-Verhalten](#on-click-behavior).
+
+Klicken Sie auf **[!UICONTROL Erweitern Sie die Ansicht]**, um eine Vorschau Ihrer personalisierten Schaltflächen anzuzeigen.
+
+![](assets/push_buttons.png)
 
 ## Senden einer stillen Benachrichtigung
 
@@ -95,17 +94,16 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 
 | Parameter | Beschreibung |
 |---------|---------|
-| **[!UICONTROL Reduzierbar]**  (iOS/Android) | Eine ausblendbare Nachricht kann durch eine neue Nachricht ersetzt werden. Beispiel: Eine Mobile App informiert die Benutzer über die neuesten Nachrichten zu einem Thema. In diesem Fall ist jeweils nur die letzte Nachricht relevant. Bei nicht ausblendbaren Nachrichten ist hingegen jede Nachricht wichtig für die Mobile App und muss zugestellt werden. |
-| **[!UICONTROL Benutzerdefinierter Benachrichtigungston]** (iOS/Android) | Der Ton, der beim Empfang der Benachrichtigung vom Mobilgerät wiedergegeben wird. Der Ton muss in der Mobile App verfügbar sein. |
+| **[!UICONTROL Reduzierbar]**  (iOS/Android) | Eine ausblendbare Nachricht ist eine Nachricht, die durch eine neue Nachricht ersetzt werden kann, wenn sie veraltet ist. Häufig werden ausblendbare Nachrichten verwendet, um eine Mobile App anzuweisen, Daten vom Server zu synchronisieren. Ein Beispiel wäre eine Sport-App, die Benutzer mit der neuesten Punktzahl aktualisiert. Nur die neueste Nachricht ist relevant. Andererseits ist bei einer nicht ausblendbaren Nachricht eine sehr Botschaft für die Client-App wichtig und muss bereitgestellt werden. |
+| **[!UICONTROL Benutzerdefinierter Ton]**  (iOS/Android) | Der Ton, der beim Empfang der Benachrichtigung vom Mobilgerät wiedergegeben wird. Der Ton muss in der Mobile App verfügbar sein. |
 | **[!UICONTROL Badges]** (iOS/Android) | Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem Mobile-App-Symbol angezeigt. <br/>Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Mobile App öffnet oder liest. Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert für die entsprechende Mobile App aktualisiert oder hinzugefügt werden.<br/>Beispiel: Wenn Sie die Anzahl der ungelesenen Artikel Ihrer Kunden erfassen, können Sie eine Personalisierung anwenden, um für jeden Kunden den entsprechenden Wert für das Badge der ungelesenen Artikel zu senden. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalize.md). |
 | **[!UICONTROL Benachrichtigungsgruppe]**   (nur iOS) | Verknüpfen Sie eine Benachrichtigungsgruppe mit der Push-Benachrichtigung.<br/>Ab iOS 12 ermöglichen Benachrichtigungsgruppen die Konsolidierung von Nachrichten-Threads und Benachrichtigungsthemen als Thread-IDs. Dadurch kann eine Marke beispielsweise Marketing-Benachrichtigungen unter einer Gruppen-ID und Benachrichtigungen mit betrieblichen Informationen unter einer oder mehreren anderen IDs senden.<br/>Beispielsweise können Sie folgende Benachrichtigungsgruppen erstellen: groupID: 123 „Die neue Sweatshirt-Frühlungskollektion ist da“ und groupID: 456 „Ihr Paket wurde zugestellt“. Bei diesem Beispiel würden alle Versandbenachrichtigungen unter der Gruppen-ID 456 gebündelt. |
 | **[!UICONTROL Benachrichtigungskanal]** (Nur Android) | Weisen Sie der Push-Benachrichtigung einen Benachrichtigungskanal zu.<br/>Ab Android 8.0 (API-Stufe 26) müssen alle Benachrichtigungen einem Kanal zugewiesen werden, damit sie angezeigt werden. Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Hinzufügen einer Markierung für Inhaltsverfügbarkeit]** (nur iOS) | Wenn der Inhalt verfügbar ist, wird die Markierung für Inhaltsverfügbarkeit in der Push-Payload gesendet. Dies aktiviert die Mobile App sofort beim Empfang der Push-Benachrichtigung, sodass die Mobile App auf die Payload-Daten zugreifen kann.<br/> Dies ist auch dann möglich, wenn die Mobile App im Hintergrund läuft und ohne dass der Benutzer eingreifen muss (z. B. durch Tippen auf die Push-Benachrichtigung). Diese Möglichkeit besteht jedoch nicht, wenn die Mobile App nicht geöffnet ist. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| **[!UICONTROL Hinzufügen einer Markierung für veränderbaren Inhalt]** (nur iOS) | Sendet die Markierung für veränderbaren Inhalt als Teil der Push-Payload und ermöglicht die Änderung des Inhalts der Push-Benachrichtigung durch eine im iOS-SDK bereitgestellte Anwendungserweiterung des Benachrichtigungs-Service. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Sie können die Erweiterungen Ihrer Mobile App nutzen, um den Inhalt oder die Darstellung eintreffender Push-Benachrichtigungen, die von [!DNL Journey Optimizer] versandt werden, nachträglich zu ändern. Beispielsweise können Anwender diese Option nutzen, um Daten zu entschlüsseln, den Textkörper oder Titel einer Benachrichtigung zu ändern, eine Thread-Kennung zu einer Benachrichtigung hinzuzufügen usw. |
-| **[!UICONTROL Benachrichtigungssichtbarkeit]** (Nur Android) | Definiert die Sichtbarkeit der Push-Benachrichtigung. <br/><b>Private</b>: Die Benachrichtigung wird auf allen Sperrbildschirmen angezeigt, vertrauliche oder private Informationen werden jedoch auf gesicherten Sperrbildschirmen ausgeblendet. <br/><b>Public</b>: Die Benachrichtigung wird vollständig auf allen Sperrbildschirmen angezeigt. <br/><b>Secret</b>: Auf einem gesicherten Sperrbildschirm wird kein Teil der Benachrichtigung angezeigt. <br/>Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/reference/android/app/Notification). |
+| **[!UICONTROL Hinzufügen einer Markierung für veränderbaren Inhalt]** (nur iOS) | Sendet die Markierung für veränderbaren Inhalt als Teil der Push-Payload und ermöglicht die Änderung des Inhalts der Push-Benachrichtigung durch eine im iOS-SDK bereitgestellte Anwendungserweiterung des Benachrichtigungs-Service. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Sie können dann Ihre Mobile-App-Erweiterungen nutzen, um den Inhalt oder die Darstellung von eingehenden Push-Benachrichtigungen, die von gesendet werden, weiter zu ändern  [!DNL Journey Optimizer]. Beispielsweise können Benutzer diese Option nutzen, um Daten zu entschlüsseln, den Text oder Titel einer Benachrichtigung zu ändern, eine Thread-Kennung zu einer Benachrichtigung hinzuzufügen usw. |
+| **[!UICONTROL Sichtbarkeit der Benachrichtigungen]**  (nur Android) | Definiert die Sichtbarkeit der Push-Benachrichtigung. <br/><b></b> Privacy zeigt die Benachrichtigung auf allen Sperrbildschirmen an, verheimlicht aber sensible oder private Informationen auf sicheren Sperren. <br/><b>Public</b>: Die Benachrichtigung wird vollständig auf allen Sperrbildschirmen angezeigt. <br/><b>Secret</b>: Auf einem gesicherten Sperrbildschirm wird kein Teil der Benachrichtigung angezeigt. <br/>Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Benachrichtigungspriorität]**  (nur Android) | Definiert die Wichtigkeit der Push-Benachrichtigung von „niedrig“ bis „maximal“. Dadurch wird festgelegt, wie „aufdringlich“ die Push-Benachrichtigung bei der Zustellung ist. Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance). |
 | **[!UICONTROL Versandpriorität]** (Nur Android) | Weist Ihren Push-Benachrichtigungen eine hohe oder normale Priorität zu. Weiterführende Informationen zur Priorität von Nachrichten finden Sie in der [Dokumentation für Google-Entwickler](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
-
 
 **Verwandte Themen**
 
@@ -113,7 +111,7 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Push-Kanal konfigurieren](push-gs.md)
+* [Kanal für Push-Benachrichtigungen konfigurieren](push-gs.md)
 * [Erstellen einer neuen Nachricht](create-message.md)
 * [Hinzufügen einer Nachricht zu einer Journey](building-journeys/journeys-message.md)
 
