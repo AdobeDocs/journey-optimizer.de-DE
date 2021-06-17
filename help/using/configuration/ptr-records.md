@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Mit PTR-Datensätzen können Empfänger-E-Mail-Server die Authentizität der E-M
 
 ## Zugreifen auf PTR-Datensätze Ihrer Subdomains
 
-Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Datensatz erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL PTR-Datensätze]** zugreifen.
+Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Datensatz erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL PTR-Datensätze]** zugreifen.
 
 ![](../assets/ptr-records.png)
 
