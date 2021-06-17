@@ -2,19 +2,17 @@
 title: Datenquelle konfigurieren
 description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
 feature: Datenquellen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 98%
 
 ---
 
 # Datenquelle konfigurieren {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquelle:
 
@@ -22,9 +20,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 >
 >Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
 
-1. Wählen Sie das Menü **[!UICONTROL Admin]** / **[!UICONTROL Datenquellen]**.
-
-   Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Data Sources]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
 
    ![](../assets/journey18.png)
 
