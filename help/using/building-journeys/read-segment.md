@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 94%
 
 ---
 
 # Segment in einer Journey verwenden {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Über die Aktivität „Segment lesen“ {#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim A
 >[!NOTE]
 >
 >Es ist nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
+>
+>Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Nachrichten an einfache Journey, die ein Lesesegment und eine einfache Push-Nachricht enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
 
 ### Aktivität konfigurieren {#configuring-segment-trigger-activity}
 
-Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
+Die Schritte zum Konfigurieren der Aktivität Segment lesen lauten wie folgt:
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segment lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -101,7 +101,7 @@ Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen
 
 ## Zielgruppenbestimmung bei segmentbasierten Journeys
 
-Segmentbasierte Journey beginnen immer mit der Aktivität **Segment lesen**, um Personen abzurufen, die einem Adobe Experience Platform-Segment angehören.
+Segmentbasierte Journey beginnen immer mit der Aktivität **Segment lesen** , um Kontakte abzurufen, die zu einem Adobe Experience Platform-Segment gehören.
 
 Die Audience des Segments wird einmalig oder regelmäßig abgerufen.
 
