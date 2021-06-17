@@ -5,21 +5,19 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 67%
 
 ---
 
-# Live-Bericht {#live-report}
+# Erste Schritte mit dem Live-Bericht {#live-report}
 
-![](../assets/do-not-localize/badge.png)
+Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journey und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
+Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand gesendet oder Ihre Journey ausgeführt wird.
 
-Mit dem **[!UICONTROL Live-Bericht]** können Sie die Effektivität Ihrer Journeys und die Performance Ihrer Nachrichten mit einem integrierten Dashboard in Echtzeit messen und visualisieren.
-Die Daten Ihrer Sendungen stehen im **[!UICONTROL Live-Bericht]** zur Verfügung, sobald Ihr Versand oder Ihre Journey ausgeführt wird.
-
-* Wenn Sie eine Journey oder Sendungen in einer Journey ansprechen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Live-Bericht]**. Dann können Sie die Live-Berichte „Journey“, „E-Mail“ und „Push-Benachrichtigung“ finden.
+* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Live-Bericht]** . Dann können Sie die Live-Berichte „Journey“, „E-Mail“ und „Push-Benachrichtigung“ finden.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ Die Daten Ihrer Sendungen stehen im **[!UICONTROL Live-Bericht]** zur Verfügung
 
    ![](../assets/report_2.png)
 
-## Dashboard ändern {#modify-dashboard}
+## Anpassen des Dashboards {#modify-dashboard}
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Klicken Sie in Ihrem Live-Bericht auf **[!UICONTROL Dashboard ändern]**.
+1. Klicken Sie in Ihrem Live-Bericht auf **[!UICONTROL ändern]**.
 
    ![](../assets/report_modify_1.png)
 
