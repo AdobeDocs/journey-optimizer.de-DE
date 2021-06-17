@@ -5,7 +5,7 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Importieren oder Kodieren Ihres E-Mail-Inhalts {#existing-content}
-
-![](assets/do-not-localize/badge.png)
 
 Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Bei diesem Inhalt kann es sich um HTML-Roh-Code oder Inhalt aus einer vorhandenen HTML-Datei oder einem ZIP-Ordner handeln.
 
@@ -57,7 +55,6 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um HTML-Roh-Cod
 1. Wenn Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern]** und kehren Sie dann zurück zum Bildschirm „Nachrichtenerstellung“, um die Nachricht fertigzustellen.
 
    ![](assets/code-editor-save.png)
-
 
 ## Importieren von HTML {#import-html-content-from-file}
 
