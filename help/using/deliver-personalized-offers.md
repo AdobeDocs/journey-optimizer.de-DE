@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 43%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
-
-![](assets/do-not-localize/badge.png)
 
 ## Informationen zum Entscheidungs-Management {#about-offer-decisioning}
 
@@ -24,32 +22,84 @@ Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ei
 
 Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden Sie in [diesem Abschnitt](offers/get-started/starting-offer-decisioning.md).
 
+Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angeboten zeigt, sie in einer Entscheidung verwendet und diese Entscheidung in einer E-Mail nutzt, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
+
+
 ## Einfügen einer Entscheidung in eine E-Mail {#insert-offers}
+
+>[!CAUTION]
+>
+>Sie müssen zunächst eine Angebotsentscheidung definieren. Erfahren Sie, wie Sie in [diesem Abschnitt](offers/offer-activities/create-offer-activities.md) Entscheidungen erstellen.
 
 Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufügen:
 
 1. Erstellen Sie Ihre E-Mail und öffnen Sie dann Email Designer, um den Inhalt zu konfigurieren.
 
-1. Fügen Sie eine Inhaltskomponente **[!UICONTROL Inhaltsentscheidung]** hinzu (siehe [Verwenden von Inhaltskomponenten](content-components.md)).
+1. Fügen Sie eine Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu.
 
    ![](assets/deliver-offer-component.png)
 
-1. Der Komponente wird eine Registerkarte **[!UICONTROL Angebotsentscheidung]** hinzugefügt. Klicken Sie auf **[!UICONTROL Personalisierung hinzufügen – Angebotsentscheidung]**, um eine Angebotsaktivität hinzuzufügen.
+   Erfahren Sie, wie Sie Inhaltskomponenten in [diesem Abschnitt](content-components.md) verwenden.
+
+1. Die Registerkarte **[!UICONTROL Angebotsentscheidung]** wird in der rechten Palette angezeigt. Klicken Sie auf **[!UICONTROL Wählen Sie Angebotsentscheidung]**.
 
    ![](assets/deliver-offer-tab.png)
 
-1. Wählen Sie die Platzierung aus, die den Angeboten entspricht, die Sie anzeigen möchten.
+1. Wählen Sie im sich öffnenden Fenster die Platzierung aus, die den anzuzeigenden Angeboten entspricht.
 
-   Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
+   [Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. ](offers/offer-library/creating-placements.md) In diesem Beispiel verwenden wir die Platzierung „E-Mail-Top-Bild“. Diese Platzierung wurde in der Angebotsbibliothek erstellt, um Angebote des Typs Bild oben am Anfang von Nachrichten anzuzeigen.
 
 1. Wählen Sie die in der Inhaltskomponente zu verwendende Angebotsaktivität aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass nur Entscheidungen, die mit der ausgewählten Platzierung kompatibel sind, in der Liste angezeigt werden. In diesem Beispiel stimmt nur eine Angebotsaktivität mit der Platzierung „E-Mail-Top-Bild“ überein.
+   >In der Liste werden nur Entscheidungen angezeigt, die mit der ausgewählten Platzierung kompatibel sind. In diesem Beispiel stimmt nur eine Angebotsaktivität mit der Platzierung „E-Mail-Top-Bild“ überein.
 
    ![](assets/deliver-offer-placement.png)
 
-1. Die Angebotsaktivität wird nun der Komponente hinzugefügt. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, in der Vorschau anzeigen, indem Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile für die Inhaltskomponenten verwenden.
+Die Angebotsaktivität wird nun der Komponente hinzugefügt.
 
-   ![](assets/deliver-offer-preview.png)
+
+## Angebotsvorschau in einer E-Mail {#preview-offers-in-email}
+
+Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, die der E-Mail hinzugefügt wird, mit dem Abschnitt **[!UICONTROL Angebote]** oder den Pfeilen der Inhaltskomponenten in der Vorschau anzeigen.
+
+![](assets/deliver-offer-preview.png)
+
+Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der Entscheidung mit einem Kundenprofil sind.
+
+1. Klicken Sie auf **[!UICONTROL Vorschau]**.  
+
+   ![](assets/deliver-offer-preview-button.png)
+
+   >[!NOTE]
+   >
+   >Sie benötigen Testprofile, um eine Vorschau Ihrer Nachrichten anzeigen zu können. Erfahren Sie, wie Sie [Testprofile](building-journeys/creating-test-profiles.md) erstellen.
+
+1. Um den Namespace auszuwählen, der zur Identifizierung von Testprofilen verwendet werden soll, wählen Sie **[!UICONTROL Email]** aus dem Feld **[!UICONTROL Identitäts-Namespace]** aus.
+
+   >[!NOTE]
+   >
+   >In diesem Beispiel verwenden wir den Namespace **Email**. Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#getting-started).
+
+1. Wählen Sie in der Liste der Identitäts-Namespaces **[!UICONTROL E-Mail]** aus und klicken Sie auf **[!UICONTROL Auswählen]**.
+
+1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert ein, um das Testprofil zu identifizieren. Geben Sie in diesem Beispiel die E-Mail-Adresse eines Testprofils ein.
+
+   <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
+
+1. Fügen Sie weitere Profile hinzu, damit Sie je nach den Profildaten verschiedene Varianten der Nachricht testen können.
+
+   ![](assets/deliver-offer-test-profiles.png)
+
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Vorschau]**, um Ihre Nachricht zu prüfen.
+
+1. Wählen Sie ein Testprofil aus. Das Angebot, das dem ausgewählten Profil (Frau) entspricht, wird angezeigt.
+
+   ![](assets/deliver-offer-test-profile-female-preview.png)
+
+1. Wählen Sie weitere Testprofile aus, um den E-Mail-Inhalt für jede Variante Ihrer Nachricht in der Vorschau anzuzeigen. Im Nachrichteninhalt wird nun das Angebot angezeigt, das dem ausgewählten Testprofil (jetzt ein Mann) entspricht.
+
+   ![](assets/deliver-offer-test-profile-male-preview.png)
+
+Weitere Informationen zu den detaillierten Schritten zur Überprüfung der Nachrichtenvorschau finden Sie in [diesem Abschnitt](#preview-your-messages).
