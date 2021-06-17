@@ -1,26 +1,28 @@
 ---
-title: Nachrichtenvorgaben erstellen
+title: Nachrichtenvoreinstellungen erstellen
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
 
 
-# Nachrichtenvorgaben erstellen
+# Nachrichtenvoreinstellungen erstellen
 
 Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, mobile Apps und mehr.
 
 >[!CAUTION]
 >
-> Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Infos](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Infos](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* Sie müssen die Konfigurationsschritte E-Mail und Push ausführen, bevor Sie Nachrichtenvorgaben erstellen.
 
 
 Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
@@ -33,11 +35,9 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    ![](../assets/preset-create.png)
 
-
 1. Geben Sie einen Namen und eine Beschreibung (optional) für die Vorgabe ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    * Wählen Sie den IP-Pool aus, der mit der Vorgabe verknüpft werden soll. [Weitere Infos](ip-pools.md)
    * Geben Sie die Header-Parameter für die mit der Vorgabe gesendeten E-Mails ein.
 
+      >[!CAUTION]
+      >
+      >Mit Ausnahme des Felds **Antwort an (Weiterleiten von E-Mails)** muss die E-Mail-Adressen-Domain die aktuell ausgewählte [zugewiesene Subdomain](about-subdomain-delegation.md) verwenden.
+
+      * **[!UICONTROL Absendername]**: Name des Absenders, z. B. Name Ihrer Marke.
+
+      * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
+
+      * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf die  **** Schaltfläche Replypfeld klickt.
+
+      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf die  **** Schaltfläche Replyn klickt. Die an diese Adresse gesendeten E-Mails werden an die unten angegebene Adresse **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]** weitergeleitet. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
+
+      * **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]**: Alle E-Mails, die von  [!DNL Journey Optimizer] für die zugewiesene Subdomain empfangen wurden, werden an diese E-Mail-Adresse weitergeleitet. Sie können eine beliebige Adresse angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
+
+      * **[!UICONTROL Fehler-E-Mail]**: Alle Fehler, die von ISPs nach wenigen Tagen der Zustellung von E-Mails (asynchrone Bounces) erzeugt wurden, werden auf dieser Adresse empfangen.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
-         > 
-         > 
-      * Mit Ausnahme von **Antwort an (Weiterleiten von E-Mails)** muss die E-Mail-Adressen-Domain die aktuelle ausgewählte Subdomain verwenden.
-
+      >Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
 
 
 1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigung**.
@@ -86,7 +100,6 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellbarkeitsteam der Adobe durchgeführt werden:
 
-
    * SPF-Validierung
    * DKIM-Validierung
    * MX-Datensatzvalidierung
@@ -94,7 +107,6 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    * Helo-Host-Prüfung
    * IP-Poolverifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
-
 
 1. Sobald die Prüfungen erfolgreich sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]** . Es kann zum Versand von Nachrichten verwendet werden.
 
