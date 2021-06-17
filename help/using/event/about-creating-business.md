@@ -2,19 +2,17 @@
 title: Konfigurieren eines Geschäftsereignisses
 description: Erfahren Sie, wie Sie ein Geschäftsereignis erstellen
 feature: Ereignisse
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 98%
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
 # Konfigurieren eines Geschäftsereignisses {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 Im Gegensatz zu einheitlichen Ereignissen sind Geschäftsereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 
 Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftsereignisses:
 
-1. Navigieren Sie im Abschnitt ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Die Liste der Ereignisse wird angezeigt.
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
    ![](../assets/jo-event1.png)
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
+1. Klicken Sie auf **[!UICONTROL Ereignis erstellen]** , um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
-1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Payload]** oder das Symbol **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder auf das Symbol **[!UICONTROL Bearbeiten]** .
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
 1. Wählen Sie die Felder aus, die Sie vom Ereignis erwarten. Dies sind die Felder, die der Business-Anwender in der Journey nutzen wird.
 
-   ![](../assets/journey10-business.png)
-
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
 
-   Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Payload]** angezeigt.
+   Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Felder]** angezeigt.
 
    ![](../assets/journey12-business.png)
 
