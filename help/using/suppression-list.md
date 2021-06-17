@@ -5,7 +5,7 @@ feature: Zustellbarkeit
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 64%
@@ -13,8 +13,6 @@ ht-degree: 64%
 ---
 
 # Unterdrückungsliste {#suppression-list}
-
-![](assets/do-not-localize/badge.png)
 
 Eine Unterdrückungsliste besteht aus E-Mail-Adressen, die Sie aus Ihren Sendungen ausschließen möchten, da der Versand an diese Kontakte Ihrer Reputation und den Versandraten schaden könnte.
 
