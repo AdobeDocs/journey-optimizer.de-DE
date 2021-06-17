@@ -5,28 +5,26 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 93%
+source-wordcount: '264'
+ht-degree: 74%
 
 ---
 
 # Globaler Bericht {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > Wenn bei Verwendung des Query-Dienstes benutzerdefinierte Abfragen über APIs durchgeführt werden, erwarten Sie einige Verzögerungen bei Ihren Berichten.
 
-Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Journeys und Ihrer Sendungen über einen bestimmten Zeitraum messen.
+Verwenden Sie den **[!UICONTROL Globalen Bericht]**, um die Wirkung Ihrer Journey und Sendungen über einen bestimmten Zeitraum zu messen.
 
-* Wenn Sie eine Journey oder Sendungen in einer Journey auswählen möchten, rufen Sie im Menü **[!UICONTROL Journeys]** Ihre Journey auf und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]**. Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
+* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]** . Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
 
 * Wenn Sie einen bestimmten Versand auswählen möchten, wählen Sie in der Ansicht **[!UICONTROL Global]** auf der Registerkarte **[!UICONTROL Ausführungen]** Ihrer Nachrichten die Option **[!UICONTROL Globaler Bericht]** aus dem erweiterten Menü des ausgewählten Versands.
 
-## Dashboard ändern {#modify-dashboard}
+## Anpassen des Dashboards {#modify-dashboard}
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernung von Widgets oder durch Ändern des Zielzeitrahmens geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
@@ -36,7 +34,7 @@ Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernung von Wid
 
    ![](../assets/global_report_6.png)
 
-1. Klicken Sie auf **[!UICONTROL Dashboard ändern]**.
+1. Klicken Sie auf **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
