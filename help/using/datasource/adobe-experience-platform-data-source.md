@@ -2,10 +2,10 @@
 title: 'Datenquelle von Adobe Experience Platform '
 description: Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren
 feature: Datenquellen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Datenquelle von Adobe Experience Platform {#concept_zrb_nqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Die Datenquelle von Adobe Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofil-Service. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de).
 
