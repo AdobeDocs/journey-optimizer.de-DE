@@ -5,18 +5,16 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
 # Gemeinsame Felder für journeySteps-Ereignisse {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Dieses Mixin wird von journeyStepEvent und journeyStepProfileEvent geteilt.
+Diese Feldergruppe wird von journeyStepEvent und journeyStepProfileEvent gemeinsam genutzt.
 
 Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] an Adobe Experience Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
