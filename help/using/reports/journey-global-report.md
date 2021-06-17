@@ -5,16 +5,14 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1095'
+ht-degree: 90%
 
 ---
 
-# Globaler Bericht zur Journey {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Journey Global report {#journey-global-report}
 
 Über die Schaltfläche **[!UICONTROL Globaler Bericht]** können Sie direkt von Ihrer Journey auf den globalen Bericht zur Journey zugreifen.
 
@@ -44,23 +42,27 @@ Das Widget **[!UICONTROL Statistiken der Journey]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Fehlgeschlagene individuelle Journey]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-Mit den Widgets **[!UICONTROL Performance des Ereignisses]** und **[!UICONTROL Top-Ereignisse]** können Sie über Diagramme und Tabellen sehen, welches Ihrer **[!UICONTROL Ereignisse]** erfolgreich ausgeführt wurde.
+![](../assets/global_report_12.png)
 
-Die Widgets **[!UICONTROL Performance der Aktion]** und **[!UICONTROL Top-Aktionen]** stellen die erfolgreichsten Aktionen und Fehler dar, die beim Auslösen Ihrer **[!UICONTROL Aktionen]** aufgetreten sind. Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktionen]** verfügbaren Daten, z. B.:
+Mit den Widgets **[!UICONTROL Ereignisse, die von event]**, **[!UICONTROL Ereignisse nach Herkunft]** und **[!UICONTROL Top-Ereignisse]** empfangen werden, können Sie sehen, welche **[!UICONTROL Ereignisse]** erfolgreich über Diagramme und Tabellen ausgeführt wurde.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Aktionsleistung]**,  **[!UICONTROL Aktionsfehler-]** Gründe und  **[!UICONTROL Top-]** Aktionswidgets stellen die erfolgreichste Aktion und Fehler dar, die beim Auslösen Ihrer  **** Aktionen aufgetreten sind.
+
+Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktionen]** verfügbaren Daten, z. B.:
 
 * **[!UICONTROL Erfolgreich ausgeführte Aktionen]**: Gesamtanzahl der **[!UICONTROL Aktionen]**, die für eine Journey erfolgreich ausgeführt wurden.
 
 * **[!UICONTROL Fehler in Aktion]**: Gesamtanzahl der Fehler, die bei **[!UICONTROL Aktionen]** aufgetreten sind.
-
-Das Diagramm **[!UICONTROL Fehlergründe]** zeigt den Typ der Fehler an, die bei **[!UICONTROL Aktionen]** aufgetreten sind.
-
-<!--Events by origin-->
 
 ## Registerkarte „E-Mail“ {#email-global}
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
 Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [Globaler E-Mail-Bericht](#email-global-report).
+
+![](../assets/global_report_14.png)
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
 
@@ -92,6 +94,10 @@ Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Date
 
 * **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Journey interagiert haben.
 
+* **[!UICONTROL Abmelden]**: Anzahl der Klicks auf den Abmelde-Link.
+
+* **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
+
 Das Diagramm **[!UICONTROL Sendestatistiken]** enthält die Daten, die für gesendete E-Mails verfügbar sind, z. B.:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
@@ -99,6 +105,8 @@ Das Diagramm **[!UICONTROL Sendestatistiken]** enthält die Daten, die für gese
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+![](../assets/global_report_15.png)
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten wie:
 
@@ -110,15 +118,19 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weiterführende Informationen zu Bounces finden Sie auf der Seite [Unterdrückungsliste](../suppression-list.md) .
 
+![](../assets/global_report_16.png)
+
 Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
 
-Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
+Das Diagramm **[!UICONTROL E-Mail - Top-Empfänger-Domain]** zeigt, welche Domänen von den Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-global}
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
 Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im [globalen Bericht zu Push-Benachritigungen](#push-global-report).
+
+![](../assets/global_report_17.png)
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
 
@@ -160,6 +172,10 @@ Das Diagramm **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthält
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
+![](../assets/global_report_18.png)
+
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+
+![](../assets/global_report_19.png)
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem Ihres Empfängers.
