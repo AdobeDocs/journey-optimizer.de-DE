@@ -5,17 +5,15 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 56%
 
 ---
 
 
 # Personalisierungssyntax {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax namens &quot;Handlebars&quot;.
 Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [HandlebarsJS-Dokumentation](https://handlebarsjs.com/).
@@ -24,14 +22,12 @@ Sie verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformat
 
 Beispiel für einen einfachen Ausdruck:
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 Hier gilt:
 
-* **profileis** ist ein Namespace.
-* **person.name** ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+* `profile` ist ein Namespace.
+* `person.name` ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
 
 ## Allgemeine Syntaxregeln
 
@@ -59,15 +55,19 @@ Die Attribute müssen im Schema definiert werden, bevor sie in einem Gestaltungs
 
 **Beispielverweise:**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## Segmente{#perso-segments}
 
@@ -84,20 +84,18 @@ Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen In
 
 Dieser Pfad weist die folgende Struktur auf:
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 Hier gilt:
 
 * `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört
 * `Type`  bestimmt den Typ der Angebotsdarstellung. Mögliche Werte sind: `image`, `html` und `text`
 * `Placement Id` und  `Activity Id` sind Platzierungs- und Aktivitätskennungen
-* `Attributes` sind angebotspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder.
+* `Attributes` sind angebotspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
 
 Weitere Informationen zur Decisions-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-Alle Verweise werden mit einem in [dieser Seite](personalization-validation.md) beschriebenen Validierungsmechanismus für das Angebotsschema validiert.
+Alle Verweise werden mit einem Validierungsmechanismus, der in [dieser Seite](personalization-validation.md) beschrieben wird, für das Angebotsschema validiert
 
 **Beispielverweise:**
 
