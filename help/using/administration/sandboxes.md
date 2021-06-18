@@ -1,5 +1,5 @@
 ---
-title: Sandbox-Verwaltung
+title: Sandbox-Management
 description: Erfahren Sie, wie Sie Sandboxes verwalten
 page-status-flag: never-activated
 uuid: null
@@ -13,19 +13,17 @@ internal: n
 snippet: y
 exl-id: null
 feature: Kontrollgruppen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
-# Sandbox-Verwaltung {#sandboxes}
-
-![](../assets/do-not-localize/badge.png)
+# Sandbox-Management {#sandboxes}
 
 ## Sandboxes {#using-sandbox} verwenden
 
