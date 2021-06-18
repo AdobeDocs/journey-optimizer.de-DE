@@ -5,18 +5,16 @@ feature: 'Berichterstellung '
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '63'
+ht-degree: 60%
 
 ---
 
 # Identitätsfelder für journeyStep-Ereignisse {#sharing-identity-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Dieses Mixin gilt speziell für journeyStepEvent: Das Ereignis bezieht sich auf die Journey und verfügt nicht über die identityMap zur Beschreibung der Profilidentität (sofern vorhanden).
+Diese Feldergruppe ist spezifisch für journeyStepEvent: Dieses Ereignis steht im Zusammenhang mit Journey und verfügt nicht über die identityMap, die die Profilidentität beschreibt, sofern vorhanden.
 
 Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 
