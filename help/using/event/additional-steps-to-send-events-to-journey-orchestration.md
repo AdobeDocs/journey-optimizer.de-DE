@@ -2,10 +2,10 @@
 title: Zusätzliche Schritte zum Senden von Ereignissen an eine Journey
 description: Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen an eine Journey
 feature: Ereignisse
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Zusätzliche Schritte zum Senden von Ereignissen {#concept_xrz_n1q_y2b}
-
-![](../assets/do-not-localize/badge.png)
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
