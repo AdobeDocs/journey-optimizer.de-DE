@@ -13,10 +13,10 @@ internal: n
 snippet: y
 exl-id: null
 feature: Kontrollgruppen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 20%
@@ -24,8 +24,6 @@ ht-degree: 20%
 ---
 
 # Übersicht über die Benutzerverwaltung {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] ermöglicht die Definition und Verwaltung von Genehmigungen, die den verschiedenen Benutzern erteilt werden können. Berechtigungen sind eine Reihe von Berechtigungen und Einschränkungen, die den Zugriff auf produktinterne Funktionen und Funktionen zulassen oder verweigern.
 
