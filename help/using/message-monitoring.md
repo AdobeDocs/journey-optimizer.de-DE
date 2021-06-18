@@ -5,7 +5,7 @@ feature: Überwachung
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 85%
@@ -13,8 +13,6 @@ ht-degree: 85%
 ---
 
 # Überwachen von Nachrichten {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Sie können sehen, wie sich Ihre Nachrichten <!--and APIs--> in Echtzeit verhalten, wenn Sie die Liste **[!UICONTROL Ausführungen]** aufrufen.
 
