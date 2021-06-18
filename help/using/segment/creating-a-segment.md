@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -38,10 +38,11 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
    In diesem Beispiel müssen für die Segmenterstellung die Felder **Attribute** und **Ereignisse** verwendet werden:
 
-   * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980
-   * **Ereignisse**: Profile, die das Luma-Programm innerhalb der letzten 7 Tage geöffnet und innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
+   * **Attribute**: Profile, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
 
       ![](../assets/add-attributes.png)
+
+   * **Ereignisse**: Profile, die das Luma-Programm innerhalb der letzten 7 Tage geöffnet und innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
       ![](../assets/add-events.png)
 
