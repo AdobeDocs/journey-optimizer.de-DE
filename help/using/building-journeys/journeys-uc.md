@@ -5,18 +5,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 89%
 
 ---
 
-# Journey-Anwendungsfall
+# Senden von Multi-Channel-Nachrichten
 
-![](../assets/do-not-localize/badge.png)
-
-In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der „Segment lesen“, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
+In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der ein Segment lesen, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ In unserer Journey möchten wir ein bestimmtes Kundensegment verwenden. Alle die
 
 Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segment/about-segments.md).
 
-1. Klicken Sie im Menü **[!UICONTROL Segmente]** auf **[!UICONTROL Segment erstellen]**.
+1. Wählen Sie im Menüabschnitt KUNDENMENGE die Option **[!UICONTROL Segmente]** aus.
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Segment]** erstellen , die sich oben rechts in der Segmentliste befindet.
 
 1. Geben Sie im Bereich **[!UICONTROL Segmenteigenschaften]** einen Namen für das Segment ein.
 
@@ -54,7 +54,7 @@ Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segm
 
    ![](../assets/add-attributes.png)
 
-Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey eintreten lassen.
+Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mithilfe der Aktivität **Segment** lesen können Sie alle zum Segment gehörenden Personen in die Journey eintragen lassen.
 
 ### Konfigurieren des Ereignisses
 
@@ -62,7 +62,7 @@ Sie müssen ein Ereignis konfigurieren, das an Ihre Journey gesendet wird, wenn 
 
 Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Informationen zu Ereignissen finden Sie auf dieser [Seite](../event/about-events.md).
 
-1. Navigieren Sie im Abschnitt ADMINISTRATION zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um ein neues Ereignis zu erstellen.
+1. Wählen Sie im Menüabschnitt ADMINISTRATION die Option **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Ereignisse]**. Klicken Sie auf **[!UICONTROL Ereignis erstellen]** , um ein neues Ereignis zu erstellen.
 
 1. Geben Sie den Namen Ihres Ereignisses ein.
 
@@ -72,7 +72,7 @@ Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Inf
 
 1. Definieren Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** die vom System verwendete Bedingung, um die Ereignisse zu identifizieren, die einen Trigger an Ihre Journey übermitteln. Sie können beispielsweise ein Feld `purchaseMessage` hinzufügen und die folgende Regel definieren: `purchaseMessage="thank you"`
 
-1. Geben Sie den **[!UICONTROL Namespace]** und den **[!UICONTROL Schlüssel]** an.
+1. Definieren Sie den **[!UICONTROL Namespace]** und die **[!UICONTROL Profil-ID]**.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -94,7 +94,7 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 
 ## Entwerfen der Journey
 
-1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Segment lesen**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
+1. Starten Sie die Journey mit der Aktivität **Segment lesen** . Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
 
    ![](../assets/jo-uc4.png)
 
