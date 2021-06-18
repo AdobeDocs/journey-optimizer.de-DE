@@ -5,16 +5,14 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 85%
 
 ---
 
 # Zeitzonen-Management {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 Sie können eine Zeitzone in den [Eigenschaften](../building-journeys/journey-gs.md#change-properties) Ihrer Journey festlegen.
 
@@ -29,11 +27,15 @@ Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelem
 
 Sie können eine Zeitzone auswählen oder die Zeitzone verwenden, die im Benutzerprofil definiert ist.
 
+>[!NOTE]
+>
+>Die Zeitzone des Profils funktioniert mit dem Feld **timeZone** , das in der Feldergruppe **Präferenzdetails** vorhanden ist.
+
 ## Definieren einer festen Zeitzone {#fixed-timezone}
 
 Die Zeitzone kann auch fest definiert werden. Löschen Sie die vordefinierte Zeitzone und wählen Sie eine aus der Dropdown-Liste aus. Wenn Sie eine feste Zeitzone verwenden, ist diese für alle Kontakte gleich, die die Journey beginnen.
 
-Wählen Sie dazu in den **[!UICONTROL Eigenschaften]** eine Zeitzone aus.
+Wählen Sie dazu im Bereich **[!UICONTROL Journey Properties]** eine Zeitzone aus.
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie i
 
 Wenn das Profil des Kontakts keine Zeitzone enthält, wird die im Zeitzonenfeld definierte Zeitzone abgerufen.
 
-Aktivieren Sie dazu in den **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Zeitzone des Profils in Timern und Bedingungen verwenden]**.
+Aktivieren Sie dazu in **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Verwenden Sie die Zeitzone Profil in Wartezeiten und Bedingungen]**.
 
 ![](../assets/journey73.png)
 
