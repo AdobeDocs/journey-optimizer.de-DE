@@ -12,24 +12,24 @@ discoiquuid: null
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 7%
 
 ---
 
 
-# Bestimmen der primären Adressen von Profilen
+# Primäre E-Mail-Adressen ändern
 
 Wenn Sie ein Profil als Ziel auswählen, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (persönliche, professionelle E-Mail-Adresse usw.).
 
 Mit Journey Optimizer können Sie über den Profildienst bestimmen, welche E-Mail-Adresse verwendet werden soll, und Prioritäten setzen, wenn mehrere Adressen verfügbar sind. Gehen Sie dazu wie folgt vor:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Allgemein]** auf.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL Allgemein]** auf.
 1. In diesem Bildschirm wird das Feld angezeigt, das standardmäßig zur Bestimmung der E-Mail-Adressen der Profile verwendet wird. Klicken Sie auf **[!UICONTROL Bearbeiten]** , um sie zu ändern.
 
    ![](../assets/primary-address.png)
