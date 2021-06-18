@@ -5,26 +5,24 @@ feature: Übersicht
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1554'
+ht-degree: 91%
 
 ---
 
 # Entwerfen von E-Mail-Inhalten in der Benutzeroberfläche {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
-1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Inhalt bearbeiten]** aus.
+1. Wählen Sie aus der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Body]** aus.
 
    ![](assets/import-html_1.png)
 
 1. Wählen Sie in der Startseite von „Email Designer“ aus den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
 
-   * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden.
+   * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden. [Weitere Infos](#design-scratch)
 
    * Wählen Sie **[!UICONTROL Von Vorlage starten]** aus, um Ihre E-Mail aus einer integrierten Liste von Vorlagen zu erstellen. Beachten Sie, dass Sie keine anderen Vorlagen erstellen können.
 
@@ -34,13 +32,39 @@ Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit 
 
    ![](assets/email_designer_25.png)
 
-## Von Grund auf gestalten
+## Von Grund auf gestalten {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Über Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der E-Mail."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definieren von E-Mail-Spalten"
+>abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+
+Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
 Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führen Sie die folgenden Schritte aus:
 
 1. Nach Auswahl der Option **[!UICONTROL Von Grund auf gestalten]** beginnen Sie mit der Gestaltung Ihres E-Mail-Inhalts, indem Sie **[!UICONTROL Strukturkomponenten]** per Drag-and-Drop hineinziehen, um das Layout Ihrer E-Mail zu definieren.
 
+   >[!NOTE]
+   >
+   >Beachten Sie, dass das Stapeln von Spalten nicht mit allen E-Mail-Programmen kompatibel ist. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
+   >
+   >Sobald die Komponenten in der E-Mail platziert sind, können sie nicht mehr verschoben oder entfernt werden, außer es befindet sich bereits eine Inhaltskomponente oder ein Fragment darin.
+
    ![](assets/email_designer_2.png)
+
+1. Fügen Sie beliebig viele **[!UICONTROL Strukturkomponenten]** hinzu.
+
+   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
+
+   >[!NOTE]
+   >
+   >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
 
 1. Aus der Dropdown-Liste **[!UICONTROL Inhaltskomponenten]** können Sie so viele **[!UICONTROL Inhaltskomponenten]** hinzufügen, wie Sie in Ihrer Strukturkomponente benötigen. [Weitere Informationen zu Inhaltskomponenten](content-components.md).
 
@@ -64,6 +88,10 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >Weitere Informationen zu Links und zum Nachrichten-Tracking finden Sie auf dieser Seite [unter ](message-tracking.md).
+
 1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Weitere Informationen zum Code-Editor finden Sie auf dieser [Seite](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
@@ -72,7 +100,9 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
    ![](assets/email_designer_26.png)
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um Ihre gerenderte E-Mail zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
+1. Klicken Sie auf **[!UICONTROL Vorschau anzeigen]** , um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
+
+   Weitere Informationen zur Vorschau Ihrer E-Mail finden Sie unter [Vorschau und Testen Ihrer Nachrichten](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
 Ihr E-Mail-Inhalt kann jetzt in einer Nachricht verwendet werden. [Erfahren Sie, wie Sie eine Nachricht senden](publish-manage-message.md).
 
-## E-Mail-Struktur definieren {#defining-the-email-structure}
+## Erstellen der Textversion einer E-Mail {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="Über Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der E-Mail."
+Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="Definieren von E-Mail-Spalten"
->abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+Standardmäßig erstellt Email Designer eine **[!UICONTROL Nur-Text-Version]** Ihrer E-Mail einschließlich Personalisierungsfeldern. Diese Version wird automatisch generiert und mit der HTML-Version Ihres Inhalts synchronisiert.
 
-Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
+Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führen Sie die folgenden Schritte aus:
 
-Um die Struktur einer E-Mail zu bearbeiten, gehen Sie wie folgt vor:
+1. Wählen Sie in Ihrer E-Mail die Registerkarte **[!UICONTROL Nur-Text]** aus.
 
-1. Öffnen Sie vorhandenen Inhalt oder erstellen Sie neuen.
-1. Öffnen Sie die **[!UICONTROL Strukturkomponenten]** durch Auswahl des Zeichens **+** auf der linken Seite.
-1. Wählen Sie die für Ihre E-Mail benötigten Strukturkomponenten per Drag-and-Drop aus.
-Eine blaue Linie kennzeichnet die Stelle, an der die Strukturkomponente platziert wird, wenn Sie sie loslassen. Sie können die Strukturkomponente oberhalb, zwischen oder unterhalb einer anderen Komponente platzieren, nicht jedoch in einer Komponente.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML synchronisieren]**, um die Synchronisierung zu deaktivieren.
+
+   ![](assets/text_version_1.png)
+
+1. Klicken Sie auf das Häkchen, um Ihre Auswahl zu bestätigen.
+
+   ![](assets/text_version_2.png)
+
+1. Sie können die Nur-Text-Version dann nach Belieben bearbeiten.
+
+>[!CAUTION]
+>
+>* Die Änderungen, die Sie in der **[!UICONTROL Nur-Text-Ansicht]** vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
    >
-   >Beachten Sie, dass das Stapeln von Spalten nicht mit allen E-Mail-Programmen kompatibel ist. Wenn dies nicht unterstützt wird, werden Spalten nicht gestapelt.
    >
-   >Sobald die Komponenten in der E-Mail platziert sind, können sie nicht mehr verschoben oder entfernt werden, außer es befindet sich bereits eine Inhaltskomponente oder ein Fragment darin.
+* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
-1. Mehrere Strukturkomponenten bestehend aus einer oder mehreren Spalten sind verfügbar.
-
-   Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
-
-   >[!NOTE]
-   >
-   >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
-
-Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten zu Ihrer E-Mail hinzufügen.
 
 ## Verwenden eines Preheaders {#preheader}
 
@@ -124,15 +147,33 @@ Sobald die Struktur definiert ist, können Sie Inhaltsfragmente und Komponenten 
 >title="Verwenden eines Preheaders"
 >abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der Ihnen dabei hilft, Ihre E-Mails besser zu verfolgen und anzupassen."
 
-Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. Der Preheader kann Ihnen dabei helfen, Ihre E-Mails besser zu verfolgen und anzupassen.
-
-Aktivieren Sie das Bearbeitungsfeld **[!UICONTROL Preheader]** und geben Sie Inhalte ein.
-
-Sie können einen **[!UICONTROL Inhaltsbaustein]**, einen **[!UICONTROL dynamischen Inhalt]** oder ein **[!UICONTROL Personalisierungsfeld]** in den Preheader-Inhalt einfügen.
-
 >[!NOTE]
 >
 >Beachten Sie, dass Preheader nicht mit allen E-Mail-Programmen kompatibel sind. Wird der Preheader nicht unterstützt, wird er nicht angezeigt.
+
+Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. Der Preheader kann Ihnen dabei helfen, Ihre E-Mails besser zu verfolgen und anzupassen.
+
+1. Fügen Sie in Email Designer **[!UICONTROL Strukturkomponenten]** hinzu, um Ihre E-Mail zu entwerfen.
+
+   ![](assets/preheader_1.png)
+
+1. Klicken Sie im rechten Bereich **[!UICONTROL Texteinstellungen]** auf **Bearbeiten** neben dem Feld **[!UICONTROL Preheader]** , um Inhalt hinzuzufügen.
+
+   ![](assets/preheader_2.png)
+
+1. Fügen Sie Ihren Preheader hinzu. Sie können sie weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
+
+   ![](assets/preheader_3.png)
+
+1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL Dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
+
+1. Klicken Sie auf **[!UICONTROL Validate]** , um Ihre Personalisierungssyntax zu überprüfen.
+
+   ![](assets/preheader_4.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 
 ## Hintergrundeinstellungen {#about-backgrounds}
 
@@ -172,7 +213,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
 
-### Beispiel: Anpassung der senkrechten Ausrichtung und des Abstands {#example--adjusting-vertical-alignment-and-padding}
+## Anpassen der vertikalen Ausrichtung und des Abstands {#adjusting-vertical-alignment-and-padding}
 
 Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
 
@@ -220,32 +261,5 @@ Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen un
 
 Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordneten Elemente keine speziellen Stilattribute definiert sind, wird der Stil des übergeordneten Elements verwendet.
 
-
-## Erstellen der Textversion einer E-Mail {#generate-text-version}
-
-Es wird empfohlen, eine Textversion Ihres E-Mail-Textkörpers zu erstellen, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
-
-Standardmäßig erstellt Email Designer eine **[!UICONTROL Nur-Text-Version]** Ihrer E-Mail einschließlich Personalisierungsfeldern. Diese Version wird automatisch generiert und mit der HTML-Version Ihres Inhalts synchronisiert.
-
-Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führen Sie die folgenden Schritte aus:
-
-1. Wählen Sie in Ihrer E-Mail die Registerkarte **[!UICONTROL Nur-Text]** aus.
-
-1. Verwenden Sie den Umschalter **[!UICONTROL Mit HTML synchronisieren]**, um die Synchronisierung zu deaktivieren.
-
-   ![](assets/text_version_1.png)
-
-1. Klicken Sie auf das Häkchen, um Ihre Auswahl zu bestätigen.
-
-   ![](assets/text_version_2.png)
-
-1. Sie können die Nur-Text-Version dann nach Belieben bearbeiten.
-
->[!CAUTION]
->
->* Die Änderungen, die Sie in der **[!UICONTROL Nur-Text-Ansicht]** vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
->
->* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
->
 
 
