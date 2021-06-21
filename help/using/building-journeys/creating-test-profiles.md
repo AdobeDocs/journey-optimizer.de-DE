@@ -5,9 +5,9 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
+source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1366'
 ht-degree: 40%
 
 ---
@@ -93,7 +93,7 @@ Die folgenden Informationen werden benötigt:
 2. **CSV-Datei**: Eine kommagetrennte Datei, die die Liste der zu erstellenden Testprofile enthält. Der Anwendungsfall erwartet ein vordefiniertes Format für die CSV-Datei, die die Liste der zu erstellenden Testprofile enthält. Jede Zeile in der Datei sollte die folgenden Felder in der richtigen Reihenfolge wie folgt enthalten:
 
    1. **Personen-ID**: Eindeutige Kennung des Testprofils. Die Werte dieses Felds sollten den ausgewählten Identitäts-Namespace widerspiegeln. (Wenn beispielsweise **Phone** für den Identitäts-Namespace ausgewählt ist, sollten die Werte dieses Felds Telefonnummern sein. Wenn **E-Mail** ausgewählt ist, sollten die Werte dieses Felds E-Mails sein.
-   1. **E-Mail**: E-Mail-Adresse des Testprofils. (Das Feld **Personen-ID** und das Feld **E-Mail-Adresse** können möglicherweise dieselben Werte enthalten, wenn **E-Mail** als Identitäts-Namespace ausgewählt ist.)
+   1. **E-Mail-Adresse**: E-Mail-Adresse des Testprofils. (Das Feld **Personen-ID** und das Feld **E-Mail-Adresse** können möglicherweise dieselben Werte enthalten, wenn **E-Mail** als Identitäts-Namespace ausgewählt ist.)
    1. **Vorname**: Vorname des Testprofils.
    1. **Nachname**: Nachname des Testprofils.
    1. **Ort**: Testprofilstadt des Wohnsitzes
