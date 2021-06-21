@@ -2,13 +2,13 @@
 title: Erstellen einer Nachricht
 description: Erfahren Sie, wie Sie eine Nachricht erstellen
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: '495'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Nachrichten sind über den Tastaturbefehl **[!UICONTROL Nachrichten]** im linken
 
 >[!NOTE]
 >
->Jeder Benutzer kann auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../using/administration/permissions.md).
+>Benutzer können je nach Produktprofil auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
