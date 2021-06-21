@@ -1,17 +1,20 @@
 ---
-title: Datenschutz
+title: 'Datenschutz in [!DNL Journey Optimizer] '
 description: Erfahren Sie, wie Sie Datenschutz verwalten.
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+topic: Datenschutz
+role: User
+level: Intermediate
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 95%
 
 ---
 
 
-# Datenschutz {#privacy}
+# Datenschutzverwaltung mit [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer] ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen.
+[!DNL Journey Optimizer] ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen. Um bessere Kundenerlebnisse zu bieten, müssen Sie die personenbezogenen Daten Ihrer Kunden erfassen und speichern. Bei der Verwendung dieser Daten ist es wichtig, die Privatsphäre Ihrer Kunden zu verstehen und zu respektieren. Neue gesetzliche und organisatorische Vorschriften geben Benutzern das Recht, auf Anfrage auf ihre personenbezogenen Daten zuzugreifen bzw. diese Daten aus Ihren Datenspeichern löschen zu lassen.
 
 * **Personenbezogene Daten** sind Informationen, die eine lebende Person direkt oder indirekt identifizieren können.
 * **Vertrauliche personenbezogene Daten** sind Informationen zu Rasse, politischen Ansichten, religiösen Überzeugungen, kriminellem Hintergrund, genetischen Informationen, Gesundheitsdaten, sexuellen Vorlieben, biometrischen Informationen sowie zur Gewerkschaftsmitgliedschaft.
