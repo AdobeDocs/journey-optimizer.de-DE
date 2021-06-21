@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
       + [Importieren oder Kodieren Ihres E-Mail-Inhalt](using/existing-content.md)
       + [Verwenden von Inhaltskomponenten von Email Designer](using/content-components.md)
    + Personalisierung{#personalization}
-      + [Erste Schritte mit Personalisierung](using/personalization/personalize.md)
+      + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
       + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + [Anwendungsfall für Personalisierung](using/personalization/personalization-use-case.md)
@@ -86,20 +86,20 @@ ht-degree: 89%
       + [Profil aktualisieren](using/building-journeys/update-profiles.md)
    + Anwendungsbeispiele {#journey-use-cases}
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
-      + [Nachricht mit Campaign v7/v8 senden](using/building-journeys/campaign-classic-use-case.md)
+      + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracken und Überwachen {#reporting}
    + [Nachrichten-Tracking](using/message-tracking.md)
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
-      + [Zugriff auf das Dashboard des Live-Berichts](using/reports/live-report.md)
-      + [Journey-Live-Bericht](using/reports/journey-live-report.md)
-      + [E-Mail-Live-Bericht](using/reports/email-live-report.md)
-      + [Bericht &quot;Push Live&quot;](using/reports/push-live-report.md)
+      + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
+      + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
+      + [Live-Bericht zum E-Mail-Versand](using/reports/email-live-report.md)
+      + [Live-Bericht zu Push-Benachrichtigungen](using/reports/push-live-report.md)
    + Globaler Bericht {#global-report}
-      + [Zugriff auf das Dashboard des globalen Berichts](using/reports/global-report.md)
-      + [Journey globaler Bericht](using/reports/journey-global-report.md)
-      + [Email Global-Bericht](using/reports/email-global-report.md)
-      + [Bericht &quot;Push Global&quot;](using/reports/push-global-report.md)
+      + [Zugriff auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
+      + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
+      + [Globaler Bericht zum E-Mail-Versand](using/reports/email-global-report.md)
+      + [Globaler Bericht zu Push-Benachrichtigungen](using/reports/push-global-report.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Journey-Felder](using/reports/sharing-journey-fields.md)
@@ -111,11 +111,11 @@ ht-degree: 89%
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
       + [Unterdrückungsliste](using/suppression-list.md)
 + Entscheidungs-Management {#offer-decisioniong}
-   + Erste Schritte mit der Entscheidungsverwaltung {#get-started}
+   + Erste Schritte mit dem Entscheidungs-Management {#get-started}
       + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
-      + [Wichtige Schritte zum Erstellen und Verwalten von Angeboten](using/offers/offer-library/key-steps.md)
-      + [Anwendungsfall: Angebote in eine E-Mail einfügen](using/offers/offers-e2e.md)
+      + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
+      + [Anwendungsfall: Einfügen von Angeboten in eine E-Mail](using/offers/offers-e2e.md)
    + Erstellen von Komponenten {#create-components}
       + [Platzierungen erstellen](using/offers/offer-library/creating-placements.md)
       + [Entscheidungsregeln erstellen](using/offers/offer-library/creating-decision-rules.md)
@@ -192,7 +192,7 @@ ht-degree: 89%
    + Nachrichten konfigurieren {#configuration}
       + Konfiguration von Push-Benachrichtigungen{#push-config}
          + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/push-gs.md)
-         + [Push-Benachrichtigungskanal konfigurieren](using/push-configuration.md)
+         + [Kanal für Push-Benachrichtigungen konfigurieren](using/push-configuration.md)
       + E-Mail-Konfiguration {#email-config}
          + Zuweisen von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
