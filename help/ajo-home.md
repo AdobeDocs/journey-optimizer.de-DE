@@ -2,13 +2,13 @@
 keywords: Journey Optimizer;Startseite;beliebte Themen
 title: Produktdokumentation zu Journey Optimizer
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 81%
 
 * [Erstellen der ersten Journey](using/building-journeys/journeys-uc.md) </br> Erfahren Sie, wie Sie eine Journey erstellen und ausführen
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Konfigurieren Sie die wichtigsten Schritte zum Konfigurieren von Journey Optimizer.
+* [Konfigurieren von [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Machen Sie sich mit den wichtigsten Schritten bei der Konfiguration von Journey Optimizer vertraut
 
-* [Zugriff  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> auf gewähren Erfahren Sie, wie Sie die  [!DNL Journey Optimizer] Benutzern zugewiesenen Berechtigungen definieren und verwalten
+* [Einrichten von Zugriffsberechtigungen für [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Erfahren Sie, wie Sie Benutzerrechte für [!DNL Journey Optimizer] festlegen und verwalten
 
 * [Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md) </br> Erstellen Sie Angebote und liefern Sie Ihren Kunden das beste Angebot und das beste Erlebnis
 
