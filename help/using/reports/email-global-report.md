@@ -1,18 +1,18 @@
 ---
 title: Globaler E-Mail-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem globalen E-Mail-Bericht verwenden.
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
-# Email Global report {#email-global-report}
+# Globaler Bericht zum E-Mail-Versand {#email-global-report}
 
 Der **[!UICONTROL Globale E-Mail-Bericht]** berücksichtigt immer nur eine Form des E-Mail-Versands.
 
@@ -36,7 +36,7 @@ Der **[!UICONTROL Globale E-Mail-Bericht]** ist in verschiedene Widgets untertei
 
 * **[!UICONTROL Öffnungsrate]**: Prozentsatz der geöffneten Nachrichten.
 
-* **[!UICONTROL Klickrate]**:  Prozentsatz der Klicks für einen Versand.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks für einen Versand.
 
 * **[!UICONTROL Spam-Beschwerderate]**: Prozentsatz der E-Mails, die von Empfängern als Spam gekennzeichnet wurden, im Vergleich zu den zugestellten Nachrichten. Weiterführende Informationen zu Beschwerden finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability?lang=de).
 
@@ -74,7 +74,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 * **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-Weiterführende Informationen zu Bounces finden Sie auf der Seite [Unterdrückungsliste](../suppression-list.md) .
+Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../suppression-list.md).
 
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
