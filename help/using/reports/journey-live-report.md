@@ -2,13 +2,13 @@
 title: Journey-Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
 feature: 'Berichterstellung '
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 91%
+source-wordcount: '818'
+ht-degree: 88%
 
 ---
 
@@ -26,15 +26,15 @@ Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerk
 
 Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
-## Registerkarte „Journey“ {#journey-live}
+## Registerkarte „Journey“  {#journey-live}
 
 Aus Ihrem **[!UICONTROL Journey-Live-Bericht]** heraus erhalten Sie über die Registerkarte **[!UICONTROL Journey]** eine Sicht auf die wichtigsten Tracking-Daten zur Journey.
 
 ![](../assets/report_journey_2.png)
 
-Mit **[!UICONTROL Performance der Journey]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
+**[!UICONTROL Mit der Journey-]** Leistung können Sie den Pfad Ihrer Zielprofile Schritt für Schritt durch Ihre Journey anzeigen.
 
-Das Widget **[!UICONTROL Statistiken der Journey]** zeigt die folgenden KPIs an:
+Das Widget **[!UICONTROL Journey Statistics]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -54,7 +54,7 @@ Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführ
 
 * **[!UICONTROL Fehler in Aktion]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
 
-## Registerkarte „E-Mail“ {#email-live}
+## Registerkarte „E-Mail“  {#email-live}
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
@@ -100,7 +100,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** 
 
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
-## Registerkarte „Push-Benachrichtigung“ {#push-live}
+## Registerkarte „Push-Benachrichtigung“  {#push-live}
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
