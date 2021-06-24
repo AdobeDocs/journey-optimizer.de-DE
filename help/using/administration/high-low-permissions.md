@@ -1,6 +1,6 @@
 ---
 title: Berechtigungsebenen
-description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene
+description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene.
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -13,157 +13,157 @@ internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Kontrollgruppen
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Berechtigungsstufen {#high-low-permissions}
+# Berechtigungsebenen {#high-low-permissions}
 
 ![](../assets/do-not-localize/permissions.png)
 
 Jedes Produktprofil besteht aus Berechtigungen, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Allgemeine Berechtigung**: stellt die verschiedenen Berechtigungen dar, die  **[!UICONTROL Produkt-]** Profilen in zugewiesen werden können,  [!DNL Admin console]z. B.  **[!UICONTROL Veröffentlichen von]** Journeys und  **[!UICONTROL Verwalten der Subdomain-Zuweisung]**. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene.
+* **Berechtigung auf hoher Ebene**: beinhalten die verschiedenen Berechtigungen, die **[!UICONTROL Produktprofilen]** in [!DNL Admin console] zugewiesen werden können, z. B. **[!UICONTROL Veröffentlichen von Journeys]** und **[!UICONTROL Verwalten der Subdomain-Zuweisung]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
 
-* **Berechtigung** auf niedriger Ebene: stellt die verschiedenen Berechtigungen dar, die von der Berechtigung auf hoher Ebene stammen.
+* **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
-Beispielsweise wird dem Produktprofil **[!UICONTROL Journey administrator]** die Berechtigung **[!UICONTROL Journey verwalten]** zugewiesen. Aus dieser Berechtigung resultieren die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journey zu schreiben, zu lesen und zu löschen.
+Beispielsweise wird dem Produktprofil **[!UICONTROL Journey-Administrator]** die Berechtigung **[!UICONTROL Journey verwalten]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 
 ## Journey-Funktion {#journey-capability}
 
-### Berechtigung für Journey verwalten {#manage-journeys}
+### Berechtigung zum Verwalten von Journeys {#manage-journeys}
 
-Die Berechtigung **[!UICONTROL Journey verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und Bearbeiten/Löschen vorhandener Journey sowie den Zugriff auf die Objekte, die in der Arbeitsfläche des Journey zum Erstellen des Journey-Flusses verwendet werden.
+Die Berechtigung **[!UICONTROL Journeys verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener Journeys sowie den Zugriff auf die Objekte, die in der Journey-Arbeitsfläche zum Erstellen des Journey Flow verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### Berechtigung für Journey veröffentlichen {#publish-journeys}
+### Berechtigung zum Veröffentlichen von Journeys {#publish-journeys}
 
-Mit der Berechtigung **[!UICONTROL Journey veröffentlichen]** auf hoher Ebene können Benutzer Journey veröffentlichen.
+Mit der Berechtigung **[!UICONTROL Journeys veröffentlichen]** auf hoher Ebene können Benutzer Journeys veröffentlichen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys.publish
    * journeys.read
 
-### Berechtigung für Journey anzeigen {#view-journeys}
+### Berechtigung zum Anzeigen von Journeys {#view-journeys}
 
-Die Berechtigung **[!UICONTROL Journey anzeigen]** auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journey.
+Die Berechtigung **[!UICONTROL Journeys anzeigen]** auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journeys.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * segments.read
    * profiles.read
 
-### Berechtigung für Journey-Ereignisse, Datenquellen und Aktionen verwalten {#manage-journeys-events}
+### Berechtigung zur Verwaltung von Journey-Ereignissen, Datenquellen und Aktionen {#manage-journeys-events}
 
-Mit der Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen verwalten]** auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen konfigurieren.
+Mit der Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen verwalten]** auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen vornehmen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
-   * Journey_events.read
-   * Journey_events.write
-   * Journey_events.delete
-   * Journey_data_sources.read
-   * Journey_data_sources.write
-   * Journey_data_sources.delete
-   * Journey_actions.read
-   * Journey_actions.write
-   * Journey_actions.delete
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Journey Optimizer:
+   * journeys_events.read
+   * journeys_events.write
+   * journeys_events.delete
+   * journeys_data_sources.read
+   * journeys_data_sources.write
+   * journeys_data_sources.delete
+   * journeys_actions.read
+   * journeys_actions.write
+   * journeys_actions.delete
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
 ### Berechtigung zum Anzeigen von Journey-Ereignissen, Datenquellen und Aktionen {#view-journeys-event}
 
-Die Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen anzeigen]** auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey-Flow.
+Die Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen anzeigen]** auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey Flow.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * Journey_events.read
    * Journey_data_sources.read
    * Journey_actions.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Berechtigung für Journey-Bericht anzeigen {#view-journeys-report}
+### Berechtigung zur Ansicht von Journey-Berichten {#view-journeys-report}
 
-Mit der Berechtigung **[!UICONTROL Journey anzeigen]** auf hoher Ebene können Benutzer einen schreibgeschützten Journey-Bericht erstellen.
+Mit der Berechtigung **[!UICONTROL Journey-Bericht anzeigen]** auf hoher Ebene können sich Benutzer einen schreibgeschützten Journey-Bericht ansehen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
-   * Journey_report.read
+* Spezifisch für Journey Optimizer:
+   * journeys_report.read
    * messages_report.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * datasets.read
    * queries.read
    * queries.write
    * queries.delete
 
-## Nachrichtenfunktion {#message-capability}
+## Nachrichtenfunktionen {#message-capability}
 
-### Berechtigung für Nachrichten verwalten {#manage-messages}
+### Berechtigung zur Verwaltung von Nachrichten {#manage-messages}
 
 Mit der Berechtigung **[!UICONTROL Nachrichten verwalten]** auf hoher Ebene können Benutzer Nachrichten erstellen und bearbeiten/löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages.write
    * messages.read
    * messages.delete
    * messages_presets.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * segments.read
    * schemas.read
 
-### Berechtigung für Vorschau und Testen von Nachrichten verwalten {#mange-messages-preview}
+### Berechtigung zum Verwalten der Nachrichtenvorschau und von Tests {#mange-messages-preview}
 
-Die Berechtigung **[!UICONTROL Vorschau und Test von Nachrichten verwalten]** auf hoher Ebene ermöglicht Benutzern die Vorschau von personalisierten Nachrichten.
+Die Berechtigung **[!UICONTROL Vorschau und Tests von Nachrichten verwalten]** auf hoher Ebene ermöglicht Benutzern die Vorschau von personalisierten Nachrichten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages.publish
    * messages_preview_and_test.write
    * messages.publish
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * profiles.write
    * schemas.read
@@ -180,35 +180,35 @@ Mit der Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** auf hoher Ebe
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages.publish
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * schemas.read
    * datasets.read
 
-### Berechtigung für Nachrichten anzeigen {#view-messages}
+### Berechtigung zum Anzeigen von Nachrichten {#view-messages}
 
 Mit der Berechtigung **[!UICONTROL Nachrichten anzeigen]** auf hoher Ebene können Benutzer nur Nachrichten lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages.read
    * messages_presets.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * segments.read
 
-### Berechtigung für Nachrichtenbericht anzeigen {#view-message-reports}
+### Berechtigung zum Anzeigen von Nachrichtenberichten {#view-message-reports}
 
-Mit der allgemeinen Berechtigung **[!UICONTROL Bericht &quot;Nachrichten anzeigen]**&quot;können Benutzer schreibgeschützte E-Mail- und Push-Berichte erstellen.
+Mit der Berechtigung **[!UICONTROL Nachrichtenbericht anzeigen]** auf hoher Ebene können Benutzer schreibgeschützte E-Mail- und Push-Berichte lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages_report.read
    * datasets.read
    * queries.read
@@ -218,13 +218,13 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Entscheidungsverwaltungsfunktion {#decisions-permissions}
 
-### Entscheidungsberechtigungen verwalten {#manage-decisioning}
+### Berechtigung zum Verwalten von Entscheidungen {#manage-decisioning}
 
-Die Berechtigung **[!UICONTROL Entscheidungen verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und Bearbeiten/Löschen vorhandener **[!UICONTROL Aktivitätsentitäten]** sowie das Verwalten der Objekte, die in diesen Aktivitäten verwendet werden, um die Entscheidungen zu treffen.
+Die Berechtigung **[!UICONTROL Entscheidungen verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener **[!UICONTROL Aktivitätsentitäten]** sowie das Verwalten der Objekte, die in diesen Aktivitäten zur Entscheidungsfindung verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für die Entscheidungsverwaltung:
    * activities.read
    * activities.write
    * activities.delete
@@ -236,7 +236,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -244,33 +244,33 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profile.read
    * segments.read
 
-### Entscheidungsberechtigungen anzeigen {#view-decisions}
+### Berechtigung zum Anzeigen von Entscheidungen {#view-decisions}
 
 Mit der Berechtigung **[!UICONTROL Entscheidungen anzeigen]** auf hoher Ebene können Benutzer eine vorhandene Aktivität und zugehörige Geschäftsobjekte verwenden, um Entscheidungen zu treffen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für die Entscheidungsverwaltung:
    * activities.read
    * offers.read
    * placements.read
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### Entscheidungsberechtigung für Veröffentlichungen von Angeboten {#publish-decisions}
+### Berechtigung zur Veröffentlichung von Angebotsentscheidungen {#publish-decisions}
 
-Die Berechtigung **[!UICONTROL Angebote veröffentlichen]** auf hoher Ebene ermöglicht Benutzern den Zugriff auf die Aktivitäten, die Angebote genehmigen/nicht genehmigen.
+Die Berechtigung **[!UICONTROL Angebotsentscheidung veröffentlichen]** auf hoher Ebene ermöglicht es Benutzern, Angebotsaktivitäten zu genehmigen bzw. deren Genehmigung zurückzunehmen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
-   * offer_activity.read
+* Spezifisch für die Entscheidungsverwaltung:
+   * offers_activity.read
    * offers.read
    * offers.write
    * offers.delete
@@ -279,19 +279,19 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### Berechtigung für Rangstrategien verwalten {#manage-decisions}
+### Berechtigung zur Verwaltung von Ranking-Strategien {#manage-decisions}
 
 Mit der Berechtigung **[!UICONTROL Ranking-Strategien verwalten]** auf hoher Ebene können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für die Entscheidungsverwaltung:
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -301,7 +301,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Verwaltungsfunktionen {#administration-permissions}
 
-### Berechtigung für die Zuweisung von Subdomains verwalten {#manage-subdomain}
+### Berechtigung zur Verwaltung von Subdomain-Zuweisungen {#manage-subdomain}
 
 Mit der Berechtigung **[!UICONTROL Zuweisung von Subdomains verwalten]** auf hoher Ebene können Benutzer die Zuweisung von Subdomains erstellen, bearbeiten und löschen (einschließlich IP-Pool).
 
@@ -311,14 +311,14 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### Berechtigung für PTR-Datensätze anzeigen {#view-ptr}
+### Berechtigung zum Anzeigen von PTR-Datensätzen {#view-ptr}
 
 Die Berechtigung **[!UICONTROL PTR-Datensätze anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von PTR-Datensätzen, die basierend auf der Subdomain konfiguriert wurden, und umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### Berechtigung für IP-Pools verwalten {#manage-ip-pools}
+### Berechtigung zur Verwaltung von IP-Pools {#manage-ip-pools}
 
 Mit der Berechtigung **[!UICONTROL IP-Pools verwalten]** auf hoher Ebene können Benutzer eine Affinitätsdefinition erstellen, bearbeiten und löschen.
 
@@ -328,38 +328,38 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.write
 * IP_pools.delete
 
-### Berechtigung für allgemeine Einstellungen für Nachrichten verwalten {#manage-message-settings}
+### Berechtigung zur Verwaltung der allgemeinen Einstellungen von Nachrichten {#manage-message-settings}
 
-Mit der Berechtigung **[!UICONTROL Allgemeine Einstellungen für Nachrichten verwalten]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Mit der Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten verwalten]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### Berechtigung für allgemeine Einstellungen für Nachrichten anzeigen {#view-message-settings}
+### Berechtigung zum Anzeigen der allgemeinen Einstellungen von Nachrichten {#view-message-settings}
 
-Die allgemeine Berechtigung **[!UICONTROL Anzeigen von Nachrichten]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Unterdrückungsregeln oder Ausführungsadressen.
+Die Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Unterdrückungsregeln oder Ausführungsadressen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages_general_settings.read
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### Berechtigung für Nachrichtenvorgaben verwalten {#manage-message-presets}
+### Berechtigung zur Verwaltung von Nachrichtenvorgaben {#manage-message-presets}
 
-Die Berechtigung **[!UICONTROL Nachrichten verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen, Bearbeiten und Löschen von Nachrichtenvorgaben über Kanäle hinweg auf Sandbox-Ebene.
+Die Berechtigung **[!UICONTROL Nachrichtenvorgaben verwalten]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvorgaben über Kanäle hinweg auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
@@ -367,7 +367,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung für Nachrichtenvorgaben anzeigen {#view-message-presets}
+### Berechtigung zur Anzeige von Nachrichtenvorgaben {#view-message-presets}
 
 Mit der Berechtigung **[!UICONTROL Nachrichtenvorgaben anzeigen]** auf hoher Ebene können Benutzer Nachrichtenvorgaben anzeigen, um zu erfahren, welche Nachrichtenvorgaben beim Erstellen einer Nachricht verwendet werden sollen.
 
@@ -378,9 +378,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.read
 * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung für Unterdrückungsregeln verwalten {#manage-suppression-rules}
+### Berechtigung zum Verwalten von Unterdrückungsregeln {#manage-suppression-rules}
 
-Mit der Berechtigung **[!UICONTROL Unterdrückungsregeln verwalten]** auf hoher Ebene können Benutzer die Anzahl der Bounces definieren, bevor die E-Mail-Adresse des Benutzers zur Unterdrückungsliste hinzugefügt wird.
+Mit der Berechtigung **[!UICONTROL Unterdrückungsregeln verwalten]** auf hoher Ebene können Benutzer die Anzahl der Bounces definieren, die auftreten dürfen, bevor die E-Mail-Adresse eines Benutzers zur Unterdrückungsliste hinzugefügt wird.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -388,24 +388,24 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * suppression_rules.write
 * suppression_rules.delete
 
-### Berechtigung für Unterdrückungsliste anzeigen {#view-suppresion-list}
+### Berechtigung zum Anzeigen der Unterdrückungsliste {#view-suppresion-list}
 
-Die Berechtigung **[!UICONTROL Unterdrückungsliste anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeinen Nachrichteneinstellungen.
+Die Berechtigung **[!UICONTROL Unterdrückungsliste anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeiner Nachrichteneinstellungen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * suppression_list.view
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### Berechtigung zur Export-Unterdrückungsliste {#export-suppression-list}
+### Berechtigung zum Exportieren der Unterdrückungsliste {#export-suppression-list}
 
-Die Berechtigung **[!UICONTROL Export-Unterdrückungsliste]** auf hoher Ebene ermöglicht Benutzern die Konfiguration von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeinen Nachrichteneinstellungen.
+Die Berechtigung **[!UICONTROL Unterdrückungsliste exportieren]** auf hoher Ebene ermöglicht Benutzern das Festlegen von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeiner Nachrichteneinstellungen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
