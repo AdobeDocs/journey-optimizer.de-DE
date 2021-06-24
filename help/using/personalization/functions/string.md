@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 58%
+ht-degree: 99%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 58%
 
 Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgen-Funktionen verwenden.
 
-## Camel Case {#camelCase}
+## Binnenmajuskel {#camelCase}
 
-Die Funktion `camelCase` großgeschrieben den ersten Buchstaben jedes Wortes einer Zeichenfolge.
+Mit der Funktion `camelCase` wird der erste Buchstabe eines jeden Wortes einer Zeichenfolge großgeschrieben.
 
 **Format**
 
@@ -28,13 +28,13 @@ Die Funktion `camelCase` großgeschrieben den ersten Buchstaben jedes Wortes ein
 
 **Beispiel**
 
-Mit der folgenden Funktion wird der erste Buchstabe in der Straßenadresse des Profils großgeschrieben.
+Mit der folgenden Funktion wird der erste Buchstabe der Straßenadresse des Profils großgeschrieben.
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Concat {#concate}
+## Verknüpfen {#concate}
 
 Die Funktion `concat` kombiniert zwei Zeichenfolgen zu einer.
 
@@ -46,7 +46,7 @@ Die Funktion `concat` kombiniert zwei Zeichenfolgen zu einer.
 
 **Beispiel**
 
-Die folgende Funktion kombiniert Profilstadt und -land in einer einzigen Zeichenfolge.
+Mit der folgenden Funktion wird die Stadt und das Land eines Profils in einer einzigen Zeichenfolge kombiniert.
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -66,11 +66,11 @@ Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene 
 | --------- | ----------- |
 | `STRING_1` | Die Zeichenfolge, die überprüft werden soll. |
 | `STRING_2` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
+| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
 
 **Beispiele**
 
-* Die folgende Funktion prüft, ob der Vorname des Profils den Buchstaben A enthält (in Groß- oder Kleinschreibung). Ist dies der Fall, wird &quot;true&quot;zurückgegeben, andernfalls wird &quot;false&quot;zurückgegeben.
+* Mit der folgenden Funktion wird geprüft, ob der Vorname des Profils den Buchstaben A enthält (in Groß- oder Kleinschreibung). Ist dies der Fall, wird „true“ zurückgegeben, andernfalls wird „false“ zurückgegeben.
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
@@ -96,7 +96,7 @@ Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge eine angeg
 | --------- | ----------- |
 | `STRING_1` | Die Zeichenfolge, die überprüft werden soll. |
 | `STRING_2` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
+| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
 
 **Beispiel**
 
@@ -121,7 +121,7 @@ Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit 
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
 
 **Beispiel**
 
@@ -145,7 +145,7 @@ Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mi
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
 
 **Beispiel**
 
@@ -155,9 +155,9 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der P
 {%= doesNotStartWith(person.name,"Joe")%}
 ```
 
-## Kodierung 64{#encode64}
+## Codieren 64{#encode64}
 
-Die Funktion `encode64` wird zum Kodieren einer Zeichenfolge verwendet, um personenbezogene Daten (PI) beizubehalten, wenn diese z. B. in eine URL aufgenommen werden sollen.
+Die Funktion `encode64` wird zum Codieren einer Zeichenfolge verwendet, um personenbezogene Daten (PI) beizubehalten, wenn diese z. B. in eine URL aufgenommen werden sollen.
 
 **Format**
 
@@ -179,7 +179,7 @@ Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angege
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
 
 **Beispiel**
 
@@ -192,7 +192,7 @@ In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung
 
 ## Gleich{#equals}
 
-Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge mit Groß-/Kleinschreibung der angegebenen Zeichenfolge entspricht.
+Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei zwischen Groß- und Kleinschreibung unterschieden wird.
 
 **Format**
 
@@ -213,9 +213,9 @@ Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibun
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Entspricht Groß-/Kleinschreibung ignorieren{#equalsIgnoreCase}
+## Gleich ohne Groß-/Kleinschreibung{#equalsIgnoreCase}
 
-Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge ohne Groß-/Kleinschreibung mit der angegebenen Zeichenfolge übereinstimmt.
+Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei nicht zwischen Groß- und Kleinschreibung unterschieden wird.
 
 **Format**
 
@@ -230,13 +230,13 @@ Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge ohne Gro
 
 **Beispiel**
 
-Die folgende Abfrage ermittelt ohne Groß-/Kleinschreibung, ob der Name der Person &quot;John&quot; lautet.
+Mit der folgenden Abfrage wird ohne Berücksichtigung der Groß-/Kleinschreibung bestimmt, ob der Name der Person „John“ lautet.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## E-Mail-Domäne extrahieren {#extractEmailDomain}
+## E-Mail-Domain extrahieren {#extractEmailDomain}
 
 Die Funktion `extractEmailDomain` wird verwendet, um die Domain einer E-Mail-Adresse zu extrahieren.
 
@@ -248,7 +248,7 @@ Die Funktion `extractEmailDomain` wird verwendet, um die Domain einer E-Mail-Adr
 
 **Beispiel**
 
-Die folgende Abfrage extrahiert die E-Mail-Domain der persönlichen E-Mail-Adresse.
+Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adresse extrahiert.
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
@@ -266,13 +266,13 @@ Mit der Funktion `isEmpty` wird bestimmt, ob eine Zeichenfolge leer ist.
 
 **Beispiel**
 
-Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird &quot;false&quot;zurückgegeben.
+Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird „false“ zurückgegeben.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
 
-## Linker Schnitt {#leftTrim}
+## Links kürzen {#leftTrim}
 
 Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenfolge zu entfernen.
 
@@ -282,7 +282,7 @@ Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenf
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## Länge {#length}
 
 Die Funktion `length` wird verwendet, um die Anzahl der Zeichen in einer Zeichenfolge oder einem Ausdruck abzurufen.
 
@@ -317,15 +317,15 @@ Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Mu
 
 **Beispiel**
 
-Die folgende Abfrage ruft alle Städte ab, in denen Profile leben, die das Muster &quot;es&quot;enthalten.
+In der folgenden Abfrage werden alle Städte abgerufen, in denen Profile leben und die das Muster „es“ enthalten.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## Kleinbuchstabe{#lower}
+## Kleinbuchstaben{#lower}
 
-Die Funktion `lowerCase` konvertiert eine Zeichenfolge in Kleinbuchstaben.
+Mit der Funktion `lowerCase` wird eine Zeichenfolge in Kleinbuchstaben umgewandelt.
 
 **Syntax**
 
@@ -335,7 +335,7 @@ Die Funktion `lowerCase` konvertiert eine Zeichenfolge in Kleinbuchstaben.
 
 **Beispiel**
 
-Diese Funktion konvertiert den Vornamen des Profils in Kleinbuchstaben.
+Mit dieser Funktion wird der Vorname des Profils in Kleinbuchstaben umgewandelt.
 
 ```sql
 {%= lowerCase(profile.person.name.firstName) %}
@@ -353,7 +353,7 @@ Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimm
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt ohne Groß-/Kleinschreibung, ob der Name der Person mit &quot;John&quot; beginnt.
+Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Groß-/Kleinschreibung mit „John“ beginnt.
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
@@ -395,7 +395,7 @@ Die Funktion `Group` wird verwendet, um spezifische Informationen basierend auf 
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{EXPRESSION}` | Der reguläre Ausdruck, der mit der ersten Zeichenfolge abgeglichen werden soll. |
+| `{EXPRESSION}` | Der reguläre Ausdruck, der mit der ersten Zeichenfolge übereinstimmen soll. |
 | `{GROUP}` | Ausdrucksgruppe, mit der eine Übereinstimmung gefunden werden soll. |
 
 **Beispiel**
@@ -418,7 +418,7 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 
 **Beispiel**
 
-Die folgende Funktion .
+Die folgende Funktion
 
 ```sql
 
@@ -427,7 +427,7 @@ Die folgende Funktion .
 
 ## Alle ersetzen{#replaceAll}
 
-Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes zu ersetzen, der mit der &quot;target&quot;-Zeichenfolge mit der angegebenen literalen &quot;replacement&quot;-Zeichenfolge übereinstimmt. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes mit übereinstimmender „Ziel“-Zeichenfolge mit der angegebenen literalen „Ersetzungs“-Zeichenfolge zu ersetzen. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
 
 **Format**
 
@@ -436,9 +436,9 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 ```
 
 
-## Rechter Schnitt {#rightTrim}
+## Rechts kürzen {#rightTrim}
 
-Die Funktion `rightTrim` entfernt Leerzeichen vom Ende einer Zeichenfolge.
+Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entfernt.
 
 
 **Format**
@@ -447,7 +447,7 @@ Die Funktion `rightTrim` entfernt Leerzeichen vom Ende einer Zeichenfolge.
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## Teilen {#split}
 
 Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Zeichen zu teilen.
 
@@ -504,15 +504,15 @@ Die Funktion **titleCase** wird verwendet, um die ersten Buchstaben jedes Wortes
 
 **Beispiel**
 
-Wenn die Person in der Washington High Street lebt, wird diese Funktion die Washington High Street zurückbringen.
+Wenn die Person in der Washington High Street lebt, gibt diese Funktion „Washington High Street“ zurück.
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## Zuschneiden{#trim}
+## Kürzen{#trim}
 
-Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und am Ende einer Zeichenfolge.
+Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und Ende einer Zeichenfolge.
 
 **Syntax**
 
@@ -522,7 +522,7 @@ Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und am Ende einer Zei
 
 ## Großbuchstaben{#upper}
 
-Die Funktion **upperCase** konvertiert eine Zeichenfolge in Großbuchstaben.
+Mit der Funktion **upperCase** wird eine Zeichenfolge in Großbuchstaben umgewandelt.
 
 **Syntax**
 
@@ -532,7 +532,7 @@ Die Funktion **upperCase** konvertiert eine Zeichenfolge in Großbuchstaben.
 
 **Beispiel**
 
-Diese Funktion konvertiert den Nachnamen des Profils in Großbuchstaben.
+Mit dieser Funktion wird der Nachname des Profils in Großbuchstaben umgewandelt.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
