@@ -2,7 +2,7 @@
 title: Erste Schritte mit Journeys
 description: Erste Schritte mit Journeys
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
@@ -12,7 +12,7 @@ ht-degree: 78%
 
 ---
 
-# Erste Schritte mit Journeys {#jo-quick-start}
+# Erste Schritte mit Journeys{#jo-quick-start}
 
 ## Voraussetzungen
 
