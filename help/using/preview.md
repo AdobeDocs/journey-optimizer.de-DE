@@ -2,13 +2,13 @@
 title: Nachrichtenvorschau und Testversand
 description: Erfahren Sie, wie Sie Ihre Nachrichten in der Vorschau darstellen und testen können
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu 
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile.
 >
->Erfahren Sie, wie Sie in [dieser Seite](building-journeys/creating-test-profiles.md) Testprofile erstellen.
+>Auf [dieser Seite](building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen.
 
 
 Zum Testen des Nachrichteninhalts sind folgende Schritte erforderlich:
@@ -41,7 +41,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
-Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Targeting-Kriterien entsprechen.
+Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen.
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
