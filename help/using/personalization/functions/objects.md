@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 52%
+ht-degree: 89%
 
 ---
 
 # Objektfunktionen {#objects}
 
-## Is null{#isNull}
+## Ist null{#isNull}
 
 Die `isNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
@@ -26,13 +26,13 @@ Die `isNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
 **Beispiel**
 
-Der folgende Vorgang prüft, ob die Privatadresse der Person nicht vorhanden ist.
+Mit dem folgenden Vorgang wird geprüft, ob die Privatadresse der Person nicht vorhanden ist.
 
 ```sql
 {%= isNull(person.homeAddress) %}
 ```
 
-## Is not null{#isNotNull}
+## Ist nicht null{#isNotNull}
 
 Die `isNotNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
@@ -44,7 +44,7 @@ Die `isNotNull`-Funktion ermittelt, ob eine Objektreferenz nicht vorhanden ist.
 
 **Beispiel**
 
-Der folgende Vorgang prüft, ob die Privatadresse der Person vorhanden ist.
+Mit dem folgenden Vorgang wird geprüft, ob die Privatadresse der Person vorhanden ist.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}
