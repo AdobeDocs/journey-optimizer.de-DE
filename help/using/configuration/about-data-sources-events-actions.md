@@ -19,29 +19,29 @@ level: Intermediate
 source-git-commit: 344bcff33895867d650f98b778cdf76c52a4b75e
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren von Journeys
 
-Um Nachrichten mit Journey zu senden, müssen Sie **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** und **[!UICONTROL Aktionen]** konfigurieren.
+Um Nachrichten mit Journeys zu senden, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren.
 
 ![](../assets/admin-menu.png)
 
 ## Datenquellen
 
-Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen. [Weitere Infos](../../using/datasource/about-data-sources.md)
+Mit der Konfiguration von Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen. [Weitere Informationen](../../using/datasource/about-data-sources.md)
 
 ## Ereignisse
 
 Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.
 
-In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). [Weitere Infos](../../using/event/about-events.md)
+In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). [Weitere Informationen](../../using/event/about-events.md)
 
 ## Aktionen
 
-Journey Optimizer-Nachrichtenfunktionen sind integriert: Sie müssen nur Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Infos](../../using/action/action.md)
+Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../../using/action/action.md)
 
 ## Durchsuchen von Adobe Experience Platform-Feldern {#friendly-names-display}
 
