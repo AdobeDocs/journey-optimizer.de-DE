@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 96%
 
 ---
 
 # Aggregationsfunktionen {#aggregation}
 
-Aggregationsfunktionen dienen dazu, mehrere Werte zu gruppieren, um einen einzigen Zusammenfassungswert zu bilden.
+Aggregationsfunktionen werden verwendet, um mehrere Werte zu gruppieren, sodass ein einziger Zusammenfassungswert gebildet wird.
 
 ## Anzahl{#count}
 
@@ -28,7 +28,7 @@ Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arra
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Anzahl der Bestellungen im Array zurück.
+Durch den folgenden Vorgang wird die Anzahl der Bestellungen im Array zurückgegeben.
 
 ```sql
 {%= count(orders) %}
@@ -46,7 +46,7 @@ Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Summe aller Bestellpreise zurück.
+Durch den folgenden Vorgang wird die Summe aller Bestellungen zurückgegeben.
 
 ```sql
 {%=sum(orders.order.price)%}
@@ -64,7 +64,7 @@ Die Funktion `average` gibt das arithmetische Mittel aller ausgewählten Werte i
 
 **Beispiel**
 
-Der folgende Vorgang gibt den Durchschnittspreis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der Durchschnittspreis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=average(orders.order.price)%}
@@ -82,7 +82,7 @@ Die Funktion `min` gibt den kleinsten aller ausgewählten Werte im Array zurück
 
 **Beispiel**
 
-Der folgende Vorgang gibt den niedrigsten Preis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der niedrigste Preis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=min(orders.order.price)%}
@@ -100,7 +100,7 @@ Die Funktion `max` gibt den größten der ausgewählten Werte im Array zurück.
 
 **Beispiel**
 
-Der folgende Vorgang gibt den höchsten Preis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der höchste Preis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=max(orders.order.price)%}
