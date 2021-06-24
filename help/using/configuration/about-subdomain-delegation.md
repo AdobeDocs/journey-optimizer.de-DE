@@ -1,25 +1,25 @@
 ---
 title: Zuweisen von Subdomains
-description: Erfahren Sie, wie Sie Ihre Subdomains zuweisen
+description: Informationen zum Zuweisen Ihrer Subdomains
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 role: Administrator
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
-# Subdomain-Zuweisung in [!DNL Journey Optimizer]
+# Subdomain-Erstellung in [!DNL Journey Optimizer]
 
-Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unterschiedliche Arten von Traffic (z. B. Marketing-bezogenen vs. betrieblichen) in eigene IP-Pools mit eigenen Domains zu unterteilen, wodurch der IP-Warming-Prozess beschleunigt und die Zustellbarkeit insgesamt verbessert werden kann. Wenn Sie eine Domäne freigeben und sie blockiert oder der Blockierungsliste hinzugefügt wird, kann dies sich auf Ihren E-Mail-Versand im Unternehmen auswirken. Probleme mit der Reputation oder die Blockierung einer Domain, die nur für Ihre E-Mail-Marketing-Kommunikation verwendet sind, beeinträchtigen hingegen ausschließlich diesen E-Mail-Verkehr. Wenn Sie Ihre Haupt-Domain als Absenderadresse für mehrere E-Mail-Arten verwenden, kann dies auch die E-Mail-Authentifizierung behindern und dazu führen, dass Ihre Nachrichten blockiert oder in den Spam-Ordner verschoben werden.
+Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unterschiedliche Arten von Traffic (z. B. Marketing-bezogenen vs. betrieblichen) in eigene IP-Pools mit eigenen Domains zu unterteilen, wodurch der IP-Warming-Prozess beschleunigt und die Zustellbarkeit insgesamt verbessert werden kann. Wenn Sie eine einzige Domain für alle Aufgaben verwenden und diese gesperrt oder zur Blockierungsliste hinzugefügt wird, könnte dies Auswirkungen auf die Zustellung Ihrer betrieblichen E-Mails haben. Probleme mit der Reputation oder die Blockierung einer Domain, die nur für Ihre E-Mail-Marketing-Kommunikation verwendet sind, beeinträchtigen hingegen ausschließlich diesen E-Mail-Verkehr. Wenn Sie Ihre Haupt-Domain als Absenderadresse für mehrere E-Mail-Arten verwenden, kann dies auch die E-Mail-Authentifizierung behindern und dazu führen, dass Ihre Nachrichten blockiert oder in den Spam-Ordner verschoben werden.
 
-Eine Subdomain ist eine Division Ihrer Domäne, die zur Isolierung Ihrer Marken oder verschiedener Traffic-Typen verwendet werden kann, z. B. Transaktionsnachrichten und Marketingnachrichten.
+Sie können Ihre Domain in Subdomains unterteilen, um Ihre Marken oder unterschiedlichen Textsorten wie etwa Transaktionsnachrichten und Marketing-Informationen voreinander zu trennen.
 
 Nehmen wir zum Beispiel die Domain &quot;mybrand.com&quot;, die sowohl Transaktions- als auch Marketing-Nachrichten sendet. In diesem Fall können Sie zwei Subdomains einrichten:
 
@@ -32,8 +32,8 @@ Bei der Implementierung einer Lösung gibt es Anforderungen an nach außen geric
 
 Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind. Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.
 
-**Weitere Infos**
+**Weitere Informationen**
 
-* Erfahren Sie, wie Sie [Ihre Subdomains](delegate-subdomain.md) direkt über die Benutzeroberfläche zuweisen können.
-* Erfahren Sie, wie Sie [Ihren Subdomains Google TXT-Einträge](google-txt.md) hinzufügen, um einen erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen.
-* Erfahren Sie, wie Sie [auf die für Ihre Subdomains generierten PTR-Datensätze](ptr-records.md) zugreifen können, damit sie von E-Mail-Servern überprüft werden können.
+* Erfahren Sie, wie Sie [Ihre Subdomains](delegate-subdomain.md) direkt über die Benutzeroberfläche erstellen.
+* Erfahren Sie, wie Sie [Ihren Subdomains TXT-Einträge von Google](google-txt.md) hinzufügen, um den erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen.
+* Erfahren Sie, wie Sie [auf die für Ihre Subdomains generierten PTR-Datensätze](ptr-records.md) zugreifen, damit sie von E-Mail-Servern überprüft werden können.
