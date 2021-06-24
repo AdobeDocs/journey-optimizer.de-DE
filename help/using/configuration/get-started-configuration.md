@@ -1,6 +1,6 @@
 ---
-title: Journey Optimizer-Einstellungen und Konfigurationsrichtlinien
-description: Informationen zu den Konfigurationsrichtlinien für Nachrichten und Journey
+title: Einstellungen und Konfigurationsrichtlinien für Journey Optimizer
+description: Informationen zu den Konfigurationsrichtlinien für Nachrichten und Journeys
 audience: administrators
 content-type: reference
 role: Administrator
@@ -9,49 +9,49 @@ product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Anwendungskonfiguration
-topic: Administration
+topic: Administration.
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 
-# Erste Schritte mit der [!DNL Journey Optimizer]-Konfiguration
+# Erste Schritte mit der Konfiguration von [!DNL Journey Optimizer]
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Journey erstellen und Nachrichten senden zu können, gehen Sie wie folgt vor:
+Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfigurationsschritte durchlaufen:
 
 1. **Konfigurieren von Nachrichten und Kanälen**: Vorgaben definieren, E-Mail- und Push-Nachrichten anpassen
 
-   * Definieren Sie Push-Benachrichtigungseinstellungen sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Infos](../push-gs.md)
+   * Definieren Sie Push-Benachrichtigungseinstellungen sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../push-gs.md)
 
-   * Erstellen Sie Nachrichtenvorgaben, um alle technischen Parameter zu konfigurieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind. [Weitere Infos](message-presets.md)
+   * Erstellen Sie Nachrichtenvorgaben, um alle technischen Parameter zu konfigurieren, die für E-Mail- und Push-Nachrichten erforderlich sind. [Weitere Informationen](message-presets.md)
 
-   * Bestimmen Sie, welche E-Mail-Adresse für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Infos](primary-email-addresses.md)
+   * Bestimmen Sie, welche E-Mail-Adresse für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen verfügbar sind. [Weitere Informationen](primary-email-addresses.md)
 
-   * Verwalten Sie die Anzahl der Tage, in denen erneute Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Infos](manage-suppression-list.md)
+   * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 
    <!--
     * Understand push notification flow. [Learn more](../push-gs.md)
     -->
 
-1. **Zuweisen von Subdomains**: für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Weitere Infos](about-subdomain-delegation.md)
+1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
-1. **Erstellen von IP-Pools**: Verbessern Sie die Zustellbarkeit und Reputation Ihrer E-Mail, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Infos](ip-pools.md)
+1. **Erstellen von IP-Pools**: Verbessern Sie die Zustellbarkeit Ihrer E-Mails und Ihre Reputation, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](ip-pools.md)
 
    ![](../assets/ip-pool.png)
 
-1. **Journey konfigurieren**: Um Journey zu erstellen, müssen Sie  **[!UICONTROL Data Sources]**,  **** Ereignisse und  **[!UICONTROL Aktionen]** konfigurieren. [Weitere Infos](about-data-sources-events-actions.md)
+1. **Journeys konfigurieren**: Um Journeys zu erstellen, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren. [Weitere Informationen](about-data-sources-events-actions.md)
 
    ![](../assets/admin-menu.png)
 
-   * Mit der **Datenquelle**-Konfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden. Weitere Informationen zu Datenquellen finden Sie in diesem [Abschnitt](../datasource/about-data-sources.md).
+   * Mit der Konfiguration von **Datenquellen** können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen. Weitere Informationen zu Datenquellen finden Sie in diesem [Abschnitt](../datasource/about-data-sources.md).
 
-   * **Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.** In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). Weitere Informationen zu Ereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+   * Mithilfe von **Ereignissen** können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten. In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). Weitere Informationen zu Ereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
-   * [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen: Sie können Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, erstellen Sie eine **benutzerdefinierte Aktion**. Weitere Informationen zu Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
+   * [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen: Sie können Ihre Inhalte entwerfen und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, erstellen Sie eine **benutzerdefinierte Aktion**. Weitere Informationen zu Aktionen finden Sie in [diesem Abschnitt](../action/action.md).
