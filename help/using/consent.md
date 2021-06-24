@@ -2,7 +2,7 @@
 title: Verwalten von Opt-out
 description: Erfahren Sie, wie Sie Opt-out- und Datenschutzeinstellungen verwalten können
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
@@ -29,7 +29,7 @@ Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den gelten
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
 * The third category is the capability to offer subscription to recipients (newsletter, etc)-->
 
-## Opt-out-Verwaltung{#opt-out-management}
+## Opt-out-Verwaltung {#opt-out-management}
 
 Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations).
 
