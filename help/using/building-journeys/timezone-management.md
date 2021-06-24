@@ -2,7 +2,7 @@
 title: Zeitzonen-Management
 description: Erfahren Sie mehr über das Zeitzonen-Management
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
