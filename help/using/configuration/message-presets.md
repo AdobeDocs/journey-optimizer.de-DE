@@ -1,5 +1,5 @@
 ---
-title: Nachrichtenvoreinstellungen erstellen
+title: Erstellen von Nachrichtenvorgaben
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
 feature: Anwendungskonfiguration
 topic: Administration.
@@ -8,26 +8,26 @@ level: Intermediate
 source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 1%
+ht-degree: 75%
 
 ---
 
 
-# Nachrichtenvoreinstellungen erstellen
+# Erstellen von Nachrichtenvorgaben
 
-Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, mobile Apps und mehr.
+Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps und mehr.
 
 >[!CAUTION]
 >
-> * Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Infos](../administration/ootb-product-profiles.md#journey-administrator)
+> * Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
    >
    > 
 * Sie müssen die Konfigurationsschritte E-Mail und Push ausführen, bevor Sie Nachrichtenvorgaben erstellen.
 
 
-Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
+Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
 
-## Nachrichtenvorgabe {#create-message-preset} erstellen
+## Nachrichtenvorgaben erstellen {#create-message-preset}
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
@@ -41,20 +41,20 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    >[!NOTE]
    >
-   > Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
+   > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren Sie die Einstellungen **email** .
+1. Konfigurieren von **E-Mail**-Einstellungen.
 
    ![](../assets/preset-email.png)
 
-   * Wählen Sie den Nachrichtentyp aus, der mit der Vorgabe gesendet werden soll: **Transactional** oder **Marketing**
+   * Wählen Sie den Nachrichtentyp aus, der mit der Vorgabe gesendet werden soll: **Transaktion** oder **Marketing**
 
       >[!CAUTION]
       >
-      > **** Transaktionsnachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden, z. B. beim Zurücksetzen des Kennworts, beim Bestellstatus oder bei Versandbenachrichtigungen.
+      > **Transaktions**-Nachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden, z. B. beim Zurücksetzen des Passworts, beim Bestellstatus oder bei Versandbenachrichtigungen.
 
-   * Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Infos](about-subdomain-delegation.md)
-   * Wählen Sie den IP-Pool aus, der mit der Vorgabe verknüpft werden soll. [Weitere Infos](ip-pools.md)
+   * Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
+   * Wählen Sie den IP-Pool aus, der mit der Vorgabe verknüpft werden soll. [Weitere Informationen](ip-pools.md)
    * Geben Sie die Header-Parameter für die mit der Vorgabe gesendeten E-Mails ein.
 
       >[!CAUTION]
@@ -77,38 +77,38 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
       >[!NOTE]
       >
-      >Namen müssen mit einem Buchstaben (A-Z) beginnen. Sie darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen `_`, Punkt`.` und Bindestrich `-` verwenden.
+      >Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
 
-1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigung**.
+1. Konfigurieren der Einstellungen für **Push-Benachrichtigungen**.
 
    ![](../assets/preset-push.png)
 
-   * Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**
+   * Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**.
 
    * Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
 
       Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-gs.md).
 
-1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]** . Sie können die Nachrichtenvorgabe auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
+1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvorgabe auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
    ![](../assets/preset-submit.png)
 
 1. Nachdem die Nachrichtenvorgabe erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu überprüfen, ob die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48h-72h** und kann bis zu **7-10 Tage** dauern.
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Tage** betragen.
 
-   Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Zustellbarkeitsteam der Adobe durchgeführt werden:
+   Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Adobe-Zustellbarkeits-Team durchgeführt werden:
 
    * SPF-Validierung
    * DKIM-Validierung
-   * MX-Datensatzvalidierung
-   * IP-auf die Blockierungsliste setz überprüfen
+   * MX-Eintragsvalidierung
+   * Überprüfung der Blockierungsliste der IPs
    * Helo-Host-Prüfung
-   * IP-Poolverifizierung
+   * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
 
-1. Sobald die Prüfungen erfolgreich sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]** . Es kann zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich bestanden sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -116,21 +116,21 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
 ## Überwachen von Nachrichtenvorgaben
 
-Alle Ihre Nachrichtenvorgaben werden im Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Nachrichtenvorgaben]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
+Alle Ihre Nachrichtenvorgaben werden im Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Nachrichtenvorgaben]** angezeigt. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
 ![](../assets/preset-filters.png)
 
 Nachrichtenvorgaben können die folgenden Status aufweisen:
 
-* **[!UICONTROL Entwurf]**: Die Nachrichtenvorgabe wurde als Entwurf gespeichert und wurde noch nicht gesendet. Öffnen Sie es, um die Konfiguration fortzusetzen.
-* **[!UICONTROL Verarbeitung]**: Die Nachrichtenvorgabe wurde gesendet und durchläuft mehrere Überprüfungsschritte.
-* **[!UICONTROL Aktiv]**: Die Nachrichtenvorgabe wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Überprüfung der Nachrichtenvorgabe fehlgeschlagen.
-* **[!UICONTROL Deaktivierung]**: Die Nachrichtenvorgabe ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
+* **[!UICONTROL Entwurf]**: Die Nachrichtenvorgabe wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
+* **[!UICONTROL Verarbeitung]**: Die Nachrichtenvorgabe wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
+* **[!UICONTROL Aktiv]**: Die Nachrichtenvorgabe wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvorgabe fehlgeschlagen.
+* **[!UICONTROL Deaktiviert]**: Die Nachrichtenvorgabe ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
 ## Bearbeiten von Nachrichtenvorgaben
 
-Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren, um sie zum Erstellen neuer Nachrichten nicht verfügbar zu machen (veröffentlichte Nachrichten, die diese Vorgabe verwenden, sind davon nicht betroffen und funktionieren weiterhin). Sie müssen dann die Nachrichtenvorgabe duplizieren, um eine neue Version zu erstellen, mit der Sie neue Nachrichten erstellen:
+Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren, damit sie für das Erstellen neuer Nachrichten nicht verfügbar ist (veröffentlichte Nachrichten, die diese Vorgabe verwenden, sind davon nicht betroffen und funktionieren weiterhin). Sie müssen die Nachrichtenvorgabe duplizieren, um eine neue Version zu erstellen, mit der Sie dann neue Nachrichten erstellen:
 
 1. Rufen Sie die Liste der Nachrichtenvorgaben auf und deaktivieren Sie dann die zu bearbeitende Nachrichtenvorgabe.
 
@@ -140,11 +140,11 @@ Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren
 
    ![](../assets/preset-duplicated.png)
 
-1. Öffnen Sie die duplizierte Nachrichtenvorgabe, ändern Sie sie entsprechend Ihren Anforderungen und senden Sie dann Ihre Änderungen. Die Nachrichtenvorgabe durchläuft denselben Validierungszyklus wie während des Erstellungsschritts [a1/>.](#create-message-preset)
+1. Öffnen Sie die duplizierte Nachrichtenvorgabe, ändern Sie sie entsprechend Ihren Anforderungen und übermitteln Sie dann Ihre Änderungen. Die Nachrichtenvorgabe durchläuft denselben Validierungszyklus wie während des [Erstellungsschritts](#create-message-preset).
 
-1. Nach der Validierung erhält es den Status **[!UICONTROL Aktiv]** und kann zum Erstellen neuer Nachrichten verwendet werden.
+1. Nach der Validierung erhält sie den Status **[!UICONTROL Aktiv]** und kann zum Erstellen neuer Nachrichten verwendet werden.
 
    >[!NOTE]
    >
-   >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journey zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
+   >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
 
