@@ -9,13 +9,13 @@ exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: 4baecd9ae753dbca86217a418e85602a53310ad7
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 58%
+ht-degree: 71%
 
 ---
 
 # Integration mit Intelligent Services {#ai-overview}
 
-Durch die Integration mit **[!DNL Adobe Intelligent Services]** können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich ist.
+Durch die Integration mit **[!DNL Adobe Intelligent Services]** können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 
 [!DNL Intelligent Services], die auf der Adobe Experience Platform basieren, bieten Marketing-Experten, die für das Kundenerlebnis verantwortlich sind, Zugriff auf KI als einen Dienst. So kann jeder das Kundenverhalten vorhersagen, die Auswirkungen einer Kampagne messen oder bessere Renditen für Investitionen sicherstellen. Weitere Informationen zu [!DNL Adobe Intelligent Services] finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
@@ -25,7 +25,7 @@ Customer AI ist Teil von [!DNL Adobe Intelligent Services]. Der Service hilft vo
 
 Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Adobe Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
 
-Daher können sie als beliebige andere Profilattribute in Journey Optimizer-Bedingungen (zum Treffen der besten Entscheidungen), Aktionen oder Segmentaufbau verwendet werden.
+Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Optimizer (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 
 ![](../assets/customer-ai.png)
 
