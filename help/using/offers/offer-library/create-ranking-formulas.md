@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgen.]** Die Liste der zuvor erstellten Ranglisten wird angezeigt.
+1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgen]**. Die Liste der zuvor erstellten Rangfolgen wird angezeigt.
 
    ![](../../assets/rankings-list.png)
 
-1. Klicken Sie auf **[!UICONTROL Rang erstellen]** , um eine neue Rangliste zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Rangfolge erstellen]**, um eine neue Rangfolgeformel zu erstellen.
 
    ![](../../assets/ranking-create-formula.png)
 
