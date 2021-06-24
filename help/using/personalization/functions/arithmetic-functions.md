@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 47%
+ht-degree: 96%
 
 ---
 
-# Arithmetische Funktionen {#maths}
+# Arithmetische Funktionen  {#maths}
 
-Arithmetische Funktionen dienen der Durchführung grundlegender Berechnungen von Werten.
+Mit arithmetischen Funktionen lassen sich einfache Berechnungen für Werte durchführen
 
 ## Addieren{#add}
 
@@ -28,7 +28,7 @@ Mit der Funktion `+` (Addition) wird die Summe zweier Argumentausdrücke ermitte
 
 **Beispiel**
 
-Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
+Die folgende Operation addiert die Preise von zwei verschiedenen Produkten.
 
 ```sql
 {%= product1.price + product2.price %}
@@ -46,7 +46,7 @@ Mit der Funktion `*` (Multiplikation) wird das Produkt zweier Argumentausdrücke
 
 **Beispiel**
 
-Das folgende Verfahren ermittelt das Produkt des Bestands und den Preis eines Produkts, um den Bruttowert des Produkts zu ermitteln.
+Die folgende Operation ermittelt das Produkt im Bestand sowie den Preis eines Produkts, um den Bruttowert des Produkts zu berechnen.
 
 ```sql
 {%= product.inventory * product.price %}
@@ -64,7 +64,7 @@ Mit der Funktion `-` (Subtraktion) wird der Unterschied zwischen zwei Argumentau
 
 **Beispiel**
 
-Das folgende Vorhaben ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
+Die folgende Operation ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
 
 ```sql
 {%= product1.price - product2.price %}
@@ -82,7 +82,7 @@ Mit der Funktion `/` (Division) wird der Quotient zweier Argumentausdrücke ermi
 
 **Beispiel**
 
-Das folgende Vorhaben ermittelt den Quotienten zwischen den insgesamt verkauften Produkten und dem insgesamt verdienten Geld, um die durchschnittlichen Kosten pro Artikel zu sehen.
+Die folgende Operation ermittelt den Quotienten zwischen den insgesamt verkauften Produkten und dem insgesamt verdienten Geld, um so die durchschnittlichen Kosten pro Artikel zu berechnen.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
