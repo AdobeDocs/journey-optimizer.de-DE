@@ -2,13 +2,13 @@
 title: Benutzeroberfläche
 description: Benutzeroberfläche von Journey Optimizer
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 63%
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
 >
 >Die verfügbaren Funktionen hängen von Ihren Berechtigungen und Ihrer Lizenzvereinbarung ab.
 
-Unten finden Sie die vollständige Liste der Dienste und Funktionen, die im linken Navigationsbereich verfügbar sind, sowie Links zur zugehörigen Dokumentation.
+Unten finden Sie eine vollständige Liste der Einträge in der linken Leiste sowie die Links zur entsprechenden Dokumentation.
 
 **Startseite**
 
@@ -131,15 +131,15 @@ Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Pr
 
 Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
-* Klicken Sie oben rechts in Ihrem Avatar auf **Voreinstellungen** .
+* Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
    ![](assets/preferences.png)
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
-* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
+* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
    ![](assets/select-language.png)
 
 ## Durchsuchen
 
-Verwenden Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste, um Assets, Journey oder Nachrichten in Ihren Sandboxes zu finden. Beginnen Sie mit der Eingabe des Inhalts, um die wichtigsten Ergebnisse anzuzeigen.
+Verwenden Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste, um Assets, Journey oder Nachrichten in Ihren Sandboxes zu finden. Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen.
 
 ![](assets/unified-search.png)
 
@@ -152,9 +152,9 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse und Filter zuzugreifen
 
 In den meisten Listen können Sie über eine Suchleiste nach einem bestimmten Element suchen und Filterkriterien auswählen.
 
-Der Zugriff auf Filter erfolgt über das Filtersymbol links oben in der Liste. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
+Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
 
-In der Liste der Journey können Sie Journey anhand ihres Status und ihrer Version aus den **[!UICONTROL Status- und Versionsfiltern]** filtern. Sie können festlegen, dass nur Journey angezeigt werden, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfilter]** verwenden. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
+In der Liste der Journeys können Sie Journeys anhand ihres Status und ihrer Version mit den **[!UICONTROL Status- und Versionsfiltern]** filtern. Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
