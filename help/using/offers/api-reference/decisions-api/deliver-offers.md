@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Die eindeutige Entscheidungskennung. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Die Anzahl der zurückzugebenden Angebote. Die maximale Anzahl ist 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Dieses Objekt enthält Informationen über das Profil, für das die Entscheidung angefordert wird. Bei einer API-Anfrage enthält es ein einziges Profil. |
-| `xdm:profiles.xdm:identityMap` | Dieses Objekt enthält eine Reihe von Endbenutzeridentitäten, die auf dem Namespace-Integrations-Code der Identität basieren. Die Identitätszuordnung kann mehr als eine Identität von jedem Namespace enthalten. Weitere Informationen zu Namespaces finden Sie in der [Übersicht über den Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Dieses Objekt enthält eine Reihe von Endbenutzeridentitäten, die auf dem Namespace-Integrations-Code der Identität basieren. Die Identitätszuordnung kann mehr als eine Identität von jedem Namespace enthalten. Weitere Informationen zu Namespaces finden Sie in der [Übersicht über den Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | Die vom Client erzeugte Kennung, mit der eine Profilentscheidungsanfrage eindeutig identifiziert werden kann. Diese Kennung wird in der Antwort zurückgesendet und hat keinen Einfluss auf das Ergebnis der Entscheidung. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Dieses Objekt ist die Kontrollstruktur der Deduplizierungsregeln. Es besteht aus einer Reihe von Flags, die angeben, ob dieselbe Option für eine bestimmte Dimension vorgeschlagen werden kann. Wenn ein Flag auf „true“ gesetzt ist, sind Duplikate erlaubt und sollten in der durch das Flag angegebenen Kategorie nicht entfernt werden. Wenn ein Flag auf „false“ gesetzt ist, sollte die Entscheidungs-Engine nicht denselben Vorschlag für die gesamte Dimension machen und stattdessen die nächste beste Option für eine der Unterentscheidungen auswählen. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Wenn auf „true“ gesetzt, kann mehreren Entscheidungen dieselbe Option zugewiesen werden. | `"xdm:acrossActivities": true` |
