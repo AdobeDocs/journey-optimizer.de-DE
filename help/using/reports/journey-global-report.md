@@ -1,14 +1,14 @@
 ---
 title: Globaler Bericht zur Journey
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zur Journey verwenden
-feature: 'Berichterstellung '
+feature: Reporting
 topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -116,7 +116,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 * **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-Weiterführende Informationen zu Bounces finden Sie auf der Seite [Unterdrückungsliste](../suppression-list.md) .
+Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../suppression-list.md).
 
 ![](../assets/global_report_16.png)
 
