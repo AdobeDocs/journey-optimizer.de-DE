@@ -1,14 +1,14 @@
 ---
 title: Globaler Bericht
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht verwenden
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
-> Wenn bei Verwendung des Query-Dienstes benutzerdefinierte Abfragen über APIs durchgeführt werden, erwarten Sie einige Verzögerungen bei Ihren Berichten.
+> Wenn benutzerdefinierte Abfragen über APIs unter Verwendung des Abfrage-Service durchgeführt werden, treten bei Ihren Berichten möglicherweise Verzögerungen auf.
 
 Verwenden Sie den **[!UICONTROL Globalen Bericht]**, um die Wirkung Ihrer Journey und Sendungen über einen bestimmten Zeitraum zu messen.
 
@@ -24,7 +24,7 @@ Verwenden Sie den **[!UICONTROL Globalen Bericht]**, um die Wirkung Ihrer Journe
 
 * Wenn Sie einen bestimmten Versand auswählen möchten, wählen Sie in der Ansicht **[!UICONTROL Global]** auf der Registerkarte **[!UICONTROL Ausführungen]** Ihrer Nachrichten die Option **[!UICONTROL Globaler Bericht]** aus dem erweiterten Menü des ausgewählten Versands.
 
-## Anpassen des Dashboards {#modify-dashboard}
+## Dashboard anpassen {#modify-dashboard}
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernung von Widgets oder durch Ändern des Zielzeitrahmens geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
