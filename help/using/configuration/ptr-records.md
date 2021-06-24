@@ -1,5 +1,5 @@
 ---
-title: PTR-Datensätze
+title: PTR-Einträge
 description: '"Erfahren Sie, wie Sie ptr-records verwalten."'
 page-status-flag: never-activated
 uuid: null
@@ -18,32 +18,32 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
 
-# PTR-Datensätze
+# PTR-Einträge
 
-## Über PTR-Datensätze
+## Informationen zu PTR-Einträgen
 
-Ein Zeigerdatensatz (PTR) ist ein Typ von DNS-Eintrag (Domain Name System), der den mit einer IP-Adresse verknüpften Domänennamen bereitstellt.
+Ein PTR (Pointer Record, „Zeigereintrag“) ist ein Typ von DNS (Domain Name System)-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt.
 
-Mit PTR-Datensätzen können Empfänger-E-Mail-Server die Authentizität der E-Mail-Server überprüfen, indem sie feststellen, ob ihre IP-Adressen mit den Namen übereinstimmen, mit denen sich die Server verbinden.
+Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sender-E-Mail-Server überprüfen, indem sie feststellen, ob ihre IP-Adressen mit den Namen übereinstimmen, mit denen sich die Server verbinden.
 
-## Zugreifen auf PTR-Datensätze Ihrer Subdomains
+## Zugriff auf PTR-Einträge Ihrer Subdomains
 
-Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Datensatz erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL PTR-Datensätze]** zugreifen.
+Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL PTR-Datensätze]** zugreifen.
 
 ![](../assets/ptr-records.png)
 
-In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Datensätze anhand der unten stehenden Syntax angezeigt:
+In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
 
-* &quot;r&quot;für Datensatz,
-* &quot;xx&quot; für die beiden letzten Zahlen der IP-Adresse,
-* Name der Subdomäne.
+* „r“ für Eintrag (record),
+* „xx“ für die beiden letzten Zahlen der IP-Adresse,
+* Name der Subdomain.
 
-Sie können einen PTR-Datensatz aus der Liste öffnen, um den zugehörigen Subdomain-Namen und die IP-Adresse anzuzeigen.
+Sie können einen PTR-Eintrag aus der Liste öffnen, um den zugehörigen Subdomain-Namen und die IP-Adresse anzuzeigen.
 
 >[!NOTE]
 >
