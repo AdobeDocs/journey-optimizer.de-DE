@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 51%
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ Mit der `get`-Funktion wird der Wert einer Zuordnung für einen bestimmten Schl�
 
 **Beispiel**
 
-Der folgende Vorgang ruft den Wert der Identitätszuordnung für den Schlüssel `example@example.com` ab.
+Die folgende Operation ruft den Wert der Identitätszuordnung für den Schlüssel `example@example.com` ab.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -46,7 +46,7 @@ Die `keys`-Funktion wird zum Abrufen aller Schlüssel einer gegebenen Zuordnung 
 
 **Beispiel**
 
-Der folgende Vorgang ruft alle Schlüssel für die Zuordnung `identityMap` ab.
+Die folgende Operation ruft alle Schlüssel für die Zuordnung `identityMap` ab.
 
 ```sql
 {%= keys(identityMap) %}
@@ -64,7 +64,7 @@ Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung ver
 
 **Beispiel**
 
-Der folgende Vorgang ruft alle Werte für die Zuordnung `identityMap` ab.
+Die folgende Operation ruft alle Werte für die Zuordnung `identityMap` ab.
 
 ```sql
 {%= values(identityMap) %}
