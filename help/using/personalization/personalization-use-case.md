@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 92%
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
 * **Profil**: Personalisierung von Nachrichten basierend auf einem Profilfeld
-* **Angebotsentscheidung**: Personalisierung basierend auf Variablen für Angebotsentscheidungen
-* **Kontext**: Personalisierung basierend auf Kontextdaten von der Journey
+* **Angebotsentscheidung**: Personalisierung basierend auf Variablen zur Angebotsentscheidung
+* **Kontext**: Personalisierung basierend auf Kontextdaten aus der Journey
 
 Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu pushen. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
 
