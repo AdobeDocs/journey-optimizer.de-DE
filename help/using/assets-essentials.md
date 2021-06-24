@@ -2,17 +2,17 @@
 title: Adobe Experience Manager Assets Essentials
 description: Erste Schritte mit Assets Essentials
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 2%
 
 ---
 
-# Verwenden Sie [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# Verwenden Sie [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Erste Schritte mit [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -24,7 +24,7 @@ Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Exper
 
 Um Dateien in [!DNL Assets Essentials] hochzuladen, müssen Sie zunächst den Ordner durchsuchen oder erstellen, in dem sie gespeichert werden. Sie können sie dann in Ihren E-Mail-Inhalt einfügen.
 
-Weitere Informationen zum Hochladen von Assets finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html).
+Weitere Informationen zum Hochladen von Assets finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
 
 1. Wählen Sie auf der Startseite [!DNL Adobe Journey Optimizer] die Registerkarte **[!UICONTROL Assets]** unter dem Menü **[!UICONTROL Content Management]** aus, um auf [!DNL Assets Essentials] zuzugreifen.
 
