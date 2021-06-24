@@ -9,7 +9,7 @@ level: Intermediate
 source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -64,7 +64,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Kopfzeilen werden gemäß den folgenden [Parsing-Regeln](https://tools.ietf.org/html/rfc7230#section-3.2.4) validiert.
 
-## Definieren Sie die Aktionsparameter {#define-the-message-parameters} .
+## Definieren der Aktionsparameter {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
@@ -74,7 +74,7 @@ Fügen Sie im Abschnitt **[!UICONTROL Aktionsparameter]** ein Beispiel der JSON-
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen keinen &quot;.&quot;enthalten. Zeichen.
+>Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
