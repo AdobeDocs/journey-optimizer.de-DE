@@ -8,13 +8,13 @@ level: Beginner
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
 # Erstellen einer Nachricht {#create-message}
 
-Nachrichten sind über den Tastaturbefehl **[!UICONTROL Nachrichten]** im linken Navigationsbereich verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
+Nachrichten sind über den Shortcut **[!UICONTROL Nachrichten]** auf der linken Leiste verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
-      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. [Weitere Informationen zu Vorgaben](../using/configuration/message-presets.md).
+      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. [Weitere Informationen zu Vorgaben](../using/configuration/message-presets.md)
 
    * Wählen Sie den oder die Kanäle aus, die Sie für diese Nachricht nutzen möchten: E-Mail und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
    Beachten Sie, dass Sie über die Schaltfläche **[!UICONTROL Eigenschaften]** jederzeit auf Titel, Beschreibung und Voreinstellung der Nachricht zugreifen und diese ändern können.
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
    Nun können Sie den Inhalt für die Nachricht erstellen und die Einstellungen anpassen. Detaillierte Informationen zur Konfiguration von E-Mails und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
 
    * [Erstellen einer E-Mail](create-email.md)
-   * [Push-Benachrichtigungen erstellen](create-push.md)
+   * [Erstellen einer Push-Benachrichtigung ](create-push.md)
 
    >[!NOTE]
    >   
