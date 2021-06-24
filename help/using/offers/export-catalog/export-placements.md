@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 ### _experience > decisioning
 
-**Feld:** decisioning 
+**Feld:** decisioning
 **Typ:** Objekt
 
 #### _experience > decisioning > Placement&#39;s Channel Identifier
@@ -66,8 +66,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **_experience > decisioning > contentTypes > MIME Media Type**
 
-**Titel:** MIME-Medientyp 
-**Beschreibung:** Eine Beschränkung für den Medientyp der Komponenten, die in dieser Platzierung erwartet werden. Bei einer Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
+**Titel:** MIME-Medientyp
+**Beschreibung:** Eine Begrenzung für den Medientyp der Komponenten, der an dieser Platzierung erwartet wird. Für eine Komponente kann es mehr als einen Medientyp geben, z. B. verschiedene Bildformate.
 **Typ:** Zeichenfolge
 
 #### _experience > decisioning > Placement Description
