@@ -8,13 +8,13 @@ level: Beginner
 source-git-commit: 9656fc4b9f0935949abfd83db194c00da0f35cf4
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 60%
+ht-degree: 77%
 
 ---
 
-# Erste Schritte mit der Personalisierung{#add-personalization}
+# Erste Schritte mit der Personalisierung {#add-personalization}
 
-Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm/ihr nutzen. Es kann sein Vorname, seine Interessen, wo er lebt, was er kaufte und mehr.
+Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm/ihr nutzen. Es kann sein/ihr Vorname sein, seine/ihre Interessen, wo er/sie lebt und mehr.
 
 [!DNL Journey Optimizer] verwendet eine  **** inline einfache Personalisierungssyntax, die auf Handlebars basiert. Dadurch können Sie Ausdrücke mit Inhalten erstellen, die von doppelten geschweiften Klammern **{}}** eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
 
@@ -90,8 +90,8 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 * **Profil**: Listet alle Verweise auf, die mit dem Profilschema, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschrieben ist, verknüpft sind.
 * **Segmentzugehörigkeit**: Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de)
 * **Angebote**: Listet alle Angebot auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md)
-* **Kontext** : Wenn die  **** Nachrichtentätigkeit in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md)
-* **Hilfsfunktionen** : listet alle Hilfsfunktionen auf, die für die Durchführung von Datenvorgängen wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und deren Bearbeitung im Kontext der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md)
+* **Kontext**: Wenn die Aktivität **Nachrichten** in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md)
+* **Helper-Funktionen**: listet alle Helper-Funktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und die Bearbeitung von Daten im Kontext der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md)
 
 Bei der Auswahl wird die Referenz im Editor hinzugefügt.
 
