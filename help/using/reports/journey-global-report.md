@@ -2,17 +2,17 @@
 title: Globaler Bericht zur Journey
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zur Journey verwenden
 feature: 'Berichterstellung '
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 90%
+source-wordcount: '1093'
+ht-degree: 88%
 
 ---
 
-# Journey Global report {#journey-global-report}
+# Globaler Bericht zur Journey {#journey-global-report}
 
 Über die Schaltfläche **[!UICONTROL Globaler Bericht]** können Sie direkt von Ihrer Journey auf den globalen Bericht zur Journey zugreifen.
 
@@ -26,15 +26,15 @@ Die Seite **[!UICONTROL Globaler Bericht]** zur Journey wird mit den folgenden R
 
 Der **[!UICONTROL globale Bericht]** zur Journey ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Journey detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
-## Registerkarte „Journey“ {#journey-global}
+## Registerkarte „Journey“  {#journey-global}
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Registerkarte **[!UICONTROL Journey]** eine übersichtliche Darstellung der wichtigsten Tracking-Daten zu Ihrer Journey.
 
 ![](../assets/global_report_2.png)
 
-Mit dem Widget **[!UICONTROL Performance der Journey]** können Sie den Weg Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
+Mit dem Widget **[!UICONTROL Journey Performance]** können Sie den Pfad Ihrer Zielprofile Schritt für Schritt durch Ihre Journey anzeigen.
 
-Das Widget **[!UICONTROL Statistiken der Journey]** zeigt die folgenden KPIs an:
+Das Widget **[!UICONTROL Journey Statistics]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -56,7 +56,7 @@ Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktion
 
 * **[!UICONTROL Fehler in Aktion]**: Gesamtanzahl der Fehler, die bei **[!UICONTROL Aktionen]** aufgetreten sind.
 
-## Registerkarte „E-Mail“ {#email-global}
+## Registerkarte „E-Mail“  {#email-global}
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
@@ -124,7 +124,7 @@ Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche
 
 Das Diagramm **[!UICONTROL E-Mail - Top-Empfänger-Domain]** zeigt, welche Domänen von den Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
-## Registerkarte „Push-Benachrichtigung“ {#push-global}
+## Registerkarte „Push-Benachrichtigung“  {#push-global}
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
