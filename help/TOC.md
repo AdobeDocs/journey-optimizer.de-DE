@@ -6,7 +6,7 @@ user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
