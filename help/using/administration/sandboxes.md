@@ -1,6 +1,6 @@
 ---
-title: Sandbox-Management
-description: Erfahren Sie, wie Sie Sandboxes verwalten
+title: Sandbox-Verwaltung
+description: Informationen zur Verwaltung von Sandboxes
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -19,13 +19,13 @@ level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Sandbox-Management {#sandboxes}
+# Sandbox-Verwaltung {#sandboxes}
 
-## Sandboxes {#using-sandbox} verwenden
+## Verwenden von Sandboxes {#using-sandbox}
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
 Sandboxes werden über Produktprofile in der Admin Console zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
@@ -35,17 +35,17 @@ Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform
 
 Das Steuerelement für den Sandbox-Umschalter finden Sie oben links auf Ihrem Bildschirm. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Umschalter auf die derzeit aktive Sandbox und wählen dann in der Dropdown-Liste eine andere Sandbox aus.
 
-## Sandboxes zuweisen {#assign-sandboxes}
+## Zuweisen von Sandboxes {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> Die Sandbox-Verwaltung kann nur von einem **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Administrator durchgeführt werden. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Die Sandbox-Verwaltung kann nur von einem **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Administrator durchgeführt werden. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
 
 Sie können verschiedene Sandboxes vordefinierten oder benutzerdefinierten **[!UICONTROL Produktprofilen]** zuweisen.
 
 So weisen Sie Sandboxes zu:
 
-1. Wählen Sie auf der Registerkarte [!DNL Admin Console] **[!UICONTROL Products]** das Produkt **[!UICONTROL Adobe Experience Platform Apps]** aus.
+1. Wählen Sie in der [!DNL Admin Console] auf der Registerkarte **[!UICONTROL Produkte]** das Produkt **[!UICONTROL Adobe Experience Platform Apps]** aus.
 
 1. Wählen Sie ein **[!UICONTROL Produktprofil]** aus.
 
@@ -61,7 +61,7 @@ So weisen Sie Sandboxes zu:
 
    ![](../assets/sandbox_3.png)
 
-1. Klicken Sie bei Bedarf unter **[!UICONTROL Eingeschlossene Berechtigungselemente]** auf das X-Symbol neben dem Entfernen von Sandboxes-Zugriff auf Ihr **[!UICONTROL Produktprofil]**.
+1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Sandbox-Zugriffsberechtigungen auf Ihr **[!UICONTROL Produktprofil]** zu entfernen.
 
    ![](../assets/sandbox_4.png)
 
@@ -75,4 +75,4 @@ Um die Zugänglichkeit Ihrer Inhalte zu konfigurieren, müssen Sie jeder Ihrer S
 
 Beachten Sie, dass Sie für die Synchronisierung Ihres Inhalts mit der richtigen Sandbox dieselbe Syntax verwenden müssen wie die Sandbox, z. B. wenn Ihre Sandbox als „Entwicklung“ bezeichnet wird, sollte Ihr gemeinsamer Ordner denselben Namen haben.
 
-[Erfahren Sie, wie Sie gemeinsame Ordner verwalten](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
+[Erfahren Sie, wie Sie gemeinsame Ordner verwalten](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
