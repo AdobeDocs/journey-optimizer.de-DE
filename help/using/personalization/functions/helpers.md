@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 1. **Bedingten Link hinzufügen**
 
-   Der folgende Vorgang fügt einen Link zur &quot;www.adobe.com/academia&#39;&quot;-Website für Profile mit &quot;.edu&quot;-E-Mail-Adressen hinzu, zur &quot;www.adobe.com/org&#39;&quot;-Website für Profile mit &quot;.org&quot;-E-Mail-Adressen und zur Standard-URL &quot;www.adobe.com/users&#39;&quot;für alle anderen Profile:
+   Der folgende Vorgang fügt einen Link zur Website „www.adobe.com/academia“ für Profile mit „.edu“-E-Mail-Adressen hinzu, zur Website „www.adobe.com/org“ für Profile mit „.org“-E-Mail-Adressen und zur Standard-URL „www.adobe.com/users“ für alle anderen Profile:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -82,7 +82,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    {%/if%}
    ```
 
-1. **Bedingter Inhalt basierend auf Segmentmitgliedschaft**
+1. **Bedingte Inhalte basierend auf Segmentzugehörigkeit**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -107,9 +107,9 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 >Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../segment/about-segments.md).
 
 
-## Unless{#unless}
+## Außer{#unless}
 
-Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Gegensatz zum Helper `if` wird der Block gerendert, wenn die Ausdrucksauswertung &quot;false&quot;zurückgibt.
+Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Gegensatz zum Helper `if` wird der Block gerendert, wenn die Auswertung des Ausdrucks „false“ zurückgibt.
 
 **Syntax**
 
@@ -129,7 +129,7 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Each{#each}
+## Jeweils{#each}
 
 Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
 Die Syntax des Helpers ist ```{{#each ArrayName}}``` IhrInhalt {{/each}}
@@ -163,9 +163,9 @@ So wird eine Liste von Produkten dargestellt, die dieser Benutzer in den Warenko
 {{/each}}
 ```
 
-## With{#with}
+## Mit{#with}
 
-Der `with`-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu ändern.
+Der Helper `with` wird verwendet, um das Evaluierungs-Token des Vorlagenteils zu ändern.
 
 **Syntax**
 
@@ -175,11 +175,11 @@ Der `with`-Helfer wird verwendet, um das Bewertungstoken des Vorlagenteils zu ä
 {{/with}}
 ```
 
-Der `with`-Helfer ist nützlich, um auch eine Kurzbefehl-Variable zu definieren.
+Der Helper `with` ist auch nützlich, um die Kurzform einer Variable zu definieren.
 
 **Beispiel**
 
-Verwenden Sie with zur Definition eines kurzen Aliasnamens für einen langen Variablennamen:
+Verwenden Sie „with“ zur Definition eines kurzen Aliasnamens für einen langen Variablennamen:
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -188,7 +188,7 @@ Verwenden Sie with zur Definition eines kurzen Aliasnamens für einen langen Var
 {{/with}}
 ```
 
-## Let{#let}
+## Zulassen{#let}
 
 Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die später in einer Abfrage verwendet werden kann.
 
@@ -200,7 +200,7 @@ Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die s
 
 **Beispiel**
 
-Im folgenden Beispiel werden alle Summen der Produktsummen mit der Transaktion in USD angezeigt, wobei die Summe 100 USD und weniger 1000 USD übersteigt.
+Das folgende Beispiel ruft alle Beträge von Produktsummen mit einer Transaktion in USD ab, wobei sich die Beträge auf mehr als 100 $ und weniger als 1.000 $ belaufen.
 
 ```sql
 {% let variable = expression %} {{variable}}
