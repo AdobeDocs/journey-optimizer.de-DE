@@ -2,13 +2,13 @@
 title: Gestalten einer Journey
 description: Erfahren Sie, wie Sie Ihre Journey entwerfen
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
 source-wordcount: '1445'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -76,7 +76,7 @@ Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hin
 
 **Aktionen**
 
-Hier finden Sie die Aktivität **Message** , mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einfügen können. [Weitere Informationen zur Aktivität „Nachricht“](journeys-message.md)
+Hier finden Sie die Aktivität **Nachricht**, mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einschließen können. [Weitere Informationen zur Aktivität „Nachricht“](journeys-message.md)
 
 Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weitere Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
 
