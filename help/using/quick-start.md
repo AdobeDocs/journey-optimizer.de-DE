@@ -2,13 +2,13 @@
 title: Schnellstart
 description: Journey Optimizer – Schnellstart
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Mit [!DNL Adobe Journey Optimizer] können Sie bestehenden Nachrichteninhalt imp
 
 Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-### Voraussetzungen   {#cjm-prerequisites}
+### Voraussetzungen    {#cjm-prerequisites}
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müssen Sie Folgendes tun:
 
@@ -36,7 +36,7 @@ Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müsse
 
    * Erfahren Sie, wie Sie einen Identitäts-Namespace in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) erstellen.
 
-   * Erfahren Sie, wie Sie in [dieser Seite](../using/building-journeys/creating-test-profiles.md) Testprofile erstellen
+   * Auf [dieser Seite](../using/building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen
 
    * Weitere Informationen zur Datenerfassung finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de)
 
