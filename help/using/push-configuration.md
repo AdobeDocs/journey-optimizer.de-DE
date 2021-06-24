@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
@@ -118,7 +118,7 @@ Das Adobe Experience Platform Mobile SDK bietet Client-seitige Integrations-APIs
 Am Ende hätten Sie auch eine Eigenschaft für Mobilgeräte in Adobe Experience Platform Launch erstellen und konfigurieren müssen. Normalerweise erstellen Sie für jede Mobile App, die Sie verwalten möchten, eine mobile Eigenschaft. Erfahren Sie, wie Sie eine Eigenschaft für Mobilgeräte in der [Adobe Experience Platform Launch-Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) erstellen und konfigurieren.
 
 
-## Schritt 1: Hinzufügen Ihrer Push-Anmeldedaten für Ihre App in Adobe Experience Platform Launch {#push-credentials-launch}
+## Schritt 1: App-Push-Anmeldedaten in Adobe Experience Platform Launch hinzufügen {#push-credentials-launch}
 
 Nachdem Sie die richtigen Benutzerberechtigungen erteilt haben, müssen Sie jetzt Ihre Push-Anmeldedaten für Mobile Apps in [!DNL Adobe Experience Platform Launch] hinzufügen.
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Schritt 3: Testen Sie Ihre mobile App mit einem Ereignis {#mobile-app-test} .
+## Schritt 3: Testen Ihrer mobilen App mit einem Ereignis {#mobile-app-test}
 
 Nachdem Sie Ihre Mobile App sowohl in Adobe Experience Platform als auch in Adobe Launch konfiguriert haben, können Sie sie nun testen, bevor Sie Push-Benachrichtigungen an Ihre Profile senden. In diesem Anwendungsbeispiel erstellen wir eine Journey, um unsere App als Ziel auszuwählen und ein Ereignis festzulegen, das die Push-Benachrichtigung Trigger.
 
@@ -343,9 +343,9 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
 Ihr Ereignis wird ausgelöst und Sie erhalten Ihre Push-Benachrichtigung an Ihre Mobile App.
 
-## Schritt 4: Nachrichtenvorgabe für Push{#message-preset} erstellen
+## Schritt 4: Nachrichtenvorgabe für Push-Benachrichtigungen erstellen{#message-preset}
 
-Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Launch] eingerichtet wurde, müssen Sie eine Nachrichtenvorgabe erstellen, damit Sie Push-Benachrichtigungen von **[!DNL Journey Optimizer]** senden können.
+Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Launch] eingerichtet wurde, müssen Sie eine Nachrichtenvorgabe erstellen, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
 
 In [diesem Abschnitt](configuration/message-presets.md) erfahren Sie, wie Sie eine Nachrichtenvorgabe erstellen und konfigurieren.
 
