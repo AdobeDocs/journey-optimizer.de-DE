@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2012'
-ht-degree: 100%
+source-wordcount: '2010'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 ### _experience > decisioning
 
-**Feld:** decisioning 
+**Feld:** decisioning
 **Typ:** Objekt
 
 #### _experience > decisioning > calendarConstraints
@@ -82,9 +82,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **_experience > decisioning > contents > components**
 
-**Feld:** components 
-**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten dienen dazu, den mit einem Angebot verknüpften Inhalt zu finden oder darzustellen und gemäß der Platzierungsvereinbarung zu integrieren.
-**Typ:** Array 
+**Feld:** components
+**Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
+**Typ:** Array
 **Erforderlich:** „_type“, „_dc“ <!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
@@ -125,7 +125,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
       **Feld:** id
       **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
       **Typ:** Zeichenfolge
-      **Beispiel:** „urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e“
+      **Beispiel:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
@@ -170,7 +170,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **_experience > decisioning > contents > Placement**
 
 **Feld:** placement 
-**Titel:** Platzierung
+**Titel:** Platzierung 
 **Beschreibung:** Platzierung, die einzuhalten ist. Der Wert ist der URI (@id) der Angebotsplatzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
 **Typ:** Zeichenfolge
 
@@ -200,21 +200,21 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** description 
 **Titel:** Beschreibung 
-**Beschreibung:** Beschreibung der Profileinschränkung. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Profileinschränkung erstellt wurde und/oder welche Option von ihr einbezogen oder ausgeschlossen wird.
+**Beschreibung:** Beschreibung der Profilbegrenzung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
 **Typ:** Zeichenfolge
 
 **_experience > decisioning > profileConstraints > Eligibility Rule**
 
 **Feld:** eligibilityRule
 **Titel:** Eignungsregel
-**Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere angegebene kontextbezogene XDM-Objekte als „ „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
+**Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
 **Typ:** Zeichenfolge
 
 **_experience > decisioning > profileConstraints > Profile Constraint Type**
 
 **Feld:** profileConstraintType 
-**Titel:** Profileinschränkungstyp 
-**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie diese ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Segmentmitgliedschaften erfolgen.
+**Titel:** Profilbegrenzungstyp 
+**Beschreibung:** Bestimmt, ob aktuell Begrenzungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Begrenzungen können durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten festgelegt sein.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
 * „none“ (Standard)
@@ -269,8 +269,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **_experience > decisioning > ranking > Order Evaluation**
 
 **Feld:** order 
-**Titel:** Bewertung der Reihenfolge
-**Beschreibung:** Bewertung einer relativen Reihenfolge für eine oder mehrere Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Median und der Modalwert sind die einzigen Messwerte der zentralen Tendenz, die für ordinale Daten verwendet werden können.
+**Titel:** Evaluierung der Rangfolge 
+**Beschreibung:** Evaluierung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
 **Typ:** Objekt
 
 * **Scoring-Funktion**
@@ -299,8 +299,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** priority 
 **Titel:** Priorität 
-**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgenfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
-**Typ:** Integer 
+**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgenfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+**Typ:** Ganzzahl
 **Mindestwert:** 0 
 **Standardwert:** 0
 
