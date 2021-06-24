@@ -2,17 +2,17 @@
 title: Überwachen der Nachrichtenausführung
 description: Hinweise zur Überwachung
 feature: Überwachung
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Überwachen von Nachrichten {#monitor-message-execution}
+# Überwachen von Nachrichten  {#monitor-message-execution}
 
 Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Sie können sehen, wie sich Ihre Nachrichten <!--and APIs--> in Echtzeit verhalten, wenn Sie die Liste **[!UICONTROL Ausführungen]** aufrufen.
 
@@ -40,7 +40,7 @@ Wenn eine Nachricht veröffentlicht, aber noch nicht durch eine Journey ausgelö
 
 >[!NOTE]
 >
->Wenn eine Nachricht in mehreren Journey verwendet wurde, wird für jede Ausführung eine Zeile pro Journey angezeigt.
+>Wenn eine Nachricht in mehreren Journeys verwendet wurde, wird für jede Ausführung eine Zeile pro Journey angezeigt.
 
 <!--![](assets/message-execution-multichannel.png)-->
 
@@ -61,9 +61,9 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
    <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
   **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
 
-* **[!UICONTROL Journey - Version - Aktion]**: Name der Journey, die die Nachricht nutzt, Version der Journey und Titel der Aktion, die die Nachricht im Journey nutzt.
+* **[!UICONTROL Journey – Version – Aktion]**: Name der Journey, die die Nachricht verwendet, Version der Journey und Titel der Aktion, die die Nachricht in der Journey verwendet.
 
-* **[!UICONTROL Status]**: Ausführungsstatus der Nachricht.  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
+* **[!UICONTROL Status]**: Ausführungsstatus der Nachricht. <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
 
 * **[!UICONTROL Startdatum]**: Datum und Uhrzeit, an dem die Nachricht von der Journey ausgeführt wurde.
 
@@ -75,7 +75,7 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 
 * **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich im Postfach (E-Mail) oder auf dem Gerät (Push-Benachrichtigung) des Empfängers zugestellten Nachrichten, ohne dass ein Bounce oder ein sonstiger Versandfehler erzeugt wird.
 
-* **[!UICONTROL Bounces]**: Anzahl der Nachrichten, die aufgrund eines Versandfehlers nicht zugestellt werden können. [Erfahren Sie mehr über Bounces](suppression-list.md).
+* **[!UICONTROL Bounces]**: Anzahl der Nachrichten, die aufgrund eines Versandfehlers nicht zugestellt werden können. [Weitere Informationen zu Bounces](suppression-list.md)
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Nachrichten, die geöffnet wurden.
 
@@ -87,6 +87,6 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 
 * **[!UICONTROL Fehler]**: Anzahl der Nachrichten, die aufgrund eines technischen Fehlers nicht gesendet werden können.
 
-* **[!UICONTROL Beschwerden wegen Spam]**: Anzahl der Nachrichten, die von Empfängern als Spam gekennzeichnet wurden. [Weitere Informationen zu Beschwerden](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability?lang=de).
+* **[!UICONTROL Spam-Beschwerden]**: Anzahl der Nachrichten, die von Empfängern als Spam gekennzeichnet wurden. [Weitere Informationen zu Beschwerden](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability?lang=de).
 
 Wenn Sie auf einen Hyperlink klicken, wird die zugehörige Ansicht für die Nachrichtenübersicht geöffnet. [Weitere Informationen zu Nachrichten](create-message.md).
