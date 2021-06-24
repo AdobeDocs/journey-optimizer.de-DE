@@ -8,15 +8,15 @@ level: Intermediate
 source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 56%
+ht-degree: 99%
 
 ---
 
 
 # Personalisierungssyntax {#personalization-syntax}
 
-Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax namens &quot;Handlebars&quot;.
-Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [HandlebarsJS-Dokumentation](https://handlebarsjs.com/).
+Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax „Handlebars“.
+Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [Dokumentation zu HandlebarsJS](https://handlebarsjs.com/).
 
 Sie verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
 
@@ -41,17 +41,17 @@ Die Syntax unterscheidet zwischen Groß- und Kleinschreibung.
 
 Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
-In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen** hinzugefügt. Wenn der Ausdruck `&` enthält, wird die zurückgegebene HTML-maskierte Ausgabe als `&amp;` generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
+In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen** hinzugefügt. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
 
 ## Profil
 
 Dieser Namespace erlaubt die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschrieben werden.
 
-Die Attribute müssen im Schema definiert werden, bevor sie in einem Gestaltungsbaustein [!DNL Journey Optimizer] referenziert werden.
+Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 
 >[!NOTE]
 >
->Erfahren Sie in [diesem Abschnitt](functions/helpers.md#if-function), wie Sie Profilattribute in Bedingungen nutzen können.
+>In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Profilattribute in Bedingungen verwenden können.
 
 **Beispielverweise:**
 
@@ -71,10 +71,10 @@ Die Attribute müssen im Schema definiert werden, bevor sie in einem Gestaltungs
 
 ## Segmente{#perso-segments}
 
-Erfahren Sie in [diesem Abschnitt](functions/helpers.md#if-function), wie Sie Profilattribute in Bedingungen nutzen können.
+In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Profilattribute in Bedingungen verwenden können.
 
 >[!NOTE]
->Weitere Informationen zu Segmentierungs- und Segmentierungsdienst finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+>Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
 
 ## Angebote
@@ -88,14 +88,14 @@ Dieser Pfad weist die folgende Struktur auf:
 
 Hier gilt:
 
-* `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört
-* `Type`  bestimmt den Typ der Angebotsdarstellung. Mögliche Werte sind: `image`, `html` und `text`
-* `Placement Id` und  `Activity Id` sind Platzierungs- und Aktivitätskennungen
-* `Attributes` sind angebotspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
+* `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört.
+* `Type` bestimmt den Typ der Angebotsdarstellung. Zu den möglichen Werten gehören `image`, `html` und `text`
+* `Placement Id` und `Activity Id` sind Platzierungs- und Aktivitätskennungen.
+* `Attributes` sind angebotsspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
 
-Weitere Informationen zur Decisions-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+Weitere Informationen zur Entscheidungs-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../../using/offers/api-reference/decisions-api/deliver-offers.md).
 
-Alle Verweise werden mit einem Validierungsmechanismus, der in [dieser Seite](personalization-validation.md) beschrieben wird, für das Angebotsschema validiert
+Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas
 
 **Beispielverweise:**
 
@@ -127,7 +127,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 >[!NOTE]
 >
->Hilfsfunktionen werden in [diesem Abschnitt](functions/helpers.md) beschrieben.
+>Helper-Funktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
 
 
 ## Literaltypen
@@ -137,9 +137,9 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 | Literal | Definition |
 | ------- | ---------- |
 | Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
-| Boolesch | Ein Datentyp, der entweder &quot;true&quot;oder &quot;false&quot;ist. |
+| Boolesch | Ein Datentyp, der entweder „true“ oder „false“ ist. |
 | Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
-| Array | Ein Datentyp, der als Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
+| Array | Ein Datentyp, der aus einer Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
