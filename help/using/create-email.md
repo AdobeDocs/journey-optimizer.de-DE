@@ -1,20 +1,20 @@
 ---
 title: Erstellen einer E-Mail
-description: Erfahren Sie, wie Sie eine E-Mail in Journey Optimizer erstellen
+description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen.
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
 source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 76%
+ht-degree: 94%
 
 ---
 
 # Erstellen einer E-Mail {#configure-email}
 
-Nachdem Sie [eine Nachricht ](create-message.md) erstellt haben, verwenden Sie den Tab **[!UICONTROL E-Mail]** , um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
+Nachdem Sie [eine Nachricht erstellt](create-message.md) haben, verwenden Sie die Registerkarte **[!UICONTROL E-Mail]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
 
 ![](assets/emails-configuration.png)
 
