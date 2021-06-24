@@ -2,13 +2,13 @@
 title: Überwachen der Nachrichtenausführung
 description: Lernen Sie Richtlinien zur Überwachung und Zustellbarkeit kennen
 feature: Zustellbarkeit
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Seien Sie besonders vorsichtig, wenn Sie zusätzliche Bestätigungen anfordern: 
 
 Zum Schutz Ihrer Zustellbarkeit werden die Empfänger, deren Adressen auf dieser Liste stehen, standardmäßig von allen zukünftigen Sendungen ausgeschlossen, da das Senden an diese Kontakte Ihre Reputation beschädigen könnte.
 
-[Erfahren Sie mehr über die Unterdrückungsliste](suppression-list.md).
+[Weitere Informationen zur Unterdrückungsliste](suppression-list.md).
 
 ## Verwenden von Überwachungs-Tools {#monitoring-tools}
 
