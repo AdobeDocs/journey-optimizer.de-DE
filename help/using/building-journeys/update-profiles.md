@@ -2,13 +2,13 @@
 title: Profil aktualisieren
 description: Erfahren Sie, wie Sie die Aktivität "Profil aktualisieren"in einer Journey verwenden
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 65%
+ht-degree: 68%
 
 ---
 
