@@ -8,7 +8,7 @@ level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 66%
+ht-degree: 98%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 66%
 
 Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
-## Verschieden{#distinct}
+## Eindeutig{#distinct}
 
-Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste mit entfernten doppelten Werten abzurufen.
+Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste abzurufen, aus denen doppelte Werte entfernt wurden.
 
 **Format**
 
@@ -28,7 +28,7 @@ Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer List
 
 **Beispiel**
 
-Der folgende Vorgang gibt Personen an, die Bestellungen in mehr als einem Store aufgegeben haben.
+Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
@@ -46,7 +46,7 @@ Mit der `head`-Funktion wird das erste Element im Array oder in der Liste zurüc
 
 **Beispiel**
 
-Der folgende Vorgang gibt die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurück. Weiterführende Informationen zur `topN`-Funktion finden Sie im Abschnitt [Erste `n` in Array](#first-n).
+Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben. Weiterführende Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` in Array](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -70,7 +70,7 @@ Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn si
 
 **Beispiel**
 
-Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem höchsten Preis zurück.
+Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -88,7 +88,7 @@ Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, die im März, Juni oder September Geburtstag haben.
+Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder September Geburtstag haben.
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -106,7 +106,7 @@ Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein best
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, deren Lieblingsfarbe Rot enthält.
+Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Rot gehört.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
@@ -124,7 +124,7 @@ Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindeste
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, deren Lieblingsfarben mindestens eine der Farben Rot, Blau oder Grün enthalten.
+Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben mindestens eine der folgenden Farben beinhalten: Rot, Blau oder Grün.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -168,7 +168,7 @@ Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wen
 
 **Beispiel**
 
-Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurück.
+Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurückgegeben.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
@@ -191,7 +191,7 @@ Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Li
 
 **Beispiel**
 
-Der folgende Vorgang definiert Personen, die nicht im März, Juni oder September Geburtstag haben.
+Mit dem folgenden Vorgang werden Personen definiert, die nicht im März, Juni oder September Geburtstag haben.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -210,7 +210,7 @@ Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) ein
 
 **Beispiel**
 
-Im Folgenden werden Personen beschrieben, die alle ihrer Lieblingsstädte besucht haben.
+Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsstädte besucht haben.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
@@ -228,7 +228,7 @@ Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) e
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, die mindestens einmal Sushi und Pizza gegessen haben.
+Mit dem folgenden Vorgang werden Personen definiert, die mindestens einmal Sushi und mindestens einmal Pizza gegessen haben.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
