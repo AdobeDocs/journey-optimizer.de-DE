@@ -5,10 +5,10 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 86%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 100%
 
 ## Mechanismen der Validierung
 
-Im Bildschirm „Ausdruckseditor“ können Sie mit der Schaltfläche **Validieren** Ihre Personalisierungssyntax überprüfen.
+Verwenden Sie im Bildschirm **Ausdruckseditor** die Schaltfläche **Validieren** , um Ihre Personalisierungssyntax zu überprüfen.
 
 >[!NOTE]
-> Die Validierung wird automatisch durchgeführt, wenn Sie auf **Hinzufügen** klicken, um das Editor-Fenster zu schließen.
+> Die Validierung wird automatisch ausgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, um das Editor-Fenster zu schließen.
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
+> Wenn die Personalisierungssyntax ungültig ist, können Sie das Ausdruckseditor-Fenster nicht schließen.
 
 
 ## Häufige Fehler
@@ -69,7 +69,7 @@ Handlebars-Ausdrücke sind von **{{expression}}** umgeben.
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Spezifische Fehler im Zusammenhang mit Angeboten
+## Spezifische Fehler im Zusammenhang mit Angeboten
 
 Die Fehler bei der Integration von Angeboten in eine E-Mail-Nachricht oder Push-Benachrichtigung haben das folgende Muster:
 
