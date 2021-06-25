@@ -2,21 +2,19 @@
 title: Hinzufügen personalisierter Angebote
 description: Erfahren Sie, wie Sie Ihren Nachrichten personalisierte Angebote hinzufügen
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 43%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-## Informationen zum Entscheidungs-Management {#about-offer-decisioning}
-
-Mit [!DNL Journey Optimizer] können Sie in E-Mail-Nachrichten Entscheidungen (früher als „Angebotsaktivitäten“ bezeichnet) einfügen, die die Offer Decision Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
+In E-Mail-Nachrichten vom Typ [!DNL Journey Optimizer] können Sie Entscheidungen (ehemals &quot;Angebotsaktivitäten&quot;) einfügen, die die Offer Decisioning-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
 
 Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
 
@@ -29,7 +27,7 @@ Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angebo
 
 >[!CAUTION]
 >
->Sie müssen zunächst eine Angebotsentscheidung definieren. Erfahren Sie, wie Sie in [diesem Abschnitt](offers/offer-activities/create-offer-activities.md) Entscheidungen erstellen.
+>Bevor Sie beginnen, müssen Sie [eine Angebotsentscheidung](offers/offer-activities/create-offer-activities.md) definieren.
 
 Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufügen:
 
