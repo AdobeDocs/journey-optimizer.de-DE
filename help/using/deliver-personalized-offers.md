@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 37%
+source-wordcount: '547'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,8 @@ Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ei
 Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden Sie in [diesem Abschnitt](offers/get-started/starting-offer-decisioning.md).
 
 Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angeboten zeigt, sie in einer Entscheidung verwendet und diese Entscheidung in einer E-Mail nutzt, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
+
+[!DNL :arrow_forward:] [In diesem Video erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen.](#video-offers)
 
 
 ## Einfügen einer Entscheidung in eine E-Mail {#insert-offers}
@@ -101,3 +103,9 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Weitere Informationen zu den detaillierten Schritten zur Überprüfung der Nachrichtenvorschau finden Sie in [diesem Abschnitt](#preview-your-messages).
+
+## Anleitungsvideo{#video-offers}
+
+Erfahren Sie, wie Sie in [!DNL Journey Optimizer] eine offer decisioning-Komponente zu Nachrichten hinzufügen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
