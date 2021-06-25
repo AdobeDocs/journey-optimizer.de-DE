@@ -5,16 +5,18 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Beginner
-source-git-commit: 9656fc4b9f0935949abfd83db194c00da0f35cf4
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 77%
+source-wordcount: '663'
+ht-degree: 72%
 
 ---
 
 # Erste Schritte mit der Personalisierung {#add-personalization}
 
 Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm/ihr nutzen. Es kann sein/ihr Vorname sein, seine/ihre Interessen, wo er/sie lebt und mehr.
+
+[!DNL :arrow_forward:] [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren.](#video-perso)
 
 [!DNL Journey Optimizer] verwendet eine  **** inline einfache Personalisierungssyntax, die auf Handlebars basiert. Dadurch können Sie Ausdrücke mit Inhalten erstellen, die von doppelten geschweiften Klammern **{}}** eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
 
@@ -103,3 +105,12 @@ Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen
 
 ![](assets/perso_ee2.png)
 
+## Anleitungsvideos{#video-perso}
+
+Erfahren Sie, wie Sie kontextbezogene Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+
+Erfahren Sie, wie Sie kontextbezogene Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
