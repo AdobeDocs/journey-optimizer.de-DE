@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: f76f9c39b460bc3d70ba3258764d35583cd5fd77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 35%
@@ -22,8 +22,7 @@ Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden
 
 Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angeboten zeigt, sie in einer Entscheidung verwendet und diese Entscheidung in einer E-Mail nutzt, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
 
-[!DNL :arrow_forward:] [In diesem Video erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen.](#video-offers)
-
+![](assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen.](#video-offers)
 
 ## Einfügen einer Entscheidung in eine E-Mail {#insert-offers}
 
