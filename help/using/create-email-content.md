@@ -2,13 +2,13 @@
 title: Entwerfen von E-Mails in Journey Optimizer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 91%
+source-wordcount: '1597'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit 
 
 1. Wählen Sie in der Startseite von „Email Designer“ aus den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
 
-   * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden. [Weitere Infos](#design-scratch)
+   * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden. [Weitere Informationen](#design-scratch)
 
    * Wählen Sie **[!UICONTROL Von Vorlage starten]** aus, um Ihre E-Mail aus einer integrierten Liste von Vorlagen zu erstellen. Beachten Sie, dass Sie keine anderen Vorlagen erstellen können.
 
@@ -215,20 +215,29 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 ## Anpassen der vertikalen Ausrichtung und des Abstands {#adjusting-vertical-alignment-and-padding}
 
-Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente bestehend aus drei Spalten anpassen. Gehen Sie dazu wie folgt vor:
+In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
-1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder unter Verwendung des Strukturbaums in der linken **Palette** aus.
-1. Wählen Sie in der **dedizierten Symbolleiste** mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
+1. Wählen Sie die Strukturkomponente direkt in der E-Mail oder mithilfe des im Menü links verfügbaren **[!UICONTROL Navigationsbaums]** aus.
 
-   Die bearbeitbaren Parameter für diese Spalte werden im Bereich **[!UICONTROL Einstellungen]** auf der rechten Seite angezeigt.
+   ![](assets/alignment_1.png)
 
-1. Wählen Sie unter **[!UICONTROL Senkrecht ausrichten]** die Option **[!UICONTROL Nach oben]** aus.
+1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Wählen Sie eine Spalte]** aus und wählen Sie die Spalte aus, die Sie bearbeiten möchten. Sie können sie auch im Strukturbaum auswählen.
 
-   Die Inhaltskomponente wird am oberen Rand der Spalte angezeigt.
+   Die bearbeitbaren Parameter für diese Spalte werden im Menü **[!UICONTROL Spalteneinstellungen]** angezeigt.
+
+   ![](assets/alignment_2.png)
+
+1. Wählen Sie unter **[!UICONTROL Vertikale Ausrichtung]** **[!UICONTROL Unten]** aus.
+
+   Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
+
+   ![](assets/alignment_3.png)
 
 1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
 
    Definieren Sie den linken und rechten Abstand für diese Spalte.
+
+   ![](assets/alignment_4.png)
 
 1. Gehen Sie analog mit den anderen Ausrichtungs- und Abstandseinstellungen der Spalten vor.
 
@@ -238,13 +247,25 @@ Sie möchten den Abstand und die senkrechte Ausrichtung innerhalb einer Struktur
 
 Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
 
-1. Wählen Sie in einer Komponente, die einen Link enthält, den Titeltext des Links aus.
+1. Wählen Sie in einer Textkomponente **[!UICONTROL Inhaltskomponente]**, in die ein Link eingefügt wird, Ihren Link aus.
 
-1. Aktivieren Sie in den Komponenteneinstellungen die Option **[!UICONTROL Unterstrichener Link]**, um den Titeltext Ihres Links zu unterstreichen.
+1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** die Option **[!UICONTROL Link unterstreichen]** , um den Beschriftungstext Ihres Links zu unterstreichen.
 
-1. Wählen Sie ein **[!UICONTROL Zielattribut]** aus, um festzulegen, in welchem Browserkontext Ihr Link geöffnet wird.
+   ![](assets/link_1.png)
+
+1. Wählen Sie mit der Dropdown-Liste **[!UICONTROL Target]** aus, wie Ihre Audience umgeleitet werden soll:
+
+   * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
+   * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
+   * **[!UICONTROL Self]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde.
+   * **[!UICONTROL Parent]**: öffnet den Link im übergeordneten Frame.
+   * **[!UICONTROL Top]**: öffnet den Link im gesamten Fenster.
+
+   ![](assets/link_2.png)
 
 1. Wenn Sie die Farbe Ihres Links ändern möchten, klicken Sie auf **[!UICONTROL Linkfarbe]**.
+
+   ![](assets/link_3.png)
 
 1. Wählen Sie die gewünschte Farbe aus.
 
