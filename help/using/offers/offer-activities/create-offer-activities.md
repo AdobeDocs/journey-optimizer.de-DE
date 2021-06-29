@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 93%
 
 ---
 
@@ -37,11 +37,15 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../../assets/activities-name.png)
 
-## Hinzufügen von Angeboten  {#add-offers}
+## Entscheidungsbereiche hinzufügen {#add-decision-scopes}
 
 1. Ziehen Sie eine Platzierung per Drag-and-Drop aus der Liste, um sie der Entscheidung hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >Dieselbe Platzierung kann in der Entscheidung mehrmals ausgewählt werden.
 
 1. Wählen Sie die Kollektion aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
