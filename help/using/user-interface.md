@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 77%
+source-wordcount: '1256'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ In den meisten Listen können Sie über eine Suchleiste nach einem bestimmten El
 
 Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
 
-In der Liste der Journeys können Sie Journeys anhand ihres Status und ihrer Version mit den **[!UICONTROL Status- und Versionsfiltern]** filtern. Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
+In der Liste der Journey können Sie Journey anhand ihres Status, Typs und ihrer Version aus den **[!UICONTROL Status- und Versionsfiltern]** filtern. Der Typ kann: **[!UICONTROL Einzelereignis]**, **[!UICONTROL Segmentqualifizierung]**, **[!UICONTROL Segment lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**. Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
