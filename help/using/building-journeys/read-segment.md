@@ -2,27 +2,25 @@
 title: Segment in einer Journey verwenden
 description: Erfahren Sie, wie Sie ein Segment in einer Journey verwenden können
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 94%
+source-wordcount: '958'
+ht-degree: 93%
 
 ---
 
 # Segment in einer Journey verwenden {#segment-trigger-activity}
 
-## Über die Aktivität „Segment lesen“ {#about-segment-trigger-actvitiy}
+## Über die Aktivität „Segment lesen“  {#about-segment-trigger-actvitiy}
 
 Mit der Aktivität „Segment-Lesen“ können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
 Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim Anwendungsfall [Segmente erstellen](../segment/about-segments.md) erstellt wurde. Mit der Aktivität „Segment lesen“ können Sie alle Kontakte, die zu diesem Segment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
->
->Es ist nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
 >
 >Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Nachrichten an einfache Journey, die ein Lesesegment und eine einfache Push-Nachricht enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
 
@@ -62,7 +60,7 @@ Die Schritte zum Konfigurieren der Aktivität Segment lesen lauten wie folgt:
 
    ![](../assets/read-segment-schedule.png)
 
-   Standardmäßig treten Segmente **[!UICONTROL so bald wie möglich]** in die Journey ein, d. h. eine Stunde nach der Veröffentlichung der Journey. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
+   Standardmäßig geben Segmente die Journey **[!UICONTROL So bald wie möglich]** ein. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle *
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
 >[!NOTE]
->
->Bei Ausführung einer segmentbasierten, nicht wiederkehrenden Journey („sobald wie möglich starten“ oder „einmal“), wird automatisch der Status „geschlossen“ zugewiesen.
 >
 >Bei segmentbasierten, wiederkehrenden Journeys wird die Journey automatisch nach der letztmaligen Ausführung geschlossen. Wenn kein Enddatum/keine Endzeit angegeben wurde, müssen Sie die Journey manuell für neue Eintritte schließen, um sie zu beenden.
 
