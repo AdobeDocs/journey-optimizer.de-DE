@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,11 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 ## Begrenzung{#capping}
 
-Die integrierte Begrenzungs-API bietet einen vorgelagerten technischen Schutzmechanismus für Ihr externes System. Zuvor müssen Sie die Kapazität Ihrer externen API evaluieren. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungsregel definieren, damit Ihr System nicht überlastet wird.
+Die integrierte Begrenzungs-API bietet einen vorgelagerten technischen Schutzmechanismus für Ihr externes System.
+
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe , um den Endpunkt auf die Whitelist zu setzen. Dies ist für öffentliche externe Datenquellen nicht möglich.
+
+Für benutzerdefinierte Aktionen müssen Sie die Kapazität Ihrer externen API bewerten. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungsregel definieren, damit Ihr System nicht überlastet wird.
 
 Begrenzungsregeln werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Zur Laufzeit überprüft Journey Optimizer, ob eine Begrenzungsregel definiert ist, und wendet die definierte Rate während der Aufrufe an diesem Endpunkt an. Wenn die Anzahl der Aufrufe die definierte Rate überschreitet, werden die verbleibenden Aufrufe verworfen und in Berichten als Fehler gezählt.
 
@@ -68,7 +72,7 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 **Wie kann ich eine Begrenzungsregel konfigurieren? Gibt es eine standardmäßige Begrenzungsregel?**
 
-Standardmäßig gibt es keine Begrenzungsregel. Begrenzungsregeln werden auf Sandbox-Ebene mithilfe der Begrenzungs-API für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping) und auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de).
+Standardmäßig gibt es keine Begrenzungsregel. Begrenzungsregeln werden auf Sandbox-Ebene mithilfe der Begrenzungs-API für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping) und auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
 **Wie viele weitere Versuche werden unternommen? Kann ich die Anzahl der weiteren Versuche ändern oder eine Mindestwartezeit zwischen den Versuchen definieren?**
 
