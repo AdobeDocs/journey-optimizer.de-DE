@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
+source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 78%
+source-wordcount: '1768'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Jo
 
 Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
 
-Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Dabei werden die folgenden Informationen kopiert: JourneyVersion UID, OrgID, orgName, sandboxName.
+Für Live-Journey werden in diesem Bildschirm das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat.
+
+Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Die folgenden Informationen werden kopiert: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
