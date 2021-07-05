@@ -5,17 +5,17 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 99%
 
 ---
 
 
 # [!DNL Journey Optimizer] Hilfe {#using}
 
-+ [Produktdokumentation](ajo-home.md)
++ [Journey Optimizer-Dokumentation](ajo-home.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/get-started.md)
    + [Schnellstart](using/quick-start.md)
