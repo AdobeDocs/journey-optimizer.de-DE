@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 55%
+source-wordcount: '391'
+ht-degree: 49%
 
 ---
 
@@ -25,6 +25,8 @@ Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und 
 Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müssen Sie Folgendes tun:
 
 * **Festlegen von Benutzerberechtigungen**: Melden Sie sich bei an  [!DNL Adobe Journey Optimizer] und gewähren Sie Zugriff auf Ihre Team-Mitglieder. [Mehr dazu](../using/administration/permissions.md)
+
+* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]**: Um Assets und Bilder in Ihren Nachrichten zu verwalten, müssen Sie  [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Sie Teil der  **Assets Essentials Consumer** Usersor/and  **Assets Essentials** UsersProduct-Profile sind. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **Kanäle konfigurieren**: Definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
 
