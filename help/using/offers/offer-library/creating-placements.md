@@ -5,18 +5,18 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Erstellen von Platzierungen {#creating-placements}
+# Platzierungen erstellen {#creating-placements}
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 
