@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -88,7 +88,7 @@ Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle *
 
    ![](../assets/read-segment-log.png)
 
-Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
+Sobald die Tests erfolgreich sind, können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
 >[!NOTE]
 >
