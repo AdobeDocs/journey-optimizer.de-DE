@@ -5,10 +5,10 @@ feature: Anwendungskonfiguration
 topic: Push-Benachrichtigung
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 89%
+source-wordcount: '797'
+ht-degree: 87%
 
 ---
 
@@ -49,13 +49,13 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 
 * **Adobe Experience Platform Mobile-SDK**, das Client-seitige Integrations-APIs für Ihre Mobile Apps über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine [!DNL Adobe Journey Optimizer]-Erweiterung, die eine Vielzahl von APIs verfügbar macht, die für Push-Nachrichten spezifisch sind, und Datenfluss aktiviert, z. B. die Registrierung des Push-Tokens oder das Senden von Push-Tracking-Ereignissen oder anderen benutzerspezifischen Erlebnisereignissen an Adobe Experience Platform. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Adobe Experience Cloud- sowie Drittanbieterpartner-Funktionen ermöglichen.
 
-   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassungs](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de)-Services, z. B.:
+   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassung](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de){target=&quot;_blank&quot;}-Diensten, z. B.:
 
    * Erstellen eines Datenstroms zum Konfigurieren der Profil- und Erlebnisereignis-Datensätze, anhand derer die Daten in Adobe Experience Platform fließen
    * Erstellen der Client-seitigen Mobile-Eigenschaft und Hinzufügen von Erweiterungen Das SDK ist eng mit diesen Erweiterungen integriert, um eine nahtlose Datenerfassung zu ermöglichen.
    * Registrieren der Mobile-App-Bundle-ID und Mobile-App-Anmeldeinformationen
 
-* **Das Echtzeit-Kundenprofil von Adobe Experience Platform** bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Internet, Mobile, CRM und Drittanbietern, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer zentralen Ansicht zusammenführen, die eine aussagekräftige Darstellung jeder Kundeninteraktion mit Zeitstempel bietet. Das Push-Token für einen bestimmten Mobile-App-Benutzer wird im Profil des Benutzers als Eintragsdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Weitere Infos zum Echtzeit-Kundenprofil von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de)
+* **Das Echtzeit-Kundenprofil von Adobe Experience Platform** bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Internet, Mobile, CRM und Drittanbietern, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer zentralen Ansicht zusammenführen, die eine aussagekräftige Darstellung jeder Kundeninteraktion mit Zeitstempel bietet. Das Push-Token für einen bestimmten Mobile-App-Benutzer wird im Profil des Benutzers als Eintragsdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Weitere Infos zum Echtzeit-Kundenprofil von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
 
 * **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer]: Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet und Ihre Kundenprofile in Adobe Experience Platform vorhanden sind, können Sie Push-Benachrichtigungen in erstellen und koordinieren und mit Ihren Benutzern interagieren.
 
