@@ -5,7 +5,7 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 72%
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm/ihr nutzen. Es kann sein/ihr Vorname sein, seine/ihre Interessen, wo er/sie lebt und mehr.
 
-[!DNL :arrow_forward:] [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren.](#video-perso)
+➡️ [Hier erfahren Sie, wie Sie eine Nachricht personalisieren.](#video-perso)
 
 [!DNL Journey Optimizer] verwendet eine  **** inline einfache Personalisierungssyntax, die auf Handlebars basiert. Dadurch können Sie Ausdrücke mit Inhalten erstellen, die von doppelten geschweiften Klammern **{}}** eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
 
