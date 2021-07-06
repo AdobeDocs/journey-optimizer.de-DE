@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 99%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 99%
       + [Entwerfen von E-Mail-Inhalten über die Benutzeroberfläche](using/create-email-content.md)
       + [Importieren oder Kodieren Ihres E-Mail-Inhalt](using/existing-content.md)
       + [Verwenden von Inhaltskomponenten von Email Designer](using/content-components.md)
+   + [Links hinzufügen und Nachrichten verfolgen](using/message-tracking.md)
    + Validieren und Veröffentlichen {#create-message}
       + [Vorschau und Testversand](using/preview.md)
       + [Prüfen von Warnhinweisen](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 99%
    + [Erste Schritte   bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
    + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
-   + [Anwendungsfall: Personalisierung in einer Push-Benachrichtigung hinzufügen](using/personalization/personalization-use-case.md)
+   + Anwendungsbeispiele{#personalization-use-cases}
+      + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
+      + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
    + Helper-Funktionen{#functions}
       + [Liste der Helper-Funktionen](using/personalization/functions/functions.md)
       + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 99%
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracken und Überwachen {#reporting}
-   + [Nachrichten-Tracking](using/message-tracking.md)
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
