@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -102,7 +102,7 @@ Weitere Informationen zur Unterbreitung von Angeboten finden Sie in den folgende
 
 >[!NOTE]
 >
->Sobald eine Entscheidung erstellt wurde, können Sie auf ihren Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen auf der Registerkarte **[!UICONTROL Änderungsprotokoll]** einsehen (siehe [Änderungsprotokoll für Angebote und Entscheidungen](../get-started/user-interface.md#changes-log)).
+>Nachdem eine Entscheidung erstellt wurde, können Sie auf ihren Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle Änderungen, die daran vorgenommen wurden, mithilfe des Tabs **[!UICONTROL Änderungsprotokoll]** visualisieren (siehe [Änderungsprotokoll für Angebote und Entscheidungen](../get-started/user-interface.md#changes-log)).
 
 ## Tutorial {#video}
 
