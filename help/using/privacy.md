@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Datenschutz verwalten.
 topic: Datenschutz
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 95%
@@ -35,7 +35,7 @@ Personenbezogene und vertrauliche Daten müssen sorgfältig verwaltet werden. Be
 
 * Senden Sie keine unerwünschten Nachrichten („Spam“). Adobe glaubt fest an Permission Marketing, um den Kundenlebenszeitwert und die Treue zu fördern, und verbietet daher strikt die Verwendung von Journey Optimizer zum Versenden von unerwünschten Nachrichten.
 
-Journey Optimizer bietet Ihnen die Möglichkeit, die Ihren Benutzern zugewiesenen Rechte über verschiedene vorgefertigte oder benutzerdefinierte Produktprofile zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen zum Verwalten von Benutzerzugriffsrechten finden Sie unter [Berechtigungen verwalten](../administration/permissions.md).
+Journey Optimizer bietet Ihnen die Möglichkeit, die Ihren Benutzern zugewiesenen Rechte über verschiedene vorgefertigte oder benutzerdefinierte Produktprofile zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen zum Verwalten von Benutzerzugriffsrechten finden Sie unter [Berechtigungen verwalten](administration/permissions.md).
 
 Mit Journey Optimizer können Sie auch die gesendeten Nachrichten und das Verhalten Ihrer Empfänger durch Öffnungen und Klicks auf Links verfolgen. [Erfahren Sie mehr über die Verwaltung des Trackings](message-tracking.md).
 
