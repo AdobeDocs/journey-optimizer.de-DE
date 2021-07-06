@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 48%
+ht-degree: 45%
 
 ---
 
@@ -57,4 +57,4 @@ Lesen Sie die folgenden Abschnitte, um Ihre erste Journey einzurichten und Nachr
 
 * **Journeys erstellen**: Senden Sie Nachrichten, nutzen Sie kontextbezogene Daten, verfeinern Sie Audiences, entwerfen Sie mehrstufige Anwendungsfälle und führen Sie diese aus. [Mehr dazu](building-journeys/journey.md)
 
-* **Nachrichten und Journeys überwachen**: Kontrollieren Sie die Ausführung von Nachrichten, prüfen Sie Nachrichten- und Journey-Berichte, verfolgen Sie Zustellbarkeitsmetriken. [Mehr dazu](message-monitoring.md)
+* **Überwachen von Nachrichten und Journey**: Kontrolle der Nachrichtenausführung, Überprüfung von Nachrichten- und Journey-Berichten, Follow-up-Zustellbarkeitsmetriken. [Mehr dazu](message-monitoring.md)
