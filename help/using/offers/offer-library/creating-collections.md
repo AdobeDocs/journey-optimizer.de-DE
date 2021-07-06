@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Kollektion erstellen, die nur sportbezogene Angebote enthält.
 
-![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
