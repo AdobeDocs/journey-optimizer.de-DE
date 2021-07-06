@@ -1,24 +1,24 @@
 ---
-title: Anwendungsfall für Personalisierung
-description: Anwendungsfall für Personalisierung
+title: Anwendungsfall für Personalisierung&colon Bestellstatus-Benachrichtigung
+description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebots- und Kontextinformationen personalisieren.
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 97%
+source-wordcount: '624'
+ht-degree: 90%
 
 ---
 
 
-# Anwendungsfall für Personalisierung {#personalization-use-case}
+# Anwendungsfall: Personalisierung Bestellstatus-Benachrichtigung {#personalization-use-case}
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
 * **Profil**: Personalisierung von Nachrichten basierend auf einem Profilfeld
-* **Angebotsentscheidung**: Personalisierung basierend auf Variablen zur Angebotsentscheidung
+* **Angebotsentscheidung**: Personalisierung basierend auf offer decisioning-Variablen
 * **Kontext**: Personalisierung basierend auf Kontextdaten aus der Journey
 
 Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu pushen. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
@@ -116,7 +116,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc17.png)
 
-1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss mit einem Testprofil übereinstimmen. Klicken Sie auf **Senden**.
+1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss einem Testprofil entsprechen. Klicken Sie auf **Senden**.
 
    ![](assets/perso-uc18.png)
 
