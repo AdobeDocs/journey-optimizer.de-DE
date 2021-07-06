@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Datenschutz verwalten.
 topic: Datenschutz
 role: User
 level: Intermediate
-source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 95%
+source-wordcount: '771'
+ht-degree: 85%
 
 ---
 
@@ -33,11 +33,11 @@ Personenbezogene und vertrauliche Daten müssen sorgfältig verwaltet werden. Be
 
 * Gehen Sie stets verantwortungsvoll und ethisch korrekt mit personenbezogenen Informationen um.
 
-* Senden Sie keine unerwünschten Nachrichten („Spam“). Adobe glaubt fest an Permission Marketing, um den Kundenlebenszeitwert und die Treue zu fördern, und verbietet daher strikt die Verwendung von Journey Optimizer zum Versenden von unerwünschten Nachrichten.
+* Senden Sie keine unerwünschten Nachrichten („Spam“). Adobe ist fest davon überzeugt, dass das Permission Marketing den Lebenszeitwert und die Treue von Kunden fördert und verbietet daher strikt die Verwendung von [!DNL Adobe Journey Optimizer] beim Versand unerwünschter Nachrichten.
 
-Journey Optimizer bietet Ihnen die Möglichkeit, die Ihren Benutzern zugewiesenen Rechte über verschiedene vorgefertigte oder benutzerdefinierte Produktprofile zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Weitere Informationen zum Verwalten von Benutzerzugriffsrechten finden Sie unter [Berechtigungen verwalten](administration/permissions.md).
+[!DNL Journey Optimizer] bietet Ihnen die Möglichkeit, die Ihren Benutzern zugewiesenen Rechte über verschiedene vorgefertigte oder benutzerdefinierte Produktprofile zu verwalten. Damit können Sie festlegen, wer in Ihrem Unternehmen auf unterschiedliche Arten von Daten zugreifen, diese ändern und exportieren kann. Erfahren Sie, wie Sie Benutzerberechtigungen in [dieser Seite](administration/permissions.md) verwalten.
 
-Mit Journey Optimizer können Sie auch die gesendeten Nachrichten und das Verhalten Ihrer Empfänger durch Öffnungen und Klicks auf Links verfolgen. [Erfahren Sie mehr über die Verwaltung des Trackings](message-tracking.md).
+[!DNL Journey Optimizer]Mit können Sie auch die gesendeten Nachrichten und das Verhalten Ihrer Empfänger durch Öffnungen und Klicks auf Links verfolgen. Weitere Informationen zur Tracking-Verwaltung finden Sie auf [dieser Seite](message-tracking.md).
 
 ## Datenschutzverwaltung {#privacy-management}
 
@@ -52,7 +52,7 @@ Um den Datenschutz korrekt zu handhaben und personenbezogene Daten korrekt zu ve
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (kalifornisches Verbraucherschutzgesetz)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (thailändisches Gesetz zum Schutz personenbezogener Daten)
 
-Journey Optimizer übernimmt die meisten Datensatzänderungen, die in Adobe Experience Platform vorgenommen wurden.
+[!DNL Journey Optimizer] übernimmt die meisten Datensatzänderungen, die in Adobe Experience Platform vorgenommen wurden.
 
 Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwerden) über Experience Platform verwaltet. Sie müssen Ihre Anfragen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) senden und **Profil** und **AEP Data Lake** aus der Liste auswählen, wenn Sie [Ihre Datenschutzanfrage erstellen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
@@ -62,7 +62,7 @@ Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwe
 
 ## Adobe Experience Cloud – Datenschutz {#experience-cloud-privacy}
 
-Journey Optimizer ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen von Adobe Experience Cloud. [Weitere Informationen zum Datenschutz](https://www.adobe.com/de/privacy/experience-cloud.html) in Adobe Experience Cloud.
+[!DNL Journey Optimizer] ist Teil der Adobe Experience Cloud-Lösungen. Die Art und Weise, wie der Datenschutz behandelt wird, entspricht den allgemeinen Grundsätzen von Adobe Experience Cloud. Weitere Informationen zum Datenschutz in Adobe Experience Cloud finden Sie auf [dieser Seite](https://www.adobe.com/de/privacy/experience-cloud.html).
 
 Als Unternehmen, das Adobe Experience Cloud-Lösungen nutzt, entscheiden Sie selbst, welche Informationen erfasst und an Ihr Adobe Experience Cloud-Konto gesendet werden sollen. Beispiele für die Arten von Informationen, die erfasst werden können, sind Webbrowsing-Aktivitäten, IP-Adressen, Standortinformationen von Mobilgeräten, Erfolgsquoten von Kampagnen, gekaufte oder in den Warenkorb gelegte Artikel usw. Weitere Informationen finden Sie in der [Datenschutzerklärung von Adobe](https://www.adobe.com/de/privacy/policy.html).
 
@@ -73,6 +73,6 @@ Adobe fordert Sie auf, Ihren Kunden Datenschutzrichtlinien bereitzustellen, in d
 
 >[!NOTE]
 >
->Wie bei allen Produkten von Adobe können Journey Optimizer-Benutzer der Weitergabe ihrer Informationen, die über Mobile Apps und Websites erfasst wurden, widersprechen. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
+>Wie bei allen Adobe-Produkten können [!DNL Adobe Journey Optimizer]-Benutzer die Freigabe von Informationen, die über Apps und Websites erfasst wurden, deaktivieren. Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Adobe Experience Cloud-Nutzungsinformationen](https://www.adobe.com/de/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
