@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Abfragen in Adobe Journey Optimizer erstellen
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -24,5 +24,5 @@ Erfahren Sie, wie Sie den Abfrage-Editor in [dieser Dokumentation](https://exper
 
 **Siehe auch**
 
-* [Dokumentation zu Query Service](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [Video Query Service - Übersicht](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Dokumentation zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target=&quot;_blank&quot;}
+* [Video Query Service - Übersicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=de){target=&quot;_blank&quot;}
