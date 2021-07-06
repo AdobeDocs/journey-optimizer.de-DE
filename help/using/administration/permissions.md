@@ -6,10 +6,10 @@ feature: Kontrollgruppen
 topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 97%
+source-wordcount: '853'
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,7 @@ Bei Bedarf können Sie auch ein neues Produktprofil mit bestimmten Berechtigunge
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, eigene **[!UICONTROL Produktprofile]** zu erstellen und Ihren Benutzern eine Reihe von Berechtigungen und Sandboxes zuzuweisen. Mit **[!UICONTROL Produktprofilen]** können Sie Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche zulassen oder verweigern.
 
-Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de).
+Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}.
 
 In diesem Beispiel erstellen wir ein Produktprofil mit dem Namen **Journeys nur lesen**, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzer können nur auf Journeys zugreifen und diese anzeigen und nicht auf andere Funktionen wie **[!UICONTROL Entscheidungs-Management]** oder **[!UICONTROL Nachrichten]** in [!DNL Journey Optimizer] zugreifen.
 
@@ -141,7 +141,7 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
    ![](../assets/access_control_13.png)
 
-1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
+1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](sandboxes.md)
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
