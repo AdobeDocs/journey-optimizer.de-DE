@@ -2,13 +2,13 @@
 title: Segmentqualifikationsereignisse
 description: Mehr über Segmentqualifizierungsereignisse
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
