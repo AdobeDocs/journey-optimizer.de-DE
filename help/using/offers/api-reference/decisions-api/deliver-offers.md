@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können Angebote erstellen und bereitstellen, indem Sie eine POST-Anfrage an
 
 Dieses Tutorial erfordert ein Verständnis von APIs, insbesondere im Hinblick auf das Entscheidungs-Management. Weitere Informationen finden Sie im [Entwicklerhandbuch zur Entscheidungs-Management-API](../getting-started.md). Für dieses Tutorial benötigen Sie außerdem Werte für eine eindeutige Platzierungs- und Entscheidungskennung. Wenn Sie diese Werte nicht erhalten haben, finden Sie in den Tutorials zum [Erstellen einer Platzierung](../offers-api/placements/create.md) und zum [Erstellen einer Entscheidung](../activities-api/activities/create.md) weitere Informationen.
 
-![](../../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Header „Accept“ und „Content-Type“
 
