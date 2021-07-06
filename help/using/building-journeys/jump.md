@@ -2,13 +2,13 @@
 title: Springen zwischen Journeys
 description: Springen zwischen Journeys
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 93%
+source-wordcount: '829'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ In der Ziel-Journey leitet das erste Ereignis, das intern durch die **[!UICONTRO
 
 >[!NOTE]
 >
->Weitere Informationen erfahren Sie [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de) im Anleitungsvideo.
+>Weitere Informationen finden Sie im Tutorial-Video zur Journey Orchestration [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de){target=&quot;_blank&quot;}
 
 ## Lebenszyklus
 
