@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ Verwenden Sie den Bereich &quot;Gerätevorschau&quot;, um zu visualisieren, wie 
 
 ## Klickverhalten {#on-click-behavior}
 
-Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger.
+Wählen Sie das Verhalten aus, wenn ein Empfänger auf den Text der Push-Benachrichtigung klickt.
 
 ![](assets/title-body-push.png)
 
@@ -78,7 +78,7 @@ Klicken Sie auf **[!UICONTROL Erweitern Sie die Ansicht]**, um eine Vorschau Ihr
 
 ## Senden einer stillen Benachrichtigung
 
-Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Mobile App gesendet wird. Sie wird beispielsweise verwendet, um Ihre Mobile App über die Verfügbarkeit von neuem Inhalt zu informieren oder einen Download im Hintergrund zu starten.
+Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Mobile App gesendet wird. Sie wird beispielsweise verwendet, um Ihre Anwendung über die Verfügbarkeit neuer Inhalte zu informieren oder einen Download im Hintergrund zu starten.
 
 Wählen Sie die Option **[!UICONTROL Stille Benachrichtigung]** aus, um die Mobile App im Hintergrund zu benachrichtigen. In diesem Fall wird die Benachrichtigung direkt auf die Mobile App übertragen. Auf dem Bildschirm des Geräts wird dabei kein Warnhinweis angezeigt.
 
