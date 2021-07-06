@@ -5,15 +5,15 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
-# Informationen zum Entscheidungs-Management {#about-offer-decision}
+# Informationen zum Entscheidungs-Management  {#about-offer-decision}
 
 Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden.
 
@@ -30,7 +30,7 @@ Zu den Vorteilen zählen:
 * Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen erstellen zu müssen, können Marketing-Teams Workflows optimieren, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
 * Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
-Um mehr über Entscheidungs-Management zu erfahren, ![](../../assets/do-not-localize/how-to-video.png)[sehen Sie sich diese Anleitungsvideos an](#tutorial-videos).
+➡️ [Sehen Sie sich diese Anleitungsvideos](#tutorial-videos) an, um mehr über die Entscheidungsverwaltung zu erfahren.
 
 ## Über Angebote und Entscheidungen {#offers-offer-activities}
 
