@@ -5,16 +5,16 @@ feature: Anwendungskonfiguration
 topic: Push-Benachrichtigung
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1561'
 ht-degree: 22%
 
 ---
 
 # Kanal für Push-Benachrichtigungen konfigurieren {#push-notification-configuration}
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, Journey zu erstellen und Nachrichten an eine bestimmte Zielgruppe zu senden. Bevor Sie mit dem Versand von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie sicherstellen, dass Konfigurationen und Integrationen in der Mobile App sowie in [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch] vorhanden sind. Informationen zum Datenfluss von Push-Benachrichtigungen in Adobe Journey Optimizer finden Sie auf [dieser Seite](push-gs.md).
+[!DNL Journey Optimizer] ermöglicht es Ihnen, Journey zu erstellen und Nachrichten an eine bestimmte Zielgruppe zu senden. Bevor Sie mit dem Versand von Push-Benachrichtigungen mit [!DNL Journey Optimizer] beginnen, müssen Sie sicherstellen, dass Konfigurationen und Integrationen in der Mobile App sowie in [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch] vorhanden sind. Informationen zum Datenfluss von Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] finden Sie auf [dieser Seite](push-gs.md).
 
 ## Vor Beginn
 
