@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 95%
+source-wordcount: '954'
+ht-degree: 90%
 
 ---
 
@@ -90,7 +90,7 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
 
    Sie können die Präsentation eines Angebots auf die Mitglieder eines oder mehrerer Adobe Experience Platform-Segmente einschränken. Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]**.
 
-   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+   Weitere Informationen zum Arbeiten mit Segmenten finden Sie auf [dieser Seite](../../segment/about-segments.md).
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ Es kann jetzt Benutzern unterbreitet werden. Sie können das Angebot auswählen,
 
 ![](../../assets/offer_created.png)
 
-Sobald ein Angebot erstellt wurde, können Sie in der Liste auf seinen Namen klicken, um auf detaillierte Informationen zuzugreifen, und alle vorgenommenen Änderungen über die Registerkarte **[!UICONTROL Änderungsprotokoll]** überwachen (siehe [Änderungen an Angeboten und Entscheidungen überwachen](../get-started/user-interface.md#monitoring-changes)).
+Nachdem ein Angebot erstellt wurde, können Sie auf seinen Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen und alle Änderungen zu überwachen, die an ihm vorgenommen wurden, indem Sie den Tab **[!UICONTROL Änderungsprotokoll]** verwenden. [Weitere Informationen](../get-started/user-interface.md#monitoring-changes).
 
 ## Tutorial {#video}
 
