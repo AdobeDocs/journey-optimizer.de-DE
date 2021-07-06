@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Profile erstellen 
 feature: Profile
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -29,5 +29,5 @@ Weitere Informationen zu **Zusammenführungsrichtlinien** finden Sie in dieser [
 
 **Siehe auch**
 
-* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
+* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target=&quot;_blank&quot;}
 * [Überblick über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}
