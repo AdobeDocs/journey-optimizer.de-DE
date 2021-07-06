@@ -15,10 +15,10 @@ feature: Anwendungskonfiguration
 topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 93%
 
 ---
 
@@ -47,6 +47,10 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    ![](../assets/subdomain-name.png)
 
+   >[!CAUTION]
+   >
+   >Vergewissern Sie sich, dass Sie eine gültige Subdomain eingegeben haben, z. B. marketing.company.com. Die Zuweisung einer ungültigen Subdomain zu Adobe ist nicht zulässig.
+
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
    Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige...“ und klicken Sie dann auf **[!UICONTROL Senden]**.
@@ -73,7 +77,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    ![](../assets/subdomain-processing.png)
 
-1. Sobald die Prüfungen erfolgreich durchlaufen und bestanden sind, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    <!-- later on, users will be notified in Pulse -->
 
