@@ -5,16 +5,16 @@ feature: Angebote
 topic: Integrationen
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# Eine Entscheidung nachschlagen
+# Entscheidung nachschlagen
 
-Sie können einzelne Entscheidungen (früher als „Angebotsaktivität“ bekannt) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder das `@id` der Entscheidung oder den Namen der Entscheidung im Anfragepfad enthält.
+Sie können nach bestimmten Entscheidungen (ehemals Angebotsaktivitäten) suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] -API richten, die entweder die Entscheidungen `@id` oder den Namen der Entscheidung im Anfragepfad enthält.
 
 **API-Format**
 
