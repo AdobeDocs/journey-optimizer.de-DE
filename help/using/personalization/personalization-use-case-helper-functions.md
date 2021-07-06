@@ -5,9 +5,9 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1084'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Führen Sie folgende Schritte aus:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Erfahren Sie mehr über den Datentyp [Personenname](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      Weitere Informationen zum Datentyp für den Personennamen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 6. Klicken Sie auf **[!UICONTROL Validate]** und dann auf **[!UICONTROL Save]**.
 
@@ -98,7 +98,7 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 2. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Erfahren Sie mehr über den [Produktlistenelement-Datentyp](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
 3. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 4. Fügen Sie die Nachricht zum Journey hinzu.
@@ -328,15 +328,15 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
 ### Handlebars-Funktionen
 
-[Helper](functions/helpers.md)
+* [Helper](functions/helpers.md)
 
-[Zeichenfolgen-Funktionen](functions/string.md)
+* [Zeichenfolgen-Funktionen](functions/string.md)
 
 ### Anwendungsbeispiele
 
-[Personalisierung mit Profilinformationen, Kontext und Angebot](personalization-use-case.md)
+* [Personalisierung mit Profilinformationen, Kontext und Angebot](personalization-use-case.md)
 
-[Personalisierung mit entscheiden-basiertem Angebot](../offers/offers-e2e.md)
+* [Personalisierung mit entscheiden-basiertem Angebot](../offers/offers-e2e.md)
 
 ## Tutorial{#helper-functions-video}
 
