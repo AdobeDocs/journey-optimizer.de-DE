@@ -3,10 +3,10 @@ title: Veröffentlichen und Ändern einer Nachricht
 description: Erfahren Sie, wie Sie Nachrichten veröffentlichen und aktualisieren
 snippet: y
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Nachdem die Nachricht erstellt wurde, können Sie diese veröffentlichen, um sie
 
 >[!CAUTION]
 >
->Prüfen und lösen Sie Warnhinweise vor der Veröffentlichung. [Weitere Informationen](alerts.md).
+>Prüfen und lösen Sie Warnhinweise vor der Veröffentlichung. [Weitere Informationen](alerts.md)
 
 ![](assets/publish-message.png)
 
