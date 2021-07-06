@@ -5,10 +5,10 @@ feature: Ereignisse
 topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 94%
+source-wordcount: '846'
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 ## Definieren der Payload-Felder {#define-the-payload-fields}
 
-Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder auf das Symbol **[!UICONTROL Bearbeiten]** .
 
