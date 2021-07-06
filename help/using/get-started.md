@@ -2,13 +2,13 @@
 title: Journey Optimizer
 description: Erste Schritte mit Journey Optimizer
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: 6783aaec0d050074624b9aa8219252ebf7618088
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 21%
+source-wordcount: '688'
+ht-degree: 23%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer] basiert nativ auf  [!DNL Adobe Experience Platform] und kombiniert ein einheitliches Echtzeit-Kundenprofil, ein API-First Open Framework, zentralisierte offer decisioning und künstliche Intelligenz (KI) sowie maschinelles Lernen (ML) zur Personalisierung und Optimierung. Journey Optimizer ermöglicht es Marken, die nächste beste Interaktion mit Skalierung, Geschwindigkeit und Flexibilität über die gesamte Journey hinweg intelligent zu bestimmen. Mit [!DNL Adobe Journey Optimizer] können Unternehmen innerhalb derselben Anwendung sowohl geplante Marketing-Kampagnen (z. B. wöchentliche Promotions für einen Einzelhandelsgeschäft) als auch maßgeschneiderte individuelle Nachrichten (z. B. eine Push-Benachrichtigung für einen Artikel, den ein Kunde einer Treueprogramm angesehen hat und der zuvor nicht auf Lager war) erstellen und bereitstellen.
 
+➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (Video)
+
+
 ## Anwendungsbeispiele
 
 * Marketingexperten können [!DNL Adobe Journey Optimizer] verwenden, um sowohl personalisierte Kommunikation als auch zielgruppenbasierte Batch-Kommunikation zu senden. Beispielsweise sendet ein Bekleidungsgeschäft in der Regel Umfragen nach dem Kauf an alle Kunden, die in der letzten Woche Produkte gekauft haben. Aufgrund des schlechten Wetters kam es bei einigen Sendungen zu Verspätungen. Da der Bekleidungsladen erkennt, welche Kunden ihre Sendungen nicht erhalten haben, kann er sie vom geplanten Versand der Kundenzufriedenheit ausschließen und stattdessen eine personalisierte E-Mail versenden, in der er sich für die Verzögerung entschuldigt und einen Rabattcode mit Produktempfehlungen anbietet, die auf den früheren Käufen des Kunden basieren.
@@ -35,7 +38,8 @@ ht-degree: 21%
 
 ## Wichtigste Funktionen
 
-[!DNL Adobe Journey Optimizer] ist eine agile und skalierbare Anwendung zur Erstellung und Bereitstellung personalisierter, vernetzter und zeitnaher Kundenerlebnisse für alle Anwendungen, Geräte oder Kanäle.
+[!DNL Adobe Journey Optimizer] ist eine agile und skalierbare Anwendung zur Erstellung und Bereitstellung personalisierter, vernetzter und zeitnaher
+Kundenerlebnisse in allen Mobile Apps, Geräten oder Kanälen.
 
 ![](assets/ajo-capabilities.png)
 
@@ -46,6 +50,13 @@ Die wichtigsten Funktionen von Creative Designer ermöglichen Folgendes:
 * **Moderne Omnichannel-Orchestrierung und -Ausführung**  - Eine einzige Arbeitsfläche, auf der die Journey für 1:1-Kundeninteraktionen und Marketingkontakte harmonisiert und optimiert werden kann, um Marken dabei zu helfen, im gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. Journey, die in [!DNL Adobe Journey Optimizer] entwickelt wurden, können dynamisch und ereignisbasiert sein, um Marken dabei zu helfen, auf Echtzeitsignale zu reagieren und diese Interaktionen mit terminierten Kampagnen zu verbinden, sodass die richtigen Entscheidungen darüber getroffen werden können, welche Nachrichten ein Kunde senden soll, wann und über welche Kanäle.
 
 * **Intelligente Entscheidungsfindung und Personalisierung** : Marken können zentralisierte Entscheidungen treffen und künstliche Intelligenz und maschinelles Lernen integrieren, um prädiktive Einblicke über das gesamte Kundenerlebnis hinweg zu gewinnen. Dies erleichtert die Automatisierung von Entscheidungen und die Optimierung des skalierten Erlebnisses. offer decisioning ermöglicht zentralisierte Angebote über mehrere Kanäle im Maßstab bis [!DNL Adobe Journey Optimizer].
+
+## Architektur
+
+Machen Sie sich mit der grundlegenden Architektur von [!DNL Adobe Journey Optimizer], den Integrationspunkten und der Beziehung von [!DNL Journey Optimizer] zu anderen Adobe Apps vertraut.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+
 
 >[!NOTE]
 >
