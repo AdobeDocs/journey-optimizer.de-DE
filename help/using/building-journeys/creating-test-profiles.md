@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 55%
+source-wordcount: '1374'
+ht-degree: 51%
 
 ---
 
@@ -22,9 +22,9 @@ Die verfügbaren Methoden zum Erstellen von Testprofilen werden nachfolgend besc
 
 * Sie können ein Testprofil erstellen, indem Sie eine [CSV-Datei](#create-test-profiles-csv) hochladen oder [API-Aufrufe](#create-test-profiles-api) verwenden. Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [Anwendungsfall für das In-Produkt](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
 
-* Sie können auch eine JSON-Datei in einen Datensatz hochladen. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset).
+* Sie können auch eine JSON-Datei in einen Datensatz hochladen. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Beachten Sie, dass das Erstellen eines Testprofils mit dem Erstellen regulärer Profile in Adobe Experience Platform vergleichbar ist. Weitere Informationen finden Sie in der [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de).
+Beachten Sie, dass das Erstellen eines Testprofils mit dem Erstellen regulärer Profile in Adobe Experience Platform vergleichbar ist. Weitere Informationen finden Sie in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Voraussetzungen    {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
 
 >[!NOTE]
 >
->Weitere Informationen zur Erstellung von Schemata finden Sie in der [XDM-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#prerequisites).
+>Weitere Informationen zur Schemaerstellung finden Sie in der [XDM-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=de#prerequisites){target=&quot;_blank&quot;}.
 
 Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile importiert werden. Führen Sie folgende Schritte aus:
 
@@ -76,7 +76,7 @@ Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile import
 
 >[!NOTE]
 >
-> Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zum Katalogdienst](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
+> Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zum Katalogdienst](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
 
 ## Anwendungsfall für das Produkt{#use-case-1}
 
@@ -88,7 +88,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** , um den Anwendungsfa
 
 Die folgenden Informationen werden benötigt:
 
-1. **Identitäts-Namespace**: Der  [Identitäts-](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de) Namespace, mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise E-Mail zur Identifizierung der Testprofile verwendet wird, sollte der Identitäts-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identitäts-Namespace **Phone** ausgewählt werden.
+1. **Identitäts-Namespace**: Der  [Identitäts-](../get-started-identity.md) Namespace, mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise E-Mail zur Identifizierung der Testprofile verwendet wird, sollte der Identitäts-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identitäts-Namespace **Phone** ausgewählt werden.
 
 2. **CSV-Datei**: Eine kommagetrennte Datei, die die Liste der zu erstellenden Testprofile enthält. Der Anwendungsfall erwartet ein vordefiniertes Format für die CSV-Datei, die die Liste der zu erstellenden Testprofile enthält. Jede Zeile in der Datei sollte die folgenden Felder in der richtigen Reihenfolge wie folgt enthalten:
 
@@ -171,11 +171,11 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials).
+> Weitere Informationen zu CSV-Importen finden Sie in der [Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de#tutorials){target=&quot;_blank&quot;}.
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen {#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weiterführende Informationen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Sie müssen ein Profilschema verwenden, das die Feldergruppe &quot;Profiltestdetails&quot;enthält. Das Flag testProfile ist Teil dieser Feldergruppe.
 Achten Sie beim Erstellen eines Profils darauf, diesen Wert zu übergeben: testProfile = true.
