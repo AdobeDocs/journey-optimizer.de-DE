@@ -5,10 +5,10 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ Im [!DNL Journey Optimizer]-Ausdruckseditor sind Helper-Funktionen in drei Kateg
         <td><a href="aggregation.md#max">Maximum</a></td><td>Diese Funktion gibt den größten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Obermenge</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist, d. h. ob dieses Array A alle Elemente in Array B enthält</td>
+    <td><a href="arrays-list.md#superset">Obermenge</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist, d. h. wenn dieses Array A alle Elemente in Array B enthält</td>
     </tr>
 </table>
 
