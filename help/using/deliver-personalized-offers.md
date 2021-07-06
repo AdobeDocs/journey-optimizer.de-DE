@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 35%
+source-wordcount: '536'
+ht-degree: 34%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
    >[!NOTE]
    >
-   >In diesem Beispiel verwenden wir den Namespace **Email**. Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#getting-started).
+   >In diesem Beispiel verwenden wir den Namespace **Email**. Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](get-started-identity.md).
 
 1. Wählen Sie in der Liste der Identitäts-Namespaces **[!UICONTROL E-Mail]** aus und klicken Sie auf **[!UICONTROL Auswählen]**.
 
