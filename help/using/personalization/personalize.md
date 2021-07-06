@@ -5,10 +5,10 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 72%
+source-wordcount: '666'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer]
 
 [!DNL Journey Optimizer] verwendet eine  **** inline einfache Personalisierungssyntax, die auf Handlebars basiert. Dadurch können Sie Ausdrücke mit Inhalten erstellen, die von doppelten geschweiften Klammern **{}}** eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen hierzu finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >Das Schema **XDM Individual Profile** ist das einzige Schema, mit dem Sie Inhalte in [!DNL Journey Optimizer] personalisieren können.
@@ -89,8 +89,8 @@ In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswähle
 
 Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können. Verfügbare Quellen sind:
 
-* **Profil**: Listet alle Verweise auf, die mit dem Profilschema, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschrieben ist, verknüpft sind.
-* **Segmentzugehörigkeit**: Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+* **Profil** : listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der Dokumentation zum  [Adobe Experience Platform-Datenmodell (XDM) ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben ist.
+* **Segmentzugehörigkeit**: Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.
 * **Angebote**: Listet alle Angebot auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md).
 * **Kontext**: Wenn die Aktivität **Nachrichten** in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md).
 * **Helper-Funktionen**: listet alle Helper-Funktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen, Bedingungen und die Bearbeitung von Daten im Kontext der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md).
