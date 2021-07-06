@@ -5,9 +5,9 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1180'
 ht-degree: 95%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierung oder Konvertierungen und Bedingungen durchzuführen und bearbeiten Sie Daten im Kontext der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
 
-[!DNL :arrow_forward:] [Erfahren Sie im Video, wie Sie Hilfsfunktionen verwenden](#video)
+➡️ [Erfahren Sie, wie Sie Hilfsfunktionen](#video) verwenden (Video)
 
 Die Vorlagensprache wird in Helper-Funktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Ausdruckseditors verfügbar sind, wie unten gezeigt:
 
