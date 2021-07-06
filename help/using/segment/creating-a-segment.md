@@ -2,12 +2,12 @@
 title: Erstellen eines Segments
 description: Erfahren Sie, wie Sie ein Segment erstellen
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 96%
 
 ---
@@ -53,3 +53,7 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 1. Wenn das Segment fertig ist, klicken Sie auf **[!UICONTROL Speichern]**. Es wird nun in der Liste von Adobe Experience Platform-Segmenten angezeigt. Mithilfe der Suchleiste können Sie ein bestimmtes Segment in der Liste suchen.
 
 Das Segment kann jetzt in Ihren Journeys verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+
+## Tutorial{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
