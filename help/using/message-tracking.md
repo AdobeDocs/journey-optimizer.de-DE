@@ -1,20 +1,20 @@
 ---
 title: Verfolgen von Nachrichten
-description: Erfahren Sie, wie Sie gesendete Nachrichten verfolgen können
+description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
 feature: Überwachung
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: e27472cc6186cf7cb25fdb93d15720fc837c58bb
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 14%
 
 ---
 
-# Nachrichten-Tracking {#tracking}
+# Links hinzufügen und Nachrichten verfolgen {#tracking}
 
-Verwenden Sie [!DNL Journey Optimizer], um die gesendeten Nachrichten und das Verhalten Ihrer Empfänger zu verfolgen.
+Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen und die gesendeten Nachrichten zu verfolgen, um das Verhalten Ihrer Empfänger zu überwachen.
 
 ## Tracking aktivieren {#enable-tracking}
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link ein, um sich vom Erhalt von Nachrichten Ihrer Marke abzumelden. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](consent.md#opt-out-management).
 
-   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen.
+   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -64,6 +64,28 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
    * Sie können den Link unterstreichen oder nicht, indem Sie die entsprechende Option aktivieren.
 
    ![](assets/message-tracking-link-settings.png)
+
+## Link zu einer Mirrorseite {#mirror-page}
+
+Die Mirrorseite ist eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Der Inhalt entspricht dem Inhalt Ihrer E-Mail.
+
+Um einen Link zu einer Mirrorseite zu Ihrer E-Mail hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
+
+![](assets/message-tracking-mirror-page.png)
+
+Die Mirrorseite wird automatisch erstellt.
+
+>[!NOTE]
+>
+>Der automatisch generierte Link kann nicht bearbeitet werden.
+
+Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicken, wird der Inhalt der E-Mail in ihrem Standard-Webbrowser angezeigt.
+
+>[!NOTE]
+>
+>Im an die Testprofile gesendeten [Testversand](preview.md#send-proofs) ist der Link zur Mirrorseite nicht aktiv. Sie wird nur in den endgültigen Nachrichten aktiviert.
+
+Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
 
 ## Tracking verwalten {#manage-tracking}
 
