@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 45%
+source-wordcount: '403'
+ht-degree: 43%
 
 ---
 
@@ -26,7 +26,7 @@ Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müsse
 
 * **Festlegen von Benutzerberechtigungen**: Melden Sie sich bei an  [!DNL Adobe Journey Optimizer] und gewähren Sie Zugriff auf Ihre Team-Mitglieder. [Mehr dazu](../using/administration/permissions.md)
 
-* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]**: Um Assets und Bilder in Ihren Nachrichten zu verwalten, müssen Sie  [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff benötigen, zu  [!DNL Assets Essentials]den Profilen  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct gehören. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]**: Um Assets und Bilder in Ihren Nachrichten zu verwalten, müssen Sie  [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff benötigen, zu  [!DNL Assets Essentials]den Profilen  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct gehören. [mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Kanäle konfigurieren**: Definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müsse
 
 * **Daten identifizieren und Schema und Datensatz erstellen**: Holen Sie Ihre Daten in Adobe Experience Platform, erstellen Sie einen Identitäts-Namespace und einen für Profile aktivierten Datensatz, erstellen Sie Segmente und Testprofile.
 
-   * Erfahren Sie, wie Sie einen Datensatz in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de) in der Vorschau anzeigen und erstellen.
+   * Erfahren Sie, wie Sie einen Datensatz in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de){target=&quot;_blank&quot;} in der Vorschau anzeigen und erstellen.
 
-   * Erfahren Sie, wie Sie einen Identitäts-Namespace in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces) erstellen.
+   * Erfahren Sie, wie Sie einen Identitäts-Namespace in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;} erstellen.
 
    * Auf [dieser Seite](../using/building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen
 
-   * Weitere Informationen zur Datenerfassung finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de)
+   * Weitere Informationen zur Datenerfassung finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}
 
 
 ### Nutzungsfluss
