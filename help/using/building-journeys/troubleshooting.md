@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1062'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von
 
 Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, richtig gesendet wurde oder nicht. Wenn Sie einen Fehler erhalten, bedeutet das, dass es bei Ihrem Aufruf zu einem Fehler kommt. Überprüfen Sie erneut die Payload, die Kopfzeile (insbesondere die Organisations-ID) sowie die Ziel-URL. Sie können Ihren Administrator nach der richtigen URL fragen.
 
-Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de) die Fehlerbehebung für Streaming-Aufnahme-APIs aufrufen.
+Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Daher können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target=&quot;_blank&quot;} nachlesen.
 
 ## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
 
