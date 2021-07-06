@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 85%
 
 ---
 
@@ -44,4 +44,4 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 Die Rangfolgenformel ist nun mit der Platzierung verknüpft.
 
-Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
+Wenn mehrere Angebote berechtigt sind, in dieser Platzierung unterbreitet zu werden, verwendet die Entscheidung die Formel der Rangformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
