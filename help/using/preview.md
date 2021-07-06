@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 85%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/previewselect-namespace.png)
 
-   Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#getting-started).
+   Weitere Informationen zu Adobe Experience Platform-Identitäts-Namespaces [finden Sie in diesem Abschnitt](get-started-identity.md){target=&quot;_blank&quot;}.
 
    Im folgenden Beispiel verwenden wir den Namespace **E-Mail**.
 
