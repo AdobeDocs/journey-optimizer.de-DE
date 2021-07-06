@@ -5,18 +5,18 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 58%
+source-wordcount: '388'
+ht-degree: 54%
 
 ---
 
-# Über Adobe Experience Platform-Segmente {#about-segments}
+# Erste Schritte mit Segmenten {#about-segments}
 
 [!DNL Journey Optimizer]Mit können Sie Adobe Experience Platform-Segmente anhand von Echtzeit-Kundenprofildaten direkt aus dem Menü **[!UICONTROL Segmente]** erstellen und diese in Ihre Journeys einbinden.
 
-Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der Dokumentation zum Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.[
 
 Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
 
