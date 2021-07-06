@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispie
 
 Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
