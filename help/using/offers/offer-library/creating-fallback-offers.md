@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
-![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der Fallback-Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
