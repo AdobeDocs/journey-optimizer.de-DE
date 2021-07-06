@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 feature: Datensätze
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 18%
@@ -15,7 +15,7 @@ ht-degree: 18%
 
 Alle Daten, die in Adobe Experience Platform aufgenommen werden, werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet.
 
-Erfahren Sie, wie Sie Datensätze in [dieser Dokumentation](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;} erstellen.
+Erfahren Sie, wie Sie Datensätze in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;} erstellen.
 
 Das Hinzufügen von Daten zu Adobe Experience Platform ist die Grundlage für die Erstellung eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemata, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
 
