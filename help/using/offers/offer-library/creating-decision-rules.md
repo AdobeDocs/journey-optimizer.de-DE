@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie En
 
 Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für Frauen“ nur dann angezeigt werden soll, wenn (Geschlecht = „Weiblich“) und (Region = „Nordost“) zutrifft.
 
-![](../../assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der erstellten Entscheidungsregeln ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
