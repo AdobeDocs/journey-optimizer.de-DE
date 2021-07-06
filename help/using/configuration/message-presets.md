@@ -5,10 +5,10 @@ feature: Anwendungskonfiguration
 topic: Administration.
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 75%
+source-wordcount: '920'
+ht-degree: 71%
 
 ---
 
@@ -26,6 +26,8 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die all
 
 
 Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
+
+![](../assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie E-Mail-Vorgaben erstellen und verwenden.](#video-presets)
 
 ## Nachrichtenvorgaben erstellen {#create-message-preset}
 
@@ -108,7 +110,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
 
-1. Sobald die Prüfungen erfolgreich bestanden sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich sind, erhält die Nachrichtenvorgabe den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -148,3 +150,8 @@ Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren
    >
    >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
 
+## Anleitungsvideo{#video-presets}
+
+Erfahren Sie, wie Sie Nachrichtenvorgaben erstellen, sie verwenden und eine Subdomain zuweisen und einen IP-Pool erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
