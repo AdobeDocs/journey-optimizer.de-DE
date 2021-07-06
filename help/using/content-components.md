@@ -2,12 +2,12 @@
 title: Verwenden von Inhaltskomponenten von Email Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in Ihren E-Mails verwenden
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1117'
 ht-degree: 97%
 
 ---
@@ -115,7 +115,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Klicken Sie auf **[!UICONTROL Durchsuchen]** , um eine Bilddatei aus Ihren Assets auszuwählen.
 
-   Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+   Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 1. Klicken Sie auf die neu hinzugefügten Komponenten, um ihre **[!UICONTROL Inhaltskomponenten]** zu konfigurieren und die **[!UICONTROL Komponenteneinstellungen]** im rechten Bereich von Email Designer zu bearbeiten.
 
