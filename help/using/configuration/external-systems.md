@@ -7,10 +7,10 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 89%
+source-wordcount: '1033'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Eine Begrenzungsregel gilt spezifisch für einen Endpunkt, aber global für alle
 
 Nehmen wir beispielsweise an, Sie haben eine Begrenzungsregel von 100 Aufrufen pro Sekunde für Ihr externes System definiert. Eine benutzerdefinierte Aktion führt in 10 verschiedenen Journeys Aufrufe an Ihr System aus. Wenn eine Journey 200 Aufrufe pro Sekunde erhält, verwendet sie die 100 verfügbaren Slots und verwirft die 100 übrigen Slots. Da die Höchstrate überschritten wurde, sind für die anderen 9 Journeys keine Slots mehr übrig. Durch diese Granularität ist das externe System vor Überlastung und Abstürzen geschützt.
 
-Weitere Informationen zur Begrenzungs-API und zum Konfigurieren von Begrenzungsregeln finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de).
+Weitere Informationen zur Begrenzungs-API und zum Konfigurieren von Begrenzungsregeln finden Sie in der [Journey Orchestration-Dokumentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Zeitüberschreitung und erneute Versuche{#timeout}
 
@@ -72,7 +72,7 @@ Sehen wir uns ein Beispiel einer Zeitüberschreitung von fünf Sekunden an.
 
 **Wie kann ich eine Begrenzungsregel konfigurieren? Gibt es eine standardmäßige Begrenzungsregel?**
 
-Standardmäßig gibt es keine Begrenzungsregel. Begrenzungsregeln werden auf Sandbox-Ebene mithilfe der Begrenzungs-API für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Weitere Informationen finden Sie in [diesem Abschnitt](../configuration/external-systems.md#capping) und auf [dieser Seite](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Standardmäßig gibt es keine Begrenzungsregel. Begrenzungsregeln werden auf Sandbox-Ebene mithilfe der Begrenzungs-API für einen bestimmten Endpunkt (die aufgerufene URL) definiert. Weitere Informationen finden Sie in der [Dokumentation zur Journey Orchestration](../configuration/external-systems.md#capping) und in der [Dokumentation zu ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 **Wie viele weitere Versuche werden unternommen? Kann ich die Anzahl weiterer Versuche ändern oder eine minimale Wartezeit zwischen Wiederholungen definieren?**
 
