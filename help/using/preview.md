@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 90%
+source-wordcount: '914'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,6 @@ Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu 
 >
 >Auf [dieser Seite](building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen.
 
-
 Zum Testen des Nachrichteninhalts sind folgende Schritte erforderlich:
 
 * [Auswählen der Testprofile](#select-test-profiles)
@@ -38,6 +37,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >
 >Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Personalisierungsdaten des Profils angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. Erfahren Sie, wie Sie die Personalisierung in [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) testen können.
 
+![](assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen.](#video-preview)
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
@@ -166,3 +166,8 @@ Anschließend gehen Sie wie folgt vor:
 >
 >Durch die Verknüpfung Ihres **Litmus**-Kontos mit [!DNL Journey Optimizer] erteilen Sie Ihr Einverständnis, dass Testmeldungen an Litmus gesendet werden: Nach dem Versand werden diese E-Mails nicht mehr von Adobe verwaltet. Dementsprechend gelten für diese E-Mails die Litmus-Richtlinien zur Datenspeicherung, einschließlich der Personalisierungsdaten, die in diesen Testnachrichten enthalten sein können.
 
+## Anleitungsvideo{#video-preview}
+
+Hier erfahren Sie, wie Sie das E-Mail-Rendering über Postfächer hinweg testen, wie Sie Ihre personalisierten E-Mails in der Vorschau mit Testprofilen anzeigen, Testsendungen durchführen und Ihre E-Mail veröffentlichen können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
