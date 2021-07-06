@@ -5,10 +5,10 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 99%
+ht-degree: 92%
 
 ---
 
@@ -107,11 +107,11 @@ Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.m
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Text-Inhalt des Angebots aus der Entscheidungs-Engine:
+* Textinhalt des Angebots, der von der Entscheidungs-Engine stammt:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML-Inhalt des Angebots aus der Entscheidungs-Engine:
+* HTML-Inhalt des Angebots, der von der Decisioning-Engine stammt:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,7 +121,7 @@ Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.m
 Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können.
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
-Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden Abschluss mit / desselben Namens.
+Diese Block-Helfer werden durch ein # identifiziert, das dem Helper-Namen vorangeht, und benötigen ein entsprechendes schließendes /, gleichnamiges -Zeichen.
 Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
 
 
