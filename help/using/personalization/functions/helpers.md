@@ -5,10 +5,10 @@ feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -70,7 +70,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 1. **Bedingten Link hinzufügen**
 
-   Der folgende Vorgang fügt einen Link zur Website „www.adobe.com/academia“ für Profile mit „.edu“-E-Mail-Adressen hinzu, zur Website „www.adobe.com/org“ für Profile mit „.org“-E-Mail-Adressen und zur Standard-URL „www.adobe.com/users“ für alle anderen Profile:
+   Der folgende Vorgang fügt einen Link zur &quot;www.adobe.com/academia&#39;&quot;-Website für Profile mit &quot;.edu&quot;-E-Mail-Adressen hinzu, zur &quot;www.adobe.com/org&#39;&quot;-Website für Profile mit &quot;.org&quot;-E-Mail-Adressen und zur Standard-URL &quot;www.adobe.com/users&#39;&quot;für alle anderen Profile:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
