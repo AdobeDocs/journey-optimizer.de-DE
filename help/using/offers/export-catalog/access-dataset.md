@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '102'
+ht-degree: 86%
 
 ---
 
@@ -26,4 +26,4 @@ Mit der Schaltfläche **[!UICONTROL Datensatz in der Vorschau ansehen]** können
 
 ![](../../assets/dataset-preview.png)
 
-Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie in der [Dokumentation zu Datensätzen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started).
+Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie auf [dieser Seite](../../get-started-datasets.md).
