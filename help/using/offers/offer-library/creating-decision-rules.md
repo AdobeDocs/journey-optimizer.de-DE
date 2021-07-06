@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 98%
+source-wordcount: '252'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Benennen Sie Ihre Regel, geben Sie eine Beschreibung ein und konfigurieren Sie dann die Regel entsprechend Ihren Anforderungen.
 
-   Dazu steht Ihnen der **Segment Builder** in Adobe Experience Platform zur Verfügung, mit dem Sie die Regelbedingungen erstellen können. Weiterführende Informationen zu dessen Verwendung finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
+   Dazu steht Ihnen der **Segment Builder** zur Verfügung, der Ihnen beim Erstellen der Regelbedingungen hilft. [Weitere Informationen](../../segment/about-segments.md)
 
    In diesem Beispiel werden Kunden mit der Treuestufe „Gold“ als Zielgruppe ausgewählt.
 
