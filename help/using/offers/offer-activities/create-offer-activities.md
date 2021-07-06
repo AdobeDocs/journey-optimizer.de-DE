@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 86%
+source-wordcount: '607'
+ht-degree: 85%
 
 ---
 
@@ -67,7 +67,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    Fügen Sie eines oder mehrere Segmente aus dem linken Bereich hinzu, kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]** und klicken Sie dann zur Bestätigung auf **[!UICONTROL Auswählen]**.
 
-   Weitere Informationen zum Arbeiten mit Segmenten finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Weitere Informationen zum Arbeiten mit Segmenten finden Sie auf [dieser Seite](../../segment/about-segments.md).
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ Weitere Informationen zur Unterbreitung von Angeboten finden Sie in den folgende
 
 >[!NOTE]
 >
->Nachdem eine Entscheidung erstellt wurde, können Sie auf ihren Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen, und alle Änderungen, die daran vorgenommen wurden, mithilfe des Tabs **[!UICONTROL Änderungsprotokoll]** visualisieren (siehe [Änderungsprotokoll für Angebote und Entscheidungen](../get-started/user-interface.md#changes-log)).
+>Nachdem eine Entscheidung erstellt wurde, können Sie in der Liste auf ihren Namen klicken, um auf detaillierte Informationen zuzugreifen und alle Änderungen, die daran vorgenommen wurden, über die Registerkarte **[!UICONTROL Änderungsprotokoll]** zu visualisieren. [Weitere Informationen](../get-started/user-interface.md#changes-log).
 
 ## Tutorial {#video}
 
