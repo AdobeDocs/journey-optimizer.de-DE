@@ -5,7 +5,7 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 4%
@@ -131,7 +131,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Angebotsberechtigungen]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die Regel Ihrer Wahl in den Arbeitsbereich.
+1. Wählen Sie im Abschnitt **[!UICONTROL Angebotseignung]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die Regel Ihrer Wahl in den Arbeitsbereich.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebot
 
 Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
 
-## Entscheidung {#configure-decision} konfigurieren
+## Entscheidung konfigurieren {#configure-decision}
 
 Jetzt müssen Sie eine Entscheidung erstellen, die Platzierungen mit den personalisierten Angeboten und dem soeben erstellten Fallback-Angebot kombiniert.
 
@@ -204,7 +204,7 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) einen Rang definiert haben, können Sie ihn einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote für diese Platzierung geeignet sind, wird in der Entscheidung anhand dieser Formel berechnet, welches Angebot zuerst bereitgestellt werden soll.
+1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) einen Rang definiert haben, können Sie ihn einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote berechtigt sind, in dieser Platzierung unterbreitet zu werden, berechnet die Entscheidung anhand dieser Formel, welches Angebot zuerst bereitgestellt werden soll.
 
    Die detaillierten Schritte zum Zuweisen einer Rangformel zu einer Platzierung werden in [diesem Abschnitt](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula) beschrieben.
 
@@ -220,7 +220,7 @@ Ihre Entscheidung kann jetzt für optimierte und personalisierte Angebote verwen
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung werden in [diesem Abschnitt](../../using/offers/offer-activities/create-offer-activities.md) beschrieben.
 
-## Einfügen der Entscheidung in eine E-Mail {#insert-decision-in-email}
+## Entscheidung in eine E-Mail einfügen {#insert-decision-in-email}
 
 Nachdem Ihre Entscheidung live ist, können Sie sie in eine E-Mail einfügen. Gehen Sie dazu wie folgt vor:
 
