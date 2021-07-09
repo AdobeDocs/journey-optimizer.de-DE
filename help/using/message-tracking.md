@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 14%
+ht-degree: 72%
 
 ---
 
@@ -18,7 +18,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking auf Meldungsebene aktivieren, indem Sie die Optionen **[!UICONTROL Tracking für E-Mail öffnen]** und/oder **[!UICONTROL Auf Tracking für E-Mail]** klicken, wenn [Ihre Nachricht erstellen](create-message.md).
+Sie können das Tracking auf Nachrichtenebene aktivieren, indem Sie die Optionen **[!UICONTROL Tracking der Öffnungen bei E-Mails]** und/oder **[!UICONTROL Tracking der Klicks bei E-Mails]** beim [Erstellen Ihrer Nachricht](create-message.md) markieren.
 
 ![](assets/message-tracking.png)
 
@@ -26,17 +26,17 @@ Sie können das Tracking auf Meldungsebene aktivieren, indem Sie die Optionen **
 >
 >Beide Optionen sind standardmäßig aktiviert.
 
-Auf diese Weise können Sie das Verhalten Ihrer Empfänger verfolgen:
-* **[!UICONTROL Öffnen Sie Tracking für E-Mail]**: Nachrichten, die geöffnet wurden.
-* **[!UICONTROL Klicken Sie für E-Mail]** auf Tracking . Klicks auf Links in einer E-Mail.
+Auf diese Weise können Sie das folgende Verhalten Ihrer Empfänger verfolgen:
+* **[!UICONTROL Tracking der Öffnungen bei E-Mails]**: Nachrichten, die geöffnet wurden.
+* **[!UICONTROL Tracking der Klicks bei E-Mails]**: Klicks auf Links in einer E-Mail.
 
 ## Links einfügen {#insert-links}
 
-Beim Erstellen einer Nachricht können Sie Links zu Ihrem Inhalt hinzufügen.
+Beim Entwerfen einer Nachricht können Sie Links zu Ihren Inhalten hinzufügen.
 
 >[!NOTE]
 >
->Wenn die [Verfolgung aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
+>Wenn das [Tracking aktiviert ist](#enable-tracking), werden alle im Nachrichteninhalt enthaltenen Links verfolgt.
 
 Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
@@ -44,24 +44,24 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Wählen Sie den gewünschten Linktyp aus.
+1. Wählen Sie den gewünschten Link-Typ aus.
 
-   * **[!UICONTROL Externer Link]**: Fügen Sie einen Link zu einer externen URL ein.
+   * **[!UICONTROL Externer Link]**: Fügen Sie einen Link auf eine externe URL ein.
 
-   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link ein, um sich vom Erhalt von Nachrichten Ihrer Marke abzumelden. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](consent.md#opt-out-management).
+   * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link ein, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](consent.md#opt-out-management).
 
    * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
-1. Sie können Ihre Links nur mithilfe eines einfachen Ausdrucks personalisieren. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalization-syntax.md).
+1. Sie können Ihre Links personalisieren, indem Sie nur einen einfachen Ausdruck verwenden. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalization-syntax.md).
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Nachdem der Link erstellt wurde, können Sie ihn weiterhin im Bereich **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite ändern.
+1. Sie können auch nach dem Erstellen des Links noch Änderungen im Bereich der **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite vornehmen.
 
    * Klicken Sie auf das Stiftsymbol, um den Link zu bearbeiten.
-   * Sie können den Link unterstreichen oder nicht, indem Sie die entsprechende Option aktivieren.
+   * Sie können den Link unterstreichen oder nicht unterstreichen, indem Sie die entsprechende Option markieren.
 
    ![](assets/message-tracking-link-settings.png)
 
@@ -83,15 +83,15 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicke
 
 >[!NOTE]
 >
->Im an die Testprofile gesendeten [Testversand](preview.md#send-proofs) ist der Link zur Mirrorseite nicht aktiv. Sie wird nur in den endgültigen Nachrichten aktiviert.
+>Im an die Testprofile gesendeten [Testversand](preview.md#send-proofs) ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
 Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
 
 ## Tracking verwalten {#manage-tracking}
 
-Mit [Email Designer](create-email-content.md) können Sie die getrackten URLs verwalten, z. B. den Tracking-Typ für jeden Link bearbeiten.
+Mit [Email Designer](create-email-content.md) können Sie die verfolgten URLs verwalten, z. B. den Tracking-Typ für jeden Link bearbeiten.
 
-1. Klicken Sie im linken Bereich auf das Symbol **[!UICONTROL Links]** , um die Liste aller URLs Ihres Inhalts anzuzeigen, die verfolgt werden sollen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Links]** im linken Bereich, um die Liste aller URLs Ihres Inhalts, die verfolgt werden sollen, anzuzeigen.
 
    Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs.
 
@@ -104,15 +104,15 @@ Mit [Email Designer](create-email-content.md) können Sie die getrackten URLs ve
 
    ![](assets/message-tracking-edit-a-link.png)
 
-   Für jede getrackte URL können Sie den Tracking-Modus auf einen der folgenden Werte einstellen:
+   Für jede verfolgte URL können Sie einen der folgenden Tracking-Modi festlegen:
 
-   * **[!UICONTROL Getrackt]**: Aktiviert das Tracking dieser URL.
-   * **[!UICONTROL Opt-out]**: Betrachtet diese URL als Ausschluss- oder Abmelde-URL.
-   * **[!UICONTROL Mirrorseite]**: betrachtet diese URL als Mirrorseiten-URL.
-   * **[!UICONTROL Nie]**: Aktiviert nie das Tracking dieser URL.  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Verfolgt]**: Aktiviert das Tracking dieser URL.
+   * **[!UICONTROL Opt-out]**: Diese URL wird als Opt-out- oder Abmelde-URL behandelt.
+   * **[!UICONTROL Mirrorseite]**: Diese URL wird als Mirror-Seite behandelt.
+   * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Die Anzahl der geöffneten Meldungen und die Anzahl der angeklickten Links sind auf der Registerkarte [Ausführungen](message-monitoring.md) aufgeführt.
+Die Anzahl der geöffneten Nachrichten und der angeklickten Links sind auf der Registerkarte [Ausführungen](message-monitoring.md) aufgeführt.
 
-Die Berichterstellung zu Öffnungen und Klicks ist im [E-Mail-Live-Bericht](reports/email-live-report.md) und im [E-Mail-Global-Bericht](reports/email-global-report.md) verfügbar.
+Das Reporting zu Öffnungen und Klicks ist im [E-Mail-Live-Bericht](reports/email-live-report.md) und im [Globalen E-Mail-Bericht](reports/email-global-report.md) verfügbar.
 
 
