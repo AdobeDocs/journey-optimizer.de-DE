@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 82%
 
 Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
-1. Wählen Sie aus der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Body]** aus.
+1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Textkörper]** aus.
 
    ![](assets/import-html_1.png)
 
-1. Wählen Sie in der Startseite von „Email Designer“ aus den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
+1. Wählen Sie auf der Startseite von Email Designer unter den folgenden Optionen, wie Sie Ihre E-Mail gestalten möchten:
 
    * Wählen Sie **[!UICONTROL Von Grund auf gestalten]**, um die Funktionen von Email Designer zum Erstellen Ihres E-Mail-Inhalts zu verwenden. [Weitere Informationen](#design-scratch)
 
@@ -90,7 +90,7 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
    >[!NOTE]
    >
-   >Weitere Informationen zu Links und zum Nachrichten-Tracking finden Sie auf dieser Seite [unter ](message-tracking.md).
+   >Weitere Informationen zu Links und zum Nachrichten-Tracking finden Sie auf [dieser Seite](message-tracking.md).
 
 1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Weitere Informationen zum Code-Editor finden Sie auf dieser [Seite](existing-content.md#import-raw-html-code).
 
@@ -100,7 +100,7 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
    ![](assets/email_designer_26.png)
 
-1. Klicken Sie auf **[!UICONTROL Vorschau anzeigen]** , um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
+1. Klicken Sie auf **[!UICONTROL Vorschau anzeigen]**, um Ihre gerenderte E-Mail zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
    Weitere Informationen zur Vorschau Ihrer E-Mail finden Sie unter [Vorschau und Testen Ihrer Nachrichten](preview.md).
 
@@ -153,21 +153,21 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 
 Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. Der Preheader kann Ihnen dabei helfen, Ihre E-Mails besser zu verfolgen und anzupassen.
 
-1. Fügen Sie in Email Designer **[!UICONTROL Strukturkomponenten]** hinzu, um Ihre E-Mail zu entwerfen.
+1. Fügen Sie in Email Designer eine **[!UICONTROL Strukturkomponente]** hinzu, um Ihre E-Mail zu entwerfen.
 
    ![](assets/preheader_1.png)
 
-1. Klicken Sie im rechten Bereich **[!UICONTROL Texteinstellungen]** auf **Bearbeiten** neben dem Feld **[!UICONTROL Preheader]** , um Inhalt hinzuzufügen.
+1. Klicken Sie im rechten Bereich in **[!UICONTROL Texteinstellungen]** auf **Bearbeiten** neben dem Feld **[!UICONTROL Preheader]**, um Inhalt hinzuzufügen.
 
    ![](assets/preheader_2.png)
 
-1. Fügen Sie Ihren Preheader hinzu. Sie können sie weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
+1. Fügen Sie Ihren Preheader hinzu. Sie können ihn weiter personalisieren, indem Sie auf das Symbol **[!UICONTROL Personalisierung hinzufügen]** klicken.
 
    ![](assets/preheader_3.png)
 
-1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL Dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
+1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** können Sie **[!UICONTROL Inhaltsbausteine]**, **[!UICONTROL dynamische Inhalte]** oder **[!UICONTROL Personalisierungsfelder]** hinzufügen.
 
-1. Klicken Sie auf **[!UICONTROL Validate]** , um Ihre Personalisierungssyntax zu überprüfen.
+1. Klicken Sie auf **[!UICONTROL Validieren]**, um Ihre Personalisierungssyntax zu prüfen.
 
    ![](assets/preheader_4.png)
 
@@ -213,7 +213,7 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
    Sie können auch ein Hintergrundbild auf Spaltenebene einrichten, was aber nur selten verwendet wird.
 
-## Anpassen der vertikalen Ausrichtung und des Abstands {#adjusting-vertical-alignment-and-padding}
+## Anpassen der senkrechten Ausrichtung und des Abstands {#adjusting-vertical-alignment-and-padding}
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
