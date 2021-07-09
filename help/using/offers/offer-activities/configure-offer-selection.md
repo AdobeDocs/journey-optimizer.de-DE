@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -32,9 +32,9 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine vorhandene, und erstellen Sie dann die Platzierungen, die Ihre Angebote enthalten (siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md)).
 
-1. Wählen Sie für jede Platzierung **[!UICONTROL Ranking]** aus der Dropdownliste aus.
+1. Wählen Sie für jede Platzierung **[!UICONTROL Rangfolge]** aus der Dropdown-Liste aus.
 
-1. Klicken Sie auf **[!UICONTROL Ranking]** hinzufügen.
+1. Klicken Sie auf **[!UICONTROL Rangfolge hinzufügen]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
