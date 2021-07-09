@@ -6,9 +6,9 @@ topic: Administration.
 role: Administrator
 level: Intermediate
 source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 >
 >Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
 
-1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Data Sources]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
+1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
 
    ![](../assets/journey18.png)
 
