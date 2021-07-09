@@ -8,31 +8,31 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 51%
+ht-degree: 94%
 
 ---
 
 # Erstellen von Testprofilen {#create-test-profiles}
 
-Testprofile sind bei der Verwendung des Testmodus erforderlich. So erfahren Sie, wie Sie den [Testmodus](../building-journeys/testing-the-journey.md) in einer Journey verwenden und [Ihre Nachrichten in der Vorschau anzeigen und testen](../preview.md).
+Testprofile sind bei der Verwendung des Testmodus erforderlich, um zu erfahren, wie Sie den [Testmodus](../building-journeys/testing-the-journey.md) in einer Journey verwenden und um [Ihre Nachrichten in der Vorschau anzueigen und zu testen](../preview.md).
 
 Die verfügbaren Methoden zum Erstellen von Testprofilen werden nachfolgend beschrieben:
 
-* Sie können ein [vorhandenes Profil](#turning-profile-into-test) in ein Testprofil umwandeln
+* Sie können ein [vorhandenes Profil](#turning-profile-into-test) in ein Testprofil umwandeln.
 
-* Sie können ein Testprofil erstellen, indem Sie eine [CSV-Datei](#create-test-profiles-csv) hochladen oder [API-Aufrufe](#create-test-profiles-api) verwenden. Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [Anwendungsfall für das In-Produkt](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
+* Sie können ein Testprofil erstellen, indem Sie eine [CSV-Datei](#create-test-profiles-csv) hochladen oder [API-Aufrufe](#create-test-profiles-api) verwenden. Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [produktinternen Anwendungsfall](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
 
 * Sie können auch eine JSON-Datei in einen Datensatz hochladen. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-Beachten Sie, dass das Erstellen eines Testprofils mit dem Erstellen regulärer Profile in Adobe Experience Platform vergleichbar ist. Weitere Informationen finden Sie in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
+Beachten Sie, dass das Erstellen eines Testprofils dem Erstellen von Standardprofilen in Adobe Experience Platform ähnelt. Weitere Informationen finden Sie in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
 
-## Voraussetzungen    {#test-profile-prerequisites}
+## Voraussetzungen {#test-profile-prerequisites}
 
 Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Datensatz in Adobe [!DNL Journey Optimizer] erstellen.
 
 Zuerst müssen Sie **ein Schema erstellen**. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie im Menüabschnitt DATA MANAGEMENT auf **[!UICONTROL Schemas]**.
+1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
    ![](../assets/test-profiles-0.png)
 1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**.
    ![](../assets/test-profiles-1.png)
@@ -51,9 +51,9 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](../assets/test-profiles-3.png)
-1. Aktivieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Übernehmen]**.
+1. Markieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Übernehmen]**.
    ![](../assets/test-profiles-4bis.png)
-1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** im Bereich **[!UICONTROL Schemaeigenschaften]** .
+1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** im Bereich **[!UICONTROL Schema-Eigenschaften]**.
    ![](../assets/test-profiles-5.png)
 1. Klicken Sie auf **Speichern**.
 
@@ -78,29 +78,29 @@ Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile import
 >
 > Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zum Katalogdienst](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
 
-## Anwendungsfall für das Produkt{#use-case-1}
+## Produktinterner Anwendungsfall{#use-case-1}
 
-Auf der Adobe Journey Optimizer-Startseite können Sie die Anwendungsfälle für Testprofile im Produkt nutzen. Dieser Anwendungsfall erleichtert die Erstellung von Testprofilen, die vor der Veröffentlichung zum Testen von Journey verwendet werden.
+Auf der Adobe Journey Optimizer-Startseite können Sie den produktinternen Anwendungsfall für Testprofile nutzen. Dieser Anwendungsfall erleichtert die Erstellung von Testprofilen, die vor der Veröffentlichung zum Testen von Journeys verwendet werden.
 
 ![](../assets/use-cases-home.png)
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** , um den Anwendungsfall zu starten.
+Klicken Sie auf den Button **[!UICONTROL Start]**, um den Anwendungsfall zu starten.
 
 Die folgenden Informationen werden benötigt:
 
-1. **Identitäts-Namespace**: Der  [Identitäts-](../get-started-identity.md) Namespace, mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise E-Mail zur Identifizierung der Testprofile verwendet wird, sollte der Identitäts-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identitäts-Namespace **Phone** ausgewählt werden.
+1. **Identity-Namespace**: Der [Identity-Namespace](../get-started-identity.md), mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
 2. **CSV-Datei**: Eine kommagetrennte Datei, die die Liste der zu erstellenden Testprofile enthält. Der Anwendungsfall erwartet ein vordefiniertes Format für die CSV-Datei, die die Liste der zu erstellenden Testprofile enthält. Jede Zeile in der Datei sollte die folgenden Felder in der richtigen Reihenfolge wie folgt enthalten:
 
-   1. **Personen-ID**: Eindeutige Kennung des Testprofils. Die Werte dieses Felds sollten den ausgewählten Identitäts-Namespace widerspiegeln. (Wenn beispielsweise **Phone** für den Identitäts-Namespace ausgewählt ist, sollten die Werte dieses Felds Telefonnummern sein. Wenn **E-Mail** ausgewählt ist, sollten die Werte dieses Felds E-Mails sein.
-   1. **E-Mail-Adresse**: E-Mail-Adresse des Testprofils. (Das Feld **Personen-ID** und das Feld **E-Mail-Adresse** können möglicherweise dieselben Werte enthalten, wenn **E-Mail** als Identitäts-Namespace ausgewählt ist.)
+   1. **Personen-ID**: Eindeutige Kennung des Testprofils. Die Werte dieses Felds sollten den ausgewählten Identity-Namespace widerspiegeln. (Wenn beispielsweise **Telefon** für den Identity-Namespace ausgewählt ist, sollten die Werte dieses Felds Telefonnummern sein. Wenn **E-Mail** ausgewählt ist, sollten die Werte dieses Felds E-Mail-Adressen sein.
+   1. **E-Mail-Adresse**: E-Mail-Adresse des Testprofils. (Das Feld **Personen-ID** und das Feld **E-Mail-Adresse** können möglicherweise dieselben Werte enthalten, wenn **E-Mail** als Identity-Namespace ausgewählt ist.)
    1. **Vorname**: Vorname des Testprofils.
    1. **Nachname**: Nachname des Testprofils.
-   1. **Ort**: Testprofilstadt des Wohnsitzes
-   1. **Land**: Testprofil Land des Wohnsitzes
-   1. **Geschlecht**: Testprofil-Geschlecht. Verfügbare Werte sind **male**, **female** und **non_specified**
+   1. **Stadt**: Stadt, in der das Testprofil seinen Wohnsitz hat
+   1. **Land**: Land, in dem das Testprofil seinen Wohnsitz hat
+   1. **Geschlecht**: Geschlecht des Testprofils. Verfügbare Werte sind **männlich**, **weiblich** und **nicht_spezifiziert**
 
-Nachdem Sie den Identitäts-Namespace ausgewählt und die CSV-Datei basierend auf dem oben stehenden Format bereitgestellt haben, klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Ausführen]** . Der Anwendungsfall kann einige Minuten dauern. Sobald der Anwendungsfall die Verarbeitung und Erstellung der Testprofile abgeschlossen hat, wird eine Benachrichtigung gesendet, um den Benutzer zu benachrichtigen.
+Nachdem Sie den Identity-Namespace ausgewählt und die CSV-Datei basierend auf dem oben stehenden Format bereitgestellt haben, klicken Sie oben rechts auf den Button **[!UICONTROL Ausführen]**. Es kann ein paar Minuten dauern, bis der Anwendungsfall abgeschlossen ist. Sobald der Anwendungsfall die Verarbeitung und das Erstellen der Testprofile abgeschlossen hat, wird eine Benachrichtigung gesendet, um den Benutzer zu informieren.
 
 >[!NOTE]
 >
@@ -110,13 +110,13 @@ Nachdem Sie den Identitäts-Namespace ausgewählt und die CSV-Datei basierend au
 
 So können Sie ein vorhandenes Profil in ein Testprofil umwandeln: Sie können Profilattribute auf dieselbe Weise aktualisieren wie bei der Erstellung eines Profils.
 
-Eine einfache Möglichkeit besteht darin, die Aktionsaktivität **[!UICONTROL Profil]** in einer Journey zu verwenden und das boolesche Feld testProfile von false in true zu ändern.
+Am einfachsten geht dies, wenn Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** in einer Journey verwenden und das boolesche Feld „testProfile“ von „false“ auf „true“ ändern.
 
-Ihre Journey besteht aus einer **[!UICONTROL Segment lesen]** und einer **[!UICONTROL Profil-Update]** -Aktivität. Zunächst müssen Sie ein Segment erstellen, das auf die Profile zielt, die Sie in Testprofile umwandeln möchten.
+Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[!UICONTROL Profil aktualisieren]**. Zunächst müssen Sie ein Segment erstellen, das auf die Profile zielt, die Sie in Testprofile umwandeln möchten.
 
 >[!NOTE]
 >
-> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profile dieses Feld enthalten. Das zugehörige Schema muss über die Feldergruppe **Profiltestdetails** verfügen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
+> Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profile dieses Feld enthalten. Das zugehörige Schema muss die Feldgruppe **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Gehen Sie oben rechts zu **Segmente** und dann zu **Segment erstellen**.
    ![](../assets/test-profiles-22.png)
@@ -129,7 +129,7 @@ Ihre Journey besteht aus einer **[!UICONTROL Segment lesen]** und einer **[!UICO
    >
    > Die Segmentberechnung kann einige Zeit in Anspruch nehmen. Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-1. Erstellen Sie nun eine neue Journey und beginnen Sie mit einer Orchestrierungsaktivität **[!UICONTROL Segment lesen]** .
+1. Erstellen Sie jetzt eine neue Journey und beginnen Sie mit der Orchestrierungsaktivität **[!UICONTROL Segment lesen]**.
 1. Wählen Sie das zuvor erstellte Segment und den Namespace aus, den Ihre Profile verwenden.
    ![](../assets/test-profiles-25.png)
 1. Fügen Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
@@ -141,7 +141,7 @@ Ihre Journey besteht aus einer **[!UICONTROL Segment lesen]** und einer **[!UICO
 
    >[!NOTE]
    >
-   > Weitere Informationen zur Aktivität **[!UICONTROL Profil aktualisieren]** finden Sie in [diesem Abschnitt](../building-journeys/update-profiles.md).
+   > Nähere Informationen zur Aktivität **[!UICONTROL Profil aktualisieren]** erhalten Sie in [diesem Abschnitt](../building-journeys/update-profiles.md).
 
 ## Erstellen eines Testprofils mithilfe einer CSV-Datei {#create-test-profiles-csv}
 
@@ -163,7 +163,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
    ![](../assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **Beenden**.
    ![](../assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitungsvorgang läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz-Vorschau**.
+1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitungsvorgang läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
    ![](../assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![](../assets/test-profiles-21.png)
@@ -177,7 +177,7 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 
 Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-Sie müssen ein Profilschema verwenden, das die Feldergruppe &quot;Profiltestdetails&quot;enthält. Das Flag testProfile ist Teil dieser Feldergruppe.
+Sie müssen ein Profilschema verwenden, das die Feldgruppe „Testdetails des Profils“ enthält. Die Markierung „testProfile“ ist Teil dieser Feldgruppe.
 Achten Sie beim Erstellen eines Profils darauf, diesen Wert zu übergeben: testProfile = true.
 
 Beachten Sie, dass Sie auch ein vorhandenes Profil aktualisieren können, um die Markierung „testProfile“ in „true“ zu ändern.
