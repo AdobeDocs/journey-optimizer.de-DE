@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 74%
+ht-degree: 94%
 
 ---
 
@@ -40,17 +40,17 @@ Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ih
 
 Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journeys:
 
-1. Klicken Sie im Menüabschnitt JOURNEY MANAGEMENT auf **[!UICONTROL Journey]**. Die Liste der Journeys wird angezeigt.
+1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
 
    ![](../assets/interface-journeys.png)
 
-1. Klicken Sie auf **[!UICONTROL Journey]** erstellen , um eine neue Journey zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
 
 1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weitere Informationen finden Sie in diesem [Abschnitt](journey-gs.md#change-properties).
 
    ![](../assets/jo-properties.png)
 
-1. Ziehen Sie zunächst ein Ereignis oder eine Aktivität vom Typ **Segment lesen** aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Segment lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
    ![](../assets/read-segment.png)
 
@@ -82,7 +82,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
 
-Wenn eine Journey &quot;endet&quot;, hat sie den Status **[!UICONTROL Geschlossen]**. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
+Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
 Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
@@ -116,29 +116,29 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 ### Burst-Modus {#burst}
 
-Der Burst-Modus ist ein kostenpflichtiges Add-on, das den sehr schnellen Versand großer Mengen von Push-Nachrichten ermöglicht. Sie wird für einfache Journey verwendet, die ein Lesesegment und eine einfache Push-Nachricht enthalten. Burst wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist, wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine brechende Nachricht an Benutzer, die Ihre News-Kanal-App installiert haben.
+Der Burst-Modus ist ein kostenpflichtiges Add-on, das den sehr schnellen Versand großer Mengen von Push-Benachrichtigungen ermöglicht. Er wird für einfache Journeys verwendet, die die Aktivität „Segment lesen“ und eine einfache Push-Nachricht enthalten. Der Burst-Modus wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzer, die Ihre Nachrichten-App installiert haben.
 
 Einschränkungen:
 
-* Die Journey muss mit einem Lesesegment beginnen. Ereignisse sind nicht zulässig.
-* Der nächste Schritt muss eine Push-Nachricht sein. Es ist keine andere Aktivität oder ein anderer Schritt zulässig (mit Ausnahme der optionalen Endaktivität):
+* Die Journey muss mit der Aktivität „Segment lesen“ beginnen. Ereignisse sind nicht erlaubt.
+* Der nächste Schritt muss eine Push-Benachrichtigung sein. Es ist keine andere Aktivität oder ein anderer Schritt zulässig (mit Ausnahme der optionalen Ende-Aktivität):
    * Nur Push-Kanal
-   * In der Nachricht ist keine Personalisierung zulässig
-   * Die Nachricht muss klein sein (&lt;2 KB)
+   * In der Nachricht ist keine Personalisierung zulässig.
+   * Die Nachricht muss klein sein (&lt; 2 KB).
 
 Wichtiger Hinweis:
 
 Wenn eine der Anforderungen nicht erfüllt ist, ist der Burst-Modus im Journey nicht verfügbar.
 
-Um den Burst-Modus zu aktivieren, öffnen Sie Ihre Journey und klicken Sie auf das Stiftsymbol oben rechts, um auf die Eigenschaften des Journey zuzugreifen. Aktivieren Sie dann den Umschalter **Burst-Modus** aktivieren.
+Um den Burst-Modus zu aktivieren, öffnen Sie Ihre Journey und klicken Sie oben rechts auf das Stiftsymbol, um auf die Eigenschaften der Journey zuzugreifen. Aktivieren Sie dann den Umschalter **Burst-Modus aktivieren**.
 
 ![](../assets/burst.png)
 
-Der Burst-Modus wird deaktiviert, wenn Sie eine Burst-Journey ändern und eine Aktivität hinzufügen, die nicht mit Burst konform ist (Nachricht, andere Aktionen, ein Ereignis usw.). Daraufhin wird eine Nachricht angezeigt.
+Der Burst-Modus wird deaktiviert, wenn Sie eine Burst-Journey ändern und eine Aktivität hinzufügen, die nicht mit Burst kompatibel ist (Nachricht, andere Aktionen, ein Ereignis usw.). Daraufhin wird eine Meldung angezeigt.
 
 ![](../assets/burst2.png)
 
-Testen und veröffentlichen Sie dann Ihre Journey normal. Testmodus-Nachrichten werden nicht über den Burst-Modus gesendet.
+Testen und veröffentlichen Sie dann Ihre Journey wie üblich. Testmodus-Nachrichten werden nicht über den Burst-Modus gesendet.
 
 ## Beenden einer Journey
 
@@ -155,7 +155,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 * Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
 * Nach dem letzten Vorkommen einer auf wiederkehrenden Segmenten basierenden Journey.
 
-Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), erhält sie den Status **[!UICONTROL Geschlossen]**. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Kontakte. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
 
@@ -171,11 +171,11 @@ Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte 
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
 
-Wenn eine Journey geschlossen wird, erhält sie den Status **[!UICONTROL Geschlossen]**. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
-Um eine Journey aus der Liste der Journey zu schließen, klicken Sie auf die Schaltfläche **[!UICONTROL Ellipsis]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
+Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
 
 ![](../assets/journey-finish-quick-action.png)
 
@@ -197,7 +197,7 @@ Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
 Wird eine Journey gestoppt, hat sie den Status **[!UICONTROL Gestoppt]**.
 
-Sie können beispielsweise eine Journey stoppen, wenn ein Marketingspezialist erkennt, dass die Journey auf die falsche Audience ausgerichtet ist, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journey zu entfernen, klicken Sie auf die Schaltfläche **[!UICONTROL Ellipsis]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stopp]** aus.
+Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
 ![](../assets/journey-finish-quick-action.png)
 
