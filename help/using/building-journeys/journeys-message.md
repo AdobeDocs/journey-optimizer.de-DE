@@ -6,9 +6,9 @@ topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
 ## Hinzufügen einer Nachrichtenaktivität
 
-1. Beginnen Sie wie gewohnt mit einem Ereignis oder einer Aktivität vom Typ **Segment lesen** .
+1. Beginnen Sie Ihre Journey immer mit einem Ereignis oder einer Aktivität vom Typ **Segment lesen**.
 
    ![](../assets/jo-message0.png)
 
@@ -36,7 +36,7 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
    ![](../assets/jo-message3.png)
 
-1. Wählen Sie eine Nachricht aus und klicken Sie auf **Auswählen**. Sie können eine neue Nachricht auch direkt von diesem Bildschirm aus erstellen, indem Sie auf **Nachricht erstellen** klicken.
+1. Wählen Sie eine Nachricht aus und klicken Sie auf **Auswählen**. Außerdem können Sie eine neue Nachricht direkt über diesen Bildschirm erstellen, indem Sie auf **Nachricht erstellen** klicken.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,8 +48,8 @@ Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, k
 
 ## E-Mail-Parameter und Push-Parameter
 
-Die Abschnitte **[!UICONTROL E-Mail-Parameter]** und **[!UICONTROL Push-Parameter]** zeigen schreibgeschützte Felder. Diese Konfiguration wird normalerweise beim Erstellen der Nachricht durchgeführt. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md).
+In den Abschnitten **[!UICONTROL E-Mail-Parameter]** und **[!UICONTROL Push-Parameter]** finden Sie schreibgeschützte Felder. Diese Konfiguration wird normalerweise beim Erstellen der Nachricht durchgeführt. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameter override** rechts neben dem Feld verwenden. Diese Option kann zu Testzwecken nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld verwenden. Diese Option kann im Rahmen von Tests nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
