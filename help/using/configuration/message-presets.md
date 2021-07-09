@@ -2,13 +2,13 @@
 title: Erstellen von Nachrichtenvorgaben
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
 feature: Anwendungskonfiguration
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -22,14 +22,14 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die all
 > * Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
    >
    > 
-* Sie müssen die Konfigurationsschritte E-Mail und Push ausführen, bevor Sie Nachrichtenvorgaben erstellen.
+* Sie müssen die Konfigurationsschritte für E-Mail und Push-Benachrichtigungen ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
-Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Vorgaben]** auswählen.
+Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Voreinstellungen]** auswählen.
 
 ![](../assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie E-Mail-Vorgaben erstellen und verwenden.](#video-presets)
 
-## Nachrichtenvorgaben erstellen {#create-message-preset}
+## Nachrichtenvoreinstellungen erstellen {#create-message-preset}
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
@@ -61,19 +61,19 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
       >[!CAUTION]
       >
-      >Mit Ausnahme des Felds **Antwort an (Weiterleiten von E-Mails)** muss die E-Mail-Adressen-Domain die aktuell ausgewählte [zugewiesene Subdomain](about-subdomain-delegation.md) verwenden.
+      >Mit Ausnahme des Feldes **Antwort an (Weiterleiten der E-Mail)** muss die Domain der E-Mail-Adressen die aktuell ausgewählte [zugewiesene Subdomain](about-subdomain-delegation.md) verwenden.
 
-      * **[!UICONTROL Absendername]**: Name des Absenders, z. B. Name Ihrer Marke.
+      * **[!UICONTROL Name des Absenders]**: Name des Absenders, wie z. B. der Name Ihrer Marke.
 
       * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
 
-      * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf die  **** Schaltfläche Replypfeld klickt.
+      * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf die  **** Schaltfläche Replyn klickt. Die an diese Adresse gesendeten E-Mails werden an die unten angegebene Adresse **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]** weitergeleitet. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
+      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Die an diese Adresse gesendeten E-Mails werden an die unten angegebene Adresse **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]** weitergeleitet. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
-      * **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]**: Alle E-Mails, die von  [!DNL Journey Optimizer] für die zugewiesene Subdomain empfangen wurden, werden an diese E-Mail-Adresse weitergeleitet. Sie können eine beliebige Adresse angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
+      * **[!UICONTROL Antwort an (Weiterleitungs-E-Mail)]**: Alle E-Mails, die von [!DNL Journey Optimizer] für die zugewiesene Subdomain empfangen wurden, werden an diese E-Mail-Adresse weitergeleitet. Sie können eine beliebige Adresse angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
 
-      * **[!UICONTROL Fehler-E-Mail]**: Alle Fehler, die von ISPs nach wenigen Tagen der Zustellung von E-Mails (asynchrone Bounces) erzeugt wurden, werden auf dieser Adresse empfangen.
+      * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehler empfangen, die von ISPs nach wenigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
 
       ![](../assets/preset-header.png)
 
