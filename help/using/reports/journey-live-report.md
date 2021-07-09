@@ -1,14 +1,14 @@
 ---
 title: Journey-Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
-feature: 'Berichterstellung '
+feature: Reporting
 topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerk
 
 Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
-## Registerkarte „Journey“  {#journey-live}
+## Registerkarte „Journey“ {#journey-live}
 
-Aus Ihrem **[!UICONTROL Journey-Live-Bericht]** heraus erhalten Sie über die Registerkarte **[!UICONTROL Journey]** eine Sicht auf die wichtigsten Tracking-Daten zur Journey.
+In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerkarte **[!UICONTROL Journey]** eine Einblick in die wichtigsten Tracking-Daten zur Journey.
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Mit der Journey-]** Leistung können Sie den Pfad Ihrer Zielprofile Schritt für Schritt durch Ihre Journey anzeigen.
+Mit **[!UICONTROL Journey-Performance]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
-Das Widget **[!UICONTROL Journey Statistics]** zeigt die folgenden KPIs an:
+Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -62,7 +62,7 @@ Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Ab
 
 ![](../assets/report_email_1.png)
 
-Das Widget **[!UICONTROL Statistiken zum E-Mail-Versand]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
+Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -70,7 +70,7 @@ Das Widget **[!UICONTROL Statistiken zum E-Mail-Versand]** enthält die wichtigs
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** zeigen den Erfolg Ihres Versands an:
+Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** zeigen, wie erfolgreich Ihr Versand war:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -84,13 +84,13 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UI
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einem Versand.
 
-* **[!UICONTROL Abmelden]**: Anzahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Abo beenden]**: Zahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
 ![](../assets/report_email_2.png)
 
-Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** und **[!UICONTROL Hard- und Bounce - by Email]** enthalten die verfügbaren Daten zu Bounce-Nachrichten, z. B.:
+Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** und **[!UICONTROL Hardbounces und Softbounces – nach E-Mail]** enthalten die verfügbaren Daten im Zusammenhang mit unzustellbaren Nachrichten, wie z. B:
 
 * **[!UICONTROL Hardbounce]**: die Gesamtzahl der permanenten Fehler, wie eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.
 
