@@ -2,11 +2,11 @@
 title: Erste Schritte mit Nachrichten
 description: Erfahren Sie, wie Sie Nachrichten in Journey Optimizer erstellen
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Beginner
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '103'
 ht-degree: 100%
 
