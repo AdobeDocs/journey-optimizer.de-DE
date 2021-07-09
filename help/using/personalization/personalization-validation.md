@@ -6,9 +6,9 @@ topic: Personalisierung
 role: Data Engineer
 level: Intermediate
 source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 86%
 
 ## Mechanismen der Validierung
 
-Verwenden Sie im Bildschirm **Ausdruckseditor** die Schaltfläche **Validieren** , um Ihre Personalisierungssyntax zu überprüfen.
+Verwenden Sie im Bildschirm **Ausdruckseditor** den Button **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
 
 >[!NOTE]
-> Die Validierung wird automatisch ausgeführt, wenn Sie auf die Schaltfläche **Hinzufügen** klicken, um das Editor-Fenster zu schließen.
+> Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
 
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Wenn die Personalisierungssyntax ungültig ist, können Sie das Ausdruckseditor-Fenster nicht schließen.
+> Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
 
 
 ## Häufige Fehler
