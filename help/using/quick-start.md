@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 43%
+ht-degree: 79%
 
 ---
 
@@ -16,31 +16,31 @@ ht-degree: 43%
 
 ## Wichtige Schritte für den Start {#cjm-key-steps}
 
-Mit [!DNL Adobe Journey Optimizer] können Sie bestehenden Nachrichteninhalt importieren oder neue Inhalte erstellen, Nachrichten mit Kundenprofildaten personalisieren, Trigger für Kundennachrichten erstellen,  definieren und Zielgruppen einschränken, kanalübergreifende Nachrichten senden, Angebote erstellen und hinzufügen und auf eine vollständige Reihe von Reporting- und Überwachungstools zugreifen, um die Wirkung Ihrer Nachrichten und Journey zu messen.
+Mit [!DNL Adobe Journey Optimizer] können Sie bestehende Nachrichteninhalte importieren und neue Inhalte entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, die Nachrichten auslösen, Segmente definieren und Zielgruppen verfeinern, Multi-Channel-Nachrichten versenden, Angebote erstellen und hinzufügen und auf einen kompletten Satz von Reporting- und Überwachungs-Tools zugreifen, um die Wirkung Ihrer Nachrichten und Customer Journeys zu messen.
 
 Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-### Voraussetzungen    {#cjm-prerequisites}
+### Voraussetzungen {#cjm-prerequisites}
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müssen Sie Folgendes tun:
+Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müssen Sie:
 
-* **Festlegen von Benutzerberechtigungen**: Melden Sie sich bei an  [!DNL Adobe Journey Optimizer] und gewähren Sie Zugriff auf Ihre Team-Mitglieder. [Mehr dazu](../using/administration/permissions.md)
+* **Benutzerberechtigungen festlegen**: Melden Sie sich bei [!DNL Adobe Journey Optimizer] an und gewähren Sie Ihren Team-Mitgliedern Zugriff. [Mehr dazu](../using/administration/permissions.md)
 
 * **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]**: Um Assets und Bilder in Ihren Nachrichten zu verwalten, müssen Sie  [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff benötigen, zu  [!DNL Assets Essentials]den Profilen  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct gehören. [mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Kanäle konfigurieren**: Definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
 
-* **Definieren Sie Ihre Vorgaben**: Erstellen Sie Ihre Vorgaben und konfigurieren Sie Ihre Branding-Parameter. [Mehr dazu](../using/configuration/message-presets.md)
+* **Voreinstellungen definieren**: Erstellen Sie Ihre Vorgaben und konfigurieren Sie Ihre Branding-Parameter. [Mehr dazu](../using/configuration/message-presets.md)
 
-* **Daten identifizieren und Schema und Datensatz erstellen**: Holen Sie Ihre Daten in Adobe Experience Platform, erstellen Sie einen Identitäts-Namespace und einen für Profile aktivierten Datensatz, erstellen Sie Segmente und Testprofile.
+* **Daten identifizieren und Schema und Datensatz erstellen**: Holen Sie Ihre Daten in Adobe Experience Platform, erstellen Sie einen Identity-Namespace und einen für Profile aktivierten Datensatz, erstellen Sie Segmente und Testprofile.
 
-   * Erfahren Sie, wie Sie einen Datensatz in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de){target=&quot;_blank&quot;} in der Vorschau anzeigen und erstellen.
+   * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de) erfahren Sie, wie Sie eine Vorschau anzeigen und einen Datensatz erstellen.{target=&quot;_blank&quot;}
 
    * Erfahren Sie, wie Sie einen Identitäts-Namespace in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;} erstellen.
 
    * Auf [dieser Seite](../using/building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen
 
-   * Weitere Informationen zur Datenerfassung finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}
+   * Weitere Informationen zur Datenaufnahme finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de).{target=&quot;_blank&quot;}
 
 
 ### Nutzungsfluss
@@ -51,9 +51,9 @@ Lesen Sie die folgenden Abschnitte, um Ihre erste Journey einzurichten und Nachr
 
 * **Assets hochladen**: Verwenden Sie Adobe Experience Manager Assets Essentials, um Assets und Bilder zu verwalten. [Mehr dazu](assets-essentials.md)
 
-* **Angebote hinzufügen**: Verwenden Sie die Journey Optimizer-Entscheidungsverwaltung, um Ihren Nachrichten personalisierte Angebote hinzuzufügen. [Mehr dazu](../using/offers/get-started/starting-offer-decisioning.md)
+* **Angebote hinzufügen**: Verwenden Sie das Entscheidungs-Management in Journey Optimizer, um Ihren Nachrichten personalisierte Angebote hinzuzufügen. [Mehr dazu](../using/offers/get-started/starting-offer-decisioning.md)
 
-* **Definieren der Zielgruppe**: Segmente erstellen, Ereignisse erstellen, Einverständnis und Datenschutz verwalten. [Mehr dazu](../using/segment/about-segments.md)
+* **Zielgruppe definieren**: Erstellen Sie Segmente, erstellen Sie Ereignisse, verwalten Sie Einverständnis und Datenschutz. [Mehr dazu](../using/segment/about-segments.md)
 
 * **Journeys erstellen**: Senden Sie Nachrichten, nutzen Sie kontextbezogene Daten, verfeinern Sie Audiences, entwerfen Sie mehrstufige Anwendungsfälle und führen Sie diese aus. [Mehr dazu](building-journeys/journey.md)
 
