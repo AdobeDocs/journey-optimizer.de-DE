@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 74%
+ht-degree: 92%
 
 ---
 
@@ -18,10 +18,10 @@ Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) h
 
 >[!NOTE]
 >
->* Schlüsselkonzepte beim Durchsuchen der Benutzeroberfläche sind in Adobe Experience Platform üblich. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+>* Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
-* Diese Dokumentation wird häufig aktualisiert, um die neuesten Änderungen an der Benutzeroberfläche des Produkts widerzuspiegeln. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
+* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
    >
    > 
 * Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren Berechtigungen und Ihrem Lizenzierungspaket ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
@@ -88,30 +88,30 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen zu Sandboxes finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}
 
 
-## Anwendungsfälle für das Produkt
+## Produktinterne Anwendungsfälle
 
-Nutzen Sie [!DNL Adobe Journey Optimizer]-Anwendungsfälle von der Startseite aus und stellen Sie einige schnelle Eingaben bereit, um eine Journey zu erstellen.
+Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Startseite verwenden und mit nur wenigen Eingaben eine Customer Journey erstellen.
 
 ![](assets/use-cases-home.png)
 
-Verfügbare Anwendungsfälle sind:
+Verfügbare Anwendungsfälle:
 
-* **Erstellen Sie Testprofile**, um mithilfe unserer CSV-Vorlage Testprofile zu erstellen und so personalisierte Nachrichten und Journey zu testen. Erfahren Sie, wie Sie dieses Anwendungsbeispiel [auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) implementieren.
-* **Senden Sie eine Geburtstagsnachricht an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, um sie um ihren Geburtstag zu bitten. (in Kürze verfügbar)
+* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie dieses Anwendungsbeispiel implementieren.
+* **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
 * **Senden Sie E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, um neu registrierte Kunden willkommen zu heißen. (in Kürze verfügbar)
-* **Senden Sie Push-Nachrichten an die importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
+* **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
 
-Klicken Sie auf **[!UICONTROL Details anzeigen]** , um mehr über jeden Anwendungsfall zu erfahren.
+Klicken Sie auf **[!UICONTROL Details anzeigen]**, um mehr über jeden Anwendungsfall zu erfahren.
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** , um den Anwendungsfall zu starten.
+Klicken Sie auf den Button **[!UICONTROL Starten]**, um den Anwendungsfall zu starten.
 
-Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzeigen]** auf ausgeführte Anwendungsfälle zugreifen.
+Sie können über den Button **[!UICONTROL Anwendungsfallbibliothek anzeigen]** auf ausgeführte Anwendungsfälle zugreifen.
 
-## Hilfe und Support erhalten
+## Hilfe und Support
 
-Greifen Sie über den unteren Bereich der Startseite auf die wichtigsten Hilfeseiten von Adobe Journey Optimizer zu.
+Über den unteren Bereich der Startseite können Sie auf die wichtigsten Hilfeseiten von Adobe Journey Optimizer zugreifen.
 
-Verwenden Sie das Symbol **Hilfe** , um auf Hilfeseiten zuzugreifen, sich an den Support zu wenden und Feedback zu teilen. Sie können Hilfe-Artikel und Videos aus dem Suchfeld suchen.
+Verwenden Sie das Symbol **Hilfe**, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu geben. Über das Suchfeld können Sie Hilfeartikel und Videos suchen.
 
 ![](assets/ajo-help.png)
 
