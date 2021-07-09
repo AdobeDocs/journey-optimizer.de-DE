@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 
 >[!CAUTION]
 >
->Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Personalisierungsdaten des Profils angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. Erfahren Sie, wie Sie die Personalisierung in [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) testen können.
+>Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
 
 ![](assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen.](#video-preview)
 
@@ -45,7 +45,7 @@ Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zus
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
-1. Klicken Sie in der Nachrichtenschnittstelle oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Vorschau anzeigen]** , um auf die Auswahl des Testprofils zuzugreifen.
+1. Klicken Sie im Nachrichtenbereich oder Email Designer auf den Button **[!UICONTROL Vorschau anzeigen]**, um die Auswahl der Testprofile vorzunehmen.
 
    ![](assets/email-preview-button.png)
 
@@ -133,7 +133,7 @@ Ein Testversand muss nach jeder Änderung des Nachrichteninhalts ausgeführt wer
 
 >[!NOTE]
 >
-> Im Testversand an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Sie wird nur in den endgültigen Nachrichten aktiviert.
+> Im Testversand an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
 ## E-Mail-Rendering{#email-rendering}
 
@@ -168,6 +168,6 @@ Anschließend gehen Sie wie folgt vor:
 
 ## Anleitungsvideo{#video-preview}
 
-Hier erfahren Sie, wie Sie das E-Mail-Rendering über Postfächer hinweg testen, wie Sie Ihre personalisierten E-Mails in der Vorschau mit Testprofilen anzeigen, Testsendungen durchführen und Ihre E-Mail veröffentlichen können.
+Hier erfahren Sie, wie Sie das E-Mail-Rendering für mehrere Posteingänge testen, wie Sie Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen, Testsendungen durchführen und Ihre E-Mail veröffentlichen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
