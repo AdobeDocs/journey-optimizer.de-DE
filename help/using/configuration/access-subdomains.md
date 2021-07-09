@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Die Spalte **[!UICONTROL Status]** enthält Informationen zum Prozess der Zuweis
 
 Um auf detaillierte Informationen zu einer Subdomain zuzugreifen, öffnen Sie sie aus der Liste. Sie haben folgende Möglichkeiten:
 
-* Rufen Sie den während des Delegierungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirrorseiten, Tracking-URLs) ab,
+* Rufen Sie den während des Zuweisungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirror-Seite, Tracking-URLs) ab oder
 
 * Fügen Sie Ihrer Subdomain einen TXT-Eintrag für die Website-Überprüfung von Google hinzu, um sicherzustellen, dass er verifiziert ist (siehe [Hinzufügen eines Google TXT-Eintrags zu einer Subdomain](google-txt.md)).
 
