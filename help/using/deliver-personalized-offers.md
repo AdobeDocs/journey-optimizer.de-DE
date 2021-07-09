@@ -8,19 +8,19 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 34%
+ht-degree: 98%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-In E-Mail-Nachrichten vom Typ [!DNL Journey Optimizer] können Sie Entscheidungen (ehemals &quot;Angebotsaktivitäten&quot;) einfügen, die die Offer Decisioning-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
+Mit [!DNL Journey Optimizer] können Sie in E-Mail-Nachrichten Entscheidungen (früher als „Angebotsaktivitäten“ bezeichnet) einfügen, die das Offer Decisioning-Modul nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
 
 Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
 
 Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden Sie in [diesem Abschnitt](offers/get-started/starting-offer-decisioning.md).
 
-Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angeboten zeigt, sie in einer Entscheidung verwendet und diese Entscheidung in einer E-Mail nutzt, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
+Ein **vollständiges Beispiel**, das zeigt, wie Angebote konfiguriert, in Entscheidungen verwendet und diese Entscheidungen in E-Mails eingesetzt werden, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen](#video-offers) (Video)
 
@@ -28,19 +28,19 @@ Ein **vollständiges Beispiel von End-to-End**, das die Konfiguration von Angebo
 
 >[!CAUTION]
 >
->Bevor Sie beginnen, müssen Sie [eine Angebotsentscheidung](offers/offer-activities/create-offer-activities.md) definieren.
+>Bevor Sie beginnen, müssen Sie [eine Angebotsentscheidung definieren](offers/offer-activities/create-offer-activities.md).
 
 Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufügen:
 
 1. Erstellen Sie Ihre E-Mail und öffnen Sie dann Email Designer, um den Inhalt zu konfigurieren.
 
-1. Fügen Sie eine Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu.
+1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu.
 
    ![](assets/deliver-offer-component.png)
 
-   Erfahren Sie, wie Sie Inhaltskomponenten in [diesem Abschnitt](content-components.md) verwenden.
+   In [diesem Abschnitt](content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
 
-1. Die Registerkarte **[!UICONTROL Angebotsentscheidung]** wird in der rechten Palette angezeigt. Klicken Sie auf **[!UICONTROL Wählen Sie Angebotsentscheidung]**.
+1. Die Registerkarte **[!UICONTROL Angebotsentscheidung]** wird in der rechten Palette angezeigt. Klicken Sie auf **[!UICONTROL Angebotsentscheidung auswählen]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
    >[!NOTE]
    >
-   >In der Liste werden nur Entscheidungen angezeigt, die mit der ausgewählten Platzierung kompatibel sind. In diesem Beispiel stimmt nur eine Angebotsaktivität mit der Platzierung „E-Mail-Top-Bild“ überein.
+   >Beachten Sie, dass nur Entscheidungen, die mit der ausgewählten Platzierung kompatibel sind, in der Liste angezeigt werden. In diesem Beispiel stimmt nur eine Angebotsaktivität mit der Platzierung „E-Mail-Top-Bild“ überein.
 
    ![](assets/deliver-offer-placement.png)
 
@@ -61,29 +61,29 @@ Die Angebotsaktivität wird nun der Komponente hinzugefügt.
 
 ## Angebotsvorschau in einer E-Mail {#preview-offers-in-email}
 
-Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, die der E-Mail hinzugefügt wird, mit dem Abschnitt **[!UICONTROL Angebote]** oder den Pfeilen der Inhaltskomponenten in der Vorschau anzeigen.
+Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, in der Vorschau anzeigen, indem Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile für die Inhaltskomponenten verwenden.
 
 ![](assets/deliver-offer-preview.png)
 
-Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der Entscheidung mit einem Kundenprofil sind.
+Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der Entscheidung bei einem Kundenprofil sind.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**.  
+1. Klicken Sie auf **[!UICONTROL Vorschau]**. 
 
    ![](assets/deliver-offer-preview-button.png)
 
    >[!NOTE]
    >
-   >Sie benötigen Testprofile, um eine Vorschau Ihrer Nachrichten anzeigen zu können. Erfahren Sie, wie Sie [Testprofile](building-journeys/creating-test-profiles.md) erstellen.
+   >Um Ihre Nachrichten in der Vorschau anzuzeigen, benötigen Sie Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](building-journeys/creating-test-profiles.md).
 
-1. Um den Namespace auszuwählen, der zur Identifizierung von Testprofilen verwendet werden soll, wählen Sie **[!UICONTROL Email]** aus dem Feld **[!UICONTROL Identitäts-Namespace]** aus.
+1. Um den Namespace auszuwählen, der zur Identifizierung von Testprofilen verwendet werden soll, wählen Sie **[!UICONTROL E-Mail]** im Feld **[!UICONTROL Identity-Namespace]** aus.
 
    >[!NOTE]
    >
-   >In diesem Beispiel verwenden wir den Namespace **Email**. Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](get-started-identity.md).
+   >In diesem Beispiel verwenden wir den Namespace **E-Mail**. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](get-started-identity.md).
 
-1. Wählen Sie in der Liste der Identitäts-Namespaces **[!UICONTROL E-Mail]** aus und klicken Sie auf **[!UICONTROL Auswählen]**.
+1. Wählen Sie in der Liste der Identity-Namespaces **[!UICONTROL E-Mail]** aus und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert ein, um das Testprofil zu identifizieren. Geben Sie in diesem Beispiel die E-Mail-Adresse eines Testprofils ein.
+1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert ein, der das Testprofil identifiziert . Geben Sie in diesem Beispiel die E-Mail-Adresse eines Testprofils ein.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-1. Wählen Sie weitere Testprofile aus, um den E-Mail-Inhalt für jede Variante Ihrer Nachricht in der Vorschau anzuzeigen. Im Nachrichteninhalt wird nun das Angebot angezeigt, das dem ausgewählten Testprofil (jetzt ein Mann) entspricht.
+1. Wählen Sie für jede Nachrichtenvariante weitere Testprofile aus, um die Vorschau des E-Mail-Inhalts anzuzeigen. Im Nachrichteninhalt wird nun das Angebot angezeigt, das dem ausgewählten Testprofil (jetzt ein Mann) entspricht.
 
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
@@ -105,6 +105,6 @@ Weitere Informationen zu den detaillierten Schritten zur Überprüfung der Nachr
 
 ## Anleitungsvideo{#video-offers}
 
-Erfahren Sie, wie Sie in [!DNL Journey Optimizer] eine offer decisioning-Komponente zu Nachrichten hinzufügen.
+Erfahren Sie, wie Sie in [!DNL Journey Optimizer] eine Offer Decisioning-Komponente zu Nachrichten hinzufügen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
