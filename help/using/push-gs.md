@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erre
 
 Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind.
 
-Die Schritte zum Konfigurieren des Push-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
+Die Schritte zum Konfigurieren des Push-Benachrichtigungs-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
 
 ## Push-Benachrichtigungen und [!DNL Adobe Journey Optimizer]
 
