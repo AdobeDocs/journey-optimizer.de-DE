@@ -1,23 +1,23 @@
 ---
 title: Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Live-Bericht verwenden
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit dem Live-Bericht {#live-report}
 
-Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journey und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
-Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand gesendet oder Ihre Journey ausgeführt wird.
+Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
+Im **[!UICONTROL Live-Bericht]** sind Daten verfügbar, sobald Ihr Versand durchgeführt oder Ihre Journey ausgeführt wird.
 
-* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Live-Bericht]** . Dann können Sie die Live-Berichte „Journey“, „E-Mail“ und „Push-Benachrichtigung“ finden.
+* Wenn Sie eine Journey oder Sendungen innerhalb einer Journey ansprechen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Live-Bericht]**. Dann können Sie die Live-Berichte „Journey“, „E-Mail“ und „Push-Benachrichtigung“ finden.
 
    ![](../assets/report_journey.png)
 
@@ -25,7 +25,7 @@ Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand gesen
 
    ![](../assets/report_2.png)
 
-## Anpassen des Dashboards {#modify-dashboard}
+## Dashboard anpassen {#modify-dashboard}
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
