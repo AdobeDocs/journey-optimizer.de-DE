@@ -14,7 +14,7 @@ ht-degree: 54%
 
 # Erste Schritte mit Segmenten {#about-segments}
 
-[!DNL Journey Optimizer]Mit können Sie Adobe Experience Platform-Segmente anhand von Echtzeit-Kundenprofildaten direkt aus dem Menü **[!UICONTROL Segmente]** erstellen und diese in Ihre Journeys einbinden.
+Mit [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Segmente mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Segmente]** erstellen und diese Segmente in Ihre Journeys einbinden.
 
 Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der Dokumentation zum Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.[
 
