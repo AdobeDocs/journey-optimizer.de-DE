@@ -2,7 +2,7 @@
 title: 'Datenquelle von Adobe Experience Platform '
 description: Erfahren Sie, wie Sie die Datenquelle von Adobe Experience Platform konfigurieren
 feature: Datenquellen
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
