@@ -13,7 +13,7 @@ internal: n
 snippet: y
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Anwendungskonfiguration
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
