@@ -2,13 +2,13 @@
 title: 'Externe Datenquellen '
 description: Erfahren Sie, wie Sie externe Datenquellen konfigurieren
 feature: Datenquellen
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Der Aufruf besteht aus einer Haupt-URL (_https://api.adobeweather.org/weather_),
 
 Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren einer neuen externen Datenquelle beschrieben:
 
-1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]** , um eine neue externe Datenquelle zu erstellen.
+1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]**, um eine neue externe Datenquelle zu erstellen.
 
    ![](../assets/journey25.png)
 
@@ -43,7 +43,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
    >
    >Verwenden Sie keine Leerzeichen oder Sonderzeichen. Verwenden Sie nicht mehr als 30 Zeichen.
 
-1. Fügen Sie Ihrer Datenquelle eine Beschreibung hinzu.  Dieser Schritt ist optional.
+1. Fügen Sie Ihrer Datenquelle eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Fügen Sie die URL des externen Dienstes hinzu. In unserem Beispiel: _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
