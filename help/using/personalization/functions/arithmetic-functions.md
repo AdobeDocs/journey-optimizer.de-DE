@@ -1,14 +1,14 @@
 ---
-title: Bibliothek für Arithmetik-Funktionen
-description: Bibliothek für Arithmetik-Funktionen
+title: Bibliothek für arithmetische Funktionen
+description: Bibliothek für arithmetische Funktionen
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
