@@ -95,7 +95,7 @@ Hier gilt:
 
 Weitere Informationen zur Entscheidungs-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../../using/offers/api-reference/decisions-api/deliver-offers.md).
 
-Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas
+Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas.
 
 **Beispielverweise:**
 
