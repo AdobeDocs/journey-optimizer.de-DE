@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
    In diesem Beispiel müssen für die Segmenterstellung die Felder **Attribute** und **Ereignisse** verwendet werden:
 
-   * **Attribute**: Profile, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
+   * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980
 
       ![](../assets/add-attributes.png)
 
