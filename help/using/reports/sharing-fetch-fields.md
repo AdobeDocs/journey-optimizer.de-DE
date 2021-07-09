@@ -1,20 +1,20 @@
 ---
 title: Datenabruffelder für journeyStep-Ereignisse
 description: Datenabruffelder für journeyStep-Ereignisse
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Datenabruffelder für journeyStep-Ereignisse {#sharing-fetch-fields}
 
-Diese Feldergruppe wird von journeyStepEvent und journeyStepProfileEvent gemeinsam genutzt.
+Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
 
 Bei einer Schrittverarbeitung kann es N Datenabrufe für Feldergruppen geben.
 
