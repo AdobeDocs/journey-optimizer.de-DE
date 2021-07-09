@@ -8,12 +8,12 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
 
-# Anwendungsfall: Personalisierung Bestellstatus-Benachrichtigung {#personalization-use-case}
+# Anwendungsfall für Personalisierung: Bestellstatus-Benachrichtigung {#personalization-use-case}
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
@@ -21,7 +21,7 @@ In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in
 * **Angebotsentscheidung**: Personalisierung basierend auf offer decisioning-Variablen
 * **Kontext**: Personalisierung basierend auf Kontextdaten aus der Journey
 
-Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu pushen. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
+Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu senden. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
 
 Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
