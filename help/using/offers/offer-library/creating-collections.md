@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können zwei Arten von Kollektionen erstellen:
 
 * **Dynamische Kollektionen** sind Sammlungen von Angeboten, die auf Tags basieren. Diese Kollektionen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem ausgewählten Tag erstellt wird, wird es automatisch der Kollektion hinzugefügt.
 
-* **Statische Kollektionen** sind Sammlungen, die durch manuelles Auswählen einzelner Angebote erstellt werden, die in die Kollektion aufgenommen werden sollen. Die Kollektion kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzugefügt werden.
+* **Statische Kollektionen** sind Sammlungen, die durch manuelles Auswählen einzelner Angebote erstellt werden, die in die Kollektion aufgenommen werden sollen. Eine solche Kollektion kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden.
 
 Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
