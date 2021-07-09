@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -22,11 +22,11 @@ Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim A
 
 >[!NOTE]
 >
->Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Nachrichten an einfache Journey, die ein Lesesegment und eine einfache Push-Nachricht enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
+>Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Benachrichtigungen für einfache Journeys, die die Aktivität „Segment lesen“ und eine einfache Push-Benachrichtigung enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
 
 ### Aktivität konfigurieren {#configuring-segment-trigger-activity}
 
-Die Schritte zum Konfigurieren der Aktivität Segment lesen lauten wie folgt:
+Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Orchestrierung]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segment lesen]** auf Ihrer Arbeitsfläche ab.
 
@@ -97,7 +97,7 @@ Sobald die Tests erfolgreich sind, können Sie Ihre Journey veröffentlichen (si
 
 ## Zielgruppenbestimmung bei segmentbasierten Journeys
 
-Segmentbasierte Journey beginnen immer mit der Aktivität **Segment lesen** , um Kontakte abzurufen, die zu einem Adobe Experience Platform-Segment gehören.
+Segmentbasierte Journeys beginnen immer mit der Aktivität **Segment lesen**, um Personen abzurufen, die einem Adobe Experience Platform-Segment angehören.
 
 Die Audience des Segments wird einmalig oder regelmäßig abgerufen.
 
