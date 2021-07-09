@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 * [Personalisierte Angebote](../offer-library/creating-personalized-offers.md)
 * [Fallback-Angebote](../offer-library/creating-fallback-offers.md)
 
-## Entscheidung erstellen {#create-activity}
+## Erstellen einer Entscheidung {#create-activity}
 
 1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
 
@@ -75,7 +75,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../../assets/activity_constraint_rule.png)
 
-## Fallback-Angebot hinzufügen {#add-fallback}
+## Hinzufügen eines Fallback-Angebots {#add-fallback}
 
 Wählen Sie das Fallback-Angebot aus, das Kunden, die nicht den Regeln der Angebotsbedingung und den Einschränkungen entsprechen, letztlich angezeigt wird, und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
