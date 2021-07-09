@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -75,7 +75,7 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 
 Mit dieser Option können Sie die Audience nach dem Zufallsprinzip aufspalten, um für jede Gruppe eine andere Aktion zu definieren. Definieren Sie die Anzahl der Aufspaltungen und die Neuaufteilung für jeden Pfad. Die Berechnung der Aufspaltung ist statistisch, da das System nicht vorhersehen kann, wie viele Personen an dieser Aktivität der Journey teilnehmen werden. Infolgedessen weist die Aufspaltung eine sehr geringe Fehlermarge auf. Diese Funktion basiert auf einem Java-Zufallsmechanismus (siehe diese [Seite](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
-Im Testmodus wird beim Erreichen einer Aufspaltung immer der obere Zweig ausgewählt. Sie können die Position der geteilten Verzweigungen neu organisieren, wenn der Test einen anderen Pfad wählen soll. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
+Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung ausgewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
