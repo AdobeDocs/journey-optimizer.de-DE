@@ -6,9 +6,9 @@ topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 81%
 >
 > Wenn benutzerdefinierte Abfragen über APIs unter Verwendung des Abfrage-Service durchgeführt werden, treten bei Ihren Berichten möglicherweise Verzögerungen auf.
 
-Verwenden Sie den **[!UICONTROL Globalen Bericht]**, um die Wirkung Ihrer Journey und Sendungen über einen bestimmten Zeitraum zu messen.
+Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Journeys und Ihrer Sendungen über einen bestimmten Zeitraum messen.
 
-* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey als Ziel auswählen möchten, greifen Sie über das Menü **[!UICONTROL Journey]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]** . Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
+* Wenn Sie eine Journey oder Sendungen in einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]**. Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
 
 * Wenn Sie einen bestimmten Versand auswählen möchten, wählen Sie in der Ansicht **[!UICONTROL Global]** auf der Registerkarte **[!UICONTROL Ausführungen]** Ihrer Nachrichten die Option **[!UICONTROL Globaler Bericht]** aus dem erweiterten Menü des ausgewählten Versands.
 
@@ -34,7 +34,7 @@ Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernung von Wid
 
    ![](../assets/global_report_6.png)
 
-1. Klicken Sie auf **[!UICONTROL Modify]**.
+1. Klicken Sie auf **[!UICONTROL Ändern]**.
 
    ![](../assets/global_report_8.png)
 
