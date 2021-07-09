@@ -8,14 +8,14 @@ level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
 
 # Bibliothek für Helper-Funktionen{#functionsL}
 
-Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierung oder Konvertierungen und Bedingungen durchzuführen und bearbeiten Sie Daten im Kontext der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
+Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
 
 ➡️ [Erfahren Sie, wie Sie Hilfsfunktionen](#video) verwenden (Video)
 
@@ -285,6 +285,6 @@ Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie, wie Sie Personalisierungswerte mithilfe von Personalisierungsfunktionen umwandeln und verschiedene Anwendungsfälle für Hilfsfunktionen verstehen.
+Erfahren Sie, wie Sie Personalisierungswerte mithilfe von Helper-Funktionen zur Personalisierung umwandeln und lernen Sie verschiedene Anwendungsfälle für Hilfsfunktionen kennen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
