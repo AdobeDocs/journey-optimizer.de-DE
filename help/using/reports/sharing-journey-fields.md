@@ -1,20 +1,20 @@
 ---
 title: Journey-Felder
 description: Journey-Felder
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Journey-Felder {#sharing-journey-fields}
 
-Diese Feldergruppe wird im Journey-Schema verwendet (in Bezug auf journeyStepEvent). Es enthält die folgenden Felder:
+Diese Feldergruppe wird im Journey-Schema verwendet (in Verbindung mit journeyStepEvent). Es enthält die folgenden Felder:
 
 ## journeyID
 
