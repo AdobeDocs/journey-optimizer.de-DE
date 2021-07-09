@@ -1,18 +1,18 @@
 ---
-title: Bibliothek mit Arrays-Funktionen
-description: Bibliothek mit Arrays-Funktionen
+title: Bibliothek mit Array-Funktionen
+description: Bibliothek mit Array-Funktionen
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Arrays und Listenfunktionen {#arrays}
+# Array- und Listenfunktionen {#arrays}
 
 Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
