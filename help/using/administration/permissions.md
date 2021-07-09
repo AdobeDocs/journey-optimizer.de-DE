@@ -3,13 +3,13 @@ title: Verwalten von Benutzern und Produktprofilen
 description: Erfahren Sie, wie Sie Berechtigungen verwalten.
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Kontrollgruppen
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Wenn Sie ein vordefiniertes oder benutzerdefiniertes **[!UICONTROL Produktprofil
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
-   Im Tab **[!UICONTROL Berechtigungen]** wird die Liste der Funktionen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud - Plattformgestützte Anwendungen]** gelten.
+   Auf der Registerkarte **[!UICONTROL Berechtigungen]** wird die Liste der Funktionen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud – von Platform unterstützte Anwendungen]** gelten.
 
    ![](../assets/access_control_5.png)
 
