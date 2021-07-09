@@ -2,9 +2,9 @@
 title: 'Starten der Journey-Ausführung '
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,17 +44,17 @@ Nach dem Versand einer Nachricht können Sie die Ausführung über mehrere Indik
 
 ## Verzögerter Nachrichtenversand {#schedule-messages}
 
-Nachrichten können über die Aktivität **[!UICONTROL Segment lesen]** in einer [Journey](journey.md) geplant werden. Sie können den Zeitpunkt für den Eintritt des Segments in die Journey bestimmen. [Erfahren Sie mehr über die Aktivität](read-segment.md) Segment lesen .
+Nachrichten können über die Aktivität **[!UICONTROL Segment lesen]** in einer [Journey](journey.md) zu einem geplanten Zeitpunkt versandt werden. Sie können den Zeitpunkt für den Eintritt des Segments in die Journey bestimmen. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md)
 
 Gehen Sie dazu wie folgt vor:
 
-1. Bearbeiten Sie eine Journey, ziehen Sie die Aktivität **[!UICONTROL Segment lesen]** per Drag-and-Drop und konfigurieren Sie sie. [Erfahren Sie mehr über die Konfiguration der Aktivität](read-segment.md#configuring-segment-trigger-activity) Segment lesen .
+1. Bearbeiten Sie eine Journey, fügen Sie die Aktivität **[!UICONTROL Segment lesen]** per Drag-and-Drop ein und nehmen Sie die Konfiguration vor. [Weitere Informationen über das Konfigurieren der Aktivität „Segment lesen“](read-segment.md#configuring-segment-trigger-activity)
 
 1. Klicken Sie auf den Link **[!UICONTROL Journey-Plan bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen.
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. Konfigurieren Sie das Feld **[!UICONTROL Planungstyp]**:  Wählen Sie den gewünschten Wert aus der Liste aus, damit das Segment an einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend in die Journey eintritt.
+1. Konfigurieren Sie das Feld **[!UICONTROL Planungstyp]**: Wählen Sie den gewünschten Wert aus der Liste aus, damit das Segment an einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend in die Journey eintritt.
 
    >[!NOTE]
    >
