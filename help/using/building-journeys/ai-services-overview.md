@@ -9,19 +9,19 @@ exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 66%
+ht-degree: 89%
 
 ---
 
 # Integration mit Intelligent Services {#ai-overview}
 
-Durch die Integration mit **[!DNL Adobe Intelligent Services]** können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
+Die Integration mit **[!DNL Adobe Intelligent Services]** ermöglicht es Ihnen, die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen mit Kundenerlebnissen zu nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 
-[!DNL Intelligent Services], die auf der Adobe Experience Platform basieren, bieten Marketing-Experten, die für das Kundenerlebnis verantwortlich sind, Zugriff auf KI als einen Dienst. So kann jeder das Kundenverhalten vorhersagen, die Auswirkungen einer Kampagne messen oder bessere Renditen für Investitionen sicherstellen. Weitere Informationen zu [!DNL Adobe Intelligent Services] finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html){target=&quot;_blank&quot;}.
+[!DNL Intelligent Services], die auf Adobe Experience Platform basieren, bieten Marketing-Experten, die für das Kundenerlebnis verantwortlich sind, Zugriff auf einen KI-Service. So kann jeder das Kundenverhalten vorhersagen, die Wirkung einer Kampagne messen oder höhere Gewinne aus Investitionen ziehen. Weitere Informationen zu [!DNL Adobe Intelligent Services] finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=de){target=&quot;_blank&quot;}.
 
-Durch die Integration von [!DNL Journey Optimizer] und [!DNL Intelligent Services] können Sie Kundenprognosen nutzen.
+Durch die Integration von [!DNL Journey Optimizer] mit [!DNL Intelligent Services] können Sie Kundenprognosen nutzen.
 
-Customer AI ist Teil von [!DNL Adobe Intelligent Services]. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target=&quot;_blank&quot;}.
+Kunden-KI ist Teil von [!DNL Adobe Intelligent Services]. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=de){target=&quot;_blank&quot;}.
 
 Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Adobe Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
 
