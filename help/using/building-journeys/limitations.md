@@ -2,13 +2,13 @@
 title: Einschränkungen von Journeys
 description: Weitere Informationen zu Einschränkungen von Journeys
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 ## Allgemeine Aktionseinschränkungen
 
 * Es gibt keine Einschränkung beim Versand. 
-* Im Falle eines Fehlers werden systematisch drei weitere Versuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
+* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
 * Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 
@@ -29,12 +29,11 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* Eine Journey, die in v1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in v1 mit einer **Segmentqualifikation** -Aktivität beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifikation** beginnen.
-* Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
+* Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
+* Das Segment und der Namespace, die unter **Segmentqualifizierung** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit einem **Segment lesen** beginnt, kann nicht mit einem anderen Ereignis in den nächsten Versionen beginnen.
- 
+* Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
 
 ## Einschränkungen bei benutzerdefinierten Aktionen
 
