@@ -1,20 +1,20 @@
 ---
 title: Aktionsausführungsfelder für journeyStep-Ereignisse
 description: Aktionsausführungsfelder für journeyStep-Ereignisse
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Aktionsausführungsfelder für journeyStep-Ereignisse {#sharing-execution-fields}
 
-Diese Feldergruppe wird von journeyStepEvent und journeyStepProfileEvent gemeinsam genutzt.
+Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
 
 Wenn für den Schritt eine Aktion verarbeitet werden muss, werden diese Felder der Ereignis-Payload hinzugefügt.
 
