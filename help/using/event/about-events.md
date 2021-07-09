@@ -2,13 +2,13 @@
 title: Informationen zu Ereignissen
 description: Erfahren Sie mehr über Ereignisse.
 feature: Ereignisse
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,7 @@ Bei unitären Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 
 * **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist.
 
-Journey Optimizer erfordert, dass Ereignisse in Adobe Experience Platform gestreamt oder in Batches verwendet werden. Diese Daten müssen nicht unbedingt an das Echtzeit-Profil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung oder Suche in einer separaten Journey verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
+Journey Optimizer erfordert, dass Ereignisse in Adobe Experience Platform gestreamt oder in Batches aufgenommen werden. Diese Daten müssen nicht unbedingt an das Echtzeit-Profil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung oder Suche in einer separaten Journey verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
 
 ## Datenzyklus {#section_r1f_xqt_pgb}
 
