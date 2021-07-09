@@ -1,18 +1,18 @@
 ---
 title: Globaler Bericht zu Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zu Push-Benachrichtigungen verwenden
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Push Global report {#push-global-report}
+# Globaler Bericht zu Push-Benachrichtigungen {#push-global-report}
 
 Der **[!UICONTROL globale Bericht]** zu Push-Benachrichtigungen zielt nur auf einen bestimmten Versand einer Push-Benachrichtigung ab.
 
@@ -24,7 +24,7 @@ Der **[!UICONTROL globale Bericht]** zu Push-Benachrichtigungen ist in verschied
 
 ![](../assets/push_global_report.png)
 
-Das Widget **[!UICONTROL Leistung von Push-Benachrichtigungen]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit KPIs:
+Das Widget **[!UICONTROL Leistung von Push-Benachrichtigungen]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit den folgenden KPIs:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -32,7 +32,7 @@ Das Widget **[!UICONTROL Leistung von Push-Benachrichtigungen]** enthält die wi
 
 * **[!UICONTROL Fehlerrate]**: Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.
 
-* **[!UICONTROL Aktionsrate]**: Prozentsatz der Aktionen, die bei der zugestellten Push-Benachrichtigung durchgeführt werden, z. B. Klicken oder Abbruch einer Schaltfläche.
+* **[!UICONTROL Aktionsrate]**: Prozentsatz der in der Push-Benachrichtigung ausgeführten Aktionen, z. B. Button-Klick oder Abbruch.
 
 * **[!UICONTROL Interaktionsrate]**: Prozentsatz der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet hat oder auf eine Schaltfläche geklickt wurde.
 
