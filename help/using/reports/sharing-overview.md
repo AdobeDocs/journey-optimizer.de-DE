@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Funktionen 
 
 >[!NOTE]
 >
->Diese Funktion ist standardmäßig auf allen Instanzen für Journey-Schrittereignisse aktiviert. Bei Journey-Profilschritt-Ereignissen erfolgt die Aktivierung auf Anfrage. Die Schemata und Datensätze, die bei der Bereitstellung dieser Funktion erstellt wurden, dürfen nicht geändert werden.
+>Diese Funktion ist standardmäßig auf allen Instanzen für Journey-Schrittereignisse aktiviert. Bei Journey-Profilschritt-Ereignissen erfolgt die Aktivierung auf Anfrage. Die Schemas und Datensätze, die bei der Bereitstellung dieser Funktion erstellt wurden, dürfen nicht geändert werden.
 
 Sie haben beispielsweise eine Journey eingerichtet, die mehrere E-Mails sendet. Mit dieser Funktion können Sie [!DNL Journey Optimizer]-Daten mit nachgelagerten Ereignisdaten kombinieren (z. B. der Anzahl der Konversionen, der Interaktionen auf der Website oder der Transaktionen im Store). Die Journey-Daten können entweder über andere digitale Eigenschaften oder über Offline-Eigenschaften mit Daten aus Adobe Experience Platform kombiniert werden, um eine umfassendere Ansicht der Leistung zu ermöglichen.
 
