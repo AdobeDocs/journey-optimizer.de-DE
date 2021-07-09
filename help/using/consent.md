@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -129,19 +129,19 @@ Hauptteil der Anfrage:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Link zum Abmelden in der Kopfzeile {#unsubscribe-email}
+## Abmelde-Link in der Kopfzeile {#unsubscribe-email}
 
-Wenn der E-Mail-Client des Empfängers die Anzeige eines Abmelde-Links im E-Mail-Header unterstützt, enthalten E-Mails, die mit [!DNL Journey Optimizer] gesendet werden, automatisch diesen Link.
+Wenn der E-Mail-Client des Empfängers die Anzeige eines Abmelde-Links in der E-Mail-Kopfzeile unterstützt, enthalten E-Mails, die mit [!DNL Journey Optimizer] gesendet werden, automatisch diesen Link.
 
 Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 
 ![](assets/unsubscribe-email.png)
 
-Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile einen der folgenden Auswirkungen:
+Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine der folgenden Auswirkungen:
 
 * Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
-* Sie hat die gleiche Wirkung wie das Klicken auf den Abmelde-Link aus dem E-Mail-Inhalt: Der Empfänger wird zu einer Landingpage umgeleitet, die eine Schaltfläche enthält, mit der er seine Abmeldung bestätigt. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](#opt-out-management).
+* Dies hat die gleiche Wirkung wie das Klicken auf den Abmelde-Link im E-Mail-Inhalt: Der Empfänger wird zu einer Landingpage weitergeleitet, die einen Button enthält, mit der er seine Abmeldung bestätigt. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](#opt-out-management).
 
 ## Push-Opt-out-Verwaltung {#push-opt-out-management}
 
