@@ -43,7 +43,7 @@ ht-degree: 43%
     <p>Erfahren Sie, wie Sie Ihren Journey Push- und E-Mail-Nachrichten hinzufügen.
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Erste Journey erstellen</a>
+    <a href="using/building-journeys/journeys-uc.md">Erstellen Ihrer ersten Journey</a>
     </div>
     <p>Erfahren Sie, wie Sie eine Journey erstellen und ausführen
     <p>
@@ -102,7 +102,7 @@ ht-degree: 43%
       <a href="using/create-message.md">Nachrichten</a>
     </li>
     <p>
-    <p>ENTSCHEIDUNGS-MANAGEMENT</p>
+    <p>ENTSCHEIDUNGSMANAGEMENT</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Angebote</a>
     </li>
@@ -110,7 +110,7 @@ ht-degree: 43%
       <a href="using/offers/offer-library/key-steps.md">Komponenten</a>
     </li>
     <p>
-    <p>INHALTS-MANAGEMENT</p>
+    <p>CONTENT MANAGEMENT</p>
     <li>
       <a href="using/assets-essentials.md">Assets</a>
     </li>
@@ -145,7 +145,7 @@ ht-degree: 43%
       <a href="using/get-started-identity.md">Identität</a>
     </li>
     <p>
-    <p>ADMINISTRATION</p>
+    <p>VERWALTUNG</p>
     <li>
       <a href="using/configuration/about-data-sources-events-actions.md">Konfigurationen </a>
     </li>
