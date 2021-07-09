@@ -2,17 +2,17 @@
 title: Importieren oder Kodieren von E-Mails
 description: Erfahren Sie, wie Sie E-Mail-Inhalt importieren oder Ihre E-Mails kodieren
 feature: Übersicht
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
 ---
 
-# Importieren oder Kodieren Ihres E-Mail-Inhalts {#existing-content}
+# Importieren oder Codieren Ihres E-Mail-Inhalts {#existing-content}
 
 Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Bei diesem Inhalt kann es sich um HTML-Roh-Code oder Inhalt aus einer vorhandenen HTML-Datei oder einem ZIP-Ordner handeln.
 
@@ -26,7 +26,7 @@ Gehen Sie wie folgt vor, um HTML-Inhalt zu kodieren oder vorhandenen Inhalt zu i
 
 1. Wählen Sie **[!UICONTROL Eigenen Code erstellen]** oder **[!UICONTROL HTML importieren]**. Die nächsten Schritte finden Sie in den folgenden Abschnitten.
 
-## Eigenen Code erstellen {#import-raw-html-code}
+## Erstellen des eigenen Codes {#import-raw-html-code}
 
 Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um HTML-Roh-Code zu importieren und/oder Ihren E-Mail-Inhalt zu kodieren. Diese Methode setzt HTML-Kenntnisse voraus.
 
