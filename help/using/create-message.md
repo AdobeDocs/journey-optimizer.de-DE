@@ -6,9 +6,9 @@ topic: Content-Management
 role: User
 level: Beginner
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Nachrichten sind über den Shortcut **[!UICONTROL Nachrichten]** auf der linken 
 
 >[!NOTE]
 >
->Benutzer können je nach Produktprofil auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../using/administration/permissions.md).
+>Benutzer können je nach ihrem Produktprofil auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
