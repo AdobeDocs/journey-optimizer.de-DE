@@ -13,11 +13,11 @@ internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Kontrollgruppen
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
 ht-degree: 100%
 
@@ -109,9 +109,9 @@ Die Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen anz
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
-   * Journey_events.read
-   * Journey_data_sources.read
-   * Journey_actions.read
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
@@ -285,7 +285,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * profiles.read
 
-### Berechtigung zur Verwaltung von Ranking-Strategien {#manage-decisions}
+### Berechtigung zur Verwaltung von Rangfolgestrategien {#manage-decisions}
 
 Mit der Berechtigung **[!UICONTROL Ranking-Strategien verwalten]** auf hoher Ebene können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
 
@@ -353,7 +353,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### Berechtigung zur Verwaltung von Nachrichtenvorgaben {#manage-message-presets}
+### Berechtigung zur Verwaltung von Nachrichtenvoreinstellungen {#manage-message-presets}
 
 Die Berechtigung **[!UICONTROL Nachrichtenvorgaben verwalten]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvorgaben über Kanäle hinweg auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
 
@@ -367,7 +367,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung zur Anzeige von Nachrichtenvorgaben {#view-message-presets}
+### Berechtigung zur Anzeige von Nachrichtenvoreinstellungen {#view-message-presets}
 
 Mit der Berechtigung **[!UICONTROL Nachrichtenvorgaben anzeigen]** auf hoher Ebene können Benutzer Nachrichtenvorgaben anzeigen, um zu erfahren, welche Nachrichtenvorgaben beim Erstellen einer Nachricht verwendet werden sollen.
 
