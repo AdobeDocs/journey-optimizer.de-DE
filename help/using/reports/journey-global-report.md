@@ -6,9 +6,9 @@ topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Regi
 
 ![](../assets/global_report_2.png)
 
-Mit dem Widget **[!UICONTROL Journey Performance]** können Sie den Pfad Ihrer Zielprofile Schritt für Schritt durch Ihre Journey anzeigen.
+Mit dem Widget **[!UICONTROL Performance der Journey]** können Sie den Weg Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
-Das Widget **[!UICONTROL Journey Statistics]** zeigt die folgenden KPIs an:
+Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
 
@@ -44,11 +44,11 @@ Das Widget **[!UICONTROL Journey Statistics]** zeigt die folgenden KPIs an:
 
 ![](../assets/global_report_12.png)
 
-Mit den Widgets **[!UICONTROL Ereignisse, die von event]**, **[!UICONTROL Ereignisse nach Herkunft]** und **[!UICONTROL Top-Ereignisse]** empfangen werden, können Sie sehen, welche **[!UICONTROL Ereignisse]** erfolgreich über Diagramme und Tabellen ausgeführt wurde.
+Mit den Widgets **[!UICONTROL Ereignisse durch ein Ereignis empfangen]**, **[!UICONTROL Ereignisse nach Herkunft]** und **[!UICONTROL Top-Ereignisse]** können Sie über Diagramme und Tabellen sehen, welches Ihrer **[!UICONTROL Ereignisse]** erfolgreich ausgeführt wurde.
 
 ![](../assets/global_report_13.png)
 
-**[!UICONTROL Aktionsleistung]**,  **[!UICONTROL Aktionsfehler-]** Gründe und  **[!UICONTROL Top-]** Aktionswidgets stellen die erfolgreichste Aktion und Fehler dar, die beim Auslösen Ihrer  **** Aktionen aufgetreten sind.
+Die Widgets **[!UICONTROL Performance der Aktion]**, **[!UICONTROL Fehlergründe für Aktionen]** und **[!UICONTROL Top-Aktionen]** stellen die erfolgreichsten Aktionen und Fehler dar, die beim Auslösen Ihrer **[!UICONTROL Aktionen]** aufgetreten sind.
 
 Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktionen]** verfügbaren Daten, z. B.:
 
@@ -94,7 +94,7 @@ Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Date
 
 * **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Journey interagiert haben.
 
-* **[!UICONTROL Abmelden]**: Anzahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Abo beenden]**: Zahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
@@ -122,7 +122,7 @@ Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungsliste
 
 Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
 
-Das Diagramm **[!UICONTROL E-Mail - Top-Empfänger-Domain]** zeigt, welche Domänen von den Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
+Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
 ## Registerkarte „Push-Benachrichtigung“  {#push-global}
 
