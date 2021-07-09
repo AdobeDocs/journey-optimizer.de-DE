@@ -1,6 +1,6 @@
 ---
 title: Segmentqualifikationsereignisse
-description: Mehr über Segmentqualifizierungsereignisse
+description: Mehr über Segmentqualifikationsereignisse
 feature: Journeys
 topic: Content-Management
 role: User
@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 79%
+ht-degree: 89%
 
 ---
 
 # Segmentqualifikationsereignisse {#segment-qualification}
 
-## Über Segmentqualifizierungsereignisse{#about-segment-qualification}
+## Über Segmentqualifikationsereignisse{#about-segment-qualification}
 
 Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten überwachen, um Kontakte dazu zu bringen, in eine Journey einzutreten oder in einer Journey fortzufahren. Weiterführende Informationen zur Erstellung von Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
@@ -65,13 +65,13 @@ Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen 
 * Zeitstempel der Qualifizierung
 * Segmentkennung
 
-Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die auf eine **[!UICONTROL Segmentqualifikation]** -Aktivität folgt, haben Sie Zugriff auf den Knoten **[!UICONTROL SegmentQualification]** . Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
+Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL SegmentQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
-Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Dienstes. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
+Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
