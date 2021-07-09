@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -53,8 +53,8 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
 * Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
-* Sie können nicht zu einer Journey springen, die mit einem **Segmentqualifikation** -Ereignis oder **Segment lesen** beginnt.
-* Im selben Journey können Sie keine **[!UICONTROL Sprung]**-Aktivität und kein **Segmentqualifikationsereignis** oder **Segment lesen** haben.
+* Sie können nicht zu einer Journey springen, die mit einem **Segmentqualifizierungsereignis** oder einer Aktivität vom Typ **Segment lesen** beginnt.
+* Dieselbe Journey darf nicht gleichzeitig eine **[!UICONTROL Sprungaktivität]** und ein **Segmentqualifizierungsereignis** oder **Segment lesen** enthalten.
 * Sie können so viele **[!UICONTROL Sprungaktivitäten]** in eine Journey aufnehmen, wie Sie benötigen. Nach einem **[!UICONTROL Sprung]** können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
@@ -76,7 +76,7 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
    ![](../assets/jump2.png)
 
 1. Klicken Sie in das Feld **Ziel-Journey**.
-Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journey, die einen anderen Namespace verwenden oder mit einem **Segmentqualifikationsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifizierungsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![](../assets/jump3.png)
 
