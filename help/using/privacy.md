@@ -1,5 +1,5 @@
 ---
-title: 'Datenschutz in [!DNL Journey Optimizer] '
+title: 'Datenschutz  in [!DNL Journey Optimizer] '
 description: Erfahren Sie, wie Sie Datenschutz verwalten.
 topic: Datenschutz
 role: User
@@ -7,14 +7,14 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
 
 # Datenschutzverwaltung mit [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer] ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung sehr großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen. Um bessere Kundenerlebnisse zu bieten, müssen Sie die personenbezogenen Daten Ihrer Kunden erfassen und speichern. Bei der Verwendung dieser Daten ist es wichtig, die Privatsphäre Ihrer Kunden zu verstehen und zu respektieren. Neue gesetzliche und organisatorische Vorschriften geben Benutzern das Recht, auf Anfrage auf ihre personenbezogenen Daten zuzugreifen bzw. diese Daten aus Ihren Datenspeichern löschen zu lassen.
+[!DNL Journey Optimizer] ist ein leistungsstarkes Tool zur Verarbeitung großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen. Um ein besseres Kundenerlebnis zu bieten, müssen Sie die personenbezogenen Daten Ihrer Kunden erfassen und speichern. Bei der Verwendung dieser Kundendaten müssen Sie stets den Datenschutz im Auge behalten und gewährleisten. Neue gesetzliche und betriebliche Vorschriften geben Benutzern das Recht, auf Anfrage auf ihre personenbezogenen Daten zuzugreifen bzw. diese Daten aus Ihren Datenspeichern löschen zu lassen.
 
 * **Personenbezogene Daten** sind Informationen, die eine lebende Person direkt oder indirekt identifizieren können.
 * **Vertrauliche personenbezogene Daten** sind Informationen zu Rasse, politischen Ansichten, religiösen Überzeugungen, kriminellem Hintergrund, genetischen Informationen, Gesundheitsdaten, sexuellen Vorlieben, biometrischen Informationen sowie zur Gewerkschaftsmitgliedschaft.
