@@ -1,6 +1,6 @@
 ---
 title: PTR-Einträge
-description: '"Erfahren Sie, wie Sie ptr-records verwalten."'
+description: „Informationen zum Verwalten von PTR-Einträgen“
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 feature: Anwendungskonfiguration
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sende
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains
 
-Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL PTR-Datensätze]** zugreifen.
+Nachdem eine Subdomain in Customer Journey Management zugewiesen wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** `>` **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](../assets/ptr-records.png)
 
