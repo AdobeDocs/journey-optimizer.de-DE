@@ -1,18 +1,18 @@
 ---
 title: Live-Bericht zu Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Daten aus dem Live-Bericht zu Push-Benachrichtigungen verwenden
-feature: 'Berichterstellung '
-topic: Content Management
+feature: Reporting
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
 ht-degree: 100%
 
 ---
 
-# Live-Bericht zu Push-Benachrichtigungen {#push-live-report}
+# Live-Bericht zu Push-Benachrichtigungen  {#push-live-report}
 
 Der **[!UICONTROL Live-Bericht]** zu Push-Benachrichtigungen bezieht sich auf einen bestimmten Versand von Push-Benachrichtigungen.
 
