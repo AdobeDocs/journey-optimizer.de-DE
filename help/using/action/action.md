@@ -3,13 +3,13 @@ solution: Journey Orchestration
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
 feature: Aktionen
-topic: Administration.
+topic: Administration
 role: Administrator
 level: Intermediate
 source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -36,6 +36,6 @@ Wenn Sie ein Drittanbietersystem (z. B. Epsilon, Facebook, Adobe.io, Firebase) 
 
 Die Aktionen stehen in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
-Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie **[!UICONTROL Konfigurationen]** im Menüabschnitt ADMINISTRATION aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
+Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen Sie im Menüabschnitt ADMINISTRATION **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Aktionen]** auf **[!UICONTROL Verwalten]**. Die Liste der Aktionen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../user-interface.md).
 
 ![](../assets/custom1.png)
