@@ -2,19 +2,19 @@
 title: Über Journey-Aktivitäten
 description: Erfahren Sie mehr über Journey-Aktivitäten
 feature: Journeys
-topic: Content Management
+topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Über Journey-Aktivitäten {#about-journey-activities}
 
-Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
+Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen.
 
 ## Ereignisaktivitäten {#event-activities}
 
@@ -22,7 +22,7 @@ Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../e
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
-* [Segmentqualifikation](../building-journeys/segment-qualification-events.md)
+* [Segmentqualifizierung](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
