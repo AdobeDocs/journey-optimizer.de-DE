@@ -7,9 +7,9 @@ topic: Content-Management
 role: User
 level: Intermediate
 source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Die Journey überwacht dann das Ereignis während der in der maximalen Wartezeit
 
 Gehen Sie wie folgt vor, um für ein Ereignis eine maximale Wartezeit zu konfigurieren:
 
-1. Aktivieren Sie die Option **[!UICONTROL Definieren Sie den Ereignis-Timeout]** in den Ereigniseigenschaften.
+1. Aktivieren Sie die Option **[!UICONTROL Maximale Wartezeit für das Ereignis definieren]** in den Eigenschaften des Ereignisses.
 
 1. Legen Sie fest, wie lange die Journey auf das Ereignis warten soll.
 
-1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen Zeitüberschreitung kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad festlegen]** . Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt beendet, sobald die maximale Wartezeit erreicht wird.
+1. Wenn Sie die Kontakte in einen Zeitüberschreitungspfad senden möchten, wenn innerhalb der angegebenen maximalen Wartezeit kein Ereignis empfangen wird, aktivieren Sie die Option **[!UICONTROL Zeitüberschreitungspfad einrichten]**. Wenn diese Option nicht aktiviert ist, wird die Journey für den betreffenden Kontakt beendet, sobald die maximale Wartezeit erreicht wird.
 
    ![](../assets/event-timeout.png)
 
