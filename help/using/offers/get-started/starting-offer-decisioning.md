@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
 ## Glossar {#glossary}
 
-Unten finden Sie die Liste der wichtigsten Konzepte, mit denen Sie bei der Verwendung von Entscheidungsmanagement arbeiten werden.
+Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Entscheidungs-Managements.
 
 * **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot der kombinierten Ziel-Audience vorgeschlagen werden kann (auch als „Gesamtobergrenzen“ bezeichnet) und wie oft ein Angebot demselben Endbenutzer unterbreitet werden kann (auch als „Profilbegrenzung“ bezeichnet).
 
@@ -100,12 +100,12 @@ Unten finden Sie die Liste der wichtigsten Konzepte, mit denen Sie bei der Verwe
 
 ### Was ist Entscheidungs-Management? {#what-is-offer-decisioning}
 
-Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle von Entscheidungs-Management:
+Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle des Entscheidungs-Managements:
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Angebote definieren und verwalten {#use-offer-decisioning}
 
-Das folgende Video zeigt, wie Sie mit Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
+Das folgende Video zeigt, wie Sie mit dem Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
