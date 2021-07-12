@@ -5,9 +5,9 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
-workflow-type: ht
-source-wordcount: '541'
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -67,5 +67,4 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ## Einschränkungen beim Lesen von Segmenten
 
-* Es ist nicht möglich, eine segmentbasierte Journey in einem kürzeren Zeitraum als einer Stunde auszulösen.
 * Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
