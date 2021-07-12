@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 95%
+source-wordcount: '991'
+ht-degree: 92%
 
 ---
 
@@ -55,6 +55,8 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >[!NOTE]
    >
    >Kontakte, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
+
+1. Definieren Sie im Feld **[!UICONTROL Einschränkungsrate]** den Durchsatz der Aktivität Segment lesen . Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 und muss zwischen 500 und 17.000 liegen.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
