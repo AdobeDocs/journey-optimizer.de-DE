@@ -6,7 +6,7 @@ feature: Kontrollgruppen
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 97%
@@ -39,17 +39,17 @@ So weisen Sie ein **[!UICONTROL Produktprofil]** zu:
 
 1. **[!UICONTROL Produktprofil]** auswählen.
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Benutzer]** auf **[!UICONTROL Benutzer hinzufügen]**.
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. Geben Sie den Namen oder die E-Mail-Adresse Ihres Benutzers ein und wählen Sie den Benutzer aus.
 
    Wenn der Benutzer vorher noch nicht in der [!DNL Admin Console] erstellt wurde, lesen Sie die [Dokumentation zum Hinzufügen von Benutzern](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. Führen Sie die gleichen Schritte wie oben aus, um weitere Benutzer zu Ihrem **[!UICONTROL Produktprofil]** hinzuzufügen. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
@@ -59,7 +59,7 @@ Weiterführende Informationen zur Benutzerverwaltung finden Sie in der [Dokument
 
 Beim Zugriff auf die Instanz wird Ihrem Benutzer je nach den im **[!UICONTROL Produktprofil]** zugewiesenen Berechtigungen eine bestimmte Ansicht angezeigt. Wenn der Benutzer nicht den richtigen Zugriff auf eine Funktion hat, wird der folgende Bildschirm angezeigt.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## Bearbeiten eines vorhandenen Produktprofils {#edit-product-profile}
 
@@ -77,23 +77,23 @@ Wenn Sie ein vordefiniertes oder benutzerdefiniertes **[!UICONTROL Produktprofil
 
    Auf der Registerkarte **[!UICONTROL Berechtigungen]** wird die Liste der Funktionen angezeigt, die für das Produkt **[!UICONTROL Experience Cloud – von Platform unterstützte Anwendungen]** gelten.
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. Wählen Sie die Funktion **[!UICONTROL Nachrichten]** aus.
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. Wählen Sie in der Liste **[!UICONTROL Verfügbare Berechtigungselemente]** die Berechtigungen aus, die Sie Ihrem **[!UICONTROL Produktprofil]** zuweisen möchten, indem Sie auf das Plussymbol (+) klicken.
 
    Hier fügen wir die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** hinzu.
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Berechtigungen für das Produktprofil zu entfernen.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 Bei Bedarf können Sie auch ein neues Produktprofil mit bestimmten Berechtigungen erstellen. Weitere Informationen hierzu finden Sie unter [Erstellen eines Produktprofils](#create-product-profile).
 
@@ -113,11 +113,11 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
 1. Klicken Sie auf **[!UICONTROL Neues Profil]**.
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. Fügen Sie einen **[!UICONTROL Produktprofilnamen]**, einen **[!UICONTROL Anzeigenamen]** und eine **[!UICONTROL Beschreibung]** für Ihre neuen **[!UICONTROL Produktprofile]** hinzu.
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. Wählen Sie in der Kategorie **[!UICONTROL Benachrichtigungen]** aus, ob Benutzer per E-Mail benachrichtigt werden sollen, wenn sie diesem Produktprofil hinzugefügt oder daraus entfernt werden.
 
@@ -129,17 +129,17 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
    Hier wählen wir die Funktion **[!UICONTROL Journeys]** aus.
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. Wählen Sie in der Liste **[!UICONTROL Verfügbare Berechtigungselemente]** die Berechtigungen aus, die Sie Ihrem **[!UICONTROL Produktprofil]** zuweisen möchten, indem Sie auf das Plussymbol (+) klicken.
 
    Hier wählen wir **[!UICONTROL Journeys anzeigen]** und **[!UICONTROL Ereignisse, Datenquellen, Aktionen für Journeys anzeigen]** aus.
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. Wählen Sie die Funktion **[!UICONTROL Zugriff auf Sandbox]** aus, um zu entscheiden, welche Sandbox(es) Sie Ihrem **[!UICONTROL Produktprofil]** zuweisen möchten.
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](sandboxes.md)
 
