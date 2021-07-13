@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 92%
+source-wordcount: '1158'
+ht-degree: 91%
 
 ---
 
@@ -45,47 +45,47 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL JOURNEY-MANAGEMENT]**
 
-* **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. Weiterführende Informationen finden Sie [in diesem Abschnitt](building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. [Weitere Informationen](building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. Weiterführende Informationen finden Sie [in diesem Abschnitt](create-message.md)
+* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. [Weitere Informationen](create-message.md)
 
 **[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
 * **[!UICONTROL Angebote]**: Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebote zu erstellen. [Weitere Infos](offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Komponenten]**: Erstellen Sie Platzierungen, Regeln und Tags. Weiterführende Informationen finden Sie in diesem [Abschnitt](offers/offer-library/key-steps.md)
+* **[!UICONTROL Komponenten]**: Erstellen Sie Platzierungen, Regeln und Tags. [Weitere Informationen](offers/offer-library/key-steps.md)
 
 **[!UICONTROL INHALTS-MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. Weiterführende Informationen finden Sie in diesem [Abschnitt](assets-essentials.md)
+* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](assets-essentials.md)
 
 **[!UICONTROL DATEN-MANAGEMENT]**
 
-* **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen](get-started-schemas.md)
 
-* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Erfahren Sie in dieser Dokumentation, wie Sie einen Datensatz erstellen und in der Vorschau anzeigen können](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Weitere Informationen](get-started-datasets.md)
 
-* **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](get-started-queries.md)
 
-* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target=&quot;_blank&quot;}
 
 **[!UICONTROL VERBINDUNGEN]**
 
-* **[!UICONTROL Quellen]**: Verwenden Sie dieses Menü, um Daten aus verschiedenen Quellen aufzunehmen, z. B. Adobe-Programme, Cloud-basierte Datenspeicher, Datenbanken usw. und eingehende Daten zu strukturieren, zu kennzeichnen und zu optimieren. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Quellen]**: Verwenden Sie dieses Menü, um Daten aus verschiedenen Quellen aufzunehmen, z. B. Adobe-Programme, Cloud-basierte Datenspeicher, Datenbanken usw. und eingehende Daten zu strukturieren, zu kennzeichnen und zu optimieren. [Weitere Informationen](get-started-sources.md)
 
 **[!UICONTROL KUNDE]**
 
-* **[!UICONTROL Segmente]**: Erstellen und verwalten Sie Segmentdefinitionen für Adobe Experience Platform und nutzen Sie diese in Ihren Journeys. Weiterführende Informationen finden Sie auf [dieser Seite](segment/about-segments.md)
+* **[!UICONTROL Segmente]**: Erstellen und verwalten Sie Segmentdefinitionen für Adobe Experience Platform und nutzen Sie diese in Ihren Journeys. [Weitere Informationen](segment/about-segments.md)
 
-* **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen](get-started-profiles.md)
 
-* **[!UICONTROL Identitäten]**: Der Adobe Experience Platform Identity Service verwaltet die geräte- und kanalübergreifende, nahezu in Echtzeit ausgeführte Identifizierung Ihrer Kunden in einem sogenannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Erfahren Sie in dieser Dokumentation, wie Sie einen Identitäts-Namespace erstellen](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;}
+* **[!UICONTROL Identitäten]**: Der Adobe Experience Platform Identity Service verwaltet die geräte- und kanalübergreifende, nahezu in Echtzeit ausgeführte Identifizierung Ihrer Kunden in einem sogenannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Weitere Informationen](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey-Administration]**: Verwenden Sie dieses Menü, um [Ereignisse](event/about-events.md), [Datenquellen](datasource/about-data-sources.md) und [Aktionen](action/action.md) zu konfigurieren, die Sie in Ihren Journeys verwenden können.
 
-* **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen zu Sandboxes finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}
+* **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen](administration/sandboxes.md)
 
 
 ## Produktinterne Anwendungsfälle
