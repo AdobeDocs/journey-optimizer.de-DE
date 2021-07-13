@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >
 >Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
 
-![](assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen.](#video-preview)
+➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen.](#video-preview)
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
