@@ -5,8 +5,8 @@ feature: Reporting
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
-workflow-type: ht
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -21,6 +21,8 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Ausführungen]** des Menüs **[!
 ![](../assets/live_report.png)
 
 Der **[!UICONTROL E-Mail-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 Die Widgets **[!UICONTROL E-Mail-Performance]** und **[!UICONTROL E-Mail-Zusammenfassung]** geben mit einem Diagramm und KPIs die wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
@@ -43,6 +45,8 @@ Das Diagramm **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihres Versands 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+![](../assets/live_report_6.png)
 
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
