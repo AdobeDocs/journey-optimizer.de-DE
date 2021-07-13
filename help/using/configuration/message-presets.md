@@ -5,7 +5,7 @@ feature: Anwendungskonfiguration
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 95%
@@ -27,7 +27,7 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die all
 
 Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Voreinstellungen]** auswählen.
 
-![](../assets/do-not-localize/how-to-video.png) [In diesem Video erfahren Sie, wie Sie E-Mail-Vorgaben erstellen und verwenden.](#video-presets)
+➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Vorgaben erstellen und verwenden](#video-presets)
 
 ## Nachrichtenvoreinstellungen erstellen {#create-message-preset}
 
