@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 90%
+source-wordcount: '1588'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
    ![](assets/email_designer_3.png)
 
-1. Jede Komponente kann mit dem Abschnitt **[!UICONTROL Komponenteneinstellungen]** weiter angepasst werden. Sie können beispielsweise Ihren Textstil, den Abstand oder den Rand Ihrer Komponente ändern. Weitere Informationen zu Stilen finden Sie im E-Mail-Editor in der [Adobe Campaign-Dokumentation](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html?lang=de){target=&quot;_blank&quot;}.
+1. Jede Komponente kann mit dem Abschnitt **[!UICONTROL Komponenteneinstellungen]** weiter angepasst werden. Sie können beispielsweise Ihren Textstil, den Abstand oder den Rand Ihrer Komponente ändern. [Erfahren Sie mehr über Ausrichtung und Abstand](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
