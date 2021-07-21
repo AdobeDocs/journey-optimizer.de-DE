@@ -5,9 +5,10 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.de-DE
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
+feature-set: Campaign
 solution-title: Dokumentation zu Journey Optimizer
-source-git-commit: 34b567ff172444e32251e0d1d3878f44ea342d5c
-workflow-type: ht
+source-git-commit: e7729e009c5a0becbd6a9ce1eb956bfbd172c127
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
@@ -30,7 +31,7 @@ Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Datei
 
 In der Datei TOC.md
 
-| metadata | was es macht |
+| Metadaten | was es macht |
 |--- |--- |
 | user-guide-title | Wird in der Artikelkopfzeile als Link verwendet |
 | user-guide-url | Öffnet die helpx-Hub-Seite |
