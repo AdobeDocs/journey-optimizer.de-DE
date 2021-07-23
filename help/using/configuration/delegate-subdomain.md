@@ -15,10 +15,10 @@ feature: Anwendungskonfiguration
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 93%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,9 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    >[!CAUTION]
    >
-   >Vergewissern Sie sich, dass Sie eine gültige Subdomain eingegeben haben, z. B. marketing.company.com. Die Zuweisung einer ungültigen Subdomain zu Adobe ist nicht zulässig.
+   >Die Zuweisung einer ungültigen Subdomain zu Adobe ist nicht zulässig. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.yourcompany.com.
+   >
+   >Beachten Sie, dass mehrstufige Subdomains wie email.marketing.yourcompany.com derzeit nicht unterstützt werden.
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
