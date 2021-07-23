@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemata in Adobe J
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 24%
+source-wordcount: '319'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzerobe
 
 ![](assets/schemas-home.png)
 
-Erfahren Sie, wie Sie die Benutzeroberfläche von Schemas in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;} verwenden.
+Erfahren Sie, wie Sie die Benutzeroberfläche von Schemas in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;} verwenden.
 
 Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target=&quot;_blank&quot;}
 
