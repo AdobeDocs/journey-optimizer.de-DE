@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 feature: Datensätze
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 18%
+source-wordcount: '259'
+ht-degree: 30%
 
 ---
 
@@ -32,7 +32,7 @@ Eine schrittweise Dokumentation zum Zuordnen einer CSV-Datei zu einem XDM-Schema
 
 ## Anleitungsvideo{#video-dataset}
 
-Erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten erfasst wurden.
+Erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten aufgenommen wurden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
@@ -40,5 +40,5 @@ Erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm 
 
 * [Erstellen eines Schemas, eines Datensatzes und Erfassen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Streaming-Erfassung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}
-* [Daten in Adobe Experience Platform aufnehmen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [Daten in Adobe Experience Platform aufnehmen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target=&quot;_blank&quot;}
 
