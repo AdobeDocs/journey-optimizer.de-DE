@@ -5,7 +5,7 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
+source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 50%
@@ -24,7 +24,7 @@ Wenn in einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet) meh
 
 ![](../../assets/offer-priority.png)
 
-Bei der Erstellung eines Angebots werden die Prioritätswerte der Angebote zugewiesen. In [diesem Abschnitt](../offer-library/creating-personalized-offers.md)) erfahren Sie, wie Sie ein personalisiertes Angebot erstellen.
+Bei der Erstellung eines Angebots werden die Prioritätswerte der Angebote zugewiesen. In [diesem Abschnitt](../offer-library/creating-personalized-offers.md) erfahren Sie, wie Sie ein personalisiertes Angebot erstellen.
 
 ## Ranking-Formel {#assign-ranking-formula}
 
