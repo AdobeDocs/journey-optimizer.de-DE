@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 89%
+source-wordcount: '833'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    >[!NOTE]
    >
-   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weiterführende Informationen zur Auswertung eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weiterführende Informationen zur Auswertung eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird.
 
