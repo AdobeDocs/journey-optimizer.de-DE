@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 89%
+source-wordcount: '863'
+ht-degree: 55%
 
 ---
 
@@ -31,7 +31,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 ## Erstellen einer Entscheidung {#create-activity}
 
-1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
+1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
 
 1. Geben Sie den Namen der Entscheidung sowie das Anfangs- und Enddatum mit Uhrzeit ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -83,26 +83,67 @@ Wählen Sie das Fallback-Angebot aus, das Kunden, die nicht den Regeln der Angeb
 
 ## Entscheidung überprüfen und speichern {#review}
 
-Wenn alles richtig konfiguriert und Ihre Entscheidung bereit für die Unterbreitung von Angeboten an Kunden ist, klicken Sie auf **[!UICONTROL Beenden]** und dann auf **[!UICONTROL Speichern und aktivieren]**.
+Wenn alles ordnungsgemäß konfiguriert ist, wird eine Zusammenfassung der Entscheidungseigenschaften angezeigt.
 
-Sie können die Entscheidung auch als Entwurf speichern, um sie später zu bearbeiten und zu aktivieren.
+1. Stellen Sie sicher, dass die Entscheidung für die Präsentation von Angeboten für Kunden bereit ist.
+1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
+1. Wählen Sie dann **[!UICONTROL Speichern und aktivieren]**.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   Sie können die Entscheidung auch als Entwurf speichern, um sie später zu bearbeiten und zu aktivieren.
 
 Die Entscheidung wird in der Liste mit dem Status **[!UICONTROL Live]** oder **[!UICONTROL Entwurf]** angezeigt, je nachdem, ob Sie sie im vorherigen Schritt aktiviert haben oder nicht.
 
-Sie ist jetzt bereit, für das Senden von Angeboten an Kunden genutzt zu werden. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
+Sie ist jetzt bereit, für das Senden von Angeboten an Kunden genutzt zu werden.
 
-Weitere Informationen zur Unterbreitung von Angeboten finden Sie in den folgenden Abschnitten:
+## Entscheidungsliste {#decision-list}
 
-* [Einfügen personalisierter Angebote in Nachrichten](../../deliver-personalized-offers.md)
-* [Unterbreiten von Angeboten mithilfe von APIs](../api-reference/decisions-api/deliver-offers.md)
+In der Entscheidungsliste können Sie die Entscheidung auswählen, deren Eigenschaften angezeigt werden sollen. Dort können Sie sie auch bearbeiten, ihren Status ändern (**Entwurf**, **Live**, **Complete**, **Archived**), die Entscheidung duplizieren oder löschen.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Nachdem eine Entscheidung erstellt wurde, können Sie in der Liste auf ihren Namen klicken, um auf detaillierte Informationen zuzugreifen und alle Änderungen, die daran vorgenommen wurden, über die Registerkarte **[!UICONTROL Änderungsprotokoll]** zu visualisieren. [Weitere Informationen](../get-started/user-interface.md#changes-log).
+Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Entscheidungsbearbeitungsmodus zurückzukehren. Dort können Sie die [Details](#create-activity), [Entscheidungsbereiche](#add-decision-scopes) und [Fallback-Angebot](#add-fallback) ändern.
+
+Wählen Sie eine Live-Entscheidung aus und klicken Sie auf **[!UICONTROL Deaktivieren]** , um den Entscheidungsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
+
+Um den Status erneut auf **[!UICONTROL Live]** festzulegen, wählen Sie die Schaltfläche **[!UICONTROL Aktivieren]** aus, die jetzt angezeigt wird.
+
+![](../../assets/decision_activate.png)
+
+Die Schaltfläche **[!UICONTROL Mehr Aktionen]** ermöglicht die unten beschriebenen Aktionen.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Abschließen]**: setzt den Status der Entscheidung auf  **[!UICONTROL Abgeschlossen]**, was bedeutet, dass die Entscheidung nicht mehr aufgerufen werden kann. Diese Aktion steht nur für aktivierte Entscheidungen zur Verfügung. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren, löschen oder archivieren.
+
+* **[!UICONTROL Duplizieren]**: erstellt eine Entscheidung mit denselben Eigenschaften, Entscheidungsbereichen und Fallback-Angeboten. Standardmäßig hat die neue Entscheidung den Status **[!UICONTROL Entwurf]**.
+
+* **[!UICONTROL Löschen]**: entfernt die Entscheidung aus der Liste.
+
+   >[!CAUTION]
+   >
+   >Die Entscheidung und ihr Inhalt werden nicht mehr zugänglich sein. Diese Aktion kann nicht rückgängig gemacht werden.
+   >
+   >Wenn die Entscheidung in einem anderen Objekt verwendet wird, kann sie nicht gelöscht werden.
+
+* **[!UICONTROL Archivieren]**: legt den Entscheidungsstatus auf  **[!UICONTROL Archiviert]** fest. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren oder löschen.
+
+Sie können auch den Status mehrerer Entscheidungen gleichzeitig löschen oder ändern, indem Sie die entsprechenden Kontrollkästchen aktivieren.
+
+![](../../assets/decision_multiple-selection.png)
+
+Wenn Sie den Status mehrerer Entscheidungen mit unterschiedlichen Status ändern möchten, werden nur die relevanten Status geändert.
+
+![](../../assets/decision_change-status.png)
+
+Nachdem eine Entscheidung erstellt wurde, können Sie in der Liste auf ihren Namen klicken.
+
+![](../../assets/decision_click-name.png)
+
+Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugreifen. Wählen Sie die Registerkarte **[!UICONTROL Ändere log]** in [Überwachen Sie alle Änderungen](../get-started/user-interface.md#changes-log), die an der Entscheidung vorgenommen wurden.
+
+![](../../assets/decision_information.png)
 
 ## Tutorial {#video}
 
