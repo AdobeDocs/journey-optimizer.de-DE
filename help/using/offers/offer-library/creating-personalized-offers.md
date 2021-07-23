@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 94%
+source-wordcount: '1226'
+ht-degree: 68%
 
 ---
 
@@ -98,6 +98,10 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
+
 1. Definieren Sie die **[!UICONTROL Priorität]** des Angebots gegenüber anderen, wenn der Benutzer für mehr als ein Angebot geeignet ist. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten.
 
 1. Geben Sie die **[!UICONTROL Begrenzung]** des Angebots an, d. h. wie oft das Angebot insgesamt für alle Benutzer angezeigt wird. Wenn das Angebot allen Benutzern so oft bereitgestellt wurde, wie Sie es in diesem Feld angegeben haben, wird der Versand beendet.
@@ -118,19 +122,68 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
 
 ## Angebot überprüfen {#review}
 
-Sobald Eignungsregeln und Einschränkungen definiert wurden, wird eine Zusammenfassung der Angebotseigenschaften angezeigt. Wenn alles ordnungsgemäß konfiguriert ist und Ihr Angebot bereit ist, den Benutzern präsentiert zu werden, klicken Sie auf **[!UICONTROL Beenden]** und wählen Sie **[!UICONTROL Speichern und genehmigen]**.
+Sobald Eignungsregeln und Einschränkungen definiert wurden, wird eine Zusammenfassung der Angebotseigenschaften angezeigt.
 
-Sie können das Angebot auch als Entwurf speichern, um es später zu bearbeiten und zu genehmigen.
+1. Stellen Sie sicher, dass alles ordnungsgemäß konfiguriert ist.
 
-![](../../assets/offer_review.png)
+1. Wenn Ihr Angebot für Benutzer bereit ist, klicken Sie auf **[!UICONTROL Beenden]**.
 
-Das Angebot wird in der Liste mit dem Status **[!UICONTROL Live]** oder **[!UICONTROL Entwurf]** angezeigt, je nachdem, ob Sie es im vorherigen Schritt genehmigt haben oder nicht.
+1. Wählen Sie **[!UICONTROL Speichern und genehmigen]** aus.
 
-Es kann jetzt Benutzern unterbreitet werden. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
+   ![](../../assets/offer_review.png)
+
+   Sie können das Angebot auch als Entwurf speichern, um es später zu bearbeiten und zu genehmigen.
+
+Das Angebot wird in der Liste mit dem Status **[!UICONTROL Genehmigt]** oder **[!UICONTROL Entwurf]** angezeigt, je nachdem, ob Sie es im vorherigen Schritt genehmigt haben oder nicht.
+
+Es kann jetzt Benutzern unterbreitet werden.
 
 ![](../../assets/offer_created.png)
 
-Nachdem ein Angebot erstellt wurde, können Sie auf seinen Namen in der Liste klicken, um auf detaillierte Informationen zuzugreifen und alle Änderungen zu überwachen, die an ihm vorgenommen wurden, indem Sie den Tab **[!UICONTROL Änderungsprotokoll]** verwenden. [Weitere Informationen](../get-started/user-interface.md#monitoring-changes).
+## Angebotsliste {#offer-list}
+
+Sie können aus der Angebotsliste das Angebot auswählen, dessen Eigenschaften angezeigt werden sollen. Sie können das Angebot auch bearbeiten, seinen Status (**Entwurf**, **Genehmigt**, **Archiviert**) ändern, duplizieren oder löschen.
+
+![](../../assets/offer_created.png)
+
+Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Bearbeitungsmodus für Angebote zurückzukehren. Dort können Sie die [Details](#create-offer), [Darstellungen](#representations) des Angebots ändern und die [Eignungsregeln und Einschränkungen](#eligibility) bearbeiten.
+
+Wählen Sie ein genehmigtes Angebot aus und klicken Sie auf **[!UICONTROL Validierung rückgängig machen]** , um den Angebotsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
+
+Um den Status erneut auf **[!UICONTROL Genehmigt]** festzulegen, wählen Sie die entsprechende Schaltfläche aus, die jetzt angezeigt wird.
+
+![](../../assets/offer_approve.png)
+
+Die Schaltfläche **[!UICONTROL Mehr Aktionen]** ermöglicht die unten beschriebenen Aktionen.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplizieren]**: erstellt ein Angebot mit denselben Eigenschaften, Darstellungen, Eignungsregeln und Einschränkungen. Standardmäßig weist das neue Angebot den Status **[!UICONTROL Entwurf]** auf.
+* **[!UICONTROL Löschen]**: entfernt das Angebot aus der Liste.
+
+   >[!CAUTION]
+   >
+   >Auf das Angebot und seinen Inhalt kann nicht mehr zugegriffen werden. Diese Aktion kann nicht rückgängig gemacht werden.
+   >
+   >Wenn das Angebot in einer Sammlung oder Entscheidung verwendet wird, kann es nicht gelöscht werden. Sie müssen das Angebot zuerst aus allen Objekten entfernen.
+
+* **[!UICONTROL Archivieren]**: setzt den Angebotsstatus auf  **[!UICONTROL Archiviert]**. Das Angebot ist weiterhin in der Liste verfügbar, Sie können seinen Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren oder löschen.
+
+Sie können auch den Status mehrerer Angebote gleichzeitig löschen oder ändern, indem Sie die entsprechenden Kontrollkästchen aktivieren.
+
+![](../../assets/offer_multiple-selection.png)
+
+Wenn Sie den Status mehrerer Angebote mit unterschiedlichen Status ändern möchten, werden nur die entsprechenden Status geändert.
+
+![](../../assets/offer_change-status.png)
+
+Nachdem ein Angebot erstellt wurde, können Sie in der Liste auf seinen Namen klicken.
+
+![](../../assets/offer_click-name.png)
+
+Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zugreifen. Wählen Sie den Tab **[!UICONTROL Ändern Sie log]** in [Überwachen Sie alle Änderungen](../get-started/user-interface.md#monitoring-changes), die am Angebot vorgenommen wurden.
+
+![](../../assets/offer_information.png)
 
 ## Tutorial {#video}
 
