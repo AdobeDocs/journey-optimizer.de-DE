@@ -5,10 +5,10 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 92%
+source-wordcount: '292'
+ht-degree: 79%
 
 ---
 
@@ -47,6 +47,10 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 1. Nachdem die Regel erstellt wurde, wird sie in der Regelliste angezeigt. Sie können sie auswählen, um ihre Eigenschaften anzuzeigen und zu bearbeiten oder zu löschen.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
 
 ## Tutorial {#video}
 
