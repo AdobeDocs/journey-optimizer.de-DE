@@ -5,10 +5,10 @@ feature: Übersicht
 topic: Content-Management
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '401'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Adobe Experien
 
 1. Wählen Sie die Datei aus, die Sie hochladen möchten. Klicken Sie abschließend auf **[!UICONTROL Upload]**.
 
-   Weiterführende Informationen zur Verwaltung Ihrer Assets finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en).
+   Weiterführende Informationen zur Verwaltung Ihrer Assets finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Nach dem Hochladen des Assets können Sie Ihre Assets jetzt über Email Designer in eine Ihrer Nachrichten einfügen.
 
