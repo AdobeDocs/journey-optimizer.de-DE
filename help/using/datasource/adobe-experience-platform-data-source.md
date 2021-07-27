@@ -5,9 +5,9 @@ feature: Datenquellen
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '363'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,6 @@ Im Folgenden finden Sie die wichtigsten Schritte, um der integrierten Datenquell
 
 1. Wählen Sie ein Schema aus der Dropdown-Liste **[!UICONTROL Schema]** aus. In diesem Feld werden die in Adobe Experience Platform verfügbaren Profil- und Erlebnisereignisschemas aufgelistet. Die Schemaerstellung wird nicht in [!DNL Journey Optimizer] durchgeführt. Sie wird in Adobe Experience Platform durchgeführt.
 1. Wählen Sie die Felder aus, die Sie verwenden möchten.
-1. Definieren Sie die Aufbewahrungsfrist im Cache.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Wenn Sie den Cursor auf dem Namen einer Feldergruppe platzieren, werden rechts zwei Symbole angezeigt. Damit können Sie die Feldergruppe löschen und duplizieren. Beachten Sie, dass das Symbol **[!UICONTROL Löschen]** nur verfügbar ist, wenn die Feldergruppe in keiner Live- oder Entwurfs-Journey verwendet wird (die Information wird im Feld **[!UICONTROL Verwendet in]** angezeigt).
