@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 92%
+source-wordcount: '1039'
+ht-degree: 87%
 
 ---
 
@@ -56,7 +56,13 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >
    >Kontakte, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
 
-1. Definieren Sie im Feld **[!UICONTROL Einschränkungsrate]** den Durchsatz der Aktivität Segment lesen . Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 und muss zwischen 500 und 17.000 liegen.
+1. Setzen Sie das Feld **[!UICONTROL Drosselrate]** auf die Durchsatzbegrenzung der Aktivität &quot;Lesesegment&quot;.
+
+   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 Nachrichten pro Sekunde. Sie können diesen Wert von 500 auf 17.000 Nachrichten pro Sekunde ändern.
+
+   >[!NOTE]
+   >
+   >Die Gesamtdrosselungsrate pro Sandbox wird auf 17.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Drosselrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 17.000 Nachrichten pro Sekunde. Sie können diese Mütze nicht ändern.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
