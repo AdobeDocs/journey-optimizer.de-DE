@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
-workflow-type: ht
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
+workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md).
 
-## Hinzufügen einer Nachrichtenaktivität
+## Aktivität &quot;Nachricht hinzufügen&quot;
 
 1. Beginnen Sie Ihre Journey immer mit einem Ereignis oder einer Aktivität vom Typ **Segment lesen**.
 
