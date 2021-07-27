@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 43%
+source-wordcount: '235'
+ht-degree: 40%
 
 ---
 
@@ -26,8 +26,25 @@ Sie können auch die neusten [Aktualisierungen der Dokumentation](documentation-
 <tr>
 <td>
 <p>Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Journey Optimizer kann jetzt Daten aus einem verknüpften Schema nutzen.</p>
-<p>Diese Felder sind in der Konfiguration von Einzelereignissen, Journey-Bedingungen, der Nachrichtenpersonalisierung und der Personalisierung benutzerdefinierter Aktionen verfügbar.
+<p>Diese Felder sind in der Konfiguration von Einzelereignissen, Journey-Bedingungen, der Nachrichtenpersonalisierung und der Personalisierung benutzerdefinierter Aktionen verfügbar.</p>
 <p>Weitere Informationen finden Sie in der <a href="event/experience-event-schema.md#leverage_schema_relationships">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Zulassungsliste</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt auf Sandbox-Ebene eine spezifische Liste für den sicheren Versand definieren, um beispielsweise zu verhindern, dass unerwünschte E-Mails an Empfänger in einer Testumgebung gesendet werden.
+</p>
+<p>Weitere Informationen finden Sie in der <a href="allow-list.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
