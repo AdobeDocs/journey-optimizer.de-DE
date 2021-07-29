@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content-Management
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 97%
+source-wordcount: '965'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >
 >Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
 
-➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen.](#video-preview)
+➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen](#video-preview).
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
@@ -49,11 +49,11 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/email-preview-button.png)
 
-1. Wählen Sie den Namespace aus, der zur Identifizierung der Testprofile verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identitäts-Namespace]** klicken.
+1. Wählen Sie den Namespace aus, der zur Identifizierung der Testprofile verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identity-Namespace]** klicken.
 
    ![](assets/previewselect-namespace.png)
 
-   Weitere Informationen zu Adobe Experience Platform-Identitäts-Namespaces [finden Sie in diesem Abschnitt](get-started-identity.md){target=&quot;_blank&quot;}.
+   Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](get-started-identity.md){target=&quot;_blank&quot;}.
 
    Im folgenden Beispiel verwenden wir den Namespace **E-Mail**.
 
@@ -121,7 +121,13 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-button.png)
 
-1. Wählen Sie die Testprofile aus, die den Testversand erhalten sollen, und klicken Sie auf **[!UICONTROL Testversand starten]**. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen.
+1. Geben Sie im Fenster **[!UICONTROL Testversand]** neben den Testprofilen die E-Mail Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an Sie oder Ihre Mitglieder zu senden.
+
+   Beachten Sie, dass Sie bis zu 10 Empfänger für Ihren Testversand hinzufügen können.
+
+   ![](assets/send-proof-button_2.png)
+
+1. Wählen Sie dann die Testprofile aus, die den Testversand erhalten sollen, und klicken Sie auf **[!UICONTROL Testversand senden]**. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
 
    ![](assets/send-proof-select.png)
 
@@ -168,6 +174,6 @@ Anschließend gehen Sie wie folgt vor:
 
 ## Anleitungsvideo{#video-preview}
 
-Hier erfahren Sie, wie Sie das E-Mail-Rendering für mehrere Posteingänge testen, wie Sie Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen, Testsendungen durchführen und Ihre E-Mail veröffentlichen können.
+Hier erfahren Sie, wie Sie das E-Mail-Rendering für mehrere Posteingänge testen, Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen, Testsendungen durchführen und Ihre E-Mail veröffentlichen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
