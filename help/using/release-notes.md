@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 29%
 
 ---
@@ -50,21 +50,22 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 ### Verbesserungen
 
-* **Journeys**
-   * Die Gesamtdrosselungsrate aller Lesesegmente, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * Das Feld **Cache-Dauer** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](datasource/about-data-sources.md)
-   * Für externe Datenquellen ist jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](configuration/external-systems.md#capping)
-   * Für Live-Journeys werden im Journey-Eigenschaftsfenster das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat. [Mehr dazu](building-journeys/journey-gs.md#change-properties)
-   * Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Mehr dazu](user-interface.md#section_lgm_hpz_pgb)
-   * Der Parameter **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität Segment lesen hinzugefügt. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**Journeys**
 
-* **Vorschau und Test**
-   * Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](preview.md#preview-your-messages)
-   * Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
-   * Die für das Betreffpräfix **Betreff** in Testsendungen zulässigen Zeichen sind jetzt begrenzt. [Mehr dazu](preview.md#send-proofs)
+* Die Gesamtdrosselungsrate aller Lesesegmente, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Das Feld **Cache-Dauer** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](datasource/about-data-sources.md)
+* Für externe Datenquellen ist jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](configuration/external-systems.md#capping)
+* Für Live-Journeys werden im Journey-Eigenschaftsfenster das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat. [Mehr dazu](building-journeys/journey-gs.md#change-properties)
+* Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Mehr dazu](user-interface.md#section_lgm_hpz_pgb)
+* Der Parameter **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität Segment lesen hinzugefügt. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **Ausdruckseditor für Personalisierung**
-   * Die Dropdownliste &quot;Helper&quot;wurde umbenannt und neu angeordnet.
+**Vorschau erstellen und Nachrichten testen**
+* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](preview.md#preview-your-messages)
+* Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
+* Die für das Betreffpräfix **Betreff** in Testsendungen zulässigen Zeichen sind jetzt begrenzt. [Mehr dazu](preview.md#send-proofs)
+
+**Ausdruckseditor für Personalisierung**
+* Die Dropdownliste &quot;Helper&quot;wurde umbenannt und neu angeordnet.
 
 ### Fehlerbehebungen
 
