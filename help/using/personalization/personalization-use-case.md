@@ -1,6 +1,6 @@
 ---
-title: Anwendungsfall für Personalisierung&colon Bestellstatus-Benachrichtigung
-description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebots- und Kontextinformationen personalisieren.
+title: Anwendungsfall für Personalisierung&colon Benachrichtigung zum Bestellstatus
+description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebotsentscheidungs- und Kontextinformationen personalisieren.
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
@@ -8,17 +8,17 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Anwendungsfall für Personalisierung: Bestellstatus-Benachrichtigung {#personalization-use-case}
+# Anwendungsfall für Personalisierung: Benachrichtigung zum Bestellstatus {#personalization-use-case}
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
 * **Profil**: Personalisierung von Nachrichten basierend auf einem Profilfeld
-* **Angebotsentscheidung**: Personalisierung basierend auf offer decisioning-Variablen
+* **Angebotsentscheidung**: Personalisierung basierend auf Offer-Decisioning-Variablen
 * **Kontext**: Personalisierung basierend auf Kontextdaten aus der Journey
 
 Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu senden. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
@@ -82,7 +82,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 1. Wählen Sie die Kategorie **Kontext**. Dieses Element ist nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
    * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen neu, die vor der Aktivität **Nachrichten** in der Journey platziert wurden.
-   * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Journey Orchestration-Dokumentation](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=de#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
+   * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html?lang=de#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
@@ -116,7 +116,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc17.png)
 
-1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss einem Testprofil entsprechen. Klicken Sie auf **Senden**.
+1. Geben Sie die verschiedenen Werte zum Bestehen des Tests ein. Der Testmodus funktioniert nur mit Testprofilen. Die Profilkennung muss mit einem Testprofil übereinstimmen. Klicken Sie auf **Senden**.
 
    ![](assets/perso-uc18.png)
 
