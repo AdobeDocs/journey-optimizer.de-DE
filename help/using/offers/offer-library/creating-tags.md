@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispie
 
 Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
    ![](../../assets/tags_created.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
