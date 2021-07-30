@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -58,4 +58,4 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 * [Identitätsfelder für journeyStep-Ereignisse](../reports/sharing-identity-fields.md)
 * [Journey-Felder](../reports/sharing-journey-fields.md)
 
-Weitere Informationen zu Schrittereignissen, die an Adobe Experience Platform gemeldet werden, finden Sie in diesem [Tutorial-Video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
+Weiterführende Informationen zu Berichten über Schrittereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
