@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ In der Ziel-Journey leitet das erste Ereignis, das intern durch die **[!UICONTRO
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie im Tutorial-Video zur Journey Orchestration [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de){target=&quot;_blank&quot;}
+>Weitere Informationen zu Journey Orchestration finden Sie auch [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=de){target=&quot;_blank&quot;} im Anleitungsvideo.
 
 ## Lebenszyklus
 
