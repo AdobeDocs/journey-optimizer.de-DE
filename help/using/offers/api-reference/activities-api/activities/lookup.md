@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Entscheidung nachschlagen
 
-Sie können nach bestimmten Entscheidungen (ehemals Angebotsaktivitäten) suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] -API richten, die entweder die Entscheidungen `@id` oder den Namen der Entscheidung im Anfragepfad enthält.
+Sie können einzelne Entscheidungen (früher als Angebotsaktivitäten bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Entscheidungs-`@id` oder den Namen der Entscheidung im Anfragepfad enthält.
 
 **API-Format**
 
