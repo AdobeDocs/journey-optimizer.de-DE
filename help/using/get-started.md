@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 [!DNL Adobe Journey Optimizer] basiert nativ auf [!DNL Adobe Experience Platform] und kombiniert ein einheitliches Echtzeit-Kundenprofil, ein API-First-Open-Framework, zentralisiertes Offer Decisioning und künstliche Intelligenz (KI) sowie maschinelles Lernen (ML) zur Personalisierung und Optimierung. Journey Optimizer ermöglicht es Marken, die nächste beste Interaktion skaliert, schnell und flexibel über die gesamte Journey hinweg intelligent zu bestimmen. Mit [!DNL Adobe Journey Optimizer] können Unternehmen innerhalb derselben Anwendung sowohl geplante Marketing-Kampagnen (z. B. wöchentliche Werbeaktionen für ein Einzelhandelsgeschäft) als auch maßgeschneiderte individuelle Nachrichten erstellen und bereitstellen (z. B. eine Push-Benachrichtigung wegen eines nicht lagernden Artikels, den ein Kunde mit einer Treue-App angesehen hat).
 
-➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (Video)
+➡️ [Journey Optimizer entdecken](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=de){target=&quot;_blank&quot;} (Video)
 
 
 ## Anwendungsbeispiele
@@ -52,7 +52,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 ## Architektur
 
-Machen Sie sich mit der grundlegenden Architektur von [!DNL Adobe Journey Optimizer], den Integrationspunkten und der Beziehung von [!DNL Journey Optimizer] zu anderen Adobe Apps vertraut.
+Machen Sie sich mit der grundlegenden Architektur von [!DNL Adobe Journey Optimizer], den Integrationspunkten und der Beziehung von [!DNL Journey Optimizer] zu anderen Adobe-Anwendungen vertraut.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
 
