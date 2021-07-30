@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -67,9 +67,9 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 ## Link zu einer Mirrorseite {#mirror-page}
 
-Die Mirrorseite ist eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Der Inhalt entspricht dem Inhalt Ihrer E-Mail.
+Bei der Mirrorseite handelt es sich um eine HTML-Seite, auf die online über einen Webbrowser zugegriffen werden kann. Der Inhalt entspricht dem Inhalt Ihrer E-Mail.
 
-Um einen Link zu einer Mirrorseite zu Ihrer E-Mail hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
+Um Ihrer E-Mail einen Link zu einer Mirrorseite hinzuzufügen, fügen Sie [einen Link](#insert-links) ein und wählen Sie **[!UICONTROL Mirrorseite]** als Link-Typ aus.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -83,9 +83,9 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicke
 
 >[!NOTE]
 >
->Im an die Testprofile gesendeten [Testversand](preview.md#send-proofs) ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+>Im [Testversand](preview.md#send-proofs) an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
-Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Verzögerung ist die Mirrorseite nicht mehr verfügbar.
+Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Frist ist die Mirrorseite nicht mehr verfügbar.
 
 ## Tracking verwalten {#manage-tracking}
 
