@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
    **Feld:** optionSelectionType
    **Titel:** Profileinschränkungstyp
-   **Beschreibung:** Bestimmt, ob aktuell Begrenzungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
+   **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
    **Typ:** Zeichenfolge
    **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
@@ -114,7 +114,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraints 
 **Titel:** Profilbegrenzung 
-**Beschreibung:** Die Profilbegrenzung bestimmt, ob eine Option in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Andererseits wird eine Profilbegrenzungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierende Option der Optionsauswahl ausgewertet.
+**Beschreibung:** Die Profilbegrenzung bestimmt, ob eine Option in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
 **Typ:** Objekt
 
 * **_experience > decisioning > criteria > profileConstraints > Description**
@@ -135,7 +135,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
    **Feld:** profileConstraintType
    **Titel:** Profileinschränkungstyp
-   **Beschreibung:** Bestimmt, ob aktuell Begrenzungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Segmentzugehörigkeiten erfolgen.
+   **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Segmentzugehörigkeiten erfolgen.
    **Typ:** Zeichenfolge
    **Mögliche Werte:**
    * „none“ (Standard)
@@ -220,7 +220,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
    **Feld:** priority
    **Titel:** Priorität
-   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption in Bezug auf alle anderen Optionen. Optionen, für die keine Bestellfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption in Bezug auf alle anderen Optionen. Optionen, für die keine Reihenfolgefunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
    **Typ:** Integer
    **Mindestwert:** 0
    **Standardwert:** 0
