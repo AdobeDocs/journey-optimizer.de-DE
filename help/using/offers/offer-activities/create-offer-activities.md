@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 55%
+ht-degree: 58%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 Entscheidungen (früher als Angebotsaktivitäten bezeichnet) sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands unterbreitet werden kann.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** verfügbar. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
 
@@ -145,7 +145,7 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 ![](../../assets/decision_information.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
