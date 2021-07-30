@@ -8,14 +8,14 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
 
 # [!DNL Journey Optimizer] Hilfe {#using}
 
-+ [Journey Optimizer-Dokumentation](ajo-home.md)
++ [Dokumentation zu Journey Optimizer](ajo-home.md)
 + Neue Funktionen {#whats-new}
    + [Versionshinweise](using/release-notes.md)
    + [Neueste Aktualisierungen](using/documentation-updates.md)
@@ -42,14 +42,14 @@ ht-degree: 95%
       + [Veröffentlichen von Nachrichten](using/publish-manage-message.md)
    + [Verwalten von Opt-out](using/consent.md)
 + Personalisierung{#personalization}
-   + [Erste Schritte   bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte    bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
    + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
-   + Anwendungsbeispiele{#personalization-use-cases}
+   + Anwendungsfälle{#personalization-use-cases}
       + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
       + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
-   + Helper-Funktionen{#functions}
-      + [Liste der Helper-Funktionen](using/personalization/functions/functions.md)
+   + Hilfsfunktionen{#functions}
+      + [Liste der Hilfsfunktionen](using/personalization/functions/functions.md)
       + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
       + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
       + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
@@ -59,7 +59,7 @@ ht-degree: 95%
       + [Objektfunktionen](using/personalization/functions/objects.md)
       + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
    + [Hinzufügen personalisierter Angebote](using/deliver-personalized-offers.md)
-+ Segmente, Profile und Identitäten{#segment}
++ Segmente, Profile und Identität{#segment}
    + Segmente {#segments}
       + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
       + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
