@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 79%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie En
 
 Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für Frauen“ nur dann angezeigt werden soll, wenn (Geschlecht = „Weiblich“) und (Region = „Nordost“) zutrifft.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Die Liste der erstellten Entscheidungsregeln ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 >
 >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
