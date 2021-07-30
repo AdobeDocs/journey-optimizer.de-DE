@@ -1,6 +1,6 @@
 ---
-title: Bibliothek für Helper-Funktionen
-description: Bibliothek für Journey Optimizer Helper-Funktionen
+title: Bibliothek für Hilfsfunktionen
+description: Bibliothek für Journey Optimizer Hilfsfunktionen
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
@@ -8,24 +8,24 @@ level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Bibliothek für Helper-Funktionen{#functionsL}
+# Bibliothek für Hilfsfunktionen{#functionsL}
 
 Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
 
-➡️ [Erfahren Sie, wie Sie Hilfsfunktionen](#video) verwenden (Video)
+➡️ [Erfahren Sie, wie Sie Hilfsfunktionen verwenden](#video) (Video).
 
-Die Vorlagensprache wird in Helper-Funktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Ausdruckseditors verfügbar sind, wie unten gezeigt:
+Die Vorlagensprache wird in Hilfsfunktionen verwendet, die in der Dropdown-Liste „Personalisierung“ des Ausdruckseditors verfügbar sind, wie unten gezeigt:
 
 ![](../assets/access-helper-functions.png)
 
 
 
-Im [!DNL Journey Optimizer]-Ausdruckseditor sind Helper-Funktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
+Im [!DNL Journey Optimizer]-Ausdruckseditor sind Hilfsfunktionen in drei Kategorien unterteilt: [Funktionen](#functions-helper), [Helper](#helper-helper) und [Operatoren](#operators-helper).
 
 ## Funktionen{#functions-helper}
 
@@ -75,7 +75,7 @@ Im [!DNL Journey Optimizer]-Ausdruckseditor sind Helper-Funktionen in drei Kateg
         <td><a href="aggregation.md#max">Maximum</a></td><td>Diese Funktion gibt den größten aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Obermenge</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist, d. h. wenn dieses Array A alle Elemente in Array B enthält</td>
+    <td><a href="arrays-list.md#superset">Obermenge</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist, d. h. ob das Array A alle Elemente in Array B enthält.</td>
     </tr>
 </table>
 
@@ -285,6 +285,6 @@ Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie, wie Sie Personalisierungswerte mithilfe von Helper-Funktionen zur Personalisierung umwandeln und lernen Sie verschiedene Anwendungsfälle für Hilfsfunktionen kennen.
+Erfahren Sie, wie Sie Personalisierungswerte mithilfe von Hilfsfunktionen zur Personalisierung umwandeln und lernen Sie verschiedene Anwendungsfälle für Hilfsfunktionen kennen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
