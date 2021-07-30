@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
    ![](../assets/create-segment.png)
 
-   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihr Segment einzurichten. Erfahren Sie, wie Sie Segmente in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target=&quot;_blank&quot;} konfigurieren.
+   Im Bildschirm für die Segmentdefinition können Sie alle erforderlichen Felder konfigurieren, um Ihr Segment einzurichten. Erfahren Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target=&quot;_blank&quot;}, wie Sie Segmente konfigurieren.
 
    ![](../assets/segment-builder.png)
 
@@ -54,6 +54,6 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
 Das Segment kann jetzt in Ihren Journeys verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-## Tutorial{#create-segment-video}
+## Anleitungsvideo{#create-segment-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
