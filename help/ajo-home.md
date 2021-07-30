@@ -1,7 +1,7 @@
 ---
 keywords: Journey Optimizer;Startseite;beliebte Themen
 title: Produktdokumentation zu Journey Optimizer
-description: Adobe Journey Optimizer-Produkthilfezentrum
+description: Produkthilfezentrum für Adobe Journey Optimizer
 feature: Übersicht
 topic: Content-Management
 role: User
@@ -9,11 +9,11 @@ level: Beginner
 source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Dokumentation {#cjm-documentation}
+# Dokumentation zu Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -32,7 +32,7 @@ ht-degree: 43%
     <p>  Entdecken Sie die wichtigsten Funktionen und Anleitungen.
     <p>
     <div>
-      <a href="using/design-emails.md">E-Mail-Inhalt erstellen</a>
+      <a href="using/design-emails.md">E-Mail-Inhalte gestalten</a>
     </div>
     <p>
     Erstellen einer neuen E-Mail oder Importieren eines vorhandenen HTML-Inhalts
@@ -40,17 +40,17 @@ ht-degree: 43%
     <div>
       <a href="using/building-journeys/journeys-message.md">Nachrichten senden</a>
     </div>
-    <p>Erfahren Sie, wie Sie Ihren Journey Push- und E-Mail-Nachrichten hinzufügen.
+    <p>Erfahren Sie, wie Sie Ihren Customer Journeys Push-Benachrichtigungen und E-Mail-Nachrichten hinzufügen.
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Erstellen Ihrer ersten Journey</a>
     </div>
-    <p>Erfahren Sie, wie Sie eine Journey erstellen und ausführen
+    <p>Erfahren Sie, wie Sie eine Journey aufbauen und ausführen.
     <p>
     <div>
     <a href="using/configuration/get-started-configuration.md">Konfigurieren von [!DNL Journey Optimizer]</a>
     </div>
-    <p>Wichtige Schritte zum Konfigurieren von [!DNL Journey Optimizer]
+    <p>Machen Sie sich mit den wichtigsten Schritten zur Konfiguration von [!DNL Journey Optimizer] vertraut.
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Zugriff auf [!DNL Journey Optimizer] gewähren</a>
@@ -60,7 +60,7 @@ ht-degree: 43%
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Entscheidungs-Management</a>
     </div>
-    <p>Erstellen von Angeboten und Bereitstellen des besten Angebots und Erlebnisses für Ihre Kunden
+    <p>Erstellen Sie Angebote und liefern Sie Ihren Kunden das beste Angebot und das beste Erlebnis.
     <p>
     <p>
     <div><strong>Zusätzliche Ressourcen</strong>
@@ -69,12 +69,12 @@ ht-degree: 43%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Adobe Journey Optimizer-Produktbeschreibung</a>
+      <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Produktbeschreibung von Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Adobe Experience Platform-Dokumentation</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation zu Adobe Experience Platform </a>
     </li>
     </div>
       <div>
@@ -102,7 +102,7 @@ ht-degree: 43%
       <a href="using/create-message.md">Nachrichten</a>
     </li>
     <p>
-    <p>ENTSCHEIDUNGSMANAGEMENT</p>
+    <p>ENTSCHEIDUNGS-MANAGEMENT</p>
     <li>
       <a href="using/offers/get-started/starting-offer-decisioning.md">Angebote</a>
     </li>
@@ -110,7 +110,7 @@ ht-degree: 43%
       <a href="using/offers/offer-library/key-steps.md">Komponenten</a>
     </li>
     <p>
-    <p>CONTENT MANAGEMENT</p>
+    <p>CONTENT-MANAGEMENT</p>
     <li>
       <a href="using/assets-essentials.md">Assets</a>
     </li>
@@ -145,7 +145,7 @@ ht-degree: 43%
       <a href="using/get-started-identity.md">Identität</a>
     </li>
     <p>
-    <p>VERWALTUNG</p>
+    <p>ADMINISTRATION</p>
     <li>
       <a href="using/configuration/about-data-sources-events-actions.md">Konfigurationen </a>
     </li>
