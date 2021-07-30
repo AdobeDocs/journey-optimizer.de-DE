@@ -1,6 +1,6 @@
 ---
-title: Personalisierungsanwendungsfall&Doppelpunkt Warenkorbabbruch-E-Mail
-description: Erfahren Sie, wie Sie eine Nachricht mithilfe von Hilfsfunktionen personalisieren können.
+title: 'Anwendungsfall für Personalisierung: E-Mail zum Warenkorbabbruch'
+description: Erfahren Sie, wie Sie eine Nachricht mithilfe der Hilfsfunktionen personalisieren können.
 feature: Personalisierung
 topic: Personalisierung
 role: Data Engineer
@@ -8,43 +8,43 @@ level: Intermediate
 source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Anwendungsfall für Personalisierung: Warenkorbabbruch-E-Mail {#personalization-use-case-helper-functions}
+# Anwendungsfall für Personalisierung: E-Mail zum Warenkorbabbruch {#personalization-use-case-helper-functions}
 
-In diesem Beispiel personalisieren Sie den Textkörper einer E-Mail-Nachricht. Diese Nachricht richtet sich an Kunden, die Artikel in ihrem Warenkorb gelassen, aber noch nicht gekauft haben.
+In diesem Beispiel personalisieren Sie den Textkörper einer E-Mail-Nachricht. Diese Nachricht richtet sich an Kunden, die zwar Artikel in ihren Einkaufswagen abgelegt, aber ihren Einkauf nicht abgeschlossen haben.
 
 Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 
-* Die String-Funktion `upperCase` , mit der der Vorname des Kunden in Großbuchstaben eingefügt wird. [Weitere Informationen](functions/string.md#upper).
-* Der `each`-Helfer, um die Artikel im Warenkorb aufzulisten. [Weitere Informationen](functions/helpers.md#each).
-* Der `if`-Helfer, um eine produktspezifische Anmerkung einzufügen, wenn sich das zugehörige Produkt im Warenkorb befindet. [Weitere Informationen](functions/helpers.md#if-function).
+* Die Zeichenfolgen-Funktion `upperCase`, mit der der Vorname des Kunden in Großbuchstaben eingefügt wird. [Weitere Informationen](functions/string.md#upper).
+* Der Helper `each`, um die Artikel im Warenkorb aufzulisten. [Weitere Informationen](functions/helpers.md#each).
+* Der Helper `if`, um eine produktspezifische Anmerkung einzufügen, wenn sich das zugehörige Produkt im Warenkorb befindet. [Weitere Informationen](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Bevor Sie beginnen, sollten Sie wissen, wie Sie diese Elemente konfigurieren:
 * Eine E-Mail-Nachricht. [Weitere Informationen](../create-message.md)
-* Der Hauptteil einer E-Mail. [Weitere Informationen](../create-email-content.md).
-* Ein Einzelereignis. [Weitere Informationen](../event/about-events.md).
+* Der Textkörper einer E-Mail. [Weitere Informationen](../create-email-content.md).
+* Ein unitäres Ereignis. [Weitere Informationen](../event/about-events.md).
 * Eine Journey, die mit einem Ereignis beginnt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
 
 Führen Sie folgende Schritte aus:
-1. [E-Mail-Nachricht erstellen](#configure-email).
-1. [Geben Sie den Vornamen des Kunden in Großbuchstaben](#uppercase-function) ein.
+1. [Erstellen Sie eine E-Mail-Nachricht](#configure-email).
+1. [Geben Sie den Vornamen des Kunden in Großbuchstaben ein](#uppercase-function).
 1. [Erstellen Sie das Anfangsereignis und die Journey](#create-context).
-1. [Fügen Sie den Inhalt des Warenkorbs zur E-Mail](#each-helper) hinzu.
-1. [Fügen Sie eine produktspezifische Notiz](#if-helper) ein.
+1. [Fügen Sie den Inhalt des Warenkorbs zur E-Mail hinzu](#each-helper).
+1. [Fügen Sie eine produktspezifische Anmerkung ein](#if-helper).
 1. [Testen und Veröffentlichen der Journey](#test-and-publish).
 
 ## Schritt 1: E-Mail erstellen{#configure-email}
 
-1. Erstellen oder ändern Sie eine E-Mail-Nachricht und klicken Sie auf **[!UICONTROL Email Designer]**.
+1. Erstellen oder ändern Sie eine E-Mail-Nachricht und klicken Sie dann auf **[!UICONTROL Email Designer]**.
    ![](../assets/personalization-uc-helpers-1.png)
 
-1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Nachrichten-Textkörper.
+1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Textkörper der Nachricht.
 
 1. Ziehen Sie eine HTML-Inhaltskomponente per Drag-and-Drop auf jede neue Strukturkomponente.
 
@@ -53,14 +53,14 @@ Führen Sie folgende Schritte aus:
 ## Schritt 2: Vorname des Kunden in Großbuchstaben einfügen {#uppercase-function}
 
 1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
-1. Klicken Sie in der dedizierten Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** die String-Funktion `upperCase` hinzu:
+1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** die Zeichenfolgen-Funktionen `upperCase` hinzu:
    1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
-   1. Verwenden Sie das Suchfeld, um &quot;Großbuchstaben&quot;zu finden.
-   1. Fügen Sie aus den Suchergebnissen die Funktion `upperCase` hinzu. Klicken Sie dazu auf das Pluszeichen (+) neben `{%= upperCase(string) %}: string`.
+   1. Verwenden Sie das Suchfeld, um „uppercase“ zu finden.
+   1. Fügen Sie die Funktion `upperCase` aus den Suchergebnissen hinzu. Klicken Sie dazu auf das Pluszeichen (+) neben `{%= upperCase(string) %}: string`.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
 
@@ -70,10 +70,10 @@ Führen Sie folgende Schritte aus:
 
       ![](../assets/personalization-uc-helpers-4.png)
 
-1. Entfernen Sie den Platzhalter &quot;string&quot;(Zeichenfolge) aus dem Ausdruck.
+1. Entfernen Sie den Platzhalter „string“ (Zeichenfolge) aus dem Ausdruck.
 1. Fügen Sie das Vorname-Token hinzu:
    1. Wählen Sie in der Liste **[!UICONTROL Profil]** aus.
-   1. Wählen Sie **[!UICONTROL Profil]** > **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]**.
+   1. Wählen Sie **[!UICONTROL Profil]** > **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]** aus.
    1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Vorname]** hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
@@ -84,25 +84,25 @@ Führen Sie folgende Schritte aus:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp für den Personennamen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Klicken Sie auf **[!UICONTROL Validate]** und dann auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
    ![](../assets/personalization-uc-helpers-6.png)
 1. Speichern Sie die Nachricht.
 
-## Schritt 3: Erstellen des Anfangsereignisses und der zugehörigen Journey {#create-context}
+## Schritt 3: Anfangsereignis und die zugehörige Journey erstellen {#create-context}
 
-Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher müssen Sie ein Anfangsereignis und die E-Mail einer Journey hinzufügen, bevor Sie der E-Mail Warenkorbspezifische Informationen hinzufügen können.
+Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müssen Sie einer Journey ein Anfangsereignis und die E-Mail hinzufügen, bevor Sie der E-Mail Warenkorb-spezifische Informationen hinzufügen können.
 
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
-1. Fügen Sie die Nachricht zum Journey hinzu.
-1. Beenden Sie die Journey mit einer Endaktivität.
+1. Fügen Sie der Journey die Nachricht hinzu.
+1. Beenden Sie die Journey mit einer Ende-Aktivität.
 
    Da Sie die Nachricht noch nicht veröffentlicht haben, können Sie die Journey weder testen noch veröffentlichen.
 
@@ -110,7 +110,7 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 
-   Eine Meldung informiert Sie darüber, dass der Journey-Kontext an die Nachricht übergeben wurde.
+   Eine Meldung informiert Sie darüber, dass der Journey-Kontext an die Nachricht weiteregegeben wurde.
 
    ![](../assets/personalization-uc-helpers-8.png)
 
@@ -121,14 +121,14 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
    ![](../assets/personalization-uc-helpers-18.png)
 
 1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
-1. Klicken Sie in der dedizierten Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helfer `each` hinzu:
+1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `each` hinzu:
    1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
-   1. Verwenden Sie das Suchfeld, um &quot;jedes&quot;zu finden.
-   1. Fügen Sie aus den Suchergebnissen den Helfer `each` hinzu.
+   1. Verwenden Sie das Suchfeld, um „each“ zu finden.
+   1. Fügen Sie von den Suchergebnissen den Helper `each` hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
 
@@ -140,36 +140,36 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
 1. Fügen Sie dem Ausdruck das Array `productListItems` hinzu:
 
-   1. Entfernen Sie den Platzhalter &quot;someArray&quot;aus dem Ausdruck.
+   1. Entfernen Sie den Platzhalter „someArray“ aus dem Ausdruck.
    1. Wählen Sie in der Liste **[!UICONTROL Kontext]** aus.
 
-      Die Option **[!UICONTROL Kontext]** ist erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
+      Die Option **[!UICONTROL Kontext]** ist erst verfügbar, nachdem der Journey-Kontext an die Nachricht weitergegeben wurde.
 
-   1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL Ereignisname]*** und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
+   1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.
 
-   1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Product]** hinzu.
+   1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Produkt]** hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-      In diesem Beispiel stellt *event_ID* die ID Ihres Ereignisses dar.
+      In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
       ![](../assets/personalization-uc-helpers-10.png)
 
    1. Ändern Sie den Ausdruck:
-      1. Entfernen Sie die Zeichenfolge &quot;.product&quot;.
-      1. Ersetzen Sie den Platzhalter &quot;variable&quot;durch &quot;product&quot;.
+      1. Entfernen Sie die Zeichenfolge „product“.
+      1. Ersetzen Sie den Platzhalter „variable“ durch „product“.
 
       Dieses Beispiel zeigt den geänderten Ausdruck:
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}` -Tag und dem schließenden `{/each}}` -Tag ein:
+1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
 
    ```html
    <table>
@@ -183,14 +183,14 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
    </table>
    ```
 
-1. Fügen Sie die Personalisierungstoken für den Artikelnamen, die Menge und den Preis hinzu:
+1. Fügen Sie die Personalisierungs-Token für den Artikelnamen, die Menge und den Preis hinzu:
 
-   1. Entfernen Sie den Platzhalter &quot;#name&quot;aus der HTML-Tabelle.
-   1. Fügen Sie aus den vorherigen Suchergebnissen das Token **[!UICONTROL Name]** zum Ausdruck hinzu.
+   1. Entfernen Sie den Platzhalter „#name“ aus der HTML-Tabelle.
+   1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Name]** aus den vorherigen Suchergebnissen hinzu.
 
    Wiederholen Sie diese Schritte zweimal:
-   * Ersetzen Sie den Platzhalter &quot;#quantity&quot;durch das Token **[!UICONTROL Quantity]** .
-   * Ersetzen Sie den Platzhalter &quot;#priceTotal&quot;durch das Token **[!UICONTROL Gesamtpreis]** .
+   * Ersetzen Sie den Platzhalter „#quantity“ durch das Token **[!UICONTROL Menge]** .
+   * Ersetzen Sie den Platzhalter „#priceTotal“ durch das Token **[!UICONTROL Gesamtpreis]** .
 
    Dieses Beispiel zeigt den geänderten Ausdruck:
 
@@ -207,20 +207,20 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
       </table>
    {{/each}}
    ```
-1. Klicken Sie auf **[!UICONTROL Validate]** und dann auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
 ## Schritt 5: Eine produktspezifische Anmerkung einfügen {#if-helper}
 
-1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in die Sie die Notiz einfügen möchten.
-1. Klicken Sie in der dedizierten Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in der Sie die Anmerkung einfügen möchten.
+1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helfer `if` hinzu:
+1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `if` hinzu:
    1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
-   1. Verwenden Sie das Suchfeld, um &quot;if&quot; zu finden.
-   1. Fügen Sie aus den Suchergebnissen den Helfer `if` hinzu.
+   1. Verwenden Sie das Suchfeld, um „if“ zu finden.
+   1. Fügen Sie von den Suchergebnissen den Helper `if` hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
 
@@ -247,9 +247,9 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
    ```
 
 1. Fügen Sie der Bedingung das Produktname-Token hinzu:
-   1. Entfernen Sie den Platzhalter &quot;Bedingung1&quot;aus dem Ausdruck.
+   1. Entfernen Sie den Platzhalter „condition1“ aus dem Ausdruck.
    1. Wählen Sie in der Liste **[!UICONTROL Kontext]** aus.
-   1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL Ereignisname]*** und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
+   1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.
 
@@ -274,7 +274,7 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
       = "product_name"
       ```
 
-      In diesem Beispiel lautet der Produktname &quot;Juno Jacket&quot;:
+      In diesem Beispiel lautet der Produktname „Juno Jacket“:
 
       ```handlebars
       {%#if context.journey.events.`event_ID`.productListItems.name = "Juno Jacket" %}
@@ -283,7 +283,7 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
       {%/if%}
       ```
 
-   1. Ersetzen Sie den Platzhalter &quot;render_1&quot;durch den Text der Notiz.
+   1. Ersetzen Sie den Platzhalter „render_1“ durch den Text der Anmerkung.
 
       Beispiel:
 
@@ -293,8 +293,8 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
          {%else%} default_render
       {%/if%}
       ```
-   1. Entfernen Sie den Platzhalter &quot;default_render&quot;aus dem Ausdruck.
-1. Klicken Sie auf **[!UICONTROL Validate]** und dann auf **[!UICONTROL Save]**.
+   1. Entfernen Sie den Platzhalter „default_render“ aus dem Ausdruck.
+1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
    ![](../assets/personalization-uc-helpers-14.png)
 
@@ -302,8 +302,8 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
 ## Schritt 6: Journey testen und veröffentlichen {#test-and-publish}
 
-1. Öffnen Sie die Journey. Wenn die Journey bereits geöffnet ist, aktualisieren Sie die Seite.
-1. Schalten Sie den Umschalter **[!UICONTROL Test]** ein und klicken Sie dann auf **[!UICONTROL Trigger an event]**.
+1. Öffnen Sie die Journey. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren.
+1. Aktivieren Sie den Umschalter **[!UICONTROL Test]** und klicken Sie dann auf **[!UICONTROL Ereignis auslösen]**.
 
    Sie können den Testmodus erst aktivieren, nachdem Sie die Nachricht veröffentlicht haben.
 
@@ -317,11 +317,11 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
    Die E-Mail wird an die Adresse des Testprofils gesendet.
 
-   In diesem Beispiel enthält die E-Mail den Hinweis über die Juno Jacket, da dieses Produkt im Warenkorb enthalten ist:
+   In diesem Beispiel enthält die E-Mail die Anmerkung zur Jacke Juno (Juno Jacket), da sich dieses Produkt im Warenkorb befindet:
 
    ![](../assets/personalization-uc-helpers-17.png)
 
-1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie dann die Journey.
+1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie die Journey.
 
 
 ## Verwandte Themen
@@ -336,8 +336,8 @@ Der Warenkorbinhalt ist kontextbezogene Informationen von der Journey. Daher mü
 
 * [Personalisierung mit Profilinformationen, Kontext und Angebot](personalization-use-case.md)
 
-* [Personalisierung mit entscheiden-basiertem Angebot](../offers/offers-e2e.md)
+* [Personalisierung mit entscheidungsbasiertem Angebot](../offers/offers-e2e.md)
 
-## Tutorial{#helper-functions-video}
+## Anleitungsvideo{#helper-functions-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
