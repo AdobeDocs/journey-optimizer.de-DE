@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Berechtigungen einrichten
 
-Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie in **Adobe Experience Platform Launch** die richtigen Benutzerberechtigungen selbst haben oder zuweisen. Weitere Informationen finden Sie in der [Adobe Experience Platform Launch-Dokumentation](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=de){target=&quot;_blank&quot;}.
+Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie in **Adobe Experience Platform Launch** die richtigen Benutzerberechtigungen selbst haben oder zuweisen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=de){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
 
    ![](assets/push_product_1.png)
 
-1. Wählen Sie ein vorhandenes **[!UICONTROL Profil]** aus oder erstellen Sie ein neues mit der Schaltfläche **[!UICONTROL Neues Profil]**. Erfahren Sie, wie Sie ein neues **[!UICONTROL Neues Profil]** in der [Dokumentation zur Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=de#ui){target=&quot;_blank&quot;} erstellen.
+1. Wählen Sie ein vorhandenes **[!UICONTROL Profil]** aus oder erstellen Sie ein neues mit der Schaltfläche **[!UICONTROL Neues Profil]**. Wie Sie ein **[!UICONTROL neues Profil]** erstellen, erfahren Sie in der [Dokumentation zur Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=de#ui){target=&quot;_blank&quot;}.
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Berechtigungen]** die Option **[!UICONTROL Eigenschaftenrechte]**.
 
@@ -109,13 +109,13 @@ Die technische Einrichtung erfordert eine enge Zusammenarbeit zwischen dem App-E
 Folgen Sie den Implementierungsschritten, die in den folgenden Links beschrieben werden:
 
 * Für **Apple iOS**: In der [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns) erfahren Sie, wie Sie Ihre App beim APNs registrieren.{target=&quot;_blank&quot;}
-* Für **Google Android**: Erfahren Sie, wie Sie eine Firebase Cloud Messaging-Client-App unter Android in der [Google-Dokumentation](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;} einrichten.
+* Für **Google Android**: In der [Google-Dokumentation](https://firebase.google.com/docs/cloud-messaging/android/client){target=&quot;_blank&quot;} erfahren Sie, wie Sie eine Firebase Cloud Messaging-Client-App unter Android einrichten.
 
 ### Integrieren Ihrer Mobile App mit dem Adobe Experience Platform SDK
 
-Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Befolgen Sie die [Adobe Experience Platform Mobile SDK-Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}, um die Einrichtung mit Adobe Experience Platform Mobile SDKs in Ihrer App zu erhalten.
+Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Folgen Sie der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;}, um die Einrichtung in Ihrer App mit Adobe Experience Platform Mobile SDKs durchzuführen.
 
-Am Ende dieses Abschnitts sollten Sie auch eine mobile Eigenschaft in Adobe Experience Platform Launch erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die man verwalten möchte, eine Mobile-Eigenschaft erstellt. Erfahren Sie, wie Sie eine Eigenschaft für Mobilgeräte in der [Adobe Experience Platform Launch-Dokumentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;} erstellen und konfigurieren.
+Am Ende dieses Abschnitts sollten Sie auch eine mobile Eigenschaft in Adobe Experience Platform Launch erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die man verwalten möchte, eine Mobile-Eigenschaft erstellt. In der [Dokumentation zu Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
 
 
 ## Schritt 1: Push-Anmeldedaten für die Mobile App in Adobe Experience Platform Launch hinzufügen {#push-credentials-launch}
@@ -176,7 +176,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 Die **Adobe Journey Optimizer-Erweiterung** für Adobe Experience Platform Mobile SDKs unterstützt Push-Benachrichtigungen für Ihre Mobile Apps und hilft Ihnen bei der Erfassung von Benutzer-Push-Token und der Verwaltung der Interaktionsmessung mit Adobe Experience Platform-Services.
 
-Erfahren Sie, wie Sie die Journey Optimizer-Erweiterung in der [Adobe Experience Platform Mobile SDK-Dokumentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;} einrichten.
+Wie Sie die Journey Optimizer-Erweiterung einrichten, erfahren Sie in der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
 
 <!-- 
@@ -253,7 +253,7 @@ Nachdem Sie Ihre Mobile App sowohl in Adobe Experience Platform als auch in Adob
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [XDM-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
+Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [Dokumentation zu XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
 1. Gehen Sie im linken Menü zu **[!UICONTROL Schemas]**.
 
