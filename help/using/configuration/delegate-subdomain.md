@@ -18,7 +18,7 @@ level: Intermediate
 source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    >[!CAUTION]
    >
-   >Die Zuweisung einer ungültigen Subdomain zu Adobe ist nicht zulässig. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.yourcompany.com.
+   >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.yourcompany.com.
    >
    >Beachten Sie, dass mehrstufige Subdomains wie email.marketing.yourcompany.com derzeit nicht unterstützt werden.
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    ![](../assets/subdomain-processing.png)
 
-1. Sobald die Prüfungen erfolgreich sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    <!-- later on, users will be notified in Pulse -->
 
