@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> Um mit [!DNL Adobe Experience Manager Assets Essentials] zu arbeiten, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff auf [!DNL Assets Essentials] benötigen, Teil der Produktprofile **Assets Essentials Consumer Users** bzw. **Assets Essentials Users** sind. <br> Weiterführende Informationen dazu finden Sie auf dieser  [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> Um mit [!DNL Adobe Experience Manager Assets Essentials] zu arbeiten, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff auf [!DNL Assets Essentials] benötigen, Teil der Produktprofile **Assets Essentials Consumer Users** bzw. **Assets Essentials Users** sind. <br> Weiterführende Informationen dazu finden Sie auf dieser  [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
 [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentralisiertes Asset-Repository, mit dem Sie Ihre Nachrichten ausfüllen können. Sie können direkt von [!DNL Adobe Journey Optimizer] über den Abschnitt **[!UICONTROL Assets]** darauf zugreifen. Sie können beim Entwerfen eines E-Mail-Inhalts auch auf Assets und Ordner zugreifen. [Erfahren Sie mehr über das E-Mail-Design](design-emails.md).
 
-Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Hochladen und Einfügen von Assets{#add-asset}
 
