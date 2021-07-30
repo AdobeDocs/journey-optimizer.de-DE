@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    >[!NOTE]
    >
-   >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weiterführende Informationen zur Auswertung eines Segments finden Sie in der [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
@@ -68,7 +68,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](../assets/read-segment-schedule.png)
 
-   Standardmäßig geben Segmente die Journey **[!UICONTROL So bald wie möglich]** ein. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
+   Standardmäßig treten Segmente **[!UICONTROL so bald wie möglich]** in die Journey ein. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
 
    >[!NOTE]
    >
@@ -96,7 +96,7 @@ Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle *
 
    ![](../assets/read-segment-log.png)
 
-Sobald die Tests erfolgreich sind, können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
+Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
 >[!NOTE]
 >
