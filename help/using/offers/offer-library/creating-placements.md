@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
    ![](../../assets/placement_created.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
