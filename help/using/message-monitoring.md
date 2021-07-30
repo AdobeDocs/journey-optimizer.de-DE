@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,6 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 
 * **[!UICONTROL Fehler]**: Anzahl der Nachrichten, die aufgrund eines technischen Fehlers nicht gesendet werden können.
 
-* **[!UICONTROL Spam-Beschwerden]**: Anzahl der Nachrichten, die von Empfängern als Spam gekennzeichnet wurden. Weitere Informationen zu Beschwerden finden Sie im [Best Practice-Handbuch zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability){target=&quot;_blank&quot;}.
+* **[!UICONTROL Spam-Beschwerden]**: Anzahl der Nachrichten, die von Empfängern als Spam gekennzeichnet wurden. Weitere Informationen zu Beschwerden finden Sie im [Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Wenn Sie auf einen Hyperlink klicken, wird die zugehörige Ansicht für die Nachrichtenübersicht geöffnet. [Weitere Informationen zu Nachrichten](create-message.md).
