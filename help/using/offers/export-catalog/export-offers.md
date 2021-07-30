@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '2010'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    * **resolveURL**
 
       **Feld:** resolveURL
-      **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. Dies erleichtert das Abrufen des Assets, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden sollen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
+      **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. So lässt sich das Asset einfacher abrufen, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden müssen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
       **Typ:** Zeichenfolge
       **Beispiel:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
@@ -193,7 +193,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraints 
 **Titel:** Profileinschränkungsdetails
-**Beschreibung:** Anhand der Profileinschränkung wird entschieden, ob in einem bestimmten Moment und Kontext für die jeweilige Profilidentität eine Option geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Andererseits wird eine Profilbegrenzungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierende Option der Optionsauswahl ausgewertet.
+**Beschreibung:** Anhand der Profileinschränkung wird entschieden, ob in einem bestimmten Moment und Kontext für die jeweilige Profilidentität eine Option geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
 **Typ:** Objekt
 
 **_experience > decisioning > profileConstraints > Description**
@@ -213,8 +213,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **_experience > decisioning > profileConstraints > Profile Constraint Type**
 
 **Feld:** profileConstraintType 
-**Title:** Profile Constraint Type 
-**Description:** Bestimmt, ob aktuell Begrenzungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Begrenzungen können durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten festgelegt sein.
+**Titel:** Profileinschränkungstyp 
+**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Begrenzungen können durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten festgelegt sein.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
 * „none“ (Standard)
@@ -299,7 +299,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** priority 
 **Titel:** Priorität 
-**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Bestellfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+**Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Verhältnis zu allen anderen Optionen. Optionen, für die keine Reihenfolgefunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine Option nach demselben Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
 **Typ:** Ganzzahl
 **Mindestwert:** 0 
 **Standardwert:** 0
