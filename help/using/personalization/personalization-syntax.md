@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escap
 
 ## Profil
 
-Mit diesem Namespace können Sie auf alle Attribute verweisen, die im Profilschema definiert sind, das in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben ist.
+Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben werden.
 
 Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 
@@ -107,11 +107,11 @@ Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.m
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Textinhalt des Angebots, der von der Entscheidungs-Engine stammt:
+* Text-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML-Inhalt des Angebots, der von der Decisioning-Engine stammt:
+* HTML-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,13 +121,13 @@ Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.m
 Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können.
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
-Diese Block-Helfer werden durch ein # identifiziert, das dem Helper-Namen vorangeht, und benötigen ein entsprechendes schließendes /, gleichnamiges -Zeichen.
+Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden / am Ende des Namens.
 Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
 
 
 >[!NOTE]
 >
->Helper-Funktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
+>Hilfsfunktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
 
 
 ## Literaltypen
