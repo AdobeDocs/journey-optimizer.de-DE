@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Angebotseignung]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die Regel Ihrer Wahl in den Arbeitsbereich.
+1. Wählen Sie im Abschnitt **[!UICONTROL Angebotseignung]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel per Drag-and-drop hinüber.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -204,7 +204,7 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
    ![](../assets/offers-e2e-decision-collection.png)
 
-1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) eine Rangfolge definiert haben, können Sie sie einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote berechtigt sind, in dieser Platzierung unterbreitet zu werden, berechnet die Entscheidung anhand dieser Formel, welches Angebot zuerst bereitgestellt werden soll.
+1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) eine Rangfolge definiert haben, können Sie sie einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote für die Darstellung an dieser Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst angezeigt werden soll.
 
    Die detaillierten Schritte zum Zuweisen einer Rangfolgenformel zu einer Platzierung werden in [diesem Abschnitt](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula) beschrieben.
 
