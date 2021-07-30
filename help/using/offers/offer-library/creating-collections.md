@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Kollektion erstellen, die nur sportbezogene Angebote enthält.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
    ![](../../assets/collection_created.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
