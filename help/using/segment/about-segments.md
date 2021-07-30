@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 54%
 
 Mit [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Segmente mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Segmente]** erstellen und diese Segmente in Ihre Journeys einbinden.
 
-Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der Dokumentation zum Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.[
+Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.
 
 Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
 
@@ -30,15 +30,15 @@ Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
 
 ## Auswertungsmethode in Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
 
-In Adobe Journey Optimizer werden Zielgruppen mithilfe einer der folgenden Auswertungsmethoden aus Segmentdefinitionen generiert:
+In Adobe Journey Optimizer werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden generiert:
 
-* Streaming-Segmentierung: Die Zielgruppenliste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
-* Batch-Segmentierung - Die Zielgruppenliste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.
+* Streaming-Segmentierung: Die Audience-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen.
+* Batch-Segmentierung: Die Audiences-Liste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.
 
-Die Bestimmung zwischen Batch-Segmentierung und Streaming-Segmentierung erfolgt durch das System für jede Segmentdefinition, basierend auf der Komplexität und den Kosten der Auswertung der Segmentregel.
+Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen.
 
 Sie können die Auswertungsmethode für jedes Segment in der Spalte **[!UICONTROL Auswertungsmethode]** der Segmentliste anzeigen.
 
 Nachdem Sie ein Segment zum ersten Mal definiert haben, werden Profile zur Audience hinzugefügt, wenn sie sich qualifizieren.
 
-Das Aufstocken der Audience aus vorherigen Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgestockt wurde, wird die Audience kontinuierlich auf dem neuesten Stand gehalten und ist immer für das Targeting bereit.
+Das Auffüllen der Audience anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
