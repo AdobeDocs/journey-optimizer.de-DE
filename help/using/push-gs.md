@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 ![](assets/push-flow.png)
 
 1. Registrierung Ihrer gebrandeten Mobile App (Android oder iOS) mit den Apple-APNs und Google FCM-Push-Messaging-Services
-1. Messaging Services generieren ein Push-Token, das eine Kennung ist, die [!DNL Adobe Journey Optimizer] verwendet, um das bestimmte Gerät mit einer Push-Benachrichtigung anzusprechen.
+1. Messaging-Services generieren ein Push-Token, also eine Kennung, die von [!DNL Adobe Journey Optimizer] verwendet wird, um das jeweilige Gerät mit einer Push-Benachrichtigung anzusprechen.
 1. Das zuvor generierte Push-Token wird an Adobe Experience Platform übergeben und mit dem Echtzeit-Kundenprofil synchronisiert. Dies erfolgt vorkonfiguriert mit einem einfach zu integrierenden Client-SDK.
-1. Push-Nachrichten werden in [!DNL Adobe Journey Optimizer] erstellt, Push-Nachrichten werden mit einer Nachrichtenvorgabe erstellt
+1. Push-Benachrichtigungen werden in [!DNL Adobe Journey Optimizer] verfasst und entsprechend einer Nachrichtenvoreinstellung erstellt.
 1. Push-Benachrichtigungen können über die Orchestrierungs-Arbeitsfläche in Journeys aufgenommen werden.
 1. Nach der Veröffentlichung der Journey werden Kundenprofile, die auf Journey-Bedingungen basieren, für den Empfang von Push-Benachrichtigungen qualifiziert. In diesem Schritt werden Push-Messaging-Payloads personalisiert.
 1. Personalisierte Push-Payloads werden an einen internen Push-Messaging-Versand-Service weitergeleitet.
@@ -47,9 +47,9 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) – zum Senden von Benachrichtigungen an eine Android-Mobile-App
    * [Apple Push Notification Service (APNs)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) – zum Senden von Benachrichtigungen an eine iOS-Mobile-App
 
-* **Adobe Experience Platform Mobile-SDK**, das Client-seitige Integrations-APIs für Ihre Mobile Apps über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine [!DNL Adobe Journey Optimizer]-Erweiterung, die eine Vielzahl von APIs verfügbar macht, die für Push-Nachrichten spezifisch sind, und Datenfluss aktiviert, z. B. die Registrierung des Push-Tokens oder das Senden von Push-Tracking-Ereignissen oder anderen benutzerspezifischen Erlebnisereignissen an Adobe Experience Platform. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Adobe Experience Cloud- sowie Drittanbieterpartner-Funktionen ermöglichen.
+* **Adobe Experience Platform Mobile-SDK**, das Client-seitige Integrations-APIs für Ihre Mobile Apps über Android- und iOS-kompatible SDKs bereitstellt. Das SDK bietet eine [!DNL Adobe Journey Optimizer]-Erweiterung, die eine Vielzahl von APIs speziell für Push-Messaging verfügbar macht. Damit wird ein Datenfluss ermöglicht, um z. B. das Push-Token zu registrieren oder Push-Tracking-Ereignisse oder andere benutzerspezifische Erlebnisereignisse an Adobe Experience Platform zu senden. Das SDK bietet außerdem eine Vielzahl anderer Erweiterungen, die andere Funktionen von Adobe Experience Cloud und Drittanbietern ermöglichen.
 
-   Die SDK-Integration erfordert auch die Einrichtung von Adobe Experience Platform [Datenerfassung](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de){target=&quot;_blank&quot;}-Diensten, z. B.:
+   Die SDK-Integration erfordert auch die Einrichtung von [Datenerfassungs-Services](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de){target=&quot;_blank&quot;} von Adobe Experience Platform, z. B.:
 
    * Erstellen eines Datenstroms zum Konfigurieren der Profil- und Erlebnisereignis-Datensätze, anhand derer die Daten in Adobe Experience Platform fließen
    * Erstellen der Client-seitigen Mobile-Eigenschaft und Hinzufügen von Erweiterungen Das SDK ist eng mit diesen Erweiterungen integriert, um eine nahtlose Datenerfassung zu ermöglichen.
@@ -57,7 +57,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 
 * **Das Echtzeit-Kundenprofil von Adobe Experience Platform** bietet eine ganzheitliche Sicht auf jeden einzelnen Kunden, indem es Daten aus verschiedenen Kanälen, einschließlich Internet, Mobile, CRM und Drittanbietern, kombiniert. Mit dem Profil können Sie Ihre Kundendaten in einer zentralen Ansicht zusammenführen, die eine aussagekräftige Darstellung jeder Kundeninteraktion mit Zeitstempel bietet. Das Push-Token für einen bestimmten Mobile-App-Benutzer wird im Profil des Benutzers als Eintragsdaten gespeichert, während die Interaktionen, die der Benutzer mit Push-Benachrichtigungen ausführt, als Zeitreihenereignisdaten verfolgt werden. [Weitere Infos zum Echtzeit-Kundenprofil von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
 
-* **[!DNL Adobe Journey Optimizer]**[!DNL Adobe Journey Optimizer]: Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet und Ihre Kundenprofile in Adobe Experience Platform vorhanden sind, können Sie Push-Benachrichtigungen in erstellen und koordinieren und mit Ihren Benutzern interagieren.
+* **[!DNL Adobe Journey Optimizer]**: Sobald Ihre Mobile-App-Integrationen mit den oben genannten Komponenten eingerichtet und Ihre Kundenprofile in Adobe Experience Platform vorhanden sind, können Sie zur Benutzerinteraktion Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] erstellen und koordinieren.
 
 ## Technische Einrichtung und praktische Workflows für Push-Benachrichtigungen
 
