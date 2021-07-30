@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    * **resolveURL**
 
       **Feld:** resolveURL
-      **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. Dies erleichtert das Abrufen des Assets, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden sollen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
+      **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. So lässt sich das Asset einfacher abrufen, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden müssen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
       **Typ:** Zeichenfolge
       **Beispiel:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
