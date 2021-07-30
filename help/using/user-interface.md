@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) h
 
 >[!NOTE]
 >
->* Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+>* Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
    >
    >
 * Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
@@ -55,7 +55,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Komponenten]**: Erstellen Sie Platzierungen, Regeln und Tags. [Weitere Informationen](offers/offer-library/key-steps.md)
 
-**[!UICONTROL INHALTS-MANAGEMENT]**
+**[!UICONTROL CONTENT-MANAGEMENT]**
 
 * **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](assets-essentials.md)
 
@@ -98,7 +98,7 @@ Verfügbare Anwendungsfälle:
 
 * **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie dieses Anwendungsbeispiel implementieren.
 * **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
-* **Senden Sie E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, um neu registrierte Kunden willkommen zu heißen. (in Kürze verfügbar)
+* **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
 
 Klicken Sie auf **[!UICONTROL Details anzeigen]**, um mehr über jeden Anwendungsfall zu erfahren.
@@ -139,7 +139,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 ## Durchsuchen
 
-Verwenden Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste, um Assets, Journey oder Nachrichten in Ihren Sandboxes zu finden. Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen.
+Von der gesamten Oberfläche von Adobe Journey Optimizer aus können Sie die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys oder Nachrichten in allen Ihren Sandboxes zu finden. Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen.
 
 ![](assets/unified-search.png)
 
@@ -154,7 +154,7 @@ In den meisten Listen können Sie über eine Suchleiste nach einem bestimmten El
 
 Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
 
-In der Liste der Journey können Sie Journey anhand ihres Status, Typs und ihrer Version aus den **[!UICONTROL Status- und Versionsfiltern]** filtern. Der Typ kann: **[!UICONTROL Einzelereignis]**, **[!UICONTROL Segmentqualifizierung]**, **[!UICONTROL Segment lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**. Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
+In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Segmentqualifikation]**, **[!UICONTROL Segment lesen]**, **[!UICONTROL Geschäftsereignis]** und **[!UICONTROL Burst]**. sSie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
