@@ -2,7 +2,7 @@
 title: 'Starten der Journey-Ausführung '
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
