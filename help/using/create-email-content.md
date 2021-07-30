@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
->abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Clients unterstützt wird."
+>abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Programmen unterstützt wird."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Zusätzliche Informationen"
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
@@ -217,17 +217,17 @@ Unten finden Sie die verfügbaren Einstellungen für den Hintergrund.
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
-1. Wählen Sie die Strukturkomponente direkt in der E-Mail oder mithilfe des im Menü links verfügbaren **[!UICONTROL Navigationsbaums]** aus.
+1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder über den **[!UICONTROL Navigationsbaum]** im linken Menü aus.
 
    ![](assets/alignment_1.png)
 
-1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Wählen Sie eine Spalte]** aus und wählen Sie die Spalte aus, die Sie bearbeiten möchten. Sie können sie auch im Strukturbaum auswählen.
+1. Wählen Sie in der Symbolleiste mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
 
    Die bearbeitbaren Parameter für diese Spalte werden im Menü **[!UICONTROL Spalteneinstellungen]** angezeigt.
 
    ![](assets/alignment_2.png)
 
-1. Wählen Sie unter **[!UICONTROL Vertikale Ausrichtung]** **[!UICONTROL Unten]** aus.
+1. Wählen Sie unter **[!UICONTROL Vertikale Ausrichtung]** die Option **[!UICONTROL Unten]** aus.
 
    Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
 
@@ -247,9 +247,9 @@ In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerha
 
 Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Ziel auswählen.
 
-1. Wählen Sie in einer Textkomponente **[!UICONTROL Inhaltskomponente]**, in die ein Link eingefügt wird, Ihren Link aus.
+1. Wählen Sie Ihren Link in einer **[!UICONTROL Textinhaltskomponente]** aus, in die ein Link eingefügt wird.
 
-1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** die Option **[!UICONTROL Link unterstreichen]** , um den Beschriftungstext Ihres Links zu unterstreichen.
+1. Aktivieren Sie im Menü **[!UICONTROL Komponenteneinstellungen]** die Option **[!UICONTROL Link unterstreichen]**, um den Titeltext Ihres Links zu unterstreichen.
 
    ![](assets/link_1.png)
 
