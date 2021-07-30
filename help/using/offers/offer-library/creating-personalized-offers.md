@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 68%
 
 Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
-* Eine **Platzierung**, in der das Angebot angezeigt wird. Siehe [.Erstellen von Platzierungen](../offer-library/creating-placements.md)
+* Eine **Platzierung**, in der das Angebot angezeigt wird. Siehe [Platzierungen erstellen](../offer-library/creating-placements.md)
 * Eine **Entscheidungsregel**, die die Bedingung für die Unterbreitung des Angebots definiert. Weitere Informationen finden Sie unter [Entscheidungsregeln erstellen](../offer-library/creating-decision-rules.md).
 * Ein oder mehrere **Tags**, die Sie mit dem Angebot verknüpfen möchten. Weitere Informationen finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
@@ -185,7 +185,7 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 ![](../../assets/offer_information.png)
 
-## Tutorial {#video}
+## Anleitungsvideo {#video}
 
 >[!NOTE]
 >
