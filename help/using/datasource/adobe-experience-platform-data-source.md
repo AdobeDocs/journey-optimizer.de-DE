@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Datenquelle von Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-Die Datenquelle von Adobe Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofil-Service. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofildienst finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
+Die Datenquelle von Adobe Experience Platform definiert die Verbindung zum Echtzeit-Kundenprofil-Service. Diese Datenquelle ist integriert und vorkonfiguriert. Sie kann nicht gelöscht werden. Diese Datenquelle dient zum Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofildienst (überprüfen Sie beispielsweise, ob es sich bei der Person, die an einer Journey teilnimmt, um eine Frau handelt). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. Weitere Informationen zum Echtzeit-Kundenprofil-Service finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
