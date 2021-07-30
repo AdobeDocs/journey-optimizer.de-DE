@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,5 +35,5 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 **Weitere Informationen**
 
 * Erfahren Sie, wie Sie [Ihre Subdomains](delegate-subdomain.md) direkt über die Benutzeroberfläche erstellen.
-* Erfahren Sie, wie Sie [Ihren Subdomains Google TXT-Einträge](google-txt.md) hinzufügen, um einen erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen.
+* Erfahren Sie, wie Sie [Ihren Subdomains TXT-Einträge von Google](google-txt.md) hinzufügen, um den erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen.
 * Erfahren Sie, wie Sie [auf die für Ihre Subdomains generierten PTR-Datensätze](ptr-records.md) zugreifen, damit sie von E-Mail-Servern überprüft werden können.
