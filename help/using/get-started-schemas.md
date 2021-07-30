@@ -1,33 +1,33 @@
 ---
 title: Erste Schritte mit Schemas
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemata in Adobe Journey Optimizer verwenden.
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemas in Adobe Journey Optimizer verwenden.
 feature: Schemas
 role: User
 level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 25%
+ht-degree: 97%
 
 ---
 
 # Erste Schritte mit Schemas {#schemas-gs}
 
-Schemas sind die Standardmethode zur Beschreibung von Daten in Experience Platform, sodass alle Daten, die Schemas entsprechen, in einer Organisation ohne Konflikte wiederverwendet oder sogar von mehreren Organisationen gemeinsam genutzt werden können.
+Schemas sind die Standardmethode zur Beschreibung von Daten in Experience Platform. Dadurch können alle Daten, die mit Schemas konform sind, innerhalb einer Organisation ohne Konflikte wiederverwendet oder sogar von mehreren Organisationen gemeinsam genutzt werden.
 
-➡️ [Erfahren Sie, wie Sie ein Schema](#video-schema) erstellen und konfigurieren (Video)
+➡️ [Erfahren Sie, wie Sie ein Schema erstellen und konfigurieren](#video-schema) (Video).
 
 Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat darstellt und überprüft. Auf hoher Ebene bieten Schemas eine abstrakte Definition eines realen Objekts (z. B. einer Person) und legen dar, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum usw.).
 
-Erfahren Sie, wie Sie in [dieser Dokumentation ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target=&quot;_blank&quot;} Schemas erstellen.
+Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target=&quot;_blank&quot;}, wie Sie Schemas erstellen.
 
-Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht Ihnen die Verwaltung von XDM-Ressourcen (Experience-Datenmodell), einschließlich Schemas, Klassen, Schemafeldern und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemata für Ihr Unternehmen erstellen.
+Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht Ihnen die Verwaltung von XDM-Ressourcen (Experience-Datenmodell), einschließlich Schemas, Klassen, Schemafeldern und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemas für Ihr Unternehmen erstellen.
 
 ![](assets/schemas-home.png)
 
-Erfahren Sie, wie Sie die Benutzeroberfläche von Schemas in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;} verwenden.
+Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Schemas verwenden.
 
-Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target=&quot;_blank&quot;}
+Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema-Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target=&quot;_blank&quot;}.
 
 
 ## Anleitungsvideo{#video-schema}
@@ -38,9 +38,9 @@ Erfahren Sie, wie Sie ein Schema erstellen, Feldergruppen hinzufügen, benutzerd
 
 **Siehe auch**
 
-* [Erstellen eines Schemas, eines Datensatzes und Erfassen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](building-journeys/creating-test-profiles.md)
+* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}
-* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
-* [Erstellen Sie ein Schema mit der Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
-* [Definieren einer Beziehung zwischen zwei Schemas mithilfe des Schema-Editors](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}
+* [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target=&quot;_blank&quot;}
+* [Erstellen eines Schemas mithilfe der Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=de){target=&quot;_blank&quot;}
+* [Definieren einer Beziehung zwischen zwei Schemas mithilfe des Schema-Editors](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=de){target=&quot;_blank&quot;}
 
