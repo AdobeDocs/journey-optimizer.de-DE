@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 71%
+ht-degree: 75%
 
 ---
 
@@ -98,7 +98,7 @@ Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine Entscheidung dupli
 
 ## Änderungsprotokolle für Angebote und Entscheidungen {#changes-logs}
 
-Mit der Angebotsbibliothek können Sie alle Änderungen an einem Angebot oder einer Entscheidung visualisieren. Öffnen Sie dazu das Angebot oder die Entscheidung, indem Sie in der Liste auf den entsprechenden Namen klicken, und wählen Sie dann die Registerkarte **[!UICONTROL Änderungsprotokoll]** aus.
+In der Angebotsbibliothek können Sie sich alle Änderungen anzeigen lassen, die an einem Angebot oder einer Entscheidung vorgenommen wurden. Öffnen Sie dazu das Angebot oder die Entscheidung, indem Sie in der Liste auf den entsprechenden Namen klicken, und wählen Sie dann die Registerkarte **[!UICONTROL Änderungsprotokoll]** aus.
 
 In diesem Bildschirm werden alle vorgenommenen Änderungen sowie der Name des Benutzers angezeigt, der die Änderungen vorgenommen hat.
 
