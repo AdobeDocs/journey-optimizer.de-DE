@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden
 
 Ein **vollständiges Beispiel**, das zeigt, wie Angebote konfiguriert, in Entscheidungen verwendet und diese Entscheidungen in E-Mails eingesetzt werden, finden Sie in [diesem Abschnitt](offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [Erfahren Sie, wie Sie Angebote als Personalisierung hinzufügen](#video-offers) (Video)
+➡️ [Erfahren Sie, wie Sie Angebote als Teil der Personalisierung hinzufügen](#video-offers) (Video).
 
 ## Einfügen einer Entscheidung in eine E-Mail {#insert-offers}
 
