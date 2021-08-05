@@ -15,7 +15,7 @@ feature: Anwendungskonfiguration
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
@@ -76,7 +76,7 @@ Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Grund]*
 Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 | Grund | Beschreibung | Unterdrückungskategorie |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Unbestimmt]** | Der Bounce-Grund, der vom Message Transfer Agent (MTA) der Empfänger-Domain empfangen wurde, konnte nicht identifiziert werden. | Ignoriert |
 | **[!UICONTROL Ungültiger Empfänger]** | Der Empfänger ist ungültig oder existiert nicht. | Hard |
 | **[!UICONTROL Soft-Bounce]** | Die Nachricht führte aus einem anderen Grund als den in dieser Tabelle aufgeführten Soft-Fehlern zu einem Softbounce, z. B. beim Senden über der von einem ISP empfohlenen zulässigen Rate. | Soft |
