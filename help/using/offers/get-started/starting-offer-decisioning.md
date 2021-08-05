@@ -5,7 +5,7 @@ feature: Angebote
 topic: Integrationen
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
 * Zudem hilft Ihnen Entscheidungs-Management dabei, das Kundenerlebnis zu verbessern, wenn sich Kunden an Ihr Supportteam wenden. Mit Entscheidungs-Management-APIs können Sie im Portal Ihrer Callcenter-Agenten Informationen über die eingelösten und nächstbesten Angebote anzeigen.
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossar {#glossary}
