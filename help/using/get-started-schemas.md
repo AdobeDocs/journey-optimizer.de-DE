@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzerobe
 
 ![](assets/schemas-home.png)
 
-Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Schemas verwenden.
+Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Schemas verwenden.
 
 Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema-Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target=&quot;_blank&quot;}.
 
