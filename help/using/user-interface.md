@@ -19,12 +19,10 @@ Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) h
 >[!NOTE]
 >
 >* Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
-   >
-   >
-* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
-   >
-   > 
-* Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren Berechtigungen und Ihrem Lizenzierungspaket ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
+>
+>* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
+>
+> * Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren Berechtigungen und Ihrem Lizenzierungspaket ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
 
 
 ## Linke Navigation

@@ -44,9 +44,8 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
    >[!NOTE]
    >
    >* Klicken Sie auf den Namen des Schemas, um es zu ändern und seine Eigenschaften zu aktualisieren.
-      >
-      >
-   * Klicken Sie im Abschnitt „Feldgruppen“ auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um andere Feldgruppen auszuwählen, die dem Schema hinzugefügt werden sollen.
+   >
+   >* Klicken Sie im Abschnitt „Feldgruppen“ auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um andere Feldgruppen auszuwählen, die dem Schema hinzugefügt werden sollen.
 
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.

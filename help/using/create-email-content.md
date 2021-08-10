@@ -35,11 +35,13 @@ Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit 
 ## Von Grund auf gestalten {#design-scratch}
 
 >[!CONTEXTUALHELP]
+>
 >id="ac_structure_components"
 >title="Über Strukturkomponenten"
 >abstract="Strukturkomponenten definieren das Layout der E-Mail."
 
 >[!CONTEXTUALHELP]
+>
 >id="ac_edition_columns"
 >title="Definieren von E-Mail-Spalten"
 >abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
@@ -135,14 +137,14 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 >[!CAUTION]
 >
 >* Die Änderungen, die Sie in der **[!UICONTROL Nur-Text-Ansicht]** vorgenommen haben, werden in der HTML-Ansicht nicht dargestellt.
-   >
-   >
-* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
+>
+>* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
 
 ## Verwenden eines Preheaders {#preheader}
 
 >[!CONTEXTUALHELP]
+>
 >id="ac_edition_preheader"
 >title="Verwenden eines Preheaders"
 >abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der Ihnen dabei hilft, Ihre E-Mails besser zu verfolgen und anzupassen."
@@ -178,6 +180,7 @@ Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 ## Hintergrundeinstellungen {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
+>
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
 >abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Programmen unterstützt wird."

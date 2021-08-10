@@ -20,9 +20,8 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvorgaben einrichten, die all
 >[!CAUTION]
 >
 > * Die Konfiguration von Nachrichtenvorgaben ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* Sie müssen die Konfigurationsschritte für E-Mail und Push-Benachrichtigungen ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
+>
+> * Sie müssen die Konfigurationsschritte für E-Mail und Push-Benachrichtigungen ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
 Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Voreinstellungen]** auswählen.
