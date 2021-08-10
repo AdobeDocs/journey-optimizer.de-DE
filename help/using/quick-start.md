@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ## Wichtige Schritte für den Start {#cjm-key-steps}
 
-Mit [!DNL Adobe Journey Optimizer] können Sie bestehende Nachrichteninhalte importieren und neue Inhalte entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, die Nachrichten auslösen, Segmente definieren und Zielgruppen verfeinern, Multi-Channel-Nachrichten versenden, Angebote erstellen und hinzufügen und auf einen kompletten Satz von Reporting- und Überwachungs-Tools zugreifen, um die Wirkung Ihrer Nachrichten und Customer Journeys zu messen.
+Mit [!DNL Adobe Journey Optimizer] können Sie bestehende Nachrichteninhalte importieren und neue Inhalte entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, die Nachrichten auslösen, Segmente definieren und Audiences verfeinern, Multi-Channel-Nachrichten versenden, Angebote erstellen und hinzufügen und auf einen kompletten Satz von Reporting- und Überwachungs-Tools zugreifen, um die Wirkung Ihrer Nachrichten und Customer Journeys zu messen.
 
 Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
@@ -36,7 +36,7 @@ Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müsse
 
    * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de) erfahren Sie, wie Sie eine Vorschau anzeigen und einen Datensatz erstellen.{target=&quot;_blank&quot;}
 
-   * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;} erfahren Sie, wie Sie einen Identity-Namespace erstellen.
+   * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;} erfahren Sie, wie Sie einen Identity-Namespace erstellen.
 
    * Auf [dieser Seite](../using/building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen
 
@@ -53,7 +53,7 @@ Lesen Sie die folgenden Abschnitte, um Ihre erste Journey einzurichten und Nachr
 
 * **Angebote hinzufügen**: Verwenden Sie das Entscheidungs-Management in Journey Optimizer, um Ihren Nachrichten personalisierte Angebote hinzuzufügen. [Mehr dazu](../using/offers/get-started/starting-offer-decisioning.md)
 
-* **Zielgruppe definieren**: Erstellen Sie Segmente, erstellen Sie Ereignisse, verwalten Sie Einverständnis und Datenschutz. [Mehr dazu](../using/segment/about-segments.md)
+* **Audience definieren**: Erstellen Sie Segmente, erstellen Sie Ereignisse, verwalten Sie Einverständnis und Datenschutz. [Mehr dazu](../using/segment/about-segments.md)
 
 * **Journeys erstellen**: Senden Sie Nachrichten, nutzen Sie kontextbezogene Daten, verfeinern Sie Audiences, entwerfen Sie mehrstufige Anwendungsfälle und führen Sie diese aus. [Mehr dazu](building-journeys/journey.md)
 
