@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 ## Entscheidungsbereiche hinzufügen {#add-decision-scopes}
 
-1. Ziehen Sie eine Platzierung per Drag-and-Drop aus der Liste, um sie der Entscheidung hinzuzufügen, und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
+1. Ziehen Sie eine Platzierung per Drag-and-drop aus der Liste, fügen Sie sie der Entscheidung hinzu und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
 
    ![](../../assets/activities-placement.png)
 
    >[!NOTE]
    >
-   >Dieselbe Platzierung kann in der Entscheidung mehrmals ausgewählt werden.
+   >Dieselbe Platzierung kann mehrmals für eine Entscheidung ausgewählt werden.
 
 1. Wählen Sie die Kollektion aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -71,7 +71,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../../assets/activity_constraint_segment2.png)
 
-   Wenn Sie eine Auswahleinschränkung für diese Platzierung mithilfe einer Entscheidungsregel hinzufügen möchten, wählen Sie die Option **[!UICONTROL Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**. Weiterführende Informationen zur Verwendung einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
+   Wenn Sie eine Auswahleinschränkung für diese Platzierung mithilfe einer Entscheidungsregel hinzufügen möchten, wählen Sie die Option **[!UICONTROL Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**. Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
    ![](../../assets/activity_constraint_rule.png)
 
@@ -99,37 +99,37 @@ Sie ist jetzt bereit, für das Senden von Angeboten an Kunden genutzt zu werden.
 
 ## Entscheidungsliste {#decision-list}
 
-In der Entscheidungsliste können Sie die Entscheidung auswählen, deren Eigenschaften angezeigt werden sollen. Dort können Sie sie auch bearbeiten, ihren Status ändern (**Entwurf**, **Live**, **Complete**, **Archived**), die Entscheidung duplizieren oder löschen.
+In der Entscheidungsliste können Sie die Entscheidung auswählen, deren Eigenschaften angezeigt werden sollen. Dort können Sie sie auch bearbeiten, ihren Status ändern (**Entwurf**, **Live**, **Abgeschlossen**, **Archiviert**), die Entscheidung duplizieren oder löschen.
 
 ![](../../assets/decision_created.png)
 
-Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Entscheidungsbearbeitungsmodus zurückzukehren. Dort können Sie die [Details](#create-activity), [Entscheidungsbereiche](#add-decision-scopes) und [Fallback-Angebot](#add-fallback) ändern.
+Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Entscheidungsbearbeitungsmodus zurückzukehren. Dort können Sie die [Details](#create-activity), [Entscheidungsumfänge](#add-decision-scopes) und das [Fallback-Angebot](#add-fallback) der Entscheidung ändern.
 
-Wählen Sie eine Live-Entscheidung aus und klicken Sie auf **[!UICONTROL Deaktivieren]** , um den Entscheidungsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
+Wählen Sie eine Live-Entscheidung aus und klicken Sie auf **[!UICONTROL Deaktivieren]**, um den Entscheidungsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
 
-Um den Status erneut auf **[!UICONTROL Live]** festzulegen, wählen Sie die Schaltfläche **[!UICONTROL Aktivieren]** aus, die jetzt angezeigt wird.
+Um den Status erneut auf **[!UICONTROL Live]** zu setzen, wählen Sie die Schaltfläche **[!UICONTROL Aktivieren]** aus, die jetzt angezeigt wird.
 
 ![](../../assets/decision_activate.png)
 
-Die Schaltfläche **[!UICONTROL Mehr Aktionen]** ermöglicht die unten beschriebenen Aktionen.
+Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschriebenen Aktionen.
 
 ![](../../assets/decision_more-actions.png)
 
-* **[!UICONTROL Abschließen]**: setzt den Status der Entscheidung auf  **[!UICONTROL Abgeschlossen]**, was bedeutet, dass die Entscheidung nicht mehr aufgerufen werden kann. Diese Aktion steht nur für aktivierte Entscheidungen zur Verfügung. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren, löschen oder archivieren.
+* **[!UICONTROL Abschließen]**: setzt den Status der Entscheidung auf **[!UICONTROL Abgeschlossen]**, was bedeutet, dass die Entscheidung nicht mehr aufgerufen werden kann. Diese Aktion steht nur für aktivierte Entscheidungen zur Verfügung. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren, löschen oder archivieren.
 
-* **[!UICONTROL Duplizieren]**: erstellt eine Entscheidung mit denselben Eigenschaften, Entscheidungsbereichen und Fallback-Angeboten. Standardmäßig hat die neue Entscheidung den Status **[!UICONTROL Entwurf]**.
+* **[!UICONTROL Duplizieren]**: erstellt eine Entscheidung mit denselben Eigenschaften, Entscheidungsumfängen und Fallback-Angebot. Standardmäßig hat die neue Entscheidung den Status **[!UICONTROL Entwurf]**.
 
 * **[!UICONTROL Löschen]**: entfernt die Entscheidung aus der Liste.
 
    >[!CAUTION]
    >
-   >Die Entscheidung und ihr Inhalt werden nicht mehr zugänglich sein. Diese Aktion kann nicht rückgängig gemacht werden.
+   >Die Entscheidung und ihr Inhalt sind nicht mehr zugänglich. Diese Aktion kann nicht rückgängig gemacht werden.
    >
    >Wenn die Entscheidung in einem anderen Objekt verwendet wird, kann sie nicht gelöscht werden.
 
-* **[!UICONTROL Archivieren]**: legt den Entscheidungsstatus auf  **[!UICONTROL Archiviert]** fest. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können sie nur duplizieren oder löschen.
+* **[!UICONTROL Archivieren]**: setzt den Entscheidungsstatus auf **[!UICONTROL Archiviert]**. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können es nur duplizieren oder löschen.
 
-Sie können auch den Status mehrerer Entscheidungen gleichzeitig löschen oder ändern, indem Sie die entsprechenden Kontrollkästchen aktivieren.
+Sie können auch den Status mehrerer Entscheidungen gleichzeitig löschen oder ändern, indem Sie die entsprechenden Checkboxen auswählen.
 
 ![](../../assets/decision_multiple-selection.png)
 
@@ -141,7 +141,7 @@ Nachdem eine Entscheidung erstellt wurde, können Sie in der Liste auf ihren Nam
 
 ![](../../assets/decision_click-name.png)
 
-Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugreifen. Wählen Sie die Registerkarte **[!UICONTROL Ändere log]** in [Überwachen Sie alle Änderungen](../get-started/user-interface.md#changes-log), die an der Entscheidung vorgenommen wurden.
+Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugreifen. Wählen Sie die Registerkarte **[!UICONTROL Protokoll ändern]**, um [alle Änderungen zu überwachen](../get-started/user-interface.md#changes-log), die an der Entscheidung vorgenommen wurden.
 
 ![](../../assets/decision_information.png)
 
