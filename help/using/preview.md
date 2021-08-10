@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
-Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenkriterien entsprechen.
+Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
@@ -121,13 +121,13 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-button.png)
 
-1. Geben Sie im Fenster **[!UICONTROL Testversand]** neben den Testprofilen die E-Mail Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an Sie oder Ihre Mitglieder zu senden.
+1. Geben Sie im Fenster **[!UICONTROL Testversand starten]** neben den Testprofilen die E-Mail-Adresse Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
 
    Beachten Sie, dass Sie bis zu 10 Empfänger für Ihren Testversand hinzufügen können.
 
    ![](assets/send-proof-button_2.png)
 
-1. Wählen Sie dann die Testprofile aus, die den Testversand erhalten sollen, und klicken Sie auf **[!UICONTROL Testversand senden]**. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
+1. Wählen Sie dann die Testprofile aus, die den Testversand erhalten sollen, und klicken Sie auf **[!UICONTROL Testversand starten]**. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
 
    ![](assets/send-proof-select.png)
 
