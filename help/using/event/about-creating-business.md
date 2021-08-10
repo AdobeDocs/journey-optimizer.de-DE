@@ -8,13 +8,13 @@ level: Intermediate
 source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
 workflow-type: tm+mt
 source-wordcount: '854'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren eines Geschäftsereignisses {#configure-a-business-event}
 
-Im Gegensatz zu einheitlichen Ereignissen sind Geschäftsereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+Im Gegensatz zu unitären Ereignissen sind Geschäftsereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
 Auf dem Lesen von Segmenten basierende Journeys können einmalig durch eine Planung auf regulärer Basis oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
@@ -26,7 +26,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
 * Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
-* Um mehrere Geschäftsereignisausführungen zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
+* Um mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
 * Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
 * Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
 * Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
