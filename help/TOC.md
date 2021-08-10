@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
       + [Veröffentlichen von Nachrichten](using/publish-manage-message.md)
    + [Verwalten von Opt-out](using/consent.md)
 + Personalisierung{#personalization}
-   + [Erste Schritte    bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte     bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
    + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
    + Anwendungsfälle{#personalization-use-cases}
@@ -94,7 +94,7 @@ ht-degree: 98%
       + [Adobe Campaign v7/v8-Aktionen](using/building-journeys/using-adobe-campaign-classic.md)
       + [Sprung](using/building-journeys/jump.md)
       + [Profil aktualisieren](using/building-journeys/update-profiles.md)
-   + Anwendungsbeispiele {#journey-use-cases}
+   + Anwendungsfälle {#journey-use-cases}
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracken und Überwachen {#reporting}
@@ -138,7 +138,7 @@ ht-degree: 98%
    + Entscheidungen erstellen und verwalten {#create-manage-activities}
       + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
       + [Auswahl von Angeboten in Entscheidungen konfigurieren](using/offers/offer-activities/configure-offer-selection.md)
-   + Erstellen von Entscheidungsverwaltungsberichten {#create-reports}
+   + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
       + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
