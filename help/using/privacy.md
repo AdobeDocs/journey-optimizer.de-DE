@@ -1,5 +1,5 @@
 ---
-title: 'Datenschutz   in [!DNL Journey Optimizer] '
+title: 'Datenschutz    in [!DNL Journey Optimizer] '
 description: Erfahren Sie, wie Sie Datenschutz verwalten.
 topic: Datenschutz
 role: User
@@ -7,7 +7,7 @@ level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Um den Datenschutz korrekt zu handhaben und personenbezogene Daten korrekt zu ve
 
 [!DNL Journey Optimizer] übernimmt die meisten Datensatzänderungen, die in Adobe Experience Platform vorgenommen wurden.
 
-Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwerden) über Experience Platform verwaltet. Sie müssen Ihre Anfragen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target=&quot;_blank&quot;} senden und **Profil** und **AEP Data Lake** aus der Liste auswählen, wenn Sie [Ihre Datenschutzanfrage erstellen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+Folglich werden Datenschutzanfragen (Recht auf Zugriff und Recht auf Vergessenwerden) über Experience Platform verwaltet. Sie müssen Ihre Anfragen mit [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target=&quot;_blank&quot;} senden und **Profil** und **AEP Data Lake** aus der Liste auswählen, wenn Sie [Ihre Datenschutzanfrage erstellen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
