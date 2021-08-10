@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,6 +37,6 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 
 >[!NOTE]
 >
->Schemabeziehungen werden jetzt für Datenquellen unterstützt.
+>Für Datenquellen werden jetzt Schemabeziehungen unterstützt.
 
 Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=de){target=&quot;_blank&quot;}.
