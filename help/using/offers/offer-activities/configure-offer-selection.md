@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Auswahl von Angeboten in Entscheidungen konfigurieren {#offers-selection-in-activities}
 
-Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung (zuvor als „Angebotsaktivität“ bezeichnet) die Methode auswählen, die das beste Angebot für jedes Profil auswählt. Sie können Angebote nach folgenden Kriterien ordnen:
+Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung (zuvor als Angebotsaktivität bezeichnet) die Methode auswählen, die das beste Angebot für jedes Profil auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
 * Rangfolgenformel
 
@@ -24,7 +24,7 @@ Wenn in einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet) meh
 
 ![](../../assets/offer-priority.png)
 
-Bei der Erstellung eines Angebots werden die Prioritätswerte der Angebote zugewiesen. Näheres dazu, wie Sie ein personalisiertes Angebot erstellen, finden Sie in [diesem Abschnitt](../offer-library/creating-personalized-offers.md).
+Die Prioritätswerte der Angebote werden bei der Erstellung eines Angebots zugewiesen. Näheres dazu, wie Sie ein personalisiertes Angebot erstellen, finden Sie in [diesem Abschnitt](../offer-library/creating-personalized-offers.md).
 
 ## Rangfolgenformel {#assign-ranking-formula}
 
@@ -36,13 +36,13 @@ Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Ab
 
 Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung (früher als Angebotsaktivität bezeichnet) zuweisen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md).
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
-1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Platzierungen erstellen](../offer-library/creating-placements.md).
+1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Wählen Sie in der Dropdown-Liste aus, dass Sie die Angebote nach **[!UICONTROL Rangfolge]** ordnen möchten, und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
+1. Wählen Sie aus der Dropdown-Liste die Option, Angebote nach **[!UICONTROL Rangfolge]** zu sortieren, und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
