@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    >[!NOTE]
    >
-   >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
@@ -56,13 +56,13 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >
    >Kontakte, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, können nicht in die Journey eintreten.
 
-1. Setzen Sie das Feld **[!UICONTROL Drosselrate]** auf die Durchsatzbegrenzung der Aktivität &quot;Lesesegment&quot;.
+1. Definieren Sie im Feld **[!UICONTROL Einschränkungsrate]** das Durchsatz-Limit der Aktivität „Segment lesen“.
 
-   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 Nachrichten pro Sekunde. Sie können diesen Wert von 500 auf 17.000 Nachrichten pro Sekunde ändern.
+   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 Nachrichten pro Sekunde. Sie können diesen Wert zwischen 500 auf 17.000 Nachrichten pro Sekunde variieren.
 
    >[!NOTE]
    >
-   >Die Gesamtdrosselungsrate pro Sandbox wird auf 17.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Drosselrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 17.000 Nachrichten pro Sekunde. Sie können diese Mütze nicht ändern.
+   >Die Gesamteinschränkungsrate pro Sandbox ist auf 17.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 17.000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
