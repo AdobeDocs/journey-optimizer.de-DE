@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
 workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -54,49 +54,49 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
 Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
 
-Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen auch über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise ein Segment für alle Kunden erstellen, die einen Laptop gekauft haben, ohne explizit alle Laptop-IDs auflisten oder alle Produktdetails in Transaktionssystemen erfassen zu müssen.
+Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen weiterhin über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise ein Segment für alle Kunden erstellen, die einen Laptop gekauft haben, ohne explizit alle Laptop-IDs auflisten oder alle Produktdetails aus Transaktionssystemen erfassen zu müssen.
 
-Um eine Beziehung zu definieren, benötigen Sie ein dediziertes Feld im Quellschema, in diesem Fall das Feld &quot;Produkt-ID&quot;im Kaufschema. Dieses Feld muss auf das Produkt-ID-Feld im Zielschema verweisen. Die Quell- und Zieltabellen müssen für Profile aktiviert sein, und das Zielschema muss über dieses gemeinsame Feld als primäre Identität verfügen.
+Um eine Beziehung zu definieren, benötigen Sie ein spezielles Feld im Quellschema, in diesem Fall das Feld „Produkt-ID“ im Kaufschema. Dieses Feld muss auf das Feld „Produkt-ID“ im Zielschema verweisen. Die Quell- und Zieltabellen müssen für Profile aktiviert sein und im Zielschema muss dieses gemeinsame Feld als primäre Identität definiert sein.
 
-Im Folgenden finden Sie das Produktkatalog-Schema, das für das Profil aktiviert ist, dessen Produkt-ID als primäre Identität definiert ist.
+Im Folgenden finden Sie das Produktkatalog-Schema, das für das Profil aktiviert ist und dessen Produkt-ID als primäre Identität definiert ist.
 
 ![](../assets/schema9.png)
 
-Im Folgenden finden Sie das Kaufschema mit der im Feld &quot;Produkt-ID&quot;definierten Beziehung.
+Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definierten Beziehung.
 
 ![](../assets/schema10.png)
 
 >[!NOTE]
 >
->Weitere Informationen zu Schemabeziehungen finden Sie in der [Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Weitere Informationen zu Schemabeziehungen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=de).
 
 In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen nutzen:
 
-* beim Konfigurieren eines einheitlichen Ereignisses [mehr dazu](../event/experience-event-schema.md#unitary_event_configuration)
-* bei Verwendung von Bedingungen in einer Journey [mehr dazu](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* in der Nachrichtenpersonalisierung [mehr dazu](../event/experience-event-schema.md#message_personalization)
-* in der Personalisierung benutzerdefinierter Aktionen [mehr dazu](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* beim Konfigurieren eines unitären Ereignisses – [weitere Informationen](../event/experience-event-schema.md#unitary_event_configuration)
+* bei Verwendung von Bedingungen in einer Journey – [weitere Informationen](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* in der Personalisierung von Nachrichten – [weitere Informationen](../event/experience-event-schema.md#message_personalization)
+* in der Personalisierung benutzerdefinierter Aktionen – [weitere Informationen](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Einzelereigniskonfiguration{#unitary_event_configuration}
+### Konfiguration eines unitären Ereignisses{#unitary_event_configuration}
 
-Die verknüpften Schemafelder sind in der Einzelereigniskonfiguration verfügbar:
+Die verknüpften Schemafelder sind in der Konfiguration eines unitären Ereignisses verfügbar:
 
-* beim Durchsuchen der Ereignisschemafelder im Bildschirm zur Ereigniskonfiguration.
-* beim Definieren einer Bedingung für systemgenerierte Ereignisse.
+* beim Durchsuchen der Ereignisschemafelder im Bildschirm zur Ereigniskonfiguration
+* beim Definieren einer Bedingung für systemgenerierte Ereignisse
 
 ![](../assets/schema11.png)
 
 Die verknüpften Felder sind nicht verfügbar:
 
 * in der Ereignisschlüsselformel
-* in Ereignis-ID-Bedingung (regelbasierte Ereignisse)
+* in einer Ereignis-ID-Bedingung (regelbasierte Ereignisse)
 * bei Geschäftsereignissen (später verfügbar)
 
-Informationen zum Konfigurieren eines einheitlichen Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
+Informationen zum Konfigurieren eines unitären Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
-### Journey von Bedingungen mithilfe des Ereigniskontexts{#journey_conditions_using_event_context}
+### Journey-Bedingungen unter Verwendung von Ereigniskontext{#journey_conditions_using_event_context}
 
-Sie können Daten aus einer Suchtabelle verwenden, die mit einem Ereignis verknüpft ist, das in einer Journey zur Bedingungserstellung (Ausdruckseditor) verwendet wird.
+Sie können Daten aus einer Lookup-Tabelle verwenden, die mit einem Ereignis verknüpft ist, das in einer Journey zur Bedingungserstellung (Ausdruckseditor) verwendet wird.
 
 Fügen Sie eine Bedingung in eine Journey ein, bearbeiten Sie den Ausdruck und öffnen Sie den Ereignisknoten im Ausdruckseditor.
 
@@ -104,17 +104,17 @@ Fügen Sie eine Bedingung in eine Journey ein, bearbeiten Sie den Ausdruck und �
 
 Informationen zum Definieren von Journey-Bedingungen finden Sie auf dieser [Seite](../building-journeys/condition-activity.md).
 
-### Nachrichtenpersonalisierung{#message_personalization}
+### Personalisierung von Nachrichten{#message_personalization}
 
-Die verknüpften Felder stehen bei der Nachrichtenpersonalisierung zur Verfügung. Die entsprechenden Felder werden in dem Kontext angezeigt, der von der Journey an die Nachricht übergeben wird.
+Die verknüpften Felder stehen bei der Personalisierung von Nachrichten zur Verfügung. Die zugehörigen Felder werden in dem Kontext angezeigt, der von der Journey an die Nachricht übergeben wird.
 
 ![](../assets/schema14.png)
 
 Informationen zum Personalisieren einer Nachricht mit kontextuellen Journey-Informationen finden Sie auf dieser [Seite](../personalization/personalization-use-case.md).
 
-### Benutzerdefinierte Aktionspersonalisierung mit Journey-Ereigniskontext{#custom_action_personalization_with_journey_event_context}
+### Benutzerdefinierte Personalisierung von Aktionen mit Journey-Ereigniskontext{#custom_action_personalization_with_journey_event_context}
 
-Die verknüpften Felder stehen bei der Konfiguration der Aktionsparameter einer benutzerdefinierten Aktionsaktivität von Journey zur Verfügung.
+Die verknüpften Felder stehen beim Konfigurieren der Aktionsparameter einer benutzerdefinierten Aktionsaktivität von Journeys zur Verfügung.
 
 ![](../assets/schema13.png)
 
