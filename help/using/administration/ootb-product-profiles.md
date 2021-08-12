@@ -16,10 +16,10 @@ feature: Kontrollgruppen
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -103,4 +103,4 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Entscheidungs-Management | <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Anzeigen von Entscheidungen**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li><li>**Entscheidungen veröffentlichen**: Genehmigen von Entscheidungsaktivitäten und Rückgängigmachen der Genehmigung.</li></ul>|
+|Entscheidungs-Management | <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Anzeigen von Entscheidungen**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li><li>**Veröffentlichungsentscheidungen**: Aktivierung oder Deaktivierung von Entscheidungsaktivitäten.</li></ul>|
