@@ -1,11 +1,10 @@
 ---
 title: Erste Schritte mit der Konfiguration von Push-Benachrichtigungen
 description: Datenfluss und Komponenten von Push-Benachrichtigungen
-feature: Anwendungskonfiguration
-topic: Push-Benachrichtigung
+feature: Anwendungskonfiguration, Push-Benachrichtigung
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
