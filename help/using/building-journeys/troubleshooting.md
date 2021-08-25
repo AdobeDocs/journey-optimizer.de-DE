@@ -2,13 +2,13 @@
 title: Fehlerbehebung bei Journeys
 description: Erfahren Sie, wie Sie Probleme bei Journey beheben können
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
 * Enthält die Payload des Ereignisses eine Ereignis-ID?
 * Haben Sie die richtige URL aufgerufen?
 * Haben Sie die Payload-Struktur der Streaming-Aufnahme-APIs mithilfe der Payload-Strukturvorschau im Ereigniskonfigurationsbereich beachtet? Weitere Informationen finden Sie auf [dieser Seite](../event/about-creating.md#preview-the-payload).
-* Haben Sie in der Kopfzeile die richtigen Schlüssel/Wert-Paare Ihres Ereignisses verwendet?
+* Haben Sie die richtigen Schlüssel-Wert-Paare in der Kopfzeile Ihres Ereignisses verwendet?
 
    ```
    X-gw-ims-org-id - your ORGID
