@@ -1,9 +1,9 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '966'
 ht-degree: 38%
 
 ---
@@ -79,7 +79,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tr>
 <td>
 <p>Sie können jetzt den Wiederholungszeitraum pro Voreinstellung definieren, um sicherzustellen, dass Wiederholungsversuche nicht mehr ausgeführt werden, wenn sie nicht mehr benötigt werden. Beispielsweise können Sie die Wiederholungsdauer für eine Transaktionsnachricht zum Zurücksetzen des Kennworts, die einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Beachten Sie, dass Wiederholungseinstellungen nur für den E-Mail-Kanal gelten.</p>
-<p>Weitere Informationen finden Sie in der <a href="configuration/retries.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="configuration/retries.md#retry-duration">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -110,7 +110,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * **Dynamische Header**  - Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade**  - Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
-* Die Gesamtdrosselungsrate für Lesesegmente wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Die Gesamtdrosselungsrate für Lesesegmente wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Benutzeroberfläche**
 
@@ -122,9 +122,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 * **Hintergrund**  - Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](preview.md)
 * **Ein-Klick-Ausschluss-Link**  - Sie können einen neuen Link-Typ in Ihren E-Mail-Inhalt einfügen: Mit dem  **Opt-** out-Link können sich Benutzer von der Anmeldung für Ihre Nachrichten mit nur einem Klick abmelden, ohne zu einer Landingpage weitergeleitet zu werden, um die Abmeldung zu bestätigen. [Weitere Informationen](message-tracking.md#one-click-opt-out-link)
 
-**Personalisierung**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **E-Mail-Konfiguration**
 
