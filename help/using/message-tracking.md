@@ -1,14 +1,14 @@
 ---
 title: Verfolgen von Nachrichten
 description: Erfahren Sie, wie Sie Links hinzufügen und gesendete Nachrichten verfolgen können.
-feature: Überwachung
-topic: Content-Management
+feature: Monitoring
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking auf Nachrichtenebene aktivieren, indem Sie die Optionen **[!UICONTROL Tracking der Öffnungen bei E-Mails]** und/oder **[!UICONTROL Tracking der Klicks bei E-Mails]** beim [Erstellen Ihrer Nachricht](create-message.md) markieren.
+Sie können das Tracking auf E-Mail-Meldungsebene aktivieren, indem Sie die Optionen **[!UICONTROL Tracking für E-Mail öffnen]** und/oder **[!UICONTROL Klick-Tracking für E-Mail]** aktivieren, wenn [Ihre Nachricht erstellen](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -52,9 +52,11 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#mirror-page).
 
+   * **[!UICONTROL Opt-out]**: Fügen Sie einen Link ein, über den sich Benutzer schnell von Ihrer Nachricht abmelden können, ohne sich abmelden zu müssen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#one-click-opt-out-link).
+
    ![](assets/message-tracking-links.png)
 
-1. Sie können Ihre Links personalisieren, indem Sie nur einen einfachen Ausdruck verwenden. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalization-syntax.md).
+1. Sie können Ihre Links personalisieren. Weitere Informationen zu personalisierten URLs finden Sie in [diesem Abschnitt](personalization/personalization-syntax.md).
 
 1. Speichern Sie Ihre Änderungen.
 
@@ -86,6 +88,32 @@ Wenn die Empfänger nach dem Versand der E-Mail auf den Mirrorseiten-Link klicke
 >Im [Testversand](preview.md#send-proofs) an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
 Die Aufbewahrungsfrist für eine Mirrorseite beträgt 60 Tage. Nach dieser Frist ist die Mirrorseite nicht mehr verfügbar.
+
+## Ausschluss-Link mit einem Klick {#one-click-opt-out-link}
+
+Damit sich Ihre Empfänger schnell vom Erhalt von Nachrichten Ihrer Marke abmelden können, können Sie einen Ausschluss-Link mit einem Klick in Ihren E-Mail-Inhalt einfügen. Diese Kapazität verhindert, dass Benutzer zu einer Landingpage weitergeleitet werden, auf der sie ihre Auswahl bestätigen müssen, was den Abmeldevorgang beschleunigt.
+
+Gehen Sie wie folgt vor, um Ihrer E-Mail einen Ausschluss-Link hinzuzufügen.
+
+1. [Fügen Sie einen ](#insert-links) Link ein und wählen Sie  **[!UICONTROL Opt-]** out als Link-Typ aus.
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. Wählen Sie aus, wie Sie die Abmeldung anwenden möchten: auf Kanal-, Identitäts- oder Abonnementebene.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Kanal]**: Die Abmeldung gilt für künftige Nachrichten, die an die Zielgruppe des Profils (d. h. die E-Mail-Adresse) für den aktuellen Kanal gesendet werden. Wenn einem Profil mehrere Zielgruppen zugeordnet sind, gilt der Opt-out für alle Zielgruppen (d. h. E-Mail-Adressen) im Profil für diesen Kanal.
+   * **[!UICONTROL Identität]**: Die Abmeldung gilt für künftige Nachrichten, die an die für die aktuelle Nachricht verwendete spezifische Zielgruppe (d. h. die E-Mail-Adresse) gesendet werden.
+   * **[!UICONTROL Anmeldung]**: Die Abmeldung gilt für künftige Nachrichten, die einer bestimmten Abonnementliste zugeordnet sind. Diese Option kann nur ausgewählt werden, wenn die aktuelle Nachricht einer Abonnementliste zugeordnet ist.
+
+1. Geben Sie die URL der Landingpage ein, zu der der Benutzer weitergeleitet wird, sobald er sich abgemeldet hat. Auf dieser Seite können Sie nur bestätigen, dass die Abmeldung erfolgreich war.
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Wenn ein Empfänger nach dem Versand Ihrer Nachricht auf den Abmelde-Link klickt, wird er sofort abgemeldet.
 
 ## Tracking verwalten {#manage-tracking}
 
