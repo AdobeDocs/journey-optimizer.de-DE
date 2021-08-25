@@ -1,14 +1,14 @@
 ---
 title: Personalisierte Angebote erstellen
 description: Hier erfahren Sie, wie Sie in Adobe Experience Platform personalisierte Angebote erstellen.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 100%
+source-wordcount: '1223'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    >[!NOTE]
    >
-   >Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie für Berichterstellungs- und Analysezwecke Schlüsselwertpaare mit dem Angebot verknüpfen.
+   >Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie Schlüssel-Wert-Paare mit dem Angebot zu Berichts- und Analysezwecken verknüpfen.
 
 ## Darstellungen des Angebots konfigurieren {#representations}
 
