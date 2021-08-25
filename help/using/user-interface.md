@@ -1,14 +1,14 @@
 ---
 title: Benutzeroberfläche
 description: Benutzeroberfläche von Journey Optimizer
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 74%
 
 ---
 
@@ -85,6 +85,9 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## Produktinterne Anwendungsfälle
 
@@ -94,7 +97,7 @@ Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Start
 
 Verfügbare Anwendungsfälle:
 
-* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie dieses Anwendungsbeispiel implementieren.
+* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. Erfahren Sie, wie Sie dieses Anwendungsbeispiel [auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) implementieren.
 * **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
 * **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
@@ -104,6 +107,139 @@ Klicken Sie auf **[!UICONTROL Details anzeigen]**, um mehr über jeden Anwendung
 Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]**, um den Anwendungsfall zu starten.
 
 Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzeigen]** auf ausgeführte Anwendungsfälle zugreifen.
+
+## Barrierefreiheit{#accessibility}
+
+Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe Experience Platform bereitgestellt:
+
+* Tastaturzugriff
+* Farbkontrast
+* Validierung erforderlicher Felder
+
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+
+Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
+
+| Aktion | Tastaturbefehl |
+| --- | --- |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tab |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umsch+Tab |
+| Verschieben innerhalb von Abschnitten zum Festlegen des Fokus auf einzelne Elemente | Pfeil |
+| Element im Fokus auswählen oder löschen | Eingabe oder Leertaste |
+| Abbrechen einer Auswahl, Reduzieren eines Bedienfelds oder Schließen eines Dialogfelds | Esc |
+
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+
+Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
+
+<table>
+  <thead>
+    <tr>
+      <th>Schnittstellenelement</th>
+      <th>Aktion</th>
+      <th>Tastaturbefehl</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Liste der Journey, Aktionen, Datenquellen oder Ereignisse</td>
+    <td>Journey, Aktion, Datenquelle oder Ereignis erstellen</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Journey-Arbeitsfläche im Entwurfsstatus</td>
+    <td>Aktivität von oben nach unten in der linken Palette an der ersten verfügbaren Position hinzufügen</td>
+    <td>Doppelklicken Sie auf die Aktivität</td>
+  </tr>
+  <tr>
+    <td>Alle Aktivitäten auswählen</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Ausgewählte Aktivitäten löschen</td>
+    <td>Löschen oder Rücktaste und anschließende Eingabe zur Bestätigung des Löschvorgangs</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+Konfigurationsbereich dieser Elemente:
+
+<ul>
+  <li>Aktivität in einer Journey</li>
+  <li>Ereignis</li>
+  <li>Datenquelle</li>
+  <li>Aktion</li>
+</ul>
+
+</td>
+    <td>Zum nächsten zu konfigurierenden Feld wechseln</td>
+    <td>Registerkarte</td>
+  </tr>
+  <tr>
+    <td>Speichern Sie die Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Geben Sie  ein</td>
+  </tr>
+  <tr>
+    <td>Verwerfen Sie Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Journey im Testmodus</td>
+    <td>Testmodus aktivieren oder deaktivieren</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Trigger eines Ereignisses in einer ereignisbasierten Journey</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option **[!UICONTROL Einzelprofil gleichzeitig]** aktiviert ist
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Testprotokolle anzeigen</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Textfeld</td>
+    <td>Gesamten Text im ausgewählten Feld auswählen</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Popup-Fenster</td>
+    <td>Änderungen speichern oder die Aktion bestätigen</td>
+    <td>Geben Sie  ein</td>
+  </tr>
+  <tr>
+    <td>Fenster schließen</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Einfacher Ausdruckseditor</td>
+    <td>Feld auswählen und hinzufügen</td>
+    <td>Doppelklicken Sie auf ein Feld</td>
+  </tr>
+  <tr>
+    <td>Durchsuchen von XDM-Feldern</td>
+    <td>Auswählen aller Felder eines Knotens</td>
+    <td>Auswählen des übergeordneten Knotens</td>
+  </tr>
+  <tr>
+    <td>Payload-Vorschau</td>
+    <td>Auswählen der Payload</td>
+    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+  </tr>
+</table>
 
 ## Hilfe und Support
 
@@ -135,16 +271,17 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
    ![](assets/select-language.png)
 
-## Durchsuchen
+## Durchsuchen{#unified-search}
 
-Von der gesamten Oberfläche von Adobe Journey Optimizer aus können Sie die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys oder Nachrichten in allen Ihren Sandboxes zu finden. Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen.
+Nutzen Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Suchfunktion Unified Adobe Experience Cloud in der oberen Leiste, um Assets, Journey, Datensätze, Nachrichten und mehr in Ihren Sandboxes zu finden.
+
+Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. Hilfe-Artikel über die eingegebenen Suchbegriffe werden auch in den Ergebnissen angezeigt.
 
 ![](assets/unified-search.png)
 
-Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse und Filter zuzugreifen.
+Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach Geschäftsobjekt zu filtern.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filterlisten{#section_lgm_hpz_pgb}
 
