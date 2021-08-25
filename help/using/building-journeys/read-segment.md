@@ -2,12 +2,12 @@
 title: Segment in einer Journey verwenden
 description: Erfahren Sie, wie Sie ein Segment in einer Journey verwenden können
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1036'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    >[!NOTE]
    >
-   >Die Gesamteinschränkungsrate pro Sandbox ist auf 17.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 17.000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
+   >Die Gesamteinschränkungsrate pro Sandbox ist auf 20,000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 20,000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
