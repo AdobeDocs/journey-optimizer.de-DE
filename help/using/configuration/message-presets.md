@@ -1,14 +1,14 @@
 ---
 title: Erstellen von Nachrichtenvorgaben
 description: Erfahren Sie, wie Sie Nachrichtenvorgaben konfigurieren und überwachen
-feature: Anwendungskonfiguration
+feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '1246'
+ht-degree: 70%
 
 ---
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren von **E-Mail**-Einstellungen.
+1. Konfigurieren Sie die Einstellungen **email** .
 
    ![](../assets/preset-email.png)
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
 
    * Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
    * Wählen Sie den IP-Pool aus, der mit der Vorgabe verknüpft werden soll. [Weitere Informationen](ip-pools.md)
-   * Geben Sie die Header-Parameter für die mit der Vorgabe gesendeten E-Mails ein.
+   * Geben Sie die Header-Parameter für die mit dieser Vorgabe gesendeten E-Mails ein.
 
       >[!CAUTION]
       >
@@ -80,8 +80,17 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
       >
       >Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
+   * Konfigurieren Sie die **E-Mail-Neuversuch-Parameter**. Standardmäßig ist der [Zeitraum für erneute Versuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
 
-1. Konfigurieren der Einstellungen für **Push-Benachrichtigungen**.
+      ![](../assets/preset-retry-paramaters.png)
+
+      Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folgenden Bereichs eingeben:
+      * Für den Marketing-E-Mail-Typ beträgt die Wiederholungsdauer mindestens 6 Stunden.
+      * Für den Transaktions-E-Mail-Typ beträgt die Wiederholungsdauer mindestens 10 Minuten.
+      * Für beide E-Mail-Typen beträgt der maximale Wiederholungszeitraum 84 Stunden (oder 5040 Minuten).
+
+
+1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigung**.
 
    ![](../assets/preset-push.png)
 
@@ -109,13 +118,17 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu erstellen:
    * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
 
+   >[!NOTE]
+   >
+   >Wenn die Prüfungen nicht erfolgreich sind, erfahren Sie mehr über die möglichen Fehlerursachen in [diesem Abschnitt](#monitor-message-presets).
+
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## Überwachen von Nachrichtenvorgaben
+## Überwachen von Nachrichtenvorgaben {#monitor-message-presets}
 
 Alle Ihre Nachrichtenvorgaben werden im Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Nachrichtenvorgaben]** angezeigt. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
@@ -128,6 +141,24 @@ Nachrichtenvorgaben können die folgenden Status aufweisen:
 * **[!UICONTROL Aktiv]**: Die Nachrichtenvorgabe wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvorgabe fehlgeschlagen.
 * **[!UICONTROL Deaktiviert]**: Die Nachrichtenvorgabe ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
+
+Wenn die Erstellung einer Nachrichtenvorgabe fehlschlägt, werden die Details zu den möglichen Fehlerursachen nachfolgend beschrieben.
+
+Wenn einer dieser Fehler auftritt, wenden Sie sich an das [Adobe-Support-Team der Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
+
+* **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können.
+SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die Postfachanbieter verwendet werden.
+
+* **DKIM-Validierung fehlgeschlagen**: Mit DKIM kann der Empfängerserver überprüfen, ob die empfangene Nachricht vom echten Absender der zugehörigen Domain gesendet wurde und ob der Inhalt der ursprünglichen Nachricht nicht auf dem Weg verändert wurde.
+DKIM-Validierungsfehler bedeutet, dass die Empfangs-Mail-Server die Authentizität des Nachrichteninhalts und dessen Zuordnung zur Versanddomäne nicht überprüfen können.
+
+* **MX-Datensatzvalidierung fehlgeschlagen**: MX-Datensatz-Validierungsfehler bedeutet, dass die E-Mail-Server, die für die Annahme eingehender E-Mails im Namen einer bestimmten Subdomain verantwortlich sind, nicht korrekt konfiguriert sind.
+
+* **Zustellbarkeitskonfigurationen fehlgeschlagen**: Zustellbarkeitskonfigurationen können aus einem der folgenden Gründe fehlschlagen:
+   * Blockierungsauflistung der zugewiesenen IPs
+   * Ungültiger `helo`-Name
+   * E-Mails, die von anderen als den im IP-Pool der entsprechenden Vorgabe angegebenen IPs gesendet werden
+   * E-Mails können nicht an Postfächer wichtiger ISPs wie Gmail und Yahoo gesendet werden
 
 ## Bearbeiten von Nachrichtenvorgaben
 
@@ -147,7 +178,7 @@ Um eine Nachrichtenvorgabe zu bearbeiten, müssen Sie sie zunächst deaktivieren
 
    >[!NOTE]
    >
-   >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
+   >Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journey zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
 
 ## Anleitungsvideo{#video-presets}
 
