@@ -1,14 +1,14 @@
 ---
 title: Zulassungsliste
 description: Erfahren Sie, wie Sie die Zulassungsliste verwenden.
-feature: Zustellbarkeit
-topic: Content-Management
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 86%
+source-wordcount: '564'
+ht-degree: 57%
 
 ---
 
@@ -24,18 +24,17 @@ Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angebe
 
 ## Zulassungsliste aktivieren {#enable-allow-list}
 
-Um diese Funktion in einer Nicht-Produktions-Sandbox zu aktivieren, aktualisieren Sie die Zulassungsliste, sodass sie nicht mehr leer ist. Um sie zu deaktivieren, löschen Sie die Zulassungsliste so, dass sie wieder leer ist.
+Um die Zulassungsliste in einer Nicht-Produktions-Sandbox zu aktivieren, müssen Sie die allgemeinen Einstellungen mithilfe des entsprechenden API-Endpunkts im Nachrichtenvorgaben-Dienst aktualisieren.
 
-Weitere Informationen zur Logik der Zulassungsliste finden Sie in [diesem Abschnitt](#logic).
+* Mit dieser API können Sie die Funktion auch jederzeit deaktivieren.
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* Sie können die Zulassungsliste vor oder nach der Aktivierung der Funktion aktualisieren.
 
-* Using this API, you can also disable the feature at any time.
+* Die Logik der Zulassungsliste gilt, wenn die Funktion **und** aktiviert ist, wenn die Zulassungsliste **nicht** leer ist. Weiterführende Informationen finden Sie in diesem [Abschnitt](#logic).
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 >
 >Die Zulassungsliste kann bis zu 1.000 Einträge enthalten.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Logik der Zulassungsliste {#logic}
 
@@ -68,6 +69,31 @@ Wenn die Zulassungsliste **nicht leer** ist, wird die Logik der Zulassungsliste 
 
 * Wenn eine Entität **auf der Zulassungsliste** und nicht auf der Unterdrückungsliste steht, kann die E-Mail an den entsprechenden Empfänger gesendet werden. Wenn sich die Entität jedoch auch auf der [Unterdrückungsliste](suppression-list.md) befindet, erhält der entsprechende Empfänger die E-Mail nicht. Der Grund lautet **[!UICONTROL Unterdrückt]**.
 
+>[!NOTE]
+>
+>Die Profile mit dem Status **[!UICONTROL Nicht erlaubt]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](building-journeys/read-segment.md) und [Nachricht](building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>
+>Erfahren Sie mehr über den [Live-Bericht](reports/live-report.md) und den [globalen Bericht](reports/global-report.md).
 
+## Ausschlussberichte {#reporting}
 
+Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie E-Mail-Adressen oder Domänen abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) verwenden, um die folgenden API-Aufrufe durchzuführen.
+
+Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+Verwenden Sie die folgende Abfrage, um die **Liste der E-Mail-Adressen** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
