@@ -5,10 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 57%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -77,7 +77,7 @@ Wenn die Zulassungsliste **nicht leer** ist, wird die Logik der Zulassungsliste 
 
 ## Ausschlussberichte {#reporting}
 
-Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie E-Mail-Adressen oder Domänen abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) verwenden, um die folgenden API-Aufrufe durchzuführen.
+Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie E-Mail-Adressen oder Domänen abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 
