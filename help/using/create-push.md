@@ -1,14 +1,14 @@
 ---
 title: Konfigurieren einer Push-Benachrichtigung
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Push-Benachrichtigung erstellen
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine ve
 
 Wählen Sie die Option **[!UICONTROL Stille Benachrichtigung]** aus, um die Mobile App im Hintergrund zu benachrichtigen. In diesem Fall wird die Benachrichtigung direkt auf die Mobile App übertragen. Auf dem Bildschirm des Geräts wird dabei kein Warnhinweis angezeigt.
 
-Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlüssel/Wert-Paare hinzuzufügen.
+Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** , um Schlüssel-Wert-Paare hinzuzufügen.
 
 ## Benutzerspezifische Daten
 
