@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '701'
 ht-degree: 74%
 
 ---
@@ -55,7 +55,7 @@ Für jede Adresse werden der wesentliche Grund für die Unterdrückung und die U
 >
 >Die Profile mit dem Status **[!UICONTROL Unterdrückt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](building-journeys/read-segment.md) und [Nachricht](building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über den [Live-Bericht](reports/live-report.md) und den [globalen Bericht](reports/global-report.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) verwenden.
+>Erfahren Sie mehr über den [Live-Bericht](reports/live-report.md) und den [globalen Bericht](reports/global-report.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} verwenden.
 
 ### Versandfehler {#delivery-failures}
 
