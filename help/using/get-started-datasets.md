@@ -1,12 +1,11 @@
 ---
 title: Erste Schritte mit Datensätzen
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adobe Journey Optimizer verwenden.
-feature: Datensätze
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
