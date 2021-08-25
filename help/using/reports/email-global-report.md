@@ -2,13 +2,13 @@
 title: Globaler E-Mail-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem globalen E-Mail-Bericht verwenden.
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 86%
 
 ---
 
@@ -90,4 +90,8 @@ Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche
 
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
 
-
+>[!NOTE]
+>
+>Die Profile mit dem Status **[!UICONTROL Unterdrückt]** oder **[!UICONTROL Nicht erlaubt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](../building-journeys/read-segment.md) und [Nachricht](../building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>
+>Erfahren Sie mehr über die [Unterdrückungsliste](../suppression-list.md) und die [Zulassungsliste](../allow-list.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) verwenden.
