@@ -1,10 +1,10 @@
 ---
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 932a95691e80267a581072b3fa0b81ad108117a3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 52%
+ht-degree: 50%
 
 ---
 
