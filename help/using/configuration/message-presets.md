@@ -5,7 +5,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 70%
@@ -146,11 +146,9 @@ Wenn die Erstellung einer Nachrichtenvorgabe fehlschlägt, werden die Details zu
 
 Wenn einer dieser Fehler auftritt, wenden Sie sich an das [Adobe-Support-Team der Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
-* **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können.
-SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die Postfachanbieter verwendet werden.
+* **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die Postfachanbieter verwendet werden.
 
-* **DKIM-Validierung fehlgeschlagen**: Mit DKIM kann der Empfängerserver überprüfen, ob die empfangene Nachricht vom echten Absender der zugehörigen Domain gesendet wurde und ob der Inhalt der ursprünglichen Nachricht nicht auf dem Weg verändert wurde.
-DKIM-Validierungsfehler bedeutet, dass die Empfangs-Mail-Server die Authentizität des Nachrichteninhalts und dessen Zuordnung zur Versanddomäne nicht überprüfen können.
+* **DKIM-Validierung fehlgeschlagen**: Mit DKIM kann der Empfängerserver überprüfen, ob die empfangene Nachricht vom echten Absender der zugehörigen Domain gesendet wurde und ob der Inhalt der ursprünglichen Nachricht nicht auf dem Weg verändert wurde. DKIM-Validierungsfehler bedeutet, dass die Empfangs-Mail-Server die Authentizität des Nachrichteninhalts und dessen Zuordnung zur Versanddomäne nicht überprüfen können.
 
 * **MX-Datensatzvalidierung fehlgeschlagen**: MX-Datensatz-Validierungsfehler bedeutet, dass die E-Mail-Server, die für die Annahme eingehender E-Mails im Namen einer bestimmten Subdomain verantwortlich sind, nicht korrekt konfiguriert sind.
 
