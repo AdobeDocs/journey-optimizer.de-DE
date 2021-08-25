@@ -5,10 +5,10 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -72,14 +72,14 @@ Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definier
 
 In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen nutzen:
 
-* beim Konfigurieren eines unitären Ereignisses – [weitere Informationen](../event/experience-event-schema.md#unitary_event_configuration)
+* beim Konfigurieren eines geschäftlichen oder einheitlichen Ereignisses [mehr dazu](../event/experience-event-schema.md#unitary_event_configuration)
 * bei Verwendung von Bedingungen in einer Journey – [weitere Informationen](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * in der Personalisierung von Nachrichten – [weitere Informationen](../event/experience-event-schema.md#message_personalization)
 * in der Personalisierung benutzerdefinierter Aktionen – [weitere Informationen](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Konfiguration eines unitären Ereignisses{#unitary_event_configuration}
+### Ereigniskonfiguration{#unitary_event_configuration}
 
-Die verknüpften Schemafelder sind in der Konfiguration eines unitären Ereignisses verfügbar:
+Die verknüpften Schemafelder sind in der Konfiguration von Einzelereignissen und Geschäftsereignissen verfügbar:
 
 * beim Durchsuchen der Ereignisschemafelder im Bildschirm zur Ereigniskonfiguration
 * beim Definieren einer Bedingung für systemgenerierte Ereignisse
@@ -90,7 +90,6 @@ Die verknüpften Felder sind nicht verfügbar:
 
 * in der Ereignisschlüsselformel
 * in einer Ereignis-ID-Bedingung (regelbasierte Ereignisse)
-* bei Geschäftsereignissen (später verfügbar)
 
 Informationen zum Konfigurieren eines unitären Ereignisses finden Sie auf dieser [Seite](../event/about-creating.md).
 
