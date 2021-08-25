@@ -1,14 +1,14 @@
 ---
 title: Unterdrückungsliste
 description: Erfahren Sie, was die Unterdrückungsliste ist, welchen Zweck sie hat und was darin enthalten ist.
-feature: Zustellbarkeit
-topic: Content-Management
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
@@ -36,9 +36,11 @@ E-Mail-Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
 
 * Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden E-Mail-Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste.
 
-* **Softbounces** und vorübergehende, **ignorierte** Fehler senden eine E-Mail-Adresse nicht sofort an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Anschließend werden mehrere weitere Zustellversuche unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt. Erfahren Sie mehr über [weitere Zustellversuche](configuration/retries.md).
+* **Softbounces**<!--and temporary **ignored** errors--> senden eine E-Mail-Adresse nicht sofort an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Anschließend werden mehrere [weitere Zustellversuche](configuration/retries.md) durchgeführt. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* Sie können auch [**manuell** eine Adresse oder eine Domäne](configuration/manage-suppression-list.md#add-addresses-and-domains) zur Unterdrückungsliste hinzufügen.
+
+Weitere Informationen zu Hardbounces und Softbounces finden Sie in [diesem Abschnitt](#delivery-failures).
 
 >[!NOTE]
 >
@@ -49,17 +51,23 @@ Für jede Adresse werden der wesentliche Grund für die Unterdrückung und die U
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>Die Profile mit dem Status **[!UICONTROL Unterdrückt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](building-journeys/read-segment.md) und [Nachricht](building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>
+>Erfahren Sie mehr über den [Live-Bericht](reports/live-report.md) und den [globalen Bericht](reports/global-report.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) verwenden.
+
 ### Versandfehler {#delivery-failures}
 
-Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
+Wenn ein Versand fehlschlägt, gibt es zwei Typen von Fehlern:
 
-* **Hardbounce**. Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies umfasst eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist, z. B. „Nutzer unbekannt“.
+* **Hardbounce**. Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies umfasst eine Bounce-Nachricht vom E-Mail-Empfangs-Server, die explizit angibt, dass die Adresse ungültig ist.
 * **Softbounce**. Dies ist ein temporärer E-Mail-Bounce, der bei einer gültige E-Mail-Adresse aufgetreten ist.
-* **Ignoriert**. Dies ist ein E-Mail-Bounce, der bei einer gültigen E-Mail-Adresse aufgetreten ist, aber bekanntermaßen vorübergehend ist, z. B. ein fehlgeschlagener Verbindungsversuch, ein vorübergehendes Spam-Problem (E-Mail-Reputation) oder ein vorübergehendes technisches Problem.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 Ein **Hardbounce** fügt die E-Mail-Adresse automatisch zur Unterdrückungsliste hinzu.
 
-Ein **Softbounce** oder ein **ignorierter** Fehler, der zu oft auftritt, sendet die E-Mail-Adresse nach mehreren weiteren Zustellversuchen ebenfalls an die Unterdrückungsliste. [Erfahren Sie mehr über weitere Zustellversuche](configuration/retries.md)
+Ein **Softbounce** <!--or an **ignored** error-->, der zu oft auftritt, sendet auch die E-Mail-Adresse nach mehreren weiteren Versuchen an die Unterdrückungsliste. [Erfahren Sie mehr über weitere Zustellversuche](configuration/retries.md)
 
 Wenn Sie weiterhin an diese Adressen senden, kann sich dies auf Ihre Versandraten auswirken, da es den ISPs mitteilt, dass Sie möglicherweise die Best Practices zur Wartung von E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Versender sind.
 
