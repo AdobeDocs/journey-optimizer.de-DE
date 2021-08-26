@@ -1,13 +1,13 @@
 ---
 title: Erste Schritte mit dem Exportieren eines Angebotskatalogs
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Entscheidungen verwendet werden.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1554'
 ht-degree: 100%
 
 ---

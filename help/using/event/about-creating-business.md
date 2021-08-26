@@ -1,13 +1,13 @@
 ---
 title: Konfigurieren eines Geschäftsereignisses
 description: Erfahren Sie, wie Sie ein Geschäftsereignis erstellen
-feature: Ereignisse
+feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '852'
 ht-degree: 100%
 
 ---

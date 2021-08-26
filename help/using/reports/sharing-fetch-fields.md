@@ -2,12 +2,12 @@
 title: Datenabruffelder für journeyStep-Ereignisse
 description: Datenabruffelder für journeyStep-Ereignisse
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 100%
 
 ---

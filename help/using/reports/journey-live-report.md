@@ -2,12 +2,12 @@
 title: Journey-Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 100%
 
 ---

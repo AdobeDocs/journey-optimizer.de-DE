@@ -1,13 +1,13 @@
 ---
 title: Verwenden von Inhaltskomponenten von Email Designer
 description: Erfahren Sie, wie Sie Inhaltskomponenten in Ihren E-Mails verwenden
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1114'
 ht-degree: 100%
 
 ---

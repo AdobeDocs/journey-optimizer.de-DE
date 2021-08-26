@@ -1,13 +1,13 @@
 ---
 title: Helper
 description: Helper
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '325'
 ht-degree: 100%
 
 ---

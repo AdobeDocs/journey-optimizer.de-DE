@@ -2,12 +2,12 @@
 title: Nachrichtenvorschau und Testversand
 description: Erfahren Sie, wie Sie Ihre Nachrichten in der Vorschau darstellen und testen können
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '962'
 ht-degree: 100%
 
 ---

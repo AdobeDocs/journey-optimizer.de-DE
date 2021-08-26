@@ -2,12 +2,12 @@
 title: Hinzufügen personalisierter Angebote
 description: Erfahren Sie, wie Sie Ihren Nachrichten personalisierte Angebote hinzufügen
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 1f93158f89e7e05e8e7978960f09cc7e1d4cdc7a
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '536'
 ht-degree: 98%
 
 ---

@@ -3,12 +3,12 @@ solution: Journey Orchestration
 title: Allgemeine Ereignisse
 description: Erfahren Sie, wie Sie allgemeine Ereignisse verwenden
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '368'
 ht-degree: 100%
 
 ---

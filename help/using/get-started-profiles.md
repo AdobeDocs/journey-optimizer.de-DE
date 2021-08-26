@@ -1,12 +1,12 @@
 ---
 title: Erste Schritte mit Profilen in Journey Optimizer
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Profile erstellen und verwalten.
-feature: Profile
+feature: Profiles
 role: User
 level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '246'
 ht-degree: 100%
 
 ---

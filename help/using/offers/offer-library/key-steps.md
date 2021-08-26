@@ -1,13 +1,13 @@
 ---
 title: Wichtige Schritte zum Erstellen eines Angebots
 description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---

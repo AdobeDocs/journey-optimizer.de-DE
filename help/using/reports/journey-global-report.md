@@ -2,12 +2,12 @@
 title: Globaler Bericht zur Journey
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zur Journey verwenden
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 100%
 
 ---

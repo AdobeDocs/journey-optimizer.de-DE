@@ -1,13 +1,13 @@
 ---
 title: Datensatz für personalisierte Angebote
 description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Angebote verwendet werden.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2008'
 ht-degree: 100%
 
 ---

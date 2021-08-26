@@ -2,12 +2,12 @@
 title: Endaktivität
 description: Erfahren Sie, wie Sie die Endaktivität verwenden.
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---

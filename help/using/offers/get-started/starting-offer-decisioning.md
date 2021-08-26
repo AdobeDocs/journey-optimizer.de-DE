@@ -1,13 +1,13 @@
 ---
 title: Erste Schritte mit Entscheidungs-Management
 description: Erste Schritte mit Entscheidungs-Management Erfahren Sie mehr über die Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
 source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '808'
 ht-degree: 100%
 
 ---

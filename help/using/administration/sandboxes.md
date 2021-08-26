@@ -1,13 +1,13 @@
 ---
 title: Sandbox-Verwaltung
 description: Informationen zur Verwaltung von Sandboxes
-feature: Kontrollgruppen
+feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Senden einer Nachricht mit Campaign v7/v8
 description: Erfahren Sie, wie Sie mit Campaign v7/v8 eine Nachricht senden.
-feature: Aktionen
+feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---

@@ -3,13 +3,13 @@ title: Zuweisen von Subdomains
 description: Informationen zum Zuweisen Ihrer Subdomains
 internal: n
 snippet: y
-feature: Anwendungskonfiguration
+feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---

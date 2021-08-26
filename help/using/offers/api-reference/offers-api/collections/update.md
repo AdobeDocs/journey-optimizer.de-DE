@@ -1,13 +1,13 @@
 ---
 title: Kollektionen aktualisieren
 description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---

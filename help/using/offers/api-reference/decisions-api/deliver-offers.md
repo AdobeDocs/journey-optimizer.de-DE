@@ -1,13 +1,13 @@
 ---
 title: Angebote bereitstellen
 description: Entscheidungs-Management ist eine Sammlung von Services und Benutzeroberflächenprogrammen, mit denen Marketing-Experten personalisierte Angebotserlebnisse für Endbenutzer erstellen und bereitstellen können – über verschiedene Kanäle und Anwendungen hinweg und unter Verwendung von Business-Logik und Entscheidungsregeln.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '937'
 ht-degree: 100%
 
 ---

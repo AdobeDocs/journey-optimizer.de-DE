@@ -2,12 +2,12 @@
 title: Live-Bericht zu Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Daten aus dem Live-Bericht zu Push-Benachrichtigungen verwenden
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---

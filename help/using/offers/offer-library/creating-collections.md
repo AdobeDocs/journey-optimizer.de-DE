@@ -1,13 +1,13 @@
 ---
 title: Kollektionen erstellen
 description: Erfahren Sie, wie Sie Angebote mithilfe von Kollektionen organisieren.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---

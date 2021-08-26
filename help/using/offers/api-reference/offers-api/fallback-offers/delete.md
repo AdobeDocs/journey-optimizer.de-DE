@@ -1,13 +1,13 @@
 ---
 title: Fallback-Angebot löschen
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '153'
 ht-degree: 100%
 
 ---

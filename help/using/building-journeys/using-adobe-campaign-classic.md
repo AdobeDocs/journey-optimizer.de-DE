@@ -1,13 +1,13 @@
 ---
 title: Aktionen in Adobe Campaign v7/v8
 description: Erfahren Sie mehr über Aktionen in Adobe Campaign v7/v8
-feature: Aktionen
+feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---

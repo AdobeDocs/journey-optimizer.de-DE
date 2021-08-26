@@ -1,13 +1,13 @@
 ---
 title: Tags löschen
 description: Mit Tags können Sie Ihre Angebote besser organisieren und sortieren.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Rangfolgeformeln erstellen
 description: Erfahren Sie, wie Sie Rangfolgeformeln in Adobe Experience Platform erstellen.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Entscheidungen auflisten
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---

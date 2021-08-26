@@ -2,12 +2,12 @@
 title: Übersicht über die Freigabe von Journey-Schritten
 description: Übersicht über die Freigabe von Journey-Schritten
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---

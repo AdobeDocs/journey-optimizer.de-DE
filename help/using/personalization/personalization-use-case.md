@@ -1,19 +1,19 @@
 ---
 title: Anwendungsfall für Personalisierung&colon Benachrichtigung zum Bestellstatus
 description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebotsentscheidungs- und Kontextinformationen personalisieren.
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 99%
 
 ---
 
 
-# Anwendungsfall für Personalisierung: Benachrichtigung zum Bestellstatus {#personalization-use-case}
+# Anwendungsfall: Personalisierung Bestellstatus-Benachrichtigung {#personalization-use-case}
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 

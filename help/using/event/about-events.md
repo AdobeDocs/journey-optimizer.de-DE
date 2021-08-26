@@ -1,13 +1,13 @@
 ---
 title: Informationen zu Ereignissen
 description: Erfahren Sie mehr über Ereignisse.
-feature: Ereignisse
+feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 100%
 
 ---

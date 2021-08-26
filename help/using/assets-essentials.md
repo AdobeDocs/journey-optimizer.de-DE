@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Erste Schritte mit Assets Essentials
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 5%
 
 ---

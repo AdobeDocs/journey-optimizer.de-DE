@@ -1,13 +1,13 @@
 ---
 title: Entwerfen von E-Mails in Journey Optimizer
 description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1585'
 ht-degree: 100%
 
 ---
@@ -35,13 +35,11 @@ Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit 
 ## Von Grund auf gestalten {#design-scratch}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_structure_components"
 >title="Über Strukturkomponenten"
 >abstract="Strukturkomponenten definieren das Layout der E-Mail."
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_columns"
 >title="Definieren von E-Mail-Spalten"
 >abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
@@ -144,7 +142,6 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 ## Verwenden eines Preheaders {#preheader}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_preheader"
 >title="Verwenden eines Preheaders"
 >abstract="Mit dem Preheader können Sie einen kurzen Zusammenfassungstext konfigurieren, der Ihnen dabei hilft, Ihre E-Mails besser zu verfolgen und anzupassen."
@@ -180,7 +177,6 @@ Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 ## Hintergrundeinstellungen {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
->
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
 >abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Programmen unterstützt wird."

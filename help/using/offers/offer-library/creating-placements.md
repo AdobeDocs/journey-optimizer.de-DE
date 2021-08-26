@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Platzierungen
 description: Erfahren Sie, wie Sie Platzierungen in Adobe Experience Platform erstellen.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Bibliothek mit Zuordnungsfunktionen
 description: Bibliothek mit Zuordnungsfunktionen
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---

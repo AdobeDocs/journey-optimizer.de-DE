@@ -1,13 +1,13 @@
 ---
 title: Informationen zu Adobe Analytics-Daten
 description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
-feature: Ereignisse
-topic: Administration.
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---

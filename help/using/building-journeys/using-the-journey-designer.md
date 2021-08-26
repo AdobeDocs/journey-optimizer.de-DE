@@ -2,12 +2,12 @@
 title: Gestalten einer Journey
 description: Erfahren Sie, wie Sie Ihre Journey entwerfen
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1442'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Zugriff auf XDM-Felder von Ereignissen
 description: Erfahren Sie mehr über das DecisioningEvents-XDM-Schema.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---

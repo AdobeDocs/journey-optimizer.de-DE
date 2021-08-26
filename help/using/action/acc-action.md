@@ -1,13 +1,13 @@
 ---
 title: Integrieren mit Adobe Campaign v7/v8
 description: Erfahren Sie, wie Sie die Integration mit Adobe Campaign v7/v8 durchführen.
-feature: Aktionen
-topic: Administration.
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---

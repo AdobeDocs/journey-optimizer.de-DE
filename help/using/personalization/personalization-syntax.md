@@ -1,13 +1,13 @@
 ---
 title: Personalisierungssyntax
 description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,6 @@ In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Pr
 >[!NOTE]
 >Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-
 ## Angebote
 
 In diesem Namespace können Sie bestehende Entscheidungen referenzieren.
@@ -128,7 +127,6 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 >[!NOTE]
 >
 >Hilfsfunktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
-
 
 ## Literaltypen
 

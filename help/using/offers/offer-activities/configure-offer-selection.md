@@ -1,13 +1,13 @@
 ---
 title: Auswahl von Angeboten in Entscheidungen konfigurieren
 description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 100%
 
 ---

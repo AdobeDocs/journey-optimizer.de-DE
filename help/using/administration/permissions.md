@@ -2,13 +2,13 @@
 title: Verwalten von Benutzern und Produktprofilen
 description: Erfahren Sie, wie Sie Berechtigungen verwalten.
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Kontrollgruppen
+feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Bibliothek für Hilfsfunktionen
 description: Bibliothek für Journey Optimizer Hilfsfunktionen
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1178'
 ht-degree: 100%
 
 ---

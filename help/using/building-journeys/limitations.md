@@ -2,12 +2,12 @@
 title: Einschränkungen von Journeys
 description: Weitere Informationen zu Einschränkungen von Journeys
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---

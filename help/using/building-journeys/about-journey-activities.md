@@ -2,12 +2,12 @@
 title: Über Journey-Aktivitäten
 description: Erfahren Sie mehr über Journey-Aktivitäten
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,12 @@
 title: Globaler Bericht zu Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zu Push-Benachrichtigungen verwenden
 feature: Reporting
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '317'
 ht-degree: 100%
 
 ---

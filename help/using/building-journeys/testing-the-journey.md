@@ -2,12 +2,12 @@
 title: Testen der Journey
 description: Erfahren Sie mehr über das Testen von Journeys
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1641'
+source-wordcount: '1638'
 ht-degree: 100%
 
 ---

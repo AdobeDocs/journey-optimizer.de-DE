@@ -1,13 +1,13 @@
 ---
 title: Personalisieren von Inhalten in Journey Optimizer
 description: Erste Schritte mit der Personalisierung
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '662'
 ht-degree: 100%
 
 ---

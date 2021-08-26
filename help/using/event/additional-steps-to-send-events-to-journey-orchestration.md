@@ -1,13 +1,13 @@
 ---
 title: Zusätzliche Schritte zum Senden von Ereignissen an eine Journey
 description: Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen an eine Journey
-feature: Ereignisse
+feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---

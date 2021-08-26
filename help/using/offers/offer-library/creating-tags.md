@@ -1,13 +1,13 @@
 ---
 title: Tags erstellen
 description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---

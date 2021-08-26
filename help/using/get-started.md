@@ -1,13 +1,13 @@
 ---
 title: Journey Optimizer
 description: Erste Schritte mit Journey Optimizer
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '685'
 ht-degree: 100%
 
 ---

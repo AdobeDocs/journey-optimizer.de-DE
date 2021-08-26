@@ -3,12 +3,12 @@ title: Veröffentlichen und Ändern einer Nachricht
 description: Erfahren Sie, wie Sie Nachrichten veröffentlichen und aktualisieren
 snippet: y
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---

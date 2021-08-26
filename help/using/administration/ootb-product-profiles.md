@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-feature: Kontrollgruppen
+feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '975'
 ht-degree: 99%
 
 ---

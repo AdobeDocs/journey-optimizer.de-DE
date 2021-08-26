@@ -1,13 +1,13 @@
 ---
 title: Entscheidungen erstellen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '861'
 ht-degree: 100%
 
 ---

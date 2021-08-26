@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Platform Web SDK
 description: Mit dem Adobe Experience Platform Web SDK können Sie personalisierte Angebote abrufen und rendern, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---

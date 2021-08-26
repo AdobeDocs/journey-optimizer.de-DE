@@ -1,13 +1,13 @@
 ---
 title: Validierung der Personalisierung
 description: Erfahren Sie mehr über die Validierung der Personalisierung und wie Sie Fehler beheben können
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
 source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,10 @@ Verwenden Sie im Bildschirm **Ausdruckseditor** den Button **Validieren**, um Ih
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
 
-
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
-
 
 ## Häufige Fehler
 

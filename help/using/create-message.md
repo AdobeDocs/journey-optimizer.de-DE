@@ -1,13 +1,13 @@
 ---
 title: Erstellen einer Nachricht
 description: Erfahren Sie, wie Sie eine Nachricht erstellen
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '492'
 ht-degree: 100%
 
 ---

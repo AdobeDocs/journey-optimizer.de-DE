@@ -2,12 +2,12 @@
 title: Erste Schritte mit Journeys
 description: Erste Schritte mit Journeys
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1765'
 ht-degree: 100%
 
 ---

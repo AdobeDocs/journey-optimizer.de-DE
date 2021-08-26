@@ -1,13 +1,13 @@
 ---
 title: Informationen zu Datenquellen
 description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
-feature: Datenquellen
+feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

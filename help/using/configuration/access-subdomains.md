@@ -11,13 +11,13 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Anwendungskonfiguration
+feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---

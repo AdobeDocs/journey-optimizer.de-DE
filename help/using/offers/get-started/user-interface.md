@@ -1,13 +1,13 @@
 ---
 title: Benutzeroberfläche
 description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 100%
 
 ---

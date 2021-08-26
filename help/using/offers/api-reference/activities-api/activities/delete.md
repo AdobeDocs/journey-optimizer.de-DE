@@ -1,13 +1,13 @@
 ---
 title: Entscheidungen löschen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
-feature: Angebote
-topic: Integrationen
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---

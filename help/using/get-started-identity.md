@@ -1,12 +1,12 @@
 ---
 title: Erste Schritte mit Identitäten in Journey Optimizer
 description: Erfahren Sie, wie Sie Identitäten in Adobe Journey Optimizer verwalten.
-feature: Profile
+feature: Profiles
 role: User
 level: Beginner
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---

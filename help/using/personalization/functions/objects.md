@@ -1,13 +1,13 @@
 ---
 title: Bibliothek mit Objektfunktionen
 description: Bibliothek mit Objektfunktionen
-feature: Personalisierung
-topic: Personalisierung
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 100%
 
 ---

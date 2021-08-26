@@ -1,13 +1,13 @@
 ---
 title: Entwerfen von E-Mails
 description: Erfahren Sie, wie Sie E-Mails gestalten.
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---

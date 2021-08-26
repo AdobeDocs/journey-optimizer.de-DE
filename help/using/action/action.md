@@ -2,13 +2,13 @@
 solution: Journey Orchestration
 title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
-feature: Aktionen
+feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---

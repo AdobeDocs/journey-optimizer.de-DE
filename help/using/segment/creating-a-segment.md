@@ -2,12 +2,12 @@
 title: Erstellen eines Segments
 description: Erfahren Sie, wie Sie ein Segment erstellen
 feature: Journeys
-topic: Content-Management
+topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---

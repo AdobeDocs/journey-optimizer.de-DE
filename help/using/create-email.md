@@ -1,13 +1,13 @@
 ---
 title: Erstellen einer E-Mail
 description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen.
-feature: Übersicht
-topic: Content-Management
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
