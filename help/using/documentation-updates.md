@@ -1,10 +1,10 @@
 ---
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 50%
+source-wordcount: '426'
+ht-degree: 49%
 
 ---
 
@@ -27,6 +27,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt &quot;Bildschirmnachrichten-Vorgaben&quot;wurde mit den möglichen Ursachen für fehlgeschlagene Vorgabenerstellung und Details zu solchen Fehlern aktualisiert. [Mehr dazu](configuration/message-presets.md#monitor-message-presets)
 * Der Abschnitt zum Zeitraum für die erneute Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für die E-Mail-Wiederholung in den Nachrichtenvorgaben anpassen können. [Mehr dazu](configuration/retries.md#retry-duration)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen einmaligen Ausschluss-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](message-tracking.md#one-click-opt-out-link)
+* Der Abschnitt Subdomain delegieren wurde mit detaillierteren Informationen zum von Adobe durchgeführten Validierungsprozess aktualisiert. [Mehr dazu](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
