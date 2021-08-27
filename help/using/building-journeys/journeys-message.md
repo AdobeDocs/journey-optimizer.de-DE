@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 87%
+source-wordcount: '779'
+ht-degree: 90%
 
 ---
 
@@ -105,5 +105,4 @@ Aktivieren Sie die Optimierung des Versandzeitpunkts für eine E-Mail oder Push-
 
 Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobuttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Click-Throughs optimiert werden sollen. Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen.
 
-Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert &quot;sechs Stunden&quot;wählen, prüft [!DNL Journey Optimizer]jedes Benutzerprofil, ob die optimale Sendezeit innerhalb von sechs Stunden ab der Journey-Ausführungszeit eintritt, und wählt die für die Sendezeitoptimierung festgelegte Zeit aus. Wenn dieser Zeitpunkt nicht innerhalb der nächsten sechs Stunden liegt, sendet [!DNL Journey Optimizer] die Nachricht standardmäßig zur Journey-Ausführungszeit.
-
+Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert &quot;sechs Stunden&quot;wählen, prüft [!DNL Journey Optimizer] jedes Benutzerprofil und wählt die optimale Sendezeit innerhalb von sechs Stunden ab der Journey-Ausführungszeit aus.
