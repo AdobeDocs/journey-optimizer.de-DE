@@ -1,10 +1,10 @@
 ---
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 49%
+source-wordcount: '456'
+ht-degree: 35%
 
 ---
 
@@ -28,8 +28,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt zum Zeitraum für die erneute Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für die E-Mail-Wiederholung in den Nachrichtenvorgaben anpassen können. [Mehr dazu](configuration/retries.md#retry-duration)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen einmaligen Ausschluss-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](message-tracking.md#one-click-opt-out-link)
 * Der Abschnitt Subdomain delegieren wurde mit detaillierteren Informationen zum von Adobe durchgeführten Validierungsprozess aktualisiert. [Mehr dazu](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domänen manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* Die Abschnitte [Zugriff auf die Unterdrückungsliste](configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](configuration/retries.md) wurden aktualisiert, um die neue Benutzeroberfläche widerzuspiegeln.
 
 
 ## Juli 2021
@@ -44,9 +44,9 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Unterabschnitt über Mirrorseiten hinzugefügt. [Mehr dazu](message-tracking.md#mirror-page)
 * „Angebotsaktivitäten“ wurden in der Dokumentation und deren Abbildungen in „Entscheidungen“ und „Entscheidungen“ in „Entscheidungsbereiche“ umbenannt. [Mehr dazu](offers/get-started/starting-offer-decisioning.md)
 * Neuer Anwendungsfall: [Personalisieren einer Nachricht mit Hilfsfunktionen](personalization/personalization-use-case-helper-functions.md)
-* Die Dokumentation zu „Segment lesen“ wurde um die Segmentauswirkungen erweitert. [Mehr dazu](building-journeys/read-segment.md)
+* Die Dokumentation zum Lesen von Segmenten wurde aktualisiert, um die Auswirkungen materieller Segmente widerzuspiegeln. [Mehr dazu](building-journeys/read-segment.md)
 * Die Journey-Einschränkungen wurden aktualisiert. [Mehr dazu](building-journeys/limitations.md)
-* Der Abschnitt „Angebotsauswahl in Entscheidungen konfigurieren“ wurde aktualisiert. [Mehr dazu](offers/offer-activities/configure-offer-selection.md)
+* Der Abschnitt Angebotsauswahl in Entscheidungen konfigurieren wurde aktualisiert - [Mehr dazu](offers/offer-activities/configure-offer-selection.md)
 * Es wurde ein Warnhinweis hinzugefügt, der darauf hinweist, dass ereignisbasierte Angebote derzeit nicht unterstützt werden. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Die neue Registerkarte [!UICONTROL Übersicht] im Entscheidungs-Management wurde in die Dokumentation aufgenommen. [Mehr dazu](offers/get-started/user-interface.md#overview)
+* Dokumentation der neuen Registerkarte Entscheidungsverwaltung **[!UICONTROL Übersicht]** [Mehr dazu](offers/get-started/user-interface.md#overview)
 * Es wurden neue Abschnitte hinzugefügt, in denen die in den Angebots- und Entscheidungslisten verfügbaren Aktionen beschrieben werden: [Angebotsliste](offers/offer-library/creating-personalized-offers.md#offer-list) und [Entscheidungsliste](offers/offer-activities/create-offer-activities.md#decision-list).

@@ -16,10 +16,10 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 100%
+source-wordcount: '1184'
+ht-degree: 83%
 
 ---
 
@@ -303,7 +303,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung zur Verwaltung von Subdomain-Zuweisungen {#manage-subdomain}
 
-Mit der Berechtigung **[!UICONTROL Zuweisung von Subdomains verwalten]** auf hoher Ebene können Benutzer die Zuweisung von Subdomains erstellen, bearbeiten und löschen (einschließlich IP-Pool).
+Mit der Berechtigung **[!UICONTROL Zuweisung von Subdomains verwalten]** auf hoher Ebene können Benutzer Subdomain-Delegationen erstellen, bearbeiten und löschen (einschließlich IP-Pool).
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -313,14 +313,16 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung zum Anzeigen von PTR-Datensätzen {#view-ptr}
 
-Die Berechtigung **[!UICONTROL PTR-Datensätze anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von PTR-Datensätzen, die basierend auf der Subdomain konfiguriert wurden, und umfasst die folgenden Berechtigungen auf niedriger Ebene:
+Die Berechtigung **[!UICONTROL PTR-Datensätze anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von PTR-Datensätzen, die basierend auf der Subdomain konfiguriert wurden.
+
+Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * PTR_records.read
 * subdomains_delegation.read
 
 ### Berechtigung zur Verwaltung von IP-Pools {#manage-ip-pools}
 
-Mit der Berechtigung **[!UICONTROL IP-Pools verwalten]** auf hoher Ebene können Benutzer eine Affinitätsdefinition erstellen, bearbeiten und löschen.
+Die Berechtigung **[!UICONTROL IP-Pools verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen, Bearbeiten und Löschen der Affinitätsdefinition.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -330,7 +332,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung zur Verwaltung der allgemeinen Einstellungen von Nachrichten {#manage-message-settings}
 
-Mit der Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten verwalten]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Mit der Berechtigung **[!UICONTROL Allgemeine Einstellungen für Nachrichten verwalten]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -338,13 +340,12 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
 ### Berechtigung zum Anzeigen der allgemeinen Einstellungen von Nachrichten {#view-message-settings}
 
-Die Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Unterdrückungsregeln oder Ausführungsadressen.
+Mit der allgemeinen Berechtigung **[!UICONTROL Nachrichten anzeigen]** können Benutzer allgemeine Einstellungen für Nachrichten anzeigen, wie z. B. die Ausführungsadresse.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -355,7 +356,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung zur Verwaltung von Nachrichtenvoreinstellungen {#manage-message-presets}
 
-Die Berechtigung **[!UICONTROL Nachrichtenvorgaben verwalten]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvorgaben über Kanäle hinweg auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
+Die Berechtigung **[!UICONTROL Nachrichten verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen, Bearbeiten und Löschen von Nachrichtenvorgaben auf kanalübergreifender Ebene auf Sandbox-Ebene.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -378,19 +379,21 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.read
 * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung zum Verwalten von Unterdrückungsregeln {#manage-suppression-rules}
+### Berechtigung zur Unterdrückung verwalten {#manage-suppression}
 
-Mit der Berechtigung **[!UICONTROL Unterdrückungsregeln verwalten]** auf hoher Ebene können Benutzer die Anzahl der Bounces definieren, die auftreten dürfen, bevor die E-Mail-Adresse eines Benutzers zur Unterdrückungsliste hinzugefügt wird.
+Mit der Berechtigung **[!UICONTROL Unterdrückung verwalten]** auf hoher Ebene können Benutzer die Anzahl der Bounces definieren, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### Berechtigung zum Anzeigen der Unterdrückungsliste {#view-suppresion-list}
 
-Die Berechtigung **[!UICONTROL Unterdrückungsliste anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeiner Nachrichteneinstellungen.
+Mit der Berechtigung **[!UICONTROL Unterdrückungsliste anzeigen]** auf hoher Ebene können Benutzer den Inhalt und die Einstellungen der Unterdrückungsliste anzeigen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -402,10 +405,12 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung zum Exportieren der Unterdrückungsliste {#export-suppression-list}
 
-Die Berechtigung **[!UICONTROL Unterdrückungsliste exportieren]** auf hoher Ebene ermöglicht Benutzern das Festlegen von Nachrichtenkonfigurationen, einschließlich Nachrichtenvorgaben und allgemeiner Nachrichteneinstellungen.
+Die Berechtigung **[!UICONTROL Export-Unterdrückungsliste]** auf hoher Ebene ermöglicht Benutzern das Herunterladen der Unterdrückungsliste als CSV-Datei.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
+* Spezifisch für Journey Optimizer:
+   * suppression_list.export
 * Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read

@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 38%
+source-wordcount: '392'
+ht-degree: 13%
 
 ---
 
 
 # Weitere Zustellversuche {#retries}
 
-Wenn eine E-Mail-Nachricht aufgrund eines temporären **Softbounce**- oder **Ignoriert**-Fehlers fehlschlägt, werden mehrere weitere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
+Wenn eine E-Mail-Nachricht aufgrund eines temporären **Softbounce**-Fehlers fehlschlägt, werden mehrere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
 >[!NOTE]
 >
 >Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen für fehlgeschlagene Sendungen](../suppression-list.md#delivery-failures) .
 
-In der Standardkonfiguration ist der Schwellenwert auf drei Fehler festgelegt:
+In der Standardkonfiguration ist der Schwellenwert auf 5 Fehler festgelegt.
 
-* Im selben Versand wird die Adresse nach dem dritten fehlgeschlagenen Versuch unterdrückt.
+* Für denselben Versand wird beim fünften aufgetretenen Fehler innerhalb des [Wiederholungszeitraums](#retry-duration) die Adresse unterdrückt.
 
-* Wenn es unterschiedliche Sendungen gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim dritten Versuch unterdrückt.
+* Bei unterschiedlichen Sendungen und zwei Fehlern im Abstand von mindestens 24 Stunden wird der Fehlerzähler bei jedem Fehler inkrementiert und die Adresse beim fünften Versuch ebenfalls unterdrückt.
 
 Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich war, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
 
-Sie können den Schwellenwert mithilfe der Schaltfläche **[!UICONTROL Bearbeiten]** im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Allgemein]** ändern.
+Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie unten beschrieben ändern.
 
-![](../assets/retries-edition.png)
+1. Gehen Sie zu **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Unterdrückungsliste]**.
+
+1. Wählen Sie die Schaltfläche **[!UICONTROL Unterdrückungsregeln bearbeiten]** aus.
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. Bearbeiten Sie die zulässige Anzahl aufeinander folgender Softbounces entsprechend Ihren Anforderungen.
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   Sie müssen einen ganzzahligen Wert zwischen 1 und 20 eingeben, d. h. die Mindestanzahl weiterer Versuche ist 1 und die maximale Zahl ist 20.
+
+   >[!CAUTION]
+   >
+   >Ein Wert von mehr als 10 kann Probleme mit der Reputation der Zustellbarkeit sowie IP-Drosselung oder auf die Blockierungsliste setz durch ISPs verursachen. [Weitere Informationen zur Zustellbarkeit](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ Beispielsweise können Sie die Wiederholungsfrist für eine Transaktions-E-Mail,
 Erfahren Sie, wie Sie die E-Mail-Wiederholungsparameter beim Erstellen einer Nachrichtenvorgabe in [diesem Abschnitt](message-presets.md#create-message-preset) anpassen.
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

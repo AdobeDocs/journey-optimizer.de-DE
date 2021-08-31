@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 38%
+source-wordcount: '1045'
+ht-degree: 36%
 
 ---
 
@@ -51,6 +51,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -84,6 +85,23 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Definieren der vom Versand auszuschließenden Adressen - Unterdrückungsliste</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Das Hinzufügen von E-Mail-Adressen und Domänen zur Unterdrückungsliste ist jetzt in der Benutzeroberfläche entweder einzeln im Bulk-Modus durch einen CSV-Datei-Upload verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 **E-Mail-Konfiguration**
 
 * **Zulassungsliste**  - Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](allow-list.md#enable-allow-list)
-
+* **Navigation**  - Die Unterdrückungsliste, auf die über das Menü  **Administration > Kanäle > E-Mail-Konfiguration >** Allgemein zugegriffen werden kann, wurde in das neue Untermenü  **Unterdrückung** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### Fehlerbehebungen
 
