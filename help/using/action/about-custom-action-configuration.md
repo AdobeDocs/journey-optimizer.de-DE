@@ -6,10 +6,11 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +50,11 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Geben Sie im Feld **[!UICONTROL URL]** die URL des externen Dienstes an:
+1. Geben Sie im Feld **[!UICONTROL URL]** die URL des externen Services an:
 
    * Wenn die URL statisch ist, geben Sie die URL in dieses Feld ein.
 
-   * Wenn die URL einen dynamischen Pfad enthält, geben Sie nur den statischen Teil der URL ein, d. h. das Schema, den Host, den Port und optional einen statischen Teil des Pfads.
+   * Wenn die URL einen dynamischen Pfad enthält, geben Sie nur den statischen Teil der URL ein, d. h. das Schema, den Host, den Port und optional einen statischen Teil des Pfads.
 
       Beispiel: `https://xxx.yyy.com:8080/somethingstatic/`
 
@@ -63,27 +64,27 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >Aus Sicherheitsgründen empfehlen wir dringend, das HTTPS-Schema für die URL zu verwenden. Die Verwendung nicht öffentlicher Adobe-Adressen und die Verwendung von IP-Adressen sind nicht zulässig.
 
 1. Wählen Sie die **[!UICONTROL Aufrufmethode]** aus: Sie kann entweder **[!UICONTROL POST]** oder **[!UICONTROL PUT]** sein.
-1. Definieren Sie im Abschnitt **[!UICONTROL Headers]** die HTTP-Header der Anforderungsnachricht, die an den externen Dienst gesendet werden soll:
-   1. Um ein Header-Feld hinzuzufügen, klicken Sie auf **[!UICONTROL Header-Feld hinzufügen]**.
+1. Definieren Sie im Abschnitt **[!UICONTROL Headers]** die HTTP-Header der Anfragenachricht, die an den externen Service gesendet werden soll:
+   1. Um ein Header-Feld hinzuzufügen, klicken Sie auf **[!UICONTROL Feld für Kopfzeile hinzufügen]**.
    1. Geben Sie den Schlüssel des Header-Felds ein.
    1. Um einen dynamischen Wert für das Schlüssel-Wert-Paar festzulegen, wählen Sie **[!UICONTROL Variable]** aus. Wählen Sie andernfalls **[!UICONTROL Konstante]** aus.
 
       Beispielsweise können Sie für einen Zeitstempel einen dynamischen Wert festlegen.
 
-   1. Wenn Sie **[!UICONTROL Konstante]** ausgewählt haben, geben Sie den Konstantenwert ein.
+   1. Wenn Sie **[!UICONTROL Konstante]** ausgewählt haben, geben Sie den konstanten Wert ein.
 
-      Wenn Sie **[!UICONTROL Variable]** ausgewählt haben, geben Sie diese Variable an, wenn Sie die benutzerdefinierte Aktion zu einer Journey hinzufügen. [Weitere Informationen](../building-journeys/using-custom-actions.md).
+      Wenn Sie **[!UICONTROL Variable]** ausgewählt haben, geben Sie diesen variablen Wert an, wenn Sie die benutzerdefinierte Aktion zu einer Journey hinzufügen. [Weitere Informationen](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Um ein Kopfzeilenfeld zu löschen, verweisen Sie auf das Kopfzeilenfeld und klicken Sie auf das Symbol **[!UICONTROL Löschen]** .
-   Die Header-Felder **[!UICONTROL Content-Type]** und **[!UICONTROL Charset]** werden standardmäßig festgelegt. Sie können diese Felder nicht ändern oder löschen.
+   1. Um ein Header-Feld zu löschen, zeigen Sie auf das Header-Feld und klicken Sie auf das Symbol **[!UICONTROL Löschen]**.
+   Die Header-Felder **[!UICONTROL Content-Typ]** und **[!UICONTROL Charset]** werden standardmäßig festgelegt. Sie können diese Felder nicht ändern oder löschen.
 
-   Nachdem Sie die benutzerdefinierte Aktion zu einer Journey hinzugefügt haben, können Sie ihr weiterhin Kopfzeilenfelder hinzufügen, wenn sich die Journey im Entwurfsstatus befindet. Wenn Sie nicht möchten, dass die Journey von Konfigurationsänderungen betroffen ist, duplizieren Sie die benutzerdefinierte Aktion und fügen Sie die Kopfzeilenfelder zur neuen benutzerdefinierten Aktion hinzu.
+   Nachdem Sie die benutzerdefinierte Aktion zu einer Journey hinzugefügt haben, können Sie ihr weiterhin Header-Felder hinzufügen, wenn sich die Journey im Entwurfsstatus befindet. Wenn Sie nicht möchten, dass auf die Journey Konfigurationsänderungen angewendet werden, duplizieren Sie die benutzerdefinierte Aktion und fügen Sie die Header-Felder zur neuen benutzerdefinierten Aktion hinzu.
 
    >[!NOTE]
    >
-   >Kopfzeilen werden gemäß den Feldanalyseregeln validiert. [Weitere Informationen](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Header werden gemäß den folgenden Parsing-Regeln validiert. [Weitere Informationen](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
 ## Definieren der Aktionsparameter {#define-the-message-parameters}
 

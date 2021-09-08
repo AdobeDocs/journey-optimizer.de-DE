@@ -15,13 +15,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 13%
+ht-degree: 58%
 
 ---
-
 
 # Weitere Zustellversuche {#retries}
 
@@ -29,7 +29,7 @@ Wenn eine E-Mail-Nachricht aufgrund eines temporären **Softbounce**-Fehlers feh
 
 >[!NOTE]
 >
->Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen für fehlgeschlagene Sendungen](../suppression-list.md#delivery-failures) .
+>Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen Sendungen](../suppression-list.md#delivery-failures)
 
 In der Standardkonfiguration ist der Schwellenwert auf 5 Fehler festgelegt.
 
@@ -61,21 +61,21 @@ Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den F
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
-## Zeitraum für Wiederholung {#retry-duration}
+## Zeitraum für weitere Zustellversuche {#retry-duration}
 
-Der **Zeitraum für den erneuten Versuch** ist der Zeitraum, in dem alle E-Mail-Nachrichten des Versands, bei denen ein temporärer Fehler oder ein Softbounce aufgetreten ist, wiederholt werden.
+Der **Zeitraum für weitere Zustellversuche** ist der Zeitraum, in dem alle E-Mail-Nachrichten des Versands, bei denen ein temporärer Fehler oder ein Softbounce aufgetreten ist, erneut gesendet werden.
 
-Standardmäßig werden für **3,5 Tage** (oder **84 Stunden**) ab dem Zeitpunkt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde, weitere Zustellversuche unternommen.
+Standardmäßig werden weitere Zustellversuche **3,5 Tage** (oder **84 Stunden**) lang ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
 
-Um jedoch sicherzustellen, dass Wiederholungsversuche nicht mehr durchgeführt werden, wenn sie nicht mehr benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Nachrichtenvorgabe](message-presets.md) erstellen oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
+Um jedoch sicherzustellen, dass keine weiteren Zustellversuche durchgeführt werden, wenn sie nicht mehr benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Nachrichtenvoreinstellung](message-presets.md) erstellen oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
 
-Beispielsweise können Sie die Wiederholungsfrist für eine Transaktions-E-Mail, die sich auf das Zurücksetzen des Kennworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. In ähnlicher Weise können Sie für einen Verkauf um Mitternacht eine Wiederholungszeit von 6 Stunden festlegen.
+Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Transaktions-E-Mail, die sich auf das Zurücksetzen eines Passworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Analog dazu könnten Sie für einen Midnight Sale den Zeitraum für weitere Zustellversuche auf 6 Stunden festlegen.
 
 >[!NOTE]
 >
->Der Wiederholungszeitraum darf 84 Stunden nicht überschreiten. Die Wiederholungsdauer beträgt mindestens 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
+>Der Zeitraum für weitere Zustellversuche darf 84 Stunden nicht überschreiten. Der Mindestzeitraum für weitere Zustellversuche beträgt 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
 
-Erfahren Sie, wie Sie die E-Mail-Wiederholungsparameter beim Erstellen einer Nachrichtenvorgabe in [diesem Abschnitt](message-presets.md#create-message-preset) anpassen.
+In [diesem Abschnitt](message-presets.md#create-message-preset) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Nachrichtenvoreinstellung definieren.
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
 

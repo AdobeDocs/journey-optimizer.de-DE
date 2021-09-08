@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 100%
@@ -62,7 +63,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    >[!NOTE]
    >
-   >Die Gesamteinschränkungsrate pro Sandbox ist auf 20,000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 20,000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
+   >Die Gesamteinschränkungsrate pro Sandbox ist auf 20.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 20.000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 

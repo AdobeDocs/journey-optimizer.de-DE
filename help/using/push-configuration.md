@@ -3,10 +3,11 @@ title: Konfiguration von Push-Benachrichtigungen
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benachrichtigungen mit Journey Optimizer konfigurieren
 role: Admin
 level: Intermediate
-source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
+exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1576'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +30,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Berechtigungen einrichten
 
-Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie in **Adobe Experience Platform Launch** die richtigen Benutzerberechtigungen selbst haben oder zuweisen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
+Bevor Sie eine Mobile App erstellen, müssen Sie zunächst sicherstellen, dass Sie in **Adobe Experience Platform Launch** die richtigen Benutzerberechtigungen selbst haben oder zuweisen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->Die Konfiguration für Push-Benachrichtigungen muss von einem erfahrenen Benutzer durchgeführt werden. Abhängig von Ihrem Implementierungsmodell und den an dieser Implementierung beteiligten Rollen müssen Sie möglicherweise den gesamten Berechtigungssatz einem einzelnen Produktprofil zuweisen oder Berechtigungen zwischen dem App-Entwickler und dem **Adobe Journey Optimizer**-Administrator aufteilen. Weitere Informationen zu Berechtigungen für **Adobe Experience Platform Launch** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions).{target=&quot;_blank&quot;}.
+>Die Konfiguration für Push-Benachrichtigungen muss von einem erfahrenen Benutzer durchgeführt werden. Abhängig von Ihrem Implementierungsmodell und den an dieser Implementierung beteiligten Rollen müssen Sie möglicherweise den gesamten Berechtigungssatz einem einzelnen Produktprofil zuweisen oder Berechtigungen zwischen dem App-Entwickler und dem **Adobe Journey Optimizer**-Administrator aufteilen. Weitere Informationen zu Berechtigungen für **Adobe Experience Platform Launch** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de#platform-launch-permissions).{target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -124,7 +125,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
 1. Von [!DNL Adobe Experience Platform Launch] aus sollten Sie sich vergewissern, dass im Dropdown-Menü **[!UICONTROL Client-Seite]** ausgewählt ist.
 
-1. Wählen Sie im linken Bedienfeld die Registerkarte **[!UICONTROL Mobile-App-Konfigurationen]** aus und klicken Sie auf **[!UICONTROL Mobile-App-Konfiguration]**, um eine neue Konfiguration zu erstellen.
+1. Wählen Sie im linken Panel die Registerkarte **[!UICONTROL Mobile-App-Konfigurationen]** aus und klicken Sie auf **[!UICONTROL Mobile-App-Konfiguration]**, um eine neue Konfiguration zu erstellen.
 
 1. Geben Sie einen **[!UICONTROL Namen]** für die Konfiguration ein.
 
@@ -317,7 +318,7 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
 1. Klicken Sie auf **[!UICONTROL Journey Erstellen]**, um eine neue Journey zu erstellen.
 
-1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weitere Informationen finden Sie in diesem [Abschnitt](building-journeys/journey-gs.md#change-properties).
+1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weiterführende Informationen finden Sie in diesem [Abschnitt](building-journeys/journey-gs.md#change-properties).
 
 1. Ziehen Sie zunächst das in den vorherigen Schritten erstellte Ereignis per Drag-and-Drop aus der Dropdown-Liste **[!UICONTROL Ereignisse]**.
 
@@ -343,9 +344,9 @@ Ihr Ereignis wird ausgelöst und Sie erhalten in Ihrer Mobile App eine Push-Bena
 
 ## Schritt 4: Nachrichtenvoreinstellung für Push-Benachrichtigungen erstellen{#message-preset}
 
-Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Launch] eingerichtet wurde, müssen Sie eine Nachrichtenvorgabe erstellen, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
+Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Launch] eingerichtet wurde, müssen Sie eine Nachrichtenvoreinstellung erstellen, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
 
-In [diesem Abschnitt](configuration/message-presets.md) erfahren Sie, wie Sie eine Nachrichtenvorgabe erstellen und konfigurieren.
+In [diesem Abschnitt](configuration/message-presets.md) erfahren Sie, wie Sie eine Nachrichtenvoreinstellung erstellen und konfigurieren.
 
 Sie können jetzt mit Journey Optimizer Push-Benachrichtigungen senden.
 

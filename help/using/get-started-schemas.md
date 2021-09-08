@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemas in Adobe Jo
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
@@ -43,4 +44,3 @@ Erfahren Sie, wie Sie ein Schema erstellen, Feldergruppen hinzufügen, benutzerd
 * [Best Practices für die Datenmodellierung](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=de){target=&quot;_blank&quot;}
 * [Erstellen eines Schemas mithilfe der Schema Registry-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=de){target=&quot;_blank&quot;}
 * [Definieren einer Beziehung zwischen zwei Schemas mithilfe des Schema-Editors](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=de){target=&quot;_blank&quot;}
-

@@ -1,6 +1,6 @@
 ---
 title: Verwalten der Unterdrückungsliste
-description: 'Erfahren Sie, wie Sie auf die Unterdrückungsliste in Journey Optimizer zugreifen und diese verwalten '
+description: Erfahren Sie, wie Sie auf die Unterdrückungsliste in Journey Optimizer zugreifen und diese verwalten
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,20 +15,20 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 29%
+ht-degree: 42%
 
 ---
 
-
 # Verwalten der Unterdrückungsliste {#manage-suppression-list}
 
-Mit [!DNL Journey Optimizer] können Sie alle E-Mail-Adressen überwachen, die automatisch vom Versand einer Journey ausgeschlossen sind, z. B.:
+Mit [!DNL Journey Optimizer] können Sie alle E-Mail-Adressen überwachen, die in einer Journey automatisch vom Versand ausgeschlossen sind, z. B.:
 
-* Ungültige Adressen (Hardbounces).
-* Adressen, die konsistent Softbounce verwenden und sich negativ auf Ihre E-Mail-Reputation auswirken könnten, wenn Sie sie weiterhin in Ihre Sendungen einbeziehen.
+* ungültige Adressen (Hardbounces).
+* Adressen, die durchgängig zu Softbounces führen und sich negativ auf Ihre E-Mail-Reputation auswirken können, wenn Sie sie weiterhin in Ihre Sendungen aufnehmen.
 * Empfänger, die eine Spam-Beschwerde gegen eine Ihrer E-Mails einreichen.
 
 Diese E-Mail-Adressen werden automatisch in der **Unterdrückungsliste** von Journey Optimizer erfasst. Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../suppression-list.md).
@@ -79,7 +79,7 @@ Um die Unterdrückungsliste als CSV-Datei zu exportieren, wählen Sie die Schalt
 
 ## Unterdrückungskategorien und -gründe {#suppression-categories-and-reasons}
 
-Wenn eine Nachricht an eine E-Mail-Adresse nicht zugestellt werden kann, bestimmt [!DNL Journey Optimizer], warum der Versand fehlgeschlagen ist, und ordnet sie der Kategorie **[!UICONTROL Unterdrückung]** zu.
+Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, bestimmt [!DNL Journey Optimizer], warum der Versand fehlgeschlagen ist, und ordnet ihr eine **[!UICONTROL Unterdrückungskategorie]** zu.
 
 Die Unterdrückungskategorien lauten wie folgt:
 
@@ -97,13 +97,13 @@ Die Unterdrückungskategorien lauten wie folgt:
     * When the error is the result of a spam complaint, the email address of the recipient who issued the complaint is immediately sent to the suppression list.
     -->
 
-* **Manuell**: Sie können der Unterdrückungsliste auch manuell eine E-Mail-Adresse oder eine Domäne hinzufügen. [Weitere Informationen](#add-addresses-and-domains)
+* **Manuell**: Sie können der Unterdrückungsliste auch manuell eine E-Mail-Adresse oder eine Domain hinzufügen. [Weitere Informationen](#add-addresses-and-domains)
 
 >[!NOTE]
 >
->Weitere Informationen zu Softbounces und Hardbounces finden Sie im Abschnitt [Typen für fehlgeschlagene Sendungen](../suppression-list.md#delivery-failures).
+>Weitere Informationen zu Softbounces und Hardbounces finden Sie im Abschnitt [Typen von fehlgeschlagenen Sendungen](../suppression-list.md#delivery-failures).
 
-Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Typ]** (E-Mail oder Domain), **[!UICONTROL Grund]** prüfen, um sie auszuschließen, wer sie hinzugefügt hat und Datum/Uhrzeit, zu der sie der Unterdrückungsliste hinzugefügt wurde.
+Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Typ]** (E-Mail oder Domain), den **[!UICONTROL Grund]**, der zum Ausschluss führte, die Person, die die E-Mail-Adresse zur Unterdrückungsliste hinzufügte, und das Datum mit Uhrzeit, zu dem die Adresse der Unterdrückungsliste hinzugefügt wurde, überprüfen.
 
 ![](../assets/suppression-list.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

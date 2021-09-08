@@ -3,7 +3,8 @@ title: Erste Schritte mit Datensätzen
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adobe Journey Optimizer verwenden.
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -40,4 +41,3 @@ Erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm 
 * [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Übersicht über die Streaming-Aufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}
 * [Daten in Adobe Experience Platform aufnehmen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target=&quot;_blank&quot;}
-

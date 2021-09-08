@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 851d988a-2582-4c30-80f3-b881d90771be
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 100%
@@ -265,4 +266,3 @@ Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben
 * In [diesem Abschnitt](../../using/publish-manage-message.md) erfahren Sie, wie Sie Nachrichten veröffentlichen können.
 
 * In [diesem Abschnitt](../building-journeys/journey.md) erfahren Sie, wie Nachrichten von einer oder mehreren Journeys ausgelöst werden.
-

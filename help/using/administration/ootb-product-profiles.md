@@ -19,7 +19,7 @@ level: Intermediate
 source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |-|-|
 |Journeys | <ul><li> **Journeys verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**Journeys veröffentlichen**: Veröffentlichen von Journeys</li><li>**Journey-Ereignisse, Datenquellen und Aktionen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</li><li>**Bericht zum Anzeigen von Journeys**: Lesen und Bearbeiten des Berichts zur Journeys.</li></ul>|
 |Nachrichten|<ul><li> **Nachrichten verwalten**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**Nachrichtenvorschau und Tests verwalten**: Veröffentlichen von Nachrichten.</li><li>**Nachrichten veröffentlichen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**Nachrichtenbericht anzeigen**: Lesen und Bearbeiten von Nachrichtenberichten.</li></ul>|
-|Administration|<ul><li>**Zuweisung von Subdomains verwalten**: Lesen, Erstellen, Bearbeiten und Löschen der Subdomain-Zuweisung.</li><li>**IP-Pools verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li><li>**PTR-Einträge anzeigen**: Nur-Lese-Zugriff auf PTR-Einträge.</li><li> **Allgemeine Einstellungen für Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen allgemeiner Einstellungen für Nachrichten.</li><li>**Nachrichtenvoreinstellungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichtenvorgaben.</li><li>**Unterdrückungsregeln verwalten**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li><li>**Unterdrückungsliste anzeigen**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li><li>**Warnhinweise verwalten**: Aktivierung/Deaktivierung von Warnhinweisen für Journeys, Nachrichten und Berechtigungen.</li></ul>|
+|Administration|<ul><li>**Zuweisung von Subdomains verwalten**: Lesen, Erstellen, Bearbeiten und Löschen der Subdomain-Zuweisung.</li><li>**IP-Pools verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li><li>**PTR-Einträge anzeigen**: Nur-Lese-Zugriff auf PTR-Einträge.</li><li> **Allgemeine Einstellungen für Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen allgemeiner Einstellungen für Nachrichten.</li><li>**Nachrichtenvoreinstellungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichtenvoreinstellungen.</li><li>**Unterdrückungsregeln verwalten**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li><li>**Unterdrückungsliste anzeigen**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li><li>**Warnhinweise verwalten**: Aktivierung/Deaktivierung von Warnhinweisen für Journeys, Nachrichten und Berechtigungen.</li></ul>|
 |Entscheidungs-Management|<ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>|
-|Adobe Experience Platform|<ul><li>**Sandbox**: Gewähren des Zugriff auf Sandboxes.</li><li>**Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Lesen von Identitäts-Namespaces**: Nur-Lese-Zugriff auf Identitäts-Namespaces.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
+|Adobe Experience Platform|<ul><li>**Sandbox**: Gewähren des Zugriff auf Sandboxes.</li><li>**Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Lesen von Identity-Namespaces**: Nur-Lese-Zugriff auf Identitäts-Namespaces.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
 
 ## Journey-Genehmiger {#journey-approver}
 
@@ -51,7 +51,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**Nachrichten veröffentlichen**: Veröffentlichen von Nachrichten.</li><li>**Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li>**Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
 |Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>|
 |Adobe Experience Platform| <ul><li>**Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvorgaben**: Nur-Lese-Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Journey-Manager {#journey-manager}
 
@@ -65,7 +65,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li> **Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li>**Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
 |Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>|
 |Adobe Experience Platform| <ul><li> **Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvorgaben**: Nur-Lese-Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Journey-Betrachter {#journey-viewer}
 
@@ -93,7 +93,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li> **Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
 |Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li></ul>|
 |Adobe Experience Platform| <ul><li>**Lesen von Profilen**: Nur-Lese-Zugriff auf das Profil für Vorschau und Test.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvorgaben**: Nur-Lese-Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Entscheidungs-Manager {#decisioning-manager}
 
@@ -103,4 +103,4 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Entscheidungs-Management | <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Anzeigen von Entscheidungen**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li><li>**Veröffentlichungsentscheidungen**: Aktivierung oder Deaktivierung von Entscheidungsaktivitäten.</li></ul>|
+|Entscheidungs-Management | <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Anzeigen von Entscheidungen**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li><li>**Entscheidungen veröffentlichen**: Aktivieren oder Deaktivieren von Entscheidungsaktivitäten.</li></ul>|

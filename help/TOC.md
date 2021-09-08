@@ -42,7 +42,7 @@ ht-degree: 100%
       + [Veröffentlichen von Nachrichten](using/publish-manage-message.md)
    + [Verwalten von Opt-out](using/consent.md)
 + Personalisierung{#personalization}
-   + [Erste Schritte     bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte      bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
    + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
    + Anwendungsfälle{#personalization-use-cases}

@@ -5,10 +5,11 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,14 +73,14 @@ Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definier
 
 In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen nutzen:
 
-* beim Konfigurieren eines geschäftlichen oder einheitlichen Ereignisses [mehr dazu](../event/experience-event-schema.md#unitary_event_configuration)
+* beim Konfigurieren eines Geschäfts- oder unitären Ereignisses – [weitere Informationen](../event/experience-event-schema.md#unitary_event_configuration)
 * bei Verwendung von Bedingungen in einer Journey – [weitere Informationen](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * in der Personalisierung von Nachrichten – [weitere Informationen](../event/experience-event-schema.md#message_personalization)
 * in der Personalisierung benutzerdefinierter Aktionen – [weitere Informationen](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Ereigniskonfiguration{#unitary_event_configuration}
 
-Die verknüpften Schemafelder sind in der Konfiguration von Einzelereignissen und Geschäftsereignissen verfügbar:
+Die verknüpften Schemafelder sind in der Konfiguration eines unitären und Geschäftsereignisses verfügbar:
 
 * beim Durchsuchen der Ereignisschemafelder im Bildschirm zur Ereigniskonfiguration
 * beim Definieren einer Bedingung für systemgenerierte Ereignisse

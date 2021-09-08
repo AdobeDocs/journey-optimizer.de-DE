@@ -1,14 +1,15 @@
 ---
-title: 'Externe Datenquellen '
+title: Externe Datenquellen
 description: Erfahren Sie, wie Sie externe Datenquellen konfigurieren
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -114,10 +115,10 @@ Die Definition des Endpunkts, der aufgerufen werden soll, um das Zugriffstoken z
 
 * endpoint: URL zum Generieren des Endpunkts
 * Methode der HTTP-Anfrage am Endpunkt (GET oder POST)
-* Kopfzeilen: Schlüssel-Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
-* body: beschreibt den Hauptteil des Aufrufs, wenn die Methode POST ist. Wir unterstützen eine begrenzte Körperstruktur, die in bodyParams definiert ist (Schlüssel-Wert-Paare). Der bodyType beschreibt Format und Kodierung des Hauptteils (body) im Aufruf:
-   * &quot;form&quot;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt serialisiert werden: key1=value1&amp;key2=value2&amp;...
-   * &quot;json&quot;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* headers: Schlüssel-Wert-Paare, die bei Bedarf als Kopfzeilen in diesen Aufruf eingefügt werden sollen
+* body: beschreibt den Haupttextteil des Aufrufs, wenn die Methode POST ist. Für den Haupttextteil unterstützen wir eine begrenzte Struktur, die in bodyParams definiert ist (Schlüssel-Wert-Paare). Der bodyType beschreibt Format und Codierung des Haupttextteils (body) im Aufruf:
+   * &#39;form&#39;: bedeutet, dass der Inhaltstyp application/x-www-form-urlencoded (Zeichensatz UTF-8) lautet und die Schlüssel-Wert-Paare wie folgt serialisiert werden: Schlüssel1=Wert1&amp;Schlüssel2=Wert2&amp; ...
+   * &#39;json&#39;: bedeutet, dass der Inhaltstyp application/json (Zeichensatz UTF-8) ist und die Schlüssel-Wert-Paare wie folgt als JSON-Objekt serialisiert werden: _{ &quot;Schlüssel1&quot;: &quot;Wert1&quot;, &quot;Schlüssel2&quot;: &quot;Wert2&quot;, ...}_
 
 Die Definition der Art und Weise, wie das Zugriffstoken in die HTTP-Anfrage der Aktion eingefügt werden muss:
 

@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1223'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    >[!NOTE]
    >
-   >Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie Schlüssel-Wert-Paare mit dem Angebot zu Berichts- und Analysezwecken verknüpfen.
+   >Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen.
 
 ## Darstellungen des Angebots konfigurieren {#representations}
 
@@ -165,7 +166,7 @@ Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschrie
    >
    >Auf das Angebot und seinen Inhalt kann nicht mehr zugegriffen werden. Diese Aktion kann nicht rückgängig gemacht werden.
    >
-   >Wenn das Angebot in einer Sammlung oder Entscheidung verwendet wird, kann es nicht gelöscht werden. Sie müssen das Angebot zuerst aus allen Objekten entfernen.
+   >Wenn das Angebot in einer Kollektion oder Entscheidung verwendet wird, kann es nicht gelöscht werden. Sie müssen das Angebot zuerst aus allen Objekten entfernen.
 
 * **[!UICONTROL Archivieren]**: setzt den Angebotsstatus auf **[!UICONTROL Archiviert]**. Das Angebot ist weiterhin in der Liste verfügbar, Sie können seinen Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können es nur duplizieren oder löschen.
 
@@ -189,6 +190,6 @@ Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zug
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

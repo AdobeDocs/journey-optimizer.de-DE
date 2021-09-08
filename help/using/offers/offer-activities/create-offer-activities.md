@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
@@ -149,6 +150,6 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

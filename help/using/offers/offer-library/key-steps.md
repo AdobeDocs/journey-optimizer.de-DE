@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
+exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%

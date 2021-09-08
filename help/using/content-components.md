@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
@@ -184,4 +185,3 @@ Verwandte Themen:
 
 * [Erste Schritte mit Entscheidungs-Management](offers/get-started/starting-offer-decisioning.md)
 * [Einfügen personalisierter Angebote in Nachrichten](deliver-personalized-offers.md).
-

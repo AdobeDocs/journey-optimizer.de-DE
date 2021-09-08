@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
@@ -40,6 +41,6 @@ Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 100%
@@ -46,7 +47,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
 1. Klicken Sie auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
 
-1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weitere Informationen finden Sie in diesem [Abschnitt](journey-gs.md#change-properties).
+1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weiterführende Informationen finden Sie in diesem [Abschnitt](journey-gs.md#change-properties).
 
    ![](../assets/jo-properties.png)
 

@@ -5,13 +5,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 99%
 
 ---
-
 
 # Anwendungsfall: Personalisierung Bestellstatus-Benachrichtigung {#personalization-use-case}
 
@@ -125,4 +125,3 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
    ![](assets/perso-uc19.png)
 
 1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie die Journey.
-

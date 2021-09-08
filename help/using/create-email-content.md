@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 100%
@@ -280,6 +281,3 @@ Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen un
 1. Ändern Sie die Werte der vorhandenen Attribute oder fügen Sie mit den Schaltflächen **+** neue hinzu. Sie können alle Attribute und Werte hinzufügen, die CSS-kompatibel sind.
 
 Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordneten Elemente keine speziellen Stilattribute definiert sind, wird der Stil des übergeordneten Elements verwendet.
-
-
-

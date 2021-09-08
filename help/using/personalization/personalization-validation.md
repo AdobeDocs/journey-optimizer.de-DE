@@ -5,13 +5,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
 ---
-
 
 # Validierung der Personalisierung {#personalization-validation}
 
@@ -115,4 +115,3 @@ HTML: content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

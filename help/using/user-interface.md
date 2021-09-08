@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +98,7 @@ Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Start
 
 Verfügbare Anwendungsfälle:
 
-* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. Erfahren Sie, wie Sie dieses Anwendungsbeispiel [auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) implementieren.
+* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](building-journeys/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie diesen Anwendungsfall implementieren.
 * **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
 * **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
@@ -114,41 +115,41 @@ Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe
 
 * Tastaturzugriff
 * Farbkontrast
-* Validierung erforderlicher Felder
+* Validierung von Pflichtfeldern
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
 Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tab |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umsch+Tab |
-| Verschieben innerhalb von Abschnitten zum Festlegen des Fokus auf einzelne Elemente | Pfeil |
-| Element im Fokus auswählen oder löschen | Eingabe oder Leertaste |
-| Abbrechen einer Auswahl, Reduzieren eines Bedienfelds oder Schließen eines Dialogfelds | Esc |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tabulatortaste |
+| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umschalttaste + Tabulatortaste |
+| Innerhalb von Abschnitten wechseln, um den Fokus auf einzelne Elemente zu setzen | Pfeil |
+| Element im Fokus auswählen oder löschen | Eingabetaste oder Leertaste |
+| Eine Auswahl aufheben, ein Panel reduzieren oder ein Dialogfeld schließen | Esc |
 
-[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} finden Sie in der Adobe Experience Platform-Dokumentation.
+[Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
-Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
+Diese Tastaturbefehle können Sie in bestimmten Teilen von Journey Optimizer verwenden:
 
 <table>
   <thead>
     <tr>
-      <th>Schnittstellenelement</th>
+      <th>Element der Benutzeroberfläche</th>
       <th>Aktion</th>
       <th>Tastaturbefehl</th>
     </tr>
   </thead>
   <tr>
-    <td>Liste der Journey, Aktionen, Datenquellen oder Ereignisse</td>
+    <td>Liste der Journeys, Aktionen, Datenquellen oder Ereignisse</td>
     <td>Journey, Aktion, Datenquelle oder Ereignis erstellen</td>
     <td>C</td>
   </tr>
   <tr>
     <td rowspan="3">Journey-Arbeitsfläche im Entwurfsstatus</td>
-    <td>Aktivität von oben nach unten in der linken Palette an der ersten verfügbaren Position hinzufügen</td>
-    <td>Doppelklicken Sie auf die Aktivität</td>
+    <td>Aktivität aus der linken Palette an der ersten verfügbaren Position von oben nach unten hinzufügen</td>
+    <td>Doppelklicken auf die Aktivität</td>
   </tr>
   <tr>
     <td>Alle Aktivitäten auswählen</td>
@@ -156,7 +157,7 @@ Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer ver
   </tr>
   <tr>
     <td>Ausgewählte Aktivitäten löschen</td>
-    <td>Löschen oder Rücktaste und anschließende Eingabe zur Bestätigung des Löschvorgangs</td>
+    <td>Löschen oder Rücktaste und anschließend Eingabetaste zur Bestätigung des Löschvorgangs</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -172,14 +173,14 @@ Konfigurationsbereich dieser Elemente:
 
 </td>
     <td>Zum nächsten zu konfigurierenden Feld wechseln</td>
-    <td>Registerkarte</td>
+    <td>Tabulatortaste</td>
   </tr>
   <tr>
-    <td>Speichern Sie die Änderungen und schließen Sie den Konfigurationsbereich</td>
-    <td>Geben Sie  ein</td>
+    <td>Änderungen speichern und Konfigurationsbereich schließen</td>
+    <td>Eingabetaste</td>
   </tr>
   <tr>
-    <td>Verwerfen Sie Änderungen und schließen Sie den Konfigurationsbereich</td>
+    <td>Änderungen verwerfen und den Konfigurationsbereich schließen</td>
     <td>Esc</td>
   </tr>
   <tr>
@@ -188,13 +189,13 @@ Konfigurationsbereich dieser Elemente:
     <td>T</td>
   </tr>
   <tr>
-    <td>Trigger eines Ereignisses in einer ereignisbasierten Journey</td>
+    <td>Ereignis in einer ereignisbasierten Journey auslösen</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option **[!UICONTROL Einzelprofil gleichzeitig]** aktiviert ist
+Ereignis in einer segmentbasierten Journey auslösen, für das die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
 
 </td>
     <td>P</td>
@@ -218,7 +219,7 @@ Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option
   <tr>
     <td rowspan="2">Popup-Fenster</td>
     <td>Änderungen speichern oder die Aktion bestätigen</td>
-    <td>Geben Sie  ein</td>
+    <td>Eingabetaste</td>
   </tr>
   <tr>
     <td>Fenster schließen</td>
@@ -227,16 +228,16 @@ Trigger eines Ereignisses in einer segmentbasierten Journey, für das die Option
   <tr>
     <td>Einfacher Ausdruckseditor</td>
     <td>Feld auswählen und hinzufügen</td>
-    <td>Doppelklicken Sie auf ein Feld</td>
+    <td>Doppelklick auf ein Feld</td>
   </tr>
   <tr>
-    <td>Durchsuchen von XDM-Feldern</td>
-    <td>Auswählen aller Felder eines Knotens</td>
-    <td>Auswählen des übergeordneten Knotens</td>
+    <td>XDM-Felder durchsuchen</td>
+    <td>Aller Felder eines Knotens auswählen</td>
+    <td>Übergeordneten Knoten auswählen</td>
   </tr>
   <tr>
     <td>Payload-Vorschau</td>
-    <td>Auswählen der Payload</td>
+    <td>Payload auswählen</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
 </table>
@@ -273,9 +274,9 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 ## Durchsuchen{#unified-search}
 
-Nutzen Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Suchfunktion Unified Adobe Experience Cloud in der oberen Leiste, um Assets, Journey, Datensätze, Nachrichten und mehr in Ihren Sandboxes zu finden.
+Sie können in der gesamten Benutzeroberfläche von Adobe Journey Optimizer die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys, Datensätze, Nachrichten etc. in allen Ihren Sandboxes zu suchen.
 
-Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. Hilfe-Artikel über die eingegebenen Suchbegriffe werden auch in den Ergebnissen angezeigt.
+Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. In den Ergebnissen werden auch Hilfeartikel zu den eingegebenen Keywords angezeigt.
 
 ![](assets/unified-search.png)
 

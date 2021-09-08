@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -56,6 +57,6 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 >[!NOTE]
 >
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
+>Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

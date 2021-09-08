@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
@@ -324,6 +325,3 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Title:** Entscheidungsoption-E-Tag 
 **Beschreibung:** Die Revision, in der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
 **Typ:** Zeichenfolge
-
-
-

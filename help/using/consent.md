@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +38,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 * Durch das Klicken auf diesen Link werden die Empfänger zu einer Landingpage mit einer Schaltfläche zur Bestätigung weitergeleitet.
 * Nach Bestätigung der Abmeldung durch einen Klick auf die Opt-out-Schaltfläche wird ein Adobe I/O-Aufruf ausgeführt, um die Profildaten mit dieser Information zu aktualisieren. [Weitere Informationen hierzu](#consent-service-api).
 
-### Abmelde-Link hinzufügen {#add-unsubscribe-link}
+### Hinzufügen eines Abmelde-Links {#add-unsubscribe-link}
 
 Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
@@ -81,7 +82,7 @@ Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
    Ab sofort erhält dieser Benutzer keine weitere Kommunikation von Ihrer Marke, es sei denn, er meldet sich erneut an.
 
-Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identitäts-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -134,11 +135,11 @@ Hauptteil der Anfrage:
 
 ## Opt-out mit einem Klick {#one-click-opt-out}
 
-Da viele Kunden einen einfacheren Abmeldevorgang suchen, können Sie auch einen Ausschluss-Link mit einem Klick in Ihren E-Mail-Inhalt einfügen. Über diesen Link können sich Ihre Empfänger schnell von Ihrer Nachricht abmelden, ohne auf eine Landingpage weitergeleitet zu werden, auf der sie ihre Abmeldung bestätigen müssen.
+Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch einen Opt-out-Link mit einem Klick in Ihren E-Mail-Inhalt einfügen. Über diesen Link können sich Ihre Empfänger schnell von Ihren Nachrichten abmelden, ohne auf eine Landingpage weitergeleitet zu werden, auf der sie ihre Abmeldung bestätigen müssen.
 
-In [diesem Abschnitt](message-tracking.md#one-click-opt-out-link) erfahren Sie, wie Sie einen Ausschluss-Link zu Ihrem Nachrichteninhalt hinzufügen.
+In [diesem Abschnitt](message-tracking.md#one-click-opt-out-link) erfahren Sie, wie Sie einen Opt-out-Link zu Ihrem Nachrichteninhalt hinzufügen.
 
-Sobald Ihre Nachricht über einen [Journey](building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Abmelde-Link klickt, sofort abgemeldet.
+Wenn Ihre Nachricht über eine [Journey](building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Opt-out-Link klickt, sofort abgemeldet.
 
 ## Abmelde-Link in der Kopfzeile {#unsubscribe-email}
 

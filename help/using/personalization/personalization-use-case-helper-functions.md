@@ -5,13 +5,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
+exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 99%
 
 ---
-
 
 # Anwendungsfall: Personalisierung Warenkorbabbruch-E-Mail {#personalization-use-case-helper-functions}
 

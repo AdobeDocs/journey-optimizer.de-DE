@@ -4,7 +4,8 @@ description: Erfahren Sie, wie Sie Identitäten in Adobe Journey Optimizer verwa
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
@@ -36,4 +37,3 @@ Im **Identitätsdiagramm** werden die Beziehungen zwischen den verschiedenen Ide
 Mit dem Identitätsdiagramm-Viewer in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche können Sie visualisieren und besser verstehen, welche Kundenidentitäten auf welche Weise miteinander verknüpft sind. Mit dem Viewer können Sie verschiedene Teile des Diagramms per Drag-and-drop verschieben und mit ihnen interagieren, sodass Sie komplexe Identitätsbeziehungen untersuchen, Fehler effizient beheben und von einer erhöhten Transparenz bei der Verwendung von Informationen profitieren können. 
 
 Weitere Informationen zum **Identitätsdiagramm** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=de){target=&quot;_blank&quot;}.
-

@@ -1,18 +1,19 @@
 ---
-title: E-Mail-Live-Bericht
+title: Live-Bericht zum E-Mail-Versand
 description: Erfahren Sie, wie Sie Daten aus dem E-Mail-Live-Bericht verwenden
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# E-Mail-Live-Bericht {#email-live-report}
+# Live-Bericht zum E-Mail-Versand {#email-live-report}
 
 Der **[!UICONTROL E-Mail-Live-Bericht]** bezieht sich nur auf einen bestimmten E-Mail-Versand.
 
@@ -60,6 +61,6 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 >[!NOTE]
 >
->Die Profile mit dem Status **[!UICONTROL Unterdrückt]** oder **[!UICONTROL Nicht erlaubt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](../building-journeys/read-segment.md) und [Nachricht](../building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>Die Profile mit dem Status **[!UICONTROL Unterdrückt]** oder **[!UICONTROL Nicht erlaubt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Segment lesen](../building-journeys/read-segment.md) und [Nachricht](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über die [Unterdrückungsliste](../suppression-list.md) und die [Zulassungsliste](../allow-list.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} verwenden.
+>Erfahren Sie mehr über die [Unterdrückungsliste](../suppression-list.md) und die [Zulassungsliste](../allow-list.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden.

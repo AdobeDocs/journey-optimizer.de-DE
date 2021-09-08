@@ -5,10 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +21,17 @@ Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angebe
 
 >[!CAUTION]
 >
->Diese Funktion ist **nicht** in Produktions-Sandboxes verfügbar. Dies gilt nur für den E-Mail-Kanal.
+>Diese Funktion ist **nicht** in Produktions-Sandboxes verfügbar. Sie gilt nur für den E-Mail-Kanal.
 
 ## Zulassungsliste aktivieren {#enable-allow-list}
 
-Um die Zulassungsliste in einer Nicht-Produktions-Sandbox zu aktivieren, müssen Sie die allgemeinen Einstellungen mithilfe des entsprechenden API-Endpunkts im Nachrichtenvorgaben-Dienst aktualisieren.
+Um die Zulassungsliste in einer Nicht-Produktions-Sandbox zu aktivieren, müssen Sie die allgemeinen Einstellungen mithilfe des entsprechenden API-Endpunkts im Nachrichtenvoreinstellungs-Service aktualisieren.
 
 * Mit dieser API können Sie die Funktion auch jederzeit deaktivieren.
 
 * Sie können die Zulassungsliste vor oder nach der Aktivierung der Funktion aktualisieren.
 
-* Die Logik der Zulassungsliste gilt, wenn die Funktion **und** aktiviert ist, wenn die Zulassungsliste **nicht** leer ist. Weiterführende Informationen finden Sie in diesem [Abschnitt](#logic).
+* Die Logik der Zulassungsliste gilt, wenn die Funktion aktiviert ist **und** wenn die Zulassungsliste **nicht** leer ist. Weiterführende Informationen finden Sie in diesem [Abschnitt](#logic).
 
 <!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
@@ -71,13 +72,13 @@ Wenn die Zulassungsliste **nicht leer** ist, wird die Logik der Zulassungsliste 
 
 >[!NOTE]
 >
->Die Profile mit dem Status **[!UICONTROL Nicht erlaubt]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](building-journeys/read-segment.md) und [Nachricht](building-journeys/journeys-message.md)), aber die **E-Mail-Berichte** enthalten sie nicht in die Metriken **[!UICONTROL Gesendet]**, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>Die Profile mit dem Status **[!UICONTROL Nicht erlaubt]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivität [Segment lesen](building-journeys/read-segment.md) und [Nachricht](building-journeys/journeys-message.md)), aber sie sind sie nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
 >Erfahren Sie mehr über den [Live-Bericht](reports/live-report.md) und den [globalen Bericht](reports/global-report.md).
 
 ## Ausschlussberichte {#reporting}
 
-Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie E-Mail-Adressen oder Domänen abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
+Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie vom Versand ausgeschlossene E-Mail-Adressen oder Domains abrufen, die sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 
@@ -96,4 +97,3 @@ _experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT
 _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
-

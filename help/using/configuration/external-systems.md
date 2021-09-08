@@ -9,7 +9,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 Die integrierte Begrenzungs-API bietet einen vorgelagerten technischen Schutzmechanismus für Ihr externes System.
 
-Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Kontaktieren Sie die Adobe, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist für öffentliche externe Datenquellen nicht möglich.
+Bei externen Datenquellen wird die maximale Anzahl von Aufrufen pro Sekunde auf 15 festgelegt. Wenn die Anzahl der Aufrufe 15 pro Sekunde überschreitet, werden die verbleibenden Aufrufe verworfen. Sie können diese Beschränkung für private externe Datenquellen erhöhen. Wenden Sie sich an Adobe, um den Endpunkt in die Zulassungsliste aufzunehmen. Dies ist für öffentliche externe Datenquellen nicht möglich.
 
 Für benutzerdefinierte Aktionen müssen Sie die Kapazität Ihrer externen API evaluieren. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungsregel definieren, damit Ihr System nicht überlastet wird.
 

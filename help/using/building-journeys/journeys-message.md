@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 90%
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../get-started-content.md). Anschließend fügen Sie einfach eine Push- oder E-Mail-Nachricht in Ihre Journey ein, die mit Journey Optimizer entworfen wurde.
 
-Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md).
+Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md).
 
 ## Hinzufügen einer Nachrichtenaktivität
 
@@ -54,7 +55,7 @@ In den Abschnitten **[!UICONTROL E-Mail-Parameter]** und **[!UICONTROL Push-Para
 
 Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld verwenden. Diese Option kann im Rahmen von Tests nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
 
-## Sendezeitoptimierung{#send-time-optimization}
+## Optimierung des Versandzeitpunkts{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
@@ -65,9 +66,9 @@ Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer b
 
 >[!NOTE]
 >
->Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Betaprogramm teilzunehmen.
+>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Für jeden Benutzer wählt das System automatisch die beste Zeit mit den folgenden Werten aus:
+Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Mithilfe der folgenden Punktwerte wählt das System für jeden Benutzer automatisch die beste Zeit aus:
 
 * Die beste Stunde jedes Wochentags zur Maximierung der Interaktion
 * Der beste Wochentag zur Maximierung der Interaktion
@@ -87,16 +88,16 @@ Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführu
 >* Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
 
-### Aktivieren der Sendezeitoptimierung{#activate-send-time-optimization}
+### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Aktivieren der Sendezeitoptimierung"
+>title="Aktivieren der Optimierung des Versandzeitpunkts"
 >abstract="Wählen Sie mithilfe des entsprechenden Radiobuttons aus, ob E-Mail-Öffnungen oder E-Mail-Click-Throughs optimiert werden sollen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Aktivieren der Sendezeitoptimierung"
+>title="Aktivieren der Optimierung des Versandzeitpunkts"
 >abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
 
 Aktivieren Sie die Optimierung des Versandzeitpunkts für eine E-Mail oder Push-Benachrichtigung, indem Sie den Umschalter **Optimierung des Versandzeitpunkts** aus den Parametern der Nachrichtenaktivität auswählen.

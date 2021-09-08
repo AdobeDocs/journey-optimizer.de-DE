@@ -1,13 +1,13 @@
 ---
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 35%
+ht-degree: 79%
 
 ---
-
 
 # Neueste Aktualisierungen in dieser Dokumentation
 
@@ -15,18 +15,18 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## August 2021
 
-* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer] Version vom 21. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Die Entscheidungsverwaltungsberechtigungen wurden aktualisiert. [Mehr dazu](administration/ootb-product-profiles.md)
-* Die Screenshots von Email Designer wurden mit der neuesten Benutzeroberfläche aktualisiert.
-* Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Kopfzeilen wurde aktualisiert. [Mehr dazu](action/about-custom-action-configuration.md#url-configuration)
-* Es wurde ein Abschnitt über Funktionen und Tastaturbefehle für Barrierefreiheit hinzugefügt. [Mehr dazu](user-interface.md#accessibility)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 21. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Die Berechtigungen für das Entscheidungs-Management wurden aktualisiert. [Mehr dazu](administration/ootb-product-profiles.md)
+* Die Screenshots von Email Designer wurden mit den neuesten Optionen der Benutzeroberfläche aktualisiert.
+* Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](action/about-custom-action-configuration.md#url-configuration)
+* Es wurde ein Abschnitt über barrierefreie Funktionen und Tastaturbefehle hinzugefügt. [Mehr dazu](user-interface.md#accessibility)
 * Es wurde ein Abschnitt über Methoden zur Segmentauswertung hinzugefügt. [Mehr dazu](segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Es wurden Hinweise zu den Abschnitten Unterdrückungsliste, Zulassungsliste und Globale/Live-Bericht für E-Mails hinzugefügt, um anzugeben, dass Profile mit dem Status Unterdrückt und Nicht erlaubt aus den Metriken E-Mail-Bericht Gesendet ausgeschlossen werden. [Mehr dazu](reports/email-global-report.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domänen abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](allow-list.md#reporting)
-* Der Abschnitt Zulassungsliste aktivieren wurde aktualisiert. [Weitere Informationen](allow-list.md#enable-allow-list)
-* Der Abschnitt &quot;Bildschirmnachrichten-Vorgaben&quot;wurde mit den möglichen Ursachen für fehlgeschlagene Vorgabenerstellung und Details zu solchen Fehlern aktualisiert. [Mehr dazu](configuration/message-presets.md#monitor-message-presets)
-* Der Abschnitt zum Zeitraum für die erneute Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für die E-Mail-Wiederholung in den Nachrichtenvorgaben anpassen können. [Mehr dazu](configuration/retries.md#retry-duration)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen einmaligen Ausschluss-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](message-tracking.md#one-click-opt-out-link)
+* Es wurden Hinweise zu den Abschnitten „Unterdrückungsliste“, „Zulassungsliste“ und „Globaler/Live-Bericht zum E-Mail-Versand“ hinzugefügt, in denen erläutert wird, dass Profile mit dem Status „Unterdrückt“ und „Nicht erlaubt“ aus der Metrik „Gesendet“ des E-Mail-Berichts ausgeschlossen werden. [Mehr dazu](reports/email-global-report.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domains abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](allow-list.md#reporting)
+* Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](allow-list.md#enable-allow-list)
+* Der Abschnitt „Überwachen von Nachrichtenvoreinstellungen“ wurde mit möglichen Ursachen für eine fehlgeschlagene Durchführung von Voreinstellungen sowie den Fehlerdetails ergänzt. [Mehr dazu](configuration/message-presets.md#monitor-message-presets)
+* Der Abschnitt zum Zeitraum für weitere Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für weitere Zustellversuche bei E-Mails in den Nachrichtenvoreinstellungen anpassen können. [Mehr dazu](configuration/retries.md#retry-duration)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen Ein-Klick-Opt-out-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](message-tracking.md#one-click-opt-out-link)
 * Der Abschnitt Subdomain delegieren wurde mit detaillierteren Informationen zum von Adobe durchgeführten Validierungsprozess aktualisiert. [Mehr dazu](configuration/delegate-subdomain.md#subdomain-validation)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domänen manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Die Abschnitte [Zugriff auf die Unterdrückungsliste](configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](configuration/retries.md) wurden aktualisiert, um die neue Benutzeroberfläche widerzuspiegeln.
@@ -34,7 +34,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Juli 2021
 
-* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer] Version vom 21. Juli wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 21. Juli wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Auf der Startseite und im Inhaltsverzeichnis von [!DNL Journey Optimizer] wurden direkte Links zur Experience Platform-Services-Dokumentation hinzugefügt.
 * In [!DNL Journey Optimizer] sind neue Landingpages für Experience Platform-Services verfügbar.
 * Auf der Startseite wurden Links zur Produktbeschreibung von [!DNL Journey Optimizer] hinzugefügt.
