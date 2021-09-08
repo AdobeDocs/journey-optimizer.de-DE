@@ -5,15 +5,27 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
-
 # Helper {#gs-helpers}
+
+## Standardwert für Fallback{#default-value}
+
+Der Helper `Default Fallback Value` wird verwendet, um einen standardmäßigen Fallback-Wert zurückzugeben, wenn ein Attribut leer oder null ist. Dieser Mechanismus funktioniert für Profilattribute und Journey-Ereignisse.
+
+**Syntax**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+In diesem Beispiel wird der Wert `there` angezeigt, wenn das Attribut `firstName` dieses Profils leer oder null ist.
 
 ## Bedingungen{#if-function}
 

@@ -1,13 +1,13 @@
 ---
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 36%
+source-wordcount: '1074'
+ht-degree: 91%
 
 ---
-
 
 # Versionshinweise {#release-notes}
 
@@ -22,13 +22,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <thead>
 <tr>
 
-<th><strong>Senden von Nachrichten zur besten Zeit - Sendezeitoptimierung</strong><br/></th>
+<th><strong>Senden von Nachrichten zur besten Zeit – Optimierung des Versandzeitpunktes</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Senden Sie Ihre Push- oder E-Mail-Benachrichtigung automatisch zum besten Zeitpunkt für jeden Kunden, den Sie mit Adobe Journey Optimizer verbinden. Die Sendezeitoptimierung basiert auf den KI-Diensten von Adobe und sagt die beste Sendezeit für E-Mails oder Push-Nachrichten voraus, um die Interaktion basierend auf historischen Öffnungs- und Klickraten vorkonfiguriert zu maximieren.</p>
-<p>Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Betaprogramm teilzunehmen.</p>
+<p>Senden Sie mit Adobe Journey Optimizer Ihre Push-Benachrichtigung oder E-Mail automatisch zum besten Zeitpunkt für jeden Kunden. Die Optimierung des Versandzeitpunktes basiert auf den KI-Services von Adobe und sagt den besten Versandzeitpunkt für E-Mails oder Push-Benachrichtigungen voraus. Dadurch werden die Interaktionen auf der Grundlage historischer Öffnungs- und Klickraten automatisch maximiert.</p>
+<p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
 <p>Weitere Informationen finden Sie in der <a href="building-journeys/journeys-message.md#send-time-optimization">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -39,13 +39,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <thead>
 <tr>
 
-<th><strong>Nutzen von Schemabeziehungen in Geschäftsereignissen - Verwaltung von Suchtabellen</strong><br/></th>
+<th><strong>Nutzen von Schemabeziehungen in Geschäftsereignissen – Verwalten von Lookup-Tabellen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt beim Konfigurieren von Geschäftsereignissen Beziehungen zwischen Schemas nutzen. Dies bietet zusätzlich die Möglichkeit, Felder aus verknüpften Tabellen beim Konfigurieren eines Einzelereignisses, bei der Verwendung von Bedingungen in einer Journey, bei der Nachrichtenpersonalisierung und bei der Personalisierung benutzerdefinierter Aktionen zu nutzen.</p>
+<p>Sie können jetzt beim Konfigurieren von Geschäftsereignissen Beziehungen zwischen Schemas nutzen. Dies bietet zusätzlich die Möglichkeit, Felder aus verknüpften Tabellen beim Konfigurieren eines unitären Ereignisses, bei der Verwendung von Bedingungen in einer Journey sowie bei der Personalisierung von Nachrichten und benutzerdefinierten Aktionen zu nutzen.</p>
 <p>Weitere Informationen finden Sie in der <a href="event/experience-event-schema.md#leverage_schema_relationships">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -73,13 +73,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Stellen Sie sicher, dass Ihre E-Mails an Ihre Benutzer gesendet werden - E-Mail erneut versenden</strong><br/></th>
+<th><strong>Stellen Sie sicher, dass Ihre E-Mails Ihre Benutzer erreichen – Weitere Zustellversuche bei E-Mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt den Wiederholungszeitraum pro Voreinstellung definieren, um sicherzustellen, dass Wiederholungsversuche nicht mehr ausgeführt werden, wenn sie nicht mehr benötigt werden. Beispielsweise können Sie die Wiederholungsdauer für eine Transaktionsnachricht zum Zurücksetzen des Kennworts, die einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Beachten Sie, dass Wiederholungseinstellungen nur für den E-Mail-Kanal gelten.</p>
+<p>Sie können jetzt den Zeitraum für weitere Zustellversuche pro Voreinstellung definieren, um sicherzustellen, dass keine weiteren Zustellversuche ausgeführt werden, wenn sie nicht mehr benötigt werden. Beispielsweise können Sie den Zeitraum für weitere Zustellversuche für eine Transaktionsnachricht zum Zurücksetzen des Passworts, die einen nur für einen Tag gültigen Link enthält, auf 24 Stunden begrenzen. Beachten Sie, dass Einstellungen für weitere Zustellversuche nur für den E-Mail-Kanal gelten.</p>
 <p>Weitere Informationen finden Sie in der <a href="configuration/retries.md#retry-duration">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -126,37 +126,37 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Journeys**
 
-* **Dynamische Header**  - Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
-* **Dynamische URL-Pfade**  - Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
-* Die Gesamtdrosselungsrate für Lesesegmente wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
+* **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
+* Die Gesamtdrosselungsrate für den Schritt „Segment lesen“ wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Benutzeroberfläche**
 
-* **Suche**  - Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld &quot;Einheitliches Experience Cloud&quot;durchsuchen. [Weitere Informationen](user-interface.md#unified-search)
-* **Neuigkeiten**  - Die Anzeige von Elementen der neuesten Version von der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Mit diesem Update umfassen die kürzlich aufgerufenen Verknüpfungen Nachrichten, Journey, Segmente, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele. [Weitere Informationen](action/about-custom-action-configuration.md#passing-collection)
+* **Suche** – Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld „Einheitliches Experience Cloud“ durchsuchen. [Weitere Informationen](user-interface.md#unified-search)
+* **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Mit diesem Update umfassen die kürzlich aufgerufenen Verknüpfungen Nachrichten, Journeys, Segmente, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele. [Weitere Informationen](action/about-custom-action-configuration.md#passing-collection)
 
 **Inhaltserstellung**
 
-* **Hintergrund**  - Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](preview.md)
-* **Ein-Klick-Ausschluss-Link**  - Sie können einen neuen Link-Typ in Ihren E-Mail-Inhalt einfügen: Mit dem  **Opt-** out-Link können sich Benutzer von der Anmeldung für Ihre Nachrichten mit nur einem Klick abmelden, ohne zu einer Landingpage weitergeleitet zu werden, um die Abmeldung zu bestätigen. [Weitere Informationen](message-tracking.md#one-click-opt-out-link)
+* **Hintergrund** – Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](preview.md)
+* **Ein-Klick-Opt-out-Link** – Sie können einen neuen Link-Typ in Ihren E-Mail-Inhalt einfügen: Mit dem **Opt-out**-Link können sich Benutzer vom Erhalt Ihrer Nachrichten mit nur einem Klick abmelden, ohne zu einer Landingpage weitergeleitet zu werden, um die Abmeldung zu bestätigen. [Weitere Informationen](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalisierung**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Ausdruckseditor**  - Bei der Definition der Personalisierung können Sie jetzt einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](personalization/functions/helper.md)
 
 **E-Mail-Konfiguration**
 
-* **Zulassungsliste**  - Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](allow-list.md#enable-allow-list)
+* **Zulassungsliste** – Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](allow-list.md#enable-allow-list)
 * **Navigation**  - Die Unterdrückungsliste, auf die über das Menü  **Administration > Kanäle > E-Mail-Konfiguration >** Allgemein zugegriffen werden kann, wurde in das neue Untermenü  **Unterdrückung** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 ### Fehlerbehebungen
 
-* Es wurde ein Problem mit der Barrierefreiheit in der Navigation auf der Meldungsregisterkarte behoben.
-* Es wurde ein Lokalisierungsproblem in den E-Mail-Designer-Bezeichnungen behoben.
-* Fehlerkorrektur - Es wurde ein Problem behoben, das bei der Auswahl von mehr als einem Knoten in einer Journey und beim Klicken auf &quot;Löschen&quot;im Eigenschaftsbereich auftrat.
-* Fehlerkorrektur - Eine neue Kopfzeile kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
-* Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvorgabe fehlgeschlagen ist.
+* Fehlerkorrektur – Die Barrierefreiheit in der Navigation auf der Nachrichtenregisterkarte funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur – Die Lokalisierung in den Email Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur – Die Auswahl von mehr als einem Knoten in einer Journey und anschließendem Klicken auf „Löschen“ im Eigenschafts-Panel funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur – Ein neuer Header kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
+* Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvoreinstellung fehlgeschlagen ist.
 
 
 ## Version Juli 2021 {#july-2021-release}
@@ -166,14 +166,14 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Metadaten in Ihren Nachrichten - Verwaltung von Suchtabellen</strong><br/></th>
+<th><strong>Verwenden von Metadaten in Ihren Nachrichten – Verwalten von Lookup-Tabellen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Reichern Sie Ihre Erlebnisse mit Referenzdaten an, die Sie in Journey Optimizer geladen haben. Beispiele sind das Suchen von Metadaten für eine Reservierungs-ID in einem Erlebnisereignis oder das Suchen von Produktinformationen aus einer SKU in einem Erlebnisereignis zur Verwendung auf der Arbeitsfläche. </p>
-<p>Sie können jetzt Beziehungen zwischen Schemas nutzen, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Sie können dann alle Felder der verknüpften Tabellen bei der Konfiguration eines Einzelereignisses, bei der Verwendung von Bedingungen in einer Journey, bei der Nachrichtenpersonalisierung und bei der Personalisierung benutzerdefinierter Aktionen nutzen.</p>
+<p>Sie können jetzt Ihre Erlebnisse mit Referenzdaten anreichern, die Sie in Journey Optimizer geladen haben. Beispiele sind das Suchen von Metadaten für eine Reservierungs-ID in einem Erlebnisereignis oder das Suchen von Produktinformationen über eine Artikelnummer in einem Erlebnisereignis zur Verwendung auf der Arbeitsfläche. </p>
+<p>Sie können jetzt Beziehungen zwischen Schemas nutzen, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Sie können dann alle Felder der verknüpften Tabellen verwenden, wenn Sie ein unitäres Ereignis konfigurieren oder Bedingungen in einer Journey oder bei der Personalisierung von Nachrichten und benutzerdefinierten Aktionen nutzen.</p>
 <p>Weitere Informationen finden Sie in der <a href="event/experience-event-schema.md#leverage_schema_relationships">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -224,5 +224,4 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 * Fehlerkorrektur – Im Bildschirm „PTR-Datensätze“ fehlen jetzt keine IP-Informationen mehr.
 * Fehlerkorrektur – Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
 * Fehlerkorrektur – Der Abstand in Informations-Popups ist jetzt korrekt.
-* Fehlerkorrektur - Beim Hochladen einer HTML-Datei in Email Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.
-
+* Fehlerkorrektur – Beim Hochladen einer HTML-Datei in Email Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.
