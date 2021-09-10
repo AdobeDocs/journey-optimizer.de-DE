@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 91%
+source-wordcount: '1113'
+ht-degree: 88%
 
 ---
 
@@ -148,7 +148,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * **Zulassungsliste** – Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](allow-list.md#enable-allow-list)
 * **Navigation**  - Die Unterdrückungsliste, auf die über das Menü  **Administration > Kanäle > E-Mail-Konfiguration >** Allgemein zugegriffen werden kann, wurde in das neue Untermenü  **Unterdrückung** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Entscheidungs-Management**
+
+* Die Art und Weise, wie Sie beim Erstellen eines Angebots Darstellungen hinzufügen und konfigurieren, wurde aktualisiert, um das Benutzererlebnis zu verbessern. Insbesondere wird die Asset-Bibliothek jetzt nur angezeigt, wenn Sie Bildinhalte für eine Darstellung definieren. [Weitere Informationen](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Fehlerbehebungen
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 75%
 
 ---
 
@@ -45,43 +45,67 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
 ## Darstellungen des Angebots konfigurieren {#representations}
 
-1. Fügen Sie mithilfe der Schaltfläche **[!UICONTROL Darstellung hinzufügen]** eine oder mehrere Darstellungen für Ihr Angebot hinzu.
+Ein Angebot kann an verschiedenen Stellen in einer Nachricht angezeigt werden: in einem oberen Banner mit einem Bild, als Text in einem Absatz, als HTML-Block usw. Je mehr Darstellungen ein Angebot hat, desto mehr Möglichkeiten gibt es, das Angebot in verschiedenen Platzierungskontexten zu verwenden.
 
-   >[!NOTE]
-   >
-   >Ein Angebot kann in einer Nachricht an verschiedenen Stellen angezeigt werden: in einem oberen Banner mit einem Bild, als Text in einem Absatz, als HTML-Block usw. Je mehr Darstellungen ein Angebot hat, desto mehr Möglichkeiten gibt es, das Angebot in verschiedenen Platzierungskontexten zu verwenden.
+Gehen Sie wie folgt vor, um eine oder mehrere Darstellungen zu Ihrem Angebot hinzuzufügen und sie zu konfigurieren.
 
-1. Geben Sie für jede Darstellung den **[!UICONTROL Kanal]** und die **[!UICONTROL Platzierung]** an, an der das Angebot angezeigt werden soll.
+1. Wählen Sie für die erste Darstellung zunächst den zu verwendenden Kanal **[!UICONTROL A1/> aus.]**
 
    ![](../../assets/channel-placement.png)
 
-   Mit der Schaltfläche **[!UICONTROL Durchsuchen]** können Sie verfügbare Platzierungen filtern und nach ihrem Kanal und/oder Inhaltstyp filtern.
+   Nur die verfügbaren Platzierungen für den ausgewählten Kanal werden in der Dropdownliste **[!UICONTROL Platzierung]** angezeigt.
+
+1. Wählen Sie eine Platzierung aus der Liste aus oder verwenden Sie die Schaltfläche neben der Dropdownliste **[!UICONTROL Platzierung]** , um alle Platzierungen zu durchsuchen.
+
+   ![](../../assets/browse-button-placements.png)
+
+   Dort können Sie die Platzierungen nach Kanal und/oder Inhaltstyp filtern. Wählen Sie eine Platzierung aus und klicken Sie auf **[!UICONTROL Auswählen]**.
 
    ![](../../assets/browse-placements.png)
 
-1. Fügen Sie jeder Darstellung Inhalte hinzu, die aus der Adobe Experience Cloud Assets-Bibliothek oder von einem externen öffentlichen Speicherort stammen. 
+1. Fügen Sie Ihrer Darstellung Inhalt hinzu.
 
-   * Um Inhalte aus der Adobe Experience Cloud Assets-Bibliothek hinzuzufügen, ziehen Sie diese aus dem linken Bereich in den Darstellungsbereich und geben Sie dann im Feld **[!UICONTROL Ziel-Link]** die URL an, die mit dem Inhalt verknüpft werden soll.
+   >[!NOTE]
+   >
+   >Es sind nur Inhalte verfügbar, die dem Inhaltstyp der Platzierung entsprechen.
+
+   * Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können Sie Inhalte aus der Adobe Experience Cloud Asset-Bibliothek hinzufügen, einem zentralen Repository mit Assets, das von [!DNL Adobe Experience Manager Assets Essentials] bereitgestellt wird.
 
       >[!NOTE]
       >
-      >Inhalte können nur aus der Asset-Auswahl im linken Panel gezogen und abgelegt werden. Es sind nur Inhalte verfügbar, die dem Inhaltstyp der Platzierung entsprechen.
+      > Um mit [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;} zu arbeiten, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** oder **Assets Essentials Users** sind. Weitere Informationen zu [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
-      ![](../../assets/offer_drag_content.png)
+      Wählen Sie die Option **[!UICONTROL Asset-Bibliothek]** und wählen Sie **[!UICONTROL Durchsuchen]** aus.
 
-   * Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt hinzufügen]** und geben Sie dann den Namen, die URL und den Ziel-Link des hinzuzufügenden Inhalts an.
+      ![](../../assets/offer-browse-asset-library.png)
 
-      Vergewissern Sie sich, dass der Inhalt, den Sie hinzufügen, dem Inhaltstyp der ausgewählten Platzierung entspricht.
+      Durchsuchen Sie die Assets, um das Bild Ihrer Wahl auszuwählen, und klicken Sie auf **[!UICONTROL Wählen Sie]**.
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * Sie können auch Textinhalte einfügen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Inhalt hinzufügen]** und wählen Sie dann die Option **[!UICONTROL Eigener Text]**. Geben Sie im Feld **[!UICONTROL Text]** den Text ein, der im Angebot angezeigt werden soll.
+   * Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, wählen Sie **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
+
+      ![](../../assets/offer-content-url.png)
+
+   * Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung auswählen. Wählen Sie die Option **[!UICONTROL Benutzerdefiniert]** aus und geben Sie den Text ein, der im Angebot angezeigt werden soll.
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >Bei Platzierungen vom Typ „Bild“ ist diese Option nicht verfügbar.
 
-      ![](../../assets/offer_text_content.png)
+1. Wenn Sie Inhalte wie ein Bild oder eine URL hinzufügen, können Sie einen **[!UICONTROL Ziel-Link]** angeben: die Benutzer, die auf das Angebot klicken, werden zur entsprechenden Seite weitergeleitet.
+
+   ![](../../assets/offer-destination-link.png)
+
+1. Wählen Sie abschließend die Sprache Ihrer Wahl aus, um zu ermitteln und zu verwalten, welche Inhalte den Benutzern angezeigt werden sollen.
+
+1. Um eine weitere Darstellung hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Darstellung]** hinzufügen und fügen Sie beliebig viele Darstellungen hinzu.
+
+   ![](../../assets/offer-add-representation.png)
+
+1. Nachdem Sie alle Ihre Darstellungen hinzugefügt haben, wählen Sie **[!UICONTROL Weiter]** aus.
 
 ## Eignungsregeln und Einschränkungen hinzufügen {#eligibility}
 

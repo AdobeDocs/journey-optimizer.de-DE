@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 79%
+source-wordcount: '473'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Screenshots von Email Designer wurden mit den neuesten Optionen der Benutzeroberfläche aktualisiert.
 * Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](action/about-custom-action-configuration.md#url-configuration)
 * Es wurde ein Abschnitt über barrierefreie Funktionen und Tastaturbefehle hinzugefügt. [Mehr dazu](user-interface.md#accessibility)
-* Es wurde ein Abschnitt über Methoden zur Segmentauswertung hinzugefügt. [Mehr dazu](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Es wurde ein Abschnitt über Methoden zur Segmentprüfung hinzugefügt. [Mehr dazu](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Es wurden Hinweise zu den Abschnitten „Unterdrückungsliste“, „Zulassungsliste“ und „Globaler/Live-Bericht zum E-Mail-Versand“ hinzugefügt, in denen erläutert wird, dass Profile mit dem Status „Unterdrückt“ und „Nicht erlaubt“ aus der Metrik „Gesendet“ des E-Mail-Berichts ausgeschlossen werden. [Mehr dazu](reports/email-global-report.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domains abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](allow-list.md#reporting)
 * Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](allow-list.md#enable-allow-list)
@@ -30,6 +30,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt Subdomain delegieren wurde mit detaillierteren Informationen zum von Adobe durchgeführten Validierungsprozess aktualisiert. [Mehr dazu](configuration/delegate-subdomain.md#subdomain-validation)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domänen manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Die Abschnitte [Zugriff auf die Unterdrückungsliste](configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](configuration/retries.md) wurden aktualisiert, um die neue Benutzeroberfläche widerzuspiegeln.
+* Der neue Ablauf zum Hinzufügen und Konfigurieren von Darstellungen beim Erstellen eines Angebots wurde dokumentiert. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021
