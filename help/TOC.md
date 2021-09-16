@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 100%
@@ -23,6 +23,7 @@ ht-degree: 100%
    + [Was ist Journey Optimizer?](using/get-started.md)
    + [Schnellstart](using/quick-start.md)
    + [Benutzeroberfläche](using/user-interface.md)
+   + [Einschränkungen](using/limitations.md)
 + Nachrichten {#create-messages}
    + [Erste Schritte mit Nachrichten](using/get-started-content.md)
    + Erstellen von Nachrichten {#create-message}
@@ -68,7 +69,6 @@ ht-degree: 100%
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
-      + [Einschränkungen](using/building-journeys/limitations.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Testprofile](using/building-journeys/creating-test-profiles.md)
       + [Integration mit Intelligent Services](using/building-journeys/ai-services-overview.md)

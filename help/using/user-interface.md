@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 100%
+source-wordcount: '1527'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) h
 >
 >* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 >
-> * Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren Berechtigungen und Ihrem Lizenzierungspaket ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
+>* Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren [Berechtigungen](administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
 
 
 ## Linke Navigation
@@ -111,7 +111,7 @@ Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzei
 
 ## Barrierefreiheit{#accessibility}
 
-Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe Experience Platform bereitgestellt:
+Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
 
 * Tastaturzugriff
 * Farbkontrast
@@ -119,19 +119,19 @@ Die Funktionen für Barrierefreiheit in Adobe Journey Optimizer werden von Adobe
 
 [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
-Sie können die folgenden gängigen Tastaturbefehle in Adobe Journey Optimizer verwenden:
+Sie können die folgenden gängigen Tastaturbefehle in [!DNL Journey Optimizer] verwenden:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Tabulatortaste |
-| Zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche rückwärts wechseln | Umschalttaste + Tabulatortaste |
-| Innerhalb von Abschnitten wechseln, um den Fokus auf einzelne Elemente zu setzen | Pfeil |
-| Element im Fokus auswählen oder löschen | Eingabetaste oder Leertaste |
-| Eine Auswahl aufheben, ein Panel reduzieren oder ein Dialogfeld schließen | Esc |
+| Wechseln zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche | Tabulatortaste |
+| Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
+| Bewegen innerhalb von Abschnitten zum Setzen des Fokus auf einzelne Elemente | Pfeil |
+| Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
+| Abbrechen einer Auswahl, Reduzieren eines Panels oder Schließen eines Dialogfelds | Esc |
 
 [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
-Diese Tastaturbefehle können Sie in bestimmten Teilen von Journey Optimizer verwenden:
+Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer verwenden:
 
 <table>
   <thead>
@@ -143,20 +143,20 @@ Diese Tastaturbefehle können Sie in bestimmten Teilen von Journey Optimizer ver
   </thead>
   <tr>
     <td>Liste der Journeys, Aktionen, Datenquellen oder Ereignisse</td>
-    <td>Journey, Aktion, Datenquelle oder Ereignis erstellen</td>
+    <td>Erstellen einer Journey, Aktion, Datenquelle oder eines Ereignisses</td>
     <td>C</td>
   </tr>
   <tr>
     <td rowspan="3">Journey-Arbeitsfläche im Entwurfsstatus</td>
-    <td>Aktivität aus der linken Palette an der ersten verfügbaren Position von oben nach unten hinzufügen</td>
-    <td>Doppelklicken auf die Aktivität</td>
+    <td>Hinzufügen einer Aktivität aus der linken Palette an der ersten verfügbaren Position von oben nach unten</td>
+    <td>Doppelklick auf die Aktivität</td>
   </tr>
   <tr>
-    <td>Alle Aktivitäten auswählen</td>
+    <td>Auswahl aller Aktivitäten</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
   <tr>
-    <td>Ausgewählte Aktivitäten löschen</td>
+    <td>Löschen von ausgewählten Aktivitäten</td>
     <td>Löschen oder Rücktaste und anschließend Eingabetaste zur Bestätigung des Löschvorgangs</td>
   </tr>
   <tr>
@@ -172,36 +172,36 @@ Konfigurationsbereich dieser Elemente:
 </ul>
 
 </td>
-    <td>Zum nächsten zu konfigurierenden Feld wechseln</td>
+    <td>Wechseln zum nächsten zu konfigurierenden Feld</td>
     <td>Tabulatortaste</td>
   </tr>
   <tr>
-    <td>Änderungen speichern und Konfigurationsbereich schließen</td>
+    <td>Speichern der Änderungen und Schließen des Konfigurationsbereichs</td>
     <td>Eingabetaste</td>
   </tr>
   <tr>
-    <td>Änderungen verwerfen und den Konfigurationsbereich schließen</td>
+    <td>Verwerfen von Änderungen und Schließen des Konfigurationsbereichs</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td rowspan="4">Journey im Testmodus</td>
-    <td>Testmodus aktivieren oder deaktivieren</td>
+    <td>Aktivieren oder Deaktivieren des Testmodus</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>Ereignis in einer ereignisbasierten Journey auslösen</td>
+    <td>Auslösen eines Ereignisses in einer ereignisbasierten Journey</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Ereignis in einer segmentbasierten Journey auslösen, für das die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
+Auslösen eines Ereignisses in einer segmentbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Testprotokolle anzeigen</td>
+    <td>Anzeigen der Testprotokolle</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -213,7 +213,7 @@ Ereignis in einer segmentbasierten Journey auslösen, für das die Option **[!UI
 -->
   <tr>
     <td>Textfeld</td>
-    <td>Gesamten Text im ausgewählten Feld auswählen</td>
+    <td>Auswahl des gesamten Texts im ausgewählten Feld</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
   <tr>
@@ -222,22 +222,22 @@ Ereignis in einer segmentbasierten Journey auslösen, für das die Option **[!UI
     <td>Eingabetaste</td>
   </tr>
   <tr>
-    <td>Fenster schließen</td>
+    <td>Schließen des Fensters</td>
     <td>Esc</td>
   </tr>
   <tr>
     <td>Einfacher Ausdruckseditor</td>
-    <td>Feld auswählen und hinzufügen</td>
+    <td>Auswählen und Hinzufügen eines Feldes</td>
     <td>Doppelklick auf ein Feld</td>
   </tr>
   <tr>
-    <td>XDM-Felder durchsuchen</td>
-    <td>Aller Felder eines Knotens auswählen</td>
-    <td>Übergeordneten Knoten auswählen</td>
+    <td>Durchsuchen von XDM-Feldern</td>
+    <td>Auswahl aller Felder eines Knotens</td>
+    <td>Auswahl des übergeordneten Knotens</td>
   </tr>
   <tr>
     <td>Payload-Vorschau</td>
-    <td>Payload auswählen</td>
+    <td>Auswahl der Payload</td>
     <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
   </tr>
 </table>

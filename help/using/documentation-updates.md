@@ -2,7 +2,7 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 76%
@@ -46,7 +46,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * „Angebotsaktivitäten“ wurden in der Dokumentation und deren Abbildungen in „Entscheidungen“ und „Entscheidungen“ in „Entscheidungsbereiche“ umbenannt. [Mehr dazu](offers/get-started/starting-offer-decisioning.md)
 * Neuer Anwendungsfall: [Personalisieren einer Nachricht mit Hilfsfunktionen](personalization/personalization-use-case-helper-functions.md)
 * Die Dokumentation zum Lesen von Segmenten wurde aktualisiert, um die Auswirkungen materieller Segmente widerzuspiegeln. [Mehr dazu](building-journeys/read-segment.md)
-* Die Journey-Einschränkungen wurden aktualisiert. [Mehr dazu](building-journeys/limitations.md)
+* Die Journey-Einschränkungen wurden aktualisiert. [Mehr dazu](limitations.md)
 * Der Abschnitt Angebotsauswahl in Entscheidungen konfigurieren wurde aktualisiert - [Mehr dazu](offers/offer-activities/configure-offer-selection.md)
 * Es wurde ein Warnhinweis hinzugefügt, der darauf hinweist, dass ereignisbasierte Angebote derzeit nicht unterstützt werden. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Dokumentation der neuen Registerkarte Entscheidungsverwaltung **[!UICONTROL Übersicht]** [Mehr dazu](offers/get-started/user-interface.md#overview)

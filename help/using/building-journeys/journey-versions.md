@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer 
 
 >[!NOTE]
 >
->Weitere Informationen zu Einschränkungen für Journey-Versionen finden Sie auf [dieser Seite](../building-journeys/limitations.md#journey-versions-limitations).
+>Weitere Informationen zu Einschränkungen für Journey-Versionen finden Sie auf [dieser Seite](../limitations.md#journey-versions-limitations).
 
 1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
