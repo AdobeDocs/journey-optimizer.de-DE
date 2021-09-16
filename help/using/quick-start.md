@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 40%
 
 ---
 
@@ -21,40 +21,55 @@ Mit [!DNL Adobe Journey Optimizer] können Sie bestehende Nachrichteninhalte imp
 
 Je nach Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-### Voraussetzungen {#cjm-prerequisites}
+## Vorbereiten und Konfigurieren der Umgebung
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, müssen Sie:
+Bevor Sie mit der Verwendung von [!DNL Adobe Journey Optimizer] beginnen, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten.
 
-* **Benutzerberechtigungen festlegen**: Melden Sie sich bei [!DNL Adobe Journey Optimizer] an und gewähren Sie Ihren Team-Mitgliedern Zugriff. [Mehr dazu](../using/administration/permissions.md)
+Als Systemadministrator müssen Sie **Produktprofile verstehen und Berechtigungen** für die Sandbox-Verwaltung und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Produktprofile verwalten.
+Anschließend können Sie Produktprofilen Team-Mitglieder zuweisen und **Kanalkonfiguration** für Nachrichten einrichten.
 
-* **Bereitstellen von[!DNL Adobe Experience Manager Assets Essentials]**: Um Assets und Bilder in Ihren Nachrichten zu verwalten, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff auf [!DNL Assets Essentials] benötigen, zu den Produktprofilen **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** gehören. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}
+Weitere Informationen finden Sie auf den folgenden Seiten:
 
-* **Kanäle konfigurieren**: Definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
+* **Erste Schritte mit Produktprofilen und Berechtigungen**
 
-* **Voreinstellungen definieren**: Erstellen Sie Ihre Vorgaben und konfigurieren Sie Ihre Branding-Parameter. [Mehr dazu](../using/configuration/message-presets.md)
+* **Legen Sie** Benutzerberechtigungen fest und gewähren Sie Zugriff auf Ihre Team-Mitglieder. [Mehr dazu](../using/administration/permissions.md)
 
-* **Daten identifizieren und Schema und Datensatz erstellen**: Holen Sie Ihre Daten in Adobe Experience Platform, erstellen Sie einen Identity-Namespace und einen für Profile aktivierten Datensatz, erstellen Sie Segmente und Testprofile.
+* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]** zum Verwalten von Assets und Bildern in Ihren Nachrichten: -Benutzer, die Zugriff auf benötigen,  [!DNL Assets Essentials] müssen Teil der  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct-Profile sein. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}
 
-   * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de) erfahren Sie, wie Sie eine Vorschau anzeigen und einen Datensatz erstellen.{target=&quot;_blank&quot;}
+* **Konfigurieren Sie Ihre** Kanäle und definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
 
-   * In der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;} erfahren Sie, wie Sie einen Identity-Namespace erstellen.
+* **Definieren Sie Ihre** Vorgaben und konfigurieren Sie Ihre Branding-Parameter. [Mehr dazu](../using/configuration/message-presets.md)
 
-   * Auf [dieser Seite](../using/building-journeys/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen
-
-   * Weitere Informationen zur Datenaufnahme finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de).{target=&quot;_blank&quot;}
+* **Verwalten Sie** Sandboxes, um Ihre Instanz in separate virtuelle Umgebungen zu unterteilen. [Mehr dazu](../using/administration/sandboxes.md)
 
 
-### Nutzungsfluss
+## Vorbereiten Ihrer Daten und Konfigurieren Ihrer Journey
 
-Lesen Sie die folgenden Abschnitte, um Ihre erste Journey einzurichten und Nachrichten zu senden:
+Als Datenadministrator müssen Sie **Daten identifizieren und Schema und Datensatz** erstellen, um Ihre Daten in Adobe Experience Platform zu erhalten.
+
+Die Schritte zum Erstellen eines Identitäts-Namespace und eines Datensatzes, die für Profile aktiviert sind, sowie zum Erstellen von Segmenten und Testprofilen werden in den folgenden Abschnitten beschrieben:
+
+* Erfahren Sie, wie Sie einen **Datensatz** in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de){target=&quot;_blank&quot;} in der Vorschau anzeigen und erstellen.
+
+* Erfahren Sie, wie Sie einen **Identitäts-Namespace** in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de#manage-namespaces){target=&quot;_blank&quot;} erstellen.
+
+* Erfahren Sie, wie Sie **Testprofile** in [dieser Seite](../using/building-journeys/creating-test-profiles.md) erstellen.
+
+* Weitere Informationen zu **Datenerfassung** in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}
+
+* Erfahren Sie, wie Sie **die Zielgruppe** definieren, Segmente erstellen, Einverständnis und Datenschutz in [dieser Seite](../using/segment/about-segments.md) verwalten.
+
+Um Nachrichten in Journey senden zu können, müssen Sie außerdem **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** und **[!UICONTROL Aktionen]** konfigurieren. Weiterführende Informationen finden Sie in diesem [Abschnitt](../using/configuration/about-data-sources-events-actions.md)
+
+## Nachrichten, Angebote und Journey erstellen
+
+Als Journey-Practice-Mitarbeiter finden Sie in den folgenden Abschnitten Informationen zum Einrichten Ihrer ersten Journey, Hinzufügen von Angeboten, Assets und Senden von Nachrichten:
 
 * **Nachrichten erstellen**: Greifen Sie auf Nachrichten zu, entwerfen oder laden Sie Inhalte für E-Mails und Push-Benachrichtigungen, fügen Sie Personalisierungen hinzu und sehen Sie sich eine Vorschau der Nachrichten an. [Mehr dazu](create-message.md)
 
 * **Assets hochladen**: Verwenden Sie Adobe Experience Manager Assets Essentials, um Assets und Bilder zu verwalten. [Mehr dazu](assets-essentials.md)
 
 * **Angebote hinzufügen**: Verwenden Sie das Entscheidungs-Management in Journey Optimizer, um Ihren Nachrichten personalisierte Angebote hinzuzufügen. [Mehr dazu](../using/offers/get-started/starting-offer-decisioning.md)
-
-* **Audience definieren**: Erstellen Sie Segmente, erstellen Sie Ereignisse, verwalten Sie Einverständnis und Datenschutz. [Mehr dazu](../using/segment/about-segments.md)
 
 * **Journeys erstellen**: Senden Sie Nachrichten, nutzen Sie kontextbezogene Daten, verfeinern Sie Audiences, entwerfen Sie mehrstufige Anwendungsfälle und führen Sie diese aus. [Mehr dazu](building-journeys/journey.md)
 
