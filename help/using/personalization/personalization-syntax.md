@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 87%
 
 ---
 
@@ -142,3 +142,24 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 >[!CAUTION]
 >
 >Die Variable **xEvent** ist in Personalisierungsausdrücken nicht verfügbar. Die Verwendung von xEvent führt zu Überprüfungsfehlern.
+
+## URL-Personalisierung{#perso-urls}
+
+Mit Journey Orchestration können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie ihnen Personalisierungsfelder hinzufügen. Gehen Sie folgendermaßen vor:
+
+* Erstellen Sie einen Link in Ihrem E-Mail- oder Push-Inhalt. Weitere Informationen zur Linkerstellung finden Sie auf [dieser Seite](../message-tracking#insert-links)).
+* Wählen Sie das Personalisierungssymbol aus. Dieses Symbol ist für diese spezifischen Linktypen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>&amp;grave;
+>Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, sind Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
+
+** Beispiel für personalisierte URLs **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
