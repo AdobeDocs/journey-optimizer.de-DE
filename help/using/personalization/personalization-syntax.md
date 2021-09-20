@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
+source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 87%
@@ -147,7 +147,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 Mit Journey Orchestration können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie ihnen Personalisierungsfelder hinzufügen. Gehen Sie folgendermaßen vor:
 
-* Erstellen Sie einen Link in Ihrem E-Mail- oder Push-Inhalt. Weitere Informationen zur Linkerstellung finden Sie auf [dieser Seite](../message-tracking#insert-links)).
+* Erstellen Sie einen Link in Ihrem E-Mail- oder Push-Inhalt. Weitere Informationen zur Linkerstellung finden Sie auf [dieser Seite](../message-tracking.md#insert-links)).
 * Wählen Sie das Personalisierungssymbol aus. Dieses Symbol ist für diese spezifischen Linktypen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
 
 ![](assets/perso-url.png)
