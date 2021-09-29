@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 86%
+source-wordcount: '1493'
+ht-degree: 72%
 
 ---
 
@@ -13,6 +13,78 @@ ht-degree: 86%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die neusten [Aktualisierungen der Dokumentation](documentation-updates.md) einsehen.
 
+
+
+## Version September 2021 {#september-2021-release}
+
+### Neue Funktionen
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Reporting - Bessere Einblicke in die Zielgruppe</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Berichten ist eine neue Metrik verfügbar: Die Zielgruppe für E-Mail- und Push-Nachrichten ist sowohl in Live- als auch in globalen Berichten sichtbar.</p>
+<p>Eine neue Spalte in der Ausführungsliste der Nachricht zeigt die Anzahl der Zielgruppenprofile für jede Nachrichtenausführung an. </p>
+<p>Weitere Informationen finden Sie in der <a href="message-monitoring.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Dynamisches Übergeben von Datenlisten mithilfe benutzerdefinierter Aktionen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
+<p>Weiterführende Informationen zu Kollektionen finden Sie in der <a href="building-journeys/collections.md">ausführlichen Dokumentation</a>. </p>
+<p>Die Filter- und Schnittfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> .</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Verbesserungen
+
+**Journeys**
+
+* Systemgenerierte Schemata und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu vermeiden. [Weitere Informationen](reports/sharing-overview.md)
+* Benennen Sie die Aktivität **Wait** eindeutig mit einer Bezeichnung, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Berichts- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](building-journeys/about-journey-activities.md#best-practices)
+* Suchen Sie Ihre Ereignisse und Aktionen schneller, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](building-journeys/using-the-journey-designer.md)
+* Beim Definieren einer Ereignis-ID-Bedingung in einem regelbasierten oder geschäftlichen Ereignis ist jetzt der Operator &quot;enthält&quot;für Feldzeichenfolgen-Typen verfügbar. [Weitere Informationen](event/about-creating.md)
+
+**E-Mail-Konfiguration**
+
+* Wenn ein IP-Pool mit einer Nachrichtenvorgabe verknüpft wurde, können Sie sie jetzt bearbeiten, wobei die Aktualisierung asynchron erfolgt. Sie können auch den Status jedes IP-Pool-Updates überprüfen. [Weitere Informationen](configuration/ip-pools.md#edit-ip-pool)
 
 ## Version August 2021 {#august-2021-release}
 
@@ -124,7 +196,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
@@ -151,7 +223,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Entscheidungs-Management**
 
-* Die Art und Weise, wie Sie beim Erstellen eines Angebots Darstellungen hinzufügen und konfigurieren, wurde aktualisiert, um das Benutzererlebnis zu verbessern. Insbesondere wird die Asset-Bibliothek jetzt nur angezeigt, wenn Sie Bildinhalte für eine Darstellung definieren. [Weitere Informationen](offers/offer-library/creating-personalized-offers.md#representations)
+* Die Art und Weise, wie Sie beim Erstellen eines Angebots Darstellungen hinzufügen und konfigurieren, wurde aktualisiert, um das Anwendererlebnis zu verbessern. Insbesondere wird die Asset-Bibliothek jetzt nur angezeigt, wenn Sie für eine Darstellung Bildinhalte definieren. [Weitere Informationen](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Fehlerbehebungen
 

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 100%
    + Anwendungsfälle {#journey-use-cases}
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+      + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
 + Tracken und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 100%
       + [Aktionsausführungsfelder](using/reports/sharing-execution-fields.md)
       + [Datenabruffelder](using/reports/sharing-fetch-fields.md)
       + [Identitätsfelder](using/reports/sharing-identity-fields.md)
+      + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
       + [Unterdrückungsliste](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 100%
       + [Entscheidungsregeln erstellen](using/offers/offer-library/creating-decision-rules.md)
       + [Tags erstellen](using/offers/offer-library/creating-tags.md)
       + [Rangfolgeformeln erstellen](using/offers/offer-library/create-ranking-formulas.md)
+      + [Rangfolgestrategien erstellen](using/offers/offer-library/create-ranking-strategies.md)
    + Angebote erstellen und verwalten {#managing-offers-in-the-offer-library}
       + [Personalisierte Angebote erstellen](using/offers/offer-library/creating-personalized-offers.md)
       + [Fallback-Angebote erstellen](using/offers/offer-library/creating-fallback-offers.md)

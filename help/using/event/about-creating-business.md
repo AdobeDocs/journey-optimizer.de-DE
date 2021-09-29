@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 85%
 
 ---
 
@@ -31,6 +31,18 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 * Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
 * Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
 * Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
+
+## Mehrere Geschäftsereignisse
+
+Im Folgenden finden Sie einige wichtige Hinweise, die gelten, wenn mehrere Geschäftsereignisse nacheinander empfangen werden.
+
+**Wie verhält es sich beim Empfang eines Geschäftsereignisses während der Verarbeitung der Journey?**
+
+Geschäftsereignisse folgen den Regeln für den Wiedereintritt auf die gleiche Weise wie für Einzelereignisse. Wenn eine Journey den erneuten Eintritt erlaubt, wird das nächste Geschäftsereignis verarbeitet.
+
+**Welche Limits gibt es, um zu verhindern, dass materialisierte Segmente überladen werden?**
+
+Bei Geschäftsereignissen wird die Wiederverwendbarkeit des Themas auf eine Stunde festgelegt. Dies bedeutet, dass für eine bestimmte Journey in einem einstündigen Zeitfenster kein neuer Exportauftrag erstellt wird. Daten, die vom ersten Ereignisauftrag gesendet werden, werden wiederverwendet. Für geplante Journey gibt es keine Schutzmechanismen.
 
 ## Erste Schritte mit Geschäftsereignissen
 
@@ -70,6 +82,10 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
    ![](../assets/jo-event6-business.png)
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Kennung des Produkts geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis erhält, das dieser Bedingung entspricht, dieses an Journeys weitergibt.
+
+   >[!NOTE]
+   >
+   >Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar, sondern hängen vom Datentyp ab. Beispielsweise können Sie für einen Feldzeichenfolgentyp &quot;contains&quot;oder &quot;equal to&quot;verwenden.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,6 @@ In beiden Fällen greifen Sie auf den Personalisierungseditor zu.
 
 ![](assets/perso_ee.png)
 
-
 ### Push-Benachrichtigungen personalisieren
 
 Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalisieren:
@@ -78,7 +77,13 @@ Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalis
 
 Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-gs.md).
 
-## Ausdruckseditor verwenden
+### Angebote personalisieren {#personalize-offers}
+
+Sie können auch auf den Personalisierungs-Editor zugreifen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen.
+
+Weitere Informationen zur Verwaltung von Inhalten mit der Entscheidungsverwaltung finden Sie in [diesem Abschnitt](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Ausdruckseditor verwenden {#use-expression-editor}
 
 Der Ausdruckseditor ist das Herzstück der Personalisierung in [!DNL Journey Optimizer].
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 
 * **[!UICONTROL Startdatum]**: Datum und Uhrzeit, an dem die Nachricht von der Journey ausgeführt wurde.
 
-   <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+* **[!UICONTROL Targeting]**: Anzahl der Zielgruppenprofile für jede Nachrichtenausführung.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die aufgrund von Ausschlussregeln von der ursprünglichen Zielgruppe ausgeschlossen wurden.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '834'
 ht-degree: 100%
 
 ---
@@ -112,7 +112,9 @@ Gehen Sie wie folgt vor, um Ihrer E-Mail einen Opt-out-Link hinzuzufügen.
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+   Sie können Ihre Links personalisieren. Weitere Informationen zu personalisierten URLs finden Sie in [diesem Abschnitt](personalization/personalization-syntax.md).
+
+1. Speichern Sie Ihre Änderungen.
 
 Wenn ein Empfänger nach dem Versand Ihrer Nachricht auf den Opt-out-Link klickt, wird er sofort abgemeldet.
 

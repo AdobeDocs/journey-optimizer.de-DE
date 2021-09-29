@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung (zuvor als Angebotsaktivität bezeichnet) die Methode auswählen, die das beste Angebot für jedes Profil auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
 * Rangfolgenformel
+* [KI-Rangfolge](#use-ranking-strategy)  (nur bei frühzeitigem Zugriff für ausgewählte Benutzer)
+
+![](../../assets/offer-rank-by.png)
 
 ## Angebotspriorität {#about-offers-priority}
 
@@ -54,3 +57,41 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 Die Rangfolgenformel ist nun mit der Platzierung verknüpft.
 
 Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
+
+## KI-Rangfolge {#use-ranking-strategy}
+
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+
+>[!CAUTION]
+>
+>Die Verwendung der KI-Rangfolge ist derzeit nur für ausgewählte Benutzer verfügbar.
+
+Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung (früher als Angebotsaktivität bezeichnet) zuweisen. Gehen Sie dazu wie folgt vor:
+
+1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
+
+1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
+
+1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
+
+1. Wählen Sie aus der Dropdown-Liste aus, dass Sie Angebote nach **[!UICONTROL KI-Rangfolge]** sortieren möchten.
+
+   ![](../../assets/ranking-selection-ai-ranking.png)
+
+1. Klicken Sie auf **[!UICONTROL Rangfolge hinzufügen]**.
+
+   ![](../../assets/ranking-selection-ai-ranking-add.png)
+
+1. Wählen Sie die von Ihnen erstellte Rangfolgestrategie aus. Alle Details der Rangfolgestrategie werden angezeigt.
+
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+
+1. Klicken Sie auf **[!UICONTROL Auswählen]**.
+
+Die Rangfolgestrategie ist nun mit der Platzierung verknüpft.
+
+Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot zuerst für eine bestimmte Platzierung gezeigt werden soll.
+
+<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
+
+<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

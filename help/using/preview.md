@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -98,7 +98,7 @@ Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nach
 
 Zum Erstellen einer Vorschau mit Push-Benachrichtigung:
 
-1. Wechseln Sie zum Kanal **[!UICONTROL Push]** in der Dropdown-Liste **[!UICONTROL Kanäle]** oben links im Bildschirm **[!UICONTROL Vorschau]**.
+1. Wechseln Sie in der Dropdown-Liste **[!UICONTROL Kanäle]** oben rechts im Bildschirm **[!UICONTROL Vorschau]** zum Kanal **[!UICONTROL Push]** .
 
    ![](assets/preview-select-channel.png)
 

@@ -6,16 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
 # Benutzeroberfläche {#user-interface}
 
 Mit der Angebotsbibliothek können Sie Platzierungen und Angebote zentral erstellen und verwalten sowie auf alle erstellten Entscheidungen (früher als „Angebotsaktivitäten“ bezeichnet) zugreifen.
+
+>[!NOTE]
+>
+>Wenn beim Zugriff auf die Angebotsbibliothek oder einige seiner Funktionen Probleme auftreten, wenden Sie sich an einen Administrator, um sicherzustellen, dass Ihnen die erforderlichen Rechte gewährt wurden. Siehe [Gewähren des Zugriffs auf die Entscheidungsverwaltung](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallback-Angebote zu verwalten, diese in Kollektionen zu organisieren und durch Erstellen von Entscheidungen bereitzustellen:
 

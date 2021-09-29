@@ -2,16 +2,46 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 76%
+source-wordcount: '712'
+ht-degree: 56%
 
 ---
 
 # Neueste Aktualisierungen in dieser Dokumentation
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+## September 2021
+
+* Die folgenden Funktionsseiten wurden aktualisiert: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* Die folgenden Funktionen wurden hinzugefügt: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* Der Datentyp dateOnly wurde in der Dokumentation zum Ausdruckseditor hinzugefügt. [Mehr dazu](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Es wurden Details zur Aufbewahrungsfrist im Cache für benutzerdefinierte Aktionen hinzugefügt. [Mehr dazu](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Es wurden Informationen zu benutzerdefinierten standardmäßigen Anschlüssen für Aktionen hinzugefügt. [Mehr dazu](action/about-custom-action-configuration.md#url-configuration)
+
+* Es wurden Informationen zu mehreren Anwendungsfällen für Geschäftsereignisse hinzugefügt. [Mehr dazu](event/about-creating-business.md#multiple-business-events)
+
+* Häufig verwendete Beispiele zur Abfrage von Journey Step Events im Data Lake hinzugefügt. [Mehr dazu](reports/query-examples.md)
+
+* Eine neue Seite **Einschränkungen** wurde hinzugefügt. [Mehr dazu](limitations.md)
+
+* Die Seite **Schnellstart** mit Schritten für verschiedene Rollen wurde verbessert. [Mehr dazu](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* Jetzt gelten alle im entsprechenden Abschnitt beschriebenen Entscheidungsverwaltungsfunktionen auch für die Adobe Experience Platform-Benutzer, die den Offer decisioning-Anwendungsdienst nutzen. [Mehr dazu](offers/get-started/starting-offer-decisioning.md)
+
+* Es wurde ein Unterabschnitt hinzugefügt, in dem die Unterschiede zwischen der Verwendung von Segmenten und Entscheidungsregeln bei der Anwendung einer Beschränkung zur Beschränkung der Auswahl von Angeboten für eine bestimmte Platzierung erläutert werden. [Mehr dazu](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Es wurden spezifische Beispiele für Ranking-Formeln hinzugefügt, die einige Anwendungsfälle in Echtzeit veranschaulichen. [Mehr dazu](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* Es wurde ein Unterabschnitt zur Bearbeitung von IP-Pools hinzugefügt. [Mehr dazu](configuration/ip-pools.md#edit-ip-pool)
 
 ## August 2021
 
@@ -30,7 +60,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt Subdomain delegieren wurde mit detaillierteren Informationen zum von Adobe durchgeführten Validierungsprozess aktualisiert. [Mehr dazu](configuration/delegate-subdomain.md#subdomain-validation)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domänen manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Die Abschnitte [Zugriff auf die Unterdrückungsliste](configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](configuration/retries.md) wurden aktualisiert, um die neue Benutzeroberfläche widerzuspiegeln.
-* Der neue Ablauf zum Hinzufügen und Konfigurieren von Darstellungen beim Erstellen eines Angebots wurde dokumentiert. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#representations)
+* Der neue Fluss zum Hinzufügen und Konfigurieren von Darstellungen beim Erstellen eines Angebots wurde dokumentiert. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021
