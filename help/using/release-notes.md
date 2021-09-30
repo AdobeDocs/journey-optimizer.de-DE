@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 72%
+source-wordcount: '1529'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>In Berichten ist eine neue Metrik verfügbar: Die Zielgruppe für E-Mail- und Push-Nachrichten ist sowohl in Live- als auch in globalen Berichten sichtbar.</p>
+<p>Neue Metriken sind in Berichten verfügbar: Targeting und Ausgeschlossen für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im <a href="reports/live-report.md">detaillierten Handbuch.</a></p>
 <p>Eine neue Spalte in der Ausführungsliste der Nachricht zeigt die Anzahl der Zielgruppenprofile für jede Nachrichtenausführung an. </p>
 <p>Weitere Informationen finden Sie in der <a href="message-monitoring.md">entsprechenden Dokumentation</a>.</p>
 </td>
