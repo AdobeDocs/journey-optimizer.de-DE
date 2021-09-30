@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 40%
 
 ---
@@ -30,11 +30,9 @@ Anschließend können Sie Produktprofilen Team-Mitglieder zuweisen und **Kanalko
 
 Weitere Informationen finden Sie auf den folgenden Seiten:
 
-* **Erste Schritte mit Produktprofilen und Berechtigungen**
-
 * **Legen Sie** Benutzerberechtigungen fest und gewähren Sie Zugriff auf Ihre Team-Mitglieder. [Mehr dazu](../using/administration/permissions.md)
 
-* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]** zum Verwalten von Assets und Bildern in Ihren Nachrichten: -Benutzer, die Zugriff auf benötigen,  [!DNL Assets Essentials] müssen Teil der  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct-Profile sein. [Mehr dazu](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}
+* **Bereitstellen[!DNL Adobe Experience Manager Assets Essentials]** zum Verwalten von Assets und Bildern in Ihren Nachrichten: -Benutzer, die Zugriff auf benötigen,  [!DNL Assets Essentials] müssen Teil der  **Assets Essentials Consumer** Usersor/ **Assets Essentials** UsersProduct-Profile sein. [Weitere Informationen finden Sie in der Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}
 
 * **Konfigurieren Sie Ihre** Kanäle und definieren Sie Ihre E-Mail- und Push-Benachrichtigungseinstellungen. [Mehr dazu](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ Weitere Informationen finden Sie auf den folgenden Seiten:
 
 Als Datenadministrator müssen Sie **Daten identifizieren und Schema und Datensatz** erstellen, um Ihre Daten in Adobe Experience Platform zu erhalten.
 
-Die Schritte zum Erstellen eines Identitäts-Namespace und eines Datensatzes, die für Profile aktiviert sind, sowie zum Erstellen von Segmenten und Testprofilen werden in den folgenden Abschnitten beschrieben:
+Die Schritte zum Erstellen eines Identitäts-Namespace und eines Datensatzes, der für Profile, zum Erstellen von Segmenten und Testprofilen aktiviert ist, werden in den folgenden Abschnitten beschrieben:
 
 * Erfahren Sie, wie Sie einen **Datensatz** in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de){target=&quot;_blank&quot;} in der Vorschau anzeigen und erstellen.
 
@@ -63,7 +61,7 @@ Um Nachrichten in Journey senden zu können, müssen Sie außerdem **[!UICONTROL
 
 ## Nachrichten, Angebote und Journey erstellen
 
-Als Journey-Practice-Mitarbeiter finden Sie in den folgenden Abschnitten Informationen zum Einrichten Ihrer ersten Journey, Hinzufügen von Angeboten, Assets und Senden von Nachrichten:
+Als Journey-Practice-Mitarbeiter finden Sie in den folgenden Abschnitten Informationen zum Einrichten Ihrer ersten Journey, Hinzufügen von Angeboten und Assets und Senden von Nachrichten:
 
 * **Nachrichten erstellen**: Greifen Sie auf Nachrichten zu, entwerfen oder laden Sie Inhalte für E-Mails und Push-Benachrichtigungen, fügen Sie Personalisierungen hinzu und sehen Sie sich eine Vorschau der Nachrichten an. [Mehr dazu](create-message.md)
 
