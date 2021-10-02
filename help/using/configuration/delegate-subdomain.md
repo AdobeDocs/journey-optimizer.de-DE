@@ -16,16 +16,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 56%
+source-wordcount: '770'
+ht-degree: 53%
 
 ---
 
 # Zuweisen einer Subdomain
 
-Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Wenn also ein Kunde die Zone „example.com“ verwaltet, kann er Adobe die untergeordnete Zone „marketing.example.com“ zuweisen.
+Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone &quot;marketing.example.com&quot;an Adobe delegieren, wenn Sie die Zone &quot;example.com&quot;bearbeiten.
 
 Durch das Zuweisen einer Subdomain an [!DNL Journey Optimizer] kann Adobe sicherstellen, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Zustellbarkeits-Anforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für die unternehmensinternen E-Mail-Domains.
 

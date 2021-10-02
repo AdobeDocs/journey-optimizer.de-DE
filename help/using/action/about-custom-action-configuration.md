@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 96%
+source-wordcount: '844'
+ht-degree: 88%
 
 ---
 
@@ -108,7 +108,7 @@ Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 Sie können außerdem angeben, ob ein Parameter eine Konstante oder eine Variable ist:
 
 * Konstante bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird dem Marketing-Experten nicht angezeigt, wenn die benutzerdefinierte Aktion während der Journey verwendet wird. Er könnte beispielsweise eine ID sein, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der übergebene Wert.
-* Variable bedeutet, dass der Wert des Parameters variiert. Der Marketing-Experte, der diese benutzerdefinierte Aktion in einer Journey verwendet, kann den von ihm gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform usw.). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
+* Variable bedeutet, dass der Wert des Parameters variiert. Marketingexperten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis, von der Adobe Experience Platform usw.). In diesem Fall ist das Feld rechts neben der Umschalter-Konstante/Variable das Beschriftungsfeld, das Marketer auf der Journey sehen, um diesen Parameter zu benennen.
 
 ![](../assets/customactionpayloadmessage2.png)
 

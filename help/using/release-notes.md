@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
+source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 70%
@@ -49,7 +49,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
 <p>Weiterführende Informationen zu Kollektionen finden Sie in der <a href="building-journeys/collections.md">ausführlichen Dokumentation</a>. </p>
 <p>Die Filter- und Schnittfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
-<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> .</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> .</p>
 </td>
 </tr>
 </tbody>

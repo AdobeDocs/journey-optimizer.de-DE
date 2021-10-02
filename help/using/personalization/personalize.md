@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 90%
 
 ---
 
 # Erste Schritte mit der Personalisierung{#add-personalization}
 
-Erkunden Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten für jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm nutzen. Dabei kann es sich z. B. um den Vornamen, die Interessen oder den Wohnort handeln.
+Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm nutzen. Es kann sein Vorname, Interessen, wo sie leben, was sie kauften und mehr.
 
 ➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren](#video-perso)
 

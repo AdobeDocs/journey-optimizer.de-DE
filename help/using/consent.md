@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -139,7 +139,7 @@ Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch 
 
 In [diesem Abschnitt](message-tracking.md#one-click-opt-out-link) erfahren Sie, wie Sie einen Opt-out-Link zu Ihrem Nachrichteninhalt hinzufügen.
 
-Wenn Ihre Nachricht über eine [Journey](building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Opt-out-Link klickt, sofort abgemeldet.
+Sobald Ihre Nachricht über einen [Journey](building-journeys/journey.md) gesendet wurde und ein Empfänger auf den Abmelde-Link klickt, wird sein Profil sofort abgemeldet.
 
 ## Abmelde-Link in der Kopfzeile {#unsubscribe-email}
 

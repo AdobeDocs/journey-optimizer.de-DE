@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Prüfen Sie folgende Punkte:
 
 Wenn Kontakte dem richtigen Weg entlang der Journey folgen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes prüfen:
 
-* [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der aktuellen Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten API-Aufrufe/Ereignisse prüfen.
+* [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Geschäftsbenutzer können auf die Nachricht zugreifen, die gesendet werden soll, und überprüfen, ob der Zeitpunkt der letzten Ausführung der Ausführungszeit Ihrer Journey entspricht. Sie können auch die neuesten API-Aufrufe/Ereignisse überprüfen, die empfangen wurden.
 * [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status der jeweiligen Ausführung anzeigen. Sie können sehen, ob der Status grün oder rot ist und worin das Problem bestand. Ein Business-Anwender kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Analyse an einen Administrator senden.
 
 Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey­-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht. Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.
