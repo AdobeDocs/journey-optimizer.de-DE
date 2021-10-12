@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 90%
+source-wordcount: '1394'
+ht-degree: 87%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 90%
 Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 * Eine **Platzierung**, in der das Angebot angezeigt wird. Siehe [Platzierungen erstellen](../offer-library/creating-placements.md)
-* Eine **Entscheidungsregel**, die die Bedingung für die Unterbreitung des Angebots definiert. Weitere Informationen finden Sie unter [Entscheidungsregeln erstellen](../offer-library/creating-decision-rules.md).
-* Ein oder mehrere **Tags**, die Sie mit dem Angebot verknüpfen möchten. Weitere Informationen finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
+* Wenn Sie eine Eignungsbedingung hinzufügen möchten: eine **Entscheidungsregel** , die die Bedingung definiert, unter der das Angebot unterbreitet wird. Weitere Informationen finden Sie unter [Entscheidungsregeln erstellen](../offer-library/creating-decision-rules.md).
+* Ein oder mehrere **Tags**, die Sie dem Angebot zuordnen möchten. Weitere Informationen finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
