@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 98%
+source-wordcount: '1006'
+ht-degree: 87%
 
 ---
 
@@ -122,13 +122,19 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-button.png)
 
-1. Geben Sie im Fenster **[!UICONTROL Testversand starten]** neben den Testprofilen die E-Mail-Adresse Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
+1. Geben Sie im Fenster **[!UICONTROL Testversand senden]** die E-Mail Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]** , um den Testversand an sich oder Mitglieder Ihres Unternehmens zu senden.
 
-   Beachten Sie, dass Sie bis zu 10 Empfänger für Ihren Testversand hinzufügen können.
+   Beachten Sie, dass Sie bis zu zehn Empfänger für Ihren Testversand hinzufügen können.
 
    ![](assets/send-proof-button_2.png)
 
-1. Wählen Sie dann die Testprofile aus, die den Testversand erhalten sollen, und klicken Sie auf **[!UICONTROL Testversand starten]**. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
+1. Wählen Sie dann **Testprofile** aus, die zur Personalisierung des Nachrichteninhalts verwendet werden.
+
+   Jeder Empfänger des Testversands erhält so viele Nachrichten wie die Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
+
+1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
+
+1. Klicken Sie auf **[!UICONTROL Testversand senden]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-view.png)
 
-Ein Testversand muss nach jeder Änderung des Nachrichteninhalts ausgeführt werden.
+Es wird empfohlen, nach jeder Änderung am Nachrichteninhalt Testsendungen durchzuführen.
 
 >[!NOTE]
 >
-> Im Testversand an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+>Im Testversand an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
 ## E-Mail-Rendering{#email-rendering}
 
