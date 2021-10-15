@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung (zuvor als Angebotsaktivität bezeichnet) die Methode auswählen, die das beste Angebot für jedes Profil auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
 * Rangfolgenformel
-* [KI-Rangfolge](#use-ranking-strategy)  (nur bei frühzeitigem Zugriff für ausgewählte Benutzer)
+* [KI-Rangfolge](#use-ranking-strategy) (derzeit nur für ausgewählte Benutzer)
 
 ![](../../assets/offer-rank-by.png)
 

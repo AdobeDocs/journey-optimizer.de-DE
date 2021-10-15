@@ -9,7 +9,7 @@ exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
 source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Die Widgets **[!UICONTROL Performance der Push-Benachrichtigung]** und **[!UICON
 
 * **[!UICONTROL Interaktionen]**: Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet hat oder wenn auf eine Schaltfläche geklickt wurde.
 
-Die Tabelle **[!UICONTROL Versandmetriken - by push]** zeigt den Erfolg Ihres Versands:
+Die Tabelle **[!UICONTROL Versandmetriken – nach Push-Benachrichtigung]** zeigt den Erfolg Ihres Versands:
 
-* **[!UICONTROL Targeting]**: Anzahl der Benutzerprofile, die als Zielprofile für diesen Versand gelten.
+* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 

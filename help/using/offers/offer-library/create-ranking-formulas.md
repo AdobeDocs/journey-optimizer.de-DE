@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
    ![](../../assets/ranking-formula-created.png)
 
-## Beispiele für Ranking-Formeln {#ranking-formula-examples}
+## Beispiele für Rangfolgeformeln {#ranking-formula-examples}
 
-Sie können je nach Bedarf viele verschiedene Ranking-Formeln erstellen. Im Folgenden finden Sie einige Beispiele.
+Sie können je nach Bedarf viele verschiedene Rangfolgeformeln erstellen. Im Folgenden finden Sie einige Beispiele.
 
 <!--
 Boost by offer ID
@@ -83,38 +83,38 @@ if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).st
 ```
 -->
 
-### Angebote mit einem bestimmten Angebotsattribut basierend auf dem Profilattribut aufstocken
+### Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Profilattributen
 
 Wenn das Profil in der Stadt lebt, die dem Angebot entspricht, verdoppeln Sie die Priorität für alle Angebote in dieser Stadt.
 
-**Rangfolgenformel:**
+**Rangfolgeformel:**
 
 ```
 if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
-### Steigern von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
+### Verstärken von Angeboten, deren Enddatum in weniger als 24 Stunden liegt
 
-**Rangfolgenformel:**
+**Rangfolgeformel:**
 
 ```
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### Angebote mit einem bestimmten Angebotsattribut basierend auf Kontextdaten aufstocken
+### Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Kontextdaten
 
-Steigern Sie bestimmte Angebote basierend auf den Kontextdaten, die im Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
+Verstärken Sie bestimmte Angebote auf der Grundlage der Kontextdaten, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
 
-**Rangfolgenformel:**
+**Rangfolgeformel:**
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
 and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
-Beachten Sie, dass bei Verwendung der Decisioning API die Kontextdaten zum Profilelement im Anfragetext hinzugefügt werden, wie im folgenden Beispiel.
+Beachten Sie, dass bei Verwendung der Decisioning-API die Kontextdaten im Anfragehauptteil zum Profilelement hinzugefügt werden (siehe folgendes Beispiel).
 
-**Snippet aus Anfrageinhalt:**
+**Snippet im Anfragehauptteil:**
 
 ```
 "xdm:profiles": [
@@ -137,13 +137,13 @@ Beachten Sie, dass bei Verwendung der Decisioning API die Kontextdaten zum Profi
  }],
 ```
 
-### Angebotserhöhung, die auf der Kauftendenz der Kunden basiert
+### Verstärken von Angeboten entsprechend der Neigung der Kunden, das angebotene Produkt zu kaufen
 
-Wenn wir zwei Instanzen von *CustomerAI* haben, die die Neigung zum Kauf von *journeyInsurance* und *extraBaggage* für eine Fluggesellschaft berechnen, erhöht die folgende Rangliste die Priorität (um 50 Punkte) des Angebots, das entweder für Versicherungen oder für Gepäck gilt, wenn die Neigung des Kunden zu diesem Produkt höher ist zu 90.
+Wenn wir zwei Instanzen von *CustomerAI* haben, die die Neigung zum Kauf von *Reiseversicherung* und *Übergepäck* für eine Fluggesellschaft berechnen, erhöht die folgende Rangfolgeformel die Priorität des Angebots (um 50 Punkte) für entweder Versicherungen oder Gepäck, wenn die Kundenneigung für den Kauf dieses Produkts höher als 90 ist.
 
-Da jedoch jede *CustomerAI*-Instanz ein eigenes Objekt innerhalb des einheitlichen Profilschemas erstellt, ist es nicht möglich, die Punktzahl dynamisch basierend auf dem Angebotsintensitätstyp auszuwählen. Daher müssen Sie die `if`-Anweisungen ketten, um zunächst den Angebotsintensitätstyp zu überprüfen, und dann die Punktzahl aus dem entsprechenden Profilfeld extrahieren.
+Da jedoch jede *CustomerAI*-Instanz innerhalb des einheitlichen Profilschemas ihr eigenes Objekt erstellt, ist es nicht möglich, die Punktzahl basierend auf dem Typ der Angebotsneigung dynamisch auszuwählen. Daher müssen Sie die `if`-Anweisungen verketten, um zunächst den Typ der Angebotsneigung zu überprüfen und dann die Punktzahl aus dem entsprechenden Profilfeld zu extrahieren.
 
-**Rangfolgenformel:**
+**Rangfolgeformel:**
 
 ```
 if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
@@ -153,7 +153,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-Eine bessere Lösung besteht darin, die Bewertungen in einem Array des Profils zu speichern. Das folgende Beispiel zeigt eine Vielzahl verschiedener Tendenzwerte, die nur mit einer einfachen Rangformel verwendet werden. Es wird erwartet, dass Sie über ein Profilschema mit einem Array von Werten verfügen. In diesem Beispiel ist der Instanzmandant *_salesgeschwindigkeit* und das Profilschema enthält Folgendes:
+Eine bessere Lösung besteht darin, die Punktzahlen in einem Array des Profils zu speichern. Das folgende Beispiel zeigt, wie eine einfache Rangfolgeformel für viele verschiedene Neigungspunktwerte verwendet werden kann. Dabei wird vorausgesetzt, dass Sie über ein Profilschema mit einem Array von Werten verfügen. In diesem Beispiel ist der Instanzmandant *_salesvelocity* und das Profilschema enthält Folgendes:
 
 ![](../../assets/ranking-example-schema.png)
 
@@ -177,11 +177,11 @@ In diesem Fall für ein Profil wie:
 }
 ```
 
-Die Angebote enthalten ein Attribut für *propensityType* , das mit der Kategorie aus den Bewertungen übereinstimmt:
+Die Angebote enthalten ein Attribut für *propensityType*, das mit der Kategorie der Punktwerte übereinstimmt:
 
 ![](../../assets/ranking-example-propensityType.png)
 
-Ihre Rangliste kann dann die Priorität jedes Angebots so einstellen, dass sie den Kunden *propensityScore* für diesen *propensityType* entspricht. Wenn kein Ergebnis gefunden wird, verwenden Sie die statische Priorität, die auf dem Angebot festgelegt wurde:
+Ihre Rangfolgeformel kann dann die Priorität jedes Angebots so festlegen, dass sie dem *propensityScore* des Kunden für diesen *propensityType* entspricht. Wenn kein Punktwert gefunden wird, verwenden Sie die statische Priorität für das Angebot:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

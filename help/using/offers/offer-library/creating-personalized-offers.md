@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um eine oder mehrere Darstellungen zu Ihrem Angebot hin
 
 1. Wählen Sie eine Platzierung aus der Liste aus.
 
-   Sie können auch die Schaltfläche neben der Dropdownliste **[!UICONTROL Platzierung]** verwenden, um alle Platzierungen zu durchsuchen.
+   Sie können auch den Button neben der Dropdown-Liste **[!UICONTROL Platzierung]** verwenden, um alle Platzierungen zu durchsuchen.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um eine oder mehrere Darstellungen zu Ihrem Angebot hin
 
    ![](../../assets/browse-placements.png)
 
-1. Fügen Sie für Ihre Darstellung Inhalte hinzu. Erfahren Sie mehr in [diesem Abschnitt](#content).
+1. Fügen Sie für Ihre Darstellung Inhalte hinzu. Mehr dazu erfahren Sie in [diesem Abschnitt](#content).
 
 1. Wenn Sie Inhalte wie ein Bild oder eine URL hinzufügen, können Sie einen **[!UICONTROL Ziel-Link]** angeben: Die Benutzer, die auf das Angebot klicken, werden zur entsprechenden Seite weitergeleitet.
 
@@ -92,15 +92,15 @@ Sie können einer Darstellung verschiedene Inhaltstypen hinzufügen.
 
 ### Bilder hinzufügen
 
-Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können Sie Inhalte aus der Bibliothek **Adobe Experience Cloud Asset** hinzufügen, einem zentralen Repository mit Assets, das von [!DNL Adobe Experience Manager Assets Essentials] bereitgestellt wird.
+Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können Sie Inhalte aus der **Adobe Experience Cloud Assets**-Bibliothek hinzufügen, einem zentralen Repository mit Assets, das von [!DNL Adobe Experience Manager Assets Essentials] bereitgestellt wird.
 
 >[!NOTE]
 >
 > Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Wählen Sie die Option **[!UICONTROL Asset Library]** aus.
+1. Wählen Sie die Option **[!UICONTROL Assets-Bibliothek]** aus.
 
-1. Wählen Sie **[!UICONTROL Browse]** aus.
+1. Klicken Sie auf **[!UICONTROL Durchsuchen]**.
 
    ![](../../assets/offer-browse-asset-library.png)
 
@@ -126,13 +126,13 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
    >
    >Bei Platzierungen vom Typ „Bild“ ist diese Option nicht verfügbar.
 
-1. Geben Sie den Text ein, der im Angebot angezeigt werden soll, und zwar im entsprechenden Bereich.
+1. Geben Sie im dafür vorgesehenen Bereich den Text ein, der im Angebot angezeigt werden soll.
 
    ![](../../assets/offer-text-content2.png)
 
 ## Eignungsregeln und Einschränkungen hinzufügen {#eligibility}
 
-Eignungsregeln und Einschränkungen ermöglichen es, die Bedingungen zu definieren, unter denen ein Angebot angezeigt werden soll.
+Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
 
 1. Konfigurieren Sie die **[!UICONTROL Angebotseignung]**.
 

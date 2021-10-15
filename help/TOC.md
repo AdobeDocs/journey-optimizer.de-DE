@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
       + [Veröffentlichen von Nachrichten](using/publish-manage-message.md)
    + [Verwalten von Opt-out](using/consent.md)
 + Personalisierung{#personalization}
-   + [Erste Schritte      bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte       bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
    + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
    + Anwendungsfälle{#personalization-use-cases}
@@ -96,7 +96,7 @@ ht-degree: 98%
    + Anwendungsfälle {#journey-use-cases}
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+      + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
 + Tracken und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -136,12 +136,12 @@ ht-degree: 98%
    + Angebote erstellen und verwalten {#managing-offers-in-the-offer-library}
       + [Personalisierte Angebote erstellen](using/offers/offer-library/creating-personalized-offers.md)
       + [Fallback-Angebote erstellen](using/offers/offer-library/creating-fallback-offers.md)
-      + [Kollektionen erstellen](using/offers/offer-library/creating-collections.md)
+      + [Regeln erstellen](using/offers/offer-library/creating-collections.md)
    + Entscheidungen erstellen und verwalten {#create-manage-activities}
       + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
       + [Auswahl von Angeboten in Entscheidungen konfigurieren](using/offers/offer-activities/configure-offer-selection.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
-      + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
+      + [Erste Schritte mit dem Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Angebotskatalog exportieren {#export-catalog}

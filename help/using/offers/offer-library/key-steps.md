@@ -53,7 +53,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Angebote erstellen</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Fallback-Angebote erstellen</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Kollektionen erstellen</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Regeln erstellen</a></p></td></tr>
 </table>
 
 ## Entscheidungen erstellen und konfigurieren

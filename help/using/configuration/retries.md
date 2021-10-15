@@ -19,43 +19,43 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # Weitere Zustellversuche {#retries}
 
-Wenn eine E-Mail-Nachricht aufgrund eines temporären **Softbounce**-Fehlers fehlschlägt, werden mehrere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
+Wenn eine Nachricht aufgrund eines temporären Fehlers des Typs **Softbounce** fehlschlägt, werden weitere Zustellversuche unternommen. Jeder Fehler erhöht einen Fehlerzähler. Wenn dieser Zähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
 >[!NOTE]
 >
 >Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen Sendungen](../suppression-list.md#delivery-failures)
 
-In der Standardkonfiguration ist der Schwellenwert auf 5 Fehler festgelegt.
+In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
-* Für denselben Versand wird beim fünften aufgetretenen Fehler innerhalb des [Wiederholungszeitraums](#retry-duration) die Adresse unterdrückt.
+* Beim fünften Fehler bei demselben Versand innerhalb des [Wiederholungszeitraums](#retry-duration) wird die Adresse unterdrückt.
 
-* Bei unterschiedlichen Sendungen und zwei Fehlern im Abstand von mindestens 24 Stunden wird der Fehlerzähler bei jedem Fehler inkrementiert und die Adresse beim fünften Versuch ebenfalls unterdrückt.
+* Wenn es unterschiedliche Sendungen gibt und zwei Fehler im Abstand von mindestens 24 Stunden auftreten, wird der Fehlerzähler bei jedem Fehler erhöht und die E-Mail-Adresse wird ebenfalls beim fünften Versuch unterdrückt.
 
-Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich war, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
+Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich ist, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
 
 Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den Fehlerschwellenwert wie unten beschrieben ändern.
 
 1. Gehen Sie zu **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Unterdrückungsliste]**.
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Unterdrückungsregeln bearbeiten]** aus.
+1. Klicken Sie auf den Button **[!UICONTROL Unterdrückungsregeln bearbeiten]**.
 
    ![](../assets/suppression-list-edit-retries.png)
 
-1. Bearbeiten Sie die zulässige Anzahl aufeinander folgender Softbounces entsprechend Ihren Anforderungen.
+1. Bearbeiten Sie die zulässige Anzahl aufeinanderfolgender Softbounces entsprechend Ihren Anforderungen.
 
    ![](../assets/suppression-list-edit-soft-bounces.png)
 
-   Sie müssen einen ganzzahligen Wert zwischen 1 und 20 eingeben, d. h. die Mindestanzahl weiterer Versuche ist 1 und die maximale Zahl ist 20.
+   Sie müssen einen ganzzahligen Wert zwischen 1 und 20 eingeben, d. h. die Mindestanzahl weiterer Zustellversuche ist 1 und die maximale Anzahl ist 20.
 
    >[!CAUTION]
    >
-   >Ein Wert von mehr als 10 kann Probleme mit der Reputation der Zustellbarkeit sowie IP-Drosselung oder auf die Blockierungsliste setz durch ISPs verursachen. [Weitere Informationen zur Zustellbarkeit](../deliverability.md)
+   >Ein Wert von mehr als 10 kann Zustellbarkeitsprobleme hinsichtlich der Reputation sowie eine IP-Drosselung oder eine Blockierungsauflistung durch ISPs verursachen. [Weitere Information zur Zustellbarkeit](../deliverability.md)
 
 <!--![](../assets/retries-edition.png)-->
 

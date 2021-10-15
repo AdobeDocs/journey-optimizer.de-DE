@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Entscheidungen (früher als Angebotsaktivitäten bezeichnet) sind Container für
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
-Die Liste der Entscheidungen ist auf der Registerkarte **[!UICONTROL Angebote]** > **[!UICONTROL Entscheidungen]** verfügbar. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
+Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** verfügbar. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
 
 ![](../../assets/activities-list.png)
 
@@ -36,7 +36,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 1. Geben Sie den Namen der Entscheidung an.
 
-1. Definieren Sie ein Start- und Enddatum und eine Endzeit und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Legen Sie ein Start- und Enddatum sowie eine Uhrzeit fest und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    ![](../../assets/activities-name.png)
 
@@ -62,9 +62,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 1. Wenn mehrere Angebote für diese Platzierung geeignet sind, werden für den Kunden standardmäßig die Angebote mit der höchsten Priorität bereitgestellt.
 
-   Wenn Sie eine bestimmte Formel oder eine Rangstrategie verwenden möchten, um zu entscheiden, welches Angebot bereitgestellt werden soll, wählen Sie eine Rangformel aus der Dropdownliste **[!UICONTROL Angebote von]** aus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../offer-activities/configure-offer-selection.md).
+   Wenn Sie mit einer bestimmten Formel oder einer Rangfolgestrategie festlegen möchten, welches Angebot bereitgestellt werden soll, wählen Sie eine Rangfolgeformel aus der Dropdown-Liste **[!UICONTROL Angebote sortieren nach]** aus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../offer-activities/configure-offer-selection.md).
 
-1. Das Feld **[!UICONTROL Begrenzung]** schränkt die Auswahl der Angebote für diese Platzierung ein. Diese Einschränkung kann mithilfe einer **Entscheidungsregel** oder eines oder mehrerer **Adobe Experience Platform-Segmente** angewendet werden. Beide werden in [diesem Abschnitt](#segments-vs-decision-rules) beschrieben.
+1. Das Feld **[!UICONTROL Begrenzung]** schränkt die Auswahl der Angebote für diese Platzierung ein. Diese Einschränkung kann mithilfe einer **Entscheidungsregel** oder eines oder mehrerer **Adobe Experience Platform-Segmente** angewendet werden. Beide werden in [diesem Abschnitt](#segments-vs-decision-rules) genauer beschrieben.
 
    * Um die Auswahl der Angebote auf die Mitglieder eines Adobe Experience Platform-Segments zu beschränken, wählen Sie **[!UICONTROL Segmente]** aus und klicken Sie dann auf **[!UICONTROL Segmente hinzufügen]**.
 
@@ -80,25 +80,25 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Weitere Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
+      Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
 ### Verwenden von Segmenten vs. Entscheidungsregeln {#segments-vs-decision-rules}
 
 <!--to move to create-offers?-->
 
-Um eine Einschränkung anzuwenden, können Sie die Auswahl von Angeboten auf die Mitglieder eines oder mehrerer **Adobe Experience Platform-Segmente** beschränken oder eine **Entscheidungsregel** verwenden, die beiden Lösungen für unterschiedliche Anwendungen entspricht.
+Um eine Einschränkung anzuwenden, können Sie die Auswahl von Angeboten auf ein oder mehrere **Adobe Experience Platform-Segmente** beschränken oder eine **Entscheidungsregel** verwenden. Diese beiden Lösungen werden in unterschiedlichen Fällen angewendet.
 
-Grundsätzlich ist die Ausgabe eines Segments eine Liste von Profilen, während eine Entscheidungsregel eine Funktion ist, die bei Bedarf während des Entscheidungsprozesses für ein einzelnes Profil ausgeführt wird. Der Unterschied zwischen diesen beiden Anwendungen wird im Folgenden beschrieben.
+Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine Entscheidungsregel eine Funktion ist, die während des Entscheidungsprozesses bei Bedarf für ein einzelnes Profil ausgeführt wird. Der Unterschied zwischen diesen beiden Anwendungen wird im Folgenden beschrieben.
 
 * **Segmente**
 
-   Einerseits sind Segmente eine Gruppe von Adobe Experience Platform-Profilen, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Das Angebotsmanagement berechnet das Segment jedoch nicht neu, was bei der Angebotsunterbreitung möglicherweise nicht aktuell ist.
+   Segmente sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Doch beim Offer Decisioning-Prozess wird das Segment nicht neu berechnet, weshalb es zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
 
    Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
 
 * **Entscheidungsregeln**
 
-   Andererseits basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nach Auswahl in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung wird die Regel jedes Mal ausgeführt, wenn eine Entscheidung getroffen wird. Dadurch wird sichergestellt, dass jedes Profil das neueste und das beste Angebot erhält.
+   Dagegen basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nachdem die Entscheidungsregel in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung ausgewählt wurde, wird sie bei jedem Entscheidungsvorgang erneut ausgeführt. Dadurch wird jedem Profil immer ein aktuelles, optimales Angebot angezeigt.
 
    Weitere Informationen zu Entscheidungsregeln finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 

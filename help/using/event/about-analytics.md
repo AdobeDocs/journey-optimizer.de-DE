@@ -27,7 +27,7 @@ Voraussetzung hierfür ist, dass Sie in Adobe Experience Platform die Report Sui
 
 1. Wählen Sie die zu aktivierende Report Suite aus, klicken Sie auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Fertigstellen]**.
 
-1. Geben Sie die Daten-ID der Quelle für Ihren dem Beta-Programm zugehörigen Kontaktpunkt frei.
+1. Geben Sie die Daten-ID der Quelle für Ihren dem Betaversion-Programm zugehörigen Kontaktpunkt frei.
 
 Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. Sobald die Daten eingehen, werden sie in ein Erlebnisereignis umgewandelt und an Adobe Experience Platform gesendet.
 

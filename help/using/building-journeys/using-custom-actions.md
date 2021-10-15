@@ -19,7 +19,7 @@ Im Konfigurationsbereich für die Aktivität werden die URL-Konfigurationsparame
 
 >[!NOTE]
 >
->Eine Kollektion kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Komplexere Kollektionsfelder (Arrays von Objekten) werden nicht unterstützt.  Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
+>Eine einfache Kollektion kann nicht in benutzerdefinierten Aktionsparametern übergeben werden. Komplexere Kollektionsfelder (Arrays von Objekten) werden nicht unterstützt.  Beachten Sie außerdem, dass die Parameter ein erwartetes Format haben (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden.
 
 ## URL-Konfiguration
 
@@ -29,7 +29,7 @@ Wenn die URL einen dynamischen Pfad enthält, geben Sie den Pfad im Feld **[!UIC
 
 >[!NOTE]
 >
->Sie können den statischen Teil der URL nicht in der Journey, sondern in der globalen Konfiguration der benutzerdefinierten Aktion einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md).
+>Sie können den statischen Teil der URL nicht in der Journey, sondern müssen ihn in der globalen Konfiguration der benutzerdefinierten Aktion einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md).
 
 Verwenden Sie zum Verketten von Feldern und Nur-Text-Zeichenfolgen die Zeichenfolgen-Funktionen oder das Pluszeichen (+) im erweiterten Ausdruckseditor. Schließen Sie Nur-Text-Zeichenfolgen in einfachen Anführungszeichen (&#39;) oder in doppelten Anführungszeichen (&quot;) ein. [Weitere Informationen](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=de){target=&quot;_blank&quot;}.
 
@@ -40,7 +40,7 @@ Die folgende Tabelle zeigt ein Beispiel für die Konfiguration:
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
 | Pfad | `The id of marketingCampaign + '/messages'` |
 
-Die verkettete URL hat dieses Format:
+Die verkettete URL sieht folgendermaßen aus:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID\>`/messages`
 
@@ -48,12 +48,12 @@ Die verkettete URL hat dieses Format:
 
 ### Header
 
-Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen, nicht aber die konstanten Header-Felder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
+Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen Header-Felder, jedoch nicht die konstanten Header-Felder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
 
 Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
 
-1. Wählen Sie die benutzerdefinierte Aktion in der Journey aus.
-1. Klicken Sie im Konfigurationsbereich neben dem Header-Feld im Abschnitt **[!UICONTROL URL-Konfiguration]** auf das Stiftsymbol.
+1. Wählen Sie in der Journey die benutzerdefinierte Aktion aus.
+1. Klicken Sie im Abschnitt **[!UICONTROL URL-Konfiguration]** im Konfigurationsbereich auf das Stiftsymbol neben dem Header-Feld.
 
    ![](../assets/journey-dynamicheaderfield.png)
 

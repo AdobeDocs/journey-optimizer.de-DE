@@ -9,7 +9,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -98,7 +98,7 @@ Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nach
 
 Zum Erstellen einer Vorschau mit Push-Benachrichtigung:
 
-1. Wechseln Sie in der Dropdown-Liste **[!UICONTROL Kanäle]** oben rechts im Bildschirm **[!UICONTROL Vorschau]** zum Kanal **[!UICONTROL Push]** .
+1. Wechseln Sie in der Dropdown-Liste **[!UICONTROL Kanäle]** oben rechts im Bildschirm **[!UICONTROL Vorschau]** zum Kanal **[!UICONTROL Push]**.
 
    ![](assets/preview-select-channel.png)
 
@@ -146,7 +146,7 @@ Es wird empfohlen, nach jeder Änderung am Nachrichteninhalt Testsendungen durch
 
 >[!NOTE]
 >
->Im Testversand an die Testprofile ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+>Im Testversand an die Testprofile ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
 ## E-Mail-Rendering{#email-rendering}
 

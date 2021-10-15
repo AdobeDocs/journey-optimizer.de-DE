@@ -1,22 +1,12 @@
 ---
 title: Integrierte Produktprofile
 description: Informationen zu integrierten Produktprofilen
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
+exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
+source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 100%

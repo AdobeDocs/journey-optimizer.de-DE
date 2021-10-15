@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 97%
 
 Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) hergestellt ist, navigieren Sie zu [!DNL Journey Optimizer].
 
+Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+
+Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren [Berechtigungen](administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
+
 >[!NOTE]
 >
->* Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
->
->* Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
->
->* Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren [Berechtigungen](administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
+>Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
 
 
 ## Linke Navigation
@@ -119,7 +119,7 @@ Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Ado
 
 [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
-Sie können die folgenden gängigen Tastaturbefehle in [!DNL Journey Optimizer] verwenden:
+In [!DNL Journey Optimizer] können Sie die folgenden gängigen Tastaturbefehle verwenden:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |

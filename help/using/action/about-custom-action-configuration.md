@@ -10,7 +10,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möch
 
 Einschränkungen sind auf [dieser Seite](../limitations.md) aufgeführt.
 
-Sie können Sammlungen dynamisch mit benutzerdefinierten Aktionen übergeben. Siehe [Anwendungsfall](../limitations.md).
+Mithilfe von benutzerdefinierten Aktionen können Sie Kollektionen dynamisch übergeben. Siehe diesen [Anwendungsfall](../limitations.md).
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
 
@@ -37,7 +37,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Zahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys anzuzeigen.
 1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
-1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Weitere Informationen finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -66,7 +66,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >
    >Aus Sicherheitsgründen empfehlen wir dringend, das HTTPS-Schema für die URL zu verwenden. Die Verwendung nicht öffentlicher Adobe-Adressen und die Verwendung von IP-Adressen sind nicht zulässig.
    >
-   >Beim Definieren einer benutzerdefinierten Aktion sind nur die Standardanschlüsse zulässig: 80 für http und 443 für https.
+   >Bei der Definition einer benutzerdefinierten Aktion sind nur die Standard-Ports zulässig: 80 für http und 443 für https.
 
 1. Wählen Sie die **[!UICONTROL Aufrufmethode]** aus: Sie kann entweder **[!UICONTROL POST]** oder **[!UICONTROL PUT]** sein.
 1. Definieren Sie im Abschnitt **[!UICONTROL Header]** die HTTP-Header der Anfragenachricht, die an den externen Service gesendet werden soll:

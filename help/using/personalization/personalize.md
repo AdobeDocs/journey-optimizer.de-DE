@@ -9,7 +9,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -79,9 +79,9 @@ Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie i
 
 ### Angebote personalisieren {#personalize-offers}
 
-Sie können auch auf den Personalisierungs-Editor zugreifen, wenn Sie den Darstellungen Ihrer Angebote Textinhalte hinzufügen.
+Sie können auch auf den Personalisierungs-Editor zugreifen, wenn Sie den Angebotsdarstellungen Inhalte vom Typ Text hinzufügen.
 
-Weitere Informationen zur Verwaltung von Inhalten mit der Entscheidungsverwaltung finden Sie in [diesem Abschnitt](../offers/offer-library/creating-personalized-offers.md#custom-text).
+Weitere Informationen zur Verwaltung von Inhalten mit dem Entscheidungs-Management finden Sie in [diesem Abschnitt](../offers/offer-library/creating-personalized-offers.md#custom-text).
 
 ## Ausdruckseditor verwenden {#use-expression-editor}
 

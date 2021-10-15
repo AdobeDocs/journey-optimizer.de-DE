@@ -1,6 +1,6 @@
 ---
 title: Einschränkungen bei Journey Optimizer
-description: Weitere Informationen zu Journey Optimizer-Einschränkungen
+description: Weitere Informationen zu Einschränkungen bei Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,28 +9,28 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: f177c9b2c7c7a7fa6182d07e773efd0683886d34
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Einschränkungen {#limitations}
 
-Berechtigungen, Produktbeschränkungen und Leistungsgarantien sind auf der [ Adobe Journey Optimizer-Produktbeschreibungsseite](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
+Berechtigungen, Produktbeschränkungen und die Leistung betreffende Sicherheitsmechanismen sind auf der Seite[ Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
 
 Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
 ## Einschränkungen bei Nachrichten
 
-* Sie können keine Anlagen zu einer E-Mail mit [!DNL Journey Optimizer] hinzufügen.
+* Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail  hinzufügen.
 * E-Mail-BCC wird in [!DNL Journey Optimizer] nicht unterstützt.
 
-## Einschränkungen in Journey
+## Einschränkungen bei Journeys
 
-### Allgemeine Maßnahmen
+### Allgemeine Aktionen
 
 * Es gibt keine Einschränkung beim Versand. 
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
-* Das integrierte **Reaktionsereignis** ermöglicht es Ihnen, auf vordefinierte Aktionen zu reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
+* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 
 ### Nachrichtenaktion
@@ -67,7 +67,7 @@ Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adob
 
 In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenzzeit ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
 
-Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profildienst prüft/abruft, funktioniert sie möglicherweise nicht ordnungsgemäß.
+Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
 
 Sie können aus einer der beiden folgenden Lösungen wählen:
 

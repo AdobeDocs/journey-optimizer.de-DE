@@ -9,7 +9,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
 source-wordcount: '1749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
-1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-payload-fields).
+1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#define-the-payload-fields).
 
    ![](../assets/jo-event5.png)
 
@@ -60,14 +60,14 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
    >[!NOTE]
    >
-   >Der erweiterte Ausdruckseditor ist beim Definieren der **[!UICONTROL Ereignis-ID-Bedingung]** nicht verfügbar. Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar, sondern hängen vom Datentyp ab. Beispielsweise können Sie für einen Feldzeichenfolgentyp &quot;contains&quot;oder &quot;equal to&quot;verwenden.
+   >Der erweiterte Ausdruckseditor ist beim Definieren der **[!UICONTROL Ereignis-ID-Bedingung]** nicht verfügbar. Im einfachen Ausdruckseditor sind nicht alle Operatoren verfügbar. Sie hängen vom Datentyp ab. Beispielsweise können Sie für ein Feld vom Typ Zeichenfolge „enthält“ oder „ist gleich“ verwenden.
 
-1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#select-the-namespace).
-1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journeys wählen den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#define-the-event-key).
+1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#select-the-namespace).
+1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journeys wählen den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#define-the-event-key).
 
    ![](../assets/jo-event7.png)
 
-1. Bei systemgenerierten Ereignissen können Sie eine Bedingung hinzufügen. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#add-a-condition).
+1. Bei systemgenerierten Ereignissen können Sie eine Bedingung hinzufügen. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#add-a-condition).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -92,7 +92,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    >[!NOTE]
    >
-   >Das Feld **[!UICONTROL eventID]** wird automatisch in die Liste der ausgewählten Felder eingefügt, damit [!DNL Journey Optimizer] das Ereignis identifizieren kann. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating.md#preview-the-payload).
+   >Das Feld **[!UICONTROL eventID]** wird automatisch in die Liste der ausgewählten Felder eingefügt, damit [!DNL Journey Optimizer] das Ereignis identifizieren kann. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID verwenden, die in der Payload-Vorschau verfügbar ist. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#preview-the-payload).
 
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL OK]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
 

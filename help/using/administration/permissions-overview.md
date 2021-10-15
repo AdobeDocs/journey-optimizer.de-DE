@@ -1,22 +1,12 @@
 ---
 title: Übersicht über die Benutzerverwaltung
-description: Informationen zu Berechtigungen
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
+description: Erfahren Sie mehr über Berechtigungen
 feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
+source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

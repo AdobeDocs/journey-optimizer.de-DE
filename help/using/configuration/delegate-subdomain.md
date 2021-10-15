@@ -19,7 +19,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 53%
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
    ![](../assets/subdomain-processing.png)
 
-   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchführt, die bis zu 3 Stunden dauern können. Weiterführende Informationen finden Sie in diesem [Abschnitt](#subdomain-validation).
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, die bis zu drei Stunden dauern können. Weiterführende Informationen finden Sie in diesem [Abschnitt](#subdomain-validation).
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
@@ -81,25 +81,25 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
 
 >[!NOTE]
 >
->Diese Schritte werden nach Adobe ausgeführt und können bis zu 3 Stunden dauern.
+>Diese Schritte werden von Adobe ausgeführt, was bis zu drei Stunden dauern kann.
 
-1. **Vorab validieren**: Adobe prüft, ob die Subdomain an Adobe DNS (NS-Eintrag, SOA-Datensatz, Zone-Setup, Eigentumsdatensatz) delegiert wurde. Wenn der Vorab-Validierungsschritt fehlschlägt, wird ein Fehler zusammen mit dem entsprechenden Grund zurückgegeben. Andernfalls wird die Adobe mit dem nächsten Schritt fortgesetzt.
+1. **Vorab-Validierung**: Adobe überprüft, ob die Subdomain an das Adobe DNS delegiert wurde (NS-Eintrag, SOA-Eintrag, Zoneneinrichtung, Eigentümereintrag). Wenn der Vorab-Validierungsschritt fehlschlägt, wird ein Fehler zusammen mit dem entsprechenden Grund zurückgegeben. Andernfalls fährt Adobe mit dem nächsten Schritt fort.
 
 1. **Konfigurieren des DNS für die Domain**:
 
-   * **MX-Eintrag**: E-Mail-eXchange-Datensatz - Mail-Serverdatensatz, der eingehende E-Mails verarbeitet, die an die Subdomain gesendet werden.
-   * **SPF-Eintrag**: Sender Policy Framework-Datensatz - Listet die IPs der E-Mail-Server auf, die E-Mails von der Subdomain senden können.
-   * **DKIM-Datensatz**: DomainKeys Identified Mail-Standarddatensatz - Verwendet eine Verschlüsselung mit öffentlichem und privatem Schlüssel zur Authentifizierung der Nachricht, um das Spoofing zu vermeiden.
+   * **MX-Eintrag**: E-Mail-eXchange-Eintrag – Mail-Server-Eintrag, der eingehende E-Mails verarbeitet, die an die Subdomain gesendet werden.
+   * **SPF-Eintrag**: Sender Policy Framework-Eintrag – Listet die IPs der E-Mail-Server auf, die E-Mails von der Subdomain senden können.
+   * **DKIM-Datensatz**: DomainKeys Identified Mail-Standardeintrag – Verwendet eine Verschlüsselung mit öffentlichem und privatem Schlüssel zur Authentifizierung der Nachricht, um Spoofing zu verhindern.
    * **A**: Standard-IP-Zuordnung.
 
-1. **Erstellen von Tracking- und Mirror-URLs**: Wenn die Domäne email.example.com ist, lautet die tracking/mirror-Domäne data.email.example.com. Sie wird durch die Installation des SSL-Zertifikats gesichert.
+1. **Erstellen von Tracking- und Mirror-URLs**: Wenn die Domain email.example.com ist, lautet die Tracking-/Mirror-Domain data.email.example.com. Sie wird durch die Installation des SSL-Zertifikats gesichert.
 
-1. **Bereitstellung von CDN CloudFront**: Wenn CDN noch nicht eingerichtet ist, stellt Adobe es für die Imsorg bereit.
+1. **Bereitstellung von CDN CloudFront**: Wenn das CDN noch nicht eingerichtet ist, stellt es Adobe für die IMS-Org bereit.
 
-1. **Erstellen einer CDN-Domäne**: Wenn die Domäne email.example.com ist, lautet die CDN-Domäne cdn.email.example.com.
+1. **Erstellen einer CDN-Domain**: Wenn die Domain email.example.com ist, lautet die CDN-Domain cdn.email.example.com.
 
-1. **Erstellen und Anfügen eines CDN-SSL-Zertifikats**: Adobe erstellt das CDN-Zertifikat für die CDN-Domäne und hängt das Zertifikat an die CDN-Domäne an.
+1. **Erstellen und Anfügen eines CDN-SSL-Zertifikats**: Adobe erstellt das CDN-Zertifikat für die CDN-Domain und hängt es dort an.
 
-1. **Forward DNS** erstellen: Wenn dies die erste Subdomain ist, die Sie delegieren, erstellt Adobe das Weiterleitungs-DNS, das zum Erstellen von PTR-Datensätzen erforderlich ist - eine für jede Ihrer IPs.
+1. **Weiterleitungs-DNS erstellen**: Wenn dies die erste Subdomain ist, die Sie delegieren, erstellt Adobe das Weiterleitungs-DNS, das zum Erstellen von PTR-Einträgen erforderlich ist – einem für jede Ihrer IPs.
 
-1. **PTR-Datensatz erstellen**: PTR-Einträge, auch als Reverse-DNS-Eintrag bezeichnet, werden von den ISPs benötigt, damit sie die E-Mails nicht als Spam markieren. Gmail empfiehlt auch, für jede IP-Adresse PTR-Einträge zu haben. Adobe erstellt PTR-Datensätze nur, wenn Sie die erste Subdomain, eine für jede IP-Adresse, alle IP-Adressen, die auf die erste Subdomain verweisen, zuweisen. Wenn die IP beispielsweise *192.1.2.1* lautet und die Subdomain *email.example.com* lautet, lautet der PTR-Datensatz: *192.1.2.1 PTR r1.email.example.com*. Sie können den PTR-Datensatz anschließend aktualisieren, um auf die neue zugewiesene Domäne zu verweisen.
+1. **PTR-Eintrag erstellen**: PTR-Einträge, auch als Reverse-DNS-Eintrag bezeichnet, werden von den ISPs benötigt, damit sie die E-Mails nicht als Spam kennzeichnen. Gmail empfiehlt auch, für jede IP-Adresse PTR-Einträge zu haben. Adobe erstellt PTR-Einträge nur, wenn Sie die erste Subdomain zuweisen, eine für jede IP-Adresse, und alle IP-Adressen auf die erste Subdomain verweisen. Wenn die IP beispielsweise *192.1.2.1* und die Subdomain *email.example.com* lautet, lautet der PTR-Eintrag: *192.1.2.1 PTR r1.email.example.com*. Sie können den PTR-Eintrag anschließend aktualisieren, um auf die neue zugewiesene Domain zu verweisen.

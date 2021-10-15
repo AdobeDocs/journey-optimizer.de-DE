@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
 workflow-type: tm+mt
 source-wordcount: '1529'
-ht-degree: 70%
+ht-degree: 95%
 
 ---
 
@@ -23,13 +23,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <thead>
 <tr>
 
-<th><strong>Reporting - Bessere Einblicke in die Zielgruppe</strong><br/></th>
+<th><strong>Reporting – Bessere Einblicke in die Audience</strong><br/></th>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Neue Metriken sind in Berichten verfügbar: Targeting und Ausgeschlossen für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im <a href="reports/live-report.md">detaillierten Handbuch.</a></p>
-<p>Eine neue Spalte in der Ausführungsliste der Nachricht zeigt die Anzahl der Zielgruppenprofile für jede Nachrichtenausführung an. </p>
+<p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
 <p>Weitere Informationen finden Sie in der <a href="message-monitoring.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -46,10 +46,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
-<p>Weiterführende Informationen zu Kollektionen finden Sie in der <a href="building-journeys/collections.md">ausführlichen Dokumentation</a>. </p>
-<p>Die Filter- und Schnittfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
-<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">intersect</a> .</p>
+<p>Sie können jetzt Kollektionen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt: einfache Kollektionen und Objektkollektionen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
+<p>Weitere Informationen zu Kollektionen finden Sie in der <a href="building-journeys/collections.md">entsprechenden Dokumentation</a>. </p>
+<p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de">Filtern</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">Überschneidung</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,14 +77,14 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Journeys**
 
-* Systemgenerierte Schemata und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu vermeiden. [Weitere Informationen](reports/sharing-overview.md)
-* Benennen Sie die Aktivität **Wait** eindeutig mit einer Bezeichnung, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Berichts- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](building-journeys/about-journey-activities.md#best-practices)
-* Suchen Sie Ihre Ereignisse und Aktionen schneller, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](building-journeys/using-the-journey-designer.md)
-* Beim Definieren einer Ereignis-ID-Bedingung in einem regelbasierten oder geschäftlichen Ereignis ist jetzt der Operator &quot;enthält&quot;für Feldzeichenfolgen-Typen verfügbar. [Weitere Informationen](event/about-creating.md)
+* Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](reports/sharing-overview.md)
+* Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](building-journeys/about-journey-activities.md#best-practices)
+* Ihre Ereignisse und Aktionen sind jetzt schneller auffindbar, indem Sie Elemente in den Kategorien **Ereignisse** und **Aktion** mithilfe der Suche filtern. Orchestrierungsaktivitäten werden nicht mehr gefiltert. [Weitere Informationen](building-journeys/using-the-journey-designer.md)
+* Beim Definieren einer Ereignis-ID-Bedingung in einem regelbasierten oder Geschäftsereignis ist jetzt der Operator „enthält“ für Felder vom Typ Zeichenfolge verfügbar. [Weitere Informationen](event/about-creating.md)
 
 **E-Mail-Konfiguration**
 
-* Wenn ein IP-Pool mit einer Nachrichtenvorgabe verknüpft wurde, können Sie sie jetzt bearbeiten, wobei die Aktualisierung asynchron erfolgt. Sie können auch den Status jedes IP-Pool-Updates überprüfen. [Weitere Informationen](configuration/ip-pools.md#edit-ip-pool)
+* Wenn ein IP-Pool mit einer Nachrichtenvoreinstellung verknüpft wurde, können Sie ihn jetzt bearbeiten, wobei die Aktualisierung asynchron erfolgt. Sie können auch den Status jedes IP-Pool-Updates überprüfen. [Weitere Informationen](configuration/ip-pools.md#edit-ip-pool)
 
 ## Version August 2021 {#august-2021-release}
 
@@ -134,7 +134,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Personalisierte URLs führen Empfänger zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite, je nach Profilattributen. In Adobe Journey Optimizer können Sie jetzt URLs im Nachrichteninhalt Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profildaten oder Kontextdaten verwenden.</p>
+<p>Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und sie kann Profildaten oder Kontextdaten verwenden.</p>
 <p>Weitere Informationen finden Sie in der <a href="personalization/personalization-syntax.md#perso-urls">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -161,7 +161,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Definieren der vom Versand auszuschließenden Adressen - Unterdrückungsliste</strong><br/></th>
+<th><strong>Definieren der vom Versand auszuschließenden Adressen – Unterdrückungsliste</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -214,12 +214,12 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Personalisierung**
 
-* **Ausdruckseditor**  - Bei der Definition der Personalisierung können Sie jetzt einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](personalization/functions/helpers.md)
+* **Ausdruckseditor** – Bei der Definition der Personalisierung können Sie jetzt einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](personalization/functions/helpers.md)
 
 **E-Mail-Konfiguration**
 
 * **Zulassungsliste** – Die Zulassungsliste kann jetzt in einer Nicht-Produktions-Sandbox über einen API-Aufruf aktiviert und deaktiviert werden. [Weitere Informationen](allow-list.md#enable-allow-list)
-* **Navigation**  - Die Unterdrückungsliste, auf die über das Menü  **Administration > Kanäle > E-Mail-Konfiguration >** Allgemein zugegriffen werden kann, wurde in das neue Untermenü  **Unterdrückung** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](configuration/manage-suppression-list.md#access-suppression-list)
+* **Navigation** – Die Unterdrückungsliste, auf die über das Menü **Administration > Kanäle > E-Mail-Konfiguration > Allgemein** zugegriffen werden kann, wurde in das neue Untermenü **Unterdrückungsliste** verschoben, in dem alle zugehörigen Funktionen für einen einfacheren Zugriff zusammengefasst sind. [Weitere Informationen](configuration/manage-suppression-list.md#access-suppression-list)
 
 **Entscheidungs-Management**
 

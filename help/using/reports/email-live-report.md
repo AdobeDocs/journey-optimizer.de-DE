@@ -9,7 +9,7 @@ exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
 source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Der **[!UICONTROL E-Mail-Live-Bericht]** ist in verschiedene Widgets unterteilt,
 
 Die Widgets **[!UICONTROL E-Mail-Performance]** und **[!UICONTROL E-Mail-Zusammenfassung]** geben mit einem Diagramm und KPIs die wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
-* **[!UICONTROL Targeting]**: Anzahl der Benutzerprofile, die als Zielprofile für diesen Versand gelten.
+* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -43,11 +43,11 @@ Die Widgets **[!UICONTROL E-Mail-Performance]** und **[!UICONTROL E-Mail-Zusamme
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Anzahl der als Spam klassifizierten Nachrichten.
 
-* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Kündigungen von Abos]**: Zahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 
-Das Widget **[!UICONTROL Versandstatistiken]** zeigt den Erfolg Ihres Versands:
+Das Widget **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihres Versands dar:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
