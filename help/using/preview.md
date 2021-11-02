@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
+source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 88%
+source-wordcount: '1053'
+ht-degree: 87%
 
 ---
 
@@ -41,6 +41,15 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 ➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen, testen und veröffentlichen](#video-preview).
 
 ## Auswählen der Testprofile{#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Nachrichtenvorschau und Testversand"
+>abstract="Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="E-Mail-Rendering"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Vorschau"
+
+
 
 Verwenden Sie [Testprofile](building-journeys/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
 
@@ -122,19 +131,19 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-button.png)
 
-1. Geben Sie im Fenster **[!UICONTROL Testversand senden]** die E-Mail Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]** , um den Testversand an sich oder Mitglieder Ihres Unternehmens zu senden.
+1. Aus dem **[!UICONTROL Testversand durchführen]** Fenster, E-Mail-Adresse des Empfängers eingeben und auf **[!UICONTROL Hinzufügen]** den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
 
    Beachten Sie, dass Sie bis zu zehn Empfänger für Ihren Testversand hinzufügen können.
 
    ![](assets/send-proof-button_2.png)
 
-1. Wählen Sie dann **Testprofile** aus, die zur Personalisierung des Nachrichteninhalts verwendet werden.
+1. Wählen Sie anschließend die **Testprofile** , die zur Personalisierung des Nachrichteninhalts verwendet wird.
 
    Jeder Empfänger des Testversands erhält so viele Nachrichten wie die Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
 
 1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
 
-1. Klicken Sie auf **[!UICONTROL Testversand senden]**.
+1. Klicken **[!UICONTROL Testversand durchführen]**.
 
    ![](assets/send-proof-select.png)
 
