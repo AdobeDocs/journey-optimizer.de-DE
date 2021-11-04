@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 69b072471b20abb51046e9f5c364e025d1b9f79b
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 100%
