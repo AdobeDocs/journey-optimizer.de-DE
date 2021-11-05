@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '1999'
 ht-degree: 74%
 
 ---
@@ -98,7 +98,8 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 **Reporting**
 
 * **Datenformat in der globalen Ansicht** - Sie können jetzt zwischen Zahlen und Prozentsätzen im **Globale Ansicht** des **Ausführung** Registerkarte. [Weitere Informationen](message-monitoring.md)
-* **Neue Metriken** - Neue Metriken und Widgets sind jetzt verfügbar in **Live** und **Global** Berichte, um die Wirkung Ihrer Angebote auf die Empfänger zu messen. [Weitere Informationen](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
