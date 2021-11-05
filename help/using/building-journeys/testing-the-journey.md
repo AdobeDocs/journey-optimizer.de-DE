@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1618'
 ht-degree: 100%
 
 ---
@@ -136,8 +136,6 @@ Hier eine Liste der verschiedenen Status der Journey eines Kontakts:
 * _Beendet_: der Kontakt befindet sich am Ende der Journey.
 * _Fehler_: der Kontakt wird aufgrund eines Fehlers in der Journey gestoppt.
 * _Zeitüberschreitung_: der Kontakt wird aufgrund eines Schritts, der zu viel Zeit in Anspruch genommen hat, in der Journey gestoppt.
-
-Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 
 Wenn ein Ereignis im Testmodus ausgelöst wird, wird automatisch ein Datensatz mit dem Namen der Quelle generiert.
 

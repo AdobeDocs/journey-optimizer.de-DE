@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 98%
@@ -28,6 +28,7 @@ Sie können das Nachrichten-Tracking aktivieren, indem Sie die Optionen **[!UICO
 >Beide Optionen sind standardmäßig aktiviert.
 
 Auf diese Weise können Sie das folgende Verhalten Ihrer Empfänger verfolgen:
+
 * **[!UICONTROL Tracking der Öffnungen bei E-Mails]**: Nachrichten, die geöffnet wurden.
 * **[!UICONTROL Tracking der Klicks bei E-Mails]**: Klicks auf Links in einer E-Mail.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,8 @@ Die **Zustellrate** ist der Anteil der Nachrichten, die die Posteingänge der Em
 * Reputation des Absenders
 
 Um die Zustellbarkeit Ihrer [!DNL Journey Optimizer]-Erlebnisse zu optimieren, empfehlen wir die Verwendung der in diesem Abschnitt aufgeführten Best Practices. Probleme mit der Zustellbarkeit hängen in der Regel mit Maßnahmen zum Schutz vor Spam zusammen, die von Internet-Service-Anbietern (ISPs) und Mailserver-Administratoren implementiert werden.
+
+Einen tieferen Einblick in die Zustellbarkeit erhalten Sie im Abschnitt [Best Practices für die Zustellbarkeit von Adoben](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Verringern der Beschwerderate {#reduce-complaint-rate}
 
@@ -75,3 +77,11 @@ Um Ihre Zustellbarkeitsrate zu verbessern und sicherzustellen, dass Ihre E-Mails
 <!--**Use tools** offered by Journey Optimizer to optimize the content of your email (delivery analysis, anti-spam analysis).-->
 
 [Erfahren Sie mehr über das Entwerfen von E-Mail-Inhalten](design-emails.md).
+
+<!--
+## Establish your reputation as a sender
+
+If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox.
+
+To warm up your IP, you can gradually ramp up the number of your deliveries. See this [use case](building-journeys/ramp-up-deliveries-uc.md).
+-->

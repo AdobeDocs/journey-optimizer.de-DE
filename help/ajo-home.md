@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 81%
 
 ---
 
@@ -30,12 +30,19 @@ ht-degree: 100%
     <div>
       <a href="using/get-started.md">Was ist [!DNL Journey Optimizer]?</a>
     </div>
-    <p>  Entdecken Sie die wichtigsten Funktionen und Anleitungen.
+    <p>Wichtige Funktionen und Anwendungsfälle
     <p>
     <div>
       <a href="using/release-notes.md">Versionshinweise</a>
     </div>
-    <p>Entdecken Sie neue Funktionen, aktuelle Verbesserungen und Fehlerbehebungen.
+    <p>Neue Funktionen, aktuelle Verbesserungen und Fehlerbehebungen
+   <p>
+    <div>
+      <a href="using/quick-start.md">Schnellstartanleitung</a>
+    </div>
+    <p>
+    Erfahren Sie, wie Sie als Administrator, Data Engineer oder Journey-Techniker beginnen können.
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">E-Mail-Inhalte gestalten</a>
@@ -56,12 +63,12 @@ ht-degree: 100%
     <div>
     <a href="using/configuration/get-started-configuration.md">Konfigurieren von [!DNL Journey Optimizer]</a>
     </div>
-    <p>Machen Sie sich mit den wichtigsten Schritten zur Konfiguration von [!DNL Journey Optimizer] vertraut.
+    <p>Wichtige Schritte zum Konfigurieren von [!DNL Journey Optimizer]
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Zugriff auf [!DNL Journey Optimizer] gewähren</a>
+    <a href="using/administration/permissions-overview.md">Zugriff auf [!DNL Journey Optimizer]</a> gewähren
     </div>
-    <p>Erfahren Sie, wie Sie die [!DNL Journey Optimizer]-Benutzern zugewiesenen Berechtigungen definieren und verwalten.
+    <p>Berechtigungen definieren und verwalten, die [!DNL Journey Optimizer] Benutzer
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Entscheidungs-Management</a>

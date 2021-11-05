@@ -2,18 +2,123 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7c02f27f0160aea2c2f55c7dc5a8e7c3de3ac159
+source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 95%
+source-wordcount: '2022'
+ht-degree: 74%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die neusten [Aktualisierungen der Dokumentation](documentation-updates.md) einsehen.
+Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die [Aktuelle Dokumentationsaktualisierungen](documentation-updates.md).
+
+## Version Oktober 2021 {#oct-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Target users in a subscription list</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now trigger a journey targeting a subscription list. To perform this: add a Read segment activity followed by a message, and in the message email settings, define an expression that will fetch the subscriber email address from the profile, for the targeted subscription list. The expression editor has been enhanced to allow you to to select the first entry key of a map.</p>
+<p>Learn more in the <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">detailed documentation</a>.</p>>
+</td>
+</tr>
+</tbody>
+</table-->
 
 
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Journeys - Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Entscheidungsmanagement - Angebotssimulation</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Rangalgorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen. Diese Funktion ermöglicht es nichttechnischen und technischen Benutzern, offer decisioning schnell zu testen und potenzielle Probleme zu beheben.</p>
+<p>Weitere Informationen finden Sie in der <a href="offers/offer-activities/simulation.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Entscheidungsverwaltung - Personalisieren von Angeboten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt den Inhalt Ihrer Angebote mit Adobe Experience Platform-Profilattributen und -segmenten personalisieren, indem Sie dieselbe Ausdruckseditor-Komponente verwenden, die Sie in der Journey Optimizer-Benutzeroberfläche finden. </p>
+<p>Weitere Informationen finden Sie in der <a href="offers/offer-library/creating-personalized-offers.md#content">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target=&quot;_blank&quot;} für weitere Änderungen.
+
+### Verbesserungen
+
+**Journeys**
+
+* **Ausdruckseditor** - Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnementlisten genutzt werden. Beispielsweise können Sie aus einem Segment jetzt eine E-Mail-Adresse aus einer Abonnementliste abrufen. [Weitere Informationen finden Sie in diesem Beispiel](building-journeys/message-to-subscribers-uc.md)
+
+   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
+* **Überwachung** - Schrittereignisse für Live-Journey und Testmodus wurden verbessert. [Neue Felder](reports/sharing-field-list.md#serviceevents) wurden im Zusammenhang mit Profilexportaufträgen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Schrittereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Schrittereignisse sind weiterhin im [stepEvents](reports/sharing-legacy-fields.md) Kategorie.
+* **Zugänglichkeit** - In Journey wurden Verbesserungen an der Barrierefreiheit implementiert.
+* **Sammlungen** - Arrays von Objekten, die Unterobjekte enthalten, werden jetzt unterstützt. [Mehr dazu](building-journeys/collections.md)
+* **Listen** - Die Bildschirme &quot;Listen&quot;wurden für Journey, Ereignisse, Aktionen und Datenquellen verbessert.
+
+**Reporting**
+
+* **Datenformat in der globalen Ansicht** - Sie können jetzt zwischen Zahlen und Prozentsätzen im **Globale Ansicht** des **Ausführung** Registerkarte. [Weitere Informationen](message-monitoring.md)
+* **Neue Metriken** - Neue Metriken und Widgets sind jetzt verfügbar in **Live** und **Global** Berichte, um die Wirkung Ihrer Angebote auf die Empfänger zu messen. [Weitere Informationen](reports/journey-global-report.md)
+
+**Administration**
+
+* **Bearbeiten von Nachrichtenvorgaben** - Sie können jetzt Nachrichtenvorgaben bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/message-presets.md#edit-message-preset)
+* **PTR-Datensätze bearbeiten** - Sie können jetzt PTR-Einträge bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/ptr-records.md#edit-ptr-record)
+
+**Personalisierung**
+
+* **Neue Hilfsfunktion für die Datumsformatierung** - Sie können jetzt angeben, wie eine Datums-Zeichenfolge dargestellt werden soll. [Weitere Informationen](personalization/functions/dates.md#format-date)
+
+**Entscheidungsverwaltung**
+
+* **Auswertungssequenzierung** - Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur nahtloser zwischen Entscheidungsobjekten navigieren, sondern auch vollständig steuern, wie Angebotskollektionen von der Entscheidungs-Engine bewertet werden. Dazu gehört, welche Sammlungen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Sammlungen bewertet werden sollen. [Weitere Informationen](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+
+### Fehlerbehebungen
+
+* Fehlerkorrektur - Journey, Nachrichtenliste und E-Mail-Designer werden jetzt angezeigt, wenn die Browsersprache nicht Englisch ist.
+* Fehlerkorrektur - Beim Hinzufügen einer Personalisierung mithilfe eines Ausdrucks im E-Mail-Designer tritt kein Syntaxfehler mehr auf: Zeichen fehlerhaft maskiert wurden.
+* Fehlerkorrektur - Beim Navigieren im **Administration** Menü.
+* Fehlerkorrektur - Beim Testen einer Journey mithilfe eines Geschäftsereignisses werden jetzt keine anderen Live-Journey mehr ausgelöst.
 
 ## Version September 2021 {#september-2021-release}
 
@@ -28,7 +133,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Neue Metriken sind in Berichten verfügbar: Targeting und Ausgeschlossen für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im <a href="reports/live-report.md">detaillierten Handbuch.</a></p>
+<p>Neue Metriken sind in Berichten verfügbar: Targeting und Ausgeschlossen für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im Abschnitt <a href="reports/live-report.md">ausführliche Dokumentation.</a></p>
 <p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
 <p>Weitere Informationen finden Sie in der <a href="message-monitoring.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -55,27 +160,11 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </tbody>
 </table>
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Decision Management - Personalize your offers</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now personalize content added to your offers' representations using the expression editor.</p>
-<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
+
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](reports/sharing-overview.md)
 * Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](building-journeys/about-journey-activities.md#best-practices)

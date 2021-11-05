@@ -2,16 +2,31 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
+source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 87%
 
 ---
 
 # Neueste Aktualisierungen in dieser Dokumentation
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+
+## Oktober 2021
+
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 21. Oktober wurde in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Hinzugefügt **Datums-/Uhrzeitfunktion** Liste. [Mehr dazu](personalization/functions/dates.md)
+* Neu **Erste Schritte - Abschnitte pro Benutzerperson**. Nehmen Sie Ihren eigenen Weg, um schneller zu Ihren Zielen zu kommen! [Mehr dazu](quick-start.md)
+* Neu **Eine Nachrichtenvorgabe bearbeiten** Abschnitt. [Mehr dazu](configuration/message-presets.md#edit-message-preset)
+* Neu **PTR-Datensatz bearbeiten** Abschnitt. [Mehr dazu](configuration/ptr-records.md#edit-ptr-record)
+* Neu **Nachrichtenvorgabe deaktivieren** Abschnitt. [Mehr dazu](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Neue Einschränkungen zu den **Entwicklerhandbuch zur Entscheidungs-API** zu Angebotsbegrenzungen, die vom Mobilgerät nicht unterstützt werden [!DNL Experience Edge] Workflows. [Mehr dazu](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Neu **Simulationen erstellen** Abschnitt. [Mehr dazu](offers/offer-activities/simulation.md)
+* Aktualisiert **Entscheidungsbereiche hinzufügen** Abschnitt. [Mehr dazu](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Aktualisiert **Inhalte für Ihre Darstellungen definieren** Abschnitt. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#content)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Inhalte für Angebotsdarstellungen definiert und personalisiert werden. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 
@@ -32,8 +47,6 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde eine neue Seite über **Einschränkungen** hinzugefügt. [Mehr dazu](limitations.md)
 
 * Die Seite **Schnellstart** mit Schritten für verschiedene Personas wurde verbessert. [Mehr dazu](quick-start.md)
-
-   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
 
 * Jetzt gelten alle im entsprechenden Abschnitt beschriebenen Entscheidungs-Management-Funktionen auch für die Adobe Experience Platform-Benutzer, die den Offer Decisioning-Anwendungs-Service nutzen. [Mehr dazu](offers/get-started/starting-offer-decisioning.md)
 

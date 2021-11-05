@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
+source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 91%
 
 ---
 
@@ -21,9 +21,13 @@ Auf dem Lesen von Segmenten basierende Journeys können einmalig durch eine Plan
 
 Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs einer Firma erreicht einen bestimmten Wert“ usw.
 
+>[!NOTE]
+>
+>Sie können sich auch den Anwendungsfall für Geschäftsereignisse ansehen [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 ## Wichtige Hinweise
 
-* Das Ereignisschema muss eine primäre Identität enthalten.
+* Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten. Die folgenden Felder müssen nach Bedarf festgelegt werden: `_id` und `timestamp`
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
 * Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
@@ -42,7 +46,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 **Welche Schutzmaßnahmen gibt es, um zu verhindern, dass materialisierte Segmente überladen werden?**
 
-Bei Geschäftsereignissen ist die Wiederverwendbarkeit des Themas auf eine Stunde festgelegt. Dies bedeutet, dass für eine bestimmte Journey in einem einstündigen Zeitfenster kein neuer Exportauftrag erstellt wird. Daten, die vom ersten Ereignisvorgang gesendet werden, werden wiederverwendet. Für geplante Journeys gibt es keine Schutzmaßnahmen.
+Im Falle von On-shot-Geschäftsereignissen werden die vom ersten Ereignisauftrag übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine Schutzmaßnahmen. Weitere Informationen zu Segmenten finden Sie in der [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 ## Erste Schritte mit Geschäftsereignissen
 
@@ -74,7 +78,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    ![](../assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten.
+   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten. Die folgenden Felder müssen nach Bedarf festgelegt werden: `_id` und `timestamp`
 
    ![](../assets/test-profiles-4.png)
 
@@ -105,6 +109,10 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    ![](../assets/journey9-business.png)
 
+   >[!NOTE]
+   >
+   > Stellen Sie sicher, dass die folgenden Felder ausgewählt sind: `_id` und `timestamp`
+
 1. Wählen Sie die Felder aus, die Sie vom Ereignis erwarten. Dies sind die Felder, die der Business-Anwender in der Journey nutzen wird.
 
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
@@ -127,4 +135,4 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 
-1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Optimizer] gepusht wird. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihnen bei der Konzeption eines Ereignisses helfen, das an [!DNL Journey Optimizer]. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).

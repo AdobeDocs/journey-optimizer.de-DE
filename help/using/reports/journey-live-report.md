@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 88%
 
 ---
 
@@ -41,19 +41,35 @@ Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben.
 
-* **[!UICONTROL Fehlgeschlagene individuelle Journey]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene einzelne Journey]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
 
 ![](../assets/report_journey_3.png)
 
-Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]**, **[!UICONTROL Ausgeführtes Ereignis]** und **[!UICONTROL Ereignis]** können Sie sehen, welche Ereignisse über Gesamtanzahl, Diagramm und Tabelle erfolgreich ausgeführt wurden.
+Die **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Veranstaltungen]** -Widgets zeigen Ihnen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde, anhand von Zusammenfassungsnummer, Diagramm und Tabelle.
 
 ![](../assets/report_journey_4.png)
 
-Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** stellen die erfolgreichste Aktion und die Fehler dar, die beim Auslösen Ihrer Aktionen aufgetreten sind. Die Aktionsdiagramm-, Tabellen- und Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
+Die **[!UICONTROL Aktion, die in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** Widgets stellen die erfolgreichste Aktion und Fehler dar, die beim Auslösen Ihrer Aktionen aufgetreten sind. Die Aktionsdiagramm-, Tabellen- und Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Erfolgreich ausgeführte Aktionen]**: Gesamtzahl der erfolgreich ausgeführten Aktionen für eine Journey.
+* **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der erfolgreich für eine Journey ausgeführten Aktionen.
 
-* **[!UICONTROL Fehler in Aktion]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
+* **[!UICONTROL Fehler bei Aktionen]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Registerkarte „E-Mail“  {#email-live}
 

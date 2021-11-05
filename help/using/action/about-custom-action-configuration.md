@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 92%
@@ -20,7 +20,7 @@ Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möch
 
 Einschränkungen sind auf [dieser Seite](../limitations.md) aufgeführt.
 
-Mithilfe von benutzerdefinierten Aktionen können Sie Kollektionen dynamisch übergeben. Siehe diesen [Anwendungsfall](../limitations.md).
+Mithilfe von benutzerdefinierten Aktionen können Sie Kollektionen dynamisch übergeben. Siehe diesen [Anwendungsfall](../building-journeys/collections.md).
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
 

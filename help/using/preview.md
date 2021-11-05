@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
+source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 87%
@@ -111,7 +111,7 @@ Zum Erstellen einer Vorschau mit Push-Benachrichtigung:
 
    ![](assets/preview-select-channel.png)
 
-1. Führen Sie dieselben Schritte wie oben beschrieben aus, um ein Testprofil und den Gerätetyp für die Vorschau des Inhalts auszuwählen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**
+1. Führen Sie dieselben Schritte wie oben beschrieben aus, um ein Testprofil und den Gerätetyp für die Vorschau des Inhalts auszuwählen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
    ![](assets/preview-iOS.png)
 

@@ -5,15 +5,14 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer stellen Sie Ihren Kunden vernetzte, kontextbezogene und personalisierte Erlebnisse bereit
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 93%
 
 ---
 
-
-# [!DNL Journey Optimizer] Hilfe {#using}
+# Hilfe zu Adobe Journey Optimizer {#using}
 
 + [Dokumentation zu Journey Optimizer](ajo-home.md)
 + Neue Funktionen {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 100%
    + [Neueste Aktualisierungen](using/documentation-updates.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/get-started.md)
-   + [Schnellstart](using/quick-start.md)
+   + Schnellstart{#quick-start}
+      + [Übersicht](using/quick-start.md)
+      + [Erste Schritte als Marketer](using/path/marketer.md)
+      + [Erste Schritte als Dateningenieur](using/path/data-engineer.md)
+      + [Erste Schritte als Administrator](using/path/administrator.md)
+      + [Erste Schritte als Entwickler](using/path/developer.md)
    + [Benutzeroberfläche](using/user-interface.md)
    + [Einschränkungen](using/limitations.md)
 + Nachrichten {#create-messages}
@@ -50,10 +54,11 @@ ht-degree: 100%
       + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
       + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
    + Hilfsfunktionen{#functions}
-      + [Liste der Hilfsfunktionen](using/personalization/functions/functions.md)
+      + [Erste Schritte mit Hilfsfunktionen](using/personalization/functions/functions.md)
       + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
       + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
       + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
+      + [Datumsfunktionen](using/personalization/functions/dates.md)
       + [Boolesche und Vergleichsfunktionen](using/personalization/functions/operators.md)
       + [Helper](using/personalization/functions/helpers.md)
       + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 100%
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+      + [Nachricht an Abonnenten senden](using/building-journeys/message-to-subscribers-uc.md)
 + Tracken und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 100%
       + [Globaler Bericht zu Push-Benachrichtigungen](using/reports/push-global-report.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
-      + [Journey-Felder](using/reports/sharing-journey-fields.md)
-      + [Allgemeine Felder](using/reports/sharing-common-fields.md)
-      + [Aktionsausführungsfelder](using/reports/sharing-execution-fields.md)
-      + [Datenabruffelder](using/reports/sharing-fetch-fields.md)
-      + [Identitätsfelder](using/reports/sharing-identity-fields.md)
+      + [Schrittereignisfeldliste](using/reports/sharing-field-list.md)
+      + Ereignisfelder für veraltete Schritte {#legacy-step-event-fields}
+         + [Über veraltete Felder](using/reports/sharing-legacy-fields.md)
+         + [Journey-Felder](using/reports/sharing-journey-fields.md)
+         + [Allgemeine Felder](using/reports/sharing-common-fields.md)
+         + [Aktionsausführungsfelder](using/reports/sharing-execution-fields.md)
+         + [Datenabruffelder](using/reports/sharing-fetch-fields.md)
+         + [Identitätsfelder](using/reports/sharing-identity-fields.md)
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
@@ -140,6 +149,7 @@ ht-degree: 100%
    + Entscheidungen erstellen und verwalten {#create-manage-activities}
       + [Entscheidungen erstellen](using/offers/offer-activities/create-offer-activities.md)
       + [Auswahl von Angeboten in Entscheidungen konfigurieren](using/offers/offer-activities/configure-offer-selection.md)
+      + [Simulationen erstellen](using/offers/offer-activities/simulation.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
       + [Erste Schritte mit dem Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)

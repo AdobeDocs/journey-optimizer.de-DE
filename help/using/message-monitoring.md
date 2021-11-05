@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: fa808a6d95468c40b9fbafb4cc8cc1cd74b1d00a
+source-git-commit: f99471ce5bca7272a6f25339c2de1d5f21657088
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 89%
 
 ---
 
@@ -89,5 +89,13 @@ Für jede Nachrichtenausführung wird eine Reihe von Indikatoren angezeigt:
 * **[!UICONTROL Fehler]**: Anzahl der Nachrichten, die aufgrund eines technischen Fehlers nicht gesendet werden können.
 
 * **[!UICONTROL Spam-Beschwerden]**: Anzahl der Nachrichten, die von Empfängern als Spam gekennzeichnet wurden. Weitere Informationen zu Beschwerden finden Sie im [Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability){target=&quot;_blank&quot;}.
+
+Sie können auswählen, welche Spalten in der Tabelle angezeigt werden sollen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Tabelle anpassen]** und wählen Sie die Spalten aus, die angezeigt werden sollen.
+
+![](assets/message-execution-customize-table.png)
+
+In **Globale Ansicht** Sie können festlegen, ob die Daten als Zahlen, Prozentsätze oder beides angezeigt werden sollen. Klicken Sie auf **Datenformat** Dropdown-Liste ein, um zwischen den drei Optionen umzuschalten.
+
+![](assets/message-execution-data-format.png)
 
 Wenn Sie auf einen Hyperlink klicken, wird die zugehörige Ansicht für die Nachrichtenübersicht geöffnet. [Weitere Informationen zu Nachrichten](create-message.md).

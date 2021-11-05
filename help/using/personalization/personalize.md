@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 94%
+source-wordcount: '691'
+ht-degree: 81%
 
 ---
 
 # Erste Schritte mit der Personalisierung{#add-personalization}
 
-Entdecken Sie die Personalisierungsfunktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen zu ihm nutzen. Es kann sein Vorname, Interessen, wo sie leben, was sie kauften und mehr.
+Discover [!DNL Adobe Journey Optimizer] Personalisierungsfunktionen , mit denen Sie Ihre Nachrichten an jeden einzelnen Empfänger anpassen können, indem Sie die vorhandenen Daten und Informationen nutzen. Es kann sein Vorname, Interessen, wo sie leben, was sie kauften und mehr.
 
 ➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren](#video-perso)
 
@@ -45,7 +45,7 @@ In allen Feldern mit dem Editor-Symbol können Sie den Personalisierungseditor (
 
 ### E-Mails personalisieren
 
-Wenn Sie eine E-Mail erstellen, können Sie im Feld **E-Mail-Betreff** der Nachricht eine Personalisierung hinzufügen.
+Wenn Sie eine E-Mail erstellen, können Sie Personalisierung im **[!UICONTROL Betreff]** -Feld der Nachricht ein.
 
 ![](assets/perso_subject.png)
 
@@ -93,13 +93,17 @@ In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswähle
 
 ![](assets/perso_ee1.png)
 
-Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können. Verfügbare Quellen sind:
+Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die Quelle für die Personalisierung auswählen können.
 
-* **Profil**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben ist.
-* **Segmentzugehörigkeit**: Listet alle im Adobe Experience Platform-Segmentierungs-Service erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.
-* **Angebote**: Listet alle Angebot auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md).
-* **Kontext**: Wenn die Aktivität **Nachrichten** in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md).
-* **Hilfsfunktionen**: listet alle Hilfsfunktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen, Bedingungen und die Bearbeitung von Daten im Rahmen der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md).
+![](assets/perso_ee3.png)
+
+Verfügbare Quellen sind:
+
+* **[!UICONTROL Profilattribute]** : listet alle Verweise auf, die mit dem Profilschema verknüpft sind, wie unter [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Segmentmitgliedschaften]** : listet alle im Segmentierungsdienst von Adobe Experience Platform erstellten Segmente auf. Weitere Informationen zur Segmentierung verfügbar [here](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.
+* **[!UICONTROL Angebotsentscheidungen]** : listet alle Angebote auf, die mit einer bestimmten Platzierung verknüpft sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md).
+* **[!UICONTROL Kontextattribute]** : wenn die **Nachricht** in einer Journey verwendet wird, sind kontextbezogene Journey-Felder über dieses Menü verfügbar. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md).
+* **[!UICONTROL Hilfsfunktionen]**: listet alle Hilfsfunktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen, Bedingungen und die Bearbeitung von Daten im Rahmen der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md).
 
 Bei der Auswahl wird die Referenz im Editor hinzugefügt.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 78%
 
 ---
 
@@ -90,6 +90,32 @@ Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die auf Inhalt in einer E-Mail geklickt haben.
 
 * **[!UICONTROL Einzelöffnungen]**: Die Anzahl der Empfänger, die den Versand geöffnet haben
+
+![](../assets/global_report_20.png)
+
+>[!NOTE]
+>
+>Die Widgets Angebote und Metriken sind nur verfügbar, wenn eine Entscheidung in eine E-Mail eingefügt wurde. Weiterführende Informationen zur Entscheidungsverwaltung finden Sie in diesem [page](../offers/get-started/starting-offer-decisioning.md).
+
+Die **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken]** über Widgets vom Typ Zeit hinweg messen Sie den Erfolg und die Wirkung Ihres Angebots auf Ihre Zielgruppe. Sie enthalten die wichtigsten Informationen zu Ihrer Nachricht mit KPIs:
+
+* **[!UICONTROL gesendetes Angebot]**: Gesamtzahl der gesendeten Nachrichten für das Angebot.
+
+* **[!UICONTROL Angebotseindruck]**: Anzahl der Öffnungen des Angebots in einem Versand.
+
+* **[!UICONTROL Angebotsklicks]**: Anzahl der Klicks auf ein Angebot in einem Versand.
+
+Die **[!UICONTROL Detaillierte Statistiken]** enthält die für die Empfängeraktivität mit Ihrem Angebot verfügbaren Daten:
+
+* **[!UICONTROL Platzierungsname]**: Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zur Platzierung finden Sie in diesem Abschnitt [page](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Angebotsname]**: Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zur Platzierung finden Sie in diesem Abschnitt [page](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL gesendetes Angebot]**: Gesamtzahl der gesendeten Nachrichten für das Angebot.
+
+* **[!UICONTROL Impressionsrate des Angebots]**: Prozentsatz der geöffneten Angebote in Bezug auf die Anzahl der gesendeten Angebote.
+
+* **[!UICONTROL Klickrate des Angebots]**: Prozentsatz der Benutzer, die mit dem Angebot interagiert haben.
 
 >[!NOTE]
 >

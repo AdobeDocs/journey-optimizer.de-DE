@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Wählen Sie aus der Dropdown-Liste die Option, Angebote nach **[!UICONTROL Rangfolge]** zu sortieren, und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
+1. Auswählen **[!UICONTROL Ranking-Formel]** als Ranking-Methode verwenden, klicken Sie dann auf **[!UICONTROL Ranking hinzufügen]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,21 +74,15 @@ Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierun
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Wählen Sie aus der Dropdown-Liste aus, dass Sie Angebote nach **[!UICONTROL KI-Rangfolge]** sortieren möchten.
+1. Angebote nach **[!UICONTROL KI-Ranking]** aus der Dropdownliste aus und klicken Sie auf **[!UICONTROL Ranking hinzufügen]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. Klicken Sie auf **[!UICONTROL Rangfolge hinzufügen]**.
-
-   ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. Wählen Sie die von Ihnen erstellte Rangfolgestrategie aus. Alle Details der Rangfolgestrategie werden angezeigt.
 
    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Klicken Sie auf **[!UICONTROL Auswählen]**.
-
-Die Rangfolgestrategie ist nun mit der Platzierung verknüpft.
+1. Klicken Sie auf **[!UICONTROL Auswählen]**. Die Rangfolgestrategie ist nun mit der Platzierung verknüpft.
 
 Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot zuerst für eine bestimmte Platzierung gezeigt werden soll.
 

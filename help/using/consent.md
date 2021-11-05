@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c21d797c85c2dabbec77f109b160fbd77170da5
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 97%
+source-wordcount: '824'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,7 @@ Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den gelten
 Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de){target=&quot;_blank&quot;}.
 
 Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
+
 * Durch das Klicken auf diesen Link werden die Empfänger zu einer Landingpage mit einer Schaltfläche zur Bestätigung weitergeleitet.
 * Nach Bestätigung der Abmeldung durch einen Klick auf die Opt-out-Schaltfläche wird ein Adobe I/O-Aufruf ausgeführt, um die Profildaten mit dieser Information zu aktualisieren. [Weitere Informationen hierzu](#consent-service-api).
 
@@ -56,7 +57,7 @@ Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
    ![](assets/opt-out-link-type.png)
 
-1. Kopieren Sie den Link im Frame **[!UICONTROL URL der Abmeldeseite]** in Ihre Landingpage.
+1. Im **[!UICONTROL Link]** den Link zu Ihrer Landingpage einfügen.
 
    ![](assets/opt-out-link-url.png)
 
@@ -99,6 +100,7 @@ Dieser Adobe I/O-POST-Aufruf lautet wie folgt:
 Endpunkt: cjm.adobe.io/imp/consent/preferences
 
 Abfrageparameter:
+
 * **params**: enthält die verschlüsselte Payload
 * **sig**: Signatur <!--which signature?-->
 * **pid**: verschlüsselte Profil-ID
@@ -110,6 +112,7 @@ Diese Parameter werden durch den Abmelde-Link übergeben, der an Ihren Empfänge
 <!--QUESTION: How do you get the URL built for each recipient? Do you have to wait until each targeted recipient receives the unsubscribe link or can you deduce it in advance? Is it done automatically upon the API call or do you have to do something manually for each profile? In other words will the LP automatically include the 3 parameters or do you have to insert something manually? Still not completely clear-->
 
 Header-Anforderungen:
+
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
@@ -139,7 +142,7 @@ Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch 
 
 In [diesem Abschnitt](message-tracking.md#one-click-opt-out-link) erfahren Sie, wie Sie einen Opt-out-Link zu Ihrem Nachrichteninhalt hinzufügen.
 
-Sobald Ihre Nachricht über einen [Journey](building-journeys/journey.md) gesendet wurde und ein Empfänger auf den Abmelde-Link klickt, wird sein Profil sofort abgemeldet.
+Sobald Ihre Nachricht über eine [Journey](building-journeys/journey.md)Wenn ein Empfänger auf den Abmelde-Link klickt, wird sein Profil sofort abgemeldet.
 
 ## Abmelde-Link in der Kopfzeile {#unsubscribe-email}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
@@ -66,6 +66,20 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 * **[!UICONTROL Softbounce]**: die Gesamtzahl der temporären Fehler, wie ein voller Posteingang.
 
 * **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
+
+![](../assets/live_report_8.png)
+
+>[!NOTE]
+>
+>Die Widgets Angebote und Metriken sind nur verfügbar, wenn eine Entscheidung in eine E-Mail eingefügt wurde. Weiterführende Informationen zur Entscheidungsverwaltung finden Sie in diesem [page](../offers/get-started/starting-offer-decisioning.md).
+
+Die **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken]** über Widgets vom Typ Zeit hinweg messen Sie den Erfolg und die Wirkung Ihres Angebots auf Ihre Zielgruppe. Sie enthalten die wichtigsten Informationen zu Ihrer Nachricht mit KPIs:
+
+* **[!UICONTROL gesendetes Angebot]**: Gesamtzahl der gesendeten Nachrichten für das Angebot.
+
+* **[!UICONTROL Angebotseindruck]**: Anzahl der Öffnungen des Angebots in einem Versand.
+
+* **[!UICONTROL Angebotsklicks]**: Anzahl der Klicks auf ein Angebot in einem Versand.
 
 >[!NOTE]
 >

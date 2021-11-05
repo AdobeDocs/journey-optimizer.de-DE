@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 5%
@@ -17,49 +17,50 @@ ht-degree: 5%
 
 ## Erste Schritte mit [!DNL Assets Essentials] {#get-started-assets-essentials}
 
+
+[!DNL Adobe Experience Manager Assets Essentials] bietet ein zentralisiertes Asset-Repository, mit dem Sie Ihre Nachrichten ausfüllen können. Er ist direkt über [!DNL Adobe Journey Optimizer] durch **[!UICONTROL Assets]** Abschnitt. Sie können beim Entwerfen eines E-Mail-Inhalts auch auf Assets und Ordner zugreifen. [Weitere Informationen zum E-Mail-Design](design-emails.md).
+
 >[!NOTE]
 >
-> Um mit [!DNL Adobe Experience Manager Assets Essentials] zu arbeiten, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass Benutzer, die Zugriff auf [!DNL Assets Essentials] benötigen, Teil der Produktprofile **Assets Essentials Consumer Users** bzw. **Assets Essentials Users** sind. <br> Weiterführende Informationen dazu finden Sie auf dieser  [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
+> So arbeiten Sie mit [!DNL Adobe Experience Manager Assets Essentials], müssen Sie [!DNL Assets Essentials] für Ihre Organisation verwenden und sicherstellen, dass Benutzer, die Zugriff benötigen, [!DNL Assets Essentials], sind Teil der **Assets Essentials-Kundenbenutzer** oder/und **Assets Essentials-Benutzer** Produktprofile. <br> Weitere Informationen hierzu finden Sie in diesem Abschnitt [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] bietet ein zentralisiertes Asset-Repository, mit dem Sie Ihre Nachrichten ausfüllen können. Sie können direkt von [!DNL Adobe Journey Optimizer] über den Abschnitt **[!UICONTROL Assets]** darauf zugreifen. Sie können beim Entwerfen eines E-Mail-Inhalts auch auf Assets und Ordner zugreifen. [Erfahren Sie mehr über das E-Mail-Design](design-emails.md).
-
-Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;}.
+Detailliertere Verfahren für [!DNL Assets Essentials], siehe [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Hochladen und Einfügen von Assets{#add-asset}
 
-Um Dateien in [!DNL Assets Essentials] hochzuladen, müssen Sie zunächst den Ordner durchsuchen oder erstellen, in dem sie gespeichert werden. Sie können sie dann in Ihren E-Mail-Inhalt einfügen.
+So laden Sie Dateien in die [!DNL Assets Essentials], müssen Sie zunächst den Ordner durchsuchen oder erstellen, in dem er gespeichert wird. Sie können sie dann in Ihren E-Mail-Inhalt einfügen.
 
-Weitere Informationen zum Hochladen von Assets finden Sie in der [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
+Weitere Informationen zum Hochladen von Assets finden Sie unter [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. Wählen Sie auf der Startseite [!DNL Adobe Journey Optimizer] die Registerkarte **[!UICONTROL Assets]** unter dem Menü **[!UICONTROL Content Management]** aus, um auf [!DNL Assets Essentials] zuzugreifen.
+1. Von [!DNL Adobe Journey Optimizer] Startseite, wählen Sie die **[!UICONTROL Assets]** Registerkarte unter **[!UICONTROL Content Management]** Menü für den Zugriff [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Doppelklicken Sie auf einen Ordner im mittleren Bereich oder in der Baumansicht, um ihn zu öffnen.
 
-   Sie können auch auf **[!UICONTROL Ordner erstellen]** klicken, um einen neuen Ordner zu erstellen.
+   Sie können auch auf **[!UICONTROL Ordner erstellen]** , um einen neuen Ordner zu erstellen.
 
    ![](assets/media_library_8.png)
 
-1. Klicken Sie im ausgewählten oder erstellten Ordner auf **[!UICONTROL Assets hinzufügen]** , um ein neues Asset in Ihren Ordner hochzuladen.
+1. Klicken Sie im ausgewählten oder erstellten Ordner auf **[!UICONTROL Hinzufügen von Assets]** , um ein neues Asset in Ihren Ordner hochzuladen.
 
    ![](assets/media_library_2.png)
 
-1. Klicken Sie unter **[!UICONTROL Dateien hochladen]** auf **[!UICONTROL Durchsuchen]** und wählen Sie aus, ob Sie **[!UICONTROL Dateien durchsuchen]** oder **[!UICONTROL Ordner durchsuchen]** möchten.
+1. Aus dem **[!UICONTROL Dateien hochladen]** klicken **[!UICONTROL Durchsuchen]** und wählen Sie aus, ob Sie **[!UICONTROL Dateien durchsuchen]** oder **[!UICONTROL Ordner durchsuchen]**.
 
    ![](assets/media_library_3.png)
 
-1. Wählen Sie die Datei aus, die Sie hochladen möchten. Klicken Sie abschließend auf **[!UICONTROL Upload]**.
+1. Wählen Sie die Datei aus, die Sie hochladen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Hochladen]**.
 
-   Weiterführende Informationen zur Verwaltung Ihrer Assets finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
+   Weitere Informationen zum Verwalten von Assets finden Sie in diesem [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Nach dem Hochladen des Assets können Sie Ihre Assets jetzt über Email Designer in eine Ihrer Nachrichten einfügen.
 
-   Ihr Asset kann auch mit dem Modus **Bearbeiten** von [!DNL Assets Essentials] weiter bearbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
+   Ihr Asset kann auch mit der **Bearbeiten** -Modus [!DNL Assets Essentials]. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
-1. Wählen Sie unter [!DNL Adobe Journey Optimizer] im linken Bereich des E-Mail-Designers **[!UICONTROL Asset-Auswahl]** aus.
+1. Von [!DNL Adobe Journey Optimizer]auswählen **[!UICONTROL Asset-Auswahl]** im linken Bereich des E-Mail-Designers.
 
    ![](assets/media_library_5.png)
 
@@ -69,6 +70,6 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Adobe Experien
 
    ![](assets/media_library_6.png)
 
-1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit den **[!UICONTROL Komponenteneinstellungen]** hinzufügen. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
+1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit der **[!UICONTROL Komponenteneinstellungen]**. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
 
    ![](assets/media_library_13.png)

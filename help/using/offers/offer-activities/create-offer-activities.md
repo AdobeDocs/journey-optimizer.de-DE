@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
+source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 100%
+source-wordcount: '1287'
+ht-degree: 58%
 
 ---
 
@@ -32,55 +32,91 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 ## Erstellen einer Entscheidung {#create-activity}
 
-1. Rufen Sie die Entscheidungsliste auf und klicken Sie dann auf **[!UICONTROL Entscheidung erstellen]**.
+1. Rufen Sie die Entscheidungsliste auf und klicken Sie auf **[!UICONTROL Entscheidung erstellen]**.
 
 1. Geben Sie den Namen der Entscheidung an.
 
-1. Legen Sie ein Start- und Enddatum sowie eine Uhrzeit fest und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Definieren Sie bei Bedarf ein Start- und Enddatum und eine Endzeit und klicken Sie auf **[!UICONTROL Nächste]**.
 
    ![](../../assets/activities-name.png)
 
-## Entscheidungsbereiche hinzufügen {#add-decision-scopes}
+## Definieren von Entscheidungsbereichen {#add-decision-scopes}
 
-1. Ziehen Sie eine Platzierung per Drag-and-drop aus der Liste, fügen Sie sie der Entscheidung hinzu und klicken Sie dann auf **[!UICONTROL Kollektion hinzufügen]**.
+1. Wählen Sie eine Platzierung aus der Dropdownliste aus. Sie wird zum ersten Entscheidungsbereich in Ihrer Entscheidung hinzugefügt.
 
    ![](../../assets/activities-placement.png)
 
+1. Klicken **[!UICONTROL Hinzufügen]** , um Bewertungskriterien für diese Platzierung auszuwählen.
+
+   ![](../../assets/activities-evaluation-criteria.png)
+
+   Jedes Kriterium besteht aus einer Angebotskollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangmethode zur Bestimmung der in der Platzierung anzuzeigenden Angebote.
+
    >[!NOTE]
    >
-   >Dieselbe Platzierung kann mehrmals für eine Entscheidung ausgewählt werden.
+   >Es ist mindestens ein Bewertungskriterium erforderlich.
 
-1. Wählen Sie die Kollektion aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie die Angebotskollektion aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![](../../assets/activities-collection.png)
 
-1. Die ausgewählten Angebote werden der Platzierung hinzugefügt.
+   >[!NOTE]
+   >
+   >Sie können auf die **[!UICONTROL Angebotskollektionen öffnen]** -Link, um die Liste der Kollektionen in einer neuen Registerkarte anzuzeigen, über die Sie die Sammlungen und die darin enthaltenen Angebote durchsuchen können.
 
-   In diesem Beispiel haben wir zwei Angebote ausgewählt, die in einer JSON-Platzierung angezeigt werden, um Angebote in einer Callcenter-Lösung zu präsentieren.
+   Die ausgewählte Sammlung wird den Kriterien hinzugefügt.
 
-   ![](../../assets/offers-added.png)
+   ![](../../assets/activities-collection-added.png)
 
-1. Wenn mehrere Angebote für diese Platzierung geeignet sind, werden für den Kunden standardmäßig die Angebote mit der höchsten Priorität bereitgestellt.
+1. Verwenden Sie die **[!UICONTROL Förderfähigkeit]** -Feld, um die Auswahl der Angebote für diese Platzierung zu beschränken.
 
-   Wenn Sie mit einer bestimmten Formel oder einer Rangfolgestrategie festlegen möchten, welches Angebot bereitgestellt werden soll, wählen Sie eine Rangfolgeformel aus der Dropdown-Liste **[!UICONTROL Angebote sortieren nach]** aus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../offer-activities/configure-offer-selection.md).
+   Diese Einschränkung kann mithilfe einer **Entscheidungsregel** oder eines oder mehrerer **Adobe Experience Platform-Segmente** angewendet werden. Beide werden in [diesem Abschnitt](#segments-vs-decision-rules) genauer beschrieben.
 
-1. Das Feld **[!UICONTROL Begrenzung]** schränkt die Auswahl der Angebote für diese Platzierung ein. Diese Einschränkung kann mithilfe einer **Entscheidungsregel** oder eines oder mehrerer **Adobe Experience Platform-Segmente** angewendet werden. Beide werden in [diesem Abschnitt](#segments-vs-decision-rules) genauer beschrieben.
-
-   * Um die Auswahl der Angebote auf die Mitglieder eines Adobe Experience Platform-Segments zu beschränken, wählen Sie **[!UICONTROL Segmente]** aus und klicken Sie dann auf **[!UICONTROL Segmente hinzufügen]**.
+   * Um die Angebotsauswahl auf die Experience Platform eines Segments zu beschränken, wählen Sie **[!UICONTROL Segmente]** Klicken Sie auf **[!UICONTROL Segmente hinzufügen]**.
 
       ![](../../assets/activity_constraint_segment.png)
 
-      Fügen Sie eines oder mehrere Segmente aus dem linken Bereich hinzu, kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]** und klicken Sie dann zur Bestätigung auf **[!UICONTROL Auswählen]**.
+      Fügen Sie ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe des **[!UICONTROL und]** / **[!UICONTROL Oder]** logische Operatoren.
 
       ![](../../assets/activity_constraint_segment2.png)
 
-      Weitere Informationen zum Arbeiten mit Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
+      Erfahren Sie, wie Sie mit Segmenten in [diesem Abschnitt](../../segment/about-segments.md).
 
-   * Wenn Sie eine Auswahleinschränkung für diese Platzierung mithilfe einer Entscheidungsregel hinzufügen möchten, wählen Sie die Option **[!UICONTROL Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**.
+   * Wenn Sie eine Auswahlbegrenzung mit einer Entscheidungsregel hinzufügen möchten, verwenden Sie die **[!UICONTROL Entscheidungsregel]** und wählen Sie die gewünschte Regel aus.
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
+      Erfahren Sie, wie Sie eine Entscheidungsregel in erstellen [diesem Abschnitt](../offer-library/creating-decision-rules.md).
+
+1. Definieren Sie die Rangmethode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten.
+
+   ![](../../assets/activity_ranking-method.png)
+
+   * Wenn mehrere Angebote für diese Platzierung infrage kommen, wird das Angebot mit der höchsten Priorität standardmäßig an den Kunden gesendet.
+
+   * Wenn Sie eine bestimmte Formel verwenden möchten, um das geeignete Angebot auszuwählen, wählen Sie **[!UICONTROL Ranking-Formel]**. Erfahren Sie, wie Sie Angebote in [diesem Abschnitt](../offer-activities/configure-offer-selection.md).
+
+1. Klicken **[!UICONTROL Hinzufügen]** , um weitere Kriterien für dieselbe Platzierung zu definieren.
+
+   ![](../../assets/activity_add-collection.png)
+
+1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.
+
+   Um die Standardsequenz zu ändern, können Sie die Sammlungen per Drag-and-Drop verschieben, um sie nach Bedarf neu anzuordnen.
+
+   ![](../../assets/activity_reorder-collections.png)
+
+1. Sie können mehrere Kriterien gleichzeitig auswerten. Ziehen Sie dazu die Sammlung auf eine andere Sammlung.
+
+   ![](../../assets/activity_move-collection.png)
+
+   Sie haben nun denselben Rang und werden daher gleichzeitig ausgewertet.
+
+   ![](../../assets/activity_same-rank-collections.png)
+
+1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die **[!UICONTROL Neuer Geltungsbereich]** Schaltfläche. Wiederholen Sie die obigen Schritte für jeden Entscheidungsbereich.
+
+   ![](../../assets/activity_new-scope.png)
 
 ### Verwenden von Segmenten vs. Entscheidungsregeln {#segments-vs-decision-rules}
 
@@ -104,17 +140,30 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
 
-Wählen Sie das Fallback-Angebot aus, das Kunden, die nicht den Regeln der Angebotsbedingung und den Einschränkungen entsprechen, letztlich angezeigt wird, und klicken Sie dann auf **[!UICONTROL Weiter]**.
+Nachdem Sie die Entscheidungsbereiche definiert haben, definieren Sie das Fallback-Angebot, das Kunden, die nicht den Eignungsregeln und Einschränkungen für Angebote entsprechen, als letztes Mittel unterbreitet wird.
+
+Wählen Sie sie dazu aus der Liste der verfügbaren Fallback-Angebote für die in der Entscheidung definierten Platzierungen aus und klicken Sie dann auf **[!UICONTROL Nächste]**.
 
 ![](../../assets/add-fallback-offer.png)
+
+>[!NOTE]
+>
+>Sie können auf die **[!UICONTROL Angebotsbibliothek öffnen]** -Link, um die Liste der Angebote in einem neuen Tab anzuzeigen.
 
 ## Entscheidung überprüfen und speichern {#review}
 
 Wenn alles ordnungsgemäß konfiguriert ist, wird eine Zusammenfassung der Entscheidungseigenschaften angezeigt.
 
-1. Stellen Sie sicher, dass die Entscheidung für die Präsentation von Angeboten für Kunden bereit ist.
+1. Stellen Sie sicher, dass die Entscheidung zur Verwendung bereit ist, um Kunden Angebote zu unterbreiten. Alle Entscheidungsbereiche und das darin enthaltene Fallback-Angebot werden angezeigt.
+
+   ![](../../assets/review-decision.png)
+
+   Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung auch eine Vorschau der verfügbaren Angebote, der Eignung und der Rangdetails anzeigen.
+
+   ![](../../assets/review-decision-details.png)
+
 1. Klicken Sie auf **[!UICONTROL Fertigstellen]**.
-1. Wählen Sie dann **[!UICONTROL Speichern und aktivieren]**.
+1. Auswählen **[!UICONTROL Speichern und aktivieren]**.
 
    ![](../../assets/save-activities.png)
 

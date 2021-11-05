@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
+source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 97%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 97%
 Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 * Eine **Platzierung**, in der das Angebot angezeigt wird. Siehe [Platzierungen erstellen](../offer-library/creating-placements.md)
-* Wenn Sie eine Eignungsbedingung hinzufügen möchten: eine **Entscheidungsregel** , die die Bedingung definiert, unter der das Angebot unterbreitet wird. Weitere Informationen finden Sie unter [Entscheidungsregeln erstellen](../offer-library/creating-decision-rules.md).
-* Ein oder mehrere **Tags**, die Sie dem Angebot zuordnen möchten. Weitere Informationen finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
+* Wenn Sie eine Eignungsbedingung hinzufügen möchten: a **Entscheidungsregel** definiert die Bedingung, unter der das Angebot unterbreitet wird. Weitere Informationen finden Sie unter [Entscheidungsregeln erstellen](../offer-library/creating-decision-rules.md).
+* Eins oder mehrere **tags** die Sie mit dem Angebot verknüpfen möchten. Weitere Informationen finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
@@ -120,15 +120,25 @@ Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken S
 
 Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung auswählen.
 
-1. Wählen Sie die Option **[!UICONTROL Benutzerdefiniert]** aus.
+1. Wählen Sie die **[!UICONTROL Benutzerdefiniert]** und klicken Sie auf **[!UICONTROL Inhalt hinzufügen]**.
+
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
    >Bei Platzierungen vom Typ „Bild“ ist diese Option nicht verfügbar.
 
-1. Geben Sie im dafür vorgesehenen Bereich den Text ein, der im Angebot angezeigt werden soll.
+1. Geben Sie den Text ein, der im Angebot angezeigt werden soll.
 
-   ![](../../assets/offer-text-content2.png)
+   ![](../../assets/offer-text-content.png)
+
+   Sie können Ihren Inhalt mit dem Ausdruckseditor personalisieren. Weitere Informationen finden Sie unter [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+
+   ![](../../assets/offer-personalization.png)
+
+   >[!NOTE]
+   >
+   >Nur die **[!UICONTROL Profilattribute]**, **[!UICONTROL Segmentmitgliedschaften]** und **[!UICONTROL Hilfsfunktionen]** -Quellen sind für die Entscheidungsverwaltung verfügbar.
 
 ## Eignungsregeln und Einschränkungen hinzufügen {#eligibility}
 

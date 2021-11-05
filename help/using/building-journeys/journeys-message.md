@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,10 @@ In den Abschnitten **[!UICONTROL E-Mail-Parameter]** und **[!UICONTROL Push-Para
 
 ![](../assets/jo-message4.png)
 
-Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld verwenden. Diese Option kann im Rahmen von Tests nützlich sein. Beispielsweise können Sie als E-Mail-Adresse Ihre eigene E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld verwenden. Diese Option kann für verschiedene Zwecke nützlich sein:
+
+* Um beispielsweise eine E-Mail zu testen, können Sie Ihre E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Sie können die E-Mail-Adresse der Abonnenten einer Liste referenzieren. Siehe dies [Anwendungsfall](message-to-subscribers-uc.md).
 
 ## Optimierung des Versandzeitpunkts{#send-time-optimization}
 
