@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1749'
 ht-degree: 57%
 
 ---
@@ -192,6 +192,10 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu bearbeiten.
 
 Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvorgabe einen Validierungszyklus, der dem beim [Erstellen einer Vorgabe](#create-message-preset).
 
+>[!NOTE]
+>
+>Wenn Sie nur die **[!UICONTROL Beschreibung]**, **[!UICONTROL Email type]** und/oder **[!UICONTROL Email-Wiederholungsparameter]** -Felder, ist die Aktualisierung sofort.
+
 Für Nachrichtenvorgaben mit **[!UICONTROL Aktiv]** -Status, können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
 
 * Klicken Sie auf **[!UICONTROL Letzte Aktualisierung]** neben dem Namen der aktiven Vorgabe angezeigt.
@@ -214,13 +218,17 @@ Ein Update einer Nachrichtenvorgabe kann die folgenden Status aufweisen:
 * **[!UICONTROL Erfolg]**: Die aktualisierte Nachrichtenvorgabe wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Überprüfung der Aktualisierung der Nachrichtenvorgabe fehlgeschlagen.
 
-**Verarbeitung**
+Jeder Status wird nachfolgend beschrieben.
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die Vorgabe ordnungsgemäß aktualisiert wurde. Die Verarbeitungszeit ist um **48-72 Std.** und kann bis zu **7 - 10 Werktage**. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie unter [diesem Abschnitt](#create-message-preset).
+### Verarbeitung
+
+Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die Vorgabe ordnungsgemäß aktualisiert wurde.
 
 >[!NOTE]
 >
->Sie können eine Nachrichtenvorgabe während der Aktualisierung nicht ändern. Sie können weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+>Wenn Sie nur die **[!UICONTROL Beschreibung]**, **[!UICONTROL Email type]** und/oder **[!UICONTROL Email-Wiederholungsparameter]** -Felder, ist die Aktualisierung sofort.
+
+Die Verarbeitungszeit ist um **48-72 Std.** und kann bis zu **7 - 10 Werktage**. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie unter [diesem Abschnitt](#create-message-preset).
 
 Wenn Sie eine bereits aktive Vorgabe bearbeiten:
 
@@ -230,7 +238,11 @@ Wenn Sie eine bereits aktive Vorgabe bearbeiten:
 
 * Während des Validierungsprozesses verwenden die mit dieser Vorgabe konfigurierten Nachrichten weiterhin die ältere Version der Vorgabe.
 
-**Erfolg**
+>[!NOTE]
+>
+>Sie können eine Nachrichtenvorgabe während der Aktualisierung nicht ändern. Sie können weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+
+### Erfolg
 
 Nach erfolgreicher Überprüfung wird die neue Version der Vorgabe automatisch in allen Nachrichten verwendet, die diese Vorgabe verwenden. Sie müssen jedoch möglicherweise warten:
 * einige Minuten, bevor er von den unitären Nachrichten genutzt wird,
@@ -238,16 +250,16 @@ Nach erfolgreicher Überprüfung wird die neue Version der Vorgabe automatisch i
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Fehlgeschlagen**
+### Fehlgeschlagen
 
 Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Vorgabe verwendet.
 
-Die möglichen Aktualisierungsfehlertypen sind:
-* **Autorisierungsfehler**: das Trägertoken ungültig oder nicht autorisiert ist.
-* **Unzulässige Änderung**: an einem oder mehreren nicht zulässigen Feldern bearbeitet wurde.
-* **Vorbedingung fehlgeschlagen**: Einige Felder können nur bestimmte Werte aufweisen, was nicht berücksichtigt wurde.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Weitere Informationen zu möglichen Fehlerursachen finden Sie unter [diesem Abschnitt](#monitor-message-presets).
 
 Wenn die Aktualisierung fehlschlägt, kann die Vorgabe erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
 

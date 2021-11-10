@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 25%
@@ -52,7 +52,7 @@ Sie können einen PTR-Datensatz ändern, um die mit einer IP-Adresse verknüpfte
    >
    >Sie können die **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** -Felder.
 
-1. Klicken **[!UICONTROL SAve]** um Ihre Änderungen zu bestätigen.
+1. Klicken **[!UICONTROL Speichern]** um Ihre Änderungen zu bestätigen.
 
 Ein **[!UICONTROL Aktualisieren]** neben dem Namen des PTR-Datensatzes in der Liste angezeigt.
 

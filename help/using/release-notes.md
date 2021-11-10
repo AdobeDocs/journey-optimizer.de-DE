@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 74%
@@ -74,7 +74,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tr>
 <td>
 <p>Sie können jetzt den Inhalt Ihrer Angebote mit Adobe Experience Platform-Profilattributen und -segmenten personalisieren, indem Sie dieselbe Ausdruckseditor-Komponente verwenden, die Sie in der Journey Optimizer-Benutzeroberfläche finden. </p>
-<p>Weitere Informationen finden Sie in der <a href="offers/offer-library/creating-personalized-offers.md#content">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="offers/offer-library/creating-personalized-offers.md#custom-text">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
