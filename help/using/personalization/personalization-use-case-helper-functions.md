@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall: Personalisierung Warenkorbabbruch-E-Mail {#personalization-use-case-helper-functions}
+# Personalisierung – Anwendungsfall: E-Mail bei Warenkorbabbruch {#personalization-use-case-helper-functions}
 
 In diesem Beispiel personalisieren Sie den Textkörper einer E-Mail-Nachricht. Diese Nachricht richtet sich an Kunden, die zwar Artikel in ihren Einkaufswagen abgelegt, aber ihren Einkauf nicht abgeschlossen haben.
 
