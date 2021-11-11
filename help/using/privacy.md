@@ -1,11 +1,11 @@
 ---
 title: 'Datenschutz    in [!DNL Journey Optimizer] '
-description: Erfahren Sie, wie Sie Datenschutz verwalten.
+description: Erfahren Sie, wie Sie den Datenschutz verwalten
 topic: Privacy
 role: User
 level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
 ht-degree: 100%
 
