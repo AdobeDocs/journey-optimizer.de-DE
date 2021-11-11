@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Mithilfe der Aktivität **Bedingung** können Sie eine Segmentierung anhand von 
 Die Segmentierung kann basieren auf:
 
 * Daten aus Datenquellen
-* den Kontext des Ereignisabschnitts der Journey-Daten, z. B.: Hat eine Person vor einer Stunde auf die Nachricht geklickt?
+* Kontext von Ereignissen, die Teil der Journey-Daten sind – Beispiel: Hat eine Person auf die Nachricht geklickt, die sie vor einer Stunde erhalten hat?
 * Datum – Beispiel: Sind wir im Juni, wenn eine Person durch die Journey navigiert?
 * Tageszeit – Beispiel: Ist es morgens in der Zeitzone der Person?
 * Algorithmus, der die in die Journey geführte Audience auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 % - 10 % für den Ausschluss einer Kontrollgruppe
