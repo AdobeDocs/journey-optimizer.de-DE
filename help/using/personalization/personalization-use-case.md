@@ -7,13 +7,13 @@ role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall: Personalisierung Bestellstatus-Benachrichtigung {#personalization-use-case}
+# Personalisierung – Anwendungsfall: Benachrichtigung über den Bestellstatus {#personalization-use-case}
 
 In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in einer einzigen Push-Benachrichtigung verwenden. Es werden drei Arten der Personalisierung verwendet:
 
