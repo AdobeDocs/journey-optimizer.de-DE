@@ -9,13 +9,13 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Nachrichtenvorschau und Testversand{#preview-and-proof}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen. Bei Verwendung von [personalisiertem Inhalt](personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
+Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Bei Verwendung von [personalisiertem Inhalt](personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
 
 Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktualisierten Inhalt zu validieren.
 
@@ -45,9 +45,9 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="Nachrichtenvorschau und Testversand"
->abstract="Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="E-Mail-Rendering"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Vorschau"
+>abstract="Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=de#email-rendering" text="E-Mail-Rendering"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=de#preview-your-messages" text="Vorschau"
 
 
 
@@ -131,19 +131,19 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    ![](assets/send-proof-button.png)
 
-1. Aus dem **[!UICONTROL Testversand durchführen]** Fenster, E-Mail-Adresse des Empfängers eingeben und auf **[!UICONTROL Hinzufügen]** den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
+1. Geben Sie im Fenster **[!UICONTROL Testversand starten]** die E-Mail-Adresse Ihres Empfängers ein und klicken Sie auf **[!UICONTROL Hinzufügen]**, um den Testversand an sich selbst oder Mitglieder Ihrer Organisation zu senden.
 
    Beachten Sie, dass Sie bis zu zehn Empfänger für Ihren Testversand hinzufügen können.
 
    ![](assets/send-proof-button_2.png)
 
-1. Wählen Sie anschließend die **Testprofile** , die zur Personalisierung des Nachrichteninhalts verwendet wird.
+1. Wählen Sie anschließend die **Testprofile**, die zur Personalisierung des Nachrichteninhalts verwendet werden.
 
-   Jeder Empfänger des Testversands erhält so viele Nachrichten wie die Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
+   Die Anzahl der Testversandnachrichten, die jeder Empfänger erhält, entspricht der Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
 
 1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, z. B. . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
 
-1. Klicken **[!UICONTROL Testversand durchführen]**.
+1. Klicken Sie auf **[!UICONTROL Testversand durchführen]**.
 
    ![](assets/send-proof-select.png)
 

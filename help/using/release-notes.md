@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1999'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -110,7 +110,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 
 * **Neue Hilfsfunktion für die Datumsformatierung** - Sie können jetzt angeben, wie eine Datums-Zeichenfolge dargestellt werden soll. [Weitere Informationen](personalization/functions/dates.md#format-date)
 
-**Entscheidungsverwaltung**
+**Entscheidungs-Management**
 
 * **Auswertungssequenzierung** - Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur nahtloser zwischen Entscheidungsobjekten navigieren, sondern auch vollständig steuern, wie Angebotskollektionen von der Entscheidungs-Engine bewertet werden. Dazu gehört, welche Sammlungen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Sammlungen bewertet werden sollen. [Weitere Informationen](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
@@ -134,7 +134,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tbody>
 <tr>
 <td>
-<p>Neue Metriken sind in Berichten verfügbar: Targeting und Ausgeschlossen für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im Abschnitt <a href="reports/live-report.md">ausführliche Dokumentation.</a></p>
+<p>In Berichten sind neue Metriken verfügbar: „Zielgruppe“ und „Ausgeschlossen“ für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die unterschiedlichen Reporting-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der <a href="reports/live-report.md">entsprechenden Dokumentation</a>.</p>
 <p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
 <p>Weitere Informationen finden Sie in der <a href="message-monitoring.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -155,7 +155,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <p>Sie können jetzt Kollektionen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt: einfache Kollektionen und Objektkollektionen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
 <p>Weitere Informationen zu Kollektionen finden Sie in der <a href="building-journeys/collections.md">entsprechenden Dokumentation</a>. </p>
 <p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
-<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de">Filtern</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html">Überschneidung</a>.</p>
+<p>Lesen Sie die Dokumentation zu den Funktionen <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de">Filtern</a> und <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=de">Überschneidung</a>.</p>
 </td>
 </tr>
 </tbody>

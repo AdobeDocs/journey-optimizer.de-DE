@@ -5,7 +5,7 @@ level: Intermediate
 source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 52%
+ht-degree: 55%
 
 ---
 
@@ -28,13 +28,13 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten
 
    ![](../personalization/assets/perso_ee2.png)
 
-1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentralisiertes Asset-Repository, mit dem Sie Ihre Nachrichten ausfüllen können. Weiterführende Informationen finden Sie [in diesem Abschnitt](../assets-essentials.md).
+1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weiterführende Informationen finden Sie [in diesem Abschnitt](../assets-essentials.md).
 
 1. **Angebote hinzufügen**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden. Erfahren Sie mehr über die Entscheidungsverwaltung [in diesem Abschnitt](../../using/offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Nachrichten testen und validieren**. Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Test durchführen. Bei Verwendung von [personalisiertem Inhalt](../personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Erfahren Sie, wie Sie Ihre Nachrichten testen und validieren [in diesem Abschnitt](../preview.md).
+1. **Nachrichten testen und validieren**. Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Bei Verwendung von [personalisiertem Inhalt](../personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Erfahren Sie, wie Sie Ihre Nachrichten testen und validieren [in diesem Abschnitt](../preview.md).
 
 1. **Journey für Designkunden** um personalisierte, kontextbezogene Erlebnisse bereitzustellen. Mit [!DNL Journey Optimizer] können Sie Anwendungsfälle für die Echtzeit-Orchestrierung erstellen und dabei kontextbezogene Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Entwickeln Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 

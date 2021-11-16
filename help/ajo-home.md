@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -63,10 +63,10 @@ ht-degree: 81%
     <div>
     <a href="using/configuration/get-started-configuration.md">Konfigurieren von [!DNL Journey Optimizer]</a>
     </div>
-    <p>Wichtige Schritte zum Konfigurieren von [!DNL Journey Optimizer]
+    <p>Machen Sie sich mit den wichtigsten Schritten zur Konfiguration von [!DNL Journey Optimizer] vertraut
     <p>
     <div>
-    <a href="using/administration/permissions-overview.md">Zugriff auf [!DNL Journey Optimizer]</a> gewähren
+    <a href="using/administration/permissions-overview.md">Gewähren von Zugriff auf [!DNL Journey Optimizer]</a>
     </div>
     <p>Berechtigungen definieren und verwalten, die [!DNL Journey Optimizer] Benutzer
     <p>

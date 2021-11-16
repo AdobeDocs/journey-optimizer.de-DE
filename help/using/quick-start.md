@@ -42,7 +42,7 @@ Um die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen A
     </a>
     <div>
     <a href="path/data-engineer.md">Ich bin Dateningenieur</a>
-     <p>Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemata und Datensätzen
+     <p>Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemas und Datensätzen
     <p>
     </div>
     <br>

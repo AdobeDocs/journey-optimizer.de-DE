@@ -17,7 +17,7 @@ role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 100%
 
@@ -109,9 +109,9 @@ Die Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen anz
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
+   * Journey_events.read
+   * Journey_data_sources.read
+   * Journey_actions.read
 
 * Spezifisch für Adobe Experience Platform:
    * schemas.read

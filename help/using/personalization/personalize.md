@@ -1,6 +1,6 @@
 ---
 title: Personalisieren von Inhalten in Journey Optimizer
-description: Erste Schritte mit der Personalisierung
+description: Erste Schritte bei der Personalisierung
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
-# Erste Schritte mit der Personalisierung{#add-personalization}
+# Erste Schritte bei der Personalisierung{#add-personalization}
 
-Discover [!DNL Adobe Journey Optimizer] Personalisierungsfunktionen , mit denen Sie Ihre Nachrichten an jeden einzelnen Empfänger anpassen können, indem Sie die vorhandenen Daten und Informationen nutzen. Es kann sein Vorname, Interessen, wo sie leben, was sie kauften und mehr.
+Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich z. B. um den Vornamen des Empfängers, seine Interessen, seinen Wohnort oder zuvor gekaufte Artikel handeln.
 
 ➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren](#video-perso)
 

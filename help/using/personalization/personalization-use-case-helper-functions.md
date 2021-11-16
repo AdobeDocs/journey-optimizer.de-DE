@@ -7,7 +7,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -156,7 +156,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
       ![](../assets/personalization-uc-helpers-10.png)
@@ -170,7 +169,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
 
    ```html
@@ -209,7 +207,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       </table>
    {{/each}}
    ```
-
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
@@ -233,7 +230,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
-
       ![](../assets/personalization-uc-helpers-12.png)
 
 1. Entfernen Sie diese Bedingung aus dem Ausdruck:
@@ -267,7 +263,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
-
       ![](../assets/personalization-uc-helpers-13.png)
 
 1. Ändern Sie den Ausdruck:
@@ -298,7 +293,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
-
    1. Entfernen Sie den Platzhalter „default_render“ aus dem Ausdruck.
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 

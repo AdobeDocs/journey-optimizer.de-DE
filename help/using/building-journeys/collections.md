@@ -7,7 +7,7 @@ exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
 
    ![](../assets/uc-collection-4.png)
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de) und [Überschneidung](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de) und [Überschneidung](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=de) verwendet:
 
 ![](../assets/uc-collection-5.png)
 

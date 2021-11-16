@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 100%
 
@@ -39,9 +39,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |-|-|
 |Journeys | <ul><li>**Journeys verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**Journey veröffentlichen**: Veröffentlichen von Journeys.</li><li>**Ereignisse, Datenquellen und Aktionen zu Journeys anzeigen**: Nur-Lese-Zugriff auf Ereignisse, benutzerdefinierte Aktionen und Datenquellen von Journeys.</li><li>**Bericht zu Journeys anzeigen**: Lesen und Bearbeiten von Journey-Berichten.</li></ul>|
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**Nachrichten veröffentlichen**: Veröffentlichen von Nachrichten.</li><li>**Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li>**Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
-|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
+|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>| |Adobe Experience Platform| <ul><li>**Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Journey-Manager {#journey-manager}
 
@@ -53,9 +51,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |-|-|
 |Journeys | <ul><li>**Journeys verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**Journey-Ereignisse anzeigen**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li><li>**Bericht zu Journeys anzeigen**: Lesen und Bearbeiten des Journey-Berichts.</li></ul>|
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li> **Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li>**Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
-|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>|
-|Adobe Experience Platform| <ul><li> **Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
+|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**Rangfolgestrategien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Rangfolgestrategien.</li></ul>| |Adobe Experience Platform| <ul><li> **Segmente verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**Profile verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Journey-Betrachter {#journey-viewer}
 
@@ -81,9 +77,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |-|-|
 |Journeys | <ul><li>**Anzeigen von Journeys**: Nur-Lese-Zugriff auf Journeys.</li><li>**Ereignisse, Datenquellen und Aktionen zu Journeys anzeigen**: Nur-Lese-Zugriff auf Ereignisse, benutzerdefinierte Aktionen und Datenquellen von Journeys.</li></ul>|
 |Nachrichten| <ul><li>**Nachrichten verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**Nachrichtenvorschau verwalten und Testsendungen durchführen**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Tests/Testsendungen.</li><li> **Nachrichtenbericht anzeigen**: Lesen, Erstellen, Bearbeiten und Löschen des Nachrichtenberichts.</li></ul>|
-|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Lesen von Profilen**: Nur-Lese-Zugriff auf das Profil für Vorschau und Test.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
-|Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
+|Entscheidungs-Management| <ul><li>**Entscheidungen verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li></ul>| |Adobe Experience Platform| <ul><li>**Lesen von Profilen**: Nur-Lese-Zugriff auf das Profil für Vorschau und Test.</li><li>**Lesen von Datensätzen**: Nur-Lese-Zugriff auf Datensätze.</li><li>**Lesen von Schemas**: Nur-Lese-Zugriff auf Schemas.</li><li>**Zusammenführungsrichtlinien verwalten**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**Anzeigen von Nachrichtenvoreinstellungen**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## Entscheidungs-Manager {#decisioning-manager}
 
