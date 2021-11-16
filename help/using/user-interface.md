@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Benutzeroberfläche {#cjm-user-interface}
 
-Sobald die Verbindung zu [Adobe Experience Cloud](http://experience.adobe.com) hergestellt ist, navigieren Sie zu [!DNL Journey Optimizer].
+Verbinden mit [Adobe Experience Cloud](http://experience.adobe.com) und navigieren Sie zu [!DNL Journey Optimizer].
 
 Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
 
