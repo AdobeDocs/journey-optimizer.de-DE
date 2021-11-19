@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 0ab4cbed213a00d31861406f554e3e43e4591e57
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,6 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
     ]
    }
    ```
-
 * Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
@@ -132,7 +131,7 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
 
    ![](../assets/uc-collection-4.png)
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html?lang=de) und [Überschneidung](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html?lang=de) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/functionfilter.md) und [Überschneidung](functions/functionintersect.md) verwendet:
 
 ![](../assets/uc-collection-5.png)
 
