@@ -2,13 +2,13 @@
 title: Journey Optimizer Erste Schritte für Marketingexperten
 description: Als Journey-Praktikant erfahren Sie mehr darüber, wie Sie mit Journey Optimizer arbeiten
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 55%
 
 ---
-
 
 # Erste Schritte für Marketingexperten
 
@@ -51,4 +51,3 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten
    Erfahren Sie, wie Sie Journey erstellen und ausführen [in diesem Abschnitt](../building-journeys/journey-gs.md)
 
 1. **Nachrichten und Journey überwachen**. Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Erfahren Sie, wie Sie die Leistung überwachen [in diesem Abschnitt](../message-monitoring.md).
-

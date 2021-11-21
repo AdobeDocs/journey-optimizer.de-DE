@@ -2,7 +2,8 @@
 title: Journey Optimizer - Erste Schritte für Systemadministratoren
 description: Als Systemadministrator erfahren Sie mehr über die Arbeit mit Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 22%
@@ -62,9 +63,7 @@ Führen Sie die folgenden Schritte aus:
 1. **Verwalten der Unterdrückung und Zulassungsliste**: Zustellbarkeit durch Unterdrückung und Zulassungslisten verbessern
 
    * A [Unterdrückungsliste](../suppression-list.md) besteht aus E-Mail-Adressen, die Sie von Ihren Sendungen ausschließen möchten, da der Versand an diese Kontakte Ihrer Reputation und den Versandraten schaden könnte. Sie können alle E-Mail-Adressen überwachen, die automatisch vom Versand ausgeschlossen werden, wie ungültige Adressen, Adressen, die konsistent Softbounce verwenden und sich negativ auf Ihre E-Mail-Reputation auswirken könnten, sowie Empfänger, die eine Spam-Beschwerde einer Ihrer E-Mail-Nachrichten richten. Erfahren Sie, wie Sie die [Unterdrückungsliste](../configuration/manage-suppression-list.md) und [retries](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * Die [Zulassungsliste](../allow-list.md) ermöglicht die Angabe einzelner E-Mail-Adressen oder Domains, die als einzige Empfänger oder Domains berechtigt sind, E-Mails zu empfangen, die Sie von einer bestimmten Sandbox aus senden. Dadurch können Sie verhindern, dass Sie in einer Testumgebung versehentlich E-Mails an echte Kundenadressen senden. Erfahren Sie, wie Sie [Zulassungsliste aktivieren](../allow-list.md).
    Erfahren Sie mehr über die Verwaltung der Zustellbarkeit in [!DNL Adobe Journey Optimizer] [auf dieser Seite](../deliverability.md).
-
