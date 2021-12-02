@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -189,6 +189,10 @@ ht-degree: 100%
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+
+      <!--
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Nachverfolgen und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}

@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 1d8eabfee83d80f74c54ec8dee5ec924bc165ee7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 62%
 
 ---
 
@@ -29,19 +29,23 @@ Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer ander
 
 Durch das Zuweisen einer Subdomain an [!DNL Journey Optimizer] kann Adobe sicherstellen, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Zustellbarkeits-Anforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für die unternehmensinternen E-Mail-Domains.
 
+## Vollständige Subdomain-Zuweisung {#full-subdomain-delegation}
+
 [!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
 >[!NOTE]
 >
 >Standardmäßig können Sie mit dem Lizenzvertrag für [!DNL Journey Optimizer] bis zu 10 Subdomains zuweisen. Wenden Sie sich an Ihren Ansprechpartner bei Adobe, wenn Sie diese Einschränkung erhöhen möchten.
->
->Die Verwendung von CNAMEs für die Zuweisung von Subdomains wird von Journey Optimizer derzeit nicht unterstützt.
 
 Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]**/**[!UICONTROL Subdomains]** auf und klicken Sie dann auf **[!UICONTROL Subdomain zuweisen]**.
+1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** Menü und klicken Sie auf **[!UICONTROL Einrichten der Subdomain]**.
 
    ![](../assets/subdomain-delegate.png)
+
+1. Auswählen **[!UICONTROL Vollständig delegiert]** von **[!UICONTROL Einrichten der Methode]** Abschnitt.
+
+   ![](../assets/subdomain-method-full.png)
 
 1. Geben Sie den Namen der zuzuweisenden Subdomain an.
 
@@ -63,17 +67,103 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zuzuweisen:
    >
    >Sie können die Einträge erstellen und die Subdomain-Konfiguration später über die Schaltfläche **[!UICONTROL Als Entwurf speichern]** übermitteln. Anschließend können Sie die Zuweisung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
-1. Nachdem die Subdomain-Zuweisung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL In Verarbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
+1. Sobald die vollständige Subdomain-Zuweisung gesendet wurde, wird die Subdomain in der Liste mit der **[!UICONTROL Verarbeitung]** Status. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
    Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, die bis zu drei Stunden dauern können. Weiterführende Informationen finden Sie in diesem [Abschnitt](#subdomain-validation).
 
+   >[!NOTE]
+   >
+   >Alle fehlenden Datensätze, d. h. die noch nicht in Ihrer Hosting-Lösung erstellten Datensätze, werden aufgelistet.
+
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+
+   >[!NOTE]
+   >
+   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** , wenn Sie den Validierungsdatensatz nicht in Ihrer Hosting-Lösung erstellen.
 
    <!-- later on, users will be notified in Pulse -->
 
-   ![](../assets/subdomain-notification.png)
+Nachdem eine Subdomain an die Adobe in [!DNL Journey Optimizer], wird automatisch ein PTR-Eintrag erstellt und dieser Subdomain zugeordnet. [Weitere Informationen](ptr-records.md)
+
+## CNAME-Subdomain-Zuweisung {#cname-subdomain-delegation}
+
+Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass die Adobe nur eine teilweise Kontrolle über das DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
+
+Mit der Subdomain-Zuweisung von CNAME können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
+
+>[!CAUTION]
+>
+>Diese Methode wird empfohlen, wenn die Richtlinien Ihres Unternehmens die Methode der vollständigen Subdomain-Zuweisung einschränken. Dieser Ansatz erfordert, dass Sie DNS-Einträge selbst verwalten und verwalten. Adobe kann das DNS für eine Subdomain, die über die CNAME-Methode konfiguriert wurde, nicht ändern, verwalten oder verwalten.
+
+Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zuzuweisen:
+
+1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** Menü und klicken Sie auf **[!UICONTROL Einrichten der Subdomain]**.
+
+1. Wählen Sie die **[!UICONTROL CNAME-Einrichtung]** -Methode.
+
+   ![](../assets/subdomain-method-cname.png)
+
+   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
+
+1. Geben Sie den Namen der zuzuweisenden Subdomain an.
+
+   >[!CAUTION]
+   >
+   >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
+   >
+   >Beachten Sie, dass Subdomains mit mehreren Ebenen, wie email.marketing.ihrunternehmen.com, derzeit nicht unterstützt werden.
+
+1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
+
+1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie das Kontrollkästchen &quot;Ich bestätigen..&quot;.
+
+   ![](../assets/subdomain-create-dns-confirm.png)
+
+   >[!NOTE]
+   >
+   >Sie können die Datensätze später mithilfe der **[!UICONTROL Als Entwurf speichern]** Schaltfläche. Anschließend können Sie die Zuweisung der Subdomain zu diesem Zeitpunkt fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+
+1. Warten Sie, bis Adobe überprüft, ob diese Datensätze in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
+
+   >[!NOTE]
+   >
+   >Alle fehlenden Datensätze, d. h. die noch nicht in Ihrer Hosting-Lösung erstellten Datensätze, werden aufgelistet.
+
+1. Adobe generiert einen SSL-CDN-URL-Validierungsdatensatz. Kopieren Sie diesen Validierungsdatensatz in Ihre Hosting-Plattform. Wenn Sie diesen Datensatz ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen &quot;Ich bestätigen..&quot; und klicken Sie dann auf . **[!UICONTROL Einsenden]**.
+
+   ![](../assets/subdomain-cdn-url-validation.png)
+
+   >[!NOTE]
+   >
+   >Sie können auch den Validierungsdatensatz erstellen und die Subdomain-Konfiguration später mit der **[!UICONTROL Als Entwurf speichern]** Schaltfläche. Anschließend können Sie die Zuweisung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+
+1. Sobald die Subdomain-Zuweisung mit CNAME gesendet wurde, wird die Subdomain in der Liste mit der **[!UICONTROL Verarbeitung]** Status. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
+
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis die Adobe die erforderlichen Prüfungen durchführt. Diese dauert in der Regel 2 bis 3 Stunden. Weiterführende Informationen finden Sie in diesem [Abschnitt](#subdomain-validation).
+
+1. Nach erfolgreicher Überprüfung<!--i.e Adobe validates the record you created and installs it-->, erhält die Subdomäne die **[!UICONTROL Erfolg]** Status. Sie kann nun zum Versand von Nachrichten verwendet werden.
+
+   >[!NOTE]
+   >
+   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** , wenn Sie den Validierungsdatensatz nicht in Ihrer Hosting-Lösung erstellen.
+
+Nach der Validierung des Datensatzes und der Installation des Zertifikats erstellt Adobe automatisch den PTR-Datensatz für die CNAME-Subdomain. [Weitere Informationen](ptr-records.md)
+
+<!--
+
+**Questions**
+
+* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but I can see in the mocks that generating the record can take up to 2 minutes only vs 3 hours to validate record when using full delegation method, such as described here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html?lang=en. Do you confirm?
+
+* One you submit the CNAME subdomain delegation, do you go through the same validation steps as for full delegation (see here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation)? In that case, can it take up to 72 hours as seen in mocks vs up to 3 hours when using full delegation method?
+
+* Is a PTR record created for each CNAME subdomain? Is it different when fully delegating subdomain?
+
+* Question on existing documentation: I can read here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation that "Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain.": Does it mean "Adobe creates PTR records only when you delegate a subdomain for the first time"? If so, I'll change this sentence as I find it a bit confusing. Otherwise please advise.
+
+-->
 
 ## Subdomain-Validierung {#subdomain-validation}
 
@@ -91,6 +181,7 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
    * **SPF-Eintrag**: Sender Policy Framework-Eintrag – Listet die IPs der E-Mail-Server auf, die E-Mails von der Subdomain senden können.
    * **DKIM-Datensatz**: DomainKeys Identified Mail-Standardeintrag – Verwendet eine Verschlüsselung mit öffentlichem und privatem Schlüssel zur Authentifizierung der Nachricht, um Spoofing zu verhindern.
    * **A**: Standard-IP-Zuordnung.
+   * **CNAME**: Ein kanonischer Name oder CNAME-Eintrag ist ein DNS-Record-Typ, der einen Aliasnamen einem true- oder kanonischen Domänennamen zuordnet.
 
 1. **Erstellen von Tracking- und Mirror-URLs**: Wenn die Domain email.example.com ist, lautet die Tracking-/Mirror-Domain data.email.example.com. Sie wird durch die Installation des SSL-Zertifikats gesichert.
 
@@ -102,4 +193,4 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
 
 1. **Weiterleitungs-DNS erstellen**: Wenn dies die erste Subdomain ist, die Sie delegieren, erstellt Adobe das Weiterleitungs-DNS, das zum Erstellen von PTR-Einträgen erforderlich ist – einem für jede Ihrer IPs.
 
-1. **PTR-Eintrag erstellen**: PTR-Einträge, auch als Reverse-DNS-Eintrag bezeichnet, werden von den ISPs benötigt, damit sie die E-Mails nicht als Spam kennzeichnen. Gmail empfiehlt auch, für jede IP-Adresse PTR-Einträge zu haben. Adobe erstellt PTR-Einträge nur, wenn Sie die erste Subdomain zuweisen, eine für jede IP-Adresse, und alle IP-Adressen auf die erste Subdomain verweisen. Wenn die IP beispielsweise *192.1.2.1* und die Subdomain *email.example.com* lautet, lautet der PTR-Eintrag: *192.1.2.1 PTR r1.email.example.com*. Sie können den PTR-Eintrag anschließend aktualisieren, um auf die neue zugewiesene Domain zu verweisen.
+1. **PTR-Eintrag erstellen**: PTR-Einträge, auch als Reverse-DNS-Eintrag bezeichnet, werden von den ISPs benötigt, damit sie die E-Mails nicht als Spam kennzeichnen. Gmail empfiehlt auch, für jede IP-Adresse PTR-Einträge zu haben. Adobe erstellt PTR-Einträge nur, wenn Sie eine Subdomain zum ersten Mal zuweisen, eine für jede IP, alle IPs, die auf diese Subdomain verweisen. Wenn die IP beispielsweise *192.1.2.1* und die Subdomain *email.example.com* lautet, lautet der PTR-Eintrag: *192.1.2.1 PTR r1.email.example.com*. Sie können den PTR-Eintrag anschließend aktualisieren, um auf die neue zugewiesene Domain zu verweisen. [Weitere Informationen zu PTR-Datensätzen](ptr-records.md)

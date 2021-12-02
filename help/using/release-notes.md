@@ -2,16 +2,36 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 78%
+source-wordcount: '2077'
+ht-degree: 74%
 
 ---
 
 # Versionshinweise {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die [Aktuelle Dokumentationsaktualisierungen](documentation-updates.md).
+
+## Version November 2021
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME-Subdomain-Zuweisung</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME oder Canonical Name-Datensatz ist ein Datensatz, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der Subdomain-Zuweisung von CNAME können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
+<p>Diese Methode wird empfohlen, wenn die Richtlinien Ihres Unternehmens die Methode der vollständigen Subdomain-Zuweisung einschränken.</p>
+<p>Erfahren Sie mehr über die Zuweisung von CNAME-Subdomains im <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">Detaillierte Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Version Oktober 2021 {#oct-2021-release}
 
@@ -81,7 +101,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </table>
 
 
-Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target=&quot;_blank&quot;} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} für weitere Änderungen.
 
 ### Verbesserungen
 

@@ -1,19 +1,19 @@
 ---
-product: adobe campaign
-title: Allgemeines
-description: Allgemeine Informationen zu erweiterten Ausdrücken
+product: Journey Optimizer
+title: Syntax
+description: Erfahren Sie mehr über den erweiterten Ausdruckseditor
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 95%
 
 ---
 
-# Allgemeines {#concept_rcy_qj5_dgb}
+# Syntax des erweiterten Ausdruckseditors {#syntax}
 
 ## Klammern und Priorität von Ausdrücken{#section_edf_fks_bgb}
 

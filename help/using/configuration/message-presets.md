@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 57%
+source-wordcount: '1751'
+ht-degree: 56%
 
 ---
 
@@ -114,7 +114,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
    Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit ist um **48-72 Std.** und kann bis zu **7 - 10 Werktage**.
 
-   Zu diesen Prüfungen gehören Zustellbarkeitstests, die vom Adobe-Zustellbarkeits-Team durchgeführt werden:
+   Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
    * SPF-Validierung
    * DKIM-Validierung
