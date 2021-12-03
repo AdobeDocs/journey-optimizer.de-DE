@@ -23,9 +23,9 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
 
 1. Bevor Sie Angebote erstellen, [definieren Sie Ihre Komponenten](#define-components).
 
-   * Platzierungen erstellen
-   * Entscheidungsregeln erstellen
-   * Tags erstellen
+   * Erstellen von Platzierungen
+   * Erstellen von Entscheidungsregeln
+   * Erstellen von Tags
    * Rangfolge erstellen (optional)
 
 1. [Angebote konfigurieren](#configure-offers)
