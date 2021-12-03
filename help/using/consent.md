@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 95%
+source-wordcount: '823'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,9 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
 1. Erstellen Sie Ihre Abmeldungs-Landingpage.
-1. Hosten Sie Ihre Landingpage auf einem Drittanbietersystem Ihrer Wahl.
+
+1. Hosten Sie es auf dem Drittanbietersystem Ihrer Wahl.
+
 1. [Erstellen Sie eine Nachricht](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '883'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 100%
       + [Erstellen einer Nachricht](using/create-message.md)
       + [Erstellen einer E-Mail](using/create-email.md)
       + [Erstellen einer Push-Benachrichtigung](using/create-push.md)
+      + [SMS erstellen](using/create-sms.md)
    + [Hinzufügen und Verwalten von Assets](using/assets-essentials.md)
    + Entwerfen von E-Mails {#email-designer}
       + [Erste Schritte beim Gestalten von E-Mails ](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 100%
       + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
       + [Unterdrückungsliste](using/suppression-list.md)
       + [Zulassungsliste](using/allow-list.md)
++ Landingpages {#landing-pages}
+   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
+   + [Landingpage erstellen](using/landing-pages/create-lp.md)
+   + [Landingpage erstellen](using/landing-pages/design-lp.md)
+   + [Abonnementliste erstellen](using/landing-pages/subscription-list.md)
+   + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 100%
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
          + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
+      + [SMS-Kanal konfigurieren](using/configuration/sms-configuration.md)
       + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
