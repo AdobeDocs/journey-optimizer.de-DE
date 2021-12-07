@@ -1,26 +1,27 @@
 ---
-title: Erste Schritte mit Landingpages
-description: Informationen zu Landingpages in Journey Optimizer
+title: Get started with landing pages
+description: Learn about landing pages in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
-# Erste Schritte mit Landingpages {#get-sarted-lp}
+# Get started with landing pages {#get-sarted-lp}
 
 >[!CAUTION]
 >
->Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Kundenbetreuer bei der Adobe.
+>The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er sich von einer E-Mail, einer Website, einer Anzeige oder einem anderen digitalen Ort aus durchgeklickt hat.
+A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location.
 
 <!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
 
@@ -30,29 +31,26 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] ermöglicht Ihnen Folgendes:
-
-* Nutzung [!DNL Journey Optimizer] Funktionen zur Inhaltserstellung, um schnell und einfach responsive Landingpages zu erstellen.
-* Erstellen Sie Abonnementlisten, damit sich Benutzer für einen Dienst anmelden können.
-* Ihren Kunden die Möglichkeit geben, sich für Ihre Kommunikation an- oder abzumelden.
-* Geben Sie Ihren Empfängern die Möglichkeit, sich vom Erhalt Ihrer Nachrichten abzumelden.
+* Nutzung [!DNL Journey Optimizer] Funktionen zur Inhaltserstellung **responsive Landingpages**.
+* Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.
+* Create subscription lists to enable users to **subscribe to a service**. [Mehr dazu](lp-use-cases.md#subscription-to-a-service)
+* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten. [Mehr dazu](lp-use-cases.md#opt-out)
+* Send a **confirmation email** upon opt-in or opt-out. [Mehr dazu](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Landingpages erstellen</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Erstellen von Abonnementlisten</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
+<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Landingpages erstellen</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Anwendungsfälle</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->

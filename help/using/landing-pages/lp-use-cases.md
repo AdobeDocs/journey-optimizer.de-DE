@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 27%
+source-wordcount: '794'
+ht-degree: 25%
 
 ---
 
 # Anwendungsfälle für Landingpages
 
-Im Folgenden finden Sie Beispiele für die Verwendung von [!DNL Journey Optimizer] -Landingpages verwenden, damit Ihre Kunden bestimmte oder alle Ihre Nachrichten an- bzw. abmelden können.
+Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer] -Landingpages verwenden, damit Ihre Kunden bestimmte oder alle Ihre Nachrichten an- bzw. abmelden können.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ Im Folgenden finden Sie Beispiele für die Verwendung von [!DNL Journey Optimize
 
 ## Dienstanmeldung {#subscription-to-a-service}
 
-Die wichtigsten Schritte, mit denen Ihre Empfänger einen Dienst abonnieren sollen, sind unten dargestellt.
+Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden zu [Dienst abonnieren](subscription-list.md) (z. B. einen Newsletter oder ein Ereignis) über eine Landingpage. Die wichtigsten Schritte werden im unten stehenden Diagramm dargestellt:
 
 ![](../assets/lp_subscription-uc.png)
 
-Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Ereignisregistrierung starten, um interessierte Kunden über diese Veranstaltung auf dem Laufenden zu halten.
+Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Ereignisregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für dieses Ereignis registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnementliste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
 
-1. Erstellen Sie die Abonnementliste der Ereignisregistrierung. Weitere Informationen finden Sie unter [Abonnementlisten](subscription-list.md)
+### Landingpage einrichten
 
-1. [Landingpage erstellen](create-lp.md), damit sich Ihre Empfänger bei Ihrem Ereignis registrieren können.
+1. Erstellen Sie die Abonnementliste der Ereignisregistrierung, in der die registrierten Benutzer gespeichert werden. Erfahren Sie, wie Sie eine Abonnementliste erstellen [here](subscription-list.md#define-subscription-list).
 
-1. Konfigurieren und gestalten Sie die Anmelde-Landingpage, einschließlich des Links zur Abonnementliste. Weitere Informationen zum Erstellen der [primäre Landingpage](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. Erstellen Sie eine Dankeseite, die Ihren Empfängern angezeigt wird, sobald sie das Registrierungsformular übermitteln. Weitere Informationen finden Sie unter [Landingpages](create-lp.md#configure-subpages)
+1. [Landingpage erstellen](create-lp.md) , damit sich Ihre Empfänger für Ihr Ereignis registrieren können.
 
-1. Erstellen Sie eine E-Mail-Nachricht. Weitere Informationen finden Sie unter [Nachrichten erstellen](../create-message.md)
+1. Registrierung konfigurieren [primäre Landingpage](create-lp.md#configure-primary-page).
 
-1. [Link einfügen](../message-tracking.md#insert-links) in Ihrer Nachricht. Auswählen **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) die Sie für die Registrierung erstellt haben.
+1. Beim Entwerfen der [Landingpage-Inhalt](design-lp.md)Wählen Sie die von Ihnen erstellte Abonnementliste aus, um sie mit den Profilen zu aktualisieren, die das Registrierungs-Kontrollkästchen aktivieren.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. Erstellen Sie eine Dankeseite, die Ihren Empfängern angezeigt wird, sobald sie das Registrierungsformular übermitteln. Erfahren Sie, wie Sie Landingsubpages konfigurieren [here](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [](create-lp.md#publish)Landingpage publizieren.
+
+1. [E-Mail-Nachricht erstellen](../create-message.md) um anzukündigen, dass die Registrierung nun für Ihre Veranstaltung geöffnet ist.
+
+1. [Link einfügen](../message-tracking.md#insert-links) in Ihren Nachrichteninhalt. Auswählen **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) die Sie für die Registrierung erstellt haben.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../publish-manage-message.md).
 
-1. Senden Sie die Nachricht über eine [Journey](../building-journeys/journey.md) , um die Registrierung anzukündigen, ist nun für Ihr Ereignis geöffnet und ermöglicht Ihnen, den Traffic zur Anmelde-Landingpage zu leiten.
+1. Senden Sie die Nachricht über eine [Journey](../building-journeys/journey.md) um den Traffic zur Anmelde-Landingpage zu leiten.
+
+   ![](../assets/lp_subscription-uc-journey.png)
 
    Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur Dankeseite weitergeleitet und auf die Abonnementliste gesetzt.
 
-1. Sie können eine Bestätigungs-E-Mail an die Empfänger senden, die sich für Ihr Ereignis registriert haben. Senden Sie es dazu über eine andere Journey mit der **[!UICONTROL Segmentqualifizierung]** und wählen Sie die Abonnementliste aus, die Sie als Segment erstellt haben.
+### Bestätigungs-E-Mail senden {#send-confirmation-email}
+
+Zusätzlich können Sie eine Bestätigungs-E-Mail an die Empfänger senden, die sich für Ihr Ereignis registriert haben. Gehen Sie dazu wie folgt vor.
+
+1. Erstellen eines weiteren [Journey](../building-journeys/journey.md). Sie können dies direkt über die Landingpage tun, indem Sie auf die **[!UICONTROL Journey erstellen]** Schaltfläche. [Weitere Informationen](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab. [Weitere Informationen](../building-journeys/segment-qualification-events.md)
+
+1. Klicken Sie in **[!UICONTROL Segment]** und wählen Sie die von Ihnen erstellte Abonnementliste aus.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. Wählen Sie die Bestätigungs-E-Mail Ihrer Wahl aus und senden Sie sie über die Journey.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+Alle Benutzer, die sich für Ihr Ereignis registriert haben, erhalten die Bestätigungs-E-Mail.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

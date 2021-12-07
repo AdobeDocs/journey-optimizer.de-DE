@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
 
-# Abonnementliste erstellen {#create-subscription-list}
+# Abonnementlisten {#create-subscription-list}
 
 ## Was ist eine Abonnementliste?
 
@@ -22,13 +23,13 @@ Ein Anmeldedienst bezieht sich auf Marketing-Waren und -Dienstleistungen, die Ku
 
 Ein Anmeldedienst kann:
 
-* einen Newsletter, z. B. &quot;Laufende Serie&quot;
-* Veranstaltung, z. B. &quot;Summit 2021&quot;
-* ein Webinar, z. B. &quot;Weitere Informationen über Kryptographie&quot;
-* ein Interesse an einem bestimmten Produkt/Sport/Service/etc., z. B. &quot;Interesse an einem Haus in den nächsten 12 Monaten&quot;
-* eine Präferenz für die Benachrichtigung, z. B. &quot;Empfangen neuer Song-Benachrichtigungen per E-Mail&quot;
+* einen Newsletter, z. B.: &quot;Laufende Serie&quot;
+* ein Ereignis, z. B.: &quot;Gipfel 2021&quot;
+* ein Webinar, z. B.: &quot;Erfahren Sie mehr über &quot;crypto&quot;
+* Interesse an einem bestimmten Produkt/Sport/Service usw., z. B.: &quot;Interesse daran, in den nächsten 12 Monaten ein Haus zu kaufen&quot;
+* eine Präferenz für die Benachrichtigung, z. B.: &quot;Empfangen neuer Song-Benachrichtigungen per E-Mail&quot;
 
-Die Profile können über eine [Landingpage](create-lp.md). Ein Beispiel finden Sie unter [diesem Abschnitt](get-started-lp.md#subscription-to-a-service).
+Die Profile können über eine [Landingpage](create-lp.md). Ein Beispiel finden Sie unter [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
 ## Abonnementliste definieren {#define-subscription-list}
 
@@ -38,7 +39,7 @@ Gehen Sie wie folgt vor, um eine Abonnementliste zu erstellen.
 
    ![](../assets/lp_subscription-lists.png)
 
-1. Klicken Sie in der Abonnementliste auf **[!UICONTROL Abonnement erstellen]** Liste.
+1. Wählen Sie die **[!UICONTROL Abonnementliste erstellen]** Schaltfläche.
 
    ![](../assets/lp_create-subscription-list.png)
 
@@ -50,31 +51,29 @@ Gehen Sie wie folgt vor, um eine Abonnementliste zu erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-In der Liste werden alle erstellten Abonnementlisten angezeigt. Sie können sie nach dem Erstellungsdatum oder Änderungsdatum filtern.
+In der Liste werden alle erstellten Abonnementlisten angezeigt. Sie können sie nach dem Erstellungsdatum oder Änderungsdatum und ihrem Status filtern.
 
 ![](../assets/lp_subscription-filters.png)
 
 Folgende Status sind möglich:
 
-* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Tag liegt. Die Profile, die diese Liste abonniert haben, erhalten noch keine Mitteilungen zu dieser Abonnementliste.
+* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Tag liegt. Die abonnierten Profile erhalten noch keine Nachrichten zu dieser Abonnementliste.
 * **[!UICONTROL Live]**: Der aktuelle Tag besteht zwischen dem Start- und dem Enddatum der Abonnementliste oder Sie haben kein Enddatum/Startdatum definiert, was bedeutet, dass die Abonnementliste immer live ist.
-* **[!UICONTROL Abgelaufen]**: Das Enddatum wird übergeben, die Abonnementliste ist nicht mehr gültig. Alle Profile, die diese Liste abonniert haben, erhalten keine weiteren Mitteilungen zu dieser Abonnementliste.
+* **[!UICONTROL Abgelaufen]**: Das Enddatum wird übergeben, sodass die Abonnementliste nicht mehr gültig ist. An abonnierte Profile werden keine weiteren Mitteilungen zu dieser Abonnementliste gesendet.
 
-Nachdem die Abonnementliste erstellt wurde, können Sie sie auf einer Landingpage verwenden, damit sich die Profile über ein Formular anmelden und der Liste hinzugefügt werden können. [Weitere Informationen](design-lp.md)
+Nachdem die Abonnementliste erstellt wurde, können Sie sie in einer Landingpage verwenden. Die Profile, die sich über das Landingpage-Formular anmelden, werden der Liste hinzugefügt. [Weitere Informationen](design-lp.md)
 
-Sie können Abonnementlisten auch beim Erstellen von Journey und Personalisierung als Segmente verwenden.
+Sie können Abonnementlisten auch als Segmente verwenden, wenn Sie [Journey bauen](../building-journeys/journey-gs.md#jo-build) und Personalisierung hinzufügen.
+
+>[!NOTE]
+>
+>Sie können die Auswirkungen Ihrer Abonnementliste über spezifische Berichte überwachen. [Weitere Informationen](subscription-report.md)
 
 <!--
 
 **Questions**
 
 * Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* How do you handle the different statuses? Live, Not started, Expired? Is it only through start/end dates?
-
-* What does it mean when a subscription list is expired or not started? You can't use it in a LP? And if a user is subscribed to this service, then he won't receive communications any more?
-
-* What else can you currently do with subscription lists apart from attach them to a landing page?
 
 * Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
 
