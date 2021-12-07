@@ -1,20 +1,19 @@
 ---
-title: Simulationen erstellen
+title: Erstellen von Simulationen
 description: Erfahren Sie, wie Sie Simulationen erstellen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-exl-id: null
-source-git-commit: bad206b6c9b48241dbbd7758a331d602fac466b4
+source-git-commit: 899b8b47d6c6121c19e485376de368358049c05f
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# Simulationen erstellen
+# Erstellen von Simulationen
 
 ## Über die Simulation
 
