@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Landingpage-Bericht {#lp-report}
 
-Der Abonnementbericht zeigt Details zu den Auswirkungen Ihrer Landingpages an. Zwei Berichtstypen sind verfügbar:
+Der Landingpage-Bericht zeigt Details zu den Auswirkungen Ihrer Landingpages an. Zwei Berichtstypen sind verfügbar:
 
 * Die **[!UICONTROL Live-Bericht]** , um den Erfolg Ihrer Landingpages in den letzten 24 Stunden zu messen und zu visualisieren.
 
