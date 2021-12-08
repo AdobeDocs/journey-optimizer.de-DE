@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken S
 
 Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung auswählen.
 
-1. Wählen Sie die **[!UICONTROL Benutzerdefiniert]** und klicken Sie auf **[!UICONTROL Inhalt hinzufügen]**.
+1. Wählen Sie die Option **[!UICONTROL Benutzerdefiniert]** aus und klicken Sie auf **[!UICONTROL Inhalt hinzufügen]**.
 
    ![](../../assets/offer-add-content.png)
 
@@ -132,13 +132,13 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
    ![](../../assets/offer-text-content.png)
 
-   Sie können Ihren Inhalt mit dem Ausdruckseditor personalisieren. Weitere Informationen finden Sie unter [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+   Sie können Ihren Inhalt mit dem Ausdruckseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
    ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >Nur die **[!UICONTROL Profilattribute]**, **[!UICONTROL Segmentmitgliedschaften]** und **[!UICONTROL Hilfsfunktionen]** -Quellen sind für die Entscheidungsverwaltung verfügbar.
+   >Nur die Quellen **[!UICONTROL Profilattribute]**, **[!UICONTROL Segmentzugehörigkeiten]** und **[!UICONTROL Helper-Funktionen]** sind für das Entscheidungs-Management verfügbar.
 
 ## Eignungsregeln und Einschränkungen hinzufügen {#eligibility}
 

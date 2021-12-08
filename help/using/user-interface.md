@@ -9,13 +9,13 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
 workflow-type: tm+mt
 source-wordcount: '1527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Benutzeroberfläche {#cjm-user-interface}
 
-Verbinden mit [Adobe Experience Cloud](http://experience.adobe.com) und navigieren Sie zu [!DNL Journey Optimizer].
+Stellen Sie eine Verbindung mit [Adobe Experience Cloud](http://experience.adobe.com) her und navigieren Sie zu [!DNL Journey Optimizer].
 
 Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
 

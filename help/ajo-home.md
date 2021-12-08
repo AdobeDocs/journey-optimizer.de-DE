@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 84%
     <div>
       <a href="using/get-started.md">Was ist [!DNL Journey Optimizer]?</a>
     </div>
-    <p>Wichtige Funktionen und Anwendungsfälle
+    <p>Entdecken Sie wichtige Funktionen und Anwendungsfälle
     <p>
     <div>
       <a href="using/release-notes.md">Versionshinweise</a>
@@ -41,7 +41,7 @@ ht-degree: 84%
       <a href="using/quick-start.md">Schnellstartanleitung</a>
     </div>
     <p>
-    Erfahren Sie, wie Sie als Administrator, Data Engineer oder Journey-Techniker beginnen können.
+    Erfahren Sie, wie Sie als Administrator, Datentechniker oder Journey-Anwender beginnen können.
     <p>
     <p>
     <div>
@@ -68,7 +68,7 @@ ht-degree: 84%
     <div>
     <a href="using/administration/permissions-overview.md">Gewähren von Zugriff auf [!DNL Journey Optimizer]</a>
     </div>
-    <p>Berechtigungen definieren und verwalten, die [!DNL Journey Optimizer] Benutzer
+    <p>Definieren und Verwalten der Berechtigungen, die Benutzern von [!DNL Journey Optimizer] zugewiesen werden
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Entscheidungs-Management</a>

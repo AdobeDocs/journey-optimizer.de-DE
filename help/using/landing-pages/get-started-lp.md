@@ -1,6 +1,6 @@
 ---
-title: Get started with landing pages
-description: Learn about landing pages in Journey Optimizer
+title: Erste Schritte mit Landingpages
+description: Informationen zu Landingpages in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -15,13 +15,13 @@ ht-degree: 3%
 
 ---
 
-# Get started with landing pages {#get-sarted-lp}
+# Erste Schritte mit Landingpages {#get-sarted-lp}
 
 >[!CAUTION]
 >
->The use of landing pages is currently available in early access to select users only. If you want to leverage this feature, contact your Adobe account executive.
+>Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Kundenbetreuer bei der Adobe.
 
-A landing page is a standalone web page that a user is directed to after clicking through from an email, a website, an ad, or any other digital location.
+Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er sich von einer E-Mail, einer Website, einer Anzeige oder einem anderen digitalen Ort aus durchgeklickt hat.
 
 <!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
 
@@ -36,14 +36,14 @@ To move to RN-->
 
 * Nutzung [!DNL Journey Optimizer] Funktionen zur Inhaltserstellung **responsive Landingpages**.
 * Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.
-* Create subscription lists to enable users to **subscribe to a service**. [Mehr dazu](lp-use-cases.md#subscription-to-a-service)
-* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten. [Mehr dazu](lp-use-cases.md#opt-out)
-* Send a **confirmation email** upon opt-in or opt-out. [Mehr dazu](lp-use-cases.md#send-confirmation-email)
+* Erstellen von Abonnementlisten, um Benutzern die Möglichkeit zu geben, **Dienst abonnieren**. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
+* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten. [Weitere Informationen](lp-use-cases.md#opt-out)
+* Senden Sie eine **Bestätigungs-E-Mail** bei Opt-in- oder Opt-out-Verfahren. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Create landing pages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Create subscription lists</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Landingpages erstellen</a></p></td>
+<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Erstellen von Abonnementlisten</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Landingpages erstellen</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>

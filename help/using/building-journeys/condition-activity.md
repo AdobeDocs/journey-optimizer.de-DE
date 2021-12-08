@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -55,11 +55,11 @@ Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungs-Service von Adobe Exp
 
 >[!NOTE]
 >
->Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Siehe [Dokumentation zur Adobe Journey Orchestration](expression/expressionadvanced.md).
+>Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Journey Orchestration](expression/expressionadvanced.md).
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-Im einfachen Editor finden Sie auch die Kategorie Journey-Eigenschaften unter den Kategorien-Ereignis und Datenquelle. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. Weitere Informationen finden Sie unter [Dokumentation zur Adobe Journey Orchestration](expression/journey-properties.md)
+Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Journey Orchestration](expression/journey-properties.md)
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
@@ -91,7 +91,7 @@ Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung a
 
 ## Bedingung für das Datum {#date_condition}
 
-Auf diese Weise können Sie basierend auf dem Datum einen anderen Fluss definieren. Wenn die Person beispielsweise während des &quot;Verkaufs&quot;-Zeitraums in den Schritt eintritt, senden Sie ihnen eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
+Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss definieren. Wenn der Eintritt der Person beispielsweise während der Zeit des Ausverkaufs verfolgt, senden Sie ihr eine entsprechende Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
 
 >[!NOTE]
 >

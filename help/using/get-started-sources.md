@@ -8,18 +8,18 @@ exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Quellen-Connectoren {#sources-gs}
+# Erste Schritte mit Quell-Connectoren {#sources-gs}
 
-Mit Adobe Journey Optimizer können Daten aus externen Quellen erfasst werden, während Sie eingehende Daten mithilfe von Platform-Diensten strukturieren, beschriften und erweitern können. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
+Adobe Journey Optimizer ermöglicht die Aufnahme von Daten aus externen Quellen und bietet Ihnen die Möglichkeit, die eingehenden Daten mithilfe von Platform-Services zu strukturieren, zu kennzeichnen und zu verbessern. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken.
 
 ![](assets/sources-home.png)
 
-Informationen zu Quell-Connectoren und deren Konfiguration in Journey Optimizer finden Sie in diesem Video:
+In diesem Video erfahren Sie mehr über Quell-Connectoren und deren Konfiguration in Journey Optimizer:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Erfahren Sie mehr über die Erfassung von Daten aus externen Quellen mit Quell-Connectoren in [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de){target=&quot;_blank&quot;}.
+Weitere Informationen zum Aufnehmen von Daten aus externen Quellen mit Quell-Connectoren finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=de){target=&quot;_blank&quot;}.

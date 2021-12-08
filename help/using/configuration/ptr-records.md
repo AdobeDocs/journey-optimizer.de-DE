@@ -1,6 +1,6 @@
 ---
 title: PTR-Einträge
-description: Erfahren Sie, wie Sie PTR-Datensätze verwalten
+description: Erfahren Sie, wie Sie PTR-Einträge verwalten
 audience: administrators
 feature: Application Settings
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 24%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sende
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains
 
-Einmal [eine Subdomain zugewiesen wird](delegate-subdomain.md) In Adobe Journey Optimizer wird automatisch ein PTR-Eintrag erstellt und dieser Subdomain zugeordnet. Der Zugriff darauf erfolgt über das **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Datensätze]** Menü.
+Einmal [eine Subdomain zugewiesen wird](delegate-subdomain.md) In Adobe Journey Optimizer wird automatisch ein PTR-Eintrag erstellt und dieser Subdomain zugeordnet. Sie können darauf über das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](../assets/ptr-records.png)
 
@@ -36,15 +36,15 @@ In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Einträg
 
 Sie können einen PTR-Eintrag aus der Liste öffnen, um den zugehörigen Subdomain-Namen und die IP-Adresse anzuzeigen.
 
-## PTR-Datensatz bearbeiten {#edit-ptr-record}
+## Bearbeiten eines PTR-Eintrags {#edit-ptr-record}
 
-Sie können einen PTR-Datensatz ändern, um die mit einer IP-Adresse verknüpfte Subdomain zu bearbeiten.
+Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte Subdomain zu bearbeiten.
 
 >[!CAUTION]
 >
 >Sie können keinen PTR-Datensatz ändern, der einer Subdomain zugeordnet ist, die mit der Variablen [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation).
 
-1. Klicken Sie in der Liste auf einen PTR-Datensatznamen, um ihn zu öffnen.
+1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
    ![](../assets/ptr-record-select.png)
 
@@ -54,51 +54,51 @@ Sie können einen PTR-Datensatz ändern, um die mit einer IP-Adresse verknüpfte
 
    >[!NOTE]
    >
-   >Sie können die **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** -Felder.
+   >Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
 
-1. Klicken **[!UICONTROL Speichern]** um Ihre Änderungen zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-Ein **[!UICONTROL Aktualisieren]** neben dem Namen des PTR-Datensatzes in der Liste angezeigt.
+Neben dem Namen des PTR-Eintrags in der Liste wird das Symbol **[!UICONTROL Wird aktualisiert]** angezeigt.
 
 ![](../assets/ptr-record-updating.png)
 
-Um die Details der PTR-Datensatz-Aktualisierung zu überprüfen, klicken Sie auf das **[!UICONTROL Aktualisieren]** oder **[!UICONTROL Letzte Aktualisierungen]** Symbol.
+Um sich die Details der PTR-Eintragsaktualisierung anzusehen, klicken Sie auf das Symbol **[!UICONTROL Wird aktualisiert]** oder **[!UICONTROL Letzte Aktualisierungen]**.
 
 ![](../assets/ptr-record-recent-update.png)
 
-Sie können Informationen wie den Aktualisierungsstatus und die angeforderten Änderungen sehen.
+Sie können Informationen wie den Aktualisierungsstatus und die gewünschten Änderungen sehen.
 
 ![](../assets/ptr-record-updates.png)
 
-## Status aktualisieren
+## Aktualisieren des Status
 
-Ein PTR-Datensatz-Update kann die folgenden Status haben:
+Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 
-* **[!UICONTROL Verarbeitung]**: Das PTR-Datensatz-Update wurde eingereicht und durchläuft einen Verifizierungsprozess.
-* **[!UICONTROL Erfolg]**: Der aktualisierte PTR-Datensatz wurde überprüft und die neue Subdomain wird nun mit der IP-Adresse verknüpft.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Überprüfung der PTR-Datensatz-Aktualisierung fehlgeschlagen.
+* **[!UICONTROL In Bearbeitung]**: Die Aktualisierung des PTR-Eintrags wurde eingereicht und durchläuft einen Verifizierungsprozess.
+* **[!UICONTROL Erfolgreich]**: Der aktualisierte PTR-Eintrag wurde überprüft und die neue Subdomain ist nun mit der IP-Adresse verknüpft.
+* **[!UICONTROL Fehlgeschlagen]**: Bei der Verifizierung der Aktualisierung des PTR-Eintrags sind eine oder mehrere Prüfungen fehlgeschlagen.
 
-### Verarbeitung
+### In Bearbeitung
 
 Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
 
 >[!NOTE]
 >
->Sie können einen PTR-Datensatz während der Aktualisierung nicht ändern. Sie können weiterhin auf den Namen klicken, aber die Variable **[!UICONTROL Subdomain]** Feld ist ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+>Sie können einen PTR-Eintrag nicht ändern, während die Aktualisierung in Bearbeitung ist. Sie können weiterhin auf den Namen klicken, aber das Feld **[!UICONTROL Subdomain]** ist ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
 
-Während des Validierungsprozesses wird die alte Subdomain weiterhin mit der IP-Adresse verknüpft.
+Während des Validierungsprozesses ist die alte Subdomain nach wie vor mit der IP-Adresse verknüpft.
 
-### Erfolg
+### Erfolgreich
 
-Sobald der Validierungsprozess erfolgreich war, wird die neue Subdomain automatisch mit der IP-Adresse verknüpft.
+Wenn der Validierungsprozess erfolgreich war, wird die neue Subdomain automatisch mit der IP-Adresse verknüpft.
 
 ### Fehlgeschlagen
 
-Wenn der Validierungsprozess fehlschlägt, wird der ältere PTR-Datensatz angezeigt. Die gültige Subdomain, die zuvor mit der IP-Adresse verknüpft war, bleibt unverändert.
+Wenn der Validierungsprozess fehlschlägt, wird der ältere PTR-Eintrag angezeigt. Die gültige Subdomain, die zuvor mit der IP-Adresse verknüpft war, bleibt unverändert.
 
-Die möglichen Aktualisierungsfehlertypen sind:
-* Fehlschlagen der Erstellung eines neuen Weiterleitungs-DNS für den PTR-Datensatz
-* Fehler beim Aktualisieren des Datensatzes
-* Nichtintegrieren der Affinitäten
+Folgende Arten von Fehlern sind bei der Aktualisierung möglich:
+* Erstellung eines neuen Weiterleitungs-DNS für den PTR-Eintrag schlägt fehl
+* Aktualisieren des Eintrags schlägt fehl
+* Erneute Integration der Affinitäten schlägt fehl
 
-Wenn die Aktualisierung fehlschlägt, kann der PTR-Datensatz erneut bearbeitet werden. Sie können auf den Namen klicken und die Subdomain erneut aktualisieren.
+Wenn die Aktualisierung fehlschlägt, kann der PTR-Eintrag wieder bearbeitet werden. Sie können auf den Namen klicken und die Subdomain erneut aktualisieren.

@@ -1,17 +1,17 @@
 ---
 title: Erstellen von Simulationen
-description: Erfahren Sie, wie Sie Simulationen erstellen
+description: Hier erfahren Sie, wie Sie Simulationen erstellen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 899b8b47d6c6121c19e485376de368358049c05f
+exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
+source-git-commit: 65bae1eae9fe425ce7f7c6ce43c6dd978d23570f
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
-
 
 # Erstellen von Simulationen
 
@@ -21,13 +21,13 @@ Zur Validierung Ihrer Entscheidungslogik können Sie simulieren, welche Angebote
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und verfeinern, ohne dass dies Auswirkungen auf die Zielgruppenempfänger hat.
+Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und anpassen, ohne dass dies Auswirkungen auf die ausgewählten Empfänger hat.
 
 >[!NOTE]
 >
->Diese Funktion simuliert eine einzelne Anforderung an die [!DNL Decisions] API. Weitere Informationen finden Sie unter [Angebote mithilfe der Decisions-API unterbreiten](../api-reference/decisions-api/deliver-offers.md).
+>Diese Funktion simuliert eine einzelne Anfrage an die [!DNL Decisions]-API. Weitere Informationen finden Sie unter [Unterbreiten von Angeboten mithilfe der Decisions-API](../api-reference/decisions-api/deliver-offers.md).
 
-Um auf diese Funktion zuzugreifen, wählen Sie die **[!UICONTROL Simulation]** Registerkarte aus **[!UICONTROL Entscheidungsmanagement]** > **[!UICONTROL Angebote]** Menü.
+Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Simulation]** aus dem Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTROL Angebote]**.
 
 ![](../../assets/offers_simulation-tab.png)
 
@@ -39,17 +39,17 @@ Um auf diese Funktion zuzugreifen, wählen Sie die **[!UICONTROL Simulation]** R
 
 Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten.
 
-1. Klicken **[!UICONTROL Profil verwalten]**.
+1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 
    ![](../../assets/offers_simulation-manage-profile.png)
 
-1. Wählen Sie den Identitäts-Namespace aus, den Sie zur Identifizierung von Testprofilen verwenden möchten. In diesem Beispiel verwenden wir den Namespace **E-Mail.**
+1. Wählen Sie den Identity-Namespace aus, den Sie zur Identifizierung von Testprofilen verwenden möchten. In diesem Beispiel verwenden wir den Namespace **E-Mail**.
 
    >[!NOTE]
    >
-   >Ein Identitäts-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../get-started-identity.md){target=&quot;_blank&quot;}.
 
-1. Geben Sie den Identitätswert ein und klicken Sie auf **[!UICONTROL Ansicht]** , um die verfügbaren Profile aufzulisten.
+1. Geben Sie den Identitätswert ein und klicken Sie auf **[!UICONTROL Ansicht]**, um die verfügbaren Profile aufzulisten.
 
    ![](../../assets/offers_simulation-add-profile.png)
 
@@ -57,19 +57,19 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
    ![](../../assets/offers_simulation-save-profiles.png)
 
-1. Nach dem Hinzufügen werden alle Profile in der Dropdown-Liste unter **[!UICONTROL Testprofil]**. Sie können zwischen den gespeicherten Testprofilen wechseln, um die Ergebnisse für jedes ausgewählte Profil anzuzeigen.
+1. Nach dem Hinzufügen werden alle Profile in der Dropdown-Liste unter **[!UICONTROL Testprofil]** aufgelistet. Sie können zwischen den gespeicherten Testprofilen wechseln, um die Ergebnisse für jedes ausgewählte Profil anzuzeigen.
 
    ![](../../assets/offers_simulation-saved-profiles.png)
 
-1. Sie können auf die **[!UICONTROL Profildetails]** -Link, um die ausgewählten Profildaten anzuzeigen.
+1. Sie können auf den Link **[!UICONTROL Profildetails]** klicken, um die ausgewählten Profildaten anzuzeigen.
 
 <!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
 
-## Entscheidungsbereiche hinzufügen
+## Hinzufügen von Entscheidungsumfängen
 
 Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile simulieren möchten.
 
-1. Auswählen **[!UICONTROL Entscheidungsbereich hinzufügen]**.
+1. Wählen Sie **[!UICONTROL Entscheidungsumfang hinzufügen]** aus.
 
    ![](../../assets/offers_simulation-add-decision.png)
 
@@ -80,15 +80,15 @@ Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile si
 1. Die verfügbaren Entscheidungen werden angezeigt.
 
    * Sie können das Suchfeld verwenden, um die Auswahl zu verfeinern.
-   * Sie können auf die **[!UICONTROL Entscheidungsfindung bei Angeboten]** -Link, um die Liste aller von Ihnen erstellten Entscheidungen zu öffnen. Weitere Informationen finden Sie unter [Entscheidungen](create-offer-activities.md).
+   * Sie können auf den Link **[!UICONTROL Angebotsentscheidungen öffnen]** klicken, um die von Ihnen erstellte Liste aller Entscheidungen zu öffnen. Weitere Informationen finden Sie unter [Entscheidungen](create-offer-activities.md).
 
-   Wählen Sie die Entscheidung Ihrer Wahl aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+   Wählen Sie die gewünschte Entscheidung aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
-1. Der soeben definierte Entscheidungsbereich wird im Hauptarbeitsbereich angezeigt.
+1. Der soeben definierte Entscheidungsumfang wird im Hauptarbeitsbereich angezeigt.
 
-   Sie können die Anzahl der Angebote anpassen, die Sie anfordern möchten. Wenn Sie beispielsweise 2 auswählen, werden für diesen Entscheidungsbereich die besten 2 Angebote angezeigt.
+   Sie können einstellen, wie viele Angebote angefordert werden sollen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt.
 
    ![](../../assets/offers_simulation-request-offer.png)
 
@@ -102,15 +102,15 @@ Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile si
 
    >[!NOTE]
    >
-   >Selbst wenn Sie mehrere Entscheidungsbereiche definieren, wird nur eine API-Anfrage simuliert.
+   >Selbst wenn Sie mehrere Entscheidungsumfänge definieren, wird nur eine API-Anfrage simuliert.
    >
-   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit über mehrere Entscheidungen hinweg denselben Vorschlag unterbreiten. Weitere Informationen finden Sie unter [!DNL Decisions] Eigenschaften von API-Anfragen in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).
+   >Alle Deduplizierungs-Flags sind für die Simulation standardmäßig aktiviert, d. h. die Entscheidungs-Engine ermöglicht Duplikate und kann somit für mehrere Entscheidungen denselben Vorschlag unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisions]-API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).
 
 ## Anzeigen von Simulationsergebnissen
 
-Nachdem Sie einen Entscheidungsbereich hinzugefügt und ein Testprofil ausgewählt haben, können Sie die Ergebnisse anzeigen.
+Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewählt haben, können Sie die Ergebnisse anzeigen.
 
-1. Klicken **[!UICONTROL Ergebnisse anzeigen]**.
+1. Klicken Sie auf **[!UICONTROL Ergebnisse anzeigen]**.
 
    ![](../../assets/offers_simulation-view-results.png)
 
@@ -122,11 +122,11 @@ Nachdem Sie einen Entscheidungsbereich hinzugefügt und ein Testprofil ausgewäh
 
 1. Wählen Sie ein anderes Profil aus der Liste aus, um die Ergebnisse der Angebotsentscheidungen für ein anderes Testprofil anzuzeigen.
 
-1. Sie können die Entscheidungsbereiche beliebig oft hinzufügen, entfernen oder aktualisieren.
+1. Sie können die Entscheidungsumfänge beliebig oft hinzufügen, entfernen oder aktualisieren.
 
 >[!NOTE]
 >
->Jedes Mal, wenn Sie Profile ändern oder Entscheidungsbereiche aktualisieren, müssen Sie die Ergebnisse mit dem **[!UICONTROL Ergebnisse anzeigen]** Schaltfläche.
+>Jedes Mal, wenn Sie Profile ändern oder Entscheidungsumfänge aktualisieren, müssen Sie die Ergebnisse mit der Schaltfläche **[!UICONTROL Ergebnisse anzeigen]** aktualisieren.
 
 <!--Questions
 

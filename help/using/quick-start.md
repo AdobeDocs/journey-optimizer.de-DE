@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 67ec0951a06bf8c7806f6c8b996cce26e3eddfb6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Mit [!DNL Adobe Journey Optimizer] können Sie bestehende Nachrichteninhalte imp
 
 Abhängig von Ihrem Unternehmen können Sie verschiedene Typen von Benutzern definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-Beginnen Sie mit [!DNL Journey Optimizer]? Erfahrener Benutzer mit bestimmten Fragen? Administrator Ihrer Unternehmensinstanz? Nehmen Sie Ihren eigenen Weg, um schneller zu Ihren Zielen zu kommen!
+Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfahrener Benutzer, haben aber bestimmte Fragen? Sind Sie der Administrator Ihrer Unternehmensinstanz? Nehmen Sie Ihren eigenen Weg, um schneller an Ihr Ziel zu kommen! 
 
-Um die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennenzulernen und zu entdecken, wählen Sie Ihr Profil aus.
+Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsfähigkeit von Adobe Journey Optimizer kennenzulernen.
 
 <table>
 <tr>
@@ -31,28 +31,28 @@ Um die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen A
     </a>
     <div>
     <a href="path/administrator.md">Ich bin Administrator</a>
-     <p>Bereiten Sie Ihre Umgebung vor, gewähren Sie Zugriff, konfigurieren Sie Einstellungen
+     <p>Umgebung vorbereiten, Zugriff gewähren, Einstellungen konfigurieren
     <p>
     </div>
     <br>
   </td>
   <td valign="bottom">
     <a href="path/data-engineer.md">
-      <img alt="Data Engineer" src="../using/assets/do-not-localize/user-1.png"/>
+      <img alt="Datentechniker" src="../using/assets/do-not-localize/user-1.png"/>
     </a>
     <div>
-    <a href="path/data-engineer.md">Ich bin Dateningenieur</a>
-     <p>Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemas und Datensätzen
+    <a href="path/data-engineer.md">Ich bin Datentechniker</a>
+     <p>Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen
     <p>
     </div>
     <br>
   </td>
   <td valign="bottom">
       <a href="path/marketer.md">
-       <img alt="Marketer" src="../using/assets/do-not-localize/user-3.png" />
+       <img alt="Marketing-Experte" src="../using/assets/do-not-localize/user-3.png" />
        </a>
-    <div><a href="path/marketer.md">Ich bin Marketer</a>
-     <p>Erstellen von Nachrichten, Hinzufügen von Angeboten, Assets und Erstellen von Journey
+    <div><a href="path/marketer.md">Ich bin Marketing-Experte</a>
+     <p>Erstellen von Nachrichten, Hinzufügen von Angeboten und Assets und Erstellen von Customer Journeys
     <p>
     </div>
     <br>

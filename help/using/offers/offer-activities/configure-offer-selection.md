@@ -9,7 +9,7 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Auswählen **[!UICONTROL Ranking-Formel]** als Ranking-Methode verwenden, klicken Sie dann auf **[!UICONTROL Ranking hinzufügen]**.
+1. Wählen Sie **[!UICONTROL Ranglistenformel]** als Ranglistenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangliste hinzufügen]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,7 +74,7 @@ Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierun
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Angebote nach **[!UICONTROL KI-Ranking]** aus der Dropdownliste aus und klicken Sie auf **[!UICONTROL Ranking hinzufügen]**.
+1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangliste]** und klicken Sie dann auf **[!UICONTROL Rangliste hinzufügen]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
 

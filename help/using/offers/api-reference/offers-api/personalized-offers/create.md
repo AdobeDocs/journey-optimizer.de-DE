@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -104,4 +104,4 @@ Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten personal
 
 ## Einschränkungen {#limitations}
 
-Einige Angebotsbegrenzungen werden derzeit nicht vom Mobilgerät unterstützt [!DNL Experience Edge] Workflows, beispielsweise `Capping`. Die `Capping` -Feldwert gibt an, wie oft ein Angebot für alle Benutzer angezeigt werden kann. Weitere Informationen finden Sie unter [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../offer-library/creating-personalized-offers.md).
+Einige Angebotsbegrenzungen werden derzeit nicht von mobilen [!DNL Experience Edge]-Workflows unterstützt, beispielsweise `Capping`. Der Wert des Feldes `Capping` gibt an, wie oft ein Angebot allen Benutzern angezeigt werden kann. Weitere Informationen finden Sie in der [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../offer-library/creating-personalized-offers.md).

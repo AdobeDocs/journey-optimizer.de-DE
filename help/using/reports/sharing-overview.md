@@ -53,7 +53,7 @@ Die folgenden Datensätze werden übergeben:
 
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
-* [Liste für Schrittereignisfelder](../reports/sharing-field-list.md)
-* [Veraltete Schrittereignisfelder](../reports/sharing-legacy-fields.md)
+* [Liste der Step-Ereignisfelder](../reports/sharing-field-list.md)
+* [Veraltete Felder für Step-Ereignisse](../reports/sharing-legacy-fields.md)
 
-Weiterführende Informationen zu Berichten über Schrittereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
+Weiterführende Informationen zu Berichten über Step-Ereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.

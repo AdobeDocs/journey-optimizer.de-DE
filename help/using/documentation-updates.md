@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -16,21 +16,21 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## November 2021
 
-* Eine vollständige Beschreibung des in Journey verwendeten erweiterten Ausdruckseditors ist jetzt verfügbar. [Mehr dazu](building-journeys/expression/expressionadvanced.md)
-* Neue Methode zur Zuweisung von CNAME-Subdomains. [Mehr dazu](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Eine vollständige Beschreibung des in Journey verwendeten erweiterten Ausdruckseditors ist jetzt verfügbar. [Weitere Informationen](building-journeys/expression/expressionadvanced.md)
+* Neue Methode zur Zuweisung von CNAME-Subdomains. [Weitere Informationen](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Oktober 2021
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 21. Oktober wurde in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Hinzugefügt **Datums-/Uhrzeitfunktion** Liste. [Mehr dazu](personalization/functions/dates.md)
-* Neu **Erste Schritte - Abschnitte pro Benutzerperson**. Nehmen Sie Ihren eigenen Weg, um schneller zu Ihren Zielen zu kommen! [Mehr dazu](quick-start.md)
-* Neu **Eine Nachrichtenvorgabe bearbeiten** Abschnitt. [Mehr dazu](configuration/message-presets.md#edit-message-preset)
-* Neu **PTR-Datensatz bearbeiten** Abschnitt. [Mehr dazu](configuration/ptr-records.md#edit-ptr-record)
-* Neu **Nachrichtenvorgabe deaktivieren** Abschnitt. [Mehr dazu](configuration/message-presets.md#edit-message-preset#deactivate-preset)
-* Neue Einschränkungen zu den **Entwicklerhandbuch zur Entscheidungs-API** zu Angebotsbegrenzungen, die vom Mobilgerät nicht unterstützt werden [!DNL Experience Edge] Workflows. [Mehr dazu](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
-* Neu **Simulationen erstellen** Abschnitt. [Mehr dazu](offers/offer-activities/simulation.md)
-* Aktualisiert **Entscheidungsbereiche hinzufügen** Abschnitt. [Mehr dazu](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Aktualisiert **Inhalte für Ihre Darstellungen definieren** Abschnitt, einschließlich eines neuen [Unterabschnitt](offers/offer-library/creating-personalized-offers.md#custom-text) Informationen zur Definition und Personalisierung von benutzerdefiniertem Text. [Mehr dazu](offers/offer-library/creating-personalized-offers.md#content)
+* Alle neuen Funktionen und Verbesserungen der Version vom Oktober 2021 von [!DNL Journey Optimizer] wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Die Liste **Datums-/Uhrzeitfunktion** wurde hinzugefügt. [Weitere Informationen](personalization/functions/dates.md)
+* Neue **Abschnitte über „Erste Schritte“ für jede Benutzerrolle**. Nehmen Sie Ihren eigenen Weg, um schneller an Ihr Ziel zu kommen! [Weitere Informationen](quick-start.md)
+* Neuer Abschnitt **Bearbeiten einer Nachrichtenvoreinstellung**. [Weitere Informationen](configuration/message-presets.md#edit-message-preset)
+* Neuer Abschnitt **Bearbeiten eines PTR-Eintrags**. [Weitere Informationen](configuration/ptr-records.md#edit-ptr-record)
+* Neuer Abschnitt **Deaktivieren einer Nachrichtenvoreinstellung**. [Weitere Informationen](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Im **Entwicklerhandbuch zur Entscheidungs-Management-API** wurden neue Einschränkungen zu den Angebotsbegrenzungen hinzugefügt, die von mobilen [!DNL Experience Edge]-Workflows nicht unterstützt werden. [Weitere Informationen](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Neuer Abschnitt **Erstellen von Simulationen**. [Weitere Informationen](offers/offer-activities/simulation.md)
+* Der Abschnitt **Hinzufügen von Entscheidungsumfängen** wurde aktualisiert. [Weitere Informationen](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Der Abschnitt **Definieren von Inhalten für Ihre Darstellungen** wurde aktualisiert, einschließlich eines neuen [Unterabschnitts](offers/offer-library/creating-personalized-offers.md#custom-text) mit Informationen zur Definition und Personalisierung von benutzerdefiniertem Text. [Weitere Informationen](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 

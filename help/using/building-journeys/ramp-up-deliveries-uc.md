@@ -1,6 +1,6 @@
 ---
-title: Sendungen vorantreiben
-description: Hier erfahren Sie, wie Sie Ihre Sendungen vorantreiben.
+title: Steigern Sie Ihre Versandaktivität
+description: Hier erfahren Sie, wie Sie Ihre Versandaktivität steigern können.
 feature: Journeys
 topic: Content Management
 role: User
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -21,13 +21,13 @@ Um Ihre IP-Adresse aufzuwärmen, können Sie die Anzahl Ihrer Sendungen schrittw
 
 In diesem Anwendungsbeispiel wird eine Journey erstellt, um den E-Mail-Versand zu beschleunigen. Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
-1. Erstellen einer Journey. [Mehr dazu](journey-gs.md).
+1. Erstellen einer Journey. [Weitere Informationen](journey-gs.md).
 
-1. Hinzufügen einer **[!UICONTROL Bedingung]** -Aktivität auf die Journey. [Mehr dazu](condition-activity.md).
+1. Hinzufügen einer **[!UICONTROL Bedingung]** -Aktivität auf die Journey. [Weitere Informationen](condition-activity.md).
 
 1. Im **[!UICONTROL Bedingung]** in den Aktivitätseinstellungen die maximale Empfängeranzahl für Ihren Versand festlegen:
 
-   1. Im **[!UICONTROL Bedingung]** Aktivitätseinstellungen festlegen, legen Sie die **[!UICONTROL Typ]** -Feld zu **[!UICONTROL Profilbegrenzung]**. [Mehr dazu](condition-activity.md#profile_cap).
+   1. Im **[!UICONTROL Bedingung]** Aktivitätseinstellungen festlegen, legen Sie die **[!UICONTROL Typ]** -Feld zu **[!UICONTROL Profilbegrenzung]**. [Weitere Informationen](condition-activity.md#profile_cap).
 
    1. Legen Sie die **[!UICONTROL Limit]** zur maximalen Anzahl an Empfängern für diesen Versand.
 

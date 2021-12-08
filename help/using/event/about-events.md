@@ -9,7 +9,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL 
 
 >[!NOTE]
 >
->Weitere Informationen zum Konfigurieren eines Ereignisses finden Sie unter [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>Weitere Informationen zum Konfigurieren eines Ereignisse erhalten Sie in diesem [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=de).
 
 >[!CAUTION]
 >

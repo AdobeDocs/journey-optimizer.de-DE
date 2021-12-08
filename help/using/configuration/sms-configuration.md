@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -50,7 +51,7 @@ Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Nachrichtenvorgabe er
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
-1. Zugriff auf **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvorgaben]** Menü und klicken Sie auf **[!UICONTROL Nachrichtenvorgabe erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvoreinstellungen]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvoreinstellung erstellen]**.
 
    ![](../assets/preset-create.png)
 

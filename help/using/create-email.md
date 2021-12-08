@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 54b5a2c09ae9d7fd18f9b6a7d0053d78ae3e50b0
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Nachdem Sie [eine Nachricht erstellt](create-message.md) haben, verwenden Sie di
 
 Die Schritte zum Konfigurieren einer E-Mail sind:
 
-1. Geben Sie den E-Mail-Betreff im **[!UICONTROL Betreff]** -Feld. Klicken Sie dazu auf die Schaltfläche auf der rechten Seite, um den Ausdruckseditor zu öffnen und den E-Mail-Betreff zu erstellen. In [diesem Abschnitt](personalization/personalize.md) erfahren Sie, wie Sie eine Personalisierung hinzufügen.
+1. Geben Sie den E-Mail-Betreff im Feld der **[!UICONTROL Betreffzeile]** an. Klicken Sie dazu auf die Schaltfläche auf der rechten Seite, um den Ausdruckseditor zu öffnen und den E-Mail-Betreff zu erstellen. In [diesem Abschnitt](personalization/personalize.md) erfahren Sie, wie Sie eine Personalisierung hinzufügen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Email Designer]**, um Ihre E-Mail zu entwerfen. In [diesem Abschnitt](design-emails.md) erfahren Sie, wie Sie E-Mails entwerfen.
 

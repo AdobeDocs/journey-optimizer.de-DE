@@ -9,7 +9,7 @@ exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 4d5e4f4295997083eb257290043b014acdcd971a
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Die **Zustellrate** ist der Anteil der Nachrichten, die die Posteingänge der Em
 
 Um die Zustellbarkeit Ihrer [!DNL Journey Optimizer]-Erlebnisse zu optimieren, empfehlen wir die Verwendung der in diesem Abschnitt aufgeführten Best Practices. Probleme mit der Zustellbarkeit hängen in der Regel mit Maßnahmen zum Schutz vor Spam zusammen, die von Internet-Service-Anbietern (ISPs) und Mailserver-Administratoren implementiert werden.
 
-Einen tieferen Einblick in die Zustellbarkeit erhalten Sie im Abschnitt [Best Practices für die Zustellbarkeit von Adoben](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de){target=&quot;_blank&quot;}.
+Einen tieferen Einblick in das Thema der Zustellbarkeit und weitere Informationen zu den wichtigsten Bedingungen, Konzepten und Ansätzen zur Zustellbarkeit erhalten Sie im [Adobe-Handbuch mit den Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=de).
 
 ## Verringern der Beschwerderate {#reduce-complaint-rate}
 

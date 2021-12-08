@@ -9,7 +9,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 
 >[!NOTE]
 >
->Sie können sich auch den Anwendungsfall für Geschäftsereignisse ansehen [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=de) zu Anwendungsfällen für Geschäftsereignisse ansehen.
 
 ## Wichtige Hinweise
 
@@ -46,7 +46,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 **Welche Schutzmaßnahmen gibt es, um zu verhindern, dass materialisierte Segmente überladen werden?**
 
-Im Falle von On-shot-Geschäftsereignissen werden die vom ersten Ereignisauftrag übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine Schutzmaßnahmen. Weitere Informationen zu Segmenten finden Sie in der [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Einschränkungen. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 ## Erste Schritte mit Geschäftsereignissen
 
@@ -135,4 +135,4 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 
-1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihnen bei der Konzeption eines Ereignisses helfen, das an [!DNL Journey Optimizer]. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Anschließend können Sie die Payload-Vorschau für die Person freigeben, die für das Senden des Ereignisses verantwortlich ist. Diese Payload kann ihr beim Entwurf eines Ereignisses helfen, das an [!DNL Journey Optimizer] gesendet wird. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).

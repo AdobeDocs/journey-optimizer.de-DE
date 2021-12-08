@@ -9,7 +9,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: aad1fa2ca9c845e6362df69aaa9debf6c2dc5c80
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,4 +165,4 @@ Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht pers
 
 >[!CAUTION]
 >
->Leerzeichen werden in den Personalisierungstoken, die in URLs verwendet werden, nicht unterstützt.
+>Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.

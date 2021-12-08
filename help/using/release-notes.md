@@ -5,13 +5,13 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
 source-wordcount: '2077'
-ht-degree: 74%
+ht-degree: 95%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die [Aktuelle Dokumentationsaktualisierungen](documentation-updates.md).
+Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die [neuesten Aktualisierungen der Dokumentation](documentation-updates.md) einsehen.
 
 ## Version November 2021
 
@@ -71,13 +71,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Entscheidungsmanagement - Angebotssimulation</strong><br/></th>
+<th><strong>Entscheidungs-Management – Angebotssimulation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Rangalgorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen. Diese Funktion ermöglicht es nichttechnischen und technischen Benutzern, offer decisioning schnell zu testen und potenzielle Probleme zu beheben.</p>
+<p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Rangalgorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen. Mit dieser Funktion können technisch versierte ebenso wie technisch nicht versierte Benutzer Offer Decisioning schnell testen und potenzielle Probleme beheben.</p>
 <p>Weitere Informationen finden Sie in der <a href="offers/offer-activities/simulation.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -87,13 +87,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Entscheidungsverwaltung - Personalisieren von Angeboten</strong><br/></th>
+<th><strong>Entscheidungs-Management – Personalisieren von Angeboten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt den Inhalt Ihrer Angebote mit Adobe Experience Platform-Profilattributen und -segmenten personalisieren, indem Sie dieselbe Ausdruckseditor-Komponente verwenden, die Sie in der Journey Optimizer-Benutzeroberfläche finden. </p>
+<p>Sie können jetzt den Inhalt Ihrer Angebote mit Profilattributen und Segmenten von Adobe Experience Platform personalisieren, indem Sie die Ausdruckseditor-Komponente in der Journey Optimizer-Benutzeroberfläche verwenden. </p>
 <p>Weitere Informationen finden Sie in der <a href="offers/offer-library/creating-personalized-offers.md#custom-text">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -101,45 +101,45 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </table>
 
 
-Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} für weitere Änderungen.
 
 ### Verbesserungen
 
 **Journeys**
 
-* **Ausdruckseditor** - Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnementlisten genutzt werden. Beispielsweise können Sie aus einem Segment jetzt eine E-Mail-Adresse aus einer Abonnementliste abrufen. [Weitere Informationen finden Sie in diesem Beispiel](building-journeys/message-to-subscribers-uc.md)
+* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnementlisten genutzt werden. Beispielsweise können Sie jetzt in einem Segment eine E-Mail-Adresse aus einer Abonnementliste abrufen. [In diesem Beispiel erfahren Sie mehr](building-journeys/message-to-subscribers-uc.md).
 
    <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
-* **Überwachung** - Schrittereignisse für Live-Journey und Testmodus wurden verbessert. [Neue Felder](reports/sharing-field-list.md#serviceevents) wurden im Zusammenhang mit Profilexportaufträgen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Schrittereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Schrittereignisse sind weiterhin im [stepEvents](reports/sharing-legacy-fields.md) Kategorie.
-* **Zugänglichkeit** - In Journey wurden Verbesserungen an der Barrierefreiheit implementiert.
-* **Sammlungen** - Arrays von Objekten, die Unterobjekte enthalten, werden jetzt unterstützt. [Mehr dazu](building-journeys/collections.md)
-* **Listen** - Die Bildschirme &quot;Listen&quot;wurden für Journey, Ereignisse, Aktionen und Datenquellen verbessert.
+* **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](reports/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](reports/sharing-legacy-fields.md) verfügbar.
+* **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit von Journeys implementiert.
+* **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](building-journeys/collections.md)
+* **Listen** – Die Bildschirme „Listen“ für Journeys, Ereignisse, Aktionen und Datenquellen wurden verbessert.
 
 **Reporting**
 
-* **Datenformat in der globalen Ansicht** - Sie können jetzt zwischen Zahlen und Prozentsätzen im **Globale Ansicht** des **Ausführung** Registerkarte. [Weitere Informationen](message-monitoring.md)
+* **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten. [Weitere Informationen](message-monitoring.md)
 
 <!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Administration**
 
-* **Bearbeiten von Nachrichtenvorgaben** - Sie können jetzt Nachrichtenvorgaben bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/message-presets.md#edit-message-preset)
-* **PTR-Datensätze bearbeiten** - Sie können jetzt PTR-Einträge bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/ptr-records.md#edit-ptr-record)
+* **Bearbeiten von Nachrichtenvoreinstellungen** – Sie können jetzt Nachrichtenvoreinstellungen bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/message-presets.md#edit-message-preset)
+* **PTR-Datensätze bearbeiten** – Sie können jetzt PTR-Einträge bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](configuration/ptr-records.md#edit-ptr-record)
 
 **Personalisierung**
 
-* **Neue Hilfsfunktion für die Datumsformatierung** - Sie können jetzt angeben, wie eine Datums-Zeichenfolge dargestellt werden soll. [Weitere Informationen](personalization/functions/dates.md#format-date)
+* **Neue Hilfsfunktion für die Datumsformatierung** – Sie können jetzt angeben, wie eine Datums-Zeichenfolge dargestellt werden soll. [Weitere Informationen](personalization/functions/dates.md#format-date)
 
 **Entscheidungs-Management**
 
-* **Auswertungssequenzierung** - Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur nahtloser zwischen Entscheidungsobjekten navigieren, sondern auch vollständig steuern, wie Angebotskollektionen von der Entscheidungs-Engine bewertet werden. Dazu gehört, welche Sammlungen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Sammlungen bewertet werden sollen. [Weitere Informationen](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **Auswertungssequenzierung** – Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur einfacher zwischen Entscheidungsobjekten navigieren, sondern auch steuern, wie Angebotskollektionen von der Entscheidungs-Engine bewertet werden. Hierzu zählt auch die Frage, welche Kollektionen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Kollektionen bewertet werden sollen. [Weitere Informationen](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Fehlerbehebungen
 
-* Fehlerkorrektur - Journey, Nachrichtenliste und E-Mail-Designer werden jetzt angezeigt, wenn die Browsersprache nicht Englisch ist.
-* Fehlerkorrektur - Beim Hinzufügen einer Personalisierung mithilfe eines Ausdrucks im E-Mail-Designer tritt kein Syntaxfehler mehr auf: Zeichen fehlerhaft maskiert wurden.
-* Fehlerkorrektur - Beim Navigieren im **Administration** Menü.
-* Fehlerkorrektur - Beim Testen einer Journey mithilfe eines Geschäftsereignisses werden jetzt keine anderen Live-Journey mehr ausgelöst.
+* Es wurde ein Problem behoben, durch das die Journey-Liste, die Nachrichtenliste und E-Mail-Designer nicht angezeigt werden konnten, wenn die Browser-Sprache nicht Englisch war.
+* Es wurde ein Syntaxfehler behoben, der beim Hinzufügen einer Personalisierung mit Hilfe eines Ausdrucks in E-Mail-Designer auftrat, wodurch Zeichen fälschlicherweise maskiert wurden.
+* Es wurde ein Problem behoben, das zu einem 404-Fehler bei der Navigation im Menü **Administration** führte.
+* Es wurde ein Problem behoben, das beim Testen einer Journey mithilfe eines Geschäftsereignisses weitere Live-Journeys auslöste.
 
 ## Version September 2021 {#september-2021-release}
 

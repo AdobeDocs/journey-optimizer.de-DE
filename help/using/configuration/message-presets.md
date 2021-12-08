@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 7039c816c459ba8cb5dbb52daf3c8265e1e1a511
 workflow-type: tm+mt
 source-wordcount: '1751'
-ht-degree: 56%
+ht-degree: 99%
 
 ---
 
@@ -21,10 +21,10 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 >
 > * Die Konfiguration von Nachrichtenvoreinstellungen ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Sie müssen die E-Mail-Konfiguration durchführen und [Push-Konfiguration](../push-configuration.md) Schritte vor der Erstellung von Nachrichtenvorgaben.
+> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
-Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nachrichten aus der Liste **[!UICONTROL Voreinstellungen]** auswählen.
+Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
 
@@ -32,7 +32,7 @@ Nachdem die Nachricht konfiguriert wurde, können Sie sie beim Erstellen von Nac
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
-1. Zugriff auf **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvorgaben]** Menü und klicken Sie auf **[!UICONTROL Nachrichtenvorgabe erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvoreinstellungen]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvoreinstellung erstellen]**.
 
    ![](../assets/preset-create.png)
 
@@ -60,25 +60,25 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
       >[!CAUTION]
       >
-      >E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md).
+      >E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
 
       <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
-      * **[!UICONTROL Name des Absenders]**: Name des Absenders, z. B. Ihres Markennamens.
+      * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
       * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
 
       * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
+      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails verworfen werden.
 
-      * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehler empfangen, die von ISPs nach wenigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
+      * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
 
       <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
 
       >[!NOTE]
       >
-      >Ab der Version Oktober 2021 ist es nicht mehr möglich, eine Weiterleitungs-E-Mail-Adresse aus dem [!DNL Journey Optimizer] -Benutzeroberfläche. Wenn Sie möchten, dass alle E-Mails von [!DNL Journey Optimizer] für die Weiterleitung der delegierten Subdomain an eine bestimmte E-Mail-Adresse wenden Sie sich an die [Support-Team der Adobe](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >Ab der Version vom Oktober 2021 ist es nicht mehr möglich, in der [!DNL Journey Optimizer]-Benutzeroberfläche eine Weiterleitungs-E-Mail-Adresse zu definieren. Wenn Sie möchten, dass alle bei [!DNL Journey Optimizer] für die delegierte Subdomain eingegangenen E-Mails an eine bestimmte E-Mail-Adresse weitergeleitet werden, wenden Sie sich an das [Supportteam der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
@@ -126,7 +126,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit ist um **48-72 Std.** und kann bis zu **7 - 10 Werktage**.
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen.
 
    Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
@@ -150,7 +150,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 ## Überwachen von Nachrichtenvoreinstellungen {#monitor-message-presets}
 
-Alle Nachrichtenvorgaben werden im **[!UICONTROL Kanäle]** > **[!UICONTROL Nachrichtenvorgaben]** Menü. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
+Alle Ihre Nachrichtenvoreinstellungen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Nachrichtenvoreinstellungen]** angezeigt. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
 ![](../assets/preset-filters.png)
 
@@ -160,7 +160,7 @@ Nachrichtenvoreinstellungen können die folgenden Status aufweisen:
 * **[!UICONTROL Verarbeitung]**: Die Nachrichtenvoreinstellung wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
 * **[!UICONTROL Aktiv]**: Die Nachrichtenvoreinstellung wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvoreinstellung fehlgeschlagen.
-* **[!UICONTROL Deaktiviert]**: Die Nachrichtenvorgabe ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
+* **[!UICONTROL Deaktiviert]**: Die Nachrichtenvoreinstellung ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
 Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt. 
 
@@ -178,15 +178,15 @@ Wenn einer dieser Fehler auftritt, wenden Sie sich an das [Adobe-Kundenunterstü
    * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Voreinstellung angegebenen gesendet werden
    * E-Mails können nicht an Posteingänge wichtiger ISPs wie Gmail und Yahoo gesendet werden
 
-## Eine Nachrichtenvorgabe bearbeiten {#edit-message-preset}
+## Bearbeiten einer Nachrichtenvoreinstellung {#edit-message-preset}
 
-Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu bearbeiten.
+Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
 
 >[!NOTE]
 >
->Sie können die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]**. Wenn eine Nachrichtenvorgabe nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
+>Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Nachrichtenvoreinstellung nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
 
-1. Klicken Sie in der Liste auf den Namen einer Nachrichtenvorgabe, um sie zu öffnen.
+1. Klicken Sie in der Liste auf den Namen einer Nachrichtenvoreinstellung, um sie zu öffnen.
 
    ![](../assets/preset-name.png)
 
@@ -194,110 +194,110 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvorgabe zu bearbeiten.
 
    >[!NOTE]
    >
-   >Wenn eine Nachrichtenvorgabe die **[!UICONTROL Aktiv]** Status, **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** -Felder sind ausgegraut und können nicht bearbeitet werden.
+   >Wenn eine Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]** hat, sind die Felder **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** grau dargestellt und können nicht bearbeitet werden.
 
-1. Klicken **[!UICONTROL Einsenden]** um Ihre Änderungen zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
    ![](../assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
-   >Sie können die Nachrichtenvorgabe auch als Entwurf speichern und die Aktualisierung später fortsetzen.
+   >Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und die Aktualisierung zu einem späteren Zeitpunkt wieder aufnehmen.
 
-Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvorgabe einen Validierungszyklus, der dem beim [Erstellen einer Vorgabe](#create-message-preset).
+Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinstellung einen ähnlichen Validierungszyklus wie beim [Erstellen einer Voreinstellung](#create-message-preset).
 
 >[!NOTE]
 >
->Wenn Sie nur die **[!UICONTROL Beschreibung]**, **[!UICONTROL Email type]** und/oder **[!UICONTROL Email-Wiederholungsparameter]** -Felder, ist die Aktualisierung sofort.
+>Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, wird die Aktualisierung sofort wirksam.
 
-Für Nachrichtenvorgaben mit **[!UICONTROL Aktiv]** -Status, können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
+Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
 
-* Klicken Sie auf **[!UICONTROL Letzte Aktualisierung]** neben dem Namen der aktiven Vorgabe angezeigt.
+* Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Voreinstellung angezeigt wird.
 
    ![](../assets/preset-recent-update-icon.png)
 
-* Sie können während der Aktualisierung auch über eine aktive Nachrichtenvorgabe auf die Aktualisierungsdetails zugreifen.
+* Sie können auch während der Aktualisierung über eine aktive Nachrichtenvoreinstellung auf die Aktualisierungsdetails zugreifen.
 
    ![](../assets/preset-view-update-details.png)
 
-Im **[!UICONTROL Letzte Aktualisierung]** -Bildschirm angezeigt werden, können Sie Informationen wie den Aktualisierungsstatus sehen,<!--the approximate remaining time before completion (if validation is in progress)--> und die Liste der angeforderten Änderungen.
+Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus sehen, <!--the approximate remaining time before completion (if validation is in progress)--> und die Liste der angeforderten Änderungen.
 
 ![](../assets/preset-recent-update-screen.png)
 
-### Status aktualisieren {#update-statuses}
+### Aktualisieren des Status {#update-statuses}
 
-Ein Update einer Nachrichtenvorgabe kann die folgenden Status aufweisen:
+Eine Aktualisierung einer Nachrichtenvoreinstellung kann die folgenden Status aufweisen:
 
-* **[!UICONTROL Verarbeitung]**: Die Aktualisierung der Nachrichtenvorgabe wurde gesendet und durchläuft derzeit mehrere Überprüfungsschritte.
-* **[!UICONTROL Erfolg]**: Die aktualisierte Nachrichtenvorgabe wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Überprüfung der Aktualisierung der Nachrichtenvorgabe fehlgeschlagen.
+* **[!UICONTROL Verarbeitung]**: Die Aktualisierung der Nachrichtenvoreinstellung wurde übermittelt und durchläuft aktuell mehrere Überprüfungsschritte.
+* **[!UICONTROL Erfolg]**: Die Nachrichtenvoreinstellung wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvoreinstellung fehlgeschlagen.
 
 Jeder Status wird nachfolgend beschrieben.
 
-### Verarbeitung
+### In Bearbeitung
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die Vorgabe ordnungsgemäß aktualisiert wurde.
-
->[!NOTE]
->
->Wenn Sie nur die **[!UICONTROL Beschreibung]**, **[!UICONTROL Email type]** und/oder **[!UICONTROL Email-Wiederholungsparameter]** -Felder, ist die Aktualisierung sofort.
-
-Die Verarbeitungszeit ist um **48-72 Std.** und kann bis zu **7 - 10 Werktage**. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie unter [diesem Abschnitt](#create-message-preset).
-
-Wenn Sie eine bereits aktive Vorgabe bearbeiten:
-
-* Sein Status bleibt erhalten **[!UICONTROL Aktiv]** während der Validierung ausgeführt wird.
-
-* Die **[!UICONTROL Letzte Aktualisierung]** neben dem Namen der Vorgabe in der Liste der Nachrichtenvorgaben angezeigt.
-
-* Während des Validierungsprozesses verwenden die mit dieser Vorgabe konfigurierten Nachrichten weiterhin die ältere Version der Vorgabe.
+Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustellen, dass die Voreinstellung ordnungsgemäß aktualisiert wurde.
 
 >[!NOTE]
 >
->Sie können eine Nachrichtenvorgabe während der Aktualisierung nicht ändern. Sie können weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+>Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, wird die Aktualisierung sofort wirksam.
 
-### Erfolg
+Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie in [diesem Abschnitt](#create-message-preset).
 
-Nach erfolgreicher Überprüfung wird die neue Version der Vorgabe automatisch in allen Nachrichten verwendet, die diese Vorgabe verwenden. Sie müssen jedoch möglicherweise warten:
-* einige Minuten, bevor er von den unitären Nachrichten genutzt wird,
-* bis zum nächsten Batch, damit die Vorgabe in Batch-Nachrichten wirksam wird.
+Wenn Sie eine bereits aktive Voreinstellung bearbeiten:
+
+* Ihr Status **[!UICONTROL Aktiv]** bleibt erhalten, während der Validierungsprozess ausgeführt wird.
+
+* Das Symbol **[!UICONTROL Letzte Aktualisierung]** wird neben dem Voreinstellungsnamen in der Liste der Nachrichtenvoreinstellungen angezeigt.
+
+* Während des Validierungsprozesses verwenden die mit dieser Voreinstellung konfigurierten Nachrichten weiterhin die ältere Version der Voreinstellung.
+
+>[!NOTE]
+>
+>Sie können eine Nachrichtenvoreinstellung während der Aktualisierung nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+
+### Erfolgreich
+
+Nach erfolgreicher Überprüfung wird die neue Version der Voreinstellung automatisch in allen Nachrichten verwendet, die diese Voreinstellung verwenden. Sie müssen jedoch möglicherweise warten:
+* einige Minuten, bevor die Voreinstellung von den einzelnen Nachrichten genutzt wird,
+* bis zum nächsten Batch, damit die Voreinstellung in Batch-Nachrichten wirksam wird.
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
 ### Fehlgeschlagen
 
-Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Vorgabe verwendet.
+Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Voreinstellung verwendet.
 
 <!--The possible update error types are as follows:
 * **Authorization error**: the bearer token is invalid or not authorized.
 * **Illegal modification**: an edit was performed on one or more non-allowed fields.
 * **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-Weitere Informationen zu möglichen Fehlerursachen finden Sie unter [diesem Abschnitt](#monitor-message-presets).
+Weitere Informationen zu möglichen Fehlerursachen finden Sie in [diesem Abschnitt](#monitor-message-presets).
 
-Wenn die Aktualisierung fehlschlägt, kann die Vorgabe erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
+Wenn die Aktualisierung fehlschlägt, kann die Voreinstellung erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
 
-## Nachrichtenvorgabe deaktivieren {#deactivate-preset}
+## Deaktivieren von Nachrichtenvoreinstellungen {#deactivate-preset}
 
-So erstellen Sie eine **[!UICONTROL Aktiv]** Nachrichtenvorgabe nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Die mit dieser Vorgabe veröffentlichten Nachrichten sind jedoch nicht betroffen und funktionieren weiterhin.
+Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Die mit dieser Voreinstellung schon veröffentlichten Nachrichten sind jedoch davon nicht betroffen und funktionieren weiterhin.
 
 >[!NOTE]
 >
->Sie können eine Nachrichtenvorgabe nicht deaktivieren, während eine Aktualisierung verarbeitet wird. Sie müssen warten, bis die Aktualisierung erfolgreich war oder fehlgeschlagen ist. Weitere Informationen finden Sie unter [Bearbeiten von Nachrichtenvorgaben](#edit-message-preset) und auf [Aktualisierungsstatus](#update-statuses).
+>Sie können eine Nachrichtenvoreinstellung nicht deaktivieren, während eine Aktualisierung im Gange ist. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Weitere Informationen finden Sie unter [Bearbeiten von Nachrichtenvoreinstellungen](#edit-message-preset) und [Aktualisierungsstatus](#update-statuses).
 
-1. Rufen Sie die Liste der Nachrichtenvorgaben auf.
+1. Rufen Sie die Liste der Nachrichtenvoreinstellungen auf.
 
-1. Klicken Sie für die aktive Vorgabe Ihrer Wahl auf die **[!UICONTROL Mehr Aktionen]** Schaltfläche.
+1. Klicken Sie für die aktive Voreinstellung Ihrer Wahl auf die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
 
-1. Auswählen **[!UICONTROL Deaktivieren]**.
+1. Wählen Sie **[!UICONTROL Deaktivieren]** aus.
 
    ![](../assets/preset-deactivate.png)
 
 >[!NOTE]
 >
->Deaktivierte Nachrichtenvorgaben können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Vorgaben zum Senden von Nachrichten verwenden.
+>Deaktivierte Nachrichtenvoreinstellungen können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Voreinstellungen zum Senden von Nachrichten verwenden.
 
-Eine deaktivierte Nachrichtenvorgabe kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu erstellen, mit der Sie neue Nachrichten erstellen. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wurde.
+Eine deaktivierte Nachrichtenvoreinstellung kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
 
 ![](../assets/preset-activate.png)
 

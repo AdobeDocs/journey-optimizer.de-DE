@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Um einen Link zur Abmeldung hinzuzufügen, gehen Sie wie folgt vor:
 
    ![](assets/opt-out-link-type.png)
 
-1. Im **[!UICONTROL Link]** den Link zu Ihrer Landingpage einfügen.
+1. Fügen Sie den Link zu ihrer Landingpage im Feld **[!UICONTROL Link]** ein.
 
    ![](assets/opt-out-link-url.png)
 
@@ -145,7 +145,7 @@ Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch 
 
 In [diesem Abschnitt](message-tracking.md#one-click-opt-out-link) erfahren Sie, wie Sie einen Opt-out-Link zu Ihrem Nachrichteninhalt hinzufügen.
 
-Sobald Ihre Nachricht über eine [Journey](building-journeys/journey.md)Wenn ein Empfänger auf den Abmelde-Link klickt, wird sein Profil sofort abgemeldet.
+Wenn Ihre Nachricht über eine [Journey](building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Ausschluss-Link klickt, sofort abgemeldet.
 
 ## Abmelde-Link in der Kopfzeile {#unsubscribe-email}
 

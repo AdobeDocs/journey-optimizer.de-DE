@@ -9,7 +9,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,19 +41,19 @@ Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben.
 
-* **[!UICONTROL Fehlgeschlagene einzelne Journey]**: Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.
+* **[!UICONTROL Fehlgeschlagene individuelle Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
 ![](../assets/report_journey_3.png)
 
-Die **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Veranstaltungen]** -Widgets zeigen Ihnen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde, anhand von Zusammenfassungsnummer, Diagramm und Tabelle.
+Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ereignisse]** können Sie anhand der Gesamtanzahl, des Diagramms und der Tabelle sehen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde.
 
 ![](../assets/report_journey_4.png)
 
-Die **[!UICONTROL Aktion, die in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** Widgets stellen die erfolgreichste Aktion und Fehler dar, die beim Auslösen Ihrer Aktionen aufgetreten sind. Die Aktionsdiagramm-, Tabellen- und Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
+Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** zeigen die erfolgreichste Aktion und die Fehler, die beim Auslösen Ihrer Aktionen aufgetreten sind. Das Aktionsdiagramm, die Tabelle und die Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der erfolgreich für eine Journey ausgeführten Aktionen.
+* **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der für eine Journey erfolgreich ausgeführten Aktionen.
 
-* **[!UICONTROL Fehler bei Aktionen]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
+* **[!UICONTROL Fehler in Aktionen]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
 
 <!--
 ![](../assets/live_report_7.png)

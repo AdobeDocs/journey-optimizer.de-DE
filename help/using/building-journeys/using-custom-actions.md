@@ -9,7 +9,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
 
 ## Aktionsparameter
 
-Im Abschnitt **[!UICONTROL Aktionsparameter]** sehen Sie die Nachrichtenparameter, die als _Variable_ definiert sind. Für diese Parameter können Sie festlegen, wo diese Informationen abgerufen werden sollen (Beispiel: Ereignisse, Datenquellen), Werte manuell übergeben oder den erweiterten Ausdruckseditor für erweiterte Anwendungsfälle verwenden. Erweiterte Anwendungsfälle können Datenmanipulationen und andere Funktionen sein. Siehe [Dokumentation zur Adobe Journey Orchestration](expression/expressionadvanced.md).
+Im Abschnitt **[!UICONTROL Aktionsparameter]** sehen Sie die Nachrichtenparameter, die als _Variable_ definiert sind. Für diese Parameter können Sie festlegen, wo diese Informationen abgerufen werden sollen (Beispiel: Ereignisse, Datenquellen), Werte manuell übergeben oder den erweiterten Ausdruckseditor für erweiterte Anwendungsfälle verwenden. Erweiterte Anwendungsfälle können Datenmanipulationen und andere Funktionen sein. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Journey Orchestration](expression/expressionadvanced.md).
 
 **Verwandte Themen**
 

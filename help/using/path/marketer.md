@@ -1,42 +1,42 @@
 ---
-title: Journey Optimizer Erste Schritte für Marketingexperten
-description: Als Journey-Praktikant erfahren Sie mehr darüber, wie Sie mit Journey Optimizer arbeiten
+title: Journey Optimizer – Erste Schritte für Marketing-Experten
+description: Als Journey-Anwender erfahren Sie mehr darüber, wie Journey Optimizer funktioniert.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte für Marketingexperten
+# Erste Schritte für Marketing-Experten
 
-![Marketingexperte](assets/do-not-localize/user-3.png)
+![Marketing-Experte](assets/do-not-localize/user-3.png)
 
-Als **Marketer** oder **Journey Practicionner**, sind Sie für die Erstellung von Nachrichten, Angeboten und Journey verantwortlich. Sie können damit beginnen, [!DNL Adobe Journey Optimizer] einmal die [Systemadministrator](administrator.md) und [Dateningenieur](data-engineer.md) gewährt Ihnen Zugriff und vorbereitete Ihre Umgebung.
+Als **Marketing-Experte** oder **Journey-Anwender** sind Sie für die Erstellung von Nachrichten, Angeboten und Journeys verantwortlich. Sie können die Arbeit mit [!DNL Adobe Journey Optimizer] beginnen, sobald Ihnen der [Systemadministrator](administrator.md) und der [Datentechniker](data-engineer.md) Zugriff gewährt und Ihre Umgebung vorbereitet haben.
 
-In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten, Angebote und Assets hinzufügen und Nachrichten senden:
+Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angebote und Assets hinzufügen und Nachrichten versenden:
 
-1. **Segmente erstellen**. Mit Journey Optimizer können Sie Zielgruppensegmente direkt aus dem **Segmente** und nutzen Sie sie in Ihren Journey.  Weitere Informationen zu Segmenten [auf dieser Seite](../segment/about-segments.md). Erfahren Sie, wie Sie Segmente erstellen [in diesem Beispiel](../segment/creating-a-segment.md).
+1. **Segmente erstellen**. Mit Journey Optimizer können Sie Audience-Segmente direkt im Menü **Segmente** erstellen und in Ihren Journeys nutzen.  Weitere Informationen zu Segmenten finden Sie [auf dieser Seite](../segment/about-segments.md). Erfahren Sie [in diesem Beispiel](../segment/creating-a-segment.md), wie Sie Segmente erstellen.
 
-1. **Nachrichten erstellen**. Erfahren Sie, wie Sie E-Mail- und Push-Benachrichtigungen in Journey Optimizer erstellen [auf dieser Seite](../create-message.md).
+1. **Nachrichten erstellen**. [Auf dieser Seite](../create-message.md) erfahren Sie, wie Sie E-Mail- und Push-Benachrichtigungen in Journey Optimizer erstellen.
 
    ![](../assets/email_designer_7.png)
 
-1. **Hinzufügen von Personalisierung**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Nachricht an Ihre Zielgruppe anzupassen. Weitere Informationen zur Personalisierung [in diesem Abschnitt](../personalization/personalize.md).
+1. **Hinzufügen von Personalisierung**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Nachricht an Ihre Audience anzupassen. Weitere Informationen zur Personalisierung finden Sie [in diesem Abschnitt](../personalization/personalize.md).
 
    ![](../personalization/assets/perso_ee2.png)
 
-1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weiterführende Informationen finden Sie [in diesem Abschnitt](../assets-essentials.md).
+1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weitere Informationen finden Sie [in diesem Abschnitt](../assets-essentials.md).
 
-1. **Angebote hinzufügen**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden. Erfahren Sie mehr über die Entscheidungsverwaltung [in diesem Abschnitt](../../using/offers/get-started/starting-offer-decisioning.md).
+1. **Hinzufügen von Angeboten**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden auf allen Kontaktpunkten zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden. Weitere Informationen zum Entscheidungs-Management finden Sie [in diesem Abschnitt](../../using/offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Nachrichten testen und validieren**. Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Bei Verwendung von [personalisiertem Inhalt](../personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Erfahren Sie, wie Sie Ihre Nachrichten testen und validieren [in diesem Abschnitt](../preview.md).
+1. **Testen und Validieren von Nachrichten**. Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Bei Verwendung von [personalisierten Inhalten](../personalization/personalize.md) können Sie prüfen, ob diese Inhalte in der Nachricht korrekt angezeigt werden, und dabei Daten von Testprofilen nutzen. Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **E-Mail-Rendering** in gängigen E-Mail-Clients zu überprüfen. Auf diese Weise stellen Sie sicher, dass Ihr E-Mail-Inhalt in jedem Posteingang ansprechend aussieht und korrekt funktioniert. Näheres dazu, wie Sie Ihre Nachrichten testen und validieren, erfahren Sie [in diesem Abschnitt](../preview.md).
 
-1. **Journey für Designkunden** um personalisierte, kontextbezogene Erlebnisse bereitzustellen. Mit [!DNL Journey Optimizer] können Sie Anwendungsfälle für die Echtzeit-Orchestrierung erstellen und dabei kontextbezogene Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Entwickeln Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
+1. **Entwerfen Sie Customer Journeys**, um Ihren Kunden personalisierte, kontextbezogene Erlebnisse zu bieten. Mit [!DNL Journey Optimizer] können Sie Anwendungsfälle für die Echtzeit-Orchestrierung erstellen und dabei kontextbezogene Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Entwickeln Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
    * Senden Sie **einheitliche Nachrichten** in Echtzeit, ausgelöst durch den Empfang eines Ereignisses, oder **im Batch** mit Adobe Experience Platform-Segmenten.
 
@@ -48,6 +48,6 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten
 
    ![](../assets/copy-paste3.png)
 
-   Erfahren Sie, wie Sie Journey erstellen und ausführen [in diesem Abschnitt](../building-journeys/journey-gs.md)
+   Näheres dazu, wie Sie Journeys erstellen und ausführen, finden Sie [in diesem Abschnitt](../building-journeys/journey-gs.md).
 
-1. **Nachrichten und Journey überwachen**. Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Erfahren Sie, wie Sie die Leistung überwachen [in diesem Abschnitt](../message-monitoring.md).
+1. **Nachrichten und Journeys überwachen**. Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Näheres dazu, wie Sie die Performance überwachen können, erfahren Sie [in diesem Abschnitt](../message-monitoring.md).

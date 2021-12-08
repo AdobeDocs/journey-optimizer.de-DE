@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Helper-Funktionen
-description: Bibliothek für Journey Optimizer Hilfsfunktionen
+description: Bibliothek für Helper-Funktionen in Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Im [!DNL Journey Optimizer]-Ausdruckseditor sind Hilfsfunktionen in drei Kategor
 
 Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreifen.
 
-Zugriff auf Unterkategorien durch Klicken auf `>` Symbol. Wählen Sie eine Funktion aus, indem Sie auf die `+` Symbol: wird die Funktion automatisch zum Personalisierungsbildschirm hinzugefügt.
+Sie können auf Unterkategorien durch Klicken auf das Symbol `>` zugreifen. Wählen Sie eine Funktion aus, indem Sie auf das Symbol `+` klicken. Die Funktion wird dann automatisch zum Personalisierungsbildschirm hinzugefügt.
 
-Klicken Sie auf `...` -Symbol, um die Beschreibung der Funktion anzuzeigen und sie Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
+Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen und sie zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
 
 ## Funktionen{#functions-helper}
 
@@ -83,38 +83,38 @@ Klicken Sie auf `...` -Symbol, um die Beschreibung der Funktion anzuzeigen und s
     </tr>
 </table>
 
-### Datums-/Uhrzeitfunktionen{#date-functions}
+### Funktionen für Datum/Uhrzeit{#date-functions}
 
 <table>
     <tr>
-        <td><a href="dates.md#age">Alter</a></td><td>Diese Funktion ruft das Alter von einem bestimmten Datum ab</td>
+        <td><a href="dates.md#age">Alter</a></td><td>Diese Funktion ruft das Alter zu einem bestimmten Datum ab</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epoch-Millisekunden ab</td>
+        <td><a href="dates.md#current">Aktuelle Zeit in Millisekunden</a></td><td>Diese Funktion ruft die aktuelle Zeit in Epochenmillisekunden ab.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ruft die Differenz zwischen zwei Daten in Anzahl von Tagen ab</td>
+        <td><a href="dates.md#date-diff">Datumsunterschied</a></td><td>Diese Funktion ermittelt die Differenz zwischen zwei Daten in der Anzahl der Tage</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-week">Wochentag</a></td><td>Diese Funktion ruft den Wochentag ab</td>
+        <td><a href="dates.md#day-week">Wochentag</a></td><td>Diese Funktion ruft den Wochentag ab.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Tag des Jahres</a></td><td>Diese Funktion ruft den Tag des Jahres ab</td>
+        <td><a href="dates.md#day-year">Tag des Jahres</a></td><td>Diese Funktion ruft den Tag des Jahres ab.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Datum des Formats</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert</td>
+        <td><a href="dates.md#format-date">Datum formatieren</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Festlegen von Tagen</a></td><td>Diese Funktion legt den Tag des Monats für die angegebene Datum/Uhrzeit fest</td>
+        <td><a href="dates.md#set-days">Tage festlegen</a></td><td>Diese Funktion legt den Tag des Monats für den angegebenen Datums-/Uhrzeitwert fest.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Festlegen von Tagen</a></td><td>Diese Funktion legt die Stunde der Datum/Uhrzeit fest</td>
+        <td><a href="dates.md#set-hours">Tage festlegen</a></td><td>Diese Funktion legt die Stunde des Datums-/Uhrzeitwerts fest</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-utc">auf UTC</a></td><td>Diese Funktion konvertiert einen Datum/Uhrzeit-Wert in UTC</td>
+        <td><a href="dates.md#to-utc">In UTC</a></td><td>Diese Funktion konvertiert einen Datum-/Uhrzeitwert in UTC.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">Woche des Jahres</a></td><td>Diese Funktion gibt die Woche des Jahres zurück</td>
+        <td><a href="dates.md#week-of-year">Woche des Jahres</a></td><td>Diese Funktion gibt die Woche des Jahres zurück.</td>
     </tr>
 </table>
 </table>
