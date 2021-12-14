@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '868'
 ht-degree: 21%
 
 ---
@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass Sie auf die Unterseite im **[!UICONTROL Formular]** Komponenten **[!UICONTROL Aktionsaufruf]** auf der primären Seite. [Weitere Informationen](design-lp.md)
+   >Vergewissern Sie sich, dass Sie auf die Unterseite im **[!UICONTROL Aktionsaufruf]** Abschnitt **[!UICONTROL Formular]** -Komponente. [Weitere Informationen](design-lp.md)
 
 1. Nachdem Sie den Inhalt Ihrer Seiten konfiguriert und definiert haben, [publish](create-lp.md#publish) die Landingpage.
 
@@ -147,7 +147,7 @@ Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. Wenn der Empfänger auf der Landingpage das Kästchen markiert und das Formular sendet:
+   Wenn der Empfänger das Kästchen markiert und das Formular sendet:
 
    * Der abgemeldete Empfänger wird zum Bestätigungsbildschirm weitergeleitet.
 
