@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 25%
+source-wordcount: '872'
+ht-degree: 21%
 
 ---
 
@@ -105,39 +105,53 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 ### Konfigurieren des Opt-outs {#configure-opt-out}
 
-Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, sich über eine Landingpage von Ihrer Nachricht abzumelden.
+Gehen Sie wie folgt vor, um Empfängern einer E-Mail zu ermöglichen, sich über eine Landingpage von Ihrer Nachricht abzumelden.
 
-1. Erstellen Sie Ihre [Landingpage](create-lp.md). Landingpage-spezifisch verwenden **[!UICONTROL Formular]** -Komponente, definieren Sie eine **[!UICONTROL Opt-out]** und wählen Sie die Option **[!UICONTROL Kanal (E-Mail)]**: Das Profil, das das Opt-out-Feld auf Ihrer Landingpage aktiviert, wird von all Ihrer Kommunikation ausgeschlossen. [Weitere Informationen](design-lp.md)
+1. Erstellen Sie Ihre Landingpage. [Weitere Informationen](create-lp.md)
+
+1. Definieren Sie die primäre Seite. [Weitere Informationen](create-lp.md#configure-primary-page)
+
+1. [Design](design-lp.md) Primärseiteninhalt: Landingpage-spezifisch verwenden **[!UICONTROL Formular]** -Komponente, definieren Sie eine **[!UICONTROL Opt-out]** und wählen Sie die Option **[!UICONTROL Kanal (E-Mail)]**: Das Profil, das das Opt-out-Feld auf Ihrer Landingpage aktiviert, wird von all Ihrer Kommunikation ausgeschlossen.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Erstellen Sie eine Nachricht](../create-message.md) in [!DNL Journey Optimizer].
+1. Bestätigung hinzufügen [subpage](create-lp.md#configure-subpages) wird den Benutzern angezeigt, die das Formular senden.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Vergewissern Sie sich, dass Sie auf die Unterseite im **[!UICONTROL Formular]** Komponenten **[!UICONTROL Aktionsaufruf]** auf der primären Seite. [Weitere Informationen](design-lp.md)
+
+1. Nachdem Sie den Inhalt Ihrer Seiten konfiguriert und definiert haben, [publish](create-lp.md#publish) die Landingpage.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [E-Mail-Nachricht erstellen](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Wählen Sie Text in Ihrem Inhalt aus und [Link einfügen](../message-tracking.md#insert-links) über die dedizierte Symbolleiste. Sie können auch einen Link auf einer Schaltfläche verwenden.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Auswählen **[!UICONTROL Landingpage]** von **[!UICONTROL Link-Typ]** Dropdown-Liste.
-
-1. Wählen Sie die [Landingpage](create-lp.md#configure-primary-page) die Sie für die Abmeldung erstellt haben.
+1. Auswählen **[!UICONTROL Landingpage]** von **[!UICONTROL Link-Typ]** Dropdown-Liste aus und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) die Sie für die Abmeldung erstellt haben.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../publish-manage-message.md).
 
-1. Senden Sie die Nachricht über eine [Journey](../building-journeys/journey.md).
+1. Senden Sie Ihre Nachricht über eine Journey. [Weitere Informationen](../building-journeys/journey.md).
 
-1. Wenn der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird Ihre Landingpage angezeigt.
+1. Wenn ein Empfänger nach Erhalt der Nachricht auf den Abmelde-Link in der E-Mail klickt, wird Ihre Landingpage angezeigt.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Wenn der Empfänger auf den Abmelde-Link in der Landingpage klickt, werden die Profildaten aktualisiert und erhalten keine Nachrichten von Ihrer Marke, es sei denn, er hat sich erneut angemeldet.
+1. Wenn der Empfänger auf der Landingpage das Kästchen markiert und das Formular sendet:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * Der abgemeldete Empfänger wird zum Bestätigungsbildschirm weitergeleitet.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * Die Profildaten werden aktualisiert und erhalten keine Nachrichten von Ihrer Marke, es sei denn, Sie haben sich erneut angemeldet.
 
 Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
 
