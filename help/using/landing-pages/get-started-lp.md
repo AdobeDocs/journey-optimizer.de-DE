@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Kundenbetreuer bei der Adobe.
+>Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer über den frühzeitigen Zugriff verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er sich von einer E-Mail, einer Website, einer Anzeige oder einem anderen digitalen Ort aus durchgeklickt hat.
+Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleitet wird, nachdem er auf eine E-Mail, eine Website, eine Anzeige oder einen anderen digitalen Ort geklickt hat.
 
 <!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, Landingpages zu erstellen und zu entwerfen, um Ihre Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
+[!DNL Journey Optimizer] ermöglicht die Erstellung und den Entwurf von Landingpages, um deren Benutzer zu Online-Formularen zu leiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Dienst wie einen Newsletter abonnieren können.
 
 <!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
 
@@ -34,17 +34,17 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 * Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-* Nutzung [!DNL Journey Optimizer] Funktionen zur Inhaltserstellung **responsive Landingpages**.
-* Einrichten **Opt-in- und Opt-out-Workflows** schnell und nahtlos.
-* Erstellen von Abonnementlisten, um Benutzern die Möglichkeit zu geben, **Dienst abonnieren**. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
-* Geben Sie Ihren Empfängern die **Abmeldefähigkeit** nach Erhalt Ihrer Nachrichten. [Weitere Informationen](lp-use-cases.md#opt-out)
-* Senden Sie eine **Bestätigungs-E-Mail** bei Opt-in- oder Opt-out-Verfahren. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
+* Nutzen Sie [!DNL Journey Optimizer]Funktionen zur Inhaltserstellung zur mühelosen Gestaltung von **responsiven Landingpages**.
+* Richten Sie einfach und schnell **Opt-in- und Opt-out-Vorgänge** ein.
+* Erstellen Sie Abonnementlisten, um Benutzern die Möglichkeit zu geben, **einen Dienst zu abonnieren**. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
+* Geben Sie Ihren Empfängern die **Möglichkeit zur Abmeldung** vom Erhalt Ihrer Nachrichten. [Weitere Informationen](lp-use-cases.md#opt-out)
+* Senden Sie beim Opt-in oder Opt-out eine **Bestätigungs-E-Mail**. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Landingpages erstellen</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Erstellen von Landingpages</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Erstellen von Abonnementlisten</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Landingpages erstellen</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Entwerfen von Landingpages</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>
 </table>
