@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sende
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains
 
-Einmal [eine Subdomain zugewiesen wird](delegate-subdomain.md) In Adobe Journey Optimizer wird automatisch ein PTR-Eintrag erstellt und dieser Subdomain zugeordnet. Sie können darauf über das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
+Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](../assets/ptr-records.png)
 
@@ -42,7 +42,7 @@ Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte S
 
 >[!CAUTION]
 >
->Sie können keinen PTR-Datensatz ändern, der einer Subdomain zugeordnet ist, die mit der Variablen [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation).
+>Sie können keinen PTR-Eintrag ändern, der einer Subdomain zugeordnet ist, die Adobe mit der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) zugewiesen wurde.
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
