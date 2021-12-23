@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
 | Math | [random](../functions/functionrandom.md) |
-| Mathematisch | [round](../functions/functionround.md) |
+| Math | [round](../functions/functionround.md) |
 | Zeichenfolge | [concat](../functions/functionconcat.md) |
 | Zeichenfolge | [contain](../functions/functioncontain.md) |
 | Zeichenfolge | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
