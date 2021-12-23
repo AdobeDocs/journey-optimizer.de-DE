@@ -1,6 +1,6 @@
 ---
-title: Landingpage erstellen
-description: Erfahren Sie, wie Sie den Inhalt einer Landingpage in Journey Optimizer entwerfen.
+title: Erstellen einer Landingpage
+description: Erfahren Sie, wie Sie den Inhalt einer Landingpage in Journey Optimizer erstellen
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -9,57 +9,57 @@ hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Landingpage-Inhalt gestalten {#design-lp-content}
+# Erstellen der Landingpage-Inhalte {#design-lp-content}
 
-So erstellen Sie Inhalte für Ihre Landingpage [primäre Seite](create-lp.md#configure-primary-page) oder [subpage](create-lp.md#configure-subpages), bewegen Sie den Mauszeiger über den Inhalt der primären Seite und klicken Sie auf **[!UICONTROL Designer öffnen]**. Sie können auch in der rechten Palette auf die entsprechende Schaltfläche klicken.
+Um Inhalte für die [Primärseite](create-lp.md#configure-primary-page) oder [Unterseite](create-lp.md#configure-subpages) Ihrer Landingpage zu erstellen, bewegen Sie den Mauszeiger über die Primärseiteninhalte und klicken Sie auf **[!UICONTROL Designer öffnen]**. Sie können auch in der rechten Palette auf die entsprechende Schaltfläche klicken.
 
 ![](../assets/lp_open-designer.png)
 
-Von dort aus haben Sie folgende Möglichkeiten:
+Dort haben Sie folgende Möglichkeiten:
 
-* **Landingpage von Grund auf neu gestalten** über die Benutzeroberfläche des Inhaltsdesigners und die Verwendung von Bildern aus [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Erfahren Sie, wie Sie Inhalte erstellen oder integrierte Vorlagen verwenden. [in diesem Abschnitt](../create-email-content.md).
+* **Entwerfen Sie Ihre Landingpage von Grund auf** über die Benutzeroberfläche von Content Designer und nutzen Sie Bilder aus [Adobe Experience Manager Assets Essentials](../assets-essentials.md). [In diesem Abschnitt](../create-email-content.md) erfahren Sie, wie Sie Inhalte gestalten oder integrierte Vorlagen verwenden.
 
-* **Rohes HTML kodieren oder einfügen** direkt in den Inhaltsdesigner. Erfahren Sie [in diesem Abschnitt](../existing-content.md#import-raw-html-code), wie Sie Ihren eigenen Inhalt kodieren.
+* **Codieren Sie oder fügen Sie rohen HTML-Code** direkt in Content Designer ein. Erfahren Sie [in diesem Abschnitt](../existing-content.md#import-raw-html-code), wie Sie Ihren eigenen Inhalt kodieren.
 
-* **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. Erfahren Sie, wie Sie Inhalte importieren [in diesem Abschnitt](../existing-content.md#import-html-content-from-file).
+* **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. [In diesem Abschnitt](../existing-content.md#import-html-content-from-file) erfahren Sie, wie Sie Inhalte importieren.
 
 >[!NOTE]
 >
->Der Inhaltseditor für Landingpages ähnelt größtenteils dem E-Mail-Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit [!DNL Journey Optimizer]](../design-emails.md).
+>Content Designer für Landingpages ähnelt größtenteils Email Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit  [!DNL Journey Optimizer]](../design-emails.md).
 
-## Landingpage-spezifischen Inhalt definieren {#define-lp-specific-content}
+## Definieren von Landingpage-spezifischen Inhalten {#define-lp-specific-content}
 
-Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer Landingpage festlegen und übermitteln können.
+Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer eine Auswahl auf Ihrer Landingpage treffen und übermitteln können.
 
-1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Formular]** -Komponente aus der linken Palette in den Hauptarbeitsbereich.
+1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Formular]**-Komponente aus der linken Palette in den Hauptarbeitsbereich.
 
    ![](../assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Formular]** -Komponente kann nur einmal auf derselben Seite verwendet werden.
+   >Die **[!UICONTROL Formular]**-Komponente kann auf einer Seite nur einmal verwendet werden.
 
-1. Wählen Sie sie aus. Die **[!UICONTROL Formularinhalt]** in der rechten Palette angezeigt, damit Sie die verschiedenen Formularfelder bearbeiten können.
+1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalte]** wird in der rechten Palette angezeigt, damit Sie die verschiedenen Formularfelder bearbeiten können.
 
    ![](../assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
-   >Wechseln Sie zu **[!UICONTROL Formularstil]** jederzeit zum Bearbeiten der Stile des Formularkomponenteninhalts. [Weitere Informationen](#define-lp-styles)
+   >Sie können jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln, um die Stile Ihrer Inhalte in der Formularkomponente zu bearbeiten. [Weitere Informationen](#define-lp-styles)
 
-1. Aus dem **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
+1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
 
-1. Definieren Sie, ob dieses Kontrollkästchen Benutzern das Ein- und Ausschließen ermöglicht: Sind sie damit einverstanden, Nachrichten zu erhalten oder bitten sie darum, nicht mehr kontaktiert zu werden?
+1. Definieren Sie, ob dieses Kontrollkästchen Benutzern die An- oder Abmeldung ermöglichen soll: Erklären sie sich damit einverstanden, Nachrichten zu erhalten, oder möchten sie nicht mehr kontaktiert werden?
 
    ![](../assets/lp_designer-form-update.png)
 
-1. Wählen Sie aus, was zwischen den drei folgenden Optionen aktualisiert werden soll:
+1. Wählen Sie aus den drei folgenden Optionen aus, was aktualisiert werden soll:
 
    ![](../assets/lp_designer-form-update-options.png)
 
@@ -67,15 +67,15 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
       ![](../assets/lp_designer-form-subs-list.png)
 
-   * **[!UICONTROL Kanal (E-Mail)]**: Das Opt-in- oder Opt-out-Verfahren gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abmeldet, zwei E-Mail-Adressen hat, werden beide Adressen aus all Ihrer Kommunikation ausgeschlossen.
+   * **[!UICONTROL Kanal (E-Mail)]**: Die An- oder Abmeldung gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abgemeldet hat, zwei E-Mail-Adressen hat, werden beide Adressen aus Ihrer gesamten Kommunikation ausgeschlossen.
 
-   * **[!UICONTROL Email-Identität]**: Das Opt-in- oder Opt-out-Verfahren gilt nur für die E-Mail-Adresse, die für den Zugriff auf die Landingpage verwendet wurde. Wenn beispielsweise ein Profil zwei E-Mail-Adressen hat, erhält nur die für die Anmeldung verwendete E-Mail-Adresse Nachrichten von Ihrer Marke.
+   * **[!UICONTROL E-Mail-Identität]**: Die An- oder Abmeldung gilt nur für die E-Mail-Adresse, die für den Zugriff auf die Landingpage verwendet wurde. Wenn beispielsweise ein Profil zwei E-Mail-Adressen hat, erhält nur diejenige E-Mail-Adresse, mit der es sich abgemeldet hat, Nachrichten von Ihrer Marke.
 
-1. Klicken **[!UICONTROL Feld hinzufügen]** > **[!UICONTROL Kontrollkästchen]** , um ein weiteres Kontrollkästchen hinzuzufügen. Wiederholen Sie die obigen Schritte, um die Eigenschaften zu definieren.
+1. Klicken Sie auf **[!UICONTROL Feld hinzufügen]** > **[!UICONTROL Kontrollkästchen]**, um ein weiteres Kontrollkästchen hinzuzufügen. Wiederholen Sie die obigen Schritte, um die Eigenschaften zu definieren.
 
    ![](../assets/lp_designer-form-checkbox-2.png)
 
-1. Nachdem Sie alle gewünschten Kontrollkästchen hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktionsaufruf]** um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche im **[!UICONTROL Formular]** -Komponente.
+1. Nachdem Sie alle gewünschten Kontrollkästchen hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktion]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
 
    ![](../assets/lp_designer-form-call-to-action.png)
 
@@ -83,16 +83,16 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
    * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
    * **[!UICONTROL Bestätigungstext]**: Geben Sie den Bestätigungstext ein, der angezeigt werden soll.
-   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [subpage](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdownliste aus.
+   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [Unterseite](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdown-Liste aus.
 
    ![](../assets/lp_designer-form-confirmation-action.png)
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll, falls ein Fehler auftritt:
 
    * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
-   * **[!UICONTROL Fehlertext]**: Geben Sie den Fehlertext ein, der angezeigt werden soll. Beim Definieren der [Formularstile](#define-lp-styles).
+   * **[!UICONTROL Fehlertext]**: Geben Sie den Fehlertext ein, der angezeigt werden soll. Beim Definieren der [Formularstile](#define-lp-styles) können Sie sich eine Vorschau des Fehlertexts ansehen.
 
-   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [subpage](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdownliste aus.
+   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [Unterseite](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdown-Liste aus.
 
    ![](../assets/lp_designer-form-error.png)
 
@@ -100,35 +100,35 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
    ![](../assets/lp_designer-form-additionnal-update.png)
 
-1. Speichern Sie den Inhalt und klicken Sie auf den Pfeil neben dem Seitennamen, um zum Abschnitt [Landingpage-Eigenschaften](create-lp.md#configure-primary-page).
+1. Speichern Sie die Inhalte und klicken Sie auf den Pfeil neben dem Seitennamen, um zurück zum Abschnitt [Landingpage-Eigenschaften](create-lp.md#configure-primary-page) zu gelangen.
 
    ![](../assets/lp_designer-form-save.png)
 
 <!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
 
-## Formularstile für Landingpages definieren {#define-lp-styles}
+## Definieren von Formularstilen für Landingpages {#define-lp-styles}
 
-1. Um die Stile Ihres Formularkomponenteninhalts zu ändern, wechseln Sie jederzeit zum **[!UICONTROL Formularstil]** Registerkarte.
+1. Um die Stile der Inhalte Ihrer Formularkomponente zu ändern, können Sie jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln.
 
    ![](../assets/lp_designer-form-style.png)
 
-1. Erweitern Sie die **[!UICONTROL Kontrollkästchen]** -Abschnitt, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie oder -größe und die Rahmenfarbe des Kontrollkästchens anpassen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Kontrollkästchen]**, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie oder Schriftgröße sowie die Rahmenfarbe des Kontrollkästchens anpassen.
 
    ![](../assets/lp_designer-form-style-checkboxes.png)
 
-1. Erweitern Sie die **[!UICONTROL Schaltflächen]** -Abschnitt, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen in der Vorschau anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die **[!UICONTROL Vorschau]** Schaltfläche. Weitere Informationen zum Testen von Landingpages [here](create-lp.md#test).
+   Sie können einige Ihrer Einstellungen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Vorschau]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 
-1. Erweitern Sie die **[!UICONTROL Formularlayout]** um die Layouteinstellungen wie die Hintergrundfarbe, den Abstand oder den Rand zu bearbeiten.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Formular-Layout]**, um die Layout-Einstellungen wie die Hintergrundfarbe, den Abstand oder den Rand zu bearbeiten.
 
    ![](../assets/lp_designer-form-style-layout.png)
 
-1. Erweitern Sie die **[!UICONTROL Formularfehler]** -Abschnitt, um die Anzeige der Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Aktivieren Sie die entsprechende Option, um den Fehlertext im Formular in der Vorschau anzuzeigen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Klicken Sie die entsprechende Option an, um den Fehlertext im Formular in der Vorschau anzuzeigen.
 
    ![](../assets/lp_designer-form-error-preview.png)
 
