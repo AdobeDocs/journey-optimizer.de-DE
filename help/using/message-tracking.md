@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Externer Link]**: Fügen Sie einen Link auf eine externe URL ein.
 
-   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Weiterführende Informationen finden Sie in diesem [Abschnitt](landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Weiterführende Informationen finden Sie in [diesem Abschnitt](landing-pages/get-started-lp.md).
 
    * **[!UICONTROL Abmelde-Link]**: Fügen Sie einen Link ein, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](consent.md#opt-out-management).
 
