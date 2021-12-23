@@ -6,9 +6,9 @@ user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung verne
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
       + [Erstellen einer Nachricht](using/create-message.md)
       + [Erstellen einer E-Mail](using/create-email.md)
       + [Erstellen einer Push-Benachrichtigung](using/create-push.md)
-      + [SMS erstellen](using/create-sms.md)
+      + [Erstellen einer SMS-Nachricht](using/create-sms.md)
    + [Hinzufügen und Verwalten von Assets](using/assets-essentials.md)
    + Entwerfen von E-Mails {#email-designer}
       + [Erste Schritte beim Gestalten von E-Mails ](using/design-emails.md)
@@ -190,9 +190,10 @@ ht-degree: 97%
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Nachverfolgen und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -222,13 +223,13 @@ ht-degree: 97%
       + [Zulassungsliste](using/allow-list.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
-   + [Landingpage erstellen](using/landing-pages/create-lp.md)
-   + [Landingpage erstellen](using/landing-pages/design-lp.md)
-   + [Abonnementliste erstellen](using/landing-pages/subscription-list.md)
+   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+   + [Erstellen einer Landingpage](using/landing-pages/design-lp.md)
+   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-   + Berichterstellung {#lp-reporting}
-      + [Berichte zu Landingpages](using/landing-pages/lp-report.md)
-      + [Abonnementlistenberichte](using/landing-pages/subscription-report.md)
+   + Reporting {#lp-reporting}
+      + [Reporting zu Landingpages](using/landing-pages/lp-report.md)
+      + [Reporting zu Abonnementlisten](using/landing-pages/subscription-report.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -330,7 +331,7 @@ ht-degree: 97%
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
          + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
-      + [SMS-Kanal konfigurieren](using/configuration/sms-configuration.md)
+      + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
       + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
