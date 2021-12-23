@@ -1,6 +1,6 @@
 ---
-title: Abonnementliste erstellen
-description: Erfahren Sie, wie Sie in Journey Optimizer eine Abonnementliste einrichten.
+title: Erstellen einer Abonnementliste
+description: Erfahren Sie, wie in Journey Optimizer eine Abonnementliste eingerichtet wird.
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -9,9 +9,9 @@ hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -19,55 +19,55 @@ ht-degree: 1%
 
 ## Was ist eine Abonnementliste?
 
-Ein Anmeldedienst bezieht sich auf Marketing-Waren und -Dienstleistungen, die Kunden angeboten werden, die sich für den Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. fortlaufend. In [!DNL Journey Optimizer], werden diese angemeldeten Kunden in einer Abonnementliste erfasst.
+Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnementliste erfasst.
 
-Ein Anmeldedienst kann:
+Ein Anmeldedienst kann sein:
 
-* einen Newsletter, z. B.: &quot;Laufende Serie&quot;
-* ein Ereignis, z. B.: &quot;Gipfel 2021&quot;
-* ein Webinar, z. B.: &quot;Erfahren Sie mehr über &quot;crypto&quot;
-* Interesse an einem bestimmten Produkt/Sport/Service usw., z. B.: &quot;Interesse daran, in den nächsten 12 Monaten ein Haus zu kaufen&quot;
-* eine Präferenz für die Benachrichtigung, z. B.: &quot;Empfangen neuer Song-Benachrichtigungen per E-Mail&quot;
+* ein Newsletter, z. B.: „Laufende Serie“
+* ein Ereignis, z. B.: „Summit 2021“
+* ein Webinar, z. B.: „Mehr über Kryptowährungen erfahren“
+* Interesse an einem bestimmten Produkt/Sport/Service usw., z. B.: „Interesse daran, in den nächsten 12 Monaten ein Haus zu kaufen“
+* eine Präferenz für die Art der Benachrichtigung, z. B.: „Empfangen neuer Song-Benachrichtigungen per E-Mail“
 
-Die Profile können über eine [Landingpage](create-lp.md). Ein Beispiel finden Sie unter [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
+Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnementliste hinzugefügt werden. Ein Beispiel dazu finden Sie in [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
-## Abonnementliste definieren {#define-subscription-list}
+## Definieren einer Abonnementliste {#define-subscription-list}
 
 Gehen Sie wie folgt vor, um eine Abonnementliste zu erstellen.
 
-1. Um auf die Abonnementlisten zuzugreifen, wählen Sie **[!UICONTROL Kunde]** > **[!UICONTROL Abonnementliste]**.
+1. Um auf die Abonnementlisten zuzugreifen, wählen Sie **[!UICONTROL Kunde]** > **[!UICONTROL Abonnementliste]** aus.
 
    ![](../assets/lp_subscription-lists.png)
 
-1. Wählen Sie die **[!UICONTROL Abonnementliste erstellen]** Schaltfläche.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Abonnementliste erstellen]** aus.
 
    ![](../assets/lp_create-subscription-list.png)
 
-1. Fügen Sie einen Namen und eine Beschreibung hinzu. Diese Felder sind Pflichtfelder.
+1. Geben Sie einen Namen und eine Beschreibung ein. Dies sind Pflichtfelder.
 
-1. Sie können ein Start- und ein Enddatum definieren.
+1. Sie können ein Start- und Enddatum definieren.
 
    ![](../assets/lp_subscription-list-dates.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-In der Liste werden alle erstellten Abonnementlisten angezeigt. Sie können sie nach dem Erstellungsdatum oder Änderungsdatum und ihrem Status filtern.
+In der Liste werden alle erstellten Abonnementlisten angezeigt. Sie können sie nach dem Erstellungs- oder Änderungsdatum und ihrem Status filtern.
 
 ![](../assets/lp_subscription-filters.png)
 
 Folgende Status sind möglich:
 
-* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Tag liegt. Die abonnierten Profile erhalten noch keine Nachrichten zu dieser Abonnementliste.
-* **[!UICONTROL Live]**: Der aktuelle Tag besteht zwischen dem Start- und dem Enddatum der Abonnementliste oder Sie haben kein Enddatum/Startdatum definiert, was bedeutet, dass die Abonnementliste immer live ist.
-* **[!UICONTROL Abgelaufen]**: Das Enddatum wird übergeben, sodass die Abonnementliste nicht mehr gültig ist. An abonnierte Profile werden keine weiteren Mitteilungen zu dieser Abonnementliste gesendet.
+* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Datum liegt. Die abonnierten Profile erhalten noch keine Nachrichten, die für diese Abonnementliste bestimmt sind.
+* **[!UICONTROL Live]**: Das aktuelle Datum liegt zwischen dem Start- und dem Enddatum der Abonnementliste oder Sie haben kein Start-/Enddatum definiert, was bedeutet, dass die Abonnementliste immer live ist.
+* **[!UICONTROL Abgelaufen]**: Das Enddatum wurde überschritten, sodass die Abonnementliste nicht mehr gültig ist. Profile mit Abonnements erhalten keine weiteren Mitteilungen mehr, die für diese Abonnementliste bestimmt sind.
 
-Nachdem die Abonnementliste erstellt wurde, können Sie sie in einer Landingpage verwenden. Die Profile, die sich über das Landingpage-Formular anmelden, werden der Liste hinzugefügt. [Weitere Informationen](design-lp.md)
+Nachdem die Abonnementliste erstellt wurde, kann sie in einer Landingpage verwendet werden. Die Profile, die sich über das Landingpage-Formular anmelden, werden der Liste hinzugefügt. [Weitere Informationen](design-lp.md)
 
-Sie können Abonnementlisten auch als Segmente verwenden, wenn Sie [Journey bauen](../building-journeys/journey-gs.md#jo-build) und Personalisierung hinzufügen.
+Abonnementlisten können auch als Segmente verwendet werden, wenn [Journeys erstellt werden](../building-journeys/journey-gs.md#jo-build) und Personalisierung hinzugefügt wird.
 
 >[!NOTE]
 >
->Sie können die Auswirkungen Ihrer Abonnementliste über spezifische Berichte überwachen. [Weitere Informationen](subscription-report.md)
+>Die Wirkung von Abonnementlisten kann über spezifische Berichte überwacht werden. [Weitere Informationen](subscription-report.md)
 
 <!--
 
