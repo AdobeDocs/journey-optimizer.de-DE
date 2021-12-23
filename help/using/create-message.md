@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    * Geben Sie einen **[!UICONTROL Titel]** (obligatorisch) und eine **[!UICONTROL Beschreibung]** ein.
 
-   * Wählen Sie die **[!UICONTROL Nachrichtenkategorie]**: Marketing oder Transaktionsnachrichten.
+   * Wählen Sie die **[!UICONTROL Nachrichtenkategorie]**: Marketing oder Transaktionsnachricht.
 
    * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
