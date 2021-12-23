@@ -1,19 +1,19 @@
 ---
 product: Journey Optimizer
-title: Syntax
-description: Erfahren Sie mehr über den erweiterten Ausdruckseditor
+title: Aufbau
+description: Informationen zum erweiterten Ausdruckseditor
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Syntax des erweiterten Ausdruckseditors {#syntax}
+# Aufbau des erweiterten Ausdruckseditors {#syntax}
 
 ## Klammern und Priorität von Ausdrücken{#section_edf_fks_bgb}
 
