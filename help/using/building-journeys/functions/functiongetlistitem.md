@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '90'
 ht-degree: 100%
 
@@ -30,13 +30,13 @@ Liste
 | Parameter | Typ |
 |-----------|------------------|
 | list | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | index | integer |
 
 ## Signaturen und zurückgegebener Typ
