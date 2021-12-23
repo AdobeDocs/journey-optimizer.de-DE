@@ -3,9 +3,9 @@ title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2077'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,20 +13,20 @@ ht-degree: 95%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Sie können auch die [neuesten Aktualisierungen der Dokumentation](documentation-updates.md) einsehen.
 
-## Version November 2021
+## Version vom November 2021
 
 <table>
 <thead>
 <tr>
-<th><strong>CNAME-Subdomain-Zuweisung</strong><br/></th>
+<th><strong>CNAME-Subdomain-Delegierung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME oder Canonical Name-Datensatz ist ein Datensatz, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der Subdomain-Zuweisung von CNAME können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
-<p>Diese Methode wird empfohlen, wenn die Richtlinien Ihres Unternehmens die Methode der vollständigen Subdomain-Zuweisung einschränken.</p>
-<p>Erfahren Sie mehr über die Zuweisung von CNAME-Subdomains im <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">Detaillierte Dokumentation</a>.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME-Datensatz bzw. Datensatz mit kanonischem Namen ist ein Datensatz, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
+<p>Diese Methode wird empfohlen, wenn Ihre Unternehmensrichtlinien die vollständige Subdomain-Delegierung nicht erlauben.</p>
+<p>Weitere Informationen zur Delegierung von CNAME-Subdomains erhalten Sie in der <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -101,7 +101,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </table>
 
 
-Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target=&quot;_blank&quot;} für weitere Änderungen.
 
 ### Verbesserungen
 
@@ -185,7 +185,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](reports/sharing-overview.md)
 * Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](building-journeys/about-journey-activities.md#best-practices)
@@ -306,7 +306,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](action/about-custom-action-configuration.md#url-configuration)
@@ -383,7 +383,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Die Gesamteinschränkungsrate aller Segment-Lesen-Schritte, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](datasource/about-data-sources.md)
