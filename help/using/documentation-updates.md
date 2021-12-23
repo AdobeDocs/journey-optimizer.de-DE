@@ -3,9 +3,9 @@ title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## November 2021
 
-* Eine vollständige Beschreibung des in Journey verwendeten erweiterten Ausdruckseditors ist jetzt verfügbar. [Weitere Informationen](building-journeys/expression/expressionadvanced.md)
-* Neue Methode zur Zuweisung von CNAME-Subdomains. [Weitere Informationen](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Eine vollständige Beschreibung des in Journeys verwendeten erweiterten Ausdruckseditors ist jetzt verfügbar. [Weitere Informationen](building-journeys/expression/expressionadvanced.md)
+* Neue Methode zur Delegierung von CNAME-Subdomains. [Weitere Informationen](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Oktober 2021
 
