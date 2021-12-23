@@ -1,6 +1,6 @@
 ---
 title: Abonnementbericht
-description: Erfahren Sie, wie Sie Daten aus Ihren Anmeldediensten verwenden können.
+description: Erfahren Sie, wie Daten von den Abonnement-Services verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,21 +9,21 @@ hidefromtoc: true
 hide: true
 exl-id: f5a42c69-0384-442b-acf6-b3149be8b0da
 source-git-commit: 1a2c87866404201ea4693ed58efe302b83db9efa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Abonnementbericht {#subscription-report}
 
-Der Abonnementbericht zeigt Details zur Aktivität Ihrer Abonnenten an. Zwei Berichtstypen sind verfügbar:
+Der Abonnementbericht enthält Details zur Aktivität Ihrer Abonnenten. Zwei Berichtstypen sind verfügbar:
 
-* Die **[!UICONTROL Live-Bericht]** um die An- und Abmeldungen Ihrer Sendungen in den letzten 24 Stunden zu messen und zu visualisieren.
+* Der **[!UICONTROL Live-Bericht]**, um die An- und Abmeldungen Ihrer Sendungen in den letzten 24 Stunden zu messen und zu visualisieren.
 
-* Die **[!UICONTROL Gesamtbericht]** um die An- und Abmeldungen Ihrer Sendungen über einen ausgewählten Zeitraum zu messen und zu visualisieren.
+* Der **[!UICONTROL globale Bericht]**, um die An- und Abmeldungen Ihrer Sendungen über einen bestimmten Zeitraum zu messen und zu visualisieren.
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **Live** oder **[!UICONTROL Gesamtbericht]** im erweiterten Menü Ihrer ausgewählten Abonnementliste.
+Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnementliste **Live** oder **[!UICONTROL Globaler Bericht]** aus.
 
 ![](../assets/subscription_report_6.png)
 
@@ -31,30 +31,30 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **Live** oder **[!UICONTROL Gesamt
 
 ![](../assets/subscription_report_3.png)
 
-Die **[!UICONTROL Anmeldeleistung]** KPIs und die **[!UICONTROL Abonnements nach Journey]**/**[!UICONTROL Abmeldungen durch Journey]** -Tabellen enthalten die wichtigsten Informationen zur Interaktion der Besucher mit Ihrer Landingpage. Die Tabellen und KPIs enthalten die für Ihre Landingpage verfügbaren Daten, z. B.:
+Die KPIs **[!UICONTROL Abonnement-Performance]** und die Tabellen **[!UICONTROL Anmeldungen nach Journey]**/**[!UICONTROL Abmeldungen nach Journey]** enthalten die wichtigsten Informationen zur Interaktion der Besucher mit Ihrer Landingpage. Die Tabellen und KPIs enthalten die für die Landingpage verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Abonnements]**: Gesamtzahl der Anmeldungen in den letzten 24 Stunden.
+* **[!UICONTROL Anmeldungen]**: Gesamtzahl der Anmeldungen in den letzten 24 Stunden.
 
 * **[!UICONTROL Abmeldungen]**: Gesamtzahl der Abmeldungen in den letzten 24 Stunden.
 
-Die **[!UICONTROL Anmeldeleistung]** -Diagramm zeigt die Entwicklung der Abonnements in den letzten 24 Stunden.
+Das Diagramm **[!UICONTROL Abonnement-Performance]** zeigt die Entwicklung der Abonnements in den letzten 24 Stunden.
 
 ![](../assets/subscription_report_4.png)
 
-Die **Abonnements - Aufschlüsselung** und **Abmeldungen - Aufschlüsselung** -Diagramme geben die Gesamtzahl der Personen an, die sich in den letzten 24 Stunden angemeldet haben oder sich abgemeldet haben, je nach Nachricht, Landingpage und Kanal.
+Die Diagramme **Anmeldungen – Aufschlüsselung** und **Abmeldungen – Aufschlüsselung** geben die Gesamtzahl der Personen an, die sich je nach Nachricht, Landingpage und Kanal in den letzten 24 Stunden an- oder abgemeldet haben.
 
 ## Globaler Abonnementbericht {#subscription-global}
 
 ![](../assets/subscription_report_1.png)
 
-Die **[!UICONTROL Anmeldeleistung]** KPIs und die **[!UICONTROL Abonnements nach Journey]**/**[!UICONTROL Abmeldungen durch Journey]** -Tabellen enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihrer Landingpage. Die Tabellen und KPIs enthalten die für Ihre Landingpage verfügbaren Daten, z. B.:
+Die KPIs **[!UICONTROL Abonnement-Performance]** und die Tabellen **[!UICONTROL Anmeldungen nach Journey]**/**[!UICONTROL Abmeldungen nach Journey]** enthalten die wichtigsten Informationen zur Interaktion der Besucher mit Ihrer Landingpage. Die Tabellen und KPIs enthalten die für die Landingpage verfügbaren Daten, z. B.:
 
-* **[!UICONTROL Abonnements]**: Gesamtzahl der Anmeldungen für den betreffenden Zeitraum.
+* **[!UICONTROL Anmeldungen]**: Gesamtanzahl der Anmeldungen im betreffenden Zeitraum.
 
-* **[!UICONTROL Abmeldungen]**: Gesamtzahl der Abmeldungen für den betreffenden Zeitraum.
+* **[!UICONTROL Abmeldungen]**: Gesamtanzahl der Abmeldungen im betreffenden Zeitraum.
 
-Die **[!UICONTROL Anmeldeleistung]** -Diagramm zeigt die Entwicklung der Anmeldungen für den betroffenen Zeitraum.
+Das Diagramm **[!UICONTROL Abonnement-Performance]** zeigt die Entwicklung der Anmeldungen im betreffenden Zeitraum.
 
 ![](../assets/subscription_report_2.png)
 
-Die **Abonnements - Aufschlüsselung** und **Abmeldungen - Aufschlüsselung** die Gesamtzahl der Personen, die sich über den ausgewählten Zeitraum abgemeldet oder abgemeldet haben, in Abhängigkeit von Nachrichten, Landingpages und Kanälen.
+Die Diagramme **Anmeldungen – Aufschlüsselung** und **Abmeldungen – Aufschlüsselung** geben die Gesamtzahl der Personen an, die sich je nach Nachricht, Landingpage und Kanal im betreffenden Zeitraum an- oder abgemeldet haben.
