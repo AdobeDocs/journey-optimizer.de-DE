@@ -8,15 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren einer Aktion {#configure-an-action}
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass Journeys API-Aufrufe an ein Drittanbietersystem senden, konfigurieren Sie hier seine Verbindung zu Journeys. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [diese Seite](../building-journeys/about-journey-activities.md#action-activities). Im Folgenden finden Sie einige Beispiele für Systeme, mit denen Sie eine Verbindung mit benutzerdefinierten Aktionen herstellen können: Epsilon, Slack, Adobe.io, Firebase usw.
+Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass Journeys API-Aufrufe an ein Drittanbietersystem senden, konfigurieren Sie hier seine Verbindung zu Journeys. Die von technischen Anwendern definierte Aktion steht dann in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]** zur Verfügung (siehe [diese Seite](../building-journeys/about-journey-activities.md#action-activities). Mit den folgenden Systemen können Sie über benutzerdefinierte Aktionen eine Verbindung herstellen: Epsilon, Slack, Adobe.io, Firebase usw.
 
 Einschränkungen sind auf [dieser Seite](../limitations.md) aufgeführt.
 
