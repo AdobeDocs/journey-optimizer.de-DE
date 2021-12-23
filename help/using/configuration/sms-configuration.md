@@ -1,53 +1,53 @@
 ---
 title: SMS-Konfiguration
-description: Erfahren Sie, wie Sie Ihre Umgebung so konfigurieren, dass SMS-Nachrichten mit Journey Optimizer gesendet werden
+description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachrichten mit Journey Optimizer konfigurieren
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# SMS-Kanal konfigurieren {#sms-configuration}
+# Konfigurieren des SMS-Kanals {#sms-configuration}
 
 >[!CAUTION]
 >
-> Die Verwendung des SMS-Kanals ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Kundenbetreuer bei der Adobe.
+> Die Verwendung des SMS-Kanals ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Journeys zu erstellen und Nachrichten an eine ausgewählte Audience zu senden.
 
-## Erstellen neuer API-Anmeldedaten {#create-api}
+## Erstellen neuer API-Anmeldeinformationen {#create-api}
 
-Gehen Sie wie folgt vor, um Ihren SMS-Anbieter mit Journey Optimizer zu konfigurieren:
+Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfigurieren:
 
-1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL API-Anmeldeinformationen]** Menü und klicken Sie auf **[!UICONTROL API-Anmeldeinformationen erstellen]**.
+1. Gehen Sie in das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL API-Anmeldeinformationen]** und klicken Sie auf **[!UICONTROL API-Anmeldeinformationen erstellen]**.
 
    ![](../assets/sms_4.png)
 
-1. Wählen Sie Sinken als **[!UICONTROL SMS-Anbieter]**.
+1. Wählen Sie Sinch als **[!UICONTROL SMS-Anbieter]** aus.
 
-1. Geben Sie einen **[!UICONTROL Name]** für Ihre API-Anmeldedaten.
+1. Geben Sie einen **[!UICONTROL Namen]** für Ihre API-Anmeldeinformationen ein.
 
-1. Geben Sie Ihre **[!UICONTROL Dienst-ID]** und **[!UICONTROL API-Token]**.
+1. Geben Sie Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** ein.
 
    >[!NOTE]
    >
-   > Für Sinch sind spezielle API-Anmeldeinformationen erforderlich. Suchen Sie nach **[!UICONTROL Dienst-ID]** und **[!UICONTROL API-Token]**, greifen Sie über Ihr Einzelkonto auf das Menü SMS > APIs zu,
+   > Für Sinch sind spezielle API-Anmeldeinformationen erforderlich. Greifen Sie über Ihren Sinch-Account auf das Menü „SMS“ > „APIs“ zu, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
 
    ![](../assets/sms_5.png)
 
-1. Klicken **[!UICONTROL Einsenden]** als Sie die Konfiguration Ihrer API-Anmeldeinformationen abgeschlossen haben.
+1. Wenn Sie die Konfiguration Ihrer API-Anmeldeinformationen abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 
-Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Nachrichtenvorgabe für SMS-Nachrichten erstellen.
+Nachdem Sie Ihre API-Anmeldeinformationen erstellt und konfiguriert haben, müssen Sie jetzt eine Nachrichtenvoreinstellung für SMS-Nachrichten erstellen.
 
-## Nachrichtenvorgabe für SMS-Nachrichten erstellen {#message-preset-sms}
+## Erstellen einer Nachrichtenvoreinstellung für SMS-Nachrichten {#message-preset-sms}
 
-Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Nachrichtenvorgabe erstellen, über die Sie SMS-Nachrichten senden können **[!DNL Journey Optimizer]**.
+Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Nachrichtenvoreinstellung erstellen, um über **[!DNL Journey Optimizer]** SMS-Nachrichten senden zu können.
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
    ![](../assets/preset-create.png)
 
-1. Geben Sie einen Namen und eine Beschreibung (optional) für die Vorgabe ein und wählen Sie dann den SMS-Kanal aus.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Voreinstellung ein und wählen Sie dann den SMS-Kanal aus.
 
    ![](../assets/sms_preset.png)
 
@@ -63,17 +63,17 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren Sie die **SMS** -Einstellungen.
+1. Konfigurieren Sie die **SMS**-Einstellungen.
 
    ![](../assets/preset-sms.png)
 
-   * Wählen Sie die **[!UICONTROL SMS-Typ]** wird mit der Vorgabe gesendet: **[!UICONTROL Transactional]** oder **[!UICONTROL Marketing]**.
+   * Wählen Sie den **[!UICONTROL SMS-Typ]** aus, der mit der Voreinstellung gesendet werden soll: **[!UICONTROL Transaktionsnachricht]** oder **[!UICONTROL Marketing]**.
 
-   * Wählen Sie die **[!UICONTROL SMS-Konfiguration]** , um sie mit der Vorgabe zu verknüpfen.
+   * Wählen Sie die **[!UICONTROL SMS-Konfiguration]** aus, um sie mit der Voreinstellung zu verknüpfen.
 
-      Weiterführende Informationen zur Konfiguration der Umgebung für den Versand von SMS-Nachrichten finden Sie im Abschnitt [diesem Abschnitt](sms-configuration.md).
+      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](sms-configuration.md).
 
-   * Geben Sie die **[!UICONTROL Absendernummer]** &#x200B; Sie für Ihre Kommunikation verwenden möchten.
+   * Geben Sie die **[!UICONTROL Absendernummer]** ein, die Sie für Ihre Sendungen verwenden möchten.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
@@ -89,11 +89,11 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
    ![](../assets/preset-active.png)
 
-Informationen zum Konfigurieren einer Nachrichtenvorgabe für Push-Benachrichtigungen und E-Mails finden Sie unter [diesem Abschnitt](message-presets.md).
+Informationen zum Konfigurieren einer Nachrichtenvoreinstellung für Push-Benachrichtigungen und E-Mails finden Sie in [diesem Abschnitt](message-presets.md).
 
-Jetzt können Sie mit Journey Optimizer SMS-Nachrichten senden.
+Sie können jetzt mit Journey Optimizer SMS-Nachrichten senden.
 
 **Verwandte Themen**
 
-* [SMS erstellen](../create-sms.md)
+* [Erstellen einer SMS-Nachricht](../create-sms.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
