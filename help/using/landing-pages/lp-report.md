@@ -1,6 +1,6 @@
 ---
 title: Landingpage-Bericht
-description: Erfahren Sie, wie Sie Daten aus Ihren Landingpages verwenden können.
+description: Erfahren Sie, wie Daten aus den Landingpages verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,21 +9,21 @@ hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
 source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Landingpage-Bericht {#lp-report}
 
-Der Landingpage-Bericht zeigt Details zu den Auswirkungen Ihrer Landingpages an. Zwei Berichtstypen sind verfügbar:
+Der Landingpage-Bericht enthält Details zur Wirkung Ihrer Landingpages. Zwei Berichtstypen sind verfügbar:
 
-* Die **[!UICONTROL Live-Bericht]** , um den Erfolg Ihrer Landingpages in den letzten 24 Stunden zu messen und zu visualisieren.
+* Der **[!UICONTROL Live-Bericht]** misst und visualisiert den Erfolg der Landingpages in den letzten 24 Stunden.
 
-* Die **[!UICONTROL Gesamtbericht]** , um den Erfolg Ihrer Landingpages über einen ausgewählten Zeitraum zu messen und zu visualisieren.
+* Der **[!UICONTROL globale Bericht]** misst und visualisiert den Erfolg der Landingpages über einen bestimmten Zeitraum.
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **Live** oder **[!UICONTROL Gesamtbericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **Live** oder **[!UICONTROL Globaler Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](../assets/landing_page_report_1.png)
 
@@ -31,72 +31,72 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **Live** oder **[!UICONTROL Gesamt
 
 ![](../assets/landing_page_report_2.png)
 
-Die **[!UICONTROL Leistung der Landingpage]** -Widget beschreibt die wichtigsten Informationen, die in den letzten 24 Stunden über KPIs zu Ihrer Nachricht hinzugefügt wurden:
+Das Widget **[!UICONTROL Leistung der Landingpage]** zeigt die wichtigsten Informationen in Form von KPIs an, die in den letzten 24 Stunden zu Ihrer Nachricht erfasst wurden:
 
-* **[!UICONTROL Besuche insgesamt]**: Gesamtzahl der Besuche einer Journey oder aus anderen Quellen auf Ihrer Landingpage, einschließlich mehrerer Besuche eines Empfängers.
+* **[!UICONTROL Besuche insgesamt]**: Gesamtzahl der Besuche auf Ihrer Landingpage ausgehend von einer Journey oder anderen Quellen, einschließlich mehrerer Besuche eines Empfängers.
 
-* **[!UICONTROL Konversionen]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.
+* **[!UICONTROL Konversionen]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. ein Formular für ein Abonnement ausgefüllt haben.
 
 * **[!UICONTROL Bounces]**: Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.
 
-Die **[!UICONTROL Besuchsquellen]** -Widget gibt an, wie Besucher auf Ihre Landingpage zugreifen:
+Das Widget **[!UICONTROL Besuchsquellen]** gibt an, wie Besucher auf Ihre Landingpage zugreifen:
 
-* **[!UICONTROL Journey]**: Anzahl der Besuche auf Ihrer Landingpage von einer Journey.
+* **[!UICONTROL Journey(s)]**: Anzahl der Besuche auf einer Landingpage von einer Journey.
 
-* **[!UICONTROL Andere Quellen]**: Anzahl der Besuche auf Ihrer Landingpage von einer externen Quelle anstelle einer Journey.
+* **[!UICONTROL Andere Quellen]**: Anzahl der Besuche auf einer Landingpage von einer externen Quelle anstelle einer Journey.
 
-Die **[!UICONTROL Am häufigsten angeklickte Links]** identifiziert die Interaktion der Besucher mit der Landingpage:
+**[!UICONTROL Am häufigsten angeklickte Links]** beschreibt die Interaktion der Besucher mit der Landingpage:
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf der Landingpage.
 
-Die **[!UICONTROL Journey]** Widget stellt die Anzahl der Besuche auf Ihrer Landingpage von einer Journey dar.
+Das Widget **[!UICONTROL Journey(s)]** stellt die Anzahl der Besuche auf Ihrer Landingpage ausgehend von einer Journey dar.
 
-Die **[!UICONTROL Andere Quellen]** Widget stellt die Anzahl der Besuche auf Ihrer Landingpage von einer externen Quelle anstelle einer Journey dar.
+Das Widget **[!UICONTROL Andere Quellen]** stellt die Anzahl der Besuche auf einer Landingpage ausgehend von einer externen Quelle anstelle einer Journey dar.
 
 ![](../assets/landing_page_report_3.png)
 
-Die **[!UICONTROL Besuche nach Nachrichten]** / **[!UICONTROL Konvertierung nach Nachrichten]** -Diagramme geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach den gesendeten Nachrichten erfolgreich mit Ihrer Landingpage interagiert haben.
+Die Diagramme **[!UICONTROL Besuche nach Nachrichten]** / **[!UICONTROL Konversionen nach Nachrichten]** geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach den gesendeten Nachrichten erfolgreich mit Ihrer Landingpage interagiert haben.
 
-Die **[!UICONTROL Besuche nach Kanälen]** / **[!UICONTROL Konversionen nach Kanälen]** -Diagramme geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
+Die Diagramme **[!UICONTROL Besuche nach Kanälen]** / **[!UICONTROL Konversionen nach Kanälen]** geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
 
 ## Globaler Landingpage-Bericht {#lp-global}
 
 ![](../assets/landing_page_report_4.png)
 
-Die **[!UICONTROL Anzahl der Besuche]** und **[!UICONTROL Anzahl der Besuche im Zeitverlauf]** -Widgets ermöglichen es Ihnen, die Auswirkungen Ihrer Landingpage über den ausgewählten Zeitraum durch ein Diagramm und KPIs mit den folgenden Metriken zu sehen:
+Die Widgets **[!UICONTROL Anzahl der Besuche]** und **[!UICONTROL Anzahl der Besuche im Zeitverlauf]** stellen die Wirkung Ihrer Landingpage über den ausgewählten Zeitraum mithilfe eines Diagramms und KPIs mit den folgenden Metriken dar:
 
-* **[!UICONTROL Besuche insgesamt]**: Gesamtzahl der Besuche auf Ihrer Landingpage von Journey und externen Quellen, einschließlich mehrerer Besuche eines Empfängers.
+* **[!UICONTROL Besuche insgesamt]**: Gesamtzahl der Besuche auf Ihrer Landingpage ausgehend von Journeys und externen Quellen, einschließlich mehrerer Besuche eines Empfängers.
 
-* **[!UICONTROL Unique Visitors]**: Anzahl der Personen, die Ihre Landingpage besucht haben, mehrere Besuche eines Empfängers werden nicht berücksichtigt.
+* **[!UICONTROL Unique Visitors]**: Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrere Besuche eines Empfängers nicht berücksichtigt werden.
 
-Die **[!UICONTROL Leistung der Landingpage]** Widget erläutert die wichtigsten Informationen bezüglich Ihrer Nachricht über KPIs:
+Das Widget **[!UICONTROL Leistung der Landingpage]** stellt anhand von KPIs die wichtigsten Informationen bezüglich Ihrer Nachricht dar:
 
-* **[!UICONTROL Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich für ein Formular angemeldet haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich über ein Formular angemeldet haben, bezogen auf die Gesamtzahl der Besuche.
 
-* **[!UICONTROL Absprungrate]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, in Bezug auf die Gesamtzahl der Besuche.
+* **[!UICONTROL Absprungrate]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, bezogen auf die Gesamtzahl der Besuche.
 
 ![](../assets/landing_page_report_5.png)
 
-Die **[!UICONTROL Besuchsquellen]** -Widget gibt an, wie Besucher auf Ihre Landingpage zugreifen:
+Das Widget **[!UICONTROL Besuchsquellen]** gibt an, wie Besucher auf Ihre Landingpage zugreifen:
 
-* **[!UICONTROL Journey]**: Anzahl der Besuche auf Ihrer Landingpage von einer Journey.
+* **[!UICONTROL Journey]**: Anzahl der Besuche auf Ihrer Landingpage ausgehend von einer Journey.
 
-* **[!UICONTROL Andere Quellen]**: Anzahl der Besuche auf Ihrer Landingpage von einer externen Quelle anstelle einer Journey.
+* **[!UICONTROL Andere Quellen]**: Anzahl der Besuche auf Ihrer Landingpage ausgehend von einer externen Quelle anstelle einer Journey.
 
-Die **[!UICONTROL Am häufigsten angeklickte Links]** identifiziert die Interaktion der Besucher mit dem Versand:
+**[!UICONTROL Am häufigsten angeklickte Links]** identifiziert die Interaktion der Besucher mit dem Versand:
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt auf der Landingpage.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks auf die Landingpage
+* **[!UICONTROL Klickrate]**: Prozentsatz der Klicks auf die Landingpage.
 
-Die **[!UICONTROL Journey]** Widget stellt die Anzahl der Besuche auf Ihrer Landingpage von einer Journey dar:
+Das Widget **[!UICONTROL Journey(s)]** stellt die Anzahl der Besuche auf einer Landingpage ausgehend von einer Journey dar:
 
-* **[!UICONTROL Besuche]**: Anzahl der Besuche auf Ihrer Landingpage, einschließlich mehrerer Besuche eines Empfängers.
+* **[!UICONTROL Besuche]**: Anzahl der Besuche auf einer Landingpage, einschließlich mehrerer Besuche eines Empfängers.
 
-Die **[!UICONTROL Andere Quellen]** Widget stellt die Anzahl der Besuche auf Ihrer Landingpage von einer externen Quelle anstelle einer Journey dar.
+Das Widget **[!UICONTROL Andere Quellen]** stellt die Anzahl der Besuche auf einer Landingpage ausgehend von einer externen Quelle anstelle einer Journey dar.
 
 ![](../assets/landing_page_report_6.png)
 
-Die **[!UICONTROL Besuche nach Nachrichten]** / **[!UICONTROL Konvertierung nach Nachrichten]** -Diagramme stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach den gesendeten Nachrichten erfolgreich mit Ihrer Landingpage interagiert haben.
+Die Diagramme **[!UICONTROL Besuche nach Nachrichten]**/**[!UICONTROL Konversionen nach Nachrichten]** stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach den gesendeten Nachrichten erfolgreich mit Ihrer Landingpage interagiert haben.
 
-Die **[!UICONTROL Besuche nach Kanälen]** / **[!UICONTROL Konversionen nach Kanälen]** -Diagramme stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
+Die Diagramme **[!UICONTROL Besuche nach Kanälen]**/**[!UICONTROL Konversionen nach Kanälen]** stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
