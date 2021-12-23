@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unterschiedliche Arten von Traffic (z. B. Marketing-bezogenen vs. betrieblichen) in eigene IP-Pools mit eigenen Domains zu unterteilen, wodurch der IP-Warming-Prozess beschleunigt und die Zustellbarkeit insgesamt verbessert werden kann. Wenn Sie eine einzige Domain für alle Aufgaben verwenden und diese gesperrt oder zur Blockierungsliste hinzugefügt wird, könnte dies Auswirkungen auf die Zustellung Ihrer betrieblichen E-Mails haben. Probleme mit der Reputation oder die Blockierung einer Domain, die nur für Ihre E-Mail-Marketing-Kommunikation verwendet sind, beeinträchtigen hingegen ausschließlich diesen E-Mail-Verkehr. Wenn Sie Ihre Haupt-Domain als Absenderadresse für mehrere E-Mail-Arten verwenden, kann dies auch die E-Mail-Authentifizierung behindern und dazu führen, dass Ihre Nachrichten blockiert oder in den Spam-Ordner verschoben werden.
 
-## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
+## Warum sollten Subdomains eingerichtet werden? {#why-setting-up-subdomains}
 
 Sie können Ihre Domain in Subdomains unterteilen, um Ihre Marken oder unterschiedlichen Textsorten wie etwa Transaktionsnachrichten und Marketing-Informationen voreinander zu trennen.
 
@@ -42,13 +42,13 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 
 ## Methoden der Subdomain-Konfiguration {#subdomain-delegation-methods}
 
-Mit der Subdomain-Konfiguration können Sie einen Unterabschnitt Ihrer Domain (technisch eine &quot;DNS-Zone&quot;) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
+Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (technisch gesehen eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
 
-* **Vollständige Subdomain-Zuweisung an Adobe** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann alle DNS-Aspekte steuern und verwalten, die für die Zustellung, das Rendering und die Verfolgung von Nachrichten erforderlich sind. [Erfahren Sie mehr über die vollständige Subdomain-Zuweisung](delegate-subdomain.md#full-subdomain-delegation)
+* **Vollständige Subdomain-Delegierung an Adobe** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann alle DNS-Aspekte steuern und verwalten, die für die Zustellung, das Rendering und das Tracking von Nachrichten erforderlich sind. [Weitere Informationen zur vollständigen Subdomain-Delegierung](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Verwenden von CNAME**: Erstellen Sie eine Subdomain und verwenden Sie CNAME, um auf Adobe-spezifische Einträge zu verweisen. Mit diesem Setup sind sowohl Sie als auch die Adobe für die Pflege des DNS verantwortlich. [Weitere Informationen zur Zuweisung von CNAME-Subdomains](delegate-subdomain.md#cname-subdomain-delegation)
+* **Verwenden von CNAMEs**: Erstellen einer Subdomain und Verwenden von CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Einrichtung sind Sie und Adobe gemeinsam für die Wartung des DNS verantwortlich. [Weitere Informationen zur Delegierung von CNAME-Subdomains](delegate-subdomain.md#cname-subdomain-delegation)
 
-Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
+Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
 | Konfigurationsmethode | Funktionsweise | Aufwand |
 |---|---|---|
@@ -57,4 +57,4 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 
 Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=de).
 
-Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Konfiguration an die Adobe oder an die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
+Bei Fragen zu den Methoden der Subdomain-Konfiguration wenden Sie sich an Adobe oder die Kundenunterstützung, um eine Beratung zur Zustellbarkeit anzufordern.
