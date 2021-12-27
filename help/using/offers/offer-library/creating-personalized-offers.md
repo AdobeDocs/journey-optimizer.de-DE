@@ -161,6 +161,7 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
       >[!CAUTION]
       >
       >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
+      
    Weitere Informationen zur Verwendung von Segmenten versus Entscheidungsregeln finden Sie in [diesem Abschnitt](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Definieren Sie die **[!UICONTROL Priorität]** des Angebots gegenüber anderen, wenn der Benutzer für mehr als ein Angebot geeignet ist. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten.
