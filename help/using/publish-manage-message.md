@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,17 @@ Nachdem die Nachricht erstellt wurde, können Sie diese veröffentlichen, um sie
 
 >[!CAUTION]
 >
->Prüfen und lösen Sie Warnhinweise vor der Veröffentlichung. [Weitere Informationen](alerts.md)
+>Prüfen und beseitigen Sie Warnhinweise vor der Veröffentlichung. [Weitere Informationen](alerts.md)
 
 ![](assets/publish-message.png)
 
 Sobald die Nachricht veröffentlicht wurde, wird sie der Liste mit dem Status **[!UICONTROL Veröffentlicht]** hinzugefügt.
 
 Nun kann sie von einer oder mehreren [Journeys](building-journeys/journey.md) ausgelöst werden.
+
+>[!NOTE]
+>
+>Wenn Sie ein Angebot, Fallback-Angebot, eine Angebotskollektion oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in einer veröffentlichten Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht widergespiegelt, ohne dass sie erneut veröffentlicht werden müssen. [Weitere Informationen zu Angeboten](offers/get-started/starting-offer-decisioning.md)
 
 ## Aktualisieren einer schreibgeschützten Nachricht {#modify-message}
 

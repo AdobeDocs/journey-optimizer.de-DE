@@ -6,9 +6,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: c86c9121e601f0c208626f578e923e7d30adc9c4
-workflow-type: ht
-source-wordcount: '414'
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -88,8 +88,6 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    ![](../assets/preset-active.png)
-
-Informationen zum Konfigurieren einer Nachrichtenvoreinstellung für Push-Benachrichtigungen und E-Mails finden Sie in [diesem Abschnitt](message-presets.md).
 
 Sie können jetzt mit Journey Optimizer SMS-Nachrichten senden.
 

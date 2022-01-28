@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1ba8d8cd6b95d7a0dfa50096f1a1f64909fe8d17
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1571'
 ht-degree: 100%
 
 ---
@@ -181,7 +181,6 @@ Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
 >abstract="Mit Email Designer können Sie die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass das Hintergrundbild nicht von allen E-Mail-Programmen unterstützt wird."
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Zusätzliche Informationen"
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 

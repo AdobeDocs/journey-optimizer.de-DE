@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 100%
       + [Objektfunktionen](using/personalization/functions/objects.md)
       + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
    + [Hinzufügen personalisierter Angebote](using/deliver-personalized-offers.md)
-+ Segmente, Profile und Identität{#segment}
++ Segmente, Profile und Identitäten{#segment}
    + Segmente {#segments}
       + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
       + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
    + [Profile](using/get-started-profiles.md)
-   + [Identität](using/get-started-identity.md)
+   + [Identitäten](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [Sendungen vorantreiben](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/message-monitoring.md)
    + Live-Bericht {#live-report}

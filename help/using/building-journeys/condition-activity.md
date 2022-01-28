@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
-workflow-type: ht
-source-wordcount: '1013'
-ht-degree: 100%
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,7 @@ Die folgenden Bedingungstypen stehen zur Verfügung:
 * [Bedingung für die Uhrzeit](#time_condition)
 * [Prozentuale Aufspaltung](#percentage_split)
 * [Bedingung für das Datum](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [Profilbegrenzung](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss 
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## Profilbegrenzung {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreiten.
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+Mit diesem Bedingungstyp kann das Volumen Ihrer Sendungen erhöht werden. Siehe diesen [Anwendungsfall](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+Die Standardbegrenzung ist 1.000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nach einem Monat auf null zurückgesetzt. Nach dem Zurücksetzen folgen die eintretenden Profile erneut dem nominalen Pfad, bis die Zählergrenze erreicht ist.
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alternativen Pfad über den nominalen Pfad auf der Journey-Arbeitsfläche verschoben wird.
+
+Für lebende Journey sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
+
+* Bei einer Obergrenze von mehr als 10000 muss die Anzahl unterschiedlicher Profile, die injiziert werden sollen, mindestens dem 1,3-fachen der Obergrenze entsprechen.
+* Bei einer Obergrenze unter 10000 muss die Anzahl der verschiedenen zu injizierenden Profile 1000 plus der Kappe betragen.
+
+Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## Verwenden von Segmenten in Bedingungen {#using-a-segment}
 

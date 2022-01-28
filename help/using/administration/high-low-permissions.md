@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 55%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 100%
 Jedes Produktprofil besteht aus Berechtigungen, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: beinhalten die verschiedenen Berechtigungen, die **[!UICONTROL Produktprofilen]** in [!DNL Admin console] zugewiesen werden können, z. B. **[!UICONTROL Veröffentlichen von Journeys]** und **[!UICONTROL Verwalten der Subdomain-Zuweisung]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
+* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die zugewiesen werden können **[!UICONTROL Produktprofil]** im [!DNL Admin console], z. B. **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
 
 * **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
-Beispielsweise wird dem Produktprofil **[!UICONTROL Journey-Administrator]** die Berechtigung **[!UICONTROL Journey verwalten]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
+Beispiel: die **[!DNL Journey administrator]** dem Produktprofil wird die **[!DNL Manage journeys]** Berechtigung. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 
 ## Journey-Funktion {#journey-capability}
 
-### Berechtigung zum Verwalten von Journeys {#manage-journeys}
+### [!DNL Manage journeys] Berechtigung {#manage-journeys}
 
-Die Berechtigung **[!UICONTROL Journeys verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener Journeys sowie den Zugriff auf die Objekte, die in der Journey-Arbeitsfläche zum Erstellen des Journey Flow verwendet werden.
+Die **[!DNL Manage journeys]** Die Berechtigung auf hoher Ebene ermöglicht es Benutzern, neue Journey zu erstellen und bestehende zu bearbeiten/zu löschen sowie auf die Objekte zuzugreifen, die in der Journey-Arbeitsfläche zum Erstellen des Journey-Flusses verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -58,9 +58,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * schemas.read
 
-### Berechtigung zum Veröffentlichen von Journeys {#publish-journeys}
+### [!DNL Publish journeys] Berechtigung {#publish-journeys}
 
-Mit der Berechtigung **[!UICONTROL Journeys veröffentlichen]** auf hoher Ebene können Benutzer Journeys veröffentlichen.
+Die **[!DNL Publish journeys]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, Journey zu veröffentlichen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -68,9 +68,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * journeys.publish
    * journeys.read
 
-### Berechtigung zum Anzeigen von Journeys {#view-journeys}
+### [!DNL View journeys] Berechtigung {#view-journeys}
 
-Die Berechtigung **[!UICONTROL Journeys anzeigen]** auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journeys.
+Die **[!DNL View journeys]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journey.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -81,9 +81,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * segments.read
    * profiles.read
 
-### Berechtigung zur Verwaltung von Journey-Ereignissen, Datenquellen und Aktionen {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] Berechtigung {#manage-journeys-events}
 
-Mit der Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen verwalten]** auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen vornehmen.
+Die **[!DNL Manage journeys events, data sources and actions]** Mit Berechtigungen auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen konfigurieren.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -97,14 +97,15 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * journeys_actions.read
    * journeys_actions.write
    * journeys_actions.delete
+
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Berechtigung zum Anzeigen von Journey-Ereignissen, Datenquellen und Aktionen {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] Berechtigung {#view-journeys-event}
 
-Die Berechtigung **[!UICONTROL Journey-Ereignisse, Datenquellen und Aktionen anzeigen]** auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey Flow.
+Die **[!DNL View journeys events, data sources and actions]** -Berechtigung auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey-Fluss.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -118,9 +119,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * identity_namespace.read
 
-### Berechtigung zur Ansicht von Journey-Berichten {#view-journeys-report}
+### [!DNL View journeys report] Berechtigung {#view-journeys-report}
 
-Mit der Berechtigung **[!UICONTROL Journey-Bericht anzeigen]** auf hoher Ebene können sich Benutzer einen schreibgeschützten Journey-Bericht ansehen.
+Die **[!DNL View journeys report]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, schreibgeschützten Journey-Bericht zu erstellen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -136,9 +137,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Nachrichtenfunktionen {#message-capability}
 
-### Berechtigung zur Verwaltung von Nachrichten {#manage-messages}
+### [!DNL Manage messages] Berechtigung {#manage-messages}
 
-Mit der Berechtigung **[!UICONTROL Nachrichten verwalten]** auf hoher Ebene können Benutzer Nachrichten erstellen und bearbeiten/löschen.
+Die **[!DNL Manage messages]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Erstellen und Bearbeiten und Löschen von Nachrichten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -152,9 +153,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * segments.read
    * schemas.read
 
-### Berechtigung zum Verwalten der Nachrichtenvorschau und von Tests {#mange-messages-preview}
+### [!DNL Manage messages preview and test] Berechtigung {#mange-messages-preview}
 
-Die Berechtigung **[!UICONTROL Vorschau und Tests von Nachrichten verwalten]** auf hoher Ebene ermöglicht Benutzern die Vorschau von personalisierten Nachrichten.
+Die **[!DNL Manage messages preview and test]** -Berechtigung auf hoher Ebene ermöglicht Benutzern die Vorschau einer personalisierten Nachricht.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -174,9 +175,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * queries.write
    * merge_policies.read
 
-### Berechtigung zum Veröffentlichen von Nachrichten {#publish-messages}
+### [!DNL Publish messages] Berechtigung {#publish-messages}
 
-Mit der Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** auf hoher Ebene können Benutzer Nachrichten veröffentlichen.
+Die **[!DNL Publish messages]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Veröffentlichen von Nachrichten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -188,9 +189,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * schemas.read
    * datasets.read
 
-### Berechtigung zum Anzeigen von Nachrichten {#view-messages}
+### [!DNL View messages] Berechtigung {#view-messages}
 
-Mit der Berechtigung **[!UICONTROL Nachrichten anzeigen]** auf hoher Ebene können Benutzer nur Nachrichten lesen.
+Die **[!DNL View messages]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, nur Nachrichten zu lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -202,9 +203,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * schemas.read
    * segments.read
 
-### Berechtigung zum Anzeigen von Nachrichtenberichten {#view-message-reports}
+### [!DNL View messages report] Berechtigung {#view-message-reports}
 
-Mit der Berechtigung **[!UICONTROL Nachrichtenbericht anzeigen]** auf hoher Ebene können Benutzer schreibgeschützte E-Mail- und Push-Berichte lesen.
+Die **[!DNL View messages report]** Mit allgemeinen Berechtigungen können Benutzer schreibgeschützte E-Mail- und Push-Berichte erstellen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -216,15 +217,15 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * queries.delete
    * journey.read
 
-## Entscheidungsverwaltungsfunktion {#decisions-permissions}
+## Entscheidungs-management-funktion {#decisions-permissions}
 
-### Berechtigung zum Verwalten von Entscheidungen {#manage-decisioning}
+### [!DNL Manage decisions] Berechtigung {#manage-decisioning}
 
-Die Berechtigung **[!UICONTROL Entscheidungen verwalten]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener **[!UICONTROL Aktivitätsentitäten]** sowie das Verwalten der Objekte, die in diesen Aktivitäten zur Entscheidungsfindung verwendet werden.
+Die **[!DNL Manage decisions]** Berechtigung auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und Bearbeiten/Löschen vorhandener **[!DNL Activity entities]** und verwalten die Objekte, die in diesen Aktivitäten für die Entscheidungsfindung verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisch für die Entscheidungsverwaltung:
+* Spezifisch für das Entscheidungs-Management:
    * activities.read
    * activities.write
    * activities.delete
@@ -244,13 +245,13 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profile.read
    * segments.read
 
-### Berechtigung zum Anzeigen von Entscheidungen {#view-decisions}
+### [!DNL View decisions] Berechtigung {#view-decisions}
 
-Mit der Berechtigung **[!UICONTROL Entscheidungen anzeigen]** auf hoher Ebene können Benutzer eine vorhandene Aktivität und zugehörige Geschäftsobjekte verwenden, um Entscheidungen zu treffen.
+Die **[!DNL View decisions]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, eine vorhandene Aktivität und verwandte Geschäftsobjekte zu verwenden, um Entscheidungen zu treffen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisch für die Entscheidungsverwaltung:
+* Spezifisch für das Entscheidungs-Management:
    * activities.read
    * offers.read
    * placements.read
@@ -263,13 +264,13 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.write
    * datasets.delete
 
-### Berechtigung zur Veröffentlichung von Angebotsentscheidungen {#publish-decisions}
+### [!DNL Publish offers decisioning] Berechtigung {#publish-decisions}
 
-Die Berechtigung **[!UICONTROL Angebotsentscheidung veröffentlichen]** auf hoher Ebene ermöglicht es Benutzern, Angebotsaktivitäten zu genehmigen bzw. deren Genehmigung zurückzunehmen.
+Die **[!DNL Publish offers decisioning]** -Berechtigung auf hoher Ebene ermöglicht Benutzern den Zugriff auf die Genehmigung/Aufhebung der Genehmigung von Angebotsaktivitäten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisch für die Entscheidungsverwaltung:
+* Spezifisch für das Entscheidungs-Management:
    * offers_activity.read
    * offers.read
    * offers.write
@@ -285,13 +286,13 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * profiles.read
 
-### Berechtigung zur Verwaltung von Rangfolgestrategien {#manage-decisions}
+### [!DNL Manage ranking strategies] Berechtigung {#manage-decisions}
 
-Mit der Berechtigung **[!UICONTROL Ranking-Strategien verwalten]** auf hoher Ebene können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
+Die **[!DNL Manage ranking strategies]** Mit allgemeinen Berechtigungen können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisch für die Entscheidungsverwaltung:
+* Spezifisch für das Entscheidungs-Management:
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -301,9 +302,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Verwaltungsfunktionen {#administration-permissions}
 
-### Berechtigung zur Verwaltung von Subdomain-Zuweisungen {#manage-subdomain}
+### [!DNL Manage subdomains delegation] Berechtigung {#manage-subdomain}
 
-Mit der Berechtigung **[!UICONTROL Zuweisung von Subdomains verwalten]** auf hoher Ebene können Benutzer die Zuweisung von Subdomains (einschließlich IP-Pool) erstellen, bearbeiten und löschen.
+Die **[!DNL Manage subdomains delegation]** Mit einer allgemeinen Berechtigung können Benutzer Subdomain-Delegationen erstellen, bearbeiten und löschen (einschließlich IP-Pool).
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -311,18 +312,28 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### Berechtigung zum Anzeigen von PTR-Datensätzen {#view-ptr}
+### [!DNL Manage PTR records] Berechtigung {#manage-ptr}
 
-Die Berechtigung **[!UICONTROL PTR-Einträge anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von PTR-Einträgen, die basierend auf der Subdomain konfiguriert wurden.
+Die **[!DNL Manage PTR records]** Mit allgemeinen Berechtigungen können Benutzer PTR-Einträge, die basierend auf der Subdomain konfiguriert wurden, lesen, erstellen, bearbeiten und löschen.
+
+Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+
+* PTR_records.read
+* PTR_records.write
+* subdomains_delegation.read
+
+### [!DNL View PTR records] Berechtigung {#view-ptr}
+
+Die **[!DNL View PTR records]** Mit einer allgemeinen Berechtigung können Benutzer PTR-Datensätze anzeigen, die basierend auf der Subdomain konfiguriert wurden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### Berechtigung zur Verwaltung von IP-Pools {#manage-ip-pools}
+### [!DNL Manage IP pools] Berechtigung {#manage-ip-pools}
 
-Mit der Berechtigung **[!UICONTROL IP-Pools verwalten]** auf hoher Ebene können Benutzer eine Affinitätsdefinition erstellen, bearbeiten und löschen.
+Die **[!DNL Manage IP pools]** Mit Berechtigung auf hoher Ebene können Benutzer die Affinitätsdefinition erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -330,9 +341,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.write
 * IP_pools.delete
 
-### Berechtigung zur Verwaltung der allgemeinen Einstellungen von Nachrichten {#manage-message-settings}
+### [!DNL Manage messages general settings] Berechtigung {#manage-message-settings}
 
-Mit der Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten verwalten]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Die **[!DNL Manage messages general settings]** Mit Berechtigungen auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -343,9 +354,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### Berechtigung zum Anzeigen der allgemeinen Einstellungen von Nachrichten {#view-message-settings}
+### [!DNL View messages general settings] Berechtigung {#view-message-settings}
 
-Die Berechtigung **[!UICONTROL Allgemeine Einstellungen von Nachrichten anzeigen]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Ausführungsadressen.
+Die **[!DNL View messages general settings]** -Berechtigung auf hoher Ebene ermöglicht Benutzern, allgemeine Einstellungen für Nachrichten wie die Ausführungsadresse anzuzeigen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -354,9 +365,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### Berechtigung zur Verwaltung von Nachrichtenvoreinstellungen {#manage-message-presets}
+### [!DNL Manage messages presets] Berechtigung {#manage-message-presets}
 
-Die Berechtigung **[!UICONTROL Nachrichtenvoreinstellungen verwalten]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvorgaben über Kanäle hinweg auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
+Die **[!DNL Manage messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Nachrichtenvorgaben kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -368,20 +379,20 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung zur Anzeige von Nachrichtenvoreinstellungen {#view-message-presets}
+### [!DNL View messages presets] Berechtigung {#view-message-presets}
 
-Mit der Berechtigung **[!UICONTROL Nachrichtenvorgaben anzeigen]** auf hoher Ebene können Benutzer Nachrichtenvorgaben anzeigen, um zu erfahren, welche Nachrichtenvorgaben beim Erstellen einer Nachricht verwendet werden sollen.
+Die **[!DNL View messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Nachrichtenvorgaben anzeigen, um zu erfahren, welche Nachrichtenvorgaben beim Erstellen einer Nachricht verwendet werden sollen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (aus Adobe Experience Platform Launch)
+* mobile_setting.read (aus der Adobe Experience Platform-Datenerfassung)
 
-### Berechtigung zum Verwalten der Unterdrückung {#manage-suppression}
+### [!DNL Manage suppression] Berechtigung {#manage-suppression}
 
-Mit der Berechtigung **[!UICONTROL Unterdrückung verwalten]** auf hoher Ebene können Benutzer die Anzahl der Bounces definieren, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
+Die **[!DNL Manage suppression]** Mit einer allgemeinen Berechtigung können Benutzer die Anzahl der Bounces definieren, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -391,26 +402,28 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * suppression_list.write
 * suppression_list.delete
 
-### Berechtigung zum Anzeigen der Unterdrückungsliste {#view-suppresion-list}
+### [!DNL View suppression list] Berechtigung {#view-suppression-list}
 
-Mit der Berechtigung **[!UICONTROL Unterdrückungsliste anzeigen]** auf hoher Ebene können Benutzer den Inhalt und die Einstellungen der Unterdrückungsliste anzeigen.
+Die **[!DNL View suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, den Inhalt und die Einstellungen der Unterdrückungsliste anzuzeigen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
    * suppression_list.view
+
 * Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### Berechtigung zum Exportieren der Unterdrückungsliste {#export-suppression-list}
+### [!DNL Export suppression list] Berechtigung {#export-suppression-list}
 
-Mit der Berechtigung **[!UICONTROL Export-Unterdrückungsliste]** auf hoher Ebene können Benutzer die Unterdrückungsliste als CSV-Datei herunterladen.
+Die **[!DNL Export suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, die Unterdrückungsliste als CSV-Datei herunterzuladen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
    * suppression_list.export
+
 * Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read

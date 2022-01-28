@@ -6,10 +6,10 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ Bei Bedarf können Sie auch ein neues Produktprofil mit bestimmten Berechtigunge
 
 Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}.
 
-In diesem Beispiel erstellen wir ein Produktprofil mit dem Namen **Journeys nur lesen**, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzer können nur auf Journeys zugreifen und diese anzeigen und nicht auf andere Funktionen wie **[!UICONTROL Entscheidungs-Management]** oder **[!UICONTROL Nachrichten]** in [!DNL Journey Optimizer] zugreifen.
+In diesem Beispiel erstellen wir ein Produktprofil mit dem Namen **Journeys nur lesen**, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzer können nur auf Journey zugreifen und diese anzeigen und können nicht auf andere Funktionen wie **[!DNL  Decision management]** oder **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
@@ -125,7 +125,7 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
 1. Um Benutzern Berechtigungen für den Zugriff auf verschiedene Funktionen hinzuzufügen, wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
-1. Wählen Sie zwischen den verschiedenen Funktionen wie **[!UICONTROL Nachrichten]**, **[!UICONTROL Segmente]** oder **[!UICONTROL Entscheidungs-Management]** aus, die in [!DNL Journey Optimizer] im Menü links verfügbar sind.
+1. Wählen Sie zwischen den verschiedenen Funktionen wie **[!DNL Messages]**, **[!DNL Segments]** oder **[!DNL Decision management]** verfügbar unter [!DNL Journey Optimizer] im Menü auf der linken Seite.
 
    Hier wählen wir die Funktion **[!UICONTROL Journeys]** aus.
 
@@ -133,7 +133,7 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
 1. Wählen Sie in der Liste **[!UICONTROL Verfügbare Berechtigungselemente]** die Berechtigungen aus, die Sie Ihrem **[!UICONTROL Produktprofil]** zuweisen möchten, indem Sie auf das Plussymbol (+) klicken.
 
-   Hier wählen wir **[!UICONTROL Journeys anzeigen]** und **[!UICONTROL Ereignisse, Datenquellen, Aktionen für Journeys anzeigen]** aus.
+   Hier wählen wir **[!DNL View journeys]** und **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

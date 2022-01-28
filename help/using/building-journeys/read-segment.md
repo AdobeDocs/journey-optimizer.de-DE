@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
+source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1075'
+ht-degree: 96%
 
 ---
 
@@ -77,6 +77,27 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](../assets/read-segment-schedule-list.png)
 
+   Die **Inkrementelles Lesen** -Option können Sie nur Kontakte auswählen, die das Segment seit der letzten Ausführung der Journey aufgerufen haben. Die erste Ausführung zielt immer auf alle Segmentmitglieder ab. Diese Option ist nur für wiederkehrende **Segment lesen** Aktivitäten.
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
 Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie die Journey entweder auf einem unitären Profil oder auf 100 Testprofilen testen, die per Zufallsauswahl aus den für das Segment qualifizierten Profilen entnommen werden.
@@ -102,7 +123,6 @@ Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen
 >[!NOTE]
 >
 >Bei segmentbasierten, wiederkehrenden Journeys wird die Journey automatisch nach der letztmaligen Ausführung geschlossen. Wenn kein Enddatum/keine Endzeit angegeben wurde, müssen Sie die Journey manuell für neue Eintritte schließen, um sie zu beenden.
-
 
 ## Zielgruppenbestimmung bei segmentbasierten Journeys
 

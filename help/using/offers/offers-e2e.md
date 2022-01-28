@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
-workflow-type: ht
-source-wordcount: '1338'
-ht-degree: 100%
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,8 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Erstellen von Platzierungen
    * Erstellen von Entscheidungsregeln
    * Erstellen von Tags
-   * Rangfolge erstellen (optional)
+   * Ranking erstellen (optional)
+
 
 1. [Angebote konfigurieren](#configure-offers)
 
@@ -46,7 +47,8 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Erstellen Sie eine Entscheidung.
    * Wählen sie die von Ihnen erstellten Platzierungen aus.
    * Wählen Sie für jede Platzierung die Kollektion aus.
-   * Wählen Sie für jede Platzierung einen Rang aus (optional).
+   * Wählen Sie für jede Platzierung ein Ranking aus (optional).
+
    * Wählen Sie das Fallback-Angebot aus.
 
 1. [Fügen Sie die Entscheidung in eine E-Mail ein.](#insert-decision-in-email)
@@ -55,7 +57,7 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Wählen Sie die Entscheidung aus den Elementen aus, die mit der ausgewählten Platzierung kompatibel sind.
    * Zeigen Sie Ihre Angebote in der Vorschau an.
 
-Der gesamte Entscheidungsprozess zur Verwendung von Angeboten in einer E-Mail kann wie folgt beschrieben werden:
+Der gesamte Entscheidungs-Management-Prozess zur Verwendung von Angeboten in einer E-Mail kann wie folgt beschrieben werden:
 
 ![](../assets/offers-e2e-process.png)
 
@@ -258,6 +260,10 @@ Sie können nun sehen, wie alle personalisierten Angebote und das Fallback-Angeb
 Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey den entsprechenden Profilen angezeigt werden.
+
+>[!NOTE]
+>
+>Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotskollektion oder eine Angebotsentscheidung aktualisieren, auf die in einem [veröffentlicht](../../using/publish-manage-message.md) -Meldung angezeigt werden, werden die Aktualisierungen automatisch in der entsprechenden Nachricht übernommen, ohne dass sie erneut veröffentlicht werden müssen.
 
 **Verwandte Themen:**
 

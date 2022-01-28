@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 89%
 
 ---
 
@@ -99,7 +99,7 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 
 Verfügbare Quellen sind:
 
-* **[!UICONTROL Profilattribute]**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;} beschrieben wird.
+* **[!UICONTROL Profilattribute]**: Listet alle Verweise auf, die mit dem Profilschema verknüpft sind, das in der [Dokumentation des Adobe Experience Platform-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben wird.
 * **[!UICONTROL Segmentzugehörigkeit]**: Listet alle im Segmentierungs-Service von Adobe Experience Platform erstellten Segmente auf. Weitere Informationen zur Segmentierung finden Sie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;}.
 * **[!UICONTROL Angebotsentscheidungen]**: Listet alle Angebote auf, die mit einer bestimmten Platzierung verbunden sind. Wählen Sie die Platzierung aus und fügen Sie dann die Angebote in den Inhalt ein. Eine vollständige Dokumentation zum Verwalten von Angeboten finden Sie in [diesem Abschnitt](../deliver-personalized-offers.md).
 * **[!UICONTROL Kontextuelle Attribute]**: Wenn die Aktivität **Nachricht** in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md).
@@ -114,6 +114,24 @@ Bei der Auswahl wird die Referenz im Editor hinzugefügt.
 Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen, die heute Geburtstag haben, und dann die Anpassung vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
 
 ![](assets/perso_ee2.png)
+
+### Zu Favoriten hinzufügen{#fav}
+
+Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Elemente. Um Ihren Favoriten ein Attribut hinzuzufügen, klicken Sie auf das Menü mit den Auslassungspunkten und wählen Sie **[!UICONTROL Zu Favoriten hinzufügen]**.
+
+![](assets/favorite-option.png)
+
+Verwenden Sie zum Zugriff auf von Ihnen bevorzugte Elemente die **[!UICONTROL Favoriten]** Menüoption im Dropdown-Menü.
+
+![](assets/favorite-menu.png)
+
+Aus dieser Liste können Sie das Personalisierungsobjekt schnell zu Ihrem aktuellen Ausdruck hinzufügen.
+
+![](assets/favorite-list.png)
+
+Wenn Sie ein Element nicht mehr in Ihrer Favoritenliste sehen möchten, können Sie es aus Favoriten entfernen.
+
+![](assets/favorite-remove.png)
 
 ## Anleitungsvideos{#video-perso}
 
