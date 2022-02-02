@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 92%
+source-wordcount: '879'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt zu Offer decisioning AI-Ranglisten wurde mit einer detaillierteren Beschreibung des Automatisch-Optimierungsmodells aktualisiert. [Weitere Informationen](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * Es wurde ein neuer Abschnitt zu den Schemaanforderungen hinzugefügt, die zum Senden von Ereignistypen bei Verwendung einer Rangstrategie erforderlich sind - [Weitere Informationen](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* Der Abschnitt zu [!DNL Journey Optimizer] Die Personalisierungsfunktionen wurden neu organisiert, um eine bessere Lesbarkeit zu erreichen. [Weitere Informationen](personalization/personalize.md)
 
 ## November 2021
 

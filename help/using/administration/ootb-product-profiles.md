@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
+source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 18%
 
 ---
@@ -25,7 +25,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 |-|-|
 |Journeys | <ul><li> **[!DNL Manage journeys]**: Journey lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Publish journeys]**: Journey veröffentlichen.</li><li>**[!DNL Manage journeys events, data sources and actions]**: Ereignisse, Quellen oder Aktionen lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View journeys report]**: den Bericht Journey lesen und bearbeiten.</li></ul>|
 |Nachrichten|<ul><li> **[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten der Nachrichtenvorschau und Testversand/Testversand.</li><li>**[!DNL Manage messages preview and test]**: Nachrichten veröffentlichen.</li><li>**[!DNL Publish messages]**: die Nachrichtenvorschau lesen, erstellen und bearbeiten und Test/Testversand durchführen.</li><li>**[!DNL View messages report]**: Nachrichten lesen und bearbeiten .</li></ul>|
-|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: Subdomain-Zuweisung lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage IP pools]**: IP-Pool lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage PTR records]**: PTR-Datensätze lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View PTR records]**: schreibgeschützter Zugriff auf PTR-Datensätze.</li><li> **[!DNL Manage messages general settings]**: Allgemeine Einstellungen für Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage messages presets]**: Inhaltsbranding lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage suppression rules]**: Zugriff auf Lese-, Erstellungs-, Bearbeitungs- und Löschunterdrückungsregeln.</li><li>**[!DNL View suppression list]**: lokale Unterdrückungsliste lesen und exportieren.</li><li>**[!DNL Manage alerts]**: Warnhinweise für Journey, Nachrichten und Berechtigungen aktivieren/deaktivieren.</li></ul>|
+|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: Subdomain-Zuweisung lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage IP pools]**: IP-Pool lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage PTR records]**: PTR-Datensätze lesen und bearbeiten.</li><li>**[!DNL View PTR records]**: schreibgeschützter Zugriff auf PTR-Datensätze.</li><li> **[!DNL Manage messages general settings]**: Allgemeine Einstellungen für Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage messages presets]**: Inhaltsbranding lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage suppression rules]**: Zugriff auf Lese-, Erstellungs-, Bearbeitungs- und Löschunterdrückungsregeln.</li><li>**[!DNL View suppression list]**: lokale Unterdrückungsliste lesen und exportieren.</li><li>**[!DNL Manage alerts]**: Warnhinweise für Journey, Nachrichten und Berechtigungen aktivieren/deaktivieren.</li></ul>|
 |Entscheidungs-Management|<ul><li>**[!DNL Manage decisions]**: Entscheidungen lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Nachrichtenberichte und Verwenden von Aktionsfunktionen.</li></ul>|
 |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: Zugriff auf Sandboxes gewähren.</li><li>**[!DNL Manage segments]**: Segmente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage profiles]**: Profile lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Read datasets]**: schreibgeschützter Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: schreibgeschützter Zugriff auf Schemas.</li><li>**[!DNL Read Identity namespace]**: schreibgeschützter Zugriff auf Identitäts-Namespace.</li><li>**[!DNL Manage merge policies]**: Zusammenführungsrichtlinien lesen, erstellen, bearbeiten und löschen.</li></ul>|
 
