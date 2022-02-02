@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01573675c28972f863e3516577d8a06b403de312
+source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 98%
@@ -51,12 +51,12 @@ ht-degree: 98%
 + Personalisierung {#personalization}
    + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
-   + Arbeiten mit dem Ausdruckseditor {#expression-editor}
-      + [Über den Ausdruckseditor](using/personalization/personalization-build-expressions.md)
-      + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
-      + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
+      + Arbeiten mit dem Ausdruckseditor {#expression-editor}
+         + [Über den Ausdruckseditor](using/personalization/personalization-build-expressions.md)
+         + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
+         + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + Helper-Funktionen {#functions}
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
