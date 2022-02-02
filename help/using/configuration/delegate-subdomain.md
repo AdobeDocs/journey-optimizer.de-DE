@@ -16,14 +16,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c548852b976100935271afafd5267fd7f32a9b50
+source-git-commit: af1c05cb51601ae92cc643353fa706b3771a8160
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 95%
+source-wordcount: '1468'
+ht-degree: 93%
 
 ---
 
 # Zuweisen einer Subdomain
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomainname"
+>title="Über die Zuweisung von Subdomains"
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains vollständig der Adobe zuweisen. Adobe kann Nachrichten als verwalteten Dienst bereitstellen, indem es alle DNS-Bereiche kontrolliert und verwaltet."
+
 
 Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten.
 
