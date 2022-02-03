@@ -16,19 +16,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6e5bdf6a23621b7f645283dc6486d485bd8ee8cf
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 93%
 
 ---
 
-# Zuweisen einer Subdomain
+# Zuweisen einer Subdomain {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
->title="About subdomain delegation"
->abstract="Journey Optimizer allows you to fully delegate your subdomains to Adobe. Adobe kann Nachrichten als verwalteten Dienst bereitstellen, indem es alle DNS-Bereiche kontrolliert und verwaltet."
+>title="Über die Zuweisung von Subdomains"
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains vollständig der Adobe zuweisen. Adobe kann Nachrichten als verwalteten Dienst bereitstellen, indem es alle DNS-Bereiche kontrolliert und verwaltet."
 
 Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten.
 
@@ -162,7 +162,7 @@ Nach der Validierung des Datensatzes und der Installation des Zertifikats erstel
 
 >[!CAUTION]
 >
->Parallel execution of subdomains is currently not supported in [!DNL Journey Optimizer]. If you try to submit a subdomain for delegation when another one has the **[!UICONTROL Processing]** status, you will get an error message.
+>Die parallele Ausführung von Subdomains wird derzeit nicht unterstützt in [!DNL Journey Optimizer]. Wenn Sie versuchen, eine Subdomain für die Zuweisung zu senden, wenn eine andere über die **[!UICONTROL Verarbeitung]** -Status, erhalten Sie eine Fehlermeldung.
 
 ## Subdomain-Validierung {#subdomain-validation}
 

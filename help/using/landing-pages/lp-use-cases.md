@@ -8,14 +8,14 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 77%
 
 ---
 
-# Anwendungsfälle für Landingpages
+# Anwendungsfälle für Landingpages {#lp-use-cases}
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer]-Landingpages zum kundenseitigen Opt-in/Opt-out für bestimmte oder alle Ihre Nachrichten.
 
