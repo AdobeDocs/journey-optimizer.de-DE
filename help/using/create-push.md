@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: dc1dd69040086bd0fad332feb12cc817fec41544
+source-git-commit: 6bb0248c8bd3c15ff28e841b06a413dca83b354f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1244'
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,6 @@ Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]*
 Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
 
 ## Klickverhalten {#on-click-behavior}
-
->[!CONTEXTUALHELP]
->id="ajo-message-push-onclick"
->title="Über das Klickverhalten"
->abstract="Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger."
 
 Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger.
 
