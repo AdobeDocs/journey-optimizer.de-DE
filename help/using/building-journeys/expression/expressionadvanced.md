@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 100%
 
 ---
 
-# Informationen zum erweiterten Ausdruckseditor {#concept_uyj_trt_52b}
+# Informationen zum erweiterten Ausdruckseditor {#about-the-advanced-expression-editor}
 
 Verwenden Sie den erweiterten Ausdruckseditor, um in verschiedenen Bildschirmen der Benutzeroberfläche erweiterte Ausdrücke zu erstellen. Beispielsweise können Sie Ausdrücke erstellen, wenn Sie Journeys konfigurieren und verwenden oder eine Datenquellenbedingung definieren.
 Der Editor steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter definieren müssen, die eine bestimmte Datenbearbeitung erfordern. Sie können Daten aus den Ereignissen oder zusätzliche Informationen nutzen, die aus der Datenquelle abgerufen wurden. Bei einer Journey ist die angezeigte Liste der Ereignisfelder kontextbezogen und variiert je nach den Ereignissen, die in der Journey hinzugefügt werden.
@@ -38,7 +38,7 @@ Wenn möglich, können Sie mit der Schaltfläche **[!UICONTROL Erweiterter Modus
 >
 >Aktionsparameter können durch Auswahl von Feldern oder über den erweiterten Ausdruckseditor definiert werden. Sie geben je nach Ausdruck einen bestimmten Datentyp zurück.
 
-## Zugreifen auf den erweiterten Ausdruckseditor {#section_fdz_4nj_cjb}
+## Zugreifen auf den erweiterten Ausdruckseditor {#accessing-the-advanced-expression-editor}
 
 Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 
@@ -49,7 +49,7 @@ Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 * Wenn Sie einen benutzerdefinierten Timer erstellen, wird der erweiterte Editor direkt angezeigt.
 * Wenn Sie Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
 
-## Kennenlernen der Benutzeroberfläche{#section_otq_tnj_cjb}
+## Kennenlernen der Benutzeroberfläche{#discovering-the-interface}
 
 In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 

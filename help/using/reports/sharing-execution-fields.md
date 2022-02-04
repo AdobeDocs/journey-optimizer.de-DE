@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -19,37 +19,37 @@ Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileE
 
 Wenn für den Schritt eine Aktion verarbeitet werden muss, werden diese Felder der Ereignis-Payload hinzugefügt.
 
-## actionID
+## actionID {#actionid-field}
 
 Kennung der ausgeführten Aktion.
 
 Typ: Zeichenfolge
 
-## actionName
+## actionName {#actionname-field}
 
 Name der Aktion. Wenn kein Name festgelegt wurde, wird der stepName verwendet.
 
 Typ: Zeichenfolge
 
-## actionType
+## actionType {#actionType-field}
 
 Art der Aktion.
 
 Typ: Zeichenfolge
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 Gibt an, ob die Aktion parametrisiert wurde oder nicht.
 
 Typ: boolesch
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 Dauer (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wird.
 
 Typ: lang
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Fehlertyp, der beim Aufrufen der Aktion auftritt.
 
@@ -61,13 +61,13 @@ Werte:
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Code für Fehler bei der Ausführung der Aktion. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code.
 
 Typ: Zeichenfolge
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 
@@ -89,13 +89,13 @@ Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-F
 
 Typ: Zeichenfolge
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Fehler-Code von actionExecOrigError.
 
 Typ: Zeichenfolge
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Gibt die Art der Aktion an.
 
@@ -111,25 +111,25 @@ Werte:
 
 Typ: Zeichenfolge
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Beschreibt die Versand-Vorgangskennung für die Batch-Journey.
 
 Typ: Zeichenfolge
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Beschreibt die Versandkennung für die Batch-Journey.
 
 Typ: Zeichenfolge
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Beschreibt, ob die Batch-Journey im Zielgruppensegment ausgelöst wird.
 
 Typ: boolesch
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Anzahl der Planungs-Benachrichtigungsanfragen, die bei der Schrittverarbeitung an den Planungsdienst gesendet werden.
 

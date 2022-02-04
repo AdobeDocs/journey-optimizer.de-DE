@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
 
-# Entscheidung nachschlagen  Regeln
+# Entscheidungsregel nachschlagen {#lookup-decision-rule}
 
 Sie können nach einer einzelnen Entscheidungsregel suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` der Entscheidungsregel oder den Namen der Entscheidungsregel im Anfragepfad enthält.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%
@@ -19,13 +19,13 @@ Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileE
 
 Bei einer Schrittverarbeitung kann es N Datenabrufe für Feldergruppen geben.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 Gesamtdauer, die bei der Schrittverarbeitung für das Abrufen von Daten gebraucht wurde (in Millisekunden).
 
 Typ: lang
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Legt fest, ob der Abruffehler bei Adobe Experience Platform oder bei einer benutzerdefinierten Datenquelle liegt.
 
@@ -35,7 +35,7 @@ Werte:
 * aep
 * custom
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 Fehlertyp, der bei der Verarbeitung des Datenabrufs auftritt.
 
@@ -47,13 +47,13 @@ Werte:
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 Code für den Fehler beim Abrufen. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code. Wenn der actionExecError beispielsweise http lautet, stellt der Code 404 den HTTP 404-Fehler dar.
 
 Typ: Zeichenfolge
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 
@@ -73,37 +73,37 @@ Beispielsweise werden Daten vom Unified Profil Service abgerufen und wird beim e
 
 Typ: Zeichenfolge
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 Der vom System, das von [!DNL Journey Orchestration] abgefragt wird, bereitgestellte Fehler-Code. Dieser kann zum Beispiel 404, 500 usw. lauten.
 
 Typ: Zeichenfolge
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 Wie oft die Daten abgerufen werden, unabhängig vom Typ der Quelle.
 
 Typ: lang
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 Gesamtdauer, die zum Abrufen der Daten von Adobe Experience Platform benötigt wird (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält.
 
 Typ: lang
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Wie oft die Daten von Adobe Experience Platform abgerufen werden.
 
 Typ: lang
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 Dauer des Abrufs der benutzerspezifischen Daten (in Millisekunden). Hinweis: Diese Dauer berechnet sich vom Zeitpunkt, an dem die Engine das Anreicherungsereignis an den Anreicherungsdienst sendet, bis zu dem Zeitpunkt, an dem die Engine die Antwort erhält
 
 Typ: lang
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 Wie oft die benutzerdefinierten Daten von externen Systemen abgerufen werden.
 

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
-workflow-type: ht
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Der **[!UICONTROL Globale E-Mail-Bericht]** ist in verschiedene Widgets untertei
 
 * **[!UICONTROL Spam-Beschwerderate]**: Prozentsatz der E-Mails, die von Empfängern als Spam gekennzeichnet wurden, im Vergleich zu den zugestellten Nachrichten. Weitere Informationen zu Beschwerden finden Sie im [Handbuch über Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=de#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
-* **[!UICONTROL Abmelderate]**: Prozentsatz der individuellen Abmeldungen in Bezug auf die Anzahl der versendeten Nachrichten. Dieser Indikator basiert nicht auf der Anzahl der Klicks auf den Abmelde-Link, sondern auf der Anzahl der von den Empfängern initiierten Abmeldungen. Weitere Informationen zu Abmeldungen finden Sie auf dieser [Seite](../consent.md).
+* **[!UICONTROL Abmelderate]**: Prozentsatz der individuellen Abmeldungen in Bezug auf die Anzahl der versendeten Nachrichten. Dieser Indikator basiert nicht auf der Anzahl der Klicks auf den Abmelde-Link, sondern auf der Anzahl der von den Empfängern initiierten Abmeldungen. Weitere Informationen zu Abmeldungen finden Sie auf dieser [Seite](../messages/consent.md).
 
 Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Daten für die Aktivität der Empfänger für Ihren Versand:
 
@@ -75,7 +75,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 * **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../messages/suppression-list.md).
 
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >Die Profile mit dem Status **[!UICONTROL Unterdrückt]** oder **[!UICONTROL Nicht erlaubt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Segment lesen](../building-journeys/read-segment.md) und [Nachricht](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
->Erfahren Sie mehr über die [Unterdrückungsliste](../suppression-list.md) und die [Zulassungsliste](../allow-list.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden.
+>Erfahren Sie mehr über die [Unterdrückungsliste](../messages/suppression-list.md) und die [Zulassungsliste](../messages/allow-list.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden.

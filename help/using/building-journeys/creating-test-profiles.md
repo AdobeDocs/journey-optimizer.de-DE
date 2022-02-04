@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Erstellen von Testprofilen {#create-test-profiles}
 
-Testprofile sind bei der Verwendung des Testmodus erforderlich, um zu erfahren, wie Sie den [Testmodus](../building-journeys/testing-the-journey.md) in einer Journey verwenden und um [Ihre Nachrichten in der Vorschau anzueigen und zu testen](../preview.md).
+Testprofile sind bei der Verwendung des Testmodus erforderlich, um zu erfahren, wie Sie den [Testmodus](../building-journeys/testing-the-journey.md) in einer Journey verwenden und um [Ihre Nachrichten in der Vorschau anzueigen und zu testen](../messages/preview.md).
 
 Die verfügbaren Methoden zum Erstellen von Testprofilen werden nachfolgend beschrieben:
 
@@ -88,7 +88,7 @@ Klicken Sie auf den Button **[!UICONTROL Start]**, um den Anwendungsfall zu star
 
 Die folgenden Informationen werden benötigt:
 
-1. **Identity-Namespace**: Der [Identity-Namespace](../get-started-identity.md), mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
+1. **Identity-Namespace**: Der [Identity-Namespace](../start/get-started-identity.md), mit dem die Testprofile eindeutig identifiziert werden. Wenn beispielsweise die E-Mail-Adresse zur Identifizierung der Testprofile verwendet wird, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
 2. **CSV-Datei**: Eine kommagetrennte Datei, die die Liste der zu erstellenden Testprofile enthält. Der Anwendungsfall erwartet ein vordefiniertes Format für die CSV-Datei, die die Liste der zu erstellenden Testprofile enthält. Jede Zeile in der Datei sollte die folgenden Felder in der richtigen Reihenfolge wie folgt enthalten:
 

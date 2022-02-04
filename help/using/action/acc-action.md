@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
@@ -23,7 +23,7 @@ In diesem [Abschnitt](../building-journeys/campaign-classic-use-case.md) wird ei
 
 Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designer-Palette verfügbar. Siehe diesen [Abschnitt](../building-journeys/using-adobe-campaign-classic.md).
 
-## Wichtige Hinweise
+## Wichtige Hinweise {#important-notes}
 
 * Es gibt keine Drosselung der Nachrichten. Wir begrenzen die Anzahl der Nachrichten, die versendet werden können, basierend auf unserem aktuellen Campaign SLA auf 50.000/Stunde. Aus diesem Grund sollte Journey Optimizer nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht Segmente) verwendet werden.
 
@@ -35,7 +35,7 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 
 * Sie können eine Campaign-Aktion nicht mit einem Segmentqualifizierungsereignis verwenden.
 
-## Voraussetzungen
+## Voraussetzungen {#prerequisites}
 
 Sie müssen in Campaign eine Transaktionsnachricht und das zugehörige Ereignis erstellen und veröffentlichen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=de#transactional-messaging){target=&quot;_blank&quot;}.
 
@@ -58,7 +58,7 @@ Siehe folgendes Beispiel:
 * **eventType**: der interne Namen Ihres Campaign-Ereignisses
 * **ctx**: Variable basierend auf der Personalisierung in Ihrer Nachricht.
 
-## Konfigurieren der Aktion
+## Konfigurieren der Aktion {#configure-action}
 
 In Journey Optimizer müssen Sie eine Aktion pro Transaktionsnachricht konfigurieren. Führen Sie folgende Schritte aus:
 

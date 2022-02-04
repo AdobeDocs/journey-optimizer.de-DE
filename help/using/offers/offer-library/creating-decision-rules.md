@@ -1,19 +1,19 @@
 ---
-title: Entscheidungsregeln erstellen
-description: Erfahren Sie, wie Sie in Adobe Experience Platform Entscheidungsregeln erstellen.
+title: Erstellen von Entscheidungsregeln
+description: Erfahren Sie, wie Sie Entscheidungsregeln erstellen, um zu definieren, wem Angebote angezeigt werden können
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
-# Entscheidungsregeln erstellen {#creating-decision-rules}
+# Entscheidungsregeln erstellen {#create-decision-rules}
 
 Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie Entscheidungsregeln für Angebote erstellen. Entscheidungsregeln bestimmen, wem ein Angebot unterbreitet werden kann.
 

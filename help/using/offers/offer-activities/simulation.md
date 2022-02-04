@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Erstellen von Simulationen
+# Erstellen von Simulationen {#create-simulations}
 
 ## Über die Simulation
 
@@ -47,7 +47,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
    >[!NOTE]
    >
-   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Geben Sie den Identitätswert ein und klicken Sie auf **[!UICONTROL Ansicht]**, um die verfügbaren Profile aufzulisten.
 
@@ -63,7 +63,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
 1. Sie können auf den Link **[!UICONTROL Profildetails]** klicken, um die ausgewählten Profildaten anzuzeigen.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Hinzufügen von Entscheidungsumfängen
 
@@ -104,7 +104,7 @@ Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile si
    >
    >Selbst wenn Sie mehrere Entscheidungsumfänge definieren, wird nur eine API-Anfrage simuliert.
    >
-   >Standardmäßig sind alle Deduplizierungsflags für die Simulation aktiviert. Das bedeutet, dass die Entscheidungs-Engine Duplikate zulässt und somit denselben Vorschlag über mehrere Entscheidungen/Platzierungen hinweg unterbreiten kann. Weitere Informationen zu den Eigenschaften von [!DNL Decisions]-API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
+   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. das Entscheidungsmodul ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisions]-API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).<!--Deduplication note TO REMOVE WHEN SIMULATIONS V2 is on PROD-->
 
 <!--SIMULATIONS V2
 

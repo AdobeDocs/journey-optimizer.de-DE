@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 In diesem Abschnitt wird ein Beispiel vorgestellt, das Ihnen zeigt, wie Sie, basierend auf einer zuvor erstellten Entscheidung, Angebote konfigurieren und in einer E-Mail verwenden können.
 
-## Wichtigste Schritte
+## Wichtigste Schritte {#main-steps}
 
 Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in eine Entscheidung und zur Nutzung dieser Entscheidung in einer E-Mail sind unten aufgeführt:
 
@@ -227,11 +227,11 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung we
 
 Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie Ihre E-Mail und öffnen Sie dann [Email Designer](../../using/design-emails.md), um den Inhalt zu konfigurieren.
+1. Erstellen Sie Ihre E-Mail und öffnen Sie dann [Email Designer](../../using/messages/design-emails.md), um den Inhalt zu konfigurieren.
 
 1. Fügen Sie von der linken Palette eine Strukturkomponente hinzu.
 
-1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
+1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/messages/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -257,19 +257,19 @@ Sie können nun sehen, wie alle personalisierten Angebote und das Fallback-Angeb
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey den entsprechenden Profilen angezeigt werden.
 
 >[!NOTE]
 >
->Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotskollektion oder eine Angebotsentscheidung aktualisieren, auf die in einem [veröffentlicht](../../using/publish-manage-message.md) -Meldung angezeigt werden, werden die Aktualisierungen automatisch in der entsprechenden Nachricht übernommen, ohne dass sie erneut veröffentlicht werden müssen.
+>Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren,, auf das/die direkt oder indirekt in einer [veröffentlichten](../../using/messages/publish-manage-message.md) Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht übernommen, ohne dass sie erneut veröffentlicht werden muss.
 
 **Verwandte Themen:**
 
-* In [diesem Abschnitt](../../using/preview.md#preview-your-messages) erfahren Sie, wie Sie die Nachrichtenvorschau überprüfen.
+* In [diesem Abschnitt](../../using/messages/preview.md#preview-your-messages) erfahren Sie, wie Sie die Nachrichtenvorschau überprüfen.
 
-* In [diesem Abschnitt](../../using/publish-manage-message.md) erfahren Sie, wie Sie Nachrichten veröffentlichen können.
+* In [diesem Abschnitt](../../using/messages/publish-manage-message.md) erfahren Sie, wie Sie Nachrichten veröffentlichen können.
 
 * In [diesem Abschnitt](../building-journeys/journey.md) erfahren Sie, wie Nachrichten von einer oder mehreren Journeys ausgelöst werden.
 

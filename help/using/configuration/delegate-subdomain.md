@@ -1,25 +1,15 @@
 ---
-title: Zuweisen von Subdomains
-description: Informationen zum Zuweisen Ihrer Subdomains
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: Zuweisen einer Subdomain
+description: Informationen zum Zuweisen Ihrer Subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 93%
+source-wordcount: '1469'
+ht-degree: 97%
 
 ---
 
@@ -94,7 +84,7 @@ Nachdem Adobe in [!DNL Journey Optimizer] eine Subdomain zugewiesen wurde, wird 
 
 >[!CAUTION]
 >
->Die parallele Ausführung von Subdomains wird derzeit nicht unterstützt in [!DNL Journey Optimizer]. Wenn Sie versuchen, eine Subdomain für die Zuweisung zu senden, wenn eine andere über die **[!UICONTROL Verarbeitung]** -Status, erhalten Sie eine Fehlermeldung.
+>Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] derzeit nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während eine andere den Status **[!UICONTROL In Bearbeitung]** hat, erhalten Sie eine Fehlermeldung.
 
 ## CNAME-Subdomain-Delegierung {#cname-subdomain-delegation}
 
@@ -113,8 +103,6 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 1. Wählen Sie die Methode **[!UICONTROL CNAME-Einrichtung]** aus.
 
    ![](../assets/subdomain-method-cname.png)
-
-   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
 
 1. Geben Sie den Namen der zu delegierenden Subdomain an.
 
@@ -162,7 +150,7 @@ Nach der Validierung des Datensatzes und der Installation des Zertifikats erstel
 
 >[!CAUTION]
 >
->Die parallele Ausführung von Subdomains wird derzeit nicht unterstützt in [!DNL Journey Optimizer]. Wenn Sie versuchen, eine Subdomain für die Zuweisung zu senden, wenn eine andere über die **[!UICONTROL Verarbeitung]** -Status, erhalten Sie eine Fehlermeldung.
+>Die parallele Ausführung von Subdomains wird in [!DNL Journey Optimizer] derzeit nicht unterstützt. Wenn Sie versuchen, eine Subdomain zur Zuweisung zu übermitteln, während eine andere den Status **[!UICONTROL In Bearbeitung]** hat, erhalten Sie eine Fehlermeldung.
 
 ## Subdomain-Validierung {#subdomain-validation}
 

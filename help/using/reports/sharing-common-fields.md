@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] an Adobe Experi
 
 Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.), um die Größe von Ereignissen zu begrenzen.
 
-## entrance
+## entrance {#entrance-field}
 
 Gibt an, ob der Benutzer in die Journey eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
@@ -29,7 +29,7 @@ Typ: boolesch
 
 Werte: true/false
 
-## reentrance
+## reentrance {#reentrance-field}
 
 Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
 
@@ -37,37 +37,37 @@ Typ: boolesch
 
 Werte: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Gibt an, ob die Instanz beendet wurde (erfolgreich oder nicht).
 
 Typ: boolesch
 
-## eventID
+## eventID {#eventid-field}
 
 Ereigniskennung in der Verarbeitung für die Schrittverarbeitung. Wenn es sich bei dem Ereignis um ein externes Ereignis handelt, ist der Wert dessen Ereignis-ID eventId. Wenn es sich bei dem Ereignis um ein internes Ereignis handelt, ist der Wert die interne eventId (wie z. B. scheduledNotificationReceived, executedAction).
 
 Typ: Zeichenfolge
 
-## nodeID
+## nodeID {#nodeid-field}
 
 Kennung des Client-Knotens (von der Arbeitsfläche).
 
 Typ: Zeichenfolge
 
-## stepID
+## stepID {#stepdid-field}
 
 Eindeutige Kennung des Schritts, der gerade verarbeitet wird.
 
 Typ: Zeichenfolge
 
-## stepName
+## stepName {#stepname-field}
 
 Name des Schritts, der gerade verarbeitet wird.
 
 Typ: Zeichenfolge
 
-## stepType
+## stepType {#steptype-field}
 
 Art des Schritts.
 
@@ -80,7 +80,7 @@ Mögliche Werte:
 * Planung
 * Timer
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Status des Schritts, der den Status des Schritts darstellt, nachdem die Verarbeitung abgeschlossen (und das Schrittereignis ausgelöst) wurde.
 
@@ -95,79 +95,79 @@ Der Status kann folgendermaßen lauten:
 * timedout: Der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
 * instanceTimedout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 Kennung der Journey.
 
 Typ: Zeichenfolge
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 Kennung der Journey-Version. Diese Kennung stellt bei journeyStepEvent den Identitätsverweis auf die Journey dar.
 
 Typ: Zeichenfolge
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Name der Journey-Version.
 
 Typ: Zeichenfolge
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Version der Journey-Version.
 
 Typ: Zeichenfolge
 
-## instanceID
+## instanceID {#instanceid-field}
 
 Interne Kennung der Journey-Instanz.
 
 Typ: Zeichenfolge
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Externer Schlüssel, der aus dem Ereignis zur Verarbeitung extrahiert wurde.
 
 Typ: Zeichenfolge
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 Kennung des übergeordneten Schritts des in der Instanz gerade verarbeiteten Schritts.
 
 Typ: Zeichenfolge
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Name des übergeordneten Schritts des aktuellen Schritts.
 
 Typ: Zeichenfolge
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Kennung der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
 Typ: Zeichenfolge
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Name der Transition, die die Instanz zum verarbeiteten Schritt geführt hat.
 
 Typ: Zeichenfolge
 
-## inTest
+## inTest {#intest-field}
 
 Gibt an, ob sich die Journey im Testmodus befindet oder nicht.
 
 Typ: boolesch
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Gesamtdauer vom Eintritt des Instanzschritts bis zum Ende der Verarbeitung (in Millisekunden).
 
 Typ: lang
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Gibt den Instanztyp an (Batch oder unitär).
 
@@ -175,31 +175,31 @@ Typ: Zeichenfolge
 
 Werte: batch/unitary
 
-## recurrenceIndex
+## recurrenceIndex {#recurrenceindex-field}
 
 Index des Intervalls, wenn es sich bei der Journey um einen wiederkehrenden Batch-Vorgang handelt (erste Ausführung führt zu recurrenceIndex = 1).
 
 Typ: lang
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Gibt an, ob diese unitäre Instanz von einer Batch-Instanz ausgelöst wurde.
 
 Typ: boolesch
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 Externer Schlüssel für das Batch-Ereignis.
 
 Typ: Zeichenfolge
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 Dies ist die Kennung der Batch-Instanz.
 
 Typ: Zeichenfolge
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, unitäre Verzweigungs-ID.
 

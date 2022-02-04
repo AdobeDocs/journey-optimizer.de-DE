@@ -1,28 +1,27 @@
 ---
 title: PTR-Einträge
 description: Erfahren Sie, wie Sie PTR-Einträge verwalten
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # PTR-Einträge {#ptr-records}
 
-## Informationen zu PTR-Einträgen
+## Informationen zu PTR-Einträgen {#about-ptr-records}
 
 Ein PTR (Pointer Record, „Zeigereintrag“) ist ein Typ von DNS (Domain Name System)-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt.
 
 Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sender-E-Mail-Server überprüfen, indem sie feststellen, ob ihre IP-Adressen mit den Namen übereinstimmen, mit denen sich die Server verbinden.
 
-## Zugriff auf PTR-Einträge Ihrer Subdomains
+## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
 Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
@@ -44,15 +43,15 @@ Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte S
 >
 >Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
 
-### Vollständig zugewiesene Subdomains
+### Vollständig delegierte Subdomains {#fully-delegated-subdomains}
 
-So bearbeiten Sie einen PTR-Datensatz mit einer Subdomain, die [vollständig delegiert](delegate-subdomain.md#full-subdomain-delegation) Gehen Sie wie folgt vor, um eine Adobe durchzuführen.
+Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) ist, führen Sie die folgenden Schritte aus.
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
    ![](../assets/ptr-record-select.png)
 
-1. Subdomain auswählen [vollständig delegiert](delegate-subdomain.md#full-subdomain-delegation) in die Adobe aus der Liste.
+1. Wählen Sie aus der Liste eine Subdomain aus, die [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) ist.
 
    ![](../assets/ptr-record-subdomain.png)
 
@@ -60,32 +59,32 @@ So bearbeiten Sie einen PTR-Datensatz mit einer Subdomain, die [vollständig del
 
 ### Delegierte Subdomains mit der CNAME-Methode {#edit-ptr-subdomains-cname}
 
-So bearbeiten Sie einen PTR-Datensatz mit einer Subdomäne, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation)führen Sie die folgenden Schritte aus.
+Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert ist.
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
    ![](../assets/ptr-record-select-cname.png)
 
-1. Wählen Sie mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) aus der Liste.
+1. Wählen Sie in der Liste eine Subdomain aus, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde.
 
    ![](../assets/ptr-record-subdomain-cname.png)
 
-1. Sie müssen einen neuen Forward-DNS-Datensatz auf Ihrer Hosting-Plattform erstellen. Kopieren Sie dazu den von Adobe generierten Datensatz. Aktivieren Sie abschließend das Kontrollkästchen &quot;Ich bestätige..&quot;.
+1. Sie müssen einen neuen Forward-DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Kopieren Sie dazu den von Adobe generierten Eintrag. Aktivieren Sie abschließend das Kontrollkästchen „Ich bestätige...“.
 
    ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >Wenn Sie diese Nachricht erhalten: &quot;Bitte erstellen Sie das Weiterleitungs-DNS zuerst und versuchen Sie es dann erneut&quot;, führen Sie die folgenden Schritte aus:
-   >   * Überprüfen Sie den DNS-Provider, ob der Weiterleitungs-DNS-Eintrag erfolgreich erstellt wurde.
-   >   * Datensätze im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
+   >Falls Sie die Nachricht „Bitte erstellen Sie zunächst ein Forward-DNS und versuchen Sie es dann erneut“ erhalten, führen Sie die folgenden Schritte aus:
+   >   * Überprüfen Sie beim DNS-Provider, ob der Forward-DNS-Eintrag erfolgreich erstellt wurde.
+   >   * Einträge im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-## Überprüfen Sie die Details zum PTR-Datensatz-Update.
+## Prüfen der Aktualisierungsdetails der PTR-Einträge {#check-ptr-record-update}
 
-A **[!UICONTROL Verarbeitung]** neben dem Namen des PTR-Datensatzes in der Liste angezeigt.
+Neben dem Namen des PTR-Eintrags in der Liste wird das Symbol **[!UICONTROL In Bearbeitung]** angezeigt.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -97,7 +96,7 @@ Sie können Informationen wie den Aktualisierungsstatus und die gewünschten Än
 
 ![](../assets/ptr-record-updates.png)
 
-## Aktualisierungsstatus von PTR-Datensätzen
+## Aktualisierungsstatus von PTR-Einträgen {#ptr-record-update-statuses}
 
 Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 
@@ -105,9 +104,9 @@ Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Erfolgreich]**: Der aktualisierte PTR-Eintrag wurde überprüft und die neue Subdomain ist nun mit der IP-Adresse verknüpft.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Fehlgeschlagen]**: Bei der Verifizierung der Aktualisierung des PTR-Eintrags sind eine oder mehrere Prüfungen fehlgeschlagen.
 
-### In Bearbeitung
+### In Bearbeitung {#processing}
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüf
 
 Während des Validierungsprozesses ist die alte Subdomain nach wie vor mit der IP-Adresse verknüpft.
 
-### Erfolgreich
+### Erfolgreich {#success}
 
 Wenn der Validierungsprozess erfolgreich war, wird die neue Subdomain automatisch mit der IP-Adresse verknüpft.
 
-### Fehlgeschlagen
+### Fehlgeschlagen {#failes}
 
 Wenn der Validierungsprozess fehlschlägt, wird der ältere PTR-Eintrag angezeigt. Die gültige Subdomain, die zuvor mit der IP-Adresse verknüpft war, bleibt unverändert.
 

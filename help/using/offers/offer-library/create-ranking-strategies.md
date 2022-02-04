@@ -2,21 +2,21 @@
 product: experience platform
 solution: Experience Platform
 title: Erstellen von Rangfolgestrategien
-description: Erfahren Sie, wie Sie Rangfolgenformeln in Adobe Experience Platform erstellen.
+description: Erfahren Sie, wie Sie KI-Modelle zum Rang von Angeboten erstellen
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 64%
+source-wordcount: '992'
+ht-degree: 99%
 
 ---
 
 # KI-Rangfolgen {#ai-rankings}
 
-## Erste Schritte mit KI-Rangfolgen
+## Erste Schritte mit KI-Rangfolgen {#get-started-with-ai-rankings}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
 
@@ -32,21 +32,21 @@ Sie können beispielsweise eine Rangfolgestrategie für den E-Mail-Kanal und ein
 
 Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Weitere Informationen finden Sie unter [Angebotsauswahl in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
 
-### Automatisierte Optimierungsmodelle {#auto-optimization}
+### Modelle mit automatischer Optimierung {#auto-optimization}
 
-Derzeit in [!DNL Journey Optimizer] Der einzige unterstützte Modelltyp für die KI-Rangfolge ist **automatische Optimierung**.
+Derzeit ist in [!DNL Journey Optimizer] der einzige unterstützte Modelltyp für die KI-Rangfolge die **automatische Optimierung**.
 
-Ein Automatisches Optimierungsmodell zielt darauf ab, Angebote bereitzustellen, die die Rendite maximieren, basierend auf den von Ihnen festgelegten Key Performance Indicators (KPIs). <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Zu diesem Zeitpunkt konzentriert sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit Angebotskonversion als Ziel.
+Ein Modell mit automatischer Optimierung zielt darauf ab, auf der Grundlage der von Ihnen festgelegten Leistungsindikatoren (Key Performance Indicators, KPIs) Angebote zu liefern, die die Rendite maximieren. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung.
 
 >[!NOTE]
 >
->Das Automatisch-Optimierungsmodell verwendet keine kontextbezogenen oder Benutzerprofildaten. Sie optimiert die Ergebnisse basierend auf der globalen Performance der Angebote.
+>Das Modell der automatischen Optimierung verwendet keine kontextbezogenen oder Benutzerprofildaten. Es optimiert die Ergebnisse basierend auf der allgemeinen Performance der Angebote.
 
-Mit der automatischen Optimierung besteht die Herausforderung darin, das forschende Lernen und die Nutzung dieses Lernens miteinander in Einklang zu bringen. Dieses Prinzip wird als **&quot;Multi-Armed Bandit&quot;-Ansatz**.
+Bei der automatischen Optimierung besteht die Herausforderung darin, das entdeckende Lernen und die Nutzung des Erlernten miteinander in Einklang zu bringen. Dieses Prinzip ist als **Ansatz des „mehrarmigen Banditen“** bekannt.
 
-Um diese Herausforderung zu bewältigen, verwendet das Automatisch-Optimierungsmodell die **Thompson Sampling** -Methode, mit der festgestellt werden kann, welche Option zur Maximierung der erwarteten Belohnungen verfolgt werden soll. Mit anderen Worten: Thompson Sampling ist eine Art verstärktes Lernverfahren zur Lösung des Problems der Erforschung und Ausbeutung in einem Multi-Armed Bandit-Problem.
+Um diese Herausforderung zu bewältigen, verwendet das Modell der automatischen Optimierung die Methode des **Thompson-Samplings**, mit der ermittelt werden kann, welche Option verfolgt werden muss, um den erwarteten Gewinn zu maximieren. Mit anderen Worten: Thompson-Sampling ist eine Art verstärktes Lernverfahren zur Lösung des Dilemmas zwischen Exploration (Erkundung) und Exploitation (Ausbeutung) in einem Problem vom Typ „Mehrarmiger Bandit“.
 
-Die Thompson-Sampling-Methode ermöglicht auch die Bewältigung von Herausforderungen wie dem &quot;Kaltstart&quot;-Problem, d. h. wenn ein neues Angebot in die Kampagne eingeführt wird, hat es keine Geschichte, aus der es trainieren könnte.
+Die Methode des Thompson-Samplings ermöglicht auch die Bewältigung von Herausforderungen wie dem „Kaltstart“-Problem, d. h. wenn ein neues Angebot in die Kampagne eingeführt wird, hat es keine Historie, aus der es lernen könnte.
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
@@ -128,7 +128,6 @@ Sie müssen einen Datensatz erstellen, in dem Konversionsereignisse erfasst werd
    >[!NOTE]
    >Die Feldergruppen wurden früher als Mixins bezeichnet.
 
-
 1. Geben Sie einen Namen ein und speichern Sie das Schema.<!--How do you edit the fields in this new schema? Examples?-->
 
 >[!NOTE]
@@ -155,23 +154,23 @@ Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Geh
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [Erstellen einer Rangstrategie](#create-ranking-strategy).
+Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [eine Rangfolgestrategie erstellt wird](#create-ranking-strategy).
 
 ## Anforderungen an Angebotsschemas {#schema-requirements}
 
-An dieser Stelle müssen Sie über Folgendes verfügen:
+An dieser Stelle müssen Sie:
 
-* die Rangstrategie erstellt,
-* definiert, welcher Ereignistyp erfasst werden soll - angezeigtes Angebot (Impression) und/oder angeklicktes Angebot (Konversion);
-* und in welchem Datensatz Sie die Ereignisdaten erfassen möchten.
+* die Rangfolgestrategie erstellt haben,
+* definiert haben, welcher Ereignistyp erfasst werden soll – angezeigtes Angebot (Impression) und/oder angeklicktes Angebot (Konversion),
+* und definiert haben, in welchem Datensatz Sie die Ereignisdaten erfassen möchten.
 
-Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der **[!UICONTROL Erlebnisereignis - Interaktionen bei Vorschlägen]** Feldergruppe mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} oder Mobile SDK.
+Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} oder Mobile SDK erfasst werden.
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen:
 
-**Szenario:** Angezeigte Angebote
+**Szenario:** Angezeigtes Angebot
 **Ereignistyp:** `decisioning.propositionDisplay`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 **Beispiel-Payload:**
 
 ```
@@ -198,9 +197,9 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 }
 ```
 
-**Szenario:** Klicks Angebot
+**Szenario:** Angeklicktes Angebot 
 **Ereignistyp:** `decisioning.propositionInteract`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 **Beispiel-Payload:**
 
 ```

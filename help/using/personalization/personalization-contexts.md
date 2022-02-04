@@ -1,12 +1,12 @@
 ---
-title: Personalisierungssyntax
+title: Personalisierungskontexte
 description: 'Erfahren Sie mehr über die Möglichkeiten, den Inhalt und die Anzeige Ihrer Nachrichten zu personalisieren. '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 93%
@@ -21,7 +21,7 @@ In allen Feldern mit dem Editor-Symbol können Sie den Personalisierungseditor (
 
 ![](assets/perso_icon.png)
 
-## E-Mails personalisieren
+## E-Mails personalisieren {#personalize-emails}
 
 Wenn Sie eine E-Mail erstellen, können Sie im Fenster **[!UICONTROL Betreffzeile]** der Nachricht eine Personalisierung hinzufügen.
 
@@ -29,7 +29,7 @@ Wenn Sie eine E-Mail erstellen, können Sie im Fenster **[!UICONTROL Betreffzeil
 
 In Email Designer können Sie den Inhalt personalisieren:
 
-* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../design-emails.md).
+* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../messages/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ In beiden Fällen greifen Sie auf den Personalisierungseditor zu.
 
 ![](assets/perso_ee.png)
 
-## Push-Benachrichtigungen personalisieren
+## Push-Benachrichtigungen personalisieren {#personalize-push}
 
 Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalisieren:
 
@@ -53,7 +53,7 @@ Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalis
 
 ![](assets/perso_push.png)
 
-Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-gs.md).
+Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../messages/push-gs.md).
 
 ## Angebote personalisieren {#personalize-offers}
 

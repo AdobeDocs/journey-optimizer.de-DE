@@ -1,12 +1,12 @@
 ---
-title: Zugriff auf den exportierten Angebotskatalog
-description: Erfahren Sie, wie Sie nach dem Exportieren in Adobe Experience Platform auf den Angebotskatalog zugreifen können.
+title: Zugreifen auf den exportierten Angebotskatalog
+description: Erfahren Sie, wie Sie nach dem Exportieren in Adobe Experience Platform auf den Angebotskatalog zugreifen können
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -27,4 +27,4 @@ Mit der Schaltfläche **[!UICONTROL Datensatz in der Vorschau ansehen]** können
 
 ![](../../assets/dataset-preview.png)
 
-Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie auf [dieser Seite](../../get-started-datasets.md).
+Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie auf [dieser Seite](../../start/get-started-datasets.md).

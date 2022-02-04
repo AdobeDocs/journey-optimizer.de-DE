@@ -1,19 +1,19 @@
 ---
-title: Auswahl von Angeboten in Entscheidungen konfigurieren
-description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten.
+title: Konfigurieren der Auswahl von Angeboten für Entscheidungen
+description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
-workflow-type: ht
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 
 ---
 
-# Auswahl von Angeboten in Entscheidungen konfigurieren {#offers-selection-in-activities}
+# Auswahl von Angeboten in Entscheidungen konfigurieren {#offers-selection-in-decisions}
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung (zuvor als Angebotsaktivität bezeichnet) die Methode auswählen, die das beste Angebot für jedes Profil auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
@@ -22,7 +22,7 @@ Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Si
 
 ![](../../assets/offer-rank-by.png)
 
-## Angebotspriorität {#about-offers-priority}
+## Angebotspriorität {#offer-priority}
 
 Wenn in einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet) mehrere Angebote für eine bestimmte Platzierung geeignet sind, werden standardmäßig zuerst die Angebote mit der höchsten **Priorität** an die Kunden gesendet.
 
@@ -46,7 +46,8 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Wählen Sie **[!UICONTROL Ranglistenformel]** als Ranglistenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangliste hinzufügen]**.
+1. Wählen Sie **[!UICONTROL Rangfolgenformel]** als Rangfolgenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangfolge hinzufügen]**.
+
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -74,7 +75,8 @@ Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierun
 
 1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
 
-1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangliste]** und klicken Sie dann auf **[!UICONTROL Rangliste hinzufügen]**.
+1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangfolge]** und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
+
 
    ![](../../assets/ranking-selection-ai-ranking.png)
 
@@ -86,6 +88,3 @@ Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierun
 
 Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot zuerst für eine bestimmte Platzierung gezeigt werden soll.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Entscheidungsregel löschen
+# Entscheidungsregel löschen {#delete-decision-rule}
 
 Gelegentlich kann es erforderlich sein, eine Entscheidungsregel zu entfernen (DELETE). Es können nur Entscheidungsregeln gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der Instanz-ID der Entscheidungsregel, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

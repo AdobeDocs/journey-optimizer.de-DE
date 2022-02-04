@@ -1,12 +1,12 @@
 ---
 title: Datensatz für Fallback-Angebote
-description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Fallback-Angebote verwendet werden.
+description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Fallback-Angebote verwendet werden
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -27,14 +27,14 @@ Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchi
 
 Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL Entscheidungsobjekt-Repository – Fallback-Angebote]** verwendet werden können.
 
-## Kennung
+## Kennung {#identifier}
 
 **Feld:** _id 
 **Titel:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
-## _experience
+## _experience {#experience}
 
 **Feld:** _experience 
 **Typ:** Objekt
@@ -179,7 +179,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Feld:** _repo 
 **Typ:** Objekt

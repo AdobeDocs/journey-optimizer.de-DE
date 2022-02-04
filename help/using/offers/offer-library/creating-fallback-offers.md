@@ -1,19 +1,18 @@
 ---
-title: Fallback-Angebote erstellen
-description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
-feature: Offers
+title: Erstellen von Fallback-Angeboten
+description: Erfahren Sie, wie Sie Fallback-Angebote erstellen, die Kunden angezeigt werden, die für kein Angebot infrage kommen
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '300'
+ht-degree: 94%
 
 ---
 
-# Fallback-Angebote erstellen {#creating-fallback-offers}
+# Fallback-Angebote erstellen {#create-fallback-offers}
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 

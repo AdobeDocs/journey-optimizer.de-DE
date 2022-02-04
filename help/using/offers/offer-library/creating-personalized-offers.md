@@ -1,19 +1,19 @@
 ---
-title: Personalisierte Angebote erstellen
-description: Hier erfahren Sie, wie Sie in Adobe Experience Platform personalisierte Angebote erstellen.
+title: Erstellen von personalisierten Angeboten
+description: Erfahren Sie, wie Sie Ihre Angebote erstellen, konfigurieren und verwalten
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 99%
 
 ---
 
-# Personalisierte Angebote erstellen {#creating-personalized-offers}
+# Personalisierte Angebote erstellen {#create-personalized-offers}
 
 Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
@@ -90,7 +90,7 @@ Sie können einer Darstellung verschiedene Inhaltstypen hinzufügen.
 >
 >Es sind nur Inhalte verfügbar, die dem Content-Typ der Platzierung entsprechen.
 
-### Bilder hinzufügen
+### Bilder hinzufügen {#images}
 
 Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können Sie Inhalte aus der **Adobe Experience Cloud Assets**-Bibliothek hinzufügen, einem zentralen Repository mit Assets, das von [!DNL Adobe Experience Manager Assets Essentials] bereitgestellt wird.
 
@@ -110,7 +110,7 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
    ![](../../assets/offer-select-asset.png)
 
-### URLs hinzufügen
+### URLs hinzufügen {#urls}
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
@@ -161,7 +161,6 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
       >[!CAUTION]
       >
       >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
-      
    Weitere Informationen zur Verwendung von Segmenten versus Entscheidungsregeln finden Sie in [diesem Abschnitt](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Definieren Sie die **[!UICONTROL Priorität]** des Angebots gegenüber anderen, wenn der Benutzer für mehr als ein Angebot geeignet ist. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten.

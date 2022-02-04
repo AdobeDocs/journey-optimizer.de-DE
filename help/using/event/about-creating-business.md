@@ -6,8 +6,8 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
-workflow-type: ht
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 >
 >Sie können sich auch das [Tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=de) zu Anwendungsfällen für Geschäftsereignisse ansehen.
 
-## Wichtige Hinweise
+## Wichtige Hinweise {#important-notes}
 
 * Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten. Die folgenden Felder müssen nach Bedarf festgelegt werden: `_id` und `timestamp`
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
@@ -36,7 +36,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 * Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
 * Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
 
-## Mehrere Geschäftsereignisse
+## Mehrere Geschäftsereignisse {#multiple-business-events}
 
 Im Folgenden finden Sie einige wichtige Hinweise für den Fall, dass mehrere Geschäftsereignisse nacheinander empfangen werden.
 
@@ -48,7 +48,7 @@ Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt 
 
 Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Einschränkungen. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
-## Erste Schritte mit Geschäftsereignissen
+## Erste Schritte mit Geschäftsereignissen {#gs-business-events}
 
 Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftsereignisses:
 

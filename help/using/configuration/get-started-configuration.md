@@ -1,18 +1,15 @@
 ---
-title: Einstellungen und Konfigurationsrichtlinien für Journey Optimizer
-description: Informationen zu den Konfigurationsrichtlinien für Nachrichten und Journeys
-audience: administrators
-content-type: reference
+title: 'Erste Schritte mit der Konfiguration von  [!DNL Journey Optimizer] '
+description: Weitere Informationen [!DNL Journey Optimizer] Konfiguration
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +22,7 @@ Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfi
 
 1. **Konfigurieren von Nachrichten und Kanälen**: Vorgaben definieren, E-Mail- und Push-Nachrichten anpassen
 
-   * Definieren Sie Push-Benachrichtigungseinstellungen sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../push-gs.md)
+   * Definieren Sie Push-Benachrichtigungseinstellungen sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../messages/push-gs.md)
 
    * Erstellen Sie Nachrichtenvorgaben, um alle technischen Parameter zu konfigurieren, die für E-Mail- und Push-Nachrichten erforderlich sind. [Weitere Informationen](message-presets.md)
 
@@ -34,7 +31,7 @@ Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfi
    * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](about-subdomain-delegation.md)

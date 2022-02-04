@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -93,5 +93,5 @@ Sie können jetzt mit Journey Optimizer SMS-Nachrichten senden.
 
 **Verwandte Themen**
 
-* [Erstellen einer SMS-Nachricht](../create-sms.md)
+* [Erstellen einer SMS-Nachricht](../messages/create-sms.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)

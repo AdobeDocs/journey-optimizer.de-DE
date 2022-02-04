@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# Kollektionen auflisten
+# Kollektionen auflisten {#list-collections}
 
 Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Verwenden von Abfrageparametern
+## Verwenden von Abfrageparametern {#using-query-parameters}
 
 Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
 
-### Paging
+### Paging {#paging}
 
 Zu den häufigsten Abfrageparametern für das Paging gehören:
 

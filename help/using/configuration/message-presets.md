@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1751'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 >
 > * Die Konfiguration von Nachrichtenvoreinstellungen ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
+> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../messages/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
 Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
@@ -62,23 +62,18 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
       >
       >E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
       * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
 
       * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails verworfen werden.
+      * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
       * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >Ab der Version vom Oktober 2021 ist es nicht mehr möglich, in der [!DNL Journey Optimizer]-Benutzeroberfläche eine Weiterleitungs-E-Mail-Adresse zu definieren. Wenn Sie möchten, dass alle bei [!DNL Journey Optimizer] für die delegierte Subdomain eingegangenen E-Mails an eine bestimmte E-Mail-Adresse weitergeleitet werden, wenden Sie sich an das [Supportteam der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >Ab der Version vom Oktober 2021 ist es nicht mehr möglich, in der [!DNL Journey Optimizer]-Benutzeroberfläche eine Weiterleitungs-E-Mail-Adresse zu definieren. Wenn Sie möchten, dass alle bei [!DNL Journey Optimizer] für die delegierte Subdomain eingegangenen E-Mails an eine bestimmte E-Mail-Adresse weitergeleitet werden, wenden Sie sich an das [Supportteam der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
    * Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
 
-      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push-gs.md).
+      Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    >In [diesem Abschnitt](#monitor-message-presets) erfahren Sie mehr über die möglichen Fehlerursachen, wenn die Prüfungen nicht erfolgreich sind.
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können S
 
    ![](../assets/preset-view-update-details.png)
 
-Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus sehen, <!--the approximate remaining time before completion (if validation is in progress)--> und die Liste der angeforderten Änderungen.
+Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus sehen,  und die Liste der angeforderten Änderungen.
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ Wenn Sie eine bereits aktive Voreinstellung bearbeiten:
 >
 >Sie können eine Nachrichtenvoreinstellung während der Aktualisierung nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
 
-### Erfolgreich
+### Erfolgreich {#success}
 
 Nach erfolgreicher Überprüfung wird die neue Version der Voreinstellung automatisch in allen Nachrichten verwendet, die diese Voreinstellung verwenden. Sie müssen jedoch möglicherweise warten:
 * einige Minuten, bevor die Voreinstellung von den einzelnen Nachrichten genutzt wird,
 * bis zum nächsten Batch, damit die Voreinstellung in Batch-Nachrichten wirksam wird.
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### Fehlgeschlagen
+### Fehlgeschlagen {#failed}
 
 Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Voreinstellung verwendet.
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 Weitere Informationen zu möglichen Fehlerursachen finden Sie in [diesem Abschnitt](#monitor-message-presets).
 
@@ -300,18 +286,6 @@ Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung n
 Eine deaktivierte Nachrichtenvoreinstellung kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Anleitungsvideo{#video-presets}
 

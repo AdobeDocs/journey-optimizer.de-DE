@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
 
-# Beispiele für erweiterte Ausdrücke
+# Beispiele für erweiterte Ausdrücke{#advanced-expression-examples}
 
 Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
 

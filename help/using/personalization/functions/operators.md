@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Operatoren {#operators}
 
-## Boolesche Funktionen
+## Boolesche Funktionen {#boolean-functions}
 
 Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene Elemente anzuwenden.
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Vergleichsfunktionen
+## Vergleichsfunktionen {#comparison-functions}
 
 Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und Werten zu vergleichen und entsprechend „true“ oder „false“ zurückzugeben.
 

@@ -1,12 +1,12 @@
 ---
 title: Platzierungsdatensatz
-description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Platzierungen verwendet werden.
+description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Platzierungen verwendet werden
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
@@ -29,14 +29,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## ID
+## ID {#identifier}
 
 **Feld:** _id 
 **Titel:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
-## _experience
+## _experience {#experience}
 
 **Feld:** _experience 
 **Typ:** Objekt
@@ -85,7 +85,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Ein zugewiesener Name für die Platzierung, auf den in menschlichen Interaktionen verwiesen werden kann.
 **Typ:** Zeichenfolge
 
-## _repo
+## _repo {#repo}
 
 **Feld:** _repo 
 **Typ:** Objekt

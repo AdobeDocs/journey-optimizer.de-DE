@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 98%
 
 ---
@@ -16,38 +16,38 @@ ht-degree: 98%
 
 + [Dokumentation zu Journey Optimizer](ajo-home.md)
 + Neue Funktionen {#whats-new}
-   + [Versionshinweise](using/release-notes.md)
-   + [Neueste Aktualisierungen](using/documentation-updates.md)
+   + [Versionshinweise](using/rn/release-notes.md)
+   + [Neueste Aktualisierungen](using/rn/documentation-updates.md)
 + Erste Schritte{#get-started}
-   + [Was ist Journey Optimizer?](using/get-started.md)
+   + [Was ist Journey Optimizer?](using/start/get-started.md)
    + Schnellstart{#quick-start}
-      + [Übersicht](using/quick-start.md)
-      + [Erste Schritte als Marketer](using/path/marketer.md)
-      + [Erste Schritte als Dateningenieur](using/path/data-engineer.md)
-      + [Erste Schritte als Administrator](using/path/administrator.md)
-      + [Erste Schritte als Entwickler](using/path/developer.md)
-   + [Benutzeroberfläche](using/user-interface.md)
-   + [Einschränkungen](using/limitations.md)
+      + [Übersicht](using/start/quick-start.md)
+      + [Erste Schritte als Marketer](using/start/path/marketer.md)
+      + [Erste Schritte als Dateningenieur](using/start/path/data-engineer.md)
+      + [Erste Schritte als Administrator](using/start/path/administrator.md)
+      + [Erste Schritte als Entwickler](using/start/path/developer.md)
+   + [Benutzeroberfläche](using/start/user-interface.md)
+   + [Einschränkungen](using/start/limitations.md)
 + Nachrichten {#messages}
-   + [Erste Schritte mit Nachrichten](using/get-started-content.md)
+   + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
    + Erstellen von Nachrichten {#create-message}
-      + [Erstellen einer Nachricht](using/create-message.md)
-      + [Erstellen einer E-Mail](using/create-email.md)
-      + [Erstellen einer Push-Benachrichtigung](using/create-push.md)
-      + [Erstellen einer SMS-Nachricht](using/create-sms.md)
-   + [Hinzufügen und Verwalten von Assets](using/assets-essentials.md)
-   + [Hinzufügen personalisierter Angebote](using/deliver-personalized-offers.md)
+      + [Erstellen einer Nachricht](using/messages/create-message.md)
+      + [Erstellen einer E-Mail](using/messages/create-email.md)
+      + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
+      + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
+   + [Hinzufügen und Verwalten von Assets](using/messages/assets-essentials.md)
+   + [Hinzufügen personalisierter Angebote](using/messages/deliver-personalized-offers.md)
    + Entwerfen von E-Mails {#email-designer}
-      + [Erste Schritte beim Gestalten von E-Mails ](using/design-emails.md)
-      + [Entwerfen von E-Mail-Inhalten über die Benutzeroberfläche](using/create-email-content.md)
-      + [Importieren oder Kodieren von E-Mail-Inhalt](using/existing-content.md)
-      + [Verwenden von Inhaltskomponenten von Email Designer](using/content-components.md)
-   + [Hinzufügen von Links und Verfolgen von Nachrichten](using/message-tracking.md)
+      + [Erste Schritte beim Gestalten von E-Mails ](using/messages/design-emails.md)
+      + [Entwerfen von E-Mail-Inhalten über die Benutzeroberfläche](using/messages/create-email-content.md)
+      + [Importieren oder Kodieren von E-Mail-Inhalt](using/messages/existing-content.md)
+      + [Verwenden von Inhaltskomponenten von Email Designer](using/messages/content-components.md)
+   + [Hinzufügen von Links und Verfolgen von Nachrichten](using/messages/message-tracking.md)
    + Validieren und Veröffentlichen {#validate}
-      + [Vorschau und Testversand](using/preview.md)
-      + [Prüfen von Warnhinweisen](using/alerts.md)
-      + [Veröffentlichen von Nachrichten](using/publish-manage-message.md)
-   + [Verwalten von Opt-out](using/consent.md)
+      + [Vorschau und Testversand](using/messages/preview.md)
+      + [Prüfen von Warnhinweisen](using/messages/alerts.md)
+      + [Veröffentlichen von Nachrichten](using/messages/publish-manage-message.md)
+   + [Verwalten von Opt-out](using/messages/consent.md)
 + Personalisierung {#personalization}
    + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
@@ -75,13 +75,13 @@ ht-degree: 98%
    + Segmente {#segments}
       + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
       + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
-   + [Profile](using/get-started-profiles.md)
-   + [Identitäten](using/get-started-identity.md)
+   + [Profile](using/start/get-started-profiles.md)
+   + [Identitäten](using/start/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
-      + [Testprofile](using/building-journeys/creating-test-profiles.md)
+      + [Erstellen von Testprofilen](using/building-journeys/creating-test-profiles.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Erstellen einer Journey{#create-journey}
       + [Erste Schritte mit Journeys](using/building-journeys/journey-gs.md)
@@ -195,9 +195,9 @@ ht-degree: 98%
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + [Sendungen vorantreiben](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [Steigern Sie Ihre Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
-   + [Überwachen von Nachrichten ](using/message-monitoring.md)
+   + [Überwachen von Nachrichten ](using/messages/message-monitoring.md)
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
@@ -220,9 +220,9 @@ ht-degree: 98%
          + [Identitätsfelder](using/reports/sharing-identity-fields.md)
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
-      + [Erste Schritte mit der Zustellbarkeit](using/deliverability.md)
-      + [Unterdrückungsliste](using/suppression-list.md)
-      + [Zulassungsliste](using/allow-list.md)
+      + [Erste Schritte mit der Zustellbarkeit](using/messages/deliverability.md)
+      + [Unterdrückungsliste](using/messages/suppression-list.md)
+      + [Zulassungsliste](using/messages/allow-list.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -312,15 +312,15 @@ ht-degree: 98%
          + [Decisions-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + Daten-Management {#data-management}
-   + [Schemas](using/get-started-schemas.md)
-   + [Datensätze](using/get-started-datasets.md)
-   + [Abfragen](using/get-started-queries.md)
+   + [Schemas](using/start/get-started-schemas.md)
+   + [Datensätze](using/start/get-started-datasets.md)
+   + [Abfragen](using/start/get-started-queries.md)
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + Konfigurieren von Nachrichten {#configuration-message}
       + Konfiguration von Push-Benachrichtigungen{#push-config}
-         + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/push-gs.md)
-         + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push-configuration.md)
+         + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/messages/push-gs.md)
+         + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/messages/push-configuration.md)
       + E-Mail-Konfiguration {#email-configuration}
          + Zuweisen von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
@@ -355,7 +355,7 @@ ht-degree: 98%
          + [Informationen zu Aktionen](using/action/action.md)
          + [Konfigurieren einer Aktion](using/action/about-custom-action-configuration.md)
          + [Integrieren mit Adobe Campaign v7/v8](using/action/acc-action.md)
-   + [Quellen](using/get-started-sources.md)
+   + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
    + [Zugriffskontrolle – Übersicht](using/administration/permissions-overview.md)
    + [Integrierte Produktprofile](using/administration/ootb-product-profiles.md)

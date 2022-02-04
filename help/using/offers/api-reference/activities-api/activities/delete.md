@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
 ---
 
-# Entscheidung löschen
+# Entscheidung löschen {#delete-decision}
 
 Hin und wieder kann es erforderlich sein, eine Entscheidung (früher als Angebotsaktivität bezeichnet) zu entfernen (DELETE). Es können nur Entscheidungen gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie mit der $id des Fallback-Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Erstellen von Journey-Berichten{#design-jo-reports}
+# Erstellen von Journey-Berichten {#design-jo-reports}
 
 Zusätzlich zu [Echtzeitberichten](live-report.md) und integrierten [Funktionen für globale Berichte](global-report.md) kann [!DNL Journey Optimizer] Journey-Leistungsdaten automatisch an Adobe Experience Platform senden, damit sie zu Analysezwecken mit anderen Daten kombiniert werden können.
 
@@ -58,11 +58,11 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 
 Weiterführende Informationen zu Berichten über Step-Ereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
 
-## Integration mit Customer Journey Analytics{#integration-cja}
+## Integration mit Customer Journey Analytics {#integration-cja}
 
-Schrittereignisse von Journey Optimizer können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de). Allgemeiner Workflow:
+Step-Ereignisse von Journey Optimizer können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. So sieht der allgemeine Workflow aus:
 
-* Customer Journey Analytics erfasst den Datensatz &quot;Journey-Schritt-Ereignis&quot;.
-* Die **profileID** im zugehörigen &quot;Journey Step Event schema for Journey Orchestration&quot;als Identitätsfeld definiert. In Customer Journey Analytics können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
-* Wenn Sie diesen Datensatz in Customer Journey Analytics für eine kanalübergreifende Journey-Analyse verwenden möchten, lesen Sie dies . [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Customer Journey Analytics nimmt den Datensatz „Step-Ereignis der Journey“ auf.
+* Das Feld **profileID** im zugehörigen „Step-Ereignisschema der Journey für Journey Orchestration“ wird als Identitätsfeld definiert. In Customer Journey Analytics können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
+* Wenn Sie diesen Datensatz in Customer Journey Analytics für eine kanalübergreifende Journey-Analyse verwenden möchten, lesen Sie diese [Dokumentation](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de).
 

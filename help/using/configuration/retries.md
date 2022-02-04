@@ -1,22 +1,12 @@
 ---
 title: Weitere Zustellversuche
 description: Erfahren Sie, wie weitere Zustellversuche durchgeführt werden, bevor eine Adresse an die Unterdrückungsliste gesendet wird.
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -29,7 +19,7 @@ Wenn eine Nachricht aufgrund eines temporären Fehlers des Typs **Softbounce** f
 
 >[!NOTE]
 >
->Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen Sendungen](../suppression-list.md#delivery-failures)
+>Weitere Informationen zu Fehlertypen finden Sie im Abschnitt [Typen von fehlgeschlagenen Sendungen](../messages/suppression-list.md#delivery-failures)
 
 In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
@@ -55,11 +45,7 @@ Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den F
 
    >[!CAUTION]
    >
-   >Ein Wert von mehr als 10 kann Zustellbarkeitsprobleme hinsichtlich der Reputation sowie eine IP-Drosselung oder eine Blockierungsauflistung durch ISPs verursachen. [Weitere Information zur Zustellbarkeit](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >Ein Wert von mehr als 10 kann Zustellbarkeitsprobleme hinsichtlich der Reputation sowie eine IP-Drosselung oder eine Blockierungsauflistung durch ISPs verursachen. [Weitere Information zur Zustellbarkeit](../messages/deliverability.md)
 
 ## Zeitraum für weitere Zustellversuche {#retry-duration}
 
@@ -77,6 +63,3 @@ Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Trans
 
 In [diesem Abschnitt](message-presets.md#create-message-preset) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Nachrichtenvoreinstellung definieren.
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

@@ -4,15 +4,15 @@ solution: Journey Orchestration
 title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 98%
 
 ---
 
 
-# Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen{#passing-collection}
+# Anwendungsfall: Übergeben von Sammlungen dynamisch mithilfe benutzerdefinierter Aktionen{#passing-collection}
 
 Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt:
 
@@ -67,7 +67,6 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
     ]
    }
    ```
-   
 * Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}

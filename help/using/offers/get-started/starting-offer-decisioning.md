@@ -1,19 +1,19 @@
 ---
 title: Erste Schritte mit dem Entscheidungs-Management
-description: Erste Schritte mit dem Entscheidungs-Management Erfahren Sie mehr über die Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können.
+description: Erste Schritte mit dem Entscheidungs-Management Erfahren Sie mehr über die Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 100%
 
 ---
 
-# Über das Entscheidungs-Management  {#about-offer-decision}
+# Über das Entscheidungs-Management  {#about-decision-management}
 
 Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden.
 
@@ -36,7 +36,7 @@ Zu den Vorteilen zählen:
 
 ➡️ [Sehen Sie sich diese Anleitungsvideos an](#tutorial-videos), um mehr über Entscheidungs-Management zu erfahren.
 
-## Über Angebote und Entscheidungen {#offers-offer-activities}
+## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
 Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Einschränkungen, die die Bedingungen festlegen, unter denen das Angebot Kunden unterbreitet wird.
 
@@ -48,7 +48,7 @@ Sobald Angebote der Angebotsbibliothek hinzugefügt wurden, können Sie Ihre Ang
 
 Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versandes unterbreitet werden kann.
 
-## Häufige Anwendungsfälle
+## Häufige Anwendungsfälle {#common-use-cases}
 
 Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Experience Platform können Sie zahlreiche Anwendungsfälle abdecken, um die Interaktion und Konversion von Kunden zu verbessern.
 

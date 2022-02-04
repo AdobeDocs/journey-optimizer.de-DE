@@ -1,19 +1,19 @@
 ---
 title: Erstellen von Platzierungen
-description: Erfahren Sie, wie Sie Platzierungen in Adobe Experience Platform erstellen.
+description: Erfahren Sie, wie Sie Platzierungen für Ihre Angebote erstellen.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 96%
 
 ---
 
-# Platzierungen erstellen {#creating-placements}
+# Platzierungen erstellen {#create-placements}
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 

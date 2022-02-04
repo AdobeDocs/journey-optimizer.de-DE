@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
-workflow-type: ht
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 100%
 
 ---
 
-# Testen der Journey{#testing_the_journey}
+# Testen einer Journey{#testing_the_journey}
 
-Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fehler beheben. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Bevor Sie Ihre Journey testen können, müssen Sie alle eventuell vorhandenen Fehler beheben. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Sie können Ihre Journey vor der Veröffentlichung mit Testprofilen testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben.
 
@@ -23,7 +23,7 @@ Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entw
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
-1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Bei Fehlern wird ein Warnsymbol angezeigt.
+1. Bevor Sie Ihre Journey testen, überprüfen Sie, ob sie gültig ist und keine Fehler vorliegen. Fehlerbehaftete Journeys können nicht getestet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Bei Fehlern wird ein Warnsymbol angezeigt.
 
 1. Um den Testmodus zu aktivieren, klicken Sie in der rechten oberen Ecke auf den Umschalter **[!UICONTROL Test]**.
 

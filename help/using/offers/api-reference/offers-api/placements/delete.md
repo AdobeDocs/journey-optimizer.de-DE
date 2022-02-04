@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-# Platzierung löschen
+# Platzierung löschen {#delete-placement}
 
 Gelegentlich kann es erforderlich sein, eine Platzierung zu entfernen (DELETE). Es können nur Platzierungen gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der Instanz-ID der Platzierung, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

@@ -1,19 +1,19 @@
 ---
-title: Tags erstellen
-description: Erfahren Sie, wie Sie Angebote in Adobe Experience Platform erstellen.
+title: Erstellen von Tags
+description: Erfahren Sie, wie Sie Tags für Ihre Angebote erstellen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 95%
 
 ---
 
-# Tags erstellen {#creating-tags}
+# Tags erstellen {#create-tags}
 
 Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
 

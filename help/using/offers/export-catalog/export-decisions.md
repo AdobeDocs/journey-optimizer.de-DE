@@ -1,12 +1,12 @@
 ---
 title: Erste Schritte mit dem Exportieren eines Angebotskatalogs
-description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Entscheidungen verwendet werden.
+description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Entscheidungen verwendet werden
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 100%
@@ -29,14 +29,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## Kennung
+## Kennung {#identifier}
 
 **Feld:** _id 
 **Titel:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
-## _experience
+## _experience {#experience}
 
 **Feld:** _experience 
 **Typ:** Objekt
@@ -206,14 +206,15 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
       **Feld:** orderEvaluationType
       **Titel:** Reihenfolgenbewertungstyp
-      **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgenstrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
+      **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
+
       **Typ:** Zeichenfolge
       **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 
-   * **Rangfolgenstrategie**
+   * **Rangfolgestrategie**
 
       **Feld:** rankingStrategy
-      **Titel:** Rangfolgenstrategie
+      **Titel:** Rangfolgestrategie
       **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
       **Typ:** Zeichenfolge
 
@@ -254,7 +255,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Beschreibung:** Startdatum und -zeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
-## _repo
+## _repo {#repo}
 
 **Feld:** _repo 
 **Typ:** Objekt

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -22,13 +22,13 @@ Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 * Profilfelder
 * Service-Ereignisfelder
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
 | requestId | Zeichenfolge | Die von Journey Orchestration verwendete Anfrage-ID, um den Fluss einer Anfrage zu verfolgen. |
 
-## journey
+## journey {#journey-field}
 
 Diese Feldergruppe wird im Journey-Schema verwendet (in Verbindung mit journeyStepEvent). Es enthält die folgenden Felder:
 
@@ -40,7 +40,7 @@ Diese Feldergruppe wird im Journey-Schema verwendet (in Verbindung mit journeySt
 | description | Zeichenfolge | Beschreibung der Journey |
 | version | Zeichenfolge | Version, dargestellt als `major`.`minor` |
 
-## profile
+## profile {#profile-field}
 
 Diese Feldergruppe gilt speziell für „journeyStepEvent“: Das Ereignis bezieht sich auf die Journey und verfügt nicht über „identityMap“ zur Beschreibung der Profilidentität (sofern vorhanden).
 
@@ -51,7 +51,7 @@ Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 | ID | Zeichenfolge | Die Profilkennung identifiziert das in einer Journey gesendete/verwendete Profil. Beispiel: foo@adobe.com |
 | namespace | Zeichenfolge | In diesem Feld wird der Namespace beschrieben, auf den das in der Journey verwendete Profil verweist. Beispiel: E-Mail, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
 
@@ -66,6 +66,6 @@ Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
 | eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis eines Informationsereignisses handelt: Info, Fehler |
 | eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Diese Kategorie enthält die ursprünglichen Step-Ereignisfelder. Siehe diesen [Abschnitt](../reports/sharing-legacy-fields.md).

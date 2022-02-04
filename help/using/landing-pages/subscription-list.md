@@ -8,23 +8,23 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
-workflow-type: ht
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Abonnementlisten {#create-subscription-list}
 
-## Was ist eine Abonnementliste?
+## Was ist eine Abonnementliste? {#subscription-list-definition}
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnementliste erfasst.
 
 Ein Anmeldedienst kann sein:
 
-* ein Newsletter, z. B.: „Laufende Serie“
-* ein Ereignis, z. B.: „Summit 2021“
+* einen Newsletter, z. B.: &quot;Laufende Serie&quot;
+* ein Ereignis, z. B.: &quot;Gipfel 2021&quot;
 * ein Webinar, z. B.: „Mehr über Kryptowährungen erfahren“
 * Interesse an einem bestimmten Produkt/Sport/Service usw., z. B.: „Interesse daran, in den nächsten 12 Monaten ein Haus zu kaufen“
 * eine Präferenz für die Art der Benachrichtigung, z. B.: „Empfangen neuer Song-Benachrichtigungen per E-Mail“

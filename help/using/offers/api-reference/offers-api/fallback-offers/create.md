@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
-# Fallback-Angebot erstellen
+# Fallback-Angebot erstellen {#create-fallback-offer}
 
 Sie können ein Fallback-Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
-## Header „Accept“ und „Content-Type“
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
 Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 

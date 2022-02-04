@@ -1,15 +1,15 @@
 ---
 title: 'Anwendungsfall für Personalisierung: E-Mail zum Warenkorbabbruch'
-description: Erfahren Sie, wie Sie eine Nachricht mithilfe der Hilfsfunktionen personalisieren können..
+description: Erfahren Sie, wie Sie den Textkörper einer E-Mail-Nachricht mithilfe eines Anwendungsbeispiels personalisieren können.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -26,8 +26,8 @@ Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Bevor Sie beginnen, sollten Sie wissen, wie Sie diese Elemente konfigurieren:
-* Eine E-Mail-Nachricht. [Weitere Informationen](../create-message.md)
-* Der Textkörper einer E-Mail. [Weitere Informationen](../create-email-content.md).
+* Eine E-Mail-Nachricht. [Weitere Informationen](../messages/create-message.md)
+* Der Textkörper einer E-Mail. [Weitere Informationen](../messages/create-email-content.md).
 * Ein unitäres Ereignis. [Weitere Informationen](../event/about-events.md).
 * Eine Journey, die mit einem Ereignis beginnt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Vergewissern Sie sich, dass kein Fehler vorliegt, und veröffentlichen Sie die Journey.
 
 
-## Verwandte Themen
+## Verwandte Themen {#related-topics}
 
-### Handlebars-Funktionen
+### Handlebars-Funktionen {#handlebars}
 
 * [Helper](functions/helpers.md)
 
 * [Zeichenfolgen-Funktionen](functions/string.md)
 
-### Anwendungsbeispiele
+### Anwendungsbeispiele {#use-case}
 
 * [Personalisierung mit Profilinformationen, Kontext und Angebot](personalization-use-case.md)
 

@@ -1,15 +1,15 @@
 ---
-title: Administration und Einstellungen
-description: Erfahren Sie mehr über Richtlinien zu Administration und Einstellungen
+title: Konfigurieren von Journeys
+description: Erfahren Sie, wie Sie Data Sources, Ereignisse und Aktionen konfigurieren.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 97%
 
 ---
 
@@ -19,17 +19,17 @@ Um Nachrichten mit Journeys zu senden, müssen Sie **[!UICONTROL Datenquellen]**
 
 ![](../assets/admin-menu.png)
 
-## Datenquellen
+## Datenquellen {#data-sources}
 
 Mit der Konfiguration von Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen. [Weitere Informationen](../../using/datasource/about-data-sources.md)
 
-## Ereignisse
+## Ereignisse {#events}
 
 Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.
 
 In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). [Weitere Informationen](../../using/event/about-events.md)
 
-## Aktionen
+## Aktionen {#actions}
 
 Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. [Weitere Informationen](../../using/action/action.md)
 

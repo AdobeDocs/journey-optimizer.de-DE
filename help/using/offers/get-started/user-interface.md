@@ -1,12 +1,12 @@
 ---
 title: Benutzeroberfläche
-description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek.
+description: Erfahren Sie mehr über die Benutzeroberfläche der Angebotsbibliothek
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -69,7 +69,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Alle anzeigen]**, um auf die Ang
 
 ![](../../assets/overview_view-all.png)
 
-## Informationen suchen und filtern
+## Informationen suchen und filtern {#search-and-filter-information}
 
 Verwenden Sie die **Suchleiste**, um ein bestimmtes Element zu suchen.
 
@@ -77,9 +77,9 @@ Sie können auch auf **Filter** zugreifen, indem Sie auf das Filtersymbol links 
 
 ![](../../assets/filters.png)
 
-## Angezeigte Informationen anpassen
+## Angezeigte Informationen anpassen {#customize-displayed-information}
 
-Listen aus Menüs zum Entscheidung-Management können mithilfe der Konfigurations-Schaltfläche oben rechts neben den Listen personalisiert werden.
+Listen aus Menüs zum Entscheidungs-Management können mithilfe der Konfigurations-Schaltfläche oben rechts neben den Listen personalisiert werden.
 
 So können Sie je nach Bedarf die Informationen auswählen, die angezeigt werden sollen.
 
@@ -87,7 +87,7 @@ Beachten Sie, dass die Spaltenanpassung für jeden Benutzer gespeichert wird.
 
 ![](../../assets/columns.png)
 
-## Informationsbereich
+## Informationsbereich {#information-pane}
 
 Wählen Sie in den verschiedenen Listen ein Element aus, um einen Informationsbereich anzuzeigen, in dem Sie Informationen abrufen und grundlegende Aktionen für das Element ausführen können.
 

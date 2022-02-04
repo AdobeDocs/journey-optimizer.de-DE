@@ -1,29 +1,19 @@
 ---
 title: Erstellen von IP-Pools
 description: „Informationen zum Verwalten von IP-Pools“
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Erstellen von IP-Pools
+# Erstellen von IP-Pools {#create-ip-pools}
 
 ## Über IP-Pools {#about-ip-pools}
 
@@ -84,9 +74,7 @@ So bearbeiten Sie einen IP-Pool:
 Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool mit einer [Nachrichtenvoreinstellung](message-presets.md) verknüpft ist oder nicht:
 
 * Wenn der IP-Pool in einer Nachrichtenvoreinstellung **nicht** ausgewählt ist, erfolgt die Aktualisierung sofort (Status **[!UICONTROL Erfolg]**).
-* Wenn der IP-Pool **in einer Nachrichtenvoreinstellung ausgewählt ist**, kann die Aktualisierung bis zu 7–10 Werktage dauern (Status **[!UICONTROL Wird verarbeitet]**).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
+* Wenn der IP-Pool **is** in einer Nachrichtenvorgabe ausgewählt ist, kann die Aktualisierung bis zu 7 bis 10 Werktage dauern (**[!UICONTROL Verarbeitung]** Status).
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 

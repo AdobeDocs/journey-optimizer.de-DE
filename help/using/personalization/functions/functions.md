@@ -6,8 +6,8 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
-workflow-type: ht
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 </table>
 </table>
 
-### Zuordnungsfunktionen
+### Zuordnungsfunktionen {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     </tr>
 </table>
 
-### Zeichenfolgen-Funktionen
+### Zeichenfolgen-Funktionen {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ Mit arithmetischen Funktionen lassen sich einfache Berechnungen für Werte durch
 </table>
 
 
-### Boolesche Funktionen
+### Boolesche Funktionen {#boolean-functions}
 
 Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene Elemente anzuwenden.
 
@@ -300,7 +300,7 @@ Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene 
 </table>
 
 
-### Vergleichsfunktionen
+### Vergleichsfunktionen {#comparison-functions}
 
 Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und Werten zu vergleichen und entsprechend „true“ oder „false“ zurückzugeben.
 

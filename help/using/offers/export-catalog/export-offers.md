@@ -1,12 +1,12 @@
 ---
 title: Datensatz für personalisierte Angebote
-description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Angebote verwendet werden.
+description: In diesem Abschnitt werden alle Felder aufgelistet, die im exportierten Datensatz für Angebote verwendet werden
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
@@ -29,14 +29,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Kennung
+## Kennung {#identifier}
 
 **Feld:** _id 
 **Titel:** Kennung
 **Beschreibung:** Eine eindeutige Kennung für den Datensatz.
 **Typ:** Zeichenfolge
 
-## _experience
+## _experience {#experience}
 
 **Feld:** _experience 
 **Typ:** Objekt
@@ -285,14 +285,15 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
    **Feld:** orderEvaluationType
    **Titel:** Reihenfolgenbewertungstyp
-   **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgenstrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
+   **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
+
    **Typ:** Zeichenfolge
    **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 
-* **Rangfolgenstrategie**
+* **Rangfolgestrategie**
 
    **Feld:** rankingStrategy
-   **Titel:** Rangfolgenstrategie
+   **Titel:** Rangfolgestrategie
    **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Typ:** Zeichenfolge
 
@@ -314,7 +315,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Feld:** _repo 
 **Typ:** Objekt

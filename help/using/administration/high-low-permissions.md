@@ -1,25 +1,14 @@
 ---
 title: Berechtigungsebenen
 description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene.
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
+source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
 workflow-type: tm+mt
 source-wordcount: '1050'
-ht-degree: 55%
+ht-degree: 98%
 
 ---
 
@@ -30,17 +19,17 @@ ht-degree: 55%
 Jedes Produktprofil besteht aus Berechtigungen, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die zugewiesen werden können **[!UICONTROL Produktprofil]** im [!DNL Admin console], z. B. **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
+* **Berechtigung auf hoher Ebene**: beinhaltet die verschiedenen Berechtigungen, die **[!UICONTROL Produktprofilen]** in [!DNL Admin console] zugewiesen werden können, z. B. **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
 
 * **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
-Beispiel: die **[!DNL Journey administrator]** dem Produktprofil wird die **[!DNL Manage journeys]** Berechtigung. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
+Dem Produktprofil **[!DNL Journey administrator]** wird zum Beispiel die Berechtigung **[!DNL Manage journeys]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 
 ## Journey-Funktion {#journey-capability}
 
-### [!DNL Manage journeys] Berechtigung {#manage-journeys}
+### Berechtigung [!DNL Manage journeys] {#manage-journeys}
 
-Die **[!DNL Manage journeys]** Die Berechtigung auf hoher Ebene ermöglicht es Benutzern, neue Journey zu erstellen und bestehende zu bearbeiten/zu löschen sowie auf die Objekte zuzugreifen, die in der Journey-Arbeitsfläche zum Erstellen des Journey-Flusses verwendet werden.
+Die Berechtigung **[!DNL Manage journeys]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener Journeys sowie den Zugriff auf die Objekte, die in der Journey-Arbeitsfläche zum Erstellen des Journey Flow verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -58,9 +47,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] Berechtigung {#publish-journeys}
+### Berechtigung [!DNL Publish journeys] {#publish-journeys}
 
-Die **[!DNL Publish journeys]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, Journey zu veröffentlichen.
+Mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene können Benutzer Journeys veröffentlichen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -68,9 +57,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] Berechtigung {#view-journeys}
+### Berechtigung [!DNL View journeys] {#view-journeys}
 
-Die **[!DNL View journeys]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journey.
+Die Berechtigung **[!DNL View journeys]** auf hoher Ebene ermöglicht Benutzern das Durchsuchen und Anzeigen von Journeys.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -81,9 +70,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] Berechtigung {#manage-journeys-events}
+### Berechtigung [!DNL Manage journeys events, data sources and actions] {#manage-journeys-events}
 
-Die **[!DNL Manage journeys events, data sources and actions]** Mit Berechtigungen auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen konfigurieren.
+Mit der Berechtigung **[!DNL Manage journeys events, data sources and actions]** auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen durchführen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -103,9 +92,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] Berechtigung {#view-journeys-event}
+### Berechtigung [!DNL View journeys events, data sources and actions] {#view-journeys-event}
 
-Die **[!DNL View journeys events, data sources and actions]** -Berechtigung auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey-Fluss.
+Die Berechtigung **[!DNL View journeys events, data sources and actions]** auf hoher Ebene ermöglicht Benutzern die Verwendung von Ereignissen und Daten im Journey Flow. 
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -119,9 +108,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys report] Berechtigung {#view-journeys-report}
+### Berechtigung [!DNL View journeys report] {#view-journeys-report}
 
-Die **[!DNL View journeys report]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, schreibgeschützten Journey-Bericht zu erstellen.
+Die Berechtigung **[!DNL View journeys report]** auf hoher Ebene ermöglicht es Benutzern, auf schreibgeschützte Journey-Berichte zuzugreifen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -137,9 +126,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Nachrichtenfunktionen {#message-capability}
 
-### [!DNL Manage messages] Berechtigung {#manage-messages}
+### Berechtigung [!DNL Manage messages] {#manage-messages}
 
-Die **[!DNL Manage messages]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Erstellen und Bearbeiten und Löschen von Nachrichten.
+Mit der Berechtigung **[!DNL Manage messages]** auf hoher Ebene können Benutzer Nachrichten erstellen und bearbeiten/löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -153,9 +142,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * segments.read
    * schemas.read
 
-### [!DNL Manage messages preview and test] Berechtigung {#mange-messages-preview}
+### Berechtigung [!DNL Manage messages preview and test] {#mange-messages-preview}
 
-Die **[!DNL Manage messages preview and test]** -Berechtigung auf hoher Ebene ermöglicht Benutzern die Vorschau einer personalisierten Nachricht.
+Die Berechtigung **[!DNL Manage messages preview and test]** auf hoher Ebene ermöglicht Benutzern die Vorschau einer personalisierten Nachricht.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -175,9 +164,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * queries.write
    * merge_policies.read
 
-### [!DNL Publish messages] Berechtigung {#publish-messages}
+### Berechtigung [!DNL Publish messages] {#publish-messages}
 
-Die **[!DNL Publish messages]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Veröffentlichen von Nachrichten.
+Mit der Berechtigung **[!DNL Publish messages]** auf hoher Ebene können Benutzer Nachrichten veröffentlichen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -189,9 +178,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * schemas.read
    * datasets.read
 
-### [!DNL View messages] Berechtigung {#view-messages}
+### Berechtigung [!DNL View messages] {#view-messages}
 
-Die **[!DNL View messages]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, nur Nachrichten zu lesen.
+Mit der Berechtigung **[!DNL View messages]** auf hoher Ebene können Benutzer nur Nachrichten lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -203,9 +192,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * schemas.read
    * segments.read
 
-### [!DNL View messages report] Berechtigung {#view-message-reports}
+### Berechtigung [!DNL View messages report] {#view-message-reports}
 
-Die **[!DNL View messages report]** Mit allgemeinen Berechtigungen können Benutzer schreibgeschützte E-Mail- und Push-Berichte erstellen.
+Mit der Berechtigung **[!DNL View messages report]** auf hoher Ebene können Benutzer schreibgeschützte E-Mail- und Push-Berichte lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -219,9 +208,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Entscheidungs-management-funktion {#decisions-permissions}
 
-### [!DNL Manage decisions] Berechtigung {#manage-decisioning}
+### Berechtigung [!DNL Manage decisions] {#manage-decisioning}
 
-Die **[!DNL Manage decisions]** Berechtigung auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und Bearbeiten/Löschen vorhandener **[!DNL Activity entities]** und verwalten die Objekte, die in diesen Aktivitäten für die Entscheidungsfindung verwendet werden.
+Die Berechtigung **[!DNL Manage decisions]** auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und das Bearbeiten/Löschen vorhandener **[!DNL Activity entities]** sowie das Verwalten der Objekte, die in diesen Aktivitäten zur Entscheidungsfindung verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -245,9 +234,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profile.read
    * segments.read
 
-### [!DNL View decisions] Berechtigung {#view-decisions}
+### Berechtigung [!DNL View decisions] {#view-decisions}
 
-Die **[!DNL View decisions]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, eine vorhandene Aktivität und verwandte Geschäftsobjekte zu verwenden, um Entscheidungen zu treffen.
+Mit der Berechtigung **[!DNL View decisions]** auf hoher Ebene können Benutzer eine vorhandene Aktivität und zugehörige Geschäftsobjekte verwenden, um Entscheidungen zu treffen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -264,9 +253,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] Berechtigung {#publish-decisions}
+### Berechtigung [!DNL Publish offers decisioning] {#publish-decisions}
 
-Die **[!DNL Publish offers decisioning]** -Berechtigung auf hoher Ebene ermöglicht Benutzern den Zugriff auf die Genehmigung/Aufhebung der Genehmigung von Angebotsaktivitäten.
+Die Berechtigung **[!DNL Publish offers decisioning]** auf hoher Ebene ermöglicht es Benutzern, Angebotsaktivitäten zu genehmigen bzw. deren Genehmigung zurückzunehmen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -286,9 +275,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] Berechtigung {#manage-decisions}
+### Berechtigung [!DNL Manage ranking strategies] {#manage-decisions}
 
-Die **[!DNL Manage ranking strategies]** Mit allgemeinen Berechtigungen können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
+Mit der Berechtigung **[!DNL Manage ranking strategies]** auf hoher Ebene können Benutzer benutzerdefinierte Nachrichtenberichte lesen, erstellen, bearbeiten und löschen sowie Aktionsfunktionen verwenden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -302,9 +291,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ## Verwaltungsfunktionen {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] Berechtigung {#manage-subdomain}
+### Berechtigung [!DNL Manage subdomains delegation] {#manage-subdomain}
 
-Die **[!DNL Manage subdomains delegation]** Mit einer allgemeinen Berechtigung können Benutzer Subdomain-Delegationen erstellen, bearbeiten und löschen (einschließlich IP-Pool).
+Mit der Berechtigung **[!DNL Manage subdomains delegation]** auf hoher Ebene können Benutzer die Zuweisung von Subdomains (einschließlich IP-Pool) erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -312,7 +301,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### [!DNL Manage PTR records] Berechtigung {#manage-ptr}
+### Berechtigung [!DNL Manage PTR records] {#manage-ptr}
 
 Die **[!DNL Manage PTR records]** Mit allgemeinen Berechtigungen können Benutzer PTR-Einträge lesen und bearbeiten, die basierend auf der Subdomain konfiguriert wurden.
 
@@ -322,18 +311,18 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * PTR_records.write
 * subdomains_delegation.read
 
-### [!DNL View PTR records] Berechtigung {#view-ptr}
+### Berechtigung [!DNL View PTR records] {#view-ptr}
 
-Die **[!DNL View PTR records]** Mit einer allgemeinen Berechtigung können Benutzer PTR-Datensätze anzeigen, die basierend auf der Subdomain konfiguriert wurden.
+Die Berechtigung **[!DNL View PTR records]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von PTR-Einträgen, die basierend auf der Subdomain konfiguriert wurden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### [!DNL Manage IP pools] Berechtigung {#manage-ip-pools}
+### Berechtigung [!DNL Manage IP pools] {#manage-ip-pools}
 
-Die **[!DNL Manage IP pools]** Mit Berechtigung auf hoher Ebene können Benutzer die Affinitätsdefinition erstellen, bearbeiten und löschen.
+Mit der Berechtigung **[!DNL Manage IP pools]** auf hoher Ebene können Benutzer eine Affinitätsdefinition erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -341,9 +330,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] Berechtigung {#manage-message-settings}
+### Berechtigung [!DNL Manage messages general settings] {#manage-message-settings}
 
-Die **[!DNL Manage messages general settings]** Mit Berechtigungen auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Mit der Berechtigung **[!DNL Manage messages general settings]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -354,9 +343,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### [!DNL View messages general settings] Berechtigung {#view-message-settings}
+### Berechtigung [!DNL View messages general settings] {#view-message-settings}
 
-Die **[!DNL View messages general settings]** -Berechtigung auf hoher Ebene ermöglicht Benutzern, allgemeine Einstellungen für Nachrichten wie die Ausführungsadresse anzuzeigen.
+Die Berechtigung **[!DNL View messages general settings]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Ausführungsadressen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -365,9 +354,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
 
-### [!DNL Manage messages presets] Berechtigung {#manage-message-presets}
+### Berechtigung [!DNL Manage messages presets] {#manage-message-presets}
 
-Die **[!DNL Manage messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Nachrichtenvorgaben kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Die Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvoreinstellungen kanalübergreifend auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -379,20 +368,20 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] Berechtigung {#view-message-presets}
+### Berechtigung [!DNL View messages presets] {#view-message-presets}
 
-Die **[!DNL View messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Nachrichtenvorgaben anzeigen, um zu erfahren, welche Nachrichtenvorgaben beim Erstellen einer Nachricht verwendet werden sollen.
+Mit der Berechtigung **[!DNL View messages presets]** auf hoher Ebene können Benutzer Nachrichtenvoreinstellungen anzeigen, um zu erfahren, welche Nachrichtenvoreinstellungen beim Erstellen einer Nachricht verwendet werden sollen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (aus der Adobe Experience Platform-Datenerfassung)
+* mobile_setting.read (aus Adobe Experience Platform-Datensammlung)
 
-### [!DNL Manage suppression] Berechtigung {#manage-suppression}
+### Berechtigung [!DNL Manage suppression] {#manage-suppression}
 
-Die **[!DNL Manage suppression]** Mit einer allgemeinen Berechtigung können Benutzer die Anzahl der Bounces definieren, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
+Mit der Berechtigung auf hoher Ebene **[!DNL Manage suppression]** können Benutzer definieren, wie viele Bounces auftreten können, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -402,9 +391,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * suppression_list.write
 * suppression_list.delete
 
-### [!DNL View suppression list] Berechtigung {#view-suppression-list}
+### Berechtigung [!DNL View suppression list] {#view-suppression-list}
 
-Die **[!DNL View suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, den Inhalt und die Einstellungen der Unterdrückungsliste anzuzeigen.
+Mit der Berechtigung **[!DNL View suppression list]** auf hoher Ebene können Benutzer den Inhalt und die Einstellungen der Unterdrückungsliste anzeigen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -415,9 +404,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] Berechtigung {#export-suppression-list}
+### Berechtigung [!DNL Export suppression list] {#export-suppression-list}
 
-Die **[!DNL Export suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, die Unterdrückungsliste als CSV-Datei herunterzuladen.
+Mit der Berechtigung auf hoher Ebene **[!DNL Export suppression list]** können Benutzer die Unterdrückungsliste als CSV-Datei herunterladen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

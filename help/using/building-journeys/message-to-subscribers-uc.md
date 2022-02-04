@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 96%
 
 ---
 
-# Senden einer Nachricht an Abonnenten auf einer Liste
+# Anwendungsfall: eine Nachricht an die Abonnenten einer Liste senden{#send-a-message-to-the-subscribers-of-a-list}
 
 In diesem Anwendungsbeispiel soll eine Journey erstellt werden, um eine Nachricht an die Abonnenten auf einer Liste zu senden.
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
 ---
 
-# Fallback-Angebote nachschlagen
+# Fallback-Angebote nachschlagen {#look-up-fallback-offers}
 
 Sie können nach einzelnen Fallback-Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` des Fallback-Angebots oder den Namen des Fallback-Angebots im Anfragepfad enthält.
 

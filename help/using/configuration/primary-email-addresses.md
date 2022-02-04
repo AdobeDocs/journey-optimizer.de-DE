@@ -1,25 +1,15 @@
 ---
-title: Allgemeine Nachrichteneinstellungen
-description: Erfahren Sie, wie Sie E-Mail-Adressen festlegen
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: 'Primäre E-Mail-Adressen ändern '
+description: Erfahren Sie, wie Sie bestimmen, welche E-Mail-Adresse vom Profildienst verwendet werden soll.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 89%
 
 ---
 

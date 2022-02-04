@@ -1,11 +1,12 @@
 ---
 title: Personalisierungssyntax
-description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden
+description: Erfahren Sie, wie Sie die Personalisierungssyntax verwenden.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 100%
@@ -28,7 +29,7 @@ Hier gilt:
 * `profile` ist ein Namespace.
 * `person.name` ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
-## Allgemeine Syntaxregeln
+## Allgemeine Syntaxregeln {#general-rules}
 
 Kennungen können beliebige Unicode-Zeichen sein, mit Ausnahme folgender Einschränkungen:
 
@@ -75,7 +76,7 @@ In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Pr
 >[!NOTE]
 >Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-## Angebote
+## Angebote {#offers-syntax}
 
 In diesem Namespace können Sie bestehende Entscheidungen referenzieren.
 Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die das Angebot definieren.
@@ -127,7 +128,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 >
 >Hilfsfunktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
 
-## Literaltypen
+## Literaltypen {#literal-types}
 
 [!DNL Adobe Journey Optimizer] unterstützt die folgenden Literaltypen:
 
@@ -146,7 +147,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie dazu folgendermaßen vor:
 
-* Erstellen Sie einen Link im Inhalt Ihrer E-Mail oder Push-Benachrichtigung. Weitere Informationen zur Erstellung von Links finden Sie auf [dieser Seite](../message-tracking.md#insert-links).
+* Erstellen Sie einen Link im Inhalt Ihrer E-Mail oder Push-Benachrichtigung. Weitere Informationen zur Erstellung von Links finden Sie auf [dieser Seite](../messages/message-tracking.md#insert-links).
 * Klicken Sie auf das Personalisierungssymbol. Dieses Symbol ist für diese spezifischen Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out-Link**.
 
 ![](assets/perso-url.png)

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
-workflow-type: ht
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt.
 
-## Nachrichten-/Aktionsfehler
+## Nachrichten-/Aktionsfehler {#message-action-errors}
 
-### Liste aller in Journeys aufgetretenen Fehler
+### Liste aller in Journeys aufgetretenen Fehler {#error-list-journey}
 
 Mithilfe dieser Abfrage können Sie jeden in Journeys aufgetretenen Fehler beim Ausführen einer Nachricht/Aktion auflisten.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Diese Abfrage gibt alle Fehler zurück, die beim Ausführen einer Aktion in einer Journey aufgetreten sind, zusammen mit der Anzahl der aufgetretenen Fehler.
 
-## Profilbasierte Abfragen
+## Profilbasierte Abfragen {#profile-based-queries}
 
-### Ermitteln, ob ein Profil in eine bestimmte Journey eingetreten ist
+### Ermitteln, ob ein Profil in eine bestimmte Journey eingetreten ist {#profile-entered-journey}
 
 _Data-Lake-Abfrage_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Das Ergebnis sollte größer als 0 sein. Diese Abfrage gibt die genaue Anzahl der Eintritte eines Profils in eine Journey zurück.
 
-### Ermitteln, ob eine bestimmte Nachricht an ein Profil gesendet wurde
+### Ermitteln, ob eine bestimmte Nachricht an ein Profil gesendet wurde {#profile-specific-message}
 
 **Methode 1:** Wenn der Name Ihrer Nachricht in der Journey nicht eindeutig ist (er wird an mehreren Stellen verwendet).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für das ausgewählte Profil aufgerufenen Nachrichten zurück.
 
-## Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat
+## Ermitteln aller Nachrichten, die ein Profil in den letzten 30 Tagen erhalten hat {#message-received-30-days}
 
 _Data-Lake-Abfrage_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 Die Abfrage gibt die Liste aller Nachrichten zusammen mit der Anzahl der für das ausgewählte Profil aufgerufenen Nachrichten zurück.
 
-### Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist
+### Ermitteln aller Journeys, in die ein Profil in den letzten 30 Tagen eingetreten ist {#profile-entered-30-days}
 
 _Data-Lake-Abfrage_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 Die Abfrage gibt die Liste aller Journey-Namen sowie die Anzahl der Eintritte des abgefragten Profils in die Journey zurück.
 
-### Anzahl der Profile, die sich täglich für eine Journey qualifiziert haben
+### Anzahl der Profile, die sich täglich für eine Journey qualifiziert haben {#profile-qualified}
 
 _Data-Lake-Abfrage_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 Die Abfrage gibt für den definierten Zeitraum die tägliche Anzahl der Profile zurück, die in die Journey eingetreten sind. Wenn ein Profil über mehrere Identitäten eingetreten ist, wird es zweimal gezählt. Wenn der erneute Eintritt aktiviert ist, kann die Anzahl der Profile über unterschiedliche Tage hinweg mehrfach gezählt werden, wenn ein Profil an einem anderen Tag erneut in die Journey eingetreten ist.
 
-## Journey-basierte Abfragen
+## Journey-basierte Abfragen {#journey-based-queries}
 
-### Anzahl der täglich aktiven Journeys
+### Anzahl der täglich aktiven Journeys {#daily-active-journeys}
 
 _Data-Lake-Abfrage_
 

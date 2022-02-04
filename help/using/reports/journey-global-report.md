@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: aef6ac3f153e5d42f9557afef1e9f1b310d3fa12
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 * **[!UICONTROL Ignoriert]**: Die Gesamtzahl der temporären Ereignisse, beispielsweise Abwesenheit, oder technischer Fehler, zum Beispiel wenn der Absendertyp Postmaster ist.
 
-Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../suppression-list.md).
+Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../messages/suppression-list.md).
 
 ![](../assets/global_report_16.png)
 

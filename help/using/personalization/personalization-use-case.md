@@ -1,13 +1,13 @@
 ---
 title: Anwendungsfall Personalisierung&colon; Bestellstatus-Benachrichtigung
-description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebotsentscheidungs- und Kontextinformationen personalisieren.
+description: Erfahren Sie, wie Sie eine Nachricht mit Profil-, Angebotsentscheidungs- und Kontextinformationen personalisieren..
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
-workflow-type: ht
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualis
 
 Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
-* Erstellen und gestalten einer Push-Benachrichtigung, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../create-message.md).
+* Erstellen und gestalten einer Push-Benachrichtigung, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../messages/create-message.md).
 * Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
 * Erstellen einer Entscheidung (früher als „Angebotsaktivität“ bezeichnet), siehe diesen [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
-## Schritt 1 – Personalisierung in Profil hinzufügen
+## Schritt 1 – Personalisierung in Profil hinzufügen {#add-perso}
 
 1. Klicken Sie auf das Menü **[!UICONTROL Nachricht]** und wählen Sie Ihre Nachricht aus.
 
@@ -47,7 +47,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
    >
    >Belassen Sie die Nachricht als Entwurf. Veröffentlichen Sie sie noch nicht.
 
-## Schritt 2 – Journey erstellen
+## Schritt 2 – Journey erstellen {#create-journey}
 
 1. Klicken Sie auf das Menü **[!UICONTROL Journey]** und erstellen Sie eine neue Journey.
 
@@ -69,7 +69,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
    >
    >Die Meldung wird mit einem Warnsymbol angezeigt. Dies liegt daran, dass die Nachricht noch nicht veröffentlicht wurde.
 
-## Schritt 3 – Personalisierung für Kontextdaten hinzufügen 
+## Schritt 3 – Personalisierung für Kontextdaten hinzufügen  {#add-perso-contextual-data}
 
 1. Klicken Sie in der Aktivität **Nachricht** auf das Symbol **Nachricht öffnen**. Die Nachricht wird in einer neuen Registerkarte geöffnet.
 
@@ -110,7 +110,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc16.png)
 
-## Schritt 4 – Journey testen und veröffentlichen 
+## Schritt 4 – Journey testen und veröffentlichen  {#test-publish}
 
 1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf die Schaltfläche **Test** und dann auf **Ereignis auslösen**.
 

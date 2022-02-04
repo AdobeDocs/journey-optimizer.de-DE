@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
-# Fehlerbehebung{#concept_nlv_bcv_2fb}
+# Beheben von Fehlern in einer Journey{#troubleshooting}
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-## Fehlersuche vor dem Testen{#section_h3q_kqk_fhb}
+## Vor dem Testen auf Fehler prüfen{#checking-for-errors-before-testing}
 
 Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
 
@@ -41,7 +41,7 @@ Fehler und Warnungen, die die gesamte Journey betreffen, werden in der Liste zue
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#section_rqz_11t_dgb}
+## Überprüfen, ob Ereignisse ordnungsgemäß gesendet werden{#checking-that-events-are-properly-sent}
 
 Der Ausgangspunkt einer Journey ist stets ein Ereignis. Sie können mithilfe von Tools wie Postman Tests durchführen.
 
@@ -49,7 +49,7 @@ Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, ric
 
 Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target=&quot;_blank&quot;} aufrufen.
 
-## Überprüfen, ob Personen in die Journey eintreten{#section_x4v_zzs_dgb}
+## Überprüfen Sie, ob Benutzer die Journey eingeben.{#checking-if-people-enter-the-journey}
 
 Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
@@ -69,7 +69,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
    Content-type - application/json
    ```
 
-## Überprüfen, wie Personen durch die Journey navigieren{#section_l5y_yzs_dgb}
+## Überprüfen, wie Benutzer durch die Journey navigieren{#checking-how-people-navigate-through-the-journey}
 
 Berichte zu Journey messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
@@ -78,7 +78,7 @@ Prüfen Sie folgende Punkte:
 * Ist das Problem auf eine Bedingung zurückzuführen, mit der die Person ausgeschlossen wird? Beispiel: Die Bedingung lautet „Geschlecht = männlich“, während die Person eine Frau ist. Die Prüfung kann von einem Business-Anwender vorgenommen werden, solange die Bedingung nicht zu komplex ist.
 * Ist das Problem auf einen Aufruf einer Datenquelle zurückzuführen, die nicht reagiert? Wenn sich die Journey im Test befindet, können diese Informationen in Testmodusprotokollen angezeigt werden. Wenn die Journey live ist, kann ein Administrator direkte Aufrufe an die Datenquelle testen und die erhaltene Antwort überprüfen. Alternativ kann ein Administrator die Journey duplizieren und dann testen.
 
-## Überprüfen, ob Nachrichten erfolgreich gesendet werden{#section_qb1_yzs_dgb}
+## Überprüfen, ob Nachrichten erfolgreich gesendet wurden{#checking-that-messages-are-sent-successfully}
 
 Wenn Kontakte dem richtigen Weg entlang der Journey folgen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes prüfen:
 

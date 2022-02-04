@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Externe Datenquellen {#concept_t2s_kqt_52b}
+# Externe Datenquellen {#external-data-sources}
 
 Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen herstellen, z. B. wenn Sie ein Hotelbuchungssystem verwenden, um zu überprüfen, ob die Person ein Zimmer gebucht hat. Anders als bei der integrierten Adobe Experience Platform-Datenquelle können Sie beliebig viele externe Datenquellen erstellen.
 
@@ -53,7 +53,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
    ![](../assets/journey27.png)
 
-1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In unserem Beispiel wählen wir:
+1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir:
 
    * **[!UICONTROL Typ]**: „API-Schlüssel“
    * **[!UICONTROL Name]**: „appid“ (dies ist der Name des API-Schlüsselparameters)
@@ -87,7 +87,7 @@ Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Die Datenquelle ist jetzt konfiguriert und kann in Ihren Journeys verwendet werden, z. B. in Ihren Bedingungen oder zur Personalisierung einer E-Mail. Wenn die Temperatur über 30° C liegt, können Sie sich entscheiden, eine bestimmte Mitteilung zu senden.
 
-## Benutzerdefinierter Authentifizierungsmodus{#section_wjp_nl5_nhb}
+## Benutzerdefinierter Authentifizierungsmodus{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
@@ -185,4 +185,4 @@ Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinie
 
 >[!NOTE]
 >
->Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. In der benutzerdefinierten Authentifizierungs-Payload kann sie durch Angabe einer anderen Aufbewahrungsdauer angepasst werden.
+>Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.

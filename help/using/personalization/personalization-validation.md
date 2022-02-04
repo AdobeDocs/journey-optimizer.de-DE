@@ -1,12 +1,12 @@
 ---
 title: Validierung der Personalisierung
-description: Erfahren Sie mehr über die Validierung der Personalisierung und wie Sie Fehler beheben können
+description: Erfahren Sie mehr über die Validierung der Personalisierung und wie Sie Fehler beheben können.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Validierung der Personalisierung {#personalization-validation}
 
-## Mechanismen der Validierung
+## Mechanismen der Validierung {#validation-mechanisms}
 
 Verwenden Sie im Bildschirm **Ausdruckseditor** den Button **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
 
@@ -27,7 +27,7 @@ Verwenden Sie im Bildschirm **Ausdruckseditor** den Button **Validieren**, um Ih
 >[!IMPORTANT]
 > Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
 
-## Häufige Fehler
+## Häufige Fehler {#common-errors}
 
 * **Pfad „XYZ“ nicht gefunden**
 
@@ -67,7 +67,7 @@ Handlebars-Ausdrücke sind von **{{expression}}** umgeben.
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Spezifische Fehler im Zusammenhang mit Angeboten
+## Spezifische Fehler im Zusammenhang mit Angeboten {#specific-errors}
 
 Die Fehler bei der Integration von Angeboten in eine E-Mail-Nachricht oder Push-Benachrichtigung haben das folgende Muster:
 

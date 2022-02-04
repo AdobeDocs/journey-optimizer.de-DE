@@ -1,19 +1,19 @@
 ---
 title: Wichtige Schritte zum Erstellen eines Angebots
-description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut.
+description: Machen Sie sich mit den wichtigsten Schritten für die Erstellung eines Angebots vertraut
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
 ---
 
-# Wichtigste Schritte bei der Angebotserstellung und -verwaltung {#key-steps}
+# Wichtigste Schritte bei der Angebotserstellung und -verwaltung {#key-steps-to-manage-offers}
 
 Nachfolgend werden die wichtigsten Schritte zum Erstellen, Konfigurieren und Verwalten von Angeboten sowie deren Verwendung in einer Entscheidung beschrieben.
 
@@ -21,7 +21,7 @@ Nachfolgend werden die wichtigsten Schritte zum Erstellen, Konfigurieren und Ver
 
 Ein vollständiges Beispiel zur Konfiguration von Angeboten, zur Verwendung in einer Entscheidung und zur Nutzung dieser Entscheidung in einer E-Mail finden Sie auf [dieser Seite](../offers-e2e.md).
 
-## Erstellen von Komponenten
+## Erstellen von Komponenten {#create-components}
 
 Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponenten definieren, die Sie in Ihren Angeboten verwenden wollen.
 
@@ -41,7 +41,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Erstellen von Rangfolgeformeln</a></p></td>
 </table>
 
-## Angebote erstellen und verwalten
+## Angebote erstellen und verwalten {#create-and-manage-offers}
 
 1. **Erstellen Sie Angebote** und konfigurieren Sie deren Inhalt und Eigenschaften.
 
@@ -56,7 +56,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Erstellen von Kollektionen</a></p></td></tr>
 </table>
 
-## Entscheidungen erstellen und konfigurieren
+## Entscheidungen erstellen und konfigurieren {#create-and-configure-decisions}
 
 1. **Erstellen Sie eine Entscheidung**, die Platzierungen mit den personalisierten Angeboten und den Fallback-Angeboten kombiniert. Diese Kombination wird vom Offer Decisioning-Modul verwendet, um das beste Angebot für ein bestimmtes Profil zu finden.
 

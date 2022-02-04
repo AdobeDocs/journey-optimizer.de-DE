@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: c5ec5ae03ce470a5c012fee4041d47c1856fbbc8
-workflow-type: ht
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 100%
 
 ---
 
-# Informationen zu Ereignissen{#concept_gfj_fqt_52b}
+# Informationen zu Ereignissen{#about-events}
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -57,7 +57,7 @@ Bei unitären Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 
 Journey Optimizer erfordert, dass Ereignisse in Adobe Experience Platform gestreamt oder in Batches aufgenommen werden. Diese Daten müssen nicht unbedingt an das Echtzeit-Profil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung oder Suche in einer separaten Journey verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
 
-## Datenzyklus {#section_r1f_xqt_pgb}
+## Datenzyklus {#data-cycle}
 
 Ereignisse sind POST-API-Aufrufe. Ereignisse werden über Streaming-Aufnahme-APIs an Adobe Experience Platform gesendet. Das URL-Ziel von Ereignissen, die über Transaktionsnachrichten-APIs gesendet werden, wird als „Inlet“ bezeichnet. Die Payload der Ereignisse verwendet die XDM-Formatierung.
 

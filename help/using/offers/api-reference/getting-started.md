@@ -6,20 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
 ---
 
-# Entwicklerhandbuch für die Entscheidungs-Management-API
+# Entwicklerhandbuch für die Entscheidungs-Management-API {#decision-management-api-developer-guide}
 
 In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Außerdem enthält das Handbuch Beispiel-API-Aufrufe für die Ausführung von wichtigen Operationen mit der Entscheidungs-Management-Engine.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
-## Voraussetzungen
+## Voraussetzungen {#prerequisites}
 
 Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Experience Platform voraus:
 
@@ -28,11 +28,11 @@ Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Exper
 * [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten, die für Erlebnisentscheidungen im Allgemeinen und Angebotsentscheidungen im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de){target=&quot;_blank&quot;}: PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken auf XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
-## Lesen von Beispiel-API-Aufrufen
+## Lesen von Beispiel-API-Aufrufen {#reading-sample-api-calls}
 
 In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=de#how-do-i-format-an-api-request){target=&quot;_blank&quot;} im Fehlerbehebungshandbuch für [!DNL Experience Platform].
 
-## Sammeln von Werten für erforderliche Kopfzeilen
+## Sammeln von Werten für erforderliche Kopfzeilen {#gather-values-for-required-headers}
 
 Um [!DNL Platform]-APIs aufzurufen, müssen Sie zunächst das [Authentifizierungs-Tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target=&quot;_blank&quot;} abschließen. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
 
@@ -44,7 +44,7 @@ Bei allen Anfragen mit einer Payload (POST, PUT, PATCH) ist eine zusätzliche Ko
 
 * `Content-Type: application/json`
 
-## Zugriff auf einen Container verwalten
+## Zugriff auf einen Container verwalten {#manage-access-to-container}
 
 Ein Container ist ein Isolationsmechanismus, der unterschiedliche Aufgaben voneinander trennt. Die Container-ID ist das erste Pfadelement für alle Repository-APIs. Alle Entscheidungsobjekte befinden sich in einem Container.
 
@@ -52,7 +52,7 @@ Ein Administrator kann ähnliche Prinzipale, Ressourcen und Zugriffsberechtigung
 
 Mit Administratorberechtigungen können Sie Benutzern über die [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} Berechtigungen erteilen oder entziehen. Weiterführende Informationen finden Sie in der [Übersicht zur Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target=&quot;_blank&quot;}.
 
-### Container auflisten, die für Benutzer und Integrationen zugänglich sind
+### Container auflisten, die für Benutzer und Integrationen zugänglich sind {#list-containers-accessible-to-users-and-integrations}
 
 **API-Format**
 
@@ -124,7 +124,7 @@ Bei einer erfolgreichen Antwort werden Informationen zu Entscheidungs-Management
 }
 ```
 
-## Nächste Schritte
+## Nächste Schritte {#next-steps}
 
 In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen von Aufrufen an die [!DNL Offer Library]-API benötigt werden, einschließlich der Beschaffung Ihrer Container-ID. Sie können nun mit den Beispielaufrufen in diesem Entwicklerhandbuch fortfahren und den entsprechenden Anweisungen folgen.
 

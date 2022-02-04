@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Bedingungsaktivität{#section_e2n_pft_dgb}
+# Bedingungsaktivität{#condition-activity}
 
 Die folgenden Bedingungstypen stehen zur Verfügung:
 
@@ -99,7 +99,7 @@ Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss 
 
 ## Profilbegrenzung {#profile_cap}
 
-Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreiten.
+Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreitet.
 
 Mit diesem Bedingungstyp kann das Volumen Ihrer Sendungen erhöht werden. Siehe diesen [Anwendungsfall](ramp-up-deliveries-uc.md).
 
@@ -109,10 +109,10 @@ Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nac
 
 Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alternativen Pfad über den nominalen Pfad auf der Journey-Arbeitsfläche verschoben wird.
 
-Für lebende Journey sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
+Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
 
-* Bei einer Obergrenze von mehr als 10000 muss die Anzahl unterschiedlicher Profile, die injiziert werden sollen, mindestens dem 1,3-fachen der Obergrenze entsprechen.
-* Bei einer Obergrenze unter 10000 muss die Anzahl der verschiedenen zu injizierenden Profile 1000 plus der Kappe betragen.
+* Bei einer Obergrenze von mehr als 10.000 muss die Anzahl unterschiedlicher Profile, die eingespeist werden sollen, mindestens dem 1,3-Fachen der Obergrenze entsprechen.
+* Bei einer Obergrenze unter 10.000 muss die Anzahl der eindeutigen Profile, die eingespeist werden sollen, den Wert der Obergrenze plus 1.000 haben.
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
