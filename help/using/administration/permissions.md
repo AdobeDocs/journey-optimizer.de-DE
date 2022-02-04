@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Bei Bedarf können Sie auch ein neues Produktprofil mit bestimmten Berechtigunge
 
 Weitere Informationen zum Erstellen und Verwalten von Sandboxes finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}.
 
-In diesem Beispiel erstellen wir ein Produktprofil mit dem Namen **Journeys nur lesen**, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzer können nur auf Journey zugreifen und diese anzeigen und können nicht auf andere Funktionen wie **[!DNL  Decision management]** oder **[!DNL Messages]** in [!DNL Journey Optimizer].
+In diesem Beispiel erstellen wir ein Produktprofil mit dem Namen **Journeys nur lesen**, in dem wir Leseberechtigungen für die Journey-Funktion erteilen. Benutzer können nur auf Journeys zugreifen und diese anzeigen, aber nicht auf andere Funktionen in [!DNL Journey Optimizer] wie **[!DNL  Decision management]** oder **[!DNL Messages]** zugreifen.
 
 So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
@@ -125,7 +125,7 @@ So erstellen Sie unsere **[!UICONTROL Produktprofile]** **Journeys nur lesen**:
 
 1. Um Benutzern Berechtigungen für den Zugriff auf verschiedene Funktionen hinzuzufügen, wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
-1. Wählen Sie zwischen den verschiedenen Funktionen wie **[!DNL Messages]**, **[!DNL Segments]** oder **[!DNL Decision management]** verfügbar unter [!DNL Journey Optimizer] im Menü auf der linken Seite.
+1. Sie können zwischen den verschiedenen Funktionen wie **[!DNL Messages]**, **[!DNL Segments]** oder **[!DNL Decision management]** auswählen, die in [!DNL Journey Optimizer] im Menü links verfügbar sind.
 
    Hier wählen wir die Funktion **[!UICONTROL Journeys]** aus.
 
