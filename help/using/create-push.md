@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 5866a5ad181b9b745cedc4fa740d131cf7c88863
+source-git-commit: 89d0ef7323d8e1e7f415a9b2a058e4dca7a6ecb0
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 99%
+source-wordcount: '1440'
+ht-degree: 82%
 
 ---
 
 # Erstellen einer Push-Benachrichtigung {#create-push-notification}
+
+Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen – insbesondere dann, wenn sie Ihre Mobile App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen abzudecken, z. B. Updates zu Ihrem Service bereitzustellen, einen Benutzer zu einer Aktion aufzufordern, den Benutzer auf ein neues Angebot hinzuweisen usw. Geräteplattformen erfordern ein Opt-in, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Die Anmeldung für den Benutzer kann so früh erfolgen, nachdem die App zum ersten Mal nach der Installation gestartet wurde, oder je nach Bedarf in einer nachfolgenden Sitzung oder einem darauf folgenden Workflow.
+
+[!DNL Journey Optimizer] unterstützt Push-Benachrichtigungen und hilft Ihnen, hochrelevante Benachrichtigungen mit branchenführenden Übertragungsraten zu senden. Push-Benachrichtigungen können Personalisierung und Journey-basierten Kontext enthalten, um die Erkenntnisse aus Daten zu nutzen, die Ihre Marke dank Adobe Experience Cloud hat.
 
 Nachdem Sie [eine Nachricht erstellt](create-message.md) haben, klicken Sie auf die Registerkarte **[!UICONTROL Push-Benachrichtigung]**, um die Einstellungen und den Inhalt der Push-Benachrichtigung zu definieren.
 
@@ -23,11 +27,11 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 
 >[!NOTE]
 >
->Der Bereich **[!UICONTROL Nachricht erstellen]** ist auf den Registerkarten **[!UICONTROL iOS]** und **[!UICONTROL Android]** verfügbar. Jede Änderung in diesem Abschnitt wird für beide Registerkarten angewendet.
+>Der Bereich **[!UICONTROL Nachricht erstellen]** ist auf den Registerkarten **[!UICONTROL iOS]** und **[!UICONTROL Android]** verfügbar. Jede Änderung in diesem Abschnitt gilt für beide Einstellungen.
 
-## Titel und Textkörper
+## Titel und Textkörper {#push-title-body}
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Mit dem Ausdruckseditor können Sie Inhalt und Personalisierungsdaten definieren. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](personalization/personalize.md).
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Mit dem Ausdruckseditor können Sie Inhalt und Personalisierungsdaten definieren. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
 Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
 
@@ -38,15 +42,15 @@ Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung a
 >title="Über das Klickverhalten"
 >abstract="Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger."
 
-Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger.
+Sie können das Verhalten auswählen, wenn ein Benutzer auf den Text der Push-Benachrichtigung klickt.
 
 ![](assets/title-body-push.png)
 
-* Verwenden Sie die Option **[!UICONTROL Mobile App öffnen]**, um die Mobile App zu öffnen, die in der **[!UICONTROL Voreinstellung]** der Nachricht definiert ist.
-* Verwenden Sie die Option **[!UICONTROL Deeplink]**, um den Empfänger an einen bestimmten Inhalt in der Mobile App weiterzuleiten. Fügen Sie den Deeplink in das entsprechende Feld ein.
-* Verwenden Sie die Option **[!UICONTROL Web-URL]**, um den Empfänger an eine externe URL weiterzuleiten. Fügen Sie die URL in das entsprechende Feld ein.
+* Um die App zu öffnen, wählen Sie die **[!UICONTROL App öffnen]** -Option. Die mit der Benachrichtigung verknüpfte App wird in der Nachricht definiert **[!UICONTROL Vorgabe]**. [Weitere Infos](../configuration/message-presets.md) über Nachrichtenvorgaben.
+* Um den Benutzer zu einem bestimmten Inhaltselement innerhalb einer App umzuleiten, wählen Sie die **[!UICONTROL Deeplink]** -Option.  Der spezifische Inhalt kann eine bestimmte Ansicht, einen bestimmten Abschnitt einer Seite oder eine bestimmte Registerkarte sein. Geben Sie nach Auswahl der Option den Deeplink in das entsprechende Feld ein.
+* Um den Benutzer zu einer externen URL umzuleiten, verwenden Sie die **[!UICONTROL Web-URL]** -Option. Geben Sie nach Auswahl der Option die URL in das entsprechende Feld ein.
 
-## Hinzufügen von Medien
+## Hinzufügen von Medien {#add-media-push}
 
 In der iOS-Version Ihrer Push-Benachrichtigung können Sie ein Bild, ein Video oder ein GIF hinzufügen, das in Ihrer Benachrichtigung angezeigt wird.
 
@@ -56,17 +60,17 @@ In der Android-Version können Sie nur ein Bildsymbol und ein Bild für erweiter
 
 Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
-* Klicken Sie auf die Schaltfläche **[!UICONTROL Medien hinzufügen]**, um ein Asset in **[!DNL Adobe Experience Manager Assets Essentials]** auszuwählen.
+* Verwenden Sie die **[!UICONTROL Medien hinzufügen]** Schaltfläche zum Auswählen eines Assets in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
    Wie Sie **[!DNL Adobe Experience Manager Assets Essentials]** verwenden, erfahren Sie auf [dieser Seite](assets-essentials.md).
 
-* Oder geben Sie die URL des Mediums ein, indem Sie auf das Feld **[!UICONTROL Medien hinzufügen]** klicken. In diesem Fall können Sie eine Personalisierung hinzufügen.
+* Oder geben Sie die URL des Mediums im **[!UICONTROL Medien hinzufügen]** -Feld. In diesem Fall können Sie der URL Personalisierung hinzufügen.
 
 Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachrichtigung angezeigt.
 
-## Hinzufügen von Schaltflächen
+## Hinzufügen von Schaltflächen {#add-buttons-push}
 
-Sie können eine aktionsfähige Benachrichtigung erstellen, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
+Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Schaltflächen zu Ihrem Push-Inhalt hinzufügen.
 
 Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt: Nur der **Titel** und die **Nachricht** der Benachrichtigung sind sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfänger die Schaltflächen.
 
@@ -76,13 +80,13 @@ In der iOS-Version können Sie bis zu vier Schaltflächen hinzufügen. In der An
 >
 >Verwenden Sie für iOS das Feld **[!UICONTROL iOS-Kategorie]**, um Aktionen einer Benachrichtigungskategorie zuzuordnen.
 
-Klicken Sie auf **[!UICONTROL Schaltfläche hinzufügen]**, um die Einstellungen zu definieren: die Bezeichnung und die zugehörige Aktion. Mögliche Aktionen sind dieselben wie für das [Klickverhalten](#on-click-behavior).
+1. Verwenden Sie die **[!UICONTROL Schaltfläche hinzufügen]** zur Definition von Einstellungen: den Titel und die zugehörige Aktion. Mögliche Aktionen sind dieselben wie für das [Klickverhalten](#on-click-behavior).
 
-Klicken Sie auf **[!UICONTROL Ansicht erweitern]**, um eine Vorschau Ihrer personalisierten Buttons anzuzeigen.
+1. Verwenden Sie die **[!UICONTROL Ansicht erweitern]** -Symbol unter dem zentralen Vorschaubild, um eine Vorschau Ihrer personalisierten Schaltflächen anzuzeigen.
 
 ![](assets/push_buttons.png)
 
-## Senden einer stillen Benachrichtigung
+## Senden einer stillen Benachrichtigung {#silent-notification}
 
 Eine stille Push-Benachrichtigung (oder Hintergrundbenachrichtigung) ist eine versteckte Anweisung, die an die Mobile App gesendet wird. Sie wird beispielsweise verwendet, um Ihre Mobile App über die Verfügbarkeit von neuem Inhalt zu informieren oder einen Download im Hintergrund zu starten.
 
@@ -94,7 +98,7 @@ Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlü
 
 Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zu Adobe Launch finden Sie in [diesem Abschnitt](push-gs.md)
 
-## Erweiterte Optionen
+## Erweiterte Optionen {#advanced-options-push}
 
 Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung konfigurieren. Die verfügbaren Parameter sind unten aufgeführt:
 
@@ -102,7 +106,7 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 |---------|---------|
 | **[!UICONTROL Reduzierbar]** (iOS/Android) | Eine ausblendbare Nachricht ist eine Nachricht, die durch eine neue Nachricht ersetzt werden kann, wenn sie veraltet ist. Häufig werden ausblendbare Nachrichten verwendet, um eine Mobile App anzuweisen, Daten vom Server zu synchronisieren. Ein Beispiel wäre eine Sport-App, die Benutzer über den aktuellen Spielstand auf dem Laufenden hält. Nur die neueste Nachricht ist relevant. Bei nicht ausblendbaren Nachrichten ist hingegen jede Nachricht wichtig für die Mobile App und muss zugestellt werden. |
 | **[!UICONTROL Benutzerdefinierter Benachrichtigungston]**     (iOS/Android) | Der Ton, der beim Empfang der Benachrichtigung vom Mobilgerät wiedergegeben wird. Der Ton muss in der Mobile App verfügbar sein. |
-| **[!UICONTROL Badges]**     (iOS/Android) | Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem Mobile-App-Symbol angezeigt. <br/>Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Mobile App öffnet oder liest. Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert für die entsprechende Mobile App aktualisiert oder hinzugefügt werden.<br/>Beispiel: Wenn Sie die Anzahl der ungelesenen Artikel Ihrer Kunden erfassen, können Sie eine Personalisierung anwenden, um für jeden Kunden den entsprechenden Wert für das Badge der ungelesenen Artikel zu senden. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](personalization/personalize.md). |
+| **[!UICONTROL Badges]**     (iOS/Android) | Mit einem Badge wird die Anzahl der neuen ungelesenen Nachrichten direkt auf dem Mobile-App-Symbol angezeigt. <br/>Der Badge-Wert verschwindet, sobald der Benutzer den neuen Inhalt in der Mobile App öffnet oder liest. Wenn eine Benachrichtigung auf einem Gerät empfangen wird, kann der Badge-Wert für die entsprechende Mobile App aktualisiert oder hinzugefügt werden.<br/>Beispiel: Wenn Sie die Anzahl der ungelesenen Artikel Ihrer Kunden erfassen, können Sie eine Personalisierung anwenden, um für jeden Kunden den entsprechenden Wert für das Badge der ungelesenen Artikel zu senden. Weitere Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md). |
 | **[!UICONTROL Benachrichtigungsgruppe]** (nur iOS) | Verknüpfen Sie eine Benachrichtigungsgruppe mit der Push-Benachrichtigung.<br/>Ab iOS 12 ermöglichen Benachrichtigungsgruppen die Konsolidierung von Nachrichten-Threads und Benachrichtigungsthemen als Thread-IDs. Dadurch kann eine Marke beispielsweise Marketing-Benachrichtigungen unter einer Gruppen-ID und Benachrichtigungen mit betrieblichen Informationen unter einer oder mehreren anderen IDs senden.<br/>Beispielsweise können Sie folgende Benachrichtigungsgruppen erstellen: groupID: 123 „Die neue Sweatshirt-Frühlungskollektion ist da“ und groupID: 456 „Ihr Paket wurde zugestellt“. Bei diesem Beispiel würden alle Versandbenachrichtigungen unter der Gruppen-ID 456 gebündelt. |
 | **[!UICONTROL Benachrichtigungskanal]**     (Nur Android) | Weisen Sie der Push-Benachrichtigung einen Benachrichtigungskanal zu.<br/>Ab Android 8.0 (API-Stufe 26) müssen alle Benachrichtigungen einem Kanal zugewiesen werden, damit sie angezeigt werden. Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Hinzufügen einer Markierung für Inhaltsverfügbarkeit]**     (nur iOS) | Wenn der Inhalt verfügbar ist, wird die Markierung für Inhaltsverfügbarkeit in der Push-Payload gesendet. Dies aktiviert die Mobile App sofort beim Empfang der Push-Benachrichtigung, sodass die Mobile App auf die Payload-Daten zugreifen kann.<br/> Dies ist auch dann möglich, wenn die Mobile App im Hintergrund läuft und ohne dass der Benutzer eingreifen muss (z. B. durch Tippen auf die Push-Benachrichtigung). Diese Möglichkeit besteht jedoch nicht, wenn die Mobile App nicht geöffnet ist. Weiterführende Informationen dazu finden Sie in der [Dokumentation für Apple-Entwickler](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
@@ -119,4 +123,4 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 
 * [Konfigurieren des Push-Kanals](push-gs.md)
 * [Erstellen einer neuen Nachricht](create-message.md)
-* [Hinzufügen einer Nachricht zu einer Journey](building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
