@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 100%
 
@@ -50,7 +50,8 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../../assets/activities-evaluation-criteria.png)
 
-   Jedes Kriterium besteht aus einer Angebotskollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranglistenmethode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden.
+   Jedes Kriterium besteht aus einer Angebotskollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden.
+
 
    >[!NOTE]
    >
@@ -88,7 +89,8 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
       Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
-1. Definieren Sie die Rangfolgenmethode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten.
+1. Definieren Sie die Ranking-Methode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten.
+
 
    ![](../../assets/activity_ranking-method.png)
 
@@ -158,7 +160,7 @@ Wenn alles ordnungsgemäß konfiguriert ist, wird eine Zusammenfassung der Entsc
 
    ![](../../assets/review-decision.png)
 
-   Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung auch eine Vorschau der verfügbaren Angebote, der Eignung und der Ranglistendetails anzeigen.
+   Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung auch eine Vorschau der verfügbaren Angebote, der Eignung und der Ranking-Details anzeigen.
 
    ![](../../assets/review-decision-details.png)
 

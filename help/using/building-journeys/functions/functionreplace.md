@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
 
@@ -32,8 +32,8 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | string |
-| replacement | string |
+| target | Zeichenfolge |
+| replacement | Zeichenfolge |
 
 ## Signatur und zurückgegebener Typ
 

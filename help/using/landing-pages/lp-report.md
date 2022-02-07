@@ -9,7 +9,7 @@ hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
 source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Das Widget **[!UICONTROL Leistung der Landingpage]** stellt anhand von KPIs die 
 
 Das Widget **[!UICONTROL Besuchsquellen]** gibt an, wie Besucher auf Ihre Landingpage zugreifen:
 
-* **[!UICONTROL Journey]**: Anzahl der Besuche auf Ihrer Landingpage ausgehend von einer Journey.
+* **[!UICONTROL Journey(s)]**: Anzahl der Besuche auf einer Landingpage von einer Journey.
 
 * **[!UICONTROL Andere Quellen]**: Anzahl der Besuche auf Ihrer Landingpage ausgehend von einer externen Quelle anstelle einer Journey.
 
