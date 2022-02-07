@@ -9,7 +9,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: e5aa7fbce348c9da00b3f5c8624237c76128a61b
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 18%
+ht-degree: 99%
 
 ---
 
@@ -17,45 +17,45 @@ ht-degree: 18%
 
 ## [!DNL Journey Administrator] {#journey-administrator}
 
-Die **[!DNL Journey Administrator]** Produktprofil ermöglicht die Verwaltung von Menüs mit der Möglichkeit, Journey, Nachrichten und Entscheidungsverwaltung zu verwalten und zu veröffentlichen.
+Das Produktprofil **[!DNL Journey Administrator]** ermöglicht den Zugriff auf die Administrationsmenüs mit der Möglichkeit, Journeys und Nachrichten zu verwalten und zu veröffentlichen sowie das Entscheidungs-Management zu nutzen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Journeys | <ul><li> **[!DNL Manage journeys]**: Journey lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Publish journeys]**: Journey veröffentlichen.</li><li>**[!DNL Manage journeys events, data sources and actions]**: Ereignisse, Quellen oder Aktionen lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View journeys report]**: den Bericht Journey lesen und bearbeiten.</li></ul>|
-|Nachrichten|<ul><li> **[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten der Nachrichtenvorschau und Testversand/Testversand.</li><li>**[!DNL Manage messages preview and test]**: Nachrichten veröffentlichen.</li><li>**[!DNL Publish messages]**: die Nachrichtenvorschau lesen, erstellen und bearbeiten und Test/Testversand durchführen.</li><li>**[!DNL View messages report]**: Nachrichten lesen und bearbeiten .</li></ul>|
-|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: Subdomain-Zuweisung lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage IP pools]**: IP-Pool lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage PTR records]**: PTR-Datensätze lesen und bearbeiten.</li><li>**[!DNL View PTR records]**: schreibgeschützter Zugriff auf PTR-Datensätze.</li><li> **[!DNL Manage messages general settings]**: Allgemeine Einstellungen für Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage messages presets]**: Inhaltsbranding lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage suppression rules]**: Zugriff auf Lese-, Erstellungs-, Bearbeitungs- und Löschunterdrückungsregeln.</li><li>**[!DNL View suppression list]**: lokale Unterdrückungsliste lesen und exportieren.</li><li>**[!DNL Manage alerts]**: Warnhinweise für Journey, Nachrichten und Berechtigungen aktivieren/deaktivieren.</li></ul>|
-|Entscheidungs-Management|<ul><li>**[!DNL Manage decisions]**: Entscheidungen lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Nachrichtenberichte und Verwenden von Aktionsfunktionen.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: Zugriff auf Sandboxes gewähren.</li><li>**[!DNL Manage segments]**: Segmente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage profiles]**: Profile lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Read datasets]**: schreibgeschützter Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: schreibgeschützter Zugriff auf Schemas.</li><li>**[!DNL Read Identity namespace]**: schreibgeschützter Zugriff auf Identitäts-Namespace.</li><li>**[!DNL Manage merge policies]**: Zusammenführungsrichtlinien lesen, erstellen, bearbeiten und löschen.</li></ul>|
+|Journeys | <ul><li> **[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**[!DNL Publish journeys]**: Veröffentlichen von Journeys.</li><li>**[!DNL Manage journeys events, data sources and actions]**: Lesen, Erstellen, Bearbeiten und Löschen von Ereignissen, Quellen oder Aktionen.</li><li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Berichten zu Journeys.</li></ul>|
+|Nachrichten|<ul><li> **[!DNL Manage messages]**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**[!DNL Manage messages preview and test]**: Veröffentlichen von Nachrichten.</li><li>**[!DNL Publish messages]**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**[!DNL View messages report]**: Lesen und Bearbeiten von Nachrichtenberichten.</li></ul>|
+|Administration|<ul><li>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Zuweisungen.</li><li>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</li><li>**[!DNL Manage PTR records]**: PTR-Datensätze lesen und bearbeiten.</li><li>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</li><li> **[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</li><li>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</li><li>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</li><li>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste.</li><li>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Journeys, Nachrichten und Berechtigungen.</li></ul>|
+|Entscheidungs-Management|<ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: Gewähren des Zugriffs auf Sandboxes.</li><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Read Identity namespace]**: Nur-Lese-Zugriff auf Identity-Namespace.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-Die **[!DNL Journey Approver]** Produktprofil ermöglicht Benutzern, Sendungen zu validieren und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen mit der **[!DNL Message]** und **[!DNL Journey]** Berichte.
+Das Produktprofil **[!DNL Journey Approver]** ermöglicht es Benutzern, Sendungen zu genehmigen und zu veröffentlichen. Später können sie den Erfolg ihrer Sendungen anhand der Berichte **[!DNL Message]** und **[!DNL Journey]** überprüfen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Journeys | <ul><li>**[!DNL Manage journeys]**: Journey lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Publish journey]**: Journey veröffentlichen.</li><li>**[!DNL View journeys events, data sources and actions]**: Schreibgeschützter Zugriff auf Journey-Ereignisse, Journey benutzerdefinierter Aktionen und Journey-Datenquellen.</li><li>**[!DNL View journeys report]**: Journey-Berichte lesen und bearbeiten.</li></ul>|
-|Nachrichten| <ul><li>**[!DNL Manage messages]**: Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Publish messages]** Nachrichten veröffentlichen.</li><li>**[!DNL Manage messages preview and test]**: die Nachrichtenvorschau lesen, erstellen und bearbeiten und Test/Testversand durchführen.</li><li>**[!DNL View messages report]**: Nachrichtenberichte lesen, erstellen, bearbeiten und löschen.</li></ul>|
-|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Entscheidungsentitäten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Nachrichtenberichte und Verwenden von Aktionsfunktionen.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: Segmente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage profiles]**: Profile lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Read datasets]**: schreibgeschützter Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: schreibgeschützter Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Zusammenführungsrichtlinien lesen, erstellen, bearbeiten und löschen.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Journeys | <ul><li>**[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**[!DNL Publish journey]**: Veröffentlichen von Journeys.</li><li>**[!DNL View journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li><li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul>|
+|Nachrichten| <ul><li>**[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**[!DNL Publish messages]**: Veröffentlichen von Nachrichten.</li><li>**[!DNL Manage messages preview and test]**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**[!DNL View messages report]**: Lesen, Erstellen und Bearbeiten und Löschen von Nachrichtenberichten.</li></ul>|
+|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-Die **[!DNL Journey Manager]** Produktprofil ermöglicht Benutzern das Erstellen und Bearbeiten von **[!UICONTROL Journey]** und alle damit verbundenen Funktionen **[!UICONTROL Journey]** aber nicht in der Lage sein, sie zu veröffentlichen.
+Das Produktprofil **[!DNL Journey Manager]** ermöglicht Benutzern das Erstellen und Bearbeiten von **[!UICONTROL Journeys]** und Zugriff auf alle Funktionen, die mit **[!UICONTROL Journeys]** verknüpft sind. Sie sind jedoch nicht in der Lage, diese zu veröffentlichen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Journeys | <ul><li>**[!DNL Manage journeys]**: Journey lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View journeys events]**: Schreibgeschützter Zugriff auf Journey-Ereignisse, Journey benutzerdefinierter Aktionen und Journey-Datenquellen.</li><li>**[!DNL View journeys report]**: Journey-Bericht lesen und bearbeiten.</li></ul>|
-|Nachrichten| <ul><li>**[!DNL Manage messages]**: Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li> **[!DNL Manage messages preview and test]**: die Nachrichtenvorschau lesen, erstellen und bearbeiten und Test/Testversand durchführen.</li><li>**[!DNL View messages report]**: Nachrichtenberichte lesen, erstellen, bearbeiten und löschen.</li></ul>|
-|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Entscheidungsentitäten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Nachrichtenberichte und Verwenden von Aktionsfunktionen.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: Segmente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage profiles]**: Profile lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Read datasets]**: schreibgeschützter Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: schreibgeschützter Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Zusammenführungsrichtlinien lesen, erstellen, bearbeiten und löschen.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Journeys | <ul><li>**[!DNL Manage journeys]**: Lesen, Erstellen, Bearbeiten und Löschen von Journeys.</li><li>**[!DNL View journeys events]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li><li>**[!DNL View journeys report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul>|
+|Nachrichten| <ul><li>**[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li> **[!DNL Manage messages preview and test]**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li>**[!DNL View messages report]**: Lesen, Erstellen und Bearbeiten und Löschen von Nachrichtenberichten.</li></ul>|
+|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## [!DNL Journey viewer] {#journey-viewer}
 
-Die **[!DNL Journey viewer]** Produktprofil ermöglicht schreibgeschützten Zugriff auf die **[!UICONTROL Journey]**, **[!UICONTROL Ziele]**, **[!UICONTROL Nachrichten]** und **[!UICONTROL Entscheidungsmanagement]** Funktionen.
+Das Produktprofil **[!DNL Journey viewer]** ermöglicht Nur-Lese-Zugriff auf die Funktionen **[!UICONTROL Journeys]**, **[!UICONTROL Ziele]**, **[!UICONTROL Nachrichten]** und **[!UICONTROL Entscheidungs-Management]**.
 
 Benutzer, die diesem Produktprofil zugewiesen sind, können weder bearbeiten noch veröffentlichen.
 
@@ -63,28 +63,28 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Journeys | <ul><li>**[!DNL View journeys]**: Schreibgeschützter Zugriff auf Journey.</li><li>**[!DNL View journeys event, data sources, actions]**: schreibgeschützter Zugriff auf Journey-Ereignisse und Datenquellen.</li><li>**[!DNL View journeys report]**: Schreibgeschützter Zugriff auf Berichte von Journey.</li></ul>|
-|Nachrichten| <ul><li>**[!DNL View messages]**: Schreibgeschützter Zugriff auf Nachrichten.</li><li>**[!DNL View messages report]**: Schreibgeschützter Zugriff auf Nachrichtenberichte.</li></ul>|
-|Entscheidungs-Management| <ul><li>**[!DNL View decisions]**: schreibgeschützter Zugriff auf Entscheidungsentitäten.</li></ul>|
+|Journeys | <ul><li>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</li><li>**[!DNL View journeys event, data sources, actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse und Datenquellen.</li><li>**[!DNL View journeys report]**: Nur-Lese-Zugriff auf Berichte von Journeys.</li></ul>|
+|Nachrichten| <ul><li>**[!DNL View messages]**: Nur-Lese-Zugriff auf Nachrichten.</li><li>**[!DNL View messages report]**: Nur-Lese-Zugriff auf Nachrichtenberichte.</li></ul>|
+|Entscheidungs-Management| <ul><li>**[!DNL View decisions]**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li></ul>|
 
 ## [!DNL Message Manager] {#message-manager}
 
-Die **[!DNL Message Manager]** Produktprofil ermöglicht Benutzern das Erstellen und Bearbeiten von **[!UICONTROL Nachrichten]** und **[!UICONTROL Entscheidungsmanagement]** aber nicht in der Lage sein, sie zu veröffentlichen.
+Das Produktprofil **[!DNL Message Manager]** ermöglicht Benutzern das Erstellen und Bearbeiten von **[!UICONTROL Nachrichten]** und bietet Zugriff auf das **[!UICONTROL Entscheidungs-Management]**. Sie können Nachrichten aber nicht veröffentlichen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Journeys | <ul><li>**[!DNL View journeys]**: Schreibgeschützter Zugriff auf Journey.</li><li>**[!DNL View Journeys events, data sources and actions]**: Schreibgeschützter Zugriff auf Journey-Ereignisse, Journey benutzerdefinierter Aktionen und Journey-Datenquellen.</li></ul>|
-|Nachrichten| <ul><li>**[!DNL Manage messages]**: Nachrichten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage messages preview and test]**: die Nachrichtenvorschau lesen, erstellen und bearbeiten und Test/Testversand durchführen.</li><li> **[!DNL View messages report]**: Nachrichtenberichte lesen, erstellen, bearbeiten und löschen.</li></ul>|
-|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Entscheidungsentitäten lesen, erstellen, bearbeiten und löschen.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Read profiles]**: schreibgeschützter Zugriff auf das Profil für Vorschau und Test.</li><li>**[!DNL Read datasets]**: schreibgeschützter Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: schreibgeschützter Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Zusammenführungsrichtlinien lesen, erstellen, bearbeiten und löschen.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Schreibgeschützter Zugriff auf Nachrichtenvorgaben.</li></ul>|
+|Journeys | <ul><li>**[!DNL View journeys]**: Nur-Lese-Zugriff auf Journeys.</li><li>**[!DNL View Journeys events, data sources and actions]**: Nur-Lese-Zugriff auf Journey-Ereignisse, benutzerdefinierte Journey-Aktionen und Datenquellen von Journeys.</li></ul>|
+|Nachrichten| <ul><li>**[!DNL Manage messages]**: Lesen, Erstellen, Bearbeiten und Löschen von Nachrichten.</li><li>**[!DNL Manage messages preview and test]**: Lesen, Erstellen und Bearbeiten der Nachrichtenvorschau und Durchführen von Testsendungen.</li><li> **[!DNL View messages report]**: Lesen, Erstellen und Bearbeiten und Löschen von Nachrichtenberichten.</li></ul>|
+|Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Read profiles]**: Nur-Lese-Zugriff auf Profile für Vorschau und Test.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-Die **[!DNL Decisioning manager]** Das Produktprofil ermöglicht nur die **[!UICONTROL Entscheidungsmanagement]** Menü. Benutzer, die diesem Produktprofil zugewiesen sind, können nur Entscheidungen verwalten, anzeigen und veröffentlichen.
+Das Produktprofil **[!DNL Decisioning manager]** erlaubt nur das Menü **[!UICONTROL Entscheidungs-Management]**. Benutzer, die diesem Produktprofil zugewiesen sind, können nur Entscheidungen verwalten, anzeigen und veröffentlichen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
 | Funktion | Berechtigungen|
 |-|-|
-|Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Entscheidungsentitäten lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View decisions]**: schreibgeschützter Zugriff auf Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen benutzerdefinierter Nachrichtenberichte und Verwenden von Aktionsfunktionen.</li><li>**[!DNL Publish decisions]**: Aktivierung oder Deaktivierung von Entscheidungsaktivitäten.</li></ul>|
+|Entscheidungs-Management | <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL View decisions]**: Nur-Lese-Zugriff auf Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li><li>**[!DNL Publish decisions]**: Aktivieren oder Deaktivieren von Entscheidungsaktivitäten.</li></ul>|
