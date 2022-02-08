@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (techni
 
 * **Vollständige Subdomain-Delegierung an Adobe** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann alle DNS-Aspekte steuern und verwalten, die für die Zustellung, das Rendering und das Tracking von Nachrichten erforderlich sind. [Weitere Informationen zur vollständigen Subdomain-Delegierung](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Verwenden von CNAMEs**: Erstellen einer Subdomain und Verwenden von CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Einrichtung sind Sie und Adobe gemeinsam für die Wartung des DNS verantwortlich. [Weitere Informationen zur Delegierung von CNAME-Subdomains](delegate-subdomain.md#cname-subdomain-delegation)
+* **Verwenden von CNAMEs**: Erstellen einer Subdomain und Verwenden von CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Mit diesem Setup sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. [Weitere Informationen zur Delegierung von CNAME-Subdomains](delegate-subdomain.md#cname-subdomain-delegation)
 
 Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
