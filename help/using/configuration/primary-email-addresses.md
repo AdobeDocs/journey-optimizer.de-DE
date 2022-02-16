@@ -1,15 +1,15 @@
 ---
-title: 'Primäre E-Mail-Adressen ändern '
-description: Erfahren Sie, wie Sie bestimmen, welche E-Mail-Adresse vom Profildienst verwendet werden soll.
+title: 'Ändern von primären E-Mail-Adressen '
+description: Erfahren Sie, wie Sie im Profil-Service bestimmen, welche E-Mail-Adresse verwendet werden soll.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
