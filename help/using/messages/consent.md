@@ -15,7 +15,7 @@ ht-degree: 68%
 
 # Einverständnisverwaltung {#consent}
 
-Verwenden Sie [!DNL Journey Optimizer], um die Zustimmung Ihrer Empfänger zur Kommunikation nachzuverfolgen und anhand der Verwaltung ihrer Voreinstellungen und Abonnements zu verstehen, wie sie mit Ihrer Marke interagieren möchten.
+Verwenden Sie [!DNL Journey Optimizer], um das Einverständnis Ihrer Empfänger zur Kommunikation zu erfassen und anhand ihrer Voreinstellungs- und Abonnement-Verwaltung zu ermitteln, wie sie mit Ihrer Marke interagieren möchten.
 
 Gesetzliche Bestimmungen wie die DSGVO verlangen die Erfüllung bestimmter Anforderungen, bevor Sie Informationen von betroffenen Personen verwenden können. Darüber hinaus sollten die betroffenen Personen ihre Einwilligung jederzeit ändern können.
 
@@ -92,7 +92,7 @@ Header-Anforderungen:
 * x-api-key
 * x-gw-ims-org-id
 * x-sandbox-name
-* authorization (Benutzer-Token ihres technischen Accounts)
+* authorization (Benutzer-Token Ihres technischen Accounts)
 
 Hauptteil der Anfrage:
 
@@ -151,7 +151,7 @@ Gehen Sie wie folgt vor, um Ihrer E-Mail einen Opt-out-Link hinzuzufügen.
 
    * **[!UICONTROL Kanal]**: Die Abmeldung gilt für künftige Nachrichten, die im aktuellen Kanal an das Ziel des Profils (d. h. die E-Mail-Adresse) gesendet werden. Wenn einem Profil mehrere Ziele zugeordnet sind, gilt die Abmeldung für alle Ziele (d. h. E-Mail-Adressen) im Profil für diesen Kanal.
    * **[!UICONTROL Identität]**: Die Abmeldung gilt für künftige Nachrichten, die an das Ziel (d. h. die E-Mail-Adresse) gesendet werden, das für die aktuelle Nachricht verwendet wird.
-   * **[!UICONTROL Abonnement]**: Die Abmeldung gilt für künftige Nachrichten, die mit einer bestimmten Abonnentenliste verbunden sind. Diese Option kann nur ausgewählt werden, wenn die aktuelle Nachricht einer Abonnementliste zugeordnet ist.
+   * **[!UICONTROL Abonnement]**: Die Abmeldung gilt für künftige Nachrichten, die mit einer bestimmten Abonnentenliste verbunden sind. Diese Option kann nur ausgewählt werden, wenn die aktuelle Nachricht einer Abonnement-Liste zugeordnet ist.
 
 1. Geben Sie die URL der Landingpage ein, zu der der Benutzer weitergeleitet werden soll, sobald er sich abgemeldet hat. Diese Seite dient nur zur Bestätigung, dass die Abmeldung erfolgreich war.
 

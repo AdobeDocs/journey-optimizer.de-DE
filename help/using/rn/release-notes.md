@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2419'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in einer veröffentlichten Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht angezeigt, ohne dass sie erneut veröffentlicht werden müssen. [Weitere Informationen](../offers/offers-e2e.md#insert-decision-in-email)
 
-* Bei der Simulation, welche Angebote für ein bestimmtes Testprofil bereitgestellt werden sollen, können Sie jetzt die Standardsimulationseinstellungen ändern und den Code anzeigen, der Ihren Simulationen entspricht, die zur Fehlerbehebung verwendet werden können. [Weitere Informationen](../offers/offer-activities/simulation.md#define-simulation-settings)
+* Bei der Simulation, welche Angebote für ein bestimmtes Testprofil bereitgestellt werden sollen, können Sie jetzt die Standardsimulationseinstellungen ändern und den Code anzeigen, der Ihren Simulationen entspricht. Dieser Code kann zur Fehlerbehebung verwendet werden. [Weitere Informationen](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **Administration**
 
@@ -134,7 +134,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Journey**
 
-* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnementlisten genutzt werden. Beispielsweise können Sie jetzt in einem Segment eine E-Mail-Adresse aus einer Abonnementliste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
+* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einem Segment eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
 
 * **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../reports/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../reports/sharing-legacy-fields.md) verfügbar.
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit von Journeys implementiert.

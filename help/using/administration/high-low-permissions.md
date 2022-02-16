@@ -6,7 +6,7 @@ role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
 
@@ -99,9 +99,9 @@ Die Berechtigung **[!DNL View journeys events, data sources and actions]** auf h
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
-   * journeys_events.read
-   * journeys_data_sources.read
-   * journeys_actions.read
+   * Journey_events.read
+   * Journey_data_sources.read
+   * Journey_actions.read
 
 * Spezifisch für Adobe Experience Platform:
    * schemas.read

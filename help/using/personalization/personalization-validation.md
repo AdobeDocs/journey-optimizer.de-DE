@@ -1,6 +1,6 @@
 ---
 title: Validierung der Personalisierung
-description: Erfahren Sie mehr über die Validierung der Personalisierung und wie Sie Fehler beheben können.
+description: Erfahren Sie mehr über die Validierung der Personalisierung und die Fehlerbehebung.
 feature: Personalization
 topic: Personalization
 role: Data Engineer

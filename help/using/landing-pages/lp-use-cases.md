@@ -30,11 +30,11 @@ Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Lan
 
 ![](../assets/lp_subscription-uc.png)
 
-Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnementliste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
+Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnement-Liste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
 
 ### Einrichten einer Landingpage {#set-up-lp}
 
-1. Erstellen Sie die Abonnementliste für die Veranstaltungsregistrierung, in der die registrierten Benutzer gespeichert werden. [Hier](subscription-list.md#define-subscription-list) erfahren Sie, wie Sie eine Abonnementliste erstellen.
+1. Erstellen Sie die Abonnement-Liste für die Veranstaltungsregistrierung, in der die registrierten Benutzer gespeichert werden. [Hier](subscription-list.md#define-subscription-list) erfahren Sie, wie Sie eine Abonnement-Liste erstellen.
 
    ![](../assets/lp_subscription-uc-list.png)
 
@@ -42,7 +42,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 1. Konfigurieren Sie die [primäre Landingpage](create-lp.md#configure-primary-page) für die Registrierung.
 
-1. Wählen Sie beim Entwerfen der [Landingpage-Inhalte](design-lp.md) die von Ihnen erstellte Abonnementliste aus, um sie mit den Profilen zu aktualisieren, die das Registrierungs-Kontrollkästchen anklicken.
+1. Wählen Sie beim Entwerfen der [Landingpage-Inhalte](design-lp.md) die von Ihnen erstellte Abonnement-Liste aus, um sie mit den Profilen zu aktualisieren, die das Registrierungs-Kontrollkästchen anklicken.
 
    ![](../assets/lp_subscription-uc-lp-list.png)
 
@@ -64,7 +64,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
    ![](../assets/lp_subscription-uc-journey.png)
 
-   Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur „Danke-Seite“ weitergeleitet und auf die Abonnementliste gesetzt.
+   Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur „Danke-Seite“ weitergeleitet und auf die Abonnement-Liste gesetzt.
 
 ### Senden einer Bestätigungs-E-Mail {#send-confirmation-email}
 
@@ -76,7 +76,7 @@ Zusätzlich können Sie eine Bestätigungs-E-Mail an die Empfänger senden, die 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** in Ihrer Arbeitsfläche ab. [Hier](../building-journeys/segment-qualification-events.md) erhalten Sie weitere Informationen.
 
-1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die von Ihnen erstellte Abonnementliste aus.
+1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die von Ihnen erstellte Abonnement-Liste aus.
 
    ![](../assets/lp_subscription-uc-confirm-journey.png)
 

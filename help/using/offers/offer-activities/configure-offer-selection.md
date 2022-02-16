@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Auswahl von Angeboten für Entscheidungen
+title: Konfigurieren der Auswahl von Angeboten in Entscheidungen
 description: Erfahren Sie, wie Sie die Auswahl von Angeboten in Entscheidungen verwalten
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 ---
 
-# Konfigurieren der Auswahl von Angeboten für Entscheidungen {#offers-selection-in-decisions}
+# Konfigurieren der Auswahl von Angeboten in Entscheidungen {#offers-selection-in-decisions}
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung für jedes Profil die Methode auswählen, die das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
@@ -44,7 +44,7 @@ Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung 
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
+1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 1. Wählen Sie **[!UICONTROL Rangfolgenformel]** als Rangfolgenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangfolge hinzufügen]**.
 
@@ -75,7 +75,7 @@ Nachdem eine Rangstrategie erstellt wurde, können Sie sie einer Platzierung in 
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
+1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangfolge]** und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
 

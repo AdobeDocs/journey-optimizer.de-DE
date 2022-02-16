@@ -220,7 +220,7 @@ Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können S
 
    ![](../assets/preset-view-update-details.png)
 
-Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus sehen,  und die Liste der angeforderten Änderungen.
+Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus und die Liste der angeforderten Änderungen sehen.
 
 ![](../assets/preset-recent-update-screen.png)
 

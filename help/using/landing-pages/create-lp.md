@@ -9,7 +9,7 @@ hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](../assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >

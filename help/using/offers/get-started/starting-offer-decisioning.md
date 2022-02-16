@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit dem Entscheidungs-Management
-description: Erste Schritte mit dem Entscheidungs-Management Erfahren Sie mehr über die Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können
+description: Erste Schritte mit dem Entscheidungs-Management Erfahren Sie mehr über seine Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können
 feature: Offers
 topic: Integrations
 role: User

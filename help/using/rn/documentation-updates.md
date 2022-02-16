@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Es wurde ein neuer Abschnitt zu den Schemaanforderungen hinzugefügt, die erforderlich sind, wenn Ereignistypen bei Verwendung einer Rangfolgestrategie gesendet werden. [Weitere Informationen](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* Der Abschnitt zu [!DNL Journey Optimizer] Die Personalisierungsfunktionen wurden neu organisiert, um eine bessere Lesbarkeit zu erreichen. [Weitere Informationen](../personalization/personalize.md)
+* Der Abschnitt zu [!DNL Journey Optimizer] Personalisierungsfunktionen wurde neu angeordnet, um die Übersichtlichkeit zu verbessern. [Weitere Informationen](../personalization/personalize.md)
 
 * Der Abschnitt Nachrichtenvorgaben erstellen wurde für mehr Klarheit in mehrere Abschnitte unterteilt. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Optimierte Bilder auf der Startseite
 * Der Abschnitt „Nachrichten-Tracking“ wurde in „Links hinzufügen und Nachrichten verfolgen“ verschoben, verbessert und umbenannt. [Mehr dazu](../messages/message-tracking.md)
 * Es wurde ein Unterabschnitt über Mirrorseiten hinzugefügt. [Mehr dazu](../messages/message-tracking.md#mirror-page)
-* &quot;Angebotsaktivitäten&quot;wurde in der Dokumentation und in Bildschirmen zu &quot;Entscheidungen&quot;und &quot;Entscheidungen&quot;zu &quot;Entscheidungsbereichen&quot;umbenannt. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
+* In der Dokumentation und deren Abbildungen wurden „Angebotsaktivitäten“ in „Entscheidungen“ und „Entscheidungen“ in „Entscheidungsbereiche“ umbenannt. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
 * Neuer Anwendungsfall: [Personalisieren einer Nachricht mit Hilfsfunktionen](../personalization/personalization-use-case-helper-functions.md)
 * Die Dokumentation zum Lesen von Segmenten wurde aktualisiert, um die Auswirkungen materialisierter Segmente zu erläutern. [Mehr dazu](../building-journeys/read-segment.md)
 * Die Journey-Einschränkungen wurden aktualisiert. [Mehr dazu](../start/limitations.md)

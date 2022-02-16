@@ -36,14 +36,14 @@ To move to RN-->
 
 * Nutzen Sie [!DNL Journey Optimizer]Funktionen zur Inhaltserstellung zur mühelosen Gestaltung von **responsiven Landingpages**.
 * Richten Sie einfach und schnell **Opt-in- und Opt-out-Vorgänge** ein.
-* Erstellen Sie Abonnementlisten, um Benutzern die Möglichkeit zu geben, **einen Dienst zu abonnieren**. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
+* Erstellen Sie Abonnement-Listen, um Benutzern die Möglichkeit zu geben, **einen Dienst zu abonnieren**. [Weitere Informationen](lp-use-cases.md#subscription-to-a-service)
 * Geben Sie Ihren Empfängern die **Möglichkeit zur Abmeldung** vom Erhalt Ihrer Nachrichten. [Weitere Informationen](lp-use-cases.md#opt-out)
 * Senden Sie beim Opt-in oder Opt-out eine **Bestätigungs-E-Mail**. [Weitere Informationen](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Erstellen von Landingpages</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Erstellen von Abonnementlisten</a></p></td>
+<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Erstellen von Abonnement-Listen</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Entwerfen von Landingpages</a></p></td>
 <td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Reporting</a></p></td>
 </tr>

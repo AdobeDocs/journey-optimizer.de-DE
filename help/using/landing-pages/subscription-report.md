@@ -23,7 +23,7 @@ Der Abonnementbericht enthält Details zur Aktivität Ihrer Abonnenten. Zwei Ber
 
 * Der **[!UICONTROL globale Bericht]**, um die An- und Abmeldungen Ihrer Sendungen über einen bestimmten Zeitraum zu messen und zu visualisieren.
 
-Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnementliste **Live** oder **[!UICONTROL Globaler Bericht]** aus.
+Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnement-Liste **Live** oder **[!UICONTROL Globaler Bericht]** aus.
 
 ![](../assets/subscription_report_6.png)
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -227,11 +227,11 @@ ht-degree: 98%
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/design-lp.md)
-   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
+   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
    + Reporting {#lp-reporting}
       + [Reporting zu Landingpages](using/landing-pages/lp-report.md)
-      + [Reporting zu Abonnementlisten](using/landing-pages/subscription-report.md)
+      + [Reporting zu Abonnement-Listen](using/landing-pages/subscription-report.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -247,7 +247,7 @@ ht-degree: 98%
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
       + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
       + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
-      + [Erstellen von Kollektionen](using/offers/offer-library/creating-collections.md)
+      + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)
    + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
       + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten für Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
@@ -293,7 +293,7 @@ ht-degree: 98%
          + Kollektionen {#collections}
             + [Auflisten von Kollektionen](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [Nachschlagen von Kollektionen](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Erstellen von Kollektionen](using/offers/api-reference/offers-api/collections/create.md)
+            + [Erstellen von Sammlungen](using/offers/api-reference/offers-api/collections/create.md)
             + [Aktualisieren von Kollektionen](using/offers/api-reference/offers-api/collections/update.md)
             + [Löschen von Kollektionen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
