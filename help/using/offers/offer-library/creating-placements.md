@@ -1,15 +1,15 @@
 ---
 title: Erstellen von Platzierungen
-description: Erfahren Sie, wie Sie Platzierungen für Ihre Angebote erstellen.
+description: Erfahren Sie, wie Sie Platzierungen für Ihre Angebote erstellen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
