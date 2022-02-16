@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Mit Tags können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
 
-Tags können auch dazu dienen, Angebote in Kollektionen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Kollektionen](../../../offer-library/creating-collections.md).
+Tags können auch dazu dienen, Angebote in Kollektionen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Sammlungen](../../../offer-library/creating-collections.md).
 
 Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Tags in einem Container anzeigen.
 
