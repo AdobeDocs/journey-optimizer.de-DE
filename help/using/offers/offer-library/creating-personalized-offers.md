@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1565'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,12 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 ![](../../assets/offers_list.png)
 
 ## Angebot erstellen {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="Info zu Angebotsattributen"
+>abstract="Mit Angebotsattributen können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen."
+>additional-url="https://video.tv.adobe.com/v/329375?captions=ger" text="Demovideo ansehen"
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
@@ -141,6 +147,30 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
    >Nur die Quellen **[!UICONTROL Profilattribute]**, **[!UICONTROL Segmentzugehörigkeiten]** und **[!UICONTROL Helper-Funktionen]** sind für das Entscheidungs-Management verfügbar.
 
 ## Eignungsregeln und Einschränkungen hinzufügen {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="Informationen zu Angebotseinschränkungen"
+>abstract="Mit Einschränkungen können Sie angeben, wie das Angebot priorisiert und dem Benutzer im Vergleich zu anderen Angeboten angezeigt wird."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="Informationen zur Eignung von Angeboten"
+>abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
+>additional-url="https://video.tv.adobe.com/v/329373?captions=ger" text="Demovideo ansehen"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="Informationen zur Angebotspriorität "
+>abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Berechtigung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="Informationen zur Begrenzung von Angeboten"
+>abstract="In diesem Feld können Sie angeben, wie oft das Angebot für alle Benutzer angezeigt werden kann."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
 
 Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
 
