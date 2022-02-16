@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1472'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Über die Zuweisung von Subdomains"
->abstract="Mit Journey Optimizer können Sie Ihre Subdomains vollständig der Adobe zuweisen. Adobe kann Nachrichten als verwalteten Dienst bereitstellen, indem es alle DNS-Bereiche kontrolliert und verwaltet."
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains vollständig Adobe zuweisen. Adobe kann Nachrichten als Managed Service zustellen, indem es alle DNS-Bereiche kontrolliert und verwaltet."
 
-Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten.
+Das Zuweisen eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, einer anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten.
 
 Durch das Delegieren einer Subdomain zur Verwendung mit [!DNL Journey Optimizer] kann Adobe sicherstellen, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Zustellbarkeitsanforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für die unternehmensinternen E-Mail-Domains.
 
@@ -32,7 +32,7 @@ Durch das Delegieren einer Subdomain zur Verwendung mit [!DNL Journey Optimizer]
 
 [!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
-Gehen Sie wie folgt vor, um eine neue Subdomain Adobe vollständig zuzuweisen:
+Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
