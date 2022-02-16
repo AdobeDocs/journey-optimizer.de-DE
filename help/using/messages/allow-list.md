@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 >
 >Die Zulassungsliste kann bis zu 1.000 Einträge enthalten.
 
-Erfahren Sie mehr über API-Aufrufe im [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Referenzdokumentation für {target=&quot;_blank&quot;}.
+Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Logik der Zulassungsliste {#logic}
 
