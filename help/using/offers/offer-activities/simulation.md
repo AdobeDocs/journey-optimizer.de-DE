@@ -1,15 +1,15 @@
 ---
 title: Erstellen von Simulationen
-description: Erfahren Sie, wie Sie simulieren, welche Angebote für eine bestimmte Platzierung bereitgestellt werden, um Ihre Entscheidungslogik zu validieren
+description: Erfahren Sie, wie Sie simulieren können, welche Angebote für eine bestimmte Platzierung zugestellt werden, um Ihre Entscheidungslogik zu validieren
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 60ccb9b918284b3fcb62101bc94bf64d2272e8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
    >[!NOTE]
    >
-   >Die ausgewählten Profile werden weiterhin als Testprofile im **[!UICONTROL Simulation]** von Sitzung zu Sitzung wechseln, bis sie mithilfe von **[!UICONTROL Profil verwalten]**.
+   >Die ausgewählten Profile verbleiben von Sitzung zu Sitzung als Testprofile in der Registerkarte **[!UICONTROL Simulation]**, bis sie mithilfe von **[!UICONTROL Profil verwalten]** entfernt werden.
 
 1. Sie können auf den Link **[!UICONTROL Profildetails]** klicken, um die ausgewählten Profildaten anzuzeigen.
 
@@ -108,23 +108,23 @@ Wählen Sie nun die Angebotsentscheidungen aus, die Sie für Ihre Testprofile si
    >
    >Selbst wenn Sie mehrere Entscheidungsumfänge definieren, wird nur eine API-Anfrage simuliert.
 
-## Simulationseinstellungen definieren {#define-simulation-settings}
+## Definieren von Simulationseinstellungen {#define-simulation-settings}
 
 Gehen Sie wie folgt vor, um die Standardeinstellungen für Ihre Simulationen zu bearbeiten.
 
-1. Klicken **[!UICONTROL Einstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen]**.
 
    ![](../../assets/offers_simulation-settings.png)
 
-1. Im **[!UICONTROL Deduplizierung]** können Sie festlegen, dass Angebote für alle Entscheidungen und/oder Platzierungen dupliziert werden. Dies bedeutet, dass mehreren Entscheidungen/Platzierungen möglicherweise dasselbe Angebot zugewiesen wird.
+1. Im Bereich **[!UICONTROL Deduplizierung]** können Sie festlegen, dass Angebote für alle Entscheidungen und/oder Platzierungen dupliziert werden können. Dies bedeutet, dass mehreren Entscheidungen/Platzierungen möglicherweise dasselbe Angebot zugewiesen wird.
 
    ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, d. h. das Entscheidungsmodul ermöglicht Duplikate und kann somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen unterbreiten. Weitere Informationen zu den Eigenschaften von [!DNL Decisions]-API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).
+   >Alle Deduplizierungs-Flags sind standardmäßig für die Simulation aktiviert, was bedeutet, dass das Entscheidungsmodul Duplikate zulässt und somit denselben Vorschlag für mehrere Entscheidungen/Platzierungen machen kann. Weitere Informationen zu den Eigenschaften von [!DNL Decisions] API-Anfragen finden Sie in [diesem Abschnitt](../api-reference/decisions-api/deliver-offers.md).
 
-1. Im **[!UICONTROL Antwortformat]** -Abschnitt können Sie wählen, ob Metadaten in die Codeansicht aufgenommen werden sollen. Aktivieren Sie die entsprechende Option und wählen Sie die Metadaten Ihrer Wahl aus. Sie werden bei der Auswahl in den Payloads für Anfragen und Antworten angezeigt **[!UICONTROL Code anzeigen]**. Weitere Informationen finden Sie unter [Anzeigen von Simulationsergebnissen](#simulation-results) Abschnitt.
+1. Im Bereich **[!UICONTROL Antwortformat]** können Sie wählen, ob Metadaten in die Code-Ansicht aufgenommen werden sollen. Aktivieren Sie die entsprechende Option und wählen Sie die gewünschten Metadaten aus. Sie werden in den Anfrage- und Antwort-Payloads angezeigt, wenn Sie **[!UICONTROL Code anzeigen]** auswählen. Weitere Informationen finden Sie im Abschnitt [Anzeigen von Simulationsergebnissen](#simulation-results).
 
    ![](../../assets/offers_simulation-settings-response-format.png)
 
@@ -136,7 +136,7 @@ Gehen Sie wie folgt vor, um die Standardeinstellungen für Ihre Simulationen zu 
 
 >[!NOTE]
 >
->Für Simulationsdaten können Sie derzeit nur die Variable **[!UICONTROL Hub]** API.
+>Für Simulationsdaten können Sie derzeit nur die **[!UICONTROL Hub]**-API verwenden.
 
 <!--
 In the **[!UICONTROL API for simulation]** section, select the API you want to use: **[!UICONTROL Hub]** or **[!UICONTROL Edge]**.
@@ -166,7 +166,7 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
    ![](../../assets/offers_simulation-offer-details.png)
 
-1. Klicken **[!UICONTROL Code anzeigen]** , um die Anfrage- und Antwort-Payloads anzuzeigen. [Weitere Informationen](#view-code)
+1. Klicken Sie auf **[!UICONTROL Code anzeigen]**, um die Anfrage- und Antwort-Payloads anzuzeigen. [Weitere Informationen](#view-code)
 
 1. Wählen Sie ein anderes Profil aus der Liste aus, um die Ergebnisse der Angebotsentscheidungen für ein anderes Testprofil anzuzeigen.
 
@@ -178,19 +178,19 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
 ## Code anzeigen {#view-code}
 
-1. Verwenden Sie die **[!UICONTROL Code anzeigen]** -Schaltfläche zum Anzeigen der Anfrage- und Antwort-Payloads.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Code anzeigen]**, um die Anfrage- und Antwort-Payloads anzuzeigen.
 
    ![](../../assets/offers_simulation-view-code.png)
 
-   Die Codeansicht zeigt die Entwicklerinformationen für den aktuellen Benutzer an. Standardmäßig wird die **[!UICONTROL Antwort-Payload]** angezeigt.
+   Die Code-Ansicht zeigt die Entwicklerinformationen für den aktuellen Benutzer an. Standardmäßig wird die **[!UICONTROL Antwort-Payload]** angezeigt.
 
    ![](../../assets/offers_simulation-request-payload.png)
 
-1. Klicken **[!UICONTROL Antwort-Payload]** oder **[!UICONTROL Anfrage-Payload]** um zwischen den beiden Registerkarten zu navigieren.
+1. Klicken Sie auf **[!UICONTROL Antwort-Payload]** oder **[!UICONTROL Anfrage-Payload]**, um zwischen den beiden Registerkarten zu wechseln.
 
    ![](../../assets/offers_simulation-response-payload.png)
 
-1. So verwenden Sie die Anfrage-Payload außerhalb von [!DNL Journey Optimizer] - zur Fehlerbehebung, z. B. kopieren Sie sie mithilfe der **[!UICONTROL In Zwischenablage kopieren]** oberhalb der Codeansicht.
+1. So verwenden Sie die Anfrage-Payload außerhalb von [!DNL Journey Optimizer] - Zur Fehlerbehebung kopieren Sie diese beispielsweise unter Verwendung des Buttons **[!UICONTROL In die Zwischenablage kopieren]**, der sich oberhalb der Code-Ansicht befindet.
 
    ![](../../assets/offers_simulation-copy-payload.png)
 
@@ -198,5 +198,5 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
    >[!NOTE]
    >
-   >Stellen Sie beim Kopieren der Anfrage- oder Antwort-Payloads in Ihren eigenen Code sicher, dass Sie {USER_TOKEN} und {API_KEY} durch gültige Werte ersetzen. Erfahren Sie, wie Sie diese Werte in der [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de)Dokumentation zu {target=&quot;_blank&quot;}.
+   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der {target=&quot;_blank&quot;} Dokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de) erfahren Sie, wie Sie diese Werte abrufen können.
 
