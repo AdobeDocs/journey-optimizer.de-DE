@@ -7,15 +7,15 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit der Konfiguration von Push-Benachrichtigungen {#get-started-push}
 
-Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind. Erfahren Sie, wie Sie Push-Benachrichtigungen erstellen in [diese Seite](create-push.md).
+Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind. Auf [dieser Seite](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.
 
 Die Schritte zum Konfigurieren des Push-Benachrichtigungs-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
 
