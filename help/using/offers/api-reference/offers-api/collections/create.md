@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Kollektionen
+title: Erstellen von Sammlungen
 description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
 ht-degree: 100%
 
 ---
 
-# Erstellen von Kollektionen {#create-collection}
+# Erstellen von Sammlungen {#create-collection}
 
 Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
