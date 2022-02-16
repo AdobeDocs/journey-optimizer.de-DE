@@ -1,15 +1,15 @@
 ---
 title: Hinzufügen von Attributen zu Favoriten
-description: Erfahren Sie, wie Sie Favoriten Attribute hinzufügen.
+description: Erfahren Sie, wie Sie Attribute zu Favoriten hinzufügen können.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
