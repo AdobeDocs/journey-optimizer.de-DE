@@ -7,13 +7,13 @@ role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Anwendungsfall: eine Nachricht an die Abonnenten einer Liste senden{#send-a-message-to-the-subscribers-of-a-list}
+# Anwendungsfall: Senden einer Nachricht an Abonnenten auf einer Liste{#send-a-message-to-the-subscribers-of-a-list}
 
 In diesem Anwendungsbeispiel soll eine Journey erstellt werden, um eine Nachricht an die Abonnenten auf einer Liste zu senden.
 
@@ -45,10 +45,10 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
       | Funktion | Beschreibung | Beispiel |
       | --- | --- | --- |
-      | `entry` | Verweis auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnementliste |
+      | `entry` | Verweis auf ein Zuordnungselement entsprechend dem ausgewählten Namespace | Verweis auf eine spezifische Abonnement-Liste |
       | `firstEntryKey` | Abrufen des ersten Eintragsschlüssels einer Zuordnung | Abrufen der ersten E-Mail-Adresse der Abonnenten |
 
-      In diesem Beispiel erhält die Abonnementliste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnementliste verknüpft ist.
+      In diesem Beispiel erhält die Abonnement-Liste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnement-Liste verknüpft ist.
 
       Lesen Sie mehr über [Verweise auf Felder](expression/field-references.md) in Ausdrücken.
 
