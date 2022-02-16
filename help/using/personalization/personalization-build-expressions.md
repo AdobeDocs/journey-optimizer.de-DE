@@ -7,15 +7,15 @@ role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Über den Ausdruckseditor {#build-personalization-expressions}
 
-Der Ausdruckseditor ist das Herzstück der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
+Der Ausdruckseditor ist die Kernkomponente der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
 
 In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
 
@@ -39,9 +39,9 @@ Bei der Auswahl wird die Referenz im Editor hinzugefügt.
 >
 >Das Infosymbol neben dem Symbol „+“ öffnet eine QuickInfo mit weiteren Details zu jeder Variablen.
 >
->Sie können Favoriten die am häufigsten verwendeten Attribute hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-favorites.md).
+>Sie können die am häufigsten verwendeten Attribute zu Favoriten hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-favorites.md).
 
-Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen, die heute Geburtstag haben, und dann die Anpassung vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
+Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen, die heute Geburtstag haben, und dann die Konfiguration vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
 
 ![](assets/perso_ee2.png)
 
