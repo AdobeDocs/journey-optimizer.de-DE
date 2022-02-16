@@ -1,15 +1,15 @@
 ---
 title: Erstellen von Tags
-description: Erfahren Sie, wie Sie Tags für Ihre Angebote erstellen
+description: Erfahren Sie, wie Sie Tags für Ihre Angebote erstellen können
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
 
-Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Kollektionen](../offer-library/creating-collections.md).
+Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
