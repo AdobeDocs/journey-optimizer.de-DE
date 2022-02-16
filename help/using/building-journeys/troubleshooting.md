@@ -7,17 +7,17 @@ role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Beheben von Fehlern in einer Journey{#troubleshooting}
+# Fehlerbehebung in einer Journey{#troubleshooting}
 
 In diesem Abschnitt erfahren Sie, wie Sie Probleme bei Journeys vor dem Testen oder Veröffentlichen beheben können. Alle unten aufgeführten Prüfungen können durchgeführt werden, wenn sich die Journey im Testmodus befindet oder live ist. Wir empfehlen, alle unten aufgeführten Prüfungen im Testmodus vorzunehmen und dann mit der Veröffentlichung fortzufahren. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-## Vor dem Testen auf Fehler prüfen{#checking-for-errors-before-testing}
+## Fehlersuche vor dem Testen{#checking-for-errors-before-testing}
 
 Überprüfen Sie vor dem Testen und Veröffentlichen Ihrer Journey, ob alle Aktivitäten ordnungsgemäß konfiguriert sind. Es können keine Tests oder Veröffentlichungen vorgenommen werden, solange das System noch Fehler findet.
 
@@ -49,7 +49,7 @@ Sie können prüfen, ob der API-Aufruf, den Sie über diese Tools versenden, ric
 
 Ereignisse werden von der Quelle nicht direkt an Journeys weitergeleitet. Journeys benötigen dazu Streaming-Aufnahme-APIs von Adobe Experience Platform. Darum können Sie bei Problemen mit Ereignissen die Fehlerbehebung für Streaming-Aufnahme-APIs in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target=&quot;_blank&quot;} aufrufen.
 
-## Überprüfen Sie, ob Benutzer die Journey eingeben.{#checking-if-people-enter-the-journey}
+## Überprüfen, ob Personen in die Journey eintreten{#checking-if-people-enter-the-journey}
 
 Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzeitbasis.
 
@@ -69,7 +69,7 @@ Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfe
    Content-type - application/json
    ```
 
-## Überprüfen, wie Benutzer durch die Journey navigieren{#checking-how-people-navigate-through-the-journey}
+## Überprüfen, wie Personen durch die Journey navigieren{#checking-how-people-navigate-through-the-journey}
 
 Berichte zu Journey messen den Fortschritt von Kontakten innerhalb einer Journey. So können Sie leicht ermitteln, wo und warum eine Person gestoppt wurde.
 
@@ -78,9 +78,9 @@ Prüfen Sie folgende Punkte:
 * Ist das Problem auf eine Bedingung zurückzuführen, mit der die Person ausgeschlossen wird? Beispiel: Die Bedingung lautet „Geschlecht = männlich“, während die Person eine Frau ist. Die Prüfung kann von einem Business-Anwender vorgenommen werden, solange die Bedingung nicht zu komplex ist.
 * Ist das Problem auf einen Aufruf einer Datenquelle zurückzuführen, die nicht reagiert? Wenn sich die Journey im Test befindet, können diese Informationen in Testmodusprotokollen angezeigt werden. Wenn die Journey live ist, kann ein Administrator direkte Aufrufe an die Datenquelle testen und die erhaltene Antwort überprüfen. Alternativ kann ein Administrator die Journey duplizieren und dann testen.
 
-## Überprüfen, ob Nachrichten erfolgreich gesendet wurden{#checking-that-messages-are-sent-successfully}
+## Überprüfen, ob Nachrichten erfolgreich gesendet werden{#checking-that-messages-are-sent-successfully}
 
-Wenn Kontakte dem richtigen Weg entlang der Journey folgen, aber keine Nachrichten erhalten, die sie erhalten sollten, können Sie Folgendes prüfen:
+Wenn Personen zwar der Journey folgen, aber nicht die vorgesehen Nachrichten erhalten, können Sie Folgendes prüfen:
 
 * [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der letzten Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten eingegangenen API-Aufrufe/-Ereignisse prüfen.
 * [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. In den Versandprotokollen der Nachricht können Sie den Status der jeweiligen Ausführung anzeigen. Sie können sehen, ob der Status grün oder rot ist und worin das Problem bestand. Ein Business-Anwender kann auf diesen Bildschirm zugreifen und die Protokolle zur weiteren Analyse an einen Administrator senden.
