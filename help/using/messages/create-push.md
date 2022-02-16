@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: f70ec99dc982fc0dd417262ac553bc1be294d56f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer Push-Benachrichtigung {#create-push-notification}
 
-Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen – insbesondere dann, wenn sie Ihre Mobile App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen abzudecken, z. B. Updates zu Ihrem Service bereitzustellen, einen Benutzer zu einer Aktion aufzufordern, den Benutzer auf ein neues Angebot hinzuweisen usw. Geräteplattformen erfordern ein Opt-in, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Die Anmeldung für den Benutzer kann so früh erfolgen, nachdem die App zum ersten Mal nach der Installation gestartet wurde, oder je nach Bedarf in einer nachfolgenden Sitzung oder einem darauf folgenden Workflow.
+Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen – insbesondere dann, wenn sie Ihre Mobile App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen abzudecken, z. B. Updates zu Ihrem Service bereitzustellen, einen Benutzer zu einer Aktion aufzufordern, den Benutzer auf ein neues Angebot hinzuweisen usw. Geräteplattformen erfordern ein Opt-in, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Das Opt-in des Benutzers kann bereits nach dem ersten Start der App nach der Installation oder in einer nachfolgenden Sitzung oder einem nachfolgendem Workflow erfolgen.
 
 [!DNL Journey Optimizer] unterstützt Push-Benachrichtigungen und hilft Ihnen, hochrelevante Benachrichtigungen mit branchenführenden Übertragungsraten zu senden. Push-Benachrichtigungen können Personalisierung und Journey-basierten Kontext enthalten, um die Erkenntnisse aus Daten zu nutzen, die Ihre Marke dank Adobe Experience Cloud hat.
 
@@ -27,7 +27,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 
 >[!NOTE]
 >
->Der Bereich **[!UICONTROL Nachricht erstellen]** ist auf den Registerkarten **[!UICONTROL iOS]** und **[!UICONTROL Android]** verfügbar. Jede Änderung in diesem Abschnitt gilt für beide Einstellungen.
+>Der Bereich **[!UICONTROL Nachricht erstellen]** ist auf den Registerkarten **[!UICONTROL iOS]** und **[!UICONTROL Android]** verfügbar. Jede Änderung in diesem Abschnitt wird auf beide Einstellungen angewendet.
 
 ## Titel und Textkörper {#push-title-body}
 
@@ -40,15 +40,15 @@ Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung a
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
 >title="Über das Klickverhalten"
->abstract="Definieren Sie das Verhalten beim Klicken auf den Textkörper der Push-Benachrichtigung durch einen Empfänger."
+>abstract="Wählen Sie das Verhalten, wenn ein Empfänger auf den Hauptteil der Push-Benachrichtigung klickt."
 
-Sie können das Verhalten auswählen, wenn ein Benutzer auf den Text der Push-Benachrichtigung klickt.
+Sie können das Verhalten bestimmen, wenn ein Empfänger auf den Hauptteil der Push-Benachrichtigung klickt.
 
 ![](assets/title-body-push.png)
 
-* Um die App zu öffnen, wählen Sie die **[!UICONTROL App öffnen]** -Option. Die mit der Benachrichtigung verknüpfte App wird in der Nachricht definiert **[!UICONTROL Vorgabe]**. [Weitere Infos](../configuration/message-presets.md) über Nachrichtenvorgaben.
-* Um den Benutzer zu einem bestimmten Inhaltselement innerhalb einer App umzuleiten, wählen Sie die **[!UICONTROL Deeplink]** -Option.  Der spezifische Inhalt kann eine bestimmte Ansicht, einen bestimmten Abschnitt einer Seite oder eine bestimmte Registerkarte sein. Geben Sie nach Auswahl der Option den Deeplink in das entsprechende Feld ein.
-* Um den Benutzer zu einer externen URL umzuleiten, verwenden Sie die **[!UICONTROL Web-URL]** -Option. Geben Sie nach Auswahl der Option die URL in das entsprechende Feld ein.
+* Um die App zu öffnen, wählen Sie die Option **[!UICONTROL App öffnen]**. Die mit der Benachrichtigung verknüpfte App wird in der **[!UICONTROL Voreinstellung]** der Nachricht definiert. [Weitere Informationen](../configuration/message-presets.md) über Nachrichtenvoreinstellungen
+* Um den Benutzer zu einem bestimmten Inhaltselement innerhalb einer App umzuleiten, wählen Sie die Option **[!UICONTROL Deeplink]**.  Der bestimmte Inhalt kann eine Ansicht, ein Abschnitt einer Seite oder eine Registerkarte sein. Geben Sie nach Auswahl der Option den Deeplink in das entsprechende Feld ein.
+* Um den Benutzer zu einer externen URL umzuleiten, verwenden Sie die Option **[!UICONTROL Web-URL]**. Geben Sie nach Auswahl der Option die URL in das entsprechende Feld ein.
 
 ## Hinzufügen von Medien {#add-media-push}
 
@@ -60,17 +60,17 @@ In der Android-Version können Sie nur ein Bildsymbol und ein Bild für erweiter
 
 Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
-* Verwenden Sie die **[!UICONTROL Medien hinzufügen]** Schaltfläche zum Auswählen eines Assets in **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Klicken Sie auf die Schaltfläche **[!UICONTROL Medien hinzufügen]**, um ein Asset in **[!DNL Adobe Experience Manager Assets Essentials]** auszuwählen.
 
    Wie Sie **[!DNL Adobe Experience Manager Assets Essentials]** verwenden, erfahren Sie auf [dieser Seite](assets-essentials.md).
 
-* Oder geben Sie die URL des Mediums im **[!UICONTROL Medien hinzufügen]** -Feld. In diesem Fall können Sie der URL Personalisierung hinzufügen.
+* Oder geben Sie die URL des Mediums im Feld **[!UICONTROL Medien hinzufügen]** ein. In diesem Fall können Sie die URL personalisieren.
 
 Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachrichtigung angezeigt.
 
 ## Hinzufügen von Schaltflächen {#add-buttons-push}
 
-Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Schaltflächen zu Ihrem Push-Inhalt hinzufügen.
+Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
 
 Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt: Nur der **Titel** und die **Nachricht** der Benachrichtigung sind sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfänger die Schaltflächen.
 
@@ -78,11 +78,11 @@ In der iOS-Version können Sie bis zu vier Schaltflächen hinzufügen. In der An
 
 >[!NOTE]
 >
->Verwenden Sie für iOS das Feld **[!UICONTROL iOS-Kategorie]**, um Aktionen einer Benachrichtigungskategorie zuzuordnen.
+>Verwenden Sie unter iOS das Feld **[!UICONTROL iOS-Kategorie]**, um Aktionen einer Benachrichtigungskategorie zuzuordnen.
 
-1. Verwenden Sie die **[!UICONTROL Schaltfläche hinzufügen]** zur Definition von Einstellungen: den Titel und die zugehörige Aktion. Mögliche Aktionen sind dieselben wie für das [Klickverhalten](#on-click-behavior).
+1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Hinzufügen“]**, um die Einstellungen zu definieren: den Titel und die zugehörige Aktion. Mögliche Aktionen sind die gleichen wie für das [Verhalten bei Klick](#on-click-behavior).
 
-1. Verwenden Sie die **[!UICONTROL Ansicht erweitern]** -Symbol unter dem zentralen Vorschaubild, um eine Vorschau Ihrer personalisierten Schaltflächen anzuzeigen.
+1. Verwenden Sie für eine Vorschau Ihrer personalisierten Schaltflächen das Symbol **[!UICONTROL Ansicht erweitern]** unter dem zentralen Vorschaubild.
 
 ![](assets/push_buttons.png)
 
