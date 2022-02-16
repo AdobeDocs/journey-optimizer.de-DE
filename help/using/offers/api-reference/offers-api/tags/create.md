@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '128'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Tag zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Tag zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Tags in späteren Tutorials zum Erstellen von Kollektionen und personalisierten Angeboten nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Tag zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Tag zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Tags in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
 
 ```json
 {
