@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
    >
    >Weitere Informationen zu Links und zum Nachrichten-Tracking finden Sie auf [dieser Seite](message-tracking.md).
 
-1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Weitere Informationen zum Code-Editor finden Sie unter [diese Seite](existing-content.md#import-raw-html-code).
+1. Bei Bedarf können Sie zum Code-Editor wechseln, um Ihre E-Mail weiter zu personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Weitere Informationen zum Code-Editor finden Sie auf [dieser Seite](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 
 1. Klicken Sie auf **[!UICONTROL Vorschau anzeigen]**, um Ihre gerenderte E-Mail zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
-   Weiterführende Informationen zur Vorschau Ihrer E-Mail finden Sie im Abschnitt [diese Seite](preview.md).
+   Weiterführende Informationen zur Vorschau Ihrer E-Mail finden Sie auf [dieser Seite](preview.md).
 
    ![](assets/email_designer_8.png)
 
