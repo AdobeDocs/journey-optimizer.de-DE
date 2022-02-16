@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Jedes Ereignis, das gesendet wird, wenn eine Entscheidung getroffen wird, enthä
 * **[!UICONTROL Fallback]**: Name und ID des Fallback-Angebots, wenn kein personalisiertes Angebot ausgewählt wurde,
 * **[!UICONTROL Placement]**: Name, ID und Kanal der Platzierung, über die das Angebot gesendet wird,
 * **[!UICONTROL Selections]**: Name und ID des für das Profil ausgewählten Angebots,
-* **[!UICONTROL Aktivität]**: Name und ID der Entscheidung (früher als Angebotsaktivität bezeichnet).
+* **[!UICONTROL Aktivität]**: Name und ID der Entscheidung.
 
 Zusätzlich können Sie auch die Felder **[!UICONTROL identityMap]** und **[!UICONTROL Timestamp]** nutzen, um Informationen über das Profil und den Zeitpunkt, zu dem das Angebot zugestellt wurde, abzurufen.
 

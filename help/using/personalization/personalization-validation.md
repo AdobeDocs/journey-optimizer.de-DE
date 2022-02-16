@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Ressource mit der ID activityID und dem Typ OfferActivity nicht gefunden<br/></t
    <td>Für die Image-Angebote (alle personalisierten und Fallback-Angebote, die mit dem Entscheidungs- und Platzierungs-Paar verknüpft sind) sollte die öffentliche URL gefüllt sein (deliveryURL sollte nicht leer sein).</td> 
   </tr> 
   <tr> 
-   <td>Die Entscheidung (früher als „Angebotsaktivität“ bezeichnet) enthält Attribute, die nicht zu Profilen gehören.</td> 
+   <td>Die Entscheidung enthält Nicht-Profil-Attribute.</td> 
    <td>Die Verwendung des Angebotsmodells sollte nur die Profilattribute enthalten.</td> 
   </tr> 
   <tr> 

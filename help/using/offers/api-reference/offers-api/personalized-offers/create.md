@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 91%
 
 ---
 
@@ -104,4 +104,4 @@ Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten personal
 
 ## Einschränkungen {#limitations}
 
-Einige Angebotsbegrenzungen werden derzeit nicht von mobilen [!DNL Experience Edge]-Workflows unterstützt, beispielsweise `Capping`. Der Wert des Feldes `Capping` gibt an, wie oft ein Angebot allen Benutzern angezeigt werden kann. Weitere Informationen finden Sie in der [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../offer-library/creating-personalized-offers.md).
+Angebotsdarstellungen und einige Angebotsbegrenzungen werden derzeit nicht vom Mobilgerät unterstützt [!DNL Experience Edge] Workflows, beispielsweise `Capping`. Der Wert des Feldes `Capping` gibt an, wie oft ein Angebot allen Benutzern angezeigt werden kann. Weitere Informationen finden Sie in der [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../offer-library/creating-personalized-offers.md).
