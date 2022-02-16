@@ -1,15 +1,15 @@
 ---
 title: Konfigurieren von Journeys
-description: Erfahren Sie, wie Sie Data Sources, Ereignisse und Aktionen konfigurieren.
+description: Erfahren Sie, wie Sie Datenquellen, Ereignisse und Aktionen konfigurieren können.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
