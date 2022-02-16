@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <tr>
 <td><img src="../../assets/do-not-localize/icon-offer.svg" width="60px"><p><a href="../offer-library/creating-personalized-offers.md">Angebote erstellen</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-fallback.svg" width="60px"><p><a href="../offer-library/creating-fallback-offers.md">Erstellen von Fallback-Angeboten</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Erstellen von Kollektionen</a></p></td></tr>
+<td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Erstellen von Sammlungen</a></p></td></tr>
 </table>
 
 ## Entscheidungen erstellen und konfigurieren {#create-and-configure-decisions}
