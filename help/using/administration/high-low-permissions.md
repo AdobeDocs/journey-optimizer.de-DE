@@ -6,9 +6,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,9 +99,9 @@ Die Berechtigung **[!DNL View journeys events, data sources and actions]** auf h
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * Spezifisch für Journey Optimizer:
-   * Journey_events.read
-   * Journey_data_sources.read
-   * Journey_actions.read
+   * journeys_events.read
+   * journeys_data_sources.read
+   * journeys_actions.read
 
 * Spezifisch für Adobe Experience Platform:
    * schemas.read
@@ -303,7 +303,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung [!DNL Manage PTR records] {#manage-ptr}
 
-Die **[!DNL Manage PTR records]** Mit allgemeinen Berechtigungen können Benutzer PTR-Einträge lesen und bearbeiten, die basierend auf der Subdomain konfiguriert wurden.
+Die **[!DNL Manage PTR records]** High-Level-Berechtigung ermöglicht es Benutzern, PTR-Einträge, die basierend auf der Subdomain konfiguriert wurden, zu lesen und zu bearbeiten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
