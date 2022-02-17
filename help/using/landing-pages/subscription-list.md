@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
-Ein Anmeldedienst kann sein:
+Beispiele für einen Anmeldedienst:
 
 * ein Newsletter, z. B.: „Laufen als Sport“
 * ein Ereignis, z. B.: „Summit 2021“
