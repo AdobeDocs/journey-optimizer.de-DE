@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -119,11 +119,34 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../messages/suppression-list.md).
 
+![](../assets/global_report_22.png)
+
+In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+
+Die **[!UICONTROL Ausgeschlossene Gründe]** Diagramm und Tabelle zeigen die unterschiedlichen Gründe an, die verhindern, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
+
 ![](../assets/global_report_16.png)
 
 Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
 
 Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]**  -Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihren Versand aktiviert ist. Weiterführende Informationen zur Sendezeitoptimierung finden Sie in diesem Abschnitt [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+Die **[!UICONTROL Optimiert vs. nicht optimiert]** -Diagramm zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht:
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
+* **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
+
+Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in Abhängigkeit von der Versandmethode an: optimiert oder normal.
+
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ Das Diagramm **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthält
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+>[!NOTE]
+>
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]**  -Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihren Versand aktiviert ist. Weiterführende Informationen zur Sendezeitoptimierung finden Sie in diesem Abschnitt [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+Die **[!UICONTROL Optimiert vs. nicht optimiert]** -Diagramm zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht:
+
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
+* **[!UICONTROL Aktionen]**: Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, d. h. Klick auf Schaltfläche oder Abbruch.
+
+Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in Abhängigkeit von der Versandmethode an: optimiert oder normal.
+
+* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 ![](../assets/global_report_18.png)
 

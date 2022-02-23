@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Wenn eine Nachricht veröffentlicht, aber noch nicht durch eine Journey ausgelö
 >
 >Wenn eine Nachricht in mehreren Journeys verwendet wurde, wird für jede Ausführung eine Zeile pro Journey angezeigt.
 
-Standardmäßig werden die Nachrichten ab dem letzten Ausführungsdatum angezeigt. Klicken Sie auf das Symbol **[!UICONTROL Filter]**, um die Nachrichten nach dem Kanal, dem Startdatum und/oder dem Enddatum zu durchsuchen.
+Standardmäßig werden die Nachrichten ab dem letzten Ausführungsdatum angezeigt. Klicken Sie auf das Symbol **[!UICONTROL Filter]**, um die Nachrichten nach dem Kanal, dem Startdatum und/oder dem Enddatum zu durchsuchen. Sie können auch Testereignisse aus Ihrem **Liste der Ausführungen**.
 
 ![](assets/message-execution-tab-filters.png)
 

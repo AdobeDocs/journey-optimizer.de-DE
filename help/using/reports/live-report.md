@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,17 +30,21 @@ Im **[!UICONTROL Live-Bericht]** sind Daten verfügbar, sobald Ihr Versand durch
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Klicken Sie in Ihrem Live-Bericht auf **[!UICONTROL ändern]**.
+1. Wählen Sie mit der Umschalter-Leiste aus, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie unter [diese Seite](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. Um die Größe von Widgets zu ändern oder zu entfernen, klicken Sie auf **[!UICONTROL Ändern]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. Passen Sie die Größe der Widgets an, indem Sie die untere rechte Ecke ziehen.
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. Klicken Sie auf **[!UICONTROL Entfernen]**, um andere Widgets zu entfernen, die Sie nicht für das Tracking von Bounces benötigen.
+1. Klicken **[!UICONTROL Entfernen]** um alle Widgets zu entfernen, die Sie nicht benötigen.
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 

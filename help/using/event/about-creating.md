@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,6 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
    ![](../assets/jo-event7.png)
 
-1. Bei systemgenerierten Ereignissen können Sie eine Bedingung hinzufügen. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#add-a-condition).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -145,18 +144,6 @@ Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit 
 Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
 
 Sie haben auch Zugriff auf die erweiterten Ausdrucksfunktionen (**[!UICONTROL erweiterter Modus]**), wenn Sie zusätzliche Manipulationen durchführen möchten. Mit diesen Funktionen können Sie die Werte bearbeiten, die für bestimmte Abfragen wie das Ändern von Formaten verwendet werden, indem Sie Feldverkettungen durchführen, wobei nur ein Teil eines Felds (z. B. die 10 ersten Zeichen) berücksichtigt wird. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-## Bedingung hinzufügen {#add-a-condition}
-
-Die Bedingung ist nur für systemgenerierte Ereignisse verfügbar. Sie können eine Ereignisbedingung definieren, mit der das System die Verarbeitung von Ereignissen filtern kann. Wenn die Bedingung wahr ist, wird das Ereignis verarbeitet. Wenn die Bedingung nicht wahr ist, wird das Ereignis ignoriert.
-
-Die Bedingung für Ereignisse kann nur auf Daten basieren, die in der Ereignis-Payload übergeben werden. Die auf Ereignisebene definierte Bedingung kann von einem Marketing-Experten auf der Arbeitsfläche nicht geändert werden. Der Zweck besteht darin, diese Bedingung zu härten, wenn dieses Ereignis verwendet wird. Wenn Sie beispielsweise nicht möchten, dass Marketing-Experten bei zu geringem Warenkorbwert Transaktionsabbruchsereignisse verwenden, können Sie eine Bedingung für das Ereignisfeld „Warenkorbwert“ erstellen und einen Wert über 100 US-Dollar festlegen.
-
-Sie können den einfachen Ausdruckseditor oder den erweiterten Ausdruckseditor verwenden, um Bedingungen für Ereignisse einzurichten. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-Sie können beispielsweise eine Bedingung definieren, die nur die Ereignisse eines bestimmten Ereignistyps verarbeitet und die anderen Typen ignoriert. Wenn es sich bei Ihrem Ereignis um einen Transaktionsabbruch handelt und die Payload das Feld für den Warenkorbwert enthält, können Sie eine Ereignisbedingung definieren, um die Ereignisse nur dann zu verarbeiten, wenn der Wert des Warenkorbs größer als 100 US-Dollar ist.
-
-![](../assets/journey78.png)
 
 ## Vorschau der Payload {#preview-the-payload}
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 5ae67db97ef7a2562e5c9179658400a4dceff72d
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,6 @@ Konversion
 | dateTime | konvertiert das Datum in das UTC-Datumsformat |
 | dateTimeOnly | konvertiert das Datum in das UTC-Datumsformat |
 | duration | konvertiert in die entsprechende Anzahl von Millisekunden als Zeichenfolge |
-| time zone | konvertiert in die Zeichenfolgendarstellung der Zeitzonen-ID (JODA-ID) |
 | integer | konvertiert den Wert in eine Zeichenfolgendarstellung (1 wird zu &quot;1&quot;) |
 | decimal | konvertiert den Wert in eine Zeichenfolgendarstellung (1.5 wird zu &quot;1,5&quot;) |
 | boolean | konvertiert den booleschen Wert in &#39;true&#39;, wenn „true“, in &#39;false&#39;, wenn „false“ |
@@ -44,8 +43,6 @@ Konversion
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 
