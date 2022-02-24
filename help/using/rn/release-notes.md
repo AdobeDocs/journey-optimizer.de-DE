@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer-Nachrichteninhalten können Sie Ihren Links jetzt UTM-Parameter hinzufügen: Sie können zusätzliche Daten zu diesem Link bereitstellen und Ihnen dabei helfen, herauszufinden, wo und warum eine Person auf Ihren Link geklickt hat.</p>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/message-presets.md">entsprechenden Dokumentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../configuration/message-presets.md#configure-email-settings">entsprechenden Dokumentation</a>.</p-->
 </td>
 </tr>
 </tbody>
