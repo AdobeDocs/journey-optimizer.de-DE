@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -53,11 +53,11 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvoreinstellungen]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvoreinstellung erstellen]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Geben Sie einen Namen und eine Beschreibung (optional) für die Voreinstellung ein und wählen Sie dann den SMS-Kanal aus.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Konfigurieren Sie die **SMS**-Einstellungen.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * Wählen Sie den **[!UICONTROL SMS-Typ]** aus, der mit der Voreinstellung gesendet werden soll: **[!UICONTROL Transaktionsnachricht]** oder **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 Sie können jetzt mit Journey Optimizer SMS-Nachrichten senden.
 
