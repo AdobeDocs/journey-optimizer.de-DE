@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,17 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
    ![](assets/add-expression.png)
 
 1. Der Ausdruck wird der Bibliothek hinzugefügt. Benutzer können sie nun verwenden, um ihren Personalisierungsinhalt zu erstellen.
+
+
+>[!NOTE]
+>
+>* Sie speichern bis zu 40 Ausdrücke in der Bibliothek.
+>
+>* Ausdrücke dürfen 200 KB nicht überschreiten.
+>
+>* Gespeicherte Ausdrücke werden nach Erstellungsdatum sortiert: Der kürzlich hinzugefügte Ausdruck wird zuerst in der Liste angezeigt.
+
+
 
 Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken **[!UICONTROL Bibliothek hinzufügen]** , um die Syntax zu überprüfen und den Ausdruck zu speichern.
 
