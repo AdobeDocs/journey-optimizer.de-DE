@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '707'
+ht-degree: 92%
 
 ---
 
@@ -145,10 +145,12 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 ## URL-Personalisierung{#perso-urls}
 
-Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie dazu folgendermaßen vor:
+Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie URLs im Nachrichteninhalt Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und sie kann Profildaten oder Kontextdaten verwenden.
 
-* Erstellen Sie einen Link in Ihrem Nachrichteninhalt. Weitere Informationen zur Erstellung von Links finden Sie auf [dieser Seite](../messages/message-tracking.md#insert-links).
-* Wählen Sie das Personalisierungssymbol aus. Dieses Symbol ist für diese spezifischen Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out-Link**.
+Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie wie folgt vor, um eine URL zu personalisieren:
+
+1. Erstellen Sie einen Link in Ihrem Nachrichteninhalt. [Weitere Informationen](../messages/message-tracking.md#insert-links)
+1. Wählen Sie über das Personalisierungssymbol die Attribute aus. Das Personalisierungssymbol steht nur für diese Relationstypen zur Verfügung: **Externer Link**, **Abmelde-Link** und **Opt-out**.
 
 ![](assets/perso-url.png)
 
