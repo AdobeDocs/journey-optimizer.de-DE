@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
+source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2646'
 ht-degree: 92%
 
 ---
@@ -38,7 +38,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Ausdrucks-Personalisierungsbibliothek</strong><br/></th>
+<th><strong>Neue Ausdrucksbibliothek für Personalisierung</strong><br/></th>
 </tr>
 </thead>
 <tbody>
