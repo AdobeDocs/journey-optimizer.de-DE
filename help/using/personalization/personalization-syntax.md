@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 98%
 
 ---
 
@@ -147,8 +147,8 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie dazu folgendermaßen vor:
 
-* Erstellen Sie einen Link im Inhalt Ihrer E-Mail oder Push-Benachrichtigung. Weitere Informationen zur Erstellung von Links finden Sie auf [dieser Seite](../messages/message-tracking.md#insert-links).
-* Klicken Sie auf das Personalisierungssymbol. Dieses Symbol ist für diese spezifischen Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out-Link**.
+* Erstellen Sie einen Link in Ihrem Nachrichteninhalt. Weitere Informationen zur Erstellung von Links finden Sie auf [dieser Seite](../messages/message-tracking.md#insert-links).
+* Wählen Sie das Personalisierungssymbol aus. Dieses Symbol ist für diese spezifischen Link-Typen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out-Link**.
 
 ![](assets/perso-url.png)
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
@@ -60,3 +60,10 @@ Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie i
 Sie können auch auf den Personalisierungs-Editor zugreifen, wenn Sie den Angebotsdarstellungen Inhalte vom Typ Text hinzufügen.
 
 Weitere Informationen zur Verwaltung von Inhalten mit dem Entscheidungs-Management finden Sie in [diesem Abschnitt](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Personalisierte URLs{#personalize-urls}
+
+Im Nachrichteninhalt können Sie Links mit Personalisierung erstellen. Fügen Sie beispielsweise Links zu einer bestimmten Seite Ihrer Website für Ihre neuen Kunden hinzu.
+
+Erfahren Sie, wie Sie mithilfe von Personalisierungsfunktionen eine personalisierte URL in [diesem Abschnitt](personalization-syntax.md#perso-urls).
+
