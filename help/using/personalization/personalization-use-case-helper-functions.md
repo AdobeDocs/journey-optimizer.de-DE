@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 92%
 
 ---
 
@@ -58,8 +58,8 @@ Führen Sie folgende Schritte aus:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** die Zeichenfolgen-Funktionen `upperCase` hinzu:
-   1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
-   1. Verwenden Sie das Suchfeld, um „uppercase“ zu finden.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
+   1. Verwenden Sie das Suchfeld, um &quot;Großbuchstaben&quot;zu finden.
    1. Fügen Sie die Funktion `upperCase` aus den Suchergebnissen hinzu. Klicken Sie dazu auf das Pluszeichen (+) neben `{%= upperCase(string) %}: string`.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
@@ -72,8 +72,8 @@ Führen Sie folgende Schritte aus:
 
 1. Entfernen Sie den Platzhalter „string“ (Zeichenfolge) aus dem Ausdruck.
 1. Fügen Sie das Vorname-Token hinzu:
-   1. Wählen Sie in der Liste **[!UICONTROL Profil]** aus.
-   1. Wählen Sie **[!UICONTROL Profil]** > **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]** aus.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Profilattribute]**.
+   1. Auswählen **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]**.
    1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Vorname]** hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
@@ -84,7 +84,7 @@ Führen Sie folgende Schritte aus:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
+      Erfahren Sie mehr über den Datentyp des Personennamens in [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
@@ -126,7 +126,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `each` hinzu:
-   1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
    1. Verwenden Sie das Suchfeld, um „each“ zu finden.
    1. Fügen Sie von den Suchergebnissen den Helper `each` hinzu.
 
@@ -141,9 +141,9 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Fügen Sie dem Ausdruck das Array `productListItems` hinzu:
 
    1. Entfernen Sie den Platzhalter „someArray“ aus dem Ausdruck.
-   1. Wählen Sie in der Liste **[!UICONTROL Kontext]** aus.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextattribute]**.
 
-      Die Option **[!UICONTROL Kontext]** ist erst verfügbar, nachdem der Journey-Kontext an die Nachricht weitergegeben wurde.
+      **[!UICONTROL Kontextattribute]** sind nur verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
 
    1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
@@ -218,7 +218,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** den Helper `if` hinzu:
-   1. Wählen Sie in der Liste **[!UICONTROL Hilfsfunktionen]** aus.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
    1. Verwenden Sie das Suchfeld, um „if“ zu finden.
    1. Fügen Sie von den Suchergebnissen den Helper `if` hinzu.
 
@@ -248,7 +248,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 1. Fügen Sie der Bedingung das Produktname-Token hinzu:
    1. Entfernen Sie den Platzhalter „condition1“ aus dem Ausdruck.
-   1. Wählen Sie in der Liste **[!UICONTROL Kontext]** aus.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextattribute]**.
    1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.

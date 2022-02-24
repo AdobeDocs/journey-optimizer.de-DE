@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: 06067a9fb5c7fb436bfa4843d07fc0a46fdf74ba
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 84%
 
 ---
 
@@ -19,9 +19,7 @@ Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie sc
 
 ![](assets/favorite-option.png)
 
-Verwenden Sie zum Zugriff auf von Ihnen bevorzugte Elemente die Menüoption **[!UICONTROL Favoriten]** im Dropdown-Menü.
-
-![](assets/favorite-menu.png)
+Verwenden Sie die **[!UICONTROL Favoriten]** im linken Bereich.
 
 Aus dieser Liste können Sie das Personalisierungsobjekt schnell zu Ihrem aktuellen Ausdruck hinzufügen.
 

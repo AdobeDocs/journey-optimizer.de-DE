@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: ad24f1ed5b3480385cb8cab471f638e289bf5094
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 97%
 
 ---
 
@@ -416,3 +416,14 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
+
+## Journey Optimizer-Bibliotheksfunktion {library-permissions}
+
+### Bibliothekselemente verwalten {#library-items}
+
+Die **[!DNL Manage Library Items]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Hinzufügen und Löschen gespeicherter Ausdrücke im [!DNL Journey Optimizer] Bibliothek.
+
+Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+
+* library_item.create
+* library_item.delete

@@ -6,16 +6,21 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 80%
 
 ---
 
 # Über den Ausdruckseditor {#build-personalization-expressions}
 
-Der Ausdruckseditor ist die Kernkomponente der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor"
+>title="Über den Ausdruckseditor"
+>abstract="Mit dem Ausdruckseditor können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Inhalt zu erstellen."
+
+Der Ausdruckseditor ist das Kernstück der Personalisierung in [!DNL Journey Optimizer]. Er ist in jedem Kontext verfügbar, in dem Sie eine Personalisierung definieren müssen, wie z. B. E-Mails, Push-Benachrichtigungen und Angebote.
 
 In der Benutzeroberfläche des Ausdruckseditors können Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihre Inhalte zu erstellen.
 
@@ -33,13 +38,13 @@ Verfügbare Quellen sind:
 * **[!UICONTROL Kontextuelle Attribute]**: Wenn die Aktivität **Nachricht** in einer Journey verwendet wird, stehen in diesem Menü kontextbezogene Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in diesem [Abschnitt](personalization-use-case.md).
 * **[!UICONTROL Hilfsfunktionen]**: listet alle Hilfsfunktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen, Bedingungen und die Bearbeitung von Daten im Rahmen der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in diesem [Abschnitt](functions/functions.md).
 
-Bei der Auswahl wird die Referenz im Editor hinzugefügt.
+Klicken Sie auf die Schaltfläche + , um dem Editor ein Attribut hinzuzufügen.
 
 >[!NOTE]
 >
->Das Infosymbol neben dem Symbol „+“ öffnet eine QuickInfo mit weiteren Details zu jeder Variablen.
->
->Sie können die am häufigsten verwendeten Attribute zu Favoriten hinzufügen. Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-favorites.md).
+>Das Menü mit den Auslassungspunkten neben dem Symbol &quot;+&quot;ermöglicht es Ihnen, weitere Details für jede Variable abzurufen und Ihre am häufigsten verwendeten Attribute zu [Favoriten](personalization-favorites.md).
+
+![](assets/attribute-details.png)
 
 Im folgenden Beispiel können Sie mit dem Ausdruckseditor die Profile auswählen, die heute Geburtstag haben, und dann die Konfiguration vervollständigen, indem Sie ein spezifisches Angebot einfügen, das zu diesem Tag passt.
 

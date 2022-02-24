@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4b79ad4291d6206fbbbe831ea10b76b431389f
+source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2645'
+ht-degree: 92%
 
 ---
 
@@ -35,21 +35,21 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </tbody>
 </table-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Expression Personalization Library</strong><br/></th>
+<th><strong>Ausdrucks-Personalisierungsbibliothek</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
-<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+<p>Journey Optimizer bietet jetzt eine Bibliothek, in der Sie auf vordefinierte Personalisierungsausdrücke zugreifen können. Diese Ausdrücke werden von Admin-Benutzern konfiguriert.</p>
+<p>Weitere Informationen finden Sie in der <a href="../personalization/personalization-library.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
