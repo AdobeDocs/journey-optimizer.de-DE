@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 99%
+source-wordcount: '1944'
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,11 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 ## Konfigurieren von E-Mail-Einstellungen {#configure-email-settings}
 
+E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
+
 ![](../assets/preset-email.png)
+
+Gehen Sie wie folgt vor, um die mit der Nachrichtenvorgabe verknüpften E-Mail-Einstellungen zu definieren:
 
 1. Wählen Sie den Nachrichtentyp aus, der mit der Voreinstellung gesendet werden soll: **Transaktion** oder **Marketing**.
 
@@ -90,7 +94,31 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Wählen Sie den IP-Pool aus, der mit der Voreinstellung verknüpft werden soll. [Weitere Informationen](ip-pools.md)
 
-1. Geben Sie die Header-Parameter für die mit der Voreinstellung gesendeten E-Mails ein.
+1. Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie im  **[!UICONTROL URL-Tracking-Konfiguration (Web-Analyse)]** Abschnitt.
+
+   Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angewendet. Anschließend können Sie die Ergebnisse in einem Webanalysetool wie Adobe Analytics vergleichen. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >Sie können bis zu 10 Tracking-Parameter hinzufügen.
+
+   Sie können den gewünschten Text direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** -Felder.
+
+   Sie können auch aus einer Liste vordefinierter Werte wählen, indem Sie zu den folgenden Objekten navigieren:
+
+   * Journey-Attribute: Quell-ID, Quellname, Quellversions-ID
+   * Nachrichtenattribute: Aktionskennung, Aktionsname
+   * Offer decisioning-Attribute: Angebotskennung, Angebotsname
+
+   >[!CAUTION]
+   >
+   >Navigieren Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als UTM-Wert verwendet werden soll.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. Geben Sie die **[!UICONTROL Kopfzeilenparameter]** für die mit dieser Vorgabe gesendeten E-Mails.
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
    >[!NOTE]
    >
-   >Ab der Version vom Oktober 2021 ist es nicht mehr möglich, in der [!DNL Journey Optimizer]-Benutzeroberfläche eine Weiterleitungs-E-Mail-Adresse zu definieren. Wenn Sie möchten, dass alle bei [!DNL Journey Optimizer] für die delegierte Subdomain eingegangenen E-Mails an eine bestimmte E-Mail-Adresse weitergeleitet werden, wenden Sie sich an das [Supportteam der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >Sie können keine Weiterleitungs-E-Mail-Adresse aus der [!DNL Journey Optimizer] -Benutzeroberfläche. Wenn Sie möchten, dass alle E-Mails von [!DNL Journey Optimizer] für die Übermittlung der delegierten Subdomain an eine bestimmte E-Mail-Adresse wenden Sie sich an [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
+   >Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren Sie die **Parameter für weitere Zustellversuche bei E-Mails**. Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
+1. Konfigurieren Sie die **Email-Wiederholungsparameter**. Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    * Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuch 84 Stunden (oder 5.040 Minuten).
 
 ## Push-Einstellungen konfigurieren {#configure-push-settings}
+
+Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
+
+Gehen Sie wie folgt vor, um die mit der Nachrichtenvorgabe verknüpften Push-Einstellungen zu definieren:
 
 1. Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**.
 
@@ -154,7 +186,7 @@ Alle Ihre Nachrichtenvoreinstellungen werden im Menü **[!UICONTROL Kanäle]** >
 
 ![](../assets/preset-filters.png)
 
-Nachrichtenvoreinstellungen können die folgenden Status aufweisen:
+Nach der Erstellung können Nachrichtenvorgaben die folgenden Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Nachrichtenvoreinstellung wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
 * **[!UICONTROL Verarbeitung]**: Die Nachrichtenvoreinstellung wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
@@ -164,7 +196,7 @@ Nachrichtenvoreinstellungen können die folgenden Status aufweisen:
 
 Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt. 
 
-Wenn einer dieser Fehler auftritt, wenden Sie sich an das [Adobe-Kundenunterstützung-Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
+Wenn einer dieser Fehler auftritt, wenden Sie sich an [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
 * **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. Ein SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die E-Mail-Anbieter verwendet werden.
 
