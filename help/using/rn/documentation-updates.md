@@ -4,8 +4,8 @@ description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentat
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '966'
+ht-degree: 100%
 
 ---
 
@@ -16,24 +16,24 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Februar 2022 {#feb-2022}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. Februar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Die [replace](../building-journeys/functions/functionreplace.md#example_2) und [replaceAll](../building-journeys/functions/functionreplaceall.md#example) -Funktionsdokumentationsseiten wurden mit zusätzlichen Informationen und Beispielen zum Zielparameter aktualisiert.
-* Best Practices wurden zum [Benutzer](../building-journeys/expression/operators.md#important-notes) Seite.
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Februar 2022 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Die Dokumentationsseiten der Funktionen [replace](../building-journeys/functions/functionreplace.md#example_2) und [replaceAll](../building-journeys/functions/functionreplaceall.md#example) wurden mit zusätzlichen Informationen und Beispielen zum Zielparameter aktualisiert.
+* Auf der Seite [Operatoren](../building-journeys/expression/operators.md#important-notes) wurden Best Practices hinzugefügt.
 
 ## Januar 2022 {#january-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom Januar 2022 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Die **Offer decisioning-KI-Ranglisten** wurde mit einer detaillierteren Beschreibung des Automatisch-Optimierungsmodells aktualisiert. [Weitere Informationen](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+* Der Abschnitt **KI-Ranglisten für Offer Decisioning** wurde mit einer detaillierteren Beschreibung des Modells für die automatische Optimierung aktualisiert. [Weitere Informationen](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
 * Es wurde ein neuer Abschnitt zu den Schemaanforderungen hinzugefügt, die erforderlich sind, wenn Ereignistypen bei Verwendung einer Rangfolgestrategie gesendet werden. [Weitere Informationen](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 * Der Abschnitt zu [!DNL Journey Optimizer] Personalisierungsfunktionen wurde neu angeordnet, um die Übersichtlichkeit zu verbessern. [Weitere Informationen](../personalization/personalize.md)
-* Die **Nachrichtenvorgaben erstellen** wurde für mehr Klarheit in mehrere Abschnitte unterteilt. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
-* Die **Opt-out-Verwaltung** wurde klargestellt und leicht neu organisiert. [Weitere Informationen](../messages/consent.md#opt-out-management)
-* Die **Links einfügen** wurde aktualisiert, um die jüngsten Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../messages/message-tracking.md#insert-links)
+* Der Abschnitt **Erstellen von Nachrichtenvoreinstellungen** wurde zur besseren Übersichtlichkeit in mehrere Abschnitte unterteilt. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
+* Der Abschnitt **Opt-out-Verwaltung** wurde klarer formuliert und leicht umstrukturiert. [Weitere Informationen](../messages/consent.md#opt-out-management)
+* Der Abschnitt **Einfügen von Links** wurde aktualisiert, um die jüngsten Änderungen an der Benutzeroberfläche zu berücksichtigen. [Weitere Informationen](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
-* Eine vollständige Beschreibung der **Ausdruckseditor** , die in Journey verwendet wird, ist jetzt verfügbar. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
-* Ein neuer Abschnitt zu **Methode zur Zuweisung von CNAME-Subdomains** wurde hinzugefügt. [Weitere Informationen](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Eine vollständige Beschreibung des **erweiterten Ausdruckseditors**, der in Journeys verwendet wird, ist jetzt verfügbar. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
+* Es wurde ein neuer Abschnitt zur **Methode der CNAME-Subdomain-Zuweisung** hinzugefügt. [Weitere Informationen](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## Oktober 2021 {#october-2021}

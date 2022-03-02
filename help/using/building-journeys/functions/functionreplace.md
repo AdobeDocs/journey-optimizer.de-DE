@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 100%
 
 ---
 
@@ -49,13 +49,13 @@ Gibt „Hexlo World“ zurück.
 
 ## Beispiel 2 {#example_2}
 
-Da der Zielparameter eine RegExp ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen maskieren. Siehe folgendes Beispiel:
+Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe folgendes Beispiel:
 
 * auszuwertende Zeichenfolge: `|OFFER_A|OFFER_B`
 * bereitgestellt von einem Profilattribut `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Zeichenfolge, die ersetzt werden soll: `|OFFER_A`
 * Zeichenfolge ersetzt durch: `''`
-* Sie müssen `\\` vor `|` Zeichen.
+* Sie müssen `\\` vor dem Zeichen `|` hinzufügen.
 
 Der Ausdruck lautet:
 
@@ -63,6 +63,6 @@ Der Ausdruck lautet:
 
 Die zurückgegebene Zeichenfolge lautet: `|OFFER_B`
 
-Sie können auch die Zeichenfolge erstellen, die aus einem bestimmten Attribut ersetzt werden soll:
+Sie können auch die Zeichenfolge erstellen, die mit einem bestimmten Attribut ersetzt werden soll:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

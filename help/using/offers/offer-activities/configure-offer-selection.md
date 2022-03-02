@@ -9,13 +9,13 @@ exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren der Auswahl von Angeboten in Entscheidungen {#offers-selection-in-decisions}
 
-Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie bei der Konfiguration einer Entscheidung für jedes Profil die Methode auswählen, die das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
+Wenn mehrere Angebote für eine bestimmte Platzierung in Frage kommen, können Sie bei der Konfiguration einer Entscheidung die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 * Angebotspriorität
 * Rangfolgenformel
 * [KI-Rangfolge](#use-ranking-strategy) (derzeit nur für ausgewählte Benutzer)
@@ -24,7 +24,7 @@ Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Si
 
 ## Angebotspriorität {#offer-priority}
 
-Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidung infrage kommen, weisen die Angebote mit der höchsten **priority** werden zuerst an die Kunden geliefert.
+Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidung in Frage kommen, werden standardmäßig die Angebote mit der höchsten **Priorität** zuerst an die Kunden gesendet.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatu
 
 Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Abschnitt](../offer-library/create-ranking-formulas.md).
 
-Nachdem eine Rangfolgenformel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
+Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
 1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
@@ -63,13 +63,13 @@ Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entsch
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Sie können auch ein trainiertes Modellsystem verwenden, das Angebote, die für ein bestimmtes Profil angezeigt werden sollen, automatisch nach Rang geordnet, indem Sie eine Rangstrategie auswählen. In [diesem Abschnitt](../offer-library/create-ranking-strategies.md) erfahren Sie, wie Sie eine Rangfolgestrategie erstellen.
+Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie eine Rangfolgestrategie auswählen. In [diesem Abschnitt](../offer-library/create-ranking-strategies.md) erfahren Sie, wie Sie eine Rangfolgestrategie erstellen.
 
 >[!CAUTION]
 >
->Die Verwendung der KI-Rangfolge ist derzeit nur für ausgewählte Benutzer verfügbar.
+>Ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der der KI-Rangfolge gewährt.
 
-Nachdem eine Rangstrategie erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
+Nachdem Sie eine Rangfolgestrategie erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
 1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 

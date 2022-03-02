@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
@@ -27,25 +27,25 @@ Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Jo
 
 ## Dashboard anpassen {#modify-dashboard}
 
-Jedes Berichts-Dashboard kann durch Ändern des Zeitraums und Ändern der Größe oder Entfernung von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
+Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern der Größe von Widgets oder das Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um bestimmte Daten auszuwählen.
+1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um auf bestimmte Daten zuzugreifen.
 
    ![](../assets/report_modify_1.png)
 
-1. Wählen Sie mit der Umschalter-Leiste aus, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie unter [diese Seite](../building-journeys/testing-the-journey.md).
+1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
    ![](../assets/report_modify_2.png)
 
-1. Klicken **[!UICONTROL Ändern]** , um mit der Anpassung Ihres Dashboards zu beginnen.
+1. Klicken Sie auf **[!UICONTROL Ändern]**, um mit der Anpassung Ihres Dashboards zu beginnen.
 
    ![](../assets/report_modify_3.png)
 
-1. Passen Sie die Größe der Widgets an, indem Sie die untere rechte Ecke ziehen.
+1. Sie können die Größe der Widgets durch Ziehen an der rechten unteren Ecke anpassen.
 
    ![](../assets/report_modify_4.png)
 
-1. Klicken **[!UICONTROL Entfernen]** um alle Widgets zu entfernen, die Sie nicht benötigen.
+1. Klicken Sie auf **[!UICONTROL Entfernen]**, um alle Widgets zu entfernen, die Sie nicht benötigen.
 
    ![](../assets/report_modify_5.png)
 

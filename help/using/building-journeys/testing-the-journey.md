@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1646'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
-* Um die Leistung zu optimieren und eine veraltete Ressourcennutzung zu verhindern, wechseln alle Journey im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den Entwurfsstatus.
+* Um die Leistung zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den Entwurfsstatus.
 
 ## Auslösen Ihrer Ereignisse {#firing_events}
 

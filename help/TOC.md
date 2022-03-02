@@ -251,7 +251,7 @@ ht-degree: 99%
       + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)
    + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
       + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
-      + [Konfigurieren der Auswahl von Angeboten für Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
+      + [Konfigurieren der Auswahl von Angeboten in Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
       + [Erstellen von Simulationen](using/offers/offer-activities/simulation.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
       + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)

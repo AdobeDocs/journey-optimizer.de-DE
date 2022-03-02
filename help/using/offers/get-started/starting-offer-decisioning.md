@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Ents
 
 * **Kollektionen**: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-* **Entscheidung**: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+* **Entscheidung**: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots bestimmt.
 
 * **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu ermitteln.
 

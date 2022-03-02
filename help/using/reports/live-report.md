@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Im **[!UICONTROL Live-Bericht]** sind Daten verfügbar, sobald Ihr Versand durch
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Wählen Sie mit der Umschalter-Leiste aus, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie unter [diese Seite](../building-journeys/testing-the-journey.md).
+1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
    ![](../assets/report_modify_6.png)
 
-1. Um die Größe von Widgets zu ändern oder zu entfernen, klicken Sie auf **[!UICONTROL Ändern]**.
+1. Um die Größe von Widgets zu ändern oder sie zu entfernen, klicken Sie auf **[!UICONTROL Ändern]**.
 
    ![](../assets/report_modify_7.png)
 
-1. Passen Sie die Größe der Widgets an, indem Sie die untere rechte Ecke ziehen.
+1. Sie können die Größe der Widgets durch Ziehen an der rechten unteren Ecke anpassen.
 
    ![](../assets/report_modify_8.png)
 
-1. Klicken **[!UICONTROL Entfernen]** um alle Widgets zu entfernen, die Sie nicht benötigen.
+1. Klicken Sie auf **[!UICONTROL Entfernen]**, um alle Widgets zu entfernen, die Sie nicht benötigen.
 
    ![](../assets/report_modify_9.png)
 

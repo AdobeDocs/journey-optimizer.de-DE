@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 5d1dc2d1711ba43b8270423acb1a5ca0ab862230
 workflow-type: tm+mt
 source-wordcount: '1098'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den gelten
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], wird die Einwilligung von der Experience Platform bearbeitet. [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target=&quot;_blank&quot;}. Standardmäßig ist der Wert für das Einverständnisfeld leer und wird als Einverständnis für den Empfang Ihrer Nachrichten behandelt. Sie können diesen Standardwert beim Onboarding auf einen der möglichen Werte ändern [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target=&quot;_blank&quot;}.
+>In [!DNL Journey Optimizer] wird das Einverständnis durch das [Einverständnisschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=de){target=&quot;_blank&quot;} von Experience Platform gehandhabt. Standardmäßig ist der Wert für das Einverständnisfeld leer und gilt als Einverständnis für den Empfang Ihrer Nachrichten. Sie können diesen Standardwert beim Onboarding in einen der möglichen [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target=&quot;_blank&quot;} aufgelisteten Werte ändern.
 
 ## Opt-out-Verwaltung für E-Mails {#opt-out-management}
 
@@ -36,32 +36,32 @@ Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu k�
 
 Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
 
-* Wenn Sie auf diesen Link klicken, werden die Empfänger zu einer Landingpage weitergeleitet, um sich abzumelden.
-* Nach Bestätigung ihrer Wahl werden die Profildaten mit diesen Informationen aktualisiert.
+* Wenn der Empfänger auf diesen Link klickt, wird er auf eine Landingpage weitergeleitet, auf der er die Abmeldung bestätigen muss.
+* Nachdem er seine Entscheidung bestätigt hat, werden die Daten des Profils mit dieser Information aktualisiert.
 
 ### Externes Opt-out {#opt-out-external-lp}
 
-Hierfür können Sie einen Link zu einer externen Landingpage in eine E-Mail einfügen, damit sich Benutzer von dem Erhalt von Nachrichten Ihrer Marke abmelden können.
+Hierfür können Sie einen Link zu einer externen Landingpage in eine E-Mail einfügen, damit sich Benutzer vom Erhalt von Nachrichten Ihrer Marke abmelden können.
 
 #### Hinzufügen eines Abmelde-Links {#add-unsubscribe-link}
 
 Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie Ihre eigene Abmelde-Landingpage.
+1. Erstellen Sie Ihre eigene Abmeldungs-Landingpage.
 
 1. Hosten Sie sie auf einem Drittanbietersystem Ihrer Wahl.
 
-1. [Erstellen einer Nachricht](create-message.md) in [!DNL Journey Optimizer].
+1. [Erstellen Sie eine Nachricht](create-message.md) in [!DNL Journey Optimizer].
 
-1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](message-tracking.md#insert-links) ein.
+1. Wählen Sie Text in Ihrem Inhalt aus und [fügen](message-tracking.md#insert-links) Sie mithilfe der kontextbezogenen Symbolleiste einen Link ein.
 
    ![](assets/opt-out-insert-link.png)
 
-1. Auswählen **[!UICONTROL Externes Opt-out/Abmeldung]** von **[!UICONTROL Link-Typ]** Dropdown-Liste.
+1. Wählen Sie **[!UICONTROL Externes Opt-out/Abmeldung]** aus der Dropdown-Liste **[!UICONTROL Link-Typ]**.
 
    ![](assets/opt-out-link-type.png)
 
-1. Im **[!UICONTROL Link]** den Link zu Ihrer Drittanbieter-Landingpage einfügen.
+1. Fügen Sie im Feld **[!UICONTROL Link]** den Link zu der Landingpage eines Drittanbieters ein.
 
    ![](assets/opt-out-link-url.png)
 
@@ -69,9 +69,9 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](publish-manage-message.md).
 
-#### API-Aufruf zum Opt-out implementieren {#opt-out-api}
+#### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** durch Adobe I/O, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
+Damit Ihre Empfänger abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über Adobe I/O implementieren, um die Einstellungen der entsprechenden Profile zu aktualisieren.
 
 Dieser Adobe I/O-POST-Aufruf lautet wie folgt:
 
@@ -83,7 +83,7 @@ Abfrageparameter:
 * **sig**: Signatur
 * **pid**: verschlüsselte Profil-ID
 
-Diese drei Parameter werden in die URL der Landingpage eines Drittanbieters eingefügt, die an Ihren Empfänger gesendet wird:
+Diese drei Parameter werden in die URL der Drittanbieter-Landingpage eingefügt, die an Ihren Empfänger gesendet wird:
 
 ![](assets/opt-out-parameters.png)
 
@@ -111,17 +111,17 @@ Hauptteil der Anfrage:
 
 [!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den Adobe I/O-Aufruf zu aktualisieren.
 
-#### Nachricht mit Abmelde-Link senden {#send-message-unsubscribe-link}
+#### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
-Nachdem Sie den Abmelde-Link zu Ihrer Landingpage konfiguriert und den API-Aufruf implementiert haben, kann Ihre Nachricht gesendet werden.
+Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert und den API-Aufruf implementiert haben, kann Ihre Nachricht gesendet werden.
 
-1. Senden Sie die Nachricht einschließlich des Links über eine [Journey](../building-journeys/journey.md).
+1. Senden Sie die Nachricht mit dem Link über eine [Journey](../building-journeys/journey.md).
 
 1. Wenn der Empfänger nach Erhalt der Nachricht auf den Abmelde-Link klickt, wird die Landingpage angezeigt.
 
    ![](assets/opt-out-lp-example.png)
 
-1. Wenn der Empfänger das Formular sendet (hier durch Drücken der **Abmelden** -Schaltfläche in Ihrer Landingpage) werden die Profildaten über die [Adobe I/O-Aufruf](#opt-out-api).
+1. Wenn der Empfänger das Formular abschickt (in diesem Fall durch Klicken auf die Schaltfläche **Abmelden** auf Ihrer Landingpage), werden die Profildaten durch den [Adobe I/O-Aufruf](#opt-out-api) aktualisiert.
 
 1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 
@@ -137,11 +137,11 @@ Nachdem Sie den Abmelde-Link zu Ihrer Landingpage konfiguriert und den API-Aufru
 
 ### Opt-out mit einem Klick {#one-click-opt-out}
 
-Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch einen Opt-out-Link mit einem Klick in Ihren E-Mail-Inhalt einfügen. Über diesen Link können sich Ihre Empfänger schnell von Ihrer Nachricht abmelden, ohne auf eine Landingpage weitergeleitet zu werden, auf der sie ihre Auswahl bestätigen müssen, was den Abmeldevorgang beschleunigt.
+Da sich viele Kunden einen einfachen Abmeldevorgang wünschen, können Sie auch einen Opt-out-Link mit einem Klick in Ihren E-Mail-Inhalt einfügen. Dieser Link ermöglicht es Ihren Empfängern, sich schnell von Ihren Mitteilungen abzumelden, ohne erst auf eine Landingpage umgeleitet zu werden, auf der sie ihre Wahl bestätigen müssen, was den Abmeldeprozess beschleunigt.
 
-Gehen Sie wie folgt vor, um Ihrer E-Mail einen Opt-out-Link hinzuzufügen.
+Gehen Sie wie folgt vor, um einen Opt-out-Link zu Ihrer E-Mail hinzuzufügen.
 
-1. [Link einfügen](message-tracking.md#insert-links) und wählen Sie **[!UICONTROL Opt-out mit einem Klick]** als Typ des Links.
+1. [Fügen Sie einen Link ein](message-tracking.md#insert-links) und wählen Sie als Link-Typ **[!UICONTROL Ausschluss mit einem Klick]**.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -161,9 +161,9 @@ Gehen Sie wie folgt vor, um Ihrer E-Mail einen Opt-out-Link hinzuzufügen.
 
 1. Speichern Sie Ihre Änderungen.
 
-Wenn Ihre Nachricht über eine [Journey](../building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Ausschluss-Link klickt, sofort abgemeldet.
+Wenn Ihre Nachricht über eine [Journey](../building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Abmelde-Link klickt, sofort abgemeldet.
 
-### Abmelde-Link in der Kopfzeile der Nachricht {#unsubscribe-email}
+### Abmelde-Link in der Kopfzeile einer Nachricht {#unsubscribe-email}
 
 Wenn der E-Mail-Client des Empfängers die Anzeige eines Abmelde-Links in der E-Mail-Kopfzeile unterstützt, enthalten E-Mails, die mit [!DNL Journey Optimizer] gesendet werden, automatisch diesen Link.
 

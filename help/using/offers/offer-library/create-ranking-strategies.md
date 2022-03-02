@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Die Verwendung der KI-Rangfolge ist derzeit nur für ausgewählte Benutzer verfügbar.
+>Ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der der KI-Rangfolge gewährt.
 
 Mit dieser Funktion können Sie basierend auf Ihren Geschäftszielen verschiedene **Rangfolgestrategien** erstellen. Wenn Sie diese verschiedenen zielbasierten Strategien in einer Entscheidung (früher als Angebotsaktivität bezeichnet) verwenden, hilft Ihnen das System mit trainierten Modellen zu verstehen, wie sich die verschiedenen Rangfolgestrategien auf Ihre Ziele auswirken.
 
@@ -168,10 +168,10 @@ Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entspre
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen:
 
-### Angezeigte Angebote
+### Szenario mit angezeigtem Angebot
 
 **Ereignistyp:** `decisioning.propositionDisplay`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```
@@ -200,10 +200,10 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 +++
 
-### Angebotsszenario
+### Szenario mit angeklicktem Angebot
 
 **Ereignistyp:** `decisioning.propositionInteract`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```

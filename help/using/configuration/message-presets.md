@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Konfigurieren von **E-Mail**-Einstellungen. [Weitere Informationen](#configure-email-settings)
 
-1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigungen.** [Weitere Informationen](#configure-push-settings)
+1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigungen**. [Weitere Informationen](#configure-push-settings)
 
    <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
@@ -165,7 +165,7 @@ Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folg
 * Bei Transaktions-E-Mails beträgt die Mindestdauer für den erneuten Versuch 10 Minuten.
 * Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuch 84 Stunden (oder 5.040 Minuten).
 
-## Push-Einstellungen konfigurieren {#configure-push-settings}
+## Konfigurieren der Push-Einstellungen {#configure-push-settings}
 
 Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1075'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
 1. Definieren Sie im Feld **[!UICONTROL Einschränkungsrate]** das Durchsatz-Limit der Aktivität „Segment lesen“.
 
-   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 20,000 Nachrichten pro Sekunde. Sie können diesen Wert zwischen 500 auf 20,000 Nachrichten pro Sekunde variieren.
+   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 20.000 Nachrichten pro Sekunde. Sie können diesen Wert zwischen 500 und 20.000 Nachrichten pro Sekunde variieren.
 
    >[!NOTE]
    >

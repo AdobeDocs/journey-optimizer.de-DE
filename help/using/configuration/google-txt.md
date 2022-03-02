@@ -27,8 +27,8 @@ Gehen Sie wie folgt vor, um Ihrer Subdomain einen Google TXT-Eintrag hinzuzufüg
 
 1. Öffnen Sie die Subdomain über das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Subdomains]** .
 
-1. Geben Sie im Abschnitt **[!UICONTROL Google TXT-Eintrag]** den Verifizierungs-Code ein, der in [Google Workspace](https://support.google.com/a/answer/183895){ target=&quot;_blank&quot;}<!--G Suite Admin tools--> generiert wurde. Klicken Sie dann auf  **[!UICONTROL Speichern]**.
+1. Geben Sie im Abschnitt **[!UICONTROL Google TXT-Eintrag]** den Verifizierungs-Code ein, der in [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools--> generiert wurde. Klicken Sie dann auf  **[!UICONTROL Speichern]**.
 
    ![](../assets/subdomain-google-txt.png)
 
-1. Nachdem der TXT-Eintrag hinzugefügt wurde, muss er von Google verifiziert werden. Gehen Sie dazu zu [Google Workspace](https://support.google.com/a/answer/183895){ target=&quot;_blank&quot;}<!--G Suite Admin tools--> und starten Sie den Verifizierungsvorgang.
+1. Nachdem der TXT-Eintrag hinzugefügt wurde, muss er von Google verifiziert werden. Gehen Sie dazu zu [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools--> und starten Sie den Verifizierungsvorgang.

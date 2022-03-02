@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2646'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer-Nachrichteninhalten können Sie Ihren Links jetzt UTM-Parameter hinzufügen: Sie können zusätzliche Daten zu diesem Link bereitstellen und Ihnen dabei helfen, herauszufinden, wo und warum eine Person auf Ihren Link geklickt hat.</p>
+<p>In Nachrichteninhalten von Journey Optimizer können Sie jetzt UTM-Parameter zu Ihren Links hinzufügen. Diese können zusätzliche Daten zu diesem Link liefern und Ihnen dabei helfen herauszufinden, wo und warum eine Person auf Ihren Link geklickt hat.</p>
 <p>Weitere Informationen finden Sie in der <a href="../configuration/message-presets.md#configure-email-settings">entsprechenden Dokumentation</a>.</p-->
 </td>
 </tr>
@@ -91,22 +91,22 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Journeys**
 
-* Um die Leistung zu optimieren, wechseln alle Journey im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
-* Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
+* Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
+* Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
 
 **Reporting**
 
 * Sendungen können nun nach ihrem Status gefiltert werden:
-   * In der Liste Nachrichtenausführung können Sie jetzt Testsendungen aus der Versandliste ausschließen.
-   * Aus Ihren Live-/Global-Berichten können Sie auswählen, ob Sie Testereignisse ausschließen möchten.
+   * In der Liste „Nachrichtenausführung“ können Sie jetzt Testsendungen aus der Versandliste ausschließen.
+   * Bei Ihren Live-/Global-Berichten können Sie auswählen, ob Sie Testereignisse ausschließen möchten.
 
-* Sie können jetzt auf Berichte zu Sendezeitoptimierungsdaten zugreifen: die Anzahl der Personen, die unmittelbar Nachrichten waren, die Anzahl der Personen, die mit einer 1-Stunden-Optimierung, einer 2-Stunden-Optimierung usw. benachrichtigt wurden.
+* Sie können jetzt auf Berichte zu Sendezeitoptimierungsdaten zugreifen: die Anzahl der Personen, die unmittelbar benachrichtigt wurden, und die Anzahl der Personen, die mit einer 1-Stunden-Optimierung, einer 2-Stunden-Optimierung usw. benachrichtigt wurden.
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Entscheidungs-Management**
 
-* Rankings und KI-Rankings werden jetzt in einem Tab zusammengefasst.
+* Rangfolgen und KI-Rangfolgen werden jetzt in einer Registerkarte zusammengefasst.
 
 ## Version Januar 2022 {#january-2022-release}
 

@@ -1,6 +1,6 @@
 ---
 solution: Journey Orchestration
-title: Benutzerdefinierte Aktion konfigurieren
+title: Konfigurieren einer benutzerdefinierten Aktion
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
 feature: Actions
 topic: Administration
@@ -9,24 +9,24 @@ level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
-# Benutzerdefinierte Aktion konfigurieren {#configure-an-action}
+# Konfigurieren einer benutzerdefinierten Aktion {#configure-an-action}
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem verwenden oder möchten, dass Journey API-Aufrufe an ein Drittanbietersystem senden, verwenden Sie benutzerdefinierte Aktionen, um dessen Verbindung zu Ihrer Journey zu konfigurieren. Sie können beispielsweise mit benutzerdefinierten Aktionen eine Verbindung zu den folgenden Systemen herstellen: Epsilon, Slack, Adobe.io, Firebase usw.
+Wenn Sie ein Drittanbietersystem zum Nachrichtenversand verwenden oder wenn Sie möchten, dass von Journeys API-Aufrufe an ein Drittanbietersystem gesendet werden, verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zwischen dem System und Ihrer Journey zu konfigurieren. Sie können mit benutzerdefinierten Aktionen beispielsweise eine Verbindung zu den folgenden Systemen herstellen: Epsilon, Slack, Adobe.io, Firebase usw.
 
-Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benutzern definiert und Marketing-Experten zur Verfügung gestellt werden. Nach der Konfiguration werden sie in der linken Palette Ihrer Journey im **[!UICONTROL Aktion]** Kategorie. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
+Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benutzern definiert und Marketing-Experten zur Verfügung gestellt werden. Nach der Konfiguration erscheinen sie in der linken Palette Ihrer Journey in der Kategorie **[!UICONTROL Aktion]**. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Einschränkungen{#custom-actions-limitations}
 
-Benutzerdefinierte Aktionen weisen einige Einschränkungen auf, die unter [diese Seite](../start/limitations.md).
+Für benutzerdefinierte Aktionen gibt es einige Einschränkungen, die auf [dieser Seite](../start/limitations.md) aufgeführt sind.
 
-In benutzerdefinierten Aktionsparametern können Sie eine einfache Sammlung sowie eine Sammlung von Objekten übergeben. Weitere Informationen zu Sammlungsbeschränkungen in [diese Seite](../building-journeys/collections.md#limitations).
+In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfache Sammlung als auch eine Sammlung von Objekten übergeben. Weitere Informationen zu den Einschränkungen von Sammlungen finden Sie auf [dieser Seite](../building-journeys/collections.md#limitations).
 
-Beachten Sie außerdem, dass die Parameter für benutzerdefinierte Aktionen ein erwartetes Format aufweisen (Beispiel: Zeichenfolge, Dezimalzahl usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie hier . [Anwendungsfall](../building-journeys/collections.md).
+Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein bestimmtes Format erwartet wird (Beispiel: Zeichenfolge, Dezimalwert usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie in diesem [Anwendungsfall](../building-journeys/collections.md).
 
 
 ## Konfigurationsschritte {#configuration-steps}
