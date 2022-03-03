@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
-# KI-Rangfolgen {#ai-rankings}
-
-## Erste Schritte mit KI-Rangfolgen {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->Ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der der KI-Rangfolge gewährt.
-
-Mit dieser Funktion können Sie basierend auf Ihren Geschäftszielen verschiedene **Rangfolgestrategien** erstellen. Wenn Sie diese verschiedenen zielbasierten Strategien in einer Entscheidung (früher als Angebotsaktivität bezeichnet) verwenden, hilft Ihnen das System mit trainierten Modellen zu verstehen, wie sich die verschiedenen Rangfolgestrategien auf Ihre Ziele auswirken.
-
-Sie können beispielsweise eine Rangfolgestrategie für den E-Mail-Kanal und eine andere für den Push-Kanal auswählen. Für jeden Kanal nutzt das System mit trainierten Modellen mehrere Datenpunkte, um zu bestimmen, welches Angebot zuerst für eine bestimmte Platzierung angezeigt werden soll, anstatt die Prioritätswerte der Angebote oder eine [Rangfolgenformel](create-ranking-formulas.md) zu berücksichtigen.
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-Nachdem eine Rangfolgestrategie erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Weitere Informationen finden Sie unter [Angebotsauswahl in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
-
-### Modelle mit automatischer Optimierung {#auto-optimization}
-
-Derzeit ist in [!DNL Journey Optimizer] der einzige unterstützte Modelltyp für die KI-Rangfolge die **automatische Optimierung**.
-
-Ein Modell mit automatischer Optimierung zielt darauf ab, auf der Grundlage der von Ihnen festgelegten Leistungsindikatoren (Key Performance Indicators, KPIs) Angebote zu liefern, die die Rendite maximieren. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung.
-
->[!NOTE]
->
->Das Modell der automatischen Optimierung verwendet keine kontextbezogenen oder Benutzerprofildaten. Es optimiert die Ergebnisse basierend auf der allgemeinen Performance der Angebote.
-
-Bei der automatischen Optimierung besteht die Herausforderung darin, das entdeckende Lernen und die Nutzung des Erlernten miteinander in Einklang zu bringen. Dieses Prinzip ist als **Ansatz des „mehrarmigen Banditen“** bekannt.
-
-Um diese Herausforderung zu bewältigen, verwendet das Modell der automatischen Optimierung die Methode des **Thompson-Samplings**, mit der ermittelt werden kann, welche Option verfolgt werden muss, um den erwarteten Gewinn zu maximieren. Mit anderen Worten: Thompson-Sampling ist eine Art verstärktes Lernverfahren zur Lösung des Dilemmas zwischen Exploration (Erkundung) und Exploitation (Ausbeutung) in einem Problem vom Typ „Mehrarmiger Bandit“.
-
-Die Methode des Thompson-Samplings ermöglicht auch die Bewältigung von Herausforderungen wie dem „Kaltstart“-Problem, d. h. wenn ein neues Angebot in die Kampagne eingeführt wird, hat es keine Historie, aus der es lernen könnte.
+# Erstellen von KI-Modellen {#ai-rankings}
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgestrategie zu erstellen:
 
    * **[!UICONTROL Name]**: Eindeutiger Name, den Sie angeben müssen.
 
-   * **[!UICONTROL Modelltyp]**: Derzeit ist der einzige unterstützte Modelltyp die **[!UICONTROL automatische Optimierung]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Modelltyp]**: Derzeit in [!DNL Journey Optimizer] Der einzige unterstützte Modelltyp ist **[!UICONTROL Automatische Optimierung]**. [Weitere Informationen](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimierungsmetrik]**:
 
