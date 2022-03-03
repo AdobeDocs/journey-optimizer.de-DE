@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Abfrage-Editor ist ein interaktives Tool von Adobe Experience Platform Query Ser
 Der Abfrage-Editor unterstützt die Entwicklung von Abfragen für die Analyse und Datenexploration und ermöglicht Ihnen das Ausführen interaktiver Abfragen für Entwicklungszwecke sowie nicht interaktiver Abfragen zum Auffüllen von [Datensätzen](get-started-datasets.md).
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}, wie Sie den Abfrage-Editor verwenden.
 

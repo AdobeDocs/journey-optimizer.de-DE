@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Beachten Sie, dass Sie eine Reaktionsaktivität auf der Arbeitsfläche nur verwe
 
 Siehe [Informationen zu Aktionsaktivitäten](../building-journeys/about-journey-activities.md#action-activities).
 
-![](../assets/journey45.png)
+![](assets/journey45.png)
 
 Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionsereignisse beschrieben:
 

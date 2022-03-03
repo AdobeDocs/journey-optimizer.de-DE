@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
@@ -39,13 +39,13 @@ Beachten Sie auch, dass bei zwei parallelen Wartezeiten die zuerst auftretende u
 
 Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus.
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## Wartezeit mit festgelegtem Datum{#fixed_date}
 
 Wählen Sie das Datum für die Ausführung der nächsten Aktivität aus.
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
@@ -57,7 +57,7 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 >
 >Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016- 08-06.12T09:46:06.982-05) zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

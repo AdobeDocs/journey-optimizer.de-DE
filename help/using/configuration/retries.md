@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -35,11 +35,11 @@ Falls der Standardwert 5 Ihren Anforderungen nicht entspricht, können Sie den F
 
 1. Klicken Sie auf den Button **[!UICONTROL Unterdrückungsregeln bearbeiten]**.
 
-   ![](../assets/suppression-list-edit-retries.png)
+   ![](assets/suppression-list-edit-retries.png)
 
 1. Bearbeiten Sie die zulässige Anzahl aufeinanderfolgender Softbounces entsprechend Ihren Anforderungen.
 
-   ![](../assets/suppression-list-edit-soft-bounces.png)
+   ![](assets/suppression-list-edit-soft-bounces.png)
 
    Sie müssen einen ganzzahligen Wert zwischen 1 und 20 eingeben, d. h. die Mindestanzahl weiterer Zustellversuche ist 1 und die maximale Anzahl ist 20.
 

@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
 1. Gehen Sie in das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL API-Anmeldeinformationen]** und klicken Sie auf **[!UICONTROL API-Anmeldeinformationen erstellen]**.
 
-   ![](../assets/sms_4.png)
+   ![](assets/sms_4.png)
 
 1. Wählen Sie Sinch als **[!UICONTROL SMS-Anbieter]** aus.
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
    >
    > Für Sinch sind spezielle API-Anmeldeinformationen erforderlich. Greifen Sie über Ihren Sinch-Account auf das Menü „SMS“ > „APIs“ zu, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
 
-   ![](../assets/sms_5.png)
+   ![](assets/sms_5.png)
 
 1. Wenn Sie die Konfiguration Ihrer API-Anmeldeinformationen abgeschlossen haben, klicken Sie auf **[!UICONTROL Senden]**.
 

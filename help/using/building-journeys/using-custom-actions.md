@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Die verkettete URL sieht folgendermaßen aus:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID\>`/messages`
 
-![](../assets/journey-custom-action-url.png)
+![](assets/journey-custom-action-url.png)
 
 ### Header
 
@@ -49,7 +49,7 @@ Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
 1. Wählen Sie in der Journey die benutzerdefinierte Aktion aus.
 1. Klicken Sie im Abschnitt **[!UICONTROL URL-Konfiguration]** im Konfigurationsbereich auf das Stiftsymbol neben dem Header-Feld.
 
-   ![](../assets/journey-dynamicheaderfield.png)
+   ![](assets/journey-dynamicheaderfield.png)
 
 1. Wählen Sie ein Feld aus und klicken Sie auf **[!UICONTROL OK]**.
 

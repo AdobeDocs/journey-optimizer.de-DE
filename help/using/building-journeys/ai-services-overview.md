@@ -5,7 +5,7 @@ description: Übersicht über den KI-Service
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
@@ -26,5 +26,5 @@ Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- od
 
 Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Optimizer (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 
