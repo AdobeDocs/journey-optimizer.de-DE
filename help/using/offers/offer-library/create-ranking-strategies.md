@@ -14,7 +14,7 @@ ht-degree: 97%
 
 ---
 
-# Erstellen von KI-Modellen {#ai-rankings}
+# Create AI models {#ai-rankings}
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
