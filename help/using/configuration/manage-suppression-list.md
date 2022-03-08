@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 100%
@@ -31,15 +31,15 @@ Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen zuzugreifen, 
 >
 >Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Unterdrückungsliste sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzer finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
+![](../assets/suppression-list-access.png)
 
 Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können.
 
-![](assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
 Sie können nach **[!UICONTROL Unterdrückungskategorie]**, **[!UICONTROL Adresstyp]** oder **[!UICONTROL Grund]** filtern. Wählen Sie für jedes Kriterium die von Ihnen gewünschten Optionen aus. Nach der Auswahl können Sie einzelne oder alle Filter löschen, die über der Liste angezeigt werden.
 
-![](assets/suppression-list-filtering-example.png)
+![](../assets/suppression-list-filtering-example.png)
 
 Wenn Sie versehentlich manuell eine E-Mail-Adresse oder eine Domain hinzugefügt haben, können Sie mit dem Button **[!UICONTROL Löschen]** diesen Eintrag entfernen.
 
@@ -47,7 +47,7 @@ Wenn Sie versehentlich manuell eine E-Mail-Adresse oder eine Domain hinzugefügt
 >
 >Verwenden Sie den Button **[!UICONTROL Löschen]** niemals, um unterdrückte E-Mail-Adressen oder Domains zu entfernen.
 
-![](assets/suppression-list-delete.png)
+![](../assets/suppression-list-delete.png)
 
 Wenn Sie eine E-Mail-Adresse oder Domain aus der Unterdrückungsliste löschen, wird der Versand an diese Adresse oder Domain wieder aufgenommen. Dies kann sich erheblich auf Ihre Zustellbarkeit und IP-Reputation auswirken und letztendlich dazu führen, dass Ihre IP-Adresse oder Versand-Domain blockiert wird. In [diesem Abschnitt](../messages/suppression-list.md) erfahren Sie mehr darüber, wie wichtig es ist, eine Unterdrückungsliste korrekt zu verwalten.
 
@@ -59,7 +59,7 @@ In der Ansicht **[!UICONTROL Unterdrückungsliste]** können Sie auch Unterdrüc
 
 Um die Unterdrückungsliste als CSV-Datei zu exportieren, klicken Sie auf den Button **[!UICONTROL CSV herunterladen]**.
 
-![](assets/suppression-list-download-csv.png)
+![](../assets/suppression-list-download-csv.png)
 
 ## Unterdrückungskategorien und -gründe {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ Die Unterdrückungskategorien lauten wie folgt:
 
 Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Typ]** (E-Mail oder Domain), den **[!UICONTROL Grund]**, der zum Ausschluss führte, die Person, die die E-Mail-Adresse zur Unterdrückungsliste hinzufügte, und das Datum mit Uhrzeit, zu dem die Adresse der Unterdrückungsliste hinzugefügt wurde, überprüfen.
 
-![](assets/suppression-list.png)
+![](../assets/suppression-list.png)
 
 Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
@@ -111,13 +111,13 @@ Sie können E-Mail-Adressen oder Domains [einzeln](#add-one-address-or-domain) o
 
 Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** und folgen Sie dann einer der folgenden Methoden.
 
-![](assets/suppression-list-add-email.png)
+![](../assets/suppression-list-add-email.png)
 
 ### Eine einzelne Adresse oder Domain hinzufügen {#add-one-address-or-domain}
 
 1. Wählen Sie die Option **[!UICONTROL Einzeln]** aus.
 
-   ![](assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
 1. Wählen Sie den Adresstyp aus: **[!UICONTROL E-Mail-Adresse]** oder **[!UICONTROL Domain-Adresse]**.
 
@@ -135,7 +135,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 1. Wählen Sie die Option **[!UICONTROL CSV hochladen]** aus.
 
-   ![](assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
 1. Laden Sie die zu verwendende CSV-Vorlage herunter, die die folgenden Spalten und das folgende Format enthält:
 
@@ -156,7 +156,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 1. Ziehen Sie danach die CSV-Datei per Drag-and-Drop in den entsprechenden Bereich und klicken Sie auf **[!UICONTROL Datei hochladen]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -166,13 +166,13 @@ Sie können die Liste der zuletzt hochgeladenen CSV-Dateien überprüfen.
 
 Klicken Sie dazu in der Ansicht **[!UICONTROL Unterdrückungsliste]** auf den Button **[!UICONTROL Letzte Uploads]**.
 
-![](assets/suppression-list-recent-uploads-button.png)
+![](../assets/suppression-list-recent-uploads-button.png)
 
 Es werden die neuesten von Ihnen übermittelten Uploads und deren Status angezeigt.
 
 Wenn ein Fehlerbericht mit einer Datei verknüpft ist, können Sie ihn herunterladen, um die aufgetretenen Fehler zu überprüfen.
 
-![](assets/suppression-list-recent-uploads-error.png)
+![](../assets/suppression-list-recent-uploads-error.png)
 
 Nachstehend finden Sie ein Beispiel für die Art der Einträge, die Sie im Fehlerbericht finden:
 

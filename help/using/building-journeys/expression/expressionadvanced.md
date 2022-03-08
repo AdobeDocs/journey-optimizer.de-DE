@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Der Editor steht auch immer dann zur Verfügung, wenn Sie Aktionsparameter defin
 
 Der erweiterte Ausdruckseditor bietet eine Reihe integrierter Funktionen und Operatoren, mit denen Sie Werte bearbeiten und einen Ausdruck definieren können, der Ihren Anforderungen entspricht. Mit dem erweiterten Ausdruckseditor können Sie auch die Werte des Parameters für die externe Datenquelle definieren sowie Zuordnungsfelder und Sammlungen (z. B. Erlebnisereignisse) bearbeiten.
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 _Die Benutzeroberfläche des erweiterten Ausdruckseditors_
 
@@ -44,7 +44,7 @@ Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 
 * Wenn Sie eine Bedingung der Datenquelle erstellen, können Sie den erweiterten Ausdruckseditor nutzen, indem Sie auf **[!UICONTROL Erweiterter Modus]** klicken.
 
-   ![](../assets/journeyuc2_33.png)
+   ![](../../assets/journeyuc2_33.png)
 
 * Wenn Sie einen benutzerdefinierten Timer erstellen, wird der erweiterte Editor direkt angezeigt.
 * Wenn Sie Aktionsparameter zuordnen, klicken Sie auf **[!UICONTROL Erweiterter Modus]**.
@@ -53,7 +53,7 @@ Sie können den erweiterten Ausdruckseditor auf verschiedene Weise aufrufen:
 
 In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 
-![](../assets/journey70.png)
+![](../../assets/journey70.png)
 
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
@@ -63,20 +63,20 @@ Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angeze
 * **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die technischen Felder der Journey für ein bestimmtes Profil zusammengefasst. [Weitere Informationen](journey-properties.md)
 * **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Weitere Informationen](functions.md)
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 Ein Mechanismus für die automatische Vervollständigung zeigt kontextbezogene Vorschläge an.
 
-![](../assets/journey68.png)
+![](../../assets/journey68.png)
 
 Ein Syntaxvalidierungsverfahren überprüft die Integrität Ihres Codes. Fehler werden über dem Editor angezeigt.
 
-![](../assets/journey69.png)
+![](../../assets/journey69.png)
 
 **Bedarf an Parametern beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor**
 
 Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, siehe [diese Seite](../../datasource/external-data-sources.md). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
 
-![](../assets/journeyuc2_19.png)
+![](../../assets/journeyuc2_19.png)
 
 Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, deren Werte mit dem Keyword „params“ definieren. Weitere Informationen finden Sie auf [dieser Seite](../expression/field-references.md).

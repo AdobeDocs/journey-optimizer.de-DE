@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. S
 
 Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 
-![](../assets/tags_list.png)
+![](../../assets/tags_list.png)
 
 Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
@@ -31,11 +31,11 @@ Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
 1. Geben Sie den Namen des Tags ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   ![](../assets/tags_create.png)
+   ![](../../assets/tags_create.png)
 
 1. Nachdem das Tag erstellt wurde, wird es in der Liste angezeigt. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
 
-   ![](../assets/tags_created.png)
+   ![](../../assets/tags_created.png)
 
 ## Anleitungsvideo {#video}
 

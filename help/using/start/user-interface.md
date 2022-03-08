@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen v
 
 Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
 
-![](assets/ajo-home.png)
+![](../assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Startseite verwenden und mit nur wenigen Eingaben eine Customer Journey erstellen.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Verfügbare Anwendungsfälle:
 
@@ -248,7 +248,7 @@ Auslösen eines Ereignisses in einer segmentbasierten Journey, für die die Opti
 
 Verwenden Sie das Symbol **Hilfe**, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu geben. Über das Suchfeld können Sie Hilfeartikel und Videos suchen.
 
-![](assets/ajo-help.png)
+![](../assets/ajo-help.png)
 
 ## Unterstützte Browser {#browsers}
 
@@ -267,10 +267,10 @@ Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Pr
 Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 * Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
-   ![](assets/preferences.png)
+   ![](../assets/preferences.png)
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
-   ![](assets/select-language.png)
+   ![](../assets/select-language.png)
 
 ## Durchsuchen{#unified-search}
 
@@ -278,11 +278,11 @@ Sie können in der gesamten Benutzeroberfläche von Adobe Journey Optimizer die 
 
 Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. In den Ergebnissen werden auch Hilfeartikel zu den eingegebenen Keywords angezeigt.
 
-![](assets/unified-search.png)
+![](../assets/unified-search.png)
 
 Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach Geschäftsobjekt zu filtern.
 
-![](assets/search-and-filter.png)
+![](../assets/search-and-filter.png)
 
 ## Filterlisten{#filter-lists}
 
@@ -298,12 +298,12 @@ In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und
 
 Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
 
-![](assets/filter-journeys.png)
+![](../assets/filter-journeys.png)
 
 In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elemente durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
 
-![](assets/journey4.png)
+![](../assets/journey4.png)

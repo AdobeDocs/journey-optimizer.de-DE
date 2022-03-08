@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
@@ -19,7 +19,7 @@ In diesem Anwendungsbeispiel soll eine Journey erstellt werden, um eine Nachrich
 
 In diesem Beispiel wird die Feldergruppe **[!UICONTROL Einverständnis und Präferenzdetails]** aus [!DNL Adobe Experience Platform] verwendet. Um diese Feldergruppe zu finden, wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schemas]**. Geben Sie auf der Registerkarte **[!UICONTROL Feldergruppen]** im Suchfeld den Namen der Feldergruppe ein.
 
-![Diese Feldergruppe enthält das Abonnement-Element ](assets/consent-and-preference-details-field-group.png)
+![Diese Feldergruppe enthält das Abonnement-Element ](../assets/consent-and-preference-details-field-group.png)
 
 Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
    1. Klicken Sie auf das Symbol **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld **[!UICONTROL Adresse]** und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]**.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![](../assets/message-to-subscribers-uc-1.png)
 
       Um die E-Mail-Adresse ändern zu können, müssen Sie die Nachricht zuvor veröffentlicht haben.
 
@@ -52,10 +52,10 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
       Lesen Sie mehr über [Verweise auf Felder](expression/field-references.md) in Ausdrücken.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![](../assets/message-to-subscribers-uc-2.png)
 
    1. Klicken Sie im Dialogfeld **[!UICONTROL Ausdruck hinzufügen]** auf **[!UICONTROL Ok]**.
 
-   ![](assets/message-to-subscribers-uc-3.png)
+   ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Beenden Sie die Journey mit einer **[!UICONTROL Ende]**-Aktivität.

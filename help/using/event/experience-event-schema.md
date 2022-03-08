@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
@@ -23,33 +23,33 @@ Eine wichtige Voraussetzung für das Einrichten von [!DNL Journey Optimizer]-Ere
 
 Der erste Schritt beim Einrichten eines Ereignisses für [!DNL Journey Optimizer] besteht darin sicherzustellen, dass Sie ein XDM-Schema zur Darstellung des Ereignisses definiert und einen Datensatz erstellt haben, um Instanzen des Ereignisses in Adobe Experience Platform zu erfassen. Es ist nicht unbedingt erforderlich, einen Datensatz für Ihre Ereignisse zu haben. Wenn Sie die Ereignisse jedoch an einen bestimmten Datensatz senden, können Sie den Ereignisverlauf der Benutzer zur späteren Bezugnahme und Analyse aufbewahren. Dies ist daher immer empfehlenswert. Wenn Sie noch kein geeignetes Schema oder keinen geeigneten Datensatz für Ihr Ereignis haben, können Sie beide über die Web-Oberfläche von Adobe Experience Platform erstellen.
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
 Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, sollte die folgenden Anforderungen erfüllen:
 
 * Das Schema muss der ExperienceEvent-XDM-Klasse angehören.
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * Bei systemgenerierten Ereignissen muss das Schema die eventID-Orchestrierungs-Feldergruppe enthalten. [!DNL Journey Optimizer] verwendet dieses Feld, um Ereignisse zu identifizieren, die in Journeys verwendet werden.
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Deklarieren Sie ein Identitätsfeld zur Identifizierung des Themas des Ereignisses. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Damit diese Daten später in einer Journey zur Suche verfügbar sind, markieren Sie das Schema und den Datensatz für das Profil.
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * Sie können auch Datenfelder einschließen, um andere Kontextdaten zu erfassen, die Sie in das Ereignis aufnehmen möchten, z. B. Informationen zum Benutzer, zum Gerät, von dem das Ereignis generiert wurde, zum Ort oder andere aussagekräftige Umstände in Zusammenhang mit dem Ereignis.
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## Nutzen von Schemabeziehungen{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Um eine Beziehung zu definieren, benötigen Sie ein spezielles Feld im Quellsche
 
 Im Folgenden finden Sie das Produktkatalog-Schema, das für das Profil aktiviert ist und dessen Produkt-ID als primäre Identität definiert ist.
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
 Im Folgenden finden Sie das Kaufschema mit der im Feld „Produkt-ID“ definierten Beziehung.
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Die verknüpften Schemafelder sind in der Konfiguration eines unitären und Gesc
 * beim Durchsuchen der Ereignisschemafelder im Bildschirm zur Ereigniskonfiguration
 * beim Definieren einer Bedingung für systemgenerierte Ereignisse
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
 Die verknüpften Felder sind nicht verfügbar:
 
@@ -100,7 +100,7 @@ Sie können Daten aus einer Lookup-Tabelle verwenden, die mit einem Ereignis ver
 
 Fügen Sie eine Bedingung in eine Journey ein, bearbeiten Sie den Ausdruck und öffnen Sie den Ereignisknoten im Ausdruckseditor.
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
 Informationen zum Definieren von Journey-Bedingungen finden Sie auf dieser [Seite](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Informationen zum Definieren von Journey-Bedingungen finden Sie auf dieser [Seit
 
 Die verknüpften Felder stehen bei der Personalisierung von Nachrichten zur Verfügung. Die zugehörigen Felder werden in dem Kontext angezeigt, der von der Journey an die Nachricht übergeben wird.
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
 Informationen zum Personalisieren einer Nachricht mit kontextuellen Journey-Informationen finden Sie auf dieser [Seite](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Informationen zum Personalisieren einer Nachricht mit kontextuellen Journey-Info
 
 Die verknüpften Felder stehen beim Konfigurieren der Aktionsparameter einer benutzerdefinierten Aktionsaktivität von Journeys zur Verfügung.
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
 Informationen zur Verwendung benutzerdefinierter Aktionen finden Sie auf dieser [Seite](../building-journeys/using-custom-actions.md).

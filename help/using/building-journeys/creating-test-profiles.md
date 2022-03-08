@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
@@ -34,13 +34,13 @@ Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Date
 Zuerst müssen Sie **ein Schema erstellen**. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
-   ![](assets/test-profiles-0.png)
+   ![](../assets/test-profiles-0.png)
 1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**.
-   ![](assets/test-profiles-1.png)
+   ![](../assets/test-profiles-1.png)
 1. Wählen Sie die entsprechenden Feldgruppen aus. Stellen Sie sicher, dass Sie die Feldgruppe **Profil-Testdetails** hinzufügen.
-   ![](assets/test-profiles-1-ter.png)
+   ![](../assets/test-profiles-1-ter.png)
 Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die Liste der Feldgruppen wird im Bildschirm „Schemaübersicht“ angezeigt.
-   ![](assets/test-profiles-2.png)
+   ![](../assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
 
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
-   ![](assets/test-profiles-3.png)
+   ![](../assets/test-profiles-3.png)
 1. Markieren Sie im rechten Bereich **[!UICONTROL Feldeigenschaften]** die Optionen **[!UICONTROL Identität]** und **[!UICONTROL Primäre Identität]** und wählen Sie einen Namespace aus. Wenn die primäre Identität eine E-Mail-Adresse sein soll, wählen Sie den Namespace **[!UICONTROL E-Mail]**. Klicken Sie auf **[!UICONTROL Übernehmen]**.
-   ![](assets/test-profiles-4bis.png)
+   ![](../assets/test-profiles-4bis.png)
 1. Wählen Sie das Schema aus und aktivieren Sie die Option **[!UICONTROL Profil]** im Bereich **[!UICONTROL Schema-Eigenschaften]**.
-   ![](assets/test-profiles-5.png)
+   ![](../assets/test-profiles-5.png)
 1. Klicken Sie auf **Speichern**.
 
 >[!NOTE]
@@ -64,15 +64,15 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
 Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile importiert werden. Führen Sie folgende Schritte aus:
 
 1. Gehen Sie zu **[!UICONTROL Datensätze]** und klicken Sie dann auf **[!UICONTROL Datensatz erstellen]**.
-   ![](assets/test-profiles-6.png)
+   ![](../assets/test-profiles-6.png)
 1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
-   ![](assets/test-profiles-7.png)
+   ![](../assets/test-profiles-7.png)
 1. Wählen Sie das zuvor erstellte Schema aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
-   ![](assets/test-profiles-8.png)
+   ![](../assets/test-profiles-8.png)
 1. Wählen Sie einen Namen und klicken Sie dann auf **[!UICONTROL Beenden]**.
-   ![](assets/test-profiles-9.png)
+   ![](../assets/test-profiles-9.png)
 1. Aktivieren Sie die Option **[!UICONTROL Profil]**.
-   ![](assets/test-profiles-10.png)
+   ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Anschließend müssen Sie **den Datensatz erstellen**, in den die Profile import
 
 Auf der Adobe Journey Optimizer-Startseite können Sie den produktinternen Anwendungsfall für Testprofile nutzen. Dieser Anwendungsfall erleichtert die Erstellung von Testprofilen, die vor der Veröffentlichung zum Testen von Journeys verwendet werden.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 Klicken Sie auf den Button **[!UICONTROL Start]**, um den Anwendungsfall zu starten.
 
@@ -119,11 +119,11 @@ Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[
 > Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profile dieses Feld enthalten. Das zugehörige Schema muss die Feldgruppe **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Gehen Sie oben rechts zu **Segmente** und dann zu **Segment erstellen**.
-   ![](assets/test-profiles-22.png)
+   ![](../assets/test-profiles-22.png)
 1. Definieren Sie einen Namen für Ihr Segment und erstellen Sie das Segment: Wählen Sie die Felder und Werte aus, um die gewünschten Profile anzusprechen.
-   ![](assets/test-profiles-23.png)
+   ![](../assets/test-profiles-23.png)
 1. Klicken Sie auf **Speichern** und prüfen Sie, ob die Profile korrekt durch das Segment angesprochen werden.
-   ![](assets/test-profiles-24.png)
+   ![](../assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[
 
 1. Erstellen Sie jetzt eine neue Journey und beginnen Sie mit der Orchestrierungsaktivität **[!UICONTROL Segment lesen]**.
 1. Wählen Sie das zuvor erstellte Segment und den Namespace aus, den Ihre Profile verwenden.
-   ![](assets/test-profiles-25.png)
+   ![](../assets/test-profiles-25.png)
 1. Fügen Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
 1. Wählen Sie das Schema, das Feld **testProfiles** und den Datensatz aus und legen Sie den Wert auf **true** fest. Klicken Sie dazu im Feld **[!UICONTROL WERT]** auf das **Stift**-Symbol rechts, wählen Sie **[!UICONTROL Erweiterter Modus]** aus und geben Sie **true** ein.
-   ![](assets/test-profiles-26.png)
+   ![](../assets/test-profiles-26.png)
 1. Fügen Sie eine Aktivität des Typs **Ende** hinzu und klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 1. Überprüfen Sie im Abschnitt **[!UICONTROL Segmente]**, ob die Profile korrekt aktualisiert wurden.
-   ![](assets/test-profiles-28.png)
+   ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
 
 1. Erstellen Sie mit einer Tabellenkalkulations-Software eine einfache CSV-Datei.
 1. Fügen Sie für jedes erforderliche Feld eine Spalte hinzu. Stellen Sie sicher, dass Sie das primäre Identitätsfeld („personID“ in unserem Beispiel oben) und das Feld „testProfile“ auf „true“ gesetzt hinzufügen.
-   ![](assets/test-profiles-11.png)
+   ![](../assets/test-profiles-11.png)
 1. Fügen Sie pro Profil eine Zeile hinzu und geben Sie die Werte für die einzelnen Felder ein.
-   ![](assets/test-profiles-12.png)
+   ![](../assets/test-profiles-12.png)
 1. Speichern Sie die Tabelle als CSV-Datei. Verwenden Sie als Trennzeichen Kommas.
 1. Gehen Sie zu Adobe Experience Platform-**Workflows**.
-   ![](assets/test-profiles-14.png)
+   ![](../assets/test-profiles-14.png)
 1. Wählen Sie **CSV einem XDM-Schema zuordnen** und klicken Sie dann auf **Starten**.
-   ![](assets/test-profiles-16.png)
+   ![](../assets/test-profiles-16.png)
 1. Wählen Sie den Datensatz aus, in den Sie die Profile importieren möchten. Klicken Sie auf **Weiter**.
-   ![](assets/test-profiles-17.png)
+   ![](../assets/test-profiles-17.png)
 1. Klicken Sie auf **Datei auswählen** und wählen Sie Ihre CSV-Datei aus. Klicken Sie nach dem Hochladen der Datei auf **Weiter**.
-   ![](assets/test-profiles-18.png)
+   ![](../assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **Beenden**.
-   ![](assets/test-profiles-19.png)
+   ![](../assets/test-profiles-19.png)
 1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitungsvorgang läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
-   ![](assets/test-profiles-20.png)
+   ![](../assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
-   ![](assets/test-profiles-21.png)
+   ![](../assets/test-profiles-21.png)
 
 Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey verwendet werden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/testing-the-journey.md).
 >[!NOTE]

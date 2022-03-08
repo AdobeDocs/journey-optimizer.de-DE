@@ -5,16 +5,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 97%
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
 # Berechtigungsebenen {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 Jedes Produktprofil besteht aus Berechtigungen, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
@@ -417,13 +417,16 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profiles.read
    * datasets.read
 
-## Journey Optimizer-Bibliotheksfunktion {library-permissions}
+### Berechtigung [!DNL Manage landing page settings] {#manage-landing-page-settings}
 
-### Bibliothekselemente verwalten {#library-items}
-
-Die **[!DNL Manage Library Items]** -Berechtigung auf hoher Ebene ermöglicht Benutzern das Hinzufügen und Löschen gespeicherter Ausdrücke im [!DNL Journey Optimizer] Bibliothek.
+Die **[!DNL Manage landing page settings]** Mit allgemeinen Berechtigungen können Benutzer Landingpage-Subdomains und Vorgabeneinstellungen lesen, erstellen und bearbeiten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* library_item.create
-* library_item.delete
+* Spezifisch für Journey Optimizer:
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

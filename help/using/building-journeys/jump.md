@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
@@ -70,16 +70,16 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
 1. Konfigurieren Sie die **Ursprungs-Journey**.
 
-   ![](assets/jump1.png)
+   ![](../assets/jump1.png)
 
 1. Fügen Sie einem beliebigen Schritt in der Journey eine **[!UICONTROL Sprungaktivität]** der Kategorie **[!UICONTROL AKTIONEN]** hinzu. Fügen Sie einen Titel und eine Beschreibung hinzu.
 
-   ![](assets/jump2.png)
+   ![](../assets/jump2.png)
 
 1. Klicken Sie in das Feld **Ziel-Journey**.
 Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifizierungsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
-   ![](assets/jump3.png)
+   ![](../assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Tes
 1. Wählen Sie die Ziel-Journey aus, zu der Sie springen möchten.
 Das Feld **Erstes Ereignis** wird vorab mit dem Namen des ersten Ereignisses der Ziel-Journey gefüllt. Wenn Ihre Ziel-Journey mehrere Ereignisse umfasst, ist der **[!UICONTROL Sprung]** nur zum ersten Ereignis zulässig.
 
-   ![](assets/jump4.png)
+   ![](../assets/jump4.png)
 
 1. Im Abschnitt **Aktionsparameter** werden alle Felder des Zielereignisses angezeigt. Ordnen Sie wie bei anderen Arten von Aktionen jedem Feld Felder aus dem Ursprungsereignis oder der Datenquelle zu. Diese Informationen werden zur Laufzeit an die Ziel-Journey weitergegeben.
 1. Fügen Sie die nächsten Aktivitäten hinzu, um Ihre Ursprungs-Journey zu beenden.
 
-   ![](assets/jump5.png)
+   ![](../assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ Ihre **[!UICONTROL Sprungaktivität]** ist konfiguriert. Sobald Ihre Journey liv
 
 Wenn in einer Journey eine **[!UICONTROL Sprungaktivität]** konfiguriert ist, wird zu Beginn der Ziel-Journey automatisch ein **[!UICONTROL Sprungeintrittssymbol]** hinzugefügt. Auf diese Weise können Sie erkennen, dass die Journey sowohl extern als auch intern durch eine **[!UICONTROL Sprungaktivität]** ausgelöst werden kann.
 
-![](assets/jump7.png)
+![](../assets/jump7.png)
 
 ## Fehlerbehebung
 
@@ -113,4 +113,4 @@ Wenn die Journey veröffentlicht wird oder sich im Testmodus befindet, treten Fe
 * der Zustand der Ziel-Journey „Entwurf“, „geschlossen“ oder „gestoppt“ ist,
 * wenn sich das erste Ereignis der Ziel-Journey geändert hat und die Zuordnung unterbrochen ist.
 
-![](assets/jump6.png)
+![](../assets/jump6.png)

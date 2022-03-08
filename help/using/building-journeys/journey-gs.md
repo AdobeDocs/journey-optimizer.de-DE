@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 100%
@@ -21,19 +21,19 @@ Um Nachrichten mit Journeys zu senden, ist folgende Konfiguration notwendig:
 
 1. **Ereignis konfigurieren**: Wenn Sie Ihre Journeys beim Empfang eines Ereignisses unitär triggern möchten, müssen Sie zunächst ein Ereignis konfigurieren. Sie definieren die erwarteten Informationen sowie deren Verarbeitungsmethode. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../event/about-events.md).
 
-   ![](assets/jo-event7bis.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Segment erstellen**: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Mehr dazu](../segment/about-segments.md).
 
-   ![](assets/segment2.png)
+   ![](../assets/segment2.png)
 
 1. **Datenquelle konfigurieren**: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
 
-   ![](assets/jo-datasource.png)
+   ![](../assets/jo-datasource.png)
 
 1. **Aktion konfigurieren**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert. Sie müssen lediglich Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../messages/get-started-content.md). Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
 
-   ![](assets/create-content-push.png)
+   ![](../assets/create-content-push.png)
 
 ## Erstellen Ihrer Journey {#jo-build}
 
@@ -43,17 +43,17 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
 1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
 
-   ![](assets/interface-journeys.png)
+   ![](../assets/interface-journeys.png)
 
 1. Klicken Sie auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
 
 1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weiterführende Informationen finden Sie in diesem [Abschnitt](journey-gs.md#change-properties).
 
-   ![](assets/jo-properties.png)
+   ![](../assets/jo-properties.png)
 
 1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Segment lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![](../assets/read-segment.png)
 
 1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
 1. Veröffentlichen Sie Ihre Journey, um sie zu aktivieren. Weitere Informationen finden Sie in diesem [Abschnitt](publishing-the-journey.md).
 
-   ![](assets/jo-journeyuc2_32bis.png)
+   ![](../assets/jo-journeyuc2_32bis.png)
 
 1. Überwachen Sie Ihre Journey mithilfe der dedizierten Reporting-Tools, um die Effektivität Ihrer Journey zu messen. Weitere Informationen finden Sie in diesem [Abschnitt](../reports/live-report.md).
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+   ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## Ändern von Eigenschaften {#change-properties}
 
@@ -77,7 +77,7 @@ Für Live-Journeys werden in diesem Bildschirm das Veröffentlichungsdatum und d
 
 Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit technische Informationen zur Journey kopieren, die dem Support-Team bei der Problembehebung helfen. Dabei werden die folgenden Informationen kopiert: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](assets/journey32.png)
+![](../assets/journey32.png)
 
 ### Eintritt{#entrance}
 
@@ -133,11 +133,11 @@ Wenn eine der Anforderungen nicht erfüllt ist, ist der Burst-Modus in der Journ
 
 Um den Burst-Modus zu aktivieren, öffnen Sie Ihre Journey und klicken Sie oben rechts auf das Stiftsymbol, um auf die Eigenschaften der Journey zuzugreifen. Aktivieren Sie dann den Umschalter **Burst-Modus aktivieren**.
 
-![](assets/burst.png)
+![](../assets/burst.png)
 
 Der Burst-Modus wird deaktiviert, wenn Sie eine Burst-Journey ändern und eine Aktivität hinzufügen, die nicht mit Burst kompatibel ist (Nachricht, andere Aktionen, ein Ereignis usw.). Daraufhin wird eine Meldung angezeigt.
 
-![](assets/burst2.png)
+![](../assets/burst2.png)
 
 Testen und veröffentlichen Sie dann Ihre Journey wie üblich. Testmodus-Nachrichten werden nicht über den Burst-Modus gesendet.
 
@@ -178,14 +178,14 @@ Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden
 
 Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
-   ![](assets/finish_drop_down_list.png)
+   ![](../assets/finish_drop_down_list.png)
 
 1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]**. Das folgende Dialogfeld wird angezeigt.
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Für neue Eintritte schließen]**.
@@ -200,14 +200,14 @@ Wird eine Journey gestoppt, hat sie den Status **[!UICONTROL Gestoppt]**.
 
 Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 Alternativ können Sie auch folgendermaßen vorgehen:
 
 1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
-![](assets/finish_drop_down_list.png)
+![](../assets/finish_drop_down_list.png)
 
 1. Klicken Sie auf **[!UICONTROL Anhalten]**. Das folgende Dialogfeld wird angezeigt.
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Stoppen]**.

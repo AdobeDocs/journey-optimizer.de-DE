@@ -1,7 +1,7 @@
 ---
 title: 'Starten der Journey-Ausführung '
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -21,14 +21,14 @@ Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md).
 
 Damit Sie Ihre Journey aktivieren können, muss sie bereits veröffentlicht sein.
 
-![](assets/jo-journeyuc2_32bis.png)
+![](../assets/jo-journeyuc2_32bis.png)
 
 Weitere Informationen finden Sie in diesem [Abschnitt](publishing-the-journey.md).
 
 
 Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reporting-Tools überwachen, um ihre Effektivität zu messen.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![](../assets/jo-dynamic_report_journey_12.png)
 
 [Weitere Informationen über Berichte](../reports/live-report.md)
 
@@ -52,7 +52,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie auf den Link **[!UICONTROL Journey-Plan bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen.
 
-   ![](assets/message-read-segment-schedule.png)
+   ![](../assets/message-read-segment-schedule.png)
 
 1. Konfigurieren Sie das Feld **[!UICONTROL Planungstyp]**: Wählen Sie den gewünschten Wert aus der Liste aus, damit das Segment an einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wiederkehrend in die Journey eintritt.
 
@@ -60,15 +60,15 @@ Gehen Sie dazu wie folgt vor:
    >
    >Der Bereich **[!UICONTROL Zeitplan]** ist nur dann verfügbar, wenn eine Aktivität des Typs **[!UICONTROL Segment lesen]** auf der Arbeitsfläche abgelegt wurde.
 
-   ![](assets/message-read-segment-scheduler.png)
+   ![](../assets/message-read-segment-scheduler.png)
 
 1. Wenn Sie **[!UICONTROL Einmal]** auswählen, definieren Sie Datum und Uhrzeit für den Eintritt des Segments in die Journey.
 
-   ![](assets/message-read-segment-scheduler-once.png)
+   ![](../assets/message-read-segment-scheduler-once.png)
 
 1. Wenn Sie „wiederkehrend“ auswählen, bestimmen Sie Datum und Uhrzeit des erstmaligen Eintritts. Optional können Sie auch Datum und Uhrzeit der letztmaligen Ausführung festlegen.
 
-   ![](assets/message-read-segment-scheduler-daily.png)
+   ![](../assets/message-read-segment-scheduler-daily.png)
 
    >[!NOTE]
    >

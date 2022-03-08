@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1731'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,15 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. Klicken Sie auf **[!UICONTROL Ereignis erstellen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
 1. Geben Sie den Namen Ihres Ereignisses ein. Sie können auch eine Beschreibung hinzufügen.
 
-   ![](assets/jo-event3.png)
+   ![](../assets/jo-event3.png)
 
    >[!NOTE]
    >
@@ -37,24 +37,24 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Unitär**.
 
-   ![](assets/jo-event3bis.png)
+   ![](../assets/jo-event3bis.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Ereignis-ID-Typ]** den zu verwendenden Ereignistyp aus: **Regelbasiert** oder **Systemgeneriert**. Weitere Informationen zum Ereignis-ID-Typ finden Sie in [diesem Abschnitt](../event/about-events.md#event-id-type).
 
-   ![](assets/jo-event4.png)
+   ![](../assets/jo-event4.png)
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
 1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#define-the-payload-fields).
 
-   ![](assets/jo-event5.png)
+   ![](../assets/jo-event5.png)
 
    >[!NOTE]
    >
    >Wenn Sie den Typ **[!UICONTROL Systemgeneriert]** auswählen, sind nur Schemas mit dem Feld vom Typ „eventID“ verfügbar. Wenn Sie den **[!UICONTROL regelbasierten]** Typ auswählen, sind nur Erlebnisereignisschemata verfügbar.
 
 1. Klicken Sie bei regelbasierten Ereignissen in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
-   ![](assets/jo-event6.png)
+   ![](../assets/jo-event6.png)
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Stadt des Profils verwendet. Dies bedeutet, dass das System jedes Mal, wenn es ein Ereignis empfängt, das dieser Bedingung entspricht (Feld **[!UICONTROL Stadt]** und Wert **[!UICONTROL Paris]**), dieses an Journeys weiterleitet.
 
@@ -65,8 +65,9 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 1. Fügen Sie einen Namespace hinzu. Dieser Schritt ist optional, wird jedoch empfohlen, da das Hinzufügen eines Namespace es Ihnen ermöglicht, die im Echtzeit-Kundenprofildienst gespeicherten Informationen zu nutzen. Er definiert den Typ des Schlüssels, den das Ereignis hat. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#select-the-namespace).
 1. Profilkennung definieren: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren. Dieser Schlüssel wird automatisch eingerichtet (kann aber weiterhin bearbeitet werden), wenn Sie einen Namespace auswählen. Journeys wählen den Schlüssel aus, der dem Namespace entsprechen soll (wenn Sie beispielsweise einen E-Mail-Namespace auswählen, wird der E-Mail-Schlüssel ausgewählt). Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#define-the-event-key).
 
-   ![](assets/jo-event7.png)
+   ![](../assets/jo-event7.png)
 
+1. Bei systemgenerierten Ereignissen können Sie eine Bedingung hinzufügen. Dieser Schritt ist optional. Dadurch kann das System nur die Ereignisse verarbeiten, die die Bedingung erfüllen. Die Bedingung kann nur auf den im Ereignis enthaltenen Informationen basieren. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating.md#add-a-condition).
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -77,7 +78,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
 1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder das Symbol **[!UICONTROL Bearbeiten]**.
 
-   ![](assets/journey8.png)
+   ![](../assets/journey8.png)
 
    Alle im Schema definierten Felder werden angezeigt. Die Liste der Felder variiert von Schema zu Schema. Sie können nach einem bestimmten Feld suchen oder die Filter verwenden, um alle Knoten und Felder oder nur die ausgewählten Felder anzuzeigen. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein. Sie können die Auswahl nicht aufheben. Alle Felder, die für den korrekten Empfang des Ereignisses durch Journeys erforderlich sind, sind standardmäßig ausgewählt.
 
@@ -85,7 +86,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
    >
    >Stellen Sie bei systemgenerierten Ereignissen sicher, dass Sie die Feldergruppe „Orchestrierung“ zum XDM-Schema hinzugefügt haben. Dadurch wird sichergestellt, dass Ihr Schema alle erforderlichen Informationen für die Zusammenarbeit mit [!DNL Journey Optimizer] enthält.
 
-   ![](assets/journey9.png)
+   ![](../assets/journey9.png)
 
 1. Wählen Sie die Felder aus, die Sie vom Ereignis erwarten. Dies sind die Felder, die der Business-Anwender in der Journey nutzen wird. Sie müssen auch den Schlüssel enthalten, mit dem die mit dem Ereignis verbundene Person identifiziert werden kann (siehe [diesen Abschnitt](../event/about-creating.md#define-the-event-key)).
 
@@ -97,7 +98,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Felder]** angezeigt.
 
-   ![](assets/journey12.png)
+   ![](../assets/journey12.png)
 
 ## Wählen des Namespace {#select-the-namespace}
 
@@ -109,12 +110,12 @@ Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **
 
 Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
 
-![](assets/primary-identity.png)
+![](../assets/primary-identity.png)
 
 
 Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
-![](assets/journey17.png)
+![](../assets/journey17.png)
 
 Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in derselben Journey verwenden, müssen diese denselben Namespace verwenden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey.md).
 
@@ -128,22 +129,34 @@ Dadurch kann das System die Abstimmung zwischen dem Ereignis und dem Profil des 
 
 Bei der Auswahl von Feldern werden Primäridentitätsfelder mit Tags versehen.
 
-![](assets/primary-identity.png)
+![](../assets/primary-identity.png)
 
 Wenn Sie einen anderen Schlüssel verwenden müssen, z. B. eine CRM-ID oder eine E-Mail-Adresse, müssen Sie ihn manuell hinzufügen:
 
 1. Klicken Sie in das Feld **[!UICONTROL Profilkennung]** oder auf das Stiftsymbol.
 
-   ![](assets/journey16.png)
+   ![](../assets/journey16.png)
 
 1. Wählen Sie das als Schlüssel ausgewählte Feld in der Liste der Payload-Felder aus. Sie können auch zum erweiterten Ausdruckseditor wechseln, um komplexere Schlüssel zu erstellen (z. B. eine Verkettung zweier Ereignisfelder). Siehe unten in diesem Abschnitt.
 
-   ![](assets/journey20.png)
+   ![](../assets/journey20.png)
 
 Wenn das Ereignis eingeht, kann das System mit dem Wert des Schlüssels die mit dem Ereignis verbundene Person identifizieren. Mit dem Schlüssel, der einem Namespace zugeordnet ist (siehe [diesen Abschnitt](../event/about-creating.md#select-the-namespace)), können Abfragen in Adobe Experience Platform durchgeführt werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#orchestration-activities).
 Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
 
 Sie haben auch Zugriff auf die erweiterten Ausdrucksfunktionen (**[!UICONTROL erweiterter Modus]**), wenn Sie zusätzliche Manipulationen durchführen möchten. Mit diesen Funktionen können Sie die Werte bearbeiten, die für bestimmte Abfragen wie das Ändern von Formaten verwendet werden, indem Sie Feldverkettungen durchführen, wobei nur ein Teil eines Felds (z. B. die 10 ersten Zeichen) berücksichtigt wird. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
+
+## Bedingung hinzufügen {#add-a-condition}
+
+Die Bedingung ist nur für systemgenerierte Ereignisse verfügbar. Sie können eine Ereignisbedingung definieren, mit der das System die Verarbeitung von Ereignissen filtern kann. Wenn die Bedingung wahr ist, wird das Ereignis verarbeitet. Wenn die Bedingung nicht wahr ist, wird das Ereignis ignoriert.
+
+Die Bedingung für Ereignisse kann nur auf Daten basieren, die in der Ereignis-Payload übergeben werden. Die auf Ereignisebene definierte Bedingung kann von einem Marketing-Experten auf der Arbeitsfläche nicht geändert werden. Der Zweck besteht darin, diese Bedingung zu härten, wenn dieses Ereignis verwendet wird. Wenn Sie beispielsweise nicht möchten, dass Marketing-Experten bei zu geringem Warenkorbwert Transaktionsabbruchsereignisse verwenden, können Sie eine Bedingung für das Ereignisfeld „Warenkorbwert“ erstellen und einen Wert über 100 US-Dollar festlegen.
+
+Sie können den einfachen Ausdruckseditor oder den erweiterten Ausdruckseditor verwenden, um Bedingungen für Ereignisse einzurichten. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
+
+Sie können beispielsweise eine Bedingung definieren, die nur die Ereignisse eines bestimmten Ereignistyps verarbeitet und die anderen Typen ignoriert. Wenn es sich bei Ihrem Ereignis um einen Transaktionsabbruch handelt und die Payload das Feld für den Warenkorbwert enthält, können Sie eine Ereignisbedingung definieren, um die Ereignisse nur dann zu verarbeiten, wenn der Wert des Warenkorbs größer als 100 US-Dollar ist.
+
+![](../assets/journey78.png)
 
 ## Vorschau der Payload {#preview-the-payload}
 
@@ -155,11 +168,11 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Payload zeigen]**, um eine Vorschau der vom System erwarteten Payload anzuzeigen.
 
-   ![](assets/journey13.png)
+   ![](../assets/journey13.png)
 
    Sie können sehen, dass die ausgewählten Felder angezeigt werden.
 
-   ![](assets/journey14.png)
+   ![](../assets/journey14.png)
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 

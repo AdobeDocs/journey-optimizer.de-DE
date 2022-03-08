@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -21,17 +21,17 @@ Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der 
 
 Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 Die Liste der Platzierungen ist im Menü **[!UICONTROL Komponenten]** verfügbar. Es gibt Filter, mit denen Sie Platzierungen nach einem bestimmten Kanal oder Inhalt abrufen können.
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Platzierung erstellen]**.
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. Definieren Sie die Eigenschaften der Platzierung:
 
@@ -40,13 +40,13 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
    * **[!UICONTROL Inhaltstyp]**: Der Inhaltstyp, den die Platzierung anzeigen darf: Text, HTML oder Bild-Link.
    * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
 1. Nachdem die Platzierung erstellt wurde, wird sie in der Liste der Platzierungen angezeigt. Sie können das Fallback-Angebot auswählen, um seine Eigenschaften anzuzeigen und zu bearbeiten.
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## Anleitungsvideo {#video}
 

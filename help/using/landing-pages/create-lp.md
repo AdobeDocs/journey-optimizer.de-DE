@@ -5,31 +5,41 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: bd940f023795da1bc93f8dba537ef3a04258e033
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 87%
 
 ---
 
 # Erstellen und Veröffentlichen von Landingpages {#create-lp}
 
->[!CAUTION]
->
->Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer über den frühzeitigen Zugriff verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
-
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
 Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONTROL Journey-Management]** > **[!UICONTROL Landingpages]** aus.
 
-![](assets/lp_access-list.png)
+![](../assets/lp_access-list.png)
 
 Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie können sie nach ihrem Status oder Änderungsdatum filtern.
 
-![](assets/lp_access-list-filter.png)
+![](../assets/lp_access-list-filter.png)
+
+In dieser Liste können Sie auf die [Landingpage-Berichte](lp-report.md) für veröffentlichte Elemente.
+
+Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung rückgängig machen.
+
+>[!CAUTION]
+>
+>Wenn Sie die Veröffentlichung einer Landingpage rückgängig machen, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, kann die Nachricht erst veröffentlicht werden, wenn die Landingpage erneut veröffentlicht wurde. Wenn die Nachricht bereits publiziert wurde, wird der Link zur Landingpage beschädigt und eine Fehlerseite angezeigt.
+
+Klicken Sie auf die drei Punkte neben einer Landingpage, um die gewünschte Aktion auszuwählen.
+
+![](../assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>Veröffentlichte Landingpages können nicht gelöscht werden. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung rückgängig machen.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -37,29 +47,25 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
 1. Klicken Sie in der Landingpage-Liste auf **[!UICONTROL Landingpage erstellen]**.
 
-   ![](assets/lp_create-lp.png)
+   ![](../assets/lp_create-lp.png)
 
 1. Fügen Sie einen Titel hinzu. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](../assets/lp_create-lp-details.png)
 
-1. Wählen Sie eine Voreinstellung aus.
+1. Wählen Sie eine Voreinstellung aus. Erfahren Sie, wie Sie Landingpage-Vorgaben erstellen in [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >Wenden Sie sich zur Definition von Landingpage-Voreinstellungen an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   ![](../assets/lp_create-lp-presets.png)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
 1. Die Primärseite und ihre Eigenschaften werden angezeigt. [Hier](#configure-primary-page) erfahren Sie, wie Sie die Einstellungen der Primärseite konfigurieren.
 
-   ![](assets/lp_primary-page.png)
+   ![](../assets/lp_primary-page.png)
 
 1. Klicken Sie auf das Symbol „+“, um eine Unterseite hinzuzufügen. [Hier](#configure-subpages) erfahren Sie, wie Sie die Einstellungen der Unterseite konfigurieren.
 
-   ![](assets/lp_add-subpage.png)
+   ![](../assets/lp_add-subpage.png)
 
 Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#configure-subpages) (sofern vorhanden) konfiguriert und gestaltet haben, können Sie Ihre Landingpage [testen](#test-landing-page) und [veröffentlichen](#publish-landing-page).
 
@@ -73,15 +79,15 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-   ![](assets/lp_open-designer.png)
+   ![](../assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
    >Die Landingpage-URL muss eindeutig sein.
 
-   ![](assets/lp_access-url.png)
+   ![](../assets/lp_access-url.png)
 
 1. Sie können ein Ablaufdatum für Ihre Seite festlegen. In diesem Fall müssen Sie eine Aktion nach Ablauf der Seite auswählen:
 
@@ -89,17 +95,17 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
    * **[!UICONTROL Benutzerdefinierte Seite]**: [Konfigurieren Sie eine Unterseite](#configure-subpages) und wählen Sie diese aus der angezeigten Dropdown-Liste aus.
    * **[!UICONTROL Browser-Fehler]**: Geben Sie den Fehlertext ein, der anstatt der Seite angezeigt wird.
 
-   ![](assets/lp_expiry-date.png)
+   ![](../assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. Wenn Sie beim [Erstellen der Primärseite](design-lp.md) eine oder mehrere Abonnement-Listen ausgewählt haben, werden diese im Abschnitt **[!UICONTROL Abonnement-Liste]** angezeigt.
 
-   ![](assets/lp_subscription-list.png)
+   ![](../assets/lp_subscription-list.png)
 
 1. Sie können direkt über die Landingpage [eine Journey erstellen](../building-journeys/journey-gs.md#jo-build), über die Benutzern beim Senden des Formulars eine Bestätigungsnachricht gesendet wird. Am Ende dieses [Anwendungsfalls](lp-use-cases.md#subscription-to-a-service) erfahren Sie, wie Sie eine solche Journey erstellen.
 
-   ![](assets/lp_create-journey.png)
+   ![](../assets/lp_create-journey.png)
 
    Klicken Sie auf **[!UICONTROL Journey erstellen]**, um zur Liste **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]** weitergeleitet zu werden.
 
@@ -113,13 +119,13 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
    >Die Landingpage-URL muss eindeutig sein.
 
-![](assets/lp_subpage-settings.png)
+![](../assets/lp_subpage-settings.png)
 
 ## Testen der Landingpage {#test-landing-page}
 
@@ -131,7 +137,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Vorschau und Test]**, um zur Testprofil-Auswahl zu gelangen.
 
-   ![](assets/lp_preview-button.png)
+   ![](../assets/lp_preview-button.png)
 
    >[!NOTE]
    >
@@ -139,17 +145,17 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 1. Wählen Sie auf dem Bildschirm **[!UICONTROL Vorschau und Test]** eines oder mehrere Testprofile aus.
 
-   ![](assets/lp_test-profiles.png)
+   ![](../assets/lp_test-profiles.png)
 
    Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../messages/preview.md#select-test-profiles).
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Vorschau]** aus und klicken Sie auf **[!UICONTROL Vorschau öffnen]**, um Ihre Landingpage zu testen.
 
-   ![](assets/lp_open-preview.png)
+   ![](../assets/lp_open-preview.png)
 
 1. Die Vorschau Ihrer Landingpage wird auf einer neuen Registerkarte geöffnet. Personalisierte Elemente werden durch die ausgewählten Testprofildaten ersetzt.
 
-   ![](assets/lp_preview.png)
+   ![](../assets/lp_preview.png)
 
 1. Wählen Sie für jede Variante Ihrer Landingpage andere Testprofile zum Rendern von Vorschauen aus.
 
@@ -159,7 +165,7 @@ Während Sie Ihre Landingpage erstellen, werden Sie durch Warnhinweise informier
 
 Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
 
-![](assets/lp_alerts.png)
+![](../assets/lp_alerts.png)
 
 >[!NOTE]
 >
@@ -196,7 +202,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen.
 
-![](assets/lp_publish.png)
+![](../assets/lp_publish.png)
 
 >[!CAUTION]
 >

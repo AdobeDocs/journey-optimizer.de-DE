@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 7da910df3eda84884c7cda56af6ce5dcabc3a3db
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform
 
 Das Steuerelement „Sandbox-Schalter“ finden Sie oben rechts auf Ihrem Bildschirm neben dem Namen Ihrer Organisation. Um von einer Sandbox zu einer anderen zu wechseln, klicken Sie im Schalter auf die derzeit aktive Sandbox und wählen Sie dann in der Dropdown-Liste eine andere Sandbox aus.
 
-![](assets/sandbox_5.png)
+![](../assets/sandbox_5.png)
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
@@ -43,21 +43,21 @@ So weisen Sie Sandboxes zu:
 
 1. Wählen Sie ein **[!UICONTROL Produktprofil]** aus.
 
-   ![](assets/sandbox_1.png)
+   ![](../assets/sandbox_1.png)
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
 1. Wählen Sie die Funktion **[!UICONTROL Sandboxes]** aus.
 
-   ![](assets/sandbox_2.png)
+   ![](../assets/sandbox_2.png)
 
 1. Klicken Sie unter **[!UICONTROL Verfügbare Berechtigungselemente]** auf das Pluszeichen (+), um Ihrem Profil Sandboxes zuzuweisen. [Erfahren Sie mehr über Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de){target=&quot;_blank&quot;}.
 
-   ![](assets/sandbox_3.png)
+   ![](../assets/sandbox_3.png)
 
 1. Klicken Sie bei Bedarf unter **[!UICONTROL Einbezogene Berechtigungselemente]** auf das X-Symbol, um Sandbox-Zugriffsberechtigungen auf Ihr **[!UICONTROL Produktprofil]** zu entfernen.
 
-   ![](assets/sandbox_4.png)
+   ![](../assets/sandbox_4.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -65,7 +65,7 @@ So weisen Sie Sandboxes zu:
 
 Um die Zugänglichkeit Ihrer Inhalte zu konfigurieren, müssen Sie jeder Ihrer Sandboxes einen gemeinsamen Ordner für Inhalte zuweisen. Sie können den gemeinsamen Ordner auf der Registerkarte **[!UICONTROL Datenspeicherung]**, die unter [!DNL Admin Console] für Administratoren angezeigt wird, erstellen und konfigurieren. Wenn Sie als Systemadministrator Zugriff auf [!DNL Admin Console] haben, können Sie gemeinsame Ordner erstellen und Vertreter mit unterschiedlicher Zugriffsebene zu Ihren gemeinsamen Ordnern hinzufügen.
 
-![](assets/do-not-localize/content_access.png)
+![](../assets/do-not-localize/content_access.png)
 
 Beachten Sie, dass Sie für die Synchronisierung Ihres Inhalts mit der richtigen Sandbox dieselbe Syntax verwenden müssen wie die Sandbox, z. B. wenn Ihre Sandbox als „Entwicklung“ bezeichnet wird, sollte Ihr gemeinsamer Ordner denselben Namen haben.
 

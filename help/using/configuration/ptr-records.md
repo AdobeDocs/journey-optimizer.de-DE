@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Mit PTR-Einträgen können Empfänger-E-Mail-Server die Authentizität der Sende
 
 Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
-![](assets/ptr-records.png)
+![](../assets/ptr-records.png)
 
 In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
 
@@ -49,11 +49,11 @@ Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Ado
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
-   ![](assets/ptr-record-select.png)
+   ![](../assets/ptr-record-select.png)
 
 1. Wählen Sie aus der Liste eine Subdomain aus, die [vollständig an Adobe delegiert](delegate-subdomain.md#full-subdomain-delegation) ist.
 
-   ![](assets/ptr-record-subdomain.png)
+   ![](../assets/ptr-record-subdomain.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
@@ -63,15 +63,15 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
 1. Klicken Sie in der Liste auf den Namen eines PTR-Eintrags, um diesen zu öffnen.
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](../assets/ptr-record-select-cname.png)
 
 1. Wählen Sie in der Liste eine Subdomain aus, die mithilfe der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde.
 
-   ![](assets/ptr-record-subdomain-cname.png)
+   ![](../assets/ptr-record-subdomain-cname.png)
 
 1. Sie müssen einen neuen Forward-DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Kopieren Sie dazu den von Adobe generierten Eintrag. Aktivieren Sie abschließend das Kontrollkästchen „Ich bestätige...“.
 
-   ![](assets/ptr-record-subdomain-confirm.png)
+   ![](../assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
 Neben dem Namen des PTR-Eintrags in der Liste wird das Symbol **[!UICONTROL In Bearbeitung]** angezeigt.
 
-![](assets/ptr-record-updating.png)
+![](../assets/ptr-record-updating.png)
 
 Um sich die Details der PTR-Eintragsaktualisierung anzusehen, klicken Sie auf das Symbol **[!UICONTROL Wird aktualisiert]** oder **[!UICONTROL Letzte Aktualisierungen]**.
 
-![](assets/ptr-record-recent-update.png)
+![](../assets/ptr-record-recent-update.png)
 
 Sie können Informationen wie den Aktualisierungsstatus und die gewünschten Änderungen sehen.
 
-![](assets/ptr-record-updates.png)
+![](../assets/ptr-record-updates.png)
 
 ## Aktualisierungsstatus von PTR-Einträgen {#ptr-record-update-statuses}
 
 Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL In Bearbeitung]**: Die Aktualisierung des PTR-Eintrags wurde eingereicht und durchläuft einen Verifizierungsprozess.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Erfolgreich]**: Der aktualisierte PTR-Eintrag wurde überprüft und die neue Subdomain ist nun mit der IP-Adresse verknüpft.
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Fehlgeschlagen]**: Bei der Verifizierung der Aktualisierung des PTR-Eintrags sind eine oder mehrere Prüfungen fehlgeschlagen.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL In Bearbeitung]**: Die Aktualisierung des PTR-Eintrags wurde eingereicht und durchläuft einen Verifizierungsprozess.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Erfolgreich]**: Der aktualisierte PTR-Eintrag wurde überprüft und die neue Subdomain ist nun mit der IP-Adresse verknüpft.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Fehlgeschlagen]**: Bei der Verifizierung der Aktualisierung des PTR-Eintrags sind eine oder mehrere Prüfungen fehlgeschlagen.
 
 ### In Bearbeitung {#processing}
 

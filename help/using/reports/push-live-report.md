@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -19,11 +19,11 @@ Der **[!UICONTROL Live-Bericht]** zu Push-Benachrichtigungen bezieht sich auf ei
 
 Wählen Sie auf der Registerkarte **[!UICONTROL Ausführungen]** des Menüs **[!UICONTROL Nachrichten]** die Option **[!UICONTROL Live-Ansicht]** und wählen Sie dann im erweiterten Menü des ausgewählten Versands **[!UICONTROL Live-Bericht]**.
 
-![](assets/live_report_2.png)
+![](../assets/live_report_2.png)
 
 Der **[!UICONTROL Live-Bericht]** zu Push-Benachrichtigungen ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
-![](assets/live_report_3.png)
+![](../assets/live_report_3.png)
 
 Die Widgets **[!UICONTROL Performance der Push-Benachrichtigung]** und **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthalten die wichtigsten Informationen zu Ihrer Nachricht mit Diagramm und KPIs:
 
@@ -57,7 +57,7 @@ Die Tabelle **[!UICONTROL Versandmetriken – nach Push-Benachrichtigung]** zeig
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
 
-![](assets/live_report_4.png)
+![](../assets/live_report_4.png)
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem.
 

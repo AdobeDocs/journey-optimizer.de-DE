@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -23,11 +23,11 @@ Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquel
 
 1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../start/user-interface.md).
 
-   ![](assets/journey18.png)
+   ![](../assets/journey18.png)
 
 1. Anschließend können Sie der integrierten Datenquelle entweder Feldergruppen hinzufügen (siehe [diese Seite](../datasource/adobe-experience-platform-data-source.md)) oder eine neue Datenquelle (siehe [diese Seite](../datasource/external-data-sources.md)) und die assoziierten Feldergruppen (siehe [diese Seite](../datasource/configure-data-sources.md#define-field-groups)) hinzufügen.
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -51,7 +51,7 @@ Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICON
 >
 >Beachten Sie, dass Feldergruppen ohne Felder nicht im Ausdruckseditor angezeigt werden.
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 ## Lebenszyklus von Feldergruppen {#field-group-lifecycle}
 

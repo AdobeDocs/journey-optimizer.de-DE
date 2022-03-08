@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 Sie können direkt von einem Datensatz aus auf das XDM-Schema DecisioningEvents zugreifen, das Entscheidungs-Management-Ereignisse enthält.
 
-![](../assets/access-schema.png)
+![](../../assets/access-schema.png)
 
 Das Schema enthält alle Felder, die erforderlich sind, um Informationen vom Entscheidungs-Management an Adobe Experience Platform zu senden.
 
 Um weitere Informationen zu einem bestimmten Feld zu erhalten, wählen Sie es aus, um ein Informationsfenster mit den Eigenschaften des Feldes anzuzeigen.
 
-![](../assets/schema-fields.png)
+![](../../assets/schema-fields.png)
 
 Detaillierte Informationen zur Arbeit mit XDM-Schemas und -Feldern finden Sie in der Dokumentation zum Experience-Datenmodell:
 

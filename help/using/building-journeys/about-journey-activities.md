@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -25,11 +25,11 @@ Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../e
 * [Reaktion ](../building-journeys/reaction-events.md)
 * [Segmentqualifizierung](../building-journeys/segment-qualification-events.md)
 
-![](assets/journey43.png)
+![](../assets/journey43.png)
 
 Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie können auf diese auch doppelklicken.
 
-![](assets/journey44.png)
+![](../assets/journey44.png)
 
 ## Orchestrierungsaktivitäten {#orchestration-activities}
 
@@ -40,7 +40,7 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 * [Warten](../building-journeys/wait-activity.md)
 * [Segment lesen](../building-journeys/read-segment.md)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## Aktionsaktivitäten {#action-activities}
 
@@ -50,7 +50,7 @@ In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTR
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
 * [Sprung](../building-journeys/jump.md)
 
-![](assets/journey58.png)
+![](../assets/journey58.png)
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
@@ -60,8 +60,8 @@ Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier angez
 
 Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]** zu definieren. Auf diese Weise können Sie dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird die Problembehebung bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
-![](assets/journey59bis.png)
+![](../assets/journey59bis.png)
 
 Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-![](assets/journey42.png)
+![](../assets/journey42.png)

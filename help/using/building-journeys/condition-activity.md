@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Die folgenden Bedingungstypen stehen zur Verfügung:
 * [Bedingung für das Datum](#date_condition)
 * [Profilbegrenzung](#profile_cap)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## Informationen zu Bedingungsaktivitäten {#about_condition}
 
@@ -31,13 +31,13 @@ Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede d
 
 Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
-![](assets/journey47.png)
+![](../assets/journey47.png)
 
 Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
 
 Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist eine VIP“ und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
-![](assets/journey48.png)
+![](../assets/journey48.png)
 
 Sie können einen anderen Pfad für Audiences erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
@@ -46,7 +46,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 * UND bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
 * ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
 
-![](assets/journey64.png)
+![](../assets/journey64.png)
 
 Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;} verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Informationen zur Verwendung des Ausdruckseditors finden Sie in der [Dokumentation zu Adobe Journey Orchestration](expression/expressionadvanced.md). Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. Weitere Informationen finden Sie auf [dieser Seite](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![](../assets/journey50.png)
 
 ## Bedingung für die Uhrzeit{#time_condition}
 
@@ -73,7 +73,7 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 >
 >Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
-![](assets/journey51.png)
+![](../assets/journey51.png)
 
 ## Prozentuale Aufspaltung {#percentage_split}
 
@@ -85,7 +85,7 @@ Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung a
 >
 >Beachten Sie, dass es in der Bedingung für die prozentuale Aufspaltung keine Schaltfläche zum Hinzufügen eines Pfades gibt. Die Anzahl der Pfade hängt von der Anzahl der Aufspaltungen ab. In Bedingungen für die Aufspaltung können Sie keinen Pfad für andere Fälle hinzufügen, da diese nicht möglich sind. Die Personen wählen immer einen der Pfade der Aufspaltung aus.
 
-![](assets/journey52.png)
+![](../assets/journey52.png)
 
 ## Bedingung für das Datum {#date_condition}
 
@@ -95,7 +95,7 @@ Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss 
 >
 >Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
-![](assets/journey53.png)
+![](../assets/journey53.png)
 
 ## Profilbegrenzung {#profile_cap}
 
@@ -116,7 +116,7 @@ Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, 
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
-![](assets/profile-cap-condition.png)
+![](../assets/profile-cap-condition.png)
 
 ## Verwenden von Segmenten in Bedingungen {#using-a-segment}
 
@@ -125,15 +125,15 @@ In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedin
 Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
 
 1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Bedingung der Datenquelle**.
-   ![](assets/journey47.png)
+   ![](../assets/journey47.png)
 
 1. Klicken Sie für jeden zusätzlichen Pfad auf **[!UICONTROL Pfad hinzufügen]**. Klicken Sie für jeden Pfad auf das Feld **[!UICONTROL Ausdruck]**.
 
-   ![](assets/segment3.png)
+   ![](../assets/segment3.png)
 
 1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Segmente]**. Legen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, im Arbeitsbereich ab. Standardmäßig lautet die Bedingung für das Segment „true“.
 
-   ![](assets/segment4.png)
+   ![](../assets/segment4.png)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
@@ -54,15 +54,15 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Ereignisse]** auf **[!UICONTROL Verwalten]**. Die Liste der Ereignisse wird angezeigt.
 
-   ![](assets/jo-event1.png)
+   ![](../assets/jo-event1.png)
 
 1. Klicken Sie auf **[!UICONTROL Ereignis erstellen]**, um ein neues Ereignis zu erstellen. Der Bereich für die Ereigniskonfiguration wird auf der rechten Seite des Bildschirms geöffnet.
 
-   ![](assets/jo-event2.png)
+   ![](../assets/jo-event2.png)
 
 1. Geben Sie den Namen Ihres Ereignisses ein. Sie können auch eine Beschreibung hinzufügen.
 
-   ![](assets/jo-event3-business.png)
+   ![](../assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 1. Wählen Sie im Feld **[!UICONTROL Typ]** die Option **Geschäftlich**.
 
-   ![](assets/jo-event3bis-business.png)
+   ![](../assets/jo-event3bis-business.png)
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
 1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die von Journeys erwartet werden. Anschließend können Sie diese Informationen in Ihrer Journey verwenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](assets/jo-event5-business.png)
+   ![](../assets/jo-event5-business.png)
 
    Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten. Die folgenden Felder müssen nach Bedarf festgelegt werden: `_id` und `timestamp`
 
-   ![](assets/test-profiles-4.png)
+   ![](../assets/test-profiles-4.png)
 
 1. Klicken Sie in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie eine Bedingung, anhand derer das System die Ereignisse identifiziert, die Ihre Journey auslösen.
-   ![](assets/jo-event6-business.png)
+   ![](../assets/jo-event6-business.png)
 
    In unserem Beispiel haben wir eine Bedingung basierend auf der Kennung des Produkts geschrieben. Das bedeutet, dass das System jedes Mal, wenn es ein Ereignis erhält, das dieser Bedingung entspricht, dieses an Journeys weitergibt.
 
@@ -93,7 +93,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/journey7-business.png)
+   ![](../assets/journey7-business.png)
 
    Das Ereignis ist jetzt konfiguriert und kann in einer Journey abgelegt werden. Für den Empfang von Ereignissen sind zusätzliche Konfigurationsschritte erforderlich. Weitere Informationen finden Sie auf [dieser Seite](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -103,11 +103,11 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
 1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder das Symbol **[!UICONTROL Bearbeiten]**.
 
-   ![](assets/journey8-business.png)
+   ![](../assets/journey8-business.png)
 
    Alle im Schema definierten Felder werden angezeigt. Die Liste der Felder variiert von Schema zu Schema. Sie können nach einem bestimmten Feld suchen oder die Filter verwenden, um alle Knoten und Felder oder nur die ausgewählten Felder anzuzeigen. Gemäß der Schemadefinition können einige Felder obligatorisch und vorausgewählt sein. Sie können die Auswahl nicht aufheben. Alle Felder, die für den korrekten Empfang des Ereignisses durch Journeys erforderlich sind, sind standardmäßig ausgewählt.
 
-   ![](assets/journey9-business.png)
+   ![](../assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
    Die Anzahl der ausgewählten Felder wird im Feld **[!UICONTROL Felder]** angezeigt.
 
-   ![](assets/journey12-business.png)
+   ![](../assets/journey12-business.png)
 
 ## Vorschau der Payload {#preview-the-payload}
 
@@ -127,11 +127,11 @@ Mit der Payload-Vorschau können Sie die Payload-Definition validieren.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Payload zeigen]**, um eine Vorschau der vom System erwarteten Payload anzuzeigen.
 
-   ![](assets/journey13-business.png)
+   ![](../assets/journey13-business.png)
 
    Sie können sehen, dass die ausgewählten Felder angezeigt werden.
 
-   ![](assets/journey14-business.png)
+   ![](../assets/journey14-business.png)
 
 1. Überprüfen Sie die Vorschau, um die Payload-Definition zu validieren.
 

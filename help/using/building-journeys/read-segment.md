@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 100%
@@ -43,13 +43,13 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >
    >Nur Einzelpersonen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target=&quot;_blank&quot;}.
 
-   ![](assets/read-segment-selection.png)
+   ![](../assets/read-segment-selection.png)
 
    Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** dessen Namen und ID kopieren:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![](../assets/read-segment-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace).
 
@@ -59,7 +59,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
 1. Definieren Sie im Feld **[!UICONTROL Einschränkungsrate]** das Durchsatz-Limit der Aktivität „Segment lesen“.
 
-   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 20.000 Nachrichten pro Sekunde. Sie können diesen Wert zwischen 500 und 20.000 Nachrichten pro Sekunde variieren.
+   Dieser Wert wird in der Payload der Journey-Version gespeichert. Der Standardwert ist 17.000 Nachrichten pro Sekunde. Sie können diesen Wert zwischen 500 auf 17.000 Nachrichten pro Sekunde variieren.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
 1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Planung bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
-   ![](assets/read-segment-schedule.png)
+   ![](../assets/read-segment-schedule.png)
 
    Standardmäßig treten Segmente **[!UICONTROL so bald wie möglich]** in die Journey ein. Wenn das Segment zu einem bestimmten Datum/zu einer bestimmten Uhrzeit oder wiederholt in die Journey eintreten soll, wählen Sie den gewünschten Wert aus der Liste aus.
 
@@ -75,7 +75,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >
    >Beachten Sie, dass der Bereich **[!UICONTROL Plan]** nur verfügbar ist, wenn eine **[!UICONTROL Segment lesen]**-Aktivität auf der Arbeitsfläche abgelegt wurde.
 
-   ![](assets/read-segment-schedule-list.png)
+   ![](../assets/read-segment-schedule-list.png)
 
    Mit der Option **Inkrementelles Lesen** haben Sie die Möglichkeit, nur die Personen anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind. Bei der ersten Ausführung sind immer alle Segmentmitglieder ausgewählt. Diese Option ist nur für wiederkehrende **Segment lesen**-Aktivitäten verfügbar.
 
@@ -104,7 +104,7 @@ Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie die Journey entwed
 
 Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gewünschte Option aus.
 
-![](assets/read-segment-test-mode.png)
+![](../assets/read-segment-test-mode.png)
 
 Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle *
 
    Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
 
-   ![](assets/read-segment-log.png)
+   ![](../assets/read-segment-log.png)
 
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 
@@ -144,7 +144,7 @@ Die Segmentierung kann basieren auf:
 * Tageszeit – Beispiel: Ist es morgens in der Zeitzone der Person?
 * Algorithmus, der die in die Journey geführte Audience auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 % - 10 % für den Ausschluss einer Kontrollgruppe
 
-![](assets/read-segment-audience1.png)
+![](../assets/read-segment-audience1.png)
 
 **Ausschluss**
 
@@ -152,7 +152,7 @@ Die selbe Aktivität **Bedingung**, die für die Segmentierung verwendet wird (s
 
 Dieser Ausschluss kann unmittelbar nach Segmentabruf, zu Zwecken der Populationszählung oder als Teil einer mehrstufigen Journey erfolgen.
 
-![](assets/read-segment-audience2.png)
+![](../assets/read-segment-audience2.png)
 
 **Vereinigung**
 
@@ -164,4 +164,4 @@ Ein Beispiel: Im Anschluss an ein zehntägiges differenziertes Erlebnis in einer
 
 Nach einer Vereinigung können Sie die Audience erneut teilen, indem Sie eine Segmentierung oder einen Ausschluss durchführen.
 
-![](assets/read-segment-audience3.png)
+![](../assets/read-segment-audience3.png)

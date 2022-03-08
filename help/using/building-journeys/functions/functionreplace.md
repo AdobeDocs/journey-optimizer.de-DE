@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
-source-git-commit: 87b8056d26fe91a71e92ca346a9811c609d41128
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|--------------|
 | base | string |
-| target | Zeichenfolge (RegExp) |
+| target | Zeichenfolge |
 | replacement | Zeichenfolge |
 
 ## Signatur und zurückgegebener Typ
@@ -41,28 +41,8 @@ Zeichenfolge
 
 Gibt eine Zeichenfolge zurück.
 
-## Beispiel 1
+## Beispiel
 
 `replace("Hello World", "l", "x")`
 
 Gibt „Hexlo World“ zurück.
-
-## Beispiel 2 {#example_2}
-
-Da der Zielparameter ein regulärer Ausdruck ist, müssen Sie je nach der Zeichenfolge, die Sie ersetzen möchten, möglicherweise einige Zeichen auslassen. Siehe folgendes Beispiel:
-
-* auszuwertende Zeichenfolge: `|OFFER_A|OFFER_B`
-* bereitgestellt von einem Profilattribut `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* Zeichenfolge, die ersetzt werden soll: `|OFFER_A`
-* Zeichenfolge ersetzt durch: `''`
-* Sie müssen `\\` vor dem Zeichen `|` hinzufügen.
-
-Der Ausdruck lautet:
-
-`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
-
-Die zurückgegebene Zeichenfolge lautet: `|OFFER_B`
-
-Sie können auch die Zeichenfolge erstellen, die mit einem bestimmten Attribut ersetzt werden soll:
-
-`replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

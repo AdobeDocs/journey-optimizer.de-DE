@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der „Segment lesen“, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## Beschreibung des Anwendungsfalls
 
@@ -53,7 +53,7 @@ Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segm
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey eintreten lassen.
 
@@ -77,7 +77,7 @@ Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Inf
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. Mit der entsprechenden Ereignisaktivität können Sie eine Aktion jedes Mal auslösen, wenn ein Kunde einen Einkauf tätigt.
 
@@ -89,7 +89,7 @@ Für diesen Anwendungsfall müssen wir drei Nachrichten erstellen:
 * Eine Push-Nachricht „Vielen Dank“
 * Eine E-Mail-Folgenachricht
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese Nachrichten entwerfen und veröffentlichen.
 
@@ -97,11 +97,11 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 
 1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Segment lesen**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. Fügen Sie per Drag-and-Drop eine Aktivität vom Typ **Nachricht** ein und wählen Sie die erste Push- und E-Mail-Nachricht aus. Diese Nachricht wird an alle Personen in der Journey gesendet.
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. Platzieren Sie den Cursor auf der Nachrichten-Aktivität und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
 

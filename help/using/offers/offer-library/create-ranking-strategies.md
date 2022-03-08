@@ -7,14 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 97%
 
 ---
 
-# Create AI models {#ai-rankings}
+# Erstellen von KI-Modellen {#ai-rankings}
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
@@ -22,7 +22,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgestrategie zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL KI-Rangfolgen]** aus.
 
-   ![](../assets/ai-ranking-list.png)
+   ![](../../assets/ai-ranking-list.png)
 
    Alle bisher erstellten Rangfolgestrategien werden aufgelistet.
 
@@ -30,7 +30,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgestrategie zu erstellen:
 
 1. Füllen Sie die folgenden Felder aus:
 
-   ![](../assets/ai-ranking-fields.png)
+   ![](../../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**: Eindeutiger Name, den Sie angeben müssen.
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgestrategie zu erstellen:
 
    * **[!UICONTROL Datensatz-ID]**: Für die Konversion müssen Sie einen Datensatz in der Dropdown-Liste auswählen, in dem Ereignisse gesammelt werden. In [diesem Abschnitt](#create-dataset) erfahren Sie, wie Sie einen solchen Datensatz erstellen.<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../assets/ai-ranking-dataset-id.png)
+   ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgestrategie zu erstellen:
 
 1. Speichern und aktivieren Sie die Rangfolgestrategie.
 
-   ![](../assets/ai-ranking-save-activate.png)
+   ![](../../assets/ai-ranking-save-activate.png)
 
 Sie kann nun bei der Entscheidung über die Rangfolge der für eine Platzierung geeigneten Angebote verwendet werden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->.
 
@@ -70,11 +70,11 @@ Sie müssen einen Datensatz erstellen, in dem Konversionsereignisse erfasst werd
 
 1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
-   ![](../assets/ai-ranking-create-schema.png)
+   ![](../../assets/ai-ranking-create-schema.png)
 
 1. Wählen Sie **[!UICONTROL XDM ExperienceEvent]** aus.
 
-   ![](../assets/ai-ranking-xdm-event.png)
+   ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Sie müssen einen Datensatz erstellen, in dem Konversionsereignisse erfasst werd
 
 1. Geben Sie im Feld **[!UICONTROL Suche]** „Interaktion mit Vorschlägen“ ein und wählen Sie die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aus.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+   ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ Sie müssen einen Datensatz erstellen, in dem Konversionsereignisse erfasst werd
 
 1. Klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
 
-   ![](../assets/ai-ranking-add-field-group.png)
+   ![](../../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >Die Feldergruppen wurden früher als Mixins bezeichnet.
@@ -106,21 +106,21 @@ Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Geh
 
 1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Datensatz erstellen]**.
 
-   ![](../assets/ai-ranking-create-dataset.png)
+   ![](../../assets/ai-ranking-create-dataset.png)
 
 1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
 
-   ![](../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. Wählen Sie das soeben erstellte Schema aus der Liste aus.
 
-   ![](../assets/ai-ranking-dataset-select-schema.png)
+   ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
 1. Geben Sie im Feld **[!UICONTROL Name]** einen eindeutigen Namen für den Datensatz ein und klicken Sie auf **[!UICONTROL Beenden]**.
 
-   ![](../assets/ai-ranking-dataset-name.png)
+   ![](../../assets/ai-ranking-dataset-name.png)
 
 Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [eine Rangfolgestrategie erstellt wird](#create-ranking-strategy).
 

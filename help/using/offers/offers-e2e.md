@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -59,7 +59,7 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
 
 Der gesamte Entscheidungs-Management-Prozess zur Verwendung von Angeboten in einer E-Mail kann wie folgt beschrieben werden:
 
-![](assets/offers-e2e-process.png)
+![](../assets/offers-e2e-process.png)
 
 ## Definieren der Komponenten {#define-components}
 
@@ -77,7 +77,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
    * *E-Mail – Bild*
    * *Nicht digital – Text*
 
-   ![](assets/offers-e2e-placements.png)
+   ![](../assets/offers-e2e-placements.png)
 
    Die detaillierten Schritte zum Erstellen von Platzierungen werden in [diesem Abschnitt](../../using/offers/offer-library/creating-placements.md) beschrieben.
 
@@ -90,7 +90,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
    * *Weibliche Kunden*
    * *Männliche Kunden*
 
-   ![](assets/offers-e2e-rules.png)
+   ![](../assets/offers-e2e-rules.png)
 
    Die detaillierten Schritte zum Erstellen von Regeln werden in [diesem Abschnitt](../../using/offers/offer-library/creating-decision-rules.md) beschrieben.
 
@@ -100,7 +100,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
    Erstellen Sie in diesem Beispiel das Tag *Yoga*.
 
-   ![](assets/offers-e2e-tag.png)
+   ![](../assets/offers-e2e-tag.png)
 
    Die detaillierten Schritte zum Erstellen von Tags werden in [diesem Abschnitt](../../using/offers/offer-library/creating-tags.md) beschrieben.
 
@@ -132,17 +132,17 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
 1. Wählen Sie ein passendes Bild für die ersten beiden Platzierungen aus. Geben Sie benutzerdefinierten Text für die Platzierung *Nicht digital – Text* ein.
 
-   ![](assets/offers-e2e-representations.png)
+   ![](../assets/offers-e2e-representations.png)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Angebotseignung]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel per Drag-and-drop hinüber.
 
-   ![](assets/offers-e2e-eligibility.png)
+   ![](../assets/offers-e2e-eligibility.png)
 
 1. Füllen Sie das Feld **[!UICONTROL Priorität]** aus. Tragen Sie in diesem Beispiel *25* ein.
 
 1. Überprüfen Sie Ihr Angebot und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
-   ![](assets/offers-e2e-review.png)
+   ![](../assets/offers-e2e-review.png)
 
 1. Erstellen Sie in diesem Beispiel drei weitere Angebote mit denselben Darstellungen, aber unterschiedlichen Assets. Weisen Sie ihnen unterschiedliche Regeln und Prioritäten zu, z. B.:
 
@@ -151,7 +151,7 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
    * Drittes Angebot – Entscheidungsregel: *Männliche Kunden*, Priorität: *25*
    * Viertes Angebot – Entscheidungsregel: *Männliche Kunden*, Priorität: *15*
 
-   ![](assets/offers-e2e-offers-created.png)
+   ![](../assets/offers-e2e-offers-created.png)
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md) beschrieben.
 
@@ -167,11 +167,11 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden 
    * Eines, das der Platzierung *E-Mail – Bild* entspricht
    * Eines, das der Platzierung *Nicht digital – Text* entspricht
 
-   ![](assets/offers-e2e-fallback-representations.png)
+   ![](../assets/offers-e2e-fallback-representations.png)
 
 1. Überprüfen Sie Ihr Fallback-Angebot und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
-![](assets/offers-e2e-fallback.png)
+![](../assets/offers-e2e-fallback.png)
 
 Ihr Fallback-Angebot kann jetzt in einer Entscheidung verwendet werden.
 
@@ -185,7 +185,7 @@ Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebot
 
 1. Verwenden Sie das Tag *Yoga*, um die vier zuvor erstellten personalisierten Angebote auszuwählen.
 
-   ![](assets/offers-e2e-collection-using-tag.png)
+   ![](../assets/offers-e2e-collection-using-tag.png)
 
 Die detaillierten Schritte zum Erstellen einer Kollektion werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
 
@@ -201,11 +201,11 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
 1. Wählen Sie die Platzierungen *Web – Bild*, *E-Mail – Bild* und *Nicht digital – Text* aus.
 
-   ![](assets/offers-e2e-decision-placements.png)
+   ![](../assets/offers-e2e-decision-placements.png)
 
 1. Fügen Sie für jede Platzierung die von Ihnen erstellte Kollektion hinzu.
 
-   ![](assets/offers-e2e-decision-collection.png)
+   ![](../assets/offers-e2e-decision-collection.png)
 
 1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) eine Rangfolge definiert haben, können Sie sie einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote für die Darstellung an dieser Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst angezeigt werden soll.
 
@@ -213,11 +213,11 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
 1. Wählen Sie das von Ihnen erstellte Fallback-Angebot aus. Es wird als verfügbares Fallback-Angebot für die drei ausgewählten Platzierungen angezeigt.
 
-   ![](assets/offers-e2e-decision-fallback.png)
+   ![](../assets/offers-e2e-decision-fallback.png)
 
 1. Überprüfen Sie Ihre Entscheidung und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
-   ![](assets/offers-e2e-review-decision.png)
+   ![](../assets/offers-e2e-review-decision.png)
 
 Ihre Entscheidung kann jetzt für die Bereitstellung optimierter und personalisierter Angebote verwendet werden.
 
@@ -233,21 +233,21 @@ Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht
 
 1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/messages/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
 
-   ![](assets/offers-e2e-decision-component.png)
+   ![](../assets/offers-e2e-decision-component.png)
 
 1. Wählen Sie sie aus. Klicken Sie in der rechten Palette auf **[!UICONTROL Angebotsentscheidung auswählen]**, um eine Entscheidung hinzuzufügen.
 
-   ![](assets/offers-e2e-select-offer-decision.png)
+   ![](../assets/offers-e2e-select-offer-decision.png)
 
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Platzierungen]** die Platzierung aus, die den Angeboten entspricht, die Sie anzeigen möchten.
 
    In diesem Fall ist von den Platzierungen, die Sie im Rahmen dieses Beispiels zuvor erstellt haben, nur die Platzierung **E-Mail – Bild** verfügbar, da Sie die Entscheidung in einer E-Mail verwenden möchten. Weitere Informationen zum [Erstellen von Platzierungen](../../using/offers/offer-library/creating-placements.md)
 
-   ![](assets/offers-e2e-select-placement-in-decision.png)
+   ![](../assets/offers-e2e-select-placement-in-decision.png)
 
 1. Entscheidungen, die mit der Platzierung **E-Mail – Bild** übereinstimmen, werden angezeigt. Wählen Sie die in der Inhaltskomponente zu verwendende Entscheidung aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
+   ![](../assets/offers-e2e-matching-placement-in-decision.png)
 
    >[!NOTE]
    >
@@ -255,7 +255,7 @@ Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht
 
 Sie können nun sehen, wie alle personalisierten Angebote und das Fallback-Angebot in Email Designer visuell dargestellt werden.
 
-![](assets/offers-e2e-offers-displayed.png)
+![](../assets/offers-e2e-offers-displayed.png)
 
 Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '261'
 ht-degree: 100%
 
 ---
@@ -27,28 +27,26 @@ Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Jo
 
 ## Dashboard anpassen {#modify-dashboard}
 
-Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern der Größe von Widgets oder das Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
+Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernung von Widgets oder durch Ändern des Zielzeitrahmens geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um auf bestimmte Daten zuzugreifen.
+1. Klicken Sie im Dashboard **[!UICONTROL Globaler Bericht]** auf die Schaltfläche „Planung“.
 
-   ![](assets/report_modify_1.png)
+1. Wählen Sie das Start- und Enddatum aus. Sie können Ihre Berichte noch weiter präzisieren, indem Sie **[!UICONTROL Startzeit]** und **[!UICONTROL Endzeit]** auswählen.
 
-1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+   ![](../assets/global_report_6.png)
 
-   ![](assets/report_modify_2.png)
+1. Klicken Sie auf **[!UICONTROL Ändern]**.
 
-1. Klicken Sie auf **[!UICONTROL Ändern]**, um mit der Anpassung Ihres Dashboards zu beginnen.
+   ![](../assets/global_report_8.png)
 
-   ![](assets/report_modify_3.png)
+1. Passen Sie die Größe der Widgets an, indem Sie die untere rechte Ecke ziehen.
 
-1. Sie können die Größe der Widgets durch Ziehen an der rechten unteren Ecke anpassen.
+   ![](../assets/global_report_9.png)
 
-   ![](assets/report_modify_4.png)
+1. Klicken Sie auf **[!UICONTROL Entfernen]**, um andere Widgets zu entfernen, die Sie nicht für das Tracking von Bounces benötigen.
 
-1. Klicken Sie auf **[!UICONTROL Entfernen]**, um alle Widgets zu entfernen, die Sie nicht benötigen.
-
-   ![](assets/report_modify_5.png)
+   ![](../assets/global_report_10.png)
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
-Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei einer späteren Verwendung Ihrer Live-Berichte erneut angewendet. Verwenden Sie bei Bedarf die Option **[!UICONTROL Zurücksetzen]**, um die Standard-Widgets und ihre Standardreihenfolge wiederherzustellen.
+Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei einer späteren Verwendung Ihrer globalen Berichte erneut angewendet. Verwenden Sie bei Bedarf die Option **[!UICONTROL Zurücksetzen]**, um die Standard-Widgets und ihre Standardreihenfolge wiederherzustellen.

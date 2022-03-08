@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1472'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -36,15 +36,15 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
-   ![](assets/subdomain-delegate.png)
+   ![](../assets/subdomain-delegate.png)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Einrichtungsmethode]** die Option **[!UICONTROL Vollständig zugewiesen]** aus.
 
-   ![](assets/subdomain-method-full.png)
+   ![](../assets/subdomain-method-full.png)
 
 1. Geben Sie den Namen der zu delegierenden Subdomain an.
 
-   ![](assets/subdomain-name.png)
+   ![](../assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
 1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige...“ und klicken Sie dann auf **[!UICONTROL Senden]**.
 
-   ![](assets/subdomain-submit.png)
+   ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
 1. Nachdem die Subdomain-Delegierung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL In Verarbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
 
-   ![](assets/subdomain-processing.png)
+   ![](../assets/subdomain-processing.png)
 
    Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, die bis zu drei Stunden dauern können. Weiterführende Informationen finden Sie in diesem [Abschnitt](#subdomain-validation).
 
@@ -96,13 +96,13 @@ Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNA
 >
 >Diese Methode wird empfohlen, wenn Ihre Unternehmensrichtlinien die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
-Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
+Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zuzuweisen:
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
 1. Wählen Sie die Methode **[!UICONTROL CNAME-Einrichtung]** aus.
 
-   ![](assets/subdomain-method-cname.png)
+   ![](../assets/subdomain-method-cname.png)
 
 1. Geben Sie den Namen der zu delegierenden Subdomain an.
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
 1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige…“.
 
-   ![](assets/subdomain-create-dns-confirm.png)
+   ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
 1. Adobe generiert einen SSL-CDN-URL-Validierungsdatensatz. Kopieren Sie diesen Validierungsdatensatz in Ihre Hosting-Plattform. Wenn Sie diesen Datensatz ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“ und klicken Sie dann auf **[!UICONTROL Senden]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

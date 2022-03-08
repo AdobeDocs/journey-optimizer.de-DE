@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Über die Schaltfläche **[!UICONTROL Live-Bericht]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 
-![](assets/report_1.png)
+![](../assets/report_1.png)
 
 Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerkarten angezeigt:
 
@@ -31,7 +31,7 @@ Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerkarte **[!UICONTROL Journey]** eine Einblick in die wichtigsten Tracking-Daten zur Journey.
 
-![](assets/report_journey_2.png)
+![](../assets/report_journey_2.png)
 
 Mit **[!UICONTROL Journey-Performance]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
@@ -43,11 +43,11 @@ Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Fehlgeschlagene individuelle Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-![](assets/report_journey_3.png)
+![](../assets/report_journey_3.png)
 
 Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ereignisse]** können Sie anhand der Gesamtanzahl, des Diagramms und der Tabelle sehen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde.
 
-![](assets/report_journey_4.png)
+![](../assets/report_journey_4.png)
 
 Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ausgeführte Aktionen und Fehler]** zeigen die erfolgreichste Aktion und die Fehler, die beim Auslösen Ihrer Aktionen aufgetreten sind. Das Aktionsdiagramm, die Tabelle und die Gesamtzahlen enthalten die für Aktionen verfügbaren Daten, z. B.:
 
@@ -56,7 +56,7 @@ Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführ
 * **[!UICONTROL Fehler in Aktionen]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
 
 <!--
-![](assets/live_report_7.png)
+![](../assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte 
 
 Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [E-Mail-Live-Bericht](email-live-report.md).
 
-![](assets/report_email_1.png)
+![](../assets/report_email_1.png)
 
 Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
@@ -105,7 +105,7 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UI
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
-![](assets/report_email_2.png)
+![](../assets/report_email_2.png)
 
 Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** und **[!UICONTROL Hardbounces und Softbounces – nach E-Mail]** enthalten die verfügbaren Daten im Zusammenhang mit unzustellbaren Nachrichten, wie z. B:
 
@@ -123,7 +123,7 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UI
 
 Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im Abschnitt [Push-Live-Bericht](push-live-report.md).
 
-![](assets/report_push_1.png)
+![](../assets/report_push_1.png)
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
@@ -143,7 +143,7 @@ Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **
 
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
-![](assets/report_push_2.png)
+![](../assets/report_push_2.png)
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem.
 

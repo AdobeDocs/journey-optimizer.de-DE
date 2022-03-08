@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Katego
 
 Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
 Sie können zwei Arten von Kollektionen erstellen:
 
@@ -35,17 +35,17 @@ Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
 1. Geben Sie den Namen und den Typ der zu erstellenden Kollektion an.
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
 1. Um eine dynamische Kollektion zu erstellen, wählen Sie im linken Bereich das Tag der Angebote aus, die der Kollektion hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Alle Angebote mit dem ausgewählten Tag werden in der Kollektion gespeichert.
 
    Weitere Informationen zum Erstellen von Tags finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
 1. Um eine statische Kollektion zu erstellen, verwenden Sie den linken Bereich, um die Liste der Angebote (nach Status, Tag, Datum, Kanal, Inhaltstyp) zu filtern, und wählen Sie dann die Angebote aus, die der Kollektion hinzugefügt werden sollen.
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
 1. Nachdem die Kollektion erstellt wurde, wird sie in der Liste angezeigt. Sie können sie zum Bearbeiten oder Löschen auswählen.
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
 ## Anleitungsvideo {#video}
 

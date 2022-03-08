@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
@@ -29,23 +29,23 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolgen]**. Die Liste der zuvor erstellten Rangfolgen wird angezeigt.
 
-   ![](../assets/rankings-list.png)
+   ![](../../assets/rankings-list.png)
 
 1. Klicken Sie auf **[!UICONTROL Rangfolge erstellen]**, um eine neue Rangfolgeformel zu erstellen.
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 1. Geben Sie Namen und die Beschreibung der Rangfolgeformel sowie die Formel selbst an.
 
    In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
 
    Sie kann jetzt in einer Entscheidung verwendet werden, um die geeigneten Angebote für eine Platzierung zu reihen (siehe [Auswahl der Angebote in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md)).
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
 
 ## Beispiele für Rangfolgeformeln {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 Eine bessere Lösung besteht darin, die Punktzahlen in einem Array des Profils zu speichern. Das folgende Beispiel zeigt, wie eine einfache Rangfolgeformel für viele verschiedene Neigungspunktwerte verwendet werden kann. Dabei wird vorausgesetzt, dass Sie über ein Profilschema mit einem Array von Werten verfügen. In diesem Beispiel ist der Instanzmandant *_salesvelocity* und das Profilschema enthält Folgendes:
 
-![](../assets/ranking-example-schema.png)
+![](../../assets/ranking-example-schema.png)
 
 In diesem Fall für ein Profil wie:
 
@@ -179,7 +179,7 @@ In diesem Fall für ein Profil wie:
 
 Die Angebote enthalten ein Attribut für *propensityType*, das mit der Kategorie der Punktwerte übereinstimmt:
 
-![](../assets/ranking-example-propensityType.png)
+![](../../assets/ranking-example-propensityType.png)
 
 Ihre Rangfolgeformel kann dann die Priorität jedes Angebots so festlegen, dass sie dem *propensityScore* des Kunden für diesen *propensityType* entspricht. Wenn kein Punktwert gefunden wird, verwenden Sie die statische Priorität für das Angebot:
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## Angebot erstellen {#create-offer}
 
@@ -39,11 +39,11 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Angebot erstellen]** und wählen Sie dann **[!UICONTROL Personalisiertes Angebot]** aus.
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Sie können dem Angebot auch ein oder mehrere Tags zuordnen, damit Sie die Angebotsbibliothek leichter durchsuchen und organisieren können.
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um eine oder mehrere Darstellungen zu Ihrem Angebot hin
 
 1. Wählen Sie für die erste Darstellung zunächst den zu verwendenden **[!UICONTROL Kanal]** aus.
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ Gehen Sie wie folgt vor, um eine oder mehrere Darstellungen zu Ihrem Angebot hin
 
    Sie können auch den Button neben der Dropdown-Liste **[!UICONTROL Platzierung]** verwenden, um alle Platzierungen zu durchsuchen.
 
-   ![](../assets/browse-button-placements.png)
+   ![](../../assets/browse-button-placements.png)
 
    Dort können Sie die Platzierungen nach Kanal und/oder Content-Typ filtern. Wählen Sie eine Platzierung aus und klicken Sie auf **[!UICONTROL Auswahl]**.
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. Fügen Sie für Ihre Darstellung Inhalte hinzu. Mehr dazu erfahren Sie in [diesem Abschnitt](#content).
 
 1. Wenn Sie Inhalte wie ein Bild oder eine URL hinzufügen, können Sie einen **[!UICONTROL Ziel-Link]** angeben: Die Benutzer, die auf das Angebot klicken, werden zur entsprechenden Seite weitergeleitet.
 
-   ![](../assets/offer-destination-link.png)
+   ![](../../assets/offer-destination-link.png)
 
 1. Wählen Sie abschließend eine Sprache, um zu bestimmen, welche Inhalte den Benutzern angezeigt werden sollen.
 
 1. Um eine weitere Darstellung hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Darstellung hinzufügen]** und fügen Sie beliebig viele Darstellungen hinzu.
 
-   ![](../assets/offer-add-representation.png)
+   ![](../../assets/offer-add-representation.png)
 
 1. Nachdem Sie alle Darstellungen hinzugefügt haben, klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -108,19 +108,19 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
 1. Klicken Sie auf **[!UICONTROL Durchsuchen]**.
 
-   ![](../assets/offer-browse-asset-library.png)
+   ![](../../assets/offer-browse-asset-library.png)
 
 1. Durchsuchen Sie die Assets, um das Bild Ihrer Wahl auszuwählen.
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**.
 
-   ![](../assets/offer-select-asset.png)
+   ![](../../assets/offer-select-asset.png)
 
 ### URLs hinzufügen {#urls}
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
-![](../assets/offer-content-url.png)
+![](../../assets/offer-content-url.png)
 
 ### Hinzufügen von benutzerdefiniertem Text {#custom-text}
 
@@ -128,7 +128,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
 1. Wählen Sie die Option **[!UICONTROL Benutzerdefiniert]** aus und klicken Sie auf **[!UICONTROL Inhalt hinzufügen]**.
 
-   ![](../assets/offer-add-content.png)
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
 1. Geben Sie den Text ein, der im Angebot angezeigt werden soll.
 
-   ![](../assets/offer-text-content.png)
+   ![](../../assets/offer-text-content.png)
 
    Sie können Ihren Inhalt mit dem Ausdruckseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../assets/offer-personalization.png)
+   ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
 
       Weitere Informationen zum Arbeiten mit Segmenten finden Sie auf [dieser Seite](../../segment/about-segments.md).
 
-      ![](../assets/offer-eligibility-segment.png)
+      ![](../../assets/offer-eligibility-segment.png)
 
    * Wenn Sie eine bestimmte Entscheidungsregel mit dem Angebot verknüpfen möchten, wählen Sie **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**. Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
-      ![](../assets/offer_rule.png)
+      ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bed
    >
    >Wenn ein E-Mail-Versand gelöscht oder die Vorbereitung vor dem Senden erneut vorgenommen wird, wird der Begrenzungswert für das Angebot automatisch aktualisiert.
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    Im obigen Beispiel:
 
@@ -221,7 +221,7 @@ Sobald Eignungsregeln und Begrenzungen definiert wurden, wird eine Zusammenfassu
 
 1. Wählen Sie **[!UICONTROL Speichern und genehmigen]** aus.
 
-   ![](../assets/offer_review.png)
+   ![](../../assets/offer_review.png)
 
    Sie können das Angebot auch als Entwurf speichern, um es später zu bearbeiten und zu genehmigen.
 
@@ -229,13 +229,13 @@ Das Angebot wird in der Liste mit dem Status **[!UICONTROL Genehmigt]** oder **[
 
 Es kann jetzt Benutzern unterbreitet werden.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 ## Angebotsliste {#offer-list}
 
 Sie können aus der Angebotsliste das Angebot auswählen, dessen Eigenschaften angezeigt werden sollen. Sie können das Angebot auch bearbeiten, seinen Status (**Entwurf**, **Genehmigt**, **Archiviert**) ändern, es duplizieren oder löschen.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Bearbeitungsmodus für Angebote zurückzukehren. Dort können Sie die [Details](#create-offer) und [Darstellungen](#representations) des Angebots ändern und die [Eignungsregeln und Begrenzungen](#eligibility) bearbeiten.
 
@@ -243,11 +243,11 @@ Wählen Sie ein genehmigtes Angebot aus und klicken Sie auf **[!UICONTROL Genehm
 
 Um den Status erneut auf **[!UICONTROL Genehmigt]** zu setzen, wählen Sie die entsprechende Schaltfläche aus, die jetzt angezeigt wird.
 
-![](../assets/offer_approve.png)
+![](../../assets/offer_approve.png)
 
 Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschriebenen Aktionen.
 
-![](../assets/offer_more-actions.png)
+![](../../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplizieren]**: erstellt ein Angebot mit denselben Eigenschaften, Darstellungen, Eignungsregeln und Begrenzungen. Standardmäßig weist das neue Angebot den Status **[!UICONTROL Entwurf]** auf.
 * **[!UICONTROL Löschen]**: entfernt das Angebot aus der Liste.
@@ -262,19 +262,19 @@ Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschrie
 
 Sie können auch den Status mehrerer Angebote gleichzeitig löschen oder ändern, indem Sie die entsprechenden Checkboxen auswählen.
 
-![](../assets/offer_multiple-selection.png)
+![](../../assets/offer_multiple-selection.png)
 
 Wenn Sie den Status mehrerer Angebote mit unterschiedlichen Status ändern möchten, werden nur die relevanten Status geändert.
 
-![](../assets/offer_change-status.png)
+![](../../assets/offer_change-status.png)
 
 Nachdem ein Angebot erstellt wurde, können Sie in der Liste auf seinen Namen klicken.
 
-![](../assets/offer_click-name.png)
+![](../../assets/offer_click-name.png)
 
 Auf diese Weise können Sie auf detaillierte Informationen zu diesem Angebot zugreifen. Wählen Sie die Registerkarte **[!UICONTROL Protokoll ändern]** aus, um [alle Änderungen zu überwachen](../get-started/user-interface.md#monitoring-changes), die am Angebot vorgenommen wurden.
 
-![](../assets/offer_information.png)
+![](../../assets/offer_information.png)
 
 ## Anleitungsvideo {#video}
 

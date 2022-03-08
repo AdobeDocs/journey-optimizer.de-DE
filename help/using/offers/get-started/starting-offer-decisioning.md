@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 * Die **zentrale Angebotsbibliothek** ist die Oberfläche, über die Sie die verschiedenen Elemente erstellen und verwalten können, aus denen Ihre Angebote bestehen. Außerdem können Sie hier entsprechende Regeln und Begrenzungen definieren.
 * Die **Offer Decisioning-Engine** nutzt Adobe Experience Platform-Daten und Echtzeit-Kundenprofile sowie die Angebotsbibliothek, um die richtigen Zeitpunkte, Kunden und Kanäle für das Unterbreiten von Angeboten auszuwählen.
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 Zu den Vorteilen zählen:
 
@@ -42,7 +42,7 @@ Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Einschränkungen, die d
 
 Es wird mithilfe der **Angebotsbibliothek** erstellt. Diese bietet einen zentralen Angebotskatalog, in dem Sie Eignungsregeln und Einschränkungen mit unterschiedlichen Inhaltselementen verknüpfen können, um Angebote zu erstellen und zu veröffentlichen (siehe [Benutzeroberfläche der Angebotsbibliothek](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 Sobald Angebote der Angebotsbibliothek hinzugefügt wurden, können Sie Ihre Angebote in **Entscheidungen** (früher Angebotsaktivitäten) integrieren.
 
@@ -54,11 +54,11 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
 * Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform den Interessengebieten des Besuchers entsprechen.
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * Wenn Kunden an einem Ihrer Geschäfte vorbeigehen, senden Sie ihnen Push-Benachrichtigungen, um sie je nach ihren Attributen (Treuestufe, Geschlecht, frühere Käufe usw.) an verfügbare Angebote zu erinnern.
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * Zudem hilft Ihnen Entscheidungs-Management dabei, das Kundenerlebnis zu verbessern, wenn sich Kunden an Ihr Supportteam wenden. Mit Entscheidungs-Management-APIs können Sie im Portal Ihrer Callcenter-Agenten Informationen über die eingelösten und nächstbesten Angebote anzeigen.
 

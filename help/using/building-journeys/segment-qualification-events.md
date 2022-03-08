@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
 1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
 
@@ -42,13 +42,13 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
    >
    >Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** dessen Namen und ID kopieren:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Sie Segmenteintritte, -austritte oder beides überwachen möchten.
 
@@ -58,7 +58,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird.
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen und Aktionen verwenden können:
 
@@ -70,7 +70,7 @@ Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
 Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
@@ -98,10 +98,10 @@ Im Folgenden finden Sie Best Practices, die Ihnen dabei helfen, eine Überlastun
 
 Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** Batch-Segmente nicht unmittelbar nach ihrer Erstellung. So lässt sich die erste Berechnungsspitze vermeiden. Beachten Sie, dass in der Journey-Arbeitsfläche eine gelbe Warnung angezeigt wird, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
 Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target=&quot;_blank&quot;}. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
 Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie auf das Menü **[!UICONTROL Segmente]** klicken, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)

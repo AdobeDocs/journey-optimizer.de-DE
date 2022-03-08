@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
@@ -20,13 +20,13 @@ Wenn mehrere Angebote für eine bestimmte Platzierung in Frage kommen, können S
 * Rangfolgenformel
 * [KI-Rangfolge](#use-ranking-strategy) (derzeit nur für ausgewählte Benutzer)
 
-![](../assets/offer-rank-by.png)
+![](../../assets/offer-rank-by.png)
 
 ## Angebotspriorität {#offer-priority}
 
 Wenn mehrere Angebote für eine bestimmte Platzierung in einer Entscheidung in Frage kommen, werden standardmäßig die Angebote mit der höchsten **Priorität** zuerst an die Kunden gesendet.
 
-![](../assets/offer-priority.png)
+![](../../assets/offer-priority.png)
 
 Die Prioritätswerte der Angebote werden bei der Erstellung eines Angebots zugewiesen. Näheres dazu, wie Sie ein personalisiertes Angebot erstellen, finden Sie in [diesem Abschnitt](../offer-library/creating-personalized-offers.md).
 
@@ -49,11 +49,11 @@ Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzier
 1. Wählen Sie **[!UICONTROL Rangfolgenformel]** als Rangfolgenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangfolge hinzufügen]**.
 
 
-   ![](../assets/offer-activity-ranking.png)
+   ![](../../assets/offer-activity-ranking.png)
 
 1. Wählen Sie die gewünschte Rangfolgenformel aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
 
-   ![](../assets/ranking-selection.png)
+   ![](../../assets/ranking-selection.png)
 
 Die Rangfolgenformel ist nun mit der Platzierung verknüpft.
 
@@ -80,11 +80,11 @@ Nachdem Sie eine Rangfolgestrategie erstellt haben, können Sie sie einer Platzi
 1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangfolge]** und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
 
 
-   ![](../assets/ranking-selection-ai-ranking.png)
+   ![](../../assets/ranking-selection-ai-ranking.png)
 
 1. Wählen Sie die von Ihnen erstellte Rangfolgestrategie aus. Alle Details der Rangfolgestrategie werden angezeigt.
 
-   ![](../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
 1. Klicken Sie auf **[!UICONTROL Auswählen]**. Die Rangfolgestrategie ist nun mit der Platzierung verknüpft.
 

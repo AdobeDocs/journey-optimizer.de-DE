@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
@@ -32,11 +32,11 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
 
 1. Klicken Sie in der Liste der Datenquellen auf **[!UICONTROL Datenquelle erstellen]**, um eine neue externe Datenquelle zu erstellen.
 
-   ![](assets/journey25.png)
+   ![](../assets/journey25.png)
 
    Dadurch wird der Konfigurationsbereich für die Datenquellen auf der rechten Seite des Bildschirms geöffnet.
 
-   ![](assets/journey26.png)
+   ![](../assets/journey26.png)
 
 1. Geben Sie einen Namen für Ihre Datenquelle ein.
 
@@ -51,7 +51,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
    >
    >Aus Sicherheitsgründen wird die Verwendung von HTTPS dringend empfohlen. Beachten Sie außerdem, dass die Verwendung nicht öffentlich zugänglicher Adobe-Adressen und die Verwendung von IP-Adressen nicht zulässig sind.
 
-   ![](assets/journey27.png)
+   ![](../assets/journey27.png)
 
 1. Konfigurieren Sie die Authentifizierung je nach Konfiguration des externen Dienstes: **[!UICONTROL Keine Authentifizierung]**, **[!UICONTROL Einfach]**, **[!UICONTROL Benutzerdefiniert]** oder **[!UICONTROL API-Schlüssel]**. Weitere Informationen zum benutzerdefinierten Authentifizierungsmodus finden Sie in [diesem Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode). In unserem Beispiel wählen wir:
 
@@ -60,7 +60,7 @@ Im Folgenden werden die wichtigsten Schritte zum Erstellen und Konfigurieren ein
    * **[!UICONTROL Wert]**: „1234“ (dies ist der Wert unseres API-Schlüssels)
    * **[!UICONTROL Position]**: „Abfrageparameter“ (der API-Schlüssel befindet sich in der URL)
 
-   ![](assets/journey28.png)
+   ![](../assets/journey28.png)
 
 1. Fügen Sie für jeden API-Parametersatz eine neue Feldergruppe hinzu, indem Sie auf **[!UICONTROL Neue Feldergruppe hinzufügen]** klicken. Verwenden Sie keine Leerzeichen oder Sonderzeichen im Namen der Feldergruppe. In unserem Beispiel müssen wir zwei Feldergruppen erstellen, eine für jeden Parametersatz („city“ und „lang/lat“).
 
@@ -81,7 +81,7 @@ Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das F
    {"id":{"param":"identifier"}}
    ```
 
-![](assets/journey29.png)
+![](../assets/journey29.png)
 
 Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -98,11 +98,11 @@ Dieser Authentifizierungsmodus wird für die komplexe Authentifizierung verwende
 
 Wenn Sie die benutzerdefinierte Authentifizierung konfigurieren, können Sie auf die Schaltfläche unten klicken, um zu prüfen, ob die Payload der benutzerdefinierten Authentifizierung korrekt konfiguriert ist.
 
-![](assets/journey29-bis.png)
+![](../assets/journey29-bis.png)
 
 Ist der Test erfolgreich, wird die Schaltfläche grün.
 
-![](assets/journey29-ter.png)
+![](../assets/journey29-ter.png)
 
 Bei dieser Authentifizierung erfolgt die Aktionsausführung in zwei Schritten:
 

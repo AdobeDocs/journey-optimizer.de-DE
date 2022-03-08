@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL IP-Pools]** auf und klicken Sie dann auf **[!UICONTROL IP-Pool erstellen]**.
 
-   ![](assets/ip-pool-create.png)
+   ![](../assets/ip-pool-create.png)
 
 1. Geben Sie einen Namen und eine Beschreibung (optional) für den IP-Pool an.
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
 1. Wählen Sie aus der Dropdown-Liste die IP-Adressen aus, die in den Pool aufgenommen werden sollen, und klicken Sie dann auf **[!UICONTROL Senden]**.
 
-   ![](assets/ip-pool-config.png)
+   ![](../assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
 Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Nachrichtenvoreinstellung anzuzeigen. Weiterführende Informationen zum Verknüpfen einer Nachrichtenvoreinstellung mit einem IP-Pool finden Sie in [diesem Abschnitt](message-presets.md).
 
-![](assets/ip-pool-created.png)
+![](../assets/ip-pool-created.png)
 
 ## Bearbeiten eines IP-Pools {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ So bearbeiten Sie einen IP-Pool:
 
 1. Klicken Sie in der Liste auf den Namen des IP-Pools, um ihn zu öffnen.
 
-   ![](assets/ip-pool-list.png)
+   ![](../assets/ip-pool-list.png)
 
 1. Bearbeiten Sie die Eigenschaften nach Bedarf. Sie können die Beschreibung ändern und IP-Adressen hinzufügen oder entfernen.
 
-   ![](assets/ip-pool-edit.png)
+   ![](../assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 
-![](assets/ip-pool-recent-update.png)
+![](../assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

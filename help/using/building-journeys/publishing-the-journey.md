@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
@@ -24,6 +24,6 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die
 1. Vergewissern Sie sich vor der Veröffentlichung, dass die Journey gültig ist und keine Fehler vorliegen. Sie können keine fehlerbehafteten Journeys veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Es wird auch empfohlen, die Journey vor der Veröffentlichung zu testen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 1. Klicken Sie zum Veröffentlichen der Journey oben rechts im Dropdown-Menü auf die Option **[!UICONTROL Veröffentlichen]**.
 
-   ![](assets/journeyuc1_18.png)
+   ![](../assets/journeyuc1_18.png)
 
 Nachdem die Journey veröffentlicht wurde, ist sie schreibgeschützt.

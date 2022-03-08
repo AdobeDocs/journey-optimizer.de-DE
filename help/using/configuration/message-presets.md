@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 80%
+source-wordcount: '1771'
+ht-degree: 99%
 
 ---
 
@@ -28,17 +28,21 @@ Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim 
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
 
+>[!NOTE]
+>
+>Erfahren Sie, wie Sie Landingpage-Vorgaben erstellen in [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset).
+
 ## Nachrichtenvoreinstellungen erstellen {#create-message-preset}
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvoreinstellungen]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvoreinstellung erstellen]**.
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. Geben Sie einen Namen und eine Beschreibung (optional) für die Voreinstellung ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
-   ![](assets/preset-general.png)
+   ![](../assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +56,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
-   ![](assets/preset-submit.png)
+   ![](../assets/preset-submit.png)
 
 1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
@@ -74,108 +78,63 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 ## Konfigurieren von E-Mail-Einstellungen {#configure-email-settings}
 
-E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
+![](../assets/preset-email.png)
 
-![](assets/preset-email.png)
+1. Wählen Sie den Nachrichtentyp aus, der mit der Voreinstellung gesendet werden soll: **Transaktion** oder **Marketing**.
 
-Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
-
-
-### E-Mail-Typ{#email-type}
-
-Im **E-MAIL-TYP** Wählen Sie den Nachrichtentyp aus, der mit der Vorgabe gesendet werden soll: **Marketing** oder **Transactional**.
-
-Auswählen **Marketing** für Werbebotschaften: Diese Nachrichten erfordern die Zustimmung des Benutzers.
-
-Auswählen **Transactional** für nicht kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
-
->[!CAUTION]
->
->**Transaktions**-Nachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
-
-
-### Subdomain- und IP-Pool {#subdomains-and-ip-pools}
-
-Im **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie:
+   >[!CAUTION]
+   >
+   > **Transaktions**-Nachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden, z. B. beim Zurücksetzen des Passworts, beim Bestellstatus oder bei Versandbenachrichtigungen.
 
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
 
 1. Wählen Sie den IP-Pool aus, der mit der Voreinstellung verknüpft werden soll. [Weitere Informationen](ip-pools.md)
 
-### URL-Tracking{#url-tracking}
+1. Geben Sie die Header-Parameter für die mit der Voreinstellung gesendeten E-Mails ein.
 
-Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie im  **[!UICONTROL URL-TRACKING-KONFIGURATION (Web-Analyse)]** Abschnitt.
+   >[!CAUTION]
+   >
+   >E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
 
-Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angewendet. Anschließend können Sie die Ergebnisse in einem Webanalysetool wie Adobe Analytics vergleichen. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+   * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
-![](assets/preset-url-tracking.png)
+   * **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
 
-Standardmäßig sind drei UTM-Parameter verfügbar. Sie können bis zu 10 Tracking-Parameter hinzufügen. Um einen UTM-Parameter hinzuzufügen, wählen Sie die **[!UICONTROL Hinzufügen neuer UTM-Parameter]** Schaltfläche.
+   * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** oder wählen Sie aus einer Liste vordefinierter Werte aus, indem Sie zu den folgenden Objekten navigieren:
+   * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
-* Journey-Attribute: Quell-ID, Quellname, Quellversions-ID
-* Nachrichtenattribute: Aktionskennung, Aktionsname
-* Offer decisioning-Attribute: Angebotskennung, Angebotsname
+   * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
+   >[!NOTE]
+   >
+   >Ab der Version vom Oktober 2021 ist es nicht mehr möglich, in der [!DNL Journey Optimizer]-Benutzeroberfläche eine Weiterleitungs-E-Mail-Adresse zu definieren. Wenn Sie möchten, dass alle bei [!DNL Journey Optimizer] für die delegierte Subdomain eingegangenen E-Mails an eine bestimmte E-Mail-Adresse weitergeleitet werden, wenden Sie sich an das [Supportteam der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
-![](assets/preset-url-tracking-source.png)
+   ![](../assets/preset-header.png)
 
->[!CAUTION]
->
->Wählen Sie keinen Ordner aus: Navigieren Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als UTM-Wert verwendet werden soll.
+   >[!NOTE]
+   >
+   >Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-### Kopfzeilenparameter{#email-header}
+1. Konfigurieren Sie die **Parameter für weitere Zustellversuche bei E-Mails**. Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
 
-Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die E-Mail-Adressen ein, die mit den mit dieser Vorgabe gesendeten Nachrichten verknüpft sind. Diese E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md).
+   ![](../assets/preset-retry-paramaters.png)
 
-Sie müssen die folgenden E-Mail-Adressen konfigurieren
-
-* **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
-
-* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
-
-* **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
-
-* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
-
-* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
-
-
-![](assets/preset-header.png)
-
->[!NOTE]
->
->Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
-
-### Email-Wiederholungsparameter{#email-retry}
-
-Sie können die **Email-Wiederholungsparameter**.
-
-![](assets/preset-retry-parameters.png)
-
-Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
-
-Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folgenden Bereichs eingeben:
-
-* Für Marketing-E-Mails beträgt die Wiederholungsdauer mindestens 6 Stunden.
-* Bei Transaktions-E-Mails beträgt die Mindestdauer für den erneuten Versuch 10 Minuten.
-* Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuch 84 Stunden (oder 5.040 Minuten).
+   Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folgenden Bereichs eingeben:
+   * Für den Marketing-E-Mail-Typ beträgt der Mindestzeitraum für weitere Zustellversuche 6 Stunden.
+   * Für den Transaktions-E-Mail-Typ beträgt der Mindestzeitraum für weitere Zustellversuche 10 Minuten.
+   * Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuch 84 Stunden (oder 5.040 Minuten).
 
 ## Konfigurieren der Push-Einstellungen {#configure-push-settings}
-
-Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
-
-Gehen Sie wie folgt vor, um die mit der Nachrichtenvorgabe verknüpften Push-Einstellungen zu definieren:
 
 1. Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**.
 
 1. Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
 
-![](assets/preset-push.png)
+![](../assets/preset-push.png)
 
 Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../messages/push-gs.md).
 
@@ -184,7 +143,7 @@ Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand 
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](assets/preset-sms.png)
+    ![](../assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -197,9 +156,9 @@ Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand 
 
 Alle Ihre Nachrichtenvoreinstellungen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Nachrichtenvoreinstellungen]** angezeigt. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
-![](assets/preset-filters.png)
+![](../assets/preset-filters.png)
 
-Nach der Erstellung können Nachrichtenvorgaben die folgenden Status aufweisen:
+Nachrichtenvoreinstellungen können die folgenden Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Nachrichtenvoreinstellung wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
 * **[!UICONTROL Verarbeitung]**: Die Nachrichtenvoreinstellung wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
@@ -209,7 +168,7 @@ Nach der Erstellung können Nachrichtenvorgaben die folgenden Status aufweisen:
 
 Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt. 
 
-Wenn einer dieser Fehler auftritt, wenden Sie sich an [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
+Wenn einer dieser Fehler auftritt, wenden Sie sich an das [Adobe-Kundenunterstützung-Team](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
 * **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. Ein SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die E-Mail-Anbieter verwendet werden.
 
@@ -233,7 +192,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
 
 1. Klicken Sie in der Liste auf den Namen einer Nachrichtenvoreinstellung, um sie zu öffnen.
 
-   ![](assets/preset-name.png)
+   ![](../assets/preset-name.png)
 
 1. Bearbeiten Sie die Eigenschaften nach Bedarf.
 
@@ -243,7 +202,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
-   ![](assets/preset-confirm-update.png)
+   ![](../assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -259,15 +218,15 @@ Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können S
 
 * Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Voreinstellung angezeigt wird.
 
-   ![](assets/preset-recent-update-icon.png)
+   ![](../assets/preset-recent-update-icon.png)
 
 * Sie können auch während der Aktualisierung über eine aktive Nachrichtenvoreinstellung auf die Aktualisierungsdetails zugreifen.
 
-   ![](assets/preset-view-update-details.png)
+   ![](../assets/preset-view-update-details.png)
 
 Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus und die Liste der angeforderten Änderungen sehen.
 
-![](assets/preset-recent-update-screen.png)
+![](../assets/preset-recent-update-screen.png)
 
 ### Aktualisieren des Status {#update-statuses}
 
@@ -329,7 +288,7 @@ Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung n
 
 1. Wählen Sie **[!UICONTROL Deaktivieren]** aus.
 
-   ![](assets/preset-deactivate.png)
+   ![](../assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -337,7 +296,7 @@ Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung n
 
 Eine deaktivierte Nachrichtenvoreinstellung kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
 
-![](assets/preset-activate.png)
+![](../assets/preset-activate.png)
 
 ## Anleitungsvideo{#video-presets}
 
