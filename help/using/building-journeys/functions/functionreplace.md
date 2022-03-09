@@ -33,7 +33,7 @@ Zeichenfolge
 |-----------|--------------|
 | base | string |
 | target | Zeichenfolge (RegExp) |
-| replacement | string |
+| replacement | Zeichenfolge |
 
 ## Signatur und zurückgegebener Typ
 

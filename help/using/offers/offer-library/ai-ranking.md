@@ -6,7 +6,8 @@ description: Erfahren Sie mehr über KI-Modelle, mit denen Angebote nach Rang ge
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 4%
@@ -116,4 +117,3 @@ Das Problem &quot;Kaltstart&quot;tritt auf, wenn ein neues Angebot zu einer Kamp
 Wenn wir z. B. die Performance einer Thompson Sampling (TS)-Strategie im Ranking Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die &quot;Steigerung&quot;der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
 
 ![](../assets/ai-ranking-lift.png)
-

@@ -28,7 +28,7 @@ Bevor Sie [!DNL Adobe Experience Manager Assets Essentials] verwenden können, m
 
 Zum Hochladen von Dateien in [!DNL Assets Essentials] müssen Sie zunächst den Ordner suchen oder erstellen, in dem sie gespeichert werden. Danach können Sie diese Dateien in Ihren E-Mail-Inhalt einfügen.
 
-Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
+Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Wählen Sie auf der [!DNL Adobe Journey Optimizer] Startseite unter dem Menü **[!UICONTROL Content-Management]** die Registerkarte **[!UICONTROL Assets]**, um auf [!DNL Assets Essentials] zuzugreifen.
 
@@ -50,11 +50,11 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
 1. Wählen Sie die Datei aus, die Sie hochladen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Hochladen]**.
 
-   Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
+   Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de).
 
 1. Nach dem Hochladen des Assets können Sie Ihre Assets jetzt über Email Designer in eine Ihrer Nachrichten einfügen.
 
-   Ihr Asset kann auch mit dem Modus **Bearbeiten** von [!DNL Assets Essentials] weiter bearbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
+   Ihr Asset kann auch mit dem Modus **Bearbeiten** von [!DNL Assets Essentials] weiter bearbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
