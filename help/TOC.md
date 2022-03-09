@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung vernetzter, kontextbezogener und personalisierter Erlebnisse für Kunden
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,15 @@ ht-degree: 98%
       + [Prüfen von Warnhinweisen](using/messages/alerts.md)
       + [Veröffentlichen von Nachrichten](using/messages/publish-manage-message.md)
    + [Einverständnisverwaltung](using/messages/consent.md)
++ Landingpages {#landing-pages}
+   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
+   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+   + [Erstellen einer Landingpage](using/landing-pages/design-lp.md)
+   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
+   + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
+   + Reporting {#lp-reporting}
+      + [Reporting zu Landingpages](using/landing-pages/lp-report.md)
+      + [Reporting zu Abonnement-Listen](using/landing-pages/subscription-report.md)
 + Personalisierung {#personalization}
    + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
@@ -224,15 +233,6 @@ ht-degree: 98%
       + [Erste Schritte mit der Zustellbarkeit](using/messages/deliverability.md)
       + [Unterdrückungsliste](using/messages/suppression-list.md)
       + [Zulassungsliste](using/messages/allow-list.md)
-+ Landingpages {#landing-pages}
-   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
-   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
-   + [Erstellen einer Landingpage](using/landing-pages/design-lp.md)
-   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
-   + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-   + Reporting {#lp-reporting}
-      + [Reporting zu Landingpages](using/landing-pages/lp-report.md)
-      + [Reporting zu Abonnement-Listen](using/landing-pages/subscription-report.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,6 +338,7 @@ ht-degree: 98%
          + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
       + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
+   + [Konfigurieren von Landingpages](using/configuration/lp-configuration.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + [Integrieren mit externen Systemen](using/configuration/external-systems.md)

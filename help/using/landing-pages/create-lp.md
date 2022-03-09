@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 87%
 
 ---
 
 # Erstellen und Veröffentlichen von Landingpages {#create-lp}
-
->[!CAUTION]
->
->Die Verwendung von Landingpages ist derzeit nur für ausgewählte Benutzer über den frühzeitigen Zugriff verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -30,6 +24,22 @@ Um auf die Landingpage-Liste zuzugreifen, wählen Sie im linken Menü **[!UICONT
 Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie können sie nach ihrem Status oder Änderungsdatum filtern.
 
 ![](assets/lp_access-list-filter.png)
+
+In dieser Liste können Sie auf die [Landingpage-Berichte](lp-report.md) für veröffentlichte Elemente.
+
+Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung rückgängig machen.
+
+>[!CAUTION]
+>
+>Wenn Sie die Veröffentlichung einer Landingpage rückgängig machen, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, kann die Nachricht erst veröffentlicht werden, wenn die Landingpage erneut veröffentlicht wurde. Wenn die Nachricht bereits publiziert wurde, wird der Link zur Landingpage beschädigt und eine Fehlerseite angezeigt.
+
+Klicken Sie auf die drei Punkte neben einer Landingpage, um die gewünschte Aktion auszuwählen.
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>Veröffentlichte Landingpages können nicht gelöscht werden. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung rückgängig machen.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -43,13 +53,9 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Wählen Sie eine Voreinstellung aus.
+1. Wählen Sie eine Voreinstellung aus. Erfahren Sie, wie Sie Landingpage-Vorgaben erstellen in [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >Wenden Sie sich zur Definition von Landingpage-Voreinstellungen an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -75,7 +81,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >

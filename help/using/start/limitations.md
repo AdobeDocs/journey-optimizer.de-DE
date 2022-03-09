@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,14 @@ Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adob
 * Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail  hinzufügen.
 * E-Mail-BCC wird in [!DNL Journey Optimizer] nicht unterstützt.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
+
+## Einschränkungen bei Landingpages {#limitations-lp}
+
+* Nur eine **Formular** -Komponente kann auf einer einzelnen primären Seite verwendet werden.
+* Die **Formular** -Komponente kann nicht in Unterseiten verwendet werden.
+* Sie können einer Landingpage keine Preheader hinzufügen.
+
+<!--You cannot select the **Code your own** option when designing a landing primary page.-->
 
 ## Einschränkungen bei Journeys {#limitations-journeys}
 

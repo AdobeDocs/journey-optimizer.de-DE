@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 93%
 
 ---
 
 # Anwendungsfälle für Landingpages {#lp-use-cases}
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung von [!DNL Journey Optimizer]-Landingpages zum kundenseitigen Opt-in/Opt-out für bestimmte oder alle Ihre Nachrichten.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Abonnement eines Services {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Lan
 
 Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnement-Liste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
 
-### Einrichten einer Landingpage {#set-up-lp}
+### Landingpage einrichten {#set-up-lp}
 
 1. Erstellen Sie die Abonnement-Liste für die Veranstaltungsregistrierung, in der die registrierten Benutzer gespeichert werden. [Hier](subscription-list.md#define-subscription-list) erfahren Sie, wie Sie eine Abonnement-Liste erstellen.
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Erstellen Sie eine Landingpage](create-lp.md), damit sich Ihre Empfänger für Ihre Veranstaltung registrieren können.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. Konfigurieren Sie die [primäre Landingpage](create-lp.md#configure-primary-page) für die Registrierung.
 
@@ -57,6 +52,10 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 1. [Fügen Sie einen Link](../messages/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Um Ihre Nachricht publizieren zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. Erfahren Sie, wie Sie das Ablaufdatum aktualisieren [in diesem Abschnitt](create-lp.md#configure-primary-page).
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Fügen Sie eine [Unterseite](create-lp.md#configure-subpages) zur Bestätigung hinzu, die den Nutzern angezeigt wird, die das Formular übermitteln.
 
@@ -138,6 +137,10 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 1. Wählen Sie **[!UICONTROL Landingpage]** aus der Dropdown-Liste **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page), die Sie für das Opt-out erstellt haben.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Um Ihre Nachricht publizieren zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. Erfahren Sie, wie Sie das Ablaufdatum aktualisieren [in diesem Abschnitt](create-lp.md#configure-primary-page).
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
 
