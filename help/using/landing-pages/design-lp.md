@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
    >
    >Die **[!UICONTROL Formular]**-Komponente kann auf einer Seite nur einmal verwendet werden.
 
-1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalte]** wird in der rechten Palette angezeigt, damit Sie die verschiedenen Formularfelder bearbeiten können.
+1. Wählen Sie sie aus. Die **[!UICONTROL Formularinhalt]** in der rechten Palette angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
 
    ![](assets/lp_designer-form-content-options.png)
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
 1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
 
-1. Definieren Sie, ob dieses Kontrollkästchen Benutzern die An- oder Abmeldung ermöglichen soll: Erklären sie sich damit einverstanden, Nachrichten zu erhalten, oder möchten sie nicht mehr kontaktiert werden?
+1. Definieren Sie, ob dieses Kontrollkästchen Benutzern das Ein- und Ausschließen ermöglicht: Sind sie damit einverstanden, Nachrichten zu erhalten oder bitten sie darum, nicht mehr kontaktiert zu werden?
 
    ![](assets/lp_designer-form-update.png)
 
@@ -95,7 +95,7 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
    ![](assets/lp_designer-form-error.png)
 
-1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnement-Liste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
+1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Klicken Sie die entsprechende Option an, um den Fehlertext im Formular in der Vorschau anzuzeigen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Aktivieren Sie die entsprechende Option, um den Fehlertext im Formular in der Vorschau anzuzeigen.
 
    ![](assets/lp_designer-form-error-preview.png)
 

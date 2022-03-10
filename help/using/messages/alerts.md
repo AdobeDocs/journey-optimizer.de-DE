@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5b629d5e413a3ffc037af959c5e16b9a47e8a0e
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 62%
 
 ---
 
@@ -45,27 +45,27 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
 **Warnungen**:
 
-* **[!UICONTROL Ausschluss-Link nicht im E-Mail-Text vorhanden]**: Es empfiehlt sich, einen Link zur Abmeldung in Ihren E-Mail-Textkörper einzufügen. In [diesem Abschnitt](consent.md) erfahren Sie, wie Sie diesen konfigurieren.
+* **[!UICONTROL Der Abmelde-Link ist im E-Mail-Textkörper nicht vorhanden.]**: Es empfiehlt sich, einen Abmelde-Link in Ihren E-Mail-Textkörper einzufügen. In [diesem Abschnitt](consent.md) erfahren Sie, wie Sie diesen konfigurieren.
 
-* **[!UICONTROL Textversion von HTML ist leer]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können. In [diesem Abschnitt](create-email-content.md#generate-text-version) erfahren Sie, wie Sie die Textversion erstellen.
+* **[!UICONTROL Textversion von HTML ist leer.]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn keine HTML-Inhalte angezeigt werden können. In [diesem Abschnitt](create-email-content.md#generate-text-version) erfahren Sie, wie Sie die Textversion erstellen.
 
-* **[!UICONTROL Leerer Link ist im E-Mail-Text vorhanden]**: Überprüfen Sie, ob alle Links in Ihrer E-Mail korrekt sind. In [diesem Abschnitt](create-email-content.md) erfahren Sie, wie Sie Inhalte und Links verwalten.
+* **[!UICONTROL Leerer Link ist im E-Mail-Textkörper vorhanden.]**: Überprüfen Sie, ob alle Links in Ihrer E-Mail korrekt sind. In [diesem Abschnitt](create-email-content.md) erfahren Sie, wie Sie Inhalte und Links verwalten.
 
-* **[!UICONTROL Die E-Mail-Größe überschreitet den Grenzwert von 100 KB]**: Stellen Sie sicher, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet, um einen optimalen Versand zu erzielen. In [diesem Abschnitt](create-email-content.md) erfahren Sie, wie Sie E-Mail-Inhalte bearbeiten.
+* **[!UICONTROL Die E-Mail-Größe hat die Grenze von 100 KB überschritten.]**: Um einen optimalen Versand zu gewährleisten, sollten Sie sicherstellen, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet. In [diesem Abschnitt](create-email-content.md) erfahren Sie, wie Sie E-Mail-Inhalte bearbeiten.
 
 **Fehler**:
 
-* **[!UICONTROL Betreffzeile nicht vorhanden]**: Die Betreffzeile der E-Mail ist obligatorisch. In [diesem Abschnitt ](create-email.md) erfahren Sie, wie Sie sie definieren und personalisieren.
+* **[!UICONTROL Die Betreffzeile fehlt.]**: E-Mail-Betreffzeile ist obligatorisch. In [diesem Abschnitt ](create-email.md) erfahren Sie, wie Sie sie definieren und personalisieren.
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Push-Benachrichtigungs-Variante ist leer]**: Dieser Fehler wird angezeigt, wenn der Text oder Titel der Push-Benachrichtigung fehlt. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungs-Inhalte definieren.
+* **[!UICONTROL Die Push-Version der Nachricht ist leer.]**: Dieser Fehler wird angezeigt, wenn der Text oder Titel der Push-Benachrichtigung fehlt. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungs-Inhalte definieren.
 
-* **[!UICONTROL E-Mail-Variante ist leer]**: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](design-emails.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
+* **[!UICONTROL Die E-Mail-Version der Nachricht ist leer.]**: wird dieser Fehler angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](design-emails.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
 
-* **[!UICONTROL Voreinstellung ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die gewählte Voreinstellung nach der Erstellung der Nachricht gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Voreinstellung aus. Weitere Informationen zum Branding finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Vorgabe existiert nicht.]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die ausgewählte Vorgabe nach der Nachrichtenerstellung gelöscht wurde. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Voreinstellung aus. Weitere Informationen zum Branding finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
+* **[!UICONTROL Die Push-iOS/Android-Payload hat die Beschränkung von 4 KB überschritten.]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
 >[!CAUTION]
 >

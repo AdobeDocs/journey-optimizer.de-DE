@@ -3,9 +3,10 @@ title: Landingpage-Konfiguration
 description: Erfahren Sie, wie Sie Ihre Umgebung für die Erstellung und Verwendung von Landingpages mit Journey Optimizer konfigurieren.
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '865'
 ht-degree: 15%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 15%
 >title="Einrichten von Subdomains für Landingpages"
 >abstract="Um eine Subdomain auswählen zu können, stellen Sie sicher, dass Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben."
 
-Um [Landingpage-Vorgaben erstellen](#lp-create-preset)müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden.
+Um [Landingpage-Vorgaben erstellen](#lp-create-preset)müssen Sie nicht die Subdomains einrichten, die Sie für Ihre Landingpages verwenden.
 
 Sie können eine Subdomain verwenden, die bereits Adobe zugewiesen ist, oder eine andere Subdomain konfigurieren. Erfahren Sie mehr über die Zuweisung von Subdomains zur Adobe in [diesem Abschnitt](delegate-subdomain.md).
 

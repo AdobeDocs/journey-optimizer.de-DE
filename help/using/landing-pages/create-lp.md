@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 87%
+source-wordcount: '955'
+ht-degree: 81%
 
 ---
 
@@ -119,7 +119,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL muss die Domain-Delegierung durchgeführt werden. Sie ist vorausgefüllt und kann nicht über die Benutzeroberfläche bearbeitet werden. Wenden Sie sich zur Einrichtung an Ihren Adobe-Kundenbetreuer oder an das [Support-Team der Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 >[!CAUTION]
 >
->Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../building-journeys/creating-test-profiles.md).
+>Sie müssen über Testprofile verfügen, damit Sie eine Vorschau Ihrer Nachrichten anzeigen und Testsendungen durchführen können. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../building-journeys/creating-test-profiles.md).
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Vorschau und Test]**, um zur Testprofil-Auswahl zu gelangen.
 
@@ -161,7 +161,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 ## Prüfen von Warnhinweisen {#check-alerts}
 
-Während Sie Ihre Landingpage erstellen, werden Sie durch Warnhinweise informiert, wenn Sie wichtige Aktionen ausführen müssen, bevor Sie die Landingpage veröffentlichen.
+Warnungen werden beim Erstellen Ihrer Landingpage angezeigt, wenn Sie wichtige Maßnahmen vor der Veröffentlichung treffen müssen.
 
 Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
 
@@ -181,7 +181,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
-> Sie müssen alle **Fehler**-Warnungen vor der Veröffentlichung beseitigen.
+> Sie müssen alle **error** Warnhinweise vor der Veröffentlichung.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}

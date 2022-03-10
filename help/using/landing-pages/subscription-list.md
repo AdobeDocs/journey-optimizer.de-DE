@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
-workflow-type: ht
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ In der Liste werden alle erstellten Abonnement-Listen angezeigt. Sie können sie
 
 Folgende Status sind möglich:
 
-* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Datum liegt. Die abonnierten Profile erhalten noch keine Nachrichten, die für diese Abonnement-Liste bestimmt sind.
+* **[!UICONTROL Nicht gestartet]**: Sie haben ein Startdatum definiert, das nach dem aktuellen Datum liegt. Die abonnierten Profile erhalten noch keine Nachrichten zu dieser Abonnementliste.
 * **[!UICONTROL Live]**: Das aktuelle Datum liegt zwischen dem Start- und dem Enddatum der Abonnement-Liste oder Sie haben kein Start-/Enddatum definiert, was bedeutet, dass die Abonnement-Liste immer live ist.
 * **[!UICONTROL Abgelaufen]**: Das Enddatum wurde überschritten, sodass die Abonnement-Liste nicht mehr gültig ist. Profile mit Abonnements erhalten keine weiteren Mitteilungen mehr, die für diese Abonnement-Liste bestimmt sind.
 
