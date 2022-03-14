@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1565'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 >id="od_offer_constraints"
 >title="Informationen zu Angebotseinschränkungen"
 >abstract="Mit Einschränkungen können Sie angeben, wie das Angebot priorisiert und dem Benutzer im Vergleich zu anderen Angeboten angezeigt wird."
->additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
+>additional-url="https://video.tv.adobe.com/v/329375?captions=ger" text="Demovideo ansehen"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -164,13 +164,13 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 >id="od_offer_priority"
 >title="Informationen zur Angebotspriorität "
 >abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Berechtigung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
->additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
+>additional-url="https://video.tv.adobe.com/v/329375?captions=ger" text="Demovideo ansehen"
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
 >title="Informationen zur Begrenzung von Angeboten"
 >abstract="In diesem Feld können Sie angeben, wie oft das Angebot für alle Benutzer angezeigt werden kann."
->additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo ansehen"
+>additional-url="https://video.tv.adobe.com/v/329375?captions=ger" text="Demovideo ansehen"
 
 Mit Eignungsregeln und Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
 
