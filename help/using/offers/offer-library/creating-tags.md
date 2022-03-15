@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -39,8 +39,8 @@ Gehen Sie wie folgt vor, um ein Tag zu erstellen:
 
 ## Anleitungsvideo {#video}
 
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+
 >[!NOTE]
 >
 >Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

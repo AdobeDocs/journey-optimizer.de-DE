@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1615'
 ht-degree: 94%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 94%
 # Entwerfen von E-Mail-Inhalten in der Benutzeroberfläche {#create-email-content}
 
 Nachdem Sie [Ihre Nachricht erstellt](create-message.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Textkörper]** aus.
 
@@ -282,3 +284,9 @@ Wenn Sie in der Benutzeroberfläche von Email Designer ein Element auswählen un
 1. Ändern Sie die Werte der vorhandenen Attribute oder fügen Sie mit den Schaltflächen **+** neue hinzu. Sie können alle Attribute und Werte hinzufügen, die CSS-kompatibel sind.
 
 Der Stil wird auf das ausgewählte Element angewendet. Wenn für die untergeordneten Elemente keine speziellen Stilattribute definiert sind, wird der Stil des übergeordneten Elements verwendet.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

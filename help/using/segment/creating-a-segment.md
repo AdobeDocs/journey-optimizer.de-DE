@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
 
 # Erstellen von Segmenten {#build-segments}
 
 In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco oder Seattle wohnenden und nach 1980 geborenen Kunden. Alle diese Kunden sollten das Programm Luma innerhalb der letzten 7 Tage geöffnet und dann innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
+
+➡️ [In diesem Video erfahren Sie, wie Sie Segmente erstellen.](#video-segment)
 
 1. Rufen Sie das Menü **[!UICONTROL Segmente]** auf und klicken Sie dann auf die Schaltfläche **[!UICONTROL Segment erstellen]**.
 
@@ -55,6 +57,8 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
 Das Segment kann jetzt in Ihren Journeys verwendet werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-## Anleitungsvideo{#create-segment-video}
+## Anleitungsvideo{#video-segment}
+
+Erfahren Sie, wie Sie Segmente erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 
 ## Auswählen der Testprofile {#select-test-profiles}
 
-Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten.
+Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diese Seite](../../building-journeys/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 

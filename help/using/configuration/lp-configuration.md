@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für die Erstellung und Verwend
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 ## Landingpage-Subdomains konfigurieren {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_configure_subdomain"
+>id="ajo_admin_config_lp_subdomain"
 >title="Einrichten von Subdomains für Landingpages"
 >abstract="Um eine Subdomain auswählen zu können, stellen Sie sicher, dass Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben."
 

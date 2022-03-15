@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '910'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Zu den Vorteilen zählen:
 * Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen erstellen zu müssen, können Marketing-Teams Workflows optimieren, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
 * Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
-➡️ [Sehen Sie sich diese Anleitungsvideos an](#tutorial-videos), um mehr über Entscheidungs-Management zu erfahren.
+➡️ [Weitere Informationen zur Entscheidungsverwaltung finden Sie in diesen Videos](#video)
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Ents
 
 * **Darstellungen**: Eine Darstellung besteht aus Informationen, die von einem Kanal verwendet werden (z. B. Ort oder Sprache), um ein Angebot zu unterbreiten.
 
-
-## Anleitungsvideos {#tutorial-videos}
+## Anleitungsvideos{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Archit
 Das folgende Video zeigt, wie Sie mit dem Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

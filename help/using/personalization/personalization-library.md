@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 1%
 
 ---
 
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] bietet eine Bibliothek, in der Sie auf zuvor gespeicherte Personalisierungsausdrücke zugreifen können, die von Admin-Benutzern hinzugefügt wurden.
 
-1. Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
+➡️ [In diesem Video erfahren Sie, wie Sie mit gespeicherten Ausdrücken arbeiten.](#video-preview)
 
-   >[!NOTE]
-   >
-   >Über die Infoschaltfläche erhalten Sie weitere Informationen zum Inhalt eines gespeicherten Ausdrucks. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Menü mit Auslassungspunkten angezeigt.
+Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!NOTE]
+    >
+    >Sie können die Infoschaltfläche verwenden, um weitere Informationen zum Inhalt eines gespeicherten Ausdrucks zu erhalten. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Menü mit Auslassungspunkten angezeigt.
+    
+    ![](assets/library-list.png)
 
-1. Klicken Sie auf + , um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihren Personalisierungsinhalt wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+Klicken Sie auf + , um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihren Personalisierungsinhalt wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## Speichern eines Ausdrucks in der Bibliothek {#save-expressions}
 
@@ -68,3 +70,10 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken **[!UICONTROL Bibliothek hinzufügen]** , um die Syntax zu überprüfen und den Ausdruck zu speichern.
 
 Um einen Ausdruck zu löschen, klicken Sie auf die Schaltfläche mit den Auslassungszeichen und anschließend auf **[!UICONTROL Löschen]**.
+
+## Anleitungsvideo{#video}
+
+Erfahren Sie, wie Sie gespeicherte Elemente der Personalisierungsbibliothek in einer Nachricht verwenden und wie Sie Elemente der Personalisierungsbibliothek erstellen und verwalten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

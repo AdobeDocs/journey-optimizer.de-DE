@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '617'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Außerdem enthält das Handbuch Beispiel-API-Aufrufe für die Ausführung von wichtigen Operationen mit der Entscheidungs-Management-Engine.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Weitere Informationen zu den Komponenten der Entscheidungsverwaltung finden Sie in diesem Video](#video)
 
 ## Voraussetzungen {#prerequisites}
 
@@ -132,8 +132,8 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 Im folgenden Video werden die Komponenten des Entscheidungs-Managements erklärt.
 
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
+
 >[!NOTE]
 >
 >Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Programm-Service Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)

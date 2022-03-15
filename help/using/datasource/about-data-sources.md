@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -27,6 +27,8 @@ Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System de
 * [Definition benutzerdefinierter Wartezeiten](../building-journeys/wait-activity.md#custom)
 * [Definition von Zeitzonen](../building-journeys/timezone-management.md)
 
+➡️ [Entdecken Sie diese Funktion im Video](#video).
+
 Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
 
 Es gibt zwei Arten von Datenquellen:
@@ -41,3 +43,10 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 >Für Datenquellen werden jetzt Schemabeziehungen unterstützt.
 
 Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html?lang=de){target=&quot;_blank&quot;}.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, was eine Datenquelle ist, und lernen Sie, wie Sie Experience Platform- und externe Datenquellen konfigurieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+
