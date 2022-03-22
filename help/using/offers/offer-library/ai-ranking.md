@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## Erste Schritte mit KI-Modellen {#get-started-with-ai-rankings}
 
-Sie können ein trainiertes Modellsystem verwenden, das Angebote nach Rang für ein bestimmtes Profil anzeigt.
+[!DNL Journey Optimizer] ermöglicht Ihnen die Verwendung eines trainierten Modellsystems, das Angebote nach Rangfolge für ein bestimmtes Profil anzeigt.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ Sie können ein trainiertes Modellsystem verwenden, das Angebote nach Rang für 
 Mit dieser Funktion können Sie verschiedene **AI-Modelle** basierend auf Ihren Geschäftszielen. Mithilfe dieser verschiedenen zielbasierten Strategien bei einer Entscheidung hilft Ihnen das trainierte Modellsystem zu verstehen, wie sich die verschiedenen KI-Modelle auf Ihre Ziele auswirken.
 
 Sie können beispielsweise ein KI-Modell für den E-Mail-Kanal und ein anderes für den Push-Kanal auswählen. Für jeden Kanal nutzt das System mit trainierten Modellen mehrere Datenpunkte, um zu bestimmen, welches Angebot zuerst für eine bestimmte Platzierung angezeigt werden soll, anstatt die Prioritätswerte der Angebote oder eine [Rangfolgenformel](create-ranking-formulas.md) zu berücksichtigen.
-
-Nachdem ein KI-Modell erstellt wurde, weisen Sie es einer Platzierung in einer Entscheidung zu. Weitere Informationen finden Sie unter [Angebotsauswahl in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >
