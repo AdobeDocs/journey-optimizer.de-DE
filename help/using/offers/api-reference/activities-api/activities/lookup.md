@@ -1,14 +1,14 @@
 ---
-title: Entscheidungen auflisten
+title: 'Entscheidung nachschlagen '
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
