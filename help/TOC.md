@@ -6,9 +6,9 @@ user-guide-description: Verwenden von Journey Optimizer zur Bereitstellung verne
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
    + Entwerfen von E-Mails {#email-designer}
       + [Erste Schritte beim Gestalten von E-Mails ](using/messages/design-emails.md)
       + [Entwerfen von E-Mail-Inhalten über die Benutzeroberfläche](using/messages/create-email-content.md)
-      + [Importieren oder Kodieren von E-Mail-Inhalt](using/messages/existing-content.md)
+      + [Importieren oder Codieren von E-Mail-Inhalt](using/messages/existing-content.md)
       + [Verwenden von Inhaltskomponenten von Email Designer](using/messages/content-components.md)
    + [Hinzufügen von Links und Verfolgen von Nachrichten](using/messages/message-tracking.md)
    + Validieren und Veröffentlichen {#validate}
@@ -244,7 +244,7 @@ ht-degree: 98%
       + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
       + [Erstellen von Tags](using/offers/offer-library/creating-tags.md)
       + [Erstellen von Rangfolgeformeln](using/offers/offer-library/create-ranking-formulas.md)
-      + Erstellen von KI-Rangmodellen {#create-ai-ranking-models}
+      + Erstellen von KI-Rangfolgemodellen {#create-ai-ranking-models}
          + [Über KI-Modelle](using/offers/offer-library/ai-ranking.md)
          + [Erstellen von KI-Modellen](using/offers/offer-library/create-ranking-strategies.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
