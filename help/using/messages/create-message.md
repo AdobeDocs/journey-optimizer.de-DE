@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Erstellen einer Nachricht {#create-message}
 
-## Auf Nachrichten zugreifen {#access-messages}
+## Zugriff auf Nachrichten {#access-messages}
 
 Nachrichten sind über den Shortcut **[!UICONTROL Nachrichten]** auf der linken Leiste verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
 
@@ -33,15 +33,15 @@ Nachrichten sind über den Shortcut **[!UICONTROL Nachrichten]** auf der linken 
 
    ![](assets/filter-messages.png)
 
-* Sie können nicht verwendete Nachrichten archivieren, um die Nachrichtenliste mithilfe des entsprechenden Symbols im Schnellaktionsmenü zu löschen.
+* Sie können nicht verwendete Nachrichten mithilfe des entsprechenden Symbols im Schnellaktionsmenü archivieren, um die Nachrichtenliste zu löschen.
 
    ![](assets/archive-message.png)
 
-   Verwenden Sie das Filtersymbol, um alle archivierten Nachrichten anzuzeigen, und klicken Sie auf die Schaltfläche **[!UICONTROL Archivierung aufheben]** -Symbol, um ein Element aus der Liste der archivierten Nachrichten zu entfernen.
+   Verwenden Sie das Filtersymbol, um alle archivierten Nachrichten anzuzeigen, und klicken Sie auf das Symbol **[!UICONTROL Archivierung aufheben]**, um ein Element aus der Liste der archivierten Nachrichten zu entfernen.
 
    >[!NOTE]
    >
-   >Eine archivierte Nachricht kann nicht geöffnet werden. Sie müssen die Archivierung zuerst aufheben.
+   >Eine archivierte Nachricht kann nicht geöffnet werden. In diesem Fall müssen Sie zunächst die Archivierung aufheben.
 
 ## Erstellen einer neuen Nachricht {#create-new-message}
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    >[!NOTE]
    >   
-   >Sie können Ihre Nachrichten mithilfe der Profildaten mithilfe des Ausdruckseditors personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+   >Sie können Ihre Nachrichten im Ausdruckseditor anhand der Profildaten personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
 1. Im Abschnitt „Vorschau“ auf der linken Seite können Sie das Nachrichten-Rendering anpassen und die Personalisierungseinstellungen mithilfe der Testprofile überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
 
@@ -93,11 +93,11 @@ Gehen Sie wie folgt vor, um eine Nachricht aus einer vorhandenen zu erstellen.
 
 1. Öffnen Sie die Nachricht, die Sie kopieren möchten.
 
-1. Verwenden Sie die **[!UICONTROL Duplizieren]** in der Nachrichtenschnittstelle.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Duplizieren]** in der Nachrichtenschnittstelle.
 
    ![](assets/message-duplicate.png)
 
-   Alle Einstellungen und Konfigurationen werden in die neue Nachricht kopiert.
+   Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
 1. Sie können die Nachricht umbenennen, bevor Sie die Duplizierung bestätigen.
 
