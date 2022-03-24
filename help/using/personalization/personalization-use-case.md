@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc9.png)
 
-1. Wählen Sie die **Kontextattribute** Menü. Kontextattribute sind nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
+1. Wählen Sie das Menü **Kontextattribute**. Kontextattribute sind nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
    * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen neu, die vor der Aktivität **Nachrichten** in der Journey platziert wurden.
    * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/journey-properties.md).
@@ -94,11 +94,11 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc12.png)
 
-1. Geben Sie die Nachricht ein und fügen Sie sie über das ** ein.**[!UICONTROL Kontextattribute]** -Menü den Namen des Bestellelements und den Bestellfortschritt.
+1. Geben Sie die Nachricht ein und fügen Sie vom Menü ****[!UICONTROL Kontextuelle Attribute]** den Bestellartikelnamen und den Bestellstatus ein.
 
    ![](assets/perso-uc13.png)
 
-1. Wählen Sie im linken Menü die Option **Angebotsentscheidungen** , um eine offer decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie auf das Symbol **+** neben der Entscheidung (früher als „Angebotsaktivität“ bezeichnet), um sie dem Textkörper hinzuzufügen.
+1. Wählen Sie aus dem linken Menü **Angebotsentscheidungen**, um eine Offer-Decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie auf das Symbol **+** neben der Entscheidung (früher als „Angebotsaktivität“ bezeichnet), um sie dem Textkörper hinzuzufügen.
 
    ![](assets/perso-uc14.png)
 
