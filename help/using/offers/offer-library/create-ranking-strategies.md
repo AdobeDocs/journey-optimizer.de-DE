@@ -10,7 +10,7 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 88%
 >
 >Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die **Verwalten von Ranking Strategies** Berechtigung. [Weitere Informationen](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
->Die Verwendung von KI-Modellen ist derzeit nur für ausgewählte Benutzer in frühzeitigem Zugriff verfügbar.
+>Einigen ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der KI-Modelle gewährt.
 
-Nachdem ein KI-Modell erstellt wurde, weisen Sie es einer Platzierung in einer Entscheidung zu. Weitere Informationen finden Sie unter [Angebotsauswahl in Entscheidungen konfigurieren](../offer-activities/configure-offer-selection.md).
+Sobald ein KI-Modell erstellt wurde, können Sie dieses einer Platzierung in einer Entscheidung zuweisen. Weitere Informationen dazu finden Sie unter [Konfigurieren der Angebotsauswahl in Entscheidungen](../offer-activities/configure-offer-selection.md).
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
@@ -44,7 +44,7 @@ Gehen Sie wie folgt vor, um ein KI-Modell als Ranking-Strategie zu erstellen:
 
    * **[!UICONTROL Name]**: Eindeutiger Name, den Sie angeben müssen.
 
-   * **[!UICONTROL Modelltyp]**: Derzeit in [!DNL Journey Optimizer] Der einzige unterstützte Modelltyp ist **[!UICONTROL Automatische Optimierung]**. [Weitere Informationen](ai-ranking.md#auto-optimization)
+   * **[!UICONTROL Modelltyp]**: Derzeit wird in [!DNL Journey Optimizer] nur der Modelltyp **[!UICONTROL Automatische Optimierung]** unterstützt. [Weitere Informationen](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimierungsmetrik]**:
 

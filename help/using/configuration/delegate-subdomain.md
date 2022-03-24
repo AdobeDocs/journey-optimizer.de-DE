@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1501'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
    ![](assets/subdomain-processing.png)
 
-   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchführt, die bis zu 3 Stunden dauern können. Weiterführende Informationen finden Sie in [diesem Abschnitt](#subdomain-validation).
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu drei Stunden dauern kann. Weiterführende Informationen finden Sie in [diesem Abschnitt](#subdomain-validation).
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
 1. Nachdem die CNAME-Subdomain-Delegierung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL In Verarbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
 
-   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchführt, was normalerweise 2 bis 3 Stunden dauert. Weiterführende Informationen finden Sie in [diesem Abschnitt](#subdomain-validation).
+   Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was in der Regel zwei bis drei Stunden dauert. Weiterführende Informationen finden Sie in [diesem Abschnitt](#subdomain-validation).
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden<!--i.e Adobe validates the record you created and installs it-->, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 

@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit gespeicherten Ausdrücken
-description: Erfahren Sie, wie Sie mit gespeicherten Ausdrücken aus dem [!DNL Journey Optimizer] -Bibliothek.
+description: Erfahren Sie, wie Sie mit in der  [!DNL Journey Optimizer] -Bibliothek gespeicherten Ausdrücken arbeiten.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 1%
+ht-degree: 85%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 1%
 
 ➡️ [In diesem Video erfahren Sie, wie Sie mit gespeicherten Ausdrücken arbeiten.](#video-preview)
 
-Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
+Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
 
     >[!NOTE]
     >
-    >Sie können die Infoschaltfläche verwenden, um weitere Informationen zum Inhalt eines gespeicherten Ausdrucks zu erhalten. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Menü mit Auslassungspunkten angezeigt.
+    >Sie können die Infoschaltfläche verwenden, um weitere Informationen zum Inhalt eines gespeicherten Ausdrucks zu erhalten. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Drei-Punkt-Menü angezeigt.
     
     ![](assets/library-list.png)
 
-Klicken Sie auf + , um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihren Personalisierungsinhalt wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+Klicken Sie auf „+“, um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihre Personalisierungsinhalte wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
     ![](assets/library-add.png)
 
@@ -42,11 +42,11 @@ Klicken Sie auf + , um den Ausdruck in den Editor einzufügen. Anschließend kö
 
 Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 
-1. Erstellen Sie in der Editor-Oberfläche den Ausdruck und klicken Sie auf **[!UICONTROL Bibliothek hinzufügen]**.
+1. Erstellen Sie in der Editor-Benutzeroberfläche den Ausdruck und klicken Sie auf **[!UICONTROL Zur Bibliothek hinzufügen]**.
 
    >[!NOTE]
    >
-   >Wenn die Schaltfläche nicht sichtbar ist, überprüfen Sie in der Admin Console, dass Sie über die erforderlichen Berechtigungen verfügen (siehe [Berechtigungsebenen](../administration/high-low-permissions.md)).
+   >Wenn die Schaltfläche nicht sichtbar ist, überprüfen Sie in der Admin Console, ob Sie über die erforderlichen Berechtigungen verfügen (siehe [Berechtigungsebenen](../administration/high-low-permissions.md)).
 
    ![](assets/library-save.png)
 
@@ -54,22 +54,22 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 
    ![](assets/add-expression.png)
 
-1. Der Ausdruck wird der Bibliothek hinzugefügt. Benutzer können sie nun verwenden, um ihren Personalisierungsinhalt zu erstellen.
+1. Der Ausdruck wird zur Bibliothek hinzugefügt. Benutzer können ihn nun verwenden, um ihre Personalisierungsinhalte zu erstellen.
 
 
 >[!NOTE]
 >
->* Sie speichern bis zu 40 Ausdrücke in der Bibliothek.
+>* Sie können bis zu 40 Ausdrücke in der Bibliothek speichern.
 >
 >* Ausdrücke dürfen 200 KB nicht überschreiten.
 >
->* Gespeicherte Ausdrücke werden nach Erstellungsdatum sortiert: Der kürzlich hinzugefügte Ausdruck wird zuerst in der Liste angezeigt.
+>* Gespeicherte Ausdrücke werden nach Erstellungsdatum sortiert, wobei der zuletzt hinzugefügte Ausdruck in der Liste zuerst angezeigt wird.
 
 
 
-Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken **[!UICONTROL Bibliothek hinzufügen]** , um die Syntax zu überprüfen und den Ausdruck zu speichern.
+Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken Sie auf **[!UICONTROL Zur Bibliothek hinzufügen]**, um die Syntax zu überprüfen und den Ausdruck zu speichern.
 
-Um einen Ausdruck zu löschen, klicken Sie auf die Schaltfläche mit den Auslassungszeichen und anschließend auf **[!UICONTROL Löschen]**.
+Um einen Ausdruck zu löschen, klicken Sie auf das Drei-Punkt-Menü und anschließend auf **[!UICONTROL Löschen]**.
 
 ## Anleitungsvideo{#video}
 

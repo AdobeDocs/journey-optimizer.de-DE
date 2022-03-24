@@ -5,7 +5,7 @@ title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Akti
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

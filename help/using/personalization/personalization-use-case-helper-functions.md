@@ -9,7 +9,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Führen Sie folgende Schritte aus:
 
 1. Fügen Sie im Fenster **[!UICONTROL HTML bearbeiten]** die Zeichenfolgen-Funktionen `upperCase` hinzu:
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Hilfsfunktionen]**.
-   1. Verwenden Sie das Suchfeld, um &quot;Großbuchstaben&quot;zu finden.
+   1. Verwenden Sie das Suchfeld, um „Großbuchstaben“ zu finden.
    1. Fügen Sie die Funktion `upperCase` aus den Suchergebnissen hinzu. Klicken Sie dazu auf das Pluszeichen (+) neben `{%= upperCase(string) %}: string`.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
@@ -75,7 +75,7 @@ Führen Sie folgende Schritte aus:
 1. Entfernen Sie den Platzhalter „string“ (Zeichenfolge) aus dem Ausdruck.
 1. Fügen Sie das Vorname-Token hinzu:
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Profilattribute]**.
-   1. Auswählen **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]**.
+   1. Wählen Sie **[!UICONTROL Person]** > **[!UICONTROL Vollständiger Name]**.
    1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Vorname]** hinzu.
 
       Der Ausdruckseditor zeigt diesen Ausdruck:
@@ -86,7 +86,7 @@ Führen Sie folgende Schritte aus:
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Erfahren Sie mehr über den Datentyp des Personennamens in [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
+      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
@@ -145,7 +145,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    1. Entfernen Sie den Platzhalter „someArray“ aus dem Ausdruck.
    1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextattribute]**.
 
-      **[!UICONTROL Kontextattribute]** sind nur verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
+      **[!UICONTROL Kontextattribute]** sind erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
 
    1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 

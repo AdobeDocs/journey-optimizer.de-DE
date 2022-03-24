@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -173,7 +173,7 @@ Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 
 Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine der folgenden Auswirkungen:
 
-* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 * Dies hat die gleiche Wirkung wie das Klicken auf den Abmelde-Link im E-Mail-Inhalt: Der Empfänger wird zu einer Landingpage weitergeleitet, die eine Schaltfläche enthält, mit der er seine Abmeldung bestätigt. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](#opt-out-management).
 

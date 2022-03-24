@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -419,7 +419,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung [!DNL Manage landing page settings] {#manage-landing-page-settings}
 
-Die **[!DNL Manage landing page settings]** Mit allgemeinen Berechtigungen können Benutzer Landingpage-Subdomains und Vorgabeneinstellungen lesen, erstellen und bearbeiten.
+Die Berechtigung auf höchster Ebene in **[!DNL Manage landing page settings]** erlaubt es Benutzern, Landingpage-Subdomains und Voreinstellungen zu lesen, zu erstellen und zu bearbeiten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

@@ -3,7 +3,7 @@ title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 100%
 
@@ -146,7 +146,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 
@@ -226,7 +226,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einem Segment eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
 
@@ -235,7 +235,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../building-journeys/collections.md)
 * **Listen** – Die Bildschirme „Listen“ für Journeys, Ereignisse, Aktionen und Datenquellen wurden verbessert.
 
-**Reporting**
+**Berichterstellung**
 
 * **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten. [Weitere Informationen](../messages/message-monitoring.md)
 
@@ -304,7 +304,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](../reports/sharing-overview.md)
 * Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/about-journey-activities.md#best-practices)
@@ -407,7 +407,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
@@ -484,7 +484,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Die Gesamteinschränkungsrate aller Segment-Lesen-Schritte, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)

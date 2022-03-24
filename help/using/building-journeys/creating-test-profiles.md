@@ -9,19 +9,19 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1380'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
 # Erstellen von Testprofilen {#create-test-profiles}
 
-Testprofile sind bei Verwendung der [Testmodus](../building-journeys/testing-the-journey.md) in einer Journey und [Vorschau und Testen des Inhalts](../messages/preview.md).
+Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../building-journeys/testing-the-journey.md) verwenden und [eine Vorschau anzeigen und Ihre Inhalte testen möchten](../messages/preview.md).
 
-Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finden Sie Details zu:
+Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finden Sie Details für Folgendes:
 
-* Umschalten eines [vorhandenes Profil](#turning-profile-into-test) in ein Testprofil
+* Ein [vorhandenes Profil](#turning-profile-into-test) in ein Testprofil umwandeln
 
-* Testprofile durch Hochladen einer [CSV-Datei](#create-test-profiles-csv) oder [API-Aufrufe](#create-test-profiles-api).
+* Testprofile durch Hochladen einer [CSV-Datei](#create-test-profiles-csv) oder mithilfe von [API-Aufrufen](#create-test-profiles-api) erstellen
 
    Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [produktinternen Anwendungsfall](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
 
@@ -35,7 +35,7 @@ Das Erstellen eines Testprofils ähnelt dem Erstellen von Standardprofilen in Ad
 
 Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Datensatz in Adobe [!DNL Journey Optimizer] erstellen.
 
-nach **Erstellen eines Schemas** führen Sie die folgenden Schritte aus:
+Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
 
 1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
    ![](assets/test-profiles-0.png)
@@ -114,7 +114,7 @@ Nachdem Sie den Identity-Namespace ausgewählt und die CSV-Datei basierend auf d
 
 So können Sie ein vorhandenes Profil in ein Testprofil umwandeln: Sie können Profilattribute auf dieselbe Weise aktualisieren wie bei der Erstellung eines Profils.
 
-Am einfachsten geht dies, wenn Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** in einer Journey verwenden und das boolesche Feld „testProfile“ von „false“ auf „true“ ändern.****
+Am einfachsten erreichen Sie das, indem Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** in einer Journey verwenden und das boolesche Feld **testProfile** von „false“ auf „true“ ändern.
 
 Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[!UICONTROL Profil aktualisieren]**. Zunächst müssen Sie ein Segment erstellen, das auf die Profile zielt, die Sie in Testprofile umwandeln möchten.
 

@@ -7,7 +7,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escap
 
 ## Profil
 
-Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;} beschrieben werden.
+Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben werden.
 
 Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 

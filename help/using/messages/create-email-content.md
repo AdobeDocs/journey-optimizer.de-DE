@@ -9,7 +9,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '1615'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -142,20 +142,20 @@ Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führe
 >* Wenn Sie die Option **[!UICONTROL Mit HTML synchronisieren]** erneut aktivieren, nachdem Sie Ihren Nur-Text-Inhalt aktualisiert haben, gehen Ihre Änderungen verloren und werden durch Textinhalte ersetzt, die aus der HTML-Version generiert wurden.
 
 
-## Preheader hinzufügen {#preheader}
+## Hinzufügen eines Preheaders {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Preheader hinzufügen"
->abstract="Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. In vielen Fällen bietet sie eine kurze Zusammenfassung der E-Mail und ist in der Regel ein Satz lang."
+>title="Hinzufügen eines Preheaders"
+>abstract="Ein Preheader ist ein kurzer zusammenfassender Text, der unter der Betreffzeile zu sehen ist, wenn Sie eine E-Mail in Ihrem E-Mail-Programm öffnen. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz."
 
-Ein Preheader ist ein kurzer zusammenfassender Text, der auf die Betreffzeile folgt, wenn Sie eine E-Mail in Ihrem E-Mail-Programm anzeigen. In vielen Fällen bietet sie eine kurze Zusammenfassung der E-Mail und ist in der Regel ein Satz lang.
+Ein Preheader ist ein kurzer zusammenfassender Text, der unter der Betreffzeile zu sehen ist, wenn Sie eine E-Mail in Ihrem E-Mail-Programm öffnen. In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem Satz.
 
 >[!NOTE]
 >
 >Preheader werden nicht von allen E-Mail-Clients unterstützt. Wird der Preheader nicht unterstützt, wird er nicht angezeigt.
 
-Gehen Sie wie folgt vor, um den E-Mail-Preheader zu definieren:
+Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
 1. Fügen Sie in Email Designer eine **[!UICONTROL Strukturkomponente]** hinzu, um Ihre E-Mail zu entwerfen.
 
@@ -184,7 +184,7 @@ Ihr Preheader ist jetzt für Ihre E-Mail konfiguriert.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Hintergrundeinstellungen"
->abstract="Sie können die Hintergrundfarbe oder das Hintergrundbild für Ihren Inhalt personalisieren. Beachten Sie, dass Hintergrundbilder nicht von allen E-Mail-Clients unterstützt werden."
+>abstract="Sie können die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren. Beachten Sie, dass Hintergrundbilder nicht von allen E-Mail-Clients unterstützt werden."
 
 Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
 
