@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie k�
 
 ![](assets/lp_access-list-filter.png)
 
-In dieser Liste können Sie auf die [Landingpage-Berichte](lp-report.md) für veröffentlichte Elemente.
+Über diese Liste können Sie auf die [Landingpage-Berichte](lp-report.md) für veröffentlichte Elemente zugreifen.
 
-Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung rückgängig machen.
+Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung aufheben.
 
 >[!CAUTION]
 >
->Wenn Sie die Veröffentlichung einer Landingpage rückgängig machen, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, kann die Nachricht erst veröffentlicht werden, wenn die Landingpage erneut veröffentlicht wurde. Wenn die Nachricht bereits publiziert wurde, wird der Link zur Landingpage beschädigt und eine Fehlerseite angezeigt.
+>Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, kann die Nachricht erst nach der erneuten Veröffentlichung der Landingpage veröffentlicht werden. Wenn die Nachricht bereits veröffentlicht wurden, funktioniert der Link zur Landingpage nicht mehr und eine Fehlerseite wird angezeigt.
 
-Klicken Sie auf die drei Punkte neben einer Landingpage, um die gewünschte Aktion auszuwählen.
+Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte Aktion auszuwählen.
 
 ![](assets/lp_access-list-actions.png)
 
 >[!NOTE]
 >
->Veröffentlichte Landingpages können nicht gelöscht werden. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung rückgängig machen.
+>Veröffentlichte Landingpages können nicht gelöscht werden. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung aufheben.
 
 ## Erstellen einer Landingpage {#create-landing-page}
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Wählen Sie eine Voreinstellung aus. Erfahren Sie, wie Sie Landingpage-Vorgaben erstellen in [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset).
+1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -133,7 +133,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 >[!CAUTION]
 >
->Sie müssen über Testprofile verfügen, damit Sie eine Vorschau Ihrer Nachrichten anzeigen und Testsendungen durchführen können. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../building-journeys/creating-test-profiles.md).
+>Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../building-journeys/creating-test-profiles.md).
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Vorschau und Test]**, um zur Testprofil-Auswahl zu gelangen.
 
@@ -161,7 +161,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 ## Prüfen von Warnhinweisen {#check-alerts}
 
-Warnungen werden beim Erstellen Ihrer Landingpage angezeigt, wenn Sie wichtige Maßnahmen vor der Veröffentlichung treffen müssen.
+Während Sie Ihre Landingpage erstellen, werden Sie durch Warnhinweise informiert, wenn Sie wichtige Aktionen ausführen müssen, bevor Sie die Landingpage veröffentlichen.
 
 Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
 
@@ -181,7 +181,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
-> Sie müssen alle **error** Warnhinweise vor der Veröffentlichung.
+> Sie müssen vor der Veröffentlichung alle Warnhinweise zu **Fehlern** beheben.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
