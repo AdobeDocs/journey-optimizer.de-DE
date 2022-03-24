@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escap
 
 ## Profil
 
-Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;} beschrieben werden.
+Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;} beschrieben werden.
 
 Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 
@@ -145,18 +145,18 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{
 
 ## URL-Personalisierung{#perso-urls}
 
-Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie URLs im Nachrichteninhalt Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und sie kann Profildaten oder Kontextdaten verwenden.
+Personalisierte URLs führen Empfänger je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt zu URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder Kontextdaten verwenden.
 
 Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie wie folgt vor, um eine URL zu personalisieren:
 
 1. Erstellen Sie einen Link in Ihrem Nachrichteninhalt. [Weitere Informationen](../messages/message-tracking.md#insert-links)
-1. Wählen Sie über das Personalisierungssymbol die Attribute aus. Das Personalisierungssymbol steht nur für diese Relationstypen zur Verfügung: **Externer Link**, **Abmelde-Link** und **Opt-out**.
+1. Wählen Sie über das Personalisierungssymbol die Attribute aus. Das Personalisierungssymbol ist nur für folgende Arten von Links verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
 
 ![](assets/perso-url.png)
 
 >[!NOTE]
 >
->Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, sind Helper-Funktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
+>Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, werden Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
 
 **Beispiele für personalisierte URLs**
 
