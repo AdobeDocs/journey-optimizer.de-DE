@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 ## Konfigurieren von E-Mail-Einstellungen {#configure-email-settings}
 
-E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
+E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreinstellungskonfiguration definiert.
 
 ![](assets/preset-email.png)
 
@@ -87,20 +87,20 @@ Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
 
 ### E-Mail-Typ{#email-type}
 
-Im **E-MAIL-TYP** Wählen Sie den Nachrichtentyp aus, der mit der Vorgabe gesendet werden soll: **Marketing** oder **Transactional**.
+Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
 
-Auswählen **Marketing** für Werbebotschaften: Diese Nachrichten erfordern die Zustimmung des Benutzers.
+Wählen Sie **Marketing** für Werbenachrichten. Diese Nachrichten erfordern das Einverständnis des Benutzers.
 
-Auswählen **Transactional** für nicht kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
 >[!CAUTION]
 >
->**Transaktions**-Nachrichten können an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+>**Transaktions**-Nachrichten können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
 
-### Subdomain- und IP-Pool {#subdomains-and-ip-pools}
+### Subdomain und IP-Pool {#subdomains-and-ip-pools}
 
-Im **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie:
+Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vorgehen:
 
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
 
@@ -108,19 +108,19 @@ Im **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie:
 
 ### URL-Tracking{#url-tracking}
 
-Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie im  **[!UICONTROL URL-TRACKING-KONFIGURATION (Web-Analyse)]** Abschnitt.
+Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie im Abschnitt **[!UICONTROL URL-TRACKING-KONFIGURATION (Web-Analyse)]** UTM-Parameter für das URL-Tracking hinzufügen.
 
-Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angewendet. Anschließend können Sie die Ergebnisse in einem Webanalysetool, z. B. Google Analytics, vergleichen. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angefügt. Anschließend können Sie die Ergebnisse in einem Tool zur Web-Analyse, z. B. Google Analytics, vergleichen. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
 ![](assets/preset-url-tracking.png)
 
-Standardmäßig sind drei UTM-Parameter verfügbar. Sie können bis zu 10 Tracking-Parameter hinzufügen. Um einen UTM-Parameter hinzuzufügen, wählen Sie die **[!UICONTROL Hinzufügen neuer UTM-Parameter]** Schaltfläche.
+Standardmäßig sind drei UTM-Parameter verfügbar. Sie können bis zu 10 Tracking-Parameter hinzufügen. Um einen UTM-Parameter hinzuzufügen, wählen Sie die Schaltfläche **[!UICONTROL Neuen UTM-Parameter hinzufügen]**.
 
-Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** oder wählen Sie aus einer Liste vordefinierter Werte aus, indem Sie zu den folgenden Objekten navigieren:
+Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben oder aus einer Liste mit vordefinierten Werten auswählen, indem Sie zu den folgenden Objekten navigieren:
 
 * Journey-Attribute: Quell-ID, Quellname, Quellversions-ID
-* Nachrichtenattribute: Aktionskennung, Aktionsname
-* Offer decisioning-Attribute: Angebotskennung, Angebotsname
+* Nachrichtenattribute: Aktions-ID, Aktionsname
+* Offer-Decisioning-Attribute: Angebots-ID, Angebotsname
 
 ![](assets/preset-url-tracking-source.png)
 
@@ -130,9 +130,9 @@ Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte dire
 
 ### Kopfzeilenparameter{#email-header}
 
-Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die E-Mail-Adressen ein, die mit den mit dieser Vorgabe gesendeten Nachrichten verknüpft sind. Diese E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md).
+Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die E-Mail-Adressen ein, die mit den mit dieser Voreinstellung gesendeten Nachrichten verknüpft sind. Diese E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
 
-Sie müssen die folgenden E-Mail-Adressen konfigurieren
+Konfigurieren Sie die folgenden E-Mail-Adressen.
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
@@ -142,7 +142,7 @@ Sie müssen die folgenden E-Mail-Adressen konfigurieren
 
 * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
-* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach einigen Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
+* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
 
 
 ![](assets/preset-header.png)
@@ -151,9 +151,9 @@ Sie müssen die folgenden E-Mail-Adressen konfigurieren
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-### Email-Wiederholungsparameter{#email-retry}
+### E-Mail-Wiederholungsparameter{#email-retry}
 
-Sie können die **Email-Wiederholungsparameter**.
+Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -161,15 +161,15 @@ Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry
 
 Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folgenden Bereichs eingeben:
 
-* Für Marketing-E-Mails beträgt die Wiederholungsdauer mindestens 6 Stunden.
-* Bei Transaktions-E-Mails beträgt die Mindestdauer für den erneuten Versuch 10 Minuten.
-* Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuch 84 Stunden (oder 5.040 Minuten).
+* Für E-Mails vom Typ Marketing beträgt der Mindestzeitraum für weitere Zustellversuche 6 Stunden.
+* Für E-Mails vom Typ Transaktion beträgt der Mindestzeitraum für weitere Zustellversuche 10 Minuten.
+* Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuche 84 Stunden (d. h. 5.040 Minuten).
 
 ## Konfigurieren der Push-Einstellungen {#configure-push-settings}
 
-Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvorgabenkonfiguration definiert.
+Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreinstellungskonfiguration definiert.
 
-Gehen Sie wie folgt vor, um die mit der Nachrichtenvorgabe verknüpften Push-Einstellungen zu definieren:
+Gehen Sie wie folgt vor, um die mit der Nachrichtenvoreinstellung verknüpften Push-Einstellungen zu definieren:
 
 1. Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**.
 
@@ -199,7 +199,7 @@ Alle Ihre Nachrichtenvoreinstellungen werden im Menü **[!UICONTROL Kanäle]** >
 
 ![](assets/preset-filters.png)
 
-Nach der Erstellung können Nachrichtenvorgaben die folgenden Status aufweisen:
+Nach ihrer Erstellung können Nachrichtenvoreinstellungen die folgenden Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Nachrichtenvoreinstellung wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
 * **[!UICONTROL Verarbeitung]**: Die Nachrichtenvoreinstellung wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
@@ -209,7 +209,7 @@ Nach der Erstellung können Nachrichtenvorgaben die folgenden Status aufweisen:
 
 Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt. 
 
-Wenn einer dieser Fehler auftritt, wenden Sie sich an [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
+Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
 * **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. Ein SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die E-Mail-Anbieter verwendet werden.
 
