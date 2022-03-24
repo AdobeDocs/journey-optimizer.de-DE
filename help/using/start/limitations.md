@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adob
 
 ## Einschränkungen bei Landingpages {#limitations-lp}
 
-* Nur eine **Formular** -Komponente kann auf einer einzelnen primären Seite verwendet werden.
-* Die **Formular** -Komponente kann nicht in Unterseiten verwendet werden.
-* Sie können einer Landingpage keine Preheader hinzufügen.
-* Sie können die **Eigene Code** bei der Erstellung einer primären Landingpage.
+* Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
+* Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
+* Sie können keine Preheader zu einer Landingpage hinzufügen.
+* Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
 ## Einschränkungen bei Journeys {#limitations-journeys}
 
@@ -49,8 +49,8 @@ Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adob
 
 * Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
 * Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
-* Das Segment und der Namespace, die in **Segmentqualifikation** (erster Knoten) kann in neuen Versionen nicht geändert werden.
-* Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
+* Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
+* Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
 
 ### Benutzerdefinierte Aktionen {#custom-actions}
@@ -67,7 +67,7 @@ Unten finden Sie zusätzliche Einschränkungen bei der Verwendung von [!DNL Adob
 
 ### Datenquellen {#data-sources}
 
-* Externe Datenquellen können innerhalb einer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+* Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 
 ### Journeys, die gleichzeitig mit der Erstellung eines Profils beginnen {#journeys-limitation-profile-creation}
 
@@ -79,7 +79,7 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, um Adobe Experience Platform ausreichend Zeit zu geben, um die Aufnahme in den Profil-Service durchzuführen.
 
-* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu bestimmt ist, eine Kontoerstellung zu bestätigen, kann das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
+* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
 
 ### Segment lesen {#read-segment}
 
