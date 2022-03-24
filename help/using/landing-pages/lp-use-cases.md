@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Einer der häufigsten Anwendungsfälle besteht darin, Ihre Kunden über eine Lan
 
 Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten eine Kampagne zur Veranstaltungsregistrierung starten<!--to keep your customers that are interested updated on that event-->. Senden Sie dazu eine E-Mail mit einem Link zu einer Landingpage, über die sich Ihre Empfänger für diese Veranstaltung registrieren können. Die Benutzer, die sich registrieren, werden zur Abonnement-Liste hinzugefügt, die Sie zu diesem Zweck erstellt haben.
 
-### Landingpage einrichten {#set-up-lp}
+### Einrichten einer Landingpage {#set-up-lp}
 
 1. Erstellen Sie die Abonnement-Liste für die Veranstaltungsregistrierung, in der die registrierten Benutzer gespeichert werden. [Hier](subscription-list.md#define-subscription-list) erfahren Sie, wie Sie eine Abonnement-Liste erstellen.
 
@@ -55,7 +55,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht publizieren zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. Erfahren Sie, wie Sie das Ablaufdatum aktualisieren [in diesem Abschnitt](create-lp.md#configure-primary-page).
+   >Um Ihre Nachricht veröffentlichen zu können, stellen Sie sicher, dass die von Ihnen gewählte Landingpage noch nicht abgelaufen ist. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
 
@@ -140,7 +140,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht publizieren zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. Erfahren Sie, wie Sie das Ablaufdatum aktualisieren [in diesem Abschnitt](create-lp.md#configure-primary-page).
+   >Um Ihre Nachricht veröffentlichen zu können, stellen Sie sicher, dass die von Ihnen gewählte Landingpage noch nicht abgelaufen ist. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
 1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
 
@@ -160,7 +160,7 @@ Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolg
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-Im **[!UICONTROL Attribute]** -Registerkarte anzeigen, können Sie sehen, dass der Wert für **[!UICONTROL choice]** hat sich geändert auf **[!UICONTROL no]**.
+Auf der Registerkarte **[!UICONTROL Attribute]** können Sie sehen, dass der Wert für **[!UICONTROL Auswahl]** auf **[!UICONTROL Nein]** geändert wurde.
 
 <!--
 
