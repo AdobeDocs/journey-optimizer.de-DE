@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie sc
 
 ![](assets/favorite-option.png)
 
-Verwenden Sie die **[!UICONTROL Favoriten]** im linken Bereich.
+Um auf die von Ihnen favorisierten Elemente zuzugreifen, verwenden Sie das Menü **[!UICONTROL Favoriten]** im linken Bereich.
 
 Aus dieser Liste können Sie das Personalisierungsobjekt schnell zu Ihrem aktuellen Ausdruck hinzufügen.
 
