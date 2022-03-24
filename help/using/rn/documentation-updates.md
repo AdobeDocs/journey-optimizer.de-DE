@@ -3,9 +3,9 @@ title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## März 2022 {#march-2022}
 
-* Eine neue Seite zu den ersten Schritten mit KI-Modellen wurde zum **Offer decisioning** , einschließlich einer ausführlichen Beschreibung der [Automatisches Optimierungsmodell](../offers/offer-library/ai-ranking.md#auto-optimization), den verwendeten Algorithmus und weitere technische Details. [Weitere Informationen](../offers/offer-library/ai-ranking.md)
+* Im Abschnitt **Offer Decisioning** wurde eine neue Seite über die ersten Schritte mit KI-Modellen hinzugefügt, die eine ausführliche Beschreibung des [automatischen Optimierungsmodells](../offers/offer-library/ai-ranking.md#auto-optimization), des verwendeten Algorithmus und weitere technische Details enthält. [Weitere Informationen](../offers/offer-library/ai-ranking.md)
 
 ## Februar 2022 {#feb-2022}
 
