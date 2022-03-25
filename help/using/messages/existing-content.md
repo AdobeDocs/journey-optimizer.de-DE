@@ -1,6 +1,6 @@
 ---
-title: Importieren oder Kodieren von E-Mails
-description: Erfahren Sie, wie Sie E-Mail-Inhalt importieren oder Ihre E-Mails kodieren
+title: 'Importieren oder Codieren von E-Mails '
+description: 'Erfahren Sie, wie Sie E-Mail-Inhalt importieren oder Ihre E-Mails codieren '
 feature: Overview
 topic: Content Management
 role: User
@@ -19,7 +19,7 @@ Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um Ihre E
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
-Gehen Sie wie folgt vor, um HTML-Inhalt zu kodieren oder vorhandenen Inhalt zu importieren:
+Gehen Sie wie folgt vor, um HTML-Inhalt zu codieren oder vorhandenen Inhalt zu importieren:
 
 1. [Erstellen einer Nachricht](create-message.md)
 
@@ -84,6 +84,6 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirrorseiten- und Abmelde-Links hinzufügen und Ihren Inhalt kodieren können.
+Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirrorseiten- und Abmelde-Links hinzufügen und Ihren Inhalt codieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
