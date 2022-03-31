@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1539'
+ht-degree: 98%
 
 ---
 
 # Konfigurieren eines unitären Ereignisses {#configure-an-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_unitary"
+>title="Einzelereignisse"
+>abstract="Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen Journey Optimizer als Ereignisse erhält. Sie können mehrere Ereignisse (in verschiedenen Schritten der Journey) verwenden und mehrere Journeys können dasselbe Ereignis verwenden. Unitäre Ereignissw sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein. "
 
 Unitäre Ereignissw sind mit einem bestimmten Profil verknüpft. Sie können regelbasiert oder systemgeneriert sein. Mehr über unitäre Ereignisse erfahren Sie [in diesem Abschnitt](../event/about-events.md).
 
