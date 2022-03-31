@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 ➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden.](#video)
 
 Bevor Sie beginnen, sollten Sie wissen, wie Sie diese Elemente konfigurieren:
-* Eine E-Mail-Nachricht. [Weitere Informationen](../messages/create-message.md)
-* Der Textkörper einer E-Mail. [Weitere Informationen](../messages/create-email-content.md).
+* Eine E-Mail-Nachricht. [Weitere Informationen](../messages/get-started-content.md)
+* Der Textkörper einer E-Mail. [Weitere Informationen](../design/create-email-content.md).
 * Ein unitäres Ereignis. [Weitere Informationen](../event/about-events.md).
 * Eine Journey, die mit einem Ereignis beginnt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
       **[!UICONTROL Kontextattribute]** sind erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
 
-   1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
+   1. Auswählen **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Veranstaltungen]** > ***[!UICONTROL event_name]*** und erweitern Sie dann die **[!UICONTROL productListItems]** Knoten.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.
 

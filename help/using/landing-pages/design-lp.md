@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 100%
@@ -21,15 +21,15 @@ Um Inhalte für die [Primärseite](create-lp.md#configure-primary-page) oder [Un
 
 Dort haben Sie folgende Möglichkeiten:
 
-* **Entwerfen Sie Ihre Landingpage von Grund auf** über die Benutzeroberfläche von Content Designer und nutzen Sie Bilder aus [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). [In diesem Abschnitt](../messages/create-email-content.md) erfahren Sie, wie Sie Inhalte gestalten oder integrierte Vorlagen verwenden.
+* **Entwerfen Sie Ihre Landingpage von Grund auf** über die Benutzeroberfläche von Content Designer und nutzen Sie Bilder aus [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). [In diesem Abschnitt](../design/create-email-content.md) erfahren Sie, wie Sie Inhalte gestalten oder integrierte Vorlagen verwenden.
 
-* **Codieren Sie oder fügen Sie rohen HTML-Code** direkt in Content Designer ein. Erfahren Sie [in diesem Abschnitt](../messages/existing-content.md#import-raw-html-code), wie Sie Ihren eigenen Inhalt codieren.
+* **Codieren Sie oder fügen Sie rohen HTML-Code** direkt in Content Designer ein. Erfahren Sie [in diesem Abschnitt](../design/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
-* **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. [In diesem Abschnitt](../messages/existing-content.md#import-html-content-from-file) erfahren Sie, wie Sie Inhalte importieren.
+* **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. [In diesem Abschnitt](../design/existing-content.md) erfahren Sie, wie Sie Inhalte importieren.
 
 >[!NOTE]
 >
->Content Designer für Landingpages ähnelt größtenteils Email Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit  [!DNL Journey Optimizer]](../messages/design-emails.md).
+>Content Designer für Landingpages ähnelt größtenteils Email Designer. Weitere Informationen finden Sie unter [Inhaltserstellung mit  [!DNL Journey Optimizer]](../design/design-emails.md).
 
 ## Definieren von Landingpage-spezifischen Inhalten {#define-lp-specific-content}
 

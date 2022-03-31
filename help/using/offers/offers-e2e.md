@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 100%
@@ -227,11 +227,11 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung we
 
 Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Gehen Sie dazu wie folgt vor:
 
-1. Erstellen Sie Ihre E-Mail und öffnen Sie dann [Email Designer](../../using/messages/design-emails.md), um den Inhalt zu konfigurieren.
+1. Erstellen Sie Ihre E-Mail und öffnen Sie dann [Email Designer](../../using/design/design-emails.md), um den Inhalt zu konfigurieren.
 
 1. Fügen Sie von der linken Palette eine Strukturkomponente hinzu.
 
-1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/messages/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
+1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/design/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -257,7 +257,7 @@ Sie können nun sehen, wie alle personalisierten Angebote und das Fallback-Angeb
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey den entsprechenden Profilen angezeigt werden.
 
@@ -267,7 +267,7 @@ Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben
 
 **Verwandte Themen:**
 
-* In [diesem Abschnitt](../../using/messages/preview.md#preview-your-messages) erfahren Sie, wie Sie die Nachrichtenvorschau überprüfen.
+* In [diesem Abschnitt](../../using/design/preview.md#preview-your-messages) erfahren Sie, wie Sie die Nachrichtenvorschau überprüfen.
 
 * In [diesem Abschnitt](../../using/messages/publish-manage-message.md) erfahren Sie, wie Sie Nachrichten veröffentlichen können.
 

@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: Allgemeine Ereignisse
 description: Erfahren Sie, wie Sie allgemeine Ereignisse verwenden
 feature: Journeys
@@ -7,14 +7,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
 
 # Allgemeine Ereignisse {#general-events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_custom"
+>title="Allgemeine Ereignisse"
+>abstract="Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt."
 
 Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Der Rest der Konfiguration kann nicht bearbeitet werden. Dies wurde vom technischen Anwender durchgeführt. Weitere Informationen finden Sie auf [dieser Seite](../event/about-events.md).
 

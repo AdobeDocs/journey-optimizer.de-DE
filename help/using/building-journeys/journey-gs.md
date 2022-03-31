@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1796'
 ht-degree: 100%
 
 ---
@@ -68,6 +68,11 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Ändern von Eigenschaften {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Journey-Eigenschaften"
+>abstract="Wenn Sie ein Administrator sind, können Sie den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und eine Dauer für Zeitüberschreitung und Fehler festlegen."
 
 Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen. 
 

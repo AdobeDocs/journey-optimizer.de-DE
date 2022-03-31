@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
@@ -47,9 +47,9 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 1. [Veröffentlichen](create-lp.md#publish) Sie die Landingpage.
 
-1. [Erstellen Sie eine E-Mail-Nachricht](../messages/create-message.md), um anzukündigen, dass die Registrierung für die Veranstaltung nun eröffnet ist.
+1. [Erstellen Sie eine E-Mail-Nachricht](../messages/get-started-content.md), um anzukündigen, dass die Registrierung für die Veranstaltung nun eröffnet ist.
 
-1. [Fügen Sie einen Link](../messages/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
+1. [Fügen Sie einen Link](../design/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Erstellen Sie eine E-Mail-Nachricht](../messages/create-message.md) in [!DNL Journey Optimizer].
+1. [Erstellen Sie eine E-Mail-Nachricht](../messages/get-started-content.md) in [!DNL Journey Optimizer].
 
-1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../messages/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
+1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../design/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -174,5 +174,5 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-header)
 -->

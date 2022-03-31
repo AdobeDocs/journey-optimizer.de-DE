@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 93%
@@ -27,7 +27,7 @@ ht-degree: 93%
 >
 > Die Verwendung des SMS-Kanals ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
-Nachdem Sie [eine Nachricht erstellt](create-message.md) haben, verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
+Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
 
 ![](assets/sms_1.png)
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu begi
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre personalisierte Nachricht fertig ist.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um sich anzeigen zu lassen, wie Ihre SMS-Nachricht auf Smartphones und Tablets angezeigt wird. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](preview.md).
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um sich anzeigen zu lassen, wie Ihre SMS-Nachricht auf Smartphones und Tablets angezeigt wird. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
 
 1. Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Versandausführungen in Ihren Journeys verwendet wird.
 
@@ -56,5 +56,5 @@ Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, 
 **Verwandte Themen**
 
 * [Konfigurieren des SMS-Kanals](../configuration/sms-configuration.md)
-* [Erstellen einer neuen Nachricht](create-message.md)
+* [Erstellen einer neuen Nachricht](get-started-content.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)

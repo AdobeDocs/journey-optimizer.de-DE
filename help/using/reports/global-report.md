@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,15 @@ Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Jo
 
 * Wenn Sie eine Journey oder Sendungen in einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]**. Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
 
+   ![](assets/report_6.png)
+
 * Wenn Sie einen bestimmten Versand auswählen möchten, wählen Sie in der Ansicht **[!UICONTROL Global]** auf der Registerkarte **[!UICONTROL Ausführungen]** Ihrer Nachrichten die Option **[!UICONTROL Globaler Bericht]** aus dem erweiterten Menü des ausgewählten Versands.
+
+   ![](assets/report_4.png)
+
+* Wenn Sie von der **[!UICONTROL Gesamtbericht]** der **[!UICONTROL Live-Bericht]** Klicken Sie für Ihren Versand auf **[!UICONTROL Live-Ansicht]** über den Tab-Umschalter aus.
+
+   ![](assets/report_5.png)
 
 ## Dashboard anpassen {#modify-dashboard}
 
@@ -34,6 +42,8 @@ Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern de
    ![](assets/report_modify_1.png)
 
 1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+
+   Beachten Sie Folgendes: **[!UICONTROL Testereignisse ausschließen]** ist nur für Journey-Berichte verfügbar.
 
    ![](assets/report_modify_2.png)
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 653a5483fbdeb7a0b78dadc55ec71663e3ff0247
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 100%
+source-wordcount: '2151'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 >
 > * Die Konfiguration von Nachrichtenvoreinstellungen ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../messages/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
+> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../configuration/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
 Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
@@ -106,11 +106,47 @@ Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vo
 
 1. Wählen Sie den IP-Pool aus, der mit der Voreinstellung verknüpft werden soll. [Weitere Informationen](ip-pools.md)
 
+### List-Unsubscribe {#list-unsubscribe}
+
+Bei [Auswählen einer Subdomain](#subdomains-and-ip-pools) aus der Liste **[!UICONTROL List-Unsubscribe aktivieren]** angezeigt.
+
+![](assets/preset-list-unsubscribe.png)
+
+Standardmäßig ist diese Option aktiviert.
+
+Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in den E-Mail-Header eingefügt, z. B.:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+Wenn Sie diese Option deaktivieren, wird im E-Mail-Header kein Abmelde-Link angezeigt.
+
+Der Abmelde-Link besteht aus zwei Elementen:
+
+* Ein **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
+
+   In [!DNL Journey Optimizer], ist die Abmelde-E-Mail-Adresse die Standardeinstellung. **[!UICONTROL Mailto (unsubscribe)]** in der Nachrichtenvorgabe angezeigte Adresse basierend auf der [ausgewählte Subdomain](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* Die **Abmelde-URL**: die URL der Landingpage, auf die der Benutzer umgeleitet wird, sobald er sich abgemeldet hat.
+
+   Wenn Sie eine [Ausschluss-Link mit einem Klick](../messages/consent.md#one-click-opt-out) auf eine mit dieser Vorgabe erstellte Nachricht verweist, ist die Abmelde-URL die für den Abmelde-Link mit einem Klick definierte URL.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie in Ihren Nachrichteninhalt keinen Ausschluss-Link mit einem Klick hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
+
+Erfahren Sie mehr über das Hinzufügen eines Header-Links zur Abmeldung Ihrer Nachrichten in [diesem Abschnitt](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### URL-Tracking{#url-tracking}
 
 Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie im Abschnitt **[!UICONTROL URL-TRACKING-KONFIGURATION (Web-Analyse)]** UTM-Parameter für das URL-Tracking hinzufügen.
 
-Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angefügt. Anschließend können Sie die Ergebnisse in einem Tool zur Web-Analyse, z. B. Google Analytics, vergleichen. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angefügt. Anschließend können Sie die Ergebnisse in einem Tool zur Web-Analyse, z. B. Google Analytics, vergleichen.
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte dire
 
 ### Kopfzeilenparameter{#email-header}
 
-Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die E-Mail-Adressen ein, die mit den mit dieser Voreinstellung gesendeten Nachrichten verknüpft sind. Diese E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
+Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Vorgabe gesendeten Nachrichtentyp verknüpft sind.
 
-Konfigurieren Sie die folgenden E-Mail-Adressen.
+>[!CAUTION]
+>
+>Die E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md).
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
@@ -143,7 +181,6 @@ Konfigurieren Sie die folgenden E-Mail-Adressen.
 * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
 * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ Gehen Sie wie folgt vor, um die mit der Nachrichtenvoreinstellung verknüpften P
 
 ![](assets/preset-push.png)
 
-Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../messages/push-gs.md).
+Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 98%
@@ -37,7 +37,7 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 
 ## Auswählen der Testprofile {#select-test-profiles}
 
-Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diese Seite](../../building-journeys/creating-test-profiles.md).
+Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diese Seite](../../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 
@@ -47,7 +47,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
    >[!NOTE]
    >
-   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Geben Sie den Identitätswert ein und klicken Sie auf **[!UICONTROL Ansicht]**, um die verfügbaren Profile aufzulisten.
 

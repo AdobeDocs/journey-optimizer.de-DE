@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. [Weitere Informationen](../messages/create-message.md)
+* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. [Weitere Informationen](../messages/get-started-content.md)
 
 **[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
@@ -56,7 +56,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL CONTENT-MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../design/assets-essentials.md)
 
 **[!UICONTROL DATEN-MANAGEMENT]**
 
@@ -76,9 +76,9 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Segmente]**: Erstellen und verwalten Sie Segmentdefinitionen für Adobe Experience Platform und nutzen Sie diese in Ihren Journeys. [Weitere Informationen](../segment/about-segments.md)
 
-* **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen](get-started-profiles.md)
+* **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identitäten]**: Der Adobe Experience Platform Identity Service verwaltet die geräte- und kanalübergreifende, nahezu in Echtzeit ausgeführte Identifizierung Ihrer Kunden in einem sogenannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Weitere Informationen](get-started-identity.md)
+* **[!UICONTROL Identitäten]**: Der Adobe Experience Platform Identity Service verwaltet die geräte- und kanalübergreifende, nahezu in Echtzeit ausgeführte Identifizierung Ihrer Kunden in einem sogenannten Identitätsdiagramm innerhalb von Adobe Experience Platform. [Weitere Informationen](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Start
 
 Verfügbare Anwendungsfälle:
 
-* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](../building-journeys/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie diesen Anwendungsfall implementieren.
+* **Erstellen von Testprofilen** mithilfe unserer CSV-Vorlage, um personalisierte Nachrichten und Journeys zu testen. [Auf dieser Seite](../segment/creating-test-profiles.md#use-case-1) erfahren Sie, wie Sie diesen Anwendungsfall implementieren.
 * **Senden von Geburtstagsnachrichten an Kunden**, um Ihren Kunden automatisch eine E-Mail zu senden, die ihnen zum Geburtstag gratuliert. (in Kürze verfügbar)
 * **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)

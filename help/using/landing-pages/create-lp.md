@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Die **[!UICONTROL Landingpage]**-Liste zeigt alle erstellten Elemente an. Sie k�
 
 ![](assets/lp_access-list-filter.png)
 
-Über diese Liste können Sie auf die [Landingpage-Berichte](lp-report.md) für veröffentlichte Elemente zugreifen.
+In dieser Liste können Sie auf die [Landingpage-Live-Bericht](../reports/lp-report-live.md) oder [Landingpage Globaler Bericht](../reports/lp-report-global.md) für veröffentlichte Elemente.
 
 Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichung aufheben.
 
@@ -133,7 +133,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 >[!CAUTION]
 >
->Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../building-journeys/creating-test-profiles.md).
+>Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Vorschau und Test]**, um zur Testprofil-Auswahl zu gelangen.
 
@@ -147,7 +147,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
    ![](assets/lp_test-profiles.png)
 
-   Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../messages/preview.md#select-test-profiles).
+   Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../design/preview.md#select-test-profiles).
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Vorschau]** aus und klicken Sie auf **[!UICONTROL Vorschau öffnen]**, um Ihre Landingpage zu testen.
 
@@ -210,9 +210,9 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 Sobald die Landingpage veröffentlicht wurde, wird sie der Landingpage-Liste mit dem Status **[!UICONTROL Veröffentlicht]** hinzugefügt.
 
-Sie ist jetzt live und kann in einer [!DNL Journey Optimizer] [Nachricht](../messages/create-message.md), die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
+Sie ist jetzt live und kann in einer [!DNL Journey Optimizer] [Nachricht](../messages/get-started-content.md), die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
 
 >[!NOTE]
 >
->Sie können die Wirkung Ihrer Landingpage mithilfe spezifischer Berichte überwachen. [Weitere Informationen](lp-report.md)
+>Sie können die Wirkung Ihrer Landingpage mithilfe spezifischer Berichte überwachen. [Weitere Informationen](../reports/lp-report-live.md)
 

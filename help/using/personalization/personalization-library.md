@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '359'
 ht-degree: 91%
 
 ---
@@ -58,8 +58,6 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 
 
 >[!NOTE]
->
->* Sie können bis zu 40 Ausdrücke in der Bibliothek speichern.
 >
 >* Ausdrücke dürfen 200 KB nicht überschreiten.
 >

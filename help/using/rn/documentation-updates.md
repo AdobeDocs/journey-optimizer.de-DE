@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
-
 ## März 2022 {#march-2022}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. März wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Im Abschnitt **Offer Decisioning** wurde eine neue Seite über die ersten Schritte mit KI-Modellen hinzugefügt, die eine ausführliche Beschreibung des [automatischen Optimierungsmodells](../offers/offer-library/ai-ranking.md#auto-optimization), des verwendeten Algorithmus und weitere technische Details enthält. [Weitere Informationen](../offers/offer-library/ai-ranking.md)
+* Die Seite zur Erstellung von Testprofilen wurde in die  **Segment, Profile und Identität** Abschnitt. [Weitere Informationen](../segment/creating-test-profiles.md)
+* Es wurde ein Beispiel zum Hinzufügen eines Ausdrucks als Standardwert im Ausdruckseditor hinzugefügt. [Weitere Informationen](../building-journeys/expression/field-references.md#default-value)
+* Die **Primäre E-Mail-Adressen ändern** wurde aktualisiert, um die Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
 ## Februar 2022 {#feb-2022}
 
@@ -32,7 +35,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt zu [!DNL Journey Optimizer] Personalisierungsfunktionen wurde neu angeordnet, um die Übersichtlichkeit zu verbessern. [Weitere Informationen](../personalization/personalize.md)
 * Der Abschnitt **Erstellen von Nachrichtenvoreinstellungen** wurde zur besseren Übersichtlichkeit in mehrere Abschnitte unterteilt. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
 * Der Abschnitt **Opt-out-Verwaltung** wurde klarer formuliert und leicht umstrukturiert. [Weitere Informationen](../messages/consent.md#opt-out-management)
-* Der Abschnitt **Einfügen von Links** wurde aktualisiert, um die jüngsten Änderungen an der Benutzeroberfläche zu berücksichtigen. [Weitere Informationen](../messages/message-tracking.md#insert-links)
+* Der Abschnitt **Einfügen von Links** wurde aktualisiert, um die jüngsten Änderungen an der Benutzeroberfläche zu berücksichtigen. [Weitere Informationen](../design/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -92,8 +95,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Abschnitt über barrierefreie Funktionen und Tastaturbefehle hinzugefügt. [Mehr dazu](../start/user-interface.md#accessibility)
 * Es wurde ein Abschnitt über Methoden zur Segmentprüfung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Es wurden Hinweise zu den Abschnitten „Unterdrückungsliste“, „Zulassungsliste“ und „Globaler/Live-Bericht zum E-Mail-Versand“ hinzugefügt, in denen erläutert wird, dass Profile mit dem Status „Unterdrückt“ und „Nicht erlaubt“ aus der Metrik „Gesendet“ des E-Mail-Berichts ausgeschlossen werden. [Mehr dazu](../reports/email-global-report.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domains abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](../messages/allow-list.md#reporting)
-* Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](../messages/allow-list.md#enable-allow-list)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen oder Domains abgerufen werden, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. [Mehr dazu](../reports/allow-list.md#reporting)
+* Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](../reports/allow-list.md#enable-allow-list)
 * Der Abschnitt „Überwachen von Nachrichtenvoreinstellungen“ wurde mit möglichen Ursachen für eine fehlgeschlagene Durchführung von Voreinstellungen sowie den Fehlerdetails ergänzt. [Mehr dazu](../configuration/message-presets.md#monitor-message-presets)
 * Der Abschnitt zum Zeitraum für weitere Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für weitere Zustellversuche bei E-Mails in den Nachrichtenvoreinstellungen anpassen können. [Mehr dazu](../configuration/retries.md#retry-duration)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen Ein-Klick-Opt-out-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Auf der Startseite wurden Links zur Produktbeschreibung von [!DNL Journey Optimizer] hinzugefügt.
 * Auf mehreren Seiten wurden Anleitungsvideos hinzugefügt.
 * Optimierte Bilder auf der Startseite
-* Der Abschnitt „Nachrichten-Tracking“ wurde in „Links hinzufügen und Nachrichten verfolgen“ verschoben, verbessert und umbenannt. [Mehr dazu](../messages/message-tracking.md)
-* Es wurde ein Unterabschnitt über Mirrorseiten hinzugefügt. [Mehr dazu](../messages/message-tracking.md#mirror-page)
+* Der Abschnitt „Nachrichten-Tracking“ wurde in „Links hinzufügen und Nachrichten verfolgen“ verschoben, verbessert und umbenannt. [Mehr dazu](../design/message-tracking.md)
+* Es wurde ein Unterabschnitt über Mirrorseiten hinzugefügt. [Mehr dazu](../design/message-tracking.md#mirror-page)
 * In der Dokumentation und deren Abbildungen wurden „Angebotsaktivitäten“ in „Entscheidungen“ und „Entscheidungen“ in „Entscheidungsbereiche“ umbenannt. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
 * Neuer Anwendungsfall: [Personalisieren einer Nachricht mit Hilfsfunktionen](../personalization/personalization-use-case-helper-functions.md)
 * Die Dokumentation zum Lesen von Segmenten wurde aktualisiert, um die Auswirkungen materialisierter Segmente zu erläutern. [Mehr dazu](../building-journeys/read-segment.md)
