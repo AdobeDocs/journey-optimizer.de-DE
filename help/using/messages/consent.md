@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 82%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 #### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-Damit Ihre Empfänger abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über Adobe I/O implementieren, um die Einstellungen der entsprechenden Profile zu aktualisieren.
+Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](developer.adobe.com) , um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
 
-Dieser Adobe I/O-POST-Aufruf lautet wie folgt:
+Dieser POST-Aufruf sieht wie folgt aus:
 
 Endpunkt: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den Adobe I/O-Aufruf zu aktualisieren.
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](developer.adobe.com) API-Aufruf.
 
 #### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert und den API-Aufr
 
    ![](assets/opt-out-lp-example.png)
 
-1. Wenn der Empfänger das Formular abschickt (in diesem Fall durch Klicken auf die Schaltfläche **Abmelden** auf Ihrer Landingpage), werden die Profildaten durch den [Adobe I/O-Aufruf](#opt-out-api) aktualisiert.
+1. Wenn der Empfänger das Formular sendet (hier durch Drücken der **Abmelden** -Schaltfläche in Ihrer Landingpage) werden die Profildaten über die [API-Aufruf](#opt-out-api).
 
 1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 
