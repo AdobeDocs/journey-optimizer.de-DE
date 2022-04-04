@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 76%
+source-wordcount: '1246'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 #### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](developer.adobe.com) , um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
+Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
 
 Dieser POST-Aufruf sieht wie folgt aus:
 
@@ -109,7 +109,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](developer.adobe.com) API-Aufruf.
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API-Aufruf.
 
 #### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 

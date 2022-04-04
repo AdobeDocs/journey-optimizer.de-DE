@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 87%
+source-wordcount: '257'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebn
 
 Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
 
-Wenn Sie ein Drittanbietersystem verwenden, um Nachrichten wie Epsilon, Facebook, [Adobe Developer](developer.adobe.com), Firebase usw. müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
+Wenn Sie ein Drittanbietersystem verwenden, um Nachrichten wie Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase usw., müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
 Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
