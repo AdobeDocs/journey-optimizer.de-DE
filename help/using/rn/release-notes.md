@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '2915'
-ht-degree: 93%
+source-wordcount: '2941'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Entscheidungs-Management**
 
-<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* Sie können jetzt festlegen, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil sowie für alle Platzierungen oder pro Platzierung gilt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 * Mit der Batch Decisioning-API können Unternehmen die offer decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist. [Weitere Informationen](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administration**

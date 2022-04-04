@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0c57150be1c9031728daddf1e0a320853bc545c
+source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 95%
+source-wordcount: '1096'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Im Abschnitt **Offer Decisioning** wurde eine neue Seite über die ersten Schritte mit KI-Modellen hinzugefügt, die eine ausführliche Beschreibung des [automatischen Optimierungsmodells](../offers/offer-library/ai-ranking.md#auto-optimization), des verwendeten Algorithmus und weitere technische Details enthält. [Weitere Informationen](../offers/offer-library/ai-ranking.md)
 * Die Seite zur Erstellung von Testprofilen wurde in die  **Segment, Profile und Identität** Abschnitt. [Weitere Informationen](../segment/creating-test-profiles.md)
 * Es wurde ein Beispiel zum Hinzufügen eines Ausdrucks als Standardwert im Ausdruckseditor hinzugefügt. [Weitere Informationen](../building-journeys/expression/field-references.md#default-value)
+* Die **Personalisierte Angebote erstellen** wurde neu organisiert, um die Lesbarkeit zu verbessern. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem die Auswirkungen beschrieben werden, die eine Änderung des Start- und/oder Enddatums eines Angebots auf die Frequenzlimitierung dieses Angebots haben kann - [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-change-date)
 <!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
 
 ## Februar 2022 {#feb-2022}
