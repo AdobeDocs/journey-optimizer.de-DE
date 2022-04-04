@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 91%
+source-wordcount: '354'
+ht-degree: 97%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 91%
 
 Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
 
-    >[!NOTE]
-    >
-    >Sie können die Infoschaltfläche verwenden, um weitere Informationen zum Inhalt eines gespeicherten Ausdrucks zu erhalten. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Drei-Punkt-Menü angezeigt.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>Über die Informationsschaltfläche erhalten Sie weitere Informationen zum Inhalt eines gespeicherten Ausdrucks. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Drei-Punkt-Menü angezeigt.
+
+![](assets/library-list.png)
 
 Klicken Sie auf „+“, um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihre Personalisierungsinhalte wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Speichern eines Ausdrucks in der Bibliothek {#save-expressions}
 
