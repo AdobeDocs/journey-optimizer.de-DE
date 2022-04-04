@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 98%
+source-wordcount: '807'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,17 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>Da die Simulation kein Entscheidungsereignis generiert, wird die [capping](../offer-library/creating-personalized-offers.md#capping) Die Anzahl ist nicht betroffen.
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## Auswählen der Testprofile {#select-test-profiles}
 
-Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diese Seite](../../segment/creating-test-profiles.md).
+Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 
