@@ -2,16 +2,19 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2824'
-ht-degree: 96%
+source-wordcount: '2915'
+ht-degree: 93%
 
 ---
 
 # Versionshinweise {#release-notes}
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Auf der Seite [Letzte Dokumentations-Updates](documentation-updates.md) finden Sie weitere Änderungsmöglichkeiten.
+
+![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich für die [Vierteljährlicher Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} noch heute verwenden und jedes Quartal direkt in Ihren Posteingang die neuesten Produktaktualisierungen, spannenden Meldungen, Anwendungsbeispiele, Tipps und mehr erhalten.
+
 
 ## Version März 2022 {#march-2022-release}
 
@@ -27,10 +30,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * Mit der Batch Decisioning-API können Unternehmen die offer decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist. [Weitere Informationen](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**Administration**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* Sie können jetzt den Abmelde-Link im/vom E-Mail-Header auf der Vorgabenebene der Nachricht aktivieren/deaktivieren und eine benutzerdefinierte Abmelde-URL auf Meldungsebene festlegen. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe)
+* Die Zulassungsliste kann jetzt über das [!DNL Journey Optimizer] -Schnittstelle für Produktions- und Nicht-Produktions-Sandboxes. [Weitere Informationen](../reports/allow-list.md#enable-allow-list)
 
 **Personalisierung**
 

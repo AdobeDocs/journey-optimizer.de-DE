@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 91%
+source-wordcount: '572'
+ht-degree: 84%
 
 ---
 
 # Zulassungsliste {#allow-list}
 
-Es ist möglich, eine spezifische Liste für die Sicherheit des Versands im [Sandbox](../administration/sandboxes.md) Ebene, um eine sichere Umgebung für Testzwecke zu erhalten. Auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, stellt die Zulassungsliste sicher, dass Sie kein Risiko haben, unerwünschte Nachrichten an Ihre Kunden zu senden.
+Es ist möglich, eine spezifische Liste für die Sicherheit des Versands im [Sandbox](../administration/sandboxes.md) Ebene, um eine sichere Umgebung für Testzwecke zu erhalten.
+
+Auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, stellt die Zulassungsliste beispielsweise sicher, dass Sie keine Gefahr haben, unerwünschte Nachrichten an Ihre Kunden zu senden.
+
+>[!NOTE]
+>
+>Diese Funktion ist jetzt in Produktions- und Nicht-Produktions-Sandboxes verfügbar.
 
 Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angeben, die die einzigen Empfänger oder Domains sind, die zum Empfang der von einer bestimmten Sandbox gesendeten E-Mails berechtigt sind. Dadurch können Sie verhindern, dass Sie in einer Testumgebung versehentlich E-Mails an echte Kundenadressen senden.
 
 >[!CAUTION]
 >
->Diese Funktion ist **nicht** in Produktions-Sandboxes verfügbar. Sie gilt nur für den E-Mail-Kanal.
+>Diese Funktion gilt nur für den E-Mail-Kanal.
 
 ## Zulassungsliste aktivieren {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-Gehen Sie wie folgt vor, um die Zulassungsliste in einer Nicht-Produktions-Sandbox zu aktivieren.
+Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Zugriff auf  **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** Menü.
 
