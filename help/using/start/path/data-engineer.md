@@ -3,16 +3,14 @@ title: Journey Optimizer – Erste Schritte für Datentechniker
 description: Hier erfahren Datentechniker mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte für Datentechniker {#data-engineer}
-
-![Datentechniker](assets/do-not-localize/user-1.png)
 
 Datentechniker können mit **Adobe Journey Optimizer** Kundenprofildaten vorbereiten und verwalten, um die von [!DNL Journey Optimizer] orchestrierten Erlebnisse zu verbessern, Kunden- und Geschäftsdaten in Schemas zu modellieren und Quell-Connectoren für die Datenaufnahme zu konfigurieren. Sobald der [Systemadministrator](administrator.md) Ihnen Zugriff gewährt und die Umgebung vorbereitet hat, können Sie mit der Arbeit mit [!DNL Adobe Journey Optimizer] beginnen.
 

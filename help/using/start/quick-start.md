@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -23,50 +23,14 @@ Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfah
 
 Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsfähigkeit von Adobe Journey Optimizer kennenzulernen.
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Administrator" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">Ich bin Administrator</a>
-     <p>Umgebung vorbereiten, Zugriff gewähren, Einstellungen konfigurieren
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Datentechniker" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">Ich bin Datentechniker</a>
-     <p>Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Marketing-Experte" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">Ich bin Marketing-Experte</a>
-     <p>Erstellen von Nachrichten, Hinzufügen von Angeboten und Assets und Erstellen von Customer Journeys
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* Ich bin **Administrator**
+
+   Umgebung vorbereiten, Zugriff gewähren, Einstellungen konfigurieren. [Weitere Informationen](path/administrator.md)
+
+* Ich bin **Dateningenieur**
+
+   Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen. [Weitere Informationen](path/data-engineer.md)
+
+* Ich bin **Marketer**
+
+   Erstellen von Nachrichten, Hinzufügen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)

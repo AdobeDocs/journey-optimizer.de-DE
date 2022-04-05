@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 90%
+source-wordcount: '2182'
+ht-degree: 87%
 
 ---
 
@@ -19,12 +19,12 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 
 >[!CAUTION]
 >
-> * Die Konfiguration von Nachrichtenvoreinstellungen ist auf Journey-Administratoren beschränkt. [Weitere Informationen](../administration/ootb-product-profiles.md#journey-administrator)
+> * Die Konfiguration von Nachrichtenvorgaben ist auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator). Um Nachrichtenvorgaben zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die [Verwalten von Nachrichtenvorgaben](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Sie müssen die Konfigurationsschritte für E-Mail und [Push-Benachrichtigungen](../configuration/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
+> * Sie müssen [E-Mail-Konfiguration](#configure-email-settings) und [Push-Konfiguration](../configuration/push-configuration.md) Schritte vor der Erstellung von Nachrichtenvorgaben.
 
 
-Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
+Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus dem **[!UICONTROL Vorgaben]** Liste.
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
 
@@ -84,14 +84,15 @@ E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreins
 
 Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
 
-
 ### E-Mail-Typ{#email-type}
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
 
-Wählen Sie **Marketing** für Werbenachrichten. Diese Nachrichten erfordern das Einverständnis des Benutzers.
+* Wählen Sie **Marketing** für Werbenachrichten. Diese Nachrichten erfordern das Einverständnis des Benutzers.
 
-Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+* Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+
+Wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message)müssen Sie eine gültige Nachrichtenvorgabe für die ausgewählte Kategorie und den/die Kanal(e) auswählen.
 
 >[!CAUTION]
 >

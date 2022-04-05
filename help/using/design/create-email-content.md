@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 91%
+source-wordcount: '497'
+ht-degree: 92%
 
 ---
 
@@ -94,9 +94,3 @@ Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führ
 1. Wenn Ihre E-Mail fertig ist, klicken Sie auf **[!UICONTROL Speichern und schließen]**.
 
 Ihr E-Mail-Inhalt kann jetzt in einer Nachricht verwendet werden. [Erfahren Sie, wie Sie eine Nachricht senden](../messages/publish-manage-message.md).
-
-## Anleitungsvideo {#video}
-
-Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
-
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

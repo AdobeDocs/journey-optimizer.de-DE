@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,11 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 
 ## Auswählen der Testprofile {#select-test-profiles}
 
-Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten. Weitere Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../../segment/creating-test-profiles.md).
+Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten.
+
+>[!CAUTION]
+>
+>Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '656'
+ht-degree: 94%
 
 ---
 
@@ -72,6 +72,10 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
    * Sie können durch Aktivieren der entsprechenden Option auswählen, ob der Link unterstrichen werden soll oder nicht.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>E-Mail-Nachrichten vom Typ Marketing müssen eine [Ausschluss-Link](../messages/consent.md#opt-out-management), was für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Meldungsvoreinstellungsebene](../configuration/message-presets.md#email-type) und wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message).
 
 ## Link zu einer Mirrorseite {#mirror-page}
 

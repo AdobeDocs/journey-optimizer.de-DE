@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
@@ -36,4 +36,11 @@ Diese Funktionen stehen beim Aufrufen von Email Designer im Bildschirm „Nachri
 >[!NOTE]
 >
 >Beachten Sie, dass die Vorlagen im unteren Bereich statisch sind und nicht bearbeitet werden können. Die Vorlagen dienen nur der Illustration.
-Nachdem Sie [Ihre Nachricht erstellt](../messages/get-started-content.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
+>
+>Nachdem Sie [Ihre Nachricht erstellt](../messages/get-started-content.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

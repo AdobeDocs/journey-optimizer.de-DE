@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 98%
+source-wordcount: '995'
+ht-degree: 93%
 
 ---
 
@@ -88,6 +88,10 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
    >Die Landingpage-URL muss eindeutig sein.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen, wie hier beschrieben: [diesem Abschnitt](#test-landing-page).
 
 1. Sie können ein Ablaufdatum für Ihre Seite festlegen. In diesem Fall müssen Sie eine Aktion nach Ablauf der Seite auswählen:
 
@@ -175,7 +179,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. <!--For example, a message will display if -->
 
-* **Fehler** verhindern, dass Sie die Nachricht veröffentlichen, solange nicht alle Fehler behoben sind. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
+* **Fehler** verhindert, dass Sie die Landingpage veröffentlichen, solange sie nicht aufgelöst wurde. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
