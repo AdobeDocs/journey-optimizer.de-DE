@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 98%
+source-wordcount: '420'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Wählen Sie das Datum für die Ausführung der nächsten Aktivität aus.
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
-Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, wobei Sie einen erweiterten Ausdruck verwenden, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](expression/expressionadvanced.md). Weitere Informationen zum Format „dateTimeOnly“ finden Sie in der [Dokumentation zu Journey Orchestration](expression/data-types.md).
+Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, wobei Sie einen erweiterten Ausdruck verwenden, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum &quot;dateTimeOnly&quot;-Format finden Sie in diesem [page](expression/data-types.md).
 
 >[!NOTE]
 >

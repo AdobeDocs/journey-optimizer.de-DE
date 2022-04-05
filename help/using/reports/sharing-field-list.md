@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| requestId | Zeichenfolge | Die von Journey Orchestration verwendete Anfrage-ID, um den Fluss einer Anfrage zu verfolgen. |
+| requestId | Zeichenfolge | Die Anfrage-ID, die von Journey Optimizer zum Verfolgen des Anfrageflusses verwendet wird. |
 
 ## journey {#journey-field}
 
