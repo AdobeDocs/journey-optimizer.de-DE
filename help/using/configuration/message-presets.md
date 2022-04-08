@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 87%
+source-wordcount: '2271'
+ht-degree: 84%
 
 ---
 
@@ -84,12 +84,12 @@ E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreins
 
 Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
 
-### E-Mail-Typ{#email-type}
+### E-Mail-Typ {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Email type"
->abstract="Noch auszufüllen"
+>title="E-Mail-Kategorie definieren"
+>abstract="Wählen Sie den Nachrichtentyp aus, der bei Verwendung dieser Vorgabe gesendet werden soll: Marketing für Werbenachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionsnachrichten für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
 
@@ -193,12 +193,13 @@ Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-A
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-### E-Mail-Wiederholungsparameter{#email-retry}
+### E-Mail-Wiederholungsparameter {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Zeitraum für die E-Mail-Wiederholung"
->abstract="Noch auszufüllen"
+>title="Anpassen des Wiederholungszeitraumes"
+>abstract="Wiederholungen werden 3,5 Tage lang (84 Stunden) durchgeführt, wenn eine E-Mail-Nachricht aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Über weitere Versuche"
 
 Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
 
