@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2194'
 ht-degree: 87%
 
 ---
@@ -85,6 +85,11 @@ E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreins
 Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
 
 ### E-Mail-Typ{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Email type"
+>abstract="Noch auszufüllen"
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
 
@@ -189,6 +194,11 @@ Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-A
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
 ### E-Mail-Wiederholungsparameter{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Zeitraum für die E-Mail-Wiederholung"
+>abstract="Noch auszufüllen"
 
 Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
 
