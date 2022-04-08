@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 34%
+source-wordcount: '1589'
+ht-degree: 33%
 
 ---
 
@@ -23,6 +24,11 @@ ht-degree: 34%
 >id="od_offer_priority"
 >title="Informationen zur Angebotspriorität "
 >abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Berechtigung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Priorität"
+>abstract="Mit der Priorität wird die Priorität des Angebots im Vergleich zu anderen definiert, wenn der Benutzer sich für mehr als ein Angebot qualifiziert. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten."
 
 Mit Einschränkungen können Sie die Bedingungen definieren, unter denen ein Angebot angezeigt werden soll.
 
@@ -49,6 +55,11 @@ Wenn Sie beispielsweise die folgenden Einschränkungen festlegen:
 * Das Angebot wird nur einmal pro Benutzer für alle Platzierungen angezeigt.
 
 ## Förderfähigkeit {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Förderfähigkeit"
+>abstract="Die Angebotseignung ermöglicht es Ihnen, das Angebot auf bestimmte Profile zu beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Informationen zur Begrenzung von Angeboten"
->abstract="In diesem Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann."
+>title="Begrenzung"
+>abstract="Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen."
 
 Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen.
 

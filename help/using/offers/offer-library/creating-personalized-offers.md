@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '673'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,11 @@ Die Liste der personalisierten Angebote ist im Menü **[!UICONTROL Angebote]** v
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="Info zu Angebotsattributen"
+>abstract="Mit Angebotsattributen können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="Angebotsattribute"
 >abstract="Mit Angebotsattributen können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen."
 
 Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:

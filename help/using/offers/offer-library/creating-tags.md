@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
-# Tags erstellen {#create-tags}
+# Erstellen von Tags {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Tags"
+>abstract="Verknüpfen Sie ein oder mehrere Tags mit dem Angebot, um die Angebotsbibliothek besser zu organisieren und Angebote leichter zu finden. Tags werden über das Menü &quot;Komponente&quot;erstellt."
 
 Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
 

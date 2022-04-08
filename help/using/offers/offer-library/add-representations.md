@@ -5,14 +5,20 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
 # Hinzufügen von Darstellungen zu Angeboten {#add-representations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_representation"
+>title="Darstellungen"
+>abstract="Fügen Sie Darstellungen hinzu, um festzulegen, wo Ihr Angebot in der Nachricht angezeigt werden soll. Je mehr Darstellungen ein Angebot hat, desto mehr Möglichkeiten gibt es, das Angebot in verschiedenen Platzierungskontexten zu verwenden&quot;.
 
 Ein Angebot kann in einer Nachricht an verschiedenen Stellen angezeigt werden: in einem oberen Banner mit einem Bild, als Text in einem Absatz, als HTML-Block usw. Je mehr Darstellungen ein Angebot hat, desto mehr Möglichkeiten gibt es, das Angebot in verschiedenen Platzierungskontexten zu verwenden.
 

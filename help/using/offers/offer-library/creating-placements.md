@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '271'
+ht-degree: 84%
 
 ---
 
-# Platzierungen erstellen {#create-placements}
+# Erstellen von Platzierungen {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Platzierung"
+>abstract="Eine Platzierung ist ein Container, der zur Präsentation von Angeboten verwendet wird. Dadurch wird sichergestellt, dass der richtige Angebotsinhalt an der richtigen Stelle in Ihrer Nachricht angezeigt wird. Platzierungen werden im Menü &quot;Komponenten&quot;erstellt."
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
