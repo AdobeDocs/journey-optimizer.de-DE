@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Zu den Vorteilen zählen:
 * Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen erstellen zu müssen, können Marketing-Teams Workflows optimieren, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
 * Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
-➡️ [Weitere Informationen zur Entscheidungsverwaltung finden Sie in diesen Videos](#video)
+➡️ [Weitere Informationen zum Entscheidungs-Management finden Sie in diesen Videos](#video)
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
