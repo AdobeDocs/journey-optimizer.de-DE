@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 94%
+source-wordcount: '940'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 94%
 >id="ajo_admin_config_lp_subdomain"
 >title="Erstellen einer Landingpage-Voreinstellung"
 >abstract="Um eine Landingpage-Vorgabe erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste &quot;Subdomain-Name&quot;ausgewählt werden soll."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Zuweisen einer Subdomain für die Landingpage"
+>abstract="Sie müssen eine Subdomain für Ihre Landingpages konfigurieren, da diese Subdomain zum Erstellen einer Landingpage-Vorgabe erforderlich ist. Sie können eine bereits an Adobe delegierte Subdomain verwenden oder eine neue Subdomain konfigurieren."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
 
 Um [Landingpage-Vorgaben erstellen](#lp-create-preset)müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden.
 
