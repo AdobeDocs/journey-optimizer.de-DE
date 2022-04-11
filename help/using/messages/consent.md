@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1279'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Meldungsvoreinstellungsebene](../configuration/message-presets.md#email-type) und wann [Nachricht erstellen](get-started-content.md#create-new-message).
+>Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
 
 ### Externes Opt-out {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 #### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
+****[](https://developer.adobe.com/)
 
-Dieser POST-Aufruf sieht wie folgt aus:
+This POST call is as follows:
 
 Endpunkt: platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API-Aufruf.
+[!DNL Journey Optimizer][](https://developer.adobe.com)
 
 #### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert und den API-Aufr
 
    ![](assets/opt-out-lp-example.png)
 
-1. Wenn der Empfänger das Formular sendet (hier durch Drücken der **Abmelden** -Schaltfläche in Ihrer Landingpage) werden die Profildaten über die [API-Aufruf](#opt-out-api).
+1. ****[](#opt-out-api)
 
 1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 
@@ -161,7 +161,7 @@ Gehen Sie wie folgt vor, um einen Opt-out-Link zu Ihrer E-Mail hinzuzufügen.
 
    >[!NOTE]
    >
-   >Wenn Sie die **List-Unsubscribe** auf der Ebene der Nachrichtenvorgabe verwenden, wird diese URL auch verwendet, wenn Benutzer auf den Link zum Abmelden im E-Mail-Header klicken. [Weitere Informationen](#unsubscribe-header)
+   >Wenn Sie die Option **Abmelden von einer Liste** auf der Ebene der Nachrichtenvoreinstellung verwenden, wird diese URL auch verwendet, wenn Benutzer auf den Abmelde-Link in der E-Mail-Kopfzeile klicken. [Weitere Informationen](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,11 +175,11 @@ Wenn Ihre Nachricht über eine [Journey](../building-journeys/journey.md) gesend
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Abmelde-Link zum E-Mail-Header hinzufügen"
->abstract="Aktivieren Sie List-Unsubscribe , um einen Abmelde-Link zum E-Mail-Header hinzuzufügen. Um eine Abmelde-URL festzulegen, fügen Sie einen 1-Klick-Ausschluss-Link in den Inhalt der E-Mail-Nachricht ein."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Opt-out mit einem Klick"
+>title="Hinzufügen eines Abmelde-Links zur E-Mail-Kopfzeile"
+>abstract="Aktivieren Sie „Abmelden von einer Liste“, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=de#one-click-opt-out" text="Opt-out mit einem Klick"
 
-Wenn die Variable [List-Unsubscribe-Option](../configuration/message-presets.md#list-unsubscribe) auf der Ebene der Nachrichtenvorgabe aktiviert ist, werden die entsprechenden E-Mails mit [!DNL Journey Optimizer] enthält einen Abmelde-Link in den E-Mail-Header.
+Wenn die Option [Abmelden von einer Liste](../configuration/message-presets.md#list-unsubscribe) auf der Ebene der Nachrichtenvoreinstellung aktiviert ist, enthalten die entsprechenden mit [!DNL Journey Optimizer] gesendeten E-Mails einen Abmelde-Link in der E-Mail-Kopfzeile.
 
 Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 
@@ -187,21 +187,21 @@ Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 
 >[!NOTE]
 >
->Um den Abmelde-Link im E-Mail-Header anzuzeigen, muss der E-Mail-Client der Empfänger diese Funktion unterstützen.
+>Um den Abmelde-Link in der E-Mail-Kopfzeile anzuzeigen, muss der E-Mail-Client der Empfänger diese Funktion unterstützen.
 
-Die Abmelde-Adresse ist die Standardeinstellung. **[!UICONTROL Mailto (unsubscribe)]** -Adresse, die in der entsprechenden Nachrichtenvorgabe angezeigt wird. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe).
+Die Abmelde-Adresse ist die Standardadresse **[!UICONTROL Mailto (unsubscribe)]**, die in der entsprechenden Nachrichtenvoreinstellung angezeigt wird. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe).
 
-Um eine personalisierte Abmelde-URL festzulegen, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein und geben Sie die URL Ihrer Wahl ein. [Weitere Informationen](#one-click-opt-out)
+Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein und geben Sie die gewünschte URL ein. [Weitere Informationen](#one-click-opt-out)
 
-Je nach E-Mail-Client können die folgenden Auswirkungen auftreten, wenn Sie in der Kopfzeile auf den Abmelde-Link klicken:
+Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine der folgenden Auswirkungen:
 
-* Die Abmelde-Anfrage wird an die Standard-Abmelde-Adresse gesendet.
+* Die Abmelde-Anfrage wird an die Standard-Abmeldeadresse gesendet.
 
-* Der Empfänger wird an die Landingpage-URL weitergeleitet, die Sie beim Hinzufügen des Ausschluss-Links zu Ihrer Nachricht angegeben haben.
+* Der Empfänger wird an die Landingpage-URL weitergeleitet, die Sie beim Hinzufügen des Abmelde-Links zu Ihrer Nachricht angegeben haben.
 
    >[!NOTE]
    >
-   >Wenn Sie keinen Ausschluss-Link mit einem Klick in Ihren Nachrichteninhalt einfügen, wird keine Landingpage angezeigt.
+   >Wenn Sie keinen 1-Klick-Abmelde-Link in Ihren Nachrichteninhalt einfügen, wird keine Landingpage angezeigt.
 
 * Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 

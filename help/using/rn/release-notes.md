@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2941'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgelistet. Auf der Seite [Letzte Dokumentations-Updates](documentation-updates.md) finden Sie weitere Änderungsmöglichkeiten.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich für die [Vierteljährlicher Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} noch heute verwenden und jedes Quartal direkt in Ihren Posteingang die neuesten Produktaktualisierungen, spannenden Meldungen, Anwendungsbeispiele, Tipps und mehr erhalten.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
 ## Version März 2022 {#march-2022-release}
@@ -22,18 +22,18 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Journeys**
 
-* Um zu vermeiden, dass im einheitlichen Profilschema unnötige Felder vorhanden sind, ist das Journey Step Event-Schema nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie sie aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
+* Um im einheitlichen Profilschema unnötige Felder zu vermeiden, ist das Schema „Journey-Schrittereignisse“ nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie es aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
 * Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
 
 **Entscheidungs-Management**
 
-* Sie können jetzt festlegen, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil sowie für alle Platzierungen oder pro Platzierung gilt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Mit der Batch Decisioning-API können Unternehmen die offer decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist. [Weitere Informationen](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Mit der Batch Decisioning-API können Unternehmen die Offer-Decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Administration**
 
-* Sie können jetzt den Abmelde-Link im/vom E-Mail-Header auf der Vorgabenebene der Nachricht aktivieren/deaktivieren und eine benutzerdefinierte Abmelde-URL auf Meldungsebene festlegen. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe)
-* Die Zulassungsliste kann jetzt über das [!DNL Journey Optimizer] -Schnittstelle für Produktions- und Nicht-Produktions-Sandboxes. [Weitere Informationen](../reports/allow-list.md#enable-allow-list)
+* Sie können jetzt den Abmelde-Link im E-Mail-Header auf der Voreinstellungsebene der Nachricht aktivieren/deaktivieren und eine benutzerdefinierte Abmelde-URL auf Nachrichtenebene festlegen. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe)
+* Die Zulassungsliste kann jetzt über die [!DNL Journey Optimizer]-Benutzeroberfläche für Produktions- und Nicht-Produktions-Sandboxes aktiviert und deaktiviert werden. [Weitere Informationen](../reports/allow-list.md#enable-allow-list)
 
 **Personalisierung**
 
@@ -113,7 +113,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
 * Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
@@ -170,7 +170,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 
@@ -250,7 +250,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einem Segment eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
 
@@ -259,7 +259,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../building-journeys/collections.md)
 * **Listen** – Die Bildschirme „Listen“ für Journeys, Ereignisse, Aktionen und Datenquellen wurden verbessert.
 
-**Berichterstellung**
+**Reporting**
 
 * **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten. [Weitere Informationen](../reports/message-monitoring.md)
 
@@ -328,7 +328,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](../reports/sharing-overview.md)
 * Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/about-journey-activities.md#best-practices)
@@ -431,7 +431,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
@@ -508,7 +508,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journey**
+**Journeys**
 
 * Die Gesamteinschränkungsrate aller Segment-Lesen-Schritte, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)

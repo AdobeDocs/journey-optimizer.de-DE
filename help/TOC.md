@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -39,20 +39,20 @@ ht-degree: 94%
    + [Einverständnisverwaltung](using/messages/consent.md)
 + Inhaltserstellung {#design}
    + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
-   + [Neu beginnen ](using/design/create-email-content.md)
-   + [E-Mail-Inhalt importieren](using/design/existing-content.md)
-   + [Code Ihres eigenen Inhalts](using/design/code-content.md)
+   + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
+   + [Importieren von E-Mail-Inhalten](using/design/existing-content.md)
+   + [Programmieren von eigenem Inhalt](using/design/code-content.md)
    + Inhaltserstellung {#design-content}
-      + [Inhaltskomponenten verwenden](using/design/content-components.md)
+      + [Verwenden von Inhaltskomponenten](using/design/content-components.md)
       + [Hintergrundeinstellungen](using/design/backgrounds.md)
       + [Anpassen der senkrechten Ausrichtung und des Abstands](using/design/adjusting-vertical-alignment-and-padding.md)
       + [Definieren eines Stils für Links](using/design/styling-links.md)
       + [Hinzufügen von Inline-Stilattributen](using/design/adding-inline-styling-attributes.md)
    + E-Mail-Einstellungen {#design-email}
-      + [Textversion generieren](using/design/text-version-email.md)
+      + [Generieren der Textversion](using/design/text-version-email.md)
       + [Hinzufügen eines Preheaders](using/design/preheader.md)
    + Hinzufügen und Verwalten von Assets {#manage-asset}
-      + [Arbeiten mit Assets Essentials](using/design/assets-essentials.md)
+      + [Verwenden von Assets Essentials](using/design/assets-essentials.md)
    + [Hinzufügen personalisierter Angebote](using/design/deliver-personalized-offers.md)
    + [Hinzufügen von Links und Verfolgen von Nachrichten](using/design/message-tracking.md)
    + [Vorschau und Testversand](using/design/preview.md)
@@ -63,7 +63,7 @@ ht-degree: 94%
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte   bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
@@ -219,15 +219,15 @@ ht-degree: 94%
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
       + [Live-Bericht zum E-Mail-Versand](using/reports/email-live-report.md)
       + [Live-Bericht zu Push-Benachrichtigungen](using/reports/push-live-report.md)
-      + [Live-Bericht für Landingpage](using/reports/lp-report-live.md)
-      + [Live-Bericht zur Abonnementliste](using/reports/subscription-report-live.md)
+      + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
+      + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
       + [Zugreifen auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
       + [Globaler Bericht zum E-Mail-Versand](using/reports/email-global-report.md)
       + [Globaler Bericht zu Push-Benachrichtigungen](using/reports/push-global-report.md)
-      + [Landingpage Globaler Bericht](using/reports/lp-report-global.md)
-      + [Abonnementliste Allgemeiner Bericht](using/reports/subscription-report-global.md)
+      + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
+      + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)
@@ -260,8 +260,8 @@ ht-degree: 94%
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
       + Angebote konfigurieren {#configure-offers}
          + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
-         + [Hinzufügen von Darstellungen](using/offers/offer-library/add-representations.md)
-         + [Einschränkungen hinzufügen](using/offers/offer-library/add-constraints.md)
+         + [Add representations](using/offers/offer-library/add-representations.md)
+         + [Add constraints](using/offers/offer-library/add-constraints.md)
       + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
       + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)
    + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
@@ -352,7 +352,7 @@ ht-degree: 94%
          + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
       + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
-      + [Häufigkeitsregeln konfigurieren](using/configuration/frequency-rules.md)
+      + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
    + [Konfigurieren von Landingpages](using/configuration/lp-configuration.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
