@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 87%
+source-wordcount: '996'
+ht-degree: 82%
 
 ---
 
@@ -78,6 +78,11 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
 ### Konfigurieren einer neuen Subdomain {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Den entsprechenden DNS-Eintrag generieren"
+>abstract="Um eine neue Landingpage-Subdomain zu konfigurieren, müssen Sie die auf der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Server-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um den entsprechenden DNS-Eintrag zu generieren. Nach erfolgreicher Überprüfung kann die Subdomain zur Erstellung von Landingpage-Vorgaben verwendet werden."
 
 Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 

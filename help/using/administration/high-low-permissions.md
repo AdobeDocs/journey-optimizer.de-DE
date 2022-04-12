@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 98%
+source-wordcount: '1141'
+ht-degree: 96%
 
 ---
 
@@ -430,3 +430,23 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * landing_page_preset.read
    * landing_page_preset.write
    * landing_page_preset.delete
+
+### Berechtigung [!DNL Manage frequency rules] {#manage-frequency-rules}
+
+Die **[!DNL Manage frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln lesen, erstellen, bearbeiten, löschen und aktivieren/deaktivieren.
+
+Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+
+* Spezifisch für Journey Optimizer:
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
+
+### Berechtigung [!DNL View frequency rules] {#view-frequency-rules}
+
+Die **[!DNL View frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln anzeigen.
+
+Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+
+* Spezifisch für Journey Optimizer:
+   * frequency_rules.read

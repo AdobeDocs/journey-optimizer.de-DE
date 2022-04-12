@@ -5,10 +5,10 @@ description: Übersicht über den KI-Service
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ Durch die Integration von [!DNL Journey Optimizer] mit [!DNL Intelligent Service
 
 Kunden-KI ist Teil von [!DNL Adobe Intelligent Services]. Der Service hilft vorauszusagen, was ein Kunde wahrscheinlich tun wird. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=de){target=&quot;_blank&quot;}.
 
-Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die anschließend als Profilattribute in den Adobe Experience Platform-Profilen (Echtzeit-Kundenprofilen) verfügbar sind.
+Mit Customer AI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die als Profilattribute in Adobe Experience Platform-Profilen (Echtzeit-Kundenprofil) verfügbar sind.
 
 Folglich können sie wie jedes andere Profilattribut in den Bedingungen von Journey Optimizer (zum Treffen der besten Entscheidungen), bei Aktionen oder beim Erstellen von Segmenten verwendet werden.
 

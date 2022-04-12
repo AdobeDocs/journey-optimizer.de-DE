@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 33%
 
 ---
@@ -133,7 +133,7 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
    >[!NOTE]
    >
-   >Die Zahl muss größer als 0 sein.
+   >Die Zahl muss eine Ganzzahl größer 0 sein.
 
 1. Geben Sie an, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
 
@@ -147,15 +147,15 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
       Wenn Sie z. B. eine Bank mit dem Angebot &quot;Platin-Kreditkarte&quot;sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Sie glauben sogar, dass der Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eine höhere Chance hat, das nächste beste Angebot zu nutzen.
 
-1. Wenn Sie mehrere [Darstellungen](#representations) Geben Sie für Ihr Angebot an, ob Sie eine Begrenzung auf **[!UICONTROL Alle Platzierungen]** oder **[!UICONTROL Pro Platzierung]**.
+1. Wenn Sie mehrere [Darstellungen](#representations) Geben Sie für Ihr Angebot an, ob Sie eine Begrenzung anwenden möchten. **[!UICONTROL Platzierungsübergreifend]** oder **[!UICONTROL Für jede Platzierung]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Alle Platzierungen]**: Begrenzungszahlen führen zu allen Entscheidungen über alle Platzierungen hinweg, die mit dem Angebot verbunden sind.
+   * **[!UICONTROL Platzierungsübergreifend]**: Begrenzungszahlen führen zu allen Entscheidungen über alle Platzierungen hinweg, die mit dem Angebot verbunden sind.
 
       Wenn beispielsweise ein Angebot über eine **Email** Platzierung und **Web** Platzierung, und Sie legen die Begrenzung auf **2 pro Profil für alle Platzierungen** festgelegt ist, kann jedes Profil unabhängig vom Platzierungsmix das Angebot insgesamt bis zu zweimal erhalten.
 
-   * **[!UICONTROL Pro Platzierung]**: Begrenzungszahlen wenden die Entscheidungszählungen für jede Platzierung separat an.
+   * **[!UICONTROL Für jede Platzierung]**: Begrenzungszahlen wenden die Entscheidungszählungen für jede Platzierung separat an.
 
       Wenn beispielsweise ein Angebot über eine **Email** Platzierung und **Web** Platzierung, und Sie legen die Begrenzung auf **2 pro Profil für jede Platzierung** festgelegt ist, kann jedes Profil das Angebot bis zu zwei Mal für die E-Mail-Platzierung und ein zweites Mal für die Webplatzierung erhalten.
 

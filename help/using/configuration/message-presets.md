@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2271'
-ht-degree: 84%
+source-wordcount: '2350'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 
 >[!CAUTION]
 >
-> * Die Konfiguration von Nachrichtenvorgaben ist auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator). Um Nachrichtenvorgaben zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die [Verwalten von Nachrichtenvorgaben](../administration/high-low-permissions.md#manage-message-presets).
+> * Um Nachrichtenvorgaben zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die [Verwalten von Nachrichtenvorgaben](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * Sie müssen [E-Mail-Konfiguration](#configure-email-settings) und [Push-Konfiguration](../configuration/push-configuration.md) Schritte vor der Erstellung von Nachrichtenvorgaben.
 
@@ -29,6 +29,11 @@ Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstel
 ➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
 
 ## Nachrichtenvoreinstellungen erstellen {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Details und Einstellungen von Nachrichtenvorgaben"
+>abstract="Durch die Einrichtung einer Nachrichtenvorgabe können Sie den Kanal auswählen, auf den sie angewendet wird, und alle technischen Parameter definieren, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, zu verwendende Subdomain, Absendername, Mobile Apps usw."
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
@@ -97,11 +102,11 @@ Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Vorei
 
 * Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
-Wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message)müssen Sie eine gültige Nachrichtenvorgabe für die ausgewählte Kategorie und den/die Kanal(e) auswählen.
-
 >[!CAUTION]
 >
 >**Transaktions**-Nachrichten können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+
+Wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message)müssen Sie eine gültige Nachrichtenvorgabe auswählen, die der für Ihre Nachricht ausgewählten Kategorie entspricht.
 
 ### Subdomain und IP-Pool {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vo
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
 
 1. Wählen Sie den IP-Pool aus, der mit der Voreinstellung verknüpft werden soll. [Weitere Informationen](ip-pools.md)
+
+>[!NOTE]
+>
+>Bei Nicht-Produktionsumgebungen erstellt Adobe keine nativen Testunterdomänen und gewährt keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](delegate-subdomain.md) und verwenden Sie die IPs aus dem Pool, der Ihrer Organisation zugewiesen ist.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folg
 * Für E-Mails vom Typ Marketing beträgt der Mindestzeitraum für weitere Zustellversuche 6 Stunden.
 * Für E-Mails vom Typ Transaktion beträgt der Mindestzeitraum für weitere Zustellversuche 10 Minuten.
 * Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuche 84 Stunden (d. h. 5.040 Minuten).
+
+Erfahren Sie mehr über weitere Zustellversuche in [diesem Abschnitt](retries.md).
 
 ## Konfigurieren der Push-Einstellungen {#configure-push-settings}
 

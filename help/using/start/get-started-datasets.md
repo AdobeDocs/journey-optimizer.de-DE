@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 95%
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Das Hinzufügen von Daten zu Adobe Experience Platform bildet die Grundlage für
 
 ➡️ [In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen und konfigurieren.](#video-dataset)
 
-Der Arbeitsbereich **Datensätze** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht es Ihnen, Daten zu durchsuchen und Datensätze zu erstellen.
+Die **Datensätze** Arbeitsbereich in [!DNL Adobe Journey Optimizer] Mithilfe der Benutzeroberfläche können Sie Daten untersuchen und Datensätze erstellen.
 
 ![](assets/datasets-home.png)
 

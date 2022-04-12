@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 92%
 
 ---
 
 # Erstellen von IP-Pools {#create-ip-pools}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool"
+>title="Einrichten eines IP-Pools"
+>abstract="Sie können IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu gruppieren und so die Zustellbarkeit Ihrer E-Mails zu verbessern."
+
 ## Über IP-Pools {#about-ip-pools}
 
-Mit Journey Optimizer können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu Gruppen zusammenzufassen.
+Mit [!DNL Journey Optimizer]können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu gruppieren.
 
 Zur verbesserten Zustellbarkeit von E-Mails wird dringend empfohlen, IP-Pools zu erstellen. Auf diese Weise können Sie verhindern, dass die Reputation einer Subdomain eine Auswirkung auf Ihre anderen Subdomains hat.
 

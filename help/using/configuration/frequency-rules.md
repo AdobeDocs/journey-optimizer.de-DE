@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 2%
+source-wordcount: '790'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +31,11 @@ Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesend
 
 Regeln sind im Abschnitt **[!UICONTROL Administration]** > **[!UICONTROL Regeln]** Menü. Alle Regeln werden aufgelistet, sortiert nach Änderungsdatum.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>Zum Zugreifen auf, Erstellen, Bearbeiten oder Löschen von Regeln für die Häufigkeit von Nachrichten benötigen Sie die [Häufigkeitsregeln verwalten](../administration/high-low-permissions.md#manage-frequency-rules) Berechtigung.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Verwenden Sie das Filtersymbol, um nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Titel der Nachricht suchen.
 
@@ -134,6 +136,10 @@ Alle Häufigkeitsregeln, die mit der ausgewählten Kategorie und den ausgewählt
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im Abschnitt [Live- und globale Ansichten](../reports/message-monitoring.md)und im [E-Mail-Live-Bericht](../reports/email-live-report.md), wobei Häufigkeitsregeln als möglicher Grund für Benutzer aufgeführt werden, die vom Versand ausgeschlossen sind.
+
+>[!NOTE]
+>
+>Für denselben Kanal können mehrere Regeln gelten, aber sobald die untere Begrenzung erreicht ist, wird das Profil von den nächsten Sendungen ausgeschlossen.
 
 ## Beispiel: mehrere Regeln kombinieren {#frequency-rule-example}
 
