@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Sie können eine Journey veröffentlichen, nachdem Sie ihre Gültigkeit getestet haben.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Wenn Sie eine veröffentlichte Journey ändern möchten, müssen Sie eine neue Version Ihrer Journey erstellen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-versions.md). Wenn eine Journey schreibgeschützt ist, können Sie nur die Titel und Beschreibungen der Aktivitäten, den Namen der Journey und die Beschreibung der Journey ändern.
 
