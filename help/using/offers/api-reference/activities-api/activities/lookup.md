@@ -1,5 +1,5 @@
 ---
-title: 'Entscheidung nachschlagen '
+title: Nachschlagen von Entscheidungen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
 
-# Entscheidung nachschlagen {#look-up-decision}
+# Nachschlagen von Entscheidungen {#look-up-decision}
 
 Sie können einzelne Entscheidungen (früher als Angebotsaktivitäten bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Entscheidungs-`@id` oder den Namen der Entscheidung im Anfragepfad enthält.
 
