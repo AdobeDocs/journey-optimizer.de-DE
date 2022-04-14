@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_message"
->title="Nachrichtenaktivität"
->abstract="Die Aktivität Nachricht ermöglicht den Versand von Push- oder E-Mail-Nachrichten. Journey Optimizer-Nachrichtenfunktionen sind integriert. Die Nachricht wird im Menü Nachrichten von Journey Optimizer erstellt und veröffentlicht."
+>title="Aktivität „Nachricht“"
+>abstract="Die Aktivität „Nachricht“ ermöglicht den Versand von Push- oder E-Mail-Nachrichten. Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Die Erstellung und Veröffentlichung von Nachrichten erfolgt in Journey Optimizer im Menü „Nachrichten“."
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie müssen nur den Inhalt gestalten und Ihre Nachricht veröffentlichen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../messages/get-started-content.md). Anschließend fügen Sie einfach eine Push- oder E-Mail-Nachricht in Ihre Journey ein, die mit Journey Optimizer entworfen wurde.
 
