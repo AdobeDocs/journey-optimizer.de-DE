@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 ## Wichtige Hinweise {#important-notes}
 
 * Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar.
-* Das Ereignisschema muss eine nicht personenbasierte primäre Identität enthalten. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
+* Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
 * Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
@@ -84,7 +84,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
    ![](assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine nicht personenbasierte primäre Identität enthalten. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
+   Es sind nur Schemas für Zeitreihen verfügbar. Erlebnisereignis-, Entscheidungsereignis- und Journey-Schritt-Ereignis-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 
    ![](assets/test-profiles-4.png)
 
