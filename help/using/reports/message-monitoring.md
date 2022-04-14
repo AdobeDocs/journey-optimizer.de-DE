@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Um sicherzustellen, dass Ihre Nachrichten erfolgreich ausgeführt, gesendet und zugestellt werden, bietet [!DNL Journey Optimizer] Funktionen zum Überwachen der aktuell veröffentlichten und ausgelösten Nachrichten. Sie können sehen, wie sich Ihre Nachrichten <!--and APIs--> in Echtzeit verhalten, wenn Sie die Liste **[!UICONTROL Ausführungen]** aufrufen.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Um auf diese Liste zuzugreifen, wählen Sie auf der Startseite von **[!DNL Journey Optimizer]** die Option **[!UICONTROL Nachrichten]** und klicken Sie auf die Registerkarte **[!UICONTROL Ausführungen]**.
 
@@ -98,6 +98,6 @@ Wenn Sie auf einen Hyperlink klicken, wird die zugehörige Ansicht für die Nach
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie mehr über Live- und globale Berichte, wie Sie auf die Journey und die Message-spezifischen Berichte zugreifen und diese analysieren und wie Sie die Berichts-Dashboards ändern können.
+Erfahren Sie mehr zu Live- und globalen Berichten und erhalten Sie Informationen dazu, wie Sie auf Journey- und nachrichtenspezifische Berichte zugreifen und diese analysieren und die Berichts-Dashboards ändern können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)
