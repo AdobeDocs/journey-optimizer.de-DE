@@ -1,5 +1,5 @@
 ---
-title: Entscheidungen erstellen
+title: Erstellen von Entscheidungen
 description: Erfahren Sie, wie Sie Entscheidungen erstellen
 feature: Offers
 topic: Integrations
@@ -7,17 +7,17 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Entscheidungen erstellen {#create-offer-activities}
+# Erstellen von Entscheidungen {#create-offer-activities}
 
 Entscheidungen (früher als Angebotsaktivitäten bezeichnet) sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versands unterbreitet werden kann.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Angebotsaktivitäten erstellen.](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie Angebotsaktivitäten erstellen](#video)
 
 Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Registerkarte **[!UICONTROL Entscheidungen]** verfügbar. Es gibt Filter, mit denen Sie Entscheidungen anhand von Status oder Anfangs- und Enddatum abrufen können.
 
