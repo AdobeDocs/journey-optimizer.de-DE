@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS-Erstellung"
->abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit der Personalisierung mit dem Ausdruckseditor."
+>abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
 
 
 >[!CAUTION]
