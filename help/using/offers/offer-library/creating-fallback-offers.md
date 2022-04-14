@@ -6,17 +6,17 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
 ht-degree: 100%
 
 ---
 
-# Fallback-Angebote erstellen {#create-fallback-offers}
+# Erstellen von Fallback-Angeboten {#create-fallback-offers}
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der Fallback-Angebote ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
