@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Im **[!UICONTROL Live-Bericht]** sind Daten verfügbar, sobald Ihr Versand durch
 
    ![](assets/report_2.png)
 
-* Wenn Sie von der **[!UICONTROL Live-Bericht]** der **[!UICONTROL Gesamtbericht]** Klicken Sie für Ihren Versand auf **[!UICONTROL Globale Ansicht]** über den Tab-Umschalter aus.
+* Wenn Sie für Ihren Versand vom **[!UICONTROL Live-Bericht]** zum **[!UICONTROL globalen Bericht]** wechseln möchten, klicken Sie im Tab-Umschalter auf **[!UICONTROL Globale Ansicht]**.
 
    ![](assets/report_3.png)
 
@@ -36,7 +36,7 @@ Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widg
 
 1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-   Beachten Sie Folgendes: **[!UICONTROL Testereignisse ausschließen]** ist nur für Journey-Berichte verfügbar.
+   Beachten Sie, dass die Option **[!UICONTROL Test-Ereignisse ausschließen]** nur für Journey-Berichte verfügbar ist.
 
    ![](assets/report_modify_6.png)
 
