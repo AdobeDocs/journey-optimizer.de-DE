@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1646'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -109,7 +109,7 @@ Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNA
 >
 >Diese Methode wird empfohlen, wenn Ihre Unternehmensrichtlinien die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
-➡️ [In diesem Video erfahren Sie, wie Sie mit CNAME eine Subdomain erstellen, um auf Adobe-spezifische Datensätze zu verweisen.](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Datensätze zu verweisen](#video)
 
 Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 

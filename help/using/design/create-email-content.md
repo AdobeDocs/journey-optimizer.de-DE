@@ -1,6 +1,6 @@
 ---
 title: Entwerfen von E-Mails in Journey Optimizer
-description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen von Grund auf
+description: Erfahren Sie, wie Sie E-Mail-Inhalte   von Grund auf neu entwerfen
 feature: Overview
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Neu beginnen {#create-email-content}
+# Von Grund auf neu erstellen {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -29,11 +29,11 @@ Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu b
 
 Um bei der Erstellung Ihrer E-Mail-Inhalte mit Email Designer zu beginnen, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie auf der Startseite von Email Designer die **[!UICONTROL Design von Grund auf neu]** -Option.
+1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
    ![](assets/email_designer.png)
 
-1. Beginnen Sie mit der Erstellung Ihres E-Mail-Inhalts durch Drag &amp; Drop **[!UICONTROL Strukturkomponenten]** um das Layout Ihrer E-Mail zu definieren.
+1. Das Layout Ihrer E-Mail und ihres Inhalts können Sie durch Ziehen und Ablegen von **[!UICONTROL Strukturkomponenten]** konfigurieren.
 
    >[!NOTE]
    >

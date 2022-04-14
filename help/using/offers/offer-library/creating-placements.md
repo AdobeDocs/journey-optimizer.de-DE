@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Platzierungen erstellen.](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie Platzierungen erstellen](#video)
 
 Im folgenden Beispiel gibt es drei Platzierungen, die verschiedenen Inhaltstypen entsprechen (Bild, Text, HTML).
 

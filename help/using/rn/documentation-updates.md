@@ -19,9 +19,9 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Im Abschnitt **Offer Decisioning** wurde eine neue Seite über die ersten Schritte mit KI-Modellen hinzugefügt, die eine ausführliche Beschreibung des [automatischen Optimierungsmodells](../offers/offer-library/ai-ranking.md#auto-optimization), des verwendeten Algorithmus und weitere technische Details enthält. [Weitere Informationen](../offers/offer-library/ai-ranking.md)
 * Die Seite zur Erstellung von Testprofilen wurde in den Abschnitt **Segmente, Profile und Identität** verschoben. [Weitere Informationen](../segment/creating-test-profiles.md)
 * Es wurde ein Beispiel hinzugefügt, das erläutert, wie im Ausdruckseditor ein Ausdruck als Standardwert hinzugefügt wird. [Weitere Informationen](../building-journeys/expression/field-references.md#default-value)
-* **** [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md)
-* A new section has been added to describe the impacts that changing an offer&#39;s start and/or end dates may have on this offer&#39;s frequency capping. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-change-date)
-* **** [Weitere Informationen](../configuration/primary-email-addresses.md)
+* Die **Personalisierte Angebote erstellen** wurde neu organisiert, um die Lesbarkeit zu verbessern. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem die Auswirkungen beschrieben werden, die eine Änderung des Start- und/oder Enddatums eines Angebots auf die Frequenzlimitierung dieses Angebots haben kann - [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-change-date)
+* Die **Primäre E-Mail-Adressen ändern** wurde aktualisiert, um die Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
 ## Februar 2022 {#feb-2022}
 

@@ -10,7 +10,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 85%
 
 Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Siehe [diesen Abschnitt](../messages/get-started-content.md).
 
 Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
 
-Wenn Sie ein Drittanbietersystem verwenden, um Nachrichten wie Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase usw., müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
+Wenn Sie ein Drittanbietersystem verwenden, um Nachrichten wie Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase usw., müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
 Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
@@ -45,6 +45,6 @@ Um die Aktionsliste anzuzeigen oder eine neue Aktion zu konfigurieren, wählen S
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren.
+Erfahren Sie, wie Sie benutzerdefinierte Aktionen konfigurieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

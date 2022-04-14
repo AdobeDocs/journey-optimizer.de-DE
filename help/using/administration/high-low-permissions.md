@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -277,7 +277,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung [!DNL Manage ranking strategies] {#manage-ranking-strategies}
 
-Die **[!DNL Manage ranking strategies]** Mit allgemeinen Berechtigungen können Benutzer Rangstrategien lesen, erstellen, bearbeiten und löschen.
+Die Berechtigung auf hoher Ebene **[!DNL Manage ranking strategies]** ermöglicht es Benutzern, Rangfolgestrategien zu lesen, zu erstellen, zu bearbeiten und zu löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

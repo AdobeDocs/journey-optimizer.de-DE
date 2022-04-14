@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Die automatische Optimierung ist so konzipiert, dass binäre Belohnungen (Klick/
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target=&quot;_blank&quot;} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target=&quot;_blank&quot;}.
+Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target=&quot;_blank&quot;} mit einer [Beta-Verteilung](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
 
 Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilung hat die folgende Form:
 

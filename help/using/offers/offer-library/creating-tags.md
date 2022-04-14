@@ -24,7 +24,7 @@ Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispie
 
 Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
 

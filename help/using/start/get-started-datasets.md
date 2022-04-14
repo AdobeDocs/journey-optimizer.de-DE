@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/e
 
 Das Hinzufügen von Daten zu Adobe Experience Platform bildet die Grundlage für die Erstellung eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemas, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
 
-➡️ [In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen und konfigurieren.](#video-dataset)
+➡️ [In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen und konfigurieren](#video-dataset)
 
 Die **Datensätze** Arbeitsbereich in [!DNL Adobe Journey Optimizer] Mithilfe der Benutzeroberfläche können Sie Daten untersuchen und Datensätze erstellen.
 

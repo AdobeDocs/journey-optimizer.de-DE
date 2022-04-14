@@ -9,7 +9,7 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
->title="Sprung-Aktivität"
->abstract="Mit der Aktionsaktivität Sprung können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion ermöglicht es Ihnen, das Design sehr komplexer Journey zu vereinfachen und Journey basierend auf gemeinsamen und wiederverwendbaren Journey-Mustern zu erstellen."
+>title="Aktivität „Sprung“"
+>abstract="Mit der Aktionsaktivität „Sprung“ können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion ermöglicht es Ihnen, das Design sehr komplexer Journeys zu vereinfachen und Journeys basierend auf allgemeinen und wiederverwendbaren Journey-Mustern zu erstellen."
 
 Mit der Aktionsaktivität **[!UICONTROL Sprung]** können Sie Kontakte von einer Journey in eine andere bewegen. Diese Funktion unterstützt:
 

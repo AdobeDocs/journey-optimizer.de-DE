@@ -9,13 +9,13 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte beim Gestalten von E-Mails {#get-started-content-design}
+# Erste Schritte beim Entwerfen von E-Mails {#get-started-content-design}
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Textkörper]** aus.
 

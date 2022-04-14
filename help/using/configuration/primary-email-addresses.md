@@ -9,7 +9,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 36%
+ht-degree: 84%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 36%
 
 Wenn Sie ein Profil als Ziel auswählen, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (private, berufliche E-Mail-Adresse usw.).
 
-Mit [!DNL Journey Optimizer]können Sie festlegen, welche E-Mail-Adresse vom Profildienst verwendet werden soll und Prioritäten setzen, wenn mehrere Adressen verfügbar sind. Gehen Sie dazu wie folgt vor.
+Mit [!DNL Journey Optimizer] können Sie über den Profil-Service bestimmen, welche E-Mail-Adresse verwendet werden soll, und Prioritäten setzen, wenn mehrere Adressen verfügbar sind. Gehen Sie dazu wie folgt vor.
 
-1. Zugriff auf  **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]** Menü.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]**.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. Auf diesem Bildschirm wird das derzeit standardmäßig zur Bestimmung der E-Mail-Adressen der Profile verwendete Feld angezeigt. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Einstellung zu ändern.
+1. Daraufhin wird ein Bildschirm mit einem Feld angezeigt, das standardmäßig zum Festlegen der E-Mail-Adressen der Profile verwendet wird. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Einstellung zu ändern.
 
    ![](assets/primary-address.png)
 
@@ -36,11 +36,11 @@ Mit [!DNL Journey Optimizer]können Sie festlegen, welche E-Mail-Adresse vom Pro
 
    ![](assets/primary-address-edit.png)
 
-1. Die Liste der verfügbaren XDM-Felder vom Typ E-Mail wird angezeigt. Wählen Sie das zu verwendende Feld aus.
+1. Die Liste der verfügbaren XDM-Felder vom Typ „E-Mail“ wird angezeigt. Wählen Sie das zu verwendende Feld aus.
 
    ![](assets/primary-address-field.png)
 
-1. Klicken **[!UICONTROL Speichern]** um Ihre Wahl zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Auswahl zu speichern.
 
    ![](assets/primary-address-save.png)
 

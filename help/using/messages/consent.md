@@ -41,7 +41,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. ********[](../configuration/message-presets.md#email-type)[](get-started-content.md#create-new-message)
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Meldungsvoreinstellungsebene](../configuration/message-presets.md#email-type) und wann [Nachricht erstellen](get-started-content.md#create-new-message).
 
 ### Externes Opt-out {#opt-out-external-lp}
 
@@ -75,9 +75,9 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 #### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-****[](https://developer.adobe.com/)
+Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
 
-This POST call is as follows:
+Dieser POST-Aufruf sieht wie folgt aus:
 
 Endpunkt: platform.adobe.io/journey/imp/consent/preferences
 
@@ -113,7 +113,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer][](https://developer.adobe.com)
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API-Aufruf.
 
 #### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
@@ -125,7 +125,7 @@ Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert und den API-Aufr
 
    ![](assets/opt-out-lp-example.png)
 
-1. ****[](#opt-out-api)
+1. Wenn der Empfänger das Formular sendet (hier durch Drücken der **Abmelden** -Schaltfläche in Ihrer Landingpage) werden die Profildaten über die [API-Aufruf](#opt-out-api).
 
 1. Der abgemeldete Empfänger wird dann zu einem Bestätigungsbildschirm weitergeleitet, der die erfolgte Abmeldung bestätigt.
 

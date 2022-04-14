@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '2350'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -122,37 +122,37 @@ Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vo
 
 ### List-Unsubscribe {#list-unsubscribe}
 
-Bei [Auswählen einer Subdomain](#subdomains-and-ip-pools) aus der Liste **[!UICONTROL List-Unsubscribe aktivieren]** angezeigt.
+Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
 
 ![](assets/preset-list-unsubscribe.png)
 
 Standardmäßig ist diese Option aktiviert.
 
-Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in den E-Mail-Header eingefügt, z. B.:
+Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Wenn Sie diese Option deaktivieren, wird im E-Mail-Header kein Abmelde-Link angezeigt.
+Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile kein Abmelde-Link angezeigt.
 
 Der Abmelde-Link besteht aus zwei Elementen:
 
-* Ein **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
+* Einer **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
 
-   In [!DNL Journey Optimizer], ist die Abmelde-E-Mail-Adresse die Standardeinstellung. **[!UICONTROL Mailto (unsubscribe)]** in der Nachrichtenvorgabe angezeigte Adresse basierend auf der [ausgewählte Subdomain](#subdomains-and-ip-pools).
+   Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Nachrichtenvoreinstellung angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
-* Die **Abmelde-URL**: die URL der Landingpage, auf die der Benutzer umgeleitet wird, sobald er sich abgemeldet hat.
+* Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
 
-   Wenn Sie eine [Ausschluss-Link mit einem Klick](../messages/consent.md#one-click-opt-out) auf eine mit dieser Vorgabe erstellte Nachricht verweist, ist die Abmelde-URL die für den Abmelde-Link mit einem Klick definierte URL.
+   Wenn Sie einen [Ein-Klick-Opt-out-Link](../messages/consent.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Voreinstellung erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
    >[!NOTE]
    >
-   >Wenn Sie in Ihren Nachrichteninhalt keinen Ausschluss-Link mit einem Klick hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
+   >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
 
-Erfahren Sie mehr über das Hinzufügen eines Header-Links zur Abmeldung Ihrer Nachrichten in [diesem Abschnitt](../messages/consent.md#unsubscribe-header).
+Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Nachrichten finden Sie in [diesem Abschnitt](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
@@ -180,11 +180,11 @@ Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte dire
 
 ### Kopfzeilenparameter{#email-header}
 
-Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Vorgabe gesendeten Nachrichtentyp verknüpft sind.
+Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Voreinstellung gesendeten Nachrichtentyp verknüpft sind.
 
 >[!CAUTION]
 >
->Die E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md).
+>Die E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 

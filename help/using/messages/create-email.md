@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="Email-Erstellung"
+>title="E-Mail-Erstellung"
 >abstract="Definieren Sie Ihre E-Mail-Parameter in drei einfachen Schritten."
 
 Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL E-Mail]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.

@@ -9,7 +9,7 @@ exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 [!DNL Journey Optimizer] bietet eine Bibliothek, in der Sie auf zuvor gespeicherte Personalisierungsausdrücke zugreifen können, die von Admin-Benutzern hinzugefügt wurden.
 
-➡️ [In diesem Video erfahren Sie, wie Sie mit gespeicherten Ausdrücken arbeiten.](#video-preview)
+➡️ [In diesem Video erfahren Sie, wie Sie mit gespeicherten Ausdrücken arbeiten](#video-preview)
 
 Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Bibliothek]** im linken Bereich. Die Liste enthält alle Ausdrücke, die von Admin-Benutzern gespeichert wurden (siehe [Speichern von Ausdrücken in der Bibliothek](#save-expressions)).
 

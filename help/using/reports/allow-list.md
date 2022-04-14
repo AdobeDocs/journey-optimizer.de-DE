@@ -9,15 +9,15 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
 # Zulassungsliste {#allow-list}
 
-Es ist möglich, eine spezifische Liste für die Sicherheit des Versands im [Sandbox](../administration/sandboxes.md) Ebene, um eine sichere Umgebung für Testzwecke zu erhalten.
+Es ist möglich, auf der [Sandbox](../administration/sandboxes.md)-Ebene eine spezielle Sicherheitsliste für den Versand zu definieren, um eine sichere Umgebung für Testzwecke zu haben.
 
-Auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, stellt die Zulassungsliste beispielsweise sicher, dass Sie keine Gefahr haben, unerwünschte Nachrichten an Ihre Kunden zu senden.
+Beispielsweise wird auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, durch die Zulassungsliste sichergestellt, dass Sie keine unerwünschten Nachrichten an Ihre Kunden senden.
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angebe
 
 >[!CAUTION]
 >
->Diese Funktion gilt nur für den E-Mail-Kanal.
+>Diese Funktion ist nur für den E-Mail-Kanal verfügbar.
 
-## Zulassungsliste aktivieren {#enable-allow-list}
+## Aktivieren der Zulassungsliste {#enable-allow-list}
 
 <!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
@@ -37,7 +37,7 @@ You can update the allowed list before or after enabling the feature.-->
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
-1. Zugriff auf  **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]** Menü.
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
    ![](assets/allow-list-access.png)
 

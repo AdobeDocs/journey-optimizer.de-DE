@@ -7,7 +7,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Erstellen einer Landingpage-Voreinstellung"
->abstract="Um eine Landingpage-Vorgabe erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste &quot;Subdomain-Name&quot;ausgewählt werden soll."
+>abstract="Um eine Landingpage-Voreinstellung erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
 
 >[!CONTEXTUALHELP]

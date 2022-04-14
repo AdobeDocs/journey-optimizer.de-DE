@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
->title="Testmodus konfigurieren"
+>title="Konfigurieren des Testmodus"
 >abstract="Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands."
 
 Verwenden Sie die **[!UICONTROL Trigger eines Ereignisses]** -Schaltfläche, um ein Ereignis zu konfigurieren, bei dem eine Person in die Journey eintritt.

@@ -9,7 +9,7 @@ exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="Über die Journey-Konfiguration"
->abstract="Um Nachrichten mit Journeys zu senden, müssen Sie Datenquellen, Ereignisse und Aktionen konfigurieren. Mit Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden, z. B. in Ihren Bedingungen. Mit Ereignissen können Sie Ihre Journey beim Empfang eines Ereignisses Trigger haben. Mit benutzerdefinierten Aktionen können Sie eine Verbindung zu einem Drittanbietersystem herstellen, um Ihre Nachrichten zu senden. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie keine Aktion konfigurieren."
+>abstract="Um Nachrichten mit Journeys zu senden, müssen Sie Datenquellen, Ereignisse und Aktionen konfigurieren. Mit Datenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die bei Ihren Journeys verwendet werden (z. B. in Ihren Bedingungen). Mit Ereignissen können Sie Ihre Journeys beim Empfang eines Ereignisses auslösen. Mit benutzerdefinierten Aktionen können Sie eine Verbindung zu einem Drittanbietersystem herstellen, um Ihre Nachrichten zu senden. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie keine Aktion konfigurieren."
 
 Um Nachrichten mit Journeys zu senden, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren.
 
