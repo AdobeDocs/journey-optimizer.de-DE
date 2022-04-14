@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 ## Erste Schritte mit KI-Modellen {#get-started-with-ai-rankings}
 
-[!DNL Journey Optimizer] ermöglicht Ihnen die Verwendung eines trainierten Modellsystems, das Angebote nach Rangfolge für ein bestimmtes Profil anzeigt.
+Mit [!DNL Journey Optimizer] können Sie ein System mit trainierten Modellen verwenden, das die für ein Profil anzuzeigenden Angebote in eine bestimmte Reihenfolge bringt.
 
 >[!CAUTION]
 >
@@ -82,7 +82,7 @@ Die automatische Optimierung ist so konzipiert, dass binäre Belohnungen (Klick/
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target=&quot;_blank&quot;} mit einer [Beta-Verteilung](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target=&quot;_blank&quot;} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target=&quot;_blank&quot;}.
 
 Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilung hat die folgende Form:
 
