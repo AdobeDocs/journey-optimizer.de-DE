@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
-# Tag erstellen {#create-tag}
+# Erstellen von Tags {#create-tag}
 
 Sie können ein Tag erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
