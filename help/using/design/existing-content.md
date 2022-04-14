@@ -1,21 +1,21 @@
 ---
-title: E-Mail-Inhalt importieren
-description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren
+title: Importieren von E-Mail-Inhalten
+description: Erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# E-Mail-Inhalt importieren {#existing-content}
+# Importieren von E-Mail-Inhalten {#existing-content}
 
-Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Dieser Inhalt kann wie folgt lauten:
+Mit Journey Optimizer können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Dieser Inhalt kann folgende Formen aufweisen:
 
 * eine **HTML-Datei** mit integriertem Stylesheet
 * ein **komprimierter Ordner** (ZIP) mit HTML-Datei, Stylesheet (.css) und Bildern.
@@ -38,6 +38,6 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
 ## Anleitungsvideo {#video}
 
-Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirrorseiten- und Abmelde-Links hinzufügen und Ihren Inhalt codieren können.
+Erfahren Sie, wie Sie vorhandenen HTML-Inhalt importieren, das Design anpassen, Mirror-Seiten- und Abmelde-Links hinzufügen und Ihren Inhalt codieren können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
