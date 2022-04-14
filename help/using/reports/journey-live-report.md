@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** 
 
 ![](assets/report_email_3.png)
 
-Die **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
+In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** sehen Sie, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 
 Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
 
@@ -147,10 +147,10 @@ Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **
 
 ![](assets/report_push_3.png)
 
-Die **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
+In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** sehen Sie, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 
-Die **[!UICONTROL Versandstatistiken - Fehlgeschlagen]** -Widget können Sie sehen, wie viele Fehler und Bounces aufgetreten sind.
+Mit dem Widget **[!UICONTROL Sendestatistiken – Fehlgeschlagen]** können Sie sehen, wie viele Fehler und Bounces aufgetreten sind.
 
 ![](assets/report_push_2.png)
 
-Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, je nach Betriebssystem.
+Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach Betriebssystem.
