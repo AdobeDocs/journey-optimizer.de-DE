@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Erstellen von KI-Modellen {#ai-rankings}
 
-[!DNL Journey Optimizer] ermöglicht Ihnen die Erstellung von **AI-Modelle** , um Angebote nach Ihren Geschäftszielen zu ordnen.
+[!DNL Journey Optimizer] ermöglicht Ihnen die Erstellung von **KI-Modellen**, um Angebote nach Ihren Geschäftszielen zu ordnen.
 
 >[!CAUTION]
 >
->Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die **Verwalten von Ranking Strategies** Berechtigung. [Weitere Informationen](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>Zum Erstellen, Bearbeiten oder Löschen von KI-Modellen benötigen Sie die Berechtigung zur **Verwaltung von Rangfolgestrategien**. [Weitere Informationen](../../administration/high-low-permissions.md#manage-ranking-strategies)
 >
 >Einigen ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der KI-Modelle gewährt.
 
@@ -28,7 +28,7 @@ Sobald ein KI-Modell erstellt wurde, können Sie dieses einer Platzierung in ein
 
 ## Erstellen einer Rangfolgestrategie {#create-ranking-strategy}
 
-Gehen Sie wie folgt vor, um ein KI-Modell als Ranking-Strategie zu erstellen:
+Gehen Sie wie folgt vor, um ein KI-Modell als Rangfolgestrategie zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL KI-Rangfolgen]** aus.
 
