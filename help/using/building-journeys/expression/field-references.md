@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Einschränkung besteht darin, dass der Ausdruck den erwarteten Datentyp zurückgeben muss. Bei Verwendung einer Funktion muss die Funktion mit () gekapselt werden.
+Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Einschränkung besteht darin, dass der Ausdruck den erwarteten Datentyp zurückgeben muss. Bei Verwendung einer Funktion muss diese in Klammern () eingeschlossen werden.
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
