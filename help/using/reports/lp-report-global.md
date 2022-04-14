@@ -1,26 +1,27 @@
 ---
-title: Globaler Landingpage-Bericht
-description: Erfahren Sie, wie Sie Daten aus Ihrem globalen Landingpage-Bericht verwenden.
+title: Globaler Bericht zu Landingpages
+description: Erfahren Sie, wie Daten aus dem globalen Bericht zu Landingpages verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Globaler Landingpage-Bericht {#lp-report-global}
+# Globaler Bericht zu Landingpages {#lp-report-global}
 
-Die Landingpage **[!UICONTROL Gesamtbericht]** zeigt Details zu den Auswirkungen Ihrer Landingpages über einen ausgewählten Zeitraum an. Informationen zur Messung Ihrer Landingpage-Daten über die letzten 24 Stunden finden Sie im Abschnitt [Live-Bericht zu Landingpages](lp-report-live.md).
+Der **[!UICONTROL globale Bericht]** zu Landingpages zeigt Details zur Wirkung Ihrer Landingpages über einen ausgewählten Zeitraum an. Wenn Sie Ihre Landingpage-Daten nur über die letzten 24 Stunden messen möchten, verwenden Sie den [Live-Bericht zu Landingpages](lp-report-live.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Gesamtbericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Globaler Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/landing_page_report_7.png)
 
-Die Landingpage **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
+Der **[!UICONTROL globale Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
 
 ![](assets/landing_page_report_4.png)
 
