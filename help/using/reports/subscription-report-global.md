@@ -1,26 +1,27 @@
 ---
 title: Abonnementbericht
-description: Erfahren Sie, wie Daten von den Abonnement-Services verwendet werden können mit dem globalen Abonnementbericht
+description: Erfahren Sie, wie Daten von den Abonnement-Services  für den globalen Abonnementbericht verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Globaler Abonnementbericht {#subscription-report-global}
 
-Das Abonnement **[!UICONTROL Gesamtbericht]** zeigt Details zur Aktivität Ihrer Abonnenten über einen ausgewählten Zeitraum an. Informationen zur Messung Ihrer Abonnements über die letzten 24 Stunden finden Sie im Abschnitt [Abonnement-Live-Bericht](subscription-report-live.md).
+Der **[!UICONTROL globale Bericht]** zu Abonnements enthält Details zur Aktivität Ihrer Abonnenten während eines ausgewählten Zeitraums. Informationen zur Messung Ihrer Abonnements über die letzten 24 Stunden finden Sie im [Abonnement-Live-Bericht](subscription-report-live.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Gesamtbericht]** im erweiterten Menü Ihrer ausgewählten Abonnementliste.
+Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnement-Liste **[!UICONTROL Globaler Bericht]** aus.
 
 ![](assets/subscription_report_7.png)
 
-Das Abonnement **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
+Der **[!UICONTROL globale Bericht]** ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
 
 ![](assets/subscription_report_1.png)
 
