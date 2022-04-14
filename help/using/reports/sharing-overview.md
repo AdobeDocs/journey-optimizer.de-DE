@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -54,15 +54,15 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 * [Liste der Step-Ereignisfelder](../reports/sharing-field-list.md)
 * [Veraltete Felder für Step-Ereignisse](../reports/sharing-legacy-fields.md)
 
-Weiterführende Informationen zu Berichten über Step-Ereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
+Weiterführende Informationen zu Berichten über Step-Ereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporsting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Integration mit Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] Schrittereignisse können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target=&quot;_blank&quot;}.
+Schrittereignisse von [!DNL Journey Optimizer] können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden.{target=&quot;_blank&quot;}.
 
-Der allgemeine Workflow lautet:
+Der allgemeine Workflow ist:
 
-* [!DNL Customer Journey Analytics] erfasst den Datensatz &quot;Journey Step Event&quot;.
-* Das Feld **profileID** im zugehörigen „Step-Ereignisschema der Journey für Journey Orchestration“ wird als Identitätsfeld definiert. In [!DNL Customer Journey Analytics]können Sie diesen Datensatz dann mit einem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung aufweist.
-* So verwenden Sie diesen Datensatz in [!DNL Customer Journey Analytics]Informationen zur kanalübergreifenden Journey-Analyse finden Sie unter [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de){target=&quot;_blank&quot;}.
+* [!DNL Customer Journey Analytics] nimmt den Datensatz „Schrittereignis der Journey“ auf.
+* Die **profileID** im zugehörigen „Schrittereignisschema der Journey für Journey Orchestration“ wird als Identitätsfeld definiert. In [!DNL Customer Journey Analytics] können Sie diesen Datensatz dann mit jedem anderen Datensatz verknüpfen, der denselben Wert wie die personenbasierte Kennung hat.
+* Informationen zur Verwendung dieses Datensatzes in [!DNL Customer Journey Analytics] zur kanalübergreifenden Journey-Analyse finden Sie in der [Dokumentation zu Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=de){target=&quot;_blank&quot;}.
 
