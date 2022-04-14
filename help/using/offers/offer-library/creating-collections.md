@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
->title="Über Angebotskollektionen"
->abstract="Mit Angebotskollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl gruppieren."
+>title="Über Angebotssammlungen"
+>abstract="Mit Angebotssammlungen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen."
 
 Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Kollektion erstellen, die nur sportbezogene Angebote enthält.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video).
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
