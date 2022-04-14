@@ -1,18 +1,19 @@
 ---
-title: E-Mail-Hintergrund personalisieren
+title: Personalisieren des E-Mail-Hintergrunds
 description: Erfahren Sie, wie Sie Ihren E-Mail-Hintergrund personalisieren können.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# E-Mail-Hintergrund personalisieren {#backgrounds}
+# Personalisieren des E-Mail-Hintergrunds {#backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
