@@ -7,9 +7,9 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [In diesem Video erfahren Sie, wie Sie Hilfsfunktionen verwenden.](#video)
+➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
 
 Bevor Sie beginnen, sollten Sie wissen, wie Sie diese Elemente konfigurieren:
 * Eine E-Mail-Nachricht. [Weitere Informationen](../messages/get-started-content.md)
@@ -147,7 +147,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
       **[!UICONTROL Kontextattribute]** sind erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
 
-   1. Auswählen **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Veranstaltungen]** > ***[!UICONTROL event_name]*** und erweitern Sie dann die **[!UICONTROL productListItems]** Knoten.
+   1. Wählen Sie **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.
 
