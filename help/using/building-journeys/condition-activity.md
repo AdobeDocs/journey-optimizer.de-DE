@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1302'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Bedingungsaktivität"
->abstract="Mit dieser Aktivität können Sie festlegen, wie der Kontakt im Journey fließen soll. Verschiedene Pfade werden basierend auf verschiedenen Kriterien erstellt. Sie können auch einen alternativen Pfad für den Fall einer Zeitüberschreitung oder eines Fehlers erstellen."
+>abstract="Mit dieser Aktivität können Sie festlegen, wie sich ein Kontakt in der Journey weiterbewegen soll. Basierend auf verschiedenen Kriterien werden mehrere Pfade erstellt. Für den Fall einer Zeitüberschreitung oder eines Fehlers können Sie auch einen alternativen Pfad erstellen."
 
 Die folgenden Bedingungstypen stehen zur Verfügung:
 
@@ -34,8 +34,8 @@ Die folgenden Bedingungstypen stehen zur Verfügung:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Über den einfachen Ausdruckseditor"
->abstract="Im einfachen Ausdruckseditor-Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus."
+>title="Informationen zum einfachen Ausdruckseditor"
+>abstract="Im einfachen Ausdruckseditor können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus."
 
 Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Titel definieren, um sie leichter zu identifizieren.
 
@@ -71,7 +71,7 @@ Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ un
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Erfahren Sie, wie Sie den Ausdruckseditor in [diesem Abschnitt](expression/expressionadvanced.md).
+Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
 
 Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
 
@@ -124,7 +124,7 @@ Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alt
 Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
 
 * Bei einer Obergrenze von mehr als 10.000 muss die Anzahl unterschiedlicher Profile, die eingespeist werden sollen, mindestens dem 1,3-Fachen der Obergrenze entsprechen.
-* Bei einer Obergrenze unter 10000 muss die Anzahl der verschiedenen zu injizierenden Profile 1000 plus der Kappe betragen.
+* Bei einer Obergrenze unter 10.000 muss die Anzahl der eindeutigen Profile, die eingespeist werden sollen, den Wert der Obergrenze plus 1.000 haben.
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
