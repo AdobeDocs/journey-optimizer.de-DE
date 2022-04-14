@@ -1,26 +1,27 @@
 ---
 title: Live-Bericht zu Landingpages
-description: Erfahren Sie, wie Sie Daten aus Ihrem Landingpage-Live-Bericht verwenden.
+description: Erfahren Sie, wie Daten aus dem Live-Bericht zu Landingpages verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Live-Bericht zu Landingpages {#lp-report-live}
 
-Die Landingpage **[!UICONTROL Live-Bericht]** zeigt nur Details zu den Auswirkungen Ihrer Landingpages in den letzten 24 Stunden an. Informationen zum Messen der Landingpage-Daten über einen bestimmten Zeitraum finden Sie im Abschnitt [Globaler Landingpage-Bericht](lp-report-global.md).
+Der **[!UICONTROL Live-Bericht]** zu Landingpages zeigt nur Details zur Wirkung Ihrer Landingpages in den letzten 24 Stunden an. Wenn Sie Ihre Landingpage-Daten über einen bestimmten Zeitraum messen möchten, verwenden Sie den [globalen Bericht zu Landingpages](lp-report-global.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Live-Bericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Live-Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/landing_page_report_1.png)
 
-Die Landingpage **[!UICONTROL Live-Bericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
+Der **[!UICONTROL Live-Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 
 ![](assets/landing_page_report_2.png)
 
