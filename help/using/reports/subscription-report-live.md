@@ -1,26 +1,27 @@
 ---
-title: Abonnement-Live-Bericht
-description: Erfahren Sie, wie Sie Daten aus Ihren Abonnementdiensten mit dem Live-Bericht Abonnements verwenden
+title: Live-Bericht zu Abonnements
+description: Erfahren Sie, wie Sie Daten von Ihren Abonnement-Services im Live-Bericht zu Abonnements verwenden können
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
-workflow-type: tm+mt
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Abonnement-Live-Bericht {#subscription-report-live}
+# Live-Bericht zu Abonnements {#subscription-report-live}
 
-Das Abonnement **[!UICONTROL Live-Bericht]** zeigt nur Details zur Aktivität Ihrer Abonnenten in den letzten 24 Stunden an. Informationen zum Messen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im Abschnitt [Globaler Abonnementbericht](subscription-report-global.md).
+Der **[!UICONTROL Live-Bericht]** zu Abonnements zeigt nur Details zur Aktivität Ihrer Abonnenten, die in den letzten 24 Stunden erfolgte. Messungen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im [globalen Bericht](subscription-report-global.md) zu Abonnements.
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Live-Bericht]** im erweiterten Menü Ihrer ausgewählten Abonnementliste.
+Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnement-Liste **[!UICONTROL Live-Bericht]** aus.
 
 ![](assets/subscription_report_6.png)
 
-Das Abonnement **[!UICONTROL Live-Bericht]** ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
+Der **[!UICONTROL Live-Bericht]** zu Abonnements ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 
 ![](assets/subscription_report_3.png)
 
@@ -35,4 +36,3 @@ Das Diagramm **[!UICONTROL Abonnement-Performance]** zeigt die Entwicklung der A
 ![](assets/subscription_report_4.png)
 
 Die Diagramme **Anmeldungen – Aufschlüsselung** und **Abmeldungen – Aufschlüsselung** geben die Gesamtzahl der Personen an, die sich je nach Nachricht, Landingpage und Kanal in den letzten 24 Stunden an- oder abgemeldet haben.
-
