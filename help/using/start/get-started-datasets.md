@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 9ebcfd6c41c17fe3be0423822209443fc55244a7
+source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 55%
+source-wordcount: '611'
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,7 @@ Auswählen **Datensätze** im linken Navigationsbereich, um das Dashboard &quot;
 
 ![](assets/datasets-home.png)
 
-Das Hinzufügen von Daten zu Adobe Experience Platform bildet die Grundlage für die Erstellung eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemas, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
+Daten hinzufügen zu [!DNL Adobe Experience Platform] ist die Grundlage für den Aufbau eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemas, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
 
 Wählen Sie die **Durchsuchen** um die Liste aller für Ihre Organisation verfügbaren Datensätze anzuzeigen. Zu jedem aufgelisteten Datensatz werden Details angezeigt, einschließlich seines Namens, des Schemas, dem der Datensatz entspricht, und des Status des letzten Erfassungslaufs.
 
@@ -32,6 +32,13 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie in aufgenommen hab
 ![](assets/ajo-system-datasets.png)
 
 Wählen Sie den Namen eines Datensatzes aus, um auf den Bildschirm Datensatzaktivität zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Der Tab „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
+
+## Vorschau von Datensätzen anzeigen{#preview-datasets}
+
+Wählen Sie im Bildschirm Datensatzaktivität die Option **Vorschau des Datensatzes anzeigen** in der oberen rechten Ecke des Bildschirms, um eine Vorschau des zuletzt erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, wird der Vorschau-Link deaktiviert.
+
+![](assets/dataset-preview.png)
+
 
 ## Erstellen von Datensätzen{#create-datasets}
 
@@ -42,11 +49,21 @@ Sie haben folgende Möglichkeiten:
 * Datensatz aus Schema erstellen. [Weitere Informationen finden Sie in dieser Dokumentation .](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
 * Datensatz aus CSV-Datei erstellen. [Weitere Informationen finden Sie in dieser Dokumentation .](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de){target=&quot;_blank&quot;}
 
-
 In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten erfasst wurden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
+## Data Governance
+
+Durchsuchen Sie in einem Datensatz die **Data Governance** -Registerkarte, um Beschriftungen auf Datensatz- und Feldebene zu überprüfen. Data Governance kategorisiert Daten nach dem anzuwendenden Richtlinientyp.
+
+Eine der Kernfunktionen von [!DNL Adobe Experience Platform] ist es, Daten aus verschiedenen Unternehmenssystemen zusammenzuführen, damit Marketing-Experten Kunden besser identifizieren, verstehen und ansprechen können. Diese Daten können Nutzungsbeschränkungen unterliegen, die von Ihrem Unternehmen oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge mit Datennutzungsrichtlinien konform sind.
+
+Mit [!DNL Adobe Experience Platform Data Governance] können Sie Kundendaten verwalten und bei der Verwendung von Daten die Einhaltung von relevanten Vorschriften, Einschränkungen und Richtlinien sicherstellen. Die Funktion spielt in Experience Platform auf verschiedenen Ebenen eine wichtige Rolle, wie z.B. bei Katalogisierung, Ermittlung der Datenherkunft, Datennutzungsbezeichnung, Datennutzungsrichtlinien und Steuerung der Nutzung von Daten für Marketing-Aktionen.
+
+Weitere Informationen zu Data Governance und Datennutzungsbezeichnungen finden Sie im Abschnitt [Data Governance-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+
+## Beispiele und Anwendungsbeispiele{#uc-datasets}
 
 Erfahren Sie, wie Sie ein Schema, einen Datensatz und Daten erstellen, um Testprofile in Adobe Journey Optimizer hinzuzufügen [Dieses End-to-End-Beispiel](../segment/creating-test-profiles.md)
 
@@ -54,9 +71,7 @@ Erfahren Sie mehr über die Erstellung von Datensätzen in [Adobe Experience Pla
 
 Erfahren Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Datensätze verwenden.
 
-
 **Siehe auch**
 
-* [Erstellen eines Schemas und eines Datensatzes und Aufnehmen von Daten zum Hinzufügen von Testprofilen in Journey Optimizer](../segment/creating-test-profiles.md)
 * [Übersicht über die Streaming-Aufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}
 * [Daten in Adobe Experience Platform aufnehmen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target=&quot;_blank&quot;}
