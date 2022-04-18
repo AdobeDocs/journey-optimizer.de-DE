@@ -1,15 +1,15 @@
 ---
 title: Erste Schritte mit dem Entscheidungs-Management
-description: Erste Schritte mit dem Entscheidungs-Management Erfahren Sie mehr über seine Architektur, Angebote und Entscheidungen sowie über gängige Anwendungsfälle, die Sie damit ausführen können
+description: Erfahren Sie, wie Adobe Journey Optimizer Ihnen dabei helfen kann, Ihren Kunden das richtige Angebot zum richtigen Zeitpunkt zu senden.
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden.
 
->[!NOTE]
->
->Wenn Sie ein [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=&quot;_blank&quot;}-Benutzer sind, der den Anwendungs-Service **Offer Decisioning** nutzt, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
+offer decisioning erleichtert die Personalisierung mit einer zentralen Bibliothek von Marketing-Angeboten und einer Entscheidungs-Engine, die Regeln und Einschränkungen auf von Adobe Experience Platform erstellte umfangreiche Echtzeitprofile anwendet, damit Sie Ihren Kunden zum richtigen Zeitpunkt das richtige Angebot unterbreiten können.
 
 Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 
@@ -35,6 +33,11 @@ Zu den Vorteilen zählen:
 * Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
 ➡️ [Weitere Informationen zum Entscheidungs-Management finden Sie in diesen Videos](#video)
+
+
+>[!NOTE]
+>
+>Wenn Sie ein [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=&quot;_blank&quot;}-Benutzer sind, der den Anwendungs-Service **Offer Decisioning** nutzt, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
