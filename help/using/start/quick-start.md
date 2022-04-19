@@ -1,12 +1,12 @@
 ---
 title: Schnellstart
-description: Als Marketer, Administrator oder Data Engineed lernen und lernen Sie die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennen.
+description: Als Marketer, Administrator oder Dateningenieur lernen und lernen Sie die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennen.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 82%
