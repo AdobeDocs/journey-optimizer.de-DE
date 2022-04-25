@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0e4572c855d8842215d2f9d42e47aac53b82d1
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2972'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 **Entscheidungs-Management**
 
 * Sie können jetzt festlegen, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil sowie für alle Platzierungen oder pro Platzierung gilt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Mit der Batch Decisioning-API können Unternehmen die Offer-Decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* Mit der Batch Decisioning-API können Unternehmen die Offer-Decisioning-Funktionalität für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 

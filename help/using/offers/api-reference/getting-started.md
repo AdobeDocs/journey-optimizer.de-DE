@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '668'
+ht-degree: 92%
 
 ---
 
@@ -127,6 +127,10 @@ Bei einer erfolgreichen Antwort werden Informationen zu Entscheidungs-Management
 ## Nächste Schritte {#next-steps}
 
 In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen von Aufrufen an die [!DNL Offer Library]-API benötigt werden, einschließlich der Beschaffung Ihrer Container-ID. Sie können nun mit den Beispielaufrufen in diesem Entwicklerhandbuch fortfahren und den entsprechenden Anweisungen folgen.
+
+>[!NOTE]
+>
+> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet offer decisioning-Objekte. Wenn Ihr Unternehmen den In-App-Nachrichtenkanal verwendet, enthalten API-Listenanfragen für Objekte Objekte, die vom In-App-Messaging-Dienst erstellt wurden, und können für offer decisioning-Anwendungsfälle ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Eigenschaften: `createdBy = “Mobile_Sheliak”`.
 
 ## Anleitungsvideo {#video}
 
