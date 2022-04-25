@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 14%
@@ -94,14 +94,15 @@ Im Folgenden finden Sie die erforderlichen Schritte zur Verwendung von Offer dec
 
 Fügen Sie das folgende JavaScript-Snippet aus Option 2 ein: Die vordefinierte eigenständige Version auf [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) im `<head>` auf Ihrer HTML-Seite.
 
-```javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
 Sie benötigen zwei IDs aus Ihrem Adobe-Konto, um die SDK-Konfiguration einzurichten - Ihre edgeConfigId und Ihre orgId. Die edgeConfigId entspricht Ihrer Datastream-ID, die Sie in den Voraussetzungen konfiguriert haben sollten.
@@ -110,7 +111,8 @@ Um Ihre edgeConfigID/datastream-ID zu finden, gehen Sie zur Datenerfassung und w
 
 Konfigurieren Sie das SDK in JavaScript entsprechend den Anweisungen auf dieser Seite. Sie verwenden immer Ihre edgeConfigId und orgId in der Konfigurationsfunktion. In der Dokumentation wird auch beschrieben, welche optionalen Parameter für Ihre Konfiguration vorhanden sind. Ihre endgültige Konfiguration könnte in etwa so aussehen:
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -131,7 +133,8 @@ Schließen Sie beim Bearbeiten Ihrer Website das Skript mit der Konfiguration un
 
 **Beispiel**:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
@@ -142,7 +145,8 @@ Schließen Sie beim Bearbeiten Ihrer Website das Skript mit der Konfiguration un
 
 Im Folgenden finden Sie ein Beispiel für die Handhabung der Antwort:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -164,7 +168,8 @@ Erfahren Sie mehr über die Erstellung Ihres Angebots und die verwendete Formati
 
 In diesem Beispiel lautet die zurückzugebende JSON:
 
-```json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
@@ -175,7 +180,8 @@ In diesem Beispiel lautet die zurückzugebende JSON:
 
 Verarbeiten Sie das Antwortobjekt und analysieren Sie die benötigten Daten. So können Sie mehrere Entscheidungsbereiche in einem `sendEvent` -Aufruf verwenden, sieht Ihre Antwort möglicherweise etwas anders aus.
 
-```json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -199,7 +205,8 @@ Verarbeiten Sie das Antwortobjekt und analysieren Sie die benötigten Daten. So 
 }
 ```
 
-```json
+```
+json
 {
     "propositions": [
     {
@@ -230,7 +237,8 @@ In diesem Beispiel war der Pfad, der zur Verarbeitung und Verwendung der angebot
 
 So legen Sie die JS-Variablen fest:
 
-```javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
