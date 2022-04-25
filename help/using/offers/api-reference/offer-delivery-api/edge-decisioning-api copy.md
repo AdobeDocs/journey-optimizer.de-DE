@@ -7,8 +7,8 @@ role: Data Engineer
 level: Experienced
 source-git-commit: b02981f2c0cf74c8dba657570157709bc422d94c
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 20%
+source-wordcount: '1050'
+ht-degree: 14%
 
 ---
 
@@ -86,7 +86,7 @@ Diese Option ist benutzerfreundlicher für Personen, die weniger Programmierung 
 
    ![Anforderungsangebot](../../assets/rule-request-offer.png)
 
-1. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben.
+1. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben
 
 ## Option 2 - Manuelle Implementierung mit der vordefinierten eigenständigen Version
 
@@ -94,6 +94,164 @@ Im Folgenden finden Sie die erforderlichen Schritte zur Verwendung von Offer dec
 
 Fügen Sie das folgende JavaScript-Snippet aus Option 2 ein: Die vordefinierte eigenständige Version auf [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) im `<head>` auf Ihrer HTML-Seite.
 
+```
+javascript
+    <script>
+        !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+        []).push(o),n[o]=function(){var u=arguments;return new Promise(
+        function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+        (window,["alloy"]);
+    </script>
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
+```
+
+Sie benötigen zwei IDs aus Ihrem Adobe-Konto, um die SDK-Konfiguration einzurichten - Ihre edgeConfigId und Ihre orgId. Die edgeConfigId entspricht Ihrer Datastream-ID, die Sie in den Voraussetzungen konfiguriert haben sollten.
+
+Um Ihre edgeConfigID/datastream-ID zu finden, gehen Sie zur Datenerfassung und wählen Sie Ihren Datastream aus. Um Ihre orgId zu finden, gehen Sie zu Ihrem Profil.
+
+Konfigurieren Sie das SDK in JavaScript entsprechend den Anweisungen auf dieser Seite. Sie verwenden immer Ihre edgeConfigId und orgId in der Konfigurationsfunktion. In der Dokumentation wird auch beschrieben, welche optionalen Parameter für Ihre Konfiguration vorhanden sind. Ihre endgültige Konfiguration könnte in etwa so aussehen:
+
+```
+javascript
+    alloy("configure", {
+        "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
+        "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
+        "debugEnabled": true,
+        "edgeDomain": "edge.adobedc.net",
+        "clickCollectionEnabled": true,
+        "idMigrationEnabled": true,
+        "thirdPartyCookiesEnabled": true,
+        "defaultConsent":"in"  
+    });
+```
+
+Installieren Sie die Chrome-Erweiterung &quot;Debugger&quot;, um sie mit dem Debugging zu verwenden. Das finden Sie hier: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
+
+Melden Sie sich anschließend im Debugger bei Ihrem Konto an. Gehen Sie dann zu Protokolle und stellen Sie sicher, dass Sie mit dem richtigen Arbeitsbereich verbunden sind. Kopieren Sie nun die base64-kodierte Version des Entscheidungsumfangs aus Ihrem Angebot.
+
+Schließen Sie beim Bearbeiten Ihrer Website das Skript mit der Konfiguration und dem `sendEvent` -Funktion, um den Entscheidungsbereich an Adobe zu senden.
+
+**Beispiel**:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes": 
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    });
+```
+
+Im Folgenden finden Sie ein Beispiel für die Handhabung der Antwort:
+
+```
+javascript
+    alloy("sendEvent", {
+        "decisionScopes":
+        [
+        "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
+        ]
+    }).then(function(result) {
+        Object.entries(result).forEach(([key, value]) => {
+            console.log(key, value);
+        });
+    });
+```
+
+Sie können den Debugger verwenden, um sicherzustellen, dass Sie erfolgreich eine Verbindung zum Edge-Netzwerk hergestellt haben.
+
+>[!NOTE]
+>
+>Wenn Sie keine Verbindung zum Edge in den Protokollen sehen, müssen Sie möglicherweise Ihren Anzeigenblocker deaktivieren.
+
+Erfahren Sie mehr über die Erstellung Ihres Angebots und die verwendete Formatierung. Basierend auf den Kriterien, die in der Entscheidung erfüllt sind, wird ein Angebot mit den Informationen zurückgegeben, die Sie beim Erstellen in der Adobe Experience Platform angegeben haben.
+
+In diesem Beispiel lautet die zurückzugebende JSON:
+
+```
+json
+{
+   "name":"ABC Test",
+   "description":"This is a test offer", 
+   "link":"https://sampletesting.online/",
+   "image":"https://sample-demo-URL.png"
+}
+```
+
+Verarbeiten Sie das Antwortobjekt und analysieren Sie die benötigten Daten. So können Sie mehrere Entscheidungsbereiche in einem `sendEvent` -Aufruf verwenden, sieht Ihre Antwort möglicherweise etwas anders aus.
+
+```
+json
+    {
+        "id": "abrxgl843d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"ABC Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+]
+}
+```
+
+```
+json
+{
+    "propositions": 
+    [
+    {
+        "renderAttempted": false,
+        "id": "e15ecb09-993e-4b66-93d8-0a4c77e3d913",
+        "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
+        "items": 
+        [
+            {
+                "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                "etag": "1",
+                "schema": "https://ns.adobe.com/experience/offer-management/content-component-json",
+                "data": {
+                    "id": "xcore:fallback-offer:14ea7f1ea26ebd0a",
+                    "format": "application/json",
+                    "language": [
+                        "en-us"
+                    ],
+                    "content": "{\"name\":\"Claire Hubacek Test\",\"description\":\"This is a test offer\", \"link\":\"https://sampletesting.online/\",\"image\":\"https://sample-demo-URL.png\"}"
+                }
+            }
+        ]
+    }
+    ]
+}
+```
+
+In diesem Beispiel war der Pfad, der zur Verarbeitung und Verwendung der angebotspezifischen Details auf der Webseite erforderlich war: `result['decisions'][0]['items'][0]['data']['content']`
+
+So legen Sie die JS-Variablen fest:
+
+```
+javascript
+const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
+
+let offerURL = offer['link'];
+let offerDescription = offer['description'];
+let offerImageURL = offer['image'];
+
+document.getElementById("offerDescription").innerHTML = offerDescription;
+document.getElementById('offerImage').src = offerImageURL;
+```
 
 ## Einschränkungen
 
