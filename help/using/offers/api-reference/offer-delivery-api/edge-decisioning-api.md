@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 14%
 
 ---
@@ -42,11 +42,11 @@ Das SDK hat diese Bibliotheken nicht kombiniert und ist eine neue Implementierun
 
 1. Stellen Sie sicher, dass Ihr Unternehmen über die entsprechenden Berechtigungen zur Verwendung des SDK verfügt und Sie die Berechtigungen richtig konfiguriert haben.
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [Konfigurieren Ihres Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=de) auf der Registerkarte Datenerfassung in Ihrem Konto in der Adobe Experience Cloud.
+1. [Konfigurieren Ihres Datenspeichers](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=de) auf der Registerkarte Datenerfassung in Ihrem Konto in der Adobe Experience Cloud.
 
-3. Installieren des SDK. Es gibt mehrere Methoden, dies zu tun, die auf der Seite [SDK-Seite installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Diese Seite wird mit den verschiedenen Implementierungsmethoden fortgesetzt.
+1. Installieren des SDK. Es gibt mehrere Methoden, dies zu tun, die auf der Seite [SDK-Seite installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Diese Seite wird mit den verschiedenen Implementierungsmethoden fortgesetzt.
 
 Um das SDK verwenden zu können, müssen Sie über eine [schema](../../../start/get-started-schemas.md) und [datastream](../../../start/get-started-datasets.md) definiert wurde.
 
@@ -64,21 +64,21 @@ Diese Option ist benutzerfreundlicher für Personen, die weniger Programmierung 
 
 1. [Tag-Eigenschaft erstellen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [Hinzufügen des Einbettungscodes](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Hinzufügen des Einbettungscodes](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. Installieren und konfigurieren Sie die Platform Web SDK-Erweiterung mit dem von Ihnen erstellten Datastream, indem Sie die Konfiguration aus der Dropdown-Liste &quot;Datastream&quot;auswählen. Weitere Informationen finden Sie in der Dokumentation unter [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Installieren und konfigurieren Sie die Platform Web SDK-Erweiterung mit dem von Ihnen erstellten Datastream, indem Sie die Konfiguration aus der Dropdown-Liste &quot;Datastream&quot;auswählen. Weitere Informationen finden Sie in der Dokumentation unter [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![Erweiterung konfigurieren](../../assets/configure-sdk-extension.png)
 
-4. Erstellen Sie die erforderlichen [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Sie müssen mindestens eine Platform Web SDK Identity Map und ein Platform Web SDK XDM Object -Datenelement erstellen.
+1. Erstellen Sie die erforderlichen [Datenelemente](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Sie müssen mindestens eine Platform Web SDK Identity Map und ein Platform Web SDK XDM Object -Datenelement erstellen.
 
    ![Identitätszuordnung](../../assets/sdk-identity-map.png)
 
    ![XDM-Objekt](../../assets/xdm-object.png)
 
-5. Erstellen Sie Ihre [Regeln](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. Erstellen Sie Ihre [Regeln](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    i. Fügen Sie die Aktion &quot;Ereignis senden&quot;des Platform Web SDK hinzu und fügen Sie die relevanten decisionScopes zur Konfiguration dieser Aktion hinzu.
 
@@ -86,7 +86,7 @@ Diese Option ist benutzerfreundlicher für Personen, die weniger Programmierung 
 
    ![Anforderungsangebot](../../assets/rule-request-offer.png)
 
-6. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben
+1. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben
 
 ## Option 2 - Manuelle Implementierung mit der vordefinierten eigenständigen Version
 
@@ -125,7 +125,7 @@ javascript
     });
 ```
 
-Installieren Sie die Chrome-Erweiterung &quot;Debugger&quot;, um sie mit dem Debugging zu verwenden. Das finden Sie hier: https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+Installieren Sie die Chrome-Erweiterung &quot;Debugger&quot;, um sie mit dem Debugging zu verwenden. Das finden Sie hier: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 Melden Sie sich anschließend im Debugger bei Ihrem Konto an. Gehen Sie dann zu Protokolle und stellen Sie sicher, dass Sie mit dem richtigen Arbeitsbereich verbunden sind. Kopieren Sie nun die base64-kodierte Version des Entscheidungsumfangs aus Ihrem Angebot.
 
