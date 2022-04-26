@@ -1,6 +1,6 @@
 ---
 title: Schnellstart
-description: Als Marketer, Administrator oder Dateningenieur lernen und lernen Sie die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennen.
+description: Marketing-Experten, Administratoren und Datentechniker können hier anhand einer schrittweisen Anleitung Adobe Journey Optimizer kennenlernen und erkunden.
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsf�
 
    Umgebung vorbereiten, Zugriff gewähren, Einstellungen konfigurieren. [Weitere Informationen](path/administrator.md)
 
-* Ich bin **Dateningenieur**
+* Ich bin **Datentechniker**
 
    Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen. [Weitere Informationen](path/data-engineer.md)
 
-* Ich bin **Marketer**
+* Ich bin **Marketing-Experte**
 
    Erstellen von Nachrichten, Hinzufügen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)

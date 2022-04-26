@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Handbuch für Journey Optimizer
-user-guide-description: Mit Journey Optimizer können Sie verbundene, kontextbezogene und personalisierte Erlebnisse für Ihre Kunden erstellen und bereitstellen
+user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte   bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte    bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
@@ -258,10 +258,10 @@ ht-degree: 96%
          + [Über KI-Modelle](using/offers/offer-library/ai-ranking.md)
          + [Erstellen von KI-Modellen](using/offers/offer-library/create-ranking-strategies.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
-      + Angebote konfigurieren {#configure-offers}
+      + Konfigurieren von Angeboten {#configure-offers}
          + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
          + [Hinzufügen von Darstellungen](using/offers/offer-library/add-representations.md)
-         + [Einschränkungen hinzufügen](using/offers/offer-library/add-constraints.md)
+         + [Hinzufügen von Einschränkungen](using/offers/offer-library/add-constraints.md)
       + [Erstellen von Fallback-Angeboten](using/offers/offer-library/creating-fallback-offers.md)
       + [Erstellen von Sammlungen](using/offers/offer-library/creating-collections.md)
    + Erstellen und Verwalten von Entscheidungen {#create-manage-activities}
