@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte mit Nachrichten
-description: Erfahren Sie, wie Sie personalisierte Nachrichten in Journey Optimizer erstellen, testen und veröffentlichen.
+description: Hier erfahren Sie, wie Sie personalisierte Nachrichten in Journey Optimizer erstellen, testen und veröffentlichen.
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
       Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. [Weitere Informationen zu Vorgaben](../configuration/message-presets.md)
    >[!CAUTION]
    >
-   >Sie müssen eine gültige Nachrichtenvorgabe für die ausgewählte Kategorie und die ausgewählten Kanäle auswählen.
+   >Sie müssen eine gültige Nachrichtenvoreinstellung für die ausgewählte Kategorie und die ausgewählten Kanäle wählen.
 
    Beachten Sie, dass Sie über die Schaltfläche **[!UICONTROL Eigenschaften]** jederzeit auf Titel, Beschreibung und Voreinstellung der Nachricht zugreifen und diese ändern können.
 

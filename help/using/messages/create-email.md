@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -38,4 +38,4 @@ Die Schritte zum Konfigurieren einer E-Mail sind:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen eine [Ausschluss-Link](consent.md#opt-out-management), was für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Meldungsvoreinstellungsebene](../configuration/message-presets.md#email-type) und wann [Nachricht erstellen](get-started-content.md#create-new-message).
+>E-Mail-Nachrichten vom Typ Marketing müssen eine [Ausschluss-Link](consent.md#opt-out-management), was für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird in den [Nachrichtenvoreinstellungen](../configuration/message-presets.md#email-type) und bei der [Erstellung der Nachricht](get-started-content.md#create-new-message) definiert.
