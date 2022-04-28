@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3195'
 ht-degree: 93%
@@ -38,7 +38,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **E-Mail-Erstellung**
 
-* **Neue E-Mail-Vorlagen** sind jetzt verfügbar, um E-Mail-Inhalte in Journey Optimizer zu erstellen.
+* **20 neue E-Mail-Vorlagen** sind jetzt verfügbar, um E-Mail-Inhalte in Journey Optimizer zu erstellen.
 
 **Benutzeroberfläche**
 
