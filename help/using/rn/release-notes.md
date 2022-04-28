@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
+source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
 workflow-type: tm+mt
 source-wordcount: '3195'
 ht-degree: 93%
@@ -46,8 +46,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Integration mit Adobe Campaign Standard**
 
-Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mails, Push-Benachrichtigungen und SMS versenden. Verwenden Sie die neuen integrierten Aktionen, um die Transaktionsnachrichten-Funktionen von Campaign Standard in Journey Optimizer zu nutzen.
-[Weitere Informationen](../action/acs-action.md)
+Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mails, Push-Benachrichtigungen und SMS versenden. Verwenden Sie die neuen integrierten Aktionen, um die Transaktionsnachrichten-Funktionen von Campaign Standard in Journey Optimizer zu nutzen.  [Weitere Informationen](../action/acs-action.md)
 
 <!--
 ### Fixes
