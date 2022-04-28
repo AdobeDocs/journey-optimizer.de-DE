@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 91%
 
 ---
 
@@ -56,6 +56,12 @@ Gehen Sie wie folgt vor, um bestimmte Inhalte zu definieren, mit denen Benutzer 
 1. Definieren Sie, ob dieses Kontrollkästchen Benutzern die An- oder Abmeldung ermöglichen soll: Erklären sie sich damit einverstanden, Nachrichten zu erhalten, oder möchten sie nicht mehr kontaktiert werden?
 
    ![](assets/lp_designer-form-update.png)
+
+   Wählen Sie unter den drei folgenden Optionen aus:
+
+   * **[!UICONTROL Opt-in, wenn aktiviert]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu erteilen (Opt-in).
+   * **[!UICONTROL Opt-out bei Aktivierung]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu entfernen (Opt-out).
+   * **[!UICONTROL Opt-in, wenn aktiviert, Opt-out, wenn deaktiviert]**: Mit dieser Option können Sie eine einzige Checkbox für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um zuzustimmen (Opt-in), und es deaktivieren, um ihre Zustimmung zu entfernen (Opt-out).
 
 1. Wählen Sie aus den drei folgenden Optionen aus, was aktualisiert werden soll:
 

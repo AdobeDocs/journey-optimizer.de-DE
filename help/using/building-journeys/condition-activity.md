@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1302'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearb
 
 ## Bedingung für die Uhrzeit{#time_condition}
 
-Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber SMS-Nachrichten und nachts E-Mails zu versenden.
+Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. Beispielsweise können Sie festlegen, dass an Wochentagen Push-Benachrichtigungen während des Tages und nachts E-Mails gesendet werden.
 
 >[!NOTE]
 >

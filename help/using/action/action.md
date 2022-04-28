@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '256'
 ht-degree: 89%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 89%
 >title="Informationen zu Aktionen"
 >abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung."
 
-Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails, SMS oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
+Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails,  oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

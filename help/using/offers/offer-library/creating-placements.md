@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 87%
+source-wordcount: '243'
+ht-degree: 85%
 
 ---
 
@@ -59,6 +59,3 @@ Erfahren Sie, wie Sie in Offer Decisioning Platzierungen erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
->[!NOTE]
->
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 92%
+source-wordcount: '543'
+ht-degree: 83%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Nachrichtenvoreinstellung anzuzeigen. Weiterführende Informationen zum Verknüpfen einer Nachrichtenvoreinstellung mit einem IP-Pool finden Sie in [diesem Abschnitt](message-presets.md).
+Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Nachrichtenvoreinstellung anzuzeigen. Weitere Informationen zum Verknüpfen einer Nachrichtenvorgabe mit einem IP-Pool finden Sie unter [diesem Abschnitt](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool
 
 * Wenn der IP-Pool in einer Nachrichtenvoreinstellung **nicht** ausgewählt ist, erfolgt die Aktualisierung sofort (Status **[!UICONTROL Erfolg]**).
 * Wenn der IP-Pool in einer Nachrichtenvoreinstellung ausgewählt **ist**, kann die Aktualisierung mitunter 7–10 Werktage dauern (Status **[!UICONTROL wird verarbeitet]**).
+
+>[!NOTE]
+>
+>Wann [Nachrichtenvorgabe erstellen](message-presets.md#create-message-preset), wenn Sie einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitung]** -Status) und nie mit der für diese Vorgabe ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Vorgabenerstellung fortfahren. [Weitere Informationen](message-presets.md#subdomains-and-ip-pools)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 

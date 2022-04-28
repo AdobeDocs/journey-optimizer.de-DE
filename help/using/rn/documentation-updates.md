@@ -2,16 +2,26 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 100%
+source-wordcount: '1256'
+ht-degree: 90%
 
 ---
 
 # Dokumentationsaktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+## April 2022 {#april-2022}
+
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. April wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Die **Reaktionen** Die Seite zur Ereignisdokumentation wurde aktualisiert. [Weitere Informationen](../building-journeys/reaction-events.md)
+* Die Videos zu den Funktionen der Entscheidungsverwaltung wurden entsprechend der Benutzeroberfläche von Journey Optimizer aktualisiert - [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md)
+* Die **Erste Schritte mit Datensätzen** -Abschnitt wurde verbessert, um detailliert zu beschreiben, wie auf Datensätze zugegriffen und diese erstellt werden. [Weitere Informationen](../start/get-started-datasets.md)
+* Links zu Hilfehandbüchern und Versionshinweisen zu Produkten wurden zum **Dokumentation zu Adobe Journey Optimizer** Homepage. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
+* Die **Nachrichtenvorgaben erstellen** gibt jetzt an, dass Sie mit der Vorgabenerstellung nicht fortfahren können, während sich der ausgewählte IP-Pool in Bearbeitung befindet (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](../configuration/message-presets.md#subdomains-and-ip-pools)
+* Die Nachrichtenvorgaben **URL-Tracking** wurde aktualisiert, um geringfügige Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../configuration/message-presets.md#url-tracking)
 
 ## März 2022 {#march-2022}
 

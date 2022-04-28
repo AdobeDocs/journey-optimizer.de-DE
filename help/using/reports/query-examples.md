@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 81718cdba5c8537179d37e82c3d6ed897ebbd7ff
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 98%
 
 ---
 
 # Beispiele für Abfragen{#query-examples}
 
 In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt.
+
+Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder über zugeordnete Werte im entsprechenden Schema verfügen.
 
 ## Nachrichten-/Aktionsfehler {#message-action-errors}
 

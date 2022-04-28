@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 95%
+source-wordcount: '1088'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der [preset](../configuration/lp-configuration.md#lp-create-preset) ausgewählt haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
    >[!NOTE]
    >
    >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen, wie hier beschrieben: [diesem Abschnitt](#test-landing-page).
+
+1. Wenn die Landingpage die bereits verfügbaren Formulardaten vorab ausfüllen soll, wählen Sie die **[!UICONTROL Formularfelder mit Profilinformationen vorab ausfüllen]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Wenn diese Option aktiviert ist und ein Profil sich bereits für eine An-/Abmeldung entschieden hat oder bereits einer Abonnementliste hinzugefügt wurde, werden seine Optionen bei der Anzeige der Landingpage angezeigt.
+
+   Wenn sich beispielsweise ein Profil für den Empfang von Nachrichten zu künftigen Ereignissen entschieden hat, wird das entsprechende Kontrollkästchen bereits aktiviert, wenn diesem Profil die Landingpage das nächste Mal angezeigt wird.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. Sie können ein Ablaufdatum für Ihre Seite festlegen. In diesem Fall müssen Sie eine Aktion nach Ablauf der Seite auswählen:
 

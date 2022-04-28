@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1487'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +88,7 @@ Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert habe
 
 ## Die Verwendung von Pfaden auf der Arbeitsfläche {#paths}
 
-Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsaktivitäten]**) ermöglichen es Ihnen, eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung zu definieren. Aktivieren Sie im Konfigurationsbereich für die Aktivität das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**. Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die maximale Wartezeit wird in den Eigenschaften der Journey durch einen Administrator definiert (siehe [diese Seite](../building-journeys/journey-gs.md#change-properties)). Wenn beispielsweise der Versand einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer SMS entscheiden.
+Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsaktivitäten]**) ermöglichen es Ihnen, eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung zu definieren. Aktivieren Sie im Konfigurationsbereich für die Aktivität das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**. Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die maximale Wartezeit wird in den Eigenschaften der Journey durch einen Administrator definiert (siehe [diese Seite](../building-journeys/journey-gs.md#change-properties)). Wenn beispielsweise das Senden einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
 
 ![](assets/journey42.png)
 

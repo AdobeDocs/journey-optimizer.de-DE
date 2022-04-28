@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -64,6 +64,4 @@ Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
->[!NOTE]
->
->Dieses Video bezieht sich auf den auf Adobe Experience Platform aufbauenden Anwendungsdienst Offer Decisioning. Es enthält allgemeine Leitlinien für die Verwendung von Angeboten im Kontext von Journey Optimizer.
+

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 86%
+source-wordcount: '1667'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Subdomain-Zuweisung"
->abstract="Mit Journey Optimizer können Sie Ihre Subdomains der Adobe zuweisen. Sie können eine Subdomain vollständig an Adobe delegieren oder eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Datensätze zu verweisen."
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains der Adobe zuweisen. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können auch eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und verwalten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
 
 Das Zuweisen eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, einer anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten. Weitere Informationen finden Sie unter [Subdomain-Zuweisung](about-subdomain-delegation.md)

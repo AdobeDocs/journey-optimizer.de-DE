@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 100%
+source-wordcount: '3203'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,59 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
+
+## Version April 2022 {#april-2022-release}
+
+### Neue Funktionen
+
+<table>
+<thead>
+<tr>
+<th><strong>Integration mit Adobe Campaign Standard</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mails, Push-Benachrichtigungen und SMS versenden. Verwenden Sie die neuen integrierten Aktionen, um die Transaktionsnachrichten-Funktionen von Campaign Standard in Journey Optimizer zu nutzen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../action/acs-action.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### Verbesserungen
+
+**Landingpages**
+
+* **Neue Option für Opt-in-/Opt-out-Checkboxes** - Sie können jetzt eine einzige Checkbox für das Opt-in/Opt-out in Abonnement-Landingpages einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um zuzustimmen (Opt-in), und es deaktivieren, um ihre Zustimmung zu entfernen (Opt-out). [Weitere Informationen](../landing-pages/design-lp.md#define-lp-specific-content)
+
+* **Felder für Landingpages vorbefüllen** - Benutzer können jetzt die Landingpage-Felder mit Profilinformationen vorab ausfüllen. [Weitere Informationen](../landing-pages/create-lp.md#configure-primary-page)
+
+**Entscheidungs-Management**
+
+* **Decisioning-API in Edge** - Die Edge Decisioning-API kann personalisierte Angebote bereitstellen und rendern, die in Offer Decisioning verwaltet werden. Sie können Ihre Angebote und andere verwandte Objekte mithilfe der Offer decisioning-Benutzeroberfläche (UI) oder APIs erstellen. [Weitere Informationen](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+
+**Administration**
+
+* **PTR-Sendedauer** - Die Dauer der PTR-Bearbeitung ist jetzt ein paar Stunden. [Weitere Informationen](../configuration/ptr-records.md#processing)
+
+**E-Mail-Erstellung**
+
+* **Neue E-Mail-Vorlagen** sind jetzt verfügbar, um E-Mail-Inhalte in Journey Optimizer zu erstellen.
+
+**Benutzeroberfläche**
+
+* **Kontexthilfe in der Benutzeroberfläche von Journey Optimizer** - Auf mehreren Seiten in Journey Optimizer wurden Links zur kontextuellen Hilfe hinzugefügt. Wenn verfügbar, klicken Sie auf das Symbol &quot;i&quot;, um eine kurze Beschreibung der aktuellen Funktion anzuzeigen und auf zugehörige Artikel zuzugreifen.
+
+<!--
+### Fixes
+
+* Fixed an issue which caused tracking reports not to be available as the `JourneyActionId` was not properly populated. PLATIR-19854, CJM-26006
+* Fixed an error on business events which could block the journey publication. CJM-25931
+* Fixed an issue which could prevent images in Email Designer templates from being displayed. PLATIR-18176, CJM-25008
+-->
 
 ## Version März 2022 {#march-2022-release}
 
