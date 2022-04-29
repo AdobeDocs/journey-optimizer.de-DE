@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 94%
+ht-degree: 88%
 
 ---
 
@@ -40,7 +40,7 @@ Wählen Sie dazu im Bereich **[!UICONTROL Journey-Eigenschaften]** eine Zeitzone
 
 ![](assets/journey72.png)
 
-## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
+## Verwenden Sie Profile, um die Zeitzone der Journey zu definieren {#timezone-from-profiles}
 
 Wenn das Eintrittsereignis der Journey einen Namespace hat, d. h. die Journey hat Zugriff auf den Echtzeit-Kundenprofil-Service von Adobe Experience Platform, wird die Zeitzone mit jener im Profil des Kontakts vordefiniert, der sich in der Journey befindet.
 

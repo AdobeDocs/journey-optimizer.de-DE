@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 98%
+source-wordcount: '1488'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
-## Erste Schritte beim Entwerfen von Journeys
+## Erste Schritte beim Entwerfen von Journeys {#gs-journey-design}
 
 Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: **[!UICONTROL Ereignisse]**, **[!UICONTROL Orchestrierung]** und **[!UICONTROL Aktionen]**. Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
 
@@ -52,7 +52,7 @@ Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben re
 
 ![](assets/journey41.png)
 
-## Starten der Journey
+## Journey starten {#start-your-journey}
 
 Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
 
@@ -60,7 +60,7 @@ Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Prof
 
 **Beginn mit dem Schritt „Segment lesen“**: Sie können Ihre Journey so einstellen, dass sie auf Adobe Experience Platform-Segmente wartet. In diesem Fall treten alle dem angegebenen Segment angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Erfahren Sie mehr über das Lesen von Segmenten](read-segment.md).
 
-## Nächste Schritte definieren
+## Nächste Schritte definieren{#define-next-steps}
 
 Nach dem ersten Ereignis oder dem Schritt „Segment lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
@@ -86,9 +86,11 @@ Hier finden Sie die Aktivität **Nachricht**, mit der Sie eine in [!DNL Journey 
 
 Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
 
-## Die Verwendung von Pfaden auf der Arbeitsfläche {#paths}
+## Hinzufügen alternativer Pfade{#paths}
 
-Mehrere Aktivitäten (**[!UICONTROL Bedingungs-]** oder **[!UICONTROL Aktionsaktivitäten]**) ermöglichen es Ihnen, eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung zu definieren. Aktivieren Sie im Konfigurationsbereich für die Aktivität das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]**. Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die maximale Wartezeit wird in den Eigenschaften der Journey durch einen Administrator definiert (siehe [diese Seite](../building-journeys/journey-gs.md#change-properties)). Wenn beispielsweise das Senden einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
+Sie können eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Bedingung]** und **[!UICONTROL Aktion]**.
+
+Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie die **[!UICONTROL Alternativen Pfad im Fall eines Timeouts oder Fehlers hinzufügen]** in den Eigenschaften der Aktivität: Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die Zeitüberschreitungsdauer wird von Admin-Benutzern im [Journey-Eigenschaften](../building-journeys/journey-gs.md#change-properties). Wenn beispielsweise das Senden einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
 
 ![](assets/journey42.png)
 
@@ -104,7 +106,7 @@ Wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung
 
 ![](assets/canvas-disconnected.png)
 
-## Kopieren und Einfügen von Aktivitäten {#copy-paste}
+## Aktivitäten kopieren und einfügen {#copy-paste}
 
 Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder in derselben oder einer anderen Journey einfügen. So sparen Sie Zeit, wenn Sie verschiedene Aktivitäten wiederverwenden möchten, die bereits in einer vorherigen Journey konfiguriert wurden.
 
