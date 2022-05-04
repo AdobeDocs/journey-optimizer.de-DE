@@ -9,7 +9,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Die Felder der Step-Ereignisse sind nach Kategorie geordnet.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| requestId | Zeichenfolge | Die Anfrage-ID, die von Journey Optimizer zum Verfolgen des Anfrageflusses verwendet wird. |
+| requestId | Zeichenfolge | Die von Journey Optimizer verwendete Anfrage-ID, um den Fluss einer Anfrage zu verfolgen. |
 
 ## journey {#journey-field}
 

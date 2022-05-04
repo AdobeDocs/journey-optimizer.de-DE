@@ -5,13 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d18a0cb38bf5a3014a87f1dc5f1c3a3c21982b09
+exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
+source-git-commit: 2038cb9d8ffe3048f6f5ab476c164bdc861c1149
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 14%
 
 ---
-
 
 # Bereitstellung von Angeboten mithilfe der Edge Decisioning-API {#edge-decisioning-api}
 

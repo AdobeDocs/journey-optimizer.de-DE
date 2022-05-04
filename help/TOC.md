@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 97%
       + [Segment lesen](using/building-journeys/read-segment.md)
       + [Nachricht](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
-      + [Adobe Campaign Standard-Aktionen](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Springen](using/building-journeys/jump.md)
       + [Aktualisieren von Profilen](using/building-journeys/update-profiles.md)
@@ -213,7 +213,7 @@ ht-degree: 97%
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + [Steigern Sie Ihre Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
    + [Überwachen von Nachrichten ](using/reports/message-monitoring.md)
    + Live-Bericht {#live-report}
@@ -328,7 +328,7 @@ ht-degree: 97%
          + [Löschen von Entscheidungen](using/offers/api-reference/activities-api/activities/delete.md)
       + Versand von Angeboten mit APIs {#offer-delivery-api}
          + [Informationen zu Decisioning- und Edge Decisioning-APIs](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Daten-Management {#data-management}

@@ -9,7 +9,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
->title="TXT-Einträge für Google"
->abstract="Um einen erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen, können Sie Ihrer Subdomain spezielle TXT-Einträge für die Google-Websiteüberprüfung hinzufügen, um sicherzustellen, dass sie verifiziert ist."
+>title="TXT-Einträge von Google"
+>abstract="Für einen erfolgreichen Versand von E-Mails an Gmail-Adressen können Sie Ihren Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzuzufügen, um ihre Verifizierung sicherzustellen."
 
 TXT-Einträge sind eine Art von DNS-Einträgen, die der Bereitstellung von Textinformationen über eine Domain dienen und von externen Quellen gelesen werden können.
 
-Um eine optimale Zustellbarkeit und einen erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen, [!DNL Journey Optimizer] ermöglicht Ihnen, Ihrer Subdomain spezielle TXT-Einträge für die Google-Websiteüberprüfung hinzuzufügen, um sicherzustellen, dass sie verifiziert ist.
+Für optimale Zustellbarkeit und einen erfolgreichen Versand von E-Mails an Gmail-Adressen ermöglicht es Ihnen [!DNL Journey Optimizer], Ihren Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzuzufügen, um ihre Verifizierung sicherzustellen.
 
 >[!CAUTION]
 >

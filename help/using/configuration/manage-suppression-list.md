@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -105,8 +105,8 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="E-Mails/Domänen zur Unterdrückungsliste hinzufügen"
->abstract="Sie können die Journey Optimizer-Unterdrückungsliste manuell ausfüllen, um bestimmte E-Mail-Adressen und/oder Domänen von Ihrem Versand auszuschließen."
+>title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
+>abstract="Sie können die Unterdrückungsliste von Journey Optimizer manuell füllen, um bestimmte E-Mail-Adressen und/oder Domains vom Versand auszuschließen."
 
 Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, wird diese Adresse basierend auf der definierten Unterdrückungsregel oder der Anzahl der Bounces automatisch auf die Unterdrückungsliste gesetzt.
 
@@ -122,8 +122,8 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="Ein Element zur Unterdrückungsliste hinzufügen"
->abstract="Sie können die Unterdrückungsliste ausfüllen, indem Sie E-Mail-Adressen und/oder Domänen einzeln hinzufügen."
+>title="Hinzufügen eines Elements zur Unterdrückungsliste"
+>abstract="Sie können E-Mail-Adressen und/oder Domains einzeln zur Unterdrückungsliste hinzufügen."
 
 1. Wählen Sie die Option **[!UICONTROL Einzeln]** aus.
 
@@ -145,8 +145,8 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="Hochladen von CSV-Dateien zum Hinzufügen von Elementen zur Unterdrückungsliste"
->abstract="Sie können die Unterdrückungsliste ausfüllen, indem Sie eine CSV-Datei hochladen, die mit den E-Mail-Adressen/Domänen gefüllt ist, die Sie ausschließen möchten."
+>title="Hochladen von CSV-Dateien, um Elemente zur Unterdrückungsliste hinzuzufügen"
+>abstract="Sie können eine CSV-Datei mit den E-Mail-Adressen/Domains, die Sie ausschließen möchten, in die Unterdrückungsliste hochladen."
 
 1. Wählen Sie die Option **[!UICONTROL CSV hochladen]** aus.
 

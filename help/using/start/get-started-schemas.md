@@ -8,7 +8,7 @@ exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat darstell
 
 Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target=&quot;_blank&quot;}, wie Sie Schemas erstellen.
 
-Die **Schemas** Arbeitsbereich in [!DNL Adobe Journey Optimizer] Mit der -Benutzeroberfläche können Sie Experience-Datenmodell (XDM)-Ressourcen verwalten, einschließlich Schemas, Klassen, Schemafeldgruppen und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemas für Ihr Unternehmen erstellen.
+Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht Ihnen die Verwaltung von XDM-Ressourcen (Experience-Datenmodell), einschließlich Schemas, Klassen, Schemafeldern und Datentypen. Sie können die von Adobe bereitgestellten Kernressourcen anzeigen und untersuchen sowie benutzerdefinierte Ressourcen und Schemas für Ihr Unternehmen erstellen.
 
 ![](assets/schemas-home.png)
 

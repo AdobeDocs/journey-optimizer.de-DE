@@ -9,7 +9,7 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Jedes Konzept kann von **[!UICONTROL Produktadministratoren]** verwaltet werden,
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie mehr über das Zugriffskontrollsystem und benutzerdefinierte Produktprofile in Adobe Journey Optimizer. Erfahren Sie, wie Sie Produktprofile und Berechtigungen verwalten und Benutzer hinzufügen und verwalten können.
+Erfahren Sie mehr über das Zugriffssteuerungssystem und benutzerdefinierte Produktprofile in Adobe Journey Optimizer. Erfahren Sie, wie Sie Produktprofile und Berechtigungen verwalten und Benutzer hinzufügen und verwalten können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

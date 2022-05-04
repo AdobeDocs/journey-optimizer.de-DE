@@ -9,7 +9,7 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -21,11 +21,11 @@ Auf dieser Seite finden Sie Informationen zu spezifischen Funktionen, die in den
 
 |  | Anforderungen/Sek. | Latenz |
 |---|---|---|
-| Decisioning API | 2.000 | &lt;500ms |
+| Decisioning-API | 2.000 | &lt;500ms |
 | Edge Decisioning-API | 5.000 | &lt;250ms |
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
-* [Decisioning API](decisioning-api.md)
+* [Decisioning-API](decisioning-api.md)
 * [Edge Decisioning-API](edge-decisioning-api.md)
 
 ## Funktionen der Edge Decisioning API {#edge}

@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 
 >[!NOTE]
 >
->Da die Simulation kein Entscheidungsereignis generiert, wird die [capping](../offer-library/creating-personalized-offers.md#capping) Die Anzahl ist nicht betroffen.
+>Da die Simulation kein Entscheidungsereignis generiert, ist der [Begrenzungswert](../offer-library/creating-personalized-offers.md#capping) nicht betroffen.
 
 <!--
 ➡️ [Discover this feature in video](#video)

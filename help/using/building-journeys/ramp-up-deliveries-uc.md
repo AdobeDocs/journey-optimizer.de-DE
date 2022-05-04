@@ -1,5 +1,5 @@
 ---
-title: Steigern Sie Ihre Versandaktivität
+title: Steigern der Versandaktivität
 description: Hier erfahren Sie, wie Sie Ihre Versandaktivität steigern können.
 feature: Journeys
 topic: Content Management

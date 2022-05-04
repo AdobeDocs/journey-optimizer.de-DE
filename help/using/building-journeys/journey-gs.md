@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
 workflow-type: tm+mt
 source-wordcount: '1885'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -35,12 +35,12 @@ Um Nachrichten mit Journey zu senden, sind folgende Konfigurationen erforderlich
 
    ![](assets/create-content-push.png)
 
-## Journey erstellen{#jo-build}
+## Erstellen Ihrer Journey{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
->title="Journey erstellen"
->abstract="Auf diesem Bildschirm wird die Liste der vorhandenen Journey angezeigt. Öffnen Sie eine Journey oder klicken Sie auf &quot;Journey erstellen&quot;, und kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen."
+>title="Erstellen Ihrer Journey"
+>abstract="Auf diesem Bildschirm wird die Liste der vorhandenen Journey angezeigt. Öffnen Sie eine Journey oder klicken Sie auf „Journey erstellen“ und kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen."
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 

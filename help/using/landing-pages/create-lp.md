@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -91,7 +91,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    >[!NOTE]
    >
-   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen, wie hier beschrieben: [diesem Abschnitt](#test-landing-page).
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn sie bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
 1. Wenn die Landingpage die bereits verfügbaren Formulardaten vorab ausfüllen soll, wählen Sie die **[!UICONTROL Formularfelder mit Profilinformationen vorab ausfüllen]**.
 
@@ -189,7 +189,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. <!--For example, a message will display if -->
 
-* **Fehler** verhindert, dass Sie die Landingpage veröffentlichen, solange sie nicht aufgelöst wurde. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
+* **Fehler** verhindern, dass Sie die Landingpage veröffentlichen, solange nicht alle Fehler behoben sind. Beispielsweise erhalten Sie eine Warnung, wenn die Primärseiten-URL fehlt.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

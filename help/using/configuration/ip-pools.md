@@ -9,7 +9,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 ## Über IP-Pools {#about-ip-pools}
 
-Mit [!DNL Journey Optimizer]können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu gruppieren.
+Mit [!DNL Journey Optimizer] können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu Gruppen zusammenzufassen.
 
 Zur verbesserten Zustellbarkeit von E-Mails wird dringend empfohlen, IP-Pools zu erstellen. Auf diese Weise können Sie verhindern, dass die Reputation einer Subdomain eine Auswirkung auf Ihre anderen Subdomains hat.
 

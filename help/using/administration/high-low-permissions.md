@@ -8,7 +8,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -433,7 +433,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung [!DNL Manage frequency rules] {#manage-frequency-rules}
 
-Die **[!DNL Manage frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln lesen, erstellen, bearbeiten, löschen und aktivieren/deaktivieren.
+Die Berechtigung auf hoher Ebene **[!DNL Manage frequency rules]** ermöglicht es Benutzern, Häufigkeitsregeln zu lesen, zu erstellen, zu bearbeiten, zu löschen und zu aktivieren/deaktivieren.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -444,7 +444,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 ### Berechtigung [!DNL View frequency rules] {#view-frequency-rules}
 
-Die **[!DNL View frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln anzeigen.
+Mit der Berechtigung **[!DNL View frequency rules]** auf hoher Ebene können Benutzer Häufigkeitsregeln lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

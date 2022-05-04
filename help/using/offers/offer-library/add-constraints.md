@@ -1,6 +1,6 @@
 ---
 title: Hinzufügen von Einschränkungen zu Angeboten
-description: Erfahren Sie, wie Sie die Bedingungen für die Anzeige eines Angebots definieren
+description: Erfahren Sie, wie Sie Bedingungen für ein anzuzeigendes Angebot definieren
 feature: Offers
 topic: Integrations
 role: User
@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
 source-wordcount: '1594'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Priorität"
->abstract="Mit der Priorität wird die Priorität des Angebots im Vergleich zu anderen definiert, wenn der Benutzer sich für mehr als ein Angebot qualifiziert. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten."
+>abstract="Mit der Priorität können Sie den Rang eines Angebots gegenüber anderen definieren, wenn der Benutzer für mehrere Angebote infrage kommt. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten."
 
-Mit Einschränkungen können Sie die Bedingungen definieren, unter denen ein Angebot angezeigt werden soll.
+Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
 
 1. Konfigurieren Sie die **[!UICONTROL Angebotseignung]**. [Weitere Informationen](#eligibility)
 
@@ -40,25 +40,25 @@ Mit Einschränkungen können Sie die Bedingungen definieren, unter denen ein Ang
 
    ![](../assets/offer-priority.png)
 
-1. Geben Sie die **[!UICONTROL Begrenzung]**, d. h. wie oft das Angebot unterbreitet wird. [Weitere Informationen](#capping)
+1. Geben Sie die **[!UICONTROL Begrenzung]** des Angebots an, d. h. wie häufig das Angebot unterbreitet werden soll. [Weitere Informationen](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. Klicken **[!UICONTROL Nächste]** um alle definierten Begrenzungen zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um alle definierten Einschränkungen zu bestätigen.
 
-Wenn Sie beispielsweise die folgenden Einschränkungen festlegen:
+Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 ![](../assets/offer-constraints-example.png)
 
 * Das Angebot wird nur bei Benutzern berücksichtigt, die die Entscheidungsregel „Gold-Treuekunden“ erfüllen.
 * Die Priorität des Angebots ist mit „50“ festgelegt, d. h. das Angebot wird vor Angeboten mit einer Priorität zwischen 1 und 49 und nach Angeboten mit einer Priorität von mindestens 51 unterbreitet.
-* Das Angebot wird nur einmal pro Benutzer für alle Platzierungen angezeigt.
+* Das Angebot wird für alle Platzierungen nur einmal pro Benutzer angezeigt.
 
-## Förderfähigkeit {#eligibility}
+## Eignung {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Förderfähigkeit"
+>title="Eignung"
 >abstract="Die Angebotseignung ermöglicht es Ihnen, das Angebot auf bestimmte Profile zu beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren."
 
 >[!CONTEXTUALHELP]
@@ -67,19 +67,19 @@ Wenn Sie beispielsweise die folgenden Einschränkungen festlegen:
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 >additional-url="https://video.tv.adobe.com/v/329373?captions=ger" text="Demovideo ansehen"
 
-Die **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profile beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren.
+Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profile beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren.
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwendung von **Segmente** versus **Entscheidungsregeln** in [diesem Abschnitt](#segments-vs-decision-rules).
+>Weitere Informationen zur Verwendung von **Segmenten** versus **Entscheidungsregeln** finden Sie in [diesem Abschnitt](#segments-vs-decision-rules).
 
-* Standardmäßig wird die **[!UICONTROL Alle Besucher]** ausgewählt ist, d. h. jedes Profil kann für die Angebotsunterbreitung ausgewählt werden.
+* Standardmäßig ist die Option **[!UICONTROL Alle Besucher]** aktiviert, d. h. das Angebot kann jedem Profil unterbreitet werden.
 
    ![](../assets/offer-eligibility-default.png)
 
-* Sie können die Präsentation des Angebots auch auf die Mitglieder eines oder mehrerer [Adobe Experience Platform-Segmente](../../segment/about-segments.md).
+* Sie können die Präsentation eines Angebots auch auf die Mitglieder eines oder mehrerer [Adobe Experience Platform-Segmente](../../segment/about-segments.md) beschränken.
 
-   Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]** / **[!UICONTROL Oder]**.
+   Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
 
    ![](../assets/offer-eligibility-segment.png)
 
@@ -114,16 +114,16 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
 >title="Informationen zur Begrenzung von Angeboten"
->abstract="In diesem Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann."
+>abstract="In diesem Feld können Sie angeben, wie oft das Angebot angezeigt werden kann."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Begrenzung"
->abstract="Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen."
+>abstract="Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann."
 
-Begrenzungen dienen dazu, die maximale Anzahl von Angeboten festzulegen.
+Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
-Durch die Begrenzung der Anzahl der Besucherangebote auf bestimmte Angebote können Sie vermeiden, dass Ihre Kunden überfordert werden, und so jeden Touchpoint mit dem besten Angebot optimieren.
+Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
 
 Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
@@ -133,33 +133,33 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
    >[!NOTE]
    >
-   >Die Zahl muss eine Ganzzahl größer 0 sein.
+   >Der Wert muss eine Ganzzahl größer 0 sein.
 
 1. Geben Sie an, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
 
    ![](../assets/offer-capping-total.png)
 
-   * Auswählen **[!UICONTROL Insgesamt]** , um festzulegen, wie oft ein Angebot für die kombinierte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzer.
+   * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Ziel-Audience vorgeschlagen werden kann, d. h. für alle Benutzer.
 
-      Wenn Sie z. B. ein Elektronikhändler sind, der über einen &quot;TV-Türbrecher-Deal&quot;verfügt, soll das Angebot nur 200-mal für alle Profile zurückgegeben werden.
+      Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
-   * Auswählen **[!UICONTROL Pro Profil]** , um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
+   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
 
-      Wenn Sie z. B. eine Bank mit dem Angebot &quot;Platin-Kreditkarte&quot;sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Sie glauben sogar, dass der Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eine höhere Chance hat, das nächste beste Angebot zu nutzen.
+      Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
-1. Wenn Sie mehrere [Darstellungen](#representations) Geben Sie für Ihr Angebot an, ob Sie eine Begrenzung anwenden möchten. **[!UICONTROL Platzierungsübergreifend]** oder **[!UICONTROL Für jede Platzierung]**.
+1. Wenn Sie mehrere [Darstellungen](#representations) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Platzierungsübergreifend]**: Begrenzungszahlen führen zu allen Entscheidungen über alle Platzierungen hinweg, die mit dem Angebot verbunden sind.
+   * **[!UICONTROL Alle Platzierungen]**: Die Begrenzungswerte beziehen sich auf alle Entscheidungen in allen Platzierungen, die mit dem Angebot verbunden sind.
 
-      Wenn beispielsweise ein Angebot über eine **Email** Platzierung und **Web** Platzierung, und Sie legen die Begrenzung auf **2 pro Profil für alle Platzierungen** festgelegt ist, kann jedes Profil unabhängig vom Platzierungsmix das Angebot insgesamt bis zu zweimal erhalten.
+      Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
 
-   * **[!UICONTROL Für jede Platzierung]**: Begrenzungszahlen wenden die Entscheidungszählungen für jede Platzierung separat an.
+   * **[!UICONTROL Einzelne Platzierung]**: Die Begrenzungswerte beziehen sich auf jede einzelne Platzierung.
 
-      Wenn beispielsweise ein Angebot über eine **Email** Platzierung und **Web** Platzierung, und Sie legen die Begrenzung auf **2 pro Profil für jede Platzierung** festgelegt ist, kann jedes Profil das Angebot bis zu zwei Mal für die E-Mail-Platzierung und ein zweites Mal für die Webplatzierung erhalten.
+      Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 
-1. Sobald das Angebot gespeichert und validiert wurde und die Anzahl der in diesem Feld angegebenen Male den von Ihnen definierten Kriterien entspricht, wird die Bereitstellung des Angebots gestoppt.
+1. Wenn das Angebot nach dem Speichern und der Genehmigung entsprechend den von Ihnen festgelegten Kriterien so oft präsentiert wurde, wie Sie in diesem Feld angegeben haben, wird es nicht mehr angezeigt.
 
 Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der E-Mail-Vorbereitung berechnet. Wenn Sie z. B. eine E-Mail mit mehreren Angeboten vorbereiten, wird diese Anzahl dem Begrenzungswert angerechnet, unabhängig davon, ob die E-Mail gesendet wird oder nicht.
 
@@ -167,53 +167,53 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 
 >[!NOTE]
 >
->Begrenzungszähler werden zurückgesetzt, wenn das Angebot abläuft oder 2 Jahre nach dem Startdatum des Angebots, je nachdem, was zuerst eintritt. Erfahren Sie, wie Sie das Datum eines Angebots in [diesem Abschnitt](creating-personalized-offers.md#create-offer).
+>Die Begrenzungszähler werden zurückgesetzt, wenn das Angebot abgelaufen ist, oder 2 Jahre nach dem Anfangsdatum des Angebots, je nachdem, was zuerst eintritt. In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
 ### Auswirkungen von Datumsänderungen auf die Begrenzung {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Das Ändern des Datums kann sich auf die Begrenzung auswirken"
->abstract="Wenn auf dieses Angebot eine Begrenzung angewendet wird, kann dies bei einer Änderung des Start- oder Enddatums Auswirkungen haben."
+>title="Das Ändern des Datums kann sich auf die Begrenzung auswirken."
+>abstract="Wenn auf ein Angebot eine Begrenzung angewendet wird, kann sich die Änderung des Anfangs- oder Enddatums auf das Angebot auswirken."
 
-Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da dies Auswirkungen auf die Begrenzung haben kann, wenn die folgenden Bedingungen erfüllt sind:
+Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da dies Auswirkungen auf die Begrenzung haben kann, wenn die folgenden Voraussetzungen gegeben sind:
 
-* Das Angebot lautet [genehmigt](#review).
-* [Begrenzung](#capping) bereits auf das Angebot angewendet wurde.
-* Die Begrenzung wird pro Profil definiert.
+* Das Angebot wurde [genehmigt](#review).
+* Auf das Angebot wurde eine [Begrenzung](#capping) angewendet.
+* Die Begrenzung ist für einzelne Profile definiert.
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie das Datum eines Angebots in [diesem Abschnitt](creating-personalized-offers.md#create-offer).
+>In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
-Die Frequenzlimitierung pro Profil speichert die Begrenzungszahlen für jedes Profil. Wenn Sie das Start- und Enddatum eines genehmigten Angebots ändern, kann sich die Begrenzungsanzahl für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
+Die Frequenzlimitierung pro Profil speichert die Begrenzungswerte für jedes Profil. Wenn Sie das Anfangs- und Enddatum eines genehmigten Angebots ändern, kann sich der Begrenzungswert für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
 
 ![](../assets/offer-capping-change-date.png)
 
-Im Folgenden finden Sie mögliche Szenarien für **Ändern des Anfangsdatums eines Angebots**:
+Im Folgenden finden Sie die möglichen Szenarien für **das Ändern des Anfangsdatums eines Angebots**:
 
-| Szenario:<br>Wenn ... | Was geschieht:<br>dann... | Mögliche Auswirkungen auf die Begrenzungsanzahl |
+| Szenario:<br>Wenn ... | Was geschieht:<br>dann ... | Mögliche Auswirkungen auf den Begrenzungswert |
 |--- |--- |--- |
-| ... das Anfangsdatum des Angebots vor Beginn des ursprünglichen Angebotsstartdatums aktualisiert wird, | ... beginnt die Begrenzungsanzahl am neuen Startdatum. | Nein |
-| ... das neue Startdatum vor dem aktuellen Enddatum liegt, | ... die Begrenzung wird mit einem neuen Startdatum fortgesetzt und die vorherige Begrenzung für jedes Profil wird fortgesetzt. | Nein |
-| ... das neue Startdatum nach dem aktuellen Enddatum liegt, | ... läuft die aktuelle Begrenzung ab und die neue Begrenzungsanzahl beginnt für alle Profile am neuen Startdatum erneut bei 0. | Ja |
+| ... das Anfangsdatum des Angebots vor Beginn des ursprünglichen Angebotsstartdatums geändert wird, | ... beginnt der Begrenzungswert am neuen Anfangsdatum. | Nein |
+| ... das neue Anfangsdatum vor dem aktuellen Enddatum liegt, | ... wird die Begrenzung mit dem neuen Anfangsdatum fortgesetzt und der vorherige Begrenzungswert wird für jedes Profil übernommen. | Nein |
+| ... das neue Anfangsdatum hinter dem aktuellen Enddatum liegt, | ... läuft die aktuelle Begrenzung ab und der neue Begrenzungswert beginnt für alle Profile am neuen Anfangsdatum wieder bei 0. | Ja |
 
-Im Folgenden finden Sie mögliche Szenarien für **Erweiterung des Enddatums eines Angebots**:
+Im Folgenden finden Sie mögliche Szenarien für **die Verlängerung des Enddatums eines Angebots**:
 
-| Szenario:<br>Wenn ... | Was geschieht:<br>dann... | Mögliche Auswirkungen auf die Begrenzungsanzahl |
+| Szenario:<br>Wenn ... | Was geschieht:<br>dann ... | Mögliche Auswirkungen auf den Begrenzungswert |
 |--- |--- |--- |
-| ... eine Entscheidungsanfrage vor dem Enddatum des ursprünglichen Angebots erfolgt, | ... wird die Begrenzungsanzahl aktualisiert und die vorherige Begrenzungsanzahl für jedes Profil wird fortgesetzt. | Nein |
-| ... keine Entscheidungsanfrage vor dem ursprünglichen Enddatum erfolgt, | ... wird die Begrenzungsanzahl auf das ursprüngliche Enddatum für jedes Profil zurückgesetzt. Die neue Begrenzungsanzahl beginnt dann bei allen neuen Entscheidungsanfragen, die nach dem ursprünglichen Enddatum auftreten, erneut von 0. | Ja |
+| ... eine Entscheidungsanfrage vor dem ursprünglichen Enddatum eines Angebots erfolgt, | ... wird der Begrenzungswert aktualisiert und der vorherige Begrenzungswert wird für jedes Profil übernommen. | Nein |
+| ... keine Entscheidungsanfrage vor dem ursprünglichen Enddatum erfolgt, | ... wird der Begrenzungswert am ursprünglichen Enddatum für jedes Profil zurückgesetzt. Der neue Begrenzungswert beginnt dann für alle neuen Entscheidungsanfragen, die nach dem ursprünglichen Enddatum erfolgen, wieder bei 0. | Ja |
 
 **Beispiel**
 
-Angenommen, Sie haben ein Angebot mit einem ursprünglichen Startdatum auf **1. Januar**, die am **31. Januar**.
+Angenommen, Sie haben ein Angebot mit dem ursprünglichen Anfangsdatum **1. Januar**, das am **31. Januar** abläuft.
 
-1. Die Profile X, Y und Z werden im Angebot vorgestellt.
-1. on **10. Januar** festgelegt wurde, wird das Enddatum des Angebots in **15. Februar**.
-1. **Vom 11. Januar bis 31. Januar**, wird das Angebot nur dem Profil Z angezeigt.
+1. Den Profilen X, Y und Z wird das Angebot gezeigt.
+1. Am **10. Januar** wird das Enddatum des Angebots in **15. Februar** geändert.
+1. **Vom 11. bis zum 31. Januar** wird das Angebot nur Profil Z gezeigt.
 
-   * Da vor dem ursprünglichen Enddatum eine Entscheidungsanfrage aufgetreten ist **für Profil Z**, kann das Enddatum des Angebots auf **15. Februar**.
-   * Da jedoch keine Aktivität vor dem ursprünglichen Enddatum für **Profile X und Y**, laufen ihre Zähler ab und ihre Begrenzungszahlen werden auf 0 zurückgesetzt **31. Januar**.
+   * Da eine Entscheidungsanfrage vor dem ursprünglichen Enddatum erfolgt ist, kann **für Profil Z** das Enddatum des Angebots auf **15. Februar** verlängert werden.
+   * Da jedoch für **Profil X und Y** keine Aktivität vor dem ursprünglichen Enddatum stattfand, laufen ihre Zähler ab und ihre Begrenzungswerte werden am **31. Januar** auf 0 zurückgesetzt.
 
 ![](../assets/offer-capping-change-date-ex.png)

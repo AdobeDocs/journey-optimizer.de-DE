@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '2492'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -19,21 +19,21 @@ Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten,
 
 >[!CAUTION]
 >
-> * Um Nachrichtenvorgaben zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die [Verwalten von Nachrichtenvorgaben](../administration/high-low-permissions.md#manage-message-presets).
+> * Um Nachrichtenvoreinstellungen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Option [Nachrichtenvoreinstellungen verwalten](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * Sie müssen [E-Mail-Konfiguration](#configure-email-settings) und [Push-Konfiguration](../configuration/push-configuration.md) Schritte vor der Erstellung von Nachrichtenvorgaben.
+> * Sie müssen die Konfigurationsschritte für [E-Mails](#configure-email-settings) und [Push-Benachrichtigungen](../configuration/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
 
 
-Nachdem die Nachrichtenvorgaben konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten aus dem **[!UICONTROL Vorgaben]** Liste.
+Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
 
-## Nachrichtenvoreinstellungen erstellen {#create-message-preset}
+## Erstellen von Nachrichtenvoreinstellungen {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Details und Einstellungen von Nachrichtenvorgaben"
->abstract="Durch die Einrichtung einer Nachrichtenvorgabe können Sie den Kanal auswählen, auf den sie angewendet wird, und alle technischen Parameter definieren, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, zu verwendende Subdomain, Absendername, Mobile Apps usw."
+>title="Details und Einstellungen von Nachrichtenvoreinstellungen"
+>abstract="Durch die Einrichtung einer Nachrichtenvoreinstellung können Sie den Kanal auswählen, für den sie gilt, und alle technischen Parameter definieren, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, zu verwendende Subdomain, Absendername, Mobile Apps usw."
 
 Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
@@ -99,8 +99,8 @@ Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="E-Mail-Kategorie definieren"
->abstract="Wählen Sie den Nachrichtentyp aus, der bei Verwendung dieser Vorgabe gesendet werden soll: Marketing für Werbenachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionsnachrichten für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
+>title="Definieren der E-Mail-Kategorie"
+>abstract="Wählen Sie den Nachrichtentyp aus, der bei Verwendung dieser Voreinstellung gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis des Benutzers erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
 
@@ -112,7 +112,7 @@ Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Vorei
 >
 >**Transaktions**-Nachrichten können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
-Wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message)müssen Sie eine gültige Nachrichtenvorgabe auswählen, die der für Ihre Nachricht ausgewählten Kategorie entspricht.
+Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md#create-new-message), müssen Sie eine gültige Nachrichtenvoreinstellung auswählen, die der für Ihre Nachricht ausgewählten Kategorie entspricht.
 
 ### Subdomain und IP-Pool {#subdomains-and-ip-pools}
 
@@ -128,7 +128,7 @@ Sie können nicht mit der Vorgabenerstellung fortfahren, während sich der ausge
 
 >[!NOTE]
 >
->Bei Nicht-Produktionsumgebungen erstellt Adobe keine nativen Testunterdomänen und gewährt keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](delegate-subdomain.md) und verwenden Sie die IPs aus dem Pool, der Ihrer Organisation zugewiesen ist.
+>Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -196,7 +196,7 @@ Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen un
 >id="ajo_admin_presets_retryperiod"
 >title="Anpassen des Wiederholungszeitraumes"
 >abstract="Wiederholungen werden 3,5 Tage lang (84 Stunden) durchgeführt, wenn eine E-Mail-Nachricht aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Über weitere Versuche"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=de" text="Über weitere Zustellversuche"
 
 Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
 
@@ -210,7 +210,7 @@ Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folg
 * Für E-Mails vom Typ Transaktion beträgt der Mindestzeitraum für weitere Zustellversuche 10 Minuten.
 * Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuche 84 Stunden (d. h. 5.040 Minuten).
 
-Erfahren Sie mehr über weitere Zustellversuche in [diesem Abschnitt](retries.md).
+Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschnitt](retries.md).
 
 ### URL-Tracking{#url-tracking}
 

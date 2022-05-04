@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,29 +45,29 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    ![](../assets/create_offer.png)
 
-1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Außerhalb dieser Daten wird das Angebot nicht von der Decisioning-Engine ausgewählt.
+1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Außerhalb dieses Datumsbereichs wird das Angebot nicht von der Decisioning-Engine ausgewählt.
 
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
    >
-   >Das Aktualisieren der Start-/Enddaten kann sich auf die Begrenzung auswirken. [Weitere Informationen](add-constraints.md#capping-change-date)
+   >Das Aktualisieren des Start-/Enddatums kann sich auf die Begrenzung auswirken. [Weitere Informationen](add-constraints.md#capping-change-date)
 
-1. Sie können auch eine oder mehrere vorhandene **[!UICONTROL tags]** dem Angebot hinzufügen, sodass Sie die Angebotsbibliothek einfacher durchsuchen und organisieren können. [Weitere Informationen](creating-tags.md).
+1. Sie können dem Angebot auch ein oder mehrere **[!UICONTROL Tags]** zuordnen, damit Sie die Angebotsbibliothek leichter durchsuchen und organisieren können. [Weitere Informationen](creating-tags.md).
 
 1. Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen.
 
-1. Fügen Sie Darstellungen hinzu, um festzulegen, wo Ihr Angebot in der Nachricht angezeigt werden soll. [Weitere Informationen](add-representations.md)
+1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
-1. Fügen Sie Einschränkungen hinzu, um die Bedingungen für die Anzeige des Angebots festzulegen. [Weitere Informationen](add-constraints.md)
+1. Fügen Sie Einschränkungen hinzu, um die Bedingungen für das anzuzeigende Angebot festzulegen. [Weitere Informationen](add-constraints.md)
 
    ![](../assets/offer-constraints-example.png)
 
 1. Überprüfen und speichern Sie das Angebot. [Weitere Informationen](#review)
 
-## Angebot überprüfen {#review}
+## Überprüfen von Angeboten {#review}
 
 Sobald Eignungsregeln und Begrenzungen definiert wurden, wird eine Zusammenfassung der Angebotseigenschaften angezeigt.
 
@@ -87,7 +87,7 @@ Es kann jetzt Benutzern unterbreitet werden.
 
 ![](../assets/offer_created.png)
 
-## Angebote verwalten {#offer-list}
+## Verwalten von Angeboten {#offer-list}
 
 Sie können aus der Angebotsliste das Angebot auswählen, dessen Eigenschaften angezeigt werden sollen. Sie können das Angebot auch bearbeiten, seinen Status (**Entwurf**, **Genehmigt**, **Archiviert**) ändern, es duplizieren oder löschen.
 

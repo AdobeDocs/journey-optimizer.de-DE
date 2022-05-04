@@ -1,6 +1,6 @@
 ---
 title: Testen einer Journey
-description: Erfahren Sie, wie Sie Ihre Journey testen können
+description: Erfahren Sie, wie Sie Ihre Journey testen
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 83%
 >title="Testen einer Journey"
 >abstract="Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. Auf diese Weise können Sie analysieren, wie sich Kontakte in der Journey bewegen, und Fehler vor der Veröffentlichung beheben."
 
-Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. In diesem Modus können Sie einen Test Ihrer Journey durchführen und mithilfe von Testprofilen Probleme identifizieren.
+Verwenden Sie Testprofile, um Ihre Journey vor der Veröffentlichung zu testen. In diesem Modus können Tests für die Journey durchgeführt und Probleme mithilfe von Testprofilen erkannt werden.
 
-Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder neue Testprofile erstellen oder vorhandene Profile in Testprofile umwandeln. Weitere Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../segment/creating-test-profiles.md).
+Nur Testprofile können im Testmodus in eine Journey eintreten. Sie können entweder neue Testprofile erstellen oder vorhandene Profile in Testprofile umwandeln. Weiterführende Informationen zu Testprofilen finden Sie in [diesem Abschnitt](../segment/creating-test-profiles.md).
 
 >[!NOTE]
 >
->Vor dem Testen Ihres Journey müssen Sie alle Fehler beheben, falls vorhanden. Erfahren Sie, wie Sie Fehler vor dem Testen in überprüfen können. [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+>Vor dem Testen Ihrer Journey müssen Sie alle Fehler beheben, falls vorhanden. Wie Sie Fehler vor dem Testen feststellen können, erfahren Sie in [diesem Abschnitt](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 
 Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
-1. Um den Testmodus zu aktivieren, aktivieren Sie die **[!UICONTROL Test]** Umschalten, in der oberen rechten Ecke.
+1. Um den Testmodus zu aktivieren, aktivieren Sie in der rechten oberen Ecke den Umschalter **[!UICONTROL Test]**.
 
    ![](assets/journeytest1.png)
 
-1. Wenn die Journey mindestens eine **Warten** -Aktivität, legen Sie die **[!UICONTROL Wartezeit]** -Parameter, um die Dauer jeder Warteaktivität und jedes Ereignis-Timeouts im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
+1. Wenn die Journey mindestens eine Aktivität vom Typ **Warten** enthält, stellen Sie den Parameter **[!UICONTROL Wartezeit]** ein, um die Dauer jeder Warteaktivität und jeder maximalen Wartezeit bei einem Ereignis im Testmodus festzulegen. Die Standardzeit für Wartezeiten und die maximale Wartezeit für Ereignisse beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell.
 
    ![](assets/journeytest_wait.png)
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
    >
    >Wenn in einer Journey ein Reaktionsereignis verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/reaction-events.md).
 
-1. Verwenden Sie die **[!UICONTROL Trigger eines Ereignisses]** -Schaltfläche zum Konfigurieren und Senden von Ereignissen an die Journey.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
    ![](assets/journeyuctest1.png)
 
@@ -67,20 +67,20 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 * Sie können den Testmodus beliebig oft aktivieren/deaktivieren.
 * Sie können Ihre Journey nicht ändern, wenn der Testmodus aktiviert ist. Im Testmodus können Sie die Journey direkt veröffentlichen, ohne den Testmodus zuvor deaktivieren zu müssen.
 * Beim Erreichen einer Aufspaltung wird immer die obere Verzweigung gewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen.
-* Um die Leistung zu optimieren und eine veraltete Ressourcennutzung zu verhindern, wechseln alle Journey im Testmodus, die seit einer Woche nicht ausgelöst wurden, zurück zum **Entwurf** Status.
+* Um die Leistung zu optimieren und eine überflüssige Ressourcennutzung zu verhindern, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, wieder in den **Entwurfsstatus**.
 
-## Trigger Ihrer Veranstaltungen {#firing_events}
+## Auslösen Ihrer Ereignisse {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Konfigurieren des Testmodus"
 >abstract="Wenn Ihre Journey mehrere Ereignisse enthält, wählen Sie ein Ereignis aus der Dropdown-Liste aus. Konfigurieren Sie dann für jedes Ereignis die weitergeleiteten Felder und die Ausführung des Ereignisversands."
 
-Verwenden Sie die **[!UICONTROL Trigger eines Ereignisses]** -Schaltfläche, um ein Ereignis zu konfigurieren, bei dem eine Person in die Journey eintritt.
+Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um ein Ereignis zu konfigurieren, das eine Person zum Eintritt in eine Journey veranlasst.
 
 >[!NOTE]
 >
->Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
+>Wenn Sie ein Ereignis im Testmodus auslösen, wird ein reales Ereignis generiert, d. h. es beeinflusst auch andere Journeys, die dieses Ereignis überwachen.
 
 Als Voraussetzung müssen Sie wissen, welche Profile in Adobe Experience Platform als Testprofile gekennzeichnet sind. Der Testmodus lässt nur diese Profile in der Journey zu und das Ereignis muss eine ID enthalten. Die erwartete ID hängt von der Ereigniskonfiguration ab. Es kann sich beispielsweise um eine ECID oder eine E-Mail-Adresse handeln. Der Wert dieses Schlüssels muss im Feld **Profilkennung** hinzugefügt werden.
 
@@ -114,16 +114,16 @@ Beim Auslösen eines Ereignisses können Sie im Bildschirm **Ereigniskonfigurati
 
 ## Testmodus für Geschäftsereignisse {#test-business}
 
-Bei Verwendung von [Geschäftsereignis](../event/about-events.md)verwenden Sie den Testmodus, um einen einzelnen Testprofileintritt in die Journey Trigger, das Ereignis zu simulieren und die richtige Profil-ID zu übergeben. Sie müssen die Ereignisparameter und die Kennung des Testprofils übergeben, das während des Tests in die Journey eintritt. Die Option **[!UICONTROL Bis zu 100 Profile gleichzeitig]**, die für andere segmentbasierte Journeys verfügbar ist, können Sie nicht verwenden. Im Testmodus ist kein Modus „Code-Ansicht“ für Journeys auf der Basis von Geschäftsereignissen verfügbar.
+Nutzen Sie bei Verwendung von [Geschäftsereignis](../event/about-events.md) den Testmodus, um einen einzelnen Testprofileintritt in die Journey auszulösen, das Ereignis zu simulieren und die richtige Profil-ID zu übergeben. Sie müssen die Ereignisparameter und die Kennung des Testprofils übergeben, das während des Tests in die Journey eintritt. Die Option **[!UICONTROL Bis zu 100 Profile gleichzeitig]**, die für andere segmentbasierte Journeys verfügbar ist, können Sie nicht verwenden. Im Testmodus ist kein Modus „Code-Ansicht“ für Journeys auf der Basis von Geschäftsereignissen verfügbar.
 
 Beachten Sie, dass Sie beim ersten Trigger eines Geschäftsereignisses die Definition des Geschäftsereignisses nicht in derselben Testsitzung ändern können. Sie können nur festlegen, dass derselbe Kontakt oder eine andere Einzelperson in die Journey eintritt, die dieselbe oder eine andere Kennung übergibt. Wenn Sie die Geschäftsereignis-Parameter ändern möchten, müssen Sie den Testmodus beenden und erneut beginnen.
 
-## Protokolle anzeigen {#viewing_logs}
+## Anzeigen von Protokollen {#viewing_logs}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Testmodusprotokolle"
->abstract="Die Schaltfläche Protokoll anzeigen zeigt Testergebnisse im JSON-Format an. Diese Ergebnisse zeigen die Anzahl der Kontakte innerhalb der Journey und ihren Status an."
+>abstract="Mit der Schaltfläche „Protokoll anzeigen“ können Sie Testergebnisse im JSON-Format anzeigen. Diese Ergebnisse geben die Anzahl der Kontakte innerhalb der Journey sowie ihren Status an."
 
 Mit der Schaltfläche **[!UICONTROL Protokoll anzeigen]** können Sie die Testergebnisse anzeigen. Auf dieser Seite werden die aktuellen Informationen der Journey im JSON-Format angezeigt. Mit einer Schaltfläche können Sie ganze Knoten kopieren. Sie müssen die Seite manuell aktualisieren, um die Testergebnisse der Journey zu aktualisieren.
 

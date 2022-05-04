@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
    ![](assets/allow-list-edit.png)
 
-1. Auswählen **[!UICONTROL Zulassungsliste aktivieren]**.
+1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus.
 
    ![](assets/allow-list-enable.png)
 

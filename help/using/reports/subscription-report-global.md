@@ -1,6 +1,6 @@
 ---
 title: Abonnementbericht
-description: Erfahren Sie, wie Daten von den Abonnement-Services  für den globalen Abonnementbericht verwendet werden können
+description: Erfahren Sie, wie Daten von den Abonnement-Services   für den globalen Abonnementbericht verwendet werden können
 feature: Journeys
 topic: Content Management
 role: User

@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 80%
+ht-degree: 90%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
->title="PTR-Datensätze der Subdomains"
->abstract="Ein Zeigerdatensatz (PTR) ist ein DNS-Record-Typ, der den mit einer IP-Adresse verknüpften Domänennamen bereitstellt, der den E-Mail-Servern beim Überprüfen der IP-Adressen der Absender hilft."
+>title="PTR-Einträge der Subdomains"
+>abstract="Ein Pointer Record (PTR) ist eine Art von DNS-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt, der den E-Mail-Empfangs-Servern beim Überprüfen der IP-Adressen der Absender hilft."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 
 Ein PTR (Pointer Record, „Zeigereintrag“) ist ein Typ von DNS (Domain Name System)-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt.
 
-Mit PTR-Datensätzen können Empfänger-E-Mail-Server die Authentizität der E-Mail-Server überprüfen, indem sie feststellen, ob ihre IP-Adressen den Namen entsprechen, mit denen die Server verbunden sind.
+Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-Sende-Server überprüfen, indem sie feststellen, ob ihre IP-Adressen mit den Namen übereinstimmen, mit denen sich die Server verbinden.
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
@@ -46,7 +46,7 @@ Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte S
 
 >[!CAUTION]
 >
->Gehen Sie bei der Bearbeitung von PTR-Datensätzen mit größter Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.<!--why?-->
+>Gehen Sie bei der Bearbeitung von PTR-Einträgen mit größter Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.<!--why?-->
 
 >[!NOTE]
 >

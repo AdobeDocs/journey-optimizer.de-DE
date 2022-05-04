@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3195'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,29 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Landingpages**
 
-* **Neue Option für Opt-in-/Opt-out-Checkboxes** - Sie können jetzt eine einzige Checkbox für das Opt-in/Opt-out in Abonnement-Landingpages einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um zuzustimmen (Opt-in), und es deaktivieren, um ihre Zustimmung zu entfernen (Opt-out). [Weitere Informationen](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Neue Option für Opt-in-/Opt-out-Kontrollkästchen** - Sie können jetzt ein einziges Kontrollkästchen für das Opt-in/Opt-out in Abonnement-Landingpages einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out). [Weitere Informationen](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Felder für Landingpages vorbefüllen** - Benutzer können jetzt die Landingpage-Felder mit Profilinformationen vorab ausfüllen. [Weitere Informationen](../landing-pages/create-lp.md#configure-primary-page)
+* **Vorausfüllen von Feldern auf Landingpages** - Benutzer können jetzt die Felder auf der Landingpage mit Profilinformationen befüllen. [Weitere Informationen](../landing-pages/create-lp.md#configure-primary-page)
 
 **Entscheidungs-Management**
 
-* **Decisioning-API in Edge** - Die Edge Decisioning-API kann personalisierte Angebote bereitstellen und rendern, die in Offer Decisioning verwaltet werden. Sie können Ihre Angebote und andere verwandte Objekte mithilfe der Offer decisioning-Benutzeroberfläche (UI) oder APIs erstellen. [Weitere Informationen](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Decisioning-API in Edge** - Die Decisioning-API in Edge kann personalisierte Angebote bereitstellen und rendern, die in Offer Decisioning verwaltet werden. Sie können Ihre Angebote und andere verwandte Objekte über APIs oder die Benutzeroberfläche (UI) von Offer Decisioning erstellen. [Weitere Informationen](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
-* **PTR-Sendedauer** - Die Dauer der PTR-Bearbeitung ist jetzt ein paar Stunden. [Weitere Informationen](../configuration/ptr-records.md#processing)
+* **PTR-Sendedauer** - PTR-Bearbeitungen werden nun nach ein paar Stunden wirksam. [Weitere Informationen](../configuration/ptr-records.md#processing)
 
-**E-Mail-Erstellung**
+**E-Mail-Design**
 
 * **20 neue E-Mail-Vorlagen** sind jetzt verfügbar, um E-Mail-Inhalte in Journey Optimizer zu erstellen.
 
 **Benutzeroberfläche**
 
-* **Kontexthilfe in der Benutzeroberfläche von Journey Optimizer** - Auf mehreren Seiten in Journey Optimizer wurden Links zur kontextuellen Hilfe hinzugefügt. Wenn verfügbar, klicken Sie auf das Symbol &quot;i&quot;, um eine kurze Beschreibung der aktuellen Funktion anzuzeigen und auf zugehörige Artikel zuzugreifen.
+* **Kontexthilfe in der Benutzeroberfläche von Journey Optimizer** - Auf mehreren Seiten in Journey Optimizer wurden Links zur Kontexthilfe hinzugefügt. Wenn verfügbar, klicken Sie auf das Symbol „i“, um eine kurze Beschreibung der aktuellen Funktion anzuzeigen und auf zugehörige Artikel zuzugreifen.
 
 **Integration mit Adobe Campaign Standard**
 
-Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mails, Push-Benachrichtigungen und SMS versenden. Verwenden Sie die neuen integrierten Aktionen, um die Transaktionsnachrichten-Funktionen von Campaign Standard in Journey Optimizer zu nutzen.  [Weitere Informationen](../action/acs-action.md)
+Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mails, Push-Benachrichtigungen und SMS versenden. Verwenden Sie die neuen integrierten Aktionen, um die Funktionen für den Transaktionsnachrichtenversand von Campaign Standard in Journey Optimizer zu nutzen.  [Weitere Informationen](../action/acs-action.md)
 
 <!--
 ### Fixes
