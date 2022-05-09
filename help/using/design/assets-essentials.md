@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
+source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 74%
+source-wordcount: '496'
+ht-degree: 73%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 74%
 
 Zusammenführen von Marketing- und Kreativworkflows mithilfe von [!DNL Adobe Experience Manager Assets Essentials]. Nativ integriert in [!DNL Adobe Journey Optimizer], Zugriff [!DNL Assets Essentials] zum Speichern, Verwalten, Entdecken und Verteilen digitaler Assets. Es bietet ein zentrales Repository mit Assets, mit dem Sie Ihre Nachrichten ausfüllen können.
 
-[!DNL Adobe Experience Manager Assets Essentials] ist ein kollaborativer und zentralisierter Asset-Arbeitsbereich, der Ihr Kreativsystem erweitert und digitale Assets für die Bereitstellung von Erlebnissen bietet. Sie können genehmigte Produktions-Assets einfach organisieren, taggen und finden, um die Markenkonsistenz in allen Teams sicherzustellen. Mit dem intuitiven Benutzererlebnis können Sie sofort auf freigegebene Assets in Ihren Adobe Creative- und Experience Cloud-Apps zugreifen.
+[!DNL Adobe Experience Manager Assets Essentials] ist ein kollaborativer und zentralisierter Asset-Arbeitsbereich, der Ihr Kreativsystem erweitert und digitale Assets für die Bereitstellung von Erlebnissen vereinheitlicht. Sie können genehmigte Produktions-Assets einfach organisieren, taggen und finden, um die Markenkonsistenz in allen Teams sicherzustellen. Mit seinem intuitiven Benutzererlebnis können Sie auf [!DNL Assets Essentials] sofort, um Assets in Ihren Adobe Creative- und Experience Cloud-Apps freizugeben.
 
 Weitere Informationen finden Sie unter [Adobe Experience Manager Assets Essentials-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] kann direkt über [!DNL Adobe Journey Optimizer] durch **[!UICONTROL Assets]** Abschnitt. Sie können auch auf Assets und Ordner zugreifen, wenn [E-Mail-Inhalt erstellen](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] kann direkt über [!DNL Adobe Journey Optimizer] über das linke Menü **[!UICONTROL Assets]** Abschnitt. Sie können auch auf Assets und Ordner zugreifen, wenn [E-Mail-Inhalt erstellen](design-emails.md).
 
 ## Voraussetzungen{#assets-prerequisites}
 
