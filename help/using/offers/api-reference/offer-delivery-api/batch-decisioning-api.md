@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 98%
 
 ---
 
@@ -124,8 +124,8 @@ Weitere Informationen zu den wichtigsten Konzepten und Eigenschaften finden Sie 
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
 | `@id` | Die von Offer Decisioning generierte UUID, die einen einzelnen Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | Die ID für Ihre IMS-Organisation. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | Ihre Container-ID. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | Die Organisations-ID. | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | Die Container-ID. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648078924834` |
 | `ode:status` | Der Status des Workloads. | `ode:status: "QUEUED"` |
 
@@ -173,7 +173,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
 | `@id` | Die von Offer Decisioning generierte UUID, die einen einzelnen Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | Die Kennung der IMS-Organisation | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | Die Organisations-ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | Die Container-ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648076994405` |
 | `ode:status` | Der Workload-Status ist zu Beginn „IN DIE WARTESCHLANGE GESTELLT“ und ändert sich dann in „VERARBEITUNG LÄUFT“, „AUFNAHME“, „ABGESCHLOSSEN“ oder „FEHLER“. | `ode:status: "COMPLETED"` |
