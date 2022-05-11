@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -53,8 +53,6 @@ Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, w
 
 * [Liste der Step-Ereignisfelder](../reports/sharing-field-list.md)
 * [Veraltete Felder für Step-Ereignisse](../reports/sharing-legacy-fields.md)
-
-Weiterführende Informationen zu Berichten über Step-Ereignisse bei Adobe Experience Platform finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporsting-step-events-to-adobe-experience-platform.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Integration mit Customer Journey Analytics {#integration-cja}
 

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '984'
+ht-degree: 97%
 
 ---
 
@@ -83,6 +83,11 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
    >Bei der Definition einer benutzerdefinierten Aktion sind nur die Standard-Ports zulässig: 80 für http und 443 für https.
 
 1. Wählen Sie die **[!UICONTROL Aufrufmethode]** aus: Sie kann entweder **[!UICONTROL POST]** oder **[!UICONTROL PUT]** sein.
+
+   >[!NOTE]
+   >
+   > Die **DELETE** -Methode wird nicht unterstützt. Wenn Sie eine vorhandene Ressource aktualisieren müssen, wählen Sie die **PUT** -Methode.
+
 1. Definieren Sie im Abschnitt **[!UICONTROL Header]** die HTTP-Header der Anfragenachricht, die an den externen Service gesendet werden soll:
    1. Um ein Header-Feld hinzuzufügen, klicken Sie auf **[!UICONTROL Feld für Kopfzeile hinzufügen]**.
    1. Geben Sie den Schlüssel des Header-Felds ein.
@@ -103,7 +108,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **
 
    >[!NOTE]
    >
-   >Header werden gemäß den folgenden Parsing-Regeln validiert. [Weitere Informationen](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Header werden gemäß den folgenden Parsing-Regeln validiert. Weitere Informationen finden Sie unter [diese Dokumentation](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definieren der Aktionsparameter {#define-the-message-parameters}
 

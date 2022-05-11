@@ -2,16 +2,26 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+
+## Mai 2022 {#may-2022}
+
+* Im Abschnitt zum E-Mail-Design werden jetzt neue integrierte Vorlagen erwähnt, mit denen Inhalte erstellt werden können. Zugehörige Screenshots wurden aktualisiert. [Weitere Informationen](../design/design-emails.md)
+* Die Links zu wichtigen Ressourcen wurden auf der Startseite der Journey Optimizer-Dokumentation aktualisiert.
+* Screenshots für Landingpages und Abonnementberichte wurden aktualisiert - [Weitere Informationen](../reports/live-report.md)
+* Es wurde ein Hinweis hinzugefügt, dass die Löschmethode in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
+* Die Links zu Anleitungsvideos wurden aktualisiert.
+
 
 ## April 2022 {#april-2022}
 
