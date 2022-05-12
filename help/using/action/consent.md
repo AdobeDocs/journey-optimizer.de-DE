@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Definieren einer erforderlichen Marketing-Aktion"
->abstract="Mit der Option &quot;Erforderliche Marketing-Aktion&quot;können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie &quot;E-Mail-Targeting&quot;auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien abgerufen und genutzt. Dies kann nicht in der Arbeitsfläche geändert werden."
+>abstract="Mit der Aktion Erforderliches Marketing können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie &quot;E-Mail-Targeting&quot;auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien abgerufen und genutzt. Dies kann nicht in der Arbeitsfläche geändert werden."
 
 Beim Konfigurieren einer benutzerdefinierten Aktion können zwei Felder für die Zustimmungsverwaltung verwendet werden.
 
