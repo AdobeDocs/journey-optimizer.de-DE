@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,3 @@ Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
 ## Aktionsparameter
 
 Im Abschnitt **[!UICONTROL Aktionsparameter]** sehen Sie die Nachrichtenparameter, die als _Variable_ definiert sind. Für diese Parameter können Sie festlegen, wo diese Informationen abgerufen werden sollen (Beispiel: Ereignisse, Datenquellen), Werte manuell übergeben oder den erweiterten Ausdruckseditor für erweiterte Anwendungsfälle verwenden. Erweiterte Anwendungsfälle können Datenmanipulationen und andere Funktionen sein. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md).
-
-**Verwandte Themen**
-
-[Konfigurieren einer Aktion](../action/about-custom-action-configuration.md)

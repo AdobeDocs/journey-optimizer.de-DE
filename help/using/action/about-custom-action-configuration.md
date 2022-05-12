@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
+source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 97%
+source-wordcount: '1536'
+ht-degree: 62%
 
 ---
 
@@ -33,7 +33,6 @@ In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfa
 
 Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein bestimmtes Format erwartet wird (Beispiel: Zeichenfolge, Dezimalwert usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie in diesem [Anwendungsfall](../building-journeys/collections.md).
 
-
 ## Konfigurationsschritte {#configuration-steps}
 
 Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren einer benutzerdefinierten Aktion ausgeführt werden müssen:
@@ -50,9 +49,12 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
 1. Fügen Sie Ihrer Aktion eine Beschreibung hinzu. Dieser Schritt ist optional.
 1. Die Zahl der Journeys, die diese Aktion verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys anzuzeigen.
-1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#url-configuration).
+1. Wählen Sie den mit dieser benutzerdefinierten Aktion verknüpften Kanal aus: **Email**, **SMS** oder **Push-Benachrichtigung**. Dadurch wird das erforderliche Feld für die Marketing-Aktion mit der standardmäßigen Marketing-Aktion für den ausgewählten Kanal vorausgefüllt. Wenn Sie **other** festgelegt ist, wird keine Marketing-Aktion definiert.
+1. Wenn Sie eine Einwilligungsregel auf diese benutzerdefinierte Aktion anwenden möchten, wählen Sie die entsprechende **Erforderliche Marketing-Aktion**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/about-custom-action-configuration.md#consent-management).
+1. Definieren Sie die verschiedenen Parameter der **[!UICONTROL URL-Konfiguration]**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/about-custom-action-configuration.md#url-configuration).
 1. Konfigurieren Sie den Bereich **[!UICONTROL Authentifizierung]**. Diese Konfiguration ist mit der für Datenquellen identisch.  Weiterführende Informationen finden Sie in diesem [Abschnitt](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Definieren Sie die **[!UICONTROL Aktionsparameter]**. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die benutzerdefinierte Aktion ist nun konfiguriert und kann in Ihren Journeys verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/about-journey-activities.md#action-activities).
@@ -130,3 +132,37 @@ Sie können außerdem angeben, ob ein Parameter eine Konstante oder eine Variabl
 * Variable bedeutet, dass der Wert des Parameters variiert. Marketing-Experten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
 
 ![](assets/customactionpayloadmessage2.png)
+
+## Einverständnisverwaltung {#consent-management}
+
+Kunden können nun Einwilligungsrichtlinien im Zusammenhang mit dem Datenschutz definieren, um ausgehende Daten während der Aktionsausführung zu steuern. Eine Einwilligungsrichtlinie dient als Ausdruck für Profilattribute. Sie legt Regeln fest, um zu definieren, ob eine Aktion für das jeweilige Profil ausgeführt werden kann oder nicht.
+
+Einverständnis mit benutzerdefinierter Aktion, Inhalt Inhalt eines Tel-Typs für Kommunikation oder Nutzung des Tel-Typs für donnée champs dans profile qui vont sticker ce consent coté AEP nuvelles regles de type policies auj gouvernance policies. Beispiel: Setzen Sie das E-Mail-Targeting neu auf. Associe label (C4/C5) a des marketing actions. Quand tu definie une destination,type de marketing action. Ex SFTP crée une dest qui va export des données vers ce sftp, tu flague ce sftp avec une marketing action. Der Begriff Marketing-Aktion rajoutée umfasst benutzerdefinierte Aktionen, E-Mail/SMS/Push-Marketing-Aktionen. Benutzerdefiniert.
+
+Beschriftungen: quand tu def data set (où stocker tes données), onglet data gouvernance, pr chaque attribut tu peux definir le type de label assozié a cet attribut. Ländercode gekennzeichnet: C3/C4. Bezeichnungen ootb, tu peux en def d&#39;autres en fonction besoin.
+
+
+
+— Jira-Kommentare—
+
+Beschreiben Sie die &quot;zusätzliche Marketing-Aktion&quot;als Möglichkeit für einen Praktiker, den &quot;Zweck&quot;einer benutzerdefinierten Aktion zu erklären, z. B.: Meine benutzerdefinierte Aktion bezieht sich auf die Kommunikation am Arbeitsplatz, den Newsletter, die Fitness-Kommunikation usw.
+
+Beschreiben Sie den Umfang der Zustimmung für diese erste Version :
+
+- Marketing-Aktionen und -Attribute, die bei der Personalisierung in der benutzerdefinierten Aktion verwendet werden, werden berücksichtigt
+- Bei segmentausgelösten Journey (die mit einem Lesesegment beginnen) werden Attribute, die als Kriterien in diesem Segment verwendet werden, berücksichtigt
+- Alle Aktivitäten, die in einer Journey verwendet werden, mit Ausnahme von &quot;Segment lesen&quot;oder &quot;Benutzerdefinierte Aktion&quot;werden nicht berücksichtigt
+- Die Segmentqualifikation wird nicht berücksichtigt, selbst wenn sie zum Starten einer Journey verwendet wird
+
+Beschreiben Sie, dass ein Profil, das von einer Zustimmungsrichtlinie in einer benutzerdefinierten Aktion ausgeschlossen wird, weiterhin die Journey durchläuft (ISO mit Nachrichten- und Unterdrückungsliste).
+
+Erinnerung zur Beschreibung der erwarteten Latenz: https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
++ AJO-Latenz von 1 bis 6 Std. korrigieren
+
+zwei Arten von Latenz, die wir dokumentieren sollten:
+
+- Benutzerlatenz, auf der einen Carolina Infante , bin ich mir nicht sicher, was wir sagen können, wenn wir uns Folgendes anschauen:
+
+Können wir bestätigen, ob das Feld &quot;UPS-Projektion/Export&quot;erforderlich ist oder nicht, um das Feld &quot;contentTo&quot;auf Profilebene zu aktualisieren (in dem Wissen, dass dies zur Laufzeit verwendet wird)? Denn wenn dies der Fall ist, sollten wir sagen, dass es bis zu 48 Stunden dauern würde, aber wenn es nicht der Fall ist, sprechen wir nur von &quot;Aufnahmelatenz + Erfassungslatenz&quot;(also ein paar Sekunden bis ein paar Stunden schlimmster Fall, wenn es bei der Aufnahme Spitzen oder Ausfälle gibt und/oder wenn es lange dauert, bis der Kunde eine Aktualisierung vom Benutzer erfasst).
+
+- Einverständnisrichtlinienlatenz, würde ich sagen, &quot;bis zu 6 Stunden&quot;, da Live-Journey alle 6 Stunden Einwilligungsrichtlinien abrufen. Carolina Infante , wissen Sie, ob wir von Filterlatenz betroffen sind?
