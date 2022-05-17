@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können.
 
-## Zugriff auf Landingpage-Voreinstellungen {#lp-presets}
+## Zugriff auf Landingpage-Voreinstellungen {#access-lp-presets}
 
 Gehen Sie wie folgt vor, um auf Landingpage-Voreinstellungen zuzugreifen.
 

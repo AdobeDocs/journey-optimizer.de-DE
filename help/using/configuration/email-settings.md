@@ -5,10 +5,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 66%
+source-wordcount: '1013'
+ht-degree: 68%
 
 ---
 
@@ -164,9 +164,9 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 
 Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google Analytics kompatibel sind.
 
-* Adobe Analytics-kompatible URL: www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}_image_{{context.system.source.name}}
+* Adobe Analytics-kompatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics-kompatible URL: www.YourLandingURL.com?utm_medium=email&amp;utm_source=AJO&amp;utm_campaign={{context.system.source.id}&amp;utm_content=image
+* Google Analytics-kompatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >
