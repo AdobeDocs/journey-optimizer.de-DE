@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 95%
+source-wordcount: '1357'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Screenshots für Landingpages und Abonnementberichte wurden aktualisiert - [Weitere Informationen](../reports/live-report.md)
 * Es wurde ein Hinweis hinzugefügt, dass die Löschmethode in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Die Links zu Anleitungsvideos wurden aktualisiert.
-
+* Die [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvorgaben](../configuration/message-presets.md) und [Landingpages konfigurieren](../configuration/lp-subdomains.md) -Abschnitte wurden neu organisiert, um die Lesbarkeit zu verbessern.
+* Die **URL-Tracking** wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
 ## April 2022 {#april-2022}
 

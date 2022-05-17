@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 90%
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../configuration/lp-configuration.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
+1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../configuration/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der [preset](../configuration/lp-configuration.md#lp-create-preset) ausgewählt haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der [preset](../configuration/lp-presets.md#lp-create-preset) ausgewählt haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-configuration.md#lp-subdomains)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >

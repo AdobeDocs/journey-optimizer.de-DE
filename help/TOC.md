@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 99%
 
 ---
 
@@ -338,25 +338,30 @@ ht-degree: 100%
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + Konfigurieren von Nachrichten {#configuration-message}
-      + Konfiguration von Push-Benachrichtigungen{#push-config}
+      + Konfigurieren von Push-Benachrichtigungen{#push-config}
          + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/configuration/push-gs.md)
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/configuration/push-configuration.md)
-      + E-Mail-Konfiguration {#email-configuration}
+      + Konfigurieren von E-Mails {#email-configuration}
          + Zuweisen von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
             + [Zuweisen einer Subdomain](using/configuration/delegate-subdomain.md)
             + [Zugreifen auf zugewiesene Subdomains](using/configuration/access-subdomains.md)
+         + Verwalten von Aktionen im Zusammenhang mit Subdomains {#subdomain-related-actions}
             + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
             + [Zugreifen auf und Bearbeiten von PTR-Datensätzen](using/configuration/ptr-records.md)
-         + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
+            + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
          + Überwachen von E-Mail-Adressen {#monitor-reputation}
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
-         + [Ändern der primären E-Mail-Adresse](using/configuration/primary-email-addresses.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
+      + Nachrichtenvorgaben einrichten {#set-up-message-presets}
+         + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
+         + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
+      + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)
       + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
-   + [Konfigurieren von Landingpages](using/configuration/lp-configuration.md)
+   + Konfigurieren von Landingpages {#lp-configuration}
+      + [Konfigurieren von Landingpage-Subdomains](using/configuration/lp-subdomains.md)
+      + [Definieren der Landingpage-Voreinstellungen](using/configuration/lp-presets.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + [Integrieren mit externen Systemen](using/configuration/external-systems.md)

@@ -1,19 +1,19 @@
 ---
-title: Erstellen von Nachrichtenvoreinstellungen
+title: Nachrichtenvorgaben einrichten
 description: Erfahren Sie, wie Sie Nachrichtenvoreinstellungen konfigurieren und überwachen
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 91%
+source-wordcount: '1547'
+ht-degree: 96%
 
 ---
 
-# Erstellen von Nachrichtenvoreinstellungen {#message-presets-creation}
+# Nachrichtenvorgaben einrichten {#message-presets-creation}
 
 Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps und mehr.
 
@@ -93,153 +93,7 @@ E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreins
 
 ![](assets/preset-email.png)
 
-Konfigurieren Sie Ihre Einstellungen wie unten beschrieben.
-
-### E-Mail-Typ {#email-type}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_emailtype"
->title="Definieren der E-Mail-Kategorie"
->abstract="Wählen Sie den Nachrichtentyp aus, der bei Verwendung dieser Voreinstellung gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis des Benutzers erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
-
-Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Voreinstellung gesendet werden soll: **Marketing** oder **Transaktion**.
-
-* Wählen Sie **Marketing** für Werbenachrichten. Diese Nachrichten erfordern das Einverständnis des Benutzers.
-
-* Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
-
->[!CAUTION]
->
->**Transaktions**-Nachrichten können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
-
-Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md#create-new-message), müssen Sie eine gültige Nachrichtenvoreinstellung auswählen, die der für Ihre Nachricht ausgewählten Kategorie entspricht.
-
-### Subdomain und IP-Pool {#subdomains-and-ip-pools}
-
-Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vorgehen:
-
-1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
-
-1. Wählen Sie den IP-Pool aus, der mit der Voreinstellung verknüpft werden soll. [Weitere Informationen](ip-pools.md)
-
-![](assets/preset-subdomain-ip-pool.png)
-
-Sie können nicht mit der Vorgabenerstellung fortfahren, während sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. Andernfalls wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Vorgabe als Entwurf und versuchen Sie es erneut, sobald der IP-Pool über die **[!UICONTROL Erfolg]** Status.
-
->[!NOTE]
->
->Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
-
-### List-Unsubscribe {#list-unsubscribe}
-
-Bei [der Auswahl einer Subdomain](#subdomains-and-ip-pools) aus der Liste wird die Option zur **[!UICONTROL Aktivierung der Abmeldung von der Liste]** angezeigt.
-
-![](assets/preset-list-unsubscribe.png)
-
-Standardmäßig ist diese Option aktiviert.
-
-Wenn Sie diese Option aktiviert lassen, wird automatisch ein Abmelde-Link in die E-Mail-Kopfzeile eingefügt, z. B.:
-
-![](assets/preset-list-unsubscribe-header.png)
-
-Wenn Sie diese Option deaktivieren, wird in der E-Mail-Kopfzeile kein Abmelde-Link angezeigt.
-
-Der Abmelde-Link besteht aus zwei Elementen:
-
-* Einer **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
-
-   Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Nachrichtenvoreinstellung angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
-
-   ![](assets/preset-list-unsubscribe-mailto.png)
-
-* Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
-
-   Wenn Sie einen [Ein-Klick-Opt-out-Link](../messages/consent.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Voreinstellung erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
-
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
-
-   >[!NOTE]
-   >
-   >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
-
-Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Nachrichten finden Sie in [diesem Abschnitt](../messages/consent.md#unsubscribe-header).
-
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Kopfzeilenparameter{#email-header}
-
-Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Voreinstellung gesendeten Nachrichtentyp verknüpft sind.
-
->[!CAUTION]
->
->Die E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
-
-* **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
-
-* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
-
-* **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
-
-* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
-
-* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
-
-![](assets/preset-header.png)
-
->[!NOTE]
->
->Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
-
-### E-Mail-Wiederholungsparameter {#email-retry}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_presets_retryperiod"
->title="Anpassen des Wiederholungszeitraumes"
->abstract="Wiederholungen werden 3,5 Tage lang (84 Stunden) durchgeführt, wenn eine E-Mail-Nachricht aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=de" text="Über weitere Zustellversuche"
-
-Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
-
-![](assets/preset-retry-parameters.png)
-
-Standardmäßig ist der [Zeitraum für weitere Zustellversuche](retries.md#retry-duration) auf 84 Stunden festgelegt. Sie können diese Einstellung jedoch an Ihre Anforderungen anpassen.
-
-Sie müssen einen ganzzahligen Wert (in Stunden oder Minuten) innerhalb des folgenden Bereichs eingeben:
-
-* Für E-Mails vom Typ Marketing beträgt der Mindestzeitraum für weitere Zustellversuche 6 Stunden.
-* Für E-Mails vom Typ Transaktion beträgt der Mindestzeitraum für weitere Zustellversuche 10 Minuten.
-* Für beide E-Mail-Typen beträgt der maximale Zeitraum für weitere Zustellversuche 84 Stunden (d. h. 5.040 Minuten).
-
-Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschnitt](retries.md).
-
-### URL-Tracking{#url-tracking}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_utm"
->title="UTM-Parameter"
->abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die Kampagnen-URLs anzuhängen, die im E-Mail-Inhalt vorhanden sind."
-
-Um zu ermitteln, wo und warum eine Person auf Ihren Link geklickt hat, können Sie optional UTM-Parameter für das URL-Tracking in der  **[!UICONTROL URL-Tracking-Parameter]** Abschnitt.
-
-Basierend auf den von Ihnen definierten Parametern wird am Ende der in Ihrem Nachrichteninhalt enthaltenen URL ein UTM-Code angefügt. Anschließend können Sie die Ergebnisse in einem Tool zur Web-Analyse, z. B. Google Analytics, vergleichen.
-
-![](assets/preset-url-tracking.png)
-
-Standardmäßig sind drei UTM-Parameter verfügbar. Sie können bis zu 10 Tracking-Parameter hinzufügen. Um einen UTM-Parameter hinzuzufügen, wählen Sie die **[!UICONTROL Neuen Parameter hinzufügen]** Schaltfläche.
-
-Um einen UTM-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben oder aus einer Liste mit vordefinierten Werten auswählen, indem Sie zu den folgenden Objekten navigieren:
-
-* Journey-Attribute: **Quell-ID**, **Quellname**, **Quellversions-ID**
-* Nachrichtenattribute: **Aktionskennung**, **Aktionsname**
-* Offer decisioning-Attribute: **Angebotskennung**, **Angebotsname**
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Wählen Sie keinen Ordner aus: Navigieren Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als UTM-Wert verwendet werden soll.
-
-Sie können Textwerte eingeben und vordefinierte Werte auswählen. Jeder **[!UICONTROL Wert]** kann bis zu 255 Zeichen lang sein.
+Konfigurieren Sie Ihre Einstellungen wie unter [diesem Abschnitt](email-settings.md).
 
 ## Konfigurieren der Push-Einstellungen {#configure-push-settings}
 
