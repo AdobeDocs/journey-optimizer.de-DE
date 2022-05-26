@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (techni
 
 >[!CAUTION]
 >
->* Die vollständige Subdomain-Zuweisung ist die bevorzugte Methode.
+>* Die vollständige Subdomain-Delegierung ist die bevorzugte Methode.
 >
->* Die CNAME-Methode wird empfohlen, wenn die Richtlinien Ihres Unternehmens die Methode der vollständigen Subdomain-Zuweisung einschränken. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
+>* Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
 
 Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
