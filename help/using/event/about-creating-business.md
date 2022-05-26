@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,15 +80,15 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
-1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen (oder Payload) aus, die die Journey erwartet. Sie werden diese Informationen später in Ihrer Journey verwenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
+1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die Journeys erhalten sollen. Sie werden diese Informationen später in Ihrer Journey benötigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Es sind nur Schemas für Zeitreihen verfügbar. `Experience Events`, `Decision Events` und `Journey Step Events` -Schemata sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
+   Es sind nur Schemas für Zeitreihen verfügbar. `Experience Events`-, `Decision Events`- und `Journey Step Events`-Schemas sind nicht verfügbar. Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Klicken Sie in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Verwenden Sie den einfachen Ausdruckseditor, um die vom System verwendete Bedingung zu definieren, um die Ereignisse zu identifizieren, die Ihre Journey Trigger haben.
+1. Klicken Sie in das Feld **[!UICONTROL Ereignis-ID-Bedingung]**. Mit dem einfachen Ausdruckseditor definieren Sie die Bedingung, anhand derer das System die Ereignisse erkennt, die Ihre Journey auslösen.
 
    ![](assets/jo-event6-business.png)
 
@@ -124,7 +124,7 @@ Mit der Payload-Definition können Sie die Informationen auswählen, die das Sys
 
 1. Wenn Sie die erforderlichen Felder ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]** oder drücken Sie die **[!UICONTROL Eingabetaste]**.
 
-   Die Anzahl der ausgewählten Felder wird angezeigt in **[!UICONTROL Felder]**.
+   Die Anzahl der ausgewählten Felder wird in **[!UICONTROL Felder]** angezeigt.
 
    ![](assets/journey12-business.png)
 
