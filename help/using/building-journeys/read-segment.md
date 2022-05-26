@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Segment in einer Journey verwenden {#segment-trigger-activity}
 
-## Hinzufügen der Aktivität Segment lesen {#about-segment-trigger-actvitiy}
+## Hinzufügen der Aktivität „Segment lesen“ {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"

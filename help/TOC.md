@@ -71,7 +71,7 @@ ht-degree: 94%
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte    bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte     bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)

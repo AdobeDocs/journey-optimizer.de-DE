@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Zuweisung von Subdomains"
->abstract="Mit Journey Optimizer können Sie Ihre Subdomains Adobe zuweisen. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können auch eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und verwalten."
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains Adobe zuweisen. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können eine Subdomain auch mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und pflegen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=de#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
 
 Das Zuweisen eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, einer anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
@@ -31,7 +31,7 @@ Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs 
 
 >[!CAUTION]
 >
->Die vollständige Subdomain-Zuweisung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen diesen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
+>Die vollständige Subdomain-Delegierung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen diesen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Vollständige Subdomain-Delegierung {#full-subdomain-delegation}
 
@@ -112,7 +112,7 @@ Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNA
 
 >[!CAUTION]
 >
->Die CNAME-Methode wird empfohlen, wenn die Richtlinien Ihres Unternehmens die Methode der vollständigen Subdomain-Zuweisung einschränken. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
+>Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Datensätze zu verweisen](#video)
 
@@ -192,7 +192,7 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
 
 1. **Erstellen von Tracking- und Mirror-URLs**: Wenn die Domain email.example.com ist, lautet die Tracking-/Mirror-Domain data.email.example.com. Sie wird durch die Installation des SSL-Zertifikats gesichert.
 
-1. **Bereitstellung von CDN CloudFront**: Wenn CDN noch nicht eingerichtet ist, stellt Adobe es für die ID Ihres Unternehmens bereit.
+1. **Bereitstellen von CDN CloudFront**: Wenn das CDN noch nicht eingerichtet ist, stellt Adobe es für Ihre-Organisations-ID bereit.
 
 1. **Erstellen einer CDN-Domain**: Wenn die Domain email.example.com ist, lautet die CDN-Domain cdn.email.example.com.
 

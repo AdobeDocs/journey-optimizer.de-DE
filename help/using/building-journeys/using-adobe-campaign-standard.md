@@ -1,6 +1,6 @@
 ---
 title: Aktionen in Adobe Campaign Standard
-description: Informationen zu Adobe Campaign Standard-Aktionen
+description: Erfahren Sie mehr über Aktionen in Adobe Campaign Standard
 feature: Actions
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Aktionen in Adobe Campaign Standard {#using_campaign_action}
 
-Wenn Sie über Adobe Campaign Standard verfügen, sind die folgenden integrierten Aktionsaktivitäten verfügbar: **[!UICONTROL Email]**, **[!UICONTROL Push]** und **[!UICONTROL SMS]**.
+Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden integrierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push-Benachrichtigung]** und **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Für jeden dieser Kanäle wählen Sie eine Adobe Campaign Standard-**Transaktion
 
 >[!NOTE]
 >
->Die Campaign Standard-Transaktionsnachricht und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wurde, die Nachricht jedoch nicht, wird sie nicht in der Journey Optimizer-Benutzeroberfläche angezeigt. Wenn die Nachricht veröffentlicht wurde, das zugehörige Ereignis jedoch nicht, wird sie in der Journey Optimizer-Benutzeroberfläche angezeigt, kann aber nicht verwendet werden.
+>Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müssen veröffentlicht werden, damit sie in Journey Optimizer verwendet werden können. Wenn das Ereignis veröffentlicht wird, die Nachricht jedoch nicht, wird sie nicht in der Benutzeroberfläche von Journey Optimizer angezeigt. Wenn die Nachricht veröffentlicht wird, das zugehörige Ereignis jedoch nicht, wird sie in der Benutzeroberfläche von Journey Optimizer angezeigt, sie kann jedoch nicht verwendet werden.
 
 ![](assets/journey59.png)
 
@@ -45,7 +45,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine Profil-Transaktionsvorlage verwenden, wird der Abmeldemechanismus von Campaign Standard integriert verarbeitet. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldemechanismus nativ von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen.
 
@@ -75,7 +75,7 @@ Dies sind die Felder, die von der Adobe Campaign Standard-Nachricht erwartet wer
 
 ## Push-Benachrichtigung {#section_im3_hvf_nhb}
 
-Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
+Vor der Verwendung der Push-Aktivität muss Ihre App mit Campaign Standard konfiguriert werden, um Push-Benachrichtigungen zu senden. Verwenden Sie diesen [Artikel](https://helpx.adobe.com/de/campaign/kb/integrate-mobile-sdk.html?lang=de), um die erforderlichen Implementierungsschritte für Mobilgeräte auszuführen.
 
 Wählen Sie zunächst eine App aus der Dropdown-Liste und eine Transaktionsnachricht aus.
 

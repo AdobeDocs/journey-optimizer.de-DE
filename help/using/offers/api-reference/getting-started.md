@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 >[!NOTE]
 >
-> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet offer decisioning-Objekte. Wenn Ihr Unternehmen den In-App-Nachrichtenkanal verwendet, enthalten API-Listenanfragen für Objekte Objekte, die vom In-App-Messaging-Dienst erstellt wurden, und können für offer decisioning-Anwendungsfälle ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Eigenschaften: `createdBy = “Mobile_Sheliak”`.
+> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet Offer-Decisioning-Objekte. Wenn Ihr Unternehmen den In-App-Nachrichtenkanal verwendet, enthalten API-Listenanfragen für Objekte Objekte, die vom In-App-Nachrichten-Service erstellt wurden, und können für Offer-Decisioning-Anwendungsfälle ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Kennzeichnung: `createdBy = “Mobile_Sheliak”`.
 
 ## Anleitungsvideo {#video}
 

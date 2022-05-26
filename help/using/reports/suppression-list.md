@@ -9,7 +9,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Eine Unterdrückungsliste besteht aus E-Mail-Adressen, die Sie von Ihren Sendung
 
 Die Unterdrückungsliste in [!DNL Journey Optimizer] wird auf der Ebene Ihrer eigenen Umgebung verwaltet.
 
-Sie erfasst E-Mail-Adressen und Domänen, die in allen Mailings in einer einzigen Client-Umgebung unterdrückt werden, d. h. eine Organisations-ID, die mit einer Sandbox-ID verknüpft ist.
+Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-Client-Umgebung unterdrückt werden, d. h. spezifisch für eine Organisations-ID, die mit einer Sandbox-ID verbunden ist.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben re
 
 ![](assets/journey41.png)
 
-## Journey starten {#start-your-journey}
+## Starten der Journey {#start-your-journey}
 
 Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
 
@@ -88,9 +88,9 @@ Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert habe
 
 ## Hinzufügen alternativer Pfade{#paths}
 
-Sie können eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Bedingung]** und **[!UICONTROL Aktion]**.
+Für den Fall eines Fehlers oder einer Zeitüberschreitung können Sie eine Ausweichaktion für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Bedingung]** und **[!UICONTROL Aktion]**.
 
-Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie die **[!UICONTROL Alternativen Pfad im Fall eines Timeouts oder Fehlers hinzufügen]** in den Eigenschaften der Aktivität: Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die Zeitüberschreitungsdauer wird von Admin-Benutzern im [Journey-Eigenschaften](../building-journeys/journey-gs.md#change-properties). Wenn beispielsweise das Senden einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
+Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie das Feld **[!UICONTROL Alternativen Pfad im Fall einer Zeitüberschreitung oder eines Fehlers hinzufügen]** in den Eigenschaften der Aktivität aus. Nach der Aktivität wird dadurch ein weiterer Pfad hinzugefügt. Die Zeitüberschreitungsdauer wird von Admin-Benutzern in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#change-properties) festgelegt. Wenn beispielsweise der Versand einer E-Mail zu lange dauert oder ein Fehler dabei auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
 
 ![](assets/journey42.png)
 
@@ -106,7 +106,7 @@ Wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung
 
 ![](assets/canvas-disconnected.png)
 
-## Aktivitäten kopieren und einfügen {#copy-paste}
+## Kopieren und Einfügen von Aktivitäten {#copy-paste}
 
 Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder in derselben oder einer anderen Journey einfügen. So sparen Sie Zeit, wenn Sie verschiedene Aktivitäten wiederverwenden möchten, die bereits in einer vorherigen Journey konfiguriert wurden.
 

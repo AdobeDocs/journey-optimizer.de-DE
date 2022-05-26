@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 79%
+ht-degree: 86%
 
 ---
 
@@ -44,11 +44,11 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer La
 
    ![](assets/lp_designer-form-update.png)
 
-   Wählen Sie unter den drei folgenden Optionen aus:
+   Wählen Sie unter den drei folgenden Optionen eine aus:
 
-   * **[!UICONTROL Opt-in, wenn aktiviert]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu erteilen (Opt-in).
-   * **[!UICONTROL Opt-out bei Aktivierung]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu entfernen (Opt-out).
-   * **[!UICONTROL Opt-in, wenn aktiviert, Opt-out, wenn deaktiviert]**: Mit dieser Option können Sie eine einzige Checkbox für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out).
+   * **[!UICONTROL Opt-in, wenn markiert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu erteilen (Opt-in).
+   * **[!UICONTROL Opt-out, wenn markiert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu entfernen (Opt-out).
+   * **[!UICONTROL Opt-in, wenn markiert, Opt-out, wenn nicht markiert]**: Mit dieser Option können Sie ein einziges Kontrollkästchen für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out).
 
 1. Wählen Sie aus den drei folgenden Optionen aus, was aktualisiert werden soll:
 

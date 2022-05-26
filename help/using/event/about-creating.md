@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in ders
 
 Der Schlüssel ist das Feld oder die Feldkombination, die Teil der Payload-Ereignisdaten ist und es dem System ermöglicht, die mit dem Ereignis verbundene Person zu identifizieren. Der Schlüssel kann beispielsweise die Experience Cloud-ID, eine CRM-ID oder eine E-Mail-Adresse sein.
 
-Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwenden, muss der Ereignisschlüssel den Informationen entsprechen, die Sie im [Echtzeit-Kundenprofil-Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;} als Profilidentität definiert haben.
+Um in der Echtzeit-Kundenprofildatenbank von Adobe gespeicherte Daten zu verwenden, muss der Ereignisschlüssel den Informationen entsprechen, die Sie im [Echtzeit-Kundenprofil-Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} als Profilidentität definiert haben.
 
 Mit der Profilkennung kann das System die Abstimmung zwischen dem Ereignis und dem Profil des Kontakts durchführen. Wenn Sie ein Schema mit einer Primäridentität auswählen, werden die Felder **[!UICONTROL Profilkennung]** und **[!UICONTROL Namespace]** vorbelegt. Wenn keine Identität definiert ist, wählen Sie _identityMap > ID_ als Primärschlüssel aus. Wählen Sie dann einen Namespace aus und der Schlüssel wird automatisch mithilfe von _identityMap > ID_ vorausgefüllt.
 

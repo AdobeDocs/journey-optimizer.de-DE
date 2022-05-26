@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="Informationen zu Aktionen"
 >abstract="Hier definieren Sie die Verbindung zum System, das Nachrichten senden soll. Die hier definierten Aktionen stehen dann in der linken Palette Ihrer Journey in der Kategorie „Aktion“ zur Verfügung."
 
-Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails,  oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
+Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebnisse bieten können. Dies sind z. B. Push-Benachrichtigungen, E-Mails oder andere digitale Interaktionen, die Sie in Ihrem Geschäft verwenden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

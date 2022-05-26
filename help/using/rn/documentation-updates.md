@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -17,10 +17,10 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. Mai wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Neue Abfragebeispiele für [Segmentqualifizierung](../reports/query-examples.md#segment-qualification-queries) und [events](../reports/query-examples.md#event-based-queries) hinzugefügt.
-* Im Abschnitt zum E-Mail-Design werden jetzt neue integrierte Vorlagen erwähnt, mit denen Inhalte erstellt werden können. Zugehörige Screenshots wurden aktualisiert. [Weitere Informationen](../design/design-emails.md)
-* Die Links zu wichtigen Ressourcen wurden auf der Startseite der Journey Optimizer-Dokumentation aktualisiert.
-* Screenshots für Landingpages und Abonnementberichte wurden aktualisiert - [Weitere Informationen](../reports/live-report.md)
-* Es wurde ein Hinweis hinzugefügt, dass die Löschmethode in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
+* Im Abschnitt zum Entwerfen von E-Mails werden jetzt neue integrierte Vorlagen erwähnt, mit denen Inhalte erstellt werden können. Die entsprechenden Screenshots wurden aktualisiert. [Weitere Informationen](../design/design-emails.md)
+* Auf der Startseite der Journey Optimizer-Dokumentation wurden die Links zu wichtigen Ressourcen aktualisiert.
+* Screenshots für Landingpages und Abonnementberichte wurden aktualisiert. [Weitere Informationen](../reports/live-report.md)
+* Es wurde ein Hinweis hinzugefügt, dass die Methode „Delete“ in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Die Links zu Anleitungsvideos wurden aktualisiert.
 * Die [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvorgaben](../configuration/message-presets.md) und [Landingpages konfigurieren](../configuration/lp-subdomains.md) -Abschnitte wurden neu organisiert, um die Lesbarkeit zu verbessern.
 * Die **URL-Tracking** wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)

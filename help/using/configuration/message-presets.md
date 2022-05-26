@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -61,9 +61,9 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
    >[!NOTE]
    >
-   >Sie können nicht mit der Vorgabenerstellung fortfahren, während sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
+   >Sie können nicht mit der Voreinstellungserstellung fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
    >
-   >Speichern Sie die Vorgabe als Entwurf und warten Sie, bis der IP-Pool den **[!UICONTROL Erfolg]** -Status, um die Vorgabenerstellung wieder aufzunehmen.
+   >Speichern Sie die Voreinstellung als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat, um mit der Voreinstellungserstellung fortzufahren.
 
 1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 

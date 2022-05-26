@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den API-Aufruf von [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} zu aktualisieren
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den API-Aufruf von [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} zu aktualisieren
 
 #### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
@@ -203,7 +203,7 @@ Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine
    >
    >Wenn Sie keinen 1-Klick-Abmelde-Link in Ihren Nachrichteninhalt einfügen, wird keine Landingpage angezeigt.
 
-* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Push-Opt-out-Verwaltung {#push-opt-out-management}
 

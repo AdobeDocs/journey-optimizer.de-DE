@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
 workflow-type: tm+mt
 source-wordcount: '2232'
-ht-degree: 34%
+ht-degree: 39%
 
 ---
 
@@ -48,7 +48,7 @@ Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vo
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Sie können nicht mit der Vorgabenerstellung fortfahren, während sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. Andernfalls wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Vorgabe als Entwurf und versuchen Sie es erneut, sobald der IP-Pool über die **[!UICONTROL Erfolg]** Status.
+Sie können nicht mit der Voreinstellungserstellung fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. Andernfalls wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Voreinstellung als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
 >[!NOTE]
 >
@@ -362,9 +362,9 @@ Beim Erstellen einer Nachrichtenvorgabe werden drei URL-Tracking-Parameter autom
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** oder wählen Sie aus einer Liste vordefinierter Werte aus, indem Sie zu den folgenden Objekten navigieren:
 
-* Journey-Attribute: **Quell-ID**, **Quellname**, **Quellversions-ID**
+* Journey-Attribute: **Quellen-ID**, **Quellenname**, **Quellenversions-ID**
 * Aktionsattribute: **Aktionskennung**, **Aktionsname**
-* Offer decisioning-Attribute: **Angebotskennung**, **Angebotsname**
+* Offer-Decisioning-Attribute: **Angebots-ID**, **Angebotsname**
 
 ![](assets/preset-url-tracking-source.png)
 
@@ -380,4 +380,4 @@ Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google 
 
 >[!NOTE]
 >
->Sie können Textwerte eingeben und vordefinierte Werte auswählen. Jeder **[!UICONTROL Wert]** kann bis zu 255 Zeichen lang sein.
+>Sie können die Eingabe von Textwerten und die Auswahl vordefinierter Werte kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.

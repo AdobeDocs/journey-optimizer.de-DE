@@ -9,7 +9,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Nachrichtenvoreinstellung anzuzeigen. Weitere Informationen zum Verknüpfen einer Nachrichtenvorgabe mit einem IP-Pool finden Sie unter [diesem Abschnitt](message-presets.md).
+Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Nachrichtenvoreinstellung anzuzeigen. Weiterführende Informationen zum Verknüpfen einer Nachrichtenvoreinstellung mit einem IP-Pool finden Sie in [diesem Abschnitt](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -83,7 +83,7 @@ Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool
 
 >[!NOTE]
 >
->Wann [Nachrichtenvorgabe erstellen](message-presets.md#create-message-preset), wenn Sie einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitung]** -Status) und nie mit der für diese Vorgabe ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Vorgabenerstellung fortfahren. [Weitere Informationen](message-presets.md#subdomains-and-ip-pools)
+>Wenn Sie beim [Erstellen einer Nachrichtenvoreinstellung](message-presets.md#create-message-preset) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Voreinstellung ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Voreinstellung fortfahren. [Weitere Informationen](message-presets.md#subdomains-and-ip-pools)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 

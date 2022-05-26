@@ -9,7 +9,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage von Journey-Schrittereignissen im Data Lake aufgeführt.
 
-Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder über zugeordnete Werte im entsprechenden Schema verfügen.
+Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
 
 ## Nachrichten-/Aktionsfehler {#message-action-errors}
 

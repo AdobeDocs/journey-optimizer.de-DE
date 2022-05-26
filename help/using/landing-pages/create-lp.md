@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 85%
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der [preset](../configuration/lp-presets.md#lp-create-preset) ausgewählt haben. [Weitere Informationen](../configuration/lp-subdomains.md)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten [Voreinstellung](../configuration/lp-presets.md#lp-create-preset) eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -93,13 +93,13 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
    >
    >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn sie bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
-1. Wenn die Landingpage die bereits verfügbaren Formulardaten vorab ausfüllen soll, wählen Sie die **[!UICONTROL Formularfelder mit Profilinformationen vorab ausfüllen]**.
+1. Wenn auf der Landingpage die bereits verfügbaren Formulardaten vorab ausgefüllt werden sollen, wählen Sie die Option **[!UICONTROL Formularfelder mit Profilinformationen vorausfüllen]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   Wenn diese Option aktiviert ist und ein Profil sich bereits für eine An-/Abmeldung entschieden hat oder bereits einer Abonnementliste hinzugefügt wurde, werden seine Optionen bei der Anzeige der Landingpage angezeigt.
+   Wenn diese Option aktiviert ist und ein Profil sich bereits für eine An-/Abmeldung entschieden hat oder bereits einer Abonnementliste hinzugefügt wurde, wird seine Auswahl bei der Anzeige der Landingpage berücksichtigt.
 
-   Wenn sich beispielsweise ein Profil für den Empfang von Nachrichten zu künftigen Ereignissen entschieden hat, wird das entsprechende Kontrollkästchen bereits aktiviert, wenn diesem Profil die Landingpage das nächste Mal angezeigt wird.
+   Wenn sich beispielsweise ein Profil für den Empfang von Nachrichten zu künftigen Ereignissen entschieden hat, ist die entsprechende Checkbox bereits aktiviert, wenn diesem Profil die Landingpage das nächste Mal angezeigt wird.
 
    ![](assets/lp_prefill-form-ex.png)
 

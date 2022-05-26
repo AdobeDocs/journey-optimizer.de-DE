@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Mit der Aktionsaktivität **[!UICONTROL Profil aktualisieren]** können Sie ein 
 
 ## Verwenden der Profilaktualisierung
 
-1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Siehe diesen [Abschnitt](../building-journeys/journey.md).
+1. Entwerfen Sie Ihre Journey, indem Sie mit einem Ereignis beginnen. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md).
 
 1. Legen Sie im Abschnitt **Aktion** der Palette die Aktivität **Profil aktualisieren** auf der Arbeitsfläche ab.
 

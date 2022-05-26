@@ -4,7 +4,7 @@ description: Hier erfahren Datentechniker mehr über die Arbeit mit Journey Opti
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 100%
 

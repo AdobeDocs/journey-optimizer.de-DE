@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
 ## Prüfen der Aktualisierungsdetails der PTR-Einträge {#check-ptr-record-update}
 
-Nachdem Sie die Bearbeitung des PTR-Datensatzes bestätigt haben, wird die **[!UICONTROL Verarbeitung]** neben dem Namen des PTR-Datensatzes in der Liste angezeigt.
+Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol **[!UICONTROL Verarbeitung]** neben dem Namen des PTR-Eintrags in der Liste angezeigt.
 
 ![](assets/ptr-record-updating.png)
 
@@ -101,7 +101,7 @@ Nachdem Sie die Bearbeitung des PTR-Datensatzes bestätigt haben, wird die **[!U
 >
 >Die [Update-Verarbeitung](#processing) kann bis zu ein paar Stunden dauern.
 
-Um die Details der PTR-Datensatz-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. Erfahren Sie mehr über die Status, die den verschiedenen Symbolen zugeordnet sind in [diesem Abschnitt](#ptr-record-update-statuses).
+Um die Details der PTR-Eintrag-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. In [diesem Abschnitt](#ptr-record-update-statuses) erfahren Sie mehr über die Status, die den verschiedenen Symbolen zugeordnet sind.
 
 ![](assets/ptr-record-recent-update.png)
 
