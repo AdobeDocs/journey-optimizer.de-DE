@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 Sie können eine Zeitzone in den [Eigenschaften](../building-journeys/journey-gs.md#change-properties) Ihrer Journey festlegen.
 
-Um auf die Journey-Eigenschaften zuzugreifen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
+Um die Eigenschaften der Journey aufzurufen, klicken Sie auf das Stiftsymbol oben rechts im Bildschirm.
 
 Diese Zeitzone wird für jede Aktivität der Journey verwendet, die ein Zeitelement enthält, z. B.: 
 
@@ -40,7 +40,7 @@ Wählen Sie dazu im Bereich **[!UICONTROL Journey-Eigenschaften]** eine Zeitzone
 
 ![](assets/journey72.png)
 
-## Verwenden Sie Profile, um die Zeitzone der Journey zu definieren {#timezone-from-profiles}
+## Verwenden von Profilen zur Definition der Zeitzone einer Journey {#timezone-from-profiles}
 
 Wenn das Eintrittsereignis der Journey einen Namespace hat, d. h. die Journey hat Zugriff auf den Echtzeit-Kundenprofil-Service von Adobe Experience Platform, wird die Zeitzone mit jener im Profil des Kontakts vordefiniert, der sich in der Journey befindet.
 
