@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Für jede Datenquelle definieren Sie die Informationen, die mit Feldergruppen ab
 >
 >Für Datenquellen werden jetzt Schemabeziehungen unterstützt.
 
-Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
+Weitere Informationen zum Konfigurieren einer Adobe Experience Platform-Datenquelle und einer externen Datenquelle sowie zum Suchen und Verwenden von Daten in einer Journey finden Sie in diesem [Anleitungsvideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Anleitungsvideo {#video}
 
