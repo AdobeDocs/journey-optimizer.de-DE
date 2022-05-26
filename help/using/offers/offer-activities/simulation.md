@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und anpassen, o
 
 >[!NOTE]
 >
->Diese Funktion simuliert eine einzelne Anfrage an die [!DNL Decisioning]-API. Weitere Informationen finden Sie unter [Angebote mithilfe der Decisioning API bereitstellen](../api-reference/offer-delivery-api/decisioning-api.md).
+>Diese Funktion simuliert eine einzelne Anfrage an die [!DNL Decisioning]-API. Weitere Informationen finden Sie unter [Unterbreiten von Angeboten mithilfe der Decisioning-API](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL Simulation]** aus dem Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTROL Angebote]**.
 
