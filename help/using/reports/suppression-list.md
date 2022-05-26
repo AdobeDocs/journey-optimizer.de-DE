@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 88%
 
 ---
 
@@ -20,6 +20,10 @@ Eine Unterdrückungsliste besteht aus E-Mail-Adressen, die Sie von Ihren Sendung
 Die Unterdrückungsliste in [!DNL Journey Optimizer] wird auf der Ebene Ihrer eigenen Umgebung verwaltet.
 
 Sie erfasst E-Mail-Adressen und Domänen, die in allen Mailings in einer einzigen Client-Umgebung unterdrückt werden, d. h. eine Organisations-ID, die mit einer Sandbox-ID verknüpft ist.
+
+>[!NOTE]
+>
+>Adobe führt eine aktualisierte Liste bekannter schlechter E-Mail-Adressen, die nachweislich die Interaktion und Reputation des Mailings beeinträchtigen, und stellt sicher, dass ihnen keine E-Mails zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossenen Empfänger angegeben.
 
 ## Wozu eine Unterdrückungsliste? {#why-suppression-list}
 

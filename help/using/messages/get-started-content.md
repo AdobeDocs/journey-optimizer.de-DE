@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
 
    * Wählen Sie den oder die Kanäle aus, die Sie für diese Nachricht nutzen möchten: E-Mail und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
-      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. [Weitere Informationen zu Vorgaben](../configuration/message-presets.md)
+      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. Weitere Informationen finden Sie unter [Vorgaben](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Sie müssen eine gültige Nachrichtenvoreinstellung für die ausgewählte Kategorie und die ausgewählten Kanäle wählen.
@@ -83,6 +89,10 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
    Für jeden ausgewählten Kanal steht eine Registerkarte zur Verfügung. Mit diesen Registerkarten können Sie den Inhalt für jeden Kanal konfigurieren. Um eine Registerkarte zu entfernen, wählen sie diese aus und klicken auf der rechten Seite auf die Schaltfläche **[!UICONTROL Kanal löschen]**.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie die **[!UICONTROL BCC-E-Mail]** in der Voreinstellung wird die BCC-E-Mail-Adresse unter der Absender-E-Mail angezeigt. [Weitere Informationen](../configuration/email-settings.md#bcc-email)
 
    Nun können Sie den Inhalt für die Nachricht erstellen und die Einstellungen anpassen. Detaillierte Informationen zur Konfiguration von E-Mails und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
 

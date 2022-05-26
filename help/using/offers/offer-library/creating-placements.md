@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
    * **[!UICONTROL Name]**: der Name der Platzierung. Achten Sie darauf, einen aussagekräftigen Namen zu wählen, um die Platzierung leichter abrufen zu können.
    * **[!UICONTROL Kanaltyp]**: Der Kanal, für den die Platzierung verwendet wird.
-   * **[!UICONTROL Inhaltstyp]**: Der Inhaltstyp, den die Platzierung anzeigen darf: Text, HTML oder Bild-Link.
+   * **[!UICONTROL Inhaltstyp]**: Der Inhaltstyp, den die Platzierung anzeigen darf: Text, HTML, Bild-Link oder JSON.
    * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
    ![](../assets/offers_placement_creation_properties.png)

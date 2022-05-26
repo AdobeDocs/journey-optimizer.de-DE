@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: fa0e0af075f32976afb6b4f7e10b7aea12033b42
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Verstärken von Angeboten mit bestimmten Angebotsattributen auf der Grundlage von Kontextdaten
 
-Verstärken Sie bestimmte Angebote auf der Grundlage der Kontextdaten, die beim Entscheidungsaufruf übergeben werden. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
+Sie können bestimmte Angebote basierend auf den Kontextdaten, die im Entscheidungsaufruf übergeben werden, steigern. Wenn beispielsweise `contextData.weather=hot` im Entscheidungsaufruf übergeben wird, muss die Priorität aller Angebote mit `attribute=hot` erhöht werden.
 
 **Rangfolgeformel:**
 
@@ -139,21 +139,9 @@ Beachten Sie, dass bei Verwendung der Decisioning-API die Kontextdaten im Anfrag
 
 ### Verstärken von Angeboten entsprechend der Neigung der Kunden, das angebotene Produkt zu kaufen
 
-Wenn wir zwei Instanzen von *CustomerAI* haben, die die Neigung zum Kauf von *Reiseversicherung* und *Übergepäck* für eine Fluggesellschaft berechnen, erhöht die folgende Rangfolgeformel die Priorität des Angebots (um 50 Punkte) für entweder Versicherungen oder Gepäck, wenn die Kundenneigung für den Kauf dieses Produkts höher als 90 ist.
+Sie können die Punktzahl für ein Angebot basierend auf einem Tendenzwert für den Kunden erhöhen.
 
-Da jedoch jede *CustomerAI*-Instanz innerhalb des einheitlichen Profilschemas ihr eigenes Objekt erstellt, ist es nicht möglich, die Punktzahl basierend auf dem Typ der Angebotsneigung dynamisch auszuwählen. Daher müssen Sie die `if`-Anweisungen verketten, um zunächst den Typ der Angebotsneigung zu überprüfen und dann die Punktzahl aus dem entsprechenden Profilfeld zu extrahieren.
-
-**Rangfolgeformel:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Eine bessere Lösung besteht darin, die Punktzahlen in einem Array des Profils zu speichern. Das folgende Beispiel zeigt, wie eine einfache Rangfolgeformel für viele verschiedene Neigungspunktwerte verwendet werden kann. Dabei wird vorausgesetzt, dass Sie über ein Profilschema mit einem Array von Werten verfügen. In diesem Beispiel ist der Instanzmandant *_salesvelocity* und das Profilschema enthält Folgendes:
+In diesem Beispiel lautet der Instanzmandant *_salesgeschwindigkeit* und das Profilschema enthält einen Bereich von Werten, die in einem Array gespeichert sind:
 
 ![](../assets/ranking-example-schema.png)
 

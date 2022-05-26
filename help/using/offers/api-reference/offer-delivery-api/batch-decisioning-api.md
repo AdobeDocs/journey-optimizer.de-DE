@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 98%
+source-wordcount: '867'
+ht-degree: 93%
 
 ---
 
@@ -193,7 +193,7 @@ Die Gesamtzeit jeder Batch-Entscheidung entspricht der Dauer ab dem Zeitpunkt, a
 
 Beachten Sie bei der Verwendung der [!DNL Batch Decisioning]-API die folgenden Einschränkungen:
 
-* **Einzelner Batch-Vorgang pro Datensatz**: Derzeit kann pro Datensatz immer nur ein einzelner Batch-Vorgang ausgeführt werden. Alle anderen Anfragen mit demselben Ausgabedatensatz, die gestellt werden, bevor die vorherige Anfrage abgeschlossen ist, erhalten als Antwort „HTTP 429“ (zu viele Anfragen).
+* **Die Anzahl der ausgeführten Batch-Aufträge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Aufträge gleichzeitig ausgeführt werden. Alle anderen Batch-Anforderungen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Auftrag wird zur Verarbeitung aufgenommen, sobald der vorherige Auftrag abgeschlossen ist.
 * **Frequenzlimitierung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
 
 ## Nächste Schritte {#next-steps}

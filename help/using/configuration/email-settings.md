@@ -5,10 +5,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
+source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 68%
+source-wordcount: '2232'
+ht-degree: 34%
 
 ---
 
@@ -113,6 +114,215 @@ Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen un
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
+### Weiterleitungs-E-Mail {#forward-email}
+
+Wenn Sie alle E-Mails, die von [!DNL Journey Optimizer] Wenden Sie sich für die zugewiesene Subdomain an die Kundenunterstützung von Adobe. Sie müssen Folgendes bereitstellen:
+
+* Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adressdomäne für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen kann.
+* Ihr Sandbox-Name.
+* Der Vorgabename, für den die Weiterleitungs-E-Mail-Adresse (oder &quot;Antwort auf&quot;) verwendet wird.
+* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]** -Adresse, die auf der voreingestellten Ebene eingestellt ist.
+
+>[!NOTE]
+>
+>Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Vorgaben dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
+
+Die Weiterleitungs-E-Mail-Adresse wird nach Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
+
+## BCC-E-Mail {#bcc-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_bcc"
+>title="BCC-E-Mail-Adresse definieren"
+>abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, damit jede gesendete E-Mail blind in diese BCC-Adresse kopiert wird. Diese Funktion ist optional für "
+
+Sie können eine identische Kopie (oder blinde Kopie) einer E-Mail senden, die von [!DNL Journey Optimizer] in einen BCC-Posteingang. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zur Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
+
+### BCC-E-Mail aktivieren {#enable-bcc}
+
+So aktivieren Sie die **[!UICONTROL BCC-E-Mail]** Geben Sie die gewünschte E-Mail-Adresse in das entsprechende Feld ein. Sie können jede externe Adresse im richtigen Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
+
+>[!NOTE]
+>
+>Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Voreinstellung gesendet werden.
+
+![](assets/preset-bcc.png)
+
+Alle E-Mail-Nachrichten, die diese Vorgabe verwenden, werden blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
+
+>[!CAUTION]
+>
+>Die Verwendung Ihrer BCC-Funktion wird mit der Anzahl der Nachrichten abgeglichen, für die Sie lizenziert sind. Aktivieren Sie sie daher nur in den Vorgaben, die für kritische Kommunikationen verwendet werden, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf lizenzierte Mengen.
+
+Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der voreingestellten Ebene gespeichert und verarbeitet. Wenn Sie [eine neue Nachricht erstellen](../messages/get-started-content.md#create-new-message) Wenn Sie diese Vorgabe verwenden, wird die BCC-E-Mail-Adresse automatisch angezeigt.
+
+![](assets/preset-bcc-in-msg.png)
+
+Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nachrichten erfasst:
+
+* Bei Batch- und Burst-Journey gilt dies nicht für die Batch- oder Burst-Ausführung, die bereits begonnen hatte, bevor die BCC-Einstellung vorgenommen wurde. Die Änderung wird bei der nächsten Wiederholung oder erneuten Ausführung übernommen.
+
+* Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (bis zu einer Minute Verzögerung).
+
+>[!NOTE]
+>
+>Sie müssen keine Nachricht oder Journey erneut veröffentlichen, damit die BCC-Einstellung abgerufen wird.
+
+### Empfehlungen und Einschränkungen            {#recommendations-limitations}
+
+* Stellen Sie sicher, dass die BCC-E-Mail-Adresse korrekt eingestellt ist. Sollte dies nicht der Fall sein, können die personenbezogenen Daten Ihrer Kunden an eine unerwünschte Adresse gesendet werden.
+
+* Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
+
+* Diese Funktion kann vor dem Versand an die Empfänger an die BCC-E-Mail-Adresse gesendet werden, was dazu führen kann, dass BCC-Nachrichten gesendet werden, auch wenn die ursprünglichen Sendungen [bounced](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Wenn die an die BCC-Adresse gesendeten E-Mails geöffnet und angeklickt werden, wird dies bei der Gesamtzahl der Öffnungen und Klicks aus der Versandanalyse berücksichtigt, was zu falschen Berechnungen in [Berichte](../reports/message-monitoring.md). Gleichermaßen kann die Kennzeichnung von BCC-E-Mails, die in Ihren Posteingang als Spam eingehen, dazu führen, dass E-Mails in den Ordner &quot;Spam&quot;Ihres Posteingangs gelangen.
+
+* Ihr Posteingang, der für BCC verwendet wird, sollte für Speicherplatz und Bereitstellung ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden manche E-Mails möglicherweise nicht empfangen und daher nicht archiviert.
+
+>[!CAUTION]
+>
+>Vermeiden Sie es, in den an die BCC-Adresse gesendeten E-Mails auf den Abmelde-Link zu klicken, da Sie die entsprechenden Empfänger sofort abmelden werden.
+
+### DSGVO-Konformität {#gdpr-compliance}
+
+Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihre Einwilligung jederzeit ändern können. Da die mit Journey Optimizer gesendeten BCC-E-Mails sicher personenbezogene Daten (PII) enthalten, müssen Sie die **[!UICONTROL CJM Email BCC Feedback-Ereignisschema]** um diese personenbezogenen Daten unter Einhaltung der DSGVO und ähnlicher Vorschriften verwalten zu können.
+
+Gehen Sie dazu wie folgt vor.
+
+1. Navigieren Sie zu **[!UICONTROL Data Management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL CJM Email BCC Feedback-Ereignisschema]**.
+
+   ![](assets/preset-bcc-schema.png)
+
+1. Zum Erweitern klicken **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** then **[!UICONTROL secondaryRecipientDetail]**.
+
+1. Auswählen **[!UICONTROL originalRecipientAddress]**.
+
+1. Im **[!UICONTROL Feldeigenschaften]** rechts scrollen Sie nach unten zum **[!UICONTROL Identität]** aktivieren.
+
+1. Wählen Sie es aus und wählen Sie es auch aus **[!UICONTROL Primäre Identität]**.
+
+1. Wählen Sie einen Namespace aus der Dropdown-Liste aus.
+
+   ![](assets/preset-bcc-schema-identity.png)
+
+1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
+
+>[!NOTE]
+>
+>Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target=&quot;_blank&quot;}.
+
+### BCC-Berichtsdaten {#bcc-reporting}
+
+Die Berichterstattung als solche über BCC ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]**. Sie können Abfragen für diesen Datensatz ausführen, um nützliche Informationen zum Debugging-Zweck zu finden.
+
+Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Auswählen **[!UICONTROL Data Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** und aktivieren Sie die **[!UICONTROL Anzeigen von Systemdatensätzen]** Aus dem Filter wechseln, um die systemgenerierten Datensätze anzuzeigen. Erfahren Sie mehr über den Zugriff auf Datensätze in [diesem Abschnitt](../start/get-started-datasets.md#access-datasets).
+
+![](assets/preset-bcc-dataset.png)
+
+Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der von der [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;}. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Data Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../start/get-started-queries.md)
+
+![](assets/preset-bcc-queries.png)
+
+Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
+
+1. Für alle anderen Abfragen unten benötigen Sie die Journey-Aktions-ID. Führen Sie diese Abfrage aus, um innerhalb der letzten 2 Tage alle mit einer bestimmten Journey-Versions-ID verknüpften Aktions-IDs abzurufen:
+
+       &quot;
+       SELECT
+       DISTINCT
+       CAST(TIMESTAMP AS DATE) AS EventTime,
+       _experience.journeyOrchestration.stepEvents.journeyVersionID,
+       _experience.journeyOrchestration.stepEvents.actionName,
+       _experience.journeyOrchestration.stepEvents.actionID
+       FROM Journey_step_events
+       WO
+       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&quot; UND
+       _experience.journeyOrchestration.stepEvents.actionID is not NULL AND
+       ZEITSTEMPEL > NOW() - INTERVALL &quot;2&quot;TAG
+       ORDER BY EventTime DESC;
+       &quot;
+   
+   >[!NOTE]
+   >
+   >So rufen Sie die `<journey version id>`-Parameter, wählen Sie die entsprechende [Journey-Version](../building-journeys/journey-versions.md) von **[!UICONTROL Journey-Management]** > **[!UICONTROL Journey]** Menü. Die Journey-Versions-ID wird am Ende der URL angezeigt, die in Ihrem Webbrowser angezeigt wird.
+   >
+   >![](assets/preset-bcc-action-id.png)
+
+1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht generiert wurden, die an einen bestimmten Benutzer gesendet wurde:
+
+       &quot;
+       SELECT
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+       _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID,
+       timestamp AS EventTime,
+       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+       _experience.customerjourneymanagement.messageDeliveryFeedback.feedbackStatus AS FeedbackStatus,
+       CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       WENN &quot;gesendet&quot;DANN &quot;gesendet&quot;
+       WENN &quot;delay&quot;, DANN &quot;Retry&quot;
+       WENN &#39;out_of_band&#39; DANN &#39;Bounce&#39;
+       WENN &quot;bounce&quot;DANN &quot;Bounce&quot;
+       ENDE AS FeedbackStatusCategory
+       VON cjm_message_feedback_event_dataset
+       WO
+       timestamp > now() - INTERVAL &#39;2&#39; day AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&quot; UND
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&quot; UND
+       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
+       ORDER BY EventTime DESC;
+       &quot;
+   
+   >[!NOTE]
+   >
+   >So rufen Sie die `<journey action id>` -Parameter verwenden, führen Sie die oben beschriebene erste Abfrage mit der Journey-Versions-ID aus. Die `<recipient email address>` -Parameter ist die E-Mail-Adresse des Zielkontakts oder des tatsächlichen Empfängers.
+
+1. Führen Sie diese Abfrage aus, um alle BCC-Nachrichten-Feedback-Ereignisse abzurufen, die für eine bestimmte Nachricht generiert wurden, die innerhalb der letzten 2 Tage an einen bestimmten Benutzer gesendet wurde:
+
+   ```
+   SELECT   
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS BccEmailAddress,
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+               WHEN 'sent' THEN 'Sent'
+               WHEN 'delay' THEN 'Retry'
+               WHEN 'out_of_band' THEN 'Bounce' 
+               WHEN 'bounce' THEN 'Bounce'
+           END AS FeedbackStatusCategory 
+   FROM ajo_bcc_feedback_event_dataset  
+   WHERE  
+   timestamp > now() - INTERVAL '2' day  AND
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journeyaction id>' AND 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = '<recipient email address>'
+   ORDER BY EventTime DESC;
+   ```
+
+1. Führen Sie diese Abfrage aus, um alle Empfängeradressen abzurufen, die die Nachricht nicht erhalten haben, während der BCC-Eintrag innerhalb der letzten 30 Tage vorhanden ist:
+
+   ```
+   SELECT
+       DISTINCT 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
+   FROM ajo_bcc_feedback_event_dataset bcc
+   LEFT JOIN cjm_message_feedback_event_dataset mfe
+   ON 
+   bcc._experience.customerJourneyManagement.messageExecution.journeyVersionID =
+           mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AND    bcc._experience.customerJourneyManagement.messageExecution.journeyActionID = mfe._experience.customerJourneyManagement.messageExecution.journeyActionID AND 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = mfe._experience.customerJourneyManagement.emailChannelContext.address AND
+   mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   mfe._experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND
+   mfe.timestamp > now() - INTERVAL '30' DAY AND
+   mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
+   WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
+   ```
+
 ## E-Mail-Wiederholungsparameter {#email-retry}
 
 >[!CONTEXTUALHELP]
@@ -153,7 +363,7 @@ Beim Erstellen einer Nachrichtenvorgabe werden drei URL-Tracking-Parameter autom
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** oder wählen Sie aus einer Liste vordefinierter Werte aus, indem Sie zu den folgenden Objekten navigieren:
 
 * Journey-Attribute: **Quell-ID**, **Quellname**, **Quellversions-ID**
-* Nachrichtenattribute: **Aktionskennung**, **Aktionsname**
+* Aktionsattribute: **Aktionskennung**, **Aktionsname**
 * Offer decisioning-Attribute: **Angebotskennung**, **Angebotsname**
 
 ![](assets/preset-url-tracking-source.png)

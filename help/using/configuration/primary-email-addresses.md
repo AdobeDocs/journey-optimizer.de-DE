@@ -6,19 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 85%
 
 ---
 
-# Ändern von primären E-Mail-Adressen {#change-primary-email}
+# Primäradressen ändern {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definieren der zu verwendenden Adresse"
->abstract="Sie können auswählen, welche E-Mail-Adresse für den Versand priorisiert werden soll, wenn mehrere Adressen in der Datenbank verfügbar sind (privat, beruflich usw.)."
+>abstract="Wenn mehrere Adressen in der Datenbank verfügbar sind (persönlich, professionell usw.), können Sie wählen, welche Adresse für den Versand priorisiert werden soll."
 
 Wenn Sie ein Profil als Ziel auswählen, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen zur Verfügung (private, berufliche E-Mail-Adresse usw.).
 

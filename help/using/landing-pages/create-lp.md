@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 90%
+source-wordcount: '1141'
+ht-degree: 85%
 
 ---
 
@@ -132,6 +132,10 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 1. Sie können den Seitennamen ändern, der standardmäßig **[!UICONTROL Unterseite 1]** lautet.
 
 1. Bearbeiten Sie den Inhalt Ihrer Seite mit dem Content Designer. [Hier](design-lp.md) erfahren Sie, wie Sie den Inhalt von Landingpages definieren.
+
+   >[!NOTE]
+   >
+   >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die einen Fehler begangen haben und sich erneut anmelden möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Anmeldeseite hinzufügen. Erfahren Sie, wie Sie Links in einfügen [diesem Abschnitt](../design/message-tracking.md#insert-links).
 
 1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 

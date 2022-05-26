@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 84%
 
 ---
 
@@ -31,15 +31,19 @@ Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesend
 
 Sie können auf Regeln über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Regeln]** zugreifen. Alle Regeln werden sortiert nach Änderungsdatum aufgelistet.
 
->[!NOTE]
->
->Zum Zugreifen auf, Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten benötigen Sie die Berechtigung [Häufigkeitsregeln verwalten](../administration/high-low-permissions.md#manage-frequency-rules).
-
-![](assets/message-rules-access.png)
-
 Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Kanal zu filtern. Sie können auch nach dem Nachrichtentitel suchen.
 
 ![](assets/message-rules-filter.png)
+
+### Berechtigungen{#permissions-frequency-rules}
+
+Zum Zugreifen auf, Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten benötigen Sie die Berechtigung **[!UICONTROL Häufigkeitsregeln verwalten]**.
+
+Benutzer mit **[!UICONTROL Anzeigen von Häufigkeitsregeln]** -Berechtigungen können Regeln anzeigen, sie jedoch nicht ändern oder löschen.
+
+![](assets/message-rules-access.png)
+
+Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ## Erstellen einer Regel {#create-new-rule}
 
@@ -77,15 +81,15 @@ Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
 1. Wählen Sie mehrere Kanäle aus, wenn Sie für alle ausgewählten Kanäle gemeinsam eine Begrenzung festlegen möchten.
 
-   Legen Sie beispielsweise die Begrenzung auf 15 fest und wählen Sie dann den E-Mail- und Push-Kanal aus. Wenn ein Profil bereits 10 Marketing-E-Mails und 5 Marketing-Push-Benachrichtigungen erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder Push-Benachrichtigung ausgeschlossen.
+   Legen Sie beispielsweise die Begrenzung auf 15 fest und wählen Sie sowohl den E-Mail- als auch den Push-Kanal aus. Wenn ein Profil bereits 10 Marketing-E-Mails und 5 Marketing-Push-Benachrichtigungen erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder Push-Benachrichtigung ausgeschlossen.
 
-1. Klicken Sie auf **[!UICONTROL Als Entwurf speichern]**, um die Regelerstellung zu bestätigen. Ihre Nachricht wird der Regelliste mit dem Status **[!UICONTROL Entwurf]** hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL Als Entwurf speichern]**, um die Regelerstellung zu bestätigen. Ihre Nachricht wird zur Regelliste hinzugefügt, wobei die **[!UICONTROL Entwurf]** Status.
 
    ![](assets/message-rules-created.png)
 
 ## Aktivieren einer Regel {#activate-rule}
 
-Bei der Erstellung einer Häufigkeitsregel für Nachrichten hat die Regel den Status **[!UICONTROL Entwurf]** und wirkt sich noch auf keine Nachricht aus. Um die Regel zu aktivieren, klicken Sie auf die Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Aktivieren]** aus.
+Bei der Erstellung einer Meldungsregel enthält die Regel **[!UICONTROL Entwurf]** -Status und hat noch keine Auswirkungen auf eine Nachricht. Um die Regel zu aktivieren, klicken Sie auf die Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Aktivieren]** aus.
 
 ![](assets/message-rules-activate.png)
 
@@ -93,7 +97,7 @@ Das Aktivieren einer Regel wirkt sich auf alle Nachrichten, für die sie gilt, b
 
 >[!NOTE]
 >
->Sie müssen keine Nachrichten oder Journeys ändern oder erneut veröffentlichen, damit eine Regel wirksam wird.
+>Es kann bis zu 10 Minuten dauern, bis eine Regel vollständig aktiviert ist. Sie müssen keine Nachrichten oder Journeys ändern oder erneut veröffentlichen, damit eine Regel wirksam wird.
 
 Um eine Häufigkeitsregel für Nachrichten zu deaktivieren, klicken Sie auf das Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Deaktivieren]**.
 
@@ -132,6 +136,10 @@ Gehen Sie wie folgt vor, um eine Häufigkeitsregel auf eine Nachricht anzuwenden
 1. [Gestalten](../design/design-emails.md) und [veröffentlichen](../messages/publish-manage-message.md) Sie Ihre Nachricht.
 
 Alle Häufigkeitsregeln, die mit der ausgewählten Kategorie und den ausgewählten Kanälen übereinstimmen, werden automatisch auf diese Nachricht angewendet.
+
+>[!NOTE]
+>
+>Nachrichten <!--that do not have any selected category or messages -->wobei die ausgewählte Kategorie **[!UICONTROL Transactional]** wird nicht mit den Frequenzregeln bewertet.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 In diesem Szenario kann ein einzelnes Profil:
 * monatlich bis zu 12 Marketing-Nachrichten erhalten;
 * es wird jedoch von Marketing-Push-Benachrichtigungen ausgeschlossen, nachdem es 4 Push-Benachrichtigungen erhalten hat.
+
+>[!NOTE]
+>
+>Beim Testen von Frequenzregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../segment/creating-test-profiles.md), da es nach Erreichen der Frequenzgrenze eines Profils nicht mehr möglich ist, den Zähler auf den nächsten Monat zurückzusetzen. Durch die Deaktivierung einer Regel können Profile mit einer begrenzten Anzahl an Nachrichten empfangen, jedoch werden keine Zählerinkremente entfernt oder gelöscht.

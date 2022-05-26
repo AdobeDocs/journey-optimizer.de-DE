@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 40%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-Gibt die eindeutigen Werte der Liste zurück. Wenn die Liste mindestens einen Nullwert enthält, wird ein Nullwert in der zurückgegebenen Liste angezeigt.
+Gibt die eindeutigen Werte oder Objekte einer angegebenen Liste zurück. Wenn die Liste mindestens einen Nulleintrag enthält, wird ein Nulleintrag in der zurückgegebenen Liste angezeigt.
 
 ## Kategorie
 
@@ -23,20 +23,14 @@ Liste
 
 ## Funktionssyntax
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## Parameter
 
-| Parameter | Typ |
-|-----------|------------------|
-| Liste | listString |
-| Liste | listBoolean |
-| Liste | listInteger |
-| Liste | listDecimal |
-| Liste | listDuration |
-| Liste | listDateTime |
-| Liste | listDateTimeOnly |
-| Liste | listDateOnly |
+| Parameter | Typ | Beschreibung |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als dupliziert betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als dupliziert betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -71,6 +65,12 @@ Gibt eine Liste mit booleschen Werten zurück.
 `distinctWithNull(<listDuration>)`
 
 Gibt eine Liste der Dauer zurück.
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+Gibt eine Liste von Objekten zurück.
 
 ## Beispiele
 

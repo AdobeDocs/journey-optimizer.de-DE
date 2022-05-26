@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 99%
+source-wordcount: '1040'
+ht-degree: 94%
 
 ---
 
@@ -16,14 +16,17 @@ ht-degree: 99%
 
 + [Dokumentation zu Journey Optimizer](ajo-home.md)
 + Neue Funktionen {#whats-new}
-   + [Versionshinweise](using/rn/release-notes.md)
-   + [Neueste Aktualisierungen](using/rn/documentation-updates.md)
+   + [Neueste Versionshinweise](using/rn/release-notes.md)
+   + Frühere Versionshinweise {#previous-rn-new}
+      + [Versionshinweise für 2022](using/rn/release-notes-2022.md)
+      + [Versionshinweise für 2021](using/rn/release-notes-2021.md)
+   + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
    + Schnellstart{#quick-start}
       + [Übersicht](using/start/quick-start.md)
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
-      + [Erste Schritte als Dateningenieur](using/start/path/data-engineer.md)
+      + [Erste Schritte als Data Engineer](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
@@ -60,7 +63,11 @@ ht-degree: 99%
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
-   + [Erstellen einer Landingpage](using/landing-pages/design-lp.md)
+   + Inhaltserstellung {#landing-pages-design}
+      + [Über die Landingpage-Erstellung](using/landing-pages/design-lp.md)
+      + [Landingpage-Inhalt erstellen](using/landing-pages/lp-content.md)
+      + [Vorlagen erstellen](using/landing-pages/lp-templates.md)
+      + [Benutzerdefiniertes JavaScript hinzufügen](using/landing-pages/lp-custom-js.md)
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
@@ -179,6 +186,7 @@ ht-degree: 99%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Math {#math}
@@ -245,6 +253,7 @@ ht-degree: 99%
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Unterdrückungsliste](using/reports/suppression-list.md)
       + [Zulassungsliste](using/reports/allow-list.md)
+   + [Prüfaktionen für Journey Optimizer-Ressourcen](using/reports/audit-logs.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 99%
    + [Verwalten von Benutzern und Produktprofilen](using/administration/permissions.md)
    + [Berechtigungsebenen](using/administration/high-low-permissions.md)
    + [Sandbox-Management](using/administration/sandboxes.md)
+   + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
+
