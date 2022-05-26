@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
    * **Entwerfen Sie Ihre E-Mail von Grund auf** über die Benutzeroberfläche von Email Designer und nutzen Sie Bilder aus [Adobe Experience Manager Assets Essentials](assets-essentials.md). Erfahren Sie [in diesem Abschnitt](create-email-content.md), wie Sie E-Mail-Inhalt gestalten oder integrierte Vorlagen verwenden.
 
-   * **Aus vorhandener E-Mail kopieren** aus einer Liste von Beispielvorlagen.
+   * **Kopieren Sie aus einer vorhandener E-Mail** aus einer Liste von Beispielvorlagen.
 
    * **Codieren oder fügen Sie rohe HTML-Zeilen** direkt in Email Designer ein. Erfahren Sie [in diesem Abschnitt](code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
