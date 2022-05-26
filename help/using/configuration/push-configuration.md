@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## Schritt 3: Testen Sie Ihre Mobile App mit einem Ereignis {#mobile-app-test}
 
-Nachdem Sie Ihre Mobile App sowohl in Adobe Experience Platform als auch in [!DNL Adobe Experience Platform Data Collection] konfiguriert haben, können Sie sie nun testen, bevor Sie Push-Benachrichtigungen an Ihre Profile senden. In diesem Anwendungsfall erstellen wir eine Journey, um unsere App als Ziel auszuwählen und ein Ereignis festzulegen, mit dem die Push-Benachrichtigung Trigger wird.
+Nachdem Sie Ihre Mobile App sowohl in Adobe Experience Platform als auch in [!DNL Adobe Experience Platform Data Collection] konfiguriert haben, können Sie sie nun testen, bevor Sie Push-Benachrichtigungen an Ihre Profile senden. In diesem Anwendungsbeispiel erstellen wir eine Journey, in der unsere Mobile App als Ziel ausgewählt und ein Ereignis festgelegt wird, das die Push-Benachrichtigung auslöst.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
@@ -307,7 +307,7 @@ Anschließend müssen Sie ein Ereignis einrichten.
 
    ![](assets/test_push_7b.png)
 
-1. Klicken Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** auf **[!UICONTROL Bearbeiten]**. Ziehen Sie das zuvor hinzugefügte Feld per Drag-and-Drop in den Arbeitsbereich, um die Bedingung zu definieren, die vom System verwendet wird, um die Ereignisse zu identifizieren, die Ihre Journey Trigger haben.
+1. Klicken Sie im Feld **[!UICONTROL Ereignis-ID-Bedingung]** auf **[!UICONTROL Bearbeiten]**. Ziehen Sie das zuvor hinzugefügte Feld per Drag-and-Drop hinüber, um zu definieren, welche Bedingung vom System zur Identifikation der Ereignisse verwendet wird, die Ihre Journey auslösen sollen.
 
    ![](assets/test_push_8.png)
 
