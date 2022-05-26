@@ -7,13 +7,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Angebote mithilfe der Decisioning API bereitstellen {#decisioning-api}
+# Bereitstellen von Angeboten mithilfe der Decisioning-API {#decisioning-api}
 
 Mit dem Entscheidungs-Management können Sie personalisierte Angebotserlebnisse für Endbenutzer erstellen und bereitstellen, und zwar über Kanäle und Anwendungen hinweg und unter Verwendung von Business-Logik und Entscheidungsregeln. Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer für die Anzeige des Angebots infrage kommt.
 
