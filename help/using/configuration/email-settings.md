@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 39%
+source-wordcount: '2246'
+ht-degree: 38%
 
 ---
 
@@ -138,6 +138,10 @@ Die Weiterleitungs-E-Mail-Adresse wird nach Adobe eingerichtet. Dies kann 3 bis 
 
 Sie können eine identische Kopie (oder blinde Kopie) einer E-Mail senden, die von [!DNL Journey Optimizer] in einen BCC-Posteingang. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zur Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
 
+>[!CAUTION]
+>
+>Diese Funktion ist ab sofort verfügbar **31. Mai**.
+
 ### BCC-E-Mail aktivieren {#enable-bcc}
 
 So aktivieren Sie die **[!UICONTROL BCC-E-Mail]** Geben Sie die gewünschte E-Mail-Adresse in das entsprechende Feld ein. Sie können jede externe Adresse im richtigen Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
@@ -145,6 +149,8 @@ So aktivieren Sie die **[!UICONTROL BCC-E-Mail]** Geben Sie die gewünschte E-Ma
 >[!NOTE]
 >
 >Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Voreinstellung gesendet werden.
+>
+>Weitere Empfehlungen finden Sie unter [diesem Abschnitt](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nac
 >
 >Sie müssen keine Nachricht oder Journey erneut veröffentlichen, damit die BCC-Einstellung abgerufen wird.
 
-### Empfehlungen und Einschränkungen            {#recommendations-limitations}
+### Empfehlungen und Einschränkungen            {#bcc-recommendations-limitations}
 
-* Stellen Sie sicher, dass die BCC-E-Mail-Adresse korrekt eingestellt ist. Sollte dies nicht der Fall sein, können die personenbezogenen Daten Ihrer Kunden an eine unerwünschte Adresse gesendet werden.
+* Um die Einhaltung der Datenschutzbestimmungen zu gewährleisten, müssen BCC-E-Mails von einem Archivierungssystem verarbeitet werden, in dem personenbezogene Daten (PII) sicher gespeichert werden können.
 
-* Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
-
-* Diese Funktion kann vor dem Versand an die Empfänger an die BCC-E-Mail-Adresse gesendet werden, was dazu führen kann, dass BCC-Nachrichten gesendet werden, auch wenn die ursprünglichen Sendungen [bounced](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Wenn die an die BCC-Adresse gesendeten E-Mails geöffnet und angeklickt werden, wird dies bei der Gesamtzahl der Öffnungen und Klicks aus der Versandanalyse berücksichtigt, was zu falschen Berechnungen in [Berichte](../reports/message-monitoring.md). Gleichermaßen kann die Kennzeichnung von BCC-E-Mails, die in Ihren Posteingang als Spam eingehen, dazu führen, dass E-Mails in den Ordner &quot;Spam&quot;Ihres Posteingangs gelangen.
+* Da Nachrichten vertrauliche oder private Daten enthalten können, z. B. personenbezogene Daten (PII), müssen Sie sicherstellen, dass die BCC-Adresse korrekt ist, und den Zugriff auf Nachrichten sicherstellen.
 
 * Ihr Posteingang, der für BCC verwendet wird, sollte für Speicherplatz und Bereitstellung ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden manche E-Mails möglicherweise nicht empfangen und daher nicht archiviert.
 
+* Nachrichten können vor den Zielempfängern an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn die ursprünglichen Nachrichten [bounced](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie in der Gesamtzahl der Öffnungen und Klicks aus der Versandanalyse berücksichtigt werden. Dies könnte zu falschen Berechnungen in [Berichte](../reports/message-monitoring.md).
+
+* Markieren Sie keine Nachrichten im BCC-Posteingang als Spam, da sich dies auf alle anderen an diese Adresse gesendeten E-Mails auswirkt.
+
+
 >[!CAUTION]
 >
->Vermeiden Sie es, in den an die BCC-Adresse gesendeten E-Mails auf den Abmelde-Link zu klicken, da Sie die entsprechenden Empfänger sofort abmelden werden.
+>Klicken Sie nicht auf den Abmelde-Link in den an die BCC-Adresse gesendeten E-Mails, da Sie die entsprechenden Empfänger sofort abmelden werden.
 
 ### DSGVO-Konformität {#gdpr-compliance}
 
