@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 91%
+source-wordcount: '248'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Platzierung erstellen]**.
 
-   ![](../assets/offers_placement_creation.png)
+   !![](../assets/offer_placement_creation.png)
 
 1. Definieren Sie die Eigenschaften der Platzierung:
 

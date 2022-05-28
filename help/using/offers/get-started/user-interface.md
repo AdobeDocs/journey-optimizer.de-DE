@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 * **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. Näheres dazu finden Sie unter [Erstellen einer Entscheidungsregel](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Rangfolgeformeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. Weitere Informationen finden Sie im Abschnitt [Rangfolgeformeln erstellen](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Rangfolgeformeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. Weitere Informationen finden Sie im Abschnitt [Rangfolgeformeln erstellen](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 100%
@@ -106,7 +106,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
 1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet wird (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie eine **Rangfolgenformel** erstellen.
 
-   Die detaillierten Schritte zum Erstellen von Rangfolgenformeln werden in [diesem Abschnitt](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula) beschrieben.
+   Die detaillierten Schritte zum Erstellen von Rangfolgenformeln werden in [diesem Abschnitt](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula) beschrieben.
 
    >[!NOTE]
    >

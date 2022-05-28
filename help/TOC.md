@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1058'
+ht-degree: 93%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 94%
       + [Erstellen von Platzierungen](using/offers/offer-library/creating-placements.md)
       + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
       + [Erstellen von Tags](using/offers/offer-library/creating-tags.md)
-      + [Erstellen von Rangfolgeformeln](using/offers/offer-library/create-ranking-formulas.md)
-      + Erstellen von KI-Rangfolgemodellen {#create-ai-ranking-models}
-         + [Über KI-Modelle](using/offers/offer-library/ai-ranking.md)
-         + [Erstellen von KI-Modellen](using/offers/offer-library/create-ranking-strategies.md)
+   + Rankings erstellen {#rankings}
+      + [Erste Schritte mit Ranglisten](using/offers/ranking/get-started-rankings.md)
+      + [Rangfolgenformeln](using/offers/ranking/create-ranking-formulas.md)
+      + KI-Modelle {#ai-models}
+         + [Über KI-Modelle](using/offers/ranking/ai-models.md)
+         + [Modell mit automatischer Optimierung](using/offers/ranking/auto-optimization-model.md)
+         + Erstellen von KI-Modellen {#configure-ai-model}
+            + [Datensatz zum Erfassen von Ereignissen erstellen](using/offers/ranking/create-dataset.md)
+            + [Erstellen eines KI-Modells](using/offers/ranking/create-ranking-strategies.md)
+            + [Ereigniserfassung konfigurieren](using/offers/ranking/schema-requirement.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
       + Konfigurieren von Angeboten {#configure-offers}
          + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
