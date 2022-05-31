@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 99%
+source-wordcount: '696'
+ht-degree: 98%
 
 ---
 
@@ -68,12 +68,9 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
    * Wählen Sie die **[!UICONTROL Nachrichtenkategorie]**: Marketing oder Transaktionsnachricht.
 
    * Wählen Sie den oder die Kanäle aus, die Sie für diese Nachricht nutzen möchten: E-Mail und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
-
-   <!--
    >[!NOTE]
    >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   -->
+   >Sie können auf den Link **[!UICONTROL Häufigkeitsregel]** klicken, um die Häufigkeitsregeln anzuzeigen, die für die ausgewählte Kategorie und die ausgewählten Kanäle gelten. Weitere Informationen finden Sie unter [Frequenzregeln](../configuration/frequency-rules.md).
 
    * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
