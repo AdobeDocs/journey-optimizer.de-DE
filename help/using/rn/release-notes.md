@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 34%
+source-wordcount: '372'
+ht-degree: 36%
 
 ---
 
@@ -39,23 +39,23 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 </table-->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>E-Mail-BCC</strong><br/></th>
+<th><strong>Email BCC</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Verfügbarkeitsdatum: <strong>31. Mai</strong></p>
-<p>Sie können jetzt die Funktion E-Mail-BCC (Blind Carbon Copy) verwenden, um von Adobe Journey Optimizer gesendete E-Mails zu speichern. Aktivieren Sie diese Option in Ihren E-Mail-Vorgaben, damit jede gesendete E-Mail blind in Ihre BCC-Adresse kopiert wird.</p>
+<p>Availability date: <strong>May, 31</strong></p>
+<p>You can now use the Email BCC (blind carbon copy) capability to store emails sent by Adobe Journey Optimizer. Enable this option in your email presets so that every email sent is blind-copied to your BCC address.</p>
 <img src="assets/bcc-rn.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/email-settings.md#bcc-email">entsprechenden Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../configuration/email-settings.md#bcc-email">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
