@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Platzierung erstellen]**.
 
-   !![](../assets/offer_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Definieren Sie die Eigenschaften der Platzierung:
 
