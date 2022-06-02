@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
    * Wählen Sie den oder die Kanäle aus, die Sie für diese Nachricht nutzen möchten: E-Mail und/oder Push-Benachrichtigung. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
    >[!NOTE]
    >
-   >Sie können auf den Link **[!UICONTROL Häufigkeitsregel]** klicken, um die Häufigkeitsregeln anzuzeigen, die für die ausgewählte Kategorie und die ausgewählten Kanäle gelten. Weitere Informationen finden Sie unter [Frequenzregeln](../configuration/frequency-rules.md).
+   >Sie können auf den Link **[!UICONTROL Häufigkeitsregel]** klicken, um die Häufigkeitsregeln anzuzeigen, die für die ausgewählte Kategorie und die ausgewählten Kanäle gelten. Weitere Informationen finden Sie unter [Häufigkeitsregeln](../configuration/frequency-rules.md).
 
    * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
 
-      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. Weitere Informationen finden Sie unter [Vorgaben](../configuration/message-presets.md).
+      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. Weitere Informationen finde Sie unter [Voreinstellungen](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Sie müssen eine gültige Nachrichtenvoreinstellung für die ausgewählte Kategorie und die ausgewählten Kanäle wählen.

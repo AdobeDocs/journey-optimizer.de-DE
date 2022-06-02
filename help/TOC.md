@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9f7339069a9ccfbe3fa2bf8bf8e06fe90bd0d407
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
    + Schnellstart{#quick-start}
       + [Übersicht](using/start/quick-start.md)
       + [Erste Schritte als Marketer](using/start/path/marketer.md)
-      + [Erste Schritte als Data Engineer](using/start/path/data-engineer.md)
+      + [Erste Schritte als Datentechniker](using/start/path/data-engineer.md)
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
@@ -64,14 +64,14 @@ ht-degree: 93%
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
    + Inhaltserstellung {#landing-pages-design}
-      + [Über die Landingpage-Erstellung](using/landing-pages/design-lp.md)
-      + [Landingpage-Inhalt erstellen](using/landing-pages/lp-content.md)
-      + [Vorlagen erstellen](using/landing-pages/lp-templates.md)
-      + [Benutzerdefiniertes JavaScript hinzufügen](using/landing-pages/lp-custom-js.md)
+      + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
+      + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
+      + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
+      + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte     bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte      bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
@@ -185,7 +185,7 @@ ht-degree: 93%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limit](using/building-journeys/functions/functionlimit.md)
+            + [Limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -253,7 +253,7 @@ ht-degree: 93%
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Unterdrückungsliste](using/reports/suppression-list.md)
       + [Zulassungsliste](using/reports/allow-list.md)
-   + [Prüfaktionen für Journey Optimizer-Ressourcen](using/reports/audit-logs.md)
+   + [Audit-Aktionen für Journey Optimizer-Ressourcen](using/reports/audit-logs.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -369,7 +369,7 @@ ht-degree: 93%
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + Nachrichtenvorgaben einrichten {#set-up-message-presets}
+      + Einrichten von Nachrichtenvoreinsellungen{#set-up-message-presets}
          + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)

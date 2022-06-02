@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -15,16 +15,16 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Mai 2022 {#may-2022}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. Mai wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom Mai 2022 wurden in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
 * Neue Abfragebeispiele für [Segmentqualifizierung](../reports/query-examples.md#segment-qualification-queries) und [events](../reports/query-examples.md#event-based-queries) hinzugefügt.
 * Im Abschnitt zum Entwerfen von E-Mails werden jetzt neue integrierte Vorlagen erwähnt, mit denen Inhalte erstellt werden können. Die entsprechenden Screenshots wurden aktualisiert. [Weitere Informationen](../design/design-emails.md)
 * Auf der Startseite der Journey Optimizer-Dokumentation wurden die Links zu wichtigen Ressourcen aktualisiert.
 * Screenshots für Landingpages und Abonnementberichte wurden aktualisiert. [Weitere Informationen](../reports/live-report.md)
 * Es wurde ein Hinweis hinzugefügt, dass die Methode „Delete“ in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Die Links zu Anleitungsvideos wurden aktualisiert.
-* Die [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvorgaben](../configuration/message-presets.md) und [Landingpages konfigurieren](../configuration/lp-subdomains.md) -Abschnitte wurden neu organisiert, um die Lesbarkeit zu verbessern.
-* Die **URL-Tracking** wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
-* Ein neuer Unterabschnitt zur Einrichtung einer Weiterleitungs-E-Mail-Adresse wurde hinzugefügt - Beachten Sie, dass Sie dies nicht über die Benutzeroberfläche tun können. [Weitere Informationen](../configuration/email-settings.md#forward-email)
+* Die Abschnitte [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvoreinstellungen](../configuration/message-presets.md) und [Konfigurieren von Landingpages](../configuration/lp-subdomains.md) wurden neu strukturiert, um die Lesbarkeit zu verbessern.
+* Der Abschnitt **URL-Tracking** wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* Ein neuer Unterabschnitt zur Einrichtung einer Weiterleitungs-E-Mail-Adresse wurde hinzugefügt. Beachten Sie, dass Sie dies nicht über die Benutzeroberfläche tun können. [Weitere Informationen](../configuration/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}
 
