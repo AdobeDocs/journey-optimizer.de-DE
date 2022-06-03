@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Journey zum Lesen von Segmenten mit einer Aufnahme wechseln 30 Tage nach der Journey-Ausführung in den Status Abgeschlossen . Bei geplanten Read-Segmenten ist es 30 Tage nach der Ausführung des letzten Vorkommens.
+>Journey zum Lesen von Segmenten mit einer Aufnahme wechseln 30 Tage nach der Journey-Ausführung in den Status Abgeschlossen . Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet.
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
