@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benu
 
 ## Einschränkungen{#custom-actions-limitations}
 
-Für benutzerdefinierte Aktionen gibt es einige Einschränkungen, die auf [dieser Seite](../start/limitations.md) aufgeführt sind.
+Für benutzerdefinierte Aktionen gibt es einige Einschränkungen, die auf [dieser Seite](../start/guardrails.md) aufgeführt sind.
 
 In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfache Sammlung als auch eine Sammlung von Objekten übergeben. Weitere Informationen zu den Einschränkungen von Sammlungen finden Sie auf [dieser Seite](../building-journeys/collections.md#limitations).
 

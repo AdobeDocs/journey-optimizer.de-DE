@@ -1,17 +1,18 @@
 ---
-title: Prüfaktionen für Journey Optimizer-Ressourcen
+title: Audit-Aktionen für Journey Optimizer-Ressourcen
 description: Erfahren Sie, wie Sie Aktionen verfolgen, die für Journey Optimizer-Ressourcen durchgeführt wurden.
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
-# Prüfaktionen für Journey Optimizer-Ressourcen {#track-changes}
+# Audit-Aktionen für Journey Optimizer-Ressourcen {#track-changes}
 
 ## Über Prüfprotokolle {#audit-logs}
 
@@ -33,23 +34,23 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 
 | Ressource | Aktion |
 |-----------|------------------|
-| Feldergruppe | Erstellen/Löschen/Aktualisieren |
-| AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
-| CJM-Unterdrückungsliste | CSV erstellen/löschen/herunterladen |
+| Allgemeine Einstellungen für den AJO-Kanal | Erstellen/Löschen/Aktualisieren |
+| AJO-IP-Pool | Erstellen/Löschen/Aktualisieren |
+| AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung rückgängig machen |
+| AJO-Landingpage-HTML-Vorlage | Erstellen/Löschen/Aktualisieren |
+| Vorgabe für AJO-Landingpage | Erstellen/Löschen/Aktualisieren |
+| AJO-Landingpage-Subdomain | Erstellen/Löschen/Aktualisieren |
+| AJO-Nachricht | Erstellen/Löschen/Aktualisieren/Veröffentlichen |
 | AJO-Nachrichtenvorgabe | Erstellen/Löschen/Aktualisieren |
 | AJO PTR-Datensatz | Erstellen/Löschen/Aktualisieren |
-| Rangstrategie | Erstellen/Löschen/Aktualisieren |
-| Benutzerdefinierte Aktion Journey | Erstellen/Löschen/Aktualisieren |
-| AJO-Landingpage-HTML-Vorlage | Erstellen/Löschen/Aktualisieren |
-| AJO-IP-Pool | Erstellen/Löschen/Aktualisieren |
-| AJO-Landingpage-Subdomain | Erstellen/Löschen/Aktualisieren |
+| AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
 | Anmeldeinformationen der AJO-SMS-API | Erstellen/Löschen/Aktualisieren |
-| Vorgabe für AJO-Landingpage | Erstellen/Löschen/Aktualisieren |
+| AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
+| AJO-Unterdrückungsliste | CSV erstellen/löschen/herunterladen |
+| Feldergruppe | Erstellen/Löschen/Aktualisieren |
+| Journey | Erstellen/Löschen/Aktualisieren/Beenden/Veröffentlichen |
+| Benutzerdefinierte Aktion Journey | Erstellen/Löschen/Aktualisieren |
 | Journey datasource | Erstellen/Löschen/Aktualisieren |
 | Journey-Ereignis | Erstellen/Löschen/Aktualisieren |
-| AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
 | Regel für Nachrichtenfrequenz | Erstellen/Löschen/Aktualisieren |
-| AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung rückgängig machen |
-| Journey | Erstellen/Löschen/Aktualisieren/Beenden/Veröffentlichen |
-| AJO-Nachricht | Erstellen/Löschen/Aktualisieren/Veröffentlichen |
-| Allgemeine Einstellungen für den AJO-Kanal | Erstellen/Löschen/Aktualisieren |
+| Rangstrategie | Erstellen/Löschen/Aktualisieren |
