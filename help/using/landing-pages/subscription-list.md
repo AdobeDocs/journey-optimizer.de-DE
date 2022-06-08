@@ -9,7 +9,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 
    >[!CAUTION]
    >
-   >Derzeit können Sie keinen Abstand verwenden oder einen Namen eingeben, der bereits für eine andere Abonnementliste in der **[!UICONTROL Titel]** -Feld.
+   >Derzeit können Sie im Feld **[!UICONTROL Titel]** keine Leerzeichen verwenden oder einen Namen eingeben, der bereits für eine andere Abonnementliste existiert.
 
 1. Sie können ein Start- und Enddatum definieren.
 

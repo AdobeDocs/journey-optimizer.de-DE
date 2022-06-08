@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
    >[!NOTE]
    >
-   >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die einen Fehler begangen haben und sich erneut anmelden möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Anmeldeseite hinzufügen. Erfahren Sie, wie Sie Links in einfügen [diesem Abschnitt](../design/message-tracking.md#insert-links).
+   >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die sich geirrt haben und erneut abonnieren möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Abonnementseite hinzufügen. In [diesem Abschnitt](../design/message-tracking.md#insert-links) erfahren Sie, wie Sie Links einfügen.
 
 1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 

@@ -22,7 +22,7 @@ Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivit
 Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
-* [Reaktion ](../building-journeys/reaction-events.md)
+* [Reaktion](../building-journeys/reaction-events.md)
 * [Segmentqualifizierung](../building-journeys/segment-qualification-events.md)
 
 ![](assets/journey43.png)

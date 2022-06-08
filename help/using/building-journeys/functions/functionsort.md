@@ -9,13 +9,13 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # sort {#sort}
 
-Sortiert eine Liste von Werten oder Objekten in natürlicher Reihenfolge.
+Sortiert eine Liste von Werten oder Objekten in ihrer natürlichen Reihenfolge.
 
 ## Kategorie
 
@@ -29,9 +29,9 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Liste zum Sortieren. Bei listObject muss es sich um einen Feldverweis handeln. |
-| keyAttributeName | Zeichenfolge | Dieser Parameter ist nur für listObject. Der Attributname in den Objekten der angegebenen Liste wird als Schlüssel zum Sortieren verwendet. |
-| sortOrder | boolean | Aufsteigend (true) oder absteigend (false) |
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist nur für listObject. Der Attributname in den Objekten der angegebenen Liste wird als Schlüssel zum Filtern verwendet. |
+| sortingOrder | boolean | Aufsteigend (true) oder absteigend (false) |
 
 ## Signatur und zurückgegebener Typ
 
@@ -65,7 +65,7 @@ Gibt eine Liste mit booleschen Werten zurück.
 
 `sort(<listObject>,<string>,<boolean>)`
 
-Gibt eine Liste von Objekten zurück.
+Gibt eine Liste mit Objekten zurück.
 
 ## Beispiel
 

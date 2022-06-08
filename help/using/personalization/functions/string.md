@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -360,9 +360,9 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Maske (#mask)
+## Maskieren (#mask)
 
-Die `Mask` -Funktion wird verwendet, um einen Teil einer Zeichenfolge durch &quot;X&quot;-Zeichen zu ersetzen.
+Die Funktion `Mask` wird verwendet, um einen Teil einer Zeichenfolge durch „X“-Zeichen zu ersetzen.
 
 **Format**
 
@@ -372,13 +372,13 @@ Die `Mask` -Funktion wird verwendet, um einen Teil einer Zeichenfolge durch &quo
 
 **Beispiel**
 
-Die folgende Abfrage ersetzt die Zeichenfolge &quot;123456789&quot;durch &quot;X&quot;, mit Ausnahme der ersten und der letzten beiden Zeichen.
+Die folgende Abfrage ersetzt die Zeichenfolge „123456789“ durch „X“, mit Ausnahme des ersten und der letzten beiden Zeichen.
 
 ```sql
 {%= mask("123456789",1,2) %}
 ```
 
-Die Abfrage gibt `1XXXXXX89`.
+Die Abfrage gibt `1XXXXXX89` zurück.
 
 ## Ungleich{#notEqualTo}
 

@@ -9,7 +9,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -341,7 +341,7 @@ Die Abfrage gibt alle Profil-IDs zurück, die von der Journey aufgrund eines int
 
 **Übersicht über „Segment lesen“ für eine bestimmte Journey-Version**
 
-_Data-Lake-Abfrage_ 
+_Data-Lake-Abfrage_
 
 ```sql
 SELECT
@@ -605,7 +605,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Segmentqualifikationsereignisse) zurück, die aufgrund eines anderen Profils verworfen wurden.
+Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Segmentqualifikationsereignisse) zurück, die aus einem anderen Grund für ein Profil verworfen wurden.
 
 ## Ereignisbasierte Abfragen {#event-based-queries}
 
@@ -635,7 +635,7 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Überprüfen Sie, ob ein externes Ereignis eines Profils verworfen wurde, da keine zugehörige Journey gefunden wurde.**
+**Überprüfung, ob ein externes Ereignis eines Profils verworfen wurde, weil keine zugehörige Journey gefunden wurde.**
 
 _Data-Lake-Abfrage_
 
@@ -659,7 +659,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Überprüfen Sie, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde.**
+**Überprüfung, ob ein externes Ereignis eines Profils aus einem anderen Grund verworfen wurde.**
 
 _Data-Lake-Abfrage_
 
@@ -685,7 +685,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Überprüfen Sie die Anzahl aller von stateMachine nach errorCode verworfenen Ereignisse.**
+**Überprüfung der Anzahl aller von stateMachine verworfenen Ereignisse nach errorCode**
 
 _Data-Lake-Abfrage_
 
@@ -703,7 +703,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Überprüfen Sie alle verworfenen Ereignisse, da der erneute Eintritt nicht zulässig war.**
+**Überprüfung aller verworfenen Ereignisse, bei denen ein Wiedereintritt nicht erlaubt war**
 
 _Data-Lake-Abfrage_
 

@@ -9,13 +9,13 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # distinct {#distinct}
 
-Gibt die eindeutigen Werte oder Objekte einer angegebenen Liste zurück. Null-Einträge werden ignoriert.
+Gibt die unterschiedlichen Werte oder Objekte einer angegebenen Liste zurück. Einträge mit Null werden ignoriert.
 
 ## Kategorie
 
@@ -30,7 +30,7 @@ Liste
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
-| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als dupliziert betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als dupliziert betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als doppelt betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als doppelt betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -70,7 +70,7 @@ Gibt eine Liste der Dauer zurück.
 
 `distinct(<listObject>,<string>)`
 
-Gibt eine Liste von Objekten zurück.
+Gibt eine Liste mit Objekten zurück.
 
 
 ## Beispiele

@@ -9,7 +9,7 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Beachten Sie, dass bei Verwendung der Decisioning-API die Kontextdaten im Anfrag
 
 Sie können die Punktzahl für ein Angebot basierend auf einem Tendenzwert für den Kunden erhöhen.
 
-In diesem Beispiel lautet der Instanzmandant *_salesgeschwindigkeit* und das Profilschema enthält einen Bereich von Werten, die in einem Array gespeichert sind:
+In diesem Beispiel lautet der Instanzmandant *_salesvelocity* und das Profilschema enthält einen Bereich von Werten, die in einem Array gespeichert sind:
 
 ![](../assets/ranking-example-schema.png)
 

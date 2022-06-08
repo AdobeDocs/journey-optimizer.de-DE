@@ -1,26 +1,27 @@
 ---
 title: Definieren von Landingpage-spezifischen Inhalten
-description: Erfahren Sie, wie Sie Landingpage-spezifischen Inhalt in Journey Optimizer erstellen.
+description: Erfahren Sie, wie Sie Landingpage-spezifische Inhalte in Journey Optimizer erstellen.
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Definieren von Landingpage-spezifischen Inhalten {#lp-content}
 
-Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer Landingpage festlegen und unterbreiten können, verwenden Sie das **[!UICONTROL Formular]** -Komponente. Gehen Sie dazu wie folgt vor.
+Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Auswahl auf Ihrer Landingpage zu treffen und abzusenden, verwenden Sie die Komponente **[!UICONTROL Formular]**. Gehen Sie dazu wie folgt vor.
 
 >[!NOTE]
 >
->Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]** -Komponente. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular senden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne von Ihren Empfängern Maßnahmen zu ergreifen (z. B. Opt-in oder Opt-out) oder Informationen bereitstellen möchten, für die keine Benutzereingabe erforderlich ist.
+>Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie z. B. ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
 
-## Formularkomponente verwenden {#use-form-component}
+## Verwenden der Formularkomponente {#use-form-component}
 
 1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Formular]**-Komponente aus der linken Palette in den Hauptarbeitsbereich.
 
@@ -61,7 +62,6 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer La
    * **[!UICONTROL Kanal (E-Mail)]**: Die An- oder Abmeldung gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abgemeldet hat, zwei E-Mail-Adressen hat, werden beide Adressen aus Ihrer gesamten Kommunikation ausgeschlossen.
 
    * **[!UICONTROL E-Mail-Identität]**: Das Opt-in oder Opt-out gilt nur für die E-Mail-Adresse, die für den Zugriff auf die Landingpage verwendet wurde. Wenn beispielsweise ein Profil zwei E-Mail-Adressen hat, erhält nur diejenige E-Mail-Adresse, mit der es sich angemeldet hat, Nachrichten von Ihrer Marke.
-
 
 1. Klicken Sie auf **[!UICONTROL Feld hinzufügen]** > **[!UICONTROL Kontrollkästchen]**, um ein weiteres Kontrollkästchen hinzuzufügen. Wiederholen Sie die obigen Schritte, um die Eigenschaften zu definieren.
 
@@ -123,4 +123,3 @@ Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer La
 1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Klicken Sie die entsprechende Option an, um den Fehlertext im Formular in der Vorschau anzuzeigen.
 
    ![](assets/lp_designer-form-error-preview.png)
-

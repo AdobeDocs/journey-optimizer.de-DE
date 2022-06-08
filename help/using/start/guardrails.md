@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Schutzmechanismen und Begrenzungen {#limitations}
 
-Berechtigungen, Produktbeschränkungen und die Leistung betreffende Sicherheitsmechanismen sind auf der Seite[ Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
+Berechtigungen, Produktbeschränkungen und die Leistung betreffende Sicherheitsmechanismen sind auf der Seite[ Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 

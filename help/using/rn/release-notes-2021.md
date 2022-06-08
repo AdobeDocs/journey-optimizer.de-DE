@@ -3,7 +3,7 @@ title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2073'
 ht-degree: 100%
 
@@ -47,8 +47,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Ranking-Algorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen.
-Mit dieser Funktion können technisch versierte ebenso wie technisch nicht versierte Benutzer Offer Decisioning schnell testen und potenzielle Probleme beheben.</p>
+<p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Ranking-Algorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen. Mit dieser Funktion können technisch versierte ebenso wie technisch nicht versierte Benutzer Offer Decisioning schnell testen und potenzielle Probleme beheben.</p>
 <p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/simulation.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
@@ -154,7 +153,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Systemgenerierte Schemas und Datensätze, die während der Bereitstellung von Schrittereignissen erstellt wurden, befinden sich jetzt im schreibgeschützten Modus, um unbeabsichtigte Änderungen an kritischen Schemas zu verhindern. [Weitere Informationen](../reports/sharing-overview.md)
 * Sie können die Aktivität **Warten** eindeutig mit einer Bezeichnung benennen, die auf der Arbeitsfläche angezeigt wird. Die Bezeichnung wird auch in Reporting- und Testmodusprotokollen verwendet, um eindeutig zu identifizieren, was Sie tun. [Weitere Informationen](../building-journeys/about-journey-activities.md#best-practices)
@@ -257,7 +256,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
@@ -334,7 +333,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Die Gesamteinschränkungsrate aller Segment-Lesen-Schritte, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)

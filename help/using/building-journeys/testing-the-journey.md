@@ -9,7 +9,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,17 +40,17 @@ Gehen Sie wie folgt vor, um den Testmodus zu verwenden:
 
    >[!NOTE]
    >
-   >Wenn ein Reaktionsereignis mit einer Zeitüberschreitung in einer Journey verwendet wird, beträgt der Standardwert für die Wartezeit und der Mindestwert 40 Sekunden. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
+   >Wenn in einer Journey ein Reaktionsereignis mit einer maximalen Wartezeit verwendet wird, beträgt der Standard- und Mindestwert für die Wartezeit 40 Sekunden. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/reaction-events.md).
 
 1. Verwenden Sie die Schaltfläche **[!UICONTROL Ereignis auslösen]**, um Ereignisse zu konfigurieren und an die Journey zu senden.
 
    ![](assets/journeyuctest1.png)
 
-1. Konfigurieren Sie die verschiedenen erwarteten Felder. Geben Sie im Feld **Profilkennung** den Wert des Felds ein, das zum Identifizieren des Testprofils verwendet wird. Das kann beispielsweise die E-Mail-Adresse sein. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#firing_events).
+1. Konfigurieren Sie die verschiedenen erwarteten Felder. Geben Sie im Feld **Profilkennung** den Wert des Felds ein, das zum Identifizieren des Testprofils verwendet wird. Das kann beispielsweise die E-Mail-Adresse sein. Vergewissern Sie sich, dass Ereignisse gesendet werden, die im Zusammenhang mit Testprofilen stehen. Weitere Informationen finden Sie in [diesem Abschnitt](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#viewing_logs).
+1. Nachdem die Ereignisse eingegangen sind, klicken Sie auf die Schaltfläche **[!UICONTROL Protokoll anzeigen]**, um das Testergebnis anzuzeigen und zu überprüfen. Weitere Informationen finden Sie in [diesem Abschnitt](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 

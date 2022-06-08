@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von E-Mail-Einstellungen
-description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf der Ebene der Nachrichtenvorgabe konfigurieren
+description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf der Ebene der Nachrichtenvoreinstellung konfigurieren.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 69%
+ht-degree: 98%
 
 ---
 
 # Konfigurieren von E-Mail-Einstellungen {#email-settings}
 
-Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Nachrichtenvorgabenkonfiguration. Erfahren Sie, wie Sie Nachrichtenvorgaben erstellen in [diesem Abschnitt](message-presets.md).
+Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Konfiguration der Nachrichtenvoreinstellungen. In [diesem Abschnitt](message-presets.md) erfahren Sie, wie Sie Nachrichtenvoreinstellungen erstellen.
 
 ![](assets/preset-email.png)
 
@@ -114,20 +114,20 @@ Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen un
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-### Weiterleitungs-E-Mail {#forward-email}
+### Weiterleiten von E-Mails {#forward-email}
 
-Wenn Sie alle E-Mails, die von [!DNL Journey Optimizer] Wenden Sie sich für die zugewiesene Subdomain an die Kundenunterstützung von Adobe. Sie müssen Folgendes bereitstellen:
+Wenn Sie alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfangenen E-Mails an eine bestimmte E-Mail-Adresse weiterleiten möchten, wenden Sie sich an die Kundenunterstützung von Adobe. Sie müssen Folgendes angeben:
 
-* Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adressdomäne für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen kann.
-* Ihr Sandbox-Name.
+* Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adress-Domain für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen darf.
+* Ihren Sandbox-Namen.
 * Der Vorgabename, für den die Weiterleitungs-E-Mail-Adresse verwendet wird.
-* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]** -Adresse, die auf der voreingestellten Ebene eingestellt ist.
+* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]**-Adresse, die auf der Ebene der Voreinstellung eingestellt ist.
 
 >[!NOTE]
 >
->Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Vorgaben dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
+>Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Voreinstellungen dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
 
-Die Weiterleitungs-E-Mail-Adresse wird nach Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
+Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
 
 <!--
 ## BCC email {#bcc-email}
@@ -361,33 +361,33 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
 >title="URL-Tracking-Parameter"
->abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die Kampagnen-URLs anzuhängen, die in Ihrem E-Mail-Inhalt vorhanden sind."
+>abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen Kampagnen-URLs anzuhängen."
 
-Sie können **[!UICONTROL URL-Tracking-Parameter]** , um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional für 
+Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
 
-Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die in Ihrem E-Mail-Nachrichteninhalt enthalten sind. Anschließend können Sie diese Parameter in Webanalysewerkzeugen wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
+Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
 ![](assets/preset-url-tracking.png)
 
-Beim Erstellen einer Nachrichtenvorgabe werden drei URL-Tracking-Parameter automatisch ausgefüllt. Sie können diese bearbeiten und bis zu 10 Tracking-Parameter mithilfe der **[!UICONTROL Neuen Parameter hinzufügen]** Schaltfläche.
+Beim Erstellen einer Nachrichtenvoreinstellung werden drei URL-Tracking-Parameter automatisch ausgefüllt. Sie können diese bearbeiten und mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
-Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** oder wählen Sie aus einer Liste vordefinierter Werte aus, indem Sie zu den folgenden Objekten navigieren:
+Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben oder aus einer Liste mit vordefinierten Werten auswählen, indem Sie zu den folgenden Objekten navigieren:
 
 * Journey-Attribute: **Quellen-ID**, **Quellenname**, **Quellenversions-ID**
-* Aktionsattribute: **Aktionskennung**, **Aktionsname**
+* Aktionsattribute: **Aktions-ID**, **Aktionsname**
 * Offer-Decisioning-Attribute: **Angebots-ID**, **Angebotsname**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Wählen Sie keinen Ordner aus: Navigieren Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als Tracking-Parameterwert verwendet werden soll.
+>Wählen Sie keinen Ordner aus: Gehen Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als Tracking-Parameter-Wert verwendet werden soll.
 
 Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google Analytics kompatibel sind.
 
-* Adobe Analytics-kompatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
+* Mit Adobe Analytics kompatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics-kompatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* Mit Google Analytics kompatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 >[!NOTE]
 >

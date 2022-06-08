@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Nachrichtenvoreinsellungen
+title: Einrichten von Nachrichtenvoreinstellungen
 description: Erfahren Sie, wie Sie Nachrichtenvoreinstellungen konfigurieren und überwachen
 feature: Application Settings
 topic: Administration
@@ -9,11 +9,11 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Einrichten von Nachrichtenvoreinsellungen {#message-presets-creation}
+# Einrichten von Nachrichtenvoreinstellungen {#message-presets-creation}
 
 Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps und mehr.
 
@@ -93,7 +93,7 @@ E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreins
 
 ![](assets/preset-email.png)
 
-Konfigurieren Sie Ihre Einstellungen wie unter [diesem Abschnitt](email-settings.md).
+Konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](email-settings.md) beschrieben.
 
 ## Konfigurieren der Push-Einstellungen {#configure-push-settings}
 
@@ -137,7 +137,7 @@ Nach ihrer Erstellung können Nachrichtenvoreinstellungen die folgenden Status a
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvoreinstellung fehlgeschlagen.
 * **[!UICONTROL Deaktiviert]**: Die Nachrichtenvoreinstellung ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
-Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt. 
+Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt.
 
 Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 

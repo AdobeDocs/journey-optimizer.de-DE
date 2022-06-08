@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="PTR-Einträge der Subdomains"
->abstract="Ein Pointer Record (PTR) ist eine Art von DNS-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt, der den E-Mail-Empfangs-Servern beim Überprüfen der IP-Adressen der Absender hilft. Bearbeiten Sie einen PTR-Datensatz nur nach Rücksicht auf Ihre Zustellbarkeit und besprechen Sie ihn mit Ihrem Zustellbarkeitsexperten."
+>abstract="Ein Pointer Record (PTR) ist eine Art von DNS-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt, der den E-Mail-Empfangs-Servern beim Überprüfen der IP-Adressen der Absender hilft. Bearbeiten Sie einen PTR-Eintrag nur nach reiflicher Überlegung und Rücksprache mit Ihrem Zustellbarkeitsexperten."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 

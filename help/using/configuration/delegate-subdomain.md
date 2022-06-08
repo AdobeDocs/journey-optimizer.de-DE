@@ -9,7 +9,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Erstellen der passenden DNS-Einträge."
->abstract="Um eine neue Subdomain vollständig der Adobe zuzuweisen, müssen Sie die in der Journey Optimizer-Benutzeroberfläche angezeigten Informationen zum Adobe-Server kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die entsprechenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAME zuzuweisen, müssen Sie auch den SSL-CDN-URL-Validierungsdatensatz kopieren und einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME-Subdomain-Delegierung"
+>abstract="Um eine neue Subdomain vollständig Adobe zuzuweisen, müssen Sie die in der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die passenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAMEs zuzuweisen, müssen Sie auch den SSL-CDN-URL-Validierungeintrag kopieren und einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html?lang=de#cname-subdomain-delegation" text="CNAME-Subdomain-Delegierung"
 
 [!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
@@ -164,7 +164,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
    >[!NOTE]
    >
-   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** gekennzeichnet, wenn die Erstellung des Validierungsdatensatzes in Ihrer Hosting-Lösung fehlschlägt.
+   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungsdatensatz nicht in Ihrer Hosting-Lösung erstellen.
 
 Nach der Validierung des Datensatzes und der Installation des Zertifikats erstellt Adobe automatisch den PTR-Eintrag für die CNAME-Subdomain. [Weitere Informationen](ptr-records.md)
 

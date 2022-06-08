@@ -71,7 +71,7 @@ ht-degree: 98%
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte      bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
@@ -185,7 +185,7 @@ ht-degree: 98%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [Limit](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -223,7 +223,7 @@ ht-degree: 98%
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
-   + [Überwachen von Nachrichten ](using/reports/message-monitoring.md)
+   + [Überwachen von Nachrichten](using/reports/message-monitoring.md)
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
@@ -369,7 +369,7 @@ ht-degree: 98%
             + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + Einrichten von Nachrichtenvoreinsellungen{#set-up-message-presets}
+      + Einrichten von Nachrichtenvoreinstellungen{#set-up-message-presets}
          + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)

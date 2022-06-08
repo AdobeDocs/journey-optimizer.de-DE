@@ -1,20 +1,21 @@
 ---
 product: adobe campaign
 title: limit
-description: Erfahren Sie mehr über die Funktionsbeschränkung
+description: Erfahren Sie mehr über die Funktion „limit“.
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
+source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # limit {#limit}
 
-Gibt die ersten oder letzten N Elemente einer Liste zurück.
+Gibt die ersten oder letzten n Elemente einer Liste zurück.
 
 ## Kategorie
 
@@ -28,9 +29,9 @@ Liste
 
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Liste zum Sortieren. Bei listObject muss es sich um einen Feldverweis handeln. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu sortierende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
 | numberOfItems | integer | Anzahl der aus der angegebenen Liste zurückzugebenden Elemente. |
-| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig &quot;true&quot;). &quot;true&quot;gibt die ersten Elemente zurück. false gibt die letzten Elemente zurück. |
+| firstOrLastItems | boolean | Dieser Parameter ist optional (standardmäßig „true“). „True“ gibt die ersten Elemente zurück. „False“ gibt die letzten Elemente zurück. |
 
 ## Signatur und zurückgegebener Typ
 
@@ -77,7 +78,7 @@ Gibt eine Liste der Dauer zurück.
 `limit(<listObject>,<integer>)`
 `limit(<listObject>,<integer>,<boolean>)`
 
-Gibt eine Liste von Objekten zurück.
+Gibt eine Liste mit Objekten zurück.
 
 ## Beispiel
 
@@ -88,4 +89,3 @@ Gibt `["A","B","C"]` zurück.
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 Gibt `["C","D","E"]` zurück.
-

@@ -9,7 +9,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-
 
 >[!NOTE]
 >
->Adobe führt eine aktualisierte Liste bekannter schlechter E-Mail-Adressen, die nachweislich die Interaktion und Reputation des Mailings beeinträchtigen, und stellt sicher, dass ihnen keine E-Mails zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossenen Empfänger angegeben.
+>Adobe führt eine aktualisierte Liste bekannter schlechter E-Mail-Adressen, die nachweislich die Interaktion und die Sender-Reputation beeinträchtigen, und stellt sicher, dass E-Mails an diese Adressen nicht zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
 ## Wozu eine Unterdrückungsliste? {#why-suppression-list}
 
