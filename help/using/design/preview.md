@@ -6,19 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1051'
+ht-degree: 100%
 
 ---
 
 # Nachrichtenvorschau und Testversand{#preview-and-proof}
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_simulation_test_profile"
->title="Testprofil hinzufügen"
->abstract="Sie können ein Testprofil hinzufügen, indem Sie einen Identitäts-Namespace und einen entsprechenden Identitätswert auswählen."
 
 Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Bei Verwendung von [personalisiertem Inhalt](../personalization/personalize.md) können Sie prüfen, ob dieser Inhalt in der Nachricht korrekt angezeigt wird, und dabei Daten von Testprofilen nutzen.
 
