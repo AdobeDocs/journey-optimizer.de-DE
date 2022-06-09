@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1060'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
       + [Versionshinweise für 2022](using/rn/release-notes-2022.md)
       + [Versionshinweise für 2021](using/rn/release-notes-2021.md)
    + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
+   + [Nachrichtenmigration](using/rn/inline-messages.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
    + Schnellstart{#quick-start}
