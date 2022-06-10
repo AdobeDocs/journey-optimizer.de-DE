@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -16,42 +16,6 @@ ht-degree: 100%
 # Aggregationsfunktionen {#aggregation}
 
 Aggregationsfunktionen werden verwendet, um mehrere Werte zu gruppieren, sodass ein einziger Zusammenfassungswert gebildet wird.
-
-## Anzahl{#count}
-
-Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
-
-**Format**
-
-```sql
-{%= count(array) %}
-```
-
-**Beispiel**
-
-Durch den folgenden Vorgang wird die Anzahl der Bestellungen im Array zurückgegeben.
-
-```sql
-{%= count(orders) %}
-```
-
-## Summe{#sum}
-
-Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
-
-**Format**
-
-```sql
-{%= sum(array) %}
-```
-
-**Beispiel**
-
-Durch den folgenden Vorgang wird die Summe aller Bestellungen zurückgegeben.
-
-```sql
-{%=sum(orders.order.price)%}
-```
 
 ## Durchschnitt{#average}
 
@@ -71,22 +35,22 @@ Durch den folgenden Vorgang wird der Durchschnittspreis aller Bestellungen zurü
 {%=average(orders.order.price)%}
 ```
 
-## Minimum{#min}
+## Anzahl{#count}
 
-Die Funktion `min` gibt den kleinsten aller ausgewählten Werte im Array zurück.
+Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
 
 **Format**
 
 ```sql
-{%= min(array) %}
+{%= count(array) %}
 ```
 
 **Beispiel**
 
-Durch den folgenden Vorgang wird der niedrigste Preis aller Bestellungen zurückgegeben.
+Durch den folgenden Vorgang wird die Anzahl der Bestellungen im Array zurückgegeben.
 
 ```sql
-{%=min(orders.order.price)%}
+{%= count(orders) %}
 ```
 
 ## Maximum{#max}
@@ -105,4 +69,40 @@ Durch den folgenden Vorgang wird der höchste Preis aller Bestellungen zurückge
 
 ```sql
 {%=max(orders.order.price)%}
+```
+
+## Minimum{#min}
+
+Die Funktion `min` gibt den kleinsten aller ausgewählten Werte im Array zurück.
+
+**Format**
+
+```sql
+{%= min(array) %}
+```
+
+**Beispiel**
+
+Durch den folgenden Vorgang wird der niedrigste Preis aller Bestellungen zurückgegeben.
+
+```sql
+{%=min(orders.order.price) %}
+```
+
+## Summe{#sum}
+
+Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
+
+**Format**
+
+```sql
+{%= sum(array) %}
+```
+
+**Beispiel**
+
+Durch den folgenden Vorgang wird die Summe aller Bestellungen zurückgegeben.
+
+```sql
+{%=sum(orders.order.price)%}
 ```

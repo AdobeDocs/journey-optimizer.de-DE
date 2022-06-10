@@ -6,14 +6,14 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 98%
+source-wordcount: '1738'
+ht-degree: 76%
 
 ---
 
-# Erste Schritte mit Helper-Funktionen{#functionsL}
+# Erste Schritte mit Helper-Funktionen{#functions}
 
 Verwenden Sie die Vorlagensprache von [!DNL Journey Optimizer], um Datenoperationen wie Berechnungen, Datenformatierungen oder Konvertierungen und Bedingungen durchzuführen, und bearbeiten Sie Daten im Zuge der Personalisierung. Weitere Informationen zu Richtlinien zur Personalisierungssyntax finden Sie auf [dieser Seite](../personalization-syntax.md).
 
@@ -33,50 +33,59 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 
 ## Funktionen{#functions-helper}
 
-### Array-Funktionen
+### Aggregations- und Array-Funktionen
 
 <table>
     <tr>
         <td><a href="aggregation.md#average">Durchschnitt</a></td><td>Die Funktion gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">Enthalten</a></td><td>Mit dieser Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#min">Minimum</a></td><td>Die Funktion gibt den kleinsten aller ausgewählten Werte im Array zurück</td>
-    </tr>
-    <tr>
         <td><a href="aggregation.md#count">Anzahl</a></td><td>Diese Funktion gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Enthält</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
+        <td><a href="aggregation.md#count-only-null">Nur Null zählen</a></td><td>Diese Funktion zählt die Anzahl der Nullwerte in der Liste.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Nicht enthalten</a></td><td>Diese Funktion bestimmt, ob ein Element nicht in einem Array oder einer Liste enthalten ist</td>
+        <td><a href="aggregation.md#count-with-null">Zählung mit Null</a></td><td>Diese Funktion zählt alle Elemente der Liste einschließlich Nullwerten</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#distinct">Eindeutig</a></td><td>Diese Funktion ruft Werte aus einem Array oder einer Liste ab, wobei doppelte Werte entfernt werden</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Schnittmengen</a></td><td>Diese Funktion bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen</td>
-    </tr>
-    <tr>
-        <td><a href="arrays-list.md#subset">Teilmenge von</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist, d. h. ob alle Elemente in Array A Elemente von Array B sind</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Zählung unterschiedlicher Werte mit Null</a></td><td>Diese Funktion zählt die Anzahl verschiedener Werte, einschließlich der Nullwerte</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">Erstes Element</a></td><td>Diese Funktion gibt das erste Element in einem Array oder einer Liste zurück</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Letzte n in Array</a></td><td>Diese Funktion gibt die letzten n Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden</td>
-    </tr>
-    <tr>
-        <td><a href="aggregation.md#sum">Summe</a></td><td>Diese Funktion gibt die Summe aller ausgewählten Werte im Array zurück</td>
-    </tr>
-    <tr>
         <td><a href="arrays-list.md#first-n">Erste n in Array</a></td><td>Diese Funktion gibt die ersten n Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden</td>
     </tr>
     <tr>
+        <td><a href="arrays-list.md#in">Enthalten</a></td><td>Mit dieser Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#includes">Enthält</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#intersects">Schnittmengen</a></td><td>Diese Funktion bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#last-n">Letzte n in Array</a></td><td>Diese Funktion gibt die letzten n Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden</td>
+    </tr>
+    <tr>
         <td><a href="aggregation.md#max">Maximum</a></td><td>Diese Funktion gibt den größten aller ausgewählten Werte im Array zurück</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#min">Minimum</a></td><td>Die Funktion gibt den kleinsten aller ausgewählten Werte im Array zurück</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#notin">Nicht enthalten</a></td><td>Diese Funktion bestimmt, ob ein Element nicht in einem Array oder einer Liste enthalten ist</td>
+    </tr>
+    <tr>
+        <td><a href="arrays-list.md#subset">Teilmenge von</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist, d. h. ob alle Elemente in Array A Elemente von Array B sind</td>
+    </tr>
+    <tr>
+        <td><a href="aggregation.md#sum">Summe</a></td><td>Diese Funktion gibt die Summe aller ausgewählten Werte im Array zurück</td>
     </tr>
     <tr>
     <td><a href="arrays-list.md#superset">Obermenge</a></td><td>Diese Funktion bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist, d. h. ob das Array A alle Elemente in Array B enthält.</td>
@@ -105,10 +114,10 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#format-date">Datum formatieren</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-days">Tage festlegen</a></td><td>Diese Funktion legt den Tag des Monats für den angegebenen Datums-/Uhrzeitwert fest.</td>
+        <td><a href="dates.md#set-days">Festlegen von Tagen</a></td><td>Diese Funktion legt den Tag des Monats für den angegebenen Datums-/Uhrzeitwert fest.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#set-hours">Tage festlegen</a></td><td>Diese Funktion legt die Stunde des Datums-/Uhrzeitwerts fest</td>
+        <td><a href="dates.md#set-hours">Stunden festlegen</a></td><td>Diese Funktion legt die Stunde des Datums-/Uhrzeitwerts fest</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">In UTC</a></td><td>Diese Funktion konvertiert einen Datum-/Uhrzeitwert in UTC.</td>
@@ -133,7 +142,30 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     </tr>
 </table>
 
-**Objektfunktionen**
+### Mathematische Funktionen {#math-functions}
+
+<table>
+    <tr>
+        <td><a href="objects.md#absolute">Absolut</a></td><td>Diese Funktion konvertiert eine Zahl in den absoluten Wert</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#random">Random</a></td><td>Diese Funktion gibt einen zufälligen Wert zwischen 0 und 1 zurück</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-down">Nach unten</a></td><td>Diese Funktion rundet eine Zahl ab</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#round-up">Aufrunden</a></td><td>Diese Funktion rundet eine Zahl auf</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-percentage">In Prozent</a></td><td>Diese Funktion konvertiert eine Zahl in Prozent</td>
+    </tr>
+    <tr>
+        <td><a href="objects.md#to-precision">Präzision</a></td><td>Diese Funktion konvertiert eine Zahl in die erforderliche Genauigkeit</td>
+    </tr>
+</table>
+
+### Objektfunktionen {#object-functions}
 
 <table>
     <tr>
@@ -182,7 +214,25 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#extractEmailDomain">E-Mail-Domain extrahieren</a></td><td>Mit dieser Funktion wird die Domain einer E-Mail-Adresse extrahiert</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-host">Abrufen des URL-Hosts</a></td><td>Diese Funktion wird zum Abrufen des URL-Hosts verwendet.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-path">URL-Pfad abrufen</a></td><td>Mit dieser Funktion wird der URL-Pfad abgerufen</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#get-url-protocol">Abrufen des URL-Protokolls</a></td><td>Diese Funktion wird zum Abrufen des URL-Protokolls verwendet.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#index-of">Index von</a></td><td>Diese Funktion gibt die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt</td>
+    </tr>
+    <tr>
         <td><a href="string.md#isEmpty">Ist leer</a></td><td>Mit dieser Funktion wird geprüft, ob eine Zeichenfolge oder ein Ausdruck leer ist</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#is-not-empty">Ist nicht leer</a></td><td>Diese Funktion gibt "true"zurück, wenn die Zeichenfolge im Parameter nicht leer ist.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#last-index-of">Letzter Index von</a></td><td>Diese Funktion gibt die Position (im ersten Argument) des letzten Vorkommens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">Links kürzen</a></td><td>Diese Funktion entfernt Leerzeichen vom Anfang einer Zeichenfolge</td>
@@ -197,13 +247,19 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#lower">Kleinbuchstaben</a></td><td>Diese Funktion wandelt eine Zeichenfolge in Kleinbuchstaben um</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Stimmt überein mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt</td>
-    </tr>
-    <tr>
         <td><a href="string.md#mask">Maskieren</a></td><td>Diese Funktion wird verwendet, um einen Teil einer Zeichenfolge durch "X"-Zeichen zu ersetzen.</td>
     </tr>
     <tr>
+        <td><a href="string.md#matches">Stimmt überein mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#md5">MD5</a></td><td>Diese Funktion gibt den md5-Hash der Eingabezeichenfolge zurück.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#notEqualTo">Ungleich</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge nicht gleich der angegebenen Zeichenfolge ist</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#not-equal-with-ignore-case">Nicht gleich Groß-/Kleinschreibung ignorieren</a></td><td>Diese Funktion vergleicht zwei Zeichenfolgen ohne Groß-/Kleinschreibung.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Gruppe regelmäßiger Ausdrücke</a></td><td>Mit dieser Funktion werden spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck extrahiert</td>
@@ -224,13 +280,40 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#startsWith">Beginnt mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt</td>
     </tr>
     <tr>
+        <td><a href="string.md#string-to-date">Zeichenfolge bis Datum</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in das Datum zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-integer">Zeichenfolge in Ganzzahl</a></td><td>Diese Funktion konvertiert einen Zeichenfolgenwert in einen ganzzahligen Wert.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#string-to-number">Zeichenfolge zu Zahl</a></td><td>Mit dieser Funktion wird eine Zeichenfolge in eine Zahl konvertiert. Es wird dieselbe Zeichenfolge wie für eine ungültige Eingabe zurückgegeben.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#sub-string">Unterzeichenfolge</a></td><td>Diese Funktion gibt die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurück.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#titleCase">Titelschreibweise</a></td><td>Diese Funktion wird verwendet, um die ersten Buchstaben jedes Wortes einer Zeichenfolge großzuschreiben</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-bool">Nach Bool</a></td><td>Diese Funktion Konvertiert einen Argumentwert je nach Typ in einen booleschen Wert.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time">To Date Time</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in das Datum zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#to-date-time-only">Nur für Datum/Uhrzeit</a></td><td>Diese Funktion konvertiert einen Argumentwert in einen Nur-Datum-Uhrzeit-Wert. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Kürzen</a></td><td>Diese Funktion entfernt Leerzeichen vom Anfang und vom Ende einer Zeichenfolge</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Großbuchstaben</a></td><td>Diese Funktion wandelt eine Zeichenfolge in Großbuchstaben um</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-decode">URL-Dekodierung</a></td><td>Diese Funktion wird zum Dekodieren einer URL-codierten Zeichenfolge verwendet.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#url-encode">URL-Encore</a></td><td>Mit dieser Funktion wird URL-Codierung für eine Zeichenfolge verwendet.</td>
     </tr>
 </table>
 
@@ -241,6 +324,9 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
 
 
 <table>
+    <tr>
+        <td><a href="helpers.md#default">Standardwert für Fallback</a></td><td>Diese Funktion ermöglicht das Rendern einer Variablen mit der Standardeinstellung</td>
+    </tr>
     <tr>
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
     </tr>
@@ -292,12 +378,6 @@ Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene 
         <td><a href="operators.md#and">Und</a></td><td>Dieser Operator erstellt eine logische Konjunktion</td>
     </tr>
     <tr>
-        <td><a href="operators.md#not">Wenn</a></td><td>Dieser Operator löst einen Ausdruck in Abhängigkeit davon auf, ob eine angegebene Bedingung wahr ist</td>
-    </tr>
-    <tr>
-        <td><a href="operators.md#not">Nicht</a></td><td>Dieser Operator erstellt eine logische Negation</td>
-    </tr>
-    <tr>
         <td><a href="operators.md#or">Oder</a></td><td>Dieser Operator erstellt eine logische Disjunktion</td>
     </tr>
 </table>
@@ -309,7 +389,7 @@ Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und
 
 <table>
     <tr>
-        <td><a href="operators.md#and">Gleich</a></td><td>Dieser Vorgang prüft, ob Werte gleich sind</td>
+        <td><a href="operators.md#equals">Gleich</a></td><td>Dieser Vorgang prüft, ob Werte gleich sind</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Größer als</a></td><td>Dieser Operator prüft, ob der erste Wert größer als der zweite Wert ist</td>
@@ -318,10 +398,10 @@ Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und
         <td><a href="operators.md#greaterthanorequal">Größer oder gleich</a></td><td>Dieser Operator prüft, ob der erste Wert größer oder gleich dem zweiten Wert ist</td>
     </tr>
     <tr>
-        <td><a href="operators.md#notequal">Ungleich</a></td><td>Dieser Operator prüft, ob ein angegebener Ausdruck ungleich einem angegebenen Wert ist</td>
+        <td><a href="operators.md#lessthanorequal">Kleiner oder gleich</a> </td><td>Dieser Operator prüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist</td>
     </tr>
     <tr>
-        <td><a href="operators.md#lessthanorequal">Kleiner oder gleich</a> </td><td>Dieser Operator prüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist</td>
+        <td><a href="operators.md#notequal">Ungleich</a></td><td>Dieser Operator prüft, ob ein angegebener Ausdruck ungleich einem angegebenen Wert ist</td>
     </tr>
 </table>
 

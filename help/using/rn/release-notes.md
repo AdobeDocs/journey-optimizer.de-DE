@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 81%
+source-wordcount: '445'
+ht-degree: 84%
 
 ---
 
@@ -129,4 +129,4 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Administration**
 
-**Aktualisierung des Lizenzverwendungs-Dashboards** - Das in der Benutzeroberfläche von Adobe Experience Platform verfügbare Dashboard zur Lizenznutzung spiegelt jetzt den genauen Wert für die **Lizenziert** Durchschnittliche Reichweite des Profils. Als Journey Optimizer-Kunde sehen Sie einen Rückgang bei dieser Metrikdarstellung, was bedeutet, dass die Nutzung, für die Sie lizenziert sind, jetzt korrekt gemeldet wird. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **Aktualisierung des Lizenzverwendungs-Dashboards** - Das Dashboard zur Lizenzverwendung im [!DNL Adobe Journey Optimizer] Die Benutzeroberfläche spiegelt jetzt den genauen Wert für die **Lizenziert** Durchschnittliche Reichweite des Profils. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../start/licence-usage.md)

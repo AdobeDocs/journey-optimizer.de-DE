@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 77%
 
 ---
 
@@ -255,9 +255,86 @@ Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adress
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Abrufen des URL-Hosts {#get-url-host}
+
+Die `getUrlHost` -Funktion zum Abrufen des Hostnamens einer URL verwendet.
+
+**Format**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**Beispiel**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+Gibt &quot;www.myurl.com&quot;zurück
+
+## URL-Pfad abrufen {#get-url-path}
+
+Die `getUrlPath` -Funktion wird verwendet, um den Pfad nach dem Domänennamen einer URL abzurufen.
+
+**Format**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**Beispiel**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+Gibt &quot;/contact.html&quot;zurück
+
+## Abrufen des URL-Protokolls {#get-url-protocol}
+
+Die `getUrlProtocol` -Funktion wird zum Abrufen des Protokolls einer URL verwendet.
+
+**Format**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**Beispiel**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+Gibt &quot;http&quot;zurück
+
+## Index von {#index-of}
+
+Die `indexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+
+**Format**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Beschreibung |
+| --------- | ----------- |
+| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
+
+**Beispiel**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+Gibt 6 zurück.
+
 ## Ist leer {#isEmpty}
 
-Mit der Funktion `isEmpty` wird bestimmt, ob eine Zeichenfolge leer ist.
+Die `isEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge leer ist.
 
 **Format**
 
@@ -272,6 +349,47 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## Ist nicht leer {#is-not-empty}
+
+Die `isNotEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
+
+**Format**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**Beispiel**
+
+Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird „false“ zurückgegeben.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## Letzter Index von {#last-index-of}
+
+Die `lastIndexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des letzten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+
+**Format**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Beschreibung |
+| --------- | ----------- |
+| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
+
+**Beispiel**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+Gibt 7 zurück.
 
 ## Links kürzen {#leftTrim}
 
@@ -380,6 +498,24 @@ Die folgende Abfrage ersetzt die Zeichenfolge „123456789“ durch „X“, mit
 
 Die Abfrage gibt `1XXXXXX89` zurück.
 
+## MD5 {#md5}
+
+Die `md5` -Funktion wird verwendet, um den md5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
+
+**Format**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**Beispiel**
+
+```sql
+{%= md5("hello world") %}
+```
+
+Gibt &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;zurück
+
 ## Ungleich{#notEqualTo}
 
 Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht gleich der angegebenen Zeichenfolge ist.
@@ -401,6 +537,29 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## Nicht gleich Groß-/Kleinschreibung ignorieren {#not-equal-with-ignore-case}
+
+Die `notEqualWithIgnoreCase` -Funktion verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
+
+**Format**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| Argument | Beschreibung |
+| --------- | ----------- |
+| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_2}` | Die mit der ersten Zeichenfolge zu vergleichende Zeichenfolge. |
+
+**Beispiel**
+
+Die folgende Abfrage ermittelt, ob der Name der Person nicht &quot;john&quot;lautet, ohne Groß-/Kleinschreibung.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## Gruppe regelmäßiger Ausdrücke{#regexGroup}
@@ -434,17 +593,22 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 **Format**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| Argument | Beschreibung |
+| --------- | ----------- |
+| `{STRING_1}` | Die Zeichenfolge, in der die Teilzeichenfolge ersetzt werden muss. |
+| `{STRING_2}` | Die zu ersetzende Unterzeichenfolge. |
+| `{STRING_3}` | Die Ersatz-Teilzeichenfolge. |
 
 **Beispiel**
 
-Die folgende Funktion
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+Gibt &quot;Hallo Mark, hier ist Ihr monatlicher Newsletter!&quot; zurück.
 
 ## Alle ersetzen{#replaceAll}
 
@@ -456,11 +620,9 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## Rechts kürzen {#rightTrim}
 
 Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entfernt.
-
 
 **Format**
 
@@ -477,17 +639,6 @@ Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Z
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## Beginnt mit{#startsWith}
 
@@ -513,6 +664,35 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Zeichenfolge in Ganzzahl {#string-to-integer}
+
+Die `string_to_integer` -Funktion verwendet wird, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
+
+**Format**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## Zeichenfolge zu Zahl {#string-to-number}
+
+Die `stringToNumber` -Funktion verwendet wird, um eine Zeichenfolge in eine Zahl zu konvertieren. Es wird dieselbe Zeichenfolge wie für eine ungültige Eingabe zurückgegeben.
+
+**Format**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## Unterzeichenfolge {#sub-string}
+
+Die `Count string` -Funktion wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
+**Format**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## Titelschreibweise{#titleCase}
 
 Die Funktion **titleCase** wird verwendet, um die ersten Buchstaben jedes Wortes einer Zeichenfolge großzuschreiben.
@@ -529,6 +709,36 @@ Wenn die Person in der Washington High Street lebt, gibt diese Funktion „Washi
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## Nach Bool {#to-bool}
+
+Die `toBool` -Funktion wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
+
+**Format**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## To Date Time {#to-date-time}
+
+Die `toDateTime` -Funktion verwendet wird, um die Zeichenfolge in das Datum zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
+
+**Format**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## Nur für Datum/Uhrzeit {#to-date-time-only}
+
+Die `toDateTimeOnly` -Funktion wird verwendet, um einen Argumentwert in einen Datum/Uhrzeit-Wert zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
+
+**Format**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## Kürzen{#trim}
@@ -557,4 +767,24 @@ Mit dieser Funktion wird der Nachname des Profils in Großbuchstaben umgewandelt
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## url decode {#url-decode}
+
+Die `urlDecode` -Funktion wird zum Dekodieren einer URL-codierten Zeichenfolge verwendet.
+
+**Format**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## URL-Kodierung {#url-encode}
+
+Die `Count only null` -Funktion verwendet wird, um eine Zeichenfolge mit einer URL zu kodieren.
+
+**Format**
+
+```sql
+{%= urlEncode(string) %}: string
 ```

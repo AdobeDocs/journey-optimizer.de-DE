@@ -6,16 +6,51 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 87%
 
 ---
 
 # Array- und Listenfunktionen {#arrays}
 
 Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
+
+## Nur null zählen {#count-only-null}
+
+Die `countOnlyNull` -Funktion verwendet wird, um die Anzahl der Nullwerte in einer Liste zu zählen.
+
+**Format**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Beispiel**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Gibt 3 zurück.
+
+## Zählung mit Null {#count-with-null}
+
+Die `countWithNull` -Funktion wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
+
+**Format**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Beispiel**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Gibt 6 zurück.
 
 ## Eindeutig{#distinct}
 
@@ -34,15 +69,32 @@ Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr al
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Zählung unterschiedlicher Werte mit Null {#distinct-count-with-null}
 
-## Erstes Element{#head}
-
-Mit der `head`-Funktion wird das erste Element im Array oder in der Liste zurückgegeben.
+Die `distinctCountWithNull` -Funktion wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
 
 **Format**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Beispiel**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Gibt 3 zurück.
+
+## Erstes Element{#head}
+
+Die `head` -Funktion wird verwendet, um das erste Element in einem Array oder einer Liste zurückzugeben.
+
+**Format**
+
+```sql
+{%= head(array) %}
 ```
 
 **Beispiel**
@@ -174,7 +226,6 @@ Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem nied
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Nicht enthalten{#notin}
 

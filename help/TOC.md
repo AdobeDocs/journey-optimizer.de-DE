@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1064'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
          + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
-         + [Datumsfunktionen](using/personalization/functions/dates.md)
+         + [Funktionen zur Datumszeitfunktion](using/personalization/functions/dates.md)
          + [Boolesche Funktionen und Vergleichsfunktionen](using/personalization/functions/operators.md)
          + [Helper](using/personalization/functions/helpers.md)
          + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 98%
       + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
    + [Identitäten](using/segment/get-started-identity.md)
+   + [Dashboard zur Lizenznutzung](using/start/licence-usage.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
