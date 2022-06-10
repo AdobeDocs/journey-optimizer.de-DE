@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können auch [**manuell** eine Adresse oder eine Domain](#add-addresses-and-
 
 >[!NOTE]
 >
->Es dauert zwischen 0 und 60 Minuten für [!DNL Journey Optimizer] um die unterdrückten Adressen in ausgehenden E-Mails zu berücksichtigen.
+>Es dauert zwischen 0 und 60 Minuten, bis [!DNL Journey Optimizer] die unterdrückten Adressen in ausgehenden E-Mails berücksichtigt.
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
 
@@ -111,7 +111,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="E-Mails oder Domänen zur Unterdrückungsliste hinzufügen"
+>title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
 >abstract="Sie können die Unterdrückungsliste von Journey Optimizer manuell füllen, um bestimmte E-Mail-Adressen und/oder Domains vom Versand auszuschließen."
 
 Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, wird diese Adresse basierend auf der definierten Unterdrückungsregel oder der Anzahl der Bounces automatisch auf die Unterdrückungsliste gesetzt.
@@ -147,7 +147,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
    >[!NOTE]
    >
-   >Nur ASCII-Zeichen zwischen 32 und 126 sind zulässig. Die vollständige Liste finden Sie unter [diese Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} zum Beispiel.
+   >Nur ASCII-Zeichen zwischen 32 und 126 sind zulässig. Die vollständige Liste finden Sie  zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -171,7 +171,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
    ```
    >[!NOTE]
    >
-   >Für die Spalte Kommentar sind nur ASCII-Zeichen zwischen 32 und 126 zulässig. Die vollständige Liste finden Sie unter [diese Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} zum Beispiel.
+   >Für die Spalte „Kommentar“ sind nur ASCII-Zeichen zwischen 32 und 126 zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}.
 
    Sie können diese Vorlage auch von der Hauptansicht **[!UICONTROL Unterdrückungsliste]** herunterladen.
 
@@ -191,7 +191,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 >[!NOTE]
 >
->Vergewissern Sie sich nach dem Hochladen, dass der Upload erfolgreich war, indem Sie seinen Status in der -Benutzeroberfläche überprüfen. [Weitere Informationen dazu](#recent-uploads)
+>Vergewissern Sie sich nach dem Hochladen, dass der Upload erfolgreich war, indem Sie seinen Status in der Benutzeroberfläche überprüfen. [Weitere Informationen dazu](#recent-uploads)
 
 ### Status der letzten Uploads überprüfen {#recent-uploads}
 

@@ -9,7 +9,7 @@ exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer 
 
 >[!NOTE]
 >
->Weitere Informationen zu den Limits und Einschränkungen von Journey-Versionen finden Sie unter [diese Seite](../start/guardrails.md#journey-versions-limitations)
+>Weitere Informationen zu Limits und Einschränkungen für Journey-Versionen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-limitations).
 
 1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 

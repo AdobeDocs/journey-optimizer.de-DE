@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
-   + [Schutzschilde](using/start/guardrails.md)
+   + [Limits](using/start/guardrails.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
@@ -187,7 +187,7 @@ ht-degree: 98%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limit](using/building-journeys/functions/functionlimit.md)
+            + [Limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -266,16 +266,16 @@ ht-degree: 98%
       + [Erstellen von Platzierungen](using/offers/offer-library/creating-placements.md)
       + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
       + [Erstellen von Tags](using/offers/offer-library/creating-tags.md)
-   + Rankings erstellen {#rankings}
-      + [Erste Schritte mit Ranglisten](using/offers/ranking/get-started-rankings.md)
-      + [Rangfolgenformeln](using/offers/ranking/create-ranking-formulas.md)
+   + Erstellen von Rankings {#rankings}
+      + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
+      + [Ranking-Formeln](using/offers/ranking/create-ranking-formulas.md)
       + KI-Modelle {#ai-models}
          + [Über KI-Modelle](using/offers/ranking/ai-models.md)
-         + [Modell mit automatischer Optimierung](using/offers/ranking/auto-optimization-model.md)
+         + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
          + Erstellen von KI-Modellen {#configure-ai-model}
-            + [Datensatz zum Erfassen von Ereignissen erstellen](using/offers/ranking/create-dataset.md)
+            + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/ranking/create-dataset.md)
             + [Erstellen eines KI-Modells](using/offers/ranking/create-ranking-strategies.md)
-            + [Ereigniserfassung konfigurieren](using/offers/ranking/schema-requirement.md)
+            + [Konfigurieren der Ereigniserfassung](using/offers/ranking/schema-requirement.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
       + Konfigurieren von Angeboten {#configure-offers}
          + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)

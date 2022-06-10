@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Datensatz zum Erfassen von Ereignissen erstellen
+title: Erstellen eines Datensatzes zum Erfassen von Ereignissen
 description: Erfahren Sie, wie Sie einen Datensatz erstellen, um Ereignisse zu erfassen.
 feature: Ranking Formulas
 role: User
@@ -10,11 +10,11 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Datensatz zum Erfassen von Ereignissen erstellen {#create-dataset}
+# Erstellen eines Datensatzes zum Erfassen von Ereignissen {#create-dataset}
 
 Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem Konversionsereignisse erfasst werden. Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 

@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,14 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 1. Klicken Sie auf **[!UICONTROL Platzierung erstellen]**.
 
-   ![](../assets/offers_placement_creation.png)
+   !![](../assets/offers
+_placement_creation.png)
 
 1. Definieren Sie die Eigenschaften der Platzierung:
 
    * **[!UICONTROL Name]**: der Name der Platzierung. Achten Sie darauf, einen aussagekräftigen Namen zu wählen, um die Platzierung leichter abrufen zu können.
    * **[!UICONTROL Kanaltyp]**: Der Kanal, für den die Platzierung verwendet wird.
-   * **[!UICONTROL Inhaltstyp]**: Der Inhaltstyp, den die Platzierung anzeigen darf: Text, HTML, Bild-Link oder JSON.
+   * **[!UICONTROL Content-Typ]**: Der Typ des Contents, den die Platzierung anzeigen darf: Text, HTML, Bild-Link oder JSON.
    * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
    ![](../assets/offers_placement_creation_properties.png)

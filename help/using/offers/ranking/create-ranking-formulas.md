@@ -1,5 +1,5 @@
 ---
-title: Rangfolgenformeln
+title: Ranking-Formeln
 description: Erfahren Sie, wie Sie Formeln erstellen, um Angebote zu ordnen
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Rangfolgenformeln {#create-ranking-formulas}
+# Ranking-Formeln {#create-ranking-formulas}
 
 ## Grundlagen zu Rangfolgeformeln {#about-ranking-formulas}
 

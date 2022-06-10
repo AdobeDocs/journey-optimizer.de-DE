@@ -3,13 +3,13 @@ title: Migration zur Journey Inline-Bearbeitung
 description: Erfahren Sie, wie Sie Ihre Nachrichten migrieren
 hide: true
 hidefromtoc: true
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
+source-git-commit: 389819e9b965bedc13c72fdb65ef86603cd4e2ec
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # Migration zur Journey Inline-Bearbeitung{#inline-authoring}
 

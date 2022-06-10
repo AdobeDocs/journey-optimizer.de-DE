@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Ereigniserfassung konfigurieren
+title: Konfigurieren der Ereigniserfassung
 description: Erfahren Sie, wie Sie Ihr Angebotsschema zur Erfassung von Ereignissen konfigurieren
 feature: Ranking Formulas
 role: User
@@ -10,15 +10,15 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Ereigniserfassung konfigurieren {#schema-requirements}
+# Konfigurieren der Ereigniserfassung {#schema-requirements}
 
 An dieser Stelle müssen Sie:
 
-* das KI-Modell erstellt hat,
+* das KI-Modell erstellt haben,
 * definiert haben, welcher Ereignistyp erfasst werden soll – angezeigtes Angebot (Impression) und/oder angeklicktes Angebot (Konversion),
 * und definiert haben, in welchem Datensatz Sie die Ereignisdaten erfassen möchten.
 

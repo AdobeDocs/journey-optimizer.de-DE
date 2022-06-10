@@ -1,6 +1,6 @@
 ---
 title: Limits und Einschränkungen von Journey Optimizer
-description: Weitere Informationen zu den Limits von Journey Optimizer
+description: Weitere Informationen zu Limits bei Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,13 +9,13 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Schutzmechanismen und Begrenzungen {#limitations}
+# Limits und Einschränkungen {#limitations}
 
-Berechtigungen, Produktbeschränkungen und die Leistung betreffende Sicherheitsmechanismen sind auf der Seite[ Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
+Berechtigungen, Produkteinschränkungen und die Leistung betreffende Limits sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 

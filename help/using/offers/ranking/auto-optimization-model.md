@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Modelle zur automatischen Optimierung
-description: Erfahren Sie mehr über Modelle zur automatischen Optimierung
+title: Modelle für die automatische Optimierung
+description: Erfahren Sie mehr über Modelle für die automatische Optimierung
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -10,20 +10,20 @@ exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Modelle zur automatischen Optimierung {#auto-optimization-model}
+# Modelle für die automatische Optimierung {#auto-optimization-model}
 
 Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote.
 
 ## Einschränkungen {#limitations}
 
-Die Verwendung von Modellen zur automatischen Optimierung des Offer decisioning unterliegt den unten stehenden Einschränkungen:
+Die Verwendung von Modellen für die automatische Optimierung beim Offer Decisioning unterliegt den unten stehenden Einschränkungen:
 
-* Modelle zur automatischen Optimierung funktionieren nicht mit der Batch Decisioning-API.
-* Das zum Erstellen des Modells benötigte Feedback muss als Erlebnisereignis gesendet werden. Sie sollte nicht automatisch in [!DNL Journey Optimizer] Kanäle.
+* Modelle für die automatische Optimierung funktionieren nicht mit der Batch Decisioning-API.
+* Das zum Erstellen des Modells benötigte Feedback muss als Erlebnisereignis gesendet werden. Es sollte bei [!DNL Journey Optimizer]-Kanälen nicht automatisch gesendet werden.
 
 ## Terminologie {#terminology}
 

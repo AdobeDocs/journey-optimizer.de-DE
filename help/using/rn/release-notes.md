@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 84%
+ht-degree: 90%
 
 ---
 
@@ -61,13 +61,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Entscheidungsverwaltung - Automatisch optimiertes AI-Ranking-Modell</strong><br/></th>
+<th><strong>Entscheidungs-Management – Modell zur automatischen Optimierung des KI-Rankings</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt trainierte Modellsysteme im Entscheidungsmanagement verwenden. Mit dieser neuen Funktion werden Angebote nach Rang geordnet, die für ein bestimmtes Profil angezeigt werden.</p>
+<p>Sie können jetzt trainierte Modellsysteme im Entscheidungs-Management verwenden. Mit dieser neuen Funktion wird eine Rangliste der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden.</p>
 <img src="assets/optimization.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">entsprechenden Dokumentation</a>.</p>
 </td>
