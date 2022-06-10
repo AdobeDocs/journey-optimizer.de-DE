@@ -5,16 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Dashboard zur Lizenznutzung {#licence-usage}
 
-Die [!DNL Adobe Journey Optimizer] [Benutzeroberfläche](user-interface.md) stellt ein Dashboard bereit, das wichtige Informationen zur Lizenznutzung Ihres Unternehmens anzeigt, wie sie bei einer täglichen Momentaufnahme erfasst werden.
+Die [!DNL Adobe Journey Optimizer] [Benutzeroberfläche](../start/user-interface.md) stellt ein Dashboard bereit, das wichtige Informationen zur Lizenznutzung Ihres Unternehmens anzeigt, wie sie bei einer täglichen Momentaufnahme erfasst werden.
 
 Um auf dieses Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Lizenzverwendung]**. Dadurch wird die **[!UICONTROL Übersicht]** Registerkarte mit dem Dashboard angezeigt.
 
