@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1064'
 ht-degree: 99%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
    + [Identitäten](using/segment/get-started-identity.md)
-   + [Lizenzverwendung](using/segment/licence-usage.md)
+   + [Lizenznutzung](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Unterdrückungsliste](using/reports/suppression-list.md)
-      + [Zulassungsliste](using/reports/allow-list.md)
+      + [Über die Unterdrückungsliste](using/reports/suppression-list.md)
    + [Audit-Aktionen für Journey Optimizer-Ressourcen](using/reports/audit-logs.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [Zugreifen auf und Bearbeiten von PTR-Datensätzen](using/configuration/ptr-records.md)
             + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
          + Überwachen von E-Mail-Adressen {#monitor-reputation}
-            + [Verwalten der Unterdrückungsliste](using/configuration/manage-suppression-list.md)
+            + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
+            + [Zulassungsliste](using/configuration/allow-list.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
       + Einrichten von Nachrichtenvoreinstellungen{#set-up-message-presets}
          + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)

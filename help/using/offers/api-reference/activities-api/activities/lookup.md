@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 80%
 
 ---
 
 # Nachschlagen von Entscheidungen {#look-up-decision}
 
-Sie können einzelne Entscheidungen (früher als Angebotsaktivitäten bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Entscheidungs-`@id` oder den Namen der Entscheidung im Anfragepfad enthält.
+Sie können bestimmte Entscheidungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder Entscheidungen enthält `@id` oder den Namen der Entscheidung im Anfragepfad.
 
 **API-Format**
 

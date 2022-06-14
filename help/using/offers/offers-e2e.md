@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 100%
+source-wordcount: '1086'
+ht-degree: 99%
 
 ---
 
@@ -225,56 +225,6 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung we
 
 ## Fügen Sie die Entscheidung in eine E-Mail ein. {#insert-decision-in-email}
 
-Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Gehen Sie dazu wie folgt vor:
-
-1. Erstellen Sie Ihre E-Mail und öffnen Sie dann [Email Designer](../../using/design/design-emails.md), um den Inhalt zu konfigurieren.
-
-1. Fügen Sie von der linken Palette eine Strukturkomponente hinzu.
-
-1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu. In [diesem Abschnitt](../../using/design/content-components.md) erfahren Sie, wie Sie Inhaltskomponenten verwenden.
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. Wählen Sie sie aus. Klicken Sie in der rechten Palette auf **[!UICONTROL Angebotsentscheidung auswählen]**, um eine Entscheidung hinzuzufügen.
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Platzierungen]** die Platzierung aus, die den Angeboten entspricht, die Sie anzeigen möchten.
-
-   In diesem Fall ist von den Platzierungen, die Sie im Rahmen dieses Beispiels zuvor erstellt haben, nur die Platzierung **E-Mail – Bild** verfügbar, da Sie die Entscheidung in einer E-Mail verwenden möchten. Weitere Informationen zum [Erstellen von Platzierungen](../../using/offers/offer-library/creating-placements.md)
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Entscheidungen, die mit der Platzierung **E-Mail – Bild** übereinstimmen, werden angezeigt. Wählen Sie die in der Inhaltskomponente zu verwendende Entscheidung aus und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >Beachten Sie, dass nur Entscheidungen, die mit der ausgewählten Platzierung kompatibel sind, in der Liste angezeigt werden.
-
-Sie können nun sehen, wie alle personalisierten Angebote und das Fallback-Angebot in Email Designer visuell dargestellt werden.
+Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Gehen Sie dazu wie im Abschnitt [diese Seite](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Verwenden Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile der Inhaltskomponenten (Rechts- und Linkspfeile), um Daten zu durchsuchen. Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, auch mit einem Kundenprofil anzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey den entsprechenden Profilen angezeigt werden.
-
->[!NOTE]
->
->Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren,, auf das/die direkt oder indirekt in einer [veröffentlichten](../../using/messages/publish-manage-message.md) Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht übernommen, ohne dass sie erneut veröffentlicht werden muss.
-
-**Verwandte Themen:**
-
-* In [diesem Abschnitt](../../using/design/preview.md#preview-your-messages) erfahren Sie, wie Sie die Nachrichtenvorschau überprüfen.
-
-* In [diesem Abschnitt](../../using/messages/publish-manage-message.md) erfahren Sie, wie Sie Nachrichten veröffentlichen können.
-
-* In [diesem Abschnitt](../building-journeys/journey.md) erfahren Sie, wie Nachrichten von einer oder mehreren Journeys ausgelöst werden.
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-

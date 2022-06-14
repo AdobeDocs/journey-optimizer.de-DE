@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '941'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Es wird mithilfe der **Angebotsbibliothek** erstellt. Diese bietet einen zentral
 
 ![](../assets/offer_structure.png)
 
-Sobald Angebote der Angebotsbibliothek hinzugefügt wurden, können Sie Ihre Angebote in **Entscheidungen** (früher Angebotsaktivitäten) integrieren.
+Sobald die Angebotsbibliothek um Angebote erweitert wurde, können Sie diese in **Entscheidungen** integrieren.
 
 Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versandes unterbreitet werden kann.
 

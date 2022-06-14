@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
 
 >[!NOTE]
 >
->Die verfügbaren Funktionen hängen von Ihren Berechtigungen und Ihrer Lizenzvereinbarung ab.
+>Die verfügbaren Funktionen variieren je nach Ihren Berechtigungen und Lizenzvereinbarungen.
 
 Unten finden Sie eine vollständige Liste der Einträge in der linken Leiste sowie die Links zur entsprechenden Dokumentation.
 
