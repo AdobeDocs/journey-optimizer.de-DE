@@ -3,7 +3,7 @@ title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
