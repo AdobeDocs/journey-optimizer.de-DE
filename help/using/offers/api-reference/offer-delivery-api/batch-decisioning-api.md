@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 91%
 
 ---
 
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Service-Ebenen {#service-levels}
 
-Die Gesamtzeit jeder Batch-Entscheidung entspricht der Dauer ab dem Zeitpunkt, an dem der Workload erstellt wird, bis zum Zeitpunkt, an dem das Entscheidungsergebnis im Ausgabedatensatz verfügbar ist. Die Segmentgröße in der Payload der POST-Anfrage wirkt sich am stärksten auf die Gesamtzeit der Batch-Entscheidung aus.  Im Folgenden finden Sie einige Werte zu verschiedenen Segmentgrößen:
+Die End-to-End-Zeit für jede Batch-Entscheidung ist die Dauer von dem Zeitpunkt, zu dem die Arbeitslast erstellt wird, bis zu dem Zeitpunkt, zu dem das Entscheidungsergebnis im Ausgabedatensatz verfügbar ist. Die Segmentgröße in der Payload der POST-Anfrage wirkt sich am stärksten auf die Gesamtzeit der Batch-Entscheidung aus. Wenn für das infrage kommende Angebot eine globale Frequenzbegrenzung aktiviert ist, dauert die Stapelentscheidung länger, bis sie abgeschlossen ist. Nachstehend finden Sie einige Näherungen der End-to-End-Verarbeitungszeit für die jeweiligen Segmentgrößen, sowohl mit als auch ohne Frequenzlimitierung für förderfähige Angebote:
+
+Mit aktivierter Frequenzbegrenzung für geeignete Angebote:
+
+| Segmentgröße | Gesamtverarbeitungszeit |
+|--------------|----------------------------|
+| 10.000 Profile oder weniger | 7 Minuten |
+| 1 Million Profile oder weniger | 30 Minuten |
+| 15 Million Profile oder weniger | 50 Minuten |
+
+Ohne Frequenzlimitierung für förderfähige Angebote:
 
 | Segmentgröße | Gesamtverarbeitungszeit |
 |--------------|----------------------------|
 | 10.000 Profile oder weniger | 6 Minuten |
-| 1 Million Profile oder weniger | 10 Minuten |
-| 15 Million Profile oder weniger | 75 Minuten |
+| 1 Million Profile oder weniger | 8 Minuten |
+| 15 Million Profile oder weniger | 16 Minuten |
 
 ## Einschränkungen {#limitations}
 
