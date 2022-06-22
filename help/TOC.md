@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Limits](using/start/guardrails.md)
++ Kampagnen {#campaigns}
+   + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
+   + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
+   + [Ändern oder Anhalten einer Kampagne](using/campaigns/modify-stop-campaign.md)
+   + Berichte {#reports}
+      + [Campaign-Live-Bericht](using/campaigns/campaign-live-report.md)
+      + [Globaler Kampagnenbericht](using/campaigns/campaign-global-report.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
+      + [Journey-Lebenszyklus](using/building-journeys/journey-end.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Erstellen einer Journey{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Journey kopieren](using/building-journeys/copy-to-sandbox.md)
       + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
    + Aktivitäten {#about-journey-building}
       + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Über die Unterdrückungsliste](using/reports/suppression-list.md)
-   + [Audit-Aktionen für Journey Optimizer-Ressourcen](using/reports/audit-logs.md)
 + Entscheidungs-Management {#offer-decisioniong}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Daten-Management {#data-management}
    + [Schemas](using/start/get-started-schemas.md)
-   + [Datensätze](using/start/get-started-datasets.md)
+   + Datensätze {#datasets}
+      + [Erste Schritte mit Datensätzen](using/start/get-started-datasets.md)
+      + [Beispiele für Abfragen](using/start/datasets-query-examples.md)
    + [Abfragen](using/start/get-started-queries.md)
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [Berechtigungsebenen](using/administration/high-low-permissions.md)
    + [Sandbox-Management](using/administration/sandboxes.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
-
++ Datenschutz {#privacy}
+   + [Datennutzungsrichtlinien](using/privacy/policies.md)
+   + [Datenschutzanfragen](using/privacy/requests.md)
+   + [Audit-Aktionen für Journey Optimizer-Ressourcen](using/privacy/audit-logs.md)

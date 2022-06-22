@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 89%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 100%
 >title="SMS-Erstellung"
 >abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> Die Verwendung des SMS-Kanals ist derzeit nur für ausgewählte Benutzer verfügbar. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+>Die Vorschriften schreiben vor, dass SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten können. Adobe Journey Optimizer verarbeitet automatisch die folgenden Schlüsselwörter: Starten, Beenden und Aufheben.
 
 Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
 
@@ -56,5 +53,6 @@ Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, 
 **Verwandte Themen**
 
 * [Konfigurieren des SMS-Kanals](../configuration/sms-configuration.md)
+* [SMS-Bericht](../reports/journey-global-report.md#sms-global)
 * [Erstellen einer neuen Nachricht](get-started-content.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 99%
 
 ---
 
@@ -134,7 +134,7 @@ Der Burst-Modus ist in Journey Optimizer ein kostenpflichtiges Add-on, das den s
 Für Burst-Messaging gelten folgende Anforderungen:
 
 * Die Journey muss mit der Aktivität **Segment lesen** beginnen. Ereignisse sind nicht erlaubt.
-* Der nächste Schritt muss eine Push-Benachrichtigung sein. Es sind kein anderer Kanal, keine andere Aktivität und kein anderer Schritt zulässig (mit Ausnahme der optionalen Aktivität **Ende**).
+* Der nächste Schritt muss eine Push-Benachrichtigung sein. Es sind keine anderen Kanäle, Aktivitäten oder Schritte zulässig.
 * In der Push-Benachrichtigung ist keine Personalisierung zulässig.
 * Die Nachricht muss klein sein (&lt; 2 KB).
 
@@ -155,73 +155,3 @@ Testen und veröffentlichen Sie dann Ihre Journey wie üblich. Beachten Sie, das
 In diesem Video erfahren Sie, welche Anwendungsfälle für Burst-Messaging in Frage kommen und wie Sie eine Journey für Burst-Nachrichten konfigurieren:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## Beenden, Stoppen oder Schließen einer Journey{#end-journey}
-
-Eine Journey kann für eine Person auf zwei Weisen enden:
-
-* Die Person kommt bei der letzten Aktivität eines Pfades an. Diese letzte Aktivität kann eine **Ende**-Aktivität oder eine andere Aktivität sein. Das Verwenden einer **Ende**-Aktivität ist nicht obligatorisch. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/end-activity.md).
-* Die Person kommt bei einer **Bedingungs**-Aktivität (oder einer **Warte**-Aktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
-
-Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#change-properties)
-
-Eine Journey kann aus den folgenden Gründen geschlossen werden:
-
-* Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
-* Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
-* Nach dem letzten Vorkommen einer wiederkehrenden segmentbasierten Journey.
-
-Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
-
-Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung.
-
-So kann eine Journey manuell geschlossen oder gestoppt werden:
-
-Mit den Optionen **[!UICONTROL Stoppen]** und **[!UICONTROL Für neue Eintritte schließen]** können Sie **Live**-Journeys beenden. Wenn Sie eine Journey schließen, wird **der Eintritt neuer Kunden in die Journey blockiert** und die bereits in der Journey befindlichen Kunden können diese bis zum Ende durchlaufen. Dies ist die empfohlene Art, eine Journey zu beenden, da sie für die Kunden das beste Erlebnis bietet. Wenn Sie hingegen eine Journey stoppen, wird die Reise der bereits in der Journey befindlichen Personen abgebrochen. Die Journey wird praktisch deaktiviert.
-
->[!NOTE]
->
->Beachten Sie, dass Sie eine geschlossene oder gestoppte Journey nicht fortsetzen können.
-
-### Schließen einer Journey
-
-Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Anwender können jedoch nicht in die Journey eintreten.
-
-Wenn eine Journey geschlossen ist, weist sie den Status **[!UICONTROL Geschlossen]** auf. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
-
-Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
-
-Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
-
-![](assets/journey-finish-quick-action.png)
-
-Alternativ können Sie auch folgendermaßen vorgehen:
-
-1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
-1. Klicken Sie oben rechts auf den Abwärtspfeil.
-
-   ![](assets/finish_drop_down_list.png)
-
-1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]** und bestätigen Sie diese Auswahl im Dialogfeld.
-
-### Stoppen einer Journey
-
-Sie können eine Journey stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss.
-
-Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
-
-Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
-
-Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
-
-![](assets/journey-finish-quick-action.png)
-
-Alternativ können Sie auch folgendermaßen vorgehen:
-
-1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
-1. Klicken Sie oben rechts auf den Abwärtspfeil.
-
-![](assets/finish_drop_down_list.png)
-
-1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,6 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
 1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
 1. Fügen Sie nach dem Ereignis eine Aktivität vom Typ **Nachricht** per Drag-and-Drop ein und wählen Sie die E-Mail-Nachricht „Vielen Dank“.
-
-1. Fügen Sie eine Aktivität vom Typ **Ende** hinzu.
 
 ## Testen und Veröffentlichen der Journey
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer a
 Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
 
 ![](assets/journeyversions1.png)
+
+>[!NOTE]
+>
+>In den meisten Fällen kann ein Profil nicht mehrmals im selben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies aber erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
 
 Wenn Sie eine Live-Journey ändern müssen, müssen Sie eine neue Version Ihrer Journey erstellen.
 

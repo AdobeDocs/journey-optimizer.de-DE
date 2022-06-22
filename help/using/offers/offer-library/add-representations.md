@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 80%
 
 ---
 
@@ -72,7 +72,7 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
 >[!NOTE]
 >
-> Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
+> Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
 
 1. Wählen Sie die Option **[!UICONTROL Assets-Bibliothek]** aus.
 
@@ -85,6 +85,16 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 1. Klicken Sie auf **[!UICONTROL Auswählen]**.
 
    ![](../assets/offer-select-asset.png)
+
+### HTML- oder JSON-Dateien hinzufügen {#html-json}
+
+Wenn die ausgewählte Platzierung vom Typ HTML ist, können Sie auch HTML- oder JSON-Inhalte hinzufügen, die aus dem [Adobe Experience Cloud Asset-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+
+Sie haben beispielsweise eine HTML-E-Mail-Vorlage in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} und Sie möchten diese Datei für Ihren Angebotsinhalt verwenden. Anstatt eine neue Datei zu erstellen, können Sie die Vorlage einfach in die **Asset-Bibliothek** , um sie in den Darstellungen Ihres Angebots wiederverwenden zu können.
+
+Um Ihren Inhalt in einer Darstellung wiederzuverwenden, navigieren Sie zum **Asset-Bibliothek** wie in [diesem Abschnitt](#images) und wählen Sie die gewünschte HTML- oder JSON-Datei aus.
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### URLs hinzufügen {#urls}
 
@@ -115,3 +125,4 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
    >[!NOTE]
    >
    >Nur die Quellen **[!UICONTROL Profilattribute]**, **[!UICONTROL Segmentzugehörigkeiten]** und **[!UICONTROL Helper-Funktionen]** sind für das Entscheidungs-Management verfügbar.
+

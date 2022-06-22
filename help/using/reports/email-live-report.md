@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
@@ -25,19 +25,19 @@ Der **[!UICONTROL E-Mail-Live-Bericht]** ist in verschiedene Widgets unterteilt,
 
 ![](assets/live_report_5.png)
 
-Die Widgets **[!UICONTROL E-Mail-Performance]** und **[!UICONTROL E-Mail-Zusammenfassung]** geben mit einem Diagramm und KPIs die wichtigsten Informationen in Bezug auf Ihre Nachricht:
+**[!UICONTROL E-Mail-Leistung]** und **[!UICONTROL Email summary]** Widgets beschreiben die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm und KPIs:
 
 * **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten.
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einem Versand.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
@@ -49,9 +49,9 @@ Die Widgets **[!UICONTROL E-Mail-Performance]** und **[!UICONTROL E-Mail-Zusamme
 
 Das Widget **[!UICONTROL Versandstatistik]** stellt den Erfolg Ihres Versands dar:
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 

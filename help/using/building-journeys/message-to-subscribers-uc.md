@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,4 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. Klicken Sie im Dialogfeld **[!UICONTROL Ausdruck hinzufügen]** auf **[!UICONTROL Ok]**.
-
    ![](assets/message-to-subscribers-uc-3.png)
-
-1. Beenden Sie die Journey mit einer **[!UICONTROL Ende]**-Aktivität.

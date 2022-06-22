@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 95%
+source-wordcount: '1226'
+ht-degree: 86%
 
 ---
 
@@ -163,10 +163,15 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="URL-Tracking-Parameter"
->abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen Kampagnen-URLs anzuhängen."
+>title="Definieren von URL-Tracking-Parametern"
+>abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die URLs anzuhängen, die in Ihrem E-Mail-Inhalt vorhanden sind. Diese Funktion ist optional."
 
-Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Vorschau von URL-Tracking-Parametern"
+>abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
+
+Sie können **[!UICONTROL URL-Tracking-Parameter]** , um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
 
 Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
@@ -174,8 +179,9 @@ Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angeh�
 
 Beim Erstellen einer Nachrichtenvoreinstellung werden drei URL-Tracking-Parameter automatisch ausgefüllt. Sie können diese bearbeiten und mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
-Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben oder aus einer Liste mit vordefinierten Werten auswählen, indem Sie zu den folgenden Objekten navigieren:
+Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** -Felder.
 
+Sie können auch aus einer Liste vordefinierter Werte wählen, indem Sie zu den folgenden Objekten navigieren:
 * Journey-Attribute: **Quellen-ID**, **Quellenname**, **Quellenversions-ID**
 * Aktionsattribute: **Aktions-ID**, **Aktionsname**
 * Offer-Decisioning-Attribute: **Angebots-ID**, **Angebotsname**
@@ -186,6 +192,10 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 >
 >Wählen Sie keinen Ordner aus: Gehen Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als Tracking-Parameter-Wert verwendet werden soll.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google Analytics kompatibel sind.
 
 * Mit Adobe Analytics kompatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google 
 >[!NOTE]
 >
 >Sie können die Eingabe von Textwerten und die Auswahl vordefinierter Werte kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
+
+Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. Jedes Mal, wenn Sie einen Parameter hinzufügen, bearbeiten oder entfernen, wird die Vorschau automatisch aktualisiert.
+
+![](assets/preset-url-tracking-preview.png)

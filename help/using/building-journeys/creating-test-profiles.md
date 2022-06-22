@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1375'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Ihre Journey besteht aus den Aktivitäten **[!UICONTROL Segment lesen]** und **[
 1. Fügen Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
 1. Wählen Sie das Schema, das Feld **testProfiles** und den Datensatz aus und legen Sie den Wert auf **true** fest. Klicken Sie dazu im Feld **[!UICONTROL WERT]** auf das **Stift**-Symbol rechts, wählen Sie **[!UICONTROL Erweiterter Modus]** aus und geben Sie **true** ein.
    ![](assets/test-profiles-26.png)
-1. Fügen Sie eine Aktivität des Typs **Ende** hinzu und klicken Sie auf **[!UICONTROL Veröffentlichen]**.
+1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 1. Überprüfen Sie im Abschnitt **[!UICONTROL Segmente]**, ob die Profile korrekt aktualisiert wurden.
    ![](assets/test-profiles-28.png)
 

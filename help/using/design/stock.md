@@ -5,23 +5,17 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 84%
 
 ---
 
 # Verwalten von [!DNL Adobe Stock]-Bildern {#stock}
 
 ## Erste Schritte mit [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> Einigen ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung der [!DNL Adobe Stock]-Integration gewährt. Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 [!DNL Adobe Stock] bietet Zugriff auf Millionen von hochwertigen, kuratierten, lizenzfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
 
@@ -31,6 +25,10 @@ Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Sto
 [Weitere Informationen zum Entwerfen von E-Mails](design-emails.md).
 
 ## Einfügen und Importieren von [!DNL Adobe Stock]-Bildern {#add-stock-image}
+
+>[!NOTE]
+>
+> Die **[!UICONTROL Adobe Stock-Fotos suchen]** -Option steht nur Benutzern mit Zugriff auf ein AEM Assets Essentials-Produktprofil zur Verfügung. Weitere Informationen hierzu finden Sie unter [Wichtige Dokumentation zu Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 Nachdem Sie Ihre E-Mail bearbeitet und personalisiert haben, können Sie Bilder aus [!DNL Adobe Stock] zu Ihrer Vorlage hinzufügen:
 
@@ -55,7 +53,8 @@ Nachdem Sie Ihre E-Mail bearbeitet und personalisiert haben, können Sie Bilder 
 
 1. Auf der [!DNL Adobe Stock]-Website müssen Sie Ihr Asset erwerben, damit Sie das Bild herunterladen und das Wasserzeichen entfernen können.
 
-   Dieser Kauf hängt von Ihrem Adobe Stock-Plan oder -Abonnement ab. Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://stock.adobe.com/de/plans).
+   Dieser Kauf hängt von Ihrem Adobe Stock-Plan oder -Abonnement ab. Beachten Sie, dass Sie bei mehreren Adobe Stock-Konten zur zuletzt verwendeten Stock-ID weitergeleitet werden. Stellen Sie in diesem Fall sicher, dass Sie sich beim richtigen Konto angemeldet haben, bevor Sie Ihr Asset lizenzieren.
+Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://stock.adobe.com/de/plans).
 
    >[!WARNING]
    > Wird eine E-Mail mit einem nicht lizenzierten Bild versandt, bleibt das Bild in seiner nicht lizenzierten Form mit dem Wasserzeichen erhalten.

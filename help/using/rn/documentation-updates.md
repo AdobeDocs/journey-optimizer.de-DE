@@ -2,16 +2,30 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+
+## Juni 2022 {#june-2022}
+
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. Juni wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Der Dokumentation wurde ein neuer Abschnitt zu Datennutzungsrichtlinien hinzugefügt. [Weitere Informationen](../privacy/policies.md)
+* Der Dokumentation wurde ein neuer Abschnitt zu Datenschutzanfragen hinzugefügt. [Weitere Informationen](../privacy/requests.md)
+* Der Dokumentation wurde ein neuer Abschnitt über Auditprotokolle zu Ressourcen hinzugefügt. [Weitere Informationen](../privacy/audit-logs.md)
+* Der Dokumentation wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie HTML- oder JSON-Inhalte aus der Adobe Experience Cloud Asset-Bibliothek zu einer Angebotsdarstellung hinzugefügt werden - [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
+* Eine neue Seite zum Journey-Lebenszyklus wurde hinzugefügt. [Weitere Informationen](../building-journeys/journey-end.md)
+* Die Seite mit der Warteaktivität wurde aktualisiert. [Weitere Informationen](../building-journeys/wait-activity.md)
+* Die Liste der Adobe Journey Optimizer-Datensätze mit Abfragebeispielen wurde hinzugefügt. [Weitere Informationen](../start/datasets-query-examples.md)
+* Die Seite Zulassungsliste wurde in den Abschnitt Konfiguration verschoben. [Weitere Informationen](../configuration/allow-list.md)
+* Die Seite mit der Unterdrückungsliste wurde aktualisiert - [Weitere Informationen](../configuration/manage-suppression-list.md)
 
 ## Mai 2022 {#may-2022}
 

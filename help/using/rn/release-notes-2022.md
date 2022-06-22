@@ -2,10 +2,10 @@
 title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
+workflow-type: tm+mt
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -14,6 +14,103 @@ ht-degree: 100%
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2022 veröffentlicht wurden.
 
 Die neuesten Versionshinweise sind [auf dieser Seite](release-notes.md) verfügbar.
+
+jeden Quartal in Ihren Posteingang.
+
+## Version Mai 2022 {#may-2022-release}
+
+### Neue Funktionen
+
+<table>
+<thead>
+<tr>
+<th><strong>Häufigkeitsregeln für Nachrichten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt kanalübergreifende Geschäftsregeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
+<img src="assets/do-not-localize/frequency-rn.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/frequency-rules.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Entscheidungs-Management – Modell zur automatischen Optimierung des KI-Rankings</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt trainierte Modellsysteme im Entscheidungs-Management verwenden. Mit dieser neuen Funktion wird eine Rangliste der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden.</p>
+<img src="assets/do-not-localize/optimization.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Permission management in Journey Optimizer has been extended to data access. You can now manage data access for specific teams or groups of users (i.e. internal, external, 3rd parties) ​and manage access to specific types of data (i.e. Sensitive Personal Data/SPD).</p>
+<p>This capability is available for a limited set of customers.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer-Auditprotokolle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Aktionen überwachen, die von Benutzern auf Adobe Journey Optimizer-Ressourcen ausgeführt werden.</p>
+<img src="assets/do-not-localize/audit-rn.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../privacy/audit-logs.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen
+
+**Personalisierung**
+
+* **Neue Hilfsfunktion für ausgeblendete Zeichen**: Mit der Hilfsfunktion `mask` können Sie einen Teil einer Zeichenfolge durch „X“-Zeichen ersetzen. [Weitere Informationen](../personalization/functions/string.md#mask)
+
+**Landingpages**
+
+* **Landingpages ohne Formular**: Sie können jetzt eine Landingpage erstellen und veröffentlichen, die kein Formular enthält und keine Aktion von Besuchern erfordert.
+* **Landingpage-Vorlagen**: Sie können jetzt eine Landingpage als Vorlage speichern und sie bei der Erstellung anderer Landingpages wiederverwenden. [Weitere Informationen](../landing-pages/lp-templates.md)
+* **Zurück zur primären Seite**: Sie können nun von einer beliebigen Unterseite innerhalb derselben Landingpage aus einen Link zur primären Seite hinzufügen.
+* **Unterstützung von benutzerdefiniertem JavaScript**: Sie können jetzt benutzerdefinierten JavaScript-Code zu Ihren Landingpage-Inhalten hinzufügen, um erweiterte Formatierungen durchzuführen oder Ihren Landingpages benutzerspezifische Verhaltensweisen hinzuzufügen.	[Weitere Informationen](../landing-pages/lp-custom-js.md)
+
+**Journeys**
+
+* **Segment lesen**: Einmalige Journeys mit dem Schritt „Segment lesen“ gehen jetzt 30 Tage nach der Ausführung der Journey in den Status „Beendet“ über. Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet. [Weitere Informationen](../building-journeys/read-segment.md)
+* **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/functiondistinct.md) und [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) hinzugefügt.
+
+**Administration**
+
+* **Aktualisierung des Lizenzverwendungs-Dashboards** - Das Dashboard zur Lizenzverwendung im [!DNL Adobe Journey Optimizer] Die Benutzeroberfläche spiegelt jetzt den genauen Wert für die **Lizenziert** Durchschnittliche Reichweite des Profils. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../segment/license-usage.md)
+
 
 ## Version April 2022 {#april-2022-release}
 
@@ -57,7 +154,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um im einheitlichen Profilschema unnötige Felder zu vermeiden, ist das Schema „Journey-Schrittereignisse“ nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie es aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
 * Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
@@ -150,7 +247,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
 * Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
@@ -207,7 +304,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 

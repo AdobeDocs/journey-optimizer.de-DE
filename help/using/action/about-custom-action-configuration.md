@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 100%
+source-wordcount: '991'
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Fügen Sie im Abschnitt **[!UICONTROL Aktionsparameter]** ein Beispiel der JSON-
 
 >[!NOTE]
 >
->Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit dem Zeichen „$“ beginnen.
+>Das Payload-Beispiel darf keine Nullwerte enthalten. Feldnamen in der Payload dürfen das Zeichen „.“ nicht enthalten. Sie können nicht mit dem Zeichen „$“ beginnen.
 
 Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 

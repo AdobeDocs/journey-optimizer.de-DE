@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 87%
 
 ---
 
@@ -39,6 +39,8 @@ Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
+* In Journey gibt es heute eine technische Einschränkung, die verhindert, dass ein Profil mehrmals im selben Journey vorhanden ist. Ein Profil kann weiterhin eine Journey (basierend auf einer Einstellung) eingeben, kann dies jedoch erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat.
+* In den meisten Fällen kann ein Profil nicht mehrmals im selben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies aber erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
 
 ### Nachrichtenaktion {#message-action}
 

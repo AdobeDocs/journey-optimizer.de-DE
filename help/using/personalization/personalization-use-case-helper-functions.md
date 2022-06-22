@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,7 +104,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie der Journey die Nachricht hinzu.
-1. Beenden Sie die Journey mit einer Ende-Aktivität.
 
    Da Sie die Nachricht noch nicht veröffentlicht haben, können Sie die Journey weder testen noch veröffentlichen.
 

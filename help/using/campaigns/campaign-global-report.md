@@ -1,71 +1,60 @@
 ---
-title: Globaler Bericht zur Journey
-description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht zur Journey verwenden
+title: Globaler Kampagnenbericht
+description: Erfahren Sie, wie Sie Daten aus dem globalen Kampagnenbericht verwenden.
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+hide: true
+hidefromtoc: true
+source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1390'
+ht-degree: 82%
 
 ---
 
-# Globaler Bericht zur Journey {#journey-global-report}
+# Globaler Kampagnenbericht {#campaign-global-report}
 
-Über die Schaltfläche **[!UICONTROL Globaler Bericht]** können Sie direkt von Ihrer Journey auf den globalen Bericht zur Journey zugreifen.
+Der globale Kampagnenbericht kann direkt über Ihre Kampagne mit dem **[!UICONTROL Globale Ansicht]** Schaltfläche.
 
-![](assets/global_report_1.png)
+Die Kampagne **[!UICONTROL Gesamtbericht]** wird mit den folgenden Registerkarten angezeigt:
 
-Die Seite **[!UICONTROL Globaler Bericht]** zur Journey wird mit den folgenden Registerkarten angezeigt:
-
-* [Journey](#journey-global)
+* [Campaign](#campaign-global)
 * [E-Mail](#email-global)
 * [Push-Benachrichtigung](#push-global)
 
-Der **[!UICONTROL globale Bericht]** zur Journey ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Journey detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
+Die Kampagne **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
-## Registerkarte „Journey“  {#journey-global}
+## Tab Kampagne {#campaign-global}
 
-In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Registerkarte **[!UICONTROL Journey]** eine übersichtliche Darstellung der wichtigsten Tracking-Daten zu Ihrer Journey.
+### Bereitstellung {#delivery-global}
 
-![](assets/global_report_2.png)
+![](assets/campaign_report_global_1.png)
 
-Mit dem Widget **[!UICONTROL Performance der Journey]** können Sie den Weg Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
+Die **[!UICONTROL Kampagnenstatistiken]** -Widget beschreibt die wichtigsten Informationen zu Ihrer Kampagne:
 
-Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
+* **[!UICONTROL Eingegebene Profile]**: Anzahl der Profile, die die Journey gestartet haben.
 
-* **[!UICONTROL Eingestiegene Profile]**: Gesamtzahl der Personen, die das Eintrittsereignis der Journey erreicht haben.
+* **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der einmaligen Bereitstellungen einer Aktion auf der Journey.
 
-* **[!UICONTROL Ausgestiegene Profile]**: Gesamtzahl der Personen, die die Journey verlassen haben.
+* **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Male, wenn eine Aktion auf der Journey fehlgeschlagen ist, in Bezug auf die Gesamtzahl der einmaligen Bereitstellungen einer Aktion.
 
-* **[!UICONTROL Fehlgeschlagene individuelle Journey]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
+<!--
+### Experimentation tab (#experimentation-global)
 
-![](assets/global_report_12.png)
-
-Mit den Widgets **[!UICONTROL Ereignisse durch ein Ereignis empfangen]**, **[!UICONTROL Ereignisse nach Herkunft]** und **[!UICONTROL Top-Ereignisse]** können Sie über Diagramme und Tabellen sehen, welches Ihrer **[!UICONTROL Ereignisse]** erfolgreich ausgeführt wurde.
-
-![](assets/global_report_13.png)
-
-Die Widgets **[!UICONTROL Performance der Aktion]**, **[!UICONTROL Fehlergründe für Aktionen]** und **[!UICONTROL Top-Aktionen]** stellen die erfolgreichsten Aktionen und Fehler dar, die beim Auslösen Ihrer **[!UICONTROL Aktionen]** aufgetreten sind.
-
-Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktionen]** verfügbaren Daten, z. B.:
-
-* **[!UICONTROL Erfolgreich ausgeführte Aktionen]**: Gesamtanzahl der **[!UICONTROL Aktionen]**, die für eine Journey erfolgreich ausgeführt wurden.
-
-* **[!UICONTROL Fehler in Aktion]**: Gesamtanzahl der Fehler, die bei **[!UICONTROL Aktionen]** aufgetreten sind.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+-->
 
 ## Registerkarte „E-Mail“  {#email-global}
 
-In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
+In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Email]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten E-Mail-Sendungen aufgeführt.
 
-Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [Globaler E-Mail-Bericht](#email-global-report).
-
-![](assets/global_report_14.png)
+Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [Globaler E-Mail-Bericht](../reports/email-global-report.md).
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
+
+* **[!UICONTROL Targeting]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -81,6 +70,10 @@ Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versand
 
 * **[!UICONTROL Fehlerrate]**: Prozentsatz der Fehler, die während des Versands auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.
 
+* **[!UICONTROL Weitere Zustellversuche]**: Anzahl der E-Mails in der Warteschlange für weitere Zustellversuche.
+
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.
+
 Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Daten für die Aktivität der Empfänger für Ihren Versand:
 
 * **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
@@ -93,9 +86,9 @@ Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Date
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die auf Inhalt in einer E-Mail geklickt haben.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzer, die mit der Journey interagiert haben.
+* **[!UICONTROL Eindeutige Klickrate]**: Prozentsatz der Benutzer, die mit dem Versand interagiert haben
 
-* **[!UICONTROL Abo beenden]**: Zahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Kündigungen von Abos]**: Zahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
@@ -105,9 +98,9 @@ Das Diagramm **[!UICONTROL Sendestatistiken]** enthält die Daten, die für gese
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+* **[!UICONTROL Weitere Zustellversuche]**: Anzahl der E-Mails in der Warteschlange für weitere Zustellversuche.
 
-![](assets/global_report_15.png)
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
 Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]** enthalten die verfügbaren Daten zu unzustellbaren Nachrichten wie:
 
@@ -119,19 +112,13 @@ Die Widgets **[!UICONTROL Bounce-Gründe]** und **[!UICONTROL Bounce-Kategorien]
 
 Weitere Informationen zu Bounces finden Sie auf der Seite [ Unterdrückungslisten](../reports/suppression-list.md).
 
-![](assets/global_report_22.png)
-
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
 Das Diagramm und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Nutzerprofile, die von den Zielprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
-![](assets/global_report_16.png)
-
 Das Diagramm **[!UICONTROL E-Mail – Top-URL]** und die Tabelle zeigen, welche URLs Ihres Versands am häufigsten besucht werden.
 
 Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
-
-![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -148,41 +135,15 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in A
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-![](assets/global_report_21.png)
-
->[!NOTE]
->
->Die Angebots-Widgets und -Metriken sind nur verfügbar, wenn eine Entscheidung in eine E-Mail eingefügt wurde. Weiterführende Informationen zum Entscheidungs-Management finden Sie auf dieser [Seite](../offers/get-started/starting-offer-decisioning.md).
-
-Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstatistiken]** im Zeitverlauf messen den Erfolg und die Wirkung Ihres Angebots auf Ihre Audience. Sie enthalten die wichtigsten Informationen zu Ihrer Nachricht in Form von KPIs:
-
-* **[!UICONTROL Gesendete Angebote]**: Gibt an, wie oft das Angebot gesendet wurde.
-
-* **[!UICONTROL Angebots-Impression]**: Gibt an, wie oft das Angebot in einem Versand geöffnet wurde.
-
-* **[!UICONTROL Angebot-Klicks]**: Gibt an, wie oft ein Angebot in einem Versand angeklickt wurde.
-
-Die Tabelle **[!UICONTROL Detaillierte Angebotsstatistik]** enthält die für die Empfängeraktivität bezüglich Ihres Angebots verfügbaren Daten:
-
-* **[!UICONTROL Platzierungsname]**: Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zu Platzierungen finden Sie auf dieser [Seite](../offers/offer-library/creating-placements.md).
-
-* **[!UICONTROL Angebotsname]**: Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zu Platzierungen finden Sie auf dieser [Seite](../offers/offer-library/creating-personalized-offers.md).
-
-* **[!UICONTROL Angebot versendet]**: Gibt an, wie oft das Angebot insgesamt versendet wurde.
-
-* **[!UICONTROL Impressionsrate des Angebots]**: Prozentsatz der geöffneten Angebote im Verhältnis zur Anzahl der gesendeten Angebote.
-
-* **[!UICONTROL Klickrate des Angebots]**: Prozentsatz der Benutzer, die mit dem Angebot interagiert haben.
-
 ## Registerkarte „Push-Benachrichtigung“  {#push-global}
 
-In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
+In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Push]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten Push-Nachrichten aufgeführt.
 
-Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im [globalen Bericht zu Push-Benachritigungen](#push-global-report).
-
-![](assets/global_report_17.png)
+Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im [globalen Bericht zu Push-Benachritigungen](../reports/push-global-report.md).
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
+
+* **[!UICONTROL Targeting]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -198,6 +159,8 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält
 
 * **[!UICONTROL Fehlerrate]**: Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.
 
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.
+
 Die **[!UICONTROL Push-Benachrichtigung – Tracking-Statistik]** enthält die verfügbaren Daten zur Aktivität der Empfänger für Ihren Versand:
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
@@ -209,8 +172,6 @@ Die **[!UICONTROL Push-Benachrichtigung – Tracking-Statistik]** enthält die v
 * **[!UICONTROL Interaktionen]**: Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet hat oder wenn auf eine Schaltfläche geklickt wurde.
 
 * **[!UICONTROL Interaktionsrate]**: Prozentsatz der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet hat oder auf eine Schaltfläche geklickt wurde.
-
-![](assets/global_report_24.png)
 
 Das Diagramm **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthält die Daten, die für gesendete Push-Benachrichtigungen verfügbar sind, z. B.:
 
@@ -239,42 +200,8 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in A
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-![](assets/global_report_18.png)
-
 In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
 Das Diagramm und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Nutzerprofile, die von den Zielprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
-![](assets/global_report_19.png)
-
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach dem Betriebssystem Ihres Empfängers.
-
-SMS **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
-
-## SMS-Tab {#sms-global}
-
-Die **[!UICONTROL SMS - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
-
-* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
-
-* **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
-
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
-
-Die **[!UICONTROL SMS-Zusammenfassung]** Widget erläutert die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm:
-
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
-
-Die **[!UICONTROL Ausschlussgründe]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.

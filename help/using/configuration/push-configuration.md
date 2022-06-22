@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benach
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -334,8 +334,6 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 1. Ziehen Sie aus der Dropdown-Liste **[!UICONTROL Aktionen]** die Aktivität **[!UICONTROL Nachricht]** per-Drag-and-Drop auf Ihre Journey.
 
 1. Wählen Sie eine zuvor erstellte Nachricht aus. Weiterführende Informationen zum Erstellen von Push-Benachrichtigungen finden Sie auf dieser [Seite](../messages/get-started-content.md).
-
-1. Ziehen Sie die Aktivität **[!UICONTROL Ende]** per Drag-and-Drop auf Ihre Journey.
 
 1. Klicken Sie auf den Umschalter **[!UICONTROL Test]**, um mit dem Testen Ihrer Push-Benachrichtigungen zu beginnen, und danach auf **[!UICONTROL Ereignis auslösen]**.
 

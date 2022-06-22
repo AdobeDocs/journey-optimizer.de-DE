@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 98%
 
 ---
 
@@ -70,6 +70,8 @@ In diesem [vollständigen Beispiel](../segment/creating-test-profiles.md) erfahr
 Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target=&quot;_blank&quot;}.
 
 Erfahren Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Datensätze verwenden.
+
+Eine Liste der Anwendungsfälle mit Abfragebeispielen ist verfügbar. [here](../start/datasets-query-examples.md).
 
 **Siehe auch**
 
