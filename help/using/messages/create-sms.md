@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 89%
+source-wordcount: '269'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->Die Vorschriften schreiben vor, dass SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten können. Adobe Journey Optimizer verarbeitet automatisch die folgenden Schlüsselwörter: Starten, Beenden und Aufheben.
+>Der SMS-Kanal ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.
 
 Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
 
@@ -49,6 +49,10 @@ Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu begi
 1. Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Versandausführungen in Ihren Journeys verwendet wird.
 
 Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, wie Sie Journeys erstellen](../building-journeys/journey-gs.md).
+
+## Opt-in und Opt-out{#sms-opt-in-out}
+
+SMS-Empfänger können mit Opt-in- und Opt-out-Keywords antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
 
 **Verwandte Themen**
 

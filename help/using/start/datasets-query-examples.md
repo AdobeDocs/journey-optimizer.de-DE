@@ -5,9 +5,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 5a6e18e6ff236d25bd5f81b42430be2998208321
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 [Datensatz mit Nachrichten-Feedback-Ereignissen](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Datensatz mit Push-Tracking-Erlebnis](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Journey-Schrittereignis](../start/datasets-query-examples.md#journey-step-event)
-[Ereignis-Datensatz für Angebotsentscheidungen](../start/datasets-query-examples.md#ode-decisionevents)
+[offer decisioning-Ereignis-Datensatz](../start/datasets-query-examples.md#ode-decisionevents)
 [Datensatz des Zustimmungsdienstes](../start/datasets-query-examples.md#consent-service-dataset)
 [Datensatz mit BCC-Feedback-Ereignissen](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -116,7 +116,7 @@ E-Mail-Sendungen täglich:
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-Finden Sie heraus, ob eine E-Mail-ID eine E-Mail erhalten hat oder nicht und, falls nicht, was der Fehler, die Bounce-Kategorie, der Code war:
+Finden Sie heraus, ob eine bestimmte E-Mail-ID eine E-Mail erhalten hat oder nicht, und falls nicht, was war der Fehler, die Bounce-Kategorie, der Code:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
@@ -198,7 +198,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Ereignis-Datensatz für Angebotsentscheidungen{#ode-decisionevents}
+## offer decisioning-Ereignis-Datensatz{#ode-decisionevents}
 
 _Name in der Benutzeroberfläche: ODE DecisionEvents (System-Datensatz)_
 

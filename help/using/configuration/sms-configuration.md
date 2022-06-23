@@ -4,16 +4,20 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 86%
+source-wordcount: '417'
+ht-degree: 82%
 
 ---
 
 # Konfigurieren des SMS-Kanals {#sms-configuration}
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Journeys zu erstellen und Nachrichten an eine ausgewählte Audience zu senden.
+
+>[!NOTE]
+>
+>Der SMS-Kanal ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.
 
 ## Erstellen neuer API-Anmeldeinformationen {#create-api}
 
