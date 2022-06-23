@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 75%
+source-wordcount: '391'
+ht-degree: 36%
 
 ---
 
@@ -20,13 +20,18 @@ ht-degree: 75%
 >title="SMS-Erstellung"
 >abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
 
+Einmal [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie die **[!UICONTROL SMS]** um die Einstellungen und den Inhalt der SMS-Nachricht zu definieren.
+
+
 >[!AVAILABILITY]
 >
 >Der SMS-Kanal ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.
 
-Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
-
 ![](assets/sms_1.png)
+
+Wenn Sie zum ersten Mal eine SMS erstellen, stellen Sie sicher, dass der SMS-Kanal konfiguriert wurde. [Weitere Informationen](../configuration/sms-configuration.md).
+
+## SMS-Inhalt definieren{#sms-content}
 
 Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
 
@@ -34,25 +39,37 @@ Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu begi
 
    ![](assets/sms_3.png)
 
-1. Mit dem Ausdruckseditor können Sie Inhalt und Personalisierungsdaten definieren. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren. Sie können jedes Attribut verwenden, um Inhalte zu personalisieren, z. B. den Profilnamen oder die Stadt. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
    >[!NOTE]
    >
-   > SMS-Nachrichten sind auf 160 Zeichen begrenzt.
+   > Eine SMS-Nachricht kann bis zu 160 Zeichen lang sein, einschließlich Leerzeichen und Zeilenumbrüchen.
 
    ![](assets/sms_2.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre personalisierte Nachricht fertig ist.
+1. Klicken **[!UICONTROL Speichern]** wenn Ihre Nachricht fertig ist.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um sich anzeigen zu lassen, wie Ihre SMS-Nachricht auf Smartphones und Tablets angezeigt wird. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+## SMS validieren{#sms-preview}
 
-1. Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Versandausführungen in Ihren Journeys verwendet wird.
+Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierter Inhalt](../personalization/personalize.md)können Sie anhand von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+
+Um zu visualisieren, wie Ihre SMS-Nachricht auf Mobilgeräten angezeigt wird, navigieren Sie zum **[!UICONTROL Vorschau]** Registerkarte.
+
+Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+
+
+## Veröffentlichen Ihrer SMS {#sms-publish}
+
+Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Durch diese Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Ausführungen in Ihren Journey verwendet wird.
 
 Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, wie Sie Journeys erstellen](../building-journeys/journey-gs.md).
 
 ## Opt-in und Opt-out{#sms-opt-in-out}
 
+Bei allen Marketingnachrichten muss die SMS eine Möglichkeit enthalten, die Empfänger sich einfach abzumelden. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Abmelde-Links nicht erforderlich.
+
 SMS-Empfänger können mit Opt-in- und Opt-out-Keywords antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
+
 
 **Verwandte Themen**
 
