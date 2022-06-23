@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 36%
@@ -57,7 +57,6 @@ Um zu visualisieren, wie Ihre SMS-Nachricht auf Mobilgeräten angezeigt wird, na
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
 
-
 ## Veröffentlichen Ihrer SMS {#sms-publish}
 
 Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Durch diese Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Ausführungen in Ihren Journey verwendet wird.
@@ -69,7 +68,6 @@ Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, 
 Bei allen Marketingnachrichten muss die SMS eine Möglichkeit enthalten, die Empfänger sich einfach abzumelden. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Abmelde-Links nicht erforderlich.
 
 SMS-Empfänger können mit Opt-in- und Opt-out-Keywords antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
-
 
 **Verwandte Themen**
 

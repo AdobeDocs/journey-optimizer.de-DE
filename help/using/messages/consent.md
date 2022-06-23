@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -210,3 +210,10 @@ Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine
 Push-Empfänger können sich über ihre Geräte selbst abmelden.
 
 Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+
+## SMS-Abmeldeverwaltung {#sms-opt-out-management}
+
+Gemäß den Branchenstandards und -vorschriften können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten.
+Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Schlüsselwörter: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
+
+Weiterführende Informationen zum SMS-Opt-out finden Sie in diesem Abschnitt [page](../messages/create-sms.md#opt-in-and-opt-out).
