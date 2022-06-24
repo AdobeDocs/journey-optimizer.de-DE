@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '1686'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -255,9 +255,9 @@ Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adress
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## Abrufen des URL-Hosts {#get-url-host}
+## URL-Host abrufen {#get-url-host}
 
-Die `getUrlHost` -Funktion zum Abrufen des Hostnamens einer URL verwendet.
+Die Funktion `getUrlHost` dient zum Abrufen des Host-Namens einer URL.
 
 **Format**
 
@@ -271,11 +271,11 @@ Die `getUrlHost` -Funktion zum Abrufen des Hostnamens einer URL verwendet.
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-Gibt &quot;www.myurl.com&quot;zurück
+Gibt „www.myurl.com“ zurück
 
 ## URL-Pfad abrufen {#get-url-path}
 
-Die `getUrlPath` -Funktion wird verwendet, um den Pfad nach dem Domänennamen einer URL abzurufen.
+Die Funktion `getUrlPath` wird verwendet, um den Pfad nach dem Domain-Namen einer URL abzurufen.
 
 **Format**
 
@@ -289,11 +289,11 @@ Die `getUrlPath` -Funktion wird verwendet, um den Pfad nach dem Domänennamen ei
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-Gibt &quot;/contact.html&quot;zurück
+Gibt „/contact.html“ zurück
 
-## Abrufen des URL-Protokolls {#get-url-protocol}
+## URL-Protokoll abrufen {#get-url-protocol}
 
-Die `getUrlProtocol` -Funktion wird zum Abrufen des Protokolls einer URL verwendet.
+Die Funktion `getUrlProtocol` dient zum Abrufen des Protokolls einer URL.
 
 **Format**
 
@@ -307,11 +307,11 @@ Die `getUrlProtocol` -Funktion wird zum Abrufen des Protokolls einer URL verwend
 {%= getUrlProtocol("http://www.myurl.com/contact.html") %}
 ```
 
-Gibt &quot;http&quot;zurück
+Gibt „http“ zurück
 
 ## Index von {#index-of}
 
-Die `indexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Die Funktion `indexOf` wird verwendet, um die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 **Format**
 
@@ -322,7 +322,7 @@ Die `indexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
+| `{STRING_2}` | Die Zeichenfolge, nach der im ersten Parameter gesucht werden soll. |
 
 **Beispiel**
 
@@ -334,7 +334,7 @@ Gibt 6 zurück.
 
 ## Ist leer {#isEmpty}
 
-Die `isEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge leer ist.
+Mit der Funktion `isEmpty` wird ermittelt, ob eine Zeichenfolge leer ist.
 
 **Format**
 
@@ -352,7 +352,7 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 
 ## Ist nicht leer {#is-not-empty}
 
-Die `isNotEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
+Die Funktion `isNotEmpty` wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
 
 **Format**
 
@@ -362,7 +362,7 @@ Die `isNotEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge
 
 **Beispiel**
 
-Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird „false“ zurückgegeben.
+Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird „false“ zurückgegeben.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -370,7 +370,7 @@ Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer 
 
 ## Letzter Index von {#last-index-of}
 
-Die `lastIndexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des letzten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Die Funktion `lastIndexOf` wird verwendet, um die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 **Format**
 
@@ -381,7 +381,7 @@ Die `lastIndexOf` -Funktion wird verwendet, um die Position (im ersten Argument)
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
+| `{STRING_2}` | Die Zeichenfolge, nach der im ersten Parameter gesucht werden soll. |
 
 **Beispiel**
 
@@ -500,7 +500,7 @@ Die Abfrage gibt `1XXXXXX89` zurück.
 
 ## MD5 {#md5}
 
-Die `md5` -Funktion wird verwendet, um den md5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
+Die Funktion `md5` wird verwendet, um den MD5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
 
 **Format**
 
@@ -514,7 +514,7 @@ Die `md5` -Funktion wird verwendet, um den md5-Hash einer Zeichenfolge zu berech
 {%= md5("hello world") %}
 ```
 
-Gibt &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;zurück
+Gibt „5eb63bbbe01eeed093cb22bb8f5acdc3“ zurück
 
 ## Ungleich{#notEqualTo}
 
@@ -539,9 +539,9 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Nicht gleich Groß-/Kleinschreibung ignorieren {#not-equal-with-ignore-case}
+## Entspricht nicht (Groß-/Kleinschreibung ignorieren) {#not-equal-with-ignore-case}
 
-Die `notEqualWithIgnoreCase` -Funktion verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
+Die Funktion `notEqualWithIgnoreCase` wird verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
 
 **Format**
 
@@ -556,7 +556,7 @@ Die `notEqualWithIgnoreCase` -Funktion verwendet, um zwei Zeichenfolgen zu vergl
 
 **Beispiel**
 
-Die folgende Abfrage ermittelt, ob der Name der Person nicht &quot;john&quot;lautet, ohne Groß-/Kleinschreibung.
+Die folgende Abfrage ermittelt, ob der Name der Person nicht „john“ lautet (ohne Berücksichtigung von Groß-/Kleinschreibung).
 
 ```sql
 {%= notEqualTo(profile.person.name,"john") %}
@@ -599,8 +599,8 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, in der die Teilzeichenfolge ersetzt werden muss. |
-| `{STRING_2}` | Die zu ersetzende Unterzeichenfolge. |
-| `{STRING_3}` | Die Ersatz-Teilzeichenfolge. |
+| `{STRING_2}` | Die zu ersetzende Teilzeichenfolge. |
+| `{STRING_3}` | Die als Ersatz dienende Teilzeichenfolge. |
 
 **Beispiel**
 
@@ -608,7 +608,7 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 {%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
-Gibt &quot;Hallo Mark, hier ist Ihr monatlicher Newsletter!&quot; zurück.
+Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
 
 ## Alle ersetzen{#replaceAll}
 
@@ -664,9 +664,9 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Zeichenfolge in Ganzzahl {#string-to-integer}
+## Zeichenfolge zu Ganzzahl {#string-to-integer}
 
-Die `string_to_integer` -Funktion verwendet wird, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
+Die Funktion `string_to_integer` wird verwendet, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
 
 **Format**
 
@@ -676,7 +676,7 @@ Die `string_to_integer` -Funktion verwendet wird, um einen Zeichenfolgenwert in 
 
 ## Zeichenfolge zu Zahl {#string-to-number}
 
-Die `stringToNumber` -Funktion verwendet wird, um eine Zeichenfolge in eine Zahl zu konvertieren. Es wird dieselbe Zeichenfolge wie für eine ungültige Eingabe zurückgegeben.
+Die Funktion `stringToNumber` wird verwendet, um eine Zeichenfolge in eine Zahl zu konvertieren. Bei einer ungültigen Eingabe wird dieselbe Zeichenfolge als Ausgabe zurückgegeben.
 
 **Format**
 
@@ -684,9 +684,9 @@ Die `stringToNumber` -Funktion verwendet wird, um eine Zeichenfolge in eine Zahl
 {%= stringToNumber(string) %}: double
 ```
 
-## Unterzeichenfolge {#sub-string}
+## Teilzeichenfolge {#sub-string}
 
-Die `Count string` -Funktion wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
+Die Funktion `Count string` wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
 **Format**
 
 ```sql
@@ -711,9 +711,9 @@ Wenn die Person in der Washington High Street lebt, gibt diese Funktion „Washi
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## Nach Bool {#to-bool}
+## Zu booleschem Wert {#to-bool}
 
-Die `toBool` -Funktion wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
+Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
 
 **Format**
 
@@ -721,9 +721,9 @@ Die `toBool` -Funktion wird verwendet, um einen Argumentwert je nach Typ in eine
 {= toBool(string) %}: boolean
 ```
 
-## To Date Time {#to-date-time}
+## Zu Uhrzeit-/Datumsangabe {#to-date-time}
 
-Die `toDateTime` -Funktion verwendet wird, um die Zeichenfolge in das Datum zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
+Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
 
 **Format**
 
@@ -731,9 +731,9 @@ Die `toDateTime` -Funktion verwendet wird, um die Zeichenfolge in das Datum zu k
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Nur für Datum/Uhrzeit {#to-date-time-only}
+## Nur zu Uhrzeit-/Datumsangabe {#to-date-time-only}
 
-Die `toDateTimeOnly` -Funktion wird verwendet, um einen Argumentwert in einen Datum/Uhrzeit-Wert zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
+Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Uhrzeit-/Datumswert zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
 
 **Format**
 
@@ -769,9 +769,9 @@ Mit dieser Funktion wird der Nachname des Profils in Großbuchstaben umgewandelt
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url decode {#url-decode}
+## URL-Decodierung {#url-decode}
 
-Die `urlDecode` -Funktion wird zum Dekodieren einer URL-codierten Zeichenfolge verwendet.
+Die Funktion `urlDecode` wird zum Decodieren einer URL-codierten Zeichenfolge verwendet.
 
 **Format**
 
@@ -779,9 +779,9 @@ Die `urlDecode` -Funktion wird zum Dekodieren einer URL-codierten Zeichenfolge v
 {%= urlDecode(string) %}: string
 ```
 
-## URL-Kodierung {#url-encode}
+## URL-Codierung {#url-encode}
 
-Die `Count only null` -Funktion verwendet wird, um eine Zeichenfolge mit einer URL zu kodieren.
+Die Funktion `Count only null` wird verwendet, um eine Zeichenfolge mit einer URL zu codieren.
 
 **Format**
 

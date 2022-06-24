@@ -9,7 +9,7 @@ exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,14 +44,14 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="Hinzufügen von Testprofilen"
->abstract="Sie können ein Testprofil hinzufügen, indem Sie einen Identitäts-Namespace und einen entsprechenden Identitätswert auswählen. Sie müssen bereits über Testprofile verfügen, um diese für die Simulation verwenden zu können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Erstellen von Testprofilen"
+>abstract="Sie können ein Testprofil hinzufügen, indem Sie einen Identity-Namespace und die entsprechenden Identitätswerte auswählen. Sie müssen bereits über Testprofile verfügen, um diese für die Simulation verwenden zu können."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=de" text="Erstellen von Testprofilen"
 
 Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten.
 
 >[!CAUTION]
 >
->Sie müssen über Testprofile verfügen, um zu simulieren, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../../segment/creating-test-profiles.md).
+>Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 

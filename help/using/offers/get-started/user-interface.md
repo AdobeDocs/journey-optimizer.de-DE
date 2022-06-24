@@ -9,13 +9,13 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Benutzeroberfläche {#user-interface}
 
-Mit der Angebotsbibliothek können Sie Ihre Platzierungen und Angebote an einem zentralen Ort erstellen und verwalten sowie auf alle erstellten Entscheidungen zugreifen.
+Mit der Angebotsbibliothek können Sie Platzierungen und Angebote zentral erstellen und verwalten sowie alle erstellten Entscheidungen aufrufen.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Wenn Sie mit [!DNL Offer Decisioning] noch nicht vertraut sind, führt Sie die R
 
 Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Kollektionen zu beginnen.
 
-Wenn Sie diese ersten Schritte ausgeführt haben, werden Sie aufgefordert, Angebotsentscheidungen zu erstellen.
+Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert, Angebotsentscheidungen zu erstellen.
 
 ![](../assets/overview_collection-created.png)
 

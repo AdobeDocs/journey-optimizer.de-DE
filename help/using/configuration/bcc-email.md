@@ -1,14 +1,15 @@
 ---
-title: BCC-E-Mail verwenden
-description: Erfahren Sie, wie Sie eine BCC-E-Mail auf der Ebene der Nachrichtenvorgabe konfigurieren
+title: Verwenden einer BCC-E-Mail-Adresse
+description: Erfahren Sie, wie Sie BCC-E-Mail-Adressen auf der Ebene der Nachrichtenvoreinstellung konfigurieren.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: d535a782bd1008cbbf35794bf44aa8ac4eae3d13
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +30,7 @@ Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Ad
 >
 >Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Voreinstellung gesendet werden.
 >
->Weitere Empfehlungen finden Sie unter [diesem Abschnitt](#bcc-recommendations-limitations).
+>Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -55,24 +56,24 @@ Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nac
 
 ## Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 
-* Um die Einhaltung der Datenschutzbestimmungen zu gewährleisten, müssen BCC-E-Mails von einem Archivierungssystem verarbeitet werden, in dem personenbezogene Daten (PII) sicher gespeichert werden können.
+* Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
 
-* Da Nachrichten vertrauliche oder private Daten enthalten können, z. B. personenbezogene Daten (PII), müssen Sie sicherstellen, dass die BCC-Adresse korrekt ist, und den Zugriff auf Nachrichten sicherstellen.
+* Da Nachrichten vertrauliche oder private Daten enthalten können, z. B. personenbezogene Daten (PII), müssen Sie dafür sorgen, dass die BCC-Adresse korrekt ist, und den Zugriff auf Nachrichten schützen.
 
 * Ihr Posteingang, der für BCC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden manche E-Mails möglicherweise nicht empfangen und daher nicht archiviert.
 
-* Nachrichten können vor den Zielempfängern an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn die ursprünglichen Nachrichten [bounced](../reports/suppression-list.md#delivery-failures).
+* Nachrichten können vor dem Versand an die Zielgruppe an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem [Bounce](../reports/suppression-list.md#delivery-failures) kam.
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie in der Gesamtzahl der Öffnungen und Klicks aus der Versandanalyse berücksichtigt werden. Dies könnte zu falschen Berechnungen in [Berichte](../reports/message-monitoring.md).
+* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/message-monitoring.md) zu falschen Berechnungen führen.
 
-* Markieren Sie keine Nachrichten im BCC-Posteingang als Spam, da sich dies auf alle anderen an diese Adresse gesendeten E-Mails auswirkt.
+* Markieren Sie im BCC-Posteingang keine Nachrichten als Spam, da sich das auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 
 
 >[!CAUTION]
 >
->Klicken Sie nicht auf den Abmelde-Link in den an die BCC-Adresse gesendeten E-Mails, da Sie die entsprechenden Empfänger sofort abmelden werden.
+>Klicken Sie in den an die BCC-Adresse gesendeten E-Mails nicht auf den Abmelde-Link, da dadurch die entsprechenden Empfänger sofort abgemeldet werden.
 
 ## DSGVO-Konformität {#gdpr-compliance}
 

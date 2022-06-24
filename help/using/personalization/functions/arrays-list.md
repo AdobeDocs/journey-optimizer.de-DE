@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
-## Nur null zählen {#count-only-null}
+## Nur Null zählen {#count-only-null}
 
-Die `countOnlyNull` -Funktion verwendet wird, um die Anzahl der Nullwerte in einer Liste zu zählen.
+Die Funktion `countOnlyNull` wird verwendet, um die Anzahl der Nullwerte in einer Liste zu zählen.
 
 **Format**
 
@@ -34,9 +34,9 @@ Die `countOnlyNull` -Funktion verwendet wird, um die Anzahl der Nullwerte in ein
 ```
 Gibt 3 zurück.
 
-## Zählung mit Null {#count-with-null}
+## Mit Null zählen {#count-with-null}
 
-Die `countWithNull` -Funktion wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
+Die Funktion `countWithNull` wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
 
 **Format**
 
@@ -69,9 +69,9 @@ Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr al
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
-## Zählung unterschiedlicher Werte mit Null {#distinct-count-with-null}
+## Unterschiedliche Zählung mit Null {#distinct-count-with-null}
 
-Die `distinctCountWithNull` -Funktion wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
+Die Funktion `distinctCountWithNull` wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
 
 **Format**
 
@@ -89,7 +89,7 @@ Gibt 3 zurück.
 
 ## Erstes Element{#head}
 
-Die `head` -Funktion wird verwendet, um das erste Element in einem Array oder einer Liste zurückzugeben.
+Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurückgegeben.
 
 **Format**
 
@@ -268,7 +268,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsst�
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Obermenge{#superset}
+## Übergeordnete Gruppe von{#superset}
 
 Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
 

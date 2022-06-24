@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Verwenden Sie das Filtersymbol, um die Regeln nach Kategorie, Status und/oder Ka
 
 Zum Zugreifen auf, Erstellen, Bearbeiten oder Löschen von Häufigkeitsregeln für Nachrichten benötigen Sie die Berechtigung **[!UICONTROL Häufigkeitsregeln verwalten]**.
 
-Benutzer mit **[!UICONTROL Anzeigen von Häufigkeitsregeln]** -Berechtigungen können Regeln anzeigen, sie jedoch nicht ändern oder löschen.
+Benutzer*innen mit der Berechtigung **[!UICONTROL Anzeigen von Häufigkeitsregeln]** können Regeln anzeigen, sie jedoch nicht ändern oder löschen.
 
 ![](assets/message-rules-access.png)
 

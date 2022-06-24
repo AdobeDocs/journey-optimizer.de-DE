@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 96%
    + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung {#personalization}
-   + [Erste Schritte  bei der Personalisierung](using/personalization/personalize.md)
+   + [Erste Schritte   bei der Personalisierung](using/personalization/personalize.md)
    + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
    + Erstellen von Ausdrücken {#build-expressions}
       + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
          + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
          + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
-         + [Funktionen zur Datumszeitfunktion](using/personalization/functions/dates.md)
+         + [Uhrzeit-/Datumsfunktionen](using/personalization/functions/dates.md)
          + [Boolesche Funktionen und Vergleichsfunktionen](using/personalization/functions/operators.md)
          + [Helper](using/personalization/functions/helpers.md)
          + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
@@ -384,7 +384,7 @@ ht-degree: 96%
       + Einrichten von Nachrichtenvoreinstellungen{#set-up-message-presets}
          + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
-         + [BCC-E-Mail verwenden](using/configuration/bcc-email.md)
+         + [Verwenden einer BCC-E-Mail-Adresse](using/configuration/bcc-email.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)
       + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
    + Konfigurieren von Landingpages {#lp-configuration}

@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 771828da23ab0656fc5726845305fe6949620545
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 | AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
 | Anmeldedaten der AJO-SMS-API | Erstellen/Löschen/Aktualisieren |
 | AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
-| AJO-Unterdrückungsliste | CSV erstellen/löschen/herunterladen |
+| AJO-Unterdrückungsliste | Erstellen/Löschen/Herunterladen der CSV |
 | Feldergruppe | Erstellen/Löschen/Aktualisieren |
 | Journey | Erstellen/Löschen/Aktualisieren/Anhalten/Veröffentlichen |
 | Benutzerdefinierte Aktion in Journey | Erstellen/Löschen/Aktualisieren |

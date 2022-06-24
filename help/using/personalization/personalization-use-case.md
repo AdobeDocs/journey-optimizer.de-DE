@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
 * Erstellen und gestalten einer Push-Benachrichtigung, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../messages/get-started-content.md).
 * Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
-* eine Entscheidung erstellen, siehe [Abschnitt](../offers/offer-activities/create-offer-activities.md).
+* Informationen zum Erstellen einer Entscheidung finden Sie in diesem [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
 ## Schritt 1 – Personalisierung in Profil hinzufügen {#add-perso}
 
@@ -98,7 +98,7 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc13.png)
 
-1. Wählen Sie aus dem linken Menü **Angebotsentscheidungen**, um eine Offer-Decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie auf die **+** neben der Entscheidung klicken, um sie dem Text hinzuzufügen.
+1. Wählen Sie aus dem linken Menü **Angebotsentscheidungen**, um eine Offer-Decisioning-Variable einzufügen. Wählen Sie die Platzierung aus und klicken Sie neben der Entscheidung auf das Symbol **+**, um sie dem Textkörper hinzuzufügen.
 
    ![](assets/perso-uc14.png)
 

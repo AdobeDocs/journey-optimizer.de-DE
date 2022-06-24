@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
 ## Angebotsentscheidung {#offer-decision}
 
-Verwenden Sie die **[!UICONTROL Angebotsentscheidung]** -Komponente, um Entscheidungen in Ihre Nachrichten einzufügen. Entscheidungen nutzen Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
+Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um in Ihre Nachrichten Entscheidungen einzufügen. Entscheidungen nutzen Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
 
 Verwandte Themen:
 

@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -120,7 +120,7 @@ Wenn Sie alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfang
 
 * Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adress-Domain für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen darf.
 * Ihren Sandbox-Namen.
-* Der Vorgabename, für den die Weiterleitungs-E-Mail-Adresse verwendet wird.
+* Der Name der Voreinstellung, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
 * Die aktuelle **[!UICONTROL Antwort an (E-Mail)]**-Adresse, die auf der Ebene der Voreinstellung eingestellt ist.
 
 >[!NOTE]
@@ -131,9 +131,9 @@ Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4
 
 ## BCC-E-Mail-Adresse {#bcc-email}
 
-Sie können eine identische Kopie (oder blinde Kopie) der E-Mails senden, die von [!DNL Journey Optimizer] in einen BCC-Posteingang, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
+Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu die **[!UICONTROL BCC-E-Mail]** optionale Funktion auf der Vorgabenebene. [Weitere Informationen](bcc-email.md)
+Aktivieren Sie dazu auf der Voreinstellungsebene die optionale Funktion **[!UICONTROL BCC-E-Mail-Adresse]**. [Weitere Informationen](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 

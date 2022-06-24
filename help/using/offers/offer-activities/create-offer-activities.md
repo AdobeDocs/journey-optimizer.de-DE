@@ -9,13 +9,13 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Erstellen von Entscheidungen {#create-offer-activities}
 
-Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um je nach Zielgruppe des Versands das beste Angebot auszuwählen, das bereitgestellt werden soll.
+Entscheidungen sind Container für Ihre Angebote, die die Offer-Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versandes unterbreitet werden kann.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Angebotsaktivitäten erstellen](#video)
 
