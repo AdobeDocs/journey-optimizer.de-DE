@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '592'
+ht-degree: 24%
 
 ---
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um Ihr Bild zu lizenzieren und herunterzuladen:
 
 1. Wählen Sie aus, in welchem Ordner Sie Ihr Asset speichern möchten. Weiterführende Informationen zu [!DNL Assets Essentials] finden Sie auf dieser [Seite](assets-essentials.md#get-started-assets-essentials).
 
-### Verwandte Themen{#stock-related-topics}
+## Verwandte Themen{#stock-related-topics}
 
 * [E-Mail-Design in Journey Optimizer](design-emails.md)
 * [Komponenteneinstellungen für den E-Mail-Entwurf](content-components.md)
