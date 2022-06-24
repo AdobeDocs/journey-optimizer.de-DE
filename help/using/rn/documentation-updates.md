@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1570'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Liste der Adobe Journey Optimizer-Datensätze mit Abfragebeispielen wurde hinzugefügt. [Weitere Informationen](../start/datasets-query-examples.md)
 * Die Seite Zulassungsliste wurde in den Abschnitt Konfiguration verschoben. [Weitere Informationen](../configuration/allow-list.md)
 * Die Seite mit der Unterdrückungsliste wurde aktualisiert - [Weitere Informationen](../configuration/manage-suppression-list.md)
+* Der Link zu Limits und statischen Limits für die Entscheidungsverwaltung wurde hinzugefügt - [Weitere Informationen](../start/guardrails.md)
+
 
 ## Mai 2022 {#may-2022}
 
