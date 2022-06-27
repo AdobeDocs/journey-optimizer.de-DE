@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ Die [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] Das Integrations-Plug-
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} bietet Zugriff auf Millionen von hochwertigen, kuratierten, gebührenfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
 
-Mit [!DNL Adobe Journey Optimizer], können Sie Bilder direkt aus in Ihre E-Mails hochladen. [!DNL Adobe Stock] und fügen Sie es mithilfe des **[!UICONTROL Adobe Stock-Fotos suchen]** -Option. Darüber hinaus wird die **[!UICONTROL Ähnliches Bild suchen]** hilft Ihnen dabei, Bilder zu finden, die mit dem Inhalt, der Farbe und der Zusammensetzung des Assets übereinstimmen, das in Ihrem Versand verwendet wird.
+Mit [!DNL Adobe Journey Optimizer], können Sie Bilder direkt aus in Ihre E-Mails hochladen. [!DNL Adobe Stock] und fügen Sie es mithilfe des **[!UICONTROL Adobe Stock-Fotos suchen]** -Option. Darüber hinaus wird die **[!UICONTROL Ähnliche Stock-Fotos suchen]** hilft Ihnen dabei, Bilder zu finden, die mit dem Inhalt, der Farbe und der Zusammensetzung des Assets übereinstimmen, das in Ihrem Versand verwendet wird.
 
 ## Berechtigungen{#stock-permissions}
 
