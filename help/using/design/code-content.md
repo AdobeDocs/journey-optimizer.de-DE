@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '169'
+ht-degree: 90%
 
 ---
 
 # Codieren Ihres eigenen Inhalts {#code-content}
 
-Verwenden Sie den Modus **[!UICONTROL Eigenen Code erstellen]**, um HTML-Roh-Code zu importieren und/oder Ihren E-Mail-Inhalt zu kodieren. Diese Methode setzt HTML-Kenntnisse voraus.
+Verwenden Sie die **[!UICONTROL Eigene Code]** -Modus, um unformatierten HTML zu importieren und/oder Ihren E-Mail-Inhalt zu kodieren. Diese Methode setzt HTML-Kenntnisse voraus.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

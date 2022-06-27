@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 91%
+source-wordcount: '1592'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Seite mit der Warteaktivität wurde aktualisiert. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Die Liste der Adobe Journey Optimizer-Datensätze mit Abfragebeispielen wurde hinzugefügt. [Weitere Informationen](../start/datasets-query-examples.md)
 * Die Seite Zulassungsliste wurde in den Abschnitt Konfiguration verschoben. [Weitere Informationen](../configuration/allow-list.md)
-* Die Seite mit der Unterdrückungsliste wurde aktualisiert - [Weitere Informationen](../configuration/manage-suppression-list.md)
+* Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu klären, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Unterdrückungsfeld zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
 * Der Link zu Limits und statischen Limits für die Entscheidungsverwaltung wurde hinzugefügt - [Weitere Informationen](../start/guardrails.md)
 
 
