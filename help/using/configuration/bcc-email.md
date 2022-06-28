@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: d535a782bd1008cbbf35794bf44aa8ac4eae3d13
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1136'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definieren einer BCC-E-Mail-Adresse"
->abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Diese Funktion ist optional."
+>abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass die BCC-Adressdomäne nicht mit der Subdomain übereinstimmen sollte, die Adobe zugewiesen wurde. Diese Funktion ist optional."
 
 Sie können eine identische Kopie (oder Blindkopie) einer von [!DNL Journey Optimizer] gesendeten E-Mail an einen BCC-Posteingang senden. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zu Zwecken der Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
 
 ## Aktivieren von BCC-E-Mails {#enable-bcc}
 
-Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das entsprechende Feld ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der zugewiesenen Subdomain definiert ist. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, ist jede Adresse wie *abc@marketing.luma.com* verboten.
+Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das entsprechende Feld ein. Sie können eine beliebige externe Adresse im richtigen Format angeben, mit Ausnahme einer E-Mail-Adresse, die für eine Subdomain definiert ist, die an Adobe delegiert wurde. Wenn Sie beispielsweise die Variable *marketing.luma.com* Subdomain zur Adobe, beliebige Adresse, z. B. *abc@marketing.luma.com* ist verboten.
 
 >[!NOTE]
 >

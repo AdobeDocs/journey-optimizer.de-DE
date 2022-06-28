@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Subdomains von Landingp
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: e57ea0f4beda9c0e3e58074339633187cc0bc02b
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,10 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   Beachten Sie, dass Sie nicht mehrere zugewiesene Subdomains derselben übergeordneten Domäne verwenden können. Wenn beispielsweise marketing1.yourcompany.com bereits für Ihre Landingpages der Adobe zugewiesen wurde, können Sie marketing2.yourcompany.com nicht verwenden. Für Landingpages werden jedoch mehrstufige Subdomains unterstützt, sodass Sie &quot;email.marketing1.yourcompany.com&quot;verwenden können.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >Wenn Sie eine Domain auswählen, die mit der [CNAME-Methode](delegate-subdomain.md#cname-subdomain-delegation) an Adobe delegiert wurde, müssen Sie den DNS-Eintrag auf Ihrer Hosting-Plattform erstellen. Um den DNS-Eintrag zu generieren, gehen Sie genauso vor wie bei der Konfiguration einer neuen Landingpage-Subdomain. Weitere Informationen dazu finden Sie in [diesem Abschnitt](#lp-configure-new-subdomain).
@@ -100,7 +104,11 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
    Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
 
-   Beachten Sie, dass Subdomains mit mehreren Ebenen, wie etwa „email.marketing.meinefirma.com“, derzeit nicht unterstützt werden.
+   >[!NOTE]
+   >
+   >Bei Landingpages werden mehrstufige Subdomains unterstützt. Sie können beispielsweise &quot;email.marketing.yourcompany.com&quot;verwenden.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diesen Datensatz oder laden Sie eine CSV-Datei herunter und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um den entsprechenden DNS-Eintrag zu generieren.
 
