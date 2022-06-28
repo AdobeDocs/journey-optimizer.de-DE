@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 96%
@@ -253,6 +253,8 @@ Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTR
 SMS **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
 ## SMS-Tab {#sms-global}
+
+![](assets/report_sms_global.png)
 
 Die **[!UICONTROL SMS - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
 
