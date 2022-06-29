@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -80,7 +78,7 @@ Die folgenden Objekte werden kopiert:
 
 * Segment
 
-   Ein Segment kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachfolgende Anforderungen zum Kopieren des Segments schlagen fehl. Nachdem ein Segment kopiert wurde, kann es nicht mehr in der Ziel-Sandbox bearbeitet werden.
+   Ein Segment kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachdem ein Segment kopiert wurde, kann es nicht mehr in der Ziel-Sandbox bearbeitet werden.
 
 * Schema
 
@@ -103,4 +101,8 @@ Die folgenden Objekte werden kopiert:
    Die im Journey verwendeten Aktionen und Aktionsdetails werden kopiert.
 
 Vorgaben werden nicht kopiert. Das System wählt basierend auf dem Nachrichtentyp und dem Vorgabennamen automatisch die nächstmögliche Übereinstimmung für die Ziel-Sandbox aus. Wenn keine Vorgaben in der Ziel-Sandbox gefunden werden, schlägt die Vorgabenkopie fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Vorgabe zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Vorgabe für den rechten Kanal der Nachricht erstellt werden, damit die Kopie funktioniert.
+
+Bei Schemas, Zusammenführungsrichtlinien und Segmenten werden diese Objekte nur referenziert, wenn sie das zweite Mal versuchen, kopiert zu werden. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
+
+Es dauert fünf Minuten, bis Adobe Journey Optimizer auf Schemas, Zusammenführungsrichtlinien und Segmente verweisen kann, ohne dass auf der Arbeitsfläche ein Fehler angezeigt wird. Warten Sie fünf Minuten. Diese Referenzen sind verfügbar.
 
