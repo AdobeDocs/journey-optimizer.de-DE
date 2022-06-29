@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 90%
+source-wordcount: '1608'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Seite Zulassungsliste wurde in den Abschnitt Konfiguration verschoben. [Weitere Informationen](../configuration/allow-list.md)
 * Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu klären, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Unterdrückungsfeld zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
 * Der Link zu Limits und statischen Limits für die Entscheidungsverwaltung wurde hinzugefügt - [Weitere Informationen](../start/guardrails.md)
+* Die Sendezeitoptimierung ist jetzt für alle Kunden verfügbar. Die Beta-Erwähnung wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## Mai 2022 {#may-2022}
