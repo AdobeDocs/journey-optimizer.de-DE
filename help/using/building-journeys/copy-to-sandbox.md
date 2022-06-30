@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 >title="Abhängige Objekte"
 >abstract="Dies ist die Liste der zugeordneten Objekte, die im Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer ID angezeigt."
 
-Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Nachrichten, Segmente, Vorgaben, Schemas, Ereignisse und Aktionen. Siehe Abschnitt [Einschränkungen](../event/about-events.md)
+Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Nachrichten, Segmente, Vorgaben, Schemas, Ereignisse und Aktionen. Siehe Abschnitt [Einschränkungen](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
