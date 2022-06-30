@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment mithilfe
 
 Im Gegensatz zu Journey, bei denen Aktionen nacheinander ausgeführt werden sollen, führen Kampagnen Aktionen gleichzeitig, entweder sofort oder innerhalb eines festgelegten Zeitplans aus. Sie können sie beispielsweise verwenden, um Werbeangebote, Interaktionskampagnen, Mitteilungen, rechtliche Hinweise oder Richtlinien-Updates bereitzustellen.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-Erfahren Sie, wie Sie Kampagnen verwalten &lt;!>—und Inhaltsexperimente&lt;>:
+Erfahren Sie, wie Sie mit Kampagnen arbeiten:
 * [Erstellen einer Kampagne](create-campaign.md)
 * [Ändern oder Anhalten einer Kampagne](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Campaign-Live-Bericht](campaign-live-report.md)
+* [Globaler Kampagnenbericht](campaign-global-report.md)
 
 ## Zugriff auf Kampagnen {#access}
 
