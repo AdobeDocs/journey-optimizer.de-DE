@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -147,7 +147,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder Sep
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Enthält{#includes}
+## Umfasst{#includes}
 
 Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
