@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1738'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="arrays-list.md#in">Enthalten</a></td><td>Mit dieser Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#includes">Enthält</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
+        <td><a href="arrays-list.md#includes">Umfasst</a></td><td>Diese Funktion bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#intersects">Schnittmengen</a></td><td>Diese Funktion bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen</td>
@@ -92,7 +92,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     </tr>
 </table>
 
-### Uhrzeit-/Datumsfunktionen{#date-functions}
+### Funktionen für Datum/Uhrzeit{#date-functions}
 
 <table>
     <tr>
@@ -325,7 +325,7 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Standard-Fallback-Wert</a></td><td>Diese Funktion ermöglicht das Rendern einer Variablen mit der Standardeinstellung.</td>
+        <td><a href="helpers.md#default">Standardwert für Fallback</a></td><td>Diese Funktion ermöglicht das Rendern einer Variablen mit der Standardeinstellung.</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
