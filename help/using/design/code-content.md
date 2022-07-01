@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Codieren Ihres eigenen Inhalts {#code-content}
 
-Verwenden Sie die **[!UICONTROL Eigene Code]** -Modus, um unformatierten HTML zu importieren und/oder Ihren E-Mail-Inhalt zu kodieren. Diese Methode setzt HTML-Kenntnisse voraus.
+Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode setzt HTML-Kenntnisse voraus.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
