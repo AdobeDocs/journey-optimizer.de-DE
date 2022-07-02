@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 39%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -30,10 +30,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt SMS in Journey Optimizer erstellen, personalisieren und senden, indem Sie eine Integration mit <b>Sinch</b> oder <b>Twilio</b>.</p>
+<p>Sie können jetzt SMS in Journey Optimizer erstellen, personalisieren und senden, indem Sie eine Integration mit <b>Sinch</b> oder <b>Twilio</b> vornehmen.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Der SMS-Kanal ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.</p>
-<p>Hier erfahren Sie, wie Sie eine SMS erstellen und senden. <a href="../messages/create-sms.md">Detaillierte Dokumentation</a>.</p>
+<p>Der SMS-Kanal ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.</p>
+<p>In dieser <a href="../messages/create-sms.md">detaillierten Dokumentation</a> erfahren Sie, wie Sie eine SMS erstellen und senden.</p>
 </td>
 </tr>
 </tbody>
@@ -49,7 +49,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Das Integrations-Plug-in Adobe Stock und Adobe Journey Optimizer Email Designer bietet Kunden eine einfache Möglichkeit, Bilder zur Verwendung bei der Nachrichtenbearbeitung zu navigieren, zu lizenzieren und zu speichern. </br> Die neue <b>Ähnliche Stock-Fotos suchen</b> ermöglicht Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
+<p>Das Plug-in für die Integration von Email Designer mit Adobe Stock und Adobe Journey Optimizer bietet Kunden eine einfache Möglichkeit, zur Verwendung bei der Nachrichtenbearbeitung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue Option <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../design/stock.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -60,7 +60,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>E-Mail-BCC für alle E-Mails verwenden</strong><br/></th>
+<th><strong>Verwenden von E-Mail-BCC für alle Ihre E-Mails</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -129,12 +129,12 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Entscheidungs-Management**
 
-* **Unterstützung von HTML- und JSON-Dateien** - Sie können jetzt externe HTML- und JSON-Dateien aus der Adobe Experience Cloud Asset-Bibliothek in den Inhalt der Angebotsdarstellung ziehen. [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
+* **Unterstützung von HTML- und JSON-Dateien**: Sie können jetzt per Drag-and-Drop externe HTML- und JSON-Dateien aus der Asset-Bibliothek von Adobe Experience Cloud in den Inhalt der Angebotsdarstellung ziehen. [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
 
 
 **E-Mail**
 
-* **Als Vorlage speichern** - Jetzt können Sie E-Mail-Inhalte als Vorlage speichern und sie bei der Erstellung anderer Nachrichten wiederverwenden. [Weitere Informationen](../design/email-templates.md)
+* **Als Vorlage speichern**: Sie können jetzt E-Mail-Inhalte als Vorlage speichern und sie bei der Erstellung anderer Nachrichten wiederverwenden. [Weitere Informationen](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,11 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **Vorschau von Tracking-URL-Parametern** - Wenn Sie bei der Konfiguration einer Nachrichtenvorgabe URL-Tracking-Parameter definieren, wird jetzt eine dynamische Vorschau der resultierenden Tracking-URL angezeigt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* **Vorschau von Tracking-URL-Parametern**: Wenn Sie bei der Konfiguration einer Nachrichtenvoreinstellung URL-Tracking-Parameter definieren, wird jetzt eine dynamische Vorschau der resultierenden Tracking-URL angezeigt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+
+* **Erstellung von Nachrichtenvorgaben** - Die Verarbeitungszeit beim Erstellen einer Nachrichtenvorgabe kann jetzt nur noch 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
+
+* **IP-Poolbearbeitung** - Die Verarbeitungszeit für die Aktualisierung von IP-Pools kann jetzt nur noch bis zu 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
