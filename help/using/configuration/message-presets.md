@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1555'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 
 1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit kann bis **3 Stunden**.
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen.
 
    Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
@@ -179,7 +179,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
    >
    >Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und die Aktualisierung zu einem späteren Zeitpunkt wieder aufnehmen.
 
-Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinstellung einen ähnlichen Validierungszyklus wie beim [Erstellen einer Voreinstellung](#create-message-preset).
+Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinstellung einen ähnlichen Validierungszyklus wie beim [Erstellen einer Voreinstellung](#create-message-preset). Die Bearbeitungszeit kann bis zu **3 Stunden**.
 
 >[!NOTE]
 >

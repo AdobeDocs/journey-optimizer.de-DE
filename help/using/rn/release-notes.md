@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -149,9 +149,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * **Vorschau von Tracking-URL-Parametern**: Wenn Sie bei der Konfiguration einer Nachrichtenvoreinstellung URL-Tracking-Parameter definieren, wird jetzt eine dynamische Vorschau der resultierenden Tracking-URL angezeigt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
-* **Erstellung von Nachrichtenvorgaben** - Die Verarbeitungszeit beim Erstellen einer Nachrichtenvorgabe kann jetzt nur noch 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
+* **Nachrichtenvorgabenbearbeitung** - Beim Aktualisieren einer Nachrichtenvorgabe kann die Verarbeitungszeit jetzt nur noch 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#edit-message-preset)
 
-* **IP-Poolbearbeitung** - Die Verarbeitungszeit für die Aktualisierung von IP-Pools kann jetzt nur noch bis zu 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
+* **IP-Poolbearbeitung** - Beim Aktualisieren eines IP-Pools kann die Verarbeitungszeit jetzt nur noch bis zu 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
