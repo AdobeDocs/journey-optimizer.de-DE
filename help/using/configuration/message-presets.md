@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 98%
+source-wordcount: '1537'
+ht-degree: 95%
 
 ---
 
@@ -49,11 +49,25 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren von **E-Mail**-Einstellungen. [Weitere Informationen](#configure-email-settings)
+1. Wenn Sie die Option **[!UICONTROL Email]** -Kanal konfigurieren Sie Ihre Einstellungen wie unter [diesem Abschnitt](email-settings.md).
 
-1. Konfigurieren Sie die Einstellungen für **Push-Benachrichtigungen**. [Weitere Informationen](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Konfigurieren **SMS** -Einstellungen. [Weitere Informationen](sms-configuration.md)
+1. Wenn Sie die Option **[!UICONTROL Push-Benachrichtigung]** mindestens eine Plattform (**iOS** und/oder **Android**) und wählen Sie die Mobile Apps aus, die für jede Plattform verwendet werden sollen.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](push-gs.md).
+
+1. Wenn Sie die Option **[!UICONTROL SMS]** -Kanal konfigurieren Sie Ihre Einstellungen wie unter [diesem Abschnitt](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](sms-configuration.md).
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
@@ -86,42 +100,6 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    ![](assets/preset-active.png)
-
-## Konfigurieren von E-Mail-Einstellungen {#configure-email-settings}
-
-E-Mail-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreinstellungskonfiguration definiert.
-
-![](assets/preset-email.png)
-
-Konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](email-settings.md) beschrieben.
-
-## Konfigurieren der Push-Einstellungen {#configure-push-settings}
-
-Die Push-Einstellungen werden in einem speziellen Abschnitt der Nachrichtenvoreinstellungskonfiguration definiert.
-
-Gehen Sie wie folgt vor, um die mit der Nachrichtenvoreinstellung verknüpften Push-Einstellungen zu definieren:
-
-1. Wählen Sie mindestens eine Plattform aus: **iOS** und/oder **Android**.
-
-1. Wählen Sie für jede Plattform die zu verwendenden Mobile Apps aus.
-
-![](assets/preset-push.png)
-
-Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Überwachen von Nachrichtenvoreinstellungen {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinste
 >
 >Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, wird die Aktualisierung sofort wirksam.
 
+### Details aktualisieren {#update-details}
+
 Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
 
 * Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Voreinstellung angezeigt wird.
@@ -209,7 +189,7 @@ Eine Aktualisierung einer Nachrichtenvoreinstellung kann die folgenden Status au
 
 Jeder Status wird nachfolgend beschrieben.
 
-### In Bearbeitung
+#### In Bearbeitung
 
 Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustellen, dass die Voreinstellung ordnungsgemäß aktualisiert wurde.
 
@@ -231,13 +211,13 @@ Wenn Sie eine bereits aktive Voreinstellung bearbeiten:
 >
 >Sie können eine Nachrichtenvoreinstellung während der Aktualisierung nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
 
-### Erfolgreich {#success}
+#### Erfolgreich {#success}
 
 Nach erfolgreicher Überprüfung wird die neue Version der Voreinstellung automatisch in allen Nachrichten verwendet, die diese Voreinstellung verwenden. Sie müssen jedoch möglicherweise warten:
 * einige Minuten, bevor die Voreinstellung von den einzelnen Nachrichten genutzt wird,
 * bis zum nächsten Batch, damit die Voreinstellung in Batch-Nachrichten wirksam wird.
 
-### Fehlgeschlagen {#failed}
+#### Fehlgeschlagen {#failed}
 
 Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Voreinstellung verwendet.
 

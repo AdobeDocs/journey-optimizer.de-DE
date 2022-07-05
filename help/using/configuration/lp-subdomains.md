@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Subdomains von Landingp
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 91%
+source-wordcount: '737'
+ht-degree: 89%
 
 ---
 
@@ -59,9 +59,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Beachten Sie, dass Sie nicht mehrere zugewiesene Subdomains derselben übergeordneten Domäne verwenden können. Wenn beispielsweise &quot;marketing1.yourcompany.com&quot;bereits der Adobe für Ihre Landingpages zugewiesen wurde, können Sie &quot;marketing2.yourcompany.com&quot;nicht verwenden. Für Landingpages werden jedoch mehrstufige Subdomains unterstützt, sodass Sie &quot;email.marketing1.yourcompany.com&quot;verwenden können.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   Beachten Sie, dass Sie nicht mehrere zugewiesene Subdomains derselben übergeordneten Domäne verwenden können. Wenn beispielsweise &quot;marketing1.yourcompany.com&quot;bereits der Adobe für Ihre Landingpages zugewiesen wurde, können Sie &quot;marketing2.yourcompany.com&quot;nicht verwenden. Da jedoch mehrstufige Subdomains für Landingpages unterstützt werden, können Sie eine Subdomain von &quot;marketing1.yourcompany.com&quot; (z. B. &quot;email.marketing1.yourcompany.com&quot;) oder eine andere übergeordnete Domäne verwenden.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
    >[!NOTE]
    >
    >Bei Landingpages werden mehrstufige Subdomains unterstützt. Sie können beispielsweise &quot;email.marketing.yourcompany.com&quot;verwenden.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diesen Datensatz oder laden Sie eine CSV-Datei herunter und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um den entsprechenden DNS-Eintrag zu generieren.
 

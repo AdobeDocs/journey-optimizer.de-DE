@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesend
 >[!NOTE]
 >
 >Die Regeln zur Nachrichtenhäufigkeit unterscheiden sich von der Opt-out-Verwaltung, die es Benutzern ermöglicht, sich vom Erhalt von Nachrichten einer Marke abzumelden. [Weitere Informationen](../messages/consent.md#opt-out-management)
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Zugriff auf Regeln {#access-rules}
 
@@ -188,3 +190,9 @@ In diesem Szenario kann ein einzelnes Profil:
 >[!NOTE]
 >
 >Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../segment/creating-test-profiles.md) zu beginnen, da es nach Erreichen der Häufigkeitsbegrenzung eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Häufigkeitsregeln erstellen, aktivieren, testen und Berichte dazu erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

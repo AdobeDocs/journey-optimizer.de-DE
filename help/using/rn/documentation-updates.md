@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 89%
+source-wordcount: '1634'
+ht-degree: 97%
 
 ---
 
@@ -13,22 +13,24 @@ ht-degree: 89%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
+## Juli 2022 {#july-2022}
+
+* Die **Nachrichtenvorgabe erstellen** wurde erläutert und mit Links zur Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
 
 ## Juni 2022 {#june-2022}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. Juni wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Der Dokumentation wurde ein neuer Abschnitt zu Datennutzungsrichtlinien hinzugefügt. [Weitere Informationen](../privacy/policies.md)
-* Der Dokumentation wurde ein neuer Abschnitt zu Datenschutzanfragen hinzugefügt. [Weitere Informationen](../privacy/requests.md)
-* Der Dokumentation wurde ein neuer Abschnitt über Auditprotokolle zu Ressourcen hinzugefügt. [Weitere Informationen](../privacy/audit-logs.md)
-* Der Dokumentation wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie HTML- oder JSON-Inhalte aus der Adobe Experience Cloud Asset-Bibliothek zu einer Angebotsdarstellung hinzugefügt werden - [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
-* Eine neue Seite zum Journey-Lebenszyklus wurde hinzugefügt. [Weitere Informationen](../building-journeys/journey-end.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juni 2022 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Es wurde ein neuer Abschnitt über Datennutzungsrichtlinien zur Dokumentation hinzugefügt. [Weitere Informationen](../privacy/policies.md)
+* Es wurde ein neuer Abschnitt über Datenschutzanfragen zur Dokumentation hinzugefügt. [Weitere Informationen](../privacy/requests.md)
+* Es wurde ein neuer Abschnitt über Auditprotokolle zu Ressourcen zur Dokumentation hinzugefügt. [Weitere Informationen](../privacy/audit-logs.md)
+* Es wurde ein neuer Abschnitt zur Dokumentation hinzugefügt, in dem beschrieben wird, wie HTML- oder JSON-Inhalte aus der Adobe Experience Cloud Asset-Bibliothek zu einer Angebotsdarstellung hinzugefügt werden. [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
+* Es wurde eine neue Seite zum Journey-Lebenszyklus hinzugefügt. [Weitere Informationen](../building-journeys/journey-end.md)
 * Die Seite mit der Warteaktivität wurde aktualisiert. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Die Liste der Adobe Journey Optimizer-Datensätze mit Abfragebeispielen wurde hinzugefügt. [Weitere Informationen](../start/datasets-query-examples.md)
-* Die Seite Zulassungsliste wurde in den Abschnitt Konfiguration verschoben. [Weitere Informationen](../configuration/allow-list.md)
-* Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu klären, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Unterdrückungsfeld zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
-* Der Link zu Limits und statischen Limits für die Entscheidungsverwaltung wurde hinzugefügt - [Weitere Informationen](../start/guardrails.md)
+* Die Seite mit der Zulassungsliste wurde in den Abschnitt „Konfiguration“ verschoben. [Weitere Informationen](../configuration/allow-list.md)
+* Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu verdeutlichen, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Feld für den Unterdrückungsgrund zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
+* Der Link zu Leitlinien und statischen Limits für das Entscheidungs-Management wurde hinzugefügt. [Weitere Informationen](../start/guardrails.md)
 * Die Sendezeitoptimierung ist jetzt für alle Kunden verfügbar. Die Beta-Erwähnung wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
-
 
 
 ## Mai 2022 {#may-2022}
@@ -41,7 +43,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Hinweis hinzugefügt, dass die Methode „Delete“ in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Die Links zu Anleitungsvideos wurden aktualisiert.
 * Die Abschnitte [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvoreinstellungen](../configuration/message-presets.md) und [Konfigurieren von Landingpages](../configuration/lp-subdomains.md) wurden neu strukturiert, um die Lesbarkeit zu verbessern.
-* Der Abschnitt **URL-Tracking** wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* Der Abschnitt URL-Tracking wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 * Ein neuer Unterabschnitt zur Einrichtung einer Weiterleitungs-E-Mail-Adresse wurde hinzugefügt. Beachten Sie, dass Sie dies nicht über die Benutzeroberfläche tun können. [Weitere Informationen](../configuration/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}

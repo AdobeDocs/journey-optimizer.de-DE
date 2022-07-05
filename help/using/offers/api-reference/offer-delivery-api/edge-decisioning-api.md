@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platf
 
 >[!NOTE]
 >
->Ausgewählten Benutzern wird derzeit vorab Zugriff auf die Verwendung des Entscheidungs-Managements im Adobe Experience Platform Web SDK gewährt. Diese Funktion ist nicht für alle Organisationen verfügbar.
+>Die Verwendung der Entscheidungsverwaltung im Adobe Experience Platform Web SDK ist nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Wenn Sie diese Funktion nutzen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 

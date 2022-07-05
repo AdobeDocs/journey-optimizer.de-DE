@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 36%
+source-wordcount: '427'
+ht-degree: 38%
 
 ---
 
@@ -25,7 +25,7 @@ Einmal [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie di
 
 >[!AVAILABILITY]
 >
->Der SMS-Kanal ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer für Adobe.
+>Der SMS-Kanal ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
 
 ![](assets/sms_1.png)
 
@@ -68,6 +68,16 @@ Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, 
 Bei allen Marketingnachrichten muss die SMS eine Möglichkeit enthalten, die Empfänger sich einfach abzumelden. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Abmelde-Links nicht erforderlich.
 
 SMS-Empfänger können mit Opt-in- und Opt-out-Keywords antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
+
+Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stopp und Unstop) für SMS finden Sie im folgenden Video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Anleitungsvideo
+
+Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journey integrieren können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Verwandte Themen**
 
