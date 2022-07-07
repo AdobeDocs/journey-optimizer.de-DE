@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -35,9 +35,9 @@ ht-degree: 97%
 + Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
-   + [Ändern oder Anhalten einer Kampagne](using/campaigns/modify-stop-campaign.md)
+   + [Ändern oder Stoppen einer Kampagne](using/campaigns/modify-stop-campaign.md)
    + Berichte {#reports}
-      + [Campaign-Live-Bericht](using/campaigns/campaign-live-report.md)
+      + [Live-Bericht einer Kampagne](using/campaigns/campaign-live-report.md)
       + [Globaler Kampagnenbericht](using/campaigns/campaign-global-report.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
@@ -115,7 +115,7 @@ ht-degree: 97%
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
-      + [Journey-Lebenszyklus](using/building-journeys/journey-end.md)
+      + [Lebenszyklus einer Journey](using/building-journeys/journey-end.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Erstellen einer Journey{#create-journey}
@@ -124,7 +124,7 @@ ht-degree: 97%
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
-      + [Journey in eine andere Sandbox kopieren](using/building-journeys/copy-to-sandbox.md)
+      + [Kopieren einer Journey zu einer anderen Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
    + Aktivitäten {#about-journey-building}
       + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
