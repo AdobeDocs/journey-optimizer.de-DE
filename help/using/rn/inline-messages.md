@@ -4,10 +4,10 @@ description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 389819e9b965bedc13c72fdb65ef86603cd4e2ec
+source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 100%
 >title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
 >abstract="Ab der neuen Journey Optimizer-Version (Juli 2022) werden Nachrichten direkt in einer Journey erstellt. Vorhandene Nachrichten wurden nun in das neue Modell migriert. Als Journey-Anwender*in müssen Sie jetzt zusätzliche Maßnahmen ergreifen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
+>abstract="Ab dem 25. Juli 2022 verschwindet das Menü Nachrichten und Nachrichten werden direkt von einer Journey verfasst. Wenn Sie Ihre alten Nachrichten in Journey wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 
 Adobe Journey Optimizer bietet eine neue Funktion zur Optimierung der Art und Weise, wie Anwender*innen Erlebnisse für von Journey Optimizer bereitgestellte Kanäle wie E-Mail, Push und SMS erstellen können. Diese Funktion erfordert eine Migration vorhandener Journeys, die Nachrichten verwenden.
 
