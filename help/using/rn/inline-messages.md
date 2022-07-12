@@ -2,7 +2,7 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 5%
@@ -114,8 +114,8 @@ Eine Migration ist erforderlich, um Ihre vorhandenen Journey mithilfe von **Nach
 
 Die Migration erfolgt für jede Region nachts durch mehrere Iterationen. Hier finden Sie die Timeline zur Migration:
 
-* 25. Juli 2002: GA - 1. Iteration
-* 1. August 2002: 2. Iteration
+* 25. Juli 2022: GA - 1. Iteration
+* 1. August 2022: 2. Iteration
 * 5. September 2022: 3. Iteration
 * 6. September 2022: veraltet
 
