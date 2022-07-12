@@ -4,10 +4,10 @@ description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 62%
+source-wordcount: '276'
+ht-degree: 43%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 62%
 >abstract="Ab dem 25. Juli 2022 wird das Menü Nachrichten nicht mehr angezeigt und Nachrichten werden direkt von einer Journey verfasst. Wenn Sie Ihre alten Nachrichten in Journey wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Nachrichten als Vorlagen speichern"
 
-Adobe Journey Optimizer bietet eine neue Funktion zur Optimierung der Art und Weise, wie Anwender*innen Erlebnisse für von Journey Optimizer bereitgestellte Kanäle wie E-Mail, Push und SMS erstellen können. Diese Funktion erfordert eine Migration vorhandener Journeys, die Nachrichten verwenden.
+Adobe Journey Optimizer bietet eine neue Funktion, mit der Sie Inhalte für Journey Optimizer-Kanäle (E-Mail, Push, SMS) einfacher erstellen können. Als Journey Optimizer-Praktikant erstellen und verfassen Sie Ihre Nachrichten jetzt direkt über eine Journey.
 
-Als Journey-Anwender*in können Sie Ihre Nachrichten jetzt direkt in einer Journey erstellen und verfassen.
+Diese Funktion erfordert eine Migration vorhandener Journey, die Nachrichten verwenden.
 
 ![](assets/inline-message.png)
 
