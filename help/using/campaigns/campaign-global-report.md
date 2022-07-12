@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 82%
+source-wordcount: '1410'
+ht-degree: 83%
 
 ---
 
@@ -205,3 +205,11 @@ In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie s
 Das Diagramm und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Nutzerprofile, die von den Zielprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach dem Betriebssystem Ihres Empfängers.
+
+## Weitere Ressourcen
+
+* [Erste Schritte mit Kampagnen](get-started-with-campaigns.md)
+* [Erstellen einer Kampagne](create-campaign.md)
+* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Ändern oder Stoppen einer Kampagne](modify-stop-campaign.md)
+* [Live-Bericht einer Kampagne](campaign-live-report.md)

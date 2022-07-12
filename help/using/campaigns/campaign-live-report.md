@@ -1,5 +1,5 @@
 ---
-title: Campaign-Live-Bericht
+title: Live-Bericht einer Kampagne
 description: Erfahren Sie, wie Sie Daten aus dem Campaign-Live-Bericht verwenden.
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 82%
+source-wordcount: '711'
+ht-degree: 83%
 
 ---
 
-# Campaign-Live-Bericht {#campaign-live-report}
+# Live-Bericht einer Kampagne {#campaign-live-report}
 
 Der Campaign-Live-Bericht ist direkt über Ihre Kampagne mit der Variablen **[!UICONTROL Live-Ansicht]** Schaltfläche.
 
@@ -110,3 +110,11 @@ In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL
 Mit dem Widget **[!UICONTROL Sendestatistiken – Fehlgeschlagen]** können Sie sehen, wie viele Fehler und Bounces aufgetreten sind.
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach Betriebssystem.
+
+## Weitere Ressourcen
+
+* [Erste Schritte mit Kampagnen](get-started-with-campaigns.md)
+* [Erstellen einer Kampagne](create-campaign.md)
+* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Ändern oder Stoppen einer Kampagne](modify-stop-campaign.md)
+* [Globaler Kampagnenbericht](campaign-global-report.md)

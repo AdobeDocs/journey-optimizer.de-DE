@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '313'
+ht-degree: 7%
 
 ---
 
@@ -24,14 +24,18 @@ ht-degree: 2%
 
 ## Über Kampagnen {#about}
 
-Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment mithilfe mehrerer Kanäle bereitstellen.
+Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment mithilfe mehrerer Kanäle bereitstellen. Im Gegensatz zu Journey, bei denen Aktionen nacheinander ausgeführt werden sollen, führen Kampagnen Aktionen gleichzeitig, entweder sofort oder innerhalb eines festgelegten Zeitplans aus.
 
-Im Gegensatz zu Journey, bei denen Aktionen nacheinander ausgeführt werden sollen, führen Kampagnen Aktionen gleichzeitig, entweder sofort oder innerhalb eines festgelegten Zeitplans aus. Sie können sie beispielsweise verwenden, um Werbeangebote, Interaktionskampagnen, Mitteilungen, rechtliche Hinweise oder Richtlinien-Updates bereitzustellen.
+Sie können zwei Kampagnentypen erstellen:
+
+* **Geplante Kampagnen** ermöglichen einfache Ad-hoc-Batch-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
+* **API-ausgelöste Kampagnen** ermöglichen einfache Transaktions-/Betriebsnachrichten mit REST-APIs (Kennwortzurücksetzung, Kartenabbruch usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und Kontextdaten aus der Payload bestehen kann.
 
 Erfahren Sie, wie Sie mit Kampagnen arbeiten:
 * [Erstellen einer Kampagne](create-campaign.md)
-* [Ändern oder Anhalten einer Kampagne](modify-stop-campaign.md)
-* [Campaign-Live-Bericht](campaign-live-report.md)
+* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Ändern oder Stoppen einer Kampagne](modify-stop-campaign.md)
+* [Live-Bericht einer Kampagne](campaign-live-report.md)
 * [Globaler Kampagnenbericht](campaign-global-report.md)
 
 ## Zugriff auf Kampagnen {#access}

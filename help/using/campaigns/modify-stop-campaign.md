@@ -1,5 +1,5 @@
 ---
-title: Ändern oder Anhalten einer Kampagne
+title: Ändern oder Stoppen einer Kampagne
 description: Erfahren Sie, wie Sie eine aktivierte Kampagne erstellen oder stoppen in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: '212'
+ht-degree: 15%
 
 ---
 
 
-# Ändern oder Anhalten einer Kampagne {#modify-stop-campaign}
+# Ändern oder Stoppen einer Kampagne {#modify-stop-campaign}
 
 Nachdem eine Kampagne aktiviert wurde, können Sie sie jederzeit bearbeiten oder stoppen. Gehen Sie dazu wie folgt vor.
 
@@ -24,8 +24,6 @@ Nachdem eine Kampagne aktiviert wurde, können Sie sie jederzeit bearbeiten oder
 Gehen Sie wie folgt vor, um eine neue Version einer Kampagne zu ändern und zu erstellen:
 
 1. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne ändern]** Schaltfläche.
-
-   ![](assets/create-campaign-edit.png)
 
 1. Eine neue Version der Kampagne wird erstellt. Sie können die Live-Version überprüfen, indem Sie auf **[!UICONTROL Live-Version öffnen]**.
 
@@ -41,8 +39,6 @@ Gehen Sie wie folgt vor, um eine neue Version einer Kampagne zu ändern und zu e
    >
    >Durch die Aktivierung des Entwurfs wird die Live-Version der Kampagne ersetzt.
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## Kampagne stoppen {#stop}
 
 Um eine Kampagne anzuhalten, öffnen Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne stoppen]** Schaltfläche.
@@ -52,3 +48,11 @@ Um eine Kampagne anzuhalten, öffnen Sie sie und klicken Sie auf die Schaltfläc
 >[!IMPORTANT]
 >
 >Nach dem Anhalten einer Kampagne ist sie nur im schreibgeschützten Modus verfügbar. Sie können sie nicht erneut aktivieren oder zum Erstellen einer neuen Kampagne verwenden.
+
+## Weitere Ressourcen
+
+* [Erste Schritte mit Kampagnen](get-started-with-campaigns.md)
+* [Erstellen einer Kampagne](create-campaign.md)
+* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Live-Bericht einer Kampagne](campaign-live-report.md)
+* [Globaler Kampagnenbericht](campaign-global-report.md)

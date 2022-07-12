@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 771828da23ab0656fc5726845305fe6949620545
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 | AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
 | AJO-Unterdrückungsliste | Erstellen/Löschen/Herunterladen der CSV |
 | Feldergruppe | Erstellen/Löschen/Aktualisieren |
-| Journey | Erstellen/Löschen/Aktualisieren/Anhalten/Veröffentlichen |
+| Journey | Erstellen/Löschen/Beenden/Veröffentlichen |
 | Benutzerdefinierte Aktion in Journey | Erstellen/Löschen/Aktualisieren |
 | Journey-Datenquelle | Erstellen/Löschen/Aktualisieren |
 | Journey-Ereignis | Erstellen/Löschen/Aktualisieren |

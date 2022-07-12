@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '753'
+ht-degree: 6%
 
 ---
 
@@ -33,20 +33,22 @@ Gehen Sie zur Erstellung einer Kampagne wie folgt vor:
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. Im **[!UICONTROL Eigenschaften]** Geben Sie an, wann die Kampagne ausgeführt werden soll:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL Geplant]**: die Kampagne sofort oder an einem bestimmten Datum ausführen. Geplante Kampagnen zielen auf den Versand ab **Marketing** Geben Sie Meldungen ein.
+   * **[!UICONTROL API-ausgelöst]**: die Kampagne mithilfe eines API-Aufrufs ausführen. API-gesteuerte Kampagnen zielen auf das Senden von **transactional** Nachrichten, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Abbruch der Karte usw. [Erfahren Sie, wie Sie eine Kampagne mit APIs Trigger haben.](api-triggered-campaigns.md)
 
-1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Nachrichtenoberfläche (d. h. die Nachrichtenvorgabe) aus, die zum Senden der Nachricht verwendet werden sollen.
+1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Nachrichtenoberfläche (d. h. die Nachrichtenvorgabe) aus, die zum Senden der Nachricht verwendet werden sollen, und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >In der Dropdown-Liste werden nur die mit dem Kampagnentyp (Marketing oder Transaktionsnachrichten) kompatiblen Oberflächen aufgelistet.
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. Im **[!UICONTROL Aktionen]** konfigurieren Sie die mit der Kampagne zu sendende Nachricht:
 
@@ -60,13 +62,11 @@ Gehen Sie zur Erstellung einer Kampagne wie folgt vor:
 
       Die Tracking-Ergebnisse sind nach Ausführung der Kampagne über den Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. Definieren Sie die Zielgruppe. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >Für API-gesteuerte Kampagnen muss die Zielgruppe über API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
 
    Im **[!UICONTROL Identitäts-Namespace]** wählen Sie den Namespace aus, der verwendet werden soll, um die Kontakte aus dem ausgewählten Segment zu identifizieren. [Weitere Informationen zu Namespaces](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ Gehen Sie zur Erstellung einer Kampagne wie folgt vor:
 
    >[!NOTE]
    >
-   >Einzelpersonen, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) unter ihren verschiedenen Identitäten hat, werden von der Kampagne nicht als Ziel ausgewählt. <!--info vue dans section journeys, read segment-->
+   >Einzelpersonen, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) unter ihren verschiedenen Identitäten hat, werden von der Kampagne nicht als Ziel ausgewählt.
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. Konfigurieren Sie das Start- und Enddatum der Kampagne. Standardmäßig sind Kampagnen so konfiguriert, dass sie nach der manuellen Aktivierung gestartet und beendet werden, sobald die Nachricht einmal gesendet wurde.
 
-1. Konfigurieren Sie das Start- und Enddatum der Kampagne.
+1. Darüber hinaus können Sie die Ausführungsfrequenz der in der Kampagne konfigurierten Aktion festlegen.
 
-   Standardmäßig sind Kampagnen so konfiguriert, dass sie nach der manuellen Aktivierung gestartet und beendet werden, sobald die Nachricht einmal gesendet wurde.
-
-1. Zusätzlich können Sie die Ausführungsfrequenz der in der Kampagne konfigurierten Aktion konfigurieren.
+   >[!NOTE]
+   >
+   >Für API-gesteuerte Kampagnen ist die Planung zu einem bestimmten Datum und zu einer bestimmten Uhrzeit mit Wiederholung nicht verfügbar, da die Aktion über die API ausgelöst wird. Das Start- und Enddatum sind jedoch relevant, um sicherzustellen, dass, wenn vor dem Fenster ein API-Aufruf erfolgt, diese fehlerhaft werden.
 
    ![](assets/create-campaign-schedule.png)
+
+1. Wenn Sie eine API-gesteuerte Kampagne erstellen, wird die **[!UICONTROL cURL-Anfrage]** -Abschnitt ermöglicht Ihnen, die **[!UICONTROL Kampagnen-ID]** , um im API-Aufruf zu verwenden. [Weitere Informationen](api-triggered-campaigns.md)
 
 Sobald Ihre Kampagne fertig ist, können Sie sie überprüfen und veröffentlichen (siehe [Kampagne überprüfen und aktivieren](#review-activate)).
 
@@ -124,3 +125,11 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie deren Parameter und Inhalt 
    >[!IMPORTANT]
    >
    >In Kampagnen erstellte Nachrichten sind spezifisch für [!DNL Journey Optimizer] Kampagnenfunktionen. Nach der Erstellung sind sie nur über Kampagnen verfügbar und werden nicht in der Variablen **[!UICONTROL Nachrichten]** Menü.
+
+## Weitere Ressourcen
+
+* [Erste Schritte mit Kampagnen](get-started-with-campaigns.md)
+* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Ändern oder Stoppen einer Kampagne](modify-stop-campaign.md)
+* [Live-Bericht einer Kampagne](campaign-live-report.md)
+* [Globaler Kampagnenbericht](campaign-global-report.md)
