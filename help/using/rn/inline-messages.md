@@ -1,11 +1,13 @@
 ---
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
+hide: true
+hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 12eb8df6ff41714f6035721558fce7d8c2b4407a
+source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 61%
+source-wordcount: '282'
+ht-degree: 62%
 
 ---
 
