@@ -2,9 +2,9 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1684'
 ht-degree: 5%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 5%
 >id="ajo_messages_migration_before"
 >title="Erfahren Sie mehr über die neue Inline-Bearbeitung von Nachrichten"
 >abstract="Ab dem 25. Juli 2022 werden Nachrichten direkt von einer Journey verfasst. Vorhandene Nachrichten werden automatisch in das neue Modell migriert. Nach der Migration sind zusätzliche Aktionen erforderlich."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migrationsschritte"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Migrationsschritte"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Erfahren Sie, was passiert"
 >abstract="Ab dem 25. Juli 2022 werden Nachrichten direkt von einer Journey verfasst. Ihre Umgebung wird migriert. Nach der Migration sind zusätzliche Aktionen erforderlich."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migrationsschritte"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Migrationsschritte"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
 >abstract="Ab dem 25. Juli 2022 werden Nachrichten direkt von einer Journey verfasst. Vorhandene Nachrichten wurden nun in das neue Modell migriert. Als Journey-Anwender*in müssen Sie jetzt zusätzliche Maßnahmen ergreifen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-messages-steps.html" text="Migrationsschritte"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Migrationsschritte"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
 >abstract="Ab dem 25. Juli 2022 wird das Menü Nachrichten nicht mehr angezeigt und Nachrichten werden direkt von einer Journey verfasst. Wenn Sie Ihre alten Nachrichten in Journey wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Nachrichten als Vorlagen speichern"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="Nachrichten als Vorlagen speichern"
 
 Adobe Journey Optimizer bietet eine neue Funktion, mit der Sie Inhalte für Journey Optimizer-Kanäle (E-Mail, Push, SMS) einfacher erstellen können. Als Journey Optimizer-Praktikant erstellen und bearbeiten Sie Ihre Nachrichten jetzt direkt von einer Journey.
 
