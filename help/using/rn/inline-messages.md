@@ -2,9 +2,9 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 5%
 
 ---
@@ -36,11 +36,9 @@ ht-degree: 5%
 >abstract="Ab dem 25. Juli 2022 wird das Menü Nachrichten nicht mehr angezeigt und Nachrichten werden direkt von einer Journey verfasst. Wenn Sie Ihre alten Nachrichten in Journey wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Nachrichten als Vorlagen speichern"
 
-Adobe Journey Optimizer bietet eine neue Funktion, mit der Sie Inhalte für Journey Optimizer-Kanäle (E-Mail, Push, SMS) einfacher erstellen können. Als Journey Optimizer-Praktikant erstellen und verfassen Sie Ihre Nachrichten jetzt direkt über eine Journey.
+Adobe Journey Optimizer bietet eine neue Funktion, mit der Sie Inhalte für Journey Optimizer-Kanäle (E-Mail, Push, SMS) einfacher erstellen können. Als Journey Optimizer-Praktikant erstellen und bearbeiten Sie Ihre Nachrichten jetzt direkt von einer Journey.
 
-Diese Funktion erfordert eine Migration vorhandener Journey, die Nachrichten verwenden.
-
-Auf dieser Seite finden Sie die erforderlichen Informationen zu dieser Änderung sowie die Schritte, die von Ihnen erforderlich sind.
+Diese Funktion erfordert eine Migration vorhandener Journey, die Nachrichten verwenden. Auf dieser Seite finden Sie die erforderlichen Informationen zu dieser Änderung sowie die Schritte, die von Ihnen erforderlich sind.
 
 Weiterführende Informationen zu Ihren Rollen und Zuständigkeiten als Journey Optimizer-Experten finden Sie in diesem Abschnitt [page](../start/path/marketer.md).
 
@@ -61,21 +59,21 @@ Here are the main changes in the interface:
 
 * **Bin ich betroffen?**: Sie sind betroffen, wenn Sie Nachrichten aus dem **Nachrichten** in der linken Navigation und verwenden Sie sie in Ihren Journey. Wenn Sie ein Drittanbietersystem (z. B. Adobe Campaign) verwenden, sind Sie von dieser Migration nicht betroffen.
 
-* **Produktänderungen**: Bei GA (25. Juli) wird Ihr Kanalinhalt innerhalb jeder Journey erstellt und verwaltet. Die **Nachrichten** im linken Navigationsmenü nicht mehr verfügbar sein ([Weitere Infos](../rn/inline-messages.md#change)). Wir werden mit der Migration Ihrer bestehenden Journey fortfahren.
+* **Produktänderungen**: Bei GA (25. Juli) wird Ihr Kanalinhalt innerhalb jeder Journey erstellt und verwaltet. Die **Nachrichten** im linken Navigationsmenü nicht mehr verfügbar ist ([Weitere Informationen](../rn/inline-messages.md#change)). Wir werden mit der Migration Ihrer bestehenden Journey fortfahren.
 
 * **Timeline**: Die Migration erfolgt für jede Region nachts durch mehrere [iterations](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Erforderliche Aktionen**: eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem werden wir Ihre Hilfe mit ein paar Schritten benötigen. Weitere Informationen zu den erforderlichen Schritten finden Sie in diesem [page](../rn/inline-messages-steps.md).
+* **Erforderliche Aktionen**: eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem brauchen wir Ihre Hilfe mit ein paar Schritten. Weitere Informationen zu den erforderlichen Schritten finden Sie in diesem [page](../rn/inline-messages-steps.md).
 
 * **Veraltet**: Nach dem 6. September werden alle Journey, die noch ältere Nachrichten verwenden, gestoppt und später gelöscht.
 
 ## Vorteile und Produktänderungen{#change}
 
-Die Vision der Adobe besteht darin, das Produkt kontinuierlich zu vereinfachen, um effiziente und optimierte Benutzerflüsse zu ermöglichen. Diese neue Methode zur Erstellung von Nachrichten führt zu einem optimierten Benutzerprozess.
+Die Adobe strebt an, das Produkt kontinuierlich zu vereinfachen, um effiziente und optimierte Benutzerabläufe zu ermöglichen. Diese neue Methode zur Erstellung von Nachrichten sorgt für einen optimierten Benutzerprozess.
 
-Wir haben diesen neuen Workflow so konzipiert, dass Inhalte an einer zentralen Stelle platziert werden, direkt an der Stelle, an der sie verwendet werden.
+Wir haben diesen neuen Workflow entwickelt, um Inhalte an einem Ort zu zentralisieren, direkt dort, wo sie verwendet werden.
 
 Die Inhaltserstellung erfolgt nun direkt innerhalb der Journey. Die sofortige **Vorteile** Sie erhalten Folgendes:
 
@@ -110,7 +108,7 @@ Bei GA (25. Juli) gilt dieser neue Benutzerfluss für alle neuen Journey. Die **
 
 ## Migrationszeitleiste{#iterations}
 
-Eine Migration ist erforderlich, um Ihre vorhandenen Journey mithilfe von **Nachrichten** in Journey mit inline erstellten Aktionen. Für Sie wird eine automatische Konvertierung der Journey durchgeführt. Trotzdem werden wir Ihre Hilfe mit ein paar Schritten benötigen.
+Eine Migration ist erforderlich, um Ihre vorhandenen Journey mithilfe von **Nachrichten** in Journey mit inline erstellten Aktionen. Eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem brauchen wir Ihre Hilfe mit ein paar Schritten.
 
 Die Migration erfolgt für jede Region nachts durch mehrere Iterationen. Hier finden Sie die Timeline zur Migration:
 
@@ -151,7 +149,7 @@ Darüber hinaus werden Sie durch produktinterne Benachrichtigungen auf den Bilds
 
 ### Was ist der Migrationsprozess?{#process}
 
-Die Migration erfolgt vollständig automatisch für Journey, die nicht live oder geschlossen sind. Wir wollen keine Live- oder geschlossenen Journey beeinflussen, um Produktionsauswirkungen zu vermeiden. Wir werden Sie bitten, die neue Version zu veröffentlichen, die wir für Sie erstellt haben.
+Die Migration erfolgt vollständig automatisch für Journey, die nicht live oder geschlossen sind. Wir wollen keine Live- oder geschlossenen Journey beeinflussen, um Produktionsauswirkungen zu vermeiden. Wir bitten Sie, die neue Version zu veröffentlichen, die wir für Sie erstellt haben.
 
 Alle Sandboxes einer Kunden-ORG werden gleichzeitig verarbeitet. Während der Bereitstellung der Änderungen werden die folgenden Aktionen ausgeführt:
 
@@ -161,7 +159,7 @@ Diese sind von der Änderung nicht betroffen. Nur Journey, die Nachrichten verwe
 
 **ENTWÜRFE VON Journey, die mindestens eine Nachricht verwenden**
 
-Die Entwurfsversionen von Nachrichten werden während der Migration geändert. Sie verweisen nicht mehr auf eine Nachricht. Die **Nachricht** -Aktivitäten durch die entsprechenden Kanalaktionsaktivitäten ersetzt. Jeder dieser Parameter enthält die Kanalparameter und den Inhalt.
+Die Entwurfsversionen von Nachrichten werden während der Migration geändert. Sie verweisen nicht mehr auf eine Nachricht. Die **Nachricht** -Aktivitäten durch die entsprechenden Kanalaktionsaktivitäten ersetzt. Jeder von ihnen enthält die Kanalparameter und den Inhalt.
 
 Testen Sie wie gewohnt Ihren Entwurf-Journey, bevor Sie ihn veröffentlichen.
 
@@ -169,15 +167,15 @@ Testen Sie wie gewohnt Ihren Entwurf-Journey, bevor Sie ihn veröffentlichen.
 
 Die Live-Version einer Journey läuft weiter, um Produktionsauswirkungen zu vermeiden.
 
-Eine neue Entwurfsversion dieser Journey wird während der Migration erstellt. Diese neue Entwurfsversion ist eine Kopie Ihrer Live-Version, aber Nachrichten werden durch inline erstellte Kanalaktionen ersetzt. Jede Kanalaktionsaktivität enthält die Kanalparameter und den Inhalt. Inhalt geht nicht verloren. Die Berichterstellung geht nicht verloren
+Eine neue Entwurfsversion dieser Journey wird während der Migration erstellt. Diese neue Entwurfsversion ist eine Kopie Ihrer Live-Version, aber Nachrichten werden durch inline erstellte Kanalaktionen ersetzt. Jede Kanalaktionsaktivität enthält die Kanalparameter und den Inhalt. Inhalt geht nicht verloren. Die Berichterstellung geht nicht verloren.
 
 Wir erwarten von Ihnen, dass Sie diese Entwurfsversion überprüfen, testen und veröffentlichen, damit diese die Live-Version wird.
 
-**Journey, die mindestens eine Nachricht verwenden, BEENDET oder STOPPED**
+**Journey, die mindestens eine Nachricht erhalten haben,**
 
 Diese Journey werden ebenfalls migriert.
 
-Beim Betrachten des Journey-Berichts sind die Berichte nun umfangreicher und enthalten nun auch die Informationen, die zuvor im Nachrichtenbericht verfügbar waren.
+Beim Betrachten des Journey-Berichts sind die Berichte nun umfangreicher und enthalten den Informationsstand, der zuvor im Nachrichtenbericht verfügbar war.
 
 **GESCHLOSSENE Journey, die mindestens eine Nachricht verwenden**
 
@@ -191,7 +189,7 @@ Diese werden nicht migriert. Sie müssen sie neu erstellen.
 
 ### Was sind meine Aktionselemente als Kunde?{#actions}
 
-Es wird eine automatische Konvertierung der Journey durchgeführt, es sind jedoch einige Schritte erforderlich. Weitere Informationen zu den erforderlichen Schritten finden Sie in diesem [page](../rn/inline-messages-steps.md).
+Eine automatische Konvertierung von Journey erfolgt für Sie, es sind jedoch einige Schritte erforderlich. Weitere Informationen zu den erforderlichen Schritten finden Sie in diesem [page](../rn/inline-messages-steps.md).
 
 <!--
 
