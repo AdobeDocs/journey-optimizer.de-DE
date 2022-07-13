@@ -2,10 +2,10 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 5%
+source-wordcount: '1692'
+ht-degree: 4%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="Erfahren Sie mehr über die neue Inline-Bearbeitung von Nachrichten"
->abstract="Ab dem 25. Juli 2022 werden Nachrichten direkt von einer Journey verfasst. Vorhandene Nachrichten werden automatisch in das neue Modell migriert. Nach der Migration sind zusätzliche Aktionen erforderlich."
+>title="Erfahren Sie mehr über die neue Inline-Authoring-Funktion"
+>abstract="Ab dem 25. Juli 2022 werden Nachrichten direkt von einer Journey verfasst. Vorhandene Nachrichten werden automatisch in das neue Modell migriert. Nach der Migration sind zusätzliche Aktionen erforderlich, wenn Sie derzeit Nachrichten in Ihren Journey verwenden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Migrationsschritte"
 
 >[!CONTEXTUALHELP]
