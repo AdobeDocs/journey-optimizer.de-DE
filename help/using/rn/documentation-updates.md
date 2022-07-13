@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 97%
+source-wordcount: '1653'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu verdeutlichen, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Feld für den Unterdrückungsgrund zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
 * Der Link zu Leitlinien und statischen Limits für das Entscheidungs-Management wurde hinzugefügt. [Weitere Informationen](../start/guardrails.md)
 * Die Sendezeitoptimierung ist jetzt für alle Kunden verfügbar. Die Beta-Erwähnung wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
-
+* Die Batch Decisioning-API wurde zur Liste der verfügbaren APIs für die Bereitstellung personalisierter Angebote hinzugefügt. [Weitere Informationen](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
 
@@ -169,3 +169,4 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Warnhinweis hinzugefügt, der darauf hinweist, dass ereignisbasierte Angebote derzeit nicht unterstützt werden. [Mehr dazu](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Die neue Registerkarte **[!UICONTROL Überblick]** im Entscheidungs-Management wurde vorgestellt. [Mehr dazu](../offers/get-started/user-interface.md#overview)
 * Es wurden neue Abschnitte hinzugefügt, um die in den Angebots- und Entscheidungslisten verfügbaren Aktionen zu beschreiben: [Angebotsliste](../offers/offer-library/creating-personalized-offers.md#offer-list) und [Entscheidungsliste](../offers/offer-activities/create-offer-activities.md#decision-list).
+
