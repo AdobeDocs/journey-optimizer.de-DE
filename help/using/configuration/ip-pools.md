@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -78,8 +78,8 @@ So bearbeiten Sie einen IP-Pool:
 
 Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool mit einer [Nachrichtenvoreinstellung](message-presets.md) verknüpft ist oder nicht:
 
-* Wenn der IP-Pool **not** mit einer Nachrichtenvorgabe verknüpft ist, ist die Aktualisierung sofort verfügbar (**[!UICONTROL Erfolg]** Status).
-* Wenn der IP-Pool **is** mit einer Nachrichtenvorgabe verknüpft ist, kann die Aktualisierung bis zu 3 Stunden dauern (**[!UICONTROL Verarbeitung]** Status).
+* Wenn der IP-Pool **nicht** mit einer Nachrichtenvoreinstellung verknüpft ist, erfolgt die Aktualisierung sofort (Status **[!UICONTROL Erfolg]**).
+* Wenn der IP-Pool **mit einer Nachrichtenvoreinstellung verknüpft ist**, kann die Aktualisierung bis zu 3 Stunden dauern (Status **[!UICONTROL Verarbeitung läuft]**).
 
 >[!NOTE]
 >
