@@ -3,9 +3,9 @@ title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Objekte zwischen Sandboxes kopieren</strong><br/></th>
+<th><strong>Kopieren von Objekten zwischen Sandboxes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Erlebnisse von einer Journey Optimizer-Sandbox in eine andere neu erstellen, z. B. von einer Nicht-Produktions-Sandbox zu einer Produktions-Sandbox. Diese neue Funktion kopiert eine ganze Journey, einschließlich aller Objekte, von denen die Journey abhängig ist, um korrekt ausgeführt zu werden, von einer Umgebung in eine andere. Zusätzlich zu Journey können Sie auch andere Komponenten kopieren, z. B. Angebote, Nachrichten, Schemas, Datensätze, Datenquellen, Ereignisse und Aktionen.</p>
+<p>Sie können jetzt die Erlebnisse von einer Journey Optimizer-Sandbox in einer anderen neu erstellen, z. B. von einer Nicht-Produktions-Sandbox zu einer Produktions-Sandbox. Diese neue Funktion kopiert eine ganze Journey, einschließlich aller Objekte, von denen die Journey abhängig ist, um korrekt ausgeführt zu werden, von einer Umgebung in eine andere. Zusätzlich zu Journeys können Sie auch andere Komponenten kopieren, z. B. Angebote, Nachrichten, Schemata, Datensätze, Datenquellen, Ereignisse und Aktionen.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">entsprechenden Dokumentation</a>.
 </td>
 </tr>
@@ -149,9 +149,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * **Vorschau von Tracking-URL-Parametern**: Wenn Sie bei der Konfiguration einer Nachrichtenvoreinstellung URL-Tracking-Parameter definieren, wird jetzt eine dynamische Vorschau der resultierenden Tracking-URL angezeigt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
-* **Nachrichtenvorgabenbearbeitung** - Beim Aktualisieren einer Nachrichtenvorgabe kann die Verarbeitungszeit jetzt nur noch 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#edit-message-preset)
+* **Nachrichtenvoreinstellungsbearbeitung** – Beim Aktualisieren einer Nachrichtenvoreinstellung kann die Verarbeitungszeit jetzt nur noch maximal 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#edit-message-preset)
 
-* **IP-Poolbearbeitung** - Beim Aktualisieren eines IP-Pools kann die Verarbeitungszeit jetzt nur noch bis zu 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
+* **IP-Pool-Bearbeitung** – Beim Aktualisieren eines IP-Pools kann die Verarbeitungszeit jetzt nur noch maximal 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
