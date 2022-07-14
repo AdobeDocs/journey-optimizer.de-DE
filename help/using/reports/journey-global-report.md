@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1842'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -250,13 +250,13 @@ Das Diagramm und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die versc
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach dem Betriebssystem Ihres Empfängers.
 
-SMS **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
+Die SMS **[!UICONTROL Globaler Bericht]** ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrem Versand detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
-## SMS-Tab {#sms-global}
+## Registerkarte „SMS“ {#sms-global}
 
 ![](assets/report_sms_global.png)
 
-Die **[!UICONTROL SMS - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
+Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg des Versands:
 
 * **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
@@ -270,7 +270,7 @@ Die **[!UICONTROL SMS - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Ve
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-Die **[!UICONTROL SMS-Zusammenfassung]** Widget erläutert die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm:
+Das Widget **[!UICONTROL SMS-Zusammenfassung]** präsentiert die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -280,4 +280,4 @@ Die **[!UICONTROL SMS-Zusammenfassung]** Widget erläutert die wichtigsten Infor
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-Die **[!UICONTROL Ausschlussgründe]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
+In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen Sie, welche Fehler und Ausschlüsse während des Versands aufgetreten sind.
