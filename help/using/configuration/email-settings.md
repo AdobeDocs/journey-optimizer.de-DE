@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -163,15 +163,15 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Definieren von URL-Tracking-Parametern"
->abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die URLs anzuhängen, die in Ihrem E-Mail-Inhalt vorhanden sind. Diese Funktion ist optional."
+>title="Definieren der URL-Tracking-Parameter"
+>abstract="Verwenden Sie diesen Abschnitt, um Tracking-Parameter automatisch an die im E-Mail-Inhalt vorhandenen URLs anzuhängen. Diese Funktion ist optional."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Vorschau von URL-Tracking-Parametern"
+>title="Vorschau der URL-Tracking-Parameter"
 >abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
-Sie können **[!UICONTROL URL-Tracking-Parameter]** , um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
+Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
 
 Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
@@ -179,7 +179,7 @@ Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angeh�
 
 Beim Erstellen einer Nachrichtenvoreinstellung werden drei URL-Tracking-Parameter automatisch ausgefüllt. Sie können diese bearbeiten und mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
-Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die **[!UICONTROL Name]** und **[!UICONTROL Wert]** -Felder.
+Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
 Sie können auch aus einer Liste vordefinierter Werte wählen, indem Sie zu den folgenden Objekten navigieren:
 * Journey-Attribute: **Quellen-ID**, **Quellenname**, **Quellenversions-ID**
