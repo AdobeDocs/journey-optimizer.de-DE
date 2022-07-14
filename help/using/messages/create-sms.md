@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 38%
 >title="SMS-Erstellung"
 >abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
 
-Einmal [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie die **[!UICONTROL SMS]** um die Einstellungen und den Inhalt der SMS-Nachricht zu definieren.
+Nachdem Sie [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt der SMS-Nachricht festzulegen.
 
 
 >[!AVAILABILITY]
@@ -31,7 +31,7 @@ Einmal [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie di
 
 Wenn Sie zum ersten Mal eine SMS erstellen, stellen Sie sicher, dass der SMS-Kanal konfiguriert wurde. [Weitere Informationen](../configuration/sms-configuration.md).
 
-## SMS-Inhalt definieren{#sms-content}
+## Definieren Ihres SMS-Inhalts{#sms-content}
 
 Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
 
@@ -47,27 +47,27 @@ Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu begi
 
    ![](assets/sms_2.png)
 
-1. Klicken **[!UICONTROL Speichern]** wenn Ihre Nachricht fertig ist.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre Nachricht fertig ist.
 
-## SMS validieren{#sms-preview}
+## Validieren Ihrer SMS{#sms-preview}
 
-Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierter Inhalt](../personalization/personalize.md)können Sie anhand von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
 
-Um zu visualisieren, wie Ihre SMS-Nachricht auf Mobilgeräten angezeigt wird, navigieren Sie zum **[!UICONTROL Vorschau]** Registerkarte.
+Um zu visualisieren, wie Ihre SMS-Nachricht auf Mobilgeräten angezeigt wird, navigieren Sie zur Registerkarte **[!UICONTROL Vorschau]**.
 
 Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
 
 ## Veröffentlichen Ihrer SMS {#sms-publish}
 
-Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Durch diese Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Ausführungen in Ihren Journey verwendet wird.
+Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Versandausführungen in Ihren Journeys verwendet wird.
 
 Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, wie Sie Journeys erstellen](../building-journeys/journey-gs.md).
 
 ## Opt-in und Opt-out{#sms-opt-in-out}
 
-Bei allen Marketingnachrichten muss die SMS eine Möglichkeit enthalten, die Empfänger sich einfach abzumelden. Nach der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Abmelde-Links nicht erforderlich.
+Bei allen Marketing-Nachrichten muss die SMS eine Möglichkeit enthalten, mit der sich die Empfangenden leicht abmelden können. Nach der Abmeldung werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Links zum Abmelden nicht erforderlich.
 
-SMS-Empfänger können mit Opt-in- und Opt-out-Keywords antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
+Menschen, die SMS erhalten, können mit Keywords zum Opt-in oder Opt-out antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
 
 Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stopp und Unstop) für SMS finden Sie im folgenden Video.
 
