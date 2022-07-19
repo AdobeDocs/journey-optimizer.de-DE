@@ -47,9 +47,9 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
    Wählen Sie unter den drei folgenden Optionen eine aus:
 
-   * **[!UICONTROL Opt-in, wenn markiert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu erteilen (Opt-in).
+   * **[!UICONTROL Opt-out, wenn aktiviert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu erteilen (Opt-in).
    * **[!UICONTROL Opt-out, wenn markiert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu entfernen (Opt-out).
-   * **[!UICONTROL Opt-in, wenn markiert, Opt-out, wenn nicht markiert]**: Mit dieser Option können Sie ein einziges Kontrollkästchen für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out).
+   * **[!UICONTROL Opt-in, wenn aktiviert, Opt-out, wenn deaktiviert]**: Mit dieser Option können Sie ein einziges Kontrollkästchen für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out).
 
 1. Wählen Sie aus den drei folgenden Optionen aus, was aktualisiert werden soll:
 
