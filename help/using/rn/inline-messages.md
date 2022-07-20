@@ -2,10 +2,10 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -287,7 +287,10 @@ Es gibt keinen Datenverlust und keine Auswirkungen auf Live-Journey. Sie haben d
 
 ### Wird es zu Funktionsverlust kommen?{#functionality}
 
-Die Art und Weise, wie Sie Nachrichten erstellen, wird sich ändern. Funktionalität wird nicht verloren gehen.
+Die Art und Weise, wie Sie Nachrichten erstellen, wird sich ändern. Funktionalität wird nicht verloren gehen. Beachten Sie, dass ab dem 25. Juli (Inline Authoring-Feature Release) Einschränkungen für Aktionen gelten, die auf Journey mit **Nachricht** Aktivitäten:
+
+* Sie können keine **Nachricht** Aktivität. Sie können jedoch die neuen Kanalaktionsaktivitäten kopieren/einfügen.
+* Für diese Journey können Sie die folgenden Aktionen nicht ausführen: Testen, Veröffentlichen, Duplizieren, Erstellen einer neuen Version, Schließen oder Kopieren in eine andere Sandbox. Diese Einschränkungen gelten solange, wie **Nachrichten** -Aktivitäten in diesen Journey vorhanden sind. Sie können warten, bis der Migrationsprozess ausgeführt und aktualisiert wird **Nachrichten** -Aktivitäten, um Aktionsaktivitäten zu kanalisieren, oder Sie können diese entfernen **Nachrichten** manuell.
 
 ### Wird während des Migrationsprozesses Zugriff auf die Umgebung gewährt?
 
