@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Juli 2022 {#july-2022}
 
-* Die **Nachrichtenvorgabe erstellen** wurde erläutert und mit Links zur Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
+* Der Abschnitt **Erstellen einer Nachrichtenvoreinstellung** wurde präzisiert und mit Links zu der Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/message-presets.md#create-message-preset)
 
 ## Juni 2022 {#june-2022}
 
@@ -30,7 +30,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Seite mit der Zulassungsliste wurde in den Abschnitt „Konfiguration“ verschoben. [Weitere Informationen](../configuration/allow-list.md)
 * Die Seite mit der Unterdrückungsliste wurde aktualisiert, um einige Informationen zu verdeutlichen, darunter die Tatsache, dass alle ASCII-Zeichen zwischen 32 und 126 im Feld für den Unterdrückungsgrund zulässig sind. [Weitere Informationen](../configuration/manage-suppression-list.md)
 * Der Link zu Leitlinien und statischen Limits für das Entscheidungs-Management wurde hinzugefügt. [Weitere Informationen](../start/guardrails.md)
-* Die Sendezeitoptimierung ist jetzt für alle Kunden verfügbar. Die Beta-Erwähnung wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
+* Die Sendezeitoptimierung ist jetzt für alle Kundinnen und Kunden verfügbar. Die Erwähnung der Betaversion wurde entfernt. [Weitere Informationen](../building-journeys/journeys-message.md#send-time-optimization)
 * Die Batch Decisioning-API wurde zur Liste der verfügbaren APIs für die Bereitstellung personalisierter Angebote hinzugefügt. [Weitere Informationen](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mai 2022 {#may-2022}
@@ -43,7 +43,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Hinweis hinzugefügt, dass die Methode „Delete“ in benutzerdefinierten Aktionen nicht unterstützt wird. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Die Links zu Anleitungsvideos wurden aktualisiert.
 * Die Abschnitte [E-Mail-Konfiguration](../configuration/about-subdomain-delegation.md), [Nachrichtenvoreinstellungen](../configuration/message-presets.md) und [Konfigurieren von Landingpages](../configuration/lp-subdomains.md) wurden neu strukturiert, um die Lesbarkeit zu verbessern.
-* Der Abschnitt URL-Tracking wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* Der Abschnitt „URL-Tracking“ wurde aktualisiert und mit Beispielen ergänzt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 * Ein neuer Unterabschnitt zur Einrichtung einer Weiterleitungs-E-Mail-Adresse wurde hinzugefügt. Beachten Sie, dass Sie dies nicht über die Benutzeroberfläche tun können. [Weitere Informationen](../configuration/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}

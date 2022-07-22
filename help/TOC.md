@@ -127,7 +127,7 @@ ht-degree: 98%
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
-      + [Kopieren einer Journey zu einer anderen Sandbox](using/building-journeys/copy-to-sandbox.md)
+      + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
    + Aktivitäten {#about-journey-building}
       + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
