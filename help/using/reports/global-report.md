@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 85%
 
 ---
 
@@ -21,15 +21,11 @@ ht-degree: 100%
 
 Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Journeys und Ihrer Sendungen über einen bestimmten Zeitraum messen.
 
-* Wenn Sie eine Journey oder Sendungen in einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Globaler Bericht]**. Anschließend können Sie den **[!UICONTROL globalen Bericht]** zu Journeys, E-Mail-Nachrichten und Push-Benachrichtigungen finden.
+* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey auswählen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche. Anschließend finden Sie die globalen Berichte Journey, E-Mail, SMS und Push .
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* Wenn Sie einen bestimmten Versand auswählen möchten, wählen Sie in der Ansicht **[!UICONTROL Global]** auf der Registerkarte **[!UICONTROL Ausführungen]** Ihrer Nachrichten die Option **[!UICONTROL Globaler Bericht]** aus dem erweiterten Menü des ausgewählten Versands.
-
-   ![](assets/report_4.png)
-
-* Wenn Sie für Ihren Versand vom **[!UICONTROL globalen Bericht]** zum **[!UICONTROL Live-Bericht]** wechseln möchten, klicken Sie im Tab-Umschalter auf **[!UICONTROL Live-Ansicht]**.
+* Wenn Sie für Ihren Versand vom **[!UICONTROL Live-Bericht]** zum **[!UICONTROL globalen Bericht]** wechseln möchten, klicken Sie im Tab-Umschalter auf **[!UICONTROL Globale Ansicht]**.
 
    ![](assets/report_5.png)
 

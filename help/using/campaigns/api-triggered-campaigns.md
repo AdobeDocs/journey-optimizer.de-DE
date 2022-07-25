@@ -3,13 +3,13 @@ title: Trigger-Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit Kampagnen Trigger erstellen können. [!DNL Journey Optimizer] APIs
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 3%
 
 ---
-
 
 # Trigger-Kampagnen mit APIs {#trigger-campaigns}
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine API-gesteuerte Kampagne zu erstellen:
 
 1. Erstellen Sie eine neue Kampagne mit der **[!UICONTROL API-ausgelöst]** Typ.
 
-1. Wählen Sie den Kanal und die Nachrichtenoberfläche für den Nachrichtenversand aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie den Kanal und die Kanaloberfläche für den Nachrichtenversand aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -67,7 +67,7 @@ In diesem Beispiel möchten Kunden ihr Kennwort zurücksetzen und ihnen eine URL
 >
 >Im Gegensatz zu profilaktivierten Ereignissen werden die in der REST-API übergebenen Kontextdaten für die einmalige Kommunikation verwendet und nicht für das Profil gespeichert. Das Profil wird höchstens mit den Namespace-Details erstellt, wenn es als fehlend erkannt wurde.
 
-Um diese Daten in Ihren Kampagnen verwenden zu können, müssen Sie sie an die API-Payload übergeben und sie mithilfe des Ausdruckseditors in Ihrer Nachricht hinzufügen. Verwenden Sie dazu die `{{context.<contextualAttribute>}}` Syntax, wobei `<contextualAttribute>` sollte mit dem Namen der Variablen in Ihrer API-Payload übereinstimmen, die die Daten enthält, die Sie übergeben möchten.
+Um diese Daten in Ihren Kampagnen verwenden zu können, müssen Sie sie an die API-Payload übergeben und mithilfe des Ausdruckseditors zu Ihrer Nachricht hinzufügen. Verwenden Sie dazu die `{{context.<contextualAttribute>}}` Syntax, wobei `<contextualAttribute>` sollte mit dem Namen der Variablen in Ihrer API-Payload übereinstimmen, die die Daten enthält, die Sie übergeben möchten.
 
 Die `{{context.<contextualAttribute>}}` -Syntax ist nur einem String-Datentyp zugeordnet.
 

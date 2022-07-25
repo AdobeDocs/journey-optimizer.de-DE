@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1490'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hin
 
 **Aktionen**
 
-Hier finden Sie die Aktivität **Nachricht**, mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einschließen können. [Weitere Informationen zur Aktivität „Nachricht“](journeys-message.md)
+Hier finden Sie die Aktivität Kanalaktion , mit der Sie eine Nachricht einfügen können, die in [!DNL Journey Optimizer]. [Erfahren Sie mehr über die Aktionsaktivitäten des Kanals](journeys-message.md)
 
 Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
 

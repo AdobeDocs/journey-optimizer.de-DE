@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -74,10 +74,10 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
    ![](assets/lp-preset-active-temp.png)
 
 Sie sind nun bereit, in [!DNL Journey Optimizer] [Landingpages zu erstellen](../landing-pages/create-lp.md).
-
+<!--
 >[!NOTE]
 >
->Informationen zum Erstellen von Voreinstellungen für Push-Benachrichtigungen und E-Mails finden Sie in [diesem Abschnitt](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Verwandte Themen**:
 

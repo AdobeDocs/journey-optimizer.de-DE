@@ -2,10 +2,10 @@
 title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2070'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Reporting**
 
-* **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten. [Weitere Informationen](../reports/message-monitoring.md)
+* **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten.
 
 
 **Administration**
@@ -126,7 +126,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <td>
 <p>In Berichten sind neue Metriken verfügbar: „Zielgruppe“ und „Ausgeschlossen“ für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die unterschiedlichen Reporting-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der <a href="../reports/live-report.md">entsprechenden Dokumentation</a>.</p>
 <p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
-<p>Weitere Informationen finden Sie in der <a href="../reports/message-monitoring.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/global-report.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <td>
 <p>Senden Sie mit Adobe Journey Optimizer Ihre Push-Benachrichtigung oder E-Mail automatisch zum besten Zeitpunkt für jeden Kunden. Die Optimierung des Versandzeitpunktes basiert auf den KI-Services von Adobe und sagt den besten Versandzeitpunkt für E-Mails oder Push-Benachrichtigungen voraus. Dadurch werden die Interaktionen auf der Grundlage historischer Öffnungs- und Klickraten automatisch maximiert.</p>
 <p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journeys-message.md#send-time-optimization">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../messages/send-time-optimization.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -274,7 +274,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Personalisierung**
 
-* **Ausdruckseditor** – Bei der Definition der Personalisierung können Sie jetzt einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](../personalization/functions/helpers.md)
+* **Ausdruckseditor** - Sie können jetzt beim Definieren der Personalisierung einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](../personalization/functions/helpers.md)
 
 **E-Mail-Konfiguration**
 
@@ -289,7 +289,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 * Fehlerkorrektur – Die Barrierefreiheit in der Navigation auf der Nachrichtenregisterkarte funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Die Lokalisierung in den Email Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
-* Fehlerkorrektur – Die Auswahl von mehr als einem Knoten in einer Journey und anschließendem Klicken auf „Löschen“ im Eigenschafts-Panel funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur - Es wurde ein Problem behoben, das beim Auswählen von mehr als einem Knoten in einer Journey und Klicken auf &quot;Löschen&quot;im Eigenschaftenbereich auftrat.
 * Fehlerkorrektur – Ein neuer Header kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
 * Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvoreinstellung fehlgeschlagen ist.
 
@@ -342,7 +342,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Mehr dazu](../start/user-interface.md#filter-lists)
 * Der Parameter **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität „Segment lesen“ hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Nachrichtenvorschau und Testversand**
+**Vorschau und Test**
 
 * Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../design/preview.md#preview-your-messages)
 * Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
@@ -357,6 +357,6 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * Fehlerkorrektur – Jetzt werden keine doppelten Nachrichten mehr während des Batch-E-Mail-Versands gesendet.
 * Fehlerkorrektur – Ereignisse werden jetzt entsprechend generiert, wenn nach Ablauf des Wiederholungszeitraums kein E-Mail-Versand mehr durchgeführt wird.
 * Fehlerkorrektur – Im Bildschirm „PTR-Datensätze“ fehlen jetzt keine IP-Informationen mehr.
-* Fehlerkorrektur – Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
+* Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
 * Fehlerkorrektur – Der Abstand in Informations-Popups ist jetzt korrekt.
 * Fehlerkorrektur – Beim Hochladen einer HTML-Datei in Email Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.

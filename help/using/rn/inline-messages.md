@@ -2,10 +2,10 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 3%
 
 ---
 
@@ -287,10 +287,7 @@ Es gibt keinen Datenverlust und keine Auswirkungen auf Live-Journey. Sie haben d
 
 ### Wird es zu Funktionsverlust kommen?{#functionality}
 
-Die Art und Weise, wie Sie Nachrichten erstellen, wird sich ändern. Funktionalität wird nicht verloren gehen. Beachten Sie, dass ab dem 25. Juli (Inline Authoring-Feature Release) Einschränkungen für Aktionen gelten, die auf Journey mit **Nachricht** Aktivitäten:
-
-* Sie können keine **Nachricht** Aktivität. Sie können jedoch die neuen Kanalaktionsaktivitäten kopieren/einfügen.
-* Für diese Journey können Sie die folgenden Aktionen nicht ausführen: Testen, Veröffentlichen, Duplizieren, Erstellen einer neuen Version, Schließen oder Kopieren in eine andere Sandbox. Diese Einschränkungen gelten solange, wie **Nachrichten** -Aktivitäten in diesen Journey vorhanden sind. Sie können warten, bis der Migrationsprozess ausgeführt und aktualisiert wird **Nachrichten** -Aktivitäten, um Aktionsaktivitäten zu kanalisieren, oder Sie können diese entfernen **Nachrichten** manuell.
+Die Art und Weise, wie Sie Nachrichten erstellen, wird sich ändern. Funktionalität wird nicht verloren gehen.
 
 ### Wird während des Migrationsprozesses Zugriff auf die Umgebung gewährt?
 
@@ -303,6 +300,12 @@ Ja, Live-Journey laufen weiter.
 ### Woher weiß ich, dass die Migration abgeschlossen ist?
 
 Die Migration ist abgeschlossen, wenn das Banner ausgeblendet wird. Weitere Informationen finden Sie in diesem [Abschnitt](../rn/inline-messages.md#inform).
+
+### Wie wirkt sich dies auf die Berechtigungen im Zusammenhang mit Nachrichten aus?
+
+Die Inline-Authoring-Funktion wirkt sich auf Berechtigungen aus. Jede Berechtigung im Zusammenhang mit Nachrichten, z. B. [!DNL View Messages] oder [!DNL Manage Messages]automatisch in die mit der Journey-Funktion verknüpften Berechtigungen aufgenommen.
+
+Weiterführende Informationen finden Sie auf dieser [Seite](../administration/ootb-product-profiles.md).
 
 <!--
 * Improved authoring flow and navigation

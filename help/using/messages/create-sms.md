@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 62%
 
 ---
 
@@ -18,16 +18,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS-Erstellung"
->abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
+>abstract="Fügen Sie Ihre Textnachricht hinzu und beginnen Sie mit der Personalisierung mit dem Ausdruckseditor."
 
-Nachdem Sie [eine Nachricht erstellt haben](get-started-content.md), verwenden Sie die Registerkarte **[!UICONTROL SMS]**, um die Einstellungen und den Inhalt der SMS-Nachricht festzulegen.
+Verwendung [!DNL Journey Optimizer] , um Ihren Kunden auf ihren Mobilgeräten Textnachrichten zu senden. Sie können Nachrichten im Textformat im SMS-Editor erstellen, personalisieren und in der Vorschau anzeigen.
 
+Einmal [SMS hinzugefügt](get-started-content.md) -Aktivität in Ihrer Journey und den definierten Grundeinstellungen verwenden Sie die **[!UICONTROL Aktionen: SMS]** den Inhalt der SMS-Nachricht erstellen.
 
 >[!AVAILABILITY]
 >
 >Der SMS-Kanal ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
 
-![](assets/sms_1.png)
+![](assets/sms-edit-content.png)
 
 Wenn Sie zum ersten Mal eine SMS erstellen, stellen Sie sicher, dass der SMS-Kanal konfiguriert wurde. [Weitere Informationen](../configuration/sms-configuration.md).
 
@@ -35,33 +36,27 @@ Wenn Sie zum ersten Mal eine SMS erstellen, stellen Sie sicher, dass der SMS-Kan
 
 Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
 
-1. Klicken Sie auf das Feld **[!UICONTROL Textnachricht hinzufügen]**, um den Ausdruckseditor zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Nachricht]** -Feld, um den Ausdruckseditor zu öffnen.
 
-   ![](assets/sms_3.png)
+   ![](assets/sms-content.png)
 
-1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren. Sie können jedes Attribut verwenden, um Inhalte zu personalisieren, z. B. den Profilnamen oder die Stadt. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren. Sie können jedes Attribut verwenden, um Inhalte zu personalisieren, z. B. den Profilnamen oder die Stadt. Weitere Informationen zur Personalisierung finden Sie im Ausdruckseditor unter [diesem Abschnitt](../personalization/personalize.md).
 
-   >[!NOTE]
-   >
-   > Eine SMS-Nachricht kann bis zu 160 Zeichen lang sein, einschließlich Leerzeichen und Zeilenumbrüchen.
+1. Klicken **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
 
-   ![](assets/sms_2.png)
+   ![](assets/sms-content-preview.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre Nachricht fertig ist.
 
 ## Validieren Ihrer SMS{#sms-preview}
 
 Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
 
-Um zu visualisieren, wie Ihre SMS-Nachricht auf Mobilgeräten angezeigt wird, navigieren Sie zur Registerkarte **[!UICONTROL Vorschau]**.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Registerkarte. Weitere Informationen zur Inhaltsimulation finden Sie unter [diesem Abschnitt](../design/preview.md).
 
-Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
 
-## Veröffentlichen Ihrer SMS {#sms-publish}
+![](assets/sms-alert-button.png)
 
-Sobald Ihre Nachricht fertig ist, können Sie sie über die Schaltfläche **[!UICONTROL Veröffentlichen]** veröffentlichen und sie damit dem Versand zur Verfügung stellen. Mit dieser Aktion wird die neue Version der Nachricht veröffentlicht, die für die nächsten Versandausführungen in Ihren Journeys verwendet wird.
-
-Ihre SMS-Nachricht kann jetzt in einer Journey verwendet werden. [Erfahren Sie, wie Sie Journeys erstellen](../building-journeys/journey-gs.md).
 
 ## Opt-in und Opt-out{#sms-opt-in-out}
 
@@ -73,12 +68,13 @@ Weiterführende Informationen zur Unterstützung von nativen eingehenden Keyword
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
-## Anleitungsvideo
+<!--
+## How-to video
 
-Erfahren Sie, wie Sie SMS-Nachrichten konfigurieren, erstellen und in Ihre Journey integrieren können.
+Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
+-->
 **Verwandte Themen**
 
 * [Konfigurieren des SMS-Kanals](../configuration/sms-configuration.md)

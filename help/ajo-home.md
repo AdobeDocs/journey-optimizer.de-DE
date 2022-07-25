@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # Dokumentation zu Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>Am 25. Juli veröffentlicht Adobe Journey Optimizer eine [neue Funktion](using/rn/inline-messages.md) verbessert die Inhaltserstellung für Journey Optimizer-Kanäle (E-Mail, Push, SMS). Als Journey Optimizer-Praktikant [Erstellen und Erstellen](using/messages/get-started-content.md) Ihre Nachrichten direkt von einer Journey. Eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem brauchen wir Ihre Hilfe mit ein paar Schritten. Weitere Informationen finden Sie unter [erforderliche Schritte](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 100%
     Erstellen einer neuen E-Mail oder Importieren eines vorhandenen HTML-Inhalts
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Nachrichten senden</a>
+      <a href="using/messages/get-started-content.md">Nachrichten senden</a>
     </div>
     <p>Erfahren Sie, wie Sie Ihren Customer Journeys Push-Benachrichtigungen und E-Mail-Nachrichten hinzufügen.
     <p>
@@ -114,9 +118,6 @@ ht-degree: 100%
     <p>JOURNEY-MANAGEMENT</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">Nachrichten</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">Landingpages</a>

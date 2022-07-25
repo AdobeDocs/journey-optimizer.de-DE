@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,6 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
 * Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-
-## Einschränkungen bei Nachrichtenaktionen
-
-* Wenn Sie eine Multi-Channel-Nachricht hinzufügen, werden zwei Nachrichten gesendet.
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 

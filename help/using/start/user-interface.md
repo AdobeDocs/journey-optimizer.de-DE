@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen v
 
 ## Linke Navigation {#left-nav}
 
-Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
+Links links durchsuchen, um auf [!DNL Journey Optimizer] Funktionen.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Durchsuchen Sie die Funktionen mithilfe der Links auf der linken Seite.
 >
 >Die verfügbaren Funktionen hängen von Ihren Berechtigungen und Ihrer Lizenzvereinbarung ab.
 
-Unten finden Sie eine vollständige Liste der Einträge in der linken Leiste sowie die Links zur entsprechenden Dokumentation.
+Unten finden Sie die vollständige Liste der im linken Navigationsbereich verfügbaren Dienste und Funktionen sowie Links zu den zugehörigen Hilfeseiten.
 
 **Startseite**
 
-Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourcen für den Start. Die Liste **[!UICONTROL Zuletzt erstellt]** enthält Verknüpfungen zu den kürzlich erstellten oder aktualisierten Nachrichten, Ereignissen und Journeys. Diese Liste zeigt die Erstellungs- und Änderungsdaten sowie den Status an.
+Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourcen für den Start. Die **[!UICONTROL Letzte]** -Liste enthält Verknüpfungen zu den kürzlich erstellten Ereignissen und Journey. Diese Liste zeigt die Erstellungs- und Änderungsdaten sowie den Status an.
 
 **[!UICONTROL JOURNEY-MANAGEMENT]**
 
 * **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Nachrichten]**: Erstellen, entwerfen, testen und veröffentlichen Sie E-Mail- und Push-Nachrichten. [Weitere Informationen](../messages/get-started-content.md)
+* **[!UICONTROL Landingpages]** - Landingpages erstellen, entwerfen, testen und veröffentlichen. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
@@ -127,7 +127,7 @@ In [!DNL Journey Optimizer] können Sie die folgenden gängigen Tastaturbefehle 
 | Rückwärts zwischen Elementen, Abschnitten und Menügruppen der Benutzeroberfläche wechseln | Umschalttaste + Tabulatortaste |
 | Bewegen innerhalb von Abschnitten zum Setzen des Fokus auf einzelne Elemente | Pfeil |
 | Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
-| Abbrechen einer Auswahl, Reduzieren eines Panels oder Schließen eines Dialogfelds | Esc |
+| Abbrechen einer Auswahl, Reduzieren eines Bereichs oder Schließen eines Dialogfelds | Esc |
 
 [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=de){target=&quot;_blank&quot;} finden Sie in der Dokumentation zu Adobe Experience Platform.
 
@@ -274,7 +274,7 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 ## Durchsuchen{#unified-search}
 
-Sie können in der gesamten Benutzeroberfläche von Adobe Journey Optimizer die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys, Datensätze, Nachrichten etc. in allen Ihren Sandboxes zu suchen.
+Nutzen Sie überall in der Adobe Journey Optimizer-Benutzeroberfläche die Suchfunktion Unified Adobe Experience Cloud in der oberen Leiste, um Assets, Journey, Datensätze und mehr in Ihren Sandboxes zu finden.
 
 Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. In den Ergebnissen werden auch Hilfeartikel zu den eingegebenen Keywords angezeigt.
 
@@ -304,6 +304,6 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 
 ![](assets/journey3bis.png)
 
-In den verschiedenen Listen können Sie grundlegende Aktionen für einzelne Elemente durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
+In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
 
 ![](assets/journey4.png)

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benach
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '1554'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1555'
+ht-degree: 92%
 
 ---
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
    * **[!UICONTROL Mobile-App-Konfigurationen verwalten]**
    * **[!UICONTROL Eigenschaften verwalten]**
 
-   Diese Berechtigungen sind erforderlich, damit der Mobile-App-Entwickler Anmeldeinformationen für Push-Benachrichtigungen in **Adobe Experience Launch** einrichten und Voreinstellungen für Push-Benachrichtigungen in **Adobe Journey Optimizer** definieren kann.
+   Diese Berechtigungen sind erforderlich, damit der Entwickler der mobilen App Push-Anmeldeinformationen in **Adobe Experience Launch** und definieren die Oberflächen der Push-Benachrichtigungskanäle (d. h. Nachrichtenvorgaben) in **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
 1. Wählen Sie in [!DNL Adobe Experience Platform Data Collection] im linken Panel die Registerkarte **[!UICONTROL App-Oberflächen]**.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen von App-Oberflächen]**, um eine neue Konfiguration zu erstellen.
+1. Klicken **[!UICONTROL App-Oberfläche erstellen]** , um eine neue Konfiguration zu erstellen.
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
    ![](assets/test_push_11.png)
 
-1. Ziehen Sie aus der Dropdown-Liste **[!UICONTROL Aktionen]** die Aktivität **[!UICONTROL Nachricht]** per-Drag-and-Drop auf Ihre Journey.
+1. Aus dem **[!UICONTROL Aktionen]** Dropdown-Liste, per Drag-and-Drop **[!UICONTROL Push]** -Aktivität auf Ihrer Journey.
 
-1. Wählen Sie eine zuvor erstellte Nachricht aus. Weiterführende Informationen zum Erstellen von Push-Benachrichtigungen finden Sie auf dieser [Seite](../messages/get-started-content.md).
+1. Konfigurieren Sie die Push-Benachrichtigung. Weiterführende Informationen zum Erstellen von Push-Benachrichtigungen finden Sie auf dieser [Seite](../messages/get-started-content.md).
 
 1. Klicken Sie auf den Umschalter **[!UICONTROL Test]**, um mit dem Testen Ihrer Push-Benachrichtigungen zu beginnen, und danach auf **[!UICONTROL Ereignis auslösen]**.
 
@@ -347,13 +347,13 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
 Ihr Ereignis wird ausgelöst und Sie erhalten in Ihrer Mobile App eine Push-Benachrichtigung.
 
-## Schritt 4: Nachrichtenvoreinstellung für Push-Benachrichtigungen erstellen{#message-preset}
+## Schritt 4: Erstellen einer Kanaloberfläche für Push-Benachrichtigungen{#message-preset}
 
-Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Data Collection] eingerichtet wurde, müssen Sie eine Nachrichtenvoreinstellung einrichten, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
+Nachdem Ihre App in eingerichtet wurde [!DNL Adobe Experience Platform Data Collection], müssen Sie eine Oberfläche erstellen, über die Sie Push-Benachrichtigungen von **[!DNL Journey Optimizer]**.
 
-In [diesem Abschnitt](../configuration/message-presets.md) erfahren Sie, wie Sie eine Nachrichtenvoreinstellung erstellen und konfigurieren.
+Erfahren Sie, wie Sie eine Kanaloberfläche in erstellen und konfigurieren [diesem Abschnitt](../configuration/message-presets.md).
 
 Sie können jetzt mit Journey Optimizer Push-Benachrichtigungen senden.
 
 * Auf [dieser Seite](../messages/create-push.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
-* In [diesem Abschnitt](../building-journeys/journeys-message.md) erfahren Sie, wie Sie eine Nachricht zu einer Journey hinzufügen.
+* Erfahren Sie, wie Sie einer Journey eine Nachricht hinzufügen können in [diesem Abschnitt](../building-journeys/journeys-message.md).

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 99%
+source-wordcount: '1297'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,9 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/jo-datasource.png)
 
-1. **Aktion konfigurieren**: Die Journey Optimizer-Nachrichtenfunktionen sind integriert. Sie müssen lediglich Ihren Inhalt entwerfen und Ihre Nachricht veröffentlichen. Weitere Informationen finden Sie in [diesem Abschnitt](../messages/get-started-content.md). Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt.
+1. **Konfigurieren einer Aktion**: Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie lediglich eine Kanalaktion zu Ihrer Journey hinzufügen und Ihre Inhalte entwerfen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../messages/get-started-content.md).
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## Erstellen Ihrer Journey{#jo-build}
 
@@ -60,7 +60,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
    ![](assets/read-segment.png)
 
-1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Nachricht hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und danach eine Kanalaktion hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
 1. Testen Sie Ihre Journey mit Testprofilen. Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md)
 

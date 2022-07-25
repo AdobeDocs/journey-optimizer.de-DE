@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ Mit der Datenquellenkonfiguration können Sie eine Verbindung zu einem System de
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis und einer E-Mail-Aktivität besteht, die nur Daten aus dem Ereignis verwendet, müssen Sie keine Datenquelle konfigurieren.
+Diese Konfiguration ist nicht erforderlich, wenn Ihre Journeys nur lokale Daten aus einer Ereignis-Payload nutzen. Wenn Ihre Journey beispielsweise aus einem Ereignis gefolgt von einer Kanalaktionsaktivität besteht, die nur Daten aus dem Ereignis verwendet, muss keine Datenquelle konfiguriert werden.
 
 Es gibt zwei Arten von Datenquellen:
 

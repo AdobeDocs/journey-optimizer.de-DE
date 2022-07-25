@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e6d0b4ab3d66d65f7575e63f85ab5c125107615b
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Das Ziel besteht hier darin zu sehen, ob Empfänger je nach dem empfangenen Expe
 
    ![](assets/content_experiment_1.png)
 
-1. Auswählen **[!UICONTROL Email]** dann die **[!UICONTROL Vorgabe]** Sie möchten für diesen Versand verwenden. Weitere Informationen hierzu finden Sie auf der Seite Voreingestellt .
+1. Auswählen **[!UICONTROL Email]** dann die **[!UICONTROL Oberfläche]** Sie möchten für diesen Versand verwenden. Weitere Informationen hierzu finden Sie im Abschnitt [Kanaloberflächen](../configuration/message-presets.md) Seite.
 
    ![](assets/content_experiment_2.png)
 

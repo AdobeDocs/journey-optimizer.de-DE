@@ -1,10 +1,10 @@
 ---
 title: 'Starten der Journey-Ausführung '
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
@@ -34,13 +34,9 @@ Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reportin
 
 ## Nachrichten senden {#send-messages}
 
-Wenn der Inhalt Ihrer Nachricht definiert und die Nachricht veröffentlicht wurde, kann sie über eine [Journey](journey.md) gesendet werden.
+Wenn für Ihre Nachricht ein Inhalt definiert ist, kann sie über eine [Journey](journey.md).
 
->[!NOTE]
->
->Sie können einer Journey eine Nachricht hinzufügen, die sich noch im Entwurfsmodus befindet. In diesem Fall müssen Sie jedoch darauf achten, die Nachricht zu veröffentlichen, bevor Sie die Journey veröffentlichen.
-
-Nach dem Versand einer Nachricht können Sie die Ausführung über mehrere Indikatoren überwachen. [Weitere Informationen über die Überwachung der Nachrichtenausführung](../message-monitoring.md).
+Nach dem Versand einer Nachricht können Sie die Ausführung über mehrere Indikatoren überwachen. [Weitere Informationen zur Berichterstellung](../global-report.md).
 
 ## Verzögerter Nachrichtenversand {#schedule-messages}
 

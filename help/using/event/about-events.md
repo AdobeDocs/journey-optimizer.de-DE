@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL 
 
 >[!CAUTION]
 >
->Die Ereigniskonfiguration ist **obligatorisch** und muss von einem **technischen Benutzer** durchgeführt werden.
+>Ereigniskonfiguration ist **mandatory** und muss von einer **Data Engineer**.
 
 Sie können zwei Ereignistypen definieren:
 

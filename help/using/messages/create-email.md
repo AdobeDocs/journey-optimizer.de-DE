@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 21%
 
 ---
 
@@ -20,22 +20,39 @@ ht-degree: 100%
 >title="E-Mail-Erstellung"
 >abstract="Definieren Sie Ihre E-Mail-Parameter in drei einfachen Schritten."
 
-Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, verwenden Sie die Registerkarte **[!UICONTROL E-Mail]**, um die Einstellungen und den Inhalt für den E-Mail-Kanal zu definieren.
 
-![](assets/emails-configuration.png)
+Einmal [E-Mail hinzugefügt](get-started-content.md) in der Journey <!--or a campaign--> und grundlegende Einstellungen festgelegt haben, können Sie die E-Mail konfigurieren und ihren Inhalt definieren.
+
+## E-Mail-Inhalt definieren{#email-content}
+
+Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** zum Entwerfen Ihrer E-Mail.
+
+![](assets/email-edit-content.png)
+
+Verwendung [!DNL Journey Optimizer] Email Designer zu [E-Mail von Grund auf neu erstellen](../design/create-email-content.md). Wenn Sie über einen vorhandenen Inhalt verfügen, können Sie [ihn in Email Designer importieren](../design/existing-content.md)oder [eigenen Inhalt kodieren](../design/code-content.md) in [!DNL Journey Optimizer].
+
+[!DNL Journey Optimizer] enthält einen Satz von [integrierte Vorlagen](../design/email-templates.md) um euch zu stoppen. Jede E-Mail kann auch als Vorlage gespeichert werden.
+
+Weitere Informationen zum E-Mail-Design finden Sie in [diesem Abschnitt](../design/design-emails.md).
+
+Verwendung [!DNL Journey Optimizer] Ausdruckseditor zur Personalisierung Ihrer Nachrichten mit Profildaten. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+
+## E-Mail-Tracking{#email-tracking}
+
+Wenn Sie das Verhalten Ihrer Empfänger über Öffnungen und/oder Klicks auf Links verfolgen möchten, aktivieren Sie die folgenden Optionen: **[!UICONTROL E-Mail-Öffnungen]** und **[!UICONTROL E-Mail anklicken]**. Weitere Informationen zu Tracking finden Sie in [diesem Abschnitt](../design/message-tracking.md).
+
+
+## E-Mail-Inhalt validieren{#email-content-validate}
+
+Im Vorschau-Bereich auf der linken Seite können Sie das Rendering Ihrer E-Mail steuern und die Personalisierungseinstellungen mit Testprofilen überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+
+![](assets/messages-simple-preview.png)
+
+
+Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
+
 
 >[!NOTE]
 >
->Die Felder **[!UICONTROL Von E-Mail]** und **[!UICONTROL Von Name]** sind schreibgeschützt und werden durch die **[!UICONTROL Voreinstellung]** bestimmt, die beim [Erstellen der Nachricht](get-started-content.md) ausgewählt wurde.
+>Die **[!UICONTROL Aus E-Mail]** und **[!UICONTROL Name des Empfängers]** durch die **[!UICONTROL Oberfläche]** die ausgewählt wurde, wenn [Nachricht erstellen](get-started-content.md).
 
-Die Schritte zum Konfigurieren einer E-Mail sind:
-
-1. Geben Sie den E-Mail-Betreff im Feld der **[!UICONTROL Betreffzeile]** an. Klicken Sie dazu auf die Schaltfläche auf der rechten Seite, um den Ausdruckseditor zu öffnen und den E-Mail-Betreff zu erstellen. In [diesem Abschnitt](../personalization/personalize.md) erfahren Sie, wie Sie eine Personalisierung hinzufügen.
-
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Email Designer]**, um Ihre E-Mail zu entwerfen. In [diesem Abschnitt](../design/design-emails.md) erfahren Sie, wie Sie E-Mails entwerfen.
-
-1. Wenn Sie das Verhalten Ihrer Empfänger über Öffnungen und/oder Klicks auf Links verfolgen möchten, stellen Sie sicher, dass die Optionen **[!UICONTROL Öffnungs-Tracking für E-Mails]** und **[!UICONTROL Klick-Tracking für E-Mails]** aktiviert sind. Weitere Informationen zu Tracking finden Sie in [diesem Abschnitt](../design/message-tracking.md).
-
->[!NOTE]
->
->E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird in den [Nachrichtenvoreinstellungen](../configuration/message-presets.md#email-type) und bei der [Erstellung der Nachricht](get-started-content.md#create-new-message) definiert.

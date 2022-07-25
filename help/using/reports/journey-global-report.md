@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1842'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 96%
 
 ---
 
@@ -62,11 +62,11 @@ Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktion
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
-Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [Globaler E-Mail-Bericht](#email-global-report).
-
 ![](assets/global_report_14.png)
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
+
+* **[!UICONTROL Targeting]**: Anzahl der Profile, die von der Adobe-Journey Orchestration für beliebige Aktionen wie den E-Mail- oder SMS-Versand angesprochen werden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -88,7 +88,7 @@ Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Date
 
 * **[!UICONTROL Eindeutige Öffnungen]**: Prozentsatz der geöffneten zugestellten Nachrichten.
 
-* **[!UICONTROL Öffnungsrate]**: Gesamtzahl der geöffneten Nachrichten im Vergleich zu den versendeten E-Mails.
+* **[!UICONTROL Eindeutige Öffnungsrate]**: Gesamtzahl der geöffneten E-Mails in Bezug auf die Anzahl der zugestellten E-Mails.
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
 
@@ -136,7 +136,7 @@ Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabell
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie unter [diese Seite](../messages/send-time-optimization.md).
 
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
@@ -179,11 +179,11 @@ Die Tabelle **[!UICONTROL Detaillierte Angebotsstatistik]** enthält die für di
 
 In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
-Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im [globalen Bericht zu Push-Benachritigungen](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
+
+* **[!UICONTROL Targeting]**: Anzahl der Profile, die von der Adobe-Journey Orchestration für beliebige Aktionen wie den E-Mail- oder SMS-Versand angesprochen werden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -227,7 +227,7 @@ Das Diagramm **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthält
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+>Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie unter [diese Seite](../messages/send-time-optimization.md).
 
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
@@ -262,7 +262,7 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 

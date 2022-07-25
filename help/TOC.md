@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 98%
    + [Erstellen einer E-Mail](using/messages/create-email.md)
    + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
    + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
-   + Validieren und Veröffentlichen {#validate}
-      + [Prüfen von Warnhinweisen](using/messages/alerts.md)
-      + [Veröffentlichen von Nachrichten](using/messages/publish-manage-message.md)
+   + [Prüfen von Warnhinweisen](using/messages/alerts.md)
    + [Einverständnisverwaltung](using/messages/consent.md)
+   + [Versandzeitpunkt optimieren](using/messages/send-time-optimization.md)
 + Inhaltserstellung {#design}
    + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
    + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
@@ -138,7 +137,7 @@ ht-degree: 98%
       + [Ende](using/building-journeys/end-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Segment lesen](using/building-journeys/read-segment.md)
-      + [Nachricht](using/building-journeys/journeys-message.md)
+      + [E-Mail, SMS, Push](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 98%
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
-   + [Überwachen von Nachrichten](using/reports/message-monitoring.md)
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
-      + [Live-Bericht zum E-Mail-Versand](using/reports/email-live-report.md)
-      + [Live-Bericht zu Push-Benachrichtigungen](using/reports/push-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
       + [Zugreifen auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
-      + [Globaler Bericht zum E-Mail-Versand](using/reports/email-global-report.md)
-      + [Globaler Bericht zu Push-Benachrichtigungen](using/reports/push-global-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
       + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
    + Journey-Berichte {#reports}
@@ -385,8 +379,8 @@ ht-degree: 98%
             + [Weitere Zustellversuche](using/configuration/retries.md)
             + [Zulassungsliste](using/configuration/allow-list.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + Einrichten von Nachrichtenvoreinstellungen{#set-up-message-presets}
-         + [Erstellen von Nachrichtenvoreinstellungen](using/configuration/message-presets.md)
+      + Einrichten von Kanaloberflächen {#set-up-message-presets}
+         + [Erstellen von Kanaloberflächen](using/configuration/message-presets.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
          + [Verwenden einer BCC-E-Mail-Adresse](using/configuration/bcc-email.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)

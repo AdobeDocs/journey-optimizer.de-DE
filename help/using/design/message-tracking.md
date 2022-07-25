@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Nachrichten-Tracking aktivieren, indem Sie die Optionen **[!UICONTROL Öffnungs-Tracking für E-Mail]** und/oder **[!UICONTROL Klick-Tracking für E-Mail]** markieren, wenn Sie [Ihre Nachricht erstellen](../messages/get-started-content.md).
+Sie können das Tracking auf E-Mail-Meldungsebene aktivieren, indem Sie die Option **[!UICONTROL E-Mail-Öffnungen]** und/oder **[!UICONTROL E-Mail anklicken]** Optionen beim [Nachricht erstellen](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Sie können das Nachrichten-Tracking aktivieren, indem Sie die Optionen **[!UICO
 
 Auf diese Weise können Sie das folgende Verhalten Ihrer Empfänger verfolgen:
 
-* **[!UICONTROL Tracking der Öffnungen bei E-Mails]**: Nachrichten, die geöffnet wurden.
-* **[!UICONTROL Tracking der Klicks bei E-Mails]**: Klicks auf Links in einer E-Mail.
+* **[!UICONTROL E-Mail-Öffnungen]**: Nachrichten, die geöffnet wurden.
+* **[!UICONTROL E-Mail anklicken]**: Klicks auf Links in einer E-Mail.
 
 ## Links einfügen {#insert-links}
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird in den [Nachrichtenvoreinstellungen](../configuration/message-presets.md#email-type) und bei der [Erstellung der Nachricht](../messages/get-started-content.md#create-new-message) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](../configuration/message-presets.md#email-type) (d. h. Nachrichtenvorgabe) und wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message).
 
 ## Link zu einer Mirrorseite {#mirror-page}
 
@@ -122,6 +122,4 @@ Mit [Email Designer](create-email-content.md) können Sie die verfolgten URLs ve
    * **[!UICONTROL Mirrorseite]**: Diese URL wird als Mirror-Seite behandelt.
    * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Die Anzahl der geöffneten Nachrichten und der angeklickten Links sind auf der Registerkarte [Ausführungen](../reports/message-monitoring.md) aufgeführt.
-
-Das Reporting zu Öffnungen und Klicks ist im [E-Mail-Live-Bericht](../reports/email-live-report.md) und im [Globalen E-Mail-Bericht](../reports/email-global-report.md) verfügbar.
+Die Berichterstattung über Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Gesamtbericht](../reports/global-report.md).

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,11 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 1. [Veröffentlichen](create-lp.md#publish) Sie die Landingpage.
 
-1. [Erstellen Sie eine E-Mail-Nachricht](../messages/get-started-content.md), um anzukündigen, dass die Registrierung für die Veranstaltung nun eröffnet ist.
+1. In [Journey](../building-journeys/journey.md), fügen Sie eine **Email** -Aktivität, um den Traffic zur Anmelde-Landingpage zu leiten.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [E-Mail erstellen](../messages/get-started-content.md) um anzukündigen, dass die Registrierung nun für Ihre Veranstaltung geöffnet ist.
 
 1. [Fügen Sie einen Link](../design/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
 
@@ -55,13 +59,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht veröffentlichen zu können, stellen Sie sicher, dass die von Ihnen gewählte Landingpage noch nicht abgelaufen ist. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
-
-1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
-
-1. Senden Sie die Nachricht über eine [Journey](../building-journeys/journey.md), um den Traffic zur Landingpage zur Registrierung zu leiten.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >Um Ihre Nachricht senden zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
    Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur „Danke-Seite“ weitergeleitet und auf die Abonnement-Liste gesetzt.
 
@@ -79,7 +77,7 @@ Zusätzlich können Sie eine Bestätigungs-E-Mail an die Empfänger senden, die 
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Wählen Sie die gewünschte Bestätigungs-E-Mail aus und senden Sie sie über die Journey.
+1. Fügen Sie eine Bestätigungs-E-Mail Ihrer Wahl hinzu und senden Sie sie über die Journey.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Erstellen Sie eine E-Mail-Nachricht](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [E-Mail-Nachricht erstellen](../messages/get-started-content.md) in einer Journey.
 
 1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../design/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
 
@@ -140,11 +138,9 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht veröffentlichen zu können, stellen Sie sicher, dass die von Ihnen gewählte Landingpage noch nicht abgelaufen ist. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
+   >Um Ihre Nachricht senden zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
-1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](../messages/publish-manage-message.md).
-
-1. Senden Sie eine Nachricht über eine Journey. [Weitere Informationen](../building-journeys/journey.md).
+1. Veröffentlichen Sie die Journey und führen Sie sie aus. [Weitere Informationen](../building-journeys/journey.md).
 
 1. Wenn ein Empfänger nach Erhalt der Nachricht auf den Abmelde-Link in der E-Mail klickt, wird Ihre Landingpage angezeigt.
 

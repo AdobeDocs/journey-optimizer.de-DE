@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,12 @@ In diesem Beispiel wird die Feldergruppe **[!UICONTROL Einverständnis und Präf
 Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
 1. Erstellen Sie eine Journey, die mit der Aktivität **[!UICONTROL Lesen]** beginnt. [Weitere Informationen](journey-gs.md).
-1. Fügen Sie zu der Journey die Aktivität **[!UICONTROL Nachricht]** mit einer E-Mail hinzu. [Weitere Informationen](journeys-message.md).
-1. Ersetzen Sie im Abschnitt **[!UICONTROL E-Mail-Parameter]** der Aktivitätseinstellungen der **[!UICONTROL Nachricht]** die standardmäßige E-Mail-Adresse (`PersonalEmail.adress`) durch die E-Mail-Adresse der Abonnenten auf der Liste:
+1. Hinzufügen einer **[!UICONTROL Email]** Aktionsaktivität auf die Journey. [Weitere Informationen](journeys-message.md).
+1. Im **[!UICONTROL E-Mail-Parameter]** Abschnitt **[!UICONTROL Email]** Aktivitätseinstellungen ersetzen die standardmäßige E-Mail-Adresse (`PersonalEmail.adress`) mit der E-Mail-Adresse der Abonnenten der Liste:
 
    1. Klicken Sie auf das Symbol **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld **[!UICONTROL Adresse]** und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]**.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      Um die E-Mail-Adresse ändern zu können, müssen Sie die Nachricht zuvor veröffentlicht haben.
 
    1. Geben Sie im Ausdruckseditor den Ausdruck ein, um die E-Mail-Adressen der Abonnenten abzurufen. [Weitere Informationen](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. Klicken Sie im Dialogfeld **[!UICONTROL Ausdruck hinzufügen]** auf **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

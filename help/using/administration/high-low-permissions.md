@@ -5,10 +5,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 96%
 
 ---
 
@@ -123,88 +123,6 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * queries.read
    * queries.write
    * queries.delete
-
-## Nachrichtenfunktionen {#message-capability}
-
-### Berechtigung [!DNL Manage messages] {#manage-messages}
-
-Mit der Berechtigung **[!DNL Manage messages]** auf hoher Ebene können Benutzer Nachrichten erstellen und bearbeiten/löschen.
-
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-* Spezifisch für Journey Optimizer:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Spezifisch für Adobe Experience Platform:
-   * segments.read
-   * schemas.read
-
-### Berechtigung [!DNL Manage messages preview and test] {#mange-messages-preview}
-
-Die Berechtigung **[!DNL Manage messages preview and test]** auf hoher Ebene ermöglicht Benutzern die Vorschau einer personalisierten Nachricht.
-
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-* Spezifisch für Journey Optimizer:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Spezifisch für Adobe Experience Platform:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policies.read
-
-### Berechtigung [!DNL Publish messages] {#publish-messages}
-
-Mit der Berechtigung **[!DNL Publish messages]** auf hoher Ebene können Benutzer Nachrichten veröffentlichen.
-
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-* Spezifisch für Journey Optimizer:
-   * messages.publish
-
-* Spezifisch für Adobe Experience Platform:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### Berechtigung [!DNL View messages] {#view-messages}
-
-Mit der Berechtigung **[!DNL View messages]** auf hoher Ebene können Benutzer nur Nachrichten lesen.
-
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-* Spezifisch für Journey Optimizer:
-   * messages.read
-   * messages_presets.read
-
-* Spezifisch für Adobe Experience Platform:
-   * schemas.read
-   * segments.read
-
-### Berechtigung [!DNL View messages report] {#view-message-reports}
-
-Mit der Berechtigung **[!DNL View messages report]** auf hoher Ebene können Benutzer schreibgeschützte E-Mail- und Push-Berichte lesen.
-
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-* Spezifisch für Journey Optimizer:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## Entscheidungs-management-funktion {#decisions-permissions}
 
@@ -330,33 +248,34 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * IP_pools.write
 * IP_pools.delete
 
-### Berechtigung [!DNL Manage messages general settings] {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-Mit der Berechtigung **[!DNL Manage messages general settings]** auf hoher Ebene können Benutzer globale Einstellungen auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+It includes the following low-level permissions: 
 
-* Spezifisch für Journey Optimizer:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Spezifisch für Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### Berechtigung [!DNL View messages general settings] {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-Die Berechtigung **[!DNL View messages general settings]** auf hoher Ebene ermöglicht Benutzern das Anzeigen von allgemeinen Nachrichteneinstellungen wie Ausführungsadressen.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+It includes the following low-level permissions:
 
-* Spezifisch für Journey Optimizer:
-   * messages_general_settings.read
-* Spezifisch für Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### Berechtigung [!DNL Manage channel surface] {#manage-channel-surface}
 
-### Berechtigung [!DNL Manage messages presets] {#manage-message-presets}
-
-Die Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene ermöglicht es Benutzern, Nachrichtenvoreinstellungen kanalübergreifend auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
+Die **[!DNL Manage channel surface]** Mit Berechtigung auf hoher Ebene können Benutzer Kanaloberflächen auf Kanalebene auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -368,9 +287,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### Berechtigung [!DNL View messages presets] {#view-message-presets}
+### Berechtigung [!DNL View channel surface] {#view-channel-surface}
 
-Mit der Berechtigung **[!DNL View messages presets]** auf hoher Ebene können Benutzer Nachrichtenvoreinstellungen anzeigen, um zu erfahren, welche Nachrichtenvoreinstellungen beim Erstellen einer Nachricht verwendet werden sollen.
+Die **[!DNL View channel surface]** Mit Berechtigungen auf hoher Ebene können Benutzer Kanaloberflächen anzeigen, um zu erfahren, welche Kanaloberflächen verwendet werden sollen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

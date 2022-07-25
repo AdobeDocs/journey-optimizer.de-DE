@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '727'
 ht-degree: 6%
 
 ---
-
 
 # Erstellen einer Kampagne {#create-campaign}
 
 >[!NOTE]
 >
->Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über eine Nachrichtenvorgabe und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über einen Oberflächenkanal (d. h. eine Nachrichtenvorgabe) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >
->* [Erstellen von Nachrichtenvoreinstellungen](../configuration/message-presets.md)
+>* [Erstellen von Kanaloberflächen](../configuration/message-presets.md)
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ Gehen Sie zur Erstellung einer Kampagne wie folgt vor:
    * **[!UICONTROL Geplant]**: die Kampagne sofort oder an einem bestimmten Datum ausführen. Geplante Kampagnen zielen auf den Versand ab **Marketing** Geben Sie Meldungen ein.
    * **[!UICONTROL API-ausgelöst]**: die Kampagne mithilfe eines API-Aufrufs ausführen. API-gesteuerte Kampagnen zielen auf das Senden von **transactional** Nachrichten, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Abbruch der Karte usw. [Erfahren Sie, wie Sie eine Kampagne mit APIs Trigger haben.](api-triggered-campaigns.md)
 
-1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Nachrichtenoberfläche (d. h. die Nachrichtenvorgabe) aus, die zum Senden der Nachricht verwendet werden sollen, und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Kanaloberfläche aus, die zum Senden der Nachricht verwendet werden sollen, und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >In der Dropdown-Liste werden nur die mit dem Kampagnentyp (Marketing oder Transaktionsnachrichten) kompatiblen Oberflächen aufgelistet.
+   >In der Dropdown-Liste werden nur Kanaloberflächen aufgelistet, die mit dem Kampagnentyp (Marketing oder Transaktion) kompatibel sind.
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an.
 
@@ -52,7 +52,7 @@ Gehen Sie zur Erstellung einer Kampagne wie folgt vor:
 
 1. Im **[!UICONTROL Aktionen]** konfigurieren Sie die mit der Kampagne zu sendende Nachricht:
 
-   1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** und konfigurieren und entwerfen Sie Ihre Nachricht. [Erfahren Sie, wie Sie Nachrichten konfigurieren](../messages/get-started-content.md).
+   1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** und konfigurieren Sie dann Ihren Nachrichteninhalt. [Weitere Informationen zu Nachrichten](../messages/get-started-content.md).
 
       Sobald Ihr Inhalt fertig ist, klicken Sie auf den Pfeil, um zum Bildschirm zur Kampagnenerstellung zurückzukehren.
 
@@ -121,10 +121,6 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie deren Parameter und Inhalt 
    Sie können auch zusätzliche Statistiken in dedizierten Berichten abrufen, indem Sie auf **[!UICONTROL Berichte]** Schaltfläche. [Weitere Informationen](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >In Kampagnen erstellte Nachrichten sind spezifisch für [!DNL Journey Optimizer] Kampagnenfunktionen. Nach der Erstellung sind sie nur über Kampagnen verfügbar und werden nicht in der Variablen **[!UICONTROL Nachrichten]** Menü.
 
 ## Weitere Ressourcen
 

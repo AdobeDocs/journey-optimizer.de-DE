@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,6 @@ Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
 
 * Ein Segment für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
 * Ein Ereignis
-* Drei Nachrichten
 
 ### Erstellen des Segments
 
@@ -81,29 +80,17 @@ Für diesen Zweck verwenden wir ein regelbasiertes Ereignis. Weiterführende Inf
 
 Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. Mit der entsprechenden Ereignisaktivität können Sie eine Aktion jedes Mal auslösen, wenn ein Kunde einen Einkauf tätigt.
 
-### Erstellen der Nachrichten
-
-Für diesen Anwendungsfall müssen wir drei Nachrichten erstellen:
-
-* Eine erste Push- und E-Mail-Nachricht
-* Eine Push-Nachricht „Vielen Dank“
-* Eine E-Mail-Folgenachricht
-
-![](assets/jo-uc3.png)
-
-In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese Nachrichten entwerfen und veröffentlichen.
-
 ## Entwerfen der Journey
 
 1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Segment lesen**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
 
    ![](assets/jo-uc4.png)
 
-1. Fügen Sie per Drag-and-Drop eine Aktivität vom Typ **Nachricht** ein und wählen Sie die erste Push- und E-Mail-Nachricht aus. Diese Nachricht wird an alle Personen in der Journey gesendet.
+1. Eine **Email** Aktionsaktivität und Definition des Inhalts der &quot;ersten Nachricht&quot;. Diese Nachricht wird an alle Personen in der Journey gesendet. Siehe hierzu [Abschnitt](../messages/create-email.md) , um zu erfahren, wie Sie eine E-Mail konfigurieren und entwerfen.
 
    ![](assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf der Nachrichten-Aktivität und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
+1. Platzieren Sie den Cursor auf die E-Mail-Aktivität und klicken Sie auf das Symbol &quot;+&quot;, um einen neuen Pfad zu erstellen.
 
 1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald ein zum Segment gehörender Kontaktdie Push-Version der ersten Nachricht öffnet.
 
@@ -115,11 +102,11 @@ In diesem [Abschnitt](../segment/about-segments.md) erfahren Sie, wie Sie diese 
    >
    >Beim Konfigurieren der maximalen Wartezeit für mehrere Ereignisse (in diesem Fall die beiden Reaktionen) müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
 
-1. Fügen Sie im Pfad für Personen, bei denen die maximale Wartezeit ohne Kauf verstreicht, eine Aktivität vom Typ **Nachricht** ein und wählen Sie die E-Mail-Folgenachricht aus. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Nachricht öffnen.
+1. Legen Sie im Pfad der Zeitüberschreitung eine **Email** Aktionsaktivität und Definition des Inhalts der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Nachricht öffnen. Siehe hierzu [Abschnitt](../messages/create-email.md) , um zu erfahren, wie Sie eine E-Mail konfigurieren und entwerfen.
 
 1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
-1. Fügen Sie nach dem Ereignis eine Aktivität vom Typ **Nachricht** per Drag-and-Drop ein und wählen Sie die E-Mail-Nachricht „Vielen Dank“.
+1. Legen Sie nach dem Ereignis eine **Push** Aktionsaktivität und Definition des Inhalts der Dankesnachricht. Siehe hierzu [Abschnitt](../messages/create-push.md) , um zu erfahren, wie Sie einen Push-Vorgang konfigurieren und entwerfen.
 
 ## Testen und Veröffentlichen der Journey
 

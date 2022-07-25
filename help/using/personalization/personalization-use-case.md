@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 98%
+source-wordcount: '498'
+ht-degree: 89%
 
 ---
 
@@ -25,15 +25,24 @@ Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualis
 
 Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
-* Erstellen und gestalten einer Push-Benachrichtigung, ohne sie zu veröffentlichen. Siehe diesen [Abschnitt](../messages/get-started-content.md).
 * Konfigurieren eines Bestellereignisses mit Bestellnummer, Status und Artikelnamen. Siehe diesen [Abschnitt](../event/about-events.md).
 * Informationen zum Erstellen einer Entscheidung finden Sie in diesem [Abschnitt](../offers/offer-activities/create-offer-activities.md).
 
-## Schritt 1 – Personalisierung in Profil hinzufügen {#add-perso}
+## Schritt 1 – Journey erstellen {#create-journey}
 
-1. Klicken Sie auf das Menü **[!UICONTROL Nachricht]** und wählen Sie Ihre Nachricht aus.
+1. Klicken Sie auf das Menü **[!UICONTROL Journey]** und erstellen Sie eine neue Journey.
 
-   ![](assets/perso-uc.png)
+   ![](assets/perso-uc4.png)
+
+1. Fügen Sie Ihr Eintrittsereignis und ein **Push** Aktionsaktivität.
+
+   ![](assets/perso-uc5.png)
+
+1. Konfigurieren und gestalten Sie Ihre Push-Benachrichtigung. Siehe diesen [Abschnitt](../messages/get-started-content.md).
+
+## Schritt 2 – Personalisierung in Profil hinzufügen {#add-perso}
+
+1. Im **Push** Aktivität, klicken Sie auf **Inhalt bearbeiten**.
 
 1. Klicken Sie auf das Feld **Titel**.
 
@@ -43,45 +52,15 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc3.png)
 
-   >[!NOTE]
-   >
-   >Belassen Sie die Nachricht als Entwurf. Veröffentlichen Sie sie noch nicht.
-
-## Schritt 2 – Journey erstellen {#create-journey}
-
-1. Klicken Sie auf das Menü **[!UICONTROL Journey]** und erstellen Sie eine neue Journey.
-
-   ![](assets/perso-uc4.png)
-
-1. Fügen Sie Ihr Eintrittsereignis und ein **Nachricht** Aktivität.
-
-   ![](assets/perso-uc5.png)
-
-1. Wählen Sie in der Aktivität **Nachricht** die zuvor erstellte Nachricht aus. Klicken Sie auf **OK**.
-
-   ![](assets/perso-uc6.png)
-
-   Es wird eine Meldung angezeigt, die Sie darüber informiert, dass die Daten des Eintrittsereignisses und die Journey-Eigenschaften an die Nachricht übergeben wurden.
-
-   ![](assets/perso-uc7.png)
-
-   >[!NOTE]
-   >
-   >Die Meldung wird mit einem Warnsymbol angezeigt. Dies liegt daran, dass die Nachricht noch nicht veröffentlicht wurde.
-
 ## Schritt 3 – Personalisierung für Kontextdaten hinzufügen  {#add-perso-contextual-data}
 
-1. Klicken Sie in der Aktivität **Nachricht** auf das Symbol **Nachricht öffnen**. Die Nachricht wird in einer neuen Registerkarte geöffnet.
-
-   ![](assets/perso-uc8.png)
-
-1. Klicken Sie auf das Feld **Titel**.
+1. Im **Push** Aktivität, klicken Sie auf **Inhalt bearbeiten** und klicken Sie auf **Titel** -Feld.
 
    ![](assets/perso-uc9.png)
 
 1. Wählen Sie das Menü **Kontextattribute**. Kontextattribute sind nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
-   * **Ereignisse**: Diese Kategorie gruppiert alle Felder aus den Ereignissen neu, die vor der Aktivität **Nachrichten** in der Journey platziert wurden.
+   * **Veranstaltungen**: Diese Kategorie enthält alle Felder aus den Ereignissen, die vor der Aktivität Kanalaktion in der Journey platziert wurden.
    * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
@@ -106,13 +85,9 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc15.png)
 
-1. Veröffentlichen Sie jetzt die Nachricht.
-
-   ![](assets/perso-uc16.png)
-
 ## Schritt 4 – Journey testen und veröffentlichen  {#test-publish}
 
-1. Öffnen Sie die Journey erneut. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren. Nachdem die Nachricht veröffentlicht wurde, können Sie sehen, dass die Journey nicht fehlerhaft ist. Klicken Sie auf die Schaltfläche **Test** und dann auf **Ereignis auslösen**.
+1. Klicken Sie auf die Schaltfläche **Test** und dann auf **Ereignis auslösen**.
 
    ![](assets/perso-uc17.png)
 

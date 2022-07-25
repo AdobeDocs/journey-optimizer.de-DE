@@ -3,10 +3,10 @@ title: Journey Optimizer – Erste Schritte für Systemadministratoren
 description: Hier erfahren Systemadministratoren mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 98%
+source-wordcount: '729'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Verwendung von Produktprofilen**. Produktprofile sind eine Reihe von Einzelberechtigungen, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Weitere Informationen finden Sie im Abschnitt [Vordefinierte Produktprofile](../../administration/ootb-product-profiles.md).
 
-1. **Definieren Sie Berechtigungen für Produktprofile**, einschließlich **Sandboxes**, und geben Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Produktprofilen zuweisen. Dieser Schritt wird in [Admin Console](https://adminconsole.adobe.com/){_blank} ausgeführt. Berechtigungen sind Einzelrechte, mit denen Sie die einem **[!UICONTROL Produktprofil]** zugewiesenen Genehmigungen definieren können. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. Journey, Nachrichten oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] repräsentieren. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](../../administration/high-low-permissions.md).
+1. **Definieren Sie Berechtigungen für Produktprofile**, einschließlich **Sandboxes**, und geben Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Produktprofilen zuweisen. Dieser Schritt wird in [Admin Console](https://adminconsole.adobe.com/){_blank} ausgeführt. Berechtigungen sind Einzelrechte, mit denen Sie die einem **[!UICONTROL Produktprofil]** zugewiesenen Genehmigungen definieren können. Jede Berechtigung wird unter Funktionen erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer]. Weitere Informationen finden Sie im Abschnitt [Berechtigungsebenen](../../administration/high-low-permissions.md).
 
 Darüber hinaus müssen Sie Benutzer, die Zugriff auf Assets Essentials benötigen, zu den Produktprofilen **Assets Essentials Consumer Users** oder/und **Assets Essentials Users** hinzufügen. [Weitere Informationen finden Sie in der Dokumentation zu Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ Darüber hinaus müssen Sie Benutzer, die Zugriff auf Assets Essentials benötig
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie das Menü **[!UICONTROL Kanäle]**, um Ihre E-Mail-Nachrichten und Voreinstellungen zu konfigurieren.
+Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie die **[!UICONTROL Kanäle]** -Menü, um Ihre Nachrichten und Oberflächen (d. h. Vorgaben) zu konfigurieren.
 
 >[!NOTE]
 >Wenn Sie als **Systemadministrator** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen in [Admin Console](https://adminconsole.adobe.com/){_blank}. Auf [dieser Seite](../../administration/permissions.md#edit-product-profile) erfahren Sie, wie Sie Ihr Produktprofil aktualisieren können.
 
 Führen Sie dazu folgende Schritte durch:
 
-1. **Konfigurieren von Nachrichten und Kanälen**: Definieren Sie Voreinstellungen und passen Sie Einstellungen für E-Mail-Nachrichten und Push-Benachrichtigungen an.
+1. **Nachrichten und Kanäle konfigurieren**: Definieren von Oberflächen, Anpassen und Anpassen von E-Mail- und Push-Nachrichten-Einstellungen
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../configuration/push-gs.md)
 
-   * Erstellen Sie **Nachrichtenvoreinstellungen**, um alle technischen Parameter zu konfigurieren, die für E-Mail-Nachrichten und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/message-presets.md)
+   * Erstellen **Kanaloberflächen** (d. h. Nachrichtenvorgaben) zum Konfigurieren aller technischen Parameter, die für E-Mail- und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/message-presets.md)
 
    * Konfigurieren Sie die **SMS-Kanal** um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../configuration/sms-configuration.md)
 

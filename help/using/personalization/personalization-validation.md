@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 98%
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## Mechanismen der Validierung {#validation-mechanisms}
 
-Verwenden Sie im Bildschirm **Ausdruckseditor** den Button **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
+Im **Ausdruckseditor** -Bildschirm verwenden, verwenden Sie die **Bestätigen** -Schaltfläche, um die Syntax Ihrer Personalisierung zu überprüfen.
 
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
@@ -75,7 +75,7 @@ Die Fehler bei der Integration von Angeboten in eine E-Mail-Nachricht oder Push-
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-Die Validierung wird während der Nachrichtenveröffentlichung oder während der Überprüfung des Personalisierungsinhalts im Ausdruckseditor durchgeführt.
+Die Validierung erfolgt während der Validierung des Personalisierungsinhalts im Ausdruckseditor.
 
 <table> 
  <thead> 

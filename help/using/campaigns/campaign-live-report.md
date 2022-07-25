@@ -7,10 +7,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 83%
+source-wordcount: '679'
+ht-degree: 82%
 
 ---
 
@@ -43,8 +44,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Email]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten E-Mail-Sendungen aufgeführt.
 
-Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [E-Mail-Live-Bericht](../reports/email-live-report.md).
-
 Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
@@ -55,7 +54,7 @@ Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Inf
 
 Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** zeigen, wie erfolgreich Ihr Versand war:
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -86,8 +85,6 @@ Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabell
 ## Registerkarte „Push-Benachrichtigung“  {#push-live}
 
 In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Push]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten Push-Nachrichten aufgeführt.
-
-Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im Abschnitt [Push-Live-Bericht](../reports/push-live-report.md).
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 

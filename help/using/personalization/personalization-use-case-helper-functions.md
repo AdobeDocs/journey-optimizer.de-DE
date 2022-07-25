@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 97%
 
 ---
 
@@ -28,22 +28,38 @@ Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 ➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
 
 Bevor Sie beginnen, sollten Sie wissen, wie Sie diese Elemente konfigurieren:
-* Eine E-Mail-Nachricht. [Weitere Informationen](../messages/get-started-content.md)
-* Der Textkörper einer E-Mail. [Weitere Informationen](../design/create-email-content.md).
+
 * Ein unitäres Ereignis. [Weitere Informationen](../event/about-events.md).
 * Eine Journey, die mit einem Ereignis beginnt. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
+* Eine E-Mail-Nachricht in Ihrer Journey. [Weitere Informationen](../messages/get-started-content.md)
+* Der Textkörper einer E-Mail. [Weitere Informationen](../design/create-email-content.md).
 
 Führen Sie folgende Schritte aus:
+
+1. [Erstellen Sie das Anfangsereignis und die Journey](#create-context).
 1. [Erstellen Sie eine E-Mail-Nachricht](#configure-email).
 1. [Geben Sie den Vornamen des Kunden in Großbuchstaben ein](#uppercase-function).
-1. [Erstellen Sie das Anfangsereignis und die Journey](#create-context).
 1. [Fügen Sie den Inhalt des Warenkorbs zur E-Mail hinzu](#each-helper).
 1. [Fügen Sie eine produktspezifische Anmerkung ein](#if-helper).
 1. [Testen und Veröffentlichen der Journey](#test-and-publish).
 
-## Schritt 1: E-Mail erstellen{#configure-email}
+## Schritt 1: Anfangsereignis und die zugehörige Journey erstellen {#create-context}
 
-1. Erstellen oder ändern Sie eine E-Mail-Nachricht und klicken Sie dann auf **[!UICONTROL Email Designer]**.
+Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müssen Sie einer Journey ein Anfangsereignis und die E-Mail hinzufügen, bevor Sie der E-Mail Warenkorb-spezifische Informationen hinzufügen können.
+
+1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
+1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
+
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
+
+1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
+1. Hinzufügen einer **Email** -Aktivität auf die Journey.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Schritt 2: E-Mail erstellen{#configure-email}
+
+1. Im **Email** Aktivität, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** Klicken Sie auf **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Textkörper der Nachricht.
@@ -52,7 +68,7 @@ Führen Sie folgende Schritte aus:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Schritt 2: Vorname des Kunden in Großbuchstaben einfügen {#uppercase-function}
+## Schritt 3: Vorname des Kunden in Großbuchstaben einfügen {#uppercase-function}
 
 1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
@@ -93,33 +109,9 @@ Führen Sie folgende Schritte aus:
    ![](assets/personalization-uc-helpers-6.png)
 1. Speichern Sie die Nachricht.
 
-## Schritt 3: Anfangsereignis und die zugehörige Journey erstellen {#create-context}
-
-Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müssen Sie einer Journey ein Anfangsereignis und die E-Mail hinzufügen, bevor Sie der E-Mail Warenkorb-spezifische Informationen hinzufügen können.
-
-1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
-1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
-
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
-
-1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
-1. Fügen Sie der Journey die Nachricht hinzu.
-
-   Da Sie die Nachricht noch nicht veröffentlicht haben, können Sie die Journey weder testen noch veröffentlichen.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Klicken Sie auf **[!UICONTROL OK]**.
-
-   Eine Meldung informiert Sie darüber, dass der Journey-Kontext an die Nachricht weiteregegeben wurde.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Schritt 4: Liste der Artikel aus dem Warenkorb einfügen {#each-helper}
 
-1. Öffnen Sie die Nachricht erneut.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. Öffnen Sie den Nachrichteninhalt erneut.
 
 1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
@@ -299,14 +291,11 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Speichern und veröffentlichen Sie die Nachricht.
+1. Speichern Sie die Nachricht.
 
 ## Schritt 6: Journey testen und veröffentlichen {#test-and-publish}
 
-1. Öffnen Sie die Journey. Wenn die Journey bereits geöffnet ist, müssen Sie die Seite aktualisieren.
 1. Aktivieren Sie den Umschalter **[!UICONTROL Test]** und klicken Sie dann auf **[!UICONTROL Ereignis auslösen]**.
-
-   Sie können den Testmodus erst aktivieren, nachdem Sie die Nachricht veröffentlicht haben.
 
    ![](assets/personalization-uc-helpers-15.png)
 

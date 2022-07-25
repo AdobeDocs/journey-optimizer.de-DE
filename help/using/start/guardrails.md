@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 82%
+source-wordcount: '730'
+ht-degree: 81%
 
 ---
 
@@ -47,10 +47,6 @@ Leistungsgarantien und statische Beschränkungen für die Entscheidungsverwaltun
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 * In Journey gibt es heute eine technische Einschränkung, die verhindert, dass ein Profil mehrmals im selben Journey vorhanden ist. Ein Profil kann weiterhin eine Journey (basierend auf einer Einstellung) eingeben, kann dies jedoch erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat.
 * In den meisten Fällen kann ein Profil nicht mehrmals im selben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies aber erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
-
-### Nachrichtenaktion {#message-action-g}
-
-* Wenn Sie eine Multi-Channel-Nachricht hinzufügen, werden zwei Nachrichten gesendet.
 
 ### Journey-Versionen {#journey-versions-g}
 

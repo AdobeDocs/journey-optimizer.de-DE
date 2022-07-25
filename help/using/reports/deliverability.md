@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,6 @@ Verwenden Sie die von [!DNL Journey Optimizer] bereitgestellten Funktionen zur �
 Auf der Registerkarte **[!UICONTROL Ausführungen]** der Nachrichtenliste können Sie mit einer Reihe von Echtzeitindikatoren überprüfen, wie Ihre Sendungen funktionieren. Auf dieser Registerkarte wird unter anderem Folgendes angezeigt:
 * Die Anzahl der erfolgreich ausgeführten, gesendeten und zugestellten Nachrichten.
 * Die Anzahl der geöffneten Nachrichten und die Anzahl der Nachrichten/Links, auf die geklickt wurde.
-
-[Weitere Informationen über die Überwachung der Nachrichtenausführung](message-monitoring.md).
 
 ## Anpassen des Nachrichteninhalts {#adapt-message-content}
 

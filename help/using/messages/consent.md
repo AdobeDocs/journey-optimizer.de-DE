@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 95%
+source-wordcount: '1331'
+ht-degree: 88%
 
 ---
 
@@ -41,7 +41,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird in den [Nachrichtenvoreinstellungen](../configuration/message-presets.md#email-type) und bei der [Erstellung der Nachricht](get-started-content.md#create-new-message) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](../configuration/message-presets.md#email-type) (d. h. Nachrichtenvorgabe) und wann [Nachricht erstellen](get-started-content.md#create-new-message).
 
 ### Externes Opt-out {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 1. Hosten Sie sie auf einem Drittanbietersystem Ihrer Wahl.
 
-1. [Erstellen Sie eine Nachricht](get-started-content.md) in [!DNL Journey Optimizer].
+1. [Nachricht erstellen](get-started-content.md) in einer Journey.
 
 1. Wählen Sie Text in Ihrem Inhalt aus und [fügen](../design/message-tracking.md#insert-links) Sie mithilfe der kontextbezogenen Symbolleiste einen Link ein.
 
@@ -70,8 +70,6 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
    ![](assets/opt-out-link-url.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-
-1. Speichern Sie den Inhalt und [veröffentlichen Sie Ihre Nachricht](publish-manage-message.md).
 
 #### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
@@ -161,7 +159,7 @@ Gehen Sie wie folgt vor, um einen Opt-out-Link zu Ihrer E-Mail hinzuzufügen.
 
    >[!NOTE]
    >
-   >Wenn Sie die Option **Abmelden von einer Liste** auf der Ebene der Nachrichtenvoreinstellung verwenden, wird diese URL auch verwendet, wenn Benutzer auf den Abmelde-Link in der E-Mail-Kopfzeile klicken. [Weitere Informationen](#unsubscribe-header)
+   >Wenn Sie die **List-Unsubscribe** auf der Kanaloberfläche verwenden, wird diese URL auch verwendet, wenn Benutzer auf den Abmelde-Link im E-Mail-Header klicken. [Weitere Informationen](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -171,15 +169,15 @@ Gehen Sie wie folgt vor, um einen Opt-out-Link zu Ihrer E-Mail hinzuzufügen.
 
 Wenn Ihre Nachricht über eine [Journey](../building-journeys/journey.md) gesendet wurde, wird ein Empfänger, der auf den Abmelde-Link klickt, sofort abgemeldet.
 
-### Abmelde-Link in der Kopfzeile einer Nachricht {#unsubscribe-header}
+### Link zum Abmelden in E-Mail-Kopfzeile {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen eines Abmelde-Links zur E-Mail-Kopfzeile"
->abstract="Aktivieren Sie „Abmelden von einer Liste“, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein."
+>abstract="Aktivieren Sie „Abmelden von einer Liste“, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL festzulegen, fügen Sie einen Abmelde-Link mit einem Klick in den E-Mail-Inhalt ein."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=de#one-click-opt-out" text="Opt-out mit einem Klick"
 
-Wenn die Option [Abmelden von einer Liste](../configuration/message-presets.md#list-unsubscribe) auf der Ebene der Nachrichtenvoreinstellung aktiviert ist, enthalten die entsprechenden mit [!DNL Journey Optimizer] gesendeten E-Mails einen Abmelde-Link in der E-Mail-Kopfzeile.
+Wenn die Variable [List-Unsubscribe-Option](../configuration/message-presets.md#list-unsubscribe) auf der Kanaloberfläche aktiviert ist, werden die entsprechenden E-Mails mit [!DNL Journey Optimizer] enthält einen Abmelde-Link in den E-Mail-Header.
 
 Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 
@@ -189,7 +187,7 @@ Der Abmelde-Link wird beispielsweise in Gmail wie folgt angezeigt:
 >
 >Um den Abmelde-Link in der E-Mail-Kopfzeile anzuzeigen, muss der E-Mail-Client der Empfänger diese Funktion unterstützen.
 
-Die Abmelde-Adresse ist die Standardadresse **[!UICONTROL Mailto (unsubscribe)]**, die in der entsprechenden Nachrichtenvoreinstellung angezeigt wird. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe).
+Die Abmelde-Adresse ist die Standardeinstellung. **[!UICONTROL Mailto (unsubscribe)]** Adresse, die auf der entsprechenden Kanaloberfläche angezeigt wird. [Weitere Informationen](../configuration/message-presets.md#list-unsubscribe).
 
 Um eine personalisierte Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Abmelde-Link in den Inhalt der E-Mail-Nachricht ein und geben Sie die gewünschte URL ein. [Weitere Informationen](#one-click-opt-out)
 
@@ -214,6 +212,6 @@ Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen
 ## SMS-Abmeldeverwaltung {#sms-opt-out-management}
 
 Gemäß den Branchenstandards und -vorschriften können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten.
-Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Schlüsselwörter: START, STOP und UNSTOP. Diese Schlüsselwörter Trigger automatische Standardantworten des SMS-Anbieters.
+Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Schlüsselwörter: START, STOP und UNSTOP. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
 
 Weiterführende Informationen zum SMS-Opt-out finden Sie in diesem Abschnitt [page](../messages/create-sms.md#opt-in-and-opt-out).

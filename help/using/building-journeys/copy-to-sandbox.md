@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 85%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 100%
 >title="Abhängige Objekte"
 >abstract="Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt."
 
-Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Nachrichten, Segmente, Voreinstellungen, Schemata, Ereignisse und Aktionen. Siehe [Einschränkungen](../building-journeys/copy-to-sandbox.md#limitations)
+Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Vorgaben), Schemata, Ereignisse und Aktionen. Siehe [Einschränkungen](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Die folgenden Objekte werden kopiert:
 
 * Nachricht
 
-   Die in der Journey verwendeten physischen Nachrichten (E-Mails oder Push-Nachrichten). Die für die Personalisierung verwendeten Felder in der Nachricht werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
+   Die in der Journey verwendeten Kanalaktionsaktivitäten. Die für die Personalisierung verwendeten Felder in der Nachricht werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
 
 * Journey – Details der Arbeitsfläche
 
@@ -100,9 +101,8 @@ Die folgenden Objekte werden kopiert:
 
    Die in der Journey verwendeten Aktionen und Aktionsdetails werden kopiert.
 
-Voreinstellungen werden nicht kopiert. Das System wählt basierend auf dem Nachrichtentyp und dem Voreinstellungsnamen automatisch die bestmögliche Übereinstimmung für die Ziel-Sandbox aus. Wenn keine Voreinstellungen in der Ziel-Sandbox gefunden werden, schlägt die Voreinstellungskopie fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Voreinstellung zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Voreinstellung für den richtigen Kanal der Nachricht erstellt werden, damit die Kopie funktioniert.
+Oberflächen (d. h. Vorgaben) werden nicht kopiert. Das System wählt automatisch die nächstmögliche Übereinstimmung in der Ziel-Sandbox basierend auf Nachrichtentyp und Oberflächenname aus. Wenn keine Oberflächen in der Ziel-Sandbox gefunden werden, schlägt die Oberflächenkopie fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Oberfläche zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Fläche für den rechten Kanal der Nachricht erstellt werden, damit die Kopie funktioniert.
 
 Für Schemata, Zusammenführungsrichtlinien und Segmente werden diese Objekte beim zweiten Versuch, sie zu kopieren, nur referenziert. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
 
 Es dauert fünf Minuten, bis Adobe Journey Optimizer auf Schemata, Zusammenführungsrichtlinien und Segmente verweisen kann, ohne dass während dieser Zeit auf der Arbeitsfläche ein Fehler angezeigt wird. Wenn Sie fünf Minuten warten, sind diese Referenzen verfügbar.
-

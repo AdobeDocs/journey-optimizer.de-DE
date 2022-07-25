@@ -1,47 +1,47 @@
 ---
-title: Einrichten von Nachrichtenvoreinstellungen
-description: Erfahren Sie, wie Sie Nachrichtenvoreinstellungen konfigurieren und überwachen
+title: Einrichten von Kanaloberflächen
+description: Erfahren Sie, wie Sie Kanaloberflächen konfigurieren und überwachen
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
-source-wordcount: '1537'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 44%
 
 ---
 
-# Einrichten von Nachrichtenvoreinstellungen {#message-presets-creation}
+# Einrichten von Kanaloberflächen {#message-presets-creation}
 
-Mit [!DNL Journey Optimizer] können Sie Nachrichtenvoreinstellungen einrichten, die alle technischen Parameter definieren, die für E-Mail- und Push-Benachrichtigungen erforderlich sind: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps und mehr.
+Mit [!DNL Journey Optimizer]können Sie Kanaloberflächen (d. h. Nachrichtenvorgaben) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und Name, mobile Apps und mehr.
 
 >[!CAUTION]
 >
-> * Um Nachrichtenvoreinstellungen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Option [Nachrichtenvoreinstellungen verwalten](../administration/high-low-permissions.md#manage-message-presets).
+> * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, muss die [Kanaloberfläche verwalten](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Sie müssen die Konfigurationsschritte für [E-Mails](#configure-email-settings) und [Push-Benachrichtigungen](../configuration/push-configuration.md) ausführen, bevor Sie Nachrichtenvoreinstellungen definieren.
+> * Sie müssen die [E-Mail-Konfiguration](#configure-email-settings), [Push-Konfiguration](../configuration/push-configuration.md) und [SMS-Konfiguration](../configuration/sms-configuration.md) Schritte vor dem Erstellen von Kanaloberflächen.
 
 
-Nachdem Nachrichtenvoreinstellungen konfiguriert wurden, können Sie diese beim Erstellen von Nachrichten aus der Liste der **[!UICONTROL Voreinstellungen]** auswählen.
+Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten von einer Journey auswählen.
 
-➡️ [Erfahren Sie in diesem Video, wie Sie E-Mail-Voreinstellungen definieren und verwenden](#video-presets).
+➡️ [In diesem Video erfahren Sie, wie Sie E-Mail-Oberflächen erstellen und verwenden.](#video-presets)
 
-## Erstellen von Nachrichtenvoreinstellungen {#create-message-preset}
+## Erstellen einer Kanaloberfläche {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Details und Einstellungen von Nachrichtenvoreinstellungen"
->abstract="Durch die Einrichtung einer Nachrichtenvoreinstellung können Sie den Kanal auswählen, für den sie gilt, und alle technischen Parameter definieren, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, zu verwendende Subdomain, Absendername, Mobile Apps usw."
+>title="Details und Einstellungen der Kanaloberfläche"
+>abstract="Durch die Einrichtung einer Kanaloberfläche können Sie den Kanal auswählen, auf den sie angewendet wird, und alle technischen Parameter definieren, die für Ihren Versand erforderlich sind, z. B. E-Mail-Typ, zu verwendende Subdomain, Absendername, mobile Apps usw."
 
-Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
+Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Nachrichtenvoreinstellungen]** auf und klicken Sie dann auf **[!UICONTROL Nachrichtenvoreinstellung erstellen]**.
+1. Zugriff auf **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]** Menü und klicken Sie auf **[!UICONTROL Kanaloberfläche erstellen]**.
 
    ![](assets/preset-create.png)
 
-1. Geben Sie einen Namen und eine Beschreibung (optional) für die Voreinstellung ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Oberfläche ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    >
    >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](sms-configuration.md).
 
-1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
+1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und die Konfiguration später fortsetzen.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Sie können nicht mit der Voreinstellungserstellung fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
+   >Sie können nicht mit der Oberflächenerstellung fortfahren, solange sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
    >
-   >Speichern Sie die Voreinstellung als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat, um mit der Voreinstellungserstellung fortzufahren.
+   >Speichern Sie die Oberfläche als Entwurf und warten Sie, bis der IP-Pool den **[!UICONTROL Erfolg]** -Status, um die Erstellung der Oberfläche wieder aufzunehmen.
 
-1. Nachdem die Nachrichtenvoreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung]** angezeigt.
+1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit der **[!UICONTROL Verarbeitung]** Status.
 
    Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen.
 
@@ -97,25 +97,25 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu erstellen:
    >
    >In [diesem Abschnitt](#monitor-message-presets) erfahren Sie mehr über die möglichen Fehlerursachen, wenn die Prüfungen nicht erfolgreich sind.
 
-1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
+1. Sobald die Prüfungen erfolgreich sind, erhält die Kanaloberfläche die **[!UICONTROL Aktiv]** Status. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    ![](assets/preset-active.png)
 
-## Überwachen von Nachrichtenvoreinstellungen {#monitor-message-presets}
+## Bildschirmkanaloberflächen {#monitor-message-presets}
 
-Alle Ihre Nachrichtenvoreinstellungen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Nachrichtenvoreinstellungen]** angezeigt. Ihnen stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
+Alle Kanaloberflächen werden im **[!UICONTROL Kanäle]** > **[!UICONTROL Kanaloberflächen]** Menü. Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanal, Benutzer, Status).
 
 ![](assets/preset-filters.png)
 
-Nach ihrer Erstellung können Nachrichtenvoreinstellungen die folgenden Status aufweisen:
+Nach der Erstellung können Kanaloberflächen die folgenden Status aufweisen:
 
-* **[!UICONTROL Entwurf]**: Die Nachrichtenvoreinstellung wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
-* **[!UICONTROL Verarbeitung]**: Die Nachrichtenvoreinstellung wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
-* **[!UICONTROL Aktiv]**: Die Nachrichtenvoreinstellung wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvoreinstellung fehlgeschlagen.
-* **[!UICONTROL Deaktiviert]**: Die Nachrichtenvoreinstellung ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
+* **[!UICONTROL Entwurf]**: Die Kanaloberfläche wurde als Entwurf gespeichert und wurde noch nicht übermittelt. Öffnen Sie sie, um die Konfiguration fortzusetzen.
+* **[!UICONTROL Verarbeitung]**: Die Kanaloberfläche wurde gesendet und durchläuft mehrere Überprüfungsschritte.
+* **[!UICONTROL Aktiv]**: Die Kanaloberfläche wurde überprüft und kann zur Erstellung von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Bei der Überprüfung der Kanaloberfläche sind eine oder mehrere Prüfungen fehlgeschlagen.
+* **[!UICONTROL Deaktiviert]**: Die Kanaloberfläche wird deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
-Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Nachrichtenvoreinstellung fehlschlägt.
+Wenn die Erstellung einer Kanaloberfläche fehlschlägt, werden die Details zu den möglichen Fehlerursachen nachfolgend beschrieben.
 
 Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
@@ -128,18 +128,18 @@ Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstü
 * **Zustellbarkeitskonfigurationen fehlgeschlagen**: Zustellbarkeitskonfigurationsfehler können aus einem der folgenden Gründe auftreten:
    * Blockierungsauflistung der zugewiesenen IPs
    * Ungültiger `helo`-Name
-   * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Voreinstellung angegebenen gesendet werden
+   * E-Mails, die von anderen als den im IP-Pool der entsprechenden Oberfläche angegebenen IP-Adressen gesendet werden
    * E-Mails können nicht an Posteingänge wichtiger ISPs wie Gmail und Yahoo gesendet werden
 
-## Bearbeiten einer Nachrichtenvoreinstellung {#edit-message-preset}
+## Kanaloberfläche bearbeiten {#edit-message-preset}
 
-Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
+Gehen Sie wie folgt vor, um eine Kanaloberfläche zu bearbeiten.
 
 >[!NOTE]
 >
->Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Nachrichtenvoreinstellung nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
+>Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanaloberfläche nur für den Kanal Push-Benachrichtigung konfiguriert ist, kann sie nicht bearbeitet werden.
 
-1. Klicken Sie in der Liste auf den Namen einer Nachrichtenvoreinstellung, um sie zu öffnen.
+1. Klicken Sie in der Liste auf einen Namen für die Kanaloberfläche, um ihn zu öffnen.
 
    ![](assets/preset-name.png)
 
@@ -147,7 +147,7 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
 
    >[!NOTE]
    >
-   >Wenn eine Nachrichtenvoreinstellung den Status **[!UICONTROL Aktiv]** hat, sind die Felder **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** grau dargestellt und können nicht bearbeitet werden.
+   >Wenn die Kanaloberfläche die **[!UICONTROL Aktiv]** Status, **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** -Felder sind ausgegraut und können nicht bearbeitet werden.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
@@ -155,9 +155,9 @@ Gehen Sie wie folgt vor, um eine Nachrichtenvoreinstellung zu bearbeiten.
 
    >[!NOTE]
    >
-   >Sie können die Nachrichtenvoreinstellung auch als Entwurf speichern und die Aktualisierung zu einem späteren Zeitpunkt wieder aufnehmen.
+   >Sie können die Kanaloberfläche auch als Entwurf speichern und die Aktualisierung später fortsetzen.
 
-Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinstellung einen ähnlichen Validierungszyklus wie beim [Erstellen einer Voreinstellung](#create-message-preset). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
+Sobald die Änderungen übermittelt wurden, durchläuft die Kanaloberfläche einen Validierungszyklus, der dem beim [Kanaloberfläche erstellen](#create-message-preset). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
 
 >[!NOTE]
 >
@@ -165,15 +165,13 @@ Sobald die Änderungen übermittelt wurden, durchläuft die Nachrichtenvoreinste
 
 ### Details zur Aktualisierung {#update-details}
 
-Für Nachrichtenvoreinstellungen mit dem Status **[!UICONTROL Aktiv]** können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
+Für Kanaloberflächen mit **[!UICONTROL Aktiv]** -Status, können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
 
-* Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Voreinstellung angezeigt wird.
+Klicken Sie auf **[!UICONTROL Letzte Aktualisierung]** neben dem Namen der aktiven Oberfläche angezeigt.
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* Sie können auch während der Aktualisierung über eine aktive Nachrichtenvoreinstellung auf die Aktualisierungsdetails zugreifen.
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus und die Liste der angeforderten Änderungen sehen.
 
@@ -181,17 +179,17 @@ Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informatio
 
 ### Aktualisieren des Status {#update-statuses}
 
-Eine Aktualisierung einer Nachrichtenvoreinstellung kann die folgenden Status aufweisen:
+Ein Update der Kanaloberfläche kann die folgenden Status aufweisen:
 
-* **[!UICONTROL Verarbeitung]**: Die Aktualisierung der Nachrichtenvoreinstellung wurde übermittelt und durchläuft aktuell mehrere Überprüfungsschritte.
-* **[!UICONTROL Erfolg]**: Die Nachrichtenvoreinstellung wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
-* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Nachrichtenvoreinstellung fehlgeschlagen.
+* **[!UICONTROL Verarbeitung]**: Die Aktualisierung der Kanaloberfläche wurde eingereicht und durchläuft derzeit mehrere Überprüfungsschritte.
+* **[!UICONTROL Erfolg]**: Die aktualisierte Kanaloberfläche wurde überprüft und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Bei der Überprüfung der Kanaloberfläche sind eine oder mehrere Prüfungen fehlgeschlagen.
 
 Jeder Status wird nachfolgend beschrieben.
 
 #### In Bearbeitung
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustellen, dass die Voreinstellung ordnungsgemäß aktualisiert wurde.
+Es werden mehrere Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die Oberfläche ordnungsgemäß aktualisiert wurde.
 
 >[!NOTE]
 >
@@ -199,43 +197,43 @@ Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustell
 
 Die Verarbeitungszeit kann bis **3 Stunden** dauern. Weitere Informationen zu den während des Validierungszyklus durchgeführten Prüfungen finden Sie in [diesem Abschnitt](#create-message-preset).
 
-Wenn Sie eine bereits aktive Voreinstellung bearbeiten:
+Wenn Sie eine bereits aktive Oberfläche bearbeiten:
 
 * Ihr Status **[!UICONTROL Aktiv]** bleibt erhalten, während der Validierungsprozess ausgeführt wird.
 
-* Das Symbol **[!UICONTROL Letzte Aktualisierung]** wird neben dem Voreinstellungsnamen in der Liste der Nachrichtenvoreinstellungen angezeigt.
+* Die **[!UICONTROL Letzte Aktualisierung]** neben dem Namen der Oberfläche in der Liste der Kanaloberflächen angezeigt.
 
-* Während des Validierungsprozesses verwenden die mit dieser Voreinstellung konfigurierten Nachrichten weiterhin die ältere Version der Voreinstellung.
+* Während des Validierungsprozesses verwenden die auf dieser Oberfläche konfigurierten Nachrichten weiterhin die ältere Version der Oberfläche.
 
 >[!NOTE]
 >
->Sie können eine Nachrichtenvoreinstellung während der Aktualisierung nicht ändern. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
+>Während der Aktualisierung kann die Kanaloberfläche nicht geändert werden. Sie können zwar weiterhin auf den Namen klicken, aber alle Felder sind ausgegraut. Die Änderungen werden erst dann übernommen, wenn die Aktualisierung erfolgreich war.
 
 #### Erfolgreich {#success}
 
-Nach erfolgreicher Überprüfung wird die neue Version der Voreinstellung automatisch in allen Nachrichten verwendet, die diese Voreinstellung verwenden. Sie müssen jedoch möglicherweise warten:
+Nach erfolgreicher Validierung wird die neue Version der Oberfläche automatisch in allen Nachrichten verwendet, die diese Oberfläche verwenden. Sie müssen jedoch möglicherweise warten:
 * einige Minuten, bevor die Voreinstellung von den einzelnen Nachrichten genutzt wird,
-* bis zum nächsten Batch, damit die Voreinstellung in Batch-Nachrichten wirksam wird.
+* bis zum nächsten Batch, damit die Oberfläche in Batch-Nachrichten wirksam ist.
 
 #### Fehlgeschlagen {#failed}
 
-Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Voreinstellung verwendet.
+Wenn der Validierungsprozess fehlschlägt, wird weiterhin die ältere Version der Oberfläche verwendet.
 
 Weitere Informationen zu möglichen Fehlerursachen finden Sie in [diesem Abschnitt](#monitor-message-presets).
 
-Wenn die Aktualisierung fehlschlägt, kann die Voreinstellung erneut bearbeitet werden. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
+Wenn die Aktualisierung fehlschlägt, wird die Oberfläche wieder bearbeitbar. Sie können auf den Namen klicken und die Einstellungen aktualisieren, die korrigiert werden müssen.
 
-## Deaktivieren von Nachrichtenvoreinstellungen {#deactivate-preset}
+## Deaktivieren der Kanaloberfläche {#deactivate-preset}
 
-Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung nicht verfügbar ist, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Die mit dieser Voreinstellung schon veröffentlichten Nachrichten sind jedoch davon nicht betroffen und funktionieren weiterhin.
+So erstellen Sie eine **[!UICONTROL Aktiv]** Kanaloberfläche nicht verfügbar, um neue Nachrichten zu erstellen, können Sie sie deaktivieren. Journey, die diese Oberfläche verwenden, sind jedoch nicht betroffen und funktionieren weiterhin.
 
 >[!NOTE]
 >
->Sie können eine Nachrichtenvoreinstellung nicht deaktivieren, während eine Aktualisierung im Gange ist. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Weitere Informationen finden Sie unter [Bearbeiten von Nachrichtenvoreinstellungen](#edit-message-preset) und [Aktualisierungsstatus](#update-statuses).
+>Eine Kanaloberfläche kann während der Verarbeitung einer Aktualisierung nicht deaktiviert werden. Sie müssen warten, bis die Aktualisierung entweder erfolgreich war oder fehlgeschlagen ist. Weitere Informationen finden Sie unter [Bearbeitungskanalflächen](#edit-message-preset) und auf [Aktualisierungsstatus](#update-statuses).
 
-1. Rufen Sie die Liste der Nachrichtenvoreinstellungen auf.
+1. Rufen Sie die Liste der Kanaloberflächen auf.
 
-1. Klicken Sie für die aktive Voreinstellung Ihrer Wahl auf die Schaltfläche **[!UICONTROL Weitere Aktionen]**.
+1. Klicken Sie für die aktive Oberfläche Ihrer Wahl auf die **[!UICONTROL Mehr Aktionen]** Schaltfläche.
 
 1. Wählen Sie **[!UICONTROL Deaktivieren]** aus.
 
@@ -243,14 +241,14 @@ Wenn Sie möchten, dass eine **[!UICONTROL aktive]** Nachrichtenvoreinstellung n
 
 >[!NOTE]
 >
->Deaktivierte Nachrichtenvoreinstellungen können nicht gelöscht werden, um Probleme in Journeys zu vermeiden, die diese Voreinstellungen zum Senden von Nachrichten verwenden.
+>Deaktivierte Kanaloberflächen können nicht gelöscht werden, um Probleme in Journey zu vermeiden, die diese Oberflächen zum Senden von Nachrichten verwenden.
 
-Eine deaktivierte Nachrichtenvoreinstellung kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
+Eine deaktivierte Kanaloberfläche kann nicht direkt bearbeitet werden. Sie können sie jedoch duplizieren und die Kopie bearbeiten, um eine neue Version zu entwerfen, mit der Sie neue Nachrichten erstellen können. Sie können sie auch erneut aktivieren und warten, bis die Aktualisierung erfolgreich abgeschlossen wird, bevor Sie sie bearbeiten.
 
 ![](assets/preset-activate.png)
 
 ## Anleitungsvideo{#video-presets}
 
-Erfahren Sie, wie Sie Nachrichtenvoreinstellungen definieren und verwenden, eine Subdomain zuweisen und einen IP-Pool erstellen.
+Erfahren Sie, wie Sie Kanaloberflächen erstellen, diese verwenden und eine Subdomain zuweisen und einen IP-Pool erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

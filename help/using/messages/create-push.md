@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1475'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 90%
 
 ---
 
@@ -18,18 +18,23 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Erstellen von Push-Benachrichtigungen"
->abstract="Fügen Sie Ihre Push-Benachrichtigung hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
+>abstract="Fügen Sie Ihre Push-Nachricht hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
 
 
 Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen – insbesondere dann, wenn sie Ihre Mobile App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen abzudecken, z. B. Updates zu Ihrem Service bereitzustellen, einen Benutzer zu einer Aktion aufzufordern, den Benutzer auf ein neues Angebot hinzuweisen usw. Geräteplattformen erfordern ein Opt-in, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Das Opt-in des Benutzers kann bereits nach dem ersten Start der App nach der Installation oder in einer nachfolgenden Sitzung oder einem nachfolgendem Workflow erfolgen.
 
 [!DNL Journey Optimizer] unterstützt Push-Benachrichtigungen und hilft Ihnen, hochrelevante Benachrichtigungen mit branchenführenden Übertragungsraten zu senden. Push-Benachrichtigungen können Personalisierung und Journey-basierten Kontext enthalten, um die Erkenntnisse aus Daten zu nutzen, die Ihre Marke dank Adobe Experience Cloud hat.
 
-Nachdem Sie [eine Nachricht erstellt](get-started-content.md) haben, klicken Sie auf die Registerkarte **[!UICONTROL Push-Benachrichtigung]**, um die Einstellungen und den Inhalt der Push-Benachrichtigung zu definieren.
+Einmal [Push hinzugefügt](get-started-content.md) -Aktivität auf Ihrer Journey und den definierten Grundeinstellungen verwenden Sie die **[!UICONTROL Aktionen: Push]** den Inhalt für die Push-Benachrichtigung erstellen.
+
+![](assets/add-a-push.png)
+
+
+Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Einstellungen für die Betriebssysteme **iOS** und **Android** zu definieren.
 
 ![](assets/create-content-push.png)
 
-Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Einstellungen für die Betriebssysteme **iOS** und **Android** zu definieren.
+Wenn Sie zum ersten Mal eine Push-Benachrichtigung erstellen, stellen Sie sicher, dass der Push-Kanal konfiguriert wurde. [Weitere Informationen](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 
 ## Titel und Textkörper {#push-title-body}
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Mit dem Ausdruckseditor können Sie Inhalt und Personalisierungsdaten definieren. Weitere Informationen zur Personalisierung im Ausdruckseditor finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Definieren Sie mithilfe des Ausdruckseditors Inhalt und Personalisierungsdaten. Weitere Informationen zur Personalisierung finden Sie im Ausdruckseditor unter [diesem Abschnitt](../personalization/personalize.md)
 
 Im Abschnitt für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
 
@@ -52,7 +57,7 @@ Sie können das Verhalten bestimmen, wenn ein Empfänger auf den Hauptteil der P
 
 ![](assets/title-body-push.png)
 
-* Um die App zu öffnen, wählen Sie die Option **[!UICONTROL App öffnen]**. Die mit der Benachrichtigung verknüpfte App wird in der **[!UICONTROL Voreinstellung]** der Nachricht definiert. [Weitere Informationen](../configuration/message-presets.md) über Nachrichtenvoreinstellungen
+* Um die App zu öffnen, wählen Sie die Option **[!UICONTROL App öffnen]**. Die mit der Benachrichtigung verknüpfte App wird im [Kanaloberfläche](../configuration/message-presets.md) (d. h. Nachrichtenvorgabe).
 * Um den Benutzer zu einem bestimmten Inhaltselement innerhalb einer App umzuleiten, wählen Sie die Option **[!UICONTROL Deeplink]**.  Der bestimmte Inhalt kann eine Ansicht, ein Abschnitt einer Seite oder eine Registerkarte sein. Geben Sie nach Auswahl der Option den Deeplink in das entsprechende Feld ein.
 * Um den Benutzer zu einer externen URL umzuleiten, verwenden Sie die Option **[!UICONTROL Web-URL]**. Geben Sie nach Auswahl der Option die URL in das entsprechende Feld ein.
 
@@ -125,6 +130,17 @@ Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung
 | **[!UICONTROL Benachrichtigungssichtbarkeit]**       (Nur Android) | Definiert die Sichtbarkeit der Push-Benachrichtigung. <br/><b>Privat</b>: Die Benachrichtigung wird auf allen Sperrbildschirmen angezeigt, vertrauliche oder private Informationen werden jedoch auf gesicherten Sperrbildschirmen ausgeblendet. <br/><b>Public</b>: Die Benachrichtigung wird vollständig auf allen Sperrbildschirmen angezeigt. <br/><b>Secret</b>: Auf einem gesicherten Sperrbildschirm wird kein Teil der Benachrichtigung angezeigt. <br/>Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Benachrichtigungspriorität]** (nur Android) | Definiert die Wichtigkeit der Push-Benachrichtigung von „niedrig“ bis „maximal“. Dadurch wird festgelegt, wie „aufdringlich“ die Push-Benachrichtigung bei der Zustellung ist. Weiterführende Informationen zu diesem Thema finden Sie in der [Dokumentation für Android-Entwickler](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance). |
 | **[!UICONTROL Versandpriorität]**       (Nur Android) | Weist Ihren Push-Benachrichtigungen eine hohe oder normale Priorität zu. Weiterführende Informationen zur Priorität von Nachrichten finden Sie in der [Dokumentation für Google-Entwickler](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+
+
+## Push-Benachrichtigung validieren{#push-preview}
+
+Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
+
+Um zu visualisieren, wie Ihre Push-Benachrichtigung auf Mobilgeräten angezeigt wird, klicken Sie auf das **[!UICONTROL Inhalt simulieren]** Registerkarte. Weitere Informationen zur Inhaltsimulation finden Sie unter [diesem Abschnitt](../design/preview.md).
+
+Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Verwandte Themen**
 

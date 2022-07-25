@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 86%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-Mit [!DNL Journey Optimizer] können Sie in E-Mail-Nachrichten Entscheidungen einfügen, die die Offer-Decisioning-Engine nutzen, um das jeweils beste Angebot für Ihre Kunden auszuwählen.
+In [!DNL Journey Optimizer] E-Mails können Sie Entscheidungen einfügen, die die Offer Decisioning-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
 
 Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
 
@@ -59,11 +59,11 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
 Die Angebotsaktivität wird nun der Komponente hinzugefügt.
 
-Nachdem Sie Ihre Änderungen gespeichert und die Nachricht veröffentlicht haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey den entsprechenden Profilen angezeigt werden.
+Nachdem Sie Ihre Änderungen gespeichert haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey angezeigt werden.
 
 >[!NOTE]
 >
->Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in einer veröffentlichten Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht angezeigt, ohne dass sie erneut veröffentlicht werden müssen.
+>Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotskollektion oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in der Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht widergespiegelt.
 
 ## Angebotsvorschau in einer E-Mail {#preview-offers-in-email}
 

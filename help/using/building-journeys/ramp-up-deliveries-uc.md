@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ In diesem Anwendungsbeispiel wird eine Journey erstellt, um die Versandaktivitä
 
    Sie können dieses Limit schrittweise auf die Gesamtzahl Ihrer Abonnenten erhöhen.
 
-1. Fügen Sie im nominalen Pfad nach der Aktivität **[!UICONTROL Bedingung]** die Aktivität **[!UICONTROL Nachricht]** hinzu.
+1. Hinzufügen einer **[!UICONTROL Email]** Aktionsaktivität zum nominalen Pfad nach der **[!UICONTROL Bedingung]** Aktivität.
 
    ![](assets/ramp-up-deliveries-message.png)
 

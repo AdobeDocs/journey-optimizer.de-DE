@@ -1,137 +1,164 @@
 ---
 title: Erste Schritte mit Nachrichten
-description: Hier erfahren Sie, wie Sie personalisierte Nachrichten in Journey Optimizer erstellen, testen und veröffentlichen.
+description: Hier erfahren Sie, wie Sie in Journey Optimizer personalisierte Nachrichten erstellen und versenden.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: '825'
+ht-degree: 8%
 
 ---
 
-# Erste Schritte mit Nachrichten {#get-started-contents-messages}
+# Erste Schritte mit Kanalaktionen {#get-started-messages}
 
-Verwenden Sie [!DNL Journey Optimizer], um mehrere Ressourcen wie Assets und Inhalte an einem Ort zu nutzen und personalisierte Push-Benachrichtigungen und E-Mail-Nachrichten zu erstellen und zu veröffentlichen.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Kanalaktionen"
+>abstract="Verwenden Sie Kanalaktionen, um eine Push-, SMS- oder E-Mail-Nachricht zu senden."
 
-* Nutzen Sie **E-Mail-Entwurfsfunktionen** von [!DNL Journey Optimizer], um responsive E-Mails zu erstellen oder zu importieren.
+Verwendung [!DNL Journey Optimizer] , um personalisierte Push-Benachrichtigungen, SMS und E-Mail-Nachrichten zu erstellen und zu versenden. Alle Nachrichten können im Rahmen einer Aktion auf der Journey-Arbeitsfläche bearbeitet werden.  Verwenden Sie die Funktion Als Vorlage speichern , um Ihren Inhalt einfach wiederzuverwenden. Sie haben folgende Möglichkeiten:
 
-* Nutzen Sie **Adobe Experience Manager Assets Essentials**, um eine eigene Asset-Datenbank zu erstellen und Ihre E-Mails zu ergänzen.
+* Verwendung [!DNL Journey Optimizer] **E-Mail-Designfunktionen** , um responsive E-Mails zu erstellen oder zu importieren.
 
-* Verbessern Sie das Kundenerlebnis, indem Sie **personalisierte Push- und E-Mail-Nachrichten** auf der Basis von Kundenprofil-Attributen erstellen.
+* Nutzung **Adobe Experience Manager Assets Essentials** um Ihre E-Mails anzureichern, erstellen und verwalten Sie Ihre eigene Asset-Datenbank.
 
-* **Erstellen Sie Push- und E-Mail-Nachrichten** basierend auf diesen Inhalten und veröffentlichen Sie die Nachrichten.
+* Suchen **Adobe Stock-Fotos** um Ihren Inhalt zu erstellen und Ihr E-Mail-Design zu verbessern.
 
-## Zugriff auf Nachrichten {#access-messages}
+* Verbessern des Kundenerlebnisses durch die Erstellung personalisierter **Push-Benachrichtigungen, SMS und E-Mails** basierend auf ihren Profilattributen.
 
-Nachrichten sind über den Shortcut **[!UICONTROL Nachrichten]** auf der linken Leiste verfügbar. Alle Nachrichten werden aufgelistet und nach Veröffentlichungsdatum (bei veröffentlichten Nachrichten) oder Erstellungsdatum (bei Nachrichtenentwürfen) sortiert.
+* **Sendungen senden** auf diesen Inhalten basieren und das Kundenverhalten verfolgen.
 
 >[!NOTE]
 >
->Benutzer können je nach ihrem Produktprofil auf Nachrichten zugreifen, Nachrichten erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
+>Benutzer können je nach Produktprofil auf Journey zugreifen, diese erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
 
-![](assets/messages-list.png)
 
-* Verwenden Sie den Umschalter **[!UICONTROL Aktuelle Nachrichten anzeigen]**, um den Nachrichten, die Sie in den letzten 5 Tagen geöffnet haben, direkte Links hinzuzufügen.
+## Hinzufügen von Nachrichten in Ihren Journey{#messages-in-journeys}
 
-   ![](assets/show-recent-messages.png)
+>[!CONTEXTUALHELP]
+>id="ajo_message_category"
+>title="Nachrichtenkategorie"
+>abstract="Wählen Sie Marketing für kommerzielle Nachrichten oder Transaktionsnachrichten für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen."
 
-* Klicken Sie auf das Filtersymbol, um nur Entwürfe, bereits veröffentlichte Nachrichten oder in Veröffentlichung befindliche Nachrichten anzuzeigen. Außerdem können Sie nach Nachrichtenbezeichnungen suchen:
+>[!CONTEXTUALHELP]
+>id="ajo_message_surface"
+>title="Kanaloberfläche"
+>abstract="Eine Kanaloberfläche ist eine Instanz dieses Kanals, die über alle Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von einem Systemadministrator definiert."
 
-   ![](assets/filter-messages.png)
+Um Nachrichten in Ihren Journey hinzuzufügen, fügen Sie einfach eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
 
-* Sie können nicht verwendete Nachrichten mithilfe des entsprechenden Symbols im Schnellaktionsmenü archivieren, um die Nachrichtenliste zu löschen.
+1. Starten Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder [Segment lesen](../building-journeys/read-segment.md) Aktivität.
 
-   ![](assets/archive-message.png)
+1. Aus dem **Aktionen** Ziehen Sie einen **email**, und **SMS** oder **Push** -Aktivität in die Arbeitsfläche.
 
-   Verwenden Sie das Filtersymbol, um alle archivierten Nachrichten anzuzeigen, und klicken Sie auf das Symbol **[!UICONTROL Archivierung aufheben]**, um ein Element aus der Liste der archivierten Nachrichten zu entfernen.
+   ![](assets/add-a-message.png)
+
+1. Geben Sie einen Titel und eine Beschreibung ein.
+
+1. Nachricht auswählen **[!UICONTROL Kategorie]**: Auswählen **Marketing** für kommerzielle Nachrichten oder **Transactional** für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
    >[!NOTE]
    >
-   >Eine archivierte Nachricht kann nicht geöffnet werden. In diesem Fall müssen Sie zunächst die Archivierung aufheben.
+   >Wenn Sie [Frequenzregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie, werden sie bei der Auswahl dieses Kanals und dieser Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur der **[!UICONTROL Marketing]** -Kategorie für Frequenzregeln verfügbar.
 
-## Erstellen einer neuen Nachricht {#create-new-message}
+   ![](assets/inline-message-category.png)
 
-Gehen Sie wie folgt vor, um eine neue Nachricht zu erstellen:
-
-1. Rufen Sie die Nachrichtenliste auf und klicken Sie anschließend auf **[!UICONTROL Nachricht erstellen]**.
-
-1. Definieren Sie die Nachrichteneigenschaften.
-
-   ![](assets/create-message-properties.png)
-
-   * Geben Sie einen **[!UICONTROL Titel]** (obligatorisch) und eine **[!UICONTROL Beschreibung]** ein.
-
-   * Wählen Sie die **[!UICONTROL Nachrichtenkategorie]**: Marketing oder Transaktionsnachricht.
-
-   * Wählen Sie die Kanäle aus, die Sie für diese Nachricht verwenden möchten: E-Mail, Push-Benachrichtigung und/oder SMS. Sie müssen mindestens einen Kanal auswählen, um die Nachricht erstellen zu können.
-   >[!NOTE]
-   >
-   >Sie können auf den Link **[!UICONTROL Häufigkeitsregel]** klicken, um die Häufigkeitsregeln anzuzeigen, die für die ausgewählte Kategorie und die ausgewählten Kanäle gelten. Weitere Informationen finden Sie unter [Häufigkeitsregeln](../configuration/frequency-rules.md).
-
-   * Wählen Sie die **[!UICONTROL Voreinstellung]** aus, die für die Nachricht verwendet werden soll.
-
-      Voreinstellungen enthalten alle Parameter, die erforderlich sind, damit eine E-Mail- und/oder Push-Benachrichtigung markenkonform gesendet werden kann. Weitere Informationen finde Sie unter [Voreinstellungen](../configuration/message-presets.md).
    >[!CAUTION]
    >
-   >Sie müssen eine gültige Nachrichtenvoreinstellung für die ausgewählte Kategorie und die ausgewählten Kanäle wählen.
+   >Nachrichten vom Typ Marketing müssen eine [Ausschluss-Link](../messages/consent.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
 
-   Beachten Sie, dass Sie über die Schaltfläche **[!UICONTROL Eigenschaften]** jederzeit auf Titel, Beschreibung und Voreinstellung der Nachricht zugreifen und diese ändern können.
+1. Kanal auswählen **[!UICONTROL Oberfläche]** (d. h. Nachrichtenvorgabe), die zum Senden Ihrer Nachricht verwendet werden soll.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Nachrichtenerstellung zu bestätigen. Ihre Nachricht wird mit dem Status **[!UICONTROL Entwurf]** der Nachrichtenliste hinzugefügt.
+   Eine Oberfläche ist eine Konfiguration, die durch eine [Systemadministrator](../start/path/administrator.md). Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomäne, Mobile Apps usw. [Weitere Informationen](../configuration/message-presets.md).
 
-   Für jeden ausgewählten Kanal steht eine Registerkarte zur Verfügung. Mit diesen Registerkarten können Sie den Inhalt für jeden Kanal konfigurieren. Um eine Registerkarte zu entfernen, wählen sie diese aus und klicken auf der rechten Seite auf die Schaltfläche **[!UICONTROL Kanal löschen]**.
-
-   ![](assets/create-messages-content.png)
-
-   <!--
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
-   -->
+   >Sie müssen eine gültige Kanaloberfläche für die ausgewählte Nachrichtenkategorie und den ausgewählten Kanal auswählen.
 
-   Nun können Sie den Inhalt für die Nachricht erstellen und die Einstellungen anpassen. Detaillierte Informationen zur Konfiguration von E-Mails und Push-Benachrichtigungen finden Sie in den folgenden Abschnitten:
+   Titel, Beschreibung und Oberfläche der Nachricht können jederzeit mit der Variablen **[!UICONTROL Eigenschaften]** in der Nachrichtenschnittstelle.
+
+1. Nachrichteninhalt erstellen.
+
+   Auf der folgenden Seite erfahren Sie, wie Sie Ihren Nachrichteninhalt mit detaillierten Schritten erstellen:
 
    * [Erstellen einer E-Mail](create-email.md)
    * [Erstellen einer Push-Benachrichtigung](create-push.md)
    * [Erstellen einer SMS-Nachricht](create-sms.md)
 
-   >[!NOTE]
-   >   
-   >Sie können Ihre Nachrichten im Ausdruckseditor anhand der Profildaten personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+## Aktivieren der Sendezeitoptimierung{#sto-in-journeys}
 
-1. Im Abschnitt „Vorschau“ auf der linken Seite können Sie das Nachrichten-Rendering anpassen und die Personalisierungseinstellungen mithilfe der Testprofile überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+Für E-Mail- und Push-Benachrichtigungen können Sie **[!UICONTROL Sendezeitoptimierung]**.
 
-   ![](assets/messages-simple-preview.png)
+Verwendung **[!UICONTROL Sendezeitoptimierung]** , um personalisierte Sendezeiten für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen. [Weitere Informationen](../messages/send-time-optimization.md).
 
-1. Überprüfen Sie Warnhinweise im oberen Abschnitt des Editors.  Einige davon sind einfache Warnhinweise, andere können die Veröffentlichung der Nachricht verhindern. Weiterführende Informationen finden Sie in diesem [Abschnitt](alerts.md).
 
-1. Sie können Ihre Nachricht jetzt veröffentlichen, indem Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]** klicken, oder die Nachricht als Entwurf speichern und zu einem späteren Zeitpunkt veröffentlichen. Weiterführende Informationen zur Veröffentlichung von Nachrichten finden Sie in [diesem Abschnitt](publish-manage-message.md).
+## Erweiterte Parameter{#adv-settings}
+
+Erweiterte Parameter sind schreibgeschützt und werden standardmäßig ausgeblendet.
+
+Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]** im oberen Bereich des Nachrichtenfensters.
+
+![](assets/show-read-only.png)
+
+Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden durch die Variable [Systemadministrator](../start/path/administrator.md) im [Kanaloberfläche](../configuration/message-presets.md) (d. h. Nachrichtenvorgabe), die mit der Nachricht verknüpft ist.
+
+Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token, AppID, AppPlatform.
+
+![](assets/push-adv-parameters.png)
+
+Für E-Mails können Sie die primäre E-Mail-Adresse anzeigen.
+
+Für bestimmte Zwecke können Sie diese Werte in bestimmten Kontexten überschreiben. Um einen Wert zu erzwingen, klicken Sie auf die **Parameterüberschreibungen aktivieren** rechts neben dem Feld. Diese Option kann beispielsweise für Folgendes nützlich sein:
+
+* Testen Sie eine E-Mail, fügen Sie Ihre E-Mail-Adresse hinzu. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Siehe E-Mail-Adresse der Abonnenten einer Liste. Weitere Informationen finden Sie unter [dieser Anwendungsfall](../building-journeys/message-to-subscribers-uc.md).
+
+Klicken Sie auf dasselbe Symbol, um auf den Standardparameter zurückzusetzen.
+
+
+## Nachrichten durchsuchen{#browse-message}
+
+Wenn auf einer Journey mehrere Nachrichten verwendet werden, können Sie von der **Inhalt bearbeiten** angezeigt.
+
+![](assets/inline-messages-multi-content.png)
+
+Sie können dann [Warnungen überprüfen](alerts.md) und [simulieren](../design/preview.md) jeden Inhalt aus einer einzelnen Ansicht.
 
 ## Duplizieren einer Nachricht {#duplicate-message}
 
-Gehen Sie wie folgt vor, um eine Nachricht aus einer vorhandenen zu erstellen.
+Sie können eine vorhandene Nachricht aus der Journey-Arbeitsfläche kopieren.
 
-1. Öffnen Sie die Nachricht, die Sie kopieren möchten.
+Gehen Sie dazu wie folgt vor:
 
-1. Verwenden Sie die Schaltfläche **[!UICONTROL Duplizieren]** in der Nachrichtenschnittstelle.
+1. Wählen Sie die Nachricht aus, die Sie kopieren möchten.
+
+1. Verwenden Sie die **[!UICONTROL Kopieren]** -Schaltfläche in der **[!UICONTROL Aktion]** -Bereich.
 
    ![](assets/message-duplicate.png)
 
-   Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
+1. Eingabe **Strg+V** um die Nachricht einzufügen.
 
-1. Sie können die Nachricht umbenennen, bevor Sie die Duplizierung bestätigen.
+   Die Nachricht wird der Journey-Arbeitsfläche hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
-   ![](assets/message-duplicate-confirm.png)
+   ![](assets/message-duplicated.png)
 
-1. Eine Bestätigungsmeldung wird am unteren Rand des Fensters angezeigt, sobald die neue Nachricht erstellt wurde.
+1. Benennen Sie die Nachricht um, um die ursprüngliche Nachricht von der Kopie zu unterscheiden, z. B. bei der Bearbeitung von Nachrichten, wie unten dargestellt:
 
-Sie können eine Nachricht auch aus der Nachrichtenliste duplizieren, indem Sie das entsprechende Symbol im Schnellaktionsmenü verwenden.
+   ![](assets/multi-message.png)
 
-![](assets/message-duplicate-from-list.png)
 
-Darauf folgt der gleiche Bestätigungsprozess.
+>[!NOTE]
+>
+>Bei E-Mails können Sie auch eine vorhandene Nachricht in eine Vorlage umwandeln. [Weitere Informationen](../design/email-templates.md).
 
+## Nachricht löschen
+
+Um eine Nachricht zu löschen, verwenden Sie das Papierkorbsymbol oben im Aktivitätsbereich für die Kanalaktivität.
+
+![](assets/delete-message.png)
+
+Verwenden Sie die **[!UICONTROL Bestätigen]** zu validieren.

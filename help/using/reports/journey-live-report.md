@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
 # Journey-Live-Bericht {#journey-live-report}
 
-Über die Schaltfläche **[!UICONTROL Live-Bericht]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
+Auf einen Journey-Live-Bericht können Sie direkt von Ihrer Journey mit der **[!UICONTROL Bericht anzeigen]** Schaltfläche.
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerkarten angezeigt:
 
@@ -44,8 +44,6 @@ Das Widget **[!UICONTROL Journey-Statistiken]** zeigt die folgenden KPIs an:
 
 * **[!UICONTROL Fehlgeschlagene individuelle Journeys]**: Gesamtzahl der individuellen Journeys, die nicht erfolgreich ausgeführt wurden.
 
-![](assets/report_journey_3.png)
-
 Mit den Widgets **[!UICONTROL Ereignis, das in den letzten 24 Stunden ausgeführt wurde]** und **[!UICONTROL Ereignisse]** können Sie anhand der Gesamtanzahl, des Diagramms und der Tabelle sehen, welches Ihrer Ereignisse erfolgreich ausgeführt wurde.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführ
 ## Registerkarte „E-Mail“  {#email-live}
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
-
-Einen ausführlichen Bericht zu einem bestimmten E-Mail-Versand finden Sie im Abschnitt [E-Mail-Live-Bericht](email-live-report.md).
 
 ![](assets/report_email_1.png)
 
@@ -124,13 +120,11 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
-Einen ausführlichen Bericht zu einem bestimmten Push-Versand finden Sie im Abschnitt [Push-Live-Bericht](push-live-report.md).
-
 ![](assets/report_push_1.png)
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 

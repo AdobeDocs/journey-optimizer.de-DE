@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 21%
+source-wordcount: '586'
+ht-degree: 18%
 
 ---
 
@@ -65,10 +65,7 @@ Gehen Sie wie folgt vor, um ähnliche Fotos zu durchsuchen:
 
    Wenn das ausgewählte Bild nicht lizenziert ist, müssen Sie [Lizenz abrufen](#license-stock-image).
 
-1. Passen Sie bei Bedarf Ihr Bild mit dem **[!UICONTROL Komponenteneinstellungen]** Menü. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
-
-Nachdem die Nachricht erstellt und personalisiert wurde, können Sie diese veröffentlichen, um sie für die Ausführung verfügbar zu machen. [Weitere Informationen](../messages/publish-manage-message.md)
-
+1. Passen Sie bei Bedarf Ihr Bild mit dem **[!UICONTROL Komponenteneinstellungen]** Menü. [Weitere Informationen zu Komponenteneinstellungen](content-components.md).
 
 ## Lizenz abrufen von [!DNL Adobe Stock] {#license-stock-image}
 

@@ -1,15 +1,15 @@
 ---
 title: Verwenden einer BCC-E-Mail-Adresse
-description: Erfahren Sie, wie Sie BCC-E-Mail-Adressen auf der Ebene der Nachrichtenvoreinstellung konfigurieren.
+description: Erfahren Sie, wie Sie BCC-E-Mails auf der Kanaloberflächen-Ebene konfigurieren
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
-workflow-type: ht
-source-wordcount: '1136'
-ht-degree: 100%
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 88%
 
 ---
 
@@ -24,23 +24,23 @@ Sie können eine identische Kopie (oder Blindkopie) einer von [!DNL Journey Opti
 
 ## Aktivieren von BCC-E-Mails {#enable-bcc}
 
-Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das entsprechende Feld ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
+So aktivieren Sie die **[!UICONTROL BCC-E-Mail]** Geben Sie die gewünschte E-Mail-Adresse in das entsprechende Feld der [Kanaloberfläche](message-presets.md) (d. h. Nachrichtenvorgabe). Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
 
 >[!NOTE]
 >
->Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Voreinstellung gesendet werden.
+>Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über ausreichend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die über die aktuelle Kanaloberfläche gesendet werden.
 >
 >Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Alle E-Mail-Nachrichten, die diese Voreinstellung verwenden, werden blind an die von Ihnen eingegebene BCC-E-Mail-Adresse gesendet. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
+Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
 
 >[!CAUTION]
 >
->Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie daher nur für wichtige Kommunikation, die Sie archivieren möchten, in den Voreinstellungen. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
+>Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Daher aktivieren Sie sie nur auf den Oberflächen, die für kritische Kommunikation verwendet werden, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
-Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Voreinstellung gespeichert und verarbeitet. Wenn Sie mit dieser Voreinstellung eine [neue Nachricht erstellen](../messages/get-started-content.md#create-new-message), wird die BCC-E-Mail-Adresse automatisch angezeigt.
+Die Einstellung der BCC-E-Mail-Adresse wird sofort gespeichert und auf oberflächlicher Ebene verarbeitet. Wenn Sie [eine neue Nachricht erstellen](../messages/get-started-content.md#create-new-message) Auf dieser Oberfläche wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nac
 
 >[!NOTE]
 >
->Sie müssen keine Nachricht oder Journey erneut veröffentlichen, damit die BCC-Einstellung übernommen wird.
+>Sie müssen Ihre Journey nicht erneut veröffentlichen, damit die BCC-Einstellung abgerufen wird.
 
 ## Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nac
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/message-monitoring.md) zu falschen Berechnungen führen.
+* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/global-report.md) zu falschen Berechnungen führen.
 
 * Markieren Sie im BCC-Posteingang keine Nachrichten als Spam, da sich das auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 

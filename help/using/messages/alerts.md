@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 72%
 
 ---
 
-# Überprüfen von Warnhinweisen für Ihre Nachrichten {#publish-manage-messages}
+# Überprüfen von Warnhinweisen für Ihre Nachrichten {#messages-alerts}
 
-## Prüfungen vor der Veröffentlichung {#message-alerting}
+## Prüfungen vor dem Senden {#message-alerting}
 
-Während Sie Ihre Nachricht erstellen, werden Sie durch Warnhinweise informiert, wenn Sie wichtige Aktionen ausführen müssen, bevor Sie die Nachricht veröffentlichen.
+Während Sie Ihre Nachrichten entwerfen, werden Warnhinweise auf der Benutzeroberfläche angezeigt, wenn wichtige Einstellungen fehlen.
 
-Warnhinweise werden oben rechts im Bildschirm angezeigt, wie unten dargestellt:
+Warnhinweise werden bei der Bearbeitung des Nachrichteninhalts oben rechts im Bildschirm angezeigt.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. Wenn beispielsweise der Ausschluss-Link fehlt, wird eine Meldung angezeigt.
 
-* **Fehler** verhindern, dass Sie die Nachricht veröffentlichen, solange sie nicht behoben sind. Beispielsweise wird eine Meldung angezeigt, dass die Betreffzeile fehlt.
+* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst sind. Beispielsweise wird eine Meldung angezeigt, dass die Betreffzeile fehlt.
 
 Alle möglichen Warnhinweise und Fehler sind [unten](#alerts-and-warnings) genauer beschrieben.
 
 >[!CAUTION]
 >
-> Sie müssen alle **Fehler**-Warnungen vor der Veröffentlichung auflösen.
+> Sie müssen alle **error** Warnhinweise vor dem Testen oder Aktivieren der Journey mithilfe der Nachricht.
 
 ## Liste von Warnhinweisen und Fehlern {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
    >[!NOTE]
    >
-   >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird in den [Nachrichtenvoreinstellungen](../configuration/message-presets.md#email-type) und bei der [Erstellung der Nachricht](get-started-content.md#create-new-message) definiert.
+   >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](../configuration/message-presets.md#email-type) (d. h. Nachrichtenvorgabe) und wann [Nachricht erstellen](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Textversion von HTML ist leer]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können. In [diesem Abschnitt](../design/text-version-email.md) erfahren Sie, wie Sie die Textversion erstellen.
 
@@ -67,13 +67,13 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
 * **[!UICONTROL Die E-Mail-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](../design/design-emails.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
 
-* **[!UICONTROL Voreinstellung ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die gewählte Voreinstellung nach der Erstellung der Nachricht gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Voreinstellung aus. Weitere Informationen zum Branding finden Sie in [diesem Abschnitt](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Oberfläche existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie eine andere Stelle in der Nachricht aus **[!UICONTROL Eigenschaften]**. Weitere Informationen zu Kanaloberflächen in [diesem Abschnitt](../configuration/message-presets.md).
 
 * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
 >[!CAUTION]
 >
-> Um Ihre Nachricht veröffentlichen zu können, müssen Sie alle **Fehler**-Warnungen auflösen.
+> Um Ihre Nachricht verwenden zu können, müssen Sie alle **error** Warnhinweise.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->
