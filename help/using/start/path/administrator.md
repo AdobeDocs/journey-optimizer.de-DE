@@ -3,10 +3,10 @@ title: Journey Optimizer – Erste Schritte für Systemadministratoren
 description: Hier erfahren Systemadministratoren mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 89%
+source-wordcount: '732'
+ht-degree: 87%
 
 ---
 
@@ -37,18 +37,18 @@ Darüber hinaus müssen Sie Benutzer, die Zugriff auf Assets Essentials benötig
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie die **[!UICONTROL Kanäle]** -Menü, um Ihre Nachrichten und Oberflächen (d. h. Vorgaben) zu konfigurieren.
+Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **ADMINISTRATION** auf. Durchsuchen Sie die **[!UICONTROL Kanäle]** Menü zum Konfigurieren Ihrer Nachrichten und Kanalflächen (d. h. der Nachrichtenvorgaben).
 
 >[!NOTE]
 >Wenn Sie als **Systemadministrator** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen in [Admin Console](https://adminconsole.adobe.com/){_blank}. Auf [dieser Seite](../../administration/permissions.md#edit-product-profile) erfahren Sie, wie Sie Ihr Produktprofil aktualisieren können.
 
 Führen Sie dazu folgende Schritte durch:
 
-1. **Nachrichten und Kanäle konfigurieren**: Definieren von Oberflächen, Anpassen und Anpassen von E-Mail- und Push-Nachrichten-Einstellungen
+1. **Nachrichten und Kanäle konfigurieren**: Definieren von Oberflächen, Anpassen und Anpassen von E-Mail-, SMS- und Push-Nachrichten-Einstellungen
 
    * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../configuration/push-gs.md)
 
-   * Erstellen **Kanaloberflächen** (d. h. Nachrichtenvorgaben) zum Konfigurieren aller technischen Parameter, die für E-Mail- und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/message-presets.md)
+   * Erstellen **Kanaloberflächen** (d. h. Nachrichtenvorgaben) zum Konfigurieren aller technischen Parameter, die für E-Mail, SMS und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/message-presets.md)
 
    * Konfigurieren Sie die **SMS-Kanal** um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Führen Sie dazu folgende Schritte durch:
 
    ![](../assets/ip-pool.png)
 
-1. **Verwalten der Unterdrückungs- und Zulassungsliste**: Verbessern Sie Ihre Zustellbarkeit durch Unterdrückungs- und Zulassungslisten.
+1. **Verwalten der Unterdrückung und Zulassungslisten**: Zustellbarkeit durch Unterdrückung und Zulassungslisten verbessern
 
    * Eine [Unterdrückungsliste](../../reports/suppression-list.md) besteht aus E-Mail-Adressen, die Sie von Ihren Sendungen ausschließen möchten, da das Senden an diese Kontakte Ihren Ruf als Versender und Ihre Versandraten beeinträchtigen könnte. Sie können alle E-Mail-Adressen überwachen, die bei einer Journey automatisch vom Versand ausgeschlossen werden, wie ungültige Adressen, Adressen, die stets zu Soft-Bounces führen und sich negativ auf Ihre E-Mail-Reputation auswirken könnten, sowie Empfänger, die eine Spam-Beschwerde gegen eine Ihrer E-Mail-Nachrichten eingelegt haben. Erfahren Sie, wie Sie die [Unterdrückungsliste](../../configuration/manage-suppression-list.md) und [weitere Zustellversuche](../../configuration/retries.md) verwalten.
    ![](../assets/suppression-list-filtering-example.png)

@@ -3,10 +3,10 @@ title: Journey Optimizer – Erste Schritte für Marketing-Experten
 description: Als Journey-Anwender erfahren Sie mehr darüber, wie Journey Optimizer funktioniert.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 82%
+source-wordcount: '447'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
    * Nutzen Sie **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-   * Verwenden Sie die **integrierte Kanalaktion** zum Senden von Nachrichten, die in [!DNL Journey Optimizer] oder erstellen **benutzerdefinierte Aktionen** wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
+   * Verwenden Sie die **Integrierte Kanalaktionen** (E-Mail, SMS, Push) zum Senden von in entworfenen Nachrichten [!DNL Journey Optimizer] oder erstellen **benutzerdefinierte Aktionen** wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
    * Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität zum Lesen von Segmenten in den Arbeitsbereich, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
