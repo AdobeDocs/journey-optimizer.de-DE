@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 89%
+source-wordcount: '327'
+ht-degree: 87%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Warteaktivität"
->abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:    Dauer, festgelegtes Datum und benutzerdefiniert."
+>abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: Dauer und benutzerdefiniert."
 
 Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
 * [Dauer](#duration)
-* [Festgelegtes Datum](#fixed_date)
 * [Benutzerspezifisch](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## Informationen zur Warteaktivität{#about_wait}
 
-Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Die standardmäßige Dauer beträgt 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
+Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
 Seien Sie vorsichtig, wenn Sie mehrere Warten -Aktivitäten in einer Journey verwenden, da das globale Journey-Timeout 30 Tage beträgt, d. h., ein Profil wird 30 Tage nach seiner Eingabe immer aus der Journey ausgeschlossen.
 
@@ -40,11 +42,14 @@ Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität
 
 ![](assets/journey55.png)
 
-## Wartezeit mit festgelegtem Datum{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-Wählen Sie das Datum für die Ausführung der nächsten Aktivität aus.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Benutzerdefinierte Wartezeit{#custom}
 

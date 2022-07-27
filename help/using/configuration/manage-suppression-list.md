@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@company) oder Domain (z. B. abc.company.com) eingeben.
+   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@company.com) oder Domain (z. B. abc.company.com) eingeben.
 
 1. Geben Sie bei Bedarf einen Grund an.
 

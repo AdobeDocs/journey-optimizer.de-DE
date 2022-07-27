@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 98%
+source-wordcount: '1179'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](assets/read-segment-schedule-list.png)
 
-   Mit der Option **Inkrementelles Lesen** haben Sie die Möglichkeit, nur die Personen anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind. Bei der ersten Ausführung sind immer alle Segmentmitglieder ausgewählt. Diese Option ist nur für wiederkehrende **Segment lesen**-Aktivitäten verfügbar.
+   **Inkrementelles Lesen** Option: wenn eine Journey mit einer wiederkehrenden **Segment lesen** zum ersten Mal ausgeführt wird, geben alle Profile im Segment die Journey ein. Beim nächsten Auftreten geben alle Profile erneut die Journey ein, selbst wenn sie bereits darin waren. Die alte Instanz des Profils auf der Journey wird angehalten und eine neue Instanz wird erstellt. Die **Inkrementelles Lesen** -Option können Sie nach dem ersten Vorkommen die Kontakte auswählen, die das Segment seit der letzten Ausführung des Journey aufgerufen haben.
 
 <!--
 

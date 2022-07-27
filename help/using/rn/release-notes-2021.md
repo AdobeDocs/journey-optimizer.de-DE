@@ -2,7 +2,7 @@
 title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Administration**
 
-* **Bearbeiten von Nachrichtenvoreinstellungen** – Sie können jetzt Nachrichtenvoreinstellungen bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](../configuration/message-presets.md#edit-message-preset)
+* **Bearbeiten von Nachrichtenvoreinstellungen** – Sie können jetzt Nachrichtenvoreinstellungen bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR-Datensätze bearbeiten** – Sie können jetzt PTR-Einträge bearbeiten und ihren Aktualisierungsstatus überwachen. [Weitere Informationen](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personalisierung**

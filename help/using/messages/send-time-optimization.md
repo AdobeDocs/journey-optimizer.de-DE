@@ -5,7 +5,8 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 93%
@@ -36,8 +37,7 @@ Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführu
 
 >[!CAUTION]
 >
->* Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
-
+>Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
 ### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 

@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 >
 >Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über einen Oberflächenkanal (d. h. eine Nachrichtenvorgabe) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >
->* [Erstellen von Kanaloberflächen](../configuration/message-presets.md)
+>* [Erstellen von Kanaloberflächen](../configuration/channel-surfaces.md)
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 

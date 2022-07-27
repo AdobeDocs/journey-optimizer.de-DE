@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 28%
 
 ---
 
@@ -17,27 +17,22 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
->[!CAUTION]
->
->Am 25. Juli veröffentlicht Adobe Journey Optimizer eine [neue Funktion](../rn/inline-messages.md) verbessert die Inhaltserstellung für Journey Optimizer-Kanäle (E-Mail, Push, SMS). Als Journey Optimizer-Praktikant [Erstellen und Erstellen](../messages/get-started-content.md) Ihre Nachrichten direkt von einer Journey. Eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem brauchen wir Ihre Hilfe mit ein paar Schritten. Weitere Informationen finden Sie unter [erforderliche Schritte](../rn/inline-messages-steps.md).
-
-## Version Juni 2022 {#june-2022-release}
+## Version Juli 2022 {#july-2022-release}
 
 ### Neue Funktionen
 
 <table>
 <thead>
 <tr>
-<th><strong>SMS an Ihre Benutzer senden (begrenzte Verfügbarkeit)</strong><br/></th>
+<th><strong>Neuer Inline-Messaging-Fluss</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt SMS in Journey Optimizer erstellen, personalisieren und senden, indem Sie eine Integration mit <b>Sinch</b> oder <b>Twilio</b> vornehmen.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>Der SMS-Kanal ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.</p>
-<p>In dieser <a href="../messages/create-sms.md">detaillierten Dokumentation</a> erfahren Sie, wie Sie eine SMS erstellen und senden.</p>
+<p>Journey Optimizer bietet einen neuen Ablauf für die Nachrichtenbearbeitung in Journey. Die Online-Benachrichtigung spart Benutzern viel Zeit und optimiert den Workflow-Prozess zum Erstellen und Versand einer E-Mail, einer Push-Benachrichtigung oder einer SMS in Journey Optimizer. Wenn Sie Nachrichten als separaten Schritt entfernen und sie stattdessen im Rahmen einer Journey-Arbeitsfläche bearbeiten möchten, müssen Benutzer auf weniger Schaltflächen klicken und weniger Bildschirme durchsuchen, um Inhalte zu entwerfen und zu bearbeiten.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../messages/get-started-content.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +42,15 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Schnellere Suche nach effektiveren Bildern mit Adobe Stock-Integration</strong><br/></th>
+<th><strong>Attributbasierte Zugriffssteuerung (begrenzte Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Das Plug-in für die Integration von Email Designer mit Adobe Stock und Adobe Journey Optimizer bietet Kunden eine einfache Möglichkeit, zur Verwendung bei der Nachrichtenbearbeitung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue Option <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../design/stock.md">entsprechenden Dokumentation</a>.</p>
+<p>Jetzt können Sie Schemafelder mit Bezeichnungen identifizieren, die Organisations- oder Datennutzungsbereiche definieren. Administratoren können über die Benutzeroberfläche "Berechtigungen"Zugriffsrichtlinien für XDM-Schemafelder definieren und den Zugriff für Benutzer oder Benutzergruppen (interne, externe oder externe Benutzer) besser verwalten sowie den Zugriff auf bestimmte Datentypen (d. h. sensible personenbezogene Daten/EPD) verwalten.</p>
+<p>Die Verwendung der attributbasierten Zugriffssteuerung ist derzeit auf ausgewählte Benutzer beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../administration/attribute-based-access.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -64,24 +59,25 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von E-Mail-BCC für alle Ihre E-Mails</strong><br/></th>
+<th><strong>Batch-Entscheidungsaufträge</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Funktion „E-Mail-BCC“ (Blind Carbon Copy) verwenden, um von Adobe Journey Optimizer gesendete E-Mails zu speichern. Aktivieren Sie diese Option in Ihren E-Mail-Voreinstellungen, damit jede gesendete E-Mail in Blindkopie an Ihre BCC-Adresse gesendet wird.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../configuration/bcc-email.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt Batch-Entscheidungsaufträge über die Benutzeroberfläche ausführen, sodass ich keinen Entwickler benötige, um Batch-API-Aufträge auszuführen, und ich kann die für das Marketing benötigte Zeit verkürzen. Mit dieser neuen Benutzeroberfläche können Sie Aufträge erstellen und aktuelle/frühere Aufträge verwalten.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../offers/batch-delivery.md">entsprechenden Dokumentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,77 +86,35 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Kopieren von Objekten zwischen Sandboxes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt die Erlebnisse von einer Journey Optimizer-Sandbox in einer anderen neu erstellen, z. B. von einer Nicht-Produktions-Sandbox zu einer Produktions-Sandbox. Diese neue Funktion kopiert eine ganze Journey, einschließlich aller Objekte, von denen die Journey abhängig ist, um korrekt ausgeführt zu werden, von einer Umgebung in eine andere. Zusätzlich zu Journeys können Sie auch andere Komponenten kopieren, z. B. Angebote, Nachrichten, Schemata, Datensätze, Datenquellen, Ereignisse und Aktionen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">entsprechenden Dokumentation</a>.
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
+-->
 
 ### Verbesserungen
-
-**Entscheidungs-Management**
-
-* **Unterstützung von HTML- und JSON-Dateien**: Sie können jetzt per Drag-and-Drop externe HTML- und JSON-Dateien aus der Asset-Bibliothek von Adobe Experience Cloud in den Inhalt der Angebotsdarstellung ziehen. [Weitere Informationen](../offers/offer-library/add-representations.md#html-json)
-
-
-**E-Mail**
-
-* **Als Vorlage speichern**: Sie können jetzt E-Mail-Inhalte als Vorlage speichern und sie bei der Erstellung anderer Nachrichten wiederverwenden. [Weitere Informationen](../design/email-templates.md)
 
 <!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
-
 -->
+
+**Nachrichten**
+
+* Nachrichtenvorgaben sind jetzt **Kanaloberflächen**. [Weitere Informationen](../configuration/channel-surfaces.md)
 
 **Administration**
 
-<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+* **PTR-Record-Bearbeitung** - Beim Aktualisieren eines PTR-Datensatzes dauert die Verarbeitungszeit nur bis zu 3 Stunden. [Weitere Informationen](../configuration/ptr-records.md#processing)
 
-* **Vorschau von Tracking-URL-Parametern**: Wenn Sie bei der Konfiguration einer Nachrichtenvoreinstellung URL-Tracking-Parameter definieren, wird jetzt eine dynamische Vorschau der resultierenden Tracking-URL angezeigt. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* **Zulassungsliste-Benutzeroberfläche** - Sie können jetzt die Journey Optimizer-Benutzeroberfläche verwenden, um der Zulassungsliste neue E-Mail-Adressen oder Domänen hinzuzufügen. [Weitere Informationen](../configuration/allow-list.md)
 
-* **Nachrichtenvoreinstellungsbearbeitung** – Beim Aktualisieren einer Nachrichtenvoreinstellung kann die Verarbeitungszeit jetzt nur noch maximal 3 Stunden dauern. [Weitere Informationen](../configuration/message-presets.md#edit-message-preset)
+* **Aktualisierung der Zulassungsliste-Logik** - Die Logik der Zulassungsliste gilt nun, sobald die Funktion aktiviert ist, auch wenn die Liste leer ist. [Weitere Informationen](../configuration/allow-list.md#logic)
 
-* **IP-Pool-Bearbeitung** – Beim Aktualisieren eines IP-Pools kann die Verarbeitungszeit jetzt nur noch maximal 3 Stunden dauern. [Weitere Informationen](../configuration/ip-pools.md#edit-ip-pool)
+* **URL-Tracking-Parameter** - Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen zu konfigurieren (d. h. Nachrichtenvorgaben). [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+**Offer Decisioning**
 
-<!--
-**Reporting**
-
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
--->
+* **Zielgruppengröße** - Eine neue Schätzung der Zielgruppengröße wird jetzt in der Benutzeroberfläche angezeigt, wenn eine Entscheidungsregel erstellt wird, wenn ein Segment oder eine Regel zum Festlegen einer Angebotseignung ausgewählt oder ein Segment oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.

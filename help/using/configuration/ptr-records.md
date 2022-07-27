@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -99,7 +99,7 @@ Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol *
 
 >[!NOTE]
 >
->Die [Update-Verarbeitung](#processing) kann bis zu ein paar Stunden dauern.
+>Die [Update-Verarbeitung](#processing) kann bis zu 3 Stunden dauern.
 
 Um die Details der PTR-Eintrag-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. In [diesem Abschnitt](#ptr-record-update-statuses) erfahren Sie mehr über die Status, die den verschiedenen Symbolen zugeordnet sind.
 
@@ -119,7 +119,7 @@ Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 
 ### In Bearbeitung {#processing}
 
-Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. Dies kann bis zu ein paar Stunden dauern.
+Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. Dies kann bis zu drei Stunden dauern.
 
 >[!NOTE]
 >

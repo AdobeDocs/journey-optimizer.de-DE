@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 68%
+source-wordcount: '1208'
+ht-degree: 63%
 
 ---
 
 # Konfigurieren von E-Mail-Einstellungen {#email-settings}
 
-Definieren Sie die E-Mail-Einstellungen im entsprechenden Bereich der Kanaloberfläche (d. h. der Nachrichtenvorgabe). Erfahren Sie, wie Sie Oberflächen in erstellen [diesem Abschnitt](message-presets.md).
+Definieren Sie die E-Mail-Einstellungen im entsprechenden Bereich der Kanaloberfläche (d. h. der Nachrichtenvorgabe). Erfahren Sie, wie Sie Oberflächen in erstellen [diesem Abschnitt](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ Definieren Sie die E-Mail-Einstellungen im entsprechenden Bereich der Kanaloberf
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definieren der E-Mail-Kategorie"
->abstract="Wählen Sie den Typ der zu sendenden E-Mails aus, wenn Sie diese Kanaloberfläche verwenden: Marketing für Werbe-E-Mails, für die die Benutzerzustimmung erforderlich ist, oder Transaktionen für nicht kommerzielle E-Mails, die auch in bestimmten Kontexten an abgemeldete Profile gesendet werden können."
+>abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der zu sendenden Nachrichten aus: Marketing für Werbenachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionsnachrichten für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
 
-Im **E-MAIL-TYP** Wählen Sie den Nachrichtentyp aus, der mit der Kanaloberfläche gesendet werden soll: **Marketing** oder **Transactional**.
+Im **E-MAIL-TYP** wählen Sie den Nachrichtentyp aus, der mit der Oberfläche gesendet werden soll: **Marketing** oder **Transactional**.
 
 * Auswählen **Marketing** für Werbe-E-Mail: Diese Nachrichten erfordern die Zustimmung des Benutzers.
 
@@ -181,20 +181,22 @@ Beim Erstellen einer Kanaloberfläche werden drei URL-Tracking-Parameter automat
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
-Sie können auch aus einer Liste vordefinierter Werte wählen, indem Sie zu den folgenden Objekten navigieren:
-* Journey-Attribute: **Quellen-ID**, **Quellenname**, **Quellenversions-ID**
-* Aktionsattribute: **Aktions-ID**, **Aktionsname**
-* Offer-Decisioning-Attribute: **Angebots-ID**, **Angebotsname**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Wählen Sie keinen Ordner aus: Gehen Sie zum gewünschten Ordner und wählen Sie ein Profilattribut aus, das als Tracking-Parameter-Wert verwendet werden soll.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Ausdruckseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Ausdruckseditor zu öffnen. Dort können Sie die von Ihnen ausgewählten Kontextattribute auswählen und/oder den Text direkt bearbeiten.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google Analytics kompatibel sind.
 
@@ -204,7 +206,7 @@ Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google 
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Auswahl vordefinierter Werte kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
+>Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
 
 Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. Jedes Mal, wenn Sie einen Parameter hinzufügen, bearbeiten oder entfernen, wird die Vorschau automatisch aktualisiert.
 

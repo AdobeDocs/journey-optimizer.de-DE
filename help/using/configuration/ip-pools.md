@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 70%
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können es auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanaloberfläche anzuzeigen (d. h. die Nachrichtenvorgabe). Weitere Informationen zum Verknüpfen einer Kanaloberfläche mit einem IP-Pool finden Sie unter [diesem Abschnitt](message-presets.md).
+Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können es auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanaloberfläche anzuzeigen (d. h. die Nachrichtenvorgabe). Weitere Informationen zum Verknüpfen einer Kanaloberfläche mit einem IP-Pool finden Sie unter [diesem Abschnitt](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ So bearbeiten Sie einen IP-Pool:
 
 1. Speichern Sie Ihre Änderungen.
 
-Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, welcher IP-Pool mit einer [Kanaloberfläche](message-presets.md) oder nicht:
+Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, welcher IP-Pool mit einer [Kanaloberfläche](channel-surfaces.md) oder nicht:
 
 * Wenn der IP-Pool **not** in Verbindung mit einer beliebigen Kanaloberfläche ist die Aktualisierung sofort (**[!UICONTROL Erfolg]** Status).
 * Wenn der IP-Pool **is** mit einer Kanaloberfläche verknüpft ist, kann die Aktualisierung bis zu 3 Stunden dauern (**[!UICONTROL Verarbeitung]** Status).
 
 >[!NOTE]
 >
->Wann [Kanaloberfläche erstellen](message-presets.md#create-message-preset), wenn Sie einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitung]** -Status) und nie mit der für diese Oberfläche ausgewählten Subdomain verknüpft wurde, können Sie mit der Erstellung der Oberfläche nicht fortfahren. [Weitere Informationen](message-presets.md#subdomains-and-ip-pools)
+>Wann [Kanaloberfläche erstellen](channel-surfaces.md#create-channel-surface), wenn Sie einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitung]** -Status) und nie mit der für diese Oberfläche ausgewählten Subdomain verknüpft wurde, können Sie mit der Erstellung der Oberfläche nicht fortfahren. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 

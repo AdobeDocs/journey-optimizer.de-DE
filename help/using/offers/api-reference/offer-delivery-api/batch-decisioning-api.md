@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 91%
+source-wordcount: '751'
+ht-degree: 90%
 
 ---
 
@@ -32,19 +32,20 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>Batch-Entscheidungen können auch über die Journey Optimizer-Oberfläche getroffen werden. Weitere Informationen finden Sie unter [diesem Abschnitt](../../batch-delivery.md), der Informationen zu globalen Voraussetzungen und Einschränkungen bereitstellt, die bei der Verwendung der Batch-Entscheidungsfindung berücksichtigt werden müssen.
+
+* **Die Anzahl der ausgeführten Batch-Vorgänge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
+* **Frequenzlimitierung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
+
 ## Erste Schritte {#getting-started}
 
 Bevor Sie diese API verwenden, müssen Sie die folgenden Schritte ausführen.
 
 ### Entscheidungsvorbereitung {#prepare-decision}
 
-Gehen Sie wie folgt vor, um eine oder mehrere Entscheidungen vorzubereiten:
-
-* Um das Entscheidungsergebnis zu exportieren, erstellen Sie einen Datensatz unter Verwendung des Schemas „ODE DecisionEvents“.
-
-* Erstellen Sie ein Platform-Segment, das evaluiert und danach aktualisiert werden sollte. Weitere Informationen darüber, wie Sie die Segmentzugehörigkeitsevaluierung aktualisieren, finden Sie in der [Segmentierungsdokumentation](http://www.adobe.com/go/segmentation-overview-en_de).
-
-* Erstellen Sie in Adobe Journey Optimizer eine Entscheidung (die einen Entscheidungsumfang hat, der aus einer Entscheidungs-ID und einer Platzierungs-ID besteht). Weitere Informationen dazu finden Sie im Handbuch zur Entscheidungserstellung im [Abschnitt zur Definition von Entscheidungsumfängen](../../offer-activities/create-offer-activities.md).
+Um eine oder mehrere Entscheidungen vorzubereiten, stellen Sie sicher, dass Sie einen Datensatz, ein Segment und eine Entscheidung erstellt haben. Diese Voraussetzungen werden im Abschnitt [diesem Abschnitt](../../batch-delivery.md).
 
 ### API-Anforderungen {#api-requirements}
 
@@ -58,6 +59,10 @@ Alle [!DNL Batch Decisioning]-Anfragen erfordern zusätzlich zu den im [Entwickl
 ## Starten eines Batch-Prozesses {#start-a-batch-process}
 
 Um einen Workload zur Batch-Verarbeitung von Entscheidungen zu starten, stellen Sie eine POST-Anfrage an den Endpunkt `/workloads/decisions`.
+
+>[!NOTE]
+>
+>Detaillierte Informationen zur Verarbeitungszeit für Batch-Aufträge finden Sie unter [diesem Abschnitt](../../batch-delivery.md).
 
 **API-Format**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648076994405` |
 | `ode:status` | Der Workload-Status ist zu Beginn „IN DIE WARTESCHLANGE GESTELLT“ und ändert sich dann in „VERARBEITUNG LÄUFT“, „AUFNAHME“, „ABGESCHLOSSEN“ oder „FEHLER“. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Wenn der Status „VERARBEITUNG LÄUFT“ oder „AUFNAHME“ lautet, werden weitere Details wie sparkJobId und batchID angezeigt. Wenn der Status „FEHLER“ lautet, werden die Fehlerdetails angezeigt. |  |
-
-## Service-Ebenen {#service-levels}
-
-Die End-to-End-Zeit für jede Batch-Entscheidung ist die Dauer von dem Zeitpunkt, zu dem die Arbeitslast erstellt wird, bis zu dem Zeitpunkt, zu dem das Entscheidungsergebnis im Ausgabedatensatz verfügbar ist. Die Segmentgröße in der Payload der POST-Anfrage wirkt sich am stärksten auf die Gesamtzeit der Batch-Entscheidung aus. Wenn für das infrage kommende Angebot eine globale Frequenzbegrenzung aktiviert ist, dauert die Stapelentscheidung länger, bis sie abgeschlossen ist. Nachstehend finden Sie einige Näherungen der End-to-End-Verarbeitungszeit für die jeweiligen Segmentgrößen, sowohl mit als auch ohne Frequenzlimitierung für förderfähige Angebote:
-
-Mit aktivierter Frequenzbegrenzung für geeignete Angebote:
-
-| Segmentgröße | Gesamtverarbeitungszeit |
-|--------------|----------------------------|
-| 10.000 Profile oder weniger | 7 Minuten |
-| 1 Million Profile oder weniger | 30 Minuten |
-| 15 Million Profile oder weniger | 50 Minuten |
-
-Ohne Frequenzlimitierung für förderfähige Angebote:
-
-| Segmentgröße | Gesamtverarbeitungszeit |
-|--------------|----------------------------|
-| 10.000 Profile oder weniger | 6 Minuten |
-| 1 Million Profile oder weniger | 8 Minuten |
-| 15 Million Profile oder weniger | 16 Minuten |
-
-## Einschränkungen {#limitations}
-
-Beachten Sie bei der Verwendung der [!DNL Batch Decisioning]-API die folgenden Einschränkungen:
-
-* **Die Anzahl der ausgeführten Batch-Vorgänge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
-* **Frequenzlimitierung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
 
 ## Nächste Schritte {#next-steps}
 

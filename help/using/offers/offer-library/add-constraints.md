@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Priorität"
+>title="Priorität festlegen"
 >abstract="Mit der Priorität können Sie den Rang eines Angebots gegenüber anderen definieren, wenn der Benutzer für mehrere Angebote infrage kommt. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten."
 
 Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
@@ -40,6 +40,10 @@ Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebo
 1. Konfigurieren Sie die **[!UICONTROL Angebotseignung]**. [Weitere Informationen](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, werden Informationen zu den geschätzten qualifizierten Profilen angezeigt. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
 
 1. Definieren Sie die **[!UICONTROL Priorität]** des Angebots gegenüber anderen, wenn der Benutzer für mehr als ein Angebot geeignet ist. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten.
 
@@ -63,8 +67,8 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Eignung"
->abstract="Die Angebotseignung ermöglicht es Ihnen, das Angebot auf bestimmte Profile zu beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren."
+>title="Berechtigung definieren"
+>abstract="Standardmäßig ist jedes Profil berechtigt, das Angebot zu unterbreiten. Sie können jedoch Segmente oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
    Weitere Informationen zu Entscheidungsregeln finden Sie in [diesem Abschnitt](creating-decision-rules.md).
 
-## Frequenzlimitierung {#capping}
+## Begrenzung {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Begrenzung"
->abstract="Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann."
+>title="Nutzungsbegrenzung"
+>abstract="Um zu vermeiden, dass Ihre Kunden übermäßig angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
@@ -178,8 +182,8 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Das Ändern des Datums kann sich auf die Begrenzung auswirken."
->abstract="Wenn auf ein Angebot eine Begrenzung angewendet wird, kann sich die Änderung des Anfangs- oder Enddatums auf das Angebot auswirken."
+>title="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
+>abstract="Wenn auf dieses Angebot eine Begrenzung angewendet wird, kann dies bei einer Änderung des Start- oder Enddatums Auswirkungen haben."
 
 Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da dies Auswirkungen auf die Begrenzung haben kann, wenn die folgenden Voraussetzungen gegeben sind:
 
@@ -191,7 +195,7 @@ Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da die
 >
 >In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
-Die Frequenzlimitierung pro Profil speichert die Begrenzungswerte für jedes Profil. Wenn Sie das Anfangs- und Enddatum eines genehmigten Angebots ändern, kann sich der Begrenzungswert für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
+Die Begrenzung pro Profil speichert die Begrenzungszahlen für jedes Profil. Wenn Sie das Anfangs- und Enddatum eines genehmigten Angebots ändern, kann sich der Begrenzungswert für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
 
 ![](../assets/offer-capping-change-date.png)
 

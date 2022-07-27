@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 8%
@@ -61,7 +61,7 @@ Um Nachrichten in Ihren Journey hinzuzufügen, fügen Sie einfach eine Push-, SM
 
 1. Nachricht auswählen **[!UICONTROL Kategorie]**: Auswählen **Marketing** für kommerzielle Nachrichten oder **Transactional** für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Wenn Sie [Frequenzregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie, werden sie bei der Auswahl dieses Kanals und dieser Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur der **[!UICONTROL Marketing]** -Kategorie für Frequenzregeln verfügbar.
 
@@ -73,7 +73,7 @@ Um Nachrichten in Ihren Journey hinzuzufügen, fügen Sie einfach eine Push-, SM
 
 1. Kanal auswählen **[!UICONTROL Oberfläche]** (d. h. Nachrichtenvorgabe), die zum Senden Ihrer Nachricht verwendet werden soll.
 
-   Eine Oberfläche ist eine Konfiguration, die durch eine [Systemadministrator](../start/path/administrator.md). Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomäne, Mobile Apps usw. [Weitere Informationen](../configuration/message-presets.md).
+   Eine Oberfläche ist eine Konfiguration, die durch eine [Systemadministrator](../start/path/administrator.md). Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomäne, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!U
 
 ![](assets/show-read-only.png)
 
-Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden durch die Variable [Systemadministrator](../start/path/administrator.md) im [Kanaloberfläche](../configuration/message-presets.md) (d. h. Nachrichtenvorgabe), die mit der Nachricht verknüpft ist.
+Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden durch die Variable [Systemadministrator](../start/path/administrator.md) im [Kanaloberfläche](../configuration/channel-surfaces.md) (d. h. Nachrichtenvorgabe), die mit der Nachricht verknüpft ist.
 
 Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Gehen Sie dazu wie folgt vor:
 >
 >Bei E-Mails können Sie auch eine vorhandene Nachricht in eine Vorlage umwandeln. [Weitere Informationen](../design/email-templates.md).
 
-## Nachricht löschen
+## Nachricht löschen{#delete-message}
 
 Um eine Nachricht zu löschen, verwenden Sie das Papierkorbsymbol oben im Aktivitätsbereich für die Kanalaktivität.
 

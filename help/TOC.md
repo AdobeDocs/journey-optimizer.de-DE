@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
       + [Über die Unterdrückungsliste](using/reports/suppression-list.md)
-+ Entscheidungs-Management {#offer-decisioniong}
++ Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten in Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
       + [Erstellen von Simulationen](using/offers/offer-activities/simulation.md)
+   + [Batch-Entscheidungsfindung](using/offers/batch-delivery.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
       + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [Weitere Zustellversuche](using/configuration/retries.md)
             + [Zulassungsliste](using/configuration/allow-list.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + Einrichten von Kanaloberflächen {#set-up-message-presets}
-         + [Erstellen von Kanaloberflächen](using/configuration/message-presets.md)
+      + Einrichten von Kanaloberflächen {#set-up-channels}
+         + [Erstellen von Kanaloberflächen](using/configuration/channel-surfaces.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
          + [Verwenden einer BCC-E-Mail-Adresse](using/configuration/bcc-email.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)

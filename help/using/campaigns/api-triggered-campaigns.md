@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Kampagnen Trigger erstellen können. [!DN
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 3%
 
 ## Über API-gesteuerte Kampagnen {#about}
 
+>[!NOTE]
+>
+>Die API zur Ausführung interaktiver Nachrichten befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann.
+
+
 Mit [!DNL Journey Optimizer], können Sie Kampagnen erstellen und sie dann von einem externen System basierend auf dem Benutzer-Trigger aufrufen, indem Sie die [REST API zur Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Auf diese Weise können Sie verschiedene betriebliche und Transaktionsnachrichten abdecken, wie z. B. Kennwortrücksätze, OTP-Token usw.
 
 Dazu müssen Sie zunächst eine API-gesteuerte Kampagne in Journey Optimizer erstellen und dann ihre Ausführung über einen API-Aufruf starten.
 
 Als Kanäle für API-gesteuerte Kampagnen stehen E-Mail-, SMS- und Push-Nachrichten zur Verfügung.
-
->[!NOTE]
->
->Die API zur Ausführung interaktiver Nachrichten befindet sich derzeit in der Betaphase, die häufig ohne Vorankündigung aktualisiert werden kann.
 
 ## API-gesteuerte Kampagne erstellen {#create}
 
@@ -86,9 +87,11 @@ Um eine API-gesteuerte Kampagne auszuführen, müssen Sie zunächst deren ID abr
 
 Anschließend können Sie diese ID in Ihrer API-Payload verwenden, um die Kampagne Trigger. Siehe Abschnitt [Dokumentation zur API für die Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) für weitere Informationen.
 
+Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, diese nicht außerhalb dieses Datums ausgeführt wird und API-Aufrufe fehlschlagen.
+
 >[!NOTE]
 >
->Wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, wird diese nicht außerhalb dieses Datums ausgeführt und API-Aufrufe schlagen fehl.
+>In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System vorhanden sind. Beispiel: Ein unbekannter Benutzer versucht, sich bei Ihrer Website anzumelden. In diesem Fall wird das entsprechende Profil automatisch in Adobe Experience Platform erstellt, im **AJO-Profildatensatz für interaktive Nachrichten** Datensatz.
 
 ## Weitere Ressourcen
 

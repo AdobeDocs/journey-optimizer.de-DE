@@ -2,9 +2,9 @@
 title: Migration zum Journey Inline-Authoring
 description: Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Die Migration erfolgt für jede Region nachts durch mehrere Iterationen. Hier fi
 
 Warum brauchen wir mehrere Iterationen?
 
-Während einer Iteration durchlaufen wir jede Journey und migrieren sie nach Möglichkeit. Es gibt Fälle, in denen wir nicht automatisch migrieren möchten: wenn die Journey live oder geschlossen ist (d. h., es können noch Profile darin enthalten sein). In diesen Fällen bitten wir Sie, eine Aktion durchzuführen. Anschließend migriert die nächste Iteration diese Journey, die in der vorherigen Iteration nicht migriert werden konnten.
+Während einer Iteration durchlaufen wir jede Journey und migrieren sie nach Möglichkeit. Es gibt Fälle, in denen wir nicht automatisch migrieren möchten: wenn die Journey live ist (d. h., es kann noch Profile enthalten). In diesen Fällen bitten wir Sie, eine Aktion durchzuführen. Anschließend migriert die nächste Iteration diese Journey, die in der vorherigen Iteration nicht migriert werden konnten.
 
 ## FAQs {#faq}
 
