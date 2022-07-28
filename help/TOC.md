@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1114'
 ht-degree: 96%
 
 ---
@@ -276,7 +276,9 @@ ht-degree: 96%
       + [Ranking-Formeln](using/offers/ranking/create-ranking-formulas.md)
       + KI-Modelle {#ai-models}
          + [Über KI-Modelle](using/offers/ranking/ai-models.md)
-         + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
+         + KI-Modelltypen {#ai-model-types}
+            + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
+            + [Personalisiertes Optimierungsmodell](using/offers/ranking/personalized-optimization-model.md)
          + Erstellen von KI-Modellen {#configure-ai-model}
             + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/ranking/create-dataset.md)
             + [Erstellen eines KI-Modells](using/offers/ranking/create-ranking-strategies.md)

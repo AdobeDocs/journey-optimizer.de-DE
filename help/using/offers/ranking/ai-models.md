@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,15 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 
 ## KI-Modelltypen {#ai-model-types}
 
-Aktuell bietet [!DNL Journey Optimizer]** ein KI-Modell, **Automatische Optimierung**, mit dem Angebote basierend auf der bisherigen Angebotsleistung optimiert werden. Detaillierte Informationen zu diesem KI-Modell finden Sie in [diesem Abschnitt](auto-optimization-model.md).
+Zwei Arten von KI-Modellen sind in verfügbar [!DNL Journey Optimizer]:
+
+* **Modelle zur automatischen Optimierung** Ziel ist die Bereitstellung von Angeboten, die die von Geschäftskunden festgelegten Renditen (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote. [Weitere Informationen](auto-optimization-model.md)
+
+* **Personalisierungsmodelle** ermöglichen es Ihnen, Geschäftsziele zu definieren und mithilfe von Kundendaten geschäftsorientierte Modelle zu schulen, um personalisierte Angebote bereitzustellen und KPIs zu maximieren. [Weitere Informationen](personalized-optimization-model.md)
+
+>[!CAUTION]
+>
+>Die Verwendung personalisierter Optimierungsmodelle ist derzeit nur für ausgewählte Benutzer in einem frühen Zugriff verfügbar.
 
 ## Erstellen eines KI-Modells {#create-ai-model}
 

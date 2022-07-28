@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 78%
 
 ---
 
@@ -34,10 +34,10 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL KI-Modell erstellen]**.
 
-1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das KI-Modell an.
+1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das AI-Modell an und wählen Sie dann den Typ des AI-Modells aus, das Sie erstellen möchten:
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebotsleistung. [Weitere Informationen](auto-optimization-model.md)
+   * **[!UICONTROL Personalisierte]** Optimiert und personalisiert Angebote auf der Grundlage von Segmenten und der Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemas erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. Wenn Sie eine **[!UICONTROL Personalisierung]** AI-Modell wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >Sie können bis zu 5 Segmente auswählen.
 
 1. Speichern und aktivieren Sie das KI-Modell.
 
