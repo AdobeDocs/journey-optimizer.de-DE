@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 58%
+source-wordcount: '785'
+ht-degree: 52%
 
 ---
 
@@ -51,21 +51,21 @@ Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die g
 >
 >Beachten Sie, dass Sie eine geschlossene oder gestoppte Journey nicht fortsetzen können.
 
-<!--
+### Journey-End-Tag{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+Beim Erstellen einer Journey wird am Ende jedes Pfads ein &quot;end-Knoten&quot;angezeigt. Dieser Knoten kann nicht von einem Benutzer hinzugefügt werden, kann nicht entfernt werden und nur die Bezeichnung kann geändert werden. Es markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, jedem Ende einen Titel hinzuzufügen, damit Berichte leichter lesbar sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### Endaktivität{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-Mit der **[!UICONTROL Endaktivität]** können Sie das Ende jedes Pfades der Journey markieren. Sie ist nicht obligatorisch, wird aber aus Gründen der besseren optischen Übersichtlichkeit empfohlen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/end-activity.md).
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### Schließen einer Journey{#close-journey}
 
