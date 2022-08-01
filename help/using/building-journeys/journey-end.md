@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 52%
@@ -53,7 +53,7 @@ Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die g
 
 ### Journey-End-Tag{#end-tag}
 
-Beim Erstellen einer Journey wird am Ende jedes Pfads ein &quot;end-Knoten&quot;angezeigt. Dieser Knoten kann nicht von einem Benutzer hinzugefügt werden, kann nicht entfernt werden und nur die Bezeichnung kann geändert werden. Es markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, jedem Ende einen Titel hinzuzufügen, damit Berichte leichter lesbar sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
+Beim Erstellen einer Journey wird am Ende jedes Pfads ein &quot;End-Tab&quot;angezeigt. Dieser Knoten kann nicht von einem Benutzer hinzugefügt werden, kann nicht entfernt werden und nur die Bezeichnung kann geändert werden. Es markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, jedem Ende einen Titel hinzuzufügen, damit Berichte leichter lesbar sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
