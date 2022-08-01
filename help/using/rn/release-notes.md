@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '634'
 ht-degree: 24%
 
 ---
@@ -95,7 +95,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Journeys**
 
-* **Beenden einer Journey** - Auf der Journey-Arbeitsfläche **Ende** -Aktivität wurde aus der Palette entfernt. End-Tags werden jetzt standardmäßig am Ende jedes Pfades hinzugefügt und können nicht entfernt werden. Diese Verbesserung ermöglicht eine bessere Berichterstellung darüber, wo ein Kunde die Journey verlassen hat, ohne dass ein Benutzer etwas unternimmt. [Weitere Informationen](../building-journeys/journey-end.md)
+* **Beenden einer Journey** - Auf der Journey-Arbeitsfläche **Ende** -Aktivität wurde aus der Palette entfernt. End-Tags werden jetzt standardmäßig am Ende jedes Pfades hinzugefügt und können nicht entfernt werden. Diese Verbesserung ermöglicht eine bessere Berichterstellung darüber, wo ein Kunde von der Journey ausgeschlossen wurde, ohne dass der Journey-Anwender Maßnahmen ergreifen muss. Siehe Abschnitt [Dokumentation](../building-journeys/journey-end.md) und [Feature Video](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 **Nachrichten**
 
