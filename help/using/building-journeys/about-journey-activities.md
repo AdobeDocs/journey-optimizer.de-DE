@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '280'
 ht-degree: 98%
 
 ---
@@ -35,8 +35,7 @@ Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie könne
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
-* [Bedingung](../building-journeys/condition-activity.md)
-* [Ende](../building-journeys/end-activity.md)
+* [Bedingung ](../building-journeys/condition-activity.md)
 * [Warten](../building-journeys/wait-activity.md)
 * [Segment lesen](../building-journeys/read-segment.md)
 

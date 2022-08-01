@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 96%
 
 ---
@@ -134,7 +134,6 @@ ht-degree: 96%
       + [Reaktion](using/building-journeys/reaction-events.md)
       + [Segmentqualifikation](using/building-journeys/segment-qualification-events.md)
       + [Bedingung](using/building-journeys/condition-activity.md)
-      + [Ende](using/building-journeys/end-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Segment lesen](using/building-journeys/read-segment.md)
       + [E-Mail, SMS, Push](using/building-journeys/journeys-message.md)
@@ -150,7 +149,7 @@ ht-degree: 96%
          + [Bedingte Anweisung](using/building-journeys/expression/conditional-instruction.md)
          + [Datentypen](using/building-journeys/expression/data-types.md)
          + [Feldverweise](using/building-journeys/expression/field-references.md)
-         + [Funktionen zur Verwaltung von Kollektionen](using/building-journeys/expression/collection-management-functions.md)
+         + [Funktionen zur Verwaltung von Sammlungen](using/building-journeys/expression/collection-management-functions.md)
          + [Operatoren](using/building-journeys/expression/operators.md)
          + [Journey-Eigenschaften](using/building-journeys/expression/journey-properties.md)
          + [Beispiele](using/building-journeys/expression/advanced-editor-use-cases.md)
@@ -233,7 +232,7 @@ ht-degree: 96%
    + Anwendungsfälle {#journey-use-cases}
       + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
       + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+      + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
       + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
@@ -333,12 +332,12 @@ ht-degree: 96%
             + [Erstellen personalisierter Angebote](using/offers/api-reference/offers-api/personalized-offers/create.md)
             + [Aktualisieren personalisierter Angebote](using/offers/api-reference/offers-api/personalized-offers/update.md)
             + [Löschen personalisierter Angebote](using/offers/api-reference/offers-api/personalized-offers/delete.md)
-         + Kollektionen {#collections}
-            + [Auflisten von Kollektionen](using/offers/api-reference/offers-api/collections/collections-list.md)
-            + [Nachschlagen von Kollektionen](using/offers/api-reference/offers-api/collections/lookup.md)
+         + Sammlungen {#collections}
+            + [Auflisten von Sammlungen](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [Nachschlagen von Sammlungen](using/offers/api-reference/offers-api/collections/lookup.md)
             + [Erstellen von Sammlungen](using/offers/api-reference/offers-api/collections/create.md)
-            + [Aktualisieren von Kollektionen](using/offers/api-reference/offers-api/collections/update.md)
-            + [Löschen von Kollektionen](using/offers/api-reference/offers-api/collections/delete.md)
+            + [Aktualisieren von Sammlungen](using/offers/api-reference/offers-api/collections/update.md)
+            + [Löschen von Sammlungen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
             + [Auflisten von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Nachschlagen von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
