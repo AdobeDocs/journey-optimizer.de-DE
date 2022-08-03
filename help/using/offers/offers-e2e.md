@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,13 +40,13 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
 
 1. [Erstellen Sie ein Fallback-Angebot.](#create-fallback)
 
-1. [Erstellen Sie eine Kollektion](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
+1. [Erstellen Sie eine Sammlung](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
 
 1. [Konfigurieren Sie die Entscheidung.](#configure-decision)
 
    * Erstellen Sie eine Entscheidung.
    * Wählen sie die von Ihnen erstellten Platzierungen aus.
-   * Wählen Sie für jede Platzierung die Kollektion aus.
+   * Wählen Sie für jede Platzierung die Sammlung aus.
    * Wählen Sie für jede Platzierung ein Ranking aus (optional).
 
    * Wählen Sie das Fallback-Angebot aus.
@@ -96,7 +96,7 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
 1. Sie können auch ein **Tag** erstellen.
 
-   Anschließend können Sie es mit Ihren Angeboten verknüpfen und dieses Tag verwenden, um Ihre Angebote in einer Kollektion zusammenzufassen.
+   Anschließend können Sie es mit Ihren Angeboten verknüpfen und dieses Tag verwenden, um Ihre Angebote in einer Sammlung zusammenzufassen.
 
    Erstellen Sie in diesem Beispiel das Tag *Yoga*.
 
@@ -177,17 +177,17 @@ Ihr Fallback-Angebot kann jetzt in einer Entscheidung verwendet werden.
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren eines Fallback-Angebots werden in [diesem Abschnitt](../../using/offers/offer-library/creating-fallback-offers.md) beschrieben.
 
-## Kollektion erstellen {#create-collection}
+## Sammlung erstellen {#create-collection}
 
-Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebote als Teil einer Kollektion hinzufügen.
+Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebote als Teil einer Sammlung hinzufügen.
 
-1. Um den Entscheidungsprozess zu beschleunigen, erstellen Sie eine dynamische Kollektion.
+1. Um den Entscheidungsprozess zu beschleunigen, erstellen Sie eine dynamische Sammlung.
 
 1. Verwenden Sie das Tag *Yoga*, um die vier zuvor erstellten personalisierten Angebote auszuwählen.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-Die detaillierten Schritte zum Erstellen einer Kollektion werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
+Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
 
 ## Entscheidung konfigurieren {#configure-decision}
 
@@ -203,7 +203,7 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
    ![](assets/offers-e2e-decision-placements.png)
 
-1. Fügen Sie für jede Platzierung die von Ihnen erstellte Kollektion hinzu.
+1. Fügen Sie für jede Platzierung die von Ihnen erstellte Sammlung hinzu.
 
    ![](assets/offers-e2e-decision-collection.png)
 

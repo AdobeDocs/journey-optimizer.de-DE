@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 1. **Erstellen Sie Fallback-Angebote**, die angezeigt werden, wenn Kunden für keines der ausgewählten Angebote geeignet sind.
 
-1. **Erstellen Sie eine Kollektion**, um die von Ihnen erstellten personalisierten Angebote zusammenzufassen und in einer Entscheidung zu verwenden.
+1. **Erstellen Sie eine Sammlung**, um die von Ihnen erstellten personalisierten Angebote zusammenzufassen und in einer Entscheidung zu verwenden.
 
 <table>
 <tr>
