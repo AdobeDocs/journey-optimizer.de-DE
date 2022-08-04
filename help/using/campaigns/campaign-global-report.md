@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1734'
 ht-degree: 65%
 
 ---
@@ -41,7 +41,7 @@ Die **[!UICONTROL Kampagnenstatistiken]** -Widget beschreibt die wichtigsten Inf
 
 * **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Male, wenn eine Aktion auf der Journey fehlgeschlagen ist, in Bezug auf die Gesamtzahl der einmaligen Bereitstellungen einer Aktion.
 
-### Ziele (#targets-global)
+### Ziele {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Mit dem **[!UICONTROL Kampagnenziel]** -Widget, können Sie auch Ihr Hauptziel m
 
 Beachten Sie, dass jedes Widget bei Bedarf in der Größe angepasst und gelöscht werden kann. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
-### Experimentieren (#experimentation-global)
+### Experimentieren {#experimentation-global}
 
 >[!AVAILABILITY]
 >
