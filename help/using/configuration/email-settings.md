@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1207'
 ht-degree: 63%
 
 ---
@@ -192,9 +192,13 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Ausdruckseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Ausdruckseditor zu öffnen. Dort können Sie die von Ihnen ausgewählten Kontextattribute auswählen und/oder den Text direkt bearbeiten.
+Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Ausdruckseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die von Ihnen ausgewählten Kontextattribute auswählen und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google 
 * Mit Adobe Analytics kompatible URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Mit Google Analytics kompatible URL: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
 
 Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. Jedes Mal, wenn Sie einen Parameter hinzufügen, bearbeiten oder entfernen, wird die Vorschau automatisch aktualisiert.
 

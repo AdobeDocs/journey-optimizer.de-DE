@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 24%
 
 ---
 
@@ -109,7 +109,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 * **Aktualisierung der Zulassungsliste-Logik** - Die Logik der Zulassungsliste gilt nun, sobald die Funktion aktiviert ist, auch wenn die Liste leer ist. [Weitere Informationen](../configuration/allow-list.md#logic)
 
-* **URL-Tracking-Parameter** - Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen zu konfigurieren (d. h. Nachrichtenvorgaben). [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* **URL-Tracking-Parameter** - Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen (d. h. Vorgaben) zu konfigurieren. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

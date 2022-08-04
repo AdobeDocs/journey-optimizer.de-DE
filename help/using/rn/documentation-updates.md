@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 94%
+source-wordcount: '1774'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 94%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
+## August 2022 {#august-2022}
+
+* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen In-line-Messaging-Fluss widerzuspiegeln. [Weitere Informationen](../configuration/frequency-rules.md#apply-frequency-rule)
+* Im Abschnitt Erste Schritte mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Weitere Informationen](../landing-pages/get-started-lp.md#video)
+
 ## Juli 2022 {#july-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 22. Juli wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Die **Einrichten von Kanaloberflächen** wurde erläutert und mit Links zur Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 * In den Journey-Eigenschaften wird die **Zeitzone des Profils** ist jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * Im **Warten** -Aktivität, die **Festes Datum** nicht mehr verfügbar ist. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Weitere Informationen zum **Inkrementelles Lesen** in der **Segment lesen** Aktivität. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Es wurden Empfehlungen zur **Profilbegrenzung** Bedingungstyp. [Weitere Informationen](../building-journeys/condition-activity.md#profile_cap)

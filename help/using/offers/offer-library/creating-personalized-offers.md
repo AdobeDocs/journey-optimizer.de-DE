@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,10 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
 1. Fügen Sie Einschränkungen hinzu, um die Bedingungen für das anzuzeigende Angebot festzulegen. [Weitere Informationen](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+
    ![](../assets/offer-constraints-example.png)
 
 1. Überprüfen und speichern Sie das Angebot. [Weitere Informationen](#review)
@@ -72,6 +76,10 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 Sobald Eignungsregeln und Begrenzungen definiert wurden, wird eine Zusammenfassung der Angebotseigenschaften angezeigt.
 
 1. Stellen Sie sicher, dass alles ordnungsgemäß konfiguriert ist.
+
+1. Sie können Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. Wenn Ihr Angebot bereit ist, den Benutzern präsentiert zu werden, klicken Sie auf **[!UICONTROL Beenden]**.
 
@@ -112,7 +120,7 @@ Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschrie
    >
    >Auf das Angebot und seinen Inhalt kann nicht mehr zugegriffen werden. Diese Aktion kann nicht rückgängig gemacht werden.
    >
-   >Wenn das Angebot in einer Kollektion oder Entscheidung verwendet wird, kann es nicht gelöscht werden. Sie müssen das Angebot zuerst aus allen Objekten entfernen.
+   >Wenn das Angebot in einer Sammlung oder Entscheidung verwendet wird, kann es nicht gelöscht werden. Sie müssen das Angebot zuerst aus allen Objekten entfernen.
 
 * **[!UICONTROL Archivieren]**: setzt den Angebotsstatus auf **[!UICONTROL Archiviert]**. Das Angebot ist weiterhin in der Liste verfügbar, Sie können seinen Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können es nur duplizieren oder löschen.
 

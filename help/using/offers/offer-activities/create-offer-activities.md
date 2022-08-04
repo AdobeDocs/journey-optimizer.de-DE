@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 98%
+source-wordcount: '1105'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Die Liste der Entscheidungen ist im Menü **[!UICONTROL Angebote]** auf der Regi
 Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten in der Angebotsbibliothek erstellt wurden:
 
 * [Platzierungen](../offer-library/creating-placements.md)
-* [Kollektionen](../offer-library/creating-collections.md)
+* [Sammlungen](../offer-library/creating-collections.md)
 * [Personalisierte Angebote](../offer-library/creating-personalized-offers.md)
 * [Fallback-Angebote](../offer-library/creating-fallback-offers.md)
 
@@ -50,14 +50,14 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activities-evaluation-criteria.png)
 
-   Jedes Kriterium besteht aus einer Angebotskollektion, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden.
+   Jedes Kriterium besteht aus einer Angebotssammlung, die mit einer Eignungsbegrenzung verknüpft ist, und einer Ranking-Methode, mit der die in der Platzierung anzuzeigenden Angebote bestimmt werden.
 
 
    >[!NOTE]
    >
    >Es ist mindestens ein Bewertungskriterium erforderlich.
 
-1. Wählen Sie die Angebotskollektion aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie anschließend auf **[!UICONTROL Hinzufügen]**.
+1. Wählen Sie die Angebotssammlung aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie anschließend auf **[!UICONTROL Hinzufügen]**.
 
    ![](../assets/activities-collection.png)
 
@@ -65,7 +65,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
    >
    >Sie können auf den Link **[!UICONTROL Angebotskollektionen öffnen]** klicken, um die Liste der Sammlungen in einer neuen Registerkarte anzuzeigen, wo Sie die Sammlungen und die darin enthaltenen Angebote durchsuchen können.
 
-   Die ausgewählte Kollektion wird den Kriterien hinzugefügt.
+   Die ausgewählte Sammlung wird den Kriterien hinzugefügt.
 
    ![](../assets/activities-collection-added.png)
 
@@ -89,9 +89,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
       Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >Wenn Sie Segmente oder Entscheidungsregeln auswählen, werden Informationen zu den geschätzten qualifizierten Profilen angezeigt. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+1. Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Definieren Sie die Ranking-Methode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten.
 
@@ -106,9 +106,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_add-collection.png)
 
-1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Kollektion, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.
+1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.
 
-   Um die Standardsequenz neu anzuordnen, können Sie die Kollektionen per Drag-and-drop nach Bedarf verschieben.
+   Um die Standardsequenz neu anzuordnen, können Sie die Sammlungen per Drag-and-drop nach Bedarf verschieben.
 
    ![](../assets/activity_reorder-collections.png)
 
@@ -144,7 +144,7 @@ Wenn alles ordnungsgemäß konfiguriert ist, wird eine Zusammenfassung der Entsc
 
    ![](../assets/review-decision.png)
 
-   Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung auch eine Vorschau der verfügbaren Angebote, der Eignung und der Ranking-Details anzeigen.
+1. Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung eine Vorschau der verfügbaren Angebote, der Eignung und der Rangdetails anzeigen. Sie können auch Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
 
    ![](../assets/review-decision-details.png)
 
