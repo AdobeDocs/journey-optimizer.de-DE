@@ -1,6 +1,6 @@
 ---
-title: Globaler Kampagnenbericht
-description: Erfahren Sie, wie Sie Daten aus dem globalen Kampagnenbericht verwenden.
+title: Campaign Global-Bericht
+description: Erfahren Sie, wie Sie Daten aus dem Campaign Global-Bericht verwenden.
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 81%
+source-wordcount: '1736'
+ht-degree: 65%
 
 ---
 
-# Globaler Kampagnenbericht {#campaign-global-report}
+# Campaign Global-Bericht {#campaign-global-report}
 
-Der globale Kampagnenbericht kann direkt über Ihre Kampagne mit dem **[!UICONTROL Globale Ansicht]** Schaltfläche.
+Der globale Campaign-Bericht ist direkt über Ihre Kampagne mit der Variablen **[!UICONTROL Globale Ansicht]** Schaltfläche.
 
 Die Kampagne **[!UICONTROL Gesamtbericht]** wird mit den folgenden Registerkarten angezeigt:
 
@@ -41,11 +41,53 @@ Die **[!UICONTROL Kampagnenstatistiken]** -Widget beschreibt die wichtigsten Inf
 
 * **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Male, wenn eine Aktion auf der Journey fehlgeschlagen ist, in Bezug auf die Gesamtzahl der einmaligen Bereitstellungen einer Aktion.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### Ziele (#targets-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+
+![](assets/performance_report.gif)
+
+Die **[!UICONTROL Ziele]** im Kampagnenbericht können Sie die Berichte Ihrer Sendungen durch Targeting einer bestimmten Metrik besser anpassen.
+
+Die **[!UICONTROL Ziele]** aufgeführt sind, die **[!UICONTROL Datensätze]** die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste der integrierten **[!UICONTROL Ziele]** ist verfügbar, Sie können jedoch Ihre eigene hinzufügen, indem Sie neue **[!UICONTROL Datensatz]**. Weiterführende Informationen finden Sie in dieser Dokumentation.
+
+Nach Auswahl der Ziele, für die Sie die Zielgruppe bestimmen möchten, werden die beiden **[!UICONTROL Leistungsübersicht]** und **[!UICONTROL Kampagnenziel]** -Widgets bieten eine detaillierte Zusammenfassung Ihrer Versandleistung.
+
+Mit dem **[!UICONTROL Kampagnenziel]** -Widget, können Sie auch Ihr Hauptziel mit einer anderen Metrik vergleichen.
+
+Beachten Sie, dass jedes Widget bei Bedarf in der Größe angepasst und gelöscht werden kann. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
+
+### Experimentieren (#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+
+![](assets/experimentation_report_3.png)
+
+In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Experimentieren]** im Tab werden die wichtigsten Informationen bezüglich der Leistung der einzelnen Varianten und der bestmöglichen Leistung aufgeführt.
+
+Beachten Sie, dass das Definieren des besten Leisters einige Zeit in Anspruch nehmen kann. Es wird durch dieses Symbol dargestellt ![](assets/experimentation_report_1.png).
+
+Die **[!UICONTROL Experimentergebnis]** Widget erläutert die Leistung der einzelnen Varianten. Sie können Ihre Ausgangswerte ändern, indem Sie eine der Behandlungen aus der **[!UICONTROL Grundlinie]** die Dropdown-Liste. Die beste Behandlung wird mit einem Sternsymbol dargestellt.
+
+Die Tabelle enthält die folgenden Metriken:
+
+* **[!UICONTROL Profile]**: Anzahl der für diese Behandlung ausgewählten Profile.
+
+* **[!UICONTROL Ausgehende Einzelklicks]**: Gesamtanzahl der Klicks in allen ausgehenden Kanälen.
+
+* **[!UICONTROL Anzahl pro Profil]**: Gesamtwert der Metrik Experimentziel dividiert durch die Anzahl der Profile.
+
+* **[!UICONTROL Konfidenzintervall]**: Prozentualer Leistungsunterschied zwischen dem Ausgangswert und der Behandlung mit der besten Performance. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Durchschnittliche Steigerung]**: Prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zum Ausgangswert. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Behandlung mit der Ausgangsbehandlung identisch ist. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-confidence)
+
+Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie unter [diese Seite](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Registerkarte „E-Mail“  {#email-global}
 
@@ -73,7 +115,7 @@ Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versand
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.
 
-Die **[!UICONTROL E-Mail-Tracking-Statistiken]** enthalten die verfügbaren Daten für die Aktivität der Empfänger für Ihren Versand:
+Die **[!UICONTROL E-Mail - Trackingstatistiken]** -Widget enthält die für die Empfängeraktivität für Ihren Versand verfügbaren Daten:
 
 * **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
 

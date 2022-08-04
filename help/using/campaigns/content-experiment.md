@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '641'
+ht-degree: 2%
 
 ---
 
 # Erstellen eines Inhaltsexperiments {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
 
 Mit der Funktion für Inhaltsexperimente können Sie mehrere Versandbehandlungen definieren. Die Zielgruppe wird nach dem Zufallsprinzip jeder Behandlung zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie können den Inhalt, den Betreff oder den Absender der E-Mail variieren.
 
@@ -121,4 +127,12 @@ Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguratio
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]** , um es zu starten.
 
    ![](assets/content_experiment_14.png)
+
+## Experimentationsbericht {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Experimentieren]** im Tab werden die wichtigsten Informationen bezüglich der Leistung der einzelnen Varianten und der Frage aufgeführt, ob während des Tests eine optimale Leistung erzielt wurde.
+
+Weitere Informationen zu diesem Bericht finden Sie im Abschnitt [Campaign Global-Bericht](../campaigns/content-experiment.md#experimentation-report) Seite.
 

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 96%
+source-wordcount: '1127'
+ht-degree: 95%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 96%
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
    + [Ändern oder Stoppen einer Kampagne](using/campaigns/modify-stop-campaign.md)
+   + Inhaltsexperiment {#content-experiment}
+      + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
+      + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
+      + [Statistische Berechnungen](using/campaigns/experiment-calculations.md)
    + [Trigger-Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
    + Berichte {#reports}
       + [Live-Bericht einer Kampagne](using/campaigns/campaign-live-report.md)
@@ -374,7 +378,7 @@ ht-degree: 96%
             + [Zugreifen auf zugewiesene Subdomains](using/configuration/access-subdomains.md)
          + Verwalten von Aktionen, die sich auf Subdomains beziehen {#subdomain-related-actions}
             + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
-            + [Zugreifen auf und Bearbeiten von PTR-Datensätzen](using/configuration/ptr-records.md)
+            + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)
             + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
          + Überwachen von E-Mail-Adressen {#monitor-reputation}
             + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
