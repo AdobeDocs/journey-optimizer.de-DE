@@ -44,7 +44,7 @@ Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzier
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
+1. Fügen Sie für jede Platzierung eine Sammlung hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 1. Wählen Sie **[!UICONTROL Rangfolgenformel]** als Rangfolgenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangfolge hinzufügen]**.
 
@@ -71,7 +71,7 @@ Nachdem Sie eine Rangfolgestrategie erstellt haben, können Sie sie einer Platzi
 
 1. Fügen Sie die Platzierungen hinzu, die Ihre Angebote enthalten werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-1. Fügen Sie für jede Platzierung eine Kollektion hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
+1. Fügen Sie für jede Platzierung eine Sammlung hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 1. Wählen Sie aus der Dropdown-Liste die Option zum Sortieren der Angebote nach **[!UICONTROL KI-Rangfolge]** und klicken Sie dann auf **[!UICONTROL Rangfolge hinzufügen]**.
 

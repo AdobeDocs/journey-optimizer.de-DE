@@ -1,5 +1,5 @@
 ---
-title: Trigger-Kampagnen mit APIs
+title: Triggern von Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit Kampagnen Trigger erstellen können. [!DNL Journey Optimizer] APIs
 hide: true
 hidefromtoc: true
@@ -7,11 +7,11 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Trigger-Kampagnen mit APIs {#trigger-campaigns}
+# Triggern von Kampagnen mit APIs {#trigger-campaigns}
 
 ## Über API-gesteuerte Kampagnen {#about}
 

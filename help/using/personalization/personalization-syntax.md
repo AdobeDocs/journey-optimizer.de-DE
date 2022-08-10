@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen könne
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
 Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden / am Ende des Namens.
-Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) und schließendem ({{/}}).
+Blöcke sind Ausdrücke mit Blocköffnung ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 100%
 
 ---
 
@@ -20,70 +20,70 @@ ht-degree: 0%
 >title="Kanalaktionen"
 >abstract="Verwenden Sie Kanalaktionen, um eine Push-, SMS- oder E-Mail-Nachricht zu senden."
 
-Verwendung [!DNL Journey Optimizer] , um personalisierte Push-Benachrichtigungen, SMS und E-Mail-Nachrichten zu erstellen und zu versenden. Alle Nachrichten können im Rahmen einer Aktion auf der Journey-Arbeitsfläche bearbeitet werden.  Verwenden Sie die Funktion Als Vorlage speichern , um Ihren Inhalt einfach wiederzuverwenden. Sie haben folgende Möglichkeiten:
+Verwenden Sie [!DNL Journey Optimizer], um personalisierte Push-Benachrichtigungen, SMS und E-Mail-Nachrichten zu erstellen und zu versenden. Alle Nachrichten können im Rahmen einer Aktion auf der Journey-Arbeitsfläche inline bearbeitet werden.  Verwenden Sie die Funktion „Als Vorlage speichern“, um Ihren Inhalt ganz einfach wiederzuverwenden. Sie haben folgende Möglichkeiten:
 
-* Verwendung [!DNL Journey Optimizer] **E-Mail-Designfunktionen** , um responsive E-Mails zu erstellen oder zu importieren.
+* Verwenden Sie [!DNL Journey Optimizer] **Funktionen zur E-Mail-Gestaltung**, um responsive E-Mails zu erstellen bzw. zu importieren.
 
-* Nutzung **Adobe Experience Manager Assets Essentials** um Ihre E-Mails anzureichern, erstellen und verwalten Sie Ihre eigene Asset-Datenbank.
+* Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten.
 
-* Suchen **Adobe Stock-Fotos** um Ihren Inhalt zu erstellen und Ihr E-Mail-Design zu verbessern.
+* Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern.
 
-* Verbessern des Kundenerlebnisses durch die Erstellung personalisierter **Push-Benachrichtigungen, SMS und E-Mails** basierend auf ihren Profilattributen.
+* Verbessern Sie das Kundenerlebnis durch die Erstellung personalisierter **Push-Benachrichtigungen, SMS und E-Mails** basierend auf ihren Profilattributen.
 
-* **Sendungen senden** auf diesen Inhalten basieren und das Kundenverhalten verfolgen.
+* **Versenden Sie Sendungen**, die auf diesen Inhalten basieren, und verfolgen Sie das Kundenverhalten.
 
 >[!NOTE]
 >
->Benutzer können je nach Produktprofil auf Journey zugreifen, diese erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
+>Benutzende können je nach ihrem Produktprofil auf Journeys zugreifen und Journeys erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
 
 
-## Hinzufügen von Nachrichten in Ihren Journey{#messages-in-journeys}
+## Hinzufügen von Nachrichten in Ihren Journeys{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
 >title="Nachrichtenkategorie"
->abstract="Wählen Sie Marketing für kommerzielle Nachrichten oder Transaktionsnachrichten für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen."
+>abstract="Wählen Sie „Marketing“ für kommerzielle Nachrichten oder „Transaktionsnachrichten“ für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen zum Zurücksetzen des Kennworts oder Versandinformationen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_surface"
 >title="Kanaloberfläche"
->abstract="Eine Kanaloberfläche ist eine Instanz dieses Kanals, die über alle Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von einem Systemadministrator definiert."
+>abstract="Eine Kanaloberfläche ist eine Instanz des betreffenden Kanals, die über alle nötigen Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von Systemadmins definiert."
 
-Um Nachrichten in Ihren Journey hinzuzufügen, fügen Sie einfach eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
+Um Nachrichten in Ihre Journeys einzufügen, fügen Sie ganz einfach eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
 
-1. Starten Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder [Segment lesen](../building-journeys/read-segment.md) Aktivität.
+1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Segment lesen](../building-journeys/read-segment.md).
 
-1. Aus dem **Aktionen** Ziehen Sie einen **email**, und **SMS** oder **Push** -Aktivität in die Arbeitsfläche.
+1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine Aktivität vom Typ **E-Mail**, **SMS** oder **Push** auf die Arbeitsfläche.
 
    ![](assets/add-a-message.png)
 
 1. Geben Sie einen Titel und eine Beschreibung ein.
 
-1. Nachricht auswählen **[!UICONTROL Kategorie]**: Auswählen **Marketing** für kommerzielle Nachrichten oder **Transactional** für nicht kommerzielle Nachrichten wie Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+1. Wählen Sie die **[!UICONTROL Kategorie]** der Nachricht: Wählen Sie **Marketing** für kommerzielle Nachrichten oder **Transaktionsnachrichten** für nicht-kommerzielle Nachrichten wie Auftragsbestätigungen, Benachrichtigungen zum Zurücksetzen des Kennworts oder Lieferinformationen.
 
    >[!CAUTION]
    >
-   >Wenn Sie [Frequenzregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie, werden sie bei der Auswahl dieses Kanals und dieser Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur der **[!UICONTROL Marketing]** -Kategorie für Frequenzregeln verfügbar.
+   >Wenn Sie [Häufigkeitsregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie festgelegt haben, werden diese bei der Auswahl des Kanals und der Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln verfügbar.
 
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >Nachrichten vom Typ Marketing müssen eine [Ausschluss-Link](../messages/consent.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
+   >Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten. Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
 
-1. Kanal auswählen **[!UICONTROL Oberfläche]** (d. h. Nachrichtenvorgabe), die zum Senden Ihrer Nachricht verwendet werden soll.
+1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvorgabe), die zum Senden Ihrer Nachricht verwendet werden soll.
 
-   Eine Oberfläche ist eine Konfiguration, die durch eine [Systemadministrator](../start/path/administrator.md). Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomäne, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
+   Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
-   >Sie müssen eine gültige Kanaloberfläche für die ausgewählte Nachrichtenkategorie und den ausgewählten Kanal auswählen.
+   >Sie müssen eine gültige Kanaloberfläche für die ausgewählte Nachrichtenkategorie und den ausgewählten Kanal wählen.
 
-   Titel, Beschreibung und Oberfläche der Nachricht können jederzeit mit der Variablen **[!UICONTROL Eigenschaften]** in der Nachrichtenschnittstelle.
+   Sie können Titel, Beschreibung und Oberfläche der Nachricht jederzeit über die Schaltfläche **[!UICONTROL Eigenschaften]** in der Nachrichtenschnittstelle aufrufen und ändern.
 
 1. Nachrichteninhalt erstellen.
 
-   Auf der folgenden Seite erfahren Sie, wie Sie Ihren Nachrichteninhalt mit detaillierten Schritten erstellen:
+   Auf der folgenden Seite erfahren Sie mit detaillierten Schritten, wie Sie Ihren Nachrichteninhalt erstellen:
 
    * [Erstellen einer E-Mail](create-email.md)
    * [Erstellen einer Push-Benachrichtigung](create-push.md)
@@ -91,20 +91,20 @@ Um Nachrichten in Ihren Journey hinzuzufügen, fügen Sie einfach eine Push-, SM
 
 ## Aktivieren der Sendezeitoptimierung{#sto-in-journeys}
 
-Für E-Mail- und Push-Benachrichtigungen können Sie **[!UICONTROL Sendezeitoptimierung]**.
+Für E-Mail- und Push-Benachrichtigungen können Sie die **[!UICONTROL Sendezeitoptimierung]** aktivieren.
 
-Verwendung **[!UICONTROL Sendezeitoptimierung]** , um personalisierte Sendezeiten für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen. [Weitere Informationen](../messages/send-time-optimization.md).
+Verwenden Sie die **[!UICONTROL Sendezeitoptimierung]**, um jeweils personalisierte Sendezeiten für Benutzende zu planen und die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen. [Weitere Informationen](../messages/send-time-optimization.md).
 
 
 ## Erweiterte Parameter{#adv-settings}
 
-Erweiterte Parameter sind schreibgeschützt und werden standardmäßig ausgeblendet.
+Erweiterte Parameter sind schreibgeschützt und standardmäßig ausgeblendet.
 
 Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]** im oberen Bereich des Nachrichtenfensters.
 
 ![](assets/show-read-only.png)
 
-Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden durch die Variable [Systemadministrator](../start/path/administrator.md) im [Kanaloberfläche](../configuration/channel-surfaces.md) (d. h. Nachrichtenvorgabe), die mit der Nachricht verknüpft ist.
+Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden von den [Systemadmins](../start/path/administrator.md) in der [Kanaloberfläche](../configuration/channel-surfaces.md) (d. h. der Nachrichtenvorgabe) definiert, die mit der Nachricht verbunden ist.
 
 Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token, AppID, AppPlatform.
 
@@ -112,41 +112,41 @@ Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token
 
 Für E-Mails können Sie die primäre E-Mail-Adresse anzeigen.
 
-Für bestimmte Zwecke können Sie diese Werte in bestimmten Kontexten überschreiben. Um einen Wert zu erzwingen, klicken Sie auf die **Parameterüberschreibungen aktivieren** rechts neben dem Feld. Diese Option kann beispielsweise für Folgendes nützlich sein:
+Für bestimmte Zwecke können Sie diese Werte in bestimmten Kontexten überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **Parameterüberschreibung aktivieren** rechts neben dem Feld anklicken. Diese Option kann zum Beispiel für folgende Zwecke nützlich sein:
 
-* Testen Sie eine E-Mail, fügen Sie Ihre E-Mail-Adresse hinzu. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
-* Siehe E-Mail-Adresse der Abonnenten einer Liste. Weitere Informationen finden Sie unter [dieser Anwendungsfall](../building-journeys/message-to-subscribers-uc.md).
+* Um eine E-Mail zu testen, können Sie Ihre E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Sie können auf die E-Mail-Adresse der Abonnenten einer Liste verweisen. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
 
-Klicken Sie auf dasselbe Symbol, um auf den Standardparameter zurückzusetzen.
+Klicken Sie zum Zurücksetzen auf den Standardparameter auf das gleiche Symbol.
 
 
 ## Nachrichten durchsuchen{#browse-message}
 
-Wenn auf einer Journey mehrere Nachrichten verwendet werden, können Sie von der **Inhalt bearbeiten** angezeigt.
+Wenn mehrere Nachrichten in einer Journey verwendet werden, können Sie auf dem Bildschirm **Inhalt bearbeiten** von einer zur anderen wechseln.
 
 ![](assets/inline-messages-multi-content.png)
 
-Sie können dann [Warnungen überprüfen](alerts.md) und [simulieren](../design/preview.md) jeden Inhalt aus einer einzelnen Ansicht.
+Sie können dann [Warnungen überprüfen](alerts.md) und jeden Inhalt in einer einzigen Ansicht [simulieren](../design/preview.md).
 
 ## Duplizieren einer Nachricht {#duplicate-message}
 
-Sie können eine vorhandene Nachricht aus der Journey-Arbeitsfläche kopieren.
+Sie können eine vorhandene Nachricht von der Journey-Arbeitsfläche kopieren.
 
 Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie die Nachricht aus, die Sie kopieren möchten.
 
-1. Verwenden Sie die **[!UICONTROL Kopieren]** -Schaltfläche in der **[!UICONTROL Aktion]** -Bereich.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Kopieren]** im Bereich **[!UICONTROL Aktion]**.
 
    ![](assets/message-duplicate.png)
 
-1. Eingabe **Strg+V** um die Nachricht einzufügen.
+1. Geben Sie **Strg+V** ein, um die Nachricht einzufügen.
 
    Die Nachricht wird der Journey-Arbeitsfläche hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
    ![](assets/message-duplicated.png)
 
-1. Benennen Sie die Nachricht um, um die ursprüngliche Nachricht von der Kopie zu unterscheiden, z. B. bei der Bearbeitung von Nachrichten, wie unten dargestellt:
+1. Benennen Sie die Nachricht um, um die ursprüngliche Nachricht von der Kopie zu unterscheiden, beispielsweise bei der Bearbeitung von Nachrichten, wie im Folgenden beschrieben:
 
    ![](assets/multi-message.png)
 
@@ -155,10 +155,10 @@ Gehen Sie dazu wie folgt vor:
 >
 >Bei E-Mails können Sie auch eine vorhandene Nachricht in eine Vorlage umwandeln. [Weitere Informationen](../design/email-templates.md).
 
-## Nachricht löschen{#delete-message}
+## Eine Nachricht löschen{#delete-message}
 
 Um eine Nachricht zu löschen, verwenden Sie das Papierkorbsymbol oben im Aktivitätsbereich für die Kanalaktivität.
 
 ![](assets/delete-message.png)
 
-Verwenden Sie die **[!UICONTROL Bestätigen]** zu validieren.
+Verwenden Sie die Taste **[!UICONTROL Bestätigen]**, um zu bestätigen.

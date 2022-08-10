@@ -1,6 +1,6 @@
 ---
-title: Kollektionen aktualisieren
-description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Sammlungen aktualisieren
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 ---
 
-# Kollektion aktualisieren {#update-collection}
+# Sammlung aktualisieren {#update-collection}
 
-Sie können eine Kollektion ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
+Sie können eine Sammlung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
@@ -37,8 +37,8 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Kollektionen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | Die Instanz-ID der Kollektion, die Sie aktualisieren möchten. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | Die Instanz-ID der Sammlung, die Sie aktualisieren möchten. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Anfrage**
 
@@ -73,7 +73,7 @@ curl -X PATCH \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details der Kollektion zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Kollektions-`@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Sammlung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Sammlungs-`@id`.
 
 ```json
 {

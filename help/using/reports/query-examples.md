@@ -427,7 +427,7 @@ WHERE
     )
 ```
 
-Wenn kein Datensatz zurückgegeben wird, bedeutet dies, dass
+Wenn kein Eintrag zurückgegeben wird, bedeutet dies, dass
 
 * bei der Erstellung des Themas oder des Exportvorgangs ein Fehler aufgetreten ist
 * der Exportvorgang noch ausgeführt wird

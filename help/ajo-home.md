@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!CAUTION]
 >
->Am 25. Juli veröffentlicht Adobe Journey Optimizer eine [neue Funktion](using/rn/inline-messages.md) verbessert die Inhaltserstellung für Journey Optimizer-Kanäle (E-Mail, Push, SMS). Als Journey Optimizer-Praktikant [Erstellen und Erstellen](using/messages/get-started-content.md) Ihre Nachrichten direkt von einer Journey. Eine automatische Konvertierung der Journey erfolgt für Sie. Trotzdem brauchen wir Ihre Hilfe mit ein paar Schritten. Weitere Informationen finden Sie unter [erforderliche Schritte](using/rn/inline-messages-steps.md).
+>Am 25. Juli veröffentlichte Adobe Journey Optimizer eine [neue Funktion](using/rn/inline-messages.md), die die Erstellung von Inhalten für Journey Optimizer-Kanäle (E-Mail, Push, SMS) verbessert. Als Journey Optimizer-Anwender können Sie jetzt Ihre Nachrichten direkt aus einer Journey heraus [erstellen und verfassen](using/messages/get-started-content.md). Die Journeys werden automatisch für Sie konvertiert. Trotzdem brauchen wir Ihre Hilfe bei ein paar Schritten. Weitere Informationen über die [erforderlichen Schritte](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -56,7 +56,7 @@ ht-degree: 80%
     <div>
       <a href="using/messages/get-started-content.md">Nachrichten senden</a>
     </div>
-    <p>Erfahren Sie, wie Sie Ihren Journey Push-, SMS- und E-Mail-Nachrichten hinzufügen.
+    <p>Erfahren Sie, wie Sie Push-, SMS- und E-Mail-Nachrichten in Ihre Customer Journeys einfügen.
     <p>
     <div>
     <a href="using/building-journeys/journeys-uc.md">Erstellen Ihrer ersten Journey</a>

@@ -1,6 +1,6 @@
 ---
-title: Kollektion nachschlagen
-description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Sammlungen nachschlagen
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Kollektion nachschlagen {#look-up-collection}
+# Sammlungen nachschlagen {#look-up-collection}
 
-Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können nach bestimmten Kollektionen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Kollektions-`@id` oder den Namen der Kollektion im Anfragepfad enthält.
+Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Sammlungs-`@id` oder den Namen der Sammlung im Anfragepfad enthält.
 
 **API-Format**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Kollektionen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Definiert das Schema, das Kollektionen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
 | `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-filter:124bd44648f17ec1` |
 | `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Mobile demo` |
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Kollektions-`@id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Sammlungs-`@id`.
 
 ```json
 {

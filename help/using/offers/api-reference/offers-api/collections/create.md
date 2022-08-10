@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Sammlungen
-description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 # Erstellen von Sammlungen {#create-collection}
 
-Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können eine Kollektion erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
+Sie können eine Sammlung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
@@ -37,7 +37,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Kollektionen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Anfrage**
 
@@ -61,7 +61,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Kollektion zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Kollektion zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Kollektions-`@id` in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Sammlung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Sammlung zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Sammlungs-`@id` in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
 
 ```json
 {

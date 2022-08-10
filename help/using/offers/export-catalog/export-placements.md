@@ -31,9 +31,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 ## ID {#identifier}
 
-**Feld:** _id 
+**Feld:** _id
 **Titel:** Kennung
-**Beschreibung:** Eine eindeutige Kennung für den Datensatz.
+**Beschreibung:** Eindeutige Kennung des Eintrags.
 **Typ:** Zeichenfolge
 
 ## _experience {#experience}

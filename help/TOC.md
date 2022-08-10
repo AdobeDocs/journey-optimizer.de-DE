@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
       + [Versionshinweise für 2021](using/rn/release-notes-2021.md)
    + [Dokumentation – Aktualisierungen](using/rn/documentation-updates.md)
    + Neue Inline-Authoring-Funktion {#inline-authoring}
-      + [Überblick über die Migration](using/rn/inline-messages.md)
+      + [Übersicht über die Migration](using/rn/inline-messages.md)
       + [Migrationsschritte](using/rn/inline-messages-steps.md)
 + Erste Schritte{#get-started}
    + [Was ist Journey Optimizer?](using/start/get-started.md)
@@ -42,7 +42,7 @@ ht-degree: 95%
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
       + [Statistische Berechnungen](using/campaigns/experiment-calculations.md)
-   + [Trigger-Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
+   + [Triggern von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
    + Berichte {#reports}
       + [Live-Bericht einer Kampagne](using/campaigns/campaign-live-report.md)
       + [Globaler Kampagnenbericht](using/campaigns/campaign-global-report.md)

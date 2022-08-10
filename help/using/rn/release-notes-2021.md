@@ -5,7 +5,7 @@ exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2070'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME-Datensatz bzw. Datensatz mit kanonischem Namen ist ein Datensatz, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt CNAMEs. Ein CNAME-Eintrag bzw. Eintrag mit kanonischem Namen ist ein Eintrag, der auf eine andere Domain-Adresse und nicht auf eine IP-Adresse verweist. Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.</p>
 <p>Diese Methode wird empfohlen, wenn Ihre Unternehmensrichtlinien die vollständige Subdomain-Delegierung nicht erlauben.</p>
 <p>Weitere Informationen zur Delegierung von CNAME-Subdomains erhalten Sie in der <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -81,12 +81,12 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 * **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../reports/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../reports/sharing-legacy-fields.md) verfügbar.
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit von Journeys implementiert.
-* **Kollektionen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../building-journeys/collections.md)
+* **Sammlungen** – Arrays von Objekten, die Unterobjekte enthalten, werden nun unterstützt. [Weitere Informationen](../building-journeys/collections.md)
 * **Listen** – Die Bildschirme „Listen“ für Journeys, Ereignisse, Aktionen und Datenquellen wurden verbessert.
 
 **Reporting**
 
-* **Datenformat in der globalen Ansicht** – Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten.
+* **Datenformat in der globalen Ansicht**: Sie können jetzt in der **globalen Ansicht** der Registerkarte **Ausführung** zwischen Zahlen und Prozentsätzen hin- und herschalten.
 
 
 **Administration**
@@ -101,7 +101,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Entscheidungs-Management**
 
-* **Auswertungssequenzierung** – Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur einfacher zwischen Entscheidungsobjekten navigieren, sondern auch steuern, wie Angebotskollektionen von der Entscheidungs-Engine bewertet werden. Hierzu zählt auch die Frage, welche Kollektionen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Kollektionen bewertet werden sollen. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **Auswertungssequenzierung** – Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur einfacher zwischen Entscheidungsobjekten navigieren, sondern auch steuern, wie Angebotssammlungen von der Entscheidungs-Engine bewertet werden. Hierzu zählt auch die Frage, welche Sammlungen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Sammlungen bewertet werden sollen. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Fehlerbehebungen
 
@@ -142,9 +142,9 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Kollektionen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt: einfache Kollektionen und Objektkollektionen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
-<p>Weitere Informationen zu Kollektionen finden Sie in der <a href="../building-journeys/collections.md">entsprechenden Dokumentation</a>. </p>
-<p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Kollektionen.</p>
+<p>Sie können jetzt Sammlungen oder eine Liste von Daten in Ihren benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt: einfache Sammlungen und Objektsammlungen. Zuvor erstellte benutzerdefinierte Aktionen funktionieren weiterhin. </p>
+<p>Weitere Informationen zu Sammlungen finden Sie in der <a href="../building-journeys/collections.md">entsprechenden Dokumentation</a>. </p>
+<p>Der Filter und die Überschneidungsfunktionen wurden der Liste der im erweiterten Ausdruckseditor verfügbaren Funktionen hinzugefügt. Dies bietet mehr Möglichkeiten zum Filtern und Vergleichen von Sammlungen.</p>
 <p>Lesen Sie die Dokumentation zu den Funktionen <a href="../building-journeys/functions/functionfilter.md">Filtern</a> und <a href="../building-journeys/functions/functionintersect.md">Überschneidung</a>.</p>
 </td>
 </tr>
@@ -274,7 +274,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Personalisierung**
 
-* **Ausdruckseditor** - Sie können jetzt beim Definieren der Personalisierung einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](../personalization/functions/helpers.md)
+* **Ausdruckseditor**: Bei der Definition der Personalisierung können Sie jetzt ganz einfach einen Fallback-Wert hinzufügen: Wenn das Personalisierungsfeld für ein Profil leer ist, wird der Fallback-Wert angezeigt. [Weitere Informationen](../personalization/functions/helpers.md)
 
 **E-Mail-Konfiguration**
 
@@ -289,7 +289,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 * Fehlerkorrektur – Die Barrierefreiheit in der Navigation auf der Nachrichtenregisterkarte funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Die Lokalisierung in den Email Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
-* Fehlerkorrektur - Es wurde ein Problem behoben, das beim Auswählen von mehr als einem Knoten in einer Journey und Klicken auf &quot;Löschen&quot;im Eigenschaftenbereich auftrat.
+* Fehlerkorrektur – Die Auswahl von mehr als einem Knoten in einer Journey und anschließendem Klicken auf „Löschen“ im Eigenschaftsfenster funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Ein neuer Header kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
 * Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvoreinstellung fehlgeschlagen ist.
 
@@ -356,7 +356,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 * Fehlerkorrektur – Jetzt werden keine doppelten Nachrichten mehr während des Batch-E-Mail-Versands gesendet.
 * Fehlerkorrektur – Ereignisse werden jetzt entsprechend generiert, wenn nach Ablauf des Wiederholungszeitraums kein E-Mail-Versand mehr durchgeführt wird.
-* Fehlerkorrektur – Im Bildschirm „PTR-Datensätze“ fehlen jetzt keine IP-Informationen mehr.
-* Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
+* Fehlerkorrektur – Im Bildschirm „PTR-Einträge“ fehlen jetzt keine IP-Informationen mehr.
+* Fehlerkorrektur – Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
 * Fehlerkorrektur – Der Abstand in Informations-Popups ist jetzt korrekt.
 * Fehlerkorrektur – Beim Hochladen einer HTML-Datei in Email Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.

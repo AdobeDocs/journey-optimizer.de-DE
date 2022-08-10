@@ -3,7 +3,7 @@ title: Schritte für die Migration zur Inline-Erstellung von Journeys
 description: Schritte für die Migration zur Inline-Erstellung von Journeys
 exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 

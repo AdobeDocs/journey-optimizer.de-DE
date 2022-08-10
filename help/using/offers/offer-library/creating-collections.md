@@ -20,43 +20,43 @@ ht-degree: 100%
 >title="Über Angebotssammlungen"
 >abstract="Mit Angebotssammlungen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen."
 
-Mit Kollektionen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Kollektion erstellen, die nur sportbezogene Angebote enthält.
+Mit Sammlungen können Sie Ihre Angebote organisieren, indem Sie sie in Kategorien Ihrer Wahl anordnen. Sie können beispielsweise eine „Sport“-Sammlung erstellen, die nur sportbezogene Angebote enthält.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Die Liste der Angebotskollektionen ist im Menü **[!UICONTROL Angebote]** verfügbar.
+Die Liste der Angebotssammlungen ist im Menü **[!UICONTROL Angebote]** verfügbar.
 
 ![](../assets/collections_list.png)
 
-Sie können zwei Arten von Kollektionen erstellen:
+Sie können zwei Arten von Sammlungen erstellen:
 
-* **Dynamische Kollektionen** sind Sammlungen von Angeboten, die auf Tags basieren. Diese Kollektionen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem ausgewählten Tag erstellt wird, wird es automatisch der Kollektion hinzugefügt.
+* **Dynamische Kollektionen** sind Sammlungen von Angeboten, die auf Tags basieren. Diese Sammlungen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem ausgewählten Tag erstellt wird, wird es automatisch der Sammlung hinzugefügt.
 
-* **Statische Kollektionen** sind Sammlungen, die durch manuelles Auswählen einzelner Angebote erstellt werden, die in die Kollektion aufgenommen werden sollen. Eine solche Kollektion kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden.
+* **Statische Kollektionen** sind Sammlungen, die durch manuelles Auswählen einzelner Angebote erstellt werden, die in die Kollektion aufgenommen werden sollen. Eine solche Sammlung kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden.
 
-Gehen Sie wie folgt vor, um eine Kollektion zu erstellen:
+Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
-1. Gehen Sie zur Registerkarte **[!UICONTROL Kollektionen]** und klicken Sie dann auf **[!UICONTROL Kollektion erstellen]**.
+1. Gehen Sie zur Registerkarte **[!UICONTROL Sammlungen]** und klicken Sie dann auf **[!UICONTROL Sammlung erstellen]**.
 
-1. Geben Sie den Namen und den Typ der zu erstellenden Kollektion an.
+1. Geben Sie den Namen und den Typ der zu erstellenden Sammlung an.
 
    ![](../assets/collection_create.png)
 
-1. Um eine dynamische Kollektion zu erstellen, wählen Sie im linken Bereich das Tag der Angebote aus, die der Kollektion hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Alle Angebote mit dem ausgewählten Tag werden in der Kollektion gespeichert.
+1. Um eine dynamische Sammlung zu erstellen, wählen Sie im linken Bereich das Tag der Angebote aus, die der Sammlung hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Alle Angebote mit dem ausgewählten Tag werden in der Sammlung gespeichert.
 
    Weitere Informationen zum Erstellen von Tags finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. Um eine statische Kollektion zu erstellen, verwenden Sie den linken Bereich, um die Liste der Angebote (nach Status, Tag, Datum, Kanal, Inhaltstyp) zu filtern, und wählen Sie dann die Angebote aus, die der Kollektion hinzugefügt werden sollen.
+1. Um eine statische Sammlung zu erstellen, verwenden Sie den linken Bereich, um die Liste der Angebote (nach Status, Tag, Datum, Kanal, Inhaltstyp) zu filtern, und wählen Sie dann die Angebote aus, die der Sammlung hinzugefügt werden sollen.
 
    ![](../assets/static_collection.png)
 
    >[!NOTE]
    >
-   >Statische Kollektionen werden nicht automatisch aktualisiert. Um einer statischen Kollektion Angebote hinzuzufügen, müssen Sie sie bearbeiten und die Angebote manuell hinzufügen.
+   >Statische Sammlungen werden nicht automatisch aktualisiert. Um einer statischen Sammlung Angebote hinzuzufügen, müssen Sie sie bearbeiten und die Angebote manuell hinzufügen.
 
-1. Nachdem die Kollektion erstellt wurde, wird sie in der Liste angezeigt. Sie können sie zum Bearbeiten oder Löschen auswählen.
+1. Nachdem die Sammlung erstellt wurde, wird sie in der Liste angezeigt. Sie können sie zum Bearbeiten oder Löschen auswählen.
 
    ![](../assets/collection_created.png)
 

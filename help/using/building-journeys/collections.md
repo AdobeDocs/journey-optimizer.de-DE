@@ -1,6 +1,6 @@
 ---
 solution: Journey Optimizer
-title: Dynamisches Übergeben von Kollektionen mithilfe benutzerdefinierter Aktionen
+title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
 description: Senden von Nachrichten mit Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 # Anwendungsfall: Sammlungen mithilfe benutzerdefinierter Aktionen dynamisch übermitteln{#passing-collection}
 
-Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Kollektionen unterstützt:
+Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt:
 
-* einfache Kollektionen: Arrays einfacher Datentypen, z. B. mit einer listString:
+* einfache Sammlungen: Arrays einfacher Datentypen, z. B. mit einer listString:
 
    ```
    {
@@ -26,7 +26,7 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
    }
    ```
 
-* Objektkollektionen: ein Array von JSON-Objekten, z. B.:
+* Objektsammlungen: ein Array von JSON-Objekten, z. B.:
 
    ```
    {
@@ -66,11 +66,11 @@ Sie können eine Kollektion in benutzerdefinierten Aktionsparametern übergeben,
     ]
    }
    ```
-* Um Kollektionen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Kollektion nur mit einem einzelnen Element senden.
+* Um Sammlungen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlungen nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
 
-In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist ein Array von Objekten mit einem Feld, das eine einfache Kollektion ist.
+In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist ein Array von Objekten mit einem Feld, das eine einfache Sammlung ist.
 
 ```
 {
@@ -104,7 +104,7 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
 
    ![](assets/uc-collection-1.png)
 
-1. Passen Sie bei Bedarf die Feldtypen an. Die folgenden Feldtypen werden für Kollektionen unterstützt: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+1. Passen Sie bei Bedarf die Feldtypen an. Die folgenden Feldtypen werden für Sammlungen unterstützt: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >

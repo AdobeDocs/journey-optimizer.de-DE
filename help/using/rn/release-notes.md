@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 24%
+ht-degree: 86%
 
 ---
 
@@ -24,15 +24,15 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Neuer Inline-Messaging-Fluss</strong><br/></th>
+<th><strong>Neuer Fluss für Inline-Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer bietet einen neuen Ablauf für die Nachrichtenbearbeitung in Journey. Die Online-Benachrichtigung spart Benutzern viel Zeit und optimiert den Workflow-Prozess zum Erstellen und Versand einer E-Mail, einer Push-Benachrichtigung oder einer SMS in Journey Optimizer. Wenn Sie Nachrichten als separaten Schritt entfernen und sie stattdessen im Rahmen einer Journey-Arbeitsfläche bearbeiten möchten, müssen Benutzer auf weniger Schaltflächen klicken und weniger Bildschirme durchsuchen, um Inhalte zu entwerfen und zu bearbeiten.</p>
+<p>Journey Optimizer bietet einen neuen Fluss für die Nachrichtenbearbeitung in Journeys. Das Inline-Messaging spart Benutzenden viel Zeit und optimiert den Workflow-Prozess zum Erstellen und Versand einer E-Mail, einer Push-Benachrichtigung oder einer SMS in Journey Optimizer. Wenn Sie Nachrichten als separaten Schritt entfernen und sie stattdessen im Rahmen einer Journey-Arbeitsfläche bearbeitbar machen möchten, müssen Benutzende auf weniger Schaltflächen klicken und durch weniger Bildschirme navigieren, um Inhalte zu entwerfen und zu bearbeiten.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../messages/get-started-content.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../messages/get-started-content.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -48,9 +48,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Jetzt können Sie Schemafelder mit Bezeichnungen identifizieren, die Organisations- oder Datennutzungsbereiche definieren. Administratoren können über die Benutzeroberfläche "Berechtigungen"Zugriffsrichtlinien für XDM-Schemafelder definieren und den Zugriff für Benutzer oder Benutzergruppen (interne, externe oder externe Benutzer) besser verwalten sowie den Zugriff auf bestimmte Datentypen (d. h. sensible personenbezogene Daten/EPD) verwalten.</p>
-<p>Die Verwendung der attributbasierten Zugriffssteuerung ist derzeit auf ausgewählte Benutzer beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.</p>
-<p>Weitere Informationen finden Sie in der <a href="../administration/attribute-based-access.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt Schemafelder mit Bezeichnungen identifizieren, die Organisations- oder Datennutzungsbereiche definieren. Admins können über die Benutzeroberfläche „Berechtigungen“ Zugriffsrichtlinien für XDM-Schemafelder definieren und den Zugriff für Benutzende oder Benutzergruppen (interne, externe oder Drittbenutzende) besser verwalten sowie den Zugriff auf bestimmte Datentypen (d. h. sensible personenbezogene Daten/SPD) verwalten.</p>
+<p>Die Verwendung der attributbasierten Zugriffssteuerung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.</p>
+<p>Weitere Informationen finden Sie in der <a href="../administration/attribute-based-access.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -65,9 +65,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Batch-Entscheidungsaufträge über die Benutzeroberfläche ausführen, sodass ich keinen Entwickler benötige, um Batch-API-Aufträge auszuführen, und ich kann die für das Marketing benötigte Zeit verkürzen. Mit dieser neuen Benutzeroberfläche können Sie Aufträge erstellen und aktuelle/frühere Aufträge verwalten.</p>
+<p>Sie können jetzt Batch-Entscheidungsaufträge über die Benutzeroberfläche ausführen, sodass niemand mit Entwicklungskenntnissen benötigt wird, um Batch-API-Aufträge auszuführen, und die für das Marketing benötigte Zeit verkürzt wird. Mit dieser neuen Benutzeroberfläche können Sie Aufträge erstellen und aktuelle/frühere Aufträge verwalten.</p>
 <img src="assets/do-not-localize/batch.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../offers/batch-delivery.md">entsprechenden Dokumentation.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/batch-delivery.md">detaillierten Dokumentation.</p>
 </td>
 </tr>
 </tbody>
@@ -82,8 +82,8 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in der Entscheidungsverwaltung personalisierte Optimierungsmodellsysteme verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
-<p>Die Verwendung personalisierter KI-Modelle zur Optimierung ist derzeit auf ausgewählte Benutzer beschränkt und wird in einer zukünftigen Version in allen Umgebungen bereitgestellt.</p>
+<p>Sie können jetzt personalisierte Optimierungsmodellsysteme im Entscheidungs-Management verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
+<p>Die Verwendung personalisierter KI-Modelle zur Optimierung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version in allen Umgebungen bereitgestellt.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">entsprechenden Dokumentation</a>.</p>
 </td>
@@ -99,18 +99,18 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Nachrichten**
 
-* Nachrichtenvorgaben sind jetzt **Kanaloberflächen**. [Weitere Informationen](../configuration/channel-surfaces.md)
+* Nachrichtenvoreinstellungen sind jetzt **Kanaloberflächen**. [Weitere Informationen](../configuration/channel-surfaces.md)
 
 **Administration**
 
-* **PTR-Record-Bearbeitung** - Beim Aktualisieren eines PTR-Datensatzes dauert die Verarbeitungszeit nur bis zu 3 Stunden. [Weitere Informationen](../configuration/ptr-records.md#processing)
+* **Bearbeitung von PTR-Einträgen**: Beim Aktualisieren eines PTR-Eintrags dauert die Verarbeitungszeit nur bis zu 3 Stunden. [Weitere Informationen](../configuration/ptr-records.md#processing)
 
-* **Zulassungsliste-Benutzeroberfläche** - Sie können jetzt die Journey Optimizer-Benutzeroberfläche verwenden, um der Zulassungsliste neue E-Mail-Adressen oder Domänen hinzuzufügen. [Weitere Informationen](../configuration/allow-list.md)
+* **Zulassungsliste per Benutzeroberfläche**: Sie können jetzt die Journey Optimizer-Benutzeroberfläche verwenden, um neue E-Mail-Adressen oder Domains zur Zulassungsliste hinzuzufügen. [Weitere Informationen](../configuration/allow-list.md)
 
-* **Aktualisierung der Zulassungsliste-Logik** - Die Logik der Zulassungsliste gilt nun, sobald die Funktion aktiviert ist, auch wenn die Liste leer ist. [Weitere Informationen](../configuration/allow-list.md#logic)
+* **Aktualisierung der Zulassungslistenlogik**: Die Logik der Zulassungsliste gilt nun, sobald die Funktion aktiviert ist, selbst wenn die Liste leer ist. [Weitere Informationen](../configuration/allow-list.md#logic)
 
 * **URL-Tracking-Parameter** - Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen (d. h. Vorgaben) zu konfigurieren. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
-* **Zielgruppengröße** - Eine neue Schätzung der Zielgruppengröße wird jetzt in der Benutzeroberfläche angezeigt, wenn eine Entscheidungsregel erstellt wird, wenn ein Segment oder eine Regel zum Festlegen einer Angebotseignung ausgewählt oder ein Segment oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.
+* **Zielgruppengröße**: In der Benutzeroberfläche wird jetzt eine neue Schätzung der Zielgruppengröße angezeigt, wenn eine Entscheidungsregel erstellt wird, ein Segment oder eine Regel zum Festlegen einer Angebotseignung ausgewählt wird oder ein Segment oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.

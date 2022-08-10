@@ -1,6 +1,6 @@
 ---
-title: Kollektionen auflisten
-description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Sammlungen auflisten
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Kollektionen auflisten {#list-collections}
+# Sammlungen auflisten {#list-collections}
 
-Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Kollektionen in einem Container anzeigen.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Sammlungen in einem Container anzeigen.
 
 **API-Format**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Kollektionen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Definiert das Schema, das Kollektionen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=1` |
 
 **Anfrage**
@@ -58,11 +58,11 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Kollektionen ein. | `limit=5` |
+| `limit` | Schränken Sie die Anzahl der zurückgegebenen Sammlungen ein. | `limit=5` |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Kollektionen zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Eine erfolgreiche Antwort gibt eine Liste von Sammlungen zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {

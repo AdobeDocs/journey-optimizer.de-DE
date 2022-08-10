@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,14 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Juli 2022 {#july-2022}
 
-* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 22. Juli wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Die **Einrichten von Kanaloberflächen** wurde erläutert und mit Links zur Seite aktualisiert, auf der beschrieben wird, wie der SMS-Kanal konfiguriert werden kann. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
-* In den Journey-Eigenschaften wird die **Zeitzone des Profils** ist jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juli &#39;22 wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Der Abschnitt **Kanaloberflächen einrichten** wurde präzisiert und mit Links zu der Seite aktualisiert, die beschreibt, wie der SMS-Kanal konfiguriert wird. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
+* In den Journey-Eigenschaften ist die Option **Profil-Zeitzone** jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* Im **Warten** -Aktivität, die **Festes Datum** nicht mehr verfügbar ist. [Weitere Informationen](../building-journeys/wait-activity.md)
-* Weitere Informationen zum **Inkrementelles Lesen** in der **Segment lesen** Aktivität. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Es wurden Empfehlungen zur **Profilbegrenzung** Bedingungstyp. [Weitere Informationen](../building-journeys/condition-activity.md#profile_cap)
-* Es wurde eine Beschränkung für Geschäftsereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
+* In der Aktivität **Warten** ist die Option **Festes Datum** nicht mehr verfügbar. [Weitere Informationen](../building-journeys/wait-activity.md)
+* Es wurden weitere Informationen über die Option **Inkrementelles Lesen** in der Aktivität **Segment lesen** hinzugefügt. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Es wurden Empfehlungen für die Bedingungsart **Profilobergrenze** hinzugefügt. [Weitere Informationen](../building-journeys/condition-activity.md#profile_cap)
+* Es wurde eine Einschränkung für Geschäftsereignisse hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
 
 ## Juni 2022 {#june-2022}
 

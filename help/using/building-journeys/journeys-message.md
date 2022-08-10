@@ -9,7 +9,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 16%
+ht-degree: 37%
 
 ---
 
@@ -28,9 +28,9 @@ Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
 Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
-1. Starten Sie Ihre Journey mit einem [Ereignis](general-events.md) oder [Segment lesen](read-segment.md) Aktivität.
+1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Segment lesen](read-segment.md).
 
-1. Aus dem **Aktionen** Ziehen Sie einen **email**, und **SMS** oder **Push** -Aktivität in die Arbeitsfläche.
+1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine Aktivität vom Typ **E-Mail**, **SMS** oder **Push** auf die Arbeitsfläche.
 
    ![](../messages/assets/add-a-message.png)
 

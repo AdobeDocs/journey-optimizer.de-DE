@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -135,4 +136,3 @@ Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguratio
 In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Experimentieren]** im Tab werden die wichtigsten Informationen bezüglich der Leistung der einzelnen Varianten und der Frage aufgeführt, ob während des Tests eine optimale Leistung erzielt wurde.
 
 Weitere Informationen zu diesem Bericht finden Sie im Abschnitt [Campaign Global-Bericht](../campaigns/content-experiment.md#experimentation-report) Seite.
-

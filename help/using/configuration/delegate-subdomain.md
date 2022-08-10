@@ -27,7 +27,7 @@ Das Zuweisen eines Domain-Namens ist eine Methode, die es dem Eigentümer eines 
 >
 >Standardmäßig können Sie mit dem Lizenzvertrag für [!DNL Journey Optimizer] bis zu 10 Subdomains zuweisen. Wenden Sie sich an Ihren Ansprechpartner bei Adobe, wenn Sie diese Einschränkung erhöhen möchten.
 
-Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Datensätze zu verweisen.
+Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
 >[!CAUTION]
 >
@@ -83,13 +83,13 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
    >[!NOTE]
    >
-   >Alle fehlenden Datensätze, also die noch nicht in Ihrer Hosting-Lösung erstellten Datensätze, werden aufgelistet.
+   >Alle fehlenden Einträge, also die noch nicht in Ihrer Hosting-Lösung erstellten Einträge, werden aufgelistet.
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen wurden, erhält die Subdomain den Status **[!UICONTROL Erfolgreich]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
    >[!NOTE]
    >
-   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungsdatensatz nicht in Ihrer Hosting-Lösung erstellen.
+   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -103,18 +103,18 @@ Nachdem Adobe in [!DNL Journey Optimizer] eine Subdomain zugewiesen wurde, wird 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
->title="Erstellen der passenden DNS- und Validierungsdatensätze"
->abstract="Um eine Subdomain mit CNAMEs zuzuweisen, müssen Sie die Adobe-Nameserver-Informationen und den in der Journey Optimizer-Benutzeroberfläche angezeigten SSL-CDN-URL-Validierungsdatensatz kopieren und in Ihre Hosting-Plattform einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
+>title="Erstellen der passenden DNS- und Validierungseinträge"
+>abstract="Um eine Subdomain mit CNAMEs zuzuweisen, müssen Sie die Adobe-Nameserver-Informationen und den in der Journey Optimizer-Benutzeroberfläche angezeigten SSL-CDN-URL-Validierungseintrag kopieren und in Ihre Hosting-Plattform einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
 
 Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass Adobe nur eine teilweise Kontrolle über den DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
 
-Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
+Mit der CNAME-Subdomain-Delegierung können Sie eine Subdomain erstellen und CNAMEs verwenden, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich, um eine Umgebung für das Senden, Rendern und Tracking von E-Mails einzurichten.
 
 >[!CAUTION]
 >
 >Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
-➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Datensätze zu verweisen](#video)
+➡️ [In diesem Video erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen](#video)
 
 Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
@@ -140,21 +140,21 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
    >[!NOTE]
    >
-   >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Datensätze später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+   >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden und die Einträge später erstellen. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
-1. Warten Sie, bis Adobe prüft, ob diese Datensätze in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
+1. Warten Sie, bis Adobe prüft, ob diese Einträge in Ihrer Hosting-Lösung fehlerfrei generiert wurden. Dieser Vorgang kann bis zu 2 Minuten dauern.
 
    >[!NOTE]
    >
-   >Alle fehlenden Datensätze, also die noch nicht in Ihrer Hosting-Lösung erstellten Datensätze, werden aufgelistet.
+   >Alle fehlenden Einträge, also die noch nicht in Ihrer Hosting-Lösung erstellten Einträge, werden aufgelistet.
 
-1. Adobe generiert einen SSL-CDN-URL-Validierungsdatensatz. Kopieren Sie diesen Validierungsdatensatz in Ihre Hosting-Plattform. Wenn Sie diesen Datensatz ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“ und klicken Sie dann auf **[!UICONTROL Senden]**.
+1. Adobe generiert einen SSL-CDN-URL-Validierungseintrag. Kopieren Sie diesen Validierungseintrag in Ihre Hosting-Plattform. Wenn Sie diesen Eintrag ordnungsgemäß in Ihrer Hosting-Lösung erstellt haben, aktivieren Sie das Kontrollkästchen „Ich bestätige…“ und klicken Sie dann auf **[!UICONTROL Senden]**.
 
    ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden, um den Validierungsdatensatz zu erstellen und die Subdomain-Konfiguration später zu übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
+   >Sie können die Schaltfläche **[!UICONTROL Als Entwurf speichern]** verwenden, um den Validierungseintrag zu erstellen und die Subdomain-Konfiguration später zu übermitteln. Anschließend können Sie die Delegierung der Subdomain fortsetzen, indem Sie sie über die Liste der Subdomains öffnen.
 
 1. Nachdem die CNAME-Subdomain-Delegierung übermittelt wurde, wird die Subdomain in der Liste mit dem Status **[!UICONTROL In Verarbeitung]** angezeigt. Weiterführende Informationen zum Status von Subdomains finden Sie in [diesem Abschnitt](access-subdomains.md).
 
@@ -164,7 +164,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
 
    >[!NOTE]
    >
-   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungsdatensatz nicht in Ihrer Hosting-Lösung erstellen.
+   >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
 
 Nach der Validierung des Datensatzes und der Installation des Zertifikats erstellt Adobe automatisch den PTR-Eintrag für die CNAME-Subdomain. [Weitere Informationen](ptr-records.md)
 
@@ -188,7 +188,7 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
    * **SPF-Eintrag**: Sender Policy Framework-Eintrag – Listet die IPs der E-Mail-Server auf, die E-Mails von der Subdomain senden können.
    * **DKIM-Datensatz**: DomainKeys Identified Mail-Standardeintrag – Verwendet eine Verschlüsselung mit öffentlichem und privatem Schlüssel zur Authentifizierung der Nachricht, um Spoofing zu verhindern.
    * **A**: Standard-IP-Zuordnung.
-   * **CNAME**: Ein CNAME-Datensatz bzw. Datensatz mit einem kanonischen Namen ist ein DNS-Datensatz, der einem echten oder kanonischen Domain-Namen einen Aliasnamen zuordnet.
+   * **CNAME**: Ein CNAME-Eintrag bzw. Eintrag mit einem kanonischen Namen ist ein DNS-Eintrag, der einem echten oder kanonischen Domain-Namen einen Aliasnamen zuordnet.
 
 1. **Erstellen von Tracking- und Mirror-URLs**: Wenn die Domain email.example.com ist, lautet die Tracking-/Mirror-Domain data.email.example.com. Sie wird durch die Installation des SSL-Zertifikats gesichert.
 
@@ -204,6 +204,6 @@ Die folgenden Prüfungen und Aktionen werden durchgeführt, bis die Subdomain ve
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Datensätze zu verweisen.
+Erfahren Sie, wie Sie eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

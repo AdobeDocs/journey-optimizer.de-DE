@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
 
-Tags können auch dazu dienen, Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
+Tags können auch dazu dienen, Angebote in Angebotssammlungen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

@@ -5,7 +5,7 @@ role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >id="ajo_admin_subdomain_lp"
 >title="Zuweisen einer Subdomain der Landingpage"
 >abstract="Sie müssen eine Subdomain für Ihre Landingpages konfigurieren, da Sie diese Subdomain zum Erstellen einer Landingpage-Voreinstellung benötigen. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine neue Subdomain konfigurieren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html?lang=de#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
 Um [Landingpage-Voreinstellungen](lp-presets.md) erstellen zu können, müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
 
@@ -124,4 +124,4 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 
-   Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungsdatensatz in Ihrer Hosting-Lösung nicht erstellen können.
+   Beachten Sie, dass die Subdomain als **[!UICONTROL Fehlgeschlagen]** markiert wird, wenn Sie den Validierungseintrag in Ihrer Hosting-Lösung nicht erstellen können.

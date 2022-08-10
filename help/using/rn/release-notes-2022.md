@@ -3,7 +3,7 @@ title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 100%
 
@@ -281,7 +281,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um im einheitlichen Profilschema unnötige Felder zu vermeiden, ist das Schema „Journey-Schrittereignisse“ nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie es aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
 * Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
@@ -374,7 +374,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
 * Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
@@ -431,7 +431,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 

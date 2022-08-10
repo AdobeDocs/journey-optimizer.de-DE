@@ -21,13 +21,13 @@ Mit der Angebotsbibliothek können Sie Platzierungen und Angebote zentral erstel
 >
 >Wenn beim Zugriff auf die Angebotsbibliothek oder einige ihrer Funktionen Probleme auftreten, wenden Sie sich an einen Administrator, um zu ermitteln, ob Ihnen die erforderlichen Berechtigungen gewährt wurden. Siehe [Gewähren des Zugriffs auf das Entscheidungs-Management](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
-Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallback-Angebote zu verwalten, diese in Kollektionen zu organisieren und durch Erstellen von Entscheidungen bereitzustellen:
+Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallback-Angebote zu verwalten, diese in Sammlungen zu organisieren und durch Erstellen von Entscheidungen bereitzustellen:
 
-* **[!UICONTROL Übersicht]**: Neu bei [!DNL Offer Decisioning]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Kollektionen zu beginnen. Wenn Sie bereits mit [!DNL Offer Decisioning] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Kollektionen und Entscheidungen. Siehe [Übersicht](#overview).
+* **[!UICONTROL Übersicht]**: Neu bei [!DNL Offer Decisioning]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL Offer Decisioning] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. Siehe [Übersicht](#overview).
 
 * **[!UICONTROL Angebote]**: Greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu oder erstellen Sie neue Angebote. Siehe [Erstellen eines Angebots](../offer-library/creating-personalized-offers.md) und [Erstellen eines Fallback-Angebots](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Kollektionen]**: Erstellen und verwalten Sie statische und dynamische Angebotskollektionen. Siehe [Info zu Angebotskollektionen](../offer-library/creating-collections.md).
+* **[!UICONTROL Sammlungen]**: Erstellen und verwalten Sie statische und dynamische Angebotssammlungen. Siehe [Info zu Angebotssammlungen](../offer-library/creating-collections.md).
 
 * **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. Siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md).
 
@@ -51,7 +51,7 @@ Wenn Sie mit [!DNL Offer Decisioning] noch nicht vertraut sind, führt Sie die R
 
 ![](../assets/overview_onboarding.png)
 
-Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Kollektionen zu beginnen.
+Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Sammlungen zu beginnen.
 
 Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert, Angebotsentscheidungen zu erstellen.
 
@@ -61,11 +61,11 @@ Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert
 >
 >Die wichtigsten Schritte zum Erstellen und Verwenden von Angeboten in einer Entscheidung werden in [diesem Abschnitt](../offer-library/key-steps.md) beschrieben.
 
-Wenn Sie mit [!DNL Offer Decisioning] besser vertraut sind und bereits mindestens eine Angebotsentscheidung erstellt haben, zeigt die Registerkarte **[!UICONTROL Übersicht]** Ihre neuesten Angebote, Kollektionen und Entscheidungen an.
+Wenn Sie mit [!DNL Offer Decisioning] besser vertraut sind und bereits mindestens eine Angebotsentscheidung erstellt haben, zeigt die Registerkarte **[!UICONTROL Übersicht]** Ihre neuesten Angebote, Sammlungen und Entscheidungen an.
 
 Klicken Sie auf ein Angebot oder eine Entscheidung, um direkt auf die Details des ausgewählten Elements zuzugreifen.
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Alle anzeigen]**, um auf die Angebots-, Kollektions- oder Entscheidungslisten zuzugreifen.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Alle anzeigen]**, um auf die Angebots-, Sammlungs- oder Entscheidungslisten zuzugreifen.
 
 ![](../assets/overview_view-all.png)
 
