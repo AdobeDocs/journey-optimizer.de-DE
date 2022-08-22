@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 65%
+ht-degree: 78%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 65%
 
 Der globale Campaign-Bericht ist direkt über Ihre Kampagne mit der Variablen **[!UICONTROL Globale Ansicht]** Schaltfläche.
 
-Die Kampagne **[!UICONTROL Gesamtbericht]** wird mit den folgenden Registerkarten angezeigt:
+Die Seite **[!UICONTROL Globaler Bericht]** in Campaign wird mit den folgenden Registerkarten angezeigt:
 
 * [Campaign](#campaign-global)
 * [E-Mail](#email-global)
 * [Push-Benachrichtigung](#push-global)
 
-Die Kampagne **[!UICONTROL Gesamtbericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
+Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
-## Tab Kampagne {#campaign-global}
+## Registerkarte „Kampagne“ {#campaign-global}
 
-### Bereitstellung {#delivery-global}
+### Versand {#delivery-global}
 
 ![](assets/campaign_report_global_1.png)
 
-Die **[!UICONTROL Kampagnenstatistiken]** -Widget beschreibt die wichtigsten Informationen zu Ihrer Kampagne:
+Das Widget **[!UICONTROL Kampagnenstatistiken]** enthält die wichtigsten Informationen zu Ihrer Kampagne:
 
-* **[!UICONTROL Eingegebene Profile]**: Anzahl der Profile, die die Journey gestartet haben.
+* **[!UICONTROL Eingetretene Profile]**: Anzahl der Profile, die mit der Journey begonnen haben.
 
-* **[!UICONTROL Ausgeführte Aktionen]**: Gesamtzahl der einmaligen Bereitstellungen einer Aktion auf der Journey.
+* **[!UICONTROL Bereitgestellte Aktionen]**: Gesamtzahl der eindeutigen Fälle, in denen eine Aktion in der Journey ausgeführt wurde.
 
-* **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Male, wenn eine Aktion auf der Journey fehlgeschlagen ist, in Bezug auf die Gesamtzahl der einmaligen Bereitstellungen einer Aktion.
+* **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Fälle, in denen eine Aktion in der Journey fehlgeschlagen ist, verglichen mit der Gesamtzahl der eindeutigen Fälle, in denen eine Aktion erfolgreich ausgeführt wurde.
 
 ### Ziele {#objectives-global}
 
@@ -51,7 +51,7 @@ Die **[!UICONTROL Kampagnenstatistiken]** -Widget beschreibt die wichtigsten Inf
 
 Die **[!UICONTROL Ziele]** im Kampagnenbericht können Sie die Berichte Ihrer Sendungen durch Targeting einer bestimmten Metrik besser anpassen.
 
-Die **[!UICONTROL Ziele]** aufgeführt sind, die **[!UICONTROL Datensätze]** die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste der integrierten **[!UICONTROL Ziele]** ist verfügbar, Sie können jedoch Ihre eigene hinzufügen, indem Sie neue **[!UICONTROL Datensatz]**. Weiterführende Informationen finden Sie in dieser Dokumentation.
+Die **[!UICONTROL Ziele]** aufgeführt sind, die **[!UICONTROL Datensätze]** die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste der integrierten **[!UICONTROL Ziele]** ist verfügbar, Sie können jedoch Ihre eigene hinzufügen, indem Sie neue **[!UICONTROL Datensatz]**. Eine detaillierte Anleitung finden Sie in diesem Abschnitt [Abschnitt](reporting-configuration.md).
 
 Nach Auswahl der Ziele, für die Sie die Zielgruppe bestimmen möchten, werden die beiden **[!UICONTROL Leistungsübersicht]** und **[!UICONTROL Kampagnenziel]** -Widgets bieten eine detaillierte Zusammenfassung Ihrer Versandleistung.
 
@@ -89,13 +89,13 @@ Die Tabelle enthält die folgenden Metriken:
 
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie unter [diese Seite](../campaigns/get-started-experiment.md#interpret-results).
 
-## Registerkarte „E-Mail“  {#email-global}
+## Registerkarte „E-Mail“ {#email-global}
 
-In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Email]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten E-Mail-Sendungen aufgeführt.
+Im **[!UICONTROL globalen Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
 
-* **[!UICONTROL Targeting]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -113,7 +113,7 @@ Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versand
 
 * **[!UICONTROL Weitere Zustellversuche]**: Anzahl der E-Mails in der Warteschlange für weitere Zustellversuche.
 
-* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 Die **[!UICONTROL E-Mail - Trackingstatistiken]** -Widget enthält die für die Empfängeraktivität für Ihren Versand verfügbaren Daten:
 
@@ -127,9 +127,9 @@ Die **[!UICONTROL E-Mail - Trackingstatistiken]** -Widget enthält die für die 
 
 * **[!UICONTROL Einzelklicks]**: Die Anzahl der Empfänger, die auf Inhalt in einer E-Mail geklickt haben.
 
-* **[!UICONTROL Eindeutige Klickrate]**: Prozentsatz der Benutzer, die mit dem Versand interagiert haben
+* **[!UICONTROL Rate von Einzelklicks]**: Prozentsatz der Benutzer, die mit der versendeten Nachricht interagiert haben.
 
-* **[!UICONTROL Kündigungen von Abos]**: Zahl der Klicks auf den Abmelde-Link.
+* **[!UICONTROL Abmeldungen]**: Zahl der Klicks auf den Abmelde-Link.
 
 * **[!UICONTROL Beschwerden wegen Spam]**: Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.
 
@@ -163,7 +163,7 @@ Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabell
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie unter [diese Seite](../messages/send-time-optimization.md).
+>Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../messages/send-time-optimization.md).
 
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
@@ -176,13 +176,13 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in A
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-## Registerkarte „Push-Benachrichtigung“  {#push-global}
+## Registerkarte „Push-Benachrichtigung“ {#push-global}
 
-In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Push]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten Push-Nachrichten aufgeführt.
+Im **[!UICONTROL globalen Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Sendungen von Push-Benachrichtigungen, die in Ihrer Kampagne durchgeführt wurden.
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
 
-* **[!UICONTROL Targeting]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
+* **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -198,7 +198,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält
 
 * **[!UICONTROL Fehlerrate]**: Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.
 
-* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 Die **[!UICONTROL Push-Benachrichtigung – Tracking-Statistik]** enthält die verfügbaren Daten zur Aktivität der Empfänger für Ihren Versand:
 
@@ -226,12 +226,12 @@ Das Diagramm **[!UICONTROL Zusammenfassung der Push-Benachrichtigung]** enthält
 
 >[!NOTE]
 >
->Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie unter [diese Seite](../messages/send-time-optimization.md).
+>Die Widgets **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]** sind nur verfügbar, wenn die Option „Sendezeitoptimierung“ für Ihren Versand aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../messages/send-time-optimization.md).
 
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
-* **[!UICONTROL Öffnungen]**: Gibt an, wie oft die Sendung in einem Versand geöffnet wurde.
+* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
 * **[!UICONTROL Aktionen]**: Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, z. B. Klick auf Schaltfläche oder Abbruch.
 
 Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in Abhängigkeit von der Versandmethode an: optimiert oder normal.
@@ -249,6 +249,6 @@ Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTR
 
 * [Erste Schritte mit Kampagnen](get-started-with-campaigns.md)
 * [Erstellen einer Kampagne](create-campaign.md)
-* [API-gesteuerte Kampagnen erstellen](api-triggered-campaigns.md)
+* [Erstellen von API-ausgelösten Kampagnen](api-triggered-campaigns.md)
 * [Ändern oder Stoppen einer Kampagne](modify-stop-campaign.md)
 * [Live-Bericht einer Kampagne](campaign-live-report.md)
