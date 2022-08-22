@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: 7c801e7a63d3e5c899549fa0c0dd5d48f9fbc245
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1129'
 ht-degree: 98%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 98%
    + Berichte {#reports}
       + [Live-Bericht einer Kampagne](using/campaigns/campaign-live-report.md)
       + [Globaler Kampagnenbericht](using/campaigns/campaign-global-report.md)
+      + [Berichtskonfiguration](using/campaigns/reporting-configuration.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
