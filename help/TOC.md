@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1124'
 ht-degree: 98%
 
 ---
@@ -37,16 +37,13 @@ ht-degree: 98%
 + Kampagnen {#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
-   + [Ändern oder Stoppen einer Kampagne](using/campaigns/modify-stop-campaign.md)
+   + [Verwalten von Live-Kampagnen](using/campaigns/modify-stop-campaign.md)
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
       + [Statistische Berechnungen](using/campaigns/experiment-calculations.md)
-   + [Triggern von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
-   + Berichte {#reports}
-      + [Live-Bericht einer Kampagne](using/campaigns/campaign-live-report.md)
-      + [Globaler Kampagnenbericht](using/campaigns/campaign-global-report.md)
       + [Berichtskonfiguration](using/campaigns/reporting-configuration.md)
+   + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 98%
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
+      + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
       + [Zugreifen auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
+      + [Campaign Global-Bericht](using/reports/campaign-global-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
       + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
    + Journey-Berichte {#reports}

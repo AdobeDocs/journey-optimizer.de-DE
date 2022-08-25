@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 5%
@@ -94,7 +95,7 @@ Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Comme
    >
    >Wenn Sie einen Datensatz ausgewählt haben, der kein Ereignistyp ist, können Sie nicht fortfahren.
 
-Beim Erstellen von Versandberichten können Sie jetzt Daten aus diesem Datensatz verwenden, um zusätzliche benutzerdefinierte Informationen abzurufen und Ihre Berichte besser anzupassen. [Weitere Informationen](campaign-global-report.md#objectives-global)
+Beim Erstellen von Versandberichten können Sie jetzt Daten aus diesem Datensatz verwenden, um zusätzliche benutzerdefinierte Informationen abzurufen und Ihre Berichte besser anzupassen. [Weitere Informationen](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 21%
+source-wordcount: '294'
+ht-degree: 70%
 
 ---
 
@@ -20,39 +20,45 @@ ht-degree: 21%
 >title="E-Mail-Erstellung"
 >abstract="Definieren Sie Ihre E-Mail-Parameter in drei einfachen Schritten."
 
+E-Mails können erstellt werden:
 
-Einmal [E-Mail hinzugefügt](get-started-content.md) in der Journey <!--or a campaign--> und grundlegende Einstellungen festgelegt haben, können Sie die E-Mail konfigurieren und ihren Inhalt definieren.
+* In **Journey**: Nachdem Sie eine E-Mail-Aktivität in Ihrer Journey hinzugefügt und grundlegende Einstellungen definiert haben, verwenden Sie die **[!UICONTROL Aktionen: Email]** den Inhalt der Push-Benachrichtigungen erstellen.
 
-## E-Mail-Inhalt definieren{#email-content}
+   Weiterführende Informationen zur Konfiguration Ihrer Journey finden Sie in diesem Abschnitt [page](../building-journeys/journey-gs.md).
 
-Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** zum Entwerfen Ihrer E-Mail.
+   ![](assets/email-edit-content.png)
 
-![](assets/email-edit-content.png)
+* In **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie E-Mail als Aktion aus und definieren Sie die grundlegenden Einstellungen.
 
-Verwendung [!DNL Journey Optimizer] Email Designer zu [E-Mail von Grund auf neu erstellen](../design/create-email-content.md). Wenn Sie über einen vorhandenen Inhalt verfügen, können Sie [ihn in Email Designer importieren](../design/existing-content.md)oder [eigenen Inhalt kodieren](../design/code-content.md) in [!DNL Journey Optimizer].
+   Weiterführende Informationen zur Kampagnenkonfiguration finden Sie in diesem Abschnitt [page](../campaigns/create-campaign.md#configure).
 
-[!DNL Journey Optimizer] enthält einen Satz von [integrierte Vorlagen](../design/email-templates.md) um euch zu stoppen. Jede E-Mail kann auch als Vorlage gespeichert werden.
+   ![](assets/email_campaign.png)
 
-Weitere Informationen zum E-Mail-Design finden Sie in [diesem Abschnitt](../design/design-emails.md).
+## Definieren des E-Mail-Inhalts{#email-content}
 
-Verwendung [!DNL Journey Optimizer] Ausdruckseditor zur Personalisierung Ihrer Nachrichten mit Profildaten. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+Verwenden Sie [!DNL Journey Optimizer] Email Designer, um die [E-Mail von Grund auf neu zu erstellen](../design/create-email-content.md). Wenn Sie über einen vorhandenen Inhalt verfügen, können Sie [ihn in Email Designer importieren](../design/existing-content.md) oder [Ihren eigenen Inhalt in [!DNL Journey Optimizer] kodieren](../design/code-content.md).
+
+[!DNL Journey Optimizer] enthält einen Satz von [integrierte Vorlagen](../design/email-templates.md) um dir beim Start zu helfen. Jede E-Mail kann auch als Vorlage gespeichert werden.
+
+Verwenden Sie den [!DNL Journey Optimizer]-Ausdruckseditor, um Ihre Nachrichten mit den Daten der Profile zu personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
 ## E-Mail-Tracking{#email-tracking}
 
-Wenn Sie das Verhalten Ihrer Empfänger über Öffnungen und/oder Klicks auf Links verfolgen möchten, aktivieren Sie die folgenden Optionen: **[!UICONTROL E-Mail-Öffnungen]** und **[!UICONTROL E-Mail anklicken]**. Weitere Informationen zu Tracking finden Sie in [diesem Abschnitt](../design/message-tracking.md).
+Wenn Sie das Verhalten der Empfänger in Bezug auf Öffnungen und/oder Klicks auf Links verfolgen möchten, aktivieren Sie die folgenden Optionen: **[!UICONTROL Geöffnete E-Mails]** und **[!UICONTROL Klick auf E-Mail]**.
 
+Weitere Informationen zu Tracking finden Sie in [diesem Abschnitt](../design/message-tracking.md).
 
-## E-Mail-Inhalt validieren{#email-content-validate}
+## Validieren des E-Mail-Inhalts{#email-content-validate}
 
-Im Vorschau-Bereich auf der linken Seite können Sie das Rendering Ihrer E-Mail steuern und die Personalisierungseinstellungen mit Testprofilen überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
+Im Abschnitt „Vorschau“ auf der linken Seite können Sie das E-Mail-Rendering und die Personalisierungseinstellungen mithilfe von Testprofilen überprüfen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../design/preview.md).
 
 ![](assets/messages-simple-preview.png)
 
 
-Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
+Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einige davon sind einfache Warnhinweise, andere können die Verwendung der Nachricht verhindern. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
 
 
 >[!NOTE]
 >
->Die **[!UICONTROL Aus E-Mail]** und **[!UICONTROL Name des Empfängers]** durch die **[!UICONTROL Oberfläche]** die ausgewählt wurde, wenn [Nachricht erstellen](get-started-content.md).
+>Die Felder **[!UICONTROL Von E-Mail]** und **[!UICONTROL Name des Absenders]** werden durch die **[!UICONTROL Oberfläche]** bestimmt, die beim [Erstellen der Nachricht](get-started-content.md) ausgewählt wurde.
 
