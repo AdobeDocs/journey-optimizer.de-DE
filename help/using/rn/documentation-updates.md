@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 97%
+source-wordcount: '1814'
+ht-degree: 96%
 
 ---
 
@@ -15,15 +15,17 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## August 2022 {#august-2022}
 
-* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen In-line-Messaging-Fluss widerzuspiegeln. [Weitere Informationen](../configuration/frequency-rules.md#apply-frequency-rule)
-* Im Abschnitt Erste Schritte mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Weitere Informationen](../landing-pages/get-started-lp.md#video)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 22. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen In-line-Messaging-Fluss widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
+* Im Abschnitt Erste Schritte mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
+* Für Journey, die die Aktivität Segment lesen verwenden, wurde eine Einschränkung hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md)
+* Die Seite mit den Operatoren für den Ausdruckseditor wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
 
 ## Juli 2022 {#july-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Juli &#39;22 wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Der Abschnitt **Kanaloberflächen einrichten** wurde präzisiert und mit Links zu der Seite aktualisiert, die beschreibt, wie der SMS-Kanal konfiguriert wird. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
 * In den Journey-Eigenschaften ist die Option **Profil-Zeitzone** jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * In der Aktivität **Warten** ist die Option **Festes Datum** nicht mehr verfügbar. [Weitere Informationen](../building-journeys/wait-activity.md)
 * Es wurden weitere Informationen über die Option **Inkrementelles Lesen** in der Aktivität **Segment lesen** hinzugefügt. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Es wurden Empfehlungen für die Bedingungsart **Profilobergrenze** hinzugefügt. [Weitere Informationen](../building-journeys/condition-activity.md#profile_cap)
@@ -65,8 +67,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Videos zu den Funktionen des Entscheidungs-Managements wurden entsprechend der Benutzeroberfläche von Journey Optimizer aktualisiert. [Weitere Informationen](../offers/get-started/starting-offer-decisioning.md)
 * Der Abschnitt **Erste Schritte mit Datensätzen** wurde verbessert, es wird nun detailliert beschrieben, wie auf Datensätze zugegriffen werden kann und wie diese erstellt werden. [Weitere Informationen](../start/get-started-datasets.md)
 * Links zu Hilfehandbüchern und Versionshinweisen zu Produkten wurden zur Homepage der **Dokumentation zu Adobe Journey Optimizer** hinzugefügt. [Weitere Informationen](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=de)
-* Der Abschnitt **Nachrichtenvorgaben erstellen** weist nun darauf hin, dass Sie mit der Vorgabenerstellung nicht fortfahren können, wenn sich der ausgewählte IP-Pool in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
-* Der Abschnitt zum **URL-Tracking** bei Nachrichtenvorgaben wurde aktualisiert, um geringfügige Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../configuration/channel-surfaces.md#url-tracking)
+* Der Abschnitt **Nachrichtenvoreinstellungen erstellen** weist nun darauf hin, dass Sie mit der Voreinstellungserstellung nicht fortfahren können, wenn sich der ausgewählte IP-Pool in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* Der Abschnitt zum **URL-Tracking** bei Nachrichtenvoreinstellungen wurde aktualisiert, um geringfügige Änderungen an der Benutzeroberfläche widerzuspiegeln. [Weitere Informationen](../configuration/channel-surfaces.md#url-tracking)
 
 ## März 2022 {#march-2022}
 
@@ -156,7 +158,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt „Überwachen von Nachrichtenvoreinstellungen“ wurde mit möglichen Ursachen für eine fehlgeschlagene Durchführung von Voreinstellungen sowie den Fehlerdetails ergänzt. [Mehr dazu](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Der Abschnitt zum Zeitraum für weitere Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für weitere Zustellversuche bei E-Mails in den Nachrichtenvoreinstellungen anpassen können. [Mehr dazu](../configuration/retries.md#retry-duration)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen Ein-Klick-Opt-out-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](../messages/consent.md#one-click-opt-out-link)
-* Der Abschnitt „Subdomain zuweisen“ wurde mit detaillierteren Informationen zum Validierungsprozess von Adobe aktualisiert. [Mehr dazu](../configuration/delegate-subdomain.md#subdomain-validation)
+* Der Abschnitt „Subdomain delegieren“ wurde mit detaillierteren Informationen zum Validierungsprozess von Adobe aktualisiert. [Mehr dazu](../configuration/delegate-subdomain.md#subdomain-validation)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domains manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Die Abschnitte [Zugriff auf die Unterdrückungsliste](../configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](../configuration/retries.md) wurden entsprechend der neuen Benutzeroberfläche aktualisiert.
 * Der neue Fluss zum Hinzufügen und Konfigurieren von Darstellungen beim Erstellen eines Angebots wurde dokumentiert. [Mehr dazu](../offers/offer-library/creating-personalized-offers.md#representations)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 80%
+source-wordcount: '807'
+ht-degree: 92%
 
 ---
 
@@ -19,25 +19,25 @@ Berechtigungen, Produkteinschränkungen und die Leistung betreffende Limits sind
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-## Limits bei Nachrichten {#message-guardrails}
+## Beschränkungen bei Nachrichten {#message-guardrails}
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail  hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
 
-## Limits bei der Entscheidungsverwaltung {#offer-guardrails}
+## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsgarantien und statische Beschränkungen für die Entscheidungsverwaltung werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+Leistungsbeschränkungen und statische Beschränkungen für das Entscheidungs-Management werden im Abschnitt [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
 
 
-## Limits bei Landingpages {#lp-guardrails}
+## Beschränkungen bei Landingpages {#lp-guardrails}
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
 * Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
-## Journey-Limits {#journeys-guardrails}
+## Beschränkungen bei Journeys {#journeys-guardrails}
 
 ### Allgemeine Aktionen {#general-actions-g}
 
@@ -45,8 +45,8 @@ Leistungsgarantien und statische Beschränkungen für die Entscheidungsverwaltun
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* In Journey gibt es heute eine technische Einschränkung, die verhindert, dass ein Profil mehrmals im selben Journey vorhanden ist. Ein Profil kann weiterhin eine Journey (basierend auf einer Einstellung) eingeben, kann dies jedoch erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat.
-* In den meisten Fällen kann ein Profil nicht mehrmals im selben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies aber erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
+* Derzeit gibt es eine technische Einschränkung bei Journeys, die verhindert, dass ein Profil mehrmals zur gleichen Zeit in ein und derselben Journey vorhanden sein kann. Ein Profil kann (je nach Einstellung) immer noch in eine Journey eintreten, kann dies aber erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat.
+* In den meisten Fällen kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
 
 ### Journey-Versionen {#journey-versions-g}
 
@@ -67,15 +67,15 @@ Leistungsgarantien und statische Beschränkungen für die Entscheidungsverwaltun
 ### Ereignisse {#events-g}
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
-* Geschäftsereignisse können nicht zusammen mit Einzelereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
+* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
 
 ### Datenquellen {#data-sources-g}
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 
-### Journey und Profilerstellung {#journeys-limitation-profile-creation}
+### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenz ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
+In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenzzeit ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
 
 Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
 
@@ -88,3 +88,4 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 ### Segment lesen {#read-segment-g}
 
 * Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
+* Bei Journey, die die Aktivität Segment lesen verwenden, kann die maximale Anzahl von Journey exakt zur gleichen Zeit beginnen. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit Segment lesen, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.

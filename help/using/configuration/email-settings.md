@@ -1,21 +1,21 @@
 ---
 title: Konfigurieren von E-Mail-Einstellungen
-description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf der Kanaloberflächenebene konfigurieren.
+description: Erfahren Sie, wie Sie E-Mail-Einstellungen auf Kanaloberflächen-Ebene konfigurieren.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 63%
+ht-degree: 96%
 
 ---
 
 # Konfigurieren von E-Mail-Einstellungen {#email-settings}
 
-Definieren Sie die E-Mail-Einstellungen im entsprechenden Bereich der Kanaloberfläche (d. h. der Nachrichtenvorgabe). Erfahren Sie, wie Sie Oberflächen in erstellen [diesem Abschnitt](channel-surfaces.md).
+Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt zur Konfiguration der Kanaloberfläche (d. h. Nachrichtenvoreinstellung). In [diesem Abschnitt](channel-surfaces.md) erfahren Sie, wie Sie eine Oberfläche erstellen.
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ Definieren Sie die E-Mail-Einstellungen im entsprechenden Bereich der Kanaloberf
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definieren der E-Mail-Kategorie"
->abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der zu sendenden Nachrichten aus: Marketing für Werbenachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionsnachrichten für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
+>abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der zu sendenden E-Mails aus: Marketing für Werbe-E-Mails, für die die Benutzerzustimmung erforderlich ist, oder Transaktionen für nicht kommerzielle E-Mails, die auch in bestimmten Kontexten an abgemeldete Profile gesendet werden können."
 
-Im **E-MAIL-TYP** wählen Sie den Nachrichtentyp aus, der mit der Oberfläche gesendet werden soll: **Marketing** oder **Transactional**.
+Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **Marketing** oder **Transaktion**.
 
-* Auswählen **Marketing** für Werbe-E-Mail: Diese Nachrichten erfordern die Zustimmung des Benutzers.
+* Wählen Sie **Marketing** für Werbe-E-Mails. Diese Nachrichten erfordern das Einverständnis des Benutzenden.
 
-* Auswählen **Transactional** für nicht kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+* Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
 
 >[!CAUTION]
 >
->**Transactional** E-Mails können an Profile gesendet werden, die sich von Marketingnachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+>**Transaktions**-E-Mails können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
-Wann [Nachricht erstellen](../messages/get-started-content.md#create-new-message)müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
+Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md#create-new-message), müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
 ## Subdomain und IP-Pool {#subdomains-and-ip-pools}
 
@@ -48,11 +48,11 @@ Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vo
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Sie können nicht mit der Oberflächenerstellung fortfahren, solange sich der ausgewählte IP-Pool unter [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Verarbeitung]** -Status) und noch nie mit der ausgewählten Subdomain verknüpft wurde. Andernfalls wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Wenn dies der Fall ist, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool über die **[!UICONTROL Erfolg]** Status.
+Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. In diesem Fall wird weiterhin die älteste Version der IP-Pool-/Subdomain-Zuordnung verwendet. Um dies zu vermeiden, speichern Sie die Oberfläche als Entwurf und versuchen Sie es erneut, sobald der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat.
 
 >[!NOTE]
 >
->Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
+>Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains delegieren](delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
 
 ## List-Unsubscribe {#list-unsubscribe}
 
@@ -72,13 +72,13 @@ Der Abmelde-Link besteht aus zwei Elementen:
 
 * Einer **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
 
-   In [!DNL Journey Optimizer], ist die Abmelde-E-Mail-Adresse die Standardeinstellung. **[!UICONTROL Mailto (unsubscribe)]** Adresse, die auf der Kanaloberfläche angezeigt wird, basierend auf der [ausgewählte Subdomain](#subdomains-and-ip-pools).
+   Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
 
-   Wenn Sie eine [Ausschluss-Link mit einem Klick](../messages/consent.md#one-click-opt-out) einer auf dieser Oberfläche erstellten Nachricht entspricht die Abmelde-URL der für den Abmelde-Link mit einem Klick definierten URL.
+   Wenn Sie einen [Ein-Klick-Opt-out-Link](../messages/consent.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Na
 
 ## Kopfzeilenparameter{#email-header}
 
-Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-Adressen an, die mit der Art der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
+Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Oberfläche gesendeten Nachrichtentyp verknüpft sind.
 
 >[!CAUTION]
 >
@@ -100,11 +100,11 @@ Im **[!UICONTROL KOPFZEILENPARAMETER]** Geben Sie die Absendernamen und E-Mail-A
 
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
-* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
+* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
 
 * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
+* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der delegierten Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
 
 * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
 
@@ -120,8 +120,8 @@ Wenn Sie alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfang
 
 * Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adress-Domain für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen darf.
 * Ihren Sandbox-Namen.
-* Der Oberflächenname, für den die Weiterleitungs-E-Mail-Adresse verwendet wird.
-* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]** Adresse, die auf der Kanaloberfläche eingestellt ist.
+* Der Name der Oberfläche, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
+* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]**-Adresse, die auf der Ebene der Kanaloberfläche definiert ist.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4
 
 Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu die **[!UICONTROL BCC-E-MAIL]** optionale Funktion auf der Kanaloberfläche. [Weitere Informationen](bcc-email.md)
+Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail-Adresse]**. [Weitere Informationen](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,10 +142,10 @@ Aktivieren Sie dazu die **[!UICONTROL BCC-E-MAIL]** optionale Funktion auf der K
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Anpassen des Wiederholungszeitraumes"
->abstract="Wiederholungen werden für 3,5 Tage (84 Stunden) durchgeführt, wenn ein E-Mail-Versand aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
+>abstract="Wiederholungen werden 3,5 Tage lang (84 Stunden) durchgeführt, wenn ein E-Mail-Versand aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=de" text="Über weitere Zustellversuche"
 
-Sie können die **E-MAIL-WIEDERHOLUNGSPARAMETER**.
+Sie können die **E-MAIL-WIEDERHOLUNGSPARAMETER** konfigurieren.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,7 +171,7 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 >title="Vorschau der URL-Tracking-Parameter"
 >abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
-Sie können **[!UICONTROL URL-TRACKING-PARAMETER]** , um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
+Sie können **[!UICONTROL URL-TRACKING-PARAMETER]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
 
 Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
@@ -192,13 +192,13 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Sie können auch jede **[!UICONTROL Wert]** -Feld mithilfe des [Ausdruckseditor](../personalization/personalization-build-expressions.md). Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die von Ihnen ausgewählten Kontextattribute auswählen und/oder den Text direkt bearbeiten.
+Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten kontextbezogenen Attribute und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->Sie können Textwerte eingeben und mithilfe von Kontextattributen aus dem Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextbezogenen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

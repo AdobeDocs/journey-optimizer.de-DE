@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 91%
+source-wordcount: '1242'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 91%
 >title="Aktivität „Segment lesen“"
 >abstract="Mit der Aktivität „Segment-Lesen“ können Sie alle Kontakte, die zu einem Adobe Experience Platform-Segment gehören, in eine Journey eintreten lassen. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen."
 
-Verwenden Sie die **Segment lesen** -Aktivität, damit alle Einzelanwender eines Segments in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
+Verwenden Sie die Aktivität **Segment lesen**, damit alle Personen eines Segments in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
 Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim Anwendungsfall [Segmente erstellen](../segment/about-segments.md) erstellt wurde. Mit der Aktivität „Segment lesen“ können Sie alle Kontakte, die zu diesem Segment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
+>
+>Bei Journey, die die Aktivität Segment lesen verwenden, kann die maximale Anzahl von Journey exakt zur gleichen Zeit beginnen. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit Segment lesen, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
 >
 >Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Benachrichtigungen für einfache Journeys, die die Aktivität „Segment lesen“ und eine einfache Push-Benachrichtigung enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
 
@@ -82,7 +84,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Inkrementelles Lesen** Option: wenn eine Journey mit einer wiederkehrenden **Segment lesen** zum ersten Mal ausgeführt wird, geben alle Profile im Segment die Journey ein. Beim nächsten Auftreten geben alle Profile erneut die Journey ein, selbst wenn sie bereits darin waren. Die alte Instanz des Profils auf der Journey wird angehalten und eine neue Instanz wird erstellt. Die **Inkrementelles Lesen** -Option können Sie nach dem ersten Vorkommen die Kontakte auswählen, die das Segment seit der letzten Ausführung des Journey aufgerufen haben.
+   Option **Inkrementelles Lesen**: Wenn eine Journey mit einem wiederkehrenden Schritt vom Typ **Segment lesen** zum ersten Mal ausgeführt wird, treten alle Profile im Segment in die Journey ein. Beim nächsten Vorkommen treten alle Profile erneut in die Journey ein, selbst wenn sie bereits darin waren. Die alte Instanz des Profils in der Journey wird gestoppt und eine neue Instanz wird erstellt. Mit der Option **Inkrementelles Lesen** haben Sie die Möglichkeit, nach dem ersten Vorkommen nur die Personen anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind.
 
 <!--
 

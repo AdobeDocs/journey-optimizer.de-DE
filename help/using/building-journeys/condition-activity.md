@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 95%
+source-wordcount: '1359'
+ht-degree: 99%
 
 ---
 
@@ -113,9 +113,9 @@ Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss 
 
 Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreitet.
 
-    >[!NOTE]
-    >
-    >Es wird empfohlen, eine Profilbegrenzung mit hohem Wert zu definieren. Die Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Obergrenze erreicht, steigt nur mit zunehmender Obergrenze. Bei kleinen Zahlen (z. B. einer Obergrenze von 50) stimmen die Zahlen nicht immer überein, da die Begrenzung möglicherweise nicht erreicht wird, bevor Profile einen anderen Pfad verwenden.
+>[!NOTE]
+>
+>Es wird empfohlen, eine Profilbegrenzung mit hohem Wert zu definieren. Je höher diese Obergrenze angesetzt ist, desto höher ist auch Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Obergrenze erreicht. Ist diese Anzahl niedrig (z. B. eine Obergrenze von 50), stimmen die Zahlen nicht immer überein, da die Obergrenze möglicherweise nicht erreicht wird, bevor die Profile einem anderen Pfad folgen.
 
 Mit diesem Bedingungstyp kann das Volumen Ihrer Sendungen erhöht werden. Siehe diesen [Anwendungsfall](ramp-up-deliveries-uc.md).
 

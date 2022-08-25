@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 93%
+source-wordcount: '1673'
+ht-degree: 97%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="Informationen zur Angebotspriorität "
+>title="Informationen zur Angebotspriorität"
 >abstract="In diesem Feld können Sie die Prioritätseinstellungen für das Angebot festlegen. Die Priorität ist eine Zahl, die verwendet wird, um Angebote, die alle Einschränkungen wie Berechtigung, Datum und Begrenzungen erfüllen, in eine Rangfolge zu bringen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Priorität festlegen"
+>title="Festlegen der Priorität"
 >abstract="Mit der Priorität können Sie den Rang eines Angebots gegenüber anderen definieren, wenn der Benutzer für mehrere Angebote infrage kommt. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten."
 
 Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebot angezeigt werden soll.
@@ -63,8 +63,8 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Berechtigung definieren"
->abstract="Standardmäßig ist jedes Profil berechtigt, das Angebot zu unterbreiten. Sie können jedoch Segmente oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
+>title="Definieren der Qualifikation"
+>abstract="Standardmäßig kann jedem Profil das Angebot unterbreitet werden. Sie können jedoch Segmente oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -96,9 +96,13 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
    >
    >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
 
-Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
+
+>[!NOTE]
+>
+>Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die das aktuelle Wetter ≥ 80 Grad sein muss.
 
 ### Verwenden von Segmenten vs. Entscheidungsregeln {#segments-vs-decision-rules}
 
@@ -127,8 +131,8 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Nutzungsbegrenzung"
->abstract="Um zu vermeiden, dass Ihre Kunden übermäßig angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
+>title="Verwenden der Begrenzung"
+>abstract="Um zu vermeiden, dass Ihre Kunden und Kundinnen zu oft angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
@@ -183,7 +187,7 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
->abstract="Wenn auf dieses Angebot eine Begrenzung angewendet wird, kann dies bei einer Änderung des Start- oder Enddatums Auswirkungen haben."
+>abstract="Wenn auf ein Angebot eine Begrenzung angewendet wird, kann sich die Änderung des Anfangs- oder Enddatums auf das Angebot auswirken."
 
 Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da dies Auswirkungen auf die Begrenzung haben kann, wenn die folgenden Voraussetzungen gegeben sind:
 
@@ -195,7 +199,7 @@ Sie müssen beim Ändern des Datums eines Angebots mit Vorsicht vorgehen, da die
 >
 >In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
-Die Begrenzung pro Profil speichert die Begrenzungszahlen für jedes Profil. Wenn Sie das Anfangs- und Enddatum eines genehmigten Angebots ändern, kann sich der Begrenzungswert für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
+Wenn die Begrenzung für einzelne Profile festgelegt ist, wird für jedes Profil die Anzahl der Nachrichten erfasst. Wenn Sie das Anfangs- und Enddatum eines genehmigten Angebots ändern, kann sich der Begrenzungswert für einige Profile entsprechend den unten beschriebenen Szenarien auswirken.
 
 ![](../assets/offer-capping-change-date.png)
 

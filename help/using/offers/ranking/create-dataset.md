@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 86%
 
 ---
 
@@ -28,8 +28,11 @@ Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem
 
    >[!NOTE]
    >
-   >    Weitere Informationen zu XDM-Schemas und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de).
+   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie im Abschnitt [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
+1. Aus dem **[!UICONTROL Feldergruppen]** auf der linken Seite, wählen Sie **[!UICONTROL Hinzufügen]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. Geben Sie im Feld **[!UICONTROL Suche]** „Interaktion mit Vorschlägen“ ein und wählen Sie die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aus.
 
@@ -37,7 +40,7 @@ Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem
 
    >[!CAUTION]
    >
-   >    Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrer Rangfolgestrategie verwenden.
+   >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrer Rangfolgestrategie verwenden.
 
 1. Klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
 
@@ -46,11 +49,11 @@ Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem
    >[!NOTE]
    >Die Feldergruppen wurden früher als Mixins bezeichnet.
 
-1. Geben Sie einen Namen ein und speichern Sie das Schema.<!--How do you edit the fields in this new schema? Examples?-->
+1. Geben Sie einen Namen ein und speichern Sie das Schema.
 
 >[!NOTE]
 >
->    Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas).
+>Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target=&quot;_blank&quot;}.
 
 Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '712'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,9 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+   >
+   >Beachten Sie, dass Profilschätzungen nicht verfügbar sind, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die das aktuelle Wetter ≥ 80 Grad sein muss.
 
    ![](../assets/offer-constraints-example.png)
 
@@ -77,7 +79,7 @@ Sobald Eignungsregeln und Begrenzungen definiert wurden, wird eine Zusammenfassu
 
 1. Stellen Sie sicher, dass alles ordnungsgemäß konfiguriert ist.
 
-1. Sie können Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken **[!UICONTROL Aktualisieren]** , um Daten zu aktualisieren.
+1. Sie können Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
    ![](../assets/offer-summary-estimate.png)
 

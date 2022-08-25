@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7c801e7a63d3e5c899549fa0c0dd5d48f9fbc245
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 98%
 
 ---
@@ -264,7 +264,7 @@ ht-degree: 98%
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Über die Unterdrückungsliste](using/reports/suppression-list.md)
+      + [Unterdrückungsliste](using/reports/suppression-list.md)
 + Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -373,10 +373,10 @@ ht-degree: 98%
          + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/configuration/push-gs.md)
          + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/configuration/push-configuration.md)
       + Konfigurieren von E-Mails {#email-configuration}
-         + Zuweisen von Subdomains {#delegate-subdomains}
+         + Delegieren von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
-            + [Zuweisen einer Subdomain](using/configuration/delegate-subdomain.md)
-            + [Zugreifen auf zugewiesene Subdomains](using/configuration/access-subdomains.md)
+            + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
+            + [Zugreifen auf delegierte Subdomains](using/configuration/access-subdomains.md)
          + Verwalten von Aktionen, die sich auf Subdomains beziehen {#subdomain-related-actions}
             + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
             + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)

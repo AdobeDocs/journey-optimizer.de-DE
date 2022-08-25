@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 86%
+source-wordcount: '652'
+ht-degree: 66%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [Provider-Einstellungen in Journey Optimizer integrieren](#create-api) und [eine SMS-Oberfläche (d. h. eine SMS-Voreinstellung) einrichten](#message-preset-sms). Diese Schritte müssen von einem [Adobe Journey Optimizer-Systemadministrator](../start/path/administrator.md) durchgeführt werden.
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Der SMS-Kanal ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch und Twilio integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Dienste anbieten.  Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Dienst-ID zu erhalten, über das Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können. Ihre Nutzung von SMS-Diensten unterliegt zusätzlichen Bedingungen des jeweiligen SMS-Anbieters. Da Sinch und Twilio Drittanbieterprodukte sind, die Adobe Journey Optimizer-Benutzern über eine Integration zur Verfügung stehen, müssen sich die Nutzer von Sinch oder Twilio bei allen Fragen und Anfragen im Zusammenhang mit SMS-Diensten an den jeweiligen SMS-Anbieter wenden, um Unterstützung zu erhalten. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
 
 ## Erstellen neuer API-Anmeldeinformationen {#create-api}
 
@@ -27,6 +27,11 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 >id="ajo_admin_sms_api"
 >title="SMS-Anbieter konfigurieren"
 >abstract="Wählen Sie Ihren Anbieter aus und geben Sie Ihre SMS-API-Anmeldeinformationen ein."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="SMS-Anbieter konfigurieren"
+>abstract="Wählen Sie die für Ihren SMS-Anbieter konfigurierten API-Anmeldeinformationen aus."
 
 Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfigurieren:
 

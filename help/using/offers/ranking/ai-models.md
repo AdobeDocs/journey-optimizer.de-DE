@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 
 ## KI-Modelltypen {#ai-model-types}
 
-Zwei Arten von KI-Modellen sind in verfügbar [!DNL Journey Optimizer]:
+In [!DNL Journey Optimizer] sind zwei Arten von KI-Modellen verfügbar:
 
-* **Modelle zur automatischen Optimierung** Ziel ist die Bereitstellung von Angeboten, die die von Geschäftskunden festgelegten Renditen (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote. [Weitere Informationen](auto-optimization-model.md)
+* Mit einem **Modell mit automatischer Optimierung** werden Angebote geschaltet, die darauf abzielen, den von Business-Kunden festgelegten Gewinn (KPIs) zu maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote. [Weitere Informationen](auto-optimization-model.md)
 
-* **Personalisierungsmodelle** ermöglichen es Ihnen, Geschäftsziele zu definieren und mithilfe von Kundendaten geschäftsorientierte Modelle zu schulen, um personalisierte Angebote bereitzustellen und KPIs zu maximieren. [Weitere Informationen](personalized-optimization-model.md)
+* **Personalisierungsmodelle** ermöglichen es Ihnen, Geschäftsziele zu definieren und mithilfe von Kundendaten geschäftsorientierte Modelle zu trainieren, um personalisierte Angebote bereitzustellen und KPIs zu optimieren. [Weitere Informationen](personalized-optimization-model.md)
 
->[!CAUTION]
->
->Die Verwendung personalisierter Optimierungsmodelle ist derzeit nur für ausgewählte Benutzer in einem frühen Zugriff verfügbar.
+   >[!CAUTION]
+   >
+   >Einigen ausgewählten Benutzenden wird derzeit vorab Zugriff auf die Verwendung von Modellen zur personalisierten Optimierung gewährt.
 
 ## Erstellen eines KI-Modells {#create-ai-model}
 

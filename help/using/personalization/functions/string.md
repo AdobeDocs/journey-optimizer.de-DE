@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b0f8d97feb7a7f650395d3b91e26d2f837a274a9
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 99%
+source-wordcount: '1685'
+ht-degree: 100%
 
 ---
 
 # Zeichenfolgen-Funktionen {#string}
 
-Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgen-Funktionen verwenden.
+Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgenfunktionen verwenden können.
 
 ## Binnenmajuskel {#camelCase}
 
@@ -478,7 +478,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Maskieren (#mask)
+## Maskieren {#mask}
 
 Die Funktion `Mask` wird verwendet, um einen Teil einer Zeichenfolge durch „X“-Zeichen zu ersetzen.
 
