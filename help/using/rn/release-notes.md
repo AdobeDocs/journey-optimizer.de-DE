@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 50%
@@ -32,7 +32,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <td>
 <p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei Verwendung von Journey sind Aktionen so konzipiert, dass sie nacheinander ausgeführt werden. Bei Kampagnen werden Aktionen gleichzeitig, entweder sofort oder basierend auf einem festgelegten Zeitplan ausgeführt. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Erfahren Sie, wie Sie eine Kampagne im <a href="../campaigns/get-started-with-campaigns.md">Detaillierte Dokumentation</a> und <a href="https://video.tv.adobe.com/v/345376">Feature Video</a>.
+<p>Erfahren Sie, wie Sie eine Kampagne im <a href="../campaigns/get-started-with-campaigns.md">Detaillierte Dokumentation</a> und <a href="https://video.tv.adobe.com/v/346680">Feature Video</a>.
 </td>
 </tr>
 </tbody>
