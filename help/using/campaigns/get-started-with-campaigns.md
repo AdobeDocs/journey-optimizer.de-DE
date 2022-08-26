@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 72%
+source-wordcount: '334'
+ht-degree: 71%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 72%
 Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment mithilfe mehrerer Kanäle bereitstellen. Im Gegensatz zu Journeys, bei denen Aktionen nacheinander ausgeführt werden, führen Kampagnen Aktionen gleichzeitig aus, entweder sofort oder nach einem festgelegten Zeitplan.
 
 Auf diese Weise können Sie einfache Ad-hoc-Batch-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Mitteilungen, rechtliche Hinweise oder Richtlinienaktualisierungen senden.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ Kampagnen können mehrere Status aufweisen:
 >[!NOTE]
 >
 >Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde (siehe [Ändern einer Kampagne](modify-stop-campaign.md#modify)).
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie Ihre erste Kampagne erstellen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
