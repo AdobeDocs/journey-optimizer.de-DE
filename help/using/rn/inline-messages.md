@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Die Migration wird für jede Region nachts und in Form von mehreren Iterationen 
 
 Warum brauchen wir mehrere Iterationen?
 
-Während einer Iteration sehen wir uns alle Journeys an und migrieren sie nach Möglichkeit. Es gibt Fälle, in denen wir nicht automatisch migrieren möchten: wenn die Journey live ist (d. h., es kann noch Profile enthalten). In diesen Fällen bitten wir Sie, eine Aktion durchzuführen. Diese Journeys, die bei der vorherigen Iteration nicht migriert werden konnten, werden dann bei der nächsten Iteration migriert.
+Während einer Iteration sehen wir uns alle Journeys an und migrieren sie nach Möglichkeit. Es gibt Fälle, in denen wir nicht automatisch migrieren möchten – nämlich, wenn die Journey live ist (denn es können noch Profile darin enthalten sein). In diesen Fällen bitten wir Sie, eine Aktion durchzuführen. Diese Journeys, die bei der vorherigen Iteration nicht migriert werden konnten, werden dann bei der nächsten Iteration migriert.
 
 ## FAQs {#faq}
 
@@ -303,7 +303,7 @@ Die Migration ist abgeschlossen, wenn das Banner nicht mehr angezeigt wird. Weit
 
 ### Wie wirkt sich dies auf die Berechtigungen im Zusammenhang mit Nachrichten aus?
 
-Die Inline-Authoring-Funktion wirkt sich auf Berechtigungen aus. Jede Berechtigung im Zusammenhang mit Nachrichten, z. B. [!DNL View Messages] oder [!DNL Manage Messages]automatisch in die mit der Journey-Funktion verknüpften Berechtigungen aufgenommen.
+Die Inline-Authoring-Funktion wirkt sich auf Berechtigungen aus. Jede nachrichtenbezogene Berechtigung, wie z. B. [!DNL View Messages] oder [!DNL Manage Messages], wird automatisch zu der mit der Funktion „Journeys“ verbundenen Berechtigungen hinzugefügt.
 
 Weiterführende Informationen finden Sie auf dieser [Seite](../administration/ootb-product-profiles.md).
 

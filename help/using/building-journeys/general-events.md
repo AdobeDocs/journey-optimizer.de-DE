@@ -10,7 +10,7 @@ exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Allgemeine Ereignisse"
->abstract="Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten. Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Die Ereigniskonfiguration wird von einem Data Engineer vorgenommen und kann nicht bearbeitet werden."
+>abstract="Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten. Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzufügen. Die Ereigniskonfiguration wird von einem Datentechniker vorgenommen und kann nicht bearbeitet werden."
 
 Mit Hilfe von Ereignissen können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten.
 

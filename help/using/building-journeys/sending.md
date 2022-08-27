@@ -1,10 +1,10 @@
 ---
-title: 'Starten der Journey-Ausführung '
+title: Starten der Journey-Ausführung
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Sie können Ihre Journey mit Testprofilen testen. Dieser Schritt wird zur Validierung Ihrer Einstellungen und Nachrichten empfohlen.
 
-Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md).
+Weiterführende Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md).
 
 ## Aktivieren Ihrer Journey
 
@@ -23,7 +23,7 @@ Damit Sie Ihre Journey aktivieren können, muss sie bereits veröffentlicht sein
 
 ![](assets/jo-journeyuc2_32bis.png)
 
-Weitere Informationen finden Sie in diesem [Abschnitt](publishing-the-journey.md).
+Weiterführende Informationen finden Sie in diesem [Abschnitt](publishing-the-journey.md).
 
 
 Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reporting-Tools überwachen, um ihre Effektivität zu messen.
@@ -34,9 +34,9 @@ Nach der Veröffentlichung können Sie Ihre Journey mit den dedizierten Reportin
 
 ## Nachrichten senden {#send-messages}
 
-Wenn für Ihre Nachricht ein Inhalt definiert ist, kann sie über eine [Journey](journey.md).
+Wenn für Ihre Nachricht Inhalte definiert wurden, kann sie über eine [Journey](journey.md) gesendet werden.
 
-Nach dem Versand einer Nachricht können Sie die Ausführung über mehrere Indikatoren überwachen. [Weitere Informationen zur Berichterstellung](../global-report.md).
+Nach dem Versand einer Nachricht können Sie die Ausführung mithilfe mehrerer Indikatoren überwachen. [Weitere Informationen über Berichte](../global-report.md).
 
 ## Verzögerter Nachrichtenversand {#schedule-messages}
 

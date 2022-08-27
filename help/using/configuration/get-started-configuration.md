@@ -9,7 +9,7 @@ topic: Administration
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktion
 
 Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfigurationsschritte durchlaufen:
 
-1. **Nachrichten und Kanäle konfigurieren**: Definieren Sie Kanaloberflächen, passen Sie die Nachrichten an und passen Sie sie an.
+1. **Nachrichten und Kanäle konfigurieren**: Definieren Sie Kanaloberflächen und passen Sie die Nachrichten an.
 
    * Erstellen Sie Kanaloberflächen, um alle technischen Parameter zu konfigurieren, die zum Versand von Nachrichten erforderlich sind. [Weitere Informationen](channel-surfaces.md)
 
@@ -32,10 +32,10 @@ Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfi
 
    <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
 
-   * Konfigurieren Sie Ihre Instanz für den Versand von SMS (derzeit nur für eine Reihe von Organisationen verfügbar - eingeschränkte Verfügbarkeit). [Weitere Informationen](sms-configuration.md)
+   * Konfigurieren Sie Ihre Instanz für den Versand von SMS (derzeit nur für eine Reihe von Organisationen verfügbar – eingeschränkte Verfügbarkeit). [Weitere Informationen](sms-configuration.md)
 
 
-1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](about-subdomain-delegation.md)
+1. **Subdomains delegieren**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Weitere Informationen](about-subdomain-delegation.md)
 
    ![](assets/subdomain.png)
 
@@ -47,7 +47,7 @@ Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfi
 
    ![](assets/admin-menu.png)
 
-   * Die **Datenquelle** -Konfiguration können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Journey verwendet werden. [Weitere Informationen](../datasource/about-data-sources.md)
+   * Mit der Konfiguration von **Datenquellen** können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Journeys abzurufen. [Weitere Informationen](../datasource/about-data-sources.md)
 
    * Mithilfe von **Ereignissen** können Sie Ihre Journeys einheitlich auslösen, um Nachrichten in Echtzeit an die Kontakte zu senden, die in die Journey eintreten. In der Konfiguration von Ereignissen konfigurieren Sie die in den Journeys erwarteten Ereignisse. Die eingehenden Ereignisdaten werden mit dem Experience-Datenmodell (XDM) von Adobe normalisiert. Die Ereignisse stammen von Streaming-Aufnahme-APIs für authentifizierte und nicht authentifizierte Ereignisse (z. B. Adobe Mobile SDK-Ereignisse). [Weitere Informationen](../event/about-events.md)
 

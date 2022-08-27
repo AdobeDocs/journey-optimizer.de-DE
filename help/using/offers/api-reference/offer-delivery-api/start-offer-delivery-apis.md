@@ -9,15 +9,15 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit APIs für die Angebotsbereitstellung {#about-decisioning-apis}
 
-Sie können Angebote entweder mithilfe der **Decisioning**- oder **Edge Decisioning**-API bereitstellen. Darüber hinaus wird die **Batch Decisioning** Mit der API können Sie Angebote an alle Profile in einem bestimmten Segment in einem einzigen Aufruf senden. Der Angebotsinhalt für jedes Profil im Segment wird in einen Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
+Sie können Angebote entweder mithilfe der **Decisioning**- oder **Edge Decisioning**-API bereitstellen. Darüber hinaus ermöglicht Ihnen die **Batch Decisioning**-API, Angebote an alle Profile in einem bestimmten Segment durch einen einzigen Aufruf zu senden. Der Angebotsinhalt für jedes Profil im Segment wird in einen Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
 
-Auf dieser Seite finden Sie Informationen zu spezifischen Funktionen, die mit der Variablen **Entscheidungsfindung** und **Edge Decisioning** APIs. Zwar ermöglichen es Ihnen beide, Ihren Kunden Angebote zu unterbreiten, wir empfehlen jedoch, für eingehende Anwendungsfälle möglichst die **Edge Decisioning**-API zu verwenden, um auf Ihrer Plattform eine bessere Latenz und besseren Durchsatz sicherzustellen.
+Auf dieser Seite finden Sie Informationen zu spezifischen Funktionen, die mit den **Decisioning**- und **Edge Decisioning**-APIs verfügbar sind. Zwar ermöglichen es Ihnen beide, Ihren Kunden Angebote zu unterbreiten, wir empfehlen jedoch, für eingehende Anwendungsfälle möglichst die **Edge Decisioning**-API zu verwenden, um auf Ihrer Plattform eine bessere Latenz und besseren Durchsatz sicherzustellen.
 
 |  | Anfragen/Sek. | Latenz |
 |---|---|---|

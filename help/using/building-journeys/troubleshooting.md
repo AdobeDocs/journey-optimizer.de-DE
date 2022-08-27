@@ -9,7 +9,7 @@ exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,6 +83,6 @@ Prüfen Sie folgende Punkte:
 Wenn Personen zwar der Journey folgen, aber nicht die vorgesehen Nachrichten erhalten, können Sie Folgendes prüfen:
 
 * [!DNL Journey Optimizer] hat die Anfrage zum Senden der Nachricht korrekt berücksichtigt. Ein Business-Anwender kann auf die zu sendende Nachricht zugreifen und prüfen, ob der Zeitpunkt der letzten Ausführung mit der Ausführungszeit Ihrer Journey übereinstimmt. Außerdem kann er die neuesten eingegangenen API-Aufrufe/-Ereignisse prüfen.
-* [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. Überprüfen Sie die Journey-Berichterstellung, um sicherzustellen, dass keine Fehler auftreten.
+* [!DNL Journey Optimizer] hat die Nachricht erfolgreich gesendet. Überprüfen Sie die Journey-Berichte, um sicherzustellen, dass keine Fehler aufgetreten sind.
 
 Bei einer Nachricht, die über eine benutzerdefinierte Aktion gesendet wird, kann während des Journey­-Tests nur geprüft werden, ob der Systemaufruf der benutzerdefinierten Aktion zu einem Fehler führt oder nicht. Wenn der Aufruf an das externe System, das mit der benutzerdefinierten Aktion verknüpft ist, nicht zu einem Fehler führt, aber auch nicht zum Senden der Nachricht, sollten Sie das externe System überprüfen.

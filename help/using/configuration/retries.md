@@ -9,7 +9,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Der **Zeitraum für weitere Zustellversuche** ist der Zeitraum, in dem alle E-Ma
 
 Standardmäßig werden weitere Zustellversuche **3,5 Tage** (oder **84 Stunden**) lang ab dem Zeitpunkt durchgeführt, zu dem die Nachricht zur E-Mail-Warteschlange hinzugefügt wurde.
 
-Um jedoch sicherzustellen, dass Wiederholungsversuche nicht mehr durchgeführt werden, wenn sie nicht mehr benötigt werden, können Sie diese Einstellung bei der Erstellung oder Bearbeitung einer [Kanaloberfläche](channel-surfaces.md) (d. h. Nachrichtenvorgabe), die auf den E-Mail-Kanal angewendet wird.
+Um jedoch sicherzustellen, dass Zustellversuche nur so lange durchgeführt werden, wie sie benötigt werden, können Sie diese Einstellung Ihren Anforderungen entsprechend ändern, wenn Sie eine [Kanaloberfläche](channel-surfaces.md) (d. h. Nachrichtenvoreinstellung) einrichten oder bearbeiten, die auf den E-Mail-Kanal angewendet wird.
 
 Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Transaktions-E-Mail, die sich auf das Zurücksetzen eines Passworts bezieht und einen nur für einen Tag gültigen Link enthält, auf 24 Stunden festlegen. Analog dazu könnten Sie für einen Midnight Sale den Zeitraum für weitere Zustellversuche auf 6 Stunden festlegen.
 
@@ -61,5 +61,5 @@ Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Trans
 >
 >Der Zeitraum für weitere Zustellversuche darf 84 Stunden nicht überschreiten. Der Mindestzeitraum für weitere Zustellversuche beträgt 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
 
-Erfahren Sie, wie Sie die E-Mail-Wiederholungsparameter beim Erstellen einer Kanaloberfläche in [diesem Abschnitt](channel-surfaces.md#create-channel-surface).
+In [diesem Abschnitt](channel-surfaces.md#create-channel-surface) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Kanaloberfläche definieren.
 

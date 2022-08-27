@@ -9,7 +9,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking auf E-Mail-Meldungsebene aktivieren, indem Sie die Option **[!UICONTROL E-Mail-Öffnungen]** und/oder **[!UICONTROL E-Mail anklicken]** Optionen beim [Nachricht erstellen](../messages/get-started-content.md).
+Sie können das Tracking aktivieren, indem Sie die Optionen **[!UICONTROL Geöffnete E-Mails]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie [Ihre Nachricht erstellen](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Sie können das Tracking auf E-Mail-Meldungsebene aktivieren, indem Sie die Opti
 
 Auf diese Weise können Sie das folgende Verhalten Ihrer Empfänger verfolgen:
 
-* **[!UICONTROL E-Mail-Öffnungen]**: Nachrichten, die geöffnet wurden.
-* **[!UICONTROL E-Mail anklicken]**: Klicks auf Links in einer E-Mail.
+* **[!UICONTROL Geöffnete E-Mails]**: Nachrichten, die geöffnet wurden.
+* **[!UICONTROL Klick in E-Mail]**: Klicks auf Links in einer E-Mail.
 
 ## Links einfügen {#insert-links}
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](../messages/consent.md#opt-out-management).
 
-   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](#mirror-page).
+   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf der Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvorgabe) und beim [Erstellen der Nachricht](../messages/get-started-content.md#create-new-message) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der [Erstellung der Nachricht](../messages/get-started-content.md#create-new-message) definiert.
 
 ## Link zu einer Mirrorseite {#mirror-page}
 
@@ -122,4 +122,4 @@ Mit [Email Designer](create-email-content.md) können Sie die verfolgten URLs ve
    * **[!UICONTROL Mirrorseite]**: Diese URL wird als Mirror-Seite behandelt.
    * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Die Berichterstattung über Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Gesamtbericht](../reports/global-report.md).
+Das Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Globalen Bericht](../reports/global-report.md) verfügbar.

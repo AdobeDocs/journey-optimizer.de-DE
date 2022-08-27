@@ -8,19 +8,19 @@ exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
 # Datenschutzanfragen {#track-changes}
 
-Adobe Experience Platform **Privacy Service** bietet eine RESTful-API und eine Benutzeroberfläche, mit der Sie Kundendatenanfragen verwalten können. Mit Privacy Service können Sie Anfragen zum Zugriff auf und zur Löschung personenbezogener Kundendaten aus Adobe Experience Cloud-Anwendungen einreichen, um die automatische Einhaltung gesetzlicher und organisatorischer Datenschutzbestimmungen zu erleichtern.
+Der **Privacy Service** von Adobe Experience Platform stellt eine RESTful-API und eine Benutzeroberfläche bereit, mit der Sie Anfragen zu Kundendaten verwalten können. Mit Privacy Service können Sie Anfragen zum Zugreifen auf und Löschen von personenbezogene(n) Kundendaten aus Adobe Experience Cloud-Programmen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
 
-Datenschutzanfragen können über die **[!UICONTROL Anforderungen]** Menü.
+Datenschutzanfragen können über das Menü **[!UICONTROL Anfragen]** erstellt und verwaltet werden.
 
 ![](assets/requests.png)
 
-Weitere Informationen zum Privacy Service und zum Erstellen und Verwalten von Datenschutzanfragen finden Sie in der Adobe Experience Platform-Dokumentation:
+Weitere Informationen zu Privacy Service und zum Erstellen und Verwalten von Datenschutzanfragen finden Sie in der Adobe Experience Platform-Dokumentation:
 
 * [Übersicht über den Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
 * [Verwalten von Datenschutzaufträgen in der Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de)

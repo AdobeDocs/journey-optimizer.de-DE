@@ -9,7 +9,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Warteaktivität"
->abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: Dauer und benutzerdefiniert."
+>abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
 Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
@@ -34,7 +34,7 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 
 Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
-Seien Sie vorsichtig, wenn Sie mehrere Warten -Aktivitäten in einer Journey verwenden, da das globale Journey-Timeout 30 Tage beträgt, d. h., ein Profil wird 30 Tage nach seiner Eingabe immer aus der Journey ausgeschlossen.
+Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen.
 
 ## Wartezeit mit Dauer{#duration}
 

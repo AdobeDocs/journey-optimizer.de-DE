@@ -1,6 +1,6 @@
 ---
-title: Zugriff auf zugewiesene Subdomains
-description: Erfahren Sie, wie Sie auf zugewiesene Subdomains zugreifen können.
+title: Zugriff auf delegierte Subdomains
+description: Erfahren Sie, wie Sie auf delegierte Subdomains zugreifen können.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,13 +9,13 @@ exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Zugreifen auf zugewiesene Subdomains {#access-delegated-subdomains}
+# Zugreifen auf delegierte Subdomains {#access-delegated-subdomains}
 
-Alle zugewiesenen Subdomains werden im **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** Menü. Es stehen Filter zur Verfügung, mit denen Sie die Liste eingrenzen können (Datum der Zuweisung, Benutzer oder Status).
+Alle delegierten Subdomains werden im Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste eingrenzen können (Datum der Zuweisung, Benutzer oder Status).
 
 ![](assets/subdomain-list.png)
 

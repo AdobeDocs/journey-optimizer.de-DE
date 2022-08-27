@@ -11,7 +11,7 @@ exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '1512'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer Adobe-Support-Person.
 
 ## Was ist ein Inhaltsexperiment?
 

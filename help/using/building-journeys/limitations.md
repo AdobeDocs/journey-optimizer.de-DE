@@ -21,7 +21,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 * Es gibt keine Nachrichtendrosselung beim Versand. 
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
-* Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren. 
+* Mit dem integrierten **Reaktionsereignis** können Sie auf vordefinierte Aktionen reagieren (siehe diese [Seite](../building-journeys/reaction-events.md)). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
@@ -32,7 +32,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
 
-## Benutzerdefinierte Aktionen Einschränkungen
+## Benutzerdefinierte Aktionen  Einschränkungen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
@@ -46,13 +46,13 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
 
-## Datenquellen Einschränkungen
+## Datenquellen  Einschränkungen
 
-* Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen.Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+* Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 
 ## Journeys, die gleichzeitig mit der Erstellung eines Profils beginnen {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenz ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
+In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenzzeit ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
 
 Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
 

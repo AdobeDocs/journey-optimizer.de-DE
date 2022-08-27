@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Erstellen und Verwalten von Assets durch [!DNL Assets Essentials]{#experience-manager-assets}
+# Erstellen und Verwalten von Assets  durch [!DNL Assets Essentials]{#experience-manager-assets}
 
 ## Erste Schritte mit [!DNL Assets Essentials] {#get-started-assets-essentials}
 

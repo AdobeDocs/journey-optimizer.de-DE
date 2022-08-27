@@ -9,13 +9,13 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Journey-Live-Bericht {#journey-live-report}
 
-Auf einen Journey-Live-Bericht können Sie direkt von Ihrer Journey mit der **[!UICONTROL Bericht anzeigen]** Schaltfläche.
+Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 
 ![](assets/report_journey.png)
 
@@ -54,7 +54,7 @@ Die Widgets **[!UICONTROL Aktion, die während der letzten 24 Stunden ausgeführ
 
 * **[!UICONTROL Fehler in Aktionen]**: Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.
 
-## Registerkarte „E-Mail“  {#email-live}
+## Registerkarte „E-Mail“ {#email-live}
 
 In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Sendungen, die in Ihrer Journey gesendet wurden.
 
@@ -70,7 +70,7 @@ Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Inf
 
 Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UICONTROL E-Mail-Zusammenfassung]** zeigen, wie erfolgreich Ihr Versand war:
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
@@ -116,15 +116,15 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 
 * **[!UICONTROL Angebotsklicks]**: Gibt an, wie oft ein Angebot in einem Versand angeklickt wurde.
 
-## Registerkarte „Push-Benachrichtigung“  {#push-live}
+## Registerkarte „Push-Benachrichtigung“ {#push-live}
 
-In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
+In Ihrem **[!UICONTROL Journey-Live-Bericht]** enthält die Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey durchgeführt wurden.
 
 ![](assets/report_push_1.png)
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
@@ -158,7 +158,7 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
 
-* **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 

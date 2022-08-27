@@ -9,15 +9,15 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit der Konfiguration von Push-Benachrichtigungen {#get-started-push}
 
-Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind. Erfahren Sie, wie Sie Push-Benachrichtigungen erstellen in [diese Seite](../messages/create-push.md).
+Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind. Auf [dieser Seite](../messages/create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.
 
-Schritte zum Konfigurieren des Push-Kanals in [!DNL Adobe Journey Optimizer] sind ausführlich unter [diese Seite](push-configuration.md).
+Die Schritte zum Konfigurieren des Push-Benachrichtigungs-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
 
 ## Push-Benachrichtigungen und [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 1. Registrierung Ihrer gebrandeten Mobile App (Android oder iOS) mit den Apple-APNs und Google FCM-Push-Messaging-Services
 1. Messaging-Services generieren ein Push-Token, also eine Kennung, die von [!DNL Adobe Journey Optimizer] verwendet wird, um das jeweilige Gerät mit einer Push-Benachrichtigung anzusprechen.
 1. Das zuvor generierte Push-Token wird an Adobe Experience Platform übergeben und mit dem Echtzeit-Kundenprofil synchronisiert. Dies erfolgt vorkonfiguriert mit einem einfach zu integrierenden Client-SDK.
-1. Push-Nachrichten werden in [!DNL Adobe Journey Optimizer], werden Push-Nachrichten für eine Kanaloberfläche erstellt (d. h. eine Nachrichtenvorgabe).
+1. Push-Benachrichtigungen werden in [!DNL Adobe Journey Optimizer] verfasst und entsprechend einer Kanaloberfläche (d. h. Nachrichtenvoreinstellung) erstellt.
 1. Push-Benachrichtigungen können über die Orchestrierungs-Arbeitsfläche in Journeys aufgenommen werden.
 1. Nach der Veröffentlichung der Journey werden Kundenprofile, die auf Journey-Bedingungen basieren, für den Empfang von Push-Benachrichtigungen qualifiziert. In diesem Schritt werden Push-Messaging-Payloads personalisiert.
 1. Personalisierte Push-Payloads werden an einen internen Push-Messaging-Versand-Service weitergeleitet.

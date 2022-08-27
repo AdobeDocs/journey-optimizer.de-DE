@@ -9,7 +9,7 @@ exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ In diesem Beispiel wird die Feldergruppe **[!UICONTROL Einverständnis und Präf
 Gehen Sie wie folgt vor, um diese Journey zu konfigurieren:
 
 1. Erstellen Sie eine Journey, die mit der Aktivität **[!UICONTROL Lesen]** beginnt. [Weitere Informationen](journey-gs.md).
-1. Hinzufügen einer **[!UICONTROL Email]** Aktionsaktivität auf die Journey. [Weitere Informationen](journeys-message.md).
-1. Im **[!UICONTROL E-Mail-Parameter]** Abschnitt **[!UICONTROL Email]** Aktivitätseinstellungen ersetzen die standardmäßige E-Mail-Adresse (`PersonalEmail.adress`) mit der E-Mail-Adresse der Abonnenten der Liste:
+1. Fügen Sie der Journey die Aktionsativität **[!UICONTROL E-Mail]** hinzu. [Weitere Informationen](journeys-message.md).
+1. Ersetzen Sie im Abschnitt **[!UICONTROL E-Mail-Parameter]** der Aktivitätseinstellungen der **[!UICONTROL E-Mail]** die standardmäßige E-Mail-Adresse (`PersonalEmail.adress`) durch die E-Mail-Adresse der Abonnenten auf der Liste:
 
    1. Klicken Sie auf das Symbol **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem Feld **[!UICONTROL Adresse]** und klicken Sie auf das Symbol **[!UICONTROL Bearbeiten]**.
 

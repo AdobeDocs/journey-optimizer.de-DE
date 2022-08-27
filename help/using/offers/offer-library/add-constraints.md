@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
 source-wordcount: '1673'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
    >
    >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target=&quot;_blank&quot;} erstellen, können Sie sie in einem Angebot nicht nutzen.
 
-Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

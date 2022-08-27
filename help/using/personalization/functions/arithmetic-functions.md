@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Arithmetische Funktionen  {#maths}
+# Arithmetische Funktionen {#maths}
 
 Mit arithmetischen Funktionen lassen sich einfache Berechnungen für Werte durchführen
 

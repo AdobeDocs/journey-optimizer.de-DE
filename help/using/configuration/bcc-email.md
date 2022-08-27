@@ -1,6 +1,6 @@
 ---
 title: Verwenden einer BCC-E-Mail-Adresse
-description: Erfahren Sie, wie Sie BCC-E-Mails auf der Kanaloberflächen-Ebene konfigurieren
+description: Erfahren Sie, wie Sie BCC-E-Mail-Adressen auf der Ebene der Kanaloberfläche konfigurieren.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1142'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definieren einer BCC-E-Mail-Adresse"
->abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass die BCC-Adress-Domain nicht mit der Subdomain übereinstimmen sollte, die Adobe zugewiesen wurde. Diese Funktion ist optional."
+>abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass die BCC-Adress-Domain nicht mit der Subdomain übereinstimmen sollte, die an Adobe delegiert wurde. Diese Funktion ist optional."
 
 Sie können eine identische Kopie (oder Blindkopie) einer von [!DNL Journey Optimizer] gesendeten E-Mail an einen BCC-Posteingang senden. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zu Zwecken der Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
 
 ## Aktivieren von BCC-E-Mails {#enable-bcc}
 
-So aktivieren Sie die **[!UICONTROL BCC-E-Mail]** Geben Sie die gewünschte E-Mail-Adresse in das entsprechende Feld der [Kanaloberfläche](channel-surfaces.md) (d. h. Nachrichtenvorgabe). Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
+Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das dafür vorgesehene Feld der [Kanaloberfläche](channel-surfaces.md) (d. h. der Nachrichtenvoreinstellung) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der an Adobe delegierten Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
 
 >[!NOTE]
 >
->Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über ausreichend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die über die aktuelle Kanaloberfläche gesendet werden.
+>Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Kanaloberfläche gesendet werden.
 >
 >Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
+Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden als BCC an die von Ihnen eingegebene BCC-E-Mail-Adresse gesendet. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
 
 >[!CAUTION]
 >
->Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Daher aktivieren Sie sie nur auf den Oberflächen, die für kritische Kommunikation verwendet werden, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
+>Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Oberflächen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
-Die Einstellung der BCC-E-Mail-Adresse wird sofort gespeichert und auf oberflächlicher Ebene verarbeitet. Wenn Sie [eine neue Nachricht erstellen](../messages/get-started-content.md#create-new-message) Auf dieser Oberfläche wird die BCC-E-Mail-Adresse automatisch angezeigt.
+Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche gespeichert und verarbeitet. Wenn Sie mit dieser Oberfläche eine [neue Nachricht erstellen](../messages/get-started-content.md#create-new-message), wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nac
 
 >[!NOTE]
 >
->Sie müssen Ihre Journey nicht erneut veröffentlichen, damit die BCC-Einstellung abgerufen wird.
+>Sie müssen die Journey nicht erneut veröffentlichen, damit die BCC-Einstellung übernommen wird.
 
 ## Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 

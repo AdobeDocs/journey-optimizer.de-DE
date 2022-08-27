@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -88,7 +88,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
       Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
-1. Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+1. Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
    >[!NOTE]
    >
@@ -146,7 +146,7 @@ Wenn alles ordnungsgemäß konfiguriert ist, wird eine Zusammenfassung der Entsc
 
    ![](../assets/review-decision.png)
 
-1. Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung eine Vorschau der verfügbaren Angebote, der Eignung und der Rangdetails anzeigen. Sie können auch Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+1. Sie können jede Platzierung erweitern oder reduzieren. Sie können für jede Platzierung eine Vorschau der verfügbaren Angebote, der Eignung und der Rangfolgedetails anzeigen. Sie können auch Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
    ![](../assets/review-decision-details.png)
 

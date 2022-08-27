@@ -1,6 +1,6 @@
 ---
-title: Versandzeitpunkt optimieren
-description: Erfahren Sie, wie Sie die Versandzeitoptimierung in Ihren Nachrichten parametrieren
+title: Optimierung des Versandzeitpunkts
+description: Erfahren Sie, wie Sie die Parameter für die Versandzeitoptimierung in Ihren Nachrichten einstellen
 feature: Journeys
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführu
 >title="Aktivieren der Optimierung des Versandzeitpunkts"
 >abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
 
-Aktivieren Sie die Sendezeitoptimierung für eine E-Mail oder Push-Nachricht, indem Sie die **Sendezeitoptimierung** von den Aktivitätsparametern umschalten.
+Aktivieren Sie die Versandzeitpunktoptimierung für eine E-Mail oder Push-Benachrichtigung, indem Sie den Umschalter **Versandzeitpunktoptimierung** aus den Parametern der Aktivität auswählen.
 
 ![](../building-journeys/assets/jo-message5.png)
 

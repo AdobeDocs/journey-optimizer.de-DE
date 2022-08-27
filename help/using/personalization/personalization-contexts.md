@@ -9,7 +9,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 Es gibt verschiedene Möglichkeiten, um den Inhalt und die Darstellung von Nachrichten in [!DNL Journey Optimizer] zu personalisieren.
 
-In allen Feldern mit dem Editor-Symbol können Sie den Personalisierungs-Editor (auch Ausdruckseditor genannt) öffnen und eine Personalisierung definieren.
+Sie können den Personalisierungseditor (auch Ausdruckseditor genannt) in allen Feldern mit dem Editor-Symbol öffnen und die Personalisierung definieren.
 
 ![](assets/perso_icon.png)
 

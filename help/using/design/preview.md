@@ -9,13 +9,13 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Nachrichtenvorschau und Testversand{#preview-and-proof}
 
-Sobald der Inhalt der Nachricht festgelegt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
+Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
 
 Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktualisierten Inhalt zu validieren.
 
@@ -38,7 +38,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >
 >Bei der Vorschau einer Nachricht oder beim Versand von Testsendungen werden nur Profil-Personalisierungsdaten angezeigt. Personalisierung, die auf Kontextdaten wie Ereignisinformationen basiert, kann nur im Kontext einer Journey getestet werden. In [diesem Anwendungsbeispiel](../personalization/personalization-use-case.md) erfahren Sie, wie Sie die Personalisierung testen können.
 
-➡️ [In diesem Video erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können.](#video-preview)
+➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen und einen Testversand durchführen können](#video-preview).
 
 ## Auswählen der Testprofile{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Verwenden Sie [Testprofile](../segment/creating-test-profiles.md), um zusätzlic
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
-1. Klicken Sie in der Benutzeroberfläche der Nachricht oder im E-Mail-Designer auf das **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um auf die Auswahl des Testprofils zuzugreifen.
+1. Klicken Sie im Nachrichtenbereich oder Email Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um die Auswahl der Testprofile vorzunehmen.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/preview-email-namespace.png)
 
-1. Geben Sie den Wert zur Identifizierung des Testprofils ein und klicken Sie auf **[!UICONTROL Profil hinzufügen]**.
+1. Geben Sie den Wert ein, um das Testprofil zu festzulegen, und klicken Sie auf **[!UICONTROL Testprofil hinzufügen]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,11 +83,11 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
 Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie Ihre Nachrichten als Vorschau anzeigen und den Inhalt überprüfen.
 
-### Email preview{#preview-email}
+### Vorschau einer E-Mail{#preview-email}
 
 Gehen Sie wie folgt vor, um eine Vorschau eines E-Mail-Inhalts anzuzeigen:
 
-1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** oberhalb des E-Mail-Inhalts.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** oberhalb des E-Mail-Inhalts.
 
 1. Wählen Sie ein Testprofil aus. Überprüfen Sie die in den Spalten aufgeführten Werte. Verwenden Sie die Pfeile nach rechts oder links, um Daten zu durchsuchen.
 
@@ -107,15 +107,15 @@ Gehen Sie wie folgt vor, um eine Vorschau eines E-Mail-Inhalts anzuzeigen:
 
 1. Wählen Sie für jede Nachrichtenvariante weitere Testprofile zum Rendern von E-Mail-Vorschauen aus.
 
-### Push-Vorschau{#preview-push}
+### Vorschau einer Push-Benachrichtigung{#preview-push}
 
 Gehen Sie wie folgt vor, um eine Vorschau des Inhalts einer Push-Benachrichtigung anzuzeigen:
 
-1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** oberhalb des Push-Inhalts.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** oberhalb des Inhalts einer Push-Benachrichtigung.
 
 1. Wählen Sie ein Testprofil aus. Überprüfen Sie die in den Spalten aufgeführten Werte. Verwenden Sie die Pfeile nach rechts oder links, um Daten zu durchsuchen.
 
-1. Wechseln Sie zu **[!UICONTROL Push]** Nachricht.
+1. Wechseln Sie zur **[!UICONTROL Push]**-Nachricht.
 
 1. Führen Sie dieselben Schritte wie oben beschrieben aus, um ein Testprofil und den Gerätetyp für die Vorschau des Inhalts auszuwählen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
@@ -196,6 +196,6 @@ Anschließend gehen Sie wie folgt vor:
 
 ## Anleitungsvideo{#video-preview}
 
-Hier erfahren Sie, wie Sie das E-Mail-Rendering über Postfächer hinweg testen, wie Sie Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und Testsendungen durchführen können.
+Hier erfahren Sie, wie Sie das E-Mail-Rendering für mehrere Posteingänge testen, Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und Testsendungen durchführen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

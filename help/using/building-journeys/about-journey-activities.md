@@ -35,7 +35,7 @@ Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie könne
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
-* [Bedingung ](../building-journeys/condition-activity.md)
+* [Bedingung](../building-journeys/condition-activity.md)
 * [Warten](../building-journeys/wait-activity.md)
 * [Segment lesen](../building-journeys/read-segment.md)
 
@@ -45,7 +45,7 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 
 In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
-* [E-Mail, SMS, Push](../building-journeys/journeys-message.md)
+* [E-Mail, SMS, Push-Benachrichtigung](../building-journeys/journeys-message.md)
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
 * [Sprung](../building-journeys/jump.md)
 

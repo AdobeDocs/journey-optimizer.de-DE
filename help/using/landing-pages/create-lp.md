@@ -9,7 +9,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichu
 
 >[!CAUTION]
 >
->Wenn Sie die Veröffentlichung einer Landingpage rückgängig machen, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, wird der Link zur Landingpage beschädigt und eine Fehlerseite angezeigt.
+>Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr und eine Fehlerseite wird angezeigt.
 
 Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte Aktion auszuwählen.
 

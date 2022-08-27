@@ -9,13 +9,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] E-Mails können Sie Entscheidungen einfügen, die die Offer Decisioning-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
+Mit [!DNL Journey Optimizer] können Sie in E-Mails Entscheidungen einfügen, die die Offer-Decisioning-Engine nutzen, um das jeweils beste Angebot für Ihre Kunden auszuwählen.
 
 Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
 
@@ -59,11 +59,11 @@ Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufüg
 
 Die Angebotsaktivität wird nun der Komponente hinzugefügt.
 
-Nachdem Sie Ihre Änderungen gespeichert haben, können Ihre Angebote beim Versand der Nachricht im Rahmen einer Journey angezeigt werden.
+Nachdem Sie die Änderungen gespeichert haben, können Ihre Angebote den entsprechenden Profilen angezeigt werden, wenn die Nachricht als Teil einer Journey gesendet wird.
 
 >[!NOTE]
 >
->Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotskollektion oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in der Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht widergespiegelt.
+>Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in einer Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht angezeigt.
 
 ## Angebotsvorschau in einer E-Mail {#preview-offers-in-email}
 
@@ -73,7 +73,7 @@ Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, in der V
 
 Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der Entscheidung bei einem Kundenprofil sind.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**. 
+1. Klicken Sie auf **[!UICONTROL Vorschau]**.
 
    ![](assets/deliver-offer-preview-button.png)
 

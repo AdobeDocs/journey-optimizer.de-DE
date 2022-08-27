@@ -1,6 +1,6 @@
 ---
 title: Erstellen von IP-Pools
-description: Erfahren Sie, wie Sie IP-Pools verwalten
+description: Erfahren Sie, wie man IP-Pools verwaltet
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Eine Best Practice ist beispielsweise, einen IP-Pool für Ihre Marketing-Nachric
 
 Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
 
-1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Pools]** Menü und klicken Sie auf **[!UICONTROL IP-Pool erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Pools]** auf und klicken Sie dann auf **[!UICONTROL IP-Pool erstellen]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -50,7 +50,7 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können es auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanaloberfläche anzuzeigen (d. h. die Nachrichtenvorgabe). Weitere Informationen zum Verknüpfen einer Kanaloberfläche mit einem IP-Pool finden Sie unter [diesem Abschnitt](channel-surfaces.md).
+Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanaloberfläche anzuzeigen (d.h. Nachrichtenvoreinstellung). Weiterführende Informationen zum Verknüpfen einer Kanaloberfläche mit einem IP-Pool finden Sie in [diesem Abschnitt](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ So bearbeiten Sie einen IP-Pool:
 
 1. Speichern Sie Ihre Änderungen.
 
-Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, welcher IP-Pool mit einer [Kanaloberfläche](channel-surfaces.md) oder nicht:
+Die Aktualisierung ist sofort oder asynchron wirksam, je nachdem, ob der IP-Pool mit einer [Kanaloberfläche](channel-surfaces.md) verknüpft ist oder nicht:
 
-* Wenn der IP-Pool **not** in Verbindung mit einer beliebigen Kanaloberfläche ist die Aktualisierung sofort (**[!UICONTROL Erfolg]** Status).
-* Wenn der IP-Pool **is** mit einer Kanaloberfläche verknüpft ist, kann die Aktualisierung bis zu 3 Stunden dauern (**[!UICONTROL Verarbeitung]** Status).
+* Wenn der IP-Pool **nicht** mit einer Kanaloberfläche verknüpft ist, erfolgt die Aktualisierung sofort (Status **[!UICONTROL Erfolgreich abgeschlossen]**).
+* Wenn der IP-Pool **mit einer Kanaloberfläche verknüpft ist**, kann die Aktualisierung bis zu 3 Stunden dauern (Status **[!UICONTROL Verarbeitung läuft]**).
 
 >[!NOTE]
 >
->Wann [Kanaloberfläche erstellen](channel-surfaces.md#create-channel-surface), wenn Sie einen IP-Pool auswählen, der in Bearbeitung ist (**[!UICONTROL Verarbeitung]** -Status) und nie mit der für diese Oberfläche ausgewählten Subdomain verknüpft wurde, können Sie mit der Erstellung der Oberfläche nicht fortfahren. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
+>Wenn Sie beim [Erstellen einer Kanaloberfläche](channel-surfaces.md#create-channel-surface) einen IP-Pool auswählen, der sich in Bearbeitung befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der für diese Oberfläche ausgewählten Subdomain verknüpft wurde, können Sie nicht mit der Erstellung der Oberfläche fortfahren. [Weitere Informationen](channel-surfaces.md#subdomains-and-ip-pools)
 
 Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf den Button **[!UICONTROL Mehr Aktionen]** und wählen Sie **[!UICONTROL Letzte Updates]** aus.
 
@@ -96,5 +96,5 @@ Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf d
 >* bis der nächste Batch für den IP-Pool in Batch-Nachrichten wirksam ist.
 
 
-Sie können auch den Button **[!UICONTROL Löschen]** verwenden, um einen IP-Pool zu löschen. Beachten Sie, dass Sie einen IP-Pool, der mit einer Kanaloberfläche verknüpft wurde, nicht löschen können.
+Sie können auch den Button **[!UICONTROL Löschen]** verwenden, um einen IP-Pool zu löschen. Beachten Sie, dass Sie einen mit einer Kanaloberfläche verknüpften IP-Pool nicht löschen können.
 

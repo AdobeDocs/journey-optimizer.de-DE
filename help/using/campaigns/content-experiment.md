@@ -11,7 +11,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer Adobe-Support-Person.
 
 Mit der Funktion für Inhaltsexperimente können Sie mehrere Varianten für Ihren Versand definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variieren.
 
@@ -135,7 +135,7 @@ Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie dem Erfolg Ih
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer Adobe-Support-Person.
 
 ![](assets/performance_report.gif)
 
@@ -153,7 +153,7 @@ Beachten Sie, dass jedes Widget bei Bedarf in der Größe angepasst und gelösch
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer Adobe-Support-Person.
 
 ![](assets/experimentation_report_3.png)
 

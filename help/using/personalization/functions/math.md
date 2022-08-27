@@ -8,13 +8,13 @@ level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Mathematische Funktionen {#math}
 
-Erfahren Sie, wie Sie die Math-Funktionen im Ausdruckseditor verwenden.
+Erfahren Sie, wie Sie im Ausdruckseditor mathematische Funktionen verwenden.
 
 ## Absolut {#absolute}
 

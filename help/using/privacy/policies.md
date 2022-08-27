@@ -1,6 +1,6 @@
 ---
 title: Datennutzungsrichtlinien
-description: Erfahren Sie mehr über Datennutzungsrichtlinien und den Data Governance-Dienst.
+description: Erfahren Sie mehr über Datennutzungsrichtlinien und den Data Governance-Service.
 feature: Monitoring
 role: User
 level: Intermediate
@@ -8,22 +8,22 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
 # Datennutzungsrichtlinien {#Policies}
 
-Mit Adobe Experience Platform **Data Governance-Dienst** können Sie Datennutzungsbeschränkungen durch die Verwendung von Bezeichnungen, Marketing-Aktionen und Richtlinien erzwingen.
+Mit dem **Data Governance-Service** von Adobe Experience Platform können Sie Datennutzungsbeschränkungen durch die Verwendung von Kennzeichnungen, Marketing-Aktionen und Richtlinien erzwingen.
 
-Zu diesem Zweck können Sie mit dem Data Governance-Dienst Datennutzungsbezeichnungen auf Datensätze und Felder anwenden und diese entsprechend den entsprechenden Datennutzungsrichtlinien kategorisieren.
+Hierzu können Sie mit dem Data Governance-Service Datennutzungsbezeichnungen auf Datensätze und Felder anwenden und diese so entsprechend den für sie geltenden Nutzungsrichtlinien kategorisieren.
 
-Datennutzungsrichtlinien sind Regeln, die die Arten von Marketing-Aktionen beschreiben, die Sie für Daten in Experience Platform ausführen bzw. nicht ausführen dürfen. Sie können über die **[!UICONTROL Richtlinien]** Menü.
+Datennutzungsrichtlinien sind Regeln, die die Arten von Marketing-Aktionen beschreiben, die Sie für Daten in Experience Platform ausführen bzw. nicht ausführen dürfen. Auf diese Richtlinien kann über das Menü **[!UICONTROL Richtlinien]** zugegriffen werden.
 
 ![](assets/policies.png)
 
 Weitere Informationen zum Data Governance-Framework und zum Arbeiten mit Bezeichnungen und Richtlinien finden Sie in der Adobe Experience Platform-Dokumentation:
 
-* [Übersicht über den Data Governance-Dienst](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de)
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
-* [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
+* [Data Governance-Service – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de)
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de)
+* [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de)

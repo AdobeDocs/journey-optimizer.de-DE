@@ -9,7 +9,7 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 ## Mechanismen der Validierung {#validation-mechanisms}
 
-Im **Ausdruckseditor** -Bildschirm verwenden, verwenden Sie die **Bestätigen** -Schaltfläche, um die Syntax Ihrer Personalisierung zu überprüfen.
+Verwenden Sie im Bildschirm **Ausdruckseditor** die Schaltfläche **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
 
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
@@ -55,7 +55,7 @@ In diesem Fall ist **product** kein Array:
 
 Wenn eine ungültige Handlebars-Syntax verwendet wird.
 
-Handlebars-Ausdrücke sind von **{{expression}}**
+Handlebar-Ausdrücke sind von **{{expression}}** umgeben.
 
 ```
    {{[profile.person.name.firstName}}

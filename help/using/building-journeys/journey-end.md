@@ -9,32 +9,32 @@ exl-id: 57bdeadc-5801-4036-a272-c622634d5281
 source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Lebenszyklus einer Journey{#journey-lifecyle}
 
-## Profile in Journey{#profile-journey}
+## Profile in Journeys{#profile-journey}
 
-In einer einheitlichen Journey:
+In einer unitären Journey gilt folgendes:
 
-* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals eine Journey eingeben, dies aber erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat.
+* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
 
-* Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals dieselbe Journey eingeben
+* Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals in dieselbe Journey eintreten.
 
-Weiterführende Informationen zum Wiedereintritt von Profilen finden Sie in diesem Abschnitt [Abschnitt](../building-journeys/journey-gs.md#change-properties).
+Weiterführende Informationen zum erneuten Eintreten von Profilen finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#change-properties).
 
-In einer Journey zum Lesen von Segmenten:
+In einer Journey mit dem Schritt „Segment lesen“ gilt Folgendes:
 
-* Für nicht wiederkehrende Journey: das Profil wird nur einmal und nur einmal durch die Journey aufgerufen.
-* für wiederkehrende Journey: das Profil gibt bei jeder Wiederholung die Journey ein, wenn es sich im Segment-/Erwartungsstatus befindet. Wenn er noch von einer vorherigen Wiederholung auf der Journey war, wird er sie von Anfang an neu starten.
+* Für nicht wiederkehrende Journeys: Das Profil tritt nur einmal in die Journey ein.
+* für wiederkehrende Journeys: Das Profil tritt bei jeder Wiederholung in die Journey ein, wenn es sich im Segment / im erwarteten Status befindet. Wenn es sich noch in der Journey einer früheren Wiederholung befindet, fängt es wieder von vorne an.
 
-Bei Geschäftsereignissen beginnen Journey mit einem Lesesegment :
+Bei Journeys mit Geschäftsereignissen, die mit dem Schritt „Segment lesen“ beginnen, gilt Folgendes:
 
-Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, wird, wenn das Profil im erwarteten Segment qualifiziert ist, für jedes empfangene Geschäftsereignis die Journey angegeben. Dies bedeutet, dass dieses Profil mehrere Male in derselben Journey, aber gleichzeitig im Kontext verschiedener Geschäftsereignisse sein kann.
+Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es im erwarteten Segment ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil gleichzeitig mehrfach in derselben Journey sein kann, aber im Kontext verschiedener Geschäftsereignisse.
 
-## Journey end{#journey-ending}
+## Ende einer Journey{#journey-ending}
 
 Eine Journey kann für eine Person auf zwei Weisen enden:
 
@@ -43,9 +43,9 @@ Eine Journey kann für eine Person auf zwei Weisen enden:
 
 Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#change-properties)
 
-Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden in die Journey wird dann blockiert. Kunden, die bereits in die Journey eingetreten sind, können es bis zum Ende erleben. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-end.md#close-journey)
+Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden und Kundinnen in die Journey wird dann blockiert. Kunden und Kundinnen, die bereits in die Journey eingetreten sind, bleiben bis zu deren Ende darin. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-end.md#close-journey)
 
-Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die gesamte Verarbeitung sofort auf einer Journey beendet werden muss. Personen, die bereits an einer Journey teilgenommen haben, sind alle in ihrem Fortschritt angehalten. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-end.md#stop-journey)
+Sie können eine Journey nur stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss. Personen, die bereits in eine Journey eingetreten sind, sind alle in ihrem Fortschritt angehalten. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-end.md#stop-journey).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die g
 
 ### Journey-End-Tag{#end-tag}
 
-Beim Erstellen einer Journey wird am Ende jedes Pfads ein &quot;end-Tag&quot;angezeigt. Dieser Knoten kann nicht von einem Benutzer hinzugefügt werden, kann nicht entfernt werden und nur die Bezeichnung kann geändert werden. Es markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, jedem Ende einen Titel hinzuzufügen, damit Berichte leichter lesbar sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
+Beim Erstellen einer Journey wird am Ende jedes Pfads ein „End-Tag“ angezeigt. Dieser Knoten kann nicht manuell hinzugefügt oder entfernt werden, und lediglich bei seiner Kennzeichnung sind Änderungen möglich. Er markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, für jedes Ende eine Kennzeichnung hinzuzufügen, damit Berichte leichter verständlich sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
@@ -75,7 +75,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 * Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
 * Nach dem letzten Vorkommen einer wiederkehrenden segmentbasierten Journey.
 
-Durch manuelles Schließen einer Journey wird sichergestellt, dass bereits eingegebene Kunden ihren Pfad beenden können, neue Benutzer jedoch nicht in der Lage sind, in die Journey einzutreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
 Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
@@ -94,7 +94,7 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 
 ### Stoppen einer Journey{#stop-journey}
 
-Falls Sie den Fortschritt aller Personen in der Journey stoppen müssen, können Sie das tun. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung. Das Stoppen einer Journey bedeutet jedoch, dass alle Personen, die bereits an einer Journey teilgenommen haben, in ihrem Verlauf angehalten werden. Die Journey wird praktisch deaktiviert. Wenn Sie ein Journey beenden möchten, empfehlen wir Ihnen, es zu schließen.
+Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppen. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung. Wenn Sie eine Journey stoppen, wird der Fortschritt der bereits in der Journey befindlichen Personen angehalten. Die Journey wird praktisch deaktiviert. Wenn Sie ein Journey beenden möchten, empfehlen wir Ihnen, sie zu schließen.
 
 Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 

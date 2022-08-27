@@ -1,6 +1,6 @@
 ---
-title: Zuweisen einer Subdomain
-description: Informationen zum Zuweisen Ihrer Subdomains.
+title: Delegieren einer Subdomain
+description: Informationen zum Delegieren Ihrer Subdomains.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -13,21 +13,21 @@ ht-degree: 100%
 
 ---
 
-# Zuweisen einer Subdomain {#delegate-subdomain}
+# Delegieren einer Subdomain {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Zuweisung von Subdomains"
->abstract="Mit Journey Optimizer können Sie Ihre Subdomains Adobe zuweisen. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können eine Subdomain auch mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und pflegen."
+>abstract="Mit Journey Optimizer können Sie Ihre Subdomains an Adobe delegieren. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können eine Subdomain auch mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und pflegen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=de#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
 
-Das Zuweisen eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, einer anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zuzuweisen. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, an eine anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zu delegieren. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
->Standardmäßig können Sie mit dem Lizenzvertrag für [!DNL Journey Optimizer] bis zu 10 Subdomains zuweisen. Wenden Sie sich an Ihren Ansprechpartner bei Adobe, wenn Sie diese Einschränkung erhöhen möchten.
+>Standardmäßig können Sie mit dem Lizenzvertrag für [!DNL Journey Optimizer] bis zu 10 Subdomains delegieren. Wenden Sie sich an Ihren Ansprechpartner bei Adobe, wenn Sie diese Einschränkung erhöhen möchten.
 
-Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge zu verweisen.
+Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAMEs erstellen, um auf Adobe-spezifische Einträge zu verweisen.
 
 >[!CAUTION]
 >
@@ -38,20 +38,20 @@ Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAMEs 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Erstellen der passenden DNS-Einträge."
->abstract="Um eine neue Subdomain vollständig Adobe zuzuweisen, müssen Sie die in der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die passenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAMEs zuzuweisen, müssen Sie auch den SSL-CDN-URL-Validierungeintrag kopieren und einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
+>abstract="Um eine neue Subdomain vollständig an Adobe zu delegieren, müssen Sie die in der Journey Optimizer-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die passenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAMEs zu delegieren, müssen Sie auch den SSL-CDN-URL-Validierungeintrag kopieren und einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html?lang=de#cname-subdomain-delegation" text="CNAME-Subdomain-Delegierung"
 
-[!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
+[!DNL Journey Optimizer] ermöglicht die vollständige Delegation Ihrer Subdomains an Adobe direkt über die Benutzeroberfläche des Produkts. Auf diese Weise kann Adobe Nachrichten als Managed Service bereitstellen, indem alle Aspekte des DNS, die für die Zustellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden.
 
 Adobe stellt sicher, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Zustellbarkeitsanforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für Ihre unternehmensinternen E-Mail-Domains.
 
-Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
+Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegieren:
 
 1. Gehen Sie zum Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Subdomains]** und klicken Sie auf **[!UICONTROL Subdomain einrichten]**.
 
    ![](assets/subdomain-delegate.png)
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Einrichtungsmethode]** die Option **[!UICONTROL Vollständig zugewiesen]** aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Einrichtungsmethode]** die Option **[!UICONTROL Vollständig delegieren]** aus.
 
    ![](assets/subdomain-method-full.png)
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um Adobe eine neue Subdomain vollständig zuzuweisen:
 
    <!-- later on, users will be notified in Pulse -->
 
-Nachdem Adobe in [!DNL Journey Optimizer] eine Subdomain zugewiesen wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. [Weitere Informationen](ptr-records.md)
+Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. [Weitere Informationen](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -104,7 +104,7 @@ Nachdem Adobe in [!DNL Journey Optimizer] eine Subdomain zugewiesen wurde, wird 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
 >title="Erstellen der passenden DNS- und Validierungseinträge"
->abstract="Um eine Subdomain mit CNAMEs zuzuweisen, müssen Sie die Adobe-Nameserver-Informationen und den in der Journey Optimizer-Benutzeroberfläche angezeigten SSL-CDN-URL-Validierungseintrag kopieren und in Ihre Hosting-Plattform einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
+>abstract="Um eine Subdomain mit CNAMEs zu delegieren, müssen Sie die Adobe-Nameserver-Informationen und den in der Journey Optimizer-Benutzeroberfläche angezeigten SSL-CDN-URL-Validierungseintrag kopieren und in Ihre Hosting-Plattform einfügen. Nachdem die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
 
 Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass Adobe nur eine teilweise Kontrolle über den DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
 

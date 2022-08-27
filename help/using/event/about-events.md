@@ -9,7 +9,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Mit der Ereigniskonfiguration können Sie festlegen, welche Informationen [!DNL 
 
 >[!CAUTION]
 >
->Ereigniskonfiguration ist **mandatory** und muss von einer **Data Engineer**.
+>Die Ereigniskonfiguration ist **obligatorisch** und muss von einem **Datentechniker** durchgeführt werden.
 
 Sie können zwei Ereignistypen definieren:
 
@@ -37,7 +37,7 @@ Sie können zwei Ereignistypen definieren:
 >
 >Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwendet wird, können Sie nur den Namen oder die Beschreibung ändern oder Payload-Felder hinzufügen. Die Bearbeitungsmöglichkeiten von Entwurfs- oder Live-Journeys sind stark beschränkt, damit Unterbrechungen von Journeys vermieden werden.
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 ## Ereignis-ID-Typ{#event-id-type}
 

@@ -92,7 +92,7 @@ Ihre Campaign-Instanz muss für diese Integration bereitgestellt werden. Die Fun
 
    ![](assets/accintegration-uc-10.png)
 
-1. Testen einer Journey.
+1. Testen Sie Ihre Journey.
 
    ![](assets/accintegration-uc-11.png)
 

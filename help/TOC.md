@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 98%
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
-      + [Statistische Berechnungen](using/campaigns/experiment-calculations.md)
+      + [Verstehen von statistische Berechnungen](using/campaigns/experiment-calculations.md)
       + [Berichtskonfiguration](using/campaigns/reporting-configuration.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Nachrichten {#messages}

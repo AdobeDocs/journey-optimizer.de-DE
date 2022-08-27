@@ -9,7 +9,7 @@ exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
 1. [Veröffentlichen](create-lp.md#publish) Sie die Landingpage.
 
-1. In [Journey](../building-journeys/journey.md), fügen Sie eine **Email** -Aktivität, um den Traffic zur Anmelde-Landingpage zu leiten.
+1. Fügen Sie einer [Journey](../building-journeys/journey.md) die Aktivität **E-Mail** hinzu, um Traffic auf die Registrierungs-Landingpage zu lenken.
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [E-Mail erstellen](../messages/get-started-content.md) um anzukündigen, dass die Registrierung nun für Ihre Veranstaltung geöffnet ist.
+1. [Gestalten Sie die E-Mail](../messages/get-started-content.md), um anzukündigen, dass die Anmeldung für Ihre Veranstaltung jetzt offen ist.
 
 1. [Fügen Sie einen Link](../design/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
 
@@ -59,7 +59,7 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht senden zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
+   >Um Ihre Nachricht senden zu können, darf die von Ihnen gewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
    Wenn Ihre Empfänger nach dem Erhalt der E-Mail auf den Link zur Landingpage klicken, werden sie zur „Danke-Seite“ weitergeleitet und auf die Abonnement-Liste gesetzt.
 
@@ -126,7 +126,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [E-Mail-Nachricht erstellen](../messages/get-started-content.md) in einer Journey.
+1. [Erstellen sie eine E-Mail-Nachricht](../messages/get-started-content.md) in einer Journey.
 
 1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../design/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
 
@@ -138,7 +138,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    >[!NOTE]
    >
-   >Um Ihre Nachricht senden zu können, muss die ausgewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
+   >Um Ihre Nachricht senden zu können, darf die von Ihnen gewählte Landingpage noch nicht abgelaufen sein. [In diesem Abschnitt](create-lp.md#configure-primary-page) erfahren Sie, wie Sie das Ablaufdatum aktualisieren können.
 
 1. Veröffentlichen Sie die Journey und führen Sie sie aus. [Weitere Informationen](../building-journeys/journey.md).
 

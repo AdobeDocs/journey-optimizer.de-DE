@@ -9,7 +9,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,15 +34,15 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc4.png)
 
-1. Fügen Sie Ihr Eintrittsereignis und ein **Push** Aktionsaktivität.
+1. Fügen Sie Ihr Eintrittsereignis und die Aktionsaktivität **Push** hinzu.
 
    ![](assets/perso-uc5.png)
 
-1. Konfigurieren und gestalten Sie Ihre Push-Benachrichtigung. Siehe diesen [Abschnitt](../messages/get-started-content.md).
+1. Konfigurieren und gestalten Sie Ihre Push-Benachrichtigung. Näheres dazu finden Sie in diesem [Abschnitt](../messages/get-started-content.md).
 
 ## Schritt 2 – Personalisierung in Profil hinzufügen {#add-perso}
 
-1. Im **Push** Aktivität, klicken Sie auf **Inhalt bearbeiten**.
+1. Klicken Sie in der Aktivität **Push** auf **Inhalt bearbeiten**.
 
 1. Klicken Sie auf das Feld **Titel**.
 
@@ -52,16 +52,16 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc3.png)
 
-## Schritt 3 – Personalisierung für Kontextdaten hinzufügen  {#add-perso-contextual-data}
+## Schritt 3 – Personalisierung für Kontextdaten hinzufügen {#add-perso-contextual-data}
 
-1. Im **Push** Aktivität, klicken Sie auf **Inhalt bearbeiten** und klicken Sie auf **Titel** -Feld.
+1. Klicken sie in der Aktivität **Push** auf **Inhalt bearbeiten** und anschließend auf das Feld **Titel**.
 
    ![](assets/perso-uc9.png)
 
 1. Wählen Sie das Menü **Kontextattribute**. Kontextattribute sind nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
 
-   * **Veranstaltungen**: Diese Kategorie enthält alle Felder aus den Ereignissen, die vor der Aktivität Kanalaktion in der Journey platziert wurden.
-   * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Fahrt-ID oder die aufgetretenen spezifischen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Ereignisse**: In dieser Kategorie werden alle Felder aus den Ereignissen neu gruppiert, die vor der Kanalaktionsaktivität in der Journey platziert wurden.
+   * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Journey-ID oder die aufgetretenen Fehler. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -81,11 +81,11 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc14.png)
 
-1. Klicken Sie auf „Validieren“, um sicherzustellen, dass keine Fehler auftreten, und klicken Sie auf **Speichern**.
+1. Klicken Sie auf „Validieren“, um sicherzustellen, dass keine Fehler vorhanden sind, und danach auf **Speichern**.
 
    ![](assets/perso-uc15.png)
 
-## Schritt 4 – Journey testen und veröffentlichen  {#test-publish}
+## Schritt 4 – Journey testen und veröffentlichen {#test-publish}
 
 1. Klicken Sie auf die Schaltfläche **Test** und dann auf **Ereignis auslösen**.
 

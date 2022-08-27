@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-1. Nachdem die Regel erstellt wurde, wird sie im **[!UICONTROL Regeln]** Liste. Sie können es auswählen, um seine Eigenschaften anzuzeigen und zu bearbeiten oder zu löschen.
+1. Nachdem die Regel erstellt wurde, wird sie in der Liste **[!UICONTROL Regeln]** angezeigt. Sie können sie auswählen, um ihre Eigenschaften anzuzeigen oder um sie zu bearbeiten oder zu löschen.
 
    ![](../assets/rule_created.png)
 

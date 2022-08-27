@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Zuweisen einer Subdomain der Landingpage"
+>title="Delegieren einer Subdomain der Landingpage"
 >abstract="Sie müssen eine Subdomain für Ihre Landingpages konfigurieren, da Sie diese Subdomain zum Erstellen einer Landingpage-Voreinstellung benötigen. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine neue Subdomain konfigurieren."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Beachten Sie, dass Sie nicht mehrere zugewiesene Subdomains derselben übergeordneten Domain verwenden können. Wenn zum Beispiel „marketing1.meinefirma.com“ bereits für Ihre Landingpages an Adobe delegiert wurde, können Sie „marketing2.meinefirma.com“ nicht verwenden. Da jedoch mehrstufige Subdomains für Landingpages unterstützt werden, können Sie eine Subdomain von „marketing1.meinefirma.com“ (z. B. „email.marketing1.meinefirma.com“) oder ansonsten eine andere übergeordnete Domain verwenden.
+   Beachten Sie, dass Sie nicht mehrere delegierte Subdomains derselben übergeordneten Domain verwenden können. Wenn zum Beispiel „marketing1.meinefirma.com“ bereits für Ihre Landingpages an Adobe delegiert wurde, können Sie „marketing2.meinefirma.com“ nicht verwenden. Da jedoch mehrstufige Subdomains für Landingpages unterstützt werden, können Sie eine Subdomain von „marketing1.meinefirma.com“ (z. B. „email.marketing1.meinefirma.com“) oder ansonsten eine andere übergeordnete Domain verwenden.
 
    >[!CAUTION]
    >

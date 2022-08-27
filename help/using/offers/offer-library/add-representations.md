@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
 >[!NOTE]
 >
-> Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
+> Um [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;} verwenden zu können, müssen Sie [!DNL Assets Essentials] für Ihr Unternehmen bereitstellen und sicherstellen, dass die Benutzer Teil der Produktprofile **Assets Essentials Consumer Users** und/oder **Assets Essentials Users** sind. Weitere Informationen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Wählen Sie die Option **[!UICONTROL Assets-Bibliothek]** aus.
 
@@ -86,13 +86,13 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
    ![](../assets/offer-select-asset.png)
 
-### HTML- oder JSON-Dateien hinzufügen {#html-json}
+### Hinzufügen von HTML- oder JSON-Dateien {#html-json}
 
-Wenn die ausgewählte Platzierung vom Typ HTML ist, können Sie auch HTML- oder JSON-Inhalte hinzufügen, die aus dem [Adobe Experience Cloud Asset-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+Wenn die ausgewählte Platzierung vom Typ „HTML“ ist, können Sie auch HTML- oder JSON-Inhalte aus der [Adobe Experience Cloud Asset-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;} hinzufügen.
 
-Sie haben beispielsweise eine HTML-E-Mail-Vorlage in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} und Sie möchten diese Datei für Ihren Angebotsinhalt verwenden. Anstatt eine neue Datei zu erstellen, können Sie die Vorlage einfach in die **Asset-Bibliothek** , um sie in den Darstellungen Ihres Angebots wiederverwenden zu können.
+Sie haben beispielsweise eine HTML-E-Mail-Vorlage in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=de){target=&quot;_blank&quot;} und Sie möchten diese Datei für Ihren Angebotsinhalt verwenden. Anstatt eine neue Datei zu erstellen, können Sie die Vorlage einfach in die **Asset-Bibliothek** hochladen, um sie für unterschiedliche Darstellungsvarianten Ihres Angebots wiederverwenden zu können.
 
-Um Ihren Inhalt in einer Darstellung wiederzuverwenden, navigieren Sie zum **Asset-Bibliothek** wie in [diesem Abschnitt](#images) und wählen Sie die gewünschte HTML- oder JSON-Datei aus.
+Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bibliothek**, wie in [diesem Abschnitt](#images) beschrieben, und wählen Sie die gewünschte HTML- oder JSON-Datei aus.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
@@ -118,7 +118,7 @@ Sie können auch Textinhalte einfügen, wenn Sie eine kompatible Platzierung aus
 
    ![](../assets/offer-text-content.png)
 
-   Sie können Ihren Inhalt mit dem Ausdruckseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+   Sie können Ihre Inhalte mit dem Ausdruckseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

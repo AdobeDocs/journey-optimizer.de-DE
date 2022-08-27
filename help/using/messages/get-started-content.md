@@ -71,7 +71,7 @@ Um Nachrichten in Ihre Journeys einzufügen, fügen Sie ganz einfach eine Push-,
    >
    >Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten. Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
 
-1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvorgabe), die zum Senden Ihrer Nachricht verwendet werden soll.
+1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvoreinstellung), die zum Senden Ihrer Nachricht verwendet werden soll.
 
    Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
@@ -104,7 +104,7 @@ Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!U
 
 ![](assets/show-read-only.png)
 
-Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden von den [Systemadmins](../start/path/administrator.md) in der [Kanaloberfläche](../configuration/channel-surfaces.md) (d. h. der Nachrichtenvorgabe) definiert, die mit der Nachricht verbunden ist.
+Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. Diese Parameter werden von den [Systemadmins](../start/path/administrator.md) in der [Kanaloberfläche](../configuration/channel-surfaces.md) (d. h. der Nachrichtenvoreinstellung) definiert, die mit der Nachricht verbunden ist.
 
 Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token, AppID, AppPlatform.
 

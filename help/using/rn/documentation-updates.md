@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
 source-wordcount: '1814'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -16,8 +16,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 ## August 2022 {#august-2022}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 22. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen In-line-Messaging-Fluss widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
-* Im Abschnitt Erste Schritte mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
+* Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
+* Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
 * Für Journey, die die Aktivität Segment lesen verwenden, wurde eine Einschränkung hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md)
 * Die Seite mit den Operatoren für den Ausdruckseditor wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
 

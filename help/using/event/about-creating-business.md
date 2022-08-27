@@ -9,7 +9,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 * Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
 * Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
 * Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
-* Geschäftsereignisse können nicht zusammen mit Einzelereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
+* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
 
 ## Mehrere Geschäftsereignisse {#multiple-business-events}
 
@@ -81,7 +81,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines Geschäftser
 
 1. Die Anzahl der Journeys, die dieses Ereignis verwenden, wird im Feld **[!UICONTROL Verwendet in]** angezeigt. Sie können auf **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der Journeys mit diesem Ereignis anzuzeigen.
 
-1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die Journeys erhalten sollen. Sie werden diese Informationen später in Ihrer Journey benötigen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
+1. Definieren Sie das Schema und die Payload-Felder: Hier wählen Sie die Ereignisinformationen aus (normalerweise als Payload bezeichnet), die Journeys erhalten sollen. Sie werden diese Informationen später in Ihrer Journey benötigen. Weitere Informationen finden Sie in [diesem Abschnitt](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 

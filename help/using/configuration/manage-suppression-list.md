@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 | **[!UICONTROL DNS-Fehler]** | Die Nachricht führte aufgrund eines DNS-Fehlers zu einem Bounce. | Soft |
 | **[!UICONTROL Postfach voll]** | Die Nachricht führte zu einem Bounce, weil das Postfach des Empfängers voll ist und keine weiteren Nachrichten akzeptieren kann. | Soft |
 | **[!UICONTROL Weiterleitung verweigert]** | Die Nachricht wurde vom Empfänger blockiert, da eine Weiterleitung nicht zulässig ist. | Soft |
-| **[!UICONTROL Challenge-Response]**  | Die Nachricht ist ein Challenge-Response-Test. | Soft |
+| **[!UICONTROL Challenge-Response]** | Die Nachricht ist ein Challenge-Response-Test. | Soft |
 | **[!UICONTROL Spam-Beschwerde]** | Die Nachricht wurde blockiert, da sie vom Empfänger als Spam gekennzeichnet wurde. | Hard |
 
 >[!NOTE]
@@ -141,7 +141,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
    >[!NOTE]
    >
-   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@company.com) oder Domain (z. B. abc.company.com) eingeben.
+   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@firma.com) oder Domain (z. B. abc.firma.com) eingeben.
 
 1. Geben Sie bei Bedarf einen Grund an.
 

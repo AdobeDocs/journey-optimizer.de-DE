@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
 source-wordcount: '712'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    >[!NOTE]
    >
-   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen anzeigen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+   >Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
    >
    >Beachten Sie, dass Profilschätzungen nicht verfügbar sind, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die das aktuelle Wetter ≥ 80 Grad sein muss.
 

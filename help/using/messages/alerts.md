@@ -9,7 +9,7 @@ exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. Wenn beispielsweise der Ausschluss-Link fehlt, wird eine Meldung angezeigt.
 
-* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst sind. Beispielsweise wird eine Meldung angezeigt, dass die Betreffzeile fehlt.
+* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange nicht alle Fehler behoben sind. Beispielsweise wird eine Meldung angezeigt, dass die Betreffzeile fehlt.
 
 Alle möglichen Warnhinweise und Fehler sind [unten](#alerts-and-warnings) genauer beschrieben.
 
 >[!CAUTION]
 >
-> Sie müssen alle **error** Warnhinweise vor dem Testen oder Aktivieren der Journey mithilfe der Nachricht.
+> Vor dem Testen oder Aktivieren der Journey müssen Sie alle **Fehler**-Warnhinweise mithilfe der entsprechenden Meldung auflösen.
 
 ## Liste von Warnhinweisen und Fehlern {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
    >[!NOTE]
    >
-   >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf der Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvorgabe) und beim [Erstellen der Nachricht](get-started-content.md#create-new-message) definiert.
+   >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der [Erstellung der Nachricht](get-started-content.md#create-new-message) definiert.
 
 * **[!UICONTROL Textversion von HTML ist leer]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können. In [diesem Abschnitt](../design/text-version-email.md) erfahren Sie, wie Sie die Textversion erstellen.
 
@@ -67,13 +67,13 @@ Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie
 
 * **[!UICONTROL Die E-Mail-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](../design/design-emails.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
 
-* **[!UICONTROL Oberfläche existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie eine andere Stelle in der Nachricht aus **[!UICONTROL Eigenschaften]**. Weitere Informationen zu Kanaloberflächen in [diesem Abschnitt](../configuration/channel-surfaces.md).
+* **[!UICONTROL Oberfläche ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die gewählte Oberfläche nach der Erstellung der Nachricht gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Oberfläche aus. Weitere Informationen zu Kanaloberflächen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
 >[!CAUTION]
 >
-> Um Ihre Nachricht verwenden zu können, müssen Sie alle **error** Warnhinweise.
+> Um Ihre Nachricht veröffentlichen zu können, müssen Sie alle **Fehler**-Warnhinweise auflösen.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

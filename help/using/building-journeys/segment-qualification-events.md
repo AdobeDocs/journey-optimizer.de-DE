@@ -9,7 +9,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentati
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
-Im Folgenden finden Sie einige Best Practices, mit denen Sie verhindern können, dass in Journey verwendete Systeme überlastet werden (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten).
+Im Folgenden finden Sie Best Practices, die Ihnen dabei helfen, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten).
 
 Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** Batch-Segmente nicht unmittelbar nach ihrer Erstellung. So lässt sich die erste Berechnungsspitze vermeiden. Beachten Sie, dass in der Journey-Arbeitsfläche eine gelbe Warnung angezeigt wird, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
 

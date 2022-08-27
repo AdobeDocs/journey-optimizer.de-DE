@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 >[!NOTE]
 >
->Batch-Entscheidungen können auch über die Journey Optimizer-Oberfläche getroffen werden. Weitere Informationen finden Sie unter [diesem Abschnitt](../../batch-delivery.md), der Informationen zu globalen Voraussetzungen und Einschränkungen bereitstellt, die bei der Verwendung der Batch-Entscheidungsfindung berücksichtigt werden müssen.
+>Batch-Entscheidungen können auch über die Journey Optimizer-Oberfläche getroffen werden. Weitere Informationen finden Sie in [diesem Abschnitt](../../batch-delivery.md), der globale Voraussetzungen und Einschränkungen enthält, die bei der Verwendung der Batch-Entscheidung zu berücksichtigen sind.
 
 * **Die Anzahl der ausgeführten Batch-Vorgänge pro Datensatz**: Pro Datensatz können bis zu fünf Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
 * **Frequenzlimitierung**: Ein Batch wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die [!DNL Batch Decisioning]-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
@@ -45,7 +45,7 @@ Bevor Sie diese API verwenden, müssen Sie die folgenden Schritte ausführen.
 
 ### Entscheidungsvorbereitung {#prepare-decision}
 
-Um eine oder mehrere Entscheidungen vorzubereiten, stellen Sie sicher, dass Sie einen Datensatz, ein Segment und eine Entscheidung erstellt haben. Diese Voraussetzungen werden im Abschnitt [diesem Abschnitt](../../batch-delivery.md).
+Um eine oder mehrere Entscheidungen vorzubereiten, stellen Sie sicher, dass Sie einen Datensatz, ein Segment und eine Entscheidung erstellt haben. Diese Voraussetzungen werden in [diesem Abschnitt](../../batch-delivery.md) näher erläutert.
 
 ### API-Anforderungen {#api-requirements}
 
@@ -62,7 +62,7 @@ Um einen Workload zur Batch-Verarbeitung von Entscheidungen zu starten, stellen 
 
 >[!NOTE]
 >
->Detaillierte Informationen zur Verarbeitungszeit für Batch-Aufträge finden Sie unter [diesem Abschnitt](../../batch-delivery.md).
+>Detaillierte Informationen zur Verarbeitungszeit von Batch-Vorgängen finden Sie in [diesem Abschnitt](../../batch-delivery.md).
 
 **API-Format**
 

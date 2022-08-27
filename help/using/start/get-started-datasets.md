@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumen
 
 Erfahren Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Datensätze verwenden.
 
-Eine Liste der Anwendungsfälle mit Abfragebeispielen ist verfügbar. [here](../start/datasets-query-examples.md).
+Eine Liste der Anwendungsfälle mit Abfragebeispielen ist [hier](../start/datasets-query-examples.md) verfügbar.
 
 **Siehe auch**
 

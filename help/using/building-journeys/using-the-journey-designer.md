@@ -9,7 +9,7 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hin
 
 **Aktionen**
 
-Hier finden Sie die Aktivität Kanalaktion , mit der Sie eine Nachricht einfügen können, die in [!DNL Journey Optimizer]. [Erfahren Sie mehr über die Aktionsaktivitäten des Kanals](journeys-message.md)
+Hier finden Sie die Kanalaktionsaktivität, mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einschließen können. [Weitere Informationen zu Kanalaktionsaktivitäten](journeys-message.md)
 
 Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
 
@@ -96,7 +96,7 @@ Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie das Feld 
 
 Verschiedene Aktivitäten (Ereignis, Aktion, Warten) ermöglichen es Ihnen, nach der Aktivität mehrere Pfade hinzuzufügen. Setzen Sie dazu den Cursor auf die Aktivität und klicken Sie auf das „+“-Symbol. Nur Ereignis- und Warteaktivitäten können parallel festgelegt werden. Wenn mehrere Ereignisse parallel festgelegt werden, wird der Pfad des Ereignisses ausgewählt, das zuerst stattfindet.
 
-Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/general-events.md#events-specific-time).
+Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/general-events.md#events-specific-time).
 
 Um den Pfad zu löschen, platzieren Sie den Cursor darauf und klicken Sie auf das Symbol **[!UICONTROL Pfad löschen]**.
 

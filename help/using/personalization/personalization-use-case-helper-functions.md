@@ -9,7 +9,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -53,13 +53,13 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
-1. Hinzufügen einer **Email** -Aktivität auf die Journey.
+1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
 
    ![](assets/personalization-uc-helpers-8.png)
 
 ## Schritt 2: E-Mail erstellen{#configure-email}
 
-1. Im **Email** Aktivität, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** Klicken Sie auf **[!UICONTROL Email Designer]**.
+1. Klicken sie in der Aktivität **E-Mail** auf **[!UICONTROL Inhalt bearbeiten]** und anschließend auf **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Textkörper der Nachricht.
@@ -68,7 +68,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Schritt 3: Vorname des Kunden in Großbuchstaben einfügen {#uppercase-function}
+## Schritt 3: Vornamen des Kunden bzw. der Kundin in Großbuchstaben einfügen {#uppercase-function}
 
 1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.

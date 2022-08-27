@@ -9,7 +9,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -184,4 +184,4 @@ Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um in Ihre N
 Verwandte Themen:
 
 * [Erste Schritte mit dem Entscheidungs-Management](../offers/get-started/starting-offer-decisioning.md)
-* [Personalisierte Angebote in E-Mails hinzufügen](deliver-personalized-offers.md)
+* [Einfügen personalisierter Angebote in E-Mails](deliver-personalized-offers.md)

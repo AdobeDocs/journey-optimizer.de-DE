@@ -9,7 +9,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 76%
 Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
 Im **[!UICONTROL Live-Bericht]** sind Daten verfügbar, sobald Ihr Versand durchgeführt oder Ihre Journey ausgeführt wird.
 
-* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey auswählen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche. Danach finden Sie die Live-Berichte Journey, E-Mail, SMS und Push-Benachrichtigungen.
+* Wenn Sie eine Journey oder Sendungen innerhalb einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Bericht anzeigen]**. Daraufhin werden die Live-Berichte zu Journeys, E-Mail-Nachrichten, SMS und Push-Benachrichtigungen angezeigt.
 
    ![](assets/report_journey.png)
 
-* Wenn Sie von der **[!UICONTROL Live-Bericht]** der **[!UICONTROL Live-Bericht]** Klicken Sie für Ihren Versand auf **[!UICONTROL Live-Ansicht]** über den Tab-Umschalter aus.
+* Wenn Sie für Ihren Versand vom **[!UICONTROL globalen Bericht]** zum **[!UICONTROL Live-Bericht]** wechseln möchten, klicken Sie im Registerkarten-Umschalter auf **[!UICONTROL Live-Ansicht]**.
 
    ![](assets/report_3.png)
 

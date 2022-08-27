@@ -9,7 +9,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesend
 >
 >Die Regeln zur Nachrichtenhäufigkeit unterscheiden sich von der Opt-out-Verwaltung, die es Benutzern ermöglicht, sich vom Erhalt von Nachrichten einer Marke abzumelden. [Weitere Informationen](../messages/consent.md#opt-out-management)
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video).
 
 ## Zugriff auf Regeln {#access-rules}
 
@@ -97,7 +97,7 @@ Das Aktivieren einer Regel wirkt sich auf alle Nachrichten, für die sie gilt, b
 
 >[!NOTE]
 >
->Es kann bis zu 10 Minuten dauern, bis eine Regel vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journey erneut veröffentlichen, damit eine Regel wirksam wird.
+>Es kann bis zu 10 Minuten dauern, bis eine Regel vollständig aktiviert ist. Sie müssen keine Nachrichten ändern oder Journeys erneut veröffentlichen, damit eine Regel wirksam wird.
 
 Um eine Häufigkeitsregel für Nachrichten zu deaktivieren, klicken Sie auf das Auslassungszeichen neben der Regel und wählen Sie **[!UICONTROL Deaktivieren]**.
 
@@ -113,7 +113,7 @@ Der Status der Regel ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird
 
 Gehen Sie wie folgt vor, um eine Häufigkeitsregel auf eine Nachricht anzuwenden.
 
-1. [Nachricht erstellen](../messages/get-started-content.md#create-new-message) durch Auswahl eines der Kanäle, die Sie für Ihre Regel definiert haben.
+1. [Erstellen Sie eine Nachricht](../messages/get-started-content.md#create-new-message), indem Sie einen der Kanäle auswählen, den Sie für Ihre Regel definiert haben.
 
 1. Wählen Sie die Kategorie aus, die Sie für die [von Ihnen erstellte Regel](#create-new-rule) definiert haben.
 
@@ -134,7 +134,7 @@ Gehen Sie wie folgt vor, um eine Häufigkeitsregel auf eine Nachricht anzuwenden
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
-1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im Abschnitt [Gesamtbericht](../reports/global-report.md)und im [Live-Bericht](../reports/live-report.md), wobei Häufigkeitsregeln als möglicher Grund für Benutzer aufgeführt werden, die vom Versand ausgeschlossen sind.
+1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [globalen Bericht](../reports/global-report.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Häufigkeitsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. [](#create-new-rule)Erstellen Sie eine Regel mit der Bezeichnung *Marketing-Gesamtbegrenzung*:
 
-   * Wählen Sie die Kanäle E-Mail und Push aus.
+   * Wählen Sie die Kanäle „E-Mail“ und „Push“ aus.
    * Legen Sie die Begrenzung auf 12 fest.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -160,9 +160,9 @@ Sie können mehrere Häufigkeitsregeln für Nachrichten kombinieren, wie im folg
 
 1. Speichern und [aktivieren](#activate-rule) Sie die Regel.
 
-1. Erstellen Sie eine E-Mail und wählen Sie die **[!UICONTROL Marketing]** Kategorie für diese Nachricht. [Weitere Informationen](../messages/get-started-content.md#create-new-message)
+1. Erstellen Sie eine E-Mail und wählen Sie die Kategorie **[!UICONTROL Marketing]** für diese Nachricht aus. [Weitere Informationen](../messages/get-started-content.md#create-new-message)
 
-1. Erstellen Sie eine Push-Benachrichtigung und wählen Sie die **[!UICONTROL Marketing]** Kategorie für diese Nachricht. [Weitere Informationen](../messages/get-started-content.md#create-new-message)
+1. Erstellen Sie eine Push-Benachrichtigung und wählen Sie die Kategorie **[!UICONTROL Marketing]** für diese Nachricht aus. [Weitere Informationen](../messages/get-started-content.md#create-new-message)
 
 In diesem Szenario kann ein einzelnes Profil:
 * monatlich bis zu 12 Marketing-Nachrichten erhalten;
@@ -170,7 +170,7 @@ In diesem Szenario kann ein einzelnes Profil:
 
 >[!NOTE]
 >
->Beim Testen von Frequenzregeln wird empfohlen, eine neu erstellte [Testprofil](../segment/creating-test-profiles.md), da es nach Erreichen der Frequenzgrenze eines Profils nicht mehr möglich ist, den Zähler auf den nächsten Monat zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+>Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../segment/creating-test-profiles.md) zu beginnen, da es nach Erreichen des Häufigkeitslimits eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
 
 ## Anleitungsvideo {#video}
 

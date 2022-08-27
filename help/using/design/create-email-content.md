@@ -1,6 +1,6 @@
 ---
 title: Entwerfen von E-Mails in Journey Optimizer
-description: Erfahren Sie, wie Sie E-Mail-Inhalte     von Grund auf neu entwerfen
+description: Erfahren Sie, wie Sie E-Mail-Inhalte  von Grund auf neu entwerfen
 feature: Overview
 topic: Content Management
 role: User

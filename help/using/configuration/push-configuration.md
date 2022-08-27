@@ -7,7 +7,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
    * **[!UICONTROL Mobile-App-Konfigurationen verwalten]**
    * **[!UICONTROL Eigenschaften verwalten]**
 
-   Diese Berechtigungen sind erforderlich, damit der Entwickler der mobilen App Push-Anmeldeinformationen in **Adobe Experience Launch** und definieren die Oberflächen der Push-Benachrichtigungskanäle (d. h. Nachrichtenvorgaben) in **Adobe Journey Optimizer**.
+   Diese Berechtigungen sind erforderlich, damit die Mobile-App-Entwicklungsabteilung Anmeldedaten für Push-Benachrichtigungen in **Adobe Experience Launch** einrichten und Kanaloberflächen (d. h. Nachrichtenvoreinstellung) für Push-Benachrichtigungen in **Adobe Journey Optimizer** definieren kann.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
 1. Wählen Sie in [!DNL Adobe Experience Platform Data Collection] im linken Panel die Registerkarte **[!UICONTROL App-Oberflächen]**.
 
-1. Klicken **[!UICONTROL App-Oberfläche erstellen]** , um eine neue Konfiguration zu erstellen.
+1. Klicken Sie auf **[!UICONTROL App-Oberfläche erstellen]**, um eine neue Konfiguration zu erstellen.
 
    ![](assets/add-app-config.png)
 
@@ -331,7 +331,7 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
    ![](assets/test_push_11.png)
 
-1. Aus dem **[!UICONTROL Aktionen]** Dropdown-Liste, per Drag-and-Drop **[!UICONTROL Push]** -Aktivität auf Ihrer Journey.
+1. Ziehen Sie aus der Dropdown-Liste **[!UICONTROL Aktionen]** die Aktivität **[!UICONTROL Push]** per Drag-and-Drop auf Ihre Journey.
 
 1. Konfigurieren Sie die Push-Benachrichtigung. Weiterführende Informationen zum Erstellen von Push-Benachrichtigungen finden Sie auf dieser [Seite](../messages/get-started-content.md).
 
@@ -347,13 +347,13 @@ Ihr Ereignis wurde erstellt und kann jetzt in einer Journey verwendet werden.
 
 Ihr Ereignis wird ausgelöst und Sie erhalten in Ihrer Mobile App eine Push-Benachrichtigung.
 
-## Schritt 4: Erstellen einer Kanaloberfläche für Push-Benachrichtigungen{#message-preset}
+## Schritt 4: Erstellen Sie eine Kanaloberfläche für Push-Benachrichtigungen{#message-preset}
 
-Nachdem Ihre App in eingerichtet wurde [!DNL Adobe Experience Platform Data Collection], müssen Sie eine Oberfläche erstellen, über die Sie Push-Benachrichtigungen von **[!DNL Journey Optimizer]**.
+Nachdem Ihre Mobile App in [!DNL Adobe Experience Platform Data Collection] eingerichtet wurde, müssen Sie eine Oberfläche erstellen, damit Sie Push-Benachrichtigungen über **[!DNL Journey Optimizer]** senden können.
 
-Erfahren Sie, wie Sie eine Kanaloberfläche in erstellen und konfigurieren [diesem Abschnitt](../configuration/channel-surfaces.md).
+In [diesem Abschnitt](../configuration/channel-surfaces.md) erfahren Sie, wie Sie eine Kanaloberfläche erstellen und konfigurieren.
 
 Sie können jetzt mit Journey Optimizer Push-Benachrichtigungen senden.
 
 * Auf [dieser Seite](../messages/create-push.md) erfahren Sie, wie Sie eine Push-Nachricht erstellen.
-* Erfahren Sie, wie Sie einer Journey eine Nachricht hinzufügen können in [diesem Abschnitt](../building-journeys/journeys-message.md).
+* In [diesem Abschnitt](../building-journeys/journeys-message.md) erfahren Sie, wie Sie eine Nachricht zu einer Journey hinzufügen.

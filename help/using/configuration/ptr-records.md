@@ -9,7 +9,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Der Zugriff darauf erfolgt über das **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Datensätze]** Menü.
+Nachdem [eine Subdomain in Adobe Journey Optimizer delegiert wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](assets/ptr-records.png)
 
-In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
+In der Liste werden die für jede delegierte Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
 
 * „r“ für Eintrag (record),
 * „xx“ für die beiden letzten Zahlen der IP-Adresse,
@@ -99,7 +99,7 @@ Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol *
 
 >[!NOTE]
 >
->Die [Update-Verarbeitung](#processing) kann bis zu 3 Stunden dauern.
+>Die [Verarbeitung der Aktualisierung](#processing) kann bis zu drei Stunden dauern.
 
 Um die Details der PTR-Eintrag-Aktualisierung zu überprüfen, klicken Sie auf das Symbol daneben. In [diesem Abschnitt](#ptr-record-update-statuses) erfahren Sie mehr über die Status, die den verschiedenen Symbolen zugeordnet sind.
 

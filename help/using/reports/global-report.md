@@ -9,7 +9,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 85%
 
 Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Journeys und Ihrer Sendungen über einen bestimmten Zeitraum messen.
 
-* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey auswählen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche. Anschließend finden Sie die globalen Berichte Journey, E-Mail, SMS und Push .
+* Wenn Sie eine Journey oder Sendungen innerhalb einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Bericht anzeigen]**. Dort finden Sie die globalen Berichte zu Journeys, E-Mail-Nachrichten, SMS und Push-Benachrichtigungen.
 
    ![](assets/report_journey.png)
 

@@ -41,7 +41,7 @@ Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, i
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf der Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvorgabe) und beim [Erstellen der Nachricht](get-started-content.md#create-new-message) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf der Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und beim [Erstellen der Nachricht](get-started-content.md#create-new-message) definiert.
 
 ### Externes Opt-out {#opt-out-external-lp}
 

@@ -11,15 +11,15 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Statistische Berechnungen {#experiment-calculations}
+# Verstehen von statistische Berechnungen {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für eine Reihe von ausgewählten Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie bei Ihrer Adobe-Support-Person.
 
 In diesem Artikel werden die statistischen Berechnungen beschrieben, die beim Ausführen von Experimenten in Adobe Journey Optimizer verwendet werden. Experimente verwenden erweiterte statistische Methoden zur Berechnung **Konfidenzsequenzen** und **Konfidenz**, mit denen Sie Ihre Experimente so lange wie nötig ausführen und Ihre Ergebnisse kontinuierlich überwachen können.
 

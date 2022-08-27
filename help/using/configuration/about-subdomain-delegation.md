@@ -1,6 +1,6 @@
 ---
 title: Delegation einer Subdomain in  [!DNL Journey Optimizer]
-description: Informationen zum Zuweisen Ihrer Subdomains
+description: Informationen zum Delegieren Ihrer Subdomains
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -38,7 +38,7 @@ Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als
 
 **Weitere Informationen**
 
-* Erfahren Sie, wie Sie [Ihre Subdomains](delegate-subdomain.md) direkt über die Benutzeroberfläche erstellen.
+* Erfahren Sie, wie Sie [Ihre Subdomains](delegate-subdomain.md) direkt über die Benutzeroberfläche delegieren.
 * Erfahren Sie, wie Sie [Ihren Subdomains TXT-Einträge von Google](google-txt.md) hinzufügen, um den erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen.
 * Erfahren Sie, wie Sie [auf die für Ihre Subdomains generierten PTR-Einträge zugreifen](ptr-records.md), damit sie von E-Mail-Servern überprüft werden können.
 

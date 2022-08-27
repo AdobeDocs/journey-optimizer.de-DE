@@ -9,7 +9,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/jo-event7bis.png)
 
-1. **Segment erstellen**: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Mehr dazu](../segment/about-segments.md).
+1. **Segment erstellen**: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Weitere Informationen](../segment/about-segments.md).
 
    ![](assets/segment2.png)
 
@@ -31,7 +31,7 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/jo-datasource.png)
 
-1. **Konfigurieren einer Aktion**: Wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weitere Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwender** ausgeführt. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie lediglich eine Kanalaktion zu Ihrer Journey hinzufügen und Ihre Inhalte entwerfen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../messages/get-started-content.md).
+1. **Konfigurieren einer Aktion**: Wenn Sie für den Versand Ihrer Nachrichten ein Drittanbietersystem verwenden, können Sie eine benutzerdefinierte Aktion erstellen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../action/action.md). Dieser Schritt wird von einem **technischen Anwendenden** ausgeführt. Wenn Sie integrierte Nachrichtenfunktionen von Journey Optimizer verwenden, müssen Sie lediglich eine Kanalaktion zu Ihrer Journey hinzufügen und Inhalte entwerfen. Weitere Informationen finden Sie in [diesem Abschnitt](../messages/get-started-content.md).
 
    ![](assets/custom2.png)
 
@@ -60,7 +60,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
    ![](assets/read-segment.png)
 
-1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und danach eine Kanalaktion hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Ziehen Sie die nächsten Schritte, die der Kontakt ausführen soll, per Drag-and-Drop. Sie können beispielsweise eine Bedingung und anschließend eine Kanalaktion hinzufügen. Weitere Informationen zu Aktivitäten finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
 1. Testen Sie Ihre Journey mit Testprofilen. Weitere Informationen finden Sie in diesem [Abschnitt](testing-the-journey.md)
 
@@ -68,7 +68,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
    ![](assets/jo-journeyuc2_32bis.png)
 
-1. Überwachen Sie Ihre Journey mithilfe der dedizierten Reporting-Tools, um die Effektivität Ihrer Journey zu messen. Weitere Informationen finden Sie in diesem [Abschnitt](../reports/live-report.md).
+1. Überwachen Sie Ihre Journey mithilfe der dedizierten Reporting-Tools, um die Effektivität Ihrer Journey zu messen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../reports/live-report.md).
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
@@ -79,7 +79,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 >title="Journey-Eigenschaften"
 >abstract="In diesem Abschnitt werden die Journey-Eigenschaften angezeigt. Standardmäßig sind schreibgeschützte Parameter ausgeblendet. Die verfügbaren Einstellungen hängen vom Status der Journey, von Ihren Berechtigungen und der Produktkonfiguration ab."
 
-Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen. 
+Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen.
 
 Sie können den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und, wenn Sie ein Administrator sind, eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen. Sie können auch [Burst-Messaging](#burst) aktivieren, sofern diese Option für Ihre Organisation aktiviert wurde.
 

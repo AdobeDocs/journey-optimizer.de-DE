@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Journeys**
 
-* **Beenden einer Journey** - Auf der Journey-Arbeitsfläche **Ende** -Aktivität wurde aus der Palette entfernt. End-Tags werden jetzt standardmäßig am Ende jedes Pfades hinzugefügt und können nicht entfernt werden. Diese Verbesserung ermöglicht eine bessere Berichterstellung darüber, wo ein Kunde von der Journey ausgeschlossen wurde, ohne dass der Journey-Anwender Maßnahmen ergreifen muss. Siehe Abschnitt [Dokumentation](../building-journeys/journey-end.md) und [Feature Video](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Beenden einer Journey**: Auf der Journey-Arbeitsfläche wurde die Aktivität **Ende** aus der Palette entfernt. End-Tags werden jetzt standardmäßig am Ende jedes Pfades hinzugefügt und können nicht entfernt werden. Diese Verbesserung ermöglicht eine bessere Berichterstellung darüber, wo ein Kunde aus der Journey ausgestiegen ist, ohne dass die Person, die die Journey anwendet, Maßnahmen ergreifen muss. Weitere Informationen erhalten Sie in der [Dokumentation](../building-journeys/journey-end.md) und im [Funktionsvideo](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
 * Die **Zeitzone des Profils** in den Journey-Eigenschaften jetzt standardmäßig deaktiviert. [Weitere Informationen](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -109,7 +109,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 * **Aktualisierung der Zulassungslistenlogik**: Die Logik der Zulassungsliste gilt nun, sobald die Funktion aktiviert ist, selbst wenn die Liste leer ist. [Weitere Informationen](../configuration/allow-list.md#logic)
 
-* **URL-Tracking-Parameter** - Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen (d. h. Vorgaben) zu konfigurieren. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
+* **URL-Tracking-Parameter**: Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen (d. h. in den Voreinstellungen) zu konfigurieren. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 
