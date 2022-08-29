@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
+source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,32 +35,33 @@ Erstellen Sie Kampagnen, um einfache Ad-hoc-Batch-Nachrichten für Marketing-Anw
 
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in Journey Optimizer beginnen:
 
-1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzern mit Zugriff auf kampagnenbezogene **[!UICONTROL Produktprofil]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} für Ihre Organisation verwenden, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Administrator.
+1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzern mit Zugriff auf kampagnenbezogene **[!UICONTROL Produktprofil]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer.
 
-+++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
+   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} für Ihre Organisation verwenden, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Administrator.
 
-Zuweisen der entsprechenden **[!UICONTROL Produktprofil]** an Ihre Benutzer:
+   +++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
 
-1. Aus dem [!DNL Admin console], wählen Sie die [!DNL Adobe Experience Platform] Produkt.
+   Zuweisen der entsprechenden **[!UICONTROL Produktprofil]** an Ihre Benutzer:
 
-1. Aus dem **[!UICONTROL Produktprofil]** Registerkarte wählen Sie eine der nativen Campaign-bezogenen **[!UICONTROL Produktprofil]**: Kampagnenadministrator, Kampagnenvalidierer, Kampagnenmanager oder Kampagnen-Viewer.
+   1. Aus dem [!DNL Admin console], wählen Sie die [!DNL Adobe Experience Platform] Produkt.
 
-   Weitere Informationen zur Journey Optimizer-Kampagne **[!UICONTROL Produktprofile]** und **[!UICONTROL Berechtigungen]**, [auf diese Seite verweisen](../administration/ootb-product-profiles.md).
+   1. Aus dem **[!UICONTROL Produktprofil]** Registerkarte wählen Sie eine der nativen Campaign-bezogenen **[!UICONTROL Produktprofil]**: Kampagnenadministrator, Kampagnenvalidierer, Kampagnenmanager oder Kampagnen-Viewer.
 
-   ![](assets/do-not-localize/admin_1.png)
+      Weitere Informationen zur Journey Optimizer-Kampagne **[!UICONTROL Produktprofile]** und **[!UICONTROL Berechtigungen]**, [auf diese Seite verweisen](../administration/ootb-product-profiles.md).
 
-1. Klicken **[!UICONTROL Benutzer hinzufügen]** , um Ihrem Benutzer die ausgewählte **[!UICONTROL Produktprofil]**.
+      ![](assets/do-not-localize/admin_1.png)
 
-   ![](assets/do-not-localize/admin_2.png)
+   1. Klicken **[!UICONTROL Benutzer hinzufügen]** , um Ihrem Benutzer die ausgewählte **[!UICONTROL Produktprofil]**.
 
-1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse Ihres Benutzers ein und klicken Sie auf **[!UICONTROL Speichern]**.
+      ![](assets/do-not-localize/admin_2.png)
 
-Ihr Benutzer kann jetzt auf **[!UICONTROL Kampagnen]**.
+   1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse Ihres Benutzers ein und klicken Sie auf **[!UICONTROL Speichern]**.
+   Ihr Benutzer kann jetzt auf **[!UICONTROL Kampagnen]**.
 
 +++
 
 1. **Sie benötigen eine Zielgruppe**. Zielgruppensegmente müssen vor der Erstellung der Kampagne verfügbar sein. Erfahren Sie mehr über die Erstellung von Zielgruppen [auf dieser Seite](../segment/about-segments.md).
-1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche erstellt und verfügbar sein. Erfahren Sie mehr über Kanaloberflächen (d. h. Vorgaben). [auf dieser Seite](../configuration/channel-surfaces.md)
+1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Vorgabe) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen [auf dieser Seite](../configuration/channel-surfaces.md)
 
 ## Zugriff auf Kampagnen {#access}
 
