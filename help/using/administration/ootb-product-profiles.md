@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 85%
+source-wordcount: '1125'
+ht-degree: 75%
 
 ---
 
 # Integrierte Produktprofile {#ootb-product-profiles}
 
-Adobe Journey Optimizer bietet die neue Funktion „Inline-Authoring“, mit der Sie Ihre Nachrichten direkt in einer Journey erstellen und verfassen können. Weiterführende Informationen zu dieser neuen Funktion finden Sie auf dieser Seite.
 
->[!WARNING]
->
->Wenn Sie Benutzende haben, die nur dem Produktprofil **[!DNL Message Manager]**, nicht aber dem Produktprofil **[!DNL Journey manager]** zugeordnet sind, müssen Sie ihnen ein neues Produktprofil zuweisen, damit sie weiterhin Inhalte bearbeiten können.
+## Über Berechtigungen für Nachrichten{#message-permissions}
+
+Adobe Journey Optimizer hat neue Inline-Authoring-Funktionen eingeführt, mit denen Sie Ihre Nachrichten direkt über eine Journey oder eine Kampagne erstellen und erstellen können. Weitere Informationen zu dieser neuen Funktion finden Sie unter [auf diese Seite verweisen](../rn/inline-messages.md).
 
 Diese Funktion wirkt sich wie folgt auf die Berechtigungen aus:
 
@@ -31,9 +30,14 @@ Diese Funktion wirkt sich wie folgt auf die Berechtigungen aus:
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**Nach dem 25. Juli** werden Berechtigungen in Bezug auf Nachrichten weiterhin verfügbar sein, da auf Nachrichten weiterhin zugegriffen werden kann, um den Übergang zu ermöglichen, und Sie können sie weiterhin als Vorlage speichern.
+**Nach dem 25. Juli**, Berechtigungen im Zusammenhang mit **Nachrichten** weiterhin verfügbar sind, da der Zugriff auf Nachrichten nach wie vor erfolgt, um die Transition zu aktivieren, und Sie sie dennoch als Vorlage speichern können.
 
-**Ab dem 6. September** werden die Berechtigungen im Zusammenhang mit Nachrichten entfernt und die Nachrichten werden nicht mehr zugänglich sein.
+**Seit dem 6. September**, Berechtigungen im Zusammenhang mit **Nachrichten** entfernt und Nachrichten sind nicht mehr verfügbar.
+
+>[!WARNING]
+>
+>Wenn Sie Benutzer zugewiesen haben, die der **[!DNL Message Manager]** nur Produktprofil ohne **[!DNL Journey manager]** Produktprofil erstellen, müssen Sie ein neues Produktprofil zuweisen, damit sie mit der Bearbeitung von Inhalten fortfahren können.
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -62,9 +66,9 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 | Funktion | Berechtigungen| |-|-| |Kampagnen| <ul><li>**[!DNL Manage campaigns]**: Kampagnen lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Journey-Berichten.</li></ul>|
 |Entscheidungs-Management| <ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Nachrichtenberichten und Verwenden von Aktionsfunktionen.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>| |Administration| <ul><li>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-Die **[!DNL Campaign viewer]** Produktprofil ermöglicht schreibgeschützten Zugriff auf die **[!UICONTROL Kampagnen]** und **[!UICONTROL Entscheidungsmanagement]** Funktionen.
+Die **[!DNL Campaign Viewer]** Produktprofil ermöglicht schreibgeschützten Zugriff auf die **[!UICONTROL Kampagnen]** und **[!UICONTROL Entscheidungsmanagement]** Funktionen.
 
 Benutzer, die diesem Produktprofil zugewiesen sind, können weder bearbeiten noch veröffentlichen.
 
