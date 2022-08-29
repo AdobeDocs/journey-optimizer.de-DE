@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 59%
+source-wordcount: '518'
+ht-degree: 32%
 
 ---
 
@@ -18,13 +18,11 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Kampagnen"
->abstract="Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment über mehrere Kanäle hinweg bereitstellen. Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind."
+>abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für ein bestimmtes Segment über verschiedene Kanäle hinweg bereitzustellen. Stellen Sie vor der Erstellung Ihrer Kampagne sicher, dass Sie über eine Kanaloberfläche (d. h. eine Nachrichtenvorgabe) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind."
 
-## Über Kampagnen {#about}
+Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei Verwendung von Journey sind Aktionen so konzipiert, dass sie nacheinander ausgeführt werden. Bei Kampagnen werden Aktionen gleichzeitig, entweder sofort oder basierend auf einem festgelegten Zeitplan ausgeführt.
 
-Mit Kampagnen können Sie einmalige Inhalte für ein bestimmtes Segment mithilfe mehrerer Kanäle bereitstellen. Im Gegensatz zu Journeys, bei denen Aktionen nacheinander ausgeführt werden, führen Kampagnen Aktionen gleichzeitig aus, entweder sofort oder nach einem festgelegten Zeitplan.
-
-Auf diese Weise können Sie einfache Ad-hoc-Batch-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Mitteilungen, rechtliche Hinweise oder Richtlinienaktualisierungen senden.
+Erstellen Sie Kampagnen, um einfache Ad-hoc-Batch-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen zu senden.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
@@ -33,9 +31,13 @@ Auf diese Weise können Sie einfache Ad-hoc-Batch-Nachrichten für Marketing-Anw
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## Voraussetzungen {#campaign-prerequisites}
+## Vor Beginn {#campaign-prerequisites}
 
-Campaign steht nur Benutzern mit Zugriff auf eine Kampagne zur Verfügung **[!UICONTROL Produktprofil]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer.
+Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in Journey Optimizer beginnen:
+
+1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzern mit Zugriff auf kampagnenbezogene **[!UICONTROL Produktprofil]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer. Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} für Ihre Organisation verwenden, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Administrator.
+
++++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
 
 Zuweisen der entsprechenden **[!UICONTROL Produktprofil]** an Ihre Benutzer:
 
@@ -43,7 +45,7 @@ Zuweisen der entsprechenden **[!UICONTROL Produktprofil]** an Ihre Benutzer:
 
 1. Aus dem **[!UICONTROL Produktprofil]** Registerkarte wählen Sie eine der nativen Campaign-bezogenen **[!UICONTROL Produktprofil]**: Kampagnenadministrator, Kampagnenvalidierer, Kampagnenmanager oder Kampagnen-Viewer.
 
-   Weitere Informationen zu Campaign **[!UICONTROL Produktprofile]** und **[!UICONTROL Berechtigungen]**, siehe hierzu [page](../administration/ootb-product-profiles.md).
+   Weitere Informationen zur Journey Optimizer-Kampagne **[!UICONTROL Produktprofile]** und **[!UICONTROL Berechtigungen]**, [auf diese Seite verweisen](../administration/ootb-product-profiles.md).
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ Zuweisen der entsprechenden **[!UICONTROL Produktprofil]** an Ihre Benutzer:
 1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse Ihres Benutzers ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
 Ihr Benutzer kann jetzt auf **[!UICONTROL Kampagnen]**.
+
++++
+
+1. **Sie benötigen eine Zielgruppe**. Zielgruppensegmente müssen vor der Erstellung der Kampagne verfügbar sein. Erfahren Sie mehr über die Erstellung von Zielgruppen [auf dieser Seite](../segment/about-segments.md).
+1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche erstellt und verfügbar sein. Erfahren Sie mehr über Kanaloberflächen (d. h. Vorgaben). [auf dieser Seite](../configuration/channel-surfaces.md)
 
 ## Zugriff auf Kampagnen {#access}
 
