@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 95%
@@ -19,7 +19,6 @@ ht-degree: 95%
 >id="ajo_message_push"
 >title="Erstellen von Push-Benachrichtigungen"
 >abstract="Fügen Sie Ihre Push-Benachrichtigung hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
-
 
 Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erreichen – insbesondere dann, wenn sie Ihre Mobile App nicht aktiv verwenden. Push-Benachrichtigungen können Ihnen dabei helfen, eine Vielzahl von Anwendungsfällen abzudecken, z. B. Updates zu Ihrem Service bereitzustellen, einen Benutzer zu einer Aktion aufzufordern, den Benutzer auf ein neues Angebot hinzuweisen usw. Geräteplattformen erfordern ein Opt-in, bevor Endbenutzer Ihre Benachrichtigungen empfangen oder anzeigen können. Das Opt-in des Benutzers kann bereits nach dem ersten Start der App nach der Installation oder in einer nachfolgenden Sitzung oder einem nachfolgendem Workflow erfolgen.
 

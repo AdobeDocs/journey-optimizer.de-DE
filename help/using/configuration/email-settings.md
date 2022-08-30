@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 96%
@@ -36,7 +36,7 @@ Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberf
 >
 >**Transaktions**-E-Mails können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
-Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md#create-new-message), müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
+Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md), müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
 ## Subdomain und IP-Pool {#subdomains-and-ip-pools}
 

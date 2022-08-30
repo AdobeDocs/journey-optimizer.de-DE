@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebn
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Siehe [diesen Abschnitt](../messages/get-started-content.md).
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Siehe [diesen Abschnitt](../messages/messages-in-journeys.md).
 
 Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
 

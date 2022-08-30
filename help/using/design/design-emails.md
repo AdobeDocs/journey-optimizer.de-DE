@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 86%
 
 ---
 
 # Erste Schritte beim Entwerfen von E-Mails {#get-started-content-design}
 
-➡️ [Entdecken Sie diese Funktion im Video](#video)
+Sie können vorhandenen Inhalt in [!DNL Journey Optimizer] oder nutzen Sie die Funktionen zur Inhaltserstellung:
+
+* Verwendung [!DNL Journey Optimizer] **E-Mail-Designfunktionen** , um responsive E-Mails zu erstellen oder zu importieren. [Weitere Informationen](../design/create-email-content.md)
+
+* Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../design/assets-essentials.md)
+
+* Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern. [Weitere Informationen](../design/stock.md)
+
+* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte Nachrichten basierend auf ihren Profilattributen erstellen. [Weitere Informationen](../personalization/personalize.md)
+
+➡️ [Entdecken Sie diese Funktion im Video](#video).
+
+Nachdem Sie [Ihre Nachricht erstellt](../messages/get-started-content.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
 1. Wählen Sie in der neu erstellten Nachricht **[!UICONTROL Email Designer]** im Abschnitt **[!UICONTROL Textkörper]** aus.
 
@@ -35,11 +47,6 @@ ht-degree: 100%
 
 Diese Funktionen stehen beim Aufrufen von Email Designer im Bildschirm „Nachrichtenerstellung“ zur Verfügung. [Weitere Informationen zur Nachrichtenerstellung](../messages/get-started-content.md).
 
->[!NOTE]
->
->Beachten Sie, dass die Vorlagen im unteren Bereich statisch sind und nicht bearbeitet werden können. Die Vorlagen dienen nur der Illustration.
->
->Nachdem Sie [Ihre Nachricht erstellt](../messages/get-started-content.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
 ## Anleitungsvideo {#video}
 

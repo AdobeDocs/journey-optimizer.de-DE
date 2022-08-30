@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 94%
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->Am 22. Juli veröffentlichte Adobe Journey Optimizer eine [neue Funktion](using/rn/inline-messages.md) verbessert die Inhaltserstellung für Journey Optimizer-Kanäle (E-Mail, Push, SMS). Als Journey Optimizer-Anwender können Sie jetzt Ihre Nachrichten direkt aus einer Journey heraus [erstellen und verfassen](using/messages/get-started-content.md). Die Journeys werden automatisch für Sie konvertiert. Trotzdem brauchen wir Ihre Hilfe bei ein paar Schritten. Weitere Informationen über die [erforderlichen Schritte](using/rn/inline-messages-steps.md).
+>Am 22. Juli veröffentlichte Adobe Journey Optimizer eine [neue Funktion](using/rn/inline-messages.md) verbessert die Inhaltserstellung für Journey Optimizer-Kanäle (E-Mail, Push, SMS). Als Journey Optimizer-Anwender können Sie jetzt Ihre Nachrichten direkt aus einer Journey heraus [erstellen und verfassen](using/messages/messages-in-journeys.md). Die Journeys werden automatisch für Sie konvertiert. Trotzdem brauchen wir Ihre Hilfe bei ein paar Schritten. Weitere Informationen über die [erforderlichen Schritte](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
