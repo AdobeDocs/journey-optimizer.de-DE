@@ -5,13 +5,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 96%
 
 ---
 
@@ -35,19 +33,9 @@ Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angebe
 
 Um auf die detaillierte Liste der zugelassenen E-Mail-Adressen und Domains zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und klicken Sie auf **[!UICONTROL Zulassungsliste]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Zulassungsliste sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
-
-Um die Zulassungsliste als CSV-Datei zu exportieren, klicken Sie auf den Button **[!UICONTROL CSV herunterladen]**.
-
-Verwenden Sie den Button **[!UICONTROL Löschen]**, um einen Eintrag dauerhaft zu entfernen.
-
-Sie können nach E-Mail-Adressen oder Domains suchen und nach dem **[!UICONTROL Adresstyp]** filtern. Nach der Auswahl können Sie den oben in der Liste angezeigten Filter löschen.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Aktivieren der Zulassungsliste {#enable-allow-list}
 
@@ -55,13 +43,9 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
-1. Klicken Sie auf **[!UICONTROL Zulassungsliste aktivieren/deaktivieren]**.
-
-   ![](assets/allow-list-edit.png)
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus.
-
-   ![](assets/allow-list-enable.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Zulassungsliste ist aktiviert.
 
@@ -73,48 +57,11 @@ Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. 
 
 ## Entitäten zur Zulassungsliste hinzufügen {#add-entities}
 
-Um der Zulassungsliste für eine bestimmte Sandbox neue E-Mail-Adressen oder Domains hinzuzufügen, können Sie entweder [die Liste manuell vervollständigen](#manually-populate-list) oder einen [API-Aufruf](#api-call-allowed-list) verwenden.
+Um der Zulassungsliste für eine bestimmte Sandbox neue E-Mail-Adressen oder Domänen hinzuzufügen, können Sie eine [API-Aufruf](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >Die Zulassungsliste kann bis zu 1.000 Einträge enthalten.
-
-### Manuelles Vervollständigen der Zulassungsliste {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Hinzufügen von E-Mail-Adressen/Domains zur Zulassungsliste"
->abstract="Sie können der Zulassungsliste manuell neue E-Mail-Adressen oder Domains hinzufügen, indem Sie sie einzeln auswählen."
-
-Sie können die [!DNL Journey Optimizer]-Zulassungsliste durch Hinzufügen einer E-Mail-Adresse oder einer Domain über die Benutzeroberfläche vervollständigen.
-
->[!NOTE]
->
->Sie können jeweils nur eine einzelne E-Mail-Adresse oder Domain hinzufügen.
-
-Gehen Sie dazu wie folgt vor.
-
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Adresse oder Domain hinzufügen]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Wählen Sie den Adresstyp aus: **[!UICONTROL E-Mail-Adresse]** oder **[!UICONTROL Domain-Adresse]**.
-
-1. Geben Sie die E-Mail-Adresse oder Domain ein, an die Sie E-Mails senden möchten.
-
-   >[!NOTE]
-   >
-   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@firma.com) oder Domain (z. B. abc.firma.com) eingeben.
-
-1. Geben Sie bei Bedarf einen Grund an.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie  zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;blank&quot;}.
-
-1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 ### Hinzufügen von Entitäten mithilfe eines API-Aufrufs {#api-call-allowed-list}
 
