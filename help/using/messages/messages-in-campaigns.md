@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '107'
+ht-degree: 26%
 
 ---
 
@@ -20,7 +20,7 @@ Wählen Sie in Ihren Kampagnen den Kanal aus, den Sie entwerfen und personalisie
 >[!NOTE]
 >Sie können auch Journey erstellen, um ausgelöste Nachrichten zu senden. Weiterführende Informationen finden Sie [in diesem Abschnitt](messages-in-journeys.md).
 
-Erfahren Sie, wie Sie Nachrichten in einer Kampagne hinzufügen und konfigurieren [in diesem Abschnitt](../campaigns/create-campaign.md)
+Erfahren Sie, wie Sie Nachrichten in einer Kampagne hinzufügen und konfigurieren [in diesem Abschnitt](../campaigns/create-campaign.md).
 
 Auf der folgenden Seite erfahren Sie mit detaillierten Schritten, wie Sie Ihren Nachrichteninhalt erstellen:
 
