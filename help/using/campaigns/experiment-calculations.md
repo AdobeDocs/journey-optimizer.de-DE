@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ In diesem Artikel werden die statistischen Berechnungen beschrieben, die beim Au
 
 In diesem Artikel wird beschrieben, wie die Experimentierung funktioniert, und es wird eine intuitive Einführung in die Adobe bereitgestellt. **Beliebige zeitgültige Konfidenzsequenzen**.
 
-Für erfahrene Benutzer werden die technischen Details und Referenzen im Abschnitt [diese Seite](https://experienceleague.adobe.com/docs/journey-optimizer/assets/confidence_sequence_technical_details.pdf?lang=en).
+Für erfahrene Benutzer werden die technischen Details und Referenzen im Abschnitt [diese Seite](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Statistische Tests und Fehlerkontrolle {#statistical-testing}
 
@@ -34,11 +34,11 @@ Für erfahrene Benutzer werden die technischen Details und Referenzen im Abschni
 Wie in der obigen Tabelle dargestellt, dienen viele statistische Aufschlussmethoden dazu, zwei Arten von Fehlern zu beheben:
 
 * **Falsch positive Werte (Fehler vom Typ I)**: ist eine falsche Zurückweisung der Nullhypothese, obwohl sie tatsächlich wahr ist. Im Kontext von Online-Experimenten bedeutet dies, dass wir fälschlicherweise zu dem Schluss kommen, dass die Ergebnismetrik zwischen den einzelnen Behandlungen unterschiedlich ist, obwohl sie identisch war.
-   </br>Bevor wir das Experiment durchführen, wählen wir normalerweise einen Schwellenwert aus `$\alpha$`. Nachdem das Experiment ausgeführt wurde, wird die `$p$-value` berechnet wird und wir lehnen die `null if $p < \alpha$`. Ein häufig verwendeter Schwellenwert ist `$\alpha = 0.05$`, was bedeutet, dass wir auf lange Sicht erwarten, dass 5 von 100 Experimenten falsch-positive Ergebnisse sind.
+   </br>Bevor wir das Experiment durchführen, wählen wir normalerweise einen Schwellenwert aus `\alpha`. Nachdem das Experiment ausgeführt wurde, wird die `p-value` berechnet wird und wir lehnen die `null if p < \alpha`. Ein häufig verwendeter Schwellenwert ist `\alpha = 0.05`, was bedeutet, dass wir auf lange Sicht erwarten, dass 5 von 100 Experimenten falsch-positive Ergebnisse sind.
 
-* **False Negative (Fehler vom Typ II)**: bedeutet, dass wir die Null-Hypothese nicht zurückweisen, obwohl sie falsch ist. Für Experimente bedeutet dies, dass wir die Null-Hypothese nicht ablehnen, obwohl sie tatsächlich anders ist. Um diesen Fehlertyp zu steuern, müssen wir im Allgemeinen genügend Benutzer in unserem Experiment haben, um eine bestimmte Leistung zu garantieren, die wie folgt definiert ist: `$1 - \beta$`(d. h. eins abzüglich der Wahrscheinlichkeit eines Fehlers vom Typ II).
+* **False Negative (Fehler vom Typ II)**: bedeutet, dass wir die Null-Hypothese nicht zurückweisen, obwohl sie falsch ist. Für Experimente bedeutet dies, dass wir die Null-Hypothese nicht ablehnen, obwohl sie tatsächlich anders ist. Um diesen Fehlertyp zu steuern, müssen wir im Allgemeinen genügend Benutzer in unserem Experiment haben, um eine bestimmte Leistung zu garantieren, die wie folgt definiert ist: `1 - \beta`(d. h. eins abzüglich der Wahrscheinlichkeit eines Fehlers vom Typ II).
 
-Die meisten statistischen Erkennungsverfahren erfordern, dass Sie Ihre Stichprobengröße vorzeitig anhand der zu bestimmenden Effektgröße sowie Ihrer Fehlertoleranz (`$\alpha$` und `$\beta$`). Die Adobe Journey Optimizer-Methode ist jedoch so konzipiert, dass Sie Ihre Ergebnisse kontinuierlich für jede Stichprobengröße betrachten können.
+Die meisten statistischen Erkennungsverfahren erfordern, dass Sie Ihre Stichprobengröße vorzeitig anhand der zu bestimmenden Effektgröße sowie Ihrer Fehlertoleranz (`\alpha` und `\beta`). Die Adobe Journey Optimizer-Methode ist jedoch so konzipiert, dass Sie Ihre Ergebnisse kontinuierlich für jede Stichprobengröße betrachten können.
 
 ## Statistische Methode der Adobe: Beliebige zeitgültige Konfidenzsequenzen
 
@@ -50,11 +50,13 @@ Der Unterschied zwischen Konfidenzsequenzen und Konfidenzintervallen für ein ei
 
 **Konfidenzsequenzen** den Schwerpunkt von Experimenten auf Schätzungen statt auf Hypothesentests zu verlagern, d. h. auf eine genaue Schätzung des Unterschieds der Mittel zwischen den Behandlungen, anstatt darauf zu achten, ob eine Null-Hypothese basierend auf einem Schwellenwert für statistische Bedeutung zurückgewiesen wird oder nicht.
 
-In ähnlicher Weise wie die Beziehung zwischen `$p$-values`oder **Konfidenz** und **Konfidenzintervalle**, gibt es auch eine Beziehung zwischen **Konfidenzsequenzen** und jeder beliebigen Zeit `$p$-values`oder jedes beliebige gültige Vertrauen. Angesichts der Vertrautheit von Mengen wie der Konfidenz bietet die Adobe sowohl die **Konfidenzsequenzen** und jedes Mal gültige Vertrauen in die Berichte.
+In ähnlicher Weise wie die Beziehung zwischen `p-values`oder **Konfidenz** und **Konfidenzintervalle**, gibt es auch eine Beziehung zwischen **Konfidenzsequenzen** und jeder beliebigen Zeit `p-values`oder jedes beliebige gültige Vertrauen. Angesichts der Vertrautheit von Mengen wie der Konfidenz bietet die Adobe sowohl die **Konfidenzsequenzen** und jedes Mal gültige Vertrauen in die Berichte.
 
 Die theoretischen Grundlagen von **Konfidenzsequenzen** Sie stammen aus der Untersuchung von Sequenzen von zufälligen Variablen, die als Martingales bezeichnet werden. Im Folgenden werden einige wichtige Ergebnisse für erfahrene Leser vorgestellt, aber die Handlungsmöglichkeiten der Praktiker sind klar:
 
-    Konfidenzsequenzen können als sichere sequenzielle Analoga von Konfidenzintervallen interpretiert werden. Sie können Daten in Ihren Experimenten jederzeit ansehen und interpretieren sowie sicher stoppen oder Experimente fortsetzen. Die entsprechende &quot;Any Time Valid Confidence&quot;(Beliebige Zeit gültige Konfidenz) oder &quot;$p$-Wert&quot;(Beliebiger Wert) ist ebenfalls zur Interpretation sicher.
+>[!NOTE]
+>
+>Konfidenzsequenzen können als sichere sequenzielle Analoga von Konfidenzintervallen interpretiert werden. Sie können Daten in Ihren Experimenten jederzeit ansehen und interpretieren sowie sicher stoppen oder Experimente fortsetzen. die entsprechende &quot;Beliebige Zeit gültige Konfidenz&quot;oder `p-value`, ist auch sicher zu interpretieren.
 
 Da Konfidenzsequenzen &quot;jederzeit gültig&quot;sind, müssen sie konservativer sein als eine feste Horizontmethodik, die bei derselben Stichprobengröße verwendet wird. Die Begrenzungen der Konfidenzsequenz sind im Allgemeinen größer als die eines Konfidenzintervalls, während das jedes Mal gültige Konfidenzintervall kleiner ist als eine feste Horizont-Konfidenzberechnung. Der Vorteil dieses Konservatismus besteht darin, dass Sie Ihre Ergebnisse jederzeit sicher interpretieren können.
 

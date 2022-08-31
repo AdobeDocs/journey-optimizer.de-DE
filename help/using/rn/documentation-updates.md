@@ -2,9 +2,9 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1827'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
 * Für Journey, die die Aktivität Segment lesen verwenden, wurde eine Einschränkung hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md)
 * Die Seite mit den Operatoren für den Ausdruckseditor wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
+* Ein Abschnitt zur Planung einer Kampagne wurde hinzugefügt - [Mehr dazu](../campaigns/create-campaign.md)
 
 ## Juli 2022 {#july-2022}
 

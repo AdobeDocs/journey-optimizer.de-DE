@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 69%
+source-wordcount: '732'
+ht-degree: 56%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 69%
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 
-Gehen Sie wie folgt vor, um eine Kampagne zu erstellen:
+## Erste Kampagne erstellen {#create}
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf, und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >Sie können auch eine vorhandene Live-Kampagne duplizieren, um eine neue zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >Sie können auch eine vorhandene Live-Kampagne duplizieren, um eine neue zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ Gehen Sie wie folgt vor, um eine Kampagne zu erstellen:
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten, und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
-   ![](assets/create-campaign-action.png)
-
    Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >In der Dropdown-Liste werden nur Kanaloberflächen aufgelistet, die mit dem Kampagnentyp (Marketing oder Transaktion) kompatibel sind.
+   >In der Dropdown-Liste werden nur mit dem Marketingkampagnentyp kompatible Kanaloberflächen aufgelistet.
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an.
 
@@ -61,7 +63,8 @@ Gehen Sie wie folgt vor, um eine Kampagne zu erstellen:
       * [Erstellen einer E-Mail](../messages/create-email.md)
       * [Erstellen einer Push-Benachrichtigung](../messages/create-push.md)
       * [Erstellen einer SMS-Nachricht](../messages/create-sms.md)
-   1. Sobald Ihr Inhalt definiert ist, verwenden Sie **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um Ihren Inhalt mit Testprofilen in der Vorschau anzuzeigen und zu testen. [Weitere Informationen](../design/preview.md).
+   1. Sobald Ihr Inhalt definiert ist, verwenden Sie die **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um Ihren Inhalt mit Testprofilen in der Vorschau anzuzeigen und zu testen. [Weitere Informationen](../design/preview.md).
+
    1. Klicken Sie auf den Pfeil, um zum Bildschirm zur Kampagnenerstellung zurückzukehren.
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ Gehen Sie wie folgt vor, um eine Kampagne zu erstellen:
    >
    >Personen, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, werden nicht in die Kampagne einbezogen.
 
-1. Konfigurieren Sie den Zeitplan Ihrer Kampagne in den Feldern Start- und Enddatum . Standardmäßig starten Kampagnen, sobald sie manuell aktiviert werden, und enden, sobald die Nachricht einmal gesendet wurde.
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. Darüber hinaus können Sie die Ausführungshäufigkeit der in der Kampagne konfigurierten Aktion festlegen.
+1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie die **[!UICONTROL Zeitplan]** Abschnitt. [Erfahren Sie, wie Sie Kampagnen planen](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-Sobald Ihre Kampagne fertig ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate);
+Sobald Ihre Kampagne fertig ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
 
 ## Kampagne überprüfen und aktivieren {#review-activate}
 
@@ -128,3 +125,13 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte 
    Sie können auch zusätzliche Statistiken in speziellen Berichten einsehen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken. [Weitere Informationen](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## Eine Kampagne planen {#schedule}
+
+Standardmäßig starten Kampagnen, sobald sie manuell aktiviert wurden, und enden, sobald die Nachricht einmal gesendet wurde.
+
+Sie können festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die **[!UICONTROL Action Triggers]** Optionen im Bildschirm zur Kampagnenerstellung auswählen, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
+
+Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand mit der **[!UICONTROL Kampagnenstart]** -Option. Die  **[!UICONTROL Kampagnenende]** -Option können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne beendet werden soll.
+
+![](assets/create-campaign-schedule.png)

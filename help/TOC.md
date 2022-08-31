@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 98%
@@ -265,7 +265,7 @@ ht-degree: 98%
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Unterdrückungsliste](using/reports/suppression-list.md)
+      + [Unterdrückungsliste verstehen](using/reports/suppression-list.md)
 + Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
@@ -385,7 +385,6 @@ ht-degree: 98%
          + Überwachen von E-Mail-Adressen {#monitor-reputation}
             + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
-            + [Zulassungsliste](using/configuration/allow-list-temp.md)
             + [Zulassungsliste](using/configuration/allow-list.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
       + Einrichten von Kanaloberflächen {#set-up-channels}
