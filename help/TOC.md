@@ -249,7 +249,7 @@ ht-degree: 98%
    + Globaler Bericht {#global-report}
       + [Zugreifen auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
-      + [Campaign Global-Bericht](using/reports/campaign-global-report.md)
+      + [Globaler Bericht in Campaign](using/reports/campaign-global-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
       + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
    + Journey-Berichte {#reports}

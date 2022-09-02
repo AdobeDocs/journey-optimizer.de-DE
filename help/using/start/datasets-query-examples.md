@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[Datensatz zum E-Mail-Tracking-Erlebnis](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Datensatz mit Nachrichten-Feedback-Ereignissen](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Datensatz mit Push-Tracking-Erlebnis](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Journey-Schrittereignis](../start/datasets-query-examples.md#journey-step-event)
-[offer decisioning-Ereignis-Datensatz](../start/datasets-query-examples.md#ode-decisionevents)
-[Datensatz des Zustimmungsdienstes](../start/datasets-query-examples.md#consent-service-dataset)
-[Datensatz mit BCC-Feedback-Ereignissen](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
+[E-Mail-Tracking-Erfahrung-Ereignisdatensatz](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
+[Nachrichten-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#message-feedback-event-dataset)
+[Push-Tracking-Erfahrung-Ereignisdatensatz](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Journey-Step-Ereignis](../start/datasets-query-examples.md#journey-step-event)
+[Offer Decisioning-Ereignisdatensatz](../start/datasets-query-examples.md#ode-decisionevents)
+[Einverständnisdienst-Datensatz](../start/datasets-query-examples.md#consent-service-dataset)
+[BCC-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
-## Datensatz zum E-Mail-Tracking-Erlebnis{#email-tracking-experience-event-dataset}
+## E-Mail-Tracking-Erfahrung-Ereignisdatensatz{#email-tracking-experience-event-dataset}
 
-_Name in der Benutzeroberfläche : CJM-E-Mail-Tracking-Erlebnis-Datensatz_
+_Name in der Benutzeroberfläche: CJM-E-Mail-Tracking-Erfahrung-Ereignisdatensatz_
 
 Systemdatensatz für die Aufnahme von E-Mail-Tracking-Erlebnisereignissen aus Journey Optimizer.
 
 Das zugehörige Schema ist das CJM-E-Mail-Tracking-Erlebnisereignis-Schema.
 
-Diese Abfrage zeigt die Anzahl der unterschiedlichen E-Mail-Interaktionen (Öffnungen, Klicks) für eine bestimmte Nachricht:
+Diese Abfrage zeigt die Anzahl der verschiedenen E-Mail-Interaktionen (Öffnungen, Klicks) für eine bestimmte Nachricht:
 
 ```sql
 select
@@ -46,7 +46,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-Diese Abfrage zeigt die Zählung der unterschiedlichen E-Mail-Interaktionen (Öffnungen, Klicks) nach Nachricht für eine bestimmte Journey:
+Diese Abfrage zeigt die Aufschlüsselung der Anzahl der verschiedenen E-Mail-Interaktionen (Öffnungen, Klicks) nach Nachricht für eine bestimmte Journey:
 
 ```sql
 select
@@ -65,15 +65,15 @@ order by
 limit 100;
 ```
 
-## Datensatz mit Nachrichten-Feedback-Ereignissen{#message-feedback-event-dataset}
+## Nachrichten-Feedback-Ereignisdatensatz{#message-feedback-event-dataset}
 
-_Name in der Benutzeroberfläche: Datensatz mit CJM-Nachrichten-Feedback-Ereignissen_
+_Name in der Benutzeroberfläche: CJM-Nachrichten-Feedback-Ereignisdatensatz_
 
-Datensatz zur Aufnahme von E-Mail- und Push-App-Feedback-Ereignissen aus Journey Optimizer.
+Datensatz zur Aufnahme von E-Mail- und Push-Anwendungs-Feedback-Ereignissen aus Journey Optimizer.
 
-Das zugehörige Schema ist das Schema für CJM-Nachrichten-Feedback-Ereignis.
+Das zugehörige Schema ist das CJM-Nachrichten-Feedback-Ereignis-Schema.
 
-Diese Abfrage zeigt die Anzahl unterschiedlicher E-Mail-Feedback-Status (gesendet, Bounce usw.) für eine Nachricht an:
+Diese Abfrage zeigt die Anzahl unterschiedlicher E-Mail-Feedback-Status (gesendet, gebounct usw.) für eine bestimmte Nachricht:
 
 ```sql
 select
@@ -86,7 +86,7 @@ group by
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
 ```
 
-Diese Abfrage zeigt die Aufschlüsselung der Anzahl unterschiedlicher E-Mail-Feedback-Status (gesendet, Bounce etc.) nach Nachricht für eine bestimmte Journey:
+Diese Abfrage zeigt die Aufschlüsselung der Anzahl unterschiedlicher E-Mail-Feedback-Status (gesendet, gebounct etc.) nach Nachricht für eine bestimmte Journey:
 
 ```sql
 select
@@ -105,7 +105,7 @@ order by
 limit 100;
 ```
 
-Auf aggregierter Ebene Bericht auf Domänenebene (sortiert nach Top-Domänen): Domänenname, gesendete Nachricht, Bounces
+Auf aggregierter Ebene Bericht auf Domain-Ebene (sortiert nach Top-Domains): Domain-Name, gesendete Nachricht, Bounces
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
@@ -117,19 +117,19 @@ E-Mail-Sendungen täglich:
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-Finden Sie heraus, ob eine bestimmte E-Mail-ID eine E-Mail erhalten hat oder nicht, und falls nicht, was war der Fehler, die Bounce-Kategorie, der Code:
+Finden Sie heraus, ob eine bestimmte E-Mail-ID eine E-Mail erhalten hat oder nicht. Wenn nicht, was war dann der Fehler, die Bounce-Kategorie oder der Code:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-Suchen Sie die Liste aller einzelnen E-Mail-IDs, die in den letzten x Stunden/Tagen einen bestimmten Fehler, eine bestimmte Bounce-Kategorie oder einen bestimmten Code hatten oder die mit einem bestimmten Nachrichtenversand verbunden waren:
+Finden Sie die Liste aller individuellen E-Mail-IDs, die in den letzten x Stunden/Tagen einen bestimmten Fehler, eine Bounce-Kategorie oder einen Code hatten oder mit einer bestimmten Nachrichtenübermittlung verbunden waren:
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-Hardbounce-Rate auf Aggregatebene:
+Hard-Bounce-Rate auf aggregierter Ebene:
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
@@ -141,13 +141,13 @@ Ständige Fehler, gruppiert nach Bounce-Code:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-## Datensatz mit Push-Tracking-Erlebnis {#push-tracking-experience-event-dataset}
+## Push-Tracking-Erlebnisereignis-Datensatz {#push-tracking-experience-event-dataset}
 
-_Name in der Benutzeroberfläche: Datensatz zum CJM-Push-Tracking-Erlebnis_
+_Name in der Benutzeroberfläche: CJM-Push-Tracking-Erlebnisereignis-Datensatz_
 
-Datensatz für die Erfassung von Erlebnisereignissen für Mobilgerät-Tracking für Push-Benachrichtigungen von Journey Optimizer.
+Datensatz für die Aufnahme von Mobile-Tracking-Erlebnisereignissen für Push von Journey Optimizer.
 
-Das zugehörige Schema ist das Schema für CJM-Push-Tracking-Erlebnis.
+Das zugehörige Schema ist das CJM-Push-Tracking-Erlebnisereignis-Schema.
 
 Abfragebeispiel:
 
@@ -158,15 +158,15 @@ group by _experience.customerJourneyManagement.pushChannelContext.platform
 select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
-## Journey-Schrittereignis{#journey-step-event}
+## Journey-Schritt-Ereignis{#journey-step-event}
 
-_Interner Name: Journey Step Events (System-Datensatz)_
+_Interner Name: Journey-Schritt-Ereignisse (Systemdatensatz)_
 
-Datensatz für die Aufnahme von Schrittereignissen in der Journey.
+Datensatz für die Aufnahme von Schritt-Ereignissen in der Journey.
 
-Das zugehörige Schema ist das Journey Step Event-Schema zur Journey Orchestration.
+Das zugehörige Schema ist das Journey-Schritt-Ereignis-Schema zur Journey Orchestration.
 
-Diese Abfrage zeigt die Aufschlüsselung der Erfolgszählungen der Aktion nach Aktionsbezeichnung für eine bestimmte Journey:
+Diese Abfrage zeigt die Aufschlüsselung der Aktionserfolgszahlen nach Aktionsbezeichnung für eine bestimmte Journey:
 
 ```sql
 select
@@ -199,11 +199,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## offer decisioning-Ereignis-Datensatz{#ode-decisionevents}
+## Offer Decisioning-Ereignisdatensatz{#ode-decisionevents}
 
-_Name in der Benutzeroberfläche: ODE DecisionEvents (System-Datensatz)_
+_Name in der Benutzeroberfläche: ODE DecisionEvents (Systemdatensatz)_
 
-Datensatz zur Aufnahme von Angebotsvorschlägen für Benutzer.
+Datensatz für die Aufnahme von Angebotsvorschlägen an die Benutzenden.
 
 Das zugehörige Schema ist ODE DecisionEvents.
 
@@ -220,7 +220,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-Diese Abfrage zeigt an, wie oft Angebote in den letzten 30 Tagen einer bestimmten Aktivität/Entscheidung vorgeschlagen wurden und welche Priorität ihnen zugewiesen wurde.
+Diese Abfrage zeigt die Anzahl der Angebote, die in den letzten 30 Tagen für eine bestimmte Aktivität/Entscheidung vorgeschlagen wurden, und die damit verbundene Angebotspriorität.
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -229,13 +229,13 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## Datensatz des Zustimmungsdienstes{#consent-service-dataset}
+## Einverständnisdienst-Datensatz{#consent-service-dataset}
 
-_Name in der Benutzeroberfläche: Datensatz des CJM Consent Service (Systemdatensatz)_
+_Name in der Benutzeroberfläche: CJM-Einverständnisdienst-Datensatz (Systemdatensatz)_
 
 Datensatz für den Journey Optimizer-Einverständnisdienst.
 
-Das zugehörige Schema ist das CJM Consent Service-Schema.
+Das zugehörige Schema ist das CJM-Einverständnisdienst-Schema.
 
 Abfrage zur Auflistung von E-Mail-IDs, die dem Empfang von E-Mails zugestimmt haben:
 
@@ -249,7 +249,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-Abfrage zur Rückgabe des Zustimmungswerts für eine E-Mail-ID, wobei die E-Mail-ID die Eingabe sein würde:
+Abfrage zur Rückgabe des Einverständniswerts für eine E-Mail-ID, wobei die E-Mail-ID die Eingabe ist:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -259,13 +259,13 @@ select value.marketing.email.val FROM (
  )
 ```
 
-## Datensatz mit BCC-Feedback-Ereignissen{#bcc-feedback-event-dataset}
+## BCC-Feedback-Ereignisdatensatz{#bcc-feedback-event-dataset}
 
-_Name in der Benutzeroberfläche: AJO BCC Feedback Event Datensatz (Systemdatensatz)_
+_Name in der Benutzeroberfläche: AJO-BCC-Feedback-Ereignisdatensatz (Systemdatensatz)_
 
 Datensatz zum Speichern von Informationen für BCC-Nachrichten.
 
-Abfrage für alle BCC-Nachrichten innerhalb von 2 Tagen (für eine bestimmte Kampagne):
+Abfrage aller BCC-Nachrichten innerhalb von 2 Tagen (für eine bestimmte Kampagne):
 
 ```sql
 SELECT bcc.*
@@ -275,7 +275,7 @@ WHERE
     bcc.timestamp >= now() - INTERVAL '2' day; 
 ```
 
-Abfrage mit Feedback-Datensatz, um Benutzer anzuzeigen, die nicht (alle Bounces und Unterdrückungen) erhalten haben und BCC-Eintrag für eine bestimmte Nachricht haben:
+Abfrage mit Feedback-Datensatz, um die Benutzenden anzuzeigen, die nicht (alle Bounces und Unterdrückungen) empfangen haben und die einen BCC-Eintrag für eine bestimmte Nachricht haben:
 
 ```sql
 SELECT 

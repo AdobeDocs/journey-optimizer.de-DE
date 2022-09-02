@@ -1,6 +1,6 @@
 ---
-title: Campaign Global-Bericht
-description: Erfahren Sie, wie Sie Daten aus dem Campaign Global-Bericht verwenden.
+title: Globaler Bericht in Campaign
+description: Erfahren Sie, wie Sie Daten im globalen Bericht in Campaign verwenden
 feature: Reporting
 topic: Content Management
 role: User
@@ -9,11 +9,11 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
-# Campaign Global-Bericht {#campaign-global-report}
+# Globaler Bericht in Campaign {#campaign-global-report}
 
 Der globale Campaign-Bericht ist direkt über Ihre Kampagne mit der Variablen **[!UICONTROL Berichte]** Schaltfläche.
 
@@ -67,7 +67,7 @@ Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versand
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
-Die **[!UICONTROL E-Mail - Trackingstatistiken]** -Widget enthält die für die Empfängeraktivität für Ihren Versand verfügbaren Daten:
+Das Widget **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügbaren Daten zur Empfängeraktivität für Ihren Versand:
 
 * **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
 
