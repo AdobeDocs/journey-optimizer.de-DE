@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 95%
@@ -43,7 +43,7 @@ Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten T
 
 In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
 
-Bezüglich der Argumente für literale Funktionen unterstützt der Parser für die Vorlagensprache kein einzelnes unescaptes umgekehrtes Schrägstrich (&#39;\&#39;)-Symbol. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (&#39;\&#39;) maskiert werden. Beispiel:
+Bezüglich der Argumente für literale Funktionen unterstützt der Vorlagensprachparser keinen einfachen unescapten umgekehrten Schrägstrich (`\`). Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`). Beispiel:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
