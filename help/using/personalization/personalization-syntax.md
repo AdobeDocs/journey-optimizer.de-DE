@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 98%
+source-wordcount: '730'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,10 @@ Die Syntax unterscheidet zwischen Groß- und Kleinschreibung.
 Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
 In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
+
+Bezüglich der Argumente für literale Funktionen unterstützt der Parser für die Vorlagensprache kein einzelnes unescaptes umgekehrtes Schrägstrich (&#39;\&#39;)-Symbol. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (&#39;\&#39;) maskiert werden. Beispiel:
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Profil
 

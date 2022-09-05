@@ -2,10 +2,10 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1827'
-ht-degree: 98%
+source-wordcount: '1873'
+ht-degree: 96%
 
 ---
 
@@ -19,8 +19,9 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
 * Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
 * Für Journey, die die Aktivität Segment lesen verwenden, wurde eine Einschränkung hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md)
-* Die Seite mit den Operatoren für den Ausdruckseditor wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
+* Die Seite mit den Operatoren im Ausdruckseditor wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
 * Ein Abschnitt zur Planung einer Kampagne wurde hinzugefügt - [Mehr dazu](../campaigns/create-campaign.md)
+* Der Abschnitt mit allgemeinen Syntaxregeln für den Ausdruckseditor wurde aktualisiert, um die neue Regel bezüglich der Escapezeichen für umgekehrte Schrägstriche in literalen Funktionen zu berücksichtigen. Die vorhandenen veröffentlichten Nachrichten sind von dieser Änderung nicht betroffen. Nur die neuen Nachrichten oder Nachrichtenentwürfe müssen aktualisiert werden. [Mehr dazu](../personalization/personalization-syntax.md#general-rules)
 
 ## Juli 2022 {#july-2022}
 
