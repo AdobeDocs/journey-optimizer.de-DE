@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 94%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die **Inhaltstest** ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+
+Verwenden Sie Journey Optimizer Content Experiment , um mehrere Bereitstellungsbehandlungen zu definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variieren.
 
 >[!NOTE]
 >
->Bevor Sie Inhaltsexperimente verwenden, stellen Sie sicher, dass Ihre Berichtskonfiguration für Ihre benutzerdefinierten Datensätze festgelegt ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](reporting-configuration.md).
-
-Mit der Funktion für Inhaltsexperimente können Sie mehrere Versandbehandlungen definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variieren.
+>Bevor Sie mit Content Experiment beginnen, stellen Sie sicher, dass Ihre Berichtskonfiguration für Ihre benutzerdefinierten Datensätze festgelegt ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](reporting-configuration.md).
 
 Im nachstehenden Beispiel wurde die Zielgruppe des Versands in zwei Gruppen aufgeteilt, die jeweils 45 % der Zielpopulation repräsentieren, und eine neutrale Gruppe von 10 %, die den Versand nicht erhalten wird.
 
@@ -38,9 +38,9 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ![](assets/content_experiment.png)
 
-## Erstellen der Kampagne {#campaign-experiment}
+## Kampagne erstellen {#campaign-experiment}
 
-1. Klicken Sie auf der Seite **[!UICONTROL Kampagnen]** auf **[!UICONTROL Kampagne erstellen]**.
+1. Aus dem **[!UICONTROL Kampagnen]** Seite, klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -55,7 +55,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
    * **[!UICONTROL Beschreibung]**
    * **[!UICONTROL Kategorie]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transaktion]**
 
-1. Um Ihr Inhaltsexperiment zu starten, aktivieren Sie die Option **[!UICONTROL Inhaltsexperiment]**. Das Menü **[!UICONTROL Inhaltsexperiment]** wird angezeigt.
+1. Um Ihr Inhaltsexperiment zu starten, aktivieren Sie die Option **[!UICONTROL Inhaltsexperiment]**. Die **[!UICONTROL Inhaltsexperiment]** angezeigt.
 
    ![](assets/content_experiment_3.png)
 
@@ -99,9 +99,9 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 1. Klicken Sie auf **[!UICONTROL Email Designer]**, um den Versand von Variante B bei Bedarf weiter zu personalisieren.
 
-Nachdem Ihre Varianten personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
+Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
 
-## Konfigurieren des Inhaltsexperiments {#configure-experiment}
+## Konfigurieren des Inhaltserlebnisses {#configure-experiment}
 
 1. Wenn beide Varianten personalisiert sind, wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** die Option **[!UICONTROL Inhaltsexperiment konfigurieren]**.
 

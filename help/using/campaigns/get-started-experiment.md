@@ -2,16 +2,16 @@
 title: Erste Schritte mit dem Inhaltsexperiment
 description: Weitere Informationen zum Inhaltsexperiment in  [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 100%
+source-wordcount: '1513'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Funktion &quot;Inhaltserfahrung&quot;ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Was ist ein Inhaltsexperiment?
 
@@ -35,7 +35,7 @@ Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Ve
 
 Auf diese Weise können Sie datengestützte Entscheidungen treffen, um Ihre geschäftlichen Ziele zu optimieren.
 
-Für Inhaltsexperimente in Adobe Journey Optimizer können Sie beispielsweise folgende Ideen testen:
+Für Inhaltstests in Adobe Journey Optimizer können Sie Ideen testen, z. B.:
 
 * **Betreffzeile**: Wie könnte sich eine Änderung des Tons oder des Personalisierungsgrads in der Betreffzeile auswirken?
 * **Nachrichteninhalt**: Führt eine Änderung des visuellen Layouts einer E-Mail zu mehr Klicks bei der E-Mail?
@@ -61,7 +61,7 @@ So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrich
 +++ Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
 Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Behandlungen können Sie in der Zielmetrik erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
-Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
+Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank}, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++
 
 +++ Verstehen Sie statistische Unsicherheiten
@@ -105,11 +105,11 @@ Wenn sich die Konfidenzintervalle für zwei Behandlungen kaum überschneiden, be
 
 Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse zu jedem Zeitpunkt des Experiments sicher angezeigt werden können.
 
-### 3. Grundlagen zur Steigerung {#understand-lift}
+### 3. Steigerungen verstehen {#understand-lift}
 
 In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Grundlinie]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung gegenüber der Grundlinie darstellt. Genauer gesagt handelt es sich um den Unterschied in der Leistung zwischen einer bestimmten Behandlung und der Grundlinie, geteilt durch die Leistung der Grundlinie, ausgedrückt in Prozent.
 
-### 3. Verstehen von Konfidenz {#understand-confidence}
+### 3. Vertrauen verstehen {#understand-confidence}
 
 Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Leistung der einzelnen Behandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Behandlung mit der Grundlinienbehandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Grundlinien- und die Nicht-Grundlinien-Behandlung die gleiche Leistung aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Behandlung und der Grundlinie beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 

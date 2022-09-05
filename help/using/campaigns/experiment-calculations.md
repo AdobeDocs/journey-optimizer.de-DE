@@ -1,27 +1,29 @@
 ---
-title: Bei Experimenten verwendete statistische Berechnungen
+title: Von Adobe Journey Optimizer Experimentation verwendete statistische Berechnungen
 description: Erfahren Sie mehr über statistische Berechnungen, die bei der Durchführung von Experimenten verwendet werden
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 93%
 
 ---
 
-# Verstehen von statistische Berechnungen {#experiment-calculations}
+# Statistische Berechnungen verstehen {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die **Inhaltstest** ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden. Experimente verwenden fortschrittliche statistische Methoden zur Berechnung von **Konfidenzsequenzen** und **Konfidenz**, die es Ihnen ermöglichen, Ihre Experimente so lange wie nötig durchzuführen und Ihre Ergebnisse kontinuierlich zu überwachen.
+Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden.
+
+Experimente verwenden fortschrittliche statistische Methoden zur Berechnung von **Konfidenzsequenzen** und **Konfidenz**, die es Ihnen ermöglichen, Ihre Experimente so lange wie nötig durchzuführen und Ihre Ergebnisse kontinuierlich zu überwachen.
 
 Dieser Artikel beschreibt die Funktionsweise von Experimenten und bietet eine intuitive Einführung in die **jederzeit gültigen Konfidenzsequenzen** von Adobe.
 
@@ -68,4 +70,4 @@ Jedes Mal, wenn Sie sich den Experimentbericht anzeigen lassen, analysiert Adobe
 
 Zu diesem Zeitpunkt wird die Behandlung, die die beste Leistung aufweist (basierend auf der Konversionsrate oder dem profilnormierten Metrikwert), am oberen Rand des Berichtsbildschirms hervorgehoben und im tabellarischen Bericht mit einem Stern gekennzeichnet. Nur Behandlungen, die eine Konfidenz von mehr als 95 % aufweisen, sowie die Grundlinie werden bei dieser Bestimmung berücksichtigt.
 
-Wenn es mehr als zwei Behandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Behandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall erklärt Adobe die Behandlung mit der höchsten Konversionsrate (oder dem höchsten profilnormierten Metrikwert) zum besten Ergebnis.
+Wenn es mehr als zwei Behandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Behandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall deklariert Adobe Journey Optimizer die mit der höchsten Konversionsrate (oder dem profilnormalisierten Metrikwert) als die leistungsstärkste.
