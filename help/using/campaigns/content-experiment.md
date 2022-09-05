@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 89%
@@ -101,7 +101,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
 
-## Konfigurieren des Inhaltserlebnisses {#configure-experiment}
+## Konfigurieren des Inhaltsexperiments {#configure-experiment}
 
 1. Wenn beide Varianten personalisiert sind, wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** die Option **[!UICONTROL Inhaltsexperiment konfigurieren]**.
 
