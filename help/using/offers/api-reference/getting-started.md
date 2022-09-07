@@ -1,21 +1,21 @@
 ---
 title: Erste Schritte
-description: Erfahren Sie, wie Sie die Angebotsbibliotheks-API verwenden, um wichtige Aktionen mit der Entscheidungs-Management-Engine auszuführen.
+description: Erfahren Sie, wie Sie mit der Verwendung der Angebotsbibliothek-API beginnen, um wichtige Vorgänge mithilfe der Entscheidungs-Engine durchzuführen.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
 # Entwicklerhandbuch für die Entscheidungs-Management-API {#decision-management-api-developer-guide}
 
-In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Außerdem enthält das Handbuch Beispiel-API-Aufrufe für die Ausführung von wichtigen Operationen mit der Entscheidungs-Management-Engine.
+In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch enthält dann Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungs-Engine.
 
 ➡️ [Weitere Informationen zu den Komponenten des Entscheidungs-Managements finden Sie in diesem Video](#video)
 
@@ -25,7 +25,7 @@ Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Exper
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}: Das standardisierte Framework, mit dem [!DNL Experience Platform] Kundenerlebnisdaten organisiert.
    * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target=&quot;_blank&quot;}: Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
-* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten, die für Erlebnisentscheidungen im Allgemeinen und Angebotsentscheidungen im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
+* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für Erlebnisentscheidungen im Allgemeinen und für das Entscheidungsmanagement im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de){target=&quot;_blank&quot;}: PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken auf XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 >[!NOTE]
 >
-> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet Offer-Decisioning-Objekte. Wenn Ihr Unternehmen den In-App-Nachrichtenkanal verwendet, enthalten API-Listenanfragen für Objekte Objekte, die vom In-App-Nachrichten-Service erstellt wurden, und können für Offer-Decisioning-Anwendungsfälle ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Kennzeichnung: `createdBy = “Mobile_Sheliak”`.
+> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet Entscheidungsverwaltungsobjekte. Wenn Ihr Unternehmen den In-App-Messaging-Kanal verwendet, enthalten API-Listenanfragen für Objekte vom In-App-Messaging-Dienst erstellte Objekte und können für Anwendungsfälle der Entscheidungsverwaltung ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Kennzeichnung: `createdBy = “Mobile_Sheliak”`.
 
 ## Anleitungsvideo {#video}
 

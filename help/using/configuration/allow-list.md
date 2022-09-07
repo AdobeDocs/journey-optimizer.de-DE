@@ -5,24 +5,27 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 96%
+source-wordcount: '972'
+ht-degree: 62%
 
 ---
 
 # Zulassungsliste {#allow-list}
 
-Sie haben die Möglichkeit, auf der [Sandbox](../administration/sandboxes.md)-Ebene eine spezielle Sicherheitsliste für den Versand zu definieren, um eine sichere Umgebung für Testzwecke zu gewährleisten.
+Es ist möglich, eine spezifische Liste für die Sicherheit des Versands im [Sandbox](../administration/sandboxes.md) Ebene.
 
-Beispielsweise wird auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, durch die Zulassungsliste sichergestellt, dass Sie keine unerwünschten Nachrichten an Ihre Kunden senden.
+Mit dieser Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domänen angeben, die die einzigen Empfänger oder Domänen sind, die berechtigt sind, die von einer bestimmten Sandbox gesendeten E-Mails zu empfangen.
 
 >[!NOTE]
 >
 >Diese Funktion ist jetzt sowohl in Produktions-Sandboxes als auch Nicht-Produktions-Sandboxes verfügbar.
 
-Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angeben, die die einzigen Empfänger oder Domains sind, die zum Empfang der von einer bestimmten Sandbox gesendeten E-Mails berechtigt sind. Dadurch können Sie verhindern, dass Sie in einer Testumgebung versehentlich E-Mails an echte Kundenadressen senden.
+Auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, stellt die Zulassungsliste beispielsweise sicher, dass Sie kein Risiko haben, unerwünschte Nachrichten an reale Kundenadressen zu senden, und bietet daher eine sichere Umgebung für Testzwecke.
+
+Wenn die Zulassungsliste aktiv, aber leer ist, wird keine E-Mail gesendet. Wenn Sie also auf ein großes Problem stoßen, können Sie diese Funktion verwenden, um alle ausgehenden Nachrichten von zu stoppen. [!DNL Journey Optimizer] bis Sie das Problem beheben. Weitere Informationen finden Sie unter [Zulassungsliste](#logic).
 
 >[!CAUTION]
 >
@@ -32,35 +35,108 @@ Mit der Zulassungsliste können Sie einzelne E-Mail-Adressen oder Domains angebe
 
 Um auf die detaillierte Liste der zugelassenen E-Mail-Adressen und Domains zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und klicken Sie auf **[!UICONTROL Zulassungsliste]**.
 
+![](assets/allow-list-access.png)
+
 >[!CAUTION]
 >
 >Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Zulassungsliste sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 
-## Aktivieren der Zulassungsliste {#enable-allow-list}
+Um die Zulassungsliste als CSV-Datei zu exportieren, klicken Sie auf den Button **[!UICONTROL CSV herunterladen]**.
+
+Verwenden Sie den Button **[!UICONTROL Löschen]**, um einen Eintrag dauerhaft zu entfernen.
+
+Sie können nach E-Mail-Adressen oder Domains suchen und nach dem **[!UICONTROL Adresstyp]** filtern. Nach der Auswahl können Sie den oben in der Liste angezeigten Filter löschen.
+
+![](assets/allowed-list-filtering-example.png)
+
+## Zulassungsliste aktivieren {#enable-allow-list}
 
 Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Klicken **[!UICONTROL Deaktiviert]**.
 
-1. Wählen Sie **[!UICONTROL Zulassungsliste aktivieren]** aus.
+   ![](assets/allow-list-edit.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Zulassungsliste ist aktiviert.
+1. Auswählen **[!UICONTROL Zulassungsliste aktivieren]**. Die Zulassungsliste ist jetzt aktiv.
 
-Die Logik der Zulassungsliste wird angewendet, wenn die Funktion aktiviert ist. Weiterführende Informationen finden Sie in diesem [Abschnitt](#logic).
+   ![](assets/allow-list-enable.png)
+
+   >[!NOTE]
+   >
+   >Nachdem Sie die Zulassungsliste aktiviert haben, ist sie in Ihren Journey und Kampagnen mit einer Latenz von 5 Minuten aktiv.
+
+Die Logik der Zulassungsliste gilt, wenn die Funktion aktiv ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
 >[!NOTE]
 >
->Wenn sie aktiviert ist, wird die Funktion „Zulassungsliste“ beim Ausführen von Journey-Tests, aber auch beim Testen von Nachrichten mit [Testsendungen](../design/preview.md#send-proofs) und beim Testen von Journeys unter Verwendung des [Testmodus](../building-journeys/testing-the-journey.md) berücksichtigt.
+>Wenn diese Funktion aktiviert ist, wird die Funktion Zulassungsliste beim Ausführen von Journey, aber auch beim Testen von Nachrichten mit [proofs](../design/preview.md#send-proofs) und Testen von Journey mithilfe der [Testmodus](../building-journeys/testing-the-journey.md).
+
+## Zulassungsliste deaktivieren {#deactivate-allow-list}
+
+Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
+
+1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
+
+1. Klicken **[!UICONTROL Aktiv]**.
+
+   ![](assets/allow-list-edit-active.png)
+
+1. Auswählen **[!UICONTROL Zulassungsliste deaktivieren]**. Die Zulassungsliste ist nicht mehr aktiv.
+
+   ![](assets/allow-list-deactivate.png)
+
+   >[!NOTE]
+   >
+   >Nachdem Sie die Zulassungsliste deaktiviert haben, ist sie in Ihren Journey und Kampagnen auf 5 Minuten Latenz gesetzt.
+
+Die Logik der Zulassungsliste gilt nicht, wenn die Funktion deaktiviert wird. Weiterführende Informationen finden Sie in [diesem Abschnitt](#logic).
 
 ## Entitäten zur Zulassungsliste hinzufügen {#add-entities}
 
-Um der Zulassungsliste für eine bestimmte Sandbox neue E-Mail-Adressen oder Domänen hinzuzufügen, können Sie eine [API-Aufruf](#api-call-allowed-list).
+Um der Zulassungsliste für eine bestimmte Sandbox neue E-Mail-Adressen oder Domains hinzuzufügen, können Sie entweder [die Liste manuell vervollständigen](#manually-populate-list) oder einen [API-Aufruf](#api-call-allowed-list) verwenden.
 
 >[!NOTE]
 >
 >Die Zulassungsliste kann bis zu 1.000 Einträge enthalten.
+
+### Manuelles Vervollständigen der Zulassungsliste {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add"
+>title="Hinzufügen von E-Mail-Adressen/Domains zur Zulassungsliste"
+>abstract="Sie können der Zulassungsliste manuell neue E-Mail-Adressen oder Domains hinzufügen, indem Sie sie einzeln auswählen."
+
+Sie können die [!DNL Journey Optimizer]-Zulassungsliste durch Hinzufügen einer E-Mail-Adresse oder einer Domain über die Benutzeroberfläche vervollständigen.
+
+>[!NOTE]
+>
+>Sie können jeweils nur eine einzelne E-Mail-Adresse oder Domain hinzufügen.
+
+Gehen Sie dazu wie folgt vor.
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Adresse oder Domain hinzufügen]**.
+
+   ![](assets/allowed-list-add-email.png)
+
+1. Wählen Sie den Adresstyp aus: **[!UICONTROL E-Mail-Adresse]** oder **[!UICONTROL Domain-Adresse]**.
+
+1. Geben Sie die E-Mail-Adresse oder Domain ein, an die Sie E-Mails senden möchten.
+
+   >[!NOTE]
+   >
+   >Vergewissern Sie sich, dass Sie eine gültige E-Mail-Adresse (z. B. abc@firma.com) oder Domain (z. B. abc.firma.com) eingeben.
+
+1. Geben Sie bei Bedarf einen Grund an.
+
+   ![](assets/allowed-list-add-email-address.png)
+
+   >[!NOTE]
+   >
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie  zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;blank&quot;}.
+
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 ### Hinzufügen von Entitäten mithilfe eines API-Aufrufs {#api-call-allowed-list}
 
@@ -74,11 +150,11 @@ Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Exper
 
 ## Logik der Zulassungsliste {#logic}
 
-Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende Logik:
+Wann die Zulassungsliste [active](#enable-allow-list), gilt die folgende Logik:
 
 * Wenn die Zulassungsliste **leer** ist, wird keine E-Mail gesendet.
 
-* Wenn eine Entität **auf der Zulassungsliste** und nicht auf der Unterdrückungsliste steht, kann die E-Mail an den/die entsprechenden Empfänger gesendet werden. Wenn sich die Entität jedoch auch auf der [Unterdrückungsliste](../reports/suppression-list.md) befindet, erhält der entsprechende Empfänger die E-Mail nicht. Der Grund lautet **[!UICONTROL Unterdrückt]**.
+* Wenn eine Entität **zur Zulassungsliste** und nicht in der Unterdrückungsliste, wird die E-Mail an den/die entsprechenden Empfänger gesendet. Wenn sich die Entität jedoch auch auf der [Unterdrückungsliste](../reports/suppression-list.md) befindet, erhält der entsprechende Empfänger die E-Mail nicht. Der Grund lautet **[!UICONTROL Unterdrückt]**.
 
 * Wenn eine Entität **nicht auf der Zulassungsliste** und auch nicht auf der Unterdrückungsliste steht, erhält der entsprechende Empfänger die E-Mail nicht. Der Grund lautet **[!UICONTROL Nicht zugelassen]**.
 
@@ -88,9 +164,11 @@ Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende 
 >
 >Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [globalen Bericht](../reports/global-report.md).
 
+Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list), werden alle E-Mails, die Sie aus der aktuellen Sandbox senden, an alle Empfänger gesendet (sofern sie nicht auf der Unterdrückungsliste stehen), einschließlich der tatsächlichen Kundenadressen.
+
 ## Ausschlussberichte {#reporting}
 
-Wenn diese Funktion in einer Nicht-Produktions-Sandbox aktiviert ist, können Sie vom Versand ausgeschlossene E-Mail-Adressen oder Domains abrufen, die sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
+Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domänen abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 99%
 
 ---
 
@@ -183,11 +183,9 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
 
 1. Füllen Sie die CSV-Vorlage mit den E-Mail-Adressen und/oder Domains aus, die Sie der Unterdrückungsliste hinzufügen möchten.
 
-1. Ziehen Sie danach die CSV-Datei per Drag-and-Drop in den entsprechenden Bereich und klicken Sie auf **[!UICONTROL Datei hochladen]**.
+1. Platzieren Sie nach Abschluss die CSV-Datei per Drag-and-Drop und klicken Sie auf **[!UICONTROL Einsenden]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. Klicken Sie auf **[!UICONTROL Senden]**.
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

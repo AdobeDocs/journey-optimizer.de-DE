@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 96%
+source-wordcount: '1188'
+ht-degree: 91%
 
 ---
 
@@ -38,9 +38,9 @@ Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberf
 
 Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md), müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
-## Subdomain und IP-Pool {#subdomains-and-ip-pools}
+## Subdomain- und IP-Pools {#subdomains-and-ip-pools}
 
-Im Abschnitt **DETAILS ZU SUBDOMAIN UND IP-POOL** müssen Sie folgendermaßen vorgehen:
+Im **Subdomain- und IP-Pools** müssen Sie:
 
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Na
 
 ## Kopfzeilenparameter{#email-header}
 
-Geben Sie im Abschnitt **[!UICONTROL KOPFZEILENPARAMETER]** die Absendernamen und E-Mail-Adressen ein, die mit dem mit dieser Oberfläche gesendeten Nachrichtentyp verknüpft sind.
+Im **[!UICONTROL Kopfzeilenparameter]** Geben Sie die Absendernamen und E-Mail-Adressen an, die mit der Art der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4
 
 Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail-Adresse]**. [Weitere Informationen](bcc-email.md)
+Aktivieren Sie dazu die **[!UICONTROL BCC-E-Mail]** optionale Funktion auf der Kanaloberfläche. [Weitere Informationen](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -145,7 +145,7 @@ Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **
 >abstract="Wiederholungen werden 3,5 Tage lang (84 Stunden) durchgeführt, wenn ein E-Mail-Versand aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html?lang=de" text="Über weitere Zustellversuche"
 
-Sie können die **E-MAIL-WIEDERHOLUNGSPARAMETER** konfigurieren.
+Sie können die **E-Mail-Wiederholungsparameter** konfigurieren.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,15 @@ Weitere Informationen zu weiteren Zustellversuchen finden Sie in [diesem Abschni
 >title="Vorschau der URL-Tracking-Parameter"
 >abstract="Überprüfen Sie, wie Tracking-Parameter an die in Ihrem E-Mail-Inhalt vorhandenen URLs angehängt werden."
 
-Sie können **[!UICONTROL URL-TRACKING-PARAMETER]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
+Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivität Ihrer Marketing-Maßnahmen kanalübergreifend zu messen. Diese Funktion ist optional.
 
 Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Beim Erstellen einer Kanaloberfläche werden drei URL-Tracking-Parameter automatisch ausgefüllt. Sie können diese bearbeiten und mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
+Mithilfe der **[!UICONTROL Neuen Parameter hinzufügen]** Schaltfläche.
+
+![](assets/preset-url-tracking.png)
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 

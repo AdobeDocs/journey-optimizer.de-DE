@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 [Nachrichten-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Push-Tracking-Erfahrung-Ereignisdatensatz](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Journey-Step-Ereignis](../start/datasets-query-examples.md#journey-step-event)
-[Offer Decisioning-Ereignisdatensatz](../start/datasets-query-examples.md#ode-decisionevents)
+[ Decisioning-Ereignisdatensatz](../start/datasets-query-examples.md#ode-decisionevents)
 [Einverständnisdienst-Datensatz](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Offer Decisioning-Ereignisdatensatz{#ode-decisionevents}
+## Datensatz mit Entscheidungsereignissen{#ode-decisionevents}
 
 _Name in der Benutzeroberfläche: ODE DecisionEvents (Systemdatensatz)_
 

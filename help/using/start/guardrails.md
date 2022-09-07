@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von
 
 ## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsbeschränkungen und statische Beschränkungen für das Entscheidungs-Management werden im Abschnitt [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
+Leistungsgarantien und statische Beschränkungen für Entscheidungen werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;}.
 
 
 ## Beschränkungen bei Landingpages {#lp-guardrails}

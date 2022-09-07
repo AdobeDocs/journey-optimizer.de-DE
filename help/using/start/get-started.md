@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 * **Moderne Omnichannel-Orchestrierung und -Ausführung**: Über eine einzige Arbeitsfläche kann die Customer Journey durch 1:1-Kundeninteraktionen und Marketing-Maßnahmen harmonisiert und optimiert werden, um Marken dabei zu helfen, im gesamten Kundenlebenszyklus einen Mehrwert zu erzielen. In [!DNL Adobe Journey Optimizer] entwickelte Customer Journeys sind dynamisch und ereignisbasiert und ermöglichen es Marken, auf Echtzeitsignale zu reagieren und diese Interaktionen mit geplanten Kampagnen zu verbinden. Dadurch können die richtigen Entscheidungen darüber getroffen werden, welche Nachrichten wann und über welche Kanäle an einen Kunde gesendet werden.
 
-* **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe von Offer Decisioning auf allen Kanälen zentralisierte Angebote im großen Maßstab.
+* **Intelligente Entscheidungsfindung und Personalisierung**: Marken haben die Möglichkeit, zentralisierte Entscheidungsfindung zu nutzen und künstliche Intelligenz und maschinelles Lernen zu integrieren. Daraus lassen sich prädiktive Erkenntnisse über das gesamte Kundenerlebnis gewinnen, was die Automatisierung von Entscheidungen und die Optimierung eines Erlebnisses auch im großen Maßstab erleichtert. [!DNL Adobe Journey Optimizer] ermöglicht mithilfe von Decisioning auf allen Kanälen zentralisierte Angebote im großen Maßstab.
 
 ## Architektur {#architecture}
 

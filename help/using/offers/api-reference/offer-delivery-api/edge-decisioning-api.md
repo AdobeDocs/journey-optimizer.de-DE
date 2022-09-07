@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,9 @@ Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/
 
 Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, einschließlich Entscheidungs-Management, bei Adobe abfragen, sodass Sie personalisierte Angebote abrufen und rendern können, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben. Weitere Informationen finden Sie in der Dokumentation zum [Erstellen eines Angebots](../../get-started/starting-offer-decisioning.md).
 
-Es gibt zwei Möglichkeiten, Offer Decisioning mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
+Es gibt zwei Möglichkeiten, die Entscheidungsverwaltung mit der [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
 
-Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK finden Sie in der Dokumentation zu [Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning).
+Weitere Informationen finden Sie in der Dokumentation unter [Entscheidungsmanagement](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning) für weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Um Angebote zu personalisieren, müssen Sie Ihre Personalisierung/Profile separa
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Führen Sie einen der beiden folgenden Schritte aus, um das SDK für Offer Decisioning zu konfigurieren:
+Gehen Sie wie folgt vor, um das SDK für die Entscheidungsverwaltung zu konfigurieren:
 
 ## Option 1: Installieren Sie die Tag-Erweiterung und -Implementierung mithilfe von Adobe Experience Platform Launch
 
@@ -90,7 +90,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 ## Option 2: Manuelle Implementierung mit der vordefinierten eigenständigen Version
 
-Im Folgenden finden Sie die erforderlichen Schritte zur Verwendung von Offer Decisioning mithilfe der vordefinierten eigenständigen Installation des Web SDK. In dieser Anleitung wird davon ausgegangen, dass es sich um Ihre erste Implementierung des SDK handelt, sodass möglicherweise nicht alle Schritte auf Sie zutreffen. Diese Anleitung setzt auch ein gewisses Maß an Entwicklerkenntnissen voraus.
+Im Folgenden finden Sie die Schritte, die zur Verwendung der Entscheidungsverwaltung mithilfe der vordefinierten eigenständigen Installation des Web SDK erforderlich sind. In dieser Anleitung wird davon ausgegangen, dass es sich um Ihre erste Implementierung des SDK handelt, sodass möglicherweise nicht alle Schritte auf Sie zutreffen. Diese Anleitung setzt auch ein gewisses Maß an Entwicklerkenntnissen voraus.
 
 Fügen Sie das folgende JavaScript-Snippet von „Option 2: Die vordefinierte eigenständige Version“ auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in den `<head>`-Abschnitt Ihrer HTML-Seite ein.
 

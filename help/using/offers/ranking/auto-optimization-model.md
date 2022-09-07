@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die d
 
 ## Einschränkungen {#limitations}
 
-Die Verwendung von Modellen für die automatische Optimierung beim Offer Decisioning unterliegt den unten stehenden Einschränkungen:
+Die Verwendung von Modellen zur automatischen Optimierung der Entscheidungsfindung unterliegt den folgenden Beschränkungen:
 
 * Modelle für die automatische Optimierung funktionieren nicht mit der Batch Decisioning-API.
 * Das zum Erstellen des Modells benötigte Feedback muss als Erlebnisereignis gesendet werden. Es sollte bei [!DNL Journey Optimizer]-Kanälen nicht automatisch gesendet werden.

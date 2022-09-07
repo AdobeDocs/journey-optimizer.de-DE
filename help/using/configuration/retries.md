@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 86%
+source-wordcount: '454'
+ht-degree: 87%
 
 ---
 
@@ -29,11 +29,11 @@ In der Standardkonfiguration ist der Schwellenwert auf fünf Fehler festgelegt.
 
 Wenn ein Versand nach einem erneuten Zustellversuch erfolgreich ist, wird der Fehlerzähler der E-Mail-Adresse auf null zurückgesetzt.
 
-## Wiederholungsschwellenwert bearbeiten {#edit-retry-threshold}
+## Wiederholungsschwellenausgabe {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Schwellenwert für die Fehleranzahl aktualisieren"
+>title="Wiederholungsschwellenwert aktualisieren"
 >abstract="Wenn der Standardwert Ihren Anforderungen nicht entspricht, können Sie die zulässige Anzahl aufeinander folgender Softbounces ändern. Wenn der Wiederholungszähler den Fehlerschwellenwert für eine bestimmte E-Mail-Adresse erreicht, wird diese Adresse der Unterdrückungsliste hinzugefügt."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Erläuterung der Unterdrückungsliste"
 

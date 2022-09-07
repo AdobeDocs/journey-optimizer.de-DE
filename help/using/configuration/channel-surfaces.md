@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1478'
 ht-degree: 100%
@@ -153,8 +153,6 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu bearbeiten.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
 
-   ![](assets/preset-confirm-update.png)
-
    >[!NOTE]
    >
    >Sie können die Kanaloberfläche auch als Entwurf speichern und die Aktualisierung später fortsetzen.
@@ -177,7 +175,7 @@ Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem
 
 Auf dem Bildschirm **[!UICONTROL Letzte Aktualisierung]** können Sie Informationen wie den Aktualisierungsstatus und die Liste der angeforderten Änderungen sehen.
 
-![](assets/preset-recent-update-screen.png)
+<!--![](assets/preset-recent-update-screen.png)-->
 
 ### Aktualisieren des Status {#update-statuses}
 

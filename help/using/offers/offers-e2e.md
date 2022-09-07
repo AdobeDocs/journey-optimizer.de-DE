@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1085'
+ht-degree: 96%
 
 ---
 
@@ -193,7 +193,7 @@ Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschn
 
 Jetzt müssen Sie eine Entscheidung erstellen, die Platzierungen mit den personalisierten Angeboten und dem soeben erstellten Fallback-Angebot kombiniert.
 
-Diese Kombination wird vom Offer Decisioning-Modul verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und der Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
+Diese Kombination wird von der Decisioning-Engine verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
 
 Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfigurieren:
 

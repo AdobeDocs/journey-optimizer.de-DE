@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Mit der Angebotsbibliothek können Sie Platzierungen und Angebote zentral erstel
 
 Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallback-Angebote zu verwalten, diese in Sammlungen zu organisieren und durch Erstellen von Entscheidungen bereitzustellen:
 
-* **[!UICONTROL Übersicht]**: Neu bei [!DNL Offer Decisioning]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL Offer Decisioning] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. Siehe [Übersicht](#overview).
+* **[!UICONTROL Übersicht]**: Neu bei [!DNL decision management]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL decision management] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. Siehe [Übersicht](#overview).
 
 * **[!UICONTROL Angebote]**: Greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu oder erstellen Sie neue Angebote. Siehe [Erstellen eines Angebots](../offer-library/creating-personalized-offers.md) und [Erstellen eines Fallback-Angebots](../offer-library/creating-fallback-offers.md).
 
@@ -47,7 +47,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 ## Übersicht {#overview}
 
-Wenn Sie mit [!DNL Offer Decisioning] noch nicht vertraut sind, führt Sie die Registerkarte **[!UICONTROL Übersicht]** durch die wichtigsten Schritte, die zum Erstellen Ihrer ersten Angebotsentscheidung erforderlich sind.
+Wenn Sie mit [!DNL decision management] noch nicht vertraut sind, führt Sie die Registerkarte **[!UICONTROL Übersicht]** durch die wichtigsten Schritte, die zum Erstellen Ihrer ersten Angebotsentscheidung erforderlich sind.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,7 +61,7 @@ Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert
 >
 >Die wichtigsten Schritte zum Erstellen und Verwenden von Angeboten in einer Entscheidung werden in [diesem Abschnitt](../offer-library/key-steps.md) beschrieben.
 
-Wenn Sie mit [!DNL Offer Decisioning] besser vertraut sind und bereits mindestens eine Angebotsentscheidung erstellt haben, zeigt die Registerkarte **[!UICONTROL Übersicht]** Ihre neuesten Angebote, Sammlungen und Entscheidungen an.
+Wenn Sie mit [!DNL decision management] besser vertraut sind und bereits mindestens eine Angebotsentscheidung erstellt haben, zeigt die Registerkarte **[!UICONTROL Übersicht]** Ihre neuesten Angebote, Sammlungen und Entscheidungen an.
 
 Klicken Sie auf ein Angebot oder eine Entscheidung, um direkt auf die Details des ausgewählten Elements zuzugreifen.
 
