@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 62%
+source-wordcount: '997'
+ht-degree: 61%
 
 ---
 
@@ -149,6 +149,11 @@ Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Logik der Zulassungsliste {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="Zulassungsliste verwalten"
+>abstract="Wenn die Zulassungsliste aktiviert wird, erhalten nur die in der Zulassungsliste enthaltenen Empfänger E-Mail-Nachrichten von dieser Sandbox."
 
 Wann die Zulassungsliste [active](#enable-allow-list), gilt die folgende Logik:
 
