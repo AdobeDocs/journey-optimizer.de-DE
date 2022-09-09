@@ -1,6 +1,6 @@
 ---
-title: Zugriff auf delegierte Subdomains
-description: Erfahren Sie, wie Sie auf delegierte Subdomains zugreifen können.
+title: Zugriff auf zugewiesene Subdomains
+description: Erfahren Sie, wie Sie auf zugewiesene Subdomains zugreifen können.
 feature: Application Settings
 topic: Administration
 role: Admin

@@ -1,6 +1,6 @@
 ---
 title: Personalisierungskontexte
-description: 'Erfahren Sie mehr über die Möglichkeiten, den Inhalt und die Anzeige Ihrer Nachrichten zu personalisieren. '
+description: Erfahren Sie mehr über die Möglichkeiten, den Inhalt und die Anzeige Ihrer Nachrichten zu personalisieren.
 feature: Personalization
 topic: Personalization
 role: Data Engineer

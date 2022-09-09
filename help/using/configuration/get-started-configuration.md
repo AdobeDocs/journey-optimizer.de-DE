@@ -1,6 +1,6 @@
 ---
-title: 'Erste Schritte mit der Konfiguration von  [!DNL Journey Optimizer] '
-description: 'Weitere Informationen zur Konfiguration von  [!DNL Journey Optimizer] '
+title: Erste Schritte mit der Konfiguration von  [!DNL Journey Optimizer]
+description: Weitere Informationen zur Konfiguration von  [!DNL Journey Optimizer]
 role: Admin
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -35,7 +35,7 @@ Um Journeys erstellen und Nachrichten senden zu können, müssen Sie diese Konfi
    * Konfigurieren Sie Ihre Instanz für den Versand von SMS (derzeit nur für eine Reihe von Organisationen verfügbar – eingeschränkte Verfügbarkeit). [Weitere Informationen](sms-configuration.md)
 
 
-1. **Subdomains delegieren**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Weitere Informationen](about-subdomain-delegation.md)
+1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](about-subdomain-delegation.md)
 
    ![](assets/subdomain.png)
 

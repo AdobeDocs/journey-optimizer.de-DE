@@ -28,11 +28,11 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Nachdem [eine Subdomain in Adobe Journey Optimizer delegiert wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
+Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](assets/ptr-records.png)
 
-In der Liste werden die für jede delegierte Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
+In der Liste werden die für jede zugewiesene Subdomain generierten PTR-Einträge anhand der unten stehenden Syntax angezeigt:
 
 * „r“ für Eintrag (record),
 * „xx“ für die beiden letzten Zahlen der IP-Adresse,

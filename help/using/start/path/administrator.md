@@ -54,7 +54,7 @@ Führen Sie dazu folgende Schritte durch:
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 
-1. **Subdomains delegieren**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zu delegieren. [Weitere Informationen](../../configuration/about-subdomain-delegation.md)
+1. **Subdomains zuweisen**: Für jede neue Subdomain, die in Journey Optimizer verwendet werden soll, besteht der erste Schritt darin, sie zuzuweisen. [Weitere Informationen](../../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
