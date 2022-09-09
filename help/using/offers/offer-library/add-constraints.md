@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1673'
-ht-degree: 98%
+source-wordcount: '1817'
+ht-degree: 89%
 
 ---
 
@@ -71,6 +71,11 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >title="Informationen zur Eignung von Angeboten"
 >abstract="In diesem Abschnitt können Sie mithilfe von Entscheidungsregeln bestimmen, welche Benutzer für das Angebot geeignet sind."
 >additional-url="https://video.tv.adobe.com/v/329373?captions=ger" text="Demovideo ansehen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Gesamtprofilschätzung"
+>abstract="Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen."
 
 Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profile beschränken, die Sie mithilfe von Segmenten oder Entscheidungsregeln definieren.
 
@@ -134,6 +139,11 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >title="Verwenden der Begrenzung"
 >abstract="Um zu vermeiden, dass Ihre Kunden und Kundinnen zu oft angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Begrenzungsfrequenz festlegen"
+>abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen."
+
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
 Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
@@ -160,6 +170,16 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
       Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
+1. Legen Sie die **[!UICONTROL Häufigkeit]** , um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >Das Zurücksetzen erfolgt um 12 Uhr UTC, an dem von Ihnen definierten Tag oder gegebenenfalls am ersten Tag der Woche/des Monats. Der Wochentag ist Sonntag.
+
+   Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** von **[!UICONTROL Wiederholen]** Dropdown-Liste und Typ **2** im zweiten Feld. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 23:00 Uhr UTC.
+
 1. Wenn Sie mehrere [Darstellungen](#representations) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
       Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 
-1. Wenn das Angebot nach dem Speichern und der Genehmigung entsprechend den von Ihnen festgelegten Kriterien so oft präsentiert wurde, wie Sie in diesem Feld angegeben haben, wird es nicht mehr angezeigt.
+1. Sobald das Angebot gespeichert und validiert wurde und die Anzahl der in diesem Feld angegebenen Male in Übereinstimmung mit den Kriterien und dem von Ihnen definierten Zeitraum angezeigt wurde, stoppt die Bereitstellung.
 
 Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der E-Mail-Vorbereitung berechnet. Wenn Sie z. B. eine E-Mail mit mehreren Angeboten vorbereiten, wird diese Anzahl dem Begrenzungswert angerechnet, unabhängig davon, ob die E-Mail gesendet wird oder nicht.
 
