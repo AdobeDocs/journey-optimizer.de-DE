@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen von Nachrichten in Journey
-description: Erfahren Sie, wie Sie Nachrichten auf einer Journey hinzufügen
+title: Hinzufügen von Nachrichten in Journeys
+description: Erfahren Sie, wie Sie Nachrichten zu einer Journey hinzufügen
 feature: Overview
 topic: Content Management
 role: User
@@ -8,12 +8,12 @@ level: Beginner
 source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Hinzufügen von Nachrichten in Journey{#messages-in-journeys}
+# Hinzufügen von Nachrichten in Journeys{#messages-in-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_category"
@@ -25,14 +25,14 @@ ht-degree: 85%
 >title="Kanaloberfläche"
 >abstract="Eine Kanaloberfläche ist eine Instanz des betreffenden Kanals, die über alle nötigen Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von Systemadmins definiert."
 
-Verwenden Sie in Ihren Journey die Kanalaktionen, um die Nachricht zu entwerfen und zu personalisieren, die Sie an Ihre Audience senden möchten. Wenn Sie eine E-Mail, eine SMS oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
+Verwenden Sie in Ihren Journeys die Kanalaktionen, um die Nachricht, die Sie an Ihre Audience senden möchten, zu gestalten und zu personalisieren. Wenn Sie eine E-Mail-, eine SMS- oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
 
 
 >[!NOTE]
 >Sie können auch Kampagnen erstellen, um geplante Nachrichten zu senden. Weiterführende Informationen finden Sie [in diesem Abschnitt](../campaigns/get-started-with-campaigns.md).
 
 
-Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder E-Mail-Aktivität in die Arbeitsfläche der Journey ein.
+Um Nachrichten in eine Journey einzufügen, fügen Sie ganz eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Segment lesen](../building-journeys/read-segment.md).
 
@@ -42,7 +42,7 @@ Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder
 
 1. Geben Sie einen Titel und eine Beschreibung ein.
 
-1. Wählen Sie die **[!UICONTROL Kategorie]** der Nachricht: Wählen Sie **Marketing** für kommerzielle Nachrichten oder **Transaktionsnachrichten** für nicht-kommerzielle Nachrichten wie Auftragsbestätigungen, Benachrichtigungen zum Zurücksetzen des Kennworts oder Lieferinformationen.
+1. Wählen Sie die **[!UICONTROL Kategorie]** der Nachricht: Wählen Sie **Marketing** für kommerzielle Nachrichten oder **Transaktionsnachrichten** für nicht-kommerzielle Nachrichten wie Auftragsbestätigungen, Benachrichtigungen zum Zurücksetzen des Kennworts oder Versandinformationen.
 
    >[!CAUTION]
    >

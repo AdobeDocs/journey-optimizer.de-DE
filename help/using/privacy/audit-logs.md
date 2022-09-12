@@ -48,7 +48,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 | AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
 | AJO-Unterdrückungsliste | Erstellen/Löschen/Herunterladen der CSV |
 | Feldergruppe | Erstellen/Löschen/Aktualisieren |
-| Journey | Erstellen/Löschen/Aktualisieren/Anhalten/Veröffentlichen |
+| Journey | Erstellen/Löschen/Aktualisieren/Stoppen/Veröffentlichen |
 | Benutzerdefinierte Aktion in Journey | Erstellen/Löschen/Aktualisieren |
 | Journey-Datenquelle | Erstellen/Löschen/Aktualisieren |
 | Journey-Ereignis | Erstellen/Löschen/Aktualisieren |

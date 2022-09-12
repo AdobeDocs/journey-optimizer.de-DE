@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 30%
 
 Verwenden Sie [!DNL Journey Optimizer], um personalisierte Push-Benachrichtigungen, SMS und E-Mail-Nachrichten zu erstellen und zu versenden.
 
-Alle Nachrichten sind im Rahmen von [eine Aktion auf der Journey-Arbeitsfläche](messages-in-journeys.md)oder [im Kontext einer Kampagne](messages-in-campaigns.md).
+Alle Nachrichten sind im Rahmen [einer Aktion auf der Journey-Arbeitsfläche](messages-in-journeys.md) oder [im Kontext einer Kampagne](messages-in-campaigns.md) editierbar.
 
-Nachdem Nachrichten zu Ihrer Journey oder Kampagne hinzugefügt wurden, erfahren Sie in den folgenden Abschnitten, wie Sie Ihre Nachrichten entwerfen und konfigurieren:
+Sobald Sie Ihrer Journey oder Ihrer Kampagne Nachrichten hinzugefügt haben, erfahren Sie in den folgenden Abschnitten, wie Sie Ihre Nachrichten gestalten und konfigurieren können:
 
-* **E-Mail erstellen** - Erfahren Sie, wie Sie einen E-Mail-Inhalt erstellen und Ihre Nachricht validieren [auf dieser Seite](create-email.md).
+* **E-Mail erstellen** – Erfahren Sie [auf dieser Seite](create-email.md), wie Sie den Inhalt einer E-Mail erstellen und Ihre Nachricht validieren.
 
-* **Push-Benachrichtigung erstellen** - Erfahren Sie, wie Sie Push-Benachrichtigungen für iOS- und Android-Geräte erstellen [auf dieser Seite](create-push.md).
+* **Push-Benachrichtigung erstellen** – Erfahren Sie [auf dieser Seite](create-push.md), wie Sie Push-Benachrichtigungen für iOS- und Android-Geräte erstellen.
 
-* **SMS erstellen** - Hier erfahren Sie, wie Sie SMS-Inhalte erstellen und Ihre Nachricht validieren. [auf dieser Seite](create-sms.md).
+* **SMS erstellen** – Erfahren Sie [auf dieser Seite](create-sms.md), wie Sie den Inhalt einer SMS erstellen und Ihre Nachricht validieren.
 
 >[!NOTE]
 >
->Benutzer können je nach Produktprofil auf Journey und Kampagnen zugreifen, diese erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).
+>Nutzer und Nutzerinnen können je nach Produktprofil auf Journeys und Kampagnen zugreifen, diese erstellen, bearbeiten und/oder veröffentlichen. Weitere Informationen zu Benutzerberechtigungen finden Sie in [diesem Abschnitt](../administration/permissions.md).

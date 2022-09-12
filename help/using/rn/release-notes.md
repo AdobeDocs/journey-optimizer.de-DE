@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei Verwendung von Journey sind Aktionen so konzipiert, dass sie nacheinander ausgeführt werden. Bei Kampagnen werden Aktionen gleichzeitig, entweder sofort oder basierend auf einem festgelegten Zeitplan ausgeführt. </p>
+<p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei der Verwendung von Journeys sind Aktionen so konzipiert, dass sie der Reihe nach ausgeführt werden. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Erfahren Sie, wie Sie eine Kampagne im <a href="../campaigns/get-started-with-campaigns.md">Detaillierte Dokumentation</a> und <a href="https://video.tv.adobe.com/v/346680">Feature Video</a>.
+<p>Wie Sie eine Kampagne erstellen, erfahren Sie in der <a href="../campaigns/get-started-with-campaigns.md">ausführlichen Dokumentation</a> und im <a href="https://video.tv.adobe.com/v/346680">Funktionsvideo</a>.
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>SMS an Ihre Benutzer senden (allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>SMS-Versand an Ihre Nutzer und Nutzerinnen (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,10 +78,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Reporting**
 
-* Die Tabelle mit den Einwilligungsrichtlinien und das Diagramm sind jetzt in Journey-globalen Berichten verfügbar. Mit diesen Widgets können Sie die ausgeschlossenen Profile aus den Richtlinien in Ihren benutzerdefinierten Aktionen verfolgen. [Weitere Informationen](../reports/journey-global-report.md#journey-global)
+* Die Tabelle und das Diagramm zu den Einverständnisrichtlinien sind jetzt in den globalen Journey-Berichten verfügbar. Mit diesen Widgets können Sie die von den Richtlinien ausgeschlossenen Profile in Ihren benutzerdefinierten Aktionen verfolgen. [Weitere Informationen](../reports/journey-global-report.md#journey-global)
 
-   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Berichts-Dashboards zurücksetzen. Weiterführende Informationen zur Dashboard-Anpassung finden Sie im Abschnitt [die ausführliche Dokumentation](../reports/global-report.md).
+   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in [der ausführlichen  Dokumentation](../reports/global-report.md).
 
 **Administration**
 
-* Jetzt ist es möglich, die für den SMS-Kanal zu verwendende primäre Telefonnummer zu aktualisieren. [Weitere Informationen](../configuration/primary-email-addresses.md)
+* Es ist jetzt möglich, die primäre Telefonnummer für den SMS-Kanal zu aktualisieren. [Weitere Informationen](../configuration/primary-email-addresses.md)

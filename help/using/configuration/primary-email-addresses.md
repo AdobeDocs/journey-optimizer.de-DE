@@ -1,5 +1,5 @@
 ---
-title: 'Ändern von primären E-Mail-Adressen '
+title: Ändern von primären E-Mail-Adressen
 description: Erfahren Sie, wie Sie im Profil-Service bestimmen, welche E-Mail-Adresse verwendet werden soll.
 feature: Application Settings
 topic: Administration

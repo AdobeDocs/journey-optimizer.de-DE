@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Nachrichten {#messages}
    + [Erste Schritte mit Nachrichten](using/messages/get-started-content.md)
-   + [Journey zum Hinzufügen von Nachrichten](using/messages/messages-in-journeys.md)
+   + [Hinzufügen von Nachrichten-Journeys](using/messages/messages-in-journeys.md)
    + [Hinzufügen von Nachrichten-Kampagnen](using/messages/messages-in-campaigns.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
    + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
@@ -244,7 +244,7 @@ ht-degree: 97%
    + Live-Bericht {#live-report}
       + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
-      + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
+      + [Campaign Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [Beispiele für Abfragen](using/reports/query-examples.md)
    + Zustellbarkeit {#deliverability}
       + [Erste Schritte mit der Zustellbarkeit](using/reports/deliverability.md)
-      + [Unterdrückungsliste verstehen](using/reports/suppression-list.md)
+      + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
 + Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
       + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
