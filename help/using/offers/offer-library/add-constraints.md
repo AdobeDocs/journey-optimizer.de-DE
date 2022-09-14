@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 89%
+source-wordcount: '1715'
+ht-degree: 94%
 
 ---
 
@@ -169,18 +169,17 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
    * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
 
       Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+   <!--
+    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
+    ![](../assets/offer-capping-frequency.png)
+    >[!NOTE]
+    >
+    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
+    
+    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+    -->
 
-1. Legen Sie die **[!UICONTROL Häufigkeit]** , um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
-
-   ![](../assets/offer-capping-frequency.png)
-
-   >[!NOTE]
-   >
-   >Das Zurücksetzen erfolgt um 12 Uhr UTC, an dem von Ihnen definierten Tag oder gegebenenfalls am ersten Tag der Woche/des Monats. Der Wochentag ist Sonntag.
-
-   Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** von **[!UICONTROL Wiederholen]** Dropdown-Liste und Typ **2** im zweiten Feld. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 23:00 Uhr UTC.
-
-1. Wenn Sie mehrere [Darstellungen](#representations) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
+1. Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
 
    ![](../assets/offer-capping-placement.png)
 

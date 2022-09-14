@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+workflow-type: tm+mt
+source-wordcount: '1541'
+ht-degree: 92%
 
 ---
 
 # Einrichten von Kanaloberflächen {#set-up-channel-surfaces}
 
-Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps und mehr.
+Mit [!DNL Journey Optimizer]können Sie Kanaloberflächen (d. h. Nachrichtenvorgaben) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >
@@ -33,9 +33,14 @@ Nachdem die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstelle
 ## Erstellen einer Kanaloberfläche {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Kanaloberflächeneinstellungen"
+>abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Subdomain, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. Nachrichtentyp, Subdomain, Absendername, Mobile Apps und mehr."
+>abstract="Eine Kanaloberfläche definiert alle technischen Parameter, die für Ihre Nachrichten erforderlich sind (E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration usw.): Nach der Konfiguration können Sie sie bei der Erstellung von Aktionen auf einer Journey oder einer Kampagne auswählen. Beachten Sie, dass Sie über die Berechtigung zum Verwalten der Kanaloberfläche verfügen müssen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 99%
+source-wordcount: '1212'
+ht-degree: 95%
 
 ---
 
@@ -110,9 +110,14 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 ## Adressen und Domains manuell hinzufügen {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
 >abstract="Sie können die Unterdrückungsliste von Journey Optimizer manuell füllen, um bestimmte E-Mail-Adressen und/oder Domains vom Versand auszuschließen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
+>abstract="Um die Journey Optimizer-Unterdrückungsliste zu füllen, können Sie E-Mail-Adressen oder Domänen manuell hinzufügen - einzeln oder im Massenmodus über einen CSV-Datei-Upload. Diese spezifischen E-Mail-Adressen und/oder Domains sind vom Versand ausgeschlossen."
 
 Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, wird diese Adresse basierend auf der definierten Unterdrückungsregel oder der Anzahl der Bounces automatisch auf die Unterdrückungsliste gesetzt.
 

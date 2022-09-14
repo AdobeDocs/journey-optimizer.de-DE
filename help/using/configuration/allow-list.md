@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 61%
+source-wordcount: '1024'
+ht-degree: 62%
 
 ---
 
@@ -102,6 +102,11 @@ Um der Zulassungsliste für eine bestimmte Sandbox neue E-Mail-Adressen oder Dom
 >Die Zulassungsliste kann bis zu 1.000 Einträge enthalten.
 
 ### Manuelles Vervollständigen der Zulassungsliste {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="Hinzufügen von E-Mail-Adressen/Domains zur Zulassungsliste"
+>abstract="Sie können der Zulassungsliste manuell neue E-Mail-Adressen oder Domains hinzufügen, indem Sie sie einzeln auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"

@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 89%
+source-wordcount: '997'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 >
 >Die **Inhaltstest** ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie Journey Optimizer Content Experiment , um mehrere Bereitstellungsbehandlungen zu definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender der E-Mail zu variieren.
+Verwenden Sie Journey Optimizer Content Experiment , um mehrere Bereitstellungsbehandlungen zu definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie können den Versandinhalt, den Betreff oder den Absender variieren.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Verwenden Sie Journey Optimizer Content Experiment , um mehrere Bereitstellungsb
 
 Im nachstehenden Beispiel wurde die Zielgruppe des Versands in zwei Gruppen aufgeteilt, die jeweils 45 % der Zielpopulation repräsentieren, und eine neutrale Gruppe von 10 %, die den Versand nicht erhalten wird.
 
-Jede Person in der Audience erhält eine Version der E-Mail mit einer der beiden folgenden Betreffzeilen:
+Jede Person in der Zielgruppe erhält eine Version einer E-Mail mit einer Betreffzeile, die einer der beiden folgenden ist:
 
 * In einer wird direkt ein 10-%-Angebot für die neue Kollektion beworben. Sie enthält außerdem ein Bild.
 * In der anderen wird nur für ein Sonderangebot ohne Angabe des 10-%-Rabatts geworben. Sie enthält kein Bild.
@@ -44,7 +44,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_1.png)
 
-1. Wählen Sie **[!UICONTROL E-Mail]** und dann die **[!UICONTROL Oberfläche]**, die Sie für diesen Versand verwenden möchten. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
+1. Wählen Sie Ihren Kanal und dann **[!UICONTROL Oberfläche]** Sie möchten für diesen Versand verwenden. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
 
    ![](assets/content_experiment_2.png)
 
@@ -59,7 +59,11 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_3.png)
 
-1. Konfigurieren Sie die Parameter **[!UICONTROL Audience]** und **[!UICONTROL Zeitplan]** für die Sendungen. [Weitere Informationen](create-campaign.md)
+1. Definieren Sie die anzusprechende Audience. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../segment/about-segments.md)
+
+   Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](get-started-experiment.md#content-experiment-work)
+
+1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt Planung . [Weitere Informationen](create-campaign.md)
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Personalisierung Ihrer anderen **[!UICONTROL Varianten]** zu beginnen.
 
@@ -67,21 +71,15 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ## Erstellen der Varianten {#treatment-experiment}
 
-1. Fügen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** die **[!UICONTROL Betreffzeile]** für Ihre E-Mail mit der Variante A hinzu und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Aus dem **[!UICONTROL Inhalt bearbeiten]** Beginn der Personalisierung Ihrer Behandlung A.
 
-   Diese Variante wird so konfiguriert, dass das Angebot direkt in der Betreffzeile angezeigt wird.
+   Für diese Behandlung wird das Sonderangebot direkt in der Betreffzeile angegeben.
 
    ![](assets/content_experiment_5.png)
 
-1. Klicken Sie auf **[!UICONTROL Email Designer]**, um mit der Personalisierung Ihrer Sendungen zu beginnen.
+1. Nach der Konzeption Ihrer ersten Behandlung, **[!UICONTROL Mehr Aktionen]** Schaltfläche, klicken Sie auf **[!UICONTROL Duplizieren]**.
 
-   ![](assets/content_experiment_6.png)
-
-1. Nachdem Sie Ihre E-Mail erstellt haben, klicken Sie auf **[!UICONTROL Speichern]** und kehren Sie zum Fenster **[!UICONTROL Inhalt bearbeiten]** zurück, um Variante B zu erstellen.
-
-1. Klicken Sie zuerst auf die Schaltfläche **[!UICONTROL Weitere Aktionen]** und danach auf **[!UICONTROL Duplizieren]**.
-
-   Sie können auch eine völlig neue Variante erstellen, indem Sie auf die Schaltfläche **[!UICONTROL Inhaltsexperiment]** klicken, um auf die erweiterten Optionen zuzugreifen, und dann auf **[!UICONTROL Variante hinzufügen]** klicken.
+   Sie können auch eine völlig neue Variante erstellen, indem Sie auf die Schaltfläche **[!UICONTROL Inhaltsexperiment]**![](assets/content_experiment_16.png) klicken, um auf die erweiterten Optionen zuzugreifen, und dann auf **[!UICONTROL Variante hinzufügen klicken]**.
 
    ![](assets/content_experiment_7.png)
 
@@ -89,15 +87,11 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_8.png)
 
-1. Wählen Sie den E-Mail-Versand aus, der mit Ihrer neu erstellten **[!UICONTROL Variante]** verknüpft ist.
+1. Personalisieren Sie Ihre zweite Behandlung nach Bedarf.
 
-1. Fügen Sie die **[!UICONTROL Betreffzeile]** für Ihren Versand hinzu.
-
-   In dieser Variante wird das Angebot nicht in der **[!UICONTROL Betreffzeile]** angegeben.
+   Im vorliegenden Beispiel soll das Angebot nicht im **[!UICONTROL Betreff]**.
 
    ![](assets/content_experiment_9.png)
-
-1. Klicken Sie auf **[!UICONTROL Email Designer]**, um den Versand von Variante B bei Bedarf weiter zu personalisieren.
 
 Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
 

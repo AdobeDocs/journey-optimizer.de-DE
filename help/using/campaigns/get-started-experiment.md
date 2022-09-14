@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 95%
+source-wordcount: '1943'
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 ## Was ist ein Inhaltsexperiment?
 
-Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
+Mit Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
 
 Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Behandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
@@ -31,7 +31,7 @@ Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, wa
 
 ![](assets/content_experiment_schema.png)
 
-Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt, besteht jede Gruppe, die eine bestimmte Behandlung erhält, aus zufällig ausgewählten Benutzenden. Das bedeutet, dass die Gruppen im Durchschnitt die gleichen Merkmale aufweisen. Folglich kann jeder Unterschied bei den Ergebnissen auf die Unterschiede der Behandlungen zurückgeführt werden, d. h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessieren, herstellen.
+Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt, besteht jede Gruppe, die eine bestimmte Behandlung erhält, aus zufällig ausgewählten Benutzenden. Das bedeutet, dass die Gruppen im Durchschnitt die gleichen Merkmale aufweisen. So kann jeder Unterschied in den Ergebnissen so interpretiert werden, dass er auf die Unterschiede in den Behandlungen zurückzuführen ist, d.h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessiert sind, herstellen.
 
 Auf diese Weise können Sie datengestützte Entscheidungen treffen, um Ihre geschäftlichen Ziele zu optimieren.
 
@@ -39,6 +39,38 @@ Für Inhaltstests in Adobe Journey Optimizer können Sie Ideen testen, z. B.:
 
 * **Betreffzeile**: Wie könnte sich eine Änderung des Tons oder des Personalisierungsgrads in der Betreffzeile auswirken?
 * **Nachrichteninhalt**: Führt eine Änderung des visuellen Layouts einer E-Mail zu mehr Klicks bei der E-Mail?
+
+## Wie funktioniert das Inhaltsexperiment? {#content-experiment-work}
+
+### Zufällige Zuweisung
+
+Die Inhaltserprobung in Adobe Journey Optimizer verwendet einen pseudo-zufälligen Hash der Besucheridentität, um eine zufällige Zuweisung von Benutzern in Ihrer Zielgruppe zu einer der von Ihnen definierten Behandlungen durchzuführen. Der Hash-Mechanismus stellt sicher, dass in Szenarien, in denen der Besucher mehrmals an einer Kampagne teilnimmt, er deterministisch dieselbe Behandlung erhält.
+
+Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzeridentitätszeichenfolge in einen von 10.000 Buckets zu hashen. In einem Inhaltsexperiment mit 50 % des Traffics, der jeder Behandlung zugeordnet wird, erhalten Benutzer, die in Behälter 1 bis 5.000 fallen, die erste Behandlung, während Benutzer in den Buckets 5.001 bis 10.000 die zweite Behandlung erhalten. Da Pseudo-zufälliges Hashing verwendet wird, ist der Besucher, wie Sie feststellen, möglicherweise nicht genau 50-50. Die Aufteilung entspricht dennoch statistisch Ihrem Zielaufteilungsprozentsatz.
+
+Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identitäts-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von der [Ausführungsadressen](../configuration/primary-email-addresses.md).
+
+### Datenerfassung und Analyse
+
+Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn der Benutzer die Kampagne in eingehenden Kanälen betritt, wird ein &quot;Zuweisungsdatensatz&quot;im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Behandlung der Benutzer zugewiesen wurde, sowie Experiment- und Kampagnen-IDs.
+
+Zielmetriken können in zwei Hauptklassen gruppiert werden:
+
+* Direkte Metriken, bei denen der Benutzer direkt auf die Behandlung reagiert, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
+* Indirekte oder &quot;untere Trichtermetriken&quot;, die auftreten, nachdem der Benutzer der Behandlung ausgesetzt wurde.
+
+Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten verfolgt, werden die Antwortereignisse der Endbenutzer automatisch mit den Kampagnen- und Behandlungs-IDs getaggt, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+Bei indirekten oder &quot;untergeordneten&quot;Zielen wie Käufen werden die Reaktionsereignisse der Endbenutzer nicht mit Kampagnen- und Behandlungs-IDs versehen, d. h., ein Kaufereignis tritt nach der Exposition gegenüber einer Behandlung auf. Dieser Kauf wird nicht direkt mit einer Vorbehandlungszuweisung verknüpft. Für diese Metriken ordnet die Adobe die Behandlung dem untersten Trichterkonversionsereignis zu, wenn:
+
+* Die Benutzeridentität ist zum Zeitpunkt der Zuweisung und Konversionsereignisse identisch.
+* Die Konversion erfolgt innerhalb von sieben Tagen nach der Behandlungszuweisung.
+
+![](assets/technote_3.png)
+
+Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die jederzeit gültig sind, um diese Rohdaten für die Berichterstellung zu interpretieren, mit denen Sie Ihre Experimentationsberichte interpretieren können. Weitere Informationen hierzu finden Sie auf [dieser Seite](../campaigns/experiment-calculations.md).
 
 ## Tipps zum Durchführen von Experimenten
 
