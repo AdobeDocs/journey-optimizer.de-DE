@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 64%
 
 ---
 
@@ -31,8 +31,10 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="SMS-Anbieter mit Journey Optimizer konfigurieren"
->abstract="Vor dem SMS-Versand müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS-Oberfläche erstellen. Diese Schritte müssen von einem Adobe Journey Optimizer-Systemadministrator durchgeführt werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="SMS-Kanaloberfläche erstellen"
+>abstract="Wählen Sie Ihren Anbieter aus und geben Sie Ihre SMS-API-Anmeldeinformationen ein."
+
+<!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Create an SMS channel surface"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

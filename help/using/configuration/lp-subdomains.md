@@ -4,25 +4,30 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Subdomains von Landingp
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 97%
+source-wordcount: '769'
+ht-degree: 94%
 
 ---
 
 # Konfigurieren von Landingpage-Subdomains {#lp-subdomains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_config_lp_subdomain"
->title="Erstellen einer Landingpage-Voreinstellung"
->abstract="Um eine Landingpage-Voreinstellung erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Erstellen von Landingpage-Voreinstellungen"
+>id="ajo_admin_subdomain_lp_header"
+>title="Delegieren einer Subdomain der Landingpage"
+>abstract="Sie richten Ihre Subdomain für die Verwendung einer Landingpage ein. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegieren einer Subdomain der Landingpage"
 >abstract="Sie müssen eine Subdomain für Ihre Landingpages konfigurieren, da Sie diese Subdomain zum Erstellen einer Landingpage-Voreinstellung benötigen. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine neue Subdomain konfigurieren."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Erstellen von Landingpage-Voreinstellungen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain"
+>title="Erstellen einer Landingpage-Voreinstellung"
+>abstract="Um eine Landingpage-Voreinstellung erstellen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Erstellen von Landingpage-Voreinstellungen"
 
 Um [Landingpage-Voreinstellungen](lp-presets.md) erstellen zu können, müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
