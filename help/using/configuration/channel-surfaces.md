@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,139 +42,139 @@ Nachdem die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstelle
 >title="Kanaloberflächeneinstellungen"
 >abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
-To create a channel surface, follow these steps:
+Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
+1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]** auf, und klicken Sie dann auf **[!UICONTROL Kanaloberfläche erstellen]**.
 
-    ![](assets/preset-create.png)
+   ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the surface, then select the channel(s) to configure.
+1. Geben Sie einen Namen und eine Beschreibung (optional) für die Oberfläche ein und wählen Sie dann die zu konfigurierenden Kanäle aus.
 
-    ![](assets/preset-general.png)
+   ![](assets/preset-general.png)
 
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+   >[!NOTE]
+   >
+   > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. Wenn Sie den **[!UICONTROL E-Mail]**-Kanal ausgewählt haben, konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](email-settings.md) beschrieben.
 
-    ![](assets/preset-email.png)
+   ![](assets/preset-email.png)
 
-1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
+1. Wählen Sie für den Kanal **[!UICONTROL Push-Benachrichtigung]** mindestens eine Plattform – **iOS** und/oder **Android** – und die Mobile Apps aus, die für jede Plattform verwendet werden sollen.
 
-    ![](assets/preset-push.png)
-        
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+   ![](assets/preset-push.png)
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
+   >[!NOTE]
+   >
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](push-gs.md).
 
-    ![](assets/preset-sms.png)
+1. Definieren Sie Ihre Einstellungen für den **[!UICONTROL SMS]**-Kanal wie in [diesem Abschnitt](sms-configuration.md#message-preset-sms) beschrieben.
 
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+   ![](assets/preset-sms.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
+   >[!NOTE]
+   >
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](sms-configuration.md).
 
-    ![](assets/preset-submit.png)
+1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
-    >[!NOTE]
-    >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
-    >
-    >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
-    
-1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+   ![](assets/preset-submit.png)
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+   >[!NOTE]
+   >
+   >Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich der ausgewählte IP-Pool [in Bearbeitung](ip-pools.md#edit-ip-pool) befindet (Status **[!UICONTROL Verarbeitung läuft]**) und noch nie mit der ausgewählten Subdomain verknüpft wurde. [Weitere Informationen](#subdomains-and-ip-pools)
+   >
+   >Speichern Sie die Oberfläche als Entwurf und warten Sie, bis der IP-Pool den Status **[!UICONTROL Erfolgreich abgeschlossen]** erreicht hat, um mit der Erstellung der Oberfläche fortzufahren.
 
-    These checks include configuration and technical tests that are performed by the Adobe team:
+1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt.
 
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen.
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
+   Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
-1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+   * SPF-Validierung
+   * DKIM-Validierung
+   * MX-Eintragsvalidierung
+   * Überprüfung der Blockierungsliste der IPs
+   * Helo-Host-Prüfung
+   * IP-Pool-Verifizierung
+   * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
 
-    ![](assets/preset-active.png)
+   >[!NOTE]
+   >
+   >In [diesem Abschnitt](#monitor-channel-surfaces) erfahren Sie mehr über die möglichen Fehlerursachen, wenn die Prüfungen nicht erfolgreich sind.
 
-## Monitor channel surfaces {#monitor-channel-surfaces}
+1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Kanaloberfläche den Status **[!UICONTROL Aktiv]**. Sie kann nun zum Versand von Nachrichten verwendet werden.
 
-All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
+   ![](assets/preset-active.png)
+
+## Überwachen von Kanaloberflächen {#monitor-channel-surfaces}
+
+Alle Kanaloberflächen werden im Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Kanaloberflächen]** angezeigt. Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können (Kanaltyp, Benutzer, Status).
 
 ![](assets/preset-filters.png)
 
-Once created, channel surfaces can have the following statuses:
+Nach ihrer Erstellung können Kanaloberflächen die folgenden Status aufweisen:
 
-* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
-* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL Entwurf]**: Die Kanaloberfläche wurde als Entwurf gespeichert und noch nicht gesendet. Öffnen Sie sie, um die Konfiguration fortzusetzen.
+* **[!UICONTROL Verarbeitung läuft]**: Die Kanaloberfläche wurde übermittelt und durchläuft mehrere Überprüfungsschritte.
+* **[!UICONTROL Aktiv]**: Die Kanaloberfläche wurde verifiziert und kann zum Erstellen von Nachrichten ausgewählt werden.
+* **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind bei der Verifizierung der Kanaloberfläche fehlgeschlagen.
+* **[!UICONTROL Deaktiviert]**: Die Kanaloberfläche ist deaktiviert. Sie kann nicht zum Erstellen neuer Nachrichten verwendet werden.
 
-In case a channel surface creation fails, the details on each possible failure reason are described below.
+Im Folgenden finden Sie Details zu möglichen Fehlerursachen, falls die Erstellung einer Kanaloberfläche fehlschlägt.
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=de){target=&quot;_blank&quot;}, um Hilfe zu erhalten.
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **SPF-Validierung fehlgeschlagen**: SPF (Sender Policy Framework) ist ein E-Mail-Authentifizierungsprotokoll, mit dem autorisierte IPs angegeben werden können, die E-Mails von einer bestimmten Subdomain senden können. Ein SPF-Validierungsfehler bedeutet, dass die IP-Adressen im SPF-Datensatz nicht mit den IP-Adressen übereinstimmen, die zum Senden von E-Mails an die E-Mail-Anbieter verwendet werden.
 
-* **DKIM validation failed**: DKIM (DomainKeys Identified Mail) allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain.:
+* **DKIM-Validierung fehlgeschlagen**: Mit DKIM (DomainKeys Identified Mail) kann der Empfänger-Server überprüfen, ob die empfangene Nachricht vom echten Absender der zugehörigen Domain gesendet wurde, und sicherstellen, dass der Inhalt der ursprünglichen Nachricht nicht auf dem Weg verändert wurde. Ein DKIM-Validierungsfehler bedeutet, dass die Empfangs-Mail-Server die Authentizität des Nachrichteninhalts und dessen Zuordnung zur Versand-Domain nicht überprüfen können.:
 
-* **MX record validation failed**: MX (Mail eXchange) record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+* **MX-Eintragsvalidierung fehlgeschlagen**: Ein MX-Eintragsvalidierungsfehler (Mail eXchange) bedeutet, dass die E-Mail-Server, die für die Annahme eingehender E-Mails für eine bestimmte Subdomain verantwortlich sind, nicht korrekt konfiguriert sind.
 
-* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
-    * Blocklisting of the allocated IPs
-    * Invalid `helo` name
-    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+* **Zustellbarkeitskonfigurationen fehlgeschlagen**: Zustellbarkeitskonfigurationsfehler können aus einem der folgenden Gründe auftreten:
+   * Blockierungsauflistung der zugewiesenen IPs
+   * Ungültiger `helo`-Name
+   * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Oberfläche angegebenen gesendet werden
+   * E-Mails können nicht an Posteingänge großer ISPs wie Gmail und Yahoo gesendet werden
 
-## Edit a channel surface {#edit-channel-surface}
+## Bearbeiten einer Kanaloberfläche {#edit-channel-surface}
 
-To edit a channel surface, follow the steps below.
-
->[!NOTE]
->
->You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
-
-1. From the list, click a channel surface name to open it.
-
-    ![](assets/preset-name.png)
-
-1. Edit its properties as desired.
-
-    >[!NOTE]
-    >
-    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
-
-1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    >[!NOTE]
-    >
-    >You can also save the channel surface as draft and resume update later on.
-
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
+Gehen Sie wie folgt vor, um eine Kanaloberfläche zu bearbeiten.
 
 >[!NOTE]
 >
->If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+>Die **[!UICONTROL Einstellungen für Push-Benachrichtigungen]** können Sie nicht bearbeiten. Wenn eine Kanaloberfläche nur für den Kanal „Push-Benachrichtigung“ konfiguriert ist, kann sie nicht bearbeitet werden.
 
-### Update details {#update-details}
+1. Klicken Sie in der Liste auf den Namen einer Kanaloberfläche, um sie zu öffnen.
 
-For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+   ![](assets/preset-name.png)
 
-Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
+1. Bearbeiten Sie die Eigenschaften nach Bedarf.
+
+   >[!NOTE]
+   >
+   >Wenn eine Kanaloberfläche den Status **[!UICONTROL Aktiv]** hat, sind die Felder **[!UICONTROL Name]**, **[!UICONTROL Kanal auswählen]** und **[!UICONTROL Subdomain]** grau dargestellt und können nicht bearbeitet werden.
+
+1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Änderungen zu bestätigen.
+
+   >[!NOTE]
+   >
+   >Sie können die Kanaloberfläche auch als Entwurf speichern und die Aktualisierung später fortsetzen.
+
+Sobald die Änderungen übermittelt wurden, durchläuft die Kanaloberfläche einen ähnlichen Validierungszyklus wie beim [Erstellen einer Kanaloberfläche](#create-channel-surface). Die Verarbeitungszeit nach dem Bearbeiten kann bis zu **3 Stunden** dauern.
+
+>[!NOTE]
+>
+>Wenn Sie nur die Felder **[!UICONTROL Beschreibung]**, **[!UICONTROL E-Mail-Typ]** und/oder **[!UICONTROL E-Mail-Wiederholungsparameter]** bearbeiten, wird die Aktualisierung sofort wirksam.
+
+### Details zur Aktualisierung {#update-details}
+
+Hat eine Kanaloberfläche den Status **[!UICONTROL Aktiv]**, können Sie die Details der Aktualisierung überprüfen. Gehen Sie dazu wie folgt vor:
+
+Klicken Sie auf das Symbol **[!UICONTROL Letzte Aktualisierung]**, das neben dem Namen der aktiven Oberfläche angezeigt wird.
 
 ![](assets/preset-recent-update-icon.png)
 
