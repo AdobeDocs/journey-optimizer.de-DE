@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1181'
 ht-degree: 97%
 
 ---
@@ -177,11 +177,6 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   >[!NOTE]
-   >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind in der Spalte **Kommentar** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}.
-
-   Sie können diese Vorlage auch von der Hauptansicht **[!UICONTROL Unterdrückungsliste]** herunterladen.
 
    >[!CAUTION]
    >
@@ -190,6 +185,10 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
    >Die Dateigröße darf 1 MB nicht überschreiten.
 
 1. Füllen Sie die CSV-Vorlage mit den E-Mail-Adressen und/oder Domains aus, die Sie der Unterdrückungsliste hinzufügen möchten.
+
+   >[!NOTE]
+   >
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind in der Spalte **Kommentar** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}.
 
 1. Platzieren Sie nach Abschluss die CSV-Datei per Drag-and-Drop und klicken Sie auf **[!UICONTROL Einsenden]**.
 

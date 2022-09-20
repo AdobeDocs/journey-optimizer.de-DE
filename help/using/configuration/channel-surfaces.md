@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1515'
+ht-degree: 92%
 
 ---
 
@@ -138,7 +138,7 @@ Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstü
    * Blockierungsauflistung der zugewiesenen IPs
    * Ungültiger `helo`-Name
    * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Oberfläche angegebenen gesendet werden
-   * E-Mails können nicht an Posteingänge großer ISPs wie Gmail und Yahoo gesendet werden
+   * E-Mails können nicht an Postfächer großer ISPs gesendet werden
 
 ## Bearbeiten einer Kanaloberfläche {#edit-channel-surface}
 

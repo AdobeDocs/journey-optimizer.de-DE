@@ -6,19 +6,34 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1309'
+ht-degree: 91%
 
 ---
 
 # Verwenden von Inhaltskomponenten von Email Designer {#content-components}
 
 >[!CONTEXTUALHELP]
->id="ac_content_components"
+>id="ac_content_components_email"
 >title="Über Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout eines Fragments erstellen können."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
 
 
 Wenn Sie Ihren E-Mail-Inhalt von Grund auf neu erstellen, ermöglichen **[!UICONTROL Inhaltskomponenten]** die Personalisierung Ihrer E-Mail mit unbearbeiteten, leeren Komponenten, die Sie verwenden können, sobald sie in eine E-Mail eingefügt wurden.
@@ -132,9 +147,27 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 ## Video {#Video}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_video"
+>id="ac_edition_video_email"
 >title="Videoeinstellungen"
 >abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="Videoeinstellungen"
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihre Landingpage einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="Videoeinstellungen"
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihr Fragment einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="Videoeinstellungen"
+>abstract="Verwenden Sie diese Komponente, um ein Video in Ihre Vorlage einzufügen. Beachten Sie, dass Videos nicht in allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Zusätzliche Informationen"
 
 Verwenden Sie die Komponente **[!UICONTROL Video]**, um über einen URL-Link ein Video in Ihre E-Mail einzufügen.
