@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 Der **[!UICONTROL Live-Bericht]** zu Abonnements zeigt nur Details zur Aktivität Ihrer Abonnenten, die in den letzten 24 Stunden erfolgte. Messungen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im [globalen Bericht](subscription-report-global.md) zu Abonnements.
 
-Wenn Sie auf Ihre Berichte zugreifen möchten, wählen Sie im erweiterten Menü der ausgewählten Abonnement-Liste **[!UICONTROL Live-Bericht]** aus.
+Um auf Ihre Berichte zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Bericht]** Symbol Ihrer ausgewählten Abonnementliste.
 
-![](assets/subscription_report_6.png)
+![](assets/subscription_report_7.png)
 
 Der **[!UICONTROL Live-Bericht]** zu Abonnements ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 

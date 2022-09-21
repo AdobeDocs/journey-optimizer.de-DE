@@ -6,26 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 95%
+source-wordcount: '870'
+ht-degree: 83%
 
 ---
 
 # Live-Bericht einer Kampagne {#campaign-live-report}
 
-Der Campaign-Live-Bericht ist direkt über Ihre Kampagne mit der Variablen **[!UICONTROL Berichte]** Schaltfläche.
+Über die Schaltfläche **[!UICONTROL Live-Ansicht]** können Sie direkt in Ihrer Campaign-Instanz auf den Live-Bericht in Campaign zugreifen.
 
-![](assets/campaign_report_1.png)
-
-Nach Auswahl der **[!UICONTROL Letzte 24 Stunden]** im Tab Kampagne **[!UICONTROL Live-Bericht]** wird mit den folgenden Registerkarten angezeigt:
+Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Registerkarten angezeigt:
 
 * [Campaign](#campaign-live)
 * [E-Mail](#email-live)
 * [Push-Benachrichtigung](#push-live)
+* [SMS](#sms-live)
+
 
 Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/live-report.md#modify-dashboard).
+
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](live-report.md#list-of-components-live).
 
 ## Registerkarte „Kampagne“ {#campaign-global}
 
@@ -44,11 +46,15 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL E-Mail]** die wichtigsten Informationen zu den E-Mail-Nachrichten, die in Ihrer Kampagne gesendet wurden.
 
+![](assets/campaign_report_live_1.png)
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
+
 Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
@@ -56,9 +62,9 @@ Die Tabelle **[!UICONTROL Versandmetriken nach E-Mail]** und das Diagramm **[!UI
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
@@ -81,18 +87,23 @@ Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** 
 In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** sehen Sie, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 
 Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
++++
 
-## Registerkarte „Push-Benachrichtigung“ {#push-live}
+## Tab Push notification {#push-live}
 
-In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Sendungen von Push-Benachrichtigungen, die in Ihrer Kampagne gesendet wurden.
+In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Push-Benachrichtigung]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten Push-Nachrichten aufgeführt.
+
+![](assets/campaign_report_live_2.png)
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
 
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
@@ -107,3 +118,47 @@ In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL
 Mit dem Widget **[!UICONTROL Sendestatistiken – Fehlgeschlagen]** können Sie sehen, wie viele Fehler und Bounces aufgetreten sind.
 
 Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach Betriebssystem.
++++
+
+## Registerkarte „SMS“ {#sms-live}
+
+In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL SMS]** im Tab werden die wichtigsten Informationen bezüglich der in Ihrer Kampagne gesendeten SMS-Sendungen aufgeführt.
+
+![](assets/campaign_report_live_3.png)
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
+
+Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg des Versands:
+
+* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
+
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
+
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
+
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+Die **[!UICONTROL SMS-Leistung nach Datum]** Widget erläutert die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm:
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Zugestellt]**: Die Anzahl der erfolgreich gesendeten Nachrichten.
+
+* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
+
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+Die **[!UICONTROL Ausschlussgründe]**, **[!UICONTROL Bounces-Gründe]** und **[!UICONTROL Fehlerursachen]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
++++
+
+## Weitere Ressourcen
+
+* [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
+* [Erstellen einer Kampagne](../campaigns/create-campaign.md)
+* [Erstellen von API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
+* [Ändern oder Stoppen einer Kampagne](../campaigns/modify-stop-campaign.md)
+* [Globaler Kampagnenbericht](campaign-global-report.md)

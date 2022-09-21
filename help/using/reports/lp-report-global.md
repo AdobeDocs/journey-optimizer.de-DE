@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 90%
 
 ---
 
@@ -17,13 +17,15 @@ ht-degree: 100%
 
 Der **[!UICONTROL globale Bericht]** zu Landingpages zeigt Details zur Wirkung Ihrer Landingpages über einen ausgewählten Zeitraum an. Wenn Sie Ihre Landingpage-Daten nur über die letzten 24 Stunden messen möchten, verwenden Sie den [Live-Bericht zu Landingpages](lp-report-live.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Globaler Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
 
-![](assets/landing_page_report_7.png)
+![](assets/landing_page_report.png)
 
 Der **[!UICONTROL globale Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
 
-![](assets/landing_page_report_4.png)
+![](assets/landing_page_global.png)
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den globalen Landingpage-Bericht verfügbar sind.
 
 Die Widgets **[!UICONTROL Anzahl der Besuche]** und **[!UICONTROL Anzahl der Besuche im Zeitverlauf]** stellen die Wirkung Ihrer Landingpage über den ausgewählten Zeitraum mithilfe eines Diagramms und KPIs mit den folgenden Metriken dar:
 
@@ -36,8 +38,6 @@ Das Widget **[!UICONTROL Leistung der Landingpage]** stellt anhand von KPIs die 
 * **[!UICONTROL Konversionsrate]**: Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich über ein Formular angemeldet haben, bezogen auf die Gesamtzahl der Besuche.
 
 * **[!UICONTROL Absprungrate]**: Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, bezogen auf die Gesamtzahl der Besuche.
-
-![](assets/landing_page_report_5.png)
 
 Das Widget **[!UICONTROL Besuchsquellen]** gibt an, wie Besucher auf Ihre Landingpage zugreifen:
 
@@ -57,8 +57,9 @@ Das Widget **[!UICONTROL Journey(s)]** stellt die Anzahl der Besuche auf einer L
 
 Das Widget **[!UICONTROL Andere Quellen]** stellt die Anzahl der Besuche auf einer Landingpage ausgehend von einer externen Quelle anstelle einer Journey dar.
 
-![](assets/landing_page_report_6.png)
-
 Die Diagramme **[!UICONTROL Besuche nach Nachrichten]**/**[!UICONTROL Konversionen nach Nachrichten]** stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach den gesendeten Nachrichten erfolgreich mit Ihrer Landingpage interagiert haben.
 
 Die Diagramme **[!UICONTROL Besuche nach Kanälen]**/**[!UICONTROL Konversionen nach Kanälen]** stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
++++
+
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](global-report.md#list-of-components-global).

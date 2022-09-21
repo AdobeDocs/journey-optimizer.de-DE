@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
-      + [Zugriff auf das Dashboard zum Live-Bericht](using/reports/live-report.md)
+      + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
       + [Campaign Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
-      + [Zugreifen auf das Dashboard zum globalen Bericht](using/reports/global-report.md)
+      + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
       + [Globaler Bericht in Campaign](using/reports/campaign-global-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
