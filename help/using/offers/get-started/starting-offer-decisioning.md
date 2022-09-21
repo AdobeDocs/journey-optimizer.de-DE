@@ -9,7 +9,7 @@ exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden.
 
-Die Entscheidungsverwaltung erleichtert die Personalisierung mit einer zentralen Bibliothek von Marketing-Angeboten und einer Entscheidungs-Engine, die Regeln und Einschränkungen auf von Adobe Experience Platform erstellte umfangreiche Echtzeitprofile anwendet, damit Sie Ihren Kunden zum richtigen Zeitpunkt das richtige Angebot unterbreiten können.
+Entscheidungs-Management erleichtert die Personalisierung durch eine zentrale Bibliothek mit Marketing-Angeboten und eine Entscheidungs-Engine. Dabei werden Regeln und Einschränkungen auf die von Adobe Experience Platform erstellten Echtzeitprofile angewendet, sodass Sie Ihren Kundinnen und Kunden zum richtigen Zeitpunkt das richtige Angebot senden können.
 
 Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 
@@ -69,7 +69,7 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
 ## Zugriff auf das Entscheidungs-Management gewähren {#granting-acess-to-decision-management}
 
-Berechtigungen für den Zugriff auf und die Verwendung von Entscheidungsfunktionen werden mithilfe des [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Die Zugriffsberechtigungen und die Verwendung der Entscheidungsfunktionen werden mithilfe von [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} verwaltet.
 
 Um Zugriff auf die Funktionen des Entscheidungs-Managements zu gewähren, müssen Sie ein **[!UICONTROL Produktprofil]** erstellen und den Benutzern die entsprechenden Berechtigungen zuweisen. Weitere Informationen zur Verwaltung von [!DNL Journey Optimizer]-Benutzern und -Berechtigungen finden Sie in [diesem Abschnitt](../../administration/permissions.md).
 

@@ -9,7 +9,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen](../administration/sandboxes.md)
 
-* **[!UICONTROL Warnhinweise]** - In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target=&quot;_blank&quot;}
 
 
 ## Produktinterne Anwendungsfälle {#in-product-uc}

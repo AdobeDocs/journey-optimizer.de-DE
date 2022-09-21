@@ -5,7 +5,7 @@ exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 * **URL-Tracking-Parameter**: Sie können jetzt den Ausdruckseditor verwenden, um URL-Tracking-Parameter auf Ihren E-Mail-Oberflächen (d. h. in den Voreinstellungen) zu konfigurieren. [Weitere Informationen](../configuration/email-settings.md#url-tracking)
 
-**Entscheidungsmanagement**
+**Entscheidungs-Management**
 
 * **Audience-Größe**: In der Benutzeroberfläche wird jetzt als neue Komponente eine Schätzung der Audience-Größe angezeigt, wenn eine Entscheidungsregel erstellt wird, ein Segment oder eine Regel zum Festlegen einer Angebotseignung ausgewählt wird oder ein Segment oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.
 
@@ -340,7 +340,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Entscheidungs-Management**
 
-* **Decisioning-API in Edge** - Die Edge Decisioning-API kann personalisierte Angebote bereitstellen und rendern, die im Entscheidungsmanagement verwaltet werden. Sie können Ihre Angebote und andere verwandte Objekte mithilfe der Entscheidungs-Management-Benutzeroberfläche (UI) oder APIs erstellen. [Weitere Informationen](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **Edge Decisioning-API** – Die Edge Decisioning-API kann personalisierte Angebote bereitstellen und rendern, die im Entscheidungs-Management verwaltet werden. Sie können Ihre Angebote und andere verwandte Objekte über APIs oder die Benutzeroberfläche (UI) des Entscheidungs-Managements erstellen. [Weitere Informationen](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Administration**
 
@@ -378,7 +378,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 **Entscheidungs-Management**
 
 * Sie können jetzt definieren, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil bzw. für alle Platzierungen oder nur für eine einzeln Platzierung gelten soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Mit der Batch Decisioning-API können Unternehmen Entscheidungsverwaltungsfunktionen für alle Profile in einem bestimmten Segment in einem Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Mit der Batch Decisioning-API können Unternehmen die Funktionalität des Entscheidungs-Managements für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 
-**Entscheidungsmanagement**
+**Entscheidungs-Management**
 
 * Wenn Sie ein Angebot, ein Fallback-Angebot, eine Angebotssammlung oder eine Angebotsentscheidung aktualisieren, auf die direkt oder indirekt in einer veröffentlichten Nachricht verwiesen wird, werden die Aktualisierungen automatisch in der entsprechenden Nachricht angezeigt, ohne dass sie erneut veröffentlicht werden müssen. [Weitere Informationen](../offers/offers-e2e.md#insert-decision-in-email)
 

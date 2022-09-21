@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1151'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 0%
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
-      + [Statistische Berechnungen verstehen](using/campaigns/experiment-calculations.md)
+      + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
       + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + Nachrichten {#messages}
@@ -51,7 +51,7 @@ ht-degree: 0%
    + [Erstellen einer E-Mail](using/messages/create-email.md)
    + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
    + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
-   + [Briefpost erstellen](using/messages/create-direct-mail.md)
+   + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
    + [Prüfen von Warnhinweisen](using/messages/alerts.md)
    + [Einverständnisverwaltung](using/messages/consent.md)
    + [Versandzeitpunkt optimieren](using/messages/send-time-optimization.md)
