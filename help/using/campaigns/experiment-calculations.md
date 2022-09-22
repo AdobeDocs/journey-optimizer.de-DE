@@ -15,7 +15,7 @@ ht-degree: 93%
 
 ---
 
-# Statistische Berechnungen verstehen {#experiment-calculations}
+# Verstehen von statistischen Berechnungen {#experiment-calculations}
 
 >[!AVAILABILITY]
 >
