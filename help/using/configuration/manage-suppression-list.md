@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,11 @@ Sie können auch [**manuell** eine Adresse oder eine Domain](#add-addresses-and-
 >Es dauert zwischen 0 und 60 Minuten, bis [!DNL Journey Optimizer] die unterdrückten Adressen in ausgehenden E-Mails berücksichtigt.
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Liste als CSV-Datei exportieren"
+>abstract="Um die Unterdrückungsliste herunterzuladen, können Sie entweder die aktuelle Liste exportieren, indem Sie eine neue Datei generieren, oder die zuvor generierte Datei herunterladen."
 
 Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und klicken Sie auf **[!UICONTROL Unterdrückungsliste]**.
 
