@@ -9,7 +9,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1648'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Push-Benachrichtigungen helfen Ihnen, Ihre Mobile-App-Benutzer jederzeit zu erre
 
 Push-Benachrichtigungen können erstellt werden:
 
-* In **Journey**: Nachdem Sie eine Push-Aktivität in Ihrer Journey hinzugefügt und grundlegende Einstellungen definiert haben, verwenden Sie die **[!UICONTROL Aktionen: Push]** den Inhalt der Push-Benachrichtigungen erstellen.
+* In einer **Journey**: Nachdem Sie eine Push-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Fensterbereich **[!UICONTROL Aktionen: Push]**, um den Inhalt für die Push-Benachrichtigungen zu erstellen.
 
-   Weiterführende Informationen zur Konfiguration Ihrer Journey finden Sie in diesem Abschnitt [page](../building-journeys/journey-gs.md).
+   Weitere Informationen zur Konfiguration der Journey auf [dieser Seite](../building-journeys/journey-gs.md).
 
-* In **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie Push-Benachrichtigung als Aktion aus und definieren Sie die grundlegenden Einstellungen.
+* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie „Push-Benachrichtigung“ als Aktion aus und definieren Sie die Grundeinstellungen.
 
-   Weiterführende Informationen zur Kampagnenkonfiguration finden Sie in diesem Abschnitt [page](../campaigns/create-campaign.md#configure).
+   Weitere Informationen zur Konfiguration einer Kampagne auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
 Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Einstellungen für die Betriebssysteme **iOS** und **Android** zu definieren.
 

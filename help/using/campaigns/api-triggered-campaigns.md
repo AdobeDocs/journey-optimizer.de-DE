@@ -7,7 +7,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 ## Erstellen einer von einer API ausgelösten Kampagne {#create}
 
-Der Prozess zum Erstellen API-gesteuerter Kampagnen bleibt identisch mit geplanten Kampagnen, mit Ausnahme der Zielgruppenauswahl, die in der API-Payload durchgeführt wird. Detaillierte Informationen zum Erstellen einer Kampagne finden Sie in [diesem Abschnitt](create-campaign.md).
+Der Prozess zum Erstellen einer API-ausgelösten Kampagne ist identisch mit dem Prozess für geplante Kampagnen, mit Ausnahme der Audience-Auswahl, die in der API-Payload durchgeführt wird. Detaillierte Informationen zum Erstellen einer Kampagne finden Sie in [diesem Abschnitt](create-campaign.md).
 
 Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen:
 
@@ -84,7 +84,7 @@ Um eine von APIs ausgelöste Kampagne auszuführen, müssen Sie zunächst deren 
 
 ![](assets/api-triggered-id.png)
 
-Anschließend können Sie diese ID in Ihrer API-Payload verwenden, um die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur Interactive Message Execution API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+Anschließend können Sie diese ID in Ihrer API-Payload verwenden, um die Kampagne auszulösen. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zur Interactive Message Execution API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
 Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, die Kampagne außerhalb dieses Zeitraums nicht ausgeführt wird und API-Aufrufe fehlschlagen.
 

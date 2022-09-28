@@ -1,6 +1,6 @@
 ---
 title: Ändern oder Stoppen einer Kampagne
-description: Erfahren Sie, wie Sie Live-Kampagnen in ändern, stoppen oder duplizieren [!DNL Journey Optimizer]
+description: Live-Kampagnen in  [!DNL Journey Optimizer] ändern, stoppen oder duplizieren
 feature: Overview
 topic: Content Management
 role: User
@@ -9,19 +9,19 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
 # Verwalten von Live-Kampagnen {#modify-stop-campaign}
 
-Nach Aktivierung einer Kampagne können Sie diese jederzeit ändern oder stoppen. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
+Sobald eine Kampagne aktiviert wurde, kann sie jederzeit geändert oder gestoppt werden. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
 
-Zusätzlich können Sie Live-Kampagnen duplizieren (einmal oder mit wiederkehrender Ausführung), um neue Kampagnen zu erstellen.
+Außerdem können Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) dupliziert werden, wenn neue Kampagnen erstellt werden sollen.
 
-## Ändern einer wiederkehrenden Kampagne {#modify}
+## Bearbeitung einer wiederkehrenden Kampagne {#modify}
 
-Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Kampagne zu ändern und zu erstellen:
+Zum Ändern und Erstellen einer neuen Version einer wiederkehrenden Kampagne wie folgt vorgehen:
 
 1. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
 
@@ -39,20 +39,20 @@ Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Kampagne zu 
    >
    >Durch die Aktivierung des Entwurfs wird die Live-Version der Kampagne ersetzt.
 
-## Wiederkehrende Kampagne stoppen {#stop}
+## Stoppen einer wiederkehrenden Kampagne {#stop}
 
-Um eine wiederkehrende Kampagne anzuhalten, öffnen Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne stoppen]** Schaltfläche.
+Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Button **[!UICONTROL Kampagne anhalten]** klicken.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Durch das Anhalten einer Kampagne wird der laufende Versand nicht gestoppt, aber der geplante Versand wird gestoppt oder das nächste Vorkommen, wenn der Versand bereits durchgeführt wird.
+>Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits im Gange ist.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
-## Kampagne duplizieren {#duplicate}
+## Duplizieren einer Kampagne {#duplicate}
 
-Sie können eine Live-Kampagne duplizieren, um eine neue zu erstellen. Öffnen Sie dazu die Kampagne und klicken Sie auf **[!UICONTROL Duplizieren]**.
+Eine Live-Kampagne kann dupliziert werden, um eine neue zu erstellen. Dazu bitte die Kampagne öffnen und auf **[!UICONTROL Duplizieren]** klicken.
 
 ![](assets/create-campaign-duplicate.png)

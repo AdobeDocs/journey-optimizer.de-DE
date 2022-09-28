@@ -9,7 +9,7 @@ exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Für &lt;expression1> und &lt;expression2> Es gibt keine Kontrolle des Datentyps.
+>Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Beispiel:
 
@@ -177,7 +177,7 @@ Beispiel:
 ```
 
 >[!NOTE]
-Für &lt;expression1> und &lt;expression2> Es gibt keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 

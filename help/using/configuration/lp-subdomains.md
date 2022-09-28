@@ -7,7 +7,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="Delegieren einer Subdomain der Landingpage"
->abstract="Sie richten Ihre Subdomain für die Verwendung einer Landingpage ein. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren."
+>abstract="Sie richten Ihre Subdomain für die Verwendung einer Landingpage ein. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delegieren einer Subdomain der Landingpage"
 >abstract="Sie müssen eine Subdomain für Ihre Landingpages konfigurieren, da Sie diese Subdomain zum Erstellen einer Landingpage-Voreinstellung benötigen. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine neue Subdomain konfigurieren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html" text="Erstellen von Landingpage-Voreinstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=de" text="Erstellen von Landingpage-Voreinstellungen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"

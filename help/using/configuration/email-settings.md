@@ -9,7 +9,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1188'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt zur Konfigur
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definieren der E-Mail-Kategorie"
->abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der zu sendenden E-Mails aus: Marketing für Werbe-E-Mails, für die die Benutzerzustimmung erforderlich ist, oder Transaktionen für nicht kommerzielle E-Mails, die auch in bestimmten Kontexten an abgemeldete Profile gesendet werden können."
+>abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **Marketing** oder **Transaktion**.
 
@@ -40,7 +40,7 @@ Wenn Sie [eine Nachricht erstellen](../messages/get-started-content.md), müssen
 
 ## Subdomain- und IP-Pools {#subdomains-and-ip-pools}
 
-Im **Subdomain- und IP-Pools** müssen Sie:
+Im Abschnitt **Subdomain- und IP-Pools** müssen Sie folgendermaßen vorgehen:
 
 1. Wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll. [Weitere Informationen](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Na
 
 ## Kopfzeilenparameter{#email-header}
 
-Im **[!UICONTROL Kopfzeilenparameter]** Geben Sie die Absendernamen und E-Mail-Adressen an, die mit der Art der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
+Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4
 
 Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu die **[!UICONTROL BCC-E-Mail]** optionale Funktion auf der Kanaloberfläche. [Weitere Informationen](bcc-email.md)
+Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -177,7 +177,7 @@ Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angeh�
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Mithilfe der **[!UICONTROL Neuen Parameter hinzufügen]** Schaltfläche.
+Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
 ![](assets/preset-url-tracking.png)
 

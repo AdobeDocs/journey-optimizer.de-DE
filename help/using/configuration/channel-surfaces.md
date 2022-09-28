@@ -9,13 +9,13 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
 source-wordcount: '1515'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # Einrichten von Kanaloberflächen {#set-up-channel-surfaces}
 
-Mit [!DNL Journey Optimizer]können Sie Kanaloberflächen (d. h. Nachrichtenvorgaben) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und Name, Mobile Apps, SMS-Konfiguration und mehr.
+Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >
@@ -35,12 +35,12 @@ Nachdem die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstelle
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Subdomain, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+>abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Subdomain, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+>abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
 <!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 

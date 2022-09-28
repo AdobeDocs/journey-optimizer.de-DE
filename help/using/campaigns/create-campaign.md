@@ -9,7 +9,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 56%
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 
-## Erste Kampagne erstellen {#create}
+## Erstellen der ersten Kampagne {#create}
 
-1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf, und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
    >[!NOTE]
    >
-   >Sie können auch eine vorhandene Live-Kampagne duplizieren, um eine neue zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
+   >Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
 
    ![](assets/create-campaign.png)
 
@@ -46,7 +46,7 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >In der Dropdown-Liste werden nur mit dem Marketingkampagnentyp kompatible Kanaloberflächen aufgelistet.
+   >In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
 
 <!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
@@ -63,13 +63,13 @@ ht-degree: 56%
       * [Erstellen einer E-Mail](../messages/create-email.md)
       * [Erstellen einer Push-Benachrichtigung](../messages/create-push.md)
       * [Erstellen einer SMS-Nachricht](../messages/create-sms.md)
-   1. Sobald Ihr Inhalt definiert ist, verwenden Sie die **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um Ihren Inhalt mit Testprofilen in der Vorschau anzuzeigen und zu testen. [Weitere Informationen](../design/preview.md).
+   1. Nachdem Ihr Inhalt definiert ist, verwenden Sie die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um eine Vorschau anzuzeigen und Ihren Inhalt mit Testprofilen zu testen. [Weitere Informationen](../design/preview.md).
 
-   1. Klicken Sie auf den Pfeil, um zum Bildschirm zur Kampagnenerstellung zurückzukehren.
+   1. Klicken Sie auf den Pfeil, um zum Bildschirm für die Kampagnenerstellung zurückzukehren.
 
       ![](assets/create-campaign-design.png)
 
-   1. Im **[!UICONTROL Aktionsverfolgung]** Geben Sie an, ob Sie verfolgen möchten, wie Ihre Empfänger auf Ihren Versand reagieren: Sie können Klicks und/oder Öffnungen verfolgen.
+   1. Geben Sie im Bereich **[!UICONTROL Aktions-Tracking]** an, ob Sie verfolgen möchten, wie Ihre Empfänger(innen) auf Ihren Versand reagieren: Sie können Klicks und/oder Öffnungen verfolgen.
 
       Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../reports/campaign-global-report.md)
 
@@ -88,9 +88,9 @@ ht-degree: 56%
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie die **[!UICONTROL Zeitplan]** Abschnitt. [Erfahren Sie, wie Sie Kampagnen planen](#schedule)
+1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt **[!UICONTROL Zeitplan]**. [Informationen zum Definieren eines Zeitplans für Kampagnen](#schedule)
 
-Sobald Ihre Kampagne fertig ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
+Nachdem Ihre Kampagne fertiggestellt ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
 
 ## Kampagne überprüfen und aktivieren {#review-activate}
 
@@ -110,15 +110,15 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte 
 
    ![](assets/create-campaign-review.png)
 
-1. Die Kampagne ist jetzt aktiviert. Sein Status ist **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** wenn Sie ein Startdatum eingegeben haben. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
+1. Die Kampagne ist jetzt aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
 
-   Die in der Kampagne konfigurierte Nachricht wird sofort oder am angegebenen Datum gesendet.
+   Die in der Kampagne konfigurierte Nachricht wird sofort oder zum angegebenen Datum versendet.
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Abgeschlossen]** Der Status wird einer Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
+   >Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt.
    >
-   >Wenn kein Enddatum angegeben wurde, behält die Kampagne die **[!UICONTROL Live]** Status. Um sie zu ändern, müssen Sie die Kampagne manuell stoppen. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md)
+   >Wenn kein Enddatum angegeben wurde, behält die Kampagne den Status **[!UICONTROL Live]**. Um ihn zu ändern, müssen Sie die Kampagne manuell anhalten. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md)
 
 1. Nach der Aktivierung einer Kampagne können Sie jederzeit ihre Informationen überprüfen, indem Sie sie öffnen. In der Zusammenfassung finden Sie Statistiken über die Anzahl der Zielgruppenprofile sowie der bereitgestellten und fehlgeschlagenen Aktionen.
 
@@ -126,12 +126,12 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte 
 
    ![](assets/create-campaign-summary.png)
 
-## Eine Kampagne planen {#schedule}
+## Festlegen eines Zeitplans für eine Kampagne {#schedule}
 
 Standardmäßig starten Kampagnen, sobald sie manuell aktiviert wurden, und enden, sobald die Nachricht einmal gesendet wurde.
 
-Sie können festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die **[!UICONTROL Action Triggers]** Optionen im Bildschirm zur Kampagnenerstellung auswählen, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
+Sie können aber auch festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die Option **[!UICONTROL Aktions-Trigger]** im Bildschirm zur Kampagnenerstellung, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
 
-Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand mit der **[!UICONTROL Kampagnenstart]** -Option. Die  **[!UICONTROL Kampagnenende]** -Option können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne beendet werden soll.
+Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben. Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne gestoppt werden soll.
 
 ![](assets/create-campaign-schedule.png)

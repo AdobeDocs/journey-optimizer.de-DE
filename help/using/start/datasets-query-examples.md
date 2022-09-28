@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[E-Mail-Tracking-Erfahrung-Ereignisdatensatz](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
+[E-Mail-Tracking-Erfahrungs-Ereignisdatensatz](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
 [Nachrichten-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Push-Tracking-Erfahrung-Ereignisdatensatz](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Push-Tracking-Erfahrungs-Ereignisdatensatz](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Journey-Step-Ereignis](../start/datasets-query-examples.md#journey-step-event)
-[ Decisioning-Ereignisdatensatz](../start/datasets-query-examples.md#ode-decisionevents)
+[Decisioning-Ereignisdatensatz](../start/datasets-query-examples.md#ode-decisionevents)
 [Einverständnisdienst-Datensatz](../start/datasets-query-examples.md#consent-service-dataset)
 [BCC-Feedback-Ereignisdatensatz](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Datensatz mit Entscheidungsereignissen{#ode-decisionevents}
+## Decisioning-Ereignisdatensatz{#ode-decisionevents}
 
 _Name in der Benutzeroberfläche: ODE DecisionEvents (Systemdatensatz)_
 

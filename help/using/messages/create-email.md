@@ -9,7 +9,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 70%
 
 E-Mails können erstellt werden:
 
-* In **Journey**: Nachdem Sie eine E-Mail-Aktivität in Ihrer Journey hinzugefügt und grundlegende Einstellungen definiert haben, verwenden Sie die **[!UICONTROL Aktionen: Email]** den Inhalt der Push-Benachrichtigungen erstellen.
+* In einer **Journey**: Nachdem Sie eine E-Mail-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Fensterbereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die E-Mail zu erstellen.
 
-   Weiterführende Informationen zur Konfiguration Ihrer Journey finden Sie in diesem Abschnitt [page](../building-journeys/journey-gs.md).
+   Weitere Informationen zur Konfiguration Ihrer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
    ![](assets/email-edit-content.png)
 
-* In **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie E-Mail als Aktion aus und definieren Sie die grundlegenden Einstellungen.
+* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie „E-Mail“ als Aktion aus und definieren Sie die grundlegenden Einstellungen.
 
-   Weiterführende Informationen zur Kampagnenkonfiguration finden Sie in diesem Abschnitt [page](../campaigns/create-campaign.md#configure).
+   Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
    ![](assets/email_campaign.png)
 
@@ -38,13 +38,13 @@ E-Mails können erstellt werden:
 
 Verwenden Sie [!DNL Journey Optimizer] Email Designer, um die [E-Mail von Grund auf neu zu erstellen](../design/create-email-content.md). Wenn Sie über einen vorhandenen Inhalt verfügen, können Sie [ihn in Email Designer importieren](../design/existing-content.md) oder [Ihren eigenen Inhalt in [!DNL Journey Optimizer] kodieren](../design/code-content.md).
 
-[!DNL Journey Optimizer] enthält einen Satz von [integrierte Vorlagen](../design/email-templates.md) um dir beim Start zu helfen. Jede E-Mail kann auch als Vorlage gespeichert werden.
+[!DNL Journey Optimizer] verfügt über eine Reihe von [integrierten Vorlagen](../design/email-templates.md), die Ihnen den Einstieg erleichtern. Jede E-Mail kann auch als Vorlage gespeichert werden.
 
 Verwenden Sie den [!DNL Journey Optimizer]-Ausdruckseditor, um Ihre Nachrichten mit den Daten der Profile zu personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
 ## E-Mail-Tracking{#email-tracking}
 
-Wenn Sie das Verhalten der Empfänger in Bezug auf Öffnungen und/oder Klicks auf Links verfolgen möchten, aktivieren Sie die folgenden Optionen: **[!UICONTROL Geöffnete E-Mails]** und **[!UICONTROL Klick auf E-Mail]**.
+Wenn Sie das Verhalten der Empfänger in Bezug auf Öffnungen und/oder Klicks auf Links verfolgen möchten, aktivieren Sie die folgenden Optionen: **[!UICONTROL E-Mail-Öffnungen]** und **[!UICONTROL Klick auf E-Mail]**.
 
 Weitere Informationen zu Tracking finden Sie in [diesem Abschnitt](../design/message-tracking.md).
 

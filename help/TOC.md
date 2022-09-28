@@ -273,7 +273,7 @@ ht-degree: 98%
       + [Verständnis der Unterdrückungsliste](using/reports/suppression-list.md)
 + Entscheidungs-Management {#offer-decisioning}
    + Erste Schritte mit Entscheidungs-Management {#get-started-decision}
-      + [Über Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
+      + [Über das Entscheidungs-Management](using/offers/get-started/starting-offer-decisioning.md)
       + [Benutzeroberfläche](using/offers/get-started/user-interface.md)
       + [Wichtigste Schritte bei der Angebotserstellung und -verwaltung](using/offers/offer-library/key-steps.md)
       + [Anwendungsfall: Einfügen von Angeboten in eine E-Mail](using/offers/offers-e2e.md)
@@ -288,7 +288,7 @@ ht-degree: 98%
          + [Über KI-Modelle](using/offers/ranking/ai-models.md)
          + KI-Modelltypen {#ai-model-types}
             + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
-            + [Personalisiertes Optimierungsmodell](using/offers/ranking/personalized-optimization-model.md)
+            + [Modell zur personalisierten Optimierung](using/offers/ranking/personalized-optimization-model.md)
          + Erstellen von KI-Modellen {#configure-ai-model}
             + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/ranking/create-dataset.md)
             + [Erstellen eines KI-Modells](using/offers/ranking/create-ranking-strategies.md)

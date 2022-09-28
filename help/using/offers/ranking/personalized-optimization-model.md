@@ -10,7 +10,7 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Es gibt drei Arten von Funktionen:
 
 | Funktionstypen | Hinzufügen von Funktionen zu Modellen |
 |--------------|----------------------------|
-| Entscheidungsobjekte (placementID, activityID, decisionScopeID) | Teil des Feedbacks zur Entscheidungsverwaltung an AEP gesendete Erlebnisereignisse |
+| Entscheidungs-Objekte (placementID, activityID, decisionScopeID) | Teil der Feedback-Erlebnisereignisse aus dem Entscheidungs-Management, die an AEP gesendet werden |
 | Segmente | 0–50 Segmente können beim Erstellen des KI-Modells für die Rangfolge als Funktionen hinzugefügt werden |
-| Kontextdaten | Teil des Entscheidungs-Feedbacks Erlebnisereignisse, die an AEP gesendet werden. Verfügbare Kontextdaten zum Hinzufügen zum Schema: Details zu Commerce, Kanal, Anwendung, Web, Umgebung und Gerät sowie placeContext |
+| Kontextdaten | Teil der Feedback-Erlebnisereignisse aus dem Decisioning, die an AEP gesendet werden. Verfügbare Kontextdaten zum Hinzufügen zum Schema: Details zu Commerce, Kanal, Anwendung, Web, Umgebung und Gerät sowie placeContext |
 
 Das Modell umfasst zwei Phasen:
 

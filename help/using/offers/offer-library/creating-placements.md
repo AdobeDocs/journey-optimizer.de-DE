@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie, wie Sie Platzierungen in der Entscheidungsverwaltung erstellen.
+Erfahren Sie, wie Sie im Entscheidungs-Management Platzierungen erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

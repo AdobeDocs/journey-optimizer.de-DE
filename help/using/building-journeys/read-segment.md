@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim A
 
 >[!NOTE]
 >
->Bei Journey, die die Aktivität Segment lesen verwenden, kann die maximale Anzahl von Journey exakt zur gleichen Zeit beginnen. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit Segment lesen, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
+>Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
 >
 >Das kostenpflichtige Burst-Add-on ermöglicht den schnellen Versand großer Mengen von Push-Benachrichtigungen für einfache Journeys, die die Aktivität „Segment lesen“ und eine einfache Push-Benachrichtigung enthalten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#burst)
 

@@ -1,6 +1,6 @@
 ---
 title: Erste Schritte
-description: Erfahren Sie, wie Sie mit der Verwendung der Angebotsbibliothek-API beginnen, um wichtige Vorgänge mithilfe der Entscheidungs-Engine durchzuführen.
+description: Beginn der Nutzung der API einer Angebotsbibliothek, um wichtige Operationen unter Verwendung der Decisioning-Engine durchzuführen.
 feature: Offers
 topic: Integrations
 role: User
@@ -9,13 +9,13 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Entwicklerhandbuch für die Entscheidungs-Management-API {#decision-management-api-developer-guide}
 
-In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch enthält dann Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungs-Engine.
+In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch enthält Beispiel-API-Aufrufe für die Durchführung wichtiger Operationen mit der Decisioning-Engine.
 
 ➡️ [Weitere Informationen zu den Komponenten des Entscheidungs-Managements finden Sie in diesem Video](#video)
 
@@ -25,7 +25,7 @@ Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Exper
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}: Das standardisierte Framework, mit dem [!DNL Experience Platform] Kundenerlebnisdaten organisiert.
    * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target=&quot;_blank&quot;}: Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
-* [Entscheidungsverwaltung](../../../using/offers/get-started/starting-offer-decisioning.md): Erläutert die Konzepte und Komponenten, die für Erlebnisentscheidungen im Allgemeinen und für das Entscheidungsmanagement im Speziellen verwendet werden. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
+* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten der Erlebnis-Entscheidungsfindung im Allgemeinen und insbesondere des Entscheidungs-Managements. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de){target=&quot;_blank&quot;}: PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken auf XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ In diesem Dokument ging es um die vorausgesetzten Kenntnisse, die zum Ausführen
 
 >[!NOTE]
 >
-> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet Entscheidungsverwaltungsobjekte. Wenn Ihr Unternehmen den In-App-Messaging-Kanal verwendet, enthalten API-Listenanfragen für Objekte vom In-App-Messaging-Dienst erstellte Objekte und können für Anwendungsfälle der Entscheidungsverwaltung ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Kennzeichnung: `createdBy = “Mobile_Sheliak”`.
+> Der In-App-Nachrichtenkanal in Adobe Journey Optimizer verwendet Entscheidungs-Management-Objekte. Wenn eine Organisation den In-App-Nachrichtenkanal verwendet, enthalten API-Listenanfragen für Objekte Objekte, die vom In-App-Nachrichten-Service erstellt wurden, und können für Entscheidungs-Management-Anwendungsfälle ignoriert werden. Für In-App-Nachrichten erstellte Objekte haben folgende Kennzeichnung: `createdBy = “Mobile_Sheliak”`.
 
 ## Anleitungsvideo {#video}
 

@@ -9,7 +9,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -58,10 +58,10 @@ Die Tabelle **[!UICONTROL Top-Aktionen]** enthält die für **[!UICONTROL Aktion
 
 * **[!UICONTROL Fehler in Aktion]**: Gesamtanzahl der Fehler, die bei **[!UICONTROL Aktionen]** aufgetreten sind.
 
-Die **[!UICONTROL Einverständnisrichtlinien]** Tabelle und Diagramm zeigen die Anzahl der Profile an, die aus den einzelnen Richtlinien in Ihren benutzerdefinierten Aktionen ausgeschlossen sind.
-Weitere Informationen zu benutzerdefinierten Aktionen finden Sie unter [die ausführliche Dokumentation](../action/about-custom-action-configuration.md).
+Die Tabelle und das Diagramm **[!UICONTROL Einverständnisrichtlinien]** zeigen die Anzahl der Profile an, die aus den einzelnen Richtlinien in Ihren benutzerdefinierten Aktionen ausgeschlossen sind.
+Weitere Informationen zur Anpassung von Aktionen finden Sie in [der entsprechenden Dokumentation](../action/about-custom-action-configuration.md).
 
-Damit diese Widgets in Ihren Journey-Berichten angezeigt werden, müssen Sie Ihre Dashboards zurücksetzen. Klicken Sie dazu auf **[!UICONTROL Ändern]** then **[!UICONTROL Zurücksetzen]** oben in Ihrem Bericht.
+Damit diese Widgets in Ihren Journey-Berichten angezeigt werden, müssen Sie Ihre Dashboards zurücksetzen. Klicken Sie dazu auf **[!UICONTROL Ändern]** und dann oben in Ihrem Bericht auf **[!UICONTROL Zurücksetzen]**.
 +++
 
 ## Registerkarte „E-Mail“ {#email-global}

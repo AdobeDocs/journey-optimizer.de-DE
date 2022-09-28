@@ -9,7 +9,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von
 
 ## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsgarantien und statische Beschränkungen für Entscheidungen werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;}.
+Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
 
 
 ## Beschränkungen bei Landingpages {#lp-guardrails}
@@ -88,4 +88,4 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 ### Segment lesen {#read-segment-g}
 
 * Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
-* Bei Journey, die die Aktivität Segment lesen verwenden, kann die maximale Anzahl von Journey exakt zur gleichen Zeit beginnen. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit Segment lesen, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
+* Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.

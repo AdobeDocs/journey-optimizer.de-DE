@@ -9,7 +9,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -117,7 +117,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
->abstract="Sie können die Journey Optimizer-Unterdrückungsliste manuell ausfüllen, um bestimmte E-Mail-Adressen und/oder Domänen von Ihrem Versand auszuschließen."
+>abstract="Sie können die Unterdrückungsliste von Journey Optimizer manuell ausfüllen, um bestimmte E-Mail-Adressen und/oder Domains vom Versand auszuschließen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
@@ -195,7 +195,7 @@ Klicken Sie dazu auf den Button **[!UICONTROL E-Mail oder Domain hinzufügen]** 
    >
    >Alle ASCII-Zeichen zwischen 32 und 126 sind in der Spalte **Kommentar** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;}.
 
-1. Platzieren Sie nach Abschluss die CSV-Datei per Drag-and-Drop und klicken Sie auf **[!UICONTROL Einsenden]**.
+1. Ziehen Sie danach die CSV-Datei per Drag-and-Drop in den entsprechenden Bereich und klicken Sie auf **[!UICONTROL Absenden]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 

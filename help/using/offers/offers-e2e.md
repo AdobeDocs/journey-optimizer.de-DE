@@ -9,7 +9,7 @@ exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Der gesamte Entscheidungs-Management-Prozess zur Verwendung von Angeboten in ein
 
 ## Definieren der Komponenten {#define-components}
 
-Bevor Sie mit der Erstellung von Angeboten beginnen, müssen Sie mehrere Komponenten definieren, die Sie in Ihren Angeboten verwenden werden.
+Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponenten definieren, die Sie in Ihren Angeboten verwenden wollen.
 
 Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTROL Komponenten]**.
 
@@ -193,7 +193,7 @@ Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschn
 
 Jetzt müssen Sie eine Entscheidung erstellen, die Platzierungen mit den personalisierten Angeboten und dem soeben erstellten Fallback-Angebot kombiniert.
 
-Diese Kombination wird von der Decisioning-Engine verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
+Diese Kombination wird vom Decisioning-Modul verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und der Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
 
 Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfigurieren:
 

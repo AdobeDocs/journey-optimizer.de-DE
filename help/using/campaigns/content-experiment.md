@@ -11,7 +11,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->Die **Inhaltstest** ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Funktion für **Inhaltsexperimente** ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie Journey Optimizer Content Experiment , um mehrere Bereitstellungsbehandlungen zu definieren. Die geplante Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie können den Versandinhalt, den Betreff oder den Absender variieren.
+Verwenden Sie die Inhaltsexperiment-Funktion von Journey Optimizer, um mehrere Versandvarianten zu erstellen. Die ausgewählte Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche Variante die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren.
 
 >[!NOTE]
 >
->Bevor Sie mit Content Experiment beginnen, stellen Sie sicher, dass Ihre Berichtskonfiguration für Ihre benutzerdefinierten Datensätze festgelegt ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](reporting-configuration.md).
+>Bevor Sie mit dem Inhaltsexperiment beginnen, stellen Sie sicher, dass die Berichtskonfiguration für Ihre benutzerdefinierten Datensätze definiert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](reporting-configuration.md).
 
 Im nachstehenden Beispiel wurde die Zielgruppe des Versands in zwei Gruppen aufgeteilt, die jeweils 45 % der Zielpopulation repräsentieren, und eine neutrale Gruppe von 10 %, die den Versand nicht erhalten wird.
 
-Jede Person in der Zielgruppe erhält eine Version einer E-Mail mit einer Betreffzeile, die einer der beiden folgenden ist:
+Jede Person in der Audience erhält eine Version der E-Mail mit einer der beiden folgenden Betreffzeilen:
 
 * In einer wird direkt ein 10-%-Angebot für die neue Kollektion beworben. Sie enthält außerdem ein Bild.
 * In der anderen wird nur für ein Sonderangebot ohne Angabe des 10-%-Rabatts geworben. Sie enthält kein Bild.
@@ -38,13 +38,13 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ![](assets/content_experiment.png)
 
-## Kampagne erstellen {#campaign-experiment}
+## Erstellen der Kampagne {#campaign-experiment}
 
-1. Aus dem **[!UICONTROL Kampagnen]** Seite, klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
+1. Klicken Sie auf der Seite **[!UICONTROL Kampagnen]** auf **[!UICONTROL Kampagne erstellen]**.
 
    ![](assets/content_experiment_1.png)
 
-1. Wählen Sie Ihren Kanal und dann **[!UICONTROL Oberfläche]** Sie möchten für diesen Versand verwenden. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
+1. Wählen Sie Ihren Kanal und dann die **[!UICONTROL Oberfläche]**, die Sie für diesen Versand verwenden möchten. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
 
    ![](assets/content_experiment_2.png)
 
@@ -55,7 +55,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
    * **[!UICONTROL Beschreibung]**
    * **[!UICONTROL Kategorie]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transaktion]**
 
-1. Um Ihr Inhaltsexperiment zu starten, aktivieren Sie die Option **[!UICONTROL Inhaltsexperiment]**. Die **[!UICONTROL Inhaltsexperiment]** angezeigt.
+1. Um Ihr Inhaltsexperiment zu starten, aktivieren Sie die Option **[!UICONTROL Inhaltsexperiment]**. Das Menü **[!UICONTROL Inhaltsexperiment]** wird angezeigt.
 
    ![](assets/content_experiment_3.png)
 
@@ -63,7 +63,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](get-started-experiment.md#content-experiment-work)
 
-1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt Planung . [Weitere Informationen](create-campaign.md)
+1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt „Zeitplan“. [Weitere Informationen](create-campaign.md)
 
 1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Personalisierung Ihrer anderen **[!UICONTROL Varianten]** zu beginnen.
 
@@ -71,15 +71,15 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 ## Erstellen der Varianten {#treatment-experiment}
 
-1. Aus dem **[!UICONTROL Inhalt bearbeiten]** Beginn der Personalisierung Ihrer Behandlung A.
+1. Im Fenster **[!UICONTROL Inhalt bearbeiten]** können Sie mit der Personalisierung von Variante A beginnen.
 
-   Für diese Behandlung wird das Sonderangebot direkt in der Betreffzeile angegeben.
+   Diese Variante wird so konfiguriert, dass das Angebot direkt in der Betreffzeile angezeigt wird.
 
    ![](assets/content_experiment_5.png)
 
-1. Nach der Konzeption Ihrer ersten Behandlung, **[!UICONTROL Mehr Aktionen]** Schaltfläche, klicken Sie auf **[!UICONTROL Duplizieren]**.
+1. Klicken Sie nach der Erstellung Ihrer ersten Variante auf der Schaltfläche **[!UICONTROL Mehr Aktionen]** auf **[!UICONTROL Duplizieren]**.
 
-   Sie können auch eine völlig neue Variante erstellen, indem Sie auf die Schaltfläche **[!UICONTROL Inhaltsexperiment]**![](assets/content_experiment_16.png) klicken, um auf die erweiterten Optionen zuzugreifen, und dann auf **[!UICONTROL Variante hinzufügen klicken]**.
+   Sie können auch eine völlig neue Variante erstellen, indem Sie auf die Schaltfläche **[!UICONTROL Inhaltsexperiment]**![](assets/content_experiment_16.png) klicken, um auf die erweiterten Optionen zuzugreifen, und dann auf **[!UICONTROL Variante hinzufügen]** klicken.
 
    ![](assets/content_experiment_7.png)
 
@@ -87,13 +87,13 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_8.png)
 
-1. Personalisieren Sie Ihre zweite Behandlung nach Bedarf.
+1. Personalisieren Sie Ihre zweite Variante nach Bedarf.
 
-   Im vorliegenden Beispiel soll das Angebot nicht im **[!UICONTROL Betreff]**.
+   In dieser Variante wird das Angebot nicht in der **[!UICONTROL Betreffzeile]** angegeben.
 
    ![](assets/content_experiment_9.png)
 
-Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
+Nachdem Ihre Varianten personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
 
 ## Konfigurieren des Inhaltsexperiments {#configure-experiment}
 
@@ -127,9 +127,9 @@ Sobald Ihre Behandlungen personalisiert wurden, können Sie mit der Konfiguratio
 
    ![](assets/content_experiment_14.png)
 
-Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie dem Erfolg Ihres Versands mit dem Kampagnenbericht folgen.
+Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie mit dem Kampagnenbericht den Erfolg Ihres Versands verfolgen.
 
-## Zielgruppenbericht {#objectives-global}
+## Zielsetzungsbericht {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -139,7 +139,7 @@ Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie dem Erfolg Ih
 
 Auf der Registerkarte **[!UICONTROL Ziele]** im Campaign-Bericht können Sie die Berichte Ihrer Sendungen besser anpassen, indem Sie auf eine bestimmte Kennzahl abzielen.
 
-Die aufgeführten **[!UICONTROL Ziele]** sind mit **[!UICONTROL Datensätzen]** verbunden, die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste mit integrierten **[!UICONTROL Zielen]** ist verfügbar, Sie können jedoch Ihre eigenen hinzufügen, indem Sie einen neuen **[!UICONTROL Datensatz]** hinzufügen. Eine detaillierte Anleitung finden Sie in diesem Abschnitt [Abschnitt](reporting-configuration.md).
+Die aufgeführten **[!UICONTROL Ziele]** sind mit **[!UICONTROL Datensätzen]** verbunden, die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste mit integrierten **[!UICONTROL Zielen]** ist verfügbar, Sie können jedoch Ihre eigenen hinzufügen, indem Sie einen neuen **[!UICONTROL Datensatz]** hinzufügen. Weiterführende Informationen finden Sie in diesem [Abschnitt](reporting-configuration.md).
 
 Nach Auswahl der Ziele, die Sie in Angriff nehmen möchten, bieten die beiden Widgets für **[!UICONTROL Leistungsübersicht]** und **[!UICONTROL Kampagnenziel]** eine detaillierte Zusammenfassung Ihrer Versandleistung.
 
@@ -147,7 +147,7 @@ Mit dem Widget **[!UICONTROL Kampagnenziel]** können Sie auch Ihr Hauptziel mit
 
 Beachten Sie, dass jedes Widget bei Bedarf in der Größe verändert und gelöscht werden kann. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
-## Experimentieren zur Verfügung {#experimentation-global}
+## Experimentieren Bericht {#experimentation-global}
 
 >[!AVAILABILITY]
 >

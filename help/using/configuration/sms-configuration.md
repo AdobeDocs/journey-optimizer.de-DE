@@ -7,7 +7,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 
 >[!IMPORTANT]
 >
->Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch und Twilio integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Dienste anbieten.  Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Dienst-ID zu erhalten, über das Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können. Ihre Nutzung von SMS-Diensten unterliegt zusätzlichen Bedingungen des jeweiligen SMS-Anbieters. Da Sinch und Twilio Drittanbieterprodukte sind, die Adobe Journey Optimizer-Benutzern über eine Integration zur Verfügung stehen, müssen sich die Nutzer von Sinch oder Twilio bei allen Fragen und Anfragen im Zusammenhang mit SMS-Diensten an den jeweiligen SMS-Anbieter wenden, um Unterstützung zu erhalten. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+>Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch und Twilio integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Services anbieten.  Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Service-ID zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können. Ihre Nutzung von SMS-Services unterliegt zusätzlichen Bedingungen des jeweiligen SMS-Anbieters. Da Sinch und Twilio Drittanbieterprodukte sind, die Adobe Journey Optimizer-Benutzenden über eine Integration zur Verfügung stehen, müssen sich die Benutzenden von Sinch oder Twilio bei allen Fragen und Anfragen im Zusammenhang mit SMS-Services an den jeweiligen SMS-Anbieter wenden, um Unterstützung zu erhalten. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
 
 ## Erstellen neuer API-Anmeldeinformationen {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="SMS-Anbieter mit Journey Optimizer konfigurieren"
+>title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
 >abstract="Wählen Sie Ihren Anbieter aus und geben Sie Ihre SMS-API-Anmeldeinformationen ein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="SMS-Anbieter mit Journey Optimizer konfigurieren"
+>title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
 >abstract="Wählen Sie Ihren Anbieter aus und geben Sie Ihre SMS-API-Anmeldeinformationen ein."
 
 <!--New contextual help content for September release: >abstract="Before sending SMS, you must integrate the provider settings with Journey Optimizer. Once done, you will need to create an SMS surface. These steps must be performed by an Adobe Journey Optimizer system administrator."
@@ -66,9 +66,9 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="SMS-Kategorie definieren"
->abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der zu sendenden SMS-Nachrichten aus: Marketing für Werbe-SMS-Nachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionen für nicht kommerzielle SMS-Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Abmeldung in Marketing-SMS-Nachrichten"
+>title="Bestimmen Sie die SMS-Kategorie"
+>abstract="Wählen Sie den SMS-Nachrichtentyp aus, der bei Verwendung dieser Oberfläche gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html?lang=de#sms-opt-in-out" text="Abmeldung von Marketing-SMS-Nachrichten"
 
 Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, um über **[!DNL Journey Optimizer]** SMS-Nachrichten senden zu können.
 

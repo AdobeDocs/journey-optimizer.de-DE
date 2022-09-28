@@ -8,7 +8,7 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ Die Schritte zum Konfigurieren des Push-Benachrichtigungskanals und zum Testen d
 
 Sie können auch mehrere Aktionen mit **[!DNL Adobe Journey Optimizer]APIs** durchführen.
 
-Erste Schritte bei der Verwendung der [!DNL Offer Library]-API werden im Detail [in diesem Abschnitt](../../offers/api-reference/getting-started.md) beschrieben. Dieses Handbuch enthält Beispiel-API-Aufrufe für die Ausführung wichtiger Vorgänge mithilfe der Entscheidungs-Engine.
+Erste Schritte bei der Verwendung der [!DNL Offer Library]-API werden im Detail [in diesem Abschnitt](../../offers/api-reference/getting-started.md) beschrieben. Dieses Handbuch enthält Beispiel-API-Aufrufe für die Ausführung von wichtigen Operationen mit der Entscheidungs-Management-Engine.

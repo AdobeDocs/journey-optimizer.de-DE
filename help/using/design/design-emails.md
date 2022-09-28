@@ -9,21 +9,21 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte beim Entwerfen von E-Mails {#get-started-content-design}
 
-Sie können vorhandenen Inhalt in [!DNL Journey Optimizer] oder nutzen Sie die Funktionen zur Inhaltserstellung:
+Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die Funktionen zur Inhaltserstellung nutzen:
 
-* Verwendung [!DNL Journey Optimizer] **E-Mail-Designfunktionen** , um responsive E-Mails zu erstellen oder zu importieren. [Weitere Informationen](../design/create-email-content.md)
+* Sie können die **Funktionen zur E-Mail-Gestaltung** in [!DNL Journey Optimizer] verwenden, um responsive E-Mails zu erstellen bzw. zu importieren. [Weitere Informationen](../design/create-email-content.md)
 
 * Nutzen Sie die Möglichkeiten von **Adobe Experience Manager Assets Essentials**, um Ihre E-Mails zu gestalten und um Ihre eigene Asset-Datenbank zu erstellen und verwalten. [Weitere Informationen](../design/assets-essentials.md)
 
 * Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern. [Weitere Informationen](../design/stock.md)
 
-* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte Nachrichten basierend auf ihren Profilattributen erstellen. [Weitere Informationen](../personalization/personalize.md)
+* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte Nachrichten auf der Basis von Profilattributen erstellen. [Weitere Informationen](../personalization/personalize.md)
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 

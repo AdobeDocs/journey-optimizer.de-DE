@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    >[!NOTE]
    >
-   >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die das aktuelle Wetter ≥ 80 Grad sein muss.
+   >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
 
    ![](../assets/activity_constraint-estimate.png)
 
@@ -211,7 +211,7 @@ Dadurch können Sie auf detaillierte Informationen zu dieser Entscheidung zugrei
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie, wie Sie Angebotsaktivitäten im Entscheidungs-Management erstellen.
+Erfahren Sie, wie Sie im Entscheidungs-Management Angebotsaktivitäten erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 

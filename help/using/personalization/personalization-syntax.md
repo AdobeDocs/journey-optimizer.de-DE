@@ -9,7 +9,7 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Die Syntax unterscheidet zwischen Groß- und Kleinschreibung.
 
 Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
-In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie den „Triple-Stash“.
+In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie dreifache geschweifte Klammern („Triple-Stash“).
 
-Bezüglich der Argumente für literale Funktionen unterstützt der Vorlagensprachparser keinen einfachen unescapten umgekehrten Schrägstrich (`\`). Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`). Beispiel:
+Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -125,7 +125,7 @@ Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen könne
 Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
 Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden / am Ende des Namens.
-Blöcke sind Ausdrücke mit Blocköffnung ({{# }}) and closing ({{/}}).
+Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

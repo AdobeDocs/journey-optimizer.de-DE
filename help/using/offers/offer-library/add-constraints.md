@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen
 
 >[!NOTE]
 >
->Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die das aktuelle Wetter ≥ 80 Grad sein muss.
+>Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
 
 ### Verwenden von Segmenten vs. Entscheidungsregeln {#segments-vs-decision-rules}
 
@@ -141,7 +141,7 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Begrenzungsfrequenz festlegen"
+>title="Festlegen der Begrenzungsfrequenz"
 >abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen."
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
@@ -191,7 +191,7 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
       Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 
-1. Sobald das Angebot gespeichert und validiert wurde und die Anzahl der in diesem Feld angegebenen Male in Übereinstimmung mit den Kriterien und dem von Ihnen definierten Zeitraum angezeigt wurde, stoppt die Bereitstellung.
+1. Wenn das Angebot nach dem Speichern und der Genehmigung entsprechend den von Ihnen festgelegten Kriterien und dem Zeitrahmen so oft präsentiert wurde, wie Sie in diesem Feld angegeben haben, wird es nicht mehr bereitgestellt.
 
 Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der E-Mail-Vorbereitung berechnet. Wenn Sie z. B. eine E-Mail mit mehreren Angeboten vorbereiten, wird diese Anzahl dem Begrenzungswert angerechnet, unabhängig davon, ob die E-Mail gesendet wird oder nicht.
 

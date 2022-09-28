@@ -9,7 +9,7 @@ exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Weitere Informationen zu den wichtigsten Konzepten und Eigenschaften finden Sie 
 
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
-| `@id` | Die von der Entscheidungsverwaltung generierte UUID, die eine einzelne Arbeitslast identifiziert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | Die vom Entscheidungs-Management generierte UUID, die eine einzelne Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | Die Organisations-ID. | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | Die Container-ID. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648078924834` |
@@ -148,7 +148,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | Die von der Entscheidungsverwaltung generierte UUID, die eine einzelne Arbeitslast identifiziert. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+| `{WORKLOAD_ID}` | Die vom Entscheidungs-Management generierte UUID, die eine einzelne Workload kennzeichnet. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **Anfrage**
 
@@ -177,7 +177,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
-| `@id` | Die von der Entscheidungsverwaltung generierte UUID, die eine einzelne Arbeitslast identifiziert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | Die vom Entscheidungs-Management generierte UUID, die eine einzelne Workload kennzeichnet. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | Die Organisations-ID | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | Die Container-ID | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungs-Workload-Anfrage erstellt wurde. | `1648076994405` |

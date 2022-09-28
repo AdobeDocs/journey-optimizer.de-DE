@@ -9,7 +9,7 @@ exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 93%
 
 Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) ist eine Client-seitige JavaScript-Bibliothek, die es Kunden von Adobe Experience Cloud ermöglicht, über das Adobe Experience Platform Edge Network mit den verschiedenen Services in Experience Cloud zu interagieren.
 
-Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, einschließlich Entscheidungs-Management, bei Adobe abfragen, sodass Sie personalisierte Angebote abrufen und rendern können, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben. Weitere Informationen finden Sie in der Dokumentation zum [Erstellen eines Angebots](../../get-started/starting-offer-decisioning.md).
+Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, einschließlich Entscheidungs-Management, bei Adobe abfragen, sodass Sie personalisierte Angebote abrufen und rendern können, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zum [Erstellen eines Angebots](../../get-started/starting-offer-decisioning.md).
 
-Es gibt zwei Möglichkeiten, die Entscheidungsverwaltung mit der [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
+Es gibt zwei Möglichkeiten, Entscheidungs-Management mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
 
-Weitere Informationen finden Sie in der Dokumentation unter [Entscheidungsmanagement](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning) für weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK.
+Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK finden Sie in der Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Um Angebote zu personalisieren, müssen Sie Ihre Personalisierung/Profile separa
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Gehen Sie wie folgt vor, um das SDK für die Entscheidungsverwaltung zu konfigurieren:
+Führen Sie einen der beiden folgenden Schritte aus, um das SDK für Entscheidungs-Management zu konfigurieren:
 
 ## Option 1: Installieren Sie die Tag-Erweiterung und -Implementierung mithilfe von Adobe Experience Platform Launch
 
@@ -66,7 +66,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 1. [Fügen Sie den Einbettungs-Code hinzu](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=de)
 
-1. Installieren und konfigurieren Sie die Platform Web SDK-Erweiterung mit dem von Ihnen erstellten Datenstrom, indem Sie die Konfiguration aus der Dropdown-Liste „Datenstrom“ auswählen. Weitere Informationen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de).
+1. Installieren und konfigurieren Sie die Platform Web SDK-Erweiterung mit dem von Ihnen erstellten Datenstrom, indem Sie die Konfiguration aus der Dropdown-Liste „Datenstrom“ auswählen. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -90,7 +90,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 ## Option 2: Manuelle Implementierung mit der vordefinierten eigenständigen Version
 
-Im Folgenden finden Sie die Schritte, die zur Verwendung der Entscheidungsverwaltung mithilfe der vordefinierten eigenständigen Installation des Web SDK erforderlich sind. In dieser Anleitung wird davon ausgegangen, dass es sich um Ihre erste Implementierung des SDK handelt, sodass möglicherweise nicht alle Schritte auf Sie zutreffen. Diese Anleitung setzt auch ein gewisses Maß an Entwicklerkenntnissen voraus.
+Im Folgenden finden Sie die erforderlichen Schritte zur Verwendung von Entscheidungs-Management mithilfe der vordefinierten eigenständigen Installation des Web SDK. In dieser Anleitung wird davon ausgegangen, dass es sich um Ihre erste Implementierung des SDK handelt, sodass möglicherweise nicht alle Schritte auf Sie zutreffen. Diese Anleitung setzt auch ein gewisses Maß an Entwicklerkenntnissen voraus.
 
 Fügen Sie das folgende JavaScript-Snippet von „Option 2: Die vordefinierte eigenständige Version“ auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in den `<head>`-Abschnitt Ihrer HTML-Seite ein.
 

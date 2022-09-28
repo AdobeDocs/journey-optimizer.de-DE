@@ -11,7 +11,7 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->Die **Inhaltstest** ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Funktion für **Inhaltsexperimente** ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden.
 
@@ -58,7 +58,7 @@ Die theoretischen Grundlagen der **Konfidenzsequenzen** stammen aus der Untersuc
 
 >[!NOTE]
 >
->Konfidenzsequenzen können als sichere sequentielle Analoga von Konfidenzintervallen interpretiert werden. Mit ihnen können Sie die Daten in Ihren Experimenten jederzeit betrachten und interpretieren und Experimente sicher stoppen oder fortsetzen. die entsprechende &quot;Beliebige Zeit gültige Konfidenz&quot;oder `p-value`, ist auch sicher zu interpretieren.
+>Konfidenzsequenzen können als sichere sequentielle Analoga von Konfidenzintervallen interpretiert werden. Mit ihnen können Sie die Daten in Ihren Experimenten jederzeit betrachten und interpretieren und Experimente sicher stoppen oder fortsetzen. Der entsprechende jederzeit gültige Konfidenzwert, auch `p-value` genannt, ist ebenfalls sicher zu interpretieren.
 
 Es ist wichtig zu beachten, dass Konfidenzsequenzen, da sie „jederzeit gültig“ sind, konservativer sind als eine Methodik mit festem Zeithorizont, die bei gleichem Stichprobenumfang verwendet wird. Die Grenzen der Konfidenzsequenzen sind im Allgemeinen breiter als die einer Konfidenzintervallberechnung, während die jederzeit gültige Konfidenz kleiner ist als eine Konfidenzberechnung mit festem Horizont. Der Vorteil dieses Konservatismus besteht darin, dass Sie Ihre Ergebnisse jederzeit sicher interpretieren können.
 
@@ -70,4 +70,4 @@ Jedes Mal, wenn Sie sich den Experimentbericht anzeigen lassen, analysiert Adobe
 
 Zu diesem Zeitpunkt wird die Behandlung, die die beste Leistung aufweist (basierend auf der Konversionsrate oder dem profilnormierten Metrikwert), am oberen Rand des Berichtsbildschirms hervorgehoben und im tabellarischen Bericht mit einem Stern gekennzeichnet. Nur Behandlungen, die eine Konfidenz von mehr als 95 % aufweisen, sowie die Grundlinie werden bei dieser Bestimmung berücksichtigt.
 
-Wenn es mehr als zwei Behandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Behandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall deklariert Adobe Journey Optimizer die mit der höchsten Konversionsrate (oder dem profilnormalisierten Metrikwert) als die leistungsstärkste.
+Wenn es mehr als zwei Behandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Behandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall erklärt Adobe Journey Optimizer die Behandlung mit der höchsten Konversionsrate (oder dem höchsten profilnormierten Metrikwert) zum besten Ergebnis.

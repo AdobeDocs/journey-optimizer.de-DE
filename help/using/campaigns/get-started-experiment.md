@@ -11,7 +11,7 @@ exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 71%
 
 >[!AVAILABILITY]
 >
->Die Funktion &quot;Inhaltserfahrung&quot;ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Was ist ein Inhaltsexperiment?
 
-Mit Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
+Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
 
 Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Behandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
@@ -31,46 +31,46 @@ Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, wa
 
 ![](assets/content_experiment_schema.png)
 
-Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt, besteht jede Gruppe, die eine bestimmte Behandlung erhält, aus zufällig ausgewählten Benutzenden. Das bedeutet, dass die Gruppen im Durchschnitt die gleichen Merkmale aufweisen. So kann jeder Unterschied in den Ergebnissen so interpretiert werden, dass er auf die Unterschiede in den Behandlungen zurückzuführen ist, d.h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessiert sind, herstellen.
+Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt, besteht jede Gruppe, die eine bestimmte Behandlung erhält, aus zufällig ausgewählten Benutzenden. Das bedeutet, dass die Gruppen im Durchschnitt die gleichen Merkmale aufweisen. Folglich kann jeder Unterschied bei den Ergebnissen auf die Unterschiede der Behandlungen zurückgeführt werden, d. h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessieren, herstellen.
 
 Auf diese Weise können Sie datengestützte Entscheidungen treffen, um Ihre geschäftlichen Ziele zu optimieren.
 
-Für Inhaltstests in Adobe Journey Optimizer können Sie Ideen testen, z. B.:
+Für Inhaltsexperimente in Adobe Journey Optimizer können Sie beispielsweise folgende Ideen testen:
 
 * **Betreffzeile**: Wie könnte sich eine Änderung des Tons oder des Personalisierungsgrads in der Betreffzeile auswirken?
 * **Nachrichteninhalt**: Führt eine Änderung des visuellen Layouts einer E-Mail zu mehr Klicks bei der E-Mail?
 
-## Wie funktioniert das Inhaltsexperiment? {#content-experiment-work}
+## Wie funktioniert ein Inhaltsexperiment? {#content-experiment-work}
 
 ### Zufällige Zuweisung
 
-Die Inhaltserprobung in Adobe Journey Optimizer verwendet einen pseudo-zufälligen Hash der Besucheridentität, um eine zufällige Zuweisung von Benutzern in Ihrer Zielgruppe zu einer der von Ihnen definierten Behandlungen durchzuführen. Der Hash-Mechanismus stellt sicher, dass in Szenarien, in denen der Besucher mehrmals an einer Kampagne teilnimmt, er deterministisch dieselbe Behandlung erhält.
+Inhaltsexperimente in Adobe Journey Optimizer verwenden einen pseudo-zufälligen Hash der Besucheridentität, um eine zufällige Zuweisung von Benutzenden in Ihrer Audience zu einer der von Ihnen definierten Behandlungen durchzuführen. Der Hash-Mechanismus stellt sicher, dass in Szenarien, in denen Besuchende mehrmals in eine Kampagne eintreten, deterministisch dieselbe Behandlung erhalten.
 
-Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzeridentitätszeichenfolge in einen von 10.000 Buckets zu hashen. In einem Inhaltsexperiment mit 50 % des Traffics, der jeder Behandlung zugeordnet wird, erhalten Benutzer, die in Behälter 1 bis 5.000 fallen, die erste Behandlung, während Benutzer in den Buckets 5.001 bis 10.000 die zweite Behandlung erhalten. Da Pseudo-zufälliges Hashing verwendet wird, ist der Besucher, wie Sie feststellen, möglicherweise nicht genau 50-50. Die Aufteilung entspricht dennoch statistisch Ihrem Zielaufteilungsprozentsatz.
+Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzeridentitätszeichenfolge in einen von 10.000 Buckets zu hashen. In einem Inhaltsexperiment, bei dem jeder Behandlung 50 % des Traffics zugewiesen werden, erhalten Benutzende, die in einen der Buckets 1 bis 5.000 fallen, die erste Behandlung, während Benutzende in den Buckets 5.001 bis 10.000 die zweite Behandlung erhalten. Da pseudo-zufälliges Hashing verwendet wird, ist die Aufteilung der Besuchenden, die Sie feststellen, möglicherweise nicht genau 50–50. Die Aufteilung entspricht dennoch statistisch Ihrem Zielaufteilungsprozentsatz.
 
-Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identitäts-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von der [Ausführungsadressen](../configuration/primary-email-addresses.md).
+Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identity-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von den [Ausführungsadressen](../configuration/primary-email-addresses.md).
 
-### Datenerfassung und Analyse
+### Datensammlung und Analyse
 
-Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn der Benutzer die Kampagne in eingehenden Kanälen betritt, wird ein &quot;Zuweisungsdatensatz&quot;im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Behandlung der Benutzer zugewiesen wurde, sowie Experiment- und Kampagnen-IDs.
+Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn Benutzende über eingehende Kanäle in die Kampagne eintreten, wird ein „Zuweisungseintrag“ im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Behandlung den Benutzenden zugewiesen wurde, dazu Experiment- und Kampagnen-Kennungen.
 
 Zielmetriken können in zwei Hauptklassen gruppiert werden:
 
-* Direkte Metriken, bei denen der Benutzer direkt auf die Behandlung reagiert, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
-* Indirekte oder &quot;untere Trichtermetriken&quot;, die auftreten, nachdem der Benutzer der Behandlung ausgesetzt wurde.
+* Direkte Metriken, bei denen Benutzende direkt auf die Behandlung reagieren, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
+* Indirekte oder „Trichterboden“-Metriken, die auftreten, nachdem Benutzende der Behandlung ausgesetzt wurden.
 
-Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten verfolgt, werden die Antwortereignisse der Endbenutzer automatisch mit den Kampagnen- und Behandlungs-IDs getaggt, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../design/message-tracking.md).
+Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Behandlungs-Kennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../design/message-tracking.md).
 
 ![](assets/technote_2.png)
 
-Bei indirekten oder &quot;untergeordneten&quot;Zielen wie Käufen werden die Reaktionsereignisse der Endbenutzer nicht mit Kampagnen- und Behandlungs-IDs versehen, d. h., ein Kaufereignis tritt nach der Exposition gegenüber einer Behandlung auf. Dieser Kauf wird nicht direkt mit einer Vorbehandlungszuweisung verknüpft. Für diese Metriken ordnet die Adobe die Behandlung dem untersten Trichterkonversionsereignis zu, wenn:
+Bei indirekten oder „Trichterboden“-Zielen wie Käufen werden die Reaktionsereignisse der Endbenutzenden nicht mit Tags zur Kampagnen- und Behandlungs-Kennung versehen, d. h., ein Kaufereignis tritt ein, nachdem Benutzende einer Behandlung ausgesetzt waren. Dieser Kauf wird nicht direkt mit einer vorherigen Zuweisung einer Behandlung verknüpft. Für diese Metriken verknüpft Adobe die Behandlung mit dem „Trichterboden“-Konversionsereignis, wenn:
 
-* Die Benutzeridentität ist zum Zeitpunkt der Zuweisung und Konversionsereignisse identisch.
-* Die Konversion erfolgt innerhalb von sieben Tagen nach der Behandlungszuweisung.
+* Die Benutzeridentität zum Zeitpunkt der Zuweisung und des Konversionsereignisses identisch ist.
+* Die Konversion innerhalb von sieben Tagen nach der Behandlungszuweisung erfolgt.
 
 ![](assets/technote_3.png)
 
-Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die jederzeit gültig sind, um diese Rohdaten für die Berichterstellung zu interpretieren, mit denen Sie Ihre Experimentationsberichte interpretieren können. Weitere Informationen hierzu finden Sie auf [dieser Seite](../campaigns/experiment-calculations.md).
+Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die „jederzeit gültig“ sind, um diese Rohdaten für die Berichterstellung zu interpretieren, mit denen Sie Ihre Experimentationsberichte interpretieren können. Weitere Informationen hierzu finden Sie auf [dieser Seite](../campaigns/experiment-calculations.md).
 
 ## Tipps zum Durchführen von Experimenten
 
@@ -93,7 +93,7 @@ So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrich
 +++ Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
 Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Behandlungen können Sie in der Zielmetrik erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
-Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank}, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
+Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++
 
 +++ Verstehen Sie statistische Unsicherheiten
@@ -137,11 +137,11 @@ Wenn sich die Konfidenzintervalle für zwei Behandlungen kaum überschneiden, be
 
 Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse zu jedem Zeitpunkt des Experiments sicher angezeigt werden können.
 
-### 3. Steigerungen verstehen {#understand-lift}
+### 3. Verstehen von Steigerungen {#understand-lift}
 
 In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Grundlinie]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung gegenüber der Grundlinie darstellt. Genauer gesagt handelt es sich um den Unterschied in der Leistung zwischen einer bestimmten Behandlung und der Grundlinie, geteilt durch die Leistung der Grundlinie, ausgedrückt in Prozent.
 
-### 3. Vertrauen verstehen {#understand-confidence}
+### 3. Verstehen von Konfidenz {#understand-confidence}
 
 Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Leistung der einzelnen Behandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Behandlung mit der Grundlinienbehandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Grundlinien- und die Nicht-Grundlinien-Behandlung die gleiche Leistung aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Behandlung und der Grundlinie beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 
