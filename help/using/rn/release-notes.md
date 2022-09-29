@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 28%
@@ -198,7 +198,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 ### Weitere Änderungen{#sept-2022-other}
 
-* Der Journey-Burst-Modus wurde durch den Campaign-Modus Schneller Versand ersetzt. Weitere Infos
+* Der Journey-Burst-Modus wurde durch den Campaign-Modus Schneller Versand ersetzt. [Weitere Informationen](../campaigns/create-campaign.md#rapid-delivery})
 * Um die Leistung zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journey verwendet werden, beginnend mit einem Segment lesen, einer Segmentqualifikation oder einer Business-Event-Aktivität. Diese Änderung gilt nur für neue Journey. Vorhandene Verhaltensweisen behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
 * Die 1-Stunden-Beschränkung für Journey für geplante Lesesegmente wurde entfernt. Diese Journey können jetzt ohne Verzögerung ausgeführt werden.
 
