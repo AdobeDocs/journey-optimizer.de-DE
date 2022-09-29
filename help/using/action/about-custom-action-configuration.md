@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 951799a9986e4fd293f282ecf82496e5e7f2da9e
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,13 @@ Für benutzerdefinierte Aktionen gibt es einige Einschränkungen, die auf [diese
 In den Parametern für benutzerdefinierte Aktionen können Sie sowohl eine einfache Sammlung als auch eine Sammlung von Objekten übergeben. Weitere Informationen zu den Einschränkungen von Sammlungen finden Sie auf [dieser Seite](../building-journeys/collections.md#limitations).
 
 Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein bestimmtes Format erwartet wird (Beispiel: Zeichenfolge, Dezimalwert usw.). Sie müssen darauf achten, dass diese erwarteten Formate eingehalten werden. Weitere Informationen finden Sie in diesem [Anwendungsfall](../building-journeys/collections.md).
+
+## Einverständnis und Data Governance {#privacy}
+
+In Journey Optimizer können Sie Data Governance- und Zustimmungsrichtlinien auf Ihre benutzerdefinierten Aktionen anwenden, um zu verhindern, dass bestimmte Felder in Drittanbietersysteme exportiert werden, oder Kunden ausschließen, die dem Empfang von E-Mails, Push- oder SMS-Nachrichten nicht zugestimmt haben. Weitere Informationen finden Sie auf den folgenden Seiten:
+
+* [Data Governance](../action/action.md).
+* [Einverständnis](../action/action.md).
 
 
 ## Konfigurationsschritte {#configuration-steps}

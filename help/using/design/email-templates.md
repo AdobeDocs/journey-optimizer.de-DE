@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,11 @@ Sie können aus folgenden Optionen wählen:
 * Gespeicherte Vorlagen. [Weitere Informationen](#save-as-template)
 
 ## Als Vorlage speichern {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
+>abstract="Am 25. Juli 2022 verschwand das Menü Nachrichten und Nachrichten werden nun direkt von einer Journey verfasst. Wenn Sie Ihre alten Nachrichten in Journeys wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 
 Sobald Sie Ihren [E-Mail-Inhalt](design-emails.md) entworfen haben, können Sie ihn zur späteren Wiederverwendung speichern. Gehen Sie dazu wie folgt vor.
 

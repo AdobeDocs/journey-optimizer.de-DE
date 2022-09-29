@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Datensätze in Adob
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 76%
 
 ---
 
@@ -33,12 +33,30 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
+Im Folgenden finden Sie die verschiedenen verfügbaren Datensätze:
+
+**Reporting**
+
+* _Reporting - Datensatz mit Nachrichten-Feedback-Ereignissen_: Versandlogs der Nachrichten. Informationen zu allen Nachrichtenbereitstellungen von Journey Optimizer für Berichterstattungs- und Segmenterstellungszwecke. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
+* _Reporting - E-Mail-Tracking-Erlebnisdatensatz_: Interaktionsprotokolle für den E-Mail-Kanal, der zur Berichterstellung und Segmenterstellung verwendet wird. Informationen, die gespeichert werden und Informationen zu Aktionen enthalten, die der Endbenutzer in E-Mails (Öffnungen, Klicks usw.) durchführt.
+* _Berichterstellung - Ereignis-Datensatz für Push-Tracking_: Interaktionsprotokolle für den Push-Kanal, der für Berichte- und Segmenterstellungszwecke verwendet wird. Gespeicherte Informationen zu Aktionen, die vom Endbenutzer bei Push-Benachrichtigungen ausgeführt werden.
+* _Berichterstellung - Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Diensten wie Reporting genutzt werden können. Auch für die Erstellung von Berichten im Customer Journey Analytics für YoY-Analysen wichtig. An Journey-Metadaten gebunden.
+* _Berichterstellung - Journey_: Informationen zum Metadaten-Datensatzgehäuse für jeden Schritt in einer Journey.
+* _Berichterstellung - BCC_: Feedback-Ereignis-Datensatz, in dem die Versandlogs für BCC-E-Mails gespeichert werden. Für Berichtszwecke.
+
+**Einverständnis**
+
+* _Datensatz des Zustimmungsdienstes_: speichert Einverständnisinformationen eines Profils.
+
+**Intelligent Services**
+
+* _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabedaten von Journey AI.
+
 ## Vorschau von Datensätzen{#preview-datasets}
 
 Wählen Sie im Datensatzaktivitäts-Bildschirm rechts oben die Option **Vorschau des Datensatzes anzeigen** aus, um eine Vorschau des zuletzt erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, wird der Vorschau-Link deaktiviert.
 
 ![](assets/dataset-preview.png)
-
 
 ## Erstellen von Datensätzen{#create-datasets}
 

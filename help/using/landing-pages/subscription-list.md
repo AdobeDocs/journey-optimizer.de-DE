@@ -6,16 +6,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '420'
+ht-degree: 92%
 
 ---
 
 # Abonnement-Listen {#create-subscription-list}
 
 ## Was ist eine Abonnement-Liste? {#subscription-list-definition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_list"
+>title="Abonnementliste einrichten"
+>abstract="Erstellen Sie eine Abonnementliste, um Profile zu sammeln, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Erstellen einer Abonnement-Liste"
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
@@ -29,7 +35,7 @@ Beispiele für einen Anmeldedienst:
 
 Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnement-Liste hinzugefügt werden. Ein Beispiel dazu finden Sie in [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
-## Definieren einer Abonnement-Liste {#define-subscription-list}
+## Erstellen einer Abonnement-Liste {#define-subscription-list}
 
 Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 

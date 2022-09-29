@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
 Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen.
 
-Sie können den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und, wenn Sie ein Administrator sind, eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen. Sie können auch [Burst-Messaging](#burst) aktivieren, sofern diese Option für Ihre Organisation aktiviert wurde.
+Sie können den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und, wenn Sie ein Administrator sind, eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
 
 Für Live-Journeys werden in diesem Bildschirm das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat.
 
@@ -96,6 +96,10 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
 
 Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+
+>[!NOTE]
+>
+>Einzelne Journey (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Eintritt in das Profil wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr für ein bestimmtes Profil und ein anderes um 12:03 Uhr Trigger (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das die gleiche Journey auslöst), wird die Journey für dieses Profil nicht erneut gestartet.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
@@ -127,31 +131,8 @@ Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie i
 
 Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
-### Burst-Modus {#burst}
+### Zugriff verwalten {#access}
 
-Der Burst-Modus ist in Journey Optimizer ein kostenpflichtiges Add-on, das den sehr schnellen Versand großer Mengen von Push-Benachrichtigungen ermöglicht. Er wird für einfache Journeys verwendet, die die Aktivität **Segment lesen** und eine einfache Push-Benachrichtigung enthalten. Der Burst-Modus wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzer, die Ihre Nachrichten-App installiert haben.
+Um dem Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf das **[!UICONTROL Zugriff verwalten]** Schaltfläche. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLA)](../administration/object-based-access.md)
 
-Für Burst-Messaging gelten folgende Anforderungen:
-
-* Die Journey muss mit der Aktivität **Segment lesen** beginnen. Ereignisse sind nicht erlaubt.
-* Der nächste Schritt muss eine Push-Benachrichtigung sein. Es sind keine anderen Kanäle, Aktivitäten oder Schritte zulässig.
-* In der Push-Benachrichtigung ist keine Personalisierung zulässig.
-* Die Nachricht muss klein sein (&lt; 2 KB).
-
->[!CAUTION]
->
->Wenn eine der Anforderungen nicht erfüllt ist, ist der Burst-Modus in der Journey nicht verfügbar.
-
-Um den **Burst-Modus** zu aktivieren, öffnen Sie Ihre Journey und klicken Sie oben rechts auf das Stiftsymbol, um auf die Eigenschaften der Journey zuzugreifen. Aktivieren Sie dann den Umschalter **Burst-Modus aktivieren**.
-
-![](assets/burst.png)
-
-Der Burst-Modus wird automatisch deaktiviert, wenn Sie eine Burst-Journey ändern und eine Aktivität hinzufügen, die nicht mit Burst-Messaging kompatibel ist, wie eine E-Mail, andere Aktionen, ein Ereignis usw.
-
-![](assets/burst2.png)
-
-Testen und veröffentlichen Sie dann Ihre Journey wie üblich. Beachten Sie, dass im Testmodus Nachrichten nicht über den Burst-Modus gesendet werden.
-
-In diesem Video erfahren Sie, welche Anwendungsfälle für Burst-Messaging in Frage kommen und wie Sie eine Journey für Burst-Nachrichten konfigurieren:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

@@ -1,23 +1,17 @@
 ---
 title: Auslösen von Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit einer  [!DNL Journey Optimizer] API Kampagnen auslösen können.
-hide: true
-hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 82%
 
 ---
 
 # Auslösen von Kampagnen mit APIs {#trigger-campaigns}
 
 ## Über von einer API ausgelöste Kampagnen {#about}
-
->[!NOTE]
->
->Die Interactive Message Execution API befindet sich derzeit in der Betaphase und kann ohne vorherige Ankündigung häufig aktualisiert werden.
 
 Mit [!DNL Journey Optimizer] können Sie Kampagnen erstellen und diese dann in einem externen System über eine [Interactive Message Execution REST-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) auslösen. Auf diese Weise können Sie Nutzungsszenarien mit verschiedenen operativen und Transaktionsnachrichten abdecken, wie z. B. das Zurücksetzen von Kennwörtern, OTP-Token usw.
 
@@ -44,8 +38,12 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
    >[!NOTE]
    >
    >Sie können an die API-Payload zusätzliche Daten zur Nachrichtenpersonalisierung übergeben. [Weitere Informationen](#contextual)
+   >
+   >Die Verwendung einer großen Zahl oder umfangreicher Kontextdaten in Ihrem Inhalt kann sich auf die Leistung auswirken.
 
-1. Geben Sie den Namespace an, anhand dessen Personen aus dem Segment identifiziert werden sollen.
+1. Im **[!UICONTROL Zielgruppe]** Geben Sie den Namespace an, mit dem die Kontakte aus dem Segment identifiziert werden sollen.
+
+   Die **[!UICONTROL Erstellen neuer Profile]** ermöglicht die automatische Erstellung von Profilen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
 
 1. Konfigurieren Sie das Start- und Enddatum der Kampagne.
 
@@ -88,6 +86,16 @@ Anschließend können Sie diese ID in Ihrer API-Payload verwenden, um die Kampag
 
 Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, die Kampagne außerhalb dieses Zeitraums nicht ausgeführt wird und API-Aufrufe fehlschlagen.
 
+## Profilerstellung bei der Kampagnenausführung {#profile-creation}
+
+In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System sind. Beispiel: Ein unbekannter Benutzer versucht, sich bei Ihrer Website anzumelden.
+
+Wenn ein Profil nicht in der Datenbank vorhanden ist, können Sie es bei der Ausführung der Kampagne automatisch erstellen, damit die Nachricht an dieses Profil gesendet werden kann.
+
+Dazu können Sie die **[!UCONTROL Erstellen neuer Profile]** -Option in der **[!UICONTROL Zielgruppe]** Abschnitt.
+
+![](assets/api-triggered-create-profile.png)
+
 >[!NOTE]
 >
->In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System sind. Beispiel: Ein unbekannter Benutzer versucht, sich bei Ihrer Website anzumelden. In diesem Fall wird das entsprechende Profil automatisch in Adobe Experience Platform im Datensatz **AJO Interactive Messaging Profile Dataset** erstellt.
+>Unbekannte Profile werden im **AJO-Profildatensatz für interaktive Nachrichten** Datensatz, in drei Standard-Namespace (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).

@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 38%
 
 ---
 
 # toDateOnly{#toDateOnly}
 
-Konvertiert einen Argumentwert in einen reinen Datumswert.
+Konvertiert ein Argument in einen Wert vom Typ dateOnly . Weiterführende Informationen zu Datentypen finden Sie in diesem Abschnitt [Abschnitt](../expression/data-types.md).
 
 ## Kategorie
 
@@ -29,19 +29,33 @@ Konversion
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum im ISO-8601-Format oder im XDM-Datumsformat „JJJJ-MM-TT“  | string |
-| Datum | date |
+| Zeichenfolgendarstellung eines Datums als &quot;JJJ-MM-TT&quot;(XDM-Format). Unterstützt auch das ISO-8601-Format: only **full-date** Teil wird berücksichtigt (siehe [RFC 3339, Abschnitt 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | Zeichenfolge |
+| Datum/Uhrzeit | dateTime |
+| Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
+| ganzzahliger Wert einer Epoche in Millisekunden | integer |
 
 ## Signaturen und zurückgegebene Typen
 
-`toDateOnly(<date>)`
+`toDateOnly(<dateTime>)`
+
+`toDateOnly(<dateTimeOnly>)`
 
 `toDateOnly(<string>)`
 
-Gibt einen Datum/Uhrzeit-Wert ohne Berücksichtigung der Zeitzone zurück.
+`toDateOnly(<integer>, <integer>, <integer>)`
+
+Gibt einen Wert vom Typ dateOnly zurück.
 
 ## Beispiele
 
 `toDateOnly("2016-08-18")`
 
-gibt ein dateOnly-Objekt zurück, das 2016-08-18 darstellt.
+`toDateOnly("2016-08-18T00:00:00.000Z")`
+
+`toDateOnly("2016-08-18T00:00:00")`
+
+alle geben ein dateOnly -Objekt zurück, das 2016-08-18 darstellt.
+
+`toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
+
+Gibt einen dateOnly -Wert zurück.

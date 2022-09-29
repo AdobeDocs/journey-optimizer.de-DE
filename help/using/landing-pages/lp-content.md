@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 100%
+source-wordcount: '1215'
+ht-degree: 63%
 
 ---
 
@@ -19,7 +19,7 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
 >[!NOTE]
 >
->Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie z. B. ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
+>Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne von Ihren Empfängern Maßnahmen zu ergreifen (z. B. Opt-in oder Opt-out) oder Informationen bereitstellen möchten, für die keine Benutzereingabe erforderlich ist.
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
@@ -96,8 +96,6 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
    ![](assets/lp_designer-form-save.png)
 
-<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
 ## Definieren von Formularstilen für Landingpages {#lp-form-styles}
 
 1. Um die Stile der Inhalte Ihrer Formularkomponente zu ändern, können Sie jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln.
@@ -123,3 +121,86 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Klicken Sie die entsprechende Option an, um den Fehlertext im Formular in der Vorschau anzuzeigen.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Primärseitenkontext verwenden {#use-primary-page-context}
+
+Sie können Kontextdaten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
+
+Wenn Sie beispielsweise ein Kontrollkästchen verknüpfen<!-- or the submission of the page--> zu [Abonnementliste](subscription-list.md) auf der primären Landingpage können Sie diese Abonnementliste auf der &quot;Vielen Dank&quot;-Unterseite verwenden.
+
+Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn sich ein Benutzer für eine dieser Optionen anmeldet, möchten Sie beim Senden des Formulars je nach ausgewähltem Kontrollkästchen eine bestimmte Nachricht anzeigen.
+
+Gehen Sie dazu wie folgt vor:
+
+1. Verknüpfen Sie auf der primären Seite jedes Kontrollkästchen mit der entsprechenden Abonnementliste. [Weitere Informationen](#use-form-component).
+
+   ![](assets/lp_designer-form-luma-newsletter.png)
+
+1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie **[!UICONTROL Personalisierung hinzufügen]** in der dedizierten Symbolleiste.
+
+   ![](assets/lp_designer-form-subpage-perso.png)
+
+1. Im **[!UICONTROL Personalisierung bearbeiten]** auswählen **[!UICONTROL Kontextattribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
+
+1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol + die entsprechenden Elemente aus.
+
+   ![](assets/lp_designer-form-add-subscription.png)
+
+1. Fügen Sie die relevanten Bedingungen mithilfe der Hilfsfunktionen des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/functions/functions.md)
+
+   ![](assets/lp_designer-form-add-subscription-condition.png)
+
+   >[!CAUTION]
+   >
+   >Wenn der Ausdruck ein Sonderzeichen wie einen Bindestrich enthält, müssen Sie den Text einschließlich des Bindestrichs mit Escape-Zeichen versehen.
+
+1. Speichern Sie Ihre Änderungen.
+
+![](assets/lp_designer-form-preview-checked-box.png)
+
+Wenn Benutzer jetzt eines der Kontrollkästchen aktivieren, wird beim Senden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
+
+![](assets/lp_designer-form-thankyou-preview.png)
+
+>[!NOTE]
+>
+>Wenn ein Benutzer die beiden Kontrollkästchen aktiviert, werden beide Texte angezeigt.
+
+
+## Zusätzliche Daten zu Landingpage verwenden {#use-additional-data}
+
+Wann [Konfigurieren der primären Seite](create-lp.md#configure-primary-page)können Sie zusätzliche Daten erstellen, um die Speicherung von Informationen beim Senden der Landingpage zu ermöglichen.
+
+>[!NOTE]
+>
+>Diese Daten sind für Benutzer, die die Seite besuchen, möglicherweise nicht sichtbar.
+
+Wenn Sie einen oder mehrere Schlüssel mit den zugehörigen Werten definiert haben, wenn Sie [Konfigurieren der primären Seite](create-lp.md#configure-primary-page)können Sie diese Schlüssel im Inhalt Ihrer primären Seite und Unterseiten mit der [Ausdruckseditor](../personalization/personalization-build-expressions.md).
+
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+
+Gehen Sie wie folgt vor, um diese Schlüssel in einer Landingpage zu nutzen:
+
+1. Definieren Sie beim Konfigurieren der primären Seite einen Schlüssel und den zugehörigen Wert in der Variablen **[!UICONTROL Zusätzliche Daten]** Abschnitt. [Weitere Informationen](create-lp.md#configure-primary-page)
+
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. Wenn Sie die primäre Seite mit dem Designer bearbeiten, platzieren Sie den Mauszeiger an der Stelle, an der Sie die Taste einfügen möchten, und wählen Sie **[!UICONTROL Personalisierung hinzufügen]** in der dedizierten Symbolleiste.
+
+   ![](assets/lp_designer-context-add-perso.png)
+
+1. Im **[!UICONTROL Personalisierung bearbeiten]** auswählen **[!UICONTROL Kontextattribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Zusätzlicher Kontext]**.
+
+   ![](assets/lp_designer-contextual-attributes.png)
+
+1. Alle Schlüssel, die Sie beim Konfigurieren der primären Seite erstellt haben, werden aufgelistet. Wählen Sie über das Symbol + den Schlüssel Ihrer Wahl aus.
+
+   ![](assets/lp_designer-context-select-key.png)
+
+1. Speichern Sie Ihre Änderungen und wiederholen Sie die obigen Schritte so oft wie nötig.
+
+   ![](assets/lp_designer-context-keys-inserted.png)
+
+   Sie können sehen, dass das Ihrem Schlüssel entsprechende Personalisierungselement jetzt überall dort angezeigt wird, wo Sie es eingefügt haben.

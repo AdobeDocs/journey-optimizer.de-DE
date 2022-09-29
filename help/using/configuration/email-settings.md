@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 100%
@@ -133,7 +133,7 @@ Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4
 
 Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von [!DNL Journey Optimizer] an einen BCC-Posteingang gesendet wurden, in dem sie für Compliance- oder Archivierungszwecke gespeichert werden.
 
-Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](bcc-email.md)
+Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 

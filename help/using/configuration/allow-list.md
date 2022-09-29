@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Exper
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Verwalten der Zulassungsliste"
->abstract="Wenn die Zulassungsliste aktiviert ist, erhalten nur die in der Zulassungsliste enthaltenen Empfänger E-Mail-Nachrichten von dieser Sandbox."
+>abstract="Wenn die Zulassungsliste aktiviert ist, erhalten nur die in der Zulassungsliste enthaltenen Empfänger E-Mail-Nachrichten von dieser Sandbox. Nach der Deaktivierung erhalten alle Empfänger E-Mails."
 
 Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende Logik:
 

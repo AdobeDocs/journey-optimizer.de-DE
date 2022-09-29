@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 5a33508759d527a76dd7119102358ae345107652
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,16 @@ ht-degree: 100%
 
 Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
-Erstellen Sie Kampagnen, um im Batch einfache Ad-hoc-Mitteilungen für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen zu versenden.
+Sie können zwei Arten von Kampagnen erstellen:
+
+* **Geplante Kampagnen** ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
+* **API-ausgelöste Kampagnen** ermöglichen über REST-APIs einfache Transaktions- und operative Nachrichten (Kennwortzurücksetzung, Kartenkündigung usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und Kontextdaten aus der Payload bestehen kann.
 
 Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 ![](assets/create-campaign-process.png)
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
-
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Vor Beginn {#campaign-prerequisites}
 

@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '438'
+ht-degree: 13%
 
 ---
 
@@ -20,6 +18,10 @@ ht-degree: 14%
 >id="ajo_olac_manage_access"
 >title="Zugriffskontrolle auf Objektebene"
 >abstract="Wenn Sie Beschriftungen anwenden, auf die Sie keinen Zugriff haben, wird Ihr Zugriff auf dieses Objekt widerrufen."
+
+>[!IMPORTANT]
+>
+>Die Zugriffskontrolle auf Objektebene ist derzeit auf ausgewählte Kunden beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.
 
 Mit der Zugriffskontrolle auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten definieren:
 
@@ -86,6 +88,7 @@ So weisen Sie Ihren Journey Optimizer-Objekten benutzerdefinierte oder zentrale 
 1. Klicken **[!UICONTROL Speichern]** um diese Beschriftungsbeschränkung anzuwenden.
 
 Um Zugriff auf dieses Objekt zu erhalten, müssen Benutzer über die spezifische **[!UICONTROL Titel]** in ihre **[!UICONTROL Rollen]**.
+Beispiel: Ein Benutzer mit der Beschriftung C1 hat nur Zugriff auf C1-beschriftete oder unbeschriftete Objekte.
 
 Weitere Informationen zur Zuweisung von **[!UICONTROL Titel]** zu **[!UICONTROL Rolle]**, siehe [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).
 

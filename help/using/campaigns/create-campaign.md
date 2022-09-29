@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 70%
 
 ---
 
@@ -33,10 +32,10 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
+   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
+   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen dienen dem Versand von Nachrichten des Typs **Transaktion**, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Kündigung einer Karte usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten, und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
@@ -47,8 +46,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
-
-<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an.
 
@@ -76,7 +73,9 @@ ht-degree: 100%
 
 1. Definieren Sie die anzusprechende Audience. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../segment/about-segments.md)
 
-   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
+   >[!NOTE]
+   >
+   >Für API-ausgelöste Kampagnen muss die Audience über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
 
    Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace)
 
@@ -90,41 +89,9 @@ ht-degree: 100%
 
 1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt **[!UICONTROL Zeitplan]**. [Informationen zum Definieren eines Zeitplans für Kampagnen](#schedule)
 
+1. Um der Kampagne benutzerdefinierte oder Kerndatennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]** Schaltfläche. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLA)](../administration/object-based-access.md)
+
 Nachdem Ihre Kampagne fertiggestellt ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
-
-## Kampagne überprüfen und aktivieren {#review-activate}
-
-Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
-
-1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf **[!UICONTROL Zum Aktivieren überprüfen]**, um eine Zusammenfassung der Kampagne anzuzeigen.
-
-   In der Zusammenfassung können Sie die Kampagne bei Bedarf ändern und überprüfen, ob ein Parameter falsch ist oder fehlt.
-
-   >[!IMPORTANT]
-   >
-   >Bei Fehlern können Sie die Kampagne nicht aktivieren. Beheben Sie die Fehler, bevor Sie fortfahren.
-
-   ![](assets/create-campaign-alerts.png)
-
-1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
-
-   ![](assets/create-campaign-review.png)
-
-1. Die Kampagne ist jetzt aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
-
-   Die in der Kampagne konfigurierte Nachricht wird sofort oder zum angegebenen Datum versendet.
-
-   >[!NOTE]
-   >
-   >Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt.
-   >
-   >Wenn kein Enddatum angegeben wurde, behält die Kampagne den Status **[!UICONTROL Live]**. Um ihn zu ändern, müssen Sie die Kampagne manuell anhalten. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md)
-
-1. Nach der Aktivierung einer Kampagne können Sie jederzeit ihre Informationen überprüfen, indem Sie sie öffnen. In der Zusammenfassung finden Sie Statistiken über die Anzahl der Zielgruppenprofile sowie der bereitgestellten und fehlgeschlagenen Aktionen.
-
-   Sie können auch zusätzliche Statistiken in speziellen Berichten einsehen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken. [Weitere Informationen](../reports/campaign-global-report.md)
-
-   ![](assets/create-campaign-summary.png)
 
 ## Festlegen eines Zeitplans für eine Kampagne {#schedule}
 
@@ -135,3 +102,40 @@ Sie können aber auch festlegen, mit welcher Häufigkeit die Nachricht der Kampa
 Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben. Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne gestoppt werden soll.
 
 ![](assets/create-campaign-schedule.png)
+
+## Schnellbereitstellungsmodus {#rapid-delivery}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rapid_delivery"
+>title="Schnellbereitstellungsmodus"
+>abstract="Der Modus Schnellversand ist ein Journey Optimizer-Add-on, mit dem Sie nicht personalisierte Nachrichten für Zielgruppen mit 30 Millionen Profilen schnell ausgeben können."
+
+Der schnelle Bereitstellungsmodus, der in Journey früher als Burst-Modus bezeichnet wurde, ist ein [!DNL Journey Optimizer] -Add-on, das den sehr schnellen Versand von Push-Nachrichten in großen Mengen durch Kampagnen ermöglicht.
+
+Schneller Versand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist, wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine brechende Nachricht an Benutzer, die Ihre News-Kanal-App installiert haben.
+
+Weitere Informationen zur Leistung bei Verwendung des Rapid-Versandmodus finden Sie unter [Produktbeschreibung von Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html?lang=de).
+
+
+### Voraussetzungen {#prerequisites}
+
+Der schnelle Versand von Nachrichten umfasst die folgenden Anforderungen:
+
+* Eine schnelle Bereitstellung ist verfügbar für **[!UICONTROL Geplant]** nur Kampagnen und nicht für API-gesteuerte Kampagnen verfügbar sind,
+* In der Push-Benachrichtigung ist keine Personalisierung zulässig,
+* Die Zielgruppe muss weniger als 30 Millionen Profile enthalten.
+* Im Modus Schneller Versand können Sie bis zu 5 Kampagnen gleichzeitig ausführen.
+
+### Aktivieren des Modus für schnelle Bereitstellung
+
+1. Erstellen Sie eine Push-Benachrichtigungskampagne und aktivieren Sie die **[!UICONTROL Schneller Versand]** -Option.
+
+![](assets/create-campaign-burst.png)
+
+1. Konfigurieren Sie den Nachrichteninhalt und wählen Sie die Zielgruppe aus. [Erfahren Sie, wie Sie eine Kampagne erstellen](#create)
+
+   >[!IMPORTANT]
+   >
+   >Stellen Sie sicher, dass der Nachrichteninhalt keine Personalisierung enthält und dass die Audience weniger als 30 Millionen Profile enthält.
+
+1. Überprüfen und aktivieren Sie Ihre Kampagne wie gewohnt. Beachten Sie, dass Nachrichten im Testmodus nicht über den Modus Schneller Versand gesendet werden. [Erfahren Sie, wie Sie eine Kampagne überprüfen und aktivieren](review-activate-campaign.md)

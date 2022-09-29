@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -70,9 +70,9 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 
    Wenn zum Beispiel die URL der Landingpage „pages.mail.luma.com“ und die Tracking-URL „data.mail.luma.com“ lautet, können Sie „pages.mail.luma.com“ als Tracking-Subdomain wählen.
 
-1. Klicken Sie auf **[!UICONTROL Senden]**, um die Erstellung der Landingpage-Voreinstellung zu bestätigen. Sie können die Voreinstellung auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
+1. Klicken Sie auf **[!UICONTROL Senden]**, um die Erstellung der Landingpage-Voreinstellung zu bestätigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   ![](assets/lp_preset-subdomain-settings-submit.png)
+   <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
 1. Nachdem die Landingpage-Voreinstellung erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Aktiv]** angezeigt. Sie kann nun für Ihre Landingpages verwendet werden.
 

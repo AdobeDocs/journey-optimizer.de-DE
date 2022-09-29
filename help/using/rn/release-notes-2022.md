@@ -2,16 +2,84 @@
 title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
 workflow-type: tm+mt
-source-wordcount: '2337'
-ht-degree: 100%
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # Versionshinweise 2022 {#release-notes-2022}
 
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2022 veröffentlicht wurden.
+
+## Version August 2022 {#aug-2022-release}
+
+### Neue Funktionen
+
+<table>
+<thead>
+<tr>
+<th><strong>Erstellen und Verwalten von Kampagnen in Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei der Verwendung von Journeys sind Aktionen so konzipiert, dass sie der Reihe nach ausgeführt werden. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>Wie Sie eine Kampagne erstellen, erfahren Sie in der <a href="../campaigns/get-started-with-campaigns.md">ausführlichen Dokumentation</a> und im <a href="https://video.tv.adobe.com/v/346680">Funktionsvideo</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS-Versand an Ihre Nutzer und Nutzerinnen (allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt SMS in Journey Optimizer erstellen, personalisieren und senden, indem Sie eine Integration mit <b>Sinch</b> oder <b>Twilio</b> vornehmen.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>In dieser <a href="../messages/create-sms.md">detaillierten Dokumentation</a> erfahren Sie, wie Sie eine SMS erstellen und senden.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Verbesserungen
+
+**Reporting**
+
+* Die Tabelle und das Diagramm zu den Einverständnisrichtlinien sind jetzt in den globalen Journey-Berichten verfügbar. Mit diesen Widgets können Sie die von den Richtlinien ausgeschlossenen Profile in Ihren benutzerdefinierten Aktionen verfolgen. [Weitere Informationen](../reports/journey-global-report.md#journey-global)
+
+   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in [der ausführlichen  Dokumentation](../reports/global-report.md).
+
+**Administration**
+
+* Es ist jetzt möglich, die primäre Telefonnummer für den SMS-Kanal zu aktualisieren. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
 
 ## Version Juli 2022 {#july-2022-release}
@@ -167,7 +235,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt die Funktion „E-Mail-BCC“ (Blind Carbon Copy) verwenden, um von Adobe Journey Optimizer gesendete E-Mails zu speichern. Aktivieren Sie diese Option in Ihren E-Mail-Voreinstellungen, damit jede gesendete E-Mail in Blindkopie an Ihre BCC-Adresse gesendet wird.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../configuration/bcc-email.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../configuration/archiving-support.md#bcc-email">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -316,7 +384,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 * **Landingpages ohne Formular**: Sie können jetzt eine Landingpage erstellen und veröffentlichen, die kein Formular enthält und keine Aktion von Besuchern erfordert.
 * **Landingpage-Vorlagen**: Sie können jetzt eine Landingpage als Vorlage speichern und sie bei der Erstellung anderer Landingpages wiederverwenden. [Weitere Informationen](../landing-pages/lp-templates.md)
 * **Zurück zur primären Seite**: Sie können nun von einer beliebigen Unterseite innerhalb derselben Landingpage aus einen Link zur primären Seite hinzufügen.
-* **Unterstützung von benutzerdefiniertem JavaScript**: Sie können jetzt benutzerdefinierten JavaScript-Code zu Ihren Landingpage-Inhalten hinzufügen, um erweiterte Formatierungen durchzuführen oder Ihren Landingpages benutzerspezifische Verhaltensweisen hinzuzufügen.	[Weitere Informationen](../landing-pages/lp-custom-js.md)
+* **Unterstützung von benutzerdefiniertem JavaScript**: Sie können jetzt benutzerdefinierten JavaScript-Code zu Ihren Landingpage-Inhalten hinzufügen, um erweiterte Formatierungen durchzuführen oder Ihren Landingpages benutzerspezifische Verhaltensweisen hinzuzufügen.    [Weitere Informationen](../landing-pages/lp-custom-js.md)
 
 **Journey**
 
@@ -438,7 +506,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -466,9 +534,9 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **Journey**
 
 * Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
-* Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.	[Weitere Informationen](../action/acc-action.md#important-notes)
+* Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.    [Weitere Informationen](../action/acc-action.md#important-notes)
 
-**Reporting**
+**Berichterstellung**
 
 * Sendungen können nun nach ihrem Status gefiltert werden:
    * In der Liste „Nachrichtenausführung“ können Sie jetzt Testsendungen aus der Versandliste ausschließen.
@@ -536,4 +604,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalisierung**
 
-* **Zu Favoriten hinzufügen** – Um das Arbeiten mit Personalisierungen einfacher zu gestalten, haben die Speicherung von Favoriten ermöglicht. Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Elemente. [Weitere Informationen](../personalization/personalize.md#fav)
+* **Zu Favoriten hinzufügen** - Um die Effizienz bei der Arbeit mit Personalisierungen zu verbessern, haben wir das Konzept der Speicherung von Favoriten eingeführt. Durch das Hinzufügen verschiedener Attribute zum Favoritenmenü erhalten Sie schnellen Zugriff auf die am häufigsten verwendeten Elemente. [Weitere Informationen](../personalization/personalize.md#fav)

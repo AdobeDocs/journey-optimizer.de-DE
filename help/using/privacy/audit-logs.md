@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 
 | Ressource | Aktion |
 |-----------|------------------|
+| AJO-Kampagne | Erstellen/Löschen/Aktualisieren/Aktivieren/Anhalten |
 | Allgemeine Einstellungen für den AJO-Kanal | Erstellen/Löschen/Aktualisieren |
 | AJO-IP-Pool | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung aufheben |
@@ -41,7 +42,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 | AJO-Landingpage-Voreinstellung | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage-Subdomain | Erstellen/Löschen/Aktualisieren |
 | AJO-Nachricht | Erstellen/Löschen/Aktualisieren/Veröffentlichen |
-| AJO-Kanaloberfläche | Erstellen/Löschen/Aktualisieren |
+| AJO-Nachrichtenvoreinstellung | Erstellen/Löschen/Aktualisieren |
 | AJO-PTR-Eintrag | Erstellen/Löschen/Aktualisieren |
 | AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
 | Anmeldedaten der AJO-SMS-API | Erstellen/Löschen/Aktualisieren |

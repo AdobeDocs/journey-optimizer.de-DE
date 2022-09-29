@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1469'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können eine Landingpage auch löschen, duplizieren und ihre Veröffentlichu
 
 >[!CAUTION]
 >
->Wenn Sie die Veröffentlichung einer Landingpage aufheben, auf die in einer nicht veröffentlichten Nachricht verwiesen wird, funktioniert der Link zur Landingpage nicht mehr und eine Fehlerseite wird angezeigt.
+>Wenn Sie die Veröffentlichung einer Landingpage rückgängig machen, auf die in einer Nachricht verwiesen wird, wird der Link zur Landingpage beschädigt und eine Fehlerseite angezeigt.
 
 Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte Aktion auszuwählen.
 
@@ -39,9 +39,16 @@ Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte
 
 >[!NOTE]
 >
->Veröffentlichte Landingpages können nicht gelöscht werden. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung aufheben.
+>Eine [veröffentlicht](#publish-landing-page) Landingpage. Um sie zu löschen, müssen Sie zunächst die Veröffentlichung aufheben.
 
 ## Erstellen einer Landingpage {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="Landingpage definieren und konfigurieren"
+>abstract="Um eine Landingpage zu erstellen, müssen Sie eine Vorgabe auswählen, dann die primäre Seite und die untergeordneten Seiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Veröffentlichen der Landingpage"
 
 Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
@@ -52,6 +59,10 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 1. Fügen Sie einen Titel hinzu. Sie können bei Bedarf eine Beschreibung hinzufügen.
 
    ![](assets/lp_create-lp-details.png)
+
+1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLAC)](../administration/object-based-access.md)
+
+   <!--You can add a tag. See AEP documentation?-->
 
 1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../configuration/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 
@@ -70,6 +81,19 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#configure-subpages) (sofern vorhanden) konfiguriert und gestaltet haben, können Sie Ihre Landingpage [testen](#test-landing-page) und [veröffentlichen](#publish-landing-page).
 
 ## Konfigurieren der Primärseite {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="Primäre Seiteneinstellungen definieren"
+>abstract="Die primäre Seite wird den Benutzern sofort angezeigt, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, z. B. über eine E-Mail oder eine Website."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Erstellen der Landingpage-Inhalte"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="Definieren Sie Ihre Landingpage-URL"
+>abstract="Definieren Sie in diesem Abschnitt eine eindeutige Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten Voreinstellung eingerichtet haben."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Konfigurieren von Landingpage-Subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
 Die Primärseite ist die Seite, die den Benutzern als Erstes angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, z. B. über eine E-Mail oder eine Website.
 
@@ -111,7 +135,9 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_expiry-date.png)
 
-   <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. Im **[!UICONTROL Zusätzliche Daten]** definieren Sie einen oder mehrere Schlüssel und die zugehörigen Parameterwerte. Sie können diese Schlüssel im Inhalt Ihrer primären Seite und Unterseiten mit dem [Ausdruckseditor](../personalization/personalization-build-expressions.md). Weiterführende Informationen finden Sie in [diesem Abschnitt](lp-content.md#use-form-component#use-additional-data).
+
+   ![](assets/lp_create-lp-additional-data.png)
 
 1. Wenn Sie beim [Erstellen der Primärseite](design-lp.md) eine oder mehrere Abonnement-Listen ausgewählt haben, werden diese im Abschnitt **[!UICONTROL Abonnement-Liste]** angezeigt.
 
@@ -124,6 +150,19 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
    Klicken Sie auf **[!UICONTROL Journey erstellen]**, um zur Liste **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]** weitergeleitet zu werden.
 
 ## Konfigurieren von Unterseiten {#configure-subpages}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="Unterseiteneinstellungen definieren"
+>abstract="Sie können bis zu 2 Unterseiten hinzufügen. Sie können beispielsweise eine „Danke“-Seite erstellen, die angezeigt wird, sobald Benutzer das Formular übermitteln, und Sie können eine Fehlerseite definieren, die erscheint, wenn ein Problem mit der Landingpage auftritt."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Erstellen der Landingpage-Inhalte"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="Definieren Sie Ihre Landingpage-URL"
+>abstract="Definieren Sie in diesem Abschnitt eine eindeutige Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten Voreinstellung eingerichtet haben."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Konfigurieren von Landingpage-Subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 
 Sie können bis zu 2 Unterseiten hinzufügen. Sie können beispielsweise eine „Danke“-Seite erstellen, die angezeigt wird, sobald Benutzer das Formular übermitteln, und Sie können eine Fehlerseite definieren, die erscheint, wenn ein Problem mit der Landingpage auftritt.
 

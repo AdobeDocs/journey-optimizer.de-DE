@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -55,6 +55,8 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
    >[!NOTE]
    >
    >Statische Sammlungen werden nicht automatisch aktualisiert. Um einer statischen Sammlung Angebote hinzuzufügen, müssen Sie sie bearbeiten und die Angebote manuell hinzufügen.
+
+1. Um einer statischen Sammlung benutzerdefinierte oder Kerndatennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLAC)](../../administration/object-based-access.md)
 
 1. Nachdem die Sammlung erstellt wurde, wird sie in der Liste angezeigt. Sie können sie zum Bearbeiten oder Löschen auswählen.
 

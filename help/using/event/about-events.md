@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 91%
 
 ---
 
@@ -36,6 +36,8 @@ Sie können zwei Ereignistypen definieren:
 >[!NOTE]
 >
 >Wenn Sie ein Ereignis bearbeiten, das in einer Entwurfs- oder Live-Journey verwendet wird, können Sie nur den Namen oder die Beschreibung ändern oder Payload-Felder hinzufügen. Die Bearbeitungsmöglichkeiten von Entwurfs- oder Live-Journeys sind stark beschränkt, damit Unterbrechungen von Journeys vermieden werden.
+
+Einzelne Journey (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Eintritt in das Profil wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr für ein bestimmtes Profil und ein anderes um 12:03 Uhr Trigger (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das die gleiche Journey auslöst), wird die Journey für dieses Profil nicht erneut gestartet.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 

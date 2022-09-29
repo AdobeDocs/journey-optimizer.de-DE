@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 
    ![](../assets/create_offer.png)
 
-1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Außerhalb dieses Datumsbereichs wird das Angebot nicht von der Decisioning-Engine ausgewählt.
+1. Geben Sie den Namen des Angebots sowie sein Anfangs- und Enddatum sowie die entsprechende Uhrzeit an. Außerhalb dieser Daten wird das Angebot nicht von der Decisioning-Engine ausgewählt.
 
    ![](../assets/offer_details.png)
 
@@ -56,6 +56,10 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
 1. Sie können dem Angebot auch ein oder mehrere **[!UICONTROL Tags]** zuordnen, damit Sie die Angebotsbibliothek leichter durchsuchen und organisieren können. [Weitere Informationen](creating-tags.md).
 
 1. Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen.
+
+1. Um dem Angebot benutzerdefinierte oder zentrale Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLAC)](../../administration/object-based-access.md)
+
+   ![](../assets/offer_manage-access.png)
 
 1. Fügen Sie Darstellungen hinzu, um festzulegen, wo in einer Nachricht Ihr Angebot angezeigt werden soll. [Weitere Informationen](add-representations.md)
 

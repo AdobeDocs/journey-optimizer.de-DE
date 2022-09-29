@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 91%
 
 ---
 
@@ -33,6 +33,9 @@ In einer Journey mit dem Schritt „Segment lesen“ gilt Folgendes:
 Bei Journeys mit Geschäftsereignissen, die mit dem Schritt „Segment lesen“ beginnen, gilt Folgendes:
 
 Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es im erwarteten Segment ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil gleichzeitig mehrfach in derselben Journey sein kann, aber im Kontext verschiedener Geschäftsereignisse.
+
+Einzelne Journey (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Eintritt in das Profil wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr für ein bestimmtes Profil und ein anderes um 12:03 Uhr Trigger (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das die gleiche Journey auslöst), wird die Journey für dieses Profil nicht erneut gestartet.
+
 
 ## Ende einer Journey{#journey-ending}
 

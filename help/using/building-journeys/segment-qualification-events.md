@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '888'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,8 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 >Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**Streaming**-Segmente, unter Verwendung der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet werden.
 >
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
+>
+>Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Aktivität Segment lesen, Segmentqualifizierung oder Geschäftsereignis beginnen.
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.

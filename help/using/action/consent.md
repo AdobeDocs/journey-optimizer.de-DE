@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '899'
+ht-degree: 92%
 
 ---
 
-# Einverständnisverwaltung (Beta) {#consent-management}
+# Einverständnis management {#consent-management}
 
 Mit Adobe Experience Platform können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnispräferenzen Ihrer Kunden zu respektieren. Einverständniserklärungen werden in Adobe Experience Platform definiert. In [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy) finden Sie weitere Informationen.
 
@@ -24,7 +22,7 @@ In Journey Optimizer können Sie diese Einverständniserklärungen auf Ihre benu
 
 >[!NOTE]
 >
->Dieses Feature ist als private Betaversion verfügbar. Es steht nicht allen Journey Optimizer-Kunden zur Verfügung.
+>Die Einverständniserklärung ist derzeit nur für Organisationen verfügbar, die das Zusatzangebot zum Gesundheitsschild erworben haben.
 
 In Journey Optimizer wird das Einverständnis auf mehreren Ebenen definiert:
 
@@ -39,8 +37,8 @@ Mit der Einverständnisverwaltung werden zwei Journey-Aktivitäten analysiert:
 
 * Segment lesen: das abgerufene Segment wird berücksichtigt.
 * Benutzerdefinierte Aktion: Die Einverständnisverwaltung berücksichtigt die verwendeten Attribute ([Aktionsparameter](../action/about-custom-action-configuration.md#define-the-message-parameters)) sowie die definierte(n) Marketing-Aktion(en) (erforderliche Marketing-Aktion und zusätzliche Marketing-Aktion).
-
-Das Einverständnis gilt nur, wenn eine Marketing-Aktion (erforderlich oder zusätzlich) auf der Ebene der benutzerdefinierten Aktion festgelegt wird.
+* Attribute, die Teil einer Feldergruppe sind, die das vordefinierte Vereinigungsschema verwenden, werden nicht unterstützt. Diese Attribute werden in der Benutzeroberfläche ausgeblendet. Sie müssen eine weitere Feldergruppe mit einem anderen Schema erstellen.
+* Einverständnisrichtlinien gelten nur, wenn eine Marketing-Aktion (erforderlich oder zusätzlich) auf der Ebene der benutzerdefinierten Aktion festgelegt wird.
 
 Alle anderen in einer Journey verwendeten Aktivitäten werden nicht berücksichtigt. Wenn Sie Ihre Journey mit einer Segmentqualifikation starten, wird das Segment nicht berücksichtigt.
 

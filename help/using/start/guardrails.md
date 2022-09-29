@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,6 @@ Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werd
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* Derzeit gibt es eine technische Einschränkung bei Journeys, die verhindert, dass ein Profil mehrmals zur gleichen Zeit in ein und derselben Journey vorhanden sein kann. Ein Profil kann (je nach Einstellung) immer noch in eine Journey eintreten, kann dies aber erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat.
 * In den meisten Fällen kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/journey-end.md)
 
 ### Journey-Versionen {#journey-versions-g}
@@ -68,6 +67,7 @@ Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werd
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
+* Einzelne Journey (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Eintritt in das Profil wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr für ein bestimmtes Profil und ein anderes um 12:03 Uhr Trigger (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das die gleiche Journey auslöst), wird die Journey für dieses Profil nicht erneut gestartet.
 
 ### Datenquellen {#data-sources-g}
 
@@ -89,3 +89,8 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
 * Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
+
+### Ausdruckseditor {#expression-editor}
+
+* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Aktivität Segment lesen, Segmentqualifizierung oder Geschäftsereignis beginnen.
+

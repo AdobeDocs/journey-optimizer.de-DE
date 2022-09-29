@@ -5,10 +5,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,8 @@ Gehen Sie wie folgt vor, um ein Fallback-Angebot zu erstellen:
 1. Geben Sie den Namen des Fallback-Angebots an. Sie können auch ein oder mehrere vorhandene Tags damit verknüpfen, um die Angebotsbibliothek einfacher durchsuchen und organisieren zu können.
 
    ![](../assets/fallback_details.png)
+
+1. Um dem Angebot benutzerdefinierte oder zentrale Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLAC)](../../administration/object-based-access.md)
 
 1. Erstellen Sie eine oder mehrere Darstellungen für das Fallback-Angebot. Ziehen Sie dazu Platzierungen per Drag-and-Drop aus dem linken Bereich (ähnlich wie beim Erstellen eines personalisierten Angebots). Weitere Informationen finden Sie unter [Personalisierte Angebote erstellen](../offer-library/creating-personalized-offers.md).
 

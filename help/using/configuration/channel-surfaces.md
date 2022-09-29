@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 99%
+source-wordcount: '1571'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvo
 > * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](#configure-email-settings), [Push-Benachrichtigungen](../configuration/push-configuration.md) und [SMS](../configuration/sms-configuration.md) ausführen.
 
 
-Nachdem die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey auswählen.
+Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie bei der Erstellung von Nachrichten aus einer Journey oder einer Kampagne auswählen.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Nachdem die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstelle
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Subdomain, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+>abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihren Versand erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihre Nachrichten erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Um Aktionen wie E-Mails von einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten der Kanaloberfläche verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
@@ -90,7 +88,10 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
 1. Nachdem die Kanaloberfläche erstellt wurde, wird sie in der Liste mit dem Status **[!UICONTROL Verarbeitung läuft]** angezeigt.
 
-   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. Die Verarbeitungszeit liegt bei **48–72 Stunden** und kann bis zu **7–10 Werktage** betragen.
+   Während dieses Schritts werden mehrere Prüfungen durchgeführt, um zu verifizieren, dass die Konfiguration korrekt ist. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Beim Erstellen der ersten Kanaloberfläche für eine bestimmte Subdomain kann die Verarbeitungszeit dauern **10 Minuten bis 10 Tage**. Wenn die ausgewählte Subdomain bereits auf einer anderen Oberfläche verwendet wird, dauert dies nur bis zu 3 Stunden.
 
    Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
@@ -101,6 +102,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    * Helo-Host-Prüfung
    * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
+   * FBL-Registrierung (diese Prüfung wird nur durchgeführt, wenn eine E-Mail-Oberfläche für eine bestimmte Subdomain zum ersten Mal erstellt wird)
 
    >[!NOTE]
    >
