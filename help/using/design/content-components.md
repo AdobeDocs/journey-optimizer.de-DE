@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 90%
+source-wordcount: '1246'
+ht-degree: 89%
 
 ---
 
@@ -89,8 +89,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Duplizieren]**: Hinzufügen einer Kopie Ihrer Textkomponente.
    * **[!UICONTROL Löschen]**: Entfernen einer ausgewählten Textkomponente aus Ihrer E-Mail.
    * **[!UICONTROL Personalisierung hinzufügen]**: Einfügen von Personalisierungsfeldern zur Inhaltsanpassung auf der Basis von Profildaten. [Weitere Informationen über die Personalisierung von Inhalt](../personalization/personalize.md).
-
-1. Für ein besseres Anwendererlebnis können Sie Personalisierungsfelder hinzufügen, um Ihre Audience anzusprechen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+   * **[!UICONTROL Bedingten Inhalt aktivieren]**: Fügen Sie bedingte Inhalte hinzu, um den Inhalt der Komponente an die Zielprofile anzupassen. [Erfahren Sie mehr über dynamische Inhalte](../personalization/get-started-dynamic-content.md).
 
 1. Passen Sie **[!UICONTROL Textfarbe]**, **[!UICONTROL Schriftfamilie]** und **[!UICONTROL Größe]** in den **[!UICONTROL Komponenteneinstellungen]** an.
 
@@ -208,7 +207,7 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
 ## Angebotsentscheidung {#offer-decision}
 
-Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um in Ihre Nachrichten Entscheidungen einzufügen. Entscheidungen nutzen Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
+Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um Entscheidungen (früher Angebotsaktivitäten) in Ihre Nachrichten einzufügen. Entscheidungen nutzen Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
 
 Verwandte Themen:
 

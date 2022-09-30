@@ -3,10 +3,10 @@ title: Journey Optimizer – Erste Schritte für Marketing-Experten
 description: Als Journey-Anwender erfahren Sie mehr darüber, wie Journey Optimizer funktioniert.
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
 1. **Segmente erstellen**. Mit Journey Optimizer können Sie Audience-Segmente direkt im Menü **Segmente** erstellen und in Ihren Journeys nutzen.  Weitere Informationen zu Segmenten finden Sie [auf dieser Seite](../../segment/about-segments.md). Erfahren Sie [in diesem Beispiel](../../segment/creating-a-segment.md), wie Sie Segmente erstellen.
 
-1. **Hinzufügen von Personalisierung**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Nachricht an Ihre Audience anzupassen. Weitere Informationen zur Personalisierung finden Sie [in diesem Abschnitt](../../personalization/personalize.md).
+1. **Personalisierung und dynamischen Inhalt hinzufügen**. Nutzen Sie Personalisierungs- und dynamische Inhaltsfunktionen von Journey Optimizer, um Ihre Nachricht an Ihre Zielgruppe anzupassen. Weitere Informationen [Personalisierung](../../personalization/personalize.md) und [dynamischer Inhalt](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,8 @@ Verwenden Sie [!DNL Journey Optimizer] Email Designer, um die [E-Mail von Grund 
 [!DNL Journey Optimizer] verfügt über eine Reihe von [integrierten Vorlagen](../design/email-templates.md), die Ihnen den Einstieg erleichtern. Jede E-Mail kann auch als Vorlage gespeichert werden.
 
 Verwenden Sie den [!DNL Journey Optimizer]-Ausdruckseditor, um Ihre Nachrichten mit den Daten der Profile zu personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+
+Passen Sie den Inhalt Ihrer Nachrichten mithilfe von [!DNL Journey Optimizer] Funktionen für dynamische Inhalte. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
 
 ## E-Mail-Tracking{#email-tracking}
 

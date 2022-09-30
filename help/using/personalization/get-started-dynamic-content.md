@@ -5,12 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-hidefromtoc: true
-hide: true
-source-git-commit: 0fbcdbbf547f24ef78f810e34ba14c78956c760c
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +16,15 @@ ht-degree: 2%
 # Erste Schritte mit dynamischen Inhalten {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
->id="ajo_expression_editor_conditions"
+>id="ajo_conditions_list"
 >title="Bedingungen"
->abstract="Bedingungen sind Regelsätze, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll, abhängig von verschiedenen Kriterien wie Profilattributen, Segmentzugehörigkeit oder Kontextereignissen."
+>abstract="Bedingte Regeln ermöglichen die Anzeige mehrerer Inhaltsvarianten in Ihren Nachrichten basierend auf Profilattributen, kontextbezogenen Ereignissen oder Zielgruppensegmenten."
+
+Mit dynamischen Inhalten können Sie den Inhalt Ihrer Nachrichten auf der Grundlage von bedingten Regeln anpassen, die aus Profilattributen, kontextbezogenen Ereignissen oder Zielgruppensegmenten bestehen können.
+
+Bedingte Regeln werden mit einem visuellen Regel-Builder im Ausdruckseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journey und Kampagnen speichern können.
+
+![](assets/conditions-overview.png)
+
+* [Erfahren Sie, wie Sie mit bedingten Regeln arbeiten.](create-conditions.md)
+* [Erfahren Sie, wie Sie dynamische Inhalte erstellen](dynamic-content.md)
