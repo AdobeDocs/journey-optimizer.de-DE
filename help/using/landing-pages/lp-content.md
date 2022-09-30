@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 63%
+source-wordcount: '1018'
+ht-degree: 75%
 
 ---
 
@@ -166,41 +166,42 @@ Wenn Benutzer jetzt eines der Kontrollkästchen aktivieren, wird beim Senden des
 >
 >Wenn ein Benutzer die beiden Kontrollkästchen aktiviert, werden beide Texte angezeigt.
 
+<!--
+## Use landing page additional data {#use-additional-data}
 
-## Zusätzliche Daten zu Landingpage verwenden {#use-additional-data}
-
-Wann [Konfigurieren der primären Seite](create-lp.md#configure-primary-page)können Sie zusätzliche Daten erstellen, um die Speicherung von Informationen beim Senden der Landingpage zu ermöglichen.
+When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
 
 >[!NOTE]
 >
->Diese Daten sind für Benutzer, die die Seite besuchen, möglicherweise nicht sichtbar.
+>This data may not be visible to users who visit the page.
 
-Wenn Sie einen oder mehrere Schlüssel mit den zugehörigen Werten definiert haben, wenn Sie [Konfigurieren der primären Seite](create-lp.md#configure-primary-page)können Sie diese Schlüssel im Inhalt Ihrer primären Seite und Unterseiten mit der [Ausdruckseditor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
 
-<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
 
-Gehen Sie wie folgt vor, um diese Schlüssel in einer Landingpage zu nutzen:
+To leverage these keys in a landing page, follow the steps below:
 
-1. Definieren Sie beim Konfigurieren der primären Seite einen Schlüssel und den zugehörigen Wert in der Variablen **[!UICONTROL Zusätzliche Daten]** Abschnitt. [Weitere Informationen](create-lp.md#configure-primary-page)
+1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)
 
-1. Wenn Sie die primäre Seite mit dem Designer bearbeiten, platzieren Sie den Mauszeiger an der Stelle, an der Sie die Taste einfügen möchten, und wählen Sie **[!UICONTROL Personalisierung hinzufügen]** in der dedizierten Symbolleiste.
+1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
 
-   ![](assets/lp_designer-context-add-perso.png)
+    ![](assets/lp_designer-context-add-perso.png)
 
-1. Im **[!UICONTROL Personalisierung bearbeiten]** auswählen **[!UICONTROL Kontextattribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Zusätzlicher Kontext]**.
+1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
 
-   ![](assets/lp_designer-contextual-attributes.png)
+    ![](assets/lp_designer-contextual-attributes.png)
 
-1. Alle Schlüssel, die Sie beim Konfigurieren der primären Seite erstellt haben, werden aufgelistet. Wählen Sie über das Symbol + den Schlüssel Ihrer Wahl aus.
+1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
 
-   ![](assets/lp_designer-context-select-key.png)
+    ![](assets/lp_designer-context-select-key.png)
 
-1. Speichern Sie Ihre Änderungen und wiederholen Sie die obigen Schritte so oft wie nötig.
+1. Save your changes and repeat the steps above as many times as needed.
 
-   ![](assets/lp_designer-context-keys-inserted.png)
+    ![](assets/lp_designer-context-keys-inserted.png)
 
-   Sie können sehen, dass das Ihrem Schlüssel entsprechende Personalisierungselement jetzt überall dort angezeigt wird, wo Sie es eingefügt haben.
+    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
+-->
