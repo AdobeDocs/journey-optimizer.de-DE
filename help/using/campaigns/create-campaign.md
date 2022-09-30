@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '856'
+ht-degree: 70%
 
 ---
 
@@ -115,7 +115,6 @@ Der schnelle Bereitstellungsmodus, der in Journey früher als Burst-Modus bezeic
 Schneller Versand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist, wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine brechende Nachricht an Benutzer, die Ihre News-Kanal-App installiert haben.
 
 Weitere Informationen zur Leistung bei Verwendung des Rapid-Versandmodus finden Sie unter [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html?lang=de).
-
 
 ### Voraussetzungen {#prerequisites}
 
