@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 96%
+source-wordcount: '1180'
+ht-degree: 95%
 
 ---
 
@@ -122,6 +122,11 @@ ht-degree: 96%
       + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
    + [Identitäten](using/segment/get-started-identity.md)
    + [Lizenznutzung](using/segment/license-usage.md)
+   + Erstellen von Zielgruppen {#audience-orchestration}
+      + [Erste Schritte mit der Komposition von Zielgruppen](using/segment/get-started-audience-orchestration.md)
+      + [Erstellen von Komposition-Workflows](using/segment/create-compositions.md)
+      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
+      + [Zielgruppen aufrufen und verwalten](using/segment/access-audiences.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)

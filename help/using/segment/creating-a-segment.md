@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
 # Erstellen von Segmenten {#build-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="Erstellen einer Regel"
+>abstract="Mit der Methode zum Erstellen von Regeln können Sie mithilfe des Segmentierungsdienstes von Adobe Experience Platform eine neue Segmentdefinition erstellen."
 
 In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco oder Seattle wohnenden und nach 1980 geborenen Kunden. Alle diese Kunden sollten das Programm Luma innerhalb der letzten 7 Tage geöffnet und dann innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
