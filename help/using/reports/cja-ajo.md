@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # Arbeiten mit [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] Integration mit [!DNL Customer Journey Analytics] bietet eine ganzheitliche Sicht auf all Ihre Journey mit automatisierter Berichtverteilung und benutzerdefinierten Visualisierungen der Daten.
 
 Nachdem Sie die Journey in [!DNL Journey Optimizer], können Sie Ihre Kundendaten in [!DNL Customer Journey Analytics] , um Berichte zu erstellen und die Auswirkungen jeder Interaktion eines Kunden mit seinen Journey zu verstehen.
 
@@ -23,6 +24,11 @@ Nachdem Sie die Journey in [!DNL Journey Optimizer], können Sie Ihre Kundendate
 Vor der Verwendung [!DNL Customer Journey Analytics] für Ihre Journey müssen Sie zunächst diese Integration konfigurieren:
 
 1. [Verbindung erstellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=de) in [!DNL Customer Journey Analytics] mit dem **[!UICONTROL Datensatz]** Sie an Platform senden möchten.
+
+   Folgendes [!DNL Journey Optimizer] kann konfiguriert werden:
+   * [Journey-Schrittereignis](../start/datasets-query-examples.md#journey-step-event): können Sie sehen, wer in die Journey eintritt und wie weit sie kommen.
+   * [Nachrichten-Feedback/Tracking-Datensätze](../start/datasets-query-examples.md#message-feedback-event-dataset): ermöglicht Ihnen, Versandinformationen über Ihre Nachrichten anzuzeigen, die über [!DNL Journey Optimizer].
+   * [Entitäts- und Journey-Datensätze](../start/datasets-query-examples.md#entity-dataset): ermöglicht Ihnen, Anzeigenamen zu suchen und in Ihren Berichten zu verwenden.
 
 1. [Datenansicht erstellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) um die Dimensionen und Metriken zu konfigurieren, die Sie für Ihren Bericht verwenden möchten.
 
