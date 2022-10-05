@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ Die **[!UICONTROL Ausschließen]** -Aktivität können Sie Profile aus Ihrer Kom
 >title="Rangaktivität"
 >abstract="Mithilfe der Rang -Aktivität können Sie Profile nach einem bestimmten Attribut sortieren und in Ihre Komposition einfügen. Schließen Sie beispielsweise die 50 Profile mit der größten Anzahl an Treuepunkten ein."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Profilbegrenzung hinzufügen"
+>abstract="Schalten Sie diese Option ein, um eine maximale Anzahl von Profilen anzugeben, die in die Komposition aufgenommen werden sollen.
+
 Die **[!UICONTROL Rang]** ermöglicht es Ihnen, Profile nach einem bestimmten Attribut zu ordnen und in Ihre Komposition einzuschließen. Sie können beispielsweise die 50 Profile mit der größten Anzahl an Treuepunkten einbeziehen.
 
 1. Wählen Sie das Attribut aus, das Sie nachschlagen möchten, und geben Sie eine Rangreihenfolge an (aufsteigend oder absteigend).
@@ -138,6 +143,11 @@ Die **[!UICONTROL Rang]** ermöglicht es Ihnen, Profile nach einem bestimmten At
 >id="ajo_ao_split_type"
 >title="Aufspaltungstyp"
 >abstract="Verwenden Sie den Aufspaltungstyp Prozent , um Profile nach dem Zufallsprinzip in mehrere Pfade zu unterteilen. Mit dem Aufspaltungstyp Attribut können Sie Profile anhand eines bestimmten Attributs aufteilen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Andere Profile"
+>abstract="Schalten Sie diese Option ein, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen."
 
 Die **[!UICONTROL Aufspaltung]** ermöglicht es Ihnen, Ihre Komposition in mehrere Pfade zu unterteilen.
 
