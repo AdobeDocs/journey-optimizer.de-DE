@@ -2,7 +2,7 @@
 title: Auslösen von Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit einer  [!DNL Journey Optimizer] API Kampagnen auslösen können.
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 78%
@@ -96,7 +96,7 @@ Wenn ein Profil nicht in der Datenbank vorhanden ist, können Sie es bei der Aus
 >
 >Diese Funktion ist für **Profilerstellung mit sehr geringem Volumen** in einem Anwendungsfall für den Versand von Transaktionsnachrichten mit großem Volumen, wobei ein Großteil der Profile bereits in der Plattform vorhanden ist.
 
-Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, aktivieren Sie die **[!UCONTROL Erstellen neuer Profile]** -Option in der **[!UICONTROL Zielgruppe]** Abschnitt.
+Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, aktivieren Sie die **[!UICONTROL Erstellen neuer Profile]** -Option in der **[!UICONTROL Zielgruppe]** Abschnitt.
 
 ![](assets/api-triggered-create-profile.png)
 
