@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="Kanaloberfläche"
 >abstract="Eine Kanaloberfläche ist eine Instanz des betreffenden Kanals, die über alle nötigen Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von Systemadmins definiert."
 
-Verwenden Sie in Ihren Journeys die Kanalaktionen, um die Nachricht, die Sie an Ihre Audience senden möchten, zu gestalten und zu personalisieren. Wenn Sie eine E-Mail-, eine SMS- oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
+Verwenden Sie in Ihren Journeys die Kanalaktionen, um die Nachricht, die Sie an Ihre Audience senden möchten, zu gestalten und zu personalisieren. Wenn Sie eine E-Mail, eine SMS oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
 
 
 >[!NOTE]
 >Sie können auch Kampagnen erstellen, um geplante Nachrichten zu senden. Weiterführende Informationen finden Sie [in diesem Abschnitt](../campaigns/get-started-with-campaigns.md).
 
 
-Um Nachrichten in eine Journey einzufügen, fügen Sie ganz eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
+Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder E-Mail-Aktivität auf der Arbeitsfläche Journey hinzu.
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Segment lesen](../building-journeys/read-segment.md).
 
@@ -123,7 +123,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Geben Sie **Strg+V** ein, um die Nachricht einzufügen.
 
-   Die Nachricht wird der Journey-Arbeitsfläche hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
+   Die Nachricht wird der Arbeitsfläche des Journey hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
    ![](assets/message-duplicated.png)
 
