@@ -3,9 +3,9 @@ title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2002'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## September 2022 {#september-2022}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 22. September wurde in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
-* Es wurde eine Best Practice zur Verwendung von Warteaktivitäten in Journey zum wiederkehrenden Lesen von Segmenten hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Es wurden neue Beispiele für die Schrittereignisabfrage sowie Informationen zum Unterschied zwischen ID, Instanz-ID und Profil hinzugefügt. [Weitere Informationen](../reports/query-examples.md).
-* Die Seiten im Zusammenhang mit der [toDateOnly](../building-journeys/functions/functiontodateonly.md) und [toString](../building-journeys/functions/functiontostring.md) Funktionen.
-* Es wurden Details zu den Zeitbedingungsparametern hinzugefügt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
-* Es wurden Informationen zu integrierten Datensätzen hinzugefügt. [Mehr dazu](../start/get-started-datasets.md#access-datasets)
-* Die Abschnitte Globaler Bericht und Live-Bericht wurden neu organisiert, um die Lesbarkeit zu verbessern. [Mehr dazu](../reports/global-report.md)
+* Alle neuen Funktionen und Verbesserungen, die mit der [!DNL Journey Optimizer]-Version September 2022 kommen, werden in der Dokumentation detailliert beschrieben. [Mehr dazu](release-notes.md)
+* Es wurde eine Best Practice zur Verwendung von Warteaktivitäten in wiederkehrenden Lesesegment-Journeys hinzugefügt. [Mehr dazu](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Neue Beispiele für den Schritt „Ereignisabfrage“ sowie Informationen über den Unterschied zwischen ID, instanceID und profileID hinzugefügt. [Weitere Informationen](../reports/query-examples.md).
+* Die Seiten zu den Funktionen [toDateOnly](../building-journeys/functions/functiontodateonly.md) und [toString](../building-journeys/functions/functiontostring.md) wurden aktualisiert.
+* Details zu den Zeitbedingungsparametern hinzugefügt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
+* Informationen über integrierte Datensätze wurden hinzugefügt. [Mehr dazu](../start/get-started-datasets.md#access-datasets)
+* Die Abschnitte „Globaler Bericht“ und „Live-Bericht“ wurden neu organisiert, um die Lesbarkeit zu verbessern. [Mehr dazu](../reports/global-report.md)
 * Eine Liste aller in Adobe Journey Optimizer verfügbaren Berichtsmetriken wurde hinzugefügt -
    [Mehr dazu](../reports/global-report.md#email-and-sms-metrics)
-* Der Abschnitt zur BCC-E-Mail wurde in die neue Seite Unterstützung für Archivierung verschoben. [Mehr dazu](../configuration/archiving-support.md)
+* Der Abschnitt zur BCC-E-Mail wurde auf die neue Seite „Support für Archivierung“ verschoben. [Mehr dazu](../configuration/archiving-support.md)
 
 ## August 2022 {#august-2022}
 
