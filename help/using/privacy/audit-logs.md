@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimiz
 
 | Ressource | Aktion |
 |-----------|------------------|
-| AJO-Kampagne | Erstellen/Löschen/Aktualisieren/Aktivieren/Anhalten |
+| AJO-Kampagne | Erstellen/Löschen/Aktualisieren/Aktivieren/Stoppen |
 | Allgemeine Einstellungen für den AJO-Kanal | Erstellen/Löschen/Aktualisieren |
 | AJO-IP-Pool | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung aufheben |
