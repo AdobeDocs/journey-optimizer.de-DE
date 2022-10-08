@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 + Kampagnen{#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
-   + [Kampagne überprüfen und aktivieren](using/campaigns/review-activate-campaign.md)
+   + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
    + [Verwalten von Live-Kampagnen](using/campaigns/modify-stop-campaign.md)
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
@@ -373,7 +373,7 @@ ht-degree: 95%
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Daten-Management {#data-management}
-   + [Schemas](using/start/get-started-schemas.md)
+   + [Schemata](using/start/get-started-schemas.md)
    + Datensätze {#datasets}
       + [Erste Schritte mit Datensätzen](using/start/get-started-datasets.md)
       + [Beispiele für Abfragen](using/start/datasets-query-examples.md)
@@ -440,6 +440,6 @@ ht-degree: 95%
 + Datenschutz {#privacy}
    + [Datennutzungsrichtlinien](using/privacy/policies.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
-   + [Prüfmaßnahmen für Ressourcen](using/privacy/audit-logs.md)
+   + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
    + [Einverständnis](using/action/consent.md)
    + [Data Governance](using/action/action-privacy.md)
