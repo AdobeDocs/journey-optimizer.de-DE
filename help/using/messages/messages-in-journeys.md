@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,15 +44,14 @@ Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder
 
 1. Wählen Sie die **[!UICONTROL Kategorie]** der Nachricht: Wählen Sie **Marketing** für kommerzielle Nachrichten oder **Transaktionsnachrichten** für nicht-kommerzielle Nachrichten wie Auftragsbestätigungen, Benachrichtigungen zum Zurücksetzen des Kennworts oder Versandinformationen.
 
-   >[!CAUTION]
-   >
-   >Wenn Sie [Häufigkeitsregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie festgelegt haben, werden diese bei der Auswahl des Kanals und der Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln verfügbar.
-
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten. Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
+   >* Wenn Sie [Häufigkeitsregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie festgelegt haben, werden diese bei der Auswahl des Kanals und der Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln verfügbar.
+   >
+   >* Marketing-Nachrichten müssen Folgendes enthalten: [Ausschluss-Link](../messages/consent.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
+
 
 1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvoreinstellung), die zum Senden Ihrer Nachricht verwendet werden soll.
 
