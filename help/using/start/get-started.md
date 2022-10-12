@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 22672ba22713bcc354d5cc4acdba68995d47a685
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 97%
 
 ---
 
@@ -53,9 +53,9 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 ## Architektur {#architecture}
 
-Machen Sie sich mit der grundlegenden Architektur von [!DNL Adobe Journey Optimizer], den Integrationspunkten und der Beziehung von [!DNL Journey Optimizer] zu anderen Adobe-Anwendungen vertraut.
+Grundlegende Architektur von [!DNL Adobe Journey Optimizer], die Integrationspunkte und die Beziehung zwischen [!DNL Journey Optimizer] und [!DNL Experience Platform], in der Abbildung unten.
 
->[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
