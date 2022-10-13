@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 405d99f14512727f8d5e4aa9513f07f1e87f1a39
+source-git-commit: ec1a889bf849f27d492d0c42e375327b0dc9c067
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -175,7 +175,7 @@ Wenn Ihre Nachricht über eine [Journey](../building-journeys/journey.md) gesend
 >id="ajo_admin_preset_unsubscribe"
 >title="Hinzufügen eines Abmelde-Links zur E-Mail-Kopfzeile"
 >abstract="Aktivieren Sie „Abmelden von einer Liste“, um einen Abmelde-Link zur E-Mail-Kopfzeile hinzuzufügen. Um eine Abmelde-URL einzurichten, fügen Sie einen 1-Klick-Ausschluss-Link in den Inhalt der E-Mail ein."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent.html?lang=en#one-click-opt-out" text="Opt-out mit einem Klick"
+>additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Opt-out mit einem Klick"
 
 Wenn die Option zum [Abmelden von einer Liste](../configuration/channel-surfaces.md#list-unsubscribe) auf der Ebene der Kanaloberfläche aktiviert ist, enthalten die entsprechenden E-Mails, die mit [!DNL Journey Optimizer] gesendet werden, einen Abmelde-Link in der Kopfzeile.
 
