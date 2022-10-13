@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
-title: Einverständnis
-description: Einverständnis
+title: Arbeiten mit Zustimmungsrichtlinien
+description: Erfahren Sie, wie Sie mit Adobe Experience Platform-Zustimmungsrichtlinien arbeiten.
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 92%
+source-wordcount: '913'
+ht-degree: 90%
 
 ---
 
-# Einverständnis management {#consent-management}
+# Arbeiten mit Zustimmungsrichtlinien {#consent-management}
 
 Mit Adobe Experience Platform können Sie einfach Marketing-Richtlinien übernehmen und durchsetzen, um die Einverständnispräferenzen Ihrer Kunden zu respektieren. Einverständniserklärungen werden in Adobe Experience Platform definiert. In [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=de#consent-policy) finden Sie weitere Informationen.
 

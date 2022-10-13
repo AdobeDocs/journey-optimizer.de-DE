@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 92%
+source-wordcount: '401'
+ht-degree: 81%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 92%
 >abstract="Fügen Sie eine Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
 
 Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten an die mobilen Geräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
+
+>[!NOTE]
+>
+>In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit für die Empfänger enthalten, sich einfach abzumelden. Zu diesem Zweck können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten. [Erfahren Sie, wie Sie das Opt-out verwalten](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS-Versand-Erstellung möglich:
 
@@ -61,17 +65,6 @@ Um zu sehen, wie Ihre SMS-Nachricht auf mobilen Geräten angezeigt wird, klicken
 Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einige davon sind einfache Warnhinweise, andere können die Verwendung der Nachricht verhindern. Weiterführende Informationen finden Sie in [diesem Abschnitt](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Opt-in und Opt-out{#sms-opt-in-out}
-
-Bei allen Marketing-Nachrichten muss die SMS eine Möglichkeit enthalten, mit der sich die Empfangenden leicht abmelden können. Nach der Abmeldung werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt. Für Transaktionsnachrichten ist das Hinzufügen eines Links zum Abmelden nicht erforderlich.
-
-Menschen, die SMS erhalten, können mit Keywords zum Opt-in oder Opt-out antworten. In Übereinstimmung mit den Branchenstandards und -vorschriften verarbeitet Adobe Journey Optimizer automatisch die folgenden Schlüsselwörter in eingehenden Nachrichten: START, STOP und UNSTOP. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
-
-Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stopp und Unstop) für SMS finden Sie im folgenden Video.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

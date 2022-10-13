@@ -2,16 +2,20 @@
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+## Oktober 2022 {#october-2022}
+
+* Informationen zur Opt-out-Verwaltung und zu den Zustimmungsrichtlinien wurden in einen neuen Abschnitt umstrukturiert - [Mehr dazu](../privacy/opt-out.md)
 
 ## September 2022 {#september-2022}
 
@@ -108,7 +112,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein neuer Abschnitt zu den Schemaanforderungen hinzugefügt, die erforderlich sind, wenn Ereignistypen bei Verwendung einer Rangfolgestrategie gesendet werden. [Weitere Informationen](../offers/ranking/schema-requirement.md)
 * Der Abschnitt zu [!DNL Journey Optimizer] Personalisierungsfunktionen wurde neu angeordnet, um die Übersichtlichkeit zu verbessern. [Weitere Informationen](../personalization/personalize.md)
 * Der Abschnitt **Erstellen von Nachrichtenvoreinstellungen** wurde zur besseren Übersichtlichkeit in mehrere Abschnitte unterteilt. [Weitere Informationen](../configuration/channel-surfaces.md#create-channel-surface)
-* Der Abschnitt **Opt-out-Verwaltung** wurde klarer formuliert und leicht umstrukturiert. [Weitere Informationen](../messages/consent.md#opt-out-management)
+* Der Abschnitt **Opt-out-Verwaltung** wurde klarer formuliert und leicht umstrukturiert. [Weitere Informationen](../privacy/opt-out.md#opt-out-management)
 * Der Abschnitt **Einfügen von Links** wurde aktualisiert, um die jüngsten Änderungen an der Benutzeroberfläche zu berücksichtigen. [Weitere Informationen](../design/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
@@ -172,7 +176,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt „Zulassungsliste aktivieren“ wurde aktualisiert. [Weitere Informationen](../configuration/allow-list.md#enable-allow-list)
 * Der Abschnitt „Überwachen von Nachrichtenvoreinstellungen“ wurde mit möglichen Ursachen für eine fehlgeschlagene Durchführung von Voreinstellungen sowie den Fehlerdetails ergänzt. [Mehr dazu](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * Der Abschnitt zum Zeitraum für weitere Zustellversuche wurde aktualisiert und umbenannt, um der Tatsache Rechnung zu tragen, dass Sie jetzt die Einstellung für weitere Zustellversuche bei E-Mails in den Nachrichtenvoreinstellungen anpassen können. [Mehr dazu](../configuration/retries.md#retry-duration)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen Ein-Klick-Opt-out-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](../messages/consent.md#one-click-opt-out-link)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie einen Ein-Klick-Opt-out-Link in E-Mail-Inhalte einfügen können. [Mehr dazu](../privacy/opt-out.md#one-click-opt-out-link)
 * Der Abschnitt „Subdomain delegieren“ wurde mit detaillierteren Informationen zum Validierungsprozess von Adobe aktualisiert. [Mehr dazu](../configuration/delegate-subdomain.md#subdomain-validation)
 * Es wurde ein Abschnitt hinzugefügt, in dem beschrieben wird, wie E-Mail-Adressen und Domains manuell zur Unterdrückungsliste hinzugefügt werden. [Mehr dazu](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Die Abschnitte [Zugriff auf die Unterdrückungsliste](../configuration/manage-suppression-list.md#access-suppression-list) und [Weitere Zustellversuche](../configuration/retries.md) wurden entsprechend der neuen Benutzeroberfläche aktualisiert.

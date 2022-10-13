@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder
    >
    >* Wenn Sie [Häufigkeitsregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie festgelegt haben, werden diese bei der Auswahl des Kanals und der Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln verfügbar.
    >
-   >* Marketing-Nachrichten müssen Folgendes enthalten: [Ausschluss-Link](../messages/consent.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
+   >* Marketing-Nachrichten müssen Folgendes enthalten: [Ausschluss-Link](../privacy/opt-out.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
 
 
 1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvoreinstellung), die zum Senden Ihrer Nachricht verwendet werden soll.

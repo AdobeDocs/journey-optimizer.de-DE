@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -52,11 +52,11 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Weiterführende Informationen finden Sie in [diesem Abschnitt](../landing-pages/get-started-lp.md).
 
-   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, mit dem sich Nutzer schnell von Ihren Mitteilungen abmelden können, ohne die Abmeldung bestätigen zu müssen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, mit dem sich Nutzer schnell von Ihren Mitteilungen abmelden können, ohne die Abmeldung bestätigen zu müssen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../privacy/opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Externes Opt-in/Abonnement]**: Einfügen eines Links, um den Erhalt von Nachrichten von Ihrer Marke zu akzeptieren.
 
-   * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](../privacy/opt-out.md#opt-out-management).
 
    * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#mirror-page).
 
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../messages/consent.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der [Erstellung der Nachricht](../messages/get-started-content.md#create-new-message) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der [Erstellung der Nachricht](../messages/get-started-content.md#create-new-message) definiert.
 
 ## Link zu einer Mirrorseite {#mirror-page}
 
