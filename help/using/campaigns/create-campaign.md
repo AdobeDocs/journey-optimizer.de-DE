@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 70%
 
 ---
@@ -108,7 +108,7 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Schnellbereitstellungsmodus"
->abstract="Der Modus Schnellversand ist ein Journey Optimizer-Add-on, mit dem Sie nicht personalisierte Nachrichten für Zielgruppen mit 30 Millionen Profilen schnell ausgeben können."
+>abstract="Im Modus Schnellversand können Sie Hochgeschwindigkeits-Nachrichten an Push-Kanäle mit einer Zielgruppengröße von unter 30 M senden."
 
 Der schnelle Bereitstellungsmodus, der in Journey früher als Burst-Modus bezeichnet wurde, ist ein [!DNL Journey Optimizer] -Add-on, das den sehr schnellen Versand von Push-Nachrichten in großen Mengen durch Kampagnen ermöglicht.
 
