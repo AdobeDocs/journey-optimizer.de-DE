@@ -82,7 +82,7 @@ ht-degree: 96%
       + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
       + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
       + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
-   + [Erstellen einer Abonnement-Liste](using/landing-pages/subscription-list.md)
+   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
 + Personalisierung und dynamischer Inhalt {#personalized-dynamic-content}
    + Personalisierung {#personalization}
@@ -436,7 +436,7 @@ ht-degree: 96%
    + [Berechtigungsebenen](using/administration/high-low-permissions.md)
    + [Sandbox-Management](using/administration/sandboxes.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
-   + [Zugriffskontrolle auf Objektebene](using/administration/object-based-access.md)
+   + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
 + Datenschutz {#privacy}
    + [Datennutzungsrichtlinien](using/privacy/policies.md)
    + [Datenschutzanfragen](using/privacy/requests.md)

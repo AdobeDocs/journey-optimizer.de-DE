@@ -9,11 +9,11 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Segmentqualifikationsereignisse {#segment-qualification}
+# Segmentqualifizierungsereignisse {#segment-qualification}
 
 ## Über Segmentqualifikationsereignisse{#about-segment-qualification}
 
@@ -34,7 +34,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 >
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 >
->Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Aktivität Segment lesen, Segmentqualifizierung oder Geschäftsereignis beginnen.
+>Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen.
 
 
 1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.

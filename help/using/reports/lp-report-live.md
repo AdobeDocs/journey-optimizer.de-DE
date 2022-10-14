@@ -9,7 +9,7 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 87%
 
 Der **[!UICONTROL Live-Bericht]** zu Landingpages zeigt nur Details zur Wirkung Ihrer Landingpages in den letzten 24 Stunden an. Wenn Sie Ihre Landingpage-Daten über einen bestimmten Zeitraum messen möchten, verwenden Sie den [globalen Bericht zu Landingpages](lp-report-global.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/landing_page_report.png)
 
 Der **[!UICONTROL Live-Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht Landingpage verfügbar sind.
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht zur Landingpage verfügbar sind.
 
 Das Widget **[!UICONTROL Leistung der Landingpage]** zeigt die wichtigsten Informationen in Form von KPIs an, die in den letzten 24 Stunden zu Ihrer Nachricht erfasst wurden:
 
@@ -52,4 +52,4 @@ Die Diagramme **[!UICONTROL Besuche nach Nachrichten]** / **[!UICONTROL Konversi
 Die Diagramme **[!UICONTROL Besuche nach Kanälen]** / **[!UICONTROL Konversionen nach Kanälen]** geben die Gesamtzahl der Besuche und Personen an, die in den letzten 24 Stunden je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
 +++
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](live-report.md#list-of-components-live).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](live-report.md#list-of-components-live).

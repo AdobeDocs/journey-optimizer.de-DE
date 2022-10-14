@@ -9,7 +9,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvo
 > * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](#configure-email-settings), [Push-Benachrichtigungen](../configuration/push-configuration.md) und [SMS](../configuration/sms-configuration.md) ausführen.
 
 
-Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie bei der Erstellung von Nachrichten aus einer Journey oder einer Kampagne auswählen.
+Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,12 +35,12 @@ Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie bei der Erstel
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Kanaloberflächeneinstellungen"
->abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den Kanal aus, auf den sie angewendet wird, und definieren Sie alle technischen Parameter, die für Ihren Versand erforderlich sind, z. B. E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
+>abstract="Wählen Sie beim Einrichten einer Kanaloberfläche den entsprechenden Kanal aus und definieren Sie alle technischen Parameter, die für Ihren Versand erforderlich sind, beispielsweise E-Mail-Typ, Absendername, Mobile Apps, SMS-Konfiguration und mehr."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Kanaloberflächeneinstellungen"
->abstract="Um Aktionen wie E-Mails von einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten der Kanaloberfläche verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
+>abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten der Kanaloberfläche verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    * Helo-Host-Prüfung
    * IP-Pool-Verifizierung
    * A/PTR-Eintrag, Subdomain-Verifizierung t/m/res
-   * FBL-Registrierung (diese Prüfung wird nur durchgeführt, wenn eine E-Mail-Oberfläche für eine bestimmte Subdomain zum ersten Mal erstellt wird)
+   * FBL-Registrierung (diese Prüfung wird nur bei der ersten Erstellung einer E-Mail-Oberfläche für eine bestimmte Subdomain durchgeführt)
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ Wenn einer dieser Fehler auftritt, wenden Sie sich an die [Adobe-Kundenunterstü
    * Blockierungsauflistung der zugewiesenen IPs
    * Ungültiger `helo`-Name
    * E-Mails, die von anderen IPs als den im IP-Pool der entsprechenden Oberfläche angegebenen gesendet werden
-   * E-Mails können nicht an Postfächer großer ISPs gesendet werden
+   * E-Mails können nicht an die Postfächer von wichtigen ISPs zugestellt werden
 
 ## Bearbeiten einer Kanaloberfläche {#edit-channel-surface}
 
@@ -221,7 +221,7 @@ Wenn Sie eine bereits aktive Oberfläche bearbeiten:
 #### Erfolgreich {#success}
 
 Nach erfolgreicher Überprüfung wird die neue Version der Oberfläche automatisch in allen Nachrichten verwendet, die diese Oberfläche verwenden. Sie müssen jedoch möglicherweise warten:
-* einige Minuten, bevor die Voreinstellung von den einzelnen Nachrichten genutzt wird,
+* einige Minuten, bevor sie von den unitären Nachrichten genutzt wird,
 * bis zum nächsten Batch, damit die Oberfläche in Batch-Nachrichten wirksam wird.
 
 #### Fehlgeschlagen {#failed}

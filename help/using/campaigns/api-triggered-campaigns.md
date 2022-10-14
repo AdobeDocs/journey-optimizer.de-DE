@@ -5,7 +5,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -39,11 +39,11 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
    >
    >Sie können an die API-Payload zusätzliche Daten zur Nachrichtenpersonalisierung übergeben. [Weitere Informationen](#contextual)
    >
-   >Die Verwendung einer großen Zahl oder umfangreicher Kontextdaten in Ihrem Inhalt kann sich auf die Leistung auswirken.
+   >Die Verwendung einer großen Zahl oder umfangreicher kontextbezogener Daten in Ihren Inhalten kann die Leistung beeinträchtigen.
 
-1. Im **[!UICONTROL Zielgruppe]** Geben Sie den Namespace an, mit dem die Kontakte aus dem Segment identifiziert werden sollen.
+1. Geben Sie im Abschnitt **[!UICONTROL Audience]** den Namespace an, der zur Identifizierung der Einzelpersonen aus dem Segment verwendet werden soll.
 
-   Die **[!UICONTROL Erstellen neuer Profile]** ermöglicht die automatische Erstellung von Profilen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
+   Die Option **[!UICONTROL Erstellen neuer Profile]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
 
 1. Konfigurieren Sie das Start- und Enddatum der Kampagne.
 
@@ -90,7 +90,7 @@ Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Star
 
 In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System sind. Beispiel: Ein unbekannter Benutzer versucht, das Kennwort auf Ihrer Website zurückzusetzen.
 
-Wenn ein Profil nicht in der Datenbank vorhanden ist, können Sie es bei der Ausführung der Kampagne automatisch erstellen, damit die Nachricht an dieses Profil gesendet werden kann.
+Wenn ein Profil nicht in der Datenbank vorhanden ist, erlaubt Journey Optimizer Ihnen, es automatisch bei der Ausführung der Kampagne zu erstellen, um das Senden der Nachricht an dieses Profil zu ermöglichen.
 
 >[!IMPORTANT]
 >
@@ -102,4 +102,4 @@ Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, aktivieren S
 
 >[!NOTE]
 >
->Unbekannte Profile werden im **AJO-Profildatensatz für interaktive Nachrichten** Datensatz, in drei Standard-Namespace (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).
+>Unbekannte Profile werden im **AJO Interactive Messaging-Profil-Datensatz** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).

@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Abonnement-Liste
+title: Erstellen einer Abonnementliste
 description: Erfahren Sie, wie in Journey Optimizer eine Abonnement-Liste eingerichtet wird.
 feature: Landing Pages
 topic: Content Management
@@ -9,7 +9,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
->title="Abonnementliste einrichten"
->abstract="Erstellen Sie eine Abonnementliste, um Profile zu sammeln, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Erstellen einer Abonnement-Liste"
+>title="Einrichten einer Abonnementliste"
+>abstract="Erstellen Sie eine Abonnementliste, um Profile zu erfassen, die sich für den Empfang von Nachrichten zu einem bestimmten Thema oder Ereignis entschieden haben. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=de#define-subscription-list" text="Erstellen einer Abonnementliste"
 
 Ein Anmeldedienst unterstützt die Vermarktung von Waren und Dienstleistungen, die Kunden angeboten werden, die sich für den laufenden Erhalt von Mitteilungen zu einem bestimmten Thema/Ereignis/Interesse usw. entschieden haben. In [!DNL Journey Optimizer] werden diese angemeldeten Kunden in einer Abonnement-Liste erfasst.
 
@@ -35,7 +35,7 @@ Beispiele für einen Anmeldedienst:
 
 Die Profile können über eine [Landingpage](create-lp.md) zu einer Abonnement-Liste hinzugefügt werden. Ein Beispiel dazu finden Sie in [diesem Abschnitt](lp-use-cases.md#subscription-to-a-service).
 
-## Erstellen einer Abonnement-Liste {#define-subscription-list}
+## Erstellen einer Abonnementliste {#define-subscription-list}
 
 Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
 

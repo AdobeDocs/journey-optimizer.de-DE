@@ -9,7 +9,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Einrichten eines IP-Pools"
->abstract="Mit Journey Optimizer können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu Gruppen zusammenzufassen. Dies kann die Zustellbarkeit Ihrer E-Mail erheblich verbessern, da Sie dadurch verhindern können, dass sich die Reputation einer Subdomain auf Ihre anderen Subdomains auswirkt."
+>abstract="Mit Journey Optimizer können Sie IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu Gruppen zusammenzufassen. Dies kann die Zustellbarkeit Ihrer E-Mails erheblich verbessern, da Sie dadurch verhindern können, dass sich die Reputation einer Subdomain auf Ihre anderen Subdomains auswirkt."
 
 ## Über IP-Pools {#about-ip-pools}
 

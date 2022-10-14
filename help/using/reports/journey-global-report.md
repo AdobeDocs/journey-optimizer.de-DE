@@ -9,13 +9,13 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Globaler Bericht zur Journey {#journey-global-report}
 
-Auf den globalen Journey-Bericht können Sie direkt von Ihrer Journey mit der **[!UICONTROL Bericht anzeigen]** Schaltfläche.
+Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den globalen Bericht zur Journey zugreifen.
 
 ![](assets/report_journey.png)
 
@@ -28,7 +28,7 @@ Die Seite **[!UICONTROL Globaler Bericht]** zur Journey wird mit den folgenden R
 
 Der **[!UICONTROL globale Bericht]** zur Journey ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Journey detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](global-report.md#list-of-components-global).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](global-report.md#list-of-components-global).
 
 ## Registerkarte „Journey“ {#journey-global}
 
@@ -36,7 +36,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey erhalten Sie auf der Regi
 
 ![](assets/journey_global_1.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Journey-Bericht verfügbar sind.
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für Journey-Berichte verfügbar sind.
 
 Mit dem Widget **[!UICONTROL Performance der Journey]** können Sie den Weg Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
@@ -174,9 +174,9 @@ Die Tabelle **[!UICONTROL Detaillierte Angebotsstatistik]** enthält die für di
 * **[!UICONTROL Klickrate des Angebots]**: Prozentsatz der Benutzer, die mit dem Angebot interagiert haben.
 +++
 
-## Tab Push notification {#push-global}
+## Registerkarte „Push-Benachrichtigung“ {#push-global}
 
-Von Ihrer Journey **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Push-Benachrichtigung]** im Tab werden die wichtigsten Informationen zu den Push-Sendungen aufgeführt, die auf Ihrer Journey gesendet werden.
+In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey durchgeführt wurden.
 
 ![](assets/journey_global_3.png)
 

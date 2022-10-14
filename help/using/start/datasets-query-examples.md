@@ -9,7 +9,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -305,15 +305,15 @@ WHERE
 
 ## Entitätsdatensatz{#entity-dataset}
 
-_Name in der Benutzeroberfläche: ajo_entity_dataset (Systemdatensatz)_
+_Name in der Schnittstelle: ajo_entity_dataset (Systemdatensatz)_
 
 Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an den Endbenutzer gesendet werden.
 
 Das zugehörige Schema ist das AJO-Entitätsschema.
 
-Mit diesem Datensatz können Sie verschiedene Datensätze mit wichtigen, für Marketingexperten geeigneten Metadaten anreichern. Das Attribut messageID hilft bei der Zuordnung verschiedener Datensätze wie Nachrichten-Feedback-Datensatz und Erlebnis-Ereignis-Tracking-Datensätze, um Details zu einem Nachrichtenversand vom Senden an das Tracking auf Profilebene zu erhalten.
+Mit diesem Datensatz können Sie verschiedene Datensätze mit wichtigen vermarktungsfreundlichen Metadaten anreichern. Das Attribut messageID hilft bei der Zuordnung verschiedener Datensätze wie dem Nachrichten-Feedback-Datensatz und Erlebnisereignis-Tracking-Datensätze, um Details zu einem Nachrichtenversand vom Versand bis zum Tracking auf Profilebene zu erhalten.
 
-Die folgende Abfrage hilft Ihnen beim Abrufen der zugehörigen Nachrichtenvorlage für eine bestimmte Kampagne:
+Mit der folgenden Abfrage können Sie die zugehörige Nachrichtenvorlage für eine bestimmte Kampagne abrufen:
 
 ```sql
 SELECT
@@ -323,7 +323,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-Die folgende Abfrage hilft dabei, die Journey-Details und den E-Mail-Betreff mit allen Feedback-Ereignissen zu verknüpfen:
+Mit der folgenden Abfrage können Sie die Journey-Details und den E-Mail-Betreff abrufen, die mit allen Feedback-Ereignissen verbunden sind:
 
 ```sql
 SELECT 

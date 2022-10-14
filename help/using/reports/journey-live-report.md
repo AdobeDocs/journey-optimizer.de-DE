@@ -1,5 +1,5 @@
 ---
-title: Journey-Live-Bericht
+title: Live-Bericht zur Journey
 description: Erfahren Sie, wie Sie Daten aus dem Journey-Live-Bericht verwenden
 feature: Reporting
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Journey-Live-Bericht {#journey-live-report}
+# Live-Bericht zur Journey {#journey-live-report}
 
 Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 
@@ -28,7 +28,7 @@ Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerk
 
 Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](live-report.md#list-of-components-live).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](live-report.md#list-of-components-live).
 
 ## Registerkarte „Journey“ {#journey-live}
 
@@ -116,9 +116,9 @@ Die Widgets **[!UICONTROL Angebotsstatistiken]** und **[!UICONTROL Angebotsstati
 * **[!UICONTROL Angebotsklicks]**: Gibt an, wie oft ein Angebot in einem Versand angeklickt wurde.
 +++
 
-## Tab Push notification {#push-live}
+## Registerkarte „Push-Benachrichtigung“ {#push-live}
 
-Von Ihrer Journey **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Push-Benachrichtigung]** im Tab werden die wichtigsten Informationen zu den Push-Sendungen aufgeführt, die auf Ihrer Journey gesendet werden.
+In dem **[!UICONTROL Live-Bericht]** Ihrer Journey finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Sendungen, die in Ihrer Journey gesendet wurden.
 
 ![](assets/journey_live_3.png)
 

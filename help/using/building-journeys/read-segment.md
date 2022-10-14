@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
 source-wordcount: '1323'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim A
 >
 >Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
 >
->Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Aktivität Segment lesen, Segmentqualifizierung oder Geschäftsereignis beginnen.
+>Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen.
 
 ### Aktivität konfigurieren {#configuring-segment-trigger-activity}
 
@@ -109,7 +109,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >Einmalige Journeys mit dem Schritt „Segment lesen“ gehen 30 Tage nach der Ausführung der Journey in den Status „Beendet“ über. Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet.
 >
->Sie müssen bei der Verwendung von Warteaktivitäten in wiederkehrenden Journey mit Lesesegmenten vorsichtig sein, da die Lebensdauer solcher Journey auf die nächste Ausführung endet. Wenn also täglich eine Journey ausgeführt wird, wird die heute gestartete Journey-Instanz bis zur morgigen Ausführung dauern. Wenn Sie beispielsweise eine Wartezeit von 2 Tagen in dieser Journey hinzugefügt haben, werden Profile bei der nächsten Journey-Ausführung (also am darauffolgenden Tag) immer verschoben, unabhängig davon, ob sie sich in der nächsten Ausführungszielgruppe befinden oder nicht. Profile werden nie 2 Tage lang in dieser Journey bleiben können.
+>Bei der Verwendung von Warteaktivitäten in wiederkehrenden Segment-Lese-Journeys müssen Sie vorsichtig sein, da die Lebensdauer solcher Journeys mit der nächsten Ausführung endet. Das heißt, wenn eine Journey täglich ausgeführt wird, wird die heute gestartete Journey-Instanz bis zur morgigen Ausführung bestehen bleiben. Wenn Sie beispielsweise eine Wartezeit von 2 Tagen zu dieser Journey hinzugefügt haben, werden Profile immer auf die nächste Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Audience der nächsten Ausführung befinden oder nicht. Profile werden nie 2 Tage lang in dieser Journey bleiben können.
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 

@@ -10,7 +10,7 @@ exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ In Journey Optimizer können Sie diese Einverständniserklärungen auf Ihre benu
 
 >[!NOTE]
 >
->Die Einverständniserklärung ist derzeit nur für Organisationen verfügbar, die das Zusatzangebot zum Gesundheitsschild erworben haben.
+>Einverständniserklärungen sind derzeit nur für Organisationen verfügbar, die das Zusatzangebot zum Healthcare Shield erworben haben.
 
 In Journey Optimizer wird das Einverständnis auf mehreren Ebenen definiert:
 
@@ -37,8 +37,8 @@ Mit der Einverständnisverwaltung werden zwei Journey-Aktivitäten analysiert:
 
 * Segment lesen: das abgerufene Segment wird berücksichtigt.
 * Benutzerdefinierte Aktion: Die Einverständnisverwaltung berücksichtigt die verwendeten Attribute ([Aktionsparameter](../action/about-custom-action-configuration.md#define-the-message-parameters)) sowie die definierte(n) Marketing-Aktion(en) (erforderliche Marketing-Aktion und zusätzliche Marketing-Aktion).
-* Attribute, die Teil einer Feldergruppe sind, die das vordefinierte Vereinigungsschema verwenden, werden nicht unterstützt. Diese Attribute werden in der Benutzeroberfläche ausgeblendet. Sie müssen eine weitere Feldergruppe mit einem anderen Schema erstellen.
-* Einverständnisrichtlinien gelten nur, wenn eine Marketing-Aktion (erforderlich oder zusätzlich) auf der Ebene der benutzerdefinierten Aktion festgelegt wird.
+* Attribute, die Teil einer Feldergruppe sind, die das vordefinierte Vereinigungsschema verwendet, werden nicht unterstützt. Diese Attribute werden in der Benutzeroberfläche ausgeblendet. Sie müssen eine weitere Feldergruppe mit einem anderen Schema erstellen.
+* Die Einverständniserklärungen gelten nur, wenn eine Marketing-Aktion (erforderlich oder zusätzlich) auf der Ebene der benutzerdefinierten Aktion festgelegt ist.
 
 Alle anderen in einer Journey verwendeten Aktivitäten werden nicht berücksichtigt. Wenn Sie Ihre Journey mit einer Segmentqualifikation starten, wird das Segment nicht berücksichtigt.
 

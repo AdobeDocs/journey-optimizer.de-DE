@@ -1,6 +1,6 @@
 ---
 title: Dynamischen Inhalt erstellen
-description: Hier erfahren Sie, wie Sie Ihren Nachrichten dynamische Inhalte hinzufügen können.
+description: Erfahren Sie, wie Sie Ihren Nachrichten dynamische Inhalte hinzufügen können.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 

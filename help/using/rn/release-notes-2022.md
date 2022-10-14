@@ -3,7 +3,7 @@ title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Journey Optimizer bietet einen neuen Fluss für die Nachrichtenbearbeitung in Journeys. Das Inline-Messaging spart Benutzenden viel Zeit und optimiert den Workflow-Prozess zum Erstellen und Versand einer E-Mail, einer Push-Benachrichtigung oder einer SMS in Journey Optimizer. Wenn Sie Nachrichten als separaten Schritt entfernen und sie stattdessen im Rahmen einer Journey-Arbeitsfläche bearbeitbar machen möchten, müssen Benutzende auf weniger Schaltflächen klicken und durch weniger Bildschirme navigieren, um Inhalte zu entwerfen und zu bearbeiten.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>Weitere Informationen finden Sie in der<a href="../messages/get-started-content.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../messages/get-started-content.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -115,7 +115,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt Schemafelder mit Bezeichnungen identifizieren, die Organisations- oder Datennutzungsbereiche definieren. Admins können über die Benutzeroberfläche „Berechtigungen“ Zugriffsrichtlinien für XDM-Schemafelder definieren und den Zugriff für Benutzende oder Benutzergruppen (interne, externe oder Drittbenutzende) besser verwalten sowie den Zugriff auf bestimmte Datentypen (d. h. sensible personenbezogene Daten/SPD) verwalten.</p>
 <p>Die Verwendung der attributbasierten Zugriffssteuerung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.</p>
-<p>Weitere Informationen finden Sie in der<a href="../administration/attribute-based-access.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../administration/attribute-based-access.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -132,7 +132,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt Batch-Entscheidungsvorgänge über die Benutzeroberfläche ausführen, sodass niemand mit Entwicklungskenntnissen benötigt wird, um Batch-API-Vorgänge auszuführen, und die für das Marketing benötigte Zeit verkürzt wird. Mit dieser neuen Benutzeroberfläche können Sie Vorgänge erstellen und aktuelle/frühere Vorgänge verwalten.</p>
 <img src="assets/do-not-localize/batch.gif"/>
-<p>Weitere Informationen finden Sie in der<a href="../offers/batch-delivery.md">detaillierten Dokumentation.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/batch-delivery.md">detaillierten Dokumentation.</p>
 </td>
 </tr>
 </tbody>
@@ -150,7 +150,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Sie können jetzt personalisierte Optimierungsmodellsysteme im Entscheidungs-Management verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
 <p>Die Verwendung personalisierter KI-Modelle zur Optimierung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version in allen Umgebungen bereitgestellt.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>Weitere Informationen finden Sie in der<a href="../offers/ranking/personalized-optimization-model.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -218,7 +218,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Das Plug-in für die Integration von Email Designer mit Adobe Stock und Adobe Journey Optimizer bietet Kunden eine einfache Möglichkeit, zur Verwendung bei der Nachrichtenbearbeitung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern. </br> Die neue Option <b>Ähnliche Stock-Fotos suchen</b> ermöglicht es Ihnen auch, Stock-Fotos zu finden, die mit Inhalt, Farbe und Komposition Ihrer Bilder übereinstimmen. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>Weitere Informationen finden Sie in der<a href="../design/stock.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../design/stock.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -235,7 +235,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt die Funktion „E-Mail-BCC“ (Blind Carbon Copy) verwenden, um von Adobe Journey Optimizer gesendete E-Mails zu speichern. Aktivieren Sie diese Option in Ihren E-Mail-Voreinstellungen, damit jede gesendete E-Mail in Blindkopie an Ihre BCC-Adresse gesendet wird.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>Weitere Informationen finden Sie in der<a href="../configuration/archiving-support.md#bcc-email">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/archiving-support.md#bcc-email">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -269,7 +269,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt die Erlebnisse von einer Journey Optimizer-Sandbox in einer anderen neu erstellen, z. B. von einer Nicht-Produktions-Sandbox zu einer Produktions-Sandbox. Diese neue Funktion kopiert eine ganze Journey, einschließlich aller Objekte, von denen die Journey abhängig ist, um korrekt ausgeführt zu werden, von einer Umgebung in eine andere. Zusätzlich zu Journeys können Sie auch andere Komponenten kopieren, z. B. Angebote, Nachrichten, Schemata, Datensätze, Datenquellen, Ereignisse und Aktionen.</p>
-<p>Weitere Informationen finden Sie in der<a href="../building-journeys/copy-to-sandbox.md">detaillierten Dokumentation</a>.
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">detaillierten Dokumentation</a>.
 </td>
 </tr>
 </tbody>
@@ -316,7 +316,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt kanalübergreifende Geschäftsregeln festlegen, mit denen Profile, die zu oft angesprochen wurden, automatisch aus Nachrichten und Aktionen ausgeschlossen werden.</p>
 <!--img src="assets/do-not-localize/frequency-rn.gif"/-->
-<p>Weitere Informationen finden Sie in der<a href="../configuration/frequency-rules.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/frequency-rules.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +333,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt trainierte Modellsysteme im Entscheidungs-Management verwenden. Mit dieser neuen Funktion wird eine Rangliste der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden.</p>
 <!--img src="assets/do-not-localize/optimization.gif"/-->
-<p>Weitere Informationen finden Sie in der<a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -367,7 +367,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>Sie können jetzt Aktionen überwachen, die von Benutzern auf Adobe Journey Optimizer-Ressourcen ausgeführt werden.</p>
 <!--img src="assets/do-not-localize/audit-rn.gif"/-->
-<p>Weitere Informationen finden Sie in der<a href="../privacy/audit-logs.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../privacy/audit-logs.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -386,7 +386,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 * **Zurück zur primären Seite**: Sie können nun von einer beliebigen Unterseite innerhalb derselben Landingpage aus einen Link zur primären Seite hinzufügen.
 * **Unterstützung von benutzerdefiniertem JavaScript**: Sie können jetzt benutzerdefinierten JavaScript-Code zu Ihren Landingpage-Inhalten hinzufügen, um erweiterte Formatierungen durchzuführen oder Ihren Landingpages benutzerspezifische Verhaltensweisen hinzuzufügen.    [Weitere Informationen](../landing-pages/lp-custom-js.md)
 
-**Journeys**
+**Journey**
 
 * **Segment lesen**: Einmalige Journeys mit dem Schritt „Segment lesen“ gehen jetzt 30 Tage nach der Ausführung der Journey in den Status „Beendet“ über. Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet. [Weitere Informationen](../building-journeys/read-segment.md)
 * **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/functiondistinct.md) und [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) hinzugefügt.
@@ -438,7 +438,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um im einheitlichen Profilschema unnötige Felder zu vermeiden, ist das Schema „Journey-Schrittereignisse“ nicht mehr standardmäßig für Profile aktiviert. Bei Bedarf können Sie es aktivieren. [Weitere Informationen](../reports/sharing-overview.md)
 * Neue Schrittereignisse im Zusammenhang mit Exportvorgängen werden jetzt von Journey Optimizer an Adobe Experience Platform gesendet. Beispiele für Abfragen wurden der Dokumentation hinzugefügt. [Weitere Informationen](../reports/query-examples.md)
@@ -471,7 +471,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 <tr>
 <td>
 <p>Sie können in Journey Optimizer jetzt Landingpages erstellen und gestalten und Ihre Benutzer zu Online-Formularen weiterleiten, über die sie sich für den Erhalt Ihrer Nachrichten anmelden oder abmelden oder einen bestimmten Service wie einen Newsletter abonnieren können.</p>
-<p>Weitere Informationen finden Sie in der<a href="../landing-pages/create-lp.md">detaillierten Dokumentation</a> und in diesem <a href="../landing-pages/lp-use-cases.md">Anwendungsfall</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../landing-pages/create-lp.md">detaillierten Dokumentation</a> und in diesem <a href="../landing-pages/lp-use-cases.md">Anwendungsfall</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -487,7 +487,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 <tr>
 <td>
 <p>Journey Optimizer bietet jetzt eine Bibliothek, in der Sie auf vordefinierte Personalisierungsausdrücke zugreifen können. Diese Ausdrücke werden von Admin-Benutzern konfiguriert.</p>
-<p>Weitere Informationen finden Sie in der<a href="../personalization/personalization-library.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../personalization/personalization-library.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -523,7 +523,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>In Nachrichteninhalten von Journey Optimizer können Sie jetzt UTM-Parameter zu Ihren Links hinzufügen. Diese können zusätzliche Daten zu diesem Link liefern und Ihnen dabei helfen herauszufinden, wo und warum eine Person auf Ihren Link geklickt hat.</p>
-<p>Weitere Informationen finden Sie in der<a href="../configuration/channel-surfaces.md#configure-email-settings">detaillierten Dokumentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../configuration/channel-surfaces.md#configure-email-settings">detaillierten Dokumentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -531,12 +531,12 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Um die Leistung zu optimieren, wechseln alle Journeys im Testmodus, die seit einer Woche nicht ausgelöst wurden, jetzt wieder in den Entwurfsstatus zurück. [Weitere Informationen](../building-journeys/testing-the-journey.md#important_notes)
 * Die Integration zwischen Journey Optimizer und Adobe Campaign Classic wurde optimiert, um die Leistung zu verbessern. Die Standardkonfiguration für Begrenzungen wurde auf 4.000 Aufrufe/5 Minuten geändert.    [Weitere Informationen](../action/acc-action.md#important-notes)
 
-**Reporting**
+**Berichterstellung**
 
 * Sendungen können nun nach ihrem Status gefiltert werden:
    * In der Liste „Nachrichtenausführung“ können Sie jetzt Testsendungen aus der Versandliste ausschließen.
@@ -564,7 +564,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Beim Konfigurieren einer <strong>Bedingungs</strong>-Aktivität in einer Journey können Sie jetzt eine Profilobergrenze festlegen. Dieser neue Bedingungstyp ermöglicht es Ihnen, eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Auf diese Weise können Sie das Volumen Ihrer Sendungen erhöhen (IP-Ramp-up). Sie können beispielsweise Ihre Sendungen in einer Domain schrittweise ausführen, indem Sie die Ausführung aufteilen: Sie senden 1.000 Nachrichten am Tag 1, 2.000 am Tag 2 usw.</p>
-<p>Weitere Informationen finden Sie in der<a href="../building-journeys/condition-activity.md#profile_cap">detaillierten Dokumentation</a> und in diesem <a href="../building-journeys/ramp-up-deliveries-uc.md">Anwendungsfall</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/condition-activity.md#profile_cap">detaillierten Dokumentation</a> und in diesem <a href="../building-journeys/ramp-up-deliveries-uc.md">Anwendungsfall</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -580,7 +580,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p>Die Option <strong>Inkrementelles Lesen</strong> wurde zu den wiederkehrenden <strong>Segment lesen</strong>-Aktivitäten hinzugefügt. Mit dieser Option haben Sie die Möglichkeit, nur die Personen anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind. Bei der ersten Ausführung sind immer alle Segmentmitglieder ausgewählt.</p>
-<p>Weitere Informationen finden Sie in der<a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detaillierten Dokumentation</a>.
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detaillierten Dokumentation</a>.
 </td>
 </tr>
 </tbody>
@@ -588,7 +588,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 ### Verbesserungen
 
-**Journeys**
+**Journey**
 
 * Step-Ereignisse von Journey Optimizer können jetzt mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de) verknüpft werden. Das Feld **profileID** im integrierten Step-Ereignisschema einer Journey ist jetzt als Identitätsfeld definiert. [Weitere Informationen](../reports/sharing-overview.md#integration-cja)
 

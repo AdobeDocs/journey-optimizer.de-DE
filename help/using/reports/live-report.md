@@ -9,28 +9,28 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit dem Live-Bericht {#live-report}
 
 Verwenden Sie den **[!UICONTROL Live-Bericht]**, um die Wirkung und Leistung Ihrer Journeys und Nachrichten in Echtzeit in einem integrierten Dashboard zu messen und zu visualisieren.
-Die Daten sind im Abschnitt **[!UICONTROL Live-Bericht]** unmittelbar nach dem Versand oder der Ausführung Ihrer Journey über die **[!UICONTROL Letzte 24 Stunden]** Registerkarte.
+Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand erfolgt ist oder Ihre Journey auf der Registerkarte **[!UICONTROL Letzte 24 Std.]** ausgeführt wurde.
 
-* Wenn Sie eine Journey im Kontext einer Journey ansprechen möchten, können Sie über die **[!UICONTROL Journey]** auf Ihre Journey zugreifen und auf die **[!UICONTROL Bericht anzeigen]** Schaltfläche.
+* Wenn Sie eine Journey im Kontext einer Journey anpeilen möchten, rufen Sie über das Menü **[!UICONTROL Journeys]** Ihre Journey auf und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]**.
 
    ![](assets/report_journey.png)
 
-* Wenn Sie eine Kampagne als Ziel auswählen möchten, können Sie über die **[!UICONTROL Kampagnen]** , greifen Sie auf Ihre Kampagne zu und klicken Sie auf **[!UICONTROL Berichte]** Schaltfläche.
+* Wenn Sie eine Kampagne als Ziel wählen möchten, rufen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne auf und klicken auf die Schaltfläche **[!UICONTROL Berichte]**.
 
    ![](assets/report_campaign.png)
 
-* Wenn Sie von der **[!UICONTROL Gesamtbericht]** der **[!UICONTROL Live-Bericht]** Klicken Sie für Ihren Versand auf **[!UICONTROL Letzte 24 Stunden]** über den Tab-Umschalter aus.
+* Wenn Sie vom **[!UICONTROL globalen Bericht]** zum **[!UICONTROL Live-Bericht]** für Ihren Versand wechseln möchten, klicken Sie auf **[!UICONTROL Letzte 24 Std.]** im Registerkarten-Umschalter.
 
    ![](assets/report_3.png)
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](#list-of-components-live).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-live).
 
 ## Dashboard anpassen {#modify-dashboard}
 
@@ -74,23 +74,23 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody> 
   <tr> 
    <td>Erfolgreich ausgeführte Aktionen<br/> </td> 
-   <td> Gesamtzahl der Aktionen, die für eine Journey erfolgreich ausgeführt wurden.<br/> </td> 
+   <td> Gesamtzahl der erfolgreich ausgeführten Aktionen für eine Journey<br/>. </td> 
 </tr> 
   <tr> 
-   <td> Eingegebene Profile<br/> </td> 
-   <td> Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.<br/> </td> 
+   <td> Eingetretene Profile<br/> </td> 
+   <td> Gesamtzahl der Einzelanwendenden, die das Eintrittsereignis der Journey erreicht haben.<br/> </td> 
 </tr>
   <tr> 
-   <td> Fehler in Aktion<br/> </td> 
+   <td> Fehler bei Aktion<br/> </td> 
    <td>Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Ausgehende Profile<br/> </td> 
-   <td> Gesamtzahl der Personen, die die Journey verlassen haben.<br/> </td> 
+   <td> Ausgestiegene Profile<br/> </td> 
+   <td> Gesamtzahl der Einzelanwendenden, die die Journey verlassen haben<br/> </td> 
 </tr> 
   <tr> 
    <td> Fehlgeschlagene einzelne Journey<br/> </td> 
-   <td> Gesamtzahl der einzelnen Journey, die nicht erfolgreich ausgeführt wurden.<br/> </td> 
+   <td> Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -111,7 +111,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr> 
   <tr> 
    <td> Absprungrate<br/> </td> 
-   <td> Prozentsatz der Bounce-E-Mails in Bezug auf die gesendeten E-Mails<br/> </td> 
+   <td> Prozentsatz der Bounce-E-Mails im Vergleich zu den gesendeten E-Mails<br/> </td> 
 </tr>
   <tr> 
    <td> Klicks<br/> </td> 
@@ -119,58 +119,58 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr> 
   <tr> 
    <td> Zugestellt <br/> </td> 
-   <td> Anzahl der erfolgreich gesendeten Nachrichten.<br/></td> 
+   <td> Anzahl der erfolgreich versendeten Nachrichten.<br/></td> 
 </tr> 
   <tr> 
-   <td> Zustellrate<br/> </td> 
+   <td> Zustellungsrate<br/> </td> 
    <td> Prozentsatz der erfolgreich gesendeten Nachrichten<br/> </td> 
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während eines Versands aufgetreten sind, der den Versand verhinderte, in Bezug auf die gesendeten E-Mails.<br/> </td> 
+   <td> Prozentsatz der Fehler, die während des Versands auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.<br/> </td> 
 </tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
 </tr>
   <tr> 
    <td> Hardbounce<br/> </td> 
-   <td> Die Gesamtzahl der permanenten Fehler, z. B. eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.<br/> </td>
+   <td> Gesamtzahl der permanenten Fehler, wie beispielsweise eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.<br/> </td>
 </tr>
   <tr> 
    <td> Ignoriert<br/> </td> 
-   <td> Die Gesamtzahl der temporären Ereignisse, z. B. "Out of office", oder eines technischen Fehlers, z. B. wenn der Absendertyp Postmaster ist.<br/> </td> 
+   <td> Die Gesamtzahl der temporären Fehler, wie beispielsweise Abwesenheit oder technische Fehler, etwa wenn der Absendertyp Postmaster ist.<br/> </td> 
 </tr>
    <tr> 
    <td>Klickrate des Angebots<br/> </td> 
-   <td>Prozentsatz der Benutzer, die mit dem Angebot interagiert haben.<br/> </td> 
+   <td>Prozentsatz der Benutzenden, die mit dem Angebot interagiert haben.<br/> </td> 
 </tr>
    <tr> 
    <td>Impressionsrate des Angebots<br/> </td> 
-   <td>Prozentsatz der geöffneten Angebote in Bezug auf die Anzahl der gesendeten Angebote.<br/> </td> 
+   <td>Prozentsatz der geöffneten Angebote im Verhältnis zur Anzahl der gesendeten Angebote.<br/> </td> 
 </tr>
    <tr> 
    <td>Name des Angebots<br/> </td> 
    <td> Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-personalized-offers.md">Seite</a>.<br/> </td> 
 </tr>
    <tr> 
-   <td>gesendetes Angebot<br/> </td> 
-   <td>Gesamtzahl der gesendeten Nachrichten für das Angebot.<br/> </td> 
+   <td>Gesendetes Angebot<br/> </td> 
+   <td>Gesamtzahl der Sendevorgänge für das Angebot.<br/> </td> 
 </tr> 
   <tr>
    <td>Öffnungen<br/> </td> 
-   <td> Anzahl der Öffnungen der Nachricht.<br/> </td> 
+   <td> Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
 </tr> 
   <tr> 
    <td> Öffnungsrate<br/> </td> 
-   <td> Gesamtzahl der geöffneten E-Mails in Bezug auf die Anzahl der zugestellten E-Mails.<br/> </td> 
+   <td> Gesamtzahl der geöffneten E-Mails im Vergleich zur Anzahl der zugestellten E-Mails.<br/> </td> 
 </tr>
   <tr> 
-   <td>Platzierungsname<br/> </td> 
+   <td>Name der Platzierung<br/> </td> 
    <td> Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-placements.md">Seite</a>. </td> 
 </tr> 
   <tr> 
@@ -187,19 +187,19 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Spam-Beschwerden<br/> </td> 
-   <td> Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.<br/> </td> 
+   <td> Anzahl der Fälle, in denen eine Nachricht als Spam oder Junk deklariert wurde.<br/> </td> 
 </tr>
   <tr> 
-   <td> Targeting<br/> </td> 
-   <td> Gesamtzahl der bei der Analyse verarbeiteten Nachrichten.<br/> </td> 
+   <td> Zielgruppe<br/> </td> 
+   <td> Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Anzahl der Empfänger, die einen Inhalt in einer E-Mail angeklickt haben<br/> </td> 
+   <td> Die Anzahl der Empfänger, die auf einen Inhalt in einer E-Mail geklickt haben.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Eindeutige Klickrate<br/> </td> 
-   <td> Prozentsatz der Benutzer, die mit dem Versand interagiert haben<br/> </td> 
+   <td>Einzelklickrate<br/> </td> 
+   <td> Prozentualer Anteil der Benutzenden, die mit dem Versand interagiert haben.<br/> </td> 
 </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
@@ -227,45 +227,45 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
 </tr>
  <tr> 
-   <td>Absprungrate<br/> </td> 
+   <td>Bounce-Rate<br/> </td> 
    <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
 </tr>
  <tr>
   <tr> 
    <td>Klicks<br/> </td> 
-   <td>Anzahl der Klicks auf einen Inhalt auf der Landingpage.<br/> </td> 
+   <td>Anzahl der Klicks auf einen Inhalt der Landingpage.<br/> </td> 
 </tr>
  <tr> 
    <td>Klickrate<br/> </td> 
-   <td>Prozentsatz der Klicks auf die Landingpage<br/> </td>
+   <td>Prozentsatz der Klicks auf der Landingpage.<br/> </td>
 </tr>
 <tr>
 <td>Konversion<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.<br/> </td> 
+   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
 <tr>
    <td>Konversionsrate<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.<br/> </td> 
+   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
  <tr> 
-   <td>Journey<br/> </td> 
+   <td>Journey(s)<br/> </td> 
    <td>Anzahl der Besuche auf einer Landingpage von einer Journey.<br/> </td> 
 </tr>
  <tr> 
    <td>Andere Quellen<br/> </td> 
-   <td>Anzahl der Besuche auf Ihrer Landingpage von einer externen Quelle anstelle einer Journey.<br/> </td> 
+   <td>Anzahl der Besuche auf Ihrer Landingpage, die von einer externen Quelle anstelle einer Journey stammen.<br/> </td> 
 </tr>
  <tr> 
    <td>Besuche insgesamt<br/> </td> 
-   <td> Gesamtzahl der Besuche auf Ihrer Landingpage von Journey und externen Quellen, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
+   <td> Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen stammen, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
 </tr>
  <tr> 
    <td>Unique Visitors<br/> </td> 
-   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrere Besuche eines Empfängers nicht berücksichtigt werden.<br/> </td> 
+   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Empfängers nicht berücksichtigt werden.<br/> </td> 
 </tr>
  <tr> 
    <td>Besuche<br/> </td> 
-   <td>Anzahl der Besuche auf Ihrer Landingpage, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
+   <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrfacher Besuche eines Empfängers.<br/> </td> 
 </tr>
  </tbody> 
 </table>

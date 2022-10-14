@@ -1,5 +1,5 @@
 ---
-title: Bedingungen erstellen
+title: Erstellen von Bedingungen
 description: Erfahren Sie, wie Sie Bedingungen erstellen
 feature: Personalization
 topic: Personalization
@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -39,12 +39,12 @@ Bedingte Regeln werden aus dem **[!UICONTROL Bedingungen]** -Menü im Ausdruckse
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
->title="Bedingung erstellen"
+>title="Erstellen einer Bedingung"
 >abstract="Kombinieren Sie Profilattribute, kontextbezogene Ereignisse oder Zielgruppen, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
->title="Bedingung erstellen"
+>title="Erstellen einer Bedingung"
 >abstract="Kombinieren Sie Profilattribute, kontextbezogene Ereignisse oder Zielgruppen, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 Gehen Sie wie folgt vor, um eine bedingte Regel zu erstellen:

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1018'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
 >[!NOTE]
 >
->Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne von Ihren Empfängern Maßnahmen zu ergreifen (z. B. Opt-in oder Opt-out) oder Informationen bereitstellen möchten, für die keine Benutzereingabe erforderlich ist.
+>Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie beispielsweise ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
@@ -122,13 +122,13 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
    ![](assets/lp_designer-form-error-preview.png)
 
-## Primärseitenkontext verwenden {#use-primary-page-context}
+## Verwenden des primären Seitenkontexts {#use-primary-page-context}
 
-Sie können Kontextdaten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
+Sie können kontextbezogene Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
 
-Wenn Sie beispielsweise ein Kontrollkästchen verknüpfen<!-- or the submission of the page--> zu [Abonnementliste](subscription-list.md) auf der primären Landingpage können Sie diese Abonnementliste auf der &quot;Vielen Dank&quot;-Unterseite verwenden.
+Wenn Sie zum Beispiel ein Kontrollkästchen<!-- or the submission of the page--> mit einer [Abonnementliste](subscription-list.md) auf der primären Landingpage verknüpfen, können Sie diese Abonnementliste auf der Unterseite „Vielen Dank“ verwenden.
 
-Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn sich ein Benutzer für eine dieser Optionen anmeldet, möchten Sie beim Senden des Formulars je nach ausgewähltem Kontrollkästchen eine bestimmte Nachricht anzeigen.
+Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn ein Benutzer eine dieser Listen abonniert, möchten Sie beim Absenden des Formulars eine bestimmte Nachricht anzeigen, je nachdem, welches Kästchen die Person ausgewählt hat.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -136,17 +136,17 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie **[!UICONTROL Personalisierung hinzufügen]** in der dedizierten Symbolleiste.
+1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie in der kontextbezogenen Symbolleiste **[!UICONTROL Personalisierung hinzufügen]**.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. Im **[!UICONTROL Personalisierung bearbeiten]** auswählen **[!UICONTROL Kontextattribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
+1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** wählen Sie **[!UICONTROL Kontextuelle Attribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
 
-1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol + die entsprechenden Elemente aus.
+1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol „+“ die entsprechenden Elemente aus.
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Fügen Sie die relevanten Bedingungen mithilfe der Hilfsfunktionen des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/functions/functions.md)
+1. Fügen Sie die entsprechenden Bedingungen über die Hilfsfunktionen des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -158,13 +158,13 @@ Gehen Sie dazu wie folgt vor:
 
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Wenn Benutzer jetzt eines der Kontrollkästchen aktivieren, wird beim Senden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
+Wenn Benutzende jetzt eines der Kontrollkästchen aktivieren, wird beim Absenden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
 
 >[!NOTE]
 >
->Wenn ein Benutzer die beiden Kontrollkästchen aktiviert, werden beide Texte angezeigt.
+>Wenn Benutzende die beiden Kontrollkästchen aktivieren, werden beide Texte angezeigt.
 
 <!--
 ## Use landing page additional data {#use-additional-data}

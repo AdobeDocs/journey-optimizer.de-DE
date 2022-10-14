@@ -9,7 +9,7 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '1440'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -83,14 +83,14 @@ Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedlich
 
 >[!NOTE]
 >
->Die Zeitzone ist nicht Bedingungsspezifisch und wird auf Journey-Ebene in den Journey-Eigenschaften definiert. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
 
-Es stehen drei Filteroptionen zur Verfügung:
+Es stehen drei Zeitfilteroptionen zur Verfügung:
 
-* Stunde: ermöglicht die Einrichtung einer Bedingung basierend auf der Tageszeit. Anschließend legen Sie die Start- und Endzeiten fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
-* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die einzelnen Benutzer den Pfad eingeben sollen.
+* Stunde: ermöglicht die Einrichtung einer Bedingung basierend auf der Tageszeit. Sie legen dann die Start- und Endzeit fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
+* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die Einzelanwender den Pfad eingeben sollen.
 * Wochentag und Stunde: Diese Option kombiniert die ersten beiden Optionen.
 
 ## Prozentuale Aufspaltung {#percentage_split}

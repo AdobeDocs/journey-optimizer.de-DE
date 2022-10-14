@@ -1,6 +1,6 @@
 ---
-title: Kampagne überprüfen und aktivieren
-description: Erfahren Sie, wie Sie Kampagnen in überprüfen und aktivieren können. [!DNL Journey Optimizer]
+title: Überprüfen und Aktivieren einer Kampagne
+description: Erfahren Sie, wie Sie Kampagnen in  [!DNL Journey Optimizer] überprüfen und aktivieren können.
 feature: Overview
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 5a7932cf0cb013e627e79aadde526e8f976effaf
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

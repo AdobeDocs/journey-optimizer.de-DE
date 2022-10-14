@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 70%
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 70%
 
 1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt **[!UICONTROL Zeitplan]**. [Informationen zum Definieren eines Zeitplans für Kampagnen](#schedule)
 
-1. Um der Kampagne benutzerdefinierte oder Kerndatennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]** Schaltfläche. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLA)](../administration/object-based-access.md)
+1. Um der Kampagne benutzerdefinierte oder Core-Bezeichnungen für die Datennutzung zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
 
 Nachdem Ihre Kampagne fertiggestellt ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
 
@@ -103,38 +103,38 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 
 ![](assets/create-campaign-schedule.png)
 
-## Schnellbereitstellungsmodus {#rapid-delivery}
+## Schnellversand-Modus {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="Schnellbereitstellungsmodus"
->abstract="Im Modus Schnellversand können Sie Hochgeschwindigkeits-Nachrichten an Push-Kanäle mit einer Zielgruppengröße von unter 30 M senden."
+>title="Schnellversand-Modus"
+>abstract="Schnellversand-Modus ermöglicht den Versand von Hochgeschwindigkeits-Nachrichten über den Push-Kanal an eine Zielgruppe von weniger als 30 MB."
 
-Der schnelle Bereitstellungsmodus, der in Journey früher als Burst-Modus bezeichnet wurde, ist ein [!DNL Journey Optimizer] -Add-on, das den sehr schnellen Versand von Push-Nachrichten in großen Mengen durch Kampagnen ermöglicht.
+Der Schnellversand-Modus, der in Journeys früher als Burst-Modus bezeichnet wurde, ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht.
 
-Schneller Versand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch ist, wenn Sie eine dringende Push-Benachrichtigung auf Mobiltelefone senden möchten, z. B. eine brechende Nachricht an Benutzer, die Ihre News-Kanal-App installiert haben.
+Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversand geschäftskritisch wäre oder wenn Sie eine dringende Push-Benachrichtigung an Mobiltelefone senden möchten, z. B. eine Eilmeldung an Benutzende, die Ihre Nachrichten-App installiert haben.
 
-Weitere Informationen zur Leistung bei Verwendung des Rapid-Versandmodus finden Sie unter [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html?lang=de).
+Weitere Informationen zur Leistung bei Verwendung des Schnellversand-Modus finden Sie unter [Produktbeschreibung für Adobe Journey Optimizer](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ### Voraussetzungen {#prerequisites}
 
-Der schnelle Versand von Nachrichten umfasst die folgenden Anforderungen:
+Für Nachrichten mit Schnellversand gelten folgende Anforderungen:
 
-* Eine schnelle Bereitstellung ist verfügbar für **[!UICONTROL Geplant]** nur Kampagnen und nicht für API-gesteuerte Kampagnen verfügbar sind,
+* Der Schnellversand ist nur für **[!UICONTROL geplante]** Kampagnen verfügbar und nicht für Kampagnen, die über eine API ausgelöst werden.
 * In der Push-Benachrichtigung ist keine Personalisierung zulässig,
-* Die Zielgruppe muss weniger als 30 Millionen Profile enthalten.
-* Im Modus Schneller Versand können Sie bis zu 5 Kampagnen gleichzeitig ausführen.
+* Die Audience muss weniger als 30 Millionen Profile enthalten.
+* Im Schnellversand-Modus können Sie bis zu 5 Kampagnen gleichzeitig ausführen.
 
-### Aktivieren des Modus für schnelle Bereitstellung
+### Aktivieren des Schnellversand-Modus
 
-1. Erstellen Sie eine Push-Benachrichtigungskampagne und aktivieren Sie die **[!UICONTROL Schneller Versand]** -Option.
+1. Erstellen Sie eine Push-Benachrichtigungskampagne und aktivieren Sie die Option **[!UICONTROL Schnellversand]**.
 
 ![](assets/create-campaign-burst.png)
 
-1. Konfigurieren Sie den Nachrichteninhalt und wählen Sie die Zielgruppe aus. [Erfahren Sie, wie Sie eine Kampagne erstellen](#create)
+1. Konfigurieren Sie den Inhalt der Nachricht und wählen Sie die Audience aus. [Erfahren Sie, wie Sie eine Kampagne erstellen](#create)
 
    >[!IMPORTANT]
    >
-   >Stellen Sie sicher, dass der Nachrichteninhalt keine Personalisierung enthält und dass die Audience weniger als 30 Millionen Profile enthält.
+   >Stellen Sie sicher, dass der Inhalt der Nachricht keine Personalisierung enthält und dass die Audience weniger als 30 Millionen Profile umfasst.
 
-1. Überprüfen und aktivieren Sie Ihre Kampagne wie gewohnt. Beachten Sie, dass Nachrichten im Testmodus nicht über den Modus Schneller Versand gesendet werden. [Erfahren Sie, wie Sie eine Kampagne überprüfen und aktivieren](review-activate-campaign.md)
+1. Überprüfen und aktivieren Sie Ihre Kampagne wie gewohnt. Beachten Sie, dass im Testmodus Nachrichten nicht über den Schnellversand-Modus gesendet werden. [Erfahren Sie, wie Sie eine Kampagne überprüfen und aktivieren können](review-activate-campaign.md)

@@ -10,7 +10,7 @@ hidefromtoc: true
 source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Auf diesem Tab werden alle in Adobe Experience Platform gespeicherten Zielgruppe
 
 Die **[!UICONTROL Profilanzahl]** enthält Informationen zur Anzahl der Profile, die in einer Audience enthalten sind. Klicken Sie auf die Schaltfläche &quot;i&quot;, um weitere Informationen zum Datum der Berechnung dieser Informationen zu erhalten.
 
-Um einer Zielgruppe benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche mit den Auslassungszeichen und wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffskontrolle auf Objektebene (OLA)](../administration/object-based-access.md)
+Um einer Zielgruppe benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche mit den Auslassungszeichen und wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

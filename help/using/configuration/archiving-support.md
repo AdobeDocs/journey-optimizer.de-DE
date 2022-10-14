@@ -9,25 +9,25 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Unterstützung für Archivierung {#archiving-support}
 
-## Archivieren von Nachrichten {#about-archiving}
+## So archivieren Sie Nachrichten {#about-archiving}
 
-Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] soll eine Möglichkeit bieten, an Einzelpersonen gesendete Nachrichten zu archivieren. Wenn Ihre Kunden eine Forderung erheben, sollten sie die Möglichkeit haben, eine Kopie der gesendeten Nachricht zu Überprüfungszwecken zu erhalten.
+Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkeit bietet, um an Einzelpersonen gesendete Nachrichten zu archivieren. Wenn Ihre Kundinnen und Kunden einen Anspruch einreichen, sollten sie die Möglichkeit haben, eine Kopie der gesendeten Nachricht zu Verifizierungszwecken zu erhalten.
 
-* Für den E-Mail-Kanal: [!DNL Journey Optimizer] bietet eine integrierte BCC-E-Mail-Funktion. [Weitere Informationen](#bcc-email)
+* Für den E-Mail-Kanal bietet [!DNL Journey Optimizer] eine integrierte BCC-Funktion. [Weitere Informationen](#bcc-email)
 
-* Darüber hinaus können Sie für alle Kanäle das Feld &quot;Vorlage&quot;im **Entitätsdatensatz**, der die Details der nicht personalisierten Nachrichtenvorlagen enthält. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, z. B.: wer die Nachricht gesendet hat, an wen und wann. Beachten Sie, dass personalisierte Daten nicht exportiert werden - es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
+* Darüber hinaus können Sie für alle Kanäle das Feld „Vorlage“ im **Entitätsdatensatz** verwenden, in dem die Details der nicht personalisierten Nachrichtenvorlagen enthalten sind. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, wie etwa die Personen, die die Nachricht gesendet und empfangen haben sowie den Zeitpunkt. Beachten Sie, dass personalisierte Daten nicht exportiert werden – es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] bietet keine Unterstützung für die SMS-Archivierungsanforderungen. Arbeiten Sie für dedizierte Archivierungsunterstützung mit Ihrem SMS-Anbieter (Synch oder Twilio) zusammen.
+>[!DNL Journey Optimizer] bietet keine Unterstützung für die Anforderung zur SMS-Archivierung. Arbeiten Sie für eine dedizierte Archivierungsunterstützung mit Ihrem SMS-Anbieter (Synch oder Twilio) zusammen.
 
-## Verwenden von BCC für E-Mails {#bcc-email}
+## So verwenden Sie BCC in E-Mails {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
@@ -48,7 +48,7 @@ Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Ad
 
 >[!NOTE]
 >
->Wenn Sie das Add-On-Angebot &quot;Healthcare Shield&quot;erworben haben, müssen Sie sicherstellen, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
+>Wenn Sie das Add-On-Angebot „Healthcare Shield“ erworben haben, müssen Sie sicherstellen, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
 
 ![](assets/preset-bcc.png)
 

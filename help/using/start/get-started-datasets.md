@@ -7,7 +7,7 @@ exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -37,20 +37,20 @@ Im Folgenden finden Sie die verschiedenen verfügbaren Datensätze:
 
 **Reporting**
 
-* _Reporting - Datensatz mit Nachrichten-Feedback-Ereignissen_: Versandlogs der Nachrichten. Informationen zu allen Nachrichtenbereitstellungen von Journey Optimizer für Berichterstattungs- und Segmenterstellungszwecke. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
-* _Reporting - E-Mail-Tracking-Erlebnisdatensatz_: Interaktionsprotokolle für den E-Mail-Kanal, der zur Berichterstellung und Segmenterstellung verwendet wird. Informationen, die gespeichert werden und Informationen zu Aktionen enthalten, die der Endbenutzer in E-Mails (Öffnungen, Klicks usw.) durchführt.
-* _Berichterstellung - Ereignis-Datensatz für Push-Tracking_: Interaktionsprotokolle für den Push-Kanal, der für Berichte- und Segmenterstellungszwecke verwendet wird. Gespeicherte Informationen zu Aktionen, die vom Endbenutzer bei Push-Benachrichtigungen ausgeführt werden.
-* _Berichterstellung - Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Diensten wie Reporting genutzt werden können. Auch für die Erstellung von Berichten im Customer Journey Analytics für YoY-Analysen wichtig. An Journey-Metadaten gebunden.
-* _Berichterstellung - Journey_: Informationen zum Metadaten-Datensatzgehäuse für jeden Schritt in einer Journey.
-* _Berichterstellung - BCC_: Feedback-Ereignis-Datensatz, in dem die Versandlogs für BCC-E-Mails gespeichert werden. Für Berichtszwecke.
+* _Reporting – Datensatz mit Nachrichten-Feedback-Ereignissen_: Versand-Logs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Segmenterstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
+* _Reporting – E-Mail-Tracking-Erlebnis-Ereignisdatensatz_: Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Segmenterstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen in Bezug auf E-Mails (Öffnungen, Klicks usw.).
+* _Reporting – Push-Tracking-Erlebnis-Ereignisdatensatz_: Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Segmenterstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen bei Push-Benachrichtigungen.
+* _Reporting – Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. Auch wichtig für die Erstellung von Berichten in Customer Journey Analytics für die Jahresanalyse. An Journey-Metadaten gebunden.
+* _Reporting – Journeys_: Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält.
+* _Reporting – BCC_: Feedback-Ereignis-Datensatz, in dem die Versand-Logs für BCC-E-Mails gespeichert werden. Wird zu Reporting-Zwecken verwendet.
 
 **Einverständnis**
 
-* _Datensatz des Zustimmungsdienstes_: speichert Einverständnisinformationen eines Profils.
+* _Einverständnis-Service-Datensatz_: speichert die Einverständnisinformationen eines Profils.
 
 **Intelligent Services**
 
-* _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabedaten von Journey AI.
+* _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabebewertungen der Journey-KI.
 
 ## Vorschau von Datensätzen{#preview-datasets}
 
@@ -79,7 +79,7 @@ Eine der Kernfunktionen von [!DNL Adobe Experience Platform] ist es, Daten aus v
 
 Mit [!DNL Adobe Experience Platform Data Governance] können Sie Kundendaten verwalten und bei der Verwendung von Daten die Einhaltung von relevanten Vorschriften, Einschränkungen und Richtlinien sicherstellen. Die Funktion spielt in Experience Platform auf verschiedenen Ebenen eine wichtige Rolle, wie z. B. bei Katalogisierung, Ermittlung der Datenherkunft, Datennutzungsbezeichnung, Datennutzungsrichtlinien und Steuerung der Nutzung von Daten für Marketing-Aktionen.
 
-Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden Sie in der Dokumentation zu [Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=de){target=&quot;&quot;_blank&quot;&quot;}.
+Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden Sie in der Dokumentation zu [Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Beispiele und Anwendungsfälle{#uc-datasets}
 

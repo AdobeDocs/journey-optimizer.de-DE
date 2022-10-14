@@ -9,7 +9,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
 source-wordcount: '1339'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ In diesem Abschnitt werden einige häufig verwendete Beispiele für die Abfrage 
 
 Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechenden Schema über zugeordnete Werte verfügen.
 
-**Was ist der Unterschied zwischen id, instanceid und profileId?**
+**Was ist der Unterschied zwischen ID, instanceID und profileID?**
 
-* id: eindeutig für alle Schrittereigniseinträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
-* instanceId: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceId verwendet. Diese neue instanceId ist für alle Schrittereignisse der neu eingegebenen Instanz gleich (von Anfang bis Ende).
-* profileID: die Identität des Profils, die dem Journey-Namespace entspricht.
+* ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
+* instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
+* profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 
 **Wie viele Profile in einem bestimmten Zeitrahmen auf eine Journey zugegriffen haben**
 
-Diese Abfrage gibt die Anzahl unterschiedlicher Profile an, die im angegebenen Zeitraum in die Journey eingegeben wurden.
+Diese Abfrage gibt die Anzahl eindeutigen Profile an, die im angegebenen Zeitraum in die Journey eingetreten sind.
 
 _Data-Lake-Abfrage_
 
@@ -41,7 +41,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Wie viele Fehler sind in einem bestimmten Zeitraum auf jedem Knoten einer bestimmten Journey aufgetreten?**
+**Wie viele Fehler sind in einem bestimmten Zeitraum an jedem Knoten einer bestimmten Journey aufgetreten**
 
 _Data-Lake-Abfrage_
 
@@ -63,7 +63,7 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Wie viele Ereignisse in einem bestimmten Zeitrahmen von einer bestimmten Journey verworfen wurden**
+**Wie viele Ereignisse wurden in einem bestimmten Zeitrahmen von einer bestimmten Journey verworfen**
 
 _Data-Lake-Abfrage_
 
@@ -75,11 +75,11 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Was geschieht mit einem bestimmten Profil in einer bestimmten Journey in einem bestimmten Zeitrahmen?**
+**Was geschieht mit einem bestimmten Profil in einer bestimmten Journey in einem bestimmten Zeitrahmen**
 
 _Data-Lake-Abfrage_
 
-Diese Abfrage gibt alle Schrittereignisse und Dienstereignisse für das angegebene Profil und die Journey für die angegebene Uhrzeit in chronologischer Reihenfolge zurück.
+Diese Abfrage gibt alle Schrittereignisse und Service-Ereignisse für das angegebene Profil und die Journey für die angegebene Uhrzeit in chronologischer Reihenfolge zurück.
 
 ```sql
 SELECT

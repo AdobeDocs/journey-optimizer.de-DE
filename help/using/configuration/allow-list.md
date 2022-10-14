@@ -9,7 +9,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -139,7 +139,7 @@ Gehen Sie dazu wie folgt vor.
 
    >[!NOTE]
    >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie  zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;blank&quot;}.
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -158,7 +158,7 @@ Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Exper
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Verwalten der Zulassungsliste"
->abstract="Wenn die Zulassungsliste aktiviert ist, erhalten nur die in der Zulassungsliste enthaltenen Empfänger E-Mail-Nachrichten von dieser Sandbox. Nach der Deaktivierung erhalten alle Empfänger E-Mails."
+>abstract="Wenn die Zulassungsliste aktiviert ist, erhalten nur die in der Zulassungsliste enthaltenen Empfänger E-Mail-Nachrichten von dieser Sandbox. Nach der Deaktivierung erhalten alle Empfängerinnen und Empfänger eine E-Mail."
 
 Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende Logik:
 

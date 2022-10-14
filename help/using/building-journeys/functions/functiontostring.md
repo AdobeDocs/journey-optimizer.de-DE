@@ -9,7 +9,7 @@ exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
 source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ Gibt „4“ zurück.
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-Gibt die Zeichenfolgendarstellung des angegebenen DatumsOnly-Felds (XDM Date-Feld) zurück, z. B. &quot;2016-08-18&quot;.
+Gibt die Zeichenfolgendarstellung des angegebenen dateOnly-Feldes (XDM-Datumsfeld) zurück, beispielsweise „2016-08-18“.

@@ -9,11 +9,11 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
-# Von Grund auf neu erstellen {#create-email-content}
+# Von Grund auf neu beginnen {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -43,18 +43,18 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Landingpage-Spalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Spalten für die Landingpage"
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Fragmentspalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Fragmentspalten"
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Vorlagenspalten definieren"
->abstract="Mit Email Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Definieren der Vorlagenspalten"
+>abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 
 Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.

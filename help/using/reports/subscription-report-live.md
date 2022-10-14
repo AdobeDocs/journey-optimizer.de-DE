@@ -9,7 +9,7 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Der **[!UICONTROL Live-Bericht]** zu Abonnements zeigt nur Details zur Aktivität Ihrer Abonnenten, die in den letzten 24 Stunden erfolgte. Messungen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im [globalen Bericht](subscription-report-global.md) zu Abonnements.
 
-Um auf Ihre Berichte zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Bericht]** Symbol Ihrer ausgewählten Abonnementliste.
+Um auf Ihre Berichte zuzugreifen, klicken Sie auf das Symbol **[!UICONTROL Bericht]** der von Ihnen gewählten Abonnementliste.
 
 ![](assets/subscription_report_7.png)
 

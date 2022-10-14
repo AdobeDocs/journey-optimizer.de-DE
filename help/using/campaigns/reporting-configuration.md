@@ -11,7 +11,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Auswählen eines Datensatzes"
->abstract="Sie können nur einen Datensatz vom Typ Ereignis auswählen, der mindestens eine der unterstützten Feldgruppen enthalten muss: Anwendungsdetails, Commerce-Details, Web-Details."
+>abstract="Sie können nur einen Ereignistyp-Datensatz auswählen, der mindestens eine der unterstützten Feldergruppen enthält: Anwendungsdetails, Commerce-Details, Web-Details."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 

@@ -9,7 +9,7 @@ exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 Der **[!UICONTROL globale Bericht]** zu Landingpages zeigt Details zur Wirkung Ihrer Landingpages über einen ausgewählten Zeitraum an. Wenn Sie Ihre Landingpage-Daten nur über die letzten 24 Stunden messen möchten, verwenden Sie den [Live-Bericht zu Landingpages](lp-report-live.md).
 
-Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü Ihrer ausgewählten Landingpage.
+Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
 ![](assets/landing_page_report.png)
 
@@ -25,7 +25,7 @@ Der **[!UICONTROL globale Bericht]** zu Landingpages ist in verschiedene Widgets
 
 ![](assets/landing_page_global.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den globalen Landingpage-Bericht verfügbar sind.
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den globalen Bericht zur Landingpage verfügbar sind.
 
 Die Widgets **[!UICONTROL Anzahl der Besuche]** und **[!UICONTROL Anzahl der Besuche im Zeitverlauf]** stellen die Wirkung Ihrer Landingpage über den ausgewählten Zeitraum mithilfe eines Diagramms und KPIs mit den folgenden Metriken dar:
 
@@ -62,4 +62,4 @@ Die Diagramme **[!UICONTROL Besuche nach Nachrichten]**/**[!UICONTROL Konversion
 Die Diagramme **[!UICONTROL Besuche nach Kanälen]**/**[!UICONTROL Konversionen nach Kanälen]** stellen die Gesamtzahl der Besuche und Personen dar, die in dem betreffenden Zeitraum je nach Kanal erfolgreich mit Ihrer Landingpage interagiert haben.
 +++
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](global-report.md#list-of-components-global).
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](global-report.md#list-of-components-global).
