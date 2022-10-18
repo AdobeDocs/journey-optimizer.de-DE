@@ -1,15 +1,17 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Unterdrückungsliste
-description: Erfahren Sie, was die Unterdrückungsliste ist, welchen Zweck sie hat und was darin enthalten ist.
+description: 'Erfahren Sie, wie Sie die Unterdrückungsliste wie folgt verwenden:'
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 98%
 
 ---
 
