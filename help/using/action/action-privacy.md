@@ -6,9 +6,9 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
-workflow-type: ht
-source-wordcount: '867'
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+workflow-type: tm+mt
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,12 @@ Mit dem Governance-Framework Data Usage Labeling and Enforcement (DULE) kann Jou
 Adobe Experience Platform ermöglicht es Ihnen, Ihre Felder zu bezeichnen und Marketing-Aktionen für jeden Kanal zu erstellen. Anschließend definieren Sie eine Governance-Richtlinie, die mit einer Bezeichnung und einer Marketing-Aktion verknüpft ist.
 
 In Journey Optimizer können Sie diese Richtlinien auf benutzerdefinierte Aktionen anwenden, um zu verhindern, dass bestimmte Felder in Systeme von Drittanbietern exportiert werden.
+
+Weitere Informationen zum Data Governance-Framework und zum Arbeiten mit Bezeichnungen und Richtlinien finden Sie in der Adobe Experience Platform-Dokumentation:
+
+* [Data Governance-Service – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de)
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de)
+* [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de)
 
 ## Wichtige Hinweise {#important-notes}
 

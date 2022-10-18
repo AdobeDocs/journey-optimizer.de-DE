@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 82%
 
 ---
 
@@ -311,7 +311,17 @@ Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an den Endb
 
 Das zugehörige Schema ist das AJO-Entitätsschema.
 
-Mit diesem Datensatz können Sie verschiedene Datensätze mit wichtigen vermarktungsfreundlichen Metadaten anreichern. Das Attribut messageID hilft bei der Zuordnung verschiedener Datensätze wie dem Nachrichten-Feedback-Datensatz und Erlebnisereignis-Tracking-Datensätze, um Details zu einem Nachrichtenversand vom Versand bis zum Tracking auf Profilebene zu erhalten.
+Mit diesem Datensatz erhalten Sie Zugriff auf vom Marketingexperten definierte Metadaten, mit denen Sie bessere Einblicke in die Berichterstellung erhalten, wenn Journey Optimizer-Datensätze zur Visualisierung von Berichten in externen Tools exportiert werden. Dies wird mithilfe des Attributs messageID erreicht, das verschiedene Datensätze wie den Nachrichten-Feedback-Datensatz und die Tracking-Datensätze zu Erlebnisereignissen zuordnet, um Details zu einem Nachrichtenversand vom Senden an das Tracking auf Profilebene zu erhalten.
+
+**Wichtige Hinweise**
+
+* Ein Eintrag für eine Nachricht wird erst nach der Veröffentlichung von Journey oder Kampagne erstellt.
+
+* Sie können den Eintrag 30 Minuten nach der Veröffentlichung der Kampagne/Journey sehen.
+
+>[!NOTE]
+>
+>Derzeit gibt es aus Kompatibilitätsgründen zwei Einträge für jede Nachrichtenveröffentlichung im Entitäts-Datensatz. Dies wirkt sich nicht auf Ihre Fähigkeit aus, bei Bedarf Join-Abfragen für Datensätze zu verwenden, um die gewünschten Informationen abzurufen.
 
 Mit der folgenden Abfrage können Sie die zugehörige Nachrichtenvorlage für eine bestimmte Kampagne abrufen:
 
