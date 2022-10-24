@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
-      + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
-      + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
-      + [Senden von Nachrichten an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Anwendungsfälle für Unternehmen {#business-use-cases}
+         + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
+         + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+      + Technische Anwendungsfälle {#technical-use-cases}
+         + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+         + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
