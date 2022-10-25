@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 95%
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,13 @@ ht-degree: 95%
    + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
    + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
    + [Prüfen von Warnhinweisen](using/messages/alerts.md)
-   + [Versandzeitpunkt optimieren](using/messages/send-time-optimization.md)
+   + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
++ Webkanal{#web}
+   + [Erste Schritte mit dem Webkanal](using/web/get-started-web.md)
+   + [Weberfahrungen erstellen](using/web/create-web.md)
+   + [Autoren-Webseiten](using/web/author-web.md)
+   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
+   + [Webberichte](using/web/web-report.md)
 + Inhaltserstellung {#design}
    + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
    + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
