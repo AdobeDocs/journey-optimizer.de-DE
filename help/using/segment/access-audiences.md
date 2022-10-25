@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Zielgruppen aufrufen und verwalten
+title: Zugreifen auf und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen aufrufen und verwalten können.
 feature: Journeys
 topic: Content Management
@@ -12,12 +12,12 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 10%
+ht-degree: 23%
 
 ---
 
 
-# Zielgruppen aufrufen und verwalten {#access-manage-audiences}
+# Zugreifen auf und Verwalten von Audiences {#access-manage-audiences}
 
 Auf Zielgruppen kann über die **[!UICONTROL Zielgruppen]** im **[!UICONTROL Segmente]** Menü.
 
@@ -43,6 +43,6 @@ Um einer Zielgruppe benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzu
 
 Weitere Infos:
 
-* [Erste Schritte mit der Komposition von Zielgruppen](get-started-audience-orchestration.md)
-* [Erstellen von Komposition-Workflows](create-compositions.md)
+* [Erste Schritte mit dem Erstellen von Audiences](get-started-audience-orchestration.md)
+* [Erstellen von Kompositions-Workflows](create-compositions.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)

@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 81%
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten an die mobilen Gerät
 
 >[!NOTE]
 >
->In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit für die Empfänger enthalten, sich einfach abzumelden. Zu diesem Zweck können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten. [Erfahren Sie, wie Sie das Opt-out verwalten](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten. [Erfahren Sie, wie Sie das Opt-out verwalten](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 SMS-Versand-Erstellung möglich:
 

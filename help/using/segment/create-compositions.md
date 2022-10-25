@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von Komposition-Workflows
+title: Erstellen von Kompositions-Workflows
 description: Erfahren Sie, wie Sie Workflows für die Komposition erstellen, um bestehende Zielgruppen zu kombinieren und anzuordnen.
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Erstellen von Komposition-Workflows {#create-compositions}
+# Erstellen von Kompositions-Workflows {#create-compositions}
 
 Mit Komposition-Workflows können Sie bestehende Audiences kombinieren und anordnen, um neue Zielgruppen zu erstellen.
 
@@ -80,6 +80,6 @@ Alle erstellten Kompositionen können über die **[!UICONTROL Kompositionen]** R
 
 Weitere Infos:
 
-* [Erste Schritte mit der Komposition von Zielgruppen](get-started-audience-orchestration.md)
+* [Erste Schritte mit dem Erstellen von Audiences](get-started-audience-orchestration.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zielgruppen aufrufen und verwalten](access-audiences.md)
+* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)

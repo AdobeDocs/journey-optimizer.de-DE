@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dynamischen Inhalt erstellen
+title: Erstellen dynamischer Inhalte
 description: Erfahren Sie, wie Sie Ihren Nachrichten dynamische Inhalte hinzufügen können.
 feature: Personalization
 topic: Personalization
@@ -10,12 +10,12 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 
-# Dynamischen Inhalt erstellen {#dynamic-content}
+# Erstellen dynamischer Inhalte {#dynamic-content}
 
 Mit Adobe Journey Optimizer können Sie bedingte Regeln nutzen, die in der Bibliothek erstellt wurden, um Ihren Nachrichten dynamische Inhalte hinzuzufügen.
 

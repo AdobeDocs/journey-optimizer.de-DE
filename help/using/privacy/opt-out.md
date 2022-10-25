@@ -11,7 +11,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -213,14 +213,14 @@ Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen
 
 ## SMS-Opt-out-Verwaltung {#sms-opt-out-management}
 
-In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit für die Empfänger enthalten, sich einfach abzumelden. Nach der Abmeldung werden die Profile automatisch aus der Zielgruppe künftiger Marketing-Nachrichten entfernt.
+In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Nach der Kündigung des Abos werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
 >[!NOTE]
 >
 >Für Transaktionsnachrichten ist das Hinzufügen eines Links zum Abmelden nicht erforderlich.
 
-Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Schlüsselwörter: **START**, **STOP** und **UNSTOP**. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
+Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Keywords: **START**, **STOP** und **UNSTOP**. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
 
-Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stopp und Unstop) für SMS finden Sie im folgenden Video:
+Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stop und Unstop) für SMS finden Sie im folgenden Video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

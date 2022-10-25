@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -35,14 +35,14 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Dynamischer Inhalt und neuer bedingter Regel-Builder</strong><br/></th>
+<th><strong>Dynamischer Inhalt und neuer Builder für bedingte Regeln</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt dynamischen Inhalt erstellen, um den Inhalt Ihrer Nachrichten basierend auf bedingten Regeln anzupassen.</p> 
-<p>Bedingte Regeln werden mit einem visuellen Regel-Builder im Ausdruckseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journey und Kampagnen speichern können.</p>
+<p>Sie können jetzt dynamische Inhalte erstellen, um den Inhalt Ihrer Nachrichten basierend auf bedingten Regeln anzupassen.</p> 
+<p>Bedingte Regeln werden mit einem Builder für visuelle Regeln im Ausdruckseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journeys und Kampagnen speichern können.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../personalization/get-started-dynamic-content.md">detaillierten Dokumentation</a>.
 </td>

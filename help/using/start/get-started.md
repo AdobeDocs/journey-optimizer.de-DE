@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Die wichtigsten Funktionen ermöglichen Folgendes:
 
 ## Architektur {#architecture}
 
-Grundlegende Architektur von [!DNL Adobe Journey Optimizer], die Integrationspunkte und die Beziehung zwischen [!DNL Journey Optimizer] und [!DNL Experience Platform], in der Abbildung unten.
+Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL Adobe Journey Optimizer], die Integrationspunkte und die Beziehung zwischen [!DNL Journey Optimizer] und [!DNL Experience Platform].
 
 ![](assets/ajo-architecture.png)
 

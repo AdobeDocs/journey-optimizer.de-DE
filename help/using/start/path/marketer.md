@@ -8,7 +8,7 @@ exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
 1. **Segmente erstellen**. Mit Journey Optimizer können Sie Audience-Segmente direkt im Menü **Segmente** erstellen und in Ihren Journeys nutzen.  Weitere Informationen zu Segmenten finden Sie [auf dieser Seite](../../segment/about-segments.md). Erfahren Sie [in diesem Beispiel](../../segment/creating-a-segment.md), wie Sie Segmente erstellen.
 
-1. **Personalisierung und dynamischen Inhalt hinzufügen**. Nutzen Sie Personalisierungs- und dynamische Inhaltsfunktionen von Journey Optimizer, um Ihre Nachricht an Ihre Zielgruppe anzupassen. Weitere Informationen [Personalisierung](../../personalization/personalize.md) und [dynamischer Inhalt](../../personalization/get-started-dynamic-content.md).
+1. **Hinzufügen von Personalisierung und dynamischen Inhalten**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Botschaft an Ihre Audience anzupassen. Erhalten Sie weitere Informationen über [Personalisierung](../../personalization/personalize.md) und [dynamische Inhalte](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 

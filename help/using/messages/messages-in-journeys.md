@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="Kanaloberfläche"
 >abstract="Eine Kanaloberfläche ist eine Instanz des betreffenden Kanals, die über alle nötigen Einstellungen verfügt, um eine Aktion erfolgreich über eine Kampagne oder eine Journey bereitzustellen. Sie wird von Systemadmins definiert."
 
-Verwenden Sie in Ihren Journeys die Kanalaktionen, um die Nachricht, die Sie an Ihre Audience senden möchten, zu gestalten und zu personalisieren. Wenn Sie eine E-Mail, eine SMS oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
+Verwenden Sie in Ihren Journeys die Kanalaktionen, um die Nachricht, die Sie an Ihre Audience senden möchten, zu gestalten und zu personalisieren. Wenn Sie eine E-Mail-, eine SMS- oder eine Push-Aktion zur Journey-Arbeitsfläche hinzufügen, erstellen Sie einen ausgelösten Versand. Wenn Kontakte diese Kanalaktion erreichen, sendet Adobe Journey Optimizer die Nachricht automatisch.
 
 
 >[!NOTE]
 >Sie können auch Kampagnen erstellen, um geplante Nachrichten zu senden. Weiterführende Informationen finden Sie [in diesem Abschnitt](../campaigns/get-started-with-campaigns.md).
 
 
-Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder E-Mail-Aktivität auf der Arbeitsfläche Journey hinzu.
+Um Nachrichten in eine Journey einzufügen, fügen Sie eine Push-, SMS- oder E-Mail-Aktivität in die Journey-Arbeitsfläche ein.
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](../building-journeys/general-events.md) oder einer Aktivität vom Typ [Segment lesen](../building-journeys/read-segment.md).
 
@@ -52,7 +52,7 @@ Um Nachrichten auf einer Journey hinzuzufügen, fügen Sie eine Push-, SMS- oder
    >
    >* Wenn Sie [Häufigkeitsregeln](../configuration/frequency-rules.md) für einen bestimmten Kanal und eine bestimmte Kategorie festgelegt haben, werden diese bei der Auswahl des Kanals und der Kategorie automatisch auf die Nachricht angewendet. Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln verfügbar.
    >
-   >* Marketing-Nachrichten müssen Folgendes enthalten: [Ausschluss-Link](../privacy/opt-out.md#opt-out-management). Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
+   >* Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten. Dies ist für Transaktionsnachrichten nicht erforderlich, da diese Nachrichten an Profile gesendet werden können, die sich von Marketing-Nachrichten abgemeldet haben.
 
 
 1. Wählen Sie die **[!UICONTROL Kanaloberfläche]** (d. h. Nachrichtenvoreinstellung), die zum Senden Ihrer Nachricht verwendet werden soll.
@@ -124,7 +124,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Geben Sie **Strg+V** ein, um die Nachricht einzufügen.
 
-   Die Nachricht wird der Arbeitsfläche des Journey hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
+   Die Nachricht wird der Journey-Arbeitsfläche hinzugefügt. Alle Einstellungen und Konfigurationen werden für die neue Nachricht übernommen.
 
    ![](assets/message-duplicated.png)
 

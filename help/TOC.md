@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 94%
       + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
    + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
    + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-+ Personalisierung und dynamischer Inhalt {#personalized-dynamic-content}
++ Personalisierung und dynamische Inhalte {#personalized-dynamic-content}
    + Personalisierung {#personalization}
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
@@ -117,8 +117,8 @@ ht-degree: 94%
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
    + Dynamische Inhalte {#dynamic}
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
-      + [Bedingte Regeln erstellen](using/personalization/create-conditions.md)
-      + [Dynamischen Inhalt erstellen](using/personalization/dynamic-content.md)
+      + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
+      + [Erstellen dynamischer Inhalte](using/personalization/dynamic-content.md)
 + Segmente, Profile und Identität{#segment}
    + Segmente {#segments}
       + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
@@ -127,11 +127,11 @@ ht-degree: 94%
       + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
    + [Identitäten](using/segment/get-started-identity.md)
-   + Erstellen von Zielgruppen {#audience-orchestration}
-      + [Erste Schritte mit der Komposition von Zielgruppen](using/segment/get-started-audience-orchestration.md)
-      + [Erstellen von Komposition-Workflows](using/segment/create-compositions.md)
+   + Erstellen von Audiences {#audience-orchestration}
+      + [Erste Schritte mit dem Erstellen von Audiences](using/segment/get-started-audience-orchestration.md)
+      + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
       + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
-      + [Zielgruppen aufrufen und verwalten](using/segment/access-audiences.md)
+      + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
    + [Lizenznutzung](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}

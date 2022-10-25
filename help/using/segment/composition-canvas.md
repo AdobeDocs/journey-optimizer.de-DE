@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -181,6 +181,6 @@ Sobald Ihre Komposition fertig ist, können Sie sie veröffentlichen. [Erfahren 
 
 Weitere Infos:
 
-* [Erste Schritte mit der Komposition von Zielgruppen](get-started-audience-orchestration.md)
-* [Erstellen von Komposition-Workflows](create-compositions.md)
-* [Zielgruppen aufrufen und verwalten](access-audiences.md)
+* [Erste Schritte mit dem Erstellen von Audiences](get-started-audience-orchestration.md)
+* [Erstellen von Kompositions-Workflows](create-compositions.md)
+* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)

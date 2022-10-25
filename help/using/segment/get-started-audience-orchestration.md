@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Komposition von Zielgruppen
+title: Erste Schritte mit dem Erstellen von Audiences
 description: Weitere Informationen zur Komposition von Zielgruppen
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
-# Erste Schritte mit der Komposition von Zielgruppen {#get-start-audience-composition}
+# Erste Schritte mit dem Erstellen von Audiences {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ Auf die Zielgruppenzusammensetzung kann über die **[!UICONTROL Segmente]** Men�
 
 Weitere Infos:
 
-* [Erstellen von Komposition-Workflows](create-compositions.md)
+* [Erstellen von Kompositions-Workflows](create-compositions.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zielgruppen aufrufen und verwalten](access-audiences.md)
+* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
