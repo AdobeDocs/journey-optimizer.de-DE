@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ Um eine Briefpost-Nachricht zu senden, müssen Sie eine Datei erstellen und auf 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Einstellungen der Dateirouting-Konfiguration"
->abstract="Sie müssen definieren, wo die Datei exportiert und hochgeladen werden soll, damit Ihr Briefpost-Dienstleister sie verwenden kann."
+>abstract="Bei der Erstellung der Briefpost-Nachricht generieren Sie die Datei, die alle erforderlichen Profilinformationen enthält. Diese Datei muss exportiert und auf einen Server hochgeladen werden, damit Ihr Briefpost-Dienstleister auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Definieren der Einstellungen der Dateirouting-Konfiguration"
->abstract="Bei der Erstellung der Briefpost-Nachricht generieren Sie die Datei, die alle erforderlichen Profilinformationen enthält. Diese Datei muss exportiert und auf einen Server hochgeladen werden, damit Ihr Briefpost-Dienstleister auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
+>abstract="Sie müssen definieren, wo die Datei exportiert und hochgeladen werden soll, damit Ihr Briefpost-Dienstleister sie verwenden kann."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ Um eine Briefpost-Nachricht zu senden, müssen Sie eine Datei erstellen und auf 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Wählen Sie den Servertyp für Ihr Datei-Routing aus."
->abstract="Wählen Sie den Server aus, den Sie zum Hochladen und Speichern der Briefpost-Dateien verwenden möchten."
+>abstract="Wählen Sie den Server aus, den Sie zum Hochladen und Speichern der Briefpost-Dateien verwenden möchten. Derzeit werden nur Amazon S3 und SFTP unterstützt."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS-Region auswählen"
->abstract="Wählen Sie den Server aus, den Sie zum Hochladen und Speichern der Briefpost-Dateien verwenden möchten. Derzeit werden nur Amazon S3 und SFTP unterstützt."
+>abstract="Wählen Sie die geografische Region aus, in die Sie Ihre Briefpostdateien exportieren und hochladen möchten. Für eine optimale Nutzung wird empfohlen, die nächstgelegene Region für das Hosten Ihrer Cloud-Infrastruktur auszuwählen."
 
 1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Konfiguration der Dateiweiterleitung]** > **[!UICONTROL Datei-Routing]** Menü und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
@@ -55,7 +55,7 @@ Um eine Briefpost-Nachricht zu senden, müssen Sie eine Datei erstellen und auf 
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
-1. Wählen Sie die Konfiguration aus **[!UICONTROL Typ]**, d. h. der Server, den Sie zum Hochladen und Speichern der Briefpost-Dateien verwenden möchten.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Wählen Sie die Konfiguration aus **[!UICONTROL Servertyp]**, d. h. der Server, den Sie zum Hochladen und Speichern der Briefpost-Dateien verwenden möchten.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ Um eine Briefpost-Nachricht zu senden, müssen Sie eine Datei erstellen und auf 
 
    Bei der Erstellung der Briefpost-Nachricht generieren Sie die Datei, die alle erforderlichen Profilinformationen enthält. Diese Datei muss exportiert und auf einen Server hochgeladen werden, damit Ihr Briefpost-Dienstleister auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann.
 
-1. Füllen Sie die Details und Anmeldeinformationen aus, die für den ausgewählten Konfigurationstyp spezifisch sind, z. B. Serveradresse, Zugriffsschlüssel usw. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. Füllen Sie die Details und Anmeldeinformationen aus, die für den ausgewählten Konfigurationstyp spezifisch sind, z. B. Serveradresse, Zugriffsschlüssel usw.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ Um eine Briefpost-Nachricht zu senden, müssen Sie eine Datei erstellen und auf 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Briefpost-Einstellungen definieren"
->abstract="Eine Briefpost-Oberfläche enthält die Einstellungen für die Formatierung der Datei mit Profildaten für Briefpost. Sie können (die Sortierkonfiguration definieren), doppelte Zeilen entfernen, Datensätze in mehrere Dateien aufteilen und die Konfiguration der Dateiweiterleitung auswählen."
+>abstract="Eine Briefpost-Oberfläche enthält die Einstellungen für die Formatierung der Datei mit Profildaten für Briefpost. Sie müssen auch festlegen, wo die Datei exportiert werden soll, indem Sie die Konfiguration für das Datei-Routing auswählen."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="Sortierreihenfolge definieren"
->abstract="Wenn Sie diese Option auswählen, wird die Sortierung nach Profil-ID (aufsteigend oder absteigend) vorgenommen. Wenn Sie die Auswahl aufheben, wird die beim Erstellen der Briefpost-Nachricht in einer Journey oder Kampagne definierte Sortierkonfiguration verwendet."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ Nachdem das Datei-Routing konfiguriert wurde, müssen Sie eine Kanaloberfläche 
    >
    >Sie können eine beliebige Zahl zwischen 1 und 200.000 Datensätzen festlegen, d. h. jede Datei muss mindestens 1 Zeile und höchstens 200.000 Zeilen enthalten.
 
-1. Wählen Sie abschließend die [Dateirouting-Konfiguration](#file-routing-configuration) unter den von Ihnen erstellten. Dadurch wird definiert, wo die Datei exportiert und hochgeladen wird, damit sie von Ihrem Briefpost-Dienstleister verwendet werden kann.
+1. Wählen Sie abschließend die **[!UICONTROL Konfiguration der Dateiweiterleitung]** unter den von Ihnen erstellten. Dadurch wird definiert, wo die Datei exportiert und hochgeladen wird, damit sie von Ihrem Briefpost-Dienstleister verwendet werden kann.
 
    >[!CAUTION]
    >

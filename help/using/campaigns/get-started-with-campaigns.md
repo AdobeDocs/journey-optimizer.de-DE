@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,9 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 
-Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt. Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
+Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt.
+
+Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ Kampagnen können mehrere Status aufweisen:
 * **[!UICONTROL Wird aktiviert]**: Die Kampagne wird aktiviert.
 * **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
 * **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
-* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Weitere Informationen](modify-stop-campaign.md#stop)
+* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)
 * **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
-* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert.
+* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Erfahren Sie, wie Sie Kampagnen archivieren](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

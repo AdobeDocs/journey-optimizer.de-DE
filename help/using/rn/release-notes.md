@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 **Journeys**
 
 * Die **Wiedereintritt erzwingen bei Wiederholung** wurde unter Planparametern für wiederkehrende Lesesegmente hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beenden. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Kampagnen**
+
+* Sie können jetzt abgeschlossene und gestoppte Kampagnen archivieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#archive)
 
 ## Version September 2022{#sept-2022-release}
 
