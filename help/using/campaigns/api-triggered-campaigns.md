@@ -4,7 +4,7 @@ product: journey optimizer
 title: Auslösen von Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit einer  [!DNL Journey Optimizer] API Kampagnen auslösen können.
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 92%
@@ -76,6 +76,7 @@ Die Syntax `{{context.<contextualAttribute>}}` ist nur einem Zeichenfolgen-Daten
 >[!IMPORTANT]
 >
 >Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextbezogenen Attributen verwendet werden.
+
 Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextbezogenes Attribut verfügbar ist. Attribute müssen direkt in Ihren Personalisierungsausdruck eingegeben werden, ohne dass eine Überprüfung durch [!DNL Journey Optimizer] durchgeführt wird.
 
 ## Ausführen der Kampagne {#execute}

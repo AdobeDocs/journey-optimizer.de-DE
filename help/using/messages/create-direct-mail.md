@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 9%
@@ -30,6 +30,7 @@ Briefpost-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden.
 >[!IMPORTANT]
 >
 >Bevor Sie eine Briefpost senden, stellen Sie sicher, dass Sie Folgendes konfiguriert haben:
+>
 >* A [Dateirouting-Konfiguration](../configuration/direct-mail-configuration.md#file-routing-configuration) , der den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
 >* A [Oberfläche für Briefpost-Nachrichten](../configuration/direct-mail-configuration.md#direct-mail-surface) , die auf die Dateirouting-Konfiguration verweist.
 

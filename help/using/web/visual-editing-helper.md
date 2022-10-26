@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 13%
+source-wordcount: '400'
+ht-degree: 15%
 
 ---
 
@@ -26,7 +26,7 @@ Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können
 
 Gehen Sie wie folgt vor, um die Browsererweiterung Visual Editing Helper abzurufen und zu installieren.
 
-1. Navigieren Sie im Google Chrome Web Store zum [Adobe Experience Cloud Visual Editing Helper ]((https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}) Browsererweiterung.
+1. Navigieren Sie im Google Chrome Web Store zum [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} Browsererweiterung.
 
 1. Klicken Sie auf **[!UICONTROL Zu Chrome hinzufügen]** > **[!UICONTROL Erweiterung hinzufügen]**.
 

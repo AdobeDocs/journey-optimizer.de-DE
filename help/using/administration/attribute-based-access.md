@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Beachten Sie, dass der Zugriff auf **[!UICONTROL Rollen]**, **[!UICONTROL Richtl
 >Bevor Sie Berechtigungen für eine Rolle verwalten, müssen Sie zunächst eine Richtlinie erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=de).
 
 **[!UICONTROL Rollen]** sind eine Gruppe von Benutzern, die innerhalb Ihrer Organisation dieselben Berechtigungen, Titel und Sandboxes verwenden. Jeder Benutzer, der einer **[!UICONTROL Rolle]** angehört, hat die Berechtigung für die Adobe-Programme und -Services, die im Produkt enthalten sind.
-Sie können auch eigene **[!UICONTROL Rollen]** erstellen, wenn Sie den Zugriff Ihrer Benutzer auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche präziser definieren möchten.
+Sie können auch Ihre eigenen **[!UICONTROL Rollen]** , wenn Sie den Zugriff Ihrer Benutzer auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche optimieren möchten.
 
 Wir möchten ausgewählten Benutzern nun Zugriff auf das Feld **Staatsangehörigkeit** mit dem Titel „C2“ gewähren. Dazu müssen wir eine neue **[!UICONTROL Rolle]** mit einer bestimmten Benutzergruppe erstellen und ihr den Titel „C2“ zuweisen, sodass sie die **Staatsangehörigkeits**-Details in einer **[!UICONTROL Journey]** verwenden kann.
 
@@ -127,7 +127,7 @@ In unserem Beispiel erstellt ein erster Benutzer X mit Zugriff auf Objekte mit 
 
    ![](assets/journey_1.png)
 
-1. Fügen Sie eine neue **[!UICONTROL Feldergruppe]** Ihres neu erstellten **[!UICONTROL Schemas]** zur integrierten **[!UICONTROL Datenquelle]** hinzu. Sie können auch eine neue externe **[!UICONTROLDDatenquelle]** und zugehörige **[!UICONTROL Feldergruppen]** erstellen.
+1. Fügen Sie eine neue **[!UICONTROL Feldergruppe]** Ihres neu erstellten **[!UICONTROL Schemas]** zur integrierten **[!UICONTROL Datenquelle]** hinzu. Sie können auch eine neue externe **[!UICONTROL Datenquelle]** und zugehörige **[!UICONTROL Feldergruppen]** erstellen.
 
    ![](assets/journey_2.png)
 

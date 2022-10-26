@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entspre
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen:
 
-### Szenario mit angezeigtem Angebot
+## Szenario mit angezeigtem Angebot
 
 **Ereignistyp:** `decisioning.propositionDisplay`
 **Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
@@ -49,8 +49,8 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
                     "xdm:id": "personalized-offer:f67bab756ed6ee5",
                 }
             ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
         }
     ]
 }

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,9 @@ Wenn Sie bereits ausgehende Kanäle wie E-Mail, SMS oder Push-Benachrichtigungen
 
 Über eine intuitive visuelle Benutzeroberfläche können Sie mit dieser Funktion Ihre Webeigenschaften einfach ändern, um Ihre Endbenutzerkampagnen zu testen, zu optimieren und zu personalisieren.
 
-<!-->
-➡️ [Weitere Informationen zum Webkanal finden Sie in diesem Video .](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ Wenn Sie bereits ausgehende Kanäle wie E-Mail, SMS oder Push-Benachrichtigungen
 </tr>
 </table>
 
-<!-->
-## Anleitungsvideo{#video}
+<!--
+## How-to video{#video}
 
-Im folgenden Video erfahren Sie, wie Sie
+The video below shows how to 
 
 >[!VIDEO]()
-—>
+-->
