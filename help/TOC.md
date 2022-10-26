@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 97%
+source-wordcount: '1242'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 97%
    + [Autoren-Webseiten](using/web/author-web.md)
    + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
    + [Webberichte](using/web/web-report.md)
++ In-App-Kanal{#in-app}
+   + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
+   + [In-App-Kanal konfigurieren](using/in-app/inapp-configuration.md)
+   + [In-App-Nachricht erstellen](using/in-app/create-in-app.md)
+   + [Erstellen von In-App-Inhalten](using/in-app/design-in-app.md)
+   + [In-App-Bericht](using/in-app/inapp-report.md)
 + Inhaltserstellung {#design}
    + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
    + [Von Grund auf neu beginnen ](using/design/create-email-content.md)

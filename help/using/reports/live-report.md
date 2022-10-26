@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 100%
 
 ---
@@ -228,25 +228,13 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <td>Bounces<br/> </td> 
    <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
 </tr>
- <tr> 
-   <td>Bounce-Rate<br/> </td> 
-   <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>Klicks<br/> </td> 
    <td>Anzahl der Klicks auf einen Inhalt der Landingpage.<br/> </td> 
 </tr>
- <tr> 
-   <td>Klickrate<br/> </td> 
-   <td>Prozentsatz der Klicks auf der Landingpage.<br/> </td>
-</tr>
 <tr>
 <td>Konversion<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
-</tr>
-<tr>
-   <td>Konversionsrate<br/> </td> 
    <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
+### Metriken zu Push-Benachrichtigungen             {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Aktionen<br/> </td> 
+   <td> Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, beispielsweise Klicken auf eine Schaltfläche oder Abbrechen.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Bounces<br/> </td> 
+   <td> Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Zugestellt<br/> </td> 
+   <td> Anzahl der erfolgreich versendeten Nachrichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Interaktionen<br/> </td> 
+   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Benachrichtigung geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Fehler<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Ausgeschlossen<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Öffnungen<br/> </td> 
+   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Gesendet<br/> </td> 
+   <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Zielgruppe<br/> </td> 
+   <td> Gesamtzahl der Push-Nachrichten, die während der Versandanalyse verarbeitet wurden.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

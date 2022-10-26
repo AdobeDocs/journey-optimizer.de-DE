@@ -7,10 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Für 
 
 ![](assets/alerts1.png)
 
-Tritt ein solches unerwartetes Verhalten auf, wird eine Warnmeldung an Abonnenten von Warnhinweisen per E-Mail gesendet und als In-App-Benachrichtigung in der oberen rechten Ecke der Benutzeroberfläche angezeigt.
+Tritt ein solches unerwartetes Verhalten auf, wird den Abonnenten des Warnhinweises per E-Mail oben rechts in der Benutzeroberfläche eine Warnmeldung gesendet.
 
 ![](assets/alerts2.png)
 

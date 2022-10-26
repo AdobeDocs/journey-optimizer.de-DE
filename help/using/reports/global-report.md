@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1441'
 ht-degree: 100%
 
 ---
@@ -433,3 +433,105 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
+### Metriken zu Push-Benachrichtigungen             {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrik<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Aktionen<br/> </td> 
+   <td> Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, beispielsweise Klicken auf eine Schaltfläche oder Abbrechen.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Bounces<br/> </td> 
+   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Bounce-Rate<br/> </td> 
+   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td>
+</tr>
+  <tr> 
+   <td> Zugestellt<br/> </td> 
+   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Zustellungsrate<br/> </td> 
+   <td> Anzahl der erfolgreich gesendeten Push-Benachrichtigungen.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Interaktionen<br/> </td> 
+   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Benachrichtigung geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Interaktionsrate<br/> </td> 
+   <td> Prozentualer Anteil der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Nachricht geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Fehler<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Fehlerrate<br/> </td> 
+   <td> Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Ausgeschlossen<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Öffnungen<br/> </td> 
+   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Öffnungsrate<br/> </td> 
+   <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Gesendet<br/> </td> 
+   <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Zielgruppe<br/> </td> 
+   <td> Gesamtzahl der Push-Nachrichten, die während der Versandanalyse verarbeitet wurden.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->
