@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 18%
 
 ---
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht zu erstellen:
    1. Wählen Sie aus der linken Dropdown-Liste das Ereignis aus, das zum Trigger der Nachricht erforderlich ist.
    1. Wählen Sie aus der rechten Dropdown-Liste die für das ausgewählte Ereignis erforderliche Validierung aus.
    1. Klicken Sie auf **[!UICONTROL Hinzufügen]** -Schaltfläche, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt. Wiederholen Sie dann die obigen Schritte.
-   1. Wählen Sie aus, wie Ihre Ereignisse verknüpft werden sollen, z. B. **[!UICONTROL und]** wenn Sie möchten **both** Trigger müssen &quot;true&quot;sein, damit eine Nachricht angezeigt wird, und **[!UICONTROL Oder]** wenn die Nachricht angezeigt werden soll, wenn **entweder** der Trigger sind wahr.
+   1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL und]** wenn Sie möchten **both** Trigger müssen &quot;true&quot;sein, damit eine Nachricht angezeigt wird, oder Sie können **[!UICONTROL Oder]** wenn die Nachricht angezeigt werden soll, wenn **entweder** der Trigger sind wahr.
 
    ![](assets/in_app_create_3.png)
 
