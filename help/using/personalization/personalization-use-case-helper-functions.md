@@ -52,7 +52,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
@@ -104,7 +104,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
+      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
@@ -151,6 +151,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
+
       In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -164,6 +165,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
 1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
 
    ```html
@@ -202,6 +204,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       </table>
    {{/each}}
    ```
+
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
    ![](assets/personalization-uc-helpers-11.png)
 
@@ -225,6 +228,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Entfernen Sie diese Bedingung aus dem Ausdruck:
@@ -258,6 +262,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Ändern Sie den Ausdruck:
@@ -288,6 +293,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
          {%else%} default_render
       {%/if%}
       ```
+
    1. Entfernen Sie den Platzhalter „default_render“ aus dem Ausdruck.
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
