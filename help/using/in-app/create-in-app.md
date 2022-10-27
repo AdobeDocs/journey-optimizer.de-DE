@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 25%
+source-wordcount: '604'
+ht-degree: 18%
 
 ---
 
@@ -43,9 +43,18 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht zu erstellen:
 
 1. Wählen Sie die Häufigkeit Ihres Triggers aus, wenn Ihre In-App-Nachricht aktiv ist:
 
-   * **[!UICONTROL Jedes Mal anzeigen]**
-   * **[!UICONTROL Einmal anzeigen]**
-   * **[!UICONTROL Anzeigen bis zum Clickthrough]**
+   * **[!UICONTROL Jedes Mal anzeigen]**: Zeigt immer die Nachricht an, wenn die Ereignisse im **[!UICONTROL App-Trigger]** angezeigt.
+   * **[!UICONTROL Einmal anzeigen]**: Zeigen Sie diese Nachricht nur zum ersten Mal an, wenn die in der **[!UICONTROL App-Trigger]** angezeigt.
+   * **[!UICONTROL Anzeigen bis zum Clickthrough]**: Diese Meldung anzeigen, wenn die Ereignisse im **[!UICONTROL App-Trigger]** Dropdown-Liste wird angezeigt, bis das SDK ein Interaktionsereignis mit der Aktion &quot;angeklickt&quot;sendet.
+
+1. Aus dem **[!UICONTROL App-Trigger]** Dropdown-Liste), wählen Sie die Ereignisse und Kriterien aus, die auf Ihre Nachricht Trigger werden sollen:
+
+   1. Wählen Sie aus der linken Dropdown-Liste das Ereignis aus, das zum Trigger der Nachricht erforderlich ist.
+   1. Wählen Sie aus der rechten Dropdown-Liste die für das ausgewählte Ereignis erforderliche Validierung aus.
+   1. Klicken Sie auf **[!UICONTROL Hinzufügen]** -Schaltfläche, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt. Wiederholen Sie dann die obigen Schritte.
+   1. Wählen Sie aus, wie Ihre Ereignisse verknüpft werden sollen, z. B. **[!UICONTROL und]** wenn Sie möchten **both** Trigger müssen &quot;true&quot;sein, damit eine Nachricht angezeigt wird, und **[!UICONTROL Oder]** wenn die Nachricht angezeigt werden soll, wenn **entweder** der Trigger sind wahr.
+
+   ![](assets/in_app_create_3.png)
 
 1. Wählen Sie das Ereignis aus, mit dem Ihre Nachricht von der **[!UICONTROL App-Trigger]**
 Dropdown-Liste.
