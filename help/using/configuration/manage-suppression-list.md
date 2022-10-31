@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 88%
 
 ---
@@ -25,7 +25,7 @@ Mit [!DNL Journey Optimizer]können Sie alle E-Mail-Adressen überwachen, die au
 
 >[!NOTE]
 >
->Die Unterdrückungsliste wird auf Sandbox-Ebene ausgeführt.
+>Die Unterdrückungsliste wird auf Sandbox-Ebene verwaltet.
 
 Diese E-Mail-Adressen werden automatisch in der **Unterdrückungsliste** von Journey Optimizer erfasst. Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um die Unterdrückungsliste als CSV-Datei zu exportiere
 
    >[!NOTE]
    >
-   >Die Downloadzeit hängt von der Dateigröße ab, d. h. der Anzahl der E-Mail-Adressen, die sich auf der Unterdrückungsliste befinden.
+   >Die Downloadzeit hängt von der Dateigröße ab, d. h. der Anzahl der Adressen, die sich auf der Unterdrückungsliste befinden.
    >
    >Eine Download-Anfrage kann für eine bestimmte Sandbox gleichzeitig verarbeitet werden.
 
