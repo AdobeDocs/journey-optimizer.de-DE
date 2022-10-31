@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 97%
+source-wordcount: '2128'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Der Abschnitt zum Journey-Anwendungsfall wurde in zwei Kategorien umstrukturiert: [Anwendungsfälle für Unternehmen](../building-journeys/journeys-uc.md) und [Technische Anwendungsfälle](../building-journeys/collections.md).
 * Die **Entitätsdatensatz** wurde mit weiteren Details aktualisiert. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
 * Informationen zur Opt-out-Verwaltung und zu den Zustimmungsrichtlinien wurden in einen neuen Abschnitt organisiert. [Mehr dazu](../privacy/opt-out.md)
+* Der Abschnitt zu erweiterten Parametern in Journey-Nachrichten wurde klarer formuliert und legt nun fest, dass das Außerkraftsetzen von E-Mail-Adressen nur für bestimmte Anwendungsfälle verwendet werden sollte. Meistens wird der Wert, der als primäre Adresse in der **Ausführungsfelder** ist der, der verwendet werden sollte. [Mehr dazu](../messages/messages-in-journeys.md#adv-settings)
+* Es wurde ein Hinweis zum **Landingpage-Subdomains konfigurieren** -Abschnitt, um anzugeben, dass Großbuchstaben in Subdomains von Landingpages nicht zulässig sind. [Mehr dazu](../configuration/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 

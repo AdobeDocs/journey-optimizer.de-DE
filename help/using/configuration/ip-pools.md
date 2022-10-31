@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Einrichten eines IP-Pools"
->abstract="Sie können IP-Pools erstellen, um die IP-Adressen Ihrer Subdomains zu gruppieren und so die Zustellbarkeit Ihrer E-Mails zu verbessern."
+>abstract="IP-Pools sammeln die IP-Adressen Ihrer Subdomains, um die E-Mail-Zustellbarkeit zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ Mit [!DNL Journey Optimizer] können Sie IP-Pools erstellen, um die IP-Adressen 
 Zur verbesserten Zustellbarkeit von E-Mails wird dringend empfohlen, IP-Pools zu erstellen. Auf diese Weise können Sie verhindern, dass die Reputation einer Subdomain eine Auswirkung auf Ihre anderen Subdomains hat.
 
 Eine Best Practice ist beispielsweise, einen IP-Pool für Ihre Marketing-Nachrichten und einen weiteren für Ihre Transaktionsnachrichten zu nutzen. Auf diese Weise wirkt sich eine Marketing-Nachricht, die vom Kunden abgelehnt und als Spam gekennzeichnet wird, nicht auf die an denselben Kunden gesendeten Transaktionsnachrichten aus, sodass dieser Kunde weiterhin Transaktionsnachrichten erhält (Kaufbestätigungen, Nachrichten zur Passwortwiederherstellung usw.).
+
+>[!CAUTION]
+>
+>Die Konfiguration des IP-Pools ist in allen Umgebungen üblich. Daher wirkt sich die Erstellung oder Bearbeitung von IP-Pools auch auf die Produktions-Sandboxes aus.
 
 ## Erstellen eines IP-Pools {#create-ip-pool}
 
@@ -63,7 +67,7 @@ Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn ausw
 
 ## Bearbeiten eines IP-Pools {#edit-ip-pool}
 
-So bearbeiten Sie einen IP-Pool:
+Gehen Sie wie folgt vor, um einen IP-Pool zu bearbeiten.
 
 1. Klicken Sie in der Liste auf den Namen des IP-Pools, um ihn zu öffnen.
 

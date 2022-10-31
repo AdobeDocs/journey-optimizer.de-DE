@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 97%
 
 ---
 
@@ -48,11 +48,9 @@ Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte S
 
 >[!CAUTION]
 >
->Gehen Sie bei der Bearbeitung von PTR-Einträgen mit größter Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.<!--why?-->
-
->[!NOTE]
+>PTR-Datensätze sind in allen Umgebungen vorhanden. Daher wirkt sich jede Änderung an einem PTR-Datensatz auch auf die Produktions-Sandboxes aus.
 >
->Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
+>Gehen Sie bei der Bearbeitung von PTR-Einträgen mit größter Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
 ### Vollständig delegierte Subdomains {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ Um einen PTR-Eintrag mit einer Subdomain zu bearbeiten, die [vollständig an Ado
    ![](assets/ptr-record-subdomain.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+
+>[!NOTE]
+>
+>Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
 
 ### Delegierte Subdomains mit der CNAME-Methode {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+
+>[!NOTE]
+>
+>Sie können die Felder **[!UICONTROL IP]** und **[!UICONTROL PTR-Eintrag]** nicht ändern.
 
 ## Prüfen der Aktualisierungsdetails der PTR-Einträge {#check-ptr-record-update}
 

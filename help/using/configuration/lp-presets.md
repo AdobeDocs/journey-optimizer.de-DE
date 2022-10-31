@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="Erstellen einer Landingpage-Voreinstellung"
->abstract="Um eine Landingpage erstellen und über Journey Optimizer nutzen zu können, müssen Sie eine Landingpage-Voreinstellung erstellen, die die zu verwendende Subdomain enthält."
+>abstract="Um eine Landingpage zu erstellen und über Journey Optimizer zu nutzen, müssen Sie eine Landingpage-Vorgabe erstellen, die die zu verwendende Subdomain enthält."
 
 Beim [Erstellen einer Landingpage](../landing-pages/create-lp.md#create-a-lp) müssen Sie eine Landingpage-Voreinstellung auswählen, damit Sie die Landingpage erstellen und über **[!DNL Journey Optimizer]** nutzen können.
 

@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung so konfigurieren, dass SMS mit 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 98%
+source-wordcount: '711'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 >id="ajo_admin_surface_sms_type"
 >title="Bestimmen Sie die SMS-Kategorie"
 >abstract="Wählen Sie den SMS-Nachrichtentyp aus, der bei Verwendung dieser Oberfläche gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html?lang=de#sms-opt-in-out" text="Abmeldung von Marketing-SMS-Nachrichten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Abmeldung von Marketing-SMS-Nachrichten"
 
 Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, um über **[!DNL Journey Optimizer]** SMS-Nachrichten senden zu können.
 

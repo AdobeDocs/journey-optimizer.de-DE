@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 81%
 
 ---
 
@@ -28,10 +28,17 @@ Die Spalte **[!UICONTROL Status]** enthält Informationen zum Prozess der Zuweis
 * **[!UICONTROL Erfolgreich]**: Die Subdomain hat die Prüfungen erfolgreich durchlaufen und bestanden und kann zum Versand von Nachrichten verwendet werden.
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind fehlgeschlagen, nachdem die Subdomain-Zuweisung übermittelt wurde.
 
-Um auf detaillierte Informationen zu einer Subdomain zuzugreifen, öffnen Sie sie aus der Liste. Sie haben folgende Möglichkeiten:
+So greifen Sie auf detaillierte Informationen zu einer Subdomain zu: **[!UICONTROL Erfolg]** -Status, öffnen Sie sie in der Liste.
+
+![](assets/subdomain-delegated.png)
+
+Sie haben folgende Möglichkeiten:
 
 * Rufen Sie den während des Zuweisungsprozesses konfigurierten Subdomain-Namen (schreibgeschützt) sowie die generierten URLs (Ressourcen, Mirror-Seite, Tracking-URLs) ab oder
 
 * Fügen Sie Ihrer Subdomain einen TXT-Eintrag für die Website-Überprüfung von Google hinzu, um sicherzustellen, dass er verifiziert ist (siehe [Hinzufügen eines Google TXT-Eintrags zu einer Subdomain](google-txt.md)).
 
-![](assets/subdomain-delegated.png)
+
+>[!CAUTION]
+>
+>Die Konfiguration von Subdomains ist in allen Umgebungen üblich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.

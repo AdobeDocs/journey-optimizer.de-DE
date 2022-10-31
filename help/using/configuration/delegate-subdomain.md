@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 100%
+source-wordcount: '1725'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >abstract="Mit Journey Optimizer können Sie Ihre Subdomains an Adobe delegieren. Sie können eine Subdomain vollständig an Adobe delegieren. Dies ist die empfohlene Methode. Sie können eine Subdomain auch mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und pflegen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html?lang=de#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
 
-Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, an eine anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zu delegieren. Grundsätzlich können Sie als Kunde die Unterzone „marketing.example.com“ an Adobe delegieren, wenn Sie die Zone „example.com“ bearbeiten. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, an eine anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zu delegieren. Grundsätzlich können Sie als Kunde die Unterzone &quot;marketing.example.com&quot;an Adobe delegieren, wenn Sie die Zone &quot;example.com&quot;bearbeiten. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
@@ -34,6 +34,8 @@ Sie können eine Subdomain vollständig delegieren oder eine Subdomain mit CNAME
 >[!CAUTION]
 >
 >Die vollständige Subdomain-Delegierung ist die empfohlene Methode. Erfahren Sie mehr über die Unterschiede zwischen diesen beiden [Subdomain-Konfigurationsmethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>Die Konfiguration von Subdomains ist in allen Umgebungen üblich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
 
 ## Vollständige Subdomain-Delegierung {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
    >
    >Beachten Sie, dass Subdomains mit mehreren Ebenen, wie email.marketing.ihrunternehmen.com, derzeit nicht unterstützt werden.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
 1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, aktivieren Sie die Checkbox „Ich bestätige...“ und klicken Sie dann auf **[!UICONTROL Senden]**.
@@ -92,8 +96,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
    >[!NOTE]
    >
    >Die Subdomain wird als **[!UICONTROL Fehlgeschlagen]** markiert, wenn Sie den Validierungseintrag nicht in Ihrer Hosting-Lösung erstellen.
-
-   <!-- later on, users will be notified in Pulse -->
 
 Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. [Weitere Informationen](ptr-records.md)
 
@@ -133,6 +135,8 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
    >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
    >
    >Beachten Sie, dass Subdomains mit mehreren Ebenen, wie email.marketing.ihrunternehmen.com, derzeit nicht unterstützt werden.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 

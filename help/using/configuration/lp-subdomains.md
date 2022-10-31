@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Subdomains von Landingp
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 100%
 Um [Landingpage-Voreinstellungen](lp-presets.md) erstellen zu können, müssen Sie die Subdomains einrichten, die Sie für Ihre Landingpages verwenden werden.
 
 Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder eine andere Subdomain konfigurieren. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>Die Konfiguration der Subdomain für Landingpages ist in allen Umgebungen üblich. Daher wirkt sich jede Änderung an einer Unterdomäne der Landingpage auch auf die Produktions-Sandboxes aus.
+
+Beachten Sie, dass Großbuchstaben in einer Subdomain nicht zulässig sein sollten
 
 ## Verwenden einer vorhandenen Subdomain {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe de
    >[!NOTE]
    >
    >Sie können keine Subdomain auswählen, die bereits als Landingpage-Subdomain verwendet wird.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
    >[!CAUTION]
    >
    >Sie können keine schon vorhandene Landingpage-Subdomain verwenden.
+   >
+   >Großbuchstaben sind in Subdomänen nicht zulässig.
 
    Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
 
