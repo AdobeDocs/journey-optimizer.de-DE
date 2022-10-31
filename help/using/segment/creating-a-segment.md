@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Erstellen einer Regel"
->abstract="Mit der Methode zum Erstellen von Regeln können Sie mithilfe des Segmentierungsdienstes von Adobe Experience Platform eine neue Segmentdefinition erstellen."
+>abstract="Die Methode zum Erstellen von Regeln ermöglicht Ihnen, mithilfe des Segmentierungs-Services von Adobe Experience Platform eine neue Segmentdefinition zu erstellen."
 
 In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco oder Seattle wohnenden und nach 1980 geborenen Kunden. Alle diese Kunden sollten das Programm Luma innerhalb der letzten 7 Tage geöffnet und dann innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 

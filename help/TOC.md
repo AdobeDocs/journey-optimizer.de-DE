@@ -124,7 +124,7 @@ ht-degree: 95%
    + Dynamische Inhalte {#dynamic}
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
-      + [Erstellen dynamischer Inhalte](using/personalization/dynamic-content.md)
+      + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
 + Segmente, Profile und Identität{#segment}
    + Segmente {#segments}
       + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
@@ -134,7 +134,7 @@ ht-degree: 95%
       + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
    + [Identitäten](using/segment/get-started-identity.md)
    + Erstellen von Audiences {#audience-orchestration}
-      + [Erste Schritte mit dem Erstellen von Audiences](using/segment/get-started-audience-orchestration.md)
+      + [Erste Schritte mit der Audience-Komposition](using/segment/get-started-audience-orchestration.md)
       + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
       + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
       + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
@@ -458,5 +458,5 @@ ht-degree: 95%
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
    + Einverständnisverwaltung {#consent}
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
-      + [Arbeiten mit Zustimmungsrichtlinien](using/action/consent.md)
+      + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)
    + [Data Governance](using/action/action-privacy.md)

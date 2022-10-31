@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Schnellversand-Modus"
->abstract="Schnellversand-Modus ermöglicht den Versand von Hochgeschwindigkeits-Nachrichten über den Push-Kanal an eine Zielgruppe von weniger als 30 MB."
+>abstract="Schnellversand-Modus ermöglicht den Versand von Nachrichten mit hoher Geschwindigkeit über den Push-Kanal an eine Audience von weniger als 30 Millionen Mitgliedern."
 
 Der Schnellversand-Modus, der in Journeys früher als Burst-Modus bezeichnet wurde, ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht.
 

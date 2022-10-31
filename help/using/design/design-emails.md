@@ -11,11 +11,11 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte beim Entwerfen von E-Mails {#get-started-content-design}
+# Erste Schritte beim Gestalten von E-Mails {#get-started-content-design}
 
 Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die Funktionen zur Inhaltserstellung nutzen:
 
@@ -25,7 +25,7 @@ Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die 
 
 * Suchen Sie **Adobe Stock-Fotos**, um Ihre Inhalte zu erstellen und Ihr E-Mail-Design zu verbessern. [Weitere Informationen](../design/stock.md)
 
-* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte und dynamische Nachrichten basierend auf ihren Profilattributen erstellen. Erhalten Sie weitere Informationen über [Personalisierung](../personalization/personalize.md) und [dynamische Inhalte](../personalization/get-started-dynamic-content.md).
+* Verbessern Sie das Kundenerlebnis, indem Sie personalisierte und dynamische Nachrichten auf der Basis ihrer Kundenprofil-Attribute erstellen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 

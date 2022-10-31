@@ -11,7 +11,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu aktivieren.
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
-1. Wählen Sie die Umschalter-Schaltfläche aus.
+1. Wählen Sie den Umschalter aus.
 
    ![](assets/allow-list-edit.png)
 
@@ -81,7 +81,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste zu deaktivieren.
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL Zulassungsliste]**.
 
-1. Wählen Sie die Umschalter-Schaltfläche aus.
+1. Wählen Sie den Umschalter aus.
 
    ![](assets/allow-list-edit-active.png)
 

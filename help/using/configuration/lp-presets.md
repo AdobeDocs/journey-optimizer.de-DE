@@ -9,7 +9,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 
    Die der ausgewählten Subdomain entsprechenden Einstellungen werden angezeigt.
 
-1. Wenn Sie die Subdomain der Landingpage für die Tracking-URL auswählen möchten, überprüfen Sie die **[!UICONTROL Wie Subdomain der Landingpage]** -Option. [Weitere Informationen zum Tracking](../design/message-tracking.md)
+1. Wenn Sie die Landingpage-Subdomain als Tracking-URL auswählen möchten, aktivieren Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]**. [Weitere Informationen zum Tracking](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

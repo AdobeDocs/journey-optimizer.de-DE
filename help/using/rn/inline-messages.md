@@ -112,10 +112,10 @@ Es ist eine Migration erforderlich, um Ihre vorhandenen Journeys, in denen **Nac
 
 Die Migration wird für jede Region nachts und in Form von mehreren Iterationen durchgeführt. Hier finden Sie den Zeitplan für die Migration:
 
-* &#x200B;25. Juli 2022: Einführung – 1. Iteration
-* &#x200B;1. August 2022: 2. Iteration
-* &#x200B;5. September 2022: 3. Iteration
-* &#x200B;6. September 2022: Einstellung
+* 25. Juli 2022: Einführung – 1. Iteration
+* 1. August 2022: 2. Iteration
+* 5. September 2022: 3. Iteration
+* 6. September 2022: Einstellung
 
 Warum brauchen wir mehrere Iterationen?
 

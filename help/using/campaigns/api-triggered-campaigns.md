@@ -7,7 +7,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -91,18 +91,18 @@ Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Star
 
 ## Profilerstellung bei der Kampagnenausführung {#profile-creation}
 
-In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System sind. Beispiel: Ein unbekannter Benutzer versucht, das Kennwort auf Ihrer Website zurückzusetzen.
+In einigen Fällen müssen Sie möglicherweise Transaktionsnachrichten an Profile senden, die nicht im System sind. Wenn zum Beispiel ein unbekannter Benutzer versucht, sein Kennwort auf Ihrer Website zurückzusetzen.
 
 Wenn ein Profil nicht in der Datenbank vorhanden ist, erlaubt Journey Optimizer Ihnen, es automatisch bei der Ausführung der Kampagne zu erstellen, um das Senden der Nachricht an dieses Profil zu ermöglichen.
 
 >[!IMPORTANT]
 >
->Diese Funktion ist für **Profilerstellung mit sehr geringem Volumen** in einem Anwendungsfall für den Versand von Transaktionsnachrichten mit großem Volumen, wobei ein Großteil der Profile bereits in der Plattform vorhanden ist.
+>Diese Funktion ist für die **Erstellung von Profilen mit sehr geringem Volumen** in einem Anwendungsfall mit großem Versandvolumen vorgesehen, wobei ein Großteil der Profile bereits in Platform vorhanden ist.
 
-Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, aktivieren Sie die **[!UICONTROL Erstellen neuer Profile]** -Option in der **[!UICONTROL Zielgruppe]** Abschnitt.
+Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, schalten Sie die Option **[!UICONTROL Neue Profile erstellen]** im Abschnitt **[!UICONTROL Audience]** ein.
 
 ![](assets/api-triggered-create-profile.png)
 
 >[!NOTE]
 >
->Unbekannte Profile werden im **AJO Interactive Messaging-Profil-Datensatz** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).
+>Unbekannte Profile werden im **Profil-Datensatz von AJO Interactive Messaging** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).

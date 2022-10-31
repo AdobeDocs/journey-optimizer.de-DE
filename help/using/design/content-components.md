@@ -11,7 +11,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **[!UICONTROL Duplizieren]**: Hinzufügen einer Kopie Ihrer Textkomponente.
    * **[!UICONTROL Löschen]**: Entfernen einer ausgewählten Textkomponente aus Ihrer E-Mail.
    * **[!UICONTROL Personalisierung hinzufügen]**: Einfügen von Personalisierungsfeldern zur Inhaltsanpassung auf der Basis von Profildaten. [Weitere Informationen über die Personalisierung von Inhalt](../personalization/personalize.md).
-   * **[!UICONTROL Bedingten Inhalt aktivieren]**: Fügen Sie bedingte Inhalte hinzu, um den Inhalt der Komponente an die Zielprofile anzupassen. [Erfahren Sie mehr über dynamische Inhalte](../personalization/get-started-dynamic-content.md).
+   * **[!UICONTROL Bedingten Inhalt aktivieren]**: Hinzufügen bedingter Inhalte, um den Inhalt der Komponente an die Zielprofile anzupassen. [Erfahren Sie mehr über dynamische Inhalte](../personalization/get-started-dynamic-content.md).
 
 1. Passen Sie **[!UICONTROL Textfarbe]**, **[!UICONTROL Schriftfamilie]** und **[!UICONTROL Größe]** in den **[!UICONTROL Komponenteneinstellungen]** an.
 
