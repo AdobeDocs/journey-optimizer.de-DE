@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 99%
 
 ---
 
@@ -93,15 +93,9 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ### Eintritt{#entrance}
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-Wenn eine Journey „endet“, weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey erlaubt den Eintritt neuer Kontakte nicht mehr. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
-
-Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
-
->[!NOTE]
->
->Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzvorkehrung, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+Erfahren Sie mehr über die Verwaltung des Profileintritts in [diesem Abschnitt](entry-management.md).
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
