@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 81%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
-Anschließend werden die daraus **resultierenden Audiences** zusammen mit den bestehenden Audiences in Adobe Experience Platform gespeichert.<!--, and can be **leveraged in campaigns** to target customers.-->
+Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden** , um Kunden anzusprechen.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Derzeit können Audiences, die aus Kompositions-Workflows stammen, nicht in Journey Optimizer angesprochen werden. Sie können auch nicht in Adobe Experience Platform-Zielen angesprochen werden.
+>Zielgruppen, die aus Zusammensetzungs-Workflows resultieren, können nur in Journey Optimizer-Kampagnen verwendet werden. Sie sind nicht zur Anwendung bei Journey verfügbar.
 
 ## Zugriff auf die Komposition von Audiences {#access}
 
