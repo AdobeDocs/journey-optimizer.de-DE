@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 95%
 
 ---
@@ -32,19 +32,19 @@ ht-degree: 95%
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Limits](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
-   + Über Journeys{#about-journeys}
+   + Erste Schritte mit Journeys {#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
       + [Lebenszyklus einer Journey](using/building-journeys/journey-end.md)
       + [Journey-Versionen](using/building-journeys/journey-versions.md)
-      + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Erstellen einer Journey{#create-journey}
-      + [Erste Schritte mit Journeys](using/building-journeys/journey-gs.md)
+      + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Beheben von Fehlern in einer Journey](using/building-journeys/troubleshooting.md)
+      + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
+      + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Aktivitäten {#about-journey-building}
       + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)

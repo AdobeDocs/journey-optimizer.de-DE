@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 100%
+source-wordcount: '1507'
+ht-degree: 85%
 
 ---
 
@@ -22,11 +22,13 @@ ht-degree: 100%
 >title="Gestalten einer Journey"
 >abstract="Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen."
 
-Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen. Jede Aktivität hat eine bestimmte Rolle und eine bestimmte Position im Prozess. Die Aktivitäten werden sequenziert. Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
+Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Interaktionen mit einer Eins-zu-Eins-Kundeninteraktion harmonisieren können. In der Benutzeroberfläche können Sie Aktivitäten einfach per Drag-and-Drop aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen. Beachten Sie, dass Sie beim nächsten verfügbaren Schritt auch auf eine Aktivität doppelklicken können, um sie der Arbeitsfläche hinzuzufügen.
+
+Ereignisse, Orchestrierungs- und Aktionsaktivitäten haben eine bestimmte Rolle und einen bestimmten Platz im Prozess. Die Aktivitäten werden sequenziert: Wenn eine Aktivität abgeschlossen ist, wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
 
 ## Erste Schritte beim Entwerfen von Journeys {#gs-journey-design}
 
-Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: **[!UICONTROL Ereignisse]**, **[!UICONTROL Orchestrierung]** und **[!UICONTROL Aktionen]**. Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
+Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: [Ereignisse](#jo-event), [Orchestrierung](#jo-orch) und [Aktionen](#jo-actions). Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
 
 Beim Erstellen einer neuen Journey werden Elemente ausgeblendet, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
 
@@ -66,27 +68,27 @@ Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Prof
 
 Nach dem ersten Ereignis oder dem Schritt „Segment lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
-**Ereignisse**
+### Ereignisse{#jo-event}
 
-Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis empfangen wird. Die Person folgt dann individuell den nächsten Schritten, die in Ihrer Journey definiert sind.
+Wenn Sie Ihre Journey mit einem Ereignis starten, wird die Journey ausgelöst, wenn das Ereignis empfangen wird. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
-Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie denselben Namespace verwenden. Die Ereignisse werden zuvor konfiguriert. [Weitere Informationen zu Ereignissen](about-journey-activities.md#event-activities)
+Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie denselben Namespace verwenden. Die Ereignisse werden zuvor konfiguriert. [Weitere Informationen zu Journey-Ereignissen](about-journey-activities.md#event-activities)
 
-Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. Weiterführende Informationen finden Sie in diesem [Abschnitt](reaction-events.md).
+Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. [Weitere Informationen zu Reaktionsereignissen](reaction-events.md).
 
-Verwenden Sie die Ereignisaktivität **Segmentqualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder in einer Journey fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
+Verwendung **Segmentqualifikation** Ereignisaktivität , um Kontakte dazu zu bringen, auf der Grundlage von Ein- und Austritten in Adobe Experience Platform-Segmenten in eine Journey einzutreten oder in einer solchen fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
 
-**Orchestrierung**
+### Orchestrierung{#jo-orch}
 
-In den Orchestrierungsaktivitäten finden Sie die Aktivität **Segment lesen**, mit der Sie Ihre Journey so einrichten können, dass sie auf ein Adobe Experience Platform-Segment wartet. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md)
+Verwenden Sie in den Orchestrierungsaktivitäten die **Segment lesen** -Aktivität, um Ihre Journey so festzulegen, dass ein Adobe Experience Platform-Segment überwacht wird. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md)
 
-Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. Weiterführende Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#orchestration-activities).
+Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. [Erfahren Sie mehr über Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
 
-**Aktionen**
+### Aktionen{#jo-actions}
 
-Hier finden Sie die Kanalaktionsaktivität, mit der Sie eine in [!DNL Journey Optimizer] entworfene Nachricht einschließen können. [Weitere Informationen zu Kanalaktionsaktivitäten](journeys-message.md)
+Mit den Kanalaktionsaktivitäten können Sie eine Nachricht einfügen, die in [!DNL Journey Optimizer]. [Weitere Informationen zu Kanalaktionsaktivitäten](journeys-message.md)
 
-Sie finden außerdem die benutzerdefinierten Aktionen, die Sie konfiguriert haben, um Nachrichten mit Drittanbietersystemen zu senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](about-journey-activities.md#action-activities).
+Verwenden Sie in den Aktionsaktivitäten benutzerdefinierte Aktionen, um Nachrichten mit Drittanbietersystemen zu senden. [Weitere Informationen zu benutzerdefinierten Aktionen](about-journey-activities.md#action-activities).
 
 ## Hinzufügen alternativer Pfade{#paths}
 
