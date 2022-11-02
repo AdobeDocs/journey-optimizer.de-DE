@@ -1,22 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Allgemeine Funktionsweise
-description: Allgemeine Funktionsweise
+title: Erste Schritte mit Journeys
+description: Erste Schritte mit Journeys
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 60%
 
 ---
 
 
-# Allgemeine Funktionsweise{#jo-general-principle}
+# Erste Schritte mit Journeys{#jo-general-principle}
 
 Verwendung [!DNL Journey Optimizer] zum Erstellen von Anwendungsfällen für die Echtzeit-Orchestrierung der Customer Journey mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
 
@@ -46,7 +45,7 @@ Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Jou
 
 Mehr dazu in [diesem Abschnitt](using-the-journey-designer.md).
 
-Als Data Engineer werden die Schritte zur Konfiguration Ihrer Journey beschrieben, einschließlich Datenquellen, Ereignissen und Aktionen. Weitere Informationen dazu finden Sie unter [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
+Als Data Engineer werden die Schritte zur Konfiguration Ihrer Journey beschrieben, einschließlich Datenquellen, Ereignissen und Aktionen im Abschnitt [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
 
 
 ## Anwendungsbeispiele{#uc-journey}
@@ -75,7 +74,7 @@ Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die
 
 >[!NOTE]
 >
->In den meisten Fällen kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
+>Normalerweise kann ein Profil nicht mehrmals im selben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
 Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Journey-Version.
 
