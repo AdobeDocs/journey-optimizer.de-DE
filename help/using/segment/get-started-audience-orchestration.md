@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 81%
+source-wordcount: '256'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 81%
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
-Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden** , um Kunden anzusprechen.
+Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden** , um Kunden anzusprechen. [Erfahren Sie, wie Sie mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
