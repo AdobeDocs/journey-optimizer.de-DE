@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -28,24 +28,28 @@ Die Schritte zur Konfiguration einer Komposition auf der Kompositions-Arbeitsfl�
 
 ## Wählen Sie die Start-Audience aus {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Fusionieren von Typen"
->abstract="Geben Sie an, wie die Profile der ausgewählten Audiences zusammengeführt werden sollen."
-
 Der erste Schritt bei der Erstellung einer Komposition besteht darin, eine oder mehrere vorhandene Audiences als Grundlage für Ihre Komposition auszuwählen.
 
-Wählen Sie die Aktivität **[!UICONTROL Audience]**, klicken Sie auf die Schaltfläche **[!UICONTROL Audience hinzufügen]** und wählen Sie eine oder mehrere Audiences aus.
+1. Wählen Sie die **[!UICONTROL Zielgruppe]** -Aktivität und geben Sie einen Titel für die Aktivität an.
+
+1. Wählen Sie die Zielgruppe aus:
+
+   * Klicken Sie auf **[!UICONTROL Audience hinzufügen]** Schaltfläche zur Auswahl einer oder mehrerer bestehender Zielgruppen,
+   * Klicken Sie auf **[!UICONTROL Regel erstellen]** Schaltfläche zum Erstellen einer neuen Segmentdefinition mithilfe der [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Wenn mehrere Zielgruppen ausgewählt sind, legen Sie fest, wie die Profile dieser Zielgruppen zusammengeführt werden sollen:
+
+* **[!UICONTROL Vereinigung]**: Schließt alle Profile der ausgewählten Audiences ein,
+* **[!UICONTROL Schnittmenge]**: Schließt Profile ein, die allen ausgewählten Audiences gemeinsam sind,
+* **[!UICONTROL Überschneidung ausschließen]**: Schließt Profile ein, die nur zu einer der Audiences gehören. Profile, die zu mehr als einer Audience gehören, werden nicht einbezogen.
 
 In diesem Beispiel möchten wir alle Profile ansprechen, die zu den Audiences Gold und Silber gehören.
 
 ![](assets/audiences-starting-audience.png)
 
-Wenn Sie mehrere Audiences auswählen, legen Sie fest, wie die Profile dieser Audiences zusammengeführt werden sollen:
-
-* **[!UICONTROL Vereinigung]**: Schließt alle Profile der ausgewählten Audiences ein,
-* **[!UICONTROL Schnittmenge]**: Schließt Profile ein, die allen ausgewählten Audiences gemeinsam sind,
-* **[!UICONTROL Überschneidung ausschließen]**: Schließt Profile ein, die nur zu einer der Audiences gehören. Profile, die zu mehr als einer Audience gehören, werden nicht einbezogen.
+Nach Auswahl der Zielgruppen wird die geschätzte Anzahl der Profile am unteren Ende der Aktivität angezeigt.
 
 ## Hinzufügen von Aktivitäten {#action-activities}
 
@@ -74,6 +78,11 @@ Verfügbare Aktivitäten sind:
 >id="ajo_ao_audience"
 >title="Audience-Aktivität"
 >abstract="Mit der Audience-Aktivität können Sie zusätzliche Profile, die zu einer bestehenden Audience gehören, in Ihre Komposition einbeziehen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Fusionieren von Typen"
+>abstract="Geben Sie an, wie die Profile der ausgewählten Audiences zusammengeführt werden sollen."
 
 Mit der **[!UICONTROL Audience]**-Aktivität können Sie zusätzliche Profile, die zu einer bestehenden Audience gehören, in Ihre Komposition aufnehmen.
 

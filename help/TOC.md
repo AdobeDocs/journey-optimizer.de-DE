@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1246'
 ht-degree: 95%
 
 ---
@@ -31,114 +31,6 @@ ht-degree: 95%
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Limits](using/start/guardrails.md)
-+ Kampagnen{#campaigns}
-   + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
-   + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
-   + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
-   + [Verwalten von Live-Kampagnen](using/campaigns/modify-stop-campaign.md)
-   + Inhaltsexperiment {#content-experiment}
-      + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
-      + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
-      + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
-      + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
-   + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
-+ Nachrichten {#messages}
-   + Erste Schritte mit Nachrichten{#get-started-msg}
-      + [Übersicht](using/messages/get-started-content.md)
-      + [Hinzufügen von Nachrichten in Journeys](using/messages/messages-in-journeys.md)
-      + [Hinzufügen von Nachrichten in Kampagnen     ](using/messages/messages-in-campaigns.md)
-   + [Erstellen einer E-Mail](using/messages/create-email.md)
-   + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
-   + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
-   + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
-   + [Prüfen von Warnhinweisen](using/messages/alerts.md)
-   + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
-+ Webkanal{#web}
-   + [Erste Schritte mit dem Webkanal](using/web/get-started-web.md)
-   + [Weberfahrungen erstellen](using/web/create-web.md)
-   + [Autoren-Webseiten](using/web/author-web.md)
-   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
-   + [Webberichte](using/web/web-report.md)
-+ In-App-Kanal{#in-app}
-   + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
-   + [In-App-Kanal konfigurieren](using/in-app/inapp-configuration.md)
-   + [In-App-Nachricht erstellen](using/in-app/create-in-app.md)
-   + [Erstellen von In-App-Inhalten](using/in-app/design-in-app.md)
-   + [In-App-Bericht](using/in-app/inapp-report.md)
-+ Inhaltserstellung {#design}
-   + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
-   + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
-   + [Importieren von E-Mail-Inhalten](using/design/existing-content.md)
-   + [Programmieren von eigenem Inhalt](using/design/code-content.md)
-   + [Arbeiten mit Vorlagen](using/design/email-templates.md)
-   + Inhaltserstellung {#design-content}
-      + [Verwenden von Inhaltskomponenten](using/design/content-components.md)
-      + [Hintergrundeinstellungen](using/design/backgrounds.md)
-      + [Anpassen der senkrechten Ausrichtung und des Abstands](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Definieren eines Stils für Links](using/design/styling-links.md)
-      + [Hinzufügen von Inline-Stilattributen](using/design/adding-inline-styling-attributes.md)
-   + E-Mail-Einstellungen {#design-email}
-      + [Generieren der Textversion](using/design/text-version-email.md)
-      + [Hinzufügen eines Preheaders](using/design/preheader.md)
-   + Hinzufügen und Verwalten von Assets {#manage-asset}
-      + [Verwenden von Assets Essentials](using/design/assets-essentials.md)
-      + [Arbeiten mit Adobe Stock](using/design/stock.md)
-   + [Hinzufügen personalisierter Angebote](using/design/deliver-personalized-offers.md)
-   + [Hinzufügen von Links und Verfolgen von Nachrichten](using/design/message-tracking.md)
-   + [Vorschau und Testversand](using/design/preview.md)
-+ Landingpages {#landing-pages}
-   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
-   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
-   + Inhaltserstellung {#landing-pages-design}
-      + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
-      + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
-      + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
-      + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
-   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
-   + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
-+ Personalisierung und dynamische Inhalte {#personalized-dynamic-content}
-   + Personalisierung {#personalization}
-      + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
-      + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
-      + Erstellen von Ausdrücken {#build-expressions}
-         + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
-         + Arbeiten mit dem Ausdruckseditor {#expression-editor}
-            + [Über den Ausdruckseditor](using/personalization/personalization-build-expressions.md)
-            + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
-            + [Arbeiten mit gespeicherten Ausdrücken](using/personalization/personalization-library.md)
-            + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
-         + Helper-Funktionen {#functions}
-            + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
-            + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
-            + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
-            + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
-            + [Datumsfunktionen](using/personalization/functions/dates.md)
-            + [Boolesche Funktionen und Vergleichsfunktionen](using/personalization/functions/operators.md)
-            + [Helper](using/personalization/functions/helpers.md)
-            + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
-            + [Objektfunktionen](using/personalization/functions/objects.md)
-            + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
-      + Anwendungsfälle {#personalization-use-cases}
-         + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
-         + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
-   + Dynamische Inhalte {#dynamic}
-      + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
-      + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
-      + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
-+ Segmente, Profile und Identität{#segment}
-   + Segmente {#segments}
-      + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
-      + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
-   + Profile{#profiles}
-      + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
-      + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
-   + [Identitäten](using/segment/get-started-identity.md)
-   + Erstellen von Audiences {#audience-orchestration}
-      + [Erste Schritte mit der Audience-Komposition](using/segment/get-started-audience-orchestration.md)
-      + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
-      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
-      + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
-   + [Lizenznutzung](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
    + Über Journeys{#about-journeys}
       + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
@@ -255,6 +147,114 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
++ Kampagnen{#campaigns}
+   + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
+   + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
+   + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
+   + [Verwalten von Live-Kampagnen](using/campaigns/modify-stop-campaign.md)
+   + Inhaltsexperiment {#content-experiment}
+      + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
+      + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
+      + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
+      + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
+   + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
++ Nachrichten {#messages}
+   + Erste Schritte mit Nachrichten{#get-started-msg}
+      + [Übersicht](using/messages/get-started-content.md)
+      + [Hinzufügen von Nachrichten in Journeys](using/messages/messages-in-journeys.md)
+      + [Hinzufügen von Nachrichten in Kampagnen     ](using/messages/messages-in-campaigns.md)
+   + [Erstellen einer E-Mail](using/messages/create-email.md)
+   + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
+   + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
+   + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
+   + [Prüfen von Warnhinweisen](using/messages/alerts.md)
+   + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
++ Webkanal{#web}
+   + [Erste Schritte mit dem Webkanal](using/web/get-started-web.md)
+   + [Weberfahrungen erstellen](using/web/create-web.md)
+   + [Autoren-Webseiten](using/web/author-web.md)
+   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
+   + [Webberichte](using/web/web-report.md)
++ In-App-Kanal{#in-app}
+   + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
+   + [In-App-Kanal konfigurieren](using/in-app/inapp-configuration.md)
+   + [In-App-Nachricht erstellen](using/in-app/create-in-app.md)
+   + [Erstellen von In-App-Inhalten](using/in-app/design-in-app.md)
+   + [In-App-Bericht](using/in-app/inapp-report.md)
++ Inhaltserstellung {#design}
+   + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
+   + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
+   + [Importieren von E-Mail-Inhalten](using/design/existing-content.md)
+   + [Programmieren von eigenem Inhalt](using/design/code-content.md)
+   + [Arbeiten mit Vorlagen](using/design/email-templates.md)
+   + Inhaltserstellung {#design-content}
+      + [Verwenden von Inhaltskomponenten](using/design/content-components.md)
+      + [Hintergrundeinstellungen](using/design/backgrounds.md)
+      + [Anpassen der senkrechten Ausrichtung und des Abstands](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Definieren eines Stils für Links](using/design/styling-links.md)
+      + [Hinzufügen von Inline-Stilattributen](using/design/adding-inline-styling-attributes.md)
+   + E-Mail-Einstellungen {#design-email}
+      + [Generieren der Textversion](using/design/text-version-email.md)
+      + [Hinzufügen eines Preheaders](using/design/preheader.md)
+   + Hinzufügen und Verwalten von Assets {#manage-asset}
+      + [Verwenden von Assets Essentials](using/design/assets-essentials.md)
+      + [Arbeiten mit Adobe Stock](using/design/stock.md)
+   + [Hinzufügen personalisierter Angebote](using/design/deliver-personalized-offers.md)
+   + [Hinzufügen von Links und Verfolgen von Nachrichten](using/design/message-tracking.md)
+   + [Vorschau und Testversand](using/design/preview.md)
++ Landingpages {#landing-pages}
+   + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
+   + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
+   + Inhaltserstellung {#landing-pages-design}
+      + [Über das Design von Landingpages](using/landing-pages/design-lp.md)
+      + [Erstellen der Landingpage-Inhalte](using/landing-pages/lp-content.md)
+      + [Erstellen von Vorlagen](using/landing-pages/lp-templates.md)
+      + [Hinzufügen von benutzerdefiniertem JavaScript](using/landing-pages/lp-custom-js.md)
+   + [Erstellen einer Abonnementliste](using/landing-pages/subscription-list.md)
+   + [Anwendungsfälle](using/landing-pages/lp-use-cases.md)
++ Personalisierung und dynamische Inhalte {#personalized-dynamic-content}
+   + Personalisierung {#personalization}
+      + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
+      + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
+      + Erstellen von Ausdrücken {#build-expressions}
+         + [Personalisierungssyntax](using/personalization/personalization-syntax.md)
+         + Arbeiten mit dem Ausdruckseditor {#expression-editor}
+            + [Über den Ausdruckseditor](using/personalization/personalization-build-expressions.md)
+            + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
+            + [Arbeiten mit gespeicherten Ausdrücken](using/personalization/personalization-library.md)
+            + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
+         + Helper-Funktionen {#functions}
+            + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
+            + [Aggregationsfunktionen](using/personalization/functions/aggregation.md)
+            + [Arithmetische Funktionen](using/personalization/functions/arithmetic-functions.md)
+            + [Arrays und Listenfunktionen](using/personalization/functions/arrays-list.md)
+            + [Datumsfunktionen](using/personalization/functions/dates.md)
+            + [Boolesche Funktionen und Vergleichsfunktionen](using/personalization/functions/operators.md)
+            + [Helper](using/personalization/functions/helpers.md)
+            + [Zuordnungsfunktionen](using/personalization/functions/maps.md)
+            + [Objektfunktionen](using/personalization/functions/objects.md)
+            + [Zeichenfolgen-Funktionen](using/personalization/functions/string.md)
+      + Anwendungsfälle {#personalization-use-cases}
+         + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
+         + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
+   + Dynamische Inhalte {#dynamic}
+      + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
+      + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
+      + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
++ Segmente, Profile und Identität{#segment}
+   + Segmente {#segments}
+      + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
+      + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
+   + Profile{#profiles}
+      + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
+      + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
+   + [Identitäten](using/segment/get-started-identity.md)
+   + [Lizenznutzung](using/segment/license-usage.md)
+   + Erstellen von Audiences {#audience-orchestration}
+      + [Erste Schritte mit der Audience-Komposition](using/segment/get-started-audience-orchestration.md)
+      + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
+      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
+      + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
       + Anwendungsfälle für Unternehmen {#business-use-cases}
          + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
          + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
@@ -454,6 +454,7 @@ ht-degree: 95%
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
 + Datenschutz {#privacy}
+   + [Erste Schritte mit Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
    + Einverständnisverwaltung {#consent}

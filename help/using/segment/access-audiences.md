@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '146'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 # Zugreifen auf und Verwalten von Audiences {#access-manage-audiences}
 
 Audiences sind über die Registerkarte **[!UICONTROL Audiences]** im Menü **[!UICONTROL Segmente]** aufrufbar.
-
->[!IMPORTANT]
->
->Derzeit können Audiences, die aus Kompositions-Workflows stammen, nicht in Journey Optimizer angesprochen werden.
 
 Auf dieser Registerkarte werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet. Audiences, die mithilfe von Audience-Kompositionen erstellt wurden, sind an der Herkunft **[!UICONTROL Audience-Komposition]** erkennbar.
 

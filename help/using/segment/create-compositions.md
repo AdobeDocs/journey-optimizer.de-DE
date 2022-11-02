@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 93%
+source-wordcount: '365'
+ht-degree: 75%
 
 ---
 
@@ -39,13 +39,11 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
    * **[!UICONTROL Speichern]**: der letzte Schritt Ihrer Komposition. Mit dieser Aktivität können Sie das Ergebnis Ihres Workflows in einer neuen Audience speichern.
    Weiterführende Informationen zum Konfigurieren von Aktivitäten auf der Arbeitsfläche des Kompositions-Workflows finden Sie im Abschnitt [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md).
 
-1. Wählen Sie die Aktivität **[!UICONTROL Audience]** aus und geben Sie dann einen Titel für Ihre Komposition an.
+1. Öffnen Sie die Eigenschaften der Komposition, um einen Titel und eine Beschreibung anzugeben.
 
-   >[!IMPORTANT]
-   >
-   >Der Titel Ihrer **[!UICONTROL Audience]**-Aktivität ist der Titel Ihrer Komposition. Stellen Sie sicher, dass Sie einen aussagekräftigen Namen angeben, um die Komposition einfacher in der Liste abrufen zu können.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung der Anfang sein. **[!UICONTROL Zielgruppe]** Aktivität.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Konfigurieren Sie Ihre Komposition, indem Sie so viele Aktivitäten für **[!UICONTROL Audience]** und **[!UICONTROL Speichern]** hinzufügen, wie Sie benötigen. [Erfahren Sie, wie Sie mit der Arbeitsfläche für Kompositionen arbeiten](composition-canvas.md)
 
@@ -57,7 +55,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 
    ![](assets/audiences-alerts.png)
 
-1. Die Komposition wird veröffentlicht. Die resultierenden Audiences werden in Adobe Experience Platform gespeichert. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. Die Komposition wird veröffentlicht. Die resultierenden Zielgruppen werden in Adobe Experience Platform gespeichert und können für Journey Optimizer-Kampagnen verwendet werden. [Erste Schritte mit Kampagnen](../campaigns/get-started-with-campaigns.md)
 
 ## Zugriff auf Kompositionen {#access}
 
@@ -69,7 +67,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Kompositionen]** verfügbar. Sie können mehrere Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Komposition ist in Arbeit und wurde noch nicht veröffentlicht.
-* **[!UICONTROL Veröffentlicht]**: Die Komposition wurde veröffentlicht und die resultierenden Audiences wurden gespeichert. <!-- and are available for use.-->
+* **[!UICONTROL Veröffentlicht]**: die Komposition veröffentlicht wurde, die resultierenden Zielgruppen gespeichert wurden und zur Verwendung verfügbar sind.
 * **[!UICONTROL Archiviert]**: Die Komposition wurde archiviert.
 
 ![](assets/audiences-compositions.png)
