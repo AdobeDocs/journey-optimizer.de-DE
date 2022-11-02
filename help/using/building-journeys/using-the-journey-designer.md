@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 85%
+source-wordcount: '1605'
+ht-degree: 80%
 
 ---
 
@@ -60,15 +60,17 @@ Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben re
 
 Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
 
-**Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
+1. **Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-**Beginn mit dem Schritt „Segment lesen“**: Sie können Ihre Journey so einstellen, dass sie auf Adobe Experience Platform-Segmente wartet. In diesem Fall treten alle dem angegebenen Segment angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Erfahren Sie mehr über das Lesen von Segmenten](read-segment.md).
+1. **Beginn mit dem Schritt „Segment lesen“**: Sie können Ihre Journey so einstellen, dass sie auf Adobe Experience Platform-Segmente wartet. In diesem Fall treten alle dem angegebenen Segment angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Erfahren Sie mehr über das Lesen von Segmenten](read-segment.md).
 
 ## Nächste Schritte definieren{#define-next-steps}
 
 Nach dem ersten Ereignis oder dem Schritt „Segment lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
 ### Ereignisse{#jo-event}
+
+Ereignisse sind der Trigger einer personalisierten Journey, z. B. eines Online-Kaufs. Sobald jemand eine Journey betritt, bewegt er sich als Individuum durch, und keine zwei Personen bewegen sich in derselben Geschwindigkeit oder auf demselben Pfad.
 
 Wenn Sie Ihre Journey mit einem Ereignis starten, wird die Journey ausgelöst, wenn das Ereignis empfangen wird. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
@@ -80,11 +82,15 @@ Verwendung **Segmentqualifikation** Ereignisaktivität , um Kontakte dazu zu bri
 
 ### Orchestrierung{#jo-orch}
 
+Orchestrierungsaktivitäten sind unterschiedliche Bedingungen, die bei der Bestimmung des nächsten Schritts im Journey helfen.
+
 Verwenden Sie in den Orchestrierungsaktivitäten die **Segment lesen** -Aktivität, um Ihre Journey so festzulegen, dass ein Adobe Experience Platform-Segment überwacht wird. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md)
 
 Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. [Erfahren Sie mehr über Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
 
 ### Aktionen{#jo-actions}
+
+Aktionen sind das Ergebnis irgendeines Triggers, wie das Senden einer Nachricht. Es ist das Stück Journey, das der Kunde erfährt. Dabei kann es sich um eine E-Mail-, SMS- oder Push-Nachricht oder um eine Drittanbieteraktion handeln, z. B. um eine Slack-Nachricht.
 
 Mit den Kanalaktionsaktivitäten können Sie eine Nachricht einfügen, die in [!DNL Journey Optimizer]. [Weitere Informationen zu Kanalaktionsaktivitäten](journeys-message.md)
 

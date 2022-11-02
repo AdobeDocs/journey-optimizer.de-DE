@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 95%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 95%
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Limits](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
-   + Erste Schritte mit Journeys {#about-journeys}
-      + [Allgemeine Funktionsweise](using/building-journeys/journey.md)
-      + [Lebenszyklus einer Journey](using/building-journeys/journey-end.md)
-      + [Journey-Versionen](using/building-journeys/journey-versions.md)
+   + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
    + Erstellen einer Journey{#create-journey}
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 95%
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Aktivitäten {#about-journey-building}
-      + [Über Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
+      + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktion](using/building-journeys/reaction-events.md)
       + [Segmentqualifikation](using/building-journeys/segment-qualification-events.md)

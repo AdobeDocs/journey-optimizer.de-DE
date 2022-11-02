@@ -1,26 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-description: Erfahren Sie mehr über Journey-Aktivitäten
+title: Erste Schritte mit Journey-Aktivitäten
+description: Erste Schritte mit Journey-Aktivitäten
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 49%
 
 ---
 
-# Über Journey-Aktivitäten {#about-journey-activities}
+# Erste Schritte mit Journey-Aktivitäten {#about-journey-activities}
 
 Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen.
 
 ## Ereignisaktivitäten {#event-activities}
 
-Die vom technischen Anwender konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
+Ereignisse sind der Trigger einer personalisierten Journey, z. B. eines Online-Kaufs. Sobald jemand eine Journey betritt, bewegt er sich als Individuum durch, und keine zwei Personen bewegen sich in derselben Geschwindigkeit oder auf demselben Pfad. Wenn Sie Ihre Journey mit einem Ereignis starten, wird die Journey ausgelöst, wenn das Ereignis empfangen wird. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+
+Vom technischen Anwender konfigurierte Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
@@ -34,6 +37,8 @@ Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie könne
 
 ## Orchestrierungsaktivitäten {#orchestration-activities}
 
+Orchestrierungsaktivitäten sind unterschiedliche Bedingungen, die bei der Bestimmung des nächsten Schritts im Journey helfen. Es kann sein, ob die Person einen offenen Support-Fall hat oder nicht, das Wetter an ihrem aktuellen Standort vorhergesagt, wenn sie einen Kauf abgeschlossen hat oder nicht, oder 10 000 Treuepunkte erreicht hat.
+
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
 * [Bedingung](../building-journeys/condition-activity.md)
@@ -44,7 +49,9 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 
 ## Aktionsaktivitäten {#action-activities}
 
-In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
+Aktionen sind das Ergebnis irgendeines Triggers, wie das Senden einer Nachricht. Es ist das Stück Journey, das der Kunde erfährt.
+
+In der Palette auf der linken Bildschirmseite unter **[!UICONTROL Veranstaltungen]** und **[!UICONTROL Orchestrierung]**, können Sie die **[!UICONTROL Aktionen]** Kategorie. Folgende Aktionsaktivitäten sind verfügbar:
 
 * [E-Mail, SMS, Push-Benachrichtigung](../building-journeys/journeys-message.md)
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
@@ -54,7 +61,7 @@ In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTR
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
-Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier angezeigt (siehe [diese Seite](../building-journeys/using-custom-actions.md)).
+Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier ebenfalls angezeigt. [Weitere Informationen](../building-journeys/using-custom-actions.md)).
 
 ## Best Practices {#best-practices}
 
