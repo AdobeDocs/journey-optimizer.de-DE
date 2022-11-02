@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 95%
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
+   + Journey verwalten{#mannage-journey}
+      + [Journey beenden](using/building-journeys/end-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
+      + [Profileintragsverwaltung](using/building-journeys/entry-management.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
+      + Anwendungsfälle für Unternehmen {#business-use-cases}
+         + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
+         + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
+      + Technische Anwendungsfälle {#technical-use-cases}
+         + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
+         + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
 + Kampagnen{#campaigns}
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 95%
       + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
       + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
       + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
-      + Anwendungsfälle für Unternehmen {#business-use-cases}
-         + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
-         + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-         + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
-      + Technische Anwendungsfälle {#technical-use-cases}
-         + [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](using/building-journeys/collections.md)
-         + [Steigern der Versandaktivität](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](using/building-journeys/limit-throughput.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
