@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 64%
+source-wordcount: '573'
+ht-degree: 63%
 
 ---
 
@@ -32,27 +32,38 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
-Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Interaktionen mit einer Eins-zu-Eins-Kundeninteraktion harmonisieren können. In der Benutzeroberfläche können Sie Aktivitäten einfach per Drag-and-Drop aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen. Beachten Sie, dass Sie beim nächsten verfügbaren Schritt auch auf eine Aktivität doppelklicken können, um sie der Arbeitsfläche hinzuzufügen.
+Verwenden Sie Adobe Journey Optimizer, um personalisierte Journey aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
+
+Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Interaktionen mit einer Eins-zu-Eins-Kundeninteraktion harmonisieren können. In der Benutzeroberfläche können Sie Aktivitäten einfach per Drag-and-Drop aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen.
+
+![](assets/interface-journeys.png)
 
 Erfahren Sie, wie Sie Ihre erste Journey in [diese Seite](journey-gs.md).
 
-Erfahren Sie, wie Sie Journey Designer verwenden und Aktivitäten kombinieren, um leistungsstarke Omnichannel-Journey in zu orchestrieren. [diesem Abschnitt](using-the-journey-designer.md).
+Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Journey mit zielgerichteten Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kundeninteraktionen oder Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag &amp; Drop-Oberfläche.
 
-Als Data Engineer erfahren Sie, wie Sie Ihre Journey konfigurieren, einschließlich Datenquellen, Ereignissen und Aktionen unter [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+Mehr dazu in [diesem Abschnitt](using-the-journey-designer.md).
+
+Als Data Engineer werden die Schritte zur Konfiguration Ihrer Journey beschrieben, einschließlich Datenquellen, Ereignissen und Aktionen. Weitere Informationen dazu finden Sie unter [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
 
 
 ## Anwendungsbeispiele{#uc-journey}
 
-Lernen Sie die folgenden durchgängigen Anwendungsfälle kennen, um
-* Anwendungsfälle für Unternehmen
-   * [Senden von Multi-Channel-Nachrichten](journeys-uc.md)
-   * [Senden einer Nachricht mit Campaign v7/v8](campaign-classic-use-case.md)
-   * [Senden einer Nachricht an Abonnenten](message-to-subscribers-uc.md)
+In den folgenden durchgehenden Anwendungsfällen erfahren Sie, wie Sie Journey erstellen.
 
-* Technische Anwendungsfälle
-   * [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](collections.md)
-   * [Steigern der Versandaktivität](ramp-up-deliveries-uc.md)
-   * [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
+Anwendungsfälle für Unternehmen:
+
+* [Senden von Multi-Channel-Nachrichten](journeys-uc.md)
+* [Senden einer Nachricht mit Campaign v7/v8](campaign-classic-use-case.md)
+* [Senden einer Nachricht an Abonnenten](message-to-subscribers-uc.md)
+
+Technische Anwendungsfälle:
+
+* [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](collections.md)
+* [Steigern der Versandaktivität](ramp-up-deliveries-uc.md)
+* [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
 
 ## Journey-Versionen{#journey-versions}
 
