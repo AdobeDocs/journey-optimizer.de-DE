@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: df16e6be53629ef529b765c9e36a293234244867
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 88%
 
 ---
 
@@ -35,8 +35,9 @@ Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
 
 In Adobe Journey Optimizer werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden generiert:
 
-* Streaming-Segmentierung: Die Audience-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System einfließen.
-* Batch-Segmentierung: Die Audiences-Liste für das Segment wird stündlich aktualisiert, basierend auf Daten, die in der letzten Stunde erfasst wurden.
+* Streaming-Segmentierung: Die Audiences-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen. Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf eingehende Daten in Journey Optimizer angewendet. Segmenthinzufügungen und -entfernungen werden regelmäßig verarbeitet, um sicherzustellen, dass Ihre Zielgruppe relevant bleibt.
+
+* Batch-Segmentierung - die Zielgruppenliste für das Segment wird alle 24 Stunden ausgewertet. Als Alternative zu einem laufenden Datenauswahlprozess verschiebt die Batch-Segmentierung alle Profildaten gleichzeitig durch Segmentdefinitionen, um entsprechende Zielgruppen zu erstellen. Nach der Erstellung eines Segments wird es gespeichert, sodass Sie es exportieren und weiterverwenden können.
 
 Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen.
 
