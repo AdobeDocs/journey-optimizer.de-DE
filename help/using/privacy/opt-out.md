@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 77%
 
 ---
 
@@ -215,12 +215,28 @@ Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen
 
 In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Nach der Kündigung des Abos werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
->[!NOTE]
+Standardmäßig verarbeitet Adobe Journey Optimizer standardmäßige englischsprachige Antwortnachrichten wie STOP, UNSTOP und START für gebührenfreie und lange Code-Nachrichten gemäß Industriestandards für die native Integration wie Sinch und Twilio. Diese Suchbegriffe werden in der Regel als Trigger für eine automatische Standardantwort von Ihrem Drittanbieter (z. B. Twilio, Sinch usw.) verwendet. Sie können dies direkt bei Ihrem Anbieter oder über dessen Dokumentations-Website bestätigen.
+
+Es sind keine Schritte erforderlich, um sicherzustellen, dass SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP und START automatisch erkannt werden.
+
+Zusätzlich zum Abbrechen des Versands durch Adobe Journey Optimizer basierend auf dem Opt-out-Status (für direkte Integrationen mit Twilio oder Sinch) verfügen die meisten SMS-Gateway-Provider auch über eine Blockierungsliste, mit der sichergestellt wird, dass eine SMS-Nachricht nicht an eine Person gesendet wird, die sich für eine Abmeldung entschieden hat. Wenn Sie einen anderen Anbieter als Sinch oder Twilio verwenden und eine SMS per senden [benutzerspezifischer Kanal](../building-journeys/using-custom-actions.md)müssen Sie dies mit Ihrem Provider bestätigen.
+
+>[!IMPORTANT]
 >
->Für Transaktionsnachrichten ist das Hinzufügen eines Links zum Abmelden nicht erforderlich.
+>Für Textnachrichten-Kampagnen können je nach Art Ihrer Textnachrichten-Kampagne, Ort des Versands Ihrer Textnachrichten und Ort der Empfänger verschiedene gesetzliche Anforderungen gelten. <br>Während Adobe Journey Optimizer die Nachrichten auf langen Codes und gebührenfreien Nummern verarbeitet, wie oben beschrieben, sollten Sie sich an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten-Kampagne allen geltenden gesetzlichen Compliance-Anforderungen entspricht.
 
-Adobe Journey Optimizer verarbeitet in eingehenden Nachrichten automatisch die folgenden Keywords: **START**, **STOP** und **UNSTOP**. Diese Keywords lösen automatische Standardantworten des SMS-Anbieters aus.
+### Kurzwahlnummern {#short-codes}
 
-Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (Start, Stop und Unstop) für SMS finden Sie im folgenden Video:
+Standardmäßig verarbeitet Adobe Journey Optimizer keine Opt-out-, Opt-in- oder Hilfe-Suchbegriffe für Kurzwahlnummern.
+
+Sie müssen sicherstellen, dass Ihre Kurzwahlnummer allen Branchenregeln und -vorschriften für den Opt-out-Umgang entspricht.
+
+### Alphanumerische Sender-ID {#alphanumeric}
+
+Alphanumerische Sender-IDs dienen nur für einmalige Nachrichten und können keine eingehenden Nachrichten empfangen. Daher sind die Adobe Journey Optimizer-Schlüsselwörter SMS STOP, START und HELP nicht für Alpha-Sender-IDs verfügbar. Sie müssen weitere Anweisungen geben, z. B. Schreiben an das Supportteam, Anrufen einer Telefonleitung beim Support oder SMS an eine andere Telefonnummer oder einen anderen Code, damit sich Benutzer von Nachrichten abmelden können, die über die alphanumerische Sender-ID gesendet werden.
+
+#### Video {#video-sms}
+
+Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (START, STOP und UNSTOP) für SMS finden Sie im folgenden Video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
