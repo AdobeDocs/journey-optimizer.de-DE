@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 98%
+source-wordcount: '1505'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,12 @@ Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte
 >abstract="Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, dann die primäre Seite und die untergeordneten Seiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html?lang=de#lp-create-preset" text="Erstellen von Landingpage-Voreinstellungen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=de#publish-landing-page" text="Veröffentlichen der Landingpage"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Zuweisen von Bezeichnungen zu Ihrer Landingpage"
+>abstract="Zum Schutz sensibler digitaler Assets können Sie Berechtigungen definieren, mit denen Sie den Datenzugriff auf Ihre Landingpage mithilfe von Beschriftungen verwalten können."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Erstellen von Landingpage-Voreinstellungen"
 
 Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
