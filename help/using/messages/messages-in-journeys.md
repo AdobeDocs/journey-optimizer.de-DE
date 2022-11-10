@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # Hinzufügen von Nachrichten in Journeys{#messages-in-journeys}
 
@@ -83,7 +83,7 @@ Verwenden Sie die **[!UICONTROL Sendezeitoptimierung]**, um jeweils personalisie
 
 Erweiterte Parameter sind schreibgeschützt und standardmäßig ausgeblendet.
 
-Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]** im oberen Bereich des Nachrichtenfensters. Klicken Sie auf dasselbe Symbol, um erweiterte Einstellungen auszublenden.
+Um auf erweiterte Parameter zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Schreibgeschützte Felder anzeigen]** im oberen Bereich des Nachrichtenfensters. Klicken Sie auf dasselbe Symbol erneut, um erweiterte Einstellungen auszublenden.
 
 ![](assets/show-read-only.png)
 
@@ -93,7 +93,7 @@ Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token
 
 ![](assets/push-adv-parameters.png)
 
-Für E-Mails können Sie die [primäre E-Mail-Adresse](../configuration/primary-email-addresses.md).
+Für E-Mails können Sie die [primäre E-Mail-Adresse](../configuration/primary-email-addresses.md) anzeigen.
 
 In bestimmten Kontexten können Sie diese Werte für eine bestimmte Verwendung überschreiben. Um einen bestimmten Wert zu erzwingen, können Sie das Symbol **[!UICONTROL Parameterüberschreibung aktivieren]** rechts neben dem Feld anklicken.
 
@@ -101,12 +101,12 @@ In bestimmten Kontexten können Sie diese Werte für eine bestimmte Verwendung �
 
 Diese Option kann zum Beispiel für folgende Zwecke nützlich sein:
 
-* Testen Sie eine E-Mail. Sie können Ihre E-Mail-Adresse hinzufügen. Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen, und nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
 * Sie können auf die E-Mail-Adresse der Abonnenten einer Liste verweisen. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
 
 >[!NOTE]
 >
->Die Außerkraftsetzung von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der in der Variablen **[!UICONTROL Ausführungsfelder]** ist der, der verwendet werden sollte. [Weitere Informationen](../configuration/primary-email-addresses.md)
+>Das Überschreiben von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der Wert, der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** definiert ist, derjenige ist, der verwendet werden sollte. [Weitere Informationen](../configuration/primary-email-addresses.md)
 
 ## Nachrichten durchsuchen{#browse-message}
 

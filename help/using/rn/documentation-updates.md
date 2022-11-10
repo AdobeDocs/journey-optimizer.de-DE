@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Oktober 2022 {#october-2022}
 
-* Es wurde ein Journey-Anwendungsbeispiel zur Begrenzung des Durchsatzes mithilfe von externen Datenquellen und benutzerdefinierten Aktionen hinzugefügt. [Mehr dazu](../building-journeys/limit-throughput.md)
-* Der Abschnitt zum Journey-Anwendungsfall wurde in zwei Kategorien umstrukturiert: [Anwendungsfälle für Unternehmen](../building-journeys/journeys-uc.md) und [Technische Anwendungsfälle](../building-journeys/collections.md).
-* Die **Entitätsdatensatz** wurde mit weiteren Details aktualisiert. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
+* Es wurde ein Journey-Anwendungsfall zur Begrenzung des Durchsatzes mithilfe von externen Datenquellen und benutzerdefinierten Aktionen hinzugefügt. [Mehr dazu](../building-journeys/limit-throughput.md)
+* Der Abschnitt zum Journey-Anwendungsfall wurde in zwei Kategorien umstrukturiert: [Geschäftliche Anwendungsfälle](../building-journeys/journeys-uc.md) und [Technische Anwendungsfälle](../building-journeys/collections.md).
+* Der Abschnitt zu **Entitätsdatensätzen** wurde mit weiteren Details aktualisiert. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
 * Informationen zur Opt-out-Verwaltung und zu den Zustimmungsrichtlinien wurden in einen neuen Abschnitt organisiert. [Mehr dazu](../privacy/opt-out.md)
-* Der Abschnitt zu erweiterten Parametern in Journey-Nachrichten wurde klarer formuliert und legt nun fest, dass das Außerkraftsetzen von E-Mail-Adressen nur für bestimmte Anwendungsfälle verwendet werden sollte. Meistens wird der Wert, der als primäre Adresse in der **Ausführungsfelder** ist der, der verwendet werden sollte. [Mehr dazu](../messages/messages-in-journeys.md#adv-settings)
-* Es wurde ein Hinweis zum **Landingpage-Subdomains konfigurieren** -Abschnitt, um anzugeben, dass Großbuchstaben in Subdomains von Landingpages nicht zulässig sind. [Mehr dazu](../configuration/lp-subdomains.md)
+* Der Abschnitt zu erweiterten Parametern in Journey-Nachrichten wurde klarer formuliert und betont nun, dass das Überschreiben von E-Mail-Adressen nur für bestimmte Anwendungsfälle verwendet werden sollte. Meistens ist der Wert, der als primäre Adresse in den **Ausführungsfeldern** definiert ist, derjenige, der verwendet werden sollte. [Mehr dazu](../messages/messages-in-journeys.md#adv-settings)
+* Es wurde ein Hinweis zum Abschnitt **Konfigurieren von Landingpage-Subdomains** hinzugefügt, um anzugeben, dass Großbuchstaben in Subdomains von Landingpages nicht zulässig sind. [Mehr dazu](../configuration/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 

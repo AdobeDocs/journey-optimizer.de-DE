@@ -1,5 +1,5 @@
 ---
-title: Weberfahrungen erstellen
+title: Erstellen von Web-Erfahrungen
 description: Erfahren Sie, wie Sie eine Webseite erstellen und ihren Inhalt in Journey Optimizer bearbeiten
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Weberfahrungen erstellen {#create-web}
+# Erstellen von Web-Erfahrungen {#create-web}
 
 >[!AVAILABILITY]
 >

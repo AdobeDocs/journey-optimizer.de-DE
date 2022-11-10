@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -48,12 +48,12 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für [!DNL Jour
 
 **Journeys**
 
-* Die **Wiedereintritt erzwingen bei Wiederholung** wurde unter Planparametern für wiederkehrende Lesesegmente hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beenden. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Die Option **Erneuten Eintritt bei Wiederholung erzwingen** wurde zu den Planparametern für wiederkehrende Lesesegmente hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Administration**
 
-* Der Benutzeroberfläche wurde eine Meldung hinzugefügt, die darauf hinweist, dass die Konfigurationen von Subdomain, Landingpage-Subdomäne, PTR-Datensatz und IP-Pool für alle Sandboxes gelten. Daher wirkt sich jede Änderung an einer dieser Konfigurationen auch auf die Produktions-Sandboxes aus.
-* Die Schritte zum Hochladen der Unterdrückungsliste als CSV-Datei aus der Benutzeroberfläche wurden geändert. [Weitere Informationen](../configuration/manage-suppression-list.md#download-suppression-list)
+* Es wurde eine Nachricht zur Benutzeroberfläche hinzugefügt, die darauf hinweist, dass die Konfigurationen von Subdomain, Landingpage-Subdomain, PTR-Eintrag und IP-Pool für alle Sandboxes gelten. Daher wirkt sich jede Änderung an einer dieser Konfigurationen auch auf die Produktions-Sandboxes aus.
+* Die Schritte zum Hochladen der Unterdrückungsliste als CSV-Datei über die Benutzeroberfläche wurden geändert. [Weitere Informationen](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Kampagnen**
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Anwendungsfälle {#journey-use-cases}
-      + Anwendungsfälle für Unternehmen {#business-use-cases}
+      + Geschäftliche Anwendungsfälle {#business-use-cases}
          + [Senden von Multi-Channel-Nachrichten](using/building-journeys/journeys-uc.md)
          + [Senden einer Nachricht mit Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
          + [Senden einer Nachricht an Abonnenten](using/building-journeys/message-to-subscribers-uc.md)
@@ -177,17 +177,17 @@ ht-degree: 94%
    + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
    + [Prüfen von Warnhinweisen](using/messages/alerts.md)
    + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
-+ Webkanal{#web}
-   + [Erste Schritte mit dem Webkanal](using/web/get-started-web.md)
-   + [Weberfahrungen erstellen](using/web/create-web.md)
-   + [Autoren-Webseiten](using/web/author-web.md)
++ Web-Kanal{#web}
+   + [Erste Schritte mit Web-Kanal](using/web/get-started-web.md)
+   + [Erstellen von Web-Erfahrungen](using/web/create-web.md)
+   + [Verfassen von Web-Seiten](using/web/author-web.md)
    + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
-   + [Webberichte](using/web/web-report.md)
+   + [Web-Berichte](using/web/web-report.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
-   + [In-App-Kanal konfigurieren](using/in-app/inapp-configuration.md)
-   + [In-App-Nachricht erstellen](using/in-app/create-in-app.md)
-   + [Erstellen von In-App-Inhalten](using/in-app/design-in-app.md)
+   + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
+   + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
+   + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
    + [In-App-Bericht](using/in-app/inapp-report.md)
 + Inhaltserstellung {#design}
    + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
@@ -413,7 +413,7 @@ ht-degree: 94%
             + [Weitere Zustellversuche](using/configuration/retries.md)
             + [Zulassungsliste](using/configuration/allow-list.md)
       + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + [Briefpost konfigurieren](using/configuration/direct-mail-configuration.md)
+      + [Konfigurieren von Briefpost](using/configuration/direct-mail-configuration.md)
       + Einrichten von Kanaloberflächen {#set-up-channels}
          + [Erstellen von Kanaloberflächen](using/configuration/channel-surfaces.md)
          + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)

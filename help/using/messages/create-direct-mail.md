@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 9%
+source-wordcount: '478'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 9%
 
 Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpost-Dienstleister zum Senden von Nachrichten an Ihre Kunden benötigen.
 
-Beim Erstellen einer Briefpost generiert Journey Optimizer eine Datei, die alle Zielgruppenprofile und die ausgewählten Daten enthält (z. B. Postanschrift, Profilattribute). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.
+Beim Erstellen einer Briefpost generiert Journey Optimizer eine Datei, die alle Zielgruppenprofile und die ausgewählten Daten enthält (z. B. Postanschrift, Profilattribute). Ihr Briefpost-Dienstleister kann dann diese Datei abrufen und übernimmt den eigentlichen Versand.
 
 Briefpost-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht zur Verwendung in API-basierten Kampagnen oder in Journey verfügbar.
 
@@ -31,15 +32,15 @@ Briefpost-Nachrichten können nur im Rahmen geplanter Kampagnen erstellt werden.
 >
 >Bevor Sie eine Briefpost senden, stellen Sie sicher, dass Sie Folgendes konfiguriert haben:
 >
->* A [Dateirouting-Konfiguration](../configuration/direct-mail-configuration.md#file-routing-configuration) , der den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
->* A [Oberfläche für Briefpost-Nachrichten](../configuration/direct-mail-configuration.md#direct-mail-surface) , die auf die Dateirouting-Konfiguration verweist.
+>1. A [Dateirouting-Konfiguration](../configuration/direct-mail-configuration.md#file-routing-configuration) , der den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
+>1. A [Oberfläche für Briefpost-Nachrichten](../configuration/direct-mail-configuration.md#direct-mail-surface) , die auf die Dateirouting-Konfiguration verweist.
 
 
 ## Briefpost-Nachricht erstellen {#create}
 
-Gehen Sie zur Erstellung und zum Versand einer Briefpost-Nachricht wie folgt vor:
+Gehen Sie wie folgt vor, um eine Briefpost-Nachricht zu erstellen und zu senden:
 
-1. Erstellen Sie eine neue geplante Kampagne, wählen Sie **[!UICONTROL Briefpost]** und wählen Sie die zu verwendende Nachrichtenoberfläche aus.
+1. Erstellen Sie eine neue geplante Kampagne, wählen Sie **[!UICONTROL Briefpost]** und wählen Sie die zu verwendende Kanaloberfläche aus. [Erfahren Sie, wie Sie eine Oberfläche für Briefpost erstellen](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +76,4 @@ Gehen Sie zur Erstellung und zum Versand einer Briefpost-Nachricht wie folgt vor
 
 1. Sobald der Inhalt der Briefpost definiert wurde, konfigurieren Sie Ihre Kampagne.
 
-   Wenn die Kampagne gestartet wird, wird die Extraktionsdatei automatisch generiert und auf den in Ihrer [Dateirouting-Konfiguration](../configuration/direct-mail-configuration.md).
+   Wenn die Kampagne gestartet wird, wird die Extraktionsdatei automatisch generiert und an den in Ihrer [Dateirouting-Konfiguration](../configuration/direct-mail-configuration.md).

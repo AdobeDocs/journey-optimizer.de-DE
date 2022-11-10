@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit dem Webkanal
+title: Erste Schritte mit Web-Kanal
 description: Informationen zum Webkanal in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Erste Schritte mit dem Webkanal {#get-sarted-web}
+# Erste Schritte mit Web-Kanal {#get-sarted-web}
 
 >[!AVAILABILITY]
 >
@@ -36,9 +37,9 @@ Wenn Sie bereits ausgehende Kanäle wie E-Mail, SMS oder Push-Benachrichtigungen
 
 <table>
 <tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Weberfahrungen erstellen</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Autoren-Webseiten</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Webberichte</a></p></td>
+<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Erstellen von Web-Erfahrungen</a></p></td>
+<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Verfassen von Web-Seiten</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web-Berichte</a></p></td>
 </tr>
 </table>
 
