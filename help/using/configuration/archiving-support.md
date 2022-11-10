@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 99%
+source-wordcount: '1235'
+ht-degree: 98%
 
 ---
 
@@ -64,15 +64,7 @@ Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche
 
 ![](assets/preset-bcc-in-msg.png)
 
-Die BCC-Adresse wird jedoch gemäß der folgenden Logik für den Versand von Nachrichten übernommen:
-
-* Bei Batch- und Burst-Journeys gilt dies nicht für Batch- oder Burst-Ausführungen, die bereits begonnen hatten, bevor die BCC-Einstellung vorgenommen wurde. Die Änderung wird beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
-
-* Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (bis zu einer Minute Verzögerung).
-
->[!NOTE]
->
->Sie müssen die Journey nicht erneut veröffentlichen, damit die BCC-Einstellung übernommen wird.
+Die BCC-Adresse wird jedoch nach der beschriebenen Logik für den Versand von Nachrichten erfasst [here](email-settings.md).
 
 ### Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 

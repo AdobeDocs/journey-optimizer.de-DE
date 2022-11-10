@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 81%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 100%
 Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt zur Konfiguration der Kanaloberfläche (d. h. Nachrichtenvoreinstellung). In [diesem Abschnitt](channel-surfaces.md) erfahren Sie, wie Sie eine Oberfläche erstellen.
 
 ![](assets/preset-email-settings.png)
+
+Die Konfiguration der E-Mail-Oberfläche wird wie folgt für den Versand von Nachrichten erfasst:
+
+* Bei Batch- und Burst-Journey gilt dies nicht für die Batch- oder Burst-Ausführung, die bereits begonnen hatte, bevor die E-Mail-Oberflächenkonfiguration vorgenommen wurde. Die Änderungen werden bei der nächsten Wiederholung oder der nächsten Ausführung übernommen.
+
+* Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (bis zu 5 Minuten Verzögerung).
+
+>[!NOTE]
+>
+>Die aktualisierten E-Mail-Oberflächeneinstellungen werden automatisch in den Journey(n) oder Kampagnen aufgenommen, in denen die Oberfläche verwendet wird.
 
 ## E-Mail-Typ {#email-type}
 
@@ -96,25 +106,39 @@ Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Na
 
 Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen und E-Mail-Adressen ein, die mit dem Typ der mit dieser Oberfläche gesendeten E-Mails verknüpft sind.
 
->[!CAUTION]
->
->Die E-Mail-Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md) verwenden.
-
 * **[!UICONTROL Absendername]**: Der Name des Absenders, wie z. B. der Name Ihrer Marke.
 
-* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten. Wenn die zugewiesene Subdomain beispielsweise *marketing.luma.com* lautet, können Sie *contact@marketing.luma.com* verwenden.
+* **[!UICONTROL Absender-E-Mail]**: Die E-Mail-Adresse, die Sie für Ihre Kommunikation verwenden möchten.
 
 * **[!UICONTROL Antwort an (Name)]**: Der Name, der verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt.
 
-* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. Sie müssen eine Adresse verwenden, die in der zugewiesenen Subdomain definiert ist (z. B. *reply@marketing.luma.com*), da ansonsten die E-Mails gelöscht werden.
+* **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. [Weitere Informationen](#reply-to-email)
 
 * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
+
+>[!CAUTION]
+>
+>Die **[!UICONTROL Absenderadresse]** und **[!UICONTROL Fehler-E-Mail]** -Adressen müssen die aktuell ausgewählte [delegierte Subdomain](about-subdomain-delegation.md). Wenn die delegierte Subdomain beispielsweise *marketing.luma.com* können Sie *contact@marketing.luma.com* und *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >Adressen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
+
+### Antwort auf E-Mail {#reply-to-email}
+
+Bei der Definition der **[!UICONTROL Antwort an (E-Mail)]** -Adresse können Sie eine beliebige E-Mail-Adresse angeben, vorausgesetzt, es handelt sich um eine gültige Adresse, ein korrektes Format und keine Tippfehler.
+
+Befolgen Sie die nachstehenden Empfehlungen, um eine ordnungsgemäße Antwortverwaltung sicherzustellen:
+
+* Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails, einschließlich Abwesenheitsbenachrichtigungen und Anfechtungsantworten. Stellen Sie daher sicher, dass Sie über einen manuellen oder automatisierten Prozess zur Verarbeitung der E-Mails verfügen, die in diesen Posteingang eingehen.
+
+* Stellen Sie sicher, dass der dedizierte Posteingang über genügend Aufnahmekapazität verfügt, um alle E-Mails zu erhalten, die über die E-Mail-Oberfläche gesendet werden. Wenn der Posteingang Bounces zurückgibt, werden manche Antworten von Ihren Kunden möglicherweise nicht empfangen.
+
+* Die Antworten müssen unter Berücksichtigung der Datenschutz- und Compliance-Verpflichtungen verarbeitet werden, da sie personenbezogene Daten (PII) enthalten können.
+
+* Markieren Sie keine Nachrichten im Antwort-Posteingang als Spam, da dies Auswirkungen auf alle anderen Antworten hat, die an diese Adresse gesendet werden.
 
 ### Weiterleiten von E-Mails {#forward-email}
 

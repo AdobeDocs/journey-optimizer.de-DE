@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 83%
 
 ---
 
 # Unterdrückungsliste {#suppression-list}
 
-Eine Unterdrückungsliste besteht aus E-Mail-Adressen, die Sie von Ihren Sendungen ausschließen möchten, da das Senden an diese Kontakte Ihren Ruf als Versender und Ihre Versandraten beeinträchtigen könnte.
+Eine Unterdrückungsliste besteht aus Adressen und Domänen, die Sie aus Ihren Sendungen ausschließen möchten, da der Versand an diese Kontakte Ihrer Reputation und den Versandraten schaden könnte.
 
 Die [!DNL Journey Optimizer] Die Unterdrückungsliste wird auf Ihrer eigenen Umgebungsebene verwaltet, d. h. für eine bestimmte Sandbox.
 
@@ -25,7 +25,7 @@ Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-
 
 >[!NOTE]
 >
->Adobe führt eine aktualisierte Liste bekannter schlechter E-Mail-Adressen, die nachweislich die Interaktion und die Sender-Reputation beeinträchtigen, und stellt sicher, dass E-Mails an diese Adressen nicht zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
+>Adobe führt eine aktualisierte Liste bekannter schlechter Adressen, die nachweislich die Interaktion und Reputation des Mailings beeinträchtigen, und stellt sicher, dass ihnen keine E-Mails zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
 ## Wozu eine Unterdrückungsliste? {#why-suppression-list}
 
@@ -37,11 +37,11 @@ Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vo
 
 ## Was steht in der Unterdrückungsliste? {#what-s-on-suppression-list}
 
-E-Mail-Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
+Adressen werden der Unterdrückungsliste wie folgt hinzugefügt:
 
-* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden E-Mail-Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste.
+* Alle **Hardbounces** und **Spam-Beschwerden** automatisch die entsprechenden Adressen an die Unterdrückungsliste senden, nachdem sie nur einmal aufgetreten sind.
 
-* **Softbounces** senden eine E-Mail-Adresse nicht sofort an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Anschließend werden [weitere Zustellversuche](../configuration/retries.md) unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
+* **Softbounces** senden Sie nicht sofort eine Adresse an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Anschließend werden [weitere Zustellversuche](../configuration/retries.md) unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
 
 * Sie können auch [**manuell** eine Adresse oder eine Domain](../configuration/manage-suppression-list.md#add-addresses-and-domains) zur Unterdrückungsliste hinzufügen.
 
