@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkei
 
 * Für den E-Mail-Kanal bietet [!DNL Journey Optimizer] eine integrierte BCC-Funktion. [Weitere Informationen](#bcc-email)
 
-* Darüber hinaus können Sie für alle Kanäle das Feld „Vorlage“ im **Entitätsdatensatz** verwenden, in dem die Details der nicht personalisierten Nachrichtenvorlagen enthalten sind. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, wie etwa die Personen, die die Nachricht gesendet und empfangen haben sowie den Zeitpunkt. Beachten Sie, dass personalisierte Daten nicht exportiert werden – es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Informationen](../start/datasets-query-examples.md#entity-dataset)
+* Darüber hinaus können Sie für alle Kanäle das Feld „Vorlage“ im **Entitätsdatensatz** verwenden, in dem die Details der nicht personalisierten Nachrichtenvorlagen enthalten sind. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, wie etwa die Personen, die die Nachricht gesendet und empfangen haben sowie den Zeitpunkt. Beachten Sie, dass personalisierte Daten nicht exportiert werden – es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Informationen](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Gehen Sie dazu wie folgt vor.
 
 Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]** gespeichert. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
 
-Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus und aktivieren Sie den Umschalter **[!UICONTROL Anzeigen von Systemdatensätzen]** aus dem Filter, um die systemgenerierten Datensätze anzuzeigen. In [diesem Abschnitt](../start/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
+Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus und aktivieren Sie den Umschalter **[!UICONTROL Anzeigen von Systemdatensätzen]** aus dem Filter, um die systemgenerierten Datensätze anzuzeigen. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
 
 ![](assets/preset-bcc-dataset.png)
 
-Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der vom [Adobe Experience Platform Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../start/get-started-queries.md)
+Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der vom [Adobe Experience Platform Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
