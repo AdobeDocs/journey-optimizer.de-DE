@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ Im Großen und Ganzen ist die Flexibilität, die Sie von Ihren Daten erwarten, d
     <br>
   </td>
   <td>
-    <div>Verfügbar in anderen Zielen - Während Journey Optimizer Daten für ein überaus personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten suchen, diese Daten zu nutzen. <a href="../start/ajo-integrations.md">Weitere Informationen</a>&lt;</div>
+    <div>Verfügbar in anderen Zielen - Während Journey Optimizer Daten für ein überaus personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten suchen, diese Daten zu nutzen.
+    <div>
+     <a href="../start/ajo-integrations.md">Weitere Informationen</a></div>
+    </div>
     <br>
   </td>
 </tr>
