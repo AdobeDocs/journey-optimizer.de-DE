@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 100%
@@ -62,11 +62,11 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL DATEN-MANAGEMENT]**
 
-* **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen](get-started-schemas.md)
+* **[!UICONTROL Schemata]**: Verwenden Sie Adobe Experience Platform, um Experience Data Model-(XDM-)Schemata auf einer interaktiven visuellen Arbeitsfläche zu erstellen und zu verwalten, die als Schema-Editor bezeichnet wird. [Weitere Informationen](../data/get-started-schemas.md)
 
-* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Weitere Informationen](get-started-datasets.md)
+* **[!UICONTROL Datensätze]**: Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. [Weitere Informationen](../data/get-started-datasets.md)
 
-* **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](get-started-queries.md)
+* **[!UICONTROL Abfragen]**: Verwenden Sie den Abfrage-Service von Adobe Experience Platform, um Abfragen zu schreiben und auszuführen, zuvor ausgeführte Abfragen anzuzeigen und auf Abfragen zuzugreifen, die von Benutzern in Ihrem Unternehmen gespeichert wurden. [Weitere Informationen](../data/get-started-queries.md)
 
 * **[!UICONTROL Überwachung]**: Verwenden Sie dieses Menü, um die Datenaufnahme in der Benutzeroberfläche von Adobe Experience Platform zu überwachen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=de){target=&quot;_blank&quot;}
 

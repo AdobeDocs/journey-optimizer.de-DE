@@ -5,7 +5,7 @@ title: Journey Optimizer – Erste Schritte für Datentechniker
 description: Hier erfahren Datentechniker mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Die Schritte zum Erstellen eines Identity-Namespace und eines Datensatzes, der z
 
 1. **Erstellen eines Identity-Namespace**. In Adobe [!DNL Journey Optimizer] verknüpfen **Identitäten** Verbraucher geräteübergreifend und kanalübergreifend. Das Ergebnis ist ein Identitätsdiagramm. Das verknüpfte Identitätsdiagramm wird verwendet, um Erlebnisse auf der Basis von Interaktionen an allen Ihren Kontaktpunkten zu personalisieren.  Weitere Informationen zu Identitäten und Identity-Namespaces finden Sie [auf dieser Seite](../../segment/get-started-identity.md).
 
-1. **Erstellen Sie ein Schema** und aktivieren Sie es für Profile. Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat repräsentiert und überprüft. Schemas bieten eine übergeordnete abstrakte Definition eines realen Objekts (z. B. einer Person) und bestimmen, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum).  Weitere Informationen zu Schemas erhalten Sie [auf dieser Seite](../get-started-schemas.md).
+1. **Erstellen Sie ein Schema** und aktivieren Sie es für Profile. Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat repräsentiert und überprüft. Schemas bieten eine übergeordnete abstrakte Definition eines realen Objekts (z. B. einer Person) und bestimmen, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum).  Weitere Informationen zu Schemas erhalten Sie [auf dieser Seite](../../data/get-started-schemas.md).
 
 1. **Erstellen Sie Datensätze** und aktivieren Sie sie für Profile. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet. Datensätze enthalten auch Metadaten, die verschiedene Aspekte der in ihnen gespeicherten Daten beschreiben. Nachdem ein Datensatz erstellt wurde, können Sie ihn einem vorhandenen Schema zuordnen und ihm Daten hinzufügen. Weitere Informationen zu Datensätzen finden Sie [auf dieser Seite](../get-started-datasets.md).
 
