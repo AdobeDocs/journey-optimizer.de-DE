@@ -7,10 +7,11 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 90%
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -29,7 +30,7 @@ Tritt ein solches unerwartetes Verhalten auf, wird den Abonnenten des Warnhinwei
 
 ![](assets/alerts2.png)
 
-Wenn Sie [Warnhinweisregeln in der Platform-Benutzeroberfläche anzeigen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), können Sie jede Regel einzeln abonnieren. Beim Abonnieren von Warnhinweisen über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de) sind Warnhinweisregeln jedoch in verschiedene Abonnementpakete unterteilt. Der I/O-Ereignis-Abonnementname, der dem Warnhinweis für „Segment lesen“ entspricht, lautet: „Verzögerungen, Fehler und Fehler für Segment lesen in Journey“.
+Wann [Anzeigen von Warnregeln in der Adobe Experience Platform-Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html)können Sie jede Regel einzeln abonnieren. Beim Abonnieren von Warnhinweisen über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de) sind Warnhinweisregeln jedoch in verschiedene Abonnementpakete unterteilt. Der I/O-Ereignis-Abonnementname, der dem Warnhinweis für „Segment lesen“ entspricht, lautet: „Verzögerungen, Fehler und Fehler für Segment lesen in Journey“.
 
 >[!WARNING]
 >
