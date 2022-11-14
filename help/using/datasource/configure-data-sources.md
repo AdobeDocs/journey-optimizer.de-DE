@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 95%
 
 ---
 
-# Datenquelle konfigurieren {#configure-data-source}
+# Konfigurieren einer Datenquelle {#configure-data-source}
 
-Im Folgenden finden Sie die wichtigsten Schritte zur Konfiguration der Datenquelle:
 
 >[!NOTE]
 >
 >Die Konfiguration von Datenquellen wird immer von einem **technischen Anwender** durchgeführt.
+
+Gehen Sie wie folgt vor, um eine Datenquelle zu konfigurieren:
 
 1. Wählen Sie im Menü ADMINISTRATION die Option **[!UICONTROL Konfigurationen]**. Klicken Sie im Abschnitt **[!UICONTROL Datenquellen]** auf **[!UICONTROL Verwalten]**. Die Liste der Datenquellen wird angezeigt. Weitere Informationen zur Benutzeroberfläche finden Sie auf [dieser Seite](../start/user-interface.md).
 
@@ -51,7 +52,7 @@ Die Anzahl der Journeys, die eine Feldergruppe verwendet, wird im Feld **[!UICON
 
 >[!NOTE]
 >
->Beachten Sie, dass Feldergruppen ohne Felder nicht im Ausdruckseditor angezeigt werden.
+>Beachten Sie, dass Feldergruppen, die kein Feld haben, nicht im Ausdruckseditor angezeigt werden.
 
 ![](assets/journey3bis.png)
 
