@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 82%
@@ -19,14 +19,14 @@ ht-degree: 82%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[E-Mail-Tracking-Erfahrungs-Ereignisdatensatz](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Nachrichten-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[Push-Tracking-Erfahrungs-Ereignisdatensatz](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Journey-Step-Ereignis](../data/datasets-query-examples.md#journey-step-event)
-[Decisioning-Ereignisdatensatz](../data/datasets-query-examples.md#ode-decisionevents)
-[Einverständnisdienst-Datensatz](../data/datasets-query-examples.md#consent-service-dataset)
-[BCC-Feedback-Ereignisdatensatz](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Entitätsdatensatz](../data/datasets-query-examples.md#entity-dataset)
+[E-Mail-Tracking-Erfahrungs-Ereignisdatensatz](#email-tracking-experience-event-dataset)
+[Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
+[Push-Tracking-Erfahrungs-Ereignisdatensatz](#push-tracking-experience-event-dataset)
+[Journey-Step-Ereignis](#journey-step-event)
+[Decisioning-Ereignisdatensatz](#ode-decisionevents)
+[Einverständnisdienst-Datensatz](#consent-service-dataset)
+[BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
+[Entitätsdatensatz](#entity-dataset)
 
 ## E-Mail-Tracking-Erfahrung-Ereignisdatensatz{#email-tracking-experience-event-dataset}
 
