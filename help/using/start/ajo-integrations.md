@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 37%
+source-wordcount: '525'
+ht-degree: 33%
 
 ---
 
@@ -71,6 +71,6 @@ Weitere Informationen [benutzerdefinierte Aktionen](../action/about-custom-actio
 
 ## Externe Systeme{#integration-external-systems}
 
-Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über benutzerdefinierte Datenquellen und Aktionen konfigurieren. Auf diese Weise können Sie beispielsweise Ihre Journeys mit Daten aus einem externen Reservierungssystem anreichern oder Nachrichten mithilfe eines Drittanbietersystems wie Epsilon oder Facebook versenden.
+Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über benutzerdefinierte Datenquellen und Aktionen konfigurieren. So können Sie beispielsweise Ihre Journey mit Daten aus einem externen Reservierungssystem anreichern.
 
 Erfahren Sie, wie Sie mit externen Datenquellen eine Verbindung zu einem Drittanbietersystem definieren können in [diesem Abschnitt](../datasource/external-data-sources.md).
