@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '529'
 ht-degree: 33%
 
 ---
@@ -22,8 +22,7 @@ Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern
 
 >[!NOTE]
 >
-> Auf Adobe Experience Platform aufbauend ist Adobe Journey Optimizer nativ mit [Adobe Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (überprüfen Sie beispielsweise, ob die Person, die an einer Journey teilgenommen hat, ein Kunde ist oder nicht). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten.
-
+> Auf Adobe Experience Platform aufbauend ist Adobe Journey Optimizer nativ mit [Adobe Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (überprüfen Sie beispielsweise, ob die Person, die an einer Journey teilgenommen hat, ein Kunde ist oder nicht). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. [Weitere Informationen](../datasource/adobe-experience-platform-data-source.md).
 
 ## Reporting{#integration-reporting}
 
@@ -45,7 +44,7 @@ Weitere Informationen [Journey Optimizer + Analytics](../event/about-analytics.m
 
 ## Maschinelles Lernen{#integration-intelligent-service}
 
-Durch die Integration mit Adobe Intelligent Services können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich wären.
+Durch die Integration mit Adobe Intelligent Services können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich wären. [Weitere Informationen](../building-journeys/ai-services-overview.md).
 
 ## Nachrichten senden {#integration-messages}
 
