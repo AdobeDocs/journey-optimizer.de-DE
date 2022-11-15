@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 33%
+source-wordcount: '517'
+ht-degree: 34%
 
 ---
 
@@ -41,7 +41,7 @@ Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics b
 
 Weitere Informationen [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## Maschinelles Lernen{#integration-intelligent-service}
+## Adobe Intelligent Services{#integration-intelligent-service}
 
 Durch die Integration mit Adobe Intelligent Services können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich wären. [Weitere Informationen](../building-journeys/ai-services-overview.md).
 
