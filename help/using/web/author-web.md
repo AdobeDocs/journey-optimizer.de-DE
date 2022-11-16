@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '916'
 ht-degree: 6%
 
 ---
@@ -29,7 +29,11 @@ So können Sie auf Webseiten im [!DNL Journey Optimizer] Befolgen Sie die unter 
 
 Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren Inhalt mit dem Webdesigner bearbeiten. Gehen Sie dazu wie folgt vor.
 
-1. Aus dem **[!UICONTROL Aktion]** im Tab der Kampagne, wählen Sie **[!UICONTROL Inhalt bearbeiten]** , um mit der Erstellung Ihrer Web-Kampagne zu beginnen. [Weitere Informationen](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Zugriff auf [!DNL Journey Optimizer], muss Ihre Webseite mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;}.
+
+1. Aus dem **[!UICONTROL Aktion]** im Tab der Kampagne, wählen Sie **[!UICONTROL Inhalt bearbeiten]** , um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
 1. Wenn Sie eine Seitenabgleichregel erstellt haben, müssen Sie jede URL eingeben, die dieser Regel entspricht. Die Änderungen werden auf alle Seiten angewendet, die mit der Regel übereinstimmen.
 
@@ -43,7 +47,7 @@ Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren In
 
    >[!CAUTION]
    >
-   >Damit auf die Webseite zugegriffen werden kann, muss sie mithilfe der Variablen [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;}.
+   >Die Webseite muss die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Klicken **[!UICONTROL Webdesigner öffnen]** , um sie zu bearbeiten. [Weitere Informationen](author-web.md)
 
