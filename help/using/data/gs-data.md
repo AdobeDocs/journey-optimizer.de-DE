@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
+exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
+source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 0%
+source-wordcount: '877'
+ht-degree: 4%
 
 ---
 
@@ -30,32 +31,23 @@ Im Großen und Ganzen ist die Flexibilität, die Sie von Ihren Daten erwarten, d
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <img alt="Ziele" src="assets/do-not-localize/dest.png" />
-    <br>
-  </td>
-  <td>
-    <div>Verfügbar in anderen Zielen - Während Journey Optimizer Daten für ein überaus personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten suchen, diese Daten zu nutzen.
+    <div><img alt="Ziele" src="assets/do-not-localize/dest.png" /> 
+    <br>Verfügbar in anderen Zielen - Während Journey Optimizer Daten für ein überaus personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten suchen, diese Daten zu nutzen.
     <div>
      <a href="../start/ajo-integrations.md">Weitere Informationen</a></div>
     </div>
     <br>
   </td>
 </tr>
-<tr style="border: 0;">
   <td>
-    <img alt="Treue" src="assets/do-not-localize/retention.png" />
-  </td>
-  <td>
-    <div>Beibehalten für eine bestimmte Dauer - Branchen- oder Regionalbestimmungen (wie DSGVO oder CCPA) oder interne Data Governance-Richtlinien legen fest, wie lange oder wie kurz die Dauer ist, Daten im Adobe Experience Platform Data Lake aufbewahrt oder archiviert werden müssen. <a href="../privacy/get-started-privacy.md">Weitere Informationen</a></div>
+    <div><img alt="Treue" src="assets/do-not-localize/retention.png" />  
+    <br>Beibehalten für eine bestimmte Dauer - Branchen- oder Regionalbestimmungen (wie DSGVO oder CCPA) oder interne Data Governance-Richtlinien legen fest, wie lange oder wie kurz die Dauer ist, Daten im Adobe Experience Platform Data Lake aufbewahrt oder archiviert werden müssen. <a href="../privacy/get-started-privacy.md">Weitere Informationen</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <img alt="policy" src="assets/do-not-localize/policy.png" />
-    <br>
-  </td>
-  <td>
-    <div>Gelöschte Basis eines vereinbarten Zeitplans für Ihre Richtlinie - Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data Governance-Prozessen. Journey Optimizer erzeugt möglicherweise mehr Daten als erforderlich. Außerdem sollten Sie darauf achten, was nach der erforderlichen Dauer für einen Datensatz geschieht - sei es aus Gründen der Nützlichkeit oder der Regulierung. Das benötigte Steuerelement besteht darin, Daten jederzeit zu löschen.</div>
+    <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
+    <br>Gelöschte Basis eines vereinbarten Zeitplans für Ihre Richtlinie - Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data Governance-Prozessen. Journey Optimizer erzeugt möglicherweise mehr Daten als erforderlich. Außerdem sollten Sie darauf achten, was nach der erforderlichen Dauer für einen Datensatz geschieht - sei es aus Gründen der Nützlichkeit oder der Regulierung. Das benötigte Steuerelement besteht darin, Daten jederzeit zu löschen. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Weitere Informationen zur Datenhygiene finden Sie in der Dokumentation zu Adobe Experience Platform .</a></div>
   </td>
 </tr>
 </table>
@@ -66,18 +58,23 @@ Alle Daten werden als Eigentum von Customers betrachtet und können nur auf Anfr
 
 Sie können die Datenflexibilität von Journey Optimizer nutzen, um Ihre spezifischen Anforderungen in Bezug auf die Datenaufbewahrung, -archivierung oder -löschung zu erfüllen:
 
-* **Datenextraktion/Export**: Sie können die Extraktion von Quelldaten jederzeit über die Data Access API ohne Strafen oder Zeitverzögerungen starten. Die [Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) bietet Benutzern eine RESTful-Schnittstelle, die sich auf die Auffindbarkeit und Zugänglichkeit erfasster Datensätze innerhalb der Experience Platform konzentriert. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Datenextraktion/Export**: Sie können die Extraktion von Quelldaten jederzeit über die Data Access API ohne Strafen oder Zeitverzögerungen starten. Die [Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;} bietet Benutzern eine RESTful-Schnittstelle, die sich auf die Auffindbarkeit und Zugänglichkeit erfasster Datensätze innerhalb der Experience Platform konzentriert. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Beachten Sie, dass in Journey oder Kampagnen verwendete Inhalte nicht über die oben genannten API- oder Zielmethoden extrahiert werden können.
 
 * **Datenaufbewahrung für den Profildienst**: Für an ein Profil angehängte Verhaltens- und Zeitreihendaten können Sie die Standardeinstellung von Journey Optimizer verwenden, diese Daten bis zu 30 Tage lang ab dem Datum der Profileinfügung oder bis zu einem von Ihnen ausgewählten alternativen Zeitraum beizubehalten. Der Zeitpunkt, zu dem die Adobe diese Daten speichert, variiert von Vertrag zu Vertrag und wird in der Datenaufbewahrungsrichtlinie eines Unternehmens beschrieben.
 
+   Erfahren Sie mehr über die Ablauf von Erlebnisereignissen in [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target=&quot;_blank&quot;}.
+
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in Journey Optimizer frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, dass Alterungsdaten vor der Bereinigung oder Archivierung automatisch exportiert werden.
+
+   Der Arbeitsbereich Datenhygiene in der Adobe Experience Platform-Benutzeroberfläche ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen von Datensatzgültigkeiten. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Data Lake und Löschungen**: Im Data Lake gespeicherte Kundendaten können von Journey Optimizer beibehalten werden:
 
    * 7 Tage lang, um das Onboarding von Kundendaten in die Profildienste zu erleichtern, nach denen diese dauerhaft gelöscht werden können, oder
    * bis Sie ausgewählt haben, gelöscht zu werden
+
 
 * **Datenextraktion bei Beendigung der Interaktion/Ausstieg**: Nach Vertragsende werden Ihre Daten vollständig aus dem Speicher der Adobe entfernt. Außerdem können Sie vor Beendigung einer Vereinbarung die vollständigen Profilextrakte abrufen. Für diese Funktion fallen keine zusätzlichen Kosten an. Dies kann jederzeit und nicht nur nach Beendigung erfolgen.
 
