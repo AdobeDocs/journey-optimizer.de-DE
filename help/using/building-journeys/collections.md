@@ -67,6 +67,7 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
     ]
    }
    ```
+
 * Um Sammlungen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlungen nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
