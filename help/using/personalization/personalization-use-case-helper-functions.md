@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}.
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
@@ -62,6 +62,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 ## Schritt 2: E-Mail erstellen{#configure-email}
 
 1. Klicken sie in der Aktivität **E-Mail** auf **[!UICONTROL Inhalt bearbeiten]** und anschließend auf **[!UICONTROL Email Designer]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Textkörper der Nachricht.
@@ -104,11 +105,12 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
+      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Speichern Sie die Nachricht.
 
 ## Schritt 4: Liste der Artikel aus dem Warenkorb einfügen {#each-helper}
@@ -151,7 +153,6 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
-
       In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
       ![](assets/personalization-uc-helpers-10.png)
@@ -165,6 +166,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
 
 1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
 
@@ -186,6 +188,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    1. Fügen Sie dem Ausdruck das Token **[!UICONTROL Name]** aus den vorherigen Suchergebnissen hinzu.
 
    Wiederholen Sie diese Schritte zweimal:
+
    * Ersetzen Sie den Platzhalter „#quantity“ durch das Token **[!UICONTROL Menge]** .
    * Ersetzen Sie den Platzhalter „#priceTotal“ durch das Token **[!UICONTROL Gesamtpreis]** .
 
@@ -206,6 +209,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
    ```
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Schritt 5: Eine produktspezifische Anmerkung einfügen {#if-helper}
