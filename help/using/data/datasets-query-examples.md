@@ -11,7 +11,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -314,7 +314,7 @@ Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an den Endb
 
 Das zugehörige Schema ist das AJO-Entitätsschema.
 
-Mit diesem Datensatz erhalten Sie Zugriff auf vom Marketingexperten definierte Metadaten, mit denen Sie bessere Einblicke in die Berichterstellung erhalten, wenn Journey Optimizer-Datensätze zur Visualisierung von Berichten in externen Tools exportiert werden. Dies wird mithilfe des Attributs messageID erreicht, das verschiedene Datensätze wie den Nachrichten-Feedback-Datensatz und die Tracking-Datensätze zu Erlebnisereignissen zuordnet, um Details zu einem Nachrichtenversand vom Senden an das Tracking auf Profilebene zu erhalten.
+Mit diesem Datensatz erhalten Sie Zugriff auf von Marketing-Experten definierte Metadaten. So können Sie für bessere Insights bei der Berichterstellung sorgen, wenn Journey Optimizer-Datensätze zur Visualisierung von Berichten in externen Tools exportiert werden. Das wird mithilfe des Attributs „messageID“ erzielt, das bei der Zuordnung verschiedener Datensätze wie dem Nachrichten-Feedback-Datensatz und Erlebnisereignis-Tracking-Datensätzen hilft, sodass Details zu einem Nachrichtenversand vom Versand bis zum Tracking auf Profilebene verfügbar werden.
 
 **Wichtige Hinweise**
 
@@ -324,7 +324,7 @@ Mit diesem Datensatz erhalten Sie Zugriff auf vom Marketingexperten definierte M
 
 >[!NOTE]
 >
->Derzeit gibt es aus Kompatibilitätsgründen zwei Einträge für jede Nachrichtenveröffentlichung im Entitäts-Datensatz. Dies wirkt sich nicht auf Ihre Fähigkeit aus, bei Bedarf Join-Abfragen für Datensätze zu verwenden, um die gewünschten Informationen abzurufen.
+>Um dafür zu sorgen, dass auch in Zukunft die Kompatibilität gesichert ist, gibt es derzeit im Entitätsdatensatz zwei Einträge für jede Nachrichtenveröffentlichung. Dies wirkt sich nicht auf Ihre Fähigkeit aus, bei Bedarf Join-Abfragen für Datensätze zu verwenden, um die gewünschten Informationen abzurufen.
 
 Mit der folgenden Abfrage können Sie die zugehörige Nachrichtenvorlage für eine bestimmte Kampagne abrufen:
 

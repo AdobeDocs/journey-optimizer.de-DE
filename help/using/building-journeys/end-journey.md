@@ -6,13 +6,13 @@ description: Erfahren Sie, wie Journey in Journey Optimizer endet.
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 98%
 
 ---
-
 
 # Journey beenden{#journey-ending}
 
@@ -90,4 +90,3 @@ Alternativ können Sie auch folgendermaßen vorgehen:
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
    ![](assets/finish_drop_down_list.png)
 1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.
-

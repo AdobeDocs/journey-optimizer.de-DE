@@ -11,7 +11,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Inkrementelles Lesen**: Wenn eine Journey mit einem wiederkehrenden Schritt vom Typ **Segment lesen** zum ersten Mal ausgeführt wird, treten alle Profile im Segment in die Journey ein. Mit dieser Option können Sie nach dem ersten Vorkommen nur die Kontakte auswählen, die das Segment seit der letzten Ausführung der Journey aufgerufen haben.
+   Option **Inkrementelles Lesen**: Wenn eine Journey mit einem wiederkehrenden Schritt vom Typ **Segment lesen** zum ersten Mal ausgeführt wird, treten alle Profile im Segment in die Journey ein. Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Einzelpersonen anzusprechen, die seit der letzten Journey-Ausführung in das Segment eingetreten sind.
 
-   **Wiedereintritt erzwingen bei Wiederholung**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beenden. Wenn Sie beispielsweise eine Wartezeit von zwei Tagen in einer täglich wiederkehrenden Journey haben, werden durch Aktivierung dieser Option Profile bei der nächsten Journey-Ausführung (also am darauffolgenden Tag) immer verschoben, unabhängig davon, ob sie sich in der nächsten Ausführungszielgruppe befinden oder nicht. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann, aktivieren Sie diese Option nicht, um sicherzustellen, dass die Profile ihre Journey abschließen können.
+   **Erneuten Eintritt bei Wiederholung erzwingen**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. Wenn Sie beispielsweise eine Wartezeit von 2 Tagen in dieser wiederkehrenden Journey haben, werden Profile immer auf die nächste Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Audience der nächsten Ausführung befinden oder nicht. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
 
 <!--
 

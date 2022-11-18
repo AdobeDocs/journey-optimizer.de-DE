@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Zugriff auf zugewiesene Subdomains
+title: Zugriff auf delegierte Subdomains
 description: Erfahren Sie, wie Sie auf zugewiesene Subdomains zugreifen können.
 feature: Application Settings
 topic: Administration
@@ -11,7 +11,7 @@ exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die Spalte **[!UICONTROL Status]** enthält Informationen zum Prozess der Zuweis
 * **[!UICONTROL Erfolgreich]**: Die Subdomain hat die Prüfungen erfolgreich durchlaufen und bestanden und kann zum Versand von Nachrichten verwendet werden.
 * **[!UICONTROL Fehlgeschlagen]**: Eine oder mehrere Prüfungen sind fehlgeschlagen, nachdem die Subdomain-Zuweisung übermittelt wurde.
 
-So greifen Sie auf detaillierte Informationen zu einer Subdomain zu: **[!UICONTROL Erfolg]** -Status, öffnen Sie sie in der Liste.
+Um auf detaillierte Informationen zu einer Subdomain mit dem Status **[!UICONTROL Erfolgreich]** zuzugreifen, öffnen Sie sie in der Liste.
 
 ![](assets/subdomain-delegated.png)
 
@@ -41,4 +41,4 @@ Sie haben folgende Möglichkeiten:
 
 >[!CAUTION]
 >
->Die Konfiguration von Subdomains ist in allen Umgebungen üblich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.
+>Die Konfiguration von Subdomains ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain auch auf die Produktions-Sandboxes aus.

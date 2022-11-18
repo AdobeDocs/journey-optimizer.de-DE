@@ -11,7 +11,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Eine Best Practice ist beispielsweise, einen IP-Pool für Ihre Marketing-Nachric
 
 >[!CAUTION]
 >
->Die Konfiguration des IP-Pools ist in allen Umgebungen üblich. Daher wirkt sich die Erstellung oder Bearbeitung von IP-Pools auch auf die Produktions-Sandboxes aus.
+>Die Konfiguration eines IP-Pools ist in allen Umgebungen gleich. Daher wirkt sich die Erstellung oder Bearbeitung von IP-Pools auch auf die Produktions-Sandboxes aus.
 
 ## Erstellen eines IP-Pools {#create-ip-pool}
 

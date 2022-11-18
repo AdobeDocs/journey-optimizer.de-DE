@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
+exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 82%
 
 ---
 
@@ -49,7 +50,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 
    ![](assets/audiences-publish.png)
 
-1. Sobald Ihre Komposition fertig ist, klicken Sie auf die **[!UICONTROL Veröffentlichen]** -Schaltfläche, um die Komposition zu veröffentlichen und die resultierenden Zielgruppen in Adobe Experience Platform zu speichern.
+1. Sobald Ihre Komposition fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um die Komposition zu veröffentlichen und die resultierenden Audiences in Adobe Experience Platform zu speichern.
 
    Tritt während der Veröffentlichung ein Fehler auf, werden Warnhinweise mit Informationen zur Behebung des Problems angezeigt.
 

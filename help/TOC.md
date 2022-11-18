@@ -179,8 +179,8 @@ ht-degree: 97%
    + [Prüfen von Warnhinweisen](using/messages/alerts.md)
    + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
 + Web-Kanal{#web}
-   + [Erste Schritte mit Web-Kanal](using/web/get-started-web.md)
-   + [Erstellen von Web-Erfahrungen](using/web/create-web.md)
+   + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
+   + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + [Verfassen von Web-Seiten](using/web/author-web.md)
    + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
    + [Web-Berichte](using/web/web-report.md)

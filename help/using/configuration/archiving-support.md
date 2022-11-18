@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Archivierungsunterstützung in Journey Optimizer
-description: Erfahren Sie, wie Sie Nachrichten archivieren
+description: So archivieren Sie Nachrichten
 feature: Application Settings
 topic: Administration
 role: Admin

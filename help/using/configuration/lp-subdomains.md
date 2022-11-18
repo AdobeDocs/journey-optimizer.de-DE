@@ -9,7 +9,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 
 >[!CAUTION]
 >
->Die Konfiguration der Subdomain für Landingpages ist in allen Umgebungen üblich. Daher wirkt sich jede Änderung an einer Unterdomäne der Landingpage auch auf die Produktions-Sandboxes aus.
+>Die Konfiguration der Subdomain von Landingpages ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain von Landingpages auch auf die Produktions-Sandboxes aus.
 
 Beachten Sie, dass Großbuchstaben in einer Subdomain nicht zulässig sein sollten
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
    >
    >Sie können keine schon vorhandene Landingpage-Subdomain verwenden.
    >
-   >Großbuchstaben sind in Subdomänen nicht zulässig.
+   >Großbuchstaben sind in Subdomains nicht zulässig.
 
    Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
 

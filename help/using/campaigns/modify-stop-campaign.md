@@ -11,7 +11,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 Sobald eine Kampagne aktiviert wurde, kann sie jederzeit geändert oder gestoppt werden. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
 
-Darüber hinaus können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, um neue zu erstellen und abgeschlossene oder gestoppte Kampagnen zu archivieren.
+Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, wenn neue Kampagnen erstellt werden sollen, und gestoppte oder abgeschlossene Kampagnen archivieren.
 
 ## Bearbeitung einer wiederkehrenden Kampagne {#modify}
 
@@ -59,12 +59,12 @@ Eine Live-Kampagne kann dupliziert werden, um eine neue zu erstellen. Dazu bitte
 
 ![](assets/create-campaign-duplicate.png)
 
-## Kampagne archivieren {#archive}
+## Archivieren einer Kampagne {#archive}
 
-Mit der Zeit wächst die Liste der Kampagnen und erschwert es schließlich, abgeschlossene und gestoppte Kampagnen zu durchsuchen.
+Mit der Zeit wächst die Liste der Kampagnen, wodurch es zunehmend schwieriger wird, abgeschlossene und gestoppte Kampagnen zu durchsuchen.
 
 Um dies zu verhindern, können Sie abgeschlossene und gestoppte Kampagnen archivieren, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Archivieren]**.
 
 ![](assets/create-campaign-archive.png)
 
-Archivierte Kampagnen können dann mithilfe des dedizierten Filters in der Liste abgerufen werden. [Erfahren Sie, wie Sie auf Kampagnen zugreifen können](get-started-with-campaigns.md#access)
+Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Liste abgerufen werden. [Erfahren Sie, wie Sie auf Kampagnen zugreifen können](get-started-with-campaigns.md#access)

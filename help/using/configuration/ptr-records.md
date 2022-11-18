@@ -11,7 +11,7 @@ exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Sie können einen PTR-Eintrag ändern, um die mit einer IP-Adresse verknüpfte S
 
 >[!CAUTION]
 >
->PTR-Datensätze sind in allen Umgebungen vorhanden. Daher wirkt sich jede Änderung an einem PTR-Datensatz auch auf die Produktions-Sandboxes aus.
+>PTR-Einträge sind in allen Umgebungen vorhanden. Daher wirkt sich jede Änderung an einem PTR-Eintrag auch auf die Produktions-Sandboxes aus.
 >
 >Gehen Sie bei der Bearbeitung von PTR-Einträgen mit größter Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 

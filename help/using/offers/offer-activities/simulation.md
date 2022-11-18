@@ -51,7 +51,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
 >[!CAUTION]
 >
->Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../../segment/creating-test-profiles.md).
+>Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf **[!UICONTROL Profil verwalten]**.
 

@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 84%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Für 
 
 ![](assets/alerts1.png)
 
-Tritt ein solches unerwartetes Verhalten auf, wird den Abonnenten des Warnhinweises per E-Mail oben rechts in der Benutzeroberfläche eine Warnmeldung gesendet.
+Tritt ein solches unerwartetes Verhalten auf, wird eine Warnmeldung per E-Mail an Abonnenten von Warnhinweisen gesendet und als In-App-Benachrichtigung in der rechten oberen Ecke der Benutzeroberfläche angezeigt.
 
 ![](assets/alerts2.png)
 

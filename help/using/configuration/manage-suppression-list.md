@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1293'
+ht-degree: 100%
 
 ---
 
 # Verwalten der Unterdrückungsliste {#manage-suppression-list}
 
-Mit [!DNL Journey Optimizer]können Sie alle E-Mail-Adressen überwachen, die automatisch vom Versand in einer Journey oder Kampagne ausgeschlossen sind, z. B.:
+Mit [!DNL Journey Optimizer] können Sie alle E-Mail-Adressen überwachen, die automatisch vom Versand einer Journey ausgeschlossen sind, z. B.:
 
 * ungültige Adressen (Hardbounces).
 * Adressen, die durchgängig zu Softbounces führen und sich negativ auf Ihre E-Mail-Reputation auswirken können, wenn Sie sie weiterhin in Ihre Sendungen aufnehmen.
@@ -80,7 +80,7 @@ In der Ansicht **[!UICONTROL Unterdrückungsliste]** können Sie auch Unterdrüc
 
 Gehen Sie wie folgt vor, um die Unterdrückungsliste als CSV-Datei zu exportieren.
 
-1. Wählen Sie die **[!UICONTROL CSV herunterladen]** Schaltfläche.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
    ![](assets/suppression-list-download-csv.png)
 
@@ -90,11 +90,11 @@ Gehen Sie wie folgt vor, um die Unterdrückungsliste als CSV-Datei zu exportiere
 
    >[!NOTE]
    >
-   >Die Downloadzeit hängt von der Dateigröße ab, d. h. der Anzahl der Adressen, die sich auf der Unterdrückungsliste befinden.
+   >Die Download-Zeit hängt von der Dateigröße ab, d. h. der Anzahl der Adressen, die sich auf der Unterdrückungsliste befinden.
    >
-   >Eine Download-Anfrage kann für eine bestimmte Sandbox gleichzeitig verarbeitet werden.
+   >Es kann jeweils nur eine Download-Anfrage für eine Sandbox gleichzeitig verarbeitet werden.
 
-1. Nach der Erstellung der Datei erhalten Sie eine Benachrichtigung. Klicken Sie auf das Glockensymbol oben rechts im Bildschirm, um es anzuzeigen.
+1. Sobald die Datei erstellt wurde, erhalten Sie eine Benachrichtigung. Klicken Sie auf das Glockensymbol oben rechts im Bildschirm, um sie anzuzeigen.
 
 1. Klicken Sie auf die Benachrichtigung selbst, um die Datei herunterzuladen.
 
@@ -160,7 +160,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Hinzufügen von E-Mails/Domains zur Unterdrückungsliste"
->abstract="Um die Unterdrückungsliste aufzufüllen, können Sie E-Mail-Adressen oder Domänen manuell hinzufügen: einzeln oder im Bulk-Modus über einen CSV-Datei-Upload. Diese spezifischen E-Mail-Adressen und/oder Domains sind vom Versand ausgeschlossen."
+>abstract="Um die Unterdrückungsliste zu füllen, können Sie E-Mail-Adressen oder Domains manuell hinzufügen – einzeln oder im Bulk-Modus über das Hochladen einer CSV-Datei. Diese spezifischen E-Mail-Adressen und/oder Domains sind vom Versand ausgeschlossen."
 
 Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, wird diese Adresse basierend auf der definierten Unterdrückungsregel oder der Anzahl der Bounces automatisch auf die Unterdrückungsliste gesetzt.
 

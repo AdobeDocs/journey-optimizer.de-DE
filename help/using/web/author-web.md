@@ -1,6 +1,6 @@
 ---
 title: Verfassen von Web-Seiten
-description: Erfahren Sie, wie Sie eine Webseite erstellen und ihren Inhalt in Journey Optimizer bearbeiten
+description: Erfahren Sie, wie Sie in Journey Optimizer eine Web-Seite erstellen und ihren Inhalt bearbeiten
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
 source-wordcount: '916'
-ht-degree: 6%
+ht-degree: 96%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Die Webkanalfunktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können.
+>Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
 
-In [!DNL Journey Optimizer] Die Webbearbeitung basiert auf der Chrome-Browsererweiterung Adobe Experience Cloud Visual Helper . [Weitere Informationen](visual-editing-helper.md)
+In [!DNL Journey Optimizer] basiert das Erstellen von Web-Seiten auf der Chrome-Browser-Erweiterung Adobe Experience Cloud Visual Helper . [Weitere Informationen](visual-editing-helper.md)
 
-So können Sie auf Webseiten im [!DNL Journey Optimizer] Befolgen Sie die unter [diesem Abschnitt](create-web.md#prerequesites).
+Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen in [diesem Abschnitt](create-web.md#prerequesites).
 
-## Bearbeiten des Webseiteninhalts {#edit-web-content}
+## Bearbeiten der Inhalte von Web-Seiten {#edit-web-content}
 
-Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren Inhalt mit dem Webdesigner bearbeiten. Gehen Sie dazu wie folgt vor.
+Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre Inhalte mit dem Web-Designer bearbeiten. Gehen Sie dazu wie folgt vor.
 
 >[!CAUTION]
 >
 >Zugriff auf [!DNL Journey Optimizer], muss Ihre Webseite mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Aus dem **[!UICONTROL Aktion]** im Tab der Kampagne, wählen Sie **[!UICONTROL Inhalt bearbeiten]** , um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne die Option **[!UICONTROL Inhalt bearbeiten]** aus, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
-1. Wenn Sie eine Seitenabgleichregel erstellt haben, müssen Sie jede URL eingeben, die dieser Regel entspricht. Die Änderungen werden auf alle Seiten angewendet, die mit der Regel übereinstimmen.
+1. Wenn Sie eine Matching-Regel für Seiten erstellt haben, müssen Sie jede URL eingeben, die dieser Regel entspricht. Die Änderungen werden auf alle Seiten angewendet, die mit der Regel übereinstimmen.
 
    >[!NOTE]
    >
-   >Wenn Sie eine einzelne URL als Weboberfläche eingegeben haben, ist die zu personalisierende URL bereits ausgefüllt.
+   >Wenn Sie eine einzelne URL als Web-Oberfläche eingegeben haben, ist die zu personalisierende URL bereits ausgefüllt.
 
    ![](assets/web-edit-enter-url.png)
 
@@ -49,43 +49,43 @@ Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren In
    >
    >Die Webseite muss die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
-1. Klicken **[!UICONTROL Webdesigner öffnen]** , um sie zu bearbeiten. [Weitere Informationen](author-web.md)
+1. Klicken Sie auf **[!UICONTROL Web-Designer öffnen]**, um sie zu bearbeiten. [Weitere Informationen](author-web.md)
 
    ![](assets/web-open-designer.png)
 
-1. Der Webdesigner wird angezeigt.
+1. Der Web-Designer wird angezeigt.
 
    ![](assets/web-designer.png)
 
-1. Wählen Sie ein beliebiges Element auf der Arbeitsfläche aus, z. B. Bild, Schaltfläche, Absatz, Text, Container, Überschrift, Link usw. und verwenden:
+1. Wählen Sie ein beliebiges Element auf der Arbeitsfläche aus, z. B. Bild, Schaltfläche, Absatz, Text, Container, Überschrift, Link usw. und verwenden Sie:
 
-   * Kontextmenü zur Bearbeitung des Inhalts, des Layouts, der Links oder der Personalisierung usw.
+   * das Kontextmenü zur Bearbeitung des Inhalts, des Layouts, der Links oder der Personalisierung usw.
 
       ![](assets/web-designer-contextual-bar.png)
 
-   * Die Symbole oben im rechten Bereich zum Bearbeiten, Duplizieren, Löschen oder Ausblenden der einzelnen Elemente.
+   * die Symbole oben im rechten Bereich zum Bearbeiten, Duplizieren, Löschen oder Ausblenden der einzelnen Elemente.
 
       ![](assets/web-designer-right-panel-icons.png)
 
-   * Der rechte Bereich, der sich dynamisch entsprechend dem ausgewählten Element ändert. Sie können beispielsweise den Hintergrund, die Typografie, den Rahmen, die Größe, die Position, den Abstand, die Effekte oder Inline-Stile eines Elements bearbeiten.
+   * den rechten Bereich, der sich dynamisch entsprechend dem ausgewählten Element ändert. Sie können beispielsweise den Hintergrund, die Typografie, den Rahmen, die Größe, die Position, den Abstand, die Effekte oder Inline-Stile eines Elements bearbeiten.
 
       ![](assets/web-designer-right-panel.png)
 
 ## Verwenden von Inhaltskomponenten {#content-components}
 
-1. Aus dem **[!UICONTROL Komponenten]** auf der linken Seite können Sie die folgenden Komponenten zu Ihrer Webseite hinzufügen und sie nach Bedarf bearbeiten:
+1. Aus dem Bedienfeld **[!UICONTROL Komponenten]** auf der linken Seite können Sie die folgenden Komponenten zu Ihrer Web-Seite hinzufügen und sie nach Bedarf bearbeiten:
 
    * [Trennlinie](../design/content-components.md#divider)
    * [HTML](../design/content-components.md#HTML)
    * [Bild](../design/content-components.md#image)
-   * Überschrift - Die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
-   * Absatz - Die Verwendung dieser Komponente ähnelt der Verwendung der **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
-   * Link - Erfahren Sie, wie Sie die Formatierung von Links in [diesem Abschnitt](../design/styling-links.md)
+   * Überschrift – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
+   * Absatz – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
+   * Link – Erfahren Sie in [diesem Abschnitt](../design/styling-links.md), wie Sie Link-Stile definieren.
    * [Angebotsentscheidung](../design/deliver-personalized-offers.md)
 
    ![](assets/web-designer-components.png)
 
-1. Bewegen Sie den Mauszeiger auf die Seite und klicken Sie auf die Schaltfläche **[!UICONTROL Einfügen vor]** oder **[!UICONTROL Einfügen nach]** -Schaltfläche, um die Komponente an ein vorhandenes Element auf der Seite anzuhängen.
+1. Bewegen Sie den Mauszeiger über die Seite und klicken Sie auf die Schaltfläche **[!UICONTROL Einfügen vor]** oder **[!UICONTROL Einfügen nach]**, um die Komponente an ein vorhandenes Element auf der Seite anzuhängen.
 
    ![](assets/web-designer-insert-components.png)
 
@@ -93,11 +93,11 @@ Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren In
 
    ![](assets/web-designer-edit-html.png)
 
-1. Passen Sie die Stile an, die über die **[!UICONTROL Container]** -Bereich auf der rechten Seite, z. B. Hintergrund, Textfarbe, Rahmen, Größe, Position usw. abhängig von der ausgewählten Komponente.
+1. Passen Sie die Stile an, die im **[!UICONTROL Container]**-Bereich auf der rechten Seite angezeigt werden, z. B. Hintergrund, Textfarbe, Rahmen, Größe, Position usw., abhängig von der ausgewählten Komponente.
 
    ![](assets/web-designer-html-style.png)
 
-## Navigieren durch den Webdesigner
+## Navigieren durch den Web-Designer
 
 ### Verwenden von Breadcrumbs
 
@@ -109,31 +109,31 @@ Nachdem Sie eine Webaktion aus der Kampagne erstellt haben, können Sie Ihren In
 
 1. Wenn Sie den Mauszeiger über die Breadcrumbs bewegen, wird das entsprechende Element im Editor hervorgehoben.
 
-1. Damit können Sie einfach zu jedem übergeordneten, gleichrangigen oder untergeordneten Element im Visual Editor navigieren.
+1. Damit können Sie einfach zu jedem übergeordneten, gleichrangigen oder untergeordneten Element im visuellen Editor navigieren.
 
-### Zum Modus &quot;Durchsuchen&quot;wechseln {#browse-mode}
+### Wechseln in den Durchsuchen-Modus {#browse-mode}
 
-Sie können die Standardeinstellung ersetzen **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]** -Modus über die dedizierte Schaltfläche.
+Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]**-Modus wechseln.
 
 ![](assets/web-designer-browse-mode.png)
 
-Aus dem **[!UICONTROL Durchsuchen]** -Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren.
+Im **[!UICONTROL Durchsuchen]**-Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren.
 
-Dies ist besonders nützlich, wenn es um Seiten geht, die hinter der Authentifizierung stehen oder von Anfang an nicht über eine bestimmte URL verfügbar sind. Sie können sich beispielsweise authentifizieren, zu Ihrer Kontoseite oder zu Ihrer Warenkorbseite navigieren und dann zurück zu **[!UICONTROL Design]** -Modus, um die Änderungen auf der gewünschten Seite durchzuführen.
+Dies ist besonders nützlich, wenn es um Seiten geht, die sich hinter der Authentifizierung befinden oder nicht von Anfang an über eine bestimmte URL verfügbar sind. Sie können sich beispielsweise authentifizieren, zu Ihrer Kontoseite oder zu Ihrer Warenkorbseite navigieren und dann zurück in den **[!UICONTROL Design]**-Modus wechseln, um die Änderungen auf der gewünschten Seite durchzuführen.
 
 ### Ändern der Gerätegröße
 
-Sie können die Gerätegröße in eine vordefinierte Größe ändern, z. B. **[!UICONTROL Tablette]** oder **[!UICONTROL Mobilgerät - Querformat]** oder legen Sie eine benutzerdefinierte Größe fest. Geben Sie die gewünschte Anzahl Pixel an, um eine benutzerdefinierte Größe zu definieren.
+Sie können die Gerätegröße in eine vordefinierte Größe ändern, z. B. **[!UICONTROL Tablet]** oder **[!UICONTROL Mobilgerät – Querformat]**, oder eine benutzerdefinierte Größe festlegen. Geben Sie die gewünschte Anzahl von Pixeln an, um eine benutzerdefinierte Größe zu definieren.
 
-Sie können auch den Zoomfokus von 25 % auf 400 % ändern.
+Sie können auch den Zoom-Fokus ändern – von 25 % bis 400 %.
 
 ![](assets/web-designer-device.png)
 
-## Änderungen verwalten {#manage-modifications}
+## Verwalten von Änderungen {#manage-modifications}
 
-Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie Ihrer Webseite hinzugefügt haben.
+Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie Ihrer Web-Seite hinzugefügt haben.
 
-1. Wählen Sie die **[!UICONTROL Änderungen]** -Schaltfläche, um den entsprechenden Bereich auf der linken Seite anzuzeigen.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Änderungen]**, um den entsprechenden Bereich auf der linken Seite anzuzeigen.
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -145,39 +145,39 @@ Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie 
 
    >[!CAUTION]
    >
-   >Gehen Sie beim Löschen einer Aktion mit Vorsicht vor, da sich dies auf nachfolgende Aktionen auswirken kann.
+   >Gehen Sie beim Löschen einer Aktion vorsichtig vor, da sich dies auf nachfolgende Aktionen auswirken kann.
 
-1. Sie können Aktionen auch mithilfe der **[!UICONTROL Rückgängig/Wiederherstellen]** rechts oben auf dem Bildschirm.
+1. Sie können Aktionen auch mithilfe der Schaltfläche **[!UICONTROL Rückgängig/Wiederholen]** rechts oben auf dem Bildschirm abbrechen und wiederholen.
 
    ![](assets/web-designer-undo-redo.png)
 
-   Klicken Sie auf die Schaltfläche und halten Sie sie gedrückt, um zwischen der **[!UICONTROL Rückgängig]** und **[!UICONTROL Wiederholen]** Optionen. Klicken Sie dann auf die Schaltfläche selbst, um die gewünschte Aktion anzuwenden.
+   Klicken Sie auf die Schaltfläche und halten Sie sie gedrückt, um zwischen den Optionen **[!UICONTROL Rückgängig]** und **[!UICONTROL Wiederholen]** zu wechseln. Klicken Sie dann auf die Schaltfläche selbst, um die gewünschte Aktion anzuwenden.
 
-## Personalisierung und Angebote hinzufügen
+## Hinzufügen von Personalisierung und Angeboten
 
-Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und wählen Sie das Personalisierungssymbol in der angezeigten Kontextmenüleiste aus. Fügen Sie Ihre Änderungen mithilfe des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und klicken Sie auf das Personalisierungssymbol in der angezeigten Kontextmenüleiste. Fügen Sie Ihre Änderungen mithilfe des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
-Verwenden Sie die **[!UICONTROL Angebotsentscheidung]** einzufügende Komponente [Angebote](../offers/get-started/starting-offer-decisioning.md) in Ihre Webseiten einfügen. Der Prozess ist derselbe wie bei [Hinzufügen eines Angebots zu einer E-Mail](../design/deliver-personalized-offers.md). Sie nutzt die Entscheidungsverwaltung, um das beste Angebot für Ihre Kunden auszuwählen.
+Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote](../offers/get-started/starting-offer-decisioning.md) in Ihre Web-Seiten einzufügen. Der Prozess ist der gleiche wie beim [Hinzufügen eines Angebots zu einer E-Mail](../design/deliver-personalized-offers.md). Er nutzt das Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
 
 ![](assets/web-designer-offer.png)
 
-## Webkampagne testen {#test-web-campaign}
+## Testen der Web-Kampagne {#test-web-campaign}
 
 Gehen Sie wie folgt vor, um eine Vorschau Ihres geänderten Web-Erlebnisses anzuzeigen.
 
 >[!CAUTION]
 >
->Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
+>Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../segment/creating-test-profiles.md).
 
-1. Wählen Sie entweder aus dem **[!UICONTROL Inhalt bearbeiten]** Bildschirm oder Webdesigner auswählen **[!UICONTROL Inhalt simulieren]**.
+1. Wählen Sie entweder auf dem Bildschirm **[!UICONTROL Inhalt bearbeiten]** oder im Web-Designer **[!UICONTROL Inhalt simulieren]** aus.
 
    ![](assets/web-designer-simulate.png)
 
-1. Klicken **[!UICONTROL Verwalten von Testprofilen]** , um ein oder mehrere Testprofile auszuwählen.
-1. Es wird eine Vorschau der geänderten Webseite angezeigt.
+1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein oder mehrere Testprofile auszuwählen.
+1. Es wird eine Vorschau der geänderten Web-Seite angezeigt.
 
    ![](assets/web-designer-preview.png)
 
-1. Sie können die Test-URL auch kopieren, um sie in einen beliebigen Browser einzufügen oder im Standardbrowser zu öffnen.
+1. Sie können die Test-URL auch kopieren, um sie in einen beliebigen Browser einzufügen, oder sie im Standard-Browser öffnen.

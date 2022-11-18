@@ -1,6 +1,6 @@
 ---
-title: Webbericht
-description: Erfahren Sie, wie Sie Daten aus dem Webbericht verwenden
+title: Web-Bericht
+description: Erfahren Sie, wie Sie Daten aus dem Web-Bericht verwenden
 feature: Reporting
 topic: Content Management
 role: User
@@ -11,19 +11,19 @@ exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
-# Webbericht {#web-report}
+# Web-Bericht {#web-report}
 
-Der Webbericht ist im Kampagnenbericht verfügbar.
+Der Web-Bericht ist im Kampagnenbericht verfügbar.
 
 >[!NOTE]
 >
->Die Webkanalfunktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können.
+>Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
 
-Die Seite Kampagnenbericht wird mit den folgenden Tabs angezeigt:
+Die Seite „Kampagnenbericht“ wird mit den folgenden Registerkarten angezeigt:
 
 * [Campaign](../reports/campaign-global-report.md#campaign-live)
 * [E-Mail](../reports/campaign-global-report.md#email-live)
@@ -35,14 +35,14 @@ Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unt
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](../reports/global-report.md#list-of-components-global.md)
 
-## Webtab {#web-tab}
+## Registerkarte „Web“ {#web-tab}
 
 ![](assets/web-report.png)
 
-Die **[!UICONTROL Webleistung]** In KPIs werden die wichtigsten Informationen im Zusammenhang mit der Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen beschrieben, z. B.:
+Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen, z. B.:
 
-* **[!UICONTROL Einzelimpressionen]**: Anzahl der Unique Users, denen das Web-Erlebnis bereitgestellt wurde.
+* **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Benutzer, denen das Web-Erlebnis bereitgestellt wurde.
 
-* **[!UICONTROL Impressionen]**: Gesamtzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
+* **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
 
-Die **[!UICONTROL Webzusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen und Unique Impressions) für den betroffenen Zeitraum an.
+Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions und Eindeutige Impressions) für den betroffenen Zeitraum.

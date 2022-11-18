@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Unterdrückungsliste
-description: 'Erfahren Sie, wie Sie die Unterdrückungsliste wie folgt verwenden:'
+description: Erfahren Sie, wie Sie die Unterdrückungsliste verwenden
 feature: Deliverability
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 Eine Unterdrückungsliste besteht aus Adressen und Domänen, die Sie aus Ihren Sendungen ausschließen möchten, da der Versand an diese Kontakte Ihrer Reputation und den Versandraten schaden könnte.
 
-Die [!DNL Journey Optimizer] Die Unterdrückungsliste wird auf Ihrer eigenen Umgebungsebene verwaltet, d. h. für eine bestimmte Sandbox.
+Die Unterdrückungsliste in [!DNL Journey Optimizer] wird auf der Ebene Ihrer eigenen Umgebung verwaltet, das heißt für eine bestimmte Sandbox.
 
 Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-Client-Umgebung unterdrückt werden, d. h. spezifisch für eine Organisations-ID, die mit einer Sandbox-ID verbunden ist.
 
