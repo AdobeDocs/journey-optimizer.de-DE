@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Die `age`-Funktion wird verwendet, um das Alter zu einem bestimmten Datum abzuru
 **Format**
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 
 <!--
@@ -33,7 +33,7 @@ Die `age`-Funktion wird verwendet, um das Alter zu einem bestimmten Datum abzuru
 The following operation gets the value of the identity map for the key `example@example.com`.
 
 ```sql
- {%= age(date) %}
+ {%= age(datetime) %}
 ```
 -->
 
@@ -125,7 +125,7 @@ Die `formatDate`-Funktion wird zum Formatieren eines Datums-/Uhrzeitwerts verwen
 **Format**
 
 ```sql
-{%= formatDate(date, format) %}
+{%= formatDate(datetime, format) %}
 ```
 
 Dabei ist die erste Zeichenfolge das Datumsattribut, und der zweite Wert gibt an, wie das Datum konvertiert und angezeigt werden soll.
@@ -151,7 +151,7 @@ Die `setDays`-Funktion wird verwendet, um den Tag des Monats für die Datums-/Uh
 **Format**
 
 ```sql
-{%= setDays(date, day) %}
+{%= setDays(datetime, day) %}
 ```
 
 <!--
@@ -171,7 +171,7 @@ Die `setHours`-Funktion wird verwendet, um die Stunde der Datums-/Uhrzeitangabe 
 **Format**
 
 ```sql
-{%= setHours(date, hour) %}
+{%= setHours(datetime, hour) %}
 ```
 
 <!--
