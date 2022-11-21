@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 4%
 
 ---
@@ -68,7 +68,7 @@ Sie können die Datenflexibilität von Journey Optimizer nutzen, um Ihre spezifi
 
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in Journey Optimizer frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, dass Alterungsdaten vor der Bereinigung oder Archivierung automatisch exportiert werden.
 
-   Der Arbeitsbereich Datenhygiene in der Adobe Experience Platform-Benutzeroberfläche ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen von Datensatzgültigkeiten. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   Der Arbeitsbereich Datenhygiene in der Adobe Experience Platform-Benutzeroberfläche ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen von Datensatzgültigkeiten. Dieser Arbeitsbereich ist mit dem Sicherheits- und Datenschutzschild und dem Gesundheitsschild verfügbar. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Data Lake und Löschungen**: Im Data Lake gespeicherte Kundendaten können von Journey Optimizer beibehalten werden:
 
