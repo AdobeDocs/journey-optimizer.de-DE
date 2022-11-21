@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 99%
+source-wordcount: '2145'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## November 2022 {#november-2022}
 
-* Eine neue Seite zur Journey Optimizer-Integration wurde hinzugefügt - [Mehr dazu](../start/ajo-integrations.md)
+* Eine neue Seite über Journey Optimizer-Integrationen wurde hinzugefügt - [Mehr dazu](../start/ajo-integrations.md)
 * Es wurde eine Empfehlung zur Länge der Mirrorseiten-URLs hinzugefügt. [Mehr dazu](../design/message-tracking.md)
 
 ## Oktober 2022 {#october-2022}
@@ -25,7 +25,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Journey-Anwendungsfall zur Begrenzung des Durchsatzes mithilfe von externen Datenquellen und benutzerdefinierten Aktionen hinzugefügt. [Mehr dazu](../building-journeys/limit-throughput.md)
 * Der Abschnitt zum Journey-Anwendungsfall wurde in zwei Kategorien umstrukturiert: [Geschäftliche Anwendungsfälle](../building-journeys/journeys-uc.md) und [Technische Anwendungsfälle](../building-journeys/collections.md).
 * Der Abschnitt zu **Entitätsdatensätzen** wurde mit weiteren Details aktualisiert. [Mehr dazu](../data/datasets-query-examples.md#entity-dataset)
-* Informationen zur Opt-out-Verwaltung und zu den Zustimmungsrichtlinien wurden in einen neuen Abschnitt organisiert. [Mehr dazu](../privacy/opt-out.md)
+* Die Abschnitte zur Opt-out-Verwaltung und zu den Zustimmungsrichtlinien wurden umstrukturiert - [Mehr dazu](../privacy/opt-out.md)
 * Der Abschnitt zu erweiterten Parametern in Journey-Nachrichten wurde klarer formuliert und betont nun, dass das Überschreiben von E-Mail-Adressen nur für bestimmte Anwendungsfälle verwendet werden sollte. Meistens ist der Wert, der als primäre Adresse in den **Ausführungsfeldern** definiert ist, derjenige, der verwendet werden sollte. [Mehr dazu](../messages/messages-in-journeys.md#adv-settings)
 * Es wurde ein Hinweis zum Abschnitt **Konfigurieren von Landingpage-Subdomains** hinzugefügt, um anzugeben, dass Großbuchstaben in Subdomains von Landingpages nicht zulässig sind. [Mehr dazu](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Seiten zu den Funktionen [toDateOnly](../building-journeys/functions/functiontodateonly.md) und [toString](../building-journeys/functions/functiontostring.md) wurden aktualisiert.
 * Details zu den Zeitbedingungsparametern hinzugefügt. [Mehr dazu](../building-journeys/condition-activity.md#time_condition)
 * Informationen über integrierte Datensätze wurden hinzugefügt. [Mehr dazu](../data/get-started-datasets.md#access-datasets)
-* Die Abschnitte „Globaler Bericht“ und „Live-Bericht“ wurden neu organisiert, um die Lesbarkeit zu verbessern. [Mehr dazu](../reports/global-report.md)
+* Die Abschnitte Globaler Bericht und Live-Bericht wurden verbessert und neu organisiert. [Mehr dazu](../reports/global-report.md)
 * Eine Liste aller in Adobe Journey Optimizer verfügbaren Berichtsmetriken wurde hinzugefügt -
    [Mehr dazu](../reports/global-report.md#email-and-sms-metrics)
 * Der Abschnitt zur BCC-E-Mail wurde auf die neue Seite „Support für Archivierung“ verschoben. [Mehr dazu](../configuration/archiving-support.md)
