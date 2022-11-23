@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,11 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
    ![](assets/web-aep-merge-policy.png)
 
 ## Erstellen einer Web-Kampagne {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Definieren Sie eine Web-Oberfläche"
+>abstract="Eine Weboberfläche kann mit einer einzelnen Seiten-URL oder mehreren Seiten übereinstimmen, sodass Sie Inhaltsänderungen auf einer oder mehreren Webseiten bereitstellen können."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 

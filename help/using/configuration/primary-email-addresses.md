@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definieren der zu verwendenden Adresse"
->abstract="Wenn mehrere Adressen in der Datenbank vorhanden sind (privat, beruflich usw.), können Sie auswählen, welche Adresse für den Versand Vorrang haben soll."
+>abstract="Wenn mehrere E-Mail-Adressen oder Telefonnummern in der Datenbank verfügbar sind (persönlich, professionell usw.), können Sie wählen, welche für den Versand priorisiert werden soll."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="Definieren der zu verwendenden Adresse"
+>abstract="Bearbeiten Sie die Felder, die zur Bestimmung der E-Mail-Adresse oder Telefonnummer des Profils verwendet werden, um den Versand zu priorisieren."
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen oder Telefonnummern zur Verfügung (berufliche E-Mail-Adresse, persönliche Telefonnummer usw.).
 

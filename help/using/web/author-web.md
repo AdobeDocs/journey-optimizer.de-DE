@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,14 @@ In [!DNL Journey Optimizer] basiert das Erstellen von Web-Seiten auf der Chrome-
 Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugreifen oder sie dort zu erstellen, folgen Sie den Voraussetzungen in [diesem Abschnitt](create-web.md#prerequesites).
 
 ## Bearbeiten der Inhalte von Web-Seiten {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Geben Sie die zu bearbeitende URL ein"
+>abstract="Geben Sie die URL einer bestimmten Webseite an, die zur Bearbeitung des Inhalts verwendet werden soll, der auf die oben definierte Weboberfläche angewendet wird. Die Seite muss mit dem Adobe Experience Platform Web SDK implementiert werden."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Weitere Infos"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre Inhalte mit dem Web-Designer bearbeiten. Gehen Sie dazu wie folgt vor.
 
@@ -73,6 +81,11 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 ## Verwenden von Inhaltskomponenten {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Hinzufügen von Inhaltskomponenten zur Webseite"
+>abstract="Sie können Ihrer Webseite eine Reihe von Komponenten hinzufügen und diese nach Bedarf bearbeiten."
+
 1. Aus dem Bedienfeld **[!UICONTROL Komponenten]** auf der linken Seite können Sie die folgenden Komponenten zu Ihrer Web-Seite hinzufügen und sie nach Bedarf bearbeiten:
 
    * [Trennlinie](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 ### Wechseln in den Durchsuchen-Modus {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Durchsuchen-Modus verwenden"
+>abstract="In diesem Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren."
+
 Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]**-Modus wechseln.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ Sie können auch den Zoom-Fokus ändern – von 25 % bis 400 %.
 ![](assets/web-designer-device.png)
 
 ## Verwalten von Änderungen {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Einfaches Verwalten aller Änderungen"
+>abstract="Mithilfe dieses Bereichs können Sie alle Anpassungen und Stile, die Sie Ihrer Webseite hinzugefügt haben, durchsuchen und verwalten."
 
 Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie Ihrer Web-Seite hinzugefügt haben.
 
@@ -164,6 +187,11 @@ Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote
 ![](assets/web-designer-offer.png)
 
 ## Testen der Web-Kampagne {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Vorschau des Web-Erlebnisses"
+>abstract="Hier erhalten Sie eine Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
 Gehen Sie wie folgt vor, um eine Vorschau Ihres geänderten Web-Erlebnisses anzuzeigen.
 

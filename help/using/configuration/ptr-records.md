@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '779'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_admin_ptr_record"
 >title="PTR-Einträge der Subdomains"
 >abstract="Ein Pointer Record (PTR) ist eine Art von DNS-Eintrag, der den mit einer IP-Adresse verknüpften Domain-Namen bereitstellt, der den E-Mail-Empfangs-Servern beim Überprüfen der IP-Adressen der Absender hilft. Bearbeiten Sie einen PTR-Eintrag nur nach reiflicher Überlegung und Rücksprache mit Ihrem Zustellbarkeitsexperten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="PTR-Einträge der Subdomains"
+>abstract="Nachdem eine Subdomain in Journey Optimizer an Adobe delegiert wurde, wird automatisch ein PTR-Datensatz erstellt und mit dieser Subdomain verknüpft."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 
