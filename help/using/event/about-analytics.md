@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 83%
+source-wordcount: '203'
+ht-degree: 55%
 
 ---
 
@@ -23,11 +23,12 @@ Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics b
 >
 >Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die mit Adobe Analytics-Daten arbeiten müssen.
 
-Voraussetzung hierfür ist, dass Sie in Adobe Experience Platform die Report Suite aktivieren, die Sie nutzen möchten:
+Dazu müssen Sie in Adobe Experience Platform die Report Suite aktivieren, die Sie verwenden möchten. Gehen Sie dazu wie folgt vor:
 
-1. Wählen Sie in Adobe Experience Platform **[!UICONTROL Quellen]** und anschließend im **[!UICONTROL Daten hinzufügen]** im Adobe Analytics-Bereich. Daraufhin wird die Liste der in Adobe Analytics verfügbaren Report Suites angezeigt.
+1. Stellen Sie eine Verbindung zu Adobe Experience Platform her und navigieren Sie zu **[!UICONTROL Quellen]**.
+1. Wählen Sie im Abschnitt Adobe Analytics die Option **[!UICONTROL Daten hinzufügen]**: wird die Liste der verfügbaren Adobe Analytics Report Suites angezeigt.
 
-1. Wählen Sie die zu aktivierende Report Suite aus, klicken Sie auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Fertigstellen]**.
+1. Wählen Sie die zu aktivierende Report Suite aus und klicken Sie auf **[!UICONTROL Nächste]** und **[!UICONTROL Beenden]**.
 
 1. Geben Sie die Daten-ID der Quelle für Ihren dem Betaversion-Programm zugehörigen Kontaktpunkt frei.
 
