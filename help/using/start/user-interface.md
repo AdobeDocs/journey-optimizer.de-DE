@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,9 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL JOURNEY-MANAGEMENT]**
 
-* **[!UICONTROL Journeys]**: Erstellen, konfigurieren und orchestrieren Sie Ihre Customer Journey. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journey]** - Erstellen, konfigurieren und orchestrieren Sie die Journey Ihrer Kunden. [Weitere Informationen](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landingpages]**: Erstellen, gestalten, testen und veröffentlichen Sie Landingpages. [Weitere Informationen](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landingpages]** - Landingpages erstellen, entwerfen, testen und veröffentlichen. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
@@ -275,10 +275,10 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
    ![](assets/preferences.png)
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
-* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
+* Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer Muttersprache lokalisiert ist.
    ![](assets/select-language.png)
 
-## Durchsuchen{#unified-search}
+## Suche{#unified-search}
 
 Sie können auf der gesamten Benutzeroberfläche von Adobe Journey Optimizer die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys, Datensätze und mehr in Ihren Sandboxes zu finden.
 
