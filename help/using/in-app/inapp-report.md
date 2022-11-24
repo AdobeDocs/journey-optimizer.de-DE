@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 60%
 
 ---
 
@@ -63,3 +63,72 @@ Das Diagramm und die Tabelle **[!UICONTROL Klicks nach Schaltfläche]** enthalte
 * [Erstellen einer In-App-Nachricht](../in-app/create-in-app.md)
 * [Entwerfen der In-App-Nachricht](../in-app/design-in-app.md)
 * [In-App-Konfiguration](../in-app/inapp-configuration.md)
+
+
+>[!BEGINTABS]
+
+>[!TAB Hinzufügen eines Push zu einer Journey]
+
+1. Öffnen Sie die Journey und ziehen Sie eine Push-Aktivität per Drag-and-Drop aus dem Bereich Aktionen der Palette.
+
+1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
+
+>[!TAB Hinzufügen einer Push-Benachrichtigung zu einer Kampagne]
+
+1. Erstellen Sie eine neue geplante oder API-gesteuerte Kampagne und wählen Sie **[!UICONTROL Push-Benachrichtigung]** als Aktion und wählen Sie die **[!UICONTROL Anwendungsoberfläche]** verwendet werden.
+
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+
+1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die Audience aus der Liste der verfügbaren Adobe Experience Platform-Segmente zu definieren.
+
+1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll.
+
+1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie, wie Sie die **[!UICONTROL Zeitplan]** Ihrer Kampagne.
+
+1. Aus dem **[!UICONTROL Action Triggers]** Menü, wählen Sie die **[!UICONTROL Häufigkeit]** Ihrer Push-Benachrichtigung:
+
+   * Einmal
+   * Täglich
+   * Wöchentlich
+   * Monatlich
+
+>[!ENDTABS]
+
+Test 2:
+
+1. Dies ist ein Test
+
+>[!BEGINTABS]
+
+>[!TAB Hinzufügen eines Push zu einer Journey]
+
+    1. Öffnen Sie die Journey und ziehen Sie eine Push-Aktivität per Drag-and-Drop aus dem Bereich Aktionen der Palette.
+    
+    1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
+
+>[!TAB Hinzufügen einer Push-Benachrichtigung zu einer Kampagne]
+
+    1. Erstellen Sie eine neue geplante oder API-gesteuerte Kampagne und wählen Sie ** aus.[!UICONTROL Push-Benachrichtigung]** als Aktion und wählen Sie **[!UICONTROL Anwendungsoberfläche]** zu verwenden.
+    
+    1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+    
+    1. Von **[!UICONTROL Eigenschaften]** Abschnitt, bearbeiten Sie die ** Ihrer Kampagne[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]**.
+    
+    1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]**-Schaltfläche, um die Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Segmente zu definieren.
+    
+    1. Im **[!UICONTROL Identitäts-Namespace]** verwenden, wählen Sie den Namespace aus, der verwendet werden soll, um die Kontakte aus dem ausgewählten Segment zu identifizieren.
+    
+    1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie, wie Sie das ** konfigurieren[!UICONTROL Zeitplan]** Ihrer Kampagne.
+    
+    1. Von **[!UICONTROL Action Triggers]** Menü, wählen Sie **[!UICONTROL Häufigkeit]** Ihrer Push-Benachrichtigung:
+    
+    * Einmal
+    * Täglich
+    * Wöchentlich
+    * Monatlich
+
+>[!ENDTABS]
+
+1. Dies ist Teil des Tests
