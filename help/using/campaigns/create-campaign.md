@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
-workflow-type: ht
-source-wordcount: '853'
-ht-degree: 100%
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 
-## Erstellen der ersten Kampagne {#create}
+## Erstellen Ihrer ersten Kampagne {#create}
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
@@ -35,10 +35,12 @@ ht-degree: 100%
 
    ![](assets/create-campaign.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten:
+1. Im **[!UICONTROL Eigenschaften]** Geben Sie an, wie die Kampagne ausgeführt werden soll:
 
-   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
-   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen dienen dem Versand von Nachrichten des Typs **Transaktion**, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Kündigung einer Karte usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+   * **[!UICONTROL Geplant]**
+   * **[!UICONTROL API-ausgelöst]**
+
+   Weiterführende Informationen zum Kampagnentyp und zu den damit verbundenen Aktivitäten finden Sie in diesem Abschnitt [Abschnitt](#campaigntype).
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten, und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
@@ -96,7 +98,40 @@ ht-degree: 100%
 
 Nachdem Ihre Kampagne fertiggestellt ist, können Sie sie überprüfen und veröffentlichen. [Weitere Informationen](#review-activate)
 
+## Kampagnentyp {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Kampagnentyp"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Kampagnenkategorie"
+>abstract="TBC"
+
+Es stehen zwei Kampagnentypen zur Verfügung:
+
+* **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
+
+* **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen dienen dem Versand von Nachrichten des Typs **Transaktion**, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Kündigung einer Karte usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+
 ## Festlegen eines Zeitplans für eine Kampagne {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Kampagnenstart"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Kampagnenende"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="Trigger für Kampagnenaktionen"
+>abstract="TBC"
 
 Standardmäßig starten Kampagnen, sobald sie manuell aktiviert wurden, und enden, sobald die Nachricht einmal gesendet wurde.
 
@@ -106,7 +141,7 @@ Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, k�
 
 ![](assets/create-campaign-schedule.png)
 
-## Schnellversand-Modus {#rapid-delivery}
+## Schnellversand-Modus für Push-Kampagnen {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
