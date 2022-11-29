@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 97%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ Erweiterte Parameter werden am unteren Rand des Nachrichtenfensters angezeigt. D
 Für Push-Benachrichtigungen können Sie die folgenden Parameter anzeigen: Token, AppID, AppPlatform.
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>Wenn Sie eines dieser Attribute überschreiben, müssen auch alle drei überschrieben werden.
 
 Für E-Mails können Sie die [primäre E-Mail-Adresse](../configuration/primary-email-addresses.md) anzeigen.
 

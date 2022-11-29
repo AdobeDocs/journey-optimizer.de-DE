@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 73%
 
 ---
 
@@ -39,4 +39,12 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
    Alle Schritte zum Konfigurieren der Nachricht und zum Definieren der Inhalte werden in [diesem Abschnitt](../messages/get-started-content.md) beschrieben.
 
+## Live-Inhalt aktualisieren{#update-live-content}
 
+Sie können den Inhalt einer Nachricht (E-Mail, SMS, Push) in einer Live-Journey aktualisieren.
+
+Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Nachrichtentätigkeit aus und klicken Sie auf **Inhalt bearbeiten**.
+
+![](assets/add-a-message2.png)
+
+Sie können jedoch die in der Personalisierung verwendeten Attribute nicht ändern, unabhängig davon, ob es sich um Profilattribute oder Kontextdaten handelt (aus Ereignis- oder Journey-Eigenschaften).

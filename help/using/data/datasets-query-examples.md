@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
-source-wordcount: '779'
-ht-degree: 100%
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 95%
 
 ---
 
@@ -325,6 +325,8 @@ Mit diesem Datensatz erhalten Sie Zugriff auf von Marketing-Experten definierte 
 >[!NOTE]
 >
 >Um dafür zu sorgen, dass auch in Zukunft die Kompatibilität gesichert ist, gibt es derzeit im Entitätsdatensatz zwei Einträge für jede Nachrichtenveröffentlichung. Dies wirkt sich nicht auf Ihre Fähigkeit aus, bei Bedarf Join-Abfragen für Datensätze zu verwenden, um die gewünschten Informationen abzurufen.
+
+Wenn Sie die von einer bestimmten Journey gesendeten E-Mails in Ihren Berichten nach der Aktion sortieren möchten, die sie gesendet hat. Sie können den Datensatz &quot;Nachrichten-Feedback&quot;mit dem Datensatz &quot;Entität&quot;verbinden. Die zu verwendenden Felder sind: `_experience.decisioning.propositions.scopeDetails.correlationID` und `_id field in entity dataset`.
 
 Mit der folgenden Abfrage können Sie die zugehörige Nachrichtenvorlage für eine bestimmte Kampagne abrufen:
 
