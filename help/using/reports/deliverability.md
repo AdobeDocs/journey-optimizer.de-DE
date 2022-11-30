@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit der Zustellbarkeit {#manage-deliverability}
 
 Die Zustellbarkeit ist ein Maßstab für den Erfolg Ihrer Sendungen, die Posteingänge Ihrer Empfänger zu erreichen.
+
+>[!NOTE]
+>
+>Für Kunden, die den Gesundheitsschild lizenzieren, nutzt Adobe Transport Layer Security (TLS) 1.2, um den Datenaustausch zwischen Benutzersystemen (Empfängern) und Journey Optimizer (Absender) zu sichern. Wenn der E-Mail-Empfangs-Server TLS 1.2 nicht unterstützt, treten bei Kunden Probleme mit der Zustellbarkeit auf, einschließlich des E-Mail-Bounce zurück zum ursprünglichen Absender.
 
 **E-Mail-Zustellbarkeit** bezieht sich auf jene Merkmale, die über die Fähigkeit einer Nachricht entscheiden, innerhalb kurzer Zeit über eine persönliche E-Mail-Adresse ihr Ziel zu erreichen – mit der erwarteten Qualität in Bezug auf Inhalt und Format. Diese Merkmale lassen sich in vier Kategorien einteilen: Datenqualität, Nachrichten und Inhalte, Sendeinfrastruktur und Reputation. Gemeinsam bilden sie die Grundlage eines erfolgreichen Email Deliverability-Programms.
 
