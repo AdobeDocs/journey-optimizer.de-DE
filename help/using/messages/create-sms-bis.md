@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 55%
@@ -22,7 +22,7 @@ ht-degree: 55%
 >
 >In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten.
 
-## SMS-Nachrichten in einer Journey oder Kampagne erstellen {#sms-content}
+## SMS-Nachrichten in einer Journey oder Kampagne erstellen
 
 Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
 
@@ -65,7 +65,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 >[!ENDTABS]
 
-## Definieren Ihres SMS-Inhalts{#sms-content}
+## Definieren Ihres SMS-Inhalts
 
 1. Klicken Sie auf dem Journey- oder Kampagnenkonfigurationsbildschirm auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche zum Konfigurieren des SMS-Inhalts.
 
@@ -77,7 +77,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Wenn Ihre SMS-Nachricht fertig ist, konfigurieren Sie Ihre , um sie zu senden.
 
-## Validieren Ihrer SMS{#sms-preview}
+## Validieren Ihrer SMS
 
 >[!NOTE]
 >

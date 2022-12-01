@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 50%
@@ -18,7 +18,7 @@ ht-degree: 50%
 
 # Erstellen einer Push-Benachrichtigung {#create-push-notification-bis}
 
-## Push-Benachrichtigung in einer Journey oder Kampagne erstellen {#create}
+## Push-Benachrichtigung in einer Journey oder Kampagne erstellen
 
 Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 >[!ENDTABS]
 
-## Schnellversand-Modus {#rapid-delivery}
+## Schnellversand-Modus
 
 Schnellversand-Modus, in Journey zuvor als Burst-Modus bezeichnet, ist ein [!DNL Journey Optimizer] -Add-on, das den sehr schnellen Versand von Push-Nachrichten in großen Mengen durch Kampagnen ermöglicht.
 
@@ -79,7 +79,7 @@ Der Schnellversand wird verwendet, wenn eine Verzögerung beim Nachrichtenversan
 
 Weiterführende Informationen zur Leistung bei Verwendung des Rapid Delivery-Modus finden Sie im Abschnitt .
 
-### Voraussetzungen {#prerequisites}
+### Voraussetzungen
 
 Für Nachrichten mit Schnellversand gelten folgende Anforderungen:
 
