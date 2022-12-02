@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50a6e19640c497176022b17370e3ae810686b84f
+source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 97%
 
 ---
@@ -173,7 +173,6 @@ ht-degree: 97%
       + [Hinzufügen von Nachrichten in Journeys](using/messages/messages-in-journeys.md)
       + [Hinzufügen von Nachrichten in Kampagnen     ](using/messages/messages-in-campaigns.md)
    + [Erstellen einer E-Mail](using/messages/create-email.md)
-   + [E-Mail-Adressen erstellen](using/messages/create-email-bis.md)
    + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
    + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
    + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
