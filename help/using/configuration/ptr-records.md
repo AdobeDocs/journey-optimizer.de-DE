@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-Einträge der Subdomains"
->abstract="Nachdem eine Subdomain in Journey Optimizer an Adobe delegiert wurde, wird automatisch ein PTR-Datensatz erstellt und mit dieser Subdomain verknüpft."
+>abstract="Nachdem in Journey Optimizer eine Subdomain an Adobe delegiert wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 
