@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Die Schritte zum Erstellen einer bedingten Regel sind:
       * **[!UICONTROL Segmentzugehörigkeit]** listet alle Segmentattribute (d. h. Status, Version usw.) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
       * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem [Schema des Experience-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind, das in Adobe Experience Platform definiert ist.
    * **[!UICONTROL Kontextbezogen]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextbezogene Journey-Felder zur Verfügung.
-   * **[!UICONTROL Audiences]**: Listet alle Audiences auf, die aus Segmenten generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) erstellt wurden.
+   * **[!UICONTROL Audiences]**: Listet alle Audiences auf, die aus Segmenten generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) erstellt wurden.
 
 1. Wenn Ihre bedingte Regel fertig ist, können Sie sie zu Ihrer Nachricht hinzufügen, um dynamische Inhalte zu erstellen. [Erfahren Sie, wie dynamische Inhalte hinzugefügt werden](dynamic-content.md)
 

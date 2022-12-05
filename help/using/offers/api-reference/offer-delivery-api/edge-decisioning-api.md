@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/
 
 Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, einschließlich Entscheidungs-Management, bei Adobe abfragen, sodass Sie personalisierte Angebote abrufen und rendern können, die Sie mithilfe von APIs oder der Angebotsbibliothek erstellt haben. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zum [Erstellen eines Angebots](../../get-started/starting-offer-decisioning.md).
 
-Es gibt zwei Möglichkeiten, Entscheidungs-Management mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
+Es gibt zwei Möglichkeiten, Entscheidungs-Management mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
 
 Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK finden Sie in der Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning).
 
@@ -92,7 +92,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 Im Folgenden finden Sie die erforderlichen Schritte zur Verwendung von Entscheidungs-Management mithilfe der vordefinierten eigenständigen Installation des Web SDK. In dieser Anleitung wird davon ausgegangen, dass es sich um Ihre erste Implementierung des SDK handelt, sodass möglicherweise nicht alle Schritte auf Sie zutreffen. Diese Anleitung setzt auch ein gewisses Maß an Entwicklerkenntnissen voraus.
 
-Fügen Sie das folgende JavaScript-Snippet von „Option 2: Die vordefinierte eigenständige Version“ auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) in den `<head>`-Abschnitt Ihrer HTML-Seite ein.
+Fügen Sie das folgende JavaScript-Snippet von „Option 2: Die vordefinierte eigenständige Version“ auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in den `<head>`-Abschnitt Ihrer HTML-Seite ein.
 
 ```
 javascript

@@ -204,7 +204,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Auf der Startseite wurden Links zur Produktbeschreibung von [!DNL Journey Optimizer] hinzugefügt.
 * Auf mehreren Seiten wurden Anleitungsvideos hinzugefügt.
 * Optimierte Bilder auf der Startseite
-* Der Abschnitt „Nachrichten-Tracking“ wurde in „Links hinzufügen und Nachrichten verfolgen“ verschoben, verbessert und umbenannt. [Mehr dazu](../design/message-tracking.md)
+* Der Abschnitt „Nachrichten-Tracking“ wurde in „Hinzufügen von Links und Verfolgen von Nachrichten“ verschoben, verbessert und umbenannt. [Mehr dazu](../design/message-tracking.md)
 * Es wurde ein Unterabschnitt über Mirrorseiten hinzugefügt. [Mehr dazu](../design/message-tracking.md#mirror-page)
 * In der Dokumentation und deren Abbildungen wurden „Angebotsaktivitäten“ in „Entscheidungen“ und „Entscheidungen“ in „Entscheidungsbereiche“ umbenannt. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
 * Neuer Anwendungsfall: [Personalisieren einer Nachricht mit Hilfsfunktionen](../personalization/personalization-use-case-helper-functions.md)

@@ -5,7 +5,7 @@ title: Auslösen von Kampagnen mit APIs
 description: Erfahren Sie, wie Sie mit einer  [!DNL Journey Optimizer] API Kampagnen auslösen können.
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 100%
 

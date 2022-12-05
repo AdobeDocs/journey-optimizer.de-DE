@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ Ihre Testprofile werden hinzugefügt und können jetzt beim Testen einer Journey
 
 ## Erstellen von Testprofilen mithilfe von API-Aufrufen {#create-test-profiles-api}
 
-Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}.
+Sie können Testprofile auch über API-Aufrufe erstellen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Sie müssen ein Profilschema verwenden, das die Feldgruppe „Testdetails des Profils“ enthält. Die Markierung „testProfile“ ist Teil dieser Feldgruppe.
 Achten Sie beim Erstellen eines Profils darauf, diesen Wert zu übergeben: testProfile = true.

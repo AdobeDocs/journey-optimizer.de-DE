@@ -8,7 +8,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ Beispiel:
 ```
 
 >[!NOTE]
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 

@@ -11,7 +11,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Verwenden Sie [!DNL Journey Optimizer] Email Designer, um die [E-Mail von Grund 
 
 Verwenden Sie den [!DNL Journey Optimizer]-Ausdruckseditor, um Ihre Nachrichten mit den Daten der Profile zu personalisieren. Weiterführende Informationen zur Personalisierung finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
-Passen Sie den Inhalt Ihrer Nachrichten mithilfe von an die Zielgruppenprofile an. [!DNL Journey Optimizer] Funktionen für dynamische Inhalte. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
+Den Inhalt von Nachrichten durch die Verwendung von [!DNL Journey Optimizer]-Funktionen für dynamische Inhalte an die ausgewählten Profile anpassen. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
 
 ## E-Mail-Tracking{#email-tracking}
 

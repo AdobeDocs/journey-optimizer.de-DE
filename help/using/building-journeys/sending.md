@@ -4,7 +4,7 @@ product: journey optimizer
 title: Starten der Journey-Ausführung
 description: Erfahren Sie, wie Sie Ihre Journey starten und Nachrichten senden
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 

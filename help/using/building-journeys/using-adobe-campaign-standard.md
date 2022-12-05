@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldemechanismus nativ von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldemechanismus nativ von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen.
 
