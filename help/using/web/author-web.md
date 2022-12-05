@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugr
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Geben Sie die zu bearbeitende URL ein"
->abstract="Geben Sie die URL einer bestimmten Webseite an, die zur Bearbeitung des Inhalts verwendet werden soll, der auf die oben definierte Weboberfläche angewendet wird. Die Webseite muss mit dem Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Weitere Infos"
+>abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts, der auf die oben definierte Web-Oberfläche angewendet wird, verwendet werden soll. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Infos"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Geben Sie die zu bearbeitende URL ein"
->abstract="Geben Sie die URL einer bestimmten Webseite ein, die zur Bearbeitung des Inhalts verwendet werden soll. Diese Seite wird auf alle Seiten angewendet, die mit der Regel übereinstimmen. Die Webseite muss mit dem Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Weitere Infos"
+>abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts verwendet werden soll. Sie wird auf alle Seiten angewendet, die der Regel entsprechen. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
@@ -45,7 +45,7 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 >[!CAUTION]
 >
->Zugriff auf [!DNL Journey Optimizer], muss Ihre Webseite mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;}.
+>Damit in [!DNL Journey Optimizer] auf die Web-Seite zugegriffen werden kann, muss sie mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;} implementiert werden.
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne die Option **[!UICONTROL Inhalt bearbeiten]** aus, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
@@ -61,7 +61,7 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
    >[!CAUTION]
    >
-   >Die Webseite muss die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >Die Web-Seite muss das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;} enthalten.
 
 1. Klicken Sie auf **[!UICONTROL Web-Designer öffnen]**, um sie zu bearbeiten. [Weitere Informationen](author-web.md)
 
@@ -89,8 +89,8 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_components"
->title="Hinzufügen von Inhaltskomponenten zur Webseite"
->abstract="Sie können Ihrer Webseite eine Reihe von Komponenten hinzufügen und diese nach Bedarf bearbeiten."
+>title="Hinzufügen von Inhaltskomponenten zu einer Web-Seite"
+>abstract="Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nach Bedarf bearbeiten."
 
 1. Aus dem Bedienfeld **[!UICONTROL Komponenten]** auf der linken Seite können Sie die folgenden Komponenten zu Ihrer Web-Seite hinzufügen und sie nach Bedarf bearbeiten:
 
@@ -134,8 +134,8 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
->title="Durchsuchen-Modus verwenden"
->abstract="In diesem Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren."
+>title="Verwenden des Durchsuchen-Modus"
+>abstract="Im Durchsuchen-Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, direkt zur gewünschten Seite navigieren."
 
 Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTROL Design]** in den **[!UICONTROL Durchsuchen]**-Modus wechseln.
 
@@ -158,7 +158,7 @@ Sie können auch den Zoom-Fokus ändern – von 25 % bis 400 %.
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
 >title="Einfaches Verwalten aller Änderungen"
->abstract="Mithilfe dieses Bereichs können Sie alle Anpassungen und Stile, die Sie Ihrer Webseite hinzugefügt haben, durchsuchen und verwalten."
+>abstract="Mithilfe dieses Bereichs können Sie alle Anpassungen und Stile, die Sie Ihrer Web-Seite hinzugefügt haben, durchsuchen und verwalten."
 
 Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie Ihrer Web-Seite hinzugefügt haben.
 
@@ -197,7 +197,7 @@ Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
 >title="Vorschau des Web-Erlebnisses"
->abstract="Hier erhalten Sie eine Simulation, wie Ihr Web-Erlebnis aussehen wird."
+>abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
 Gehen Sie wie folgt vor, um eine Vorschau Ihres geänderten Web-Erlebnisses anzuzeigen.
 
