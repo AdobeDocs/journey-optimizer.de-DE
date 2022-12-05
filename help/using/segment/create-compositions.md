@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
    * **[!UICONTROL Speichern]**: der letzte Schritt Ihrer Komposition. Mit dieser Aktivität können Sie das Ergebnis Ihres Workflows in einer neuen Audience speichern.
    Weiterführende Informationen zum Konfigurieren von Aktivitäten auf der Arbeitsfläche des Kompositions-Workflows finden Sie im Abschnitt [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md).
 
-1. Öffnen Sie die Eigenschaften der Komposition, um einen Titel und eine Beschreibung anzugeben.
+1. Bitte die Eigenschaften der Komposition öffnen, um einen Titel und eine Beschreibung anzugeben.
 
-   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung der Anfang sein. **[!UICONTROL Zielgruppe]** Aktivität.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung eine der anfänglichen **[!UICONTROL Zielgruppen]**-Aktivitäten sein.
 
    ![](assets/audiences-properties.png)
 
@@ -56,7 +56,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 
    ![](assets/audiences-alerts.png)
 
-1. Die Komposition wird veröffentlicht. Die resultierenden Zielgruppen werden in Adobe Experience Platform gespeichert und können für Journey Optimizer-Kampagnen verwendet werden. [Erfahren Sie, wie Sie mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
+1. Die Komposition wird veröffentlicht. Die resultierenden Zielgruppen werden in Adobe Experience Platform gespeichert und können für Journey Optimizer-Kampagnen verwendet werden. [Mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
 
 ## Zugriff auf Kompositionen {#access}
 
@@ -68,7 +68,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Kompositionen]** verfügbar. Sie können mehrere Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Komposition ist in Arbeit und wurde noch nicht veröffentlicht.
-* **[!UICONTROL Veröffentlicht]**: die Komposition veröffentlicht wurde, die resultierenden Zielgruppen gespeichert wurden und zur Verwendung verfügbar sind.
+* **[!UICONTROL Veröffentlicht]**: Die Komposition wurde veröffentlicht, die resultierenden Zielgruppen wurden gespeichert und sind zur Verwendung verfügbar.
 * **[!UICONTROL Archiviert]**: Die Komposition wurde archiviert.
 
 ![](assets/audiences-compositions.png)
