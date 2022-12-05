@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 412f7efe2da9f9b1a8fa49f1243ca63c4e0d01c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/segment2.png)
 
-1. **Datenquelle konfigurieren**: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
+1. **Konfigurieren einer Datenquelle**: Sie können eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung bei Ihren Journeys abzurufen (z. B. in Ihren Bedingungen). Außerdem wird zur Bereitstellungszeit eine integrierte Adobe Experience Platform-Datenquelle konfiguriert. Dieser Schritt ist nicht erforderlich, wenn Sie ausschließlich Daten aus den Ereignissen Ihrer Journey nutzen. Dieser Schritt wird von einem **technischen Anwender** ausgeführt. [Mehr dazu](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
@@ -95,7 +95,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-Erfahren Sie mehr über die Verwaltung des Profileintritts in [diesem Abschnitt](entry-management.md).
+Weitere Informationen zur Verwaltung des Profileintritts finden sich in [diesem Abschnitt](entry-management.md).
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
