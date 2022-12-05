@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren von Journeys
-description: Erfahren Sie, wie Sie Datenquellen, Ereignisse und Aktionen konfigurieren können
+description: Datenquellen, Ereignisse und Aktionen konfigurieren
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 
