@@ -9,26 +9,26 @@ role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # Nutzung von Adobe Analytics-Daten{#analytics-data}
 
-Sie können alle verhaltensbezogenen Ereignisdaten, die Sie in Adobe Analytics bereits erfassen und an Adobe Experience Platform streamen, nutzen, um Journey von Triggern zu erhalten und Erlebnisse für Ihre Kunden zu automatisieren.
+Alle verhaltensbezogenen Ereignisdaten, die in Adobe Analytics bereits erfasst und an Adobe Experience Platform gestreamt werden, können zum Auslösen von Journeys und zum Automatisieren von Kundenerlebnissen genutzt werden.
 
 >[!NOTE]
 >
 >Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die mit Adobe Analytics-Daten arbeiten müssen.
 
-Dazu müssen Sie in Adobe Experience Platform die Report Suite aktivieren, die Sie verwenden möchten. Gehen Sie dazu wie folgt vor:
+Voraussetzung hierfür ist, dass in Adobe Experience Platform die Report Suite aktiviert wurde, die verwendet werden soll. Gehen Sie dazu wie folgt vor:
 
-1. Stellen Sie eine Verbindung zu Adobe Experience Platform her und navigieren Sie zu **[!UICONTROL Quellen]**.
-1. Wählen Sie im Abschnitt Adobe Analytics die Option **[!UICONTROL Daten hinzufügen]**: wird die Liste der verfügbaren Adobe Analytics Report Suites angezeigt.
+1. Eine Verbindung mit Adobe Experience Platform herstellen und zu **[!UICONTROL Quellen]** navigieren.
+1. Im Abschnitt „Adobe Analytics“ die Option **[!UICONTROL Daten hinzufügen]** wählen: Die Liste der verfügbaren Adobe Analytics Report Suites wird angezeigt.
 
-1. Wählen Sie die zu aktivierende Report Suite aus und klicken Sie auf **[!UICONTROL Nächste]** und **[!UICONTROL Beenden]**.
+1. Die zu aktivierende Report Suite auswählen und auf **[!UICONTROL Weiter]** und dann auf **[!UICONTROL Fertigstellen]** klicken.
 
 1. Geben Sie die Daten-ID der Quelle für Ihren dem Betaversion-Programm zugehörigen Kontaktpunkt frei.
 
