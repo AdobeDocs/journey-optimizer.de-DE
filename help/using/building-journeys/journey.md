@@ -8,16 +8,16 @@ role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Verwendung [!DNL Journey Optimizer] zum Erstellen von Anwendungsfällen für die Echtzeit-Orchestrierung der Customer Journey mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
+Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen zu erstellen.
 
 Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
@@ -31,26 +31,26 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
-Verwenden Sie Adobe Journey Optimizer, um personalisierte Journey aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
+Adobe Journey Optimizer verwenden, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
 
-Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Interaktionen mit einer Eins-zu-Eins-Kundeninteraktion harmonisieren können. In der Benutzeroberfläche können Sie Aktivitäten einfach per Drag-and-Drop aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen.
+Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen.
 
 ![](assets/interface-journeys.png)
 
-Erfahren Sie, wie Sie Ihre erste Journey in [diese Seite](journey-gs.md).
+Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
 
-Der Omnichannel-Journey-Designer hilft Ihnen bei der Erstellung mehrstufiger Journey mit zielgerichteten Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kundeninteraktionen oder Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag &amp; Drop-Oberfläche.
+Der Omnichannel-Journey-Designer hilft bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-&amp;-Drop-Oberfläche.
 
 ![](assets/journey38.png)
 
-Mehr dazu in [diesem Abschnitt](using-the-journey-designer.md).
+Weiterführende Informationen finden sich in [diesem Abschnitt](using-the-journey-designer.md).
 
-Als Data Engineer werden die Schritte zur Konfiguration Ihrer Journey beschrieben, einschließlich Datenquellen, Ereignissen und Aktionen im Abschnitt [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
+Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.
 
 
-## Anwendungsbeispiele{#uc-journey}
+## Anwendungsfälle{#uc-journey}
 
-In den folgenden durchgehenden Anwendungsfällen erfahren Sie, wie Sie Journey erstellen.
+In den folgenden End-to-End-Anwendungsfällen wird das Erstellen von Journeys erläutert.
 
 Geschäftliche Anwendungsfälle:
 
@@ -74,9 +74,9 @@ Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die
 
 >[!NOTE]
 >
->Normalerweise kann ein Profil nicht mehrmals im selben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
+>In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
-Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Journey-Version.
+Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
 
 1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
@@ -94,8 +94,8 @@ Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen 
 
 Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
 
-Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey erfolgen. Auch wenn Sie die neueste Version stoppen, bleibt die vorherige Version geschlossen.
+Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
 
 >[!NOTE]
 >
->Weitere Informationen zu den Limits und Einschränkungen von Journey-Versionen finden Sie unter [diese Seite](../start/guardrails.md#journey-versions-limitations)
+>Weitere Informationen zu den Schutzmechanismen und Einschränkungen von Journey-Versionen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-limitations)
