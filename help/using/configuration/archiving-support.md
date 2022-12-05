@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche
 
 ![](assets/preset-bcc-in-msg.png)
 
-Die BCC-Adresse wird jedoch nach der beschriebenen Logik für den Versand von Nachrichten erfasst [here](email-settings.md).
+Die BCC-Adresse wird jedoch gemäß der [hier](email-settings.md) beschriebenen Logik für den Versand von Nachrichten übernommen.
 
 ### Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 
