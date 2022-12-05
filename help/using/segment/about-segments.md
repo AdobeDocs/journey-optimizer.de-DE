@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
 
 * Erstellen Sie mithilfe des einfachen oder erweiterten Ausdruckseditors **komplexe Bedingungen** in Ihren Journeys. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/condition-activity.md#using-a-segment).
 
-## Methoden zur Zielgruppenbewertung{#evaluation-method-in-journey-optimizer}
+## Methoden zur Zielgruppenauswertung{#evaluation-method-in-journey-optimizer}
 
-In Adobe Journey Optimizer werden Audiences aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden generiert:
+In Adobe Journey Optimizer werden Zielgruppen aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden generiert:
 
-* Streaming-Segmentierung: Die Audiences-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen. Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der Ihre Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf eingehende Daten in Journey Optimizer angewendet. Segmenthinzufügungen und -entfernungen werden regelmäßig verarbeitet, um sicherzustellen, dass Ihre Zielgruppe relevant bleibt.
+* Streaming-Segmentierung: Die Zielgruppen-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen. Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der die Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Segmenthinzufügungen und -entfernungen werden regelmäßig verarbeitet, damit sichergestellt ist, dass die Zielgruppe relevant bleibt.
 
-* Batch-Segmentierung - die Zielgruppenliste für das Segment wird alle 24 Stunden ausgewertet. Als Alternative zum kontinuierlichen Datenauswahlprozess werden bei der Batch-Segmentierung alle Profildaten gleichzeitig mit Segmentdefinitionen verglichen, um entsprechende Zielgruppen zu erstellen. Nach der Erstellung eines Segments wird es gespeichert, sodass Sie es exportieren und weiterverwenden können.
+* Batch-Segmentierung – die Zielgruppenliste für das Segment wird alle 24 Stunden ausgewertet. Als Alternative zum kontinuierlichen Datenauswahlprozess werden bei der Batch-Segmentierung alle Profildaten gleichzeitig mit Segmentdefinitionen verglichen, um entsprechende Zielgruppen zu erstellen. Nach der Erstellung eines Segments wird es gespeichert, sodass Sie es exportieren und weiterverwenden können.
 
 Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen.
 
