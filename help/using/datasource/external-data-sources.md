@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mit externen Datenquellen können Sie eine Verbindung zu Drittanbietersystemen h
 
 >[!NOTE]
 >
->Die Limits bei der Arbeit mit externen Systemen finden Sie unter [diese Seite](../configuration/external-systems.md).
+>Schutzmechanismen bei der Arbeit mit externen Systemen werden auf [dieser Seite](../configuration/external-systems.md) aufgeführt.
 
 REST-APIs, die POST oder GET verwenden und JSON zurückgeben, werden unterstützt. API-Schlüssel, einfache und benutzerdefinierte Authentifizierungsmodi werden unterstützt.
 
