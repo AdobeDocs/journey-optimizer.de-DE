@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
 
 1. Wählen Sie das Dateiformat aus: **[!UICONTROL CSV]** oder **[!UICONTROL Text mit Trennzeichen]**.
 
-1. Wählen Sie die **[!UICONTROL Konfiguration der Dateiweiterleitung]** unter den von Ihnen erstellten. Darin wird definiert, wohin die Datei für Ihren Briefpostanbieter exportiert wird.
+1. Wählen Sie abschließend die gewünschte **[!UICONTROL Datei-Routing-Konfiguration]** unter den von Ihnen erstellten Konfigurationen aus. Darin wird definiert, wohin die Datei für Ihren Briefpostanbieter exportiert wird.
 
    >[!CAUTION]
    >
@@ -152,7 +152,7 @@ Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../m
 >
 >Doppelte Zeilen werden automatisch entfernt.
 >
->Wenn die maximale Datensatzanzahl (d. h. Zeilen) für jede Datei mit Profildaten zu hoch ist, wird automatisch eine weitere Datei für die verbleibenden Datensätze erstellt.
+>Wenn die Anzahl der Datensätze (d. h. Zeilen) für eine Datei mit Profildaten das Maximum überschreitet, wird automatisch eine weitere Datei für die verbleibenden Datensätze erstellt.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
