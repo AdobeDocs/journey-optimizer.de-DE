@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivit
 
 ## Ereignisaktivitäten {#event-activities}
 
-Ereignisse sind der Trigger einer personalisierten Journey, z. B. eines Online-Kaufs. Sobald jemand eine Journey betritt, bewegt er sich als Individuum durch, und keine zwei Personen bewegen sich in derselben Geschwindigkeit oder auf demselben Pfad. Wenn Sie Ihre Journey mit einem Ereignis starten, wird die Journey ausgelöst, wenn das Ereignis empfangen wird. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Ereignisse sind Auslöser personalisierter Journeys, z. B. eines Online-Kaufs. Wenn eine Person in eine Journey eintritt, durchläuft sie sie als Individuum. Jede Person bewegt sich in einer anderen Geschwindigkeit und auf einem anderen Pfad. Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis eintritt. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
-Vom technischen Anwender konfigurierte Ereignisse (siehe [diese Seite](../event/about-events.md)) werden alle in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
+Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese Seite](../event/about-events.md)) werden in der ersten Kategorie der Palette auf der linken Seite des Bildschirms angezeigt. Folgende Ereignisaktivitäten sind verfügbar:
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
@@ -37,7 +37,7 @@ Beginnen Sie Ihre Journey mit Drag-and-Drop einer Ereignisaktivität. Sie könne
 
 ## Orchestrierungsaktivitäten {#orchestration-activities}
 
-Orchestrierungsaktivitäten sind unterschiedliche Bedingungen, die bei der Bestimmung des nächsten Schritts im Journey helfen. Es kann sein, ob die Person einen offenen Support-Fall hat oder nicht, das Wetter an ihrem aktuellen Standort vorhergesagt, wenn sie einen Kauf abgeschlossen hat oder nicht, oder 10 000 Treuepunkte erreicht hat.
+Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen. Beispiele hierfür sind ein offenes Supportticket, die Wettervorhersage am aktuellen Standort, der Abschluss eines Kaufs oder das Erreichen von 10.000 Treuepunkten.
 
 In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchestrierungsaktivitäten zur Verfügung:
 
@@ -49,9 +49,9 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 
 ## Aktionsaktivitäten {#action-activities}
 
-Aktionen sind das Ergebnis irgendeines Triggers, wie das Senden einer Nachricht. Es ist das Stück Journey, das der Kunde erfährt.
+Aktionen sind das Ergebnis eines Auslösers, wie das Senden einer Nachricht. Sie sind die Teile der Journey, die der Kunde bzw. die Kundin wahrnimmt.
 
-In der Palette auf der linken Bildschirmseite unter **[!UICONTROL Veranstaltungen]** und **[!UICONTROL Orchestrierung]**, können Sie die **[!UICONTROL Aktionen]** Kategorie. Folgende Aktionsaktivitäten sind verfügbar:
+In der Palette auf der linken Seite des Bildschirms finden Sie unter **[!UICONTROL Ereignisse]** und **[!UICONTROL Orchestrierung]** die Kategorie **[!UICONTROL Aktionen]**. Folgende Aktionsaktivitäten sind verfügbar:
 
 * [E-Mail, SMS, Push-Benachrichtigung](../building-journeys/journeys-message.md)
 * [Benutzerdefinierte Aktionen](../building-journeys/using-custom-actions.md)
@@ -61,7 +61,7 @@ In der Palette auf der linken Bildschirmseite unter **[!UICONTROL Veranstaltunge
 
 Diese Aktivitäten repräsentieren die verschiedenen Kommunikationskanäle. Sie können sie zu einem kanalübergreifenden Szenario verbinden.
 
-Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier ebenfalls angezeigt. [Weitere Informationen](../building-journeys/using-custom-actions.md)).
+Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier ebenfalls angezeigt. [Weitere Informationen](../building-journeys/using-custom-actions.md).
 
 ## Best Practices {#best-practices}
 
