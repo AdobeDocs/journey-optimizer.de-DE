@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1079'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Nachrichtenvorschau und Testversand{#preview-and-proof}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierter Inhalt](../personalization/personalize.md)können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie [personalisierte Inhalte](../personalization/personalize.md) eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
 
 Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktualisierten Inhalt zu validieren.
 
