@@ -11,7 +11,7 @@ exl-id: acb5b65b-8787-4428-9924-36aa0a115926
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/message-duplicated.png)
 
-1. Benennen Sie die Nachricht um, um die ursprüngliche Nachricht von der Kopie zu unterscheiden, z. B. bei der Bearbeitung von Nachrichten, wie unten dargestellt:
+1. Benennen Sie die Nachricht um, damit Sie die ursprüngliche Nachricht von der Kopie unterscheiden können, beispielsweise bei der Bearbeitung von Nachrichten, wie unten dargestellt:
 
    ![](assets/multi-message.png)
 

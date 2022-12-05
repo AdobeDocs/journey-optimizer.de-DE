@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ ht-degree: 97%
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
       + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
-   + Journey verwalten{#mannage-journey}
-      + [Journey beenden](using/building-journeys/end-journey.md)
+   + Verwalten von Journeys{#mannage-journey}
+      + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
-      + [Profil-Eingangsverwaltung](using/building-journeys/entry-management.md)
+      + [Profil-Eintrittsverwaltung](using/building-journeys/entry-management.md)
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
@@ -389,7 +389,7 @@ ht-degree: 97%
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Daten-Management {#data-management}
-   + [Erste Schritte mit der Datenverwaltung](using/data/gs-data.md)
+   + [Erste Schritte mit dem Daten-Management](using/data/gs-data.md)
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
    + Journey Optimizer-Datensätze {#datasets}
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
@@ -456,7 +456,7 @@ ht-degree: 97%
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
 + Datenschutz {#privacy}
-   + [Erste Schritte mit Datenschutz](using/privacy/get-started-privacy.md)
+   + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
    + Einverständnisverwaltung {#consent}
