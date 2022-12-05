@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '202'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 <a href="create-lp.md">
 <img alt="Lead" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Erstellen von Landingpages</strong>
+<div><a href="create-lp.md"><strong>Landingpages erstellen</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 <img alt="Gelegentlich" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Erstellen von Abonnement-Listen</strong></a>
+<a href="subscription-list.md"><strong>Abonnement-Listen erstellen</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Eine Landingpage ist eine eigenständige Web-Seite, auf die ein Benutzer geleite
 <img alt="Validierung" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="design-lp.md"><strong>Entwerfen von Landingpages</strong></a>
+<a href="design-lp.md"><strong>Landingpages entwerfen</strong></a>
 </div>
 <p>
 </td>
