@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,26 +31,26 @@ Die Schritte zur Konfiguration einer Komposition auf der Kompositions-Arbeitsfl�
 
 Der erste Schritt bei der Erstellung einer Komposition besteht darin, eine oder mehrere vorhandene Audiences als Grundlage für Ihre Komposition auszuwählen.
 
-1. Wählen Sie die **[!UICONTROL Zielgruppe]** -Aktivität und geben Sie einen Titel für die Aktivität an.
+1. Wählen Sie die Aktivität **[!UICONTROL Audience]** und geben Sie einen Titel für die Aktivität an.
 
-1. Wählen Sie die Zielgruppe aus:
+1. Wählen Sie die anzusprechende Zielgruppe:
 
-   * Klicken Sie auf **[!UICONTROL Audience hinzufügen]** Schaltfläche zur Auswahl einer oder mehrerer bestehender Zielgruppen,
-   * Klicken Sie auf **[!UICONTROL Regel erstellen]** Schaltfläche zum Erstellen einer neuen Segmentdefinition mithilfe der [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+   * Klicken Sie auf die Schaltfläche **[!UICONTROL Audience hinzufügen]**, um eine oder mehrere bestehende Audiences auszuwählen,
+   * Klicken Sie auf die Schaltfläche **[!UICONTROL Regel erstellen]**, um mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de) eine neue Segmentdefinition zu erstellen.
 
    ![](assets/audiences-choose-audience.png)
 
-1. Wenn mehrere Zielgruppen ausgewählt sind, legen Sie fest, wie die Profile dieser Zielgruppen zusammengeführt werden sollen:
+1. Wenn mehrere Audiences ausgewählt sind, legen Sie fest, wie die Profile dieser Audiences zusammengeführt werden sollen:
 
 * **[!UICONTROL Vereinigung]**: Schließt alle Profile der ausgewählten Audiences ein,
 * **[!UICONTROL Schnittmenge]**: Schließt Profile ein, die allen ausgewählten Audiences gemeinsam sind,
 * **[!UICONTROL Überschneidung ausschließen]**: Schließt Profile ein, die nur zu einer der Audiences gehören. Profile, die zu mehr als einer Audience gehören, werden nicht einbezogen.
 
-In diesem Beispiel möchten wir alle Profile ansprechen, die zu den Audiences Gold und Silber gehören.
+In diesem Beispiel möchten wir alle Profile ansprechen, die zu den Zielgruppen Gold und Silber gehören.
 
 ![](assets/audiences-starting-audience.png)
 
-Nach Auswahl der Zielgruppen wird die geschätzte Anzahl der Profile am unteren Ende der Aktivität angezeigt.
+Nach Auswahl der Audiences wird die geschätzte Anzahl der Profile am unteren Ende der Aktivität angezeigt.
 
 ## Hinzufügen von Aktivitäten {#action-activities}
 
