@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="Zuweisung von Subdomains"
->abstract="Um mit dem Versand von E-Mails zu beginnen, delegieren Sie Ihre Subdomain an Adobe. Danach werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen für Sie konfiguriert."
+>abstract="Um mit dem Versand von E-Mails zu beginnen, wird die Subdomain an Adobe delegiert. Daraufhin werden DNS-Einträge, Postfächer, Absender-, Antwort- und Bounce-Adressen konfiguriert."
 
-Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, an eine anderen Entität eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
+Das Delegieren eines Domain-Namens ist eine Methode, die es dem Eigentümer eines Domain-Namens (technisch gesehen: eine DNS-Zone) ermöglicht, eine Untereinheit des Domain-Namens (technisch gesehen: eine untergeordnete DNS-Zone, die Unterzone genannt werden kann) an eine anderen Entität zu delegieren. Wenn Sie also als Kunde die Zone „example.com“ verwalten, können Sie Adobe die Unterzone „marketing.example.com“ zuweisen. [Weitere Informationen zur Subdomain-Delegierung](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
