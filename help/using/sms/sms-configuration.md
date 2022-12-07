@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 >id="ajo_admin_sms_api"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
 >abstract="Vor dem SMS-Versand müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren. Danach müssen Sie eine SMS-Oberfläche erstellen. Diese Schritte müssen von einem Adobe Journey Optimizer-Systemadministrator durchgeführt werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html?lang=de#message-preset-sms" text="Erstellen einer SMS-Kanaloberfläche"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Erstellen einer SMS-Kanaloberfläche"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
