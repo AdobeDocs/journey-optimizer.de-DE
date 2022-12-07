@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
@@ -225,6 +225,6 @@ Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung we
 
 ## Fügen Sie die Entscheidung in eine E-Mail ein. {#insert-decision-in-email}
 
-Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Befolgen Sie dazu die auf [dieser Seite](../../using/design/deliver-personalized-offers.md) beschriebenen Schritte.
+Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Befolgen Sie dazu die auf [dieser Seite](../../using/email/add-offers-email.md) beschriebenen Schritte.
 
 ![](assets/offers-e2e-offers-displayed.png)

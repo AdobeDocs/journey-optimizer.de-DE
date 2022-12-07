@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 100%
@@ -60,11 +60,11 @@ Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden als BCC an die 
 >
 >Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Oberflächen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
-Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche gespeichert und verarbeitet. Wenn Sie mit dieser Oberfläche eine [neue Nachricht erstellen](../messages/get-started-content.md), wird die BCC-E-Mail-Adresse automatisch angezeigt.
+Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche gespeichert und verarbeitet. Wenn Sie mit dieser Oberfläche eine neue Nachricht erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
 ![](assets/preset-bcc-in-msg.png)
 
-Die BCC-Adresse wird jedoch gemäß der [hier](email-settings.md) beschriebenen Logik für den Versand von Nachrichten übernommen.
+Die BCC-Adresse wird jedoch gemäß der [hier](../email/email-settings.md) beschriebenen Logik für den Versand von Nachrichten übernommen.
 
 ### Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 100%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 100%
 Sobald eine Kampagne aktiviert wurde, kann sie jederzeit geändert oder gestoppt werden. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
 
 Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, wenn neue Kampagnen erstellt werden sollen, und gestoppte oder abgeschlossene Kampagnen archivieren.
+
+## Zugriff auf Kampagnen {#access}
+
+Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
+
+Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt.
+
+Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
+
+![](assets/create-campaign-list.png)
+
+## Kampagnenstatus {#statuses}
+
+Kampagnen können mehrere Status aufweisen:
+
+* **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
+* **[!UICONTROL Wird aktiviert]**: Die Kampagne wird aktiviert.
+* **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
+* **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
+* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)
+* **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
+* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Informationen zum Archivieren von Kampagnen](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde. [Weitere Informationen](modify-stop-campaign.md#modify).
 
 ## Bearbeitung einer wiederkehrenden Kampagne {#modify}
 

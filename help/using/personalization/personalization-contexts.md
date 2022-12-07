@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Wenn Sie eine E-Mail erstellen, können Sie im Fenster **[!UICONTROL Betreffzeil
 
 In Email Designer können Sie den Inhalt personalisieren:
 
-* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../design/design-emails.md).
+* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von Email Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ Sie können **Push-Benachrichtigungen** auch in den folgenden Feldern personalis
 
 ![](assets/perso_push.png)
 
-Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../configuration/push-gs.md).
+Weitere Informationen zur Konfiguration von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push/push-gs.md).
 
 ## Angebote personalisieren {#personalize-offers}
 

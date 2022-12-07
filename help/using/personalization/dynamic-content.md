@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Sobald Ihr Inhalt fertig ist, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** eine Vorschau der verschiedenen Varianten anzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../design/preview.md)
+1. Sobald Ihr Inhalt fertig ist, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** eine Vorschau der verschiedenen Varianten anzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

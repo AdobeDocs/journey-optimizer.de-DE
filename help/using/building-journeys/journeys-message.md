@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 73%
+source-wordcount: '707'
+ht-degree: 86%
 
 ---
 
 # E-Mail, SMS, Push-Benachrichtigung{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und [Einstellungen und Inhalte definieren](../messages/messages-in-journeys.md). Sie wird dann ausgeführt und innerhalb der Journey gesendet..
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Er wird dann ausgeführt und im Kontext der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -34,10 +34,38 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
 1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, **SMS**- oder **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
 
-   ![](../messages/assets/add-a-message.png)
+1. Konfigurieren Sie Ihre Aktivität. Hier erfahren Sie, wie Sie Ihren Nachrichteninhalt in den folgenden Seiten erstellen:
 
-
-   Alle Schritte zum Konfigurieren der Nachricht und zum Definieren der Inhalte werden in [diesem Abschnitt](../messages/get-started-content.md) beschrieben.
+   <table style="table-layout:fixed">
+   <tr style="border: 0;">
+   <td>
+   <a href="../email/create-email.md">
+   <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+   </a>
+   <div><a href="../email/create-email.md"><strong>Erstellen von E-Mails</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../push/create-push.md">
+   <img alt="Gelegentlich" src="../assets/do-not-localize/push.jpg">
+   </a>
+   <div>
+   <a href="../push/create-push.md"><strong>Push-Benachrichtigungen erstellen<strong></a>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../sms/create-sms.md">
+   <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
+   </a>
+   <div>
+   <a href="../sms/create-sms.md"><strong>SMS-Nachrichten erstellen</strong></a>
+   </div>
+   <p>
+   </td>
+   </tr>
+   </table>
 
 ## Live-Inhalt aktualisieren{#update-live-content}
 
@@ -48,3 +76,51 @@ Sie können den Inhalt einer Nachricht (E-Mail, SMS, Push) in einer Live-Journey
 ![](assets/add-a-message2.png)
 
 Sie können jedoch die in der Personalisierung verwendeten Attribute nicht ändern, unabhängig davon, ob es sich um Profilattribute oder Kontextdaten handelt (aus Ereignis- oder Journey-Eigenschaften).
+
+## Optimierung des Versandzeitpunkts{#send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_disabled"
+>title="Über die Optimierung des Versandzeitpunkts"
+>abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
+
+### Über die Sendezeitoptimierung {#about-send-time}
+
+Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
+
+Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Mithilfe der folgenden Punktwerte wählt das System für jeden Benutzer automatisch die beste Zeit aus:
+
+* Die beste Stunde jedes Wochentags zur Maximierung der Interaktion
+* Der beste Wochentag zur Maximierung der Interaktion
+* Die beste Stunde des besten Wochentags zur Maximierung der Interaktion
+
+Das Modell variiert je nachdem, ob es sich um Scoring oder Training handelt. Das Training wird zu Beginn wöchentlich und später vierteljährlich durchgeführt. Das Scoring erfolgt zu Beginn wöchentlich und später monatlich.
+
+* Training – die Entwicklung des Algorithmus für die Ermittlung des Punktwerts
+* Scoring – die Anwendung eines Punktwerts auf einzelne Profile, basierend auf dem trainierten Modell
+
+Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
+
+>[!CAUTION]
+>
+>Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
+
+### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_email"
+>title="Aktivieren der Optimierung des Versandzeitpunkts"
+>abstract="Wählen Sie mithilfe des entsprechenden Radiobuttons aus, ob E-Mail-Öffnungen oder E-Mail-Click-Throughs optimiert werden sollen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+
+>[!CONTEXTUALHELP]
+>id="jo_bestsendtime_push"
+>title="Aktivieren der Optimierung des Versandzeitpunkts"
+>abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+
+Aktivieren Sie die Versandzeitpunktoptimierung für eine E-Mail oder Push-Benachrichtigung, indem Sie den Umschalter **Versandzeitpunktoptimierung** aus den Parametern der Aktivität auswählen.
+
+![](../building-journeys/assets/jo-message5.png)
+
+Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobuttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Click-Throughs optimiert werden sollen. Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen.
+
+Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert „sechs Stunden“ wählen, prüft [!DNL Journey Optimizer] jedes Benutzerprofil und wählt den optimalen Versandzeitpunkt innerhalb von sechs Stunden ab der Journey-Ausführungszeit aus.

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1301'
+ht-degree: 95%
 
 ---
 
@@ -50,15 +50,15 @@ ht-degree: 100%
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktion](using/building-journeys/reaction-events.md)
-      + [Segmentqualifikation](using/building-journeys/segment-qualification-events.md)
+      + [Segmentqualifizierung](using/building-journeys/segment-qualification-events.md)
       + [Bedingung](using/building-journeys/condition-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
       + [Segment lesen](using/building-journeys/read-segment.md)
-      + [E-Mail, SMS, Push](using/building-journeys/journeys-message.md)
+      + [E-Mail, SMS, Push-Benachrichtigung](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Aktionen in Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
-      + [Springen](using/building-journeys/jump.md)
+      + [Sprung](using/building-journeys/jump.md)
       + [Aktualisieren von Profilen](using/building-journeys/update-profiles.md)
    + Erstellen von Ausdrücken {#building-advanced-conditions-journeys}
       + [Übersicht](using/building-journeys/expression/expressionadvanced.md)
@@ -160,57 +160,71 @@ ht-degree: 100%
    + [Erste Schritte mit Kampagnen](using/campaigns/get-started-with-campaigns.md)
    + [Erstellen einer Kampagne](using/campaigns/create-campaign.md)
    + [Überprüfen und Aktivieren einer Kampagne](using/campaigns/review-activate-campaign.md)
-   + [Verwalten von Live-Kampagnen](using/campaigns/modify-stop-campaign.md)
+   + [Verwalten von Kampagnen](using/campaigns/modify-stop-campaign.md)
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
       + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
       + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
-+ Nachrichten {#messages}
-   + Erste Schritte mit Nachrichten{#get-started-msg}
-      + [Übersicht](using/messages/get-started-content.md)
-      + [Hinzufügen von Nachrichten in Journeys](using/messages/messages-in-journeys.md)
-      + [Hinzufügen von Nachrichten in Kampagnen     ](using/messages/messages-in-campaigns.md)
-   + [Erstellen einer E-Mail](using/messages/create-email.md)
-   + [Erstellen einer Push-Benachrichtigung](using/messages/create-push.md)
-   + [Erstellen einer SMS-Nachricht](using/messages/create-sms.md)
-   + [Erstellen eines Briefpostversands](using/messages/create-direct-mail.md)
-   + [Prüfen von Warnhinweisen](using/messages/alerts.md)
-   + [Optimierung des Versandzeitpunkts](using/messages/send-time-optimization.md)
-+ Web-Kanal{#web}
-   + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
-   + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
-   + [Verfassen von Web-Seiten](using/web/author-web.md)
-   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
-   + [Web-Berichte](using/web/web-report.md)
++ E-Mail-Kanal {#email}
+   + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
+   + [Erstellen einer E-Mail](using/email/create-email.md)
+   + E-Mail-Inhalt gestalten {#design-email}
+      + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
+      + Erstellen von Inhalten {#start-creating-content}
+         + [Von Grund auf neu beginnen](using/email/content-from-scratch.md)
+         + [Importieren von E-Mail-Inhalten](using/email/existing-content.md)
+         + [Programmieren von eigenem Inhalt](using/email/code-content.md)
+         + [Arbeiten mit Vorlagen](using/email/email-templates.md)
+      + Inhaltserstellung {#add-content}
+         + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
+         + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
+         + Verwalten von Assets {#manage-asset}
+            + [Verwenden von Assets Essentials](using/email/assets-essentials.md)
+            + [Arbeiten mit Adobe Stock](using/email/stock.md)
+         + [Hinzufügen personalisierter Angebote](using/email/add-offers-email.md)
+         + [Generieren der Textversion](using/email/text-version-email.md)
+         + [Hinzufügen eines Preheaders](using/email/preheader.md)
+      + Stil bearbeiten {#edit-style}
+         + [Hintergrundeinstellungen bearbeiten](using/email/backgrounds.md)
+         + [Anpassen der senkrechten Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
+         + [Definieren eines Stils für Links](using/email/styling-links.md)
+         + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
+   + [Vorschau erstellen und E-Mail testen](using/email/preview.md)
+   + [Verwalten des E-Mail-Opt-outs](using/email/email-opt-out.md)
+   + E-Mail-Kanal konfigurieren {#configure-email}
+      + [Erste Schritte mit der E-Mail-Konfiguration](using/email/get-started-email-config.md)
+      + [E-Mail-Oberflächeneinstellungen konfigurieren](using/email/email-settings.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
    + [In-App-Bericht](using/in-app/inapp-report.md)
-+ Inhaltserstellung {#design}
-   + [Erste Schritte beim Gestalten von E-Mails](using/design/design-emails.md)
-   + [Von Grund auf neu beginnen ](using/design/create-email-content.md)
-   + [Importieren von E-Mail-Inhalten](using/design/existing-content.md)
-   + [Programmieren von eigenem Inhalt](using/design/code-content.md)
-   + [Arbeiten mit Vorlagen](using/design/email-templates.md)
-   + Inhaltserstellung {#design-content}
-      + [Verwenden von Inhaltskomponenten](using/design/content-components.md)
-      + [Hintergrundeinstellungen](using/design/backgrounds.md)
-      + [Anpassen der senkrechten Ausrichtung und des Abstands](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Definieren eines Stils für Links](using/design/styling-links.md)
-      + [Hinzufügen von Inline-Stilattributen](using/design/adding-inline-styling-attributes.md)
-   + E-Mail-Einstellungen {#design-email}
-      + [Generieren der Textversion](using/design/text-version-email.md)
-      + [Hinzufügen eines Preheaders](using/design/preheader.md)
-   + Hinzufügen und Verwalten von Assets {#manage-asset}
-      + [Verwenden von Assets Essentials](using/design/assets-essentials.md)
-      + [Arbeiten mit Adobe Stock](using/design/stock.md)
-   + [Hinzufügen personalisierter Angebote](using/design/deliver-personalized-offers.md)
-   + [Hinzufügen von Links und Verfolgen von Nachrichten](using/design/message-tracking.md)
-   + [Vorschau und Testversand](using/design/preview.md)
++ Push-Benachrichtigungskanal{#push}
+   + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
+   + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
+   + [Push-Benachrichtigung erstellen](using/push/design-push.md)
+   + [Push-Benachrichtigung senden](using/push/send-push.md)
+   + Konfigurieren von Push-Benachrichtigungen{#push-config}
+      + [Push-Benachrichtigungen und Adobe Journey Optimizer](using/push/push-gs.md)
+      + [Kanal für Push-Benachrichtigungen konfigurieren](using/push/push-configuration.md)
++ SMS-Kanal{#sms}
+   + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
+   + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)
+   + [SMS senden](using/sms/send-sms.md)
+   + [SMS-Abmeldung verwalten](using/sms/sms-opt-out.md)
+   + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
++ Briefpost {#direct-mail}
+   + [Erstellen eines Briefpostversands](using/direct-mail/create-direct-mail.md)
+   + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
++ Web-Kanal{#web}
+   + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
+   + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
+   + [Verfassen von Web-Seiten](using/web/author-web.md)
+   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
+   + [Web-Berichte](using/web/web-report.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -398,9 +412,6 @@ ht-degree: 100%
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + Konfigurieren von Nachrichten {#configuration-message}
-      + Konfigurieren von Push-Benachrichtigungen{#push-config}
-         + [Erste Schritte mit der Konfiguration von Push-Benachrichtigungen](using/configuration/push-gs.md)
-         + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/configuration/push-configuration.md)
       + Konfigurieren von E-Mails {#email-configuration}
          + Delegieren von Subdomains {#delegate-subdomains}
             + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
@@ -414,11 +425,8 @@ ht-degree: 100%
             + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
             + [Weitere Zustellversuche](using/configuration/retries.md)
             + [Zulassungsliste](using/configuration/allow-list.md)
-      + [Konfigurieren des SMS-Kanals](using/configuration/sms-configuration.md)
-      + [Konfigurieren von Briefpost](using/configuration/direct-mail-configuration.md)
       + Einrichten von Kanaloberflächen {#set-up-channels}
          + [Erstellen von Kanaloberflächen](using/configuration/channel-surfaces.md)
-         + [Konfigurieren von E-Mail-Einstellungen](using/configuration/email-settings.md)
       + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
       + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)
       + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)

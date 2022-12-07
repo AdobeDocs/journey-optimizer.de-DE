@@ -7,16 +7,18 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 90%
 
 ---
 
 # Erste Schritte beim Datenschutz {#privacy}
 
 Journey Optimizer ist ein leistungsstarkes Tool zur Erfassung und Verarbeitung extrem großer Datenmengen, einschließlich personenbezogener Daten und vertraulicher Informationen. Aus diesem Grund muss der Datenschutz sorgfältig gehandhabt werden.
+
+Darüber hinaus sehen Vorschriften wie die DSGVO vor, dass Sie bestimmte Anforderungen erfüllen müssen, bevor Sie Informationen von betroffenen Personen verwenden können. Darüber hinaus sollten die betroffenen Personen ihre Einwilligung jederzeit ändern können.
 
 Adobe Experience Platform und Journey Optimizer bieten verschiedene Tools, mit denen Sie die Datenschutzverwaltung sicherstellen können.
 

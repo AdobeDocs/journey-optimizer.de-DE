@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -182,7 +182,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 
    >[!NOTE]
    >
-   >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die sich geirrt haben und erneut abonnieren möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Abonnementseite hinzufügen. In [diesem Abschnitt](../design/message-tracking.md#insert-links) erfahren Sie, wie Sie Links einfügen.
+   >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die sich geirrt haben und erneut abonnieren möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Abonnementseite hinzufügen. In [diesem Abschnitt](../email/message-tracking.md#insert-links) erfahren Sie, wie Sie Links einfügen.
 
 1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
    ![](assets/lp_test-profiles.png)
 
-   Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../design/preview.md#select-test-profiles).
+   Die Schritte zum Auswählen von Testprofilen sind mit denen beim Testen einer Nachricht identisch. Weitere Informationen dazu finden Sie in [diesem Abschnitt](../email/preview.md#select-test-profiles).
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Vorschau]** aus und klicken Sie auf **[!UICONTROL Vorschau öffnen]**, um Ihre Landingpage zu testen.
 
@@ -275,7 +275,7 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 Sobald die Landingpage veröffentlicht wurde, wird sie der Landingpage-Liste mit dem Status **[!UICONTROL Veröffentlicht]** hinzugefügt.
 
-Sie ist jetzt live und kann in einer [!DNL Journey Optimizer] [Nachricht](../messages/get-started-content.md), die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
+Sie ist jetzt live und kann in einer [!DNL Journey Optimizer] Nachricht, die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
 
 >[!NOTE]
 >

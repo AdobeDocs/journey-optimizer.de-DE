@@ -6,7 +6,7 @@ description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erste
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um eine Landingpage-Voreinstellung zu erstellen.
 
    Die der ausgewählten Subdomain entsprechenden Einstellungen werden angezeigt.
 
-1. Wenn Sie die Landingpage-Subdomain als Tracking-URL auswählen möchten, aktivieren Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]**. [Weitere Informationen zum Tracking](../design/message-tracking.md)
+1. Wenn Sie die Landingpage-Subdomain als Tracking-URL auswählen möchten, aktivieren Sie die Option **[!UICONTROL Gleiche Subdomain wie Landingpage]**. [Weitere Informationen zum Tracking](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

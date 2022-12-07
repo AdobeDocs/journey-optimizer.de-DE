@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -53,9 +53,9 @@ Angenommen, Sie organisieren im nächsten Monat eine Veranstaltung und möchten 
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Gestalten Sie die E-Mail](../messages/get-started-content.md), um anzukündigen, dass die Anmeldung für Ihre Veranstaltung jetzt offen ist.
+1. [Gestalten Sie die E-Mail](../email/get-started-email-design.md), um anzukündigen, dass die Anmeldung für Ihre Veranstaltung jetzt offen ist.
 
-1. [Fügen Sie einen Link](../design/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
+1. [Fügen Sie einen Link](../email/message-tracking.md#insert-links) in Ihren Nachrichteninhalt ein. Wählen Sie **[!UICONTROL Landingpage]** als **[!UICONTROL Link-Typ]** und wählen Sie die [Landingpage](create-lp.md#configure-primary-page) aus, die Sie für die Registrierung erstellt haben.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Erstellen sie eine E-Mail-Nachricht](../messages/get-started-content.md) in einer Journey.
+1. [Erstellen sie eine E-Mail-Nachricht](../email/get-started-email-design.md) in einer Journey.
 
-1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../design/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
+1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../email/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
 
    ![](assets/lp_opt-out-insert-link.png)
 

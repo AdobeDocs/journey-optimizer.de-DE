@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL CONTENT-MANAGEMENT]**
 
-* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../design/assets-essentials.md)
+* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../email/assets-essentials.md)
 
 **[!UICONTROL DATEN-MANAGEMENT]**
 

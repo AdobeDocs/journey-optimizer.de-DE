@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Zielmetriken können in zwei Hauptklassen gruppiert werden:
 * Direkte Metriken, bei denen Benutzende direkt auf die Behandlung reagieren, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
 * Indirekte oder „Trichterboden“-Metriken, die auftreten, nachdem Benutzende der Behandlung ausgesetzt wurden.
 
-Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Behandlungs-Kennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../design/message-tracking.md).
+Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Behandlungs-Kennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 

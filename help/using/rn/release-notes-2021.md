@@ -4,7 +4,7 @@ product: journey optimizer
 title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
@@ -182,7 +182,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <td>
 <p>Senden Sie mit Adobe Journey Optimizer Ihre Push-Benachrichtigung oder E-Mail automatisch zum besten Zeitpunkt für jeden Kunden. Die Optimierung des Versandzeitpunktes basiert auf den KI-Services von Adobe und sagt den besten Versandzeitpunkt für E-Mails oder Push-Benachrichtigungen voraus. Dadurch werden die Interaktionen auf der Grundlage historischer Öffnungs- und Klickraten automatisch maximiert.</p>
 <p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../messages/send-time-optimization.md">entsprechenden Dokumentation</a>.</p>
+<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../building-journeys/journeys-message.md#send-time-optimization">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Inhaltserstellung**
 
-* **Hintergrund** – Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](../design/preview.md)
+* **Hintergrund** – Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](../email/preview.md)
 * **Ein-Klick-Opt-out-Link** – Sie können einen neuen Link-Typ in Ihren E-Mail-Inhalt einfügen: Mit dem **Opt-out**-Link können sich Benutzer vom Erhalt Ihrer Nachrichten mit nur einem Klick abmelden, ohne zu einer Landingpage weitergeleitet zu werden, um die Abmeldung zu bestätigen. [Weitere Informationen](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalisierung**
@@ -346,9 +346,9 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Vorschau und Test**
 
-* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../design/preview.md#preview-your-messages)
+* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../email/preview.md#preview-your-messages)
 * Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
-* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Mehr dazu](../design/preview.md#send-proofs)
+* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Mehr dazu](../email/preview.md#send-proofs)
 
 **Ausdruckseditor für Personalisierung**
 

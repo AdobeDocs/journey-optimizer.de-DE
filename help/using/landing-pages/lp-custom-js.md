@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%
@@ -23,13 +23,13 @@ Sie können den Inhalt Ihrer Landingpage mit benutzerdefiniertem JavaScript defi
 
 Um benutzerdefiniertes JavaScript in die Inhalte von Landingpages einzufügen, haben Sie die folgenden Möglichkeiten:
 
-* Importieren Sie vorhandene HTML-Inhalte, wenn Sie mit der Erstellung des Inhalts beginnen, und wählen Sie die Datei aus, die Ihren benutzerdefinierten JavaScript-Code enthält. [In diesem Abschnitt](../design/existing-content.md) erfahren Sie, wie Sie Inhalte importieren.
+* Importieren Sie vorhandene HTML-Inhalte, wenn Sie mit der Erstellung des Inhalts beginnen, und wählen Sie die Datei aus, die Ihren benutzerdefinierten JavaScript-Code enthält. [In diesem Abschnitt](../email/existing-content.md) erfahren Sie, wie Sie Inhalte importieren.
 
-* Erstellen Sie Ihre Landingpage von Grund auf neu oder aus einer gespeicherten Vorlage. Ziehen Sie die **[!UICONTROL HTML]**-Inhaltskomponente in die Arbeitsfläche und zeigen Sie den Quell-Code an, um Ihr JavaScript zur Komponente hinzuzufügen. In [diesem Abschnitt](../design/content-components.md#HTML) erfahren Sie, wie Sie die HTML-Komponente verwenden. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Erstellen Sie Ihre Landingpage von Grund auf neu oder aus einer gespeicherten Vorlage. Ziehen Sie die **[!UICONTROL HTML]**-Inhaltskomponente in die Arbeitsfläche und zeigen Sie den Quell-Code an, um Ihr JavaScript zur Komponente hinzuzufügen. In [diesem Abschnitt](../email/content-components.md#HTML) erfahren Sie, wie Sie die HTML-Komponente verwenden. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Geben Sie JavaScript-Code direkt in den Inhalts-Designer ein oder fügen Sie ihn ein. Erfahren Sie [in diesem Abschnitt](../design/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
+* Geben Sie JavaScript-Code direkt in den Inhalts-Designer ein oder fügen Sie ihn ein. Erfahren Sie [in diesem Abschnitt](../email/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
 >[!NOTE]
 >

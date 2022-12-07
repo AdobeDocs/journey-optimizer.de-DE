@@ -5,7 +5,7 @@ title: Journey Optimizer – Erste Schritte für Systemadministratoren
 description: Hier erfahren Systemadministratoren mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
@@ -48,11 +48,11 @@ Führen Sie dazu folgende Schritte durch:
 
 1. **Konfigurieren von Nachrichten und Kanälen**: Definieren von Oberflächen und Anpassen der Einstellungen für E-Mail-Nachrichten, SMS und Push-Benachrichtigungen
 
-   * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../configuration/push-gs.md)
+   * Definieren Sie **Push-Benachrichtigungseinstellungen** sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../../push/push-gs.md)
 
    * Erstellen Sie **Kanaloberflächen** (d. h. Nachrichtenvoreinstellungen) zum Konfigurieren aller technischen Parameter, die für E-Mail, SMS und Push-Benachrichtigungen erforderlich sind. [Weitere Informationen](../../configuration/channel-surfaces.md)
 
-   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../configuration/sms-configuration.md)
+   * Konfigurieren Sie den **SMS-Kanal**, um alle für SMS erforderlichen technischen Parameter zu konfigurieren. [Weitere Informationen](../../sms/sms-configuration.md)
 
    * Verwalten Sie die Anzahl der Tage, in denen **weitere Zustellversuche** unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](../../configuration/manage-suppression-list.md)
 

@@ -1,0 +1,48 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Codieren Ihres eigenen E-Mail-Inhalts
+description: Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 93%
+
+---
+
+# Codieren Ihres eigenen Inhalts {#code-content}
+
+Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode setzt HTML-Kenntnisse voraus.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
+
+>[!CAUTION]
+>
+> Bilder von [Adobe Experience Manager Assets Essentials](assets-essentials.md) können bei dieser Methode nicht referenziert werden. Die Bilder, auf die im HTML-Code verwiesen wird, müssen an einem öffentlichen Speicherort abrufbar sein.
+
+1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL Eigene Code]**.
+
+   ![](assets/code-your-own.png)
+
+1. Geben Sie Ihren HTML-Roh-Code ein oder fügen Sie ihn ein.
+
+1. Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen von [!DNL Journey Optimizer] anzuwenden. [Weitere Informationen](../personalization/personalize.md)
+
+   ![](assets/code-editor.png)
+
+1. Wenn Sie Email Designer öffnen möchten, um Ihre E-Mail auf der Basis eines neuen Entwurfs zu gestalten, wählen Sie **[!UICONTROL Entwurf ändern]** aus dem Menü „Optionen“.
+
+   ![](assets/code-editor-change-design.png)
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um den Nachrichtenentwurf und die Personalisierung mithilfe von Testprofilen zu überprüfen. [Weitere Informationen](preview.md)
+
+   ![](assets/code-editor-preview.png)
+
+1. Wenn Ihr Code fertig ist, klicken Sie auf **[!UICONTROL Speichern]** und kehren Sie dann zurück zum Bildschirm „Nachrichtenerstellung“, um die Nachricht fertigzustellen.
+
+   ![](assets/code-editor-save.png)

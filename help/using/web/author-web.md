@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
@@ -94,13 +94,13 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 1. Aus dem Bedienfeld **[!UICONTROL Komponenten]** auf der linken Seite können Sie die folgenden Komponenten zu Ihrer Web-Seite hinzufügen und sie nach Bedarf bearbeiten:
 
-   * [Trennlinie](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [Bild](../design/content-components.md#image)
-   * Überschrift – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
-   * Absatz – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../design/content-components.md#text)
-   * Link – Erfahren Sie in [diesem Abschnitt](../design/styling-links.md), wie Sie Link-Stile definieren.
-   * [Angebotsentscheidung](../design/deliver-personalized-offers.md)
+   * [Trennlinie](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [Bild](../email/content-components.md#image)
+   * Überschrift – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Absatz – die Verwendung dieser Komponente ähnelt der Verwendung der Komponente **[!UICONTROL Text]** im E-Mail-Designer. [Weitere Informationen](../email/content-components.md#text)
+   * Link – Erfahren Sie in [diesem Abschnitt](../email/styling-links.md), wie Sie Link-Stile definieren.
+   * [Angebotsentscheidung](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ Um eine Personalisierung hinzuzufügen, wählen Sie einen Container aus und klic
 
 ![](assets/web-designer-personalization.png)
 
-Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote](../offers/get-started/starting-offer-decisioning.md) in Ihre Web-Seiten einzufügen. Der Prozess ist der gleiche wie beim [Hinzufügen eines Angebots zu einer E-Mail](../design/deliver-personalized-offers.md). Er nutzt das Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
+Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote](../offers/get-started/starting-offer-decisioning.md) in Ihre Web-Seiten einzufügen. Der Prozess ist der gleiche wie beim [Hinzufügen eines Angebots zu einer E-Mail](../email/add-offers-email.md). Er nutzt das Entscheidungs-Management, um das beste Angebot für Ihre Kunden auszuwählen.
 
 ![](assets/web-designer-offer.png)
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 99%
@@ -22,14 +22,13 @@ ht-degree: 99%
 >title="Anwendungsoberfläche"
 >abstract="Eine Oberfläche ist eine Konfiguration, die durch Systemadmins definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
 
-
 Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.
 
 >[!CAUTION]
 >
 > * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung zur [Verwaltung von Kanaloberflächen](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](email-settings.md), [Push-Benachrichtigungen](../configuration/push-configuration.md) und [SMS](../configuration/sms-configuration.md) ausführen.
+> * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](../email/get-started-email-config.md), [Push-Benachrichtigungen](../push/push-configuration.md) und [SMS](../sms/sms-configuration.md) ausführen.
 
 
 Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
@@ -64,7 +63,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Wenn Sie den **[!UICONTROL E-Mail]**-Kanal ausgewählt haben, konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](email-settings.md) beschrieben.
+1. Wenn Sie den **[!UICONTROL E-Mail]**-Kanal ausgewählt haben, konfigurieren Sie Ihre Einstellungen wie in [diesem Abschnitt](../email/email-settings.md) beschrieben.
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
    >[!NOTE]
    >
-   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](push-gs.md).
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von Push-Benachrichtigungen finden Sie in [diesem Abschnitt](../push/push-gs.md).
 
-1. Definieren Sie Ihre Einstellungen für den **[!UICONTROL SMS]**-Kanal wie in [diesem Abschnitt](sms-configuration.md#message-preset-sms) beschrieben.
+1. Definieren Sie Ihre Einstellungen für den **[!UICONTROL SMS]**-Kanal wie in [diesem Abschnitt](../sms/sms-configuration.md#message-preset-sms) beschrieben.
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](sms-configuration.md).
+   >Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](../sms/sms-configuration.md).
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 

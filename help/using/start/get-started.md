@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '699'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,6 @@ Verstehen Sie mit der folgenden Abbildung die grundlegende Architektur von [!DNL
 **Siehe auch**
 
 * [Wichtige Schritte für den Start](quick-start.md)
-* [Erstellen Ihrer ersten Nachricht](../messages/get-started-content.md)
 * [Entwerfen von Journeys und Senden von Nachrichten](../building-journeys/journey-gs.md)
 * [Live-Berichte](../reports/live-report.md)
 * [Häufig gestellte Fragen zu Journey Optimizer](assets/do-not-localize/AJO-FAQ.pdf) (PDF)

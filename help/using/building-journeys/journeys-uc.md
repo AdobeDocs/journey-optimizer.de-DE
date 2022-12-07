@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -88,11 +88,11 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
    ![](assets/jo-uc4.png)
 
-1. Legen Sie die Aktionsaktivität **E-Mail** im Arbeitsbereich ab und definieren Sie den Inhalt der „ersten Nachricht“. Diese Nachricht wird an alle Personen in der Journey gesendet. In diesem [Abschnitt](../messages/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
+1. Legen Sie die Aktionsaktivität **E-Mail** im Arbeitsbereich ab und definieren Sie den Inhalt der „ersten Nachricht“. Diese Nachricht wird an alle Personen in der Journey gesendet. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
    ![](assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf der Aktivität „E-Mail“ und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
+1. Platzieren Sie den Cursor auf die E-Mail-Aktivität und klicken Sie auf das Symbol &quot;+&quot;, um einen neuen Pfad zu erstellen.
 
 1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald ein zum Segment gehörender Kontaktdie Push-Version der ersten Nachricht öffnet.
 
@@ -104,11 +104,11 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
    >
    >Beim Konfigurieren der maximalen Wartezeit für mehrere Ereignisse (in diesem Fall die beiden Reaktionen) müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
 
-1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Benachrichtigung öffnen. In diesem [Abschnitt](../messages/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
+1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Benachrichtigung öffnen. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
 1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
-1. Legen Sie nach dem Ereignis die Aktionsaktivität **Push** im Arbeitsbereich ab und definieren Sie den Inhalt der Dankesnachricht. In diesem [Abschnitt](../messages/create-push.md) erfahren Sie, wie Sie eine Push-Benachrichtigung konfigurieren und gestalten können.
+1. Legen Sie nach dem Ereignis die Aktionsaktivität **Push** im Arbeitsbereich ab und definieren Sie den Inhalt der Dankesnachricht. In diesem [Abschnitt](../push/create-push.md) erfahren Sie, wie Sie eine Push-Benachrichtigung konfigurieren und gestalten können.
 
 ## Testen und Veröffentlichen der Journey
 

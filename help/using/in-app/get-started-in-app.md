@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,39 @@ Vor dem Senden von In-App-Nachrichten müssen Sie Folgendes tun:
 
 Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
 
-**Verwandte Themen:**
-
-* [Erstellen einer In-App-Nachricht](create-in-app.md)
-* [Entwerfen der In-App-Nachricht](design-in-app.md)
-* [In-App-Bericht](inapp-report.md)
-* [In-App-Konfiguration](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>Erstellen einer In-App-Nachricht</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="Gelegentlich" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>Gestalten Ihrer In-App-Inhalte</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="Validierung" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>In-App-Bericht</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validierung" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Konfigurieren des In-App-Kanals</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '403'
 ht-degree: 100%
 
 ---
@@ -66,32 +66,6 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 1. **Sie benötigen eine Audience**. Audience-Segmente müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zum Erstellen von Audience finden Sie [auf dieser Seite](../segment/about-segments.md).
 1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen finden Sie [auf dieser Seite](../configuration/channel-surfaces.md).
-
-## Zugriff auf Kampagnen {#access}
-
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
-
-Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt.
-
-Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
-
-![](assets/create-campaign-list.png)
-
-## Kampagnenstatus {#statuses}
-
-Kampagnen können mehrere Status aufweisen:
-
-* **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
-* **[!UICONTROL Wird aktiviert]**: Die Kampagne wird aktiviert.
-* **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
-* **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
-* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)
-* **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
-* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Informationen zum Archivieren von Kampagnen](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde. [Weitere Informationen](modify-stop-campaign.md#modify).
 
 ## Anleitungsvideo {#video}
 
