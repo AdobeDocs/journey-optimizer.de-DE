@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 99%
+source-wordcount: '879'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,8 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Datei-Routing-Konfiguration"
 >abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Audience generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Erstellen einer Briefpostnachricht"
+<!-->
+>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;Briefpost-Nachricht erstellen&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
