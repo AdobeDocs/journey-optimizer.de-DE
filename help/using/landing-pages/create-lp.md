@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../configuration/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
+1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../landing-pages/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 
    ![](assets/lp_open-designer.png)
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten [Voreinstellung](../configuration/lp-presets.md#lp-create-preset) eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten [Voreinstellung](../landing-pages/lp-presets.md#lp-create-preset) eingerichtet haben. [Weitere Informationen](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
    >
    >Sie können von jeder Unterseite derselben Landingpage aus einen Link zur primären Seite einfügen. Um beispielsweise Benutzer umzuleiten, die sich geirrt haben und erneut abonnieren möchten, können Sie einen Link von der Bestätigungs-Unterseite zur primären Abonnementseite hinzufügen. In [diesem Abschnitt](../email/message-tracking.md#insert-links) erfahren Sie, wie Sie Links einfügen.
 
-1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../configuration/lp-subdomains.md)
+1. Definieren Sie Ihre Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Subdomain für die Landingpage eingerichtet haben. [Weitere Informationen](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

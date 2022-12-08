@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Entwerfen von E-Mails
-description: Erfahren Sie, wie Sie den Stil Ihres E-Mail-Inhalts anpassen.
+title: Erste Schritte mit E-Mail-Stil
+description: Hier erfahren Sie, wie Sie den Inhaltsstil Ihrer E-Mail anpassen können.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '115'
+ht-degree: 0%
 
 ---
 
-# Erste Schritte mit dem Stil von E-Mail-Inhalten {#get-started-email-style}
+# Erste Schritte mit E-Mail-Stil {#get-started-email-style}
 
 Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer]können Sie eine Reihe von Stilparametern und Attributen im Einstellungsbereich von Email Designer anpassen.
 
