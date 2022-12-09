@@ -1,6 +1,6 @@
 ---
 title: Entscheidungsregel erstellen
-description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
+description: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,22 +9,22 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Entscheidungsregel erstellen {#create-decision-rule}
 
-Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
+Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
 
-## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
 
-| Header-Name | Wert |
+| Kopfzeilenname | Wert |
 | ----------- | ----- |
-| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **API-Format**
 
@@ -70,10 +70,9 @@ curl -X POST \
 }'
 ```
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidungsregel zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidungsregel zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihrer Entscheidungsregel in einem späteren Tutorial zum Erstellen personalisierter Angebote nutzen.
-
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidungsregel zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidungsregel zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Entscheidungsregel verwenden `@id` in einem späteren Tutorial zum Erstellen personalisierter Angebote.
 
 ```json
 {

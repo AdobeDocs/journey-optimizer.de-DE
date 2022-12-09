@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ändern oder Stoppen einer Kampagne
-description: Live-Kampagnen in  [!DNL Journey Optimizer] ändern, stoppen oder duplizieren
+title: Ändern oder Anhalten einer Kampagne
+description: Erfahren Sie, wie Sie Live-Kampagnen in ändern, stoppen oder duplizieren [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
@@ -10,24 +10,24 @@ level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 0%
 
 ---
 
 # Verwalten von Kampagnen {#modify-stop-campaign}
 
-Sobald eine Kampagne aktiviert wurde, kann sie jederzeit geändert oder gestoppt werden. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
+Nach Aktivierung einer Kampagne können Sie diese jederzeit ändern oder stoppen. Diese Vorgänge stehen nur bei Kampagnen mit wiederkehrender Ausführung zur Verfügung.
 
-Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, wenn neue Kampagnen erstellt werden sollen, und gestoppte oder abgeschlossene Kampagnen archivieren.
+Darüber hinaus können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführung) duplizieren, um neue zu erstellen und abgeschlossene oder gestoppte Kampagnen zu archivieren.
 
-## Zugriff auf Kampagnen {#access}
+## Auf Kampagnen zugreifen {#access}
 
-Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
+Auf Kampagnen kann über die **[!UICONTROL Campaigns]** Menü.
 
-Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt.
+Standardmäßig werden in der Liste alle Kampagnen mit dem **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]** und **[!UICONTROL Live]** Status.
 
-Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
+Um angehaltene, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
 ![](assets/create-campaign-list.png)
 
@@ -35,62 +35,62 @@ Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie d
 
 Kampagnen können mehrere Status aufweisen:
 
-* **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
-* **[!UICONTROL Wird aktiviert]**: Die Kampagne wird aktiviert.
+* **[!UICONTROL Draft]**: Die Kampagne wird bearbeitet, sie wurde nicht aktiviert.
+* **[!UICONTROL Activating]**: Die Kampagne wird aktiviert.
 * **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
-* **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
-* **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)
-* **[!UICONTROL Abgeschlossen]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
-* **[!UICONTROL Archiviert]**: Die Kampagne wurde archiviert. [Informationen zum Archivieren von Kampagnen](modify-stop-campaign.md#archive)
+* **[!UICONTROL Scheduled]**: Die Kampagne ist so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
+* **[!UICONTROL Stopped]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Erfahren Sie, wie Sie eine Kampagne stoppen](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completed]**: Die Kampagne ist abgeschlossen. Dieser Status wird automatisch 3 Tage nach der Aktivierung einer Kampagne zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
+* **[!UICONTROL Archived]**: Die Kampagne wurde archiviert. [Erfahren Sie, wie Sie Kampagnen archivieren](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->Das Symbol „Entwurfsversion öffnen“ neben einem Status **[!UICONTROL Live]** oder **[!UICONTROL Geplant]** zeigt an, dass eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde. [Weitere Informationen](modify-stop-campaign.md#modify).
+>Das Symbol &quot;Entwurfsversion öffnen&quot;neben einem **[!UICONTROL Live]** oder **[!UICONTROL Scheduled]** Der Status zeigt an, dass eine neue Version der Kampagne erstellt wurde und noch nicht aktiviert wurde. [Weitere Infos](modify-stop-campaign.md#modify).
 
-## Bearbeitung einer wiederkehrenden Kampagne {#modify}
+## Ändern einer wiederkehrenden Kampagne {#modify}
 
-Zum Ändern und Erstellen einer neuen Version einer wiederkehrenden Kampagne wie folgt vorgehen:
+Gehen Sie wie folgt vor, um eine neue Version einer wiederkehrenden Kampagne zu ändern und zu erstellen:
 
-1. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Kampagne ändern]**.
+1. Öffnen Sie die Kampagne und klicken Sie auf die Schaltfläche **[!UICONTROL Modify campaign]** Schaltfläche.
 
-1. Eine neue Version der Kampagne wird erstellt. Sie können die Live-Version überprüfen, indem Sie auf **[!UICONTROL Live-Version öffnen]** klicken.
+1. Eine neue Version der Kampagne wird erstellt. Sie können die Live-Version überprüfen, indem Sie auf **[!UICONTROL Open live version]**.
 
    ![](assets/create-campaign-draft.png)
 
-   In der Liste der Kampagnen werden aktivierte Kampagnen, für die eine Entwurfsversion in Bearbeitung ist, mit einem speziellen Symbol in der Spalte **[!UICONTROL Status]** angezeigt. Klicken Sie auf dieses Symbol, um die Entwurfsversion der Kampagne zu öffnen.
+   In der Kampagnenliste werden aktivierte Kampagnen mit dem Entwurf der aktuellen Version mit einem bestimmten Symbol im **[!UICONTROL Status]** Spalte. Klicken Sie auf dieses Symbol, um den Entwurf der Kampagne zu öffnen.
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Sobald Sie mit den Änderungen fertig sind, können Sie die neue Version der Kampagne aktivieren (siehe [Überprüfung und Aktivierung einer Kampagne](create-campaign.md#review-activate)).
+1. Sobald Ihre Änderungen fertig sind, können Sie die neue Version der Kampagne aktivieren (siehe [Kampagne überprüfen und aktivieren](create-campaign.md#review-activate)).
 
    >[!IMPORTANT]
    >
    >Durch die Aktivierung des Entwurfs wird die Live-Version der Kampagne ersetzt.
 
-## Stoppen einer wiederkehrenden Kampagne {#stop}
+## Wiederkehrende Kampagne stoppen {#stop}
 
-Zum Stoppen einer wiederkehrenden Kampagne diese bitte öffnen und auf den Button **[!UICONTROL Kampagne anhalten]** klicken.
+Um eine wiederkehrende Kampagne anzuhalten, öffnen Sie sie und klicken Sie auf die Schaltfläche **[!UICONTROL Stop campaign]** Schaltfläche.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Das Anhalten einer Kampagne stoppt keinen laufenden Versand, aber es stoppt einen geplanten Versand oder die nächsten Vorgänge, wenn der Versand bereits im Gange ist.
+>Durch das Anhalten einer Kampagne wird der laufende Versand nicht gestoppt, aber der geplante Versand wird gestoppt oder das nächste Vorkommen, wenn der Versand bereits durchgeführt wird.
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
-## Duplizieren einer Kampagne {#duplicate}
+## Kampagne duplizieren {#duplicate}
 
-Eine Live-Kampagne kann dupliziert werden, um eine neue zu erstellen. Dazu bitte die Kampagne öffnen und auf **[!UICONTROL Duplizieren]** klicken.
+Sie können eine Live-Kampagne duplizieren, um eine neue zu erstellen. Öffnen Sie dazu die Kampagne und klicken Sie auf **[!UICONTROL Duplicate]**.
 
 ![](assets/create-campaign-duplicate.png)
 
-## Archivieren einer Kampagne {#archive}
+## Kampagne archivieren {#archive}
 
-Mit der Zeit wächst die Liste der Kampagnen, wodurch es zunehmend schwieriger wird, abgeschlossene und gestoppte Kampagnen zu durchsuchen.
+Mit der Zeit wächst die Liste der Kampagnen und erschwert es schließlich, abgeschlossene und gestoppte Kampagnen zu durchsuchen.
 
-Um dies zu verhindern, können Sie abgeschlossene und gestoppte Kampagnen archivieren, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Archivieren]**.
+Um dies zu verhindern, können Sie abgeschlossene und gestoppte Kampagnen archivieren, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Archive]**.
 
 ![](assets/create-campaign-archive.png)
 
-Archivierte Kampagnen können dann mithilfe des entsprechenden Filters in der Liste abgerufen werden. [Erfahren Sie, wie Sie auf Kampagnen zugreifen können](get-started-with-campaigns.md#access)
+Archivierte Kampagnen können dann mithilfe des dedizierten Filters in der Liste abgerufen werden. [Erfahren Sie, wie Sie auf Kampagnen zugreifen können](get-started-with-campaigns.md#access)

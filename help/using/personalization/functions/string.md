@@ -1,6 +1,6 @@
 ---
-title: Bibliothek mit Zeichenfolgen-Funktionen
-description: Bibliothek mit Zeichenfolgen-Funktionen
+title: Zeichenfunktionen-Bibliothek
+description: Zeichenfunktionen-Bibliothek
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,18 +8,18 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 100%
+source-wordcount: '1678'
+ht-degree: 0%
 
 ---
 
 # Zeichenfolgen-Funktionen {#string}
 
-Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgenfunktionen verwenden können.
+Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgen-Funktionen verwenden.
 
-## Binnenmajuskel {#camelCase}
+## Camel Case {#camelCase}
 
-Mit der Funktion `camelCase` wird der erste Buchstabe eines jeden Wortes einer Zeichenfolge großgeschrieben.
+Die `camelCase` -Funktion Großschreibung des ersten Buchstabens eines jeden Worts einer Zeichenfolge.
 
 **Format**
 
@@ -29,15 +29,15 @@ Mit der Funktion `camelCase` wird der erste Buchstabe eines jeden Wortes einer Z
 
 **Beispiel**
 
-Mit der folgenden Funktion wird der erste Buchstabe der Straßenadresse des Profils großgeschrieben.
+Mit der folgenden Funktion wird der erste Buchstabe in der Straßenadresse des Profils großgeschrieben.
 
 ```sql
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
-## Verknüpfen {#concate}
+## Concat {#concate}
 
-Die Funktion `concat` kombiniert zwei Zeichenfolgen zu einer.
+Die `concat` -Funktion kombiniert zwei Zeichenfolgen zu einer.
 
 **Format**
 
@@ -47,7 +47,7 @@ Die Funktion `concat` kombiniert zwei Zeichenfolgen zu einer.
 
 **Beispiel**
 
-Mit der folgenden Funktion wird die Stadt und das Land eines Profils in einer einzigen Zeichenfolge kombiniert.
+Die folgende Funktion kombiniert Profilstadt und -land in einer einzigen Zeichenfolge.
 
 ```sql
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
@@ -55,7 +55,7 @@ Mit der folgenden Funktion wird die Stadt und das Land eines Profils in einer ei
 
 ## Enthält {#contains}
 
-Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
+Die `contains` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
 
 **Format**
 
@@ -65,19 +65,19 @@ Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene 
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `STRING_1` | Die Zeichenfolge, die überprüft werden soll. |
+| `STRING_1` | Die Zeichenfolge, die geprüft werden soll. |
 | `STRING_2` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `CASE_SENSITIVE` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
 
 **Beispiele**
 
-* Mit der folgenden Funktion wird geprüft, ob der Vorname des Profils den Buchstaben A enthält (in Groß- oder Kleinschreibung). Ist dies der Fall, wird „true“ zurückgegeben, andernfalls wird „false“ zurückgegeben.
+* Die folgende Funktion prüft, ob der Vorname des Profils den Buchstaben A enthält (in Groß- oder Kleinschreibung). Ist dies der Fall, wird &quot;true&quot;zurückgegeben, andernfalls wird &quot;false&quot;zurückgegeben.
 
    ```sql
    {%= contains(profile.person.name.firstName, "A", false) %}
    ```
 
-* Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person die Zeichenfolge „2010@gm“ enthält.
+* Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person die Zeichenfolge &quot;2010@gm&quot;enthält.
 
    ```sql
    {%= contains(profile.person.emailAddress,"2010@gm") %}
@@ -85,7 +85,7 @@ Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene 
 
 ## Enthält nicht{#doesNotContain}
 
-Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge nicht enthält.
+Die `doesNotContain` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge keine angegebene Teilzeichenfolge enthält.
 
 **Format**
 
@@ -95,22 +95,22 @@ Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge eine angeg
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `STRING_1` | Die Zeichenfolge, die überprüft werden soll. |
+| `STRING_1` | Die Zeichenfolge, die geprüft werden soll. |
 | `STRING_2` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `CASE_SENSITIVE` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person die Zeichenfolge „2010@gm“ nicht enthält.
+Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person die Zeichenfolge &quot;2010@gm&quot;nicht enthält.
 
 ```sql
 {%= doesNotContain(profile.person.emailAddress,"2010@gm")%}
 ```
 
 
-## Endet nicht mit{#doesNotEndWith}
+## endet nicht mit{#doesNotEndWith}
 
-Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge endet.
+Die `doesNotEndWith` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht mit einer angegebenen Teilzeichenfolge endet.
 
 **Format**
 
@@ -120,13 +120,13 @@ Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit 
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person nicht mit „.com“ endet.
+Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person nicht mit &quot;.com&quot;endet.
 
 ```sql
 doesNotEndWith(person.emailAddress,".com")
@@ -134,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Beginnt nicht mit{#doesNotStartWith}
 
-Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge beginnt.
+Die `doesNotStartWith` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht mit einer angegebenen Teilzeichenfolge beginnt.
 
 **Format**
 
@@ -144,21 +144,21 @@ Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mi
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der Personenname nicht mit „Joe“ beginnt.
+Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob der Name der Person nicht mit &quot;Joe&quot;beginnt.
 
 ```sql
 {%= doesNotStartWith(person.name,"Joe")%}
 ```
 
-## Codieren 64{#encode64}
+## Kodierung 64{#encode64}
 
-Die Funktion `encode64` wird zum Codieren einer Zeichenfolge verwendet, um personenbezogene Daten (PI) beizubehalten, wenn diese z. B. in eine URL aufgenommen werden sollen.
+Die `encode64` -Funktion wird zum Kodieren einer Zeichenfolge verwendet, um personenbezogene Daten (PI) beizubehalten, wenn diese z. B. in eine URL aufgenommen werden sollen.
 
 **Format**
 
@@ -166,9 +166,9 @@ Die Funktion `encode64` wird zum Codieren einer Zeichenfolge verwendet, um perso
 {%= encode64(string) %}
 ```
 
-## Endet mit{#endsWith}
+## Endet in{#endsWith}
 
-Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
+Die `endsWith` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
 
 **Format**
 
@@ -178,13 +178,13 @@ Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angege
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard) / false. |
 
 **Beispiel**
 
-In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung bestimmt, ob die E-Mail-Adresse des Benutzers mit „.com“ endet.
+Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person mit &quot;.com&quot; endet.
 
 ```sql
 {%= endsWith(person.emailAddress,".com") %}
@@ -193,7 +193,7 @@ In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung
 
 ## Gleich{#equals}
 
-Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei zwischen Groß- und Kleinschreibung unterschieden wird.
+Die `equals` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge mit der angegebenen Zeichenfolge übereinstimmt, wobei Groß-/Kleinschreibung berücksichtigt wird.
 
 **Format**
 
@@ -203,20 +203,20 @@ Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge gleich der angegeb
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die mit der ersten Zeichenfolge zu vergleichende Zeichenfolge. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die mit der ersten Zeichenfolge verglichen werden soll. |
 
 **Beispiel**
 
-Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung bestimmt, ob der Name der Person „John“ lautet.
+Die folgende Abfrage ermittelt mit Groß-/Kleinschreibung, ob der Name der Person &quot;John&quot; lautet.
 
 ```sql
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Gleich ohne Groß-/Kleinschreibung{#equalsIgnoreCase}
+## Entspricht Groß-/Kleinschreibung ignorieren{#equalsIgnoreCase}
 
-Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei nicht zwischen Groß- und Kleinschreibung unterschieden wird.
+Die `equalsIgnoreCase` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge ohne Groß-/Kleinschreibung mit der angegebenen Zeichenfolge übereinstimmt.
 
 **Format**
 
@@ -226,20 +226,20 @@ Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge gleich d
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die mit der ersten Zeichenfolge zu vergleichende Zeichenfolge. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die mit der ersten Zeichenfolge verglichen werden soll. |
 
 **Beispiel**
 
-Mit der folgenden Abfrage wird ohne Berücksichtigung der Groß-/Kleinschreibung bestimmt, ob der Name der Person „John“ lautet.
+Die folgende Abfrage ermittelt ohne Groß-/Kleinschreibung, ob der Name der Person &quot;John&quot; lautet.
 
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
 
-## E-Mail-Domain extrahieren {#extractEmailDomain}
+## E-Mail-Domäne extrahieren {#extractEmailDomain}
 
-Die Funktion `extractEmailDomain` wird verwendet, um die Domain einer E-Mail-Adresse zu extrahieren.
+Die `extractEmailDomain` -Funktion wird verwendet, um die Domäne einer E-Mail-Adresse zu extrahieren.
 
 **Format**
 
@@ -249,15 +249,15 @@ Die Funktion `extractEmailDomain` wird verwendet, um die Domain einer E-Mail-Adr
 
 **Beispiel**
 
-Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adresse extrahiert.
+Die folgende Abfrage extrahiert die E-Mail-Domain der persönlichen E-Mail-Adresse.
 
 ```sql
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
-## URL-Host abrufen {#get-url-host}
+## Abrufen des URL-Hosts {#get-url-host}
 
-Die Funktion `getUrlHost` dient zum Abrufen des Host-Namens einer URL.
+Die `getUrlHost` -Funktion zum Abrufen des Hostnamens einer URL verwendet.
 
 **Format**
 
@@ -271,11 +271,11 @@ Die Funktion `getUrlHost` dient zum Abrufen des Host-Namens einer URL.
 {%= getUrlHost("http://www.myurl.com/contact") %}
 ```
 
-Gibt „www.myurl.com“ zurück
+Gibt &quot;www.myurl.com&quot;zurück
 
 ## URL-Pfad abrufen {#get-url-path}
 
-Die Funktion `getUrlPath` wird verwendet, um den Pfad nach dem Domain-Namen einer URL abzurufen.
+Die `getUrlPath` -Funktion wird verwendet, um den Pfad nach dem Domänennamen einer URL abzurufen.
 
 **Format**
 
@@ -289,11 +289,11 @@ Die Funktion `getUrlPath` wird verwendet, um den Pfad nach dem Domain-Namen eine
 {%= getUrlPath("http://www.myurl.com/contact.html") %}
 ```
 
-Gibt „/contact.html“ zurück
+Gibt &quot;/contact.html&quot;zurück
 
-## URL-Protokoll abrufen {#get-url-protocol}
+## Abrufen des URL-Protokolls {#get-url-protocol}
 
-Die Funktion `getUrlProtocol` dient zum Abrufen des Protokolls einer URL.
+Die `getUrlProtocol` -Funktion wird zum Abrufen des Protokolls einer URL verwendet.
 
 **Format**
 
@@ -307,11 +307,11 @@ Die Funktion `getUrlProtocol` dient zum Abrufen des Protokolls einer URL.
 {%= getUrlProtocol("http://www.myurl.com/contact.html") %}
 ```
 
-Gibt „http“ zurück
+Gibt &quot;http&quot;zurück
 
 ## Index von {#index-of}
 
-Die Funktion `indexOf` wird verwendet, um die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Die `indexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 **Format**
 
@@ -321,8 +321,8 @@ Die Funktion `indexOf` wird verwendet, um die Position (im ersten Argument) des 
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die Zeichenfolge, nach der im ersten Parameter gesucht werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
 
 **Beispiel**
 
@@ -334,7 +334,7 @@ Gibt 6 zurück.
 
 ## Ist leer {#isEmpty}
 
-Mit der Funktion `isEmpty` wird ermittelt, ob eine Zeichenfolge leer ist.
+Die `isEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge leer ist.
 
 **Format**
 
@@ -344,7 +344,7 @@ Mit der Funktion `isEmpty` wird ermittelt, ob eine Zeichenfolge leer ist.
 
 **Beispiel**
 
-Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird „false“ zurückgegeben.
+Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird &quot;false&quot;zurückgegeben.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -352,7 +352,7 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 
 ## Ist nicht leer {#is-not-empty}
 
-Die Funktion `isNotEmpty` wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
+Die `isNotEmpty` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
 
 **Format**
 
@@ -362,7 +362,7 @@ Die Funktion `isNotEmpty` wird verwendet, um zu bestimmen, ob eine Zeichenfolge 
 
 **Beispiel**
 
-Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird „false“ zurückgegeben.
+Die folgende Funktion gibt &quot;true&quot;zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird &quot;false&quot;zurückgegeben.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -370,7 +370,7 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 
 ## Letzter Index von {#last-index-of}
 
-Die Funktion `lastIndexOf` wird verwendet, um die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Die `lastIndexOf` -Funktion wird verwendet, um die Position (im ersten Argument) des letzten Vorkommens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 **Format**
 
@@ -380,8 +380,8 @@ Die Funktion `lastIndexOf` wird verwendet, um die Position (im ersten Argument) 
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die Zeichenfolge, nach der im ersten Parameter gesucht werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die im ersten Parameter durchsucht werden soll |
 
 **Beispiel**
 
@@ -391,9 +391,9 @@ Die Funktion `lastIndexOf` wird verwendet, um die Position (im ersten Argument) 
 
 Gibt 7 zurück.
 
-## Links kürzen {#leftTrim}
+## Linker Schnitt {#leftTrim}
 
-Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenfolge zu entfernen.
+Die `leftTrim` -Funktion verwendet wird, um Leerzeichen vom Anfang einer Zeichenfolge zu entfernen.
 
 **Format**
 
@@ -403,7 +403,7 @@ Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenf
 
 ## Länge {#length}
 
-Die Funktion `length` wird verwendet, um die Anzahl der Zeichen in einer Zeichenfolge oder einem Ausdruck abzurufen.
+Die `length` -Funktion wird verwendet, um die Anzahl der Zeichen in einer Zeichenfolge oder einem Ausdruck abzurufen.
 
 **Format**
 
@@ -419,9 +419,9 @@ Die folgende Funktion gibt die Länge des Stadtnamens des Profils zurück.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Ist wie{#like}
+## liken{#like}
 
-Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Muster entspricht.
+Die `like` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge mit einem angegebenen Muster übereinstimmt.
 
 **Format**
 
@@ -431,20 +431,20 @@ Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Mu
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Der Ausdruck, der mit der ersten Zeichenfolge übereinstimmen soll. Es werden zwei Sonderzeichen zum Erstellen eines Ausdrucks unterstützt: `%` und `_`. <ul><li>`%` wird verwendet, um 0 oder mehr Zeichen zu repräsentieren.</li><li>`_` wird verwendet, um genau ein Zeichen zu repräsentieren.</li></ul> |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Der Ausdruck, der mit der ersten Zeichenfolge abgeglichen werden soll. Es werden zwei Sonderzeichen zum Erstellen eines Ausdrucks unterstützt: `%` und `_`. <ul><li>`%` wird verwendet, um null oder mehr Zeichen darzustellen.</li><li>`_` wird verwendet, um genau ein Zeichen darzustellen.</li></ul> |
 
 **Beispiel**
 
-In der folgenden Abfrage werden alle Städte abgerufen, in denen Profile leben und die das Muster „es“ enthalten.
+Die folgende Abfrage ruft alle Städte ab, in denen Profile leben, die das Muster &quot;es&quot;enthalten.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
 ```
 
-## Kleinbuchstaben{#lower}
+## Kleinbuchstabe{#lower}
 
-Mit der Funktion `lowerCase` wird eine Zeichenfolge in Kleinbuchstaben umgewandelt.
+Die `lowerCase` -Funktion konvertiert eine Zeichenfolge in Kleinbuchstaben.
 
 **Syntax**
 
@@ -454,7 +454,7 @@ Mit der Funktion `lowerCase` wird eine Zeichenfolge in Kleinbuchstaben umgewande
 
 **Beispiel**
 
-Mit dieser Funktion wird der Vorname des Profils in Kleinbuchstaben umgewandelt.
+Diese Funktion konvertiert den Vornamen des Profils in Kleinbuchstaben.
 
 ```sql
 {%= lowerCase(profile.person.name.firstName) %}
@@ -462,7 +462,7 @@ Mit dieser Funktion wird der Vorname des Profils in Kleinbuchstaben umgewandelt.
 
 ## Stimmt überein mit{#matches}
 
-Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt. Weitere Informationen zu Übereinstimmungsmustern bei regulären Ausdrücken finden Sie in [diesem Dokument](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
+Die `matches` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt. Siehe [dieses Dokuments](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) für weitere Informationen zum Abgleichen von Mustern in regulären Ausdrücken.
 
 **Format**
 
@@ -472,7 +472,7 @@ Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimm
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Groß-/Kleinschreibung mit „John“ beginnt.
+Die folgende Abfrage bestimmt ohne Groß-/Kleinschreibung, ob der Name der Person mit &quot;John&quot; beginnt.
 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
@@ -480,7 +480,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 
 ## Maskieren {#mask}
 
-Die Funktion `Mask` wird verwendet, um einen Teil einer Zeichenfolge durch „X“-Zeichen zu ersetzen.
+Die `Mask` -Funktion wird verwendet, um einen Teil einer Zeichenfolge durch &quot;X&quot;-Zeichen zu ersetzen.
 
 **Format**
 
@@ -490,17 +490,17 @@ Die Funktion `Mask` wird verwendet, um einen Teil einer Zeichenfolge durch „X�
 
 **Beispiel**
 
-Die folgende Abfrage ersetzt die Zeichenfolge „123456789“ durch „X“, mit Ausnahme des ersten und der letzten beiden Zeichen.
+Die folgende Abfrage ersetzt die Zeichenfolge &quot;123456789&quot;durch &quot;X&quot;, mit Ausnahme der ersten und der letzten beiden Zeichen.
 
 ```sql
 {%= mask("123456789",1,2) %}
 ```
 
-Die Abfrage gibt `1XXXXXX89` zurück.
+Die Abfrage gibt `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-Die Funktion `md5` wird verwendet, um den MD5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
+Die `md5` -Funktion wird verwendet, um den md5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
 
 **Format**
 
@@ -514,11 +514,11 @@ Die Funktion `md5` wird verwendet, um den MD5-Hash einer Zeichenfolge zu berechn
 {%= md5("hello world") %}
 ```
 
-Gibt „5eb63bbbe01eeed093cb22bb8f5acdc3“ zurück
+Gibt &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;zurück
 
 ## Ungleich{#notEqualTo}
 
-Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht gleich der angegebenen Zeichenfolge ist.
+Die `notEqualTo` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht mit der angegebenen Zeichenfolge übereinstimmt.
 
 **Format**
 
@@ -528,20 +528,20 @@ Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht gleich d
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die mit der ersten Zeichenfolge zu vergleichende Zeichenfolge. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die mit der ersten Zeichenfolge verglichen werden soll. |
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der Name der Person nicht „John“ lautet.
+Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung, ob der Name der Person nicht &quot;John&quot; lautet.
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Entspricht nicht (Groß-/Kleinschreibung ignorieren) {#not-equal-with-ignore-case}
+## Nicht gleich Groß-/Kleinschreibung ignorieren {#not-equal-with-ignore-case}
 
-Die Funktion `notEqualWithIgnoreCase` wird verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
+Die `notEqualWithIgnoreCase` -Funktion verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
 
 **Format**
 
@@ -551,20 +551,20 @@ Die Funktion `notEqualWithIgnoreCase` wird verwendet, um zwei Zeichenfolgen zu v
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{STRING_2}` | Die mit der ersten Zeichenfolge zu vergleichende Zeichenfolge. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{STRING_2}` | Die Zeichenfolge, die mit der ersten Zeichenfolge verglichen werden soll. |
 
 **Beispiel**
 
-Die folgende Abfrage ermittelt, ob der Name der Person nicht „john“ lautet (ohne Berücksichtigung von Groß-/Kleinschreibung).
+Die folgende Abfrage ermittelt, ob der Name der Person nicht &quot;john&quot;lautet, ohne Groß-/Kleinschreibung.
 
 ```sql
 {%= notEqualTo(profile.person.name,"john") %}
 ```
 
-## Gruppe regelmäßiger Ausdrücke{#regexGroup}
+## Gruppe Regulärer Ausdruck{#regexGroup}
 
-Die Funktion `Group` wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
+Die `Group` -Funktion wird verwendet, um spezifische Informationen basierend auf dem angegebenen regulären Ausdruck zu extrahieren.
 
 **Format**
 
@@ -574,13 +574,13 @@ Die Funktion `Group` wird verwendet, um spezifische Informationen basierend auf 
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING}` | Die Zeichenfolge, die überprüft werden soll. |
-| `{EXPRESSION}` | Der reguläre Ausdruck, der mit der ersten Zeichenfolge übereinstimmen soll. |
+| `{STRING}` | Die Zeichenfolge, die geprüft werden soll. |
+| `{EXPRESSION}` | Der reguläre Ausdruck, der mit der ersten Zeichenfolge abgeglichen werden soll. |
 | `{GROUP}` | Ausdrucksgruppe, mit der eine Übereinstimmung gefunden werden soll. |
 
 **Beispiel**
 
-Die folgende Abfrage wird verwendet, um den Domain-Namen aus einer E-Mail-Adresse zu extrahieren.
+Mithilfe der folgenden Abfrage wird der Domain-Name aus einer E-Mail-Adresse extrahiert.
 
 ```sql
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
@@ -588,7 +588,7 @@ Die folgende Abfrage wird verwendet, um den Domain-Namen aus einer E-Mail-Adress
 
 ## Ersetzen {#replace}
 
-Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in einer Zeichenfolge durch eine andere Unterzeichenfolge zu ersetzen.
+Die `replace` -Funktion wird verwendet, um eine angegebene Teilzeichenfolge in einer Zeichenfolge durch eine andere Teilzeichenfolge zu ersetzen.
 
 **Format**
 
@@ -599,8 +599,8 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, in der die Teilzeichenfolge ersetzt werden muss. |
-| `{STRING_2}` | Die zu ersetzende Teilzeichenfolge. |
-| `{STRING_3}` | Die als Ersatz dienende Teilzeichenfolge. |
+| `{STRING_2}` | Die zu ersetzende Unterzeichenfolge. |
+| `{STRING_3}` | Die Ersatz-Teilzeichenfolge. |
 
 **Beispiel**
 
@@ -608,11 +608,11 @@ Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in ei
 {%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
-Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
+Gibt &quot;Hallo Mark, hier ist Ihr monatlicher Newsletter!&quot; zurück.
 
 ## Alle ersetzen{#replaceAll}
 
-Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes mit übereinstimmender „Ziel“-Zeichenfolge mit der angegebenen literalen „Ersetzungs“-Zeichenfolge zu ersetzen. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die `replaceAll` -Funktion wird verwendet, um alle Teilzeichenfolgen eines Textes zu ersetzen, der mit der &quot;Ziel&quot;-Zeichenfolge mit der angegebenen literalen &quot;Ersatz&quot;-Zeichenfolge übereinstimmt. Die Ersetzung erfolgt vom Anfang der Zeichenfolge bis zum Ende, z. B. führt das Ersetzen von &quot;aa&quot;durch &quot;b&quot;in der Zeichenfolge &quot;aaa&quot;zu &quot;ba&quot;anstelle von &quot;ab&quot;.
 
 **Format**
 
@@ -620,9 +620,9 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 {%= replaceAll(string,string,string) %}
 ```
 
-## Rechts kürzen {#rightTrim}
+## Rechter Schnitt {#rightTrim}
 
-Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entfernt.
+Die `rightTrim` -Funktion verwendet wird, entfernt Leerzeichen vom Ende einer Zeichenfolge.
 
 **Format**
 
@@ -630,9 +630,9 @@ Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entf
 {%= rightTrim(string) %}
 ```
 
-## Teilen {#split}
+## Aufspaltung {#split}
 
-Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Zeichen zu teilen.
+Die `split` -Funktion verwendet wird, um eine Zeichenfolge durch ein bestimmtes Zeichen zu teilen.
 
 **Format**
 
@@ -642,7 +642,7 @@ Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Z
 
 ## Beginnt mit{#startsWith}
 
-Mit der Funktion `startsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt.
+Die `startsWith` -Funktion wird verwendet, um zu bestimmen, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt.
 
 **Format**
 
@@ -652,21 +652,21 @@ Mit der Funktion `startsWith` wird bestimmt, ob eine Zeichenfolge mit einer ange
 
 | Argument | Beschreibung |
 | --------- | ----------- |
-| `{STRING_1}` | Die Zeichenfolge, die überprüft werden soll. |
+| `{STRING_1}` | Die Zeichenfolge, die geprüft werden soll. |
 | `{STRING_2}` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `{CASE_SENSITIVE}` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Standardmäßig ist dies auf „true“ gesetzt. |
+| `{CASE_SENSITIVE}` | Ein optionaler Parameter, der bestimmt, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Standardmäßig ist dies auf &quot;true&quot;gesetzt. |
 
 **Beispiel**
 
-Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der Name der Person mit „Joe“ beginnt.
+Die folgende Abfrage bestimmt bei Berücksichtigung der Groß-/Kleinschreibung, ob der Name der Person mit &quot;Joe&quot;beginnt.
 
 ```sql
 {%= startsWith(person.name,"Joe") %}
 ```
 
-## Zeichenfolge zu Ganzzahl {#string-to-integer}
+## Zeichenfolge in Ganzzahl {#string-to-integer}
 
-Die Funktion `string_to_integer` wird verwendet, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
+Die `string_to_integer` -Funktion wird verwendet, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
 
 **Format**
 
@@ -676,7 +676,7 @@ Die Funktion `string_to_integer` wird verwendet, um einen Zeichenfolgenwert in e
 
 ## Zeichenfolge zu Zahl {#string-to-number}
 
-Die Funktion `stringToNumber` wird verwendet, um eine Zeichenfolge in eine Zahl zu konvertieren. Bei einer ungültigen Eingabe wird dieselbe Zeichenfolge als Ausgabe zurückgegeben.
+Die `stringToNumber` -Funktion verwendet wird, um eine Zeichenfolge in eine Zahl zu konvertieren. Es wird dieselbe Zeichenfolge wie für eine ungültige Eingabe zurückgegeben.
 
 **Format**
 
@@ -684,9 +684,9 @@ Die Funktion `stringToNumber` wird verwendet, um eine Zeichenfolge in eine Zahl 
 {%= stringToNumber(string) %}: double
 ```
 
-## Teilzeichenfolge {#sub-string}
+## Unterzeichenfolge {#sub-string}
 
-Die Funktion `Count string` wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
+Die `Count string` -Funktion wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
 **Format**
 
 ```sql
@@ -695,7 +695,7 @@ Die Funktion `Count string` wird verwendet, um die Unterzeichenfolge des Zeiche
 
 ## Titelschreibweise{#titleCase}
 
-Die Funktion **titleCase** wird verwendet, um die ersten Buchstaben jedes Wortes einer Zeichenfolge großzuschreiben.
+Die **titleCase** -Funktion wird verwendet, um die ersten Buchstaben jedes Wortes einer Zeichenfolge großzuschreiben.
 
 **Syntax**
 
@@ -705,15 +705,15 @@ Die Funktion **titleCase** wird verwendet, um die ersten Buchstaben jedes Wortes
 
 **Beispiel**
 
-Wenn die Person in der Washington High Street lebt, gibt diese Funktion „Washington High Street“ zurück.
+Wenn die Person in der Washington High Street lebt, wird diese Funktion die Washington High Street zurückbringen.
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## Zu booleschem Wert {#to-bool}
+## Nach Bool {#to-bool}
 
-Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
+Die `toBool` -Funktion wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
 
 **Format**
 
@@ -721,9 +721,9 @@ Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen
 {= toBool(string) %}: boolean
 ```
 
-## Zu Uhrzeit-/Datumsangabe {#to-date-time}
+## To Date Time {#to-date-time}
 
-Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
+Die `toDateTime` -Funktion verwendet wird, um die Zeichenfolge in das Datum zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
 
 **Format**
 
@@ -731,9 +731,9 @@ Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu ko
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Nur zu Uhrzeit-/Datumsangabe {#to-date-time-only}
+## Nur für Datum/Uhrzeit {#to-date-time-only}
 
-Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Uhrzeit-/Datumswert zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
+Die `toDateTimeOnly` -Funktion wird verwendet, um einen Argumentwert in einen Datum/Uhrzeit-Wert zu konvertieren. Es wird das Epochendatum als Ausgabe für ungültige Eingabe zurückgegeben.
 
 **Format**
 
@@ -741,9 +741,9 @@ Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Uhr
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Kürzen{#trim}
+## Zuschneiden{#trim}
 
-Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und Ende einer Zeichenfolge.
+Die **trim** entfernt alle Leerzeichen am Anfang und am Ende einer Zeichenfolge.
 
 **Syntax**
 
@@ -753,7 +753,7 @@ Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und Ende einer Zeiche
 
 ## Großbuchstaben{#upper}
 
-Mit der Funktion **upperCase** wird eine Zeichenfolge in Großbuchstaben umgewandelt.
+Die **upperCase** -Funktion konvertiert einen String in Großbuchstaben.
 
 **Syntax**
 
@@ -763,15 +763,15 @@ Mit der Funktion **upperCase** wird eine Zeichenfolge in Großbuchstaben umgewan
 
 **Beispiel**
 
-Mit dieser Funktion wird der Nachname des Profils in Großbuchstaben umgewandelt.
+Diese Funktion konvertiert den Nachnamen des Profils in Großbuchstaben.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## URL-Decodierung {#url-decode}
+## url decode {#url-decode}
 
-Die Funktion `urlDecode` wird zum Decodieren einer URL-codierten Zeichenfolge verwendet.
+Die `urlDecode` -Funktion wird zum Dekodieren einer URL-codierten Zeichenfolge verwendet.
 
 **Format**
 
@@ -779,9 +779,9 @@ Die Funktion `urlDecode` wird zum Decodieren einer URL-codierten Zeichenfolge ve
 {%= urlDecode(string) %}: string
 ```
 
-## URL-Codierung {#url-encode}
+## URL-Kodierung {#url-encode}
 
-Die Funktion `Count only null` wird verwendet, um eine Zeichenfolge mit einer URL zu codieren.
+Die `Count only null` -Funktion verwendet wird, um eine Zeichenfolge mit einer URL zu kodieren.
 
 **Format**
 

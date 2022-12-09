@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalisieren von Inhalten in Journey Optimizer
-description: Erste Schritte bei der Personalisierung.
+description: Erste Schritte mit der Personalisierung.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,47 +10,47 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
-# Erste Schritte bei der Personalisierung{#add-personalization}
+# Erste Schritte mit der Personalisierung{#add-personalization}
 
-Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich z. B. um den Vornamen des Empfängers, seine Interessen, seinen Wohnort oder zuvor gekaufte Artikel handeln.
+Discover [!DNL Adobe Journey Optimizer] Personalisierungsfunktionen , mit denen Sie Ihre Nachrichten an jeden einzelnen Empfänger anpassen können, indem Sie die vorhandenen Daten und Informationen nutzen. Es kann sein Vorname, Interessen, wo sie leben, was sie kauften und mehr.
 
-➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren](#video-perso)
-➡️ [Entdecken Sie Anwendungsfälle, die Personalisierung nutzen](personalization-use-case.md)
+➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren.](#video-perso)
+➡️ [Anwendungsbeispiele zur Personalisierung in Discover](personalization-use-case.md)
 
-## Erstellen von Personalisierungsausdrücken mithilfe einer dedizierten Syntax {#syntax}
+## Personalisierungsausdrücke mithilfe einer dedizierten Syntax erstellen {#syntax}
 
-[!DNL Journey Optimizer] verwendet eine einfache **Inline**-Personalisierungssyntax, die auf Handlebars basiert. Damit können Sie Ausdrücke mit Inhalten erstellen, die von geschweiften Klammern **{{}}** eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
+[!DNL Journey Optimizer] verwendet eine **inline** einfache Personalisierungssyntax, die auf Handlebars basiert und es Ihnen ermöglicht, Ausdrücke mit Inhalten zu erstellen, die von doppelten geschweiften Klammern eingeschlossen sind **{{}}**. Sie können im selben Inhalt oder Feld mehrere Ausdrücke ohne Einschränkungen hinzufügen. Weitere Informationen finden Sie unter [Personalisierungssyntax](personalization-syntax.md).
 
 **Beispiele:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Journey Optimizer den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten: `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wird zu „Hallo, Max Mustermann“.
+Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Journey Optimizer den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wird zu &quot;Hallo Max Mustermann&quot;.
 
-## Nutzen von Profildaten, um Ihre Nachrichten zu personalisieren {#data}
+## Nutzen Sie Profildaten, um Ihre Nachrichten zu personalisieren. {#data}
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
+Die Personalisierung basiert auf den Profildaten, die von der **XDM Individual Profile** in Adobe Experience Platform definiertes Schema. Weitere Informationen finden Sie unter [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->Das Schema **Individuelles XDM-Profil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
+>Die **XDM Individual Profile** schema ist das einzige Schema, mit dem Sie Inhalte personalisieren können in [!DNL Journey Optimizer].
 
-## Hinzufügen der Personalisierung in unterschiedlichen Kontexten {#contexts}
+## Personalisierung in unterschiedlichen Kontexten hinzufügen {#contexts}
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, den Inhalt und die Anzeige von Nachrichten auf unterschiedliche Weise zu personalisieren. Weitere Informationen zu den Kontexten, in denen Sie Personalisierungen durchführen können, finden Sie in [diesem Abschnitt](personalization-contexts.md).
+[!DNL Journey Optimizer] ermöglicht es Ihnen, den Inhalt und die Anzeige von Nachrichten auf verschiedene Weise zu personalisieren. Weitere Informationen zu den Kontexten, in denen Sie Personalisierungen durchführen können, finden Sie unter [diesem Abschnitt](personalization-contexts.md).
 
 ## Arbeiten mit dem Ausdruckseditor {#editor}
 
-[!DNL Journey Optimizer] bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um eine individuelle Personalisierung für Ihre Inhalte zu erstellen.
+[!DNL Journey Optimizer] bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren, um eine benutzerdefinierte Personalisierung für Ihren Inhalt zu erstellen.
 
-Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (Hilfsfunktionen, Bibliothek mit vordefinierten Ausdrücken, Favorisierung von Attributen usw.).
+Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (Hilfsfunktionen, vordefinierte Ausdrucksbibliothek, beliebte Attribute usw.).
 
-Weitere Informationen zum [!DNL Journey Optimizer] Ausdruckseditor finden Sie in [diesem Abschnitt](personalization-build-expressions.md)
+Weitere Informationen [!DNL Journey Optimizer] Ausdruckseditor in [diesem Abschnitt](personalization-build-expressions.md)
 
 ## Anleitungsvideos{#video-perso}
 
@@ -58,6 +58,6 @@ Erfahren Sie, wie Sie kontextbezogene Ereignisinformationen aus einer Journey ve
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Segmentzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
+Erfahren Sie, wie Sie einer Nachricht profilbasierte Personalisierung hinzufügen und wie Sie die Segmentzugehörigkeit als Voraussetzung für einen Gestaltungsbaustein verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Rankings
+title: Rankings erstellen
 description: Erfahren Sie, wie Sie Rankings erstellen
 feature: Offers
 topic: Integrations
@@ -8,14 +8,14 @@ level: Intermediate
 source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '19'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Erstellen von Rankings {#create-rankings}
+# Rankings erstellen {#create-rankings}
 
 Übersicht
 
-Unterschied Ranking-Formeln/KI-Modelle
+Differenzranking-Formeln/KI-Modelle
 
-Link zum Ranking-Abschnitt
+Link zum Rangabschnitt

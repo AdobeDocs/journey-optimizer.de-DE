@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
 title: min
-description: Erfahren Sie mehr über die Funktion „min“
+description: Erfahren Sie mehr über die Funktion min
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 # min {#min}
 
-Gibt den Minimalwert aus einem Satz von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
+Gibt den Mindestwert aus einem Satz von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
 
 ## Kategorie
 

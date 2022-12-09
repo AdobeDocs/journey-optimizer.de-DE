@@ -1,6 +1,6 @@
 ---
-title: Helper
-description: Helper
+title: Helfer
+description: Helfer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,16 +8,16 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 0%
 
 ---
 
-# Helper {#gs-helpers}
+# Helfer {#gs-helpers}
 
 ## Standardwert für Fallback{#default-value}
 
-Der Helper `Default Fallback Value` wird verwendet, um einen standardmäßigen Fallback-Wert zurückzugeben, wenn ein Attribut leer oder null ist. Dieser Mechanismus funktioniert für Profilattribute und Journey-Ereignisse.
+Die `Default Fallback Value` Helper wird verwendet, um einen standardmäßigen Fallback-Wert zurückzugeben, wenn ein Attribut leer oder null ist. Dieser Mechanismus funktioniert für Profilattribute und Journey-Ereignisse.
 
 **Syntax**
 
@@ -25,12 +25,12 @@ Der Helper `Default Fallback Value` wird verwendet, um einen standardmäßigen F
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-In diesem Beispiel wird der Wert `there` angezeigt, wenn das Attribut `firstName` dieses Profils leer oder null ist.
+In diesem Beispiel wird der Wert `there` angezeigt wird, wenn die `firstName` -Attribut dieses Profils leer oder null ist.
 
 ## Bedingungen{#if-function}
 
-Der Helper `if` wird zum Definieren eines bedingten Blocks verwendet.
-Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargestellt, andernfalls wird er übersprungen.
+Die `if` dient zur Definition eines bedingten Blocks.
+Wenn die Ausdrucksauswertung &quot;true&quot;zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
 
 **Syntax**
 
@@ -39,8 +39,8 @@ Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block dargest
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung „false“ zurückgibt.
-Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
+Im Folgenden `if` Helper, können Sie eine `else` -Anweisung, um einen Codeblock anzugeben, der ausgeführt werden soll, wenn dieselbe Bedingung falsch ist.
+Die `elseif` -Anweisung gibt eine neue Bedingung an, um zu testen, ob die erste Anweisung &quot;false&quot;zurückgibt.
 
 
 **Format**
@@ -58,7 +58,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 **Beispiele**
 
-1. **Rendern verschiedener Produkt-Links basierend auf bedingten Ausdrücken**
+1. **Verschiedene Store-Links basierend auf bedingten Ausdrücken rendern**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    {%/if%}
    ```
 
-1. **Bestimmen einer E-Mail-Adressenerweiterung**
+1. **E-Mail-Adresserweiterung bestimmen**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -82,7 +82,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 1. **Bedingten Link hinzufügen**
 
-   Der folgende Vorgang fügt einen Link zur Website „www.adobe.com/academia“ für Profile mit „.edu“-E-Mail-Adressen hinzu, zur Website „www.adobe.com/org“ für Profile mit „.org“-E-Mail-Adressen und zur Standard-URL „www.adobe.com/users“ für alle anderen Profile:
+   Der folgende Vorgang fügt einen Link zur &quot;www.adobe.com/academia&#39;&quot;-Website für Profile mit &quot;.edu&quot;-E-Mail-Adressen hinzu, zur &quot;www.adobe.com/org&#39;&quot;-Website für Profile mit &quot;.org&quot;-E-Mail-Adressen und zur Standard-URL &quot;www.adobe.com/users&#39;&quot;für alle anderen Profile:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    {%/if%}
    ```
 
-1. **Bedingte Inhalte basierend auf Segmentzugehörigkeit**
+1. **Bedingter Inhalt basierend auf Segmentmitgliedschaft**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -104,7 +104,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    {%/if%}
    ```
 
-1. **Prüfen Sie, ob ein Profil bereits Mitglied ist**
+1. **Bestimmen, ob ein Profil bereits Mitglied ist**
 
    ```sql
    {%#if profile.segmentMembership.get(segments.`123e4567-e89b-12d3-a456-426614174000`.id)%}
@@ -116,12 +116,12 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 >[!NOTE]
 >
->Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../segment/about-segments.md).
+>Weiterführende Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie in diesem Abschnitt [Abschnitt](../../segment/about-segments.md).
 
 
-## Außer{#unless}
+## Sofern{#unless}
 
-Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Gegensatz zum Helper `if` wird der Block gerendert, wenn die Auswertung des Ausdrucks „false“ zurückgibt.
+Die `unless` dient zur Definition eines bedingten Blocks. Durch den Widerstand gegen die `if`  Wenn die Ausdrucksauswertung &quot;false&quot;zurückgibt, wird der Block gerendert.
 
 **Syntax**
 
@@ -131,7 +131,7 @@ Der Helper `unless` wird zum Definieren eines bedingten Blocks verwendet. Im Geg
 
 **Beispiel**
 
-Darstellung von Inhalt je nach E-Mail-Adressenerweiterung:
+Wiedergabe von Inhalten basierend auf der E-Mail-Adresserweiterung:
 
 ```sql
 {%#unless endsWith(profile.personalEmail.address, ".edu")%}
@@ -141,11 +141,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Jeweils{#each}
+## Jeder{#each}
 
-Der Helper `each` wird verwendet, um die Elemente eines Arrays zu verarbeiten.
-Die Syntax des Helpers ist ```{{#each ArrayName}}``` YourContent {{/each}}
-Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** innerhalb des Blocks referenziert. Der Index des Array-Elements kann mithilfe von {{@index}} abgerufen werden.
+Die `each` wird verwendet, um über ein Array zu iterieren.
+Die Syntax des Helfers lautet ```{{#each ArrayName}}``` YourContent {{/each}}
+Mithilfe des Suchbegriffs können wir auf die einzelnen Array-Elemente verweisen **this** innerhalb des Blocks. Der Index des Elements des Arrays kann mithilfe von {{@index}}.
 
 **Syntax**
 
@@ -166,7 +166,7 @@ Die einzelnen Array-Elemente werden durch die Verwendung des Keywords **this** i
 
 **Beispiel**
 
-So wird eine Liste von Produkten dargestellt, die dieser Benutzer in den Warenkorb gelegt hat:
+Rendering a list of products that this user in the cart:
 
 ```sql
 {{#each profile.products as |product|}}
@@ -177,7 +177,7 @@ So wird eine Liste von Produkten dargestellt, die dieser Benutzer in den Warenko
 
 ## Mit{#with}
 
-Der Helper `with` wird verwendet, um das Evaluierungs-Token des Vorlagenteils zu ändern.
+Die `with` wird verwendet, um das Bewertungstoken des Vorlagenteils zu ändern.
 
 **Syntax**
 
@@ -187,11 +187,11 @@ Der Helper `with` wird verwendet, um das Evaluierungs-Token des Vorlagenteils zu
 {{/with}}
 ```
 
-Der Helper `with` ist auch nützlich, um die Kurzform einer Variable zu definieren.
+Die `with` Helper ist auch bei der Definition einer Verknüpfungsvariablen hilfreich.
 
 **Beispiel**
 
-Verwenden Sie „with“ zur Definition eines kurzen Aliasnamens für einen langen Variablennamen:
+Verwenden Sie mit , um lange Variablennamen auf kürzere Namen auszurichten:
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -200,9 +200,9 @@ Verwenden Sie „with“ zur Definition eines kurzen Aliasnamens für einen lang
 {{/with}}
 ```
 
-## Zulassen{#let}
+## Lasst{#let}
 
-Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die später in einer Abfrage verwendet werden kann.
+Die `let` -Funktion kann ein Ausdruck als Variable gespeichert und später in einer Abfrage verwendet werden.
 
 **Syntax**
 
@@ -212,7 +212,7 @@ Die `let`-Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die s
 
 **Beispiel**
 
-Das folgende Beispiel ruft alle Beträge von Produktsummen mit einer Transaktion in USD ab, wobei sich die Beträge auf mehr als 100 $ und weniger als 1.000 $ belaufen.
+Im folgenden Beispiel werden alle Summen der Produktsummen mit der Transaktion in USD angezeigt, wobei die Summe 100 USD und weniger 1000 USD übersteigt.
 
 ```sql
 {% let variable = expression %} {{variable}}

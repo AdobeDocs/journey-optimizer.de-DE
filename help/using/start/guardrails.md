@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Limits und Einschränkungen von Journey Optimizer
-description: Weitere Informationen zu Limits bei Journey Optimizer
+description: Erfahren Sie mehr über die Limits von Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,89 +10,89 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 0%
 
 ---
 
 # Limits und Einschränkungen {#limitations}
 
-Berechtigungen, Produkteinschränkungen und die Leistung betreffende Limits sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
+Berechtigungen, Produktbeschränkungen und Leistungsgarantien finden Sie unter [Produktbeschreibungsseite für Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-## Beschränkungen bei Nachrichten {#message-guardrails}
+## Limits bei Nachrichten {#message-guardrails}
 
-* Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail hinzufügen.
-* Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
-
-
-## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
-
-Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html?lang=de){target=&quot;_blank&quot;} aufgeführt.
+* Sie können keine Anlagen zu einer E-Mail hinzufügen mit [!DNL Journey Optimizer].
+* Dieselbe Versanddomäne kann nicht zum Senden von Nachrichten von verwendet werden [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage] zum Beispiel.
 
 
-## Beschränkungen bei Landingpages {#lp-guardrails}
+## Limits bei der Entscheidungsverwaltung {#offer-guardrails}
 
-* Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
-* Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
-* Sie können keine Preheader zu einer Landingpage hinzufügen.
-* Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
+Leistungsgarantien und statische Beschränkungen für Entscheidungen werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
-## Beschränkungen bei Journeys {#journeys-guardrails}
 
-### Allgemeine Aktionen {#general-actions-g}
+## Limits bei Landingpages {#lp-guardrails}
 
-* Es gibt keine Nachrichtendrosselung beim Versand.
-* Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
-* Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
-* Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
+* Nur eine **Formular** -Komponente kann auf einer einzelnen primären Seite verwendet werden.
+* Die **Formular** -Komponente kann nicht in Unterseiten verwendet werden.
+* Sie können einer Landingpage keine Preheader hinzufügen.
+* Sie können die **Eigene Code** bei der Erstellung einer primären Landingpage.
+
+## Limits bei Journeys {#journeys-guardrails}
+
+### Allgemeine Maßnahmen {#general-actions-g}
+
+* Es gibt keine Versandbeschränkung.
+* Im Falle eines Fehlers werden systematisch drei weitere Versuche durchgeführt. Die Anzahl weiterer Versuche kann nicht an die erhaltene Fehlermeldung angepasst werden.
+* Die integrierten **Reaktion** -Ereignis ermöglicht es Ihnen, auf vordefinierte Aktionen zu reagieren. Weitere Informationen finden Sie unter [diese Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wird, müssen Sie ein dediziertes Ereignis konfigurieren.
+* Es ist nicht möglich, zwei Aktionen parallel zu platzieren. Sie müssen sie nacheinander hinzufügen.
+* Normalerweise kann ein Profil nicht mehrmals in derselben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, dies jedoch erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Mehr dazu](../building-journeys/end-journey.md)
 
 ### Journey-Versionen {#journey-versions-g}
 
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
-* Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
+* Eine Journey, die in v1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einer **Segmentqualifikation** -Ereignis.
+* Eine Journey, die mit einer **Segmentqualifikation** -Aktivität in v1 muss immer mit einer **Segmentqualifikation** in weiteren Versionen.
+* Das Segment und der Namespace, die in **Segmentqualifikation** (erster Knoten) kann in neuen Versionen nicht geändert werden.
 * Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
+* Eine Journey, die mit einer **Segment lesen** kann nicht mit einem anderen Ereignis in den nächsten Versionen beginnen.
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
-* Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
-* Es werden nur POST- und PUT-Aufrufmethoden unterstützt
-* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
+* Die URL der benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
+* Nur POST- und PUT-Aufrufmethoden werden unterstützt
+* Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit &quot;.&quot;beginnen. oder &quot;$&quot;
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
 
-### Ereignisse {#events-g}
+### Veranstaltungen {#events-g}
 
-* Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
-* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
-* Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzvorkehrung, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+* Bei systemgenerierten Ereignissen müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst in Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
+* Geschäftsereignisse können nicht zusammen mit Einzelereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
+* Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Eintritt in das Profil wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis eine Journey um 12:01 Uhr für ein bestimmtes Profil auslöst und ein anderes um 12:03 Uhr eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), startet die Journey für dieses Profil nicht erneut.
 
 ### Datenquellen {#data-sources-g}
 
-* Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+* Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API verwendet werden, JSON unterstützen und in der Lage sein, das Volumen der Anfragen zu verarbeiten.
 
 ### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform gibt es eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung. Das Service Level Target (SLT) in Bezug auf die Latenzzeit ist &lt; 1 Minute von der Aufnahme bis zum Unified Profile für das 95. Perzentil der Anfragen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
+Es gibt eine Verzögerung bei der API-basierten Profilerstellung/-aktualisierung in Adobe Experience Platform. Das Service Level Target (SLT) in Bezug auf die Latenz beträgt &lt; 1 Minute von der Aufnahme in Unified Profile für das 95. Perzentil der Anforderungen bei einem Volumen von 20.000 Anfragen pro Sekunde (RPS).
 
-Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen vom Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht richtig.
+Wenn eine Journey gleichzeitig mit einer Profilerstellung ausgelöst wird und sofort Informationen aus dem Profil-Service prüft/abruft, funktioniert sie möglicherweise nicht ordnungsgemäß.
 
-Sie können aus einer der beiden folgenden Lösungen wählen:
+Sie können aus einer dieser beiden Lösungen wählen:
 
-* Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, um Adobe Experience Platform ausreichend Zeit zu geben, um die Aufnahme in den Profil-Service durchzuführen.
+* Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, damit Adobe Experience Platform die Zeit erhält, die für die Aufnahme in den Profil-Service erforderlich ist.
 
-* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
+* Richten Sie eine Journey ein, die das Profil nicht sofort nutzt. Wenn die Journey beispielsweise dazu bestimmt ist, die Erstellung eines Kontos zu bestätigen, kann das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
 
 ### Segment lesen {#read-segment-g}
 
-* Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
-* Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
+* Streaming-Segmente sind immer aktuell, Batch-Segmente werden jedoch nicht zum Zeitpunkt des Abrufs berechnet. Sie werden nur täglich zur täglichen Batch-Auswertungszeit ausgewertet.
+* Für Journeys mit der Aktivität Segment lesen gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journeys (mit Segment lesen, geplant oder &quot;so bald wie möglich&quot;gestartet werden) exakt zur gleichen Zeit beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
 
 ### Ausdruckseditor {#expression-editor}
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen.
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einem Segment lesen, einer Segmentqualifizierung oder einer Geschäftsereignisaktivität beginnen.
 

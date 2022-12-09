@@ -9,13 +9,13 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Tag nachschlagen {#look-up-tag}
 
-Sie können einzelne Tags nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Tag-`@id` oder den Namen des Tags im Anfragepfad enthält.
+Sie können bestimmte Tags nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder das Tag enthält `@id` oder den Namen des Tags im Anfragepfad.
 
 **API-Format**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Tags befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Definiert das mit Tags verknüpfte Schema. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:tag:124e147572cd7866` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Holiday sales and promotions` |
+| `id` | Eine Zeichenfolge, die verwendet wird, um die `@id` -Eigenschaft der Entitäten. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` kann nicht zusammen verwendet werden. | `xcore:tag:124e147572cd7866` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt mit Groß-/Kleinschreibung abgeglichen, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter `id` und `name` kann nicht zusammen verwendet werden | `Holiday sales and promotions` |
 
 **Anfrage**
 
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}' \
 ```
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort werden die Details des Tags zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen `@id` des Tags.
+Bei einer erfolgreichen Antwort werden die Details des Tags zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Tag-ID `@id`.
 
 ```json
 {

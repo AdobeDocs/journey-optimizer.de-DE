@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
 title: serializeList
-description: Erfahren Sie mehr über die Funktion „serializeList“
+description: Erfahren Sie mehr über die Funktion serializeList
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
 # serializeList {#serializeList}
 
-Konvertiert die im ersten Parameter angegebene Liste (beliebiger Typ) in eine Zeichenfolge. Der zweite Parameter stellt das zu verwendende Trennzeichen dar. Der dritte Parameter ist ein boolescher Wert, der angibt, ob die einzelnen Elemente des Ausdrucks Anführungszeichen umfassen sollen.
+Konvertiert die im ersten Parameter angegebene Liste (beliebiger Typ) in eine Zeichenfolge. Der zweite Parameter stellt das zu verwendende Trennzeichen dar. Der dritte Parameter ist ein boolescher Wert, der angibt, ob jedes Element des Ausdrucks Anführungszeichen enthalten soll.
 
 ## Kategorie
 
@@ -67,8 +67,8 @@ Gibt eine Zeichenfolge zurück.
 
 `serializeList(["Hello","World"], " ", false)`
 
-Gibt „Hello World“ zurück.
+Gibt &quot;Hello World&quot;zurück.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Gibt „&quot;Hello&quot;,&quot;World&quot;“ zurück.
+Gibt &quot;&quot;Hello&quot;,&quot;World&quot;&quot;zurück.

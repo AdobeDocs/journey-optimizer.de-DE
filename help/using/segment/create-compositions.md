@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von Kompositions-Workflows
-description: Erfahren Sie, wie Sie Kompositions-Workflows erstellen, um bestehende Audiences zu kombinieren und anzuordnen.
+title: Erstellen von Komposition-Workflows
+description: Erfahren Sie, wie Sie Workflows für die Komposition erstellen, um bestehende Zielgruppen zu kombinieren und anzuordnen.
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,73 +12,73 @@ hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 0%
 
 ---
 
-# Erstellen von Kompositions-Workflows {#create-compositions}
+# Erstellen von Komposition-Workflows {#create-compositions}
 
-Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anordnen, um neue Audiences zu erstellen.
+Mit Komposition-Workflows können Sie bestehende Audiences kombinieren und anordnen, um neue Zielgruppen zu erstellen.
 
-## Erstellen eines Kompositions-Workflows {#create}
+## Erstellen eines Kompositionsarbeitsablaufs {#create}
 
-1. Gehen Sie zum **[!UICONTROL Segmente]**-Menü und wählen Sie **[!UICONTROL Audience erstellen]** aus.
+1. Zugriff auf **[!UICONTROL Segments]** Menü und wählen Sie **[!UICONTROL Create Audience]**.
 
-1. Wählen Sie **[!UICONTROL Audience erstellen]** aus.
+1. Auswählen **[!UICONTROL Compose Audience]**.
 
    >[!NOTE]
    >
-   >Mit der Erstellungsmethode **[!UICONTROL Regel erstellen]** können Sie die Definition eines neuen Segments erstellen, indem Sie den [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de) verwenden.
+   >Die **[!UICONTROL Build rule]** Mit der Erstellungsmethode können Sie eine neue Segmentdefinition erstellen, indem Sie die [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-create.png)
 
 1. Die Arbeitsfläche der Komposition wird mit zwei Standardaktivitäten angezeigt:
 
-   * **[!UICONTROL Audience]**: der Ausgangspunkt Ihrer Komposition. Mithilfe dieser Aktivität können Sie eine oder mehrere Audiences als Grundlage für Ihren Workflow auswählen.
+   * **[!UICONTROL Audience]**: der Ausgangspunkt Ihrer Komposition. Mithilfe dieser Aktivität können Sie eine oder mehrere Zielgruppen als Grundlage für Ihren Workflow auswählen.
 
-   * **[!UICONTROL Speichern]**: der letzte Schritt Ihrer Komposition. Mit dieser Aktivität können Sie das Ergebnis Ihres Workflows in einer neuen Audience speichern.
-   Weiterführende Informationen zum Konfigurieren von Aktivitäten auf der Arbeitsfläche des Kompositions-Workflows finden Sie im Abschnitt [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md).
+   * **[!UICONTROL Save]**: der letzte Schritt Ihrer Komposition. Mit dieser Aktivität können Sie das Ergebnis Ihres Workflows in einer neuen Audience speichern.
+   Weiterführende Informationen zum Konfigurieren von Aktivitäten auf der Arbeitsfläche des Kompositionsarbeitsablaufs finden Sie im Abschnitt [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md).
 
-1. Bitte die Eigenschaften der Komposition öffnen, um einen Titel und eine Beschreibung anzugeben.
+1. Öffnen Sie die Eigenschaften der Komposition, um einen Titel und eine Beschreibung anzugeben.
 
-   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung eine der anfänglichen **[!UICONTROL Zielgruppen]**-Aktivitäten sein.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung der Anfang sein. **[!UICONTROL Audience]** Aktivität.
 
    ![](assets/audiences-properties.png)
 
-1. Konfigurieren Sie Ihre Komposition, indem Sie so viele Aktivitäten für **[!UICONTROL Audience]** und **[!UICONTROL Speichern]** hinzufügen, wie Sie benötigen. [Erfahren Sie, wie Sie mit der Arbeitsfläche für Kompositionen arbeiten](composition-canvas.md)
+1. Konfigurieren Sie Ihre Komposition, indem Sie zwischen den **[!UICONTROL Audience]** und **[!UICONTROL Save]** Aktivitäten. [Erfahren Sie, wie Sie mit der Arbeitsfläche für Kompositionen arbeiten.](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. Sobald Ihre Komposition fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um die Komposition zu veröffentlichen und die resultierenden Audiences in Adobe Experience Platform zu speichern.
+1. Sobald Ihre Komposition fertig ist, klicken Sie auf die **[!UICONTROL Publish]** Schaltfläche zum Veröffentlichen der Komposition und Speichern der resultierenden Zielgruppen in Adobe Experience Platform.
 
    Tritt während der Veröffentlichung ein Fehler auf, werden Warnhinweise mit Informationen zur Behebung des Problems angezeigt.
 
    ![](assets/audiences-alerts.png)
 
-1. Die Komposition wird veröffentlicht. Die resultierenden Zielgruppen werden in Adobe Experience Platform gespeichert und können für Journey Optimizer-Kampagnen verwendet werden. [Mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
+1. Die Komposition ist veröffentlicht. Die resultierenden Zielgruppen werden in Adobe Experience Platform gespeichert und können für Journey Optimizer-Kampagnen verwendet werden. [Erfahren Sie, wie Sie mit Kampagnen arbeiten.](../campaigns/get-started-with-campaigns.md)
 
-## Zugriff auf Kompositionen {#access}
+## Auf Kompositionen zugreifen {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Veröffentlichen Ihrer Audience"
->abstract="Veröffentlichen Sie Ihre Komposition, um die resultierende(n) Audience(s) in Adobe Experience Platform zu speichern."
+>title="Veröffentlichen der Audience"
+>abstract="Veröffentlichen Sie Ihre Komposition, um die resultierenden Zielgruppen in Adobe Experience Platform zu speichern."
 
-Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Kompositionen]** verfügbar. Sie können mehrere Status aufweisen:
+Alle erstellten Kompositionen können über die **[!UICONTROL Compositions]** Registerkarte. Sie können mehrere Status haben:
 
-* **[!UICONTROL Entwurf]**: Die Komposition ist in Arbeit und wurde noch nicht veröffentlicht.
-* **[!UICONTROL Veröffentlicht]**: Die Komposition wurde veröffentlicht, die resultierenden Zielgruppen wurden gespeichert und sind zur Verwendung verfügbar.
-* **[!UICONTROL Archiviert]**: Die Komposition wurde archiviert.
+* **[!UICONTROL Draft]**: die Komposition läuft und noch nicht veröffentlicht wurde.
+* **[!UICONTROL Published]**: die Komposition veröffentlicht wurde, die resultierenden Zielgruppen gespeichert wurden und zur Verwendung verfügbar sind.
+* **[!UICONTROL Archived]**: die Komposition archiviert wurde.
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->Sie können eine vorhandene Komposition jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten in der Liste duplizieren oder löschen.
+>Sie können eine vorhandene Komposition jederzeit mit der Schaltfläche mit den Auslassungspunkten in der Liste duplizieren oder löschen.
 
 Weitere Informationen:
 
-* [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
+* [Erste Schritte mit der Komposition von Zielgruppen](get-started-audience-orchestration.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
+* [Zielgruppen aufrufen und verwalten](access-audiences.md)

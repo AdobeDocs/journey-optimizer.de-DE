@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer E-Mail
-description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen.
+title: E-Mail erstellen
+description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen
 feature: Overview
 topic: Content Management
 role: User
@@ -10,29 +10,29 @@ level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 36%
+source-wordcount: '737'
+ht-degree: 0%
 
 ---
 
-# Erstellen einer E-Mail {#create-email}
+# E-Mail erstellen {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
->title="E-Mail-Erstellung"
+>title="Email-Erstellung"
 >abstract="Definieren Sie Ihre E-Mail-Parameter in drei einfachen Schritten."
 
 So erstellen Sie eine E-Mail in [!DNL Journey Optimizer]führen Sie die folgenden Schritte aus.
 
-## Erstellen einer E-Mail in einer Journey oder Kampagne {#create-email-journey-campaign}
+## E-Mail in einer Journey oder Kampagne erstellen {#create-email-journey-campaign}
 
-Hinzufügen einer **[!UICONTROL Email]** Aktionen auf eine Journey oder Kampagne anwenden und entsprechend Ihrem Fall die folgenden Schritte ausführen.
+Hinzufügen einer **[!UICONTROL Email]** Aktionen auf eine Journey oder eine Kampagne anwenden und entsprechend Ihrem Fall die folgenden Schritte ausführen.
 
 >[!BEGINTABS]
 
->[!TAB E-Mail zu einer Journey hinzufügen]
+>[!TAB Hinzufügen einer E-Mail zu einer Journey]
 
-1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL Email]** -Aktivität aus **[!UICONTROL Aktionen]** in der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL Email]** -Aktivität aus **[!UICONTROL Actions]** in der Palette.
 
 1. Geben Sie grundlegende Informationen zu Ihrer Nachricht an (Titel, Beschreibung, Kategorie).
 
@@ -42,7 +42,7 @@ Hinzufügen einer **[!UICONTROL Email]** Aktionen auf eine Journey oder Kampagne
 
 >[!NOTE]
 >
->Wenn Sie eine E-Mail von einer Journey senden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie mit der Sendezeitoptimierung arbeiten.](../building-journeys/journeys-message.md#send-time-optimization)
+>Wenn Sie eine E-Mail aus einer Journey senden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie mit der Sendezeitoptimierung arbeiten.](../building-journeys/journeys-message.md#send-time-optimization)
 
 Weitere Informationen zum Konfigurieren einer Journey finden Sie unter [diese Seite](../building-journeys/journey-gs.md).
 
@@ -54,7 +54,7 @@ Weitere Informationen zum Konfigurieren einer Journey finden Sie unter [diese Se
 
    ![](assets/email_campaign.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken **[!UICONTROL Create]**.
 
 1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [audience](../segment/about-segments.md)und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
@@ -70,31 +70,31 @@ Weitere Informationen zur Konfiguration einer Kampagne finden Sie unter [diese S
 
 >[!ENDTABS]
 
-## Definieren des E-Mail-Inhalts {#define-email-content}
+## E-Mail-Inhalt definieren {#define-email-content}
 
-1. Klicken Sie auf dem Journey- oder Kampagnenkonfigurationsbildschirm auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** zum Konfigurieren des E-Mail-Inhalts. [Weitere Informationen](get-started-email-design.md)
+1. Klicken Sie im Konfigurationsbildschirm der Journey oder Kampagne auf das **[!UICONTROL Edit content]** zum Konfigurieren des E-Mail-Inhalts. [Weitere Infos](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
-1. Im **[!UICONTROL Kopfzeile]** Abschnitt **[!UICONTROL Inhalt bearbeiten]** -Bildschirm, die **[!UICONTROL Name des Empfängers]**, **[!UICONTROL Aus E-Mail]** und **[!UICONTROL BCC]** -Feld von der von Ihnen ausgewählten E-Mail-Oberfläche stammen. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+1. Im **[!UICONTROL Header]** Abschnitt **[!UICONTROL Edit content]** -Bildschirm, die **[!UICONTROL From name]**, **[!UICONTROL From email]** und **[!UICONTROL BCC]** -Feld von der von Ihnen ausgewählten E-Mail-Oberfläche stammen. [Weitere Infos](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
 1. Sie können eine Betreffzeile hinzufügen. Geben Sie Text direkt in das entsprechende Feld ein oder verwenden Sie die [Ausdruckseditor](../personalization/personalization-build-expressions.md) um die Betreffzeile zu personalisieren.
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** Schaltfläche zum Erstellen Ihres Inhalts mithilfe der [!DNL Journey Optimizer] Email Designer. [Weitere Informationen](get-started-email-design.md)
+1. Klicken Sie auf **[!UICONTROL Edit email body]** Schaltfläche zum Erstellen Ihres Inhalts mithilfe der [!DNL Journey Optimizer] Email Designer. [Weitere Infos](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
-1. Wenn Sie sich in einer Kampagne befinden, können Sie auch auf die **[!UICONTROL Code-Editor]** -Schaltfläche, um Ihren eigenen Inhalt im einfachen HTML zu kodieren, indem Sie das angezeigte Popup-Fenster verwenden.
+1. Wenn Sie sich in einer Kampagne befinden, können Sie auch auf die **[!UICONTROL Code Editor]** -Schaltfläche, um Ihren eigenen Inhalt in einfachem HTML mit dem angezeigten Popup-Fenster zu kodieren.
 
    ![](assets/email_designer_edit_code_editor.png)
 
    >[!NOTE]
    >
-   >Wenn Sie Inhalte bereits über Email Designer erstellt oder importiert haben, wird dieser Inhalt auf HTML angezeigt.
+   >Wenn Sie Inhalte bereits mit Email Designer erstellt oder importiert haben, wird dieser Inhalt im HTML-Format angezeigt.
 
-## Prüfen von Warnhinweisen {#check-email-alerts}
+## Warnungen überprüfen {#check-email-alerts}
 
 Während Sie Ihre Nachrichten entwerfen, werden Warnhinweise in der Benutzeroberfläche (oben rechts auf dem Bildschirm) angezeigt, wenn wichtige Einstellungen fehlen.
 
@@ -104,33 +104,33 @@ Während Sie Ihre Nachrichten entwerfen, werden Warnhinweise in der Benutzerober
 >
 >Wenn diese Schaltfläche nicht angezeigt wird, wurde kein Warnhinweis erkannt.
 
-Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie finden hier auch Informationen zur Anpassung Ihrer Konfiguration, um die entsprechenden Probleme zu lösen.
+Die vom System geprüften Einstellungen und Elemente sind unten aufgeführt. Sie finden außerdem Informationen zur Anpassung Ihrer Konfiguration, um die entsprechenden Probleme zu beheben.
 
 Es können zwei Arten von Warnhinweisen auftreten:
 
 * **Warnungen** Empfehlungen und Best Practices, z. B.:
 
-   * **[!UICONTROL Der Ausschluss-Link ist nicht im E-Mail-Text vorhanden]**: Es empfiehlt sich, einen Link zur Abmeldung in Ihren E-Mail-Textkörper einzufügen. In [diesem Abschnitt](../privacy/opt-out.md#opt-out-management) erfahren Sie, wie Sie diesen konfigurieren.
+   * **[!UICONTROL The opt-out link is not present in the email body]**: Es empfiehlt sich, einen Abmelde-Link in Ihren E-Mail-Textkörper einzufügen. Erfahren Sie, wie Sie es konfigurieren in [diesem Abschnitt](../privacy/opt-out.md#opt-out-management).
 
       >[!NOTE]
       >
-      >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](email-settings.md#email-type) Ebene und Zeitpunkt [Nachricht erstellen](#create-email-journey-campaign) von einer Journey oder einer Kampagne.
+      >E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](email-settings.md#email-type) Ebene und Zeitpunkt [Nachricht erstellen](#create-email-journey-campaign) aus einer Journey oder einer Kampagne.
 
-   * **[!UICONTROL Textversion von HTML ist leer]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können. In [diesem Abschnitt](text-version-email.md) erfahren Sie, wie Sie die Textversion erstellen.
+   * **[!UICONTROL Text version of HTML is empty]**: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, da diese verwendet wird, wenn kein HTML-Inhalt angezeigt werden kann. Erfahren Sie, wie Sie die Textversion in [diesem Abschnitt](text-version-email.md).
 
-   * **[!UICONTROL Leerer Link ist im E-Mail-Text vorhanden]**: Überprüfen Sie, ob alle Links in Ihrer E-Mail korrekt sind. In [diesem Abschnitt](content-from-scratch.md) erfahren Sie, wie Sie Inhalte und Links verwalten.
+   * **[!UICONTROL Empty link is present in email body]**: Überprüfen Sie, ob alle Links in Ihrer E-Mail korrekt sind. Erfahren Sie, wie Sie Inhalte und Links in [diesem Abschnitt](content-from-scratch.md).
 
-   * **[!UICONTROL Die E-Mail-Größe überschreitet den Grenzwert von 100 KB]**: Stellen Sie sicher, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet, um einen optimalen Versand zu erzielen. In [diesem Abschnitt](content-from-scratch.md) erfahren Sie, wie Sie E-Mail-Inhalte bearbeiten.
+   * **[!UICONTROL Email size has exceeded the limit of 100KB]**: Um einen optimalen Versand zu gewährleisten, sollten Sie sicherstellen, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet. Erfahren Sie, wie Sie E-Mail-Inhalte in bearbeiten [diesem Abschnitt](content-from-scratch.md).
 
 * **Fehler** verhindern, dass Sie die Journey/Kampagne testen oder aktivieren, solange sie nicht aufgelöst sind, z. B.:
 
-   * **[!UICONTROL Die Betreffzeile fehlt]**: Die E-Mail-Betreffzeile ist obligatorisch. In [diesem Abschnitt](create-email.md) erfahren Sie, wie Sie sie definieren und personalisieren.
+   * **[!UICONTROL The subject line is missing]**: E-Mail-Betreffzeile ist obligatorisch. Erfahren Sie, wie Sie sie definieren und personalisieren in [diesem Abschnitt](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL Die E-Mail-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. In [diesem Abschnitt](get-started-email-design.md) erfahren Sie, wie Sie E-Mail-Inhalte entwerfen.
+   * **[!UICONTROL The email version of the message is empty]**: wird dieser Fehler angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde. Erfahren Sie, wie Sie E-Mail-Inhalte erstellen in [diesem Abschnitt](get-started-email-design.md).
 
-   * **[!UICONTROL Oberfläche existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Oberfläche aus. Weitere Informationen zu Kanaloberflächen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie eine andere Stelle in der Nachricht aus **[!UICONTROL Properties]**. Weitere Informationen zu Kanaloberflächen in [diesem Abschnitt](../configuration/channel-surfaces.md).
 
 
 >[!CAUTION]
@@ -139,7 +139,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 ## Vorschau erstellen und E-Mail senden
 
-Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon anzeigen, um das Rendering Ihrer E-Mail zu steuern, und die Personalisierungseinstellungen mit Testprofilen überprüfen. [Weitere Informationen](preview.md)
+Nachdem der Nachrichteninhalt definiert wurde, können Sie eine Vorschau davon anzeigen, um das Rendering Ihrer E-Mail zu steuern, und die Personalisierungseinstellungen mit Testprofilen überprüfen. [Weitere Infos](preview.md)
 
 ![](assets/email_designer_edit_simulate.png)
 
@@ -147,7 +147,7 @@ Wenn Ihre E-Mail fertig ist, konfigurieren Sie Ihre [Journey](../building-journe
 
 >[!NOTE]
 >
->Um das Verhalten Ihrer Empfänger über E-Mail-Öffnungen und/oder Interaktionen zu verfolgen, stellen Sie sicher, dass die entsprechenden Optionen in der **[!UICONTROL Tracking]** -Abschnitt im Journey aktiviert werden. [E-Mail-Aktivität](../building-journeys/journeys-message.md) oder in der E-Mail [Kampagne](../campaigns/create-campaign.md).<!--to move?-->
+>Um das Verhalten Ihrer Empfänger über E-Mail-Öffnungen und/oder Interaktionen zu verfolgen, stellen Sie sicher, dass die entsprechenden Optionen in der **[!UICONTROL Tracking]** -Abschnitt in der Journey aktiviert werden. [E-Mail-Aktivität](../building-journeys/journeys-message.md) oder in der E-Mail [Kampagne](../campaigns/create-campaign.md).<!--to move?-->
 
 <!--
 

@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit E-Mail
-description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen.
+description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 33%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +19,19 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
->Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](email-settings.md)
+>Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal konfiguriert wurde. [Weitere Infos](email-settings.md)
 
 Verwendung [!DNL Journey Optimizer] , um E-Mail-Nachrichten an Ihre Kunden zu senden. In Email Designer können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
 E-Mail-Sendungen können erstellt werden:
 
-* In **Journey**: nachdem Sie **[!UICONTROL Email]** -Aktivität auf Ihrer Journey und den definierten Grundeinstellungen verwenden Sie die **[!UICONTROL Aktionen: Email]** den Inhalt der SMS-Nachricht erstellen.
+* In **Journey**: nachdem Sie **[!UICONTROL Email]** -Aktivität zu Ihrer Journey hinzufügen und grundlegende Einstellungen festlegen, verwenden Sie die **[!UICONTROL Actions: Email]** den Inhalt der SMS-Nachricht erstellen.
 
-   Weitere Informationen zur Konfiguration der Journey auf [dieser Seite](../building-journeys/journey-gs.md).
+   Weiterführende Informationen zur Konfiguration Ihrer Journey finden Sie in diesem Abschnitt [page](../building-journeys/journey-gs.md).
 
 * In **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL Email]** als Aktion definieren und grundlegende Einstellungen definieren.
 
-   Weitere Informationen zur Konfiguration einer Kampagne auf [dieser Seite](../campaigns/create-campaign.md#configure).
+   Weiterführende Informationen zur Kampagnenkonfiguration finden Sie in diesem Abschnitt [page](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -46,7 +47,7 @@ E-Mail-Sendungen können erstellt werden:
 <img alt="Gelegentlich" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Erstellen einer E-Mail</strong></a>
+<a href="get-started-email-design.md"><strong>E-Mail erstellen</strong></a>
 </div>
 <p></td>
 <td>
@@ -68,4 +69,3 @@ E-Mail-Sendungen können erstellt werden:
 <p>
 </td>
 </tr></table>
-

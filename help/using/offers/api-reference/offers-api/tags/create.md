@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Tags
+title: Tag erstellen
 description: Mit Tags können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
@@ -9,22 +9,22 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Erstellen von Tags {#create-tag}
+# Tag erstellen {#create-tag}
 
-Sie können ein Tag erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
+Sie können ein Tag erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
 
-## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
 
-| Header-Name | Wert |
+| Kopfzeilenname | Wert |
 | ----------- | ----- |
-| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Inhaltstyp | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API-Format**
 
@@ -53,9 +53,9 @@ curl -X POST \
     }'
 ```
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Tag zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Tag zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Tags in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Tag zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Tag zu aktualisieren oder zu löschen. Sie können Ihr eindeutiges Tag verwenden `@id` in späteren Tutorials zum Erstellen von Kollektionen und personalisierten Angeboten.
 
 ```json
 {

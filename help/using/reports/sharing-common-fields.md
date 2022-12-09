@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gemeinsame Felder für journeySteps-Ereignisse
-description: Gemeinsame Felder für journeySteps-Ereignisse
+title: Gemeinsame Felder für journeyStep-Ereignisse
+description: Gemeinsame Felder für journeyStep-Ereignisse
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,32 +10,32 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 0%
 
 ---
 
-# Gemeinsame Felder für journeySteps-Ereignisse {#sharing-common-fields}
+# Gemeinsame Felder für journeyStep-Ereignisse {#sharing-common-fields}
 
-Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
+Diese Feldergruppe wird von journeyStepEvent und journeyStepProfileEvent gemeinsam genutzt.
 
-Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] an Adobe Experience Platform sendet. Gemeinsame Felder werden für jeden Schritt gesendet, der während einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
+Dies sind die gängigen XDM-Felder, die [!DNL Journey Optimizer] sendet an Adobe Experience Platform. Gemeinsame Felder werden für jeden Schritt gesendet, der in einer Journey verarbeitet wird. Für benutzerdefinierte Aktionen und Anreicherungen werden spezifischere Felder verwendet.
 
-Einige dieser Felder sind nur bei bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.), um die Größe von Ereignissen zu begrenzen.
+Einige dieser Felder sind nur in bestimmten Verarbeitungsmustern verfügbar (Aktionsausführung, Datenabruf usw.) um die Größe von Ereignissen zu begrenzen.
 
-## entrance {#entrance-field}
+## Eintritt {#entrance-field}
 
-Gibt an, ob der Benutzer in die Journey eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
+Gibt an, ob der Benutzer in die Journey eingestiegen ist. Wenn der Wert nicht vorhanden ist, gehen wir davon aus, dass er &quot;false&quot;ist.
 
-Typ: boolesch
+Typ: boolean
 
 Werte: true/false
 
-## reentrance {#reentrance-field}
+## reeingang {#reentrance-field}
 
-Gibt an, ob der Benutzer in die Journey mit derselben Instanz erneut eingetreten ist. Wenn nicht vorhanden, wird angenommen, dass der Wert „false“ lautet.
+Gibt an, ob der Benutzer die Journey mit derselben Instanz erneut betreten hat. Wenn der Wert nicht vorhanden ist, gehen wir davon aus, dass er &quot;false&quot;ist.
 
-Typ: boolesch
+Typ: boolean
 
 Werte: true/false
 
@@ -43,35 +43,35 @@ Werte: true/false
 
 Gibt an, ob die Instanz beendet wurde (erfolgreich oder nicht).
 
-Typ: boolesch
+Typ: boolean
 
 ## eventID {#eventid-field}
 
-Ereigniskennung in der Verarbeitung für die Schrittverarbeitung. Wenn es sich bei dem Ereignis um ein externes Ereignis handelt, ist der Wert dessen Ereignis-ID eventId. Wenn es sich bei dem Ereignis um ein internes Ereignis handelt, ist der Wert die interne eventId (wie z. B. scheduledNotificationReceived, executedAction).
+Ereignis-ID in der Verarbeitung für die Schrittverarbeitung. Wenn es sich bei dem Ereignis um ein externes Ereignis handelt, ist der Wert dessen eventId. Wenn es sich bei dem Ereignis um ein internes Ereignis handelt, ist der Wert die interne eventId (z. B. scheduledNotificationReceived, executeAction usw.).
 
 Typ: Zeichenfolge
 
 ## nodeID {#nodeid-field}
 
-Kennung des Client-Knotens (von der Arbeitsfläche).
+Client-Knoten-ID (von der Arbeitsfläche).
 
 Typ: Zeichenfolge
 
 ## stepID {#stepdid-field}
 
-Eindeutige Kennung des Schritts, der gerade verarbeitet wird.
+Eindeutige ID des Schritts, der derzeit verarbeitet wird.
 
 Typ: Zeichenfolge
 
 ## stepName {#stepname-field}
 
-Name des Schritts, der gerade verarbeitet wird.
+Name des Schritts, der derzeit verarbeitet wird.
 
 Typ: Zeichenfolge
 
 ## stepType {#steptype-field}
 
-Art des Schritts.
+Typ des Schritts.
 
 Typ: Zeichenfolge
 
@@ -84,18 +84,18 @@ Mögliche Werte:
 
 ## stepStatus {#stepstatus-field}
 
-Status des Schritts, der den Status des Schritts darstellt, nachdem die Verarbeitung abgeschlossen (und das Schrittereignis ausgelöst) wurde.
+Status des Schritts, der den Status des Schritts darstellt, wenn die Verarbeitung abgeschlossen ist (und das Schrittereignis ausgelöst wurde).
 
 Typ: Zeichenfolge
 
 Der Status kann wie folgt lauten:
 
-* ended: Der Schritt weist keine Transition auf und seine Verarbeitung wurde erfolgreich beendet.
-* error: Bei der Schrittverarbeitung ist ein Fehler aufgetreten.
-* transitions: Der Schritt wartet darauf, bis ein Ereignis durch Transition in einen anderen Schritt gelangt.
-* capped: Der Schritt ist aufgrund eines Begrenzungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
-* timedout: Der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
-* instanceTimedout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Zeitüberschreitungswert erreicht hat.
+* ended: der Schritt keine Transition aufweist und die Verarbeitung erfolgreich beendet wurde.
+* error: bei der Schrittverarbeitung ist ein Fehler aufgetreten.
+* Transitionen: Der Schritt wartet darauf, dass ein Ereignis zu einem anderen Schritt übergeht.
+* capped: der Schritt ist aufgrund eines Begrenzungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
+* timedout: der Schritt ist aufgrund eines Zeitüberschreitungsfehlers fehlgeschlagen, der während einer Aktion oder Anreicherung ausgelöst wurde.
+* instanceTimedout: Der Schritt hat die Verarbeitung beendet, da die Instanz ihren Timeout erreicht hat.
 
 ## journeyID {#journeyid-field}
 
@@ -105,7 +105,7 @@ Typ: Zeichenfolge
 
 ## journeyVersionID {#journeyversionid-field}
 
-Kennung der Journey-Version. Diese Kennung stellt bei journeyStepEvent den Identitätsverweis auf die Journey dar.
+Kennung der Journey-Version. Diese ID stellt den Identitätsverweis auf die Journey im Fall von journeyStepEvent dar.
 
 Typ: Zeichenfolge
 
@@ -135,13 +135,13 @@ Typ: Zeichenfolge
 
 ## parentStepID {#parenstepid-field}
 
-Kennung des übergeordneten Schritts des in der Instanz gerade verarbeiteten Schritts.
+Schritt-ID des übergeordneten Schritts des aktuellen verarbeiteten Schritts in der Instanz.
 
 Typ: Zeichenfolge
 
 ## parentStepName {#parentstepname-field}
 
-Name des übergeordneten Schritts des aktuellen Schritts.
+Schrittname des übergeordneten Schritts des aktuellen Schritts.
 
 Typ: Zeichenfolge
 
@@ -159,19 +159,19 @@ Typ: Zeichenfolge
 
 ## inTest {#intest-field}
 
-Gibt an, ob sich die Journey im Testmodus befindet oder nicht.
+Gibt an, ob sich diese Journey im Testmodus befindet oder nicht.
 
-Typ: boolesch
+Typ: boolean
 
 ## processingTime {#processingtime-field}
 
-Gesamtdauer vom Eintritt des Instanzschritts bis zum Ende der Verarbeitung (in Millisekunden).
+Gesamtdauer vom Eintritt des Instanzschritts bis zum Ende der Verarbeitung in Millisekunden.
 
-Typ: lang
+Typ: long
 
 ## instanceType {#instancetype-field}
 
-Gibt den Instanztyp an (Batch oder unitär).
+Gibt den Instanztyp an, ob es sich um einen Batch- oder einen Einzelfall handelt.
 
 Typ: Zeichenfolge
 
@@ -179,19 +179,19 @@ Werte: batch/unitary
 
 ## recurrenceIndex {#recurrenceindex-field}
 
-Index des Intervalls, wenn es sich bei der Journey um einen wiederkehrenden Batch-Vorgang handelt (erste Ausführung führt zu recurrenceIndex = 1).
+Index der Wiederholung, wenn es sich bei der Journey um eine Batch- und eine wiederkehrende Journey handelt (erste Ausführung hat recurrenceIndex = 1).
 
-Typ: lang
+Typ: long
 
 ## isBatchToUnitary {#isbatchtounitary-field}
 
-Gibt an, ob diese unitäre Instanz von einer Batch-Instanz ausgelöst wurde.
+Gibt an, ob diese Einzelinstanz von einer Batch-Instanz ausgelöst wurde.
 
-Typ: boolesch
+Typ: boolean
 
 ## batchExternalKey {#batchexternalkey-field}
 
-Externer Schlüssel für das Batch-Ereignis.
+Externer Schlüssel für Batch-Ereignis.
 
 Typ: Zeichenfolge
 
@@ -203,6 +203,6 @@ Typ: Zeichenfolge
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
-Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, unitäre Verzweigungs-ID.
+Wenn die Instanz von einer Batch-Instanz ausgelöst wurde, die eindeutige Verzweigungs-ID.
 
 Typ: Zeichenfolge

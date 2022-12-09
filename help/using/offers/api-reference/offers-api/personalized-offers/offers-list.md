@@ -1,6 +1,6 @@
 ---
 title: Personalisierte Angebote auflisten
-description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
+description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Personalisierte Angebote auflisten {#list-personalized-offers}
 
-Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
+Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
 
-Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller personalisierten Angebote in einem Container anzeigen.
+Sie können eine Liste aller personalisierten Angebote in einem Container anzeigen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API.
 
 **API-Format**
 
@@ -46,7 +46,7 @@ curl -X GET \
 
 ## Verwenden von Abfrageparametern {#using-query-parameters}
 
-Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
+Sie können Abfrageparameter verwenden, um bei der Auflistung von Ressourcen Ergebnisse zu sortieren und zu filtern.
 
 ### Paging {#paging}
 
@@ -54,15 +54,15 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben verfasst werden und kann von doppelten Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu umgehen (Escape). Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `discounted offers` |
-| `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
+| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben geschrieben werden und kann von doppelten Anführungszeichen umgeben sein, um zu verhindern, dass sie tokenisiert wird, und um Sonderzeichen zu umgehen. Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten beim Auftreten in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `discounted offers` |
+| `qop` | Wendet den UND- oder ODER-Operator auf Werte im Abfragezeichenfolgenparameter &quot;q&quot;an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Hinzufügen einer `-` vor Titel (`orderby=-title`) sortiert Elemente nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
 | `limit` | Schränken Sie die Anzahl der zurückgegebenen personalisierten Angebote ein. | `limit=5` |
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort wird eine Liste von personalisierten Angeboten zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Eine erfolgreiche Antwort gibt eine Liste personalisierter Angebote zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {

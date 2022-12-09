@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen
-description: Senden von Nachrichten mit Campaign v7/v8
+description: Nachrichten mit Campaign v7/v8 senden
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 0%
 
 ---
 
 
-# Anwendungsfall: Sammlungen mithilfe benutzerdefinierter Aktionen dynamisch übermitteln{#passing-collection}
+# Anwendungsfall: Übergeben von Sammlungen dynamisch mithilfe benutzerdefinierter Aktionen{#passing-collection}
 
 Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, die zur Laufzeit dynamisch gefüllt werden. Es werden zwei Arten von Sammlungen unterstützt:
 
@@ -68,7 +68,7 @@ Sie können eine Sammlung in benutzerdefinierten Aktionsparametern übergeben, d
    }
    ```
 
-* Um Sammlungen im Testmodus zu testen, müssen Sie den Code-Ansichtsmodus verwenden. Der Code-Ansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlungen nur mit einem einzelnen Element senden.
+* Um Sammlungen im Testmodus zu testen, müssen Sie den Codeansichtsmodus verwenden. Der Codeansichtsmodus wird derzeit für Geschäftsereignisse nicht unterstützt. Sie können eine Sammlung nur mit einem einzelnen Element senden.
 
 ## Allgemeines Verfahren {#general-procedure}
 
@@ -98,11 +98,11 @@ In diesem Abschnitt verwenden wir das folgende JSON-Payload-Beispiel. Dies ist e
 }
 ```
 
-Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müssen mindestens ein Objekt haben.
+Sie können sehen, dass &quot;products&quot;ein Array von zwei Objekten ist. Sie müssen mindestens ein Objekt haben.
 
-1. Erstellen Sie Ihre benutzerdefinierte Aktion. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
+1. Erstellen Sie Ihre benutzerdefinierte Aktion. Siehe [diese Seite](../action/about-custom-action-configuration.md).
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Aktionsparameter]** das JSON-Beispiel ein. Die angezeigte Struktur ist statisch: Beim Einfügen der Payload werden alle Felder als Konstanten definiert.
+1. Im **[!UICONTROL Action parameters]** -Abschnitt, fügen Sie das JSON-Beispiel ein. Die angezeigte Struktur ist statisch: Beim Einfügen der Payload werden alle Felder als Konstanten definiert.
 
    ![](assets/uc-collection-1.png)
 
@@ -112,33 +112,33 @@ Sie können sehen, dass „Produkte“ ein Array von zwei Objekten ist. Sie müs
    >
    >Der Feldtyp wird gemäß dem Payload-Beispiel automatisch abgeleitet.
 
-1. Wenn Sie Objekte dynamisch übergeben möchten, müssen Sie sie als Variablen festlegen. In diesem Beispiel legen wir „Produkte“ als Variable fest. Alle im Objekt enthaltenen Objektfelder werden automatisch als Variablen festgelegt.
+1. Wenn Sie Objekte dynamisch übergeben möchten, müssen Sie sie als Variablen festlegen. In diesem Beispiel legen wir &quot;products&quot;als Variable fest. Alle im Objekt enthaltenen Objektfelder werden automatisch auf Variablen gesetzt.
 
    >[!NOTE]
    >
    >Das erste Objekt des Payload-Beispiels wird verwendet, um die Felder zu definieren.
 
-1. Definieren Sie für jedes Feld den Titel, der auf der Journey-Arbeitsfläche angezeigt werden soll.
+1. Definieren Sie für jedes Feld den Titel, der auf der Journey-Arbeitsfläche angezeigt wird.
 
    ![](assets/uc-collection-2.png)
 
-1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-custom-actions.md).
+1. Erstellen Sie Ihre Journey und fügen Sie die von Ihnen erstellte benutzerdefinierte Aktion hinzu. Siehe [diese Seite](../building-journeys/using-custom-actions.md).
 
-1. Definieren Sie im Abschnitt **[!UICONTROL Aktionsparameter]** den Array-Parameter („Produkte“ in unserem Beispiel) mithilfe des erweiterten Ausdruckseditors.
+1. Im **[!UICONTROL Action parameters]** definieren Sie den Array-Parameter (&quot;products&quot; in unserem Beispiel) mit dem erweiterten Ausdruckseditor.
 
    ![](assets/uc-collection-3.png)
 
-1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur „Produkt-ID“ und „Farbe“ definieren.
+1. Geben Sie für jedes der folgenden Objektfelder den entsprechenden Feldnamen aus dem Quell-XDM-Schema ein. Wenn die Namen identisch sind, ist dies nicht erforderlich. In unserem Beispiel müssen wir nur &quot;Produkt-ID&quot;und &quot;Farbe&quot;definieren.
 
    ![](assets/uc-collection-4.png)
 
-Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenbearbeitungen durchzuführen. Im folgenden Beispiel werden die Funktionen [Filtern](functions/functionfilter.md) und [Überschneidung](functions/functionintersect.md) verwendet:
+Für das Array-Feld können Sie auch den erweiterten Ausdruckseditor verwenden, um Datenmanipulationen durchzuführen. Im folgenden Beispiel verwenden wir die [filter](functions/functionfilter.md) und [Schnittmenge](functions/functionintersect.md) Funktionen:
 
 ![](assets/uc-collection-5.png)
 
 ## Besondere Fälle{#examples}
 
-Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ „listAny“ definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
+Bei heterogenen Typen und Arrays von Arrays wird das Array mit dem Typ listAny definiert. Sie können nur einzelne Elemente zuordnen, das Array jedoch nicht in eine Variable ändern.
 
 ![](assets/uc-collection-heterogeneous.png)
 

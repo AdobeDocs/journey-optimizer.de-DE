@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definieren von Landingpage-spezifischen Inhalten
-description: Erfahren Sie, wie Sie Landingpage-spezifische Inhalte in Journey Optimizer erstellen.
+title: Landingpage-spezifischen Inhalt definieren
+description: Erfahren Sie, wie Sie in Journey Optimizer Landingpage-spezifische Inhalte erstellen.
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,145 +10,145 @@ level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '939'
+ht-degree: 0%
 
 ---
 
-# Definieren von Landingpage-spezifischen Inhalten {#lp-content}
+# Landingpage-spezifischen Inhalt definieren {#lp-content}
 
-Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Auswahl auf Ihrer Landingpage zu treffen und abzusenden, verwenden Sie die Komponente **[!UICONTROL Formular]**. Gehen Sie dazu wie folgt vor.
+Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer Landingpage festlegen und unterbreiten können, verwenden Sie das **[!UICONTROL Form]** -Komponente. Gehen Sie dazu wie folgt vor.
 
 >[!NOTE]
 >
->Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie beispielsweise ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
+>Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Form]** -Komponente. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular senden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne von Ihren Empfängern Maßnahmen zu ergreifen (z. B. Opt-in oder Opt-out) oder Informationen bereitstellen möchten, für die keine Benutzereingabe erforderlich ist.
 
-## Verwenden der Formularkomponente {#use-form-component}
+## Formularkomponente verwenden {#use-form-component}
 
-1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Formular]**-Komponente aus der linken Palette in den Hauptarbeitsbereich.
+1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Form]** -Komponente aus der linken Palette in den Hauptarbeitsbereich.
 
    ![](assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Formular]**-Komponente kann auf einer Seite nur einmal verwendet werden.
+   >Die **[!UICONTROL Form]** -Komponente kann nur einmal auf derselben Seite verwendet werden.
 
-1. Wählen Sie sie aus. Die Registerkarte **[!UICONTROL Formularinhalt]** wird in der rechten Palette angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
+1. Wählen Sie es aus. Die **[!UICONTROL Form content]** in der rechten Palette angezeigt, damit Sie die verschiedenen Felder des Formulars bearbeiten können.
 
    ![](assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
-   >Sie können jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln, um die Stile Ihrer Inhalte in der Formularkomponente zu bearbeiten. [Weitere Informationen](#define-lp-styles)
+   >Wechseln Sie zu **[!UICONTROL Form style]** jederzeit zum Bearbeiten der Stile des Formularkomponenteninhalts. [Weitere Infos](#define-lp-styles)
 
-1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
+1. Aus dem **[!UICONTROL Checkbox 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
 
-1. Definieren Sie, ob dieses Kontrollkästchen Benutzern die An- oder Abmeldung ermöglichen soll: Erklären sie sich damit einverstanden, Nachrichten zu erhalten, oder möchten sie nicht mehr kontaktiert werden?
+1. Definieren Sie, ob dieses Kontrollkästchen Benutzern das Ein- und Ausschließen ermöglicht: Sind sie damit einverstanden, Nachrichten zu erhalten oder bitten sie darum, nicht mehr kontaktiert zu werden?
 
    ![](assets/lp_designer-form-update.png)
 
-   Wählen Sie unter den drei folgenden Optionen eine aus:
+   Wählen Sie unter den drei folgenden Optionen aus:
 
-   * **[!UICONTROL Opt-out, wenn aktiviert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu erteilen (Opt-in).
-   * **[!UICONTROL Opt-out, wenn markiert]**: Benutzer müssen das Kontrollkästchen markieren, um ihre Zustimmung zu entfernen (Opt-out).
-   * **[!UICONTROL Opt-in, wenn aktiviert, Opt-out, wenn deaktiviert]**: Mit dieser Option können Sie ein einziges Kontrollkästchen für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um ihr Einverständnis zu erteilen (Opt-in), und es deaktivieren, um ihr Einverständnis zurückzuziehen (Opt-out).
+   * **[!UICONTROL Opt in if checked]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu erteilen (Opt-in).
+   * **[!UICONTROL Opt out if checked]**: -Benutzer müssen das Kontrollkästchen aktivieren, um ihre Zustimmung zu entfernen (Opt-out).
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: Mit dieser Option können Sie eine einzige Checkbox für das Opt-in/Opt-out einfügen. Benutzer müssen das Kontrollkästchen aktivieren, um zuzustimmen (Opt-in), und es deaktivieren, um ihre Zustimmung zu entfernen (Opt-out).
 
-1. Wählen Sie aus den drei folgenden Optionen aus, was aktualisiert werden soll:
+1. Wählen Sie aus, was zwischen den drei folgenden Optionen aktualisiert werden soll:
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Abonnement-Liste]**: Sie müssen die Abonnement-Liste auswählen, die aktualisiert wird, wenn das Profil dieses Kontrollkästchen aktiviert. Weitere Informationen finden Sie unter [Abonnement-Listen](subscription-list.md).
+   * **[!UICONTROL Subscription list]**: Sie müssen die Abonnementliste auswählen, die aktualisiert wird, wenn das Profil dieses Kontrollkästchen aktiviert. Weitere Informationen finden Sie unter [Abonnementlisten](subscription-list.md).
 
       ![](assets/lp_designer-form-subs-list.png)
 
-   * **[!UICONTROL Kanal (E-Mail)]**: Die An- oder Abmeldung gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abgemeldet hat, zwei E-Mail-Adressen hat, werden beide Adressen aus Ihrer gesamten Kommunikation ausgeschlossen.
+   * **[!UICONTROL Channel (email)]**: Das Opt-in- oder Opt-out-Verfahren gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abmeldet, zwei E-Mail-Adressen hat, werden beide Adressen aus all Ihrer Kommunikation ausgeschlossen.
 
-   * **[!UICONTROL E-Mail-Identität]**: Das Opt-in oder Opt-out gilt nur für die E-Mail-Adresse, die für den Zugriff auf die Landingpage verwendet wurde. Wenn beispielsweise ein Profil zwei E-Mail-Adressen hat, erhält nur diejenige E-Mail-Adresse, mit der es sich angemeldet hat, Nachrichten von Ihrer Marke.
+   * **[!UICONTROL Email identity]**: Das Opt-in- oder Opt-out-Verfahren gilt nur für die E-Mail-Adresse, die für den Zugriff auf die Landingpage verwendet wurde. Wenn beispielsweise ein Profil zwei E-Mail-Adressen hat, erhält nur die für die Anmeldung verwendete E-Mail-Adresse Nachrichten von Ihrer Marke.
 
-1. Klicken Sie auf **[!UICONTROL Feld hinzufügen]** > **[!UICONTROL Kontrollkästchen]**, um ein weiteres Kontrollkästchen hinzuzufügen. Wiederholen Sie die obigen Schritte, um die Eigenschaften zu definieren.
+1. Klicken **[!UICONTROL Add field]** > **[!UICONTROL Checkbox]** , um ein weiteres Kontrollkästchen hinzuzufügen. Wiederholen Sie die obigen Schritte, um die Eigenschaften zu definieren.
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Nachdem Sie alle gewünschten Kontrollkästchen hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktion]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
+1. Nachdem Sie alle gewünschten Kontrollkästchen hinzugefügt haben, klicken Sie auf **[!UICONTROL Call to action]** um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche im **[!UICONTROL Form]** -Komponente.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll:
 
-   * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
-   * **[!UICONTROL Bestätigungstext]**: Geben Sie den Bestätigungstext ein, der angezeigt werden soll.
-   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [Unterseite](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdown-Liste aus.
+   * **[!UICONTROL Redirect URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
+   * **[!UICONTROL Confirmation text]**: Geben Sie den Bestätigungstext ein, der angezeigt werden soll.
+   * **[!UICONTROL Link to a subpage]**: Konfigurieren Sie eine [subpage](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdownliste aus.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
 1. Definieren Sie, was beim Klicken auf die Schaltfläche passieren soll, falls ein Fehler auftritt:
 
-   * **[!UICONTROL Umleitungs-URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
-   * **[!UICONTROL Fehlertext]**: Geben Sie den Fehlertext ein, der angezeigt werden soll. Beim Definieren der [Formularstile](#define-lp-styles) können Sie sich eine Vorschau des Fehlertexts ansehen.
+   * **[!UICONTROL Redirect URL]**: Geben Sie die URL der Seite ein, zu der die Benutzer umgeleitet werden.
+   * **[!UICONTROL Error text]**: Geben Sie den Fehlertext ein, der angezeigt werden soll. Beim Definieren der [Formularstile](#define-lp-styles).
 
-   * **[!UICONTROL Link zu einer Unterseite]**: Konfigurieren Sie eine [Unterseite](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdown-Liste aus.
+   * **[!UICONTROL Link to a subpage]**: Konfigurieren Sie eine [subpage](create-lp.md#configure-subpages) und wählen Sie sie aus der angezeigten Dropdownliste aus.
 
    ![](assets/lp_designer-form-error.png)
 
-1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt-in]** oder **[!UICONTROL Opt-out]** und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
+1. Wenn Sie beim Senden des Formulars zusätzliche Aktualisierungen vornehmen möchten, wählen Sie **[!UICONTROL Opt in]** oder **[!UICONTROL Opt out]** und definieren Sie, ob Sie eine Abonnementliste, den Kanal oder nur die verwendete E-Mail-Adresse aktualisieren möchten.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
-1. Speichern Sie die Inhalte und klicken Sie auf den Pfeil neben dem Seitennamen, um zurück zum Abschnitt [Landingpage-Eigenschaften](create-lp.md#configure-primary-page) zu gelangen.
+1. Speichern Sie den Inhalt und klicken Sie auf den Pfeil neben dem Seitennamen, um zum Abschnitt [Landingpage-Eigenschaften](create-lp.md#configure-primary-page).
 
    ![](assets/lp_designer-form-save.png)
 
-## Definieren von Formularstilen für Landingpages {#lp-form-styles}
+## Formularstile für Landingpages definieren {#lp-form-styles}
 
-1. Um die Stile der Inhalte Ihrer Formularkomponente zu ändern, können Sie jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln.
+1. Um die Stile Ihres Formularkomponenteninhalts zu ändern, wechseln Sie jederzeit zum **[!UICONTROL Form style]** Registerkarte.
 
    ![](assets/lp_designer-form-style.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Kontrollkästchen]**, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie oder Schriftgröße sowie die Rahmenfarbe des Kontrollkästchens anpassen.
+1. Erweitern Sie die **[!UICONTROL Checkboxes]** -Abschnitt, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie oder -größe und die Rahmenfarbe des Kontrollkästchens anpassen.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
+1. Erweitern Sie die **[!UICONTROL Buttons]** -Abschnitt, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Vorschau]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
+   Sie können einige Ihrer Einstellungen in der Vorschau anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die **[!UICONTROL Preview]** Schaltfläche. Weitere Informationen zum Testen von Landingpages [here](create-lp.md#test-landing-page).
 
    ![](assets/lp_designer-form-style-buttons-preview.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Formular-Layout]**, um die Layout-Einstellungen wie die Hintergrundfarbe, den Abstand oder den Rand zu bearbeiten.
+1. Erweitern Sie die **[!UICONTROL Form layout]** um die Layouteinstellungen wie die Hintergrundfarbe, den Abstand oder den Rand zu bearbeiten.
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Formularfehler]**, um die Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Klicken Sie die entsprechende Option an, um den Fehlertext im Formular in der Vorschau anzuzeigen.
+1. Erweitern Sie die **[!UICONTROL Form error]** -Abschnitt, um die Anzeige der Fehlermeldung anzupassen, die im Falle eines Problems angezeigt wird. Aktivieren Sie die entsprechende Option, um den Fehlertext im Formular in der Vorschau anzuzeigen.
 
    ![](assets/lp_designer-form-error-preview.png)
 
-## Verwenden des primären Seitenkontexts {#use-primary-page-context}
+## Primärseitenkontext verwenden {#use-primary-page-context}
 
-Sie können kontextbezogene Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
+Sie können Kontextdaten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
 
-Wenn Sie zum Beispiel ein Kontrollkästchen<!-- or the submission of the page--> mit einer [Abonnementliste](subscription-list.md) auf der primären Landingpage verknüpfen, können Sie diese Abonnementliste auf der Unterseite „Vielen Dank“ verwenden.
+Wenn Sie beispielsweise ein Kontrollkästchen verknüpfen<!-- or the submission of the page--> zu [Abonnementliste](subscription-list.md) auf der primären Landingpage können Sie diese Abonnementliste auf der &quot;Vielen Dank&quot;-Unterseite verwenden.
 
-Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn ein Benutzer eine dieser Listen abonniert, möchten Sie beim Absenden des Formulars eine bestimmte Nachricht anzeigen, je nachdem, welches Kästchen die Person ausgewählt hat.
+Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit zwei verschiedenen Abonnementlisten. Wenn sich ein Benutzer für eine dieser Optionen anmeldet, möchten Sie beim Senden des Formulars je nach ausgewähltem Kontrollkästchen eine bestimmte Nachricht anzeigen.
 
 Gehen Sie dazu wie folgt vor:
 
-1. Verknüpfen Sie auf der primären Seite jedes Kontrollkästchen mit der entsprechenden Abonnementliste. [Weitere Informationen](#use-form-component).
+1. Verknüpfen Sie auf der primären Seite jedes Kontrollkästchen mit der entsprechenden Abonnementliste. [Weitere Infos](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie in der kontextbezogenen Symbolleiste **[!UICONTROL Personalisierung hinzufügen]**.
+1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie **[!UICONTROL Add personalization]** in der dedizierten Symbolleiste.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. Im Fenster **[!UICONTROL Personalisierung bearbeiten]** wählen Sie **[!UICONTROL Kontextuelle Attribute]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primärer Seitenkontext]** > **[!UICONTROL Abonnement]**.
+1. Im **[!UICONTROL Edit personalization]** auswählen **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primary Page Context]** > **[!UICONTROL Subscription]**.
 
-1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol „+“ die entsprechenden Elemente aus.
+1. Alle Abonnementlisten, die Sie auf der primären Seite ausgewählt haben, werden aufgelistet. Wählen Sie über das Symbol + die entsprechenden Elemente aus.
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Fügen Sie die entsprechenden Bedingungen über die Hilfsfunktionen des Ausdruckseditors hinzu. [Weitere Informationen](../personalization/functions/functions.md)
+1. Fügen Sie die relevanten Bedingungen mithilfe der Hilfsfunktionen des Ausdruckseditors hinzu. [Weitere Infos](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -160,13 +160,13 @@ Gehen Sie dazu wie folgt vor:
 
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Wenn Benutzende jetzt eines der Kontrollkästchen aktivieren, wird beim Absenden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
+Wenn Benutzer jetzt eines der Kontrollkästchen aktivieren, wird beim Senden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
 
 >[!NOTE]
 >
->Wenn Benutzende die beiden Kontrollkästchen aktivieren, werden beide Texte angezeigt.
+>Wenn ein Benutzer die beiden Kontrollkästchen aktiviert, werden beide Texte angezeigt.
 
 <!--
 ## Use landing page additional data {#use-additional-data}

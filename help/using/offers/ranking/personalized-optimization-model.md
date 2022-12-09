@@ -1,73 +1,73 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Modell zur personalisierten Optimierung
-description: Erfahren Sie mehr über Modelle zur personalisierten Optimierung
+title: Personalisiertes Optimierungsmodell
+description: Erfahren Sie mehr über personalisierte Optimierungsmodelle
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
-# Modell zur personalisierten Optimierung {#personalized-optimization-model}
+# Personalisiertes Optimierungsmodell {#personalized-optimization-model}
 
 >[!CAUTION]
 >
->Einigen ausgewählten Benutzenden wird derzeit vorab Zugriff auf die Verwendung von Modellen zur personalisierten Optimierung gewährt.
+>Die Verwendung personalisierter Optimierungsmodelle ist derzeit nur für ausgewählte Benutzer in einem frühen Zugriff verfügbar.
 
 ## Übersicht {#overview}
 
-Durch die Nutzung modernster Technologien im Bereich des überwachten maschinellen Lernens und des Deep Learning ermöglicht es die automatische Personalisierung einem Business-Anwendenden (Marketer), Geschäftsziele zu definieren und seine Kundendaten zu nutzen, um geschäftsorientierte Modelle zu trainieren, um personalisierte Angebote zu unterbreiten und KPI zu optimieren.
+Durch die Nutzung der modernsten Technologien im beaufsichtigten maschinellen Lernen und tiefen Lernens ermöglicht die automatische Personalisierung einem Business-Anwender (Marketingexperten), Geschäftsziele zu definieren und seine Kundendaten zu nutzen, um geschäftsorientierte Modelle für personalisierte Angebote zu trainieren und KPIs zu maximieren.
 
 ## Grundlegende Modellannahmen und -beschränkungen {#key}
 
-Um die Vorteile der automatischen Personalisierung optimal nutzen zu können, müssen einige wichtige Voraussetzungen und Beschränkungen beachtet werden.
+Um den Vorteil der automatischen Personalisierung zu maximieren, sollten Sie einige wichtige Annahmen und Einschränkungen beachten.
 
-* **Die Angebote sind so unterschiedlich, dass auch die Präferenzen der Benutzenden bezüglich der in Frage kommenden Angebote unterschiedlich sind**. Wenn die Angebote zu ähnlich sind, hat das resultierende Modell weniger Wirkung, da die Reaktionen scheinbar zufällig sind.
-Wenn eine Bank beispielsweise zwei Kreditkarten anbietet, deren einziger Unterschied die Farbe ist, hat die Empfehlung einer Karte weniger Auswirkung. Wenn aber an jede Karte unterschiedliche Bedingungen geknüpft sind, haben Kunden und Kundinnen einen bestimmten Grund, warum sie sich für eine der Karten entscheiden. Dies bietet deshalb einen ausreichenden Unterschied zwischen den Angeboten, sodass ein wirkungsvolleres Modell erstellt werden kann.
-* **Die Zusammensetzung des Traffics von Benutzenden ist stabil**. Wenn sich die Zusammensetzung des Benutzenden-Traffics während des Trainings der Modelle und der Vorhersagephase drastisch ändert, kann sich die Modellleistung verschlechtern. Angenommen, in der Modelltrainingsphase sind nur Daten für Benutzende in Segment A verfügbar, aber das trainierte Modell wird verwendet, um Prognosen für Benutzende in Segment B zu generieren. In diesem Fall kann die Modellleistung beeinträchtigt werden.
-* **Die Leistungen der Angebote ändern sich innerhalb eines kurzen Zeitraums nicht dramatisch**, da dieses Modell wöchentlich aktualisiert wird und die Leistungsänderungen mit der Aktualisierung des Modells übermittelt werden. Ein Beispiel: Ein Produkt war früher sehr beliebt, aber in einem öffentlichen Bericht wird festgestellt, dass das Produkt gesundheitsschädlich ist, und das Produkt wird sehr schnell unpopulär. In diesem Szenario könnte das Modell dieses Produkt so lange empfehlen, bis das Modell aufgrund von Verhaltensänderungen der Benutzenden aktualisiert wird.
+* **Angebote sind so unterschiedlich, dass Benutzer unterschiedliche Voreinstellungen unter den betreffenden Angeboten haben.**. Wenn Angebote zu ähnlich sind, hat ein resultierendes Modell weniger Auswirkungen, da die Antworten scheinbar zufällig sind.
+Wenn beispielsweise eine Bank über zwei Kreditkartenangebote verfügt, bei denen der einzige Unterschied die Farbe ist, ist es möglicherweise nicht wichtig, welche Karte empfohlen wird, aber wenn jede Karte unterschiedliche Bedingungen hat, bietet dies eine Begründung dafür, warum bestimmte Kunden eine wählen würden, und ausreichend Unterschiede zwischen Angeboten bereitstellen, um ein wirkungsvolleres Modell zu erstellen.
+* **Die Traffic-Zusammensetzung des Benutzers ist stabil**. Wenn sich die Traffic-Zusammensetzung der Benutzer während des Trainings und der Vorhersage der Modelle drastisch ändert, kann sich die Modellleistung verschlechtern. Angenommen, in der Modellschulungsphase sind nur Daten für Benutzer in Segment A verfügbar, aber das trainierte Modell wird verwendet, um Prognosen für Benutzer in Segment B zu generieren. Anschließend kann die Modellleistung beeinträchtigt werden.
+* **Die Angebotsleistung ändert sich in einem kurzen Zeitraum nicht wesentlich** da dieses Modell wöchentlich aktualisiert wird und Leistungsänderungen als Modellaktualisierungen übermittelt werden. Ein Produkt war beispielsweise schon einmal sehr beliebt, aber in einem öffentlichen Bericht wird festgestellt, dass das Produkt für unsere Gesundheit schädlich ist, und dieses Produkt wird extrem schnell unbeliebt. In diesem Szenario kann das Modell dieses Produkt weiter vorhersagen, bis das Modell mit Änderungen im Benutzerverhalten aktualisiert wird.
 
 ## Funktionsweise {#how}
 
-Die automatische Personalisierung lernt komplexe Wechselwirkungen zwischen Angeboten, Informationen über Benutzende und kontextbezogene Informationen, um Endbenutzenden personalisierte Angebote zu empfehlen. Funktionen werden durch Eingaben in das Modell verfügbar.
+Die automatische Personalisierung erfährt komplexe Funktionsinteraktionen zwischen Angeboten, Benutzerinformationen und Kontextinformationen, um Endbenutzern personalisierte Angebote zu empfehlen. Funktionen sind Eingaben in das Modell.
 
 Es gibt drei Arten von Funktionen:
 
 | Funktionstypen | Hinzufügen von Funktionen zu Modellen |
 |--------------|----------------------------|
-| Entscheidungs-Objekte (placementID, activityID, decisionScopeID) | Teil der Feedback-Erlebnisereignisse aus dem Entscheidungs-Management, die an AEP gesendet werden |
-| Segmente | 0–50 Segmente können beim Erstellen des KI-Modells für die Rangfolge als Funktionen hinzugefügt werden |
-| Kontextdaten | Teil der Feedback-Erlebnisereignisse aus dem Decisioning, die an AEP gesendet werden. Verfügbare Kontextdaten zum Hinzufügen zum Schema: Details zu Commerce, Kanal, Anwendung, Web, Umgebung und Gerät sowie placeContext |
+| Entscheidungsobjekte (placementID, activityID, decisionScopeID) | Teil des Feedbacks zur Entscheidungsverwaltung an AEP gesendete Erlebnisereignisse |
+| Segmente | 0-50 Segmente können bei der Erstellung des Ranking AI-Modells als Funktionen hinzugefügt werden |
+| Kontextdaten | Teil des Entscheidungs-Feedbacks Erlebnisereignisse, die an AEP gesendet werden. Verfügbare Kontextdaten zum Hinzufügen zum Schema: Commerce-Details, Kanaldetails, Anwendungsdetails, Web-Details, Umgebungsdetails, Gerätedetails, placeContext |
 
 Das Modell umfasst zwei Phasen:
 
-* In der Phase des **Offline-Modelltrainings** wird ein Modell durch Erlernen und Speichern von in historischen Daten ersichtlichen Merkmalsinteraktionen trainiert.
-* In der Phase der **Online-Schlussfolgerung** werden die Angebote auf der Grundlage der vom Modell in Echtzeit generierten Punktzahlen eingestuft. Im Gegensatz zu herkömmlichen kollaborativen Filtertechniken, bei denen es schwierig ist, Merkmale für Benutzende und Angebote einzubeziehen, ist die automatische Personalisierung eine auf Deep Learning basierende Empfehlungsmethode, die in der Lage ist, komplexe und nichtlineare Interaktionsmuster von Merkmalen einzubeziehen und zu lernen.
+* Im **Offline-Modellschulung** -Phase, wird ein Modell durch Lernen und Einprägen von Funktionsinteraktionen in historischen Daten trainiert.
+* Im **Online-Einsicht** -Phase, werden die Kandidatenangebote basierend auf den vom Modell generierten Echtzeit-Ergebnissen nach Rang geordnet. Im Gegensatz zu herkömmlichen kollaborativen Filtertechniken, die sich nur schwer mit Funktionen für Benutzer und Angebote integrieren lassen, ist die automatische Personalisierung eine lernbasierte Empfehlungsmethode, die komplexe und nicht lineare Interaktionsmuster von Funktionen einschließen und erlernen kann.
 
-Hier ist ein vereinfachtes Beispiel, um die Grundidee der automatischen Personalisierung zu veranschaulichen. Nehmen wir an, wir haben einen Datensatz, in dem historische Interaktionen zwischen Benutzenden und Angeboten gespeichert sind, wie in Abbildung 1 dargestellt. Es gibt:
+Im Folgenden finden Sie ein vereinfachtes Beispiel zur Veranschaulichung der Grundidee der automatischen Personalisierung. Angenommen, wir verfügen über einen Datensatz, der historische Interaktionen zwischen Benutzern und Angeboten speichert, wie in Abbildung 1 dargestellt. Es gibt:
 * Zwei Angebote, offer_1 und offer_2,
 * Zwei Funktionen, Feature_1 und Feature_2,
-* Eine Spalte mit der Reaktion.
+* Eine Antwortspalte.
 
-Der Wert von feature_1, feature_2 und der Reaktion ist entweder 0 oder 1. Wenn wir uns die blauen und orangefarbenen Kästchen in Abbildung 1 ansehen, können wir feststellen, dass bei offer_1 die Reaktionen mit größerer Wahrscheinlichkeit 1 sind, wenn feature_1 und feature_2 die gleichen Werte haben, während bei offer_2 die Werte mit größerer Wahrscheinlichkeit 1 sind, wenn feature_1 0 ist und feature_2 1 ist. Wir können auch sehen, dass im roten Kästchen offer_1 bereitgestellt wird, wenn feature_1 gleich 0 und feature_2 gleich 1 ist, und die Reaktion gleich 0 ist. Ausgehend von dem Muster in den orangefarbenen Kästchen, wo feature_1 gleich 0 und feature_2 gleich 1 ist, ist offer_2 wahrscheinlich eine bessere Empfehlung.
+Der Wert von feature_1, feature_2 und response ist entweder 0 oder 1. Wenn wir uns die blauen Kästchen und orangefarbenen Kästchen in Abbildung 1 ansehen, können wir feststellen, dass die Antworten für offer_1 mit höherer Wahrscheinlichkeit 1 sind, wenn feature_1 und feature_2 dieselben Werte aufweisen, während für offer_2 die Beschriftungen eher 1 lauten, wenn feature_1 0 und feature_2 1 ist. Wir können auch sehen, dass im roten Feld offer_1 bereitgestellt wird, wenn feature_1 den Wert 0 und feature_2 den Wert 1 hat und die Antwort den Wert 0 hat. Basierend auf dem Muster, das wir in orangefarbenen Feldern sehen, ist offer_2 wahrscheinlich eine bessere Empfehlung, wenn feature_1 den Wert 0 und feature_2 den Wert 1 hat.
 
-Im Grunde werden hierbei frühere Merkmalsinteraktionen erlernt und gespeichert und danach angewendet, um personalisierte Vorhersagen zu generieren.
+Im Grunde ist dies die Idee, historische Funktionsinteraktionen zu lernen und zu merken und sie anzuwenden, um personalisierte Prognosen zu generieren.
 
 ![](../assets/perso-ranking-schema.png)
 
-## „Kaltstart“-Problem {#cold-start}
+## Cold-Start-Problem {#cold-start}
 
-Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um eine Empfehlung bereitzustellen. Bei der automatischen Personalisierung gibt es zwei Arten von „Kaltstart“-Problemen.
+Ein Cold-Start-Problem tritt auf, wenn nicht genügend Daten für eine Empfehlung vorhanden sind. Bei der automatischen Personalisierung gibt es zwei Arten von Kaltstart-Problemen.
 
-* **Nachdem eine neue Rangfolgestrategie ohne historische Daten erstellt wurde**, werden die Angebote über einen bestimmten Zeitraum nach dem Zufallsprinzip bereitgestellt, um Daten zu sammeln, die dann zum Trainieren des ersten Modells verwendet werden.
-* **Nach der Freigabe des ersten Modells** werden 10 % des gesamten Traffics für die zufällige Auslieferung von Angeboten verwendet, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote in die Rangfolgestrategie aufgenommen werden, würden sie als Teil der 10 % des Traffics bereitgestellt werden. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.
+* **Erstellen einer neuen Rangstrategie ohne historische Daten**, werden Angebote für einen Zeitraum zufällig zur Datenerfassung bereitgestellt und die Daten werden zur Schulung des ersten Modells verwendet.
+* A **Nachdem das erste Modell veröffentlicht wurde**, werden 10 % des gesamten Traffics für zufällige Dienste zugewiesen, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote zur Rangstrategie hinzugefügt würden, würden sie als Teil des 10 %-Traffics bereitgestellt. Die für diese Angebote erfassten Daten würden bestimmen, wie oft sie unter den 90 % des Traffics ausgewählt werden, da das Modell weiter aktualisiert wird.
 
-## Erneutes Training {#re-training}
+## Umschulung {#re-training}
 
-Die Modelle werden wöchentlich neu trainiert, um die neuesten Interaktionen zwischen den Merkmalen zu erlernen und der Verschlechterung der Modellleistung entgegenzuwirken.
+Modelle werden neu trainiert, um die neuesten Funktionsinteraktionen kennenzulernen und die Leistungsbeeinträchtigung des Modells wöchentlich zu reduzieren.

@@ -1,6 +1,6 @@
 ---
-title: Web-Bericht
-description: Erfahren Sie, wie Sie Daten aus dem Web-Bericht verwenden
+title: Webbericht
+description: Erfahren Sie, wie Sie Daten aus dem Webbericht verwenden
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,39 +10,39 @@ hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
-# Web-Bericht {#web-report}
+# Webbericht {#web-report}
 
-Der Web-Bericht ist im Kampagnenbericht verfügbar.
+Der Webbericht ist im Kampagnenbericht verfügbar.
 
 >[!NOTE]
 >
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+>Die Webkanalfunktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können.
 
-Die Seite „Kampagnenbericht“ wird mit den folgenden Registerkarten angezeigt:
+Die Seite Kampagnenbericht wird mit den folgenden Tabs angezeigt:
 
-* [Campaign](../reports/campaign-global-report.md#campaign-live)
-* [E-Mail](../reports/campaign-global-report.md#email-live)
-* [Push-Benachrichtigung](../reports/campaign-global-report.md#push-live)
+* [Kampagne](../reports/campaign-global-report.md#campaign-live)
+* [Email](../reports/campaign-global-report.md#email-live)
+* [Push](../reports/campaign-global-report.md#push-live)
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
-Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
+Die Kampagne **[!UICONTROL Global report]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf in der Größe angepasst und gelöscht werden. Weitere Informationen hierzu finden Sie in diesem Abschnitt [Abschnitt](../reports/global-report.md#modify-dashboard).
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](../reports/global-report.md#list-of-components-global.md)
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](../reports/global-report.md#list-of-components-global.md)
 
-## Registerkarte „Web“ {#web-tab}
+## Webtab {#web-tab}
 
 ![](assets/web-report.png)
 
-Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen, z. B.:
+Die **[!UICONTROL Web performance]** In KPIs werden die wichtigsten Informationen im Zusammenhang mit der Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen beschrieben, z. B.:
 
-* **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Benutzer, denen das Web-Erlebnis bereitgestellt wurde.
+* **[!UICONTROL Unique impressions]**: Anzahl der Unique Users, denen das Web-Erlebnis bereitgestellt wurde.
 
-* **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
+* **[!UICONTROL Impressions]**: Gesamtzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
 
-Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions und Eindeutige Impressions) für den betroffenen Zeitraum.
+Die **[!UICONTROL Web summary]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen und Unique Impressions) für den betroffenen Zeitraum an.

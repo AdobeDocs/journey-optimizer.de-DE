@@ -8,25 +8,25 @@ level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
 # Tag aktualisieren {#update-tag}
 
-Sie können ein Tag in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
+Sie können ein Tag in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library] API.
 
-Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zum JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON Patch-Dokumentation](http://jsonpatch.com/).
 
-## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
 
-| Header-Name | Wert |
+| Kopfzeilenname | Wert |
 | ----------- | ----- |
-| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Inhaltstyp | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API-Format**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
+| `op` | Der Vorgangsaufruf, mit dem die zum Aktualisieren der Verbindung erforderliche Aktion definiert wird. Zu den Vorgängen gehören: `add`, `replace`und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details des Tags zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Tag-`@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details des Tags zurückgegeben, einschließlich der eindeutigen Instanz-ID und des Tags `@id`.
 
 ```json
 {

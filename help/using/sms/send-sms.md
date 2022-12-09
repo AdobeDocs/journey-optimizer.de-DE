@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 55%
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +19,17 @@ ht-degree: 55%
 
 ## SMS-Vorschau {#preview-sms}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen die Vorschau anzeigen und testen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten prüfen, wie dieser Inhalt in der Nachricht dargestellt wird.
 
-1. Klicken **[!UICONTROL Inhalt simulieren]**.
+1. Klicken **[!UICONTROL Simulate content]**.
 
-1. Klicken **[!UICONTROL Verwalten von Testprofilen]** , um ein Testprofil hinzuzufügen.
+1. Klicken **[!UICONTROL Manage test profiles]** , um ein Testprofil hinzuzufügen.
 
-1. Suchen Sie Ihr Testprofil mit **[!UICONTROL Identitäts-Namespace]** und **[!UICONTROL Identitätswert]** -Felder. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
+1. Suchen Sie Ihr Testprofil mit dem **[!UICONTROL Identity namespace]** und **[!UICONTROL Identity value]** -Felder. Klicken Sie anschließend auf **[!UICONTROL Add profile]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie die **[!UICONTROL Testprofil hinzufügen]** Fenster.
+1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie die **[!UICONTROL Add test profile]** Fenster.
 
    ![](assets/sms_preview_1.png)
 
@@ -38,17 +39,17 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
    ![](assets/sms_preview_2.png)
 
-## Validieren Ihrer SMS{#sms-preview}
+## SMS validieren{#sms-preview}
 
 >[!NOTE]
 >
-> Zur besseren Zustellbarkeit sollte stets die Telefonnummern in den vom Provider unterstützten Formaten verwendet werden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
+> Für eine bessere Zustellbarkeit sollten Sie stets die Telefonnummern in den vom Provider unterstützten Formaten verwenden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
 
-Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einige davon sind einfache Warnhinweise, andere können die Verwendung der Nachricht verhindern. Es können zwei Arten von Warnhinweisen auftreten:
+Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Es können zwei Arten von Warnhinweisen auftreten:
 
-* **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices. Beispielsweise wird eine Nachricht angezeigt, wenn Ihre SMS leer ist.
+* **Warnungen** Siehe Empfehlungen und Best Practices. Beispielsweise wird eine Nachricht angezeigt, wenn Ihre SMS leer ist.
 
-* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange nicht alle Fehler behoben sind. Beispielsweise wird eine Meldung angezeigt, dass die Betreffzeile fehlt.
+* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst wurde. Beispielsweise werden Sie in einer Nachricht darauf hingewiesen, dass die Betreffzeile fehlt.
 
 ![](assets/sms-alert-button.png)
 
@@ -56,7 +57,7 @@ Wenn Ihre SMS fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/
 
 **Verwandte Themen**
 
-* [Konfigurieren des SMS-Kanals](sms-configuration.md)
+* [SMS-Kanal konfigurieren](sms-configuration.md)
 * [SMS-Bericht](../reports/journey-global-report.md#sms-global)
-* [Erstellen einer SMS-Nachricht](create-sms.md)
-* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [SMS erstellen](create-sms.md)
+* [Hinzufügen einer Nachricht in einer Journey](../building-journeys/journeys-message.md)

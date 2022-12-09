@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Zugriffssteuerung auf Objektebene
-description: Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene.
+title: Zugriffskontrolle auf Objektebene
+description: Informationen zur Zugriffskontrolle auf Objektebene
 feature: Access Management
 topic: Administration
 role: Admin
@@ -10,32 +10,32 @@ level: Intermediate
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 0%
 
 ---
 
-# Zugriffssteuerung auf Objektebene {#object-level-access}
+# Zugriffskontrolle auf Objektebene {#object-level-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Zugriffssteuerung auf Objektebene"
->abstract="Wenn Sie Kennzeichnungen anwenden, auf die Sie keinen Zugriff haben, wird Ihr Zugriff auf dieses Objekt widerrufen."
+>title="Zugriffskontrolle auf Objektebene"
+>abstract="Wenn Sie Beschriftungen anwenden, auf die Sie keinen Zugriff haben, wird Ihr Zugriff auf dieses Objekt widerrufen."
 
 >[!IMPORTANT]
 >
->Die Verwendung der Zugriffssteuerung auf Objektebene ist derzeit auf ausgewählte Kundinnen und Kunden beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.
+>Die Zugriffskontrolle auf Objektebene ist derzeit auf ausgewählte Kunden beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.
 
-Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
+Mit der Zugriffskontrolle auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten definieren:
 
 * Journey
-* Campaign
+* Kampagne
 * Landingpage
 * Angebote
-* Angebotssammlung
-* Offer Decisioning
+* Angebotskollektion
+* Angebotsentscheidungen
 
-Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
+Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Nutzern, die einen weiteren Schutz personenbezogener Daten ermöglichen.
 
 In Adobe Journey Optimizer können Sie mit OLAC Daten schützen und spezifischen Zugriff auf bestimmte Objekte gewähren.
 
@@ -43,54 +43,54 @@ In Adobe Journey Optimizer können Sie mit OLAC Daten schützen und spezifischen
 
 >[!IMPORTANT]
 >
->Um Bezeichnungen erstellen zu können, müssen Sie Teil einer Rolle mit der Berechtigung **[!UICONTROL Verwalten von Nutzungsbezeichnungen]** sein.
+>Um Beschriftungen erstellen zu können, müssen Sie Teil einer Rolle mit der **[!UICONTROL Manage usage labels]** Berechtigung.
 
-Mit **[!UICONTROL Bezeichnungen]** können Sie Datensätze und Felder entsprechend den für diese Daten geltenden Nutzungsrichtlinien kategorisieren. **[!UICONTROL Beschriftungen]** können jederzeit angewendet werden, was eine flexible Handhabung der Daten ermöglicht.
+**[!UICONTROL Labels]** ermöglichen es Ihnen, Datensätze und Felder entsprechend den für diese Daten geltenden Nutzungsrichtlinien zu kategorisieren. **[!UICONTROL Labels]** kann jederzeit angewendet werden, was Ihnen eine flexible Handhabung der Daten ermöglicht.
 
-Sie können Bezeichnungen im Produkt [!DNL Permissions] erstellen. Weitere Informationen hierzu finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html?lang=de).
+Sie können Beschriftungen im [!DNL Permissions] Produkt. Weitere Informationen hierzu finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
-**[!UICONTROL Bezeichnungen]** können auch direkt in Journey Optimizer erstellt werden:
+**[!UICONTROL Labels]** kann auch direkt in Journey Optimizer erstellt werden:
 
-1. Klicken Sie in einem Objekt in Adobe Journey Optimizer auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**, wie hier an einer neu erstellten **[!UICONTROL Kampagne]** gezeigt.
+1. Von einem Adobe Journey Optimizer-Objekt aus erstellen Sie hier ein neu erstelltes **[!UICONTROL Campaign]**, klicken Sie auf die **[!UICONTROL Manage access]** Schaltfläche.
 
    ![](assets/olac_1.png)
 
-1. Klicken Sie im Fenster **[!UICONTROL Zugriff verwalten]** auf **[!UICONTROL Bezeichnung erstellen]**.
+1. Aus dem **[!UICONTROL Manage access]** Fenster, klicken Sie auf **[!UICONTROL Create label]**.
 
    ![](assets/olac_2.png)
 
-1. Konfigurieren Sie die Bezeichnung. Geben Sie dazu Folgendes an:
+1. Konfigurieren Sie den Titel. Geben Sie dazu Folgendes an:
    * **[!UICONTROL Name]**
-   * **[!UICONTROL Anzeigename]**
-   * **[!UICONTROL Beschreibung]**
+   * **[!UICONTROL Friendly name]**
+   * **[!UICONTROL Description]**
 
    ![](assets/olac_3.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**, um Ihre **[!UICONTROL Bezeichnung]** zu speichern.
+1. Klicken **[!UICONTROL Create]** speichern Sie Ihre **[!UICONTROL Label]**.
 
-Ihre neu erstellte **[!UICONTROL Bezeichnung]** ist jetzt in der Liste verfügbar. Bei Bedarf können Sie sie im Produkt [!DNL Permissions] ändern.
+Ihre neu erstellten **[!UICONTROL Label]** ist jetzt in der Liste verfügbar. Bei Bedarf können Sie die Änderungen im [!DNL Permissions] Produkt.
 
 ## Zuweisen von Bezeichnungen {#assign-labels}
 
 >[!IMPORTANT]
 >
->Um Bezeichnungen zuweisen zu können, müssen Sie Teil einer Rolle mit der Berechtigung „Verwalten“ sein, d. h. [!DNL Manage journeys], [!DNL Manage Campaigns] oder [!DNL Manage decisions]. Ohne diese Berechtigung wird die Schaltfläche **[!UICONTROL Zugriff verwalten]** ausgegraut.
+>Um Beschriftungen zuweisen zu können, müssen Sie Teil einer Rolle mit der Berechtigung &quot;Verwalten&quot;sein, d. h. [!DNL Manage journeys], [!DNL Manage Campaigns] oder [!DNL Manage decisions]. Ohne diese Erlaubnis wird die **[!UICONTROL Manage access]** wird ausgegraut.
 
-So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Core-Bezeichnungen für die Datennutzung zu:
+So weisen Sie Ihren Journey Optimizer-Objekten benutzerdefinierte oder Core-Datennutzungsbezeichnungen zu:
 
-1. Klicken Sie in einem Objekt in Adobe Journey Optimizer auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**, wie hier an einer neu erstellten **[!UICONTROL Kampagne]** gezeigt.
+1. Von einem Adobe Journey Optimizer-Objekt aus erstellen Sie hier ein neu erstelltes **[!UICONTROL Campaign]**, klicken Sie auf die **[!UICONTROL Manage access]** Schaltfläche.
 
    ![](assets/olac_1.png)
 
-1. Wählen Sie im Fenster **[!UICONTROL Zugriff verwalten]** Ihre benutzerdefinierte(n) oder Core-Bezeichnungen(en) für die Datennutzung aus, um den Zugriff auf dieses Objekt zu verwalten.
+1. Aus dem **[!UICONTROL Manage access]** Wählen Sie Ihre benutzerdefinierten oder Core-Datennutzungsbezeichnungen aus, um den Zugriff auf dieses Objekt zu verwalten.
 
-   Weitere Informationen zu Core-Bezeichnungen für die Nutzungsdaten finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de).
+   Weitere Informationen zu den Nutzungsbezeichnungen der Kerndaten finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
    ![](assets/olac_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um diese Beschränkung für die Bezeichnung anzuwenden.
+1. Klicken **[!UICONTROL Save]** um diese Beschriftungsbeschränkung anzuwenden.
 
-Um Zugriff auf dieses Objekt zu erhalten, muss die spezifische **[!UICONTROL Bezeichnung]** in den **[!UICONTROL Rollen]** der Benutzenden enthalten sein.
-Beispiel: Eine Benutzerin mit der Bezeichnung C1 hat nur Zugriff auf Objekte mit der Bezeichnung C1 oder ohne Bezeichnung.
+Um Zugriff auf dieses Objekt zu erhalten, müssen Benutzer über die spezifische **[!UICONTROL Label]** in ihre **[!UICONTROL Roles]**.
+Beispiel: Ein Benutzer mit der Beschriftung C1 hat nur Zugriff auf C1-beschriftete oder unbeschriftete Objekte.
 
-Weitere Informationen zur Zuweisung von **[!UICONTROL Bezeichnungen]** zu **[!UICONTROL Rollen]** finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=de#manage-labels-for-a-role).
+Weitere Informationen zur Zuweisung von **[!UICONTROL Label]** zu **[!UICONTROL Role]**, siehe [diese Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=en#manage-labels-for-a-role).

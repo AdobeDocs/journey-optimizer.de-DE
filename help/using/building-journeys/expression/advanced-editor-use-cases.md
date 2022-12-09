@@ -9,47 +9,47 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 0%
 
 ---
 
 # Beispiele für erweiterte Ausdrücke{#advanced-expression-examples}
 
-Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zum Filtern von Benutzern in Ihren Journeys zu erstellen. Mit diesen Bedingungen können Sie Benutzer nach Uhrzeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Warenkorbabbruch ansprechen, damit diese in der Journey erneut angesprochen werden können.
+Der erweiterte Ausdruckseditor kann verwendet werden, um Bedingungen zu erstellen, mit denen Sie Benutzer in Ihren Journeys filtern können. Mit diesen Bedingungen können Sie Benutzer auf Zeit, Datum, Ort, Dauer oder Aktionen wie Kauf oder Abbruch von Warenkörben ausrichten, damit sie in der Journey erneut angesprochen werden können.
 
 >[!NOTE]
 >
 >Ereignisse beginnen mit @, Datenquellen mit #.
 
-## Erstellen von Bedingungen anhand von Erlebnisereignissen
+## Erstellen von Bedingungen für Erlebnisereignisse
 
-Sie benötigen den erweiterten Ausdruckseditor, um Abfragen zu Zeitreihen wie eine Liste der Käufe oder vergangene Klicks auf Nachrichten durchzuführen. Solche Abfragen können nicht mit dem einfachen Editor ausgeführt werden.
+Der erweiterte Ausdruckseditor ist für Abfragen zu Zeitreihen wie einer Liste von Käufen oder früheren Klicks auf Nachrichten obligatorisch. Solche Abfragen können nicht mit dem einfachen Editor durchgeführt werden.
 
 Die Erlebnisereignisse werden von Adobe Experience Platform als Sammlung in umgekehrter chronologischer Reihenfolge abgerufen. Entsprechend gilt:
 
-* Die Funktion „first“ gibt das neueste Ereignis zurück.
-* Die Funktion „last“ gibt das älteste zurück.
+* Die Funktion first gibt das neueste Ereignis zurück
+* Die Funktion last gibt die älteste zurück.
 
-Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen. Dazu möchten Sie diesen Kunden, wenn sie sich in der Nähe eines Geschäfts befinden, eine Nachricht mit einem Angebot für Artikel in diesem Geschäft senden, an denen die Kunden interessiert waren.
+Angenommen, Sie möchten Kunden mit einem Warenkorbabbruch in den letzten sieben Tagen ansprechen, um eine Nachricht zu senden, wenn sich der Kunde in der Nähe eines Stores befindet, mit einem Angebot zu Artikeln, die er wünschte und die im Geschäft sind.
 
-**Erstellen Sie dazu die folgenden Bedingungen:**
+**Sie müssen die folgenden Bedingungen erstellen:**
 
-Sprechen Sie in erster Linie Kunden an, die den Online-Store besucht, aber in den letzten sieben Tagen keine Bestellung abgeschlossen haben.
+Wählen Sie zunächst Kunden aus, die den Online-Store besucht, aber in den letzten sieben Tagen keine Bestellung abgeschlossen haben.
 
 <!--**This expression looks for a specified value in a string value:**
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen spezifiziert wurden:**
+**Dieser Ausdruck sucht nach allen Ereignissen für diesen Benutzer, die in den letzten sieben Tagen angegeben wurden:**
 
-Anschließend werden alle Ereignisse vom Typ addtocart ausgewählt, die nicht in completePurchase umgewandelt wurden.
+Anschließend werden alle addtocart-Ereignisse ausgewählt, die nicht in completePurchase umgewandelt wurden.
 
 >[!NOTE]
 >
->Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Panel des Editors.
+>Um Felder schnell in den Ausdruck einzufügen, doppelklicken Sie auf das Feld im linken Bereich des Editors.
 
-Der angegebene Zeitstempel dient als der Datums-/Uhrzeitwert, der zweite bezeichnet die Anzahl der Tage.
+Der angegebene Zeitstempel dient als Datums- und Uhrzeitwert, der zweite als Anzahl von Tagen.
 
 ```json
         in( "addToCart", #{ExperiencePlatformDataSource
@@ -71,17 +71,17 @@ Der angegebene Zeitstempel dient als der Datums-/Uhrzeitwert, der zweite bezeich
 
 Dieser Ausdruck gibt einen booleschen Wert zurück.
 
-**Erstellen Sie nun einen Ausdruck, der überprüft, ob das Produkt vorrätig ist**
+**Erstellen wir nun einen Ausdruck, der überprüft, ob das Produkt vorrätig ist.**
 
-* Dieser Ausdruck such im Inventar nach dem Mengenfeld eines Produkts mit der Angabe, dass es größer als 0 sein soll.
+* Im Bestand sucht dieser Ausdruck nach dem Mengenfeld eines Produkts und gibt an, dass es größer als 0 sein soll.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Ort des Geschäfts abrufen, der der Position des Ereignisses „ArriveLumaStudio“ zugeordnet ist:
+* Rechts werden die erforderlichen Werte angegeben. Hier müssen wir den Speicherort des Stores abrufen, der vom Speicherort des Ereignisses &quot;ArriveLumaStudio&quot;zugeordnet ist:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* Geben Sie die SKU unter Verwendung der `first`-Funktion an, um die jüngste „addToCart“ -Interaktion abzurufen:
+* Geben Sie die SKU mithilfe der Funktion an. `first` , um die neueste &quot;addToCart&quot;-Interaktion abzurufen:
 
    ```json
        #{ExperiencePlatformDataSource
@@ -95,13 +95,13 @@ Dieser Ausdruck gibt einen booleschen Wert zurück.
                        .SKU}
    ```
 
-Von dort können Sie einen weiteren Pfad zu Ihrer Journey hinzufügen, wenn das Produkt nicht im Store ist, und eine Benachrichtigung mit einem Interaktionsangebot senden. Konfigurieren Sie die Nachrichten entsprechend und verwenden Sie Personalisierungsdaten, um die Nachricht zu verbessern.
+Von dort können Sie einen weiteren Pfad in Ihrer Journey hinzufügen, wenn das Produkt nicht im Speicher ist, und eine Benachrichtigung mit einem Interaktionsangebot senden. Konfigurieren Sie die Nachrichten entsprechend und verwenden Sie Personalisierungsdaten, um die Nachrichtenzielgruppe zu verbessern.
 
 ## Beispiele für Zeichenfolgenmanipulationen mit dem erweiterten Ausdruckseditor
 
 **In Bedingungen**
 
-Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot; ausgelöst wurden:
+Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot;ausgelöst wurden:
 
 ```json
         @{GeofenceEntry
@@ -111,9 +111,9 @@ Diese Bedingung ruft nur die Geofence-Ereignisse ab, die in &quot;Arlington&quot
                     .name} == "Arlington"
 ```
 
-Erklärung: Dies ist ein strikter Zeichenfolgenvergleich (Groß-/Kleinschreibung beachten), der einer Abfrage im einfachen Modus entspricht, die `equal to` mit der aktivierten Option `Is sensitive` verwendet.
+Erklärung: Dies ist ein strikter Zeichenfolgenvergleich (Groß-/Kleinschreibung beachten), der einer Abfrage im einfachen Modus entspricht, die `equal to` mit `Is sensitive` aktiviert.
 
-Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den folgenden Ausdruck im erweiterten Modus:
+Dieselbe Abfrage mit `Is sensitive` deaktiviert wird den folgenden Ausdruck im erweiterten Modus generieren:
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -125,7 +125,7 @@ Die gleiche Abfrage mit der deaktivierten Option `Is sensitive` generiert den fo
 
 **In Aktionen**
 
-Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld zur Aktionspersonalisierung definieren:
+Mit dem folgenden Ausdruck können Sie die CRM-ID in einem Feld für die Aktionspersonalisierung definieren:
 
 ```json
 substr(
@@ -144,6 +144,6 @@ substr(
 )
 ```
 
-Erläuterung: In diesem Beispiel werden die `substr`- und `lastIndexOf`-Funktionen verwendet, um geschweifte Klammern zu entfernen, die die CRM-ID einschließen, die bei einem App-Startereignis übergeben wurde.
+Erklärung: Dieses Beispiel verwendet `substr` und `lastIndexOf` Funktionen zum Entfernen von geschweiften Klammern, die die mit einem App-Startereignis übergebene CRM-ID umschließen.
 
-Weitere Informationen zur Verwendung des erweiterten Ausdruckseditors finden Sie in [diesem Video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=de).
+Weitere Informationen zur Verwendung des erweiterten Ausdruckseditors finden Sie unter [dieses Video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

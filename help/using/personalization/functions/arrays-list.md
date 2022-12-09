@@ -1,6 +1,6 @@
 ---
-title: Bibliothek mit Array-Funktionen
-description: Bibliothek mit Array-Funktionen
+title: Bibliothek mit Arrays-Funktionen
+description: Bibliothek mit Arrays-Funktionen
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,18 +8,18 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 0%
 
 ---
 
-# Array- und Listenfunktionen {#arrays}
+# Arrays und Listenfunktionen {#arrays}
 
 Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeichenfolgen zu vereinfachen.
 
-## Nur Null zählen {#count-only-null}
+## Nur null zählen {#count-only-null}
 
-Die Funktion `countOnlyNull` wird verwendet, um die Anzahl der Nullwerte in einer Liste zu zählen.
+Die `countOnlyNull` -Funktion verwendet wird, um die Anzahl der Nullwerte in einer Liste zu zählen.
 
 **Format**
 
@@ -35,9 +35,9 @@ Die Funktion `countOnlyNull` wird verwendet, um die Anzahl der Nullwerte in eine
 
 Gibt 3 zurück.
 
-## Mit Null zählen {#count-with-null}
+## Zählung mit Null {#count-with-null}
 
-Die Funktion `countWithNull` wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
+Die `countWithNull` -Funktion wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
 
 **Format**
 
@@ -53,9 +53,9 @@ Die Funktion `countWithNull` wird verwendet, um alle Elemente einer Liste einsch
 
 Gibt 6 zurück.
 
-## Eindeutig{#distinct}
+## Unterschiedlich{#distinct}
 
-Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste abzurufen, aus denen doppelte Werte entfernt wurden.
+Die `distinct` -Funktion verwendet, um Werte aus einem Array oder einer Liste mit entfernten doppelten Werten abzurufen.
 
 **Format**
 
@@ -65,15 +65,15 @@ Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer List
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
+Der folgende Vorgang gibt Personen an, die Bestellungen in mehr als einem Store aufgegeben haben.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Unterschiedliche Zählung mit Null {#distinct-count-with-null}
+## Zählung unterschiedlicher Werte mit Null {#distinct-count-with-null}
 
-Die Funktion `distinctCountWithNull` wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
+Die `distinctCountWithNull` -Funktion wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
 
 **Format**
 
@@ -91,7 +91,7 @@ Gibt 3 zurück.
 
 ## Erstes Element{#head}
 
-Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurückgegeben.
+Die `head` -Funktion wird verwendet, um das erste Element in einem Array oder einer Liste zurückzugeben.
 
 **Format**
 
@@ -101,7 +101,7 @@ Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurüc
 
 **Beispiel**
 
-Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben. Weiterführende Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` in Array](#first-n).
+Der folgende Vorgang gibt die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurück. Weitere Informationen zu `topN` -Funktion finden Sie im Abschnitt [first `n` in Array](#first-n) Abschnitt.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -109,7 +109,7 @@ Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit 
 
 ## Erste `n` in Array {#first-n}
 
-Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
+Die `topN` -Funktion wird verwendet, um die erste `N` Elemente in einem Array, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
 
 **Format**
 
@@ -121,19 +121,19 @@ Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn si
 | --------- | ----------- |
 | `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die Eigenschaft, in der das Array oder die Liste sortiert werden soll. |
-| `{AMOUNT}` | Die Zahl der zurückzugebenden Elemente. |
+| `{AMOUNT}` | Die Anzahl der zurückzugebenden Elemente. |
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben.
+Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem höchsten Preis zurück.
 
 ```sql
 {%= topN(orders,price, 5) %}
 ```
 
-## Enthalten{#in}
+## In{#in}
 
-Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört.
+Die `in` -Funktion wird verwendet, um zu bestimmen, ob ein Element einem Array oder einer Liste angehört.
 
 **Format**
 
@@ -143,15 +143,15 @@ Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder September Geburtstag haben.
+Der folgende Vorgang definiert Personen, die im März, Juni oder September Geburtstag haben.
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
 ```
 
-## Umfasst{#includes}
+## Enthält{#includes}
 
-Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
+Die `includes` -Funktion wird verwendet, um zu bestimmen, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
 **Format**
 
@@ -161,7 +161,7 @@ Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein best
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Rot gehört.
+Die folgende Operation definiert Personen, deren Lieblingsfarbe Rot enthält.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
@@ -169,7 +169,7 @@ Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Ro
 
 ## Schnittmengen{#intersects}
 
-Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
+Die `intersects` -Funktion wird verwendet, um zu bestimmen, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
 
 **Format**
 
@@ -179,7 +179,7 @@ Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindeste
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben mindestens eine der folgenden Farben beinhalten: Rot, Blau oder Grün.
+Der folgende Vorgang definiert Personen, deren Lieblingsfarben mindestens eine der Farben Rot, Blau oder Grün enthalten.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -207,7 +207,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## Letzte `n` in Array{#last-n}
 
-Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
+Die `bottomN` -Funktion wird verwendet, um die letzte `N` Elemente in einem Array, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
 
 **Format**
 
@@ -219,11 +219,11 @@ Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wen
 | --------- | ----------- | 
 | `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die Eigenschaft, in der das Array oder die Liste sortiert werden soll. |
-| `{AMOUNT}` | Die Zahl der zurückzugebenden Elemente. |
+| `{AMOUNT}` | Die Anzahl der zurückzugebenden Elemente. |
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurückgegeben.
+Der folgende Vorgang gibt die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurück.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
@@ -231,11 +231,11 @@ Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem nied
 
 ## Nicht enthalten{#notin}
 
-Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste nicht angehört.
+Die `notIn` -Funktion wird verwendet, um zu bestimmen, ob ein Element nicht Mitglied eines Arrays oder einer Liste ist.
 
 >[!NOTE]
 >
-> Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
+>Die `notIn` function *auch* stellt sicher, dass keiner der Werte null ist. Daher stellen die Ergebnisse keine exakte Negation der `in` -Funktion.
 
 **Format**
 
@@ -245,16 +245,16 @@ Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Li
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die nicht im März, Juni oder September Geburtstag haben.
+Der folgende Vorgang definiert Personen, die nicht im März, Juni oder September Geburtstag haben.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
 ```
 
 
-## Teilmenge von{#subset}
+## Untergruppe von{#subset}
 
-Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob alle Elemente in Array A Elemente von Array B sind.
+Die `subsetOf` -Funktion wird verwendet, um zu bestimmen, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Anders ausgedrückt: Alle Elemente in Array A sind Elemente des Arrays B.
 
 **Format**
 
@@ -264,15 +264,15 @@ Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) ein
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsstädte besucht haben.
+Im Folgenden werden Personen beschrieben, die alle ihrer Lieblingsstädte besucht haben.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Übergeordnete Gruppe von{#superset}
+## Obermenge{#superset}
 
-Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
+Die `supersetOf` -Funktion wird verwendet, um zu bestimmen, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten, dieses Array A enthält alle Elemente in Array B.
 
 **Format**
 
@@ -282,7 +282,7 @@ Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) e
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die mindestens einmal Sushi und mindestens einmal Pizza gegessen haben.
+Die folgende Operation definiert Personen, die mindestens einmal Sushi und Pizza gegessen haben.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}

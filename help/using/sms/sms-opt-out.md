@@ -1,45 +1,46 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-Opt-out-Verwaltung
+title: SMS-Abmeldeverwaltung
 description: Erfahren Sie, wie Sie das Opt-out mit SMS verwalten
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 96%
+ht-degree: 0%
 
 ---
 
-# SMS-Opt-out-Verwaltung {#sms-opt-out}
+# SMS-Abmeldeverwaltung {#sms-opt-out}
 
-In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
+In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit für die Empfänger enthalten, sich einfach abzumelden. [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 
-Standardmäßig verarbeitet Adobe Journey Optimizer englischsprachige Standard-Antwortnachrichten wie STOP, UNSTOP und START für Nachrichten von gebührenfreien und von normalen Nummern in Übereinstimmung mit den Industriestandards für native Integration wie Sinch und Twilio. Diese Keywords lösen normalerweise eine automatische Standardantwort von Ihrem Dritt-Provider (wie beispielsweise Twilio, Sinch, etc.) aus. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
+Adobe Journey Optimizer verarbeitet standardmäßig englischsprachige Antwortnachrichten wie STOP, UNSTOP und START für gebührenfreie und lange Code-Nachrichten gemäß Industriestandards für die native Integration wie Sinch und Twilio. Diese Suchbegriffe lösen in der Regel eine automatische Standardantwort von Ihrem Drittanbieter aus (z. B. Twilio, Sinch usw.). Sie können dies direkt bei Ihrem Anbieter oder über dessen Dokumentations-Website bestätigen.
 
-Es sind keine Schritte erforderlich, um sicherzustellen, dass SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP und START automatisch erkannt werden.
+Es sind keine Schritte erforderlich, um sicherzustellen, dass die Funktionen zum Abmelden von SMS in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP und START automatisch erkannt werden.
 
-Zusätzlich zum Abbrechen des Versands durch Adobe Journey Optimizer basierend auf dem Opt-out-Status (für direkte Integrationen mit Twilio oder Sinch) verfügen die meisten Provider von SMS-Gateways auch über eine Blockierungsliste, mit der sichergestellt wird, dass eine SMS-Nachricht nicht an einen Kontakt gesendet wird, der sich für einen Opt-out entschieden hat. Wenn Sie einen anderen Provider als Sinch oder Twilio verwenden und eine SMS über einen [benutzerdefinierten Kanal](../building-journeys/using-custom-actions.md) versenden, müssen Sie dies mit Ihrem Provider abklären.
+Zusätzlich zum Abbrechen des Versands durch Adobe Journey Optimizer basierend auf dem Opt-out-Status (für direkte Integrationen mit Twilio oder Sinch) führen die meisten SMS-Gateway-Anbieter auch eine Blockierungsliste auf, um sicherzustellen, dass eine SMS-Nachricht nicht an eine Person gesendet wird, die sich für eine Abmeldung entschieden hat. Wenn Sie einen anderen Anbieter als Sinch oder Twilio verwenden und eine SMS per senden [benutzerspezifischer Kanal](../building-journeys/using-custom-actions.md)müssen Sie dies mit Ihrem Provider bestätigen.
 
 >[!IMPORTANT]
 >
->SMS-Kampagnen können je nach Art Ihrer SMS-Kampagne, dem Standort, von dem aus Sie Ihre SMS versenden, und dem Standort Ihrer Empfänger unterschiedliche rechtlichen Anforderungen unterliegen. <br>Auch wenn Adobe Journey Optimizer die Nachrichten an lange und gebührenfreie Nummern wie oben beschrieben verarbeitet, sollten Sie sich an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre SMS-Kampagne alle geltenden gesetzlichen Bestimmungen erfüllt.
+>Für Textnachrichten-Kampagnen können je nach Art Ihrer Textnachrichten-Kampagne, Ort des Versands Ihrer Textnachrichten und Ort der Empfänger verschiedene gesetzliche Anforderungen gelten. <br>Obwohl Adobe Journey Optimizer die Nachrichten wie oben beschrieben auf langen Codes und gebührenfreien Nummern verarbeitet, sollten Sie sich an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten-Kampagne allen geltenden gesetzlichen Compliance-Anforderungen entspricht.
 
 ## Kurzwahlnummern {#short-codes}
 
-Adobe Journey Optimizer verarbeitet standardmäßig keine Opt-Out-, Opt-In- oder Hilfe-Keywords für Kurzwahlnummern.
+Adobe Journey Optimizer verarbeitet standardmäßig keine Opt-out-, Opt-in- oder Hilfe-Suchbegriffe für Kurzwahlnummern.
 
-Sie müssen sicherstellen, dass Ihre Kurzwahlnummer allen Branchenregeln und -vorschriften für die Handhabung von Opt-outs gerecht wird.
+Sie müssen sicherstellen, dass Ihre Kurzwahlnummer allen Branchenregeln und -vorschriften für den Opt-out-Umgang entspricht.
 
-## Alphanumerische Sender ID {#alphanumeric}
+## Alphanumerische Sender-ID {#alphanumeric}
 
-Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und können keine eingehenden Nachrichten empfangen. Daher sind die SMS-Keywords STOP, START, HELP von Adobe Journey Optimizer für alphanumerische Sender IDs nicht anwendbar. Sie müssen andere Anweisungen geben, wie z. B. an das Support-Team zu schreiben, eine Support-Telefonnummer anzurufen oder eine andere Telefonnummer oder einen Code per SMS zu senden, damit die Benutzenden sich von den über die alphanumerische Sender ID gesendeten Nachrichten abmelden können.
+Alphanumerische Sender-IDs dienen nur für einmalige Nachrichten und können keine eingehenden Nachrichten empfangen. Daher sind die SMS STOP-, START- und HELP-Schlüsselwörter von Adobe Journey Optimizer nicht für Alpha Sender IDs anwendbar. Sie müssen weitere Anweisungen geben, z. B. Schreiben an das Supportteam, Anrufen einer Telefonleitung beim Support oder SMS an eine andere Telefonnummer oder einen anderen Code, damit sich Benutzer von Nachrichten abmelden können, die über die alphanumerische Sender-ID gesendet werden.
 
 ## Video {#video-sms}
 
-Weiterführende Informationen über die Unterstützung nativer eingehender Keywords (START, STOP und UNSTOP) für SMS finden Sie in dem folgenden Video:
+Weiterführende Informationen zur Unterstützung von nativen eingehenden Keywords (START, STOP und UNSTOP) für SMS finden Sie im folgenden Video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

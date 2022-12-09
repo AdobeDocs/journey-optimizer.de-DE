@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Bedingungsaktivität
-description: Erfahren Sie mehr über Bedingungsaktivitäten
+description: Erfahren Sie mehr über die Bedingungsaktivität
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 100%
+source-wordcount: '1396'
+ht-degree: 0%
 
 ---
 
@@ -20,123 +20,123 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Bedingungsaktivität"
->abstract="Mit dieser Aktivität können Sie festlegen, wie sich ein Kontakt in der Journey weiterbewegen soll. Basierend auf verschiedenen Kriterien werden mehrere Pfade erstellt. Für den Fall einer Zeitüberschreitung oder eines Fehlers können Sie auch einen alternativen Pfad erstellen."
+>abstract="Mit dieser Aktivität können Sie festlegen, wie der Kontakt in die Journey eintreten wird. Verschiedene Pfade werden basierend auf verschiedenen Kriterien erstellt. Sie können auch einen alternativen Pfad für den Fall einer Zeitüberschreitung oder eines Fehlers erstellen."
 
-Die folgenden Bedingungstypen stehen zur Verfügung:
+Diese Bedingungstypen sind verfügbar:
 
 * [Bedingung der Datenquelle](#data_source_condition)
-* [Bedingung für die Uhrzeit](#time_condition)
+* [Zeitbedingung](#time_condition)
 * [Prozentuale Aufspaltung](#percentage_split)
-* [Bedingung für das Datum](#date_condition)
+* [Datumsbedingung](#date_condition)
 * [Profilbegrenzung](#profile_cap)
 
 ![](assets/journey49.png)
 
-## Informationen zu Bedingungsaktivitäten {#about_condition}
+## Über die Bedingungsaktivität {#about_condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Informationen zum einfachen Ausdruckseditor"
->abstract="Im einfachen Ausdruckseditor können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus."
+>title="Über den einfachen Ausdruckseditor"
+>abstract="Im einfachen Ausdruckseditor-Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Bildschirmseite angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verbinden Sie sie miteinander, um verschiedene Gruppen und/oder Gruppenebenen zu erstellen. Sie können dann einen logischen Operator auswählen, um Elemente auf derselben Ebene zu kombinieren."
 
-Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Titel definieren, um sie leichter zu identifizieren.
+Wenn Sie mehrere Bedingungen in einer Journey verwenden, können Sie für jede dieser Bedingungen Bezeichnungen definieren, um sie leichter zu identifizieren.
 
-Klicken Sie auf **[!UICONTROL Pfad hinzufügen]**, wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
+Klicken **[!UICONTROL Add a path]** , wenn Sie mehrere Bedingungen definieren möchten. Für jede Bedingung wird der Arbeitsfläche nach der Aktivität ein neuer Pfad hinzugefügt.
 
 ![](assets/journey47.png)
 
-Beachten Sie, dass die Gestaltung der Journeys funktionelle Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert werden, wird nur der erste infrage kommende Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden ändern können, indem Sie sie über- oder untereinander platzieren.
+Beachten Sie, dass die Gestaltung von Journeys funktionale Auswirkungen hat. Wenn mehrere Pfade nach einer Bedingung definiert sind, wird nur der erste geeignete Pfad ausgeführt. Das bedeutet, dass Sie die Priorisierung von Pfaden variieren können, indem Sie sie über- oder untereinander platzieren.
 
-Nehmen wir beispielsweise die Bedingung eines ersten Pfads „Die Person ist eine VIP“ und die Bedingung eines zweiten Pfads „Die Person ist ein Mann“. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn die Person ebenfalls für den zweiten Pfad infrage kommt, da der erste Pfad „über“ dem zweiten steht. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
+Nehmen wir beispielsweise die Bedingung eines ersten Pfads &quot;Die Person ist ein VIP&quot;und die Bedingung eines zweiten Pfads &quot;Die Person ist ein Mann&quot;. Wenn eine Person, die beide Bedingungen erfüllt (ein männlicher VIP) diesen Schritt durchläuft, wird der erste Pfad ausgewählt, auch wenn diese Person ebenfalls für den zweiten Pfad qualifiziert ist, da der erste Pfad &quot;über&quot;lautet. Um diese Priorität zu ändern, verschieben Sie Ihre Aktivitäten in eine andere vertikale Reihenfolge.
 
 ![](assets/journey48.png)
 
-Sie können einen anderen Pfad für Audiences erstellen, für die die definierten Bedingungen nicht gelten, indem Sie die Option **[!UICONTROL Pfad für andere Fälle als die obigen zeigen]** aktivieren. Beachten Sie, dass diese Option in Bedingungen für die Aufspaltung nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
+Sie können einen anderen Pfad für Zielgruppen erstellen, die nicht für die definierten Bedingungen infrage kommen, indem Sie die Option **[!UICONTROL Show path for other cases than the one(s) above]**. Beachten Sie, dass diese Option in Aufspaltungsbedingungen nicht verfügbar ist. Siehe [Prozentuale Aufspaltung](#percentage_split).
 
-Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Feldern durchführen. Alle verfügbaren Felder werden auf der linken Seite des Bildschirms angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verschachteln Sie diese, um Gruppen und/oder Gruppenebenen zu erstellen. Definieren Sie dann einen logischen Operator zwischen Elementen desselben Niveaus:
+Der einfache Modus ermöglicht die Durchführung einfacher Abfragen anhand einer Kombination von Feldern. Alle verfügbaren Felder werden auf der linken Bildschirmseite angezeigt. Ziehen Sie Felder per Drag-and-Drop in den Hauptbereich. Um die verschiedenen Elemente zu kombinieren, verbinden Sie sie miteinander, um verschiedene Gruppen und/oder Gruppenebenen zu erstellen. Sie können dann einen logischen Operator auswählen, um Elemente auf derselben Ebene zu kombinieren:
 
-* UND bildet die Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
-* ODER bildet die Vereinigungsmenge aus zwei Kriterien. Elemente, die wenigstens einem der Kriterien entsprechen, werden berücksichtigt.
+* UND: Schnittmenge aus zwei Kriterien. Nur Elemente, die allen Kriterien entsprechen, werden berücksichtigt.
+* ODER: Vereinigung von zwei Kriterien. Elemente, die mindestens einem der beiden Kriterien entsprechen, werden berücksichtigt.
 
 ![](assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target=&quot;_blank&quot;} verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie die [Segmentierungsdienst für Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} verwenden, um Ihre Segmente zu erstellen, können Sie sie in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden von Segmenten in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
->Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. zu einer Liste der Käufe oder vergangenen Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Weitere Informationen finden Sie auf [dieser Seite](expression/expressionadvanced.md).
+>Mit dem einfachen Editor können Sie keine Abfragen zu Zeitreihen (z. B. eine Liste von Käufen, vergangene Klicks auf Nachrichten) durchführen. Dazu müssen Sie den erweiterten Editor verwenden. Siehe [diese Seite](expression/expressionadvanced.md).
 
-Wenn in einer Aktion oder einer Bedingung ein Fehler auftritt, wird die Journey der Person gestoppt. Die einzige Möglichkeit zum Fortsetzen des Vorgangs besteht darin, das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** zu aktivieren. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
+Wenn in einer Aktion oder Bedingung ein Fehler auftritt, stoppt die Journey eines Kontakts. Die einzige Möglichkeit, den Vorgang fortzusetzen, besteht darin, das Kontrollkästchen zu aktivieren **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Siehe [diesem Abschnitt](../building-journeys/using-the-journey-designer.md#paths).
 
-Im einfachen Editor finden Sie auch die Kategorie „Journey-Eigenschaften“ unter den Kategorien „Ereignis“ und „Datenquelle“. Diese Kategorie enthält technische Felder, die sich auf die Journey eines bestimmten Profils beziehen. Dabei handelt es sich um die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die aufgetretenen Fehler. [Weitere Informationen](expression/journey-properties.md)
+Im einfachen Editor finden Sie auch die Kategorie Journey-Eigenschaften unter den Kategorien Ereignis und Datenquelle. Diese Kategorie enthält technische Felder, die sich auf die Journey für ein bestimmtes Profil beziehen. Dies sind die Informationen, die das System von Live-Journeys abruft, wie z. B. die Journey-ID oder die spezifischen aufgetretenen Fehler. [Weitere Infos](expression/journey-properties.md)
 
 ## Bedingung der Datenquelle {#data_source_condition}
 
-Auf diese Weise können Sie eine Bedingung basierend auf Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. In [diesem Abschnitt](expression/expressionadvanced.md) erfahren Sie, wie Sie den Ausdruckseditor verwenden.
+Auf diese Weise können Sie eine Bedingung anhand von Feldern aus den Datenquellen oder den zuvor in der Journey positionierten Ereignissen definieren. Erfahren Sie, wie Sie den Ausdruckseditor in [diesem Abschnitt](expression/expressionadvanced.md).
 
-Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Informationen](../datasource/external-data-sources.md).
+Mit dem erweiterten Ausdruckseditor können Sie erweiterte Bedingungen zur Bearbeitung von Sammlungen oder zur Verwendung von Datenquellen einrichten, für die Parameter übergeben werden müssen. [Weitere Infos](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
-## Bedingung für die Uhrzeit{#time_condition}
+## Zeitbedingung{#time_condition}
 
-Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. So können Sie beispielsweise entscheiden, an Werktagen tagsüber Push-Benachrichtigung und nachts E-Mails zu versenden.
+Auf diese Weise können Sie je nach Tageszeit und/oder Wochentag unterschiedliche Aktionen durchführen. Beispielsweise können Sie festlegen, dass an Wochentagen Push-Benachrichtigungen während des Tages und nachts E-Mails gesendet werden.
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht von einer Bedingung ab und wird auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Zeitzone ist nicht für eine Bedingung spezifisch und wird auf Journey-Ebene in den Eigenschaften der Journey definiert. Siehe [diese Seite](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
 
-Es stehen drei Zeitfilteroptionen zur Verfügung:
+Es stehen drei Filteroptionen zur Verfügung:
 
-* Stunde: ermöglicht die Einrichtung einer Bedingung basierend auf der Tageszeit. Sie legen dann die Start- und Endzeit fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
-* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die Einzelanwender den Pfad eingeben sollen.
+* Stunde: ermöglicht die Einrichtung einer Bedingung basierend auf der Tageszeit. Anschließend legen Sie die Start- und Endzeiten fest. Einzelpersonen geben den Pfad nur innerhalb des definierten Stundenbereichs ein.
+* Wochentag: ermöglicht die Einrichtung einer Bedingung basierend auf dem Wochentag. Wählen Sie dann aus, an welchen Tagen die einzelnen Benutzer den Pfad eingeben sollen.
 * Wochentag und Stunde: Diese Option kombiniert die ersten beiden Optionen.
 
 ## Prozentuale Aufspaltung {#percentage_split}
 
-Mit dieser Option können Sie die Audience nach dem Zufallsprinzip aufspalten, um für jede Gruppe eine andere Aktion zu definieren. Definieren Sie die Anzahl der Aufspaltungen und die Neuaufteilung für jeden Pfad. Die Berechnung der Aufspaltung ist statistisch, da das System nicht vorhersehen kann, wie viele Personen an dieser Aktivität der Journey teilnehmen werden. Infolgedessen weist die Aufspaltung eine sehr geringe Fehlermarge auf. Diese Funktion basiert auf einem Java-Zufallsmechanismus (siehe diese [Seite](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Mit dieser Option können Sie die Zielgruppe nach dem Zufallsprinzip aufteilen, um für jede Gruppe eine andere Aktion zu definieren. Definieren Sie die Anzahl der Aufspaltungen und die Neuaufteilung für jeden Pfad. Die Berechnung der Aufspaltung ist statistisch, da das System nicht vorhersehen kann, wie viele Personen in diese Aktivität der Journey eintreten werden. Daher weist die Aufspaltung eine sehr geringe Fehlermarge auf. Diese Funktion basiert auf einem Java-Zufallsmechanismus (siehe diesen [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
-Im Testmodus wird beim Erreichen einer Aufspaltung immer die obere Verzweigung ausgewählt. Wenn der Test einen anderen Pfad wählen soll, können Sie die Position der aufgespaltenen Verzweigungen neu anordnen. Mehr dazu erfahren Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
+Im Testmodus wird beim Erreichen einer Aufspaltung immer der obere Zweig ausgewählt. Sie können die Position der geteilten Verzweigungen neu organisieren, wenn der Test einen anderen Pfad wählen soll. Siehe [diese Seite](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
->Beachten Sie, dass es in der Bedingung für die prozentuale Aufspaltung keine Schaltfläche zum Hinzufügen eines Pfades gibt. Die Anzahl der Pfade hängt von der Anzahl der Aufspaltungen ab. In Bedingungen für die Aufspaltung können Sie keinen Pfad für andere Fälle hinzufügen, da diese nicht möglich sind. Die Personen wählen immer einen der Pfade der Aufspaltung aus.
+>Beachten Sie, dass es keine Schaltfläche zum Hinzufügen eines Pfads in der Bedingung der prozentualen Aufspaltung gibt. Die Anzahl der Pfade hängt von der Anzahl der Aufspaltungen ab. In Bedingungen der Aufspaltung können Sie keinen Pfad für andere Fälle hinzufügen, da dies nicht möglich ist. Die Benutzer gehen immer in einen der geteilten Pfade.
 
 ![](assets/journey52.png)
 
-## Bedingung für das Datum {#date_condition}
+## Datumsbedingung {#date_condition}
 
-Auf diese Weise können Sie basierend auf dem Datum einen jeweils anderen Fluss definieren. Wenn der Eintritt der Person beispielsweise während der Zeit des Ausverkaufs verfolgt, senden Sie ihr eine entsprechende Nachricht. Den Rest des Jahres senden Sie eine andere Nachricht.
+Auf diese Weise können Sie einen anderen Fluss basierend auf dem Datum definieren. Wenn die Person beispielsweise während des &quot;Verkaufs&quot;-Zeitraums in den Schritt eintritt, senden Sie ihnen eine bestimmte Nachricht. Den Rest des Jahres senden Sie eine weitere Nachricht.
 
 >[!NOTE]
 >
->Die Zeitzone hängt nicht mehr von einer Bedingung ab und wird jetzt auf Journey-Ebene in den Eigenschaften der Journey festgelegt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+>Die Zeitzone ist nicht mehr für eine Bedingung spezifisch und wird jetzt auf Journey-Ebene in den Journey-Eigenschaften definiert. Siehe [diese Seite](../building-journeys/timezone-management.md).
 
 ![](assets/journey53.png)
 
 ## Profilbegrenzung {#profile_cap}
 
-Verwenden Sie diesen Bedingungstyp, um eine Höchstzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, folgen die eintretenden Profile einem alternativen Pfad. Dadurch wird sichergestellt, dass Ihre Journey nie den definierten Grenzwert überschreitet.
+Verwenden Sie diesen Bedingungstyp, um eine maximale Anzahl von Profilen für einen Journey-Pfad festzulegen. Wenn diese Grenze erreicht ist, nehmen die Eingabeprofile einen alternativen Pfad an. Dadurch wird sichergestellt, dass Ihre Journeys nie die definierte Grenze überschreiten.
 
 >[!NOTE]
 >
->Es wird empfohlen, für die Profilbegrenzung einen hohen Wert zu definieren. Je höher diese Obergrenze angesetzt ist, desto höher ist auch die Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Obergrenze erreicht. Ist diese Anzahl niedrig (z. B. eine Obergrenze von 50), stimmen die Zahlen nicht immer überein, da die Obergrenze möglicherweise nicht erreicht wird, bevor die Profile einem anderen Pfad folgen.
+>Es wird empfohlen, eine Profilbegrenzung mit hohem Wert zu definieren. Die Genauigkeit und Wahrscheinlichkeit, dass eine Population die exakte Obergrenze erreicht, steigt nur mit zunehmender Obergrenze. Bei kleinen Zahlen (z. B. einer Obergrenze von 50) stimmen die Zahlen nicht immer überein, da die Begrenzung möglicherweise nicht erreicht wird, bevor Profile einen anderen Pfad verwenden.
 
-Mit diesem Bedingungstyp kann das Volumen Ihrer Sendungen erhöht werden. Siehe diesen [Anwendungsfall](ramp-up-deliveries-uc.md).
+Mit diesem Bedingungstyp können Sie das Volumen Ihrer Sendungen erhöhen. Siehe dies [Anwendungsfall](ramp-up-deliveries-uc.md).
 
-Die Standardbegrenzung ist 1.000.
+Die Standardbegrenzung ist 1000.
 
-Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nach einem Monat auf null zurückgesetzt. Nach dem Zurücksetzen folgen die eintretenden Profile erneut dem nominalen Pfad, bis die Zählergrenze erreicht ist.
+Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nach einem Monat auf null zurückgesetzt. Nach dem Zurücksetzen nehmen die Eingabeprofile den nominalen Pfad erneut, bis die Zählergrenze erreicht ist.
 
-Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alternativen Pfad über den nominalen Pfad auf der Journey-Arbeitsfläche verschoben wird.
+Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn Sie den alternativen Pfad über den nominalen Pfad auf der Arbeitsfläche der Journey verschieben.
 
-Für Live-Journeys sollten die folgenden Schwellenwerte berücksichtigt werden, um sicherzustellen, dass der Grenzwert erreicht wird:
+Für Live-Journeys sind folgende Schwellenwerte zu berücksichtigen, um sicherzustellen, dass die Grenze erreicht wird:
 
-* Bei einer Obergrenze von mehr als 10.000 muss die Anzahl unterschiedlicher Profile, die eingespeist werden sollen, mindestens dem 1,3-Fachen der Obergrenze entsprechen.
-* Bei einer Obergrenze unter 10.000 muss die Anzahl der eindeutigen Profile, die eingespeist werden sollen, den Wert der Obergrenze plus 1.000 haben.
+* Bei einer Obergrenze von mehr als 10000 muss die Anzahl unterschiedlicher Profile, die injiziert werden sollen, mindestens dem 1,3-fachen der Obergrenze entsprechen.
+* Bei einer Obergrenze unter 10000 muss die Anzahl der verschiedenen zu injizierenden Profile 1000 plus der Kappe betragen.
 
 Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
@@ -144,21 +144,21 @@ Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
 ## Verwenden von Segmenten in Bedingungen {#using-a-segment}
 
-In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedingung verwenden lässt. Weitere Informationen zu Segmenten und deren Aufbau finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+In diesem Abschnitt wird erläutert, wie ein Segment in einer Journey-Bedingung verwendet wird. Weitere Informationen zu Segmenten und deren Erstellung finden Sie unter [diesem Abschnitt](../segment/about-segments.md).
 
-Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
+Gehen Sie wie folgt vor, um ein Segment in einer Journey-Bedingung zu verwenden:
 
-1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Bedingung der Datenquelle**.
+1. Eine Journey öffnen und eine **[!UICONTROL Condition]** und wählen Sie die **Bedingung der Datenquelle**.
    ![](assets/journey47.png)
 
-1. Klicken Sie für jeden zusätzlichen Pfad auf **[!UICONTROL Pfad hinzufügen]**. Klicken Sie für jeden Pfad auf das Feld **[!UICONTROL Ausdruck]**.
+1. Klicken **[!UICONTROL Add a path]** für jeden zusätzlichen Pfad, der benötigt wird. Klicken Sie für jeden Pfad auf die **[!UICONTROL Expression]** -Feld.
 
    ![](assets/segment3.png)
 
-1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Segmente]**. Legen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, im Arbeitsbereich ab. Standardmäßig lautet die Bedingung für das Segment „true“.
+1. Öffnen Sie auf der linken Seite die **[!UICONTROL Segments]** Knoten. Ziehen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, in den Arbeitsbereich. Standardmäßig lautet die Bedingung für das Segment &quot;true&quot;.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Hinweis: Nur Personen mit den Segmentzugehörigkeitsstatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target=&quot;_blank&quot;}.
+   >Beachten Sie, dass nur die Personen mit dem **Realisiert** und **Bestehend** Segmentteilsstatus werden als Mitglieder des Segments betrachtet. Weiterführende Informationen zur Auswertung eines Segments finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.

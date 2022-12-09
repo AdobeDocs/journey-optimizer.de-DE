@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Validierung der Personalisierung
+title: Personalisierungsvalidierung
 description: Erfahren Sie mehr über die Validierung der Personalisierung und die Fehlerbehebung.
 feature: Personalization
 topic: Personalization
@@ -11,41 +11,41 @@ exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Validierung der Personalisierung {#personalization-validation}
+# Personalisierungsvalidierung {#personalization-validation}
 
-## Mechanismen der Validierung {#validation-mechanisms}
+## Validierungsmechanismen {#validation-mechanisms}
 
-Verwenden Sie im Bildschirm **Ausdruckseditor** die Schaltfläche **Validieren**, um Ihre Personalisierungssyntax zu überprüfen.
+Im **Ausdruckseditor** -Bildschirm verwenden, verwenden Sie die **Bestätigen** -Schaltfläche, um die Syntax Ihrer Personalisierung zu überprüfen.
 
 >[!NOTE]
-> Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
+> Die Validierung wird automatisch ausgeführt, wenn Sie auf die **Hinzufügen** -Schaltfläche, um das Editor-Fenster zu schließen.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
+> Wenn die Personalisierungssyntax ungültig ist, können Sie das Ausdruckseditor-Fenster nicht schließen.
 
 ## Häufige Fehler {#common-errors}
 
-* **Pfad „XYZ“ nicht gefunden**
+* **Pfad &quot;XYZ&quot;nicht gefunden**
 
-Beim Versuch, auf ein Feld zu verweisen, das im Schema nicht definiert ist.
+Beim Versuch, auf ein Feld zu verweisen, das nicht im Schema definiert ist.
 
-In diesem Fall ist **firstName1** nicht als Attribut im Profilschema definiert:
+In diesem Fall **firstName1** nicht als Attribut im Profilschema definiert ist:
 
 ```
 {{profile.person.name.firstName1}}
 ```
 
-* **Typ für Variable „XYZ“ stimmt nicht überein. Array erwartet, Zeichenfolge gefunden.**
+* **Geben Sie für die Variable &quot;XYZ&quot;einen Fehler ein. Erwartetes Array. Zeichenfolge gefunden.**
 
-Beim Versuch, über eine Zeichenfolge statt über ein Array zu iterieren:
+Beim Versuch, über eine Zeichenfolge anstelle eines Arrays zu iterieren:
 
-In diesem Fall ist **product** kein Array:
+In diesem Fall **product** ist kein Array:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -53,11 +53,11 @@ In diesem Fall ist **product** kein Array:
 {{/each}}
 ```
 
-* **Ungültige Handlebars-Syntax.`‘[XYZ}}’`** gefunden
+* **Ungültige Handlebars-Syntax. Found`‘[XYZ}}’`**
 
 Wenn eine ungültige Handlebars-Syntax verwendet wird.
 
-Handlebar-Ausdrücke sind von **{{expression}}** umgeben.
+Handlebars-Ausdrücke sind von **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -69,9 +69,9 @@ Handlebar-Ausdrücke sind von **{{expression}}** umgeben.
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Spezifische Fehler im Zusammenhang mit Angeboten {#specific-errors}
+## Spezifische Fehler bei Angeboten {#specific-errors}
 
-Die Fehler bei der Integration von Angeboten in eine E-Mail-Nachricht oder Push-Benachrichtigung haben das folgende Muster:
+Die Fehler im Zusammenhang mit der Angebotsintegration in einer E-Mail- oder Push-Nachricht haben das folgende Muster:
 
 ```
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
@@ -82,35 +82,35 @@ Die Validierung erfolgt während der Validierung des Personalisierungsinhalts im
 <table> 
  <thead> 
   <tr> 
-   <th> Fehlertitel<br /> </th> 
+   <th> Fehler-Titel<br /> </th> 
    <th> Validierung/Auflösung <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Ressource mit der ID placementID und dem Typ OfferPlacement nicht gefunden <br/>
-Ressource mit der ID activityID und dem Typ OfferActivity nicht gefunden<br/></td> 
-   <td>Überprüfen Sie, ob activityID und/oder placementID verfügbar ist.</td> 
+   <td>Ressource mit id placementID und Typ OfferPlacement nicht gefunden <br/>
+Ressource mit ID activityID und Typ OfferActivity nicht gefunden<br/></td> 
+   <td>Überprüfen, ob ActivityID und/oder PlacementID verfügbar sind</td> 
   </tr> 
    <tr> 
-   <td>Ressource konnte nicht validiert werden.</td> 
-   <td>Der componentType in der Platzierung sollte mit dem Angebot offerType übereinstimmen.</td> 
+   <td>Die Ressource konnte nicht validiert werden.</td> 
+   <td>Der Komponententyp in der Platzierung sollte mit dem Angebot offerType übereinstimmen</td> 
   </tr> 
    <tr> 
-   <td>Die öffentliche URL ist in der offerId des Angebots nicht vorhanden.</td> 
-   <td>Für die Image-Angebote (alle personalisierten und Fallback-Angebote, die mit dem Entscheidungs- und Platzierungs-Paar verknüpft sind) sollte die öffentliche URL gefüllt sein (deliveryURL sollte nicht leer sein).</td> 
+   <td>Die öffentliche URL ist in offerId nicht vorhanden.</td> 
+   <td>Für Bildangebote (alle personalisierten Angebote und Fallback, die mit dem Entscheidungs- und Platzierungspaar verknüpft sind) sollte eine öffentliche URL eingetragen sein (deliveryURL sollte nicht leer sein).</td> 
   </tr> 
   <tr> 
-   <td>Die Entscheidung enthält Attribute, die nicht zu Profilen gehören.</td> 
-   <td>Die Verwendung des Angebotsmodells sollte nur die Profilattribute enthalten.</td> 
+   <td>Die Entscheidung enthält Nicht-Profil-Attribute.</td> 
+   <td>Die Angebotsmodellnutzung sollte nur die Profilattribute enthalten.</td> 
   </tr> 
   <tr> 
    <td>Beim Abrufen der Entscheidungsverwendung ist ein Fehler aufgetreten.</td> 
    <td>Dieser Fehler kann auftreten, wenn die API versucht, das Angebotsmodell abzurufen.</td> 
   </tr>
   <tr> 
-   <td>Angebotsattribut – Das Angebotsattribut ist ungültig.</td> 
-   <td>Überprüfen Sie, ob das Angebotsattribut, auf das in der Angebots-Dropdown-Liste verwiesen wird, gültig ist. Folgende Attribute sind gültig: <br/>
+   <td>Angebotsattribut offer-attribute ist ungültig.</td> 
+   <td>Überprüfen Sie, ob das in der Angebots-Dropdown-Liste referenzierte Angebotsattribut gültig ist. Im Folgenden finden Sie die gültigen Attribute: <br/>
 Bild: deliveryURL, linkURL<br/>
 Text: content<br/>
 HTML: content<br/></td> 

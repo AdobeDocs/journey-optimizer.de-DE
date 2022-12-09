@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Kopieren einer Journey in eine andere Sandbox
+title: Eine Journey in eine andere Sandbox kopieren
 description: Erfahren Sie, wie Sie eine Journey in eine andere Sandbox kopieren
 feature: Journeys
 topic: Content Management
@@ -10,17 +10,17 @@ level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 0%
 
 ---
 
-# Kopieren einer Journey in eine andere Sandbox {#copy-to-sandbox}
+# Eine Journey in eine andere Sandbox kopieren {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Kopieren einer Journey in eine andere Sandbox"
->abstract="Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus der Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist."
+>title="Eine Journey in eine andere Sandbox kopieren"
+>abstract="Mit Journey Optimizer können Sie eine gesamte Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus der Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
@@ -35,37 +35,37 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Abhängige Objekte"
->abstract="Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt."
+>abstract="Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. Diese Liste zeigt den Namen, den Objekttyp sowie die interne Journey Optimizer-ID an."
 
-Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Voreinstellungen), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](../building-journeys/copy-to-sandbox.md#limitations).
+Mit Journey Optimizer können Sie eine gesamte Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Vorgaben), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem Abschnitt [Abschnitt](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
->Wir garantieren nicht, dass alle verknüpften Elemente in die Ziel-Sandbox kopiert werden. Es wird dringend empfohlen, eine gründliche Prüfung durchzuführen, bevor Sie die Journey veröffentlichen. Auf diese Weise können Sie potenziell fehlende Objekte identifizieren.
+>Wir garantieren nicht, dass alle verknüpften Elemente in die Ziel-Sandbox kopiert werden. Es wird dringend empfohlen, eine gründliche Prüfung durchzuführen, bevor Sie die Journey veröffentlichen. Auf diese Weise können Sie potenzielle fehlende Objekte identifizieren.
 
-Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. Auf diese Weise können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen. Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
+Die kopierten Objekte in der Ziel-Sandbox sind eindeutig und es besteht kein Risiko, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden in den Entwurfsmodus versetzt. Auf diese Weise können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen. Der Kopiervorgang kopiert nur die Metadaten zur Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
 
 Gehen Sie wie folgt vor, um eine Journey in eine andere Sandbox zu kopieren:
 
-1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
+1. Klicken Sie im Menüabschnitt JOURNEY MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
 
-2. Suchen Sie nach der Journey, die Sie kopieren möchten, und klicken Sie auf das Symbol **Mehr Aktionen** (die drei Punkte neben dem Journey-Namen) und dann auf **In Sandbox kopieren**.
+2. Suchen Sie nach der Journey, die Sie kopieren möchten, und klicken Sie auf die **Mehr Aktionen** Symbol (die drei Punkte neben dem Journey-Namen) und klicken Sie auf **In Sandbox kopieren**.
 
    ![](assets/copy-sandbox1.png)
 
-   Der Bildschirm **In Sandbox kopieren** wird angezeigt.
+   Die **In Sandbox kopieren** angezeigt.
 
    ![](assets/copy-sandbox2.png)
 
-3. Wählen Sie die **Ziel-Sandbox** aus der Dropdown-Liste aus. Es sind nur Sandboxes innerhalb Ihrer IMS-Organisation verfügbar.
+3. Wählen Sie die **Target-Sandbox** aus dem Dropdown-Feld. Es sind nur Sandboxes innerhalb Ihrer IMS-Organisation verfügbar.
 
-4. Beachten Sie den Abschnitt **Abhängige Objekte**. Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt.
+4. Überprüfen Sie die **Abhängige Objekte** Abschnitt. Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. Diese Liste zeigt den Namen, den Objekttyp sowie die interne Journey Optimizer-ID an.
 
-5. Klicken Sie auf die Schaltfläche **Kopieren** oben rechts, um mit dem Kopieren der Journey in die Ziel-Sandbox zu beginnen.
+5. Klicken Sie auf **Kopieren** -Schaltfläche oben rechts, um die Journey in die Ziel-Sandbox zu kopieren.
 
    ![](assets/copy-sandbox3.png)
 
-   Der Kopiervorgang beginnt, wobei der Fortschritt der einzelnen Objekte angezeigt wird. Der Kopiervorgang hängt von der Komplexität der Journey ab und davon, wie viele Objekte kopiert werden müssen. Wenn ein Fehler auftritt, wird eine Meldung für das zugehörige Objekt angezeigt.
+   Der Kopiervorgang beginnt und der Fortschritt der einzelnen Objekte wird angezeigt. Der Kopiervorgang variiert je nach Komplexität der Journey und der Anzahl der Objekte, die kopiert werden müssen. Wenn ein Fehler auftritt, wird eine Meldung für das zugehörige Objekt angezeigt.
 
    ![](assets/copy-sandbox4.png)
 
@@ -89,22 +89,22 @@ Die folgenden Objekte werden kopiert:
 
 * Nachricht
 
-   Die in der Journey verwendeten Kanalaktionsaktivitäten. Die für die Personalisierung verwendeten Felder in der Nachricht werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
+   Die in der Journey verwendeten Kanalaktionsaktivitäten. Die für die Personalisierung in der Nachricht verwendeten Felder werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
 
-* Journey – Details der Arbeitsfläche
+* Informationen zur Journey - Arbeitsfläche
 
-   Die Darstellung der Journey auf der Arbeitsfläche, einschließlich der Objekte in der Journey, wie Bedingungen, Aktionen, Ereignisse, Lesesegmente usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
+   Die Darstellung der Journey auf der Arbeitsfläche einschließlich der Objekte in der Journey wie Bedingungen, Aktionen, Ereignisse, gelesene Segmente usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
 
 * Ereignis
 
-   Die Ereignisse und Ereignisdetails, die in der Journey verwendet werden, werden kopiert.
+   Die in der Journey verwendeten Ereignisse und Ereignisdetails werden kopiert.
 
 * Aktion
 
    Die in der Journey verwendeten Aktionen und Aktionsdetails werden kopiert.
 
-Oberflächen (d. h. Voreinstellungen) werden nicht kopiert. Das System wählt basierend auf dem Nachrichtentyp und dem Namen der Oberfläche automatisch die bestmögliche Übereinstimmung für die Ziel-Sandbox aus. Wenn keine Oberflächen in der Ziel-Sandbox gefunden werden, schlägt die Kopie der Oberfläche fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Oberfläche zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Oberfläche für den entsprechenden Kanal der Nachricht erstellt werden, damit eine Kopie durchgeführt werden kann.
+Oberflächen (d. h. Vorgaben) werden nicht kopiert. Das System wählt automatisch die nächstmögliche Übereinstimmung in der Ziel-Sandbox basierend auf Nachrichtentyp und Oberflächenname aus. Wenn keine Oberflächen in der Ziel-Sandbox gefunden werden, schlägt die Oberflächenkopie fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Oberfläche zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Fläche für den rechten Kanal der Nachricht erstellt werden, damit die Kopie funktioniert.
 
-Für Schemata, Zusammenführungsrichtlinien und Segmente werden diese Objekte beim zweiten Versuch, sie zu kopieren, nur referenziert. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
+Bei Schemas, Zusammenführungsrichtlinien und Segmenten werden diese Objekte nur referenziert, wenn sie das zweite Mal versuchen, kopiert zu werden. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
 
-Es dauert fünf Minuten, bis Adobe Journey Optimizer auf Schemata, Zusammenführungsrichtlinien und Segmente verweisen kann, ohne dass während dieser Zeit auf der Arbeitsfläche ein Fehler angezeigt wird. Wenn Sie fünf Minuten warten, sind diese Referenzen verfügbar.
+Adobe Journey Optimizer kann innerhalb von fünf Minuten auf Schemas, Zusammenführungsrichtlinien und Segmente verweisen, ohne dass ein Fehler auf der Arbeitsfläche angezeigt wird. Warten Sie fünf Minuten. Diese Referenzen sind verfügbar.

@@ -1,24 +1,24 @@
 ---
-title: Bibliothek mit den mathematischen Funktionen
-description: Bibliothek mit den mathematischen Funktionen
+title: Mathematische Funktionsbibliothek
+description: Mathematische Funktionsbibliothek
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
 # Mathematische Funktionen {#math}
 
-Erfahren Sie, wie Sie im Ausdruckseditor mathematische Funktionen verwenden.
+Erfahren Sie, wie Sie die Math-Funktionen im Ausdruckseditor verwenden.
 
 ## Absolut {#absolute}
 
-Die Funktion `absolute` wird verwendet, um eine Zahl in ihren absoluten Wert zu konvertieren.
+Die `absolute` -Funktion verwendet wird, um eine Zahl, deren absoluter Wert ist, zu konvertieren.
 
 **Format**
 
@@ -26,9 +26,9 @@ Die Funktion `absolute` wird verwendet, um eine Zahl in ihren absoluten Wert zu 
 {%= absolute(int) %}: int
 ```
 
-## Zufällig {#random}
+## Random {#random}
 
-Die Funktion `random` wird verwendet, um einen zufälligen Wert zwischen 0 und 1 zurückzugeben.
+Die `random` -Funktion wird verwendet, um einen zufälligen Wert zwischen 0 und 1 zurückzugeben.
 
 **Format**
 
@@ -36,9 +36,9 @@ Die Funktion `random` wird verwendet, um einen zufälligen Wert zwischen 0 und 1
 {%= random() %}: double
 ```
 
-## Abrunden {#round-down}
+## Nach unten {#round-down}
 
-Die Funktion `roundDown` wird verwendet, um eine Zahl abzurunden.
+Die `roundDown` -Funktion verwendet wird, um eine Zahl zu runden.
 
 **Format**
 
@@ -46,9 +46,9 @@ Die Funktion `roundDown` wird verwendet, um eine Zahl abzurunden.
 {%= roundDown(double) %}: double
 ```
 
-## Aufrunden {#round-up}
+## Round Up {#round-up}
 
-Die Funktion `Count only null`wird verwendet, um eine Zahl aufzurunden.
+Die `Count only null` -Funktion verwendet wird, um eine Zahl aufzurunden.
 
 **Format**
 
@@ -56,9 +56,9 @@ Die Funktion `Count only null`wird verwendet, um eine Zahl aufzurunden.
 {%= roundUp(double) %}: double
 ```
 
-## Zu Prozentwert {#to-percentage}
+## In Prozent {#to-percentage}
 
-Die Funktion `toPercentage` wird verwendet, um eine Zahl in einen Prozentwert zu konvertieren.
+Die `toPercentage` -Funktion verwendet wird, um eine Zahl in einen Prozentsatz zu konvertieren.
 
 **Format**
 
@@ -66,9 +66,9 @@ Die Funktion `toPercentage` wird verwendet, um eine Zahl in einen Prozentwert zu
 {%= toPercentage(double) %}: string
 ```
 
-## Zu Präzision {#to-precision}
+## Zur Genauigkeit {#to-precision}
 
-Die Funktion `toPrecision` wird verwendet, um eine Zahl in die erforderliche Präzision zu konvertieren.
+Die `toPrecision` -Funktion verwendet wird, um eine Zahl in die erforderliche Genauigkeit zu konvertieren.
 
 **Format**
 

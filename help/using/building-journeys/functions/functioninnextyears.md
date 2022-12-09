@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inNextYears
-description: Erfahren Sie mehr über die Funktion „inNextYears“
+description: Erfahren Sie mehr über die Funktion inNextYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # inNextYears {#inNextYears}
 
-Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Jahren liegt.
+Gibt &quot;true&quot;zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt + delta Jahren liegt.
 
 ## Kategorie
 
@@ -42,4 +42,4 @@ Gibt einen booleschen Wert zurück.
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-Gibt „true“ zurück.
+Gibt &quot;true&quot;zurück.

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Optimierung des Versandzeitpunkts
-description: Erfahren Sie, wie Sie die Parameter für die Versandzeitoptimierung in Ihren Nachrichten einstellen
+title: Versandzeitoptimierung
+description: Erfahren Sie, wie Sie die Versandzeitoptimierung in Ihren Nachrichten parametrieren
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,52 +11,52 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Optimierung des Versandzeitpunkts{#send-time-optimization}
+# Sendezeitoptimierung{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="Über die Optimierung des Versandzeitpunkts"
->abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
+>title="Über die Optimierung der Versandzeit"
+>abstract="Die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer, die auf den KI-Diensten von Adobe basiert, kann die beste Zeit für den Versand einer E-Mail oder Push-Nachricht vorhersagen, um die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren."
 
-Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
+Die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer, die auf den KI-Diensten von Adobe basiert, kann die beste Zeit für den Versand einer E-Mail oder Push-Nachricht vorhersagen, um die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Sendezeiten für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
 
-Das Modell „Optimierung des Versandzeitpunkts“ nimmt Ihre Adobe Journey Optimizer-Daten auf, betrachtet die Öffnungsraten (für E-Mail und Push-Benachrichtigungen) und Klicks (für E-Mails) auf Benutzerebene, um zu bestimmen, wann Ihre Kunden mit der größten Wahrscheinlichkeit mit Ihrer Nachricht interagieren. Für fundierte Empfehlungen erfordert die Optimierung des Versandzeitpunkts mindestens einen Monat an Tracking-Daten zu Nachrichten. Mithilfe der folgenden Punktwerte wählt das System für jeden Benutzer automatisch die beste Zeit aus:
+Das Modell &quot;Send-Time Optimization&quot;erfasst Ihre Adobe Journey Optimizer-Daten, betrachtet die Öffnungsraten auf Benutzerebene (für E-Mail und Push-Benachrichtigungen) und klickt (für E-Mails), um festzustellen, wann Ihre Kunden mit hoher Wahrscheinlichkeit mit Ihrer Nachrichten interagieren. Die Sendezeitoptimierung erfordert für fundierte Empfehlungen mindestens einen Monat an Nachrichten-Tracking-Daten. Für jeden Benutzer wählt das System automatisch die beste Zeit mit den folgenden Werten aus:
 
-* Die beste Stunde jedes Wochentags zur Maximierung der Interaktion
+* Die beste Stunde jedes Wochentags, um die Interaktion zu maximieren
 * Der beste Wochentag zur Maximierung der Interaktion
-* Die beste Stunde des besten Wochentags zur Maximierung der Interaktion
+* Die beste Stunde des besten Wochentags, um die Interaktion zu maximieren
 
-Das Modell variiert je nachdem, ob es sich um Scoring oder Training handelt. Das Training wird zu Beginn wöchentlich und später vierteljährlich durchgeführt. Das Scoring erfolgt zu Beginn wöchentlich und später monatlich.
+Das Modell variiert, ob Sie über Scoring oder Training sprechen. Die Schulung wird wöchentlich und danach vierteljährlich durchgeführt. Die Auswertung erfolgt zunächst wöchentlich und dann monatlich.
 
-* Training – die Entwicklung des Algorithmus für die Ermittlung des Punktwerts
-* Scoring – die Anwendung eines Punktwerts auf einzelne Profile, basierend auf dem trainierten Modell
+* Training - die Entwicklung des Algorithmus für die Ermittlung des Werts
+* Scoring - die Anwendung eines Punkts auf einzelne Profile basierend auf dem trainierten Modell
 
-Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
+Diese Informationen werden mit dem Profil des Benutzers gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
 
 >[!CAUTION]
 >
 >Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
-## Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
+## Aktivieren der Sendezeitoptimierung{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
->title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Wählen Sie mithilfe des entsprechenden Radiobuttons aus, ob E-Mail-Öffnungen oder E-Mail-Click-Throughs optimiert werden sollen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+>title="Aktivieren der Sendezeitoptimierung"
+>abstract="Wählen Sie mithilfe der entsprechenden Optionsschaltfläche aus, ob E-Mail-Öffnungen oder E-Mail-Clickthroughs optimiert werden sollen. Sie können die vom System verwendeten Versandzeiten auch vereinheitlichen, indem Sie innerhalb der nächsten Option einen Wert für die Option Senden eingeben."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
->title="Aktivieren der Optimierung des Versandzeitpunkts"
->abstract="Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen. Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option „Senden innerhalb der nächsten“ eingeben."
+>title="Aktivieren der Sendezeitoptimierung"
+>abstract="Bei Push-Nachrichten wird standardmäßig die Option &quot;Öffnungen&quot;verwendet, da Klicks nicht für Push-Nachrichten gelten. Sie können die vom System verwendeten Versandzeiten auch vereinheitlichen, indem Sie innerhalb der nächsten Option einen Wert für die Option Senden eingeben."
 
-Aktivieren Sie die Versandzeitpunktoptimierung für eine E-Mail oder Push-Benachrichtigung, indem Sie den Umschalter **Versandzeitpunktoptimierung** aus den Parametern der Aktivität auswählen.
+Aktivieren Sie die Sendezeitoptimierung für eine E-Mail oder Push-Nachricht, indem Sie die **Sendezeitoptimierung** von den Aktivitätsparametern umschalten.
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobuttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Click-Throughs optimiert werden sollen. Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen.
+Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Optionsfeldes aus, ob die E-Mail-Öffnungen oder der E-Mail-Clickthrough optimiert werden sollen. Bei Push-Nachrichten wird standardmäßig die Option &quot;Öffnungen&quot;verwendet, da Klicks nicht für Push-Nachrichten gelten.
 
-Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert „sechs Stunden“ wählen, prüft [!DNL Journey Optimizer] jedes Benutzerprofil und wählt den optimalen Versandzeitpunkt innerhalb von sechs Stunden ab der Journey-Ausführungszeit aus.
+Sie können die vom System verwendeten Versandzeiten auch durch Eingabe eines Werts für **Senden innerhalb des nächsten** -Option. Wenn Sie als Wert &quot;sechs Stunden&quot;wählen, [!DNL Journey Optimizer] prüft jedes Benutzerprofil und wählt die optimale Sendezeit innerhalb von sechs Stunden ab der Ausführungszeit der Journey aus.

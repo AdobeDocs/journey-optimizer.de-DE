@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
 title: getListItem
-description: Erfahren Sie mehr über die Funktion „gstListItem“.
+description: Erfahren Sie mehr über die Funktion gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 # getListItem {#gestListItem}
 
-Gibt das Element der Liste an der angegebenen Indexposition zurück.
+Gibt das Element der Liste an dem angegebenen Index zurück.
 
 ## Kategorie
 
@@ -29,7 +29,7 @@ Liste
 
 | Parameter | Typ |
 |-----------|------------------|
-| list | listString |
+| Liste | listString |
 | Liste | listBoolean |
 | Liste | listInteger |
 | Liste | listDecimal |
@@ -77,17 +77,17 @@ Gibt eine Dauer zurück.
 
 `getListItem([10, 2, 3], 1)`
 
-Gibt „2“ zurück
+Gibt &quot;2&quot;zurück
 
 `getListItem(["A", "B", "C"], 2)`
-Gibt „C“ zurück
+Gibt &quot;C&quot;zurück
 
-Beispiele mit dem Ereignisfeld „event.appVersion“ mit dem Wert: 20.45.2.3434
+Beispiele mit dem Ereignisfeld &quot;event.appVersion&quot;mit Wert: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
-Gibt `["20", "45", "2", "3434"]` zurück
+Rückgabe `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-Gibt „20“ zurück
+Gibt &quot;20&quot;zurück

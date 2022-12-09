@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: in
-description: Erfahren Sie mehr über die Funktion „in“
+description: Erfahren Sie mehr über die Funktion in
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,15 +9,15 @@ exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # in {#in}
 
-Überprüft, ob sich der erste Argumentwert in der Liste befindet. Die Prüfung wird mithilfe eines Gleichzeichens für jeden Argumentwert durchgeführt. Gibt „true“ zurück, wenn der Argumentwert gefunden wurde, andernfalls „false“.
+Überprüft, ob der erste Argumentwert in der Liste enthalten ist. Die Prüfung wird über einen Gleichheitswert für jeden Argumentwert durchgeführt. Gibt &quot;true&quot;zurück, wenn der Argumentwert gefunden wurde, andernfalls &quot;false&quot;.
 
-Der Typ von `<expression>` muss mit Elementen der Liste übereinstimmen. Zur Erinnerung: Typen von Elementen in der Liste müssen miteinander übereinstimmen.
+Der Typ der `<expression>` muss mit Elementen der Liste übereinstimmen. Zur Erinnerung: Die Typen der Elemente der Liste müssen übereinstimmen.
 
 ## Kategorie
 
@@ -65,16 +65,16 @@ Liste
 
 `in(<duration>,<listDuration>)`
 
-Geben einen booleschen Wert zurück.
+Gibt einen booleschen Wert zurück.
 
 ## Beispiel
 
 `in(4,[4,5,3,4])`
 
-Gibt „true“ zurück.
+Gibt &quot;true&quot;zurück.
 
 `in(8,[4,5,3,4])`
 
-Gibt „false“ zurück.
+Gibt false zurück.
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

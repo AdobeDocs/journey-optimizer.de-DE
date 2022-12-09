@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Operatoren
+title: Benutzer
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
 feature: Journeys
 role: Data Engineer
@@ -9,12 +9,12 @@ level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
-# Operatoren {#operators}
+# Benutzer {#operators}
 
 Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es gibt unäre Operatoren auf der linken und auf der rechten Seite.
 
@@ -35,11 +35,11 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 
 ## Wichtige Hinweise{#important-notes}
 
-* Bei Verwendung einer Multiplikation (`*`) müssen beide Operationsfelder denselben Typ aufweisen, entweder Ganzzahl oder Dezimalzahl. Beispiel:
-   * Das folgende Beispiel ist korrekt: `3.0 * 4.0`
+* Bei Verwendung einer Multiplikation (`*`), müssen beide Vorgangsfelder denselben Typ aufweisen, entweder Ganzzahl oder Dezimalzahl. Beispiel :
+   * das folgende Beispiel stimmt: `3.0 * 4.0`
    * `3 * 4.0` führt zu einem Fehler
 
-## Logisch        {#logical}
+## Logisch  {#logical}
 
 ### und
 
@@ -47,7 +47,7 @@ Es gibt zwei Arten von Operatoren: unäre Operatoren und binäre Operatoren. Es 
 <expression1> and <expression2>
 ```
 
-Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebnis ist boolesch.
+Beide &lt;expression1> und &lt;expression2> muss boolesch sein. Das Ergebnis ist boolesch.
 
 Beispiel:
 
@@ -63,7 +63,7 @@ Beispiel:
 <expression1> or <expression2>
 ```
 
-Sowohl &lt;Ausdruck1> als auch &lt;Ausdruck2> müssen boolesch sein. Das Ergebnis ist boolesch.
+Beide &lt;expression1> und &lt;expression2> muss boolesch sein. Das Ergebnis ist boolesch.
 
 Beispiel:
 
@@ -79,7 +79,7 @@ Beispiel:
 not <expression>
 ```
 
-&lt;Ausdruck> muss boolesch sein. Das Ergebnis ist boolesch.
+&lt;expression> muss boolesch sein. Das Ergebnis ist boolesch.
 
 Beispiel:
 
@@ -133,9 +133,9 @@ Beispiel:
 <expression> has null
 ```
 
-&lt;Ausdruck> muss eine Liste sein. Das Ergebnis ist boolesch.
+&lt;expression> muss eine Liste sein. Das Ergebnis ist boolesch.
 
-Nützlich, um zu ermitteln, dass eine Liste mindestens einen Nullwert enthält.
+Nützlich, um zu erkennen, dass eine Liste mindestens einen Nullwert enthält.
 
 Beispiel:
 
@@ -157,7 +157,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+>Für &lt;expression1> und &lt;expression2> Es gibt keine Kontrolle des Datentyps.
 
 Beispiel:
 
@@ -178,7 +178,7 @@ Beispiel:
 ```
 
 >[!NOTE]
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> Es gibt keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 
@@ -202,11 +202,11 @@ Beispiel:
 
 Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
 
-Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+Datetimeonly kann mit Datetimeonly verglichen werden.
 
 Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
 
-Jede andere Kombination ist unzulässig.
+Jede andere Kombination ist verboten.
 
 Das Ergebnis ist boolesch.
 
@@ -226,11 +226,11 @@ Beispiel:
 
 Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
 
-Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+Datetimeonly kann mit Datetimeonly verglichen werden.
 
 Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
 
-Jede andere Kombination ist unzulässig.
+Jede andere Kombination ist verboten.
 
 Das Ergebnis ist boolesch.
 
@@ -250,11 +250,11 @@ Beispiel:
 
 Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
 
-Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+Datetimeonly kann mit Datetimeonly verglichen werden.
 
 Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
 
-Jede andere Kombination ist unzulässig.
+Jede andere Kombination ist verboten.
 
 Das Ergebnis ist boolesch.
 
@@ -274,11 +274,11 @@ Beispiel:
 
 Datum/Uhrzeit kann mit Datum/Uhrzeit verglichen werden.
 
-Datum/Uhrzeit ohne Zeitzone kann mit Datum/Uhrzeit ohne Zeitzone verglichen werden.
+Datetimeonly kann mit Datetimeonly verglichen werden.
 
 Sowohl Ganzzahl als auch Dezimalzahl können mit Ganzzahl oder Dezimalzahl verglichen werden.
 
-Jede andere Kombination ist unzulässig.
+Jede andere Kombination ist verboten.
 
 Das Ergebnis ist boolesch.
 
@@ -298,7 +298,7 @@ Beispiel:
 <expression1> + <expression2>
 ```
 
-Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+Beide Ausdrücke müssen numerisch sein (Ganzzahl oder Dezimalzahl).
 
 Das Ergebnis ist ebenfalls numerisch.
 
@@ -308,7 +308,7 @@ Beispiel:
 1 + 2 -- returns 3
 ```
 
-### –
+### -
 
 
 
@@ -316,7 +316,7 @@ Beispiel:
 <expression1> - <expression2>
 ```
 
-Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+Beide Ausdrücke müssen numerisch sein (Ganzzahl oder Dezimalzahl).
 
 Das Ergebnis ist ebenfalls numerisch.
 
@@ -334,11 +334,11 @@ Beispiel:
 <expression1> / <expression2>
 ```
 
-Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+Beide Ausdrücke müssen numerisch sein (Ganzzahl oder Dezimalzahl).
 
 Das Ergebnis ist ebenfalls numerisch.
 
-&lt;Ausdruck2> darf nicht gleich 0 sein (gibt 0 zurück).
+&lt;expression2> darf nicht gleich 0 sein (gibt 0 zurück).
 
 Beispiel:
 
@@ -354,7 +354,7 @@ Beispiel:
 <expression1> * <expression2>
 ```
 
-Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+Beide Ausdrücke müssen numerisch sein (Ganzzahl oder Dezimalzahl).
 
 Das Ergebnis ist ebenfalls numerisch.
 
@@ -372,7 +372,7 @@ Beispiel:
 <expression1> % <expression2>
 ```
 
-Beide Ausdrücke müssen numerischer Art sein (Ganzzahl oder Dezimalzahl).
+Beide Ausdrücke müssen numerisch sein (Ganzzahl oder Dezimalzahl).
 
 Das Ergebnis ist ebenfalls numerisch.
 
@@ -382,7 +382,7 @@ Beispiel:
 3 % 2 -- returns 1.
 ```
 
-## Math {#math}
+## Mathematisch {#math}
 
 ### is numeric
 
@@ -408,7 +408,7 @@ Beispiel:
 <expression> is integer
 ```
 
-Der Typ des Ausdrucks ist Ganzzahl.
+Der Typ des Ausdrucks ist integer.
 
 Beispiel:
 
@@ -446,7 +446,7 @@ Beispiel:
 <expression> + <string>
 ```
 
-Damit werden zwei Ausdrücke verkettet.
+Es verkettet zwei Ausdrücke.
 
 Ein Ausdruck muss eine verkettete Zeichenfolge sein.
 
@@ -474,7 +474,7 @@ Beispiel:
 <expression> + <duration>
 ```
 
-Anhängen einer Dauer an einen „dateTime“, einen „dateTimeOnly“ oder eine Dauer.
+Hängen Sie eine Dauer an eine dateTime, eine dateTimeOnly oder eine Dauer an.
 
 Beispiel:
 

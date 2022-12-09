@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -19,28 +19,28 @@ ht-degree: 100%
 
 In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerhalb einer Strukturkomponente an, die aus drei Spalten besteht.
 
-1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder über den **[!UICONTROL Navigationsbaum]** im linken Menü aus.
+1. Wählen Sie die Strukturkomponente direkt in der E-Mail oder mithilfe der **[!UICONTROL Navigation tree]** im Menü links.
 
    ![](assets/alignment_1.png)
 
-1. Wählen Sie in der Symbolleiste mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
+1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Select a column]** und wählen Sie die, die Sie bearbeiten möchten. Sie können sie auch im Strukturbaum auswählen.
 
-   Die bearbeitbaren Parameter für diese Spalte werden im Menü **[!UICONTROL Spalteneinstellungen]** angezeigt.
+   Die bearbeitbaren Parameter für diese Spalte werden im **[!UICONTROL Column settings]** Menü.
 
    ![](assets/alignment_2.png)
 
-1. Wählen Sie unter **[!UICONTROL Vertikale Ausrichtung]** die Option **[!UICONTROL Unten]** aus.
+1. under **[!UICONTROL Vertical alignment]** auswählen **[!UICONTROL Bottom]**.
 
    Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
 
    ![](assets/alignment_3.png)
 
-1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
+1. under **[!UICONTROL Padding]**, definieren Sie den oberen Abstand innerhalb der Spalte. Klicken Sie auf das Schlosssymbol, um die Synchronisation mit dem unteren Abstand aufzuheben.
 
    Definieren Sie den linken und rechten Abstand für diese Spalte.
 
    ![](assets/alignment_4.png)
 
-1. Gehen Sie analog mit den anderen Ausrichtungs- und Abstandseinstellungen der Spalten vor.
+1. Gehen Sie analog vor, um die Ausrichtung und den Abstand der anderen Spalten anzupassen.
 
 1. Speichern Sie Ihre Änderungen.

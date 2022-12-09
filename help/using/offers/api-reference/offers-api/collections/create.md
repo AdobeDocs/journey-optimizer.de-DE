@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Sammlungen
-description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Kollektion erstellen
+description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,24 +9,24 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
-# Erstellen von Sammlungen {#create-collection}
+# Kollektion erstellen {#create-collection}
 
-Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können eine Sammlung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
+Sie können eine Sammlung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
 
-## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
 
-| Header-Name | Wert |
+| Kopfzeilenname | Wert |
 | ----------- | ----- |
-| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API-Format**
 
@@ -59,9 +59,9 @@ curl -X POST \
     }'
 ```
 
-**Antwort**
+**Reaktion**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Sammlung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Sammlung zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Sammlungs-`@id` in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Kollektion zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Sammlung zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Sammlung verwenden `@id` in einem späteren Tutorial, um eine Entscheidung zu erstellen.
 
 ```json
 {

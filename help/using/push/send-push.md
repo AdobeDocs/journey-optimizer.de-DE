@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 60%
+source-wordcount: '310'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +19,13 @@ ht-degree: 60%
 
 ## Push-Benachrichtigung in der Vorschau anzeigen {#preview-push}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
+Sobald der Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen die Vorschau anzeigen und testen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten prüfen, wie dieser Inhalt in der Nachricht dargestellt wird.
 
-1. Klicken **[!UICONTROL Inhalt simulieren]**.
+1. Klicken **[!UICONTROL Simulate content]**.
 
-1. Klicken **[!UICONTROL Verwalten von Testprofilen]** , um ein Testprofil hinzuzufügen.
+1. Klicken **[!UICONTROL Manage test profiles]** , um ein Testprofil hinzuzufügen.
 
-1. Suchen Sie Ihr Testprofil mit **[!UICONTROL Identitäts-Namespace]** und **[!UICONTROL Identitätswert]** -Felder. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
+1. Suchen Sie Ihr Testprofil mit dem **[!UICONTROL Identity namespace]** und **[!UICONTROL Identity value]** -Felder. Klicken Sie anschließend auf **[!UICONTROL Add profile]**.
 
    ![](assets/push_preview_1.png)
 
@@ -32,7 +33,7 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
    ![](assets/push_preview_2.png)
 
-1. Für die Push-Vorschau werden die Daten von Testprofilen im Nachrichteninhalt verwendet.
+1. In der Push-Vorschau werden im Nachrichteninhalt Testprofildaten verwendet.
 
    Wählen Sie den Gerätetyp aus, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
@@ -42,21 +43,20 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
 >[!NOTE]
 >
-> Zur besseren Zustellbarkeit sollte stets die Telefonnummern in den vom Provider unterstützten Formaten verwendet werden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
+> Für eine bessere Zustellbarkeit sollten Sie stets die Telefonnummern in den vom Provider unterstützten Formaten verwenden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
 
-Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einige davon sind einfache Warnhinweise, andere können die Verwendung der Nachricht verhindern. Es können zwei Arten von Warnhinweisen auftreten:
+Sie müssen Warnhinweise auch im oberen Bereich des Editors überprüfen.  Bei einigen handelt es sich um einfache Warnungen, andere können Sie jedoch daran hindern, die Nachricht zu verwenden. Es können zwei Arten von Warnhinweisen auftreten:
 
-* **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices.
+* **Warnungen** Siehe Empfehlungen und Best Practices.
 
-* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst sind, z. B.:
+* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst ist, z. B.:
 
-   * **[!UICONTROL Die Push-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der Text oder Titel der Push-Benachrichtigung fehlt. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie den Inhalt einer Push-Benachrichtigung definieren.
+   * **[!UICONTROL The push version of the message is empty]**: Dieser Fehler wird angezeigt, wenn der Text oder Titel der Push-Benachrichtigung fehlt. Erfahren Sie, wie Sie den Inhalt von Push-Benachrichtigungen in [diesem Abschnitt](create-push.md).
 
-   * **[!UICONTROL Oberfläche existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Oberfläche aus. Weitere Informationen zu Kanaloberflächen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie eine andere Stelle in der Nachricht aus **[!UICONTROL Properties]**. Weitere Informationen zu Kanaloberflächen in [diesem Abschnitt](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](../push/create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
+   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Beschränkung einzuhalten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. Erfahren Sie, wie Sie Ihren Push-Benachrichtigungs-Inhalt in [diesem Abschnitt](../push/create-push.md).
 
 ![](assets/push_alert.png)
 
 Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) , um es zu versenden.
-

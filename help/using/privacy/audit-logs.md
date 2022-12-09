@@ -2,58 +2,58 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Audit-Aktionen für Journey Optimizer-Ressourcen
-description: Erfahren Sie, wie Sie Aktionen verfolgen, die für Journey Optimizer-Ressourcen durchgeführt wurden.
+description: Erfahren Sie, wie Sie Aktionen verfolgen, die in Journey Optimizer-Ressourcen ausgeführt werden.
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
 
 # Audit-Aktionen für Journey Optimizer-Ressourcen {#track-changes}
 
-## Über Audit-Protokolle {#audit-logs}
+## Über Prüfprotokolle {#audit-logs}
 
-Mit Journey Optimizer können Sie die von den Nutzern im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Journeys, Nachrichten, Landingpages usw. ermitteln.
+Mit Journey Optimizer können Sie Aktionen identifizieren, die von Benutzern im System für verschiedene Dienste und Funktionen wie Journeys, Nachrichten, Landingpages usw. ausgeführt werden.
 
-So können Sie die Sichtbarkeit der im System durchgeführten Aktivitäten erhöhen, Probleme beheben und Ihr Unternehmen bei der Einhaltung von Vorschriften und Unternehmensrichtlinien zur Datenverwaltung unterstützen.
+Auf diese Weise können Sie die Sichtbarkeit der im System durchgeführten Aktivitäten erhöhen, Probleme beheben und Ihr Unternehmen bei der Einhaltung von Vorschriften und Richtlinien zur Unternehmensdatenverwaltung unterstützen.
 
-Jede Aktion wird mit Metadaten in „Audit-Protokollen“ aufgezeichnet, die in Adobe Experience Platform zugänglich sind. Weiterführende Informationen zu Audit-Protokollen, einschließlich ihrer Anzeige und Verwaltung in der Benutzeroberfläche oder API, finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de).
+Jede Aktion wird mit Metadaten in &quot;Prüfprotokollen&quot;aufgezeichnet, auf die in Adobe Experience Platform zugegriffen werden kann. Weiterführende Informationen zu Prüfprotokollen, einschließlich ihrer Anzeige und Verwaltung in der Benutzeroberfläche oder API, finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
 
 ![](assets/audit-logs.png)
 
-## Von Audit-Protokollen erfasste Ereignistypen {#events}
+## Von Prüfprotokollen erfasste Ereignistypen {#events}
 
-In der folgenden Tabelle sind die Aktionen aufgeführt, für die Journey Optimizer-Ressourcen in Audit-Protokollen aufgezeichnet werden.
+In der folgenden Tabelle wird beschrieben, welche Aktionen bei welchen Journey Optimizer-Ressourcen von Auditprotokollen aufgezeichnet werden.
 
 >[!NOTE]
 >
->Die vollständige Liste der in den Audit-Protokollen erfassten Aktionen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de#category).
+>Die vollständige Liste der in den Auditprotokollen erfassten Aktionen finden Sie unter [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
 | Ressource | Aktion |
 |-----------|------------------|
-| AJO-Kampagne | Erstellen/Löschen/Aktualisieren/Aktivieren/Stoppen |
+| AJO-Kampagne | Erstellen/Löschen/Aktualisieren/Aktivieren/Anhalten |
 | Allgemeine Einstellungen für den AJO-Kanal | Erstellen/Löschen/Aktualisieren |
 | AJO-IP-Pool | Erstellen/Löschen/Aktualisieren |
-| AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung aufheben |
-| AJO-Landingpage-HTML-Vorlage | Erstellen/Löschen/Aktualisieren |
-| AJO-Landingpage-Voreinstellung | Erstellen/Löschen/Aktualisieren |
+| AJO-Landingpage | Erstellen/Löschen/Aktualisieren/Veröffentlichen/Veröffentlichung rückgängig machen |
+| HTML-Vorlage für AJO-Landingpage | Erstellen/Löschen/Aktualisieren |
+| Vorgabe für AJO-Landingpage | Erstellen/Löschen/Aktualisieren |
 | AJO-Landingpage-Subdomain | Erstellen/Löschen/Aktualisieren |
 | AJO-Nachricht | Erstellen/Löschen/Aktualisieren/Veröffentlichen |
-| AJO-Nachrichtenvoreinstellung | Erstellen/Löschen/Aktualisieren |
-| AJO-PTR-Eintrag | Erstellen/Löschen/Aktualisieren |
+| AJO-Nachrichtenvorgabe | Erstellen/Löschen/Aktualisieren |
+| AJO PTR-Datensatz | Erstellen/Löschen/Aktualisieren |
 | AJO-Vorlage für gespeicherte Ausdrücke | Erstellen/Löschen/Aktualisieren |
-| Anmeldedaten der AJO-SMS-API | Erstellen/Löschen/Aktualisieren |
+| Anmeldeinformationen der AJO-SMS-API | Erstellen/Löschen/Aktualisieren |
 | AJO-Subdomain | Erstellen/Löschen/Aktualisieren |
-| AJO-Unterdrückungsliste | Erstellen/Löschen/Herunterladen der CSV |
+| AJO-Unterdrückungsliste | CSV erstellen/löschen/herunterladen |
 | Feldergruppe | Erstellen/Löschen/Aktualisieren |
-| Journey | Erstellen/Löschen/Aktualisieren/Stoppen/Veröffentlichen |
-| Benutzerdefinierte Aktion in Journey | Erstellen/Löschen/Aktualisieren |
+| Journey | Erstellen/Löschen/Aktualisieren/Beenden/Veröffentlichen |
+| Benutzerdefinierte Aktion für Journey | Erstellen/Löschen/Aktualisieren |
 | Journey-Datenquelle | Erstellen/Löschen/Aktualisieren |
 | Journey-Ereignis | Erstellen/Löschen/Aktualisieren |
-| Häufigkeitsregeln für Nachrichten | Erstellen/Löschen/Aktualisieren |
-| Rangfolgestrategie | Erstellen/Löschen/Aktualisieren |
+| Regel für Nachrichtenfrequenz | Erstellen/Löschen/Aktualisieren |
+| Rangstrategie | Erstellen/Löschen/Aktualisieren |

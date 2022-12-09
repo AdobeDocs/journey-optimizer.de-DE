@@ -9,17 +9,17 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
 # Zuordnungsfunktionen{#maps}
 
-Verwenden Sie Zuordnungsfunktionen in der Personalisierung, um die Interaktion mit Zuordnungen zu erleichtern.
+Verwenden Sie Zuordnungsfunktionen in der Personalisierung, um die Interaktion mit Karten zu erleichtern.
 
-## Abrufen{#get}
+## Get{#get}
 
-Mit der `get`-Funktion wird der Wert einer Zuordnung für einen bestimmten Schlüssel abgerufen.
+Die `get` -Funktion wird verwendet, um den Wert einer Zuordnung für einen bestimmten Schlüssel abzurufen.
 
 **Format**
 
@@ -29,7 +29,7 @@ Mit der `get`-Funktion wird der Wert einer Zuordnung für einen bestimmten Schl�
 
 **Beispiel**
 
-Die folgende Operation ruft den Wert der Identitätszuordnung für den Schlüssel `example@example.com` ab.
+Der folgende Vorgang ruft den Wert der Identitätszuordnung für den Schlüssel ab `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -37,7 +37,7 @@ Die folgende Operation ruft den Wert der Identitätszuordnung für den Schlüsse
 
 ## Schlüssel{#keys}
 
-Die `keys`-Funktion wird zum Abrufen aller Schlüssel einer gegebenen Zuordnung verwendet.
+Die `keys` -Funktion verwendet wird, um alle Schlüssel für eine bestimmte Zuordnung abzurufen.
 
 **Format**
 
@@ -47,7 +47,7 @@ Die `keys`-Funktion wird zum Abrufen aller Schlüssel einer gegebenen Zuordnung 
 
 **Beispiel**
 
-Die folgende Operation ruft alle Schlüssel für die Zuordnung `identityMap` ab.
+Der folgende Vorgang ruft alle Schlüssel für die Zuordnung ab `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -55,7 +55,7 @@ Die folgende Operation ruft alle Schlüssel für die Zuordnung `identityMap` ab.
 
 ## Werte{#values}
 
-Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung verwendet.
+Die `values` -Funktion verwendet wird, um alle Werte einer gegebenen Zuordnung abzurufen.
 
 **Format**
 
@@ -65,7 +65,7 @@ Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung ver
 
 **Beispiel**
 
-Die folgende Operation ruft alle Werte für die Zuordnung `identityMap` ab.
+Der folgende Vorgang ruft alle Werte für die Zuordnung ab `identityMap`.
 
 ```sql
 {%= values(identityMap) %}
