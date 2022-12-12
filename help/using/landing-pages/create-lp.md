@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Klicken Sie auf die drei Punkte neben einer Landingpage, um die gewünschte Akti
 >id="ajo_lp_create"
 >title="Landingpage definieren und konfigurieren"
 >abstract="Um eine Landingpage zu erstellen, müssen Sie eine Vorgabe auswählen, dann die primäre Seite und die untergeordneten Seiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Landingpage veröffentlichen"
 
 >[!CONTEXTUALHELP]
@@ -100,8 +100,8 @@ Nachdem Sie die [primäre Seite](#configure-primary-page)und die [Unterseiten](#
 >id="ajo_lp_access_settings"
 >title="Landingpage-URL definieren"
 >abstract="Definieren Sie in diesem Abschnitt eine eindeutige Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomäne als Teil der von Ihnen ausgewählten Vorgabe eingerichtet haben."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Landingpage-Subdomains konfigurieren"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Landingpage-Subdomains konfigurieren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Landingpage-Vorgaben erstellen"
 
 Die primäre Seite ist die Seite, die den Benutzern sofort angezeigt wird, nachdem sie auf den Link zu Ihrer Landingpage geklickt haben, z. B. über eine E-Mail oder eine Website.
 

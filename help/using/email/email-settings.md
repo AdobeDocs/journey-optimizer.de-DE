@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Aktivieren Sie dazu die **[!UICONTROL BCC email]** optionale Funktion auf der Ka
 >id="ajo_admin_presets_retryperiod"
 >title="Anpassen des Wiederholungszeitraumes"
 >abstract="Wiederholungen werden für 3,5 Tage (84 Stunden) durchgeführt, wenn ein E-Mail-Versand aufgrund eines temporären Softbounce-Fehlers fehlschlägt. Sie können diesen standardmäßigen Wiederholungszeitraum an Ihre Anforderungen anpassen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Über weitere Versuche"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Über weitere Versuche"
 
 Sie können die **Email-Wiederholungsparameter**.
 
