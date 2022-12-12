@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ Sobald Ihre Kampagne fertig ist, können Sie sie überprüfen und veröffentlich
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="TBC"
+>abstract="Bei einer Marketing-Nachricht durch Angabe eines Versanddatums wird die **Geplant** type ist am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten wie das Zurücksetzen des Kennworts oder den Abbruch der Karte senden möchten, wird die Variable **API-ausgelöst** type ist die beste Wahl."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="TBC"
+>abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp für die **Marketing** Kategorie und API-gesteuerter Typ für die Kategorie **Transactional**"
 
 Es stehen zwei Kampagnentypen zur Verfügung:
 
