@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
 source-wordcount: '1704'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_admin_subdomainname"
 >title="Subdomain-Zuweisung"
 >abstract="Mit Journey Optimizer können Sie Ihre Subdomains Adobe zuweisen. Sie können eine Subdomain vollständig Adobe zuweisen, was die empfohlene Methode ist. Sie können auch eine Subdomain mit CNAME erstellen, um auf Adobe-spezifische Einträge zu verweisen. Für diesen Ansatz müssen Sie jedoch DNS-Einträge selbst verwalten und verwalten."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Methoden der Subdomain-Konfiguration"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
@@ -48,7 +48,7 @@ Sie können eine Subdomain vollständig zuweisen oder eine Subdomain mit CNAME e
 >id="ajo_admin_subdomain_dns"
 >title="Generieren Sie die entsprechenden DNS-Einträge."
 >abstract="Um eine neue Subdomain vollständig Adobe zuzuweisen, müssen Sie die in der Benutzeroberfläche von Journey Optimizer angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um die entsprechenden DNS-Einträge zu generieren. Um eine Subdomain mit CNAME zuzuweisen, müssen Sie auch den SSL-CDN-URL-Validierungsdatensatz kopieren und einfügen. Sobald die Prüfungen erfolgreich waren, kann die Subdomain für den Nachrichtenversand verwendet werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME-Subdomain-Zuweisung"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME-Subdomain-Zuweisung"
 
 [!DNL Journey Optimizer] ermöglicht die vollständige Zuweisung Ihrer Subdomains an Adobe direkt über die Produktoberfläche. Dadurch kann Adobe Nachrichten als verwalteten Dienst bereitstellen, indem es alle DNS-Aspekte kontrolliert und verwaltet, die für die Bereitstellung, das Rendering und das Tracking von E-Mail-Kampagnen erforderlich sind.
 
