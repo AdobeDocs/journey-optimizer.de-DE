@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Archivierungsunterstützung in Journey Optimizer
-description: Erfahren Sie, wie Sie Nachrichten archivieren
+description: So archivieren Sie Nachrichten
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,126 +10,126 @@ level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1132'
+ht-degree: 100%
 
 ---
 
 # Unterstützung für Archivierung {#archiving-support}
 
-## Archivieren von Nachrichten {#about-archiving}
+## So archivieren Sie Nachrichten {#about-archiving}
 
-Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] soll eine Möglichkeit bieten, an Einzelpersonen gesendete Nachrichten zu archivieren. Wenn Ihre Kunden eine Forderung erheben, sollten sie die Möglichkeit haben, eine Kopie der gesendeten Nachricht zu Überprüfungszwecken zu erhalten.
+Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkeit bietet, um an Einzelpersonen gesendete Nachrichten zu archivieren. Wenn Ihre Kundinnen und Kunden einen Anspruch einreichen, sollten sie die Möglichkeit haben, eine Kopie der gesendeten Nachricht zu Verifizierungszwecken zu erhalten.
 
-* Für den E-Mail-Kanal: [!DNL Journey Optimizer] bietet eine integrierte BCC-E-Mail-Funktion. [Weitere Infos](#bcc-email)
+* Für den E-Mail-Kanal bietet [!DNL Journey Optimizer] eine integrierte BCC-Funktion. [Weitere Informationen](#bcc-email)
 
-* Darüber hinaus können Sie für alle Kanäle das Feld &quot;Vorlage&quot;im **Entitätsdatensatz**, der die Details der nicht personalisierten Nachrichtenvorlagen enthält. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, z. B.: wer die Nachricht gesendet hat, an wen und wann. Beachten Sie, dass personalisierte Daten nicht exportiert werden - es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Infos](../data/datasets-query-examples.md#entity-dataset)
+* Darüber hinaus können Sie für alle Kanäle das Feld „Vorlage“ im **Entitätsdatensatz** verwenden, in dem die Details der nicht personalisierten Nachrichtenvorlagen enthalten sind. Exportieren Sie den Datensatz mit diesem Feld, um Metadaten zu speichern, wie etwa die Personen, die die Nachricht gesendet und empfangen haben sowie den Zeitpunkt. Beachten Sie, dass personalisierte Daten nicht exportiert werden – es wird nur die Vorlage (Format und Struktur der Nachricht) berücksichtigt. [Weitere Informationen](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] bietet keine Unterstützung für die SMS-Archivierungsanforderungen. Arbeiten Sie für dedizierte Archivierungsunterstützung mit Ihrem SMS-Anbieter (Synch oder Twilio) zusammen.
+>[!DNL Journey Optimizer] bietet keine Unterstützung für die Anforderung zur SMS-Archivierung. Arbeiten Sie für eine dedizierte Archivierungsunterstützung mit Ihrem SMS-Anbieter (Synch oder Twilio) zusammen.
 
-## Verwenden von BCC für E-Mails {#bcc-email}
+## So verwenden Sie BCC in E-Mails {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
->title="BCC-E-Mail-Adresse definieren"
->abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, damit jede gesendete E-Mail blind in diese BCC-Adresse kopiert wird. Beachten Sie, dass die BCC-Adressdomäne nicht mit der Subdomain übereinstimmen sollte, die Adobe zugewiesen wurde. Diese Funktion ist optional."
+>title="Definieren einer BCC-E-Mail-Adresse"
+>abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass die BCC-Adress-Domain nicht mit der Subdomain übereinstimmen sollte, die Adobe zugewiesen wurde. Diese Funktion ist optional."
 
-Sie können eine identische Kopie (oder blinde Kopie) einer E-Mail senden, die von [!DNL Journey Optimizer] in einen BCC-Posteingang. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zur Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
+Sie können eine identische Kopie (oder Blindkopie) einer von [!DNL Journey Optimizer] gesendeten E-Mail an einen BCC-Posteingang senden. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zu Zwecken der Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
 
-### BCC-E-Mail aktivieren {#enable-bcc}
+### Aktivieren von BCC-E-Mails {#enable-bcc}
 
-So aktivieren Sie die **[!UICONTROL BCC email]** Geben Sie die gewünschte E-Mail-Adresse in das entsprechende Feld der [Kanaloberfläche](channel-surfaces.md) (d. h. Nachrichtenvorgabe). Sie können jede externe Adresse im richtigen Format angeben, mit Ausnahme der E-Mail-Adresse, die für eine Adobe zugewiesene Subdomain definiert ist. Wenn Sie beispielsweise die Variable *marketing.luma.com* Subdomain zu Adobe, beliebige Adresse wie *abc@marketing.luma.com* ist verboten.
+Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Adresse Ihrer Wahl in das dafür vorgesehene Feld der [Kanaloberfläche](channel-surfaces.md) (d. h. der Nachrichtenvoreinstellung) ein. Sie können eine beliebige externe Adresse im korrekten Format angeben, mit Ausnahme einer E-Mail-Adresse, die in der Adobe zugewiesenen Subdomain definiert ist. Wenn Sie zum Beispiel die Subdomain *marketing.luma.com* an Adobe delegiert haben, ist jede Adresse des Typs *abc@marketing.luma.com* verboten.
 
 >[!CAUTION]
 >
->Sie können nur eine BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über ausreichend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die über die aktuelle Kanaloberfläche gesendet werden.
+>Sie können nur eine einzige BCC-E-Mail-Adresse definieren. Stellen Sie sicher, dass die BCC-Adresse über genügend Aufnahmekapazität verfügt, um alle E-Mails zu speichern, die mit der aktuellen Kanaloberfläche gesendet werden.
 >
->Weitere Empfehlungen finden Sie unter [diesem Abschnitt](#bcc-recommendations-limitations).
+>Weitere Empfehlungen finden Sie in [diesem Abschnitt](#bcc-recommendations-limitations).
 
 >[!NOTE]
 >
->Wenn Sie das Add-On-Angebot &quot;Healthcare Shield&quot;erworben haben, müssen Sie sicherstellen, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
+>Wenn Sie das Add-On-Angebot „Healthcare Shield“ erworben haben, müssen Sie sicherstellen, dass der ISP Ihrer BCC-Adresse das TLS 1.2-Protokoll unterstützt.
 
 ![](assets/preset-bcc.png)
 
-Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
+Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden als BCC an die von Ihnen eingegebene BCC-E-Mail-Adresse gesendet. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
 
 >[!CAUTION]
 >
->Die Verwendung Ihrer BCC-Funktion wird mit der Anzahl der Nachrichten abgeglichen, für die Sie lizenziert sind. Daher aktivieren Sie sie nur auf den Oberflächen, die für kritische Kommunikation verwendet werden, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf lizenzierte Mengen.
+>Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Oberflächen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
-Die Einstellung der BCC-E-Mail-Adresse wird sofort gespeichert und auf oberflächlicher Ebene verarbeitet. Wenn Sie eine neue Nachricht auf dieser Oberfläche erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
+Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche gespeichert und verarbeitet. Wenn Sie mit dieser Oberfläche eine neue Nachricht erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
 ![](assets/preset-bcc-in-msg.png)
 
-Die BCC-Adresse wird jedoch nach der beschriebenen Logik für den Versand von Nachrichten erfasst [here](../email/email-settings.md).
+Die BCC-Adresse wird jedoch gemäß der [hier](../email/email-settings.md) beschriebenen Logik für den Versand von Nachrichten übernommen.
 
 ### Empfehlungen und Einschränkungen {#bcc-recommendations-limitations}
 
-* Um die Einhaltung der Datenschutzbestimmungen zu gewährleisten, müssen BCC-E-Mails von einem Archivierungssystem verarbeitet werden, in dem personenbezogene Daten (PII) sicher gespeichert werden können.
+* Aus Datenschutzgründen müssen BCC-E-Mails von einem Archivierungssystem bearbeitet werden, in dem personenbezogene Daten (PII, Personally Identifiable Information) sicher aufbewahrt werden.
 
-* Da Nachrichten vertrauliche oder private Daten enthalten können, z. B. personenbezogene Daten (PII), müssen Sie sicherstellen, dass die BCC-Adresse korrekt ist, und den Zugriff auf Nachrichten sicherstellen.
+* Da Nachrichten vertrauliche oder private Daten enthalten können, z. B. personenbezogene Daten (PII), müssen Sie dafür sorgen, dass die BCC-Adresse korrekt ist, und den Zugriff auf Nachrichten schützen.
 
-* Ihr Posteingang, der für BCC verwendet wird, sollte für Speicherplatz und Bereitstellung ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden manche E-Mails möglicherweise nicht empfangen und daher nicht archiviert.
+* Ihr Posteingang, der für BCC verwendet wird, sollte in Bezug auf Speicherplatz und Versand ordnungsgemäß verwaltet werden. Wenn der Posteingang Bounces zurückgibt, werden manche E-Mails möglicherweise nicht empfangen und daher nicht archiviert.
 
-* Nachrichten können vor den Zielempfängern an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn die ursprünglichen Nachrichten [bounced](../reports/suppression-list.md#delivery-failures).
+* Nachrichten können vor dem Versand an die Zielgruppe an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem [Bounce](../reports/suppression-list.md#delivery-failures) kam.
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie in der Gesamtzahl der Öffnungen und Klicks aus der Versandanalyse berücksichtigt werden. Dies könnte zu falschen Berechnungen in [Berichte](../reports/global-report.md).
+* Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/global-report.md) zu falschen Berechnungen führen.
 
-* Markieren Sie keine Nachrichten im BCC-Posteingang als Spam, da sich dies auf alle anderen an diese Adresse gesendeten E-Mails auswirkt.
+* Markieren Sie im BCC-Posteingang keine Nachrichten als Spam, da sich das auf alle anderen an diese Adresse gesendeten E-Mails auswirken wird.
 
 
 >[!CAUTION]
 >
->Klicken Sie nicht auf den Abmelde-Link in den an die BCC-Adresse gesendeten E-Mails, da Sie die entsprechenden Empfänger sofort abmelden werden.
+>Klicken Sie in den an die BCC-Adresse gesendeten E-Mails nicht auf den Abmelde-Link, da dadurch die entsprechenden Empfänger sofort abgemeldet werden.
 
 ### DSGVO-Konformität {#gdpr-compliance}
 
-Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihre Einwilligung jederzeit ändern können. Da die mit Journey Optimizer gesendeten BCC-E-Mails sicher personenbezogene Daten (PII) enthalten, müssen Sie die **[!UICONTROL CJM Email BCC Feedback Event Schema]** um diese personenbezogenen Daten unter Einhaltung der DSGVO und ähnlicher Vorschriften verwalten zu können.
+Vorschriften wie die DSGVO besagen, dass die betroffenen Personen ihr Einverständnis jederzeit ändern können. Da die mit Journey Optimizer gesendeten BCC-E-Mails auf sichere Weise personenbezogene Daten enthalten, müssen Sie das **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** bearbeiten, um diese personenbezogenen Daten unter Einhaltung der DSGVO und ähnlicher Vorschriften verwalten zu können.
 
 Gehen Sie dazu wie folgt vor.
 
-1. Navigieren Sie zu **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** und wählen Sie **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
+1. Gehen Sie zu **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Durchsuchen]** und wählen Sie **[!UICONTROL CJM E-Mail-BCC-Feedback-Ereignisschema]** aus.
 
    ![](assets/preset-bcc-schema.png)
 
-1. Zum Erweitern klicken **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]**.
+1. Klicken Sie auf **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagement]** und dann auf **[!UICONTROL secondaryRecipientDetail]**, um die Struktur zu erweitern.
 
-1. Auswählen **[!UICONTROL originalRecipientAddress]**.
+1. Wählen Sie **[!UICONTROL originalRecipientAddress]** aus.
 
-1. Im **[!UICONTROL Field properties]** rechts scrollen Sie nach unten zum **[!UICONTROL Identity]** aktivieren.
+1. In den **[!UICONTROL Feldeigenschaften]** rechts scrollen Sie nach unten zum Kontrollkästchen **[!UICONTROL Identität]**.
 
-1. Wählen Sie es aus und wählen Sie es auch aus **[!UICONTROL Primary identity]**.
+1. Markieren Sie es und wählen Sie auch **[!UICONTROL Primäre Identität]** aus.
 
-1. Wählen Sie einen Namespace aus der Dropdownliste aus.
+1. Wählen Sie einen Namespace aus der Dropdown-Liste aus.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Klicken **[!UICONTROL Apply]**.
+1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 >[!NOTE]
 >
->Erfahren Sie mehr über die Verwaltung des Datenschutzes und die anwendbaren Vorschriften im Abschnitt [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}.
+>Weitere Informationen zur Verwaltung der Datenschutzeinstellungen und den geltenden Vorschriften finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de){target=&quot;_blank&quot;}.
 
 ### BCC-Berichtsdaten {#bcc-reporting}
 
-Die Berichterstattung als solche über BCC ist nicht in der Journey und den Nachrichtenberichten verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL AJO BCC Feedback Event Dataset]**. Sie können Abfragen für diesen Datensatz ausführen, um nützliche Informationen zum Debugging-Zweck zu finden.
+Das Reporting über BCC als solches ist in den Journey- und Nachrichtenberichten nicht verfügbar. Informationen werden jedoch in einem Systemdatensatz mit dem Namen **[!UICONTROL Datensatz mit AJO BCC-Feedback-Ereignissen]** gespeichert. Sie können Abfragen für diesen Datensatz ausführen, um beispielsweise nützliche Informationen zu Debugging-Zwecken zu finden.
 
-Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Auswählen **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** und aktivieren Sie die **[!UICONTROL Show system datasets]** Aus dem Filter wechseln, um die systemgenerierten Datensätze anzuzeigen. Erfahren Sie mehr über den Zugriff auf Datensätze in [diesem Abschnitt](../data/get-started-datasets.md#access-datasets).
+Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Datensätze]** > **[!UICONTROL Durchsuchen]** aus und aktivieren Sie den Umschalter **[!UICONTROL Anzeigen von Systemdatensätzen]** aus dem Filter, um die systemgenerierten Datensätze anzuzeigen. In [diesem Abschnitt](../data/get-started-datasets.md#access-datasets) erfahren Sie mehr über den Zugriff auf Datensätze.
 
 ![](assets/preset-bcc-dataset.png)
 
-Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der von der [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Data management]** > **[!UICONTROL Queries]** und klicken Sie auf **[!UICONTROL Create query]**. [Weitere Infos](../data/get-started-queries.md)
+Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der vom [Adobe Experience Platform Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
 Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
 
-1. Für alle anderen Abfragen unten benötigen Sie die Journey-Aktions-ID. Führen Sie diese Abfrage aus, um innerhalb der letzten 2 Tage alle mit einer bestimmten Journey-Versions-ID verbundenen Aktions-IDs abzurufen:
+1. Für alle anderen Abfragen unten benötigen Sie die Journey-Aktions-ID. Führen Sie diese Abfrage aus, um alle innerhalb der letzten 2 Tage mit einer bestimmten Journey-Versions-ID verknüpften Aktions-IDs abzurufen:
 
    ```
    SELECT
@@ -148,11 +148,11 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
 
    >[!NOTE]
    >
-   >So rufen Sie die `<journey version id>`-Parameter, wählen Sie die entsprechende [Journey-Version](../building-journeys/journey.md#journey-versions) von **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** Menü. Die Versionskennung der Journey wird am Ende der URL angezeigt, die in Ihrem Webbrowser angezeigt wird.
+   >Um den `<journey version id>`-Parameter abzurufen, wählen Sie die entsprechende [Journey-Version](../building-journeys/journey.md#journey-versions) aus dem Menü **[!UICONTROL Journey-Management]** > **[!UICONTROL Journeys]**. Die Journey-Versions-ID wird am Ende der URL angezeigt, die in Ihrem Webbrowser angezeigt wird.
    >
    >![](assets/preset-bcc-action-id.png)
 
-1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht generiert wurden, die an einen bestimmten Benutzer gesendet wurde:
+1. Führen Sie diese Abfrage aus, um alle Nachrichten-Feedback-Ereignisse (insbesondere den Feedback-Status) abzurufen, die in den letzten 2 Tagen für eine bestimmte Nachricht, die an einen bestimmten Benutzer gesendet wurde, generiert wurden:
 
    ```
    SELECT  
@@ -178,9 +178,9 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
 
    >[!NOTE]
    >
-   >So rufen Sie die `<journey action id>` -Parameter die erste oben beschriebene Abfrage mit der Versionskennung der Journey ausführen. Die `<recipient email address>` -Parameter ist die E-Mail-Adresse des Zielkontakts oder des tatsächlichen Empfängers.
+   >Um den `<journey action id>`-Parameter abzurufen, führen Sie die erste oben beschriebene Abfrage mit der Journey-Versions-ID aus. Der `<recipient email address>`-Parameter ist die E-Mail-Adresse des Zielkontakts oder des tatsächlichen Empfängers.
 
-1. Führen Sie diese Abfrage aus, um alle BCC-Nachrichten-Feedback-Ereignisse abzurufen, die für eine bestimmte Nachricht generiert wurden, die innerhalb der letzten 2 Tage an einen bestimmten Benutzer gesendet wurde:
+1. Führen Sie diese Abfrage aus, um alle BCC-Nachrichten-Feedback-Ereignisse abzurufen, die für eine bestimmte Nachricht, die innerhalb der letzten 2 Tage an einen bestimmten Benutzer gesendet wurde, generiert wurden:
 
    ```
    SELECT   
@@ -205,7 +205,7 @@ Je nach gesuchten Informationen können Sie die folgenden Abfragen ausführen.
    ORDER BY EventTime DESC;
    ```
 
-1. Führen Sie diese Abfrage aus, um alle Empfängeradressen abzurufen, die die Nachricht nicht erhalten haben, während der BCC-Eintrag innerhalb der letzten 30 Tage vorhanden ist:
+1. Führen Sie diese Abfrage aus, um alle Empfängeradressen abzurufen, die die Nachricht nicht erhalten haben, obwohl ihr BCC-Eintrag innerhalb der letzten 30 Tage existierte:
 
    ```
     SELECT
