@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Das Nachrichten-Handbuch wurde umstrukturiert und in dedizierte Handbücher für jeden Kanal unterteilt:
 
    * [E-Mail-Kanal](../email/get-started-email.md)
-   * [Push-Benachrichtigungskanal](../push/get-started-push.md)
+   * [Kanal für Push-Benachrichtigungen](../push/get-started-push.md)
    * [SMS-Kanal](../sms/get-started-sms.md)
 
 * Das Konfigurationshandbuch wurde neu organisiert, um die Lesbarkeit zu verbessern. [Mehr dazu](../configuration/get-started-configuration.md)
@@ -177,7 +177,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Die Seite **Schnellstart** mit Schritten für verschiedene Personas wurde verbessert. [Mehr dazu](../start/quick-start.md)
 
-* Jetzt gelten alle im entsprechenden Abschnitt beschriebenen Entscheidungs-Management-Funktionen auch für die Adobe Experience Platform-Benutzer, die den Offer Decisioning-Anwendungs-Service nutzen. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
+*  Alle im entsprechenden Abschnitt beschriebenen Funktionen des Entscheidungs-Managements gelten nun auch für Benutzende der Adobe Experience Platform, die den Anwendungs-Service Offer Decisioning nutzen. [Mehr dazu](../offers/get-started/starting-offer-decisioning.md)
 
 * Es wurde ein Unterabschnitt hinzugefügt, in dem die Unterschiede zwischen der Verwendung von Segmenten und Entscheidungsregeln erläutert werden, wenn eine Beschränkung angewendet wird, mit der die Auswahl von Angeboten für eine bestimmte Platzierung eingeschränkt wird. [Mehr dazu](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

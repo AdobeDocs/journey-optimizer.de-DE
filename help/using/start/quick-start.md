@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Schnellstart
-description: Als Marketer, Administrator oder Dateningenieur lernen und lernen Sie die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennen.
+description: Marketing-Experten, Administratoren und Datentechniker können hier anhand einer schrittweisen Anleitung Adobe Journey Optimizer kennenlernen und erkunden.
 feature: Overview
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Schnellstart {#cjm-quick-start}
 
-Mit [!DNL Adobe Journey Optimizer]können Sie vorhandenen Nachrichteninhalt importieren oder einen neuen Inhalt entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, um Nachrichten auszulösen, Segmente definieren und Zielgruppen verfeinern, Angebote erstellen und hinzufügen und auf einen vollständigen Satz von Berichts- und Überwachungstools zugreifen, um die Wirkung Ihrer Nachrichten und Customer Journeys zu messen.
+Mit [!DNL Adobe Journey Optimizer] können Sie vorhandene Nachrichteninhalte importieren und neue Inhalte entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, die Nachrichten auslösen, Segmente definieren und Zielgruppen verfeinern, Angebote erstellen und hinzufügen und auf ein komplettes Set von Berichts- und Überwachungs-Tools zugreifen, um die Auswirkungen Ihrer Nachrichten und Customer Journeys zu messen.
 
-Je nach Organisation können Sie verschiedene Arten von Benutzern definieren und ihnen je nach Berechtigung Zugriff auf bestimmte Funktionen gewähren.
+Abhängig von Ihrem Unternehmen können Sie verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-Beginnen Sie mit [!DNL Journey Optimizer]? Erfahrener Benutzer mit bestimmten Fragen? Administrator Ihrer Unternehmensinstanz? Nehmen Sie Ihren eigenen Weg, um schneller zu Ihren Zielen zu kommen!
+Beginnen Sie mit der Verwendung von [!DNL Journey Optimizer]? Sind Sie ein erfahrener Benutzer, haben aber bestimmte Fragen? Sind Sie der Administrator Ihrer Unternehmensinstanz? Nehmen Sie Ihren eigenen Weg, um schneller an Ihr Ziel zu kommen! 
 
-Um die Leistungsfähigkeit von Adobe Journey Optimizer mit einer schrittweisen Anleitung kennenzulernen und zu entdecken, wählen Sie Ihr Profil aus.
+Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsfähigkeit von Adobe Journey Optimizer kennenzulernen.
 
 * Ich bin **Administrator**
 
-   Bereiten Sie Ihre Umgebung vor, gewähren Sie Zugriff, konfigurieren Sie Einstellungen. [Weitere Infos](path/administrator.md)
+   Umgebung vorbereiten, Zugriff gewähren, Einstellungen konfigurieren. [Weitere Informationen](path/administrator.md)
 
-* Ich bin **Dateningenieur**
+* Ich bin **Datentechniker**
 
-   Importieren Sie Profile, erstellen Sie Zielgruppen, erstellen Sie Schemata und Datensätze. [Weitere Infos](path/data-engineer.md)
+   Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen. [Weitere Informationen](path/data-engineer.md)
 
-* Ich bin **Marketer**
+* Ich bin **Marketing-Experte**
 
-   Erstellen Sie Nachrichten, fügen Sie Angebote und Assets hinzu und erstellen Sie Customer Journeys. [Weitere Infos](path/marketer.md)
+   Erstellen von Nachrichten, Hinzufügen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)
