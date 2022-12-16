@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berechtigungsebenen
-description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene
+description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene.
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '907'
+ht-degree: 100%
 
 ---
 
@@ -18,67 +18,67 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/permissions.png)
 
-Jedes Produktprofil besteht aus Berechtigungen, die Benutzern den Zugriff auf die verschiedenen Funktionen ermöglichen.
+Jedes Produktprofil besteht aus Berechtigungen, die Benutzenden den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die zugewiesen werden können **[!UICONTROL Product profile]** im [!DNL Admin console], z. B. **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene.
+* **Berechtigung auf hoher Ebene**: beinhaltet die verschiedenen Berechtigungen, die **[!UICONTROL Produktprofilen]** in [!DNL Admin console] zugewiesen werden können, z. B. **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene.
 
-* **Berechtigung auf niedriger Ebene**: stellt die verschiedenen Berechtigungen dar, die von der Berechtigung auf hoher Ebene stammen.
+* **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
-Beispiel: die **[!DNL Journey administrator]** dem Produktprofil wird die **[!DNL Manage journeys]** Berechtigung. Aus dieser Berechtigung resultieren die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
+Dem Produktprofil **[!DNL Journey administrator]** wird zum Beispiel die Berechtigung **[!DNL Manage journeys]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es dem Journey-Administrator ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 
 ## Journey-Funktion {#journey-capability}
 
-### [!DNL Manage journeys] Berechtigung {#manage-journeys}
+### Berechtigung [!DNL Manage journeys] {#manage-journeys}
 
-Die **[!DNL Manage journeys]** Mit einer allgemeinen Berechtigung können Benutzer neue Journeys erstellen und bearbeiten/löschen sowie auf die Objekte zugreifen, die in der Journey-Arbeitsfläche zum Erstellen des Journey-Flusses verwendet werden.
+Die Berechtigung **[!DNL Manage journeys]** auf hoher Ebene ermöglicht Benutzenden das Erstellen neuer und das Bearbeiten/Löschen vorhandener Journeys sowie den Zugriff auf die Objekte, die in der Journey-Arbeitsfläche zum Erstellen des Journey Flow verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
 
    * journeys.read
    * journeys.write
    * journeys.delete
    * messages.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
 
    * segments.read
    * profiles.read
    * datasets.read
    * schemas.read
 
-### [!DNL Publish journeys] Berechtigung {#publish-journeys}
+### Berechtigung [!DNL Publish journeys] {#publish-journeys}
 
-Die **[!DNL Publish journeys]** Mit einer allgemeinen Berechtigung können Benutzer Journeys veröffentlichen.
+Mit der Berechtigung **[!DNL Publish journeys]** auf hoher Ebene können Benutzende Journeys veröffentlichen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys.publish
    * journeys.read
 
-### [!DNL View journeys] Berechtigung {#view-journeys}
+### Berechtigung [!DNL View journeys] {#view-journeys}
 
-Die **[!DNL View journeys]** Mit einer allgemeinen Berechtigung können Benutzer Journeys durchsuchen und anzeigen.
+Die Berechtigung **[!DNL View journeys]** auf hoher Ebene ermöglicht Benutzenden das Durchsuchen und Anzeigen von Journeys.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * segments.read
    * profiles.read
 
-### [!DNL Manage journeys events, data sources and actions] Berechtigung {#manage-journeys-events}
+### Berechtigung [!DNL Manage journeys events, data sources and actions] {#manage-journeys-events}
 
-Die **[!DNL Manage journeys events, data sources and actions]** Mit Berechtigungen auf hoher Ebene können Benutzer Ereignis- und Datenkonfigurationen konfigurieren.
+Mit der Berechtigung **[!DNL Manage journeys events, data sources and actions]** auf hoher Ebene können Benutzende Ereignis- und Datenkonfigurationen durchführen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys_events.read
    * journeys_events.write
    * journeys_events.delete
@@ -89,52 +89,52 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * journeys_actions.write
    * journeys_actions.delete
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys events, data sources and actions] Berechtigung {#view-journeys-event}
+### Berechtigung [!DNL View journeys events, data sources and actions] {#view-journeys-event}
 
-Die **[!DNL View journeys events, data sources and actions]** Mit einer allgemeinen Berechtigung können Benutzer Ereignisse und Daten im Journey-Fluss verwenden.
+Die Berechtigung **[!DNL View journeys events, data sources and actions]** auf hoher Ebene ermöglicht Benutzenden die Verwendung von Ereignissen und Daten im Journey Flow.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys_events.read
    * journeys_data_sources.read
    * journeys_actions.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### [!DNL View journeys report] Berechtigung {#view-journeys-report}
+### Berechtigung [!DNL View journeys report] {#view-journeys-report}
 
-Die **[!DNL View journeys report]** Mit allgemeinen Berechtigungen können Benutzer schreibgeschützte Journey-Berichte erstellen.
+Die Berechtigung **[!DNL View journeys report]** auf hoher Ebene ermöglicht es Benutzenden, auf schreibgeschützte Journey-Berichte zuzugreifen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * journeys_report.read
    * messages_report.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * datasets.read
    * queries.read
    * queries.write
    * queries.delete
 
-## Entscheidungsverwaltungsfunktionen {#decisions-permissions}
+## Entscheidungs-Management-Funktion {#decisions-permissions}
 
-### [!DNL Manage decisions] Berechtigung {#manage-decisioning}
+### Berechtigung [!DNL Manage decisions] {#manage-decisioning}
 
-Die **[!DNL Manage decisions]** Berechtigung auf hoher Ebene ermöglicht Benutzern das Erstellen neuer und Bearbeiten/Löschen vorhandener **[!DNL Activity entities]** und verwalten die Objekte, die in diesen Aktivitäten für die Entscheidungsfindung verwendet werden.
+Die Berechtigung **[!DNL Manage decisions]** auf hoher Ebene ermöglicht Benutzenden das Erstellen neuer und das Bearbeiten/Löschen vorhandener **[!DNL Activity entities]** sowie das Verwalten der Objekte, die in diesen Aktivitäten zur Entscheidungsfindung verwendet werden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für das Entscheidungs-Management:
    * activities.read
    * activities.write
    * activities.delete
@@ -146,7 +146,7 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * datasets.read
    * datasets.write
    * datasets.delete
@@ -154,33 +154,33 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * profile.read
    * segments.read
 
-### [!DNL View decisions] Berechtigung {#view-decisions}
+### Berechtigung [!DNL View decisions] {#view-decisions}
 
-Die **[!DNL View decisions]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, eine vorhandene Aktivität und verwandte Geschäftsobjekte zu verwenden, um Entscheidungen zu treffen.
+Mit der Berechtigung **[!DNL View decisions]** auf hoher Ebene können Benutzende eine vorhandene Aktivität und zugehörige Geschäftsobjekte verwenden, um Entscheidungen zu treffen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für das Entscheidungs-Management:
    * activities.read
    * offers.read
    * placements.read
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
    * datasets.write
    * datasets.delete
 
-### [!DNL Publish offers decisioning] Berechtigung {#publish-decisions}
+### Berechtigung [!DNL Publish offers decisioning] {#publish-decisions}
 
-Die **[!DNL Publish offers decisioning]** -Berechtigung auf hoher Ebene ermöglicht Benutzern den Zugriff auf die Genehmigung/Aufhebung der Genehmigung von Angebotsaktivitäten.
+Die Berechtigung **[!DNL Publish offers decisioning]** auf hoher Ebene ermöglicht es Benutzenden, Angebotsaktivitäten zu genehmigen bzw. deren Genehmigung zurückzunehmen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
-   * offer_activity.read
+* Spezifisch für das Entscheidungs-Management:
+   * offers_activity.read
    * offers.read
    * offers.write
    * offers.delete
@@ -189,19 +189,19 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * placements.delete
    * ranking_strategy.read
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * schemas.read
    * segment.read
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] Berechtigung {#manage-ranking-strategies}
+### Berechtigung [!DNL Manage ranking strategies] {#manage-ranking-strategies}
 
-Die **[!DNL Manage ranking strategies]** Mit allgemeinen Berechtigungen können Benutzer Rangstrategien lesen, erstellen, bearbeiten und löschen.
+Die Berechtigung auf hoher Ebene **[!DNL Manage ranking strategies]** ermöglicht es Benutzenden, Rangfolgestrategien zu lesen, zu erstellen, zu bearbeiten und zu löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Spezifisches Entscheidungsmanagement:
+* Spezifisch für das Entscheidungs-Management:
    * ranking_strategy.read
    * ranking_strategy.write
    * ranking_strategy.delete
@@ -209,11 +209,11 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * offers.read
    * placements.read
 
-## Administrationsfunktionen {#administration-permissions}
+## Verwaltungsfunktionen {#administration-permissions}
 
-### [!DNL Manage subdomains delegation] Berechtigung {#manage-subdomain}
+### Berechtigung [!DNL Manage subdomains delegation] {#manage-subdomain}
 
-Die **[!DNL Manage subdomains delegation]** Mit einer allgemeinen Berechtigung können Benutzer Subdomain-Delegationen erstellen, bearbeiten und löschen (einschließlich IP-Pool).
+Mit der Berechtigung **[!DNL Manage subdomains delegation]** auf hoher Ebene können Benutzende die Zuweisung von Subdomains (einschließlich IP-Pool) erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -221,9 +221,9 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * subdomains_delegation.write
 * subdomains_delegation.delete
 
-### [!DNL Manage PTR records] Berechtigung {#manage-ptr}
+### Berechtigung [!DNL Manage PTR records] {#manage-ptr}
 
-Die **[!DNL Manage PTR records]** Mit allgemeinen Berechtigungen können Benutzer PTR-Einträge lesen und bearbeiten, die basierend auf der Subdomain konfiguriert wurden.
+Die **[!DNL Manage PTR records]** High-Level-Berechtigung ermöglicht es Benutzern, PTR-Einträge, die basierend auf der Subdomain konfiguriert wurden, zu lesen und zu bearbeiten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -231,18 +231,18 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * PTR_records.write
 * subdomains_delegation.read
 
-### [!DNL View PTR records] Berechtigung {#view-ptr}
+### Berechtigung [!DNL View PTR records] {#view-ptr}
 
-Die **[!DNL View PTR records]** Mit einer allgemeinen Berechtigung können Benutzer PTR-Datensätze anzeigen, die basierend auf der Subdomain konfiguriert wurden.
+Die Berechtigung **[!DNL View PTR records]** auf hoher Ebene ermöglicht Benutzenden das Anzeigen von PTR-Einträgen, die basierend auf der Subdomain konfiguriert wurden.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * PTR_records.read
 * subdomains_delegation.read
 
-### [!DNL Manage IP pools] Berechtigung {#manage-ip-pools}
+### Berechtigung [!DNL Manage IP pools] {#manage-ip-pools}
 
-Die **[!DNL Manage IP pools]** Mit Berechtigung auf hoher Ebene können Benutzer die Affinitätsdefinition erstellen, bearbeiten und löschen.
+Mit der Berechtigung **[!DNL Manage IP pools]** auf hoher Ebene können Benutzende eine Affinitätsdefinition erstellen, bearbeiten und löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -276,13 +276,13 @@ It includes the following low-level permissions:
   * schemas.read
 -->
 
-### [!DNL Manage channel surface] Berechtigung {#manage-channel-surface}
+### Berechtigung [!DNL Manage channel surface] {#manage-channel-surface}
 
-Die **[!DNL Manage channel surface]** Mit Berechtigung auf hoher Ebene können Benutzer Kanaloberflächen auf Kanalebene auf Sandbox-Ebene erstellen, bearbeiten und löschen.
+Die Berechtigung **[!DNL Manage channel surface]** auf hoher Ebene ermöglicht es Benutzenden, Kanaloberflächen kanalübergreifend auf Sandbox-Ebene zu erstellen, zu bearbeiten und zu löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * messages_presets.read
    * messages_presets.write
    * messages_presets.delete
@@ -290,20 +290,20 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * IP_pools.read
    * mobile_setting.read (aus Adobe Experience Platform Launch)
 
-### [!DNL View channel surface] Berechtigung {#view-channel-surface}
+### Berechtigung [!DNL View channel surface] {#view-channel-surface}
 
-Die **[!DNL View channel surface]** Mit Berechtigungen auf hoher Ebene können Benutzer Kanaloberflächen anzeigen, um zu erfahren, welche Kanaloberflächen verwendet werden sollen.
+Die Berechtigung **[!DNL View channel surface]** auf hoher Ebene ermöglicht es Benutzenden, Kanaloberflächen zu anzusehen, um festzustellen, welche Kanaloberflächen zu verwenden sind.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
 * messages_presets.read
 * subdomains_delegation.read
 * IP_pools.read
-* mobile_setting.read (aus der Adobe Experience Platform-Datenerfassung)
+* mobile_setting.read (aus Adobe Experience Platform-Datensammlung)
 
-### [!DNL Manage suppression] Berechtigung {#manage-suppression}
+### Berechtigung [!DNL Manage suppression] {#manage-suppression}
 
-Die **[!DNL Manage suppression]** Mit einer allgemeinen Berechtigung können Benutzer die Anzahl der Bounces definieren, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
+Mit der Berechtigung auf hoher Ebene **[!DNL Manage suppression]** können Benutzende definieren, wie viele Bounces auftreten können, bevor eine E-Mail-Adresse zur Unterdrückungsliste hinzugefügt wird, sowie Einträge zur Unterdrückungsliste hinzufügen und daraus löschen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -313,39 +313,39 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 * suppression_list.write
 * suppression_list.delete
 
-### [!DNL View suppression list] Berechtigung {#view-suppression-list}
+### Berechtigung [!DNL View suppression list] {#view-suppression-list}
 
-Die **[!DNL View suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, den Inhalt und die Einstellungen der Unterdrückungsliste anzuzeigen.
+Mit der Berechtigung **[!DNL View suppression list]** auf hoher Ebene können Benutzende den Inhalt und die Einstellungen der Unterdrückungsliste anzeigen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * suppression_list.view
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] Berechtigung {#export-suppression-list}
+### Berechtigung [!DNL Export suppression list] {#export-suppression-list}
 
-Die **[!DNL Export suppression list]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, die Unterdrückungsliste als CSV-Datei herunterzuladen.
+Mit der Berechtigung auf hoher Ebene **[!DNL Export suppression list]** können Benutzende die Unterdrückungsliste als CSV-Datei herunterladen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * suppression_list.export
 
-* Adobe Experience Platform-spezifisch:
+* Spezifisch für Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### [!DNL Manage landing page settings] Berechtigung {#manage-landing-page-settings}
+### Berechtigung [!DNL Manage landing page settings] {#manage-landing-page-settings}
 
-Die **[!DNL Manage landing page settings]** Mit allgemeinen Berechtigungen können Benutzer Landingpage-Subdomains und Vorgabeneinstellungen lesen, erstellen und bearbeiten.
+Die Berechtigung auf höchster Ebene in **[!DNL Manage landing page settings]** erlaubt es Benutzenden, Landingpage-Subdomains und Voreinstellungen zu lesen, zu erstellen und zu bearbeiten.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * landing_page_subdomain.read
    * landing_page_subdomain.write
    * landing_page_subdomain.delete
@@ -353,22 +353,22 @@ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * landing_page_preset.write
    * landing_page_preset.delete
 
-### [!DNL Manage frequency rules] Berechtigung {#manage-frequency-rules}
+### Berechtigung [!DNL Manage frequency rules] {#manage-frequency-rules}
 
-Die **[!DNL Manage frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln lesen, erstellen, bearbeiten, löschen und aktivieren/deaktivieren.
+Die Berechtigung auf hoher Ebene **[!DNL Manage frequency rules]** ermöglicht es Benutzenden, Häufigkeitsregeln zu lesen, zu erstellen, zu bearbeiten, zu löschen und zu aktivieren/deaktivieren.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * frequency_rules.read
    * frequency_rules.write
    * frequency_rules.delete
 
-### [!DNL View frequency rules] Berechtigung {#view-frequency-rules}
+### Berechtigung [!DNL View frequency rules] {#view-frequency-rules}
 
-Die **[!DNL View frequency rules]** Mit Berechtigungen auf hoher Ebene können Benutzer Frequenzregeln anzeigen.
+Mit der Berechtigung **[!DNL View frequency rules]** auf hoher Ebene können Benutzende Häufigkeitsregeln lesen.
 
 Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
-* Journey Optimizer-spezifisch:
+* Spezifisch für Journey Optimizer:
    * frequency_rules.read

@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
-title: Schnittmenge
-description: Erfahren Sie mehr über die Funktionsüberschneidung
+title: intersect
+description: Erfahren Sie mehr über die Funktion „function“
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 100%
 
 ---
 
-# Schnittmenge{#intersect}
+# intersect{#intersect}
 
-Gibt die gebräuchlichen Werte in den beiden Eingabelisten zurück. Wenn eine der beiden Listen null ist, wird eine leere Liste zurückgegeben.
+Gibt die gemeinsamen Werte in den beiden Eingabe-Listen zurück. Wenn eine der beiden Listen null ist, wird eine leere Liste zurückgegeben.
 
 ## Kategorie
 
@@ -30,7 +30,7 @@ Liste
 | Parameter | Typ |
 |-----------|------------------|
 | Liste 1 | Liste |
-| Liste 2 | Liste |
+| Liste 2 | Liste  |
 
 ## Signaturen und zurückgegebene Typen
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-Rückgabe [&quot;sports&quot;, &quot;news&quot;]
+Gibt [&quot;sports&quot;, &quot;news&quot; zurück]
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-Gibt allgemeine Elemente zwischen Profilattributen und der angegebenen Liste von Kategorien zurück.
+Gibt häufige Elemente zwischen Profil-Attributen und der angegebenen Liste von Kategorien zurück.
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-Gibt allgemeine Elemente zwischen Profilattributen und dem angegebenen Ereignisfeld zurück.
+Gibt häufige Elemente zwischen Profil-Attributen und angegebenem Ereignis-Feld zurück.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Segmentqualifikationsereignisse
-description: Erfahren Sie mehr über Segmentqualifikationsereignisse
+description: Mehr über Segmentqualifikationsereignisse
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,42 +10,42 @@ level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '888'
+ht-degree: 100%
 
 ---
 
-# Segmentqualifikationsereignisse {#segment-qualification}
+# Segmentqualifizierungsereignisse {#segment-qualification}
 
 ## Über Segmentqualifikationsereignisse{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Segmentqualifikationsereignisse"
+>title="Segmentqualifizierungsereignisse"
 >abstract="Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten überwachen, um Kontakte dazu zu bringen, in eine Journey einzutreten oder in einer Journey fortzufahren."
 
-Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten überwachen, um Kontakte dazu zu bringen, in eine Journey einzutreten oder in einer Journey fortzufahren. Weiterführende Informationen zur Segmenterstellung finden Sie in diesem Abschnitt [Abschnitt](../segment/about-segments.md).
+Mit dieser Aktivität kann Ihre Journey die Ein- und Austritte von Profilen in Adobe Experience Platform-Segmenten überwachen, um Kontakte dazu zu bringen, in eine Journey einzutreten oder in einer Journey fortzufahren. Weiterführende Informationen zur Erstellung von Segmenten finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
-Nehmen wir an, Sie haben ein Segment &quot;Silber-Kunde&quot;. Mit dieser Aktivität können Sie alle neuen Silber-Kunden in eine Journey eintreten lassen und ihnen eine Reihe personalisierter Nachrichten senden.
+Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle neuen Silber-Kunden eine Journey beginnen, und ihnen eine Reihe personalisierter Nachrichten senden.
 
-Dieser Ereignistyp kann als erster Schritt oder später in der Journey positioniert werden.
+Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey positioniert werden.
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch** Segmente) oder in Echtzeit (**gestreamt** Segmente mithilfe der Option &quot;Zielgruppen mit hoher Häufigkeit&quot;von Adobe Experience Platform).
+>Denken Sie daran, dass Adobe Experience Platform-Segmente entweder einmal täglich (**Batch**-Segmente) oder in Echtzeit (**Streaming**-Segmente, unter Verwendung der Option „Zielgruppen mit hoher Häufigkeit“ von Adobe Experience Platform) berechnet werden.
 >
 >Wenn das ausgewählte Segment gestreamt wird, treten die zu diesem Segment gehörenden Kontakte in Echtzeit in die Journey ein. Wenn es sich bei dem Segment um ein Batch-Segment handelt, treten für dieses Segment neu qualifizierte Personen in die Journey ein, wenn die Segmentberechnung in Adobe Experience Platform ausgeführt wird.
 >
->Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einem Segment lesen, einer Segmentqualifizierung oder einer Geschäftsereignisaktivität beginnen.
+>Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen.
 
 
-1. Entfalten Sie die **[!UICONTROL Events]** Kategorie und legen Sie eine **[!UICONTROL Segment Qualification]** -Aktivität in Ihre Arbeitsfläche.
+1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** auf Ihrer Arbeitsfläche ab.
 
    ![](assets/segment5.png)
 
-1. Hinzufügen einer **[!UICONTROL Label]** zur Aktivität hinzu. Dieser Schritt ist optional.
+1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu. Dieser Schritt ist optional.
 
-1. Klicken Sie in **[!UICONTROL Segment]** und wählen Sie die Segmente aus, die Sie nutzen möchten.
+1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die gewünschten Segmente aus.
 
    >[!NOTE]
    >
@@ -53,17 +53,17 @@ Dieser Ereignistyp kann als erster Schritt oder später in der Journey positioni
 
    ![](assets/segment6.png)
 
-   Sobald das Segment hinzugefügt wurde, wird die **[!UICONTROL Copy]** -Schaltfläche können Sie den Namen und die Kennung kopieren:
+   Nachdem das Segment hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** dessen Namen und ID kopieren:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. Im **[!UICONTROL Behaviour]** auswählen, ob Sie Segmenteintritte, -austritte oder beides überwachen möchten.
+1. Wählen Sie im Feld **[!UICONTROL Verhalten]** aus, ob Sie Segmenteintritte, -austritte oder beides überwachen möchten.
 
    >[!NOTE]
    >
-   >Beachten Sie Folgendes: **[!UICONTROL Enter]** und **[!UICONTROL Exit]** entsprechen **Realisiert** und **Beendet** Status der Segmentbeteiligung von Adobe Experience Platform. Weiterführende Informationen zur Auswertung eines Segments finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Beachten Sie, dass **[!UICONTROL Eintreten]** und **[!UICONTROL Verlassen]** den Segmentteilnahmestatus von Adobe Experience Platform **Realisiert** und **Ausgetreten** entsprechen. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target=&quot;_blank&quot;}.
 
 1. Wählen Sie einen Namespace aus. Dies ist nur erforderlich, wenn das Ereignis als erster Schritt der Journey positioniert wird.
 
@@ -71,46 +71,46 @@ Dieser Ereignistyp kann als erster Schritt oder später in der Journey positioni
 
 Die Payload enthält die folgenden Kontextinformationen, die Sie in Bedingungen und Aktionen verwenden können:
 
-* Verhalten (Eintritt, Ausstieg)
+* Verhalten (Eintritt, Austritt)
 * Zeitstempel der Qualifizierung
-* die Segment-ID
+* Segmentkennung
 
-Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die auf eine **[!UICONTROL Segment Qualification]** -Aktivität, haben Sie Zugriff auf die **[!UICONTROL SegmentQualification]** Knoten. Sie können zwischen dem **[!UICONTROL Last qualification time]** und **[!UICONTROL status]** (Einstieg oder Ausstieg).
+Wenn Sie den Ausdruckseditor in einer Bedingung oder Aktion verwenden, die einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** folgt, können Sie auf den Knoten **[!UICONTROL SegmentQualification]** zugreifen. Sie können zwischen der **[!UICONTROL letzten Qualifikationszeit]** und dem **[!UICONTROL Status]** (Einstieg oder Ausstieg) wählen.
 
 Siehe [Bedingungsaktivität](../building-journeys/condition-activity.md#about_condition).
 
 ![](assets/segment8.png)
 
-Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Dienstes. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
+Eine neue Journey, die ein Segmentqualifikationsereignis enthält, ist zehn Minuten nach der Veröffentlichung funktionsfähig. Dieses Zeitintervall entspricht dem Cache-Aktualisierungsintervall des dedizierten Services. Daher müssen Sie zehn Minuten warten, bevor Sie diese Journey verwenden.
 
 ## Best Practices {#best-practices-segments}
 
-Die **[!UICONTROL Segment Qualification]** -Aktivität ermöglicht den sofortigen Eintritt in Journeys von Personen, die sich von einem Adobe Experience Platform-Segment qualifiziert oder disqualifiziert haben.
+Mit der Aktivität **[!UICONTROL Segmentqualifikation]** wird der sofortige Eintritt in Journeys von Kontakten möglich, die über ein Adobe Experience Platform-Segment qualifiziert oder disqualifiziert werden.
 
-Die Empfangsgeschwindigkeit dieser Informationen ist hoch. Die durchgeführten Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Daher sollten Sie sich darüber im Klaren sein, wie Eintrittsspitzen auftreten können, wie diese vermieden werden und wie Sie Ihre Reise für sie vorbereitet machen können.
+Die Empfangsgeschwindigkeit dieser Daten ist hoch. Durchgeführte Messungen zeigen eine Geschwindigkeit von 10.000 empfangenen Ereignissen pro Sekunde. Daher sollten Sie wissen, wie Eintrittsspitzen auftreten können, wie sie sich vermeiden lassen und wie Sie Ihre Journey darauf vorbereiten können.
 
 ### Batch-Segmente{#batch-speed-segment-qualification}
 
-Beachten Sie bei der Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Spitze des Eintritts auftritt. Die Größe der Spitze hängt von der Anzahl der Kontakte ab, die das Segment täglich aufrufen (oder verlassen).
+Beachten Sie bei Verwendung der Segmentqualifikation für ein Batch-Segment, dass zum Zeitpunkt der täglichen Berechnung eine Eintrittsspitze auftritt. Der Umfang der Spitze hängt von der Zahl der Kontakte ab, die in das Segment täglich eintreten (bzw. austreten).
 
-Wenn das Batch-Segment neu erstellt und sofort in einer Journey verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
+Wenn das Batch-Segment neu erstellt und in einer Journey unmittelbar verwendet wird, kann der erste Berechnungs-Batch außerdem dazu führen, dass sehr viele Kontakte in die Journey eintreten.
 
 ### Streaming-Segmente{#streamed-speed-segment-qualification}
 
-Bei der Verwendung der Segmentqualifikation für Streaming-Segmente besteht aufgrund der kontinuierlichen Auswertung des Segments ein geringeres Risiko, dass es zu großen Spitzen bei Ein-/Austritten kommt. Wenn die Segmentdefinition dazu führt, dass eine große Anzahl von Kunden gleichzeitig qualifiziert wird, kann es auch zu einer Spitze kommen.
+Bei Verwendung der Segmentqualifikation für Streaming-Segmente besteht aufgrund der kontinuierlichen Bewertung des Segments ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Segmentdefinition dazu führt, dass eine große Zahl von Kunden gleichzeitig qualifiziert wird, kann es jedoch ebenfalls zu einer Spitze kommen.
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie unter [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
-Im Folgenden finden Sie einige Best Practices, mit denen Sie verhindern können, dass in Journeys genutzte Systeme überlastet werden (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten).
+Im Folgenden finden Sie Best Practices, die Ihnen dabei helfen, eine Überlastung der für Journeys genutzten Systeme zu verhindern (Datenquellen, benutzerdefinierte Aktionen, Kanalaktionsaktivitäten).
 
-Verwenden Sie nicht in einer **[!UICONTROL Segment Qualification]** -Aktivität, ein Batch-Segment unmittelbar nach seiner Erstellung. Dadurch wird die erste Berechnungsspitze vermieden. Beachten Sie, dass die Arbeitsfläche der Journey eine gelbe Warnung enthält, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
+Verwenden Sie in einer Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** Batch-Segmente nicht unmittelbar nach ihrer Erstellung. So lässt sich die erste Berechnungsspitze vermeiden. Beachten Sie, dass in der Journey-Arbeitsfläche eine gelbe Warnung angezeigt wird, wenn Sie im Begriff sind, ein Segment zu verwenden, das noch nie berechnet wurde.
 
 ![](assets/segment-error.png)
 
-Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen finden Sie unter [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Beachten Sie, dass die Begrenzungsregel keinen erneuten Versuch enthält. Wenn Sie es erneut versuchen müssen, müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie das Kontrollkästchen aktivieren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in Bedingungen oder Aktionen.
+Legen Sie eine Begrenzungsregel für Datenquellen und Aktionen fest, die in Journeys verwendet werden, um eine Überlastung zu vermeiden. Weitere Informationen finden Sie in der [Dokumentation zu Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=de){target=&quot;_blank&quot;}. Beachten Sie, dass die Begrenzungsregel nicht erneut versucht wird. Für einen erneuten Versuch müssen Sie einen alternativen Pfad in der Journey verwenden, indem Sie in Bedingungen oder Aktionen das Kontrollkästchen **[!UICONTROL Alternativen Pfad hinzufügen, falls eine Zeitüberschreitung oder ein Fehler auftritt]** aktivieren.
 
-Bevor Sie das Segment in einer Produktions-Journey verwenden, bewerten Sie immer zuerst das Volumen der Kontakte, die sich für dieses Segment täglich qualifizieren. Dazu können Sie die **[!UICONTROL Segments]** öffnen Sie das Segment und sehen Sie sich dann die **[!UICONTROL Profiles over time]** Diagramm.
+Bevor Sie das Segment in einer Produktions-Journey verwenden, sollten Sie immer zuerst das Volumen der Kontakte auswerten, die sich für dieses Segment täglich qualifizieren. Dazu können Sie auf das Menü **[!UICONTROL Segmente]** klicken, das Segment öffnen und dann das Diagramm **[!UICONTROL Profil im Zeitverlauf]** anzeigen.
 
 ![](assets/segment-overload.png)

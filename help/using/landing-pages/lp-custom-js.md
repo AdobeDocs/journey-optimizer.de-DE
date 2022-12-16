@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwenden von benutzerdefiniertem JavaScript in einer Landingpage
-description: Erfahren Sie, wie Sie den Inhalt einer Landingpage in Journey Optimizer erstellen.
+description: Erfahren Sie, wie Sie den Inhalt einer Landingpage in Journey Optimizer erstellen
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,38 +10,38 @@ level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 100%
 
 ---
 
 # Verwenden von benutzerdefiniertem JavaScript in einer Landingpage {#lp-custom-js}
 
-Sie können den Inhalt Ihrer Landingpage mit benutzerdefiniertem JavaScript definieren. Wenn Sie beispielsweise erweiterte Stile oder benutzerdefinierte Verhaltensweisen zu Ihren Landingpages hinzufügen möchten, können Sie Ihre eigenen Steuerelemente erstellen und in [!DNL Journey Optimizer].
+Sie können den Inhalt Ihrer Landingpage mit benutzerdefiniertem JavaScript definieren. Wenn Sie beispielsweise erweiterte Stile oder benutzerdefinierte Verhaltensweisen zu Ihren Landingpages hinzufügen möchten, können Sie Ihre eigenen Steuerelemente erstellen und in [!DNL Journey Optimizer] ausführen.
 
-## JavaScript-Code in eine Landingpage einfügen
+## Einfügen von JavaScript-Code in eine Landingpage
 
-Um benutzerdefiniertes JavaScript in den Inhalt von Landingpages einzufügen, können Sie entweder Folgendes tun:
+Um benutzerdefiniertes JavaScript in die Inhalte von Landingpages einzufügen, haben Sie die folgenden Möglichkeiten:
 
-* Importieren Sie vorhandenen HTML-Inhalt, wenn Sie mit der Erstellung des Inhalts beginnen, und wählen Sie die Datei aus, die Ihren benutzerdefinierten JavaScript-Code enthält. Erfahren Sie, wie Sie Inhalte importieren [in diesem Abschnitt](../email/existing-content.md).
+* Importieren Sie vorhandene HTML-Inhalte, wenn Sie mit der Erstellung des Inhalts beginnen, und wählen Sie die Datei aus, die Ihren benutzerdefinierten JavaScript-Code enthält. [In diesem Abschnitt](../email/existing-content.md) erfahren Sie, wie Sie Inhalte importieren.
 
-* Erstellen Sie Ihre Landingpage von Grund auf neu oder aus einer gespeicherten Vorlage. Ziehen Sie die **[!UICONTROL HTML]** Inhaltskomponente in die Arbeitsfläche und zeigen Sie den Quellcode an, um Ihr JavaSCript zur Komponente hinzuzufügen. Erfahren Sie, wie Sie die HTML-Komponente in [diesem Abschnitt](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Erstellen Sie Ihre Landingpage von Grund auf neu oder aus einer gespeicherten Vorlage. Ziehen Sie die **[!UICONTROL HTML]**-Inhaltskomponente in die Arbeitsfläche und zeigen Sie den Quell-Code an, um Ihr JavaScript zur Komponente hinzuzufügen. In [diesem Abschnitt](../email/content-components.md#HTML) erfahren Sie, wie Sie die HTML-Komponente verwenden. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Geben Sie JavaScript-Code direkt in den Inhaltsdesigner ein oder fügen Sie ihn ein. Erfahren Sie, wie Sie eigene Inhalte kodieren [in diesem Abschnitt](../email/code-content.md).
+* Geben Sie JavaScript-Code direkt in den Inhalts-Designer ein oder fügen Sie ihn ein. Erfahren Sie [in diesem Abschnitt](../email/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 
 >[!NOTE]
 >
->Derzeit ist es nicht möglich, JavaScript in Aktion anzuzeigen, wenn [Landingpage-Vorschau](create-lp.md#test-landing-page).
+>Derzeit können Sie bei der [Vorschau der Landingpage](create-lp.md#test-landing-page) kein JavaScript in Aktion anzeigen.
 
 Damit die Landingpage korrekt angezeigt wird, verwenden Sie die folgende Syntax, wie in den folgenden Abschnitten beschrieben.
 
 ## Code-Initialisierung
 
-Zur Initialisierung Ihres JavaScript-Codes müssen Sie die Variable `lpRuntimeReady` -Ereignis. Dieses Ereignis wird nach erfolgreicher Initialisierung der Bibliothek ausgelöst. Der Rückruf wird mit der `lpRuntime` -Objekt, um die Bibliotheksmethode und die Hooks verfügbar zu machen.
+Zur Initialisierung Ihres JavaScript-Codes müssen Sie das Ereignis `lpRuntimeReady` verwenden. Dieses Ereignis wird nach erfolgreicher Initialisierung der Bibliothek ausgelöst. Der Rückruf wird mit dem `lpRuntime`-Objekt ausgeführt, um die Bibliotheksmethode und die Erweiterungspunkte (Hooks) verfügbar zu machen.
 
-`LpRuntime` steht für &quot;Landingpage Runtime&quot;. Dieses Objekt ist die Hauptbibliothekskennung. Sie stellt Hooks, Methoden zur Formularübermittlung und andere Dienstprogrammmethoden bereit, die in benutzerdefiniertem JavaScript verwendet werden können.
+`LpRuntime` steht für „Landingpage-Laufzeit“. Dieses Objekt ist die Hauptbibliothekskennung. Sie stellt Erweiterungspunkte, Methoden zur Formularübermittlung und andere Dienstprogrammmethoden bereit, die in benutzerdefiniertem JavaScript verwendet werden können.
 
 **Beispiel:**
 
@@ -59,15 +59,15 @@ function init(lpRuntime){
 }
 ```
 
-## Hooks
+## Erweiterungspunkte
 
-Mithilfe von Hooks können Sie während des Lebenszyklus der Formularübermittlung eine Methode anhängen. Beispielsweise können Sie mithilfe von Erweiterungspunkten eine Formularüberprüfung durchführen, bevor das Formular tatsächlich gesendet wird.
+Mithilfe von Erweiterungspunkten können Sie während des Lebenszyklus der Formularübermittlung eine Methode anhängen. Beispielsweise können Sie mithilfe von Erweiterungspunkten eine Formularüberprüfung durchführen, bevor das Formular tatsächlich übermittelt wird.
 
-Im Folgenden finden Sie die Hooks, die Sie verwenden können:
+Im Folgenden finden Sie die Erweiterungspunkte, die Sie verwenden können:
 
 | Name | Beschreibung |
 |--- |--- |
-| addBeforeSubmitHook | Benutzerdefinierter Erweiterungspunkt, der vor der Formularübermittlung aufgerufen werden soll. Gibt &quot;true&quot;zurück, um die Übermittlung fortzusetzen, sonst wird &quot;false&quot;zurückgegeben, um die Übermittlung zu blockieren. |
+| addBeforeSubmitHook | Benutzerdefinierter Erweiterungspunkt, der vor der Formularübermittlung aufgerufen werden soll. Gibt „true“ zurück, um die Übermittlung fortzusetzen, sonst wird „false“ zurückgegeben, um die Übermittlung zu blockieren. |
 | addOnFailureHook | Benutzerdefinierter Erweiterungspunkt, der bei fehlgeschlagener Formularübermittlung aufgerufen werden soll. |
 | addOnSuccessHook | Benutzerdefinierter Erweiterungspunkt, der bei erfolgreicher Formularübermittlung aufgerufen werden soll. |
 
@@ -86,12 +86,12 @@ Die unten aufgeführten Methoden werden verwendet, um benutzerdefinierte Formula
 
 >[!NOTE]
 >
->Da die Formularübermittlung von benutzerdefiniertem JavaScript verarbeitet wird, muss die Standardübermittlung explizit deaktiviert werden, indem eine globale Variable festgelegt wird `disableDefaultFormSubmission` nach `true`.
+>Da die Formularübermittlung von benutzerdefiniertem JavaScript gehandhabt wird, muss die Standardübermittlung explizit deaktiviert werden, indem die globale Variable `disableDefaultFormSubmission` auf `true` gesetzt wird.
 
 | Name | Beschreibung |
 |--- |--- |
-| submitForm | Diese Methode sendet das Formular und verarbeitet den Post-Submit-Fluss. |
-| submitFormPartial | Diese Methode sendet auch das Formular, überspringt aber den Post-Submit-Fluss. Wenn Sie beispielsweise die Umleitung zur Erfolgsseite nach erfolgreicher Übermittlung konfiguriert haben, erfolgt diese Weiterleitung nicht bei teilweiser Formularübermittlung. |
+| submitForm | Diese Methode übermittelt das Formular und verarbeitet den Post-Übermittlungs-Fluss. |
+| submitFormPartial | Diese Methode übermittelt auch das Formular, überspringt aber den Post-Übermittlungs-Fluss. Wenn Sie zum Beispiel die Umleitung zur Erfolgsseite nach erfolgreicher Übermittlung konfiguriert haben, erfolgt diese Umleitung im Falle einer teilweisen Übermittlung des Formulars nicht. |
 
 **Beispiele:**
 
@@ -112,7 +112,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Name | Beschreibung |
 |--- |--- |
-| getFormData | Diese Methode kann zum Abrufen der `formData` in Form eines JSON-Objekts. Dieses Objekt kann an `submitForm` für die Formularübermittlung. |
+| getFormData | Diese Methode kann verwendet werden, um `formData` in Form eines JSON-Objekts abzurufen. Dieses Objekt kann zur Übermittlung des Formulars an `submitForm` übergeben werden. |
 
 **Beispiel:**
 
@@ -122,7 +122,7 @@ let formData = lpRuntime.getFormData();                           // Method to g
 lpRuntime.submitForm(formData);
 ```
 
-## Anwendungsbeispiele
+## Anwendungsfälle
 
 ### Anwendungsfall 1: Hinzufügen von Validierungen vor der Formularübermittlung
 
@@ -159,9 +159,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### Anwendungsfall 2: Teilformularübermittlung
+### Anwendungsfall 2: Teilweise Formularübermittlung
 
-Sie haben beispielsweise ein Formular mit mehreren Kontrollkästchen auf der Seite. Wenn Sie ein Kontrollkästchen aktivieren, sollen diese Daten im Backend gespeichert werden, ohne darauf zu warten, dass der Benutzer auf die Senden-Schaltfläche klickt.
+Sie haben beispielsweise ein Formular mit mehreren Kontrollkästchen auf der Seite. Wenn ein Kontrollkästchen aktiviert wird, sollen diese Daten im Backend gespeichert werden, ohne darauf zu warten, dass der Benutzer auf die Schaltfläche „Senden“ klickt.
 
 ```
 <html>
@@ -194,7 +194,7 @@ Sie haben beispielsweise ein Formular mit mehreren Kontrollkästchen auf der Sei
 
 ### Anwendungsfall 3: Benutzerdefinierte Analyse-Tags
 
-Mit JavaScript können Sie Listener von Eingabefeldern hinzufügen und einen benutzerdefinierten Analytics-Aufruf-Trigger anhängen.
+Mit JavaScript können Sie Listener für Eingabefelder hinzufügen und einen benutzerdefinierten Trigger für Analytics-Aufrufe anhängen.
 
 ```
 <html>

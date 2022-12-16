@@ -1,6 +1,6 @@
 ---
 title: Verwenden personalisierter Angebote in einer E-Mail
-description: Hier finden Sie ein Beispiel von der vollständigen Konfiguration und Verwendung von Angeboten in einer E-Mail.
+description: Hier finden Sie ein Beispiel, das alle notwendigen Schritte zur Konfiguration von Angeboten und deren Verwendung in einer E-Mail zeigt.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,25 +8,26 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 0%
+source-wordcount: '1085'
+ht-degree: 100%
 
 ---
 
 # Anwendungsfall: Personalisierte Angebote für deren Verwendung in einer E-Mail konfigurieren {#configure-add-personalized-offers-email}
 
-In diesem Abschnitt wird ein durchgehendes Beispiel vorgestellt, in dem anhand einer zuvor erstellten Entscheidung beschrieben wird, wie Angebote konfiguriert und in einer E-Mail verwendet werden können.
+In diesem Abschnitt wird ein Beispiel vorgestellt, das Ihnen zeigt, wie Sie, basierend auf einer zuvor erstellten Entscheidung, Angebote konfigurieren und in einer E-Mail verwenden können.
 
 ## Wichtigste Schritte {#main-steps}
 
 Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in eine Entscheidung und zur Nutzung dieser Entscheidung in einer E-Mail sind unten aufgeführt:
 
-1. Vor der Erstellung von Angeboten [Komponenten definieren](#define-components)
+1. Bevor Sie Angebote erstellen, [definieren Sie Ihre Komponenten](#define-components).
 
-   * Platzierungen erstellen
-   * Entscheidungsregeln erstellen
-   * Tags erstellen
-   * Rang erstellen (optional)
+   * Erstellen von Platzierungen
+   * Erstellen von Entscheidungsregeln
+   * Erstellen von Tags
+   * Ranking erstellen (optional)
+
 
 1. [Angebote konfigurieren](#configure-offers)
 
@@ -34,93 +35,94 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
    * Für jedes Angebot:
 
       * Erstellen Sie Darstellungen und wählen Sie eine Platzierung und ein Asset für jede Darstellung aus.
-      * Regel für jedes Angebot hinzufügen
-      * Definieren einer Priorität für jedes Angebot
+      * Fügen Sie für jedes Angebot eine Regel hinzu.
+      * Definieren Sie für jedes Angebot eine Priorität.
 
-1. [Fallback-Angebot erstellen](#create-fallback)
+1. [Erstellen Sie ein Fallback-Angebot.](#create-fallback)
 
-1. [Kollektion erstellen](#create-collection) , um die von Ihnen erstellten personalisierten Angebote einzubeziehen
+1. [Erstellen Sie eine Sammlung](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
 
-1. [Entscheidung konfigurieren](#configure-decision)
+1. [Konfigurieren Sie die Entscheidung.](#configure-decision)
 
-   * Entscheidung erstellen
-   * Auswählen der von Ihnen erstellten Platzierungen
+   * Erstellen Sie eine Entscheidung.
+   * Wählen sie die von Ihnen erstellten Platzierungen aus.
    * Wählen Sie für jede Platzierung die Sammlung aus.
-   * Wählen Sie für jede Platzierung einen Rang aus (optional).
-   * Fallback auswählen
+   * Wählen Sie für jede Platzierung ein Ranking aus (optional).
 
-1. [Entscheidung in eine E-Mail einfügen](#insert-decision-in-email)
+   * Wählen Sie das Fallback-Angebot aus.
 
-   * Wählen Sie eine Platzierung aus, die den anzuzeigenden Angeboten entspricht
-   * Wählen Sie die Entscheidung aus den Elementen aus, die mit der ausgewählten Platzierung kompatibel sind
-   * Angebotsvorschau
+1. [Fügen Sie die Entscheidung in eine E-Mail ein.](#insert-decision-in-email)
 
-Der gesamte Entscheidungsprozess zur Verwendung von Angeboten in einer E-Mail kann wie folgt beschrieben werden:
+   * Wählen Sie eine Platzierung aus, die den anzuzeigenden Angeboten entspricht.
+   * Wählen Sie die Entscheidung aus den Elementen aus, die mit der ausgewählten Platzierung kompatibel sind.
+   * Zeigen Sie Ihre Angebote in der Vorschau an.
+
+Der gesamte Entscheidungs-Management-Prozess zur Verwendung von Angeboten in einer E-Mail kann wie folgt beschrieben werden:
 
 ![](assets/offers-e2e-process.png)
 
 ## Definieren der Komponenten {#define-components}
 
-Bevor Sie mit der Erstellung von Angeboten beginnen, müssen Sie mehrere Komponenten definieren, die Sie in Ihren Angeboten verwenden werden.
+Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponenten definieren, die Sie in Ihren Angeboten verwenden wollen.
 
-Sie finden sie unter dem **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
+Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTROL Komponenten]**.
 
 1. Erstellen Sie zunächst **Platzierungen** für Ihre Angebote.
 
-   Mithilfe dieser Platzierungen legen Sie fest, wo das resultierende Angebot bei der Definition Ihrer Angebotsentscheidung erscheinen soll.
+   Mithilfe dieser Platzierungen legen Sie bei der Definition Ihrer Angebotsentscheidung fest, wo das resultierende Angebot erscheinen soll.
 
-   Erstellen Sie in diesem Beispiel drei Platzierungen mit den folgenden Kanälen und Inhaltstypen:
+   Erstellen Sie in diesem Beispiel drei Platzierungen mit den folgenden Kanal- und Inhaltstypen:
 
-   * *Web - Image*
-   * *E-Mail - Bild*
-   * *Nicht digital - Text*
+   * *Web – Bild*
+   * *E-Mail – Bild*
+   * *Nicht digital – Text*
 
    ![](assets/offers-e2e-placements.png)
 
-   Die detaillierten Schritte zum Erstellen von Platzierungen werden unter [diesem Abschnitt](../../using/offers/offer-library/creating-placements.md).
+   Die detaillierten Schritte zum Erstellen von Platzierungen werden in [diesem Abschnitt](../../using/offers/offer-library/creating-placements.md) beschrieben.
 
-1. Erstellen **Entscheidungsregeln**.
+1. Erstellen Sie **Entscheidungsregeln**.
 
-   Entscheidungsregeln bieten einem Profil in Adobe Experience Platform das beste Angebot.
+   Entscheidungsregeln liefern einem Profil in Adobe Experience Platform das beste Angebot.
 
-   Konfigurieren Sie zwei einfache Regeln mithilfe des **[!UICONTROL XDM Individual Profile > Person > Gender]** Attribut:
+   Konfigurieren Sie zwei einfache Regeln mithilfe des Attributs **[!UICONTROL Individuelles XDM-Profil > Person > Geschlecht]**:
 
    * *Weibliche Kunden*
    * *Männliche Kunden*
 
    ![](assets/offers-e2e-rules.png)
 
-   Die detaillierten Schritte zum Erstellen von Regeln werden unter [diesem Abschnitt](../../using/offers/offer-library/creating-decision-rules.md).
+   Die detaillierten Schritte zum Erstellen von Regeln werden in [diesem Abschnitt](../../using/offers/offer-library/creating-decision-rules.md) beschrieben.
 
-1. Sie können auch eine **Tag**.
+1. Sie können auch ein **Tag** erstellen.
 
-   Anschließend können Sie es mit Ihren Angeboten verknüpfen und dieses Tag verwenden, um Ihre Angebote in einer Kollektion zu gruppieren.
+   Anschließend können Sie es mit Ihren Angeboten verknüpfen und dieses Tag verwenden, um Ihre Angebote in einer Sammlung zusammenzufassen.
 
-   Erstellen Sie in diesem Beispiel die *Yoga* -Tag.
+   Erstellen Sie in diesem Beispiel das Tag *Yoga*.
 
    ![](assets/offers-e2e-tag.png)
 
-   Die detaillierten Schritte zum Erstellen von Tags werden unter [diesem Abschnitt](../../using/offers/offer-library/creating-tags.md).
+   Die detaillierten Schritte zum Erstellen von Tags werden in [diesem Abschnitt](../../using/offers/offer-library/creating-tags.md) beschrieben.
 
-1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie eine **Rangformel**.
+1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet wird (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie eine **Rangfolgenformel** erstellen.
 
-   Die detaillierten Schritte zum Erstellen von Ranking-Formeln werden unter [diesem Abschnitt](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
+   Die detaillierten Schritte zum Erstellen von Rangfolgenformeln werden in [diesem Abschnitt](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula) beschrieben.
 
    >[!NOTE]
    >
-   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Weitere Informationen finden Sie unter [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >In diesem Beispiel verwenden wir nur die Prioritätswerte. Weitere Informationen zu [Eignungsregeln und Einschränkungen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)
 
 ## Angebote konfigurieren {#configure-offers}
 
 Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel erstellen Sie vier Angebote, die Sie je nach Profil anzeigen möchten.
 
-1. Erstellen Sie ein Angebot. Weitere Informationen finden Sie unter [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Erstellen Sie ein Angebot. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. Erstellen Sie in diesem Angebot drei Darstellungen. Jede Darstellung muss eine Kombination aus einer zuvor erstellten Platzierung und einem Asset sein:
 
-   * Eine entspricht dem *Web - Image* placement
-   * Eine entspricht dem *E-Mail - Bild* placement
-   * Eine entspricht dem *Nicht digital - Text* placement
+   * Eines, das der Platzierung *Web – Bild* entspricht
+   * Eines, das der Platzierung *E-Mail – Bild* entspricht
+   * Eines, das der Platzierung *Nicht digital – Text* entspricht
 
    >[!NOTE]
    >
@@ -128,76 +130,76 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
    Weitere Informationen zu Darstellungen finden Sie in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. Wählen Sie ein passendes Bild für die ersten beiden Platzierungen aus. Geben Sie benutzerdefinierten Text für die *Nicht digital - Text* Platzierung.
+1. Wählen Sie ein passendes Bild für die ersten beiden Platzierungen aus. Geben Sie benutzerdefinierten Text für die Platzierung *Nicht digital – Text* ein.
 
    ![](assets/offers-e2e-representations.png)
 
-1. Im **[!UICONTROL Offer eligibility]** Bereich, wählen Sie **[!UICONTROL By defined decision rule]** und ziehen Sie die Regel Ihrer Wahl per Drag-and-Drop.
+1. Wählen Sie im Abschnitt **[!UICONTROL Angebotseignung]** die Option **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel per Drag-and-drop hinüber.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Füllen Sie die **[!UICONTROL Priority]**. Fügen Sie in diesem Beispiel *25*.
+1. Füllen Sie das Feld **[!UICONTROL Priorität]** aus. Tragen Sie in diesem Beispiel *25* ein.
 
-1. Überprüfen Sie Ihr Angebot und klicken Sie auf **[!UICONTROL Save and approve]**.
+1. Überprüfen Sie Ihr Angebot und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
    ![](assets/offers-e2e-review.png)
 
-1. Erstellen Sie in diesem Beispiel drei weitere Angebote mit denselben Darstellungen, aber unterschiedlichen Assets. Weisen Sie ihnen unterschiedliche Regeln und Prioritäten zu, z. B.:
+1. Erstellen Sie in diesem Beispiel drei weitere Angebote mit denselben Darstellungen, aber unterschiedlichen Assets. Weisen Sie ihnen unterschiedliche Regeln und Prioritäten zu, z. B.:
 
-   * Erstes Angebot - Entscheidungsregel: *Weibliche Kunden*, Priorität: *25*
-   * Zweites Angebot - Entscheidungsregel: *Weibliche Kunden*, Priorität: *15*
-   * Drittes Angebot - Entscheidungsregel: *Männliche Kunden*, Priorität: *25*
-   * Viertes Angebot - Entscheidungsregel: *Männliche Kunden*, Priorität: *15*
+   * Erstes Angebot – Entscheidungsregel: *Weibliche Kunden*, Priorität: *25*
+   * Zweites Angebot – Entscheidungsregel: *Weibliche Kunden*, Priorität: *15*
+   * Drittes Angebot – Entscheidungsregel: *Männliche Kunden*, Priorität: *25*
+   * Viertes Angebot – Entscheidungsregel: *Männliche Kunden*, Priorität: *15*
 
    ![](assets/offers-e2e-offers-created.png)
 
-Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden im Abschnitt [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md).
+Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md) beschrieben.
 
 ## Fallback-Angebot erstellen {#create-fallback}
 
 1. Erstellen Sie ein Fallback-Angebot.
 
-1. Definieren Sie dieselben Darstellungen wie für die Angebote mit den entsprechenden Assets (diese sollten sich von den in Ihren Angeboten verwendeten unterscheiden).
+1. Definieren Sie mit den passenden Assets dieselben Darstellungen wie für die Angebote (die Assets sollten sich von den in Ihren Angeboten verwendeten unterscheiden).
 
    Jede Darstellung muss eine Kombination aus einer zuvor erstellten Platzierung und einem Asset sein:
 
-   * Eine entspricht dem *Web - Image* placement
-   * Eine entspricht dem *E-Mail - Bild* placement
-   * Eine entspricht dem *Nicht digital - Text* placement
+   * Eines, das der Platzierung *Web – Bild* entspricht
+   * Eines, das der Platzierung *E-Mail – Bild* entspricht
+   * Eines, das der Platzierung *Nicht digital – Text* entspricht
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. Überprüfen Sie Ihr Fallback-Angebot und klicken Sie auf **[!UICONTROL Save and approve]**.
+1. Überprüfen Sie Ihr Fallback-Angebot und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
 ![](assets/offers-e2e-fallback.png)
 
 Ihr Fallback-Angebot kann jetzt in einer Entscheidung verwendet werden.
 
-Die detaillierten Schritte zum Erstellen und Konfigurieren eines Fallback-Angebots werden im Abschnitt [diesem Abschnitt](../../using/offers/offer-library/creating-fallback-offers.md).
+Die detaillierten Schritte zum Erstellen und Konfigurieren eines Fallback-Angebots werden in [diesem Abschnitt](../../using/offers/offer-library/creating-fallback-offers.md) beschrieben.
 
-## Kollektion erstellen {#create-collection}
+## Sammlung erstellen {#create-collection}
 
-Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebote als Teil einer Kollektion hinzufügen.
+Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebote als Teil einer Sammlung hinzufügen.
 
 1. Um den Entscheidungsprozess zu beschleunigen, erstellen Sie eine dynamische Sammlung.
 
-1. Verwenden Sie die *Yoga* -Tag, um die vier personalisierten Angebote auszuwählen, die Sie zuvor erstellt haben.
+1. Verwenden Sie das Tag *Yoga*, um die vier zuvor erstellten personalisierten Angebote auszuwählen.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
-Die detaillierten Schritte zum Erstellen einer Sammlung werden unter [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md).
+Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
 
 ## Entscheidung konfigurieren {#configure-decision}
 
 Jetzt müssen Sie eine Entscheidung erstellen, die Platzierungen mit den personalisierten Angeboten und dem soeben erstellten Fallback-Angebot kombiniert.
 
-Diese Kombination wird von der Decisioning-Engine verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
+Diese Kombination wird vom Decisioning-Modul verwendet, um das beste Angebot für ein bestimmtes Profil zu finden: In diesem Beispiel basiert sie auf der Priorität und der Entscheidungsregel, die Sie jedem Angebot zugewiesen haben.
 
 Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfigurieren:
 
-1. Erstellen Sie eine Entscheidung. Weitere Informationen finden Sie unter [diesem Abschnitt](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Erstellen Sie eine Entscheidung. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
-1. Wählen Sie die *Web - Image*, *E-Mail - Bild* und *Nicht digital - Text* Platzierungen.
+1. Wählen Sie die Platzierungen *Web – Bild*, *E-Mail – Bild* und *Nicht digital – Text* aus.
 
    ![](assets/offers-e2e-decision-placements.png)
 
@@ -205,24 +207,24 @@ Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfig
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. Wenn Sie eine Rangfolge definiert haben, wenn Sie [Erstellen von Komponenten](#define-components), können Sie sie einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote berechtigt sind, in dieser Platzierung unterbreitet zu werden, berechnet die Entscheidung anhand dieser Formel, welches Angebot zuerst bereitgestellt werden soll.
+1. Wenn Sie beim [Erstellen Ihrer Komponenten](#define-components) eine Rangfolge definiert haben, können Sie sie einer Platzierung in der Entscheidung zuweisen. Wenn mehrere Angebote für die Darstellung an dieser Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst angezeigt werden soll.
 
-   Die detaillierten Schritte zum Zuweisen einer Rangformel zu einer Platzierung werden im Abschnitt [diesem Abschnitt](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   Die detaillierten Schritte zum Zuweisen einer Rangfolgenformel zu einer Platzierung werden in [diesem Abschnitt](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula) beschrieben.
 
 1. Wählen Sie das von Ihnen erstellte Fallback-Angebot aus. Es wird als verfügbares Fallback-Angebot für die drei ausgewählten Platzierungen angezeigt.
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Überprüfen Sie Ihre Entscheidung und klicken Sie auf **[!UICONTROL Save and approve]**.
+1. Überprüfen Sie Ihre Entscheidung und klicken Sie dann auf **[!UICONTROL Speichern und genehmigen]**.
 
    ![](assets/offers-e2e-review-decision.png)
 
-Ihre Entscheidung kann jetzt für optimierte und personalisierte Angebote verwendet werden.
+Ihre Entscheidung kann jetzt für die Bereitstellung optimierter und personalisierter Angebote verwendet werden.
 
-Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung werden unter [diesem Abschnitt](../../using/offers/offer-activities/create-offer-activities.md).
+Die detaillierten Schritte zum Erstellen und Konfigurieren einer Entscheidung werden in [diesem Abschnitt](../../using/offers/offer-activities/create-offer-activities.md) beschrieben.
 
-## Entscheidung in eine E-Mail einfügen {#insert-decision-in-email}
+## Fügen Sie die Entscheidung in eine E-Mail ein. {#insert-decision-in-email}
 
-Nachdem Ihre Entscheidung live ist, können Sie sie in eine E-Mail einfügen. Gehen Sie dazu wie im Abschnitt [diese Seite](../../using/email/add-offers-email.md).
+Nachdem Ihre Entscheidung nun live ist, können Sie sie in eine E-Mail-Nachricht einfügen. Befolgen Sie dazu die auf [dieser Seite](../../using/email/add-offers-email.md) beschriebenen Schritte.
 
 ![](assets/offers-e2e-offers-displayed.png)

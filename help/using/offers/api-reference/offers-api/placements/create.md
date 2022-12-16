@@ -1,5 +1,5 @@
 ---
-title: Platzierung erstellen
+title: Erstellen einer Platzierung
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 feature: Offers
 topic: Integrations
@@ -9,22 +9,22 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Platzierung erstellen {#create-placement}
+# Erstellen einer Platzierung {#create-placement}
 
-Sie können eine Platzierung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
+Sie können eine Platzierung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
-## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API-Format**
 
@@ -56,9 +56,9 @@ curl -X POST \
     }'
 ```
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der neu erstellten Platzierung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Platzierung zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Platzierung verwenden `@id` in späteren Tutorials, um Entscheidungen, Entscheidungsregeln und Fallback-Angebote zu erstellen.
+Bei einer erfolgreichen Antwort werden die Details zur neu erstellten Platzierung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Platzierung zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihrer Platzierung in späteren Tutorials zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten nutzen.
 
 ```json
 {

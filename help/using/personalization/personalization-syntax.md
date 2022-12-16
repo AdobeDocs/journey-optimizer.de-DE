@@ -10,54 +10,54 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 100%
 
 ---
 
 # Personalisierungssyntax {#personalization-syntax}
 
-Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax namens Handlebars.
-Eine vollständige Beschreibung der Handlebars-Syntax finden Sie unter [HandlebarsJS-Dokumentation](https://handlebarsjs.com/).
+Die Personalisierung in [!DNL Journey Optimizer] basiert auf der Vorlagensyntax „Handlebars“.
+Eine vollständige Beschreibung der Handlebars-Syntax finden Sie in der [Dokumentation zu HandlebarsJS](https://handlebarsjs.com/).
 
-Es verwendet eine Vorlage und ein Eingabeobjekt, um HTML- oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
+Sie verwendet eine Vorlage und ein Eingabeobjekt, um HTML oder andere Textformate zu generieren. Handlebars-Vorlagen sehen wie normaler Text mit eingebetteten Handlebars-Ausdrücken aus.
 
-Beispiel für einfache Ausdrücke:
+Beispiel für einen einfachen Ausdruck:
 
 `{{profile.person.name}}`
 
-wobei:
+Hier gilt:
 
 * `profile` ist ein Namespace.
-* `person.name` ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem Adobe Experience Platform-XDM-Schema definiert. [Weitere Infos](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* `person.name` ist ein Token, das aus Attributen besteht. Die Attributstruktur wird in einem XDM-Schema von Adobe Experience Platform definiert. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Allgemeine Syntaxregeln {#general-rules}
 
-Kennungen können ein beliebiges Unicode-Zeichen sein, mit Ausnahme der folgenden:
+Kennungen können beliebige Unicode-Zeichen sein, mit Ausnahme folgender Einschränkungen:
 
 ```
 Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 ```
 
-Bei der Syntax wird zwischen Groß- und Kleinschreibung unterschieden.
+Die Syntax unterscheidet zwischen Groß- und Kleinschreibung.
 
-Die Worte **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
+Die Wörter **true**, **false**, **null** und **undefined** sind nur im ersten Teil eines Pfadausdrucks zulässig.
 
-In Handlebars werden die von der {{expression}} are **HTML-maskiert**. Wenn der Ausdruck `&`, wird die zurückgegebene HTML-maskierte Ausgabe als `&amp;`. Wenn Sie nicht möchten, dass Handlebars einen Wert maskieren, verwenden Sie den &quot;Triple-stash&quot;.
+In Handlebars werden den von {{expression}} zurückgegebenen Werten **HTML-Escape-Zeichen hinzugefügt**. Wenn der Ausdruck „`&`“ enthält, wird die Ausgabe mit HTML-Escape-Zeichen als „`&amp;`“ generiert. Wenn Sie eine Rückgabe der Werte ohne Escape-Zeichen wünschen, verwenden Sie dreifache geschweifte Klammern („Triple-Stash“).
 
-Bezüglich der Argumente für literale Funktionen unterstützt der Vorlagensprachparser keinen einfachen unescapten umgekehrten Schrägstrich (`\`). Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`). Beispiel :
+Bezüglich der Argumente für literale Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`), der nicht escaped ist. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Profil
 
-Mit diesem Namespace können Sie auf alle Attribute verweisen, die im Profilschema definiert sind, das unter [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Dieser Namespace ermöglicht die Referenzierung aller im Profilschema definierten Attribute, die unter [Dokumentation zum Datenmodell (XDM) von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;} beschrieben werden.
 
-Die Attribute müssen im Schema definiert werden, bevor sie in einer [!DNL Journey Optimizer] Gestaltungsbaustein.
+Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisierungsblock in [!DNL Journey Optimizer] referenziert werden können.
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie Profilattribute in Bedingungen nutzen können in [diesem Abschnitt](functions/helpers.md#if-function).
+>In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Profilattribute in Bedingungen verwenden können.
 
 **Beispielverweise:**
 
@@ -77,30 +77,30 @@ Die Attribute müssen im Schema definiert werden, bevor sie in einer [!DNL Journ
 
 ## Segmente{#perso-segments}
 
-Erfahren Sie, wie Sie Profilattribute in Bedingungen nutzen können in [diesem Abschnitt](functions/helpers.md#if-function).
+In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Profilattribute in Bedingungen verwenden können.
 
 >[!NOTE]
->Weitere Informationen zum Segmentierungs- und Segmentierungsdienst finden Sie unter [diesem Abschnitt](../segment/about-segments.md).
+>Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
 
 ## Angebote {#offers-syntax}
 
-Mit diesem Namespace können Sie auf vorhandene Angebotsentscheidungen verweisen.
-Um auf ein Angebot zu verweisen, müssen Sie einen Pfad mit den verschiedenen Informationen deklarieren, die ein Angebot definieren.
+In diesem Namespace können Sie bestehende Entscheidungen referenzieren.
+Um ein Angebot zu referenzieren, müssen Sie einen Pfad mit den verschiedenen Informationen angeben, die das Angebot definieren.
 
 Dieser Pfad weist die folgende Struktur auf:
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-wobei:
+Hier gilt:
 
-* `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört
-* `Type`  bestimmt den Typ der Angebotsdarstellung. Mögliche Werte sind: `image`, `html` und `text`
-* `Placement Id` und `Activity Id` Platzierungs- und Aktivitäts-IDs
-* `Attributes` sind angebotspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
+* `offers` identifiziert den Pfadausdruck, der zum Angebots-Namespace gehört.
+* `Type` bestimmt den Typ der Angebotsdarstellung. Zu den möglichen Werten gehören `image`, `html` und `text`
+* `Placement Id` und `Activity Id` sind Platzierungs- und Aktivitätskennungen.
+* `Attributes` sind angebotsspezifische Attribute, die vom Angebotstyp abhängen. Beispiel: `deliveryUrl` für Bilder
 
-Weitere Informationen zur Decisions-API und zur Angebotsdarstellung finden Sie unter [diese Seite](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+Weitere Informationen zur Entscheidungs-API und zur Angebotsdarstellung finden Sie auf [dieser Seite](../offers/api-reference/offer-delivery-api/decisioning-api.md).
 
-Alle Verweise werden mit einem Validierungsmechanismus, der unter [diese Seite](personalization-validation.md)
+Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.md) beschrieben wird, validiert alle Verweise anhand des Angebotsschemas.
 
 **Beispielverweise:**
 
@@ -112,27 +112,27 @@ Alle Verweise werden mit einem Validierungsmechanismus, der unter [diese Seite](
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Textinhalt des Angebots, der von der Entscheidungs-Engine stammt:
+* Text-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-* HTML-Inhalt des Angebots, der von der Decisioning-Engine stammt:
+* HTML-Inhalt des Angebots aus der Entscheidungs-Engine:
 
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helfer{#helpers-all}
+## Helper{#helpers-all}
 
-Ein Handlebars Helper ist eine einfache Kennung, der Parameter folgen können.
-Jeder Parameter ist ein Handlebars-Ausdruck. Auf diese Helfer kann von jedem Kontext in einer Vorlage zugegriffen werden.
+Ein Handlebars-Helper ist eine einfache Kennung, auf die Parameter folgen können.
+Jeder Parameter ist ein Handlebars-Ausdruck. Helper können in jedem Kontext einer Vorlage aufgerufen werden.
 
-Diese Block-Helfer werden durch ein # identifiziert, das dem Helper-Namen vorangeht, und benötigen ein entsprechendes schließendes /, gleichnamiges -Zeichen.
-Blöcke sind Ausdrücke mit Blocköffnung ({{# }}) and closing ({{/}}).
+Diese Block-Helper werden durch ein # am Anfang des Helper-Namens gekennzeichnet und erfordern einen passenden schließenden / am Ende des Namens.
+Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]
 >
->Die Hilfsfunktionen werden im Abschnitt [diesem Abschnitt](functions/helpers.md).
+>Hilfsfunktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
 
 ## Literaltypen {#literal-types}
 
@@ -141,30 +141,30 @@ Blöcke sind Ausdrücke mit Blocköffnung ({{# }}) and closing ({{/}}).
 | Literal | Definition |
 | ------- | ---------- |
 | Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
-| Boolesch | Ein Datentyp, der entweder &quot;true&quot;oder &quot;false&quot;ist. |
+| Boolesch | Ein Datentyp, der entweder „true“ oder „false“ ist. |
 | Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
-| Array | Ein Datentyp, der als Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
+| Array | Ein Datentyp, der aus einer Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
->Die Verwendung von **xEvent** in Personalisierungsausdrücken nicht verfügbar ist. Jeder Verweis auf xEvent führt zu Validierungsfehlern.
+>Die Variable **xEvent** ist in Personalisierungsausdrücken nicht verfügbar. Die Verwendung von xEvent führt zu Überprüfungsfehlern.
 
 ## URL-Personalisierung{#perso-urls}
 
-Personalisierte URLs führen Empfänger je nach Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie URLs in Ihrem Nachrichteninhalt Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profildaten oder Kontextdaten verwenden.
+Personalisierte URLs führen Empfänger je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt zu URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder Kontextdaten verwenden.
 
-Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie ihnen Personalisierungsfelder hinzufügen. Gehen Sie wie folgt vor, um eine URL zu personalisieren:
+Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht personalisieren, indem Sie zu ihnen Personalisierungsfelder hinzufügen. Gehen Sie wie folgt vor, um eine URL zu personalisieren:
 
-1. Erstellen Sie einen Link in Ihrem Nachrichteninhalt. [Weitere Infos](../email/message-tracking.md#insert-links)
-1. Wählen Sie über das Personalisierungssymbol die Attribute aus. Das Personalisierungssymbol steht nur für diese Relationstypen zur Verfügung: **Externer Link**, **Abmelde-Link** und **Opt-out**.
+1. Erstellen Sie einen Link in Ihrem Nachrichteninhalt. [Weitere Informationen](../email/message-tracking.md#insert-links)
+1. Wählen Sie über das Personalisierungssymbol die Attribute aus. Das Personalisierungssymbol ist nur für folgende Arten von Links verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
 
 ![](assets/perso-url.png)
 
 >[!NOTE]
 >
->Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, sind Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
+>Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, werden Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
 
-**Beispiel für personalisierte URLs**
+**Beispiele für personalisierte URLs**
 
 * `https://www.adobe.com/users/{{profile.person.name.lastName}}`
 * `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
@@ -173,4 +173,4 @@ Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht pers
 
 >[!CAUTION]
 >
->Leerzeichen werden in den Personalisierungstoken, die in URLs verwendet werden, nicht unterstützt.
+>Leerzeichen werden in den Personalisierungs-Token, die in URLs verwendet werden, nicht unterstützt.

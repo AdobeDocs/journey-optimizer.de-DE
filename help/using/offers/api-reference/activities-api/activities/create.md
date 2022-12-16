@@ -1,6 +1,6 @@
 ---
-title: Entscheidung erstellen
-description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+title: Erstellen von Entscheidungen
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,22 +9,22 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Entscheidung erstellen {#create-decision}
+# Erstellen von Entscheidungen {#create-decision}
 
-Sie können eine Entscheidung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
+Sie können eine Entscheidung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
-## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **API-Format**
 
@@ -70,9 +70,9 @@ curl -X POST \
   }'
 ```
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
 
 ```json
 {

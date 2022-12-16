@@ -8,92 +8,92 @@ level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Datensätzen {#datasets-gs}
 
-Alle Daten, die in Adobe Experience Platform erfasst werden, werden im Data Lake als Datensätze persistiert. Ein Datensatz ist ein Speicher- und Verwaltungskonstrukt für eine Sammlung von Daten, normalerweise eine Tabelle, die ein Schema (Spalten) und Felder (Zeilen) enthält.
+Alle Daten, die in Adobe Experience Platform aufgenommen werden, bleiben als Datensätze im Data Lake erhalten. Ein Datensatz ist ein Konstrukt zur Datenspeicherung und -verwaltung, in dem Daten (in der Regel) in einer Tabelle erfasst werden, die ein Schema (Spalten) und Felder (Zeilen) beinhaltet.
 
-## Auf Datensätze zugreifen{#access-datasets}
+## Zugriff auf Datensätze{#access-datasets}
 
-Die **Datensätze** Arbeitsbereich in [!DNL Adobe Journey Optimizer] Mithilfe der Benutzeroberfläche können Sie Daten untersuchen und Datensätze erstellen.
+Der Arbeitsbereich **Datensätze** in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche ermöglicht es Ihnen, Daten zu durchsuchen und Datensätze zu erstellen.
 
-Auswählen **Datensätze** im linken Navigationsbereich, um das Dashboard &quot;Datensätze&quot;zu öffnen.
+Wählen Sie **Datensätze** im linken Navigationsbereich aus, um das Dashboard „Datensätze“ zu öffnen.
 
 ![](assets/datasets-home.png)
 
-Daten hinzufügen zu [!DNL Adobe Experience Platform] ist die Grundlage für den Aufbau eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer]. Definieren Sie zunächst Schemata, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
+Das Hinzufügen von Daten zu [!DNL Adobe Experience Platform] bildet die Grundlage für die Erstellung eines Profils. Anschließend können Sie Profile in [!DNL Adobe Journey Optimizer] nutzen. Definieren Sie zunächst Schemas, verwenden Sie ETL-Tools, um Ihre Daten vorzubereiten und zu standardisieren, und erstellen Sie dann Datensätze basierend auf Ihren Schemas.
 
-Wählen Sie die **Durchsuchen** um die Liste aller für Ihre Organisation verfügbaren Datensätze anzuzeigen. Details werden für jeden aufgelisteten Datensatz angezeigt, einschließlich seines Namens, des Schemas, dem der Datensatz entspricht, und des Status des letzten Erfassungslaufs.
+Wählen Sie die Registerkarte **Durchsuchen**, um die Liste aller für Ihr Unternehmen verfügbaren Datensätze anzuzeigen. Zu jedem aufgelisteten Datensatz werden Details angezeigt, einschließlich seines Namens, des Schemas, dem der Datensatz entspricht, und des Status des letzten Aufnahmelaufs.
 
-Standardmäßig werden nur die Datensätze angezeigt, die Sie in aufgenommen haben. Wenn Sie die systemgenerierten Datensätze anzeigen möchten, aktivieren Sie die **Anzeigen von Systemdatensätzen** Aus dem Filter ein-/ausblenden.
+Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben. Wenn Sie die systemgenerierten Datensätze anzeigen möchten, aktivieren Sie im Filter den Umschalter **Systemdatensätze zeigen**.
 
 ![](assets/ajo-system-datasets.png)
 
-Wählen Sie den Namen eines Datensatzes aus, um auf den Bildschirm Datensatzaktivität zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Der Tab Aktivität enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visualisiert.
+Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
 Im Folgenden finden Sie die verschiedenen verfügbaren Datensätze:
 
-**Berichterstellung**
+**Reporting**
 
-* _Reporting - Datensatz mit Nachrichten-Feedback-Ereignissen_: Versandlogs der Nachrichten. Informationen zum gesamten Nachrichtenversand von Journey Optimizer für Berichterstellungs- und Segmenterstellungszwecke. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
-* _Reporting - E-Mail-Tracking-Erlebnisdatensatz_: Interaktionsprotokolle für den E-Mail-Kanal, der zur Berichterstellung und Segmenterstellung verwendet wird. Informationen, die gespeichert werden und Informationen zu Aktionen enthalten, die der Endbenutzer in E-Mails (Öffnungen, Klicks usw.) durchführt.
-* _Berichterstellung - Ereignis-Datensatz für Push-Tracking_: Interaktionsprotokolle für den Push-Kanal, der für Berichte- und Segmenterstellungszwecke verwendet wird. Gespeicherte Informationen zu Aktionen, die vom Endbenutzer bei Push-Benachrichtigungen ausgeführt werden.
-* _Reporting - Journey Step-Ereignis_: Erfasst alle Journey Step-Erlebnisereignisse, die von Journey Optimizer generiert wurden, und kann von Diensten wie Reporting genutzt werden. Auch für die Erstellung von Berichten in Customer Journey Analytics für YoY-Analysen wichtig. An Journey-Metadaten gebunden.
-* _Reporting - Journeys_: Metadaten-Datensatz mit Informationen zu jedem Schritt in einer Journey.
-* _Berichterstellung - BCC_: Feedback-Ereignis-Datensatz, in dem die Versandlogs für BCC-E-Mails gespeichert werden. Für Berichtszwecke.
+* _Reporting – Datensatz mit Nachrichten-Feedback-Ereignissen_: Versand-Logs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Segmenterstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.
+* _Reporting – E-Mail-Tracking-Erlebnis-Ereignisdatensatz_: Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Segmenterstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen in Bezug auf E-Mails (Öffnungen, Klicks usw.).
+* _Reporting – Push-Tracking-Erlebnis-Ereignisdatensatz_: Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Segmenterstellung genutzt wird. Die gespeicherten Informationen geben Aufschluss über die von Endbenutzenden durchgeführten Aktionen bei Push-Benachrichtigungen.
+* _Reporting – Journey-Schrittereignis_: Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Services wie Reporting genutzt werden können. Auch wichtig für die Erstellung von Berichten in Customer Journey Analytics für die Jahresanalyse. An Journey-Metadaten gebunden.
+* _Reporting – Journeys_: Metadaten-Datensatz, der Informationen zu jedem Schritt in einer Journey enthält.
+* _Reporting – BCC_: Feedback-Ereignis-Datensatz, in dem die Versand-Logs für BCC-E-Mails gespeichert werden. Wird zu Reporting-Zwecken verwendet.
 
 **Einverständnis**
 
-* _Datensatz des Zustimmungsdienstes_: speichert Einverständnisinformationen eines Profils.
+* _Einverständnis-Service-Datensatz_: speichert die Einverständnisinformationen eines Profils.
 
 **Intelligent Services**
 
-* _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabe von Bewertungen von Journey AI.
+* _Sendezeit-Optimierungsbewertungen/Interaktionswerte_: Ausgabebewertungen der Journey-KI.
 
-## Vorschau von Datensätzen anzeigen{#preview-datasets}
+## Vorschau von Datensätzen{#preview-datasets}
 
-Wählen Sie im Bildschirm Datensatzaktivität die Option **Vorschau des Datensatzes anzeigen** in der oberen rechten Ecke des Bildschirms, um eine Vorschau des zuletzt erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, wird der Vorschau-Link deaktiviert.
+Wählen Sie im Datensatzaktivitäts-Bildschirm rechts oben die Option **Vorschau des Datensatzes anzeigen** aus, um eine Vorschau des zuletzt erfolgreichen Batches in diesem Datensatz anzuzeigen. Wenn ein Datensatz leer ist, wird der Vorschau-Link deaktiviert.
 
 ![](assets/dataset-preview.png)
 
 ## Erstellen von Datensätzen{#create-datasets}
 
-Um einen neuen Datensatz zu erstellen, wählen Sie zunächst **Datensatz erstellen** im Dashboard &quot;Datensätze&quot;ein.
+Um einen neuen Datensatz zu erstellen, klicken Sie im Dashboard „Datensätze“ auf die Option **Datensatz erstellen**.
 
-Sie können:
+Sie haben folgende Möglichkeiten:
 
-* Erstellen Sie einen Datensatz aus einem Schema. [Weitere Informationen finden Sie in dieser Dokumentation .](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* Erstellen Sie einen Datensatz aus einer CSV-Datei. [Weitere Informationen finden Sie in dieser Dokumentation .](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
+* Datensatz aus Schema erstellen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#schema){target=&quot;_blank&quot;}.
+* Datensatz aus CSV-Datei erstellen. [Weitere Informationen finden Sie in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=de){target=&quot;_blank&quot;}.
 
-In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten erfasst wurden.
+In diesem Video erfahren Sie, wie Sie einen Datensatz erstellen, ihn einem Schema zuordnen, ihm Daten hinzufügen und bestätigen, dass die Daten aufgenommen wurden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Data Governance
 
-Durchsuchen Sie in einem Datensatz die **Data Governance** -Registerkarte, um Beschriftungen auf Datensatz- und Feldebene zu überprüfen. Data Governance kategorisiert Daten nach dem anzuwendenden Richtlinientyp.
+Sie können in einem Datensatz die Registerkarte **Data Governance** durchsuchen, um Kennzeichnungen auf Datensatz- und Feldebene zu überprüfen. Mit Data Governance werden Daten entsprechend dem anzuwendenden Richtlinientyp kategorisiert.
 
-Eine der Kernfunktionen von [!DNL Adobe Experience Platform] ist es, Daten aus verschiedenen Unternehmenssystemen zusammenzuführen, damit Marketing-Experten Kunden besser identifizieren, verstehen und ansprechen können. Diese Daten können Nutzungsbeschränkungen unterliegen, die von Ihrer Organisation oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie sicherstellen, dass Ihre Datenvorgänge mit Datennutzungsrichtlinien konform sind.
+Eine der Kernfunktionen von [!DNL Adobe Experience Platform] ist es, Daten aus verschiedenen Unternehmenssystemen zusammenzuführen, damit Marketing-Experten Kunden besser identifizieren, verstehen und ansprechen können. Diese Daten können Nutzungsbeschränkungen unterliegen, die von Ihrem Unternehmen oder durch gesetzliche Bestimmungen festgelegt werden. Daher müssen Sie dafür sorgen, dass Ihre Datenoperationen die entsprechenden Datennutzungsrichtlinien einhalten.
 
-[!DNL Adobe Experience Platform Data Governance] ermöglicht Ihnen, Kundendaten zu verwalten und die Einhaltung von Vorschriften, Einschränkungen und Richtlinien für die Datennutzung sicherzustellen. Sie spielt in Experience Platform auf verschiedenen Ebenen eine Schlüsselrolle, einschließlich Katalogisierung, Datenherkunft, Datennutzungsbezeichnung, Datennutzungsrichtlinien und Steuerung der Nutzung von Daten für Marketing-Aktionen.
+Mit [!DNL Adobe Experience Platform Data Governance] können Sie Kundendaten verwalten und bei der Verwendung von Daten die Einhaltung von relevanten Vorschriften, Einschränkungen und Richtlinien sicherstellen. Die Funktion spielt in Experience Platform auf verschiedenen Ebenen eine wichtige Rolle, wie z. B. bei Katalogisierung, Ermittlung der Datenherkunft, Datennutzungsbezeichnung, Datennutzungsrichtlinien und Steuerung der Nutzung von Daten für Marketing-Aktionen.
 
-Weitere Informationen zu Data Governance und Datennutzungsbezeichnungen finden Sie im Abschnitt [Data Governance-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+Weitere Informationen zu Data Governance und Datennutzungskennzeichnungen finden Sie in der Dokumentation zu [Data Governance](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=de){target=&quot;_blank&quot;}.
 
-## Beispiele und Anwendungsbeispiele{#uc-datasets}
+## Beispiele und Anwendungsfälle{#uc-datasets}
 
-Erfahren Sie, wie Sie ein Schema, einen Datensatz und Daten erfassen, um Testprofile in Adobe Journey Optimizer hinzuzufügen in [Dieses End-to-End-Beispiel](../segment/creating-test-profiles.md)
+In diesem [vollständigen Beispiel](../segment/creating-test-profiles.md) erfahren Sie, wie Sie ein Schema und einen Datensatz erstellen und Daten aufnehmen, um Testprofile in Adobe Journey Optimizer hinzuzufügen.
 
-Erfahren Sie mehr über die Erstellung von Datensätzen in [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Weitere Informationen zur Erstellung von Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target=&quot;_blank&quot;}.
 
-Erfahren Sie, wie Sie die Benutzeroberfläche &quot;Datensätze&quot;im [Dokumentation zur Datenerfassung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
+Erfahren Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=de){target=&quot;_blank&quot;}, wie Sie die Benutzeroberfläche für Datensätze verwenden.
 
-Eine Liste der Anwendungsfälle mit Abfragebeispielen ist verfügbar. [here](../data/datasets-query-examples.md).
+Eine Liste der Anwendungsfälle mit Abfragebeispielen ist [hier](../data/datasets-query-examples.md) verfügbar.
 
 **Siehe auch**
 
-* [Streaming-Erfassung - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}
-* [Daten in Adobe Experience Platform erfassen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
+* [Übersicht über die Streaming-Aufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}
+* [Daten in Adobe Experience Platform aufnehmen](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de){target=&quot;_blank&quot;}

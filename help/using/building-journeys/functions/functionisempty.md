@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: isEmpty
-description: Erfahren Sie mehr über die Funktion isEmpty
+description: Erfahren Sie mehr über die Funktion „isEmpty“
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: f5347f59-7197-4d6c-af88-13b724c0af87
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # isEmpty {#isEmpty}
 
-Gibt &quot;true&quot;zurück, wenn die Zeichenfolge im Parameter kein Zeichen enthält.
+Gibt „true“ zurück, wenn die Zeichenfolge im Parameter keine Zeichen enthält.
 
 ## Kategorie
 
@@ -27,7 +27,7 @@ Zeichenfolge
 
 ## Parameter
 
-* Zeichenfolge
+* string
 
 ## Signatur und zurückgegebener Typ
 
@@ -39,8 +39,8 @@ Gibt einen booleschen Wert zurück.
 
 `isEmpty("")`
 
-Gibt &quot;true&quot;zurück.
+Gibt „true“ zurück.
 
 `isEmpty("Hello World")`
 
-Gibt false zurück.
+Gibt „false“ zurück.

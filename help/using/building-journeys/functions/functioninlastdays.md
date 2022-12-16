@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastDays
-description: Erfahren Sie mehr über die Funktion inLastDays
+description: Erfahren Sie mehr über die Funktion „inLastDays“
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # inLastDays {#inLastDays}
 
-Gibt &quot;true&quot;zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Tagen liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Tagen liegt.
 
 ## Kategorie
 
@@ -42,4 +42,4 @@ Gibt einen booleschen Wert zurück.
 
 `inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-Gibt &quot;true&quot;zurück.
+Gibt „true“ zurück.

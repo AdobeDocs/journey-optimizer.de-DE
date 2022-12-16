@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Bedingte Anweisung (if, then, else)
-description: Erfahren Sie mehr über bedingte Anweisungen
+description: Erfahren Sie mehr über die bedingte Anweisung
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 0%
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
 # Bedingte Anweisung (if, then, else) {#conditional-instruction}
 
-Die bedingte Anweisung (if, then, else) wird im erweiterten Editor unterstützt. Sie ermöglicht die Definition komplexerer Ausdrücke. Er besteht aus folgenden Elementen:
+Die bedingte Anweisung (if, then, else) wird im erweiterten Editor unterstützt. Sie ermöglicht die Definition komplexerer Ausdrücke. Sie umfasst die folgenden Elemente:
 
 * **[!UICONTROL if]**: die Bedingung, die zuerst ausgewertet werden soll.
 * **[!UICONTROL then]**: der auszuwertende Ausdruck, falls das Ergebnis der Auswertung der Bedingung wahr ist.
@@ -24,7 +24,7 @@ Die bedingte Anweisung (if, then, else) wird im erweiterten Editor unterstützt.
 
 >[!NOTE]
 >
->Für alle Ausdrücke sind Klammern erforderlich.
+>Alle Ausdrücke müssen in Klammern gesetzt werden.
 
 ```json
 if  (<expression1>)
@@ -34,9 +34,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` muss eine **boolean**.
+`<expression1>` muss einen booleschen Wert (**boolean**) zurückgeben.
 
-`<expression2>` und `<expression3>` muss denselben Typ oder kompatible Typen aufweisen. Folgende Signaturen und zurückgegebene Typen werden unterstützt:
+`<expression2>` und `<expression3>` müssen denselben Typ oder kompatible Typen aufweisen. Folgende Signaturen und zurückgegebene Typen werden unterstützt:
 
 ```json
 boolean,boolean : boolean
@@ -56,9 +56,9 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**Nutzung**
+**Verwendung**
 
-Mit der bedingten Anweisung können Sie den Journey-Workflow optimieren, indem Sie die Anzahl der Bedingungsaktivitäten reduzieren. Beispielsweise können Sie innerhalb derselben Aktionsaktivität zwei Alternativen für eine Felddefinition angeben, wobei nur ein Bedingungsausdruck verwendet wird.
+Mit der bedingten Anweisung können Sie den Workflow der Journey optimieren, indem Sie die Anzahl der Bedingungsaktivitäten reduzieren. Beispielsweise können Sie innerhalb derselben Aktionsaktivität zwei Alternativen für eine Felddefinition angeben, wobei nur ein Bedingungsausdruck verwendet wird.
 
 Beispiel für eine Aktionsaktivität (für ein Feld, das eine Zeichenfolge als Ergebnis der bedingten Anweisung erwartet):
 

@@ -1,6 +1,6 @@
 ---
 title: Entscheidungen aktualisieren
-description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,25 +8,25 @@ level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
 # Entscheidung aktualisieren {#update-decision}
 
-Sie können eine Entscheidung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library] API.
+Sie können eine Entscheidung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zum JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
-## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **API-Format**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Vorgangsaufruf, mit dem die zum Aktualisieren der Verbindung erforderliche Aktion definiert wird. Zu den Vorgängen gehören: `add`, `replace`und `remove`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details der Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Entscheidung `@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Entscheidung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Entscheidung`@id`.
 
 ```json
 {

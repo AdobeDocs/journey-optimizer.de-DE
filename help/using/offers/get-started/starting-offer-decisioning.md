@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit der Entscheidungsverwaltung
-description: Erfahren Sie, wie Adobe Journey Optimizer Ihnen dabei helfen kann, Ihren Kunden das richtige Angebot zur richtigen Zeit zu senden.
+title: Erste Schritte mit dem Entscheidungs-Management
+description: Erfahren Sie, wie Adobe Journey Optimizer Ihnen dabei helfen kann, Ihren Kunden das richtige Angebot zum richtigen Zeitpunkt zu senden.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,118 +8,118 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 0%
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
-# Über die Entscheidungsverwaltung {#about-decision-management}
+# Über das Entscheidungs-Management  {#about-decision-management}
 
-Verwendung [!DNL Journey Optimizer] , um Ihren Kunden zur richtigen Zeit über alle Kontaktpunkte hinweg das beste Angebot und Erlebnis bereitzustellen. Danach können Sie Ihre Zielgruppen mit personalisierten Angeboten ansprechen.
+Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden über alle Berührungspunkte hinweg zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden.
 
-Die Entscheidungsverwaltung erleichtert die Personalisierung mit einer zentralen Bibliothek von Marketing-Angeboten und einer Entscheidungs-Engine, die Regeln und Einschränkungen auf umfassende Echtzeit-Profile anwendet, die von Adobe Experience Platform erstellt wurden, damit Sie Ihren Kunden zum richtigen Zeitpunkt das richtige Angebot unterbreiten können.
+Entscheidungs-Management erleichtert die Personalisierung durch eine zentrale Bibliothek mit Marketing-Angeboten und eine Entscheidungs-Engine. Dabei werden Regeln und Einschränkungen auf die von Adobe Experience Platform erstellten Echtzeitprofile angewendet, sodass Sie Ihren Kundinnen und Kunden zum richtigen Zeitpunkt das richtige Angebot senden können.
 
-Die Entscheidungsverwaltungsfunktion besteht aus zwei Hauptkomponenten:
+Entscheidungs-Management besteht aus zwei Hauptkomponenten:
 
-* Die **Zentralisierte Angebotsbibliothek** auf der Sie die verschiedenen Elemente erstellen und verwalten, aus denen Ihre Angebote bestehen, und deren Regeln und Begrenzungen definieren.
-* Die **Offer Decisioning-Engine** , das Adobe Experience Platform-Daten und Echtzeit-Kundenprofile gemeinsam mit der Angebotsbibliothek nutzt, um die richtigen Zeitpunkte, Kunden und Kanäle für die Bereitstellung von Angeboten auszuwählen.
+* Die **zentrale Angebotsbibliothek** ist die Oberfläche, über die Sie die verschiedenen Elemente erstellen und verwalten können, aus denen Ihre Angebote bestehen. Außerdem können Sie hier entsprechende Regeln und Begrenzungen definieren.
+* Die **Offer Decisioning-Engine** nutzt Adobe Experience Platform-Daten und Echtzeit-Kundenprofile sowie die Angebotsbibliothek, um die richtigen Zeitpunkte, Kunden und Kanäle für das Unterbreiten von Angeboten auszuwählen.
 
 ![](../assets/architecture.png)
 
 Zu den Vorteilen zählen:
 
-* Verbesserte Kampagnenleistung durch die Bereitstellung personalisierter Angebote über mehrere Kanäle hinweg,
-* Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen zu erstellen, können Marketingteams Workflows verbessern, indem sie einen einzigen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
-* Kontrolle darüber, wie oft ein Angebot in Kampagnen und Kunden angezeigt wird.
+* Verbesserte Kampagnenleistung durch Unterbreitung personalisierter Angebote über verschiedene Kanäle hinweg.
+* Verbesserte Workflows: Anstatt mehrere Sendungen oder Kampagnen erstellen zu müssen, können Marketing-Teams Workflows optimieren, indem sie einen einzelnen Versand erstellen und die Angebote in verschiedenen Teilen der Vorlage variieren.
+* Kontrolle darüber, wie häufig ein Angebot in Kampagnen den einzelnen Kunden unterbreitet wird.
 
-➡️ [Weitere Informationen zur Entscheidungsverwaltung finden Sie in diesen Videos](#video)
+➡️ [Weitere Informationen zum Entscheidungs-Management finden Sie in diesen Videos](#video)
 
 
 >[!NOTE]
 >
->Wenn Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} Benutzer, der die **Offer Decisioning** Anwendungsdienst, gelten auch alle in diesem Abschnitt beschriebenen Funktionen zur Entscheidungsverwaltung für Sie.
+>Wenn Sie ein [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=&quot;_blank&quot;}-Benutzer sind, der den Programm-Service **Offer Decisioning** nutzt, gelten alle in diesem Abschnitt beschriebenen Funktionen zum Entscheidungs-Management auch für Sie.
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 
-Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Einschränkungen, die die Bedingungen definieren, unter denen sie Ihren Kunden präsentiert werden.
+Ein **Angebot** besteht aus Inhalten, Eignungsregeln und Einschränkungen, die die Bedingungen festlegen, unter denen das Angebot Kunden unterbreitet wird.
 
-Sie wird mithilfe der **Angebotsbibliothek**, bietet einen zentralen Angebotskatalog, in dem Sie Eignungsregeln und Einschränkungen mit mehreren Inhaltselementen verknüpfen können, um Angebote zu erstellen und zu veröffentlichen (siehe [Benutzeroberfläche der Angebotsbibliothek](../get-started/user-interface.md)).
+Es wird mithilfe der **Angebotsbibliothek** erstellt. Diese bietet einen zentralen Angebotskatalog, in dem Sie Eignungsregeln und Einschränkungen mit unterschiedlichen Inhaltselementen verknüpfen können, um Angebote zu erstellen und zu veröffentlichen (siehe [Benutzeroberfläche der Angebotsbibliothek](../get-started/user-interface.md)).
 
 ![](../assets/offer_structure.png)
 
-Sobald die Angebotsbibliothek mit Angeboten angereichert wurde, können Sie Ihre Angebote in **Entscheidungen**.
+Sobald die Angebotsbibliothek um Angebote erweitert wurde, können Sie diese in **Entscheidungen** integrieren.
 
-Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um je nach Zielgruppe des Versands das beste Angebot auszuwählen, das bereitgestellt werden kann.
+Entscheidungen sind Container für Ihre Angebote, die die Offer Decisioning-Engine nutzen, um das beste Angebot auszuwählen, das je nach Zielgruppe des Versandes unterbreitet werden kann.
 
 ## Häufige Anwendungsfälle {#common-use-cases}
 
-Die Funktionen zur Entscheidungsverwaltung und die Integration mit Adobe Experience Platform ermöglichen es Ihnen, zahlreiche Anwendungsfälle abzudecken, um die Interaktion und Konversion von Kunden zu verbessern.
+Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Experience Platform können Sie zahlreiche Anwendungsfälle abdecken, um die Interaktion und Konversion von Kunden zu verbessern.
 
-* Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform dem Zielpunkt des Besuchers entsprechen.
+* Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform den Interessengebieten des Besuchers entsprechen.
 
    ![](../assets/website.png)
 
-* Wenn Kunden in der Nähe eines Ihrer Geschäfte gehen, senden Sie ihnen Push-Benachrichtigungen, um sie an verfügbare Angebote zu erinnern, die ihren Attributen entsprechen (Treuestufe, Geschlecht, frühere Käufe usw.).
+* Wenn Kunden an einem Ihrer Geschäfte vorbeigehen, senden Sie ihnen Push-Benachrichtigungen, um sie je nach ihren Attributen (Treuestufe, Geschlecht, frühere Käufe usw.) an verfügbare Angebote zu erinnern.
 
    ![](../assets/push_sample.png)
 
-* Die Entscheidungsverwaltung hilft Ihnen auch, das Kundenerlebnis bei der Kontaktaufnahme mit Ihrem Support-Team zu verbessern. Mit Entscheidungsmanagement-APIs können Sie im Portal Ihrer Callcenter-Agenten Informationen über die eingelösten und nächsten besten Angebote anzeigen.
+* Zudem hilft Ihnen Entscheidungs-Management dabei, das Kundenerlebnis zu verbessern, wenn sich Kunden an Ihr Supportteam wenden. Mit Entscheidungs-Management-APIs können Sie im Portal Ihrer Callcenter-Agenten Informationen über die eingelösten und nächstbesten Angebote anzeigen.
 
    ![](../../assets/do-not-localize/call-center.png)
 
-## Zugriff auf die Entscheidungsverwaltung gewähren {#granting-acess-to-decision-management}
+## Zugriff auf das Entscheidungs-Management gewähren {#granting-acess-to-decision-management}
 
-Berechtigungen für den Zugriff auf und die Verwendung von Entscheidungsfunktionen werden mithilfe des [Adobe Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Die Zugriffsberechtigungen und die Verwendung der Entscheidungsfunktionen werden mithilfe von [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html){target=&quot;_blank&quot;} verwaltet.
 
-Um Zugriff auf die Entscheidungsverwaltungsfunktionen zu gewähren, müssen Sie eine **[!UICONTROL Product profile]** und weisen Sie Ihren Benutzern die entsprechenden Berechtigungen zu. Weitere Informationen zur Verwaltung [!DNL Journey Optimizer] Benutzer und Berechtigungen in [diesem Abschnitt](../../administration/permissions.md).
+Um Zugriff auf die Funktionen des Entscheidungs-Managements zu gewähren, müssen Sie ein **[!UICONTROL Produktprofil]** erstellen und den Benutzern die entsprechenden Berechtigungen zuweisen. Weitere Informationen zur Verwaltung von [!DNL Journey Optimizer]-Benutzern und -Berechtigungen finden Sie in [diesem Abschnitt](../../administration/permissions.md).
 
-Die spezifischen Berechtigungen für die Entscheidungsverwaltung finden Sie unter [diesem Abschnitt](../../administration/high-low-permissions.md#decisions-permissions).
+Die für das Entscheidungs-Management spezifischen Berechtigungen sind in [diesem Abschnitt](../../administration/high-low-permissions.md#decisions-permissions) aufgeführt.
 
 ## Glossar {#glossary}
 
-Unten finden Sie die Liste der wichtigsten Konzepte, mit denen Sie bei der Verwendung von Entscheidungsmanagement arbeiten werden.
+Unten finden Sie eine Liste der wichtigsten Konzepte bei der Verwendung des Entscheidungs-Managements.
 
-* **Begrenzung** oder **Frequenzlimitierung**: Begrenzungen dienen dazu, festzulegen, wie oft ein Angebot unterbreitet wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot für die kombinierte Zielgruppe vorgeschlagen werden kann, auch &quot;Gesamtbeschränkungen&quot;genannt, und wie oft ein Angebot demselben Endbenutzer vorgeschlagen werden kann, auch als &quot;Profilbegrenzung&quot;bezeichnet.
+* **Begrenzung** oder **Frequenzlimitierung**: Per Begrenzung wird festgelegt, wie oft ein Angebot angezeigt wird. Es gibt zwei Arten von Begrenzungen: wie oft ein Angebot der kombinierten Ziel-Audience vorgeschlagen werden kann (auch als „Gesamtobergrenzen“ bezeichnet) und wie oft ein Angebot demselben Endbenutzer unterbreitet werden kann (auch als „Profilbegrenzung“ bezeichnet).
 
-* **Sammlungen**: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+* **Sammlungen**: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-* **Entscheidung**: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+* **Entscheidung**: Eine Entscheidung enthält die Logik, die die Auswahl eines Angebots bestimmt.
 
-* **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
+* **Entscheidungsregel**: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu ermitteln.
 
-* **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Bedingungen, die einem Profil auf kohärente Weise unterbreitet werden können.
+* **Geeignetes Angebot**: Ein geeignetes Angebot erfüllt zuvor definierte Bedingungen und kann einem Profil somit auf kohärente Weise unterbreitet werden.
 
-* **Entscheidungsverwaltung**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebotserlebnisse für Endbenutzer über Kanäle und Anwendungen hinweg mithilfe von Business-Logik und Entscheidungsregeln.
+* **Entscheidungs-Management**: Ermöglicht die Erstellung und Bereitstellung personalisierter Angebotserlebnisse für Endbenutzer über verschiedene Kanäle und Anwendungen mithilfe von Business-Logik und Entscheidungsregeln.
 
-* **Fallback-Angebote**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote in der Sammlung qualifiziert ist.
+* **Fallback-Angebot**: Ein Fallback-Angebot ist das Standardangebot, das angezeigt wird, wenn ein Endbenutzer für keines der personalisierten Angebote in der Sammlung geeignet ist.
 
-* **Angebot**: Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer zum Anzeigen des Angebots berechtigt ist.
+* **Angebot**: Ein Angebot ist eine Marketing-Botschaft, der ggf. Regeln zugeordnet sind, die angeben, wer sich zum Anzeigen des Angebots eignet.
 
-* **Angebotsbibliothek**: Die Angebotsbibliothek ist eine zentrale Bibliothek, die zur Verwaltung von personalisierten Angeboten und Fallback-Angeboten, Entscheidungsregeln und Entscheidungen verwendet wird.
+* **Angebotsbibliothek**: Die Angebotsbibliothek ist eine zentrale Bibliothek, die zum Verwalten von personalisierten Angeboten sowie Fallback-Angeboten, Entscheidungsregeln und Entscheidungen dient.
 
 * **Personalisierte Angebote**: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
 
-* **Praktika**: Eine Platzierung ist der Ort und/oder Kontext, in dem ein Angebot für einen Endbenutzer angezeigt wird.
+* **Platzierung**: Eine Platzierung ist der Ort und/oder Kontext, in dem ein Angebot für einen Endnutzer erscheint.
 
-* **Priorität**: Mit &quot;Priorität&quot;werden Angebote sortiert, die alle Einschränkungen erfüllen, wie Eignung, Kalender und Begrenzung.
+* **Priorität**: Die Priorität dient zur Einstufung von Angeboten, die alle Einschränkungen wie Eignung, Termine und Begrenzungen erfüllen.
 
-* **Darstellungen**: Eine Darstellung sind Informationen, die von einem Kanal verwendet werden, z. B. Ort oder Sprache zur Anzeige eines Angebots.
+* **Darstellungen**: Eine Darstellung besteht aus Informationen, die von einem Kanal verwendet werden (z. B. Ort oder Sprache), um ein Angebot zu unterbreiten.
 
 ## Anleitungsvideos{#video}
 
 >[!NOTE]
 >
->Diese Videos gelten für den Offer Decisioning-Anwendungsdienst, der auf Adobe Experience Platform aufbaut, und sind nicht spezifisch für [!DNL Adobe Journey Optimizer]. Sie bieten jedoch allgemeine Leitlinien für die Verwendung des Entscheidungsmanagements im Rahmen von [!DNL Journey Optimizer].
+>Diese Videos erläutern den auf Adobe Experience Platform aufbauenden Offer Decisioning-Anwendungs-Service und beziehen sich nicht ausschließlich auf [!DNL Adobe Journey Optimizer]. Sie bieten aber allgemeine Informationen über die Verwendung des Entscheidungs-Managements mit [!DNL Journey Optimizer].
 
-### Was ist Entscheidungsmanagement? {#what-is-offer-decisioning}
+### Was ist Entscheidungs-Management? {#what-is-offer-decisioning}
 
-Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle der Entscheidungsverwaltung:
+Das folgende Video bietet eine Einführung in die wichtigsten Funktionen, Architekturmerkmale und Anwendungsfälle des Entscheidungs-Managements:
 
 >[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Angebote definieren und verwalten {#use-offer-decisioning}
 
-Im folgenden Video erfahren Sie, wie Sie mithilfe von Decision Management Ihre Angebote definieren und verwalten und Echtzeit-Kundendaten nutzen können.
+Das folgende Video zeigt, wie Sie mit dem Entscheidungs-Management Angebote definieren und verwalten sowie Echtzeit-Kundendaten nutzen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 

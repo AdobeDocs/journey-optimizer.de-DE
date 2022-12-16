@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit Daten in [!DNL Journey Optimizer]
-description: Erfahren Sie, wie Sie mit Daten in [!DNL Journey Optimizer]
+title: Erste Schritte mit Daten in  [!DNL Journey Optimizer]
+description: Erfahren Sie, wie Sie in  [!DNL Journey Optimizer] mit Daten arbeiten
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,70 +12,70 @@ hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit der Datenverwaltung in [!DNL Journey Optimizer] {#about-data}
 
-Reichweite und Abdeckung von Endkundendaten definiert die Stärke und den Erfolg jeder Customer Experience-Lösung. und diese Daten sind heilig und haben den höchsten Wert für einen bestimmten Kunden. Die Technologieauswahl ist jetzt von Natur aus mit einer strengen Bewertung der Datenverwaltungsfunktionen integriert.
+Reichhaltigkeit und Abdeckung von Endkundendaten definieren die Stärke und den Erfolg jeder Customer Experience-Lösung. Diese Daten sind für jeden Kunden heilig und sind für ihn von höchstem Wert. Die Technologieauswahl ist jetzt von Natur aus mit einer strengen Auswertung der Datenverwaltungsfunktionen integriert.
 
 Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern und in Plattformen oder Systeme exportieren, die Teil Ihres Technologie-Stacks sind.
 
-**Meine Daten, meine Regeln** - Journey Optimizer erstellt kontinuierlich (und in Echtzeit) einen umfangreichen Satz von Kundenprofildaten zusätzlich zu allen Journey-Daten und Angebotsdaten, die mit seinen Vorgängen verbunden sind. Strawman-Versionen von Benutzerdaten, die aus Ihren Datenbanken erfasst werden, werden angereichert und in hochwertige Daten mit Abdeckung und Tiefe umgewandelt. Sie wollen diese Daten sicher und gleichzeitig allgegenwärtig, damit Sie ihren Wert in Ihrem gesamten IT-Ökosystem nutzen können.
+**Meine Daten, meine Regeln** – Journey Optimizer erstellt kontinuierlich (und in Echtzeit) neben allen Journey-Daten und Angebotsdaten, die mit deren Vorgängen verbunden sind, einen umfangreichen Satz an Kundenprofildaten. Strawman-Versionen von Benutzerdaten, die aus Ihren Datenbanken erfasst werden, werden angereichert und in hochwertige Daten mit Abdeckung und Tiefe umgewandelt. Sie wollen, dass diese Daten sicher und gleichzeitig überall verfügbar sind, damit Sie deren Wert in Ihrem gesamten IT-Ökosystem nutzen können.
 
-Im Großen und Ganzen ist die Flexibilität, die Sie von Ihren Daten erwarten, dreimal so:
+Im Großen und Ganzen ist die Flexibilität, die Sie von Ihren Daten erwarten, dreifacher Art:
 
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="Ziele" src="assets/do-not-localize/dest.png" /> 
-    <br>Verfügbar in anderen Zielen - Während Journey Optimizer Daten für ein überaus personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten zur Nutzung dieser Daten suchen.
+ <br>Verfügbar in anderen Zielen – Während Journey Optimizer Daten für ein extrem personalisiertes Kundenerlebnis synchronisiert und integriert, wünschen Sie sich diese Daten in anderen Systemen in Ihrer gesamten Technologielandschaft, während Sie nach anderen Möglichkeiten suchen, diese Daten zu nutzen.
     <div>
-     <a href="../start/ajo-integrations.md">Weitere Infos</a></div>
+     <a href="../start/ajo-integrations.md">Weitere Informationen</a></div>
     </div>
     <br>
   </td>
 </tr>
   <td>
-    <div><img alt="Treue" src="assets/do-not-localize/retention.png" />  
-    <br>Wird für eine bestimmte Dauer beibehalten - Branchen- oder regionale Regelungen (wie DSGVO oder CCPA) oder interne Richtlinien zur Data Governance legen fest, wie lange oder wie kurz eine Dauer sein muss, Daten im Adobe Experience Platform Data Lake aufbewahrt oder archiviert werden müssen. <a href="../privacy/get-started-privacy.md">Weitere Infos</a></div>
+    <div><img alt="Aufbewahrung" src="assets/do-not-localize/retention.png" />  
+ <br>Aufbewahrung für eine bestimmte Dauer – Branchen- oder Regionalbestimmungen (wie DSGVO oder CCPA) oder interne Data-Governance-Richtlinien legen fest, wie lange oder wie kurz die Dauer ist, Daten im Data Lake von Adobe Experience Platform aufbewahrt oder archiviert werden müssen. <a href="../privacy/get-started-privacy.md">Weitere Informationen</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
-    <br>Gelöschte Basis eines vereinbarten Zeitplans für Ihre Richtlinie - Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data Governance-Prozessen. Journey Optimizer kann mehr Daten als erforderlich produzieren. Außerdem sollten Sie darauf achten, was nach der erforderlichen Dauer für einen Datensatz geschieht - sei es aus Gründen der Nützlichkeit oder der Regulierung. Das benötigte Steuerelement besteht darin, Daten jederzeit zu löschen. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Weitere Informationen zur Datenhygiene finden Sie in der Dokumentation zu Adobe Experience Platform .</a></div>
+    <div><img alt="Richtlinie" src="assets/do-not-localize/policy.png" /> 
+ <br>Löschung basierend auf einem vereinbarten Zeitplan oder Ihrer Richtlinie – Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data-Governance-Prozessen. Journey Optimizer erzeugt möglicherweise mehr Daten als erforderlich. Außerdem sollten Sie darauf achten, was nach der vorgeschriebenen Aufbewahrungsdauer für einen Datensatz geschieht – sei es aus Gründen der Nützlichkeit oder der Vorschrift. Die Kontrolle, die Sie benötigen, besteht darin, Daten zu einem beliebigen Zeitpunkt löschen zu können. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=de">Weitere Informationen zur Datenhygiene finden Sie in der Dokumentation zu Adobe Experience Platform</a></div>
   </td>
 </tr>
 </table>
 
-Adobe Experience Platform, auf der Journey Optimizer basiert, bietet Ihnen die höchste Datenkontrolle - während der Interaktion und am Ende der Interaktion. In Journey Optimizer haben Sie die vollständige Kontrolle über die Daten (die entweder in Journey Optimizer integriert oder von Journey Optimizer generiert werden), die Governance hat sich auf diese Daten und die Ziele, an die diese Daten gesendet werden, überlagert.
+Adobe Experience Platform, worauf Journey Optimizer basiert, bietet Ihnen ein höchstes Maß an Datenkontrolle – sowohl während der Interaktion als auch am Ende der Interaktion. Innerhalb von Journey Optimizer haben Sie die volle Kontrolle über die Daten (die entweder in Journey Optimizer eingebracht oder von Journey Optimizer generiert werden), die auf diese Daten angewendete Governance und die Ziele, an die diese Daten gesendet werden.
 
-Alle Daten werden als Eigentum von Customers betrachtet und können nur auf Anfrage gepflegt, verschlüsselt, verteilt oder zerstört werden. Adobe fungiert als Treuhänder und hat absolut keine Rechte an Ihren Daten.
+Alle Daten werden als Eigentum von Kunden betrachtet und können nur auf Anfrage gepflegt, verschlüsselt, verteilt oder vernichtet werden. Adobe fungiert als Treuhänder, ohne jegliche Rechte an Ihren Daten.
 
-Sie können die Datenflexibilität von Journey Optimizer nutzen, um Ihre spezifischen Anforderungen im Zusammenhang mit der Datenaufbewahrung, -archivierung oder -löschung zu erfüllen:
+Sie können die Datenflexibilität von Journey Optimizer nutzen, um Ihre spezifischen Anforderungen in Bezug auf die Aufbewahrung, Archivierung oder Löschung von Daten zu erfüllen:
 
-* **Datenextraktion/Export**: Sie können die Extraktion von Quelldaten jederzeit über die Data Access API ohne Strafen oder Zeitverzögerungen starten. Die [Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;} bietet Benutzern eine RESTful-Schnittstelle, die sich auf die Auffindbarkeit und Zugänglichkeit erfasster Datensätze innerhalb der Experience Platform konzentriert. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Datenextraktion/Export**: Sie können die Extraktion von Quelldaten jederzeit über die Datenzugriffs-API ohne Strafen oder Zeitverzögerungen starten. Die [Datenzugriffs-API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=de){target=&quot;_blank&quot;} bietet Benutzenden eine RESTful-Schnittstelle, die sich auf die Auffindbarkeit und Zugänglichkeit erfasster Datensätze innerhalb von Experience Platform konzentriert. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Beachten Sie, dass in Journeys oder Kampagnen verwendete Inhalte nicht über die oben genannten API- oder Zielmethoden extrahiert werden können.
 
-* **Datenaufbewahrung für den Profildienst**: Für an ein Profil angehängte Verhaltens- und Zeitreihendaten können Sie die Standardeinstellung von Journey Optimizer verwenden, diese Daten bis zu 30 Tage lang ab dem Datum der Hinzufügung eines Profils oder bis zu einem von Ihnen ausgewählten alternativen Zeitraum beizubehalten. Der Zeitpunkt, zu dem Adobe diese Daten speichert, variiert von Vertrag zu Vertrag und wird in der Datenaufbewahrungsrichtlinie eines Unternehmens beschrieben.
+* **Datenaufbewahrung durch Profile Service**: Für an ein Profil angehängte Verhaltens- und Zeitreihendaten können Sie die Standardeinstellung von Journey Optimizer verwenden, diese Daten bis zu 30 Tage lang ab dem Datum der Profileinfügung oder bis zu einem von Ihnen ausgewählten alternativen Zeitpunkt beizubehalten. Der Zeitraum, über den Adobe diese Daten speichert, ist von Vertrag zu Vertrag unterschiedlich und wird in der Richtlinie zur Datenaufbewahrung des jeweiligen Unternehmens beschrieben.
 
-   Erfahren Sie mehr über die Ablauf von Erlebnisereignissen in [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target=&quot;_blank&quot;}.
+   Weitere Informationen zur Gültigkeitsdauer von Experience-Ereignissen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=de){target=&quot;_blank&quot;}.
 
-* **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in Journey Optimizer frei definiert und automatisiert werden, um Richtlinien zur Datenaufbewahrung zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, dass Alterungsdaten vor der Bereinigung oder Archivierung automatisch exportiert werden.
+* **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in Journey Optimizer frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.
 
-   Der Arbeitsbereich &quot;Datenhygiene&quot;in der Benutzeroberfläche von Adobe Experience Platform ermöglicht Ihnen die Erstellung und Überwachung verschiedener Datenhygiene-Aufgaben, einschließlich des Löschens von Kundenidentitäten und der Planung von Datensatzabläufen. Dieser Arbeitsbereich ist mit dem Sicherheits- und Datenschutzschild und dem Gesundheitsschild verfügbar. Weitere Informationen finden Sie unter [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   Der Arbeitsbereich Datenhygiene in der Adobe Experience Platform-Benutzeroberfläche ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=de){target=&quot;_blank&quot;}.
 
-* **Data Lake und Löschungen**: Im Data Lake gespeicherte Kundendaten können von Journey Optimizer beibehalten werden:
+* **Data Lake und Löschungen**: Im Data Lake gespeicherte Kundendaten können von Journey Optimizer wie folgt beibehalten werden:
 
-   * 7 Tage lang, um das Onboarding von Kundendaten in die Profildienste zu erleichtern, nach denen diese dauerhaft gelöscht werden können, oder
-   * bis Sie ausgewählt haben, gelöscht zu werden
+   * 7 Tage lang, um das Onboarding von Kundendaten in die Profil-Services zu erleichtern, wonach diese dauerhaft gelöscht werden können, oder
+   * bis zur Löschung durch Sie
 
 
-* **Datenextraktion bei Beendigung der Interaktion/Ausstieg**: Wenn der Vertrag gekündigt wird, werden Ihre Daten vollständig aus dem Speicher von Adobe entfernt. Außerdem können Sie vor Beendigung einer Vereinbarung die vollständigen Profilextrakte abrufen. Für diese Funktion fallen keine zusätzlichen Kosten an. Dies kann jederzeit und nicht nur nach Beendigung erfolgen.
+* **Datenextraktion bei Beendigung der Interaktion/Ausstieg**: Nach Vertragsende werden Ihre Daten vollständig aus der Datenspeicherung von Adobe entfernt. Außerdem können Sie vor Beendigung einer Vereinbarung die vollständigen Profilextrakte abrufen. Für diese Funktion fallen keine zusätzlichen Kosten an. Dies kann jederzeit und nicht nur bei Beendigung erfolgen.
 
-Die oben genannten Methoden sind vertraglich definiert und im Datenverarbeitungsabkommen (Data Processing Agreement, DPA) ausführlich beschrieben, dass Adobe zu Beginn einer Interaktion mit Ihnen einverstanden ist. Adobe-Anwendungen, einschließlich Journey Optimizer, basieren auf dem Prinzip, dass die Daten jedes Kunden als proprietäres Datenasset dieses Kunden behandelt werden.
+Die oben genannten Methoden werden vertraglich definiert und im Datenverarbeitungsabkommen (Data Processing Agreement, DPA), das Adobe zu Beginn eines Engagements mit Ihnen abschließt, detailliert beschrieben. Adobe-Anwendungen, einschließlich Journey Optimizer, sind so konzipiert, dass die Daten jedes Kunden als proprietäres Daten-Asset dieses Kunden gehandhabt werden.

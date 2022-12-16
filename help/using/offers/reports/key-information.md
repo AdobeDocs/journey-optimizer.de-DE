@@ -1,6 +1,6 @@
 ---
-title: Wichtige Informationen zu Entscheidungsverwaltungsereignissen
-description: Erfahren Sie mehr über die wichtigsten Informationen, die mit jedem Entscheidungsverwaltungsereignis gesendet werden.
+title: Wichtige Informationen zu Entscheidungs-Management-Ereignissen
+description: Erfahren Sie mehr über die wichtigsten Informationen, die zusammen mit jedem Entscheidungs-Management-Ereignis gesendet werden.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,22 +8,22 @@ level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 0%
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
-# Wichtige Informationen zu Entscheidungsverwaltungsereignissen {#events-key-information}
+# Wichtige Informationen zu Entscheidungs-Management-Ereignissen {#events-key-information}
 
-Jedes Ereignis, das bei einer Entscheidung gesendet wird, enthält vier wichtige Datenpunkte, die Sie für Analyse- und Berichtszwecke nutzen können.
+Jedes Ereignis, das gesendet wird, wenn eine Entscheidung getroffen wird, enthält vier wichtige Datenpunkte, die Sie für Analyse- und Reporting-Zwecke nutzen können.
 
 ![](../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**: Name und ID des Fallback-Angebots, wenn kein personalisiertes Angebot ausgewählt wurde,
-* **[!UICONTROL Placement]**: Name, ID und Kanal der Platzierung, die zur Bereitstellung des Angebots verwendet wird,
-* **[!UICONTROL Selections]**: Name und Kennung des für das Profil ausgewählten Angebots,
-* **[!UICONTROL Activity]**: Name und ID der Entscheidung.
+* **[!UICONTROL Placement]**: Name, ID und Kanal der Platzierung, über die das Angebot gesendet wird,
+* **[!UICONTROL Selections]**: Name und ID des für das Profil ausgewählten Angebots,
+* **[!UICONTROL Aktivität]**: Name und ID der Entscheidung.
 
-Darüber hinaus können Sie auch die **[!UICONTROL identityMap]** und **[!UICONTROL Timestamp]** -Felder, um Informationen zum Profil und zum Zeitpunkt der Bereitstellung des Angebots abzurufen.
+Zusätzlich können Sie auch die Felder **[!UICONTROL identityMap]** und **[!UICONTROL Timestamp]** nutzen, um Informationen über das Profil und den Zeitpunkt, zu dem das Angebot zugestellt wurde, abzurufen.
 
-Weitere Informationen zu allen XDM-Feldern, die mit jeder Entscheidung gesendet werden, finden Sie unter [diesem Abschnitt](xdm-fields.md).
+Weitere Informationen zu allen XDM-Feldern, die mit jeder Entscheidung gesendet werden, finden Sie in [diesem Abschnitt](xdm-fields.md).

@@ -1,6 +1,6 @@
 ---
 title: Fallback-Angebot aktualisieren
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie nicht für andere Angebote geeignet sind
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,25 +8,25 @@ level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
 # Fallback-Angebot aktualisieren {#update-fallback-offer}
 
-Sie können ein Fallback-Angebot in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library] API.
+Sie können ein Fallback-Angebot in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
-Weitere Informationen zum JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON Patch-Dokumentation](http://jsonpatch.com/).
+Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
-## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API-Format**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Vorgangsaufruf, mit dem die zum Aktualisieren der Verbindung erforderliche Aktion definiert wird. Zu den Vorgängen gehören: `add`, `replace`und `remove`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details des Fallback-Angebots zurückgegeben, einschließlich der eindeutigen Instanz-ID und des Fallback-Angebots. `@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details des Fallback-Angebots zurückgegeben, einschließlich der eindeutigen Instanz-ID und der `@id` des Fallback-Angebots.
 
 ```json
 {

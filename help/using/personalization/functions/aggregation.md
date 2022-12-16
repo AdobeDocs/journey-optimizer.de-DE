@@ -9,17 +9,17 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Aggregationsfunktionen {#aggregation}
 
-Aggregationsfunktionen dienen dazu, mehrere Werte zu gruppieren, um einen einzigen Zusammenfassungswert zu bilden.
+Aggregationsfunktionen werden verwendet, um mehrere Werte zu gruppieren, sodass ein einziger Zusammenfassungswert gebildet wird.
 
-## Durchschnittlich{#average}
+## Durchschnitt{#average}
 
-Die `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück.
+Die Funktion `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück.
 
 **Format**
 
@@ -29,15 +29,15 @@ Die `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array z
 
 **Beispiel**
 
-Der folgende Vorgang gibt den Durchschnittspreis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der Durchschnittspreis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=average(orders.order.price)%}
 ```
 
-## Count{#count}
+## Anzahl{#count}
 
-Die `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
+Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
 
 **Format**
 
@@ -47,7 +47,7 @@ Die `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurüc
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Anzahl der Bestellungen im Array zurück.
+Durch den folgenden Vorgang wird die Anzahl der Bestellungen im Array zurückgegeben.
 
 ```sql
 {%= count(orders) %}
@@ -55,7 +55,7 @@ Der folgende Vorgang gibt die Anzahl der Bestellungen im Array zurück.
 
 ## Maximum{#max}
 
-Die `max` gibt den größten von allen ausgewählten Werten im Array zurück.
+Die Funktion `max` gibt den größten der ausgewählten Werte im Array zurück.
 
 **Format**
 
@@ -65,7 +65,7 @@ Die `max` gibt den größten von allen ausgewählten Werten im Array zurück.
 
 **Beispiel**
 
-Der folgende Vorgang gibt den höchsten Preis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der höchste Preis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=max(orders.order.price)%}
@@ -73,7 +73,7 @@ Der folgende Vorgang gibt den höchsten Preis aller Bestellungen zurück.
 
 ## Minimum{#min}
 
-Die `min` gibt die kleinste aller im Array ausgewählten Werte zurück.
+Die Funktion `min` gibt den kleinsten aller ausgewählten Werte im Array zurück.
 
 **Format**
 
@@ -83,7 +83,7 @@ Die `min` gibt die kleinste aller im Array ausgewählten Werte zurück.
 
 **Beispiel**
 
-Der folgende Vorgang gibt den niedrigsten Preis aller Bestellungen zurück.
+Durch den folgenden Vorgang wird der niedrigste Preis aller Bestellungen zurückgegeben.
 
 ```sql
 {%=min(orders.order.price) %}
@@ -91,7 +91,7 @@ Der folgende Vorgang gibt den niedrigsten Preis aller Bestellungen zurück.
 
 ## Summe{#sum}
 
-Die `sum` -Funktion gibt die Summe aller im Array ausgewählten Werte zurück.
+Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
 
 **Format**
 
@@ -101,7 +101,7 @@ Die `sum` -Funktion gibt die Summe aller im Array ausgewählten Werte zurück.
 
 **Beispiel**
 
-Der folgende Vorgang gibt die Summe aller Bestellpreise zurück.
+Durch den folgenden Vorgang wird die Summe aller Bestellungen zurückgegeben.
 
 ```sql
 {%=sum(orders.order.price)%}

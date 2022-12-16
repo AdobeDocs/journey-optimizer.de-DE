@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Kampagne überprüfen und aktivieren
-description: Erfahren Sie, wie Sie Kampagnen in überprüfen und aktivieren können. [!DNL Journey Optimizer]
+title: Überprüfen und Aktivieren einer Kampagne
+description: Erfahren Sie, wie Sie Kampagnen in  [!DNL Journey Optimizer] überprüfen und aktivieren können.
 feature: Overview
 topic: Content Management
 role: User
@@ -10,18 +10,18 @@ level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 100%
 
 ---
 
 # Kampagne überprüfen und aktivieren {#review-activate}
 
-Nachdem die Kampagne konfiguriert wurde, müssen Sie deren Parameter und Inhalt überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
+Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 
-1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf **[!UICONTROL Review to activate]** um eine Zusammenfassung der Kampagne anzuzeigen.
+1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf **[!UICONTROL Zum Aktivieren überprüfen]**, um eine Zusammenfassung der Kampagne anzuzeigen.
 
-   Mithilfe der Zusammenfassung können Sie bei Bedarf Ihre Kampagne ändern und überprüfen, ob ein Parameter falsch ist oder fehlt.
+   In der Zusammenfassung können Sie die Kampagne bei Bedarf ändern und überprüfen, ob ein Parameter falsch ist oder fehlt.
 
    >[!IMPORTANT]
    >
@@ -29,22 +29,22 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie deren Parameter und Inhalt 
 
    ![](assets/create-campaign-alerts.png)
 
-1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Activate]**.
+1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
    ![](assets/create-campaign-review.png)
 
-1. Die Kampagne ist jetzt aktiviert. Sein Status ist **[!UICONTROL Live]** oder **[!UICONTROL Scheduled]** wenn Sie ein Startdatum eingegeben haben. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
+1. Die Kampagne ist jetzt aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
 
-   Die in der Kampagne konfigurierte Nachricht wird sofort oder am angegebenen Datum gesendet.
+   Die in der Kampagne konfigurierte Nachricht wird sofort oder zum angegebenen Datum versendet.
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Completed]** Der Status wird einer Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn sie eine wiederkehrende Ausführung aufweist.
+   >Der Status **[!UICONTROL Abgeschlossen]** wird einer Kampagne automatisch 3 Tage nach ihrer Aktivierung zugewiesen oder am Enddatum der Kampagne, wenn es sich um eine wiederkehrende Ausführung handelt.
    >
-   >Wenn kein Enddatum angegeben wurde, behält die Kampagne die **[!UICONTROL Live]** Status. Um sie zu ändern, müssen Sie die Kampagne manuell stoppen. [Erfahren Sie, wie Sie eine Kampagne stoppen](modify-stop-campaign.md)
+   >Wenn kein Enddatum angegeben wurde, behält die Kampagne den Status **[!UICONTROL Live]**. Um ihn zu ändern, müssen Sie die Kampagne manuell anhalten. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md)
 
-1. Nach der Aktivierung einer Kampagne können Sie jederzeit deren Informationen überprüfen, indem Sie sie öffnen. Die Zusammenfassung ermöglicht Statistiken über die Anzahl der Zielgruppenprofile sowie der bereitgestellten und fehlgeschlagenen Aktionen.
+1. Nach der Aktivierung einer Kampagne können Sie jederzeit ihre Informationen überprüfen, indem Sie sie öffnen. In der Zusammenfassung finden Sie Statistiken über die Anzahl der Zielgruppenprofile sowie der bereitgestellten und fehlgeschlagenen Aktionen.
 
-   Sie können auch zusätzliche Statistiken in dedizierten Berichten abrufen, indem Sie auf **[!UICONTROL Reports]** Schaltfläche. [Weitere Infos](../reports/campaign-global-report.md)
+   Sie können auch zusätzliche Statistiken in speziellen Berichten einsehen, indem Sie auf die Schaltfläche **[!UICONTROL Berichte]** klicken. [Weitere Informationen](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

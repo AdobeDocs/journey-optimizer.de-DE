@@ -1,6 +1,6 @@
 ---
-title: Bibliothek für Arithmetik-Funktionen
-description: Bibliothek für Arithmetik-Funktionen
+title: Bibliothek für arithmetische Funktionen
+description: Bibliothek für arithmetische Funktionen
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -9,17 +9,17 @@ exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Arithmetische Funktionen {#maths}
 
-Arithmetische Funktionen dienen der Durchführung grundlegender Berechnungen von Werten.
+Mit arithmetischen Funktionen lassen sich einfache Berechnungen für Werte durchführen
 
-## Hinzufügen{#add}
+## Addieren{#add}
 
-Die `+` (Addition) verwendet wird, um die Summe zweier Argumentausdrücke zu finden.
+Mit der Funktion `+` (Addition) wird die Summe zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -29,7 +29,7 @@ Die `+` (Addition) verwendet wird, um die Summe zweier Argumentausdrücke zu fin
 
 **Beispiel**
 
-Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
+Die folgende Operation addiert die Preise von zwei verschiedenen Produkten.
 
 ```sql
 {%= product1.price + product2.price %}
@@ -37,7 +37,7 @@ Im Folgenden wird der Preis zweier verschiedener Produkte zusammengefasst.
 
 ## Multiplizieren{#multiply}
 
-Die `*` (Multiplikation) verwendet wird, um das Produkt zweier Argumentausdrücke zu finden.
+Mit der Funktion `*` (Multiplikation) wird das Produkt zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -47,7 +47,7 @@ Die `*` (Multiplikation) verwendet wird, um das Produkt zweier Argumentausdrück
 
 **Beispiel**
 
-Das folgende Verfahren ermittelt das Produkt des Bestands und den Preis eines Produkts, um den Bruttowert des Produkts zu ermitteln.
+Die folgende Operation ermittelt das Produkt im Bestand sowie den Preis eines Produkts, um den Bruttowert des Produkts zu berechnen.
 
 ```sql
 {%= product.inventory * product.price %}
@@ -55,7 +55,7 @@ Das folgende Verfahren ermittelt das Produkt des Bestands und den Preis eines Pr
 
 ## Subtrahieren{#substract}
 
-Die `-` (Subtraktion) verwendet wird, um den Unterschied zwischen zwei Argumentausdrücken zu ermitteln.
+Mit der Funktion `-` (Subtraktion) wird der Unterschied zwischen zwei Argumentausdrücken ermittelt.
 
 **Format**
 
@@ -65,7 +65,7 @@ Die `-` (Subtraktion) verwendet wird, um den Unterschied zwischen zwei Argumenta
 
 **Beispiel**
 
-Das folgende Vorhaben ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
+Die folgende Operation ermittelt den Preisunterschied zwischen zwei verschiedenen Produkten.
 
 ```sql
 {%= product1.price - product2.price %}
@@ -73,7 +73,7 @@ Das folgende Vorhaben ermittelt den Preisunterschied zwischen zwei verschiedenen
 
 ## Dividieren{#divide}
 
-Die `/` (Division) verwendet wird, um den Quotienten zweier Argumentausdrücke zu finden.
+Mit der Funktion `/` (Division) wird der Quotient zweier Argumentausdrücke ermittelt.
 
 **Format**
 
@@ -83,7 +83,7 @@ Die `/` (Division) verwendet wird, um den Quotienten zweier Argumentausdrücke z
 
 **Beispiel**
 
-Das folgende Vorhaben ermittelt den Quotienten zwischen den insgesamt verkauften Produkten und dem insgesamt verdienten Geld, um die durchschnittlichen Kosten pro Artikel zu sehen.
+Die folgende Operation ermittelt den Quotienten zwischen den insgesamt verkauften Produkten und dem insgesamt verdienten Geld, um so die durchschnittlichen Kosten pro Artikel zu berechnen.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
@@ -91,7 +91,7 @@ Das folgende Vorhaben ermittelt den Quotienten zwischen den insgesamt verkauften
 
 ## Rest{#remainder}
 
-Die `%` (Modulo/Rest) wird verwendet, um den Rest nach der Division der beiden Argumentausdrücke zu finden.
+Mit der Funktion `%` (Modulo/Rest) wird nach der Division der beiden Argumentausdrücke der Rest ermittelt.
 
 **Format**
 

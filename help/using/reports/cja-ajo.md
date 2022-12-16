@@ -10,47 +10,47 @@ level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: '338'
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit [!DNL Customer Journey Analytics] {#cja-ajo}
 
 
-[!DNL Journey Optimizer] Integration mit [!DNL Customer Journey Analytics] bietet eine ganzheitliche Sicht auf all Ihre Journeys mit automatisierter Berichtverteilung und benutzerdefinierten Visualisierungen der Daten.
+[!DNL Journey Optimizer] Die Integration mit [!DNL Customer Journey Analytics] bietet eine ganzheitliche Sicht von all Ihren Journeys mit automatisierter Berichtverteilung und benutzerdefinierten Visualisierungen der Daten.
 
 ![](assets/cja.png)
 
-Nachdem Sie Ihre Journey in erstellt haben [!DNL Journey Optimizer], können Sie Ihre Kundendaten in [!DNL Customer Journey Analytics] , um Berichte zu erstellen und die Auswirkungen jeder Interaktion zu verstehen, die ein Kunde mit Ihren Journeys hat.
+Nachdem Sie Ihre Journey in [!DNL Journey Optimizer] erstellt haben, können Sie Ihre Kundendaten nach [!DNL Customer Journey Analytics] importieren, um Berichte zu starten und die Auswirkungen jeder Interaktion eines Kunden mit Ihren Journeys zu verstehen.
 
-➡️ [Entdecken Sie Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target=&quot;_blank&quot;}
+➡️ [Entdecken Sie Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de){target=&quot;_blank&quot;}
 
-Vor der Verwendung [!DNL Customer Journey Analytics] für Ihre Journeys müssen Sie diese Integration zunächst konfigurieren:
+Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können, müssen Sie zunächst die folgende Integration konfigurieren:
 
-1. [Verbindung erstellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] mit dem **[!UICONTROL Dataset]** Sie möchten an Adobe Experience Platform senden.
+1. [Erstellen Sie eine Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=de) in [!DNL Customer Journey Analytics] mit dem **[!UICONTROL Datensatz]**, den Sie an Adobe Experience Platform senden möchten.
 
-   Folgendes [!DNL Journey Optimizer] kann konfiguriert werden:
-   * [Journey-Schrittereignis](../data/datasets-query-examples.md#journey-step-event): können Sie sehen, wer Ihre Journeys betritt und wie weit sie kommen.
-   * [Nachrichten-Feedback/Tracking-Datensätze](../data/datasets-query-examples.md#message-feedback-event-dataset): ermöglicht Ihnen, Versandinformationen über Ihre Nachrichten anzuzeigen, die über [!DNL Journey Optimizer].
-   * [Entitäts- und Journey-Datensätze](../data/datasets-query-examples.md#entity-dataset): ermöglicht Ihnen, Anzeigenamen zu suchen und in Ihren Berichten zu verwenden.
+   Die folgenden [!DNL Journey Optimizer] können konfiguriert werden:
+   * [Journey-Schritt-Ereignis](../data/datasets-query-examples.md#journey-step-event): Ermöglicht Ihnen zu sehen, wer in Ihre Journeys eintritt und wie weit sie kommen.
+   * [Nachrichten-Feedback/Tracking von Datensätzen](../data/datasets-query-examples.md#message-feedback-event-dataset): Ermöglicht Ihnen, Versandinformationen bezüglich Ihrer Nachrichten, die über [!DNL Journey Optimizer] gesendet worden sind, anzuzeigen.
+   * [Entitäts- und Journey-Datensätze](../data/datasets-query-examples.md#entity-dataset): Ermöglicht Ihnen, Anzeigenamen zu suchen und diese in Ihrem Reporting zu verwenden.
 
-1. [Datenansicht erstellen](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) um die Dimensionen und Metriken zu konfigurieren, die Sie für Ihren Bericht verwenden möchten.
+1. [Erstellen Sie eine Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) für die Konfiguration von Abmessungen und Metriken, die Sie für Ihren Bericht verwenden möchten.
 
-   Sie können Journey Optimizer-spezifische Metriken erstellen, um die Daten Ihrer Journeys besser widerzuspiegeln. [Weitere Infos](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Sie können Journey Optimizer-spezifische Metriken erstellen, um die Daten Ihrer Journeys besser wiederzugeben. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=de#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
 
-Verwenden [!DNL Journey Optimizer] mit [!DNL Customer Journey Analytics] kann zu Abweichungen bei den Berichtsdaten führen, die durch Folgendes verursacht werden:
+Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics] verwenden, kann das zu Abweichungen in den Reporting-Daten führen, die durch Folgendes verursacht werden:
 
-* **Beide [!DNL Journey Optimizer] und [!DNL Customer Journey Analytics] Synchronisieren von Daten aus Azure Data Lake Storage (ADLS) für die Berichterstellung.**
+* **Sowohl [!DNL Journey Optimizer] als auch [!DNL Customer Journey Analytics] synchronisieren Daten aus Azure Data Lake Storage (ADLS) für das Reporting.**
 
-   Die Verarbeitungszeit für eingehende Daten kann sich von Produkt zu Produkt etwas unterscheiden. Aus diesem Grund stimmen die Daten bei der Anzeige von Berichten von einem bestimmten Datum bis zum aktuellen Tag möglicherweise nicht überein. Um Diskrepanzen zu vermeiden, verwenden Sie Datumsbereiche, die den aktuellen Tag ausschließen.
+   Die Verarbeitungszeit für eingehende Daten kann von Produkt zu Produkt leicht unterschiedlich sein. Aus diesem Grund kann es vorkommen, dass die Daten nicht übereinstimmen, wenn Berichte von einem bestimmten Datum bis zum aktuellen Tag angezeigt werden. Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die den aktuellen Tag ausschließen.
 
-* **In [!DNL Journey Optimizer] Berichte enthält die Metrik Gesendet auch die Metrik Wiederholen .**
+* **In [!DNL Journey Optimizer]-Berichten schließt die Metrik „Gesendet“ auch die Metrik „Erneut versuchen“ ein.**
 
-   **[!UICONTROL Retries]** wird nicht in **[!UICONTROL Sent]** Metrik in [!DNL Customer Journey Analytics]. Dies führt zu [!DNL Customer Journey Analytics] **[!UICONTROL Sent]** Metriken, die niedrigere Werte als [!DNL Journey Optimizer]. Wiederholungsdaten werden jedoch in die **[!UICONTROL Messages successfully sent]** oder **[!UICONTROL Bounces]** Metrik.
-Um Diskrepanzen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder später liegen.
+   **[!UICONTROL Erneute Zustellversuche]** werden in die Metrik **[!UICONTROL Gesendet]** in [!DNL Customer Journey Analytics] nicht aufgenommen. Dies führt dazu, dass die Metriken **[!UICONTROL Gesendet]** von [!DNL Customer Journey Analytics] niedrigere Werte anzeigen als in [!DNL Journey Optimizer]. Jedoch werden Daten zu erneuten Zustellversuchen in die Metrik **[!UICONTROL Nachrichten erfolgreich gesendet]** oder die **[!UICONTROL Bounces]**-Metrik einbezogen.
+Um Abweichungen zu vermeiden, verwenden Sie Datumsbereiche, die vor einer Woche oder sogar noch früher liegen.
 
-* **Berichte werden aus einer anderen Datenquelle bereitgestellt.**
+* **Berichte werden aus einer unterschiedlichen Datenquelle bereitgestellt.**
 
-   Dies könnte zu Datendiskrepanzen zwischen 1 und 2 % zwischen den Produkten führen.
+   Dies kann zu Datenabweichungen von 1-2 % zwischen den Produkten führen.

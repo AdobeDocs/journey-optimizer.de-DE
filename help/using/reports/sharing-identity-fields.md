@@ -11,13 +11,13 @@ exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Identitätsfelder für journeyStep-Ereignisse {#sharing-identity-fields}
 
-Diese Feldergruppe ist spezifisch für journeyStepEvent: Dieses Ereignis steht im Zusammenhang mit der Journey und verfügt nicht über die identityMap, die die Profilidentität beschreibt (sofern vorhanden).
+Diese Feldergruppe gilt speziell für journeyStepEvent: Das Ereignis bezieht sich auf die Journey und verfügt nicht über identityMap zur Beschreibung der Profilidentität (sofern vorhanden).
 
 Für journeyStepEvent müssen auch Identitätsfelder hinzugefügt werden:
 

@@ -2,29 +2,29 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Datentypen
-description: Erfahren Sie mehr über Datentypen in erweiterten Ausdrücken
+description: Erfahren Sie mehr über die Datentypen in erweiterten Ausdrücken
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
 
 # Datentypen {#data-types}
 
-Technisch gesehen enthält eine Konstante immer einen Datentyp. Im Literalausdruck wird nur der Wert angegeben. Der Datentyp kann aus dem Wert abgeleitet werden (z. B. Zeichenfolge, Ganzzahl, Dezimalzahl usw.). Für bestimmte Fälle, z. B. Datum und Uhrzeit, verwenden wir spezielle Funktionen für die Darstellung.
+Technisch gesehen enthält eine Konstante immer einen Datentyp. Wörtlich genommen geben wir nur den Wert an. Der Datentyp kann aus dem Wert abgeleitet werden (z. B. Zeichenfolge, Ganzzahl, Dezimalzahl usw.). Für bestimmte Fälle wie Datum und Uhrzeit verwenden wir spezielle Funktionen für die Darstellung.
 
-Die folgenden Abschnitte enthalten Informationen zu den verschiedenen Datentypausdrücken und dazu, wie sie dargestellt werden.
+In den folgenden Abschnitten finden Sie Informationen zu den verschiedenen Ausdrücken von Datentypen und wie sie dargestellt werden.
 
 ## Zeichenfolge {#string}
 
 **Beschreibung**
 
-Allgemeine Zeichenfolge. Es hat keine bestimmte Größe außer der impliziten Größe, die aus der Umgebung stammt, wie z. B. die verfügbare Speichermenge.
+Allgemeine Zeichenfolge. Er hat keine bestimmte Größe außer der impliziten Größe, die aus der Umgebung stammt, z. B. die verfügbare Speicherkapazität.
 
 JSON-Format: Zeichenfolge
 
@@ -74,15 +74,15 @@ JSON-Format: Zahl
 
 **Beschreibung**
 
-Dezimalzahl. Sie stellt einen Gleitkommawert dar:
+Dezimalzahl. Stellt einen Gleitkommawert dar:
 
-* größter positiver endlicher Wert des Typs &quot;double&quot;, (2-2^-52)x2^1023
-* kleinster positiver Normalwert des Typs &quot;double&quot;, 2-1022
-* kleinster positiver Wert ungleich null des Typs &quot;double&quot;, 2 p-1074
+* größter positiver endlicher Wert des Typs „double“, (2-2^-52)x2^1023
+* kleinster positiver Normalwert des Typs „double“, 2-1022
+* kleinster positiver Wert ungleich null vom Typ „double“, 2 p-1074
 
 JSON-Format: Zahl
 
-Serialisierungsformat: mit &#39;.&#39; als Dezimaltrennzeichen.
+Serialisierungsformat: mit „.“ als Dezimaltrennzeichen.
 
 **Wörtliche Darstellung**
 
@@ -100,7 +100,7 @@ Serialisierungsformat: mit &#39;.&#39; als Dezimaltrennzeichen.
 
 **Beschreibung**
 
-Boolescher Wert in Kleinbuchstaben geschrieben: true oder false
+Boolescher Wert in Kleinbuchstaben: true (wahr) oder false (falsch)
 
 JSON-Format: Boolesch
 
@@ -124,17 +124,17 @@ true
 
 **Beschreibung**
 
-Stellt ein Datum nur ohne Zeitzone dar, das als Jahr-Monat-Tag betrachtet wird.
+Stellt ein reines Datum ohne Zeitzone dar, das als Jahr-Monat-Tag angezeigt wird.
 
-Es handelt sich um eine Beschreibung des Datums, das zum Geburtstag verwendet wird.
+Es ist eine Beschreibung des Datums, wie es beispielsweise für den Geburtstag verwendet wird.
 
 JSON-Format: Zeichenfolge.
 
-Format: JJJJ-MM-TT (ISO-8601), z. B.: &quot;2021-03-11&quot;.
+Format ist: JJJJ-MM-TT (ISO-8601), z. B.: „2021-03-11“.
 
-Sie kann in einer toDateOnly -Funktion gekapselt werden.
+Kann ausschließlich in einer toDateOnly -Funktion gekapselt sein.
 
-Es verwendet DateTimeFormatter ISO_LOCAL_DATE_TIME , um den Wert zu deserialisieren und zu serialisieren. [Weitere Infos](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **Wörtliche Darstellung**
 
@@ -152,19 +152,19 @@ date("2021-02-19")
 
 **Beschreibung**
 
-Stellt eine Datum-/Uhrzeit-Uhrzeit ohne Zeitzone dar, die als Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde angezeigt wird.
+Stellt Datum und Uhrzeit ohne Zeitzone dar, die als Jahr-Monat-Tag-Stunde-Minute-Sekunde-Millisekunde interpretiert wird.
 
 JSON-Format: Zeichenfolge.
 
-Es wird keine Zeitzone gespeichert oder dargestellt. Stattdessen handelt es sich um eine Beschreibung des Datums, das zum Geburtstag verwendet wird, kombiniert mit der Ortszeit, wie sie auf einer Wanduhr angezeigt wird.
+Es wird keine Zeitzone gespeichert oder dargestellt. Stattdessen handelt es sich um eine Beschreibung des Datums, wie es für Geburtstage verwendet wird, kombiniert mit der Ortszeit, wie sie auf einer Wanduhr angezeigt wird.
 
 Ohne zusätzliche Informationen wie Versatz oder Zeitzone kann kein Zeitpunkt auf der Zeitachse dargestellt werden.
 
-Sie kann in einer toDateTimeOnly -Funktion gekapselt werden.
+Kann in einer toDateTimeOnly-Funktion gekapselt sein.
 
-Serialisierungsformat: ISO-8601 erweitertes Versatz-Datum-Uhrzeit-Format.
+Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es verwendet DateTimeFormatter ISO_LOCAL_DATE_TIME , um den Wert zu deserialisieren und zu serialisieren. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Es wird das DateTimeFormatter ISO_LOCAL_DATE_TIME zur Deserialisierung und Serialisierung des Wertes verwendet. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
 **Wörtliche Darstellung**
 
@@ -183,21 +183,21 @@ date("2021-02-19T00.00")
 
 **Beschreibung**
 
-Datum/Uhrzeit-Konstante, die auch die Zeitzone berücksichtigt. Sie stellt eine Datum/Uhrzeit mit einem Versatz von UTC dar.
+Datums-/Zeitkonstante, die auch die Zeitzone berücksichtigt. Es wird Datum + Uhrzeit mit einem Versatz relativ zur UTC dargestellt.
 
-Sie kann mit den zusätzlichen Informationen zum Versatz als zeitlicher Zeitpunkt betrachtet werden. Es ist eine Möglichkeit, einen bestimmten &quot;Moment&quot;an einem bestimmten Ort der Welt darzustellen.
+Mit den zusätzlichen Informationen zum Versatz kann ein bestimmter Zeitpunkt dargestellt werden. Bietet eine Möglichkeit, einen bestimmten Zeitpunkt an einem bestimmten Ort der Welt darzustellen.
 
 JSON-Format: Zeichenfolge.
 
-Sie kann in einer toDateTime -Funktion eingekapselt werden.
+Kann in einer toDateTime-Funktion gekapselt sein.
 
-Serialisierungsformat: ISO-8601 erweitertes Versatz-Datum-Uhrzeit-Format.
+Serialisierungsformat: ISO-8601, erweitertes Versatz-Datums-/Uhrzeitformat.
 
-Es verwendet DateTimeFormatter ISO_OFFSET_DATE_TIME , um den Wert zu deserialisieren und zu serialisieren. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Verwendet das DateTimeFormatter ISO_OFFSET_DATE_TIME zur Deserialisierung und Serialisierung des Wertes. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 Sie können auch eine Ganzzahl übergeben, die einen Epochenwert übergibt. [Mehr dazu](https://www.epochconverter.com)
 
-Die Zeitzone kann durch einen Versatz oder einen Zeitzonencode angegeben werden (Beispiel: Europa/Paris, Z - bedeutet UTC).
+Die Zeitzone kann durch einen Versatz oder einen Zeitzonen-Code angegeben werden (Beispiel: Europa/Paris, Z – bedeutet UTC).
 
 **Wörtliche Darstellung**
 
@@ -243,21 +243,21 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## duration {#duration}
+## Dauer {#duration}
 
 **Beschreibung**
 
-Es stellt einen zeitbasierten Zeitraum dar, z. B. &quot;34,5 Sekunden&quot;. Modelliert eine Menge oder Zeit in Millisekunden.
+Stellt eine zeitbasierte Dauer dar, z. B. „34,5 Sekunden“. Modelliert eine Menge oder Dauer in Millisekunden.
 
-Folgende Zeiteinheiten werden unterstützt: Millisekunden, Sekunden, Minuten, Stunden, Tage, bei denen ein Tag 24 Stunden entspricht. Jahre und Monate werden nicht unterstützt, da es sich nicht um einen festen Zeitraum handelt.
+Folgende Zeiteinheiten werden unterstützt: Millisekunden, Sekunden, Minuten, Stunden, Tage, wobei ein Tag 24 Stunden entspricht. Jahre und Monate werden nicht unterstützt, da sie keine feste Dauer haben.
 
 JSON-Format: Zeichenfolge.
 
-Sie muss in einer toDuration -Funktion gekapselt sein.
+Muss in einer toDuration-Funktion gekapselt sein.
 
 Serialisierungsformat: Zur Deserialisierung einer Zeitzonen-ID wird die Java-Funktion java.time verwendet.
 
-Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat PnDTnHnMn.nS, wobei Tage als genau 24 Stunden betrachtet werden. [Weitere Infos](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: Die akzeptierten Formate basieren auf dem ISO-8601-Dauerformat „PnDTnHnMn.nS“, wobei Tage als genau 24 Stunden angesehen werden. [Weitere Informationen](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **Wörtliche Darstellung**
 
@@ -311,13 +311,13 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## Liste {#list}
+## list {#list}
 
 **Beschreibung**
 
 Kommagetrennte Liste von Ausdrücken mit eckigen Klammern als Trennzeichen.
 
-Polymorphismus wird nicht unterstützt. Daher sollten alle in der Liste enthaltenen Ausdrücke denselben Typ aufweisen.
+Polymorphismus wird nicht unterstützt. Daher sollten alle in der Liste enthaltenen Ausdrücke denselben Typ haben.
 
 **Wörtliche Darstellung**
 

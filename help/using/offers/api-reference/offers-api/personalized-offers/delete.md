@@ -1,6 +1,6 @@
 ---
 title: Personalisierte Angebote löschen
-description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Botschaft, die auf Eignungsregeln und Einschränkungen basiert.
+description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
 
 # Personalisiertes Angebot löschen {#delete-personalized-offer}
 
-Gelegentlich kann es erforderlich sein, ein personalisiertes Angebot zu entfernen (DELETE). Es können nur personalisierte Angebote gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht durch Ausführung einer DELETE-Anfrage an die [!DNL Offer Library] API mit der $id des personalisierten Angebots, das Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, ein personalisiertes Angebot zu entfernen (DELETE). Es können nur personalisierte Angebote gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der $id des personalisierten Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 
 **API-Format**
 
@@ -40,8 +40,8 @@ curl -X DELETE \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt den HTTP-Status 202 (Kein Inhalt) und einen leeren Text zurück.
+Eine erfolgreiche Antwort gibt den HTTP-Status 202 (kein Inhalt) und leeren Text zurück.
 
 Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) für das personalisierte Angebot ausführen. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da das personalisierte Angebot aus dem Container entfernt wurde.

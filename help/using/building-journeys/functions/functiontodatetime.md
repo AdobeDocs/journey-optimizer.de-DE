@@ -1,15 +1,15 @@
 ---
 product: journey optimizer
 title: toDateTime
-description: Erfahren Sie mehr über die Funktion toDateTime
+description: Erfahren Sie mehr über die Funktion „toDateTime“
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 0%
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
 
@@ -29,14 +29,14 @@ Konversion
 
 | Parameter | Typ |
 |-----------|------------------|
-| Datum/Uhrzeit im ISO-8601-Format | Zeichenfolge |
+| Datum/Uhrzeit im ISO 8601-Format | Zeichenfolge |
 | Zeitzonen-ID | Zeichenfolge |
 | Datum/Uhrzeit ohne Zeitzone | dateTimeOnly |
-| ganzzahliger Wert einer Epoche in Millisekunden | integer |
+| ganzzahliger Wert einer Epoche in Millisekunden | Ganzzahl |
 
 >[!NOTE]
 >
->Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Es darf sich weder um einen Feldverweis noch um einen Ausdruck handeln. Weitere Informationen zu Datentypen finden Sie unter [diese Seite](../expression/data-types.md).
+>Die Zeitzonen-ID muss eine Zeichenfolgenkonstante sein. Sie darf weder ein Feldverweis noch ein Ausdruck sein. Weitere Informationen zu Datentypen finden Sie auf [dieser Seite](../expression/data-types.md).
 
 ## Signaturen und zurückgegebene Typen
 
@@ -46,7 +46,7 @@ Konversion
 
 `toDateTime(<integer>)`
 
-Rückgabe einer **dateTime**.
+Gibt einen **Datum/Uhrzeit-Wert** zurück.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Gibt 2016-08-18T23 zurück:17:59.123 Z
+Gibt 2016-08-18T23:17:59.123Z zurück
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Gibt 2016-08-18T23 zurück:17:59.123 Z
+Gibt 2016-08-18T23:17:59.123Z zurück
 
 `toDateTime(1560762190189)`
 
-Gibt 2019-06-17T09 zurück:03:10.189 Z
+Gibt 2019-06-17T09:03:10.189Z zurück
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

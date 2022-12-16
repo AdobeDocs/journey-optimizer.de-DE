@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Kampagnen
-description: Weitere Informationen zu Kampagnen finden Sie in [!DNL Journey Optimizer]
+description: Weitere Informationen zu Kampagnen finden Sie in  [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -20,52 +20,52 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Kampagnen"
->abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für ein bestimmtes Segment über verschiedene Kanäle hinweg bereitzustellen. Bevor Sie Ihre Kampagne erstellen, stellen Sie sicher, dass Sie über eine Kanaloberfläche (d. h. eine Nachrichtenvorgabe) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind."
+>abstract="Erstellen Sie Kampagnen, um einmalige Inhalte für ein bestimmtes Segment über verschiedene Kanäle hinweg bereitzustellen. Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) und ein Adobe Experience Platform-Segment verfügen, die einsatzbereit sind."
 
-Verwenden Sie Journey Optimizer-Kampagnen, um einmalige Inhalte mithilfe verschiedener Kanäle für ein bestimmtes Segment bereitzustellen. Bei der Verwendung von Journeys werden Aktionen nacheinander ausgeführt. Bei Kampagnen werden Aktionen gleichzeitig, entweder sofort oder basierend auf einem festgelegten Zeitplan ausgeführt.
+Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan.
 
-Sie können zwei Kampagnentypen erstellen:
+Sie können zwei Arten von Kampagnen erstellen:
 
-* **Geplante Kampagnen** ermöglichen einfache Ad-hoc-Batch-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
-* **API-ausgelöste Kampagnen** ermöglichen einfache Transaktions-/Betriebsnachrichten mit REST-APIs (Kennwortzurücksetzung, Kartenabbruch usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und Kontextdaten aus der Payload bestehen kann.
+* **Geplante Kampagnen** ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
+* **API-ausgelöste Kampagnen** ermöglichen über REST-APIs einfache Transaktions- und operative Nachrichten (Kennwortzurücksetzung, Kartenkündigung usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und Kontextdaten aus der Payload bestehen kann.
 
-Die wichtigsten Schritte zum Erstellen einer Kampagne sind:
+Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 ![](assets/create-campaign-process.png)
 
-➡️ [Funktion im Video kennenlernen](#video)
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-## Vorbereitung {#campaign-prerequisites}
+## Vor Beginn {#campaign-prerequisites}
 
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit der Erstellung Ihrer ersten Kampagne in Journey Optimizer beginnen:
 
-1. **Sie benötigen entsprechende Berechtigungen**. Kampagnen stehen nur Benutzern mit Zugriff auf kampagnenbezogene **[!UICONTROL Product profile]** z. B. Campaign-Administrator, Campaign Genehmiger, Campaign Manager und/oder Campaign-Viewer.
+1. **Sie benötigen entsprechende Berechtigungen**. Diese Funktion steht nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung, beispielsweise Kampagnen-Admins, Kampagnen-Genehmigende, Kampagnen-Manager und/oder Kampagnen-Betrachtende.
 
-   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} für Ihre Organisation verwenden, führen Sie die folgenden Schritte aus. Wenn nicht, wenden Sie sich an Ihren Journey Optimizer-Administrator.
+   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie für Ihre Organisation Zugriff auf die [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} haben, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Admin.
 
    +++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
 
-   Zuweisen der entsprechenden **[!UICONTROL Product profile]** an Ihre Benutzer:
+   So weisen Sie Ihren Benutzenden die entsprechenden **[!UICONTROL Produktprofile]** zu:
 
-   1. Von [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, wählen Sie die [!DNL Adobe Experience Platform] Produkt.
+   1. Wählen Sie in der [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} das [!DNL Adobe Experience Platform]-Produkt aus.
 
-   1. Navigieren Sie zum **[!UICONTROL Product profile]** -Tab eine der nativen Kampagnenkomponenten auswählen **[!UICONTROL Product profile]**: Kampagnenadministrator, Kampagnenvalidierer, Kampagnenmanager oder Kampagnen-Viewer.
+   1. Wechseln Sie zur Registerkarte **[!UICONTROL Produktprofil]** und wählen Sie eines der integrierten kampagnenbezogenen **[!UICONTROL Produktprofile]**: Kampagnen-Admin, Kampagnen-Genehmigende, Kampagnen-Manager oder Kampagnen-Betrachtende.
 
-      Weitere Informationen zur Journey Optimizer-Kampagne **[!UICONTROL Product profiles]** und **[!UICONTROL Permissions]**, [auf diese Seite verweisen](../administration/ootb-product-profiles.md).
+      Weitere Informationen zu kampagnenbezogenen **[!UICONTROL Produktprofilen]** und **[!UICONTROL Berechtigungen]** in Journey Optimizer [finden Sie auf dieser Seite](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. Klicken **[!UICONTROL Add user]** , um Ihrem Benutzer die ausgewählte **[!UICONTROL Product profile]**.
+   1. Klicken Sie auf **[!UICONTROL Benutzer hinzufügen]**, um Ihrem Benutzenden das ausgewählte **[!UICONTROL Produktprofil]** zuzuweisen.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse Ihres Benutzers ein und klicken Sie auf **[!UICONTROL Save]**.
-   Ihr Benutzer kann jetzt auf **[!UICONTROL Campaigns]**.
+   1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse der Benutzenden ein und klicken Sie auf **[!UICONTROL Speichern]**.
+   Ihre Benutzenden können jetzt auf **[!UICONTROL Kampagnen]** zugreifen.
 
 +++
 
-1. **Sie benötigen eine Zielgruppe**. Zielgruppensegmente müssen vor der Erstellung der Kampagne verfügbar sein. Erfahren Sie mehr über die Erstellung von Zielgruppen [auf dieser Seite](../segment/about-segments.md).
-1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Vorgabe) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen [auf dieser Seite](../configuration/channel-surfaces.md).
+1. **Sie benötigen eine Audience**. Audience-Segmente müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zum Erstellen von Audience finden Sie [auf dieser Seite](../segment/about-segments.md).
+1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen finden Sie [auf dieser Seite](../configuration/channel-surfaces.md).
 
 ## Anleitungsvideo {#video}
 

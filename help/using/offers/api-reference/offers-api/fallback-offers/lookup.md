@@ -1,6 +1,6 @@
 ---
 title: Fallback-Angebote nachschlagen
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie nicht für andere Angebote geeignet sind
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Fallback-Angebote nachschlagen {#look-up-fallback-offers}
 
-Sie können nach bestimmten Fallback-Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder ein Fallback-Angebot enthält `@id` oder den Namen des Fallback-Angebots im Anfragepfad.
+Sie können nach einzelnen Fallback-Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` des Fallback-Angebots oder den Namen des Fallback-Angebots im Anfragepfad enthält.
 
 **API-Format**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Fallback-Angebote befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Definiert das Schema, das Fallback-Angeboten zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Eine Zeichenfolge, die verwendet wird, um die `@id` -Eigenschaft der Entitäten. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` kann nicht zusammen verwendet werden. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt mit Groß-/Kleinschreibung abgeglichen, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter `id` und `name` kann nicht zusammen verwendet werden | `F1: Web fallback` |
+| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `F1: Web fallback` |
 
 **Anfrage**
 
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen des Fallback-Angebots. `@id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen `@id` des Fallback-Angebots.
 
 ```json
 {

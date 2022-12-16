@@ -9,22 +9,22 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
 # Feldverweise {#field-references}
 
-Ein Feldverweis kann an ein Ereignis oder eine Feldergruppe angehängt werden. Die einzigen aussagekräftigen Informationen sind der Name des Felds und sein Pfad.
+Ein Feldverweis kann an ein Ereignis oder eine Feldgruppe angehängt werden. Die einzigen aussagekräftigen Informationen sind der Name des Feldes und sein Pfad.
 
-Wenn Sie Sonderzeichen in einem Feld verwenden, müssen Sie doppelte Anführungszeichen oder einfache Anführungszeichen verwenden. Dies sind die Fälle, in denen Anführungszeichen benötigt werden:
+Wenn Sie in einem Feld Sonderzeichen verwenden, müssen Sie doppelte oder einfache Anführungszeichen nutzen. In den folgenden Fällen sind Anführungszeichen erforderlich:
 
-* das Feld beginnt mit numerischen Zeichen
-* das Feld beginnt mit dem Zeichen &quot;-&quot;
-* das Feld enthält andere Elemente als: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
+* das Feld beginnt mit numerischen Zeichen;
+* das Feld beginnt mit dem Zeichen „-“;
+* das Feld enthält andere Zeichen als: _a_–_z_, _A_–_Z_, _0_–_9_, _ , _-_.
 
-Wenn Ihr Feld beispielsweise _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Wenn Ihr Feld zum Beispiel folgendermaßen lautet: _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -36,13 +36,13 @@ Wenn Ihr Feld beispielsweise _3 h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Im Ausdruck wird auf Ereignisfelder mit &quot;@&quot;und auf Datenquellenfelder mit &quot;#&quot;verwiesen.
+Im Ausdruck wird auf Ereignisfelder mit „@“ und auf Datenquellenfelder mit „#“ verwiesen.
 
-Eine Syntaxfarbe wird verwendet, um Ereignisfelder (grün) optisch von Feldergruppen (blau) zu unterscheiden.
+Es wird eine Syntaxfarbe verwendet, um die Ereignisfelder (grün) optisch von Feldgruppen (blau) zu unterscheiden.
 
 ## Standardwerte für Feldverweise {#default-value}
 
-Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax lautet wie folgt:
+Ein Standardwert kann mit einem Feldnamen verknüpft werden. Es gilt folgende Syntax:
 
 ```json
 // event field
@@ -55,7 +55,7 @@ Ein Standardwert kann mit einem Feldnamen verknüpft werden. Die Syntax lautet w
 
 >[!NOTE]
 >
->Der Feldtyp und der Standardwert müssen identisch sein. Beispiel: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge sein sollte.
+>Der Feldtyp und der Standardwert müssen übereinstimmen. Beispiel: @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} ist ungültig, da der Standardwert eine Ganzzahl ist, während der erwartete Wert eine Zeichenfolge ist.
 
 Beispiele:
 
@@ -89,7 +89,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Einschränkung besteht darin, dass der Ausdruck den erwarteten Datentyp zurückgeben muss. Bei Verwendung einer Funktion muss die Funktion mit () gekapselt werden.
+Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Einschränkung besteht darin, dass der Ausdruck den erwarteten Datentyp zurückgeben muss. Bei Verwendung einer Funktion muss diese in Klammern () eingeschlossen werden.
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
@@ -98,9 +98,9 @@ Sie können jede Art von Ausdruck als Standardwert hinzufügen. Die einzige Eins
 
 ## Verweis auf ein Feld in Sammlungen
 
-Die in Kollektionen definierten Elemente werden mithilfe der spezifischen Funktionen referenziert `all`, `first` und `last`. Weitere Informationen finden Sie unter [diese Seite](../expression/collection-management-functions.md).
+Auf die in Sammlungen definierten Elemente wird mit den speziellen Funktionen `all`, `first` und `last` verwiesen. Weitere Informationen dazu finden Sie auf dieser [Seite](../expression/collection-management-functions.md).
 
-Beispiel :
+Beispiel:
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -108,47 +108,47 @@ Beispiel :
 
 ## Verweis auf ein in einer Zuordnung definiertes Feld
 
-### `entry` function
+### `entry`-Funktion
 
-Um ein Element in einer Zuordnung abzurufen, verwenden wir die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise bei der Definition des Ereignisschlüssels entsprechend dem ausgewählten Namespace verwendet. Weitere Informationen finden Sie unter [diese Seite](../../event/about-creating.md#select-the-namespace).
+Um ein Element in einer Zuordnung abzurufen, verwenden Sie die Eingabefunktion mit einem bestimmten Schlüssel. Sie wird beispielsweise verwendet, wenn der Schlüssel eines Ereignisses entsprechend dem ausgewählten Namespace definiert wird. Weitere Informationen finden Sie auf [dieser Seite](../../event/about-creating.md#select-the-namespace).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel &quot;E-Mail&quot;des Felds &quot;IdentityMap&quot;eines Ereignisses. Der Eintrag &quot;E-Mail&quot;ist eine Kollektion, aus der wir die &quot;ID&quot;im ersten Element mit &quot;first()&quot;verwenden. Weitere Informationen finden Sie unter [diese Seite](../expression/collection-management-functions.md).
+In diesem Ausdruck erhalten wir den Eintrag für den Schlüssel „E-Mail“ des Felds „IdentityMap“ eines Ereignisses. Der Eintrag „E-Mail“ ist eine Sammlung, aus der wir mithilfe von „first()“ die „ID“ im ersten Element verwenden. Weitere Informationen finden Sie auf [dieser Seite](../expression/collection-management-functions.md).
 
-### `firstEntryKey` function
+### `firstEntryKey`-Funktion
 
-Um den ersten Eintragsschlüssel einer Zuordnung abzurufen, verwenden Sie die `firstEntryKey` -Funktion.
+Verwenden Sie die `firstEntryKey`-Funktion, um den ersten Eintragsschlüssel einer Zuordnung abzurufen.
 
-In diesem Beispiel wird gezeigt, wie die erste E-Mail-Adresse der Abonnenten einer bestimmten Liste abgerufen wird:
+In diesem Beispiel wird gezeigt, wie die erste E-Mail-Adresse der Abonnenten aus einer bestimmten Liste abgerufen wird:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-In diesem Beispiel erhält die Abonnementliste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel im `subscribers` -Karte, die mit der Abonnementlisten-Karte verknüpft ist.
+In diesem Beispiel erhält die Abonnement-Liste den Namen `daily-email`. E-Mail-Adressen werden als Schlüssel in der Zuordnung `subscribers` definiert, die mit der Zuordnung der Abonnement-Liste verknüpft ist.
 
-### `keys` function
+### `keys`-Funktion
 
-Um alle Schlüssel einer Zuordnung abzurufen, verwenden Sie die `keys` -Funktion.
+Um alle Schlüssel einer Zuordnung abzurufen, verwenden Sie die `keys`-Funktion.
 
-In diesem Beispiel wird gezeigt, wie für ein bestimmtes Profil alle E-Mail-Adressen abgerufen werden, die mit den Abonnenten einer bestimmten Liste verknüpft sind:
+In diesem Beispiel wird gezeigt, wie für ein bestimmtes Profil alle E-Mail-Adressen abgerufen werden, die mit den Abonnenten aus einer bestimmten Liste verknüpft sind:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
 ```
 
-## Parameterwerte einer Datenquelle (dynamische Datenquellenwerte)
+## Parameterwerte einer Datenquelle (dynamische Werte der Datenquelle)
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts eine neue Registerkarte angezeigt, auf der Sie diesen Parameter angeben können. Siehe [diese Seite](../expression/expressionadvanced.md).
+Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, wird rechts eine neue Registerkarte angezeigt, auf der Sie diesen Parameter spezifizieren können. Weitere Informationen finden Sie auf [dieser Seite](../expression/expressionadvanced.md).
 
-Wenn Sie für komplexere Anwendungsfälle die Parameter der Datenquelle in den Hauptausdruck aufnehmen möchten, können Sie deren Werte mit dem Keyword _params_. Ein Parameter kann ein beliebiger gültiger Ausdruck sein, selbst aus einer anderen Datenquelle, die auch einen anderen Parameter enthält.
+Bei komplexeren Anwendungsfällen können Sie, wenn Sie die Parameter der Datenquelle in den Hauptausdruck einbeziehen möchten, deren Werte mit dem Keyword _params_ definieren. Ein Parameter kann ein beliebiger gültiger Ausdruck sein und selbst aus einer anderen Datenquelle stammen, die ebenfalls einen anderen Parameter enthält.
 
 >[!NOTE]
 >
->Wenn Sie die Parameterwerte im Ausdruck definieren, wird die Registerkarte rechts ausgeblendet.
+>Wenn Sie die Parameterwerte im Ausdruck definieren, wird die Registerkarte auf der rechten Seite ausgeblendet.
 
 Verwenden Sie die folgende Syntax:
 
@@ -156,8 +156,8 @@ Verwenden Sie die folgende Syntax:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: exakter Name des ersten Parameters aus der Datenquelle.
-* **`<params-1-value>`**: den Wert des ersten Parameters. Es kann sich um einen beliebigen gültigen Ausdruck handeln.
+* **`<params-1-name>`**: genauer Name des ersten Parameters aus der Datenquelle.
+* **`<params-1-value>`**: der Wert des ersten Parameters. Dies kann ein beliebiger gültiger Ausdruck sein.
 
 Beispiel:
 

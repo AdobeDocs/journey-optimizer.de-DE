@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
 title: distinctWithNull
-description: Erfahren Sie mehr über die Funktion distinctWithNull
+description: Erfahren Sie mehr über die Funktion „distinctWithNull“
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 0%
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-Gibt die eindeutigen Werte oder Objekte einer angegebenen Liste zurück. Wenn die Liste mindestens einen Nulleintrag enthält, wird ein Nulleintrag in der zurückgegebenen Liste angezeigt.
+Gibt die unterschiedlichen Werte oder Objekte einer angegebenen Liste zurück. Wenn die Liste mindestens einen Nullwert enthält, wird ein Nullwert in der zurückgegebenen Liste angezeigt.
 
 ## Kategorie
 
@@ -30,29 +30,29 @@ Liste
 | Parameter | Typ | Beschreibung |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly oder listObject | Zu verarbeitende Liste. Bei listObject muss es sich um einen Feldverweis handeln. |
-| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als dupliziert betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als dupliziert betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
+| keyAttributeName | Zeichenfolge | Dieser Parameter ist optional und nur für listObject. Wenn der Parameter nicht angegeben wird, wird ein Objekt als doppelt betrachtet, wenn alle Attribute dieselben Werte aufweisen. Andernfalls wird ein Objekt als doppelt betrachtet, wenn das angegebene Attribut denselben Wert aufweist. |
 
 ## Signaturen und zurückgegebene Typen
 
 `distinctWithNull(<listInteger>)`
 
-Gibt eine Liste von Ganzzahlen zurück.
+Gibt eine Liste mit Ganzzahlen zurück.
 
 `distinctWithNull(<listDecimal>)`
 
-Gibt eine Liste mit Dezimalstellen zurück.
+Gibt eine Liste mit Dezimalzahlen zurück.
 
 `distinctWithNull(<listString>)`
 
-Gibt eine Liste von Zeichenfolgen zurück.
+Gibt eine Liste mit Zeichenfolgen zurück.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-Gibt eine Liste der Uhrzeiten ohne Berücksichtigung der Zeitzone zurück.
+Gibt eine Liste mit Datum/Uhrzeit-Werten ohne Berücksichtigung der Zeitzone zurück.
 
 `distinctWithNull(<listDateTime>)`
 
-Gibt eine Liste der Uhrzeiten zurück.
+Gibt eine Liste mit Datum/Uhrzeit-Werten zurück.
 
 `distinctWithNull(<listDateOnly>)`
 
@@ -64,16 +64,16 @@ Gibt eine Liste mit booleschen Werten zurück.
 
 `distinctWithNull(<listDuration>)`
 
-Gibt eine Liste der Dauern zurück.
+Gibt eine Liste der Dauer zurück.
 
 `distinctWithNull(<listObject>)`
 
 `distinctWithNull(<listObject>,<string>)`
 
-Gibt eine Liste von Objekten zurück.
+Gibt eine Liste mit Objekten zurück.
 
 ## Beispiele
 
 `distinctWithNull([10,2,10,null])`
 
-Rückgabe [10, 2, null]
+Gibt [10, 2, null] zurück.

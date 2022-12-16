@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: concat
-description: Erfahren Sie mehr über das Funktionskonzept
+description: Erfahren Sie mehr über die Funktion „concat“
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Zeichenfolge
 | Parameter | Typ |
 |-----------|------------------|
 | Liste | listString |
-| Zeichenfolge | Zeichenfolge |
+| string | string |
 
 ## Signatur und zurückgegebener Typ
 
@@ -44,8 +44,8 @@ Gibt eine Zeichenfolge zurück.
 
 `concat("Hello","World")`
 
-Gibt &quot;HelloWorld&quot;zurück.
+Gibt „HelloWorld“ zurück.
 
 `concat(["Hello"," ","World"])`
 
-Gibt &quot;Hello World&quot;zurück.
+Gibt „Hello World“ zurück.

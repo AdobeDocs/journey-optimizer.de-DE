@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Landingpage-Vorlagen verwenden
+title: Arbeiten mit Landingpage-Vorlagen
 description: Erfahren Sie, wie Sie eine Landingpage als Vorlage speichern und sie in Journey Optimizer wiederverwenden.
 feature: Landing Pages
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 100%
 
 ---
 
-# Landingpage-Vorlagen verwenden {#work-with-templates}
+# Arbeiten mit Landingpage-Vorlagen {#work-with-templates}
 
-## Seite als Vorlage speichern {#save-as-template}
+## Speichern einer Seite als Vorlage {#save-as-template}
 
-Sobald Sie Ihre [Landingpage-Inhalt](lp-content.md), können Sie sie zur späteren Wiederverwendung speichern. Gehen Sie dazu wie folgt vor.
+Sobald Sie Ihre [Landingpage-Inhalte](lp-content.md) entworfen haben, können Sie sie zur späteren Wiederverwendung speichern. Gehen Sie dazu wie folgt vor.
 
-1. Klicken Sie oben rechts im Bildschirm auf das Auslassungszeichen.
+1. Klicken Sie oben rechts im Bildschirm auf das Symbol mit den Auslassungszeichen.
 
-1. Auswählen **[!UICONTROL Save design template]** aus dem Dropdown-Menü.
+1. Wählen Sie aus dem Dropdown-Menü **[!UICONTROL Designvorlage speichern]** aus.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,30 +31,30 @@ Sobald Sie Ihre [Landingpage-Inhalt](lp-content.md), können Sie sie zur später
 
    ![](assets/lp_designer-template-name.png)
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn Sie das nächste Mal eine Landingpage erstellen, können Sie diese Vorlage verwenden, um Inhalte zu erstellen. Erfahren Sie mehr über [Abschnitt](#use-saved-template) unten.
+Wenn Sie das nächste Mal eine Landingpage erstellen, können Sie diese Vorlage verwenden, um Inhalte zu erstellen. Wie das geht, erfahren Sie im folgenden [Abschnitt](#use-saved-template).
 
 ![](assets/lp_designer-saved-template.png)
 
 ## Verwenden einer gespeicherten Vorlage {#use-saved-template}
 
-1. Öffnen Sie die [Inhaltserstellung für Landingpages](design-lp.md). Die Liste aller zuvor gespeicherten Vorlagen wird angezeigt.
+1. Öffnen Sie den [Inhalts-Designer für Landingpages](design-lp.md). Die Liste aller zuvor gespeicherten Vorlagen wird angezeigt.
 
-1. Sie können sie sortieren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** und **[!UICONTROL Last created]**.
+1. Sie können sie nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
 
    ![](assets/lp_designer-saved-templates.png)
 
 1. Wählen Sie aus der Liste die gewünschte Vorlage aus.
 
-1. Nach der Auswahl können Sie mithilfe der Rechts- und Linkspfeile zwischen allen gespeicherten Vorlagen navigieren.
+1. Nach der Auswahl können Sie mithilfe der Rechts- und Linkspfeile zwischen allen gespeicherten Vorlagen wechseln.
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Klicken **[!UICONTROL Use this landing page]**.
+1. Klicken Sie auf **[!UICONTROL Diese Landingpage verwenden]**.
 
-1. Bearbeiten Sie den Inhalt nach Bedarf mit dem Landingpage-Designer.
+1. Bearbeiten Sie die Inhalte nach Bedarf mit dem Landingpage-Designer.
 
 >[!NOTE]
 >
->Primäre Seitenvorlagen und Unterseitenvorlagen werden separat verwaltet, d. h., Sie können keine primäre Seitenvorlage zum Erstellen einer Unterseite verwenden und umgekehrt.
+>Primärseitenvorlagen und Unterseitenvorlagen werden separat verwaltet, d. h. Sie können keine Primärseitenvorlage zum Erstellen einer Unterseite verwenden und umgekehrt.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit dem Inhaltsexperiment
-description: Weitere Informationen zum Experimentieren mit Inhalten finden Sie unter [!DNL Journey Optimizer]
+description: Weitere Informationen zum Inhaltsexperiment in  [!DNL Journey Optimizer]
 feature: A/B Testing
 topic: Content Management
 role: User
@@ -13,7 +13,7 @@ exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -21,161 +21,161 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Die Funktion &quot;Inhaltserfahrung&quot;ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie von Ihrem Adobe-Support-Mitarbeiter.
+>Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Was ist ein Inhaltsexperiment?
 
-Mit Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
+Mithilfe von Inhaltsexperimenten können Sie Inhalte für die Aktionen in Ihren Kampagnen optimieren.
 
-Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzer einer bestimmten Variante einer Nachricht ausgesetzt sind und eine andere zufällig ausgewählte Gruppe von Benutzern einer anderen Behandlung unterzogen wird. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
+Bei Experimenten handelt es sich um eine Reihe von randomisierten Prüfungen, was im Rahmen von Online-Tests bedeutet, dass einige zufällig ausgewählte Benutzende eine bestimmten Variante einer Nachricht erhalten und eine andere zufällig ausgewählte Gruppe von Benutzenden eine andere Behandlung erfährt. Nach dem Versand der Nachricht können Sie dann die Ergebnismetriken messen, die Sie interessieren, z. B. Öffnungen von E-Mails oder Klicks.
 
-## Warum sollten Experimente ausgeführt werden?
+## Warum sollten Experimente durchgeführt werden?
 
 ![](assets/content_experiment_schema.png)
 
-Mit Experimenten können Sie die Änderungen isolieren, die zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt: Einige zufällig ausgewählte Benutzer sind jeder Behandlungsgruppe ausgesetzt, was bedeutet, dass die Gruppen im Durchschnitt dieselben Merkmale aufweisen. So kann jeder Unterschied in den Ergebnissen so interpretiert werden, dass er auf die Unterschiede in den Behandlungen zurückzuführen ist, d.h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessiert sind, herstellen.
+Mit Hilfe von Experimenten können Sie genau ermitteln, welche Änderungen zu Verbesserungen in Ihren Metriken führen. Wie in der Abbildung oben dargestellt, besteht jede Gruppe, die eine bestimmte Behandlung erhält, aus zufällig ausgewählten Benutzenden. Das bedeutet, dass die Gruppen im Durchschnitt die gleichen Merkmale aufweisen. Folglich kann jeder Unterschied bei den Ergebnissen auf die Unterschiede der Behandlungen zurückgeführt werden, d. h. Sie können einen kausalen Zusammenhang zwischen den vorgenommenen Änderungen und den Ergebnissen, die Sie interessieren, herstellen.
 
-Auf diese Weise können Sie datenbasierte Entscheidungen zur Optimierung Ihrer Geschäftsziele treffen.
+Auf diese Weise können Sie datengestützte Entscheidungen treffen, um Ihre geschäftlichen Ziele zu optimieren.
 
-Für Inhaltstests in Adobe Journey Optimizer können Sie Ideen testen, z. B.:
+Für Inhaltsexperimente in Adobe Journey Optimizer können Sie beispielsweise folgende Ideen testen:
 
-* **Betreff**: Wie könnte sich eine Änderung des Tons oder des Personalisierungsgrads einer Betreffzeile auswirken?
-* **Nachrichteninhalt**: Führt eine Änderung des visuellen Layouts einer E-Mail zu mehr Klicks auf die E-Mail?
+* **Betreffzeile**: Wie könnte sich eine Änderung des Tons oder des Personalisierungsgrads in der Betreffzeile auswirken?
+* **Nachrichteninhalt**: Führt eine Änderung des visuellen Layouts einer E-Mail zu mehr Klicks bei der E-Mail?
 
-## Wie funktioniert das Inhaltsexperiment? {#content-experiment-work}
+## Wie funktioniert ein Inhaltsexperiment? {#content-experiment-work}
 
 ### Zufällige Zuweisung
 
-Inhaltsexperimentierung in Adobe Journey Optimizer verwendet einen pseudo-zufälligen Hash der Besucheridentität, um eine zufällige Zuweisung von Benutzern in Ihrer Zielgruppe zu einer der von Ihnen definierten Behandlungen durchzuführen. Der Hash-Mechanismus stellt sicher, dass in Szenarien, in denen der Besucher mehrmals an einer Kampagne teilnimmt, er deterministisch dieselbe Behandlung erhält.
+Inhaltsexperimente in Adobe Journey Optimizer verwenden einen pseudo-zufälligen Hash der Besucheridentität, um eine zufällige Zuweisung von Benutzenden in Ihrer Audience zu einer der von Ihnen definierten Behandlungen durchzuführen. Der Hash-Mechanismus stellt sicher, dass in Szenarien, in denen Besuchende mehrmals in eine Kampagne eintreten, deterministisch dieselbe Behandlung erhalten.
 
-Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzeridentitätszeichenfolge in einen von 10.000 Buckets zu hashen. In einem Inhaltsexperiment mit 50 % des Traffics, der jeder Behandlung zugeordnet wird, erhalten Benutzer, die in Behälter 1 bis 5.000 fallen, die erste Behandlung, während Benutzer in den Buckets 5.001 bis 10.000 die zweite Behandlung erhalten. Da Pseudozufall-Hashing verwendet wird, ist der Besucher, wie Sie feststellen, möglicherweise nicht genau 50-50. Die Aufteilung entspricht dennoch statistisch Ihrem Zielaufteilungsprozentsatz.
+Im Detail wird der 32-Bit-Algorithmus MumurHash3 verwendet, um die Benutzeridentitätszeichenfolge in einen von 10.000 Buckets zu hashen. In einem Inhaltsexperiment, bei dem jeder Behandlung 50 % des Traffics zugewiesen werden, erhalten Benutzende, die in einen der Buckets 1 bis 5.000 fallen, die erste Behandlung, während Benutzende in den Buckets 5.001 bis 10.000 die zweite Behandlung erhalten. Da pseudo-zufälliges Hashing verwendet wird, ist die Aufteilung der Besuchenden, die Sie feststellen, möglicherweise nicht genau 50–50. Die Aufteilung entspricht dennoch statistisch Ihrem Zielaufteilungsprozentsatz.
 
-Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identitäts-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von der [Ausführungsadressen](../configuration/primary-email-addresses.md).
+Beachten Sie, dass Sie bei der Konfiguration jeder Kampagne mit einem Inhaltsexperiment einen Identity-Namespace auswählen müssen, aus dem die userId für den Randomisierungsalgorithmus ausgewählt wird. Dies ist unabhängig von den [Ausführungsadressen](../configuration/primary-email-addresses.md).
 
-### Datenerfassung und Analyse
+### Datensammlung und Analyse
 
-Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn der Benutzer die Kampagne in eingehenden Kanälen betritt, wird ein &quot;Zuweisungsdatensatz&quot;im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Behandlung der Benutzer zugewiesen wurde, sowie Experiment- und Kampagnen-IDs.
+Zum Zeitpunkt der Zuweisung, d. h. wenn die Nachricht in ausgehenden Kanälen gesendet wird oder wenn Benutzende über eingehende Kanäle in die Kampagne eintreten, wird ein „Zuweisungseintrag“ im entsprechenden Systemdatensatz protokolliert. Dadurch wird aufgezeichnet, welcher Behandlung den Benutzenden zugewiesen wurde, dazu Experiment- und Kampagnen-Kennungen.
 
 Zielmetriken können in zwei Hauptklassen gruppiert werden:
 
-* Direkte Metriken, bei denen der Benutzer direkt auf die Behandlung reagiert, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
-* Indirekte oder &quot;untere Trichtermetriken&quot;, die auftreten, nachdem der Benutzer der Behandlung ausgesetzt wurde.
+* Direkte Metriken, bei denen Benutzende direkt auf die Behandlung reagieren, z. B. beim Öffnen einer E-Mail oder Klicken auf einen Link.
+* Indirekte oder „Trichterboden“-Metriken, die auftreten, nachdem Benutzende der Behandlung ausgesetzt wurden.
 
-Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten verfolgt, werden die Antwortereignisse der Endbenutzer automatisch mit den Kampagnen- und Behandlungs-IDs getaggt, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Erfahren Sie mehr über Tracking](../email/message-tracking.md).
+Bei direkten objektiven Metriken, bei denen Adobe Journey Optimizer Ihre Nachrichten nachverfolgt, werden die Antwortereignisse der Endbenutzenden automatisch mit den Tags zur Kampagnen- und Behandlungs-Kennung versehen, was eine direkte Verknüpfung der Antwortmetrik mit einer Behandlung ermöglicht. [Weitere Informationen zum Tracking](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 
-Bei indirekten oder &quot;untergeordneten&quot;Zielen wie Käufen werden die Antwortereignisse der Endbenutzer nicht mit Kampagnen- und Behandlungs-IDs versehen, d. h., ein Kaufereignis tritt nach der Exposition gegenüber einer Behandlung auf. Dieser Kauf ist nicht direkt mit einer Vorbehandlungszuweisung verbunden. Für diese Metriken ordnet Adobe die Behandlung dem untersten Trichterkonversionsereignis zu, wenn:
+Bei indirekten oder „Trichterboden“-Zielen wie Käufen werden die Reaktionsereignisse der Endbenutzenden nicht mit Tags zur Kampagnen- und Behandlungs-Kennung versehen, d. h., ein Kaufereignis tritt ein, nachdem Benutzende einer Behandlung ausgesetzt waren. Dieser Kauf wird nicht direkt mit einer vorherigen Zuweisung einer Behandlung verknüpft. Für diese Metriken verknüpft Adobe die Behandlung mit dem „Trichterboden“-Konversionsereignis, wenn:
 
-* Die Benutzeridentität ist zum Zeitpunkt der Zuweisung und Konversionsereignisse identisch.
-* Die Konversion erfolgt innerhalb von sieben Tagen nach der Behandlungszuweisung.
+* Die Benutzeridentität zum Zeitpunkt der Zuweisung und des Konversionsereignisses identisch ist.
+* Die Konversion innerhalb von sieben Tagen nach der Behandlungszuweisung erfolgt.
 
 ![](assets/technote_3.png)
 
-Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die jederzeit gültig sind, um diese Rohdaten für die Berichterstellung zu interpretieren, mit denen Sie Ihre Experimentationsberichte interpretieren können. Weitere Informationen hierzu finden Sie unter [diese Seite](../campaigns/experiment-calculations.md).
+Adobe Journey Optimizer verwendet dann erweiterte statistische Methoden, die „jederzeit gültig“ sind, um diese Rohdaten für die Berichterstellung zu interpretieren, mit denen Sie Ihre Experimentationsberichte interpretieren können. Weitere Informationen hierzu finden Sie auf [dieser Seite](../campaigns/experiment-calculations.md).
 
-## Tipps zum Ausführen von Experimenten
+## Tipps zum Durchführen von Experimenten
 
-Beim Ausführen von Experimenten ist es wichtig, bestimmte Best Practices zu befolgen. Im Folgenden finden Sie einige Tipps zum Ausführen dieser Experimente:
+Beim Durchführen von Experimenten ist es wichtig, bestimmte Best Practices zu befolgen. Im Folgenden finden Sie einige Tipps zum Durchführen dieser Experimente:
 
-+++Isolieren der Variablen, die Sie testen möchten
++++ Isolieren Sie die Variablen, im Hinblick auf die Sie testen möchten
 
-Formulieren Sie einige Hypothesen, die Sie testen möchten, und beschränken Sie diese Hypothese auf möglichst wenige Änderungen, um festzustellen, welche Auswirkungen auf Ihren Versand erzielt wurden.
+Formulieren Sie einige Hypothesen, die Sie testen möchten, und beschränken Sie diese Hypothesen auf möglichst wenige Änderungen, um festzustellen, welche Auswirkungen dadurch beim Versand erzielt werden.
 
-Eine gute Hypothese kann beispielsweise sein, ob eine Personalisierung in E-Mail-Betreffzeilen zu besseren Öffnungsraten führt. Das Hinzufügen einer Änderung des Nachrichteninhalts oder von Bildern kann jedoch zu einer verwirrenden Schlussfolgerung führen.
+Eine gute Hypothese kann beispielsweise sein, ob Personalisierung in E-Mail-Betreffzeilen zu besseren Öffnungsraten führt. Wenn Sie zusätzlich jedoch Änderungen am Nachrichteninhalt vornehmen oder Bilder hinzufügen, kann dies zu einer verwirrenden Schlussfolgerung führen.
 +++
 
-+++ Stellen Sie sicher, dass Sie die richtige Metrik verwenden
++++ Stellen Sie sicher, dass die richtige Metrik verwendet wird
 
-Bestimmen Sie die Metrik, die Sie als Ziel auswählen möchten, und ob die von Ihnen vorgenommenen Änderungen direkte Auswirkungen auf diese Metrik haben können.
+Bestimmen Sie die Metrik, die Sie ins Visier nehmen möchten, und stellen Sie auch fest, ob die von Ihnen vorgenommenen Änderungen direkte Auswirkungen auf diese Metrik haben können.
 
-So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Inhalts des Nachrichtentextes auf die Öffnungsraten der E-Mail auswirkt.
+So ist es beispielsweise unwahrscheinlich, dass sich eine Änderung des Nachrichteninhalts auf die Öffnungsraten der E-Mail auswirkt.
 +++
 
-+++ Führen Sie Ihren Test für die richtige Zielgruppengröße oder lange genug aus.
++++ Führen Sie Ihren Test mit der richtige Zielgruppengröße oder lange genug aus
 
-Wenn Sie Ihre Tests länger ausführen, können Sie kleinere Unterschiede in der Zielmetrik zwischen den Behandlungen erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie größere Stichprobengrößen.
-Die Anzahl der Benutzer, die in Ihr Experiment aufgenommen werden müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank}, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
+Je länger Sie Ihre Tests durchführen, desto geringere Unterschiede zwischen den Behandlungen können Sie in der Zielmetrik erkennen. Wenn der Ausgangswert Ihrer Zielmetrik jedoch klein ist, benötigen Sie umfangreichere Stichprobengrößen.
+Wie viele Benutzende Sie in Ihr Experiment einbeziehen müssen, hängt von der zu erkennenden Effektgröße, der Varianz oder Verbreitung Ihrer Zielmetrik sowie von Ihrer Toleranz für falsch-positive und falsch-negative Fehler ab. In klassischen Experimenten können Sie einen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){_blank} nutzen, um zu bestimmen, wie lange Sie Ihren Test ausführen müssen.
 +++
 
-+++Statistische Unsicherheit verstehen
++++ Verstehen Sie statistische Unsicherheiten
 
-Wenn Sie ein Experiment durchführen, bei dem 1000 Benutzer eine Behandlung gesehen haben und die Konversionsrate auf 5 % eingestellt ist. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzer einbezogen würden? Wie lautet die wahre Konversionsrate?
-Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das bei der Durchführung von Online-Experimenten zu verstehen ist, ist, dass die beobachteten Konversionsraten mit einer Reihe zugrunde liegender realer Konversionsraten übereinstimmen. Daher müssen Sie warten, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
+Nehmen wir an, Sie haben ein Experiment durchgeführt, bei dem 1000 Benutzende eine Behandlung gesehen haben, und die Konversionsrate liegt bei 5 %. Wäre dies die tatsächliche Konversionsrate, wenn alle Ihre Benutzenden einbezogen würden? Was wäre die tatsächliche Konversionsrate?
+Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formalisieren. Eines der wichtigsten Konzepte, das Sie bei der Durchführung von Online-Experimenten verstehen müssen, ist, dass die beobachteten Konversionsraten mit einem Bereich zugrunde liegender realer Konversionsraten konsistent sind. Das bedeutet, dass Sie warten müssen, bis diese Schätzungen präzise genug sind, bevor Sie versuchen, eine Schlussfolgerung zu ziehen. Konfidenzintervalle und Konfidenz helfen uns, diese Unsicherheit zu quantifizieren.
 +++
 
-+++ Erstellen Sie neue Hypothesen und testen Sie sie kontinuierlich.
++++ Formulieren Sie neue Hypothesen und testen Sie sie kontinuierlich
 
-Um echte geschäftliche Einblicke zu gewinnen, sollten Sie nur an einem Experiment festhalten. Führen Sie stattdessen Experimente durch, indem Sie neue Hypothesen formulieren und neue Tests mit unterschiedlichen Änderungen durchführen, verschiedene Segmente betrachten und die Auswirkungen auf die verschiedenen Metriken untersuchen.
+Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experiment festhalten. Allerdings sollten Sie im Anschluss an diese Experimente neue Hypothesen formulieren und neue Tests mit unterschiedlichen Änderungen durchführen, verschiedene Segmente betrachten und die Auswirkungen auf die verschiedenen Metriken untersuchen.
 +++
 
 ## Interpretieren der Ergebnisse Ihrer Experimente {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
-In diesem Abschnitt werden die Experimentberichte beschrieben und wie Sie die verschiedenen statistischen Mengen verstehen, die angezeigt werden.
+In diesem Abschnitt werden die Experimentberichte beschrieben, und Sie erfahren, wie die verschiedenen statistischen Mengen, die angezeigt werden, zu verstehen sind.
 
-Im Folgenden finden Sie einige Richtlinien für die Interpretation der Ergebnisse Ihres Inhaltserlebnisses.
+Im Folgenden finden Sie einige Richtlinien für die Interpretation der Ergebnisse Ihres Inhaltsexperiments.
 
-Beachten Sie, dass bei einer vollständigen Beschreibung der Ergebnisse alle verfügbaren Nachweise berücksichtigt werden sollten (d. h. Stichprobengrößen, Konversionsraten, Konfidenzintervalle usw.) und nicht nur die endgültige Erklärung. Selbst wenn ein Ergebnis noch nicht schlüssig ist, kann es dennoch überzeugende Beweise dafür geben, dass eine Behandlung anders ist als eine andere.
+Beachten Sie, dass bei einer vollständigen Beschreibung der Ergebnisse alle verfügbaren Fakten (d. h. Stichprobengrößen, Konversionsraten, Konfidenzintervalle usw.) berücksichtigt werden sollten und nicht nur, ob eine Erklärung als endgültig erfolgt ist oder nicht. Selbst wenn ein Ergebnis noch nicht endgültig ist, kann es dennoch zwingende Beweise dafür geben, dass eine Behandlung anders ist als eine andere.
 
-Statistische Berechnungen werden in diesem Abschnitt erläutert [page](../campaigns/experiment-calculations.md).
+Statistische Berechnungen werden auf dieser [Seite](../campaigns/experiment-calculations.md) erläutert.
 
-### 1. Vergleich normalisierter Metriken {#normalized-metrics}
+### 1. Vergleichen normalisierter Metriken {#normalized-metrics}
 
-Wenn Sie die Leistung von zwei Behandlungen vergleichen, sollten Sie immer die normalisierten Metriken vergleichen, um Unterschiede in der Anzahl der Profile zu berücksichtigen, die jeder Behandlung ausgesetzt sind.
+Wenn Sie die Performance von zwei Behandlungen vergleichen, sollten Sie immer die normalisierten Metriken vergleichen, um Unterschiede in der Anzahl der Profile zu berücksichtigen, die jeder Behandlung ausgesetzt sind.
 
-Wenn das Experimentziel beispielsweise auf **[!UICONTROL Unique Opens]** und eine bestimmte Behandlung 10.000 Profile mit 200 aufgezeichneten Einzelöffnungen angezeigt wurde, stellt dies einen **[!UICONTROL Conversion Rate]** von 2 %. Bei nicht eindeutigen Metriken, z. B. der Öffnungs-Metrik, wird die normalisierte Metrik als **[!UICONTROL Count per Profile]**, während bei kontinuierlichen Metriken wie &quot;Preissumme&quot;die normalisierte Metrik als **[!UICONTROL Total per Profile]**.
+Wenn das Experimentziel beispielsweise **[!UICONTROL Einzelöffnungen]** sind und eine bestimmte Behandlung 10.000 Profilen gezeigt wurde und zu 200 erfassten Einzelöffnungen führte, entspricht dies einer **[!UICONTROL Konversionsrate]** von 2 %. Bei nicht eindeutigen Metriken, z. B. der Öffnungs-Metrik, wird die normalisierte Metrik als **[!UICONTROL Anzahl pro Profil]** angezeigt, während bei kontinuierlichen Metriken wie „Preis gesamt“ die normalisierte Metrik als **[!UICONTROL Gesamt pro Profil]** angezeigt wird.
 
-### 2. Konfidenzintervalle {#confidence-intervals}
+### 2. Konzentration auf Konfidenzintervalle {#confidence-intervals}
 
-Wenn Sie Experimente mit Beispielen Ihrer Profile durchführen, stellt die für eine bestimmte Behandlung beobachtete Konversionsrate eine Schätzung der zugrunde liegenden tatsächlichen Konversionsrate dar.
+Wenn Sie Experimente mit Stichproben Ihrer Profile durchführen, stellt die für eine bestimmte Behandlung beobachtete Konversionsrate eine Schätzung der tatsächlichen zugrunde liegenden Konversionsrate dar.
 
-Wenn beispielsweise die Behandlung A eine **[!UICONTROL Conversion Rate]** 3%, während die Behandlung B beobachtet wurde **[!UICONTROL Conversion Rate]** von 2%, ist die Behandlung A besser als die Behandlung B? Um dies zu beantworten, müssen wir zunächst die Unsicherheit bei diesen beobachteten Konversionsraten quantifizieren.
+Wenn beispielsweise Behandlung A eine **[!UICONTROL Konversionsrate]** von 3 % aufweist, während Behandlung B eine beobachtete **[!UICONTROL Konversionsrate]** von 2 % hat, ist Behandlung A dann besser als Behandlung B? Um diese Frage zu beantworten, müssen wir zunächst die Unsicherheit in diesen beobachteten Konversionsraten quantifizieren.
 
-Konfidenzintervalle helfen bei der Quantifizierung der Unsicherheit in den geschätzten Konversionsraten, aber größere Konfidenzintervalle bedeuten mehr Unsicherheit. Je mehr Profile zum Experiment hinzugefügt werden, desto kleiner werden die Intervalle, die eine präzisere Schätzung darstellen. Das Konfidenzintervall stellt einen Bereich von Konversionsraten dar, die mit den beobachteten Daten kompatibel sind.
+Konfidenzintervalle helfen dabei, den Grad der Unsicherheit in den geschätzten Konversionsraten zu quantifizieren, aber breitere Konfidenzintervalle bedeuten mehr Unsicherheit. Je mehr Profile dem Experiment hinzugefügt werden, desto kleiner werden die Intervalle, die eine genauere Schätzung darstellen. Das Konfidenzintervall stellt einen Bereich von Konversionsraten dar, die mit den beobachteten Daten kompatibel sind.
 
 Wenn sich die Konfidenzintervalle für zwei Behandlungen kaum überschneiden, bedeutet dies, dass die beiden Behandlungen unterschiedliche Konversionsraten aufweisen. Wenn es jedoch eine große Überschneidung zwischen den Konfidenzintervallen für zwei Behandlungen gibt, ist es wahrscheinlicher, dass die beiden Behandlungen dieselbe Konversionsrate aufweisen.
 
-Adobe verwendet 95 % beliebige gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse jederzeit während des Experiments sicher angezeigt werden können.
+Adobe verwendet 95 % jederzeit gültige Konfidenzintervalle oder Konfidenzsequenzen, was bedeutet, dass die Ergebnisse zu jedem Zeitpunkt des Experiments sicher angezeigt werden können.
 
-### 3. Steigerungen verstehen {#understand-lift}
+### 3. Verstehen von Steigerungen {#understand-lift}
 
-Die Zusammenfassung des Experimentberichts zeigt die **[!UICONTROL Lift over Baseline]**, das einen Messwert für die prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zum Ausgangswert darstellt. Es ist genau definiert, der Leistungsunterschied zwischen einer bestimmten Behandlung und der Grundlinie, geteilt durch die Leistung der Grundlinie, ausgedrückt als Prozentsatz.
+In der Zusammenfassung des Experiments wird die **[!UICONTROL Steigerung gegenüber der Grundlinie]** angezeigt, die ein Maß für die prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung gegenüber der Grundlinie darstellt. Genauer gesagt handelt es sich um den Unterschied in der Leistung zwischen einer bestimmten Behandlung und der Grundlinie, geteilt durch die Leistung der Grundlinie, ausgedrückt in Prozent.
 
-### 3. Vertrauen verstehen {#understand-confidence}
+### 3. Verstehen von Konfidenz {#understand-confidence}
 
-Während Sie sich in erster Linie auf die **[!UICONTROL Confidence interval]** für die Leistung jeder Behandlung zeigt Adobe auch die Konfidenz an, die ein probabilistischer Messwert dafür ist, wie viele Beweise dafür vorliegen, dass eine bestimmte Behandlung mit der Basisbehandlung identisch ist. Ein höheres Konfidenzniveau deutet auf weniger Anzeichen für die Annahme hin, dass die Basistherapie und die Behandlung außerhalb des Ausgangswerts die gleiche Leistung aufweisen. Genauer gesagt ist das angezeigte Vertrauen eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen kleineren Unterschied in den Konversionsraten zwischen einer bestimmten Behandlung und der Grundlinie beobachtet hätten, wenn in Wirklichkeit kein Unterschied in den zugrunde liegenden tatsächlichen Konversionsraten besteht. In Bezug auf p-Werte ist die angezeigte Konfidenz 1 - p-Wert.
+Während Sie sich in erster Linie auf das **[!UICONTROL Konfidenzintervall]** für die Leistung der einzelnen Behandlungen konzentrieren sollten, zeigt Adobe auch die Konfidenz an, die ein probabilistisches Maß dafür ist, wie viel Evidenz es dafür gibt, dass eine bestimmte Behandlung mit der Grundlinienbehandlung identisch ist. Ein höherer Konfidenzwert zeigt an, dass die Annahme, wonach die Grundlinien- und die Nicht-Grundlinien-Behandlung die gleiche Leistung aufweisen, weniger gut belegt ist. Genauer gesagt ist die angezeigte Konfidenz die Wahrscheinlichkeit (ausgedrückt als Prozentsatz), dass wir einen geringeren Unterschied bei den Konversionsraten zwischen einer bestimmten Behandlung und der Grundlinie beobachtet hätten, wenn es in Wirklichkeit keinen Unterschied bei den tatsächlichen zugrunde liegenden Konversionsraten gibt. Um es mit den p-Werten auszudrücken, ist die angezeigte Konfidenz 1 - p-Wert.
 
-Adobe verwendet &quot;Anytime Valid&quot;-Konfidenz und &quot;Anytime Valid&quot;-p-Werte, die mit den oben beschriebenen Konfidenzsequenzen konsistent sind.
+Adobe verwendet „jederzeit gültige“ Konfidenz und „jederzeit gültige“ p-Werte, die mit den oben beschriebenen Konfidenzsequenzen übereinstimmen.
 
-### 4. Statistische Bedeutung
+### 4. Statistische Signifikanz
 
-Beim Ausführen von Experimenten wird ein Ergebnis als statistisch signifikant betrachtet, wenn sehr unwahrscheinlich war, dass es mit einer Nullhypothese beobachtet wurde, dass eine bestimmte Behandlung und die Grundlinie identische zugrunde liegende Konversionsraten/Leistungen aufweisen.
+Bei der Durchführung von Experimenten wird ein Ergebnis als statistisch signifikant eingestuft, wenn es sehr unwahrscheinlich ist, dass es bei der Nullhypothese, dass eine bestimmte Behandlung und die Grundlinie identische zugrunde liegende Konversionsraten/Leistungen aufweisen, beobachtet worden wäre.
 
-Adobe erklärt ein Experiment als abgeschlossen, wenn die Konfidenz über 95 % liegt.
+Adobe stuft ein Experiment als schlüssig ein, wenn die Konfidenz über 95 % liegt.
 
-## Vorgehensweise nach dem Ausführen eines Experiments
+## Was ist nach der Durchführung eines Experiments zu tun?
 
-Nach dem Ausführen Ihres Experiments gibt es mehrere mögliche Folgeaktionen:
+Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahmen:
 
-* **Gewinnerideen bereitstellen**
+* **Einsatz erfolgreicher Ideen**
 
-   Mit einem eindeutigen Ergebnis können Sie diese Gewinneridee bereitstellen, indem Sie entweder all Ihren Kunden die beste Behandlung zukommen lassen oder indem Sie neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung repliziert wird.
-   </br>Beachten Sie, dass in einer dynamischen Umgebung das, was gleichzeitig gut funktioniert, später möglicherweise nicht mehr gut funktioniert.
+   Wenn das Ergebnis eindeutig ist, können Sie die erfolgreiche Idee umsetzen, indem Sie entweder die Behandlung mit der besten Leistung bei all Ihren Kunden einsetzen oder neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung nachgebildet wird.
+   </br> Beachten Sie, dass in einer dynamischen Umgebung das, was zu einem bestimmten Zeitpunkt gut funktioniert, später möglicherweise nicht mehr gut funktioniert.
 
-* **Ausführen von Folgetests**
+* **Durchführung von Folgetests**
 
-   Manchmal sind die Ergebnisse Ihrer Experimente nicht eindeutig, entweder weil nicht genügend Profile vorhanden waren, um einen Unterschied bei den Behandlungen zu erkennen, oder weil die von Ihnen definierten Behandlungen nicht ausreichend unterschiedlich waren.
+   Manchmal können die Ergebnisse Ihrer Experimente nicht schlüssig sein, entweder weil nicht genügend Profile einbezogen wurden, um einen Unterschied zwischen den Behandlungen festzustellen, oder weil die von Ihnen definierten Behandlungen nicht ausreichend unterschiedlich waren.
 
-   Wenn die Hypothese, die Sie getestet haben, weiterhin relevant ist, führen Sie einen Follow-up-Test für eine größere oder andere Zielgruppe durch oder ändern Sie Ihre Behandlungen so, dass klarere Unterschiede vorliegen, um die beste Folgeaktion zu sein.
+   Wenn die Hypothese, die Sie getestet haben, immer noch relevant ist, kann es sinnvoll sein, einen Folgetest mit einer größeren oder anderen Zielgruppe durchzuführen oder die Behandlungen so zu ändern, dass die Unterschiede deutlicher werden.
 
-* **Detailliertere Tauchanalysen durchführen**
+* **Durchführen von vertiefenden Analysen**
 
-   Die Behandlung, die für eine Zielgruppe gut funktioniert, kann manchmal nicht die beste Behandlung für eine andere Zielgruppe sein. Durch tiefere Analysen darüber, wie sich Behandlungen für verschiedene Segmente verhalten, können Ideen für neue Tests generiert werden.
+   Die Behandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Behandlung für eine andere Zielgruppe. Vertiefende Analysen darüber, wie sich die Behandlungen in verschiedenen Segmenten entwickelt haben, helfen dabei, Ideen für neue Tests zu entwickeln.
 
-   Ebenso kann die Untersuchung der Leistung jeder Behandlung mit verschiedenen Metriken auch einen umfassenderen Überblick über Ihre Experimente geben.
+   Ebenso kann die Untersuchung der Leistung der einzelnen Behandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
 
    >[!CAUTION]
    >
-   >Mehr Analysen bedeuten eine höhere Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.
+   >Je mehr Analysen durchgeführt werden, desto höher ist die Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.

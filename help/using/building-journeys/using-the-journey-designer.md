@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestalten Ihrer Journey
-description: Erfahren Sie, wie Sie Ihre Journey gestalten.
+title: Gestalten einer Journey
+description: Erfahren Sie, wie Sie Ihre Journey entwerfen
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,132 +10,132 @@ level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 100%
 
 ---
 
-# Gestalten Ihrer Journey {#design-your-journey}
+# Gestalten einer Journey {#design-your-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
->title="Gestalten Ihrer Journey"
->abstract="Über die Benutzeroberfläche der Journey können Sie Aktivitäten einfach aus der Palette in die Arbeitsfläche ziehen und dort ablegen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt auf der Arbeitsfläche hinzuzufügen."
+>title="Gestalten einer Journey"
+>abstract="Die Benutzeroberfläche für die Journey ermöglicht es Ihnen, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen."
 
-Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, die es Marketing-Experten ermöglicht, die Marketing-Interaktion mit einer Eins-zu-Eins-Kundeninteraktion zu harmonisieren. Über die Benutzeroberfläche können Sie Aktivitäten einfach aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen. Beachten Sie, dass Sie beim nächsten verfügbaren Schritt auch auf eine Aktivität doppelklicken können, um sie der Arbeitsfläche hinzuzufügen.
+Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen. Sie können auch auf eine Aktivität doppelklicken, um sie im nächsten verfügbaren Schritt der Arbeitsfläche hinzuzufügen.
 
-Ereignisse, Orchestrierungs- und Aktionsaktivitäten haben eine bestimmte Rolle und einen bestimmten Platz im Prozess. Die Aktivitäten werden sequenziert: Wenn eine Aktivität abgeschlossen ist, wird der Fluss fortgesetzt und die nächste Aktivität verarbeitet usw.
+Ereignisse, Orchestrierungs- und Aktionsaktivitäten haben eine bestimmte Rolle und einen bestimmten Platz im Prozess. Die Aktivitäten finden der Reihe nach statt: Nach Beendigung einer Aktivität wird der Fluss fortgesetzt und die nächste Aktivität wird verarbeitet usw.
 
-## Erste Schritte mit dem Journey-Design {#gs-journey-design}
+## Erste Schritte beim Entwerfen von Journeys {#gs-journey-design}
 
-Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: [Veranstaltungen](#jo-event), [Orchestrierung](#jo-orch) und [Aktionen](#jo-actions). Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette auf Ihre Arbeitsfläche.
+Die **Palette** befindet sich auf der linken Bildschirmseite. Alle verfügbaren Aktivitäten sind in verschiedene Kategorien unterteilt: [Ereignisse](#jo-event), [Orchestrierung](#jo-orch) und [Aktionen](#jo-actions). Sie können die verschiedenen Kategorien erweitern/reduzieren, indem Sie auf ihren Namen klicken. Um eine Aktivität in Ihrer Journey zu verwenden, ziehen Sie sie per Drag-and-Drop aus der Palette in Ihre Arbeitsfläche.
 
-Beim Starten einer neuen Journey werden Elemente, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können, ausgeblendet. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
+Beim Erstellen einer neuen Journey werden Elemente ausgeblendet, die nicht als erster Schritt auf der Arbeitsfläche abgelegt werden können. Dies betrifft alle Aktionen, die Bedingungsaktivität, die Wartezeit und die Reaktion.
 
 ![](assets/journey38.png)
 
-Die **[!UICONTROL Filter items]** über das Symbol oben links können Sie die folgenden Filter anzeigen:
+Mit dem Symbol **[!UICONTROL Elemente filtern]** oben links können Sie die folgenden Filter anzeigen:
 
-* **Nur verfügbare Elemente anzeigen**: Sie können nicht verfügbare Elemente in der Palette ein- oder ausblenden (z. B. Ereignisse, die einen anderen Namespace als den in Ihrer Journey verwenden). Standardmäßig sind nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen möchten, erscheinen sie grau.
+* **Nur verfügbare Elemente anzeigen**: Blenden Sie nicht verfügbare Elemente in der Palette ein oder aus, z. B. die Ereignisse, die einen anderen Namespace verwenden als die in der Journey verwendeten. Standardmäßig werden nicht verfügbare Elemente ausgeblendet. Wenn Sie sie anzeigen lassen, werden sie grau dargestellt.
 
-* **Nur aktuelle Elemente anzeigen**: Mit diesem Filter können Sie neben den nativen fünf Ereignissen und Aktionen nur die letzten fünf verwendeten Ereignisse und Aktionen anzeigen. Dies ist für jeden Benutzer spezifisch. Standardmäßig werden alle Elemente angezeigt.
+* **Nur aktuelle Elemente anzeigen**: Mit diesem Filter können Sie neben den nativen auch die letzten fünf Ereignisse und Aktionen anzeigen. Dies ist benutzerspezifisch. Standardmäßig werden alle Elemente angezeigt.
 
-Sie können auch die **[!UICONTROL Search]** -Feld. Es werden nur Ereignisse und Aktionen gefiltert.
+Sie können auch das Feld **[!UICONTROL Suche]** verwenden. Es werden nur Ereignisse und Aktionen gefiltert.
 
 Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Ihre Aktivitäten ablegen und konfigurieren. Klicken Sie auf eine Aktivität auf der Arbeitsfläche, um sie zu konfigurieren. Dadurch wird der Konfigurationsbereich für die Aktivität auf der rechten Seite geöffnet.
 
 ![](assets/journey39.png)
 
-Die **Aktivitätskonfigurationsbereich** angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Klicken Sie auf **[!UICONTROL Delete]** zum Löschen der Aktivität. Klicken **[!UICONTROL Cancel]** , um die Änderungen abzubrechen, oder **[!UICONTROL Ok]** zur Bestätigung. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
+Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Klicken Sie auf das Symbol **[!UICONTROL Löschen]**, um die Aktivität zu löschen. Klicken Sie auf **[!UICONTROL Abbrechen]**, um die Änderungen zu ignorieren, oder auf **[!UICONTROL OK]**, um sie zu bestätigen. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
 
-Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um schreibgeschützte Felder anzuzeigen, klicken Sie auf die **Schreibgeschützte Felder anzeigen** rechts oben im Konfigurationsbereich für die Aktivität. Diese Einstellung gilt für alle Aktivitäten in allen Journeys.
+Standardmäßig sind schreibgeschützte Felder ausgeblendet. Um sie anzuzeigen, klicken Sie auf das Symbol **Schreibgeschützte Felder anzeigen** oben links im Konfigurationsbereich für die Aktivitäten. Diese Einstellung gilt für alle Aktivitäten in allen Journeys.
 
 ![](assets/journey59bis.png)
 
-Je nach Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey durchführen: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Protokollschaltfläche für den Testmodus wird angezeigt, wenn der Testmodus aktiviert ist.
+Abhängig vom Status der Journey können Sie mithilfe der Schaltflächen oben rechts verschiedene Aktionen für Ihre Journey ausführen: **[!UICONTROL Veröffentlichen]**, **[!UICONTROL Duplizieren]**, **[!UICONTROL Löschen]**, **[!UICONTROL Eigenschaften der Journey]**, **[!UICONTROL Test]**. Diese Schaltflächen werden angezeigt, wenn keine Aktivität ausgewählt ist. Einige Schaltflächen werden kontextuell angezeigt. Die Schaltfläche für das Testmodusprotokoll wird angezeigt, wenn der Testmodus aktiviert ist.
 
 ![](assets/journey41.png)
 
-## Ihre Journey beginnen {#start-your-journey}
+## Starten der Journey {#start-your-journey}
 
-Beim Entwerfen Ihrer Journey möchten Sie als erste Frage stellen, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
+Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Profile in die Journey eintreten werden. Es gibt zwei Möglichkeiten:
 
-1. **Mit einem Ereignis beginnen**: Wenn eine Journey so eingerichtet ist, dass Ereignisse überwacht werden, treten Kontakte in die Journey ein **unitual** in Echtzeit. Die in Ihrer Journey enthaltenen Nachrichten werden an die Person gesendet, die sich derzeit in der Journey befindet. [Weitere Informationen zu Ereignissen](../event/about-events.md)
+1. **Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-1. **Mit einem Segment lesen beginnen**: Sie können Ihre Journey so einrichten, dass sie Adobe Experience Platform-Segmente überwacht. In diesem Fall treten alle Kontakte, die zum angegebenen Segment gehören, in die Journey ein. In Ihrer Journey enthaltene Nachrichten werden an die Kontakte gesendet, die zum Segment gehören. [Weitere Informationen zum Lesen von Segmenten](read-segment.md).
+1. **Beginn mit dem Schritt „Segment lesen“**: Sie können Ihre Journey so einstellen, dass sie auf Adobe Experience Platform-Segmente wartet. In diesem Fall treten alle dem angegebenen Segment angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. [Erfahren Sie mehr über das Lesen von Segmenten](read-segment.md).
 
 ## Nächste Schritte definieren{#define-next-steps}
 
-Nach dem ersten Ereignis oder dem Lesen des Segments können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen. Wählen Sie in der Palette die erforderlichen Schritte aus.
+Nach dem ersten Ereignis oder dem Schritt „Segment lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
-### Veranstaltungen{#jo-event}
+### Ereignisse{#jo-event}
 
-Ereignisse lösen eine personalisierte Journey aus, z. B. einen Online-Kauf. Sobald jemand in eine Journey eintritt, bewegt er sich als Einzelperson durch, und keine zwei Personen bewegen sich in derselben Geschwindigkeit oder auf demselben Pfad.
+Ereignisse sind Auslöser personalisierter Journeys, z. B. eines Online-Kaufs. Wenn eine Person in eine Journey eintritt, durchläuft sie sie als Individuum. Jede Person bewegt sich in einer anderen Geschwindigkeit und auf einem anderen Pfad.
 
-Wenn Sie Ihre Journey mit einem Ereignis starten, wird die Journey beim Empfang des Ereignisses ausgelöst. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
+Wenn Sie Ihre Journey mit einem Ereignis beginnen, wird die Journey ausgelöst, sobald das Ereignis eintritt. Jede Person in der Journey folgt dann einzeln den nächsten Schritten, die in Ihrer Journey definiert sind.
 
-Sie können **mehrere Ereignisse** in Ihrer Journey verwenden, sofern sie denselben Namespace verwenden. Ereignisse werden im Voraus konfiguriert. [Weitere Informationen zu Journey-Ereignissen](about-journey-activities.md#event-activities)
+Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie denselben Namespace verwenden. Die Ereignisse werden zuvor konfiguriert. [Weitere Informationen zu Journey-Ereignissen](about-journey-activities.md#event-activities)
 
-Sie können auch eine **Reaktion** -Ereignis nach einer Nachricht, um auf Tracking-Daten zu reagieren, die sich auf die Nachricht beziehen. Auf diese Weise können Sie beispielsweise eine andere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder darin geklickt hat. [Weitere Informationen zu Reaktionsereignissen](reaction-events.md).
+Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. [Weitere Informationen zu Reaktionsereignissen](reaction-events.md).
 
-Verwendung **Segmentqualifikation** Ereignisaktivität , um Kontakte dazu zu bringen, basierend auf den Ein- und Austritten von Adobe Experience Platform-Segmenten in eine Journey einzutreten oder in einer Journey fortzufahren. Sie können alle neuen Silber-Kunden in eine Journey eintreten lassen und personalisierte Nachrichten senden. Weitere Informationen finden Sie hier . [Abschnitt](segment-qualification-events.md).
+Verwenden Sie die Ereignisaktivität **Segmentqualifikation**, um Personen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder eine Journey fortzusetzen. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](segment-qualification-events.md).
 
 ### Orchestrierung{#jo-orch}
 
-Orchestrierungsaktivitäten sind unterschiedliche Bedingungen, die bei der Bestimmung des nächsten Schritts in der Journey helfen.
+Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen.
 
-Verwenden Sie in den Orchestrierungsaktivitäten die Variable **Segment lesen** -Aktivität, um Ihre Journey so festzulegen, dass sie ein Adobe Experience Platform-Segment überwacht. [Erfahren Sie mehr über die Aktivität Segment lesen .](read-segment.md).
+In den Orchestrierungsaktivitäten können Sie die Aktivität **Segment lesen** verwenden, um eine Journey so einzurichten, dass sie auf ein Adobe Experience Platform-Segment reagiert. [Weitere Informationen über die Aktivität „Segment lesen“](read-segment.md)
 
-Mit den anderen Aktivitäten können Sie Bedingungen zu Ihrer Journey hinzufügen, um mehrere Pfade zu definieren, eine Wartezeit vor der Ausführung der nächsten Aktivität festlegen oder Ihre Journey beenden. [Erfahren Sie mehr über Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
+Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. [Weitere Informationen zu Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
 
 ### Aktionen{#jo-actions}
 
-Aktionen sind das Ergebnis irgendeiner Art von Triggern, wie das Senden einer Nachricht. Es ist der Teil der Journey, den der Kunde erfährt. Dabei kann es sich um eine E-Mail-, SMS- oder Push-Nachricht oder um eine Drittanbieteraktion handeln, z. B. eine Slack-Nachricht.
+Aktionen sind das Ergebnis eines Auslösers, wie das Senden einer Nachricht. Sie sind die Teile der Journey, die der Kunde bzw. die Kundin wahrnimmt. Dabei kann es sich um eine E-Mail-, SMS- oder Push-Nachricht oder um eine Drittanbieteraktion handeln, z. B. um eine Slack-Nachricht.
 
-Mit den Kanalaktionsaktivitäten können Sie eine Nachricht einfügen, die in [!DNL Journey Optimizer]. [Erfahren Sie mehr über die Aktionsaktivitäten des Kanals](journeys-message.md)
+Mit den Kanalaktionsaktivitäten können Sie eine Nachricht einfügen, die in [!DNL Journey Optimizer] entworfen wurde. [Weitere Informationen zu Kanalaktionsaktivitäten](journeys-message.md)
 
 Verwenden Sie in den Aktionsaktivitäten benutzerdefinierte Aktionen, um Nachrichten mit Drittanbietersystemen zu senden. [Weitere Informationen zu benutzerdefinierten Aktionen](about-journey-activities.md#action-activities).
 
 ## Hinzufügen alternativer Pfade{#paths}
 
-Sie können eine Ausweichaktion für den Fall eines Fehlers oder einer Zeitüberschreitung für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Condition]** und **[!UICONTROL Action]**.
+Für den Fall eines Fehlers oder einer Zeitüberschreitung können Sie eine Ausweichaktion für die folgenden Journey-Aktivitäten definieren: **[!UICONTROL Bedingung]** und **[!UICONTROL Aktion]**.
 
-Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie die **[!UICONTROL Add an alternative path in case of a timeout or an error]** in den Eigenschaften der Aktivität: Nach der Aktivität wird ein anderer Pfad hinzugefügt. Die Zeitüberschreitungsdauer wird von Admin-Benutzern im [Journey-Eigenschaften](../building-journeys/journey-gs.md#change-properties). Wenn beispielsweise das Senden einer E-Mail zu lange dauert oder ein Fehler auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
+Um eine Ausweichaktion für eine Aktivität hinzuzufügen, wählen Sie das Feld **[!UICONTROL Alternativen Pfad im Fall einer Zeitüberschreitung oder eines Fehlers hinzufügen]** in den Eigenschaften der Aktivität aus. Nach der Aktivität wird dadurch ein weiterer Pfad hinzugefügt. Die Zeitüberschreitungsdauer wird von Admin-Benutzern in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#change-properties) festgelegt. Wenn beispielsweise der Versand einer E-Mail zu lange dauert oder ein Fehler dabei auftritt, können Sie sich für den Versand einer Push-Benachrichtigung entscheiden.
 
 ![](assets/journey42.png)
 
-Verschiedene Aktivitäten (Ereignis, Aktion, Warten) ermöglichen es Ihnen, mehrere Pfade nach ihnen hinzuzufügen. Platzieren Sie dazu den Cursor auf die Aktivität und klicken Sie auf das Symbol &quot;+&quot;. Es können nur Ereignis- und Warteaktivitäten parallel festgelegt werden. Wenn mehrere Ereignisse parallel festgelegt werden, wird der Pfad zum ersten Ereignis ausgewählt.
+Verschiedene Aktivitäten (Ereignis, Aktion, Warten) ermöglichen es Ihnen, nach der Aktivität mehrere Pfade hinzuzufügen. Setzen Sie dazu den Cursor auf die Aktivität und klicken Sie auf das „+“-Symbol. Nur Ereignis- und Warteaktivitäten können parallel festgelegt werden. Wenn mehrere Ereignisse parallel festgelegt werden, wird der Pfad des Ereignisses ausgewählt, das zuerst stattfindet.
 
-Wenn Sie ein Ereignis überwachen, empfehlen wir, nicht unbegrenzt auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Siehe [diesem Abschnitt](../building-journeys/general-events.md#events-specific-time).
+Wir empfehlen, beim Überwachen eines Ereignisses nicht auf unbestimmte Zeit auf das Ereignis zu warten. Dies ist nicht obligatorisch, sondern nur eine Best Practice. Wenn Sie ein oder mehrere Ereignisse nur während einer bestimmten Zeit überwachen möchten, platzieren Sie ein oder mehrere Ereignisse und eine Warteaktivität parallel. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/general-events.md#events-specific-time).
 
-Um den Pfad zu löschen, platzieren Sie den Cursor darauf und klicken Sie auf **[!UICONTROL Delete path]** Symbol.
+Um den Pfad zu löschen, platzieren Sie den Cursor darauf und klicken Sie auf das Symbol **[!UICONTROL Pfad löschen]**.
 
 ![](assets/journey42ter.png)
 
-Wenn zwei Aktivitäten von der Arbeitsfläche getrennt werden, wird eine Warnung angezeigt. Setzen Sie den Cursor auf das Warnsymbol, um die Fehlermeldung anzuzeigen. Um das Problem zu beheben, verschieben Sie einfach die getrennte Aktivität und verbinden Sie sie mit der vorherigen Aktivität.
+Wenn zwei Aktivitäten auf der Arbeitsfläche getrennt werden, wird eine Warnung angezeigt. Platzieren Sie den Cursor auf das Warnsymbol, um die entsprechende Fehlermeldung anzuzeigen. Um das Problem zu beheben, verschieben Sie einfach die getrennte Aktivität und verbinden Sie sie mit der vorherigen Aktivität.
 
 ![](assets/canvas-disconnected.png)
 
-## Aktivitäten kopieren und einfügen {#copy-paste}
+## Kopieren und Einfügen von Aktivitäten {#copy-paste}
 
-Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder in dieselbe oder eine andere Journey einfügen. Auf diese Weise sparen Sie Zeit, wenn Sie zahlreiche Aktivitäten wiederverwenden möchten, die bereits in einer vorherigen Journey konfiguriert wurden.
+Sie können eine oder mehrere Aktivitäten einer Journey kopieren und entweder in derselben oder einer anderen Journey einfügen. So sparen Sie Zeit, wenn Sie verschiedene Aktivitäten wiederverwenden möchten, die bereits in einer vorherigen Journey konfiguriert wurden.
 
 **Wichtige Hinweise**
 
-* Sie können sie über verschiedene Registerkarten und Browser hinweg kopieren und einfügen. Sie können Aktivitäten nur innerhalb derselben Instanz kopieren/einfügen.
+* Sie können über verschiedene Tabs und Browser hinweg kopieren und einfügen. Sie können Aktivitäten nur innerhalb derselben Instanz kopieren/einfügen.
 * Sie können ein Ereignis nicht kopieren/einfügen, wenn die Ziel-Journey über ein Ereignis verfügt, das einen anderen Namespace verwendet.
-* Eingefügte Aktivitäten können auf Daten verweisen, die nicht in der Ziel-Journey vorhanden sind, z. B. wenn Sie Daten über verschiedene Sandboxes kopieren/einfügen. Überprüfen Sie stets die Fehler und nehmen Sie die erforderlichen Anpassungen vor.
-* Beachten Sie, dass Sie eine Aktion nicht rückgängig machen können. Um eingefügte Aktivitäten zu löschen, müssen Sie sie auswählen und löschen. Stellen Sie daher sicher, dass Sie nur die gewünschten Aktivitäten auswählen, bevor Sie sie kopieren.
-* Sie können Aktivitäten aus jeder Journey kopieren, auch aus Aktivitäten, die schreibgeschützt sind.
+* Eingefügte Aktivitäten können auf Daten verweisen, die in der Ziel-Journey nicht vorhanden sind, z. B. wenn Sie Daten in verschiedene Sandboxes kopieren/einfügen. Führen Sie stets eine Fehlerprüfung durch und nehmen Sie die erforderlichen Anpassungen vor.
+* Beachten Sie, dass sich eine Aktion nicht rückgängig machen lässt. Um eingefügte Aktivitäten zu löschen, müssen Sie sie auswählen und löschen. Wählen Sie also vor dem Kopieren ausschließlich benötigte Aktivitäten aus.
+* Sie können Aktivitäten aus beliebigen Journeys kopieren, auch aus solchen, die schreibgeschützt sind.
 * Sie können beliebige Aktivitäten auswählen, auch solche, die nicht verknüpft sind. Verknüpfte Aktivitäten bleiben nach dem Einfügen verknüpft.
 
-Im Folgenden finden Sie die Schritte zum Kopieren/Einfügen von Aktivitäten:
+Im Folgenden werden die Schritte zum Kopieren/Einfügen von Aktivitäten beschrieben:
 
 1. Öffnen Sie eine Journey.
-1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus beim Klicken bewegen. Sie können auch auf jede Aktivität klicken, während Sie die **Strg/Befehl** Schlüssel. Verwendung **Strg/Befehl + A** , wenn Sie alle Aktivitäten auswählen möchten.
+1. Wählen Sie die Aktivitäten aus, die Sie kopieren möchten, indem Sie die Maus darüber bewegen und klicken. Alternativ können Sie auf die einzelnen Aktivitäten klicken, während Sie die **Strg-/Befehlstaste** gedrückt halten. Verwenden Sie **Strg/Befehl + A**, wenn Sie alle Aktivitäten auswählen möchten.
    ![](assets/copy-paste1.png)
-1. Presse **Strg/Befehl + C**.
-Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und die **Kopieren** rechts oben im Konfigurationsbereich für die Aktivität.
+1. Drücken Sie **Strg/Befehl + C**.
+Wenn Sie nur eine Aktivität kopieren möchten, können Sie darauf klicken und oben links im Konfigurationsbereich für die Aktivität das **Kopieren**-Symbol verwenden.
    ![](assets/copy-paste2.png)
-1. Drücken Sie in jeder Journey die **Strg/Befehl + V** , um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und auf **Strg/Befehl + V**. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
+1. Drücken Sie in einer beliebigen Journey die **Strg-/Befehlstaste + V**, um die Aktivitäten einzufügen, ohne sie mit einem vorhandenen Knoten zu verknüpfen. Eingefügte Aktivitäten werden in derselben Reihenfolge angeordnet. Nach dem Einfügen bleiben Aktivitäten ausgewählt, damit Sie sie einfach verschieben können. Sie können den Cursor auch auf einen leeren Platzhalter setzen und **Strg/Befehl + V** drücken. Eingefügte Aktivitäten werden mit dem Knoten verknüpft.
    ![](assets/copy-paste3.png)

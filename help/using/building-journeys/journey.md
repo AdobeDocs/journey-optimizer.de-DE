@@ -9,93 +9,93 @@ level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Verwendung [!DNL Journey Optimizer] zum Erstellen von Anwendungsfällen für die Echtzeit-Orchestrierung der Customer Journey mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind.
+Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen zu erstellen.
 
-Erstellen Sie mehrstufige erweiterte Szenarien mit folgenden Funktionen:
+Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
-* Echtzeit-Versand **Einzelversand** ausgelöst wird, wenn ein Ereignis empfangen wird, oder **in Batch** Verwendung von Adobe Experience Platform-Segmenten.
+* Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **im Batch** unter Verwendung von Adobe Experience Platform-Segmenten.
 
-* Nutzung **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern.
+* Nutzen Sie **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-* Verwenden Sie die **integrierte Aktionen** zum Senden von Nachrichten, die in [!DNL Journey Optimizer] oder erstellen **benutzerdefinierte Aktionen** wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
+* Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-* Mit dem **Journey-Designer**, erstellen Sie Ihre mehrstufigen Anwendungsfälle: Fügen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ Segment lesen hinzu, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität zum Lesen von Segmenten in den Arbeitsbereich, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
-Verwenden Sie Adobe Journey Optimizer, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
+Adobe Journey Optimizer verwenden, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
 
-Adobe Journey Optimizer enthält eine Arbeitsfläche für die Omnichannel-Orchestrierung, die es Marketing-Experten ermöglicht, die Marketing-Interaktion mit einer Eins-zu-Eins-Kundeninteraktion zu harmonisieren. Über die Benutzeroberfläche können Sie Aktivitäten einfach aus der Palette in die Arbeitsfläche ziehen, um Ihre Journey zu erstellen.
+Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen.
 
 ![](assets/interface-journeys.png)
 
-Erfahren Sie, wie Sie Ihre erste Journey in starten und erstellen [diese Seite](journey-gs.md).
+Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
 
-Mit dem Omnichannel-Journey-Designer können Sie mehrstufige Journeys mit zielgerichteten Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- oder Geschäftsinteraktionen und Omnichannel-Nachrichten mithilfe einer intuitiven Drag &amp; Drop-Oberfläche erstellen.
+Der Omnichannel-Journey-Designer hilft bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-&amp;-Drop-Oberfläche.
 
 ![](assets/journey38.png)
 
-Mehr dazu in [diesem Abschnitt](using-the-journey-designer.md).
+Weiterführende Informationen finden sich in [diesem Abschnitt](using-the-journey-designer.md).
 
-Die Schritte zum Konfigurieren Ihrer Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, werden als Data Engineer im Abschnitt [diesem Abschnitt](../configuration/about-data-sources-events-actions.md).
+Für Data Engineers werden die Schritte zur Konfiguration der Journeys, einschließlich Datenquellen, Ereignissen und Aktionen, in [diesem Abschnitt](../configuration/about-data-sources-events-actions.md) beschrieben.
 
 
-## Anwendungsbeispiele{#uc-journey}
+## Anwendungsfälle{#uc-journey}
 
-In den folgenden durchgehenden Anwendungsfällen erfahren Sie, wie Sie Journeys erstellen.
+In den folgenden End-to-End-Anwendungsfällen wird das Erstellen von Journeys erläutert.
 
-Anwendungsfälle für Unternehmen:
+Geschäftliche Anwendungsfälle:
 
-* [Senden von kanalübergreifenden Nachrichten](journeys-uc.md)
-* [Nachricht mit Campaign v7/v8 senden](ajo-ac.md)
-* [Nachricht an Abonnenten senden](message-to-subscribers-uc.md)
+* [Senden von Multi-Channel-Nachrichten](journeys-uc.md)
+* [Senden einer Nachricht mit Campaign v7/v8](ajo-ac.md)
+* [Senden einer Nachricht an Abonnenten](message-to-subscribers-uc.md)
 
 Technische Anwendungsfälle:
 
 * [Dynamisches Übergeben von Sammlungen mithilfe benutzerdefinierter Aktionen](collections.md)
-* [Sendungen vorantreiben](ramp-up-deliveries-uc.md)
+* [Steigern der Versandaktivität](ramp-up-deliveries-uc.md)
 * [Begrenzen des Durchsatzes mit externen Datenquellen und benutzerdefinierten Aktionen](limit-throughput.md)
 
 ## Journey-Versionen{#journey-versions}
 
-In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Siehe [diese Seite](../building-journeys/using-the-journey-designer.md).
+In der Liste der Journeys werden alle Journey-Versionen mit der Versionsnummer angezeigt. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/using-the-journey-designer.md).
 
-Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zur Journey-Bearbeitung über der Arbeitsfläche angezeigt.
+Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die neuesten Versionen oben in der Liste angezeigt. Anschließend können Sie die gewünschte Sortierung definieren und die Anwendung behält sie als Benutzervoreinstellung bei. Die Version der Journey wird auch oben auf der Benutzeroberfläche zum Bearbeiten der Journey (oberhalb der Arbeitsfläche) angezeigt.
 
 ![](assets/journeyversions1.png)
 
 >[!NOTE]
 >
->Normalerweise kann ein Profil nicht mehrmals in derselben Journey gleichzeitig vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, dies jedoch erst tun, wenn er die vorherige Instanz der Journey vollständig verlassen hat. [Mehr dazu](end-journey.md).
+>In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
-Wenn Sie eine Live-Journey ändern müssen, erstellen Sie eine neue Version Ihrer Journey.
+Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
 
-1. Öffnen Sie die neueste Version Ihrer Live-Journey und klicken Sie auf **[!UICONTROL Create a new version]** und bestätigen Sie.
+1. Öffnen Sie die aktuelle Version Ihrer Live-Journey, klicken Sie auf **[!UICONTROL Neue Version erstellen]** und bestätigen Sie.
 
    ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
-   >Sie können nur eine neue Version aus der neuesten Version einer Journey erstellen.
+   >Sie können nur aus der aktuellen Version einer Journey eine neue Journey erstellen.
 
-1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Publish]** und bestätigen Sie.
+1. Nehmen Sie Ihre Änderungen vor, klicken Sie auf **[!UICONTROL Veröffentlichen]** und bestätigen Sie.
 
    ![](assets/journeyversions3.png)
 
-Ab dem Zeitpunkt der Veröffentlichung der Journey beginnen Kontakte, in die aktuelle Version der Journey zu gelangen. Personen, die bereits eine frühere Version eingegeben haben, verbleiben darin, bis sie die Journey beenden. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie zur neuesten Version.
+Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen Version der Journey teil. Personen, die bereits an einer früheren Version teilnehmen, bleiben in ihr, bis sie die Journey beenden. Wenn sie später wieder in dieselbe Journey eintreten, wechseln sie in die aktuelle Version.
 
-Journey-Versionen können einzeln angehalten werden. Alle Versionen von Journeys haben denselben Namen.
+Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
 
-Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt zur **Geschlossen** Status. Es kann kein Eintritt in die Journey stattfinden. Auch wenn Sie die neueste Version stoppen, bleibt die vorherige Version geschlossen.
+Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
 
 >[!NOTE]
 >
->Erfahren Sie mehr über die Limits und Einschränkungen von Journey-Versionen in [diese Seite](../start/guardrails.md#journey-versions-limitations)
+>Weitere Informationen zu den Schutzmechanismen und Einschränkungen von Journey-Versionen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-limitations)

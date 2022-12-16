@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Ereigniserfassung konfigurieren
+title: Konfigurieren der Ereigniserfassung
 description: Erfahren Sie, wie Sie Ihr Angebotsschema zur Erfassung von Ereignissen konfigurieren
 feature: Ranking Formulas
 role: User
@@ -9,27 +9,27 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
-# Ereigniserfassung konfigurieren {#schema-requirements}
+# Konfigurieren der Ereigniserfassung {#schema-requirements}
 
-An dieser Stelle müssen Sie über Folgendes verfügen:
+An dieser Stelle müssen Sie:
 
-* das KI-Modell erstellt hat,
-* definiert, welcher Ereignistyp erfasst werden soll - angezeigtes Angebot (Impression) und/oder angeklicktes Angebot (Konversion);
-* und in welchem Datensatz Sie die Ereignisdaten erfassen möchten.
+* das KI-Modell erstellt haben,
+* definiert haben, welcher Ereignistyp erfasst werden soll – angezeigtes Angebot (Impression) und/oder angeklicktes Angebot (Konversion),
+* und definiert haben, in welchem Datensatz Sie die Ereignisdaten erfassen möchten.
 
-Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der **[!UICONTROL Experience Event - Proposition Interactions]** Feldergruppe mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} oder Mobile SDK.
+Jedes Mal, wenn ein Angebot angezeigt und/oder angeklickt wird, soll das entsprechende Ereignis automatisch von der Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} oder Mobile SDK erfasst werden.
 
 Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu können, müssen Sie für jeden Ereignistyp in einem Erlebnisereignis, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen. Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen:
 
-## Angezeigte Angebote
+## Szenario mit angezeigtem Angebot
 
 **Ereignistyp:** `decisioning.propositionDisplay`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```
@@ -58,10 +58,10 @@ Um Ereignistypen (angezeigtes Angebot oder angeklicktes Angebot) senden zu könn
 
 +++
 
-### Angebotsszenario
+### Szenario mit angeklicktem Angebot
 
 **Ereignistyp:** `decisioning.propositionInteract`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```

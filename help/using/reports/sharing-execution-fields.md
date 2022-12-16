@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
 # Aktionsausführungsfelder für journeyStep-Ereignisse {#sharing-execution-fields}
 
-Diese Feldergruppe wird von journeyStepEvent und journeyStepProfileEvent gemeinsam genutzt.
+Diese Feldergruppe wird sowohl von journeyStepEvent als auch journeyStepProfileEvent verwendet.
 
 Wenn für den Schritt eine Aktion verarbeitet werden muss, werden diese Felder der Ereignis-Payload hinzugefügt.
 
@@ -29,13 +29,13 @@ Typ: Zeichenfolge
 
 ## actionName {#actionname-field}
 
-Name der Aktion. Wenn kein Name festgelegt wurde, wird stepName verwendet.
+Name der Aktion. Wenn kein Name festgelegt wurde, wird der stepName verwendet.
 
 Typ: Zeichenfolge
 
 ## actionType {#actionType-field}
 
-Typ der Aktion.
+Art der Aktion.
 
 Typ: Zeichenfolge
 
@@ -43,13 +43,13 @@ Typ: Zeichenfolge
 
 Gibt an, ob die Aktion parametrisiert wurde oder nicht.
 
-Typ: boolean
+Typ: boolesch
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
-Die Zeit (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wird.
+Dauer (in Millisekunden), die zum Ausführen einer aktuellen Aktion benötigt wird.
 
-Typ: long
+Typ: lang
 
 ## actionExecutionError {#actionexecutionerror-field}
 
@@ -65,18 +65,18 @@ Werte:
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
-Code für Fehler bei der Aktionsausführung. Vorhanden, wenn der Fehler einen Code enthält, z. B. einen HTTP-Code.
+Code für Fehler bei der Ausführung der Aktion. Wird angezeigt, wenn der Fehler einen Code enthält, z. B. HTTP-Code.
 
 Typ: Zeichenfolge
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
-In zwei Fällen kann es zu einer Zeitüberschreitung kommen:
+Eine Zeitüberschreitung kann in zwei Fällen auftreten:
 
-* beim ersten Versuch der Ausführung einer Aktion. In diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt
-* bei einem erneuten Versuch: In diesem Fall beschreibt der actionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor dem erneuten Versuch aufgetreten ist.
+* beim ersten Versuch der Ausführung einer Aktion; in diesem Fall ist die Ausführung noch nicht abgeschlossen, sodass kein zugrunde liegender Fehler vorliegt.
+* bei einer Wiederholung; in diesem Fall beschreibt der ActionExecOrigError/actionExecOrigErrorCode den Fehler, der beim Versuch vor der Wiederholung aufgetreten ist.
 
-Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der beiden Versuche überschreitet die Zeitüberschreitung. Anschließend wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
+Beispielsweise wird eine E-Mail gesendet und beim ersten Versuch ein HTTP 500-Fehler zurückgegeben. Der Abruf wird erneut versucht, aber die Dauer der zwei Versuche liegt über der maximalen Wartezeit. Dann wird die Aktionsausführung als Zeitüberschreitung markiert. Der Aktionsteil sieht wie folgt aus:
 
 ```
     ...
@@ -93,13 +93,13 @@ Typ: Zeichenfolge
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
-Fehlercode des actionExecOrigError.
+Fehler-Code von actionExecOrigError.
 
 Typ: Zeichenfolge
 
 ## actionBusinessType {#actionbusinesstype-field}
 
-Gibt den Aktionstyp an.
+Gibt die Art der Aktion an.
 
 Werte:
 
@@ -115,24 +115,24 @@ Typ: Zeichenfolge
 
 ## deliveryJobID {#deliveryjobid-field}
 
-Hier wird die Versand-Auftrags-ID für die Batch-Journey beschrieben.
+Beschreibt die Versand-Vorgangskennung für die Batch-Journey.
 
 Typ: Zeichenfolge
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-Hier wird die Versand-ID für die Batch-Journey beschrieben.
+Beschreibt die Versandkennung für die Batch-Journey.
 
 Typ: Zeichenfolge
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-Dies beschreibt, ob die Batch-Journey vom Zielgruppensegment ausgelöst wird.
+Beschreibt, ob die Batch-Journey im Zielgruppensegment ausgelöst wird.
 
-Typ: boolean
+Typ: boolesch
 
 ## actionSchedulerCount {#actionschedulercount-field}
 
-Zählung der Planer-Benachrichtigungsanfragen, die während der Schrittverarbeitung an den Planungsdienst gesendet werden.
+Anzahl der Planungs-Benachrichtigungsanfragen, die bei der Schrittverarbeitung an den Planungsdienst gesendet werden.
 
-Typ: long
+Typ: lang

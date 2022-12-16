@@ -1,6 +1,6 @@
 ---
-title: Kollektion nachschlagen
-description: Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+title: Sammlungen nachschlagen
+description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Kollektion nachschlagen {#look-up-collection}
+# Sammlungen nachschlagen {#look-up-collection}
 
-Kollektionen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
+Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können bestimmte Sammlungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder die Sammlung enthält `@id` oder den Namen der Sammlung im Anfragepfad.
+Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Sammlungs-`@id` oder den Namen der Sammlung im Anfragepfad enthält.
 
 **API-Format**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Definiert das Schema, das Sammlungen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Eine Zeichenfolge, die verwendet wird, um die `@id` -Eigenschaft der Entitäten. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` kann nicht zusammen verwendet werden. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt mit Groß-/Kleinschreibung abgeglichen, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter `id` und `name` kann nicht zusammen verwendet werden | `Mobile demo` |
+| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Mobile demo` |
 
 **Anfrage**
 
@@ -45,9 +45,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Kollektions- `@id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen Sammlungs-`@id`.
 
 ```json
 {

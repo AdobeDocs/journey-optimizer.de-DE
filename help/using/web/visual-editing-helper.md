@@ -1,6 +1,6 @@
 ---
 title: Visual Editing Helper-Erweiterung
-description: Entdecken Sie die Chrome-Erweiterung Visual Editing Helper , mit der Sie Web-Seiten in Journey Optimizer erstellen und in der Vorschau anzeigen können.
+description: Entdecken Sie die Chrome-Erweiterung Visual Editing Helper, mit der Sie Web-Seiten in Journey Optimizer erstellen und in der Vorschau anzeigen können.
 feature: Overview
 topic: Content Management
 role: User
@@ -10,54 +10,54 @@ hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 100%
 
 ---
 
 # Visual Editing Helper-Erweiterung {#visual-editing-helper}
 
-Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie mit der Adobe Experience Cloud Visual Editing Helper-Browsererweiterung für Google Chrome Websites zuverlässig in Adobe laden [!DNL Journey Optimizer] Webdesigner.
+Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie mit der Browser-Erweiterung Visual Editing Helper von Adobe Experience Cloud für Google Chrome Websites zuverlässig in den Web-Designer von Adobe [!DNL Journey Optimizer] laden.
 
 >[!NOTE]
 >
->Die Webkanalfunktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können.
+>Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
 
-## Installieren der Visual Editing Helper-Erweiterung {#install-visual-editing-helper}
+## Installieren der Erweiterung Visual Editing Helper {#install-visual-editing-helper}
 
-Gehen Sie wie folgt vor, um die Browsererweiterung Visual Editing Helper abzurufen und zu installieren.
+Gehen Sie wie folgt vor, um die Browser-Erweiterung Visual Editing Helper abzurufen und zu installieren.
 
-1. Navigieren Sie im Google Chrome Web Store zum [Visual Editing Helper von Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} Browsererweiterung.
+1. Navigieren Sie im Google Chrome Web Store zur Browser-Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;}.
 
-1. Klicken **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
+1. Klicken Sie auf **[!UICONTROL Zu Chrome hinzufügen]** > **[!UICONTROL Erweiterung hinzufügen]**.
 
-1. Erstellen Sie eine Webkanalkampagne in [!DNL Journey Optimizer]. [Erfahren Sie mehr](author-web.md#create-web-campaign)
+1. Erstellen Sie eine Web-Kanalkampagne in [!DNL Journey Optimizer]. [Weitere Informationen dazu](author-web.md#create-web-campaign)
 
-1. Öffnen Sie die [!DNL Journey Optimizer] Webdesigner , um mit der Erstellung Ihres Web-Erlebnisses zu beginnen. [Weitere Infos](author-web.md)
+1. Öffnen Sie den [!DNL Journey Optimizer]-Web-Designer, um mit der Erstellung Ihres Web-Erlebnisses zu beginnen. [Weitere Informationen](author-web.md)
 
-1. Stellen Sie sicher, dass die Browsererweiterung Visual Editing Helper in der Symbolleiste Ihres Chrome-Browsers aktiviert ist, indem Sie auf das entsprechende Symbol klicken.
+1. Stellen Sie sicher, dass die Browser-Erweiterung Visual Editing Helper in der Symbolleiste Ihres Chrome-Browsers aktiviert ist, indem Sie auf das entsprechende Symbol klicken.
 
    ![](assets/web-visual-editing-extension.png)
 
-Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im [!DNL Journey Optimizer] Webdesigner zur Unterstützung der Inhaltserstellung.
+Der Visual Editing Helper von Adobe Experience Cloud wird jetzt automatisch aktiviert, wenn eine Website im [!DNL Journey Optimizer]-Web-Designer geöffnet wird, um die Inhaltserstellung zu unterstützen.
 
 Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 
 >[!NOTE]
 >
->Einige Websites werden möglicherweise nicht zuverlässig in der [!DNL Journey Optimizer] Webdesigner aus einem der folgenden Gründe:
+>Einige Websites werden möglicherweise aus einem der folgenden Gründe nicht zuverlässig im [!DNL Journey Optimizer]-Web-Designer geöffnet:
 >
-> * Die Website hat strenge Sicherheitsrichtlinien.
+> * Die Website hat strikte Sicherheitsrichtlinien.
 > * Die Website befindet sich in einem iFrame.
-> * Die QA- oder Staging-Site des Kunden ist nicht für die Außenwelt verfügbar (die Site ist intern).
+> * Die QA- oder Status-Site von Kundinnen und Kunden kann extern nicht abgerufen werden (interne Site).
 
 
 ## Fehlerbehebung
 
-Bei Verwendung von Adobe [!DNL Journey Optimizer] Webdesigner: Wenn Sie versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die empfiehlt, die [Visual Editing Helper-Browsererweiterung](#install-visual-editing-helper).
+Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
 
-Wenn das Adobe Experience Platform Web SDK noch nicht auf der Website implementiert wurde, wird im Webdesigner eine Meldung angezeigt, die darauf hinweist, dass Sie die Browsererweiterung Visual Editing Helper installieren und die [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+Wenn das Adobe Experience Platform Web SDK noch nicht auf der Website implementiert wurde, wird im Web-Designer eine Meldung angezeigt, die empfiehlt, die Browser-Erweiterung Visual Editing Helper zu installieren und das [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target=&quot;_blank&quot;} zu implementieren.
 
-Wenn die Site nicht geladen werden kann oder sich unerwartet verhält, besteht die Möglichkeit, Cookies auf Ihrer Website im Browser zu akzeptieren, bevor versucht wird, sie in Adobe zu laden [!DNL Journey Optimizer].
+Wenn die Site nicht geladen werden kann oder sich unerwartet verhält, besteht die Möglichkeit, Cookies auf Ihrer Website im Browser zu akzeptieren, bevor Sie versuchen, sie in Adobe [!DNL Journey Optimizer] zu laden.
 
-Für Seiten, die sich unter der Authentifizierung befinden, wenn das Laden der Anmeldeseite fehlschlägt oder wenn Sie nach dem Anmeldeversuch immer noch nicht angemeldet sind, versuchen Sie, sich zunächst in einer anderen Registerkarte Ihres Browsers anzumelden und dann die Website in Adobe zu laden. [!DNL Journey Optimizer] Webdesigner.
+Wenn das Laden der Anmeldeseite bei Seiten mit Authentifizierung fehlschlägt oder wenn Sie nach dem Anmeldeversuch nicht angemeldet sind, versuchen Sie, sich zunächst auf einer anderen Registerkarte Ihres Browsers anzumelden und dann die Website im Adobe [!DNL Journey Optimizer]-Web-Designer zu laden.

@@ -1,6 +1,6 @@
 ---
 title: Entscheidungen auflisten
-description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Entscheidungen auflisten {#list-decisions}
 
-Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots informiert.
+Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 
-Sie können eine Liste aller Entscheidungen in einem Container anzeigen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Entscheidungen in einem Container anzeigen.
 
 **API-Format**
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ACTIVITIES}` | Definiert das Schema, das Entscheidungen zugeordnet ist. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
+| `{SCHEMA_ACTIVITIES}` | Definiert das mit Entscheidungen verknüpfte Schema. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 
 **Anfrage**
@@ -46,7 +46,7 @@ curl -X GET \
 
 ## Verwenden von Abfrageparametern {#using-query-parameters}
 
-Sie können Abfrageparameter verwenden, um bei der Auflistung von Ressourcen Ergebnisse zu sortieren und zu filtern.
+Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse zu sortieren und zu filtern.
 
 ### Paging {#paging}
 
@@ -54,15 +54,15 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben geschrieben werden und kann von doppelten Anführungszeichen umgeben sein, um zu verhindern, dass sie tokenisiert wird, und um Sonderzeichen zu umgehen. Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten beim Auftreten in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `default` |
-| `qop` | Wendet den UND- oder ODER-Operator auf Werte im Abfragezeichenfolgenparameter &quot;q&quot;an. | `AND` / `OR` |
+| `q` | Eine optionale Abfragezeichenfolge, nach der in ausgewählten Feldern gesucht werden soll. Die Abfragezeichenfolge sollte in Kleinbuchstaben verfasst werden und kann von doppelten Anführungszeichen umgeben sein, um eine Tokenisierung zu verhindern und Sonderzeichen zu umgehen (Escape). Die Zeichen `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` haben eine besondere Bedeutung und sollten bei der Darstellung in der Abfragezeichenfolge mit einem umgekehrten Schrägstrich als Escape-Zeichen versehen werden. | `default` |
+| `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Hinzufügen einer `-` vor Titel (`orderby=-title`) sortiert Elemente nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Entscheidungen ein. | `limit=5` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
+| `limit` | Schränkt die Anzahl der zurückgegebenen Entscheidungen ein. | `limit=5` |
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste von Entscheidungen zurück, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Entscheidungen zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gesamtbericht
+title: Globaler Bericht
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht verwenden
 feature: Reporting
 topic: Content Management
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 0%
+source-wordcount: '1441'
+ht-degree: 100%
 
 ---
 
@@ -19,57 +19,57 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Wenn bei Verwendung des Query-Dienstes benutzerdefinierte Abfragen über APIs durchgeführt werden, erwarten Sie einige Verzögerungen bei Ihren Berichten.
+> Wenn benutzerdefinierte Abfragen über APIs unter Verwendung des Abfrage-Service durchgeführt werden, treten bei Ihren Berichten möglicherweise Verzögerungen auf.
 
-Verwenden Sie die **[!UICONTROL Global report]** , um die Wirkung Ihrer Journeys und Sendungen über einen ausgewählten Zeitraum zu messen.
+Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Journeys und Ihrer Sendungen über einen bestimmten Zeitraum messen.
 
-* Wenn Sie eine Journey oder Sendungen im Kontext einer Journey als Ziel auswählen möchten, können Sie über die **[!UICONTROL Journeys]** , greifen Sie auf Ihre Journey zu und klicken Sie auf **[!UICONTROL View report]** Schaltfläche. Anschließend finden Sie die globalen Berichte Journey, E-Mail, SMS und Push .
+* Wenn Sie eine Journey oder Sendungen innerhalb einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Bericht anzeigen]**. Dort finden Sie die globalen Berichte zu Journeys, E-Mail-Nachrichten, SMS und Push-Benachrichtigungen.
 
    ![](assets/report_journey.png)
 
-* Wenn Sie eine Kampagne als Ziel auswählen möchten, können Sie über die **[!UICONTROL Campaigns]** , greifen Sie auf Ihre Kampagne zu und klicken Sie auf **[!UICONTROL Reports]** Schaltfläche.
+* Wenn Sie eine Kampagne als Ziel wählen möchten, rufen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne auf und klicken auf die Schaltfläche **[!UICONTROL Berichte]**.
 
    ![](assets/report_campaign.png)
 
-* Wenn Sie von der **[!UICONTROL Live report]** der **[!UICONTROL Global report]** Klicken Sie für Ihren Versand auf **[!UICONTROL All time]** über den Tab-Umschalter aus.
+* Wenn Sie für Ihren Versand vom **[!UICONTROL Live-Bericht]** zum **[!UICONTROL globalen Bericht]** wechseln möchten, klicken Sie im Registerkartenumschalter auf **[!UICONTROL Gesamte Zeit]**.
 
    ![](assets/report_5.png)
 
-Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie unter [diese Seite](#list-of-components-global)
+Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-global)
 
-## Dashboard anpassen {#modify-dashboard}
+## Anpassen des Dashboards {#modify-dashboard}
 
-Jedes Berichts-Dashboard kann durch Ändern des Zeitraums und Ändern der Größe oder Entfernung von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten Dashboards.
+Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern der Größe von Widgets oder das Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um bestimmte Daten auszuwählen.
+1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um auf bestimmte Daten zuzugreifen.
 
    ![](assets/report_modify_1.png)
 
-1. Wählen Sie mit der Umschalter-Leiste aus, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie unter [diese Seite](../building-journeys/testing-the-journey.md).
+1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-   Beachten Sie Folgendes: **[!UICONTROL Exclude test events]** ist nur für Journey-Berichte verfügbar.
+   Beachten Sie, dass die Option **[!UICONTROL Test-Ereignisse ausschließen]** nur für Journey-Berichte verfügbar ist.
 
    ![](assets/report_modify_2.png)
 
-1. Klicken **[!UICONTROL Modify]** , um mit der Anpassung Ihres Dashboards zu beginnen.
+1. Klicken Sie auf **[!UICONTROL Ändern]**, um mit der Anpassung Ihres Dashboards zu beginnen.
 
    ![](assets/report_modify_3.png)
 
-1. Passen Sie die Größe der Widgets an, indem Sie die untere rechte Ecke ziehen.
+1. Sie können die Größe der Widgets durch Ziehen an der rechten unteren Ecke anpassen.
 
    ![](assets/report_modify_4.png)
 
-1. Klicken **[!UICONTROL Remove]** um alle Widgets zu entfernen, die Sie nicht benötigen.
+1. Klicken Sie auf **[!UICONTROL Entfernen]**, um alle Widgets zu entfernen, die Sie nicht benötigen.
 
    ![](assets/report_modify_5.png)
 
-1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
-Ihr Dashboard wurde jetzt gespeichert. Ihre verschiedenen Änderungen werden für eine spätere Verwendung Ihrer Live-Berichte erneut angewendet. Verwenden Sie bei Bedarf die **[!UICONTROL Reset]** -Option, um die Reihenfolge der Standard-Widgets und -Widgets wiederherzustellen.
+Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei einer späteren Verwendung Ihrer Live-Berichte erneut angewendet. Verwenden Sie bei Bedarf die Option **[!UICONTROL Zurücksetzen]**, um die Standard-Widgets und ihre Standardreihenfolge wiederherzustellen.
 
 ## Liste von Komponenten {#list-of-components-global}
 
-In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen je nach Versandtyp.
+In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken, die in Berichten verwendet werden, sowie ihre Definitionen.
 
 ### Journey-Metriken {#journey-metrics}
 
@@ -83,28 +83,28 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
  <tbody> 
   <tr> 
    <td>Erfolgreich ausgeführte Aktionen<br/> </td> 
-   <td> Gesamtzahl der Aktionen, die für eine Journey erfolgreich ausgeführt wurden.<br/> </td> 
+   <td> Gesamtzahl der erfolgreich ausgeführten Aktionen für eine Journey<br/>. </td> 
 </tr> 
   <tr> 
-   <td> Eingegebene Profile<br/> </td> 
-   <td> Gesamtzahl der Kontakte, die das Eintrittsereignis der Journey erreicht haben.<br/> </td> 
+   <td> Eingetretene Profile<br/> </td> 
+   <td> Gesamtzahl der Einzelanwendenden, die das Eintrittsereignis der Journey erreicht haben.<br/> </td> 
 </tr>
   <tr> 
-   <td> Fehler in Aktion<br/> </td> 
+   <td> Fehler bei Aktion<br/> </td> 
    <td>Gesamtzahl der Fehler, die bei Aktionen aufgetreten sind.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Ausgehende Profile<br/> </td> 
-   <td> Gesamtzahl der Kontakte, die die Journey verlassen haben.<br/> </td> 
+   <td> Ausgestiegene Profile<br/> </td> 
+   <td> Gesamtzahl der Einzelanwendenden, die die Journey verlassen haben<br/> </td> 
 </tr> 
   <tr> 
-   <td> Fehlgeschlagene individuelle Journey<br/> </td> 
+   <td> Fehlgeschlagene einzelne Journey<br/> </td> 
    <td> Gesamtzahl der einzelnen Journeys, die nicht erfolgreich ausgeführt wurden.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
 
-### E-Mail- und SMS-Metriken {#email-and-sms-metrics}
+### Metriken zu E-Mail und SMS             {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -116,11 +116,11 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
-   <td> Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Absprungrate<br/> </td> 
-   <td> Prozentsatz der Bounce-E-Mails in Bezug auf die gesendeten E-Mails<br/> </td> 
+   <td> Bounce-Rate<br/> </td> 
+   <td> Prozentsatz der Bounce-E-Mails im Vergleich zu den gesendeten E-Mails<br/> </td> 
 </tr>
   <tr> 
    <td> Klicks<br/> </td> 
@@ -128,59 +128,59 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
 </tr> 
   <tr> 
    <td> Zugestellt <br/> </td> 
-   <td> Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten<br/></td> 
+   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/></td> 
 </tr> 
   <tr> 
-   <td> Zustellrate<br/> </td> 
+   <td> Zustellungsrate<br/> </td> 
    <td> Prozentsatz der erfolgreich gesendeten Nachrichten<br/> </td> 
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während eines Versands aufgetreten sind, der den Versand verhinderte, in Bezug auf die gesendeten E-Mails.<br/> </td> 
+   <td> Prozentsatz der Fehler, die während des Versands auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.<br/> </td> 
 </tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
 </tr>
   <tr> 
    <td> Hardbounce<br/> </td> 
-   <td> Die Gesamtzahl der permanenten Fehler, z. B. eine falsche E-Mail-Adresse. Dies beinhaltet eine Fehlermeldung, die explizit angibt, dass die Adresse ungültig ist, z. B. "Unbekannter Benutzer".<br/> </td>
+   <td> Gesamtzahl der permanenten Fehler, wie beispielsweise eine falsche E-Mail-Adresse. Dazu gehören Fehlermeldungen, die explizit eine ungültige Adresse anzeigen, wie etwa „Benutzer unbekannt“.<br/> </td>
 </tr>
   <tr> 
    <td> Ignoriert<br/> </td> 
-   <td> Die Gesamtzahl der temporären Ereignisse, z. B. "Out of office", oder eines technischen Fehlers, z. B. wenn der Absendertyp Postmaster ist.<br/> </td> 
+   <td> Die Gesamtzahl der temporären Fehler, wie beispielsweise Abwesenheit oder technische Fehler, etwa wenn der Absendertyp Postmaster ist.<br/> </td> 
 </tr>
    <tr> 
    <td>Klickrate des Angebots<br/> </td> 
-   <td>Prozentsatz der Benutzer, die mit dem Angebot interagiert haben.<br/> </td> 
+   <td>Prozentsatz der Benutzenden, die mit dem Angebot interagiert haben.<br/> </td> 
 </tr>
    <tr> 
    <td>Impressionsrate des Angebots<br/> </td> 
-   <td>Prozentsatz der geöffneten Angebote in Bezug auf die Anzahl der gesendeten Angebote.<br/> </td> 
+   <td>Prozentsatz der geöffneten Angebote im Verhältnis zur Anzahl der gesendeten Angebote.<br/> </td> 
 </tr>
    <tr> 
-   <td>Angebotsname<br/> </td> 
-   <td> Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zur Platzierung finden Sie in diesem Abschnitt <a href="../offers/offer-library/creating-personalized-offers.md">page</a>.<br/> </td> 
+   <td>Name des Angebots<br/> </td> 
+   <td> Name des im Versand hinzugefügten Angebots. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-personalized-offers.md">Seite</a>.<br/> </td> 
 </tr>
    <tr> 
-   <td>gesendetes Angebot<br/> </td> 
-   <td>Gesamtzahl der gesendeten Nachrichten für das Angebot.<br/> </td> 
+   <td>Gesendetes Angebot<br/> </td> 
+   <td>Gesamtzahl der Sendevorgänge für das Angebot.<br/> </td> 
 </tr> 
   <tr>
    <td>Öffnungen<br/> </td> 
-   <td> Anzahl der Öffnungen der Nachricht.<br/> </td> 
+   <td> Die Anzahl, wie oft die Nachricht geöffnet wurde.<br/> </td> 
 </tr> 
   <tr> 
    <td> Öffnungsrate<br/> </td> 
-   <td> Gesamtzahl der geöffneten E-Mails in Bezug auf die Anzahl der zugestellten E-Mails.<br/> </td> 
+   <td> Gesamtzahl der geöffneten E-Mails im Vergleich zur Anzahl der zugestellten E-Mails.<br/> </td> 
 </tr>
   <tr> 
-   <td>Platzierungsname<br/> </td> 
-   <td> Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zur Platzierung finden Sie in diesem Abschnitt <a href="../offers/offer-library/creating-placements.md">page</a>. </td> 
+   <td>Name der Platzierung<br/> </td> 
+   <td> Name der Platzierung, die zur Anzeige Ihres Angebots verwendet wird. Weiterführende Informationen zu Platzierungen finden Sie auf dieser <a href="../offers/offer-library/creating-placements.md">Seite</a>. </td> 
 </tr> 
   <tr> 
    <td> Weitere Zustellversuche<br/> </td> 
@@ -192,31 +192,31 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
 </tr>
   <tr> 
    <td> Softbounce<br/> </td> 
-   <td> Gesamtzahl der temporären Fehler, z. B. einer vollen Inbox.<br/> </td> 
+   <td> Gesamtzahl der temporären Fehler, beispielsweise einer vollen Inbox<br/> </td> 
 </tr>
   <tr> 
-   <td> Beschwerden wegen Spam<br/> </td> 
-   <td> Gibt an, wie oft eine Nachricht als Spam oder Junk gekennzeichnet wurde.<br/> </td> 
+   <td> Spam-Beschwerden<br/> </td> 
+   <td> Anzahl der Fälle, in denen eine Nachricht als Spam oder Junk deklariert wurde.<br/> </td> 
 </tr>
   <tr> 
-   <td> Targeting<br/> </td> 
+   <td> Zielgruppe<br/> </td> 
    <td> Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Anzahl der Empfänger, die einen Inhalt in einer E-Mail angeklickt haben<br/> </td> 
+   <td> Die Anzahl der Empfänger, die auf einen Inhalt in einer E-Mail geklickt haben.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Eindeutige Klickrate<br/> </td> 
-   <td> Prozentsatz der Benutzer, die mit dem Versand interagiert haben<br/> </td> 
+   <td>Einzelklickrate<br/> </td> 
+   <td> Prozentualer Anteil der Benutzenden, die mit dem Versand interagiert haben.<br/> </td> 
 </tr>
   <tr> 
-   <td> Einzelöffnungen<br/> </td> 
+   <td> Einzelöffungen<br/> </td> 
    <td>Anzahl der Empfänger, die den Versand geöffnet haben<br/> </td> 
 </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 
-   <td> Anzahl der Klicks auf den Abmelde-Link.<br/> </td> 
+   <td> Gesamtanzahl der Klicks auf den Abmelde-Link.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -306,7 +306,7 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
 </table>
 -->
 
-### Metriken zu Push-Benachrichtigungen
+### Metriken zu Push-Benachrichtigungen            
 
 <table> 
  <thead> 
@@ -318,59 +318,59 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
  <tbody>
  <tr> 
    <td>Aktionen<br/> </td> 
-   <td> Gesamtzahl der Aktionen, die mit der gesendeten Push-Benachrichtigung durchgeführt wurden, z. B. Klick auf eine Schaltfläche oder Abweisung.<br/> </td> 
+   <td> Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, beispielsweise Klicken auf eine Schaltfläche oder Abbrechen.<br/> </td> 
 </tr>
   <tr> 
    <td>Bounces<br/> </td> 
-   <td> Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Absprungrate<br/> </td> 
-   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen<br/> </td>
+   <td> Bounce-Rate<br/> </td> 
+   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td>
 </tr>
   <tr> 
    <td> Zugestellt<br/> </td> 
-   <td> Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten<br/> </td> 
+   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Zustellrate<br/> </td> 
-   <td> Prozentsatz der erfolgreich gesendeten Push-Benachrichtigungen<br/> </td> 
+   <td> Zustellungsrate<br/> </td> 
+   <td> Anzahl der erfolgreich gesendeten Push-Benachrichtigungen.<br/> </td> 
 </tr>
   <tr> 
    <td>Interaktionen<br/> </td> 
-   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet oder auf eine Schaltfläche geklickt hat.<br/> </td> 
+   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Benachrichtigung geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
 </tr> 
   <tr> 
    <td> Interaktionsrate<br/> </td> 
-   <td> Prozentsatz der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet oder auf eine Schaltfläche geklickt hat<br/> </td> 
+   <td> Prozentualer Anteil der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Nachricht geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
 </tr>
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während eines Versands aufgetreten sind, der den Versand verhinderte, in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td> 
+   <td> Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.<br/> </td> 
 </tr> 
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
 </tr>
   <tr> 
    <td> Öffnungen<br/> </td> 
-   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und von Benutzern angeklickt wurden, sodass die App geöffnet wurde. Dies ähnelt dem Push-Klick , bis auf die Tatsache, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
+   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
 </tr> 
   <tr> 
    <td> Öffnungsrate<br/> </td> 
-   <td> Prozentsatz der geöffneten Push-Benachrichtigungen<br/> </td> 
+   <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
 </tr> 
   <tr> 
    <td> Gesendet<br/> </td> 
    <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
 </tr> 
   <tr> 
-   <td> Targeting<br/> </td> 
-   <td> Gesamtzahl der während der Versandanalyse verarbeiteten Push-Nachrichten.<br/> </td> 
+   <td> Zielgruppe<br/> </td> 
+   <td> Gesamtzahl der Push-Nachrichten, die während der Versandanalyse verarbeitet wurden.<br/> </td> 
 </tr>  
  </tbody> 
 </table>
@@ -390,50 +390,50 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
    <td>Anzahl der Personen, die nicht mit der Landingpage interagiert und die Aktion zum Abonnieren nicht abgeschlossen haben.<br/> </td> 
 </tr>
  <tr> 
-   <td>Absprungrate<br/> </td> 
-   <td>Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Anmelden nicht abgeschlossen haben, in Bezug auf die Gesamtzahl der Besuche.<br/> </td> 
+   <td>Bounce-Rate<br/> </td> 
+   <td>Anzahl der Personen, die nicht mit der Landingpage interagiert haben und die Aktion zum Abonnieren nicht abgeschlossen haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
 </tr>
  <tr>
   <tr> 
    <td>Klicks<br/> </td> 
-   <td>Anzahl der Klicks auf einen Inhalt auf der Landingpage.<br/> </td> 
+   <td>Anzahl der Klicks auf einen Inhalt der Landingpage.<br/> </td> 
 </tr>
  <tr> 
    <td>Klickrate<br/> </td> 
-   <td>Prozentsatz der Klicks auf die Landingpage<br/> </td>
+   <td>Prozentsatz der Klicks auf der Landingpage.<br/> </td>
 </tr>
 <tr>
 <td>Konversion<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Abonnenten eines Formulars.<br/> </td> 
+   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular ausgefüllt haben.<br/> </td> 
 </tr>
 <tr>
    <td>Konversionsrate<br/> </td> 
-   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, z. B. Benutzer, die sich für ein Formular angemeldet haben, in Bezug auf die Gesamtzahl der Besuche.<br/> </td> 
+   <td>Anzahl der Personen, die mit der Landingpage interagiert haben, beispielsweise ein Formular abonniert haben, im Verhältnis zur Gesamtzahl der Besuche.<br/> </td> 
 </tr>
  <tr> 
    <td>Journey(s)<br/> </td> 
-   <td>Anzahl der Besuche Ihrer Landingpage von einer Journey.<br/> </td> 
+   <td>Anzahl der Besuche auf einer Landingpage von einer Journey.<br/> </td> 
 </tr>
  <tr> 
    <td>Andere Quellen<br/> </td> 
-   <td>Anzahl der Besuche auf Ihrer Landingpage, die von einer externen Quelle statt von einer Journey stammen.<br/> </td> 
+   <td>Anzahl der Besuche auf Ihrer Landingpage, die von einer externen Quelle anstelle einer Journey stammen.<br/> </td> 
 </tr>
  <tr> 
    <td>Besuche insgesamt<br/> </td> 
-   <td> Gesamtzahl der Besuche Ihrer Landingpage durch Journeys und externe Quellen, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
+   <td> Gesamtzahl der Besuche auf Ihrer Landingpage, die von Journeys und externen Quellen stammen, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
 </tr>
  <tr> 
    <td>Unique Visitors<br/> </td> 
-   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, mehrere Besuche eines Empfängers werden nicht berücksichtigt.<br/> </td> 
+   <td>Anzahl der Personen, die Ihre Landingpage besucht haben, wobei mehrfache Besuche eines Empfängers nicht berücksichtigt werden.<br/> </td> 
 </tr>
  <tr> 
    <td>Besuche<br/> </td> 
-   <td>Anzahl der Besuche auf Ihrer Landingpage, einschließlich mehrerer Besuche eines Empfängers.<br/> </td> 
+   <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrfacher Besuche eines Empfängers.<br/> </td> 
 </tr>
  </tbody> 
 </table>
 
-### Metriken zu Push-Benachrichtigungen
+### Metriken zu Push-Benachrichtigungen            
 
 <table> 
  <thead> 
@@ -445,59 +445,59 @@ In den Tabellen unten finden Sie die Liste der Metriken, die in Berichten verwen
  <tbody>
  <tr> 
    <td>Aktionen<br/> </td> 
-   <td> Gesamtzahl der Aktionen, die mit der gesendeten Push-Benachrichtigung durchgeführt wurden, z. B. Klick auf eine Schaltfläche oder Abweisung.<br/> </td> 
+   <td> Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, beispielsweise Klicken auf eine Schaltfläche oder Abbrechen.<br/> </td> 
 </tr>
   <tr> 
    <td>Bounces<br/> </td> 
-   <td> Gesamtzahl der über alle Sendungen hinweg kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
+   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Absprungrate<br/> </td> 
-   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen<br/> </td>
+   <td> Bounce-Rate<br/> </td> 
+   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td>
 </tr>
   <tr> 
    <td> Zugestellt<br/> </td> 
-   <td> Anzahl der erfolgreich gesendeten Nachrichten in Bezug auf die Gesamtzahl der gesendeten Nachrichten<br/> </td> 
+   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Zustellrate<br/> </td> 
-   <td> Prozentsatz der erfolgreich gesendeten Push-Benachrichtigungen<br/> </td> 
+   <td> Zustellungsrate<br/> </td> 
+   <td> Anzahl der erfolgreich gesendeten Push-Benachrichtigungen.<br/> </td> 
 </tr>
   <tr> 
    <td>Interaktionen<br/> </td> 
-   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet oder auf eine Schaltfläche geklickt hat.<br/> </td> 
+   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Benachrichtigung geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
 </tr> 
   <tr> 
    <td> Interaktionsrate<br/> </td> 
-   <td> Prozentsatz der Öffnungen und Aktionen für diese Push-Benachrichtigung, d. h. wenn das Profil die Push-Benachrichtigung geöffnet oder auf eine Schaltfläche geklickt hat<br/> </td> 
+   <td> Prozentualer Anteil der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Nachricht geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
 </tr>
   <tr> 
    <td> Fehler<br/> </td> 
-   <td> Gesamtzahl der bei einem Versand aufgetretenen Fehler, die den Versand an Profile verhinderten.<br/> </td> 
+   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
 </tr>
   <tr> 
    <td> Fehlerrate<br/> </td> 
-   <td> Prozentsatz der Fehler, die während eines Versands aufgetreten sind, der den Versand verhinderte, in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td> 
+   <td> Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.<br/> </td> 
 </tr> 
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die von Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
+   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
 </tr>
   <tr> 
    <td> Öffnungen<br/> </td> 
-   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und von Benutzern angeklickt wurden, sodass die App geöffnet wurde. Dies ähnelt dem Push-Klick , bis auf die Tatsache, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
+   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
 </tr> 
   <tr> 
    <td> Öffnungsrate<br/> </td> 
-   <td> Prozentsatz der geöffneten Push-Benachrichtigungen<br/> </td> 
+   <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
 </tr> 
   <tr> 
    <td> Gesendet<br/> </td> 
    <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
 </tr> 
   <tr> 
-   <td> Targeting<br/> </td> 
-   <td> Gesamtzahl der während der Versandanalyse verarbeiteten Push-Nachrichten.<br/> </td> 
+   <td> Zielgruppe<br/> </td> 
+   <td> Gesamtzahl der Push-Nachrichten, die während der Versandanalyse verarbeitet wurden.<br/> </td> 
 </tr>  
  </tbody> 
 </table>

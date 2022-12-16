@@ -10,17 +10,17 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Funktionen {#functions}
 
-Eine Funktion kann unterschiedliche Signaturen aufweisen (einen anderen Satz geordneter Parameter). Eine Funktionssignatur kann 0-N Ausdrücke als geordnete Parameter aufweisen.
+Eine Funktion kann verschiedene Signaturen haben (einen jeweils anderen Satz geordneter Parameter). Eine Funktionssignatur kann 0-N Ausdrücke als geordnete Parameter haben.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Jede Funktion weist einen bestimmten zurückgegebenen Typ auf.
+Jede Funktion weist einen bestimmten Rückgabetyp auf.
 
 Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 
@@ -65,13 +65,13 @@ Im Folgenden finden Sie eine Liste der unterstützten Funktionen.
 | Liste | [filter](../functions/functionfilter.md) |
 | Liste | [getListItem](../functions/functiongetlistitem.md) |
 | Liste | [in](../functions/functionin.md) |
-| Liste | [Schnittmenge](../functions/functionintersect.md) |
+| Liste | [intersect](../functions/functionintersect.md) |
 | Liste | [listSize](../functions/functionlimit.md) |
 | Liste | [listSize](../functions/functionlistsize.md) |
 | Liste | [serializeList](../functions/functionserializelist.md) |
 | Liste | [sort](../functions/functionsort.md) |
-| Mathematisch | [random](../functions/functionrandom.md) |
-| Mathematisch | [round](../functions/functionround.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Math | [round](../functions/functionround.md) |
 | Zeichenfolge | [concat](../functions/functionconcat.md) |
 | Zeichenfolge | [contain](../functions/functioncontain.md) |
 | Zeichenfolge | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

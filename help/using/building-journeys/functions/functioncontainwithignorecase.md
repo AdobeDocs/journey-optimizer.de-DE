@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: containIgnoreCase
-description: Erfahren Sie mehr über die Funktion containIgnoreCase
+description: Erfahren Sie mehr über die Funktion „containIgnoreCase“.
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,7 +9,7 @@ exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Zeichenfolge
 
 | Parameter | Typ |
 |-----------|------------------|
-| Zeichenfolge | Zeichenfolge |
-| Zeichenfolge durchsucht | Zeichenfolge |
+| string | string |
+| string searched | string |
 
 ## Signatur und zurückgegebener Typ
 
@@ -42,4 +42,4 @@ Gibt einen booleschen Wert zurück.
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
-Gibt &quot;true&quot;zurück.
+Gibt „true“ zurück.

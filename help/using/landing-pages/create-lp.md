@@ -163,7 +163,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren.
 >id="ajo_lp_subpage"
 >title="Definieren der Unterseiteneinstellungen"
 >abstract="Sie können bis zu 2 Unterseiten hinzufügen. Sie können beispielsweise eine „Danke“-Seite erstellen, die angezeigt wird, sobald Benutzer das Formular übermitteln, und Sie können eine Fehlerseite definieren, die erscheint, wenn ein Problem mit der Landingpage auftritt."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Erstellen der Landingpage-Inhalte"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=de" text="Erstellen der Landingpage-Inhalte"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"

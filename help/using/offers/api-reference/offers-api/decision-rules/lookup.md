@@ -1,6 +1,6 @@
 ---
 title: Entscheidungsregel nachschlagen
-description: Entscheidungsregeln sind Einschränkungen, die einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um die Eignung zu bestimmen.
+description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Entscheidungsregel nachschlagen {#lookup-decision-rule}
+# Nach einer Entscheidungsregel suchen {#lookup-decision-rule}
 
-Sie können eine bestimmte Entscheidungsregel nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder die Entscheidungsregel enthält `@id` oder den Namen der Entscheidungsregel im Anfragepfad.
+Sie können nach einer einzelnen Entscheidungsregel suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` der Entscheidungsregel oder den Namen der Entscheidungsregel im Anfragepfad enthält.
 
 **API-Format**
 
@@ -27,9 +27,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungsregeln befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | Definiert das Schema, das mit Entscheidungsregeln verknüpft ist. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Eine Zeichenfolge, die verwendet wird, um die `@id` -Eigenschaft der Entitäten. Die Zeichenfolge wird exakt abgeglichen. Der Parameter `id` und `name` kann nicht zusammen verwendet werden. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt mit Groß-/Kleinschreibung abgeglichen, es können jedoch Platzhalterzeichen verwendet werden. Die Parameter `id` und `name` kann nicht zusammen verwendet werden | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | Definiert das Schema, das mit Entscheidungsregeln verbunden ist. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Sales rule` |
 
 **Anfrage**
 
@@ -43,9 +43,9 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-**Reaktion**
+**Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der jeweiligen Entscheidungsregel zurück, die Sie nachgeschlagen haben, einschließlich Informationen zur Container-ID, Instanz-ID und der eindeutigen Entscheidungsregel `@id`.
+Bei einer erfolgreichen Antwort werden die Details der jeweiligen Entscheidungsregel zurückgegeben, die Sie nachgeschlagen haben, einschließlich Informationen zur Container-ID, Instanz-ID und eindeutigen `@id` der Entscheidungsregel.
 
 ```json
 {

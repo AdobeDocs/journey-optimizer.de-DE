@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Datensatz zum Erfassen von Ereignissen erstellen
+title: Erstellen eines Datensatzes zum Erfassen von Ereignissen
 description: Erfahren Sie, wie Sie einen Datensatz erstellen, um Ereignisse zu erfassen.
 feature: Ranking Formulas
 role: User
@@ -9,59 +9,59 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
-# Datensatz zum Erfassen von Ereignissen erstellen {#create-dataset}
+# Erstellen eines Datensatzes zum Erfassen von Ereignissen {#create-dataset}
 
 Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem Konversionsereignisse erfasst werden. Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 
-1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Schema]**, navigieren Sie zu **[!UICONTROL Browse]** Registerkarte und klicken Sie auf **[!UICONTROL Create schema]**.
+1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
    ![](../assets/ai-ranking-create-schema.png)
 
-1. Auswählen **[!UICONTROL XDM ExperienceEvent]**.
+1. Wählen Sie **[!UICONTROL XDM ExperienceEvent]** aus.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie im Abschnitt [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
+   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentationsübersicht zum XDM-System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Aus dem **[!UICONTROL Field groups]** auf der linken Seite, wählen Sie **[!UICONTROL Add]**.
+1. Wählen Sie im Abschnitt **[!UICONTROL Feldergruppen]** auf der linken Seite **[!UICONTROL Hinzufügen]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. Im **[!UICONTROL Search]** Geben Sie &quot;Interaktion mit Vorschlägen&quot;ein und wählen Sie die **[!UICONTROL Experience Event - Proposition Interactions]** Feldergruppe.
+1. Geben Sie im Feld **[!UICONTROL Suche]** „Interaktion mit Vorschlägen“ ein und wählen Sie die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aus.
 
    ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >Das Schema, das in Ihrem Datensatz verwendet wird, muss die Variable **[!UICONTROL Experience Event - Proposition Interactions]** mit ihr verknüpfte Feldergruppe. Andernfalls können Sie sie nicht in Ihrer Rangliste verwenden.
+   >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrer Rangfolgestrategie verwenden.
 
-1. Klicken **[!UICONTROL Add field groups]**.
+1. Klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
-   >Feldergruppe wurde früher als Mixin bezeichnet.
+   >Die Feldergruppen wurden früher als Mixins bezeichnet.
 
 1. Geben Sie einen Namen ein und speichern Sie das Schema.
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
+>Erfahren Sie mehr über das Erstellen von Schemata in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target=&quot;_blank&quot;}.
 
-Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wie folgt vor:
+Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 
-1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Datasets]**, navigieren Sie zu **[!UICONTROL Browse]** Registerkarte und klicken Sie auf **[!UICONTROL Create dataset]**.
+1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Datensatz erstellen]**.
 
    ![](../assets/ai-ranking-create-dataset.png)
 
-1. Auswählen **[!UICONTROL Create dataset from schema]**.
+1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
@@ -69,10 +69,10 @@ Sie können jetzt einen Datensatz mit diesem Schema erstellen. Gehen Sie dazu wi
 
    ![](../assets/ai-ranking-dataset-select-schema.png)
 
-1. Klicken **[!UICONTROL Next]**.
+1. Klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. Geben Sie einen eindeutigen Namen für den Datensatz im **[!UICONTROL Name]** Feld und klicken Sie auf **[!UICONTROL Finish]**.
+1. Geben Sie im Feld **[!UICONTROL Name]** einen eindeutigen Namen für den Datensatz ein und klicken Sie auf **[!UICONTROL Beenden]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 
-Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [Erstellen einer Rangstrategie](#create-ranking-strategy).
+Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [eine Rangfolgestrategie erstellt wird](#create-ranking-strategy).

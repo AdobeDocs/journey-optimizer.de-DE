@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Zusätzliche Schritte zum Senden von Ereignissen an eine Journey
-description: Zusätzliche Schritte zum Senden von Ereignissen an eine Journey
+description: Erfahren Sie mehr über die zusätzlichen Schritte zum Senden von Ereignissen an eine Journey
 feature: Events
 topic: Administration
 role: Admin
@@ -10,27 +10,27 @@ level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 100%
 
 ---
 
 # Zusätzliche Schritte zum Senden von Ereignissen {#additional-steps-to-send-events}
 
-So konfigurieren Sie Ereignisse, die an gesendet werden **[!UICONTROL Streaming Ingestion APIs]** und in [!DNL Journey Optimizer]müssen Sie die folgenden Schritte ausführen:
+Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
-1. Rufen Sie die Inlet-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
-1. Kopieren Sie die Payload aus der Payload-Vorschau in der **[!UICONTROL Event]** Menü. Weitere Informationen finden Sie unter [diese Seite](../event/about-creating.md#define-the-payload-fields).
+1. Rufen Sie die Inlet-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}.
+1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weiterführende Informationen finden Sie auf [dieser Seite](../event/about-creating.md#define-the-payload-fields).
 
-Anschließend müssen Sie das Datensystem konfigurieren, das Ereignisse mithilfe der kopierten Payload an Streaming-Aufnahme-APIs sendet:
+Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
 
-1. Richten Sie einen POST-API-Aufruf an die URL der Streaming-Aufnahme-APIs ein (als Inlet bezeichnet).
-1. Verwenden Sie die Payload, aus der Sie kopiert haben [!DNL Journey Optimizer] im Hauptteil (&quot;Datenabschnitt&quot;) des API-Aufrufs zu Streaming-Aufnahme-APIs. Nachfolgend finden Sie ein Beispiel
-1. Legen Sie fest, wo alle in der Payload vorhandenen Variablen abgerufen werden sollen. Beispiel: Wenn das Ereignis die Adresse vermitteln soll, zeigt die eingefügte Payload &quot;address&quot;: &quot;string&quot;. &quot;string&quot; sollte durch die Variable ersetzt werden, die automatisch den richtigen Wert enthält, die E-Mail der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau in der **[!UICONTROL Header]** -Abschnitt, werden viele Werte automatisch ausgefüllt, die Ihre Arbeit erleichtern sollen.
-1. Wählen Sie &quot;application/json&quot;als Texttyp aus.
-1. Übergeben Sie Ihre Organisations-ID in die Kopfzeile mit dem Schlüssel &quot;x-gw-ims-org-id&quot;. Verwenden Sie für den Wert Ihre Organisations-ID (&quot;XXX@AdobeOrg&quot;).
+1. Richten Sie einen POST-API-Aufruf zur URL der Streaming-Aufnahme-APIs ein (als Inlet bezeichnet).
+1. Verwenden Sie die Payload, die Sie im Hauptteil („Datenabschnitt“) des API-Aufrufs aus [!DNL Journey Optimizer] zu den Streaming-Aufnahme-APIs kopiert haben. Unten finden Sie ein Beispiel
+1. Legen Sie fest, von wo alle Variablen in der Payload abgerufen werden sollen. Beispiel: Wenn das Ereignis die Adresse vermitteln soll, wird in der eingefügten Payload &quot;address&quot;: &quot;string&quot; angezeigt. „string“ sollte durch die Variable ersetzt werden, die automatisch mit dem richtigen Wert ausgefüllt wird, nämlich mit der E-Mail-Adresse der Person, an die eine Nachricht gesendet werden soll. Beachten Sie, dass in der Payload-Vorschau im Abschnitt **[!UICONTROL Kopfzeile]** viele Werte automatisch ausgefüllt werden, was Ihre Arbeit erleichtern sollte.
+1. Wählen Sie „application/json“ als Typ für den Hauptteil aus.
+1. Übergeben Sie Ihre Organisations-ID in der Kopfzeile mit dem Schlüssel „x-gw-ims-org-id“. Verwenden Sie für den Wert Ihre Organisations-ID („XXX@AdobeOrg“).
 
-Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-APIs -Ereignis:
+Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 
 ```
 {
@@ -87,6 +87,6 @@ Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-APIs -Ereignis:
 }
 ```
 
-Um die Identifizierung der Stelle zu erleichtern, an der der Teil &quot;Daten&quot;eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [JSON-Formatierung](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Um das Auffinden der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [JSON Formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie unter [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target=&quot;_blank&quot;}.

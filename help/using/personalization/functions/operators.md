@@ -1,6 +1,6 @@
 ---
-title: Funktionsbibliothek "Operatoren"
-description: Funktionsbibliothek "Operatoren"
+title: Bibliothek mit Operatorfunktionen
+description: Bibliothek mit Operatorfunktionen
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,20 +8,20 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 0%
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
 
-# Benutzer {#operators}
+# Operatoren {#operators}
 
 ## Boolesche Funktionen {#boolean-functions}
 
-Boolesche Funktionen werden verwendet, um eine boolesche Logik für verschiedene Elemente durchzuführen.
+Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene Elemente anzuwenden.
 
-### und{#and}
+### Und{#and}
 
-Die `and` -Funktion verwendet wird, um ein logisches Bindewort zu erstellen.
+Die Funktion `and` wird zur Erstellung einer logischen Verknüpfung verwendet.
 
 **Format**
 
@@ -31,7 +31,7 @@ Die `and` -Funktion verwendet wird, um ein logisches Bindewort zu erstellen.
 
 **Beispiel**
 
-Mit der folgenden Operation werden alle Personen zurückgeführt, deren Heimatland Frankreich und Geburtsjahr 1985 sind.
+Durch den folgenden Vorgang werden alle Personen mit Wohnsitz in Frankreich und dem Geburtsjahr 1985 zurückgegeben.
 
 ```sql
 {%= profile.homeAddress.country = "France" and profile.person.birthYear = 1985 %}
@@ -39,7 +39,7 @@ Mit der folgenden Operation werden alle Personen zurückgeführt, deren Heimatla
 
 ### Oder{#or}
 
-Die `or` -Funktion verwendet wird, um eine logische Trennung zu erstellen.
+Die Funktion `or` wird verwendet, um eine logische Trennung zu erstellen.
 
 **Format**
 
@@ -49,7 +49,7 @@ Die `or` -Funktion verwendet wird, um eine logische Trennung zu erstellen.
 
 **Beispiel**
 
-Mit der folgenden Operation werden alle Personen zurückgeführt, deren Heimatland Frankreich oder Geburtsjahr 1985 ist.
+Durch den folgenden Vorgang werden alle Personen mit Wohnsitz in Frankreich oder dem Geburtsjahr 1985 zurückgegeben.
 
 ```sql
 {%= profile.homeAddress.country = "France" or profile.person.birthYear = 1985 %}
@@ -78,11 +78,11 @@ not (homeAddress.countryISO = "CA")
 
 ## Vergleichsfunktionen {#comparison-functions}
 
-Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und Werten zu vergleichen und &quot;true&quot;oder &quot;false&quot;entsprechend zurückzugeben.
+Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und Werten zu vergleichen und entsprechend „true“ oder „false“ zurückzugeben.
 
 ### Gleich{#equals}
 
-Die `=` (gleich) überprüft, ob ein Wert oder Ausdruck mit einem anderen Wert oder Ausdruck übereinstimmt.
+Die Funktion `=` (gleich) prüft, ob ein Wert oder Ausdruck gleich einem anderen Wert oder Ausdruck ist.
 
 **Format**
 
@@ -100,7 +100,7 @@ Mit dem folgenden Vorgang wird geprüft, ob das Land der Wohnadresse Frankreich 
 
 ### Ungleich{#notequal}
 
-Die `!=` Funktion (nicht gleich) überprüft, ob ein Wert oder Ausdruck **not** entspricht einem anderen Wert oder Ausdruck.
+Die Funktion `!=` (ungleich) prüft, ob ein Wert oder Ausdruck **ungleich** einem anderen Wert oder Ausdruck ist.
 
 **Format**
 
@@ -110,7 +110,7 @@ Die `!=` Funktion (nicht gleich) überprüft, ob ein Wert oder Ausdruck **not** 
 
 **Beispiel**
 
-Der folgende Vorgang prüft, ob das Land der Wohnadresse nicht Frankreich ist.
+Mit dem folgenden Vorgang wird geprüft, ob das Land der Wohnadresse nicht Frankreich ist.
 
 ```sql
 {%= profile.homeAddress.country != "France" %}
@@ -118,7 +118,7 @@ Der folgende Vorgang prüft, ob das Land der Wohnadresse nicht Frankreich ist.
 
 ### Größer als{#greaterthan}
 
-Die `>` (greater than) dient zur Überprüfung, ob der erste Wert größer als der zweite Wert ist.
+Mit der Funktion `>` (größer als) wird überprüft, ob der erste Wert größer als der zweite ist.
 
 **Format**
 
@@ -128,7 +128,7 @@ Die `>` (greater than) dient zur Überprüfung, ob der erste Wert größer als d
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, die nach 1970 geboren wurden.
+Mit dem folgenden Vorgang werden Personen definiert, die nach 1970 geboren wurden.
 
 ```sql
 {%= profile.person.birthYear > 1970 %}
@@ -136,7 +136,7 @@ Die folgende Operation definiert Personen, die nach 1970 geboren wurden.
 
 ### Größer oder gleich{#greaterthanorequal}
 
-Die `>=` -Funktion (größer oder gleich) wird verwendet, um zu überprüfen, ob der erste Wert größer oder gleich dem zweiten Wert ist.
+Mit der Funktion `>=` (größer oder gleich) wird überprüft, ob der erste Wert größer oder gleich dem zweiten Wert ist.
 
 **Format**
 
@@ -146,7 +146,7 @@ Die `>=` -Funktion (größer oder gleich) wird verwendet, um zu überprüfen, ob
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, die in oder nach 1970 geboren sind.
+Mit dem folgenden Vorgang werden Personen definiert, die im Jahr 1970 oder danach geboren wurden.
 
 ```sql
 {%= profile.person.birthYear >= 1970 %}
@@ -154,7 +154,7 @@ Die folgende Operation definiert Personen, die in oder nach 1970 geboren sind.
 
 ### Kleiner als{#lessthan}
 
-Die `<` (less than) Mithilfe der Vergleichsfunktion wird geprüft, ob der erste Wert kleiner als der zweite Wert ist.
+Mit der Vergleichsfunktion `<` (kleiner als) wird geprüft, ob der erste Wert kleiner als der zweite ist.
 
 **Format**
 
@@ -164,7 +164,7 @@ Die `<` (less than) Mithilfe der Vergleichsfunktion wird geprüft, ob der erste 
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, die vor 2000 geboren wurden.
+Mit dem folgenden Vorgang werden Personen definiert, die vor 2000 geboren wurden.
 
 ```sql
 {%= profile.person.birthYear < 2000 %}
@@ -172,7 +172,7 @@ Die folgende Operation definiert Personen, die vor 2000 geboren wurden.
 
 ### Kleiner oder gleich{#lessthanorequal}
 
-Die `<=` (kleiner oder gleich) Mithilfe der Vergleichsfunktion wird geprüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist.
+Mit der Vergleichsfunktion `<=` (kleiner oder gleich) wird geprüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist.
 
 **Format**
 
@@ -182,7 +182,7 @@ Die `<=` (kleiner oder gleich) Mithilfe der Vergleichsfunktion wird geprüft, ob
 
 **Beispiel**
 
-Die folgende Operation definiert Personen, die im Jahr 2000 oder früher geboren wurden.
+Mit dem folgenden Vorgang werden Personen definiert, die im Jahr 2000 oder früher geboren wurden.
 
 ```sql
 {%= profile.person.birthYear <= 2000 %}

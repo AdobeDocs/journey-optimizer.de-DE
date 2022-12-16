@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey-Ende
-description: Erfahren Sie, wie eine Journey mit Journey Optimizer endet.
+title: Ende einer Journey
+description: So endet eine Journey in Journey Optimizer
 feature: Journeys
 role: User
 level: Beginner
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 0%
+source-wordcount: '613'
+ht-degree: 100%
 
 ---
 
 # Beenden einer Journey{#journey-ending}
 
-Eine Journey kann für eine Person in zwei bestimmten Kontexten enden:
+Eine Journey kann für eine Person auf zwei Weisen enden:
 
-* Die Person kommt bei der letzten Aktivität eines Pfads an.
-* Die Person kommt bei einem **Bedingung** -Aktivität (oder **Warten** -Aktivität mit einer Bedingung) und entspricht keiner der Bedingungen.
+* Die Person kommt bei der letzten Aktivität eines Pfades an.
+* Die Person kommt bei einer **Bedingungs**-Aktivität (oder einer **Warte**-Aktivität mit einer Bedingung) an und erfüllt keine der Bedingungen.
 
-Die Person kann dann erneut in die Journey eintreten, wenn der erneute Eintritt erlaubt ist. Siehe [diese Seite](../building-journeys/journey-gs.md#change-properties)
+Die Person kann dann wieder in die Journey eintreten, wenn der erneute Zutritt erlaubt ist. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#change-properties)
 
-Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden in die Journey wird dann blockiert. Kunden, die bereits an der Journey teilgenommen haben, können diese bis zum Ende erleben. Siehe [diesem Abschnitt](../building-journeys/journey.md#close-journey)
+Um eine Live-Journey zu beenden, empfehlen wir, sie zu schließen. Der Eintritt neuer Kunden und Kundinnen in die Journey wird dann blockiert. Kunden und Kundinnen, die bereits in die Journey eingetreten sind, bleiben bis zu deren Ende darin. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md#close-journey)
 
-Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die gesamte Verarbeitung sofort auf einer Journey beendet werden muss. Personen, die bereits in eine Journey eingestiegen sind, werden in ihrem Fortschritt gestoppt. Siehe [diesem Abschnitt](../building-journeys/journey.md#stop-journey)
+Sie können eine Journey nur stoppen, wenn ein unerwartetes Ereignis eintritt und die gesamte Verarbeitung der Journey unverzüglich abgebrochen werden muss. Personen, die bereits in eine Journey eingetreten sind, sind alle in ihrem Fortschritt angehalten. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey.md#stop-journey).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Sie können eine Journey nur stoppen, wenn ein Notfall aufgetreten ist und die g
 
 ## Journey-End-Tag{#end-tag}
 
-Beim Erstellen einer Journey wird am Ende jedes Pfads ein &quot;end-Tag&quot;angezeigt. Dieser Knoten kann nicht von einem Benutzer hinzugefügt werden, kann nicht entfernt werden und nur die Bezeichnung kann geändert werden. Er markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade aufweist, empfehlen wir, jedem Ende eine Bezeichnung hinzuzufügen, damit Berichte leichter lesbar sind. Siehe [diese Seite](../reports/live-report.md).
+Beim Erstellen einer Journey wird am Ende jedes Pfads ein „End-Tag“ angezeigt. Dieser Knoten kann nicht manuell hinzugefügt oder entfernt werden, und lediglich bei seiner Kennzeichnung sind Änderungen möglich. Er markiert das Ende jedes Pfads der Journey. Wenn die Journey mehrere Pfade hat, empfehlen wir, für jedes Ende eine Kennzeichnung hinzuzufügen, damit Berichte leichter verständlich sind. Weitere Informationen finden Sie auf [dieser Seite](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
@@ -49,44 +49,44 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 ## Schließen einer Journey{#close-journey}
 
-Eine Journey kann aus folgenden Gründen geschlossen werden:
+Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
-* Die Journey wird manuell über die **[!UICONTROL Close to new entrances]** Schaltfläche.
-* Eine auf einem Segment basierende Journey, die die Ausführung abgeschlossen hat.
-* Nach dem letzten Vorkommen einer auf wiederkehrenden Segmenten basierenden Journey.
+* Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
+* Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
+* Nach dem letzten Vorkommen einer wiederkehrenden segmentbasierten Journey.
 
-Durch das manuelle Schließen einer Journey stellen Sie sicher, dass Kunden, die bereits in die Journey eingestiegen sind, ihren Pfad beenden können, neue Benutzer jedoch nicht in die Journey eintreten können. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), erhält sie den Status **[!UICONTROL Closed]**. Die Journey ermöglicht es neuen Personen nicht mehr, in die Journey einzutreten. Personen, die sich bereits in der Journey befinden, können die Journey normal beenden. Nach der standardmäßigen globalen Zeitüberschreitung von 30 Tagen wechselt die Journey zur **Abgeschlossen** Status. Siehe dies [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
+Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
-Eine geschlossene Journey-Version kann nicht neu gestartet oder gelöscht werden. Sie können eine neue Version davon erstellen oder sie duplizieren. Nur beendete Journeys können gelöscht werden.
+Eine geschlossene Journey-Version kann weder neu gestartet noch gelöscht werden. Stattdessen können Sie eine neue Version davon erstellen oder sie duplizieren. Nur abgeschlossene Journeys können gelöscht werden.
 
-Um eine Journey aus der Liste der Journeys zu schließen, klicken Sie auf die **[!UICONTROL Ellipsis]** Schaltfläche rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Close to new entrances]**.
+Um eine Journey in der Liste der Journeys zu schließen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
 
 ![](assets/journey-finish-quick-action.png)
 
-Sie können auch:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Im **[!UICONTROL Journeys]** auflisten, klicken Sie auf die Journey, die Sie schließen möchten.
+1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie schließen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
 
    ![](assets/finish_drop_down_list.png)
 
-1. Klicken **[!UICONTROL Close to new entrances]** und bestätigen Sie im Dialogfeld.
+1. Klicken Sie auf **[!UICONTROL Für neue Eintritte schließen]** und bestätigen Sie diese Auswahl im Dialogfeld.
 
-## Eine Journey stoppen{#stop-journey}
+## Stoppen einer Journey{#stop-journey}
 
-Wenn Sie den Fortschritt aller Kontakte in der Journey stoppen müssen, können Sie sie stoppen. Beim Anhalten der Journey werden alle Kontakte in der Journey mit einer Zeitüberschreitung beendet. Das Anhalten einer Journey bedeutet jedoch, dass alle Personen, die bereits in eine Journey eingestiegen sind, in ihrem Fortschritt angehalten werden. Die Journey ist im Grunde ausgeschaltet. Wenn Sie eine Journey beenden möchten, empfehlen wir Ihnen, sie zu schließen.
+Sie können nötigenfalls den Fortschritt aller Personen in einer Journey stoppen. In diesem Fall entsteht für alle Personen in der Journey eine Zeitüberschreitung. Wenn Sie eine Journey stoppen, wird der Fortschritt der bereits in der Journey befindlichen Personen angehalten. Die Journey wird praktisch deaktiviert. Wenn Sie ein Journey beenden möchten, empfehlen wir Ihnen, sie zu schließen.
 
-Eine gestoppte Journey-Version kann nicht neu gestartet werden.
+Eine gestoppte Journey-Version kann nicht nochmals gestartet werden.
 
-Bei Anhalten wird der Journey-Status auf **[!UICONTROL Stopped]**.
+Beim Stoppen wird der Journey-Status auf **[!UICONTROL Gestoppt]** gesetzt.
 
-Sie können eine Journey stoppen, wenn beispielsweise ein Marketing-Experte erkennt, dass die Journey auf die falsche Audience ausgerichtet ist, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu stoppen, klicken Sie auf die **[!UICONTROL Ellipsis]** Schaltfläche rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stop]**.
+Sie können beispielsweise eine Journey stoppen, wenn ein Marketer erkennt, dass die Journey die falsche Zielgruppe anspricht, oder wenn eine benutzerdefinierte Aktion, mit der Nachrichten gesendet werden sollen, nicht ordnungsgemäß funktioniert. Um eine Journey aus der Liste der Journeys zu entfernen, klicken Sie auf den Button mit den **[!UICONTROL Auslassungszeichen]** rechts neben dem Journey-Namen und wählen Sie **[!UICONTROL Stoppen]** aus.
 
 ![](assets/journey-finish-quick-action.png)
 
-Sie können auch:
+Alternativ können Sie auch folgendermaßen vorgehen:
 
-1. Im **[!UICONTROL Journeys]** auflisten, klicken Sie auf die Journey, die Sie stoppen möchten.
+1. Wählen Sie in der Liste **[!UICONTROL Journeys]** die Journey aus, die Sie stoppen möchten.
 1. Klicken Sie oben rechts auf den Abwärtspfeil.
    ![](assets/finish_drop_down_list.png)
-1. Klicken **[!UICONTROL Stop]** und bestätigen Sie im Dialogfeld.
+1. Klicken Sie auf **[!UICONTROL Stoppen]** und bestätigen Sie diese Auswahl im Dialogfeld.

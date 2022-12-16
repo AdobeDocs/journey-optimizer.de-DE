@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren der Journey Optimizer-Berichterstellung für Experimente
-description: Erfahren Sie, wie Sie eine Berichtsdatenquelle einrichten.
+title: Konfigurieren von Journey Optimizer-Reporting für Experimente
+description: Erfahren Sie, wie Sie eine Reporting-Datenquelle einrichten.
 feature: Data Sources
 topic: Administration
 role: Admin
@@ -12,32 +12,32 @@ hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 100%
 
 ---
 
-# Reporting für Experimente konfigurieren {#reporting-configuration}
+# Konfigurieren der Berichterstellung für Experimente {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
->title="Einrichten von Datensätzen für die Berichterstellung"
->abstract="Mit der Berichtskonfiguration können Sie zusätzliche Metriken abrufen, die im Tab Ziele Ihrer Kampagnenberichte verwendet werden. Sie muss von einem technischen Anwender durchgeführt werden."
+>title="Einrichten von Datensätzen für das Reporting"
+>abstract="Mit der Reporting-Konfiguration können Sie zusätzliche Metriken abrufen, die in der Registerkarte „Ziele“ Ihrer Kampagnenberichte verwendet werden. Sie muss von einem/r technischen Anwender(in) durchgeführt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
->title="Datensatz auswählen"
->abstract="Sie können nur einen Datensatz vom Typ Ereignis auswählen, der mindestens eine der unterstützten Feldgruppen enthalten muss: Anwendungsdetails, Commerce-Details, Web-Details."
+>title="Auswählen eines Datensatzes"
+>abstract="Sie können nur einen Ereignistyp-Datensatz auswählen, der mindestens eine der unterstützten Feldergruppen enthält: Anwendungsdetails, Commerce-Details, Web-Details."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-Mit der Konfiguration der Berichtsdatenquelle können Sie zusätzliche Metriken abrufen, die in der Variablen **[!UICONTROL Objectives]** in den Kampagnenberichten. [Weitere Infos](content-experiment.md#objectives-global)
+Mit der Konfiguration der Reporting-Datenquelle können Sie zusätzliche Metriken abrufen, die in der Registerkarte **[!UICONTROL Ziele]** in den Kampagnenberichten verwendet werden. [Weitere Informationen](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
->Die Berichtskonfiguration muss von einem technischen Anwender vorgenommen werden. <!--Rights?-->
+>Die Reporting-Konfiguration muss von einem/r technischen Anwender(in) vorgenommen werden. <!--Rights?-->
 
-Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen, die die zusätzlichen Elemente enthalten, die Sie für Ihre Berichte verwenden möchten. Gehen Sie dazu wie folgt vor: [below](#add-datasets).
+Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen, die die zusätzlichen Elemente enthalten, die Sie für Ihre Berichte verwenden möchten. Gehen Sie dazu [wie folgt](#add-datasets) vor.
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -46,91 +46,91 @@ Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen,
 ## Voraussetzungen
 
 
-Bevor Sie der Berichtskonfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Erfahren Sie mehr über [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
+Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#create){target=&quot;_blank&quot;}.
 
-* Sie können nur Datensätze vom Typ Ereignis hinzufügen.
+* Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen mindestens einen der folgenden Datensätze enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**.
+* Diese Datensätze müssen mindestens einen der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target=&quot;_blank&quot;} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
 
    >[!NOTE]
    >
    >Derzeit werden nur diese Feldergruppen unterstützt.
 
-   Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit dem **Commerce-Details** Feldergruppe.
+   Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit der **Commerce-Details**-Feldergruppe erstellen.
 
-   Wenn Sie einen Bericht über mobile Interaktionen erstellen möchten, müssen Sie außerdem einen Erlebnisereignis-Datensatz mit der Variablen **Anwendungsdetails** Feldergruppe.
+   Wenn Sie einen Bericht über mobile Interaktionen erstellen möchten, müssen Sie außerdem einen Erlebnisereignis-Datensatz mit der Feldergruppe **Anwendungsdetails** erstellen.
 
-   Die den einzelnen Feldergruppen entsprechenden Metriken werden aufgelistet [here](#objective-list).
+   Die den einzelnen Feldergruppen entsprechenden Metriken werden [hier](#objective-list) aufgelistet.
 
-* Sie können diese Feldergruppen zu einem oder mehreren Schemas hinzufügen, die in einem oder mehreren Datensätzen verwendet werden.
+* Sie können diese Feldergruppen zu einem oder mehreren Schemata hinzufügen, die in einem oder mehreren Datensätzen verwendet werden.
 
 >[!NOTE]
 >
->Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie im Abschnitt [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
+>Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
 
 ## Ziele für jede Feldergruppe {#objective-list}
 
-Die nachstehende Tabelle zeigt, welche Metriken zum **[!UICONTROL Objectives]** in den Kampagnenberichten für jede Feldergruppe.
+Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Registerkarte **[!UICONTROL Ziele]** in Ihren Kampagnenberichten hinzugefügt werden.
 
 | Feldergruppe | Ziele |
 |--- |--- |
-| Commerce-Details | Preis gesamt<br>Zahlungsbetrag<br>(Eindeutige Checkouts)<br>(Eindeutige Produktlistenhinweise)<br>(Eindeutige Produktlisten-Öffnungen)<br>(Eindeutige) Entfernung der Produktliste<br>(Eindeutige) Produktlistenansichten<br>(Eindeutige) Produktansichten<br>(Einzelkäufe)<br>(Eindeutig) Für spätere speichern<br>Produktpreis gesamt<br>Produktmenge |
-| Anwendungsdetails | (Eindeutige) App-Starts<br>Erste App-Starts<br>(Unique) App-Installationen<br>(Unique) App-Upgrades |
-| Webdetails | (Eindeutige) Seitenansichten |
+| Commerce-Details | Preis gesamt<br>Zahlungsbetrag<br>(Eindeutige) Checkouts<br>(Eindeutige) Produktlisten-Hinzufügungen<br>(Eindeutige) Produktlisten-Öffnungen<br>(Eindeutige) Produktlisten-Entfernungen<br>(Eindeutige) Produktlisten-Ansichten<br>(Eindeutige) Produktansichten<br>(Eindeutige) Käufe<br>(Eindeutig) Speicherungen für später<br>Produktpreis gesamt<br>Produktmenge |
+| Anwendungsdetails | (Eindeutige) App-Starts<br>Erste App-Starts<br>(Eindeutige) App-Installationen<br>(Eindeutige) App-Upgrades |
+| Web-Details | (Eindeutige) Seitenansichten |
 
 ## Hinzufügen von Datensätzen {#add-datasets}
 
-1. Aus dem **[!UICONTROL ADMINISTRATION]** Menü auswählen **[!UICONTROL Configurations]**. Im  **[!UICONTROL Reporting]** Abschnitt, klicken Sie auf **[!UICONTROL Manage]**.
+1. Wählen Sie im Menü **[!UICONTROL ADMINISTRATION]** **[!UICONTROL Konfigurationen]** aus. Klicken Sie im Abschnitt **[!UICONTROL Reporting]** auf **[!UICONTROL Verwalten]**.
 
    ![](assets/reporting-config-menu.png)
 
    Die Liste der bereits hinzugefügten Datensätze wird angezeigt.
 
-1. Aus dem **[!UICONTROL Dataset]** Registerkarte, klicken Sie auf **[!UICONTROL Add dataset]**.
+1. Klicken Sie in der Registerkarte **[!UICONTROL Datensatz]** auf **[!UICONTROL Datensatz hinzufügen]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Wenn Sie die **[!UICONTROL System dataset]** angezeigt werden, werden nur vom System erstellte Datensätze angezeigt. Sie können keine anderen Datensätze hinzufügen.
+   >Wenn Sie die Registerkarte **[!UICONTROL Systemdatensatz]** auswählen, werden nur vom System erstellte Datensätze angezeigt. Sie können keine anderen Datensätze hinzufügen.
 
-1. Aus dem **[!UICONTROL Dataset]** Dropdownliste den Datensatz auswählen, den Sie für Ihre Berichte verwenden möchten.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Datensatz]** den Datensatz aus, den Sie für Ihre Berichte verwenden möchten.
 
    >[!CAUTION]
    >
-   >Sie können nur einen Datensatz vom Typ Ereignis auswählen, der mindestens einen der unterstützten Datensätze enthalten muss [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
+   >Sie können nur einen Datensatz vom Typ „Ereignis“ auswählen, der mindestens eine der unterstützten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target=&quot;_blank&quot;} enthält: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
 
    ![](assets/reporting-config-datasets.png)
 
-   Weitere Informationen zu Datensätzen finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+   Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Aus dem **[!UICONTROL Profile ID]** wählen Sie in der Dropdown-Liste das Datensatzfeldattribut aus, das zur Identifizierung der einzelnen Profile in Ihren Berichten verwendet wird.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Profilkennung]** das Datensatzfeldattribut aus, das zur Identifizierung der einzelnen Profile in Ihren Berichten verwendet wird.
 
    ![](assets/reporting-config-profile-id.png)
 
    >[!NOTE]
    >
-   >Es werden nur IDs angezeigt, die für Berichte verfügbar sind.
+   >Es werden nur IDs angezeigt, die für das Reporting verfügbar sind.
 
-1. Die **[!UICONTROL Use Primary ID namespace]** ist standardmäßig aktiviert. Wenn ausgewählt **[!UICONTROL Profile ID]** is **[!UICONTROL Identity Map]** können Sie diese Option deaktivieren und einen anderen Namespace aus der angezeigten Dropdownliste auswählen.
+1. Die Option **[!UICONTROL Verwenden des primären ID-Namespace]** ist standardmäßig aktiviert. Wenn die ausgewählte **[!UICONTROL Profilkennung]** **[!UICONTROL Identitätszuordnung]** lautet, können Sie diese Option deaktivieren und einen anderen Namespace aus der angezeigten Dropdown-Liste auswählen.
 
    ![](assets/reporting-config-namespace.png)
 
-   Weitere Informationen zu Namespaces finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+   Weitere Informationen zu Namespaces finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target=&quot;_blank&quot;}.
 
-1. Speichern Sie Ihre Änderungen, um den ausgewählten Datensatz zur Liste der Berichtskonfigurationen hinzuzufügen.
+1. Speichern Sie Ihre Änderungen, um den ausgewählten Datensatz zur Liste der Reporting-Konfigurationen hinzuzufügen.
 
    >[!CAUTION]
    >
-   >Wenn Sie einen Datensatz ausgewählt haben, der kein Ereignistyp ist, können Sie nicht fortfahren.
+   >Wenn Sie einen Datensatz ausgewählt haben, der nicht vom Typ „Ereignis“ ist, können Sie nicht fortfahren.
 
-Beim Erstellen Ihrer Kampagnenberichte können Sie nun die Metriken sehen, die den in den hinzugefügten Datensätzen verwendeten Feldgruppen entsprechen. Navigieren Sie zu **[!UICONTROL Objectives]** und wählen Sie die gewünschten Metriken aus, um Ihre Berichte besser anzupassen. [Weitere Infos](content-experiment.md#objectives-global)
+Beim Erstellen Ihrer Kampagnenberichte können Sie nun die Metriken sehen, die den in den hinzugefügten Datensätzen verwendeten Feldergruppen entsprechen. Gehen Sie zur Registerkarte **[!UICONTROL Ziele]** und wählen Sie die gewünschten Metriken aus, um Ihre Berichte entsprechend Ihren Anforderungen anzupassen. [Weitere Informationen](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Wenn Sie mehrere Datensätze hinzufügen, stehen alle Daten aus allen Datensätzen für die Berichterstellung zur Verfügung.
+>Wenn Sie mehrere Datensätze hinzufügen, stehen alle Daten aus allen Datensätzen für das Reporting zur Verfügung.
 
 <!--
 ## How-to video {#video}

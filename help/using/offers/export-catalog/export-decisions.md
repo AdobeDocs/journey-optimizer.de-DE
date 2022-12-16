@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 0%
+source-wordcount: '1550'
+ht-degree: 100%
 
 ---
 
 # Entscheidungsdatensatz {#decisions-dataset}
 
-Jedes Mal, wenn ein Angebot geändert wird, wird der automatisch erstellte Datensatz für Entscheidungen (ehemals Aktivitäten) aktualisiert.
+Jedes Mal, wenn ein Angebot geändert wird, wird der automatisch generierte Datensatz für Entscheidungen (früher als „Aktivitäten“ bezeichnet) aktualisiert.
 
 ![](../assets/dataset-activities.png)
 
@@ -23,9 +23,9 @@ Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchi
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie für jedes Objekt Ihrer Angebotsbibliothek in auf die exportierten Datensätze zugreifen können. [diesem Abschnitt](../export-catalog/access-dataset.md).
+>In [diesem Abschnitt](../export-catalog/access-dataset.md) erfahren Sie, wie Sie für die einzelnen Objekte Ihrer Angebotsbibliothek auf die exportierten Datensätze zugreifen können.
 
-Im Folgenden finden Sie eine Liste aller Felder, die im **[!UICONTROL Decision Object Repository - Decisions]** Datensatz (früher als Entscheidungsobjekt-Repository - Aktivitäten bezeichnet).
+Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL Entscheidungsobjekt-Repository – Entscheidungen]** (ehemals „Entscheidungsobjekt-Repository – Aktivitäten“) verwendet werden können.
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
@@ -33,235 +33,236 @@ Im Folgenden finden Sie eine Liste aller Felder, die im **[!UICONTROL Decision O
 
 **Feld:** _id
 **Titel:** Kennung
-**Beschreibung:** Eine eindeutige Kennung für den Datensatz.
+**Beschreibung:** Eindeutige Kennung des Eintrags.
 **Typ:** Zeichenfolge
 
 ## _experience {#experience}
 
-**Feld:** _experience
+**Feld:** _experience 
 **Typ:** Objekt
 
 ### _experience > decisioning
 
-**Feld:** Entscheidungsfindung
+**Feld:** decisioning
 **Typ:** Objekt
 
-#### _experience > decisioning > kriterien
+#### _experience > decisioning > criteria
 
-**Feld:** Kriterien
-**Titel:** Kriterien
-**Beschreibung:** Definiert einen Satz von Entscheidungskriterien, bei denen jeder eine Reihe von Einschränkungen enthält.
-**Typ:** array
+**Feld:** criteria
+**Titel:** Kriterien 
+**Beschreibung:** Definiert einen Satz von Entscheidungskriterien, wobei jedes von ihnen eine Reihe von Einschränkungen enthält.
+**Typ:** Array
 
-**_experience > decisioning > kriterien > description**
+**_experience > decisioning > criteria > description**
 
-**Feld:** description
-**Titel:** Beschreibung
-**Beschreibung:** Beschreibung des Kriteriums. Sie wird verwendet, um für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es die Entscheidung beeinflusst.
+**Feld:** description 
+**Titel:** Beschreibung 
+**Beschreibung:** Kriterienbeschreibung Wird verwendet, um für den Menschen lesbare Absichten zu vermitteln, wie oder warum dieses Kriterium konstruiert wurde und wie es sich auf die Entscheidung auswirkt.
 **Typ:** Zeichenfolge
 
-**_experience > decisioning > kriterien > optionSelection**
+**_experience > decisioning > criteria > optionSelection**
 
-**Feld:** optionSelection
-**Titel:** Auswahl der Optionen
-**Beschreibung:** Die Option Auswahl definiert die Gültigkeit/Anwendbarkeit der Optionen in diesem Kontext.
+**Feld:** optionSelection 
+**Titel:** Optionsauswahl 
+**Beschreibung:** Die Optionsauswahl definiert die Gültigkeit/Anwendbarkeit von Optionen in diesem Kontext.
 **Typ:** Objekt
 
 * **Beschreibung**
 
    **Feld:** description
    **Titel:** Beschreibung
-   **Beschreibung:** Beschreibung der Optionsauswahl. Sie wird verwendet, um für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Option erstellt wurde und/oder welche Option übereinstimmt.
+   **Beschreibung:** Beschreibung der Optionsauswahl. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Optionsauswahl erstellt wurde und/oder welche Option passt.
    **Typ:** Zeichenfolge
 
 * **Optionsfilter**
 
    **Feld:** filter
    **Titel:** Optionsfilter
-   **Beschreibung:** Der Verweis auf einen Tag-basierten Filter, der anhand der angehängten Tags Optionen aus einem Inventar abgleicht. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
+   **Beschreibung:** Der Verweis auf einen Tag-basierten Filter, der Optionen anhand ihrer angehängten Tags aus einem Inventar auswählt. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
    **Typ:** Zeichenfolge
 
-* **Profilbegrenzungstyp**
+* **Profileinschränkungstyp**
 
    **Feld:** optionSelectionType
-   **Titel:** Profilbegrenzungstyp
-   **Beschreibung:** Bestimmt, ob derzeit Einschränkungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentmitgliedschaften erfolgen.
+   **Titel:** Profileinschränkungstyp
+   **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
    **Typ:** Zeichenfolge
-   **Mögliche Werte:** &quot;none&quot;(Standard), &quot;directList&quot;, &quot;filter&quot;
+   **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
 * **Optionsliste**
 
    **Feld:** options
    **Titel:** Optionsliste
    **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
-   **Typ:** array
+   **Typ:** Array
 
    <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
-**_experience > decisioning > Kriterien > Platzierungen**
+**_experience > decisioning > criteria > placements**
 
-**Feld:** Platzierungen
-**Titel:** Platzierungsbeschränkungen
-**Beschreibung:** Die Platzierungsbegrenzung besagt, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur, wenn sich die Targeting-Platzierung in der `xdm:placements` list ist die berücksichtigte Optionsauswahl. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste &quot;xdm:placements&quot;ausgelassen oder leer ist, wird das Kriterium für jede zielgerichtete Platzierung berücksichtigt. Die hier aufgeführten Platzierungen setzen implizite Kriterien für die Optionsauswahl voraus. Eine zu berücksichtigende Option muss über eine Darstellung für die zielgerichtete Platzierung verfügen.
-**Typ:** array
+**Feld:** placements 
+**Titel:** Platzierungsbegrenzungen
+**Beschreibung:** Die Platzierungsbegrenzung gibt an, dass dieses Kriterium nur für die aufgelisteten Platzierungen gilt. Nur wenn sich die beabsichtigte Platzierung in der Liste `xdm:placements` befindet, wird die Option ausgewählt. Andernfalls werden die gesamten Entscheidungskriterien übersprungen. Wenn die Liste „xdm:placements“ ausgelassen wird oder leer ist, wird das Kriterium für jede beabsichtigte Platzierung berücksichtigt. Die hier aufgeführten Platzierungen erzwingen implizite Kriterien für die Optionsauswahl. Eine zu berücksichtigende Option muss für die Zielplatzierung repräsentativ sein.
+**Typ:** Array
 
 * **Platzierungskennung**
 
    **Titel:** Platzierungskennung
-   **Beschreibung:** Ein Verweis auf eine Platzierungsentität. Der Wert ist der URI (@id) der Platzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
+   **Beschreibung:** Ein Verweis auf eine Platzierungsentität. Der Wert ist die URI (@id) der Platzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
    **Typ:** Zeichenfolge
 
-**_experience > decisioning > kriterien > profileConstraints**
+**_experience > decisioning > criteria > profileConstraints**
 
-**Feld:** profileConstraints
-**Titel:** Profilbegrenzung
-**Beschreibung:** Die Profilbegrenzung entscheidet in diesem Zusammenhang, ob eine Optionsauswahl für diese Profilidentität geeignet ist. Wenn die Profilbegrenzung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie invariant für die Optionen aus der Optionsauswahl ist, hebt die als &quot;false&quot;ausgewertete Profilbegrenzung die gesamte Optionsauswahl ab. Andererseits wird eine Profilbegrenzungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierende Option der Optionsauswahl ausgewertet.
+**Feld:** profileConstraints 
+**Titel:** Profilbegrenzung 
+**Beschreibung:** Die Profilbegrenzung bestimmt, ob eine Option in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
 **Typ:** Objekt
 
-* **_experience > decisioning > Kriterien > profileConstraints > Beschreibung**
+* **_experience > decisioning > criteria > profileConstraints > Description**
 
    **Feld:** description
    **Titel:** Beschreibung
-   **Beschreibung:** Beschreibung der Profilbegrenzung. Sie wird verwendet, um für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option von ihr einbezogen oder ausgeschlossen werden soll.
+   **Beschreibung:** Beschreibung der Profileinschränkung. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Profileinschränkung erstellt wurde und/oder welche Option von ihr einbezogen oder ausgeschlossen wird.
    **Typ:** Zeichenfolge
 
-* **_experience > decisioning > kriterien > profileConstraints > Eignungsregel**
+* **_experience > decisioning > criteria > profileConstraints > Eligibility Rule**
 
-   **Feld:** permissionRule
+   **Feld:** eligibilityRule
    **Titel:** Eignungsregel
-   **Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere angegebene kontextbezogene XDM-Objekte als &quot;true&quot;oder &quot;false&quot;ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist der URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
+   **Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere vorhandene kontextbezogene XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
    **Typ:** Zeichenfolge
 
-* **_experience > decisioning > kriterien > profileConstraints > Profil Constraint Type**
+* **_experience > decisioning > criteria > profileConstraints > Profile Constraint Type**
 
    **Feld:** profileConstraintType
-   **Titel:** Profilbegrenzungstyp
-   **Beschreibung:** Bestimmt, ob derzeit Einschränkungen festgelegt sind und wie die Begrenzungen ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Segmentmitgliedschaften erfolgen.
+   **Titel:** Profileinschränkungstyp
+   **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Segmentzugehörigkeiten erfolgen.
    **Typ:** Zeichenfolge
    **Mögliche Werte:**
-   * &quot;none&quot;(Standard)
-   * &quot;permissionRule&quot;: &quot;Die Profilbegrenzung wird als einzelne Regel ausgedrückt, die als &quot;true&quot;ausgewertet werden muss, bevor die eingeschränkte Aktion zulässig ist.&quot;
-   * &quot;anySegments&quot;: &quot;Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss Mitglied mindestens eines dieser Segmente sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-   * &quot;allSegments&quot;: &quot;Die Profilbegrenzung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss Mitglied aller sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-   * &quot;rules&quot;: &quot;Die Profilbegrenzung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Eignung, Anwendbarkeit, Eignung, die alle als &quot;true&quot;bewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.&quot;
+   * „none“ (Standard)
+   * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
+   * „anySegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu mindestens einem dieser Segmente zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
+   * „allSegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu allen diesen Segmenten zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
+   * „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
 
-* **_experience > decisioning > kriterien > profileConstraints > segmentIdentities**
+* **_experience > decisioning > criteria > profileConstraints > segmentIdentities**
 
    **Feld:** segmentIdentities
-   **Titel:** Segment-IDs
+   **Titel:** Segmentkennungen
    **Beschreibung:** Kennungen der Segmente.
-   **Typ:** array
+   **Typ:** Array
 
-   * **Kennung**
+   * **ID**
 
       **Feld:** _id
       **Titel:** Kennung
-      **Beschreibung:** Identität des Segments im zugehörigen Namespace.
+      **Beschreibung:** Identität des Segments im betreffenden Namespace.
       **Typ:** Zeichenfolge
 
    * **namespace**
 
       **Feld:** namespace
       **Titel:** Namespace
-      **Beschreibung:** Der mit dem `xid` -Attribut.
+      **Beschreibung**: Der mit dem Attribut `xid` verknüpfte Namespace.
       **Typ:** Objekt
-      **Erforderlich:** &quot;code&quot;
+      **Erforderlich:** „code“
 
       * **Code**
 
          **Feld:** code
          **Titel:** Code
-         **Beschreibung:** Der Code ist eine für Menschen lesbare Kennung für den Namespace und kann zum Anfordern der technischen Namespace-ID verwendet werden, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
+         **Beschreibung:** Der Code ist eine von Menschen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
          **Typ:** Zeichenfolge
    * **Erlebnis-ID**
 
       **Feld:** xid
       **Titel:** Erlebnis-ID
-      **Beschreibung:** Wenn dieser Wert vorhanden ist, stellt er eine Namespace-übergreifende Kennung dar, die über alle Namespaces hinweg eindeutigen Bezeichner eindeutig ist.
+      **Beschreibung:** Falls vorhanden, stellt dieser Wert eine Namespace-übergreifende Kennung dar, die unter allen Kennungen in allen Namespaces eindeutig ist.
       **Typ:** Zeichenfolge
 
 
-**_experience > decisioning > kriterien > rang**
+**_experience > decisioning > criteria > ranking**
 
-**Feld:** Ranking
-**Titel:** Rangdetails
-**Beschreibung:** Rang (Priorität). Definiert, wie die \&quot;beste Option\&quot;im Kontext des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die die Profilbegrenzungen erfüllen, entscheidet das Ranking über die vorzuschlagenden Top-Optionen (oder Top-N).
-**Typ:** Objekt
+**Feld:** ranking 
+**Titel:** Ranking-Details 
+**Beschreibung:** Rangfolge (Priorität) Definiert, wie die „beste Option“ angesichts des Kontexts des Entscheidungskriteriums bestimmt wird. Unter allen ausgewählten Optionen, die den Profilbegrenzungen entsprechen, entscheidet die Rangfolge über die beste oder die besten n Optionen, die vorgeschlagen werden.
+**Typ: Objekt**
 
-* **_experience > decisioning > kriterien > ranking > order**
+* **_experience > decisioning > criteria > ranking > order**
 
    **Feld:** order
-   **Titel:** Bestellauswertung
-   **Beschreibung:** Bewertung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalwerten werden über allen Optionen mit niedrigeren Ordinalwerten ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden und weder Summen noch Produkte können berechnet werden. Der Median und der Modus sind die einzigen Messwerte der zentralen Tendenz, die für ordinale Daten verwendet werden können.
+   **Titel:** Reihenfolgenbewertung
+   **Beschreibung:** Bewertung einer relativen Reihenfolge für eine oder mehrere Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Median und der Modalwert sind die einzigen Messwerte der zentralen Tendenz, die für ordinale Daten verwendet werden können.
    **Typ:** Objekt
 
    * **Scoring-Funktion**
 
       **Feld:** function
       **Titel:** Scoring-Funktion
-      **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Ergebnis sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit der Option &quot;on&quot;aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
+      **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
       **Typ:** Zeichenfolge
 
-   * **Bestellauswertungstyp**
+   * **Reihenfolgenbewertungstyp**
 
       **Feld:** orderEvaluationType
-      **Titel:** Bestellauswertungstyp
-      **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder welche Rangstrategie eine Liste erhält, um sie zu ordnen.
-      **Typ:** Zeichenfolge
-      **Mögliche Werte:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+      **Titel:** Reihenfolgenbewertungstyp
+      **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
 
-   * **Ranking Strategy**
+      **Typ:** Zeichenfolge
+      **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
+
+   * **Rangfolgestrategie**
 
       **Feld:** rankingStrategy
-      **Titel:** Ranking Strategy
-      **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen angibt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist der URI (@id) der Funktion, die jeweils mit der Option &quot;on&quot;aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+      **Titel:** Rangfolgestrategie
+      **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
       **Typ:** Zeichenfolge
 
-* **_experience > decisioning > kriterien > ranking > priority**
+* **_experience > decisioning > criteria > ranking > Priority**
 
    **Feld:** priority
    **Titel:** Priorität
-   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption im Vergleich zu allen anderen Optionen. Optionen, für die keine Bestellfunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine nach dem einheitlichen Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
-   **Typ:** integer
+   **Beschreibung:** Die Priorität einer einzelnen Entscheidungsoption in Bezug auf alle anderen Optionen. Optionen, für die keine Reihenfolgefunktion angegeben ist, werden mithilfe dieser Eigenschaft priorisiert. Optionen mit höheren Prioritätswerten werden vor Optionen mit niedrigerer Priorität ausgewählt. Wenn zwei oder mehr qualifizierte Optionen den höchsten Prioritätswert aufweisen, wird eine nach dem Zufallsprinzip ausgewählt und für den Entscheidungsvorschlag verwendet.
+   **Typ:** Integer
    **Mindestwert:** 0
    **Standardwert:** 0
 
 #### _experience > decisioning > Activity End Date and Time
 
 **Feld:** endTime
-**Titel:** Enddatum und -zeit der Aktivität
-**Beschreibung:** Enddatum und Endzeit der Entscheidung (ehemals &quot;Aktivität&quot;). Die Eigenschaft hat die Semantik der Eigenschaft &quot;endTime&quot;von schema.org, die auf http://schema.org/Action definiert ist.
+**Titel:** Enddatum und -zeit der Aktivität 
+**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
-#### _experience > decisioning > Fallback-Option
+#### _experience > decisioning > Fallback Option
 
-**Feld:** Fallback
-**Titel:** Fallback-Option
-**Beschreibung:** Der Verweis auf eine Ausweichoption, die bei der Entscheidungsfindung im Kontext dieser Entscheidung verwendet wird, qualifiziert keine der regulären Optionen (dies geschieht normalerweise bei Anwendung von Hardbounce-Beschränkungen). Der Wert ist der URI (@id) der Fallback-Option, auf die verwiesen wird.
+**Feld:** fallback
+**Titel:** Fallback-Option 
+**Beschreibung:** Der Verweis auf eine Fallback-Option, die verwendet wird, wenn zur Entscheidungsfindung im Kontext dieser Entscheidung keine der regulären Optionen geeignet sind (dies geschieht in der Regel bei Anwendung von harten Einschränkungen). Der Wert ist die URI (@id) der Fallback-Option, auf die verwiesen wird.
 **Typ:** Zeichenfolge
 
 #### _experience > decisioning > Activity Name
 
-**Feld:** name
-**Titel:** Aktivitätsname
-**Beschreibung:** Entscheidungsname (ehemals &quot;Aktivität&quot;), der in verschiedenen Benutzeroberflächen angezeigt wird.
+**Feld:** name 
+**Titel:** Aktivitätsname 
+**Beschreibung:** Name der Entscheidung (früher als „Aktivität“ bezeichnet) der in verschiedenen Benutzeroberflächen angezeigt wird.
 **Typ:** Zeichenfolge
 
 #### _experience > decisioning > Activity Start Date and Time
 
-**Feld:** startTime
-**Titel:** Anfangsdatum und -zeit der Aktivität
-**Beschreibung:** Start- und Endzeit der Entscheidung (ehemals &quot;Aktivität&quot;). Die Eigenschaft hat die Semantik der Eigenschaft &quot;startTime&quot;von schema.org, die auf http://schema.org/Action definiert ist.
+**Feld:** startTime 
+**Titel:** Startdatum und -zeit der Aktivität 
+**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als Aktivität bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 ## _repo {#repo}
 
-**Feld:** _repo
+**Feld:** _repo 
 **Typ:** Objekt
 
-### _repo > Activity ETag
+### _repo > Activity Etag
 
 **Feld:** etag
 **Titel:** Aktivitäts-ETag
-**Beschreibung:** Die Revision, die das Entscheidungsobjekt (ehemals &quot;activity&quot;) zum Zeitpunkt der Momentaufnahme war.
+**Beschreibung:** Die Überprüfung, bei der sich das Objekt einer Entscheidung (früher als „Aktivität“ bezeichnet) zum Zeitpunkt des Snapshots befand.
 **Typ:** Zeichenfolge

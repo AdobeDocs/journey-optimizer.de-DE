@@ -1,21 +1,21 @@
 ---
 product: journey optimizer
 title: avg
-description: Erfahren Sie mehr über die Funktion avg
+description: Erfahren Sie mehr über die Funktion „avg“
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 0%
+source-wordcount: '49'
+ht-degree: 100%
 
 ---
 
 # avg {#avg}
 
-Gibt den Durchschnittswert aus einem Satz von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
+Gibt den Durchschnittswert eines Satzes von Ausdrücken zurück, entweder als Liste oder in Form von zwei Ausdrücken. Nullwerte werden ignoriert.
 
 
 ## Kategorie
@@ -57,7 +57,7 @@ Gibt eine Dezimalzahl zurück.
 
 `avg([10,3,8])`
 
-Gibt 7,0 zurück.
+Gibt 7.0 zurück.
 
 `avg(10.2, 3)`
 

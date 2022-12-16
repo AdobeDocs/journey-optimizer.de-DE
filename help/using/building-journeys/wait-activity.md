@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Warteaktivität"
->abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Damit können Sie den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt werden soll. Es stehen zwei Optionen zur Verfügung: Dauer und benutzerdefiniert."
+>abstract="Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine Warteaktivität verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Es stehen zwei Optionen zur Verfügung: „Dauer“ und „Benutzerdefiniert“."
 
-Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Wait]** Aktivität. Damit können Sie den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt werden soll. Drei Optionen stehen zur Verfügung:
+Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, können Sie eine **[!UICONTROL Warteaktivität]** verwenden. Sie können den Zeitpunkt festlegen, zu dem die nächste Aktivität ausgeführt wird. Drei Optionen stehen zur Wahl:
 
 * [Dauer](#duration)
-* [Benutzerdefiniert](#custom)
+* [Benutzerspezifisch](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
-## Über die Warteaktivität{#about_wait}
+## Informationen zur Warteaktivität{#about_wait}
 
-Die maximale Wartezeit beträgt 30 Tage. Im Testmodus wird die **[!UICONTROL Wait time in test]** ermöglicht es Ihnen, die Dauer jeder Warteaktivität festzulegen. Die Standardzeit beträgt 10 Sekunden. Dadurch wird sichergestellt, dass Sie die Testergebnisse schnell erhalten. Siehe [diese Seite](../building-journeys/testing-the-journey.md)
+Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md)
 
-Seien Sie vorsichtig bei der Verwendung mehrerer Warteaktivitäten in einer Journey, da das globale Journey-Timeout 30 Tage beträgt. Das bedeutet, dass ein Profil die Journey maximal 30 Tage nach seinem Eintritt immer verlässt.
+Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen.
 
 ## Wartezeit mit Dauer{#duration}
 
-Wählen Sie die Dauer der Wartezeit bis zur Ausführung der nächsten Aktivität aus.
+Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus.
 
 ![](assets/journey55.png)
 
@@ -55,13 +55,13 @@ Select the date for the execution of the next activity.
 
 ## Benutzerdefinierte Wartezeit{#custom}
 
-Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, indem Sie einen erweiterten Ausdruck verwenden, der auf einem Feld basiert, das von einem Ereignis oder einer Datenquelle stammt. Sie können keine benutzerdefinierte Dauer festlegen, z. B. 7 Tage. Der Ausdruck im Ausdruckseditor sollte das Format dateTimeOnly aufweisen. Siehe hierzu [page](expression/expressionadvanced.md). Weitere Informationen zum &quot;dateTimeOnly&quot;-Format finden Sie in diesem [page](expression/data-types.md).
+Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. den 12. Juli 2020 um 17 Uhr, wobei Sie einen erweiterten Ausdruck verwenden, der auf einem von einem Ereignis oder einer Datenquelle stammenden Feld basiert. Sie können keine benutzerdefinierte Dauer (z. B. 7 Tage) festlegen. Der Ausdruck im Ausdruckseditor sollte ein „dateTimeOnly“-Format aufweisen. Mehr dazu erfahren Sie auf [dieser Seite](expression/expressionadvanced.md). Weitere Informationen zum „dateTimeOnly“-Format finden Sie auf [dieser Seite](expression/data-types.md).
 
 >[!NOTE]
 >
->Sie können einen &quot;dateTimeOnly&quot;-Ausdruck verwenden oder eine Funktion verwenden, um in einen &quot;dateTimeOnly&quot;-Ausdruck zu konvertieren. Beispiel: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), das Feld im Ereignis weist die Form 2016-08-12T09 auf:46:06Z.
+>Sie können einen „dateTimeOnly“-Ausdruck nutzen oder eine Funktion zur Konvertierung in ein „dateTimeOnly“-Format verwenden. Beispiel: toDateTimeOnly(@{Event.offerOpened.activity.endTime}). Das Feld im Ereignis hat die folgende Form: 2016-08-12T09:46:06Z.
 >
->Die **Zeitzone** wird in den Eigenschaften Ihrer Journey erwartet. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine vollständige ISO-8601-Zeitstempelmischzeit und einen Zeitzonenversatz wie 2016-08-12T09 zu verweisen:46:06.982-05. Siehe [diese Seite](../building-journeys/timezone-management.md).
+>Die Angabe der **Zeitzone** ist für die Eigenschaften Ihrer Journey erforderlich. Aus diesem Grund ist es heute nicht möglich, von der Oberfläche direkt auf eine Zeitstempelmischzeit nach ISO-8601 und einen Zeitzonenversatz (z. B. 2016- 08-06.12T09:46:06.982-05) zu verweisen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: inLastYears
-description: Erfahren Sie mehr über die Funktion inLastYears
+description: Erfahren Sie mehr über die Funktion „inLastYears“
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,13 +9,13 @@ exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # inLastYears {#inLastYears}
 
-Gibt &quot;true&quot;zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Jahren liegt.
+Gibt „true“ zurück, wenn der angegebene Datums- bzw. Datum/Uhrzeit-Wert zwischen jetzt und jetzt - delta Jahren liegt.
 
 ## Kategorie
 
@@ -42,4 +42,4 @@ Gibt einen booleschen Wert zurück.
 
 `inLastYears(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Gibt &quot;true&quot;zurück.
+Gibt „true“ zurück.

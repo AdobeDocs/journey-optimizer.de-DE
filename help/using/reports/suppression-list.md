@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Unterdrückungsliste
-description: 'Erfahren Sie, wie Sie die Unterdrückungsliste wie folgt verwenden:'
+description: Erfahren Sie, wie Sie die Unterdrückungsliste verwenden
 feature: Deliverability
 topic: Content Management
 role: User
@@ -10,72 +10,72 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
 # Unterdrückungsliste {#suppression-list}
 
-Eine Unterdrückungsliste besteht aus Adressen und Domänen, die Sie aus Ihren Sendungen ausschließen möchten, da der Versand an diese Kontakte Ihrer Reputation und den Versandraten schaden könnte.
+Eine Unterdrückungsliste besteht aus Adressen und Domains, die von den Sendungen ausgeschlossen werden sollen, da das Senden an diese Kontakte den Ruf als Versender und die Versandraten beeinträchtigen könnte.
 
-Die [!DNL Journey Optimizer] Die Unterdrückungsliste wird auf Ihrer eigenen Umgebungsebene verwaltet, d. h. für eine bestimmte Sandbox.
+Die Unterdrückungsliste in [!DNL Journey Optimizer] wird auf der Ebene Ihrer eigenen Umgebung verwaltet, das heißt für eine bestimmte Sandbox.
 
-Sie erfasst E-Mail-Adressen und Domänen, die in allen Mailings in einer einzigen Client-Umgebung unterdrückt werden, d. h. eine Organisations-ID, die mit einer Sandbox-ID verknüpft ist.
-
->[!NOTE]
->
->Adobe führt eine aktualisierte Liste bekannter schlechter Adressen, die nachweislich die Interaktion und Reputation des Mailings beeinträchtigen, und stellt sicher, dass ihnen keine E-Mails zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die in der globalen Unterdrückungsliste enthaltenen Adressen und Domänennamen werden ausgeblendet. In den Versandberichten wird nur die Anzahl der ausgeschlossenen Empfänger angegeben.
-
-## Warum eine Unterdrückungsliste? {#why-suppression-list}
-
-Um die E-Mail-Nachrichten, die von den Inbox-Inhabern empfangen werden, zu steuern und sicherzustellen, dass sie nur die von ihnen gewünschten erhalten, verfügen Internet Service Provider (ISPs) und kommerzielle Spam-Filter über eigene Algorithmen, um die allgemeine Reputation von E-Mail-Absendern basierend auf den von ihnen verwendeten IP-Adressen und Versanddomänen zu verfolgen.
-
-Wenn Sie kein Feedback abgeben (z. B. Beschwerden wegen Spam, Bounces usw.) berücksichtigen, werden sie Ihre Reputation unterschätzen. Die Unterdrückungsliste hilft Ihnen dabei, das Feedback der ISPs zu berücksichtigen.
-
-Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vom Nachrichtenversand ausgeschlossen. Dies beschleunigt den Versand, da sich die Fehlerrate maßgeblich auf die Versandgeschwindigkeit auswirkt.
-
-## Was steht auf der Unterdrückungsliste? {#what-s-on-suppression-list}
-
-Adressen werden der Unterdrückungsliste wie folgt hinzugefügt:
-
-* Alle **Hardbounces** und **Spam-Beschwerden** automatisch die entsprechenden Adressen an die Unterdrückungsliste senden, nachdem sie nur einmal aufgetreten sind.
-
-* **Softbounces** senden Sie nicht sofort eine Adresse an die Unterdrückungsliste, sondern erhöhen einen Fehlerzähler. Mehrere [retries](../configuration/retries.md) ausgeführt werden und wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
-
-* Sie können auch [**manuell** Adresse oder Domain hinzufügen](../configuration/manage-suppression-list.md#add-addresses-and-domains) in die Unterdrückungsliste ein.
-
-Weitere Informationen zu Hardbounces und Softbounces finden Sie unter [diesem Abschnitt](#delivery-failures).
+Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-Client-Umgebung unterdrückt werden, d. h. spezifisch für eine Organisations-ID, die mit einer Sandbox-ID verbunden ist.
 
 >[!NOTE]
 >
->Die Adressen abgemeldeter Benutzer können nicht an die Unterdrückungsliste gesendet werden, da sie keine E-Mails von erhalten [!DNL Journey Optimizer]. Ihre Auswahl erfolgt auf Experience Platform-Ebene. Weitere Informationen finden Sie unter [Opt-out](../privacy/opt-out.md).
+>Adobe führt eine aktualisierte Liste bekannter schlechter Adressen, die nachweislich die Interaktion und die Sender-Reputation beeinträchtigen, und stellt sicher, dass E-Mails an diese Adressen nicht zugestellt werden. Diese Liste wird in einer globalen Unterdrückungsliste verwaltet, die für alle Adobe-Kunden gleich ist. Die Adressen und Domain-Namen in der globalen Unterdrückungsliste sind verborgen. In den Versandberichten wird nur die Anzahl der ausgeschlossen Empfänger angegeben.
 
-Für jede Adresse den Grund für die Unterdrückung und die Unterdrückungskategorie (weich, hart usw.) werden in der Unterdrückungsliste angezeigt. Erfahren Sie mehr über den Zugriff auf und die Verwaltung der Unterdrückungsliste in [diesem Abschnitt](../configuration/manage-suppression-list.md).
+## Wozu eine Unterdrückungsliste? {#why-suppression-list}
+
+Um die E-Mail-Nachrichten zu kontrollieren, die von den Inhabern der Posteingänge empfangen werden, und sicherzustellen, dass sie nur die von ihnen gewünschten Nachrichten erhalten, verfügen Internet-Dienstleister (ISPs) und kommerzielle Spam-Filter über eigene Algorithmen, um den allgemeinen Ruf von E-Mail-Versendern anhand der IP-Adressen und der sendenden Domain(s), die sie verwenden, zu verfolgen.
+
+Wenn Sie deren Feedback (z. B. Spam-Beschwerden, Bounces usw.) nicht berücksichtigen, werden sie Ihre Reputation herabstufen. Die Unterdrückungsliste hilft Ihnen, das Feedback der ISPs zu berücksichtigen.
+
+Die Empfänger, deren E-Mail-Adressen unterdrückt werden, werden automatisch vom Versand der Nachricht ausgeschlossen. Dies beschleunigt den Versand, da sich die Fehlerrate maßgeblich auf die Versandgeschwindigkeit auswirkt.
+
+## Was steht in der Unterdrückungsliste? {#what-s-on-suppression-list}
+
+Adressen werden wie folgt zur Unterdrückungsliste hinzugefügt:
+
+* Alle **Hardbounces** und **Spam-Beschwerden** senden die entsprechenden Adressen nach einem einzigen Vorfall automatisch an die Unterdrückungsliste.
+
+* **Softbounces** senden eine Adresse nicht sofort an die Unterdrückungsliste, sondern bewirken, dass der Fehlerzähler erhöht wird. Anschließend werden [weitere Zustellversuche](../configuration/retries.md) unternommen. Wenn der Fehlerzähler den Schwellenwert erreicht, wird die Adresse der Unterdrückungsliste hinzugefügt.
+
+* Sie können auch [**manuell** eine Adresse oder eine Domain](../configuration/manage-suppression-list.md#add-addresses-and-domains) zur Unterdrückungsliste hinzufügen.
+
+Weitere Informationen zu Hardbounces und Softbounces finden Sie in [diesem Abschnitt](#delivery-failures).
 
 >[!NOTE]
 >
->Die Profile mit **[!UICONTROL Suppressed]** -Status während des Nachrichtenversands ausgeschlossen werden. Daher muss während der **Journey-Berichte** zeigt an, dass sich diese Profile durch die Journey bewegt haben ([Segment lesen](../building-journeys/read-segment.md) und [Nachrichtenaktivitäten](../building-journeys/journeys-message.md)), die **E-Mail-Berichte** werden sie nicht in die **[!UICONTROL Sent]** Metriken, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>Die Adressen von abgemeldeten Benutzern können nicht an die Unterdrückungsliste gesendet werden, da sie keine E-Mails von [!DNL Journey Optimizer] erhalten. Ihre Entscheidung wird auf der Ebene von Experience Platform gehandhabt. Weitere Informationen zum [Opt-out](../privacy/opt-out.md)
+
+Für jede Adresse werden der wesentliche Grund für die Unterdrückung und die Unterdrückungskategorie (weich, hart, usw.) in der Unterdrückungsliste angezeigt. Weitere Informationen zum Zugriff auf und zur Verwaltung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../configuration/manage-suppression-list.md).
+
+>[!NOTE]
 >
->Weitere Informationen finden Sie unter [Live-Bericht](../reports/live-report.md) und [Globaler Bericht](../reports/global-report.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie die [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Die Profile mit dem Status **[!UICONTROL Unterdrückt]** werden während des Nachrichtenversands ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Segment lesen](../building-journeys/read-segment.md) und [Nachrichtenaktivitäten](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>
+>Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [globalen Bericht](../reports/global-report.md). Um den Grund für alle Ausschlussfälle zu ermitteln, können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target=&quot;_blank&quot;} verwenden.
 
 ### Versandfehler {#delivery-failures}
 
-Wenn ein Versand fehlschlägt, gibt es zwei Typen von Fehlern:
+Bei Fehlschlägen des Versands gibt es drei Typen von Fehlern:
 
-* **Hardbounce**. Ein Hardbounce zeigt eine ungültige E-Mail-Adresse an (d. h. eine nicht vorhandene E-Mail-Adresse). Dies umfasst eine Bounce-Nachricht vom E-Mail-Empfangs-Server, die explizit angibt, dass die Adresse ungültig ist.
-* **Softbounce**. Dies ist ein temporärer E-Mail-Bounce, der für eine gültige E-Mail-Adresse aufgetreten ist.
+* **Hardbounce**. Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies beinhaltet eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist.
+* **Softbounce**. Dies ist ein temporärer E-Mail-Bounce, der bei einer gültige E-Mail-Adresse aufgetreten ist.
 
-A **Hardbounce** fügt die E-Mail-Adresse automatisch zur Unterdrückungsliste hinzu.
+Ein **Hardbounce** fügt die E-Mail-Adresse automatisch zur Unterdrückungsliste hinzu.
 
-A **Softbounce** <!--or an **ignored** error--> , das zu oft auftritt, sendet auch die E-Mail-Adresse nach mehreren weiteren Versuchen an die Unterdrückungsliste. [Weitere Informationen zu Wiederholungen](../configuration/retries.md)
+Ein **Softbounce** <!--or an **ignored** error-->, der zu oft auftritt, sendet die E-Mail-Adresse nach mehreren Zustellversuchen ebenfalls an die Unterdrückungsliste. [Erfahren Sie mehr über weitere Zustellversuche](../configuration/retries.md)
 
-Wenn Sie weiterhin an diese Adressen senden, kann dies Auswirkungen auf Ihre Zustellraten haben, da ISPs darauf hingewiesen wird, dass Sie möglicherweise die Best Practices zur Wartung der E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Absender sind.
+Wenn Sie weiterhin an diese Adressen senden, kann sich dies auf Ihre Versandraten auswirken, da es den ISPs mitteilt, dass Sie möglicherweise die Best Practices zur Wartung von E-Mail-Adressen nicht befolgen und daher möglicherweise kein vertrauenswürdiger Versender sind.
 
-### Beschwerden wegen Spam {#spam-complaints}
+### Spam-Beschwerden {#spam-complaints}
 
-Die Unterdrückungsliste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam markieren. Wenn beispielsweise jemand an einen Kundendienst schreibt, der anfordert, nie wieder E-Mails von Ihnen zu erhalten, wird die E-Mail-Adresse dieser Person in Ihrer Instanz unterdrückt und Sie können an diese Adresse nicht mehr senden.
+Die Unterdrückungsliste erfasst E-Mail-Adressen, die Ihre Nachricht als Spam kennzeichnen. Wenn zum Beispiel jemand an den Kundendienst schreibt und darum bittet, nie wieder E-Mails von Ihnen zu erhalten, wird die E-Mail-Adresse dieser Person in Ihrer Instanz unterdrückt und Sie können nicht mehr an diese Adresse versenden.
 
-Der Versand an Empfänger, nachdem diese eine Spam-Beschwerde eingereicht haben, kann sich sehr auf Ihre Reputation des Versands auswirken, da ISPs davon in Kenntnis gesetzt werden, dass Sie unerwünschte E-Mails senden und möglicherweise nicht auf Ihre Empfänger hören.
+Das Senden an Empfänger, nachdem sie eine Spam-Beschwerde eingereicht haben, kann sich sehr auf Ihren Ruf auswirken, da es den ISPs mitteilt, dass Sie unerwünschte E-Mails senden und möglicherweise nicht auf Ihre Empfänger hören.
 
-Dies kann dazu führen, dass Ihre IP-Adresse oder Versanddomäne blockiert wird, was verhindert werden kann, dass diese Adressen auf der Unterdrückungsliste stehen.
+Dies könnte dazu führen, dass Ihre IP-Adresse oder die sendende Domain blockiert wird. Das kann vermieden werden, wenn diese Adressen auf der Unterdrückungsliste vorhanden sind.

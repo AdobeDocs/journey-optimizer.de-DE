@@ -1,6 +1,6 @@
 ---
 title: Fallback-Angebot erstellen
-description: Ein Fallback-Angebot wird an Kunden gesendet, wenn sie nicht für andere Angebote geeignet sind
+description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -9,22 +9,22 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Fallback-Angebot erstellen {#create-fallback-offer}
 
-Sie können ein Fallback-Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
+Sie können ein Fallback-Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
-## Kopfzeilen &quot;Accept&quot;und &quot;Content-Type&quot; {#accept-and-content-type-headers}
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* und *Accept* -Felder in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
-| Kopfzeilenname | Wert |
+| Header-Name | Wert |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **API-Format**
 
@@ -69,9 +69,9 @@ curl -X POST \
 }'
 ```
 
-**Reaktion**
+**Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Fallback-Angebot zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Fallback-Angebot zu aktualisieren oder zu löschen. Sie können Ihr eindeutiges Fallback-Angebot verwenden `@id` in einem späteren Tutorial, um eine Entscheidung zu erstellen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Fallback-Angebot zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihr Fallback-Angebot zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Fallback-Angebots in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
 
 
 ```json
