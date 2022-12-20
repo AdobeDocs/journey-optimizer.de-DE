@@ -11,7 +11,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
    Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de).
 
-1. Nach dem Hochladen des Assets können Sie Ihre Assets jetzt über Email Designer in eine Ihrer Nachrichten einfügen.
+1. Nach dem Hochladen von Assets können Sie sie mithilfe vom E-Mail-Designer in eine Ihrer Nachrichten einfügen.
 
    Ihr Asset kann auch mit dem Modus **Bearbeiten** von [!DNL Assets Essentials] weiter bearbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target=&quot;_blank&quot;}.
 
@@ -72,13 +72,13 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
    ![](assets/media_library_5.png)
 
-1. Wählen Sie Ihre **[!UICONTROL Assets]** Ordner. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
+1. Wählen Sie Ihren **[!UICONTROL Assets]**-Ordner aus. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
 
 1. Ziehen Sie Ihr Asset in den E-Mail-Inhalt.
 
    ![](assets/media_library_6.png)
 
-1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit der **[!UICONTROL Komponenteneinstellungen]**. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
+1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit den **[!UICONTROL Komponenteneinstellungen]** hinzufügen. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
 
    ![](assets/media_library_13.png)
 

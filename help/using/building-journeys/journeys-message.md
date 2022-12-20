@@ -11,13 +11,13 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # E-Mail, SMS, Push-Benachrichtigung{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Er wird dann ausgeführt und im Kontext der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -34,7 +34,7 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
 1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, **SMS**- oder **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
 
-1. Konfigurieren Sie Ihre Aktivität. Hier erfahren Sie, wie Sie Ihren Nachrichteninhalt in den folgenden Seiten erstellen:
+1. Konfigurieren Sie Ihre Aktivität. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -71,11 +71,11 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
 Sie können den Inhalt einer Nachricht (E-Mail, SMS, Push) in einer Live-Journey aktualisieren.
 
-Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Nachrichtentätigkeit aus und klicken Sie auf **Inhalt bearbeiten**.
+Öffnen Sie dazu Ihre Live-Journey, wählen Sie die Nachrichtenaktivität aus und klicken Sie auf **Inhalt bearbeiten**.
 
 ![](assets/add-a-message2.png)
 
-Sie können jedoch die in der Personalisierung verwendeten Attribute nicht ändern, unabhängig davon, ob es sich um Profilattribute oder Kontextdaten handelt (aus Ereignis- oder Journey-Eigenschaften).
+Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextbezogene Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
 
 ## Optimierung des Versandzeitpunkts{#send-time-optimization}
 
@@ -84,7 +84,7 @@ Sie können jedoch die in der Personalisierung verwendeten Attribute nicht ände
 >title="Über die Optimierung des Versandzeitpunkts"
 >abstract="Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren."
 
-### Über die Sendezeitoptimierung {#about-send-time}
+### Anmerkungen zur Optimierung des Versandzeitpunkts {#about-send-time}
 
 Die Funktion zur Optimierung des Versandzeitpunkts von Adobe Journey Optimizer basiert auf den KI-Services von Adobe. Sie kann basierend auf vergangenen Öffnungs- und Klickraten die beste Versandzeit für E-Mails oder Push-Benachrichtigungen vorhersagen, um die Interaktion zu maximieren. Verwenden Sie unser Modell für maschinelles Lernen, um personalisierte Versandzeitpunkte für jeden Benutzer zu planen, um die Öffnungs- und Klickraten Ihrer Nachrichten zu erhöhen.
 

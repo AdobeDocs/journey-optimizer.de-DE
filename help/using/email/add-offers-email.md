@@ -11,13 +11,13 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Hinzufügen personalisierter Angebote {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] E-Mails können Sie Entscheidungen einfügen, die die Entscheidungsmanagement-Engine nutzen, um das beste Angebot für Ihre Kunden auszuwählen.
+Mit [!DNL Journey Optimizer] können Sie in E-Mails Entscheidungen einfügen, die die Entscheidungs-Management-Engine nutzen, um das jeweils beste Angebot für Ihre Kunden auszuwählen.
 
 Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ein besonderes Angebot mit Rabatten anzeigt, das je nach Treuestufe des Empfängers variiert.
 

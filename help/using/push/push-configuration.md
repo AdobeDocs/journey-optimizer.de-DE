@@ -9,11 +9,11 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Kanal für Push-Benachrichtigungen konfigurieren {#push-notification-configuration}
+# Konfigurieren des Kanals für Push-Benachrichtigungen {#push-notification-configuration}
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, Journeys zu erstellen und Nachrichten an eine ausgewählte Audience zu senden. Bevor Sie mit dem Versand von Push-Benachrichtigungen über [!DNL Journey Optimizer] beginnen, müssen Sie sicherstellen, dass in der Mobile App und für Tags in Adobe Experience Platform Konfigurationen und Integrationen vorhanden sind. Informationen zum Datenfluss von Push-Benachrichtigungen in [!DNL Adobe Journey Optimizer] finden Sie auf [dieser Seite](push-gs.md).
 
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
 
 1. Greifen Sie auf **[!DNL Admin Console]** zu.
 
-1. Aus dem **[!UICONTROL Produkte]** auswählen, wählen Sie die **[!UICONTROL Adobe Experience Platform-Datenerfassung]** Karte.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Produkte]** die Karte **[!UICONTROL Datenerfassung in Adobe Experience Platform]** aus.
 
    ![](assets/push_product_1.png)
 
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um die Rechte für **Eigenschaft** und **Unternehmen** 
    * **[!UICONTROL Mobile-App-Konfigurationen verwalten]**
    * **[!UICONTROL Eigenschaften verwalten]**
 
-   Diese Berechtigungen sind erforderlich, damit der Entwickler der mobilen App Push-Anmeldeinformationen in **Adobe Experience Platform-Datenerfassung** und definieren die Oberflächen der Push-Benachrichtigungskanäle (d. h. Nachrichtenvorgaben) in **Adobe Journey Optimizer**.
+   Diese Berechtigungen sind für den Entwickler der mobilen App erforderlich, um Push-Anmeldeinformationen für die **Datenerfassung in Adobe Experience Platform** einzurichten und Oberflächen für Push-Benachrichtigungskanäle (d. h. Nachrichtenvoreinstellungen) in **Adobe Journey Optimizer** zu definieren.
 
    ![](assets/push_product_5.png)
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um Benutzern dieses **[!UICONTROL Produktprofil]** zuzu
 
 1. Greifen Sie auf **[!DNL Admin Console]** zu.
 
-1. Aus dem **[!UICONTROL Produkte]** auswählen, wählen Sie die **[!UICONTROL Adobe Experience Platform-Datenerfassung]** Karte.
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Produkte]** die Karte **[!UICONTROL Datenerfassung in Adobe Experience Platform]** aus.
 
 1. Wählen Sie Ihr zuvor konfiguriertes **[!UICONTROL Produktprofil]** aus.
 

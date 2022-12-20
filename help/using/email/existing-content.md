@@ -11,24 +11,24 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 # Importieren von E-Mail-Inhalten {#existing-content}
 
-[!DNL Journey Optimizer]Mit können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Der Inhalt kann vorliegen als
+Mit [!DNL Journey Optimizer] können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mails zu gestalten. Der Inhalt kann vorliegen als
 
-* Ein **HTML-Datei** mit integriertem Stylesheet,
-* A **.zip-Ordner** einschließlich einer HTML-Datei, des Stylesheets (.css) und der Bilder.
+* eine **HTML-Datei** mit integriertem Stylesheet;
+* ein **komprimierter Ordner** (ZIP) mit HTML-Datei, Stylesheet (.css) und Bildern.
 
    >[!NOTE]
    >
-   >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und in die Baumstruktur des Ordners .zip passen.
+   >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
-1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL HTML importieren]**.
+1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL HTML importieren]**.
 
    ![](assets/import-html_2.png)
 

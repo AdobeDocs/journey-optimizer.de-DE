@@ -11,21 +11,21 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 # Senden der Push-Benachrichtigung {#send-push}
 
-## Push-Benachrichtigung in der Vorschau anzeigen {#preview-push}
+## Vorschau der Push-Benachrichtigung {#preview-push}
 
 Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
 
-1. Klicken **[!UICONTROL Inhalt simulieren]**.
+1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
 
-1. Klicken **[!UICONTROL Verwalten von Testprofilen]** , um ein Testprofil hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein Testprofil hinzuzufügen.
 
-1. Suchen Sie Ihr Testprofil mit **[!UICONTROL Identitäts-Namespace]** und **[!UICONTROL Identitätswert]** -Felder. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
+1. Suchen Sie Ihr Testprofil mit den Feldern **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Identitätswert]**. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
 
    ![](assets/push_preview_1.png)
 
@@ -39,7 +39,7 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
    ![](assets/push_preview_3.png)
 
-## Push-Benachrichtigung validieren {#push-validate}
+## Validieren der Push-Benachrichtigung {#push-validate}
 
 >[!NOTE]
 >
@@ -49,14 +49,14 @@ Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einig
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices.
 
-* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange sie nicht aufgelöst sind, z. B.:
+* **Fehler** verhindern, dass Sie die Journey testen oder aktivieren, solange nicht alle Fehler behoben sind.
 
    * **[!UICONTROL Die Push-Version der Nachricht ist leer]**: Dieser Fehler wird angezeigt, wenn der Text oder Titel der Push-Benachrichtigung fehlt. In [diesem Abschnitt](create-push.md) erfahren Sie, wie Sie den Inhalt einer Push-Benachrichtigung definieren.
 
-   * **[!UICONTROL Oberfläche existiert nicht]**: Sie können Ihre Nachricht nicht verwenden, wenn die ausgewählte Oberfläche nach der Nachrichtenerstellung gelöscht wird. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Oberfläche aus. Weitere Informationen zu Kanaloberflächen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Oberfläche ist nicht vorhanden]**: Sie können Ihre Nachricht nicht veröffentlichen, wenn die gewählte Oberfläche nach der Erstellung der Nachricht gelöscht wurde. Wenn dieser Fehler auftritt, wählen Sie in den **[!UICONTROL Eigenschaften]** der Nachricht eine andere Oberfläche aus. Weitere Informationen zu Kanaloberflächen finden Sie in [diesem Abschnitt](../configuration/channel-surfaces.md).
 
    * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](../push/create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
 ![](assets/push_alert.png)
 
-Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) , um es zu versenden.
+Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab, um sie zu versenden.

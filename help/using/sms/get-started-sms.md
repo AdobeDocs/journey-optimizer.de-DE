@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit SMS
-description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS erstellen.
+description: Erfahren Sie, wie man in Journey Optimizer eine SMS erstellt
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Wenn Sie zum ersten Mal eine SMS erstellen, stellen Sie sicher, dass der SMS-Kan
 <img alt="Validierung" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>Opt-out-Verwaltung für SMS</strong></a>
+<a href="sms-opt-out.md"><strong>Opt-out-Verwaltung bei SMS</strong></a>
 </div>
 <p>
 </td>

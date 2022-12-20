@@ -31,7 +31,7 @@ Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugr
 >id="ajo_web_url_to_edit_surface"
 >title="Geben Sie die zu bearbeitende URL ein"
 >abstract="Geben Sie die URL einer bestimmten Web-Seite ein, die zum Bearbeiten des Inhalts, der auf die oben definierte Web-Oberfläche angewendet wird, verwendet werden soll. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Infos"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"

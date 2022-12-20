@@ -11,7 +11,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ Verwenden Sie [!DNL Journey Optimizer], um Links zu Ihrem Inhalt hinzuzufügen u
 
 ## Tracking aktivieren {#enable-tracking}
 
-Sie können das Tracking auf E-Mail-Meldungsebene aktivieren, indem Sie die Option **[!UICONTROL E-Mail-Öffnungen]** und/oder **[!UICONTROL E-Mail anklicken]** Optionen beim Erstellen einer Nachricht in einer Journey oder Kampagne.
+Sie können das Tracking einer E-Mail-Nachricht aktivieren, indem Sie die Optionen **[!UICONTROL Geöffnete E-Mails]** und/oder **[!UICONTROL Klick in E-Mail]** markieren, wenn Sie Ihre Nachricht in einer Journey oder Kampagne erstellen.
 
 >[!BEGINTABS]
 
->[!TAB Tracking in einer Journey aktivieren]
+>[!TAB Aktivieren des Trackings in einer Journey]
 
 ![](assets/message-tracking-journey.png)
 
->[!TAB Tracking in einer Kampagne aktivieren]
+>[!TAB Aktivieren des Trackings in einer Kampagne]
 
 ![](assets/message-tracking-campaign.png)
 

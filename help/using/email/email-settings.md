@@ -11,15 +11,15 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
 source-wordcount: '1433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Konfigurieren von E-Mail-Einstellungen {#email-settings}
 
-Um eine E-Mail zu erstellen, müssen Sie Oberflächen für E-Mail-Kanäle einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie Sie Oberflächen erstellen](../configuration/channel-surfaces.md)
+Zu Beginn der Erstellung einer E-Mail müssen Sie Oberflächen für E-Mail-Kanäle einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren. [Erfahren Sie, wie man Oberflächen erstellt](../configuration/channel-surfaces.md)
 
-Definieren Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration.
+Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest.
 
 ![](assets/preset-email-settings.png)
 

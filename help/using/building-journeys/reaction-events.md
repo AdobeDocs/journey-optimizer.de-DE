@@ -11,7 +11,7 @@ exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
 source-wordcount: '370'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Sie können auf angeklickte oder geöffnete Nachrichten reagieren.
 
 Sie können diesen Mechanismus auch verwenden, um eine Aktion auszuführen, wenn keine Reaktion auf Ihre Nachrichten erfolgt. Erstellen Sie dazu einen zweiten Pfad parallel zur Reaktionsaktivität und fügen Sie eine Warteaktivität hinzu. Wenn während des in der Warteaktivität definierten Zeitraums keine Reaktion erfolgt, wird der zweite Pfad ausgewählt. Sie können beispielsweise eine Folgenachricht senden.
 
-Beachten Sie, dass Sie eine Reaktionsaktivität auf der Arbeitsfläche nur verwenden können, wenn zuvor eine Kanalaktionsaktivität aufgetreten ist (E-Mail und Push-Benachrichtigung).
+Beachten Sie, dass Sie auf der Arbeitsfläche eine Reaktionsaktivität nur dann verwenden können, wenn zuvor eine Kanalaktionsaktivität stattgefunden hat (E-Mail oder Push-Benachrichtigung).
 
 Siehe [Informationen zu Aktionsaktivitäten](../building-journeys/about-journey-activities.md#action-activities).
 

@@ -25,7 +25,7 @@ Sie können einen Link unterstreichen und in Email Designer dessen Farbe und Zie
 
    ![](assets/link_1.png)
 
-1. Wählen Sie mit der Dropdown-Liste **[!UICONTROL Target]** aus, wie Ihre Audience umgeleitet werden soll:
+1. Wählen Sie mit der Dropdown-Liste **[!UICONTROL Zielgruppe]** aus, wie Ihre Audience umgeleitet werden soll:
 
    * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
    * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.

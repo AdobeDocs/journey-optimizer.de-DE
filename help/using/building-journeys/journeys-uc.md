@@ -11,7 +11,7 @@ exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
    ![](assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf die E-Mail-Aktivität und klicken Sie auf das Symbol &quot;+&quot;, um einen neuen Pfad zu erstellen.
+1. Platzieren Sie den Cursor auf der Aktivität „E-Mail“ und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
 
 1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald ein zum Segment gehörender Kontaktdie Push-Version der ersten Nachricht öffnet.
 

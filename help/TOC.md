@@ -38,7 +38,7 @@ ht-degree: 100%
       + [Erstellen Ihrer ersten Journey](using/building-journeys/journey-gs.md)
       + [Gestalten einer Journey](using/building-journeys/using-the-journey-designer.md)
       + [Testen einer Journey](using/building-journeys/testing-the-journey.md)
-      + [Veröffentlichen einer Journey](using/building-journeys/publishing-the-journey.md)
+      + [Veröffentlichen Ihrer Journey](using/building-journeys/publishing-the-journey.md)
    + Verwalten von Journeys{#mannage-journey}
       + [Beenden der Journey](using/building-journeys/end-journey.md)
       + [Zeitzonen-Management](using/building-journeys/timezone-management.md)
@@ -189,13 +189,13 @@ ht-degree: 100%
       + Bearbeiten des Stils {#edit-style}
          + [Erste Schritte mit E-Mail-Stilen](using/email/get-started-email-style.md)
          + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
-         + [Anpassen der senkrechten Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
+         + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
          + [Definieren eines Stils für Links](using/email/styling-links.md)
          + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
    + [Vorschau und Testversand von E-Mails](using/email/preview.md)
    + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + Konfigurieren eines E-Mail-Kanals {#configure-email}
-      + [Erste Schritte mit der E-Mail-Konfiguration](using/email/get-started-email-config.md)
+      + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
       + [Konfigurieren der Oberflächen-Einstellungen von E-Mails](using/email/email-settings.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
@@ -216,7 +216,7 @@ ht-degree: 100%
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)
    + [Senden einer SMS-Nachricht](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
-   + [Konfigurieren eines SMS-Kanals](using/sms/sms-configuration.md)
+   + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
 + Briefpost {#direct-mail}
    + [Erstellen eines Briefpostversands](using/direct-mail/create-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
@@ -351,7 +351,7 @@ ht-degree: 100%
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Exportieren des Angebotskatalogs {#export-catalog}
       + [Erste Schritte mit dem Exportieren eines Angebotskatalogs ](using/offers/export-catalog/get-started-export.md)
-      + [Zugreifen auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
+      + [Zugriff auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
       + [Datensatz für personalisierte Angebote](using/offers/export-catalog/export-offers.md)
       + [Entscheidungsdatensatz](using/offers/export-catalog/export-decisions.md)
       + [Platzierungsdatensatz](using/offers/export-catalog/export-placements.md)
@@ -386,19 +386,19 @@ ht-degree: 100%
          + Sammlungen {#collections}
             + [Auflisten von Sammlungen](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [Nachschlagen von Sammlungen](using/offers/api-reference/offers-api/collections/lookup.md)
-            + [Erstellen von Sammlungen](using/offers/api-reference/offers-api/collections/create.md)
+            + [Erstellen einer Sammlung](using/offers/api-reference/offers-api/collections/create.md)
             + [Aktualisieren von Sammlungen](using/offers/api-reference/offers-api/collections/update.md)
             + [Löschen von Sammlungen](using/offers/api-reference/offers-api/collections/delete.md)
          + Fallback-Angebote {#fallback-offers}
             + [Auflisten von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Nachschlagen von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
-            + [Erstellen von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/create.md)
+            + [Erstellen eines Fallback-Angebotes](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Aktualisieren von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Löschen von Fallback-Angeboten](using/offers/api-reference/offers-api/fallback-offers/delete.md)
       + Erstellen und Verwalaten von Entscheidungen mit APIs {#activities-api}
          + [Auflisten von Entscheidungen](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Nachschlagen von Entscheidungen](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Erstellen von Entscheidungen](using/offers/api-reference/activities-api/activities/create.md)
+         + [Erstellen einer Entscheidung](using/offers/api-reference/activities-api/activities/create.md)
          + [Aktualisieren von Entscheidungen](using/offers/api-reference/activities-api/activities/update.md)
          + [Löschen von Entscheidungen](using/offers/api-reference/activities-api/activities/delete.md)
       + Unterbreiten von Angeboten mithilfe von APIs {#offer-delivery-api}

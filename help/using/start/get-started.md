@@ -31,7 +31,7 @@ ht-degree: 100%
 ➡️ [Journey Optimizer entdecken](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=de){target=&quot;_blank&quot;} (Video)
 
 
-## Anwendungsbeispiele {#use-cases}
+## Anwendungsfälle {#use-cases}
 
 * Marketing-Experten können [!DNL Adobe Journey Optimizer] verwenden, um sowohl personalisierte Nachrichten als auch zielgruppenbasierte Batch-Nachrichten zu versenden. Beispielsweise kann ein Bekleidungsgeschäft nach dem Kauf Zufriedenheitsumfragen an alle Kunden versenden, die in der letzten Woche Produkte gekauft haben. Aufgrund des schlechten Wetters kam es bei einigen Lieferungen zu Verspätungen. Da das Bekleidungsgeschäft weiß, welche Kunden ihre Lieferungen nicht erhalten haben, kann es sie vom geplanten Versand der Zufriedenheitsumfrage ausschließen. Stattdessen kann es eine personalisierte E-Mail versenden, in der es sich für die Verzögerung entschuldigt, und einen Rabatt-Code mit Produktempfehlungen einfügen, die auf früheren Käufen des Kunden basieren.
 

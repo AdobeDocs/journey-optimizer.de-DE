@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Opt-out-Verwaltung für E-Mails
-description: Erfahren Sie, wie Sie Opt-out mit E-Mails verwalten.
+description: Erfahren Sie, wie man Opt-outs per E-Mails verwaltet
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,25 +11,25 @@ exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Opt-out-Verwaltung für E-Mails {#email-opt-out}
 
-Um Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten abzumelden, müssen Sie stets eine **Abmelde-Link** in jeder E-Mail, die an Empfänger gesendet wird. [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
+Um Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten abzumelden, muss jede E-Mail, die an Empfänger gesendet wird, einen **Abmelde-Link** enthalten. [Weitere Informationen zu Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 
-Dazu haben Sie folgende Möglichkeiten:
+Dafür haben Sie folgende Möglichkeiten:
 
-* Einfügen einer **Link zu einer externen Landingpage** in eine E-Mail eingeben, damit sich Benutzer von der Anmeldung für den Erhalt von Nachrichten Ihrer Marke abmelden können. [Erfahren Sie, wie Sie einen externen Ausschluss-Link hinzufügen](#opt-out-external-lp)
+* Fügen Sie einen **Link zu einer externen Landingpage** in eine E-Mail ein, damit sich Benutzende vom Erhalt von Nachrichten von Ihrer Marke abmelden können. [Erfahren Sie, wie man einen externen Ausschluss-Link hinzufügt](#opt-out-external-lp)
 
-* Hinzufügen einer **Ausschluss-Link mit einem Klick** in Ihren E-Mail-Inhalt ein. Dieser Link ermöglicht es Ihren Empfängern, sich schnell von Ihren Mitteilungen abzumelden, ohne erst auf eine Landingpage umgeleitet zu werden, auf der sie ihre Wahl bestätigen müssen, was den Abmeldeprozess beschleunigt. [Erfahren Sie, wie Sie einen Ausschluss-Link mit einem Klick hinzufügen](#one-click-opt-out)
+* Fügen Sie in Ihren E-Mail-Inhalt einen **Link zum Abmelden mit einem Klick** ein. Dieser Link ermöglicht es Ihren Empfängern, sich schnell von Ihren Mitteilungen abzumelden, ohne erst auf eine Landingpage umgeleitet zu werden, auf der sie ihre Wahl bestätigen müssen, was den Abmeldeprozess beschleunigt. [Erfahren Sie, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
-Wenn die **[!UICONTROL List-Unsubscribe]** auf der Kanaloberfläche aktiviert ist, enthalten die entsprechenden mit Journey Optimizer gesendeten E-Mails einen Abmelde-Link im E-Mail-Header. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
+Wenn die Option **[!UICONTROL Listen-Abonnement kündigen]** auf der Ebene der Kanaloberfläche aktiviert ist, sollten die entsprechenden E-Mails, die mit Journey Optimizer gesendet werden, außerdem einen Abmelde-Link in der E-Mail-Kopfzeile enthalten. [Weitere Informationen zum Opt-out in der E-Mail-Kopfzeile](#unsubscribe-header)
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der Erstellung der Nachricht definiert).
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, während dies für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der Erstellung der Nachricht definiert).
 
 ## Externes Opt-out {#opt-out-external-lp}
 

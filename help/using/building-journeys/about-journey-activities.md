@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Erste Schritte mit Journey-Aktivitäten {#about-journey-activities}
 
-Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen.
+Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
 ## Ereignisaktivitäten {#event-activities}
 

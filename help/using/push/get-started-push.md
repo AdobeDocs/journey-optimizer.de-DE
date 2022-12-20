@@ -39,7 +39,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]** bietet Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten. Push-Benachrichtigungen erfordern hingegen keine Maßnahme Ihrerseits, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+>Während **[!DNL Journey Optimizer]** Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten bietet, erfordern Push-Benachrichtigungen keine Aktion von Ihrer Seite, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -55,7 +55,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 <img alt="Gelegentlich" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
-<a href="design-push.md"><strong>Gestalten der Push-Benachrichtigung</strong></a>
+<a href="design-push.md"><strong>Gestalten Ihrer Push-Benachrichtigung</strong></a>
 </div>
 <p></td>
 <td>
@@ -63,7 +63,7 @@ Verwenden Sie die zugehörigen Registerkarten, um die Push-Benachrichtigungs-Ein
 <img alt="Validierung" src="../assets/do-not-localize/push-sending.jpg">
 </a>
 <div>
-<a href="send-push.md"><strong>Senden der Push-Benachrichtigung</strong></a>
+<a href="send-push.md"><strong>Gestalten Ihrer Push-Benachrichtigung</strong></a>
 </div>
 <p>
 </td>

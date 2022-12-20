@@ -275,7 +275,7 @@ Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie fü
 
 Sobald die Landingpage veröffentlicht wurde, wird sie der Landingpage-Liste mit dem Status **[!UICONTROL Veröffentlicht]** hinzugefügt.
 
-Sie ist jetzt live und kann in einer [!DNL Journey Optimizer] Nachricht, die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
+Sie ist jetzt live und kann in einer [!DNL Journey Optimizer]-Nachricht, die über eine [Journey](../building-journeys/journey.md) gesendet wird, verwendet werden.
 
 >[!NOTE]
 >

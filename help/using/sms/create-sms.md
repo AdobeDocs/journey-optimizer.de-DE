@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -26,29 +26,29 @@ ht-degree: 56%
 >
 >In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## SMS-Nachrichten in einer Journey oder Kampagne erstellen {#create-sms-journey-campaign}
+## Erstellen von SMS-Nachrichten in einer Journey oder Kampagne {#create-sms-journey-campaign}
 
 Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
 
 >[!BEGINTABS]
 
->[!TAB Eine SMS-Nachricht zu einer Journey hinzufügen]
+>[!TAB Hinzufügen einer SMS-Nachricht zu einer Journey]
 
-1. Öffnen Sie die Journey und ziehen Sie eine SMS-Aktivität per Drag-and-Drop aus dem Bereich Aktionen der Palette.
+1. Öffnen Sie die Journey und ziehen Sie eine SMS-Aktivität per Drag-and-Drop aus dem Bereich „Aktionen“ der Palette.
 
    ![](assets/sms_create_1.png)
 
-1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
+1. Geben Sie allgemeine Informationen (Titel, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
 
    ![](assets/sms_create_2.png)
 
-   Weitere Informationen zum Konfigurieren einer Journey finden Sie unter [diese Seite](../building-journeys/journey-gs.md)
+   Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
-Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie **[!UICONTROL Inhalt bearbeiten]** Schaltfläche. [SMS-Inhalt gestalten](#sms-content)
+Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken. [Gestalten von SMS-Inhalten](#sms-content)
 
->[!TAB Eine SMS zu einer Kampagne hinzufügen]
+>[!TAB Hinzufügen einer SMS-Nachricht zu einer Kampagne]
 
-1. Erstellen Sie eine neue geplante oder API-gesteuerte Kampagne und wählen Sie **[!UICONTROL SMS]** als Aktion und wählen Sie die **[!UICONTROL Anwendungsoberfläche]** verwendet werden. [Weitere Informationen zur SMS-Konfiguration](sms-configuration.md).
+1. Erstellen Sie eine neue geplante oder durch eine API ausgelöste Kampagne. Wählen Sie **[!UICONTROL SMS]** als Aktion und anschließend die **[!UICONTROL Anwendungsoberfläche]**, die verwendet werden soll. [Weitere Informationen zur SMS-Konfiguration](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -58,7 +58,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
    ![](assets/sms_create_4.png)
 
-1. Im **[!UICONTROL Aktionsverfolgung]** angeben, ob Sie Klicks auf Links in Ihrer SMS-Nachricht verfolgen möchten.
+1. Im Bereich **[!UICONTROL Tracking von Aktionen]** können Sie angeben, ob Sie Klicks auf Links in Ihrer SMS-Nachricht verfolgen möchten.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die Audience aus der Liste der verfügbaren Adobe Experience Platform-Segmente zu definieren. [Weitere Informationen](../segment/about-segments.md).
 
@@ -68,20 +68,20 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
-1. Aus dem **[!UICONTROL Action Triggers]** Menü, wählen Sie die **[!UICONTROL Häufigkeit]** Ihrer SMS-Nachricht:
+1. Wählen Sie aus dem Menü **[!UICONTROL Aktions-Trigger]** die **[!UICONTROL Häufigkeit]** Ihrer SMS-Nachricht:
 
    * Einmal
    * Täglich
    * Wöchentlich
    * Monat
 
-Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie **[!UICONTROL Inhalt bearbeiten]** Schaltfläche. [SMS-Inhalt gestalten](#sms-content)
+Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken. [Gestalten von SMS-Inhalten](#sms-content)
 
 >[!ENDTABS]
 
 ## Definieren Ihres SMS-Inhalts{#sms-content}
 
-1. Klicken Sie auf dem Journey- oder Kampagnenkonfigurationsbildschirm auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche zum Konfigurieren des SMS-Inhalts.
+1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu konfigurieren.
 
 1. Klicken Sie auf das Feld **[!UICONTROL Nachricht]**, um den Ausdruckseditor zu öffnen.
 

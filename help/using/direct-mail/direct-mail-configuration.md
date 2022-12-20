@@ -11,7 +11,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >id="ajo_dm_surface_settings"
 >title="Definieren der Briefpost-Einstellungen"
 >abstract="Eine Briefpost-Oberfläche enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Audience enthält und vom Briefpostanbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Konfigurieren des Datei-Routings"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=de#file-routing-configuration" text="Konfigurieren des Datei-Routings"
 
 <!--
 >[!CONTEXTUALHELP]

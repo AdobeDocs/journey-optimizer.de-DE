@@ -11,7 +11,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ In vielen Fällen bietet er eine kurze Zusammenfassung der E-Mail und besteht no
 
 Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
-1. Fügen Sie in Email Designer mindestens eine **[!UICONTROL Strukturkomponenten]** , um mit der Erstellung Ihrer E-Mail zu beginnen.
+1. Fügen Sie im E-Mail-Designer mindestens eine **[!UICONTROL Strukturkomponente]** hinzu, um Ihre E-Mail zu entwerfen.
 
-1. Klicken Sie auf **[!UICONTROL Navigationsstruktur]** Symbol im linken Bereich und wählen Sie **[!UICONTROL body]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Navigationsstruktur]** im linken Bereich und wählen Sie **[!UICONTROL Textkörper]**.
 
    ![](assets/preheader_body.png)
 
-1. Aus dem **[!UICONTROL Texteinstellungen]** Klicken Sie im rechten Bereich auf das Bearbeitungssymbol neben dem **[!UICONTROL Preheader]** -Feld zum Hinzufügen von Inhalt.
+1. Klicken Sie in **[!UICONTROL Texteinstellungen]** im rechten Bereich auf das Symbol „Bearbeiten“ neben dem Feld **[!UICONTROL Preheader]**, um Inhalte hinzuzufügen.
 
    ![](assets/preheader_body_settings.png)
 

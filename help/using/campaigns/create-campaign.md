@@ -11,7 +11,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 65%
+ht-degree: 75%
 
 ---
 
@@ -41,7 +41,7 @@ Um eine neue Kampagne zu erstellen, rufen Sie die **[!UICONTROL Kampagnen]** Men
 >title="Kampagnenkategorie"
 >abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp für die **Marketing** Kategorie und API-gesteuerter Typ für die Kategorie **Transactional**"
 
-1. Im **[!UICONTROL Eigenschaften]** geben Sie an, wie die Kampagne ausgeführt werden soll. Es stehen zwei Kampagnentypen zur Verfügung:
+1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 
    * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
 
@@ -69,13 +69,13 @@ Um eine neue Kampagne zu erstellen, rufen Sie die **[!UICONTROL Kampagnen]** Men
 
    ![](assets/create-campaign-properties.png)
 
-## Nachricht erstellen {#content}
+## Erstellen der Nachricht {#content}
 
-Im **[!UICONTROL Aktionen]** erstellen Sie die Nachricht, die mit der Kampagne gesendet werden soll.
+Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Kampagne gesendet werden soll.
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** und erstellen Sie dann den Nachrichteninhalt.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Nachrichteninhalt zu erstellen und zu gestalten.
 
-   Hier erfahren Sie, wie Sie Ihren Nachrichteninhalt in den folgenden Seiten erstellen:
+   Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -101,7 +101,7 @@ Im **[!UICONTROL Aktionen]** erstellen Sie die Nachricht, die mit der Kampagne g
       <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>SMS-Nachrichten erstellen</strong></a>
+    <a href="../sms/create-sms.md"><strong>Erstellen von SMS-Nachrichten</strong></a>
     </div>
     <p>
     </td>
@@ -136,7 +136,7 @@ Im **[!UICONTROL Aktionen]** erstellen Sie die Nachricht, die mit der Kampagne g
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-## Kampagnen planen {#schedule}
+## Planen der Kampagne {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

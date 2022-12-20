@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Kampagne überprüfen und aktivieren {#review-activate}
+# Überprüfen und Aktivieren einer Kampagne {#review-activate}
 
 Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte überprüfen, bevor Sie sie aktivieren. Gehen Sie dazu wie folgt vor:
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit E-Mail
+title: Erste Schritte mit E-Mails
 description: Erfahren Sie, wie Sie in Journey Optimizer eine E-Mail erstellen.
 feature: Overview
 topic: Content Management
@@ -11,27 +11,27 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit E-Mail {#get-started-email}
+# Erste Schritte mit E-Mails {#get-started-email}
 
 >[!IMPORTANT]
 >
->Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](email-settings.md)
+>Wenn Sie zum ersten Mal eine E-Mail erstellen, überprüfen Sie, ob zuvor der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](email-settings.md)
 
-Verwendung [!DNL Journey Optimizer] , um E-Mail-Nachrichten an Ihre Kunden zu senden. In Email Designer können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Journey Optimizer], um E-Mail-Nachrichten an Ihre Kunden zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
 E-Mail-Sendungen können erstellt werden:
 
-* In **Journey**: nachdem Sie **[!UICONTROL Email]** -Aktivität auf Ihrer Journey und den definierten Grundeinstellungen verwenden Sie die **[!UICONTROL Aktionen: Email]** den Inhalt der SMS-Nachricht erstellen.
+* In einer **Journey**: Nachdem Sie eine **[!UICONTROL E-Mail]**-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die SMS-Nachricht zu erstellen.
 
-   Weitere Informationen zur Konfiguration der Journey auf [dieser Seite](../building-journeys/journey-gs.md).
+   Weitere Informationen zur Konfiguration einer Journey fomdem Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
-* In **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL Email]** als Aktion definieren und grundlegende Einstellungen definieren.
+* In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen.
 
-   Weitere Informationen zur Konfiguration einer Kampagne auf [dieser Seite](../campaigns/create-campaign.md#configure).
+   Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -64,7 +64,7 @@ E-Mail-Sendungen können erstellt werden:
 <img alt="Validierung" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>Konfigurieren eines E-Mail-Kanals</strong></a>
+<a href="email-settings.md"><strong>Konfigurieren des E-Mail-Kanals</strong></a>
 </div>
 <p>
 </td>

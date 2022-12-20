@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push-Benachrichtigung erstellen
-description: Erfahren Sie, wie Sie eine Push-Benachrichtigung in Journey Optimizer erstellen
+title: Gestalten einer Push-Benachrichtigung
+description: Erfahren Sie, wie man in Journey Optimizer eine Push-Benachrichtigung gestaltet
 feature: Overview
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Push-Benachrichtigung erstellen {#design-push-notification}
+# Gestalten einer Push-Benachrichtigung {#design-push-notification}
 
 ## Titel und Textkörper {#push-title-body}
 

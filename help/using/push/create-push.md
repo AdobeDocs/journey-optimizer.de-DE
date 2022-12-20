@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 56%
+ht-degree: 97%
 
 ---
 
@@ -22,39 +22,39 @@ ht-degree: 56%
 >title="Erstellen von Push-Benachrichtigungen"
 >abstract="Fügen Sie Ihre Push-Benachrichtigung hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
 
-## Push-Benachrichtigung in einer Journey oder Kampagne erstellen {#create}
+## Erstellen der Push-Benachrichtigung in einer Journey oder Kampagne {#create}
 
 Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 >[!BEGINTABS]
 
->[!TAB Hinzufügen eines Push zu einer Journey]
+>[!TAB Hinzufügen einer Push-Benachrichtigung zu einer Journey]
 
-1. Öffnen Sie die Journey und ziehen Sie eine Push-Aktivität per Drag-and-Drop aus dem Bereich Aktionen der Palette.
+1. Öffnen Sie die Journey und platzieren Sie per Drag-and-Drop eine Push-Aktivität aus dem Bereich „Aktionen“ der Palette.
 
    ![](assets/push_create_1.png)
 
-1. Geben Sie grundlegende Informationen zu Ihrer Nachricht ein (Titel, Beschreibung, Kategorie) und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
+1. Geben Sie allgemeine Informationen (Titel, Beschreibung, Kategorie) zu Ihrer Nachricht ein und wählen Sie dann die zu verwendende Nachrichtenoberfläche aus.
 
    ![](assets/push_create_2.png)
 
    >[!NOTE]
    >
-   >Wenn Sie eine Push-Benachrichtigung von einer Journey senden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie mit der Sendezeitoptimierung arbeiten.](../building-journeys/journeys-message.md#send-time-optimization)
+   >Wenn Sie eine Push-Benachrichtigung aus einer Journey heraus versenden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen, um den besten Zeitpunkt für den Versand der Nachricht vorherzusagen und so die Kundenbindung basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie man mit der Sendezeitoptimierung arbeitet](../building-journeys/journeys-message.md#send-time-optimization)
 
-   Weitere Informationen zum Konfigurieren einer Journey finden Sie unter [diese Seite](../building-journeys/journey-gs.md)
+   Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
-1. Klicken Sie im Journey-Konfigurationsbildschirm auf das **[!UICONTROL Inhalt bearbeiten]** Schaltfläche zum Konfigurieren des Push-Inhalts. [Push-Benachrichtigung erstellen](design-push.md)
+1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Journey auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
 1. Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen.
 
-1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) , um es zu versenden.
+1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) ab.
 
-   Um das Verhalten Ihrer Empfänger über Push-Öffnungen und/oder Interaktionen zu verfolgen, stellen Sie sicher, dass die dedizierten Optionen im Tracking-Abschnitt im Abschnitt [E-Mail-Aktivität](../building-journeys/journeys-message.md).
+   Um das Verhalten der Empfänger anhand des Öffnens von Push-Benachrichtigungen und/oder anhand von Interaktionen zu verfolgen, stellen Sie sicher, dass die entsprechenden Optionen im Tracking-Abschnitt der [E-Mail-Aktivität](../building-journeys/journeys-message.md) aktiviert sind.
 
 >[!TAB Hinzufügen einer Push-Benachrichtigung zu einer Kampagne]
 
-1. Erstellen Sie eine neue geplante oder API-gesteuerte Kampagne und wählen Sie **[!UICONTROL Push-Benachrichtigung]** als Aktion und wählen Sie die **[!UICONTROL Anwendungsoberfläche]** verwendet werden. [Weitere Informationen zur Push-Konfiguration](push-configuration.md).
+1. Erstellen Sie eine neue geplante oder durch eine API ausgelöste Kampagne, wählen Sie als Aktion **[!UICONTROL Push-Benachrichtigung]** aus und wählen Sie die **[!UICONTROL App-Benutzeroberfläche]**, die verwendet werden soll. [Weitere Informationen zur Konfiguration von Push-Benachrichtigungen](push-configuration.md).
 
    ![](assets/push_create_3.png)
 
@@ -72,20 +72,20 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
 1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
-1. Aus dem **[!UICONTROL Action Triggers]** Menü, wählen Sie die **[!UICONTROL Häufigkeit]** Ihrer Push-Benachrichtigung:
+1. Wählen Sie im Menü **[!UICONTROL Aktionsauslöser]** die **[!UICONTROL Häufigkeit]** Ihrer Push-Benachrichtigung:
 
    * Einmal
    * Täglich
    * Wöchentlich
    * Monatlich
 
-1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche zum Konfigurieren des Push-Inhalts. [Push-Benachrichtigung erstellen](design-push.md)
+1. Zum Konfigurieren des Inhalts der Push-Benachrichtigung klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**. [Gestalten einer Push-Benachrichtigung](design-push.md)
 
 1. Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen.
 
-1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie die Konfiguration Ihrer [Kampagne](../campaigns/create-campaign.md) , um es zu versenden.
+1. Wenn Ihre Push-Benachrichtigung fertig ist, schließen Sie zum Versenden die Konfiguration Ihrer [Kampagne](../campaigns/create-campaign.md) ab.
 
-   Um das Verhalten Ihrer Empfänger über Push-Öffnungen und/oder Interaktionen zu verfolgen, stellen Sie sicher, dass die dedizierten Optionen im Tracking-Abschnitt im Abschnitt [Kampagne](../campaigns/create-campaign.md).
+   Um das Verhalten der Empfänger anhand des Öffnens von Push-Benachrichtigungen und/oder anhand von Interaktionen zu verfolgen, stellen Sie sicher, dass die entsprechenden Optionen im Tracking-Abschnitt der [Kampagne](../campaigns/create-campaign.md) aktiviert sind.
 
 >[!ENDTABS]
 
@@ -99,7 +99,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Schnellversand-Modus"
->abstract="Schnellversand-Modus ermöglicht den Versand von Nachrichten mit hoher Geschwindigkeit über den Push-Kanal an eine Audience von weniger als 30 Millionen Mitgliedern."
+>abstract="Im Modus Schnellversand können Sie Hochgeschwindigkeits-Nachrichten an Push-Kanäle mit einer Zielgruppengröße von unter 30 M senden."
 
 Der Schnellversand-Modus, der in Journeys früher als Burst-Modus bezeichnet wurde, ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht.
 
@@ -114,7 +114,7 @@ Für Nachrichten mit Schnellversand gelten folgende Anforderungen:
 * Der Schnellversand ist nur für **[!UICONTROL geplante]** Kampagnen verfügbar und nicht für Kampagnen, die über eine API ausgelöst werden.
 * In der Push-Benachrichtigung ist keine Personalisierung zulässig,
 * Die Audience muss weniger als 30 Millionen Profile enthalten.
-* Im Modus Schneller Versand können Sie bis zu fünf Kampagnen gleichzeitig ausführen.
+* Im Schnellversand-Modus können Sie bis zu 5 Kampagnen gleichzeitig ausführen.
 
 ### Aktivieren des Schnellversand-Modus
 

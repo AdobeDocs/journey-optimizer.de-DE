@@ -11,11 +11,11 @@ exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Codieren Ihres eigenen Inhalts {#code-content}
+# Programmieren von eigenem Inhalt {#code-content}
 
 Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu importieren und/oder Ihren E-Mail-Inhalt zu codieren. Diese Methode setzt HTML-Kenntnisse voraus.
 
@@ -25,7 +25,7 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu 
 >
 > Bilder von [Adobe Experience Manager Assets Essentials](assets-essentials.md) können bei dieser Methode nicht referenziert werden. Die Bilder, auf die im HTML-Code verwiesen wird, müssen an einem öffentlichen Speicherort abrufbar sein.
 
-1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL Eigene Code]**.
+1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL Eigenen Code erstellen]**.
 
    ![](assets/code-your-own.png)
 

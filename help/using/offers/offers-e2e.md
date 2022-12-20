@@ -38,13 +38,13 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
       * Fügen Sie für jedes Angebot eine Regel hinzu.
       * Definieren Sie für jedes Angebot eine Priorität.
 
-1. [Erstellen Sie ein Fallback-Angebot.](#create-fallback)
+1. [Erstellen eines Fallback-Angebotes](#create-fallback)
 
 1. [Erstellen Sie eine Sammlung](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
 
 1. [Konfigurieren Sie die Entscheidung.](#configure-decision)
 
-   * Erstellen Sie eine Entscheidung.
+   * Erstellen einer Entscheidung
    * Wählen sie die von Ihnen erstellten Platzierungen aus.
    * Wählen Sie für jede Platzierung die Sammlung aus.
    * Wählen Sie für jede Platzierung ein Ranking aus (optional).
@@ -155,9 +155,9 @@ Jetzt können Sie Ihre Angebote erstellen und konfigurieren. In diesem Beispiel 
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren von Angeboten werden in [diesem Abschnitt](../../using/offers/offer-library/creating-personalized-offers.md) beschrieben.
 
-## Fallback-Angebot erstellen {#create-fallback}
+## Erstellen eines Fallback-Angebotes {#create-fallback}
 
-1. Erstellen Sie ein Fallback-Angebot.
+1. Erstellen eines Fallback-Angebotes
 
 1. Definieren Sie mit den passenden Assets dieselben Darstellungen wie für die Angebote (die Assets sollten sich von den in Ihren Angeboten verwendeten unterscheiden).
 
@@ -177,7 +177,7 @@ Ihr Fallback-Angebot kann jetzt in einer Entscheidung verwendet werden.
 
 Die detaillierten Schritte zum Erstellen und Konfigurieren eines Fallback-Angebots werden in [diesem Abschnitt](../../using/offers/offer-library/creating-fallback-offers.md) beschrieben.
 
-## Sammlung erstellen {#create-collection}
+## Erstellen einer Sammlung {#create-collection}
 
 Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebote als Teil einer Sammlung hinzufügen.
 
@@ -197,7 +197,7 @@ Diese Kombination wird vom Decisioning-Modul verwendet, um das beste Angebot fü
 
 Gehen Sie wie folgt vor, um eine Angebotsentscheidung zu erstellen und zu konfigurieren:
 
-1. Erstellen Sie eine Entscheidung. Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Erstellen einer Entscheidung Weiterführende Informationen finden Sie in diesem [Abschnitt](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Wählen Sie die Platzierungen *Web – Bild*, *E-Mail – Bild* und *Nicht digital – Text* aus.
 

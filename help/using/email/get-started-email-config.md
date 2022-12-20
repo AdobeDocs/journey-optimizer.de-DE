@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der E-Mail-Konfiguration
-description: Weitere Informationen zur E-Mail-Konfiguration finden Sie in [!DNL Journey Optimizer]
+title: Erste Schritte bei der E-Mail-Konfiguration
+description: Weitere Informationen zur E-Mail-Konfiguration in  [!DNL Journey Optimizer]
 role: Admin
 level: Intermediate
 feature: Application Settings
@@ -11,28 +11,28 @@ exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit der E-Mail-Konfiguration {#get-starte-email-config}
+# Erste Schritte bei der E-Mail-Konfiguration {#get-starte-email-config}
 
-So können Sie E-Mails über Journey und Kampagnen in senden [!DNL Journey Optimizer]müssen Sie eine Reihe von Konfigurationsschritten durchlaufen.
+Damit während Journeys und Kampagnen E-Mails aus [!DNL Journey Optimizer] versendet werden zu können, müssen Sie eine Reihe von Konfigurationsschritten durchlaufen.
 
-1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, delegieren Sie zunächst an Adobe die Subdomains, mit denen Sie Ihre E-Mails senden möchten [!DNL Journey Optimizer]. Diese Subdomains bestimmen Elemente wie die zu verfolgenden Webseiten und die Mirrorseiten-URLs. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
+1. Um eine optimale Zustellbarkeit zu gewährleisten und Ihre Reputation zu schützen, delegieren Sie zunächst die Subdomains, die Sie für den Versand Ihrer E-Mails mit [!DNL Journey Optimizer] verwenden möchten, an Adobe. Diese Subdomains bestimmen Elemente wie etwa die zu verfolgenden Web-Seiten und die URLs von Mirrorseiten. [Weitere Informationen](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
-1. Verbessern Sie die Zustellbarkeit und Reputation Ihrer E-Mail, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](../configuration/ip-pools.md)
+1. Verbessern Sie die Zustellbarkeit Ihrer E-Mails und Ihre Reputation, indem Sie IP-Adressen gruppieren, die mit Ihrer Instanz bereitgestellt wurden. [Weitere Informationen](../configuration/ip-pools.md)
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Erstellen Sie Kanaloberflächen und wählen Sie die **[!UICONTROL Email]** -Kanal. [Weitere Informationen](../configuration/channel-surfaces.md)
+1. Erstellen Sie Kanaloberflächen und wählen Sie den **[!UICONTROL E-Mail]**-Kanal aus. [Weitere Informationen](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. Konfigurieren Sie auf jeder E-Mail-Kanal-Oberfläche alle technischen Parameter, die für den Versand von E-Mails erforderlich sind. [Weitere Informationen](email-settings.md)
+1. Konfigurieren Sie auf jeder E-Mail-Kanaloberfläche alle technischen Parameter, die für die Zustellung von E-Mails erforderlich sind. [Weitere Informationen](email-settings.md)
 
    * Hier wählen Sie die Subdomain aus, die zum Senden der E-Mails verwendet werden soll, sowie die IP-Pools, die mit der Oberfläche verknüpft werden sollen. [Weitere Informationen](email-settings.md#subdomains-and-ip-pools)
 

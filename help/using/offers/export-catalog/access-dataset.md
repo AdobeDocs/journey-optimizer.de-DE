@@ -1,5 +1,5 @@
 ---
-title: Zugreifen auf den exportierten Angebotskatalog
+title: Zugriff auf den exportierten Angebotskatalog
 description: Erfahren Sie, wie Sie auf den Angebotskatalog auf Adobe Experience Platform zugreifen können, nachdem er exportiert wurde.
 feature: Offers
 topic: Integrations

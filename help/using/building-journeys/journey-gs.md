@@ -11,7 +11,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ### Eintritt{#entrance}
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für &quot;einen Schuss&quot;-Journey abwählen, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop betritt.
 
 Weitere Informationen zur Verwaltung des Profileintritts finden sich in [diesem Abschnitt](entry-management.md).
 

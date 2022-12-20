@@ -11,7 +11,7 @@ topic: Administration
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ ht-degree: 54%
 
 Beim erstmaligen Zugriff auf [!DNL Journey Optimizer] wird Ihnen eine Produktions-Sandbox bereitgestellt und je nach Vertrag eine bestimmte Anzahl von IPs zugewiesen.
 
-Um Ihre Journey erstellen und Nachrichten senden zu können, müssen Sie die folgenden Konfigurationsschritte ausführen.
+Um Journeys zu erstellen und Nachrichten zu versenden, müssen Sie die folgenden Konfigurationsschritte durchlaufen.
 
-## Nachrichten und Kanäle konfigurieren
+## Konfigurieren von Nachrichten und Kanälen
 
-1. Um Nachrichten erstellen und senden zu können, müssen Sie je nach Kanal bestimmte Konfigurationen durchführen.
+1. Um Nachrichten zu erstellen und zu senden, müssen Sie je nach Kanal bestimmte Konfigurationen durchführen.
 
-   * Für **Email** -Kanal verwenden, müssen Sie Subdomains an Adobe delegieren und IP-Pools erstellen, um IP-Adressen zu gruppieren. [Weitere Informationen](../email/get-started-email-config.md)
+   * Für den **E-Mail**-Kanal müssen Sie Subdomains an Adobe delegieren und IP-Pools erstellen, um IP-Adressen zu gruppieren. [Weitere Informationen](../email/get-started-email-config.md)
 
-   * Für **Push** -Kanal, müssen Sie Push-Benachrichtigungseinstellungen in beiden [!DNL Adobe Experience Platform] und [!DNL Adobe Experience Platform Launch]. [Weitere Informationen](../push/push-configuration.md)
+   * Für den **Push**-Kanal müssen Sie Push-Benachrichtigungseinstellungen sowohl in [!DNL Adobe Experience Platform] als auch in [!DNL Adobe Experience Platform Launch] definieren. [Weitere Informationen](../push/push-configuration.md)
 
-   * Für **SMS** -Kanal, müssen Sie Ihre Instanz so konfigurieren, dass SMS gesendet wird, einschließlich der Integration der Provider-Einstellungen in [!DNL Journey Optimizer]. [Weitere Informationen](../sms/sms-configuration.md)
+   * Für den **SMS**-Kanal müssen Sie Ihre Instanz so konfigurieren, dass SMS gesendet werden, einschließlich der Integration der Provider-Einstellungen in [!DNL Journey Optimizer]. [Weitere Informationen](../sms/sms-configuration.md)
 
-1. Anschließend müssen Sie **Kanaloberflächen** um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Weitere Informationen](channel-surfaces.md)
+1. Anschließend müssen Sie **Kanaloberflächen** erstellen, um alle technischen Parameter zu konfigurieren, die für den Nachrichtenversand erforderlich sind. [Weitere Informationen](channel-surfaces.md)
 
 1. Alternativ können Sie auch folgendermaßen vorgehen:
 
    * Verwalten Sie die Anzahl der Tage, in denen weitere Zustellversuche unternommen werden, bevor E-Mail-Adressen an die Unterdrückungsliste gesendet werden. [Weitere Informationen](manage-suppression-list.md)
 
-   * Aktivieren Sie die **BBC-E-Mail-Option** , um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
+   * Aktivieren Sie die **BBC-E-Mail-Option**, um eine Kopie der an Einzelpersonen gesendeten Nachrichten aufzubewahren. [Weitere Informationen](archiving-support.md#enable-bcc)
 
-   * Konfigurieren **Frequenzregeln** um zu vermeiden, dass Ihre Empfänger überfordert werden. [Weitere Informationen](frequency-rules.md)
+   * Konfigurieren Sie **Häufigkeitsregeln**, um zu vermeiden, dass Ihre Empfänger übermäßig viele Nachrichten erhalten. [Weitere Informationen](frequency-rules.md)
 
    * Bestimmen Sie, welche E-Mail-Adresse und/oder Telefonnummer für Ihre Empfänger vorrangig verwendet werden soll, wenn in Adobe Experience Platform mehrere Adressen/Nummern verfügbar sind. [Weitere Informationen](primary-email-addresses.md)
 
@@ -52,7 +52,7 @@ Um Ihre Journey erstellen und Nachrichten senden zu können, müssen Sie die fol
 
 ## Konfigurieren von Journeys
 
-Um Journey zu erstellen, müssen Sie **[!UICONTROL Data Sources]**, **[!UICONTROL Veranstaltungen]** und **[!UICONTROL Aktionen]**. [Weitere Informationen](about-data-sources-events-actions.md)
+Um Journeys zu erstellen, müssen Sie **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren. [Weitere Informationen](about-data-sources-events-actions.md)
 
 ![](assets/admin-menu.png)
 

@@ -11,15 +11,15 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Nachrichtenvorschau und Testversand {#preview-and-proof}
 
-Sobald Ihr E-Mail-Inhalt definiert wurde, können Sie mithilfe von Testprofilen die Vorschau anzeigen und testen. Wenn Sie [personalisierten Inhalt](../personalization/personalize.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Nachdem der Inhalt der E-Mail definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie [personalisierten Inhalt](../personalization/personalize.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktuellen Inhalt zu validieren.
+Um mögliche Fehler im E-Mail-Inhalt oder bei Personalisierungseinstellungen zu erkennen, führen Sie einen Testversand an Testprofile durch. Bei jeder Änderung sollte ein Testversand durchgeführt werden, um den aktualisierten Inhalt zu validieren.
 
 >[!CAUTION]
 >
@@ -27,7 +27,7 @@ Um mögliche Fehler in E-Mail-Inhalt oder bei Personalisierungseinstellungen zu 
 >
 >Auf [dieser Seite](../segment/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen.
 
-Um Ihren E-Mail-Inhalt zu testen, gehen Sie folgendermaßen vor:
+Zum Testen des E-Mail-Inhalts sind folgende Schritte erforderlich:
 
 * [Auswählen der Testprofile](#select-test-profiles)
 * [Überprüfen der Nachrichtenvorschau](#preview-your-messages)
@@ -48,18 +48,18 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >id="ac_preview_testprofiles"
 >title="Nachrichtenvorschau und Testversand"
 >abstract="Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="E-Mail-Rendering"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Vorschau"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#email-rendering" text="E-Mail-Rendering"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#preview-email" text="Vorschau"
 
 Verwenden Sie [Testprofile](../segment/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
-1. Im [Inhalt bearbeiten](create-email.md#define-email-content) oder in Email Designer auf das **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um auf die Auswahl des Testprofils zuzugreifen.
+1. Klicken Sie auf dem Bildschirm [Inhalt bearbeiten](create-email.md#define-email-content) oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um auf die Auswahl der Testprofile zuzugreifen.
 
    ![](assets/email-preview-button.png)
 
-1. Auswählen **[!UICONTROL Verwalten von Testprofilen]**.
+1. Wählen Sie **[!UICONTROL Testprofile verwalten]** aus.
 
    ![](assets/email-preview_manage-test-profiles.png)
 
@@ -75,21 +75,21 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/preview-email-namespace.png)
 
-1. Im **[!UICONTROL Identitätswert]** Geben Sie den Wert (hier die E-Mail-Adresse) ein, um das Testprofil zu identifizieren, und klicken Sie auf **[!UICONTROL Profil hinzufügen]**.
+1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert (hier die E-Mail-Adresse) ein, um das Testprofil zu identifizieren, und klicken Sie auf **[!UICONTROL Profil hinzufügen]**.
 
    <!--![](assets/preview-identity-value.png)-->
 
-1. Wenn Sie Ihrer Nachricht eine Personalisierung hinzugefügt haben, fügen Sie weitere Profile hinzu, damit Sie je nach Profildaten unterschiedliche Varianten der Nachricht testen können. Nach dem Hinzufügen werden Profile unter den ausgewählten Feldern aufgeführt.
+1. Wenn Sie Ihrer Nachricht personalisierten Inhalt hinzugefügt haben, fügen Sie weitere Testprofile hinzu, damit Sie verschiedene Varianten der Nachricht anhand unterschiedlicher Profildaten testen können. Anschließend werden die hinzugefügten Profile unter den ausgewählten Feldern aufgelistet.
 
    ![](assets/preview-profile-list.png)
 
-   Basierend auf den Personalisierungselementen der Nachricht zeigt diese Liste Daten zu den einzelnen Testprofilen in den entsprechenden Spalten an.
+   Basierend auf den Personalisierungselementen der Nachricht werden in dieser Liste Daten zu den einzelnen Testprofilen in den entsprechenden Spalten angezeigt.
 
 ### Vorschau einer E-Mail {#preview-email}
 
-Einmal [Testprofile](#select-test-profiles) ausgewählt sind, können Sie eine Vorschau Ihres E-Mail-Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
+Nach der Auswahl von [Testprofilen](#select-test-profiles) können Sie eine Vorschau des E-Mail-Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
 
-1. Im [Inhalt bearbeiten](create-email.md#define-email-content) oder in Email Designer auf das **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Klicken Sie auf dem Bildschirm [Inhalt bearbeiten](create-email.md#define-email-content) oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
 1. Wählen Sie ein Testprofil aus. Überprüfen Sie die in den Spalten aufgeführten Werte. Verwenden Sie die Pfeile nach rechts oder links, um Daten zu durchsuchen.
 
@@ -97,7 +97,7 @@ Einmal [Testprofile](#select-test-profiles) ausgewählt sind, können Sie eine V
 
    >[!NOTE]
    >
-   >Um weitere Testprofile hinzuzufügen, wählen Sie **[!UICONTROL Verwalten von Testprofilen]**. [Weitere Informationen](#select-test-profiles)
+   >Um weitere Testprofile hinzuzufügen, wählen Sie **[!UICONTROL Testprofile verwalten]** aus. [Weitere Informationen](#select-test-profiles)
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Daten auswählen]** über der Liste, um Spalten hinzuzufügen oder zu entfernen.
 
@@ -119,7 +119,7 @@ Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigs
 
 Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Testversand starten.
 
-1. Im **[!UICONTROL Simulieren]** auf das **[!UICONTROL Testversand durchführen]** Schaltfläche.
+1. Klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testversand durchführen]**.
 
    ![](assets/send-proof-button.png)
 
@@ -133,13 +133,13 @@ Sobald [Testprofile](#select-test-profiles) ausgewählt sind, können Sie den Te
 
    Die Anzahl der Testversandnachrichten, die jeder Empfänger erhält, entspricht der Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
 
-1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen wie . - _ ( ) [ ] sind als Präfix für die Betreffzeile zulässig.
+1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, wie etwa . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
 
 1. Klicken Sie auf **[!UICONTROL Testversand durchführen]**.
 
    ![](assets/send-proof-select.png)
 
-1. Zurück im  **[!UICONTROL Simulieren]** auf das  **[!UICONTROL Testsendungen anzeigen]** -Schaltfläche, um den Status zu überprüfen.
+1. Um den Status zu prüfen, klicken Sie im Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Testsendungen anzeigen]**.
 
    ![](assets/send-proof-view.png)
 
@@ -147,9 +147,9 @@ Es wird empfohlen, nach jeder Änderung am Nachrichteninhalt Testsendungen durch
 
 >[!NOTE]
 >
->Im gesendeten Testversand ist der Link zur Mirrorseite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
+>Bei Testsendungen ist der Link zur Mirror-Seite nicht aktiv. Er wird erst in den endgültigen Nachrichten aktiviert.
 
-## E-Mail-Rendering verwenden {#email-rendering}
+## Verwenden von E-Mail-Rendering {#email-rendering}
 
 Nutzen Sie Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um das **E-Mail-Rendering** in populären E-Mail-Clients zu überprüfen.
 
@@ -160,9 +160,9 @@ Um die Rendering-Funktionen für E-Mails zu nutzen, müssen Sie
 
 Anschließend gehen Sie wie folgt vor:
 
-1. Im [Inhalt bearbeiten](create-email.md#define-email-content) oder in Email Designer auf das **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Klicken Sie im Bildschirm [Inhalt bearbeiten](create-email.md#define-email-content) oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
-1. Wählen Sie die **[!UICONTROL E-Mail rendern]** Schaltfläche.
+1. Wählen Sie die Schaltfläche **[!UICONTROL E-Mail rendern]** aus.
 
    ![](assets/email-rendering-button.png)
 
@@ -186,6 +186,6 @@ Anschließend gehen Sie wie folgt vor:
 
 ## Anleitungsvideo {#video-preview}
 
-Hier erfahren Sie, wie Sie das E-Mail-Rendering über Postfächer hinweg testen, wie Sie Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und Testsendungen durchführen können.
+Hier erfahren Sie, wie Sie das E-Mail-Rendering für mehrere Posteingänge testen, Ihre personalisierten E-Mails mit Testprofilen in der Vorschau anzeigen und Testsendungen durchführen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

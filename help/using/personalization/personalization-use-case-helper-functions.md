@@ -334,7 +334,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 * [Zeichenfolgen-Funktionen](functions/string.md)
 
-### Anwendungsbeispiele {#use-case}
+### Anwendungsfälle {#use-case}
 
 * [Personalisierung mit Profilinformationen, Kontext und Angebot](personalization-use-case.md)
 
