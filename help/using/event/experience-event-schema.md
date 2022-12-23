@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 92%
 
 ---
 
@@ -79,6 +79,16 @@ In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen 
 * bei Verwendung von Bedingungen in einer Journey – [weitere Informationen](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * in der Personalisierung von Nachrichten – [weitere Informationen](../event/experience-event-schema.md#message_personalization)
 * in der Personalisierung benutzerdefinierter Aktionen – [weitere Informationen](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Arrays{#relationships_limitations}
+
+Sie können eine Schemabeziehung für ein Array von Zeichenfolgen definieren, z. B. eine Liste von Produkt-IDs.
+
+![](assets/schema15.png)
+
+Es ist jedoch nicht möglich, eine Schemabeziehung mit einem -Attribut innerhalb einer Gruppe von Objekten zu definieren, z. B. eine Liste mit Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journey nicht verfügbar (Bedingungen, benutzerdefinierte Aktionen usw.) und Nachrichtenpersonalisierung.
+
+![](assets/schema16.png)
 
 ### Ereigniskonfiguration{#unitary_event_configuration}
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '975'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,9 @@ Bei unitären Ereignissen sind zwei Typen von Ereignis-IDs möglich:
 
 * **Systemgenerierte** Ereignisse: für diese Ereignisse ist eine eventID erforderlich. Dieses eventID-Feld wird beim Erstellen des Ereignisses automatisch generiert. Das System, das das Ereignis per Push sendet, sollte keine ID generieren, sondern die ID übergeben, die in der Payload-Vorschau verfügbar ist.
 
-Journey Optimizer erfordert, dass Ereignisse in Adobe Experience Platform gestreamt oder in Batches aufgenommen werden. Diese Daten müssen nicht unbedingt an das Echtzeit-Profil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung oder Suche in einer separaten Journey verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
+>[!NOTE]
+>
+>Journey Optimizer erfordert, dass Ereignisse an den Datenerfassungs-Core-Service (DCCS) gestreamt werden, damit Journey Trigger werden können. Ereignisse, die in Batches oder Ereignissen aus internen Journey Optimizer-Datensätzen erfasst werden (Nachrichten-Feedback, E-Mail-Tracking usw.) kann nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, in denen Sie keine Streaming-Ereignisse erhalten können, erstellen Sie ein Segment, das auf diesen Ereignissen basiert, und verwenden Sie die **Segment lesen** Aktivität. Die Segmentqualifizierung kann technisch verwendet werden, kann jedoch basierend auf den verwendeten Aktionen zu nachgelagerten Herausforderungen führen. Diese Daten müssen nicht unbedingt an das Echtzeit-Profil gesendet werden. Wenn Sie die Ereignisse zur Segmentierung oder Suche in einer separaten Journey verwenden möchten, empfehlen wir, den Datensatz für das Profil zu aktivieren.
 
 ## Datenzyklus {#data-cycle}
 
