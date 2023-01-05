@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 87%
 
 ---
 
@@ -48,6 +48,21 @@ Benutzer*innen mit der Berechtigung **[!UICONTROL Anzeigen von Häufigkeitsregel
 Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](../administration/high-low-permissions.md).
 
 ## Erstellen einer Regel {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="Wählen Sie die Kategorie der Nachrichtenregel aus"
+>abstract="Bei Aktivierung und Anwendung auf eine Nachricht werden alle Häufigkeitsregeln, die der ausgewählten Kategorie entsprechen, automatisch auf diese Nachricht angewendet. Derzeit ist nur die Kategorie Marketing verfügbar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="Legen Sie die Begrenzung für Ihre Regel fest."
+>abstract="Geben Sie an, wie viele Nachrichten maximal jeden Monat an ein Kundenprofil gesendet werden. Die Begrenzung der Häufigkeit basiert auf einem monatlichen Kalenderzeitraum und wird zu Beginn jedes Monats zurückgesetzt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="Definieren der Kanäle, für die die Regel gilt"
+>abstract="Wählen Sie mindestens einen Kanal aus. Die Begrenzung gilt für alle Kanäle als Gesamtanzahl."
 
 Gehen Sie wie folgt vor, um eine neue Regel zu erstellen.
 
@@ -115,26 +130,23 @@ Der Status der Regel ändert sich in **[!UICONTROL Inaktiv]** und die Regel wird
 
 Gehen Sie wie folgt vor, um eine Häufigkeitsregel auf eine Nachricht anzuwenden.
 
-1. Erstellen Sie eine Nachricht, indem Sie einen der Kanäle auswählen, den Sie für Ihre Regel definiert haben.
+1. Beim Erstellen einer [Journey](../building-journeys/journey-gs.md), fügen Sie eine Nachricht hinzu, indem Sie einen der Kanäle auswählen, die Sie für Ihre Regel definiert haben.
 
 1. Wählen Sie die Kategorie aus, die Sie für die [von Ihnen erstellte Regel](#create-new-rule) definiert haben.
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >Derzeit ist nur die Kategorie **[!UICONTROL Marketing]** für Häufigkeitsregeln für Nachrichten verfügbar.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. Sie können auf die **[!UICONTROL Frequenzregel]** -Link, um den Bildschirm mit den Häufigkeitsregeln in einer neuen Registerkarte anzuzeigen. [Weitere Informationen](#access-rules)
 
-1. Alle Häufigkeitsregeln, die mit der ausgewählten Kategorie und den ausgewählten Kanälen übereinstimmen, werden automatisch auf diese Nachricht angewendet.
+   Alle Häufigkeitsregeln, die mit der ausgewählten Kategorie und den ausgewählten Kanälen übereinstimmen, werden automatisch auf diese Nachricht angewendet.
 
    >[!NOTE]
    >
-   >Nachrichten <!--that do not have any selected category or messages -->, bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln bewertet.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >Nachrichten , bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln bewertet.
 
 1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [globalen Bericht](../reports/global-report.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Häufigkeitsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
 

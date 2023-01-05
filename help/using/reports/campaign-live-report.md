@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 95%
 
 ---
 
 # Live-Bericht einer Kampagne {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Live-Bericht einer Kampagne"
+>abstract="Der Live-Bericht &quot;Campaign&quot;ermöglicht es Ihnen, die Wirkung und Leistung Ihrer Kampagnen in Echtzeit nur in den letzten 24 Stunden zu messen und zu visualisieren. Ihr Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
 Über die Schaltfläche **[!UICONTROL Live-Ansicht]** können Sie direkt in Ihrer Campaign-Instanz auf den Live-Bericht in Campaign zugreifen.
 
@@ -25,7 +30,6 @@ Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Regis
 * [E-Mail](#email-live)
 * [Push-Benachrichtigung](#push-live)
 * [SMS](#sms-live)
-
 
 Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/live-report.md#modify-dashboard).
 

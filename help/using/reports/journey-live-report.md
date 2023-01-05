@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 96%
 
 ---
 
 # Live-Bericht zur Journey {#journey-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_live_report"
+>title="Live-Bericht zur Journey"
+>abstract="Mit dem Journey-Live-Bericht können Sie die Wirkung und Leistung Ihrer Journey erst in den letzten 24 Stunden messen und in Echtzeit visualisieren. Ihr Bericht ist in verschiedene Widgets unterteilt, in denen Ihr Erfolg und Ihre Fehler detailliert beschrieben werden. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
 Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den Journey-Live-Bericht zugreifen.
 

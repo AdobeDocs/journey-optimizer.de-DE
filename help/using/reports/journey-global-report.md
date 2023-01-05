@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
-source-wordcount: '1977'
-ht-degree: 100%
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+workflow-type: tm+mt
+source-wordcount: '2022'
+ht-degree: 98%
 
 ---
 
 # Globaler Bericht zur Journey {#journey-global-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="Globaler Bericht zur Journey"
+>abstract="Mit dem Journey Global Report können Sie die Wirkung Ihrer Journey über einen bestimmten Zeitraum messen. Ihr Bericht ist in verschiedene Widgets unterteilt, in denen Ihr Erfolg und Ihre Fehler detailliert beschrieben werden. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
 Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** können Sie direkt von Ihrer Journey auf den globalen Bericht zur Journey zugreifen.
 
