@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Mit Adobe Journey Optimizer können Sie die in der Bibliothek erstellten bedingt
 
 Dynamische Inhalte können in jedem Feld erstellt werden, in dem Sie mithilfe des Ausdruckseditors Personalisierung hinzufügen können. Dazu gehören Betreffzeile, Links, Inhalte von Push-Benachrichtigungen oder die Darstellungen von Angeboten in Textform. [Erfahren Sie mehr über Personalisierungskontexte](personalization-contexts.md)
 
-Zusätzlich können Sie in Email Designer bedingte Regeln verwenden, um mehrere Varianten einer Inhaltskomponente zu erstellen.
+Zusätzlich können Sie in E-Mail-Designer bedingte Regeln verwenden, um mehrere Varianten einer Inhaltskomponente zu erstellen.
 
 ## Hinzufügen dynamischer Inhalte zu Ausdrücken {#perso-expressions}
 
@@ -57,9 +57,9 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 >title="Bedingter Inhalt"
 >abstract="Verwenden Sie eine in der Bibliothek gespeicherte bedingte Regel oder erstellen Sie eine neue."
 
-Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in Email Designer zu erstellen:
+Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer zu erstellen:
 
-1. Wählen Sie in Email Designer eine Inhaltskomponente aus und klicken Sie dann auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
+1. Wählen Sie in E-Mail-Designer eine Inhaltskomponente aus und klicken Sie dann auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
 
    ![](assets/conditions-enable-conditional.png)
 

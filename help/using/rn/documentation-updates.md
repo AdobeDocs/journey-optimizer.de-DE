@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
    * [Kanal für Push-Benachrichtigungen](../push/get-started-push.md)
    * [SMS-Kanal](../sms/get-started-sms.md)
 
-* Das Konfigurationshandbuch wurde neu organisiert, um die Lesbarkeit zu verbessern. [Mehr dazu](../configuration/get-started-configuration.md)
+* Das Konfigurationshandbuch wurde neu strukturiert, um die Verständlichkeit zu verbessern. [Mehr dazu](../configuration/get-started-configuration.md)
 
 ## November 2022 {#november-2022}
 
@@ -190,7 +190,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 21. August wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Die Berechtigungen für das Entscheidungs-Management wurden aktualisiert. [Mehr dazu](../administration/ootb-product-profiles.md)
-* Die Screenshots von Email Designer wurden mit den neuesten Optionen der Benutzeroberfläche aktualisiert.
+* Die Screenshots von E-Mail-Designer wurden mit den neuesten Optionen der Benutzeroberfläche aktualisiert.
 * Das Konfigurationsverfahren für benutzerdefinierte Aktionen mit dynamischen URL-Pfaden und dynamischen Headern wurde aktualisiert. [Mehr dazu](../action/about-custom-action-configuration.md#url-configuration)
 * Es wurde ein Abschnitt über barrierefreie Funktionen und Tastaturbefehle hinzugefügt. [Mehr dazu](../start/user-interface.md#accessibility)
 * Es wurde ein Abschnitt über Methoden zur Segmentprüfung hinzugefügt. [Mehr dazu](../segment/about-segments.md#evaluation-method-in-journey-optimizer)

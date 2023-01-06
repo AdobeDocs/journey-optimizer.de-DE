@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Segmentqualifikationsereignisse
+title: Segmentqualifizierungsereignisse
 description: Mehr über Segmentqualifikationsereignisse
 feature: Journeys
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    >[!NOTE]
    >
-   >Sie können nur einen personenbasierten Identitäts-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produkt-Suche), ist er nicht im **Namespace** Dropdown-Liste.
+   >Sie können nur einen personenbasierten Identity-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produktsuche), ist er nicht in der Dropdown-Liste **Namespace** verfügbar.
 
    ![](assets/segment7.png)
 

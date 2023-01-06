@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Hintergrundeinstellungen"
 >abstract="Sie können die Hintergrundfarbe oder das Hintergrundbild für Ihre Inhalte personalisieren. Beachten Sie, dass Hintergrundbilder nicht von allen E-Mail-Clients unterstützt werden."
 
-Für die Einstellung von Hintergründen mit Email Designer empfiehlt Adobe Folgendes:
+Für die Einstellung von Hintergründen mit E-Mail-Designer empfiehlt Adobe Folgendes:
 
 1. Wenden Sie eine Hintergrundfarbe auf den Hauptteil Ihrer E-Mail an, wenn das Design es so verlangt.
 1. In der Regel werden Hintergrundfarben auf Spaltenebene festgelegt.

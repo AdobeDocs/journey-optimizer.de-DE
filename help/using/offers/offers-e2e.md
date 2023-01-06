@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
 
 1. [Erstellen Sie eine Sammlung](#create-collection), in der die von Ihnen erstellten personalisierten Angebote zusammengefasst werden.
 
-1. [Konfigurieren Sie die Entscheidung.](#configure-decision)
+1. [Konfigurieren der Entscheidung](#configure-decision)
 
    * Erstellen einer Entscheidung
    * Wählen sie die von Ihnen erstellten Platzierungen aus.
@@ -189,7 +189,7 @@ Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebot
 
 Die detaillierten Schritte zum Erstellen einer Sammlung werden in [diesem Abschnitt](../../using/offers/offer-library/creating-collections.md) beschrieben.
 
-## Entscheidung konfigurieren {#configure-decision}
+## Konfigurieren der Entscheidung {#configure-decision}
 
 Jetzt müssen Sie eine Entscheidung erstellen, die Platzierungen mit den personalisierten Angeboten und dem soeben erstellten Fallback-Angebot kombiniert.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Ein **vollständiges Beispiel**, das zeigt, wie Angebote konfiguriert, in Entsch
 
 Gehen Sie wie folgt vor, um eine Entscheidung in eine E-Mail-Nachricht einzufügen:
 
-1. Erstellen Sie Ihre E-Mail und öffnen Sie dann Email Designer, um den Inhalt zu konfigurieren.
+1. Erstellen Sie Ihre E-Mail und öffnen Sie dann E-Mail-Designer, um den Inhalt zu konfigurieren.
 
 1. Fügen Sie die Inhaltskomponente **[!UICONTROL Angebotsentscheidung]** hinzu.
 

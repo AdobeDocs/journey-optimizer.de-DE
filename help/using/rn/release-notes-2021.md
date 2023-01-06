@@ -5,7 +5,7 @@ title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 100%
 
@@ -267,7 +267,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 **Benutzeroberfläche**
 
 * **Suche** – Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld „Einheitliches Experience Cloud“ durchsuchen. [Weitere Informationen](../start/user-interface.md#unified-search)
-* **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Mit diesem Update können Sie über  die kürzlich aufgerufenen Verknüpfungen auf Nachrichten, Journeys, Segmente, Schemata, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele zugreifen. [Weitere Informationen](../action/about-custom-action-configuration.md#passing-collection)
+* **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Mit diesem Update können Sie über die kürzlich aufgerufenen Verknüpfungen auf Nachrichten, Journeys, Segmente, Schemata, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele zugreifen. [Weitere Informationen](../action/about-custom-action-configuration.md#passing-collection)
 
 **Inhaltserstellung**
 
@@ -290,7 +290,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 ### Fehlerbehebungen
 
 * Fehlerkorrektur – Die Barrierefreiheit in der Navigation auf der Nachrichtenregisterkarte funktioniert jetzt fehlerfrei.
-* Fehlerkorrektur – Die Lokalisierung in den Email Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
+* Fehlerkorrektur – Die Lokalisierung in den E-Mail-Designer-Bezeichnungen funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Die Auswahl von mehr als einem Knoten in einer Journey und anschließendem Klicken auf „Löschen“ im Eigenschaftsfenster funktioniert jetzt fehlerfrei.
 * Fehlerkorrektur – Ein neuer Header kann jetzt zu einer in einer Journey verwendeten Aktion hinzugefügt werden.
 * Sie können jetzt durch eine präzisere Warnung in der Benutzeroberfläche feststellen, warum die Erstellung einer Nachrichtenvoreinstellung fehlgeschlagen ist.
@@ -361,4 +361,4 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 * Fehlerkorrektur – Im Bildschirm „PTR-Einträge“ fehlen jetzt keine IP-Informationen mehr.
 * Fehlerkorrektur – Die Lokalisierung in der Angebotsleiste im Ausdruckseditor ist jetzt implementiert.
 * Fehlerkorrektur – Der Abstand in Informations-Popups ist jetzt korrekt.
-* Fehlerkorrektur – Beim Hochladen einer HTML-Datei in Email Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.
+* Fehlerkorrektur – Beim Hochladen einer HTML-Datei in E-Mail-Designer wird jetzt das interne Stylesheet mit der Eigenschaft `background-image` unterstützt.

@@ -11,7 +11,7 @@ exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Pro Journey ist nur ein Namespace zulässig. Wenn Sie mehrere Ereignisse in ders
 
 >[!NOTE]
 >
->Sie können nur einen personenbasierten Identitäts-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produkt-Suche), ist er nicht im **Namespace** Dropdown-Liste.
+>Sie können nur einen personenbasierten Identity-Namespace auswählen. Wenn Sie einen Namespace für eine Suchtabelle definiert haben (z. B.: Produkt-ID-Namespace für eine Produktsuche), ist er nicht in der Dropdown-Liste **Namespace** verfügbar.
 
 ## Profilkennung definieren {#define-the-event-key}
 

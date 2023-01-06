@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -61,11 +61,11 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 ## Schritt 2: E-Mail erstellen{#configure-email}
 
-1. Klicken sie in der Aktivität **E-Mail** auf **[!UICONTROL Inhalt bearbeiten]** und anschließend auf **[!UICONTROL Email Designer]**.
+1. Klicken sie in der Aktivität **E-Mail** auf **[!UICONTROL Inhalt bearbeiten]** und anschließend auf **[!UICONTROL E-Mail-Designer]**.
 
    ![](assets/personalization-uc-helpers-1.png)
 
-1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von Email Designer in den Textkörper der Nachricht.
+1. Ziehen Sie drei Strukturkomponenten aus der linken Palette der Startseite von E-Mail-Designer in den Textkörper der Nachricht.
 
 1. Ziehen Sie eine HTML-Inhaltskomponente per Drag-and-Drop auf jede neue Strukturkomponente.
 
@@ -73,7 +73,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 ## Schritt 3: Vornamen des Kunden bzw. der Kundin in Großbuchstaben einfügen {#uppercase-function}
 
-1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
+1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -117,7 +117,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 1. Öffnen Sie den Nachrichteninhalt erneut.
 
-1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
+1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)
@@ -214,7 +214,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 ## Schritt 5: Eine produktspezifische Anmerkung einfügen {#if-helper}
 
-1. Klicken Sie auf der Startseite von Email Designer auf die HTML-Komponente, in der Sie die Anmerkung einfügen möchten.
+1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie die Anmerkung einfügen möchten.
 1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)

@@ -11,7 +11,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -82,11 +82,11 @@ In Journey Optimizer können Sie dann alle Felder aus den verknüpften Tabellen 
 
 ### Arrays{#relationships_limitations}
 
-Sie können eine Schemabeziehung für ein Array von Zeichenfolgen definieren, z. B. eine Liste von Produkt-IDs.
+Sie können eine Schemabeziehung für ein Zeichenfolgen-Array definieren, z. B. eine Liste von Produkt-IDs.
 
 ![](assets/schema15.png)
 
-Es ist jedoch nicht möglich, eine Schemabeziehung mit einem -Attribut innerhalb einer Gruppe von Objekten zu definieren, z. B. eine Liste mit Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journey nicht verfügbar (Bedingungen, benutzerdefinierte Aktionen usw.) und Nachrichtenpersonalisierung.
+Es ist jedoch nicht möglich, eine Schemabeziehung mit einem Attribut innerhalb einer Gruppe von Objekten zu definieren, z. B. einer Liste mit Kaufinformationen (Produkt-ID, Produktname, Preis, Rabatt). Die Suchwerte sind in Journeys (Bedingungen, benutzerdefinierte Aktionen usw.) und der Nachrichtenpersonalisierung nicht verfügbar.
 
 ![](assets/schema16.png)
 

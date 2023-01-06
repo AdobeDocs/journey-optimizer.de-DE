@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwe
 
 ## Verwenden einer gespeicherten Vorlage {#use-saved-template}
 
-1. Öffnen Sie den [Email Designer](content-from-scratch.md).
+1. Öffnen Sie den [E-Mail-Designer](content-from-scratch.md).
 
 1. Im Bildschirm **[!UICONTROL E-Mail erstellen]** ist standardmäßig die Registerkarte **[!UICONTROL Beispielvorlagen]** ausgewählt. Wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]**.
 
@@ -70,4 +70,4 @@ Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwe
 
 1. Klicken Sie auf **[!UICONTROL Diese E-Mail verwenden]** oben rechts im Bildschirm.
 
-1. Bearbeiten Sie die Inhalte nach Bedarf mit dem Email Designer.
+1. Bearbeiten Sie die Inhalte nach Bedarf mit dem E-Mail-Designer.

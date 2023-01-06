@@ -11,7 +11,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -25,21 +25,21 @@ ht-degree: 75%
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
 
-Um eine neue Kampagne zu erstellen, rufen Sie die **[!UICONTROL Kampagnen]** Menü und klicken Sie auf **[!UICONTROL Kampagne erstellen]**. Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
+Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen]** auf **[!UICONTROL Kampagne erstellen]**. Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
 
 ![](assets/create-campaign.png)
 
-## Kampagnentyp und -kanal auswählen {#campaigntype}
+## Auswählen von Kampagnentyp und -kanal {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Bei einer Marketing-Nachricht durch Angabe eines Versanddatums wird die **Geplant** type ist am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten wie das Zurücksetzen des Kennworts oder den Abbruch der Karte senden möchten, wird die Variable **API-ausgelöst** type ist die beste Wahl."
+>abstract="Bei einer Marketing-Nachricht, bei der das Versanddatum angegeben wird, ist der Typ **Geplant** am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten, wie etwa jene zum Zurücksetzen des Kennworts oder bei einem Warenkorbabbruch, senden möchten, ist der Typ **API-gesteuert** die beste Wahl."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp für die **Marketing** Kategorie und API-gesteuerter Typ für die Kategorie **Transactional**"
+>abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp „Geplant“ für die Kategorie **Marketing** und „API-gesteuert“ für die Kategorie **Transaktion**"
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 
@@ -47,7 +47,7 @@ Um eine neue Kampagne zu erstellen, rufen Sie die **[!UICONTROL Kampagnen]** Men
 
    * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen dienen dem Versand von Nachrichten des Typs **Transaktion**, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Zurücksetzen des Kennworts, Kündigung einer Karte usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
 
-1. Im **[!UICONTROL Aktionen]** wählen Sie den Kanal und die Kanaloberfläche aus, die für den Nachrichtenversand verwendet werden sollen.
+1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten.
 
    Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
@@ -57,9 +57,9 @@ Um eine neue Kampagne zu erstellen, rufen Sie die **[!UICONTROL Kampagnen]** Men
    >
    >In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
 
-1. Klicken **[!UICONTROL Erstellen]** , um die Kampagne zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Kampagne zu erstellen.
 
-## Kampagneneigenschaften definieren {#create}
+## Definieren der Kampagneneigenschaften {#create}
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an.
 
@@ -150,14 +150,14 @@ Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Ka
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Trigger für Kampagnenaktionen"
->abstract="Definieren Sie die Häufigkeit, mit der die Nachricht der Kampagne gesendet werden soll."
+>title="Auslöser für Kampagnenaktionen"
+>abstract="Definieren Sie, wie häufig die Nachricht der Kampagne gesendet werden soll."
 
 Standardmäßig starten Kampagnen, sobald sie manuell aktiviert wurden, und enden, sobald die Nachricht einmal gesendet wurde.
 
 Sie können aber auch festlegen, mit welcher Häufigkeit die Nachricht der Kampagne gesendet werden soll. Verwenden Sie dazu die Option **[!UICONTROL Aktions-Trigger]** im Bildschirm zur Kampagnenerstellung, um festzulegen, ob die Kampagne täglich, wöchentlich oder monatlich ausgeführt werden soll.
 
-Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie mithilfe der Variablen **[!UICONTROL Kampagnenstart]** -Option. Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne gestoppt werden soll.
+Wenn Sie Ihre Kampagne nicht direkt nach der Aktivierung ausführen möchten, können Sie das Datum und die Uhrzeit für den Versand der Nachricht mit der Option **[!UICONTROL Kampagnenstart]** angeben. Über die Option **[!UICONTROL Kampagnenende]** können Sie angeben, wann die Ausführung einer wiederkehrenden Kampagne beendet werden soll.
 
 ![](assets/create-campaign-schedule.png)
 

@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von
 
 ## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} aufgeführt.
+Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} aufgeführt.
 
 
 ## Beschränkungen bei Landingpages {#lp-guardrails}
@@ -70,7 +70,7 @@ Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werd
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
 * Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzvorkehrung, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-* Journey Optimizer erfordert, dass Ereignisse an den Datenerfassungs-Core-Service (DCCS) gestreamt werden, damit Journey Trigger werden können. Ereignisse, die in Batches oder Ereignissen aus internen Journey Optimizer-Datensätzen erfasst werden (Nachrichten-Feedback, E-Mail-Tracking usw.) kann nicht zum Trigger einer Journey verwendet werden. Für Anwendungsfälle, in denen Sie keine Streaming-Ereignisse erhalten können, erstellen Sie ein Segment, das auf diesen Ereignissen basiert, und verwenden Sie die **Segment lesen** Aktivität. Die Segmentqualifizierung kann technisch verwendet werden, kann jedoch basierend auf den verwendeten Aktionen zu nachgelagerten Herausforderungen führen.
+* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Ereignisse, die in Batches aufgenommen werden, oder Ereignissen aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie ein auf diesen Ereignissen basierendes Segment und verwenden Sie die Aktivität **Segment lesen**. Die Segmentqualifikation kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen.
 
 ### Datenquellen {#data-sources-g}
 

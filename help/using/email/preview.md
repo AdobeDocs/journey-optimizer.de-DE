@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 100%
 
@@ -63,11 +63,11 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/email-preview_manage-test-profiles.png)
 
-1. Wählen Sie den Namespace aus, der zur Identifizierung der Testprofile verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identitäts-Namespace]** klicken.
+1. Wählen Sie den Namespace, der zur Identifizierung von Testprofilen verwendet werden soll, indem Sie auf das Auswahlsymbol **[!UICONTROL Identity-Namespace]** klicken.
 
    ![](assets/previewselect-namespace.png)
 
-   Weitere Informationen zu Identitäts-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
+   Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
 
    Im folgenden Beispiel verwenden wir den Namespace **E-Mail**.
 

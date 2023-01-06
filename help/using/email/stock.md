@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Erste Schritte mit [!DNL Adobe Stock] {#get-started-stock}
 
-Das Plug-in für die Integration von Email Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
+Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} bietet Zugriff auf Millionen von hochwertigen, kuratierten, lizenzfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
 
@@ -35,9 +35,9 @@ Mehr dazu finden Sie in der [Dokumentation zu Assets Essentials](https://experie
 
 Gehen Sie wie folgt vor, um Bilder aus [!DNL Adobe Stock] zu Ihrem Inhalt hinzuzufügen:
 
-1. Ziehen Sie per Drag-and-Drop aus dem Abschnitt **[!UICONTROL Inhaltskomponenten]** des Email Designers ein **Bild** in den Arbeitsbereich.
+1. Ziehen Sie per Drag-and-Drop aus dem Abschnitt **[!UICONTROL Inhaltskomponenten]** des E-Mail-Designers ein **Bild** in den Arbeitsbereich.
 
-1. Klicken Sie auf der linken Seite im Email Designer auf **[!UICONTROL Adobe Stock-Fotos suchen]**.
+1. Klicken Sie auf der linken Seite im E-Mail-Designer auf **[!UICONTROL Adobe Stock-Fotos suchen]**.
 
    ![](assets/stock-find-photos.png)
 

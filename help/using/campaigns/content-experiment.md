@@ -13,7 +13,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhaltsexperiment"
->abstract="Sie können den Versandinhalt, den Betreff oder den Absender variieren, um mehrere Versandbehandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen."
+>abstract="Sie können den Versandinhalt, den Betreff oder den Absender abwandeln, um mehrere Versandmethoden zu definieren und die beste Kombination für Ihre Audiences zu ermitteln."
 
 >[!AVAILABILITY]
 >

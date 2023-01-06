@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="Definieren von E-Mail-Spalten"
->abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+>abstract="Mit E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -59,7 +59,7 @@ ht-degree: 100%
 >abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur definieren."
 
 
-Email Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
+E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
 
 Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu beginnen:
 
