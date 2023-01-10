@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >title="Abhängige Objekte"
 >abstract="Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt."
 
-Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Voreinstellungen), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](../building-journeys/copy-to-sandbox.md#limitations).
+Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Voreinstellungen), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Gehen Sie wie folgt vor, um eine Journey in eine andere Sandbox zu kopieren:
 
 ## Kopieren von Prozessen und Einschränkungen {#limitations}
 
-Wir garantieren nicht, dass alle verknüpften Elemente in die Ziel-Sandbox kopiert werden. Es wird dringend empfohlen, eine gründliche Überprüfung durchzuführen. Ermitteln Sie alle potenziellen fehlenden Objekte und erstellen Sie sie manuell, bevor Sie die Journey veröffentlichen.
+Möglicherweise werden nicht alle verknüpften Elemente in die Ziel-Sandbox kopiert. Adobe empfiehlt dringend, eine gründliche Prüfung durchzuführen. Ermitteln Sie alle potenziellen fehlenden Objekte und erstellen Sie sie manuell, bevor Sie die Journey veröffentlichen.
 
 Die folgenden Objekte werden kopiert:
 
