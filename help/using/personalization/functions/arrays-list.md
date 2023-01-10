@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -125,7 +125,7 @@ Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn si
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben.
+Der folgende Vorgang gibt die ersten fünf Bestellungen mit dem niedrigsten Preis zurück.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wen
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden die fünf häufigsten Bestellungen mit dem niedrigsten Preis zurückgegeben.
+Der folgende Vorgang gibt die letzten fünf Bestellungen mit dem höchsten Preis zurück.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
