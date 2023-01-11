@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,13 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >[!ENDTABS]
 
 ## Definieren des E-Mail-Inhalts {#define-email-content}
+
+<!-- update the quarry component with right ID value-->
+
+>[!CONTEXTUALHELP]
+>id="test_id"
+>title="E-Mail-Inhalt konfigurieren"
+>abstract="Erstellen Sie den Inhalt Ihrer E-Mail. Definieren Sie den Betreff und verwenden Sie dann Email Designer , um den Text der E-Mail zu erstellen und zu personalisieren."
 
 1. Klicken Sie auf dem Konfigurationsbildschirm der Journey oder Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der E-Mail zu konfigurieren. [Weitere Informationen](get-started-email-design.md)
 

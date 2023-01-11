@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 100%
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Anwendungsoberfläche"
+>title="Oberfläche"
 >abstract="Eine Oberfläche ist eine Konfiguration, die durch einen Systemadministrator definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw."
 
 Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvoreinstellungen) einrichten, die alle für Ihre Nachrichten erforderlichen technischen Parameter definieren: E-Mail-Typ, Absender-E-Mail und -Name, Mobile Apps, SMS-Konfiguration und mehr.

@@ -8,19 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Journey Optimizer {#cjm-gs}
-
->[!CONTEXTUALHELP]
->id="test_id"
->title="Testinhalt"
->abstract="Testen Sie den Inhalt für die Integration der kontextbezogenen Hilfe in AJO."
 
 ## Was ist [!DNL Adobe Journey Optimizer]?{#about-cjm}
 
