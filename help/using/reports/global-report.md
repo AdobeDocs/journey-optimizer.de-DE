@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 100%
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Metriken zu E-Mail und SMS             {#email-and-sms-metrics}
+### Dimensionen und Metriken für E-Mail und SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td>Besuche<br/> </td> 
    <td>Anzahl der Besuche auf einer Landingpage, einschließlich mehrfacher Besuche eines Empfängers.<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### Metriken zu Push-Benachrichtigungen            
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metrik<br/> </th> 
-   <th> Definition<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Aktionen<br/> </td> 
-   <td> Gesamtzahl der Aktionen, die bei der gesendeten Push-Benachrichtigung durchgeführt wurden, beispielsweise Klicken auf eine Schaltfläche oder Abbrechen.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Bounces<br/> </td> 
-   <td> Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Bounce-Rate<br/> </td> 
-   <td> Prozentsatz der Bounce-Push-Benachrichtigungen in Bezug auf die gesendeten Push-Benachrichtigungen.<br/> </td>
-</tr>
-  <tr> 
-   <td> Zugestellt<br/> </td> 
-   <td> Zahl der erfolgreich gesendeten Nachrichten im Verhältnis zur Gesamtzahl der gesendeten Nachrichten.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Zustellungsrate<br/> </td> 
-   <td> Anzahl der erfolgreich gesendeten Push-Benachrichtigungen.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Interaktionen<br/> </td> 
-   <td> Gesamtzahl der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Benachrichtigung geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Interaktionsrate<br/> </td> 
-   <td> Prozentualer Anteil der Öffnungen und Aktionen für diese Push-Benachrichtigung, also ob das Profil die Push-Nachricht geöffnet hat oder ob eine Schaltfläche angeklickt wurde.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Fehler<br/> </td> 
-   <td> Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Fehlerrate<br/> </td> 
-   <td> Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Ausgeschlossen<br/> </td> 
-   <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Öffnungen<br/> </td> 
-   <td> Gesamtzahl der Push-Benachrichtigungen, die an das Gerät gesendet und vom Benutzer angeklickt wurden, sodass die App geöffnet wurde. Dies ist ähnlich der Klick-Kategorie mit dem Unterschied, dass keine Push-Öffnung ausgelöst wird, wenn die Benachrichtigung verworfen wird.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Öffnungsrate<br/> </td> 
-   <td> Prozentsatz der geöffneten Push-Benachrichtigungen.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Gesendet<br/> </td> 
-   <td> Gesamtzahl der gesendeten Nachrichten<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Zielgruppe<br/> </td> 
-   <td> Gesamtzahl der Push-Nachrichten, die während der Versandanalyse verarbeitet wurden.<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
