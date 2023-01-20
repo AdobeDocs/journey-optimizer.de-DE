@@ -5,13 +5,14 @@ title: Informationen zu Aktionen
 description: Erfahren Sie, wie Sie eine Aktion konfigurieren
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: Aktionen, Journey, Nachrichten, senden, Verbindungen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 87%
 
 ---
 
@@ -30,7 +31,7 @@ Aktionen sind Verbindungen, über die Sie Kunden personalisierte Echtzeit-Erlebn
 
 Wenn Sie über Adobe Campaign v7 oder v8 verfügen, ist auf Anfrage eine Integration verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../action/acc-action.md).
 
-Wenn Sie zum Senden von Nachrichten ein Drittanbietersystem (z. B. Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase) verwenden, müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
+Wenn Sie ein Drittanbietersystem verwenden, um Nachrichten wie Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target="_blank"}, Firebase usw. müssen Sie eine benutzerdefinierte Aktion hinzufügen und konfigurieren. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
 Über benutzerdefinierte Aktionen können Sie die Verbindung eines Drittanbietersystems zum Senden von Nachrichten oder API-Aufrufen konfigurieren. Eine Aktion kann mit jedem Dienst eines beliebigen Anbieters konfiguriert werden, der über eine REST-API mit einer JSON-formatierten Payload aufgerufen werden kann.
 
