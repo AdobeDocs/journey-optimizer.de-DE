@@ -7,11 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: Schritte, Konfiguration, Journey, Ereignisse, Stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 100%
 
 Um Ereignisse zu konfigurieren, die an **[!UICONTROL Streaming-Aufnahme-APIs]** gesendet und in [!DNL Journey Optimizer] verwendet werden sollen, müssen Sie die folgenden Schritte ausführen:
 
-1. Rufen Sie die Inlet-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target=&quot;_blank&quot;}.
+1. Rufen Sie die Inlet-URL von Adobe Experience Platform-APIs ab. Weitere Informationen finden Sie unter [Übersicht über Streaming-Aufnahme-APIs](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=de){target="_blank"}.
 1. Kopieren Sie die Payload aus der Payload-Vorschau im Menü **[!UICONTROL Ereignis]**. Weiterführende Informationen finden Sie auf [dieser Seite](../event/about-creating.md#define-the-payload-fields).
 
 Konfigurieren Sie anschließend das Datensystem, das Ereignisse mithilfe der kopierten Payload an die Streaming-Aufnahme-APIs pusht:
@@ -87,6 +88,6 @@ Im Folgenden finden Sie ein Beispiel für ein Streaming-Aufnahme-API-Ereignis:
 }
 ```
 
-Um das Auffinden der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [JSON Formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Um das Auffinden der Stelle zu erleichtern, an der der „Daten“-Teil eingefügt werden soll, können Sie ein JSON-Visualisierungs-Tool verwenden, z. B. [JSON Formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target=&quot;_blank&quot;}.
+Informationen zur Fehlerbehebung bei Streaming-Aufnahme-APIs finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=de){target="_blank"}.

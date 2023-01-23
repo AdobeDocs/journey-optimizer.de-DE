@@ -7,11 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+keywords: Landingpage, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +127,7 @@ Um spezifische Inhalte zu definieren, die es den Nutzern ermöglichen, ihre Ausw
 
 ## Verwenden des primären Seitenkontexts {#use-primary-page-context}
 
-Sie können kontextbezogene Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
+Sie können kontextuelle Daten verwenden, die von einer anderen Seite innerhalb derselben Landingpage stammen.
 
 Wenn Sie zum Beispiel ein Kontrollkästchen<!-- or the submission of the page--> mit einer [Abonnementliste](subscription-list.md) auf der primären Landingpage verknüpfen, können Sie diese Abonnementliste auf der Unterseite „Vielen Dank“ verwenden.
 
@@ -138,7 +139,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie in der kontextbezogenen Symbolleiste **[!UICONTROL Personalisierung hinzufügen]**.
+1. Platzieren Sie den Mauszeiger auf der Unterseite an der Stelle, an der Sie den Text einfügen möchten, und wählen Sie in der kontextuellen Symbolleiste **[!UICONTROL Personalisierung hinzufügen]**.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 

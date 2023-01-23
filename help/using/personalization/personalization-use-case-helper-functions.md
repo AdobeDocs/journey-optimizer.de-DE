@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 99%
 
 ---
 
@@ -47,12 +48,12 @@ Führen Sie folgende Schritte aus:
 
 ## Schritt 1: Anfangsereignis und die zugehörige Journey erstellen {#create-context}
 
-Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müssen Sie einer Journey ein Anfangsereignis und die E-Mail hinzufügen, bevor Sie der E-Mail Warenkorb-spezifische Informationen hinzufügen können.
+Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen Sie einer Journey ein Anfangsereignis und die E-Mail hinzufügen, bevor Sie der E-Mail Warenkorb-spezifische Informationen hinzufügen können.
 
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target=&quot;_blank&quot;}.
+   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
@@ -74,7 +75,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 ## Schritt 3: Vornamen des Kunden bzw. der Kundin in Großbuchstaben einfügen {#uppercase-function}
 
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, der Sie den Vornamen des Kunden hinzufügen möchten.
-1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
@@ -105,7 +106,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target=&quot;_blank&quot;}.
+      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
@@ -118,7 +119,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Öffnen Sie den Nachrichteninhalt erneut.
 
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie den Inhalt des Warenkorbs auflisten möchten.
-1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
@@ -138,9 +139,9 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 1. Fügen Sie dem Ausdruck das Array `productListItems` hinzu:
 
    1. Entfernen Sie den Platzhalter „someArray“ aus dem Ausdruck.
-   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextattribute]**.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextuelle Attribute]**.
 
-      **[!UICONTROL Kontextattribute]** sind erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
+      **[!UICONTROL Kontextuelle Attribute]** sind erst verfügbar, nachdem der Journey-Kontext an die Nachricht übergeben wurde.
 
    1. Wählen Sie **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
@@ -215,7 +216,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 ## Schritt 5: Eine produktspezifische Anmerkung einfügen {#if-helper}
 
 1. Klicken Sie auf der Startseite von E-Mail-Designer auf die HTML-Komponente, in der Sie die Anmerkung einfügen möchten.
-1. Klicken Sie in der kontextbezogenen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
+1. Klicken Sie in der kontextuellen Symbolleiste auf **[!UICONTROL Quellcode anzeigen]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
@@ -251,7 +252,7 @@ Der Warenkorbinhalt ist kontextbezogene Information aus der Journey. Daher müss
 
 1. Fügen Sie der Bedingung das Produktname-Token hinzu:
    1. Entfernen Sie den Platzhalter „condition1“ aus dem Ausdruck.
-   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextattribute]**.
+   1. Wählen Sie im linken Menü die Option **[!UICONTROL Kontextuelle Attribute]**.
    1. Wählen Sie **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Ereignisse]** > ***[!UICONTROL event_name]*** aus und erweitern Sie dann den Knoten **[!UICONTROL productListItems]**.
 
       In diesem Beispiel steht *event_name* für den Namen Ihres Ereignisses.

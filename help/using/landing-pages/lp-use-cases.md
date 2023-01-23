@@ -7,11 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +96,7 @@ In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwalt
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
-Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target=&quot;_blank&quot;}.
+Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
 
 Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
 
@@ -130,7 +131,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
 1. [Erstellen sie eine E-Mail-Nachricht](../email/get-started-email-design.md) in einer Journey.
 
-1. Wählen Sie Text in Ihrem Inhalt aus und [fügen Sie mithilfe der kontextbezogenen Symbolleiste einen Link ](../email/message-tracking.md#insert-links) ein. Auch ein Link auf einer Schaltfläche kann verwendet werden.
+1. Wählen Sie Text in Ihrem Inhalt aus und fügen Sie mithilfe der kontextuellen Symbolleiste einen [Link ein](../email/message-tracking.md#insert-links). Auch ein Link auf einer Schaltfläche kann verwendet werden.
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -154,7 +155,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    * Die Profildaten werden aktualisiert und erhalten keine Nachrichten mehr von Ihrer Marke, es sei denn, das Profil meldet sich erneut an.
 
-Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 

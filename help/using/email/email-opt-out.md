@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Opt-out, E-Mail, Link, Abmeldung
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +44,7 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 1. Erstellen Sie eine Nachricht in einer Journey.
 
-1. Wählen Sie Text in Ihrem Inhalt aus und [fügen](../email/message-tracking.md#insert-links) Sie mithilfe der kontextbezogenen Symbolleiste einen Link ein.
+1. Wählen Sie Text in Ihrem Inhalt aus und fügen Sie mithilfe der kontextuellen Symbolleiste einen [Link ein](../email/message-tracking.md#insert-links).
 
    ![](assets/opt-out-insert-link.png)
 
@@ -59,7 +60,7 @@ Zunächst müssen Sie einen Abmelde-Link zu einer Nachricht hinzufügen. Gehen S
 
 ### Implementieren eines API-Aufrufs zum Opt-out {#opt-out-api}
 
-Damit Ihre Empfänger abgemeldet werden, wenn sie ihre Auswahl über die Landingpage senden, müssen Sie einen **Abonnement-API-Aufruf** über [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;} implementieren, um die Einstellungen der entsprechenden Profile zu aktualisieren.
+Damit sich Ihre Empfänger bei der Auswahl über die Landingpage abmelden können, müssen Sie eine **Abonnement-API-Aufruf** bis [Adobe Developer](https://developer.adobe.com/){target="_blank"} , um die Voreinstellungen der entsprechenden Profile zu aktualisieren.
 
 Dieser POST-Aufruf sieht wie folgt aus:
 
@@ -97,7 +98,7 @@ Hauptteil der Anfrage:
 }
 ```
 
-[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über den API-Aufruf von [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} zu aktualisieren
+[!DNL Journey Optimizer] verwendet diese Parameter, um die Auswahl des entsprechenden Profils über die [Adobe Developer](https://developer.adobe.com){target="_blank"} API-Aufruf.
 
 ### Senden der Nachricht mit Abmelde-Link {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ Nachdem Sie den Abmelde-Link für Ihre Landingpage konfiguriert und den API-Aufr
 
    Ab sofort erhält dieser Benutzer keine weitere Kommunikation von Ihrer Marke, es sei denn, er meldet sich erneut an.
 
-1. Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+1. Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolgt ist, öffnen Sie das Profil in Adobe Experience Platform, indem Sie einen Identity-Namespace und einen entsprechenden Identitätswert auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ Je nach E-Mail-Client hat das Klicken auf den Abmelde-Link in der Kopfzeile eine
    >
    >Wenn Sie keinen 1-Klick-Abmelde-Link in Ihren Nachrichteninhalt einfügen, wird keine Landingpage angezeigt.
 
-* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target=&quot;_blank&quot;}.
+* Das entsprechende Profil wird sofort abgemeldet und in Experience Platform aktualisiert. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de#getting-started){target="_blank"}.

@@ -7,17 +7,18 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: Ausdruck, Editor, Bedingung, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 99%
 
 ---
 
 # Arbeiten mit bedingten Regeln {#conditions}
 
-Bedingte Regeln sind eine Reihe von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Segmentzugehörigkeit oder kontextbezogenen Ereignissen.
+Bedingte Regeln sind eine Reihe von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Segmentzugehörigkeit oder kontextuellen Ereignissen.
 
 Bedingte Regeln werden mit dem Ausdruckseditor erstellt und können gespeichert werden, wenn Sie sie für Ihre Inhalte wiederverwenden möchten. [Erfahren Sie, wie Sie eine bedingte Regel in der Bibliothek speichern](#save)
 
@@ -42,12 +43,12 @@ Bedingte Regeln werden im Menü **[!UICONTROL Bedingungen]** im Ausdruckseditor 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="Erstellen einer Bedingung"
->abstract="Kombinieren Sie Profilattribute, kontextbezogene Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
+>abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="Erstellen einer Bedingung"
->abstract="Kombinieren Sie Profilattribute, kontextbezogene Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
+>abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 Die Schritte zum Erstellen einer bedingten Regel sind:
 
@@ -64,7 +65,7 @@ Die Schritte zum Erstellen einer bedingten Regel sind:
    * **[!UICONTROL Profil]**:
       * **[!UICONTROL Segmentzugehörigkeit]** listet alle Segmentattribute (d. h. Status, Version usw.) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
       * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem [Schema des Experience-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind, das in Adobe Experience Platform definiert ist.
-   * **[!UICONTROL Kontextbezogen]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextbezogene Journey-Felder zur Verfügung.
+   * **[!UICONTROL Kontextuell]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextuelle Journey-Felder zur Verfügung.
    * **[!UICONTROL Audiences]**: Listet alle Audiences auf, die aus Segmenten generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) erstellt wurden.
 
 1. Wenn Ihre bedingte Regel fertig ist, können Sie sie zu Ihrer Nachricht hinzufügen, um dynamische Inhalte zu erstellen. [Erfahren Sie, wie dynamische Inhalte hinzugefügt werden](dynamic-content.md)
@@ -77,7 +78,7 @@ Wenn es Bedingungsregeln gibt, die Sie häufig wiederverwenden, können Sie sie 
 
 >[!NOTE]
 >
->Bedingte Regeln, die kontextbezogene Journey-Attribute nutzen, können nicht in der Bibliothek gespeichert werden.
+>Bedingte Regeln, die kontextuelle Journey-Attribute nutzen, können nicht in der Bibliothek gespeichert werden.
 
 1. Klicken Sie im Bildschirm zur Bedingungsbearbeitung auf die Schaltfläche **[!UICONTROL Bedingung speichern]**.
 

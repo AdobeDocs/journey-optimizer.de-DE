@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: Ausdruck, Editor, Anwendungsfall, Personalisierung
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +22,7 @@ In diesem Anwendungsfall erfahren Sie, wie Sie mehrere Personalisierungsarten in
 
 * **Profil**: Personalisierung von Nachrichten basierend auf einem Profilfeld
 * **Angebotsentscheidung**: Personalisierung basierend auf Entscheidungs-Management-Variablen
-* **Kontext**: Personalisierung basierend auf Kontextdaten aus der Journey
+* **Kontext**: Personalisierung basierend auf kontextuellen Daten aus der Journey
 
 Das Ziel dieses Beispiels ist es, jedes Mal, wenn eine Kundenbestellung aktualisiert wird, ein Ereignis an [!DNL Journey Optimizer] zu senden. Anschließend wird eine Push-Benachrichtigung mit Informationen zur Bestellung und einem personalisierten Angebot an den Kunden gesendet.
 
@@ -54,13 +55,13 @@ Für diesen Anwendungsfall müssen die folgenden Voraussetzungen gegeben sein:
 
    ![](assets/perso-uc3.png)
 
-## Schritt 3 – Personalisierung für Kontextdaten hinzufügen {#add-perso-contextual-data}
+## Schritt 3 – Personalisierung für kontextuelle Daten hinzufügen {#add-perso-contextual-data}
 
 1. Klicken sie in der Aktivität **Push** auf **Inhalt bearbeiten** und anschließend auf das Feld **Titel**.
 
    ![](assets/perso-uc9.png)
 
-1. Wählen Sie das Menü **Kontextattribute**. Kontextattribute sind nur verfügbar, wenn eine Journey Kontextdaten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden Kontextinformationen werden angezeigt:
+1. Wählen Sie das Menü **Kontextuelle Attribute**. Kontextuelle Attribute sind nur verfügbar, wenn eine Journey kontextuelle Daten an die Nachricht übergeben hat. Klicken Sie auf **Journey Orchestration**. Die folgenden kontextuellen Informationen werden angezeigt:
 
    * **Ereignisse**: In dieser Kategorie werden alle Felder aus den Ereignissen neu gruppiert, die vor der Kanalaktionsaktivität in der Journey platziert wurden.
    * **Journey-Eigenschaften**: die technischen Felder, die sich auf die Journey für ein bestimmtes Profil beziehen, z. B. die Journey-ID oder die aufgetretenen Fehler. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zu Journey Orchestration](../building-journeys/expression/journey-properties.md).

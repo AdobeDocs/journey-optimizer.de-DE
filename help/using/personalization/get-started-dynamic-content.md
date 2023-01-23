@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: Ausdruck, Editor, Erste Schritte, Bedingungen, Start
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 96%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="Bedingungen"
->abstract="Bedingte Regeln ermöglichen basierend auf Profilattributen, kontextbezogenen Ereignissen oder Audience-Segmenten die Anzeige mehrerer Inhaltsvarianten in Ihren Nachrichten."
+>abstract="Bedingte Regeln ermöglichen basierend auf Profilattributen, kontextuellen Ereignissen oder Audience-Segmenten die Anzeige mehrerer Inhaltsvarianten in Ihren Nachrichten."
 
-Dynamische Inhalte ermöglichen es Ihnen, den Inhalt Ihrer Nachrichten auf der Grundlage von **bedingten Regeln**, die aus Profilattributen, kontextbezogenen Ereignissen oder Audience-Segmenten bestehen können, anzupassen. Bedingte Regeln werden mit einem visuellen Regel-Builder im Ausdruckseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journeys und Kampagnen speichern können.
+Dynamische Inhalte ermöglichen es Ihnen, den Inhalt Ihrer Nachrichten auf der Grundlage von **bedingten Regeln**, die aus Profilattributen, kontextuellen Ereignissen oder Audience-Segmenten bestehen können, anzupassen. Bedingte Regeln werden mit einem visuellen Regel-Builder im Ausdruckseditor erstellt, in dem Sie sie zur weiteren Wiederverwendung in Ihren Journeys und Kampagnen speichern können.
 
 Bedingte Regeln können in Email Designer und im Ausdruckseditor verwendet werden, um **dynamische Inhalte zu erstellen**, die an die Profile angepasst werden, an die sich Ihre Nachrichten richten.
 

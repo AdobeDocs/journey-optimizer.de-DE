@@ -7,11 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 100%
+source-wordcount: '1383'
+ht-degree: 99%
 
 ---
 
@@ -139,7 +140,7 @@ Verwenden Sie die **[!UICONTROL HTML]**-Komponente, um die unterschiedlichen Tei
 
 1. Ziehen Sie die **[!UICONTROL HTML]**-Komponente in den **[!UICONTROL Inhaltskomponenten]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
-1. Klicken Sie auf die neu hinzugefügte Komponente und dann auf **[!UICONTROL Quellcode anzeigen]** in der Kontext-Symbolleiste, um Ihren HTML-Code hinzuzufügen.
+1. Klicken Sie auf die neu hinzugefügte Komponente und dann auf **[!UICONTROL Quellcode anzeigen]** in der kontextuellen Symbolleiste, um Ihren HTML-Code hinzuzufügen.
 
    ![](assets/email_designer_html_component.png)
 
@@ -159,7 +160,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine in Ihren Assets gespeicherte Bilddatei auszuwählen.
 
-   Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target=&quot;_blank&quot;}.
+   Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf die neu hinzugefügte Komponente und richten Sie Ihre Bildeigenschaften mithilfe des Bedienfelds **[!UICONTROL Komponenteneinstellungen]** ein:
 

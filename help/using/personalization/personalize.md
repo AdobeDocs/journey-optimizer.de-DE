@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
+keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +36,7 @@ Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Jo
 
 ## Nutzen von Profildaten, um Ihre Nachrichten zu personalisieren {#data}
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen finden Sie unter [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 >[!CAUTION]
 >Das Schema **Individuelles XDM-Profil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
@@ -54,7 +55,7 @@ Weitere Informationen zum [!DNL Journey Optimizer] Ausdruckseditor finden Sie in
 
 ## Anleitungsvideos{#video-perso}
 
-Erfahren Sie, wie Sie kontextbezogene Ereignisinformationen aus einer Journey verwenden können, um eine Nachricht zu personalisieren.
+Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwenden können, um eine Nachricht zu personalisieren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 

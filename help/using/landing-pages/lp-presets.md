@@ -5,11 +5,12 @@ title: Definieren der Landingpage-Voreinstellungen
 description: Erfahren Sie, wie Sie mit Journey Optimizer Ihre Umgebung zur Erstellung und Verwendung von Landingpages konfigurieren.
 role: Admin
 level: Intermediate
+keywords: Landingpage, Landingpage, konfigurieren, Umgebung, Subdomäne, Vorgaben
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '347'
+ht-degree: 97%
 
 ---
 

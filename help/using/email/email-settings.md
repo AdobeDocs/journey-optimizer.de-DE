@@ -7,11 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 100%
+source-wordcount: '1436'
+ht-degree: 99%
 
 ---
 
@@ -222,13 +223,13 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten kontextbezogenen Attribute und/oder den Text direkt bearbeiten.
+Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten kontextuellen Attribute und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Verwendung von kontextbezogenen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

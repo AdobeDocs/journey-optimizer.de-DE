@@ -7,11 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: Ausdruck, Editor, Kontext, Personalisierung
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -31,11 +32,11 @@ Wenn Sie eine E-Mail erstellen, können Sie im Fenster **[!UICONTROL Betreffzeil
 
 In E-Mail-Designer können Sie den Inhalt personalisieren:
 
-* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextbezogenen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
+* In der **Nachricht**: Klicken Sie in einen Textblock, klicken Sie auf das Symbol **Personalisieren** in der kontextuellen Symbolleiste und wählen Sie **Personalisierungfeld einfügen** aus. Weiterführende Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
-* Für einen **Link**: Wählen Sie Text oder ein Bild in einem Textblock aus und klicken Sie in der kontextbezogenen Symbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Personalisierungsblock hinzufügen, indem Sie auf das Symbol **Personalisierung hinzufügen** klicken.
+* Für einen **Link**: Wählen Sie Text oder ein Bild in einem Textblock aus und klicken Sie in der kontextuellen Symbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Personalisierungsblock hinzufügen, indem Sie auf das Symbol **Personalisierung hinzufügen** klicken.
 
    ![](assets/perso_link.png)
 
@@ -65,7 +66,7 @@ Weitere Informationen zur Verwaltung von Inhalten mit dem Entscheidungs-Manageme
 
 ## Erstellen von personalisierten URLs{#personalize-urls}
 
-Personalisierte URLs führen Empfänger je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt zu URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder Kontextdaten verwenden.
+Personalisierte URLs führen Empfänger je nach den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt zu URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder kontextuelle Daten verwenden.
 
 Erfahren Sie in [diesem Abschnitt](personalization-syntax.md#perso-urls), wie Sie eine personalisierte URL einfügen können.
 
