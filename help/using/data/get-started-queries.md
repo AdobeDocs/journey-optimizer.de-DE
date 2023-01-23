@@ -6,11 +6,12 @@ description: Erfahren Sie, wie Sie Abfragen in Journey Optimizer erstellen
 feature: Schemas
 role: User
 level: Beginner
+keywords: Abfragen, Plattform, Daten, Exploration
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 82%
 
 ---
 
@@ -22,9 +23,9 @@ Der Abfrage-Editor unterstützt die Entwicklung von Abfragen für die Analyse un
 
 ![](assets/queries-home.png)
 
-Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}, wie Sie den Abfrage-Editor verwenden.
+Erfahren Sie, wie Sie den Abfrage-Editor in [diese Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target="_blank"}.
 
 **Siehe auch**
 
-* [Dokumentation zum Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target=&quot;_blank&quot;}
-* [Übersichtsvideo zum Abfrage-Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=de){target=&quot;_blank&quot;}
+* [Dokumentation zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
+* [Video Query Service - Übersicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=de){target="_blank"}

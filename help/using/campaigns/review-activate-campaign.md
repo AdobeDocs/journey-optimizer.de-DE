@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Überprüfen und Aktivieren einer Kampagne
-description: Erfahren Sie, wie Sie Kampagnen in  [!DNL Journey Optimizer] überprüfen und aktivieren können.
+description: Erfahren Sie, wie Sie Kampagnen in Journey Optimizer überprüfen und aktivieren können.
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: fa5a3cc25fa083754e00dbde7743e032c065f210
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 93%
 
 ---
 

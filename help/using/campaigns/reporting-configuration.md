@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: Konfiguration, Experiment, Reporting, Optimierer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -46,11 +47,11 @@ Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen,
 ## Voraussetzungen
 
 
-Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#create){target=&quot;_blank&quot;}.
+Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#create){target="_blank"}.
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen mindestens einen der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target=&quot;_blank&quot;} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
+* Diese Datensätze müssen mindestens einen der folgenden Datensätze enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 >[!NOTE]
 >
->Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
+>Weitere Informationen zu XDM-Schemas und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 ## Ziele für jede Feldergruppe {#objective-list}
 
@@ -98,11 +99,11 @@ Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Regis
 
    >[!CAUTION]
    >
-   >Sie können nur einen Datensatz vom Typ „Ereignis“ auswählen, der mindestens eine der unterstützten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target=&quot;_blank&quot;} enthält: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
+   >Sie können nur einen Datensatz vom Typ Ereignis auswählen, der mindestens einen der unterstützten Datensätze enthalten muss [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
 
    ![](assets/reporting-config-datasets.png)
 
-   Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target=&quot;_blank&quot;}.
+   Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de){target="_blank"}.
 
 1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Profilkennung]** das Datensatzfeldattribut aus, das zur Identifizierung der einzelnen Profile in Ihren Berichten verwendet wird.
 
@@ -116,7 +117,7 @@ Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Regis
 
    ![](assets/reporting-config-namespace.png)
 
-   Weitere Informationen zu Namespaces finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target=&quot;_blank&quot;}.
+   Weitere Informationen zu Namespaces finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target="_blank"}.
 
 1. Speichern Sie Ihre Änderungen, um den ausgewählten Datensatz zur Liste der Reporting-Konfigurationen hinzuzufügen.
 

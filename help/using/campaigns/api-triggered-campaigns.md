@@ -2,12 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Auslösen von Kampagnen mit APIs
-description: Erfahren Sie, wie Sie mit einer  [!DNL Journey Optimizer] API Kampagnen auslösen können.
+description: Erfahren Sie, wie Sie Kampagnen mithilfe von Journey Optimizer-APIs Trigger haben.
+topic: Content Management
+role: Developer, Admin
+level: Intermediate, Experienced
+keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +45,7 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
    >
    >Sie können an die API-Payload zusätzliche Daten zur Nachrichtenpersonalisierung übergeben. [Weitere Informationen](#contextual)
    >
-   >Die Verwendung einer großen Zahl oder umfangreicher kontextbezogener Daten in Ihren Inhalten kann die Leistung beeinträchtigen.
+   >Die Verwendung einer großen Zahl oder umfangreicher kontextuelle Daten in Ihren Inhalten kann die Leistung beeinträchtigen.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Audience]** den Namespace an, der zur Identifizierung der Einzelpersonen aus dem Segment verwendet werden soll.
 
@@ -57,7 +61,7 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
 
 1. Klicken Sie auf **[!UICONTROL Zum Aktivieren überprüfen]**, um sicherzustellen, dass Ihre Kampagne korrekt konfiguriert ist, und aktivieren Sie sie.
 
-## Verwenden von kontextbezogenen Attributen in von einer API ausgelösten Kampagnen {#contextual}
+## Verwenden von kontextuellen Attributen in von einer API ausgelösten Kampagnen {#contextual}
 
 Bei von einer API ausgelösten Kampagnen können Sie zusätzliche Daten in die API-Payload übertragen und innerhalb der Kampagne nutzen, um Ihre Nachricht zu personalisieren.
 
@@ -65,7 +69,7 @@ In diesem Beispiel möchten Kunden ihr Kennwort zurücksetzen. Sie senden ihnen 
 
 >[!NOTE]
 >
->Im Gegensatz zu profilaktivierten Ereignissen werden die in der REST-API übergebenen Kontextdaten für die einmalige Kommunikation verwendet und nicht im Profil gespeichert. Das Profil wird nur mit den Namespace-Details erstellt, falls es nicht vorhanden ist.
+>Im Gegensatz zu profilaktivierten Ereignissen werden die in der REST-API übergebenen kontextuellen Daten für die einmalige Kommunikation verwendet und nicht im Profil gespeichert. Das Profil wird nur mit den Namespace-Details erstellt, falls es nicht vorhanden ist.
 
 Um diese Daten in Ihren Kampagnen verwenden zu können, müssen Sie sie an die API-Payload übergeben und mithilfe des Ausdruckseditors zu Ihrer Nachricht hinzufügen. Verwenden Sie dazu die Syntax `{{context.<contextualAttribute>}}`, wobei `<contextualAttribute>` mit dem Namen der Variablen in Ihrer API-Payload, die die zu übergebenden Daten enthält, übereinstimmen muss.
 
@@ -75,9 +79,9 @@ Die Syntax `{{context.<contextualAttribute>}}` ist nur einem Zeichenfolgen-Daten
 
 >[!IMPORTANT]
 >
->Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextbezogenen Attributen verwendet werden.
+>Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 
-Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextbezogenes Attribut verfügbar ist. Attribute müssen direkt in Ihren Personalisierungsausdruck eingegeben werden, ohne dass eine Überprüfung durch [!DNL Journey Optimizer] durchgeführt wird.
+Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextuelles Attribut verfügbar ist. Attribute müssen direkt in Ihren Personalisierungsausdruck eingegeben werden, ohne dass eine Überprüfung durch [!DNL Journey Optimizer] durchgeführt wird.
 
 ## Ausführen der Kampagne {#execute}
 

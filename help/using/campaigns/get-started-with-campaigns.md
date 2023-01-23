@@ -2,16 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit Kampagnen
-description: Weitere Informationen zu Kampagnen finden Sie in  [!DNL Journey Optimizer]
+description: Weitere Informationen zu Kampagnen in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Kampagne, wie , starten, optimieren
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +28,7 @@ Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle ein
 Sie können zwei Arten von Kampagnen erstellen:
 
 * **Geplante Kampagnen** ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
-* **API-ausgelöste Kampagnen** ermöglichen über REST-APIs einfache Transaktions- und operative Nachrichten (Kennwortzurücksetzung, Kartenkündigung usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und Kontextdaten aus der Payload bestehen kann.
+* **API-ausgelöste Kampagnen** ermöglichen über REST-APIs einfache Transaktions- und operative Nachrichten (Kennwortzurücksetzung, Kartenkündigung usw.), bei denen die Notwendigkeit einer Personalisierung mit Profilattributen und kontextuelle Daten aus der Payload bestehen kann.
 
 Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
@@ -41,13 +42,13 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 1. **Sie benötigen entsprechende Berechtigungen**. Diese Funktion steht nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung, beispielsweise Kampagnen-Admins, Kampagnen-Genehmigende, Kampagnen-Manager und/oder Kampagnen-Betrachtende.
 
-   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie für Ihre Organisation Zugriff auf die [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} haben, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Admin.
+   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} Gehen Sie für Ihre Organisation wie folgt vor. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Admin.
 
    +++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
 
    So weisen Sie Ihren Benutzenden die entsprechenden **[!UICONTROL Produktprofile]** zu:
 
-   1. Wählen Sie in der [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} das [!DNL Adobe Experience Platform]-Produkt aus.
+   1. Von [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, wählen Sie die [!DNL Adobe Experience Platform] Produkt.
 
    1. Wechseln Sie zur Registerkarte **[!UICONTROL Produktprofil]** und wählen Sie eines der integrierten kampagnenbezogenen **[!UICONTROL Produktprofile]**: Kampagnen-Admin, Kampagnen-Genehmigende, Kampagnen-Manager oder Kampagnen-Betrachtende.
 

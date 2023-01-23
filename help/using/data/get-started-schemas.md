@@ -6,11 +6,12 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Schemas in Adobe Jo
 feature: Schemas
 role: User
 level: Beginner
+keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 89%
+source-wordcount: '309'
+ht-degree: 88%
 
 ---
 
