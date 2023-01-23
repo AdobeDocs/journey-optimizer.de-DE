@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: Journey, Nachricht, Push, SMS, E-Mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +76,7 @@ Sie können den Inhalt einer Nachricht (E-Mail, SMS, Push) in einer Live-Journey
 
 ![](assets/add-a-message2.png)
 
-Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextbezogene Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
+Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
 
 ## Optimierung des Versandzeitpunkts{#send-time-optimization}
 

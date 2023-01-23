@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: test, Journey, check, error, Fehlerbehebung
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 100%
+source-wordcount: '1553'
+ht-degree: 99%
 
 ---
 
@@ -99,7 +100,7 @@ Wenn Sie auf die Schaltfläche **[!UICONTROL Senden]** klicken, beginnt der Test
 
 ![](assets/journeytest6.png)
 
-Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Profil auswählen und den Test erneut ausführen, wird der visuelle Verlauf geleert und stattdessen der Pfad des neuen Kontakts angezeigt.
+Wenn Sie im Bildschirm für die Ereigniskonfiguration ein anderes Testprofil auswählen und den Test erneut ausführen, wird der visuelle Verlauf geleert und stattdessen der Pfad des neuen Kontakts angezeigt.
 
 Beim Öffnen einer Journey im Test ist der angezeigte Pfad der des zuletzt durchgeführten Tests
 
@@ -139,7 +140,7 @@ Die Anzahl der Kontakte (technisch gesehen handelt es sich um Instanzen), die si
 * _ID_: die interne ID des Kontakts in der Journey. Diese kann zum Debugging verwendet werden.
 * _currentstep_: der Schritt, in dem sich der Kontakt in der Journey befindet. Es wird empfohlen, Ihren Aktivitäten Titel zu geben, damit Sie sie leichter identifizieren können.
 * _currentstep > phase_: der Status der Journey des Kontakts (Läuft, Beendet, Fehler, Zeitüberschreitung). Weitere Informationen finden Sie unten.
-* _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextbezogene Informationen.
+* _currentstep_ > _extraInfo_: Beschreibung des Fehlers und andere kontextuelle Informationen.
 * _currentstep_ > _fetchErrors_: Informationen zu Datenfehlern beim Abrufen, die während dieses Schritts aufgetreten sind.
 * _externalKeys_: der Wert für die im Ereignis definierte Schlüsselformel.
 * _enrichedData_: die Daten, die die Journey abgerufen hat, falls sie Datenquellen verwendet hat.

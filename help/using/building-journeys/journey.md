@@ -6,24 +6,25 @@ description: Erste Schritte mit Journeys
 feature: Journeys
 role: User
 level: Beginner
+keywords: Journey, Entdecken, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 99%
 
 ---
 
 
 # Erste Schritte mit Journeys{#jo-general-principle}
 
-Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen zu erstellen.
+Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-Orchestrierung mithilfe von kontextuellen Daten aus Ereignissen oder Datenquellen zu erstellen.
 
 Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 * Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **im Batch** unter Verwendung von Adobe Experience Platform-Segmenten.
 
-* Nutzen Sie **Kontextdaten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
+* Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
 * Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 

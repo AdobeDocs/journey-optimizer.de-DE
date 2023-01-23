@@ -4,13 +4,14 @@ product: journey optimizer
 title: Operatoren
 description: Erfahren Sie mehr über Operatoren in erweiterten Ausdrücken
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: Ausdruck, Syntax, Operatoren, Editor, Journey
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 98%
 
 ---
 
@@ -178,7 +179,7 @@ Beispiel:
 ```
 
 >[!NOTE]
->Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
+Für &lt;expression1> und &lt;expression2> gibt es keine Kontrolle des Datentyps.
 
 Das Ergebnis ist boolesch.
 
