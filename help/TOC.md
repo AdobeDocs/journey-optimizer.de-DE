@@ -2,7 +2,7 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Handbuch für Journey Optimizer
-user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextbezogene und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
+user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 96%
 
 ---
 
 # Limits und Einschränkungen {#limitations}
 
-Berechtigungen, Produkteinschränkungen und die Leistung betreffende Limits sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} aufgeführt.
+Berechtigungen, Produktbeschränkungen und Leistungsgarantien finden Sie unter [Adobe Journey Optimizer-Produktbeschreibungsseite](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
@@ -29,7 +29,7 @@ Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von
 
 ## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsbeschränkungen und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;} aufgeführt.
+Leistungsgarantien und statische Beschränkungen für Entscheidungen werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Beschränkungen bei Landingpages {#lp-guardrails}

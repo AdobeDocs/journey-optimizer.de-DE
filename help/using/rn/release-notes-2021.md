@@ -6,8 +6,8 @@ description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 100%
+source-wordcount: '2068'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 </table>
 
 
-Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target=&quot;_blank&quot;} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target="_blank"} für weitere Änderungen.
 
 ### Verbesserungen
 
@@ -215,7 +215,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 <tbody>
 <tr>
 <td>
-<p>Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und sie kann Profildaten oder Kontextdaten verwenden.</p>
+<p>Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder kontextuelle Daten verwenden.</p>
 <p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../personalization/personalization-syntax.md#perso-urls">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
