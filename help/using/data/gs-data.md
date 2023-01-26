@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Daten, Verwaltung, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 68%
+source-wordcount: '675'
+ht-degree: 65%
 
 ---
 
@@ -73,7 +73,7 @@ Sie können die [!DNL Journey Optimizer]Flexibilität der Daten, um Ihre spezifi
 
 * **Bereinigungs- und Archivierungsmechanismen**[!DNL Adobe Journey Optimizer]: Die Bereinigung von Daten und Archivierung kann in frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.
 
-   Der Arbeitsbereich Datenhygiene in der Adobe Experience Platform-Benutzeroberfläche ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weitere Informationen finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=de){target="_blank"}.
+   Im Arbeitsbereich &quot;Datenhygiene&quot;können Sie verschiedene Aufgaben zur Datenhygiene erstellen und überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Ablaufdaten von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
