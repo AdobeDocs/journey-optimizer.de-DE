@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 100%
+source-wordcount: '1808'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie, wie Sie im Ausdruckseditor Zeichenfolgenfunktionen verwenden könn
 
 Mit der Funktion `camelCase` wird der erste Buchstabe eines jeden Wortes einer Zeichenfolge großgeschrieben.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ Mit der folgenden Funktion wird der erste Buchstabe der Straßenadresse des Prof
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Char-Code bei {#char-code-at}
+
+Die `charCodeAt` -Funktion gibt den ASCII-Wert eines Zeichens zurück, z. B. die Funktion charCodeAt in JavaScript. Als Eingabeargumente werden eine Zeichenfolge und eine Ganzzahl (die die Zeichenposition definiert) benötigt und der entsprechende ASCII-Wert wird zurückgegeben.
+
+**Syntax**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Beispiel**
+
+Die folgende Funktion gibt den ASCII-Wert von o zurück, d. h. 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Verknüpfen {#concate}
 
 Die Funktion `concat` kombiniert zwei Zeichenfolgen zu einer.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ Mit der folgenden Funktion wird die Stadt und das Land eines Profils in einer ei
 
 Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge enthält.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene 
 
 Mit der Funktion `doesNotContain` wird bestimmt, ob eine Zeichenfolge eine angegebene Unterzeichenfolge nicht enthält.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung
 
 Mit der Funktion `doesNotEndWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge endet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 Mit der Funktion `doesNotStartWith` wird bestimmt, ob eine Zeichenfolge nicht mit einer angegebenen Unterzeichenfolge beginnt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der P
 
 Die Funktion `encode64` wird zum Codieren einer Zeichenfolge verwendet, um personenbezogene Daten (PI) beizubehalten, wenn diese z. B. in eine URL aufgenommen werden sollen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ Die Funktion `encode64` wird zum Codieren einer Zeichenfolge verwendet, um perso
 
 Mit der Funktion `endsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ In der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibung
 
 Mit der Funktion `equals` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei zwischen Groß- und Kleinschreibung unterschieden wird.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ Mit der folgenden Abfrage wird unter Berücksichtigung der Groß-/Kleinschreibun
 
 Mit der Funktion `equalsIgnoreCase` wird bestimmt, ob eine Zeichenfolge gleich der angegebenen Zeichenfolge ist, wobei nicht zwischen Groß- und Kleinschreibung unterschieden wird.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ Mit der folgenden Abfrage wird ohne Berücksichtigung der Groß-/Kleinschreibung
 
 Die Funktion `extractEmailDomain` wird verwendet, um die Domain einer E-Mail-Adresse zu extrahieren.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adress
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Währung formatieren {#format-currency}
+
+Die `formatCurrency` -Funktion verwendet wird, um eine beliebige Zahl in die entsprechende sprachabhängige Währungsdarstellung zu konvertieren, je nachdem, welches Gebietsschema als Zeichenfolge im zweiten Argument übergeben wurde.
+
+**Syntax**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Beispiel**
+
+Diese Abfrage gibt 56,00 £ zurück.
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## URL-Host abrufen {#get-url-host}
 
 Die Funktion `getUrlHost` dient zum Abrufen des Host-Namens einer URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ Gibt „www.myurl.com“ zurück
 
 Die Funktion `getUrlPath` wird verwendet, um den Pfad nach dem Domain-Namen einer URL abzurufen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ Gibt „/contact.html“ zurück
 
 Die Funktion `getUrlProtocol` dient zum Abrufen des Protokolls einer URL.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ Gibt „http“ zurück
 
 Die Funktion `indexOf` wird verwendet, um die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ Gibt 6 zurück.
 
 Mit der Funktion `isEmpty` wird ermittelt, ob eine Zeichenfolge leer ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 
 Die Funktion `isNotEmpty` wird verwendet, um zu bestimmen, ob eine Zeichenfolge nicht leer ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des P
 
 Die Funktion `lastIndexOf` wird verwendet, um die Position (im ersten Argument) des letzten Auftretens des zweiten Parameters zurückzugeben. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
-**Format**
+**Syntax**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ Gibt 7 zurück.
 
 Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenfolge zu entfernen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ Die Funktion `leftTrim` wird verwendet, um Leerzeichen vom Anfang einer Zeichenf
 
 Die Funktion `length` wird verwendet, um die Anzahl der Zeichen in einer Zeichenfolge oder einem Ausdruck abzurufen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ Die folgende Funktion gibt die Länge des Stadtnamens des Profils zurück.
 
 Mit der Funktion `like` wird bestimmt, ob eine Zeichenfolge einem angegebenen Muster entspricht.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ Mit dieser Funktion wird der Vorname des Profils in Kleinbuchstaben umgewandelt.
 
 Mit der Funktion `matches` wird bestimmt, ob eine Zeichenfolge mit einem bestimmten regulären Ausdruck übereinstimmt. Weitere Informationen zu Übereinstimmungsmustern bei regulären Ausdrücken finden Sie in [diesem Dokument](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html).
 
-**Format**
+**Syntax**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person ohne Unterscheidung der Gr
 
 Die Funktion `Mask` wird verwendet, um einen Teil einer Zeichenfolge durch „X“-Zeichen zu ersetzen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ Die Abfrage gibt `1XXXXXX89` zurück.
 
 Die Funktion `md5` wird verwendet, um den MD5-Hash einer Zeichenfolge zu berechnen und zurückzugeben.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ Gibt „5eb63bbbe01eeed093cb22bb8f5acdc3“ zurück
 
 Mit der Funktion `notEqualTo` wird bestimmt, ob eine Zeichenfolge nicht gleich der angegebenen Zeichenfolge ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 
 Die Funktion `notEqualWithIgnoreCase` wird verwendet, um zwei Zeichenfolgen zu vergleichen, wobei Groß-/Kleinschreibung ignoriert wird.
 
-**Format**
+**Syntax**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ Die folgende Abfrage ermittelt, ob der Name der Person nicht „john“ lautet (
 
 Die Funktion `Group` wird verwendet, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ Die folgende Abfrage wird verwendet, um den Domain-Namen aus einer E-Mail-Adress
 
 Die Funktion `replace` wird verwendet, um eine bestimmte Unterzeichenfolge in einer Zeichenfolge durch eine andere Unterzeichenfolge zu ersetzen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
 
 Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes mit übereinstimmender „Ziel“-Zeichenfolge mit der angegebenen literalen „Ersetzungs“-Zeichenfolge zu ersetzen. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 
 Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entfernt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ Mit der Funktion `rightTrim` werden Leerzeichen vom Ende einer Zeichenfolge entf
 
 Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Zeichen zu teilen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ Die Funktion `split` wird verwendet, um eine Zeichenfolge durch ein bestimmtes Z
 
 Mit der Funktion `startsWith` wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Zeichenfolge zu Datum {#string-to-date}
+
+Die `stringToDate` -Funktion konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert. Es gibt zwei Argumente: Zeichenfolgendarstellung einer Datums-/Uhrzeit- und Zeichenfolgendarstellung des Formatierers.
+
+**Syntax**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Beispiel**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## Zeichenfolge zu Ganzzahl {#string-to-integer}
 
 Die Funktion `string_to_integer` wird verwendet, um einen Zeichenfolgenwert in einen ganzzahligen Wert zu konvertieren.
 
-**Format**
+**Syntax**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ Die Funktion `string_to_integer` wird verwendet, um einen Zeichenfolgenwert in e
 
 Die Funktion `stringToNumber` wird verwendet, um eine Zeichenfolge in eine Zahl zu konvertieren. Bei einer ungültigen Eingabe wird dieselbe Zeichenfolge als Ausgabe zurückgegeben.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ Die Funktion `stringToNumber` wird verwendet, um eine Zeichenfolge in eine Zahl 
 ## Teilzeichenfolge {#sub-string}
 
 Die Funktion `Count string` wird verwendet, um die Unterzeichenfolge des Zeichenfolgenausdrucks zwischen dem Anfangsindex und dem Endindex zurückzugeben.
-**Format**
+**Syntax**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ Wenn die Person in der Washington High Street lebt, gibt diese Funktion „Washi
 
 Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen booleschen Wert zu konvertieren.
 
-**Format**
+**Syntax**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen
 
 Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu ko
 
 ## Nur zu Uhrzeit-/Datumsangabe {#to-date-time-only}
 
-Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Uhrzeit-/Datumswert zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
+Die `toDateTimeOnly` -Funktion wird verwendet, um einen Argumentwert in einen Datum/Uhrzeit-Wert zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben. Diese Funktion akzeptiert die Feldtypen String, Datum, Long und int.
 
-**Format**
+**Syntax**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Kürzen{#trim}
+## Kürzen {#trim}
 
 Die Funktion **trim** entfernt alle Leerzeichen vom Anfang und Ende einer Zeichenfolge.
 
@@ -773,7 +825,7 @@ Mit dieser Funktion wird der Nachname des Profils in Großbuchstaben umgewandelt
 
 Die Funktion `urlDecode` wird zum Decodieren einer URL-codierten Zeichenfolge verwendet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ Die Funktion `urlDecode` wird zum Decodieren einer URL-codierten Zeichenfolge ve
 
 Die Funktion `Count only null` wird verwendet, um eine Zeichenfolge mit einer URL zu codieren.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= urlEncode(string) %}: string

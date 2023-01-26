@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 99%
+source-wordcount: '1453'
+ht-degree: 97%
 
 ---
 
@@ -171,30 +171,67 @@ Das Format dieser Authentifizierung ist:
 
 Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter „cacheDuration“ definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
 
+Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp des Inhabers:
+
 ```
-"authentication": {
-    "type":"customAuthorization",
-    "authorizationType":"Bearer",
-    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
-    "method":"POST",
+{
+  "authentication": {
+    "type": "customAuthorization",
+    "authorizationType": "Bearer",
+    "endpoint": "http://localhost:${port}/epsilon/oauth2/access_token",
+    "method": "POST",
     "headers": {
-        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
-        },
+      "Authorization": "Basic EncodeBase64(<epsilon Client Id>:<epsilon Client Secret>)"
+    },
     "body": {
-        "bodyType":"form",
-        "bodyParams": {
-             "scope":"cn mail givenname uid employeeNumber",
-             "grant_type":"password",
-             "username":"${epsilonUserName}",
-             "password":"${epsilonUserPassword}"
-             }
-        },
-    "tokenInResponse":"json://access_token",
-    "cacheDuration":
-             { "duration":5, "timeUnit":"seconds" }
+      "bodyType": "form",
+      "bodyParams": {
+        "scope": "cn mail givenname uid employeeNumber",
+        "grant_type": "password",
+        "username": "<epsilon User Name>",
+        "password": "<epsilon User Password>"
+      }
+    },
+    "tokenInResponse": "json://access_token",
+    "cacheDuration": {
+      "duration": 5,
+      "timeUnit": "minutes"
     }
+  }
+}
 ```
 
 >[!NOTE]
 >
 >Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
+
+Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Kopfzeile:
+
+```
+{
+  "type": "customAuthorization",
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token",
+  "endpoint": "https://myapidomain.com/v2/user/login",
+  "method": "POST",
+  "headers": {
+    "x-retailer": "any value"
+  },
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "secret": "any value",
+      "username": "any value"
+    }
+  },
+  "tokenInResponse": "json://token"
+} 
+```
+
+Im Folgenden finden Sie ein Beispiel für die Antwort des Anmelde-API-Aufrufs:
+
+```
+{
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+}
+```

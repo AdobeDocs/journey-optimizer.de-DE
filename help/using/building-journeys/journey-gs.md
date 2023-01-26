@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 99%
+source-wordcount: '1061'
+ht-degree: 92%
 
 ---
 
@@ -94,9 +94,39 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ### Eintritt{#entrance}
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop betritt.
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die **Wiedereintritt erlauben** -Option für &quot;einen Schuss&quot;-Journey, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 
 Weitere Informationen zur Verwaltung des Profileintritts finden sich in [diesem Abschnitt](entry-management.md).
+
+### Verwalten des Zugriffs {#access}
+
+Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### Zeitzone und Zeitzone des Profils {#timezone}
+
+Die Zeitzone wird auf Journey-Ebene definiert.
+
+Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen.
+
+Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
+
+Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
+
+### Start- und Enddaten {#dates}
+
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+
+Sie können eine **Startdatum**. Sie können auch eine **Enddatum**. Dadurch können Profile beim Erreichen des Datums automatisch beendet werden. Wenn Sie kein Enddatum angeben, können Profile bis zum standardmäßigen Journey-Timeout beibehalten werden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
@@ -118,18 +148,3 @@ Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit]
 
 Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
-### Zeitzone und Zeitzone des Profils {#timezone}
-
-Die Zeitzone wird auf Journey-Ebene definiert.
-
-Sie können eine feste Zeitzone eingeben oder Adobe Experience Platform-Profile verwenden, um die Zeitzone der Journey festzulegen.
-
-Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie in der Journey abgerufen werden.
-
-Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
-
-### Verwalten des Zugriffs {#access}
-
-Um der Journey benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, klicken Sie auf die Schaltfläche **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLA)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)
