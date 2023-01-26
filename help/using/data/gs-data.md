@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Daten, Verwaltung, Plattform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 65%
+source-wordcount: '660'
+ht-degree: 64%
 
 ---
 
@@ -50,7 +50,11 @@ Im Großen und Ganzen ist die Flexibilität, die Sie von Ihren Daten erwarten,:
 <tr style="border: 0;">
   <td>
     <div><img alt="Richtlinie" src="assets/do-not-localize/policy.png" /> 
- <br>Löschung basierend auf einem vereinbarten Zeitplan oder Ihrer Richtlinie – Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data-Governance-Prozessen. [!DNL Adobe Journey Optimizer] kann mehr Daten erzeugen als erforderlich. Außerdem sollten Sie darauf achten, was nach der vorgeschriebenen Aufbewahrungsdauer für einen Datensatz geschieht – sei es aus Gründen der Nützlichkeit oder der Vorschrift. Die Kontrolle, die Sie benötigen, besteht darin, Daten zu einem beliebigen Zeitpunkt löschen zu können. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=de">Weitere Informationen zur Datenhygiene finden Sie in der Dokumentation zu Adobe Experience Platform</a></div>
+ <br>Löschung basierend auf einem vereinbarten Zeitplan oder Ihrer Richtlinie – Die Löschung von Daten ist ein wichtiger Aspekt des Datenschutzes und ein wichtiger Schritt in allen Data-Governance-Prozessen. [!DNL Adobe Journey Optimizer] kann mehr Daten erzeugen als erforderlich. Außerdem sollten Sie darauf achten, was nach der vorgeschriebenen Aufbewahrungsdauer für einen Datensatz geschieht – sei es aus Gründen der Nützlichkeit oder der Vorschrift. Die Kontrolle, die Sie benötigen, besteht darin, Daten zu einem beliebigen Zeitpunkt löschen zu können. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">Weitere Informationen</a></div>
+    </div>
   </td>
 </tr>
 </table>
