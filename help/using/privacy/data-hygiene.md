@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Datenhygiene durchführen.
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Data Hygiene-Funktionen sind derzeit nur für Organisationen verfügbar, die das Add-On für den Gesundheitsschild erworben haben. Sie steht außer dem Gesundheitsschild auch dem Datenschutz- und Sicherheitsschild zur Verfügung
+>Data Hygiene-Funktionen sind derzeit nur für Organisationen verfügbar, die die **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
 
 
 Da Daten kontinuierlich in Adobe Experience Platform erfasst werden, ist es wichtig sicherzustellen, dass Ihre Daten wie gewünscht verwendet, bei Bedarf aktualisiert und gemäß den Richtlinien der Organisation gelöscht werden.
