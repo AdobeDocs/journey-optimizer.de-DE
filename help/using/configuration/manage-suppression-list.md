@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimierer
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 97%
+source-wordcount: '1350'
+ht-degree: 92%
 
 ---
 
@@ -247,11 +247,17 @@ Klicken Sie dazu in der Ansicht **[!UICONTROL Unterdrückungsliste]** auf den Bu
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Es werden die neuesten von Ihnen übermittelten Uploads und deren Status angezeigt.
+Es werden die neuesten von Ihnen übermittelten Uploads und deren Status angezeigt:
 
-Wenn ein Fehlerbericht mit einer Datei verknüpft ist, können Sie ihn herunterladen, um die aufgetretenen Fehler zu überprüfen.
+* **[!UICONTROL Ausstehend]**: Der Datei-Upload wird durchgeführt.
+* **[!UICONTROL Fehler]**: Der Datei-Upload-Prozess ist aufgrund eines technischen Problems oder eines Dateiformatfehlers fehlgeschlagen.
+* **[!UICONTROL Fertig]**: Der Datei-Upload-Vorgang wurde erfolgreich abgeschlossen.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Wenn beim Hochladen einige Adressen nicht das richtige Format aufweisen, werden sie nicht zum [!DNL Journey Optimizer] Unterdrückungsliste.
+
+Wenn der Upload abgeschlossen ist, wird er in diesem Fall mit einem Bericht verknüpft. Sie können es herunterladen, um die aufgetretenen Fehler zu überprüfen<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Nachstehend finden Sie ein Beispiel für die Art der Einträge, die Sie im Fehlerbericht finden:
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Mit arithmetischen Funktionen lassen sich einfache Berechnungen für Werte durch
 
 Mit der Funktion `+` (Addition) wird die Summe zweier Argumentausdrücke ermittelt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ Die folgende Operation addiert die Preise von zwei verschiedenen Produkten.
 
 Mit der Funktion `*` (Multiplikation) wird das Produkt zweier Argumentausdrücke ermittelt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ Die folgende Operation ermittelt das Produkt im Bestand sowie den Preis eines Pr
 
 Mit der Funktion `-` (Subtraktion) wird der Unterschied zwischen zwei Argumentausdrücken ermittelt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ Die folgende Operation ermittelt den Preisunterschied zwischen zwei verschiedene
 
 Mit der Funktion `/` (Division) wird der Quotient zweier Argumentausdrücke ermittelt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ Die folgende Operation ermittelt den Quotienten zwischen den insgesamt verkaufte
 
 Mit der Funktion `%` (Modulo/Rest) wird nach der Division der beiden Argumentausdrücke der Rest ermittelt.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= double % double %}

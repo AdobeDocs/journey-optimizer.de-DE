@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 96%
+source-wordcount: '1805'
+ht-degree: 91%
 
 ---
 
@@ -146,7 +146,10 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absolut</a></td><td>Diese Funktion konvertiert eine Zahl in ihren absoluten Wert</td>
+        <td><a href="math.md#absolute">Absolut</a></td><td>Diese Funktion formatiert eine beliebige Zahl in die sprachabhängige Darstellung.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Formatnummer</a></td><td>Diese Funktion formatiert eine beliebige Zahl in die sprachabhängige Darstellung.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Zufällig</a></td><td>Diese Funktion gibt einen Zufallswert zwischen 0 und 1 zurück.</td>
@@ -158,10 +161,16 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="math.md#round-up">Aufrunden</a></td><td>Diese Funktion rundet eine Zahl auf.</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">Zu Hexadezimalzeichenfolge</a></td><td>konvertiert eine beliebige Zahl in ihren hexadezimalen String.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">Zu Prozentwert</a></td><td>Diese Funktion wandelt eine Zahl in einen Prozentwert um.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">Zu Präzision</a></td><td>Diese Funktion wandelt eine Zahl mit der erforderlichen Präzision um.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">Zeichenfolge</a></td><td>Diese Funktion konvertiert eine beliebige Zahl in die Zeichenfolgendarstellung. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
 <table>
     <tr>
         <td><a href="string.md#camelCase">Binnenmajuskel</a></td><td>Mit dieser Funktion wird der erste Buchstabe jedes Wortes einer Zeichenfolge großgeschrieben</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Char-Code bei</a></td><td>Diese Funktion gibt den ASCII-Wert eines Zeichens zurück, z. B. die Funktion charCodeAt in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Verknüpfen</a></td><td>Mit dieser Funktion werden zwei Zeichenfolgen zu einer zusammengeführt</td>
@@ -212,6 +224,9 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">E-Mail-Domain extrahieren</a></td><td>Mit dieser Funktion wird die Domain einer E-Mail-Adresse extrahiert</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Währung formatieren</a></td><td>Diese Funktion konvertiert eine beliebige Zahl in die entsprechende sprachabhängige Währungsdarstellung, je nachdem, welches Gebietsschema als Zeichenfolge im zweiten Argument übergeben wurde.</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">URL-Host abrufen</a></td><td>Diese Funktion wird verwendet, um den URL-Host abzurufen.</td>
@@ -280,7 +295,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#startsWith">Beginnt mit</a></td><td>Mit dieser Funktion wird bestimmt, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge beginnt</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Zeichenfolge zu Datum</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
+        <td><a href="string.md#string-to-date">Zeichenfolge zu Datum</a></td><td>Diese Funktion konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">Zeichenfolge zu Ganzzahl</a></td><td>Diese Funktion wandelt einen Zeichenfolgenwert in einen ganzzahligen Wert um.</td>

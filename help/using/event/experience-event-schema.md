@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Schemas, XDM, Plattform, Streaming, Erfassung, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
    ![](assets/schema3.png)
 
-* Deklarieren Sie ein Identitätsfeld zur Identifizierung des Themas des Ereignisses. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
+* Deklarieren Sie ein Identitätsfeld zur Identifizierung einzelner Profile im Ereignis. Wenn keine Identität angegeben ist, kann eine Identitätszuordnung (identityMap) verwendet werden. Dies wird nicht empfohlen.
 
    ![](assets/schema4.png)
 

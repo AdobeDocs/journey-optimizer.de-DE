@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Aggregationsfunktionen werden verwendet, um mehrere Werte zu gruppieren, sodass 
 
 Die Funktion `average` gibt das arithmetische Mittel aller ausgewählten Werte im Array zurück.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ Durch den folgenden Vorgang wird der Durchschnittspreis aller Bestellungen zurü
 
 Die Funktion `count` gibt die Anzahl der Elemente innerhalb des angegebenen Arrays zurück.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ Durch den folgenden Vorgang wird die Anzahl der Bestellungen im Array zurückgeg
 
 Die Funktion `max` gibt den größten der ausgewählten Werte im Array zurück.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ Durch den folgenden Vorgang wird der höchste Preis aller Bestellungen zurückge
 
 Die Funktion `min` gibt den kleinsten aller ausgewählten Werte im Array zurück.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ Durch den folgenden Vorgang wird der niedrigste Preis aller Bestellungen zurück
 
 Die Funktion `sum` gibt die Summe aller ausgewählten Werte im Array zurück.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= sum(array) %}

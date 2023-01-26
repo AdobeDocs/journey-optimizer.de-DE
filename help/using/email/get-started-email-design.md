@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: E-Mail, Design, Lager, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+source-wordcount: '317'
+ht-degree: 86%
 
 ---
 
@@ -52,6 +52,10 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
    * Wählen Sie aus einer Liste integrierter oder benutzerdefinierter Vorlagen einen **existierenden Inhalt aus**. Informationen zum Nutzen von E-Mail-Vorlagen finden Sie in [diesem Abschnitt](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. Sobald Ihr E-Mail-Inhalt definiert und personalisiert wurde, können Sie Ihren Inhalt zur Validierung oder zur späteren Verwendung exportieren. Klicken **[!UICONTROL HTML exportieren]** , um eine ZIP-Datei zu speichern, die Ihre HTML und Assets enthält.
+
+   ![](assets/email_designer_export.png)
 
 ## Anleitungsvideo {#video}
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Verwenden Sie Zuordnungsfunktionen in der Personalisierung, um die Interaktion m
 
 Mit der `get`-Funktion wird der Wert einer Zuordnung für einen bestimmten Schlüssel abgerufen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ Die folgende Operation ruft den Wert der Identitätszuordnung für den Schlüsse
 
 Die `keys`-Funktion wird zum Abrufen aller Schlüssel einer gegebenen Zuordnung verwendet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ Die folgende Operation ruft alle Schlüssel für die Zuordnung `identityMap` ab.
 
 Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung verwendet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= values(map) %}

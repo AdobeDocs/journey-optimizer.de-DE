@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '817'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,8 @@ Dazu müssen Sie zunächst in Journey Optimizer eine von einer API ausgelöste K
 Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.
 
 ## Erstellen einer von einer API ausgelösten Kampagne {#create}
+
+### Konfigurieren und Aktivieren der Kampagne {#create-activate}
 
 Der Prozess zum Erstellen einer API-ausgelösten Kampagne ist identisch mit dem Prozess für geplante Kampagnen, mit Ausnahme der Audience-Auswahl, die in der API-Payload durchgeführt wird. Detaillierte Informationen zum Erstellen einer Kampagne finden Sie in [diesem Abschnitt](create-campaign.md).
 
@@ -55,11 +57,23 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
 
    Wenn Sie ein bestimmtes Start- und/oder Enddatum für eine Kampagne konfigurieren, wird diese nicht außerhalb dieses Zeitraums ausgeführt und API-Aufrufe schlagen fehl, wenn eine Kampagne durch APIs ausgelöst wird.
 
-1. Rufen Sie im Bereich **[!UICONTROL cURL-Anfrage]** die **[!UICONTROL Kampagnen-ID]** auf, um sie in der API-Payload zu verwenden.
+1. Klicken Sie auf **[!UICONTROL Zum Aktivieren überprüfen]**, um sicherzustellen, dass Ihre Kampagne korrekt konfiguriert ist, und aktivieren Sie sie.
+
+Jetzt können Sie die Kampagne über die APIs ausführen. [Weitere Informationen](#execute)
+
+### Ausführen der Kampagne {#execute}
+
+Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-Anfrage abrufen und in der API verwenden, um Ihre Payload zu erstellen und die Kampagne Trigger.
+
+1. Öffnen Sie die Kampagne und kopieren Sie dann die Beispielanfrage aus dem **[!UICONTROL cURL-Anfrage]** Abschnitt.
 
    ![](assets/api-triggered-curl.png)
 
-1. Klicken Sie auf **[!UICONTROL Zum Aktivieren überprüfen]**, um sicherzustellen, dass Ihre Kampagne korrekt konfiguriert ist, und aktivieren Sie sie.
+1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne Trigger. Weitere Informationen finden Sie im Abschnitt [Dokumentation zur API für die Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, wird diese nicht außerhalb dieses Datums ausgeführt und API-Aufrufe schlagen fehl.
 
 ## Verwenden von kontextuellen Attributen in von einer API ausgelösten Kampagnen {#contextual}
 
@@ -82,16 +96,6 @@ Die Syntax `{{context.<contextualAttribute>}}` ist nur einem Zeichenfolgen-Daten
 >Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 
 Beachten Sie, dass im Menü in der linken Leiste derzeit kein kontextuelles Attribut verfügbar ist. Attribute müssen direkt in Ihren Personalisierungsausdruck eingegeben werden, ohne dass eine Überprüfung durch [!DNL Journey Optimizer] durchgeführt wird.
-
-## Ausführen der Kampagne {#execute}
-
-Um eine von APIs ausgelöste Kampagne auszuführen, müssen Sie zunächst deren ID abrufen und an die API-Payload übergeben. Öffnen Sie dazu die Kampagne und kopieren Sie die ID aus dem Bereich **[!UICONTROL cURL-Anfrage]**.
-
-![](assets/api-triggered-id.png)
-
-Anschließend können Sie diese ID in Ihrer API-Payload verwenden, um die Kampagne auszulösen. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zur Interactive Message Execution API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
-
-Beachten Sie, dass, wenn Sie bei der Erstellung der Kampagne ein bestimmtes Start- und/oder Enddatum konfiguriert haben, die Kampagne außerhalb dieses Zeitraums nicht ausgeführt wird und API-Aufrufe fehlschlagen.
 
 ## Profilerstellung bei der Kampagnenausführung {#profile-creation}
 

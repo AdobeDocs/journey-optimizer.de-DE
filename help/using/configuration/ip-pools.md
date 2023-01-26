@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, Pools, Gruppe, Subdomänen, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 99%
+source-wordcount: '717'
+ht-degree: 86%
 
 ---
 
@@ -61,6 +61,18 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >[!NOTE]
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
+
+Bei der Auswahl von IPs können Sie aus der Liste die mit den IPs verknüpften PTR-Datensätze sehen. Auf diese Weise können Sie die Branding-Informationen für jede IP-Adresse überprüfen, wenn Sie einen IP-Pool erstellen, und IPs auswählen, die beispielsweise dieselben Branding-Informationen enthalten. [Weitere Informationen zu PTR-Einträgen](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>Wenn für eine IP kein PTR-Datensatz konfiguriert ist, können Sie diese IP nicht auswählen. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um den PTR-Datensatz dieser IP-Adresse zu konfigurieren.
+
+Nachdem ein IP-Pool erstellt wurde, werden PTR-Informationen angezeigt, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste für IP-Pools angezeigt werden.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 Der IP-Pool wird jetzt erstellt und in der Liste angezeigt. Sie können ihn auswählen, um auf seine Eigenschaften zuzugreifen und die zugehörige Kanaloberfläche anzuzeigen (d.h. Nachrichtenvoreinstellung). Weiterführende Informationen zum Verknüpfen einer Kanaloberfläche mit einem IP-Pool finden Sie in [diesem Abschnitt](channel-surfaces.md).
 

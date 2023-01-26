@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Boolesche Funktionen werden verwendet, um eine boolesche Logik auf verschiedene 
 
 Die Funktion `and` wird zur Erstellung einer logischen Verknüpfung verwendet.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ Durch den folgenden Vorgang werden alle Personen mit Wohnsitz in Frankreich und 
 
 Die Funktion `or` wird verwendet, um eine logische Trennung zu erstellen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ Durch den folgenden Vorgang werden alle Personen mit Wohnsitz in Frankreich oder
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ Vergleichsfunktionen werden verwendet, um zwischen verschiedenen Ausdrücken und
 
 Die Funktion `=` (gleich) prüft, ob ein Wert oder Ausdruck gleich einem anderen Wert oder Ausdruck ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ Mit dem folgenden Vorgang wird geprüft, ob das Land der Wohnadresse Frankreich 
 
 Die Funktion `!=` (ungleich) prüft, ob ein Wert oder Ausdruck **ungleich** einem anderen Wert oder Ausdruck ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ Mit dem folgenden Vorgang wird geprüft, ob das Land der Wohnadresse nicht Frank
 
 Mit der Funktion `>` (größer als) wird überprüft, ob der erste Wert größer als der zweite ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die nach 1970 geboren wurde
 
 Mit der Funktion `>=` (größer oder gleich) wird überprüft, ob der erste Wert größer oder gleich dem zweiten Wert ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die im Jahr 1970 oder danac
 
 Mit der Vergleichsfunktion `<` (kleiner als) wird geprüft, ob der erste Wert kleiner als der zweite ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die vor 2000 geboren wurden
 
 Mit der Vergleichsfunktion `<=` (kleiner oder gleich) wird geprüft, ob der erste Wert kleiner oder gleich dem zweiten Wert ist.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= expression1 <= expression2 %}

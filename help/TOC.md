@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1307'
 ht-degree: 99%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 99%
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
       + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
       + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
+      + [Statistische Berechnungen im Experimentationsbericht](using/campaigns/experiment-report-calculations.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
@@ -464,6 +465,7 @@ ht-degree: 99%
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
+   + [Datenhygiene](using/privacy/data-hygiene.md)
    + Einverständnisverwaltung {#consent}
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)

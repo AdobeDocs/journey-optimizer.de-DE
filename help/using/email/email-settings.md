@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 99%
+source-wordcount: '1478'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,14 @@ Sie können nicht mit der Erstellung der Oberfläche fortfahren, während sich d
 >[!NOTE]
 >
 >Für Nicht-Produktionsumgebungen erstellt Adobe keine nativen Test-Subdomains und gewährt auch keinen Zugriff auf einen freigegebenen Versand-IP-Pool. Sie müssen [Ihre eigenen Subdomains zuweisen](../configuration/delegate-subdomain.md) und die IPs des Ihrem Unternehmen zugewiesenen Pools verwenden.
+
+Nachdem ein IP-Pool ausgewählt wurde, werden PTR-Informationen angezeigt, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdownliste &quot;IP-Pool&quot;angezeigt werden. [Weitere Informationen zu PTR-Einträgen](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>Wenn kein PTR-Datensatz konfiguriert ist, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

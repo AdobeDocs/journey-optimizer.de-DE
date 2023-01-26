@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 98%
+source-wordcount: '1642'
+ht-degree: 93%
 
 ---
 
@@ -154,12 +154,32 @@ Sie können diese Tastaturbefehle in bestimmten Teilen von Journey Optimizer ver
   </tr>
   <tr>
     <td>Auswahl aller Aktivitäten</td>
-    <td>Strg + A (Windows)<br/>Befehl + A (Mac)</td>
+    <td>STRG + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Löschen von ausgewählten Aktivitäten</td>
     <td>Löschen oder Rücktaste und anschließend Eingabetaste zur Bestätigung des Löschvorgangs</td>
   </tr>
+  <tr>
+    <td>Vergrößern und Verkleinern (Fokus auf Arbeitsfläche oder einem der untergeordneten Elemente)</td>
+    <td>STRG +/- (Windows) oder CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navigieren zwischen jeder Aktivität und jedem Pfad (Arbeitsfläche auswählen) oder zwischen Symbolleistenschaltflächen (Symbolleisten zentrieren)</td>
+    <td>ARROW-Schlüssel</td>
+  </tr>   
+  <tr>
+    <td>Verschieben Sie den Fokus auf das nächste umsetzbare Element auf der Arbeitsfläche, wobei die Symbolleiste das erste Element ist</td>
+    <td>Tabulatortaste</td>
+  </tr>  
+  <tr>
+    <td>Öffnen Sie den rechten Konfigurationsbereich (konzentrieren Sie sich auf eine Aktivität).</td>
+    <td>EINGEBEN</td>
+  </tr>   
+  <tr>
+    <td>Verschieben einer Aktivität auf der Arbeitsfläche (Fokus auf eine Aktivität)</td>
+    <td>UMSCHALT- + PFEILtasten</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

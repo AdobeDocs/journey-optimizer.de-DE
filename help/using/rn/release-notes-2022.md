@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3583'
 ht-degree: 99%
 
 ---
@@ -14,6 +14,47 @@ ht-degree: 99%
 # Versionshinweise 2022 {#release-notes-2022}
 
 Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Optimizer] aufgeführt, die im Jahr 2022 veröffentlicht wurden.
+
+
+
+## Version Oktober 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Verbesserungen {#oct-2022-improvements}
+
+**Journeys**
+
+* Die Option **Erneuten Eintritt bei Wiederholung erzwingen** wurde zu den Planparametern für wiederkehrende Lesesegmente hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Administration**
+
+* Es wurde eine Nachricht zur Benutzeroberfläche hinzugefügt, die darauf hinweist, dass die Konfigurationen von Subdomain, Landingpage-Subdomain, PTR-Eintrag und IP-Pool für alle Sandboxes gelten. Daher wirkt sich jede Änderung an einer dieser Konfigurationen auch auf die Produktions-Sandboxes aus.
+* Die Schritte zum Hochladen der Unterdrückungsliste als CSV-Datei über die Benutzeroberfläche wurden geändert. [Weitere Informationen](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Kampagnen**
+
+* Sie können jetzt abgeschlossene und gestoppte Kampagnen archivieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Version September 2022{#sept-2022-release}

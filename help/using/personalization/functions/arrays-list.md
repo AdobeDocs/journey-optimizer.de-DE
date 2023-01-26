@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 95%
@@ -21,7 +21,7 @@ Verwenden Sie diese Funktionen, um die Interaktion mit Arrays, Listen und Zeiche
 
 Die Funktion `countOnlyNull` wird verwendet, um die Anzahl der Nullwerte in einer Liste zu zählen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Gibt 3 zurück.
 
 Die Funktion `countWithNull` wird verwendet, um alle Elemente einer Liste einschließlich Nullwerten zu zählen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Gibt 6 zurück.
 
 Die Funktion `distinct` wird verwendet, um Werte aus einem Array oder einer Liste abzurufen, aus denen doppelte Werte entfernt wurden.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr al
 
 Die Funktion `distinctCountWithNull` wird verwendet, um die Anzahl verschiedener Werte in einer Liste einschließlich der Nullwerte zu zählen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Gibt 3 zurück.
 
 Mit der Funktion `head` wird das erste Element im Array oder in der Liste zurückgegeben.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit 
 
 Die `topN`-Funktion gibt die ersten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ Der folgende Vorgang gibt die ersten fünf Bestellungen mit dem niedrigsten Prei
 
 Mit der `in`-Funktion wird bestimmt, ob ein Element einem Array oder einer Liste angehört.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder Sep
 
 Mit der `includes`-Funktion wird bestimmt, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Ro
 
 Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben minde
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 Die `bottomN`-Funktion gibt die letzten `N` Elemente in einem Array zurück, wenn sie anhand des angegebenen numerischen Ausdrucks in aufsteigender Reihenfolge sortiert werden.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ Mit der `notIn`-Funktion wird bestimmt, ob ein Element einem Array oder einer Li
 >
 > Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die nicht im März, Juni od
 
 Mit der `subsetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Teilmenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob alle Elemente in Array A Elemente von Array B sind.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsst�
 
 Mit der `supersetOf`-Funktion wird bestimmt, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
 
-**Format**
+**Syntax**
 
 ```sql
 {%= supersetOf(array1, array2) %}
