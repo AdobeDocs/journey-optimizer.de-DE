@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: E-Mail, Design, Lager, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 86%
@@ -45,7 +45,6 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
       >[!NOTE]
       >
       >In einer Kampagne können Sie auch die Schaltfläche **[!UICONTROL Code Editor]** im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auswählen. [Weitere Informationen](create-email.md#define-email-content)
-
 
    * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 

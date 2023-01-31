@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '509'
 ht-degree: 19%
 
 ---
@@ -45,22 +45,25 @@ Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md).
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Email content templates</strong><br/></th>
+<th><strong>E-Mail-Inhaltsvorlagen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create standalone content templates that can be leveraged across journeys and campaigns for quick reuse.</p> 
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die über Journey und Kampagnen hinweg für eine schnelle Wiederverwendung genutzt werden können.</p> 
+</p>
+<!--img src="assets/do-not-localize/"/-->
+<p>Erfahren Sie, wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">dieses Video</a>.
+<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../email/content-templates.md">ausführlichen Dokumentation</a>.
+</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 ### Verbesserungen {#jan-2023-improvements}
 

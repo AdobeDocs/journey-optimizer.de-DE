@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: E-Mail, Vorlagen, Design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 98%
+source-wordcount: '279'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,8 @@ Erfahren Sie im Abschnitt **[!UICONTROL Design-Vorlage auswählen]**, wie Sie Ih
 
 Sie können aus folgenden Optionen wählen:
 * 20 vordefinierte E-Mail-Vorlagen.
-* Gespeicherte Vorlagen. [Weitere Informationen](#use-saved-template)
+* Gespeicherte E-Mail-Vorlagen. [Weitere Informationen](#use-saved-template)
+* Inhaltsvorlagen. [Weitere Informationen](content-templates.md)
 
 ## Als Vorlage speichern {#save-as-template}
 
@@ -34,6 +35,10 @@ Sie können aus folgenden Optionen wählen:
 >abstract="Seit dem 25. Juli 2022 wird das Nachrichtenmenü nicht mehr angezeigt. Nachrichten werden nun direkt von einer Journey aus verfasst. Wenn Sie Ihre alten Nachrichten in Journeys wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
 
 Sobald Sie Ihren [E-Mail-Inhalt](get-started-email-design.md) entworfen haben, können Sie ihn zur späteren Wiederverwendung speichern. Gehen Sie dazu wie folgt vor.
+
+>[!CAUTION]
+>
+>Zum Speichern eines Inhalts als Vorlage benötigen Sie die **[!DNL Manage Library Items]** in der **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. Klicken Sie oben rechts im Bildschirm auf das Symbol mit den Auslassungszeichen.
 
@@ -46,6 +51,8 @@ Sobald Sie Ihren [E-Mail-Inhalt](get-started-email-design.md) entworfen haben, k
    ![](assets/email_designer-template-name.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+Diese Vorlage wird in der Inhaltsvorlagenliste gespeichert. [Weitere Informationen](content-templates.md)
 
 Wenn Sie das nächste Mal eine E-Mail erstellen, können Sie diese Vorlage verwenden, um Inhalte zu erstellen. [Weitere Informationen dazu](#use-saved-template)
 
