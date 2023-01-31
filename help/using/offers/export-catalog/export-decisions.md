@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 99%
@@ -61,7 +61,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++ _experience > decisioning > criteria > description**
++++ _experience > decisioning > criteria > description
 
 **Feld:** description 
 **Titel:** Beschreibung 
@@ -110,7 +110,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > criteria > placements**
++++_experience > decisioning > criteria > placements
 
 **Feld:** placements 
 **Titel:** Platzierungsbegrenzungen
@@ -125,7 +125,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints**
++++_experience > decisioning > criteria > profileConstraints
 
 **Feld:** profileConstraints 
 **Titel:** Profilbegrenzung 
@@ -205,7 +205,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++_experience > decisioning > criteria > ranking**
++++_experience > decisioning > criteria > ranking
 
 **Feld:** ranking 
 **Titel:** Ranking-Details 
@@ -293,7 +293,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Feld:** _repo 
 **Typ:** Objekt
