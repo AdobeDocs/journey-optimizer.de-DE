@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
@@ -27,40 +27,50 @@ Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchi
 
 Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL Entscheidungsobjekt-Repository – Fallback-Angebote]** verwendet werden können.
 
-## Kennung {#identifier}
++++ Kennung
 
 **Feld:** _id
 **Titel:** Kennung
 **Beschreibung:** Eindeutige Kennung des Eintrags.
 **Typ:** Zeichenfolge
 
-## _experience {#experience}
++++
+
++++ _experience
 
 **Feld:** _experience 
 **Typ:** Objekt
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **Feld:** decisioning
 **Typ:** Objekt
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **Feld:** characteristics
 **Titel:** Merkmale der Entscheidungsoption 
 **Beschreibung:** Zusätzliche Eigenschaften oder Attribute, die zu dieser bestimmten Entscheidungsoption gehören. Verschiedene Instanzen können unterschiedliche Merkmale aufweisen (Schlüssel in der Zuordnung). Bei den Merkmalen handelt es sich um Namen-Wert-Paare, mit denen eine Entscheidungsoption von anderen unterschieden wird. Merkmale dienen als Werte im Inhalt, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Leistung einer Option. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft hat, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das sich aus den Details der Entscheidungsoption ableitet.
 **Typ:** Objekt
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisioning > contents
++++ _experience > decisioning > contents
 
 **Feld:** contents
 **Titel** Inhaltsdetails 
 **Beschreibung:** Inhaltselemente, die dazu dienen, das Entscheidungselement in verschiedenen Kontexten darzustellen. Eine Entscheidungsoption kann mehrere Inhaltsvarianten aufweisen. Inhalte sind Informationen, die an eine Audience gerichtet und zur Verwendung in einem (digitalen) Erlebnis eingesetzt werden. Inhalte werden über Kanäle in einer bestimmten Platzierung bereitgestellt.
 **Typ:** Array
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **Feld:** components
 **Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
@@ -148,14 +158,18 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Typ:** Zeichenfolge
    **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
-**_experience > decisioning > contents > Placement**
++++
+
++++ _experience > decisioning > contents > Placement
 
 **Feld:** placement 
 **Titel:** Platzierung 
 **Beschreibung:** Platzierung, die einzuhalten ist. Der Wert ist der URI (@id) der Angebotsplatzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
 **Typ:** Zeichenfolge
 
-#### _experience > decisioning > Lifecycle Status
++++
+
++++ _experience > decisioning > Lifecycle Status
 
 **Feld:** lifecycleStatus 
 **Titel:** Lebenszyklusstatus 
@@ -163,30 +177,40 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Typ:** Zeichenfolge 
 **Mögliche Werte:** „Entwurf“ (Standard), „Genehmigt“, „Live“, „Abgeschlossen“, „Archiviert“
 
-#### _experience > decisioning > Decision Option Name
++++
+
++++ _experience > decisioning > Decision Option Name
 
 **Feld:** name 
 **Titel:** Name der Entscheidungsoption 
 **Beschreibung:** Optionsname, der in verschiedenen Benutzeroberflächen angezeigt wird.
 **Typ:** Zeichenfolge
 
-#### _experience > decisioning > tags
++++
+
++++ _experience > decisioning > tags
 
 **Feld:** tags 
 **Titel:** Tags 
 **Beschreibung:** Der Satz von Tags, die mit dieser Entität verknüpft sind. Die Tags werden in Filterausdrücken verwendet, um den Gesamtbestand auf eine Untergruppe (Kategorie) zu begrenzen.
 **Typ:** Array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Feld:** _repo 
 **Typ:** Objekt
 
-### _repo > Decision Option ETag
++++
+
++++ _repo > Decision Option ETag
 
 **Feld:** etag 
 **Title:** Entscheidungsoption-E-Tag 
 **Beschreibung:** Die Revision, in der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
 **Typ:** Zeichenfolge
+
++++

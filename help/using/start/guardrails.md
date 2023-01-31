@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '956'
 ht-degree: 96%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 96%
 # Limits und Einschränkungen {#limitations}
 
 Berechtigungen, Produktbeschränkungen und Leistungsgarantien finden Sie unter [Adobe Journey Optimizer-Produktbeschreibungsseite](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+Beachten Sie auch die [Limits für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}.
 
 Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 

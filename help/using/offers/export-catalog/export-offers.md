@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 100%
@@ -29,24 +29,30 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Kennung {#identifier}
++++ Kennung
 
 **Feld:** _id
 **Titel:** Kennung
 **Beschreibung:** Eindeutige Kennung des Eintrags.
 **Typ:** Zeichenfolge
 
-## _experience {#experience}
++++
+
++++ _experience  {#experience}
 
 **Feld:** _experience 
 **Typ:** Objekt
 
-### _experience > decisioning
++++
+
++++ _experience > decisioning
 
 **Feld:** decisioning
 **Typ:** Objekt
 
-#### _experience > decisioning > calendarConstraints
++++
+
++++ _experience > decisioning > calendarConstraints
 
 **Feld:** calendarConstraints 
 **Titel:** Kalendereinschränkungsdetails 
@@ -67,21 +73,27 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Beschreibung:** Das Startdatum der Gültigkeit einer Entscheidungsoption. Optionen, deren Startdatum noch nicht erreicht ist, können im Entscheidungsprozess noch nicht vorgeschlagen werden.
    **Typ:** Zeichenfolge
 
-#### _experience > decisioning > characteristics
++++
+
++++ _experience > decisioning > characteristics
 
 **Feld:** characteristics
 **Titel:** Merkmale der Entscheidungsoption 
 **Beschreibung:** Zusätzliche Eigenschaften oder Attribute, die zu dieser bestimmten Entscheidungsoption gehören. Verschiedene Instanzen können unterschiedliche Merkmale aufweisen (Schlüssel in der Zuordnung). Bei den Merkmalen handelt es sich um Namen-Wert-Paare, mit denen eine Entscheidungsoption von anderen unterschieden wird. Merkmale dienen als Werte im Inhalt, der diese Entscheidungsoption darstellt, sowie als Funktionen zur Analyse und Optimierung der Leistung einer Option. Wenn jede Instanz dasselbe Attribut oder dieselbe Eigenschaft hat, sollte dieser Aspekt als Erweiterungsschema modelliert werden, das sich aus den Details der Entscheidungsoption ableitet.
 **Typ:** Objekt
 
-#### _experience > decisioning > contents
++++
+
++++ _experience > decisioning > contents
 
 **Feld:** contents
 **Titel** Inhaltsdetails 
 **Beschreibung:** Inhaltselemente, die dazu dienen, das Entscheidungselement in verschiedenen Kontexten darzustellen. Eine Entscheidungsoption kann mehrere Inhaltsvarianten aufweisen. Inhalte sind Informationen, die an eine Audience gerichtet und zur Verwendung in einem (digitalen) Erlebnis eingesetzt werden. Inhalte werden über Kanäle in einer bestimmten Platzierung bereitgestellt.
 **Typ:** Array
 
-**_experience > decisioning > contents > components**
++++
+
++++_experience > decisioning > contents > components
 
 **Feld:** components
 **Beschreibung:** Die Komponenten des Inhalts, der die Entscheidungsoption darstellt, einschließlich aller zugehörigen Sprachvarianten. Spezifische Komponenten werden durch „dx:format“, „dc:subject“ und „dc:language“ oder eine Kombination daraus gefunden. Diese Metadaten werden verwendet, um den mit einem Angebot verknüpften Inhalt zu suchen oder darzustellen und ihn gemäß dem Platzierungsvertrag zu integrieren.
@@ -168,14 +180,16 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Typ:** Zeichenfolge
    **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
-**_experience > decisioning > contents > Placement**
++++_experience > decisioning > contents > Placement
 
 **Feld:** placement 
 **Titel:** Platzierung 
 **Beschreibung:** Platzierung, die einzuhalten ist. Der Wert ist der URI (@id) der Angebotsplatzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
 **Typ:** Zeichenfolge
 
-#### _experience > decisioning > Lifecycle Status
++++
+
++++ _experience > decisioning > Lifecycle Status
 
 **Feld:** lifecycleStatus 
 **Titel:** Lebenszyklusstatus 
@@ -183,35 +197,45 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Typ:** Zeichenfolge 
 **Mögliche Werte:** „Entwurf“ (Standard), „Genehmigt“, „Live“, „Abgeschlossen“, „Archiviert“
 
-#### _experience > decisioning > Decision Option Name
++++
+
++++ _experience > decisioning > Decision Option Name
 
 **Feld:** name 
 **Titel:** Name der Entscheidungsoption 
 **Beschreibung:** Optionsname, der in verschiedenen Benutzeroberflächen angezeigt wird.
 **Typ:** Zeichenfolge
 
-#### _experience > decisioning > profileConstraints
++++
+
++++ _experience > decisioning > profileConstraints
 
 **Feld:** profileConstraints 
 **Titel:** Profileinschränkungsdetails
 **Beschreibung:** Anhand der Profileinschränkung wird entschieden, ob in einem bestimmten Moment und Kontext für die jeweilige Profilidentität eine Option geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
-**Typ:** Objekt
+**Typ: Objekt**
 
-**_experience > decisioning > profileConstraints > Description**
++++
+
++++_experience > decisioning > profileConstraints > Description
 
 **Feld:** description 
 **Titel:** Beschreibung 
 **Beschreibung:** Beschreibung der Profilbegrenzung. Die Beschreibung soll in für Menschen verständlicher Form vermitteln, wie oder warum diese Profilbegrenzung erstellt wurde und/oder welche Option ein- oder ausgeschlossen wird.
 **Typ:** Zeichenfolge
 
-**_experience > decisioning > profileConstraints > Eligibility Rule**
++++
+
++++_experience > decisioning > profileConstraints > Eligibility Rule
 
 **Feld:** eligibilityRule
 **Titel:** Eignungsregel
 **Beschreibung:** Ein Verweis auf eine Entscheidungsregel, die für ein bestimmtes Profil und/oder andere kontextuelle XDM-Objekte als „true“ oder „false“ ausgewertet wird. Die Regel wird verwendet, um zu entscheiden, ob die Option für ein bestimmtes Profil geeignet ist. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/rule.
 **Typ:** Zeichenfolge
 
-**_experience > decisioning > profileConstraints > Profile Constraint Type**
++++
+
++++_experience > decisioning > profileConstraints > Profile Constraint Type
 
 **Feld:** profileConstraintType 
 **Titel:** Profileinschränkungstyp 
@@ -222,9 +246,11 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
 * „anySegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu mindestens einem dieser Segmente zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
 * „allSegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu allen diesen Segmenten zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
-* „rules“: „Die Profilbegrenzung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die begrenzte Aktion zulässig ist.“
+* „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
 
-**_experience > decisioning > profileConstraints > Segment Identifiers**
++++
+
++++_experience > decisioning > profileConstraints > Segment Identifiers
 
 **Feld:** segmentIdentities 
 **Titel:** Segmentkennungen 
@@ -260,14 +286,18 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Beschreibung:** Falls vorhanden, stellt dieser Wert eine Namespace-übergreifende Kennung dar, die unter allen Kennungen in allen Namespaces eindeutig ist.
    **Typ:** Zeichenfolge
 
-#### _experience > decisioning > ranking
++++
+
++++ _experience > decisioning > ranking
 
 **Feld:** ranking 
 **Titel:** Rangfolgedetails 
 **Beschreibung:** Rang (Priorität). Definiert, was angesichts des Kontexts des Entscheidungskriteriums als \&quot;best action\&quot; gilt. Unter allen ausgewählten Optionen, die die Gültigkeitseinschränkung erfüllen, entscheidet die Rangfolge über die vorzuschlagenden Top-Optionen (oder Top-N).
 **Typ:** Objekt
 
-**_experience > decisioning > ranking > Order Evaluation**
++++
+
++++_experience > decisioning > ranking > Order Evaluation
 
 **Feld:** order 
 **Titel:** Evaluierung der Rangfolge 
@@ -297,7 +327,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Typ:** Zeichenfolge
 
-**_experience > decisioning > ranking > Priority**
++++
+
++++_experience > decisioning > ranking > Priority
 
 **Feld:** priority 
 **Titel:** Priorität 
@@ -306,23 +338,31 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Mindestwert:** 0 
 **Standardwert:** 0
 
-#### _experience > decisioning > tags
++++
+
++++ _experience > decisioning > tags
 
 **Feld:** tags 
 **Titel:** Tags 
 **Beschreibung:** Der Satz von Tags, die mit dieser Entität verknüpft sind. Die Tags werden in Filterausdrücken verwendet, um das Gesamtinventar auf eine Untergruppe (Kategorie) beschränken.
 **Typ:** Array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Feld:** _repo 
 **Typ:** Objekt
 
-### _repo > Decision Option ETag
++++
+
++++ _repo > Decision Option ETag
 
 **Feld:** etag 
 **Title:** Entscheidungsoption-E-Tag 
 **Beschreibung:** Die Revision, in der sich das Entscheidungsoptionsobjekt zum Zeitpunkt des Speicherauszugs befand.
 **Typ:** Zeichenfolge
+
++++

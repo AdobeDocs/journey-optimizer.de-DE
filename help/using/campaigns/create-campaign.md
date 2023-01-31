@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimieren, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 94%
 
 ---
 
@@ -52,11 +52,13 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 
    Eine Oberfläche ist eine Konfiguration, die durch [Systemadmins](../start/path/administrator.md) definiert worden ist. Sie enthält alle technischen Parameter zum Senden der Nachricht, wie z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw. [Weitere Informationen](../configuration/channel-surfaces.md).
 
+   In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >In der Dropdown-Liste werden nur Kanaloberflächen aufgeführt, die mit dem Typ der Marketing-Kampagne kompatibel sind.
+   >Wenn Sie eine Push-Benachrichtigungskampagne erstellen, können Sie die **[!UICONTROL Schnellbereitstellungsmodus]**, ein Journey Optimizer-Add-on, das den sehr schnellen Versand großer Mengen von Push-Nachrichten ermöglicht. [Weitere Informationen](../push/create-push.md#rapid-delivery)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**, um die Kampagne zu erstellen.
 

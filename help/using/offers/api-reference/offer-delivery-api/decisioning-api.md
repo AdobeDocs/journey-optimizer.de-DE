@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,9 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 | Akzeptieren | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Inhaltstyp | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API-Format**
+## API-Anfrage {#request}
+
+### API-Format
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Anfrage**
+### Anfrage
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | Dieses Flag identifiziert die spezifischen Metadateninformationen, die für `xdm:option` zurückgegeben werden. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Dieses Flag identifiziert die spezifischen Metadateninformationen, die für `xdm:placement` zurückgegeben werden. | `name`, `channel`, `componentType` |
 
-**Antwort**
+### Antwort
 
 Eine erfolgreiche Antwort gibt Informationen zu Ihrem Vorschlag zurück, einschließlich der eindeutigen `xdm:propositionId`.
 
@@ -192,6 +194,20 @@ Eine erfolgreiche Antwort gibt Informationen zu Ihrem Vorschlag zurück, einschl
 | `xdm:propositions.xdm:fallback.dc:format` | Die physische oder digitale Manifestation der Ressource. Normalerweise sollte das Format den Medientyp der Ressource enthalten. Das Format kann verwendet werden, um die Software, Hardware oder andere Geräte zu bestimmen, die zum Anzeigen oder Betreiben der Ressource erforderlich sind. Es wird empfohlen, einen Wert aus einem kontrollierten Vokabular auszuwählen, z. B. aus der Liste von [Internet-Medientypen](http://www.iana.org/assignments/media-types/), die Computermedienformate definieren. | `"dc:format": "image/png"` oder `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Eine optionale URL, um das Asset aus einem Content Delivery Network oder Service-Endpunkt zu lesen. Diese URL wird verwendet, um von einem User Agent aus öffentlich auf das Asset zuzugreifen. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Der Zeitpunkt, zu dem die Entscheidungsantwortnachricht erstellt wurde. Dies wird als Epoche-Zeit dargestellt. | `"ode:createDate": 1566497582038` |
+
+**Antwort-Codes**
+
+In der folgenden Tabelle sind alle Codes aufgeführt, die in der Antwort zurückgegeben werden können:
+
+| Code | Beschreibung |
+|  ---  |  ---  |
+| 200 | Erfolgreich. Die Entscheidung wurde für bestimmte Tätigkeiten getroffen |
+| 400 | Ungültiger Anforderungsparameter. Die Anfrage kann vom Server aufgrund einer fehlerhaften Syntax nicht verstanden werden. |
+| 403 | Verbotene, unzureichende Berechtigungen. |
+| 422 | Nicht verarbeitbare Entität. Die Anforderungssyntax ist jedoch aufgrund von semantischen Fehlern korrekt, sodass sie nicht verarbeitet werden kann. |
+| 429 | Zu viele Anfragen. Der Benutzer hat zu viele Anfragen innerhalb einer bestimmten Zeit gesendet. |
+| 500 | Interner Server-Fehler. Auf dem Server ist eine unerwartete Bedingung aufgetreten, die die Erfüllung der Anforderung verhinderte. |
+| 503 | Dienst aufgrund einer Serverüberlastung nicht verfügbar. Der Server kann die Anfrage aufgrund einer temporären Überlastung derzeit nicht verarbeiten. |
 
 ## Anleitungsvideo {#video}
 

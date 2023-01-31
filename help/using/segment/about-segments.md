@@ -8,40 +8,54 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 37%
 
 ---
 
 # Erste Schritte mit Adobe Experience Platform-Segmenten {#about-segments}
 
-Mit [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Segmente mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Segmente]** erstellen und diese Segmente in Ihre Journeys einbinden.
+[!DNL Journey Optimizer]  ermöglicht Ihnen das Erstellen von Adobe Experience Platform-Segmenten mithilfe von Echtzeit-Kundenprofildaten direkt aus dem **[!UICONTROL Segmente]** und verwenden Sie sie in Ihren Journey oder Kampagnen.
 
-Beachten Sie, dass Segmente auch vom Segmentierungs-Service selbst erstellt werden können. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Darüber hinaus können Segmente auch über den Segmentierungsdienst selbst erstellt werden. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
-Sie können die Segmente in Journeys auf verschiedene Weise nutzen:
+## Verwenden von Segmenten in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-* Verwenden Sie eine Orchestrierungsaktivität **Segment lesen**, um alle dem angegebenen Segment angehörenden Personen in die Journey eintreten zu lassen. Die in Ihrer Journey enthaltenen Nachrichten werden an die dem Segment angehörenden Personen gesendet. Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle Silber-Kunden in eine Journey eintreten, und ihnen eine Reihe personalisierter Nachrichten senden.
+Sie können Segmente in **[!DNL Journey Optimizer]** auf unterschiedliche Weise:
 
-   Weiterführende Informationen zur Verwendung der Aktivität **[!UICONTROL Segment lesen]** finden Sie in [diesem Abschnitt](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Wählen Sie ein Segment als **Zielgruppe für eine Kampagne**: Die Nachricht wird an alle Kontakte gesendet, die zum ausgewählten Segment gehören. [Hier erfahren Sie, wie Sie die Audience einer Kampagne definieren.](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Verwenden Sie die Ereignisaktivität **Segmentqualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder in einer Journey fortzufahren. So können Sie z. B. alle neuen Silber-Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. Weiterführende Informationen zur Verwendung der Aktivität finden Sie in [diesem Abschnitt](../building-journeys/segment-qualification-events.md).
+* Verwenden Sie eine **Segment lesen** Orchestrierungsaktivität in einer Journey, um alle Einzelanwender des Segments dazu zu bringen, in die Journey einzutreten und die in Ihrer Journey enthaltenen Nachrichten zu erhalten.
 
-* Erstellen Sie mithilfe des einfachen oder erweiterten Ausdruckseditors **komplexe Bedingungen** in Ihren Journeys. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/condition-activity.md#using-a-segment).
+   Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle Silber-Kunden in eine Journey eintreten, und ihnen eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ Segment lesen konfigurieren](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+
+* Verwenden Sie die **Segmentqualifizierung** -Ereignisaktivität in einer Journey, um Einzelpersonen dazu zu bringen, je nach Eintritten und Austritten von Adobe Experience Platform-Segmenten in die Journey einzutreten oder in der Zukunft fortzufahren.
+
+   So können Sie z. B. alle neuen Silber-Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. Weiterführende Informationen zur Verwendung dieser Aktivität finden Sie im Abschnitt [Erfahren Sie, wie Sie eine Segmentqualifikationsaktivität konfigurieren.](../building-journeys/segment-qualification-events.md).
+
+* Verwenden Sie die **Bedingung** -Aktivität in einer Journey, um Bedingungen zu erstellen, die auf der Segmentzugehörigkeit basieren. [Erfahren Sie, wie Sie Segmente in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
 
 ## Methoden zur Zielgruppenauswertung{#evaluation-method-in-journey-optimizer}
 
-In Adobe Journey Optimizer werden Zielgruppen aus Segmentdefinitionen mithilfe einer der folgenden Auswertungsmethoden generiert:
+In Adobe Journey Optimizer werden Zielgruppen mithilfe einer von zwei Auswertungsmethoden aus Segmentdefinitionen generiert:
 
-* Streaming-Segmentierung: Die Zielgruppen-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System fließen. Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der die Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Segmenthinzufügungen und -entfernungen werden regelmäßig verarbeitet, damit sichergestellt ist, dass die Zielgruppe relevant bleibt.
+* **Streaming-Segmentierung**: Die Zielgruppenliste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, da neue Daten in das System fließen.
 
-* Batch-Segmentierung – die Zielgruppenliste für das Segment wird alle 24 Stunden ausgewertet. Als Alternative zum kontinuierlichen Datenauswahlprozess werden bei der Batch-Segmentierung alle Profildaten gleichzeitig mit Segmentdefinitionen verglichen, um entsprechende Zielgruppen zu erstellen. Nach der Erstellung eines Segments wird es gespeichert, sodass Sie es exportieren und weiterverwenden können.
+   Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der die Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass Personen bei sich ändernden Profildaten zum Segment hinzugefügt oder daraus entfernt werden, sodass Ihre Zielgruppe immer relevant ist.
 
-Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen.
+* **Batch-Segmentierung**: Die Zielgruppenliste für das Segment wird alle 24 Stunden ausgewertet.
 
-Sie können die Auswertungsmethode für jedes Segment in der Spalte **[!UICONTROL Auswertungsmethode]** der Segmentliste anzeigen.
+   Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Audience erstellt, die gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Zielgruppenliste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess im Segment angezeigt.&quot;
+
+Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen. Sie können die Auswertungsmethode für jedes Segment in der Spalte **[!UICONTROL Auswertungsmethode]** der Segmentliste anzeigen.
+
+![](assets/evaluation-method.png)
+
+>[!NOTE]
+>
+>Wenn die Variable **[!UICONTROL Auswertungsmethode]** nicht angezeigt wird, müssen Sie sie mithilfe der Konfigurationsschaltfläche oben rechts in der Liste hinzufügen.
 
 Nachdem Sie ein Segment zum ersten Mal definiert haben, werden Profile zur Audience hinzugefügt, wenn sie sich qualifizieren.
 
