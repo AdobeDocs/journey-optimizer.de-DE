@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „inNextYears“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inNextYears, function, expression, Journey
+keywords: inNextYears, Funktion, Ausdruck, Journey
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
