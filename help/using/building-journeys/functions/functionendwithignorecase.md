@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „endWithIgnoreCase“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: endWithIgnoreCase, function, expression, Journey
+keywords: endWithIgnoreCase, Funktion, Ausdruck, Journey
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
