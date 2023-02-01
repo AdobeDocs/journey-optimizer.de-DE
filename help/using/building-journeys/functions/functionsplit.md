@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „Aufspaltung“.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: split, function, expression, Journey
+keywords: Aufspaltung, Funktion, Ausdruck, Journey
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
