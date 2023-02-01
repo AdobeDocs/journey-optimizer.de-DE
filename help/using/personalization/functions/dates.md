@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, und der zweite Wert gibt an
 >
 > Wenn ein Datumsformat ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können die Java-Formatierungsfunktionen für Datumsangaben verwenden, wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank} zusammengefasst sind.
 
 **Beispiel**
 
