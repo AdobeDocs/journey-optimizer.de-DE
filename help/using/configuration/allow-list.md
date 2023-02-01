@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Gehen Sie dazu wie folgt vor.
 
    >[!NOTE]
    >
-   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie unter [diese Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} zum Beispiel.
+   >Alle ASCII-Zeichen zwischen 32 und 126 sind im Feld **[!UICONTROL Grund]** zulässig. Die vollständige Liste finden Sie zum Beispiel auf [dieser Seite](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
@@ -154,7 +154,7 @@ Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückung
 
 Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 
-Erfahren Sie mehr über API-Aufrufe im [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target="_blank"} Referenzdokumentation.
+Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target="_blank"}.
 
 ## Logik der Zulassungsliste {#logic}
 
@@ -181,7 +181,7 @@ Wann die Zulassungsliste [deaktiviert](#deactivate-allow-list) ist, werden alle 
 
 ## Ausschlussberichte {#reporting}
 
-Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Zu diesem Zweck können Sie die [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} , um die API-Aufrufe unten durchzuführen.
+Wenn die Zulassungsliste aktiv ist, können Sie E-Mail-Adressen oder Domains abrufen, die vom Versand ausgeschlossen wurden, weil sie sich nicht auf der Zulassungsliste befanden. Dazu können Sie den [Abfrage-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} verwenden, um die unten stehenden API-Aufrufe durchzuführen.
 
 Verwenden Sie die folgende Abfrage, um die **Anzahl der E-Mails** abzurufen, die nicht gesendet wurden, weil die Empfänger nicht auf der Zulassungsliste waren:
 
