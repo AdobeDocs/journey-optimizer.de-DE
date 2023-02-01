@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Die Funktion `absolute` wird verwendet, um eine Zahl in ihren absoluten Wert zu 
 
 ## formatNumber {#format-number}
 
-Die `formatNumber` -Funktion verwendet wird, um eine beliebige Zahl in eine sprachabhängige Darstellung zu formatieren.
+Die Funktion `formatNumber` wird verwendet, um eine beliebige Zahl in eine sprachabhängige Darstellung zu formatieren.
 
-Es akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellen, und gibt eine formatierte Zeichenfolge der Zahl im gewünschten Gebietsschema zurück.
+Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt, und gibt eine formatierte Zeichenfolge der Zahl im gewünschten Gebietsschema zurück.
 
 **Syntax**
 
@@ -38,11 +38,11 @@ Es akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellen,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können die Formatierung und gültige Gebietsschemata wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und in [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst werden.
 
 **Beispiel**
 
-Diese Abfrage gibt eine auf Arabisch formatierte Zeichenfolge zurück, die der Eingabenummer 123456.789 entspricht.
+Diese Abfrage gibt eine formatierte Zeichenfolge auf Arabisch zurück, die der Eingabenummer 123456.789 entspricht.
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -78,9 +78,9 @@ Die Funktion `Count only null`wird verwendet, um eine Zahl aufzurunden.
 {%= roundUp(double) %}: double
 ```
 
-## Zu Hexadezimalzeichenfolge {#to-hex-string}
+## In hexadezimale Zeichenfolge {#to-hex-string}
 
-Die `toHexString` -Funktion konvertiert eine beliebige Zahl in ihren hexadezimalen String.
+Die Funktion `toHexString` konvertiert eine beliebige Zahl in ihre hexadezimale Zeichenfolge.
 
 **Syntax**
 
@@ -90,7 +90,7 @@ Die `toHexString` -Funktion konvertiert eine beliebige Zahl in ihren hexadezimal
 
 **Beispiel**
 
-Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, d. h. 9e.
+Diese Abfrage gibt den hexadezimalen Wert von 158 zurück, also 9e.
 
 ```sql
 {%= toHexString(158) %}
@@ -116,9 +116,9 @@ Die Funktion `toPrecision` wird verwendet, um eine Zahl in die erforderliche Pr�
 {%= toPrecision(double,int) %}: string
 ```
 
-## Zeichenfolge {#to-string}
+## In Zeichenfolge {#to-string}
 
-Die **toString** -Funktion konvertiert eine beliebige Zahl in die Zeichenfolgendarstellung.
+Die Funktion **toString** konvertiert eine beliebige Zahl in ihre Zeichenfolgendarstellung.
 
 **Syntax**
 
@@ -128,7 +128,7 @@ Die **toString** -Funktion konvertiert eine beliebige Zahl in die Zeichenfolgend
 
 **Beispiel**
 
-Diese Abfrage gibt &quot;12&quot;zurück.
+Diese Abfrage gibt „12“ zurück.
 
 ```sql
 {%= toString(12) %} 
