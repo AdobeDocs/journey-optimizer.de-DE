@@ -7,12 +7,12 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: Ausdruck, Editor, Erste Schritte, Bedingungen, Start
+keywords: Ausdruck, Editor, erste Schritte, Bedingungen, Starten
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
