@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „gstListItem“.
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: getListItem, function, expression, Journey
+keywords: getListItem, Funktion, Ausdruck, Journey
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
