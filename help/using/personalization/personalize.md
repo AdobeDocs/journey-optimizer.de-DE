@@ -10,9 +10,9 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,10 @@ Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Jo
 
 ## Nutzen von Profildaten, um Ihre Nachrichten zu personalisieren {#data}
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **Individuelles XDM-Profil** verwaltet werden. Weitere Informationen finden Sie unter [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Kontaktprofil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 >[!CAUTION]
->Das Schema **Individuelles XDM-Profil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
+>Das Schema **XDM-Kontaktprofil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
 
 ## Hinzufügen der Personalisierung in unterschiedlichen Kontexten {#contexts}
 
