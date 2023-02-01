@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „inLastDays“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastDays, function, expression, Journey
+keywords: inLastDays, Funktion, Ausdruck, Journey
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
