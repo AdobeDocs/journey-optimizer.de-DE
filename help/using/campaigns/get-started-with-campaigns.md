@@ -7,12 +7,12 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: Kampagne, wie , starten, optimieren
+keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 1. **Sie benötigen entsprechende Berechtigungen**. Diese Funktion steht nur Benutzenden mit Zugriff auf ein kampagnenbezogenes **[!UICONTROL Produktprofil]** zur Verfügung, beispielsweise Kampagnen-Admins, Kampagnen-Genehmigende, Kampagnen-Manager und/oder Kampagnen-Betrachtende.
 
-   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie Zugriff auf [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} Gehen Sie für Ihre Organisation wie folgt vor. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Admin.
+   Wenn Sie nicht auf Kampagnen zugreifen können, müssen Ihre Berechtigungen erweitert werden. Wenn Sie für Ihre Organisation Zugriff auf die [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} haben, führen Sie die folgenden Schritte aus. Wenden Sie sich andernfalls an Ihren Journey Optimizer-Admin.
 
    +++Erfahren Sie, wie Sie Kampagnenberechtigungen zuweisen
 
    So weisen Sie Ihren Benutzenden die entsprechenden **[!UICONTROL Produktprofile]** zu:
 
-   1. Von [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, wählen Sie die [!DNL Adobe Experience Platform] Produkt.
+   1. Wählen Sie in der [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} das [!DNL Adobe Experience Platform]-Produkt aus.
 
    1. Wechseln Sie zur Registerkarte **[!UICONTROL Produktprofil]** und wählen Sie eines der integrierten kampagnenbezogenen **[!UICONTROL Produktprofile]**: Kampagnen-Admin, Kampagnen-Genehmigende, Kampagnen-Manager oder Kampagnen-Betrachtende.
 
