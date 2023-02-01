@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Überprüfen und Aktivieren einer Kampagne
-description: Erfahren Sie, wie Sie Kampagnen in Journey Optimizer überprüfen und aktivieren können.
+description: Überprüfen und Aktivieren von Kampagnen in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
