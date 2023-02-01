@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „sum“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: sum, function, expression, Journey
+keywords: Summe, Funktion, Ausdruck, Journey
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
