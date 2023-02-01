@@ -7,14 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Konfiguration, Experiment, Reporting, Optimierer
+keywords: Konfiguration, Experiment, Reporting, Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen mindestens einen der folgenden Datensätze enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**.
+* Diese Datensätze müssen mindestens eine der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 >[!NOTE]
 >
->Weitere Informationen zu XDM-Schemas und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+>Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 ## Ziele für jede Feldergruppe {#objective-list}
 
@@ -99,7 +99,7 @@ Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Regis
 
    >[!CAUTION]
    >
-   >Sie können nur einen Datensatz vom Typ Ereignis auswählen, der mindestens einen der unterstützten Datensätze enthalten muss [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
+   >Sie können nur einen Datensatz vom Typ „Ereignis“ auswählen, der mindestens eine der unterstützten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthält: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**. Wenn Sie einen Datensatz auswählen, der diesen Kriterien nicht entspricht, können Sie Ihre Änderungen nicht speichern.
 
    ![](assets/reporting-config-datasets.png)
 
