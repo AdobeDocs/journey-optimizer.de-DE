@@ -5,12 +5,12 @@ title: Konfigurieren von Landingpage-Subdomains
 description: Erfahren Sie, wie Sie mit Journey Optimizer Subdomains von Landingpages konfigurieren
 role: Admin
 level: Intermediate
-keywords: Landingpage, Subdomains, Konfiguration
+keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '817'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
