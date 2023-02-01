@@ -9,9 +9,9 @@ level: Beginner
 keywords: Abfragen, Plattform, Daten, Exploration
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Der Abfrage-Editor unterstützt die Entwicklung von Abfragen für die Analyse un
 
 ![](assets/queries-home.png)
 
-Erfahren Sie, wie Sie den Abfrage-Editor in [diese Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target="_blank"}.
+[In dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=de){target="_blank"} finden sich Hinweise zur Verwendung vom Abfrage-Editor.
 
 **Siehe auch**
 
-* [Dokumentation zu Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
-* [Video Query Service - Übersicht](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=de){target="_blank"}
+* [Dokumentation zum Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
+* [Übersichtsvideo zum Abfrage-Service](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=de){target="_blank"}
