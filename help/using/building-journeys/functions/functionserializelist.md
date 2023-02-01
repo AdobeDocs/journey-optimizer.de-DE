@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „serializeList“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: serializeList, function, expression, Journey
+keywords: serializeList, Funktion, Ausdruck, Journey
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
