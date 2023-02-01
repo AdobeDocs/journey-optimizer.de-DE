@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „round“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: round, function, expression, Journey
+keywords: round, Funktion, Ausdruck, Journey
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '44'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
