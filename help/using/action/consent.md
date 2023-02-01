@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Arbeiten mit Einverständnisrichtlinien
-description: Erfahren Sie, wie Sie mit Adobe Experience Platform-Zustimmungsrichtlinien arbeiten.
+description: Informationen zur Arbeit mit Einverständnisrichtlinien in Adobe Experience Platform
 feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: Politik, Governance, Plattform, Gesundheitsschutz, Einverständnis
+keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
