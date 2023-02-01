@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="Live-Bericht zu Landingpages"
->abstract="Mit dem Live-Bericht Landingpage können Sie die Auswirkungen und die Leistung Ihrer Landingpage in Echtzeit messen und visualisieren - nur in den letzten 24 Stunden. Ihr Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Landingpage detaillieren. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="Mit dem Live-Bericht zu Landingpages kann die Wirkung und Leistung einer Landingpage nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
 Der **[!UICONTROL Live-Bericht]** zu Landingpages zeigt nur Details zur Wirkung Ihrer Landingpages in den letzten 24 Stunden an. Wenn Sie Ihre Landingpage-Daten über einen bestimmten Zeitraum messen möchten, verwenden Sie den [globalen Bericht zu Landingpages](lp-report-global.md).
 
