@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
 >title="Live-Bericht zu Abonnements"
->abstract="Mit dem Live-Bericht Abonnements können Sie die Aktivität Ihrer Abonnenten nur in den letzten 24 Stunden in Echtzeit messen und visualisieren. Ihr Bericht ist in verschiedene Widgets unterteilt, die Ihre An- und Abmeldungen detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="Mit dem Live-Bericht zu Abonnements können Sie die Aktivität Ihrer Abonnierenden nur in den letzten 24 Stunden in Echtzeit messen und visualisieren. Der Bericht ist in verschiedene Widgets unterteilt, die Ihre Abonnements und die Abmeldungen detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
-Die Anmeldung **[!UICONTROL Live-Bericht]** zeigt nur Details zur Aktivität Ihrer Abonnenten in den letzten 24 Stunden an. Messungen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im [globalen Bericht](subscription-report-global.md) zu Abonnements.
+Der **[!UICONTROL Live-Bericht]** zu Abonnements zeigt nur Details zur Aktivität Ihrer Abonnierenden, die in den letzten 24 Stunden erfolgte. Messungen Ihrer Abonnements über einen bestimmten Zeitraum finden Sie im [globalen Bericht zu Abonnements](subscription-report-global.md).
 
 Um auf Ihre Berichte zuzugreifen, klicken Sie auf das Symbol **[!UICONTROL Bericht]** der von Ihnen gewählten Abonnementliste.
 
