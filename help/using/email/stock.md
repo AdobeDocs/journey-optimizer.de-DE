@@ -10,9 +10,9 @@ level: Beginner
 keywords: Stock, Bilder, Integration, Fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} bietet Zugriff auf Millionen von hochwertigen, kuratierten, gebührenfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} bietet Zugriff auf Millionen von hochwertigen, kuratierten, lizenzfreien Fotos, Videos, Illustrationen und Vektorgrafiken. Sie können ein Credit-Pack erwerben, um Assets zu lizenzieren, oder nur eine Standard- oder erweiterte Lizenz für das benötigte Asset erwerben. Adobe Stock bietet außerdem eine kostenlose Sammlung von Assets.
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Stock] in Ihre E-Mails hochladen und mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** zu Ihrem Ordner **[!UICONTROL Assets]** hinzufügen. Darüber hinaus hilft Ihnen die Option **[!UICONTROL Ähnliche Stockfotos suchen]**, Bilder zu finden, die in Inhalt, Farbe und Komposition dem in Ihrem Versand verwendeten Asset entsprechen.
 
@@ -103,5 +103,5 @@ Gehen Sie wie folgt vor, um Ihr Bild zu lizenzieren und herunterzuladen:
 
 * [Gestalten von E-Mails in Journey Optimizer](get-started-email-design.md)
 * [Komponenteneinstellungen für den E-Mail-Entwurf](content-components.md)
-* [Adobe Stock - Erste Schritte](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
+* [Adobe Stock – Erste Schritte](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 
