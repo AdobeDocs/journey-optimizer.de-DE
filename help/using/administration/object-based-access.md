@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Zugriffssteuerung auf Objektebene
-description: Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene. zur Definition von Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten
+description: Erfahren Sie mehr über die Zugriffssteuerung auf Objektebene. Das erlaubt Ihnen die Definition von Berechtigungen zum Verwalten des Datenzugriffs auf eine Auswahl von Objekten
 feature: Access Management
 topic: Administration
 role: Admin, Developer, Architect
 level: Experienced
-keywords: Objekt, Ebene, Zugriff, Kontrolle, Beschriftungen, Protokoll, Autorisierung
+keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
