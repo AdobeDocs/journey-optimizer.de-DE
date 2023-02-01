@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integration mit Adobe Campaign Standard
-description: Erfahren Sie, wie Sie Journey Optimizer mit Adobe Campaign Standard integrieren.
+description: Durchführen der Integration von Journey Optimizer mit Adobe Campaign Standard
 feature: Actions
 topic: Administration
 role: Admin,Developer
 level: Intermediate
-keywords: Kampagne, Standard, Integration, Begrenzungen, Aktion
+keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
