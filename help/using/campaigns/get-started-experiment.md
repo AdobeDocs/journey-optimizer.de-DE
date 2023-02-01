@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erste Schritte mit dem Inhaltsexperiment
-description: Erfahren Sie mehr über Inhaltsexperimente in Journey Optimizer
+description: Mehr über Inhaltsexperimente in Journey Optimizer
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
-keywords: Erste Schritte, Start, Inhalt, Experiment
+keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
