@@ -10,13 +10,13 @@ level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# E-Mail, SMS, Push-Benachrichtigung{#add-a-message-in-a-journey}
+# E-Mail, SMS, Push{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
