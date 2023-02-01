@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Stil, Links, Farbe, E-Mail, Editor
 exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
