@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Ändern oder Stoppen einer Kampagne
-description: Erfahren Sie, wie Sie Live-Kampagnen in Journey Optimizer ändern, stoppen oder duplizieren
+description: Erfahren Sie, wie Live-Kampagnen in Journey Optimizer geändert, gestoppt oder dupliziert werden
 feature: Overview
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
