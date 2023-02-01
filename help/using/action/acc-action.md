@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integrieren mit Adobe Campaign v7/v8
-description: Erfahren Sie, wie Sie Journey Optimizer mit Adobe Campaign v7/v8 integrieren.
+description: Erfahren Sie, wie Sie Journey Optimizer mit Adobe Campaign v7/v8 integrieren
 feature: Actions
 topic: Administration
 role: Admin,Developer
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
