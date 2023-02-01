@@ -7,12 +7,12 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Analyse, Integration, Web SDK, Plattform
+keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 ![](assets/ajo-aa_4.png)
 
-Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie unter  [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
+Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
 
 ## Erstellen einer Journey mit einem Ereignis mithilfe von Adobe Analytics- oder Web SDK-Daten {#event-analytics}
 
