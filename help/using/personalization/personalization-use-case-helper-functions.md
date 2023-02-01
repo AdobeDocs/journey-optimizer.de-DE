@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
 1. Erstellen Sie ein Ereignis, dessen Schema das Array `productListItems` enthält.
 1. Definieren Sie alle Felder aus diesem Array als Payload-Felder für dieses Ereignis.
 
-   Weitere Informationen zum Datentyp des Produktlistenelements finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}.
+   Weitere Informationen zum Datentyp des Produktlistenelements finden sich in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=de){target="_blank"}.
 
 1. Erstellen Sie eine Journey, die mit diesem Ereignis beginnt.
 1. Fügen Sie die Aktivität **E-Mail** zur Journey hinzu.
@@ -106,7 +106,7 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Weitere Informationen zum Datentyp des Personennamens finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
+      Weitere Informationen zum Datentyp des Personennamens finden sich in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=de){target="_blank"}.
 
 1. Klicken Sie auf **[!UICONTROL Validieren]** und dann auf **[!UICONTROL Speichern]**.
 
