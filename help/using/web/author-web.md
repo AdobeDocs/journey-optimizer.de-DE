@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
 >[!CAUTION]
 >
->Zugriff auf [!DNL Journey Optimizer], muss Ihre Webseite mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.
+>Damit in [!DNL Journey Optimizer] auf die Web-Seite zugegriffen werden kann, muss sie mithilfe des [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} implementiert werden.
 
 1. Wählen Sie auf der Registerkarte **[!UICONTROL Aktion]** der Kampagne die Option **[!UICONTROL Inhalt bearbeiten]** aus, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
@@ -61,7 +61,7 @@ Nachdem Sie eine Web-Aktion aus der Kampagne erstellt haben, können Sie Ihre In
 
    >[!CAUTION]
    >
-   >Die Webseite muss die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.
+   >Die Web-Seite muss das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} enthalten.
 
 1. Klicken Sie auf **[!UICONTROL Web-Designer öffnen]**, um sie zu bearbeiten. [Weitere Informationen](author-web.md)
 
