@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="Globaler Bericht in Campaign"
->abstract="Der globale Kampagnenbericht ermöglicht die Messung der Wirkung Ihrer Kampagnen über einen ausgewählten Zeitraum. Ihr Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Kampagne detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="Der globale Bericht in Campaign ermöglicht die Messung der Wirkung von Kampagnen über einen ausgewählten Zeitraum. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
 
-Der globale Kampagnenbericht kann direkt über Ihre Kampagne mit dem **[!UICONTROL Bericht anzeigen]** Schaltfläche.
+Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
 ![](assets/campaign_report_global_5.png)
 
