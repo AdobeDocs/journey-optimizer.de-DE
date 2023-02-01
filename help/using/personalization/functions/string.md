@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1808'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Mit der folgenden Funktion wird der erste Buchstabe der Straßenadresse des Prof
 
 ## Char-Code bei {#char-code-at}
 
-Die `charCodeAt` -Funktion gibt den ASCII-Wert eines Zeichens zurück, z. B. die Funktion charCodeAt in JavaScript. Als Eingabeargumente werden eine Zeichenfolge und eine Ganzzahl (die die Zeichenposition definiert) benötigt und der entsprechende ASCII-Wert wird zurückgegeben.
+Die Funktion `charCodeAt` gibt den ASCII-Wert eines Zeichens zurück, z. B. die Funktion charCodeAt in JavaScript. Als Eingabeargumente werden eine Zeichenfolge und eine Ganzzahl (die die Position des Zeichens definiert) benötigt und es wird der entsprechende ASCII-Wert zurückgegeben.
 
 **Syntax**
 
@@ -47,7 +47,7 @@ Die `charCodeAt` -Funktion gibt den ASCII-Wert eines Zeichens zurück, z. B. die
 
 **Beispiel**
 
-Die folgende Funktion gibt den ASCII-Wert von o zurück, d. h. 111.
+Die folgende Funktion gibt den ASCII-Wert von o zurück, also 111.
 
 ```sql
 {%= charCodeAt("some", 1)%}
@@ -275,7 +275,7 @@ Mit der folgenden Abfrage wird die E-Mail-Domain der persönlichen E-Mail-Adress
 
 ## Währung formatieren {#format-currency}
 
-Die `formatCurrency` -Funktion verwendet wird, um eine beliebige Zahl in die entsprechende sprachabhängige Währungsdarstellung zu konvertieren, je nachdem, welches Gebietsschema als Zeichenfolge im zweiten Argument übergeben wurde.
+Die Funktion `formatCurrency` wird verwendet, um eine beliebige Zahl in die entsprechende sprachabhängige Währungsdarstellung zu konvertieren, je nachdem, welches Gebietsschema als Zeichenfolge im zweiten Argument übergeben wurde.
 
 **Syntax**
 
@@ -702,7 +702,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 
 ## Zeichenfolge zu Datum {#string-to-date}
 
-Die `stringToDate` -Funktion konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert. Es gibt zwei Argumente: Zeichenfolgendarstellung einer Datums-/Uhrzeit- und Zeichenfolgendarstellung des Formatierers.
+Die Funktion `stringToDate` konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert. Es gibt zwei Argumente: Zeichenfolgendarstellung eines Datums/Uhrzeit und Zeichenfolgendarstellung des Formatierers.
 
 **Syntax**
 
@@ -775,7 +775,7 @@ Die Funktion `toBool` wird verwendet, um einen Argumentwert je nach Typ in einen
 
 ## Zu Uhrzeit-/Datumsangabe {#to-date-time}
 
-Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.
+Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben.
 
 **Syntax**
 
@@ -783,9 +783,9 @@ Die Funktion `toDateTime` wird verwendet, um die Zeichenfolge in ein Datum zu ko
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Nur zu Uhrzeit-/Datumsangabe {#to-date-time-only}
+## Nur zu Datums-/Uhrzeitangabe {#to-date-time-only}
 
-Die `toDateTimeOnly` -Funktion wird verwendet, um einen Argumentwert in einen Datum/Uhrzeit-Wert zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben. Diese Funktion akzeptiert die Feldtypen String, Datum, Long und int.
+Die Funktion `toDateTimeOnly` wird verwendet, um einen Argumentwert in einen Datums-/Uhrzeitwert zu konvertieren. Bei einer ungültigen Eingabe wird als Ausgabe das Epoch-Datum zurückgegeben. Diese Funktion akzeptiert die Feldtypen string, date, long und int.
 
 **Syntax**
 
