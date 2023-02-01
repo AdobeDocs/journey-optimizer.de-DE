@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 
 Stellen Sie eine Verbindung mit [Adobe Experience Cloud](http://experience.adobe.com) her und navigieren Sie zu [!DNL Journey Optimizer].
 
-Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide).{target="_blank"}
+Die wichtigsten Konzepte bei der Verwendung der Benutzeroberfläche gelten auch für Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=de#adobe-experience-platform-ui-guide){target="_blank"}.
 
-Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihrer [Berechtigungen](../administration/permissions.md) und auf [Lizenzpaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
+Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen von Ihren [Berechtigungen](../administration/permissions.md) und Ihrem [Lizenzierungspaket](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ab. Wenden Sie sich bei Fragen an Ihren Adobe Customer Success Manager.
 
 >[!NOTE]
 >
