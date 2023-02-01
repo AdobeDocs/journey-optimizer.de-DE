@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „concat“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: concat, function, expression, Journey
+keywords: concat, Funktion, Ausdruck, Journey
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '44'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
