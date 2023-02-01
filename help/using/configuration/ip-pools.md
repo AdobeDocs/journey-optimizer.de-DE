@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: IP, Pools, Gruppe, Subdomänen, Zustellbarkeit
+keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt

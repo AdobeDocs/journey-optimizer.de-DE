@@ -5,12 +5,12 @@ title: Integrieren von Journey Optimizer mit externen Systemen
 description: Best Practices bei der Integration von Journey Optimizer mit externen Systemen
 role: User
 level: Beginner
-keywords: extern, API, Optimizer, Begrenzungen
+keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 

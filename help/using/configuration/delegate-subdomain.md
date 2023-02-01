@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Subdomain, Zuweisung, Domäne, DNS
+keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,8 +118,8 @@ Nachdem in [!DNL Journey Optimizer] eine Subdomain an Adobe delegiert wurde, wir
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
->title="Validierungsdatensatz kopieren"
->abstract="Adobe generiert einen Validierungsdatensatz. Sie müssen den entsprechenden Datensatz auf Ihrer Hosting-Plattform für die CDN-URL-Validierung erstellen."
+>title="Kopieren des Validierungseintrags"
+>abstract="Adobe generiert einen Validierungseintrag. Sie müssen den entsprechenden Eintrag auf Ihrer Hosting-Plattform für die CDN-URL-Validierung erstellen."
 
 Wenn Sie Domain-spezifische Einschränkungsrichtlinien haben und möchten, dass Adobe nur eine teilweise Kontrolle über den DNS hat, können Sie alle DNS-bezogenen Aktivitäten auf Ihrer Seite durchführen.
 

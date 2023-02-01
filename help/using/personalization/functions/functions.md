@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ Im [!DNL Journey Optimizer]-Ausdruckseditor sind Hilfsfunktionen in drei Kategor
 
 Wählen Sie eine Kategorie aus, um auf Unterkategorien und Funktionen zuzugreifen.
 
-Sie können auf Unterkategorien durch Klicken auf das Symbol `>` zugreifen. Wählen Sie eine Funktion aus, indem Sie auf die `+` Symbol: wird die Funktion automatisch zum Personalisierungsbildschirm hinzugefügt.
+Sie können auf Unterkategorien durch Klicken auf das Symbol `>` zugreifen. Wählen Sie eine Funktion aus, indem Sie auf das Symbol `+` klicken. Die Funktion wird dann automatisch zum Personalisierungsbildschirm hinzugefügt.
 
 Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen und sie zu Ihren Favoriten hinzuzufügen. [Weitere Informationen](../personalize.md#fav)
 
@@ -316,7 +316,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">Nur zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion konvertiert einen Argumentwert in einen Nur-Datum-Uhrzeit-Wert. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
+        <td><a href="string.md#to-date-time-only">Nur zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wandelt einen Argumentwert in einen reinen Datums-/Uhrzeit-Wert um. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Kürzen</a></td><td>Diese Funktion entfernt Leerzeichen vom Anfang und vom Ende einer Zeichenfolge</td>
@@ -340,7 +340,7 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Standardwert für Fallback</a></td><td>Diese Funktion wird verwendet, um eine Variable mit der Standardeinstellung zu rendern</td>
+        <td><a href="helpers.md#default">Standardwert für Fallback</a></td><td>Diese Funktion ermöglicht das Rendern einer Variable mit Standardeinstellungen</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
