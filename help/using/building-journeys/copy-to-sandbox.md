@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um eine Journey in eine andere Sandbox zu kopieren:
 
 ## Kopieren von Prozessen und Einschränkungen {#limitations}
 
-Möglicherweise werden nicht alle verknüpften Elemente in die Ziel-Sandbox kopiert. Adobe empfiehlt dringend, eine gründliche Prüfung durchzuführen. Ermitteln Sie alle potenziellen fehlenden Objekte und erstellen Sie sie manuell, bevor Sie die Journey veröffentlichen.
+Möglicherweise werden nicht alle verknüpften Elemente in die Ziel-Sandbox kopiert. Adobe empfiehlt dringend, eine gründliche Überprüfung durchzuführen. Ermitteln Sie alle potenziellen fehlenden Objekte und erstellen Sie sie manuell, bevor Sie die Journey veröffentlichen.
 
 Die folgenden Objekte werden kopiert:
 
