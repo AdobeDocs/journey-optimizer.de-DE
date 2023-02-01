@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Subdomain, Optimizer, Delegation
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unte
 
 >[!NOTE]
 >
->Dieselbe Versand-Domain kann nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
+>Es kann nicht dieselbe Versand-Domain zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und von einem anderen Produkt, z. B. [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage], verwendet werden.
 
-## Warum sollten Sie Subdomains einrichten? {#why-set-up-subdomains}
+## Warum sollten Subdomains eingerichtet werden? {#why-set-up-subdomains}
 
 Sie können Ihre Domain in Subdomains unterteilen, um Ihre Marken oder unterschiedlichen Textsorten wie etwa Transaktionsnachrichten und Marketing-Informationen voreinander zu trennen.
 
