@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Data Governance
-description: Definieren einer Governance-Richtlinie, die mit einer Bezeichnung und einer Marketing-Aktion verknüpft ist
+description: Mit einer Kennzeichnung und einer Marketing-Aktion verknüpfte Governance-Richtlinie definieren
 feature: Privacy
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Daten, Governance, DULE, Beschriftungen, Beschriftung, Plattform, Richtlinie
+keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
