@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Vorschau, Inhalt, E-Mail, Testversand, Test, Profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
