@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „filter“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: Filter, Funktion, Ausdruck, Journey
+keywords: filtern, Funktion, Ausdruck, Journey
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
