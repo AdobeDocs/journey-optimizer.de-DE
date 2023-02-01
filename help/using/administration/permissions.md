@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwalten von Benutzenden und Produktprofilen
-description: Erfahren Sie, wie Sie Benutzer und Produktprofile verwalten
+description: Erfahren Sie, wie Sie Benutzende und Produktprofile verwalten
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
@@ -10,9 +10,9 @@ role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
