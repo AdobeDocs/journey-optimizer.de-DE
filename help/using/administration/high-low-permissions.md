@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berechtigungsebenen
-description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene. Benutzern den Zugriff auf die verschiedenen Funktionen zu ermöglichen.
+description: Erfahren Sie mehr über Berechtigungen auf hoher und niedriger Ebene. Dadurch wird Benutzenden der Zugriff auf die verschiedenen Funktionen ermöglicht.
 topic: Administration
 role: Admin, Architect, Developer
 level: Experienced
-keywords: Berechtigung, oberste Ebene, untere Ebene, Profil, Admin Console
+keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '922'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
