@@ -6,12 +6,12 @@ description: Erfahren Sie mehr über die bedingte Anweisung
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: advanced, Bedingung, Aktion, Journey
+keywords: erweitert, Bedingung, Aktion, Journey
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
