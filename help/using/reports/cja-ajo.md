@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
 source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
-workflow-type: tm+mt
-source-wordcount: '338'
+workflow-type: ht
+source-wordcount: '336'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 ![](assets/cja.png)
 
-Nachdem Sie Ihre Journey in [!DNL Journey Optimizer] erstellt haben, können Sie Ihre Kundendaten nach [!DNL Customer Journey Analytics] importieren, um Berichte zu starten und die Auswirkungen jeder Interaktion eines Kunden mit Ihren Journeys zu verstehen.
+Nachdem Sie Ihre Journey in [!DNL Journey Optimizer] erstellt haben, können Sie Ihre Kundendaten nach [!DNL Customer Journey Analytics] importieren, um Berichte zu starten und die Auswirkungen jeder Interaktion eines Kunden oder einer Kundin mit Ihren Journeys zu verstehen.
 
-➡️ [Entdecken Sie Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de){target=&quot;_blank&quot;}
+➡️ [Customer Journey Analytics entdecken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de){target="_blank"}
 
 Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können, müssen Sie zunächst die folgende Integration konfigurieren:
 
