@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „inLastYears“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inLastYears, function, expression, Journey
+keywords: inLastYears, Funktion, Ausdruck, Journey
 exl-id: cdf653d2-967e-4a1b-92e5-37dd22f379f9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
