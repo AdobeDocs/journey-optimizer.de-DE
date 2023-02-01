@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-keywords: Landingpage, Anwendungsfall
+keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
