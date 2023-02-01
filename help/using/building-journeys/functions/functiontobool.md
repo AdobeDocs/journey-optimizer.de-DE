@@ -5,12 +5,12 @@ description: Erfahren Sie mehr über die Funktion „toBool“
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: Tool, Funktion, Ausdruck, Journey
+keywords: tobool, Funktion, Ausdruck, Journey
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
