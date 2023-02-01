@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Subdomain, Google, TXT, Datensatz, Gmail, Zustellbarkeit
+keywords: Subdomain, Google, TXT, Eintrag, Gmail, Zustellbarkeit
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 >title="TXT-Einträge von Google"
 >abstract="Für einen erfolgreichen Versand von E-Mails an Gmail-Adressen können Sie Ihren Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzuzufügen, um ihre Verifizierung sicherzustellen."
 
-TXT-Einträge sind eine Art DNS-Eintrag, der verwendet wird, um Textinformationen über eine Domäne bereitzustellen, die von externen Quellen gelesen werden können.
+TXT-Einträge sind eine Art von DNS-Einträgen, die der Bereitstellung von Textinformationen über eine Domain dienen und von externen Quellen gelesen werden können.
 
 Für optimale Zustellbarkeit und einen erfolgreichen Versand von E-Mails an Gmail-Adressen ermöglicht es Ihnen [!DNL Journey Optimizer], Ihren Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzuzufügen, um ihre Verifizierung sicherzustellen.
 
@@ -35,8 +35,8 @@ Gehen Sie wie folgt vor, um Ihrer Subdomain einen Google TXT-Eintrag hinzuzufüg
 
 1. Öffnen Sie die Subdomain über das Menü **[!UICONTROL Kanäle]** / **[!UICONTROL Subdomains]** .
 
-1. Im **[!UICONTROL Google-Textdatensatz]** geben Sie den aus generierten Verifizierungscode ein. [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie im Abschnitt **[!UICONTROL Google TXT-Eintrag]** den Verifizierungs-Code ein, der in [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> generiert wurde. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Nachdem der TXT-Eintrag hinzugefügt wurde, muss er von Google verifiziert werden. Navigieren Sie dazu zu [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->und starten Sie dann den Verifizierungsschritt.
+1. Nachdem der TXT-Eintrag hinzugefügt wurde, muss er von Google verifiziert werden. Gehen Sie dazu zu [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> und starten Sie den Verifizierungsvorgang.
