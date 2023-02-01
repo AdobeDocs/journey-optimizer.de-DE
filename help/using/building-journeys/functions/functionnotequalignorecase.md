@@ -8,9 +8,9 @@ level: Experienced
 keywords: notEqualIgnoreCase, Funktion, Ausdruck, Journey
 exl-id: 74f8cae0-7d2f-4f5e-bc13-837c9bc69ad9
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '41'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
