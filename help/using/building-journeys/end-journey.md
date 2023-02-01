@@ -6,12 +6,12 @@ description: So endet eine Journey in Journey Optimizer
 feature: Journeys
 role: User
 level: Beginner
-keywords: re-enter, Journey, end, live, stop
+keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
