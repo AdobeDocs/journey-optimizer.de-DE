@@ -5,9 +5,9 @@ title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung in der Journey Optimizer-Benutzeroberfläche gesendet werden. Auf diese Weise können Sie Ihre Entscheidungslogik einschließlich Eignungsbegrenzungen und Ranking-Algorithmen einfach validieren, bevor Sie sie in die Produktion übernehmen. Mit dieser Funktion können technisch versierte ebenso wie technisch nicht versierte Benutzende das Entscheidungs-Management schnell testen und potenzielle Probleme beheben.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../offers/offer-activities/simulation.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/offer-activities/simulation.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -66,14 +66,14 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tr>
 <td>
 <p>Sie können jetzt den Inhalt Ihrer Angebote mit Profilattributen und Segmenten von Adobe Experience Platform personalisieren, indem Sie die Ausdruckseditor-Komponente in der Journey Optimizer-Benutzeroberfläche verwenden. </p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target="_blank"} für weitere Änderungen.
+Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=de){target="_blank"} für weitere Änderungen.
 
 ### Verbesserungen
 
@@ -128,7 +128,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <td>
 <p>In Berichten sind neue Metriken verfügbar: „Zielgruppe“ und „Ausgeschlossen“ für E-Mail- und Push-Nachrichten sind sowohl in Live- als auch in globalen Berichten sichtbar. </br> Um Zugriff auf die neuesten Metriken zu erhalten, müssen Sie die unterschiedlichen Reporting-Dashboards für jeden Kanal und Berichtstyp zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der <a href="../reports/live-report.md">entsprechenden Dokumentation</a>.</p>
 <p>Eine neue Spalte in der Liste der Nachrichtenausführungen zeigt die Anzahl der Zielprofile für jede Nachrichtenausführung an. </p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../reports/global-report.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../reports/global-report.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -182,7 +182,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <td>
 <p>Senden Sie mit Adobe Journey Optimizer Ihre Push-Benachrichtigung oder E-Mail automatisch zum besten Zeitpunkt für jeden Kunden. Die Optimierung des Versandzeitpunktes basiert auf den KI-Services von Adobe und sagt den besten Versandzeitpunkt für E-Mails oder Push-Benachrichtigungen voraus. Dadurch werden die Interaktionen auf der Grundlage historischer Öffnungs- und Klickraten automatisch maximiert.</p>
 <p>Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../building-journeys/journeys-message.md#send-time-optimization">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journeys-message.md#send-time-optimization">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -199,7 +199,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tr>
 <td>
 <p>Sie können jetzt bei der Konfiguration von Geschäftsereignissen Beziehungen zwischen Schemata nutzen. Dies bietet zusätzlich die Möglichkeit, Felder aus verknüpften Tabellen beim Konfigurieren eines unitären Ereignisses, bei der Verwendung von Bedingungen in einer Journey sowie bei der Personalisierung von Nachrichten und benutzerdefinierten Aktionen zu nutzen.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -216,7 +216,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tr>
 <td>
 <p>Personalisierte URLs führen Empfänger abhängig von den Profilattributen zu bestimmten Seiten einer Website oder zu einer personalisierten Microsite. In Adobe Journey Optimizer können Sie jetzt URLs im Nachrichteninhalt eine Personalisierung hinzufügen. Die URL-Personalisierung kann auf Text und Bilder angewendet werden und Profil- oder kontextuelle Daten verwenden.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../personalization/personalization-syntax.md#perso-urls">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../personalization/personalization-syntax.md#perso-urls">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -233,7 +233,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tr>
 <td>
 <p>Sie können jetzt den Zeitraum für weitere Zustellversuche pro Voreinstellung definieren, um sicherzustellen, dass keine weiteren Zustellversuche ausgeführt werden, wenn sie nicht mehr benötigt werden. Beispielsweise können Sie den Zeitraum für weitere Zustellversuche für eine Transaktionsnachricht zum Zurücksetzen des Passworts, die einen nur für einen Tag gültigen Link enthält, auf 24 Stunden begrenzen. Beachten Sie, dass Einstellungen für weitere Zustellversuche nur für den E-Mail-Kanal gelten.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../configuration/retries.md#retry-duration">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/retries.md#retry-duration">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -249,7 +249,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tr>
 <td>
 <p>Das Hinzufügen von E-Mail-Adressen und Domains zur Unterdrückungsliste ist jetzt in der Benutzeroberfläche entweder einzeln oder im Bulk-Modus durch einen CSV-Datei-Upload möglich.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -311,7 +311,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <td>
 <p>Sie können jetzt Ihre Erlebnisse mit Referenzdaten anreichern, die Sie in Journey Optimizer geladen haben. Beispiele sind das Suchen von Metadaten für eine Reservierungs-ID in einem Erlebnisereignis oder das Suchen von Produktinformationen über eine Artikelnummer in einem Erlebnisereignis zur Verwendung auf der Arbeitsfläche. </p>
 <p>Sie können jetzt Beziehungen zwischen Schemata nutzen, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden. Sie können dann alle Felder der verknüpften Tabellen verwenden, wenn Sie ein unitäres Ereignis konfigurieren oder Bedingungen in einer Journey oder bei der Personalisierung von Nachrichten und benutzerdefinierten Aktionen nutzen.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../event/experience-event-schema.md#leverage_schema_relationships">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -327,7 +327,7 @@ Siehe auch [Adobe Experience Platform - Versionshinweise Oktober](https://experi
 <tr>
 <td>
 <p>Sie können jetzt eine spezifische Sicherheitsliste für den Versand auf Sandbox-Ebene definieren, um eine sichere Umgebung für Testzwecke zu erhalten. Auf einer Nicht-Produktionsinstanz, bei der Fehler auftreten können, stellt die Zulassungsliste sicher, dass Sie kein Risiko haben, unerwünschte Nachrichten an Ihre Kunden zu senden. Diese Funktion wird durch die Verwendung von Unterdrückungs-APIs ermöglicht.</p>
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../configuration/allow-list.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../configuration/allow-list.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
