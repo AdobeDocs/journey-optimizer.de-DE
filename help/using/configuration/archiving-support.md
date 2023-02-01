@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1133'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Sie können über die Benutzeroberfläche auf diesen Datensatz zugreifen. Wähle
 
 ![](assets/preset-bcc-dataset.png)
 
-Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der von der [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"}. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
+Um Abfragen für diesen Datensatz auszuführen, können Sie den Abfrage-Editor verwenden, der vom [Adobe Experience Platform-Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=de){target="_blank"} bereitgestellt wird. Um darauf zuzugreifen, wählen Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Abfragen]** und klicken Sie auf **[!UICONTROL Abfrage erstellen]**. [Weitere Informationen](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
