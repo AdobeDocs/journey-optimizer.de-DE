@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Datenhygiene
-description: Erfahren Sie, wie Sie Datenhygiene durchführen.
+title: Durchführen von Datenhygienevorgängen
+description: Erfahren Sie, wie Sie Datenhygienevorgänge durchführen
 feature: Monitoring
 role: User
 level: Intermediate
 source-git-commit: 645db980155993155a10d27f4ff59967b000442f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Datenhygiene {#data-hygiene}
+# Durchführen von Datenhygienevorgängen {#data-hygiene}
 
 >[!AVAILABILITY]
 >
->Data Hygiene-Funktionen sind derzeit nur für Organisationen verfügbar, die die **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Datenhygiene-Funktionen sind derzeit nur für Organisationen verfügbar, die die Zusatzangebote **Healthcare Shield** und **Privacy and Security Shield** erworben haben.
 
 
-Da Daten kontinuierlich in Adobe Experience Platform erfasst werden, ist es wichtig sicherzustellen, dass Ihre Daten wie gewünscht verwendet, bei Bedarf aktualisiert und gemäß den Richtlinien der Organisation gelöscht werden.
+Da Daten kontinuierlich in Adobe Experience Platform aufgenommen werden, ist es wichtig sicherzustellen, dass Ihre Daten wie vorgesehen verwendet, bei Bedarf aktualisiert und gemäß den Richtlinien der Organisation gelöscht werden.
 
-Diese Aufgaben können mit dem **[!UICONTROL Datenhygiene]** -Menü, das die Konfiguration und Planung von Datenhygiene ermöglicht und sicherstellt, dass Ihre Datensätze ordnungsgemäß gepflegt werden.
+Diese Aufgaben können mit dem Menü **[!UICONTROL Datenhygiene]** durchgeführt werden, das die Konfiguration und Planung von Datenhygiene ermöglicht und sicherstellt, dass Ihre Datensätze ordnungsgemäß gepflegt werden.
 
 ![](assets/data-hygiene.png)
 
-Weitere Informationen zum Privacy Service und zur Durchführung von Datenhygieneverfahren finden Sie in der Adobe Experience Platform-Dokumentation:
+Weitere Informationen zum Privacy Service und zum Erstellen und Verwalten von Datenschutzanfragen finden Sie in der Dokumentation zu Adobe Experience Platform:
 
 * [Übersicht über den Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
-* [Datenhygiene in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=en)
+* [Datenhygiene in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=de)
