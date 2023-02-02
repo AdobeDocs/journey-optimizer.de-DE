@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,9 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
-Adobe Journey Optimizer verwenden, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren.
+Adobe Journey Optimizer verwenden, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren. Die wichtigsten Schritte zum Erstellen einer Journey sind:
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-Orchestrierung, mit der Marketing-Experten Marketing-Maßnahmen mit Eins-zu-eins-Kundeninteraktionen aufeinander abstimmen können. Die Benutzeroberfläche ermöglicht es, Aktivitäten einfach von der Palette in die Arbeitsfläche zu ziehen, um eine Journey zu erstellen.
 

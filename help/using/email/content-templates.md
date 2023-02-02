@@ -7,50 +7,80 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '976'
 ht-degree: 10%
 
 ---
 
-# Erstellen von Inhaltsvorlagen {#content-templates}
+# Arbeiten mit Inhaltsvorlagen {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_templates"
 >title="Erstellen von Inhaltsvorlagen"
->abstract="Erstellen Sie eigenständige Vorlagen, um Inhalte über Journey und Kampagnen hinweg neu zu verwenden."
+>abstract="Erstellen Sie eigenständige Vorlagen, um Inhalte in allen Journey und Kampagnen wiederzuverwenden."
 
-Für einen optimierten und verbesserten Designprozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte einfach über [!DNL Journey Optimizer] Kampagnen und Journey.
+Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte einfach in allen [!DNL Journey Optimizer] Kampagnen und Journey.
 
 Diese Funktion ermöglicht inhaltsorientierten Benutzern die Arbeit an Vorlagen außerhalb von Kampagnen oder Journey. Marketing-Benutzer können diese eigenständigen Inhaltsvorlagen dann in ihren eigenen Journey oder Kampagnen wiederverwenden und anpassen.
+
+Beispielsweise ist ein Benutzer in Ihrem Unternehmen nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journey. Dieser Benutzer kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Experten Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
+
+➡️ [In diesem Video erfahren Sie, wie Sie Vorlagen erstellen und verwenden.](#video-templates)
 
 >[!CAUTION]
 >
 >Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen benötigen Sie die **[!DNL Manage Library Items]** in der **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
-Beispielsweise ist ein Benutzer in Ihrem Unternehmen nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journey. Dieser Benutzer kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Experten Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
+## Zugreifen auf und Verwalten von Vorlagen {#access-manage-templates}
+
+Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** über das Menü links.
+
+![](assets/content-template-list.png)
+
+Alle Vorlagen, die in der aktuellen Sandbox erstellt wurden - entweder von einer Journey oder aus einer Kampagne, die die [Als Vorlage speichern](#save-as-template) entweder über die **[!UICONTROL Inhaltsvorlagen]** Menü - angezeigt.
+
+Sie können Inhaltsvorlagen nach Erstellungs- oder Änderungsdatum sortieren. Sie können auch festlegen, dass nur die von Ihnen erstellten oder geänderten Elemente angezeigt werden.
+
+![](assets/content-template-list-filters.png)
+
+Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und wählen Sie **[!UICONTROL Inhalt bearbeiten]**.
+
+![](assets/content-template-list-edit.png)
+
+Um eine Vorlage zu löschen, wählen Sie das Papierkorbsymbol neben der gewünschten Vorlage aus.
+
+![](assets/content-template-list-delete.png)
+
+>[!NOTE]
+>
+>Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journey, einschließlich mit dieser Vorlage erstellter E-Mails, nicht betroffen.
+
+## Erstellen von Inhaltsvorlagen {#create-content-templates}
+
+Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
+
+* Erstellen Sie eine neue Inhaltsvorlage mithilfe der linken Leiste **[!UICONTROL Inhaltsvorlagen]** Menü. [Weitere Informationen](#create-template-from-scratch)
+
+* Speichern Sie beim Entwerfen einer E-Mail innerhalb einer Kampagne oder Journey Ihren E-Mail-Inhalt als Vorlage. [Weitere Informationen](#save-as-template)
+
+Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journey verfügbar. Unabhängig davon, ob sie von Grund auf neu oder von einer vorherigen E-Mail erstellt wurden, können Sie diese Vorlage jetzt beim Erstellen von [email](get-started-email-design.md) Innerhalb [!DNL Journey Optimizer]. [Weitere Informationen](email-templates.md)
 
 >[!NOTE]
 >
 >* Änderungen an Inhaltsvorlagen werden nicht an Kampagnen oder Journey weitergegeben, unabhängig davon, ob sie live oder als Entwurf vorliegen.
 >
->* Wenn Vorlagen in einer Kampagne oder einer Journey verwendet werden, wirken sich Änderungen an der Kampagne und dem Journey-Inhalt ebenfalls nicht auf die zuvor verwendete Inhaltsvorlage aus.
+>* Wenn Vorlagen in einer Kampagne oder einer Journey verwendet werden, wirken sich Änderungen an der Kampagne und dem Journey-Inhalt auch nicht auf die zuvor verwendete Inhaltsvorlage aus.
 
 
-➡️ [In diesem Video erfahren Sie, wie Sie Vorlagen erstellen und verwenden.](#video-templates)
+### Vorlage von Grund auf neu erstellen {#create-template-from-scratch}
 
-Gehen Sie wie folgt vor, um eine Inhaltsvorlage zu erstellen.
+Gehen Sie wie folgt vor, um eine neue Inhaltsvorlage zu erstellen.
 
-1. Um auf die Liste der Inhaltsvorlagen zuzugreifen, wählen Sie **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** über das Menü links.
+1. Greifen Sie über die **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** Menü links.
 
    ![](assets/content-template-list.png)
-
-1. Alle Vorlagen, die in der aktuellen Sandbox erstellt wurden - entweder von einer Journey, einer Kampagne oder aus dem **[!UICONTROL Inhaltsvorlagen]** Menü - angezeigt.
-
-   >[!NOTE]
-   >
-   >Sie können Inhaltsvorlagen nach Erstellungs- oder Änderungsdatum sortieren.
 
 1. Auswählen **[!UICONTROL Vorlage erstellen]**.
 
@@ -64,36 +94,74 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage zu erstellen.
 
 1. Um der Vorlage benutzerdefinierte oder zentrale Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Klicken **[!UICONTROL Erstellen]** und wählen Sie aus den folgenden Optionen aus, wie Sie Ihre E-Mail erstellen möchten:
+1. Klicken **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre E-Mail gestalten möchten:
 
-   * **[!UICONTROL Von Grund auf gestalten]**
-   * **[!UICONTROL Erstellen des eigenen Codes]**
-   * **[!UICONTROL Importieren von HTML]**
-   * **[!UICONTROL Designvorlage auswählen]**
-
-   ![](assets/content-template-design.png)
-
-   >[!NOTE]
-   >
-   >Wenn Sie eine Vorlage auswählen, können Sie zwischen **[!UICONTROL Beispielvorlagen]**, bei denen es sich um vordefinierte E-Mail-Vorlagen handelt, und **[!UICONTROL Gespeicherte Vorlagen]**, die entweder von einer Journey, einer Kampagne oder von der **[!UICONTROL Inhaltsvorlagen]** Menü. [Weitere Informationen](email-templates.md#save-as-template)
-
-1. Email Designer wird angezeigt. Bearbeiten Sie den Inhalt nach Bedarf auf die gleiche Weise wie für jede E-Mail innerhalb einer Journey oder Kampagne, je nach ausgewählter Option:
-
-   * [Entwerfen Sie Ihre von Grund auf](content-from-scratch.md) über die Benutzeroberfläche des E-Mail-Designers und nutzen Sie Bilder aus [Adobe Experience Manager Assets Essentials](assets-essentials.md).
+   * [E-Mail von Grund auf neu erstellen](content-from-scratch.md) über die Benutzeroberfläche von Email Designer.
 
    * [Rohes HTML kopieren oder kopieren und einfügen](code-content.md) direkt in Email Designer.
 
    * [Importieren Sie vorhandenen HTML-Inhalt](existing-content.md) aus einer Datei oder einem .zip-Ordner.
 
-   * [Vorhandenen Inhalt verwenden](email-templates.md) aus einer Liste integrierter oder benutzerdefinierter Vorlagen.
+   * Verwenden Sie vorhandenen Inhalt aus einer Liste integrierter oder benutzerdefinierter Vorlagen. Die Schritte zur Verwendung einer Inhaltsvorlage in einer E-Mail werden im Abschnitt [diesem Abschnitt](email-templates.md).
+
+   ![](assets/content-template-design.png)
+
+1. Die [Email Designer](get-started-email-design.md) angezeigt. Bearbeiten Sie den Inhalt nach Bedarf auf die gleiche Weise wie für jede E-Mail innerhalb einer Journey oder Kampagne, je nach ausgewählter Option.
 
    ![](assets/content-template-designer.png)
 
-1. Klicken **[!UICONTROL Inhalt simulieren]** , um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Weitere Informationen](preview.md)
+1. Bei Bedarf können Sie Ihren Inhalt testen. [Weitere Informationen](#test-template)
 
-   >[!CAUTION]
-   >
-   >Um Inhalte zu simulieren, müssen Sie über die **[!DNL Manage Simulate Content]** in der **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+1. Sobald Ihre Vorlage fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Klicken Sie bei Bedarf auf den Pfeil neben dem Vorlagennamen, um zum **[!UICONTROL Details]** und bearbeiten Sie die Vorlage.
+
+   ![](assets/content-template-designer-back.png)
+
+Diese Vorlage kann jetzt beim Erstellen von E-Mails in verwendet werden [!DNL Journey Optimizer]. [Weitere Informationen](email-templates.md)
+
+### Als Vorlage speichern {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Hier erfahren Sie, wie Sie Ihre Nachrichten migrieren können"
+>abstract="Seit dem 25. Juli 2022 wird das Nachrichtenmenü nicht mehr angezeigt. Nachrichten werden nun direkt von einer Journey aus verfasst. Wenn Sie Ihre alten Nachrichten in Journeys wiederverwenden möchten, müssen Sie sie als Vorlagen speichern."
+
+Beim Entwerfen eines [email](get-started-email-design.md) in einer Kampagne oder einer Journey speichern Sie Ihren E-Mail-Inhalt für die spätere Wiederverwendung. Gehen Sie dazu wie folgt vor.
+
+1. Klicken Sie in Email Designer oben rechts im Bildschirm auf das Auslassungszeichen.
+
+1. Auswählen **[!UICONTROL Als Inhaltsvorlage speichern]** aus dem Dropdown-Menü.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Fügen Sie einen Namen und eine Beschreibung für diese Vorlage hinzu.
+
+   ![](assets/email_designer-template-name.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Die Vorlage wird im **[!UICONTROL Inhaltsvorlagen]** Liste, auf die über die [!DNL Journey Optimizer] dediziertes Menü. Es wird zu einer eigenständigen Inhaltsvorlage, auf die wie jedes andere Element in der Liste zugegriffen, bearbeitet und gelöscht werden kann. [Weitere Informationen](#access-manage-templates)
+
+Sie können diese Vorlage jetzt beim Erstellen von [email](get-started-email-design.md) Innerhalb [!DNL Journey Optimizer]. [Weitere Informationen](email-templates.md)
+
+>[!NOTE]
+>
+>Änderungen an dieser neuen Vorlage werden nicht an die E-Mail weitergeleitet, aus der sie stammen. Wenn der ursprüngliche Inhalt in dieser E-Mail bearbeitet wird, wird die neue Vorlage ebenfalls nicht geändert.
+
+## Testen der Inhaltsvorlage {#test-template}
+
+Sie können das Rendering einer beliebigen E-Mail-Inhaltsvorlage testen, unabhängig davon, ob sie von Grund auf neu oder von einer E-Mail erstellt wurde. Gehen Sie dazu wie folgt vor.
+
+>[!CAUTION]
+>
+>Um Inhalte zu simulieren, müssen Sie über die **[!DNL Manage Simulate Content]** in der **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+
+1. Greifen Sie über die **[!UICONTROL Content Management]** > **[!UICONTROL Inhaltsvorlagen]** und wählen Sie eine beliebige Vorlage aus.
+
+1. Klicken **[!UICONTROL Inhalt bearbeiten]** von **[!UICONTROL Vorlageneigenschaften]**.
+
+1. Klicken **[!UICONTROL Inhalt simulieren]** und wählen Sie ein Testprofil aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Weitere Informationen](preview.md)
 
    ![](assets/content-template-stimulate.png)
 
@@ -105,17 +173,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage zu erstellen.
 
       ![](assets/content-template-stimulate-proof-surface.png)
 
-1. Sobald Ihre Vorlage fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
-
-1. Klicken Sie bei Bedarf auf den Pfeil neben dem Vorlagennamen, um zum **[!UICONTROL Details]** und bearbeiten Sie die Vorlage.
-
-   ![](assets/content-template-designer-back.png)
-
-1. Sie können diese Inhaltsvorlage jetzt beim Erstellen von [email](get-started-email-design.md) Innerhalb [!DNL Journey Optimizer]. Weitere Informationen finden Sie unter [mit einer gespeicherten Vorlage](email-templates.md#use-saved-template).
-
-   ![](assets/email_designer-saved-templates.png)
-
-## Anleitungsvideo{#video-templates}
+## Anleitungsvideo {#video-templates}
 
 Erfahren Sie, wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden in [!DNL Journey Optimizer].
 
