@@ -4,22 +4,22 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 19%
+ht-degree: 92%
 
 ---
 
 # Versionshinweise {#release-notes}
 
-[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in diesen Versionshinweisen in der letzten Woche jedes Monats konsolidiert.
+[!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert.
 
-Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md). Auf der Seite [Letzte Dokumentations-Updates](documentation-updates.md) finden Sie weitere Änderungsmöglichkeiten.
+Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). Auf der Seite [Letzte Dokumentations-Updates](documentation-updates.md) finden Sie weitere Änderungsmöglichkeiten.
 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich für die [Vierteljährlicher Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} und erhalten Sie vierteljährlich die neuesten Produktaktualisierungen, spannenden Meldungen, Anwendungsbeispiele, Tipps und mehr direkt in Ihren Posteingang.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
 ## Version Januar 2023 {#jan-2023-release}
@@ -36,9 +36,9 @@ Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md).
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform bietet eine Reihe von Funktionen zur Datenhygiene, mit denen Sie Ihre gespeicherten Daten durch programmgesteuerte Löschung von Verbraucherdatensätzen und -datensätzen verwalten können. Diese Funktion ist jetzt für Adobe Journey Optimizer verfügbar. </p>
-<p>Sie können Ihre Datenspeicher verwalten, um sicherzustellen, dass Informationen erwartungsgemäß verwendet, aktualisiert werden, wenn falsche Datenanforderungen behoben werden müssen, und gelöscht wird, wenn dies aufgrund von organisatorischen Richtlinien erforderlich ist.</p>
-<p><strong>Vorsicht</strong> - Die Funktionen zur Datenhygiene stehen derzeit nur Organisationen zur Verfügung, die die <strong>Gesundheitsschild</strong> und <strong>Datenschutz und Sicherheitsschild</strong> Add-On-Angebote.</p><p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../privacy/data-hygiene.md">ausführlichen Dokumentation</a>.
+<p>Adobe Experience Platform bietet eine Reihe von Funktionen zur Datenhygiene, mit denen Sie Ihre gespeicherten Daten durch programmgesteuerte Löschungen der Aufzeichnungen und Datensätze von Kundinnen und Kunden verwalten können. Diese Funktion ist jetzt für Adobe Journey Optimizer verfügbar. </p>
+<p>Sie können Ihre Datenspeicher verwalten, um sicherzustellen, dass Informationen erwartungsgemäß verwendet werden, dass sie aktualisiert werden, wenn falsche Daten korrigiert werden müssen, und dass sie gelöscht werden, wenn dies aufgrund von Richtlinien der Organisation erforderlich ist.</p>
+<p><strong>Achtung</strong> – Die Funktionen zur Datenhygiene stehen derzeit nur Organisationen zur Verfügung, die die Zusatzangebote <strong>Healthcare Shield</strong> und <strong>Privacy and Security Shield</strong> erworben haben.</p><p>Weitere Informationen finden Sie in der <a href="../privacy/data-hygiene.md">ausführlichen Dokumentation</a>.
 
 </td>
 </tr>
@@ -56,9 +56,8 @@ Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md).
 <td>
 <p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die über Journey und Kampagnen hinweg für eine schnelle Wiederverwendung genutzt werden können.</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>Erfahren Sie, wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">dieses Video</a>.
-<p>Weitere Informationen zu Datensätzen finden Sie in der <a href="../email/content-templates.md">ausführlichen Dokumentation</a>.
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Erfahren Sie, wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">dieses Video</a>. Weitere Informationen finden Sie in der <a href="../email/content-templates.md">ausführlichen Dokumentation</a>.
 </p>
 </td>
 </tr>
@@ -75,31 +74,31 @@ Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md).
 * Improvements have been made for **journey start and end dates**. If you have not specified a start date, it is now automatically added at publication time. For **Read segment** journeys, you can now add an end date. This allows profiles to exit automatically when the date is reached. [Learn more](../building-journeys/journey-gs.md#dates)
 -->
 
-* Beim Hinzufügen von **Segmentqualifizierung** oder **Segment lesen** In einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Siehe Abschnitt [Segmentqualifizierung](../building-journeys/segment-qualification-events.md#about-segment-qualification) und [Segment lesen](../building-journeys/read-segment.md#configuring-segment-trigger-activity) Abschnitte.
+* Beim Hinzufügen von **Segmentqualifizierung** oder **Segment lesen** in einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Siehe dazu die Abschnitte [Segmentqualifizierung](../building-journeys/segment-qualification-events.md#about-segment-qualification) und [Segment lesen](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
 * Auf der Journey-Arbeitsfläche ist eine neue Schaltfläche in der Symbolleiste verfügbar, mit der Sie einen Screenshot Ihrer Journey herunterladen können.
 
-**Email Designer**
+**E-Mail-Designer**
 
-* Sie können jetzt den E-Mail-Inhalt aus der **HTML exportieren** Menü. Exportierte Dateien sind in einer ZIP-Archivdatei verfügbar.
+* Sie können jetzt über das Menü **HTML exportieren** den E-Mail-Inhalt exportieren. Exportierte Dateien sind in einer ZIP-Archivdatei verfügbar.
 
 **Administration**
 
-* Ein neuer Unterabschnitt enthält Empfehlungen zum Erstellen der **Antwort an (E-Mail)** Adresse und Gewährleistung einer ordnungsgemäßen Antwortverwaltung. [Weitere Informationen](../email/email-settings.md#reply-to-email)
+* Ein neuer Unterabschnitt enthält Empfehlungen zum Erstellen der Adresse für **Antwort an (E-Mail)** und gewährleistet eine ordnungsgemäße Antwortverwaltung. [Weitere Informationen](../email/email-settings.md#reply-to-email)
 
-* Beim Erstellen oder Bearbeiten **IP-Pools**, werden die zugehörigen PTR-Datensätze jetzt in der IP-Liste angezeigt und wenn Sie den Mauszeiger über die ausgewählten IP-Adressen bewegen. [Weitere Informationen](../configuration/ip-pools.md#create-ip-pool)
+* Beim Erstellen oder Bearbeiten von **IP-Pools** werden die zugehörigen PTR-Einträge jetzt in der IP-Liste angezeigt, und ebenfalls, wenn Sie den Mauszeiger über die ausgewählten IP-Adressen bewegen. [Weitere Informationen](../configuration/ip-pools.md#create-ip-pool)
 
-* Nachdem ein IP-Pool auf einer Kanaloberfläche ausgewählt wurde, sind jetzt PTR-Datensatzinformationen sichtbar, wenn Sie den Mauszeiger über die IP-Adressen bewegen. [Weitere Informationen](../email/email-settings.md#subdomains-and-ip-pools)
+* Nachdem ein IP-Pool auf einer Kanaloberfläche ausgewählt wurde, sind jetzt Informationen zum PTR-Eintrag sichtbar, wenn Sie den Mauszeiger über die IP-Adressen bewegen. [Weitere Informationen](../email/email-settings.md#subdomains-and-ip-pools)
 
-* Die Benutzeroberfläche zur Bearbeitung [PTR-Datensätze](../configuration/ptr-records.md#edit-ptr-record) und [Ausführungsfelder](../configuration/primary-email-addresses.md) wurde aktualisiert.
+* Die Benutzeroberfläche zur Bearbeitung von [PTR-Einträgen](../configuration/ptr-records.md#edit-ptr-record) und [Ausführungsfeldern](../configuration/primary-email-addresses.md) wurde aktualisiert.
 
 * Die Benutzeroberfläche zum Erstellen und Bearbeiten von Subdomains wurde verbessert. [Weitere Informationen](../configuration/delegate-subdomain.md)
 
-* Die Unterdrückungsliste **Letzte Uploads** wurde aktualisiert. [Weitere Informationen](../configuration/manage-suppression-list.md#recent-uploads)
+* Der Bildschirm **Letzte Uploads** der Unterdrückungsliste wurde aktualisiert. [Weitere Informationen](../configuration/manage-suppression-list.md#recent-uploads)
 
 **Kampagnen**
 
-* Eine Beispiel-cURL-Anfrage, die die Ausführung API-gesteuerter Kampagnen ermöglicht, wird jetzt automatisch generiert und im Kampagnenbildschirm bereitgestellt. [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
+* Eine Beispiel-cURL-Anfrage, die die Ausführung API-ausgelöster Kampagnen ermöglicht, wird jetzt automatisch generiert und im Kampagnenbildschirm bereitgestellt. [Weitere Informationen](../campaigns/api-triggered-campaigns.md)
 
 <!--
 **Decision management**
@@ -110,4 +109,4 @@ Frühere Versionshinweise finden Sie unter [diese Seite](release-notes-2022.md).
 
 **Personalisierung**
 
-* Neue Hilfsfunktionen sind verfügbar: formatCurrency, charCodeAt, stringToDate, toString, formatNumber und toHexString. Darüber hinaus akzeptiert die Funktion toDateTimeOnly jetzt die Feldtypen String, Datum, Long und int. [Weitere Informationen](../personalization/functions/functions.md)
+* Neue Hilfsfunktionen sind verfügbar: formatCurrency, charCodeAt, stringToDate, toString, formatNumber und toHexString. Darüber hinaus akzeptiert die Funktion toDateTimeOnly jetzt die Feldtypen string, date, long und int. [Weitere Informationen](../personalization/functions/functions.md)
