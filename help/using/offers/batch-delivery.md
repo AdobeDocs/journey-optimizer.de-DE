@@ -2,10 +2,10 @@
 title: Batch-Entscheidungen
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einem bestimmten Adobe Experience Platform-Segment senden.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Bevor Sie eine Vorgangsanfrage konfigurieren, stellen Sie sicher, dass Sie Folge
 
    >[!NOTE]
    >
-   >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die Batch Decisioning-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot.
+   >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die Batch Decisioning-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot. Warten Sie bis zu 24 Stunden, nachdem Sie ein Segment erstellt haben, bevor Sie die Batch-Entscheidungs-API ausprobieren.
 
 * **Eine Entscheidung** in Adobe Journey Optimizer. [Erfahren Sie, wie Sie eine Entscheidung erstellen können](offer-activities/create-offer-activities.md)
 
