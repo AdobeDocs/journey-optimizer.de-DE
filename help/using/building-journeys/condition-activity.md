@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+workflow-type: tm+mt
+source-wordcount: '1469'
+ht-degree: 97%
 
 ---
 
@@ -130,7 +130,9 @@ Mit diesem Bedingungstyp kann das Volumen Ihrer Sendungen erhöht werden. Siehe 
 
 Die Standardbegrenzung ist 1.000.
 
-Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nach einem Monat auf null zurückgesetzt. Nach dem Zurücksetzen folgen die eintretenden Profile erneut dem nominalen Pfad, bis die Zählergrenze erreicht ist.
+Der Zähler gilt nur für die ausgewählte Journey-Version. Der Zähler wird nach einem Monat, nach einer neuen Journey-Version oder einer Duplikatversion der Journey auf null zurückgesetzt. Nach dem Zurücksetzen folgen die eintretenden Profile erneut dem nominalen Pfad, bis die Zählergrenze erreicht ist.
+
+Wenn auf einer wiederkehrenden Journey eine Profilbegrenzung definiert ist, wird der Zähler nicht nach jeder Wiederholung zurückgesetzt.
 
 Der nominale Pfad hat immer Vorrang vor dem alternativen Pfad, auch wenn der alternativen Pfad über den nominalen Pfad auf der Journey-Arbeitsfläche verschoben wird.
 
