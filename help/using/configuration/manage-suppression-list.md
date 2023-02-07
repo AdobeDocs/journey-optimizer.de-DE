@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 54%
 
 ---
@@ -30,17 +30,19 @@ Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste fi
 
 Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domains zuzugreifen, navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und wählen Sie **[!UICONTROL Unterdrückungsliste]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Unterdrückungsliste sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator) beschränkt. Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzer finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können.
 
 ![](assets/suppression-list-filters.png)
 
-Sie können nach **[!UICONTROL Unterdrückungskategorie]**, **[!UICONTROL Adresstyp]** oder **[!UICONTROL Grund]** filtern. Wählen Sie für jedes Kriterium die von Ihnen gewünschten Optionen aus. Nach der Auswahl können Sie einzelne oder alle Filter löschen, die über der Liste angezeigt werden.
+Sie können nach **[!UICONTROL Unterdrückungskategorie]**, **[!UICONTROL Adresstyp]** oder **[!UICONTROL Grund]** filtern. Wählen Sie für jede Bedingung eine oder mehrere Optionen aus. Nach der Auswahl können Sie einzelne oder alle Filter löschen, die über der Liste angezeigt werden.
 
 ![](assets/suppression-list-filtering-example.png)
 
