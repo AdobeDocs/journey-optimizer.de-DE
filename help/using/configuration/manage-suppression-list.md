@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 54%
@@ -84,7 +84,7 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 ### Unterdrückungsregeln  {#suppression-rules}
 
-Aus dem **[!UICONTROL Unterdrückungsliste]** -Ansicht können Sie auch den Wiederholungsparameter bearbeiten, der mit den Unterdrückungsregeln verknüpft ist, über die **[!UICONTROL Schaltfläche &quot;Unterdrückungsregeln bearbeiten&quot;]**. Verwenden Sie diese Option, um die Wiederholungsschwelle für die aktuelle Sandbox zu aktualisieren. [Weitere Informationen](retries.md)
+Aus dem **[!UICONTROL Unterdrückungsliste]** -Ansicht können Sie auch den Wiederholungsparameter bearbeiten, der mit den Unterdrückungsregeln verknüpft ist, über die **[!UICONTROL Unterdrückungsregeln bearbeiten]** Schaltfläche. Verwenden Sie diese Option, um die Wiederholungsschwelle für die aktuelle Sandbox zu aktualisieren. [Weitere Informationen zu Wiederholungen](retries.md).
 
 
 ## Adressen und Domänen zur Unterdrückungsliste hinzufügen{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Gehen Sie wie folgt vor, um der Unterdrückungsliste eine E-Mail-Adresse oder ei
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Wählen Sie den Adresstyp aus: **[!UICONTROL Email-Adresse]** oder **[!UICONTROL Domain-Adresse]**.
+1. Wählen Sie den Adresstyp aus: **[!UICONTROL Email]** oder **[!UICONTROL Domäne]**.
 
 1. Geben Sie die E-Mail-Adresse oder Domain ein, die Sie vom Versand ausschließen möchten.
 
