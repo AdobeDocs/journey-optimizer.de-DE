@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 97%
 
 ---
 
@@ -114,3 +114,9 @@ Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Campaign-Be
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
 * [In-App-Bericht](inapp-report.md)
 * [In-App-Konfiguration](inapp-configuration.md)
+
+## Anleitungsvideo{#video}
+
+Im folgenden Video erfahren Sie, wie Sie In-App-Nachrichten in Ihren Kampagnen erstellen, konfigurieren und veröffentlichen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

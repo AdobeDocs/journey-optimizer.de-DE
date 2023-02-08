@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '1383'
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -170,44 +170,6 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
    ![](assets/email_designer_10.png)
 
 1. Passen Sie die anderen Stilattribute wie Rand, Rahmen usw. an. oder durch Hinzufügen eines Links zur Umleitung Ihrer Audience zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]**.
-
-## Video {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre E-Mail einzufügen. Beachten Sie, dass Videos nicht auf allen E-Mail-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um zu Ihrer Landingpage ein Video hinzuzufügen. Beachten Sie, dass Videos nicht auf allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihr Fragment einzufügen. Beachten Sie, dass Videos nicht auf allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Videoeinstellungen"
->abstract="Verwenden Sie diese Komponente, um ein Video in Ihre Vorlage einzufügen. Beachten Sie, dass Videos nicht auf allen Nachrichten-Clients funktionieren. Wir empfehlen, ein Reservebild festzulegen."
-
-Verwenden Sie die Komponente **[!UICONTROL Video]**, um über einen URL-Link ein Video in Ihre E-Mail einzufügen.
-
-1. Ziehen Sie die Komponente **[!UICONTROL Video]** aus den **[!UICONTROL Inhaltskomponenten]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Klicken Sie auf die neu hinzugefügte Komponente.
-
-1. Gegben Sie in das Feld **[!UICONTROL Video-Link]** des Bedienfelds **[!UICONTROL Komponenteneinstellungen]** Ihre Video-URL ein.
-
-   ![](assets/email_designer_18.png)
-
-1. Sie können dem Video ein **[!UICONTROL Standbild]** hinzufügen, das angezeigt wird, bis Ihre Audience auf die Wiedergabe-Schaltfläche klickt.
-
-1. Passen Sie die anderen Stilattribute wie Stil, Rand, Rahmen usw. an. über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]**.
 
 ## Social Media {#social}
 

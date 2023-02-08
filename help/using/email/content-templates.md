@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 10%
 
 ---
 
 # Arbeiten mit Inhaltsvorlagen {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Erstellen von Inhaltsvorlagen"
->abstract="Erstellen Sie eigenständige Vorlagen, um Inhalte in allen Journey und Kampagnen wiederzuverwenden."
 
 Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Vorlagen erstellen, um benutzerdefinierte Inhalte einfach in allen [!DNL Journey Optimizer] Kampagnen und Journey.
 
@@ -58,6 +53,11 @@ Um eine Vorlage zu löschen, wählen Sie das Papierkorbsymbol neben der gewünsc
 >Wenn eine Vorlage bearbeitet oder gelöscht wird, sind Kampagnen oder Journey, einschließlich mit dieser Vorlage erstellter E-Mails, nicht betroffen.
 
 ## Erstellen von Inhaltsvorlagen {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Eigene Inhaltsvorlage definieren"
+>abstract="Erstellen Sie eine eigenständige benutzerdefinierte Vorlage von Grund auf, damit Ihre Inhalte über mehrere Journey und Kampagnen hinweg wiederverwendet werden können."
 
 Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
 

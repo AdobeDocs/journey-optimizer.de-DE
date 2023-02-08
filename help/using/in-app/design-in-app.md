@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 98%
 
 ---
 
@@ -194,3 +194,9 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 * [Erstellen einer In-App-Nachricht](create-in-app.md)
 * [In-App-Bericht](inapp-report.md)
 * [In-App-Konfiguration](inapp-configuration.md)
+
+## Anleitungsvideo{#video}
+
+Das folgende Video zeigt, wie Sie Ihre In-App-Nachrichten erstellen und testen können.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

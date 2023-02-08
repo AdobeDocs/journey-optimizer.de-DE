@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 96%
 
 ---
 
@@ -96,7 +96,7 @@ In [diesem Abschnitt](../privacy/opt-out.md) erfahren Sie mehr über die Verwalt
 
 ### Opt-out-Verwaltung {#opt-out-management}
 
-Die Möglichkeit für Empfänger, den Empfang von Mitteilungen einer Marke zu kündigen, ist eine gesetzliche Anforderung. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
+Es ist gesetzlich vorgeschrieben, eine Möglichkeit zur Kündigung des Abos einzurichten, damit Empfängerinnen und Empfänger keine Mitteilungen mehr von einer Marke erhalten. Weitere Informationen zu den geltenden Rechtsvorschriften finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=de#regulations){target="_blank"}.
 
 Aus diesem Grund müssen Sie in jeder E-Mail, die an Empfänger gesendet wird, immer einen **Link zur Abmeldung** einfügen:
 
@@ -160,6 +160,13 @@ Um sich zu vergewissern, dass die Aktualisierung des betreffenden Profils erfolg
 ![](assets/lp_opt-out-profile-choice.png)
 
 Auf der Registerkarte **[!UICONTROL Attribute]** können Sie sehen, dass der Wert für **[!UICONTROL Auswahl]** auf **[!UICONTROL Nein]** geändert wurde.
+
+Die Opt-out-Informationen werden im **Datensatz des Zustimmungsdienstes**. [Weitere Informationen zu Datensätzen](../data/get-started-datasets.md)
+
+>[!NOTE]
+>
+>Wenn die Zusammenführungsmethode für Ihre Standardeinstellung [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+
 
 <!--
 

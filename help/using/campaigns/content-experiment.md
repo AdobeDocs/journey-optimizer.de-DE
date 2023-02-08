@@ -11,10 +11,10 @@ keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
-workflow-type: ht
-source-wordcount: '1030'
-ht-degree: 100%
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+workflow-type: tm+mt
+source-wordcount: '1116'
+ht-degree: 77%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >Die Funktion für **Inhaltsexperimente** ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Verwenden Sie die Inhaltsexperiment-Funktion von Journey Optimizer, um mehrere Versandvarianten zu erstellen. Die ausgewählte Audience wird jeder Variante nach dem Zufallsprinzip zugeordnet, um festzustellen, welche Variante die beste Leistung in Bezug auf die Zielmetrik erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren.
+Mit dem Journey Optimizer Content Experiment können Sie mehrere Bereitstellungsbehandlungen definieren, um zu messen, welche die beste Leistung für Ihre Zielgruppe erzielt. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren. Die Zielgruppe wird nach dem Zufallsprinzip jeder Behandlung zugeordnet, um zu bestimmen, welche die angegebene Metrik am besten verwendet.
 
 >[!NOTE]
 >
@@ -52,68 +52,53 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_1.png)
 
-1. Wählen Sie Ihren Kanal und dann die **[!UICONTROL Oberfläche]**, die Sie für diesen Versand verwenden möchten. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
+1. Wählen Sie Ihren Kanal und dann **[!UICONTROL Oberfläche]** Sie möchten für diesen Versand verwenden und klicken Sie auf **[!UICONTROL Erstellen]**. Weiterführende Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
 
    ![](assets/content_experiment_2.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
-
 1. Richten Sie die **[!UICONTROL Eigenschaften]** Ihres Versands ein:
-   * **[!UICONTROL Titel]**
+   * **[!UICONTROL Name]**
    * **[!UICONTROL Beschreibung]**
-   * **[!UICONTROL Kategorie]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transaktion]**
-
-1. Um Ihr Inhaltsexperiment zu starten, aktivieren Sie die Option **[!UICONTROL Inhaltsexperiment]**. Das Menü **[!UICONTROL Inhaltsexperiment]** wird angezeigt.
-
-   ![](assets/content_experiment_3.png)
 
 1. Definieren Sie die anzusprechende Audience. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../segment/about-segments.md)
 
    Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](get-started-experiment.md#content-experiment-work)
 
-1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt „Zeitplan“. [Weitere Informationen](create-campaign.md)
+   ![](assets/content_experiment_16.png)
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Personalisierung Ihrer anderen **[!UICONTROL Varianten]** zu beginnen.
+1. Geben Sie im Bereich **[!UICONTROL Aktions-Tracking]** an, ob Sie verfolgen möchten, wie Ihre Empfänger(innen) auf Ihren Versand reagieren: Sie können Klicks und/oder Öffnungen verfolgen.
 
-   ![](assets/content_experiment_4.png)
+   Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar.
 
-## Erstellen der Varianten {#treatment-experiment}
+1. Um Ihre Kampagne an einem bestimmten Datum oder in regelmäßigen Abständen auszuführen, konfigurieren Sie den Abschnitt **[!UICONTROL Zeitplan]**. [Weitere Informationen](create-campaign.md)
 
-1. Im Fenster **[!UICONTROL Inhalt bearbeiten]** können Sie mit der Personalisierung von Variante A beginnen.
+1. Klicken **[!UICONTROL Inhalt bearbeiten]** , um mit der Personalisierung Ihres Versands zu beginnen. [Weitere Informationen](../email/content-from-scratch.md)
 
-   Diese Variante wird so konfiguriert, dass das Angebot direkt in der Betreffzeile angezeigt wird.
+   ![](assets/content_experiment_17.png)
+
+1. Aus dem **[!UICONTROL Inhalt bearbeiten]** Beginn der Personalisierung der Behandlung A.
+
+   Für diese Behandlung wird das Sonderangebot direkt in der Betreffzeile spezifiziert und eine Personalisierung hinzugefügt.
 
    ![](assets/content_experiment_5.png)
 
-1. Klicken Sie nach der Erstellung Ihrer ersten Variante auf der Schaltfläche **[!UICONTROL Mehr Aktionen]** auf **[!UICONTROL Duplizieren]**.
-
-   Sie können auch eine völlig neue Variante erstellen, indem Sie auf die Schaltfläche **[!UICONTROL Inhaltsexperiment]**![](assets/content_experiment_16.png) klicken, um auf die erweiterten Optionen zuzugreifen, und dann auf **[!UICONTROL Variante hinzufügen]** klicken.
-
-   ![](assets/content_experiment_7.png)
-
-1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Variante, um die einzelnen Varianten besser unterscheiden zu können.
-
-   ![](assets/content_experiment_8.png)
-
-1. Personalisieren Sie Ihre zweite Variante nach Bedarf.
-
-   In dieser Variante wird das Angebot nicht in der **[!UICONTROL Betreffzeile]** angegeben.
-
-   ![](assets/content_experiment_9.png)
-
-Nachdem Ihre Varianten personalisiert wurden, können Sie mit der Konfiguration Ihres Inhaltsexperiments beginnen.
-
 ## Konfigurieren des Inhaltsexperiments {#configure-experiment}
 
-1. Wenn beide Varianten personalisiert sind, wählen Sie im Fenster **[!UICONTROL Inhalt bearbeiten]** die Option **[!UICONTROL Inhaltsexperiment konfigurieren]**.
+1. Wenn Ihr Versand personalisiert wurde, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]** , um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
-   ![](assets/content_experiment_10.png)
+   ![](assets/content_experiment_3.png)
 
-1. Wählen Sie die Ziele aus, die Sie für Ihr Experiment festlegen möchten.
+1. Wählen Sie die **[!UICONTROL Erfolgsmetrik]** Sie möchten für Ihr Experiment festlegen.
 
    Für unser Experiment wählen wir **[!UICONTROL Geöffnete E-Mails]**, um zu testen, ob Empfänger ihre E-Mails öffnen, wenn sich das Angebot in der Betreffzeile befindet.
 
    ![](assets/content_experiment_11.png)
+
+1. Klicken **[!UICONTROL Behandlung hinzufügen]** um so viele neue Behandlungsmöglichkeiten wie nötig zu schaffen.
+
+   ![](assets/content_experiment_8.png)
+
+1. Ändern Sie den **[!UICONTROL Titel]** Ihrer Variante, um die einzelnen Varianten besser unterscheiden zu können.
 
 1. Wählen Sie aus, dass eine **[!UICONTROL neutrale]** Gruppe zu Ihrem Versand hinzugefügt werden soll. Diese Gruppe erhält keine Inhalte aus dieser Kampagne.
 
@@ -125,9 +110,31 @@ Nachdem Ihre Varianten personalisiert wurden, können Sie mit der Konfiguration 
 
    ![](assets/content_experiment_13.png)
 
-1. Klicken Sie nach der Konfiguration auf **[!UICONTROL Speichern]**.
+1. Klicken **[!UICONTROL Erstellen]** wenn Ihre Konfiguration festgelegt ist.
 
-1. Wenn Ihr Inhaltsexperiment bereit ist, können Sie auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Warnhinweise werden angezeigt, wenn Parameter falsch sind oder fehlen.
+## Behandlungen entwerfen {#treatment-experiment}
+
+1. Aus dem **[!UICONTROL Inhalt bearbeiten]** auswählen, wählen Sie Ihre Behandlung B aus, um den Inhalt zu ändern.
+
+   In dieser Variante wird das Angebot nicht in der **[!UICONTROL Betreffzeile]** angegeben.
+
+   ![](assets/content_experiment_18.png)
+
+1. Klicken **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** zur weiteren Personalisierung Ihrer Behandlung B.
+
+   ![](assets/content_experiment_9.png)
+
+1. Klicken Sie nach der Konzeption Ihrer Behandlungen auf **[!UICONTROL Mehr Aktionen]** für den Zugriff auf Optionen für Ihre Behandlungen: **[!UICONTROL Umbenennen]**, **[!UICONTROL Duplizieren]** und **[!UICONTROL Löschen]**.
+
+   ![](assets/content_experiment_7.png)
+
+1. Greifen Sie bei Bedarf auf die **[!UICONTROL Experimenteinstellungen]** Menü, um die Konfiguration Ihrer Behandlungen zu ändern.
+
+   ![](assets/content_experiment_19.png)
+
+1. Nachdem der Nachrichteninhalt definiert wurde, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** zur Steuerung des Renderings Ihres Versands und zur Überprüfung der Personalisierungseinstellungen mit Testprofilen. [Weitere Informationen](../email/preview.md)
+
+1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf Ihrer Kampagnenzusammenfassungs-Seite auf **[!UICONTROL Aktivieren]** um eine Zusammenfassung der Kampagne anzuzeigen. Warnhinweise werden angezeigt, wenn Parameter falsch sind oder fehlen.
 
    ![](assets/content_experiment_15.png)
 
