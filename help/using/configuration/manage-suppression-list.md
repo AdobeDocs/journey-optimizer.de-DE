@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 54%
@@ -220,13 +220,13 @@ Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die **[
 >Gehen Sie beim Löschen von E-Mail-Adressen oder Domains mit besonderer Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
 
-Im Falle eines Ausfalls des Internet Service Providers (ISP) werden E-Mails fälschlicherweise als Hardbounces gekennzeichnet, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
+Im Falle eines Ausfalls des Internet Service Providers (ISP) können E-Mails fälschlicherweise als Hardbounces gekennzeichnet werden, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
 
 Filtern Sie dazu die Unterdrückungsliste, um die betroffenen E-Mail-Adressen oder Domänen anzuzeigen. Wenn beispielsweise vom 11. November 2022 bis zum 13. November 2022 ein ISP-Ausfall auf der **test.com** -Domäne die zur Unterdrückungsliste hinzugefügten Adressen in diesem Zeitraum wie folgt filtern:
 
 ![](assets/remove-from-supp-list.png)
 
-Je nach Details des Ausfalls müssen Sie außerdem einen Filter für den Hardbounce-Typ hinzufügen. Diese Details werden vom ISP bereitgestellt, z. B. der genaue Fehlercode, der an den Absender zurückgegeben wird. Beispiel: `550 <email address> recipient rejected` oder `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+Je nach Details des Ausfalls müssen Sie außerdem einen Filter für den Bounce-Typ hinzufügen. Diese Details werden vom ISP bereitgestellt, z. B. der genaue Fehlercode, der an den Absender zurückgegeben wird. Beispiel: `550 <email address> recipient rejected` oder `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 Nach der Identifizierung können diese Adressen mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
 
