@@ -1,17 +1,17 @@
 ---
 title: Visual Editing Helper-Erweiterung
 description: Entdecken Sie die Chrome-Erweiterung Visual Editing Helper, mit der Sie Web-Seiten in Journey Optimizer erstellen und in der Vorschau anzeigen können.
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
