@@ -32,7 +32,7 @@ ht-degree: 99%
    + [Benutzeroberfläche](using/start/user-interface.md)
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Integrationen](using/start/ajo-integrations.md)
-   + [Leitlinien](using/start/guardrails.md)
+   + [Leitplanken](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
    + [Erste Schritte mit Journeys](using/building-journeys/journey.md)
    + Erstellen einer Journey{#create-journey}
@@ -467,7 +467,7 @@ ht-degree: 99%
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)
    + [Audit-Aktionen für Ressourcen](using/privacy/audit-logs.md)
-   + [Datenhygiene](using/privacy/data-hygiene.md)
+   + [Durchführen von Datenhygienevorgängen](using/privacy/data-hygiene.md)
    + Einverständnisverwaltung {#consent}
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)

@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 66%
+ht-degree: 81%
 
 ---
 
@@ -60,31 +60,31 @@ Sie können diese Verknüpfungen in bestimmten Bereichen von [!DNL Journey Optim
   </tr>
   <tr>
     <td>Auswahl aller Aktivitäten</td>
-    <td>STRG + A (Windows)<br/>CMD + A (Mac)</td>
+    <td>Strg+A (Windows)<br/>Befehlstaste+A (Mac)</td>
   </tr>
   <tr>
     <td>Löschen von ausgewählten Aktivitäten</td>
     <td>Löschen oder Rücktaste und anschließend Eingabetaste zur Bestätigung des Löschvorgangs</td>
   </tr>
   <tr>
-    <td>Vergrößern und Verkleinern (Fokus auf Arbeitsfläche oder einem der untergeordneten Elemente)</td>
-    <td>STRG +/- (Windows) oder CMD +/- (Mac)</td>
+    <td>Einzoomen und auszoomen (Fokus auf der Arbeitsfläche oder einem ihrer untergeordneten Elemente)</td>
+    <td>Strg+/- (Windows) oder Befehlstaste+/- (Mac)</td>
   </tr>  
   <tr>
-    <td>Navigieren zwischen jeder Aktivität und jedem Pfad (Arbeitsfläche auswählen) oder zwischen Symbolleistenschaltflächen (Symbolleisten zentrieren)</td>
-    <td>ARROW-Schlüssel</td>
+    <td>Navigieren zwischen jeder Aktivität und jedem Pfad (Fokus auf Arbeitsfläche) oder zwischen Symbolleistenschaltflächen (Fokus auf Symbolleiste)</td>
+    <td>Pfeiltasten</td>
   </tr>   
   <tr>
-    <td>Verschieben Sie den Fokus auf das nächste umsetzbare Element auf der Arbeitsfläche, wobei die Symbolleiste das erste Element ist</td>
+    <td>Fokus auf das nächste ausführbare Element auf der Arbeitsfläche verschieben, wobei die Symbolleiste das erste Element ist</td>
     <td>Tabulatortaste</td>
   </tr>  
   <tr>
-    <td>Öffnen Sie den rechten Konfigurationsbereich (konzentrieren Sie sich auf eine Aktivität).</td>
-    <td>EINGEBEN</td>
+    <td>Rechten Konfigurationsbereich öffnen (Fokus auf eine Aktivität)</td>
+    <td>EINGABETASTE</td>
   </tr>   
   <tr>
     <td>Verschieben einer Aktivität auf der Arbeitsfläche (Fokus auf eine Aktivität)</td>
-    <td>UMSCHALT- + PFEILtasten</td>
+    <td>UMSCHALT+PFEILtasten</td>
   </tr>  
   <tr>
   <td rowspan="3">

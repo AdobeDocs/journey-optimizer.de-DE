@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem
 
    >[!NOTE]
    >
-   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentationsübersicht zum XDM-System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target=&quot;_blank&quot;}.
+   >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Feldergruppen]** auf der linken Seite **[!UICONTROL Hinzufügen]**.
 
@@ -53,7 +53,7 @@ Bevor Sie ein KI-Modell erstellen, müssen Sie einen Datensatz erstellen, in dem
 
 >[!NOTE]
 >
->Erfahren Sie mehr über das Erstellen von Schemata in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target=&quot;_blank&quot;}.
+>Erfahren Sie mehr über das Erstellen von Schemas in [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#understanding-schemas){target="_blank"}.
 
 Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 

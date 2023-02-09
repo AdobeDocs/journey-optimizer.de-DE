@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
 
    >[!NOTE]
    >
-   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu Identity-Namespaces von Adobe Experience Platform finden Sie [in diesem Abschnitt](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Ein Identity-Namespace definiert den Kontext einer Kennung wie eine E-Mail-Adresse oder eine CRM-ID. Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../../segment/get-started-identity.md){target="_blank"}.
 
 1. Geben Sie den Identitätswert ein und klicken Sie auf **[!UICONTROL Ansicht]**, um die verfügbaren Profile aufzulisten.
 
@@ -212,5 +212,5 @@ Nachdem Sie einen Entscheidungsumfang hinzugefügt und ein Testprofil ausgewähl
 
    >[!NOTE]
    >
-   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. In der {target=&quot;_blank&quot;} Dokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de) erfahren Sie, wie Sie diese Werte abrufen können.
+   >Wenn Sie die Anfrage- oder Antwort-Payload in Ihren eigenen Code kopieren, ersetzen Sie {USER_TOKEN} und {API_KEY} durch gültige Werte. Erfahren Sie, wie Sie diese Werte in der [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} Dokumentation.
 

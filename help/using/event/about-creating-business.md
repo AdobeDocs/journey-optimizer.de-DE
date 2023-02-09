@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 100%
 

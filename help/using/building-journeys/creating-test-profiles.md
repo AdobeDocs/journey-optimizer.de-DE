@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finde
 
 Sie können auch eine JSON-Datei in einen vorhandenen Datensatz hochladen. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset){target="_blank"}.
 
-Das Erstellen eines Testprofils ähnelt dem Erstellen von Standardprofilen in Adobe Experience Platform. Weitere Informationen finden Sie in der [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
+Beachten Sie, dass das Erstellen eines Testprofils dem Erstellen regulärer Profile in Adobe Experience Platform ähnelt. Weitere Informationen finden Sie in der [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Testprofile erstellen](#video)
 

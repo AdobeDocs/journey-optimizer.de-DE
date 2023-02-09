@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -24,13 +24,13 @@ In [!DNL Adobe Journey Optimizer] verknüpfen **Identitäten** Verbraucher gerä
 
 ![](assets/identities-home.png)
 
-Weitere Informationen zu **Identity Service** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target=&quot;_blank&quot;}.
+Weitere Informationen zu **Identity Service** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
 
 ## Identity-Namespaces {#identity-namespaces}
 
 **** Identity-Namespaces sind Komponenten des Identity Service, die als Indikatoren für den Kontext dienen, auf den sich eine Identität bezieht. Sie identifizieren beispielsweise den Wert `name@email.com` als E-Mail-Adresse oder `443522` als numerische CRM-ID. Das Verwenden von Identitäts-Namespaces setzt ein Verständnis der verschiedenen beteiligten Adobe Experience Platform-Dienste voraus. Bevor Sie Namespaces nutzen, lesen Sie bitte die Dokumentation für folgende Dienste:
 
-Weitere Informationen zu **Identity-Namespaces** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target=&quot;_blank&quot;}.
+Weitere Informationen zu **Identity-Namespaces** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=de){target="_blank"}.
 
 ## Identitätsdiagramm{#id-graph}
 
@@ -38,4 +38,4 @@ Im **Identitätsdiagramm** werden die Beziehungen zwischen den verschiedenen Ide
 
 Mit dem Identitätsdiagramm-Viewer in der [!DNL Adobe Journey Optimizer]-Benutzeroberfläche können Sie visualisieren und besser verstehen, welche Kundenidentitäten auf welche Weise miteinander verknüpft sind. Mit dem Viewer können Sie verschiedene Teile des Diagramms per Drag-and-drop verschieben und mit ihnen interagieren, sodass Sie komplexe Identitätsbeziehungen untersuchen, Fehler effizient beheben und von einer erhöhten Transparenz bei der Verwendung von Informationen profitieren können. 
 
-Weitere Informationen zum **Identitätsdiagramm** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=de){target=&quot;_blank&quot;}.
+Weitere Informationen zum **Identitätsdiagramm** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html?lang=de){target="_blank"}.

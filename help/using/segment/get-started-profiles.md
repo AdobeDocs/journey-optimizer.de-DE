@@ -9,8 +9,8 @@ level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 97%
 
 ---
 
@@ -24,13 +24,13 @@ Mit dem Echtzeit-Kundenprofil in [!DNL Adobe Journey Optimizer] erhalten Sie ein
 
 ![](assets/profiles-home.png)
 
-Informationen über den Zugriff auf das Dashboard **Profile** und detaillierte Informationen zu den im Dashboard angezeigten Metriken finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target=&quot;_blank&quot;}.
+Informationen über den Zugriff auf das Dashboard **Profile** und detaillierte Informationen zu den im Dashboard angezeigten Metriken finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=de){target="_blank"}.
 
 Sie können Daten aus verschiedenen Quellen zusammenführen und kombinieren, damit Sie sich eine vollständige Ansicht über jeden einzelnen Ihrer Kunden verschaffen können. Beim Zusammenführen dieser Daten dienen Zusammenführungsrichtlinien als Regeln, mit denen bestimmt wird, wie Daten priorisiert werden und welche Daten kombiniert werden sollen, um eine Übersicht zu erstellen.
 
-Weitere Informationen zu **Zusammenführungsrichtlinien** finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target=&quot;_blank&quot;}.
+Weitere Informationen zu **Zusammenführungsrichtlinien** finden Sie in dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}.
 
 **Siehe auch**
 
-* [Dokumentation zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target=&quot;_blank&quot;}
-* [Übersichtsvideo zu Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target=&quot;_blank&quot;}
+* [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de){target="_blank"}
+* [Video Übersicht über das Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}

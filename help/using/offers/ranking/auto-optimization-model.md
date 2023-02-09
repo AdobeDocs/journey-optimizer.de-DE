@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1365'
+ht-degree: 95%
 
 ---
 
@@ -29,17 +29,17 @@ Die Verwendung von Modellen für die automatische Optimierung beim Entscheidungs
 
 Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
-* **Multi-Armed Bandit**: Eine [Multi-Armed Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target=&quot;_blank&quot;}-Vorgehensweise („Mehrarmiger Bandit“) bei der Optimierung entspricht einem Balanceakt zwischen forschendem Lernen und der Verwertung des Gelernten.
+* **Multi-Armed Bandit**: A [Multi-Armed Bandit](https://de.wikipedia.org/wiki/Mehrarmiger_Bandit){target="_blank"} -Ansatz zur Optimierung gleicht forschendes Lernen und die Nutzung dieses Lernens aus.
 
 * **Thompson-Stichprobenverfahren**: Das Thompson-Stichprobenverfahren ist ein Algorithmus für Online-Entscheidungsprobleme, bei dem sequenziell Maßnahmen getroffen werden, die einen Ausgleich herstellen müssen zwischen der Nutzung dessen, was bekannt ist, um die sofortige Leistung zu maximieren, und Investitionen zur Sammlung neuer Informationen, die die zukünftige Leistung verbessern können. [Weitere Informationen](#thompson-sampling)
 
-* [**Beta-Verteilung**](https://de.wikipedia.org/wiki/Beta-Verteilung){target=&quot;_blank&quot;}: Satz von stetigen [Wahrscheinlichkeitsverteilungen](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target=&quot;_blank&quot;}, die im Intervall [0, 1] definiert sind und durch zwei positive [Formparameter](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;} [parametrisiert](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target=&quot;_blank&quot;} werden.
+* [**Beta-Distribution**](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}: Set of continuous [probability distributions](https://de.wikipedia.org/wiki/Wahrscheinlichkeitsma%C3%9F){target="_blank"} defined on the interval [0, 1] [parameterized](https://de.wikipedia.org/wiki/Parameter_(Statistik)){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Thompson-Stichprobenverfahren {#thompson-sampling}
 
 Der Algorithmus, der der automatischen Optimierung zugrunde liegt, ist das **Thompson-Stichprobenverfahren**. In diesem Abschnitt besprechen wir die Idee hinter dem Thompson-Stichprobenverfahren.
 
-Beim [Thompson-Stichprobenverfahren](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}, oder Bayes&#39;sche Banditen, handelt es sich um einen Bayes&#39;schen Ansatz für das Multi-Armed-Bandit-Problem.  Die Grundidee besteht darin, die durchschnittliche Belohnung von jedem Angebot als **Zufallsvariable** zu behandeln und die bisher gesammelten Daten zu verwenden, um unsere „Überzeugung“ über die durchschnittliche Belohnung zu aktualisieren. Diese „Überzeugung“ wird mathematisch durch eine **A-posteriori-Wahrscheinlichkeitsverteilung** dargestellt – im Prinzip eine Reihe von Werten für die durchschnittliche Belohnung gemeinsam mit der Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
+[Thompson-Sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}- bzw. Bayes-Bandits - ist ein Bayes-Ansatz für das Multi-Armed Bandit-Problem.  Die Grundidee besteht darin, die durchschnittliche Belohnung von jedem Angebot als **Zufallsvariable** zu behandeln und die bisher gesammelten Daten zu verwenden, um unsere „Überzeugung“ über die durchschnittliche Belohnung zu aktualisieren. Diese „Überzeugung“ wird mathematisch durch eine **A-posteriori-Wahrscheinlichkeitsverteilung** dargestellt – im Prinzip eine Reihe von Werten für die durchschnittliche Belohnung gemeinsam mit der Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
 
 Dieser Vorgang wird in der folgenden Abbildung veranschaulicht, in der wir drei verschiedene Angebote haben. Anfänglich haben wir keine Erkenntnisse aus den Daten und nehmen an, dass alle Angebote eine einheitliche A-posteriori-Belohnungsverteilung haben. Wir ziehen eine Stichprobe aus der A-posteriori-Belohnungsverteilung eines jeden Angebots. Die aus der Verteilung von Angebot 2 ausgewählte Stichprobe hat den höchsten Wert. Dies ist ein Beispiel für eine **Exploration**. Nach der Anzeige von Angebot 2 erfassen wir jede potenzielle Belohnung (z. B. Konversion/Keine Konversion) und aktualisieren die A-posteriori-Verteilung von Angebot 2 mithilfe des Satzes von Bayes, wie unten beschrieben.  Wir setzen diesen Prozess fort und aktualisieren die A-posteriori-Verteilungen jedes Mal, wenn ein Angebot angezeigt und die Belohnung erfasst wird. In der zweiten Abbildung wird Angebot 3 ausgewählt. Obwohl Angebot 1 die höchste durchschnittliche Belohnung hat (die A-posteriori-Belohnungsverteilung ist am weitesten rechts), hat der Prozess der Stichprobenziehung aus jeder Verteilung dazu geführt, dass wir das scheinbar suboptimale Angebot 3 ausgewählt haben. Damit geben wir uns die Möglichkeit, mehr über die wahre Belohnungsverteilung von Angebot 3 zu erfahren.
 
@@ -71,7 +71,7 @@ Die automatische Optimierung ist so konzipiert, dass binäre Belohnungen (Klick/
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-Die Wahrscheinlichkeitsfunktion wird, wie oben erläutert, durch eine Binomialverteilung modelliert, mit s Erfolgen (Konvertierungen) und f Misserfolgen (keine Konvertierungen), und q ist eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target=&quot;_blank&quot;} mit einer [Beta-Verteilung](https://de.wikipedia.org/wiki/Beta-Verteilung){target=&quot;_blank&quot;}.
+Die oben erläuterte Funktion &quot;Wahrscheinlichkeit&quot;wird von einer Binomial-Distribution modelliert, deren Erfolge (Konversionen) und Fehler (keine Konversionen) vorliegen und q eine [Zufallsvariable](https://de.wikipedia.org/wiki/Zufallsvariable){target="_blank"} with a [beta distribution](https://de.wikipedia.org/wiki/Beta-Verteilung){target="_blank"}.
 
 Der Prior wird von der Beta-Verteilung modelliert und die A-posteriori-Verteilung hat die folgende Form:
 
@@ -85,8 +85,8 @@ Für die automatische Optimierung beginnen wir, wie im Beispiel oben gezeigt, mi
 **Verwandte Themen**:
 
 Um einen tieferen Einblick in das Thompson-Stichprobenverfahren zu erhalten, lesen Sie die folgenden Forschungsarbeiten:
-* [Eine empirische Bewertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [Analyse des Thompson-Stichprobenverfahrens für das Multi-Armed-Bandit-Problem](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Eine empirische Bewertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Analyse des Thompson-Stichprobenverfahrens für das Multi-Armed-Bandit-Problem](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## „Kaltstart“-Problem {#cold-start}
 

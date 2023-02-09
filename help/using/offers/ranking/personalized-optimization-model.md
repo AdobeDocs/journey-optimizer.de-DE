@@ -35,7 +35,7 @@ Wenn eine Bank beispielsweise zwei Kreditkarten anbietet, deren einziger Untersc
 
 ## Funktionsweise {#how}
 
-Die automatische Personalisierung lernt komplexe Wechselwirkungen zwischen Angeboten, Informationen über Benutzende und kontextbezogene Informationen, um Endbenutzenden personalisierte Angebote zu empfehlen. Funktionen werden durch Eingaben in das Modell verfügbar.
+Die automatische Personalisierung lernt komplexe Wechselwirkungen zwischen Angeboten, Informationen über Benutzende und kontextuelle Informationen, um Endbenutzenden personalisierte Angebote zu empfehlen. Funktionen werden durch Eingaben in das Modell verfügbar.
 
 Es gibt drei Arten von Funktionen:
 

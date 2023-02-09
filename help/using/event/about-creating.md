@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Im Folgenden finden Sie die ersten Schritte zum Konfigurieren eines neuen Ereign
 
 ## Definieren der Payload-Felder {#define-the-payload-fields}
 
-Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+Mit der Payload-Definition können Sie die Informationen auswählen, die das System vom Ereignis in Ihrer Journey erwartet, sowie den Schlüssel zum Identifizieren der mit dem Ereignis verbundenen Person. Die Payload basiert auf der Experience Cloud-XDM-Felddefinition. Weitere Informationen zu XDM finden sich in der [Adobe Experience Platform Launch-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
 1. Wählen Sie ein XDM-Schema aus der Liste aus und klicken Sie auf das Feld **[!UICONTROL Felder]** oder das Symbol **[!UICONTROL Bearbeiten]**.
 

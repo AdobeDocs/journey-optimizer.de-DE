@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Limits und Einschränkungen von Journey Optimizer
-description: Weitere Informationen zu Limits bei Journey Optimizer
+title: Leitplanken und Einschränkungen von Journey Optimizer
+description: Weitere Informationen zu Leitplanken bei Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,37 +11,37 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Limits und Einschränkungen {#limitations}
+# Leitplanken und Einschränkungen {#limitations}
 
-Berechtigungen, Produktbeschränkungen und Leistungsgarantien finden Sie unter [Adobe Journey Optimizer-Produktbeschreibungsseite](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Berechtigungen, Produkteinschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-Beachten Sie auch die [Limits für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}.
+Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}.
 
-Unten finden Sie zusätzliche Limits und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
-## Beschränkungen bei Nachrichten {#message-guardrails}
+## Schutzmaßnahmen bei Nachrichten {#message-guardrails}
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
 
 
-## Beschränkungen beim Entscheidungs-Management {#offer-guardrails}
+## Schutzmaßnahmen beim Entscheidungs-Management {#offer-guardrails}
 
-Leistungsgarantien und statische Beschränkungen für Entscheidungen werden im Abschnitt [Produktbeschreibungsseite für Adobe Offer decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
+Die Leistung betreffende Leitplanken und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"} aufgeführt.
 
 
-## Beschränkungen bei Landingpages {#lp-guardrails}
+## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
 
 * Es kann nur eine einzige **Formular**-Komponente auf einer einzelnen primären Seite verwendet werden.
 * Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
-## Beschränkungen bei Journeys {#journeys-guardrails}
+## Schutzmaßnahmen bei Journeys {#journeys-guardrails}
 
 ### Allgemeine Aktionen {#general-actions-g}
 

@@ -10,7 +10,7 @@ level: Beginner
 keywords: Assets, Essentials, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
 

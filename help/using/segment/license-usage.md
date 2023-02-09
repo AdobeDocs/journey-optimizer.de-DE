@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 78%
 
 ---
 
@@ -25,10 +25,10 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 
 >[!NOTE]
 >
->Damit Sie das Dashboard anzeigen können, muss Ihnen die Berechtigung [Anzeigen des Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=de#available-permissions){target=&quot;_blank&quot;} gewährt worden sein.
+>Um das Dashboard anzeigen zu können, muss Ihnen die [Anzeigen des Dashboards zur Lizenznutzung](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=de#available-permissions){target="_blank"} Berechtigung.
 
 Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform:
 
-* [Überblick über das Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de){target=&quot;_blank&quot;}
-* [Genauere Informationen zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [Verfügbare Metriken](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#available-metrics){target=&quot;_blank&quot;}
+* [Übersicht über das Lizenzverwendungs-Dashboard](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de){target="_blank"}
+* [Dashboard zur Lizenznutzung](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#exploring-the-license-usage-dashboard){target="_blank"}
+* [Verfügbare Metriken](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=de#available-metrics){target="_blank"}

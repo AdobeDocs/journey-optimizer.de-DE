@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -161,7 +161,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="math.md#round-up">Aufrunden</a></td><td>Diese Funktion rundet eine Zahl auf.</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">Zu Hexadezimalzeichenfolge</a></td><td>konvertiert eine beliebige Zahl in ihren hexadezimalen String.</td>
+    <td><a href="math.md#to-hex-string">In hexadezimale Zeichenfolge</a></td><td>konvertiert eine beliebige Zahl in ihren hexadezimalen String.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">Zu Prozentwert</a></td><td>Diese Funktion wandelt eine Zahl in einen Prozentwert um.</td>
@@ -170,7 +170,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="math.md#to-precision">Zu Präzision</a></td><td>Diese Funktion wandelt eine Zahl mit der erforderlichen Präzision um.</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-string">Zeichenfolge</a></td><td>Diese Funktion konvertiert eine beliebige Zahl in die Zeichenfolgendarstellung. </td>
+        <td><a href="math.md#to-string">In Zeichenfolge</a></td><td>Diese Funktion konvertiert eine beliebige Zahl in die Zeichenfolgendarstellung. </td>
     </tr>
 </table>
 
