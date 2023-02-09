@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 55%
@@ -221,7 +221,7 @@ Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die **[
 
 Im Falle eines Ausfalls des Internet Service Providers (ISP) werden E-Mails fälschlicherweise als Hardbounces gekennzeichnet, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
 
-Um diese Adressen abzurufen, führen Sie eine spezifische Abfrage mit benutzerdefinierten Parametern aus, die auf dem Kontext des Ausfalls basieren. [Weitere Informationen finden Sie in diesem Beispiel](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+Um diese Adressen abzurufen, führen Sie eine spezifische Abfrage mit benutzerdefinierten Parametern aus, die auf dem Kontext des Ausfalls basieren. [Weitere Informationen finden Sie in diesem Beispiel](../data/datasets-query-examples.md#isp-outage-query).
 
 Sobald die betroffenen E-Mail-Adressen identifiziert wurden, filtern Sie die Unterdrückungsliste, um sie anzuzeigen. Wenn beispielsweise vom 11. November 2022 bis zum 13. November 2022 ein ISP-Ausfall auf der **test.com** -Domäne die zur Unterdrückungsliste hinzugefügten Adressen in diesem Zeitraum wie folgt filtern:
 
