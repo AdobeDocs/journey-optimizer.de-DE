@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 99%
@@ -413,10 +413,10 @@ ht-degree: 99%
 + Daten-Management {#data-management}
    + [Erste Schritte mit dem Daten-Management](using/data/gs-data.md)
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
+   + [Abfragen](using/data/get-started-queries.md)
    + Journey Optimizer-Datensätze {#datasets}
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
-   + [Abfragen](using/data/get-started-queries.md)
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}

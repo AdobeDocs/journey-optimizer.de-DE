@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 54%
+source-wordcount: '1488'
+ht-degree: 55%
 
 ---
 
@@ -219,16 +219,15 @@ Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die **[
 >
 >Gehen Sie beim Löschen von E-Mail-Adressen oder Domains mit besonderer Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
+Im Falle eines Ausfalls des Internet Service Providers (ISP) werden E-Mails fälschlicherweise als Hardbounces gekennzeichnet, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
 
-Im Falle eines Ausfalls des Internet Service Providers (ISP) können E-Mails fälschlicherweise als Hardbounces gekennzeichnet werden, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
+Um diese Adressen abzurufen, führen Sie eine spezifische Abfrage mit benutzerdefinierten Parametern aus, die auf dem Kontext des Ausfalls basieren. [Weitere Informationen finden Sie in diesem Beispiel](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-Filtern Sie dazu die Unterdrückungsliste, um die betroffenen E-Mail-Adressen oder Domänen anzuzeigen. Wenn beispielsweise vom 11. November 2022 bis zum 13. November 2022 ein ISP-Ausfall auf der **test.com** -Domäne die zur Unterdrückungsliste hinzugefügten Adressen in diesem Zeitraum wie folgt filtern:
+Sobald die betroffenen E-Mail-Adressen identifiziert wurden, filtern Sie die Unterdrückungsliste, um sie anzuzeigen. Wenn beispielsweise vom 11. November 2022 bis zum 13. November 2022 ein ISP-Ausfall auf der **test.com** -Domäne die zur Unterdrückungsliste hinzugefügten Adressen in diesem Zeitraum wie folgt filtern:
 
 ![](assets/remove-from-supp-list.png)
 
-Je nach Details des Ausfalls müssen Sie außerdem einen Filter für den Bounce-Typ hinzufügen. Diese Details werden vom ISP bereitgestellt, z. B. der genaue Fehlercode, der an den Absender zurückgegeben wird. Beispiel: `550 <email address> recipient rejected` oder `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Nach der Identifizierung können diese Adressen mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
+Sie können dann unter Quarantäne gestellte E-Mail-Adressen aus der Unterdrückungsliste entfernen, indem Sie die **[!UICONTROL Löschen]** Schaltfläche.
 
 ## Herunterladen der Unterdrückungsliste {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Nach der Identifizierung können diese Adressen mithilfe der **[!UICONTROL Lösc
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Gehen Sie wie folgt vor, um die Unterdrückungsliste als CSV-Datei zu exportieren:
