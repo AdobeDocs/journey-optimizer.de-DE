@@ -12,7 +12,7 @@ exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Das Format dieser Authentifizierung ist:
 
 Sie können die Aufbewahrungsfrist des Tokens im Cache für eine benutzerdefinierte Authentifizierungsdatenquelle ändern. Nachstehend finden Sie ein Beispiel für eine benutzerdefinierte Authentifizierungs-Payload. Die Aufbewahrungsfrist im Cache wird im Parameter „cacheDuration“ definiert. Sie gibt die Aufbewahrungsdauer des generierten Tokens im Cache an. Die Einheit kann Millisekunden, Sekunden, Minuten, Stunden, Tage, Monate oder Jahre sein.
 
-Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp des Inhabers:
+Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 ```
 {
@@ -205,7 +205,7 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp des Inhabers
 >
 >Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
 
-Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Kopfzeile:
+Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 
 ```
 {
@@ -228,7 +228,7 @@ Im Folgenden finden Sie ein Beispiel für den Authentifizierungstyp der Kopfzeil
 } 
 ```
 
-Im Folgenden finden Sie ein Beispiel für die Antwort des Anmelde-API-Aufrufs:
+Im Folgenden finden Sie ein Beispiel für die Antwort des Anmeldungs-API-Aufrufs:
 
 ```
 {

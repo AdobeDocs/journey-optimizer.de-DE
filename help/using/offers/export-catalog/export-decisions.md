@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** profileConstraints 
 **Titel:** Profilbegrenzung 
 **Beschreibung:** Die Profilbegrenzung bestimmt, ob eine Option in diesem Kontext für diese Profil-ID geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
-**Typ: Objekt**
+**Typ**: Objekt
 
 +++
 
@@ -169,10 +169,10 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**Feld:** segmentIdentities
-**Titel:** Segment-IDs
-**Beschreibung:** Kennungen der Segmente.
-**Typ:** array
+**Feld:** segmentIdentities 
+**Titel:** Segmentkennungen 
+**Beschreibung:** Kennungen der Segmente 
+**Typ:** Array
 
 * Kennung
 
@@ -181,7 +181,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
    **Beschreibung:** Identität des Segments im betreffenden Namespace.
    **Typ:** Zeichenfolge
 
-* namespace
+* Namespace
 
    **Feld:** namespace
    **Titel:** Namespace
@@ -196,7 +196,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
       **Beschreibung:** Der Code ist eine von Menschen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
       **Typ:** Zeichenfolge
 
-* Erlebnis-ID
+* Erlebniskennung
 
    **Feld:** xid
    **Titel:** Erlebnis-ID

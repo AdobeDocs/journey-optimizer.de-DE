@@ -11,7 +11,7 @@ exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Gibt „true“ zurück
 ["foo", "bar", ""] has null
 ```
 
-Gibt &quot;false&quot;zurück, da &quot;&quot;nicht als null betrachtet wird.
+Gibt „false“ zurück, da &quot;&quot; nicht als null betrachtet wird.
 
 ### ==
 
@@ -433,13 +433,13 @@ Beispiel:
 "the current time is " + (now())
 ```
 
-Gibt &quot;die aktuelle Zeit ist 2019-09-23T09&quot;zurück:30:06.693 Z&quot;
+Gibt „Die aktuelle Zeit lautet 2019-09-23T09:30:06.693Z“ zurück.
 
 ```json
 (now()) + " is the current time"
 ```
 
-Gibt &quot;2019-09-23T09&quot;zurück:30:06.693Z ist die aktuelle Zeit&quot;
+Gibt „2019-09-23T09:30:06.693Z ist die aktuelle Zeit“ zurück.
 
 ```json
 "a" + "b" + "c" + 1234
@@ -463,22 +463,22 @@ Beispiel:
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Gibt eine _dateTime_ 12.12.2015 T15:30:30Z
+Gibt den _dateTime_-Wert 2011-12-03T15:30:30Z zurück.
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Gibt eine _dateTimeOnly_ 12.12.2015 T15:30:30
+Gibt den _dateTimeOnly_-Wert 2011-12-03T15:30:30 zurück.
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Gibt eine _dateTime_ (mit UTC-Zeitzone) eine Stunde später als die aktuelle Zeit
+Gibt einen _dateTime_-Wert (mit UTC-Zeitzone) eine Stunde später als die aktuelle Zeit zurück.
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Gibt eine _duration_ PT2H
+Gibt eine _Dauer_ PT2H zurück.

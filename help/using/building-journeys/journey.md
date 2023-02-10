@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
-Adobe Journey Optimizer verwenden, um personalisierte Journeys aus einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren. Die wichtigsten Schritte zum Erstellen einer Journey sind:
+Verwenden Sie Adobe Journey Optimizer, um personalisierte Journeys auf einer einzigen Arbeitsfläche zu entwerfen und zu orchestrieren. Die wichtigsten Schritte zum Erstellen einer Journey sind wie folgt:
 
 ![](assets/journey-creation-process.png)
 

@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 55%
+ht-degree: 60%
 
 ---
 
@@ -182,13 +182,13 @@ Verwenden Sie die **[!UICONTROL Letzte Uploads]** -Schaltfläche, um den Status 
 
 Mögliche Status sind:
 
-* **[!UICONTROL Ausstehend]**: Der Datei-Upload wird durchgeführt.
-* **[!UICONTROL Fehler]**: Der Datei-Upload-Prozess ist aufgrund eines technischen Problems oder eines Dateiformatfehlers fehlgeschlagen.
+* **[!UICONTROL Ausstehend]**: Der Datei-Upload wird ausgeführt.
+* **[!UICONTROL Fehler]**: Der Datei-Upload-Vorgang ist aufgrund eines technischen Problems oder eines Dateiformatfehlers fehlgeschlagen.
 * **[!UICONTROL Fertig]**: Der Datei-Upload-Vorgang wurde erfolgreich abgeschlossen.
 
-Wenn beim Hochladen einige Adressen nicht das richtige Format aufweisen, werden sie nicht zum [!DNL Journey Optimizer] Unterdrückungsliste.
+Wenn beim Hochladen einige Adressen nicht das richtige Format aufweisen, werden sie nicht zur [!DNL Journey Optimizer]-Unterdrückungsliste hinzugefügt.
 
-Wenn der Upload abgeschlossen ist, wird er in diesem Fall mit einem Bericht verknüpft. Sie können es herunterladen, um die aufgetretenen Fehler zu überprüfen<!-- and understand why they were not added to the suppression list-->.
+Wenn der Upload abgeschlossen ist, wird er in diesem Fall mit einem Bericht verknüpft. Sie können ihn herunterladen, um die aufgetretenen Fehler zu überprüfen<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 

@@ -12,7 +12,7 @@ exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-Die **[!DNL Decisioning manager]** Das Produktprofil ermöglicht nur den Zugriff auf **[!UICONTROL Entscheidungsmanagement]** Menü. Benutzer, die diesem Produktprofil zugewiesen sind, können nur Entscheidungen verwalten, anzeigen und veröffentlichen.
+Das Produktprofil von **[!DNL Decisioning manager]** ermöglicht nur den Zugriff auf das Menü des **[!UICONTROL Entscheidungs-Managements]**. Benutzer, die diesem Produktprofil zugewiesen sind, können nur Entscheidungen verwalten, anzeigen und veröffentlichen.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
@@ -134,10 +134,12 @@ Dieses Produktprofil umfasst folgende Berechtigungen:
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
-Die **[!DNL Content Library Manager]** Das Produktprofil ermöglicht nur den Zugriff auf **[!UICONTROL Inhaltsvorlagen]** Menü. Benutzer, die diesem Produktprofil zugewiesen sind, können nur auf die Vorlagenbibliothek zugreifen, um Inhalte zu erstellen, ohne auf die Journey oder Kampagnen zugreifen zu müssen.
+Das Produktprofil von **[!DNL Content Library Manager]** ermöglicht nur den Zugriff auf das Menü der **[!UICONTROL Inhaltsvorlagen]**. Benutzende, die diesem Produktprofil zugewiesen sind, können nur auf die Vorlagenbibliothek zugreifen, um Inhalte zu erstellen, ohne auf die Journeys oder Kampagnen zugreifen zu können.
 
 Dieses Produktprofil umfasst folgende Berechtigungen:
 
-| Funktion | Berechtigungen| |-|-| |Journey Optimizer-Bibliothek| <ul><li>**[!DNL Manage library items]**: Journey Optimizer-Bibliothekselemente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage simulate content]**: Zugang zu **[!UICONTROL Inhalt simulieren]** für Vorschau und Testversand.</li></ul>|
+| Funktion | Berechtigungen| 
+|-|-| 
+|Journey Optimizer-Bibliothek| <ul><li>**[!DNL Manage library items]**: Journey Optimizer-Bibliothekselemente lesen, erstellen, bearbeiten und löschen.</li><li>**[!DNL Manage simulate content]**: Zugriff auf die Option **[!UICONTROL Inhalt simulieren]** für Vorschau und Testversand.</li></ul>|
 |Entscheidungs-Management|<ul><li>**[!DNL Manage decisions]**: Lesen, Erstellen, Bearbeiten und Löschen von Entscheidungsentitäten.</li><li>**[!DNL Manage ranking strategies]**: Lesen, Erstellen, Bearbeiten und Löschen von benutzerdefinierten Berichten und Verwenden von Aktionsfunktionen.</li></ul>|
 |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: Lesen, Erstellen, Bearbeiten und Löschen von Segmenten.</li><li>**[!DNL Manage profiles]**: Lesen, Erstellen, Bearbeiten und Löschen von Profilen.</li><li>**[!DNL Read datasets]**: Nur-Lese-Zugriff auf Datensätze.</li><li>**[!DNL Read schemas]**: Nur-Lese-Zugriff auf Schemas.</li><li>**[!DNL Manage merge policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Zusammenführungsrichtlinien.</li></ul>|

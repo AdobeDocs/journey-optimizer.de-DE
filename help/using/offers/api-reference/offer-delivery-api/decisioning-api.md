@@ -9,7 +9,7 @@ exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 80ec1fb3f179a78526fcbee103466b3aeb5a9484
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -202,12 +202,12 @@ In der folgenden Tabelle sind alle Codes aufgeführt, die in der Antwort zurück
 | Code | Beschreibung |
 |  ---  |  ---  |
 | 200 | Erfolgreich. Die Entscheidung wurde für bestimmte Tätigkeiten getroffen |
-| 400 | Ungültiger Anforderungsparameter. Die Anfrage kann vom Server aufgrund einer fehlerhaften Syntax nicht verstanden werden. |
+| 400 | Ungültiger Anfrageparameter. Die Anfrage kann vom Server aufgrund einer fehlerhaften Syntax nicht verstanden werden. |
 | 403 | Verbotene, unzureichende Berechtigungen. |
-| 422 | Nicht verarbeitbare Entität. Die Anforderungssyntax ist jedoch aufgrund von semantischen Fehlern korrekt, sodass sie nicht verarbeitet werden kann. |
-| 429 | Zu viele Anfragen. Der Benutzer hat zu viele Anfragen innerhalb einer bestimmten Zeit gesendet. |
-| 500 | Interner Server-Fehler. Auf dem Server ist eine unerwartete Bedingung aufgetreten, die die Erfüllung der Anforderung verhinderte. |
-| 503 | Dienst aufgrund einer Serverüberlastung nicht verfügbar. Der Server kann die Anfrage aufgrund einer temporären Überlastung derzeit nicht verarbeiten. |
+| 422 | Nicht verarbeitbare Entität. Die Anfragesyntax ist korrekt, kann jedoch aufgrund von semantischen Fehlern nicht verarbeitet werden. |
+| 429 | Zu viele Anfragen. Der Benutzer oder die Benutzerin hat zu viele Anfragen innerhalb einer bestimmten Zeit gesendet. |
+| 500 | Interner Server-Fehler. Der Server ist auf eine unerwartete Bedingung gestoßen, die ihn daran hindert, die Anfrage zu bearbeiten. |
+| 503 | Dienst aufgrund einer Server-Überlastung nicht verfügbar. Der Server kann die Anfrage aufgrund einer temporären Überlastung derzeit nicht verarbeiten. |
 
 ## Anleitungsvideo {#video}
 

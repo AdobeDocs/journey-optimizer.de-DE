@@ -213,7 +213,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 **Feld:** profileConstraints 
 **Titel:** Profileinschränkungsdetails
 **Beschreibung:** Anhand der Profileinschränkung wird entschieden, ob in einem bestimmten Moment und Kontext für die jeweilige Profilidentität eine Option geeignet ist. Wenn die Profileinschränkung die Werte der einzelnen Optionen nicht berücksichtigen muss, d. h. sie gegenüber den Optionen aus der Optionsauswahl invariant ist, hebt die als „false“ ausgewertete Profileinschränkung die gesamte Optionsauswahl auf. Dagegen wird eine Profileinschränkungsregel, die eine Option als Parameter akzeptiert, für jede qualifizierte Option der Optionsauswahl ausgewertet.
-**Typ: Objekt**
+**Typ**: Objekt
 
 +++
 

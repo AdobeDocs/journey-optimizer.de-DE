@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die über Journey und Kampagnen hinweg für eine schnelle Wiederverwendung genutzt werden können.</p> 
+<p>Sie können jetzt eigenständige Inhaltsvorlagen erstellen, die schnell in Journeys und Kampagnen wiederverwendet werden können.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Erfahren Sie, wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">dieses Video</a>. Weitere Informationen finden Sie in der <a href="../email/content-templates.md">ausführlichen Dokumentation</a>.
+<p>Wie Sie Inhaltsvorlagen erstellen, bearbeiten und verwenden, erfahren Sie in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=de">diesem Video</a>. Weitere Informationen finden Sie in der <a href="../email/content-templates.md">ausführlichen Dokumentation</a>.
 </p>
 </td>
 </tr>

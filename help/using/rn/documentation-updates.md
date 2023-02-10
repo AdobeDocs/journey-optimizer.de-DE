@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,15 +17,15 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Februar 2023 {#feb-2023}
 
-* In der Dokumentation zu API-ausgelösten Kampagnen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die in die Anfrage übergebenen Kontextualattribute 50 KB nicht überschreiten dürfen. [Mehr dazu](../campaigns/api-triggered-campaigns.md#contextual)
+* In der Dokumentation zu API-ausgelösten Kampagnen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die in die Anfrage übergebenen kontextuellen Attribute 50 KB nicht überschreiten dürfen. [Mehr dazu](../campaigns/api-triggered-campaigns.md#contextual)
 
 * Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Zustimmungsdienstes** nachdem sich Empfänger über eine Landingpage abgemeldet haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januar 2023 {#jan-2023}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Januar wurde in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Januar 2023 sind in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Barrierefreiheitsfunktionen in [!DNL Journey Optimizer] sind nun auf einer eigenen Seite gruppiert. [Mehr dazu](../start/accessibility.md)
-* Eine neue Seite zur Datenverwaltung in wurde hinzugefügt. [!DNL Journey Optimizer]. [Mehr dazu](../data/gs-data.md)
+* Es wurde eine neue Seite zur Datenverwaltung in [!DNL Journey Optimizer] hinzugefügt. [Mehr dazu](../data/gs-data.md)
 * Es wurde eine Tabelle hinzugefügt, die alle Codes auflistet, die in der Antwort zurückgegeben werden können, wenn Angebote mithilfe der Decisioning-API bereitgestellt werden. [Mehr dazu](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## Dezember 2022 {#december-2022}

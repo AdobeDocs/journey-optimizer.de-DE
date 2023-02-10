@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -94,13 +94,13 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ### Eintritt{#entrance}
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die **Wiedereintritt erlauben** -Option für &quot;einen Schuss&quot;-Journey, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 -->
 
-Weitere Informationen zur Verwaltung des Profileintritts finden sich in [diesem Abschnitt](entry-management.md).
+Weitere Informationen zur Verwaltung des Profileintritts finden Sie in [diesem Abschnitt](entry-management.md).
 
 ### Verwalten des Zugriffs {#access}
 
@@ -118,7 +118,7 @@ Wenn eine Zeitzone im Adobe Experience Platform-Profil definiert ist, kann sie i
 
 Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../building-journeys/timezone-management.md).
 
-### Start- und Enddaten {#dates}
+### Start- und Enddatum {#dates}
 
 <!--
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
@@ -126,7 +126,7 @@ You can define a **Start date**. If you haven't specified one, it will be automa
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
 
-Sie können eine **Startdatum**. Sie können auch eine **Enddatum**. Dadurch können Profile beim Erreichen des Datums automatisch beendet werden. Wenn Sie kein Enddatum angeben, können Profile bis zum standardmäßigen Journey-Timeout beibehalten werden.
+Sie können ein **Startdatum** festlegen. Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn Sie kein Enddatum angeben, können Profile bis zum standardmäßigen Journey-Timeout beibehalten werden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 

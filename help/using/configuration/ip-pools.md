@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,15 +62,15 @@ Gehen Sie wie folgt vor, um einen IP-Pool zu erstellen:
    >
    >Alle mit Ihrer Instanz bereitgestellten IP-Adressen sind in der Liste verfügbar.
 
-Bei der Auswahl von IPs können Sie aus der Liste die mit den IPs verknüpften PTR-Datensätze sehen. Auf diese Weise können Sie die Branding-Informationen für jede IP-Adresse überprüfen, wenn Sie einen IP-Pool erstellen, und IPs auswählen, die beispielsweise dieselben Branding-Informationen enthalten. [Weitere Informationen zu PTR-Einträgen](ptr-records.md)
+Bei der Auswahl von IPs können Sie in der Liste die mit den IPs verknüpften PTR-Einträge sehen. Auf diese Weise können Sie die Branding-Informationen für jede IP-Adresse überprüfen, wenn Sie einen IP-Pool erstellen, und beispielsweise IPs auswählen, die dieselben Branding-Informationen enthalten. [Weitere Informationen zu PTR-Einträgen](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->Wenn für eine IP kein PTR-Datensatz konfiguriert ist, können Sie diese IP nicht auswählen. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um den PTR-Datensatz dieser IP-Adresse zu konfigurieren.
+>Wenn für eine IP kein PTR-Eintrag konfiguriert ist, können Sie diese IP nicht auswählen. Wenden Sie sich an den Adobe-Support, um den PTR-Eintrag dieser IP-Adresse zu konfigurieren.
 
-Nachdem ein IP-Pool erstellt wurde, werden PTR-Informationen angezeigt, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unter der Dropdown-Liste für IP-Pools angezeigt werden.
+Nachdem ein IP-Pool erstellt wurde, werden PTR-Informationen angezeigt, wenn Sie den Mauszeiger über die IP-Adressen bewegen, die unterhalb der Dropdown-Liste für IP-Pools angezeigt werden.
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 

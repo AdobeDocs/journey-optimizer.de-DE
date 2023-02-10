@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Klicken Sie auf das Drei-Punkt-Menü neben einer Landingpage, um die gewünschte
 >abstract="Zum Schutz sensibler digitaler Assets können Sie mithilfe von Kennzeichnungen Berechtigungen definieren, um den Datenzugriff auf Ihre Landingpage zu verwalten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=de" text="Zugriffssteuerung auf Objektebene"
 
-Die wichtigsten Schritte zum Erstellen von Landingpages sind:
+Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
 ![](assets/lp-creation-process.png)
 

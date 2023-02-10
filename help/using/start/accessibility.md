@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Barrierefreiheitsfunktionen in Journey Optimizer
-description: Erfahren Sie mehr über die Barrierefreiheit in der Journey Optimizer-Benutzeroberfläche
+title: Funktionen zur Barrierefreiheit in Journey Optimizer
+description: Weitere Informationen zur Barrierefreiheit in der Benutzeroberfläche von Journey Optimizer
 feature: Accessibility
 role: User
 level: Beginner
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Barrierefreiheit in Journey Optimizer{#accessibility}
 
-Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Erfahren Sie mehr über das Engagement der Adobe für Barrierefreiheit im [Adobe Accessibility page](https://www.adobe.com/accessibility.html){target="_blank"}.
+Barrierefreiheit bezieht sich auf eine Reihe von Funktionen, die ein Software-Produkt mit möglichst wenig Aufwand für Benutzer mit visuellen, auditiven, kognitiven, motorischen oder anderen Beeinträchtigungen nutzbar machen. Adobe ist ein branchenführendes Unternehmen im Bereich der Barrierefreiheit und unterstützt die Erstellung herausragender Web-Erlebnisse, indem es Entwickler ermutigt, ansprechende, für alle Benutzer zugängliche Inhalte zu erstellen. Erfahren Sie mehr über das Engagement von Adobe für Barrierefreiheit auf der [Adobe-Seite zu Barrierefreiheit](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Um das Ziel der Barrierefreiheit zu erreichen, [!DNL Journey Optimizer] befolgt die international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie auf der neuesten Seite [Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Um die Konformität mit den Regeln der Barrierefreiheit zu erreichen, folgt [!DNL Journey Optimizer] den international anerkannten Best Practices in den Web Content Accessibility Guidelines (WCAG) 2.1 Level A und Level AA. Weitere Informationen finden Sie im neuesten [Konformitätsbericht zur Barrierefreiheit in Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
 
 Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Adobe Experience Platform übernommen:
@@ -26,9 +26,9 @@ Die Barrierefreiheitsfunktionen in [!DNL Adobe Journey Optimizer] werden von Ado
 * Farbkontrast
 * Validierung von Pflichtfeldern
 
-Funktionen zur Barrierefreiheit in Adobe Experience Platform werden im Detail beschrieben. [in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target="_blank"}.
+Funktionen zur Barrierefreiheit in Adobe Experience Platform werden [in dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=de){target="_blank"} im Detail beschrieben.
 
-Die folgenden allgemeinen Tastaturbefehle sind in verfügbar: [!DNL Journey Optimizer]:
+Die folgenden gängigen Tastaturbefehle sind in [!DNL Journey Optimizer] verfügbar:
 
 | Aktion | Tastaturbefehl |
 | --- | --- |
@@ -38,7 +38,7 @@ Die folgenden allgemeinen Tastaturbefehle sind in verfügbar: [!DNL Journey Opti
 | Auswählen oder Löschen eines Element, das sich im Fokus befindet | Eingabetaste oder Leertaste |
 | Eine Auswahl aufheben, einen Bereich zuklappen oder ein Dialogfeld schließen | Esc |
 
-Sie können diese Verknüpfungen in bestimmten Bereichen von [!DNL Journey Optimizer] Benutzeroberfläche:
+Sie können diese Tastaturbefehle in bestimmten Bereichen der Benutzeroberfläche von [!DNL Journey Optimizer] verwenden:
 
 <table>
   <thead>

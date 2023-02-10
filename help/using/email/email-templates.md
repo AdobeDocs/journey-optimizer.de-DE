@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 18%
+ht-degree: 86%
 
 ---
 
@@ -24,40 +24,40 @@ ht-degree: 18%
 >abstract="Wählen Sie zum Erstellen Ihres E-Mail-Inhalts eine Vorlage aus, die neu erstellt oder als Vorlage aus einer E-Mail gespeichert wurde."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Erstellen von Inhaltsvorlagen"
 
-Aus dem **[!UICONTROL E-Mail erstellen]** -Bildschirm verwenden, verwenden Sie die **[!UICONTROL Designvorlage auswählen]** -Abschnitt, um Ihren Inhalt aus einer Vorlage zu erstellen.
+Verwenden Sie auf dem Bildschirm **[!UICONTROL E-Mail erstellen]** den Abschnitt **[!UICONTROL Design-Vorlage auswählen]**, um Ihren Inhalt aus einer Vorlage zu erstellen.
 
 ![](assets/email_designer-templates.png)
 
 Sie können aus folgenden Optionen wählen:
 
-* **Beispielvorlagen**. Die [!DNL Journey Optimizer] -Benutzeroberfläche bietet 20 vordefinierte E-Mail-Vorlagen, aus denen Sie wählen können.
+* **Beispielvorlagen**. Die [!DNL Journey Optimizer]-Benutzeroberfläche bietet 20 vordefinierte E-Mail-Vorlagen, aus denen Sie wählen können.
 
 * **Gespeicherte Vorlagen**. Sie können auch eine benutzerdefinierte Vorlage verwenden, die Sie entweder:
 
-   * Erstellt von Grund auf mit der **[!UICONTROL Inhaltsvorlagen]** Menü. [Weitere Informationen](content-templates.md#create-template-from-scratch)
+   * von Grund auf mit dem Menü **[!UICONTROL Inhaltsvorlagen]** erstellt haben. [Weitere Informationen](content-templates.md#create-template-from-scratch)
 
-   * Gespeichert aus einer E-Mail in einer Journey oder einer Kampagne mithilfe der **[!UICONTROL Als Inhaltsvorlage speichern]** -Option. [Weitere Informationen](content-templates.md#save-as-template)
+   * mithilfe der Option **[!UICONTROL Als Inhaltsvorlage speichern]** aus einer E-Mail in einer Journey oder einer Kampagne gespeichert haben. [Weitere Informationen](content-templates.md#save-as-template)
 
-Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der Beispielvorlagen oder gespeicherten Vorlagen zu beginnen.
+Gehen Sie wie folgt vor, um mit einer der Beispielvorlagen oder der gespeicherten Vorlagen mit der Erstellung Ihres Inhalts zu beginnen.
 
-1. [Zugriff auf Email Designer](get-started-email-design.md) aus der E-Mail **[!UICONTROL Inhalt bearbeiten]** angezeigt.
+1. [Greifen Sie auf den E-Mail-Designer zu](get-started-email-design.md) über den Bildschirm **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Im **[!UICONTROL E-Mail erstellen]** -Bildschirm, die **[!UICONTROL Beispielvorlagen]** ist standardmäßig ausgewählt.
+1. Auf dem Bildschirm **[!UICONTROL E-Mail erstellen]** ist standardmäßig die Registerkarte **[!UICONTROL Beispielvorlagen]** ausgewählt.
 
-1. Um eine benutzerdefinierte Vorlage zu verwenden, navigieren Sie zum **[!UICONTROL Gespeicherte Vorlagen]** Registerkarte.
+1. Um eine benutzerdefinierte Vorlage zu verwenden, navigieren Sie zur Registerkarte **[!UICONTROL Gespeicherte Vorlagen]**.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Die Liste aller [Inhaltsvorlagen](content-templates.md#create-content-templates) wird in der aktuellen Sandbox erstellt. Sie können sie nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
+1. Die Liste aller [Inhaltsvorlagen](content-templates.md#create-content-templates), die in der aktuellen Sandbox erstellt wurden, wird angezeigt. Sie können sie nach **[!UICONTROL Name]**, **[!UICONTROL Zuletzt geändert]** und **[!UICONTROL Zuletzt erstellt]** sortieren.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
 1. Wählen Sie aus der Liste die gewünschte Vorlage aus.
 
-1. Nach der Auswahl können Sie mithilfe der Rechts- und Linkspfeile zwischen allen Vorlagen einer Kategorie (Beispiel oder je nach Auswahl gespeichert) navigieren.
+1. Nach der Auswahl können Sie mit Pfeil nach rechts und nach links zwischen allen Vorlagen einer Kategorie (Beispielvorlage oder gespeicherte Vorlagen, je nach Ihrer Auswahl) navigieren.
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Klicken **[!UICONTROL Verwenden Sie diese Vorlage]** oben rechts auf dem Bildschirm.
+1. Klicken Sie oben rechts auf dem Bildschirm auf **[!UICONTROL Diese Vorlage verwenden]**.
 
-1. Bearbeiten Sie den Inhalt nach Bedarf mit Email Designer.
+1. Bearbeiten Sie die Inhalte nach Bedarf mit dem E-Mail-Designer.

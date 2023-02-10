@@ -10,7 +10,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Zum Anzeigen und Exportieren des Auditprotokolls benötigen Sie die **[!DNL View User Activity Log]** Genehmigung erteilt. [Weitere Informationen](../administration/ootb-product-profiles.md)
+>Zum Anzeigen und Exportieren des Auditprotokolls benötigen Sie die Genehmigung **[!DNL View User Activity Log]**. [Weitere Informationen](../administration/ootb-product-profiles.md)
 
 Mit Journey Optimizer können Sie die von den Nutzern im System durchgeführten Aktionen für verschiedene Services und Funktionen wie Journeys, Nachrichten, Landingpages usw. ermitteln.
 
 So können Sie die Sichtbarkeit der im System durchgeführten Aktivitäten erhöhen, Probleme beheben und Ihr Unternehmen bei der Einhaltung von Vorschriften und Unternehmensrichtlinien zur Datenverwaltung unterstützen.
 
-Jede Aktion wird mit Metadaten in „Audit-Protokollen“ aufgezeichnet, die in Adobe Experience Platform zugänglich sind. Weiterführende Informationen zu Prüfprotokollen, einschließlich ihrer Anzeige und Verwaltung in der Benutzeroberfläche oder API, finden Sie im Abschnitt [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de).
+Jede Aktion wird mit Metadaten in „Audit-Protokollen“ aufgezeichnet, die in Adobe Experience Platform zugänglich sind. Weiterführende Informationen zu Audit-Protokollen, einschließlich ihrer Anzeige und Verwaltung in der Benutzeroberfläche oder API, finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=de).
 
 ![](assets/audit-logs.png)
 
