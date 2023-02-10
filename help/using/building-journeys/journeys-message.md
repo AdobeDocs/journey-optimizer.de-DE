@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 85%
 
 ---
 
@@ -125,3 +125,15 @@ Aktivieren Sie die Versandzeitpunktoptimierung für eine E-Mail oder Push-Benach
 Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobuttons aus, ob die E-Mail-Öffnungen oder die E-Mail-Click-Throughs optimiert werden sollen. Bei Push-Benachrichtigungen wird standardmäßig die Option „Öffnungen“ verwendet, da Klicks für Push-Benachrichtigungen zutreffen.
 
 Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert „sechs Stunden“ wählen, prüft [!DNL Journey Optimizer] jedes Benutzerprofil und wählt den optimalen Versandzeitpunkt innerhalb von sechs Stunden ab der Journey-Ausführungszeit aus.
+
+**Was passiert, wenn die optimale Zeit außerhalb des Fensters liegt?**
+
+Nehmen wir ein Beispiel mit der folgenden Einrichtung:
+
+* Optimierung der Klicks
+* Die Aktion soll um 10 Uhr beginnen
+* Fenster ist 3 Stunden
+
+Ein Profil kann eine optimale Öffnungszeit haben, die außerhalb des Fensters liegt. Beispiel: John hat eine optimale Öffnung beim Klick um 17 Uhr.
+
+Auf Profilebene gibt es Werte für jede Stunde der Woche. In diesem Beispiel wird die E-Mail immer im Fenster gesendet. Zur Laufzeit überprüft das System die Liste der Bewertungen in diesem Fenster (3-Stunden-Fenster ab 10 Uhr). Das System vergleicht dann die Ergebnisse für 10, 11 und 12 Uhr und entscheidet, welche der drei am höchsten ist. Die E-Mail wird zu diesem Zeitpunkt gesendet.
