@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
+source-git-commit: 45d508b284c23235518fab37095413091208e497
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '828'
 ht-degree: 85%
 
 ---
@@ -134,6 +134,6 @@ Nehmen wir ein Beispiel mit der folgenden Einrichtung:
 * Die Aktion soll um 10 Uhr beginnen
 * Fenster ist 3 Stunden
 
-Ein Profil kann eine optimale Öffnungszeit haben, die außerhalb des Fensters liegt. Beispiel: John hat eine optimale Öffnung beim Klick um 17 Uhr.
+Ein Profil kann eine optimale Öffnungszeit haben, die außerhalb des Fensters liegt. Beispiel: John&#39;s optimale Öffnung beim Klick ist um 17 Uhr.
 
-Auf Profilebene gibt es Werte für jede Stunde der Woche. In diesem Beispiel wird die E-Mail immer im Fenster gesendet. Zur Laufzeit überprüft das System die Liste der Bewertungen in diesem Fenster (3-Stunden-Fenster ab 10 Uhr). Das System vergleicht dann die Ergebnisse für 10, 11 und 12 Uhr und entscheidet, welche der drei am höchsten ist. Die E-Mail wird zu diesem Zeitpunkt gesendet.
+Auf Profilebene gibt es Werte für jede Stunde der Woche. In diesem Beispiel wird die E-Mail immer im Fenster gesendet. Zur Laufzeit überprüft das System die Liste der Bewertungen in diesem Fenster (3-Stunden-Fenster ab 10 Uhr). Das System vergleicht dann die Bewertungen für 10, 11 und 12 und wählt die höchsten aus. Die E-Mail wird zu diesem Zeitpunkt gesendet.
