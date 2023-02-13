@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 86%
 
 ---
 
@@ -19,22 +19,18 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="SMS-Erstellung"
->abstract="Fügen Sie eine Textnachricht hinzu und beginnen Sie mit ihrer Personalisierung mithilfe des Ausdruckseditors."
+>title="Erstellen einer SMS-Nachricht"
+>abstract="Fügen Sie Ihre SMS-Nachricht hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
 
->[!NOTE]
->
->In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## SMS-Nachricht hinzufügen {#create-sms-journey-campaign}
 
-## Erstellen von SMS-Nachrichten in einer Journey oder Kampagne {#create-sms-journey-campaign}
-
-Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu beginnen:
+Auf den folgenden Registerkarten erfahren Sie, wie Sie eine SMS in einer Kampagne oder auf einer Journey hinzufügen.
 
 >[!BEGINTABS]
 
 >[!TAB Hinzufügen einer SMS-Nachricht zu einer Journey]
 
-1. Öffnen Sie die Journey und ziehen Sie eine SMS-Aktivität per Drag-and-Drop aus dem Bereich „Aktionen“ der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine SMS-Aktivität per Drag-and-Drop aus dem **Aktionen** in der Palette.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ Gehen Sie wie folgt vor, um mit der Personalisierung Ihrer SMS-Nachricht zu begi
 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
-Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken. [Gestalten von SMS-Inhalten](#sms-content)
+Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken. [Definieren Ihres SMS-Inhalts](#sms-content)
 
 >[!TAB Hinzufügen einer SMS-Nachricht zu einer Kampagne]
 
@@ -79,6 +75,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 >[!ENDTABS]
 
+
 ## Definieren Ihres SMS-Inhalts{#sms-content}
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu konfigurieren.
@@ -93,8 +90,13 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Verwandte Themen**
 
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
 * [SMS-Bericht](../reports/journey-global-report.md#sms-global)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)

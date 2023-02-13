@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-Konfiguration
+title: SMS-Kanal konfigurieren
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachrichten mit Journey Optimizer konfigurieren
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 91%
 
 ---
 
@@ -19,9 +19,14 @@ ht-degree: 100%
 
 Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [Provider-Einstellungen in Journey Optimizer integrieren](#create-api) und [eine SMS-Oberfläche (d. h. eine SMS-Voreinstellung) einrichten](#message-preset-sms). Diese Schritte müssen von einem [Adobe Journey Optimizer-Systemadministrator](../start/path/administrator.md) durchgeführt werden.
 
->[!IMPORTANT]
->
->Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch und Twilio integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Services anbieten.  Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Service-ID zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können. Ihre Nutzung von SMS-Services unterliegt zusätzlichen Bedingungen des jeweiligen SMS-Anbieters. Da Sinch und Twilio Drittanbieterprodukte sind, die Adobe Journey Optimizer-Benutzenden über eine Integration zur Verfügung stehen, müssen sich die Benutzenden von Sinch oder Twilio bei allen Fragen und Anfragen im Zusammenhang mit SMS-Services an den jeweiligen SMS-Anbieter wenden, um Unterstützung zu erhalten. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+## Voraussetzungen{#sms-prerequisites}
+
+Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch und Twilio integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Services anbieten.
+
+Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Service-ID zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können.
+
+Ihre Nutzung von SMS-Services unterliegt zusätzlichen Bedingungen des jeweiligen SMS-Anbieters. Da Sinch und Twilio Drittanbieterprodukte sind, die Adobe Journey Optimizer-Benutzenden über eine Integration zur Verfügung stehen, müssen sich die Benutzenden von Sinch oder Twilio bei allen Fragen und Anfragen im Zusammenhang mit SMS-Services an den jeweiligen SMS-Anbieter wenden, um Unterstützung zu erhalten. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich.
+
 
 ## Erstellen neuer API-Anmeldeinformationen {#create-api}
 
@@ -43,14 +48,20 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 
 Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfigurieren:
 
-1. Gehen Sie in das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL API-Anmeldeinformationen]** und klicken Sie auf **[!UICONTROL API-Anmeldeinformationen erstellen]**.
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie die **[!UICONTROL API-Anmeldeinformationen]** Menü. Klicken Sie auf **[!UICONTROL Erstellen neuer API-Anmeldeinformationen]** Schaltfläche.
 
    ![](assets/sms_6.png)
 
 1. Wählen Sie Ihren **[!UICONTROL SMS-Anbieter]**:
 
-   * [!DNL Sinch]. Greifen Sie über Ihren Sinch-Account auf das Menü „SMS“ > „APIs“ zu, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
-   * [!DNL Twilio]. Rufen Sie auf der Konsolen-Dashboard-Seite das Kontoinformationsfenster auf, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
+   * **[!DNL Sinch]**
+
+      Greifen Sie über Ihren Sinch-Account auf das Menü „SMS“ > „APIs“ zu, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
+
+   * **[!DNL Twilio]**
+
+      Rufen Sie auf der Konsolen-Dashboard-Seite das Kontoinformationsfenster auf, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
+
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihre API-Anmeldeinformationen ein.
 
@@ -62,7 +73,7 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.
 
-## Erstellen einer Kanaloberfläche für SMS-Nachrichten {#message-preset-sms}
+## Erstellen einer Kanaloberfläche {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
@@ -70,11 +81,11 @@ Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie j
 >abstract="Wählen Sie den SMS-Nachrichtentyp aus, der bei Verwendung dieser Oberfläche gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#sms-opt-out-management" text="Abmeldung von Marketing-SMS-Nachrichten"
 
-Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, um über **[!DNL Journey Optimizer]** SMS-Nachrichten senden zu können.
+Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, von der aus SMS-Nachrichten gesendet werden können **[!DNL Journey Optimizer]**.
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
-1. Rufen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]** auf, und klicken Sie dann auf **[!UICONTROL Kanaloberfläche erstellen]**.
+1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** und wählen Sie **[!UICONTROL Branding]** > **[!UICONTROL Kanaloberflächen]**. Klicken Sie auf **[!UICONTROL Kanaloberfläche erstellen]** Schaltfläche.
 
    ![](assets/preset-create.png)
 
@@ -86,7 +97,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    >
    > Namen müssen mit einem Buchstaben (A–Z) beginnen. Ein Name darf nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-` verwenden.
 
-1. Konfigurieren Sie die **SMS**-Einstellungen.
+1. Definieren Sie die **SMS-Einstellungen**.
 
    ![](assets/preset-sms.png)
 

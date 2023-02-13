@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Nachrichtenvorschau und Testversand
-description: Erfahren Sie, wie Sie Ihre Nachrichten in der Vorschau darstellen und testen können
+description: Erfahren Sie, wie Sie Ihre E-Mail in der Vorschau anzeigen und testen können
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Vorschau, Inhalt, E-Mail, Testversand, Test, Profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 100%
 
 ---
 
-# Nachrichtenvorschau und Testversand {#preview-and-proof}
+# Vorschau und Testversand von E-Mails {#preview-and-proof}
 
 Nachdem der Inhalt der E-Mail definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie [personalisierten Inhalt](../personalization/personalize.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 

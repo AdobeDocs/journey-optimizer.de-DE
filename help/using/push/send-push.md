@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Senden der Push-Benachrichtigung
+title: Vorschau erstellen und Push-Benachrichtigung testen
 description: Erfahren Sie, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer in der Vorschau anzeigen und testen können.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 77%
 
 ---
 
-# Senden der Push-Benachrichtigung {#send-push}
+# Vorschau erstellen und Push-Benachrichtigung testen {#send-push}
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie überprüfen, wie diese Inhalte in der Nachricht angezeigt werden, indem Sie Testprofildaten verwenden.
+Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
 1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
 
@@ -29,11 +29,9 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
    ![](assets/push_preview_1.png)
 
-1. Wenden Sie dieselben Schritte wie oben beschrieben an, um ein Testprofil auszuwählen, und
+1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie das Fenster **[!UICONTROL Testprofil hinzufügen]** schließen.
 
-   ![](assets/push_preview_2.png)
-
-1. Für die Push-Vorschau werden die Daten von Testprofilen im Nachrichteninhalt verwendet.
+1. Aus dem **Vorschau und Test** -Fenster werden dem Nachrichteninhalt Testprofildaten hinzugefügt.
 
    Wählen Sie den Gerätetyp aus, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
@@ -41,11 +39,8 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
 ## Validieren der Push-Benachrichtigung {#push-validate}
 
->[!NOTE]
->
-> Zur besseren Zustellbarkeit sollte stets die Telefonnummern in den vom Provider unterstützten Formaten verwendet werden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
 
-Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einige davon sind einfache Warnhinweise, andere können die Verwendung der Nachricht verhindern. Es können zwei Arten von Warnhinweisen auftreten:
+Warnhinweise müssen im oberen Abschnitt des Editors überprüft werden. Bei einigen handelt es sich um einfache Warnungen, bei anderen können Sie jedoch den Versand der Nachricht verhindern. Es können zwei Arten von Warnhinweisen auftreten: Warnungen und Fehler.
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices.
 
@@ -57,6 +52,22 @@ Sie müssen auch Warnhinweise im oberen Bereich des Editors überprüfen.  Einig
 
    * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](../push/create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-Wenn Ihre Push-Benachrichtigung bereit ist, schließen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) ab, um sie zu versenden.
+
+>[!NOTE]
+>
+> Zur besseren Zustellbarkeit sollte stets die Telefonnummern in den vom Provider unterstützten Formaten verwendet werden. Beispielsweise unterstützen Twilio und Sinch nur Telefonnummern im E.164-Format.
+
+## Senden der Push-Benachrichtigung{#push-send}
+
+Wenn Ihre Push-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) , um es zu versenden.
+
+**Verwandte Themen**
+
+* [Konfigurieren des Push-Kanals](push-configuration.md)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report.md#push-global)
+* [Erstellen einer Push-Benachrichtigung](create-push.md)
+* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)
+
