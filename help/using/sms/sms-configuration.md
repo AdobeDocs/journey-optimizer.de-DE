@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 91%
+source-wordcount: '733'
+ht-degree: 90%
 
 ---
 
@@ -131,3 +131,5 @@ Sie können jetzt mit Journey Optimizer SMS-Nachrichten senden.
 
 * [Erstellen einer SMS-Nachricht](create-sms.md)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)
+
