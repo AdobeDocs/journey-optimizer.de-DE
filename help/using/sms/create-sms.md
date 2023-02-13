@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '449'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 86%
 
 ## SMS-Nachricht hinzufügen {#create-sms-journey-campaign}
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie eine SMS in einer Kampagne oder auf einer Journey hinzufügen.
+Auf den folgenden Registerkarten erfahren Sie, wie Sie eine SMS-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, sowie z. B. Profilnamen oder Stadt. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. [Weitere Informationen](send-sms.md)
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
 
    ![](assets/sms-content-preview.png)
+
+Jetzt können Sie Ihre SMS testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 **Verwandte Themen**
 
+* [SMS-Vorschau, -Test und -Versand](send-sms.md)
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
 * [SMS-Bericht](../reports/journey-global-report.md#sms-global)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
