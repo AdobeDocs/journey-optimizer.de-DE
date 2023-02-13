@@ -23,7 +23,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhaltsexperiment"
->abstract="Sie können den Versandinhalt, den Betreff oder den Absender abwandeln, um mehrere Versandmethoden zu definieren und die beste Kombination für Ihre Audiences zu ermitteln."
+>abstract="Der Versandinhalt, der Betreff oder der Absender kann abgeändert werden, um mehrere Abwandlungen des Versands zu definieren und die beste Kombination für die Audiences zu ermitteln."
 
 >[!AVAILABILITY]
 >
