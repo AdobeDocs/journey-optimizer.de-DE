@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 90%
+source-wordcount: '790'
+ht-degree: 81%
 
 ---
 
@@ -73,12 +73,12 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
 Nachdem Sie Ihre API-Anmeldedaten erstellt und konfiguriert haben, müssen Sie jetzt eine Kanaloberfläche (d. h. Nachrichtenvoreinstellung) für SMS-Nachrichten einrichten.
 
-## Erstellen einer Kanaloberfläche {#message-preset-sms}
+## SMS-Oberfläche erstellen {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Bestimmen Sie die SMS-Kategorie"
->abstract="Wählen Sie den SMS-Nachrichtentyp aus, der bei Verwendung dieser Oberfläche gesendet werden soll: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können."
+>abstract="Wählen Sie unter Verwendung dieser Oberfläche den Typ der SMS-Nachrichten aus: Marketing für Werbe-SMS-Nachrichten, für die die Zustimmung des Benutzers erforderlich ist, oder Transaktionen für nicht kommerzielle SMS-Nachrichten, wie z. B. das Zurücksetzen des Kennworts."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=de#sms-opt-out-management" text="Abmeldung von Marketing-SMS-Nachrichten"
 
 Nachdem Ihr SMS-Kanal konfiguriert wurde, müssen Sie eine Kanaloberfläche erstellen, von der aus SMS-Nachrichten gesendet werden können **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
    * Wählen Sie den **[!UICONTROL SMS-Typ]** aus, der mit der Oberfläche gesendet werden soll: **[!UICONTROL Transaktion]** oder **[!UICONTROL Marketing]**.
 
+      * Auswählen **Marketing** für Werbe-SMS: Diese Nachrichten erfordern die Zustimmung des Benutzers.
+      * Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
+
+      >[!CAUTION]
+      >
+      >**Transactional** SMS-Nachrichten können an Profile gesendet werden, die sich von Marketingnachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+
+      Bei der Erstellung einer SMS-Nachricht müssen Sie eine gültige Kanaloberfläche auswählen, die der für die Nachricht ausgewählten Kategorie entspricht.
+
    * Wählen Sie die **[!UICONTROL SMS-Konfiguration]** aus, um sie mit der Oberfläche zu verknüpfen.
 
       Weiterführende Informationen zur Konfiguration Ihrer Umgebung für den Versand von SMS-Nachrichten finden Sie in [diesem Abschnitt](#create-api).
@@ -110,6 +119,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    * Geben Sie die **[!UICONTROL Absendernummer]** ein, die Sie für Ihre Sendungen verwenden möchten.
 
    * Wählen Sie Ihr **[!UICONTROL SMS-Ausführungsfeld]**, um das mit den Telefonnummern der Profile verbundene **[!UICONTROL Profilattribut]** auszuwählen.
+
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 
