@@ -8,16 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
+source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 74%
 
 ---
 
 # Erste Schritte mit Warnhinweisen {#alerts}
 
-Journey Optimizer nutzt die Warnfunktionen von Adobe Experience Platform. Damit können Sie über die Benutzeroberfläche auf Systemwarnhinweise zugreifen. Sie können die verfügbaren Warnhinweise einsehen und abonnieren. Wenn bestimmte Bedingungen in Ihren Arbeitsablauf erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden allen Benutzern in Ihrer Organisation, die sich dafür angemeldet haben, Warnhinweise zugesendet. Diese Nachrichten können sich über einen vordefinierten Zeitraum wiederholen, bis der Warnhinweis behoben wurde.
+Journey Optimizer nutzt die Warnfunktionen von Adobe Experience Platform. Damit können Sie über die Benutzeroberfläche auf Systemwarnhinweise zugreifen. Sie können die verfügbaren Warnhinweise einsehen und abonnieren.
+
+Wenn bestimmte Bedingungen in Ihren Arbeitsablauf erfüllt sind (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden allen Benutzern in Ihrer Organisation, die sich dafür angemeldet haben, Warnhinweise zugesendet. Diese Nachrichten können sich über einen vordefinierten Zeitraum wiederholen, bis der Warnhinweis behoben wurde.
 
 Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de).
 Informationen zum Abonnieren und Konfigurieren von Warnhinweisen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de).
@@ -28,9 +30,13 @@ Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
 
 ![](assets/alerts1.png)-->
 
-Tritt ein solches unerwartetes Verhalten auf, wird eine Warnmeldung per E-Mail an Abonnenten von Warnhinweisen gesendet und als In-App-Benachrichtigung in der rechten oberen Ecke der Benutzeroberfläche angezeigt.
+Wenn ein unerwartetes Verhalten auftritt, wird eine Warnmeldung per E-Mail an Abonnenten des Warnhinweises in der oberen rechten Ecke der Benutzeroberfläche gesendet.
 
 <!--![](assets/alerts2.png)-->
+
+>[!AVAILABILITY]
+>
+>Einige Designänderungen werden für den Warnhinweis &quot;Trigger lesen fehlgeschlagen&quot;durchgeführt, weshalb dieser Warnhinweis vorerst angehalten wird. Sobald die Änderungen veröffentlicht wurden, wird dieser Warnhinweis erneut angezeigt und Sie können ihn abonnieren.
 
 Wenn [Warnhinweisregeln in der Adobe Experience Platform-Benutzeroberfläche angezeigt werden](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de), kann jede Regel einzeln abonniert werden. Beim Abonnieren von Warnhinweisen über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de) sind Warnhinweisregeln jedoch in verschiedene Abonnementpakete unterteilt.
 
