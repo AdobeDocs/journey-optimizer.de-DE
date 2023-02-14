@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 74%
@@ -24,6 +24,10 @@ Wenn bestimmte Bedingungen in Ihren Arbeitsablauf erfüllt sind (z. B. ein pote
 Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de).
 Informationen zum Abonnieren und Konfigurieren von Warnhinweisen finden Sie auf dieser [Seite](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de).
 
+>[!AVAILABILITY]
+>
+>Einige Designänderungen werden für den Warnhinweis &quot;Trigger lesen fehlgeschlagen&quot;durchgeführt, weshalb dieser Warnhinweis vorerst angehalten wird. Sobald die Änderungen veröffentlicht wurden, wird dieser Warnhinweis erneut angezeigt und Sie können ihn abonnieren.
+
 Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Wenn ein unerwartetes Verhalten auftritt, wird eine Warnmeldung per E-Mail an Ab
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->Einige Designänderungen werden für den Warnhinweis &quot;Trigger lesen fehlgeschlagen&quot;durchgeführt, weshalb dieser Warnhinweis vorerst angehalten wird. Sobald die Änderungen veröffentlicht wurden, wird dieser Warnhinweis erneut angezeigt und Sie können ihn abonnieren.
 
 Wenn [Warnhinweisregeln in der Adobe Experience Platform-Benutzeroberfläche angezeigt werden](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de), kann jede Regel einzeln abonniert werden. Beim Abonnieren von Warnhinweisen über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de) sind Warnhinweisregeln jedoch in verschiedene Abonnementpakete unterteilt.
 
