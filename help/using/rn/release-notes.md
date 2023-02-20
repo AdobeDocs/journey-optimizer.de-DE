@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
+source-git-commit: f07a46e6fc42afb80275557dfe8bd27f51e4fad9
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 59%
 
 ---
 
@@ -20,6 +20,43 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 [!DNL Adobe Journey Optimizer] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
+
+
+## Frühzeitige Versionshinweise im Februar 2023 {#feb-2023}
+
+Dieser Abschnitt enthält Informationen zur Vorabversion. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Detaillierte Dokumentationen finden Sie am Releasedatum.
+
+Verfügbarkeit: **22. Februar 2023**
+
+### Verbesserungen {#feb-2023-improvements}
+
+**Journeys**
+
+* Die **Wartezeit beim erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld können Sie die Wartezeit definieren, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey zu betreten (beginnend mit einer Ereignis- oder Segmentqualifikation). Dadurch wird verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
+
+* Es wurden Verbesserungen für **Start- und Enddatum der Journey**. Wenn Sie kein Startdatum angegeben haben, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Segment lesen** Journey können Sie jetzt ein Enddatum hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen.
+
+* Die Journey-Arbeitsfläche wurde verbessert, um das Benutzererlebnis zu vereinfachen und zu verbessern. Am Ende jedes Pfads auf der Arbeitsfläche wurden die leeren Platzhalter entfernt. Jetzt können Sie Ihre Aktivitäten einfach hinzufügen, indem Sie sie an eine beliebige Stelle zwischen Knoten ziehen.
+
+* Die Verwaltung von Zeitüberschreitung und Fehlern wurde in Journey verbessert. Timeout- und Fehlerpfade werden jetzt immer auf der Arbeitsfläche hinzugefügt. Eine neue Symbolleistenschaltfläche ist verfügbar, um diese Pfade ein-/auszublenden.
+
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
+
+
+**Administration**
+
+* **Zulassungsliste** - Sie können die Zulassungsliste jetzt als CSV-Datei herunterladen.
+
+* **E-Mail-Oberfläche** - Eine zusätzliche Prüfung wurde zu den E-Mail-Oberflächeneinstellungen hinzugefügt: , wenn der MX-Datensatz für die in der **Antwortadresse (E-Mail)** oder in **BCC-E-Mail-Adresse** nicht ordnungsgemäß konfiguriert ist, kann die E-Mail-Oberfläche nicht mehr erstellt werden. Sie müssen sie konfigurieren lassen oder eine andere verwenden.
+
+* **E-Mail-Oberfläche** - Im Bereich URL-Tracking-Parameter der E-Mail-Oberflächeneinstellungen ist die Begrenzung für jede **Wert** -Feld wurde aus Gründen der Kompatibilität mit Adobe Analytics-Tracking von 255 Zeichen auf 5 KB aktualisiert.
+
+**Entscheidungs-Management**
+
+* **Praktika** - Im Bildschirm zur Erstellung von Platzierungen wurden zusätzliche Parameter hinzugefügt. Sie ermöglichen es Ihnen zu steuern, ob ein Angebot über mehrere Platzierungen hinweg dupliziert werden kann, und anzugeben, ob der Inhalt und die Metadaten des Angebots in die API-Antwort aufgenommen werden sollen.
+
+* **URL-Personalisierung** - Beim Hinzufügen von URLs als Inhalt zu den Darstellungen Ihrer Angebote können Sie diese URLs jetzt mit dem Ausdruckseditor personalisieren.
+
 
 
 ## Version Januar 2023 {#jan-2023-release}
