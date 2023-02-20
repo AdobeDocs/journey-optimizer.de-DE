@@ -11,10 +11,10 @@ keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 77%
+source-wordcount: '1168'
+ht-degree: 74%
 
 ---
 
@@ -163,6 +163,11 @@ Mit dem Widget **[!UICONTROL Kampagnenziel]** können Sie auch Ihr Hauptziel mit
 Beachten Sie, dass jedes Widget bei Bedarf in der Größe verändert und gelöscht werden kann. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
 ## Experimentieren Bericht {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Einzelklicks pro Profil"
+>abstract="Die Metrik Unique Clicks pro Profil hilft Ihnen zu verstehen, wie effektiv Ihr Experiment Ihre Zielgruppe anzieht und Klicks zu Ihrem Ziel bringt. Sie berechnet die Anzahl unterschiedlicher Klicks auf einen bestimmten Link dividiert durch die Gesamtzahl der Profile, die dem Link ausgesetzt waren."
 
 >[!AVAILABILITY]
 >
