@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Berechtigungen, Produkteinschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 
-Beachten Sie auch die [Leitlinien für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
+Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
 
 Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
 
@@ -65,18 +65,19 @@ Die Leistung betreffende Leitplanken und statische Beschränkungen für das Deci
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
 * IP-Adressen sind nicht zulässig
-* Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
+* Interne Adoben (`.adobe.*`) sind in URLs und APIs nicht zulässig.
 
 ### Ereignisse {#events-g}
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
 * Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
-* Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzvorkehrung, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+* Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
 * Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Ereignisse, die in Batches aufgenommen werden, oder Ereignissen aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie ein auf diesen Ereignissen basierendes Segment und verwenden Sie die Aktivität **Segment lesen**. Die Segmentqualifikation kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen.
 
 ### Datenquellen {#data-sources-g}
 
 * Externe Datenquellen können innerhalb einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
+* Interne Adoben (`.adobe.*`) sind in URLs und APIs nicht zulässig.
 
 ### Journeys und Profilerstellung {#journeys-limitation-profile-creation}
 
