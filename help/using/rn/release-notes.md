@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 59%
+source-wordcount: '816'
+ht-degree: 65%
 
 ---
 
@@ -35,13 +35,6 @@ Verfügbarkeit: **22. Februar 2023**
 * Die **Wartezeit beim erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld können Sie die Wartezeit definieren, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey zu betreten (beginnend mit einer Ereignis- oder Segmentqualifikation). Dadurch wird verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
 
 * Es wurden Verbesserungen für **Start- und Enddatum der Journey**. Wenn Sie kein Startdatum angegeben haben, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Segment lesen** Journey können Sie jetzt ein Enddatum hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen.
-
-* Die Journey-Arbeitsfläche wurde verbessert, um das Benutzererlebnis zu vereinfachen und zu verbessern. Am Ende jedes Pfads auf der Arbeitsfläche wurden die leeren Platzhalter entfernt. Jetzt können Sie Ihre Aktivitäten einfach hinzufügen, indem Sie sie an eine beliebige Stelle zwischen Knoten ziehen.
-
-* Die Verwaltung von Zeitüberschreitung und Fehlern wurde in Journey verbessert. Timeout- und Fehlerpfade werden jetzt immer auf der Arbeitsfläche hinzugefügt. Eine neue Symbolleistenschaltfläche ist verfügbar, um diese Pfade ein-/auszublenden.
-
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
-
 
 **Administration**
 
