@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Um eine Vorlage zu löschen, wählen Sie das Papierkorbsymbol neben der gewünsc
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="Eigene Inhaltsvorlage definieren"
->abstract="Erstellen Sie eine eigenständige benutzerdefinierte Vorlage von Grund auf, damit Ihre Inhalte über mehrere Journey und Kampagnen hinweg wiederverwendet werden können."
+>abstract="Erstellen Sie eine eigenständige benutzerdefinierte Vorlage von Grund auf, damit Ihre Inhalte über mehrere Journeys und Kampagnen hinweg wiederverwendet werden können."
 
 Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
 

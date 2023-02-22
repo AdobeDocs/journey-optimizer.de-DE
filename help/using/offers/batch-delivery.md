@@ -5,7 +5,7 @@ exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Bevor Sie eine Vorgangsanfrage konfigurieren, stellen Sie sicher, dass Sie Folge
 
    >[!NOTE]
    >
-   >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Die Batch Decisioning-API begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot. Warten Sie bis zu 24 Stunden, nachdem Sie ein Segment erstellt haben, bevor Sie die Batch-Entscheidungs-API ausprobieren.
+   >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Batch Decisioning begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot. Bitte rechnen Sie mit einer Wartezeit von bis zu 24 Stunden, nachdem Sie ein Segment erstellt haben, bevor Sie die Batch Decisioning-API ausprobieren.
 
 * **Eine Entscheidung** in Adobe Journey Optimizer. [Erfahren Sie, wie Sie eine Entscheidung erstellen können](offer-activities/create-offer-activities.md)
 

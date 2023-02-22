@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vorschau erstellen und Push-Benachrichtigung testen
-description: Erfahren Sie, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer in der Vorschau anzeigen und testen können.
+title: Vorschau und Test Ihre Push-Benachrichtigung
+description: Weitere Informationen dazu, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer in der Vorschau anzeigen und testen können
 feature: Overview
 topic: Content Management
 role: User
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# Vorschau erstellen und Push-Benachrichtigung testen {#send-push}
+# Vorschau und Test Ihre Push-Benachrichtigung {#send-push}
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
@@ -31,7 +31,7 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 
 1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie das Fenster **[!UICONTROL Testprofil hinzufügen]** schließen.
 
-1. Aus dem **Vorschau und Test** -Fenster werden dem Nachrichteninhalt Testprofildaten hinzugefügt.
+1. Im Fenster **Vorschau und Test** werden die Daten des Testprofils zum Inhalt der Nachricht hinzugefügt.
 
    Wählen Sie den Gerätetyp aus, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
@@ -40,7 +40,7 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
 ## Validieren der Push-Benachrichtigung {#push-validate}
 
 
-Warnhinweise müssen im oberen Abschnitt des Editors überprüft werden. Bei einigen handelt es sich um einfache Warnungen, bei anderen können Sie jedoch den Versand der Nachricht verhindern. Es können zwei Arten von Warnhinweisen auftreten: Warnungen und Fehler.
+Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 
 * **Warnhinweise** geben Hinweise auf Empfehlungen und zeigen Best Practices.
 
@@ -61,7 +61,7 @@ Warnhinweise müssen im oberen Abschnitt des Editors überprüft werden. Bei ein
 
 ## Senden der Push-Benachrichtigung{#push-send}
 
-Wenn Ihre Push-Nachricht fertig ist, konfigurieren Sie Ihre [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md) , um es zu versenden.
+Wenn Ihre Push-Benachrichtigung fertig ist, vervollständigen Sie die Konfiguration Ihrer [Journey](../building-journeys/journey-gs.md) oder [Kampagne](../campaigns/create-campaign.md), um sie zu versenden.
 
 **Verwandte Themen**
 

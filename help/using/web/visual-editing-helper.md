@@ -11,7 +11,7 @@ exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können
 
 Gehen Sie wie folgt vor, um die Browser-Erweiterung Visual Editing Helper abzurufen und zu installieren.
 
-1. Navigieren Sie im Google Chrome Web Store zum [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} Browsererweiterung.
+1. Navigieren Sie im Google Chrome-Webstore zur Browser-Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}
 
 1. Klicken Sie auf **[!UICONTROL Zu Chrome hinzufügen]** > **[!UICONTROL Erweiterung hinzufügen]**.
 
@@ -56,7 +56,7 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 
 Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
 
-Wenn das Adobe Experience Platform Web SDK noch nicht auf der Website implementiert wurde, wird im Webdesigner eine Meldung angezeigt, die empfiehlt, die Browsererweiterung Visual Editing Helper zu installieren und die [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"}.
+Wenn das Adobe Experience Platform Web SDK noch nicht auf der Website implementiert ist, wird im Web-Designer eine Nachricht angezeigt, die Sie auffordert, die Browser-Erweiterung „Visual Editing Helper“ zu installieren und das [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} zu implementieren.
 
 Wenn die Site nicht geladen werden kann oder sich unerwartet verhält, besteht die Möglichkeit, Cookies auf Ihrer Website im Browser zu akzeptieren, bevor Sie versuchen, sie in Adobe [!DNL Journey Optimizer] zu laden.
 

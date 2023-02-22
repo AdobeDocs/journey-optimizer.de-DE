@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -145,9 +145,9 @@ Ständige Fehler, gruppiert nach Bounce-Code:
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-### Adressen in Quarantäne nach einem ISP-Ausfall identifizieren{#isp-outage-query}
+### Identifizieren Sie unter Quarantäne gestellte Adressen nach einem ISP-Ausfall{#isp-outage-query}
 
-Im Fall eines Ausfalls des Internet Service Providers (ISP) müssen Sie E-Mail-Adressen identifizieren, die während eines Zeitraums für bestimmte Domänen fälschlicherweise als Absprünge (unter Quarantäne gestellt) markiert wurden. Verwenden Sie die folgende Abfrage, um diese Adressen abzurufen:
+Im Falle eines Ausfalls eines Internet Service Providers (ISP) müssen Sie die E-Mail-Adressen identifizieren, die für bestimmte Domains innerhalb eines bestimmten Zeitraums fälschlicherweise als Bounce (unter Quarantäne) eingestuft wurden. Um diese Adressen zu erhalten, verwenden Sie die folgende Abfrage:
 
 ```sql
 SELECT
@@ -163,9 +163,9 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-wobei das Datumsformat: YYYY-MM-DD HH:MM:SS.
+wobei das Format des Datums wie folgt lautet: JJJJ-MM-TT HH:MM:SS.
 
-Entfernen Sie nach der Identifizierung diese Adressen aus der Journey Optimizer-Unterdrückungsliste. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+Sobald Sie diese Adressen identifiziert haben, entfernen Sie sie aus der Unterdrückungsliste von Journey Optimizer. [Weitere Informationen](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Push-Tracking-Erlebnisereignis-Datensatz {#push-tracking-experience-event-dataset}
 

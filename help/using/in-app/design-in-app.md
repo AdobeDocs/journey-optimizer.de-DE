@@ -12,7 +12,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -197,6 +197,6 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 
 ## Anleitungsvideo{#video}
 
-Das folgende Video zeigt, wie Sie Ihre In-App-Nachrichten erstellen und testen können.
+Das folgende Video zeigt, wie Sie Ihre In-App-Nachrichten verfassen und testen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer SMS-Nachricht"
->abstract="Fügen Sie Ihre SMS-Nachricht hinzu und personalisieren Sie sie mit dem Ausdruckseditor."
+>abstract="Fügen Sie Ihre SMS-Nachricht hinzu und beginnen Sie, sie mit dem Ausdruckseditor zu personalisieren."
 
-## SMS-Nachricht hinzufügen {#create-sms-journey-campaign}
+## Hinzufügen einer SMS-Nachricht {#create-sms-journey-campaign}
 
-Auf den folgenden Registerkarten erfahren Sie, wie Sie eine SMS-Nachricht zu einer Kampagne oder einer Journey hinzufügen.
+Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine SMS-Nachricht in einer Kampagne oder Journey hinzufügen können.
 
 >[!BEGINTABS]
 
 >[!TAB Hinzufügen einer SMS-Nachricht zu einer Journey]
 
-1. Öffnen Sie Ihre Journey und ziehen Sie eine SMS-Aktivität per Drag-and-Drop aus dem **Aktionen** in der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine SMS-Aktivität aus dem Abschnitt **Aktionen** der Palette.
 
    ![](assets/sms_create_1.png)
 
@@ -90,7 +90,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
    ![](assets/sms-content-preview.png)
 
-Jetzt können Sie Ihre SMS testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
+Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Jetzt können Sie Ihre SMS testen und an Ihre Audience senden. [Weitere Informat
 
 **Verwandte Themen**
 
-* [SMS-Vorschau, -Test und -Versand](send-sms.md)
+* [Vorschau, Test und Versand Ihrer SMS-Nachricht](send-sms.md)
 * [Konfigurieren des SMS-Kanals](sms-configuration.md)
 * [SMS-Bericht](../reports/journey-global-report.md#sms-global)
 * [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)

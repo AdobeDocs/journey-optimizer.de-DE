@@ -7,20 +7,20 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, quarantine
+keywords: Unterdrückung, Liste, Bounce, E-Mail, Optimizer, Quarantäne
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Verwalten der Unterdrückungsliste {#manage-suppression-list}
 
-Mit [!DNL Journey Optimizer]können Sie alle E-Mail-Adressen überwachen, die automatisch vom Versand an eine Journey oder Kampagne ausgeschlossen sind, z. B. Hardbounces, Softbounces und Spam-Beschwerden.
+Mit [!DNL Journey Optimizer] können Sie alle E-Mail-Adressen überwachen, die in einer Journey oder einer Kampagne automatisch vom Versand ausgeschlossen werden, z. B. Hard Bounces, Soft Bounces und Spam-Beschwerden.
 
-Diese E-Mail-Adressen werden automatisch in der **Unterdrückungsliste** von Journey Optimizer erfasst. Eine Unterdrückungsliste besteht aus Adressen und Domänen, die von Ihren Zielgruppen ausgeschlossen werden sollen. Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-Client-Umgebung unterdrückt werden, d. h. spezifisch für eine Organisations-ID, die mit einer Sandbox-ID verbunden ist.
+Diese E-Mail-Adressen werden automatisch in der **Unterdrückungsliste** von Journey Optimizer erfasst. Eine Unterdrückungsliste besteht aus Adressen und Domains, die Sie von Ihren Audiences ausschließen möchten. Sie sammelt E-Mail-Adressen und Domains, die für alle Mailings in einer Einzel-Client-Umgebung unterdrückt werden, d. h. spezifisch für eine Organisations-ID, die mit einer Sandbox-ID verbunden ist.
 
 Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste finden Sie in [diesem Abschnitt](../reports/suppression-list.md).
 
@@ -28,7 +28,7 @@ Weitere Informationen zum Konzept und zur Verwendung der Unterdrückungsliste fi
 
 ## Zugriff auf die Unterdrückungsliste {#access-suppression-list}
 
-Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domains zuzugreifen, navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und wählen Sie **[!UICONTROL Unterdrückungsliste]**.
+Um auf die detaillierte Liste der ausgeschlossenen E-Mail-Adressen und Domains zuzugreifen, wechseln Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]**, und wählen Sie **[!UICONTROL Unterdrückungsliste]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -42,30 +42,30 @@ Es stehen Filter zur Verfügung, mit denen Sie die Liste durchsuchen können.
 
 ![](assets/suppression-list-filters.png)
 
-Sie können nach **[!UICONTROL Unterdrückungskategorie]**, **[!UICONTROL Adresstyp]** oder **[!UICONTROL Grund]** filtern. Wählen Sie für jede Bedingung eine oder mehrere Optionen aus. Nach der Auswahl können Sie einzelne oder alle Filter löschen, die über der Liste angezeigt werden.
+Sie können nach **[!UICONTROL Unterdrückungskategorie]**, **[!UICONTROL Adresstyp]** oder **[!UICONTROL Grund]** filtern. Wählen Sie für jedes Kriterium eine oder mehrere Optionen aus. Nach der Auswahl können Sie einzelne oder alle Filter löschen, die oben auf der Liste angezeigt werden.
 
 ![](assets/suppression-list-filtering-example.png)
 
 
-## Fehlerursachen {#suppression-categories-and-reasons}
+## Fehlerursachen verstehen {#suppression-categories-and-reasons}
 
 Wenn eine Nachricht nicht an eine E-Mail-Adresse gesendet werden kann, bestimmt [!DNL Journey Optimizer], warum der Versand fehlgeschlagen ist, und ordnet ihr eine **[!UICONTROL Unterdrückungskategorie]** zu.
 
 Die Unterdrückungskategorien lauten wie folgt:
 
-* **Hard**: Ein Hardbounce zeigt eine ungültige E-Mail-Adresse an (d. h. eine nicht vorhandene E-Mail-Adresse). Dies beinhaltet eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist. Die E-Mail-Adresse wird sofort an die Unterdrückungsliste gesendet.
+* **Hard**: Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies beinhaltet eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist. Die E-Mail-Adresse wird sofort an die Unterdrückungsliste gesendet.
 
    Wenn der Fehler das Ergebnis einer Spam-Beschwerde ist, fällt er auch in die Kategorie **Hard**. Die E-Mail-Adresse des Empfängers, der die Beschwerde eingereicht hat, wird sofort an die Unterdrückungsliste gesendet.
 
-* **Soft**: Ein Softbounce ist ein temporärer E-Mail-Bounce, der für eine gültige E-Mail-Adresse aufgetreten ist. Die E-Mail-Adresse wird nach mehreren weiteren Versuchen zur Unterdrückungsliste hinzugefügt. Bei Softbounces wird eine Adresse an die Unterdrückungsliste gesendet, sobald der Fehlerzähler den Grenzwert erreicht hat. [Weitere Informationen zu Wiederholungen](retries.md)
+* **Soft**: Ein Softbounce ist ein temporärer E-Mail-Bounce, der für eine gültige E-Mail-Adresse aufgetreten ist. Die E-Mail-Adresse wird nach mehreren Wiederholungsversuchen zur Unterdrückungsliste hinzugefügt. Soft-Fehler senden eine Adresse an die Unterdrückungsliste, sobald der Fehlerzähler den Grenzwert erreicht. [Erfahren Sie mehr über Wiederholungen](retries.md)
 
-* **Manuell**: Manuelle Fehler wurden der Unterdrückungsliste manuell hinzugefügt. [Weitere Informationen](#add-addresses-and-domains)
+* **Manuell**: Manuelle Fehler wurden manuell zur Unterdrückungsliste hinzugefügt. [Weitere Informationen](#add-addresses-and-domains)
 
 Für jede aufgelistete E-Mail-Adresse können Sie auch den **[!UICONTROL Typ]** (E-Mail oder Domain), den **[!UICONTROL Grund]**, der zum Ausschluss führte, die Person, die die E-Mail-Adresse zur Unterdrückungsliste hinzufügte, und das Datum mit Uhrzeit, zu dem die Adresse der Unterdrückungsliste hinzugefügt wurde, überprüfen.
 
 ![](assets/suppression-list.png)
 
-Mögliche Ursachen für fehlgeschlagene Sendungen sind:
+Mögliche Ursachen für einen fehlgeschlagenen Versand sind:
 
 | Grund | Beschreibung | Kategorie |
 | --- | --- | --- |
@@ -84,10 +84,10 @@ Mögliche Ursachen für fehlgeschlagene Sendungen sind:
 
 ### Unterdrückungsregeln  {#suppression-rules}
 
-Aus dem **[!UICONTROL Unterdrückungsliste]** -Ansicht können Sie auch den Wiederholungsparameter bearbeiten, der mit den Unterdrückungsregeln verknüpft ist, über die **[!UICONTROL Unterdrückungsregeln bearbeiten]** Schaltfläche. Verwenden Sie diese Option, um die Wiederholungsschwelle für die aktuelle Sandbox zu aktualisieren. [Weitere Informationen zu Wiederholungen](retries.md).
+In der Ansicht **[!UICONTROL Unterdrückungsliste]** können Sie über die Schaltfläche **[!UICONTROL Unterdrückungsregeln bearbeiten]** auch die mit den Unterdrückungsregeln verbundenen Wiederholungsparameter bearbeiten. Verwenden Sie diese Option, um den Schwellenwert für Wiederholungsversuche für die aktuelle Sandbox zu aktualisieren. [Erfahren Sie mehr über weitere Zustellversuche](retries.md).
 
 
-## Adressen und Domänen zur Unterdrückungsliste hinzufügen{#add-addresses-and-domains}
+## Adressen und Domains zur Unterdrückungsliste hinzufügen{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -105,7 +105,7 @@ Sie können die [!DNL Journey Optimizer]-Unterdrückungsliste jedoch auch manuel
 
 >[!NOTE]
 >
->Es kann bis zu 60 Minuten dauern für [!DNL Journey Optimizer] um die unterdrückten Adressen in ausgehenden E-Mails zu berücksichtigen.
+>Es kann bis zu 60 Minuten dauern, bis [!DNL Journey Optimizer] die unterdrückten Adressen in ausgehenden E-Mails berücksichtigt.
 
 Sie können E-Mail-Adressen oder Domains [einzeln](#add-one-address-or-domain) oder [im Bulk-Modus](#upload-csv-file) über einen CSV-Datei-Upload hinzufügen.
 
@@ -116,17 +116,17 @@ Sie können E-Mail-Adressen oder Domains [einzeln](#add-one-address-or-domain) o
 >title="Hinzufügen eines Elements zur Unterdrückungsliste"
 >abstract="Sie können E-Mail-Adressen und/oder Domains einzeln zur Unterdrückungsliste hinzufügen."
 
-Gehen Sie wie folgt vor, um der Unterdrückungsliste eine E-Mail-Adresse oder eine Domäne hinzuzufügen:
+Um eine E-Mail-Adresse oder eine Domain zur Unterdrückungsliste hinzuzufügen, führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Adresse oder Domain hinzufügen]**.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Wählen Sie die **[!UICONTROL Eins nach eins]** -Option.
+1. Wählen Sie die Option **[!UICONTROL Nacheinander]**.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Wählen Sie den Adresstyp aus: **[!UICONTROL Email]** oder **[!UICONTROL Domäne]**.
+1. Wählen Sie den Adresstyp: **[!UICONTROL E-Mail]** oder **[!UICONTROL Domain]**.
 
 1. Geben Sie die E-Mail-Adresse oder Domain ein, die Sie vom Versand ausschließen möchten.
 
@@ -136,7 +136,7 @@ Gehen Sie wie folgt vor, um der Unterdrückungsliste eine E-Mail-Adresse oder ei
 
 1. (optional) Geben Sie einen Grund ein. Alle druckbaren ASCII-Zeichen zwischen 32 und 126 sind in diesem Feld zulässig.
 
-1. Verwenden Sie die **[!UICONTROL Einsenden]** zur Bestätigung.
+1. Verwenden Sie die Schaltfläche **[!UICONTROL Senden]** zur Bestätigung.
 
 ### CSV-Datei hochladen {#upload-csv-file}
 
@@ -145,10 +145,10 @@ Gehen Sie wie folgt vor, um der Unterdrückungsliste eine E-Mail-Adresse oder ei
 >title="Hochladen von CSV-Dateien, um Elemente zur Unterdrückungsliste hinzuzufügen"
 >abstract="Sie können eine CSV-Datei mit den E-Mail-Adressen/Domains, die Sie ausschließen möchten, in die Unterdrückungsliste hochladen."
 
-Gehen Sie wie folgt vor, um der Unterdrückungsliste eine Gruppe von E-Mail-Adressen oder Domänen hinzuzufügen:
+Um eine Gruppe von E-Mail-Adressen oder eine Domain zur Unterdrückungsliste hinzuzufügen, führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Adresse oder Domain hinzufügen]**.
-1. Wählen Sie die **[!UICONTROL CSV hochladen]** -Option.
+1. Wählen Sie die Option **[!UICONTROL CSV hochladen]**.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -160,23 +160,23 @@ Gehen Sie wie folgt vor, um der Unterdrückungsliste eine Gruppe von E-Mail-Adre
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Füllen Sie die CSV-Vorlage mit den E-Mail-Adressen und/oder Domänen aus, die zur Unterdrückungsliste hinzugefügt werden sollen. Alle druckbaren ASCII-Zeichen zwischen 32 und 126 sind in der Variablen **KOMMENTAR** Spalte.
+1. Füllen Sie die CSV-Vorlage mit den E-Mail-Adressen und/oder Domains aus, die der Unterdrückungsliste hinzugefügt werden sollen. Alle druckbaren ASCII-Zeichen zwischen 32 und 126 sind in der Spalte **KOMMENTAR** zulässig.
 
    >[!CAUTION]
    >
-   >Ändern Sie nicht den Namen der Spalten in der CSV-Vorlage.
+   >Ändern Sie den Namen der Spalten in der CSV-Vorlage nicht.
    >
    >Die Dateigröße darf 1 MB nicht überschreiten.
 
-1. Ziehen Sie nach Abschluss die CSV-Datei per Drag-and-Drop in den Arbeitsbereich und verwenden Sie die **[!UICONTROL Einsenden]** zur Bestätigung.
+1. Wenn Sie fertig sind, ziehen Sie Ihre CSV-Datei per Drag-and-Drop und bestätigen Sie mithilfe der Schaltfläche **[!UICONTROL Senden]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Sobald der Upload abgeschlossen ist, können Sie seinen Status über die [Letzte Uploads](#recent-uploads) wie unten beschrieben.
+Sobald der Upload abgeschlossen ist, können Sie den Status des Uploads über die Schaltfläche [Aktuelle Uploads](#recent-uploads) überprüfen, wie unten beschrieben.
 
-### Upload-Status überprüfen {#recent-uploads}
+### Status der Uploads prüfen {#recent-uploads}
 
-Verwenden Sie die **[!UICONTROL Letzte Uploads]** -Schaltfläche, um den Status der zuletzt hochgeladenen CSV-Dateien zu überprüfen.
+Verwenden Sie die Schaltfläche **[!UICONTROL Letzte Uploads]**, um den Status der zuletzt hochgeladenen CSV-Dateien zu überprüfen.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -204,13 +204,13 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## Adresse aus der Unterdrückungsliste entfernen{#remove-from-suppression-list}
+## Eine Adresse aus der Unterdrückungsliste entfernen{#remove-from-suppression-list}
 
-Sie können die Unterdrückungsliste manuell aktualisieren. Das Entfernen einer E-Mail-Adresse aus der Quarantäne ist ein sensibler Vorgang und kann sich auf Ihre IP-Reputation und Zustellrate auswirken. Gehen Sie mit Vorsicht vor.
+Sie können die Unterdrückungsliste manuell aktualisieren. Das Entfernen einer E-Mail-Adresse aus der Quarantäne ist ein sensibler Vorgang und kann sich auf die IP-Zustellbarkeit und Zustellbarkeitsraten auswirken. Handeln Sie mit Bedacht.
 
-Beim Löschen einer E-Mail-Adresse oder einer Domain aus der Unterdrückungsliste kann Adobe Journey Optimizer den Versand an diese Adresse oder Domäne erneut starten.  Erfahren Sie mehr über die Zustellbarkeit in [diesem Abschnitt](../reports/deliverability.md).
+Wenn Sie eine E-Mail-Adresse oder eine Domain aus der Unterdrückungsliste löschen, kann Adobe Journey Optimizer die Zustellung an diese Adresse oder Domain wieder aufnehmen.  Weitere Informationen zur Zustellbarkeit finden Sie in [diesem Abschnitt](../reports/deliverability.md).
 
-Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die **[!UICONTROL Löschen]** Schaltfläche.
+Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die Schaltfläche **[!UICONTROL Löschen]**.
 
 ![](assets/suppression-list-delete.png)
 
@@ -219,15 +219,15 @@ Um eine Adresse aus der Unterdrückungsliste zu entfernen, verwenden Sie die **[
 >
 >Gehen Sie beim Löschen von E-Mail-Adressen oder Domains mit besonderer Sorgfalt vor. Wenden Sie sich im Zweifel an einen Zustellbarkeitsexperten.
 
-Im Falle eines Ausfalls des Internet Service Providers (ISP) werden E-Mails fälschlicherweise als Hardbounces gekennzeichnet, da sie ihrem Empfänger nicht erfolgreich zugestellt werden können. Diese E-Mail-Adressen müssen aus der Unterdrückungsliste entfernt werden.
+Im Falle eines Ausfalls des Internet Service Providers (ISP) werden E-Mails z. B. fälschlicherweise als Hardbounces markiert, da sie nicht an die Empfangenden zugestellt werden können. Diese E-Mail-Adressen müssen von der Unterdrückungsliste entfernt werden.
 
-Um diese Adressen abzurufen, führen Sie eine spezifische Abfrage mit benutzerdefinierten Parametern aus, die auf dem Kontext des Ausfalls basieren. [Weitere Informationen finden Sie in diesem Beispiel](../data/datasets-query-examples.md#isp-outage-query).
+Um diese Adressen abzurufen, führen Sie eine spezielle Abfrage mit benutzerdefinierten Parametern aus, die auf dem Kontext des Ausfalls basiert. [Weitere Informationen finden Sie in diesem Beispiel](../data/datasets-query-examples.md#isp-outage-query).
 
-Sobald die betroffenen E-Mail-Adressen identifiziert wurden, filtern Sie die Unterdrückungsliste, um sie anzuzeigen. Wenn beispielsweise vom 11. November 2022 bis zum 13. November 2022 ein ISP-Ausfall auf der **test.com** -Domäne die zur Unterdrückungsliste hinzugefügten Adressen in diesem Zeitraum wie folgt filtern:
+Sobald die betroffenen E-Mail-Adressen identifiziert sind, filtern Sie die Unterdrückungsliste, um sie anzuzeigen. Wenn zum Beispiel ein ISP-Ausfall vom 11. November 2022 bis zum 13. November 2022 auf der Domain **test.com** stattgefunden hat, filtern Sie die Adressen, die in diesem Zeitraum zur Unterdrückungsliste hinzugefügt wurden, wie unten dargestellt:
 
 ![](assets/remove-from-supp-list.png)
 
-Sie können dann unter Quarantäne gestellte E-Mail-Adressen aus der Unterdrückungsliste entfernen, indem Sie die **[!UICONTROL Löschen]** Schaltfläche.
+Sie können dann die unter Quarantäne gestellten E-Mail-Adressen über die Schaltfläche **[!UICONTROL Löschen]** aus der Unterdrückungsliste entfernen.
 
 ## Herunterladen der Unterdrückungsliste {#download-suppression-list}
 

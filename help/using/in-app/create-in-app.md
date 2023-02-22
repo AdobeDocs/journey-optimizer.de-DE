@@ -12,7 +12,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,6 +117,6 @@ Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Campaign-Be
 
 ## Anleitungsvideo{#video}
 
-Im folgenden Video erfahren Sie, wie Sie In-App-Nachrichten in Ihren Kampagnen erstellen, konfigurieren und veröffentlichen.
+Das folgende Video zeigt, wie Sie In-App-Nachrichten in Ihren Kampagnen erstellen, konfigurieren und veröffentlichen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

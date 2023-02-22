@@ -11,10 +11,10 @@ keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 98%
+source-wordcount: '1168'
+ht-degree: 95%
 
 ---
 
@@ -166,8 +166,8 @@ Beachten Sie, dass jedes Widget bei Bedarf in der Größe verändert und gelösc
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Erfolgsmetrik"
->abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen Ihrer Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
+>title="Einzelklicks pro Profil"
+>abstract="Die Metrik Unique Clicks pro Profil hilft Ihnen zu verstehen, wie effektiv Ihr Experiment Ihre Zielgruppe anzieht und Klicks zu Ihrem Ziel bringt. Sie berechnet die Anzahl unterschiedlicher Klicks auf einen bestimmten Link dividiert durch die Gesamtzahl der Profile, die dem Link ausgesetzt waren."
 
 >[!AVAILABILITY]
 >

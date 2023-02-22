@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
 source-wordcount: '2330'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * In der Dokumentation zu API-ausgelösten Kampagnen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die in die Anfrage übergebenen kontextuellen Attribute 50 KB nicht überschreiten dürfen. [Mehr dazu](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Zustimmungsdienstes** nachdem sich Empfänger über eine Landingpage abgemeldet haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Einverständnisdienstes** gespeichert werden, nachdem Empfänger über eine Landingpage das Abo gekündigt haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januar 2023 {#jan-2023}
 

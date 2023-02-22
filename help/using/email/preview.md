@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Vorschau und Testversand von E-Mails {#preview-and-proof}
+# Vorschau und Test von E-Mails {#preview-and-proof}
 
 Nachdem der Inhalt der E-Mail definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie [personalisierten Inhalt](../personalization/personalize.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 

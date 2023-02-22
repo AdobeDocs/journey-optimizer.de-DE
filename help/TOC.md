@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1312'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 99%
 + SMS-Kanal{#sms}
    + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)
-   + [SMS in der Vorschau ansehen und testen](using/sms/send-sms.md)
+   + [Vorschau und Test Ihrer SMS-Nachricht](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
 + Briefpost {#direct-mail}

@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 45d508b284c23235518fab37095413091208e497
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -126,14 +126,14 @@ Wählen Sie für E-Mail-Nachrichten durch Auswahl des entsprechenden Radiobutton
 
 Sie können die vom System verwendeten Versandzeitpunkte auch zusammenfassen, indem Sie einen Wert für die Option **Senden innerhalb der nächsten** eingeben. Wenn Sie als Wert „sechs Stunden“ wählen, prüft [!DNL Journey Optimizer] jedes Benutzerprofil und wählt den optimalen Versandzeitpunkt innerhalb von sechs Stunden ab der Journey-Ausführungszeit aus.
 
-**Was passiert, wenn die optimale Zeit außerhalb des Fensters liegt?**
+**Was passiert, wenn der optimale Zeitpunkt außerhalb des Zeitfensters liegt?**
 
-Nehmen wir ein Beispiel mit der folgenden Einrichtung:
+Nehmen wir ein Beispiel mit dem folgenden Setup:
 
 * Optimierung der Klicks
 * Die Aktion soll um 10 Uhr beginnen
-* Fenster ist 3 Stunden
+* Das Zeitfenster beträgt 3 Stunden
 
-Ein Profil kann eine optimale Öffnungszeit haben, die außerhalb des Fensters liegt. Beispiel: John&#39;s optimale Öffnung beim Klick ist um 17 Uhr.
+Ein Profil kann eine optimale Öffnungszeit haben, die außerhalb des Fensters liegt. Zum Beispiel ist für John der optimale Öffnungszeitpunkt um 17 Uhr.
 
-Auf Profilebene gibt es Werte für jede Stunde der Woche. In diesem Beispiel wird die E-Mail immer im Fenster gesendet. Zur Laufzeit überprüft das System die Liste der Bewertungen in diesem Fenster (3-Stunden-Fenster ab 10 Uhr). Das System vergleicht dann die Bewertungen für 10, 11 und 12 und wählt die höchsten aus. Die E-Mail wird zu diesem Zeitpunkt gesendet.
+Auf Profilebene gibt es Bewertungen für jede Stunde der Woche. In diesem Beispiel wird die E-Mail immer innerhalb des Fensters gesendet. Zur Laufzeit prüft das System die Liste der Bewertungen innerhalb dieses Fensters (3-Stunden-Fenster ab 10 Uhr). Das System vergleicht dann die Bewertungen für 10 Uhr, 11 Uhr und Mittag und wählt die höchste aus. Die E-Mail wird zu diesem Zeitpunkt gesendet.
