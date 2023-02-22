@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 
 Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken Sie auf **[!UICONTROL Zur Bibliothek hinzufügen]**, um die Syntax zu überprüfen und den Ausdruck zu speichern.
 
-Um einen Ausdruck zu löschen, klicken Sie auf das Drei-Punkt-Menü und anschließend auf **[!UICONTROL Löschen]**.
+Um einen Ausdruck zu löschen, klicken Sie auf die Suchschaltfläche und dann auf **[!UICONTROL Löschen]**.
 
 ## Anleitungsvideo{#video}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 96%
 
 ---
 
@@ -155,6 +155,34 @@ Um die Zulassungsliste zu vervollständigen, können Sie auch die Unterdrückung
 Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 
 Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target="_blank"}.
+
+## Zulassungsliste herunterladen {#download-allowed-list}
+
+Gehen Sie wie folgt vor, um die Zulassungsliste als CSV-Datei zu exportieren:
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Warten Sie, bis die Datei generiert wurde.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >Die Downloadzeit hängt von der Dateigröße ab, d. h. von der Anzahl der Adressen, die sich auf der Zulassungsliste befinden.
+   >
+   >Es kann jeweils nur eine Download-Anfrage für eine Sandbox gleichzeitig verarbeitet werden.
+
+1. Sobald die Datei erstellt wurde, erhalten Sie eine Benachrichtigung. Klicken Sie auf das Glockensymbol oben rechts im Bildschirm, um sie anzuzeigen.
+
+1. Klicken Sie auf die Benachrichtigung selbst, um die Datei herunterzuladen.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >Der Link ist 24 Stunden lang gültig.
 
 ## Logik der Zulassungsliste {#logic}
 

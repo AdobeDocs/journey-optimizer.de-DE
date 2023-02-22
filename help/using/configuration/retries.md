@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: weitere Zustellversuche, Bounce, soft, Optimizer, Fehler
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -72,5 +72,5 @@ Beispielsweise können Sie den Zeitraum für weitere Zustellversuche einer Trans
 >
 >Der Zeitraum für weitere Zustellversuche darf 84 Stunden nicht überschreiten. Der Mindestzeitraum für weitere Zustellversuche beträgt 6 Stunden für Marketing-E-Mails und 10 Minuten für Transaktions-E-Mails.
 
-In [diesem Abschnitt](channel-surfaces.md#create-channel-surface) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Kanaloberfläche definieren.
+In [diesem Abschnitt](../email/email-settings.md#email-retry) erfahren Sie, wie Sie die Parameter für weitere Zustellversuche für E-Mails anpassen, während Sie eine Kanaloberfläche definieren.
 

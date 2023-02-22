@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 100%
+source-wordcount: '1652'
+ht-degree: 88%
 
 ---
 
@@ -151,6 +151,14 @@ Bitte die nachstehenden Empfehlungen befolgen, um eine ordnungsgemäße Antwortv
 
 * Bitte im Posteingang für Antworten keine Nachrichten als Spam markieren, da sich das auf alle anderen an diese Adresse gesendeten Antworten auswirken würde.
 
+Darüber hinaus wird bei der Definition der **[!UICONTROL Antwort an (E-Mail)]** -Adresse verwenden, stellen Sie sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Oberflächenverarbeitung fehl.
+
+Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Wenden Sie sich an Ihren Administrator, um den entsprechenden MX-Datensatz zu konfigurieren, oder verwenden Sie eine andere Adresse mit einer gültigen MX-Datensatzkonfiguration.
+
+>[!NOTE]
+>
+>Wenn die Subdomain der eingegebenen Adresse eine Domäne ist, die [vollständig delegiert](../configuration/delegate-subdomain.md#full-subdomain-delegation) zur Adobe kontaktieren Sie Ihren Adobe-Kundenbetreuer.
+
 ### Weiterleiten von E-Mails {#forward-email}
 
 Wenn Sie alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfangenen E-Mails an eine bestimmte E-Mail-Adresse weiterleiten möchten, wenden Sie sich an die Kundenunterstützung von Adobe. Sie müssen Folgendes angeben:
@@ -173,6 +181,10 @@ Sie können eine identische Kopie (oder Blindkopie) von E-Mails senden, die von 
 Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **[!UICONTROL BCC-E-Mail]**. [Weitere Informationen](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Darüber hinaus wird bei der Definition der **[!UICONTROL Bcc-E-Mail]** -Adresse verwenden, stellen Sie sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Oberflächenverarbeitung fehl.
+
+Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Wenden Sie sich an Ihren Administrator, um den entsprechenden MX-Datensatz zu konfigurieren, oder verwenden Sie eine andere Adresse mit einer gültigen MX-Datensatzkonfiguration.
 
 ## E-Mail-Wiederholungsparameter {#email-retry}
 
@@ -237,7 +249,7 @@ Mithilfe des [Ausdruckseditors](../personalization/personalization-build-express
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Werte]**-Feld kann bis zu 255 Zeichen lang sein.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jeder **[!UICONTROL Wert]** -Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: In-App, Nachricht, Design, Formatierung
+badge: label="Beta" type="Informative"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
 # Gestalten Ihrer In-App-Inhalte {#design-content}
+
+>[!IMPORTANT]
+>
+>Die In-App-Funktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichtenlayouts und der Anzeige-, Text- und Schaltflächenoptionen.
 
@@ -192,7 +195,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** aktiviert ist, können S
 **Verwandte Themen:**
 
 * [Erstellen einer In-App-Nachricht](create-in-app.md)
-* [In-App-Bericht](inapp-report.md)
+* [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
 * [In-App-Konfiguration](inapp-configuration.md)
 
 ## Anleitungsvideo{#video}

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 90%
+source-wordcount: '660'
+ht-degree: 78%
 
 ---
 
@@ -100,7 +100,17 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
+Sie können URLs mithilfe des Ausdruckseditors personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+Sie möchten beispielsweise das Bild personalisieren, das als Angebot angezeigt wird. Sie möchten, dass Benutzer, die die Stadtreisen bevorzugen, die Skyline des NYC sehen und Benutzer, die die Strandurlaube bevorzugen, die Hawaii Northshore sehen.
+
+Verwenden Sie den Ausdruckseditor, um in Adobe Experience Platform gespeicherte Profilattribute mithilfe von Vereinigungsschemas abzurufen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+Wenn Sie eine **[!UICONTROL Ziellink]** können Sie auch die URL personalisieren, an die die Benutzer, die auf das Angebot klicken, weitergeleitet werden.
 
 ### Hinzufügen von benutzerdefiniertem Text {#custom-text}
 
