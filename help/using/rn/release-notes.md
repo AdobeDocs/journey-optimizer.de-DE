@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 63%
+source-wordcount: '919'
+ht-degree: 61%
 
 ---
 
@@ -28,15 +28,14 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>In-App-Kanal</strong><br/></th>
+<th><strong>In-App-Kanal (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Sie können Ihren App-Benutzern innerhalb einer Kampagne jetzt personalisierte In-App-Nachrichten senden. Verwenden Sie Journey Optimizer, um Benachrichtigungen zu erstellen und das Layout, die Anzeige, den Text und die Schaltflächen der Nachricht anzupassen, um ein nahtloses Erlebnis zu schaffen.</p>
-<p>
-Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
+<p><strong>Vorsicht</strong> - Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -55,9 +54,7 @@ Diese Funktion befindet sich derzeit in der Beta-Version und steht nur Beta-Kund
 <td>
 <p>Sie können jetzt eine Live-Verbindung mit Cloud-Speicherorten herstellen, um den Inhalt Ihrer Datensätze zu exportieren. Verfügbare Ziele sind: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Vorsicht</strong> - Diese Funktion befindet sich derzeit in der Beta-Phase und steht allen Adobe Journey Optimizer-Benutzern zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie noch keinen Zugriff auf Ziele haben.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>Weitere Informationen finden Sie in der <a href="../data/export-datasets.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>

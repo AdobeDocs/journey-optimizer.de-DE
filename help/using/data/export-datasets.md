@@ -5,10 +5,11 @@ title: Exportieren von Datensätzen in Cloud-Speicherorte
 description: Erfahren Sie, wie Sie Ihre Datensätze mit Adobe Experience Platform Cloud-Speicher-Zielen exportieren.
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 10%
 
 ---
