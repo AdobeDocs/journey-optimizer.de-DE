@@ -8,7 +8,7 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 badge: label="Beta" type="Informative"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 97%
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 # Erstellen einer In-App-Nachricht {#create-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >Die In-App-Funktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
