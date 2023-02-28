@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Helper, Anwendungsfall, Personalisierung
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
@@ -154,6 +154,7 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
+
       In diesem Beispiel steht *event_ID* für die Kennung Ihres Ereignisses.
 
       ![](assets/personalization-uc-helpers-10.png)
