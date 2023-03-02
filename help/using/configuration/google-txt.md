@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_google"
 >title="TXT-Einträge von Google"
->abstract="Für einen erfolgreichen Versand von E-Mails an Gmail-Adressen können Sie Ihren Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzuzufügen, um ihre Verifizierung sicherzustellen."
+>abstract="Für einen erfolgreichen Versand von E-Mails an Gmail-Adressen können Subdomains spezielle TXT-Einträge der Website-Überprüfung von Google hinzugefügt werden, um ihre Verifizierung sicherzustellen."
 
 TXT-Einträge sind eine Art von DNS-Einträgen, die der Bereitstellung von Textinformationen über eine Domain dienen und von externen Quellen gelesen werden können.
 
