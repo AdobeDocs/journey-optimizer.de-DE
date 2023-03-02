@@ -10,7 +10,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 5%
@@ -89,7 +89,7 @@ Sobald die Experience Manager-Vorlage in Journey Optimizer als Inhaltsvorlage ve
 
    ![](assets/aem_ajo_2.png)
 
-1. Klicken Sie im Fenster Vorlageneigenschaften auf die Schaltfläche **[!UICONTROL Zugriff verwalten]** -Schaltfläche, um Ihrer Vorlage benutzerdefinierte oder zentrale Datennutzungsbezeichnungen zuzuweisen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
+1. Im **[!UICONTROL Vorlageneigenschaften]** klicken Sie auf das **[!UICONTROL Zugriff verwalten]** -Schaltfläche, um Ihrer Vorlage benutzerdefinierte oder zentrale Datennutzungsbezeichnungen zuzuweisen. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
 
 1. Um Ihre AEM-Vorlage weiter zu personalisieren und benutzerdefinierte Personalisierung zu Ihrem Inhalt hinzuzufügen, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. Auf diese Weise können Sie einfach Änderungen vornehmen und die Vorlage an Ihre spezifischen Anforderungen anpassen. [Weitere Informationen](get-started-email-design.md)
 
