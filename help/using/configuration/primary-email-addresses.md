@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definieren der zu verwendenden Adresse"
->abstract="Die Felder bearbeiten, die zur Bestimmung der E-Mail-Adresse oder Telefonnummer der Profile verwendet werden, die für den Versand priorisiert werden sollen."
+>abstract="Bearbeiten der E-Mail-Adressen oder Telefonnummern der Profile, um zu bestimmen, welche vorrangig für den Versand verwendet werden sollen."
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen oder Telefonnummern zur Verfügung (berufliche E-Mail-Adresse, persönliche Telefonnummer usw.).
 
