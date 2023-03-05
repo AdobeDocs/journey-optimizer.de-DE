@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1983'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,8 +114,8 @@ Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experime
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="Zusammenfassungs-Widget"
->abstract="Das Zusammenfassungs-Widget bietet einen Überblick über Ihre Experimentergebnisse, einschließlich der Frage, ob diese schlüssig sind oder nicht. Es bietet eine schnelle und einfache Möglichkeit, das Ergebnis Ihres Experiments zu verstehen."
+>title="Widget „Zusammenfassung“"
+>abstract="Das Widget „Zusammenfassung“ bietet einen Überblick über die Experimentergebnisse, einschließlich der Klärung, ob diese schlüssig sind oder nicht. Dies bietet eine schnelle und einfache Möglichkeit, das Ergebnis des Experiments zu verstehen."
 
 ![](assets/experimentation_report_3.png)
 
