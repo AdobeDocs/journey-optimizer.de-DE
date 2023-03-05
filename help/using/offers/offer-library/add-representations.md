@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '660'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -88,9 +88,9 @@ Wenn es sich bei der ausgewählten Platzierung um einen Bildtyp handelt, können
 
 ### Hinzufügen von HTML- oder JSON-Dateien {#html-json}
 
-Wenn die ausgewählte Platzierung vom Typ HTML ist, können Sie auch HTML- oder JSON-Inhalte hinzufügen, die aus dem [Adobe Experience Cloud Asset-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}).
+Wenn die ausgewählte Platzierung vom Typ HTML ist, können Sie auch HTML- oder JSON-Inhalte aus der [Adobe Experience Cloud Asset-Bibliothek](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}) hinzufügen.
 
-Sie haben beispielsweise eine HTML-E-Mail-Vorlage in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=de){target="_blank"} und Sie diese Datei für Ihren Angebotsinhalt verwenden möchten. Anstatt eine neue Datei zu erstellen, können Sie die Vorlage einfach in die **Asset-Bibliothek** hochladen, um sie für unterschiedliche Darstellungsvarianten Ihres Angebots wiederverwenden zu können.
+Sie haben zum Beispiel eine HTML-E-Mail-Vorlage in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=de){target="_blank"} erstellt und möchten diese Datei für den Inhalt Ihres Angebots verwenden. Anstatt eine neue Datei zu erstellen, können Sie die Vorlage einfach in die **Asset-Bibliothek** hochladen, um sie für unterschiedliche Darstellungsvarianten Ihres Angebots wiederverwenden zu können.
 
 Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bibliothek**, wie in [diesem Abschnitt](#images) beschrieben, und wählen Sie die gewünschte HTML- oder JSON-Datei aus.
 
@@ -100,17 +100,17 @@ Um Ihre Inhalte in einer Darstellung wiederzuverwenden, gehen Sie zur **Asset-Bi
 
 Um Inhalte von einem externen öffentlichen Speicherort hinzuzufügen, klicken Sie auf **[!UICONTROL URL]** und geben Sie dann die URL-Adresse des hinzuzufügenden Inhalts ein.
 
-Sie können URLs mithilfe des Ausdruckseditors personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
+Sie können URLs mit dem Ausdruckseditor personalisieren. Erfahren Sie mehr zur [Personalisierung](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
-Sie möchten beispielsweise das Bild personalisieren, das als Angebot angezeigt wird. Sie möchten, dass Benutzer, die die Stadtreisen bevorzugen, die Skyline des NYC sehen und Benutzer, die die Strandurlaube bevorzugen, die Hawaii Northshore sehen.
+Sie möchten zum Beispiel das Bild, das als Angebot angezeigt wird, personalisieren. Sie möchten, dass Benutzende, die einen Stadturlaub bevorzugen, die Skyline von New York sehen und Benutzende, die einen Strandurlaub bevorzugen, die Nordküste von Hawaii sehen.
 
-Verwenden Sie den Ausdruckseditor, um in Adobe Experience Platform gespeicherte Profilattribute mithilfe von Vereinigungsschemas abzurufen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Verwenden Sie den Ausdruckseditor unter Verwendung von Vereinigungsschemata, um Profilattribute abzurufen, die in Adobe Experience Platform gespeichert sind. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=de){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
-Wenn Sie eine **[!UICONTROL Ziellink]** können Sie auch die URL personalisieren, an die die Benutzer, die auf das Angebot klicken, weitergeleitet werden.
+Wenn Sie einen **[!UICONTROL Ziel-Link]** angeben, können Sie auch die URL personalisieren, zu der die Benutzenden, die auf das Angebot klicken, geleitet werden.
 
 ### Hinzufügen von benutzerdefiniertem Text {#custom-text}
 
