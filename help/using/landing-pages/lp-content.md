@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,33 +21,33 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Verwenden von Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können. Verwenden Sie die Formular-Komponente, um bestimmte Inhalte zu definieren, über die Benutzer ihre Auswahl auswählen und übermitteln können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Hinzufügen von Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können. Um spezifische Inhalte zu definieren, die es Benutzenden ermöglichen, ihre Auswahl zu treffen und abzusenden, können Sie die Formularkomponente nutzen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=de#add-content-components" text="Hinzufügen von Inhaltskomponenten"
 
-Um den Inhalt Ihrer Landingpage zu erstellen, können Sie dieselben Komponenten wie für eine E-Mail verwenden. [Weitere Informationen](../email/content-components.md#add-content-components)
+Um den Inhalt Ihrer Landingpage zu entwerfen, können dieselben Komponenten wie für eine E-Mail verwendet werden. [Weitere Informationen](../email/content-components.md#add-content-components)
 
-So erstellen Sie spezifische Inhalte, mit denen Benutzer ihre Auswahl treffen und ihre Auswahl übermitteln können: [Formularkomponente verwenden](#use-form-component) und definieren [Landingpage-spezifische Stile](#lp-form-styles).
+Um spezifische Inhalte zu entwerfen, mit denen Benutzende ihre Auswahl treffen und übermitteln können, können Sie die [Formularkomponente nutzen](#use-form-component) und ihre [Landingpage-spezifischen Stile](#lp-form-styles) definieren.
 
 >[!NOTE]
 >
 >Sie können auch eine Clickthrough-Landingpage ohne **[!UICONTROL Formular]**-Komponente erstellen. In diesem Fall wird die Landingpage Benutzern angezeigt, sie müssen jedoch kein Formular absenden. Dies kann nützlich sein, wenn Sie nur eine Landingpage präsentieren möchten, ohne eine Aktion, wie beispielsweise ein Opt-in oder Opt-out, von Ihren Empfängern zu verlangen, oder wenn Sie Informationen bereitstellen möchten, die keine Benutzereingabe erfordern.
 
-Mit dem Inhaltseditor für Landingpages können Sie auch Kontextdaten aus der primären Seite einer Unterseite nutzen. [Weitere Informationen](#use-primary-page-context)
+Mit dem Inhaltseditor für Landingpages können auch kontextbezogene Daten aus der Primärseite einer Unterseite genutzt werden. [Weitere Informationen](#use-primary-page-context)
 
 ## Verwenden der Formularkomponente {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
->title="Formularkomponentenfelder festlegen"
->abstract="Definieren Sie, wie die Empfänger ihre Auswahl auf Ihrer Landingpage sehen und übermitteln."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definieren von Formularstilen für Landingpages"
+>title="Festlegen der Formularkomponentenfelder"
+>abstract="Hier kann definiert werden, wie die Empfängerinnen und Empfänger ihre Auswahl auf der Landingpage sehen und übermitteln."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=de#p-form-styles" text="Definieren von Formularstilen für Landingpages"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="Was passiert, wenn auf die Schaltfläche geklickt wird?"
->abstract="Definieren Sie, was beim Senden des Landingpage-Formulars durch Benutzer geschehen soll."
+>title="Effekt der Schaltfläche"
+>abstract="Es kann definiert werden, was beim Senden des Landingpage-Formulars durch Benutzende geschehen soll."
 
-Um bestimmte Inhalte zu definieren, mit denen Benutzer ihre Auswahl auf Ihrer Landingpage festlegen und unterbreiten können, verwenden Sie das **[!UICONTROL Formular]** -Komponente. Gehen Sie dazu wie folgt vor.
+Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine Auswahl auf der Landingpage zu treffen und zu übermitteln, kann die **[!UICONTROL Formular-Komponente]** verwendet werden. Gehen Sie dazu wie folgt vor.
 
 1. Ziehen Sie die Landingpage-spezifische **[!UICONTROL Formular]**-Komponente aus der linken Palette in den Hauptarbeitsbereich.
 
@@ -158,7 +158,7 @@ Angenommen, Sie verknüpfen zwei Kontrollkästchen auf Ihrer primären Seite mit
 
 Gehen Sie dazu wie folgt vor:
 
-1. Verknüpfen Sie auf der primären Seite jedes Kontrollkästchen der **[!UICONTROL Formular]** zur entsprechenden Abonnementliste hinzugefügt. [Weitere Informationen](#use-form-component).
+1. Auf der Primärseite wird jedes Kontrollkästchen der **[!UICONTROL Formular]**-Komponente mit der entsprechenden Abonnement-Liste verknüpft. [Weitere Informationen](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
