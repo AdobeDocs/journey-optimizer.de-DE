@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -156,9 +156,9 @@ Sie können die Vorgänge **Hinzufügen**, **Löschen** und **GET** ausführen.
 
 Erfahren Sie mehr über API-Aufrufe in der Referenzdokumentation zu [Adobe Experience Platform-APIs](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=de){target="_blank"}.
 
-## Zulassungsliste herunterladen {#download-allowed-list}
+## Herunterladen der Zulassungsliste {#download-allowed-list}
 
-Gehen Sie wie folgt vor, um die Zulassungsliste als CSV-Datei zu exportieren:
+Führen Sie die folgenden Schritte aus, um die Zulassungsliste als CSV-Datei zu exportieren:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL CSV herunterladen]**.
 
@@ -170,7 +170,7 @@ Gehen Sie wie folgt vor, um die Zulassungsliste als CSV-Datei zu exportieren:
 
    >[!NOTE]
    >
-   >Die Downloadzeit hängt von der Dateigröße ab, d. h. von der Anzahl der Adressen, die sich auf der Zulassungsliste befinden.
+   >Die Dauer des Downloads hängt von der Dateigröße ab, d. h. der Anzahl der Adressen, die sich auf der Zulassungsliste befinden.
    >
    >Es kann jeweils nur eine Download-Anfrage für eine Sandbox gleichzeitig verarbeitet werden.
 
