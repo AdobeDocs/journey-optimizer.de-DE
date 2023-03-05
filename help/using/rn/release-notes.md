@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Februar 2023 - Versionshinweise {#feb-2023}
+## Versionshinweise Februar 2023 {#feb-2023}
 
 ### Neue Funktionen{#feb-2023-features}
 
@@ -34,8 +34,8 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <tbody>
 <tr>
 <td>
-<p>Sie können Ihren App-Benutzern innerhalb einer Kampagne jetzt personalisierte In-App-Nachrichten senden. Verwenden Sie Journey Optimizer, um Benachrichtigungen zu erstellen und das Layout, die Anzeige, den Text und die Schaltflächen der Nachricht anzupassen, um ein nahtloses Erlebnis zu schaffen.</p>
-<p><strong>Vorsicht</strong> - Diese Funktion befindet sich derzeit in der Betaversion und steht nur Beta-Kunden zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
+<p>Es können nun innerhalb einer Kampagne personalisierte In-App-Nachrichten an Benutzende Ihrer App gesendet werden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
+<p><strong>Vorsicht</strong> – Diese Funktion befindet sich derzeit in der Beta-Version und steht nur der Beta-Kundschaft zur Verfügung. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -52,8 +52,8 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt eine Live-Verbindung mit Cloud-Speicherorten herstellen, um den Inhalt Ihrer Datensätze zu exportieren. Verfügbare Ziele sind: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
-<p><strong>Vorsicht</strong> - Diese Funktion befindet sich derzeit in der Beta-Phase und steht allen Adobe Journey Optimizer-Benutzern zur Verfügung. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie noch keinen Zugriff auf Ziele haben.</p>
+<p>Es kann jetzt eine Live-Verbindung mit Cloud-Speicherorten hergestellt werden, um den Inhalt der Datensätze zu exportieren. Verfügbare Ziele sind: Amazon S3-Cloud-Speicherziele, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
+<p><strong>Vorsicht</strong> – Diese Funktion befindet sich derzeit in der Beta-Phase und steht allen Adobe Journey Optimizer-Benutzenden zur Verfügung. Bitte wenden Sie sich an den Adobe-Support, um Zugang zu Zielen zu erhalten, falls Sie noch keinen Zugang haben.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../data/export-datasets.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -117,9 +117,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Die **Wartezeit beim erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld können Sie die Wartezeit definieren, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey zu betreten (beginnend mit einer Ereignis- oder Segmentqualifikation). Dadurch wird verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
+* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
 
-* Es wurden Verbesserungen für **Start- und Enddatum der Journey**. Wenn Sie kein Startdatum angegeben haben, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Segment lesen** Journey können Sie jetzt ein Enddatum hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
+* Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Segment-lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -137,11 +137,11 @@ Note that each widget can be resized and deleted as needed.
 
 **Administration**
 
-* **Zulassungsliste** - Sie können die Zulassungsliste jetzt als CSV-Datei herunterladen. [Weitere Informationen](../configuration/allow-list.md#download-allowed-list)
+* **Zulassungsliste** – Die Zulassungsliste kann jetzt als CSV-Datei heruntergeladen werden. [Weitere Informationen](../configuration/allow-list.md#download-allowed-list)
 
-* **E-Mail-Oberfläche** - Eine zusätzliche Prüfung wurde zu den E-Mail-Oberflächeneinstellungen hinzugefügt: , wenn der MX-Datensatz für die in der **Antwortadresse (E-Mail)** oder in **BCC-E-Mail-Adresse** nicht ordnungsgemäß konfiguriert ist, kann die E-Mail-Oberfläche nicht mehr erstellt werden. Sie müssen sie konfigurieren lassen oder eine andere verwenden. [Weitere Informationen](../email/email-settings.md#reply-to-email)
+* **E-Mail-Oberfläche** – Eine zusätzliche Prüfung wurde zu den E-Mail-Oberflächeneinstellungen hinzugefügt: Wenn der MX-Eintrag für die in der **Antwortadresse (E-Mail)** oder der **BCC-E-Mail-Adresse** verwendete Subdomain nicht ordnungsgemäß konfiguriert ist, kann die E-Mail-Oberfläche nicht mehr erstellt werden. Sie müssen ihn konfigurieren oder einen anderen verwenden. [Weitere Informationen](../email/email-settings.md#reply-to-email)
 
-* **E-Mail-Oberfläche** - Im **URL-Tracking-Parameter** in den E-Mail-Oberflächeneinstellungen die Begrenzung für jede **Wert** -Feld wurde aus Gründen der Kompatibilität mit Adobe Analytics-Tracking von 255 Zeichen auf 5 KB aktualisiert. [Weitere Informationen](../email/email-settings.md#url-tracking)
+* **E-Mail-Oberfläche** – Im Bereich **URL-Tracking-Parameter** in den E-Mail-Oberflächeneinstellungen wurde die Begrenzung für jedes **Wert**-Feld aus Gründen der Kompatibilität mit Adobe Analytics-Tracking von 255 Zeichen auf 5 KB aktualisiert. [Weitere Informationen](../email/email-settings.md#url-tracking)
 
 **Entscheidungs-Management**
 
@@ -149,7 +149,7 @@ Note that each widget can be resized and deleted as needed.
 * **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
 -->
 
-* **URL-Personalisierung** - Beim Hinzufügen von URLs als Inhalt zu den Darstellungen Ihrer Angebote können Sie diese URLs jetzt mit dem Ausdruckseditor personalisieren. [Weitere Informationen](../offers/offer-library/add-representations.md)
+* **URL-Personalisierung** – Beim Hinzufügen von URLs als Inhalt zu den Darstellungen von Angeboten können diese URLs jetzt mit dem Ausdruckseditor personalisiert werden. [Weitere Informationen](../offers/offer-library/add-representations.md)
 
 <!--
 * **Capping** - You can now reset the offer capping counter on a daily, weekly or monthly basis. [Learn more](../offers/offer-library/add-constraints.md#capping)

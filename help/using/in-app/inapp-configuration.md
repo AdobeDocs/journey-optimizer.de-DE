@@ -9,7 +9,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->Die In-App-Funktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die In-App-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [!DNL Adobe Experience Platform Data Collection] konfigurieren.
 
