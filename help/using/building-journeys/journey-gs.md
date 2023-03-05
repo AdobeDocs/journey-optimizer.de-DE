@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-Wenn die **Wiedereintritt erlauben** aktiviert ist, wird die **Wartezeit beim erneuten Eintritt** angezeigt. In diesem Feld können Sie die Wartezeit definieren, bevor Sie einem Profil erlauben, die Journey erneut in einheitlichen Journey zu betreten (beginnend mit einer Ereignis- oder Segmentqualifikation). Dadurch wird verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
+Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
 
 Weitere Informationen zur Verwaltung des Profileintritts finden Sie in [diesem Abschnitt](entry-management.md).
 
@@ -118,9 +118,9 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 ### Start- und Enddatum {#dates}
 
-Sie können ein **Startdatum** festlegen. Wenn Sie keinen festgelegt haben, wird dieser automatisch zum Zeitpunkt der Veröffentlichung definiert.
+Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wenn Sie kein Enddatum angeben, können Profile bis zum standardmäßigen Journey-Timeout bleiben (in der Regel 30 Tage, 7 Tage mit Add-On für den Health Care Shield). Die einzige Ausnahme sind Journey zum wiederkehrenden Lesen von Segmenten mit **Wiedereintritt bei Wiederauftreten erzwingen** aktiviert, die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wird kein Enddatum angegeben, können Profile bis zum standardmäßigen Journey-Timeout bleiben (in der Regel 30 Tage, 7 Tage mit Add-on-Angebot für Healthcare Shield). Die einzige Ausnahme sind Journeys zum wiederkehrenden Lesen von Segmenten, bei denen die Option **Erneuten Eintritt für Intervall erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
