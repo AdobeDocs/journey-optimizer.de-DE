@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Informationen zum Abonnieren und Konfigurieren von Warnhinweisen finden Sie auf 
 
 >[!AVAILABILITY]
 >
->Einige Designänderungen werden für den Warnhinweis &quot;Trigger lesen fehlgeschlagen&quot;durchgeführt. Daher wird dieser Warnhinweis vorerst angehalten und vorübergehend aus der Benutzeroberfläche entfernt. Sobald diese Änderungen veröffentlicht wurden, wird der Warnhinweis erneut angezeigt und Sie können ihn abonnieren.
+>Einige Design-Änderungen werden für den Warnhinweis „Auslöser für Segmentlesen erfolglos“ derzeit eingepflegt. Daher wird dieser Warnhinweis vorerst angehalten und wurde vorübergehend aus der Benutzeroberfläche entfernt. Sobald diese Änderungen veröffentlicht werden, wird der Warnhinweis erneut angezeigt und kann abonniert werden.
 
 Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
 
@@ -34,7 +34,7 @@ Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
 
 ![](assets/alerts1.png)-->
 
-Wenn ein unerwartetes Verhalten auftritt, wird eine Warnmeldung per E-Mail an Abonnenten des Warnhinweises in der oberen rechten Ecke der Benutzeroberfläche gesendet.
+Tritt ein unerwartetes Verhalten auf, wird eine Warnmeldung per E-Mail an Warnhinweis-Abonnierende gesendet, in der rechten oberen Ecke der Benutzeroberfläche.
 
 <!--![](assets/alerts2.png)-->
 
