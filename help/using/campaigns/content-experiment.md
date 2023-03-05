@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ Beachten Sie, dass jedes Widget bei Bedarf in der Größe verändert und gelösc
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
 >title="Erfolgsmetrik"
->abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen Ihrer Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
+>abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
 
 >[!AVAILABILITY]
 >
