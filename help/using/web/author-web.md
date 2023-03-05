@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugr
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Zu bearbeitende URL bestätigen"
->abstract="Bestätigen Sie die URL der Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, der auf die oben definierte Weboberfläche angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>title="Bestätigen der URL zum Bearbeiten"
+>abstract="Bestätigen Sie die URL der spezifischen Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Oberfläche angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
