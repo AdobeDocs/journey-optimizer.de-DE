@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Komposi
 
 >[!NOTE]
 >
->Sie können eine vorhandene Komposition jederzeit mit der Suchschaltfläche in der Liste duplizieren oder löschen.
+>Sie können eine bestehende Komposition jederzeit duplizieren oder löschen, indem Sie die Schaltfläche mit den Auslassungspunkten in der Liste verwenden.
 
 Weitere Informationen:
 
