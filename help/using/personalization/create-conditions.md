@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Wenn es Bedingungsregeln gibt, die Sie häufig wiederverwenden, können Sie sie 
 
 ## Bearbeiten und Löschen von gespeicherten bedingten Regeln {#edit-delete}
 
-Mit der Suchschaltfläche können Sie eine bedingte Regel jederzeit löschen.
+Eine bedingte Regel kann jederzeit mithilfe der Schaltfläche mit den Auslassungspunkten gelöscht werden.
 
 ![](assets/conditions-open.png)
 
