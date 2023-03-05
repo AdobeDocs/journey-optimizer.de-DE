@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
