@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -306,7 +306,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </table>
 -->
 
-### In-App-Metriken {#inapp-metrics}
+### In-App-Metriken         {#inapp-metrics}
 
 <table> 
  <thead> 
@@ -318,23 +318,23 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  <tbody>
  <tr> 
    <td>Klicks<br/> </td> 
-   <td>Gesamtzahl der Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.<br/> </td> 
+   <td>Gesamtzahl der Empfängerinnen und Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.<br/> </td> 
 </tr>
   <tr> 
    <td>Klickrate<br/> </td> 
-   <td>Prozentsatz der Benutzer, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben, in Bezug auf die Benutzer, die die Nachricht gesehen haben.<br/> </td> 
+   <td>Prozentualer Anteil der Benutzenden, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben, im Verhältnis zur Zahl der Benutzenden, die die Nachricht gesehen haben.<br/> </td> 
 </tr> 
   <tr> 
    <td>Abbruchrate<br/> </td> 
-   <td> Prozentsatz der In-App-Nachrichten, die von Empfängern verworfen wurden.<br/> </td> 
+   <td> Prozentsatz der In-App-Nachrichten, die von Empfängerinnen und Empfängern verworfen wurden.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Impressions<br/> </td> 
-   <td> Gesamtzahl der an alle Benutzer gesendeten In-App-Nachrichten.<br/> </td>
+   <td>Impressionen<br/> </td> 
+   <td> Gesamtzahl der an alle Benutzenden gesendeten In-App-Nachrichten.<br/> </td>
 </tr>
   <tr> 
    <td>Einzelimpressionen<br/> </td> 
-   <td>Anzahl der Unique Users, an die die In-App-Nachricht gesendet wurde.<br/> </td>
+   <td>Anzahl der eindeutigen Benutzenden, an die die In-App-Nachricht gesendet wurde.<br/> </td>
 </tr>
  </tbody> 
 </table>
