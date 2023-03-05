@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1652'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -151,13 +151,13 @@ Bitte die nachstehenden Empfehlungen befolgen, um eine ordnungsgemäße Antwortv
 
 * Bitte im Posteingang für Antworten keine Nachrichten als Spam markieren, da sich das auf alle anderen an diese Adresse gesendeten Antworten auswirken würde.
 
-Darüber hinaus wird bei der Definition der **[!UICONTROL Antwort an (E-Mail)]** -Adresse verwenden, stellen Sie sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Oberflächenverarbeitung fehl.
+Darüber hinaus ist bei der Definition der **[!UICONTROL Antwortadresse (E-Mail)]** sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Oberfläche fehl.
 
-Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Wenden Sie sich an Ihren Administrator, um den entsprechenden MX-Datensatz zu konfigurieren, oder verwenden Sie eine andere Adresse mit einer gültigen MX-Datensatzkonfiguration.
+Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
 >[!NOTE]
 >
->Wenn die Subdomain der eingegebenen Adresse eine Domäne ist, die [vollständig delegiert](../configuration/delegate-subdomain.md#full-subdomain-delegation) zur Adobe kontaktieren Sie Ihren Adobe-Kundenbetreuer.
+>Wenn die Subdomain der eingegebenen Adresse eine Domain ist, die Adobe [komplett delegiert](../configuration/delegate-subdomain.md#full-subdomain-delegation) wurde, kontaktieren Sie die Adobe-Kundenbetreuung.
 
 ### Weiterleiten von E-Mails {#forward-email}
 
@@ -182,9 +182,9 @@ Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **
 
 ![](assets/preset-bcc.png)
 
-Darüber hinaus wird bei der Definition der **[!UICONTROL Bcc-E-Mail]** -Adresse verwenden, stellen Sie sicher, dass Sie eine Subdomain mit einer gültigen MX-Datensatzkonfiguration verwenden. Andernfalls schlägt die E-Mail-Oberflächenverarbeitung fehl.
+Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Oberfläche fehl.
 
-Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Wenden Sie sich an Ihren Administrator, um den entsprechenden MX-Datensatz zu konfigurieren, oder verwenden Sie eine andere Adresse mit einer gültigen MX-Datensatzkonfiguration.
+Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
 ## E-Mail-Wiederholungsparameter {#email-retry}
 
@@ -249,7 +249,7 @@ Mithilfe des [Ausdruckseditors](../personalization/personalization-build-express
 
 >[!NOTE]
 >
->Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jeder **[!UICONTROL Wert]** -Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
+>Sie können die Eingabe von Textwerten und die Verwendung von kontextuellen Attributen im Ausdruckseditor kombinieren. Jedes **[!UICONTROL Wert]**-Feld kann eine Anzahl von Zeichen bis zu einer Größe von 5 KB enthalten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
