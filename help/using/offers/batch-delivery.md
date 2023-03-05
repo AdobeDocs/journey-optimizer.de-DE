@@ -3,9 +3,9 @@ title: Batch-Entscheidungen
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einem bestimmten Adobe Experience Platform-Segment senden.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Nachdem eine Vorgangsanfrage erstellt wurde, durchläuft der Batch-Vorgang mehre
 
 >[!NOTE]
 >
->Um sicherzustellen, dass Sie die neuesten Informationen zum Status einer Auftragsanfrage erhalten, verwenden Sie die Suchschaltfläche neben dem Auftrag, um ihn zu aktualisieren.
+>Um sicherzustellen, dass Sie die neuesten Informationen zum Status einer Vorgangsanfrage erhalten, können Sie diese über die Schaltfläche mit den Auslassungspunkten neben dem Vorgang aktualisieren.
 
 1. **[!UICONTROL In Warteschlange]**: Die Vorgangsanfrage wurde erstellt und in die Verarbeitungswarteschlange eingereiht. Pro Datensatz können bis zu 5 Batch-Vorgänge gleichzeitig ausgeführt werden. Alle anderen Batch-Anfragen mit demselben Ausgabedatensatz werden der Warteschlange hinzugefügt. Ein in die Warteschlange gestellter Vorgang wird zur Verarbeitung aufgenommen, sobald der vorherige Vorgang abgeschlossen ist.
 1. **[!UICONTROL Verarbeitung läuft]**: Die Vorgangsanfrage wird verarbeitet
