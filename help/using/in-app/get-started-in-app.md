@@ -9,9 +9,9 @@ keywords: In-App, Nachricht, Erstellung, Starten
 badge: label="Beta" type="Informative"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->Die In-App-Funktion ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die In-App-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-In-App-Nachrichten sind Benachrichtigungen, die an Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Zielpunkten führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboarding von Benutzern. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Zielgruppe interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
+In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Audience interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
 
 Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen.
 
