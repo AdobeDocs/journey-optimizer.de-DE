@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + KI-Modelltypen {#ai-model-types}
             + [Modell für automatische Optimierung](using/offers/ranking/auto-optimization-model.md)
             + [Modell zur personalisierten Optimierung](using/offers/ranking/personalized-optimization-model.md)
-         + Erstellen von KI-Modellen {#configure-ai-model}
-            + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/ranking/create-dataset.md)
-            + [Erstellen eines KI-Modells](using/offers/ranking/create-ranking-strategies.md)
-            + [Konfigurieren der Ereigniserfassung](using/offers/ranking/schema-requirement.md)
+         + [Erstellen von KI-Modellen](using/offers/ranking/create-ranking-strategies.md)
    + Erstellen und Verwalten von Angeboten {#managing-offers-in-the-offer-library}
       + Konfigurieren von Angeboten {#configure-offers}
          + [Erstellen von personalisierten Angeboten](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,7 +346,11 @@ ht-degree: 97%
       + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten in Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
       + [Erstellen von Simulationen](using/offers/offer-activities/simulation.md)
-   + [Batch-Entscheidungsfindung](using/offers/batch-delivery.md)
+   + [Batch-Entscheidung verwenden](using/offers/batch-delivery.md)
+   + Erfassen von Ereignisdaten {#collect-event-data}
+      + [Erste Schritte mit der Datenerfassung](using/offers/data-collection/data-collection.md)
+      + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/data-collection/create-dataset.md)
+      + [Konfigurieren der Ereigniserfassung](using/offers/data-collection/schema-requirement.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
       + [Erste Schritte mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Wichtige Informationen zu Entscheidungs-Management-Ereignissen](using/offers/reports/key-information.md)

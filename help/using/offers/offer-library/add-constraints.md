@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 97%
+source-wordcount: '2197'
+ht-degree: 77%
 
 ---
 
@@ -57,7 +57,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 * Das Angebot wird nur bei Benutzern berücksichtigt, die die Entscheidungsregel „Gold-Treuekunden“ erfüllen.
 * Die Priorität des Angebots ist mit „50“ festgelegt, d. h. das Angebot wird vor Angeboten mit einer Priorität zwischen 1 und 49 und nach Angeboten mit einer Priorität von mindestens 51 unterbreitet.
-* Das Angebot wird für alle Platzierungen nur einmal pro Benutzer angezeigt.
+* Das Angebot wird nur einmal pro Monat pro Benutzer für alle Platzierungen angezeigt.
 
 ## Eignung {#eligibility}
 
@@ -138,63 +138,37 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >id="ajo_decisioning_capping"
 >title="Verwenden der Begrenzung"
 >abstract="Um zu vermeiden, dass Ihre Kunden und Kundinnen zu oft angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Festlegen der Begrenzungsfrequenz"
->abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen."
+>abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Speicherung Ihres Angebots die ausgewählte Häufigkeit nicht ändern können."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="Die Verwendung von Impressionen als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;Die Verwendung von Impressionen als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar.&quot;
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
 Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
 
-Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
+Gehen Sie wie folgt vor, um eine Begrenzung festzulegen.
 
-1. Definieren Sie, wie oft das Angebot unterbreitet werden kann.
+1. Stellen Sie sicher, dass **[!UICONTROL Begrenzung einschließen]** Die Umschalter-Schaltfläche ist ausgewählt. Die Begrenzung ist standardmäßig enthalten.
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Der Wert muss eine Ganzzahl größer 0 sein.
+   >Es ist nicht möglich, die Frequenzlimitierung für zuvor erstellte Angebote zu aktivieren oder zu deaktivieren. Dazu müssen Sie das Angebot duplizieren oder ein neues erstellen.
 
-1. Geben Sie an, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
+1. Definieren Sie, **[!UICONTROL Begrenzungsereignis]** berücksichtigt werden, um den Zähler zu erhöhen. [Weitere Informationen](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. Definieren Sie, wie oft das Angebot unterbreitet werden kann. [Weitere Informationen](#capping-type)
 
-   * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Ziel-Audience vorgeschlagen werden kann, d. h. für alle Benutzer.
+1. Legen Sie die **[!UICONTROL Häufigkeit]** , um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. [Weitere Informationen](#frequency-capping)
 
-      Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
-
-   * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
-
-      Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL Alle Platzierungen]**: Die Begrenzungswerte beziehen sich auf alle Entscheidungen in allen Platzierungen, die mit dem Angebot verbunden sind.
-
-      Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
-
-   * **[!UICONTROL Einzelne Platzierung]**: Die Begrenzungswerte beziehen sich auf jede einzelne Platzierung.
-
-      Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
+1. Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten. [Weitere Informationen](#placements)
 
 1. Wenn das Angebot nach dem Speichern und der Genehmigung entsprechend den von Ihnen festgelegten Kriterien und dem Zeitrahmen so oft präsentiert wurde, wie Sie in diesem Feld angegeben haben, wird es nicht mehr bereitgestellt.
 
@@ -205,6 +179,86 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 >[!NOTE]
 >
 >Die Begrenzungszähler werden zurückgesetzt, wenn das Angebot abgelaufen ist, oder 2 Jahre nach dem Anfangsdatum des Angebots, je nachdem, was zuerst eintritt. In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
+
+### Begrenzungsereignis {#capping-event}
+
+Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, **[!UICONTROL Begrenzungsereignis]** berücksichtigt, um den Zähler zu erhöhen:
+
+* **[!UICONTROL Entscheidungsereignis]** (Standardwert): Maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
+* **[!UICONTROL Impression]**: Maximale Häufigkeit, mit der das Angebot einem Benutzer angezeigt werden kann.
+
+   >[!NOTE]
+   >
+   >Die Verwendung von Impressionen als Begrenzungsereignisse ist verfügbar für **eingehende Kanäle** nur.
+
+* **[!UICONTROL Klicks]**: Maximale Anzahl der Klicks auf das Angebot durch einen Benutzer.
+* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Tilgungen begrenzen, bis ein bestimmtes Profil 1 Mal eingelöst wurde. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} Schemas, um eine benutzerspezifische Ereignisregel zu erstellen.
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zur Entscheidungsverwaltung möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
+
+### Begrenzungstyp {#capping-type}
+
+Die **[!UICONTROL Begrenzungstyp]** -Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>Der Wert muss eine Ganzzahl größer 0 sein.
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+Sie können auch angeben, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
+
+![](../assets/offer-capping-total.png)
+
+* Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Ziel-Audience vorgeschlagen werden kann, d. h. für alle Benutzer.
+
+   Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
+
+* Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
+
+   Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+
+### Frequenzlimitierung {#frequency-capping}
+
+Die **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>Das Zurücksetzen erfolgt um 12 Uhr UTC, an dem von Ihnen definierten Tag oder gegebenenfalls am ersten Tag der Woche/des Monats. Der Wochentag ist Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d.h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
+
+Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** von **[!UICONTROL Wiederholen]** Dropdown-Liste und Typ **2** im anderen Feld. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 23:00 Uhr UTC.
+
+>[!CAUTION]
+>
+>Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Frequenz ausgewählt haben, nicht mehr ändern.
+
+### Begrenzung und Platzierung {#placements}
+
+Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL Alle Platzierungen]**: Die Begrenzungswerte beziehen sich auf alle Entscheidungen in allen Platzierungen, die mit dem Angebot verbunden sind.
+
+   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
+
+* **[!UICONTROL Einzelne Platzierung]**: Die Begrenzungswerte beziehen sich auf jede einzelne Platzierung.
+
+   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 
 ### Auswirkungen von Datumsänderungen auf die Begrenzung {#capping-change-date}
 
