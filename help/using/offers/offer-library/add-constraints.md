@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2189'
 ht-degree: 77%
 
 ---
@@ -145,10 +145,10 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >title="Festlegen der Begrenzungsfrequenz"
 >abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Speicherung Ihres Angebots die ausgewählte Häufigkeit nicht ändern können."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impression&quot;
->abstract=&quot;Die Verwendung von Impressionen als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="Die Verwendung von Impressionen als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
