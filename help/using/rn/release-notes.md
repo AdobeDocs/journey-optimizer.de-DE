@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ Als Journey Optimizer-Praktiker können Sie Ihre Geschäftsobjekte jetzt mithilf
 Um mögliche Verwirrungen mit der kürzlich veröffentlichten Funktion der Tags in Adobe Experience Platform zu vermeiden, wurden Entscheidungs-Management-Tags in &quot;Sammlungsbezeichner&quot;umbenannt.
 
 Beachten Sie, dass der Begriff &quot;Tag&quot;zwar nicht mehr in der Benutzeroberfläche von Decision Management verwendet wird, aber dennoch in Backend-Diensten wie APIs und Datensätzen verwendet wird.
+
+**Entscheidungsmanagement-Begrenzung**
+
+* Jetzt können Sie den Angebotsbegrenzungszähler täglich, wöchentlich oder monatlich zurücksetzen. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+
+* Sie können auch festlegen, welches Adobe Experience Platform-Ereignis nach einer offer decisioning-Begrenzung geprüft werden soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 ## Versionshinweise Februar 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL-Personalisierung** – Beim Hinzufügen von URLs als Inhalt zu den Darstellungen von Angeboten können diese URLs jetzt mit dem Ausdruckseditor personalisiert werden. [Weitere Informationen](../offers/offer-library/add-representations.md)
-
-* **Begrenzung** - Sie können nun den Angebotsbegrenzungszähler täglich, wöchentlich oder monatlich zurücksetzen. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-
-* **Begrenzung** - Sie können jetzt festlegen, welches Adobe Experience Platform-Ereignis nach einer offer decisioning-Begrenzung geprüft werden soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 ## Version Januar 2023 {#jan-2023-release}
 
