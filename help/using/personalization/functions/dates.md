@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 75%
 
 ---
 
@@ -142,6 +142,35 @@ Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+```
+
+## Datum mit Gebietsschema-Unterstützung formatieren{#format-date-locale}
+
+Die `formatDate` -Funktion wird verwendet, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
+
+**Syntax**
+
+```sql
+{%= formatDate(datetime, format, locale) %}
+```
+
+Wobei die erste Zeichenfolge das Datumsattribut ist, ist der zweite Wert die Art, wie das Datum konvertiert und angezeigt werden soll, und der dritte Wert stellt das Gebietsschema im Zeichenfolgenformat dar.
+
+>[!NOTE]
+>
+> Wenn ein Datumsformat ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
+>
+> Sie können die Java-Formatierungsfunktionen für Datumsangaben verwenden, wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+>
+> Sie können die Formatierung und gültige Gebietsschemata wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+
+
+**Beispiel**
+
+Der folgende Vorgang gibt das Datum im folgenden Format zurück: MM/TT/JJ und Gebietsschema FRANKREICH.
+
+```sql
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
 ## Tage festlegen{#set-days}
