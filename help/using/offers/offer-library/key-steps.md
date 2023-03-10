@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 1. **Erstellen Sie Entscheidungsregeln**, die die Bedingungen für die Präsentation der Angebote festlegen.
 
-1. **Erstellen Sie Tags**, die Sie mit den Angeboten verknüpfen, damit Sie Angebote einfach organisieren und in der Bibliothek suchen können.
+1. **Kollektionskennungen erstellen** (ehemals &quot;Tags&quot;), die Sie mit den Angeboten verknüpfen, sodass Sie sie einfach organisieren und in der Bibliothek durchsuchen können.
 
 1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie **eine Rangfolgenformel** erstellen.
 

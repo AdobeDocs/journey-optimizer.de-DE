@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '2008'
-ht-degree: 100%
+source-wordcount: '2014'
+ht-degree: 98%
 
 ---
 
@@ -342,14 +342,14 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > tags
 
-**Feld:** tags 
-**Titel:** Tags 
-**Beschreibung:** Der Satz von Tags, die mit dieser Entität verknüpft sind. Die Tags werden in Filterausdrücken verwendet, um das Gesamtinventar auf eine Untergruppe (Kategorie) beschränken.
+**Feld:** tags
+**Titel:** Tags
+**Beschreibung:** Die Gruppe von Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet), die mit dieser Entität verknüpft sind. Die Sammlungsbezeichner werden in Filterausdrücken verwendet, um den Gesamtbestand auf eine Untergruppe (Kategorie) zu beschränken.
 **Typ:** Array
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 

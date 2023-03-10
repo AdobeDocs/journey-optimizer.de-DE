@@ -1,44 +1,44 @@
 ---
-title: Erstellen von Tags
-description: Erfahren Sie, wie Sie Tags für Ihre Angebote erstellen können
+title: Kollektionskennungen erstellen
+description: Erfahren Sie, wie Sie Kollektionskennungen für Ihre Angebote erstellen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 12%
 
 ---
 
-# Erstellen von Tags {#create-tags}
+# Kollektionskennungen erstellen {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="Tags"
->abstract="Verknüpfen Sie ein oder mehrere Tags mit dem Angebot, um die Angebotsbibliothek besser zu organisieren und Angebote leichter zu finden. Tags werden im Menü „Komponente“ erstellt."
+>title="Sammlungsbezeichner"
+>abstract="Verknüpfen Sie mindestens einen Kollektionsbezeichner mit dem Angebot, um die Angebotsbibliothek besser zu organisieren und Angebote leichter zu finden. Sammlungsbezeichner werden im Menü &quot;Komponente&quot;erstellt."
 
-Das Zuweisen von Tags zu Ihren Angeboten erleichtert deren Organisation. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
+Die Zuordnung von Sammlungsbezeichner (ehemals &quot;Tags&quot;) zu Ihren Angeboten erleichtert die Organisation. Sie können beispielsweise Ihre Black Friday-Angebote mit dem Sammlungsbezeichner &quot;Black Friday&quot;kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Sammlungsbezeichner einfach zu finden.
 
-Tags können auch dazu dienen, Angebote in Angebotssammlungen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
+Sammlungsbezeichner können auch verwendet werden, um Angebote in Angebotskollektionen zu gruppieren. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-Die Liste der erstellten Tags ist im Menü **[!UICONTROL Komponenten]** verfügbar.
+Die Liste der erstellten Sammlungsbezeichner finden Sie im Abschnitt **[!UICONTROL Komponenten]** Menü.
 
 ![](../assets/tags_list.png)
 
-Gehen Sie wie folgt vor, um ein Tag zu erstellen:
+Gehen Sie wie folgt vor, um einen Kollektionsbezeichner zu erstellen:
 
-1. Gehen Sie zur Registerkarte **[!UICONTROL Tags]** und klicken Sie auf **[!UICONTROL Tag erstellen]**.
+1. Navigieren Sie zu **[!UICONTROL Sammlungsbezeichner]** Registerkarte und klicken Sie dann auf **[!UICONTROL Kollektionsqualifikation erstellen]**.
 
-1. Geben Sie den Namen des Tags ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Geben Sie den Namen des Sammlungsqualifizierers an und klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](../assets/tags_create.png)
 
-1. Nachdem das Tag erstellt wurde, wird es in der Liste angezeigt. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
+1. Nachdem der Sammlungsbezeichner erstellt wurde, wird er in der Liste angezeigt. Sie können das Angebot auswählen, um seine Eigenschaften anzuzeigen und um es zu bearbeiten oder zu unterdrücken.
 
    ![](../assets/tags_created.png)
 

@@ -1,25 +1,25 @@
 ---
-title: Tags auflisten
-description: Mit Tags können Sie Ihre Angebote besser organisieren und sortieren.
+title: Kollektionskennungen auflisten
+description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 54%
 
 ---
 
-# Tags auflisten {#list-tags}
+# Kollektionskennungen auflisten {#list-tags}
 
-Mit Tags können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Tag „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Tag bequem zu finden.
+Mit Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Sie können beispielsweise Ihre Black Friday-Angebote mit dem Sammlungsbezeichner &quot;Black Friday&quot;kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Sammlungsbezeichner einfach zu finden.
 
-Tags können auch dazu dienen, Angebote in Sammlungen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Sammlungen](../../../offer-library/creating-collections.md).
+Sammlungsbezeichner können auch verwendet werden, um Angebote in Kollektionen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Sammlungen](../../../offer-library/creating-collections.md).
 
-Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Tags in einem Container anzeigen.
+Sie können eine Liste aller Sammlungsbezeichner in einem Container anzeigen, indem Sie eine einzige GET-Anfrage an die [!DNL Offer Library] API.
 
 **API-Format**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Tags befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definiert das mit Tags verknüpfte Schema. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsbezeichner befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Definiert das Schema, das mit Sammlungsbezeichner verknüpft ist. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 
 **Anfrage**
@@ -60,11 +60,11 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Tags ein. | `limit=5` |
+| `limit` | Schränken Sie die Anzahl der zurückgegebenen Sammlungsbezeichner ein. | `limit=5` |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort wird eine Liste von Tags zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Sammlungsbezeichner zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {

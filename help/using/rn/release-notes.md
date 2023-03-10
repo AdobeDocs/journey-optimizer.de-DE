@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 **Verwalten von Tags in Ihren Journey**
 
 Als Journey Optimizer-Praktiker können Sie Ihre Geschäftsobjekte jetzt mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern. Diese Funktion befindet sich derzeit in der Beta-Phase und steht nur Journey zur Verfügung. [Weitere Informationen](../building-journeys/tags.md)
+
+**Entscheidungs-Management-Tags, die in Sammlungsbezeichner umbenannt werden**
+
+Um mögliche Verwirrungen mit der kürzlich veröffentlichten Funktion der Tags in Adobe Experience Platform zu vermeiden, wurden Entscheidungs-Management-Tags in &quot;Sammlungsbezeichner&quot;umbenannt.
+
+Beachten Sie, dass der Begriff &quot;Tag&quot;zwar nicht mehr in der Benutzeroberfläche von Decision Management verwendet wird, aber dennoch in Backend-Diensten wie APIs und Datensätzen verwendet wird.
 
 ## Versionshinweise Februar 2023 {#feb-2023}
 

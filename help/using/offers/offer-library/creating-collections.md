@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 100%
+source-wordcount: '321'
+ht-degree: 64%
 
 ---
 
@@ -30,7 +30,7 @@ Die Liste der Angebotssammlungen ist im Menü **[!UICONTROL Angebote]** verfügb
 
 Sie können zwei Arten von Sammlungen erstellen:
 
-* **Dynamische Kollektionen** sind Sammlungen von Angeboten, die auf Tags basieren. Diese Sammlungen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem ausgewählten Tag erstellt wird, wird es automatisch der Sammlung hinzugefügt.
+* **Dynamische Sammlungen** sind Kollektionen von Angeboten, die auf Sammlungsqualifikatoren basieren (zuvor als &quot;Tags&quot;bezeichnet). Diese Sammlungen werden automatisch aktualisiert. Wenn beispielsweise ein neues Angebot mit dem ausgewählten Sammlungsbezeichner erstellt wird, wird es automatisch zur Kollektion hinzugefügt.
 
 * **Statische Kollektionen** sind Sammlungen, die durch manuelles Auswählen einzelner Angebote erstellt werden, die in die Kollektion aufgenommen werden sollen. Eine solche Sammlung kann nur aktualisiert werden, indem ihr manuell weitere Angebote hinzufügt werden.
 
@@ -42,13 +42,13 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
    ![](../assets/collection_create.png)
 
-1. Um eine dynamische Sammlung zu erstellen, wählen Sie im linken Bereich das Tag der Angebote aus, die der Sammlung hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Alle Angebote mit dem ausgewählten Tag werden in der Sammlung gespeichert.
+1. Um eine dynamische Kollektion zu erstellen, wählen Sie im linken Bereich den Sammlungsbezeichner der Angebote aus, die zur Kollektion hinzugefügt werden sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**. Alle Angebote mit dem ausgewählten Sammlungsbezeichner werden in der Kollektion gespeichert.
 
-   Weitere Informationen zum Erstellen von Tags finden Sie unter [Tags erstellen](../offer-library/creating-tags.md).
+   Weiterführende Informationen zur Erstellung von Sammlungsbezeichner finden Sie unter [Kollektionskennungen erstellen](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. Um eine statische Sammlung zu erstellen, verwenden Sie den linken Bereich, um die Liste der Angebote (nach Status, Tag, Datum, Kanal, Inhaltstyp) zu filtern, und wählen Sie dann die Angebote aus, die der Sammlung hinzugefügt werden sollen.
+1. Um eine statische Kollektion zu erstellen, verwenden Sie den linken Bereich, um die Liste der Angebote zu filtern (Status, Sammlungsbezeichner, Datum, Kanal, Inhaltstyp), und wählen Sie dann die Angebote aus, die der Kollektion hinzugefügt werden sollen.
 
    ![](../assets/static_collection.png)
 

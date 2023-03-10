@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Die wichtigsten Schritte zum Konfigurieren von Angeboten, zum Einbeziehen in ein
 
    * Erstellen von Platzierungen
    * Erstellen von Entscheidungsregeln
-   * Erstellen von Tags
+   * Erstellen von Sammlungskennungen (zuvor als &quot;Tags&quot;bezeichnet)
    * Ranking erstellen (optional)
 
 
@@ -94,15 +94,15 @@ Sie finden sie im Menü **[!UICONTROL Entscheidungs-Management]** > **[!UICONTRO
 
    Die detaillierten Schritte zum Erstellen von Regeln werden in [diesem Abschnitt](../../using/offers/offer-library/creating-decision-rules.md) beschrieben.
 
-1. Sie können auch ein **Tag** erstellen.
+1. Sie können auch eine **Sammlungsbezeichner**.
 
-   Anschließend können Sie es mit Ihren Angeboten verknüpfen und dieses Tag verwenden, um Ihre Angebote in einer Sammlung zusammenzufassen.
+   Anschließend können Sie sie Ihren Angeboten zuordnen und mithilfe dieses Kollektionsqualifizierers Ihre Angebote in einer Kollektion zusammenfassen.
 
-   Erstellen Sie in diesem Beispiel das Tag *Yoga*.
+   Erstellen Sie in diesem Beispiel die *Yoga* Sammlungsbezeichner.
 
    ![](assets/offers-e2e-tag.png)
 
-   Die detaillierten Schritte zum Erstellen von Tags werden in [diesem Abschnitt](../../using/offers/offer-library/creating-tags.md) beschrieben.
+   Die detaillierten Schritte zum Erstellen von Sammlungskennungen werden im Abschnitt [diesem Abschnitt](../../using/offers/offer-library/creating-tags.md).
 
 1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet wird (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie eine **Rangfolgenformel** erstellen.
 
@@ -183,7 +183,7 @@ Bei der Konfiguration der Entscheidung müssen Sie Ihre personalisierten Angebot
 
 1. Um den Entscheidungsprozess zu beschleunigen, erstellen Sie eine dynamische Sammlung.
 
-1. Verwenden Sie das Tag *Yoga*, um die vier zuvor erstellten personalisierten Angebote auszuwählen.
+1. Verwenden Sie die *Yoga* Kollektionsqualifikator zur Auswahl der vier personalisierten Angebote, die Sie zuvor erstellt haben.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 

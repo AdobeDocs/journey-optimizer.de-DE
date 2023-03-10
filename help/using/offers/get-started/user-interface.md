@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 * **[!UICONTROL Platzierungen]**: Erstellen und verwalten Sie Platzierungen, an denen Ihre Angebote angezeigt werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Tags]**: Erstellen und verwalten Sie Tags, um Ihre Angebote zu organisieren und zu filtern. Siehe [Erstellen von Tags](../offer-library/creating-tags.md).
+* **[!UICONTROL Sammlungsbezeichner]**: Erstellen und verwalten Sie Sammlungsbezeichner (ehemals &quot;Tags&quot;), um Ihre Angebote zu organisieren und zu filtern. Siehe [Sammlungsbezeichner erstellen](../offer-library/creating-tags.md).
 
 * **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. Näheres dazu finden Sie unter [Erstellen einer Entscheidungsregel](../offer-library/creating-decision-rules.md).
 
