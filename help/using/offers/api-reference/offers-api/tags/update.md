@@ -1,21 +1,21 @@
 ---
-title: Tags aktualisieren
-description: Mit Tags können Sie Ihre Angebote besser organisieren und sortieren.
+title: Aktualisierung der Sammlungsbezeichner
+description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Tag aktualisieren {#update-tag}
+# Kollektionsqualifikation aktualisieren {#update-collection-qualifier}
 
-Sie können ein Tag in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
+Sie können einen Sammlungsbezeichner (zuvor als &quot;Tag&quot;bezeichnet) in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library] API.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](http://jsonpatch.com/).
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details des Tags zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Tag-`@id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details des Sammlungsqualifizierers zurückgegeben, einschließlich der eindeutigen Instanz-ID und des Sammlungsqualifizierers `@id`.
 
 ```json
 {
