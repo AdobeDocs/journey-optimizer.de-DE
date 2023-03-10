@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 77%
+source-wordcount: '2290'
+ht-degree: 73%
 
 ---
 
@@ -164,7 +164,9 @@ Gehen Sie wie folgt vor, um eine Begrenzung festzulegen.
 
 1. Definieren Sie, **[!UICONTROL Begrenzungsereignis]** berücksichtigt werden, um den Zähler zu erhöhen. [Weitere Informationen](#capping-event)
 
-1. Definieren Sie, wie oft das Angebot unterbreitet werden kann. [Weitere Informationen](#capping-type)
+1. Legen Sie fest, wie oft das Angebot unterbreitet werden kann. [Weitere Informationen](#capping-count)
+
+1. Wählen Sie aus, ob die Begrenzung auf alle Benutzer oder nur auf ein Profil angewendet werden soll. [Weitere Informationen](#capping-type)
 
 1. Legen Sie die **[!UICONTROL Häufigkeit]** , um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. [Weitere Informationen](#frequency-capping)
 
@@ -184,6 +186,8 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 
 Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, **[!UICONTROL Begrenzungsereignis]** berücksichtigt, um den Zähler zu erhöhen:
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
 * **[!UICONTROL Impression]**: Maximale Häufigkeit, mit der das Angebot einem Benutzer angezeigt werden kann.
 
@@ -192,21 +196,25 @@ Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, **[!UICON
    >Die Verwendung von Impressionen als Begrenzungsereignisse ist verfügbar für **eingehende Kanäle** nur.
 
 * **[!UICONTROL Klicks]**: Maximale Anzahl der Klicks auf das Angebot durch einen Benutzer.
-* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Tilgungen begrenzen, bis ein bestimmtes Profil 1 Mal eingelöst wurde. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} Schemas, um eine benutzerspezifische Ereignisregel zu erstellen.
+* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Tilgungen auf 10000 begrenzen, bis ein bestimmtes Profil 1 Mal eingelöst wurde. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} Schemas, um eine benutzerspezifische Ereignisregel zu erstellen.
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   Im folgenden Beispiel soll die Anzahl der Anmeldungen begrenzt werden. Auswählen **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die **[!UICONTROL Benutzerdefinierte Ereignisregeln erstellen]** Builder zur Auswahl der relevanten Ereignisse.
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   Nachdem die Regel erstellt wurde, wird sie im **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** -Feld.
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zur Entscheidungsverwaltung möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
 
-### Begrenzungstyp {#capping-type}
+### Begrenzungsanzahl {#capping-count}
 
-Die **[!UICONTROL Begrenzungstyp]** -Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann.
+Die **[!UICONTROL Begrenzungsanzahl]** -Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann.
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ Die **[!UICONTROL Begrenzungstyp]** -Feld können Sie angeben, wie oft das Angeb
 >
 >Der Wert muss eine Ganzzahl größer 0 sein.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+Wenn Sie beispielsweise ein benutzerdefiniertes Begrenzungsereignis wie Abonnements definiert haben, werden Sie berücksichtigt, wenn Sie in der **[!UICONTROL Begrenzungsanzahl]** kein Angebot mehr nach 10 Anmeldungen gesendet.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### Begrenzungstyp {#capping-type}
 
 Sie können auch angeben, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
 

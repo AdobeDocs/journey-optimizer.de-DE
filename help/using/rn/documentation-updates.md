@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## März 2023 {#march-2023}
 
-* Im Entscheidungshandbuch wurde ein neuer Abschnitt erstellt, in dem beschrieben wird, wie offer decisioning-Feedback in Adobe Experience Platform gesammelt werden kann, einschließlich der angezeigten Angebote und der Interaktion der Benutzer mit ihnen.  [Weitere Informationen](../offers/data-collection/data-collection.md)
+* Im Entscheidungshandbuch wurde ein neuer Abschnitt erstellt, in dem beschrieben wird, wie offer decisioning-Feedback in Adobe Experience Platform gesammelt werden kann, einschließlich der angezeigten Angebote und der Interaktion der Benutzer mit ihnen. [Weitere Informationen](../offers/data-collection/data-collection.md)
 
 ## Februar 2023 {#feb-2023}
 
 * In der Dokumentation zu API-ausgelösten Kampagnen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die in die Anfrage übergebenen kontextuellen Attribute 50 KB nicht überschreiten dürfen. [Mehr dazu](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Einverständnisdienstes** gespeichert werden, nachdem Empfänger über eine Landingpage das Abo gekündigt haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Zustimmungsdienstes** nachdem sich Empfänger über eine Landingpage abgemeldet haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januar 2023 {#jan-2023}
 
