@@ -10,10 +10,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
-source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
+source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 6%
+source-wordcount: '769'
+ht-degree: 7%
 
 ---
 
@@ -32,9 +32,9 @@ Bevor Sie mit der Verwendung dieser Funktion beginnen, stellen Sie sicher, dass 
 
 * **Experience Manager-Einstellungen**
 
-   Diese Funktion ist ab Adobe Experience Manager 6.5.14 verfügbar. Sie müssen in Ihrer Managed Services-Autorenumgebung eine Verbindung zu Adobe Experience Manager Sites herstellen.
+   Diese Funktion ist verfügbar mit [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=de){target="_blank"}.
 
-   Im Rahmen des Betaprogramms wurde die Konfiguration der Cloud Service von Adobe in Adobe Experience Manager durchgeführt, um eine Verbindung mit Adobe Journey Optimizer herzustellen.
+   Im Rahmen des Betaprogramms wird die Konfiguration von Cloud Services von Adobe in Adobe Experience Manager durchgeführt, um eine Verbindung mit Adobe Journey Optimizer herzustellen.
 
 * **Berechtigungen**
 
