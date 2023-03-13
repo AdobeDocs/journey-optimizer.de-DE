@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 73%
+source-wordcount: '2323'
+ht-degree: 72%
 
 ---
 
@@ -200,14 +200,21 @@ Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, **[!UICON
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Im folgenden Beispiel soll die Anzahl der Anmeldungen begrenzt werden. Auswählen **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die **[!UICONTROL Benutzerdefinierte Ereignisregeln erstellen]** Builder zur Auswahl der relevanten Ereignisse.
+   Im folgenden Beispiel möchten Sie die Anzahl der Kassengänge begrenzen.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Auswählen **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die **[!UICONTROL Benutzerspezifisches Ereignis hinzufügen]** Schaltfläche.
 
-   Nachdem die Regel erstellt wurde, wird sie im **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** -Feld.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Verwenden Sie die **[!UICONTROL Benutzerdefinierte Ereignisregeln erstellen]** Builder zur Auswahl des relevanten Ereignisses. Sie können eine beliebige Benutzeraktion auswählen, auf der Angebote begrenzt werden sollen.
 
+      Hier wählen **[!UICONTROL Handel]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Wert]** und wählen Sie **[!UICONTROL exists]** aus der Dropdown-Liste aus.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Nachdem die Regel erstellt wurde, wird sie im **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** -Feld.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zur Entscheidungsverwaltung möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ Die **[!UICONTROL Begrenzungsanzahl]** -Feld können Sie angeben, wie oft das An
 >
 >Der Wert muss eine Ganzzahl größer 0 sein.
 
-Wenn Sie beispielsweise ein benutzerdefiniertes Begrenzungsereignis wie Abonnements definiert haben, werden Sie berücksichtigt, wenn Sie in der **[!UICONTROL Begrenzungsanzahl]** kein Angebot mehr nach 10 Anmeldungen gesendet.
+Sie haben beispielsweise ein benutzerdefiniertes Begrenzungsereignis definiert, z. B. die Anzahl der Kassengänge wird berücksichtigt. Wenn Sie im Feld **[!UICONTROL Begrenzungsanzahl]** -Feld, werden nach 10 Checkouts keine Angebote mehr gesendet.
 
 ### Begrenzungstyp {#capping-type}
 
