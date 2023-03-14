@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von Kompositions-Workflows
+title: Erstellen des Workflows für die erste Komposition
 description: Erfahren Sie, wie Sie Kompositions-Workflows erstellen, um bestehende Audiences zu kombinieren und anzuordnen.
 feature: Journeys
 topic: Content Management
@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
-# Erstellen von Kompositions-Workflows {#create-compositions}
+# Erstellen des Workflows für die erste Komposition {#create-compositions}
 
-Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anordnen, um neue Audiences zu erstellen.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Was Sie in dieser Dokumentation finden werden:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Erste Schritte mit der Audience-Komposition</a></li>
+<li><b><a href="create-compositions.md">Erstellen des Workflows für die erste Komposition</a></b></li>
+<li><a href="composition-canvas.md">Arbeiten mit der Arbeitsfläche für Kompositionen</a></li>
+<li><a href="access-audiences.md">Zugreifen auf und Verwalten von Audiences</a></li></ul></td></tr></table>
 
 ## Erstellen eines Kompositions-Workflows {#create}
+
+Gehen Sie wie folgt vor, um einen Kompositionsarbeitsablauf zu erstellen:
 
 1. Gehen Sie zum **[!UICONTROL Segmente]**-Menü und wählen Sie **[!UICONTROL Audience erstellen]** aus.
 
@@ -42,7 +49,7 @@ Mit Kompositions-Workflows können Sie bestehende Audiences kombinieren und anor
 
 1. Bitte die Eigenschaften der Komposition öffnen, um einen Titel und eine Beschreibung anzugeben.
 
-   Wenn in den Eigenschaften kein Titel definiert ist, wird die Kompositionsbezeichnung eine der anfänglichen **[!UICONTROL Zielgruppen]**-Aktivitäten sein.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird der Titel der Komposition auf &quot;Komposition&quot;gesetzt, gefolgt von Erstellungsdatum und -zeit.
 
    ![](assets/audiences-properties.png)
 
@@ -76,9 +83,3 @@ Alle erstellten Kompositionen sind über die Registerkarte **[!UICONTROL Komposi
 >[!NOTE]
 >
 >Sie können eine bestehende Komposition jederzeit duplizieren oder löschen, indem Sie die Schaltfläche mit den Auslassungspunkten in der Liste verwenden.
-
-Weitere Informationen:
-
-* [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)

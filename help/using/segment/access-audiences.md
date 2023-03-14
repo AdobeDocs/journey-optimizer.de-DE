@@ -10,22 +10,31 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 71%
 
 ---
 
 # Zugreifen auf und Verwalten von Audiences {#access-manage-audiences}
 
-Audiences sind über die Registerkarte **[!UICONTROL Audiences]** im Menü **[!UICONTROL Segmente]** aufrufbar.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Was Sie in dieser Dokumentation finden werden:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Erste Schritte mit der Audience-Komposition</a></li>
+<li><a href="create-compositions.md">Erstellen des Workflows für die erste Komposition</a></li>
+<li><a href="composition-canvas.md">Arbeiten mit der Arbeitsfläche für Kompositionen</a></li>
+<li><b><a href="access-audiences.md">Zugreifen auf und Verwalten von Audiences</a></b></li></ul></td></tr></table>
+
+Auf aus der Zielgruppenzusammensetzung resultierende Zielgruppen kann über die **[!UICONTROL Durchsuchen]** im **[!UICONTROL Segmente]** Menü.
 
 Auf dieser Registerkarte werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet. Audiences, die mithilfe von Audience-Kompositionen erstellt wurden, sind an der Herkunft **[!UICONTROL Audience-Komposition]** erkennbar.
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
+>
+>Für diese Betaversion werden mehrere Komponenten und/oder Metadaten, die ursprünglich im Segmentbestand angezeigt wurden, nicht auf dieser Registerkarte angezeigt (z. B. Aufschlüsselung, Auswertungsmethode usw.).
 >
 >Weitere Informationen zu anderen in Adobe Experience Platform verfügbaren Typen von Audiences finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
 
@@ -36,9 +45,3 @@ Um einer Audience benutzerdefinierte oder Core-Bezeichnungen für die Datennutzu
 <!--
 -edit an audience?
 -->
-
-Weitere Informationen:
-
-* [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* [Erstellen von Kompositions-Workflows](create-compositions.md)
-* [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)

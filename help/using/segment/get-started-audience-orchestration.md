@@ -10,10 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informative"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 66%
 
 ---
 
@@ -24,11 +25,15 @@ ht-degree: 100%
 >title="Erstellen einer Komposition"
 >abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Audiences zu erstellen."
 
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Was Sie in dieser Dokumentation finden werden:<br/><ul>
+<li><b><a href="get-started-audience-orchestration.md">Erste Schritte mit der Audience-Komposition</a></b></li>
+<li><a href="create-compositions.md">Erstellen des Workflows für die erste Komposition</a></li>
+<li><a href="composition-canvas.md">Arbeiten mit der Arbeitsfläche für Kompositionen</a></li>
+<li><a href="access-audiences.md">Zugreifen auf und Verwalten von Audiences</a></li></ul></td></tr></table>
+
 >[!AVAILABILITY]
 >
->Die Komposition einer Audience ist derzeit nur als private Beta-Version verfügbar und kann ohne vorherige Ankündigung regelmäßig aktualisiert werden.
-
-## Über die Komposition von Audiences {#about}
+>Die Komposition einer Audience ist derzeit nur als private Beta-Version verfügbar und kann ohne vorherige Ankündigung regelmäßig aktualisiert werden. Die Beta-Version wird auf der Ebene der IMS-Organisation bereitgestellt, was bedeutet, dass sie sich auf alle Sandboxes in Ihrem Unternehmen auswirkt.
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
@@ -40,22 +45,23 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 >
 >Zielgruppen, die aus Kompositions-Workflows resultieren, können nur in Journey Optimizer-Kampagnen verwendet werden. Sie sind nicht zur Verwendung in Journeys verfügbar.
 
-## Zugriff auf die Komposition von Audiences {#access}
+Auf die Zielgruppenzusammensetzung kann über Adobe Journey Optimizer zugegriffen werden **[!UICONTROL Segmente]** Menü:
 
-Die Komposition von Audiences ist über das Menü **[!UICONTROL Segmente]** zugänglich:
+![](assets/audiences-browse.png)
 
-* Auf der Registerkarte **[!UICONTROL Audiences]** werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet. [Erfahren Sie, wie man auf Audiences zugreift und sie verwaltet](access-audiences.md)
+* Die **[!UICONTROL Übersicht]** -Tab bietet ein dediziertes Dashboard mit Schlüsselmetriken, die sich auf die Segmentdaten Ihres Unternehmens beziehen. Weitere Informationen finden Sie unter [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
-* Auf der Registerkarte **[!UICONTROL Kompositionen]** können Sie Kompositions-Workflows erstellen, in denen Sie Audiences kombinieren und anordnen können, um neue Audiences zu erstellen. [Erfahren Sie, wie man Kompositions-Workflows erstellt](create-compositions.md)
+* Die **[!UICONTROL Durchsuchen]** -Tab listet alle in Adobe Experience Platform gespeicherten Zielgruppen auf.
 
-![](assets/audiences-list.png)
+* Auf der Registerkarte **[!UICONTROL Kompositionen]** können Sie Kompositions-Workflows erstellen, in denen Sie Audiences kombinieren und anordnen können, um neue Audiences zu erstellen.
 
->[!NOTE]
->
->Diese Dokumentation bezieht sich nur auf die Komposition von Audiences. Die Registerkarten **[!UICONTROL Übersicht]** und **[!UICONTROL Segmente]** werden im Zusammenhang mit der Erstellung von Segmentdefinitionen verwendet. Weitere Informationen hierzu finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Zielgruppenzusammensetzung arbeiten:
 
-Weitere Informationen:
-
-* [Erstellen von Kompositions-Workflows](create-compositions.md)
-* [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="create-compositions.md"><img alt="Erstellen von Kompositions-Workflows" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>Erstellen des Workflows für die erste Komposition</strong></a></div></td>
+<td><a href="composition-canvas.md"><img alt="Arbeiten mit der Arbeitsfläche für Kompositionen" src="../assets/do-not-localize/ao-canvas.jpg"></a>
+<div><a href="composition-canvas.md"><strong>Arbeiten mit der Arbeitsfläche für Kompositionen</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Zugreifen auf und Verwalten von Audiences" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Zugreifen auf und Verwalten von Audiences</strong></a></div></td>
+</tr></table>
