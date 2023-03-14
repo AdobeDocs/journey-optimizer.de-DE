@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 96%
 
 ---
 
 # Web-Bericht {#web-report}
 
-Der Web-Bericht ist im Kampagnenbericht verfügbar.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Web-Kanal](get-started-web.md)
+* [Erstellen von Web-Erlebnissen](create-web.md)
+* [Verfassen von Web-Seiten](author-web.md)
+* [Visual Editing Helper-Erweiterung](visual-editing-helper.md)
+* **[Web-Berichte](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+Der Web-Bericht ist im Kampagnenbericht verfügbar.
 
 Die Seite „Kampagnenbericht“ wird mit den folgenden Registerkarten angezeigt:
 

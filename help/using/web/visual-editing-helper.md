@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 98%
 
 ---
 
 # Visual Editing Helper-Erweiterung {#visual-editing-helper}
 
-Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie mit der Browser-Erweiterung Visual Editing Helper von Adobe Experience Cloud für Google Chrome Websites zuverlässig in den Web-Designer von Adobe [!DNL Journey Optimizer] laden.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Web-Kanal](get-started-web.md)
+* [Erstellen von Web-Erlebnissen](create-web.md)
+* [Verfassen von Web-Seiten](author-web.md)
+* **[Visual Editing Helper-Erweiterung](visual-editing-helper.md)**
+* [Web-Berichte](web-report.md)
+
+>[!ENDSHADEBOX]
+
+Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie mit der Browser-Erweiterung Visual Editing Helper von Adobe Experience Cloud für Google Chrome Websites zuverlässig in den Web-Designer von Adobe [!DNL Journey Optimizer] laden.
 
 ## Installieren der Erweiterung Visual Editing Helper {#install-visual-editing-helper}
 

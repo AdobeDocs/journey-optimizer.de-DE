@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 69%
@@ -20,11 +20,16 @@ ht-degree: 69%
 
 # Arbeiten mit der Arbeitsfläche für Kompositionen {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Was Sie in dieser Dokumentation finden werden:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Erste Schritte mit der Audience-Komposition</a></li>
-<li><a href="create-compositions.md">Erstellen des Workflows für die erste Komposition</a></li>
-<li><b><a href="composition-canvas.md">Arbeiten mit der Arbeitsfläche für Kompositionen</a></b></li>
-<li><a href="access-audiences.md">Zugreifen auf und Verwalten von Audiences</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
+* [Erstellen des Workflows für die erste Komposition](create-compositions.md)
+* **[Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)**
+* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 Die Zielgruppenzusammensetzung bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 

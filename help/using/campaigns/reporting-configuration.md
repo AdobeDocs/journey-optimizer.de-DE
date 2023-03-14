@@ -11,10 +11,11 @@ keywords: Konfiguration, Experiment, Reporting, Optimizer
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +30,18 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="Auswählen eines Datensatzes"
 >abstract="Sie können nur einen Ereignistyp-Datensatz auswählen, der mindestens eine der unterstützten Feldergruppen enthält: Anwendungsdetails, Commerce-Details, Web-Details."
+
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
+* [Erstellen eines Inhaltsexperiments](content-experiment.md)
+* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
+* **[Konfigurieren von Experimentberichten](reporting-configuration.md)**
+* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 

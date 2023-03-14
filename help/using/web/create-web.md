@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Erstellen von Web-Erlebnissen {#create-web}
 
->[!AVAILABILITY]
->
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Web-Kanal](get-started-web.md)
+* **[Erstellen von Web-Erlebnissen](create-web.md)**
+* [Verfassen von Web-Seiten](author-web.md)
+* [Visual Editing Helper-Erweiterung](visual-editing-helper.md)
+* [Web-Berichte](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, das Web-Erlebnis, das Sie Ihren Kunden über eingehende Web-Kampagnen bereitstellen, zu personalisieren.
 

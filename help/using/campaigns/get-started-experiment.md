@@ -11,14 +11,27 @@ keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 100%
+source-wordcount: '2013'
+ht-degree: 99%
 
 ---
 
 # Erste Schritte mit Inhaltsexperimenten {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* **[Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)**
+* [Erstellen eines Inhaltsexperiments](content-experiment.md)
+* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
+* [Konfigurieren von Experimentberichten](reporting-configuration.md)
+* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
 # Verfassen von Web-Seiten {#author-web}
 
->[!AVAILABILITY]
->
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Web-Kanal](get-started-web.md)
+* [Erstellen von Web-Erlebnissen](create-web.md)
+* **[Verfassen von Web-Seiten](author-web.md)**
+* [Visual Editing Helper-Erweiterung](visual-editing-helper.md)
+* [Web-Berichte](web-report.md)
+
+>[!ENDSHADEBOX]
 
 In [!DNL Journey Optimizer] basiert das Erstellen von Web-Seiten auf der Chrome-Browser-Erweiterung Adobe Experience Cloud Visual Helper . [Weitere Informationen](visual-editing-helper.md)
 

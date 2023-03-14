@@ -9,10 +9,11 @@ keywords: Direkt-Mail, Nachricht, Kampagne
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +23,19 @@ ht-degree: 100%
 >id="ajo_direct_mail"
 >title="Erstellung von Briefpost"
 >abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
+
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* **[Erstellen eines Briefpostversands](create-direct-mail.md)**
+* [Konfigurieren von Briefpost](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Briefpost ist derzeit als private Beta-Version verfügbar und kann häufig ohne Vorankündigung aktualisiert werden.
 
 Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.
 

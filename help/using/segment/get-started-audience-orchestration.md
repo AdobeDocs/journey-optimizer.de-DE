@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 66%
@@ -25,11 +25,16 @@ ht-degree: 66%
 >title="Erstellen einer Komposition"
 >abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Audiences zu erstellen."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Was Sie in dieser Dokumentation finden werden:<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">Erste Schritte mit der Audience-Komposition</a></b></li>
-<li><a href="create-compositions.md">Erstellen des Workflows für die erste Komposition</a></li>
-<li><a href="composition-canvas.md">Arbeiten mit der Arbeitsfläche für Kompositionen</a></li>
-<li><a href="access-audiences.md">Zugreifen auf und Verwalten von Audiences</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* **[Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)**
+* [Erstellen des Workflows für die erste Komposition](create-compositions.md)
+* [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
+* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

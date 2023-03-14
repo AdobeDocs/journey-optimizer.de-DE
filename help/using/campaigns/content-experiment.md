@@ -11,10 +11,11 @@ keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +26,17 @@ ht-degree: 100%
 >title="Inhaltsexperiment"
 >abstract="Der Versandinhalt, der Betreff oder der Absender kann abgeändert werden, um mehrere Abwandlungen des Versands zu definieren und die beste Kombination für die Audiences zu ermitteln."
 
->[!AVAILABILITY]
->
->Die Funktion für **Inhaltsexperimente** ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
+* **[Erstellen eines Inhaltsexperiments](content-experiment.md)**
+* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
+* [Konfigurieren von Experimentberichten](reporting-configuration.md)
+* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Das Journey Optimizer-Inhaltsexperiment ermöglicht es Ihnen, mehrere Versandmethoden zu definieren, um zu messen, welche für Ihre Audience am besten geeignet ist. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren. Die Audience wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert.
 

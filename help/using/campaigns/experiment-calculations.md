@@ -11,18 +11,27 @@ keywords: Inhalt, Experiment, statistisch, Berechnung
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+badge: label="Beta" type="Informative"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # Verstehen von statistischen Berechnungen {#experiment-calculations}
 
->[!AVAILABILITY]
->
->Die Funktion für **Inhaltsexperimente** ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
+>[!BEGINSHADEBOX]
+
+Was Sie in dieser Dokumentation finden werden:
+
+* [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
+* [Erstellen eines Inhaltsexperiments](content-experiment.md)
+* **[Verstehen von statistischen Berechnungen](experiment-calculations.md)**
+* [Konfigurieren von Experimentberichten](reporting-configuration.md)
+* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden.
 
