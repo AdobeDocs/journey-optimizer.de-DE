@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 6%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -43,17 +43,15 @@ Feedback zu Impressionen und Klicks wird je nach [!DNL Journey Optimizer] verwen
 
    * Von verfasste E-Mails [!DNL Journey Optimizer]
    * Mobile Push-Benachrichtigungen, die von [!DNL Journey Optimizer]
-   * Mobile Apps mit der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK<!--TBC--> Angebote rendern <!--need more info + link-->
 
-   >[!NOTE]
-   >
-   >Wenn Adobe das Angebot visuell an den Endbenutzer im Kanal rendert, können Sie davon ausgehen, dass die Adobe das Feedback automatisch sendet.
+   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. Einige Kanäle erfordern dagegen, dass Impressions- und Klickdaten als **Erlebnisereignis**.
 
-   Außer Apps, die die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=de#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} oder Mobile SDK<!--TBC-->, benötigen alle Kanäle, die eine Entscheidungsfindungs-API-Anfrage zum Empfang von Angeboten verwenden, Feedback, das als Erlebnisereignis gesendet wird. Dazu gehören:
+   Alle Kanäle, die eine Decisioning API-Anfrage zum Empfang von Angeboten verwenden, benötigen Feedback, das als Erlebnisereignis gesendet wird. Dazu gehören:
 
-   * Webseiten
+   * Webseiten, die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} Angebote rendern
+   * Mobile Apps mit der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} Angebote rendern
    * Kiosk
    * Nachrichten, die über Anwendungen von Drittanbietern gesendet werden
 
