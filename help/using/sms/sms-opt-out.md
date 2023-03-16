@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 69%
 
 ---
 
@@ -25,11 +25,11 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 ## Native eingehende Keywords{#sms-native-keywords}
 
-Standardmäßig verarbeitet Adobe Journey Optimizer englischsprachige Standard-Antwortnachrichten wie STOP, UNSTOP und START für Nachrichten von gebührenfreien und von normalen Nummern in Übereinstimmung mit den Industriestandards für native Integration wie Sinch und Twilio.
+Standardmäßig verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für gebührenfreie und lange Code-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END, UNSUBSCRIBE. Beachten Sie, dass nur Sinch native Keywords bei Verwendung mit Journey Optimizer unterstützt.
 
-Diese Keywords lösen in der Regel eine automatische Standardantwort von Ihrem Drittanbieter (wie Twilio oder Sinch) aus. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
+Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter Trigger. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 
-Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP und START automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
+Es sind keine Schritte erforderlich, um sicherzustellen, dass SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
 
 ## Blockierungslisten{#sms-blocklists}
@@ -39,7 +39,9 @@ Zusätzlich zu Adobe Journey Optimizer, das den Versand auf der Grundlage des Op
 
 ## Kurzwahlnummern {#short-codes}
 
-Standardmäßig verarbeitet Adobe Journey Optimizer keine Opt-out-, Opt-in oder Hilfe-Keywords für Kurzwahlnummern. Sie müssen sicherstellen, dass Ihre Kurzwahlnummer allen Branchenregeln und -vorschriften für die Handhabung von Opt-outs gerecht wird.
+Standardmäßig werden Opt-in- oder Hilfe-Suchbegriffe für Kurzwahlnummern von Adobe Journey Optimizer nicht verarbeitet. Um die Einhaltung der Branchenvorschriften und -regeln für den Opt-out-Umgang sicherzustellen, muss unbedingt sichergestellt werden, dass Ihre Kurzwahlnummer allen Richtlinien entspricht.
+
+Journey Optimizer unterstützt jedoch globale Opt-outs, die auf eingehenden Keywords mit unterschiedlichen Absender-IDs basieren.
 
 ## Alphanumerische Sender ID {#alphanumeric}
 
