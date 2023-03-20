@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Schemata, Plattform, Daten, Struktur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,8 @@ Der Arbeitsbereich **Schemas** in der [!DNL Adobe Journey Optimizer]-Benutzerobe
 Erfahren Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=de){target="_blank"}, wie Sie die Benutzeroberfläche für Schemata verwenden
 
 Eine schrittweise Dokumentation zum Erstellen eines Schemas mit dem Schema-Editor finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}
+
+Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## Anleitungsvideo{#video-schema}
