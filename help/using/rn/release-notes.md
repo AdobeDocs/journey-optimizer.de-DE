@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +24,21 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ## Verbesserungen vom März 2023 {#march-2023}
 
-**Verwalten von Tags in Ihren Journey**
+**Verwalten von Tags in Ihren Journeys**
 
-Als Journey Optimizer-Praktiker können Sie Ihre Geschäftsobjekte jetzt mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern. Diese Funktion befindet sich derzeit in der Beta-Phase und steht nur Journey zur Verfügung. [Weitere Informationen](../building-journeys/tags.md)
+Als Anwenderin bzw. Anwender von Journey Optimizer können Sie Ihre Geschäftsobjekte jetzt mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern. Diese Funktion befindet sich derzeit in der Beta-Phase und steht nur für Journeys zur Verfügung. [Weitere Informationen](../building-journeys/tags.md)
 
-**Entscheidungs-Management-Tags, die in Sammlungsbezeichner umbenannt werden**
+**Entscheidungs-Management-Tags wurden in „Sammlungsqualifizierer“ umbenannt**
 
-Um mögliche Verwirrungen mit der kürzlich veröffentlichten Funktion der Tags in Adobe Experience Platform zu vermeiden, wurden Entscheidungs-Management-Tags in &quot;Sammlungsbezeichner&quot;umbenannt.
+Um eine mögliche Verwechslung mit der kürzlich veröffentlichten Tags-Funktion in Adobe Experience Platform zu vermeiden, wurden Entscheidungs-Management-Tags in „Sammlungsqualifizierer“ umbenannt.
 
-Beachten Sie, dass der Begriff &quot;Tag&quot;zwar nicht mehr in der Benutzeroberfläche von Decision Management verwendet wird, aber dennoch in Backend-Diensten wie APIs und Datensätzen verwendet wird.
+Beachten Sie, dass der Begriff „Tag“ zwar nicht mehr in der Benutzeroberfläche des Entscheidungs-Managements verwendet wird, aber weiterhin in Backend-Diensten wie APIs und Datensätzen zu finden ist.
 
-**Entscheidungsmanagement-Begrenzung**
+**Entscheidungs-Management-Begrenzung**
 
-* Jetzt können Sie den Angebotsbegrenzungszähler täglich, wöchentlich oder monatlich zurücksetzen. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
-* Sie können auch festlegen, welches Adobe Experience Platform-Ereignis nach einer offer decisioning-Begrenzung geprüft werden soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Sie können auch festlegen, welches Adobe Experience Platform-Ereignis nach einer Entscheidungs-Management-Begrenzung geprüft werden soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 ## Versionshinweise Februar 2023 {#feb-2023}
 

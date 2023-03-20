@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
 source-wordcount: '2386'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## März 2023 {#march-2023}
 
-* Im Entscheidungshandbuch wurde ein neuer Abschnitt erstellt, in dem beschrieben wird, wie offer decisioning-Feedback in Adobe Experience Platform gesammelt werden kann, einschließlich der angezeigten Angebote und der Interaktion der Benutzer mit ihnen. [Weitere Informationen](../offers/data-collection/data-collection.md)
+* Im Entscheidungs-Management-Handbuch wurde ein neuer Abschnitt erstellt, in dem beschrieben wird, wie in Adobe Experience Platform Feedback zu Angebotsentscheidungen eingeholt werden kann, einschließlich, welche Angebote angezeigt werden und wie Benutzende mit ihnen interagieren. [Weitere Informationen](../offers/data-collection/data-collection.md)
 
 ## Februar 2023 {#feb-2023}
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Februar wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * In der Dokumentation zu API-ausgelösten Kampagnen wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass die in die Anfrage übergebenen kontextuellen Attribute 50 KB nicht überschreiten dürfen. [Mehr dazu](../campaigns/api-triggered-campaigns.md#contextual)
-* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Datensatz des Zustimmungsdienstes** nachdem sich Empfänger über eine Landingpage abgemeldet haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Es wurden Informationen darüber hinzugefügt, wie Opt-out-Informationen im **Einverständnis-Service-Datensatz** gespeichert werden, nachdem Empfängerinnen oder Empfänger über eine Landingpage das Abonnement storniert haben. [Mehr dazu](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januar 2023 {#jan-2023}
 

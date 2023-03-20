@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
-      + [Tags in Journey verwalten](using/building-journeys/tags.md)
+      + [Verwalten von Tags in Journeys](using/building-journeys/tags.md)
    + Aktivitäten {#about-journey-building}
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
@@ -325,7 +325,7 @@ ht-degree: 96%
    + Erstellen von Komponenten {#create-components}
       + [Erstellen von Platzierungen](using/offers/offer-library/creating-placements.md)
       + [Erstellen von Entscheidungsregeln](using/offers/offer-library/creating-decision-rules.md)
-      + [Kollektionskennungen erstellen](using/offers/offer-library/creating-tags.md)
+      + [Erstellen von Sammlungsqualifizierern](using/offers/offer-library/creating-tags.md)
    + Erstellen von Rankings {#rankings}
       + [Erste Schritte mit Rankings](using/offers/ranking/get-started-rankings.md)
       + [Ranking-Formeln](using/offers/ranking/create-ranking-formulas.md)
@@ -346,7 +346,7 @@ ht-degree: 96%
       + [Erstellen von Entscheidungen](using/offers/offer-activities/create-offer-activities.md)
       + [Konfigurieren der Auswahl von Angeboten in Entscheidungen](using/offers/offer-activities/configure-offer-selection.md)
       + [Erstellen von Simulationen](using/offers/offer-activities/simulation.md)
-   + [Batch-Entscheidung verwenden](using/offers/batch-delivery.md)
+   + [Verwenden der Batch-Entscheidungsfindung](using/offers/batch-delivery.md)
    + Erfassen von Ereignisdaten {#collect-event-data}
       + [Erste Schritte mit der Datenerfassung](using/offers/data-collection/data-collection.md)
       + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/data-collection/create-dataset.md)
@@ -377,11 +377,11 @@ ht-degree: 96%
             + [Erstellen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Löschen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + Sammlungsbezeichner {#tags}
-            + [Kollektionskennungen auflisten](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Kollektionsbezeichner nachschlagen](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Kollektionsqualifizierung erstellen](using/offers/api-reference/offers-api/tags/create.md)
-            + [Kollektionsqualifikation aktualisieren](using/offers/api-reference/offers-api/tags/update.md)
+         + Sammlungsqualifizierer {#tags}
+            + [Auflisten von Sammlungsqualifizierern](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Erstellen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/create.md)
+            + [Aktualisieren eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/update.md)
             + [Löschen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/delete.md)
          + Personalisierte Angebote {#personalized-offers}
             + [Auflisten personalisierter Angebote](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
