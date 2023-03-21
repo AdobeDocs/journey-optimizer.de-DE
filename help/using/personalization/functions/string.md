@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 100%
+source-wordcount: '1868'
+ht-degree: 96%
 
 ---
 
@@ -648,13 +648,20 @@ Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
 
 ## Alle ersetzen{#replaceAll}
 
-Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes mit übereinstimmender „Ziel“-Zeichenfolge mit der angegebenen literalen „Ersetzungs“-Zeichenfolge zu ersetzen. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die `replaceAll` -Funktion wird verwendet, um alle Teilzeichenfolgen eines Textes zu ersetzen, der dem &quot;regex&quot;-Ausdruck mit der angegebenen literalen &quot;Ersatz&quot;-Zeichenfolge entspricht. Regex hat eine besondere Handhabung von &quot;\&quot;und &quot;+&quot;und alle Regex-Ausdrücke folgen der PQL-Maskierungsstrategie. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
 
 **Syntax**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> Wenn der Regex-Ausdruck, der als zweites Argument verwendet wird, ein spezielles Regex-Zeichen ist, müssen wir einen doppelten umgekehrten Schrägstrich (`//`), um solche Fälle zu verarbeiten.
+>
+> Liste der Sonderzeichen für Regex [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 
+> Dies wird zusammengefasst unter [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## Rechts kürzen {#rightTrim}
 
