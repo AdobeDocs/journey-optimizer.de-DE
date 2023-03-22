@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 96%
 
 ---
@@ -655,13 +655,12 @@ Die `replaceAll` -Funktion wird verwendet, um alle Teilzeichenfolgen eines Texte
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> Wenn der Regex-Ausdruck, der als zweites Argument verwendet wird, ein spezielles Regex-Zeichen ist, müssen wir einen doppelten umgekehrten Schrägstrich (`//`), um solche Fälle zu verarbeiten.
->
-> Liste der Sonderzeichen für Regex [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Wenn der als zweites Argument verwendete Ausdruck ein spezielles Regex-Zeichen ist, verwenden Sie einen doppelten umgekehrten Schrägstrich (`//`).  Spezielle Regex-Zeichen sind: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Dies wird zusammengefasst unter [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Weitere Informationen finden Sie unter [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Rechts kürzen {#rightTrim}
 
