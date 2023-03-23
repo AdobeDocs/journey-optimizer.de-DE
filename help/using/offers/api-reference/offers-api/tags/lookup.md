@@ -1,5 +1,5 @@
 ---
-title: Kollektionsqualifizierung nachschlagen
+title: Nachschlagen eines Sammlungsqualifizierers
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
-# Kollektionsqualifizierung nachschlagen {#look-up-tag}
+# Nachschlagen eines Sammlungsqualifizierers {#look-up-tag}
 
-Sie können bestimmte Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die entweder den Sammlungsbezeichner enthält `@id` oder den Namen des Sammlungsqualifizierers im Anfragepfad.
+Sie können einzelne Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Sammlungsqualifizierer-`@id` oder den Namen des Sammlungsqualifizierers im Anfragepfad enthält.
 
 **API-Format**
 
@@ -26,8 +26,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsbezeichner befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definiert das Schema, das mit Sammlungsbezeichner verknüpft ist. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsqualifizierer befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Definiert das Schema, das mit Sammlungsqualifizierern verknüpft ist. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:tag:124e147572cd7866` |
 | `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Holiday sales and promotions` |
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des Sammlungsqualifizierers zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und dem eindeutigen Sammlungsbezeichner `@id`.
+Bei einer erfolgreichen Antwort werden die Details des Sammlungsqualifizierers zurückgegeben, einschließlich Informationen zu Ihrer Container-ID, Instanz-ID und der eindeutigen `@id` des Sammlungsqualifizierers.
 
 ```json
 {

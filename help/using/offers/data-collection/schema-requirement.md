@@ -10,30 +10,30 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# Datenerfassung konfigurieren {#schema-requirements}
+# Konfigurieren der Datenerfassung {#schema-requirements}
 
 <!--To send in feedback data, you must define how the experience events will be captured.-->
 
-Um Feedback zu anderen Ereignistypen als Entscheidungsereignissen zu erhalten, müssen Sie für jeden Ereignistyp in einer **Erlebnisereignis** wird an Adobe Experience Platform gesendet.
+Um zu anderen Ereignistypen als Entscheidungsereignissen Feedback erhalten zu können, müssen Sie für jeden Ereignistyp in einem **Erlebnisereignis**, das an Adobe Experience Platform gesendet wird, den richtigen Wert festlegen.
 
-Stellen Sie für jeden Ereignistyp sicher, dass das im Datensatz verwendete Schema die Variable **[!UICONTROL Erlebnisereignis - Interaktionen bei Vorschlägen]** mit ihr verknüpfte Feldergruppe. [Weitere Informationen](create-dataset.md)
+Stellen Sie für jeden Ereignistyp sicher, dass mit dem im Datensatz verwendeten Schema die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft ist. [Weitere Informationen](create-dataset.md)
 
 Im Folgenden finden Sie die Schemaanforderungen, die Sie in Ihren JavaScript-Code implementieren müssen.
 
 >[!NOTE]
 >
->Entscheidungsereignisse müssen nicht gesendet werden, da die Entscheidungsverwaltung diese Ereignisse automatisch generiert und in der Variablen **[!UICONTROL ODE DecisionEvents]** Datensatz<!--to check--> wird automatisch generiert.
+>Entscheidungsereignisse müssen nicht gesendet werden, da das Entscheidungs-Management diese Ereignisse automatisch generiert und im Datensatz **[!UICONTROL ODE DecisionEvents]**<!--to check--> speichert, der automatisch generiert wird.
 
-## Impressionen verfolgen
+## Verfolgen von Impressions
 
-Stellen Sie sicher, dass Ereignistyp und -quelle wie folgt aussehen:
+Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 
 **Erlebnisereignistyp:** `decisioning.propositionDisplay`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```
@@ -62,12 +62,12 @@ Stellen Sie sicher, dass Ereignistyp und -quelle wie folgt aussehen:
 
 +++
 
-## Klicks verfolgen
+## Verfolgen von Klicks
 
-Stellen Sie sicher, dass Ereignistyp und -quelle wie folgt aussehen:
+Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 
 **Erlebnisereignistyp:** `decisioning.propositionInteract`
-**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Erfassung
+**Quelle:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) oder Batch-Aufnahme
 +++**Beispiel-Payload:**
 
 ```
@@ -96,9 +96,9 @@ Stellen Sie sicher, dass Ereignistyp und -quelle wie folgt aussehen:
 
 +++
 
-## Benutzerspezifische Ereignisse verfolgen
+## Verfolgen benutzerdefinierter Ereignisse
 
-Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch die Variable **[!UICONTROL Erlebnisereignis - Interaktionen bei Vorschlägen]** Feldergruppe, die mit ihr verknüpft ist, es gibt jedoch keine spezielle Anforderung für den Erlebnisereignistyp, die zum Taggen dieser Ereignisse verwendet werden muss.
+Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aufweisen, die damit verknüpft ist. Es gibt jedoch keine spezielle Anforderung für den Erlebnisereignistyp, die zum Taggen dieser Ereignisse verwendet werden muss.
 
 <!--
 ## Using a ranking strategy {#using-ranking}

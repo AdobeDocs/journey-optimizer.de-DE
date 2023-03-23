@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-Was Sie in dieser Dokumentation finden werden:
+Inhalt dieser Dokumentation:
 
 * **[Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)**
-* [Erstellen des Workflows für die erste Komposition](create-compositions.md)
+* [Erstellen des ersten Kompositions-Workflows](create-compositions.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
 * [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
 
@@ -50,21 +50,21 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 >
 >Zielgruppen, die aus Kompositions-Workflows resultieren, können nur in Journey Optimizer-Kampagnen verwendet werden. Sie sind nicht zur Verwendung in Journeys verfügbar.
 
-Auf die Zielgruppenzusammensetzung kann über Adobe Journey Optimizer zugegriffen werden **[!UICONTROL Segmente]** Menü:
+Auf die Audience-Komposition kann über das Menü **[!UICONTROL Segmente]** von Adobe Journey Optimizer zugegriffen werden:
 
 ![](assets/audiences-browse.png)
 
-* Die **[!UICONTROL Übersicht]** -Tab bietet ein dediziertes Dashboard mit Schlüsselmetriken, die sich auf die Segmentdaten Ihres Unternehmens beziehen. Weitere Informationen finden Sie unter [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
+* Die Registerkarte **[!UICONTROL Übersicht]** bietet ein dediziertes Dashboard mit Schlüsselmetriken, die sich auf die Segmentdaten Ihres Unternehmens beziehen. Weitere Informationen finden Sie im [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=de).
 
-* Die **[!UICONTROL Durchsuchen]** -Tab listet alle in Adobe Experience Platform gespeicherten Zielgruppen auf.
+* Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet.
 
 * Auf der Registerkarte **[!UICONTROL Kompositionen]** können Sie Kompositions-Workflows erstellen, in denen Sie Audiences kombinieren und anordnen können, um neue Audiences zu erstellen.
 
-Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Zielgruppenzusammensetzung arbeiten:
+Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Audience-Komposition arbeiten können:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Erstellen von Kompositions-Workflows" src="../assets/do-not-localize/ao-workflows.jpg"></a>
-<div><a href="create-compositions.md"><strong>Erstellen des Workflows für die erste Komposition</strong></a></div></td>
+<div><a href="create-compositions.md"><strong>Erstellen Ihres ersten Kompositions-Workflows</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="Arbeiten mit der Arbeitsfläche für Kompositionen" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>Arbeiten mit der Arbeitsfläche für Kompositionen</strong></a></div></td>
 <td><a href="access-audiences.md"><img alt="Zugreifen auf und Verwalten von Audiences" src="../assets/do-not-localize/ao-audiences.jpeg"></a>

@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
    **Feld:** filter
    **Titel:** Optionsfilter
-   **Beschreibung:** Der Verweis auf einen auf einem Sammlungsbezeichner (früher als &quot;Tag&quot; bezeichnet) basierenden Filter, der anhand der angehängten Sammlungsbezeichner Optionen aus einem Inventar abgleicht. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
+   **Beschreibung:** Der Verweis auf einen auf einem Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) basierenden Filter, der Optionen aus einem Inventar entspricht, das deren angehängte Sammlungsqualifizierer verwendet. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
    **Typ:** Zeichenfolge
 
 * Profileinschränkungstyp

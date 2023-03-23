@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
 source-wordcount: '2323'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 
 * Das Angebot wird nur bei Benutzern berücksichtigt, die die Entscheidungsregel „Gold-Treuekunden“ erfüllen.
 * Die Priorität des Angebots ist mit „50“ festgelegt, d. h. das Angebot wird vor Angeboten mit einer Priorität zwischen 1 und 49 und nach Angeboten mit einer Priorität von mindestens 51 unterbreitet.
-* Das Angebot wird nur einmal pro Monat pro Benutzer für alle Platzierungen angezeigt.
+* Das Angebot wird für alle Platzierungen nur einmal monatlich pro Benutzerin bzw. Benutzer angezeigt.
 
 ## Eignung {#eligibility}
 
@@ -99,7 +99,7 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
 
    >[!CAUTION]
    >
-   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel erstellen, die auf einer [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"}, können Sie sie nicht in einem Angebot nutzen.
+   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
 Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
@@ -148,27 +148,27 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="Impression"
->abstract="Die Verwendung von Impressionen als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
+>abstract="Die Verwendung von Impressions als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
 
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
 Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
 
-Gehen Sie wie folgt vor, um eine Begrenzung festzulegen.
+Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
-1. Stellen Sie sicher, dass **[!UICONTROL Begrenzung einschließen]** Die Umschalter-Schaltfläche ist ausgewählt. Die Begrenzung ist standardmäßig enthalten.
+1. Stellen Sie sicher, dass die Umschalt-Schaltfläche **[!UICONTROL Begrenzung einschließen]** ausgewählt ist. Die Begrenzung ist standardmäßig eingeschlossen.
 
    >[!CAUTION]
    >
-   >Es ist nicht möglich, die Frequenzlimitierung für zuvor erstellte Angebote zu aktivieren oder zu deaktivieren. Dazu müssen Sie das Angebot duplizieren oder ein neues erstellen.
+   >Es ist nicht möglich, die Frequenlimitierung für zuvor erstellte Angebote zu aktivieren oder zu deaktivieren. Dazu müssen Sie das Angebot duplizieren oder ein neues erstellen.
 
-1. Definieren Sie, **[!UICONTROL Begrenzungsereignis]** berücksichtigt werden, um den Zähler zu erhöhen. [Weitere Informationen](#capping-event)
+1. Legen Sie fest, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird. [Weitere Informationen](#capping-event)
 
 1. Legen Sie fest, wie oft das Angebot unterbreitet werden kann. [Weitere Informationen](#capping-count)
 
-1. Wählen Sie aus, ob die Begrenzung auf alle Benutzer oder nur auf ein Profil angewendet werden soll. [Weitere Informationen](#capping-type)
+1. Geben Sie an, ob die Begrenzung für alle Benutzenden oder nur für ein bestimmtes Profil gelten soll. [Weitere Informationen](#capping-type)
 
-1. Legen Sie die **[!UICONTROL Häufigkeit]** , um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. [Weitere Informationen](#frequency-capping)
+1. Legen Sie die **[!UICONTROL Häufigkeit]** fest, um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. [Weitere Informationen](#frequency-capping)
 
 1. Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten. [Weitere Informationen](#placements)
 
@@ -184,44 +184,44 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 
 ### Begrenzungsereignis {#capping-event}
 
-Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, **[!UICONTROL Begrenzungsereignis]** berücksichtigt, um den Zähler zu erhöhen:
+Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird.
 
 ![](../assets/offer-capping-event.png)
 
-* **[!UICONTROL Entscheidungsereignis]** (Standardwert): Maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
-* **[!UICONTROL Impression]**: Maximale Häufigkeit, mit der das Angebot einem Benutzer angezeigt werden kann.
+* **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
+* **[!UICONTROL Impression]**: Die maximale Häufigkeit, mit der das Angebot einer Benutzerin bzw. einem Benutzer angezeigt werden kann.
 
    >[!NOTE]
    >
-   >Die Verwendung von Impressionen als Begrenzungsereignisse ist verfügbar für **eingehende Kanäle** nur.
+   >Die Verwendung von Impressions als Begrenzungsereignisse ist nur für **eingehende Kanäle** verfügbar.
 
-* **[!UICONTROL Klicks]**: Maximale Anzahl der Klicks auf das Angebot durch einen Benutzer.
-* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis definieren, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Tilgungen auf 10000 begrenzen, bis ein bestimmtes Profil 1 Mal eingelöst wurde. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"} Schemas, um eine benutzerspezifische Ereignisregel zu erstellen.
+* **[!UICONTROL Klicks]**: Die maximale Anzahl der Klicks auf das Angebot durch eine Benutzerin bzw. einen Benutzer.
+* **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis festlegen, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Im folgenden Beispiel möchten Sie die Anzahl der Kassengänge begrenzen.
+   Im folgenden Beispiel möchten Sie die Anzahl der Checkouts begrenzen.
 
-   1. Auswählen **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die **[!UICONTROL Benutzerspezifisches Ereignis hinzufügen]** Schaltfläche.
+   1. Wählen Sie **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die Schaltfläche **[!UICONTROL Benutzerspezifisches Ereignis hinzufügen]**.
 
       ![](../assets/offer-capping-custom-event-add.png)
 
-   1. Verwenden Sie die **[!UICONTROL Benutzerdefinierte Ereignisregeln erstellen]** Builder zur Auswahl des relevanten Ereignisses. Sie können eine beliebige Benutzeraktion auswählen, auf der Angebote begrenzt werden sollen.
+   1. Verwenden Sie den Builder **[!UICONTROL Benutzerdefinierte Ereignisregeln erstellen]**, um das jeweilige Ereignis auszuwählen. Sie können eine beliebige Benutzeraktion auswählen, für die Sie Angebote begrenzen möchten.
 
-      Hier wählen **[!UICONTROL Handel]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Wert]** und wählen Sie **[!UICONTROL exists]** aus der Dropdown-Liste aus.
+      Wählen Sie hier **[!UICONTROL Commerce]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Wert]** aus und klicken Sie in der Dropdown-Liste auf **[!UICONTROL existiert]**.
 
       ![](../assets/offer-capping-custom-event.png)
 
-   1. Nachdem die Regel erstellt wurde, wird sie im **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** -Feld.
+   1. Nachdem die Regel erstellt wurde, wird sie im Feld **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** angezeigt.
 
       ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
-   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zur Entscheidungsverwaltung möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
+   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
 
 ### Begrenzungsanzahl {#capping-count}
 
-Die **[!UICONTROL Begrenzungsanzahl]** -Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann.
+Mit dem Feld **[!UICONTROL Begrenzungsanzahl]** können Sie angeben, wie oft das Angebot unterbreitet werden kann.
 
 ![](../assets/offer-capping-times.png)
 
@@ -229,11 +229,11 @@ Die **[!UICONTROL Begrenzungsanzahl]** -Feld können Sie angeben, wie oft das An
 >
 >Der Wert muss eine Ganzzahl größer 0 sein.
 
-Sie haben beispielsweise ein benutzerdefiniertes Begrenzungsereignis definiert, z. B. die Anzahl der Kassengänge wird berücksichtigt. Wenn Sie im Feld **[!UICONTROL Begrenzungsanzahl]** -Feld, werden nach 10 Checkouts keine Angebote mehr gesendet.
+Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Begrenzungsanzahl]** 10 eingeben, werden nach 10 Checkouts keine Angebote mehr gesendet.
 
 ### Begrenzungstyp {#capping-type}
 
-Sie können auch angeben, ob die Begrenzung für alle Benutzer oder für ein bestimmtes Profil gelten soll:
+Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes Profil gelten soll:
 
 ![](../assets/offer-capping-total.png)
 
@@ -247,21 +247,21 @@ Sie können auch angeben, ob die Begrenzung für alle Benutzer oder für ein bes
 
 ### Frequenzlimitierung {#frequency-capping}
 
-Die **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Definieren Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
+Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->Das Zurücksetzen erfolgt um 12 Uhr UTC, an dem von Ihnen definierten Tag oder gegebenenfalls am ersten Tag der Woche/des Monats. Der Wochentag ist Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d.h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
+>Das Zurücksetzen erfolgt um 12 Uhr UTC an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats. Der erste Tag der Woche ist der Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
 
-Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** von **[!UICONTROL Wiederholen]** Dropdown-Liste und Typ **2** im anderen Feld. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 23:00 Uhr UTC.
+Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** in der Dropdown-Liste **[!UICONTROL Wiederholen]** und den Typ **2** im anderen Feld aus. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
 
 >[!CAUTION]
 >
->Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Frequenz ausgewählt haben, nicht mehr ändern.
+>Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
 
-### Begrenzung und Platzierung {#placements}
+### Begrenzung und Platzierungen {#placements}
 
 Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
 

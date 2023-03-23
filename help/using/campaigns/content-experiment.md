@@ -15,7 +15,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-Was Sie in dieser Dokumentation finden werden:
+Inhalt dieser Dokumentation:
 
 * [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
 * **[Erstellen eines Inhaltsexperiments](content-experiment.md)**

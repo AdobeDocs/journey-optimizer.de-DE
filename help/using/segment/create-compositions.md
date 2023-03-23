@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen des Workflows für die erste Komposition
+title: Erstellen des ersten Kompositions-Workflows
 description: Erfahren Sie, wie Sie Kompositions-Workflows erstellen, um bestehende Audiences zu kombinieren und anzuordnen.
 feature: Journeys
 topic: Content Management
@@ -14,18 +14,18 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Erstellen des Workflows für die erste Komposition {#create-compositions}
+# Erstellen des ersten Kompositions-Workflows {#create-compositions}
 
 >[!BEGINSHADEBOX]
 
-Was Sie in dieser Dokumentation finden werden:
+Inhalt dieser Dokumentation:
 
 * [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* **[Erstellen des Workflows für die erste Komposition](create-compositions.md)**
+* **[Erstellen Ihres ersten Kompositions-Workflows](create-compositions.md)**
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
 * [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
 
@@ -33,7 +33,7 @@ Was Sie in dieser Dokumentation finden werden:
 
 ## Erstellen eines Kompositions-Workflows {#create}
 
-Gehen Sie wie folgt vor, um einen Kompositionsarbeitsablauf zu erstellen:
+Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
 1. Gehen Sie zum **[!UICONTROL Segmente]**-Menü und wählen Sie **[!UICONTROL Audience erstellen]** aus.
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um einen Kompositionsarbeitsablauf zu erstellen:
 
 1. Bitte die Eigenschaften der Komposition öffnen, um einen Titel und eine Beschreibung anzugeben.
 
-   Wenn in den Eigenschaften kein Titel definiert ist, wird der Titel der Komposition auf &quot;Komposition&quot;gesetzt, gefolgt von Erstellungsdatum und -zeit.
+   Wenn in den Eigenschaften kein Titel definiert ist, wird der Titel der Komposition auf „Komposition“ festgelegt, gefolgt vom Erstellungsdatum und der Uhrzeit.
 
    ![](assets/audiences-properties.png)
 

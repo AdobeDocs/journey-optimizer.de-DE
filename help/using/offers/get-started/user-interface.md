@@ -9,7 +9,7 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallba
 
 * **[!UICONTROL Sammlungen]**: Erstellen und verwalten Sie statische und dynamische Angebotssammlungen. Siehe [Info zu Angebotssammlungen](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. Siehe [Entscheidungen erstellen](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
@@ -37,7 +37,7 @@ Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von A
 
 * **[!UICONTROL Platzierungen]**: Erstellen und verwalten Sie Platzierungen, an denen Ihre Angebote angezeigt werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Sammlungsbezeichner]**: Erstellen und verwalten Sie Sammlungsbezeichner (ehemals &quot;Tags&quot;), um Ihre Angebote zu organisieren und zu filtern. Siehe [Sammlungsbezeichner erstellen](../offer-library/creating-tags.md).
+* **[!UICONTROL Sammlungsqualifizierer]**: Erstellen und verwalten Sie Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet), um Ihre Angebote zu organisieren und zu filtern. Siehe [Erstellen von Sammlungsqualifizierern](../offer-library/creating-tags.md).
 
 * **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. Näheres dazu finden Sie unter [Erstellen einer Entscheidungsregel](../offer-library/creating-decision-rules.md).
 

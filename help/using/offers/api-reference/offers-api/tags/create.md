@@ -1,5 +1,5 @@
 ---
-title: Kollektionsqualifizierung erstellen
+title: Erstellen eines Sammlungskennzeichners
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# Kollektionsqualifizierung erstellen {#create-tag}
+# Erstellen eines Sammlungskennzeichners {#create-tag}
 
-Sie können einen Sammlungsbezeichner (zuvor als &quot;Tag&quot;bezeichnet) erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] -API verwenden, während Sie Ihre Container-ID angeben.
+Sie können einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsbezeichner befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsqualifizierer befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Anfrage**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungsbezeichner zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs- `@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihren Sammlungsbezeichner zu aktualisieren oder zu löschen. Sie können Ihren eindeutigen Sammlungsbezeichner verwenden `@id` in späteren Tutorials zum Erstellen von Kollektionen und personalisierten Angeboten.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungsqualifizierer zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihren Sammlungsqualifizierer zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Sammlungsqualifizierers in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
 
 ```json
 {

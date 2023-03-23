@@ -47,18 +47,18 @@ Gehen Sie wie folgt vor, um eine neue Vorgangsanfrage zu erstellen.
 
 1. Wählen Sie ein Adobe Experience Platform-Segment als Ziel aus.
 
-1. Wählen Sie einen oder mehrere Angebots-Entscheidungsbereiche aus, die Sie verwenden möchten, um dem Segment Angebote zu unterbreiten:
+1. Wählen Sie einen oder mehrere Angebots-Entscheidungsumfänge aus, die Sie verwenden möchten, um dem Segment Angebote zu unterbreiten:
    1. Wählen Sie eine Platzierung aus der Liste aus.
    1. Die für die ausgewählte Platzierung verfügbaren Entscheidungen werden angezeigt. Wählen Sie die gewünschte Entscheidung aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
-   1. Wiederholen Sie den Vorgang, um beliebig viele Entscheidungsbereiche hinzuzufügen.
+   1. Wiederholen Sie den Vorgang, um beliebig viele Entscheidungsumfänge hinzuzufügen.
 
    ![](assets/batch-decision.png)
 
-1. Standardmäßig wird für jedes Profil ein Angebot des Entscheidungsbereichs zurückgegeben. Sie können die Anzahl der zurückgegebenen Angebote mit der Option **[!UICONTROL Angebot pro Profil anfragen]** anpassen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsbereich die besten zwei Angebote angezeigt.
+1. Standardmäßig wird für jedes Profil ein Angebot des Entscheidungsumfangs zurückgegeben. Sie können die Anzahl der zurückgegebenen Angebote mit der Option **[!UICONTROL Angebot pro Profil anfragen]** anpassen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt.
 
    >[!NOTE]
    >
-   >Sie können bis zu 30 Angebote pro Entscheidungsbereich anfragen.
+   >Sie können bis zu 30 Angebote pro Entscheidungsumfang anfragen.
 
 1. Wenn Sie den Angebotsinhalt in den Datensatz einbeziehen möchten, aktivieren Sie die Option **[!UICONTROL Inhalt einschließen]**. Standardmäßig ist diese Option deaktiviert.
 

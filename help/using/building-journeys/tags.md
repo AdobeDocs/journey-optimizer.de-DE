@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tags in Journey verwalten
-description: Tags in Journey verwalten
+title: Verwalten von Tags in Journeys
+description: Verwalten von Tags in Journeys
 feature: Journeys
 topic: Content Management
 role: User
@@ -12,48 +12,48 @@ badge: label="Beta" type="Informative"
 source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Tags in Journey verwalten {#journey_tags}
+# Verwalten von Tags in Journeys {#journey_tags}
 
-Als Journey Optimizer-Anwender können Sie Ihre Journey mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern.
+Mit Journey Optimizer können Sie Ihre Journeys mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern. 
 
 >[!AVAILABILITY]
 >
 > Einheitliche Tags befinden sich derzeit in der Betaversion. Dokumentation und Funktionalitäten können sich ändern.
 
-## Tags zu einer Journey hinzufügen
+## Hinzufügen von Tags zu einer Journey
 
-Die **Tags** -Feld in den Journey-Eigenschaften können Sie Tags für Ihre Journey definieren. Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Geben Sie den Namen des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn sie nicht verfügbar ist, klicken Sie auf **Erstellen** , um eine neue zu erstellen und sie zu Ihrer Journey hinzuzufügen. Sie können beliebig viele Tags definieren.
+Mit dem Feld **Tags** in den Journey-Eigenschaften können Sie Tags für Ihre Journey definieren. Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn es nicht verfügbar ist, klicken Sie auf **Erstellen**, um ein neues zu erstellen und zu Ihrer Journey hinzuzufügen. Sie können beliebig viele Tags definieren.
 
 ![](assets/tags1.png)
 
-Die Liste der definierten Tags wird unter dem **Tags** -Feld.
+Die Liste der definierten Tags wird unter dem Feld **Tags** angezeigt.
 
 >[!NOTE]
 >
-> Bei Tags wird zwischen Groß- und Kleinschreibung unterschieden
+> Bei Tags wird die Groß-/Kleinschreibung nicht beachtet.
 > 
-> Wenn Sie eine Journey duplizieren oder eine neue Version erstellen, bleiben Tags erhalten.
+> Wenn Sie eine Journey duplizieren oder eine neue Version einer Journey erstellen, bleiben Tags erhalten.
 
-## Tagfilter
+## Filtern nach Tags
 
-In der Journey-Liste wird eine eigene Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
+In der Journey-Liste wird eine spezielle Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
 
-Es ist auch ein Filter verfügbar, der nur Journey mit bestimmten Tags anzeigt.
+Es ist auch ein Filter verfügbar, um nur Journeys mit bestimmten Tags anzuzeigen.
 
 ![](assets/tags2.png)
 
-Sie können Tags beliebiger Journey (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie auf **Mehr Aktionen** neben dem Journey klicken und auswählen **Tags bearbeiten**.
+Sie können Tags zu beliebigen Typen von Journeys (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie auf das Symbol **Mehr Aktionen** neben der Journey und wählen Sie **Tags bearbeiten** aus.
 
 ![](assets/tags3.png)
 
 ## Verwalten von Tags
 
-Administratoren können Tags löschen und mithilfe der Variablen **Tags** Menü, unter **VERWALTUNG**. In dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html) finden Sie weitere Informationen.
+Admins können Tags löschen und mithilfe des Menüs **Tags** unter **ADMINISTRATION** nach Kategorien organisieren. In dieser [Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) finden Sie weitere Informationen.
 
 >[!NOTE]
 >
-> In Journey definierte Tags werden der integrierten Kategorie &quot;Nicht kategorisiert&quot;hinzugefügt.
+> In Journeys definierte Tags werden der integrierten Kategorie „Nicht kategorisiert“ hinzugefügt.

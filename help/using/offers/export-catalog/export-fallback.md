@@ -9,7 +9,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -190,9 +190,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 +++ _experience > decisioning > tags
 
-**Feld:** tags
+**Feld:** Tags
 **Titel:** Tags
-**Beschreibung:** Die Gruppe von Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet), die mit dieser Entität verknüpft sind. Die Sammlungsbezeichner werden in Filterausdrücken verwendet, um den Gesamtbestand auf eine Untergruppe (Kategorie) zu beschränken.
+**Beschreibung:** Die Gruppe von Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet), die mit dieser Entität verknüpft sind. Die Sammlungskennzeichner werden in Filterausdrücken verwendet, um den Gesamtbestand auf eine Teilmenge (Kategorie) einzuschränken.
 **Typ:** Array
 
 +++

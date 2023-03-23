@@ -378,9 +378,9 @@ ht-degree: 99%
             + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Löschen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Sammlungsqualifizierer {#tags}
-            + [Auflisten von Sammlungsqualifizierern](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Auflisten von Sammlungskennzeichnern](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Erstellen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/create.md)
+            + [Erstellen eines Sammlungskennzeichners](using/offers/api-reference/offers-api/tags/create.md)
             + [Aktualisieren eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/update.md)
             + [Löschen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/delete.md)
          + Personalisierte Angebote {#personalized-offers}

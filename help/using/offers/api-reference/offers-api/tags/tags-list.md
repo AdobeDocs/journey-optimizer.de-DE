@@ -1,5 +1,5 @@
 ---
-title: Kollektionskennungen auflisten
+title: Auflisten von Sammlungskennzeichnern
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
@@ -9,17 +9,17 @@ exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
-# Kollektionskennungen auflisten {#list-tags}
+# Auflisten von Sammlungskennzeichnern {#list-tags}
 
-Mit Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Sie können beispielsweise Ihre Black Friday-Angebote mit dem Sammlungsbezeichner &quot;Black Friday&quot;kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Sammlungsbezeichner einfach zu finden.
+Mit Sammlungsqualifizierern (ehemals als „Tags“ bezeichnet) können Sie Ihre Angebote besser organisieren und sortieren. Beispielsweise könnten Sie Ihre Black Friday-Angebote mit dem Sammlungsqualifizierer „Black Friday“ kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek nutzen, um alle Angebote mit diesem Sammlungsqualifizierer einfach zu finden.
 
-Sammlungsbezeichner können auch verwendet werden, um Angebote in Kollektionen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Sammlungen](../../../offer-library/creating-collections.md).
+Sammlungsqualifizierer können auch dazu dienen, Angebote in Sammlungen zu gruppieren. Weitere Informationen finden Sie im Tutorial zum [Erstellen von Sammlungen](../../../offer-library/creating-collections.md).
 
-Sie können eine Liste aller Sammlungsbezeichner in einem Container anzeigen, indem Sie eine einzige GET-Anfrage an die [!DNL Offer Library] API.
+Sie können eine Liste aller Sammlungsqualifizierer in einem Container anzeigen, indem Sie eine einzelne GET-Anfrage an die [!DNL Offer Library]-API durchführen.
 
 **API-Format**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsbezeichner befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definiert das Schema, das mit Sammlungsbezeichner verknüpft ist. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsqualifizierer befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Definiert das Schema, das mit Sammlungsqualifizierern verknüpft ist. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 
 **Anfrage**
@@ -60,11 +60,11 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | `qop` | Wendet den AND- oder OR-Operator auf Werte im Abfragezeichenfolgen-Parameter an. | `AND` / `OR` |
 | `field` | Optionale Liste der Felder, auf die die Suche beschränkt werden soll. Dieser Parameter kann wie folgt wiederholt werden: field=field1[,field=field2,...] und (Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden wie _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Das Hinzufügen von `-` vor dem Titel (`orderby=-title`) sortiert die Ergebnisse nach Titel in absteigender Reihenfolge (Z-A). | `-repo:createdDate` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Sammlungsbezeichner ein. | `limit=5` |
+| `limit` | Beschränkt die Anzahl der zurückgegebenen Sammlungsqualifizierer. | `limit=5` |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort wird eine Liste von Sammlungsbezeichner zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Sammlungsqualifizierern zurückgegeben, die in dem Container vorhanden sind, auf den Sie Zugriff haben.
 
 ```json
 {

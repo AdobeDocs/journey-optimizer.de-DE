@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
 source-wordcount: '1828'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="dates.md#format-date">Datum formatieren</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert.</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date-locale">Datum mit Gebietsschema-Unterstützung formatieren</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung, d. h. in einem gewünschten Gebietsschema.</td>
+        <td><a href="dates.md#format-date-locale">Formatieren des Datums mit Gebietsschema-Unterstützung</a></td><td>Diese Funktion formatiert einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung, d. h. in einem gewünschten Gebietsschema.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">Tage festlegen</a></td><td>Diese Funktion legt den Tag des Monats für den angegebenen Datums-/Uhrzeitwert fest.</td>
@@ -244,7 +244,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#index-of">Index von</a></td><td>Diese Funktion gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt</td>
     </tr>
     <tr>
-        <td><a href="string.md#isEmpty">Ist leer</a></td><td>Mit dieser Funktion wird geprüft, ob eine Zeichenfolge oder ein Ausdruck leer ist</td>
+        <td><a href="string.md#isEmpty">isEmpty</a></td><td>Mit dieser Funktion wird geprüft, ob eine Zeichenfolge oder ein Ausdruck leer ist</td>
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">Ist nicht leer</a></td><td>Diese Funktion gibt „true“ zurück, wenn die Zeichenfolge im Parameter nicht leer ist.</td>

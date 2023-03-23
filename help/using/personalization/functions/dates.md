@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -144,9 +144,9 @@ Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
 ```
 
-## Datum mit Gebietsschema-Unterstützung formatieren{#format-date-locale}
+## Formatieren des Datums mit Gebietsschema-Unterstützung{#format-date-locale}
 
-Die `formatDate` -Funktion wird verwendet, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
+Die Funktion `formatDate` wird verwendet, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, d. h. in einem gewünschten Gebietsschema. Das Format sollte ein gültiges Java-DateTimeFormat-Muster sein.
 
 **Syntax**
 
@@ -154,20 +154,20 @@ Die `formatDate` -Funktion wird verwendet, um einen Datums-/Uhrzeitwert in die e
 {%= formatDate(datetime, format, locale) %}
 ```
 
-Wobei die erste Zeichenfolge das Datumsattribut ist, ist der zweite Wert die Art, wie das Datum konvertiert und angezeigt werden soll, und der dritte Wert stellt das Gebietsschema im Zeichenfolgenformat dar.
+Dabei ist die erste Zeichenfolge das Datumsattribut, der zweite Wert ist die Art, wie das Datum konvertiert und angezeigt werden soll, und der dritte Wert stellt das Gebietsschema im Zeichenfolgenformat dar.
 
 >[!NOTE]
 >
 > Wenn ein Datumsformat ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können die Java-Formatierungsfunktionen für Datumsangaben verwenden, wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) zusammengefasst sind.
 >
-> Sie können die Formatierung und gültige Gebietsschemata wie in [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Oracle-Dokumentation](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und in den [unterstützten Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
 
 
 **Beispiel**
 
-Der folgende Vorgang gibt das Datum im folgenden Format zurück: MM/TT/JJ und Gebietsschema FRANKREICH.
+Der folgende Vorgang gibt das Datum in diesem Format zurück: MM/TT/JJ und Gebietsschema FRANKREICH.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}

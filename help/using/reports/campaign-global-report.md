@@ -290,4 +290,4 @@ Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTR
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Erstellen von API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Ändern oder Stoppen einer Kampagne](../campaigns/modify-stop-campaign.md)
-* [Live-Bericht einer Kampagne](campaign-live-report.md)
+* [Campaign Live-Bericht](campaign-live-report.md)

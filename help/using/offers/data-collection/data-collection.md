@@ -1,6 +1,6 @@
 ---
 title: Datenerfassung
-description: Erfahren Sie mehr über die Erfassung von Feedback-Daten zur Entscheidungsverwaltung
+description: Erfahren Sie mehr über die Erfassung von Feedback-Daten zum Entscheidungs-Management
 feature: Offers
 topic: Integrations
 role: User
@@ -8,45 +8,45 @@ level: Intermediate
 source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 3%
+ht-degree: 74%
 
 ---
 
-# Entscheidungsmanagement-Datenerfassung {#data-collection}
+# Datenerfassung für das Entscheidungs-Management {#data-collection}
 
-## Grundlagen zur Datenerfassung
+## Grundlagen der Datenerfassung
 
-Sie können offer decisioning-Feedback in Adobe Experience Platform erfassen, einschließlich der angezeigten Angebote und der Interaktion der Benutzer mit ihnen. Diese Daten können für Folgendes verwendet werden:
-* Zusammensetzung [Entscheidungsberichte](../reports/get-started-events.md);
-* Verwenden [Frequenzlimitierung](../offer-library/add-constraints.md#capping) Regeln;
-* Erstellen [AI-Modelle](../ranking/create-ranking-strategies.md) , die als Ranking-Methode verwendet werden kann.
+Sie können Feedback zu Angebotsentscheidungen in Adobe Experience Platform erfassen, einschließlich der angezeigten Angebote und der Benutzerinteraktion mit ihnen. Diese Daten können für Folgendes verwendet werden:
+* Erstellen von [Berichten über das Entscheidungs-Management](../reports/get-started-events.md);
+* Verwenden von Regeln zur [Frequenzlimitierung](../offer-library/add-constraints.md#capping);
+* Erstellen von [KI-Modellen](../ranking/create-ranking-strategies.md), die als Ranking-Methode verwendet werden können.
 
 ## Ereignistypen
 
-Die Art der Datenerfassung variiert je nach Ereignistyp, den Sie erfassen möchten.
+Die Art der Datenerfassung variiert je nach Ereignistyp, der erfasst werden soll.
 
 ### Entscheidungsereignisse
 
-Jedes Mal, wenn die Entscheidungsverwaltung eine Entscheidung trifft, werden Informationen zu diesem Entscheidungsereignis **automatisch** für alle Kanäle an Adobe Experience Platform gesendet. [Weitere Informationen](../reports/get-started-events.md)
+Jedes Mal, wenn das Entscheidungs-Management eine Entscheidung trifft, werden Informationen zu diesem Entscheidungsereignis **automatisch** für alle Kanäle an Adobe Experience Platform gesendet. [Weitere Informationen](../reports/get-started-events.md)
 
-### Impression- und Klickereignisse
+### Impressions- und Klickereignisse
 
-Impressionen und Klicks zur Entscheidungsverwaltung werden wie folgt definiert:
+Impressionen und Klicks für das Entscheidungs-Management werden wie folgt definiert:
 
-* Ein **Impression** -Ereignis ist, wenn einem Benutzer ein Angebot angezeigt wird.
+* Ein **Impressions**-Ereignis liegt vor, wenn einer Benutzerin bzw. einem Benutzer ein Angebot angezeigt wird.
 
-* A **click** -Ereignis ist, wenn ein Benutzer auf ein Angebot klickt oder mit ihm interagiert.
+* Ein **Klick**-Ereignis liegt vor, wenn eine Benutzerin bzw. ein Benutzer auf ein Angebot klickt oder mit ihm interagiert.
 
-Feedback zu Impressionen und Klicks wird je nach [!DNL Journey Optimizer] verwendeter Kanal.
+Feedback zu Impressionen und Klicks wird je nach verwendetem [!DNL Journey Optimizer]-Kanal erfasst.
 
 **E-Mails** verfasst von [!DNL Journey Optimizer] **automatisch** Impressionen und Klicks verfolgen.
 
 Allerdings **die meisten Kanäle** Impressions- und Klickdaten benötigen, die als **Erlebnisereignis**. Dazu gehören:
 
-* Webseiten, die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} Angebote rendern
+* Web-Seiten mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} Angebote rendern
 
 * Mobile Apps mit der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
-* Kiosk
+* Kiosks
 * Nachrichten, die über Anwendungen von Drittanbietern gesendet werden
    <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
@@ -56,13 +56,13 @@ Allerdings **die meisten Kanäle** Impressions- und Klickdaten benötigen, die a
 
 ### Benutzerspezifische Ereignisse
 
-Feedback zu benutzerspezifischen Ereignissen, die mit einem Angebot verknüpft sind, können gemäß Ihren eigenen Voreinstellungen an Adobe Experience Platform gesendet werden. Wenn beispielsweise ein Angebot über mehrere Schaltflächen verfügt, z. B. *Interessant*, *Nicht interessiert* usw.), können Sie diese Ereignisse separat senden, diese können aber auch als Erlebnisereignisse gesendet werden. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Feedback zu benutzerspezifischen Ereignissen, die mit einem Angebot verknüpft sind, kann gemäß den eigenen Vorlieben an Adobe Experience Platform gesendet werden. Wenn beispielsweise ein Angebot über mehrere Schaltflächen verfügt (*Interesse*, *Kein Interesse* usw.), können Sie diese Ereignisse separat senden. Sie können aber auch als Erlebnisereignisse gesendet werden. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
 
 ## Senden von Feedback-Daten
 
 Um Feedback-Daten zu senden, müssen Sie einen Datensatz zur Erfassung von Ereignissen erstellen und für jeden Ereignistyp ein Erlebnisereignis definieren, das an Adobe Experience Platform gesendet wird.
 
-* Erfahren Sie, wie Sie einen Datensatz erstellen, in dem die Erlebnisereignisse erfasst werden in [diesem Abschnitt](create-dataset.md).
+* Erfahren Sie in [diesem Abschnitt](create-dataset.md), wie Sie einen Datensatz erstellen, in dem die Erlebnisereignisse erfasst werden.
 
-* Erfahren Sie, wie Sie Erlebnisereignisse definieren, die in Feedback-Daten gesendet werden können. [diesem Abschnitt](schema-requirement.md).
+* Erfahren Sie in [diesem Abschnitt](schema-requirement.md), wie Sie Erlebnisereignisse definieren, die in Feedback-Daten gesendet werden können.
 

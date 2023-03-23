@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Leitplanken und Einschränkungen {#limitations}
+# Leitlinien und Einschränkungen {#limitations}
 
 Berechtigungen, Produkteinschränkungen und die Leistung betreffende Leitplanken sind auf der Seite [Adobe Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} aufgeführt.
 

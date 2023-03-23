@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-Was Sie in dieser Dokumentation finden werden:
+Inhalt dieser Dokumentation:
 
 * [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* [Erstellen des Workflows für die erste Komposition](create-compositions.md)
+* [Erstellen des ersten Kompositions-Workflows](create-compositions.md)
 * **[Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)**
 * [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
 
 >[!ENDSHADEBOX]
 
-Die Zielgruppenzusammensetzung bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
+Die Audience-Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Audiences erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 
 Gehen Sie wie folgt vor, um eine Audience auf der Arbeitsfläche zu erstellen:
 
@@ -68,7 +68,7 @@ Nach Auswahl der Audiences wird die geschätzte Anzahl der Profile am unteren En
 
 Fügen Sie Aktivitäten hinzu, nachdem Sie Ihre Start-Audience ausgewählt haben, um Ihre Auswahl zu verfeinern.
 
-Klicken Sie dazu auf die Schaltfläche „+“ im Kompositionspfad und wählen Sie dann die gewünschte Aktivität aus. Der rechte Bereich wird geöffnet, in dem Sie die neu hinzugefügte Aktivität konfigurieren können.
+Klicken Sie dazu auf die Schaltfläche „+“ im Kompositionspfad und wählen Sie dann die gewünschte Aktivität aus. Es öffnet sich der rechte Bereich, in dem Sie die neu hinzugefügte Aktivität konfigurieren können.
 
 ![](assets/audiences-select-activity.png)
 
@@ -76,13 +76,13 @@ Verfügbare Aktivitäten sind:
 
 * [Audience](#audience): Schließt zusätzliche Profile ein, die zu einer oder mehreren bestehenden Audiences gehören,
 * [Ausschließen](#exclude): Schließt Profile aus, die zu einer bestehenden Audience gehören, oder schließt Profile auf der Grundlage bestimmter Attribute aus,
-* [Anreichern]{#enrich}: Anreicherung Ihrer Zielgruppe mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen,
+* [Anreichern]{#enrich}: Anreicherung Ihrer Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen,
 * [Rang](#rank): Sortiert Profile nach einem bestimmten Attribut, gibt die Anzahl der Profile an, die beibehalten werden sollen, und fügt sie in Ihre Komposition ein,
 * [Aufspaltung](#split): Teilt Ihre Komposition in mehrere Pfade, die auf zufälligen Prozentsätzen oder auf Attributen basieren.
 
 Sie können so viele **[!UICONTROL Audience]** und **[!UICONTROL Ausschließen]**-Aktivitäten hinzufügen, wie Sie in Ihrer Komposition benötigen. Nach den Aktivitäten **[!UICONTROL Rang]** und **[!UICONTROL Aufspaltung]** kann jedoch keine weitere Aktivität hinzugefügt werden.
 
-Sie können eine Aktivität jederzeit aus der Arbeitsfläche entfernen, indem Sie im rechten Bereich auf die Schaltfläche „Löschen“ klicken.  Wenn die Aktivität, die Sie löschen möchten, über andere Aktivitäten in der Komposition verfügt, wird eine Meldung angezeigt, mit der Sie angeben können, ob Sie nur die ausgewählte Aktivität oder alle untergeordneten Aktivitäten löschen möchten.
+Sie können eine Aktivität jederzeit aus der Arbeitsfläche entfernen, indem Sie im rechten Bereich auf die Schaltfläche „Löschen“ klicken.  Wenn die zu löschende Aktivität eine übergeordnete Aktivität in der Komposition ist, wird eine Nachricht angezeigt, in der Sie angeben können, ob Sie nur die ausgewählte Aktivität oder alle ihre untergeordneten Aktivitäten löschen möchten.
 
 ### Audience-Aktivität {#audience}
 
@@ -130,13 +130,13 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Aktivität anreichern"
->abstract="Verwenden Sie die Aktivität Anreicherung , um Profile auszuschließen, die zu einer vorhandenen Zielgruppe gehören. Mit dem Typ „Mit Attribut ausschließen“ können Sie Profile auf der Grundlage eines bestimmten Attributs ausschließen."
+>title="Aktivität „Anreichern“"
+>abstract="Verwenden Sie die Aktivität „Anreichern“, um Profile auszuschließen, die zu einer bestehenden Audience gehören. Mit dem Typ „Mit Attribut ausschließen“ können Sie Profile auf der Grundlage eines bestimmten Attributs ausschließen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
 >title="Anreicherungsdatensatz"
->abstract="Wählen Sie den Anreicherungsdatensatz mit den Daten aus, die Sie mit der Zielgruppe verknüpfen möchten."
+>abstract="Wählen Sie den Anreicherungsdatensatz mit den Daten aus, die Sie mit der Audience verknüpfen möchten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
@@ -146,25 +146,25 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Anreicherungsattribute"
->abstract="Wählen Sie ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Zielgruppe verknüpft werden sollen. Nach der Veröffentlichung der Komposition werden diese Attribute mit der Zielgruppe verknüpft und können in Kampagnen zur Personalisierung von Sendungen genutzt werden."
+>abstract="Wählen Sie ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Audience verknüpft werden sollen. Nach der Veröffentlichung der Komposition werden diese Attribute mit der Audience verknüpft und können in Kampagnen zur Personalisierung von Sendungen genutzt werden."
 
-Die **[!UICONTROL Anreichern]** -Aktivität können Sie Ihre Zielgruppe mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
+Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
 
 >[!IMPORTANT]
 >
->Derzeit werden Bezeichnungen im Datensatz entweder auf Datensatzebene oder auf Feldebene nicht an die neu erstellte Zielgruppe weitergeleitet. Dies kann sich auf die Zugriffskontrolle und/oder die Data Governance für die resultierende Zielgruppe auswirken. Verwenden Sie daher beim Erstellen von Zielgruppen nur Testdaten.
+>Derzeit werden Kennzeichnungen im Datensatz, ob auf Datensatz- oder auf Feldebene, nicht an die neu erstellte Audience weitergegeben. Dies kann sich auf die Zugriffskontrolle und/oder die Data Governance für die resultierende Audience auswirken. Verwenden Sie daher beim Erstellen von Audiences nur Testdaten.
 
 Gehen Sie wie folgt vor, um die Aktivität zu konfigurieren:
 
-1. Wählen Sie die **[!UICONTROL Anreicherungsdatensatz]** enthält die Daten, die Sie mit der Zielgruppe verknüpfen möchten.
+1. Wählen Sie den **[!UICONTROL Anreicherungsdatensatz]** aus, der die Daten enthält, die Sie mit der Audience verknüpfen möchten.
 
-1. Im **[!UICONTROL Anreicherungskriterien]** die Felder auswählen, die als Abstimmschlüssel zwischen dem Quelldatensatz, d. h. der Audience, und dem Anreicherungsdatensatz verwendet werden sollen. In diesem Beispiel verwenden wir die Kennung des gekauften Produkts als Abstimmschlüssel.
+1. Im Abschnitt **[!UICONTROL Anreicherungskriterien]** wählen Sie die Felder aus, die als Abstimmschlüssel zwischen dem Quelldatensatz, d. h. der Audience, und dem Anreicherungsdatensatz verwendet werden sollen. In diesem Beispiel verwenden wir die Kennung des gekauften Produkts als Abstimmschlüssel.
 
-1. Klicken Sie auf **[!UICONTROL Attribute hinzufügen]** und wählen Sie dann ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Zielgruppe verknüpft werden sollen.
+1. Klicken Sie auf **[!UICONTROL Attribute hinzufügen]** und wählen Sie dann aus dem Anreicherungsdatensatz ein oder mehrere Attribute aus, die mit der Audience verknüpft werden sollen.
 
    ![](assets/audiences-enrich-activity.png)
 
-Nach der Veröffentlichung der Komposition werden die ausgewählten Attribute mit der Zielgruppe verknüpft und können in Kampagnen zur Personalisierung von Sendungen genutzt werden.
+Nach der Veröffentlichung der Komposition werden die ausgewählten Attribute mit der Audience verknüpft und können in Kampagnen zur Personalisierung von Sendungen genutzt werden.
 
 ### Rang-Aktivität {#rank}
 
@@ -218,7 +218,7 @@ Durch diese Operation wird automatisch eine **[!UICONTROL Speichern]**-Aktivitä
 
 Es stehen zwei Arten von Split-Operationen zur Verfügung:
 
-* **[!UICONTROL Prozent-Split]**: Profile nach dem Zufallsprinzip in zwei oder mehr Pfade aufteilen. Sie können die Profile beispielsweise in 2 verschiedene Pfade von jeweils 50 % aufteilen. <!--and add an additional path for control group.-->
+* **[!UICONTROL Prozent-Split]**: Profile nach dem Zufallsprinzip in zwei oder mehr Pfade aufteilen. Sie können die Profile beispielsweise in zwei verschiedene Pfade von jeweils 50 % aufteilen. <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 

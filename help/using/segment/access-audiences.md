@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-Was Sie in dieser Dokumentation finden werden:
+Inhalt dieser Dokumentation:
 
 * [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* [Erstellen des Workflows für die erste Komposition](create-compositions.md)
+* [Erstellen des ersten Kompositions-Workflows](create-compositions.md)
 * [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
 * **[Zugreifen auf und Verwalten von Audiences](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
-Auf aus der Zielgruppenzusammensetzung resultierende Zielgruppen kann über die **[!UICONTROL Durchsuchen]** im **[!UICONTROL Segmente]** Menü.
+Audiences, die aus der Audience-Komposition resultieren, sind über die Registerkarte **[!UICONTROL Durchsuchen]** im Menü **[!UICONTROL Segmente]** zugänglich.
 
 Auf dieser Registerkarte werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet. Audiences, die mithilfe von Audience-Kompositionen erstellt wurden, sind an der Herkunft **[!UICONTROL Audience-Komposition]** erkennbar.
 
@@ -39,7 +39,7 @@ Auf dieser Registerkarte werden alle in Adobe Experience Platform gespeicherten 
 
 >[!NOTE]
 >
->Für diese Betaversion werden mehrere Komponenten und/oder Metadaten, die ursprünglich im Segmentbestand angezeigt wurden, nicht auf dieser Registerkarte angezeigt (z. B. Aufschlüsselung, Auswertungsmethode usw.).
+>Für diese Beta-Version werden mehrere Komponenten und/oder Metadaten, die ursprünglich im Inventar der Segmente angezeigt wurden, nicht auf dieser Registerkarte angezeigt (z. B. Aufschlüsselung, Auswertungsmethode usw.).
 >
 >Weitere Informationen zu anderen in Adobe Experience Platform verfügbaren Typen von Audiences finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
 

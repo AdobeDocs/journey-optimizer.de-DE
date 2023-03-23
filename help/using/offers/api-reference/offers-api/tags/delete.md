@@ -1,5 +1,5 @@
 ---
-title: Sammlungsbezeichner löschen
+title: Löschen von Sammlungsqualifizierern
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # Löschen eines Sammlungsqualifizierers {#delete-tag}
 
-Gelegentlich kann es erforderlich sein, einen Sammlungsbezeichner (zuvor &quot;Tag&quot;) zu entfernen (DELETE). Es können nur Sammlungsbezeichner gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht durch Ausführung einer DELETE-Anfrage an die [!DNL Offer Library] API mit der $id des Sammlungsqualifizierers, den Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) zu entfernen (DELETE). Es können nur Sammlungskennzeichner gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie eine DELETE-Anfrage an die [!DNL Offer Library]-API mit der $ID des Sammlungsqualifizierers durchführen, den Sie löschen möchten.
 
 **API-Format**
 
@@ -26,7 +26,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsbezeichner befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsqualifizierer befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | Die Instanz-ID des Sammlungsqualifizierers, den Sie aktualisieren möchten. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Anfrage**
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Eine erfolgreiche Antwort gibt den HTTP-Status 202 (kein Inhalt) und leeren Text zurück.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) an den Sammlungsbezeichner senden. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da der Sammlungsbezeichner aus dem Container entfernt wurde.
+Sie können die Löschung bestätigen, indem Sie eine Nachschlageanfrage (GET) an den Sammlungsqualifizierer versuchen. Sie müssen einen Accept-Header in die Anfrage einbeziehen, sollten jedoch einen HTTP-Status 404 (Nicht gefunden) erhalten, da der Sammlungsqualifizierer aus dem Container entfernt wurde.

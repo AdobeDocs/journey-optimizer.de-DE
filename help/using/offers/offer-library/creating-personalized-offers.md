@@ -9,17 +9,17 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Personalisierte Angebote erstellen {#create-personalized-offers}
+# Erstellen von personalisierten Angeboten {#create-personalized-offers}
 
 Vor der Erstellung eines Angebots sollten Sie Folgendes erstellt haben:
 
 * Eine **Platzierung**, in der das Angebot angezeigt wird. Siehe [Platzierungen erstellen](../offer-library/creating-placements.md)
 * Wenn Sie eine Eignungsbedingung hinzufügen möchten: eine **Entscheidungsregel** definiert die Bedingung, unter der das Angebot unterbreitet wird. Weitere Informationen finden Sie unter [Erstellen von Entscheidungsregeln](../offer-library/creating-decision-rules.md).
-* Eins oder mehrere **Sammlungsbezeichner** (zuvor als &quot;Tags&quot;bezeichnet), die Sie möglicherweise mit dem Angebot verknüpfen möchten. Siehe [Kollektionskennungen erstellen](../offer-library/creating-tags.md).
+* Ein oder mehrere **Sammlungsqualifizierer** (ehemals als „Tags“ bezeichnet), die Sie möglicherweise mit dem Angebot verknüpfen möchten. Siehe [Erstellen von Sammlungsqualifizierern](../offer-library/creating-tags.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um ein **Angebot** zu erstellen:
    >
    >Das Aktualisieren des Start-/Enddatums kann sich auf die Begrenzung auswirken. [Weitere Informationen](add-constraints.md#capping-change-date)
 
-1. Sie können auch eine oder mehrere vorhandene **[!UICONTROL Sammlungsbezeichner]** dem Angebot hinzufügen, sodass Sie die Angebotsbibliothek einfacher durchsuchen und organisieren können. [Weitere Informationen](creating-tags.md).
+1. Sie können dem Angebot auch ein oder mehrere **[!UICONTROL Sammlungsqualifizierer]** zuordnen, damit Sie die Angebotsbibliothek leichter durchsuchen und organisieren können. [Weitere Informationen](creating-tags.md).
 
 1. Im Abschnitt **[!UICONTROL Angebotsattribute]** können Sie für Reporting- und Analysezwecke Schlüssel-Wert-Paare mit dem Angebot verknüpfen.
 
