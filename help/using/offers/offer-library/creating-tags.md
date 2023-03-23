@@ -1,5 +1,5 @@
 ---
-title: Kollektionskennungen erstellen
+title: Erstellen von Sammlungsqualifizierern
 description: Erfahren Sie, wie Sie Kollektionskennungen für Ihre Angebote erstellen
 feature: Offers
 topic: Integrations
@@ -9,16 +9,16 @@ exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 12%
+ht-degree: 31%
 
 ---
 
-# Kollektionskennungen erstellen {#create-tags}
+# Erstellen von Sammlungsqualifizierern {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="Sammlungsbezeichner"
->abstract="Verknüpfen Sie mindestens einen Kollektionsbezeichner mit dem Angebot, um die Angebotsbibliothek besser zu organisieren und Angebote leichter zu finden. Sammlungsbezeichner werden im Menü &quot;Komponente&quot;erstellt."
+>title="Sammlungsqualifizierer"
+>abstract="Verknüpfen Sie mindestens einen Sammlungsqualifizierer mit dem Angebot, um die Angebotsbibliothek besser zu organisieren und Angebote leichter zu finden. Sammlungsqualifizierer werden im Menü „Komponente“ erstellt."
 
 Die Zuordnung von Sammlungsbezeichner (ehemals &quot;Tags&quot;) zu Ihren Angeboten erleichtert die Organisation. Sie können beispielsweise Ihre Black Friday-Angebote mit dem Sammlungsbezeichner &quot;Black Friday&quot;kennzeichnen. Anschließend können Sie die Suchfunktion in der Angebotsbibliothek verwenden, um alle Angebote mit diesem Sammlungsbezeichner einfach zu finden.
 

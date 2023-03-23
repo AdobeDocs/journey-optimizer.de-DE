@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
 source-wordcount: '2323'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 
@@ -138,7 +138,7 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >id="ajo_decisioning_capping"
 >title="Verwenden der Begrenzung"
 >abstract="Um zu vermeiden, dass Ihre Kunden und Kundinnen zu oft angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=de#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
