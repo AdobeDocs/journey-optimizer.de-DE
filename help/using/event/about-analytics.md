@@ -2,33 +2,43 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics-Integration
-description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen.
+description: Erfahren Sie, wie Sie Adobe Analytics-Daten nutzen. in Journey Optimizer
 feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 43%
 
 ---
 
-# Adobe Analytics-Integration {#analytics-data}
+# Arbeiten mit Adobe Analytics-Daten {#analytics-data}
 
-## Verwenden von Adobe Analytics- oder Web SDK-Daten {#leverage-analytics-data}
+Sie können alle Web-verhaltensbezogenen Ereignisdaten, die Sie bereits über das Adobe Analytics- oder Web-SDK erfassen, sowie das Streaming in Adobe Experience Platform nutzen, um Journey von Triggern zu erhalten und Erlebnisse für Ihre Kunden zu automatisieren.
 
-Alle Ereignisdaten über das Verhalten im Internet, die in Adobe Analytics oder über das Web SDK bereits erfasst und an Adobe Experience Platform gestreamt werden, können zum Auslösen von Journeys und zum Automatisieren von Kundenerlebnissen genutzt werden.
+Damit dies mit Adobe Analytics funktioniert, müssen Sie:
+
+1. Aktivieren Sie die Report Suite, die Sie verwenden möchten. [Weitere Informationen](#leverage-analytics-data)
+1. Aktivieren Sie Journey Optimizer für die Verwendung Ihrer Adobe Analytics-Datenquelle. [Weitere Informationen](#activate-analytics-data)
+1. Fügen Sie ein bestimmtes Ereignis in Ihre Journey ein. [Weitere Informationen](#event-analytic)
 
 >[!NOTE]
 >
->Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die Adobe Analytics- oder Web-SDK-Daten verwenden müssen.
+>Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kunden, die Adobe Analytics- oder Web SDK-Daten verwenden müssen.
+> 
+>Informationen zur Verwendung von Adobe Customer Journey Analytics finden Sie unter [diese Seite](../reports/cja-ajo.md).
 
-Damit Adobe Analytics verwendet werden kann, muss die Report Suite aktiviert wurde, die in Adobe Experience Platform verwendet werden soll. Gehen Sie dazu wie folgt vor:
+## Adobe Analytics- oder Web SDK-Daten konfigurieren {#leverage-analytics-data}
 
-1. Eine Verbindung mit Adobe Experience Platform herstellen und zu **[!UICONTROL Quellen]** navigieren.
+Daten aus Adobe Analytics oder dem Adobe Experience Platform Web SDK müssen aktiviert sein, damit sie in Ihren Journey verwendet werden können.
+
+Gehen Sie dazu wie folgt vor:
+
+1. Navigieren Sie zum **[!UICONTROL Quellen]** Menü.
 
 1. Wählen Sie im Adobe Analytics-Bereich die Option **[!UICONTROL Daten hinzufügen]**.
 
@@ -52,14 +62,31 @@ Dadurch wird der Analytics-Quell-Connector für diese Report Suite aktiviert. So
 
 Weitere Informationen zum Adobe Analytics-Quell-Connector finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=de){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=de){target="_blank"}.
 
+## Aktivieren dieser Konfiguration {#activate-analytics-data}
+
+Wenden Sie sich nach der Konfiguration an Adobe, um Ihre Journey Optimizer-Umgebung für die Verwendung dieser Datenquelle zu aktivieren. Dieser Schritt ist nur für Adobe Analytics-Datenquellen erforderlich. Um dies durchzuführen:
+
+1. Rufen Sie die Datenquellen-ID ab. Diese Informationen sind in der Benutzeroberfläche verfügbar: Navigieren Sie zur von Ihnen erstellten Datenquelle im **Datenflüsse** des **Quellen** Menü. Am einfachsten finden Sie sie durch Filtern nach Adobe Analytics-Quellen.
+1. Wenden Sie sich mit den folgenden Informationen an die Kundenunterstützung von Adobe:
+
+   * Betrifft: Aktivieren von Adobe Analytics-Ereignissen für Journey
+
+   * Inhalt: Bitte aktivieren Sie in meiner Umgebung die Verwendung von AA-Ereignissen.
+
+      * Organisations-ID: &quot;XXX@AdobeOrg&quot;
+
+      * Datenquellen-ID: &quot;ID: xxxxx&quot;
+
+1. Sobald Sie eine Bestätigung erhalten haben, dass Ihre Umgebung bereit ist, können Sie Adobe Analytics-Daten in Ihren Journey verwenden.
+
 ## Erstellen einer Journey mit einem Ereignis mithilfe von Adobe Analytics- oder Web SDK-Daten {#event-analytics}
 
-Nach der Integration von Adobe Analytics mit [Adobe Analytics-Quellen](#leverage-analytics-data) oder dem [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) können Sie ein Ereignis erstellen, das später in einer Journey verwendet werden kann.
+Sie können jetzt ein Ereignis erstellen, das auf Adobe Analytics- oder Adobe Experience Platform Web SDK-Daten basiert, die in einer Journey verwendet werden sollen.
 
-In diesem Beispiel werden wir Benutzende ansprechen, die ein Produkt zum Warenkorb hinzugefügt haben:
+Im folgenden Beispiel erfahren Sie, wie Sie Benutzer ansprechen können, die ein Produkt zum Warenkorb hinzugefügt haben:
 
-* Zwei Tage nach Abschluss der Bestellung erhalten sie eine Follow-up-E-Mail mit der Bitte um Feedback.
-* Wenn die Bestellung noch nicht abgeschlossen ist, erhalten sie eine E-Mail, in der sie daran erinnert werden, die Bestellung abzuschließen.
+* Wenn die Bestellung abgeschlossen ist, erhalten Benutzer zwei Tage später eine Follow-up-E-Mail, um Feedback zu erhalten.
+* Wenn die Bestellung nicht abgeschlossen ist, erhalten Benutzer eine E-Mail, um sie daran zu erinnern, die Bestellung abzuschließen.
 
 1. Öffnen Sie über Adobe Journey Optimizer das Menü **[!UICONTROL Konfiguration]**.
 
@@ -74,20 +101,22 @@ In diesem Beispiel werden wir Benutzende ansprechen, die ein Produkt zum Warenko
    * **[!UICONTROL Name]**: Personalisieren Sie den Namen Ihres **[!UICONTROL Ereignisses]**.
    * **[!UICONTROL Typ]**: Wählen Sie den Typ **[!UICONTROL Einzelfall]**. [Weitere Informationen](../event/about-events.md)
    * **[!UICONTROL Ereignis-ID-Typ]**: Wählen Sie den Ereignis-ID-Typ **[!UICONTROL Regelbasiert]**. [Weitere Informationen](../event/about-events.md#event-id-type)
-   * **[!UICONTROL Schema]**: Wählen Sie das im obigen Abschnitt erstellte Analytics- oder Web SDK-Schema aus.
+   * **[!UICONTROL Schema]**: Analytics- oder WebSDK-Schema auswählen [erstellt vor](#leverage-analytics-data).
    * **[!UICONTROL Felder]**: Wählen Sie die Payload-Felder aus. [Weitere Informationen](../event/about-creating.md#define-the-payload-fields)
-   * **[!UICONTROL Ereignis-ID-Bedingung]**: Definieren Sie die Bedingung, anhand der das System die Ereignisse identifiziert, die Ihre Journey auslösen.
+   * **[!UICONTROL Ereignis-ID-Bedingung]**: Definieren Sie die Bedingung, um die Ereignisse zu identifizieren, die Ihre Journey Trigger werden.
 
       Hier wird das Ereignis ausgelöst, wenn Kunden bzw. Kundinnen einen Artikel zu ihrem Warenkorb hinzufügen.
-   * **[!UICONTROL Profilkennung]**: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verknüpfte Person zu identifizieren.
+   * **[!UICONTROL Profilkennung]**: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verbundene Person zu identifizieren.
 
    ![](assets/ajo-aa_6.png)
 
-1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**. Ihr Ereignis kann jetzt in einer Journey verwendet werden.
+1. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-1. In **[!UICONTROL Journeys]** können Sie jetzt mit der Erstellung Ihrer Journey beginnen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md).
+Nachdem das Ereignis fertig ist, erstellen Sie eine Journey, um es zu verwenden.
 
-1. Fügen Sie Ihre zuvor konfigurierten Analytics-Ereignisse zu Ihrer Journey hinzu.
+1. Aus dem **[!UICONTROL Journey]** -Menü öffnen oder eine Journey erstellen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md).
+
+1. Fügen Sie Ihr zuvor konfiguriertes Analytics-Ereignis zu Ihrer Journey hinzu.
 
    ![](assets/ajo-aa_8.png)
 
@@ -105,6 +134,6 @@ In diesem Beispiel werden wir Benutzende ansprechen, die ein Produkt zum Warenko
 
 1. Fügen Sie dann eine **[!UICONTROL E-Mail-Aktion]** hinzu. In dieser E-Mail werden die Kunden bzw. Kundinnen aufgefordert, Feedback zur aufgegebenen Bestellung abzugeben.
 
-Sie können eine Journey veröffentlichen, nachdem Sie ihre Gültigkeit getestet haben. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+Jetzt können Sie Ihre Journey testen und veröffentlichen. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 
 ![](assets/ajo-aa_7.png)
