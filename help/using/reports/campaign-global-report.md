@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 100%
+source-wordcount: '1926'
+ht-degree: 98%
 
 ---
 
@@ -282,6 +282,9 @@ Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Inf
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
 Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Bounce-Ursachen]** und **[!UICONTROL Fehlerursachen]** sehen Sie, welche Fehler und Ausschlüsse bei Ihrem Versand aufgetreten sind.
+
+Die **[!UICONTROL SMS - Klicks nach Links]** und **[!UICONTROL SMS - Trackingstatistiken]** Widgets enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren URLs.
+
 +++
 
 ## Weitere Ressourcen

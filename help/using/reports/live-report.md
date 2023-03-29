@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,8 @@ Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken f
 
 Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
+1. Aus dem **[!UICONTROL Aktionen]** auswählen, ob Sie über eine bestimmte Aktion Ihrer Journey berichten möchten.
+
 1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
    Beachten Sie, dass die Option **[!UICONTROL Test-Ereignisse ausschließen]** nur für Journey-Berichte verfügbar ist.
@@ -57,6 +59,10 @@ Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widg
    ![](assets/report_modify_9.png)
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Um die Darstellung Ihrer Daten anzupassen, können Sie von verschiedenen Visualisierungsoptionen, wie Diagrammen, Tabellen und Ringdiagrammen, wechseln.
+
+   ![](assets/report_modify_11.png)
 
 Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei einer späteren Verwendung Ihrer Live-Berichte erneut angewendet. Verwenden Sie bei Bedarf die Option **[!UICONTROL Zurücksetzen]**, um die Standard-Widgets und ihre Standardreihenfolge wiederherzustellen.
 

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ Weitere Informationen zum Data Governance-Framework und zum Arbeiten mit Bezeich
 
 * Data Governance ist nur auf benutzerdefinierte Aktionen in Journeys anwendbar. Aktionen von Campaign Classic und Campaign Standard werden nicht unterstützt.
 * Die Governance-Richtlinien gelten nur, wenn eine Marketing-Aktion (erforderlich oder zusätzlich) auf der Ebene der benutzerdefinierten Aktion festgelegt wird.
-* Attribute, die Teil einer Feldergruppe sind, die das vordefinierte Vereinigungsschema verwendet, werden nicht unterstützt. Diese Attribute werden in der Benutzeroberfläche ausgeblendet. Sie müssen eine weitere Feldergruppe mit einem anderen Schema erstellen.
 
 ## Definieren von Governance-Richtlinien {#governance-policies}
 

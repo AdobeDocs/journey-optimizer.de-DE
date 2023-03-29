@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
-workflow-type: ht
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Bei einer Marketing-Nachricht, bei der das Versanddatum angegeben wird, ist der Typ **Geplant** am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten, wie etwa jene zum Zurücksetzen des Kennworts oder bei einem Warenkorbabbruch, senden möchten, ist der Typ **API-ausgelöst** die beste Wahl."
+>abstract="Bei einer Marketing-Nachricht durch Angabe eines Versanddatums muss die Variable **Geplant** type ist am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten, wie etwa jene zum Zurücksetzen des Kennworts oder bei einem Warenkorbabbruch, senden möchten, ist der Typ **API-ausgelöst** die beste Wahl."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

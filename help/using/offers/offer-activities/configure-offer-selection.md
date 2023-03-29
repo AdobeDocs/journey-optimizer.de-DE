@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 87%
 
 ---
 
@@ -38,7 +38,7 @@ Sie können beispielsweise die Priorität aller Angebote erhöhen, deren Enddatu
 
 Näheres dazu, wie Sie eine Rangfolgenformel erstellen, finden Sie in [diesem Abschnitt](../ranking/create-ranking-formulas.md).
 
-Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
+Nachdem eine Formel erstellt wurde, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
 1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
@@ -46,18 +46,17 @@ Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzier
 
 1. Fügen Sie für jede Platzierung eine Sammlung hinzu. Siehe [Erstellen von Sammlungen](../offer-library/creating-collections.md).
 
-1. Wählen Sie **[!UICONTROL Rangfolgenformel]** als Rangfolgenmethode aus und klicken Sie anschließend auf **[!UICONTROL Rangfolge hinzufügen]**.
-
+1. Auswählen **[!UICONTROL Formel]** als Ranking-Methode verwenden, klicken Sie dann auf **[!UICONTROL Ranking hinzufügen]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Wählen Sie die gewünschte Rangfolgenformel aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
+1. Wählen Sie die gewünschte Formel aus und klicken Sie auf **[!UICONTROL Auswählen]**.
 
    ![](../assets/ranking-selection.png)
 
 Die Rangfolgenformel ist nun mit der Platzierung verknüpft.
 
-Wenn mehrere Angebote für diese Platzierung geeignet sind, verwendet die Entscheidung die Rangfolgenformel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
+Wenn mehrere Angebote berechtigt sind, in dieser Platzierung unterbreitet zu werden, verwendet die Entscheidung die ausgewählte Formel, um zu berechnen, welches Angebot zuerst bereitgestellt werden soll.
 
 ## KI-Rangfolge {#use-ranking-strategy}
 

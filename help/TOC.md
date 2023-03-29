@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 99%
+source-wordcount: '1355'
+ht-degree: 98%
 
 ---
 
@@ -221,6 +221,7 @@ ht-degree: 99%
    + [Vorschau und Test Ihrer SMS-Nachricht](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
+   + [SMS-Subdomains einrichten](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
    + [Erstellen eines Briefpostversands](using/direct-mail/create-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 99%
    + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
-      + [Integrieren mit externen Systemen](using/configuration/external-systems.md)
+      + Integrieren mit externen Systemen {#external-systems}
+         + [Journey-Integration in externe Systeme](using/configuration/external-systems.md)
+         + [Capping-API](using/configuration/capping.md)
+         + [Einschränkungs-API](using/configuration/throttling.md)
       + Ereigniskonfiguration {#events-journeys}
          + [Allgemeine Funktionsweise](using/event/about-events.md)
          + Konfigurieren eines unitären Ereignisses {#unitary-events}

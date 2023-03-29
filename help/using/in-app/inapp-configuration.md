@@ -3,11 +3,11 @@ title: In-App-Konfiguration
 description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von In-App-Nachrichten mit Journey Optimizer konfigurieren können
 role: Admin
 level: Intermediate
-keywords: In-App, Nachricht, Konfiguration, Plattform
 badge: label="Beta" type="Informative"
+keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: ht
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 

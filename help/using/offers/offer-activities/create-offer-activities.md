@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1402'
+ht-degree: 79%
 
 ---
 
@@ -98,19 +98,19 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Definieren Sie die Ranking-Methode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten.
+1. Definieren Sie die Ranking-Methode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * Wenn mehrere Angebote für diese Platzierung geeignet sind, wird für den Kunden standardmäßig das Angebot mit der höchsten Priorität bereitgestellt.
+   * Wenn mehrere Angebote für diese Platzierung infrage kommen, wird die **[!UICONTROL Angebotspriorität]** -Methode verwendet den in den Angeboten definierten Wert: das Angebot mit der höchsten Priorität wird dem Benutzer bereitgestellt.
 
-   * Wenn Sie eine bestimmte Formel verwenden möchten, um das geeignete Angebot auszuwählen, wählen Sie die Option **[!UICONTROL Rangfolgenformel]** aus. In [diesem Abschnitt](../offer-activities/configure-offer-selection.md) erfahren Sie, wie Sie eine Rangfolge der Angebote erstellen.
+   * Wenn Sie ein bestimmtes berechnetes Ergebnis verwenden möchten, um das zu unterbreitende Angebot auszuwählen, wählen Sie **[!UICONTROL Formel]** oder **[!UICONTROL AI-Modell]**. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um weitere Kriterien für dieselbe Platzierung zu definieren.
 
    ![](../assets/activity_add-collection.png)
 
-1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw.
+1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw. [Weitere Informationen](#evaluation-criteria-order)
 
    Um die Standardsequenz neu anzuordnen, können Sie die Sammlungen per Drag-and-drop nach Bedarf verschieben.
 
@@ -120,13 +120,27 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_move-collection.png)
 
-   Sie haben nun denselben Rang und werden daher gleichzeitig ausgewertet.
+   Sie haben nun denselben Rang und werden daher gleichzeitig ausgewertet. [Weitere Informationen](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Neuer Umfang]**. Wiederholen Sie für jeden Entscheidungsumfang die obigen Schritte.
 
    ![](../assets/activity_new-scope.png)
+
+### Reihenfolge der Bewertungskriterien {#evaluation-criteria-order}
+
+Wie oben beschrieben bestehen Bewertungskriterien aus einer Kollektion, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien bewertet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt ausgewertet werden.
+
+Sie haben beispielsweise zwei Kollektionen, eine in den Bewertungskriterien A und eine in den Bewertungskriterien B. Die Anforderung besteht darin, zwei Angebote zurückzusenden. Angenommen, es gibt zwei förderfähige Angebote aus den Bewertungskriterien A und drei förderfähige Angebote aus den Bewertungskriterien B.
+
+* Wenn die beiden Bewertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2), werden die beiden wichtigsten in Frage kommenden Angebote aus den Bewertungskriterien in der ersten Zeile zurückgegeben. Wenn für die ersten Bewertungskriterien nicht zwei infrage kommende Angebote vorhanden sind, wechselt die Entscheidungs-Engine zu den nächsten Bewertungskriterien, um so viele Angebote wie nötig zu finden, und gibt schließlich bei Bedarf einen Fallback zurück.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* Wenn die beiden Sammlungen **gleichzeitig ausgewertet** Da es aus den Bewertungskriterien A zwei infrage kommende Angebote und aus den Bewertungskriterien B drei infrage kommende Angebote gibt, werden die fünf Angebote alle auf der Grundlage des durch die jeweiligen Ranking-Methoden bestimmten Werts in einem bestimmten Bereich zusammengefasst. Zwei Angebote werden angefordert, daher werden die beiden wichtigsten in Frage kommenden Angebote aus diesen fünf Angeboten zurückgegeben.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
 

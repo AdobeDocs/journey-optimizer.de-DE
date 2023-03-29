@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 100%
+source-wordcount: '1462'
+ht-degree: 99%
 
 ---
 
@@ -82,6 +82,11 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 * **[!UICONTROL Methode]**: Wählen Sie die POST- oder GET-Methode aus. In unserem Fall wählen wir die GET-Methode.
 * **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie eine neue Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
+
+   >[!NOTE]
+   >
+   >Scalar-Arrays werden in der Antwort-Payload-Definition nicht unterstützt.
+
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
 Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Dynamische Werte]** ein und sie werden automatisch am Ende der Anfrage hinzugefügt. Bei einer POST-Anfrage müssen Sie:

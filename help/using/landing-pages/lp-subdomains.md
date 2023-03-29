@@ -7,10 +7,10 @@ role: Admin
 level: Intermediate
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,6 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 >[!CAUTION]
 >
 >Die Konfiguration der Subdomain von Landingpages ist in allen Umgebungen gleich. Daher wirkt sich jede Änderung an einer Subdomain von Landingpages auch auf die Produktions-Sandboxes aus.
-
-Beachten Sie, dass Großbuchstaben in einer Subdomain nicht zulässig sein sollten
 
 ## Verwenden einer vorhandenen Subdomain {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Gehen Sie wie folgt vor, um eine neue Subdomain zu konfigurieren.
 
    >[!NOTE]
    >
-   >Bevor Sie diese Subdomain zum Senden von Nachrichten verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchgeführt hat, was bis zu 4 Stunden dauern kann.<!--Learn more in [this section](#subdomain-validation).-->
+   >Bevor Sie diese Subdomain für Ihre Landingpages verwenden können, müssen Sie warten, bis Adobe die erforderlichen Prüfungen durchführt, die bis zu 4 Stunden dauern können.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Sobald die Prüfungen erfolgreich abgeschlossen sind, erhält die Subdomain den Status **[!UICONTROL Erfolg]**. Sie können jetzt damit Landingpage-Voreinstellungen erstellen.
 

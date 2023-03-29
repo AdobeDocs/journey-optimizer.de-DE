@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: E-Mail, Vorlagen, Design
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 88%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Erstellen von Inhalten aus einer benutzerdefinierten Vorlage"
->abstract="Um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen, wählen Sie eine bestehende Vorlage aus, die von Grund auf neu erstellt oder als Vorlage einer früheren E-Mail gespeichert wurde."
+>title="Inhalt aus einer Vorlage erstellen"
+>abstract="Wählen Sie zum Erstellen Ihres E-Mail-Inhalts entweder eine vordefinierte Vorlage oder eine benutzerdefinierte Vorlage aus, die neu erstellt oder als Vorlage aus einer vorherigen E-Mail gespeichert wurde."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=de#create-content-templates" text="Erstellen von Inhaltsvorlagen"
 
 Verwenden Sie auf dem Bildschirm **[!UICONTROL E-Mail erstellen]** den Abschnitt **[!UICONTROL Design-Vorlage auswählen]**, um Ihren Inhalt aus einer Vorlage zu erstellen.

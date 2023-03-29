@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 97%
 
 ---
 
@@ -58,6 +58,7 @@ Die Leistung betreffende Leitplanken und statische Beschränkungen für das Deci
 * Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
+* Sie können keine neue Journey-Version eines Lesesegments mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 

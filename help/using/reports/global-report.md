@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,10 @@ Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern de
    ![](assets/report_modify_5.png)
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
+
+1. Um die Darstellung Ihrer Daten anzupassen, können Sie von verschiedenen Visualisierungsoptionen, wie Diagrammen, Tabellen und Ringdiagrammen, wechseln.
+
+   ![](assets/report_modify_10.png)
 
 Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei einer späteren Verwendung Ihrer Live-Berichte erneut angewendet. Verwenden Sie bei Bedarf die Option **[!UICONTROL Zurücksetzen]**, um die Standard-Widgets und ihre Standardreihenfolge wiederherzustellen.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 98%
 
 ---
 
@@ -135,7 +135,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 +++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
 
-Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg des Versands:
+Die **[!UICONTROL SMS - Statistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
 
 * **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
@@ -148,6 +148,8 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+* **[!UICONTROL Klicks]**: Gesamtzahl der URL-Besuche.
 
 Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Informationen zu Ihrer Nachricht in Form eines Diagramms:
 

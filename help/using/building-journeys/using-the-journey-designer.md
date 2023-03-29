@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,12 @@ Sie können auch das Feld **[!UICONTROL Suche]** verwenden. Es werden nur Ereign
 Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Ihre Aktivitäten ablegen und konfigurieren. Klicken Sie auf eine Aktivität auf der Arbeitsfläche, um sie zu konfigurieren. Dadurch wird der Konfigurationsbereich für die Aktivität auf der rechten Seite geöffnet.
 
 ![](assets/journey39.png)
+
+Die **toolbar**, oben rechts auf der Arbeitsfläche, ermöglicht es Ihnen, das Raster ein-/auszublenden, ein-/auszuzoomen und einen Screenshot der Arbeitsfläche herunterzuladen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#timeout_and_error).
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 Der **Konfigurationsbereich für die Aktivität** wird angezeigt, wenn Sie auf eine Aktivität in der Palette klicken. Füllen Sie die erforderlichen Felder aus. Klicken Sie auf das Symbol **[!UICONTROL Löschen]**, um die Aktivität zu löschen. Klicken Sie auf **[!UICONTROL Abbrechen]**, um die Änderungen zu ignorieren, oder auf **[!UICONTROL OK]**, um sie zu bestätigen. Um Aktivitäten zu löschen, können Sie auch eine Aktivität (oder mehrere) auswählen und die Rücktaste drücken. Durch Drücken der Esc-Taste wird der Konfigurationsbereich für die Aktivität geschlossen.
 

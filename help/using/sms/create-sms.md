@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 81%
 
 ---
 
@@ -39,6 +39,8 @@ Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie 
    ![](assets/sms_create_2.png)
 
    Weitere Informationen zur Konfiguration der Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, indem Sie die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** anklicken. [Definieren Ihres SMS-Inhalts](#sms-content)
 
@@ -75,7 +77,6 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 >[!ENDTABS]
 
-
 ## Definieren Ihres SMS-Inhalts{#sms-content}
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu konfigurieren.
@@ -86,11 +87,24 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, sowie z. B. Profilnamen oder Stadt. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau.
+1. Nach der Definition Ihres Inhalts können Sie Ihrer Nachricht Ihre Tracking-URLs hinzufügen. Rufen Sie dazu die **[!UICONTROL Hilfsfunktionen]** Menü und wählen Sie **[!UICONTROL Helfer]**.
+
+   Beachten Sie, dass Sie zur Verwendung der URL-Kürzungsfunktion zunächst eine Subdomain konfigurieren müssen, die dann mit Ihrer Oberfläche verknüpft wird. [Weitere Informationen](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. Innerhalb der **[!UICONTROL Hilfsfunktionen]** Menü, klicken Sie **[!UICONTROL URL-Funktion]** und wählen Sie **[!UICONTROL URL hinzufügen]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. Im `originalUrl` ein, fügen Sie die URL ein, die Sie verkürzen möchten.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
 
    ![](assets/sms-content-preview.png)
 
 Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
+Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >

@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: In-App, Nachricht, Erstellung, Starten
 badge: label="Beta" type="Informative"
+keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+workflow-type: tm+mt
+source-wordcount: '624'
+ht-degree: 74%
 
 ---
 
@@ -37,7 +37,7 @@ Gehen Sie wie folgt vor, um eine neue In-App-Nachricht zu erstellen:
 
 1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
 
-1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen](../administration/object-based-access.md).
+1. Um der In-App-Nachricht benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen](../administration/object-based-access.md).
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die Audience aus der Liste der verfügbaren Adobe Experience Platform-Segmente zu definieren. [Weitere Informationen](../segment/about-segments.md).
 
@@ -45,26 +45,22 @@ Gehen Sie wie folgt vor, um eine neue In-App-Nachricht zu erstellen:
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
+1. Klicken **[!UICONTROL Trigger bearbeiten]** um die Ereignisse und Kriterien auszuwählen, die für den Trigger Ihrer Nachricht gelten:
+
+   1. Klicken **[!UICONTROL Hinzufügen] Bedingung** , wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
+   1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt, dass **einer** der Auslöser erfüllt ist.
+   1. Klicken **[!UICONTROL Gruppe erstellen]** um Trigger zusammenzufassen.
+
+   ![](assets/in_app_create_3.png)
+
 1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist:
 
-   * **[!UICONTROL Jedes Mal anzeigen]**: Die Nachricht wird immer angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
-   * **[!UICONTROL Einmal anzeigen]**: Die Nachricht wird nur beim ersten Mal angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
-   * **[!UICONTROL Bis zu Clickthrough anzeigen]**: Diese Nachricht wird anzeigen, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten, bis vom SDK ein Interaktionsereignis mit einer Aktion „angeklickt“ übermittelt wird.
+   * **[!UICONTROL alwaysTime]**: Zeigt immer die Nachricht an, wenn die Ereignisse im **[!UICONTROL App-Trigger]** angezeigt.
+   * **[!UICONTROL Einmal]**: Zeigen Sie diese Nachricht nur zum ersten Mal an, wenn die in der **[!UICONTROL App-Trigger]** angezeigt.
+   * **[!UICONTROL Bis zum Clickthrough]**: Diese Meldung anzeigen, wenn die Ereignisse im **[!UICONTROL App-Trigger]** Dropdown-Liste wird angezeigt, bis das SDK ein Interaktionsereignis mit der Aktion &quot;angeklickt&quot;sendet.
+   * **[!UICONTROL X Häufigkeit]**: Zeigen Sie diese Meldung X Mal an.
 
-1. Wählen Sie aus dem/den Dropdown-Menü(s) **[!UICONTROL Mobile-App-Auslöser]** die Ereignisse und Kriterien aus, die Ihre Nachricht auslösen:
-
-   1. Wählen Sie aus der linken Dropdown-Liste das Ereignis aus, das eintreten muss, damit Ihre Nachricht ausgelöst wird.
-   1. Wählen Sie aus der rechten Dropdown-Liste die für das ausgewählte Ereignis erforderliche Validierung aus.
-   1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, wenn Sie möchten, dass der Auslöser mehrere Ereignisse oder Kriterien berücksichtigt. Wiederholen Sie dann die obigen Schritte.
-   1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt, dass **einer** der Auslöser erfüllt ist.
-
-   ![](assets/in_app_create_3.png)
-
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** das Ereignis aus, durch das Ihre Nachricht ausgelöst wird.
-
-   Durch Auswahl eines Auslösers legen Sie fest, durch welche Benutzeraktion die In-App-Nachricht angezeigt wird.
-
-   ![](assets/in_app_create_3.png)
+1. Wählen Sie bei Bedarf aus, **[!UICONTROL Wochentag]** oder **[!UICONTROL Tageszeit]** wird die In-App-Nachricht angezeigt.
 
 1. Kampagnen sind so konzipiert, dass sie an einem bestimmten Datum oder in regelmäßigen Abständen ausgeführt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
@@ -110,7 +106,7 @@ Gehen Sie dazu wie folgt vor:
 
 Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte In-App-Benachrichtigung wird sofort oder zum angegebenen Datum versendet.
 
-Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Campaign-Bericht messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#inapp-report).
+Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#inapp-report).
 
 **Verwandte Themen:**
 
