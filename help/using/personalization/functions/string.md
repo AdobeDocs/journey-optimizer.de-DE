@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1857'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -648,7 +648,7 @@ Gibt „Hallo Mark, hier ist dein monatlicher Newsletter!“ zurück.
 
 ## Alle ersetzen{#replaceAll}
 
-Die `replaceAll` -Funktion wird verwendet, um alle Teilzeichenfolgen eines Textes zu ersetzen, der dem &quot;regex&quot;-Ausdruck mit der angegebenen literalen &quot;Ersatz&quot;-Zeichenfolge entspricht. Regex hat eine besondere Handhabung von &quot;\&quot;und &quot;+&quot;und alle Regex-Ausdrücke folgen der PQL-Maskierungsstrategie. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
+Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Textes, die mit dem „Regex“-Ausdruck übereinstimmen, durch die angegebene literale „Ersatz“-Zeichenfolge zu ersetzen. Regex hat eine besondere Handhabung für „\“ und „+“, und alle Regex-Ausdrücke folgen der PQL-Escaping-Strategie. Die Ersetzung erfolgt vom Anfang der Zeichenfolge zum Ende, z. B. führt ein Ersetzen von „aa“ in der Zeichenfolge „aaa“ durch „b“ zu „ba“ und nicht zu „ab“.
 
 **Syntax**
 
@@ -660,7 +660,7 @@ Die `replaceAll` -Funktion wird verwendet, um alle Teilzeichenfolgen eines Texte
 >
 > Wenn der als zweites Argument verwendete Ausdruck ein spezielles Regex-Zeichen ist, verwenden Sie einen doppelten umgekehrten Schrägstrich (`//`).  Spezielle Regex-Zeichen sind: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Weitere Informationen finden Sie unter [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Weitere Informationen finden Sie in der [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Rechts kürzen {#rightTrim}
 
