@@ -11,9 +11,9 @@ hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 96%
 
 Inhalt dieser Dokumentation:
 
-* **[Erstellen eines Briefpostversands](create-direct-mail.md)**
+* **[Erstellen einer Briefpost](create-direct-mail.md)**
 * [Konfigurieren von Briefpost](direct-mail-configuration.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Briefpost ist derzeit als private Beta-Version verfügbar und kann häufig ohne Vorankündigung aktualisiert werden.
+>Briefpost ist zurzeit als private Beta-Version verfügbar und kann häufig ohne vorherige Ankündigung aktualisiert werden.
 
 Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.
 
