@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 63%
+source-wordcount: '432'
+ht-degree: 53%
 
 ---
 
 # Erstellen einer In-App-Nachricht {#create-in-app}
 
+In-App-Nachrichten werden im Kontext einer Kampagne erstellt.
+
 Gehen Sie wie folgt vor, um eine neue In-App-Nachricht zu erstellen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 
-1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten.
+1. Im **[!UICONTROL Eigenschaften]** auswählen, wann der Ausführungstyp der Kampagne ausgeführt werden soll: Geplant oder API-ausgelöst. Weitere Informationen zu Kampagnentypen finden Sie unter [diese Seite](../campaigns/create-campaign.md#campaigntype).
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** die **[!UICONTROL In-App-Nachricht]** und die **[!UICONTROL Programmoberfläche]** aus, die Sie zuvor für Ihre In-App-Nachricht konfiguriert haben. Klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
-   [Weitere Informationen zur In-App-Konfiguration](inapp-configuration.md).
+   Weitere Informationen zur In-App-Konfiguration finden Sie in [diese Seite](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Bearbeiten Sie im Bereich **[!UICONTROL Eigenschaften]** den **[!UICONTROL Titel]** und die **[!UICONTROL Beschreibung]** Ihrer Kampagne.
+1. Aus dem **[!UICONTROL Eigenschaften]** eingeben. **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** Beschreibung.
 
 1. Um der In-App-Nachricht benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen](../administration/object-based-access.md).
 
@@ -40,13 +42,13 @@ Gehen Sie wie folgt vor, um eine neue In-App-Nachricht zu erstellen:
 
 1. Klicken **[!UICONTROL Trigger bearbeiten]** um die Ereignisse und Kriterien auszuwählen, die für den Trigger Ihrer Nachricht gelten:
 
-   1. Klicken **[!UICONTROL Hinzufügen] Bedingung** , wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
+   1. Klicken **Bedingung hinzufügen** , wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
    1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt, dass **einer** der Auslöser erfüllt ist.
    1. Klicken **[!UICONTROL Gruppe erstellen]** um Trigger zusammenzufassen.
 
    ![](assets/in_app_create_3.png)
 
-1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist:
+1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist. Die folgenden Optionen sind verfügbar:
 
    * **[!UICONTROL alwaysTime]**: Zeigt immer die Nachricht an, wenn die Ereignisse im **[!UICONTROL App-Trigger]** angezeigt.
    * **[!UICONTROL Einmal]**: Zeigen Sie diese Nachricht nur zum ersten Mal an, wenn die in der **[!UICONTROL App-Trigger]** angezeigt.
