@@ -13,7 +13,7 @@ hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Inhalt dieser Dokumentation:
 
-* **[Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)**
+* **[Erste Schritte mit einem Inhaltsexperiment](get-started-experiment.md)**
 * [Erstellen eines Inhaltsexperiments](content-experiment.md)
 * [Verstehen von statistischen Berechnungen](experiment-calculations.md)
 * [Konfigurieren von Experimentberichten](reporting-configuration.md)
