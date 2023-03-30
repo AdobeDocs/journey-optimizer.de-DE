@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze un
 [BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
 [Entitätsdatensatz](#entity-dataset)
 
-Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
 
 ## E-Mail-Tracking-Erfahrung-Ereignisdatensatz{#email-tracking-experience-event-dataset}
 
