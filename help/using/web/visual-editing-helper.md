@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
 badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Inhalt dieser Dokumentation:
 
 >[!ENDSHADEBOX]
 
-Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie mit der Browser-Erweiterung Visual Editing Helper von Adobe Experience Cloud für Google Chrome Websites zuverlässig in den Web-Designer von Adobe [!DNL Journey Optimizer] laden.
+Um Ihre Web-Erlebnisse schnell erstellen und in der Vorschau anzeigen zu können, können Sie Websites mit der Browser-Erweiterung Visual Editing Helper von Adobe Experience Cloud für Google Chrome zuverlässig in den Web-Designer von Adobe [!DNL Journey Optimizer] laden.
 
 ## Installieren der Erweiterung Visual Editing Helper {#install-visual-editing-helper}
 
