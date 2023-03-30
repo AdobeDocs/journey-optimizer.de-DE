@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -39,20 +39,20 @@ Impressionen und Klicks für das Entscheidungs-Management werden wie folgt defin
 
 Feedback zu Impressionen und Klicks wird je nach verwendetem [!DNL Journey Optimizer]-Kanal erfasst.
 
-**E-Mails** verfasst von [!DNL Journey Optimizer] **automatisch** Impressionen und Klicks verfolgen.
+**E-Mails**, die von [!DNL Journey Optimizer] verfasst werden, verfolgen Impressionen und Klicks **automatisch** nach.
 
-Allerdings **die meisten Kanäle** Impressions- und Klickdaten benötigen, die als **Erlebnisereignis**. Dazu gehören:
+Allerdings müssen bei den **meisten Kanälen** Impressions- und Klick-Daten als ein **Erlebnisereignis** an Adobe Experience Platform gesendet werden. Dazu gehören:
 
-* Web-Seiten mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} Angebote rendern
+* Web-Seiten die das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} verwenden, um Angebote zu rendern
 
-* Mobile Apps mit der [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Mobile Apps, die das [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"} verwenden
 * Kiosks
 * Nachrichten, die über Anwendungen von Drittanbietern gesendet werden
    <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >
->Kanäle, die eine Entscheidung-API-Anfrage zum Empfang von Angeboten verwenden, benötigen Feedback, das als Erlebnisereignis gesendet wird. Wenn das Angebot also Anweisungen zum Rendern benötigt, können Sie davon ausgehen, dass Sie Feedback als Erlebnisereignisse senden sollten.
+>Kanäle, die eine Entscheidung-API-Anfrage verwenden, um Angebote zu empfangen, benötigen Feedback, das als Erlebnisereignis gesendet wird. Mit anderen Worten: Wenn das Angebot Anweisungen zum Rendern erfordert, ist davon auszugehen, dass Feedback in Form von Erlebnisereignissen gesendet werden sollte.
 
 ### Benutzerspezifische Ereignisse
 
