@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 47%
 
 ---
 
@@ -46,6 +46,24 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
    * **[!UICONTROL Beschreibung]**: eine Beschreibung der Platzierung (optional).
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. Die **[!UICONTROL Anforderungseinstellungen]** und **[!UICONTROL Antwortformat]** -Abschnitte enthalten zusätzliche Parameter:
+
+   * **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]**: Steuern Sie, ob dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden kann. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. Standardmäßig ist der Parameter auf false gesetzt.
+
+      Wenn diese Option bei einer Platzierung in einer Entscheidungsanfrage auf &quot;false&quot;gesetzt ist, erben alle Platzierungen in der Anfrage die Einstellung &quot;false&quot;.
+
+   * **[!UICONTROL Angebot anfordern]**: Standardmäßig wird für jedes Profil ein Angebot des Entscheidungsbereichs zurückgegeben. Mit dieser Option können Sie die Anzahl der zurückgegebenen Angebote anpassen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt.
+
+   * **[!UICONTROL Inhalt einschließen]** / **[!UICONTROL Metadaten einschließen]**: geben Sie an, ob der Inhalt und die Metadaten des Angebots in der API-Antwort zurückgegeben werden sollen. Sie können alle Metadaten oder nur bestimmte Felder einschließen. Standardmäßig ist der Wert Metadaten einschließen auf &quot;true&quot;gesetzt.
+   Diese Parameter können auch direkt in Ihrer API-Anfrage festgelegt werden, wenn Sie mit der [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Die Konfiguration in der Benutzeroberfläche kann Ihnen jedoch Zeit sparen, da Sie sie nicht in jeder API-Anfrage weitergeben müssen. Beachten Sie, dass bei der Konfiguration der Parameter sowohl in der Benutzeroberfläche als auch in der API-Anfrage die Werte aus der API-Anfrage Vorrang vor den Werten aus der Benutzeroberfläche haben.
+
+   >[!NOTE]
+   >
+   >Wenn Sie mit dem [Edge Decisioning-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)können Sie diese Parameter nicht in Ihrer Anfrage festlegen. Sie müssen sie in diesem Bildschirm definieren.
+   >
+   >Wenn Sie mit dem [Batch Decisioning-API](../api-reference/offer-delivery-api/batch-decisioning-api.md)können Sie diese Parameter entweder in diesem Bildschirm oder in Ihrer API-Anfrage festlegen. Wenn es zwischen dem Bildschirm und der APi-Anforderung eine Nichtübereinstimmung der Parameterwerte gibt, werden die Anforderungswerte verwendet.
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
