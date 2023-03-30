@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 100%
+source-wordcount: '1284'
+ht-degree: 94%
 
 ---
 
@@ -93,7 +93,19 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Nachdem Sie alle gewünschten Kontrollkästchen hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktion]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
+1. Sie können auch eine **[!UICONTROL Textfeld]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * Geben Sie die **[!UICONTROL Titel]** wird über dem Feld im Formular angezeigt.
+
+   * Geben Sie einen **[!UICONTROL Platzhalter]** Text. Sie wird innerhalb des Felds angezeigt, bevor der Benutzer das Feld ausfüllt.
+
+   * Überprüfen Sie die **[!UICONTROL Formularfeld obligatorisch machen]** bei Bedarf. In diesem Fall kann das Formular der Landingpage nur gesendet werden, wenn der Benutzer dieses Feld ausgefüllt hat. Wenn ein Pflichtfeld nicht ausgefüllt wurde, erscheint eine Fehlermeldung, wenn der Benutzer das Formular sendet.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. Nachdem Sie alle gewünschten Kontrollkästchen und/oder Textfelder hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktionsaufruf]** um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
