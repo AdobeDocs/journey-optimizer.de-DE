@@ -11,7 +11,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Inhalt dieser Dokumentation:
 
-* [Erstellen eines Briefpostversands](create-direct-mail.md)
+* [Erstellen einer Briefpost](create-direct-mail.md)
 * **[Konfigurieren von Briefpost](direct-mail-configuration.md)**
 
 >[!ENDSHADEBOX]
