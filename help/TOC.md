@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 98%
 
 ---
@@ -206,6 +206,7 @@ ht-degree: 98%
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
+   + [In-App-Benachrichtigung testen und senden](using/in-app/send-in-app.md)
    + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
 + Push-Benachrichtigungs-Kanal{#push}
    + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
@@ -223,7 +224,7 @@ ht-degree: 98%
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
    + [SMS-Subdomains einrichten](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
-   + [Erstellen eines Briefpostversands](using/direct-mail/create-direct-mail.md)
+   + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal{#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
@@ -420,7 +421,7 @@ ht-degree: 98%
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
       + [Exportieren von Journey Optimizer-Datensätzen](using/data/export-datasets.md)
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
-      + [Integrierte Schemata > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Integrierte Schemata > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
    + [Abfragen](using/data/get-started-queries.md)
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
