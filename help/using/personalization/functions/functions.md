@@ -319,7 +319,7 @@ Klicken Sie auf das Symbol `...`, um die Beschreibung der Funktion anzuzeigen un
         <td><a href="string.md#to-date-time">Zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wird verwendet, um die Zeichenfolge in ein Datum zu konvertieren. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">Nur zu Uhrzeit-/Datumsangabe</a></td><td>Diese Funktion wandelt einen Argumentwert in einen reinen Datums-/Uhrzeit-Wert um. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
+        <td><a href="string.md#to-date-time-only">Nur zu Datums-/Uhrzeitangabe</a></td><td>Diese Funktion wandelt einen Argumentwert in einen reinen Datums-/Uhrzeit-Wert um. Bei einer ungültigen Eingabe wird das Epochendatum als Ausgabe zurückgegeben.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Kürzen</a></td><td>Diese Funktion entfernt Leerzeichen vom Anfang und vom Ende einer Zeichenfolge</td>
