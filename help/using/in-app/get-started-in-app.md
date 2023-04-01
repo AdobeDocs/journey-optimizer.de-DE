@@ -5,16 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+badge: label="Beta" type="Informative"
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit dem In-App-Kanal {#gs-in-app}
+
+>[!AVAILABILITY]
+>
+>Die In-App-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Audience interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
 

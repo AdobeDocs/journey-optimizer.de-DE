@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 97%
+source-wordcount: '2445'
+ht-degree: 98%
 
 ---
 
@@ -17,12 +17,10 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## März 2023 {#march-2023}
 
-* Das Journey Optimizer-Schema-Wörterbuch ist jetzt verfügbar. Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie.  [Weitere Informationen](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 23. März wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein Schritt zur Aktivierung von Adobe Analytics-Ereignissen in Ihren Journeys hinzugefügt. [Weitere Informationen](../event/about-analytics.md)
 * Im Entscheidungs-Management-Handbuch wurde ein neuer Abschnitt erstellt, in dem beschrieben wird, wie in Adobe Experience Platform Feedback zu Angebotsentscheidungen eingeholt werden kann, einschließlich, welche Angebote angezeigt werden und wie Benutzende mit ihnen interagieren. [Weitere Informationen](../offers/data-collection/data-collection.md)
 * Ein neuer Unterabschnitt wurde zum **Entscheidung erstellen** um den Unterschied zwischen der Bewertung von Kriterien in einer sequenziellen Reihenfolge oder zur gleichen Zeit zu erklären. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Für Journey mit inkrementellem Lesen wurde ein Schutzmechanismus hinzugefügt. Sie können keine neue Version erstellen, sondern müssen die Journey duplizieren. [Weitere Informationen](../start/guardrails.md#journey-versions-g)
 
 ## Februar 2023 {#feb-2023}
 
