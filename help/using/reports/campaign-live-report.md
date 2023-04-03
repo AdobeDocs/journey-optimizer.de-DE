@@ -20,7 +20,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="Live-Bericht einer Kampagne"
->abstract="Mit dem Live-Bericht in Campaign kann die Wirkung und Leistung von Kampagnen nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="Mit dem Live-Bericht einer Kampagne kann die Wirkung und Leistung von Kampagnen nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Über die Schaltfläche **[!UICONTROL Live-Ansicht]** können Sie direkt in Ihrer Campaign-Instanz auf den Live-Bericht in Campaign zugreifen.
 

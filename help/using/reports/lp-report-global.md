@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Globaler Bericht zu Landingpages"
->abstract="Der globale Bericht zu Landingpages ermöglicht die Messung der Wirkung von Landingpages über einen ausgewählten Zeitraum. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="der globale Bericht einer Landingpage ermöglicht die Messung der Wirkung von Landingpages über einen ausgewählten Zeitraum. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Der **[!UICONTROL globale Bericht]** zu Landingpages zeigt Details zur Wirkung Ihrer Landingpages über einen ausgewählten Zeitraum an. Wenn Sie Ihre Landingpage-Daten nur über die letzten 24 Stunden messen möchten, verwenden Sie den [Live-Bericht zu Landingpages](lp-report-live.md).
 

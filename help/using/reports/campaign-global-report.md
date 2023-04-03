@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Globaler Bericht in Campaign
+title: Globaler Bericht zu Kampagnen
 description: Erfahren Sie, wie Sie Daten im globalen Bericht in Campaign verwenden
 feature: Reporting
 topic: Content Management
@@ -15,12 +15,12 @@ ht-degree: 98%
 
 ---
 
-# Globaler Bericht in Campaign {#campaign-global-report}
+# Globaler Bericht zu Kampagnen {#campaign-global-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
->title="Globaler Bericht in Campaign"
->abstract="Der globale Bericht in Campaign ermöglicht die Messung der Wirkung von Kampagnen über einen ausgewählten Zeitraum. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>title="Globaler Bericht zu Kampagnen"
+>abstract="Der globale Bericht einer Kampagne ermöglicht die Messung der Wirkung von Kampagnen über einen ausgewählten Zeitraum. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Kampagne detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
