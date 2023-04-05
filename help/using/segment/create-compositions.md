@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
@@ -39,11 +39,11 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
 1. Wählen Sie **[!UICONTROL Audience erstellen]** aus.
 
+   ![](assets/audiences-create.png)
+
    >[!NOTE]
    >
    >Mit der Erstellungsmethode **[!UICONTROL Regel erstellen]** können Sie die Definition eines neuen Segments erstellen, indem Sie den [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de) verwenden.
-
-   ![](assets/audiences-create.png)
 
 1. Die Arbeitsfläche der Komposition wird mit zwei Standardaktivitäten angezeigt:
 

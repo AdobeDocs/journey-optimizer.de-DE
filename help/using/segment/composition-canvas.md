@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Inhalt dieser Dokumentation:
 
 >[!ENDSHADEBOX]
 
-Die Audience-Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Audiences erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
+Die Zielgruppenzusammensetzung bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 
 Gehen Sie wie folgt vor, um eine Audience auf der Arbeitsfläche zu erstellen:
 
@@ -76,7 +76,7 @@ Verfügbare Aktivitäten sind:
 
 * [Audience](#audience): Schließt zusätzliche Profile ein, die zu einer oder mehreren bestehenden Audiences gehören,
 * [Ausschließen](#exclude): Schließt Profile aus, die zu einer bestehenden Audience gehören, oder schließt Profile auf der Grundlage bestimmter Attribute aus,
-* [Anreichern]{#enrich}: Anreicherung Ihrer Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen,
+* [Anreichern](#enrich): Anreicherung Ihrer Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen,
 * [Rang](#rank): Sortiert Profile nach einem bestimmten Attribut, gibt die Anzahl der Profile an, die beibehalten werden sollen, und fügt sie in Ihre Komposition ein,
 * [Aufspaltung](#split): Teilt Ihre Komposition in mehrere Pfade, die auf zufälligen Prozentsätzen oder auf Attributen basieren.
 
