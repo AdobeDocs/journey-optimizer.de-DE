@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie mit der Einschränkungs-API arbeiten.
 role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 21%
 
 ---
@@ -24,6 +24,8 @@ In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. 
 >Pro Organisation ist derzeit nur eine Konfiguration zulässig. Eine Konfiguration muss in einer Produktions-Sandbox definiert werden (in den Kopfzeilen über x-sandbox-name angegeben).
 >
 >Eine Konfiguration wird auf Unternehmensebene angewendet.
+>
+>Wenn das in der API festgelegte Limit erreicht ist, werden weitere Ereignisse für bis zu 6 Stunden in die Warteschlange gestellt. Dieser Wert kann nicht geändert werden.
 
 ## Beschreibung der Einschränkungs-API {#description}
 
