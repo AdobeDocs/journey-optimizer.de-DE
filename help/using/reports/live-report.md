@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,9 +36,9 @@ Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken f
 
 ## Dashboard anpassen {#modify-dashboard}
 
-Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
+Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
-1. Aus dem **[!UICONTROL Aktionen]** auswählen, ob Sie über eine bestimmte Aktion Ihrer Journey berichten möchten.
+1. Im Dropdown-Menü **[!UICONTROL Aktionen]** können Sie auswählen, ob Sie eine bestimmte Aktion Ihrer Journey auswerten möchten.
 
 1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
@@ -60,7 +60,7 @@ Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widg
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Um die Darstellung Ihrer Daten anzupassen, können Sie von verschiedenen Visualisierungsoptionen, wie Diagrammen, Tabellen und Ringdiagrammen, wechseln.
+1. Um die Darstellung Ihrer Daten anzupassen, können Sie zwischen verschiedenen Visualisierungsoptionen, wie Graphen, Tabellen und Ringdiagrammen, wechseln.
 
    ![](assets/report_modify_11.png)
 

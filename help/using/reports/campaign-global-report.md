@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -279,7 +279,7 @@ Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Inf
 
 Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Bounce-Ursachen]** und **[!UICONTROL Fehlerursachen]** sehen Sie, welche Fehler und Ausschlüsse bei Ihrem Versand aufgetreten sind.
 
-Die **[!UICONTROL SMS - Klicks nach Links]** und **[!UICONTROL SMS - Trackingstatistiken]** Widgets enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren URLs.
+Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
 
 +++
 

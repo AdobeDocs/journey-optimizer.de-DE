@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Globaler Abonnementbericht"
->abstract="Im Bericht zu vergebenen Abonnements können Sie die Aktivitäten Ihrer Abonnierenden über einen bestimmten Zeitraum hinweg messen und visualisieren. Der Bericht ist in verschiedene Widgets unterteilt, die Ihre Abonnements und die Abmeldungen detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets geändert werden."
+>abstract="Im Bericht zu vergebenen Abonnements können Sie die Aktivitäten Ihrer Abonnierenden über einen bestimmten Zeitraum hinweg messen und visualisieren. Der Bericht ist in verschiedene Widgets unterteilt, die Ihre Abonnements und die Abmeldungen detailliert beschreiben. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
 Der **[!UICONTROL globale Bericht]** zu Abonnements enthält Details zur Aktivität Ihrer Abonnenten während eines ausgewählten Zeitraums. Informationen zur Messung Ihrer Abonnements über die letzten 24 Stunden finden Sie im [Abonnement-Live-Bericht](subscription-report-live.md).
 

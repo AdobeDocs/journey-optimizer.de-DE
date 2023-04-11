@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern de
 
 1. Wenn Sie mit der Anzeigereihenfolge und der Größe Ihrer Widgets zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
-1. Um die Darstellung Ihrer Daten anzupassen, können Sie von verschiedenen Visualisierungsoptionen, wie Diagrammen, Tabellen und Ringdiagrammen, wechseln.
+1. Um die Darstellung Ihrer Daten anzupassen, können Sie zwischen verschiedenen Visualisierungsoptionen, wie Graphen, Tabellen und Ringdiagrammen, wechseln.
 
    ![](assets/report_modify_10.png)
 

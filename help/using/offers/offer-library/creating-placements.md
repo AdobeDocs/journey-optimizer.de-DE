@@ -9,7 +9,7 @@ exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -48,22 +48,22 @@ Gehen Sie wie folgt vor, um eine Platzierung zu erstellen:
    ![](../assets/offers_placement_creation_properties.png)
 
 
-1. Die **[!UICONTROL Anforderungseinstellungen]** und **[!UICONTROL Antwortformat]** -Abschnitte enthalten zusätzliche Parameter:
+1. Die Abschnitte **[!UICONTROL Anfrageeinstellungen]** und **[!UICONTROL Antwortformat]** enthalten weitere Parameter:
 
-   * **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]**: Steuern Sie, ob dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden kann. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. Standardmäßig ist der Parameter auf false gesetzt.
+   * **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]**: Damit können Sie steuern, ob dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden kann. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. Standardmäßig ist der Parameter auf „false“ gesetzt.
 
-      Wenn diese Option bei einer Platzierung in einer Entscheidungsanfrage auf &quot;false&quot;gesetzt ist, erben alle Platzierungen in der Anfrage die Einstellung &quot;false&quot;.
+      Wenn diese Option bei einer Platzierung in einer Entscheidungsanfrage auf „false“ gesetzt ist, übernehmen alle Platzierungen in der Anfrage die Einstellung „false“.
 
-   * **[!UICONTROL Angebot anfordern]**: Standardmäßig wird für jedes Profil ein Angebot des Entscheidungsbereichs zurückgegeben. Mit dieser Option können Sie die Anzahl der zurückgegebenen Angebote anpassen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt.
+   * **[!UICONTROL Anfrageangebot]**: Standardmäßig wird für jedes Profil ein Angebot im Entscheidungsbereich zurückgegeben. Mit dieser Option können Sie die Anzahl der zurückgegebenen Angebote anpassen. Wenn Sie beispielsweise „2“ auswählen, werden für diesen Entscheidungsumfang die besten zwei Angebote angezeigt.
 
-   * **[!UICONTROL Inhalt einschließen]** / **[!UICONTROL Metadaten einschließen]**: geben Sie an, ob der Inhalt und die Metadaten des Angebots in der API-Antwort zurückgegeben werden sollen. Sie können alle Metadaten oder nur bestimmte Felder einschließen. Standardmäßig ist der Wert Metadaten einschließen auf &quot;true&quot;gesetzt.
-   Diese Parameter können auch direkt in Ihrer API-Anfrage festgelegt werden, wenn Sie mit der [Decisioning API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Die Konfiguration in der Benutzeroberfläche kann Ihnen jedoch Zeit sparen, da Sie sie nicht in jeder API-Anfrage weitergeben müssen. Beachten Sie, dass bei der Konfiguration der Parameter sowohl in der Benutzeroberfläche als auch in der API-Anfrage die Werte aus der API-Anfrage Vorrang vor den Werten aus der Benutzeroberfläche haben.
+   * **[!UICONTROL Inhalt einschließen]**/**[!UICONTROL Metadaten einschließen]**: Geben Sie an, ob der Inhalt und die Metadaten des Angebots in der API-Antwort zurückgegeben werden sollen. Sie können alle Metadaten oder nur bestimmte Felder einschließen. Standardmäßig ist der Wert „Metadaten einschließen“ auf „true“ gesetzt.
+   Diese Parameter können auch direkt in Ihrer API-Anfrage festgelegt werden, wenn Sie mit der [Decisioning-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html?lang=de) arbeiten. Das Konfigurieren in der Benutzeroberfläche kann Ihnen jedoch Zeit sparen, da Sie sie nicht in jeder API-Anfrage weitergeben müssen. Beachten Sie, dass beim Konfigurieren der Parameter sowohl in der Benutzeroberfläche als auch in der API-Anfrage die Werte aus der API-Anfrage Vorrang vor den Werten aus der Benutzeroberfläche haben.
 
    >[!NOTE]
    >
-   >Wenn Sie mit dem [Edge Decisioning-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?)können Sie diese Parameter nicht in Ihrer Anfrage festlegen. Sie müssen sie in diesem Bildschirm definieren.
+   >Wenn Sie mit der [Edge Decisioning-API](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?lang=de) arbeiten, können Sie diese Parameter nicht in Ihrer Anfrage festlegen. Sie müssen sie auf diesem Bildschirm definieren.
    >
-   >Wenn Sie mit dem [Batch Decisioning-API](../api-reference/offer-delivery-api/batch-decisioning-api.md)können Sie diese Parameter entweder in diesem Bildschirm oder in Ihrer API-Anfrage festlegen. Wenn es zwischen dem Bildschirm und der APi-Anforderung eine Nichtübereinstimmung der Parameterwerte gibt, werden die Anforderungswerte verwendet.
+   >Wenn Sie mit der [Batch Decisioning-API](../api-reference/offer-delivery-api/batch-decisioning-api.md) arbeiten, können Sie diese Parameter entweder auf diesem Bildschirm oder in Ihrer API-Anfrage festlegen. Falls die Parameterwerte auf dem Bildschirm und in der API-Anfrage nicht übereinstimmen, werden die Werte der Anfrage verwendet.
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 

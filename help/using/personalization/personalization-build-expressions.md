@@ -11,8 +11,8 @@ keywords: Ausdruck, Editor, Über, Start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,13 +39,13 @@ Im linken Bildschirmbereich wird ein Domain-Selektor angezeigt, mit dem Sie die 
 * **[!UICONTROL Kontextuelle Attribute]**: Wenn eine Kanalaktionsaktivität (E-Mail, Push, SMS) in einer Journey verwendet wird, stehen in diesem Menü kontextuelle Journey-Felder zur Verfügung. Weiterführende Informationen finden Sie in [diesem Abschnitt](personalization-use-case.md).
 * **[!UICONTROL Hilfsfunktionen]**: listet alle Hilfsfunktionen auf, die für die Durchführung von Datenoperationen wie Berechnungen, Datenformatierungen oder -konvertierungen, Bedingungen und die Bearbeitung von Daten im Rahmen der Personalisierung verfügbar sind. Weiterführende Informationen finden Sie in [diesem Abschnitt](functions/functions.md).
 
-## Personalisierungsattribute hinzufügen {#add}
+## Hinzufügen von Personalisierungsattributen {#add}
 
-Klicken Sie auf die Schaltfläche + , um Ihrem Personalisierungsausdruck ein Attribut hinzuzufügen.
+Klicken Sie auf die Schaltfläche „+“, um Ihrem Personalisierungsausdruck ein Attribut hinzuzufügen.
 
-Das Suchmenü neben dem Plussymbol (+) ermöglicht es Ihnen, für jede Variable mehr Details zu erhalten und die am häufigsten verwendeten Attribute zu Favoriten hinzuzufügen. [Erfahren Sie, wie Sie Attribute zu Favoriten hinzufügen können](personalization-favorites.md)
+Über das Menü mit den Auslassungspunkten neben dem Symbol „+“ können Sie weitere Details für jede Variable abrufen und Ihre am häufigsten verwendeten Attribute zu den Favoriten hinzufügen. [Erfahren Sie, wie Sie Attribute zu den Favoriten hinzufügen können](personalization-favorites.md)
 
-Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Suchschaltfläche neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+Darüber hinaus können Sie einen standardmäßigen Fallback-Text definieren, der angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Schreiben Sie den Text, der standardmäßig angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 ![](assets/attribute-details.png)
 

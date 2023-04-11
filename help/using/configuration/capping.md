@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Capping-API
-description: Erfahren Sie, wie Sie mit der Capping-API arbeiten.
+description: Erfahren Sie, wie man mit der Capping-API arbeitet.
 role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 Mit der Capping-API können Sie Begrenzungskonfigurationen erstellen, konfigurieren und überwachen.
 
-In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie unter [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/).
+In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/).
 
 ## Beschreibung der Capping-API
 
@@ -116,7 +116,7 @@ Nach dem Herunterladen und Hochladen in Postman müssen Sie drei Variablen hinzu
 * `{BASE_PATH}` : Einstiegspunkt für die API.
 * `{SANDBOX_NAME}`: der Header **x-sandbox-name** (z. B. „prod“), der dem Sandbox-Namen entspricht, in dem die API-Vorgänge stattfinden. Weiterführende Informationen dazu finden Sie unter [Sandbox-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de).
 
-Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfalls auszuführen.
+Im folgenden Abschnitt finden Sie die sortierte Liste der Rest-API-Aufrufe, um den Anwendungsfall auszuführen.
 
 Anwendungsfall 1: **Erstellen und Bereitstellen einer neuen Begrenzungskonfiguration**
 

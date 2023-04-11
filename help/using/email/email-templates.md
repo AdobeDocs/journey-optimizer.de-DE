@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_template"
->title="Inhalt aus einer Vorlage erstellen"
+>title="Erstellen von Inhalten aus einer Vorlage"
 >abstract="Wählen Sie zum Erstellen Ihres E-Mail-Inhalts entweder eine vordefinierte Vorlage oder eine benutzerdefinierte Vorlage aus, die neu erstellt oder als Vorlage aus einer vorherigen E-Mail gespeichert wurde."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=de#create-content-templates" text="Erstellen von Inhaltsvorlagen"
 

@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_ranking-method.png)
 
-   * Wenn mehrere Angebote für diese Platzierung infrage kommen, wird die **[!UICONTROL Angebotspriorität]** -Methode verwendet den in den Angeboten definierten Wert: das Angebot mit der höchsten Priorität wird dem Benutzer bereitgestellt.
+   * Wenn mehrere Angebote für diese Platzierung infrage kommen, verwendet die Methode **[!UICONTROL Angebotspriorität]** den in den Angeboten definierten Wert: Das Angebot mit der höchsten Priorität wird an die Benutzerin oder den Benutzer gesendet.
 
-   * Wenn Sie ein bestimmtes berechnetes Ergebnis verwenden möchten, um das zu unterbreitende Angebot auszuwählen, wählen Sie **[!UICONTROL Formel]** oder **[!UICONTROL AI-Modell]**. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
+   * Wenn Sie ein bestimmtes berechnetes Ergebnis verwenden möchten, um zu entscheiden, welches geeignete Angebot geliefert werden soll, wählen Sie **[!UICONTROL Formel]** oder **[!UICONTROL KI-Modell]**. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um weitere Kriterien für dieselbe Platzierung zu definieren.
 
@@ -130,15 +130,15 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 ### Reihenfolge der Bewertungskriterien {#evaluation-criteria-order}
 
-Wie oben beschrieben bestehen Bewertungskriterien aus einer Kollektion, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien bewertet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt ausgewertet werden.
+Wie oben beschrieben bestehen Bewertungskriterien aus einer Sammlung, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien angewendet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt angewendet werden.
 
-Sie haben beispielsweise zwei Kollektionen, eine in den Bewertungskriterien A und eine in den Bewertungskriterien B. Die Anforderung besteht darin, zwei Angebote zurückzusenden. Angenommen, es gibt zwei förderfähige Angebote aus den Bewertungskriterien A und drei förderfähige Angebote aus den Bewertungskriterien B.
+Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und eine im Bewertungskriterien B. Die Anfrage sieht die Rücksendung von zwei Angeboten vor. Angenommen, es gibt zwei geeignete Angebote nach Bewertungskriterium A und drei geeignete Angebote nach Bewertungskriterium B.
 
-* Wenn die beiden Bewertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2), werden die beiden wichtigsten in Frage kommenden Angebote aus den Bewertungskriterien in der ersten Zeile zurückgegeben. Wenn für die ersten Bewertungskriterien nicht zwei infrage kommende Angebote vorhanden sind, wechselt die Entscheidungs-Engine zu den nächsten Bewertungskriterien, um so viele Angebote wie nötig zu finden, und gibt schließlich bei Bedarf einen Fallback zurück.
+* Wenn die beiden Bewertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2) sind, werden die beiden geeignetsten Angebote aus den Bewertungskriterien in der ersten Zeile angezeigt. Gibt es für das erste Bewertungskriterium keine zwei geeigneten Angebote, geht die Entscheidungs-Engine zum nächsten Bewertungskriterium in der Reihenfolge über, um so viele Angebote zu finden, wie noch benötigt werden, und gibt schließlich bei Bedarf ein Fallback zurück.
 
    ![](../assets/activity_consecutive-rank-collections.png)
 
-* Wenn die beiden Sammlungen **gleichzeitig ausgewertet** Da es aus den Bewertungskriterien A zwei infrage kommende Angebote und aus den Bewertungskriterien B drei infrage kommende Angebote gibt, werden die fünf Angebote alle auf der Grundlage des durch die jeweiligen Ranking-Methoden bestimmten Werts in einem bestimmten Bereich zusammengefasst. Zwei Angebote werden angefordert, daher werden die beiden wichtigsten in Frage kommenden Angebote aus diesen fünf Angeboten zurückgegeben.
+* Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Bewertungskriterium A und drei geeignete Angebote für Bewertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
    ![](../assets/activity_same-rank-collections.png)
 

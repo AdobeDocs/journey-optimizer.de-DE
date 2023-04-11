@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Nachdem Sie eine Rangfolgenformel erstellt haben, können Sie sie einer Platzier
 
 Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
-1. Zugriff auf **[!UICONTROL Komponenten]** und wählen Sie anschließend die **[!UICONTROL Ranking]** Registerkarte. Die **[!UICONTROL Formeln]** ist standardmäßig ausgewählt. Die Liste der zuvor erstellten Formeln wird angezeigt.
+1. Rufen Sie das Menü **[!UICONTROL Komponenten]** auf und wählen Sie dann die Registerkarte **[!UICONTROL Rangfolge]** aus. Die Registerkarte **[!UICONTROL Formeln]** ist standardmäßig ausgewählt. Es wird die Liste der zuvor erstellten Rangfolgen angezeigt.
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
    ![](../assets/ranking-create-formula.png)
 
-1. Geben Sie den Formelnamen, die Beschreibung und die Formel an.
+1. Geben Sie den Namen und die Beschreibung der Formel sowie die Formel selbst an.
 
    In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
 

@@ -10,8 +10,8 @@ keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, s
 
 Für benutzerdefinierte Aktionen sind Einschränkungsfunktionen auf Produktebene verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/external-systems.md#capping).
 
-Für externe Datenquellen können Sie Begrenzungen auf Endpunktebene definieren, um zu verhindern, dass diese externen Systeme über die Capping-APIs von Journey Optimizer überlastet werden. Dadurch werden jedoch alle verbleibenden Anfragen nach Erreichen des Grenzwerts entfernt. In diesem Abschnitt finden Sie Lösungsansätze, mit denen Sie Ihren Durchsatz optimieren können.
+Für externe Datenquellen können Sie Begrenzungen auf Endpunktebene definieren, um zu verhindern, dass diese externen Systeme durch die Capping-APIs von Journey Optimizer überlastet werden. Dadurch werden jedoch alle verbleibenden Anfragen nach Erreichen des Grenzwerts entfernt. In diesem Abschnitt finden Sie Lösungsansätze, mit denen Sie Ihren Durchsatz optimieren können.
 
 Weiterführende Informationen zur Integration in externe Systeme finden Sie auf dieser [Seite](../configuration/external-systems.md).
 

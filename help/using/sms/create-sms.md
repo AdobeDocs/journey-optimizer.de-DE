@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -87,19 +87,19 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, sowie z. B. Profilnamen oder Stadt. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
-1. Nach der Definition Ihres Inhalts können Sie Ihrer Nachricht Ihre Tracking-URLs hinzufügen. Rufen Sie dazu die **[!UICONTROL Hilfsfunktionen]** Menü und wählen Sie **[!UICONTROL Helfer]**.
+1. Nach der Definition Ihres Inhalts können Sie das Verfolgen von URLs für Ihre Nachricht aktivieren. Rufen Sie dazu das Menü **[!UICONTROL Hilfsfunktionen]** auf und wählen Sie **[!UICONTROL Helfer]** aus.
 
    Beachten Sie, dass Sie zur Verwendung der URL-Kürzungsfunktion zunächst eine Subdomain konfigurieren müssen, die dann mit Ihrer Oberfläche verknüpft wird. [Weitere Informationen](sms-subdomains.md)
 
    ![](assets/sms_tracking_1.png)
 
-1. Innerhalb der **[!UICONTROL Hilfsfunktionen]** Menü, klicken Sie **[!UICONTROL URL-Funktion]** und wählen Sie **[!UICONTROL URL hinzufügen]**.
+1. Klicken Sie innerhalb des Menüs **[!UICONTROL Hilfsfunktionen]** auf **[!UICONTROL URL-Funktion]** und wählen Sie dann **[!UICONTROL URL hinzufügen]** aus.
 
    ![](assets/sms_tracking_2.png)
 
-1. Im `originalUrl` ein, fügen Sie die URL ein, die Sie verkürzen möchten.
+1. Fügen Sie in das Feld `originalUrl` die URL ein, die Sie kürzen möchten.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** verwenden, um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
 
    ![](assets/sms-content-preview.png)
 

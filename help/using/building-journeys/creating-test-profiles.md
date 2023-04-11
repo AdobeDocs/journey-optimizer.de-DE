@@ -11,8 +11,8 @@ keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: In-App-Benachrichtigung testen und senden
-description: Erfahren Sie, wie Sie eine In-App-Nachricht in Journey Optimizer testen und senden.
+title: Testen und Senden von In-App-Benachrichtigung
+description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht testen und senden
 feature: Overview
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# In-App-Benachrichtigung testen und senden {#create-in-app}
+# Testen und Senden von In-App-Benachrichtigung {#create-in-app}
 
 ## Vorschau auf Gerät {#preview-device}
 
-Einmal [die In-App-Nachricht erstellt hat](create-in-app.md) und [seinen Inhalt definiert hat](design-in-app.md)können Sie die In-App-Benachrichtigung auf einem bestimmten Gerät in der Vorschau anzeigen.
+Wenn Sie [die In-App-Nachricht erstellt haben](create-in-app.md) und [ihren Inhalt definiert haben](design-in-app.md), können Sie die In-App-Benachrichtigung auf einem bestimmten Gerät in der Vorschau anzeigen.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -37,7 +37,7 @@ Ihre In-App-Nachricht kann jetzt direkt auf Ihrem Gerät ausgelöst werden, soda
 
 ## Überprüfen und Aktivieren Ihrer In-App-Benachrichtigung{#in-app-review}
 
-Sobald Ihre In-App-Nachricht fertig ist, können Sie sie überprüfen und aktivieren.
+Wenn Ihre In-App-Nachricht fertiggestellt ist, können Sie sie überprüfen und aktivieren.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -51,7 +51,7 @@ Gehen Sie dazu wie folgt vor:
 
 Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte In-App-Benachrichtigung wird sofort oder zum angegebenen Datum versendet.
 
-Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#inapp-report).
+Nach dem Versand können Sie die Wirkung Ihrer In-App-Nachrichten im Kampagnen- oder Journey-Bericht messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#inapp-report).
 
 **Verwandte Themen:**
 

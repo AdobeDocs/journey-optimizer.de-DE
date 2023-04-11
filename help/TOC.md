@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -206,7 +206,7 @@ ht-degree: 98%
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
-   + [In-App-Benachrichtigung testen und senden](using/in-app/send-in-app.md)
+   + [Testen und Senden von In-App-Benachrichtigung](using/in-app/send-in-app.md)
    + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
 + Push-Benachrichtigungs-Kanal{#push}
    + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
@@ -222,7 +222,7 @@ ht-degree: 98%
    + [Vorschau und Test Ihrer SMS-Nachricht](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
-   + [SMS-Subdomains einrichten](using/sms/sms-subdomains.md)
+   + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)

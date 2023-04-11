@@ -11,8 +11,8 @@ keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Die **Arbeitsfläche** ist der zentrale Bereich im Journey-Designer. In diesem B
 
 ![](assets/journey39.png)
 
-Die **toolbar**, oben rechts auf der Arbeitsfläche, ermöglicht es Ihnen, das Raster ein-/auszublenden, ein-/auszuzoomen und einen Screenshot der Arbeitsfläche herunterzuladen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#timeout_and_error).
+Die **Symbolleiste** oben rechts auf der Arbeitsfläche ermöglicht es Ihnen, das Raster ein- und auszublenden, ein- und auszuzoomen und einen Screenshot der Arbeitsfläche herunterzuladen. Weitere Informationen finden Sie in [diesem Abschnitt](../building-journeys/journey-gs.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
