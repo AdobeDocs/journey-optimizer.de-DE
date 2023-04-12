@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Subdomain, Delegierung, Domain, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1757'
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,6 @@ Gehen Sie wie folgt vor, um eine neue Subdomain vollständig an Adobe zu delegie
    >[!CAUTION]
    >
    >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
-   >
-   >Beachten Sie, dass Subdomains mit mehreren Ebenen, wie email.marketing.ihrunternehmen.com, derzeit nicht unterstützt werden.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -144,8 +142,6 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu delegieren:
    >[!CAUTION]
    >
    >Es ist nicht zulässig, Adobe eine ungültige Subdomain zuzuweisen. Vergewissern Sie sich, dass Sie eine gültige Subdomain eingeben, die Ihrem Unternehmen gehört, z. B. marketing.ihrunternehmen.com.
-   >
-   >Beachten Sie, dass Subdomains mit mehreren Ebenen, wie email.marketing.ihrunternehmen.com, derzeit nicht unterstützt werden.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1091'
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,11 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 >id="ajo_web_surface"
 >title="Eine Web-Oberfläche definieren"
 >abstract="Eine Web-Oberfläche kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass inhaltliche Änderungen auf einer oder mehreren Web-Seiten vorgenommen werden können."
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface_rule"
+>title="Erstellen von Seiten, die mit einer Regel übereinstimmen"
+>abstract="Eine Seitenabgleichregel ermöglicht es, mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen - z. B. wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden möchten oder ein oberstes Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 
