@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Entwerfen von E-Mails in Journey Optimizer
-description: Erfahren Sie, wie Sie E-Mail-Inhalte entwerfen  von Grund auf neu entwerfen
+title: Erstellen von neuen Inhalten in Journey Optimizer
+description: Erfahren Sie, wie Sie Ihren Inhalt von Grund auf neu erstellen
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 87%
+source-wordcount: '637'
+ht-degree: 40%
 
 ---
 
-# Von Grund auf neu beginnen {#content-from-scratch}
+# Neuen Inhalt erstellen {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Über Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der E-Mail."
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen und Ablegen eines **Struktur** in die Arbeitsfläche, um mit der Erstellung Ihres E-Mail-Inhalts zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Über Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Landingpage."
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen und Ablegen eines **Struktur** in die Arbeitsfläche, um mit der Erstellung des Inhalts Ihrer Landingpage zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Über Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout des Fragments."
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout des Fragments. Ziehen und Ablegen eines **Struktur** in die Arbeitsfläche, um mit der Erstellung des Inhalts Ihres Fragments zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Über Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Vorlage."
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen und Ablegen eines **Struktur** in die Arbeitsfläche, um mit der Erstellung des Inhalts Ihrer Vorlage zu beginnen."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definieren von E-Mail-Spalten"
->abstract="Mit E-Mail-Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="E-Mail-Spalten definieren"
+>abstract="Mit Email Designer können Sie das Layout Ihrer E-Mail einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definieren der Spalten für die Landingpage"
->abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Landingpage-Spalten definieren"
+>abstract="Mit Designer können Sie das Layout Ihrer Landingpage einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definieren der Fragmentspalten"
->abstract="Mit dem E-Mail-Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Fragmentspalten definieren"
+>abstract="Mit Designer können Sie das Layout Ihres Fragments einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definieren der Vorlagenspalten"
->abstract="Mit dem E-Mail-Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur definieren."
+>title="Vorlagenspalten definieren"
+>abstract="Mit Designer können Sie das Layout Ihrer Vorlage einfach definieren, indem Sie die Spaltenstruktur auswählen."
 
 
-E-Mail-Designer bietet eine einfache Möglichkeit, die Struktur Ihrer E-Mail zu bestimmen. Durch das Hinzufügen und Verschieben von strukturellen Elementen durch einfaches Drag &amp; Drop können Sie Ihrer E-Mail in Sekundenschnelle die gewünschte Form verleihen.
+Verwenden Sie Adobe Journey Optimizer Designer, um die Inhaltsstruktur einfach zu definieren. Durch das Hinzufügen und Verschieben von Strukturelementen mit einfachen Drag &amp; Drop-Aktionen können Sie die Form Ihres Inhalts innerhalb von Sekunden entwerfen.
 
-Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu beginnen:
+Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer zu beginnen:
 
-1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
+1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
    ![](assets/email_designer.png)
 
-1. Beginnen Sie mit der Gestaltung Ihres E-Mail-Inhalts, indem Sie **[!UICONTROL Strukturkomponenten]** per Drag-and-Drop auf die Arbeitsfläche ziehen, um das Layout Ihrer E-Mail zu definieren.
+1. Beginnen Sie mit der Erstellung Ihres Inhalts durch Drag &amp; Drop **[!UICONTROL Strukturen]** in die Arbeitsfläche, um das Layout Ihrer E-Mail zu definieren.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Fügen Sie so viele **[!UICONTROL Strukturkomponenten]** wie nötig hinzu und bearbeiten Sie deren Einstellungen im entsprechenden Bereich auf der rechten Seite.
+1. Fügen Sie so viele hinzu wie **[!UICONTROL Strukturen]** nach Bedarf und bearbeiten Sie die Einstellungen im dedizierten Bereich auf der rechten Seite.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
    >
    >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
 
-1. Aus dem **[!UICONTROL Inhaltskomponenten]** hinzufügen, so viele Elemente wie nötig zu einer oder mehreren Strukturkomponenten hinzufügen. [Weitere Informationen zu Inhaltskomponenten](content-components.md)
+1. Erweitern Sie die **[!UICONTROL Inhalt]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu. [Weitere Informationen zu Inhaltskomponenten](content-components.md)
 
 1. Jede Komponente kann mithilfe der **[!UICONTROL Einstellungen]** oder **[!UICONTROL Stil]** Registerkarten im rechten Menü. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Erfahren Sie mehr über Ausrichtung und Abstand](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Fügen Sie Personalisierungsfelder ein, um den Inhalt Ihrer E-Mail mit Profildaten anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Segmentmitgliedschaften, Kontextattributen und mehr anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Beschriftung]** ändern und **[!UICONTROL Tags]** hinzufügen. [Erfahren Sie mehr über Links und Nachrichten-Tracking](message-tracking.md)
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Links]** im linken Bereich, um die Liste aller zu verfolgenden URLs Ihres Inhalts anzuzeigen. Sie können bei Bedarf deren **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Beschriftung]** ändern und **[!UICONTROL Tags]** hinzufügen. [Weitere Informationen zu Links und Tracking](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Sie können Ihre E-Mail weiter personalisieren, indem Sie auf **[!UICONTROL Wechseln zum Code-Editor]** aus dem erweiterten Menü. [Erfahren Sie mehr über den Code-Editor](code-content.md)
+1. Bei Bedarf können Sie den Inhalt weiter personalisieren, indem Sie auf **[!UICONTROL Wechseln zum Code-Editor]** von oben **Mehr** Schaltfläche. [Erfahren Sie mehr über den Code-Editor](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >Nach dem Wechsel zum Code-Editor können Sie für diese E-Mail nicht mehr zum visuellen Designer zurückgehen.
+   >Sie können den visuellen Designer für diesen Inhalt nicht wiederherstellen, nachdem Sie zum Code-Editor gewechselt haben.
 
-1. Sobald Ihr Inhalt bereit ist, klicken Sie auf **[!UICONTROL Inhalt simulieren]**, um das E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Erfahren Sie mehr über die Vorschau Ihrer E-Mail](preview.md)
+1. Sobald Ihr Inhalt fertig ist, klicken Sie auf die **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen. [Erfahren Sie mehr über die Vorschau Ihrer E-Mail](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Wenn Ihre E-Mail bereit ist, klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wenn Ihr Inhalt fertig ist, klicken Sie auf **[!UICONTROL Speichern]**.
 
