@@ -6,16 +6,17 @@ description: Erfahren Sie, wie Sie mit der Einschränkungs-API arbeiten
 role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '824'
+ht-degree: 94%
 
 ---
 
 # Arbeiten mit der Einschränkungs-API
 
-Mit der Drosselungs-API können Sie Einschränkungskonfigurationen erstellen, konfigurieren und überwachen.
+Mit der Einschränkungs-API können Sie Ihre Einschränkungskonfigurationen erstellen, konfigurieren und überwachen, um die Anzahl der pro Sekunde gesendeten Ereignisse zu begrenzen.
 
 In diesem Abschnitt finden Sie allgemeine Informationen zur Verwendung der API. Eine detaillierte API-Beschreibung finden Sie in der [Dokumentation zu Adobe Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/).
 

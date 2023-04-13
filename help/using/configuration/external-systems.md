@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 96%
+source-wordcount: '1202'
+ht-degree: 91%
 
 ---
 
@@ -28,15 +28,15 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 1. Es werden Begrenzungs- und Einschränkungsregeln angewendet: Wenn die maximale Anzahl erreicht wird, werden die verbleibenden Aufrufe verworfen oder in die Warteschlange gestellt.
 
-2. Zeitüberschreitung und erneuter Versuch: Wenn die Begrenzungsregel erfüllt wird, versucht Journey Optimizer, den Aufruf auszuführen, bis das Ende der Zeitüberschreitungsdauer erreicht ist.
+2. Zeitüberschreitung und erneuter Versuch: Wenn die Begrenzungs- oder Einschränkungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf auszuführen, bis das Ende der Timeout-Dauer erreicht ist.
 
-## Begrenzung und Einschränkungs-APIs {#capping}
+## Capping und Drosselung von APIs {#capping}
 
 ### Über Begrenzungs- und Einschränkungs-APIs
 
 Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, oder um Nachrichten oder API-Aufrufe zu senden.
 
-Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise nicht den entsprechenden Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die APIs für **Begrenzung** und **Einschränkung** zum Begrenzen der Anzahl der pro Sekunde gesendeten Ereignisse verwenden.
+Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise nicht den entsprechenden Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die **Begrenzung** und **Einschränken** APIs zum Beschränken der Anzahl der pro Sekunde gesendeten Ereignisse.
 
 Jedes Mal, wenn Journeys einen API-Aufruf ausführen, wird er über die API-Engine weitergeleitet. Wenn das in der API festgelegte Limit erreicht wird, wird der Aufruf entweder abgelehnt, wenn Sie die Capping-API verwenden, oder bis zu sechs Stunden lang in die Warteschlange gestellt und so bald wie möglich in der Reihenfolge verarbeitet, in der sie empfangen wurden, wenn Sie die Throttling-API verwenden.
 
