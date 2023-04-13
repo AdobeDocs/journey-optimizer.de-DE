@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
+source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,12 @@ Nachdem Sie Ihre Journey in [!DNL Journey Optimizer] erstellt haben, können Sie
 
 ➡️ [Customer Journey Analytics entdecken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=de){target="_blank"}
 
+>[!NOTE]
+>
+>Zusätzlich zu dieser Integration können Sie auch den Inhalt von Adobe Journey Optimizer-Datensätzen an Cloud-Speicher-Speicherorte exportieren und diese Informationen zu Berichts- oder Analysezwecken verwenden. [Erfahren Sie, wie Sie Datensätze in Cloud-Speicher exportieren.](../data/export-datasets.md)
+>
+>Beachten Sie, dass sich die Funktion zum Exportieren von Datensätzen derzeit in der Beta-Phase befindet und für alle Adobe Journey Optimizer-Benutzer verfügbar ist. Bitte wenden Sie sich an den Adobe-Support, um Zugang zu Zielen zu erhalten, falls Sie noch keinen Zugang haben.
+
 Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können, müssen Sie zunächst die folgende Integration konfigurieren:
 
 1. [Erstellen Sie eine Verbindung](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=de) in [!DNL Customer Journey Analytics] mit dem **[!UICONTROL Datensatz]**, den Sie an Adobe Experience Platform senden möchten.
@@ -38,7 +44,6 @@ Bevor Sie [!DNL Customer Journey Analytics] für Ihre Journeys verwenden können
 1. [Erstellen Sie eine Datenansicht](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=de) für die Konfiguration von Abmessungen und Metriken, die Sie für Ihren Bericht verwenden möchten.
 
    Sie können Journey Optimizer-spezifische Metriken erstellen, um die Daten Ihrer Journeys besser wiederzugeben. [Weitere Informationen](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=de#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 Wenn Sie [!DNL Journey Optimizer] zusammen mit [!DNL Customer Journey Analytics] verwenden, kann das zu Abweichungen in den Reporting-Daten führen, die durch Folgendes verursacht werden:
 
