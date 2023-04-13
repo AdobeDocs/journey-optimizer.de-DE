@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
@@ -73,8 +73,6 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. Sie können Ihre Links personalisieren. Weitere Informationen zu personalisierten URLs finden Sie in [diesem Abschnitt](../personalization/personalization-syntax.md#perso-urls).
 
 1. Speichern Sie Ihre Änderungen.
@@ -121,8 +119,6 @@ Mit [E-Mail-Designer](content-from-scratch.md) können Sie die verfolgten URLs v
    Diese Liste bietet einen guten Überblick und ermöglicht das Auffinden aller im E-Mail-Inhalt vorhandenen URLs.
 
 1. Um einen Link zu bearbeiten, wählen Sie das entsprechende Stiftsymbol aus.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. Sie können den **[!UICONTROL Tracking-Typ]** bei Bedarf ändern:
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Assets, Essentials, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 86%
 
 ---
 
@@ -57,29 +57,23 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
 1. Von **[!UICONTROL Dateien hochladen]** aus klicken Sie auf **[!UICONTROL Durchsuchen]** und wählen Sie aus, ob Sie **[!UICONTROL Dateien durchsuchen]** oder **[!UICONTROL Ordner durchsuchen]** möchten.
 
-   ![](assets/media_library_3.png)
+1. Wählen Sie die Datei aus, die Sie hochladen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Hochladen]**. Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de).
 
-1. Wählen Sie die Datei aus, die Sie hochladen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Hochladen]**.
-
-   Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de).
-
-1. Nach dem Hochladen von Assets können Sie sie mithilfe vom E-Mail-Designer in eine Ihrer Nachrichten einfügen.
-
-   Ihr Asset kann auch mit dem Modus **Bearbeiten** von [!DNL Assets Essentials] weiter bearbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target="_blank"}.
+1. Um Ihre Assets mit Adobe Photoshop Express weiter zu bearbeiten, doppelklicken Sie auf die Assets. Wählen Sie dann im Kontextmenü die Option **[!UICONTROL Bearbeitungsmodus]** Symbol. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. Wählen Sie in [!DNL Adobe Journey Optimizer] im linken Bereich von E-Mail-Designer die Option **[!UICONTROL Asset-Auswahl]**.
+1. Von [!DNL Adobe Journey Optimizer], wählen Sie die **[!UICONTROL Asset-Auswahl]** im linken Bereich des E-Mail-Designers.
 
    ![](assets/media_library_5.png)
 
-1. Wählen Sie Ihren **[!UICONTROL Assets]**-Ordner aus. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
+1. Wählen Sie die zuvor erstellte **[!UICONTROL Assets]** Ordner. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
 
 1. Ziehen Sie Ihr Asset in den E-Mail-Inhalt.
 
    ![](assets/media_library_6.png)
 
-1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit den **[!UICONTROL Komponenteneinstellungen]** hinzufügen. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
+1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit der **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Registerkarten. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
 
    ![](assets/media_library_13.png)
 

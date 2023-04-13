@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Seite, Formular, Komponente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -63,7 +63,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    >[!NOTE]
    >
-   >Sie können jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln, um die Stile Ihrer Inhalte in der Formularkomponente zu bearbeiten. [Weitere Informationen](#define-lp-styles)
+   >Wechseln Sie zu **[!UICONTROL Stile]** jederzeit zum Bearbeiten der Stile des Formularkomponenteninhalts. [Weitere Informationen](#define-lp-styles)
 
 1. Im Abschnitt **[!UICONTROL Kontrollkästchen 1]** können Sie den Titel bearbeiten, der diesem Kontrollkästchen entspricht.
 
@@ -83,7 +83,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    * **[!UICONTROL Abonnement-Liste]**: Sie müssen die Abonnement-Liste auswählen, die aktualisiert wird, wenn das Profil dieses Kontrollkästchen aktiviert. Weitere Informationen finden Sie unter [Abonnement-Listen](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Kanal (E-Mail)]**: Die An- oder Abmeldung gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abgemeldet hat, zwei E-Mail-Adressen hat, werden beide Adressen aus Ihrer gesamten Kommunikation ausgeschlossen.
 
@@ -136,21 +136,25 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
 ## Definieren von Formularstilen für Landingpages {#lp-form-styles}
 
-1. Um die Stile der Inhalte Ihrer Formularkomponente zu ändern, können Sie jederzeit zur Registerkarte **[!UICONTROL Formularstil]** wechseln.
+1. Um die Stile Ihres Formularkomponenteninhalts zu ändern, wechseln Sie jederzeit zum **[!UICONTROL Stil]** Registerkarte.
 
    ![](assets/lp_designer-form-style.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Kontrollkästchen]**, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie oder Schriftgröße sowie die Rahmenfarbe des Kontrollkästchens anpassen.
+1. Die **[!UICONTROL Felder]** standardmäßig erweitert und ermöglicht es Ihnen, das Erscheinungsbild des Textfelds zu bearbeiten, z. B. die Beschriftung und Platzhalterschrift, die Position der Beschriftung, die Hintergrundfarbe des Felds oder den Feldrand.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Erweitern Sie den Abschnitt **[!UICONTROL Kontrollkästchen]**, um das Erscheinungsbild der Kontrollkästchen und des entsprechenden Texts zu definieren. Sie können beispielsweise die Schriftfamilie, die Schriftgröße oder die Rahmenfarbe des Kontrollkästchens anpassen.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Schaltflächen]**, um das Erscheinungsbild der Schaltfläche im Komponentenformular zu ändern. Sie können beispielsweise die Schriftart ändern, einen Rahmen hinzufügen, die Beschriftungsfarbe beim Bewegen des Mauszeigers bearbeiten oder die Ausrichtung der Schaltfläche anpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Sie können einige Ihrer Einstellungen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, in der Vorschau anzeigen, indem Sie die Schaltfläche **[!UICONTROL Vorschau]** verwenden. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
+   Sie können einige Ihrer Einstellungen in der Vorschau anzeigen, z. B. die Farbe der Schaltflächenbeschriftung beim Bewegen des Mauszeigers, indem Sie die **[!UICONTROL Inhalt simulieren]** Schaltfläche. Weitere Informationen zum Testen von Landingpages finden Sie [hier](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Formular-Layout]**, um die Layout-Einstellungen wie die Hintergrundfarbe, den Abstand oder den Rand zu bearbeiten.
 
@@ -194,11 +198,15 @@ Gehen Sie dazu wie folgt vor:
 
 1. Speichern Sie Ihre Änderungen.
 
+Wenn Benutzer jetzt eines der Kontrollkästchen auswählen,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Wenn Benutzende jetzt eines der Kontrollkästchen aktivieren, wird beim Absenden des Formulars die dem ausgewählten Kontrollkästchen entsprechende Meldung angezeigt.
+die dem ausgewählten Kontrollkästchen entsprechende Meldung beim Senden des Formulars angezeigt wird.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

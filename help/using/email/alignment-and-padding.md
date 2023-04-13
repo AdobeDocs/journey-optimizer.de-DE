@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: vertikale Ausrichtung, E-Mail-Editor, Abstand
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '148'
+ht-degree: 67%
 
 ---
 
@@ -22,23 +22,19 @@ In diesem Beispiel passen wir den Abstand und die senkrechte Ausrichtung innerha
 
 1. Wählen Sie eine Strukturkomponente direkt in der E-Mail oder über den **[!UICONTROL Navigationsbaum]** im linken Menü aus.
 
-   ![](assets/alignment_1.png)
-
 1. Wählen Sie in der Symbolleiste mit der Option **[!UICONTROL Spalte auswählen]** die gewünschte Spalte aus. Sie können sie auch im Strukturbaum auswählen.
 
-   Die bearbeitbaren Parameter für diese Spalte werden im Menü **[!UICONTROL Spalteneinstellungen]** angezeigt.
+   Die bearbeitbaren Parameter für diese Spalte werden im **[!UICONTROL Stile]** Registerkarte.
 
    ![](assets/alignment_2.png)
 
-1. Wählen Sie unter **[!UICONTROL Vertikale Ausrichtung]** die Option **[!UICONTROL Unten]** aus.
-
-   Die Inhaltskomponente wird an den unteren Rand der Spalte verschoben.
+1. under **[!UICONTROL Ausrichtung]** auswählen **[!UICONTROL Oben]**, **[!UICONTROL Mittel]** oder **[!UICONTROL Unten]**.
 
    ![](assets/alignment_3.png)
 
-1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand der Spalte vom oberen Rand. Wählen Sie das Schlosssymbol aus, um die Synchronisation mit dem Abstand vom unteren Rand aufzuheben.
+1. under **[!UICONTROL Auffüllung]**, definieren Sie den Abstand für alle Seiten.
 
-   Definieren Sie den linken und rechten Abstand für diese Spalte.
+   Auswählen **[!UICONTROL Unterschiedliche Abstände für jede Seite]** , wenn Sie den Abstand optimieren möchten. Klicken Sie auf das Sperrsymbol, um die Synchronisierung aufzuheben.
 
    ![](assets/alignment_4.png)
 

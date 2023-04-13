@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 87%
 
 ---
 
@@ -82,15 +82,13 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    Wählen Sie die Komponente **[!UICONTROL n:n Spalte]** aus, um die Anzahl der Spalten zu definieren (3 bis 10). Sie können auch die Breite jeder Spalte ändern, indem Sie den Pfeil am unteren Rand einer jeden Spalte verschieben.
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Sie können nur leere Spalten entfernen.
 
-1. Erweitern Sie die **[!UICONTROL Inhaltskomponenten]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu. [Weitere Informationen zu Inhaltskomponenten](content-components.md)
+1. Aus dem **[!UICONTROL Inhaltskomponenten]** hinzufügen, so viele Elemente wie nötig zu einer oder mehreren Strukturkomponenten hinzufügen. [Weitere Informationen zu Inhaltskomponenten](content-components.md)
 
-1. Jede Komponente kann mithilfe der **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite weiter angepasst werden. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Erfahren Sie mehr über Ausrichtung und Abstand](alignment-and-padding.md)
+1. Jede Komponente kann mithilfe der **[!UICONTROL Einstellungen]** oder **[!UICONTROL Stil]** Registerkarten im rechten Menü. Beispielsweise können Sie den Textstil, den Abstand oder den Rand jeder Komponente ändern. [Erfahren Sie mehr über Ausrichtung und Abstand](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    ![](assets/email_designer_personalization.png)
 
-1. Fügen Sie dynamische Inhalte hinzu, um den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
+1. Klicken **[!UICONTROL Bedingungsinhalt aktivieren]** um dynamischen Inhalt hinzuzufügen und den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen. [Erste Schritte mit dynamischen Inhalten](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Inhalts Ihrer E-Mail zu begin
 
    ![](assets/email_designer_links.png)
 
-1. Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. [Erfahren Sie mehr über den Code-Editor](code-content.md)
+1. Sie können Ihre E-Mail weiter personalisieren, indem Sie auf **[!UICONTROL Wechseln zum Code-Editor]** aus dem erweiterten Menü. [Erfahren Sie mehr über den Code-Editor](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

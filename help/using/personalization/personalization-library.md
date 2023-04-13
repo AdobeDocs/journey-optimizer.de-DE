@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,7 @@ Um auf die gespeicherten Ausdrücke zuzugreifen, klicken Sie auf die Schaltfläc
 
 >[!NOTE]
 >
->Über die Informationsschaltfläche erhalten Sie weitere Informationen zum Inhalt eines gespeicherten Ausdrucks. Wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen, wird die Informationsschaltfläche im Drei-Punkt-Menü angezeigt.
-
-![](assets/library-list.png)
+>Über die Suchschaltfläche können Sie weitere Informationen zum Inhalt eines gespeicherten Ausdrucks abrufen. Beachten Sie, dass die Informationsschaltfläche in den Auslassungszeichen angezeigt wird, wenn Sie über die entsprechenden Berechtigungen zum Verwalten von Bibliothekselementen verfügen.
 
 Klicken Sie auf „+“, um den Ausdruck in den Editor einzufügen. Anschließend können Sie Ihre Personalisierungsinhalte wie gewohnt anpassen und validieren. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 

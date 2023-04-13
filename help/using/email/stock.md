@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Stock, Bilder, Integration, Fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,6 @@ Gehen Sie wie folgt vor, um Bilder aus [!DNL Adobe Stock] zu Ihrem Inhalt hinzuz
 
    Wenn das ausgewählte Bild nicht lizenziert ist, müssen Sie [die Lizenz abrufen](#license-stock-image).
 
-
 ## Suchen nach ähnlichen Fotos {#similar-stock-image}
 
 Sie können jedes vorhandene Bild in Ihrem E-Mail-Inhalt durch ein Foto aus [!DNL Adobe Stock] ersetzen. Beachten Sie, dass diese Option für alle Bilder verfügbar ist: lizenzierte/unlizenzierte Stock-Bilder und Bilder aus Ihrem Assets-Ordner.
@@ -68,7 +67,7 @@ Gehen Sie wie folgt vor, um ähnliche Fotos zu suchen:
 
    Wenn das ausgewählte Bild nicht lizenziert ist, müssen Sie [die Lizenz abrufen](#license-stock-image).
 
-1. Passen Sie Ihr Bild bei Bedarf über das Menü **[!UICONTROL Komponenteneinstellungen]** an. [Weitere Informationen zu Komponenteneinstellungen](content-components.md).
+1. Passen Sie bei Bedarf Ihr Bild mit dem **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Registerkarten. [Weitere Informationen zu Komponenteneinstellungen](content-components.md).
 
 ## Abrufen der Lizenz von [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ Gehen Sie wie folgt vor, um Ihr Bild zu lizenzieren und herunterzuladen:
 
    ![](assets/stock-license-icon.png)
 
-   Sie werden dann auf die [!DNL Adobe Stock]-Website weitergeleitet, um die Lizenz zu kaufen.
+   Sie werden dann zu dem [!DNL Adobe Stock] Website zum Kauf der Lizenz.
 
    ![](assets/stock-license-photo.png)
 

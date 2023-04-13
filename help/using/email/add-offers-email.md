@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Angebote, Entscheidung, E-Mails, Personalisierung, Entscheidung
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '643'
+ht-degree: 87%
 
 ---
 
@@ -73,15 +73,13 @@ Nachdem Sie die Änderungen gespeichert haben, können Ihre Angebote den entspre
 
 ## Angebotsvorschau in einer E-Mail {#preview-offers-in-email}
 
-Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, in der Vorschau anzeigen, indem Sie den Abschnitt **[!UICONTROL Angebote]** oder die Pfeile für die Inhaltskomponenten verwenden.
+Sie können die verschiedenen Angebote, die Teil der Entscheidung sind, die der E-Mail hinzugefügt wurde, mithilfe der **[!UICONTROL Angebot]** oder den Pfeilen der Inhaltskomponenten.
 
 ![](assets/deliver-offer-preview.png)
 
 Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der Entscheidung bei einem Kundenprofil sind.
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. Klicken Sie auf **[!UICONTROL Schaltfläche &quot;Inhalt simulieren&quot;]** Schaltfläche.
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ Weitere Informationen zu den detaillierten Schritten zur Überprüfung der Nachr
 Erfahren Sie, wie Sie in [!DNL Journey Optimizer] eine Entscheidungs-Management-Komponente zu Nachrichten hinzufügen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

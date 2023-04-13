@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Inline, Stil, Attribute, Editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 100%
 Wenn Sie in der Benutzeroberfläche von E-Mail-Designer ein Element auswählen und im seitlichen Fenster seine Einstellungen anzeigen, können Sie seine Inline-Attribute und deren Werte ändern.
 
 1. Wählen Sie in Ihrem Inhalt ein Element aus.
-1. Suchen Sie im seitlichen Fenster nach den Einstellungen für **[!UICONTROL Inline-Stile]**.
+
+1. Aus dem **[!UICONTROL Stile]** Registerkarte, suchen Sie nach der **[!UICONTROL Inline-Stile]** -Einstellungen unter **[!UICONTROL Erweitert]** Dropdown-Liste.
 
    ![](assets/styles_1.png)
 
