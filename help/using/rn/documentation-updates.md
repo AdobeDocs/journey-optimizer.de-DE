@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7cb9b4102459e7a33e683fdb8a19ae6d9f8b3328
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2572'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Adobe Experience Manager Assets Essentials und Adobe Stock wurden zur Integrationsseite mit mehreren Lösungen hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
 * Die Warnung zu E-Mail-Subdomains mit mehreren Ebenen, die nicht zulässig sind, wurde entfernt, da sie jetzt unterstützt werden. [Weitere Informationen](../configuration/delegate-subdomain.md)
+* Es wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, die Veröffentlichung der Journey rückgängig gemacht und erneut veröffentlicht werden muss. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 
 ## März 2023 {#march-2023}
 

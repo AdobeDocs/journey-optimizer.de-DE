@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: veröffentlichen, Journey, live, Gültigkeit, prüfen
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,10 @@ Wenn Sie eine Journey stoppen, wird sie dauerhaft angehalten. Alle Personen, die
    ![](assets/journeyuc1_18.png)
 
 Nachdem die Journey veröffentlicht wurde, ist sie schreibgeschützt.
+
+>[!IMPORTANT]
+>
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey rückgängig machen und sie erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 ## Anleitungsvideo {#video}
 

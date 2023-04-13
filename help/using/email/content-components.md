@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1223'
+ht-degree: 96%
 
 ---
 
@@ -199,3 +199,6 @@ Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um Angebote 
 
 Weitere Informationen dazu, wie Sie einer E-Mail personalisierte Angebote hinzufügen können, finden Sie in [diesem Abschnitt](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey rückgängig machen und sie erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
