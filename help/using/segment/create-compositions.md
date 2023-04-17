@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -63,6 +63,10 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
    ![](assets/audiences-publish.png)
 
 1. Sobald Ihre Komposition fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Veröffentlichen]**, um die Komposition zu veröffentlichen und die resultierenden Audiences in Adobe Experience Platform zu speichern.
+
+   >[!IMPORTANT]
+   >
+   >Sie können bis zu 75 Kompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizugeben und eine neue zu veröffentlichen.
 
    Tritt während der Veröffentlichung ein Fehler auf, werden Warnhinweise mit Informationen zur Behebung des Problems angezeigt.
 
