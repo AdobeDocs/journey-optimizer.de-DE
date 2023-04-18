@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 99%
 
 ---
@@ -214,8 +214,9 @@ ht-degree: 99%
    + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
    + [Senden der Push-Benachrichtigung](using/push/send-push.md)
    + Konfigurieren von Push-Benachrichtigungen{#push-config}
-      + [Push-Benachrichtigungen und Adobe Journey Optimizer](using/push/push-gs.md)
-      + [Konfigurieren eines Kanal für Push-Benachrichtigungen](using/push/push-configuration.md)
+      + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
+      + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
+      + [Schnellstart-Workflow für die Mobile-Integration](using/push/mobile-onboarding-wf.md)
 + SMS-Kanal{#sms}
    + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)

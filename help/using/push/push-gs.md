@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push-Benachrichtigungen und Adobe Journey Optimizer
+title: Push-Benachrichtigungsfluss in Adobe Journey Optimizer
 description: Datenfluss und Komponenten von Push-Benachrichtigungen
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 93%
 
 ---
 
-# Push-Benachrichtigungen und Adobe Journey Optimizer {#get-started-push}
+# Datenfluss und Komponenten von Push-Benachrichtigungen {#get-started-push}
 
-Diese Seite hilft Ihnen beim Einrichten und Verstehen wichtiger Services und Workflows, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind. Auf [dieser Seite](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.
+Auf dieser Seite erfahren Sie, wie Sie wichtige Dienste und Workflows einrichten und verstehen, die mit Push-Benachrichtigungen in in [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+Auf [dieser Seite](create-push.md) erfahren Sie, wie Sie Push-Benachrichtigungen erstellen.
 
 Die Schritte zum Konfigurieren des Push-Benachrichtigungs-Kanals in [!DNL Adobe Journey Optimizer] werden auf [dieser Seite](push-configuration.md) beschrieben.
 
@@ -38,7 +47,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 1. Push-Benachrichtigungen werden an Endbenutzergeräte gesendet.
 1. Push-Benachrichtigungs-Interaktionen für Endbenutzer werden über die SDK-Integration als Erlebnisereignisse vom Endbenutzer-Client gesendet.
 
-## Rollen von wichtigen Services in Push-Benachrichtigungen {#roles-of-key-services}
+## Rollen von Schlüsseldiensten in Push-Benachrichtigungen {#roles-of-key-services}
 
 * **Push-Benachrichtigungs-Service-Anbieter** sind die Kernkomponenten-Webservices, die Benachrichtigungen von Remote-Servern an Mobile Apps senden.
 
@@ -63,3 +72,11 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 Die folgende Abbildung zeigt die verschiedenen Schritte zur Konfiguration der Komponenten, die das Grundgerüst des Push-Datenflusses bilden, von Anfang bis Ende. Die Aktionselemente wurden basierend auf der Rolle, die die Konfiguration durchführt, und der zu konfigurierenden Komponente in Kategorien eingeteilt.
 
 ![](assets/user-flow.png)
+
+**Verwandte Themen**
+
+* [Konfigurieren des Push-Kanals](push-configuration.md)
+* [Bericht zu Push-Benachrichtigungen](../reports/journey-global-report.md#push-global)
+* [Erstellen einer Push-Benachrichtigung](create-push.md)
+* [Hinzufügen einer Nachricht zu einer Journey](../building-journeys/journeys-message.md)
+* [Hinzufügen einer Nachricht in einer Kampagne](../campaigns/create-campaign.md)
