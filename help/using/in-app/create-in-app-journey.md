@@ -8,10 +8,11 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 44%
+source-wordcount: '553'
+ht-degree: 46%
 
 ---
 
@@ -67,10 +68,11 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 * Die Personalisierung kann nur Profilattribute enthalten.
 
-* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn das Journey für ein Profil endet, werden alle In-App-Nachrichten auf diesem Journey nicht mehr für dieses Profil angezeigt. Das bedeutet, dass Sie eine In-App-Aktivität nicht direkt von einer Journey-Aktivität aus stoppen können. Du musst diese Journey beenden.
-* Die In-App-Anzeige ist mit der Lebensdauer einer Journey verknüpft, d. h. nach Abschluss einer Journey für ein bestimmtes Benutzerprofil werden alle In-App-Nachrichten innerhalb dieses Journey nicht mehr für dieses Profil angezeigt. Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
+* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn das Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieses Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
 
-* Mit dieser Funktion können Sie noch nicht **[!UICONTROL Reaktion]** -Aktivitäten, um auf eine Öffnung oder einen Klick in der App zu reagieren.
+* Im Testmodus hängt die Anzeige der App vom In-App-Journey ab. Um zu verhindern, dass der Journey während des Tests zu früh endet, passen Sie die **[!UICONTROL Wartezeit]** -Wert für **[!UICONTROL Warten]** Aktivitäten.
+
+* **[!UICONTROL Reaktion]** -Aktivitäten können nicht verwendet werden, um auf eine Öffnung oder einen Klick in der App zu reagieren.
 
 * Eine Aktivierungsverzögerung tritt zwischen dem Zeitpunkt, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt auf, zu dem es diese In-App-Nachricht zu sehen beginnt. Diese Verzögerung kann zwischen 15 Minuten und 1 Stunde betragen.
 
