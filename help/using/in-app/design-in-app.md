@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Design, Formatierung
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '886'
+ht-degree: 94%
 
 ---
 
 # Gestalten Ihrer In-App-Inhalte {#design-content}
 
-Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichtenlayouts und der Anzeige-, Text- und Schaltflächenoptionen.
+Sie können den In-App-Inhalt bearbeiten, um Erlebnisoptionen zu konfigurieren:
 
-Um den Nachrichteninhalt zu konfigurieren, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** und verwenden Sie die Optionen im rechten Bereich des Bildschirms, um den Inhalt Ihrer In-App-Nachricht zu gestalten.
+* In **[!UICONTROL Kampagne]** aus der **[!UICONTROL Aktion]** Um den Nachrichteninhalt zu konfigurieren, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* In **[!UICONTROL Journey]** im erweiterten Menü Ihrer In-App-Nachricht **[!UICONTROL Aktion]**, können Sie mit der Erstellung Ihres Inhalts mit der **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+
+   ![](assets/design_inapp_journey.png)
 
 Der Umschalter **[!UICONTROL Erweiterte Formatierung]** aktiviert zusätzliche Optionen zum Anpassen des Erlebnisses.
 
-Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren. Die Benachrichtigungen werden dann entsprechend dem Zeitplan für die Kampagne gesendet. Weiterführende Informationen finden Sie auf [dieser Seite](create-in-app.md#in-app-send).
+Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren. Die Benachrichtigungen werden dann entsprechend dem Zeitplan für die Kampagne gesendet. Weiterführende Informationen finden Sie auf [dieser Seite](send-in-app.md).
 
 ## Nachrichten-Layout {#message-layout}
 

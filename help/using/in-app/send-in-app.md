@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## Vorschau auf Gerät {#preview-device}
 
-Wenn Sie [die In-App-Nachricht erstellt haben](create-in-app.md) und [ihren Inhalt definiert haben](design-in-app.md), können Sie die In-App-Benachrichtigung auf einem bestimmten Gerät in der Vorschau anzeigen.
+Wenn Sie eine Vorschau der In-App-Benachrichtigung erhalten möchten, bevor sie für alle Benutzer live geschaltet wird, können Sie sie auf einem bestimmten Gerät in der Vorschau anzeigen. Mit dieser Funktion können Sie sicherstellen, dass die Benachrichtigung wie gewünscht auf dem ausgewählten Gerät aussieht und funktioniert, und so eine bessere Benutzererfahrung für Ihre Zielgruppe bieten.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -37,7 +38,7 @@ Ihre In-App-Nachricht kann jetzt direkt auf Ihrem Gerät ausgelöst werden, soda
 
 ## Überprüfen und Aktivieren Ihrer In-App-Benachrichtigung{#in-app-review}
 
-Wenn Ihre In-App-Nachricht fertiggestellt ist, können Sie sie überprüfen und aktivieren.
+Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und personalisiert haben, können Sie sie überprüfen und aktivieren.
 
 Gehen Sie dazu wie folgt vor:
 
