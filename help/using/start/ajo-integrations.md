@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 100%
 
 ---
 
@@ -45,16 +45,16 @@ Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Ex
 
 [!DNL Adobe Experience Manager Assets Essentials] kann direkt von [!DNL Adobe Journey Optimizer] aus über den Abschnitt **[!UICONTROL Assets]** im linken Menü aufgerufen werden.
 
-Weitere Informationen [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Erfahren Sie mehr über [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
 
-Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kunden und Kundinnen eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
+Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kundinnen und Kunden eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Stock] in Ihre E-Mails hochladen und mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** zu Ihrem Ordner **[!UICONTROL Assets]** hinzufügen. Darüber hinaus hilft Ihnen die Option **[!UICONTROL Ähnliche Stockfotos suchen]**, Bilder zu finden, die in Inhalt, Farbe und Komposition dem in Ihrem Versand verwendeten Asset entsprechen.
 
-Weitere Informationen [Journey Optimizer + Stock](../email/stock.md).
+Erfahren Sie mehr über [Journey Optimizer + Stock](../email/stock.md).
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
