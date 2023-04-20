@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Sie Datenhygienevorgänge durchführen
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 645db980155993155a10d27f4ff59967b000442f
+exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
