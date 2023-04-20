@@ -11,8 +11,8 @@ keywords: Schritte, Konfiguration, Journey, Ereignisse, Stream, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 100%
 
 ---
 
