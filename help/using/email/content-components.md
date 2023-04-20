@@ -12,7 +12,7 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 71%
+ht-degree: 74%
 
 ---
 
@@ -225,4 +225,4 @@ Weitere Informationen dazu, wie Sie einer E-Mail personalisierte Angebote hinzuf
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey rückgängig machen und sie erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
