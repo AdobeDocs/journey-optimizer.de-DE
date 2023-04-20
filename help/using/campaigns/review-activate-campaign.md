@@ -11,8 +11,8 @@ keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimiz
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '252'
+ht-degree: 100%
 
 ---
 
