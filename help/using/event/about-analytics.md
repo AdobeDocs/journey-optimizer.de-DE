@@ -11,8 +11,8 @@ keywords: Analytics, Integration, Web-SDK, Plattform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '768'
+ht-degree: 100%
 
 ---
 
