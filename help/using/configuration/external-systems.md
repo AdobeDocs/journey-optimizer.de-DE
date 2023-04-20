@@ -10,7 +10,7 @@ exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,25 +28,25 @@ Wenn Journey Optimizer einen Aufruf an eine externe API ausführt, werden die te
 
 1. Es werden Begrenzungs- und Einschränkungsregeln angewendet: Wenn die maximale Anzahl erreicht wird, werden die verbleibenden Aufrufe verworfen oder in die Warteschlange gestellt.
 
-2. Zeitüberschreitung und erneuter Versuch: Wenn die Begrenzungs- oder Einschränkungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf auszuführen, bis das Ende der Timeout-Dauer erreicht ist.
+2. Maximale Wartezeit und erneutes Versuchen: Wenn die Begrenzungs- oder Drosselungsregel erfüllt ist, versucht Journey Optimizer, den Aufruf so lange auszuführen, bis die Zeitüberschreitungsgrenze erreicht ist.
 
-## Capping und Drosselung von APIs {#capping}
+## APIs für Begrenzung und Drosselung {#capping}
 
 ### Über Begrenzungs- und Einschränkungs-APIs
 
 Beim Konfigurieren einer Datenquelle oder einer Aktion stellen Sie eine Verbindung zu einem System her, um entweder zusätzliche Informationen abzurufen, die in Ihren Journeys verwendet werden, oder um Nachrichten oder API-Aufrufe zu senden.
 
-Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise nicht den entsprechenden Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die **Begrenzung** und **Einschränken** APIs zum Beschränken der Anzahl der pro Sekunde gesendeten Ereignisse.
+Journey-APIs unterstützen bis zu 5.000 Ereignisse pro Sekunde, einige externe Systeme oder APIs weisen jedoch möglicherweise nicht den entsprechenden Durchsatz auf. Um eine Überlastung dieser Systeme zu vermeiden, können Sie die APIs für **Begrenzung** und **Drosselung** zum Begrenzen der Anzahl der pro Sekunde gesendeten Ereignisse verwenden.
 
-Jedes Mal, wenn Journeys einen API-Aufruf ausführen, wird er über die API-Engine weitergeleitet. Wenn das in der API festgelegte Limit erreicht wird, wird der Aufruf entweder abgelehnt, wenn Sie die Capping-API verwenden, oder bis zu sechs Stunden lang in die Warteschlange gestellt und so bald wie möglich in der Reihenfolge verarbeitet, in der sie empfangen wurden, wenn Sie die Throttling-API verwenden.
+Jedes Mal, wenn Journeys einen API-Aufruf ausführen, wird er über die API-Engine weitergeleitet. Wenn das in der API festgelegte Limit erreicht wird, wird der Aufruf entweder abgelehnt, falls Sie die Begrenzungs-API verwenden, oder für bis zu 6 Stunden in die Warteschlange gestellt und so bald wie möglich in der Reihenfolge verarbeitet, in der die Aufrufe empfangen wurden, falls Sie die Drosselungs-API verwenden.
 
-Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Einschränkungsregel von 100 Aufrufen pro Sekunde für Ihr externes System definiert. Eine benutzerdefinierte Aktion führt in 10 verschiedenen Journeys Aufrufe an Ihr System aus. Wenn eine Journey 200 Aufrufe pro Sekunde erhält, verwendet sie die 100 verfügbaren Slots und verwirft die 100 verbleibenden Slots oder stellt sie in die Warteschlange. Da die Höchstrate überschritten wurde, sind für die anderen 9 Journeys keine Slots mehr übrig. Durch diese Granularität ist das externe System vor Überlastung und Abstürzen geschützt.
+Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Drosselungsregel von 100 Aufrufen pro Sekunde für Ihr externes System definiert. Eine benutzerdefinierte Aktion führt in 10 verschiedenen Journeys Aufrufe an Ihr System aus. Wenn eine Journey 200 Aufrufe pro Sekunde erhält, verwendet sie die 100 verfügbaren Slots und verwirft die 100 verbleibenden Slots oder stellt sie in die Warteschlange. Da die Höchstrate überschritten wurde, sind für die anderen 9 Journeys keine Slots mehr übrig. Durch diese Granularität ist das externe System vor Überlastung und Abstürzen geschützt.
 
 >[!IMPORTANT]
 >
 >**Begrenzungsregeln** werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL), jedoch global für alle Journeys dieser Sandbox konfiguriert.
 >
->**Einschränkungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Einschränkungskonfiguration verwendet werden.
+>**Drosselungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Einschränkungskonfiguration verwendet werden.
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
 
@@ -63,7 +63,7 @@ Bei **externen Datenquellen** ist die maximale Anzahl von Aufrufen pro Sekunde a
 >
 >Wenn eine Datenquelle eine benutzerdefinierte Authentifizierung mit einem anderen Endpunkt als dem verwendet, der für die Datenquelle verwendet wird, müssen Sie sich an Adobe wenden, um diesen Endpunkt ebenfalls in die Zulassungsliste aufzunehmen.
 
-Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen API evaluieren. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungs- oder Einschränkungskonfiguration definieren, damit Ihr System nicht überlastet wird. [Erfahren Sie, wie Sie Aktionen konfigurieren](../action/action.md)
+Für **benutzerdefinierte Aktionen** müssen Sie die Kapazität Ihrer externen API evaluieren. Wenn Journey Optimizer beispielsweise 1.000 Aufrufe pro Sekunde sendet und Ihr System nur 100 Aufrufe pro Sekunde unterstützt, müssen Sie eine Begrenzungs- oder Drosselungskonfiguration definieren, damit Ihr System nicht überlastet wird. [Erfahren Sie, wie Sie Aktionen konfigurieren](../action/action.md)
 
 ## Zeitüberschreitung und erneute Versuche{#timeout}
 
