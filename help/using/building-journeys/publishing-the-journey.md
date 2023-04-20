@@ -12,7 +12,7 @@ exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Nachdem die Journey veröffentlicht wurde, ist sie schreibgeschützt.
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey rückgängig machen und sie erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 ## Anleitungsvideo {#video}
 
