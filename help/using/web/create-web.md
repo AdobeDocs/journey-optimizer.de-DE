@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -75,8 +75,8 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
->title="Erstellen von Seiten, die mit einer Regel übereinstimmen"
->abstract="Eine Seitenabgleichregel ermöglicht es, mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen - z. B. wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden möchten oder ein oberstes Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
+>title="Erstellen einer Matching-Regel für Seiten"
+>abstract="Eine Matching-Regel für Seiten macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn Sie die Änderungen an einem Hero banner auf einer gesamten Website anwenden möchten oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 
