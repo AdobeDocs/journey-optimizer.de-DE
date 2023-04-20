@@ -6,13 +6,13 @@ description: Erfahren Sie, wie man mit der Capping-API arbeitet.
 role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 100%
 
 ---
-
 
 # Arbeiten mit der Capping-API {#work}
 
@@ -129,7 +129,7 @@ Anwendungsfall 2: **Aktualisieren und Bereitstellen einer noch nicht bereitgeste
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 1. candeploy
 1. deploy
 
@@ -149,7 +149,7 @@ Anwendungsfall 5: **Aktualisieren einer bereits bereitgestellten Begrenzungskonf
 
 1. list
 1. get
-1. Aktualisieren
+1. update
 1. undeploy
 1. candeploy
 1. deploy
