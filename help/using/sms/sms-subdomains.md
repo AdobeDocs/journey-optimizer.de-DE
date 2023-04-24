@@ -8,9 +8,9 @@ level: Intermediate
 keywords: SMS, Subdomains, Konfiguration
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Delegieren einer SMS-Subdomain"
->abstract="Sie richten Ihre Subdomain für die Verwendung von SMS ein. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren."
+>abstract="Die Subdomain wird für die Verwendung für SMS eingerichtet. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"

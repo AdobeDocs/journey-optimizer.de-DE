@@ -8,7 +8,7 @@ level: Intermediate
 keywords: Landing, Landingpage, Subdomains, Konfiguration
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
 >title="Delegieren einer Subdomain der Landingpage"
->abstract="Sie richten Ihre Subdomain für die Verwendung einer Landingpage ein. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren."
+>abstract="Sie richten Ihre Subdomain für die Verwendung einer Landingpage ein. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
