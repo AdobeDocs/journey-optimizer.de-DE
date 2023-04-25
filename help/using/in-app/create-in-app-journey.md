@@ -1,6 +1,6 @@
 ---
 title: In-App-Benachrichtigung in einer Journey erstellen
-description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht erstellen.
+description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht
 feature: Overview
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 46%
 
 >[!AVAILABILITY]
 >
->Die In-App-Aktivität ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die In-App-Aktivität ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]** -Aktivität aus **[!UICONTROL Aktionen]** in der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
    Wenn ein Profil das Ende seiner Journey erreicht, laufen alle ihm angezeigten In-App-Nachrichten automatisch ab. Aus diesem Grund wird nach Ihrer In-App-Aktivität automatisch eine Warteaktivität hinzugefügt, um einen angemessenen Zeitpunkt zu gewährleisten.
 
    ![](assets/in_app_journey_1.png)
 
-1. Geben Sie einen **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** für Ihre Nachricht.
+1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
-1. Wählen Sie die [In-App-Oberfläche](inapp-configuration.md) verwendet werden.
+1. Wählen Sie die [In-App-Oberfläche](inapp-configuration.md) aus, die verwendet werden soll.
 
    ![](assets/in_app_journey_2.png)
 
 1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-in-app.md)
 
-1. Klicken **[!UICONTROL Trigger bearbeiten]** , um Ihren Trigger zu konfigurieren.
+1. Klicken Sie auf **[!UICONTROL Trigger bearbeiten]**, um Ihren Trigger zu konfigurieren.
 
    ![](assets/in_app_journey_4.png)
 
@@ -52,7 +52,7 @@ ht-degree: 46%
    1. Wählen Sie aus der rechten Dropdown-Liste die für das ausgewählte Ereignis erforderliche Validierung aus.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, wenn Sie möchten, dass der Auslöser mehrere Ereignisse oder Kriterien berücksichtigt. Wiederholen Sie dann die obigen Schritte.
    1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt, dass **einer** der Auslöser erfüllt ist.
-   1. Klicken **[!UICONTROL Speichern]** wenn Ihre Trigger konfiguriert wurden.
+   1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre Triggers konfiguriert sind.
 
    ![](assets/in_app_journey_3.png)
 
@@ -64,17 +64,17 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 ## Einschränkungen bei In-App-Aktivitäten {#in-app-activity-limitations}
 
-* Diese Funktion ist derzeit nicht für Kunden im Gesundheitswesen verfügbar.
+* Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
 
-* Die Personalisierung kann nur Profilattribute enthalten.
+* Personalisierung kann nur Profilattribute enthalten.
 
-* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn das Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieses Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
+* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
 
-* Im Testmodus hängt die Anzeige der App vom In-App-Journey ab. Um zu verhindern, dass der Journey während des Tests zu früh endet, passen Sie die **[!UICONTROL Wartezeit]** -Wert für **[!UICONTROL Warten]** Aktivitäten.
+* Im Testmodus hängt die Anzeige der App von der Journey-Lebensdauer ab. Um zu verhindern, dass die Journey während des Tests zu früh endet, passen Sie den **[!UICONTROL Wartezeit]**-Wert für Ihre **[!UICONTROL Warten]**-Aktivitäten an.
 
-* **[!UICONTROL Reaktion]** -Aktivitäten können nicht verwendet werden, um auf eine Öffnung oder einen Klick in der App zu reagieren.
+* **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
 
-* Eine Aktivierungsverzögerung tritt zwischen dem Zeitpunkt, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt auf, zu dem es diese In-App-Nachricht zu sehen beginnt. Diese Verzögerung kann zwischen 15 Minuten und 1 Stunde betragen.
+* Eine Aktivierungsverzögerung tritt zwischen dem Zeitpunkt, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt, auf. Diese Verzögerung kann zwischen 15 Minuten und 1 Stunde betragen.
 
 **Verwandte Themen:**
 

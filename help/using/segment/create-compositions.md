@@ -14,7 +14,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Sie können bis zu 75 Kompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizugeben und eine neue zu veröffentlichen.
+   >Sie können bis zu 75 Kompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
    Tritt während der Veröffentlichung ein Fehler auf, werden Warnhinweise mit Informationen zur Behebung des Problems angezeigt.
 

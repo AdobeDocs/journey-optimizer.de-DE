@@ -12,7 +12,7 @@ exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um den Preheader einer E-Mail zu definieren:
 
    ![](assets/preheader_body.png)
 
-1. Aus dem **[!UICONTROL Einstellungen]** auf das Personalisierungssymbol neben dem **[!UICONTROL Preheader]** -Feld zum Hinzufügen von Inhalt.
+1. Klicken Sie auf der Registerkarte **[!UICONTROL Einstellungen]** auf das Personalisieren-Symbol neben dem **[!UICONTROL Preheader]**, um Inhalte hinzuzufügen.
 
    ![](assets/preheader_body_settings.png)
 

@@ -10,19 +10,19 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Gestalten Ihrer In-App-Inhalte {#design-content}
 
-Sie können den In-App-Inhalt bearbeiten, um Erlebnisoptionen zu konfigurieren:
+Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren:
 
-* In **[!UICONTROL Kampagne]** aus der **[!UICONTROL Aktion]** Um den Nachrichteninhalt zu konfigurieren, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+* Klicken Sie in **[!UICONTROL Kampagne]** im Menü **[!UICONTROL Aktion]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Nachricht zu konfigurieren.
 
    ![](assets/edit-in-app-content.png)
 
-* In **[!UICONTROL Journey]** im erweiterten Menü Ihrer In-App-Nachricht **[!UICONTROL Aktion]**, können Sie mit der Erstellung Ihres Inhalts mit der **[!UICONTROL Inhalt bearbeiten]** Schaltfläche.
+* In einer **[!UICONTROL Journey]** können Sie im erweiterten Menü Ihrer In-App-Nachricht **[!UICONTROL Aktion]** mit der Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung des Inhalts beginnen.
 
    ![](assets/design_inapp_journey.png)
 

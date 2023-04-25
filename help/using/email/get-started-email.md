@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie [!DNL Journey Optimizer], um E-Mail-Nachrichten an Ihre Kunden zu 
 
 E-Mail-Sendungen können erstellt werden:
 
-* In **Journey**: nachdem Sie **[!UICONTROL Email]** -Aktivität auf Ihrer Journey und den definierten Grundeinstellungen verwenden Sie die **[!UICONTROL Aktionen: Email]** den Inhalt der Nachricht erstellen.
+* In einer **Journey**: Nachdem Sie eine **[!UICONTROL E-Mail]**-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die Nachricht zu erstellen.
 
    Weitere Informationen zur Konfiguration einer Journey fomdem Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 

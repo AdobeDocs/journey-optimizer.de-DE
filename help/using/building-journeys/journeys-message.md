@@ -12,13 +12,13 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # E-Mail, In-App, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachricht-Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
 1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Segment lesen](read-segment.md).
 
-1. Aus dem **Aktionen** Ziehen Sie einen **email**, und **In-App**, und **SMS** oder **Push** -Aktivität in die Arbeitsfläche.
+1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, eine **In-App**-, eine **SMS-** oder eine **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
 
 1. Konfigurieren Sie Ihre Aktivität. Auf den folgenden Seiten erfahren Sie, wie Sie Ihren Nachrichteninhalt erstellen:
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
    <a href="../in-app/create-in-app.md">
    <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
    </a>
-   <div><a href="../in-app/create-in-app.md"><strong>In-App-Nachrichten erstellen</strong>
+   <div><a href="../in-app/create-in-app.md"><strong>Erstellen von In-App-Nachrichten</strong>
    </div>
    <p>
    </td>
@@ -84,7 +84,7 @@ Sie können den Inhalt einer Nachricht (E-Mail, In-App, Push, SMS) in einer Live
 
 ![](assets/add-a-message2.png)
 
-Sie können jedoch die in der Personalisierung verwendeten Attribute nicht ändern, unabhängig davon, ob es sich um Profilattribute oder Kontextdaten handelt (aus Ereignis- oder Journey-Eigenschaften).
+Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
 
 Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgenommen werden können, während die Journey live ist. In-App-Trigger können jedoch nicht geändert werden.
 

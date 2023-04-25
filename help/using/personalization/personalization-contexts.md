@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn Sie eine E-Mail erstellen, können Sie im Fenster **[!UICONTROL Betreffzeil
 
 In E-Mail-Designer können Sie den Inhalt personalisieren:
 
-* Im **message**: Klicken Sie in einen Textblock und klicken Sie auf das **Personalisierung hinzufügen** in der dedizierten Symbolleiste. Weiterführende Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
+* In der **Nachricht**: Klicken Sie in einen Textblock und klicken Sie auf das Symbol **Personalisierung hinzufügen** in der kontextbezogenen Symbolleiste. Weiterführende Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

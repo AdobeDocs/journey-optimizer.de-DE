@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,21 +59,21 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
 1. Wählen Sie die Datei aus, die Sie hochladen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Hochladen]**. Weitere Informationen zum Verwalten von Assets finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=de).
 
-1. Um Ihre Assets mit Adobe Photoshop Express weiter zu bearbeiten, doppelklicken Sie auf die Assets. Wählen Sie dann im Kontextmenü die Option **[!UICONTROL Bearbeitungsmodus]** Symbol. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target="_blank"}.
+1. Um Ihre Assets mit Adobe Photoshop Express weiter zu bearbeiten, doppelklicken Sie auf die Assets. Klicken Sie dann im Kontextmenü auf das Symbol **[!UICONTROL Bearbeitungsmodus]**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=de){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. Von [!DNL Adobe Journey Optimizer], wählen Sie die **[!UICONTROL Asset-Auswahl]** im linken Bereich des E-Mail-Designers.
+1. Wählen Sie in [!DNL Adobe Journey Optimizer] im linken Bereich des E-Mail-Designers das Menü **[!UICONTROL Asset-Auswahl]** aus.
 
    ![](assets/media_library_5.png)
 
-1. Wählen Sie die zuvor erstellte **[!UICONTROL Assets]** Ordner. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
+1. Wählen Sie den zuvor erstellten **[!UICONTROL Assets]**-Ordner aus. Sie können auch in der Suchleiste nach Ihrem Asset oder Ordner suchen.
 
 1. Ziehen Sie Ihr Asset in den E-Mail-Inhalt.
 
    ![](assets/media_library_6.png)
 
-1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit der **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Registerkarten. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
+1. Sie können Ihre Assets weiter anpassen, z. B. indem Sie einen externen Link oder einen Text mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** hinzufügen. [Weitere Informationen zu Komponenteneinstellungen](content-components.md)
 
    ![](assets/media_library_13.png)
 

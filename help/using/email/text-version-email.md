@@ -12,7 +12,7 @@ exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Standardmäßig erstellt E-Mail-Designer eine **[!UICONTROL Nur-Text-Version]** 
 
 Wenn Sie lieber einen anderen Inhalt für die Nur-Text-Version verwenden, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie aus Ihrer E-Mail die **[!UICONTROL Nur Text]** Symbol.
+1. Wählen Sie in Ihrer E-Mail das Symbol **[!UICONTROL Nur Text]** aus.
 
    ![](assets/text_version_3.png)
 

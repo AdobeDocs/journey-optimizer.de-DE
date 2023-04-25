@@ -12,7 +12,7 @@ exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Wenn Sie in der Benutzeroberfläche von E-Mail-Designer ein Element auswählen u
 
 1. Wählen Sie in Ihrem Inhalt ein Element aus.
 
-1. Aus dem **[!UICONTROL Stile]** Registerkarte, suchen Sie nach der **[!UICONTROL Inline-Stile]** -Einstellungen unter **[!UICONTROL Erweitert]** Dropdown-Liste.
+1. Suchen Sie auf der Registerkarte **[!UICONTROL Stile]** nach der Einstellung **[!UICONTROL Inline-Stile]** im Dropdown-Menü **[!UICONTROL Erweitert]**.
 
    ![](assets/styles_1.png)
 

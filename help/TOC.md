@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ ht-degree: 98%
    + Gestalten von E-Mail-Inhalten {#design-email}
       + [Erste Schritte beim Gestalten von E-Mails](using/email/get-started-email-design.md)
       + Erstellen von Inhalten {#start-creating-content}
-         + [Neuen Inhalt erstellen](using/email/content-from-scratch.md)
+         + [Inhalte von Grund auf gestalten](using/email/content-from-scratch.md)
          + [Importieren von Content](using/email/existing-content.md)
          + [Programmieren von eigenem Inhalt](using/email/code-content.md)
          + [Arbeiten mit Vorlagen](using/email/email-templates.md)
@@ -205,7 +205,7 @@ ht-degree: 98%
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
-   + [In-App-Nachricht in einer Journey erstellen](using/in-app/create-in-app-journey.md)
+   + [Erstellen einer In-App-Nachricht in einer Journey](using/in-app/create-in-app-journey.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
    + [Testen und Senden von In-App-Benachrichtigung](using/in-app/send-in-app.md)
    + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
@@ -217,7 +217,7 @@ ht-degree: 98%
    + Konfigurieren von Push-Benachrichtigungen{#push-config}
       + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
       + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
-      + [Schnellstart-Workflow für die Mobile-Integration](using/push/mobile-onboarding-wf.md)
+      + [Schnellstart-Workflow für Mobile-Onboarding](using/push/mobile-onboarding-wf.md)
 + SMS-Kanal{#sms}
    + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)

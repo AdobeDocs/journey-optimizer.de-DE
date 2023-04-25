@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push-Benachrichtigungsfluss in Adobe Journey Optimizer
+title: Fluss von Push-Benachrichtigungen in Adobe Journey Optimizer
 description: Datenfluss und Komponenten von Push-Benachrichtigungen
 topic: Mobile
 feature: Push
@@ -11,13 +11,13 @@ exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 87%
+ht-degree: 93%
 
 ---
 
 # Datenfluss und Komponenten von Push-Benachrichtigungen {#get-started-push}
 
-Auf dieser Seite erfahren Sie, wie Sie wichtige Dienste und Workflows einrichten und verstehen, die mit Push-Benachrichtigungen in in [!DNL Journey Optimizer].
+Diese Seite hilft Ihnen, wichtige Services und Workflows einzurichten und zu verstehen, die mit Push-Benachrichtigungen in [!DNL Journey Optimizer] verbunden sind.
 
 
 >[!AVAILABILITY]
@@ -45,7 +45,7 @@ Aus der Sicht eines End-to-End-Service zeigt die folgende Abbildung die beteilig
 1. Push-Benachrichtigungen werden an Endbenutzergeräte gesendet.
 1. Push-Benachrichtigungs-Interaktionen für Endbenutzer werden über die SDK-Integration als Erlebnisereignisse vom Endbenutzer-Client gesendet.
 
-## Rollen von Schlüsseldiensten in Push-Benachrichtigungen {#roles-of-key-services}
+## Rollen von wichtigen Services in Push-Benachrichtigungen {#roles-of-key-services}
 
 * **Push-Benachrichtigungs-Service-Anbieter** sind die Kernkomponenten-Webservices, die Benachrichtigungen von Remote-Servern an Mobile Apps senden.
 

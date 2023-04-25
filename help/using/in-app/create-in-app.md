@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer In-App-Benachrichtigung
-description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht erstellen.
+description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht
 feature: Overview
 topic: Content Management
 role: User
@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ In-App-Nachrichten werden im Kontext einer Kampagne erstellt.
 
 >[!BEGINTABS]
 
->[!TAB In-App-Nachricht zu einer Journey hinzufügen]
+>[!TAB Hinzufügen einer In-App-Nachricht zu einer Journey]
 
 >[!AVAILABILITY]
 >
->Die In-App-Aktivität ist derzeit als Beta-Version verfügbar, über die nur Benutzer ausgewählt werden können. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die In-App-Aktivität ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]** -Aktivität aus **[!UICONTROL Aktionen]** in der Palette.
+1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
    Wenn ein Profil das Ende seiner Journey erreicht, laufen alle ihm angezeigten In-App-Nachrichten automatisch ab. Aus diesem Grund wird nach Ihrer In-App-Aktivität automatisch eine Warteaktivität hinzugefügt, um einen angemessenen Zeitpunkt zu gewährleisten.
 
    ![](assets/in_app_journey_1.png)
 
-1. Geben Sie einen **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** für Ihre Nachricht.
+1. Geben Sie einen **[!UICONTROL Titel]** und eine **[!UICONTROL Beschreibung]** für Ihre Nachricht ein.
 
-1. Wählen Sie die [In-App-Oberfläche](inapp-configuration.md) verwendet werden.
+1. Wählen Sie die [In-App-Oberfläche](inapp-configuration.md) aus, die verwendet werden soll.
 
    ![](assets/in_app_journey_2.png)
 
 1. Sie können jetzt über die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung Ihrer Inhalte beginnen. [Weitere Informationen](design-in-app.md)
 
-1. Klicken **[!UICONTROL Trigger bearbeiten]** , um Ihren Trigger zu konfigurieren.
+1. Klicken Sie auf **[!UICONTROL Trigger bearbeiten]**, um Ihren Trigger zu konfigurieren.
 
    ![](assets/in_app_journey_4.png)
 
@@ -56,7 +56,7 @@ In-App-Nachrichten werden im Kontext einer Kampagne erstellt.
    1. Wählen Sie aus der rechten Dropdown-Liste die für das ausgewählte Ereignis erforderliche Validierung aus.
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Hinzufügen]**, wenn Sie möchten, dass der Auslöser mehrere Ereignisse oder Kriterien berücksichtigt. Wiederholen Sie dann die obigen Schritte.
    1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt, dass **einer** der Auslöser erfüllt ist.
-   1. Klicken **[!UICONTROL Speichern]** wenn Ihre Trigger konfiguriert wurden.
+   1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Ihre Triggers konfiguriert sind.
 
    ![](assets/in_app_journey_3.png)
 
@@ -66,7 +66,7 @@ In-App-Nachrichten werden im Kontext einer Kampagne erstellt.
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
->[!TAB In-App-Nachricht zu einer Kampagne hinzufügen]
+>[!TAB Hinzufügen einer In-App-Nachricht zu einer Kampagne]
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 

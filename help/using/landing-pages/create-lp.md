@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -209,15 +209,15 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
 
-1. Klicken Sie in der Landingpage auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** -Schaltfläche, um auf die Auswahl des Testprofils zuzugreifen.
+1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um zur Testprofil-Auswahl zu gelangen.
 
    ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL Inhalt simulieren]** -Schaltfläche kann auch über den Inhaltsdesigner aufgerufen werden.
+   >Die Schaltfläche **[!UICONTROL Inhalt simulieren]** kann auch über den Content Designer aufgerufen werden.
 
-1. Aus dem **[!UICONTROL Simulieren]** ein oder mehrere Testprofile aus.
+1. Wählen Sie auf dem Bildschirm **[!UICONTROL Vorschau und Test]** ein oder mehrere Testprofile aus.
 
    ![](assets/lp_test-profiles.png)
 
