@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -85,9 +85,9 @@ Gehen Sie wie folgt vor, um eine Briefpostnachricht zu erstellen und zu senden:
 
 1. Wiederholen Sie diese Schritte, um so viele Spalten wie nötig hinzuzufügen, um Ihre Extraktionsdatei zu erstellen. Beachten Sie, dass Sie bis zu 50 Spalten hinzufügen können.
 
-   ![](assets/direct-mail-complete.png)
-
    Sie können eine Spalte jederzeit löschen, indem Sie sie auswählen und im Abschnitt **[!UICONTROL Formatierung]** auf die Schaltfläche **[!UICONTROL Entfernen]** klicken.
+
+   ![](assets/direct-mail-complete.png)
 
 1. Sobald der Inhalt der Briefpost definiert worden ist, stellen Sie die Konfiguration Ihrer Kampagne fertig.
 
