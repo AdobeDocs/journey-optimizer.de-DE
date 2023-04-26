@@ -50,7 +50,6 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >[!DNL Journey Optimizer] erstellt die Rangfolge von Angeboten anhand der **Konversionsrate** (Konversionsrate = Gesamtanzahl der Konversionsereignisse / Gesamtzahl der Impression-Ereignisse). Die Konversionsrate wird anhand von zwei Metriktypen berechnet:
    >* **Impression-Ereignisse** (angezeigte Angebote)
    >* **Konversionsereignisse** (Angebote per E-Mail oder im Web, die zu Klicks führen).
-
    >
    >Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst. Weiterführende Informationen dazu finden Sie in der [Übersicht über das Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de).
 
