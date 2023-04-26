@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 68%
 
 ---
 
@@ -29,6 +29,14 @@ Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die 
 * Verbessern Sie das Kundenerlebnis, indem Sie personalisierte und dynamische Nachrichten auf der Basis ihrer Kundenprofil-Attribute erstellen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
+
+## Best Practices bei der Erstellung von E-Mails {#best-practices}
+
+Beim Versand von E-Mails ist es wichtig zu beachten, dass die Empfänger sie weiterleiten können, was manchmal Probleme mit dem Rendering der E-Mail verursachen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, der für die Weiterleitung verwendet wird, möglicherweise nicht unterstützt werden, z. B. wenn Sie die CSS-Klasse &quot;ist-Desktop-ausgeblendet&quot;verwenden, um ein Bild auf Mobilgeräten auszublenden.
+
+Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent gerendert werden, unabhängig davon, wie sie von Empfängern angezeigt oder weitergeleitet werden.
+
+## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 
 Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.md) haben, können Sie mit der Erstellung Ihres E-Mail-Inhalts beginnen.
 
