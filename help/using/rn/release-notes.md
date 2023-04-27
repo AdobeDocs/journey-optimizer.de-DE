@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Frühzeitige Versionshinweise vom April 2023 {#apr-e-rn-2023}
+## Frühzeitige Versionshinweise April 2023 {#apr-e-rn-2023}
 
 Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröffentlichung ohne vorherige Ankündigung geändert werden. Die aktualisierte Dokumentation wird am Veröffentlichungsdatum veröffentlicht und auf dieser Seite werden direkte Links hinzugefügt.
 
-**** Veröffentlichungsdatum: 27. April 2023
+**Veröffentlichungsdatum**: 27. April 2023
 
 ### Neue Funktionen{#apr-2023-features}
 
@@ -34,13 +34,13 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <table>
 <thead>
 <tr>
-<th><strong>Webkanal (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>Web-Kanal (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer erweitert seine kanalübergreifenden Funktionen durch die Unterstützung von Webkanälen. Sie können jetzt Web-Erlebnisse wie andere Kanäle über eine intelligente und intuitive visuelle Benutzeroberfläche erstellen, ändern und in der Vorschau anzeigen, um die Benutzererfahrung zu personalisieren. Beachten Sie, dass Sie derzeit in Journey Optimizer nur Web-Erlebnisse in Kampagnen erstellen können.</p>
+<p>Adobe Journey Optimizer erweitert seine kanalübergreifenden Funktionen durch die Unterstützung des Web-Kanals. Sie können jetzt Web-Erlebnisse wie andere Kanäle über eine intelligente und intuitive visuelle Benutzeroberfläche erstellen, ändern und in der Vorschau anzeigen, um die Endbenutzererfahrung zu personalisieren. Beachten Sie, dass Sie derzeit in Journey Optimizer nur Web-Erlebnisse in Kampagnen erstellen können.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -51,13 +51,13 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <table>
 <thead>
 <tr>
-<th><strong>Schnellstart-Workflow für das mobile Onboarding (Beta)</strong><br/></th>
+<th><strong>Schnellstart-Workflow für Mobile-Onboarding (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der neue Schnellstart-Workflow für das mobile Onboarding ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobilereignisdaten beginnt und Push-Benachrichtigungen für Mobilgeräte mit Adobe Journey Optimizer sendet. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden.</p>
+<p>Der neue Schnellstart-Workflow für Mobile-Onboarding ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobilereignisdaten beginnt und Push-Benachrichtigungen für Mobilgeräte mit Adobe Journey Optimizer sendet. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>Weitere Informationen finden Sie in der <a href="../push/mobile-onboarding-wf.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -75,9 +75,9 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <tr>
 <td>
 <p> Das Journey-Dashboard ist nun in zwei Registerkarten unterteilt:</p>
-<ul><li>Verwenden Sie die <strong>Übersicht</strong> auf ein neues Dashboard zuzugreifen, das wichtige Metriken zu Ihren Journey anzeigt.</li>
-<li>Verwenden Sie die <strong>Durchsuchen</strong> -Tab, um auf die Liste aller Journey zuzugreifen.</li></ul>
-<p>Diese Funktion ist in allen Journey als öffentliche Beta-Version verfügbar.</p>
+<ul><li>Verwenden Sie die <strong>Übersicht</strong>, um auf ein neues Dashboard zuzugreifen, das wichtige Metriken zu Ihren Journeys anzeigt.</li>
+<li>Verwenden Sie die Registerkarte <strong>Durchsuchen</strong>, um auf die Liste aller Journeys zuzugreifen.</li></ul>
+<p>Diese Funktion ist in allen Journeys als öffentliche Beta-Version verfügbar.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
@@ -107,13 +107,13 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 **Journeys**
 
-* Auf der Arbeitsfläche &quot;Journey&quot;wird nun die Aktivitäts-ID auf Aktionsknoten und Endtags angezeigt. Dies verbessert die Berichterstellung und das Retargeting.
-* Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journey angezeigt wird, wurde verbessert.
-* Journey wurden neue Limits hinzugefügt:
+* Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Aktionsknoten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
+* Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
+* Es wurden neue Leitlinien für Journeys hinzugefügt:
    * Die Anzahl der Knoten in einer Journey ist jetzt auf maximal 50 begrenzt.
-   * Die Anzahl der Live-Journey in einer Organisation ist jetzt auf maximal 100 begrenzt. Journey im Testmodus werden nicht berücksichtigt.
+   * Die Anzahl der Live-Journeys in einer Organisation ist jetzt auf maximal 100 begrenzt. Journeys im Testmodus werden nicht berücksichtigt.
 
-* Beim Hinzufügen einer E-Mail-, SMS- oder Push-Aktion zu einem Journey ist die Oberfläche jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
+* Beim Hinzufügen einer E-Mail-, SMS- oder Push-Aktion zu einer Journey ist die Oberfläche jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren.
 
 **Reporting**
@@ -122,11 +122,11 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 **Content Designer**
 
-* Der Adobe Journey Optimizer Content Designer wurde aktualisiert und der Zugriff auf Designstile und Komponenten ist jetzt einfacher. Diese neue Version bietet ein verbessertes Benutzererlebnis und bietet verbesserte Leistung, teilweise Kompatibilität im Dunkelmodus und neue Unterstützung für Barrierefreiheitsstandards.
+* Adobe Journey Optimizer Content Designer wurde aktualisiert und der Zugriff auf Design-Stile und -Komponenten ist jetzt einfacher. Diese neue Version bietet ein verbessertes Benutzererlebnis und verbesserte Leistung, teilweise Kompatibilität im Dunkelmodus und neue Unterstützung für Barrierefreiheitsstandards.
 
 
 
-## Versionshinweise vom März 2023 {#mar-2023}
+## März 2023 – Versionshinweise {#mar-2023}
 
 ### Neue Funktionen{#mar-2023-features}
 
@@ -222,7 +222,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
    Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der [entsprechenden Dokumentation](../reports/global-report.md#modify-dashboard).
 
-## Versionshinweise für Februar 2023 {#feb-2023}
+## Februar 2023 – Versionshinweise {#feb-2023}
 
 ### Neue Funktionen{#feb-2023-features}
 
@@ -350,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL-Personalisierung** – Beim Hinzufügen von URLs als Inhalt zu den Darstellungen von Angeboten können diese URLs jetzt mit dem Ausdruckseditor personalisiert werden. [Weitere Informationen](../offers/offer-library/add-representations.md)
 
-## Versionshinweise Januar 2023{#jan-2023-release}
+## Januar 2023 – Versionshinweise{#jan-2023-release}
 
 ### Neue Funktionen{#jan-2023-features}
 

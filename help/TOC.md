@@ -295,7 +295,7 @@ ht-degree: 99%
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
-      + [Campaign Live-Bericht](using/reports/campaign-live-report.md)
+      + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
