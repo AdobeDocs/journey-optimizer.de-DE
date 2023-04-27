@@ -12,15 +12,15 @@ hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Schnellstart-Workflow für Mobile-Onboarding {#mobile-wf}
 
-Die neue **Schnellstartworkflow für mobile Onboarding** ist eine neue Produktfunktion, mit der das Adobe Experience Platform Mobile SDK schnell konfiguriert, mit der Erfassung und Validierung von Mobilereignisdaten begonnen und Push-Benachrichtigungen mit [!DNL Journey Optimizer].
+Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist eine neue Produktfunktion, die dazu dient, das Mobile SDK schnell zu konfigurieren, mit dem Erfassen und Überprüfen von Mobile-Ereignisdaten zu beginnen und Push-Benachrichtigungen mit [!DNL Journey Optimizer] zu senden.
 
 Diese Funktion ist als eine öffentliche Beta-Version über die **[!DNL Adobe Experience Platform Data Collection]**-Startseite für alle Kunden verfügbar.
 
@@ -35,8 +35,8 @@ Navigieren Sie vom Lösungsumschalter aus zum neuen Schnellstart-Workflow für d
 Im Folgenden finden Sie einige zusätzliche Funktionen:
 
 * Einfacher, vierstufiger Workflow und Benutzeroberfläche.
-* Stellt eine grundlegende Einrichtung bereit, um mit der Erfassung mobiler Ereignisdaten über die [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in Minuten.
-* Möglichkeit zum Testen und Validieren eines einfachen mobilen Push-Ereignisses mithilfe von [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+* Sie bietet eine grundlegende Einrichtung, um in Minutenschnelle mit der Erfassung von Mobile-Ereignisdaten über das [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} zu beginnen.
+* Möglichkeit zum Testen und Validieren eines einfachen mobilen Push-Ereignisses mithilfe von [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=de){target="_blank"}.
 * Erstellt und konfiguriert automatisch alle erforderlichen Datenerfassungs- und Journey Optimizer-Assets.
 * In Produktanleitungen und QuickInfos.
 * Bietet bei Bedarf einen natürlichen Übergang für eine erweiterte Implementierung.
