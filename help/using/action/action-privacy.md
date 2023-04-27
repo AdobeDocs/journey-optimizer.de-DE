@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Weitere Informationen zum Verwalten von Richtlinien finden Sie in dieser [Dokume
 Nehmen wir das Beispiel des Feldes „Blutgruppe“, das Sie als sensibel kennzeichnen und vor dem Export an Drittanbieter schützen müssen. Hierzu sind folgende Schritte notwendig:
 
 1. Klicken Sie im linken Menü unter **Datenschutz** auf **Richtlinien**.
-   ![](assets/action-privacy0.png)
 1. Wählen Sie die Registerkarte **Bezeichnungen** und klicken Sie auf **Bezeichnung erstellen**.
    ![](assets/action-privacy1.png)
 1. Legen Sie einen Namen und einen Anzeigenamen für die Bezeichnung fest. Beispiel: _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. Klicken Sie im linken Menü unter **Daten-Management** auf **Schemata** und dann auf die Schaltfläche **Anwenden von Zugriffs- und Data Governance-Beschriftungen**. Wählen Sie Ihr Schema und Ihr Feld (hier „Blutgruppe“) sowie die zuvor erstellte Bezeichnung, in unserem Beispiel _ePHI1_, aus.
    ![](assets/action-privacy3.png)
 1. Gehen Sie zurück zum Menü **Richtlinien**, wählen Sie die Registerkarte **Marketing-Aktion** und klicken Sie auf **Marketing-Aktion erstellen**. Es wird empfohlen, für jede benutzerdefinierte Aktion eines Drittanbieters, die in Ihren Journeys verwendet wird, eine Marketing-Aktion zu erstellen. Erstellen wir beispielsweise eine _Slack-Marketing-Aktion_, die für Ihre benutzerdefinierte Slack-Aktion verwendet wird.

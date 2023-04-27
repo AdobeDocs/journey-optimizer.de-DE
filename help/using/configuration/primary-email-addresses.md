@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ändern von primären E-Mail-Adressen
+title: Ausführungsadressen ändern
 description: Erfahren Sie, wie Sie im Profil-Service bestimmen, welche E-Mail-Adresse verwendet werden soll.
 feature: Application Settings
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: primär, Ausführung, E-Mail, Zielgruppe, Profil, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 46%
 
 ---
 
-# Ändern von primären Adressen {#change-primary-email}
+# Ausführungsadressen ändern {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,13 +30,25 @@ ht-degree: 100%
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen oder Telefonnummern zur Verfügung (berufliche E-Mail-Adresse, persönliche Telefonnummer usw.).
 
-Mit [!DNL Journey Optimizer] kann über den Profil-Service bestimmt werden, welche E-Mail-Adresse oder Telefonnummer verwendet werden soll, und es können Prioritäten gesetzt werden, wenn mehrere Adressen verfügbar sind. Gehen Sie dazu wie folgt vor.
+In diesem Fall [!DNL Journey Optimizer] uses **[!UICONTROL Ausführungsfelder]** , um zu bestimmen, welche E-Mail-Adresse oder Telefonnummer vorrangig vom Profildienst verwendet werden soll.
+
+Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie die **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]** Menü.
+
+![](assets/primary-address-execution-fields.png)
+
+Die aktuellen Werte werden für alle Sendungen auf Sandbox-Ebene verwendet. Sie können diese Felder bei Bedarf aktualisieren.
+
+In den meisten Fällen ändern Sie ein Ausführungsfeld global und definieren einen Wert, der für alle E-Mail- oder SMS-Nachrichten verwendet werden soll. <!--[Learn how](#admin-settings)-->
+
+<!--In some specific use cases only, you can override the value set globally and define a different value at the journey level. [Learn more](#journey-parameters)-->
+
+## Aktualisierung der Administrationseinstellungen {#admin-settings}
+
+Gehen Sie wie folgt vor, um die Ausführungsfelder global auf Sandbox-Ebene zu ändern.
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]**.
 
-   ![](assets/primary-address-execution-fields.png)
-
-1. Die Felder, die derzeit standardmäßig zur Bestimmung der E-Mail-Adresse und Telefonnummer des Profils verwendet werden, werden auf diesem Bildschirm angezeigt. Auf **[!UICONTROL Bearbeiten]** klicken, um sie zu ändern.
+1. Klicken **[!UICONTROL Bearbeiten]** , um die Standardwerte zu ändern.
 
    ![](assets/primary-address.png)
 
@@ -53,3 +65,22 @@ Mit [!DNL Journey Optimizer] kann über den Profil-Service bestimmt werden, welc
 Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
+
+## Wert in Journey-Parametern überschreiben {#journey-parameters}
+
+Nur für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren, insbesondere für den E-Mail-Kanal.
+
+Beim Hinzufügen von **[!UICONTROL Email]** einer Aktion [Journey](../email/create-email.md#create-email-journey-campaign), wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
+
+In bestimmten Kontexten können Sie diesen Wert mithilfe der Variablen **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem **[!UICONTROL Adresse]** -Feld.
+
+![](assets/journey-enable-parameter-override.png)
+
+>[!CAUTION]
+>
+>Das Überschreiben von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der Wert, der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** definiert ist, derjenige ist, der verwendet werden sollte.
+
+Das Außerkraftsetzen dieses Werts kann beispielsweise für Folgendes nützlich sein:
+
+* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen: Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Senden Sie eine E-Mail an die Abonnenten einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).

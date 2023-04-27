@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ Inhalt dieser Dokumentation:
 
 >[!AVAILABILITY]
 >
->Die Komposition einer Audience ist derzeit nur als private Beta-Version verfügbar und kann ohne vorherige Ankündigung regelmäßig aktualisiert werden. Die Beta-Version wird auf der Ebene der IMS-Organisation bereitgestellt, was bedeutet, dass sie sich auf alle Sandboxes in Ihrem Unternehmen auswirkt.
+>Die Komposition einer Audience ist derzeit nur als private Beta-Version verfügbar und kann ohne vorherige Ankündigung regelmäßig aktualisiert werden. Die Beta-Version wird auf Unternehmensebene bereitgestellt, was bedeutet, dass sie sich auf alle Sandboxes in Ihrem Unternehmen auswirkt.
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 

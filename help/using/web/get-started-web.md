@@ -5,61 +5,77 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 53%
 
 ---
 
 # Erste Schritte mit dem Web-Kanal {#get-sarted-web}
 
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* **[Erste Schritte mit dem Web-Kanal](get-started-web.md)**
-* [Erstellen von Web-Erlebnissen](create-web.md)
-* [Verfassen von Web-Seiten](author-web.md)
-* [Visual Editing Helper-Erweiterung](visual-editing-helper.md)
-* [Web-Berichte](web-report.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Die Web-Kanal-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar.
+>Diese Funktion ist nur mit der Funktion [!DNL Adobe Journey Optimizer] **Prime** und **Ultimate** [packages](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
 [!DNL Journey Optimizer] ermöglicht Ihnen, für Ihre Kundinnen und Kunden personalisierte Web-Erlebnisse visuell zu erstellen und bereitzustellen.
 
 Wenn Sie bereits ausgehende Kanäle wie E-Mail, SMS oder Push-Benachrichtigungen verwenden, können Sie jetzt den eingehenden Web-Kanal nutzen, um ein wirklich personalisiertes Erlebnis zu bieten, das sich über alle Kanäle erstreckt.
 
+Über eine intuitive visuelle Benutzeroberfläche können Sie mit dieser Funktion Ihre Web-Eigenschaften einfach ändern, um Ihre Endbenutzerkampagnen zu testen, zu optimieren und zu personalisieren.
+
 >[!CAUTION]
 >
 >Derzeit können Sie Web-Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellen. 
 
-Über eine intuitive visuelle Benutzeroberfläche können Sie mit dieser Funktion Ihre Web-Eigenschaften einfach ändern, um Ihre Endbenutzerkampagnen zu testen, zu optimieren und zu personalisieren.
+Nachdem Sie eine Kampagne erstellt haben, wählen Sie **Web** als Aktion definieren und grundlegende Einstellungen definieren. Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
-<!--
-[Learn more on web channel in this video](#video)
--->
+>[!NOTE]
+>
+>Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die unter [diesem Abschnitt](web-prerequisites.md).
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-web.md">Erstellen von Web-Erlebnissen</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="author-web.md">Verfassen von Web-Seiten</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="web-report.md">Web-Berichte</a></p></td>
-</tr>
-</table>
+Die detaillierten Schritte zum Erstellen einer Webkampagne finden Sie in [dieses Video](create-web.md#video).
 
-<!--
-## How-to video{#video}
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="web-prerequisites.md">
+<img alt="Lead" src="../assets/do-not-localize/web-prerequisites.jpg">
+</a>
+<div><a href="web-prerequisites.md"><strong>Voraussetzungen</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-web.md">
+<img alt="Gelegentlich" src="../assets/do-not-localize/web-create.jpg">
+</a>
+<div>
+<a href="create-web.md"><strong>Weberfahrung erstellen</strong></a>
+</div>
+<p></td>
+<td>
+<a href="author-web.md">
+<img alt="Validierung" src="../assets/do-not-localize/web-design.jpg">
+</a>
+<div>
+<a href="author-web.md"><strong>Verfassen von Web-Seiten</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/campaign-global-report.md#web-tab.md">
+<img alt="Validierung" src="../assets/do-not-localize/web-reporting.jpg">
+</a>
+<div>
+<a href="../reports/campaign-global-report.md#web-tab"><strong>Reporting</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
-The video below shows how to 
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] Webkampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der interagierbaren Profile, was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen interagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie im Abschnitt [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html) Seite.
 
->[!VIDEO]()
--->
+

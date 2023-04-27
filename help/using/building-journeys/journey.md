@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,11 @@ Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 * Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
 * Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität zum Lesen von Segmenten in den Arbeitsbereich, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+
+
+>[!NOTE]
+>
+>Journey-Limits und Einschränkungen werden im Abschnitt [diese Seite](../start/guardrails.md)
 
 ## Schritte zum Erstellen einer Journey{#steps-journey}
 
@@ -98,7 +103,3 @@ Ab dem Zeitpunkt der Veröffentlichung der Journey nehmen Kontakte an der neuen 
 Journey-Versionen können einzeln gestoppt werden. Alle Versionen von Journeys haben denselben Namen.
 
 Wenn Sie eine neue Version einer Journey veröffentlichen, endet die vorherige Version automatisch und wechselt in den Status **Geschlossen**. Es kann kein Eintritt in die Journey stattfinden. Selbst wenn Sie die aktuelle Version stoppen, bleibt die vorherige Version geschlossen.
-
->[!NOTE]
->
->Weitere Informationen zu den Schutzmechanismen und Einschränkungen von Journey-Versionen finden Sie auf [dieser Seite](../start/guardrails.md#journey-versions-limitations)

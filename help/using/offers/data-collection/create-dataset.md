@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 71%
 
 ---
 
@@ -20,11 +20,9 @@ Um Erlebnisereignisse zu erfassen, müssen Sie zunächst einen Datensatz erstell
 
 Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 
-1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
+1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Schema]** und gehen Sie zu **[!UICONTROL Durchsuchen]** Registerkarte.
 
-   ![](../assets/ai-ranking-create-schema.png)
-
-1. Wählen Sie **[!UICONTROL XDM ExperienceEvent]** aus.
+1. Klicken **[!UICONTROL Schema erstellen]** und wählen Sie **[!UICONTROL XDM ExperienceEvent]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -36,20 +34,15 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. Geben Sie im Feld **[!UICONTROL Suche]** „Interaktion mit Vorschlägen“ ein und wählen Sie die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aus.
+1. Im **[!UICONTROL Suche]** Geben Sie &quot;Interaktion mit Vorschlägen&quot;ein.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+1. Wählen Sie die **[!UICONTROL Erlebnisereignis - Interaktionen bei Vorschlägen]** Feldergruppe und klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
+
+   ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
    >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrer Rangfolgestrategie verwenden.
-
-1. Klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
-
-   ![](../assets/ai-ranking-add-field-group.png)
-
-   >[!NOTE]
-   >Die Feldergruppen wurden früher als Mixins bezeichnet.
 
 1. Geben Sie einen Namen ein und speichern Sie das Schema.
 
@@ -59,19 +52,13 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 
-1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus, wechseln Sie zur Registerkarte **[!UICONTROL Durchsuchen]** und klicken Sie auf **[!UICONTROL Datensatz erstellen]**.
+1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Datensätze]** und gehen Sie zu **[!UICONTROL Durchsuchen]** Registerkarte.
 
-   ![](../assets/ai-ranking-create-dataset.png)
-
-1. Wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
+1. Klicken **[!UICONTROL Datensatz erstellen]** und wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Wählen Sie das soeben erstellte Schema aus der Liste aus.
-
-   ![](../assets/ai-ranking-dataset-select-schema.png)
-
-1. Klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie das soeben erstellte Schema aus der Liste aus und klicken Sie auf **[!UICONTROL Nächste]**.
 
 1. Geben Sie im Feld **[!UICONTROL Name]** einen eindeutigen Namen für den Datensatz ein und klicken Sie auf **[!UICONTROL Beenden]**.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,10 @@ Sie können den Inhalt einer Nachricht (E-Mail, In-App, Push, SMS) in einer Live
 ![](assets/add-a-message2.png)
 
 Sie können jedoch nicht die Attribute ändern, die bei der Personalisierung verwendet wurden, egal, ob es sich um Profilattribute oder kontextuelle Daten (aus Ereignis- oder Journey-Eigenschaften) handelt.
+
+Wenn Sie Kontextdaten geändert haben, wird die folgende Fehlermeldung angezeigt: ERR_AUTHORING_JOURNEYVERSION_201
+
+Wenn Sie Profilattribute geändert haben, wird die folgende Fehlermeldung angezeigt: ERR_AUTHORING_JOURNEYVERSION_202
 
 Beachten Sie, dass für die In-App-Aktivität alle Änderungen am Inhalt vorgenommen werden können, während die Journey live ist. In-App-Trigger können jedoch nicht geändert werden.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ Die Leistung betreffende Leitplanken und statische Beschränkungen für das Deci
 
 ## Schutzmaßnahmen bei Journeys {#journeys-guardrails}
 
+### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
+
+* Die Anzahl der Aktivitäten in einer Journey ist auf 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
+* Die Anzahl der **Live-Journey** in einer Organisation auf 100 pro Sandbox beschränkt. Wenn diese Grenze erreicht ist, können Sie keine neue Journey mehr veröffentlichen.
+
 ### Allgemeine Aktionen {#general-actions-g}
 
 * Es gibt keine Nachrichtendrosselung beim Versand.
@@ -67,6 +72,7 @@ Die Leistung betreffende Leitplanken und statische Beschränkungen für das Deci
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.
+* Integrierte benutzerdefinierte Aktionen können nicht entfernt werden.
 
 ### Ereignisse {#events-g}
 
@@ -99,5 +105,6 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ### Ausdruckseditor {#expression-editor}
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen.
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen. Sie müssen ein neues Segment erstellen und eine Segmentbedingung in der Journey verwenden.
+
 

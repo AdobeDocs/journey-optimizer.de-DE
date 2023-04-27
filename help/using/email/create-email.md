@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Fügen Sie einer Journey oder einer Kampagne eine **[!UICONTROL E-Mail]**-Aktion
 
    ![](assets/email_journey.png)
 
-<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   Das Feld wird standardmäßig mit der letzten Oberfläche ausgefüllt, die der Benutzer für diesen Kanal verwendet hat.
 
 >[!NOTE]
 >

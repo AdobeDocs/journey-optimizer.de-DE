@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 94%
 
 ---
 
@@ -24,9 +24,9 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ## Frühzeitige Versionshinweise April 2023 {#apr-e-rn-2023}
 
-Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröffentlichung ohne vorherige Ankündigung geändert werden. Die aktualisierte Dokumentation wird am Veröffentlichungsdatum veröffentlicht und auf dieser Seite werden direkte Links hinzugefügt.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Veröffentlichungsdatum**: 27. April 2023
+**Release date**: April 27, 2023-->
 
 ### Neue Funktionen{#apr-2023-features}
 
@@ -42,7 +42,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <td>
 <p>Adobe Journey Optimizer erweitert seine kanalübergreifenden Funktionen durch die Unterstützung des Web-Kanals. Sie können jetzt Web-Erlebnisse wie andere Kanäle über eine intelligente und intuitive visuelle Benutzeroberfläche erstellen, ändern und in der Vorschau anzeigen, um die Endbenutzererfahrung zu personalisieren. Beachten Sie, dass Sie derzeit in Journey Optimizer nur Web-Erlebnisse in Kampagnen erstellen können.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../web/get-started-web.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Neues Journey-Dashboard (Beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Das Journey-Dashboard ist nun in zwei Registerkarten unterteilt:</p>
-<ul><li>Verwenden Sie die <strong>Übersicht</strong>, um auf ein neues Dashboard zuzugreifen, das wichtige Metriken zu Ihren Journeys anzeigt.</li>
-<li>Verwenden Sie die Registerkarte <strong>Durchsuchen</strong>, um auf die Liste aller Journeys zuzugreifen.</li></ul>
-<p>Diese Funktion ist in allen Journeys als öffentliche Beta-Version verfügbar.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 **Journeys**
 
-* Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Aktionsknoten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
+* Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und Endtags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
 * Es wurden neue Leitlinien für Journeys hinzugefügt:
-   * Die Anzahl der Knoten in einer Journey ist jetzt auf maximal 50 begrenzt.
-   * Die Anzahl der Live-Journeys in einer Organisation ist jetzt auf maximal 100 begrenzt. Journeys im Testmodus werden nicht berücksichtigt.
+   * Die Anzahl der Aktivitäten in einer Journey ist jetzt auf 50 begrenzt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+   * Die Anzahl der **Live-Journey** in einer Organisation ist jetzt auf 100 pro Sandbox beschränkt. Journeys im Testmodus werden nicht berücksichtigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Beim Hinzufügen einer E-Mail-, SMS- oder Push-Aktion zu einer Journey ist die Oberfläche jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
-* Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren.
+* Beim Hinzufügen von [Email](../email/create-email.md), [SMS](../sms/create-sms.md) oder [Push](../push/create-push.md) -Aktion in einem Journey, ist die Oberfläche jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal im aktuellen Journey vorbelegt.
+* Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
 **Reporting**
 
@@ -190,6 +190,8 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 * Auf der Journey-Arbeitsfläche ist der Namen der vorherigen Aktivität nicht mehr automatisch als Titel des **Ende**-Tags festgelegt. Benutzerinnen und Benutzer können bei Bedarf manuell eine benutzerdefinierte Bezeichnung hinzufügen.
 * Die standardmäßige Zeitüberschreitungs- und Fehlerdauer in den Journey-Eigenschaften wurde von 5 auf 30 Sekunden geändert. [Weitere Informationen](../configuration/external-systems.md#timeout)
 * Die standardmäßige Drosselungsrate in Aktivitäten mit Lesesegmenten wurde von 20.000 auf 5.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Dem Testmodus wurde ein Schutzmechanismus hinzugefügt, der nur Ereignisse überwacht, die über die Oberfläche gesendet werden. Ereignisse, die über ein externes Tool gesendet werden, werden nicht berücksichtigt. [Weitere Informationen](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.

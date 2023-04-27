@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Vorlagen
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Sobald Sie Ihre [Landingpage-Inhalte](lp-content.md) entworfen haben, können Si
 
 1. Klicken Sie oben rechts im Bildschirm auf das Symbol mit den Auslassungszeichen.
 
-1. Wählen Sie aus dem Dropdown-Menü **[!UICONTROL Designvorlage speichern]** aus.
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Als Inhaltsvorlage speichern]** aus.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ Wenn Sie das nächste Mal eine Landingpage erstellen, können Sie diese Vorlage 
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Klicken Sie auf **[!UICONTROL Diese Landingpage verwenden]**.
+1. Klicken **[!UICONTROL Verwenden Sie diese Vorlage]**.
 
 1. Bearbeiten Sie die Inhalte nach Bedarf mit dem Landingpage-Designer.
 

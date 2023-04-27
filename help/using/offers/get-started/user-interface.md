@@ -6,56 +6,45 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 77%
 
 ---
 
 # Benutzeroberfläche {#user-interface}
 
-Mit der Angebotsbibliothek können Sie Platzierungen und Angebote zentral erstellen und verwalten sowie alle erstellten Entscheidungen aufrufen.
+Die **[!UICONTROL Entscheidungsmanagement]** bietet in der linken Leiste zwei Menüs, die Ihnen Zugriff auf Entscheidungsverwaltungsfunktionen bieten:
 
->[!NOTE]
->
->Wenn beim Zugriff auf die Angebotsbibliothek oder einige ihrer Funktionen Probleme auftreten, wenden Sie sich an einen Administrator, um zu ermitteln, ob Ihnen die erforderlichen Berechtigungen gewährt wurden. Siehe [Gewähren des Zugriffs auf das Entscheidungs-Management](starting-offer-decisioning.md#granting-acess-to-decision-management).
+Verwenden Sie die **[!UICONTROL Angebote]** Menü zur Verwaltung und Bereitstellung Ihrer Angebote:
 
-Verwenden Sie das Menü **[!UICONTROL Angebote]**, um personalisierte und Fallback-Angebote zu verwalten, diese in Sammlungen zu organisieren und durch Erstellen von Entscheidungen bereitzustellen:
-
-* **[!UICONTROL Übersicht]**: Neu bei [!DNL decision management]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL decision management] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. Siehe [Übersicht](#overview).
-
-* **[!UICONTROL Angebote]**: Greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu oder erstellen Sie neue Angebote. Siehe [Erstellen eines Angebots](../offer-library/creating-personalized-offers.md) und [Erstellen eines Fallback-Angebots](../offer-library/creating-fallback-offers.md).
-
-* **[!UICONTROL Sammlungen]**: Erstellen und verwalten Sie statische und dynamische Angebotssammlungen. Siehe [Info zu Angebotssammlungen](../offer-library/creating-collections.md).
-
-* **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Verwenden Sie das Menü **[!UICONTROL Komponenten]**, um die zum Erstellen von Angeboten erforderlichen Komponenten zu verwalten:
+* **[!UICONTROL Übersicht]**: Neu bei [!DNL decision management]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL decision management] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. [Weitere Informationen](#overview)
+* **[!UICONTROL Angebote]**: Erstellen und greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu. Erfahren Sie, wie Sie [Angebote](../offer-library/creating-personalized-offers.md) und [Fallback-Angebote](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Sammlungen]**: Organisieren Sie Ihre Angebote in statischen und dynamischen Sammlungen. [Weitere Informationen](../offer-library/creating-collections.md)
+* **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. [Weitere Informationen](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL Batch-Entscheidungsfindung]**: Stellen Sie Angebotsentscheidungen für alle Profile in einem bestimmten Adobe Experience Platform-Segment bereit. [Weitere Informationen](../batch-delivery.md)
+* **[!UICONTROL Simulation]**: Validieren Sie Ihre Entscheidungslogik, indem Sie simulieren, welche Angebote für eine bestimmte Platzierung an ein Testprofil gesendet werden. [Weitere Informationen](../offer-activities/simulation.md)
 
-* **[!UICONTROL Platzierungen]**: Erstellen und verwalten Sie Platzierungen, an denen Ihre Angebote angezeigt werden. Siehe [Erstellen von Platzierungen](../offer-library/creating-placements.md).
-
-* **[!UICONTROL Sammlungsqualifizierer]**: Erstellen und verwalten Sie Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet), um Ihre Angebote zu organisieren und zu filtern. Siehe [Erstellen von Sammlungsqualifizierern](../offer-library/creating-tags.md).
-
-* **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. Näheres dazu finden Sie unter [Erstellen einer Entscheidungsregel](../offer-library/creating-decision-rules.md).
-
-* **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Rangfolgeformeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. Weitere Informationen finden Sie im Abschnitt [Rangfolgeformeln erstellen](../ranking/create-ranking-formulas.md).
+Verwenden Sie die **[!UICONTROL Komponenten]** -Menü zum Erstellen und Verwalten von Komponenten, die zum Erstellen von Angeboten und Entscheidungen erforderlich sind:
 
 ![](../assets/offer_activities.png)
 
+* **[!UICONTROL Platzierungen]**: Erstellen und verwalten Sie Platzierungen, in denen Ihre Angebote angezeigt werden. [Weitere Informationen](../offer-library/creating-placements.md)
+* **[!UICONTROL Sammlungsqualifizierer]**: Erstellen und verwalten Sie Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet), um Ihre Angebote zu organisieren und zu filtern. [Weitere Informationen](../offer-library/creating-tags.md)
+* **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. [Weitere Informationen](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL Ranking]**: Erstellen und verwalten Sie Ranking-Formeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. [Weitere Informationen](../ranking/create-ranking-formulas.md)
+
+>[!NOTE]
+>
+>Wenn Probleme beim Zugriff auf die Entscheidungsverwaltung oder einige ihrer Funktionen auftreten, wenden Sie sich an einen Administrator, um zu erfahren, dass Ihnen die erforderlichen Rechte gewährt wurden. Siehe [Gewähren des Zugriffs auf das Entscheidungs-Management](starting-offer-decisioning.md#granting-acess-to-decision-management).
+
 ## Übersicht {#overview}
 
-Wenn Sie mit [!DNL decision management] noch nicht vertraut sind, führt Sie die Registerkarte **[!UICONTROL Übersicht]** durch die wichtigsten Schritte, die zum Erstellen Ihrer ersten Angebotsentscheidung erforderlich sind.
-
-![](../assets/overview_onboarding.png)
-
-Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Sammlungen zu beginnen.
-
-Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert, Angebotsentscheidungen zu erstellen.
-
-![](../assets/overview_collection-created.png)
+Wenn Sie mit [!DNL decision management] noch nicht vertraut sind, führt Sie die Registerkarte **[!UICONTROL Übersicht]** durch die wichtigsten Schritte, die zum Erstellen Ihrer ersten Angebotsentscheidung erforderlich sind. Führen Sie die Schritte auf dem Bildschirm aus, um mit der Erstellung von Platzierungen, Angeboten und Sammlungen zu beginnen. Sobald Sie diese ersten Schritte ausgeführt haben, werden Sie dazu aufgefordert, Angebotsentscheidungen zu erstellen.
 
 >[!NOTE]
 >
@@ -95,11 +84,7 @@ Wählen Sie in den verschiedenen Listen ein Element aus, um einen Informationsbe
 
 Mit den Listen für Angebote und Entscheidungen können Sie außerdem Massenaktionen für mehrere Elemente durchführen. Wählen Sie dazu die gewünschten Angebote oder Entscheidungen aus und wählen Sie dann im Informationsbereich die gewünschte Aktion aus.
 
-![](../assets/bulk-actions.png)
-
 Beachten Sie, dass Sie auch ein vorhandenes Angebot oder eine Entscheidung duplizieren können, um eine Kopie mit dem Status **[!UICONTROL Entwurf]** zu erstellen. Dies kann entweder über den Informationsbereich oder über die Detailansicht eines Angebots oder einer Entscheidung erfolgen.
-
-![](../assets/duplicate-offer.png)
 
 ## Änderungsprotokolle für Angebote und Entscheidungen {#changes-logs}
 

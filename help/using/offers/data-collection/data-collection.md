@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
@@ -57,7 +57,7 @@ Allerdings müssen bei den **meisten Kanälen** Impressions- und Klick-Daten als
 
 ### Benutzerspezifische Ereignisse
 
-Feedback zu benutzerspezifischen Ereignissen, die mit einem Angebot verknüpft sind, kann gemäß den eigenen Vorlieben an Adobe Experience Platform gesendet werden. Wenn beispielsweise ein Angebot über mehrere Schaltflächen verfügt (*Interesse*, *Kein Interesse* usw.), können Sie diese Ereignisse separat senden. Sie können aber auch als Erlebnisereignisse gesendet werden. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Feedback zu benutzerspezifischen Ereignissen, die mit einem Angebot verknüpft sind, kann gemäß den eigenen Vorlieben an Adobe Experience Platform gesendet werden. Wenn beispielsweise ein Angebot über mehrere Schaltflächen verfügt (*Interesse*, *Kein Interesse* usw.), können Sie diese Ereignisse separat senden. Sie können aber auch als Erlebnisereignisse gesendet werden.
 
 ## Senden von Feedback-Daten
 

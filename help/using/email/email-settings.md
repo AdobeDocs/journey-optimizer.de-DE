@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -243,9 +243,23 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten kontextuellen Attribute und/oder den Text direkt bearbeiten.
+Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die verfügbaren Kontextattribute auswählen und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
+
+Die folgenden vordefinierten Werte sind über den Ausdruckseditor verfügbar:
+
+* **Source action id**: Kennung der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
+
+* **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
+
+* **Quell-ID**: Kennung der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
+
+* **Quellname**: Name der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
+
+* **Quellversions-ID**: Kennung der Journey- oder Kampagnenversion, mit der die E-Mail gesendet wurde.
+
+* **Angebotskennung**: Kennung des in der E-Mail verwendeten Angebots.
 
 >[!NOTE]
 >

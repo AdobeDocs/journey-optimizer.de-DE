@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: Aktion, benutzerdefiniert, API, Journey, Konfiguration, Service
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 85%
 
 ---
 
@@ -55,18 +55,13 @@ Die verkettete URL sieht folgendermaßen aus:
 
 ![](assets/journey-custom-action-url.png)
 
-### Header
+### Header und Abfrageparameter {#headers}
 
-Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen Header-Felder, jedoch nicht die konstanten Header-Felder angezeigt. Dynamische Header-Felder sind HTTP-Header-Felder, deren Wert als Variable konfiguriert ist. [Weitere Informationen](../action/about-custom-action-configuration.md).
+Die **[!UICONTROL URL-Konfiguration]** zeigt die dynamischen Header- und Abfrageparameter-Felder, jedoch nicht die konstanten Felder an. Dynamische Header- und Abfrageparameter-Felder werden im Aktionskonfigurationsbildschirm als Variable definiert. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
-Geben Sie bei Bedarf den Wert der dynamischen Header-Felder an:
+Um den Wert der dynamischen Header- und Abfrageparameterfelder anzugeben, klicken Sie in das Feld oder auf das Stiftsymbol und wählen Sie das gewünschte Feld aus.
 
-1. Wählen Sie in der Journey die benutzerdefinierte Aktion aus.
-1. Klicken Sie im Abschnitt **[!UICONTROL URL-Konfiguration]** im Konfigurationsbereich auf das Stiftsymbol neben dem Header-Feld.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Wählen Sie ein Feld aus und klicken Sie auf **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Aktionsparameter
 

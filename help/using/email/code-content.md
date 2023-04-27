@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Code, HTML, Editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -36,9 +36,13 @@ Verwenden Sie den Modus **[!UICONTROL Eigenen Code schreiben]**, um Roh-HTML zu 
 
    ![](assets/code-editor.png)
 
-1. Wenn Sie E-Mail-Designer öffnen möchten, um Ihre E-Mail auf der Basis eines neuen Entwurfs zu gestalten, wählen Sie **[!UICONTROL Entwurf ändern]** aus dem Menü „Optionen“.
+1. Wenn Sie den E-Mail-Designer öffnen möchten, um Ihre E-Mail von einem neuen Design aus zu beginnen, wählen Sie **[!UICONTROL Design ändern]** aus dem Optionen-Menü aus.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Dadurch wird die ausgewählte Vorlage im E-Mail-Designer geöffnet. Dort können Sie entweder das Design Ihrer E-Mail abschließen oder mit der Option **[!UICONTROL Zum Code-Editor wechseln]** zurück zum Code-Editor gehen.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Vorschau]**, um den Nachrichtenentwurf und die Personalisierung mithilfe von Testprofilen zu überprüfen. [Weitere Informationen](preview.md)
 

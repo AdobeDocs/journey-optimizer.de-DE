@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Kampagne, Überprüfung, Validierung, Aktivierung, Aktivieren, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
@@ -31,8 +31,6 @@ Nachdem die Kampagne konfiguriert wurde, müssen Sie ihre Parameter und Inhalte 
    ![](assets/create-campaign-alerts.png)
 
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. Die Kampagne ist jetzt aktiviert. Ihr Status ist **[!UICONTROL Live]** oder, wenn Sie ein Startdatum eingegeben haben, **[!UICONTROL Geplant]**. [Weitere Informationen zum Kampagnenstatus](get-started-with-campaigns.md#statuses).
 

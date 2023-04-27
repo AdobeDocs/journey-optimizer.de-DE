@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,7 @@ Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Regis
 * [E-Mail](#email-live)
 * [Push-Benachrichtigung](#push-live)
 * [SMS](#sms-live)
+* [Web](#web-tab)
 
 Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/live-report.md#modify-dashboard).
 
@@ -162,6 +163,25 @@ Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Inf
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
 Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Bounce-Ursachen]** und **[!UICONTROL Fehlerursachen]** sehen Sie, welche Fehler und Ausschlüsse bei Ihrem Versand aufgetreten sind.
++++
+
+## Registerkarte „Web“ {#web-tab}
+
+In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Web]** im Tab werden die wichtigsten Informationen zu Ihren Webseiten aufgeführt.
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Webbericht verfügbar sind.
+
+Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen, z. B.:
+
+* **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Benutzer, denen das Web-Erlebnis bereitgestellt wurde.
+
+* **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
+
+* **[!UICONTROL Klicks]**: Gesamtzahl der URL-Besuche.
+
+Die **[!UICONTROL Webzusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen, Unique Impressions und Klicks) für den betroffenen Zeitraum an.
+
+Die **[!UICONTROL Klicks nach Element]** -Tabelle enthält die wichtigsten Informationen zur Interaktion Ihrer Besucher mit den verschiedenen Elementen auf Ihren Webseiten.
 +++
 
 ## Weitere Ressourcen

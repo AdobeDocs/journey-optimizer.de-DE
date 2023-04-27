@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal{#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
+   + [Voraussetzungen für Webkanäle](using/web/web-prerequisites.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + [Verfassen von Web-Seiten](using/web/author-web.md)
-   + [Visual Editing Helper-Erweiterung](using/web/visual-editing-helper.md)
-   + [Web-Berichte](using/web/web-report.md)
+   + [Web-Subdomains konfigurieren](using/web/web-delegated-subdomains.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
+      + [Liste von Komponenten](using/reports/live-report-components.md)
       + [Live-Bericht zur Journey](using/reports/journey-live-report.md)
       + [Kampagnen-Live-Bericht](using/reports/campaign-live-report.md)
       + [Live-Bericht zu Landingpages](using/reports/lp-report-live.md)
       + [Live-Bericht zur Abonnement-Liste](using/reports/subscription-report-live.md)
    + Globaler Bericht {#global-report}
       + [Erste Schritte mit dem globalen Bericht](using/reports/global-report.md)
+      + [Liste von Komponenten](using/reports/global-report-components.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
       + [Globaler Bericht zu Kampagnen](using/reports/campaign-global-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)

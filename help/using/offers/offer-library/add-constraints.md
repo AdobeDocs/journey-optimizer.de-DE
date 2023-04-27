@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 100%
+source-wordcount: '2357'
+ht-degree: 97%
 
 ---
 
@@ -215,9 +215,12 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches
    1. Nachdem die Regel erstellt wurde, wird sie im Feld **[!UICONTROL Benutzerdefinierte Ereignisabfrage]** angezeigt.
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst. Stellen Sie daher sicher, dass Daten eingehen. [Weitere Informationen zur Datenerfassung](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zur Entscheidungsverwaltung möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. [Weitere Informationen](../data-collection/data-collection.md)
+>
+>Um sicherzustellen, dass jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. [Weitere Informationen](../data-collection/schema-requirement.md)
 
 ### Begrenzungsanzahl {#capping-count}
 

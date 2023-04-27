@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informative"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -60,8 +60,6 @@ Gehen Sie wie folgt vor, um eine Briefpostnachricht zu erstellen und zu senden:
    ![](assets/direct-mail-campaign.png)
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]** und definieren Sie dann grundlegende Informationen zu Ihrer Kampagne (Name, Beschreibung). [Erfahren Sie, wie Sie eine Kampagne konfigurieren](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um die Extraktionsdatei zu konfigurieren, die an Ihren Briefpostanbieter gesendet werden soll.
 

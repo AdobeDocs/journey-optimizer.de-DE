@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Datensatz, Optimizer, Anwendungsfälle
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 96%
 
 ---
 
@@ -20,13 +20,12 @@ ht-degree: 100%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[E-Mail-Tracking-Erfahrungs-Ereignisdatensatz](#email-tracking-experience-event-dataset)
-[Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
-[Push-Tracking-Erfahrungs-Ereignisdatensatz](#push-tracking-experience-event-dataset)
-[Journey-Step-Ereignis](#journey-step-event)
-[Decisioning-Ereignisdatensatz](#ode-decisionevents)
-[Einverständnisdienst-Datensatz](#consent-service-dataset)
-[BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
+[Datensatz zum E-Mail-Tracking-Erlebnis](#email-tracking-experience-event-dataset)
+[Datensatz mit Nachrichten-Feedback-Ereignissen](#message-feedback-event-dataset)
+[Datensatz mit Push-Tracking-Erlebnis](#push-tracking-experience-event-dataset)
+[Journey-Schrittereignis](#journey-step-event)
+[Datensatz mit Entscheidungsereignissen](#ode-decisionevents)
+[Datensatz mit BCC-Feedback-Ereignissen](#bcc-feedback-event-dataset)
 [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## Einverständnisdienst-Datensatz{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_Name in der Benutzeroberfläche: CJM-Einverständnisdienst-Datensatz (Systemdatensatz)_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Datensatz für den Journey Optimizer-Einverständnisdienst.
+Dataset for Journey Optimizer Consent service.
 
-Das zugehörige Schema ist das CJM-Einverständnisdienst-Schema.
+The related schema is CJM Consent Service Schema.
 
-Abfrage zur Auflistung von E-Mail-IDs, die dem Empfang von E-Mails zugestimmt haben:
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-Abfrage zur Rückgabe des Einverständniswerts für eine E-Mail-ID, wobei die E-Mail-ID die Eingabe ist:
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## BCC-Feedback-Ereignisdatensatz{#bcc-feedback-event-dataset}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '86'
 ht-degree: 100%
 
 ---
@@ -21,10 +21,8 @@ Auf den exportierten Angebotskatalog kann im Menü **[!UICONTROL Datensätze]** 
 
 Klicken Sie auf einen Datensatz, um auf dessen Details zuzugreifen.
 
+Mit der Schaltfläche **[!UICONTROL Datensatz in der Vorschau ansehen]** können Sie den letzten erfolgreichen Batch im Datensatz anzeigen.
+
 ![](../assets/dataset-activity.png)
-
-Mit der Schaltfläche **[!UICONTROL Datensatz in der Vorschau ansehen]** können Sie den letzten erfolgreichen Batch im Datensatz anzeigen. Im linken Bereich finden Sie Informationen zu den Datentypen, die exportiert wurden.
-
-![](../assets/dataset-preview.png)
 
 Weitere Informationen zum Durchsuchen und Verwenden von Datensätzen finden Sie auf [dieser Seite](../../data/get-started-datasets.md).

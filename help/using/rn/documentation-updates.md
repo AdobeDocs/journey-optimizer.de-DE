@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 100%
+source-wordcount: '2711'
+ht-degree: 94%
 
 ---
 
@@ -17,9 +17,13 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## April 2023 {#apr-2023}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. April wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Adobe Experience Manager Assets Essentials und Adobe Stock wurden zur Seite für lösungsübergreifende Integrationen hinzugefügt. [Weitere Informationen](../start/ajo-integrations.md)
 * Die Warnung, dass E-Mail-Subdomains mit mehreren Ebenen nicht zulässig seien, wurde entfernt, da diese jetzt unterstützt werden. [Weitere Informationen](../configuration/delegate-subdomain.md)
-* Es wurde ein Hinweis hinzugefügt, dass bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+* Es wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, die Veröffentlichung der Journey rückgängig gemacht und erneut veröffentlicht werden muss. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
+* Erläuterungen dazu, wie sichergestellt werden kann, dass Ereignisse im Begrenzungszähler korrekt berücksichtigt werden, wurden im Entscheidungs-Management näher erläutert **Begrenzungsereignis** Abschnitt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-event)
+* Ein neuer Abschnitt wurde zum **Ausführungsadressen ändern** Seite. Es wird angegeben, dass das in den erweiterten Journey-Parametern festgelegte Ausführungsfeld global überschrieben werden kann. Die E-Mail-Adressenüberschreibungen sollten jedoch nur für bestimmte Anwendungsfälle verwendet werden. Meistens ist der Wert, der als primäre Adresse in den **Ausführungsfeldern** definiert ist, derjenige, der verwendet werden sollte. [Mehr dazu](../configuration/primary-email-addresses.md#journey-parameters)
+* Die **URL-Tracking** bietet nun die Liste und Beschreibung aller kontextbezogenen Attribute, die für das URL-Tracking auf einer E-Mail-Kanaloberfläche festgelegt werden können. [Weitere Informationen](../offers/offer-library/add-constraints.md)
 
 ## März 2023 {#march-2023}
 
