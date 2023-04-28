@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 76%
 
 ---
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird bei der Erstellung der Nachricht in der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. der Nachrichtenvoreinstellung) definiert.
+>E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird in der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) bei der Erstellung der Nachricht.
 
 ## Link zu einer Mirrorseite {#mirror-page}
 
@@ -132,3 +132,29 @@ Mit [E-Mail-Designer](content-from-scratch.md) können Sie die verfolgten URLs v
    * **[!UICONTROL Nie]**: Das Tracking dieser URL wird nie aktiviert. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Das Reporting zu Öffnungen und Klicks ist im [Live-Bericht](../reports/live-report.md) und im [Globalen Bericht](../reports/global-report.md) verfügbar.
+
+## URL-Tracking {#url-tracking}
+
+Normalerweise [URL-Tracking](email-settings.md#url-tracking) wird auf Oberflächenebene verwaltet, Profilattribute werden jedoch nicht unterstützt. Die einzige Möglichkeit, dies zu tun, besteht derzeit darin, [URLs personalisieren](../personalization/personalization-syntax.md#perso-urls) im E-Mail-Designer.
+
+Gehen Sie wie folgt vor, um Ihren Links personalisierte URL-Tracking-Parameter hinzuzufügen.
+
+1. Wählen Sie einen Link aus und klicken Sie auf **[!UICONTROL Link einfügen]** in der dedizierten Symbolleiste.
+
+1. Wählen Sie das Personalisierungssymbol aus. Sie ist nur für diese Linktypen verfügbar: **Externer Link**, **Abmelde-Link** und **Opt-out**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. Fügen Sie den URL-Tracking-Parameter hinzu und wählen Sie im Ausdruckseditor das von Ihnen ausgewählte Profilattribut aus.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. Speichern Sie Ihre Änderungen.
+
+1. Wiederholen Sie die obigen Schritte für jeden Link, dem Sie diesen Tracking-Parameter hinzufügen möchten.
+
+Wenn die E-Mail jetzt gesendet wird, wird dieser Parameter automatisch an das Ende der URL angehängt. Sie können diesen Parameter dann in Webanalysewerkzeugen oder in Leistungsberichten erfassen.
+
+>[!NOTE]
+>
+>Um die endgültige URL zu überprüfen, können Sie [Testversand durchführen](preview.md#send-proofs) und klicken Sie auf den Link im Inhalt der E-Mail, sobald Sie den Testversand erhalten haben. Die URL sollte den Tracking-Parameter anzeigen. Im obigen Beispiel lautet die endgültige URL: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
