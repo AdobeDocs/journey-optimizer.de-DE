@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: Web, Subdomains, Konfiguration
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 6%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Festlegen einer Standard-Subdomäne"
->abstract="Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die Standard-Subdomain verwendet. Sie können die Standard-Web-Subdomäne ändern, es kann jedoch immer nur eine verwendet werden."
+>title="Web-Subdomain festlegen"
+>abstract="Wählen Sie eine Subdomain aus der Liste der der Adobe zugewiesenen Subdomains aus. Sie können diese Web-Subdomäne als Standard festlegen, es kann jedoch immer nur eine Standard-Subdomäne verwendet werden."
 
 Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) -Bibliothek verwenden, müssen Sie die Subdomäne einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
 
@@ -67,11 +68,15 @@ Sie können mehrere Web-Subdomains erstellen, jedoch nur die **default** wird ve
 
    >[!NOTE]
    >
-   >Nur die **default** wird verwendet. Sie können die Standard-Web-Subdomäne ändern, es kann jedoch immer nur eine verwendet werden.
+   >Nur die **default** wird verwendet.
 
 1. Klicken Sie auf **[!UICONTROL Absenden]**. Die Subdomäne erhält die **[!UICONTROL Erfolg]** Status. Es kann für Ihre Web-Erlebnisse verwendet werden.
 
 1. Die **[!UICONTROL Standard]** neben der Subdomäne angezeigt wird, die derzeit als Standard verwendet wird. Um die Standard-Subdomain zu ändern, wählen Sie **[!UICONTROL Als Standard festlegen]** von **[!UICONTROL Mehr Aktionen]** neben der gewünschten Subdomain.
+
+   >[!NOTE]
+   >
+   >Sie können die Standard-Web-Subdomäne ändern, es kann jedoch immer nur eine verwendet werden.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ Sie können mehrere Web-Subdomains erstellen, jedoch nur die **default** wird ve
 1. Sie können eine **[!UICONTROL Fehlgeschlagen]** Subdomäne , um die Liste zu bereinigen. Wählen Sie dazu **[!UICONTROL Löschen]** von **[!UICONTROL Mehr Aktionen]** neben der gewünschten Subdomain.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-

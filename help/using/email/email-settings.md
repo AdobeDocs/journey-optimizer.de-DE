@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 94%
@@ -237,11 +237,13 @@ Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten W
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
-![](assets/preset-url-tracking-source.png)
+
 
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
+
+![](assets/preset-url-tracking-source.png)
 
 Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die verfügbaren Kontextattribute auswählen und/oder den Text direkt bearbeiten.
 
