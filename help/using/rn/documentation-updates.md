@@ -4,7 +4,7 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 94%
@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Hinweis hinzugefügt, in dem festgelegt wird, dass bei Änderungen an einer Angebotsentscheidung, die in einer Journey-Nachricht verwendet wird, die Veröffentlichung der Journey rückgängig gemacht und erneut veröffentlicht werden muss. [Weitere Informationen](../building-journeys/publishing-the-journey.md)
 * Erläuterungen dazu, wie sichergestellt werden kann, dass Ereignisse im Begrenzungszähler korrekt berücksichtigt werden, wurden im Entscheidungs-Management näher erläutert **Begrenzungsereignis** Abschnitt. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping-event)
 * Ein neuer Abschnitt wurde zum **Ausführungsadressen ändern** Seite. Es wird angegeben, dass das in den erweiterten Journey-Parametern festgelegte Ausführungsfeld global überschrieben werden kann. Die E-Mail-Adressenüberschreibungen sollten jedoch nur für bestimmte Anwendungsfälle verwendet werden. Meistens ist der Wert, der als primäre Adresse in den **Ausführungsfeldern** definiert ist, derjenige, der verwendet werden sollte. [Mehr dazu](../configuration/primary-email-addresses.md#journey-parameters)
-* Die **URL-Tracking** bietet nun die Liste und Beschreibung aller kontextbezogenen Attribute, die für das URL-Tracking auf einer E-Mail-Kanaloberfläche festgelegt werden können. [Weitere Informationen](../offers/offer-library/add-constraints.md)
+* Die **URL-Tracking** bietet nun die Liste und Beschreibung aller kontextbezogenen Attribute, die für das URL-Tracking auf einer E-Mail-Kanaloberfläche festgelegt werden können. [Weitere Informationen](../email/email-settings.md#url-tracking)
 
 ## März 2023 {#march-2023}
 
