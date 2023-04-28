@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 94%
+source-wordcount: '1779'
+ht-degree: 92%
 
 ---
 
@@ -263,3 +263,7 @@ Im Folgenden finden Sie Beispiele für URLs, die mit Adobe Analytics und Google 
 Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. Jedes Mal, wenn Sie einen Parameter hinzufügen, bearbeiten oder entfernen, wird die Vorschau automatisch aktualisiert.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>Sie können auch dynamische personalisierte Tracking-Parameter zu den Links in Ihrem E-Mail-Inhalt hinzufügen, dies ist jedoch auf der obersten Ebene nicht möglich. Dies müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer tun. [Weitere Informationen](message-tracking.md#url-tracking)
