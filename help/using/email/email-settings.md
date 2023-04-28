@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 94%
@@ -224,26 +224,11 @@ Sie können **[!UICONTROL URL-Tracking-Parameter]** verwenden, um die Effektivit
 
 Die in diesem Abschnitt definierten Parameter werden an das Ende der URLs angehängt, die im Inhalt Ihrer E-Mail-Nachricht enthalten sind. Anschließend können Sie diese Parameter in Web-Analyse-Tools wie Adobe Analytics oder Google Analytics erfassen und verschiedene Leistungsberichte erstellen.
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen]** bis zu 10 Tracking-Parameter hinzufügen.
 
 ![](assets/preset-url-tracking.png)
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
-
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
-
-![](assets/preset-url-tracking-source.png)
 
 Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die verfügbaren Kontextattribute auswählen und/oder den Text direkt bearbeiten.
 
