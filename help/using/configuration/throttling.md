@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: b95d3a709075c388b1784bd18407258acd786851
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ Beim Versuch, eine weitere Konfiguration zu erstellen:
 
 ## Anwendungsfälle {#uc}
 
-Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
+Um Ihnen bei Tests und der Konfiguration behilflich zu sein, steht Ihnen [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json) eine Postman-Sammlung zur Verfügung.
 
 Diese Postman-Sammlung wurde eingerichtet, um die Postman-Variablensammlung freizugeben, die über __[Integrationen der Adobe I/O-Konsole](https://console.adobe.io/integrations) > Testen > Für Postman herunterladen__ generiert wurde. Dadurch wird eine Postman-Umgebung mit den ausgewählten Integrationswerten erzeugt.
 
