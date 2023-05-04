@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Versionshinweise vom April 2023 {#apr-rn-2023}
+## Versionshinweise April 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -106,13 +106,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 **Journeys**
 
-* Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und Endtags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
+* Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
 * Es wurden neue Leitlinien für Journeys hinzugefügt:
-   * Die Anzahl der Aktivitäten in einer Journey ist jetzt auf 50 begrenzt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-   * Die Anzahl der **Live-Journey** in einer Organisation ist jetzt auf 100 pro Sandbox beschränkt. Journeys im Testmodus werden nicht berücksichtigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+   * Die Anzahl der Knoten in einer Journey ist jetzt auf maximal 50 begrenzt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+   * Die Anzahl der **Live-Journeys** in einer Organisation ist jetzt auf maximal 100 pro Sandbox begrenzt. Journeys im Testmodus werden nicht berücksichtigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Beim Hinzufügen von [Email](../email/create-email.md), [SMS](../sms/create-sms.md) oder [Push](../push/create-push.md) -Aktion in einem Journey, ist die Oberfläche jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal im aktuellen Journey vorbelegt.
+* Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../sms/create-sms.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
 **Reporting**

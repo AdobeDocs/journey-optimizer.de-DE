@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal{#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
-   + [Voraussetzungen für Webkanäle](using/web/web-prerequisites.md)
+   + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + [Verfassen von Web-Seiten](using/web/author-web.md)
-   + [Web-Subdomains konfigurieren](using/web/web-delegated-subdomains.md)
+   + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -358,7 +358,7 @@ ht-degree: 99%
       + [Erstellen eines Datensatzes zum Erfassen von Ereignissen](using/offers/data-collection/create-dataset.md)
       + [Konfigurieren der Ereigniserfassung](using/offers/data-collection/schema-requirement.md)
    + Erstellen von Entscheidungs-Management-Berichten {#create-reports}
-      + [Arbeiten mit Entscheidungsverwaltungsereignissen](using/offers/reports/get-started-events.md)
+      + [Arbeiten mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Exportieren des Angebotskatalogs {#export-catalog}
       + [Erste Schritte mit dem Exportieren eines Angebotskatalogs ](using/offers/export-catalog/get-started-export.md)
