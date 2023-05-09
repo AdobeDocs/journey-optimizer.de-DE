@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Live-Bericht in Campaign
+title: Kampagnen-Live-Bericht
 description: Erfahren Sie, wie Sie Daten aus dem Live-Bericht in Campaign verwenden
 feature: Reporting
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTR
 
 ## Registerkarte „Web“ {#web-tab}
 
-In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Web]** im Tab werden die wichtigsten Informationen zu Ihren Webseiten aufgeführt.
+Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte **[!UICONTROL Web]** die wichtigsten Informationen zu Ihren Web-Seiten aufgeführt.
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Webbericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Web-Bericht verfügbar sind.
 
 Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen, z. B.:
 
@@ -179,9 +179,9 @@ Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informat
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der URL-Besuche.
 
-Die **[!UICONTROL Webzusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen, Unique Impressions und Klicks) für den betroffenen Zeitraum an.
+Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Klicks) für den betroffenen Zeitraum an.
 
-Die **[!UICONTROL Klicks nach Element]** -Tabelle enthält die wichtigsten Informationen zur Interaktion Ihrer Besucher mit den verschiedenen Elementen auf Ihren Webseiten.
+Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit den verschiedenen Elementen auf Ihren Web-Seiten.
 +++
 
 ## Weitere Ressourcen
@@ -190,4 +190,4 @@ Die **[!UICONTROL Klicks nach Element]** -Tabelle enthält die wichtigsten Infor
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Erstellen von API-ausgelösten Kampagnen](../campaigns/api-triggered-campaigns.md)
 * [Ändern oder Stoppen einer Kampagne](../campaigns/modify-stop-campaign.md)
-* [Globaler Kampagnenbericht](campaign-global-report.md)
+* [Globaler Bericht zu Kampagnen](campaign-global-report.md)

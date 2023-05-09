@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '2036'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -286,11 +286,11 @@ Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS –
 
 ## Registerkarte „Web“ {#web-tab}
 
-In Ihrer Kampagne **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL Web]** im Tab werden die wichtigsten Informationen zu Ihren Webseiten aufgeführt.
+Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte **[!UICONTROL Web]** die wichtigsten Informationen zu Ihren Web-Seiten aufgeführt.
 
 ![](assets/web-report.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Webbericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Web-Bericht verfügbar sind.
 
 Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen, z. B.:
 
@@ -298,11 +298,11 @@ Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informat
 
 * **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Besucher, die mit den verschiedenen Elementen auf Ihren Webseiten interagiert haben.
+* **[!UICONTROL Klickrate]**: Prozentsatz der Besuchenden, die mit den verschiedenen Elementen auf Ihren Web-Seiten interagiert haben.
 
-Die **[!UICONTROL Webzusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen, Unique Impressions und Klicks) für den betroffenen Zeitraum an.
+Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Klicks) für den betroffenen Zeitraum.
 
-Die **[!UICONTROL Klicks nach Element]** -Tabelle enthält die wichtigsten Informationen zur Interaktion Ihrer Besucher mit den verschiedenen Elementen auf Ihren Webseiten.
+Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit den verschiedenen Elementen auf Ihren Web-Seiten.
 +++
 
 ## Weitere Ressourcen

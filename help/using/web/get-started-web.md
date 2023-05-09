@@ -9,7 +9,7 @@ exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 68%
 
 Wenn Sie bereits ausgehende Kanäle wie E-Mail, SMS oder Push-Benachrichtigungen verwenden, können Sie jetzt den eingehenden Web-Kanal nutzen, um ein wirklich personalisiertes Erlebnis zu bieten, das sich über alle Kanäle erstreckt.
 
-Nachdem Sie eine Kampagne erstellt haben, wählen Sie **Web** als Aktion definieren und grundlegende Einstellungen definieren. Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
+Nachdem Sie eine Kampagne erstellt haben, wählen Sie **Web** als Aktion aus und definieren Sie die Grundeinstellungen. Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
->Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die unter [diesem Abschnitt](web-prerequisites.md).
+>Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die in [diesem Abschnitt](web-prerequisites.md) beschriebenen Voraussetzungen befolgen.
 
-Die detaillierten Schritte zum Erstellen einer Webkampagne finden Sie in [dieses Video](create-web.md#video).
+Die detaillierten Schritte zum Erstellen einer Web-Kampagne finden Sie in [diesem Video](create-web.md#video).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -43,7 +43,7 @@ Die detaillierten Schritte zum Erstellen einer Webkampagne finden Sie in [dieses
 <img alt="Gelegentlich" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>Weberfahrung erstellen</strong></a>
+<a href="create-web.md"><strong>Erstellen eines Web-Erlebnisses</strong></a>
 </div>
 <p></td>
 <td>

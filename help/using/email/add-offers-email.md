@@ -12,7 +12,7 @@ exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,11 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
 1. Wählen Sie die Testprofile aus, die für die Angebotsvorschau verwendet werden sollen:
 
-   1. Klicken Sie auf **[!UICONTROL Schaltfläche &quot;Inhalt simulieren&quot;]** und wählen Sie dann den Namespace aus, der zur Identifizierung von Testprofilen aus dem **[!UICONTROL Identitäts-Namespace]** -Feld.
+   1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Inhalt simulieren“]** und wählen Sie dann den Namespace, der zur Identifizierung von Testprofilen verwendet werden soll, aus dem **[!UICONTROL Identity-Namespace]**-Feld aus.
 
       >[!NOTE]
       >
-      >In diesem Beispiel verwenden wir die **Email** Namespace. Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
+      >In diesem Beispiel verwenden wir den Namespace **E-Mail**. Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
 
    1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert ein, der das Testprofil identifiziert . Geben Sie in diesem Beispiel die E-Mail-Adresse eines Testprofils ein.
 
@@ -100,9 +100,9 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
    ![](assets/deliver-offer-test-profile-female-preview.png)
 
-   Sie können weitere Testprofile auswählen, um den E-Mail-Inhalt für jede Variante Ihrer Nachricht in der Vorschau anzuzeigen. Im Nachrichteninhalt wird nun das Angebot angezeigt, das dem ausgewählten Testprofil (jetzt ein Mann) entspricht.
+   Wählen Sie für jede Nachrichtenvariante weitere Testprofile aus, um die Vorschau des E-Mail-Inhalts anzuzeigen. Im Nachrichteninhalt wird nun das Angebot angezeigt, das dem ausgewählten Testprofil (jetzt ein Mann) entspricht.
 
-Erfahren Sie mehr über die detaillierten Schritte zur Überprüfung der Nachrichtenvorschau unter [diesem Abschnitt](#preview-your-messages).
+Weitere Informationen zu den detaillierten Schritten zur Überprüfung der Nachrichtenvorschau finden Sie in [diesem Abschnitt](#preview-your-messages).
 
 ## Anleitungsvideo{#video-offers}
 

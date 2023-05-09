@@ -11,7 +11,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um eine von einer API ausgelöste Kampagne zu erstellen
 
    ![](assets/api-triggered-type.png)
 
-1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an und klicken Sie auf **[!UICONTROL Inhalt bearbeiten]** , um die zu sendende Nachricht zu konfigurieren.
+1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an und klicken Sie dann auf **[!UICONTROL Inhalt bearbeiten]**, um die zu sendende Nachricht zu konfigurieren.
 
    >[!NOTE]
    >

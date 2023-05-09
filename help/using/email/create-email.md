@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Fügen Sie einer Journey oder einer Kampagne eine **[!UICONTROL E-Mail]**-Aktion
 
    ![](assets/email_journey.png)
 
-   Das Feld wird standardmäßig mit der letzten Oberfläche ausgefüllt, die der Benutzer für diesen Kanal verwendet hat.
+   Das Feld wird standardmäßig mit der letzten Oberfläche ausgefüllt, die die Benutzenden für diesen Kanal verwendet haben.
 
 >[!NOTE]
 >

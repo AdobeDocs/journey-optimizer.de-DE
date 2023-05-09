@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -68,16 +68,16 @@ Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei e
 
 ## Exportieren der Berichte {#export-reports}
 
-Sie können Ihre Berichte einfach in das PDF-Format exportieren, sodass Sie sie freigeben oder drucken können.
+Sie können Ihre Berichte einfach in PDF-Format exportieren, sodass Sie sie freigeben oder drucken können.
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]**.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]**.
 
    ![](assets/export_2.png)
 
-1. Konfigurieren Sie das Dokument im Fenster Drucken nach Bedarf. Beachten Sie, dass die Optionen je nach Browser variieren können.
+1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
 
-1. Wählen Sie zum Drucken oder Speichern Ihres Berichts als PDF aus.
+1. Wählen Sie, ob Sie Ihren Bericht als PDF drucken oder speichern möchten.
 
-1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie sie bei Bedarf um und klicken Sie auf Speichern.
+1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie diesen gegebenenfalls um und klicken Sie auf Speichern.
 
 Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.

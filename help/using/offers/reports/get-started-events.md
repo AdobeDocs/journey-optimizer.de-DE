@@ -1,5 +1,5 @@
 ---
-title: Arbeiten mit Entscheidungsverwaltungsereignissen
+title: Arbeiten mit Entscheidungs-Management-Ereignissen
 description: Erfahren Sie, wie Sie Entscheidungs-Management-Berichte in Adobe Experience Platform erstellen.
 feature: Offers
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 Jedes Mal, wenn das Entscheidungs-Management eine Entscheidung für ein bestimmtes Profil trifft, werden Informationen zu diesen Ereignissen automatisch an Adobe Experience Platform gesendet.
 
-Auf diese Weise erhalten Sie Einblicke in Ihre Entscheidungen, z. B. in das Angebot, das einem bestimmten Profil unterbreitet wurde. Sie können diese Daten exportieren, um sie in Ihr eigenes Berichterstattungssystem zu analysieren, oder Adobe Experience Platform nutzen [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de) in Kombination mit anderen Tools für erweiterte Analyse- und Berichtszwecke.
+Auf diese Weise erhalten Sie Einblicke in Ihre Entscheidungen, z. B. in das Angebot, das einem bestimmten Profil unterbreitet wurde. Sie können diese Daten exportieren, um sie in Ihrem eigenen Berichtssystem zu analysieren, oder nutzen Sie Adobe Experience Platform [Abfrage-Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=de) in Kombination mit anderen Tools für erweiterte Analyse- und Berichtszwecke.
 
 ## Wichtige Informationen in Datensätzen {#key-information}
 
@@ -44,4 +44,4 @@ Diese Datensätze basieren auf dem **[!UICONTROL ODE DecisionEvents]**-Schema, d
 
 >[!NOTE]
 >
->Beachten Sie, dass es sich bei ODE DecisionEvents-Datensätzen um **Nicht-Profil-Datensätze** handelt, d. h. sie können nicht in Experience Platform aufgenommen werden, um vom Echtzeit-Kundenprofil verwendet zu werden.
+>Beachten Sie, dass es sich bei ODE DecisionEvents-Datensätzen um **Nicht-Profil-Datensätze** handelt, d. h. sie können nicht in Experience Platform aufgenommen werden, um vom Echtzeit-Kundenprofil verwendet zu werden.

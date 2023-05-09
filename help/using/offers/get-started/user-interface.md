@@ -9,38 +9,38 @@ exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Benutzeroberfläche {#user-interface}
 
-Die **[!UICONTROL Entscheidungsmanagement]** bietet in der linken Leiste zwei Menüs, die Ihnen Zugriff auf Entscheidungsverwaltungsfunktionen bieten:
+Der Abschnitt **[!UICONTROL Entscheidungs-Management]** in der linken Leiste bietet zwei Menüs, die Ihnen Zugriff auf Entscheidungs-Management-Funktionen bieten:
 
-Verwenden Sie die **[!UICONTROL Angebote]** Menü zur Verwaltung und Bereitstellung Ihrer Angebote:
+Verwenden Sie das **[!UICONTROL Angebote]**-Menü zur Verwaltung und Bereitstellung Ihrer Angebote:
 
 
 ![](../assets/offers_menu.png)
 
 * **[!UICONTROL Übersicht]**: Neu bei [!DNL decision management]? Führen Sie die Schritte auf dem Bildschirm aus, um mit dem Einrichten von Platzierungen, Angeboten und Sammlungen zu beginnen. Wenn Sie bereits mit [!DNL decision management] vertraut sind, verschaffen Sie sich einen Überblick über Ihre neuesten Angebote, Sammlungen und Entscheidungen. [Weitere Informationen](#overview)
-* **[!UICONTROL Angebote]**: Erstellen und greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu. Erfahren Sie, wie Sie [Angebote](../offer-library/creating-personalized-offers.md) und [Fallback-Angebote](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Angebote]**: Erstellen und greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu. Erfahren Sie, wie Sie [Angebote](../offer-library/creating-personalized-offers.md) und [Fallback-Angebote](../offer-library/creating-fallback-offers.md) erstellen
 * **[!UICONTROL Sammlungen]**: Organisieren Sie Ihre Angebote in statischen und dynamischen Sammlungen. [Weitere Informationen](../offer-library/creating-collections.md)
 * **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. [Weitere Informationen](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL Batch-Entscheidungsfindung]**: Stellen Sie Angebotsentscheidungen für alle Profile in einem bestimmten Adobe Experience Platform-Segment bereit. [Weitere Informationen](../batch-delivery.md)
-* **[!UICONTROL Simulation]**: Validieren Sie Ihre Entscheidungslogik, indem Sie simulieren, welche Angebote für eine bestimmte Platzierung an ein Testprofil gesendet werden. [Weitere Informationen](../offer-activities/simulation.md)
+* **[!UICONTROL Batch-Entscheidungsfindung]**: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einem bestimmten Adobe Experience Platform-Segment senden. [Weitere Informationen](../batch-delivery.md)
+* **[!UICONTROL Simulation]**: Zur Validierung Ihrer Entscheidungslogik können Sie simulieren, welche Angebote für eine bestimmte Platzierung an ein Testprofil gesendet werden. [Weitere Informationen](../offer-activities/simulation.md)
 
-Verwenden Sie die **[!UICONTROL Komponenten]** -Menü zum Erstellen und Verwalten von Komponenten, die zum Erstellen von Angeboten und Entscheidungen erforderlich sind:
+Verwenden Sie das **[!UICONTROL Komponenten]**-Menü zum Erstellen und Verwalten von Komponenten, die zum Erstellen von Angeboten und Entscheidungen erforderlich sind:
 
 ![](../assets/offer_activities.png)
 
 * **[!UICONTROL Platzierungen]**: Erstellen und verwalten Sie Platzierungen, in denen Ihre Angebote angezeigt werden. [Weitere Informationen](../offer-library/creating-placements.md)
 * **[!UICONTROL Sammlungsqualifizierer]**: Erstellen und verwalten Sie Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet), um Ihre Angebote zu organisieren und zu filtern. [Weitere Informationen](../offer-library/creating-tags.md)
 * **[!UICONTROL Regeln]**: Verwalten Sie die Bedingungen, unter denen Ihre Angebote unterbreitet werden. [Weitere Informationen](../offer-library/creating-decision-rules.md)
-* **[!UICONTROL Ranking]**: Erstellen und verwalten Sie Ranking-Formeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. [Weitere Informationen](../ranking/create-ranking-formulas.md)
+* **[!UICONTROL Rangfolgen]**: Erstellen und verwalten Sie Rangfolge-Formeln, um zu bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll. [Weitere Informationen](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
->Wenn Probleme beim Zugriff auf die Entscheidungsverwaltung oder einige ihrer Funktionen auftreten, wenden Sie sich an einen Administrator, um zu erfahren, dass Ihnen die erforderlichen Rechte gewährt wurden. Siehe [Gewähren des Zugriffs auf das Entscheidungs-Management](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>Wenn beim Zugriff auf Entscheidungs-Management oder einige seiner Funktionen Probleme auftreten, wenden Sie sich an eine Administratorin oder einen Administrator, um zu ermitteln, ob Ihnen die erforderlichen Berechtigungen gewährt wurden. Siehe [Zugriff auf Entscheidungs-Management gewähren](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## Übersicht {#overview}
 

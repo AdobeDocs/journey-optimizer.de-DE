@@ -11,7 +11,7 @@ exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -104,9 +104,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**Wie viel Zeit zwischen zwei Knoten verstrichen ist**
+**Wie viel Zeit ist zwischen zwei Knoten verstrichen**
 
-Diese Abfragen können beispielsweise verwendet werden, um die in einer Warteaktivität verbrachte Zeit zu schätzen. Dadurch können Sie sicherstellen, dass die Warteaktivität korrekt konfiguriert ist.
+Diese Abfragen können beispielsweise verwendet werden, um die mit einer Warteaktivität verbrachte Zeit zu schätzen. Dadurch können Sie sicherstellen, dass die Warteaktivität korrekt konfiguriert ist.
 
 _Data-Lake-Abfrage_
 
@@ -231,11 +231,11 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**Überprüfen der Details eines serviceEvent**
+**Überprüfen der Details eines serviceEvents**
 
-Der Journey Step Events-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, da sie sich auf Aktivitäten (Ereignis, Aktionen usw.) beziehen von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Rückgabe eines Erlebnisereignisses.
+Der Journey-Schritt-Ereignis-Datensatz enthält alle stepEvents und serviceEvents. stepEvents werden in Berichten verwendet, denn sie beziehen sich auf Aktivitäten (Ereignisse, Aktionen usw.) von Profilen in einer Journey. serviceEvents werden im selben Datensatz gespeichert und geben zusätzliche Informationen zu Debugging-Zwecken an, z. B. den Grund für die Verwerfung eines Erlebnisereignisses.
 
-Im Folgenden finden Sie ein Beispiel für eine Abfrage, um die Details eines serviceEvent zu überprüfen:
+Im Folgenden finden Sie ein Beispiel für eine Abfrage, um die Details eines serviceEvents zu überprüfen:
 
 _Data-Lake-Abfrage_
 

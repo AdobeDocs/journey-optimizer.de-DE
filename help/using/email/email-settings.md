@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -230,23 +230,23 @@ Sie können mithilfe der Schaltfläche **[!UICONTROL Neuen Parameter hinzufügen
 
 Um einen URL-Tracking-Parameter zu konfigurieren, können Sie die gewünschten Werte direkt in die Felder **[!UICONTROL Name]** und **[!UICONTROL Wert]** eingeben.
 
-Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die verfügbaren Kontextattribute auswählen und/oder den Text direkt bearbeiten.
+Mithilfe des [Ausdruckseditors](../personalization/personalization-build-expressions.md) können Sie auch jedes **[!UICONTROL Werte]**-Feld bearbeiten. Klicken Sie auf das Bearbeitungssymbol, um den Editor zu öffnen. Dort können Sie die gewünschten Kontexteigenschaften und/oder den Text direkt bearbeiten.
 
 ![](assets/preset-url-tracking-editor.png)
 
 Die folgenden vordefinierten Werte sind über den Ausdruckseditor verfügbar:
 
-* **Source action id**: Kennung der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
+* **Quellaktion-ID**: ID der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
 * **Name der Quellaktion**: Name der E-Mail-Aktion, die der Journey oder Kampagne hinzugefügt wurde.
 
-* **Quell-ID**: Kennung der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
+* **Quell-ID**: ID der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
 
 * **Quellname**: Name der Journey oder Kampagne, mit der die E-Mail gesendet wurde.
 
-* **Quellversions-ID**: Kennung der Journey- oder Kampagnenversion, mit der die E-Mail gesendet wurde.
+* **Quellversions-ID**: ID der Journey- oder Kampagnenversion, mit der die E-Mail gesendet wurde.
 
-* **Angebotskennung**: Kennung des in der E-Mail verwendeten Angebots.
+* **Angebots-ID**: ID des in der E-Mail verwendeten Angebots.
 
 >[!NOTE]
 >

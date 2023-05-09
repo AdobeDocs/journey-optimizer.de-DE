@@ -10,7 +10,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: b05c7e88c223af44cd2f7d10ea76c39359662cbd
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 7%
+ht-degree: 87%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
->title="Web-Subdomain zuweisen"
->abstract="Sie richten Ihre Subdomain für die Verwendung von Webkanälen ein. Wählen Sie aus den Subdomains aus, die bereits an Adobe delegiert sind."
+>title="Delegieren einer Web-Subdomain"
+>abstract="Die Subdomain wird für die Web-Kanal-Verwendung eingerichtet. Wählen Sie aus den Subdomains aus, die bereits an Adobe delegiert sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
->title="Web-Subdomain zuweisen"
+>title="Delegieren einer Web-Subdomain"
 >abstract="Wenn Sie Inhalte aus Adobe Experience Manager Assets Essentials zu Ihren Web-Erlebnissen hinzufügen, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. Wählen Sie unter den bereits an Adobe delegierten Subdomains aus."
 
 >[!CONTEXTUALHELP]
@@ -31,22 +31,22 @@ ht-degree: 7%
 >title="Web-Subdomain festlegen"
 >abstract="Wählen Sie eine Subdomain aus der Liste der der Adobe zugewiesenen Subdomains aus. Sie können diese Web-Subdomäne als Standard festlegen, es kann jedoch immer nur eine Standard-Subdomäne verwendet werden."
 
-Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) -Bibliothek verwenden, müssen Sie die Subdomäne einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
+Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
 
-Wählen Sie dazu aus der Liste der bereits an Adobe delegierten Subdomains aus. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
+Wählen Sie dazu die Domain aus der Liste der bereits an Adobe delegierten Subdomains aus. Weitere Informationen zum Delegieren von Subdomains an Adobe finden Sie in [diesem Abschnitt](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
->Die Konfiguration von Web-Subdomains ist in allen Umgebungen üblich. Daher gilt:
+>Die Konfiguration von Web-Subdomains ist in allen Umgebungen gleich. Daher gilt:
 >
->* Zum Zugreifen auf und Bearbeiten von Web-Subdomains benötigen Sie die **[!UICONTROL Verwalten von Web-Subdomains]** -Berechtigung für die Produktions-Sandbox.
+>* Um auf Web-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Web-Subdomains]** auf der Produktions-Sandbox.
 >
-> * Änderungen an einer Web-Subdomain wirken sich auch auf die Produktions-Sandboxes aus.
+> * Jede Änderung an einer Web-Subdomain wirkt sich auch auf die Produktions-Sandboxes aus.
 
 
-Sie können mehrere Web-Subdomains erstellen, jedoch nur die **default** wird verwendet. Sie können die Standard-Web-Subdomäne ändern, es kann jedoch immer nur eine verwendet werden.
+Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-** Subdomain verwendet. Sie können die Standard-Web-Subdomain ändern, es kann jedoch immer nur eine gleichzeitig verwendet werden.
 
-1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** Menü und wählen Sie **[!UICONTROL Webkonfiguration]** > **[!UICONTROL Web-Subdomains]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Web-Konfiguration]** > **[!UICONTROL Web-Subdomains]** aus.
 
    ![](assets/web-access-subdomains.png)
 
@@ -68,15 +68,15 @@ Sie können mehrere Web-Subdomains erstellen, jedoch nur die **default** wird ve
 
    >[!NOTE]
    >
-   >Nur die **default** wird verwendet.
+   >Nur die **Standard-** Subdomain wird verwendet.
 
-1. Klicken Sie auf **[!UICONTROL Absenden]**. Die Subdomäne erhält die **[!UICONTROL Erfolg]** Status. Es kann für Ihre Web-Erlebnisse verwendet werden.
+1. Klicken Sie auf **[!UICONTROL Absenden]**. Die Subdomain erhält den Status **[!UICONTROL Erfolg]**. Sie kann nun für Ihre Web-Erlebnisse verwendet werden.
 
-1. Die **[!UICONTROL Standard]** neben der Subdomäne angezeigt wird, die derzeit als Standard verwendet wird. Um die Standard-Subdomain zu ändern, wählen Sie **[!UICONTROL Als Standard festlegen]** von **[!UICONTROL Mehr Aktionen]** neben der gewünschten Subdomain.
+1. Das **[!UICONTROL Standard]**-Badge wird neben der Subdomain angezeigt, die derzeit als Standard verwendet wird. Um die Standard-Subdomain zu ändern, wählen Sie **[!UICONTROL Als Standard festlegen]** über die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben der gewünschten Subdomain aus.
 
    >[!NOTE]
    >
-   >Sie können die Standard-Web-Subdomäne ändern, es kann jedoch immer nur eine verwendet werden.
+   >Sie können die Standard-Web-Subdomain ändern, es kann jedoch immer nur eine gleichzeitig verwendet werden.
 
    ![](assets/web-subdomain-default.png)
 

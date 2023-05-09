@@ -12,7 +12,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Sie können vorhandene Inhalte in [!DNL Journey Optimizer] importieren oder die 
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video)
 
-## Best Practices bei der Erstellung von E-Mails {#best-practices}
+## Best Practices für das E-Mail-Design {#best-practices}
 
-Beim Versand von E-Mails ist es wichtig zu beachten, dass die Empfänger sie weiterleiten können, was manchmal Probleme mit dem Rendering der E-Mail verursachen kann. Dies gilt insbesondere bei der Verwendung von CSS-Klassen, die vom E-Mail-Anbieter, der für die Weiterleitung verwendet wird, möglicherweise nicht unterstützt werden, z. B. wenn Sie die CSS-Klasse &quot;ist-Desktop-ausgeblendet&quot;verwenden, um ein Bild auf Mobilgeräten auszublenden.
+Beim Versand von E-Mails ist es wichtig, zu beachten, dass die Empfangenden sie weiterleiten können, was manchmal Probleme mit dem Rendering der E-Mail verursachen kann. Dies gilt insbesondere für die Verwendung von CSS-Klassen, die der für die Weiterleitung verwendete E-Mail-Anbieter möglicherweise nicht unterstützt, z. B. wenn Sie die CSS-Klasse „is-desktop-hidden“ verwenden, um ein Bild auf Mobilgeräten auszublenden.
 
-Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent gerendert werden, unabhängig davon, wie sie von Empfängern angezeigt oder weitergeleitet werden.
+Um diese Rendering-Probleme zu minimieren, empfehlen wir, Ihre E-Mail-Design-Struktur so einfach wie möglich zu halten. Versuchen Sie, ein einzelnes Design zu verwenden, das sowohl für Desktop- als auch für Mobilgeräte gut funktioniert, und vermeiden Sie die Verwendung komplexer CSS-Klassen oder anderer Design-Elemente, die möglicherweise nicht von allen E-Mail-Clients vollständig unterstützt werden. Mithilfe dieser Best Practices können Sie sicherstellen, dass Ihre E-Mails konsistent korrekt gerendert werden, unabhängig davon, wie sie von Empfangenden angezeigt oder weitergeleitet werden.
 
 ## Wichtige Schritte zum Erstellen von E-Mail-Inhalten {#key-steps}
 

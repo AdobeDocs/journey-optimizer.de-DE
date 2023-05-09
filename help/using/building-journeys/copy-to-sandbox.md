@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Sandbox-Details"
->abstract="Wählen Sie die Ziel-Sandbox aus, in die Sie die Journey kopieren möchten. Es sind nur Sandboxes innerhalb Ihres Unternehmens verfügbar."
+>abstract="Wählen Sie die Ziel-Sandbox aus, in die Sie die Journey kopieren möchten. Es sind nur Sandboxes innerhalb Ihrer Organisation verfügbar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um eine Journey in eine andere Sandbox zu kopieren:
 
    ![](assets/copy-sandbox2.png)
 
-3. Wählen Sie die **Ziel-Sandbox** aus der Dropdown-Liste aus. Es sind nur Sandboxes innerhalb Ihres Unternehmens verfügbar.
+3. Wählen Sie die **Ziel-Sandbox** aus der Dropdown-Liste aus. Es sind nur Sandboxes innerhalb Ihrer Organisation verfügbar.
 
 4. Beachten Sie den Abschnitt **Abhängige Objekte**. Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt.
 

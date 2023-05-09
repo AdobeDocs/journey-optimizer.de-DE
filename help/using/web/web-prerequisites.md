@@ -1,6 +1,6 @@
 ---
-title: Voraussetzungen für Webkanäle
-description: Um auf Webseiten in der Benutzeroberfläche von Journey Optimizer zugreifen und diese erstellen zu können, müssen Sie die auf dieser Seite beschriebenen Voraussetzungen erfüllen
+title: Voraussetzungen für Web-Kanäle
+description: Um in der Benutzeroberfläche von Journey Optimizer auf Web-Seiten zuzugreifen oder sie dort zu verfassen, folgen Sie den Voraussetzungen in diesem Abschnitt
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 40%
+ht-degree: 99%
 
 ---
 
@@ -19,28 +19,28 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 * Um Änderungen an Ihrer Website hinzuzufügen, benötigen Sie eine bestimmte Implementierung. [Weitere Informationen](#implementation-prerequisites)
 
-* So greifen Sie auf die [!DNL Journey Optimizer] Web Designer, müssen Sie eine bestimmte Google Chrome-Browsererweiterung installiert haben. [Weitere Informationen](#visual-authoring-prerequesites)
+* Um auf den Web-Designer von [!DNL Journey Optimizer] zuzugreifen, müssen Sie eine bestimmte Browser-Erweiterung für Google Chrome installiert haben. [Weitere Informationen](#visual-authoring-prerequesites)
 
-* Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen detailliert definieren [here](#delivery-prerequisites).
+* Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen [hier](#delivery-prerequisites) detailliert definieren.
 
 ## Vorsichtsmaßnahmen
 
 Derzeit können Sie Web-Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure)
 
 
-[!DNL Journey Optimizer] Webkampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der interagierbaren Profile, was sich auf die Kosten auswirken kann, wenn die vertragliche Anzahl der von Ihnen erworbenen interagierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie im Abschnitt [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html) Seite.
+[!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
-Derzeit werden zwei Arten von Implementierungen unterstützt, um die Erstellung und Bereitstellung von Webkanalkampagnen in Ihren Webeigenschaften zu ermöglichen:
+Derzeit werden zwei Arten von Implementierungen unterstützt, um die Erstellung und der Versand von Web-Kanal-Kampagnen in Ihren Web-Eigenschaften zu ermöglichen:
 
-* Nur Client-seitig - Um Änderungen zu Ihrer Website hinzuzufügen, müssen Sie die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} auf Ihrer Website.
+* Nur Client-seitig – Um Änderungen an Ihrer Website vorzunehmen, müssen Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} auf Ihrer Website implementieren.
 
-* Hybridmodus - Sie können den [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Hybridmodus – Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} verwenden.
 
 >[!NOTE]
 >
->Die Nur-Server-Implementierung wird derzeit nicht unterstützt.
+>Die nur Server-seitige Implementierung wird derzeit nicht unterstützt.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
@@ -48,31 +48,31 @@ Derzeit werden zwei Arten von Implementierungen unterstützt, um die Erstellung 
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Damit Sie Ihre Webseiten zuverlässig in der [!DNL Journey Optimizer] Webdesigner, Sie müssen über die [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} Browsererweiterung, die in Ihrem Webbrowser installiert ist.
+Damit Sie Ihre Web-Seiten zuverlässig im Web-Designer von [!DNL Journey Optimizer] erstellen können, müssen Sie die Browser-Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} in Ihrem Webbrowser installiert haben.
 
 >[!CAUTION]
 >
->Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die Authoring-Webseiten in [!DNL Journey Optimizer].
+>Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erstellung von Web-Seiten in [!DNL Journey Optimizer] unterstützen.
 
 ### Installieren der Erweiterung Visual Editing Helper {#install-visual-editing-helper}
 
-Gehen Sie wie folgt vor, um die Browsererweiterung Visual Editing Helper herunterzuladen und zu installieren.
+Gehen Sie wie folgt vor, um die Browser-Erweiterung „Visual Editing Helper“ herunterzuladen und zu installieren.
 
 1. Öffnen Sie eine neue Registerkarte in Ihrem Browser (Google Chrome oder Microsoft Edge).
 
-1. Navigieren Sie zu [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
+1. Navigieren Sie zum [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
 
-1. Wenn Sie Microsoft Edge verwenden, wählen Sie **[!UICONTROL Erlauben von Erweiterungen aus anderen Stores]** auf dem oberen Banner. Dadurch können Sie Erweiterungen aus dem Chrome Web Store zu Microsoft Edge hinzufügen.
+1. Wenn Sie Microsoft Edge verwenden, wählen Sie **[!UICONTROL Erweiterungen von anderen Stores erlauben]** auf dem oberen Banner aus. Dadurch können Sie Erweiterungen aus dem Chrome Web Store zu Microsoft Edge hinzufügen.
 
-1. Suchen und navigieren Sie zum [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} Browsererweiterung.
+1. Suchen Sie die Browser-Erweiterung [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} und navigieren Sie zu ihr.
 
 1. Klicken Sie auf **[!UICONTROL Zu Chrome hinzufügen]** > **[!UICONTROL Erweiterung hinzufügen]**.
 
    >[!NOTE]
    >
-   >Wenn Sie Microsoft Edge verwenden, wird die Erweiterung zu Edge hinzugefügt, auch wenn die Schaltfläche **[!UICONTROL Hinzufügen zu Chrome]**.
+   >Wenn Sie Microsoft Edge verwenden, wird die Erweiterung zu Edge hinzugefügt, auch wenn die Schaltfläche **[!UICONTROL Zu Chrome hinzufügen]** lautet.
 
-1. Stellen Sie sicher, dass die Browsererweiterung Visual Editing Helper in der Symbolleiste Ihres Browsers korrekt aktiviert ist.
+1. Stellen Sie sicher, dass die Browser-Erweiterung „Visual Editing Helper“ in der Symbolleiste Ihres Browsers korrekt aktiviert ist.
 
    ![](assets/web-visual-editing-extension-edge.png)
 
@@ -99,13 +99,13 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 
 Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
 
-Wenn die Browser-Erweiterung Visual Editing Helper korrekt installiert ist, die Website jedoch weiterhin nicht geladen werden kann oder sich unerwartet verhält, besteht die Möglichkeit, Ihre Website im Browser zu öffnen und Cookies zu akzeptieren, bevor versucht wird, sie in den [!DNL Journey Optimizer] Webdesigner.
+Wenn die Browser-Erweiterung „Visual Editing Helper“ korrekt installiert ist, die Website jedoch weiterhin nicht geladen werden kann oder sich unerwartet verhält, besteht eine mögliche Lösung darin, Ihre Website im Browser zu öffnen und Cookies zu akzeptieren, bevor Sie versuchen, sie im Web-Designer von [!DNL Journey Optimizer] zu laden.
 
 Bei Seiten unter Authentifizierung, wenn die Anmeldeseite nicht geladen werden kann oder wenn Sie nach dem Anmeldeversuch immer noch nicht angemeldet sind:
 
-* Versuchen Sie zunächst, sich in einer neuen Browser-Registerkarte anzumelden, navigieren Sie zur gewünschten Seite, kopieren Sie dann die URL und versuchen Sie, sie im [!DNL Journey Optimizer] Webdesigner.
+* Versuchen Sie zunächst, sich in einer neuen Browser-Registerkarte anzumelden, navigieren Sie zur gewünschten Seite, kopieren Sie dann die URL und versuchen Sie sie im Web-Designer von [!DNL Journey Optimizer] zu öffnen.
 
-* Wenn Sie Ihre Website weiterhin nicht in der [!DNL Journey Optimizer] Webdesigner, wenden Sie sich an die Kundenunterstützung von Adobe, um das Problem zu melden, und stellen Sie sicher, dass Sie die fehlerhafte URL angeben.
+* Wenn Sie Ihre Website weiterhin nicht in den Web-Designer von [!DNL Journey Optimizer] laden können, wenden Sie sich an die Kundenunterstützung von Adobe, um das Problem zu melden, und geben Sie dabei die fehlerhafte URL an.
 
 ## Versandvoraussetzungen {#delivery-prerequisites}
 

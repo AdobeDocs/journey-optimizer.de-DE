@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Mit dieser Option können Sie ein benutzerdefiniertes Datum definieren, z. B. de
 
 ![](assets/journey57.png)
 
-Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schrittereignisse verwenden. Weitere Informationen finden Sie auf [dieser Seite](../reports/query-examples.md#common-queries).
+Um zu überprüfen, ob die Warteaktivität erwartungsgemäß funktioniert, können Sie Schritt-Ereignisse verwenden. Weitere Informationen finden Sie auf [dieser Seite](../reports/query-examples.md#common-queries).
 
 <!--## Email send time optimization{#email_send_time_optimization}
 

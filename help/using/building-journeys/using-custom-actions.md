@@ -12,7 +12,7 @@ exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -57,9 +57,9 @@ Die verkettete URL sieht folgendermaßen aus:
 
 ### Header und Abfrageparameter {#headers}
 
-Die **[!UICONTROL URL-Konfiguration]** zeigt die dynamischen Header- und Abfrageparameter-Felder, jedoch nicht die konstanten Felder an. Dynamische Header- und Abfrageparameter-Felder werden im Aktionskonfigurationsbildschirm als Variable definiert. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
+Im Abschnitt **[!UICONTROL URL-Konfiguration]** werden die dynamischen, jedoch nicht die konstanten Header- und Abfrageparameter-Felder angezeigt. Dynamische Header- und Abfrageparameter-Felder werden im Aktionskonfigurationsbildschirm als Variable definiert. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
-Um den Wert der dynamischen Header- und Abfrageparameterfelder anzugeben, klicken Sie in das Feld oder auf das Stiftsymbol und wählen Sie das gewünschte Feld aus.
+Um den Wert der dynamischen Header- und Abfrageparameter-Felder anzugeben, klicken Sie in das Feld oder auf das Stiftsymbol und wählen Sie das gewünschte Feld aus.
 
 ![](assets/journey-dynamicheaderfield.png)
 

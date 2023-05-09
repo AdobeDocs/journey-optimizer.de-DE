@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 74%
 >
 >Derzeit können Sie Web-Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellen. 
 
-[In diesem Video erfahren Sie, wie Sie eine Webkampagne erstellen.](#video)
+[In diesem Video erfahren Sie, wie Sie eine Web-Kampagne verfassen](#video)
 
 ## Erstellen einer Web-Kampagne {#create-web-campaign}
 
@@ -33,13 +33,13 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Erstellen einer Matching-Regel für Seiten"
->abstract="Mit einer Seitenabgleichregel können Sie mehrere URLs auswählen, die derselben Regel entsprechen - z. B. wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden möchten oder ein oberstes Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
+>abstract="Eine Matching-Regel für Seiten macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn Sie die Änderungen an einem Hero-Banner auf einer ganzen Web-Site anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Web-Site angezeigt wird."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 
 >[!NOTE]
 >
->Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die unter [diesem Abschnitt](web-prerequisites.md).
+>Wenn Sie zum ersten Mal ein Web-Erlebnis erstellen, stellen Sie sicher, dass Sie die in [diesem Abschnitt](web-prerequisites.md) beschriebenen Voraussetzungen befolgen.
 
 1. Erstellen einer Kampagne. [Weitere Informationen](../campaigns/create-campaign.md)
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
    ![](assets/web-campaign-surface.png)
 
-1. Sie können auch eine **[!UICONTROL Seitenübereinstimmungsregel]** , um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen, z. B. wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden möchten oder ein oberstes Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird.
+1. Sie können aber auch eine **[!UICONTROL Matching-Regel für Seiten]** festlegen, um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen. Dies ist zum Beispiel sinnvoll, wenn Sie die Änderungen auf ein Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Web-Site angezeigt wird.
 
    Wählen Sie dazu **[!UICONTROL Matching-Regel für Seiten]** aus und klicken Sie auf **[!UICONTROL Regel erstellen]**.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 1. Nachdem Sie die Web-Oberfläche definiert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Führen Sie die Schritte zur Erstellung einer Webkampagne aus, z. B. die Kampagneneigenschaften, [audience](../segment/about-segments.md)und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Audience](../segment/about-segments.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -89,7 +89,7 @@ Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgeleg
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 
-1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Zielgruppe und Zeitplan.
+1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Audience und Zeitplan.
 
 1. Wählen Sie **[!UICONTROL Aktivieren]** aus.
 
@@ -127,6 +127,6 @@ Wenn eine Web-Kampagne live ist, können Sie sie stoppen, um zu verhindern, dass
 
 ## Anleitungsvideo{#video}
 
-Im folgenden Video erfahren Sie, wie Sie eine Webkampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
+Im folgenden Video erfahren Sie, wie Sie eine Web-Kampagne erstellen, ihre Eigenschaften konfigurieren, sie überprüfen und veröffentlichen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

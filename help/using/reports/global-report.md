@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Jo
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-global)
 
-## Anpassen des Dashboards {#modify-dashboard}
+## Dashboard anpassen {#modify-dashboard}
 
 Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern der Größe von Widgets oder das Entfernen von Widgets geändert werden. Das Ändern der Widgets wirkt sich nur auf das Dashboard des aktuellen Benutzers aus. Andere Benutzer sehen ihre eigenen Dashboards oder die standardmäßig festgelegten.
 
@@ -73,17 +73,17 @@ Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei e
 
 ## Exportieren der Berichte {#export-reports}
 
-Sie können Ihre Berichte einfach in das PDF-Format exportieren, sodass Sie sie freigeben oder drucken können.
+Sie können Ihre Berichte einfach in PDF-Format exportieren, sodass Sie sie freigeben oder drucken können.
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]**.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]**.
 
    ![](assets/export_1.png)
 
-1. Konfigurieren Sie das Dokument im Fenster Drucken nach Bedarf. Beachten Sie, dass die Optionen je nach Browser variieren können.
+1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
 
-1. Wählen Sie zum Drucken oder Speichern Ihres Berichts als PDF aus.
+1. Wählen Sie, ob Sie Ihren Bericht als PDF drucken oder speichern möchten.
 
-1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie sie bei Bedarf um und klicken Sie auf Speichern.
+1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie diesen gegebenenfalls um und klicken Sie auf Speichern.
 
 Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 

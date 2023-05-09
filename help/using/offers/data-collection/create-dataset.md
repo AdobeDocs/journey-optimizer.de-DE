@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Um Erlebnisereignisse zu erfassen, müssen Sie zunächst einen Datensatz erstell
 
 Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 
-1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Schema]** und gehen Sie zu **[!UICONTROL Durchsuchen]** Registerkarte.
+1. Wählen Sie aus dem Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus und navigieren Sie zur Registerkarte **[!UICONTROL Durchsuchen]**.
 
-1. Klicken **[!UICONTROL Schema erstellen]** und wählen Sie **[!UICONTROL XDM ExperienceEvent]**.
+1. Klicken Sie auf **[!UICONTROL Schema erstellen]** und wählen Sie **[!UICONTROL XDM ExperienceEvent]** aus.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -34,9 +34,9 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. Im **[!UICONTROL Suche]** Geben Sie &quot;Interaktion mit Vorschlägen&quot;ein.
+1. Geben Sie im Feld **[!UICONTROL Suche]** „Interaktion mit Vorschlägen“ ein.
 
-1. Wählen Sie die **[!UICONTROL Erlebnisereignis - Interaktionen bei Vorschlägen]** Feldergruppe und klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
+1. Wählen Sie die Feldergruppe **[!UICONTROL Erlebnisereignis – Interaktionen mit Vorschlägen]** und klicken Sie auf **[!UICONTROL Feldergruppen hinzufügen]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -52,13 +52,13 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
 Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Gehen Sie dazu wie folgt vor:
 
-1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Datensätze]** und gehen Sie zu **[!UICONTROL Durchsuchen]** Registerkarte.
+1. Wählen Sie aus dem Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Datensätze]** aus und navigieren Sie zur Registerkarte **[!UICONTROL Durchsuchen]**.
 
-1. Klicken **[!UICONTROL Datensatz erstellen]** und wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Datensatz erstellen]** und wählen Sie **[!UICONTROL Datensatz aus Schema erstellen]** aus.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Wählen Sie das soeben erstellte Schema aus der Liste aus und klicken Sie auf **[!UICONTROL Nächste]**.
+1. Wählen Sie das soeben erstellte Schema aus der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
 1. Geben Sie im Feld **[!UICONTROL Name]** einen eindeutigen Namen für den Datensatz ein und klicken Sie auf **[!UICONTROL Beenden]**.
 

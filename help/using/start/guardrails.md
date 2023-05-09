@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendun
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
-* Die Anzahl der Aktivitäten in einer Journey ist auf 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
-* Die Anzahl der **Live-Journey** in einer Organisation auf 100 pro Sandbox beschränkt. Wenn diese Grenze erreicht ist, können Sie keine neue Journey mehr veröffentlichen.
+* Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt.
+* Die Anzahl der **Live-Journeys** in einer Organisation ist auf maximal 100 pro Sandbox begrenzt. Wenn diese Grenze erreicht ist, können Sie keine neue Journey mehr veröffentlichen.
 
 ### Allgemeine Aktionen {#general-actions-g}
 
@@ -100,6 +100,6 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ### Ausdruckseditor {#expression-editor}
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen. Sie müssen ein neues Segment erstellen und eine Segmentbedingung in der Journey verwenden.
+* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen. Sie müssen ein neues Segment erstellen und eine inSegment-Bedingung in der Journey verwenden.
 
 

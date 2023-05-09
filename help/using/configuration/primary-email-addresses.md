@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ausführungsadressen ändern
+title: Ändern von Ausführungsadressen
 description: Erfahren Sie, wie Sie im Profil-Service bestimmen, welche E-Mail-Adresse verwendet werden soll.
 feature: Application Settings
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Ausführungsadressen ändern {#change-primary-email}
+# Ändern von Ausführungsadressen {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -30,9 +30,9 @@ ht-degree: 46%
 
 Wenn ein Profil als Ziel ausgewählt wird, stehen in der Datenbank möglicherweise mehrere E-Mail-Adressen oder Telefonnummern zur Verfügung (berufliche E-Mail-Adresse, persönliche Telefonnummer usw.).
 
-In diesem Fall [!DNL Journey Optimizer] uses **[!UICONTROL Ausführungsfelder]** , um zu bestimmen, welche E-Mail-Adresse oder Telefonnummer vorrangig vom Profildienst verwendet werden soll.
+In diesem Fall nutzt [!DNL Journey Optimizer] **[!UICONTROL Ausführungsfelder]**, um zu bestimmen, welche E-Mail-Adresse oder Telefonnummer vom Profildienst vorrangig verwendet werden soll.
 
-Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie die **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]** Menü.
+Um die standardmäßig verwendeten Felder zu überprüfen, rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]** auf.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um die Ausführungsfelder global auf Sandbox-Ebene zu �
 
 1. Öffnen Sie das Menü **[!UICONTROL Kanäle]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Ausführungsfelder]**.
 
-1. Klicken **[!UICONTROL Bearbeiten]** , um die Standardwerte zu ändern.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Standardwerte zu ändern.
 
    ![](assets/primary-address.png)
 
@@ -66,13 +66,13 @@ Das Ausführungsfeld wird aktualisiert und jetzt als primäre Adresse verwendet.
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Wert in Journey-Parametern überschreiben {#journey-parameters}
+## Überschreiben eines Werts in den Journey-Parametern {#journey-parameters}
 
 Nur für bestimmte Anwendungsfälle können Sie das global eingestellte Ausführungsfeld überschreiben und auf Journey-Ebene einen anderen Wert definieren, insbesondere für den E-Mail-Kanal.
 
-Beim Hinzufügen von **[!UICONTROL Email]** einer Aktion [Journey](../email/create-email.md#create-email-journey-campaign), wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
+Beim Hinzufügen einer **[!UICONTROL E-Mail]**-Aktion zu einer [Journey](../email/create-email.md#create-email-journey-campaign) wird die primäre E-Mail-Adresse unter den erweiterten Journey-Parametern angezeigt.
 
-In bestimmten Kontexten können Sie diesen Wert mithilfe der Variablen **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem **[!UICONTROL Adresse]** -Feld.
+In bestimmten Kontexten können Sie diesen Wert mithilfe des Symbols **[!UICONTROL Parameterüberschreibungen aktivieren]** rechts neben dem **[!UICONTROL Adresse]**-Feld überschreiben.
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -80,7 +80,7 @@ In bestimmten Kontexten können Sie diesen Wert mithilfe der Variablen **[!UICON
 >
 >Das Überschreiben von E-Mail-Adressen sollte nur für bestimmte Anwendungsfälle verwendet werden. Meistens müssen Sie die E-Mail-Adresse nicht ändern, da der Wert, der als die primäre Adresse in den **[!UICONTROL Ausführungsfeldern]** definiert ist, derjenige ist, der verwendet werden sollte.
 
-Das Außerkraftsetzen dieses Werts kann beispielsweise für Folgendes nützlich sein:
+Diesen Wert zu überschreiben, kann zum Beispiel für folgende Zwecke nützlich sein:
 
-* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen: Nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
-* Senden Sie eine E-Mail an die Abonnenten einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).
+* Testen einer E-Mail-Adresse. Sie können Ihre eigene E-Mail-Adresse hinzufügen, und nachdem Sie die Journey veröffentlicht haben, wird die E-Mail an Sie gesendet.
+* Senden einer E-Mail an die Abonnierenden einer Liste. Weitere Informationen finden Sie in [diesem Anwendungsbeispiel](../building-journeys/message-to-subscribers-uc.md).

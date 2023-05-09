@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: d6ec55e5-e44e-4773-a561-d1bc0919ea04
+source-git-commit: 26456f7c2d879843eb533209377b83fc0ccb5617
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
@@ -66,7 +67,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
    <td> Gesamtzahl der kumulierten Fehler beim Versand und der automatischen Bounce-Verarbeitung.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Absprungrate<br/> </td> 
+   <td> Bounce-Rate<br/> </td> 
    <td> Prozentsatz der Bounce-E-Mails im Vergleich zu den gesendeten E-Mails<br/> </td> 
 </tr>
   <tr> 

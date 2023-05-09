@@ -12,7 +12,7 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 96%
 
 Auf dieser Seite finden Sie die Liste der Adobe Journey Optimizer-Datensätze und der zugehörigen Anwendungsfälle:
 
-[Datensatz zum E-Mail-Tracking-Erlebnis](#email-tracking-experience-event-dataset)
-[Datensatz mit Nachrichten-Feedback-Ereignissen](#message-feedback-event-dataset)
-[Datensatz mit Push-Tracking-Erlebnis](#push-tracking-experience-event-dataset)
-[Journey-Schrittereignis](#journey-step-event)
-[Datensatz mit Entscheidungsereignissen](#ode-decisionevents)
-[Datensatz mit BCC-Feedback-Ereignissen](#bcc-feedback-event-dataset)
+[E-Mail-Tracking-Erlebnisereignis-Datensatz](#email-tracking-experience-event-dataset)
+[Nachrichten-Feedback-Ereignisdatensatz](#message-feedback-event-dataset)
+[Push-Tracking-Erlebnisereignis-Datensatz](#push-tracking-experience-event-dataset)
+[Journey-Step-Ereignis](#journey-step-event)
+[Decisioning-Ereignisdatensatz](#ode-decisionevents)
+[BCC-Feedback-Ereignisdatensatz](#bcc-feedback-event-dataset)
 [Entitätsdatensatz](#entity-dataset)
 
 Die vollständige Liste der Felder und Attribute für jedes Schema finden Sie im [Journey Optimizer-Schemawörterbuch](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de){target="_blank"}.
