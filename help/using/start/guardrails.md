@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 92%
 
 ---
@@ -27,11 +27,6 @@ Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendun
 
 * Mit [!DNL Journey Optimizer] können Sie keine Anlagen zu einer E-Mail hinzufügen.
 * Sie können dieselbe Versand-Domain nicht zum Senden von Nachrichten von [!DNL Adobe Journey Optimizer] und einem anderen Produkt verwenden, beispielsweise [!DNL Adobe Campaign] oder [!DNL Adobe Marketo Engage].
-
-
-## Schutzmaßnahmen beim Entscheidungs-Management {#offer-guardrails}
-
-Die Leistung betreffende Leitplanken und statische Beschränkungen für das Decisioning werden auf der [Produktbeschreibungsseite für den Adobe Offer Decisioning App Service](https://helpx.adobe.com/de/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"} aufgeführt.
 
 
 ## Schutzmaßnahmen bei Landingpages {#lp-guardrails}
