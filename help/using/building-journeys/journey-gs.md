@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1325'
+ht-degree: 88%
 
 ---
 
@@ -38,27 +38,26 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## Journey aufrufen {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**Durchsuchen**: Auf dieser Registerkarte wird die Liste der vorhandenen Journey angezeigt. Sie können nach Journey suchen, Filter verwenden und grundlegende Aktionen für jedes Element ausführen. Sie können Elemente beispielsweise duplizieren oder löschen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../start/user-interface.md#filter-lists).
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**Übersicht**: Auf dieser Registerkarte wird ein Dashboard mit Schlüsselmetriken für Ihre Journey angezeigt:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile
+* **Live-Journey**: Gesamtzahl der Live-Journey mit Traffic in den letzten 24 Stunden. Live-Journey beinhalten **Einzelne Journey** (ereignisbasiert) und **Batch-Journey** (Segment lesen).
+* **Fehlerrate**: Prozentualer Anteil aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingegebenen Profile.
+* **Entsorgungsrate**: Das Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der Profile, die in den letzten 24 Stunden eingegeben wurden.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>Dieses Dashboard berücksichtigt die Journey mit Traffic aus den letzten 24 Stunden. Es werden nur die Journey angezeigt, auf die Sie Zugriff haben.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## Erstellen Ihrer Journey{#jo-build}
 
@@ -71,15 +70,7 @@ Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ih
 
 Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journeys:
 
-1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
-
-   ![](assets/interface-journeys.png)
-
-1. Klicken Sie auf **[!UICONTROL Journey erstellen]**, um eine neue Journey zu erstellen.
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. Aus dem **Durchsuchen** Registerkarte, klicken Sie auf **[!UICONTROL Journey erstellen]** , um eine neue Journey zu erstellen.
 
 1. Bearbeiten Sie im Konfigurationsbereich auf der rechten Seite die Eigenschaften der Journey. Weiterführende Informationen finden Sie in diesem [Abschnitt](journey-gs.md#change-properties).
 
