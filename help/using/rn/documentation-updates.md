@@ -4,16 +4,20 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
+source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
 workflow-type: tm+mt
-source-wordcount: '2711'
-ht-degree: 100%
+source-wordcount: '2752'
+ht-degree: 98%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+## Mai 2023 {#may-2023}
+
+* Die **Web-Subdomains konfigurieren** wurde erstellt: Wenn Sie Inhalte aus Adobe Experience Manager Assets Essentials zu Ihren Web-Erlebnissen hinzufügen, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](../web/web-delegated-subdomains.md)
 
 ## April 2023 {#apr-2023}
 
