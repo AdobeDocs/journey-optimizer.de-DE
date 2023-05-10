@@ -4,9 +4,9 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 289dd11da2546b5ad8f9791fb9a5796127746829
+source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2769'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Mai 2023 {#may-2023}
 
-* Die **Web-Subdomains konfigurieren** wurde erstellt: Wenn Sie Inhalte aus Adobe Experience Manager Assets Essentials zu Ihren Web-Erlebnissen hinzufügen, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](../web/web-delegated-subdomains.md)
+* Es wurde eine neue Seite hinzugefügt, auf der beschrieben wird, wie Sie die Subdomain einrichten, die zum Veröffentlichen von Inhalten aus der Adobe Experience Manager Assets Essentials in Ihren Web-Erlebnissen verwendet wird. [Weitere Informationen](../web/web-delegated-subdomains.md)
+* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem erläutert wird, wie URLs im E-Mail-Designer personalisierte Tracking-Parameter hinzugefügt werden - [Weitere Informationen](../email/message-tracking.md#url-tracking)
 
 ## April 2023 {#apr-2023}
 
