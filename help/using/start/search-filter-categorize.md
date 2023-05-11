@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 49%
@@ -53,7 +53,7 @@ Mit Adobe Experience Platform [Einheitliche Tags](https://experienceleague.adobe
 >
 >Einheitliche Tags befinden sich derzeit in der Betaversion. Dokumentation und Funktionalitäten können sich ändern.
 
-## Tags zu einem Objekt hinzufügen
+### Tags zu einem Objekt hinzufügen
 
 Die **Tags** im Feld [Journey](../building-journeys/journey-gs.md#change-properties) oder [Kampagne](../campaigns/create-campaign.md#create) -Eigenschaften können Sie Tags für Ihr Objekt definieren. Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen.
 
@@ -69,7 +69,7 @@ Die Liste der definierten Tags wird unter dem Feld **Tags** angezeigt.
 > 
 > Wenn Sie eine Journey oder Kampagne duplizieren oder eine neue Version erstellen, bleiben die Tags erhalten.
 
-## Filtern nach Tags
+### Filtern nach Tags
 
 In den Listen Journey und Kampagnen wird eine eigene Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
 
@@ -81,7 +81,7 @@ Sie können Tags beliebiger Journey- oder Kampagnentypen (Live, Entwurf usw.) hi
 
 ![](assets/tags3.png)
 
-## Verwalten von Tags
+### Verwalten von Tags
 
 Admins können Tags löschen und mithilfe des Menüs **Tags** unter **ADMINISTRATION** nach Kategorien organisieren. Erfahren Sie mehr über die Verwaltung von Tags im [Dokumentation zu Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
