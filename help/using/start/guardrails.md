@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,10 @@ Berechtigungen, Produkteinschränkungen und die Leistung betreffende Leitplanken
 Beachten Sie auch die [Leitplanken für Echtzeit-Kundenprofildaten](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=de){target="_blank"}, bevor Sie beginnen.
 
 Unten finden Sie zusätzliche Leitplanken und Einschränkungen bei der Verwendung von [!DNL Adobe Journey Optimizer].
+
+## Unterstützte Browser {#browsers}
+
+Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Schutzmaßnahmen bei Nachrichten {#message-guardrails}
 

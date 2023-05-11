@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -26,11 +26,11 @@ Außerdem können Sie Live-Kampagnen (einmal oder mit wiederkehrender Ausführun
 
 Auf Kampagnen kann über das Menü **[!UICONTROL Kampagnen]** zugegriffen werden.
 
-Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt.
-
-Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
+Standardmäßig werden in der Liste alle Kampagnen mit dem Status **[!UICONTROL Entwurf]**, **[!UICONTROL Geplant]** oder **[!UICONTROL Live]** angezeigt. Um gestoppte, abgeschlossene und archivierte Kampagnen anzuzeigen, müssen Sie den Filter löschen.
 
 ![](assets/create-campaign-list.png)
+
+Darüber hinaus können Sie die Liste nach Kampagnentyp und -kanal oder nach den Tags filtern, die den Kampagnen bei ihrer Erstellung zugewiesen wurden. [Erfahren Sie, wie Sie einer Kampagne Tags zuweisen.](create-campaign.md#create)
 
 ## Kampagnenstatus {#statuses}
 

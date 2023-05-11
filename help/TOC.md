@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 100%
+source-wordcount: '1370'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 100%
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
+   + [Suchen, filtern, kategorisieren](using/start/search-filter-categorize.md)
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Integrationen](using/start/ajo-integrations.md)
    + [Leitplanken](using/start/guardrails.md)
@@ -47,7 +48,6 @@ ht-degree: 100%
       + [Kopieren einer Journey in eine andere Sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Fehlerbehebung in einer Journey](using/building-journeys/troubleshooting.md)
       + [Integrieren mit Intelligent Services](using/building-journeys/ai-services-overview.md)
-      + [Verwalten von Tags in Journeys](using/building-journeys/tags.md)
    + Aktivitäten {#about-journey-building}
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)

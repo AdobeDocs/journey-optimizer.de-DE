@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1910'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,24 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
+## Verbesserungen vom Mai 2023 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden von Tags in Ihren Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Ihren Kampagnen Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche über die Kampagnenliste verbessern. Beachten Sie, dass sich die Funktion Unified Tags derzeit in der Beta-Phase befindet.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versionshinweise April 2023 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Neues Journey-Dashboard (Beta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Das Journey-Dashboard ist nun in zwei Registerkarten unterteilt:</p>
-<ul><li>Verwenden Sie die <strong>Übersicht</strong>, um auf ein neues Dashboard zuzugreifen, das wichtige Metriken zu Ihren Journeys anzeigt.</li>
-<li>Verwenden Sie die Registerkarte <strong>Durchsuchen</strong>, um auf die Liste aller Journeys zuzugreifen.</li></ul>
-<p>Diese Funktion ist in allen Journeys als öffentliche Beta-Version verfügbar.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/journey-gs.md#journey-access">ausführlichen Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <tr>
 <td>
 <p>Als Anwenderin bzw. Anwender von Journey Optimizer können Sie Ihre Geschäftsobjekte jetzt mithilfe von Tags organisieren. Tags sind eine schnelle und einfache Möglichkeit, Objekte zu klassifizieren, um die Suche zu verbessern. Diese Funktion befindet sich derzeit in der Beta-Phase und steht nur für Journeys zur Verfügung.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/tags.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Verbesserungen {#mar-2023-improvements}
 

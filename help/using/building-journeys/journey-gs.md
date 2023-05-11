@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 88%
+source-wordcount: '1512'
+ht-degree: 86%
 
 ---
 
@@ -42,10 +42,6 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
 Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar:
 
-**Durchsuchen**: Auf dieser Registerkarte wird die Liste der vorhandenen Journey angezeigt. Sie können nach Journey suchen, Filter verwenden und grundlegende Aktionen für jedes Element ausführen. Sie können Elemente beispielsweise duplizieren oder löschen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../start/user-interface.md#filter-lists).
-
-![](assets/journeys-browse.png)
-
 **Übersicht**: Auf dieser Registerkarte wird ein Dashboard mit Schlüsselmetriken für Ihre Journey angezeigt:
 
 * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile
@@ -58,6 +54,22 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 >Dieses Dashboard berücksichtigt die Journey mit Traffic aus den letzten 24 Stunden. Es werden nur die Journey angezeigt, auf die Sie Zugriff haben.
 
 ![](assets/journeys-dashboard.png)
+
+**Durchsuchen**: Auf dieser Registerkarte wird die Liste der vorhandenen Journey angezeigt. Sie können nach Journey suchen, Filter verwenden und grundlegende Aktionen für jedes Element ausführen. Sie können Elemente beispielsweise duplizieren oder löschen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)
+
+In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Segmentqualifikation]**, **[!UICONTROL Segment lesen]**, **[!UICONTROL Geschäftsereignis]** und **[!UICONTROL Burst]**.
+
+sSie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Darüber hinaus wird die **[!UICONTROL Veröffentlichungsfilter]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
+
+In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
+
+![](assets/journey3bis.png)
 
 ## Erstellen Ihrer Journey{#jo-build}
 
@@ -101,7 +113,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
 Klicken Sie auf das Bleistiftsymbol oben rechts, um auf die Eigenschaften der Journey zuzugreifen.
 
-Sie können den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und, wenn Sie ein Administrator sind, eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen.
+Sie können den Namen der Journey ändern, eine Beschreibung hinzufügen, den erneuten Eintritt erlauben, Start- und Enddatum auswählen und, wenn Sie ein Administrator sind, eine Dauer für **[!UICONTROL Zeitüberschreitung und Fehler]** festlegen. Sie können Ihrer Journey auch Unified Tags für Adobe Experience Platform zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche über die Kampagnenliste verbessern. [Erfahren Sie, wie Sie mit Tags arbeiten.](../start/search-filter-categorize.md#tags)
 
 Für Live-Journeys werden in diesem Bildschirm das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat.
 

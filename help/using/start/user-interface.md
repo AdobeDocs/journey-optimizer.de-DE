@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ Die in der Benutzeroberfläche verfügbaren Komponenten und Funktionen hängen v
 >[!NOTE]
 >
 >Die vorliegende Dokumentation wird entsprechend den Änderungen an der Benutzeroberfläche des Produkts regelmäßig aktualisiert. Manche Screenshots können jedoch geringfügig von der Ihrer Benutzeroberfläche abweichen.
-
 
 ## Linke Navigation {#left-nav}
 
@@ -90,7 +89,6 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 * **[!UICONTROL Warnhinweise]** – In der Benutzeroberfläche können Sie einen Verlauf der empfangenen Warnungen anhand von Metriken anzeigen, die von Adobe Experience Platform Observability Insights bereitgestellt wurden. Über die Benutzeroberfläche können Sie auch verfügbare Warnhinweisregeln anzeigen, aktivieren und deaktivieren. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}
 
-
 ## Produktinterne Anwendungsfälle {#in-product-uc}
 
 Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Startseite verwenden und mit nur wenigen Eingaben eine Customer Journey erstellen.
@@ -110,7 +108,6 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]**, um den Anwendungsfal
 
 Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzeigen]** auf ausgeführte Anwendungsfälle zugreifen.
 
-
 ## Hilfe und Support {#find-help}
 
 Über den unteren Bereich der Startseite können Sie auf die wichtigsten Hilfeseiten von Adobe Journey Optimizer zugreifen.
@@ -118,10 +115,6 @@ Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzei
 Verwenden Sie das Symbol **Hilfe**, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu geben. Über das Suchfeld können Sie Hilfeartikel und Videos suchen.
 
 ![](assets/ajo-help.png)
-
-## Unterstützte Browser {#browsers}
-
-Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optimale Funktionsweise in der neuesten Version von Google Chrome entwickelt. Bei der Verwendung bestimmter Funktionen in älteren Versionen oder anderen Browsern können Probleme auftreten.
 
 ## Sprachvoreinstellungen {#language-pref}
 
@@ -145,39 +138,3 @@ Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
    ![](assets/select-language.png)
-
-## Suche{#unified-search}
-
-Sie können auf der gesamten Benutzeroberfläche von Adobe Journey Optimizer die Adobe Experience Cloud-Suche in der Mitte der oberen Leiste verwenden, um Assets, Journeys, Datensätze und mehr in Ihren Sandboxes zu finden.
-
-Beginnen Sie mit der Eingabe von Inhalten, um die wichtigsten Ergebnisse anzuzeigen. In den Ergebnissen werden auch Hilfeartikel zu den eingegebenen Keywords angezeigt.
-
-![](assets/unified-search.png)
-
-Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach Geschäftsobjekt zu filtern.
-
-![](assets/search-and-filter.png)
-
-## Filterlisten{#filter-lists}
-
-In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren.
-
-Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Mit dem Filtermenü können Sie die angezeigten Elemente anhand unterschiedlicher Kriterien filtern. Sie können festlegen, dass nur die Elemente eines bestimmten Typs oder Status, die von Ihnen erstellten Elemente oder die in den letzten 30 Tagen geänderten Elemente angezeigt werden sollen. Die Optionen unterscheiden sich je nach Kontext.
-
-In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Segmentqualifikation]**, **[!UICONTROL Segment lesen]**, **[!UICONTROL Geschäftsereignis]** und **[!UICONTROL Burst]**. sSie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** nutzen. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie ein Veröffentlichungsdatum oder einen Benutzer auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->Beachten Sie, dass angezeigte Spalten mithilfe der Konfigurationsschaltfläche oben rechts in den Listen personalisiert werden können. Die Personalisierung wird für jeden Benutzer individuell gespeichert.
-
-Verwenden Sie die Spalten **[!UICONTROL Letzte Aktualisierung]** und **[!UICONTROL Letzte Aktualisierung von]**, um zu überprüfen, wann das letzte Update Ihrer Journey erfolgt ist und wer es gespeichert hat.
-
-![](assets/filter-journeys.png)
-
-In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das Feld **[!UICONTROL Verwendet in]** die Zahl der Journeys an, die dieses bestimmte Ereignis, diese Feldergruppe oder diese Aktion verwenden. Sie können auf die Schaltfläche **[!UICONTROL Customer Journeys anzeigen]** klicken, um die Liste der entsprechenden Journeys zu öffnen.
-
-![](assets/journey3bis.png)
-
-In den Listen können Sie für jedes Element grundlegende Aktionen durchführen. Sie können Elemente beispielsweise duplizieren oder löschen.
-
-![](assets/journey4.png)
