@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 100%
 
 ---
@@ -90,6 +90,10 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 1. Nach der Definition Ihres Inhalts können Sie das Verfolgen von URLs für Ihre Nachricht aktivieren. Rufen Sie dazu das Menü **[!UICONTROL Hilfsfunktionen]** auf und wählen Sie **[!UICONTROL Helfer]** aus.
 
    Beachten Sie, dass Sie zur Verwendung der URL-Kürzungsfunktion zunächst eine Subdomain konfigurieren müssen, die dann mit Ihrer Oberfläche verknüpft wird. [Weitere Informationen](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox.
 
    ![](assets/sms_tracking_1.png)
 
