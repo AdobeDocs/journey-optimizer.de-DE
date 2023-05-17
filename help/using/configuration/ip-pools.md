@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Einrichten eines IP-Pools"
->abstract="IP-Pools sammeln die IP-Adressen Ihrer Subdomains, um die E-Mail-Zustellbarkeit zu verbessern."
+>abstract="In IP-Pools werden Subdomain-IPs erfasst, um die Zustellbarkeit der gesendeten E-Mail zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
