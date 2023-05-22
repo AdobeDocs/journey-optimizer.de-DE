@@ -58,7 +58,7 @@ Um eine Vorlage zu löschen, wählen Sie das Papierkorbsymbol neben der gewünsc
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="Eigene Inhaltsvorlage definieren"
->abstract="Die Subdomain wird für die Verwendung für SMS eingerichtet. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
+>abstract="Erstellen Sie eine komplett neue, benutzerdefinierte Vorlage, damit Sie Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden können."
 
 Es gibt zwei Möglichkeiten, Inhaltsvorlagen zu erstellen:
 
