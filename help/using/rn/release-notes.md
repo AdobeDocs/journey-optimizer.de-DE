@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '2379'
+ht-degree: 84%
 
 ---
 
@@ -21,24 +21,172 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Verbesserungen von Mai 2023 {#may-improvements}
 
-<table>
+## Frühzeitige Versionshinweise Mai 2023 {#may-rn-2023}
+
+Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröffentlichung ohne vorherige Ankündigung geändert werden. Die aktualisierte Dokumentation wird am Veröffentlichungsdatum veröffentlicht und auf dieser Seite werden direkte Links hinzugefügt.
+
+**** Veröffentlichungsdatum: 25. Mai 2023
+
+### Neue Funktionen{#may-2023-features}
+
+<!--table>
 <thead>
 <tr>
-<th><strong>Verwenden von Tags in Ihren Kampagnen</strong><br/></th>
+<th><strong>Audience Composition</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun Ihren Kampagnen einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. Die Funktion für einheitliche Tags befindet sich derzeit in der Betaphase.
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhaltstest in Kampagnen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Prüfungen, was im Rahmen von Online-Tests bedeutet, dass Sie einige zufällig ausgewählte Benutzer einer bestimmten Variante einer Nachricht aussetzen und eine andere zufällig ausgewählte Gruppe von Benutzern einer anderen Variante oder Behandlung aussetzen. Nach der Belichtung können Sie dann die von Ihnen gewünschten Ergebnismetriken messen, z. B. Öffnungen von E-Mails, Abonnements oder Käufen.</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Fragmente in E-Mail-Inhalten erstellen und verwenden</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwenden von Tags in Ihren Kampagnen (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können nun Ihren Kampagnen einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. Die Funktion für einheitliche Tags befindet sich derzeit in der Betaphase.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Personalisierte Optimierungs-KI-Ranking-Modell (Allgemeine Verfügbarkeit)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalisierte Optimierungs-AI-Ranking-Modelle sind jetzt im Entscheidungsmanagement allgemein verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### Verbesserungen {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**Audiences**
+
+* Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
+
+**SMS-Kanal**
+
+* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieter hinzugefügt.
+* Twillio - Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging Service SID für eine nahtlose Integration mit Ihrem Twilio-Konto hinzuzufügen.
+
+**In-App-Kanal**
+
+* Es wurden neue Regeln für den Trigger von Nachrichten für den Adobe Places-Dienst hinzugefügt.
+* Es wurden neue Adobe Experience Platform Assurance-Funktionen hinzugefügt, mit denen Geräteereignisse erfasst und als Trigger-Regeln hinzugefügt werden können.
+
+**Journeys**
+
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+
+**Kampagnen**
+
+* Jetzt ist es möglich, eine Kampagne aus dem Inventarbildschirm mithilfe des Aktionsmenüs mit Auslassungspunkten zu duplizieren.
+* Sie können jetzt Entwürfe von Änderungen an einer Live-Kampagne löschen.
+* Die Schritte zur Aktivierung einer Kampagne wurden nun optimiert.
+
+**Entscheidungs-Management**
+
+* Sie können die Frequenzlimitierung jetzt bearbeiten, wenn das Angebot den Status Entwurf aufweist und noch nie zuvor veröffentlicht wurde.
+
+**Personalisierung**
+
+* Sie können Asset-Verweise jetzt direkt im Personalisierungs-Editor auswählen und einfügen, wenn Sie HTML-Inhalte verwenden.
+
+### Fehlerbehebungen{#may-2023-fixes}
+
+* In-App-Nachrichten - Es wurde ein Problem behoben, bei dem die Planung von Kampagnen mit den Einstellungen für die Nachrichtenfrequenz in Konflikt stand.
+
 
 ## Versionshinweise April 2023 {#apr-rn-2023}
 
@@ -67,7 +215,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Schnellstart-Workflow für Mobile-Onboarding (Beta)</strong><br/></th>
+<th><strong>Schnellstart-Workflow für das mobile Onboarding (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,25 +248,6 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### Verbesserungen {#april-2023-improvements}
 
