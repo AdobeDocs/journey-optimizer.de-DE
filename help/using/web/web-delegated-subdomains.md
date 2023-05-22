@@ -10,7 +10,7 @@ exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
 source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Web-Subdomain festlegen"
->abstract="Wählen Sie eine Subdomain aus der Liste der der Adobe zugewiesenen Subdomains aus. Sie können diese Web-Subdomäne als Standard festlegen, es kann jedoch immer nur eine Standard-Subdomäne verwendet werden."
+>title="Festlegen einer Web-Subdomain"
+>abstract="Wählen Sie eine Subdomain aus der Liste der an Adobe delegierten Subdomains aus. Sie können diese Web-Subdomain als Standard festlegen. Es kann jedoch jeweils nur eine Standard-Subdomain verwendet werden."
 
 Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird.
 
@@ -60,7 +60,7 @@ Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-
    >
    >Sie können keine Subdomain auswählen, die bereits als Web-Subdomain verwendet wird.
 
-1. Das Präfix, das in Ihrer Web-URL angezeigt wird, wird automatisch hinzugefügt. Sie können es nicht ändern.
+1. Das Präfix, das in Ihrer Web-URL angezeigt wird, wird automatisch hinzugefügt. Es kann nicht geändert werden.
 
 1. Um diese Subdomain als Standard festzulegen, wählen Sie die entsprechende Option aus.
 
@@ -74,7 +74,7 @@ Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-
 
    >[!NOTE]
    >
-   >In sehr seltenen Fällen konnte die Einrichtung einer Subdomain fehlschlagen. In diesem Fall können Sie die **[!UICONTROL Fehlgeschlagen]** Subdomäne , um die Liste mithilfe der **[!UICONTROL Löschen]** -Schaltfläche in der **[!UICONTROL Mehr Aktionen]** Symbol.
+   >In sehr seltenen Fällen kann die Einrichtung einer Subdomain fehlschlagen. Sie können dann die **[!UICONTROL fehlgeschlagene]** Subdomain löschen, um die Liste mithilfe der Schaltfläche **[!UICONTROL Löschen]** unter dem Symbol **[!UICONTROL Mehr Aktionen]** zu bereinigen.
 
 1. Das **[!UICONTROL Standard]**-Badge wird neben der Subdomain angezeigt, die derzeit als Standard verwendet wird. Um die Standard-Subdomain zu ändern, wählen Sie **[!UICONTROL Als Standard festlegen]** über die Schaltfläche **[!UICONTROL Weitere Aktionen]** neben der gewünschten Subdomain aus.
 

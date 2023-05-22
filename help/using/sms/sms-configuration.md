@@ -29,7 +29,7 @@ Ihre Nutzung von SMS-Services unterliegt zusätzlichen Bedingungen des jeweilige
 
 >[!CAUTION]
 >
->Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox.
+>Um auf SMS-Subdomains zuzugreifen und sie zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von SMS-Subdomains]** für die Produktions-Sandbox.
 
 ## Erstellen neuer API-Anmeldeinformationen {#create-api}
 

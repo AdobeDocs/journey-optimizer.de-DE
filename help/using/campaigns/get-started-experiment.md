@@ -178,9 +178,9 @@ Adobe stuft ein Experiment als schlüssig ein, wenn die Konfidenz über 95 % lie
 
 Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahmen:
 
-* **Einsatz erfolgreicher Ideen**
+* **Bereitstellung erfolgreicher Ideen**
 
-   Wenn das Ergebnis eindeutig ist, können Sie die erfolgreiche Idee umsetzen, indem Sie entweder die Behandlung mit der besten Leistung bei all Ihren Kunden einsetzen oder neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung nachgebildet wird.
+   Wenn das Ergebnis eindeutig ist, können Sie die erfolgreiche Idee bereitstellen, indem Sie entweder die Behandlung mit der besten Leistung bei all Ihren Kunden einsetzen oder neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung nachgebildet wird.
    </br> Beachten Sie, dass in einer dynamischen Umgebung das, was zu einem bestimmten Zeitpunkt gut funktioniert, später möglicherweise nicht mehr gut funktioniert.
 
 * **Durchführung von Folgetests**

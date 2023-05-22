@@ -10,7 +10,7 @@ level: Intermediate
 source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Drücken Sie die **Eingabetaste**, um auf alle Ergebnisse zuzugreifen und nach G
 
 In den meisten Listen können Sie die Suchleiste verwenden, um bestimmte Elemente zu finden und Filterkriterien zu definieren.
 
-Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können festlegen, dass nur Elemente eines bestimmten Typs oder Status, der von Ihnen erstellten Elemente oder der in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
+Sie können auf die Filter zugreifen, indem Sie auf das Filtersymbol links oben in der Liste klicken. Im Filtermenü können Sie die angezeigten Elemente nach unterschiedlichen Kriterien filtern: Sie können festlegen, dass nur Elemente eines bestimmten Typs oder Status, nur von Ihnen erstellte Elemente oder nur die in den letzten 30 Tagen geänderten Elemente angezeigt werden. Die Optionen unterscheiden sich je nach Kontext.
 
-Darüber hinaus können Sie Unified-Tags verwenden, um eine Liste nach den einem Objekt zugewiesenen Tags zu filtern. Derzeit sind Tags für Journey und Kampagnen verfügbar. [Erfahren Sie, wie Sie mit Tags arbeiten.](#tags)
+Darüber hinaus können Sie einheitliche Tags verwenden, um eine Liste nach den einem Objekt zugewiesenen Tags zu filtern. Aktuell sind Tags für Journeys und Kampagnen verfügbar. [Erfahren Sie, wie Sie mit Tags arbeiten.](#tags)
 
 >[!NOTE]
 >
@@ -47,17 +47,17 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 
 ## Arbeiten mit einheitlichen Tags {#tags}
 
-Mit Adobe Experience Platform [Einheitliche Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de)können Sie Ihre Journey Optimizer-Journey und -Kampagnen einfach klassifizieren, um die Suche über die Listen zu verbessern.
+Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Journeys und -Kampagnen einfach klassifizieren, um die Suche über Listen zu verbessern.
 
 >[!AVAILABILITY]
 >
 >Einheitliche Tags befinden sich derzeit in der Betaversion. Dokumentation und Funktionalitäten können sich ändern.
 
-### Tags zu einem Objekt hinzufügen
+### Hinzufügen von Tags zu einem Objekt
 
-Die **Tags** im Feld [Journey](../building-journeys/journey-gs.md#change-properties) oder [Kampagne](../campaigns/create-campaign.md#create) -Eigenschaften können Sie Tags für Ihr Objekt definieren. Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen.
+Über das Feld **Tags** in den [Journey](../building-journeys/journey-gs.md#change-properties)- oder [Kampagnen](../campaigns/create-campaign.md#create)-Eigenschaften können Sie Tags für Ihr Objekt definieren. Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen.
 
-Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn sie nicht verfügbar ist, klicken Sie auf **Erstellen** , um ein neues zu erstellen und es hinzuzufügen. Sie können beliebig viele Tags definieren.
+Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn es nicht verfügbar ist, klicken Sie auf **Erstellen**, um ein neues zu erstellen und hinzuzufügen. Sie können beliebig viele Tags definieren.
 
 ![](assets/tags1.png)
 
@@ -67,24 +67,24 @@ Die Liste der definierten Tags wird unter dem Feld **Tags** angezeigt.
 >
 > Bei Tags wird die Groß-/Kleinschreibung nicht beachtet.
 > 
-> Wenn Sie eine Journey oder Kampagne duplizieren oder eine neue Version erstellen, bleiben die Tags erhalten.
+> Wenn Sie eine Journey duplizieren oder eine neue Version einer Journey bzw. Kampagne erstellen, bleiben Tags erhalten.
 
 ### Filtern nach Tags
 
-In den Listen Journey und Kampagnen wird eine eigene Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
+In den Journey- und Kampagnenlisten wird eine spezielle Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
 
-Es ist auch ein Filter verfügbar, der nur Journey oder Kampagnen mit bestimmten Tags anzeigt.
+Es ist auch ein Filter verfügbar, um nur Journeys oder Kampagnen mit bestimmten Tags anzuzeigen.
 
 ![](assets/tags2.png)
 
-Sie können Tags beliebiger Journey- oder Kampagnentypen (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie dazu auf die Schaltfläche **Mehr Aktionen** neben dem Objekt und wählen Sie **Tags bearbeiten**.
+Sie können Tags zu beliebigen Typen von Journeys oder Kampagnen (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie hierzu auf das Symbol **Mehr Aktionen** neben dem Objekt und wählen Sie **Tags bearbeiten** aus.
 
 ![](assets/tags3.png)
 
 ### Verwalten von Tags
 
-Admins können Tags löschen und mithilfe des Menüs **Tags** unter **ADMINISTRATION** nach Kategorien organisieren. Erfahren Sie mehr über die Verwaltung von Tags im [Dokumentation zu Unified Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Admins können Tags löschen und mithilfe des Menüs **Tags** unter **ADMINISTRATION** nach Kategorien organisieren. Weitere Informationen über die Verwaltung von Tags finden Sie in der [Dokumentation zu einheitlichen Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=de).
 
 >[!NOTE]
 >
-> Direkt aus dem **[!UICONTROL Tags]** -Feld in Journey Optimizer werden automatisch der integrierten Kategorie &quot;Nicht kategorisiert&quot;hinzugefügt.
+> Direkt über das Feld **[!UICONTROL Tags]** in Journey Optimizer erstellte Tags werden automatisch der integrierten Kategorie „Nicht kategorisiert“ hinzugefügt.

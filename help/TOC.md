@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
       + [Erste Schritte als Administrator](using/start/path/administrator.md)
       + [Erste Schritte als Entwickler](using/start/path/developer.md)
    + [Benutzeroberfläche](using/start/user-interface.md)
-   + [Suchen, filtern, kategorisieren](using/start/search-filter-categorize.md)
+   + [Suchen, Filtern, Kategorisieren](using/start/search-filter-categorize.md)
    + [Barrierefreiheit](using/start/accessibility.md)
    + [Integrationen](using/start/ajo-integrations.md)
    + [Leitplanken](using/start/guardrails.md)

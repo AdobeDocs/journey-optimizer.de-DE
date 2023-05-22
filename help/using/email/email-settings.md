@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
 source-wordcount: '1779'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -266,4 +266,4 @@ Sie können die resultierende Tracking-URL dynamisch in der Vorschau anzeigen. J
 
 >[!NOTE]
 >
->Sie können auch dynamische personalisierte Tracking-Parameter zu den Links in Ihrem E-Mail-Inhalt hinzufügen, dies ist jedoch auf der obersten Ebene nicht möglich. Dies müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer tun. [Weitere Informationen](message-tracking.md#url-tracking)
+>Sie können auch dynamische, personalisierte Tracking-Parameter zu den Links im E-Mail-Inhalt hinzufügen. Auf Oberflächenebene ist dies jedoch nicht möglich. Diesen Schritt müssen Sie bei der Erstellung Ihrer Nachricht mit dem E-Mail-Designer durchführen. [Weitere Informationen](message-tracking.md#url-tracking)

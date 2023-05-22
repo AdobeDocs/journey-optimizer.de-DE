@@ -9,11 +9,11 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Voraussetzungen und Limits {#web-prerequisites}
+# Voraussetzungen und Leitlinien {#web-prerequisites}
 
 Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzeroberfläche von [!DNL Journey Optimizer] aufzurufen und zu verfassen.
 
@@ -127,6 +127,6 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
    ![](assets/web-aep-merge-policy.png)
 
-## Markendomänen für Assets {#branded-domains-for-assets}
+## Marken-Domains für Assets {#branded-domains-for-assets}
 
 Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)
