@@ -4,7 +4,7 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: da59efccc65d78ae357123d5f99e94cfcb52a68d
+source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 84%
@@ -96,7 +96,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <tr>
 <td>
 <p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
-<img src="assets/fragment-insert.png"/>
+<img src="assets/do-not-localize/fragments.gif"/>
 <!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
 </td>
 </tr>
