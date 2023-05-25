@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
+source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 79%
+source-wordcount: '2504'
+ht-degree: 80%
 
 ---
 
@@ -173,7 +173,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 
 
-* Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
+<!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **SMS-Kanal**
 
