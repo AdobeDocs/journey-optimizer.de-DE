@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -140,16 +140,6 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 >abstract="Um zu vermeiden, dass Ihre Kunden und Kundinnen zu oft angesprochen werden, legen Sie mithilfe der Begrenzungen fest, wie oft ein Angebot maximal unterbreitet werden kann."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=de#capping-change-date" text="Das Ändern von Datumsangaben kann sich auf die Begrenzung auswirken"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="Festlegen der Begrenzungsfrequenz"
->abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Speicherung Ihres Angebots die ausgewählte Häufigkeit nicht ändern können."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="Die Verwendung von Impressions als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
-
 Mit Begrenzungen wird definiert, wie oft ein Angebot maximal angezeigt werden kann.
 
 Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden überfordert werden, und können jeden Touchpoint mit dem besten Angebot optimieren.
@@ -183,6 +173,11 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 >Die Begrenzungszähler werden zurückgesetzt, wenn das Angebot abgelaufen ist, oder 2 Jahre nach dem Anfangsdatum des Angebots, je nachdem, was zuerst eintritt. In [diesem Abschnitt](creating-personalized-offers.md#create-offer) erfahren Sie, wie Sie das Datum eines Angebots definieren.
 
 ### Begrenzungsereignis {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="Die Verwendung von Impressions als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
 
 Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird.
 
@@ -250,6 +245,11 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 
 ### Frequenzlimitierung {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Festlegen der Begrenzungsfrequenz"
+>abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzlimitierung die definierte Häufigkeit nicht ändern können."
+
 Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möcht
 
 >[!CAUTION]
 >
->Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
+>Nach der Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Frequenz ausgewählt haben, nicht mehr ändern.
+>
+>Sie können die Frequenzlimitierung weiterhin bearbeiten, wenn das Angebot die Variable **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war.
 
 ### Begrenzung und Platzierungen {#placements}
 

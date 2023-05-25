@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,6 +99,15 @@ Stellen Sie sicher, dass der Ereignistyp und die Quelle wie folgt aussehen:
 ## Verfolgen benutzerdefinierter Ereignisse
 
 Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** aufweisen, die damit verknüpft ist. Es gibt jedoch keine spezielle Anforderung für den Erlebnisereignistyp, die zum Taggen dieser Ereignisse verwendet werden muss.
+
+>[!NOTE]
+>
+>So lassen Sie Ihre benutzerdefinierten Ereignisse in [Frequenzlimitierung](../offer-library/add-constraints.md#capping)müssen Sie das Erlebnisereignis mit den Adobe Experience Platform-Endpunkten verbinden, indem Sie es an einen dieser beiden Edge-Datenerfassungsendpunkte senden:
+>
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
+>
+>Wenn Sie die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"}, wird die Verbindung automatisch hergestellt.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
