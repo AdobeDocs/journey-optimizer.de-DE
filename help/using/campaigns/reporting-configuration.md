@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: Konfiguration, Experiment, Reporting, Optimizer
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -30,18 +27,6 @@ ht-degree: 100%
 >id="ajo_admin_reporting_dataset"
 >title="Auswählen eines Datensatzes"
 >abstract="Sie können nur einen Ereignistyp-Datensatz auswählen, der mindestens eine der unterstützten Feldergruppen enthält: Anwendungsdetails, Commerce-Details, Web-Details."
-
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
-* [Erstellen eines Inhaltsexperiments](content-experiment.md)
-* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
-* **[Konfigurieren von Experimentberichten](reporting-configuration.md)**
-* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +45,7 @@ Für diese Konfiguration müssen Sie einen oder mehrere Datensätze hinzufügen,
 ## Voraussetzungen
 
 
-Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=de#create){target="_blank"}.
+Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müssen Sie diesen Datensatz erstellen. Weitere Informationen hierzu finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
