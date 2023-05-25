@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 86%
 
 ---
 
@@ -55,20 +55,25 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
    ![](assets/sms_6.png)
 
-1. Wählen Sie Ihren **[!UICONTROL SMS-Anbieter]**:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen:
 
-   * **[!DNL Sinch]**
+   * Für **[!DNL Sinch]**:
 
-      Greifen Sie über Ihr Sinch-Konto auf das Menü „SMS“ > „APIs“ zu, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
+      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Berechtigung aus.
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL Dienst-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die Seite APIs auf. Ihre Anmeldedaten finden Sie auf der Registerkarte SMS .  [Weitere Informationen](https://developers.sinch.com/docs/sms/getting-started/)
+   * Für **[!DNL Twilio]**:
 
-      Rufen Sie auf der Konsolen-Dashboard-Seite das Kontoinformationsfenster auf, um Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** zu finden.
+      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Berechtigung aus.
 
+      * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Rufen Sie den Bereich Kontoinformationen auf Ihrer Dashboard-Seite der Twilio Console auf, um Ihre Anmeldedaten zu finden.
 
-1. Geben Sie einen **[!UICONTROL Namen]** für Ihre API-Anmeldeinformationen ein.
+      * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von Twilios API erstellten Nachricht zugewiesen ist. [Weitere Informationen](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * Für **[!DNL Infobip]**:
 
-1. Geben Sie Ihre **[!UICONTROL Service-ID]** und Ihr **[!UICONTROL API-Token]** ein.
+      * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Berechtigung aus.
+
+      * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Homepage Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf, um Ihre Anmeldedaten zu finden. [Weitere Informationen](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
