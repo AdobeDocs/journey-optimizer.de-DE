@@ -9,18 +9,15 @@ keywords: In-App, Nachricht, Erstellung, Starten
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
-workflow-type: ht
-source-wordcount: '553'
+badge: label="Beta" type="Informative"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# Erstellen einer In-App-Nachricht in einer Journey {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->Die In-App-Aktivität ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+# Erstellen einer In-App-Nachricht in einer Journey erstellen. {#create-in-app-journey}
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 

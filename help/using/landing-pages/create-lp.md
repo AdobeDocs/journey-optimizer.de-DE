@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '1539'
-ht-degree: 100%
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+workflow-type: tm+mt
+source-wordcount: '1583'
+ht-degree: 97%
 
 ---
 
 # Erstellen und Veröffentlichen von Landingpages {#create-lp}
+
+>[!CAUTION]
+>
+>Um Landingpages testen und veröffentlichen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -207,6 +211,8 @@ Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, 
 
 >[!CAUTION]
 >
+>Um Landingpages testen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
+>
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
 
 1. Klicken Sie auf der Landingpage auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um zur Testprofil-Auswahl zu gelangen.
@@ -273,6 +279,10 @@ Es können zwei Arten von Warnhinweisen auftreten:
 -->
 
 ## Veröffentlichen der Landingpage {#publish-landing-page}
+
+>[!CAUTION]
+>
+>Um Landingpages veröffentlichen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
 
 Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen.
 

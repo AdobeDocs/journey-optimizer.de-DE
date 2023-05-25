@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 78%
+source-wordcount: '118'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Um auf das Dashboard zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** >
 
 >[!NOTE]
 >
->Um das Dashboard anzeigen zu können, muss Ihnen die [Anzeigen des Dashboards zur Lizenznutzung](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=de#available-permissions){target="_blank"} Berechtigung.
+>Um das Dashboard anzeigen zu können, muss Ihnen die [Anzeigen des Dashboards zur Lizenznutzung](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} Berechtigung.
 
 Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform:
 

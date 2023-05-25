@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9bebcde9edde40a0fadba34d8b40757036a6436d
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 94%
 
 ---
 
@@ -87,6 +87,8 @@ For more information on how to configure a journey, refer to [this page](../buil
    ![](assets/in_app_create_2.png)
 
 1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
+
+1. Klicken **[!UICONTROL Experiment erstellen]** , um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen und Behandlungen zu erstellen, um ihre Leistung zu messen und die beste Option für Ihre Zielgruppe zu ermitteln. [Weitere Informationen](../campaigns/content-experiment.md)
 
 1. Klicken Sie auf **[!UICONTROL Trigger bearbeiten]**, um die Ereignisse und Kriterien auszuwählen, die Ihre Nachricht auslösen sollen:
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 7347bb56eb2785b2d9f3f641cbe3b7c1ae2d078f
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '993'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Mit dem Experience Platform Web SDK können Sie Personalisierungslösungen, eins
 
 Es gibt zwei Möglichkeiten, Entscheidungs-Management mit dem [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) zu implementieren. Eine Methode richtet sich an Entwickler und erfordert Website- und Programmierkenntnisse. Die andere Methode besteht darin, die Adobe Experience Platform-Benutzeroberfläche zum Einrichten von Angeboten zu verwenden. Hierfür ist nur ein kleines Script erforderlich, das in der Kopfzeile der HTML-Seite referenziert werden muss.
 
-Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK finden Sie in der Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de#enabling-offer-decisioning).
+Weitere Informationen zur Bereitstellung personalisierter Angebote mit dem Platform Web SDK finden Sie in der Dokumentation zu [Entscheidungs-Management](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=de).
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 1. [Erstellen Sie eine Tag-Eigenschaft](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=de)
 
-1. [Fügen Sie den Einbettungs-Code hinzu](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=de)
+1. [Fügen Sie den Einbettungs-Code hinzu](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
-1. Installieren und konfigurieren Sie die Web SDK-Erweiterung von Adobe Experience Platform mit dem von Ihnen erstellten Datenstrom, indem Sie die Konfiguration aus der Dropdown-Liste „Datenstrom“ auswählen. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de).
+1. Installieren und konfigurieren Sie die Web SDK-Erweiterung von Adobe Experience Platform mit dem von Ihnen erstellten Datenstrom, indem Sie die Konfiguration aus der Dropdown-Liste „Datenstrom“ auswählen. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -86,7 +86,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
    ![Angebot anfordern](../../assets/rule-request-offer.png)
 
-1. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=de) Sie eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben.
+1. [Erstellen und veröffentlichen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html) Sie eine Bibliothek mit allen relevanten Regeln, Datenelementen und Erweiterungen, die Sie konfiguriert haben.
 
 ## Option 2: Manuelle Implementierung mit der vordefinierten eigenständigen Version
 

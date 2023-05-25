@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Daten, Governance, Daten, Kennzeichnungen, Beschriftung, Plattform, Richtlinie
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+workflow-type: tm+mt
+source-wordcount: '900'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ In Journey Optimizer können Sie diese Richtlinien auf benutzerdefinierte Aktion
 Weitere Informationen zum Data Governance-Framework und zum Arbeiten mit Bezeichnungen und Richtlinien finden Sie in der Adobe Experience Platform-Dokumentation:
 
 * [Data Governance-Service – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de)
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de)
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de)
 
 ## Wichtige Hinweise {#important-notes}

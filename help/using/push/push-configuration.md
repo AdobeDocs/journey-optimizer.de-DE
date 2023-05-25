@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benach
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
-workflow-type: ht
-source-wordcount: '1587'
+source-git-commit: 60adbc8ad4c49b9282502d26a9a9aac73693d049
+workflow-type: tm+mt
+source-wordcount: '1588'
 ht-degree: 100%
 
 ---
@@ -119,9 +119,9 @@ Folgen Sie den Implementierungsschritten, die in den folgenden Links beschrieben
 
 ### Integrieren Ihrer Mobile App mit dem Adobe Experience Platform SDK {#integrate-mobile-app}
 
-Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Folgen Sie der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/overview){target="_blank"}, um die Einrichtung in Ihrer App mit Adobe Experience Platform Mobile SDKs durchzuführen.
+Das Adobe Experience Platform Mobile-SDK stellt über Android- und iOS-kompatible SDKs Client-seitige Integrations-APIs für Ihre Mobile Apps bereit. Folgen Sie der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}, um die Einrichtung in Ihrer App mit Adobe Experience Platform Mobile SDKs durchzuführen.
 
-Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
+Am Ende dieses Vorgangs sollten Sie auch eine mobile Property in [!DNL Adobe Experience Platform Data Collection] erstellt und konfiguriert haben. Normalerweise wird für jede Mobile App, die verwaltet werden soll, eine Mobile Property erstellt. In der [Dokumentation zum Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} erfahren Sie, wie Sie eine Mobile-Eigenschaft erstellen und konfigurieren.
 
 
 ## Schritt 1: Fügen Sie die Push-Anmeldeinformationen Ihrer Mobile App in Adobe Experience Platform Data Collection hinzu. {#push-credentials-launch}

@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: ht
-source-wordcount: '1370'
-ht-degree: 100%
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 98%
 
 ---
 
@@ -166,9 +166,10 @@ ht-degree: 100%
    + Inhaltsexperiment {#content-experiment}
       + [Erste Schritte mit dem Inhaltsexperiment](using/campaigns/get-started-experiment.md)
       + [Erstellen eines Inhaltsexperiments](using/campaigns/content-experiment.md)
-      + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
       + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
-      + [Statistische Berechnungen im Experimentationsbericht](using/campaigns/experiment-report-calculations.md)
+      + Technotes {#technotes}
+         + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
+         + [Statistische Berechnungen im Experimentationsbericht](using/campaigns/experiment-report-calculations.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 100%
          + [Erste Schritte mit E-Mail-Stilen](using/email/get-started-email-style.md)
          + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
          + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
-         + [Definieren eines Stils für Links](using/email/styling-links.md)
          + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
    + [Vorschau und Testversand von E-Mails](using/email/preview.md)
    + [Erstellen von Inhaltsvorlagen](using/email/content-templates.md)
    + [Verwenden von Experience Manager-Vorlagen](using/email/aem-templates.md)
+   + [Arbeiten mit Fragmenten](using/email/fragments.md)
    + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + Konfigurieren eines E-Mail-Kanals {#configure-email}
       + [Erste Schritte bei der E-Mail-Konfiguration](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 100%
       + [Liste von Komponenten](using/reports/global-report-components.md)
       + [Globaler Bericht zur Journey](using/reports/journey-global-report.md)
       + [Globaler Bericht zu Kampagnen](using/reports/campaign-global-report.md)
+      + [Zielbericht](using/reports/objective-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
       + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
    + Journey-Berichte {#reports}
@@ -468,13 +470,15 @@ ht-degree: 100%
          + [Integrieren mit Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
-   + [Zugriffskontrolle – Übersicht](using/administration/permissions-overview.md)
-   + [Integrierte Produktprofile](using/administration/ootb-product-profiles.md)
-   + [Verwalten von Benutzern und Produktprofilen](using/administration/permissions.md)
-   + [Berechtigungsebenen](using/administration/high-low-permissions.md)
-   + [Sandbox-Management](using/administration/sandboxes.md)
+   + Zugriffskontrolle – Übersicht {#privacy}
+      + [Erste Schritte mit der Benutzerverwaltung](using/administration/permissions-overview.md)
+      + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
+      + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
+      + [Berechtigungsebenen](using/administration/high-low-permissions.md)
+   + [Verwalten von Benutzern und Rollen](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
+   + [Sandbox-Management](using/administration/sandboxes.md)
 + Datenschutz {#privacy}
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)

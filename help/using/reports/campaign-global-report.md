@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: c9941a800783b399b587b952c4191ce906b70552
+workflow-type: tm+mt
+source-wordcount: '2262'
+ht-degree: 95%
 
 ---
 
@@ -52,6 +52,54 @@ Das Widget **[!UICONTROL Kampagnenstatistiken]** enthält die wichtigsten Inform
 * **[!UICONTROL Bereitgestellte Aktionen]**: Gesamtzahl der eindeutigen Fälle, in denen eine Aktion in der Journey ausgeführt wurde.
 
 * **[!UICONTROL Fehlgeschlagene Aktionen in %]**: Gesamtzahl der eindeutigen Fälle, in denen eine Aktion in der Journey fehlgeschlagen ist, verglichen mit der Gesamtzahl der eindeutigen Fälle, in denen eine Aktion erfolgreich ausgeführt wurde.
+
+<!--
+### Objectives report {#objectives-global}
+
+![](assets/performance_report.gif)
+
+The **[!UICONTROL Objectives]** tab allows you to better fine-tune your deliveries' reports by targeting one specific metric.
+
+The **[!UICONTROL Objectives]** listed are linked to **[!UICONTROL Datasets]** that define a connection to a system in order to retrieve additional information. A list of built-in **[!UICONTROL Objectives]** is available but you can add your own by adding new **[!UICONTROL Dataset]**. For the detailed procedure, refer to this [section](../campaigns/reporting-configuration.md).
+
+After selecting the Objectives you want to target on, the two **[!UICONTROL Performance overview]** and **[!UICONTROL Campaign objective]** widgets will provide a detailed summary of your delivery performance. 
+
+With the **[!UICONTROL Campaign objective]** widget, you can also choose to compare your main objective with another metric.
+-->
+
+### Experimentationsbericht {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Erfolgsmetrik"
+>abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
+
+![](assets/experimentation_report_3.png)
+
+Die **[!UICONTROL Experimentieren]** -Tab bietet wichtige Einblicke in die Leistung der einzelnen Varianten und ermittelt die erfolgreichste Variante.
+
+Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln. Sie wird durch das Symbol ![](assets/experimentation_report_1.png) gekennzeichnet.
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Experimentationsbericht verfügbar sind.
+
+Die Widget **[!UICONTROL Experimentergebnis]** liefert Details zur Leistung der einzelnen Varianten. Sie können Ihre Grundlinie ändern, indem Sie eine der Behandlungen aus der Dropdown-Liste **[!UICONTROL Grundlinie]** auswählen. Die beste Behandlung wird mit einem Sternsymbol gekennzeichnet.
+
+Die Tabelle enthält die folgenden Metriken:
+
+* **[!UICONTROL Steigerung gegenüber dem Ausgangswert]**: Messung der prozentualen Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zum Ausgangswert.
+
+* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Behandlung mit der Grundlinienbehandlung identisch ist. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL Ausgehende Einzelklicks]**: Gesamtanzahl der Klicks in allen ausgehenden Kanälen.
+
+* **[!UICONTROL Profile]**: Anzahl der für diese Behandlung ausgewählten Profile.
+
+* **[!UICONTROL Eindeutige ausgehende Klicks/Profile]**: Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen Ihrer Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile.
+
+Die **[!UICONTROL Konfidenzintervall]** -Diagramm misst Unsicherheit um Verbesserung. Sie zeigt den prozentualen Leistungsunterschied zwischen der Basislinie und der Behandlung mit der besten Performance. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
++++
+
+Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Registerkarte „E-Mail“ {#email-global}
 

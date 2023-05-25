@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: E-Mail, Stil, CSS, Textkörper, Struktur
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -28,5 +28,4 @@ Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen 
 
 * Erfahren Sie, wie Sie [Ihren E-Mail-Hintergrund personalisieren können](backgrounds.md).
 * Erfahren Sie, wie Sie die [vertikale Ausrichtung und den Abstand verwalten](alignment-and-padding.md).
-* Erfahren Sie, wie Sie [einen Stil für die Links in Ihrer E-Mail definieren](styling-links.md).
 * Erfahren Sie, wie Sie [Inline-Stilattribute anpassen](inline-styling.md).

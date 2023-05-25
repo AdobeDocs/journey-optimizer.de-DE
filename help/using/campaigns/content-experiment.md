@@ -8,14 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
-hide: true
-hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
-workflow-type: ht
-source-wordcount: '1145'
-ht-degree: 100%
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -26,23 +23,11 @@ ht-degree: 100%
 >title="Inhaltsexperiment"
 >abstract="Der Versandinhalt, der Betreff oder der Absender kann abgeändert werden, um mehrere Abwandlungen des Versands zu definieren und die beste Kombination für die Audiences zu ermitteln."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* [Erste Schritte mit dem Inhaltsexperiment](get-started-experiment.md)
-* **[Erstellen eines Inhaltsexperiments](content-experiment.md)**
-* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
-* [Konfigurieren von Experimentberichten](reporting-configuration.md)
-* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-Das Journey Optimizer-Inhaltsexperiment ermöglicht es Ihnen, mehrere Versandmethoden zu definieren, um zu messen, welche für Ihre Audience am besten geeignet ist. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren. Die Audience wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert.
-
 >[!NOTE]
 >
 >Bevor Sie mit dem Inhaltsexperiment beginnen, stellen Sie sicher, dass die Berichtskonfiguration für Ihre benutzerdefinierten Datensätze definiert ist. Weiterführende Informationen finden Sie in [diesem Abschnitt](reporting-configuration.md).
+
+Das Journey Optimizer-Inhaltsexperiment ermöglicht es Ihnen, mehrere Versandmethoden zu definieren, um zu messen, welche für Ihre Audience am besten geeignet ist. Sie haben die Möglichkeit, Inhalt, Betreff oder Absender des Versands zu variieren. Die Audience wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert.
 
 Im nachstehenden Beispiel wurde die Zielgruppe des Versands in zwei Gruppen aufgeteilt, die jeweils 45 % der Zielpopulation repräsentieren, und eine neutrale Gruppe von 10 %, die den Versand nicht erhalten wird.
 
@@ -72,6 +57,8 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 -->
 1. Wählen Sie Ihren Kanal und dann die **[!UICONTROL Oberfläche]** aus, die Sie für diesen Versand verwenden möchten, und klicken Sie dann auf **[!UICONTROL Erstellen]**. Weitere Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
 
+   In diesem Beispiel möchten wir eine Kampagne mit E-Mails versenden.
+
    ![](assets/content_experiment_2.png)
 
 1. Richten Sie die **[!UICONTROL Eigenschaften]** Ihres Versands ein:
@@ -90,7 +77,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 1. Um Ihre Kampagne an einem bestimmten Datum oder in wiederkehrenden Abständen auszuführen, konfigurieren Sie den Abschnitt **[!UICONTROL Zeitplan]**. [Weitere Informationen](create-campaign.md)
 
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Personalisierung Ihres Versands zu beginnen. [Weitere Informationen](../email/content-from-scratch.md)
+1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um mit der Personalisierung Ihres Versands zu beginnen.
 
    ![](assets/content_experiment_17.png)
 
@@ -160,57 +147,4 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
    ![](assets/content_experiment_14.png)
 
-Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie mit dem Kampagnenbericht den Erfolg Ihres Versands verfolgen.
-
-## Zielsetzungsbericht {#objectives-global}
-
->[!AVAILABILITY]
->
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
-
-![](assets/performance_report.gif)
-
-Auf der Registerkarte **[!UICONTROL Ziele]** im Campaign-Bericht können Sie die Berichte Ihrer Sendungen besser anpassen, indem Sie auf eine bestimmte Kennzahl abzielen.
-
-Die aufgeführten **[!UICONTROL Ziele]** sind mit **[!UICONTROL Datensätzen]** verbunden, die eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen. Eine Liste mit integrierten **[!UICONTROL Zielen]** ist verfügbar, Sie können jedoch Ihre eigenen hinzufügen, indem Sie einen neuen **[!UICONTROL Datensatz]** hinzufügen. Weiterführende Informationen finden Sie in diesem [Abschnitt](reporting-configuration.md).
-
-Nach Auswahl der Ziele, die Sie in Angriff nehmen möchten, bieten die beiden Widgets für **[!UICONTROL Leistungsübersicht]** und **[!UICONTROL Kampagnenziel]** eine detaillierte Zusammenfassung Ihrer Versandleistung.
-
-Mit dem Widget **[!UICONTROL Kampagnenziel]** können Sie auch Ihr Hauptziel mit einer anderen Metrik vergleichen.
-
-Beachten Sie, dass jedes Widget bei Bedarf in der Größe verändert und gelöscht werden kann. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
-
-## Experimentieren Bericht {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Erfolgsmetrik"
->abstract="Der Gesamtwert der Erfolgsmetrik, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile."
-
->[!AVAILABILITY]
->
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
-
-![](assets/experimentation_report_3.png)
-
-Die Registerkarte **[!UICONTROL Experimentieren]** in Ihrem **[!UICONTROL globalen Bericht]** in Campaign enthält die wichtigsten Informationen bezüglich der Leistung der einzelnen Varianten und auch dazu, ob es eine Leistung gibt, die besonders positiv heraussticht.
-
-Beachten Sie, dass es ein wenig dauern kann, um die beste Leistung zu ermitteln. Sie wird durch das Symbol ![](assets/experimentation_report_1.png) gekennzeichnet.
-
-Die Widget **[!UICONTROL Experimentergebnis]** liefert Details zur Leistung der einzelnen Varianten. Sie können Ihre Grundlinie ändern, indem Sie eine der Behandlungen aus der Dropdown-Liste **[!UICONTROL Grundlinie]** auswählen. Die beste Behandlung wird mit einem Sternsymbol gekennzeichnet.
-
-Die Tabelle enthält die folgenden Metriken:
-
-* **[!UICONTROL Profile]**: Anzahl der für diese Behandlung ausgewählten Profile.
-
-* **[!UICONTROL Ausgehende Einzelklicks]**: Gesamtanzahl der Klicks in allen ausgehenden Kanälen.
-
-* **[!UICONTROL Anzahl pro Profil]**: Gesamtwert der Experimentziel-Metrik dividiert durch die Anzahl der Profile.
-
-* **[!UICONTROL Konfidenzintervall]**: prozentualer Leistungsunterschied zwischen der Grundlinie und der Behandlung mit der besten Leistung. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
-
-* **[!UICONTROL Durchschnittlicher Anstieg]**: prozentuale Verbesserung der Konversionsrate einer bestimmten Behandlung im Vergleich zur Grundlinie. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-lift)
-
-* **[!UICONTROL Konfidenz]**: Belege dafür, dass eine bestimmte Behandlung mit der Grundlinienbehandlung identisch ist. [Weitere Informationen](../campaigns/experiment-calculations.md#understand-confidence)
-
-Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../campaigns/get-started-experiment.md#interpret-results).
+Nach der Konfiguration Ihrer Experimente und Kampagnen können Sie mit dem Kampagnenbericht den Erfolg Ihres Versands verfolgen. [Weitere Informationen](../reports/campaign-global-report.md#experimentation-report)

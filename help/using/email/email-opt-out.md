@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Opt-out, E-Mail, Link, Abo stornieren
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Um Empfängern die Möglichkeit zu geben, sich vom Erhalt von E-Mail-Nachrichten
 
 Dafür haben Sie folgende Möglichkeiten:
 
-* Fügen Sie einen **Link zu einer externen Landingpage** in eine E-Mail ein, damit sich Benutzende vom Erhalt von Nachrichten von Ihrer Marke abmelden können. [Erfahren Sie, wie man einen externen Ausschluss-Link hinzufügt](#opt-out-external-lp)
+* Fügen Sie einen **Link zu einer externen Landingpage** in eine E-Mail ein, damit sich Benutzende vom Erhalt von Nachrichten von Ihrer Marke abmelden können. [Erfahren Sie, wie Sie einen externen Ausschluss-Link hinzufügen](#opt-out-external-lp)
 
 * Fügen Sie in Ihren E-Mail-Inhalt einen **Link zum Abmelden mit einem Klick** ein. Dieser Link ermöglicht es Ihren Empfängern, sich schnell von Ihren Mitteilungen abzumelden, ohne erst auf eine Landingpage umgeleitet zu werden, auf der sie ihre Wahl bestätigen müssen, was den Abmeldeprozess beschleunigt. [Erfahren Sie, wie man einen Link zum Abmelden mit einem Klick hinzufügt](#one-click-opt-out)
 
@@ -30,7 +30,7 @@ Wenn die Option **[!UICONTROL Listen-Abonnement kündigen]** auf der Ebene der K
 
 >[!NOTE]
 >
->E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, während dies für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird auf Ebene der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) (d. h. Nachrichtenvoreinstellung) und bei der Erstellung der Nachricht definiert).
+>E-Mail-Nachrichten vom Typ Marketing müssen einen Ausschluss-Link enthalten, während dies für Transaktionsnachrichten nicht erforderlich ist. Die Kategorie der Nachricht (**[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]**) definiert wird unter [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) Ebene und beim Erstellen der Nachricht).
 
 ## Externes Opt-out {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Damit Ihre Empfangenden abgemeldet werden, wenn sie ihre Auswahl über die Landi
 
 Dieser POST-Aufruf sieht wie folgt aus:
 
-Endpunkt: platform.adobe.io/journey/imp/consent/preferences
+Endpunkt: https://platform.adobe.io/journey/imp/consent/preferences
 
 Abfrageparameter:
 
 * **params**: enthält die verschlüsselte Payload
-* **sig**: Signatur
 * **pid**: verschlüsselte Profil-ID
 
 Diese drei Parameter werden in die URL der Drittanbieter-Landingpage eingefügt, die an Ihren Empfänger gesendet wird:

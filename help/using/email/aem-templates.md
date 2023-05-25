@@ -11,10 +11,10 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine Adobe Experience Manager-Vorlage nach Adobe Jou
 
    ![](assets/aem-outbound-menu.png)
 
-1. In Ihrer Inhaltsbibliothek können Sie zuvor konfigurierte Vorlagen verwenden oder von Grund auf neu eine erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=de#creating-a-new-page)
+1. In Ihrer Inhaltsbibliothek können Sie zuvor konfigurierte Vorlagen verwenden oder von Grund auf neu eine erstellen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Indem Sie die Journey Optimizer-Personalisierungssyntax in Ihre Vorlage integrieren, können Sie deren Anpassungsfunktionen erweitern. [Weitere Informationen](../personalization/personalization-syntax.md)
 
@@ -93,7 +93,7 @@ Sobald die Experience Manager-Vorlage in Journey Optimizer als Inhaltsvorlage ve
 
 1. Um Ihre Experience Manager-Vorlage weiter zu personalisieren und benutzerdefinierte Personalisierung zu Ihrem Inhalt hinzuzufügen, klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**. Auf diese Weise können Sie einfach Änderungen vornehmen und die Vorlage an Ihre spezifischen Anforderungen anpassen. [Weitere Informationen](get-started-email-design.md)
 
-   >[!NOTE]
+   >[!WARNING]
    >
    > Wenn Sie Ihre Vorlage bearbeiten und personalisieren möchten, können Sie nur den Kompatibilitätsmodus verwenden.
 

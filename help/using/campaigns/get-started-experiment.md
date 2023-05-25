@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '2013'
+source-wordcount: '1961'
 ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Inhaltsexperimenten {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* **[Erste Schritte mit einem Inhaltsexperiment](get-started-experiment.md)**
-* [Erstellen eines Inhaltsexperiments](content-experiment.md)
-* [Verstehen von statistischen Berechnungen](experiment-calculations.md)
-* [Konfigurieren von Experimentberichten](reporting-configuration.md)
-* [Statistische Berechnungen im Experimentationsbericht](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Die Funktion für Inhaltsexperimente ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit). Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Was ist ein Inhaltsexperiment?
 

@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '208'
+ht-degree: 97%
 
 ---
 
-# Übersicht über die Benutzerverwaltung {#permissions-overview}
+# Erste Schritte mit der Benutzerverwaltung {#permissions-overview}
 
 [!DNL Journey Optimizer] ermöglicht die Definition und Verwaltung von Berechtigungen, die den verschiedenen Benutzern erteilt werden können. Berechtigungen sind eine Reihe von Rechten und Einschränkungen, die den Zugriff auf produktinterne Funktionen zulassen oder verweigern.
 

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: '898'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
    >[!NOTE]
    >
-   >Derzeit werden in [!DNL Journey Optimizer] nur Amazon S3 und SFTP unterstützt.
+   >Derzeit werden Amazon S3, SFTP und Azure in [!DNL Journey Optimizer].
 
 1. Geben Sie die Details und Anmeldedaten für Ihren Server ein, z. B. Server-Adresse, Zugriffsschlüssel usw.
 
@@ -116,7 +116,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >id="ajo_dm_surface_settings"
 >title="Definieren der Briefpost-Einstellungen"
 >abstract="Eine Briefpost-Oberfläche enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Audience enthält und vom Briefpostanbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=de#file-routing-configuration" text="Konfigurieren des Datei-Routings"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Konfigurieren des Datei-Routings"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Wählen Sie das Dateiformat aus: **[!UICONTROL CSV]** oder **[!UICONTROL Text mit Trennzeichen]**.
+
+1. Wenn Sie **[!UICONTROL Textgetrennt]** definieren Sie das Spaltentrennzeichen Ihrer Wahl: Semikolon, Rohre oder Und-Zeichen.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Wählen Sie abschließend die gewünschte **[!UICONTROL Datei-Routing-Konfiguration]** unter den von Ihnen erstellten Konfigurationen aus. Darin wird definiert, wohin die Datei für Ihren Briefpostanbieter exportiert wird.
 

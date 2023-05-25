@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Links, Tracking, Überwachen, E-Mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
+workflow-type: tm+mt
+source-wordcount: '1063'
+ht-degree: 87%
 
 ---
 
@@ -63,30 +63,59 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Externer Link]**: Fügen Sie einen Link auf eine externe URL ein.
 
-   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. Weiterführende Informationen finden Sie in [diesem Abschnitt](../landing-pages/get-started-lp.md).
+   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. [Weitere Informationen ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, mit dem sich Nutzer schnell von Ihren Mitteilungen abmelden können, ohne die Abmeldung bestätigen zu müssen. Weiterführende Informationen finden Sie in [diesem Abschnitt](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, mit dem sich Nutzer schnell von Ihren Mitteilungen abmelden können, ohne die Abmeldung bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Externes Opt-in/Abonnement]**: Einfügen eines Links, um den Erhalt von Nachrichten von Ihrer Marke zu akzeptieren.
 
-   * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Externes Opt-out/Abmeldung]**: Einfügen eines Links, über den man sich vom Erhalt von Nachrichten Ihrer Marke abmelden kann. Weitere Informationen zur Opt-out-Verwaltung finden Sie in [diesem Abschnitt](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link ein, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. Weiterführende Informationen finden Sie in [diesem Abschnitt](#mirror-page).
+   * **[!UICONTROL Mirrorseite]**: Fügen Sie einen Link hinzu, um den E-Mail-Inhalt in einem Webbrowser anzuzeigen. [Weitere Informationen](#mirror-page)
 
-1. Sie können Ihre Links personalisieren. Weitere Informationen zu personalisierten URLs finden Sie in [diesem Abschnitt](../personalization/personalization-syntax.md#perso-urls).
+1. Geben Sie die gewünschte URL in das entsprechende Feld ein oder wählen Sie eine Landingpage aus und definieren Sie die Link-Einstellungen und -Stile. [Weitere Informationen](#adjust-links)
+
+   >[!NOTE]
+   >
+   >Zur Interpretation von URLs: [!DNL Journey Optimizer] entspricht der URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), wodurch einige internationale Sonderzeichen in URLs deaktiviert werden. Wenn beim Versuch, den Testversand oder die E-Mail durchzuführen, ein Fehler mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie die Zeichenfolge als Problemumgehung URL-kodieren.
+
+1. Sie können Ihre Links personalisieren. [Weitere Informationen](../personalization/personalization-syntax.md#perso-urls)
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Sie können auch nach dem Erstellen des Links noch Änderungen im Bereich der **[!UICONTROL Komponenteneinstellungen]** auf der rechten Seite vornehmen.
-
-   * Sie können den Link bearbeiten und seinen Typ ändern.
-   * Sie können durch Aktivieren der entsprechenden Option auswählen, ob der Link unterstrichen werden soll oder nicht.
+1. Nachdem der Link erstellt wurde, können Sie ihn dennoch im **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Panes auf der rechten Seite.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird bei der Erstellung der Nachricht in der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) definiert.
+
+## Links anpassen {#adjust-links}
+
+Sie können Ihre Links mithilfe der Variablen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Panes auf der rechten Seite. Sie können einen Link unterstreichen, seine Farbe ändern und sein Ziel auswählen.
+
+1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
+
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wie Ihre Audience umgeleitet werden soll:
+
+   * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
+   * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.
+   * **[!UICONTROL Self]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde.
+   * **[!UICONTROL Parent]**: öffnet den Link im übergeordneten Frame.
+   * **[!UICONTROL Top]**: öffnet den Link im gesamten Fenster.
+
+   ![](assets/link_2.png)
+
+1. Markieren Sie **[!UICONTROL Link unterstreichen]**, damit der Titeltext Ihres Links unterstrichen wird.
+
+   ![](assets/link_1.png)
+
+1. Um die Farbe Ihres Links zu ändern, klicken Sie auf **[!UICONTROL Link-Farbe]** auf der Registerkarte **[!UICONTROL Stile]**.
+
+   ![](assets/link_3.png)
+
+1. Speichern Sie Ihre Änderungen.
 
 ## Link zu einer Mirrorseite {#mirror-page}
 

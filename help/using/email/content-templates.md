@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
-workflow-type: ht
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,6 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Greifen Sie über das linke Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** auf die Inhaltsvorlagenliste zu.
 
-   ![](assets/content-template-list.png)
-
 1. Wählen Sie **[!UICONTROL Vorlage erstellen]** aus.
 
 1. Füllen Sie die Vorlagendetails aus.
@@ -95,7 +93,7 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre E-Mail gestalten möchten:
+1. Klicken **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre Vorlage entwerfen möchten:
 
    * [Erstellen Sie Ihre E-Mail von Grund auf](content-from-scratch.md) über die Benutzeroberfläche von E-Mail-Designer.
 

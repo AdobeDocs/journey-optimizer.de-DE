@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das KI-Modell an und wählen Sie dann die Art des KI-Modells, das Sie erstellen möchten:
 
    * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebotsleistung. [Weitere Informationen](auto-optimization-model.md)
-   * **[!UICONTROL Personalisiert]** optimiert und personalisiert Angebote auf der Grundlage von Segmenten und der Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
+   * **[!UICONTROL Personalisierte Optimierung]** Optimiert und personalisiert Angebote auf der Grundlage von Segmenten und der Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,6 +50,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >[!DNL Journey Optimizer] erstellt die Rangfolge von Angeboten anhand der **Konversionsrate** (Konversionsrate = Gesamtanzahl der Konversionsereignisse / Gesamtzahl der Impression-Ereignisse). Die Konversionsrate wird anhand von zwei Metriktypen berechnet:
    >* **Impression-Ereignisse** (angezeigte Angebote)
    >* **Konversionsereignisse** (Angebote per E-Mail oder im Web, die zu Klicks führen).
+
    >
    >Diese Ereignisse werden automatisch mit dem Web SDK oder dem bereitgestellten Mobile SDK erfasst. Weiterführende Informationen dazu finden Sie in der [Übersicht über das Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de).
 
@@ -61,7 +62,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemas erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
 
-1. Wenn Sie ein KI-Modell für die **[!UICONTROL Personalisierung]** erstellen, wählen Sie ein oder mehrere Segmente aus, die für das Training des KI-Modells verwendet werden sollen.
+1. Wenn Sie eine **[!UICONTROL Personalisierte Optimierung]** AI-Modell wählen Sie die Segmente aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
    ![](../assets/ai-ranking-segments.png)
 
