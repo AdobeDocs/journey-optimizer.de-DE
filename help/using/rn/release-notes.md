@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 84%
+source-wordcount: '2530'
+ht-degree: 79%
 
 ---
 
@@ -155,6 +155,23 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 
 **Audiences**
+
+* Zur Vorbereitung auf die allgemeine Verfügbarkeit der Audience Portal-Funktion aktualisiert Adobe Experience Platform die Verwendung von &quot;Zielgruppen&quot;und &quot;Segmenten&quot;innerhalb des Systems und der Dokumentation.
+
+   * Zielgruppe: Eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
+   * Segmentdefinition: In Adobe Experience Platform werden die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe verwendet. Dieser Begriff wurde früher als &quot;Segment&quot;bezeichnet.
+
+   Daher wird in Adobe Journey Optimizer und der Benutzeroberfläche von Adobe Experience Platform &quot;Segmente&quot;durch &quot;Zielgruppen&quot;ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+
+   Die Änderungen werden mit den nächsten Benutzeroberflächen- und Dokumentationsversionen schrittweise eingeführt.
+
+   Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für alle Digital Experience-Produkte in den folgenden Sprachen harmonisiert:
+
+   * Deutsch: Zielgruppe
+   * Brasilianisches Portugiesisch: público-alvo
+   * Spanisch: público destinatario
+
+
 
 * Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
 
