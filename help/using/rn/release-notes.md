@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2477'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Frühzeitige Versionshinweise Mai 2023 {#may-rn-2023}
+## Versionshinweise für Mai 2023 {#may-rn-2023}
 
-Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröffentlichung ohne vorherige Ankündigung geändert werden. Die aktualisierte Dokumentation wird am Veröffentlichungsdatum veröffentlicht und auf dieser Seite werden direkte Links hinzugefügt.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**** Veröffentlichungsdatum: 25. Mai 2023
+**Release date**: May 25, 2023-->
 
 ### Neue Funktionen{#may-2023-features}
 
@@ -60,7 +60,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <td>
 <p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Prüfungen, was im Rahmen von Online-Tests bedeutet, dass Sie einige zufällig ausgewählte Benutzer einer bestimmten Variante einer Nachricht aussetzen und eine andere zufällig ausgewählte Gruppe von Benutzern einer anderen Variante oder Behandlung aussetzen. Nach der Belichtung können Sie dann die von Ihnen gewünschten Ergebnismetriken messen, z. B. Öffnungen von E-Mails, Abonnements oder Käufen.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 <td>
 <p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 ### Verbesserungen {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Audiences**
@@ -163,21 +155,18 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
    Daher wird in Adobe Journey Optimizer und der Benutzeroberfläche von Adobe Experience Platform &quot;Segmente&quot;durch &quot;Zielgruppen&quot;ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
-   Die Änderungen werden mit den nächsten Benutzeroberflächen- und Dokumentationsversionen schrittweise eingeführt.
-
-   Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für alle Digital Experience-Produkte in den folgenden Sprachen harmonisiert:
+   Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für einige Sprachen in allen Produkten von Digital Experience harmonisiert:
 
    * Deutsch: Zielgruppe
    * Brasilianisches Portugiesisch: público-alvo
    * Spanisch: público destinatario
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **SMS-Kanal**
 
-* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieter hinzugefügt.
+* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieter hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
 * Twillio - Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging Service SID für eine nahtlose Integration mit Ihrem Twilio-Konto hinzuzufügen.
 
 **In-App-Kanal**
@@ -197,7 +186,7 @@ Die nachfolgenden Informationen können bis zum Verfügbarkeitsdatum der Veröff
 
 **Entscheidungs-Management**
 
-* Sie können die Frequenzlimitierung jetzt bearbeiten, wenn das Angebot den Status Entwurf aufweist und noch nie zuvor veröffentlicht wurde.
+* Sie können jetzt die Frequenzlimitierung bearbeiten, wenn das Angebot die Variable **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalisierung**
 
