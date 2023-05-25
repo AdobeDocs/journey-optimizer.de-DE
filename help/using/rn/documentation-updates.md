@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
+source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
 workflow-type: tm+mt
 source-wordcount: '2818'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -19,8 +19,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Mai wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde eine neue Seite hinzugefügt, auf der beschrieben wird, wie Sie die Subdomain einrichten, die zum Veröffentlichen von Inhalten aus Adobe Experience Manager Assets Essentials in Ihren Web-Erlebnissen verwendet wird. [Weitere Informationen](../web/web-delegated-subdomains.md)
-* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem erläutert wird, wie Sie im E-Mail-Designer personalisierte Tracking-Parameter zu URLs hinzufügen. [Weitere Informationen](../email/message-tracking.md#url-tracking)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie sicherstellen können, dass die Auswahl Ihrer Kunden, die sich gegen die Verwendung ihrer Profildaten für die Personalisierung entscheiden, berücksichtigt wird. [Weitere Informationen](../privacy/opt-out.md#)
+* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem erläutert wird, wie in Email Designer URLs personalisierte Tracking-Parameter hinzugefügt werden - [Weitere Informationen](../email/message-tracking.md#url-tracking)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie sicherstellen können, dass die Auswahl Ihrer Kunden, die sich gegen die Verwendung ihrer Profildaten für die Personalisierung entscheiden, berücksichtigt wird. [Weitere Informationen](../privacy/opt-out.md#opt-out-personalization)
 
 ## April 2023 {#apr-2023}
 
