@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 80%
 
 ---
@@ -167,11 +167,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 **SMS-Kanal**
 
 * Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieter hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
-* Twillio - Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging Service SID für eine nahtlose Integration mit Ihrem Twilio-Konto hinzuzufügen.
+* Twillio - Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging Service SID für eine nahtlose Integration mit Ihrem Twilio-Konto hinzuzufügen. [Weitere Informationen](../sms/sms-configuration.md)
 
 **In-App-Kanal**
 
-* Es wurden neue Regeln für den Trigger von Nachrichten für den Adobe Places-Dienst hinzugefügt.
+* Es wurden neue Regeln für den Trigger von Nachrichten für den Adobe Places-Dienst hinzugefügt. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Es wurden neue Adobe Experience Platform Assurance-Funktionen hinzugefügt, mit denen Geräteereignisse erfasst und als Trigger-Regeln hinzugefügt werden können.
 
 **Journeys**
@@ -180,9 +180,9 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 **Kampagnen**
 
-* Jetzt ist es möglich, eine Kampagne aus dem Inventarbildschirm mithilfe des Aktionsmenüs mit Auslassungspunkten zu duplizieren.
+* Jetzt ist es möglich, eine Kampagne aus dem Inventarbildschirm mithilfe des Aktionsmenüs mit Auslassungspunkten zu duplizieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#duplicate)
 * Sie können jetzt Entwürfe von Änderungen an einer Live-Kampagne löschen.
-* Die Schritte zur Aktivierung einer Kampagne wurden nun optimiert.
+* Die Schritte zur Aktivierung einer Kampagne wurden nun optimiert. [Weitere Informationen](../campaigns/modify-stop-campaign.md)
 
 **Entscheidungs-Management**
 
