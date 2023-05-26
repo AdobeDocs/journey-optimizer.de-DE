@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 80%
+source-wordcount: '2466'
+ht-degree: 81%
 
 ---
 
@@ -174,9 +174,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 * Es wurden neue Regeln für den Trigger von Nachrichten für den Adobe Places-Dienst hinzugefügt. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Es wurden neue Adobe Experience Platform Assurance-Funktionen hinzugefügt, mit denen Geräteereignisse erfasst und als Trigger-Regeln hinzugefügt werden können.
 
+<!--
 **Journeys**
 
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Kampagnen**
 
