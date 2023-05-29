@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 6%
 
 ---
-
 
 # Arbeiten mit Fragmenten {#fragments}
 
@@ -21,8 +21,7 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von nicht-technischen Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ Gehen Sie wie folgt vor, um die Vererbung aufzuheben:
 
 1. Dieses Fragment wird zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Bearbeiten Sie sie wie jede andere Inhaltskomponente in Ihrem Inhalt. [Weitere Informationen](content-components.md)
 
-<!--
+## Anleitungsvideo {#video-fragments}
 
-## How-to video {#video-templates}
+Erfahren Sie, wie Sie Fragmente in verwalten, erstellen und verwenden [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
