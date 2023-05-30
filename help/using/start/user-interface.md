@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
+source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 99%
+source-wordcount: '869'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL ENTSCHEIDUNGS-MANAGEMENT]**
 
-* **[!UICONTROL Angebote]**: Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um neue Angebote zu erstellen. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Angebote]**: Greifen Sie über dieses Menü auf Ihre aktuellen Quellen und Datensätze zu. Verwenden Sie diesen Abschnitt, um Angebote zu erstellen. [Weitere Informationen](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Komponenten]**: Erstellen Sie Platzierungen, Regeln und Tags. [Weitere Informationen](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Komponenten]** - Erstellen Sie Platzierungen, Regeln und Tags. [Weitere Informationen](../offers/offer-library/key-steps.md)
 
 **[!UICONTROL CONTENT-MANAGEMENT]**
 
@@ -71,11 +71,11 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL VERBINDUNGEN]**
 
-* **[!UICONTROL Quellen]**: Verwenden Sie dieses Menü, um Daten aus verschiedenen Quellen aufzunehmen, z. B. Adobe-Programme, Cloud-basierte Datenspeicher, Datenbanken usw. und eingehende Daten zu strukturieren, zu kennzeichnen und zu optimieren. [Weitere Informationen](get-started-sources.md)
+* **[!UICONTROL Quellen]** - Verwenden Sie dieses Menü, um Daten aus einer Vielzahl von Quellen zu erfassen, wie z. B. Adobe Apps, Cloud-basierte Speicher, Datenbanken und mehr. Sie können eingehende Daten strukturieren, beschriften und erweitern. [Weitere Informationen](get-started-sources.md)
 
 **[!UICONTROL KUNDE]**
 
-* **[!UICONTROL Segmente]**: Erstellen und verwalten Sie Segmentdefinitionen für Adobe Experience Platform und nutzen Sie diese in Ihren Journeys. [Weitere Informationen](../segment/about-segments.md)
+* **[!UICONTROL Segmente]** - Erstellen und verwalten Sie Segmentdefinitionen für Experience Platformen und verwenden Sie sie in Ihren Journey. [Weitere Informationen](../segment/about-segments.md)
 
 * **[!UICONTROL Profile]**: Das Echtzeit-Kundenprofil erstellt eine ganzheitliche Sicht auf Ihre einzelnen Kunden und führt Daten aus mehreren Kanälen (Online-, Offline-, CRM- und Drittanbieter-Daten) zusammen. [Weitere Informationen](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey-Administration]**: Verwenden Sie dieses Menü, um [Ereignisse](../event/about-events.md), [Datenquellen](../datasource/about-data-sources.md) und [Aktionen](../action/action.md) zu konfigurieren, die Sie in Ihren Journeys verwenden können.
+* **[!UICONTROL Journey-Administration]** - Verwenden Sie dieses Menü, um [events](../event/about-events.md), [Datenquellen](../datasource/about-data-sources.md)und [Aktionen](../action/action.md) zur Anwendung in Ihren Journey.
 
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform stellt Sandboxes bereit, die eine einzelne Instanz in separate virtuelle Umgebungen aufteilen, um die Entwicklung und Weiterentwicklung von Programmen für digitale Erlebnisse zu erleichtern. [Weitere Informationen](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ Die Startseite von [!DNL Journey Optimizer] enthält wichtige Links und Ressourc
 
 ## Produktinterne Anwendungsfälle {#in-product-uc}
 
-Sie können [!DNL Adobe Journey Optimizer]-Anwendungsfälle direkt auf der Startseite verwenden und mit nur wenigen Eingaben eine Customer Journey erstellen.
+Von [!DNL Adobe Journey Optimizer] -Startseite bieten Produktanwendungsfälle eine schnelle Eingabe, um eine Journey zu erstellen.
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ Verfügbare Anwendungsfälle:
 * **Senden von E-Mails an neue Kunden**, um bis zu zwei E-Mails zu versenden, die neu registrierte Kunden willkommen heißen. (in Kürze verfügbar)
 * **Senden von Push-Benachrichtigungen an eine importierte Liste von Kunden**, um schnell eine Push-Benachrichtigung an eine Liste von Kunden zu senden, die aus einer CSV-Datei importiert wurden. (in Kürze verfügbar)
 
-Klicken Sie auf **[!UICONTROL Details anzeigen]**, um mehr über jeden Anwendungsfall zu erfahren.
+Um mehr über die einzelnen Anwendungsfälle zu erfahren, klicken Sie auf das **[!UICONTROL Details anzeigen]** Link.
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Starten]**, um den Anwendungsfall zu starten.
+Um einen Anwendungsfall auszuführen, klicken Sie auf das **[!UICONTROL Starten]** Schaltfläche.
 
 Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzeigen]** auf ausgeführte Anwendungsfälle zugreifen.
 
@@ -112,13 +112,15 @@ Sie können über die Schaltfläche **[!UICONTROL Anwendungsfallbibliothek anzei
 
 Über den unteren Bereich der Startseite können Sie auf die wichtigsten Hilfeseiten von Adobe Journey Optimizer zugreifen.
 
-Verwenden Sie das Symbol **Hilfe**, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu geben. Über das Suchfeld können Sie Hilfeartikel und Videos suchen.
+Verwenden Sie die **Hilfe** -Symbol, um auf Hilfeseiten zuzugreifen, den Support zu kontaktieren und Feedback zu teilen. Über das Suchfeld können Sie Hilfeartikel und Videos suchen.
 
 ![](assets/ajo-help.png)
 
+Verwenden Sie auf jeder Seite die Schaltflächen der kontextuellen Hilfe , um mehr über eine Funktion zu erfahren, und navigieren Sie zu **[!DNL Adobe Experience League]** Dokumentation.
+
 ## Sprachvoreinstellungen {#language-pref}
 
-Die Benutzeroberfläche ist derzeit in folgenden Sprachen verfügbar:
+Die Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
 
 * Englisch
 * Französisch
