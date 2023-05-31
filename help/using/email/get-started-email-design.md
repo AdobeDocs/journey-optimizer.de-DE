@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
-workflow-type: ht
-source-wordcount: '461'
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+workflow-type: tm+mt
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -64,8 +64,12 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 
    ![](assets/email_designer_export.png)
 
-## Anleitungsvideo {#video}
+## Anleitungsvideos {#video}
 
 Erfahren Sie, wie Sie mit dem Nachrichteneditor E-Mail-Inhalte erstellen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Erfahren Sie, wie Sie Inhaltsexperimente für A/B-Tests konfigurieren und E-Mail-Inhalte ausprobieren können, um Ihre Geschäftsziele bestmöglich zu erreichen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

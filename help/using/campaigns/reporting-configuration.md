@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Experiment, Reporting, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 98%
+source-wordcount: '564'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 98%
 >title="Auswählen eines Datensatzes"
 >abstract="Sie können nur einen Ereignistyp-Datensatz auswählen, der mindestens eine der unterstützten Feldergruppen enthält: Anwendungsdetails, Commerce-Details, Web-Details."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+Mit der Konfiguration der Berichtsdatenquelle können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen abzurufen, die in Ihren Berichten verwendet werden.
 
-Mit der Konfiguration der Reporting-Datenquelle können Sie zusätzliche Metriken abrufen, die in der Registerkarte **[!UICONTROL Ziele]** in den Kampagnenberichten verwendet werden. [Weitere Informationen](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
    Wenn Sie einen Bericht über mobile Interaktionen erstellen möchten, müssen Sie außerdem einen Erlebnisereignis-Datensatz mit der Feldergruppe **Anwendungsdetails** erstellen.
 
-   Die den einzelnen Feldergruppen entsprechenden Metriken werden [hier](#objective-list) aufgelistet.
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * Sie können diese Feldergruppen zu einem oder mehreren Schemata hinzufügen, die in einem oder mehreren Datensätzen verwendet werden.
 
@@ -67,15 +67,17 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 >
 >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
 
-## Ziele für jede Feldergruppe {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Registerkarte **[!UICONTROL Ziele]** in Ihren Kampagnenberichten hinzugefügt werden.
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| Feldergruppe | Ziele |
+| Field group | Objectives |
 |--- |--- |
-| Commerce-Details | Preis gesamt<br>Zahlungsbetrag<br>(Eindeutige) Checkouts<br>(Eindeutige) Produktlisten-Hinzufügungen<br>(Eindeutige) Produktlisten-Öffnungen<br>(Eindeutige) Produktlisten-Entfernungen<br>(Eindeutige) Produktlisten-Ansichten<br>(Eindeutige) Produktansichten<br>(Eindeutige) Käufe<br>(Eindeutig) Speicherungen für später<br>Produktpreis gesamt<br>Produktmenge |
-| Anwendungsdetails | (Eindeutige) App-Starts<br>Erste App-Starts<br>(Eindeutige) App-Installationen<br>(Eindeutige) App-Upgrades |
-| Web-Details | (Eindeutige) Seitenansichten |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## Hinzufügen von Datensätzen {#add-datasets}
 
@@ -123,15 +125,16 @@ Die nachstehende Tabelle zeigt, welche Metriken für jede Feldergruppe zur Regis
    >
    >Wenn Sie einen Datensatz ausgewählt haben, der nicht vom Typ „Ereignis“ ist, können Sie nicht fortfahren.
 
-Beim Erstellen Ihrer Kampagnenberichte können Sie nun die Metriken sehen, die den in den hinzugefügten Datensätzen verwendeten Feldergruppen entsprechen. Gehen Sie zur Registerkarte **[!UICONTROL Ziele]** und wählen Sie die gewünschten Metriken aus, um Ihre Berichte entsprechend Ihren Anforderungen anzupassen. [Weitere Informationen](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Wenn Sie mehrere Datensätze hinzufügen, stehen alle Daten aus allen Datensätzen für das Reporting zur Verfügung.
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
