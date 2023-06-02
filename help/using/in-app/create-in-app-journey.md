@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 82%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -51,6 +51,7 @@ ht-degree: 82%
    * **[!UICONTROL Jedes Mal anzeigen]**: Die Nachricht wird immer angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
    * **[!UICONTROL Einmal anzeigen]**: Die Nachricht wird nur beim ersten Mal angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
    * **[!UICONTROL Bis zu Clickthrough anzeigen]**: Diese Nachricht wird anzeigen, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten, bis vom SDK ein Interaktionsereignis mit einer Aktion „angeklickt“ übermittelt wird.
+   * **[!UICONTROL X Häufigkeit]**: Zeigen Sie die Nachricht nur eine bestimmte Anzahl an Malen an, bestimmt durch den Wert, der in der Variablen **[!UICONTROL Anzeigezeiten]** -Feld.
 
 1. Wählen Sie den Wochentag und den Zeitpunkt aus, zu dem Ihre In-App-Nachricht ausgelöst werden soll, und klicken Sie auf **[!UICONTROL Speichern]**.
 
