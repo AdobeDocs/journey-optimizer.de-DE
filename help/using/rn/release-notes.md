@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Versionshinweise für Mai 2023 {#may-rn-2023}
+## Versionshinweise Mai 2023 {#may-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -52,15 +52,15 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltstest in Kampagnen</strong><br/></th>
+<th><strong>Inhaltsexperiment in Kampagnen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Prüfungen, was im Rahmen von Online-Tests bedeutet, dass Sie einige zufällig ausgewählte Benutzer einer bestimmten Variante einer Nachricht aussetzen und eine andere zufällig ausgewählte Gruppe von Benutzern einer anderen Variante oder Behandlung aussetzen. Nach der Belichtung können Sie dann die von Ihnen gewünschten Ergebnismetriken messen, z. B. Öffnungen von E-Mails, Abonnements oder Käufen.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Behandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,15 +89,15 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Fragmente in E-Mail-Inhalten erstellen und verwenden</strong><br/></th>
+<th><strong>Erstellen und Verwenden von Fragmenten in E-Mail-Inhalten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
+<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in Journey Optimizer-Kampagnen und -Journeys in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Design-Prozess zu ermöglichen.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -115,7 +115,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <td>
 <p>Sie können nun Ihren Kampagnen einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. Die Funktion für einheitliche Tags befindet sich derzeit in der Betaphase.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">detaillierten Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -126,13 +126,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Personalisierte Optimierungs-KI-Ranking-Modell (Allgemeine Verfügbarkeit)</strong><br/></th>
+<th><strong>KI-Ranking-Modell für personalisierte Optimierung (allgemeine Verfügbarkeit)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalisierte Optimierungs-AI-Ranking-Modelle sind jetzt im Entscheidungsmanagement allgemein verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
+<p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -146,16 +146,16 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 
 
-**Audiences**
+**Zielgruppen**
 
-* Zur Vorbereitung auf die allgemeine Verfügbarkeit der Audience Portal-Funktion aktualisiert Adobe Experience Platform die Verwendung von &quot;Zielgruppen&quot;und &quot;Segmenten&quot;innerhalb des Systems und der Dokumentation.
+* Zur Vorbereitung auf die allgemeine Verfügbarkeit der Audience Portal-Funktion aktualisiert Adobe Experience Platform die Verwendung von „Zielgruppen“ und „Segmenten“ innerhalb des Systems und der Dokumentation.
 
-   * Zielgruppe: Eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
-   * Segmentdefinition: In Adobe Experience Platform werden die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe verwendet. Dieser Begriff wurde früher als &quot;Segment&quot;bezeichnet.
+   * Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
+   * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
 
-   Daher wird in Adobe Journey Optimizer und der Benutzeroberfläche von Adobe Experience Platform &quot;Segmente&quot;durch &quot;Zielgruppen&quot;ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+   Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
-   Die Übersetzungen des Begriffs &quot;Zielgruppe&quot;bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurden für einige Sprachen in allen Produkten von Digital Experience harmonisiert:
+   Die Übersetzung des englischen Begriffs „Audience“ bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurde für einige Sprachen in allen Produkten von Digital Experience vereinheitlicht:
 
    * Deutsch: Zielgruppe
    * Brasilianisches Portugiesisch: público-alvo
@@ -166,13 +166,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 **SMS-Kanal**
 
-* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieter hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
-* Twillio - Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging Service SID für eine nahtlose Integration mit Ihrem Twilio-Konto hinzuzufügen. [Weitere Informationen](../sms/sms-configuration.md)
+* Bei der Konfiguration der Oberfläche Ihres SMS-Kanals wurde Infobip als Anbieterfirma hinzugefügt. [Weitere Informationen](../sms/sms-configuration.md)
+* Twillio – Die Einrichtung von API-Anmeldedaten bietet jetzt die Möglichkeit, die Messaging-Service-SID für eine nahtlose Integration in Ihr Twillio-Konto hinzuzufügen. [Weitere Informationen](../sms/sms-configuration.md)
 
 **In-App-Kanal**
 
 * Es wurden neue Regeln für den Trigger von Nachrichten für den Adobe Places-Dienst hinzugefügt. [Weitere Informationen](../in-app/inapp-configuration.md)
-* Es wurden neue Adobe Experience Platform Assurance-Funktionen hinzugefügt, mit denen Geräteereignisse erfasst und als Trigger-Regeln hinzugefügt werden können.
+* Es wurden neue Adobe Experience Platform-Sicherheitsfunktionen hinzugefügt, mit denen Geräteereignisse erfasst und als Trigger-Regeln hinzugefügt werden können.
 
 <!--
 **Journeys**
@@ -182,21 +182,21 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 **Kampagnen**
 
-* Jetzt ist es möglich, eine Kampagne aus dem Inventarbildschirm mithilfe des Aktionsmenüs mit Auslassungspunkten zu duplizieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#duplicate)
+* Jetzt ist es möglich, eine Kampagne über den Inventarbildschirm mithilfe des Aktionsmenüs (drei Punkte) zu duplizieren. [Weitere Informationen](../campaigns/modify-stop-campaign.md#duplicate)
 * Sie können jetzt Entwürfe von Änderungen an einer Live-Kampagne löschen.
-* Die Schritte zur Aktivierung einer Kampagne wurden nun optimiert. [Weitere Informationen](../campaigns/modify-stop-campaign.md)
+* Die Schritte zur Aktivierung einer Kampagne sind jetzt optimiert. [Weitere Informationen](../campaigns/modify-stop-campaign.md)
 
 **Entscheidungs-Management**
 
-* Sie können jetzt die Frequenzlimitierung bearbeiten, wenn das Angebot die Variable **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
+* Sie können jetzt die Frequenzlimitierung bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie zuvor mit aktivierter Frequenzlimitierung veröffentlicht wurde. [Weitere Informationen](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalisierung**
 
-* Sie können Asset-Verweise jetzt direkt im Personalisierungs-Editor auswählen und einfügen, wenn Sie HTML-Inhalte verwenden.
+* Sie können Verweise auf Assets jetzt direkt im Personalisierungs-Editor auswählen und einfügen, wenn Sie in HTML-Inhalten arbeiten.
 
 ### Fehlerbehebungen{#may-2023-fixes}
 
-* In-App-Nachrichten - Es wurde ein Problem behoben, bei dem die Planung von Kampagnen mit den Einstellungen für die Nachrichtenfrequenz in Konflikt stand.
+* In-App-Nachrichten – Es wurde ein Problem behoben, bei dem die Planung von Kampagnen mit den Häufigkeitseinstellungen für Nachrichten in Konflikt stand.
 
 
 ## Versionshinweise April 2023 {#apr-rn-2023}
@@ -226,7 +226,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Schnellstart-Workflow für das mobile Onboarding (Beta)</strong><br/></th>
+<th><strong>Schnellstart-Workflow für Mobile-Onboarding (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Mai 2023 {#may-2023}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Mai wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom Mai 2023 werden in der Dokumentation ausführlich beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde eine neue Seite hinzugefügt, auf der beschrieben wird, wie Sie die Subdomain einrichten, die zum Veröffentlichen von Inhalten aus Adobe Experience Manager Assets Essentials in Ihren Web-Erlebnissen verwendet wird. [Weitere Informationen](../web/web-delegated-subdomains.md)
-* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem erläutert wird, wie in Email Designer URLs personalisierte Tracking-Parameter hinzugefügt werden - [Weitere Informationen](../email/message-tracking.md#url-tracking)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie sicherstellen können, dass die Auswahl Ihrer Kunden, die sich gegen die Verwendung ihrer Profildaten für die Personalisierung entscheiden, berücksichtigt wird. [Weitere Informationen](../privacy/opt-out.md#opt-out-personalization)
+* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem erläutert wird, wie Sie im E-Mail-Designer personalisierte Tracking-Parameter zu URLs hinzufügen. [Weitere Informationen](../email/message-tracking.md#url-tracking)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie sicherstellen können, dass die Auswahl Ihrer Kundschaft, die sich gegen die Verwendung ihrer Profildaten für die Personalisierung entscheidet, berücksichtigt wird. [Weitere Informationen](../privacy/opt-out.md#opt-out-personalization)
 * Es wurde ein Hinweis zur Verwendung von internationalen Sonderzeichen in URLs hinzugefügt, die in E-Mail-Inhalten enthalten sind. [Weitere Informationen](../email/message-tracking.md#insert-links)
-* Die zum Testen und Veröffentlichen von Landingpages erforderliche Berechtigung wurde hinzugefügt - [Weitere Informationen](../landing-pages/create-lp.md)
-* Es wurde ein Hinweis zu den Adobe Experience Platform-Endpunkten hinzugefügt, die erforderlich sind, damit Ihre benutzerdefinierten Ereignisse bei der Frequenzbegrenzung für die Entscheidungsverwaltung berücksichtigt werden. [Weitere Informationen](../offers/data-collection/schema-requirement.md#track-custom-events)
+* Die zum Testen und Veröffentlichen von Landingpages erforderliche Berechtigung wurde hinzugefügt. [Weitere Informationen](../landing-pages/create-lp.md)
+* Es wurde ein Hinweis zu den Adobe Experience Platform-Endpunkten hinzugefügt, die erforderlich sind, damit Ihre benutzerdefinierten Ereignisse bei der Frequenzlimitierung im Entscheidungs-Management berücksichtigt werden. [Weitere Informationen](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## April 2023 {#apr-2023}
 
