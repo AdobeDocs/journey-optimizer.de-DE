@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,4 +94,4 @@ So weisen Sie Ihren Objekten in Journey Optimizer benutzerdefinierte oder Core-B
 Um Zugriff auf dieses Objekt zu erhalten, muss die spezifische **[!UICONTROL Bezeichnung]** in den **[!UICONTROL Rollen]** der Benutzenden enthalten sein.
 Beispiel: Eine Benutzerin mit der Bezeichnung C1 hat nur Zugriff auf Objekte mit der Bezeichnung C1 oder ohne Bezeichnung.
 
-Weitere Informationen zur Zuweisung von **[!UICONTROL Bezeichnungen]** zu **[!UICONTROL Rollen]** finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).
+Weitere Informationen zur Zuweisung von **[!UICONTROL Bezeichnungen]** zu **[!UICONTROL Rollen]** finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html?lang=de#manage-labels-for-a-role).

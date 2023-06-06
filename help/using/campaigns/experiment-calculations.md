@@ -12,7 +12,7 @@ exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
 Dieser Artikel beschreibt die statistischen Berechnungen, die bei der Durchführung von Experimenten in Adobe Journey Optimizer verwendet werden.
 
-Experimentationszwecke [erweiterte statistische Methoden](../campaigns/assets/confidence_sequence_technical_details.pdf) zu berechnen **Konfidenzsequenzen** und **Konfidenz**, mit denen Sie Ihre Experimente so lange wie nötig ausführen und Ihre Ergebnisse kontinuierlich überwachen können.
+Experimente verwenden [fortschrittliche statistische Methoden](../campaigns/assets/confidence_sequence_technical_details.pdf) zur Berechnung von **Konfidenzsequenzen** und **Konfidenz**, die es Ihnen ermöglichen, Ihre Experimente so lange wie nötig durchzuführen und Ihre Ergebnisse kontinuierlich zu überwachen.
 
 Dieser Artikel beschreibt die Funktionsweise von Experimenten und bietet eine intuitive Einführung in die **jederzeit gültigen Konfidenzsequenzen** von Adobe.
 
@@ -28,23 +28,23 @@ Für erfahrene Benutzende sind die technischen Details und Referenzen auf [diese
 
 ## Statistische Tests und Fehlerkontrolle {#statistical-testing}
 
-Wenn Sie ein Experiment durchführen, versuchen Sie zu ermitteln, ob ein Unterschied zwischen zwei Populationen besteht und die Wahrscheinlichkeit, dass ein Unterschied auf Zufall zurückzuführen ist.
+Mit einem Experiment möchten Sie ermitteln, ob ein Unterschied zwischen zwei Populationen besteht, und die Wahrscheinlichkeit bestimmen, dass ein Unterschied auf einen Zufall zurückzuführen ist.
 
 Im Allgemeinen gibt es zwei Hypothesen:
 
-* die **Null-Hypothese** bedeutet, dass es keine Wirkung auf die Behandlung gibt.
-* die **Alternative Hypothese** bedeutet, dass es eine Wirkung auf die Behandlung gibt.
+* Die **Nullhypothese** bedeutet, dass es durch die Abwandlung keine Auswirkung gibt.
+* Die **Alternativhypothese** bedeutet, dass es durch die Abwandlung eine Auswirkung gibt.
 
-In statistischer Hinsicht soll versucht werden, die Stärke der Beweise zu beurteilen, um die Null-Hypothese abzulehnen. Ein wichtiger Punkt ist, dass statistische Bedeutung verwendet wird, um zu beurteilen, wie wahrscheinlich die Behandlungen anders sein werden, und nicht, wie wahrscheinlich sie erfolgreich sein werden. Daher wird die statistische Bedeutung in Kombination mit **Steigerung**.
+Bei der statistischen Signifikanz geht es darum zu bewerten, wie stark die Beweise sind, um die Nullhypothese zu verwerfen. Ein wichtiger Punkt, den es zu beachten gilt: Mithilfe der statistischen Signifikanz wird beurteilt, wie wahrscheinlich Unterschiede durch die Abwandlungen sind, nicht jedoch die Wahrscheinlichkeit ihres Erfolgs. Daher wird die statistische Signifikanz in Verbindung mit der **Steigerung** verwendet.
 
-Für eine wirksame Experimentierung müssen verschiedene Fehlertypen berücksichtigt werden, die zu falschen Schlussfolgerungen führen können.
+Für wirksame Experimente müssen verschiedene Fehlertypen berücksichtigt werden, die zu falschen Rückschlüssen führen können.
 
 ![](assets/technote_1.png)
 
 Die obige Tabelle zeigt die verschiedenen Fehlertypen:
 
-* **Falsch positive Werte (Fehler vom Typ I)**: eine falsche Zurückweisung der Nullhypothese, obwohl sie tatsächlich wahr ist. Im Kontext von Online-Experimenten bedeutet dies, dass wir fälschlicherweise zu dem Schluss kommen, dass die Ergebnismetrik zwischen den einzelnen Behandlungen unterschiedlich ist, obwohl sie identisch war.
-   </br>Bevor wir das Experiment durchführen, wählen wir normalerweise einen Schwellenwert `\alpha`. Nachdem das Experiment ausgeführt wurde, wird die `p-value` berechnet wird und wir lehnen die `null if p < \alpha`.Auswählen einer `/alpha` basiert auf den Konsequenzen, die sich daraus ergeben, dass Sie die falsche Antwort erhalten, z. B. in einer klinischen Studie, in der das Leben eines Menschen beeinträchtigt werden könnte, wenn Sie sich für eine `\alpha = 0.005`. Eine häufig verwendete Schwelle für Online-Experimente ist `\alpha = 0.05`, was bedeutet, dass wir auf lange Sicht erwarten, dass 5 von 100 Experimenten falsch-positive Ergebnisse sind.
+* **Falsch-Positiv (Fehler vom Typ I)**: ist eine falsche Zurückweisung der Nullhypothese, obwohl sie in Wirklichkeit wahr ist. Im Kontext von Online-Experimenten bedeutet dies, dass wir fälschlicherweise zu dem Schluss kommen, dass die Ergebniskennzahl zwischen den einzelnen Abwandlungen unterschiedlich ist, obwohl sie identisch war.
+   </br>Bevor wir das Experiment durchführen, wählen wir normalerweise einen Schwellenwert `\alpha`. Nachdem das Experiment ausgeführt wurde, wird der `p-value` berechnet, und wenn er über dem Schwellenwert liegt, weisen wir die Nullhypothese zurück (nicht `null if p < \alpha`). Die Wahl von `/alpha` basiert auf den Konsequenzen einer falschen Antwort, so könnte man sich z. B. in einer klinischen Studie, in der das Leben eines Menschen betroffen sein könnte, für ein `\alpha = 0.005` entscheiden. Ein häufig verwendeter Schwellenwert bei Online-Experimenten ist `\alpha = 0.05`, was bedeutet, dass auf lange Sicht 5 von 100 Experimenten als falsch-positiv eingestuft werden.
 
 * **Falsch-Negativ (Fehler vom Typ II)**: bedeutet, dass wir die Nullhypothese nicht zurückweisen, obwohl sie falsch ist. Bei Experimenten bedeutet dies, dass wir die Nullhypothese nicht ablehnen, obwohl sie in Wirklichkeit anders ist. Um diesen Fehlertyp zu kontrollieren, müssen wir im Allgemeinen genügend Teilnehmende in unserem Experiment haben, um eine bestimmte Aussagekraft (Power) zu gewährleisten, die als `1 - \beta` (d. h. 1 minus die Wahrscheinlichkeit eines Fehlers vom Typ II) definiert ist.
 
@@ -66,7 +66,7 @@ Die theoretischen Grundlagen der **Konfidenzsequenzen** stammen aus der Untersuc
 
 >[!NOTE]
 >
->Konfidenzsequenzen können als sichere sequenzielle Analoga von Konfidenzintervallen interpretiert werden. Mit Konfidenzintervallen können Sie das Experiment erst interpretieren, wenn Sie die vordefinierte Stichprobengröße erreicht haben. Mit Konfidenzsequenzen können Sie Daten jedoch jederzeit in Ihren Experimenten ansehen und interpretieren sowie Experimente sicher stoppen oder fortsetzen. die entsprechende &quot;Beliebige Zeit gültige Konfidenz&quot;oder `p-value`, ist auch jederzeit sicher zu interpretieren.
+>Konfidenzsequenzen können als sichere sequenzielle Analoga von Konfidenzintervallen interpretiert werden. Mit Konfidenzintervallen können Sie das Experiment erst interpretieren, wenn die vordefinierte Stichprobengröße erreicht wurde. Mit Konfidenzsequenzen können Sie Daten jedoch jederzeit in Ihren Experimenten betrachten und interpretieren sowie Experimente sicher stoppen oder fortsetzen. Der entsprechende jederzeit gültige Konfidenzwert, auch `p-value` genannt, kann ebenfalls immer sicher interpretiert werden.
 
 Es ist wichtig zu beachten, dass Konfidenzsequenzen, da sie „jederzeit gültig“ sind, konservativer sind als eine Methodik mit festem Zeithorizont, die bei gleichem Stichprobenumfang verwendet wird. Die Grenzen der Konfidenzsequenzen sind im Allgemeinen breiter als die einer Konfidenzintervallberechnung, während die jederzeit gültige Konfidenz kleiner ist als eine Konfidenzberechnung mit festem Horizont. Der Vorteil dieses Konservatismus besteht darin, dass Sie Ihre Ergebnisse jederzeit sicher interpretieren können.
 

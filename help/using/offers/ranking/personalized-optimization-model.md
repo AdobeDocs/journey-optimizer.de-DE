@@ -10,7 +10,7 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn eine Bank beispielsweise zwei Kreditkarten anbietet, deren einziger Untersc
 
 ## Funktionsweise {#how}
 
-Das Modell lernt komplexe Funktionsinteraktionen zwischen Angeboten, Benutzerinformationen und Kontextinformationen, um Endbenutzern personalisierte Angebote zu empfehlen. Funktionen werden durch Eingaben in das Modell verfügbar.
+Das Modell lernt komplexe Wechselwirkungen zwischen Angeboten, Informationen über Benutzende und kontextuelle Informationen, um Endbenutzenden personalisierte Angebote zu empfehlen. Funktionen werden durch Eingaben in das Modell verfügbar.
 
 Es gibt drei Arten von Funktionen:
 
@@ -62,7 +62,7 @@ Im Grunde werden hierbei frühere Merkmalsinteraktionen erlernt und gespeichert 
 Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um eine Empfehlung bereitzustellen. Bei der automatischen Personalisierung gibt es zwei Arten von „Kaltstart“-Problemen.
 
 * **Nachdem eine neue Rangfolgestrategie ohne historische Daten erstellt wurde**, werden die Angebote über einen bestimmten Zeitraum nach dem Zufallsprinzip bereitgestellt, um Daten zu sammeln, die dann zum Trainieren des ersten Modells verwendet werden.
-* **Nach der Veröffentlichung des ersten Modells**, werden 10 % des gesamten Traffics für zufällige Dienste zugewiesen, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote in die Rangfolgestrategie aufgenommen werden, würden sie als Teil der 10 % des Traffics bereitgestellt werden. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.
+* **Nach der Freigabe des ersten Modells** werden 10 % des gesamten Traffics für die zufällige Auslieferung von Angeboten verwendet, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote in die Rangfolgestrategie aufgenommen werden, würden sie als Teil der 10 % des Traffics bereitgestellt werden. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.
 
 ## Erneutes Training {#re-training}
 

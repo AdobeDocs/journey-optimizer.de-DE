@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ So können Sie beispielsweise ein KI-Modell für den E-Mail-Kanal und ein andere
 
 >[!IMPORTANT]
 >
->Derzeit werden Rangmodelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
+>Derzeit werden Rangfolgemodelle in von Journey Optimizer erstellten Kanälen nicht unterstützt.
 
 ## KI-Modelltypen {#ai-model-types}
 
@@ -32,7 +32,7 @@ In [!DNL Journey Optimizer] sind zwei Arten von KI-Modellen verfügbar:
 
 * Mit einem **Modell mit automatischer Optimierung** werden Angebote geschaltet, die darauf abzielen, den von Business-Kunden festgelegten Gewinn (KPIs) zu maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote. [Weitere Informationen](auto-optimization-model.md)
 
-* **Personalisierte Optimierungsmodelle** ermöglichen es Ihnen, Geschäftsziele zu definieren und mithilfe von Kundendaten geschäftsorientierte Modelle zu schulen, um personalisierte Angebote bereitzustellen und KPIs zu maximieren. [Weitere Informationen](personalized-optimization-model.md)
+* **Personalisierte Optimierungsmodelle** ermöglichen es Ihnen, Geschäftsziele zu definieren und mithilfe von Kundendaten geschäftsorientierte Modelle zu trainieren, um personalisierte Angebote bereitzustellen und KPIs zu maximieren. [Weitere Informationen](personalized-optimization-model.md)
 
 ## Erstellen eines KI-Modells {#create-ai-model}
 
@@ -46,6 +46,6 @@ Die wichtigsten Schritte zum Erstellen und Verwenden von KI-Modellen sind:
 
    >[!IMPORTANT]
    >
-   >Rangmodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Erfahren Sie mehr über die Entscheidungsverwaltung bei der Datenerfassung.](../data-collection/data-collection.md)
+   >Rangfolgemodelle erfordern, dass Feedback-Ereignisse als Erlebnisereignisse gesendet werden, damit sie erfasst werden können. [Erfahren Sie mehr über die Datenerfassung beim Entscheidungs-Management.](../data-collection/data-collection.md)
 
 1. Weisen Sie das KI-Modell einer Platzierung in einer Entscheidung zu, um eine Rangliste der geeigneten Angebote zu erstellen. [Weitere Informationen](../offer-activities/configure-offer-selection.md)

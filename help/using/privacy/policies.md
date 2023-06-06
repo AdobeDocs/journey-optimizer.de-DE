@@ -10,7 +10,7 @@ exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ Datennutzungsrichtlinien sind Regeln, die die Arten von Marketing-Aktionen besch
 Weitere Informationen zum Data Governance-Framework und zum Arbeiten mit Bezeichnungen und Richtlinien finden Sie in der Adobe Experience Platform-Dokumentation:
 
 * [Data Governance-Service – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=de)
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de)
 * [Datennutzungsrichtlinien](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=de)

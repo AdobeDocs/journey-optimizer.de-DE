@@ -10,52 +10,52 @@ level: Intermediate
 source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Implementieren der Zustimmung zum Opt-out für die Personalisierung {#cpes-opt-out}
+# Implementieren der Zustimmung zum Opt-out von der Personalisierung {#cpes-opt-out}
 
 
 ## Ausdruckseditor
 
-Ausdruckseditor beim Personalisieren von Bildern, Text und Betreffzeile ( Segment in Kampagnen) - Benutzeroberfläche und Headless
+Ausdrucks-Editor beim Personalisieren von Bildern, Text und Betreffzeile (Segment in Kampagnen) – Benutzeroberfläche und Headless
 
-Der Personalisierungseditor selbst führt keine Einwilligungsüberprüfungen oder Durchsetzungsmaßnahmen durch, da er nicht an der Bereitstellung von Nachrichtenaktionen beteiligt ist. Der Personalisierungs-Editor hält sich an berechtigungsbasierte Zugriffssteuerungsbezeichnungen, die vom einheitlichen Profildienst bereitgestellt werden, um die Verwendung verschiedener Felder für die Personalisierung zu ermöglichen/zu verbieten. Der Nachrichtenvorschau- und Renderdienst maskiert identifizierte Felder mit sensiblen Informationen.
+Der Personalisierungseditor selbst führt keine Einverständnisüberprüfung oder -durchsetzung durch, da er nicht am Versand von Nachrichtenaktionen beteiligt ist. Der Personalisierungs-Editor hält sich an berechtigungsbasierte Zugriffssteuerungsbezeichnungen, die vom einheitlichen Profildienst bereitgestellt werden, um die Verwendung verschiedener Felder für die Personalisierung zu ermöglichen bzw. zu verbieten. Der Vorschau- und Render-Dienst für Nachrichten maskiert identifizierte Felder mit sensiblen Informationen.
 
-In AJO-Kampagnen kann die Durchsetzung der Zustimmungsrichtlinie an zwei Orten erfolgen. Kunden können Definitionen von Zustimmungsrichtlinien als Teil der Zielgruppe oder Segmenterstellung einbeziehen, um sicherzustellen, dass die für die Kampagne ausgewählte Zielgruppe bereits Profile herausgefiltert hat, die nicht den Zustimmungskriterien entsprechen. Zweitens führt der Message-Runtime-Dienst eine allgemeine Zustimmungsprüfung auf Kanalebene durch, um sicherzustellen, dass sich Profile für den Empfang von Marketing-Nachrichten über den jeweiligen Kanal angemeldet haben. Das AJO Campaign-Objekt selbst führt derzeit keine zusätzlichen Prüfungen zur Durchsetzung von Zustimmungsrichtlinien durch.
+In AJO-Kampagnen kann die Durchsetzung der Zustimmungsrichtlinie an zwei Orten erfolgen. Kundinnen und Kunden können Definitionen von Zustimmungsrichtlinien als Teil der Zielgruppen- oder Segmenterstellung einbeziehen, um sicherzustellen, dass die für die Kampagne ausgewählte Zielgruppe bereits Profile herausgefiltert hat, die nicht den Zustimmungskriterien entsprechen. Zweitens führt der Nachricht-Runtime-Dienst eine allgemeine Einverständnisprüfung auf Kanalebene durch, um sicherzustellen, dass sich Profile per Opt-in auch wirklich dafür entschieden haben, Marketing-Kommunikationen über den spezifischen Kanal zu erhalten. Das AJO-Kampagnenobjekt selbst führt derzeit keine zusätzlichen Prüfungen zur Durchsetzung der Einverständnisrichtlinien durch.
 
-Schritte für AJO Campaign und Personalisierung zum manuellen Erzwingen der Zustimmung:
+AJO-Kampagnen- und Personalisierungsschritte zur manuellen Durchsetzung der Einverständnisses:
 
-Der Opt-in-Status und die Personalisierungseinstellungen eines Benutzers sollten vor der Aktivierung in einer Journey Optimizer-Kampagne Teil der Zielgruppenregeln und -definitionen sein. Ein Marketing-Benutzer in Adobe Experience Platform kann seiner Zielgruppe eine Einverständnisprüfung hinzufügen, indem er eine neue Zielgruppenzusammensetzung erstellt oder mithilfe von Rule Builder ein neues Segment definiert.
+Der Opt-in-Status und die Personalisierungsvoreinstellungen einer Benutzerin bzw. eines Benutzers sollten vor der Aktivierung in einer Journey Optimizer-Kampagne Teil der Zielgruppenregeln und -definitionen sein. Personen, die Adobe Experience Platform zum Marketing nutzen, können ihrer Zielgruppe eine Einverständnisprüfung hinzufügen, indem eine neue Zielgruppenzusammensetzung erstellt oder mithilfe des Regel-Builders ein neues Segment definiert wird.
 
-Bei Verwendung von Audience Composer können Sie Ihre Zielgruppe mithilfe von Profilattributen aufteilen. Nachdem Sie die gewünschten Zustimmungsattribute ausgewählt haben, können Sie die resultierenden Zielgruppen zur Aktivierung in einer Kampagne speichern. Beachten Sie, dass bei der Erstellung einer Audience, die nicht die Zustimmung zur Personalisierung erteilt hat, und der anschließenden Auswahl dieser Audience zur Aktivierung in einer Kampagne weiterhin Personalisierungs-Tools verfügbar sind. Es liegt im Ermessen des Marketing-Benutzers zu verstehen, dass er keine Personalisierungs-Tools verwenden sollte, wenn er mit einer Zielgruppe arbeitet, die keine Personalisierung erhält.
+Bei Verwendung von Audience Composer können Sie Ihre Zielgruppe mithilfe von Profilattributen aufteilen. Nachdem Sie die gewünschten Einverständnisattribute ausgewählt haben, können Sie die resultierenden Zielgruppen zur Aktivierung in einer Kampagne speichern. Beachten Sie, dass bei der Erstellung einer Zielgruppe, die kein Einverständnis für Personalisierung erteilt hat, und der anschließenden Auswahl dieser Zielgruppe zur Aktivierung in einer Kampagne weiterhin Personalisierungs-Tools verfügbar sind. Die Marketing-Fachkraft trägt selbst die Verantwortung, keine Personalisierungs-Tools zu verwenden, wenn mit einer Zielgruppe gearbeitet wird, für die keine Personalisierung durchgeführt werden soll.
 
-Gehen Sie wie folgt vor, um eine aufgeteilte Zielgruppe in der Zielgruppenzusammensetzung zu erstellen:
+Gehen Sie wie folgt vor, um in der Zielgruppenkomposition eine aufgeteilte Zielgruppe zu erstellen:
 
-1. Wählen Sie Ihre Startzielgruppe aus.
+1. Wählen Sie Ihre Start-Zielgruppe aus.
 
-1. Klicken Sie auf das Pluszeichen, um eine aufgespaltete Zielgruppe zu erstellen.
+1. Klicken Sie auf das Pluszeichen, um eine aufgeteilte Zielgruppe zu erstellen.
 
-1. Wählen Sie in den Aufspaltungseigenschaften als Typ &quot;Attributaufteilung&quot;.
+1. Wählen Sie in den Aufteilungseigenschaften als Typ „Attributaufteilung“ aus.
 
 1. Klicken Sie im Attributfeld auf das Stiftsymbol, um das Attributauswahlfenster aufzurufen.
 
-1. Geben Sie in den Auswahlwert ein, um nach dem Personalisierungszustimmungsattribut zu suchen (beachten Sie, dass dies das Attribut path profile.consents.personalize.content.val sein wird).
+1. Geben Sie in den Auswahlwert ein, um nach dem Einverständnisattribut für die Personalisierung zu suchen (beachten Sie, dass es sich um das Pfadattribut „profile.consents.personalize.content.val“ handelt).
 
 1. Wählen Sie dieses Attribut aus.
 
 1. Wählen Sie unter Pfad 1 einen Titel, der Ihnen bei der Definition der nicht personalisierten Zielgruppe hilft.
 
-1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=en#choice-values
+1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values
 
-   In diesem Fall verwenden wir ein &quot;n&quot;, um NEIN als Opt-out für die Personalisierung anzugeben
+   In diesem Fall verwenden wir ein „n“, um NEIN entsprechend dem Opt-out von der Personalisierung anzugeben
 
-   Sie können einen separaten Pfad für andere Auswahlwerte erstellen oder verbleibende Pfade löschen und &quot;andere Profile&quot;aktivieren, die alle anderen Profile ohne Auswahlwert &quot;n&quot;enthalten würden.
+   Sie können einen separaten Pfad für andere Auswahlwerte erstellen oder verbleibende Pfade löschen und „andere Profile“ aktivieren, wodurch alle anderen Profile ohne den Auswahlwert „n“ eingeschlossen werden.
 
-1. Klicken Sie abschließend in das Feld, in dem &quot;Zielgruppe speichern&quot;steht. Daraufhin wird ein neues Eigenschaftenfenster geöffnet, in dem Sie auswählen können, welchen Namen Sie für die abgeleiteten Zielgruppen verwenden möchten.
+1. Klicken Sie abschließend in das Feld, in dem „Zielgruppe speichern“ steht. Daraufhin wird ein neues Eigenschaftenfenster geöffnet, in dem Sie auswählen können, welchen Namen Sie für die abgeleiteten Zielgruppen verwenden möchten.
 
-1. Veröffentlichen Sie nach Abschluss die Komposition der Zielgruppe.
+1. Veröffentlichen Sie nach Abschluss die Zielgruppenkomposition.
 
-Wenn Sie den Segment Rule Builder zum Erstellen Ihrer Zielgruppe verwenden, können Sie in der Zielgruppendefinition Personalisierungs- und Zustimmungswertentscheidungen als Ausschlussparameter auswählen. Durch das Hinzufügen der Ausschlussparameter können Sie ein einzelnes Zielgruppensegment von Profilen erstellen, in denen Personen, die ihre Einwilligung nicht erteilt haben, herausgefiltert werden.
+Wenn Sie den Segment-Regel-Builder zum Erstellen Ihrer Zielgruppe verwenden, können Sie in der Zielgruppendefinition Auswahlwerte für Personalisierung und Einverständnis als Ausschlussparameter auswählen. Durch das Hinzufügen der Ausschlussparameter können Sie ein einzelnes Zielgruppensegment von Profilen erstellen, in denen die Personen, die ihr Einverständnis nicht erteilt haben, herausgefiltert werden.
 

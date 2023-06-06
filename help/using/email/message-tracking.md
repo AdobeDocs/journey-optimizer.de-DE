@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. [Weitere Informationen ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, mit dem sich Nutzer schnell von Ihren Mitteilungen abmelden können, ohne die Abmeldung bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, über den die Nutzerinnen und Nutzer Ihre Nachrichten schnell kündigen können, ohne den Kündigungsvorgang bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Externes Opt-in/Abonnement]**: Einfügen eines Links, um den Erhalt von Nachrichten von Ihrer Marke zu akzeptieren.
 
@@ -77,13 +77,13 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    >[!NOTE]
    >
-   >Zur Interpretation von URLs: [!DNL Journey Optimizer] entspricht der URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), wodurch einige internationale Sonderzeichen in URLs deaktiviert werden. Wenn beim Versuch, den Testversand oder die E-Mail durchzuführen, ein Fehler mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie die Zeichenfolge als Problemumgehung URL-kodieren.
+   >Zum Interpretieren von URLs hält sich [!DNL Journey Optimizer] an die URI-Syntax ([RFC 3986-Standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), sodass einige internationale Sonderzeichen in URLs unterbunden werden. Wenn beim Test- oder E-Mail-Versand ein Fehler im Zusammenhang mit einer URL zurückgegeben wird, die zu Ihrem Inhalt hinzugefügt wurde, können Sie für die Zeichenfolge eine URL-Codierung durchführen und so das Problem umgehen.
 
 1. Sie können Ihre Links personalisieren. [Weitere Informationen](../personalization/personalization-syntax.md#perso-urls)
 
 1. Speichern Sie Ihre Änderungen.
 
-1. Nachdem der Link erstellt wurde, können Sie ihn dennoch im **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Panes auf der rechten Seite.
+1. Sobald der Link erstellt ist, können Sie ihn in den Bereichen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** auf der rechten Seite noch ändern.
 
    ![](assets/message-tracking-link-settings.png)
 
@@ -91,9 +91,9 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 >
 >E-Mail-Nachrichten vom Typ Marketing müssen einen [Ausschluss-Link](../privacy/opt-out.md#opt-out-management) enthalten, der für Transaktionsnachrichten nicht erforderlich ist. Die Nachrichtenkategorie (**[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**) wird bei der Erstellung der Nachricht in der [Kanaloberfläche](../configuration/channel-surfaces.md#email-type) definiert.
 
-## Links anpassen {#adjust-links}
+## Anpassen von Links {#adjust-links}
 
-Sie können Ihre Links mithilfe der Variablen **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** Panes auf der rechten Seite. Sie können einen Link unterstreichen, seine Farbe ändern und sein Ziel auswählen.
+Sie können Ihre Links mithilfe der Bereiche **[!UICONTROL Einstellungen]** und **[!UICONTROL Stile]** auf der rechten Seite anpassen. Sie können einen Link unterstreichen, seine Farbe ändern und sein Ziel auswählen.
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 

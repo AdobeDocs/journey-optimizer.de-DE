@@ -10,7 +10,7 @@ exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 >
 >Die Konfiguration der Subdomain von Landingpages ist in allen Umgebungen gleich. Daher gilt:
 >
->* Um auf die Subdomains von Landingpages zuzugreifen und diese zu bearbeiten, benötigen Sie die **[!UICONTROL Verwalten von Subdomains für Landingpages]** -Berechtigung für die Produktions-Sandbox.
+>* Um auf Landingpage-Subdomains zuzugreifen und diese zu bearbeiten, benötigen Sie die Berechtigung zum **[!UICONTROL Verwalten von Landpingpage-Subdomains]** in der Produktions-Sandbox.
 >
-> * Änderungen an einer Unterdomäne der Landingpage wirken sich auch auf die Produktions-Sandboxes aus.
+> * Jede Änderung an einer Landingpage-Subdomain wirkt auch auf die Produktions-Sandboxes aus.
 
 
 ## Verwenden einer vorhandenen Subdomain {#lp-use-existing-subdomain}

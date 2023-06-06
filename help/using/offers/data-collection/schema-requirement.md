@@ -10,7 +10,7 @@ exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 2130d3b02d6d4f21518ce4e8eecc244d24b87ba2
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -102,9 +102,9 @@ Bei benutzerdefinierten Ereignissen muss das im Datensatz verwendete Schema auch
 
 >[!NOTE]
 >
->So lassen Sie Ihre benutzerdefinierten Ereignisse in [Frequenzlimitierung](../offer-library/add-constraints.md#capping)müssen Sie das Erlebnisereignis mit den Adobe Experience Platform-Endpunkten verbinden, indem Sie es an einen dieser beiden Edge-Datenerfassungsendpunkte senden:
+>Damit Ihre benutzerdefinierten Ereignisse bei der [Frequenzlimitierung](../offer-library/add-constraints.md#capping) berücksichtigt werden, müssen Sie das Erlebnisereignis mit Adobe Experience Platform-Endpunkten verbinden, indem Sie es an einen dieser beiden Edge-Datenerfassungsendpunkte senden:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Wenn Sie die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"}, wird die Verbindung automatisch hergestellt.
+>Wenn Sie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=de){target="_blank"} verwenden, wird die Verbindung automatisch hergestellt.

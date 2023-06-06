@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 98%
       + [Konfigurieren von Experimentberichten](using/campaigns/reporting-configuration.md)
       + Technotes {#technotes}
          + [Verstehen von statistischen Berechnungen](using/campaigns/experiment-calculations.md)
-         + [Statistische Berechnungen im Experimentationsbericht](using/campaigns/experiment-report-calculations.md)
+         + [Verstehen der statistischen Berechnungen im Versuchsbericht](using/campaigns/experiment-report-calculations.md)
    + [Auslösen von Kampagnen mit APIs](using/campaigns/api-triggered-campaigns.md)
 + E-Mail-Kanal {#email}
    + [Erste Schritte mit E-Mails](using/email/get-started-email.md)
@@ -195,7 +195,7 @@ ht-degree: 98%
          + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
          + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
          + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
-   + [Vorschau und Testversand von E-Mails](using/email/preview.md)
+   + [Vorschau und Test von E-Mails](using/email/preview.md)
    + [Erstellen von Inhaltsvorlagen](using/email/content-templates.md)
    + [Verwenden von Experience Manager-Vorlagen](using/email/aem-templates.md)
    + [Arbeiten mit Fragmenten](using/email/fragments.md)
@@ -471,14 +471,14 @@ ht-degree: 98%
    + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
    + Zugriffskontrolle – Übersicht {#privacy}
-      + [Erste Schritte mit der Benutzerverwaltung](using/administration/permissions-overview.md)
+      + [Erste Schritte in der Benutzerverwaltung](using/administration/permissions-overview.md)
       + [Integrierte Rollen](using/administration/ootb-product-profiles.md)
       + [Integrierte Berechtigungen](using/administration/ootb-permissions.md)
       + [Berechtigungsebenen](using/administration/high-low-permissions.md)
-   + [Verwalten von Benutzern und Rollen](using/administration/permissions.md)
+   + [Verwalten von Benutzenden und Produkten](using/administration/permissions.md)
    + [Attributbasierte Zugriffssteuerung](using/administration/attribute-based-access.md)
    + [Zugriffssteuerung auf Objektebene](using/administration/object-based-access.md)
-   + [Sandbox-Management](using/administration/sandboxes.md)
+   + [Sandbox-Verwaltung](using/administration/sandboxes.md)
 + Datenschutz {#privacy}
    + [Erste Schritte beim Datenschutz](using/privacy/get-started-privacy.md)
    + [Datenschutzanfragen](using/privacy/requests.md)

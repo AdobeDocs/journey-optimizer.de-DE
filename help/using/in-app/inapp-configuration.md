@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
    * Core für Mobilgeräte
    * Profil
 
-   Informationen zum detaillierten Verfahren finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension).
+   Informationen zum detaillierten Verfahren finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de#add-a-new-extension).
 
    ![](assets/inapp_config_5.png)
 

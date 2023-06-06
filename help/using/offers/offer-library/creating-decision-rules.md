@@ -9,11 +9,11 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Entscheidungsregeln erstellen {#create-decision-rules}
+# Erstellen von Entscheidungsregeln {#create-decision-rules}
 
 Auf Grundlage der in Adobe Experience Platform verfügbaren Daten können Sie Entscheidungsregeln für Angebote erstellen. Entscheidungsregeln bestimmen, wem ein Angebot unterbreitet werden kann.
 
@@ -59,7 +59,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 >[!CAUTION]
 >
->Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
+>Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
 ## Anleitungsvideo {#video}
 

@@ -12,11 +12,11 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit der Benutzerverwaltung {#permissions-overview}
+# Erste Schritte in der Benutzerverwaltung {#permissions-overview}
 
 [!DNL Journey Optimizer] ermöglicht die Definition und Verwaltung von Berechtigungen, die den verschiedenen Benutzern erteilt werden können. Berechtigungen sind eine Reihe von Rechten und Einschränkungen, die den Zugriff auf produktinterne Funktionen zulassen oder verweigern.
 
