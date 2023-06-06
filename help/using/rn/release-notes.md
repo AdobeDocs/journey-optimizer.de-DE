@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -89,13 +89,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Erstellen und Verwenden von Fragmenten in E-Mail-Inhalten</strong><br/></th>
+<th><strong>Fragmente in E-Mail-Inhalten erstellen und verwenden</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in Journey Optimizer-Kampagnen und -Journeys in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Design-Prozess zu ermöglichen.</p>
+<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">detaillierten Dokumentation</a>.</p>
 </td>
