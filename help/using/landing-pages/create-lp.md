@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Um Landingpages testen und veröffentlichen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
+>Um Landingpages testen und veröffentlichen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -205,13 +205,13 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
 >id="ac_preview_lp_profiles"
 >title="Erstellen einer Vorschau und Testen Ihrer Landingpage"
 >abstract="Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, können Sie sie mit Testprofilen in der Vorschau anzeigen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=de" text="Auswählen von Testprofilen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=de" text="Auswählen der Testprofile"
 
 Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, können Sie sie mit Testprofilen in der Vorschau anzeigen. Bei Verwendung von [personalisierten Inhalten](../personalization/personalize.md) können Sie prüfen, wie diese Inhalte auf der Landingpage angezeigt werden, und dabei Daten von Testprofilen nutzen.
 
 >[!CAUTION]
 >
->Um Landingpages testen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
+>Um Landingpages testen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie verfügbare Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
 
@@ -282,7 +282,7 @@ Es können zwei Arten von Warnhinweisen auftreten:
 
 >[!CAUTION]
 >
->Um Landingpages veröffentlichen zu können, muss die **[!UICONTROL Nachrichten veröffentlichen]** Berechtigung.
+>Um Landingpages veröffentlichen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 
 Sobald Ihre Landingpage fertig ist, können Sie sie veröffentlichen, um sie für die Verwendung in einer Nachricht verfügbar zu machen.
 

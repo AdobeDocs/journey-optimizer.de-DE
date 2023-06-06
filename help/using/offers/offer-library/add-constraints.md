@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
 
    >[!CAUTION]
    >
-   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
+   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
 Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
@@ -215,7 +215,7 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches
 >
 >Bei allen Begrenzungsereignissen außer Entscheidungsereignissen wird das Feedback zum Entscheidungs-Management möglicherweise nicht automatisch erfasst, was dazu führen könnte, dass der Begrenzungszähler nicht korrekt inkrementiert wird. [Weitere Informationen](../data-collection/data-collection.md)
 >
->Um sicherzustellen, dass jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. [Weitere Informationen](../data-collection/schema-requirement.md)
+>Damit jedes Begrenzungsereignis verfolgt und im Begrenzungszähler berücksichtigt wird, stellen Sie sicher, dass das Schema, das zur Erfassung von Erlebnisereignissen verwendet wird, die richtige Feldergruppe für dieses Ereignis enthält. [Weitere Informationen](../data-collection/schema-requirement.md)
 
 ### Begrenzungsanzahl {#capping-count}
 
@@ -248,7 +248,7 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Festlegen der Begrenzungsfrequenz"
->abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzlimitierung die definierte Häufigkeit nicht ändern können."
+>abstract="Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. Beachten Sie, dass Sie nach der Veröffentlichung des Angebots mit aktivierter Frequenzlimitierung die festgelegte Frequenz nicht mehr ändern können."
 
 Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. Legen Sie dazu den Zeitraum für die Zählung (täglich, wöchentlich oder monatlich) fest und geben Sie die Anzahl der Tage/Wochen/Monate Ihrer Wahl an.
 
@@ -262,9 +262,9 @@ Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möcht
 
 >[!CAUTION]
 >
->Nach der Veröffentlichung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Frequenz ausgewählt haben, nicht mehr ändern.
+>Nach Speicherung Ihres Angebots können Sie den Zeitraum (monatlich, wöchentlich oder täglich), den Sie für die Häufigkeit ausgewählt haben, nicht mehr ändern.
 >
->Sie können die Frequenzlimitierung weiterhin bearbeiten, wenn das Angebot die Variable **[!UICONTROL Entwurf]** Status und wurde noch nie zuvor veröffentlicht, wobei die Frequenzlimitierung aktiviert war.
+>Sie können die Frequenzlimitierung auch dann bearbeiten, wenn das Angebot den Status **[!UICONTROL Entwurf]** hat und noch nie mit aktivierter Frequenzlimitierung veröffentlicht wurde.
 
 ### Begrenzung und Platzierungen {#placements}
 
