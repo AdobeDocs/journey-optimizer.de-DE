@@ -2,10 +2,10 @@
 title: Batch-Entscheidungen
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einem bestimmten Adobe Experience Platform-Segment senden.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Bevor Sie eine Vorgangsanfrage konfigurieren, stellen Sie sicher, dass Sie Folge
 
 * **Einen Datensatz** in Adobe Experience Platform. Dieser Datensatz wird verwendet, um das Entscheidungsergebnis mithilfe des Schemas „ODE DecisionEvents“ zu speichern. Weitere Informationen finden Sie in der [Dokumentation zu Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de).
 
-* **Ein Segment** in Adobe Experience Platform. Das Segment sollte evaluiert und dann aktualisiert werden. Erfahren Sie in der [Dokumentation zum Segmentierungs-Service](http://www.adobe.com/go/segmentation-overview-en_de), wie Sie die Evaluierung der Segmentzugehörigkeit aktualisieren können.
+* **Ein Segment** in Adobe Experience Platform. Das Segment sollte evaluiert und dann aktualisiert werden. Erfahren Sie in der [Dokumentation zum Segmentierungs-Service](https://www.adobe.com/go/segmentation-overview-en), wie Sie die Evaluierung der Segmentzugehörigkeit aktualisieren können.
 
    >[!NOTE]
    >

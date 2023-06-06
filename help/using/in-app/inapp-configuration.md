@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21aeac323a43ac95d98f4798ff3d51ad32f2ebf9
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [!DNL Adobe Experience Platform Data Collection] konfigurieren.
 
-1. Rufen Sie von Ihrem [!DNL Adobe Experience Platform Data Collection]-Konto aus das Menü **[!UICONTROL Datenstrom]** auf und klicken Sie auf **[!UICONTROL Neuer Datenstrom]**. Weiterführende Informationen zur Erstellung von Datenströmen finden Sie auf [dieser Seite](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. Rufen Sie von Ihrem [!DNL Adobe Experience Platform Data Collection]-Konto aus das Menü **[!UICONTROL Datenstrom]** auf und klicken Sie auf **[!UICONTROL Neuer Datenstrom]**. Weiterführende Informationen zur Erstellung von Datenströmen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de).
 
 1. Wählen Sie den [!DNL Adobe Experience Platform]-Service.
 

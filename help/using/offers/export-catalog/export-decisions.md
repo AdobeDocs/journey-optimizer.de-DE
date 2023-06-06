@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -261,7 +261,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** endTime
 **Titel:** Enddatum und -zeit der Aktivität 
-**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
+**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft &quot;endTime&quot;von schema.org, die auf https://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++
@@ -288,7 +288,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** startTime
 **Titel:** Startdatum und -zeit der Aktivität 
-**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
+**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft &quot;startTime&quot;von schema.org, die auf https://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++

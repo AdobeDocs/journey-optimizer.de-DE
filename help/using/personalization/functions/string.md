@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 100%
@@ -304,7 +304,7 @@ Die Funktion `getUrlHost` dient zum Abrufen des Host-Namens einer URL.
 **Beispiel**
 
 ```sql
-{%= getUrlHost("http://www.myurl.com/contact") %}
+{%= getUrlHost("https://www.myurl.com/contact") %}
 ```
 
 Gibt „www.myurl.com“ zurück
@@ -322,7 +322,7 @@ Die Funktion `getUrlPath` wird verwendet, um den Pfad nach dem Domain-Namen eine
 **Beispiel**
 
 ```sql
-{%= getUrlPath("http://www.myurl.com/contact.html") %}
+{%= getUrlPath("https://www.myurl.com/contact.html") %}
 ```
 
 Gibt „/contact.html“ zurück
@@ -340,7 +340,7 @@ Die Funktion `getUrlProtocol` dient zum Abrufen des Protokolls einer URL.
 **Beispiel**
 
 ```sql
-{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+{%= getUrlProtocol("https://www.myurl.com/contact.html") %}
 ```
 
 Gibt „http“ zurück
