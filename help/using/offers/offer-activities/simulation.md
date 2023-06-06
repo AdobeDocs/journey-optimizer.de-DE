@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: c2cd44113223b9886f803da131e451440293a966
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 96%
@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="Angebotsentscheidungen simulieren"
->abstract="Mithilfe der Simulation können Sie simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung gesendet werden. Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und anpassen, ohne dass dies Auswirkungen auf die ausgewählten Empfänger hat.
+>abstract="Mithilfe der Simulation können Sie simulieren, welche Angebote an ein Testprofil für eine bestimmte Platzierung gesendet werden. Dadurch können Sie verschiedene Versionen Ihrer Angebote testen und anpassen, ohne dass dies Auswirkungen auf die ausgewählten Empfänger hat."
 
 ## Über die Simulation {#about-simulation}
 
