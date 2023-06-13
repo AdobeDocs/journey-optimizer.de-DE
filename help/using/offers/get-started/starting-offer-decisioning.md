@@ -57,15 +57,15 @@ Dank der Entscheidungs-Management-Funktionen und der Integration mit Adobe Exper
 
 * Zeigen Sie auf der Startseite Ihrer Website Angebote an, die basierend auf Daten aus Adobe Experience Platform den Interessengebieten des Besuchers entsprechen.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * Wenn Kunden an einem Ihrer Geschäfte vorbeigehen, senden Sie ihnen Push-Benachrichtigungen, um sie je nach ihren Attributen (Treuestufe, Geschlecht, frühere Käufe usw.) an verfügbare Angebote zu erinnern.
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * Zudem hilft Ihnen Entscheidungs-Management dabei, das Kundenerlebnis zu verbessern, wenn sich Kunden an Ihr Supportteam wenden. Mit Entscheidungs-Management-APIs können Sie im Portal Ihrer Callcenter-Agenten Informationen über die eingelösten und nächstbesten Angebote anzeigen.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## Zugriff auf das Entscheidungs-Management gewähren {#granting-acess-to-decision-management}
 
