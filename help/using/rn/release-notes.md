@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 97%
+source-wordcount: '2453'
+ht-degree: 98%
 
 ---
 
@@ -89,13 +89,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <table>
 <thead>
 <tr>
-<th><strong>Fragmente in E-Mail-Inhalten erstellen und verwenden</strong><br/></th>
+<th><strong>Erstellen und Verwenden von Fragmenten in E-Mail-Inhalten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in mehreren Journey Optimizer-Kampagnen und -Journey in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Designprozess zu ermöglichen.</p>
+<p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in Journey Optimizer-Kampagnen und -Journeys in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Design-Prozess zu ermöglichen.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">detaillierten Dokumentation</a>.</p>
 </td>
@@ -153,14 +153,13 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
    * Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
    * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
 
-   Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+  Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
-   Die Übersetzung des englischen Begriffs „Audience“ bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurde für einige Sprachen in allen Produkten von Digital Experience vereinheitlicht:
+  Die Übersetzung des englischen Begriffs „Audience“ bei der Bezugnahme auf eine Gruppe von Profilen, die eine Nachricht erhalten sollen, wurde für einige Sprachen in allen Produkten von Digital Experience vereinheitlicht:
 
    * Deutsch: Zielgruppe
    * Brasilianisches Portugiesisch: público-alvo
    * Spanisch: público destinatario
-
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -266,10 +265,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 * Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
-* Es wurden neue Leitlinien für Journeys hinzugefügt:
-   * Die Anzahl der Knoten in einer Journey ist jetzt auf maximal 50 begrenzt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-   * Die Anzahl der **Live-Journeys** in einer Organisation ist jetzt auf maximal 100 pro Sandbox begrenzt. Journeys im Testmodus werden nicht berücksichtigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-
+* Neue Einblicke in die Anzahl der Knoten auf der Arbeitsfläche mit Sicherheitsvorkehrungen zur Unterstützung des Wachstums: halten Sie Journey leicht zu lesen, Qualitätssicherung und Fehlerbehebung bei einer maximalen Anzahl von Knoten pro Journey bei 50. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../sms/create-sms.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -361,7 +357,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 * Um eine mögliche Verwechslung mit der kürzlich veröffentlichten Tags-Funktion in Adobe Experience Platform zu vermeiden, wurden Entscheidungs-Management-Tags in „Sammlungsqualifizierer“ umbenannt.
 
-   Beachten Sie, dass der Begriff „Tag“ zwar nicht mehr in der Benutzeroberfläche des Entscheidungs-Managements verwendet wird, aber weiterhin in Backend-Diensten wie APIs und Datensätzen zu finden ist.
+  Beachten Sie, dass der Begriff „Tag“ zwar nicht mehr in der Benutzeroberfläche des Entscheidungs-Managements verwendet wird, aber weiterhin in Backend-Diensten wie APIs und Datensätzen zu finden ist.
 
 * Sie können den Angebotsbegrenzungszähler auf täglicher, wöchentlicher oder monatlicher Basis zurücksetzen. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
@@ -377,7 +373,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 * Die Reporting-Widget-Funktionalität wurde verbessert und bietet jetzt Anpassungsmöglichkeiten dafür, wie Benutzerinnen und Benutzer ihre Daten anzeigen. Mit dieser Verbesserung können Benutzerinnen und Benutzer jetzt zwischen mehreren Visualisierungsoptionen wählen, einschließlich Diagramm-, Tabellen- und Ringdiagrammen.
 
-   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der [entsprechenden Dokumentation](../reports/global-report.md#modify-dashboard).
+  Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in der [entsprechenden Dokumentation](../reports/global-report.md#modify-dashboard).
 
 ## Februar 2023 – Versionshinweise {#feb-2023}
 

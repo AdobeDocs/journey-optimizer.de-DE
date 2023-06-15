@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 100%
+source-wordcount: '1537'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
 * **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Segment lesen).
 * **Fehlerrate**: Verhältnis aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
-* **Verwerfungsrate**: Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
+* **Entsorgungsrate**: Anteil aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingegebenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zur Teilnahme an der Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
 
 >[!NOTE]
 >
