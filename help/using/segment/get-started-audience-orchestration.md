@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ Inhalt dieser Dokumentation:
 
 >[!AVAILABILITY]
 >
->Die Komposition einer Audience ist derzeit nur als private Beta-Version verfügbar und kann ohne vorherige Ankündigung regelmäßig aktualisiert werden. Die Beta-Version wird auf der Ebene der Organisation bereitgestellt, was bedeutet, dass sie sich auf alle Sandboxes in Ihrer Organisation auswirkt.
+>Die Zielgruppenzusammensetzung ist derzeit nur für eine begrenzte Gruppe von Kunden verfügbar. Wenden Sie sich bei Fragen an Ihren Ansprechpartner bei der Adobe.
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
@@ -49,6 +49,8 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 >[!IMPORTANT]
 >
 >Zielgruppen, die aus Kompositions-Workflows resultieren, können nur in Journey Optimizer-Kampagnen verwendet werden. Sie sind nicht zur Verwendung in Journeys verfügbar.
+>
+>Kampagnen in Adobe Journey Optimizer sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
 
 Auf die Audience-Komposition kann über das Menü **[!UICONTROL Segmente]** von Adobe Journey Optimizer zugegriffen werden:
 
