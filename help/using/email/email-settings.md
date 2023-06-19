@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 100%
+source-wordcount: '1787'
+ht-degree: 97%
 
 ---
 
@@ -43,13 +43,9 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **Marketing** oder **Transaktion**.
 
-* Wählen Sie **Marketing** für Werbe-E-Mails. Diese Nachrichten erfordern das Einverständnis des Benutzenden.
+* Auswählen **Marketing** für Werbe-E-Mails, z. B. wöchentliche Promotions für einen Einzelhandelsgeschäft. Diese Nachrichten erfordern die Zustimmung des Benutzers.
 
-* Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
-
->[!CAUTION]
->
->**Transaktions**-E-Mails können auch an Profile gesendet werden, die sich von Marketing-Nachrichten abgemeldet haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+* Auswählen **Transactional** für nicht kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die **unsubscribed** aus Marketingnachrichten. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
 Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
@@ -95,19 +91,19 @@ Der Abmelde-Link besteht aus zwei Elementen:
 
 * Einer **Abmelde-E-Mail-Adresse**, an die alle Abmeldeanfragen gesendet werden.
 
-   Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
+  Bei [!DNL Journey Optimizer] ist die Abmelde-E-Mail-Adresse die standardmäßig in der Kanaloberfläche angezeigte Adresse **[!UICONTROL Mailto (unsubscribe)]** und basiert auf der [ausgewählten Subdomain](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * Die **Abmelde-URL** ist die URL der Landingpage, auf die der Benutzer gelangt, wenn er sich abgemeldet hat.
 
-   Wenn Sie einen [Ein-Klick-Opt-out-Link](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
+  Wenn Sie einen [Ein-Klick-Opt-out-Link](../privacy/opt-out.md#one-click-opt-out) zu einer Nachricht hinzufügen, die mit dieser Oberfläche erstellt wurde, ist die Abmelde-URL die für den Ein-Klick-Opt-out-Link definierte URL.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
+  >[!NOTE]
+  >
+  >Wenn Sie in Ihrem Nachrichteninhalt keinen Ein-Klick-Opt-out-Link hinzufügen, wird dem Benutzer keine Landingpage angezeigt.
 
 Weitere Informationen zum Hinzufügen eines Kopfzeilen-Abmelde-Links zu Ihren Nachrichten finden Sie in [diesem Abschnitt](../privacy/opt-out.md#unsubscribe-header).
 
