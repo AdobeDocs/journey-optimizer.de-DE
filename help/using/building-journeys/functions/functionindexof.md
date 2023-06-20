@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, Funktion, Ausdruck, Journey
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
 # indexOf {#indexOf}
 
-Überprüft, ob die erste Argumentzeichenfolge mit einer bestimmten Zeichenfolge endet (zweite Argumentzeichenfolge). Wenn die Zeichenfolge nicht gefunden wird, wird -1 zurückgegeben.
+Gibt die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 ## Kategorie
 
