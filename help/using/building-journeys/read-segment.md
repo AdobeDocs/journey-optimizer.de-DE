@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Segment, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -116,13 +116,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
-Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie die Journey entweder auf einem unitären Profil oder auf 100 Testprofilen testen, die per Zufallsauswahl aus den für das Segment qualifizierten Profilen entnommen werden.
+Die **[!UICONTROL Segment lesen]** -Aktivität ermöglicht es Ihnen, die Journey entweder in einem Einzelprofil oder in 100 Testprofilen zu testen, die unter den für das Segment qualifizierten Profilen ausgewählt wurden.
 
-Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gewünschte Option aus.
+Aktivieren Sie dazu die **Testmodus**. Wählen Sie dann im linken Bereich die gewünschte Option aus.
 
 ![](assets/read-segment-test-mode.png)
 
-Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
+Anschließend können Sie die **Testmodus** wie gewohnt. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
 Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
 
@@ -130,9 +130,9 @@ Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle *
 
 * **[!UICONTROL Bis zu 100 Profile gleichzeitig]**: Mithilfe der Testprotokolle können Sie den Verlauf des Segmentexports aus Adobe Experience Platform sowie den individuellen Fortschritt aller Personen, die die Journey begonnen haben, verfolgen.
 
-   Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
+  Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Kontakte, die zum Segment gehören, treten an dem Datum/zu der Uhrzeit in die Journey ein, das bzw. die im Bereich **[!UICONTROL Planung]** der Eigenschaften der Journey festgelegt ist.
 

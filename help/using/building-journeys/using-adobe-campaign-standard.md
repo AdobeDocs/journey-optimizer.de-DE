@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Journey, Integration, Standard, Kampagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 90%
 
 ---
 
@@ -48,7 +48,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Wenn Sie für E-Mails eine profilbasierte Transaktionsvorlage verwenden, wird der Abmeldemechanismus nativ von Campaign Standard durchgeführt. Fügen Sie der Vorlage einfach einen Inhaltsblock für den **[!UICONTROL Link zum Abmelden]** hinzu ([weitere Informationen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de)). Wenn Sie eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie der Nachricht einen Link hinzufügen, über den die E-Mail-Adresse der Person im URL-Parameter übergeben wird und auf eine Landingpage zum Abmelden verwiesen wird. Sie müssen diese Landingpage erstellen und sicherstellen, dass die Entscheidung der Person, sich abzumelden, an Adobe übermittelt wird.
+>Bei Verwendung der Transaktionsvorlage eines Profils für E-Mails wird der Abmeldemechanismus automatisch von Adobe Campaign Standard verarbeitet. Um dies zu implementieren, können Sie einfach eine **[!UICONTROL Abmelde-Link]** Inhaltsbaustein in [Transaktions-E-Mail-Vorlage](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de). Wenn Sie jedoch eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie einen Link in die Nachricht einfügen, über den die E-Mail des Empfängers als URL-Parameter übergeben und an eine Landingpage zur Abmeldung weitergeleitet wird. Es ist notwendig, diese Landingpage zu erstellen und sicherzustellen, dass die Abmeldeentscheidung des Empfängers effektiv an die Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen.
 
