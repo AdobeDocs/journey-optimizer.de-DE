@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -42,6 +42,6 @@ In einer Journey mit dem Schritt „Segment lesen“ gilt Folgendes:
 
 * Für nicht wiederkehrende Journeys: Das Profil tritt nur einmal in die Journey ein.
 
-* Für wiederkehrende Journeys: Das Profil tritt bei jeder Wiederholung in die Journey ein, wenn es sich im Segment/im erwarteten Status befindet. Wenn es sich noch in der Journey einer früheren Wiederholung befindet, fängt es wieder von vorne an.
+* Für wiederkehrende Journey: das Profil gibt bei jeder Wiederholung die Journey ein, wenn es sich im Segment-/erwarteten Status befindet. Wenn sie sich noch von einer vorherigen Wiederholung auf der Journey befanden, werden sie von Anfang an neu gestartet.
 
-In Geschäftsereignis-Journeys, die mit der Aktivität **Segment lesen** beginnen: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es im erwarteten Segment ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil gleichzeitig mehrfach in derselben Journey sein kann, aber im Kontext verschiedener Geschäftsereignisse.
+Bei Geschäftsereignissen beginnen Journey mit einer **Segment lesen** Aktivität: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, wird, wenn das Profil im erwarteten Segment qualifiziert ist, für jedes empfangene Geschäftsereignis die Journey erfasst, d. h., dieses Profil kann mehrere Male in derselben Journey, aber gleichzeitig im Kontext verschiedener Geschäftsereignisse sein.
