@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 70%
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,7 @@ Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation)
 
 Zusätzlich:
 
-* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
+* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals eine Journey eingeben, dies aber erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat.
 
 * Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals in dieselbe Journey eintreten.
 
