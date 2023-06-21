@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 -->
 1. Wählen Sie Ihren Kanal und dann die **[!UICONTROL Oberfläche]** aus, die Sie für diesen Versand verwenden möchten, und klicken Sie dann auf **[!UICONTROL Erstellen]**. Weitere Informationen dazu finden Sie auf der Seite [Kanaloberflächen](../configuration/channel-surfaces.md).
 
-   In diesem Beispiel möchten wir eine Kampagne per E-Mail versenden.
+   In diesem Beispiel möchten wir eine Kampagne mit E-Mails versenden.
 
    ![](assets/content_experiment_2.png)
 
