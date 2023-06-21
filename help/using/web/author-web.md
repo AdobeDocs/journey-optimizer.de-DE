@@ -71,15 +71,15 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihrer Web-Kampagne zu beginnen.
 
    * das Kontextmenü zur Bearbeitung des Inhalts, des Layouts, der Links oder der Personalisierung usw.
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * die Symbole oben im rechten Bereich zum Bearbeiten, Duplizieren, Löschen oder Ausblenden der einzelnen Elemente.
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * den rechten Bereich, der sich dynamisch entsprechend dem ausgewählten Element ändert. Sie können beispielsweise den Hintergrund, die Typografie, den Rahmen, die Größe, die Position, den Abstand, die Effekte oder Inline-Stile eines Elements bearbeiten.
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >

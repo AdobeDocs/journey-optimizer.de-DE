@@ -50,7 +50,7 @@ Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 
 * Klicken Sie auf die Schaltfläche **[!UICONTROL Medien hinzufügen]**, um ein Asset in **[!DNL Adobe Experience Manager Assets Essentials]** auszuwählen.
 
-   Wie Sie **[!DNL Adobe Experience Manager Assets Essentials]** verwenden, erfahren Sie auf [dieser Seite](../email/assets-essentials.md).
+  Wie Sie **[!DNL Adobe Experience Manager Assets Essentials]** verwenden, erfahren Sie auf [dieser Seite](../email/assets-essentials.md).
 
 * Oder geben Sie die URL des Mediums im Feld **[!UICONTROL Medien hinzufügen]** ein. In diesem Fall können Sie die URL personalisieren.
 

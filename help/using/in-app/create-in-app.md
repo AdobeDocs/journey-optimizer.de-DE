@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Das folgende Video zeigt, wie Sie In-App-Nachrichten in Ihren Kampagnen erstelle
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-Im folgenden Video erfahren Sie, wie Sie Inhaltsexperimente konfigurieren und analysieren, um In-App-Nachrichten mit A/B-Tests zu testen.
+Erfahren Sie im folgenden Video, wie Sie Inhaltsexperimente konfigurieren und analysieren, um In-App-Nachrichten mit A/B-Tests zu testen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 

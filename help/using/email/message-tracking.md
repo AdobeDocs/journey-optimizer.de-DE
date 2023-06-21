@@ -63,7 +63,7 @@ Gehen Sie wie folgt vor, um Links in Ihren E-Mail-Inhalt einzufügen:
 
    * **[!UICONTROL Externer Link]**: Fügen Sie einen Link auf eine externe URL ein.
 
-   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. [Weitere Informationen ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landingpage]**: Fügen Sie einen Link zu einer Landingpage ein. [Weitere Informationen](../landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Opt-out mit einem Klick]**: Einfügen eines Links, über den die Nutzerinnen und Nutzer Ihre Nachrichten schnell kündigen können, ohne den Kündigungsvorgang bestätigen zu müssen. [Weitere Informationen](email-opt-out.md#one-click-opt-out).
 

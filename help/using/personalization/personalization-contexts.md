@@ -34,11 +34,11 @@ In E-Mail-Designer können Sie den Inhalt personalisieren:
 
 * In der **Nachricht**: Klicken Sie in einen Textblock und klicken Sie auf das Symbol **Personalisierung hinzufügen** in der kontextbezogenen Symbolleiste. Weiterführende Informationen zur Benutzeroberfläche von E-Mail-Designer finden Sie in [diesem Abschnitt](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
 * Für einen **Link**: Wählen Sie Text oder ein Bild in einem Textblock aus und klicken Sie in der kontextuellen Symbolleiste auf das Symbol **Link einfügen**. Im Fenster können Sie einen Personalisierungsblock hinzufügen, indem Sie auf das Symbol **Personalisierung hinzufügen** klicken.
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 In beiden Fällen greifen Sie auf den Personalisierungseditor zu.
 

@@ -27,12 +27,12 @@ W채hlen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsf�
 
 * Ich bin **Administrator**
 
-   Umgebung vorbereiten, Zugriff gew채hren, Einstellungen konfigurieren. [Weitere Informationen](path/administrator.md)
+  Umgebung vorbereiten, Zugriff gew채hren, Einstellungen konfigurieren. [Weitere Informationen](path/administrator.md)
 
 * Ich bin **Datentechniker**
 
-   Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datens채tzen. [Weitere Informationen](path/data-engineer.md)
+  Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datens채tzen. [Weitere Informationen](path/data-engineer.md)
 
 * Ich bin **Marketing-Experte**
 
-   Erstellen von Nachrichten, Hinzuf체gen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)
+  Erstellen von Nachrichten, Hinzuf체gen von Angeboten und Assets und Erstellen von Customer Journeys. [Weitere Informationen](path/marketer.md)

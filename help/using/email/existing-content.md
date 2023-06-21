@@ -23,9 +23,9 @@ Mit [!DNL Journey Optimizer] können Sie vorhandenen HTML-Inhalt importieren, um
 * eine **HTML-Datei** mit integriertem Stylesheet;
 * ein **komprimierter Ordner** (ZIP) mit HTML-Datei, Stylesheet (.css) und Bildern.
 
-   >[!NOTE]
-   >
-   >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
+  >[!NOTE]
+  >
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
 
 Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 

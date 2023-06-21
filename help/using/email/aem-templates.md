@@ -33,13 +33,13 @@ Bevor Sie mit der Verwendung dieser Funktion beginnen, stellen Sie sicher, dass 
 
 * **Experience Manager-Einstellungen**
 
-   Diese Funktion ist verfügbar mit [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=de){target="_blank"}.
+  Diese Funktion ist verfügbar mit [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=de){target="_blank"}.
 
-   Im Rahmen des Beta-Programms wird die Konfiguration von Cloud Services durch Adobe in Adobe Experience Manager durchgeführt, um eine Verbindung mit Adobe Journey Optimizer herzustellen.
+  Im Rahmen des Beta-Programms wird die Konfiguration von Cloud Services durch Adobe in Adobe Experience Manager durchgeführt, um eine Verbindung mit Adobe Journey Optimizer herzustellen.
 
 * **Berechtigungen**
 
-   Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen in Adobe Journey Optimizer benötigen Sie die Berechtigung **[!DNL Manage Library Items]**, die im **[!DNL Content Library Manager]**-Produktprofil enthalten ist. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+  Zum Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen in Adobe Journey Optimizer benötigen Sie die Berechtigung **[!DNL Manage Library Items]**, die im **[!DNL Content Library Manager]**-Produktprofil enthalten ist. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Leitlinien und Einschränkungen{#aem-templates-limitations}
 

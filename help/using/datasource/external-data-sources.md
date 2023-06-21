@@ -83,9 +83,9 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 * **[!UICONTROL Dynamische Werte]**: Geben Sie die verschiedenen Parameter getrennt durch ein Komma ein, in unserem Beispiel „long,lat“. Da die Parameterwerte vom Ausführungskontext abhängen, werden sie in den Journeys definiert. [Weitere Informationen](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Antwort-Payload]**: Klicken Sie in das Feld **[!UICONTROL Payload]** und fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Für unser Beispiel haben wir eine Payload verwendet, die auf einer Wetter-API-Website gefunden wurde. Überprüfen Sie, ob die Feldtypen korrekt sind. Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **[!UICONTROL Fügen Sie eine neue Payload ein]** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
 
-   >[!NOTE]
-   >
-   >Scalar-Arrays werden in der Antwort-Payload-Definition nicht unterstützt.
+  >[!NOTE]
+  >
+  >Scalar-Arrays werden in der Antwort-Payload-Definition nicht unterstützt.
 
 * **[!UICONTROL Gesendete Payload]**: Dieses Feld wird nicht in unserem Beispiel angezeigt. Es ist nur verfügbar, wenn Sie die POST-Methode auswählen. Fügen Sie die Payload ein, die an das Drittanbietersystem gesendet wird.
 
@@ -94,9 +94,9 @@ Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das F
 * die bei der Anfrage zu übergebenden Parameter im Feld **[!UICONTROL Dynamische Werte]** auflisten (im Beispiel unten: „identifier“).
 * diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der Syntax unten:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](assets/journey29.png)
 

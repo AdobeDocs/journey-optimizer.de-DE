@@ -57,7 +57,7 @@ Die Unterdrückungskategorien lauten wie folgt:
 
 * **Hard**: Ein Hardbounce weist auf eine ungültige E-Mail-Adresse hin (d. h. eine E-Mail-Adresse, die nicht existiert). Dies beinhaltet eine Bounce-Nachricht des empfangenden E-Mail-Servers, in der explizit angegeben wird, dass die Adresse ungültig ist. Die E-Mail-Adresse wird sofort an die Unterdrückungsliste gesendet.
 
-   Wenn der Fehler das Ergebnis einer Spam-Beschwerde ist, fällt er auch in die Kategorie **Hard**. Die E-Mail-Adresse des Empfängers, der die Beschwerde eingereicht hat, wird sofort an die Unterdrückungsliste gesendet.
+  Wenn der Fehler das Ergebnis einer Spam-Beschwerde ist, fällt er auch in die Kategorie **Hard**. Die E-Mail-Adresse des Empfängers, der die Beschwerde eingereicht hat, wird sofort an die Unterdrückungsliste gesendet.
 
 * **Soft**: Ein Softbounce ist ein temporärer E-Mail-Bounce, der für eine gültige E-Mail-Adresse aufgetreten ist. Die E-Mail-Adresse wird nach mehreren Wiederholungsversuchen zur Unterdrückungsliste hinzugefügt. Soft-Fehler senden eine Adresse an die Unterdrückungsliste, sobald der Fehlerzähler den Grenzwert erreicht. [Erfahren Sie mehr über Wiederholungen](retries.md)
 
@@ -169,6 +169,7 @@ Um eine Gruppe von E-Mail-Adressen oder eine Domain zur Unterdrückungsliste hin
    >Ändern Sie den Namen der Spalten in der CSV-Vorlage nicht.
    >
    >Die Dateigröße darf 1 MB nicht überschreiten.
+   >
 
 1. Wenn Sie fertig sind, ziehen Sie Ihre CSV-Datei per Drag-and-Drop und bestätigen Sie mithilfe der Schaltfläche **[!UICONTROL Senden]**.
 

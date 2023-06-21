@@ -95,7 +95,6 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
       ![](assets/deliver-offer-test-profiles.png)
 
-
 1. Klicken Sie auf **[!UICONTROL Vorschau]** zum Testen der Nachricht und zur Auswahl eines Testprofils. Das Angebot, das dem ausgewählten Profil (Frau) entspricht, wird angezeigt.
 
    ![](assets/deliver-offer-test-profile-female-preview.png)

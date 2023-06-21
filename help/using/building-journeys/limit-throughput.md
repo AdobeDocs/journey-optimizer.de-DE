@@ -56,14 +56,14 @@ Nehmen wir das Beispiel einer **segmentgesteuerten Journey** mit einer Populatio
    * In Verzeigung 1 warten sie 30 Sekunden, das heißt:
       * In der ersten Sekunde warten 100 Profile bis zur Sekunde 31.
       * In der zweiten Sekunde warten 100 Profile bis zur Sekunde 32 usw.
+
    * In der Vezweigung 2 warten sie 60 Sekunden, das heißt:
       * In der ersten Sekunde warten 100 Profile bis zur Sekunde 61 (1min01s)
       * In der zweiten Sekunde warten 100 Profile bis zur Sekunde 62 (1min02s) usw.
+
    * Da wir erwarten, dass alle Profile in maximal 20 Sekunden gelesen werden, gibt es keine Überschneidungen zwischen den einzelnen Verzeigungen, wobei die zweite Verzweigung die letzte ist, bei der Profile in die Bedingung einfließen. Zwischen Sekunde 31 und Sekunde 51 werden alle Profile in der Verzweigung 1 verarbeitet. Zwischen Sekunde 61 (1min01s) und Sekunde 81 (1min21s) werden alle Profile in Verzweigung 2 verarbeitet usw.
 
    * Als Schutzmaßnahme können Sie auch eine sechste Verzweigung hinzufügen, sodass weniger als 100 Profile pro Verzweigung enthalten sind, insbesondere wenn Ihr externes System nur 100 Anfragen/Sekunde unterstützt.
-
-
 
 >[!IMPORTANT]
 >

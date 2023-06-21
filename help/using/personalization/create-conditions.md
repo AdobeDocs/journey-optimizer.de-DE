@@ -32,11 +32,11 @@ Bedingte Regeln werden im Menü **[!UICONTROL Bedingungen]** im Ausdruckseditor 
 
 * In Email Designer beim Aktivieren von dynamischen Inhalten für eine Komponente im E-Mail-Textkörper. [Erfahren Sie, wie Sie dynamische Inhalte zu E-Mails hinzufügen](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * In allen Feldern, in denen Sie mithilfe des [Ausdruckseditors](personalization-build-expressions.md) eine Personalisierung vornehmen können.
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## Erstellen einer bedingten Regel {#create-condition}
 

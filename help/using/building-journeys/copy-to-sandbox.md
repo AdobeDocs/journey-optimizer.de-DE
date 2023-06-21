@@ -82,27 +82,27 @@ Die folgenden Objekte werden kopiert:
 
 * Segment
 
-   Ein Segment kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachdem ein Segment kopiert wurde, kann es nicht mehr in der Ziel-Sandbox bearbeitet werden.
+  Ein Segment kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachdem ein Segment kopiert wurde, kann es nicht mehr in der Ziel-Sandbox bearbeitet werden.
 
 * Schema
 
-   Die in dieser Journey verwendeten Schemata werden kopiert.
+  Die in dieser Journey verwendeten Schemata werden kopiert.
 
 * Nachricht
 
-   Die in der Journey verwendeten Kanalaktionsaktivitäten. Die für die Personalisierung verwendeten Felder in der Nachricht werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
+  Die in der Journey verwendeten Kanalaktionsaktivitäten. Die für die Personalisierung verwendeten Felder in der Nachricht werden nicht auf Vollständigkeit überprüft. Inhaltsbausteine werden nicht kopiert.
 
 * Journey – Details der Arbeitsfläche
 
-   Die Darstellung der Journey auf der Arbeitsfläche, einschließlich der Objekte in der Journey, wie Bedingungen, Aktionen, Ereignisse, Lesesegmente usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
+  Die Darstellung der Journey auf der Arbeitsfläche, einschließlich der Objekte in der Journey, wie Bedingungen, Aktionen, Ereignisse, Lesesegmente usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
 
 * Ereignis
 
-   Die Ereignisse und Ereignisdetails, die in der Journey verwendet werden, werden kopiert.
+  Die Ereignisse und Ereignisdetails, die in der Journey verwendet werden, werden kopiert.
 
 * Aktion
 
-   Die in der Journey verwendeten Aktionen und Aktionsdetails werden kopiert.
+  Die in der Journey verwendeten Aktionen und Aktionsdetails werden kopiert.
 
 Oberflächen (d. h. Voreinstellungen) werden nicht kopiert. Das System wählt basierend auf dem Nachrichtentyp und dem Namen der Oberfläche automatisch die bestmögliche Übereinstimmung für die Ziel-Sandbox aus. Wenn keine Oberflächen in der Ziel-Sandbox gefunden werden, schlägt die Kopie der Oberfläche fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Oberfläche zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Oberfläche für den entsprechenden Kanal der Nachricht erstellt werden, damit eine Kopie durchgeführt werden kann.
 

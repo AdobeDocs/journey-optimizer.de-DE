@@ -59,7 +59,6 @@ Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (techni
 >
 >* Die Methode CNAME wird empfohlen, wenn die Richtlinien Ihrer Organisation die vollständige Subdomain-Delegierung nicht erlauben. Diese Methode erfordert, dass Sie DNS-Einträge selbst pflegen und verwalten. Adobe kann keine Unterstützung beim Ändern, Pflegen oder Verwalten des DNS für eine Subdomain anbieten, die über die CNAME-Methode konfiguriert wurde.
 
-
 Die nachstehende Tabelle bietet eine Zusammenfassung über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
 | Konfigurationsmethode | Funktionsweise | Aufwand |

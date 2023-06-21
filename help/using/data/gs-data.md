@@ -67,7 +67,7 @@ Sie können die Datenflexibilität von [!DNL Journey Optimizer] nutzen, um Ihre 
 
 * **Datenextraktion/Export**: Sie können die Extraktion von Quelldaten jederzeit über die Datenzugriffs-API ohne Strafen oder Zeitverzögerungen starten. Die [Datenzugriffs-API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=de){target="_blank"} bietet Benutzenden eine RESTful-Schnittstelle, die sich auf die Auffindbarkeit und Zugänglichkeit aufgenommener Datensätze innerhalb von [!DNL Adobe Experience Platform] konzentriert. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
-   Beachten Sie, dass in Journeys oder Kampagnen verwendete Inhalte nicht über die oben genannten API- oder Zielmethoden extrahiert werden können.
+  Beachten Sie, dass in Journeys oder Kampagnen verwendete Inhalte nicht über die oben genannten API- oder Zielmethoden extrahiert werden können.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
@@ -77,7 +77,7 @@ Sie können die Datenflexibilität von [!DNL Journey Optimizer] nutzen, um Ihre 
 
 * **Bereinigungs- und Archivierungsmechanismen**: Die Bereinigung von Daten und Archivierung kann in [!DNL Adobe Journey Optimizer] frei definiert und automatisiert werden, um die Datenaufbewahrungsrichtlinien zu automatisieren. Es ist möglich, für die verschiedenen Datenentitäten unterschiedliche Alterungsstrategien zu definieren. Exportmechanismen können auch so definiert werden, das alternde Daten vor einer Bereinigung oder Archivierung automatisch exportiert werden.
 
-   Der Arbeitsbereich „Datenhygiene“ ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
+  Der Arbeitsbereich „Datenhygiene“ ermöglicht Ihnen, verschiedene Aufgaben zur Datenhygiene zu erstellen und zu überwachen, darunter das Löschen von Verbraucheridentitäten und das Planen der Gültigkeitsdauer von Datensätzen. Dieser Arbeitsbereich ist mit Security &amp; Privacy Shield und Healthcare Shield verfügbar. Weiterführende Informationen finden Sie auf [dieser Seite](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

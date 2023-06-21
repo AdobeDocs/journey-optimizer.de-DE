@@ -25,7 +25,7 @@ Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finde
 
 * Testprofile durch Hochladen einer [CSV-Datei](#create-test-profiles-csv) oder mithilfe von [API-Aufrufen](#create-test-profiles-api) erstellen
 
-   Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [produktinternen Anwendungsfall](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
+  Zusätzlich zu diesen beiden Methoden bietet Adobe Journey Optimizer einen speziellen [produktinternen Anwendungsfall](#use-case-1), um die Erstellung von Testprofilen zu erleichtern.
 
 Sie können auch eine JSON-Datei in einen vorhandenen Datensatz hochladen. Weiterführende Informationen dazu finden Sie in der [Dokumentation zur Datenaufnahme](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=de#add-data-to-dataset){target="_blank"}.
 
@@ -53,7 +53,6 @@ Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die List
    >* Klicken Sie auf den Namen des Schemas, um es zu ändern und seine Eigenschaften zu aktualisieren.
    >
    >* Klicken Sie im Abschnitt „Feldgruppen“ auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um andere Feldgruppen auszuwählen, die dem Schema hinzugefügt werden sollen.
-
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](assets/test-profiles-3.png)

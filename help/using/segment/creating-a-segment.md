@@ -50,11 +50,11 @@ In diesem Beispiel erstellen wir ein Segment für alle in Atlanta, San Francisco
 
    * **Attribute**: Profile mit Wohnsitz in Atlanta, San Francisco oder Seattle und mit Geburtsjahr nach 1980
 
-      ![](assets/add-attributes.png)
+     ![](assets/add-attributes.png)
 
    * **Ereignisse**: Profile, die das Luma-Programm innerhalb der letzten 7 Tage geöffnet und innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
-      ![](assets/add-events.png)
+     ![](assets/add-events.png)
 
 1. Wenn Sie dem Arbeitsbereich neue Felder hinzufügen und diese konfigurieren, wird der Bereich **[!UICONTROL Segmenteigenschaften]** automatisch mit Informationen zum geschätzten Bestand an Profilen dieses Segments aktualisiert.
 

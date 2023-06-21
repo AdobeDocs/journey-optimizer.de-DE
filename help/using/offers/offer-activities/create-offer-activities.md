@@ -76,19 +76,19 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    * Um die Auswahl der Angebote auf die Kontakte eines Experience Platform-Segments zu beschränken, wählen Sie **[!UICONTROL Segmente]** aus und klicken Sie dann auf **[!UICONTROL Segmente hinzufügen]**.
 
-      ![](../assets/activity_constraint_segment.png)
+     ![](../assets/activity_constraint_segment.png)
 
-      Fügen Sie ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie diese mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
+     Fügen Sie ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie diese mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
 
-      ![](../assets/activity_constraint_segment2.png)
+     ![](../assets/activity_constraint_segment2.png)
 
-      Weitere Informationen zum Arbeiten mit Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
+     Weitere Informationen zum Arbeiten mit Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
 
    * Wenn Sie eine Auswahlbegrenzung mit einer Entscheidungsregel hinzufügen möchten, verwenden Sie die Option **[!UICONTROL Entscheidungsregel]** und wählen Sie die gewünschte Regel aus.
 
-      ![](../assets/activity_constraint_rule.png)
+     ![](../assets/activity_constraint_rule.png)
 
-      Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
+     Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
 1. Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
@@ -136,11 +136,11 @@ Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und e
 
 * Wenn die beiden Bewertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2) sind, werden die beiden geeignetsten Angebote aus den Bewertungskriterien in der ersten Zeile angezeigt. Gibt es für das erste Bewertungskriterium keine zwei geeigneten Angebote, geht die Entscheidungs-Engine zum nächsten Bewertungskriterium in der Reihenfolge über, um so viele Angebote zu finden, wie noch benötigt werden, und gibt schließlich bei Bedarf ein Fallback zurück.
 
-   ![](../assets/activity_consecutive-rank-collections.png)
+  ![](../assets/activity_consecutive-rank-collections.png)
 
 * Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Bewertungskriterium A und drei geeignete Angebote für Bewertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
-   ![](../assets/activity_same-rank-collections.png)
+  ![](../assets/activity_same-rank-collections.png)
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
 
@@ -205,11 +205,11 @@ Die Schaltfläche **[!UICONTROL Weitere Aktionen]** aktiviert die unten beschrie
 
 * **[!UICONTROL Löschen]**: entfernt die Entscheidung aus der Liste.
 
-   >[!CAUTION]
-   >
-   >Die Entscheidung und ihr Inhalt sind nicht mehr zugänglich. Diese Aktion kann nicht rückgängig gemacht werden.
-   >
-   >Wenn die Entscheidung in einem anderen Objekt verwendet wird, kann sie nicht gelöscht werden.
+  >[!CAUTION]
+  >
+  >Die Entscheidung und ihr Inhalt sind nicht mehr zugänglich. Diese Aktion kann nicht rückgängig gemacht werden.
+  >
+  >Wenn die Entscheidung in einem anderen Objekt verwendet wird, kann sie nicht gelöscht werden.
 
 * **[!UICONTROL Archivieren]**: setzt den Entscheidungsstatus auf **[!UICONTROL Archiviert]**. Die Entscheidung ist weiterhin in der Liste verfügbar, Sie können ihren Status jedoch nicht auf **[!UICONTROL Entwurf]** oder **[!UICONTROL Genehmigt]** zurücksetzen. Sie können es nur duplizieren oder löschen.
 

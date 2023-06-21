@@ -31,6 +31,7 @@ Damit dies mit Adobe Analytics funktioniert, müssen Sie:
 >Dieser Abschnitt gilt nur für regelbasierte Ereignisse und Kundinnen bzw. Kunden, die Adobe Analytics- oder Web SDK-Daten verwenden müssen.
 > 
 >Wenn Sie Adobe Customer Journey Analytics verwenden, lesen Sie [diese Seite](../reports/cja-ajo.md).
+>
 
 ## Konfigurieren von Adobe Analytics- oder Web SDK-Daten {#leverage-analytics-data}
 
@@ -105,7 +106,7 @@ Im folgenden Beispiel erfahren Sie, wie Sie Benutzerinnen und Benutzer anspreche
    * **[!UICONTROL Felder]**: Wählen Sie die Payload-Felder aus. [Weitere Informationen](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Ereignis-ID-Bedingung]**: Definieren Sie die Bedingung, um die Ereignisse zu identifizieren, die Ihre Journey auslösen werden.
 
-      Hier wird das Ereignis ausgelöst, wenn Kundinnen bzw. Kunden einen Artikel zu ihrem Warenkorb hinzufügen.
+     Hier wird das Ereignis ausgelöst, wenn Kundinnen bzw. Kunden einen Artikel zu ihrem Warenkorb hinzufügen.
    * **[!UICONTROL Profilkennung]**: Wählen Sie ein Feld aus Ihren Payload-Feldern aus oder definieren Sie eine Formel, um die mit dem Ereignis verknüpfte Person zu identifizieren.
 
    ![](assets/ajo-aa_6.png)

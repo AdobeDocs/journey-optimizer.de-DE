@@ -23,11 +23,11 @@ SMS-Versand-Erstellung möglich:
 
 * In einer **Journey**: Nachdem eine SMS-Aktivität zur Journey hinzugefügt und die Grundeinstellungen festgelegt wurden, bitte den rechten Bereich **[!UICONTROL Aktionen: SMS]** verwenden, um den Inhalt für die SMS-Nachricht zu erstellen.
 
-   Weitere Informationen zur Konfiguration der Journey auf [dieser Seite](../building-journeys/journey-gs.md).
+  Weitere Informationen zur Konfiguration der Journey auf [dieser Seite](../building-journeys/journey-gs.md).
 
 * In einer **Kampagne**: Nach Erstellen einer Kampagne „SMS“ als Aktion auswählen und die Grundeinstellungen definieren.
 
-   Weitere Informationen zur Konfiguration einer Kampagne auf [dieser Seite](../campaigns/create-campaign.md#configure).
+  Weitere Informationen zur Konfiguration einer Kampagne auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]

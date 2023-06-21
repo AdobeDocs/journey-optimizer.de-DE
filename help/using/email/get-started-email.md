@@ -28,11 +28,11 @@ E-Mail-Sendungen können erstellt werden:
 
 * In einer **Journey**: Nachdem Sie eine **[!UICONTROL E-Mail]**-Aktivität zu Ihrer Journey hinzugefügt und die Grundeinstellungen festgelegt haben, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: E-Mail]**, um den Inhalt für die Nachricht zu erstellen.
 
-   Weitere Informationen zur Konfiguration einer Journey fomdem Sie auf [dieser Seite](../building-journeys/journey-gs.md).
+  Weitere Informationen zur Konfiguration einer Journey fomdem Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
 * In einer **Kampagne**: Nachdem Sie eine Kampagne erstellt haben, wählen Sie **[!UICONTROL E-Mail]** als Aktion aus und definieren Sie die Grundeinstellungen.
 
-   Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
+  Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

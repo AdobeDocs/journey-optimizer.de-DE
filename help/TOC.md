@@ -363,7 +363,7 @@ ht-degree: 100%
       + [Arbeiten mit Entscheidungs-Management-Ereignissen](using/offers/reports/get-started-events.md)
       + [Zugriff auf XDM-Felder von Ereignissen](using/offers/reports/xdm-fields.md)
    + Exportieren des Angebotskatalogs {#export-catalog}
-      + [Erste Schritte mit dem Exportieren eines Angebotskatalogs ](using/offers/export-catalog/get-started-export.md)
+      + [Erste Schritte mit dem Exportieren eines Angebotskatalogs](using/offers/export-catalog/get-started-export.md)
       + [Zugriff auf den exportierten Angebotskatalog](using/offers/export-catalog/access-dataset.md)
       + [Datensatz für personalisierte Angebote](using/offers/export-catalog/export-offers.md)
       + [Entscheidungsdatensatz](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 100%
       + [Erste Schritte mit Datensätzen](using/data/get-started-datasets.md)
       + [Exportieren von Journey Optimizer-Datensätzen](using/data/export-datasets.md)
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
-      + [Integrierte Schemata > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
+      + [Integrierte Schemata >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
    + [Abfragen](using/data/get-started-queries.md)
 + Konfiguration{#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)

@@ -85,21 +85,21 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
 
 * Standardmäßig ist die Option **[!UICONTROL Alle Besucher]** aktiviert, d. h. das Angebot kann jedem Profil unterbreitet werden.
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
 * Sie können die Präsentation eines Angebots auch auf die Mitglieder eines oder mehrerer [Adobe Experience Platform-Segmente](../../segment/about-segments.md) beschränken.
 
-   Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
+  Aktivieren Sie dazu die Option **[!UICONTROL Besucher, die zu mindestens einem Segment passen]**, fügen Sie dann ein oder mehrere Segmente aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * Wenn Sie eine bestimmte [Entscheidungsregel](../offer-library/creating-decision-rules.md) mit dem Angebot verknüpfen möchten, wählen Sie **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**.
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
+  >[!CAUTION]
+  >
+  >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
 Wenn Sie Segmente oder Entscheidungsregeln auswählen, können Sie Informationen zu den geschätzten qualifizierten Profilen sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
@@ -117,15 +117,15 @@ Grundsätzlich besteht ein Segment aus einer Liste von Profilen, während eine E
 
 * **Segmente**
 
-   Segmente sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Doch beim Offer Decisioning-Prozess wird das Segment nicht neu berechnet, weshalb es zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
+  Segmente sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Doch beim Offer Decisioning-Prozess wird das Segment nicht neu berechnet, weshalb es zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
 
-   Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
+  Weitere Informationen zu Segmenten finden Sie in [diesem Abschnitt](../../segment/about-segments.md).
 
 * **Entscheidungsregeln**
 
-   Dagegen basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nachdem die Entscheidungsregel in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung ausgewählt wurde, wird sie bei jedem Entscheidungsvorgang erneut ausgeführt. Dadurch wird jedem Profil immer ein aktuelles, optimales Angebot angezeigt.
+  Dagegen basiert eine Entscheidungsregel auf in Adobe Experience Platform verfügbaren Daten und bestimmt, wem ein Angebot angezeigt werden kann. Nachdem die Entscheidungsregel in einem Angebot oder einer Entscheidung für eine bestimmte Platzierung ausgewählt wurde, wird sie bei jedem Entscheidungsvorgang erneut ausgeführt. Dadurch wird jedem Profil immer ein aktuelles, optimales Angebot angezeigt.
 
-   Weitere Informationen zu Entscheidungsregeln finden Sie in [diesem Abschnitt](creating-decision-rules.md).
+  Weitere Informationen zu Entscheidungsregeln finden Sie in [diesem Abschnitt](creating-decision-rules.md).
 
 ## Begrenzung {#capping}
 
@@ -186,16 +186,16 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches
 * **[!UICONTROL Entscheidungsereignis]** (Standardwert): Die maximale Häufigkeit, mit der ein Angebot unterbreitet werden kann.
 * **[!UICONTROL Impression]**: Die maximale Häufigkeit, mit der das Angebot einer Benutzerin bzw. einem Benutzer angezeigt werden kann.
 
-   >[!NOTE]
-   >
-   >Die Verwendung von Impressions als Begrenzungsereignisse ist nur für **eingehende Kanäle** verfügbar.
+  >[!NOTE]
+  >
+  >Die Verwendung von Impressions als Begrenzungsereignisse ist nur für **eingehende Kanäle** verfügbar.
 
 * **[!UICONTROL Klicks]**: Die maximale Anzahl der Klicks auf das Angebot durch eine Benutzerin bzw. einen Benutzer.
 * **[!UICONTROL Benutzerspezifisches Ereignis]**: Sie können ein benutzerspezifisches Ereignis festlegen, mit dem die Anzahl der gesendeten Angebote begrenzt wird. Sie können beispielsweise die Anzahl der Einlösungen auf 10.000 begrenzen, oder bis ein bestimmtes Profil 1 Mal eine Einlösung vorgenommen hat. Verwenden Sie dazu [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}-Schemata, um eine benutzerspezifische Ereignisregel zu erstellen.
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Im folgenden Beispiel möchten Sie die Anzahl der Checkouts begrenzen.
+  Im folgenden Beispiel möchten Sie die Anzahl der Checkouts begrenzen.
 
    1. Wählen Sie **[!UICONTROL Benutzerspezifisches Ereignis]** aus der Liste aus und verwenden Sie die Schaltfläche **[!UICONTROL Benutzerspezifisches Ereignis hinzufügen]**.
 
@@ -237,11 +237,11 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 
 * Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Ziel-Audience vorgeschlagen werden kann, d. h. für alle Benutzer.
 
-   Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
+  Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
 * Wählen Sie **[!UICONTROL Pro Profil]** aus, um festzulegen, wie oft ein Angebot demselben Benutzer vorgeschlagen werden kann.
 
-   Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
+  Wenn Sie z. B. eine Bank mit dem Angebot einer Platin-Kreditkarte sind, soll dieses Angebot nicht öfter als fünfmal pro Profil angezeigt werden. Vermutlich nutzt ein Benutzer, der das Angebot fünfmal gesehen und nicht darauf reagiert hat, eher das nächste beste Angebot.
 
 ### Frequenzlimitierung {#frequency-capping}
 
@@ -274,11 +274,11 @@ Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben,
 
 * **[!UICONTROL Alle Platzierungen]**: Die Begrenzungswerte beziehen sich auf alle Entscheidungen in allen Platzierungen, die mit dem Angebot verbunden sind.
 
-   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
+  Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
 
 * **[!UICONTROL Einzelne Platzierung]**: Die Begrenzungswerte beziehen sich auf jede einzelne Platzierung.
 
-   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
+  Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 
 ### Auswirkungen von Datumsänderungen auf die Begrenzung {#capping-change-date}
 

@@ -140,7 +140,7 @@ Die Standardsprache der Benutzeroberfläche ist die Sprache, die Sie in Ihrem Pr
 Gehen Sie wie folgt vor, um Ihre Sprache zu ändern:
 
 * Klicken Sie in Ihrem Avatar oben rechts auf **Voreinstellungen**.
-   ![](assets/preferences.png)
+  ![](assets/preferences.png)
 * Klicken Sie dann auf die Sprache, die unter Ihrer E-Mail-Adresse angezeigt wird.
 * Wählen Sie Ihre bevorzugte Sprache und klicken Sie auf **Speichern**. Sie können eine zweite Sprache auswählen, falls die von Ihnen verwendete Komponente nicht in Ihrer ersten Sprache lokalisiert ist.
-   ![](assets/select-language.png)
+  ![](assets/select-language.png)

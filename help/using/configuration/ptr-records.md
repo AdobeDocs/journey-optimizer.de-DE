@@ -98,7 +98,6 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
    >   * Überprüfen Sie beim DNS-Provider, ob der Forward-DNS-Eintrag erfolgreich erstellt wurde.
    >   * Einträge im DNS werden möglicherweise nicht sofort synchronisiert. Warten Sie einige Minuten und versuchen Sie es erneut.
 
-
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
 >[!NOTE]

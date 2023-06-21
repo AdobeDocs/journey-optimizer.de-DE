@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -267,7 +267,7 @@ Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
 
 ## Anleitungsvideo {#video-fragments}
 
-Erfahren Sie, wie Sie Fragmente in verwalten, erstellen und verwenden [!DNL Journey Optimizer].
+Erfahren Sie, wie Sie in [!DNL Journey Optimizer] Fragmente verwalten, erstellen und verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 

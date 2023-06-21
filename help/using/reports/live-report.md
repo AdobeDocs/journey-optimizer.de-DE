@@ -22,15 +22,15 @@ Die Daten sind im **[!UICONTROL Live-Bericht]** verfügbar, sobald Ihr Versand e
 
 * Wenn Sie eine Journey im Kontext einer Journey anpeilen möchten, rufen Sie über das Menü **[!UICONTROL Journeys]** Ihre Journey auf und klicken Sie auf die Schaltfläche **[!UICONTROL Bericht anzeigen]**.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Wenn Sie eine Kampagne als Ziel wählen möchten, rufen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne auf und klicken auf die Schaltfläche **[!UICONTROL Berichte]**.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Wenn Sie vom **[!UICONTROL globalen Bericht]** zum **[!UICONTROL Live-Bericht]** für Ihren Versand wechseln möchten, klicken Sie auf **[!UICONTROL Letzte 24 Std.]** im Registerkarten-Umschalter.
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-live).
 

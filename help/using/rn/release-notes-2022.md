@@ -303,7 +303,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 * Die Tabelle und das Diagramm zu den Einverständnisrichtlinien sind jetzt in den globalen Journey-Berichten verfügbar. Mit diesen Widgets können Sie die von den Richtlinien ausgeschlossenen Profile in Ihren benutzerdefinierten Aktionen verfolgen. [Weitere Informationen](../reports/journey-global-report.md#journey-global)
 
-   Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in [der ausführlichen Dokumentation](../reports/global-report.md).
+  Um Zugriff auf die neuesten Widgets zu erhalten, müssen Sie die verschiedenen Reporting-Dashboards zurücksetzen. Weitere Informationen zur Anpassung von Dashboards finden Sie in [der ausführlichen Dokumentation](../reports/global-report.md).
 
 **Administration**
 

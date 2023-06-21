@@ -91,15 +91,15 @@ Mit der Funktion `contains` wird bestimmt, ob eine Zeichenfolge eine angegebene 
 
 * Mit der folgenden Funktion wird geprüft, ob der Vorname des Profils den Buchstaben A enthält (in Groß- oder Kleinschreibung). Ist dies der Fall, wird „true“ zurückgegeben, andernfalls wird „false“ zurückgegeben.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * Die folgende Abfrage bestimmt unter Berücksichtigung der Groß-/Kleinschreibung, ob die E-Mail-Adresse der Person die Zeichenfolge „2010@gm“ enthält.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## Enthält nicht{#doesNotContain}
 
@@ -658,9 +658,10 @@ Die Funktion `replaceAll` wird verwendet, um alle Unterzeichenfolgen eines Texte
 
 >[!NOTE]
 >
-> Wenn der als zweites Argument verwendete Ausdruck ein spezielles Regex-Zeichen ist, verwenden Sie einen doppelten umgekehrten Schrägstrich (`//`).  Spezielle Regex-Zeichen sind: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Wenn der als zweites Argument verwendete Ausdruck ein spezielles Regex-Zeichen ist, verwenden Sie einen doppelten umgekehrten Schrägstrich (`//`).  Spezielle Regex-Zeichen sind: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Weitere Informationen finden Sie in der [Oracle-Dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Rechts kürzen {#rightTrim}
 

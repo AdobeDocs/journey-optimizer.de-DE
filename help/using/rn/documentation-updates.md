@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie Sie sicherstellen können, dass die Auswahl Ihrer Kundschaft, die sich gegen die Verwendung ihrer Profildaten für die Personalisierung entscheidet, berücksichtigt wird. [Weitere Informationen](../privacy/opt-out.md#opt-out-personalization)
 * Es wurde ein Hinweis zur Verwendung von internationalen Sonderzeichen in URLs hinzugefügt, die in E-Mail-Inhalten enthalten sind. [Weitere Informationen](../email/message-tracking.md#insert-links)
 * Die zum Testen und Veröffentlichen von Landingpages erforderliche Berechtigung wurde hinzugefügt. [Weitere Informationen](../landing-pages/create-lp.md)
-* Es wurde ein Hinweis zu den Adobe Experience Platform-Endpunkten hinzugefügt, die erforderlich sind, damit Ihre benutzerdefinierten Ereignisse bei der Frequenzbegrenzung für die Entscheidungsverwaltung berücksichtigt werden. [Weitere Informationen](../offers/data-collection/schema-requirement.md#track-custom-events)
+* Es wurde ein Hinweis zu den Adobe Experience Platform-Endpunkten hinzugefügt, die erforderlich sind, damit Ihre benutzerdefinierten Ereignisse bei der Frequenzlimitierung im Entscheidungs-Management berücksichtigt werden. [Weitere Informationen](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## April 2023 {#apr-2023}
 
@@ -95,7 +95,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Informationen über integrierte Datensätze wurden hinzugefügt. [Mehr dazu](../data/get-started-datasets.md#access-datasets)
 * Die Abschnitte „Globaler Bericht“ und „Live-Bericht“ wurden verbessert und neu angeordnet. [Mehr dazu](../reports/global-report.md)
 * Eine Liste aller in Adobe Journey Optimizer verfügbaren Berichtsmetriken wurde hinzugefügt -
-   [Mehr dazu](../reports/global-report.md#email-and-sms-metrics)
+  [Mehr dazu](../reports/global-report.md#email-and-sms-metrics)
 * Der Abschnitt zur BCC-E-Mail wurde auf die neue Seite „Support für Archivierung“ verschoben. [Mehr dazu](../configuration/archiving-support.md)
 
 ## August 2022 {#august-2022}

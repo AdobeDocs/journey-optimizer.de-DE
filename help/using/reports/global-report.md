@@ -25,15 +25,15 @@ Mit dem **[!UICONTROL globalen Bericht]** können Sie die Effektivität Ihrer Jo
 
 * Wenn Sie eine Journey oder Sendungen innerhalb einer Journey auswählen möchten, greifen Sie im Menü **[!UICONTROL Journeys]** auf Ihre Journey zu und klicken Sie auf das Symbol **[!UICONTROL Bericht anzeigen]**. Dort finden Sie die globalen Berichte zu Journeys, E-Mail-Nachrichten, SMS und Push-Benachrichtigungen.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Wenn Sie eine Kampagne als Ziel wählen möchten, rufen Sie im Menü **[!UICONTROL Kampagnen]** Ihre Kampagne auf und klicken auf die Schaltfläche **[!UICONTROL Berichte]**.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Wenn Sie für Ihren Versand vom **[!UICONTROL Live-Bericht]** zum **[!UICONTROL globalen Bericht]** wechseln möchten, klicken Sie im Registerkartenumschalter auf **[!UICONTROL Gesamte Zeit]**.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](#list-of-components-global)
 

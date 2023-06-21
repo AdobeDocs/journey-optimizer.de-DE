@@ -50,9 +50,9 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 
    * **Codieren oder fügen Sie unbearbeitetes HTML** direkt in den E-Mail-Designer ein. In [diesem Abschnitt](code-content.md) erfahren Sie, wie Sie Ihren Inhalt codieren.
 
-      >[!NOTE]
-      >
-      >In einer Kampagne können Sie auch die Schaltfläche **[!UICONTROL Code Editor]** im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auswählen. [Weitere Informationen](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >In einer Kampagne können Sie auch die Schaltfläche **[!UICONTROL Code Editor]** im Bildschirm **[!UICONTROL Inhalt bearbeiten]** auswählen. [Weitere Informationen](create-email.md#define-email-content)
 
    * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 

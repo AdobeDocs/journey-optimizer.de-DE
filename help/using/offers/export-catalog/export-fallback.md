@@ -9,7 +9,7 @@ exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1056'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,84 +79,84 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 * **_experience > decisioning > contents > components > Content Component Type**
 
-   **Feld:** _type
-   **Titel:** Inhaltskomponententyp
-   **Beschreibung:** Ein Aufzählungssatz von URIs, bei dem jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
-   **Typ:** Zeichenfolge
+  **Feld:** _type
+  **Titel:** Inhaltskomponententyp
+  **Beschreibung:** Ein Aufzählungssatz von URIs, bei dem jeder Wert einem der Inhaltskomponente gegebenen Typ zugeordnet ist. Einige Verbraucher der Inhaltsdarstellungen erwarten, dass der @type-Wert ein Verweis auf das Schema ist, das zusätzliche Eigenschaften der Inhaltskomponente beschreibt.
+  **Typ:** Zeichenfolge
 
 * **_experience > decisioning > contents > components > _dc**
 
-   **Feld:** _dc
-   **Typ:** Objekt
-   **Erforderlich:** „format“
+  **Feld:** _dc
+  **Typ:** Objekt
+  **Erforderlich:** „format“
 
    * **Format**
 
-      **Feld:** format
-      **Titel:** Format
-      **Beschreibung:** Die physische oder digitale Manifestation der Ressource. Normalerweise sollte das Format den Medientyp der Ressource enthalten. Das Format kann verwendet werden, um die Software, Hardware oder andere Geräte zu ermitteln, die zum Anzeigen oder Verwenden der Ressource erforderlich sind. Es wird empfohlen, einen Wert aus einem kontrollierten Vokabular auszuwählen (z. B. aus der Liste der [Internet-Medientypen](https://www.iana.org/ assignments/media-types/), die Computermedienformate definieren).
-      **Typ:** Zeichenfolge
-      **Beispiel:** &quot;application/vnd.adobe.photoshop&quot;
+     **Feld:** format
+     **Titel:** Format
+     **Beschreibung:** Die physische oder digitale Manifestation der Ressource. Normalerweise sollte das Format den Medientyp der Ressource enthalten. Das Format kann verwendet werden, um die Software, Hardware oder andere Geräte zu ermitteln, die zum Anzeigen oder Verwenden der Ressource erforderlich sind. Als Best Practice wird empfohlen, einen Wert aus einem kontrollierten Vokabular auszuwählen, z. B. aus der Liste von [Internet-Medientypen] (http://www.iana.org/ assignments/media-types/), die Computer-Medienformate definiert.
+     **Typ:** Zeichenfolge
+     **Beispiel:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Sprache**
 
-      **Feld:** language
-      **Titel:** Sprache
-      **Beschreibung:** Die Sprache(n) der Ressource. \nLanguages werden im Sprachen-Code spezifiziert, wie in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) definiert, was Teil von BCP 47 ist, das an anderer Stelle in XDM verwendet wird.
-      **Typ:** Array
-      **Beispiele:** „\n“, „pt-BR“, „es-ES“
+     **Feld:** language
+     **Titel:** Sprache
+     **Beschreibung:** Die Sprache(n) der Ressource. \nLanguages werden im Sprachen-Code spezifiziert, wie in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) definiert, was Teil von BCP 47 ist, das an anderer Stelle in XDM verwendet wird.
+     **Typ:** Array
+     **Beispiele:** „\n“, „pt-BR“, „es-ES“
 
 * **_experience > decisioning > contents > components > _repo**
 
-   **Feld:** _repo
-   **Typ:** Objekt
+  **Feld:** _repo
+  **Typ:** Objekt
 
    * **id**
 
-      **Feld:** id
-      **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
-      **Typ:** Zeichenfolge
-      **Beispiel:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Feld:** id
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
+     **Typ:** Zeichenfolge
+     **Beispiel:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Feld:** name
-      **Beschreibung:** Einige Hinweise dazu, wo das Repository zu finden ist, in dem das externe Asset von der \&quot;repo:id\&quot; gespeichert wird.
-      **Typ:** Zeichenfolge
+     **Feld:** name
+     **Beschreibung:** Einige Hinweise dazu, wo das Repository zu finden ist, in dem das externe Asset von der \&quot;repo:id\&quot; gespeichert wird.
+     **Typ:** Zeichenfolge
 
    * **repositoryID**
 
-      **Feld:** repositoryID
-      **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
-      **Typ:** Zeichenfolge
-      **Beispiel:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Feld:** repositoryID
+     **Beschreibung:** Eine optionale eindeutige Kennung, die auf das Asset in einem Content-Repository verweist. Wenn Platform-APIs zum Abrufen der Darstellung verwendet werden, kann der Client erwarten, dass die zusätzliche Eigenschaft \&quot;repo:resolveUrl\&quot; das Asset abruft.
+     **Typ:** Zeichenfolge
+     **Beispiel:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Feld:** resolveURL
-      **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. So lässt sich das Asset einfacher abrufen, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden müssen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
-      **Typ:** Zeichenfolge
-      **Beispiel:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Feld:** resolveURL
+     **Beschreibung:** Eine optionale URL zum Lesen des Assets in einem Content-Repository. So lässt sich das Asset einfacher abrufen, ohne dass der Client weiß, wo das Asset verwaltet wird und welche APIs aufgerufen werden müssen. Dies ähnelt einem HAL-Link, die Semantik ist jedoch einfacher und zweckmäßiger.
+     **Typ:** Zeichenfolge
+     **Beispiel:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contents > components > content**
 
-   **Feld:** content
-   **Beschreibung:** Ein optionales Feld für die direkte Speicherung von Inhalten. Anstatt auf Inhalte in einem Asset-Repository zu verweisen, kann die Komponente einfache Inhalte direkt speichern. Dieses Feld wird nicht für Assets mit zusammengesetzten, komplexen oder binären Inhalten verwendet.
-   **Typ:** Zeichenfolge
+  **Feld:** content
+  **Beschreibung:** Ein optionales Feld für die direkte Speicherung von Inhalten. Anstatt auf Inhalte in einem Asset-Repository zu verweisen, kann die Komponente einfache Inhalte direkt speichern. Dieses Feld wird nicht für Assets mit zusammengesetzten, komplexen oder binären Inhalten verwendet.
+  **Typ:** Zeichenfolge
 
 * **_experience > decisioning > contents > components > deliveryURL**
 
-   **Feld:** deliveryURL
-   **Beschreibung:** Eine optionale URL, die das Asset aus einem Content Delivery Network (CDN) oder von einem Dienstendpunkt abruft. Diese URL wird verwendet, um von einem User Agent aus öffentlich auf das Asset zuzugreifen.
-   **Typ:** Zeichenfolge
-   **Beispiel:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Feld:** deliveryURL
+  **Beschreibung:** Eine optionale URL, die das Asset aus einem Content Delivery Network (CDN) oder von einem Dienstendpunkt abruft. Diese URL wird verwendet, um von einem User Agent aus öffentlich auf das Asset zuzugreifen.
+  **Typ:** Zeichenfolge
+  **Beispiel:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contents > components > linkURL**
 
-   **Feld:** linkURL
-   **Beschreibung:** Eine optionale URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
-   **Typ:** Zeichenfolge
-   **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
+  **Feld:** linkURL
+  **Beschreibung:** Eine optionale URL für Benutzerinteraktionen. Diese URL wird verwendet, um den Endbenutzer auf einen User Agent zu verweisen, und kann verfolgt werden.
+  **Typ:** Zeichenfolge
+  **Beispiel:** „https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg“
 
 +++
 

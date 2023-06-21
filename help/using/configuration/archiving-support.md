@@ -77,7 +77,7 @@ Die BCC-Adresse wird jedoch gemäß der [hier](../email/email-settings.md) besch
 
 * Nachrichten können vor dem Versand an die Zielgruppe an die BCC-E-Mail-Adresse gesendet werden. BCC-Nachrichten können auch dann gesendet werden, wenn es bei den ursprünglichen Nachrichten zu einem [Bounce](../reports/suppression-list.md#delivery-failures) kam.
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * Öffnen oder klicken Sie nicht durch die an die BCC-Adresse gesendeten E-Mails, da sie bei der Versandanalyse in der Gesamtzahl der Öffnungen und Klicks berücksichtigt werden. Das könnte in [Berichten](../reports/global-report.md) zu falschen Berechnungen führen.
 

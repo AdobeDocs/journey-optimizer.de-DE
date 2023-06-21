@@ -119,6 +119,5 @@ Um den Status der Aktualisierung des IP-Pools zu überprüfen, klicken Sie auf d
 >* einige Minuten, bevor er von den unitären Nachrichten genutzt wird,
 >* bis der nächste Batch für den IP-Pool in Batch-Nachrichten wirksam ist.
 
-
 Sie können auch den Button **[!UICONTROL Löschen]** verwenden, um einen IP-Pool zu löschen. Beachten Sie, dass Sie einen mit einer Kanaloberfläche verknüpften IP-Pool nicht löschen können.
 

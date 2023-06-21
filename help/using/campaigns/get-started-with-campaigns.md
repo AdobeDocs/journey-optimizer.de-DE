@@ -61,6 +61,7 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
       ![](assets/do-not-localize/admin_2.png)
 
    1. Geben Sie den Namen, die Gruppe oder die E-Mail-Adresse der Benutzenden ein und klicken Sie auf **[!UICONTROL Speichern]**.
+
    Ihre Benutzenden können jetzt auf **[!UICONTROL Kampagnen]** zugreifen.
 
 +++

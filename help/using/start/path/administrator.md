@@ -27,6 +27,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
    >[!NOTE]
    >Wenn Sie als **Systemadministrator** das Menü **[!UICONTROL Sandboxes]** in [!DNL Journey Optimizer] nicht sehen können, aktualisieren Sie Ihre Berechtigungen in der [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Auf [dieser Seite](../../administration/permissions.md#edit-product-profile) erfahren Sie, wie Sie Ihr Produktprofil aktualisieren können.
+   >
 
 1. **Verwendung von Produktprofilen**. Produktprofile sind eine Reihe von Einzelberechtigungen, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Weitere Informationen finden Sie im Abschnitt [Vordefinierte Produktprofile](../../administration/ootb-product-profiles.md).
 
@@ -43,6 +44,7 @@ Um Journeys erstellen und Nachrichten senden zu können, rufen Sie das Menü **A
 
 >[!NOTE]
 >Wenn Sie als **Systemadministrator** das Menü **[!UICONTROL Kanäle]** in [!DNL Journey Optimizer] nicht sehen, aktualisieren Sie Ihre Berechtigungen in der [Admin Console](https://adminconsole.adobe.com/){target="_blank"}. Auf [dieser Seite](../../administration/permissions.md#edit-product-profile) erfahren Sie, wie Sie Ihr Produktprofil aktualisieren können.
+>
 
 Führen Sie dazu folgende Schritte durch:
 
@@ -67,7 +69,9 @@ Führen Sie dazu folgende Schritte durch:
 1. **Verwalten der Unterdrückungs- und Zulassungslisten**: Verbessern der Zustellbarkeit durch Unterdrückungs- und Zulassungslisten
 
    * Eine [Unterdrückungsliste](../../reports/suppression-list.md) besteht aus E-Mail-Adressen, die Sie von Ihren Sendungen ausschließen möchten, da das Senden an diese Kontakte Ihren Ruf als Versender und Ihre Versandraten beeinträchtigen könnte. Sie können alle E-Mail-Adressen überwachen, die bei einer Journey automatisch vom Versand ausgeschlossen werden, wie ungültige Adressen, Adressen, die stets zu Soft-Bounces führen und sich negativ auf Ihre E-Mail-Reputation auswirken könnten, sowie Empfänger, die eine Spam-Beschwerde gegen eine Ihrer E-Mail-Nachrichten eingelegt haben. Erfahren Sie, wie Sie die [Unterdrückungsliste](../../configuration/manage-suppression-list.md) und [weitere Zustellversuche](../../configuration/retries.md) verwalten.
+
    ![](../assets/suppression-list-filtering-example.png)
 
    * Mit der [Zulassungsliste](../../configuration/allow-list.md) können Sie einzelne E-Mail-Adressen oder Domains als die einzigen Empfänger oder Domains angeben, die zum Empfang der E-Mails berechtigt sind, die von einer bestimmten Sandbox gesendet werden. Dadurch können Sie verhindern, dass Sie in einer Testumgebung versehentlich E-Mails an echte Kundenadressen senden. Erfahren Sie, wie Sie die [Zulassungsliste aktivieren](../../configuration/allow-list.md).
+
    Sie erfahren mehr über die Zustellbarkeitsverwaltung in [!DNL Adobe Journey Optimizer] [auf dieser Seite](../../reports/deliverability.md).

@@ -25,7 +25,6 @@ Sie werden die folgenden Arten von Hilfsfunktionen verwenden:
 * Die Zeichenfolgen-Funktion `upperCase`, mit der der Vorname des Kunden in Großbuchstaben eingefügt wird. [Weitere Informationen](functions/string.md#upper).
 * Der Helper `each`, um die Artikel im Warenkorb aufzulisten. [Weitere Informationen](functions/helpers.md#each).
 * Der Helper `if`, um eine produktspezifische Anmerkung einzufügen, wenn sich das zugehörige Produkt im Warenkorb befindet. [Weitere Informationen](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Im Video erfahren Sie, wie Sie Helper-Funktionen verwenden](#video)
@@ -168,7 +167,6 @@ Der Warenkorbinhalt ist kontextuelle Information aus der Journey. Daher müssen 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Fügen Sie diesen Code zwischen dem öffnenden `{{#each}}`-Tag und dem schließenden `{/each}}`-Tag ein:
 

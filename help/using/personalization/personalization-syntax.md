@@ -82,6 +82,7 @@ In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Pr
 
 >[!NOTE]
 >Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+>
 
 ## Angebote {#offers-syntax}
 
@@ -107,19 +108,19 @@ Ein Validierungsmechanismus, der [auf dieser Seite](personalization-validation.m
 
 * Speicherort, an dem das Bild gehostet wird:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * Ziel-URL beim Klicken auf das Bild:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Text-Inhalt des Angebots aus der Entscheidungs-Engine:
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * HTML-Inhalt des Angebots aus der Entscheidungs-Engine:
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Helper{#helpers-all}
@@ -134,6 +135,7 @@ Blöcke sind Ausdrücke mit einer Blockeröffnung ({{# }}) and closing ({{/}}).
 >[!NOTE]
 >
 >Hilfsfunktionen sind in [diesem Abschnitt](functions/helpers.md) ausführlich beschrieben.
+>
 
 ## Literaltypen {#literal-types}
 
@@ -164,6 +166,7 @@ Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht pers
 >[!NOTE]
 >
 >Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, werden Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
+>
 
 **Beispiele für personalisierte URLs**
 

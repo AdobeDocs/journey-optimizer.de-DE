@@ -28,7 +28,7 @@ Um benutzerdefiniertes JavaScript in die Inhalte von Landingpages einzufügen, h
 
 * Erstellen Sie Ihre Landingpage von Grund auf neu oder aus einer gespeicherten Vorlage. Ziehen Sie die **[!UICONTROL HTML]**-Inhaltskomponente in die Arbeitsfläche und zeigen Sie den Quell-Code an, um Ihr JavaScript zur Komponente hinzuzufügen. In [diesem Abschnitt](../email/content-components.md#HTML) erfahren Sie, wie Sie die HTML-Komponente verwenden. <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * Geben Sie JavaScript-Code direkt in den Inhalts-Designer ein oder fügen Sie ihn ein. Erfahren Sie [in diesem Abschnitt](../email/code-content.md), wie Sie Ihren eigenen Inhalt codieren.
 

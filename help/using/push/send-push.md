@@ -52,7 +52,7 @@ Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige
 
    * **[!UICONTROL Die Payload für Push-Benachrichtigungen an iOS-/Android überschreitet die Beschränkung von 4 KB]**: Die Größe der Push-Benachrichtigung darf 4 KB nicht überschreiten. Um diese Grenze zu beachten, versuchen Sie, die Verwendung von Bildern oder Emojis zu reduzieren. In [diesem Abschnitt](../push/create-push.md) erfahren Sie, wie Sie Ihre Push-Benachrichtigungsinhalte verwalten.
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]

@@ -45,7 +45,6 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 >
 > * Daher wirkt sich jede Änderung an einer SMS-Subdomain auch auf die Produktions-Sandboxes aus.
 
-
 ## Verwenden einer vorhandenen Subdomain {#sms-use-existing-subdomain}
 
 Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde.

@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 >[!AVAILABILITY]
 >
 >Der neue **Schnellstart-Workflow für Mobile-Onboarding** ist jetzt verfügbar. Verwenden Sie diese neue Produktfunktion, um das Mobile SDK schnell so zu konfigurieren, dass es mit der Erfassung und Validierung von Mobile-Ereignisdaten und dem Senden von Mobile-Push-Benachrichtigungen beginnt. Auf diese Funktion kann über die Startseite der Datenerfassung als öffentliche Beta-Version zugegriffen werden. [Weitere Informationen](mobile-onboarding-wf.md)
+>
 
 
 ## Vor Beginn {#before-starting}
@@ -142,7 +143,7 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
 
    * **Für iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Geben Sie die **Bundle ID** der Mobile App im Feld **[!UICONTROL App-ID (iOS Bundle ID)]** ein. Die Bundle ID der App finden Sie auf der Registerkarte **Allgemein** des primären Ziels in **XCode**.
 
@@ -153,16 +154,16 @@ Die Registrierung der Push-Anmeldedaten für Mobile Apps ist erforderlich, um Ad
       1. Geben Sie die **Key ID** an. Dies ist eine 10-stellige Zeichenfolge, die bei der Erstellung des p8-Authentifizierungsschlüssels zugewiesen wurde. Sie finden sie auf der Registerkarte **Schlüssel** auf der Seite **Zertifikate**, **Kennungen** und **Profile**.
 
       1. Geben Sie die **Team ID** an. Dies ist ein Zeichenfolgenwert, der auf der Registerkarte „Abonnement“ zu finden ist.
+
    * **Für Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Geben Sie die **[!UICONTROL App-ID (Android-Package-Name)]** an: Normalerweise ist der Package-Name die App-ID in Ihrer `build.gradle`-Datei.
 
       1. Aktivieren sie die Schaltfläche **[!UICONTROL Push-Anmeldeinformationen]**, um Ihre Anmeldeinformationen hinzuzufügen.
 
       1. Legen Sie die FCM-Push-Anmeldeinformationen per Drag-and-Drop ab. Weitere Informationen zum Abrufen der Push-Anmeldeinformationen finden Sie in der [Google-Dokumentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Mobile-App-Konfiguration zu erstellen.

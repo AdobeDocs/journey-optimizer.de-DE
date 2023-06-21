@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -37,21 +37,21 @@ ht-degree: 76%
 
    ![](assets/in_app_journey_4.png)
 
-1. Aus dem **[!UICONTROL Trigger von In-App-Nachrichten]** auswählen, die Ereignisse und Kriterien, die auf Ihre Nachricht Trigger werden sollen:
+1. Wählen Sie im Fenster **[!UICONTROL In-App-Nachricht-Auslöser]** die Ereignisse und Kriterien aus, die Ihre Nachricht auslösen sollen:
 
    1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bedingung hinzufügen]**, wenn Sie möchten, dass der Trigger mehrere Ereignisse oder Kriterien berücksichtigt.
-   1. Aus dem **[!UICONTROL Auswählen eines Ereignisses]** wählen Sie in der Dropdown-Liste den Ereignistyp für Ihren Trigger aus.
+   1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Ereignis auswählen]** den Ereignistyp für Ihren Auslöser aus.
    1. Wählen Sie die Art der Verknüpfung Ihrer Ereignisse aus, z. B. **[!UICONTROL Und]**, wenn Sie möchten, dass **beide** Auslöser erfüllt sind, damit eine Nachricht angezeigt wird. Wählen Sie stattdessen **[!UICONTROL Oder]**, wenn Sie möchten, dass die Nachricht angezeigt wird, wenn **einer** der Auslöser erfüllt ist.
    1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
 
    ![](assets/in_app_journey_3.png)
 
-1. Wählen Sie die Häufigkeit aus, mit der Ihr Trigger aktiv ist:
+1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist:
 
-   * **[!UICONTROL Jedes Mal]**: Zeigt immer die Nachricht an, wenn die Ereignisse im **[!UICONTROL App-Trigger]** angezeigt.
+   * **[!UICONTROL Jedes Mal]**: Die Nachricht wird immer angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Auslöser]** ausgewählten Ereignisse eintreten.
    * **[!UICONTROL Einmal anzeigen]**: Die Nachricht wird nur beim ersten Mal angezeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Trigger]** ausgewählten Ereignisse eintreten.
    * **[!UICONTROL Bis zu Clickthrough]**: Diese Nachricht wird anzeigt, wenn die im Dropdown-Menü **[!UICONTROL Mobile-App-Trigger]** ausgewählten Ereignisse eintreten, bis vom SDK ein Interaktionsereignis mit der Aktion „Angeklickt“ übermittelt wird.
-   * **[!UICONTROL X Häufigkeit]**: Zeigen Sie die Nachricht nur eine bestimmte Anzahl an Malen an, bestimmt durch den Wert, der in der Variablen **[!UICONTROL Anzeigezeiten]** -Feld.
+   * **[!UICONTROL X-mal]**: Die Nachricht wird nur eine bestimmte Anzahl von Malen angezeigt, bestimmt durch den Wert, der im Feld **[!UICONTROL Anzahl der Anzeigen]** festgelegt ist.
 
 1. Wählen Sie den Wochentag und den Zeitpunkt aus, zu dem Ihre In-App-Nachricht ausgelöst werden soll, und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -73,13 +73,13 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 * **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
 
-* Eine Aktivierungsverzögerung kann zwischen dem Zeitpunkt, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt auftreten, zu dem es diese In-App-Nachricht zu sehen beginnt.
+* Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
 
 ## In-App-Bericht {#inapp-report}
 
-Von Ihrer Journey **[!UICONTROL Gesamtbericht]**, die **[!UICONTROL In-App]** im Tab werden die wichtigsten Informationen zu den in Ihren Journey gesendeten In-App-Sendungen aufgeführt.
+Im **[!UICONTROL globalen Bericht]** Ihrer Journey finden Sie auf der Registerkarte **[!UICONTROL In-App]** die wichtigsten Informationen zu den In-App-Sendungen, die in Ihren Journeys versendet wurden.
 
-Weitere Informationen [Journey globaler Bericht](../reports/journey-global-report.md).
+Erfahren Sie mehr über den [globalen Bericht zur Journey](../reports/journey-global-report.md).
 
 ![](assets/in-app-journey-report.png)
 
@@ -97,7 +97,7 @@ Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informatione
 
 Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions für den betroffenen Zeitraum an.
 
-Die **[!UICONTROL Klicks nach Schaltfläche]** Diagramme und Tabellen enthalten die verfügbaren Daten für das Empfängerverhalten pro Schaltfläche:
+Das Diagramm und die Tabelle **[!UICONTROL Klicks nach Schaltfläche]** enthalten die verfügbaren Daten für das Empfängerverhalten je nach Schaltfläche:
 
 * **[!UICONTROL Klicks]**: Gesamtzahl der Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.
 

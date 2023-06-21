@@ -24,11 +24,13 @@ Verwenden Sie im Bildschirm **Ausdruckseditor** die Schaltfläche **Validieren**
 
 >[!NOTE]
 > Die Validierung wird automatisch durchgeführt, wenn Sie auf den Button **Hinzufügen** klicken, was das Editor-Fenster schließt.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Wenn die Personalisierungssyntax ungültig ist, können Sie das Fenster des Ausdruckseditors nicht schließen.
+>
 
 ## Häufige Fehler {#common-errors}
 

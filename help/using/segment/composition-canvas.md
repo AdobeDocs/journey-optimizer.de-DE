@@ -116,15 +116,15 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 
 * **[!UICONTROL Audience ausschließen]**: Schließt Profile aus, die zu einer bestehenden Audience gehören.
 
-   Klicken Sie auf die Schaltfläche **[!UICONTROL Audience hinzufügen]** und wählen Sie die auszuschließende Audience aus.
+  Klicken Sie auf die Schaltfläche **[!UICONTROL Audience hinzufügen]** und wählen Sie die auszuschließende Audience aus.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL Mit Attribut ausschließen]**: Schließt Profile auf der Grundlage eines bestimmten Attributs aus.
 
-   Wählen Sie das zu suchende Attribut aus und geben Sie dann den auszuschließenden Wert an. In diesem Beispiel schließen wir Profile mit einer Wohnadresse in Japan von der Komposition aus.
+  Wählen Sie das zu suchende Attribut aus und geben Sie dann den auszuschließenden Wert an. In diesem Beispiel schließen wir Profile mit einer Wohnadresse in Japan von der Komposition aus.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### Anreichern {#enrich}
 
@@ -220,15 +220,15 @@ Es stehen zwei Arten von Split-Operationen zur Verfügung:
 
 * **[!UICONTROL Prozent-Split]**: Profile nach dem Zufallsprinzip in zwei oder mehr Pfade aufteilen. Sie können die Profile beispielsweise in zwei verschiedene Pfade von jeweils 50 % aufteilen. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL Attribut-Split]**: Profile anhand eines bestimmten Attributs aufteilen. In diesem Beispiel teilen wir Profile anhand ihrer bevorzugten Zimmertypen auf.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >Die Option **[!UICONTROL Andere Profile]** ermöglicht Ihnen, einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
+  >[!NOTE]
+  >
+  >Die Option **[!UICONTROL Andere Profile]** ermöglicht Ihnen, einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
 
 ## Speichern Ihrer Audiences {#save}
 

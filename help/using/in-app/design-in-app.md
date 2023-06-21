@@ -20,11 +20,11 @@ Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren:
 
 * Klicken Sie in **[!UICONTROL Kampagne]** im Menü **[!UICONTROL Aktion]** auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den Inhalt der Nachricht zu konfigurieren.
 
-   ![](assets/edit-in-app-content.png)
+  ![](assets/edit-in-app-content.png)
 
 * In einer **[!UICONTROL Journey]** können Sie im erweiterten Menü Ihrer In-App-Nachricht **[!UICONTROL Aktion]** mit der Schaltfläche **[!UICONTROL Inhalt bearbeiten]** mit der Erstellung des Inhalts beginnen.
 
-   ![](assets/design_inapp_journey.png)
+  ![](assets/design_inapp_journey.png)
 
 Der Umschalter **[!UICONTROL Erweiterte Formatierung]** aktiviert zusätzliche Optionen zum Anpassen des Erlebnisses.
 
@@ -38,21 +38,21 @@ Wählen Sie eine der vier Layout-Optionen aus dem Bereich **[!UICONTROL Nachrich
 
 * **[!UICONTROL Vollbild]**: Mit dieser Einstellung wird der gesamte Bildschirm der Geräte Ihrer Audience ausgefüllt.
 
-   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
+  Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 
 * **[!UICONTROL Modal]**: Mit dieser Einstellung wird ein großes Fenster im Stil eines Warnhinweises angezeigt, wobei Ihre Anwendung noch im Hintergrund sichtbar ist.
 
-   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
+  Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 
 * **[!UICONTROL Banner]**: Diese Art von Layout erscheint als systemeigene Warnmeldung.
 
-   Sie können nur jeweils eine **[!UICONTROL Kopfzeile]** und einen **[!UICONTROL Hauptteil]** zu Ihrer Nachricht hinzufügen.
+  Sie können nur jeweils eine **[!UICONTROL Kopfzeile]** und einen **[!UICONTROL Hauptteil]** zu Ihrer Nachricht hinzufügen.
 
 * **[!UICONTROL Benutzerspezifisch]**: Im Modus „Benutzerdefinierte Nachricht“ können Sie eine vorkonfigurierte HTML-Nachricht direkt importieren und bearbeiten.
 
    * Wählen Sie die Option **[!UICONTROL Erstellen]** aus, um Ihren rohen HTML-Code einzugeben oder einzufügen.
 
-      Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen von Journey Optimizer anzuwenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../personalization/personalize.md).
+     Verwenden Sie den linken Bereich, um die Personalisierungsfunktionen von Journey Optimizer anzuwenden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../personalization/personalize.md).
 
    * Wählen Sie **[!UICONTROL Import]** aus, um die HTML- oder ZIP-Datei zu importieren, die Ihren HTML-Inhalt enthält.
 

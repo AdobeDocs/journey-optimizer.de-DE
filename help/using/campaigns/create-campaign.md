@@ -25,7 +25,6 @@ ht-degree: 100%
 >* [Erstellen von Kanaloberflächen](../configuration/channel-surfaces.md)
 >* [Erste Schritte mit Segmenten](../segment/about-segments.md)
 
-
 Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen]** auf **[!UICONTROL Kampagne erstellen]**. Sie können auch eine bestehende Live-Kampagne duplizieren, um eine neue Kampagne zu erstellen. [Weitere Informationen](modify-stop-campaign.md#duplicate)
 
 ## Auswählen von Kampagnentyp und -kanal {#campaigntype}

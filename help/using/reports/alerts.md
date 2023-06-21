@@ -27,6 +27,7 @@ Informationen zum Abonnieren und Konfigurieren von Warnhinweisen finden Sie auf 
 >[!AVAILABILITY]
 >
 >Einige Design-Änderungen werden für den Warnhinweis „Auslöser für Segmentlesen erfolglos“ derzeit eingepflegt. Daher wird dieser Warnhinweis vorerst angehalten und wurde vorübergehend aus der Benutzeroberfläche entfernt. Sobald diese Änderungen veröffentlicht werden, wird der Warnhinweis erneut angezeigt und kann abonniert werden.
+>
 
 Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
 

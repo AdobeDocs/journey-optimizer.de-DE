@@ -22,6 +22,7 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 >[!IMPORTANT]
 >
 >Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Adobe Journey Optimizer verarbeitet die Nachrichten an lange Vorwahlen und gebührenfreie Nummern wie unten beschrieben. Sie sollten sich jedoch an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden rechtlichen Anforderungen entsprechen.
+>
 
 ## Native eingehende Keywords{#sms-native-keywords}
 

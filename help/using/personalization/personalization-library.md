@@ -65,7 +65,6 @@ Gehen Sie wie folgt vor, um einen Ausdruck in der Bibliothek zu speichern:
 >* Gespeicherte Ausdrücke werden nach Erstellungsdatum sortiert, wobei der zuletzt hinzugefügte Ausdruck in der Liste zuerst angezeigt wird.
 
 
-
 Um einen vorhandenen Ausdruck zu bearbeiten, fügen Sie ihn zum Editor hinzu und ändern Sie ihn dann entsprechend Ihren Anforderungen. Klicken Sie auf **[!UICONTROL Zur Bibliothek hinzufügen]**, um die Syntax zu überprüfen und den Ausdruck zu speichern.
 
 Um einen Ausdruck zu löschen, klicken Sie auf die Schaltfläche mit den Auslassungspunkten und anschließend auf **[!UICONTROL Löschen]**.

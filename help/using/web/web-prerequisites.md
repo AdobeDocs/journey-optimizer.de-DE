@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,6 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 > * Die Website befindet sich in einem iFrame.
 > * Die QA- oder Status-Site von Kundinnen und Kunden kann extern nicht abgerufen werden (interne Site).
 
-
 ### Fehlerbehebung beim Laden einer Website {#troubleshooting}
 
 Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
@@ -111,17 +110,17 @@ Bei Seiten unter Authentifizierung, wenn die Anmeldeseite nicht geladen werden k
 
 Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die folgenden Einstellungen definiert werden:
 
-* Im [Adobe Experience Platform-Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}, stellen Sie sicher, dass Sie einen Datastream definiert haben, z. B. unter der **[!UICONTROL Adobe Experience Platform]** -Dienst Sie haben **[!UICONTROL Adobe Journey Optimizer]** aktiviert ist.
+* Zur [Datenerfassung in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"} muss ein Datenstrom definiert sein. Sie können beispielsweise für den **[!UICONTROL Adobe Experience Platform]**-Service die Option **[!UICONTROL Adobe Journey Optimizer]** aktivieren.
 
-   Dadurch wird sichergestellt, dass die von Journey Optimizer eingehenden Ereignisse korrekt von Adobe Experience Platform Edge verarbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de){target="_blank"}
+  Dadurch wird sichergestellt, dass die von Journey Optimizer eingehenden Ereignisse korrekt von Adobe Experience Platform Edge verarbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de){target="_blank"}
 
-   ![](assets/web-aep-datastream-ajo.png)
+  ![](assets/web-aep-datastream-ajo.png)
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de#configure){target="_blank"}
 
-   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
+  Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
 
-   ![](assets/web-aep-merge-policy.png)
+  ![](assets/web-aep-merge-policy.png)
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 

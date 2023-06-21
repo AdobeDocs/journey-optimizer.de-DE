@@ -21,6 +21,7 @@ Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern
 >[!NOTE]
 >
 > Adobe Journey Optimizer basiert auf Adobe Experience Platform und ist nativ mit dem [Adobe Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} verbunden. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (beispielsweise um zu überprüfen, ob die Person, die an einer Journey teilgenommen hat, ein Kunde ist oder nicht). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. [Weitere Informationen](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 

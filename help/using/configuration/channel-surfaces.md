@@ -31,7 +31,6 @@ Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvo
 >
 > * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](../email/get-started-email-config.md), [Push-Benachrichtigungen](../push/push-configuration.md) und [SMS](../sms/sms-configuration.md) ausführen.
 
-
 Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen von Nachrichten in einer Journey oder einer Kampagne auswählen.
 
 <!--

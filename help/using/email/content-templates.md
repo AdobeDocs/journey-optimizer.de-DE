@@ -74,7 +74,6 @@ Nach der Speicherung ist Ihre Inhaltsvorlage für Kampagnen oder Journeys verfü
 >
 >* Wenn Vorlagen in einer Kampagne oder einer Journey verwendet werden, wirken sich Änderungen am Kampagnen- und Journey-Inhalt ebenso nicht auf die zuvor verwendete Inhaltsvorlage aus.
 
-
 ### Erstellen einer Vorlage von Grund auf {#create-template-from-scratch}
 
 Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
@@ -168,7 +167,7 @@ Sie können das Rendering einer beliebigen E-Mail-Inhaltsvorlage testen, unabhä
 
    * Vor dem Testversand müssen Sie die [E-Mail-Oberfläche](../configuration/channel-surfaces.md) auswählen, die zum Testen Ihres Inhalts verwendet wird.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Anleitungsvideo {#video-templates}
 

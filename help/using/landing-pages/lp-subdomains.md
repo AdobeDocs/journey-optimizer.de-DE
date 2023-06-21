@@ -45,7 +45,6 @@ Sie können eine Subdomain verwenden, die bereits an Adobe delegiert wurde, oder
 >
 > * Jede Änderung an einer Landingpage-Subdomain wirkt auch auf die Produktions-Sandboxes aus.
 
-
 ## Verwenden einer vorhandenen Subdomain {#lp-use-existing-subdomain}
 
 Gehen Sie wie folgt vor, um eine Subdomain zu verwenden, die bereits an Adobe delegiert wurde.

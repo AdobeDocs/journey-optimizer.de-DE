@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,32 +79,32 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 * Beschreibung
 
-   **Feld:** description
-   **Titel:** Beschreibung
-   **Beschreibung:** Beschreibung der Optionsauswahl. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Optionsauswahl erstellt wurde und/oder welche Option passt.
-   **Typ:** Zeichenfolge
+  **Feld:** description
+  **Titel:** Beschreibung
+  **Beschreibung:** Beschreibung der Optionsauswahl. Sie dient dazu, für Menschen lesbare Absichten darüber zu vermitteln, wie oder warum diese Optionsauswahl erstellt wurde und/oder welche Option passt.
+  **Typ:** Zeichenfolge
 
 * Optionsfilter
 
-   **Feld:** filter
-   **Titel:** Optionsfilter
-   **Beschreibung:** Der Verweis auf einen auf einem Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) basierenden Filter, der Optionen aus einem Inventar entspricht, das deren angehängte Sammlungsqualifizierer verwendet. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
-   **Typ:** Zeichenfolge
+  **Feld:** filter
+  **Titel:** Optionsfilter
+  **Beschreibung:** Der Verweis auf einen auf einem Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) basierenden Filter, der Optionen aus einem Inventar entspricht, das deren angehängte Sammlungsqualifizierer verwendet. Der Wert ist die URI (@id) der Entscheidungsregel, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/filter.
+  **Typ:** Zeichenfolge
 
 * Profileinschränkungstyp
 
-   **Feld:** optionSelectionType
-   **Titel:** Profileinschränkungstyp
-   **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
-   **Typ:** Zeichenfolge
-   **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
+  **Feld:** optionSelectionType
+  **Titel:** Profileinschränkungstyp
+  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
+  **Typ:** Zeichenfolge
+  **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
 * Optionsliste
 
-   **Feld:** options
-   **Titel:** Optionsliste
-   **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
-   **Typ:** Array
+  **Feld:** options
+  **Titel:** Optionsliste
+  **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
+  **Typ:** Array
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -119,9 +119,9 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 * Platzierungskennung
 
-   **Titel:** Platzierungskennung
-   **Beschreibung:** Ein Verweis auf eine Platzierungsentität. Der Wert ist die URI (@id) der Platzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
-   **Typ:** Zeichenfolge
+  **Titel:** Platzierungskennung
+  **Beschreibung:** Ein Verweis auf eine Platzierungsentität. Der Wert ist die URI (@id) der Platzierung, auf die verwiesen wird. Siehe Schema https://ns.adobe.com/experience/decisioning/placement.
+  **Typ:** Zeichenfolge
 
 +++
 
@@ -176,32 +176,32 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 * Kennung
 
-   **Feld:** _id
-   **Titel:** Kennung
-   **Beschreibung:** Identität des Segments im betreffenden Namespace.
-   **Typ:** Zeichenfolge
+  **Feld:** _id
+  **Titel:** Kennung
+  **Beschreibung:** Identität des Segments im betreffenden Namespace.
+  **Typ:** Zeichenfolge
 
 * Namespace
 
-   **Feld:** namespace
-   **Titel:** Namespace
-   **Beschreibung**: Der mit dem Attribut `xid` verknüpfte Namespace.
-   **Typ:** Objekt
-   **Erforderlich:** „code“
+  **Feld:** namespace
+  **Titel:** Namespace
+  **Beschreibung**: Der mit dem Attribut `xid` verknüpfte Namespace.
+  **Typ:** Objekt
+  **Erforderlich:** „code“
 
    * Code
 
-      **Feld:** code
-      **Titel:** Code
-      **Beschreibung:** Der Code ist eine von Menschen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
-      **Typ:** Zeichenfolge
+     **Feld:** code
+     **Titel:** Code
+     **Beschreibung:** Der Code ist eine von Menschen lesbare Kennung für den Namespace und kann verwendet werden, um die technische Namespace-ID anzufordern, die für die Verarbeitung von Identitätsdiagrammen verwendet wird.
+     **Typ:** Zeichenfolge
 
 * Erlebniskennung
 
-   **Feld:** xid
-   **Titel:** Erlebnis-ID
-   **Beschreibung:** Falls vorhanden, stellt dieser Wert eine Namespace-übergreifende Kennung dar, die unter allen Kennungen in allen Namespaces eindeutig ist.
-   **Typ:** Zeichenfolge
+  **Feld:** xid
+  **Titel:** Erlebnis-ID
+  **Beschreibung:** Falls vorhanden, stellt dieser Wert eine Namespace-übergreifende Kennung dar, die unter allen Kennungen in allen Namespaces eindeutig ist.
+  **Typ:** Zeichenfolge
 
 +++
 
@@ -223,26 +223,26 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 * Scoring-Funktion
 
-   **Feld:** function
-   **Titel:** Scoring-Funktion
-   **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
-   **Typ:** Zeichenfolge
+  **Feld:** function
+  **Titel:** Scoring-Funktion
+  **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
+  **Typ:** Zeichenfolge
 
 * Reihenfolgenbewertungstyp**
 
-   **Feld:** orderEvaluationType
-   **Titel:** Reihenfolgenbewertungstyp
-   **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
+  **Feld:** orderEvaluationType
+  **Titel:** Reihenfolgenbewertungstyp
+  **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
 
-   **Typ:** Zeichenfolge
-   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
+  **Typ:** Zeichenfolge
+  **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 
 * Rangfolgestrategie
 
-   **Feld:** rankingStrategy
-   **Titel:** Rangfolgestrategie
-   **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Typ:** Zeichenfolge
+  **Feld:** rankingStrategy
+  **Titel:** Rangfolgestrategie
+  **Beschreibung:** Ein Verweis auf eine Strategie, die eine Liste von Entscheidungsoptionen in eine Reihenfolge bringt. Entscheidungsoptionen werden in einer geordneten Liste zurückgegeben. Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Typ:** Zeichenfolge
 
 +++
 
@@ -261,7 +261,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** endTime
 **Titel:** Enddatum und -zeit der Aktivität 
-**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft &quot;endTime&quot;von schema.org, die auf https://schema.org/Action definiert ist.
+**Beschreibung:** Enddatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „endTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++
@@ -288,7 +288,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** startTime
 **Titel:** Startdatum und -zeit der Aktivität 
-**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft &quot;startTime&quot;von schema.org, die auf https://schema.org/Action definiert ist.
+**Beschreibung:** Startdatum und -zeit der Entscheidung (früher als „Aktivität“ bezeichnet). Die Eigenschaft hat die Semantik der Eigenschaft „startTime“ von schema.org, die auf http://schema.org/Action definiert ist.
 **Typ:** Zeichenfolge
 
 +++

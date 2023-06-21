@@ -83,7 +83,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    * **[!UICONTROL Abonnement-Liste]**: Sie müssen die Abonnement-Liste auswählen, die aktualisiert wird, wenn das Profil dieses Kontrollkästchen aktiviert. Weitere Informationen finden Sie unter [Abonnement-Listen](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Kanal (E-Mail)]**: Die An- oder Abmeldung gilt für den gesamten Kanal. Wenn beispielsweise ein Profil, das sich abgemeldet hat, zwei E-Mail-Adressen hat, werden beide Adressen aus Ihrer gesamten Kommunikation ausgeschlossen.
 

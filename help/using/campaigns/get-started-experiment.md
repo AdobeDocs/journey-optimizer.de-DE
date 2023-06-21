@@ -161,21 +161,21 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
 
 * **Bereitstellung erfolgreicher Ideen**
 
-   Wenn das Ergebnis eindeutig ist, können Sie die erfolgreiche Idee bereitstellen, indem Sie entweder die Behandlung mit der besten Leistung bei all Ihren Kunden einsetzen oder neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung nachgebildet wird.
-   </br> Beachten Sie, dass in einer dynamischen Umgebung das, was zu einem bestimmten Zeitpunkt gut funktioniert, später möglicherweise nicht mehr gut funktioniert.
+  Wenn das Ergebnis eindeutig ist, können Sie die erfolgreiche Idee bereitstellen, indem Sie entweder die Behandlung mit der besten Leistung bei all Ihren Kunden einsetzen oder neue Kampagnen erstellen, in denen die Struktur der Behandlung mit der besten Leistung nachgebildet wird.
+  </br> Beachten Sie, dass in einer dynamischen Umgebung das, was zu einem bestimmten Zeitpunkt gut funktioniert, später möglicherweise nicht mehr gut funktioniert.
 
 * **Durchführung von Folgetests**
 
-   Manchmal können die Ergebnisse Ihrer Experimente nicht schlüssig sein, entweder weil nicht genügend Profile einbezogen wurden, um einen Unterschied zwischen den Behandlungen festzustellen, oder weil die von Ihnen definierten Behandlungen nicht ausreichend unterschiedlich waren.
+  Manchmal können die Ergebnisse Ihrer Experimente nicht schlüssig sein, entweder weil nicht genügend Profile einbezogen wurden, um einen Unterschied zwischen den Behandlungen festzustellen, oder weil die von Ihnen definierten Behandlungen nicht ausreichend unterschiedlich waren.
 
-   Wenn die Hypothese, die Sie getestet haben, immer noch relevant ist, kann es sinnvoll sein, einen Folgetest mit einer größeren oder anderen Zielgruppe durchzuführen oder die Behandlungen so zu ändern, dass die Unterschiede deutlicher werden.
+  Wenn die Hypothese, die Sie getestet haben, immer noch relevant ist, kann es sinnvoll sein, einen Folgetest mit einer größeren oder anderen Zielgruppe durchzuführen oder die Behandlungen so zu ändern, dass die Unterschiede deutlicher werden.
 
 * **Durchführen von vertiefenden Analysen**
 
-   Die Behandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Behandlung für eine andere Zielgruppe. Vertiefende Analysen darüber, wie sich die Behandlungen in verschiedenen Segmenten entwickelt haben, helfen dabei, Ideen für neue Tests zu entwickeln.
+  Die Behandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Behandlung für eine andere Zielgruppe. Vertiefende Analysen darüber, wie sich die Behandlungen in verschiedenen Segmenten entwickelt haben, helfen dabei, Ideen für neue Tests zu entwickeln.
 
-   Ebenso kann die Untersuchung der Leistung der einzelnen Behandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
+  Ebenso kann die Untersuchung der Leistung der einzelnen Behandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
 
-   >[!CAUTION]
-   >
-   >Je mehr Analysen durchgeführt werden, desto höher ist die Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.
+  >[!CAUTION]
+  >
+  >Je mehr Analysen durchgeführt werden, desto höher ist die Wahrscheinlichkeit, einen falschen oder falsch positiven Effekt zu erkennen.

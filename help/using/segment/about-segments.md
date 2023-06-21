@@ -34,11 +34,11 @@ Sie können Segmente in **[!DNL Journey Optimizer]** auf verschiedene Weise nutz
 
 * Verwenden Sie die Orchestrierungsaktivität **Segment lesen** in einer Journey, um alle Einzelpersonen des Segments in die Journey eintreten zu lassen und die in Ihrer Journey enthaltenen Nachrichten zu erhalten.
 
-   Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle Silber-Kundinnen und -Kunden in eine Journey eintreten, und ihnen eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Segment lesen“ konfigurieren](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+  Nehmen wir an, Sie verfügen über ein Segment für „Silber-Kundinnen und -Kunden“. Mit dieser Aktivität können Sie dafür sorgen, dass alle Silber-Kundinnen und -Kunden in eine Journey eintreten, und ihnen eine Reihe personalisierter Nachrichten senden. [Erfahren Sie, wie Sie eine Aktivität vom Typ „Segment lesen“ konfigurieren](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
 * Verwenden Sie die Ereignisaktivität **Segmentqualifizierung**, um Einzelpersonen auf der Grundlage von Adobe Experience Platform-Segmenteintritten und -austritten zu veranlassen, in eine Journey einzutreten oder in einer Journey fortzufahren.
 
-   So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. Weiterführende Informationen zur Verwendung dieser Aktivität finden Sie im Abschnitt [Erfahren Sie, wie Sie eine Segmentqualifizierungsaktivität konfigurieren](../building-journeys/segment-qualification-events.md).
+  So können Sie z. B. alle neuen Silber-Kundinnen und -Kunden in eine Journey eintreten lassen und ihnen Nachrichten senden. Weiterführende Informationen zur Verwendung dieser Aktivität finden Sie im Abschnitt [Erfahren Sie, wie Sie eine Segmentqualifizierungsaktivität konfigurieren](../building-journeys/segment-qualification-events.md).
 
 * Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Segmentzugehörigkeit basieren. [Erfahren Sie, wie Sie Segmente in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -48,11 +48,11 @@ In Adobe Journey Optimizer werden Audiences aus Segmentdefinitionen mithilfe ein
 
 * **Streaming-Segmentierung:** Die Audience-Liste für das Segment wird in Echtzeit auf dem neuesten Stand gehalten, während neue Daten in das System einfließen.
 
-   Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der die Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass Einzelpersonen bei sich ändernden Profildaten zum Segment hinzugefügt oder daraus entfernt werden, sodass Ihre Audience immer relevant ist.
+  Die Streaming-Segmentierung ist ein fortlaufender Datenauswahlprozess, der die Segmente infolge von Benutzeraktivitäten aktualisiert. Nachdem ein Segment erstellt und gespeichert wurde, wird die Segmentdefinition auf Daten angewendet, die in Journey Optimizer eingehen. Das bedeutet, dass Einzelpersonen bei sich ändernden Profildaten zum Segment hinzugefügt oder daraus entfernt werden, sodass Ihre Audience immer relevant ist.
 
 * **Batch-Segmentierung**: Die Audience-Liste für das Segment wird alle 24 Stunden ausgewertet.
 
-   Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Audience erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Audience-Liste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess im Segment angezeigt.“
+  Die Batch-Segmentierung ist eine Alternative zur Streaming-Segmentierung, die alle Profildaten gleichzeitig über Segmentdefinitionen verarbeitet. Dadurch wird ein Schnappschuss der Audience erstellt, der gespeichert und zur Verwendung exportiert werden kann. Im Gegensatz zur Streaming-Segmentierung wird die Audience-Liste bei der Batch-Segmentierung jedoch nicht kontinuierlich in Echtzeit aktualisiert. Neue Daten, die nach dem Batch-Prozess eingehen, werden erst im nächsten Batch-Prozess im Segment angezeigt.“
 
 Die Entscheidung zwischen Batch- und Streaming-Segmentierung wird für jede Segmentdefinition abhängig von der Komplexität und den Kosten für die Auswertung der Segmentregel vom System getroffen. Sie können die Auswertungsmethode für jedes Segment in der Spalte **[!UICONTROL Auswertungsmethode]** der Segmentliste anzeigen.
 

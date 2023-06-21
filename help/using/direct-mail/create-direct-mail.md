@@ -50,7 +50,6 @@ Briefpostnachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. 
 >1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
 >1. Eine [Oberfläche für Briefpostnachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
-
 ## Erstellen Ihrer Briefpostnachricht {#create}
 
 Gehen Sie wie folgt vor, um eine Briefpostnachricht zu erstellen und zu senden:

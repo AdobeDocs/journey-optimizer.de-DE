@@ -40,6 +40,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * journeys.write
       * journeys.delete
       * messages.read
+
    * Spezifisch für Adobe Experience Platform:
 
       * segments.read
@@ -64,6 +65,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
    * Spezifisch für Journey Optimizer:
       * journeys.read
+
    * Spezifisch für Adobe Experience Platform:
       * segments.read
       * profiles.read
@@ -84,6 +86,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * journeys_actions.read
       * journeys_actions.write
       * journeys_actions.delete
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -99,6 +102,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * journeys_events.read
       * journeys_data_sources.read
       * journeys_actions.read
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -113,6 +117,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
    * Spezifisch für Journey Optimizer:
       * journeys_report.read
       * messages_report.read
+
    * Spezifisch für Adobe Experience Platform:
       * datasets.read
       * queries.read
@@ -154,10 +159,10 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * campaign.read
       * campaign.write
       * campaign.delete
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments.write
       * experiments.delete-->
+
 +++
 
 * Mit der Berechtigung **[!DNL Publish campaigns]** auf hoher Ebene können Benutzende Kampagnen veröffentlichen.
@@ -168,7 +173,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
       * campaign-read
       * campaign-publish
-         <!--* experiments.activate-->
+        <!--* experiments.activate-->
 
 +++
 
@@ -179,9 +184,9 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
    * Spezifisch für Journey Optimizer:
       * campaign.read
       * campaign-report.read
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments_report.read-->
+
 +++
 
 ## Entscheidungs-Management-Ressource {#decisions-permissions}
@@ -201,6 +206,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * placements.write
       * placements.delete
       * ranking_strategy.read
+
    * Spezifisch für Adobe Experience Platform:
       * datasets.read
       * datasets.write
@@ -220,6 +226,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * offers.read
       * placements.read
       * ranking_strategy.read
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -242,6 +249,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * placements.write
       * placements.delete
       * ranking_strategy.read
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -316,6 +324,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * messages_general_settings.read
       * messages_general_settings.write
       * messages_general_settings.delete
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
 
@@ -327,6 +336,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
    * Spezifisch für Journey Optimizer:
       * messages_general_settings.read
+
    * Spezifisch für Adobe Experience Platform:
       * schemas.read
 
@@ -376,6 +386,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Spezifisch für Journey Optimizer:
       * suppression_list.view
+
    * Spezifisch für Adobe Experience Platform:
       * profiles.read
       * datasets.read
@@ -388,6 +399,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
    * Spezifisch für Journey Optimizer:
       * suppression_list.export
+
    * Spezifisch für Adobe Experience Platform:
       * profiles.read
       * datasets.read
@@ -427,6 +439,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.delete
       * subdomains_delegation.read
       * IP_pools.read
+
    * Spezifisch für die Datenerfassung:
       * Mobile_setting.read
 
@@ -440,6 +453,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.read
       * subdomains_delegation.read
       * IP_pools.read
+
    * Spezifisch für die Datenerfassung:
       * Mobile_setting.read
 
@@ -453,4 +467,5 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomains.read
       * sms_subdomains.write
       * sms_subdomains.delete
+
 +++

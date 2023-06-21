@@ -43,7 +43,6 @@ Wählen Sie dazu die Domain aus der Liste der bereits an Adobe delegierten Subdo
 >
 > * Jede Änderung an einer Web-Subdomain wirkt sich auch auf die Produktions-Sandboxes aus.
 
-
 Sie können mehrere Web-Subdomains erstellen, es wird jedoch nur die **Standard-** Subdomain verwendet. Sie können die Standard-Web-Subdomain ändern, es kann jedoch immer nur eine gleichzeitig verwendet werden.
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** auf und wählen Sie dann **[!UICONTROL Web-Konfiguration]** > **[!UICONTROL Web-Subdomains]** aus.
