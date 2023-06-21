@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-
 
 Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
 
-Der Omnichannel-Journey-Designer hilft bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-&amp;-Drop-Oberfläche.
+Der Omnichannel-Journey-Designer unterstützt Sie beim Aufbau mehrstufiger Journey, insbesondere beim Targeting von Zielgruppen, und bei der Einbindung von Updates, die auf Echtzeit-Kundeninteraktionen oder Geschäftsinteraktionen basieren. Außerdem können Sie Omnichannel-Nachrichten über eine intuitive Drag &amp; Drop-Oberfläche erstellen.
 
 ![](assets/journey38.png)
 
