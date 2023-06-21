@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Segment, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 95%
+source-wordcount: '1338'
+ht-degree: 83%
 
 ---
 
@@ -87,9 +87,9 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](assets/read-segment-schedule-list.png)
 
-   Option **Inkrementelles Lesen**: Wenn eine Journey mit einem wiederkehrenden Schritt vom Typ **Segment lesen** zum ersten Mal ausgeführt wird, treten alle Profile im Segment in die Journey ein. Mit dieser Option haben Sie die Möglichkeit, nach dem ersten Auftreten nur die Einzelpersonen anzusprechen, die seit der letzten Journey-Ausführung in das Segment eingetreten sind.
+   Wenn eine Journey mit einer wiederkehrenden **Segment lesen** zum ersten Mal ausgeführt wird, geben alle Profile im Segment die Journey ein. Verwenden Sie die **Inkrementelles Lesen** -Option, um nach dem ersten Vorkommen nur die Personen in das Segment einzuschließen, die seit der letzten Ausführung der Journey in das Segment eingestiegen sind.
 
-   **Erneuten Eintritt bei Wiederholung erzwingen**: Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch austreten lassen. Wenn Sie beispielsweise eine Wartezeit von 2 Tagen in dieser wiederkehrenden Journey haben, werden Profile immer auf die nächste Journey-Ausführung (also am darauffolgenden Tag) verschoben, unabhängig davon, ob sie sich in der Audience der nächsten Ausführung befinden oder nicht. Wenn die Lebensdauer Ihrer Profile in dieser Journey länger als die Häufigkeit der Wiederholungen sein kann, aktivieren Sie diese Option nicht. So stellen Sie sicher, dass die Profile ihre Journey abschließen können.
+   Aktivieren der **Wiedereintritt erzwingen bei Wiederholung** -Option können Sie automatisch alle Profile entfernen, die sich derzeit während der nächsten Ausführung auf der Journey befinden. Wenn beispielsweise in einer täglich wiederkehrenden Journey eine Wartezeit von 2 Tagen eintritt, werden bei Aktivierung dieser Option Profile durchgängig in die nachfolgende Journey-Ausführung (am folgenden Tag) verschoben, unabhängig davon, ob sie zur nächsten Ausführungszielgruppe gehören. Wenn die Profildauer in dieser Journey jedoch die Wiederholungshäufigkeit überschreiten kann, ist es ratsam, diese Option nicht zu aktivieren, um sicherzustellen, dass Profile ihre Journey abschließen können.
 
 <!--
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Einmalige Journeys mit dem Schritt „Segment lesen“ gehen 30 Tage nach der Ausführung der Journey in den Status „Beendet“ über. Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet.
+>einmalige **Segment lesen** Journey wechseln zu **Abgeschlossen** Status 30 Tage nach der Journey-Ausführung. Für geplant **Segmente lesen**, ist es 30 Tage nach der Ausführung des letzten Vorkommens.
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 

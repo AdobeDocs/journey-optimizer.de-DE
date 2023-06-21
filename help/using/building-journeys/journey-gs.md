@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 97%
+source-wordcount: '1549'
+ht-degree: 92%
 
 ---
 
@@ -153,7 +153,7 @@ Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
-Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Dauer der maximalen Wartezeit überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
+Beim Bearbeiten einer Aktion- oder Bedingungsaktivität haben Sie die Möglichkeit, im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad anzugeben. Wenn bei der Verarbeitung der Aktivität, bei der ein Drittanbietersystem abgefragt wird, die in den Journey-Eigenschaften angegebene Dauer für die Zeitüberschreitung und die Fehlerbehandlung überschritten wird (**[!UICONTROL Zeitüberschreitung und Fehler]** ), wird der zweite Pfad ausgewählt, um bei Bedarf eine Ausweichaktion auszuführen.
 
 Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
