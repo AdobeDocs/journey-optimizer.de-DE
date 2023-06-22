@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 80%
 
 ---
 
@@ -32,18 +32,20 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Bei einer Marketing-Nachricht, bei der das Versanddatum angegeben wird, ist der Typ **Geplant** am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten, wie etwa jene zum Zurücksetzen des Kennworts oder bei einem Warenkorbabbruch, senden möchten, ist der Typ **API-ausgelöst** die beste Wahl."
+>abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten vom Typ Marketing. **API-ausgelöst** -Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. Sie dienen dem Versand von Marketing-Nachrichten oder Transaktionsnachrichten, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Kennwortrücksetzung, Warenkorbabbruch usw."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp „Geplant“ für die Kategorie **Marketing** und „API-gesteuert“ für die Kategorie **Transaktion**"
+>abstract="Wenn Sie eine geplante Kampagne erstellen, wird die **Marketing** automatisch ausgewählt. Wählen Sie für API-gesteuerte Kampagnen aus, ob Sie eine **Marketing** oder **transactional** -Nachricht, d. h. eine Nachricht, die aufgrund einer von einer Person durchgeführten Aktion gesendet wird: Kennwortrücksetzung, Warenkorbabbruch usw."
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 
-   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
+   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen zielen auf den Versand ab **Marketing** Nachrichten. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von **transaktionalen** Nachrichten ab, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-gesteuerte Kampagnen zielen darauf ab, entweder **Marketing** oder **transactional** Nachrichten, d. h. Nachrichten, die aufgrund einer von einer Person durchgeführten Aktion gesendet werden: Passwortzurücksetzung, Warenkorb usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+
+1. Wenn Sie eine geplante Kampagne erstellen, wird die **Marketing** automatisch ausgewählt. Wählen Sie für API-gesteuerte Kampagnen aus, ob Sie eine **Marketing** oder **transactional** message.&quot;
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten.
 
