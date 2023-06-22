@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 77%
@@ -25,6 +25,10 @@ Dazu müssen Sie zunächst in Journey Optimizer eine von einer API ausgelöste K
 
 Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.
 
+>[!NOTE]
+>
+>Derzeit wird die schnelle Bereitstellung für Kampagnen, die von der Push-Benachrichtigungs-API ausgelöst werden, nicht unterstützt.
+
 ## Erstellen einer von einer API ausgelösten Kampagne {#create}
 
 ### Konfigurieren und Aktivieren der Kampagne {#create-activate}
@@ -38,10 +42,6 @@ Gehen Sie wie folgt vor, um eine API-gesteuerte Kampagne zu erstellen. Detaillie
 1. Wählen Sie einen der unterstützten Kanäle und die zugehörige Kanaloberfläche für den Nachrichtenversand aus und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Derzeit wird die schnelle Bereitstellung für Kampagnen, die von der Push-Benachrichtigungs-API ausgelöst werden, nicht unterstützt.
 
 1. Geben Sie einen Titel und eine Beschreibung für die Kampagne an und klicken Sie dann auf **[!UICONTROL Inhalt bearbeiten]**, um die zu sendende Nachricht zu konfigurieren.
 
