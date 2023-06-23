@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '886'
 ht-degree: 100%
 
 ---
@@ -115,10 +115,6 @@ Das Modell variiert je nachdem, ob es sich um Scoring oder Training handelt. Das
 * Scoring – die Anwendung eines Punktwerts auf einzelne Profile, basierend auf dem trainierten Modell
 
 Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
-
->[!CAUTION]
->
->Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
 ### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 

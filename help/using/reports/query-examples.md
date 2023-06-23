@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 100%
+source-wordcount: '1471'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,10 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
 * instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
 * profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
+
+>[!NOTE]
+>
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journey die Verwendung von journeyVersionID anstelle von journeyVersionName .
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 

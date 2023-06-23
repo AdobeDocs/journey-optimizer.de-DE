@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Versandzeit, senden, Nachricht, Optimierung, Journey, KI, intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -37,10 +37,6 @@ Das Modell variiert je nachdem, ob es sich um Scoring oder Training handelt. Das
 * Scoring – die Anwendung eines Punktwerts auf einzelne Profile, basierend auf dem trainierten Modell
 
 Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
-
->[!CAUTION]
->
->Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
 ## Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 

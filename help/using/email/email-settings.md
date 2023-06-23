@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 97%
+source-wordcount: '1783'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflä
 
 Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch- und Burst-Journeys gilt dies nicht für Batch- oder Burst-Ausführungen, die bereits begonnen hatten, bevor die E-Mail-Oberflächenkonfiguration festgelegt wird. Die Änderungen werden beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
+* Bei Batch-Journey gilt dies nicht für die Batch-Ausführung, die bereits vor der E-Mail-Oberflächenkonfiguration gestartet wurde. Die Änderungen werden beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
