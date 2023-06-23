@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 67%
@@ -42,7 +42,7 @@ Inhalt dieser Dokumentation:
 
 Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
-Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können für die Zielgruppenbestimmung von Kunden in genutzt werden. [Journey Optimizer-Kampagnen](../campaigns/get-started-with-campaigns.md)oder in Adobe [Real-time Customer Data Platform-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de).
+Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können für die Zielgruppenbestimmung von Kunden in genutzt werden. [Journey Optimizer-Kampagnen](../campaigns/get-started-with-campaigns.md)oder in Adobe [Real-time Customer Data Platform-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
