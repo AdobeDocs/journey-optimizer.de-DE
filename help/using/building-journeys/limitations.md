@@ -34,6 +34,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Das Segment und der Namespace, die unter **Segmentqualifizierung** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
+
 ## Benutzerdefinierte Aktionen  Einschränkungen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
