@@ -11,8 +11,8 @@ keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 428f670eef8b5bda112692eaff29d5e1a983fe1a
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

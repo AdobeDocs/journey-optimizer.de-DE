@@ -11,8 +11,8 @@ keywords: Ereignis, unitär, erstellen, Journey
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -11,8 +11,8 @@ keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

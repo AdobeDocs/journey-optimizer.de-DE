@@ -11,8 +11,8 @@ keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

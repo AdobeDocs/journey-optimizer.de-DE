@@ -11,8 +11,8 @@ keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -11,8 +11,8 @@ keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

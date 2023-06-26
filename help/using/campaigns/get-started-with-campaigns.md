@@ -11,8 +11,8 @@ keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

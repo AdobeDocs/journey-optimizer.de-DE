@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 146dda9b180a4767b7041b50382f9a0eac0a0058
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '2164'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -128,18 +128,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_new-scope.png)
 
-   >[!NOTE]
-   >
-   >Beim Hinzufügen mehrerer Entscheidungsbereiche wird die Reihenfolge der Bewertungskriterien beeinflusst. [Weitere Informationen](#multiple-scopes)
-
 ### Reihenfolge der Bewertungskriterien {#evaluation-criteria-order}
 
 Wie oben beschrieben bestehen Bewertungskriterien aus einer Sammlung, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien angewendet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt angewendet werden.
-
-#### Mit nur einem Bereich {#one-scope}
-
-
-Innerhalb eines einzigen Entscheidungsbereichs bestimmen mehrere Kriterien und ihre Gruppierung die Priorität der Kriterien und die Rangfolge der förderfähigen Angebote. Die ersten Kriterien haben die höchste Priorität, und die in derselben &quot;Gruppe&quot;zusammengefassten Kriterien haben dieselbe Priorität.
 
 Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und eine im Bewertungskriterien B. Die Anfrage sieht die Rücksendung von zwei Angeboten vor. Angenommen, es gibt zwei geeignete Angebote nach Bewertungskriterium A und drei geeignete Angebote nach Bewertungskriterium B.
 
@@ -150,131 +141,6 @@ Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und e
 * Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Bewertungskriterium A und drei geeignete Angebote für Bewertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
   ![](../assets/activity_same-rank-collections.png)
-
-+++ **Beispiel mit mehreren Kriterien**
-
-Betrachten wir nun ein Beispiel, bei dem mehrere Kriterien für einen einzelnen Bereich in verschiedene Gruppen unterteilt sind.
-
-Sie haben drei Kriterien definiert. Kriterien 1 und Kriterien 2 werden in Gruppe 1 kombiniert und Kriterien 3 ist unabhängig (Gruppe 2).
-
-Die für die einzelnen Kriterien infrage kommenden Angebote und ihre Priorität (in der Bewertung der Ranglistenfunktion verwendet) lauten wie folgt:
-
-* Gruppe 1:
-   * Kriterien 1 - (Angebot 1, Angebot 2, Angebot 3) - Priorität 1
-   * Kriterien 2 - (Angebot 3, Angebot 4, Angebot 5) - Priorität 1
-
-* Gruppe 2:
-   * Kriterien 3 - (Angebot 5, Angebot 6) - Priorität 0
-
-Die Angebote mit der höchsten Priorität werden zuerst ausgewertet und der Liste der bewerteten Angebote hinzugefügt.
-
-**Iteration 1:**
-
-Kriterien 1 und Kriterien 2 werden zusammen ausgewertet (Angebot 1, Angebot 2, Angebot 3, Angebot 4, Angebot 5). Nehmen wir an, das Ergebnis lautet:
-
-Angebot 1 - 10 Angebot 2 - 20 Angebot 3 - 30 aus Kriterium 1, 45 aus Kriterium 2. Die höchste von beiden wird berücksichtigt, sodass 45 berücksichtigt werden.
-Angebot 4 - 40 Angebot 5 - 50
-
-Das Angebot weist nun folgende Rangfolge auf: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1.
-
-**Iteration 2:**
-
-Kriterien 3-Angebote werden ausgewertet (Angebot 5, Angebot 6). Nehmen wir an, das Ergebnis lautet:
-
-* Angebot 5 - Wird nicht ausgewertet, da es bereits im obigen Ergebnis vorhanden ist.
-* Angebot 6 - 60
-
-Die bewerteten Angebote lauten nun wie folgt: Angebot 5 , Angebot 3, Angebot 4, Angebot 2, Angebot 1, Angebot 6.
-
-+++
-
-#### mit mehreren Bereichen {#multiple-scopes}
-
-**Wenn die Duplizierung deaktiviert ist**
-
-Wenn Sie einer Entscheidung mehrere Entscheidungsbereiche hinzufügen und keine Duplizierung zwischen Platzierungen zulässig ist, werden die geeigneten Angebote nacheinander in der Reihenfolge der Entscheidungsbereiche in der Anfrage ausgewählt.
-
->[!NOTE]
->
->Die **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** wird auf der Platzierungsebene festgelegt. Wenn die Duplizierung bei einer Platzierung in einer Entscheidungsanfrage auf &quot;false&quot;gesetzt ist, erben alle Platzierungen in der Anfrage die Einstellung &quot;false&quot;. [Weitere Informationen zu Duplizierungsparametern](../offer-library/creating-placements.md)
-
-Nehmen wir ein Beispiel, in dem Sie zwei Entscheidungsbereiche hinzugefügt haben, z. B.:
-
-* Anwendungsbereich 1: Es gibt vier infrage kommende Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage besteht darin, zwei Angebote zurückzusenden.
-* Anwendungsbereich 2: Es gibt vier infrage kommende Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage besteht darin, zwei Angebote zurückzusenden.
-
-+++ **Beispiel 1**
-
-Folgende Auswahl ist möglich:
-
-1. Die beiden wichtigsten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 1, Angebot 2).
-1. Die verbleibenden beiden besten in Frage kommenden Angebote aus Umfang 2 werden zurückgegeben (Angebot 3, Angebot 4).
-
-+++
-
-+++ **Beispiel 2**
-
-In diesem Beispiel erreichte Angebot 1 die Frequenzlimitierung. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
-
-Folgende Auswahl ist möglich:
-
-1. Die verbleibenden beiden besten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 3).
-1. Das verbleibende in Frage kommende Angebot aus Umfang 2 wird zurückgegeben (Angebot 4).
-
-+++
-
-+++ **Beispiel 3**
-
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihre Frequenzlimitierung erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
-
-Folgende Auswahl ist möglich:
-
-1. Die verbleibenden beiden besten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 4).
-1. Es gibt keine verbleibenden förderfähigen Angebote für Bereich 2. Daher wird die [Fallback-Angebot](#add-fallback) zurückgegeben.
-
-+++
-
-**Wenn die Duplizierung aktiviert ist**
-
-Wenn Duplizierungen für alle Platzierungen zulässig sind, kann dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. [Weitere Informationen zu Duplizierungsparametern](../offer-library/creating-placements.md)
-
-Nehmen wir dasselbe Beispiel wie oben, in dem Sie zwei Entscheidungsbereiche hinzugefügt haben, z. B.:
-
-* Anwendungsbereich 1: Es gibt vier infrage kommende Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage besteht darin, zwei Angebote zurückzusenden.
-* Anwendungsbereich 2: Es gibt vier infrage kommende Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage besteht darin, zwei Angebote zurückzusenden.
-
-+++ **Beispiel 1**
-
-Folgende Auswahl ist möglich:
-
-1. Die beiden wichtigsten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 1, Angebot 2).
-1. Es werden dieselben beiden besten geeigneten Angebote aus Umfang 2 zurückgegeben (Angebot 1, Angebot 2).
-
-+++
-
-+++ **Beispiel 2**
-
-In diesem Beispiel erreichte Angebot 1 die Frequenzlimitierung. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
-
-Folgende Auswahl ist möglich:
-
-1. Die verbleibenden beiden besten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 3).
-
-1. Es werden die beiden verbleibenden Top-Angebote aus Bereich 2 zurückgegeben (Angebot 2, Angebot 3).
-
-+++
-
-+++ **Beispiel 3**
-
-In diesem Beispiel haben Angebot 1 und Angebot 3 ihre Frequenzlimitierung erreicht. [Weitere Informationen zur Frequenzlimitierung](../offer-library/add-constraints.md#capping)
-
-Folgende Auswahl ist möglich:
-
-1. Die verbleibenden beiden besten in Frage kommenden Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 4).
-
-1. Es werden die beiden verbleibenden Top-Angebote aus Bereich 2 zurückgegeben (Angebot 2, Angebot 4).
-
-+++
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
 
@@ -321,7 +187,7 @@ Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Entscheidu
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey rückgängig machen und sie erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 Wählen Sie eine Live-Entscheidung aus und klicken Sie auf **[!UICONTROL Deaktivieren]**, um den Entscheidungsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
 

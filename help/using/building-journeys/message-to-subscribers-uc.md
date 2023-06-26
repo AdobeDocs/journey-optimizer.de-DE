@@ -11,8 +11,8 @@ keywords: Journey, Anwendungsfall, Nachricht, Abonnenten, Liste, Lesen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

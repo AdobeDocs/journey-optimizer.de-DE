@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in ein
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

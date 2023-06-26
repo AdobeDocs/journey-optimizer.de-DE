@@ -11,8 +11,8 @@ keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 92ecaffe6e16ff4f3ac2221e3d69dfbb23d930b4
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

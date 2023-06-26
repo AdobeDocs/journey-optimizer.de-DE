@@ -11,8 +11,8 @@ keywords: Journey, Einschränkung
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,6 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Das Segment und der Namespace, die unter **Segmentqualifizierung** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
-
 ## Benutzerdefinierte Aktionen  Einschränkungen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 

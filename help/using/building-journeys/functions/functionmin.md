@@ -9,8 +9,8 @@ keywords: min, Funktion, Ausdruck, Journey
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

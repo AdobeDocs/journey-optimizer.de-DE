@@ -11,8 +11,8 @@ keywords: Journey, Ereignisse, Reaktion, Tracking, Plattform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: b011b979aaab7568ca951982a59ad676d05c5595
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
