@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: a2a5c081ee9a8ab04bf4c7b97097c0121ef8e4f8
+source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '460'
+ht-degree: 99%
 
 ---
 
@@ -31,12 +31,12 @@ Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum 
 
 * Journey
 * Campaign
+* Vorlage
 * Fragment
 * Landingpage
-* Angebote
-* Angebotssammlung
-* Offer Decisioning
-* Vorlage
+* Angebot
+* Statische Angebotskollektion
+* Angebotsentscheidung
 
 Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
