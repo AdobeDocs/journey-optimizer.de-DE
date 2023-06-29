@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
 * Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. Dies hilft bei der Lesbarkeit, Qualitätssicherung und Fehlerbehebung.
+* Während Sie Journey veröffentlichen, skalieren und passen wir automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journey gleichzeitig erreichen, wird in der Benutzeroberfläche eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen und die Notwendigkeit haben, Ihre Journey über 100 Live-Journey hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 
 ### Allgemeine Aktionen {#general-actions-g}
 

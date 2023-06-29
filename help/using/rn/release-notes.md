@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,9 +301,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
-* Neue Einblicke in die Anzahl der Knoten auf der Arbeitsfläche mit Sicherheitsvorkehrungen zur Unterstützung des Wachstums: halten Sie Journey leicht zu lesen, Qualitätssicherung und Fehlerbehebung bei einer maximalen Anzahl von Knoten pro Journey bei 50. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../sms/create-sms.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
+* Neue Limits zur Steuerung des Wachstums von Erlebnissen, die von Journey bereitgestellt werden:
+   * Es wird empfohlen, die Anzahl der Knoten auf maximal 50 zu begrenzen, um die Leistung Ihrer Journey zu gewährleisten, die Lesbarkeit, Qualitätssicherung und Fehlerbehebung zu verbessern. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
+   * Wenn Sie Journey entwickeln und starten, werden wir Sie benachrichtigen, sobald Sie sich dem Meilenstein von 100 Live-Journey nähern. Sollten Sie mehr als 100 Journey benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Reporting**
 
