@@ -48,7 +48,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
 >title="Nachrichtenvorschau und Testversand"
->abstract="Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen."
+>abstract="Sobald der Inhalt der Nachricht erstellt wurde, kann mithilfe von Testprofilen eine Vorschau erstellt und ein Testversand durchgeführt werden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#email-rendering" text="E-Mail-Rendering"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#preview-email" text="Vorschau"
 
