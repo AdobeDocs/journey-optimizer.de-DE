@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle ein
 Sie können zwei Arten von Kampagnen erstellen:
 
 * **Geplante Kampagnen** ermöglichen einfache, im Batch versendete Ad-hoc-Nachrichten für Marketing-Anwendungsfälle wie Werbeangebote, Interaktionskampagnen, Ankündigungen, rechtliche Hinweise oder Richtlinienaktualisierungen.
-* **API-gesteuerte Kampagnen** ermöglichen es Marketingnachrichten, eine Zielgruppe zum richtigen Zeitpunkt anzusprechen, oder Transaktions-/Betriebsnachrichten an eine Person, wie z. B. ein Zurücksetzen des Kennworts, wobei die Notwendigkeit eine Personalisierung erfordern kann, indem nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Nutzlast ist.
+* **API-ausgelöste Kampagnen** ermöglichen es, dass Marketing-Nachrichten eine Zielgruppe zum richtigen Zeitpunkt ansprechen oder dass Transaktions-/Betriebsnachrichten an einen Kontakt gerichtet werden, z. B. zum Zurücksetzen des Kennworts. Dabei kann eine Personalisierung erforderlich sein, indem nicht nur das Profilattribut, sondern auch die Echtzeit-Kontextdaten im Trigger verwendet werden, der eine REST-API-Payload ist.
 
 Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
