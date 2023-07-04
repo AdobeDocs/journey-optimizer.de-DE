@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,19 +38,19 @@ Inhalt dieser Dokumentation:
 
 >[!AVAILABILITY]
 >
->Die Zielgruppenzusammensetzung ist derzeit nur für eine begrenzte Gruppe von Kunden verfügbar. Wenden Sie sich bei Fragen an Ihren Ansprechpartner bei der Adobe.
+>Die Zielgruppenzusammensetzung ist derzeit nur für eine begrenzte Gruppe von Kundinnen und Kunden verfügbar. Wenden Sie sich bei Fragen an den Adobe-Support.
 
-Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
+Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Zielgruppen zu erstellen.
 
-Nach Abschluss der **resultierende Zielgruppen** werden zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können für die Zielgruppenbestimmung von Kunden in genutzt werden. [Journey Optimizer-Kampagnen](../campaigns/get-started-with-campaigns.md)oder in Adobe [Real-time Customer Data Platform-Ziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"}.
+Sobald dies geschehen ist, werden die **resultierenden Zielgruppen** zusammen mit den bestehenden Zielgruppen in Adobe Experience Platform gespeichert und können für die Zielgruppenbestimmung von Kundinnen und Kunden in [Journey Optimizer-Kampagnen](../campaigns/get-started-with-campaigns.md) oder in [Adobe Real-Time Customer Data Platform-Zielen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=de){target="_blank"} genutzt werden.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Derzeit sind Zielgruppen, die aus Zusammensetzungs-Workflows resultieren, nicht für die Verwendung in Journey verfügbar.
+>Derzeit sind Zielgruppen, die aus Kompositions-Workflows resultieren, nicht für die Verwendung in Journeys verfügbar.
 >
->Kampagnen in Adobe Journey Optimizer sind noch nicht in den Richtliniendurchsetzungsdienst integriert. Daher werden Datennutzungsbezeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
+>Kampagnen in Adobe Journey Optimizer sind noch nicht mit dem Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
 
 Auf die Audience-Komposition kann über das Menü **[!UICONTROL Segmente]** von Adobe Journey Optimizer zugegriffen werden:
 
