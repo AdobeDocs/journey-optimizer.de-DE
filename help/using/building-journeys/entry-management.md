@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '350'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation)
 
 Zusätzlich:
 
-* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals eine Journey eingeben, dies aber erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat.
+* Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
 
 * Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals in dieselbe Journey eintreten.
 
@@ -43,9 +43,9 @@ In einer Journey mit dem Schritt „Segment lesen“ gilt Folgendes:
 
 * Für nicht wiederkehrende Journeys: Das Profil tritt nur einmal in die Journey ein.
 
-* Für wiederkehrende Journey: das Profil gibt bei jeder Wiederholung die Journey ein, wenn es sich im Segment-/erwarteten Status befindet. Wenn sie sich noch von einer vorherigen Wiederholung auf der Journey befanden, werden sie von Anfang an neu gestartet.
+* Für wiederkehrende Journeys: Das Profil tritt bei jeder Wiederkehr in die Journey ein, wenn es sich im Segment/im erwarteten Status befindet. Wenn es sich noch in der Journey einer früheren Wiederkehr befindet, fängt es wieder von vorn an.
 
-Bei Geschäftsereignissen beginnen Journey mit einer **Segment lesen** Aktivität: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, wird, wenn das Profil im erwarteten Segment qualifiziert ist, für jedes empfangene Geschäftsereignis die Journey erfasst, d. h., dieses Profil kann mehrere Male in derselben Journey, aber gleichzeitig im Kontext verschiedener Geschäftsereignisse sein.
+In Geschäftsereignis-Journeys, die mit der Aktivität **Segment lesen** beginnen: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es im erwarteten Segment ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil im Kontext verschiedener Geschäftsereignisse gleichzeitig mehrfach in derselben Journey sein kann.
 
 <!--
 # Profile entry management {#entry-management}
