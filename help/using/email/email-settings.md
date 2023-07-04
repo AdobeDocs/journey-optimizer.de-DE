@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Legen Sie die E-Mail-Einstellungen im entsprechenden Abschnitt der Kanaloberflä
 
 Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das Senden von Nachrichten übernommen:
 
-* Bei Batch-Journey gilt dies nicht für die Batch-Ausführung, die bereits vor der E-Mail-Oberflächenkonfiguration gestartet wurde. Die Änderungen werden beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
+* Bei Batch-Journeys gilt dies nicht für Batch-Ausführungen, die bereits begonnen hatten, bevor die Konfiguration der E-Mail-Oberfläche festgelegt wurde. Die Änderungen werden beim nächsten Intervall oder bei der nächsten Wiederausführung übernommen.
 
 * Bei Transaktionsnachrichten wird die Änderung sofort für die nächste Mitteilung übernommen (mit einer Verzögerung von bis zu fünf Minuten).
 
@@ -43,9 +43,9 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 
 Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **Marketing** oder **Transaktion**.
 
-* Auswählen **Marketing** für Werbe-E-Mails, z. B. wöchentliche Promotions für einen Einzelhandelsgeschäft. Diese Nachrichten erfordern die Zustimmung des Benutzers.
+* Wählen Sie **Marketing** für Werbe-E-Mails aus, z. B. für wöchentliche Werbeaktionen eines Einzelhandelsgeschäfts. Diese Nachrichten erfordern die Zustimmung der Benutzerin bzw. des Benutzers.
 
-* Auswählen **Transactional** für nicht kommerzielle E-Mails, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die **unsubscribed** aus Marketingnachrichten. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
+* Wählen Sie **Transaktion** für nicht-kommerzielle E-Mails aus, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Passworts oder Versandinformationen. Diese E-Mails können an Profile gesendet werden, die Marketing-Kommunikationen **storniert** haben. Diese Nachrichten können nur in bestimmten Kontexten gesendet werden.
 
 Wenn Sie eine Nachricht erstellen, müssen Sie eine gültige Kanaloberfläche auswählen, die der für Ihre E-Mail ausgewählten Kategorie entspricht.
 
