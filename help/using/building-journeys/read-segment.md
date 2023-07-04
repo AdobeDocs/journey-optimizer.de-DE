@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Segment, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 79%
 
 Verwenden Sie die Aktivität **Segment lesen**, damit alle Personen eines Segments in die Journey eintreten. Der Eintritt in eine Journey kann entweder einmalig oder regelmäßig erfolgen.
 
-Nehmen wir als Beispiel das Segment „Luma app open and checkout“, das beim Anwendungsfall [Segmente erstellen erstellt wurde](../segment/about-segments.md). Mit dem **[!UICONTROL Segment lesen]** -Aktivität können Sie alle Einzelanwender, die zu einem Segment gehören, in eine Journey eintreten lassen und sie in individuelle Journey umwandeln lassen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
+Nehmen wir als Beispiel das Segment „Öffnen der Luma-App und Checkout“, das beim Anwendungsfall [Segmente erstellen erstellt wurde](../segment/about-segments.md). Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie alle Kontakte, die zu einem Segment gehören, in eine Journey eintreten lassen und durch individuelle Journeys führen, die alle Journey-Funktionen nutzen: Bedingungen, Timer, Ereignisse, Aktionen.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
    >
    >Die Gesamteinschränkungsrate pro Sandbox ist auf 20.000 Nachrichten pro Sekunde festgelegt. Daher ergibt die Einschränkungsrate aller gleichzeitig in derselben Sandbox ausgeführten Lesesegmente maximal 20.000 Nachrichten pro Sekunde. Sie können diese Begrenzung nicht ändern.
 
-1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Journey-Zeitplan bearbeiten]** Link zum Zugriff auf die Eigenschaften des Journey. Konfigurieren Sie dann die **[!UICONTROL Planungstyp]** -Feld.
+1. Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie den Zeitpunkt festlegen, zu dem das Segment in die Journey eintreten wird. Klicken Sie dazu auf den Link **[!UICONTROL Journey-Plan bearbeiten]**, um auf die Eigenschaften der Journey zuzugreifen, und konfigurieren Sie dann das Feld **[!UICONTROL Planungstyp]**.
 
    ![](assets/read-segment-schedule.png)
 
@@ -87,9 +87,9 @@ Die Aktivität „Segment lesen“ wird wie folgt konfiguriert:
 
    ![](assets/read-segment-schedule-list.png)
 
-   Wenn eine Journey mit einer wiederkehrenden **Segment lesen** zum ersten Mal ausgeführt wird, geben alle Profile im Segment die Journey ein. Verwenden Sie die **Inkrementelles Lesen** -Option, um nach dem ersten Vorkommen nur die Personen in das Segment einzuschließen, die seit der letzten Ausführung der Journey in das Segment eingestiegen sind.
+   Wenn eine Journey mit einem wiederkehrenden Schritt vom Typ **Segment lesen** zum ersten Mal ausgeführt wird, treten alle Profile im Segment in die Journey ein. Verwenden Sie die Option **Inkrementelles Lesen**, um nach dem ersten Vorkommen nur die Kontakte anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind.
 
-   Aktivieren der **Wiedereintritt erzwingen bei Wiederholung** -Option können Sie automatisch alle Profile entfernen, die sich derzeit während der nächsten Ausführung auf der Journey befinden. Wenn beispielsweise in einer täglich wiederkehrenden Journey eine Wartezeit von 2 Tagen eintritt, werden bei Aktivierung dieser Option Profile durchgängig in die nachfolgende Journey-Ausführung (am folgenden Tag) verschoben, unabhängig davon, ob sie zur nächsten Ausführungszielgruppe gehören. Wenn die Profildauer in dieser Journey jedoch die Wiederholungshäufigkeit überschreiten kann, ist es ratsam, diese Option nicht zu aktivieren, um sicherzustellen, dass Profile ihre Journey abschließen können.
+   Durch Aktivieren der Option **Bei wiederholter Ausführung erneuten Eintritt erzwingen** können Sie automatisch während der nächsten Ausführung alle Profile entfernen, die sich derzeit in der Journey befinden. Wenn beispielsweise in einer täglich wiederkehrenden Journey eine Wartezeit von 2 Tagen eintritt, werden bei Aktivierung dieser Option Profile durchgängig in die nachfolgende Journey-Ausführung (am folgenden Tag) verschoben, unabhängig davon, ob sie zur Zielgruppe der nächsten Ausführung gehören. Wenn die Profildauer in dieser Journey jedoch die Wiederkehrhäufigkeit überschreiten kann, ist es ratsam, diese Option nicht zu aktivieren, um sicherzustellen, dass Profile ihre Journey abschließen können.
 
 <!--
 
@@ -112,17 +112,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->einmalige **Segment lesen** Journey wechseln zu **Abgeschlossen** Status 30 Tage nach der Journey-Ausführung. Für geplant **Segmente lesen**, ist es 30 Tage nach der Ausführung des letzten Vorkommens.
+>Einmalige Journeys mit dem Schritt **Segment lesen** gehen 30 Tage nach der Ausführung der Journey in den Status **Beendet** über. Folgt der Schritt **Segment lesen** einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet.
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
-Die **[!UICONTROL Segment lesen]** -Aktivität ermöglicht es Ihnen, die Journey entweder in einem Einzelprofil oder in 100 Testprofilen zu testen, die unter den für das Segment qualifizierten Profilen ausgewählt wurden.
+Mit der Aktivität **[!UICONTROL Segment lesen]** können Sie die Journey entweder mit einem einheitlichen Profil oder mit 100 Testprofilen testen, die per Zufallsauswahl aus den für das Segment qualifizierten Profilen entnommen werden.
 
-Aktivieren Sie dazu die **Testmodus**. Wählen Sie dann im linken Bereich die gewünschte Option aus.
+Aktivieren Sie dazu den **Testmodus** und wählen Sie dann im linken Bereich die gewünschte Option aus.
 
 ![](assets/read-segment-test-mode.png)
 
-Anschließend können Sie die **Testmodus** wie gewohnt. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
+Anschließend können Sie den **Testmodus** wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
 Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
 
