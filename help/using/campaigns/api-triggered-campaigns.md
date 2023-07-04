@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 
 ## Über von einer API ausgelöste Kampagnen {#about}
 
-Mit [!DNL Journey Optimizer] können Sie Kampagnen erstellen und diese dann in einem externen System über eine [Interactive Message Execution REST-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) auslösen. Auf diese Weise können Sie verschiedene Marketing- und Transaktionsnachrichten abdecken, wie z. B. Kennwortrücksätze, OTP-Token usw.
+Mit [!DNL Journey Optimizer] können Sie Kampagnen erstellen und diese dann in einem externen System über eine [Interactive Message Execution REST-API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) auslösen. Auf diese Weise können Sie diversen Bedarf an Marketing- und Transaktionsnachrichten abdecken, wie z. B. das Zurücksetzen von Passwörtern, OTP-Token usw.
 
 Dazu müssen Sie zunächst in Journey Optimizer eine von einer API ausgelöste Kampagne erstellen und deren Ausführung dann über einen API-Aufruf starten.
 
@@ -27,19 +27,19 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 >[!NOTE]
 >
->Derzeit wird die schnelle Bereitstellung für Kampagnen, die von der Push-Benachrichtigungs-API ausgelöst werden, nicht unterstützt.
+>Ab sofort wird der Schnellversand für Push-Benachrichtigungs-API-ausgelöste Kampagnen nicht mehr unterstützt.
 
-## Erstellen einer von einer API ausgelösten Kampagne {#create}
+## Erstellen einer API-ausgelösten Kampagne {#create}
 
 ### Konfigurieren und Aktivieren der Kampagne {#create-activate}
 
-Gehen Sie wie folgt vor, um eine API-gesteuerte Kampagne zu erstellen. Detaillierte Informationen zum Erstellen einer Kampagne finden Sie in [diesem Abschnitt](create-campaign.md).
+Um eine API-ausgelöste Kampagne zu erstellen, gehen Sie wie folgt vor. Detaillierte Informationen zum Erstellen einer Kampagne finden Sie in [diesem Abschnitt](create-campaign.md).
 
 1. Erstellen Sie eine neue Kampagne vom Typ **[!UICONTROL API-ausgelöst]**.
 
-1. Wählen Sie die **[!UICONTROL Marketing]** oder **[!UICONTROL Transactional]** je nach dem zu sendenden Kommunikationstyp.
+1. Wählen Sie die Kategorie **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]** je nach dem Typ der Kommunikation aus, die Sie versenden möchten.
 
-1. Wählen Sie einen der unterstützten Kanäle und die zugehörige Kanaloberfläche für den Nachrichtenversand aus und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Wählen Sie einen der unterstützten Kanäle und die zugehörige Kanaloberfläche aus, die zum Senden Ihrer Nachricht verwendet werden soll, und klicken Sie auf **[!UICONTROL Erstellen]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -51,11 +51,11 @@ Gehen Sie wie folgt vor, um eine API-gesteuerte Kampagne zu erstellen. Detaillie
    >
    >Die Verwendung einer großen Zahl oder umfangreicher kontextuelle Daten in Ihren Inhalten kann die Leistung beeinträchtigen.
 
-1. Im **[!UICONTROL Zielgruppe]** Geben Sie den Namespace an, der zur Identifizierung der Kontakte verwendet werden soll.
+1. Geben Sie im Abschnitt **[!UICONTROL Zielgruppe]** den Namespace an, der zur Identifizierung der Kontakte verwendet werden soll.
 
-   * Wenn Sie eine **transactional**-Typ Kampagne, müssen die Zielgruppenprofile im API-Aufruf definiert werden. Die Option **[!UICONTROL Erstellen neuer Profile]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
+   * Wenn Sie eine Kampagne des Typs **Transaktion** erstellen, müssen die Zielgruppenprofile im API-Aufruf definiert werden. Die Option **[!UICONTROL Erstellen neuer Profile]** ermöglicht es Ihnen, automatisch Profile zu erstellen, die nicht in der Datenbank vorhanden sind. [Erfahren Sie mehr über die Erstellung von Profilen bei der Kampagnenausführung](#profile-creation)
 
-   * Für **Marketing**-type campaigns, klicken Sie auf die **[!UICONTROL Zielgruppe]** zur Auswahl der Zielgruppe.
+   * Klicken Sie bei Kampagnen des Typs **Marketing** auf die Schaltfläche **[!UICONTROL Zielgruppe]**, um die Zielgruppe auszuwählen, die angesprochen werden soll.
 
 1. Konfigurieren Sie das Start- und Enddatum der Kampagne.
 
@@ -75,7 +75,7 @@ Nachdem Ihre Kampagne aktiviert wurde, müssen Sie die generierte Beispiel-cURL-
 
 1. Verwenden Sie diese cURL-Anfrage in den APIs, um Ihre Payload zu erstellen und die Kampagne auszulösen. Weitere Informationen finden Sie in der [Dokumentation zur API für die Ausführung interaktiver Nachrichten](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
 
-   Beispiele für API-Aufrufe finden Sie auch in [diese Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
+   Beispiele für API-Aufrufe finden Sie auch auf [dieser Seite](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Die Syntax `{{context.<contextualAttribute>}}` ist nur einem Zeichenfolgen-Daten
 
 >[!IMPORTANT]
 >
->Die in die Anfrage übergebenen Kontextattribute dürfen 50 KB nicht überschreiten und sind stets vom Typ Zeichenfolge abhängig.
+>Die in die Anfrage übergebenen Kontextattribute dürfen 50 KB nicht überschreiten und sind stets vom Typ „Zeichenfolge“.
 >
 >Die Syntax `context.system` ist auf die interne Nutzung bei Adobe beschränkt und sollte nicht zur Weitergabe von kontextuellen Attributen verwendet werden.
 
@@ -114,9 +114,9 @@ Wenn ein Profil nicht in der Datenbank vorhanden ist, erlaubt Journey Optimizer 
 
 >[!IMPORTANT]
 >
->Bei Transaktionsnachrichten ist diese Funktion verfügbar für **Profilerstellung mit sehr geringem Volumen** in einem Anwendungsfall für den Versand von Transaktionsnachrichten mit großem Volumen, wobei ein Großteil der Profile bereits in der Plattform vorhanden ist.
+>Im Fall von Transaktionsnachrichten wird diese Funktion für **Erstellung von Profilen mit sehr geringem Volumen** in einem Anwendungsfall mit großem Versandvolumen bereitgestellt, wobei ein Großteil der Profile bereits in der Plattform vorhanden ist.
 
-Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, schalten Sie die Option **[!UICONTROL Neue Profile erstellen]** im Abschnitt **[!UICONTROL Audience]** ein. Wenn diese Option deaktiviert ist, werden unbekannte Profile für jeden Versand zurückgewiesen und der API-Aufruf schlägt fehl.
+Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, schalten Sie die Option **[!UICONTROL Neue Profile erstellen]** im Abschnitt **[!UICONTROL Zielgruppe]** ein. Wenn diese Option deaktiviert ist, werden unbekannte Profile für jeden Versand zurückgewiesen und der API-Aufruf schlägt fehl.
 
 ![](assets/api-triggered-create-profile.png)
 
