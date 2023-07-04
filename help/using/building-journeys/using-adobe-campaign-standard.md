@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Integration, Standard, Kampagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '933'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Für **[!UICONTROL E-Mail]** und **[!UICONTROL SMS]** sind die Parameter identis
 
 >[!NOTE]
 >
->Bei Verwendung der Transaktionsvorlage eines Profils für E-Mails wird der Abmeldemechanismus automatisch von Adobe Campaign Standard verarbeitet. Um dies zu implementieren, können Sie einfach eine **[!UICONTROL Abmelde-Link]** Inhaltsbaustein in [Transaktions-E-Mail-Vorlage](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de). Wenn Sie jedoch eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie einen Link in die Nachricht einfügen, über den die E-Mail des Empfängers als URL-Parameter übergeben und an eine Landingpage zur Abmeldung weitergeleitet wird. Es ist notwendig, diese Landingpage zu erstellen und sicherzustellen, dass die Abmeldeentscheidung des Empfängers effektiv an die Adobe übermittelt wird.
+>Bei Verwendung der Transaktionsvorlage eines Profils für E-Mails wird der Abmeldemechanismus automatisch von Adobe Campaign Standard gehandhabt. Um dies zu implementieren, können Sie einfach den Inhaltsbaustein **[!UICONTROL Abmelde-Link]** in die [Transaktions-E-Mail-Vorlage](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=de) aufnehmen. Wenn Sie jedoch eine ereignisbasierte Vorlage (rtEvent) verwenden, müssen Sie einen Link in die Nachricht einfügen, der die E-Mail-Adresse der Empfängerin bzw. des Empfängers als URL-Parameter weitergibt und zu einer Landingpage zur Abmeldung weiterleitet. Es ist notwendig, diese Landingpage zu erstellen und sicherzustellen, dass die Stornierungsentscheidung der Empfängerin bzw. des Empfängers tatsächlich an Adobe übermittelt wird.
 
 Zuerst müssen Sie eine Transaktionsnachrichtenvorlage auswählen.
 
