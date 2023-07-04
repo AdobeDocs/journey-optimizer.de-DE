@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Konfigurieren Sie Ihre Instanz, bevor Sie SMS versenden. Sie müssen dazu die [P
 
 ## Voraussetzungen{#sms-prerequisites}
 
-Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch, Twilio und Infobip integriert werden, die unabhängig von Adobe Journey Optimizer SMS-Dienste anbieten.
+Adobe Journey Optimizer kann derzeit mit Drittanbietern wie Sinch, Twilio und Infobip integriert werden, die von Adobe Journey Optimizer unabhängige SMS-Services anbieten.
 
 Vor der SMS-Konfiguration müssen Sie bei einem dieser SMS-Provider ein Konto erstellen, um das API-Token und die Service-ID zu erhalten, über die Sie die Verbindung zwischen Adobe Journey Optimizer und dem entsprechenden SMS-Provider herstellen können.
 
