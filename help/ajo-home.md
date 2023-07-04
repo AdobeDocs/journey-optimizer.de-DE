@@ -5,10 +5,10 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ddb2d916d24b6931ec43ce2f4e5a89a746c0d5e0
+source-git-commit: c45598877441765405c7ca29373801f1d095ff3a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 89%
+source-wordcount: '316'
+ht-degree: 81%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
     <div>
       <a href="using/start/quick-start.md">Schnellstartanleitung</a>
     </div>
-    <p>Erfahren Sie, wie Sie als Administrator, Datentechniker oder Journey-Anwender beginnen können.</p>
+    <p>Erfahren Sie, wie Sie als Administrator, Data Engineer oder Journey-Techniker beginnen können.</p>
     <p>
     <p>
     <div>
@@ -108,7 +108,7 @@ ht-degree: 89%
     <p>
     <div>
     <p>Registrieren Sie sich für die <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Vierteljährlicher Adobe Journey Optimizer-Newsletter</a>.</p>
-    <p>Sie erhalten jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang. Im Newsletter erwarten Sie:</p>
+    <p>Sie erhalten jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang. In jedem Newsletter finden Sie:</p>
     <li>Produktneuheiten und -aktualisierungen, einschließlich kürzlich veröffentlichter Funktionen</li>
     <li>Einladungen zu Veranstaltungen, Webinaren und Aufzeichnungen kürzlich abgehaltener Webinare</li>
     <li>Spannende Unterhaltungen über Adobe Journey Optimizer in der Experience League Community </li>
@@ -196,10 +196,10 @@ ht-degree: 89%
       <a href="using/privacy/requests.md">Anfragen</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de"target="_blank">Verfolgung</a>
+      <a href="using/privacy/audit-logs.md"target="_blank">Verfolgung</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de"target="_blank">Datenhygiene</a>
+      <a href="using/privacy/data-hygiene.md"target="_blank">Datenhygiene</a>
     </li>
     <p>
     <p>ADMINISTRATION</p>
