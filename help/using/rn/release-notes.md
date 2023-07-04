@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
 source-wordcount: '2595'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -36,14 +36,14 @@ Information below is subject to change without prior notice until the release av
 <table>
 <thead>
 <tr>
-<th><strong>API-gesteuerte Kampagnen für Marketing-Anwendungsfälle</strong><br/></th>
+<th><strong>API-ausgelöste Kampagnen für Marketing-Anwendungsfälle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt APIs verwenden, um Marketingkampagnen in Adobe Journey Optimizer von einem externen System aus Trigger.</p>
-<p>Bis zu dieser Version deckte die API-gesteuerte Kampagnenfunktion verschiedene operative und Transaktionsnachrichten-Anforderungen wie Kennwortzurückstellungen oder OTP-Token ab, konnte jedoch nicht zur Erstellung von Marketing-Kampagnen verwendet werden. Verfügbare Kanäle für API-gesteuerte Kampagnen sind: E-Mail, SMS und Push-Nachrichten.</p>
+<p>Sie können jetzt APIs verwenden, um Marketing-Kampagnen in Adobe Journey Optimizer von einem externen System aus auszulösen.</p>
+<p>Bis zu dieser Version bediente die Funktion für API-ausgelöste Kampagnen den Bedarf an verschiedenen operativen und transaktionalen Nachrichten, wie etwa Zurücksetzen des Passworts oder OTP-Token, sie konnte jedoch nicht zur Erstellung von Marketing-Kampagnen verwendet werden. Für API-ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-campaigns.md">detaillierten Dokumentation</a>.
 </td>

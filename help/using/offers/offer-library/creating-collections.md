@@ -9,7 +9,7 @@ exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
 
    >[!NOTE]
    >
-   >Die Verwendung von OLAC ist nicht für dynamische Sammlungen verfügbar. Sie muss auf Angebotsebene verwaltet werden. Daher ist es möglich, dass in einer dynamischen Kollektion keine Angebote angezeigt werden, wenn Sie keinen Zugriff auf eines dieser Angebote haben.
+   >Die Verwendung von OLAC ist für dynamische Sammlungen nicht verfügbar. Sie muss auf Angebotsebene verwaltet werden. Daher ist es möglich, dass in einer dynamischen Sammlung keine Angebote angezeigt werden, wenn Sie auf keines dieser Angebote Zugriff haben.
 
 1. Nachdem die Sammlung erstellt wurde, wird sie in der Liste angezeigt. Sie können sie zum Bearbeiten oder Löschen auswählen.
 
