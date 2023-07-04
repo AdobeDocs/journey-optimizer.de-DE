@@ -9,9 +9,9 @@ level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-
 
 Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
 
-Der Omnichannel-Journey-Designer unterstützt Sie beim Aufbau mehrstufiger Journey, insbesondere beim Targeting von Zielgruppen, und bei der Einbindung von Updates, die auf Echtzeit-Kundeninteraktionen oder Geschäftsinteraktionen basieren. Außerdem können Sie Omnichannel-Nachrichten über eine intuitive Drag &amp; Drop-Oberfläche erstellen.
+Der Omni-Channel-Journey-Designer unterstützt Sie beim Aufbau mehrstufiger Journeys, insbesondere bei der Zielgruppenbestimmung und bei der Einbindung von Aktualisierungen, die auf Echtzeitinteraktionen mit Kundschaft oder Unternehmen basieren. Außerdem können Sie Omni-Channel-Nachrichten über eine intuitive Drag-and-Drop-Oberfläche erstellen.
 
 ![](assets/journey38.png)
 
@@ -82,7 +82,7 @@ Wenn Sie nach einer Journey suchen, werden beim ersten Öffnen der Anwendung die
 
 >[!NOTE]
 >
->In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil eine Journey erneut eingeben, dies jedoch erst tun, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
+>In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](end-journey.md).
 
 Wenn eine Live-Journey geändert werden muss, bitte eine neue Version der Journey erstellen.
 
