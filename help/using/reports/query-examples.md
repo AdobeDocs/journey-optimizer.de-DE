@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journey die Verwendung von journeyVersionID anstelle von journeyVersionName .
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
 
 ## Grundlegende Anwendungsfälle/allgemeine Abfragen {#common-queries}
 
