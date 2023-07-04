@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '608'
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Typ: Zeichenfolge
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journey die Verwendung von journeyVersionID anstelle von journeyVersionName .
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
 
 ## journeyVersionName {#journeyversionname-field}
 
@@ -121,7 +121,7 @@ Typ: Zeichenfolge
 
 >[!NOTE]
 >
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journey die Verwendung von journeyVersionID anstelle von journeyVersionName .
+>Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
 
 ## journeyVersion {#journeyversion-field}
 
