@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1548'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
 * **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Segment lesen).
 * **Fehlerrate**: Verhältnis aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
-* **Entsorgungsrate**: Anteil aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingegebenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zur Teilnahme an der Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
+* **Verwerfungsrate**: Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zum Eintritt in die Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 
 ![](assets/journeys-browse.png)
 
-In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Der Typ kann: **[!UICONTROL Einzelereignis]**, **[!UICONTROL Segmentqualifizierung]**, **[!UICONTROL Segment lesen]** oder **[!UICONTROL Geschäftsereignis]**.
+In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Segmentqualifikation]**, **[!UICONTROL Segment lesen]** oder **[!UICONTROL Geschäftsereignis]**.
 
 Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie außerdem ein Veröffentlichungsdatum oder Benutzende auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
 
@@ -153,7 +153,7 @@ Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
-Beim Bearbeiten einer Aktion- oder Bedingungsaktivität haben Sie die Möglichkeit, im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad anzugeben. Wenn bei der Verarbeitung der Aktivität, bei der ein Drittanbietersystem abgefragt wird, die in den Journey-Eigenschaften angegebene Dauer für die Zeitüberschreitung und die Fehlerbehandlung überschritten wird (**[!UICONTROL Zeitüberschreitung und Fehler]** ), wird der zweite Pfad ausgewählt, um bei Bedarf eine Ausweichaktion auszuführen.
+Beim Bearbeiten einer Aktion- oder Bedingungsaktivität haben Sie die Möglichkeit, einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung anzugeben. Wenn bei der Verarbeitung der Aktivität, bei der ein Drittanbietersystem abgefragt wird, die in den Journey-Eigenschaften angegebene Dauer für die Zeitüberschreitung und die Fehlerbehandlung überschritten wird (das Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um bei Bedarf eine Ausweichaktion auszuführen.
 
 Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 
@@ -163,7 +163,7 @@ Bei Journeys wird auch eine maximale globale Wartezeit verwendet. Siehe [nächst
 
 ### Maximale globale Wartezeit der Journey {#global_timeout}
 
-Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach dem Timeout-Zeitraum von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
+Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
 
 >[!NOTE]
 >
