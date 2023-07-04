@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Ereignisse, Reaktion, Tracking, Plattform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: b011b979aaab7568ca951982a59ad676d05c5595
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '375'
+ht-degree: 100%
 
 ---
 
@@ -51,4 +51,4 @@ Im Folgenden werden die verschiedenen Schritte zum Konfigurieren der Reaktionser
 
 >[!IMPORTANT]
 >
->E-Mail-Clients wie Gmail erlauben die Blockierung von Bildern. E-Mail-Öffnungen werden anhand eines in der E-Mail enthaltenen 0-Pixel-Bildes nachverfolgt. Wenn Bilder blockiert werden, wird das Öffnen von E-Mails nicht berücksichtigt.
+>E-Mail-Clients wie Gmail erlauben die Blockierung von Bildern. Das Öffnen von E-Mails wird anhand eines in der E-Mail enthaltenen 0-Pixel-Bildes nachverfolgt. Wenn Bilder blockiert werden, wird das Öffnen von E-Mails nicht berücksichtigt.
