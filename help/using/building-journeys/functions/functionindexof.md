@@ -8,15 +8,15 @@ level: Experienced
 keywords: indexOf, Funktion, Ausdruck, Journey
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
 source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
 # indexOf {#indexOf}
 
-Gibt die Position (im ersten Argument) des ersten Vorkommens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
+Gibt die Position (im ersten Argument) des ersten Auftretens des zweiten Parameters zurück. Gibt -1 zurück, wenn keine Übereinstimmung vorliegt.
 
 ## Kategorie
 
