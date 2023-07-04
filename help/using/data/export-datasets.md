@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Detaillierte Informationen zu den einzelnen Zielen finden Sie in der Adobe Exper
 
 * Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions) **Ziele verwalten**, **Ziele anzeigen**, **Ziele aktivieren** und **Datensatzziele verwalten und aktivieren** Lesen Sie die [Übersicht über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
 
-* Diese Funktion unterstützt nur den Export von Daten der ersten Generation, d. h. von Rohdaten, wie in der [Produktbeschreibung der Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html) definiert. Stellen Sie sicher, dass der Datensatz, den Sie exportieren möchten, keine Daten der zweiten Generation enthält.
+* Stellen Sie sicher, dass der Datensatz, den Sie exportieren möchten, keine Daten der zweiten Generation enthält. Diese Funktion unterstützt nur den Export von Daten der ersten Generation, d. h. von Rohdaten, wie in der [Produktbeschreibung der Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html) definiert. Zu den Daten der ersten Generation gehören Datensätze, die über Adobe Experience Platform-Quellen übermittelt werden, oder Datensätze, die mithilfe von Adobe-Lösungen wie Analytics Data Connector und Journey Optimizer-Protokolle/-Berichtsdatensätzen erfasst wurden.
 
 ## Die wichtigsten Schritte zum Exportieren von Datensätzen {#main-steps}
 
