@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1363'
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
    ![](assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **Beenden**.
    ![](assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitungsvorgang läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
+1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitung läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
    ![](assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![](assets/test-profiles-21.png)

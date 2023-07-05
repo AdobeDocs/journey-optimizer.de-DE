@@ -11,8 +11,8 @@ keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1368'
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ In Adobe Experience Platform können Sie Profile erstellen, indem Sie eine CSV-D
    ![](assets/test-profiles-18.png)
 1. Ordnen Sie die CSV-Quellfelder den Feldern des Schemas zu und klicken Sie dann auf **Beenden**.
    ![](assets/test-profiles-19.png)
-1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitungsvorgang läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
+1. Der Datenimport beginnt. Der Status wechselt von **Verarbeitung läuft** zu **Erfolg**. Klicken Sie oben rechts auf **Datensatz in der Vorschau anzeigen**.
    ![](assets/test-profiles-20.png)
 1. Vergewissern Sie sich, dass die Testprofile korrekt hinzugefügt wurden.
    ![](assets/test-profiles-21.png)

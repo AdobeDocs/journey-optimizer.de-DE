@@ -11,8 +11,8 @@ keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '785'
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Führen Sie die folgenden Schritte aus, um einen PTR-Eintrag mit einer Subdomain
 
 ## Prüfen der Aktualisierungsdetails der PTR-Einträge {#check-ptr-record-update}
 
-Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol **[!UICONTROL Verarbeitung]** neben dem Namen des PTR-Eintrags in der Liste angezeigt.
+Nachdem Sie die Bearbeitung des PTR-Eintrags bestätigt haben, wird das Symbol **[!UICONTROL Verarbeitung läuft]** neben dem Namen des PTR-Eintrags in der Liste angezeigt.
 
 ![](assets/ptr-record-updating.png)
 
@@ -130,7 +130,7 @@ Die Aktualisierung eines PTR-Eintrags kann die folgenden Status haben:
 * ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Erfolgreich]**: Der aktualisierte PTR-Eintrag wurde überprüft und die neue Subdomain ist nun mit der IP-Adresse verknüpft.
 * ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Fehlgeschlagen]**: Bei der Verifizierung der Aktualisierung des PTR-Eintrags sind eine oder mehrere Prüfungen fehlgeschlagen.
 
-### In Bearbeitung {#processing}
+### Verarbeitung läuft {#processing}
 
 Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um zu überprüfen, ob die neue Subdomain, die mit der IP-Adresse verknüpft werden soll, gültig ist. Dies kann bis zu drei Stunden dauern.
 

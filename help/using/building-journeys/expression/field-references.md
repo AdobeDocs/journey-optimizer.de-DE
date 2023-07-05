@@ -10,8 +10,8 @@ keywords: Journey, Feld, Ausdruck, Ereignis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 

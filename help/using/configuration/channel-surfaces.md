@@ -11,8 +11,8 @@ keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1607'
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ Eine Aktualisierung einer Kanaloberfläche kann die folgenden Status aufweisen:
 
 Jeder Status wird nachfolgend beschrieben.
 
-#### In Bearbeitung {#surface-processing}
+#### Verarbeitung läuft {#surface-processing}
 
 Es werden verschiedene Zustellbarkeitsprüfungen durchgeführt, um sicherzustellen, dass die Kanaloberfläche ordnungsgemäß aktualisiert wurde.
 

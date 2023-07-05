@@ -11,8 +11,8 @@ keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 

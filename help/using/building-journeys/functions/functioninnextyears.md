@@ -9,8 +9,8 @@ keywords: inNextYears, Funktion, Ausdruck, Journey
 exl-id: e4597772-d53c-4e15-8237-b2460ce31170
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '48'
+ht-degree: 100%
 
 ---
 
