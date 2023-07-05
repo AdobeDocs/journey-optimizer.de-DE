@@ -34,6 +34,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Das Segment und der Namespace, die unter **Segmentqualifizierung** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
+
 ## Benutzerdefinierte Aktionen  Einschränkungen
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
@@ -42,10 +43,12 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * IP-Adressen sind nicht zulässig. 
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
  
+
 ## Einschränkungen bei Ereignissen
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
+
 ## Datenquellen  Einschränkungen
 
 * Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
