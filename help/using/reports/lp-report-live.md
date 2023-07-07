@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >title="Live-Bericht zu Landingpages"
 >abstract="Mit dem Live-Bericht zu Landingpages kann die Wirkung und Leistung einer Landingpage nur in den letzten 24 Stunden in Echtzeit gemessen und visualisiert werden. Der Bericht ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Landingpage detailliert darstellen. Jedes Reporting-Dashboard kann durch Ändern der Größe oder Entfernen von Widgets verändert werden."
 
-Der **[!UICONTROL Live-Bericht]** zu Landingpages zeigt nur Details zur Wirkung Ihrer Landingpages in den letzten 24 Stunden an. Wenn Sie Ihre Landingpage-Daten über einen bestimmten Zeitraum messen möchten, verwenden Sie den [globalen Bericht zu Landingpages](lp-report-global.md).
+Live-Berichte, auf die über die Registerkarte Letzte 24 Stunden zugegriffen werden kann, zeigen Ereignisse an, die innerhalb der letzten 24 Stunden stattgefunden haben. Der Zeitraum ab dem Auftreten des Ereignisses beträgt mindestens zwei Minuten. Im Vergleich dazu konzentrieren sich globale Berichte auf Ereignisse, die mindestens vor zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab.
 
 Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das erweiterte Menü der ausgewählten Landingpage aus.
 
