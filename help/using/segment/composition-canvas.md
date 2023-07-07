@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1373'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Aktivität „Anreichern“"
->abstract="Verwenden Sie die Aktivität „Anreichern“, um Profile auszuschließen, die zu einer bestehenden Audience gehören. Mit dem Typ „Mit Attribut ausschließen“ können Sie Profile auf der Grundlage eines bestimmten Attributs ausschließen."
+>abstract="Verwenden Sie die Aktivität Anreicherung , um Ihre Zielgruppe mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anzureichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
