@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 59%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf drei Konzepten:
 
-* **[!UICONTROL Produktprofil]**: Eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Siehe Abschnitt [Vorkonfigurierte Produktprofile](ootb-product-profiles.md).
+* **[!UICONTROL Rolle]**: Eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Siehe Abschnitt [Vordefinierte Rollen](ootb-product-profiles.md) Abschnitt.
 
-* **[!UICONTROL Berechtigungen]**: Einzelrechte, mit denen Sie die dem **[!UICONTROL Produktprofil]** zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] repräsentieren. Siehe Abschnitt [Berechtigungsebenen](high-low-permissions.md).
+* **[!UICONTROL Berechtigungen]**: Einzelberechtigungen, mit denen Sie die den **[!UICONTROL Rollen]**. Jede Berechtigung wird unter Ressourcen erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer]. Siehe Abschnitt [Berechtigungsebenen](high-low-permissions.md).
 
-* **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe [Verwenden von Sandboxes](sandboxes.md)
+* **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe [Verwenden von Sandboxes](sandboxes.md).
 
 Jedes Konzept kann von **[!UICONTROL Produktadministratoren]** verwaltet werden, die Zugriff auf die Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
@@ -36,6 +36,6 @@ Jedes Konzept kann von **[!UICONTROL Produktadministratoren]** verwaltet werden,
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie mehr über das Zugriffssteuerungssystem und benutzerdefinierte Produktprofile in Adobe Journey Optimizer. Erfahren Sie, wie Sie Produktprofile und Berechtigungen verwalten und Benutzer hinzufügen und verwalten können.
+Erfahren Sie mehr über das Zugriffskontrollsystem und benutzerdefinierte Probleme in Adobe Journey Optimizer. Erfahren Sie, wie Sie Rollen und Berechtigungen verwalten und Benutzer hinzufügen und verwalten können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)

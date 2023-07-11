@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: Objekt, Ebene, Zugriff, Kontrolle, Kennzeichnungen, OLAC, Autorisierung
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 100%
 >id="ajo_olac_manage_access"
 >title="Zugriffssteuerung auf Objektebene"
 >abstract="Wenn Sie Kennzeichnungen anwenden, auf die Sie keinen Zugriff haben, wird Ihr Zugriff auf dieses Objekt widerrufen."
-
->[!IMPORTANT]
->
->Die Verwendung der Zugriffssteuerung auf Objektebene ist derzeit auf ausgewählte Kundinnen und Kunden beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.
 
 Mit der Zugriffssteuerung auf Objektebene (OLAC) können Sie Berechtigungen zum Verwalten des Datenzugriffs für eine Auswahl von Objekten definieren:
 

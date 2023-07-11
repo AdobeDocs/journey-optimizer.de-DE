@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 100%
 # Integrierte Berechtigungen {#ootb-permissions}
 
 | Funktion | Berechtigungen |
-|---|---|
-| Warnhinweise | **[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Journeys und Berechtigungen.</br>**[!DNL Resolve alerts]**: Ermöglicht Ihnen, ausgelöste Warnhinweise aufzulösen.</br>**[!DNL View alerts]**: Ermöglicht Ihnen die Anzeige empfangener Warnnachrichten und den Zugriff auf die Registerkarte „Warnungen“. </br>**[!DNL View alerts history]**: Ermöglicht Ihnen, einen Verlauf der erhaltenen Warnhinweise anzuzeigen. |
+|-|-|
 | Kampagnen | **[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen. </br>**[!DNL Publish campaigns]**: Berechtigung zur Veröffentlichung von Kampagnen.</br>**[!DNL View campaigns]**: Nur-Lese-Zugriff auf Kampagnen. </br>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten. |
-| Kanalkonfiguration | **[!DNL View messages general settings]**: Nur-Lese-Zugriff auf allgemeine Nachrichteneinstellungen.</br>**[!DNL Manage web subdomain]**: Lesen, Erstellen, Bearbeiten und Löschen von Web-Subdomains.</br>**[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</br>**[!DNL Manage suppression]**: Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</br>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</br>**[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen.</br>**[!DNL Manage SMS subdomains]**: Lesen, Erstellen, Bearbeiten und Löschen von SMS-Subdomains. </br>**[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Zuweisungen.</br>**[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools.</br>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen.</br>**[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</br>**[!DNL Manage channel surfaces]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</br>**[!DNL Manage Landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen von Landingpage-Subdomains und Landingpage-Voreinstellungen.</br>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen von API-Anmeldedaten und SMS-Kanaloberflächen, die für die Aktivierung des SMS-Kanals erforderlich sind.</br>**[!DNL Export suppression list]**: Zugriff zum Exportieren der Unterdrückungsliste als CSV-Datei.</br>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste. |
 | Dashboards | **[!DNL View license usage dashboards]**: Nur-Lese-Zugriff auf das Lizenznutzungs-Dashboard. </br>**[!DNL Manage custom dashboards]**: Ermöglicht Ihnen, ein neues Dashboard zu erstellen oder ein vorhandenes Dashboard zu bearbeiten.</br>**[!DNL View custom dashboards]**: Nur-Lese-Zugriff auf benutzerdefinierte Dashboards. </br>**[!DNL View standard dashboards]**: Nur-Lese-Zugriff auf die Dashboards „Profile“, „Ziele“ und „Segmente“.</br>**[!DNL Manage standard dashboards]**: Ermöglicht Ihnen, benutzerdefinierte Widgets zu erstellen und das Widget-Schema über die Widget-Bibliothek zu bearbeiten. |
 | Datenerfassung | **[!DNL Manage datastream]**: Lesen, Erstellen und Bearbeiten von Datenströmen.</br>**[!DNL View datastream]**: Nur-Lese-Zugriff auf Datenströme. |
 | Data Governance | **[!DNL Manage usage labels]**: Lesen, Erstellen, Bearbeiten und Löschen von Bezeichnungen.</br>**[!DNL Manage data usage policies]**: Lesen, Erstellen, Bearbeiten und Löschen von Datennutzungsrichtlinien.</br>**[!DNL View data usage policies]**: Nur-Lese-Zugriff auf Datennutzungsrichtlinien Ihrer Organisation.</br>**[!DNL View user activity log]**: Nur-Lese-Zugriff zur Anzeige aufgezeichneter Prüfprotokolle zu Platform-Aktivitäten. |

@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1062'
 ht-degree: 100%
 
 ---
 
 # Attributbasierte Zugriffssteuerung {#attribute-based-access}
-
->[!IMPORTANT]
->
->Die Verwendung der attributbasierten Zugriffssteuerung ist derzeit auf ausgewählte Kundinnen und Kunden beschränkt und wird in einer zukünftigen Version für alle Umgebungen bereitgestellt.
 
 Mit der attributbasierten Zugriffssteuerung (ABAC) können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
