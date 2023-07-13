@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 95%
 
 ---
 
@@ -76,13 +76,12 @@ Die Attribute müssen im Schema definiert sein, damit sie in einem Personalisier
 
 `{{profile.faxPhone.number}}`
 
-## Segmente{#perso-segments}
+## Zielgruppen{#perso-segments}
 
 In [diesem Abschnitt](functions/helpers.md#if-function) erfahren Sie, wie Sie Profilattribute in Bedingungen verwenden können.
 
 >[!NOTE]
->Weitere Informationen zur Segmentierung und zum Segmentierungs-Service finden Sie in [diesem Abschnitt](../segment/about-segments.md).
->
+>Weitere Informationen zum Segmentierungsdienst finden Sie unter [diese Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 ## Angebote {#offers-syntax}
 
@@ -165,7 +164,7 @@ Mit Journey Optimizer können Sie eine oder mehrere URLs in Ihrer Nachricht pers
 
 >[!NOTE]
 >
->Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, werden Hilfsfunktionen und die Segmentzugehörigkeit aus Sicherheitsgründen deaktiviert.
+>Wenn Sie im Ausdruckseditor eine personalisierte URL bearbeiten, sind Hilfsfunktionen und die Zugehörigkeit zu Zielgruppen aus Sicherheitsgründen deaktiviert.
 >
 
 **Beispiele für personalisierte URLs**

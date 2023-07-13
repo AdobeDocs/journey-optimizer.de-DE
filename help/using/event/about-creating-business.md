@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Ereignis, Journey, Geschäft, Konfiguration
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Im Gegensatz zu unitären Ereignissen sind Geschäftsereignisse nicht mit einem bestimmten Profil verknüpft. Der Ereignis-ID-Typ ist immer regelbasiert. Weitere Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
-Auf dem Lesen von Segmenten basierende Journeys können einmalig durch eine Planung auf regulärer Basis oder durch ein Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
+Auf Zielgruppen basierende Journey können im einmaligen, von einer Planungsaktivität regelmäßig oder von einem Geschäftsereignis ausgelöst werden, wenn das Ereignis eintritt.
 
 Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „der Aktienkurs einer Firma erreicht einen bestimmten Wert“ usw.
 
@@ -39,12 +39,12 @@ Geschäftsereignisse können sein: „ein Produkt ist wieder auf Lager“, „de
 * Das Ereignisschema muss eine primäre Identität enthalten, die nicht auf Personen basiert. Beim Definieren des Ereignisses müssen die folgenden Felder ausgewählt werden: `_id` und `timestamp`
 * Geschäftsereignisse können nur als erster Schritt einer Journey eingefügt werden.
 * Wenn Sie ein Geschäftsereignis als ersten Schritt einer Journey einfügen, lautet der Planungstyp der Journey „Geschäftsereignis“.
-* Nach einem Geschäftsereignis kann nur eine Aktivität „Segment lesen“ eingefügt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
+* Nach einem Geschäftsereignis kann nur die Aktivität Lesen der Zielgruppe abgelegt werden. Sie wird automatisch als nächster Schritt hinzugefügt.
 * Um mehrere Ausführungen für Geschäftsereignisse zuzulassen, aktivieren Sie die entsprechende Option im Abschnitt **[!UICONTROL Ausführung]** der Journey-Eigenschaften.
-* Nachdem ein Geschäftsereignis ausgelöst wurde, gibt es eine Verzögerung von 15 Minuten bis zu einer Stunde, um das Segment zu exportieren.
+* Nachdem ein Geschäftsereignis ausgelöst wurde, wird es eine Verzögerung geben, damit die Zielgruppe von 15 Minuten auf bis zu eine Stunde exportiert wird.
 * Beim Testen eines Geschäftsereignisses müssen Sie die Ereignisparameter und die ID des Testprofils übergeben, das beim Test in die Journey eintritt. Beim Testen einer geschäftsereignisbasierten Journey können Sie außerdem nur den Eintritt einzelner Profile auslösen. Weiterführende Informationen finden Sie in diesem [Abschnitt](../building-journeys/testing-the-journey.md#test-business). Im Testmodus ist kein Modus „Code-Ansicht“ verfügbar.
 * Was passiert mit Kontakten, die sich derzeit in der Journey befinden, wenn ein neues Geschäftsereignis eintrifft? Es verhält sich genauso wie bei Kontakten, die sich noch in einer wiederkehrenden Journey befinden, wenn ein neues Ereignis auftritt. Ihr Weg endet. Daher müssen Marketing-Experten darauf achten, nicht zu lange Journeys zu erstellen, wenn sie häufige Geschäftsereignisse erwarten.
-* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
+* Geschäftsereignisse können nicht zusammen mit Einzelereignissen oder Zielgruppenqualifikationsaktivitäten verwendet werden.
 
 ## Mehrere Geschäftsereignisse {#multiple-business-events}
 
@@ -54,9 +54,9 @@ Im Folgenden finden Sie einige wichtige Hinweise für den Fall, dass mehrere Ges
 
 Für Geschäftsereignisse gelten die gleichen Regeln für den erneuten Eintritt wie für unitäre Ereignisse. Wenn eine Journey den erneuten Eintritt erlaubt, wird das nächste Geschäftsereignis verarbeitet.
 
-**Welche Schutzmaßnahmen gibt es, um zu verhindern, dass materialisierte Segmente überladen werden?**
+**Welche Limits gibt es, um zu verhindern, dass materialisierte Zielgruppen überladen werden?**
 
-Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Im Falle von einmaligen Geschäftsereignissen werden die vom ersten Ereignisvorgang übertragenen Daten für eine bestimmte Journey innerhalb eines Zeitfensters von einer Stunde wiederverwendet. Für geplante Journeys gibt es keine diesbezüglichen Leitplanken. Weitere Informationen zu Zielgruppen finden Sie im Abschnitt [Dokumentation zu Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 ## Erste Schritte mit Geschäftsereignissen {#gs-business-events}
 

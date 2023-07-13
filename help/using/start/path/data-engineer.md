@@ -5,7 +5,7 @@ title: Journey Optimizer – Erste Schritte für Datentechniker
 description: Hier erfahren Datentechniker mehr über die Arbeit mit Journey Optimizer.
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Auf dieser Seite erfahren Sie, wie Sie **Daten identifizieren und Schemas und Da
 
 Die Schritte zum Erstellen eines Identity-Namespace und eines Datensatzes, der zur Verwendung in Profilen und Testprofilen aktiviert ist, werden in den folgenden Abschnitten beschrieben:
 
-1. **Erstellen eines Identity-Namespace**. In Adobe [!DNL Journey Optimizer] verknüpfen **Identitäten** Verbraucher geräteübergreifend und kanalübergreifend. Das Ergebnis ist ein Identitätsdiagramm. Das verknüpfte Identitätsdiagramm wird verwendet, um Erlebnisse auf der Basis von Interaktionen an allen Ihren Kontaktpunkten zu personalisieren.  Weitere Informationen zu Identitäten und Identity-Namespaces finden Sie [auf dieser Seite](../../segment/get-started-identity.md).
+1. **Erstellen eines Identity-Namespace**. In Adobe [!DNL Journey Optimizer] verknüpfen **Identitäten** Verbraucher geräteübergreifend und kanalübergreifend. Das Ergebnis ist ein Identitätsdiagramm. Das verknüpfte Identitätsdiagramm wird verwendet, um Erlebnisse auf der Basis von Interaktionen an allen Ihren Kontaktpunkten zu personalisieren.  Weitere Informationen zu Identitäten und Identity-Namespaces finden Sie [auf dieser Seite](../../audience/get-started-identity.md).
 
 1. **Erstellen Sie ein Schema** und aktivieren Sie es für Profile. Ein Schema ist ein Regelsatz, der die Datenstruktur und das Datenformat repräsentiert und überprüft. Schemata bieten eine übergeordnete abstrakte Definition eines realen Objekts (z. B. einer Person) und bestimmen, welche Daten in jeder Instanz dieses Objekts enthalten sein sollen (z. B. Vorname, Nachname, Geburtsdatum).  Weitere Informationen zu Schemata erhalten Sie [auf dieser Seite](../../data/get-started-schemas.md).
 
@@ -34,7 +34,7 @@ Die Schritte zum Erstellen eines Identity-Namespace und eines Datensatzes, der z
 
 1. **Konfigurieren von Quell-Connectoren**. Adobe Journey Optimizer ermöglicht die Aufnahme von Daten aus externen Quellen und bietet Ihnen die Möglichkeit, mittels Platform-Services eingehende Daten zu strukturieren, zu kennzeichnen und anzureichern. Daten können aus verschiedensten Quellen aufgenommen werden, darunter etwa Adobe-Anwendungen, Cloud-basierte Datenspeicher und Datenbanken. Weitere Informationen zu Quell-Connectoren finden Sie [auf dieser Seite](../get-started-sources.md).
 
-1. **Erstellen von Testprofilen**. Testprofile sind bei Verwendung des [Testmodus](../../building-journeys/testing-the-journey.md) in einer Journey und [für eine Vorschau sowie zum Testen von Nachrichten](../../email/preview.md) vor dem Versand erforderlich. Die Schritte zum Erstellen von Testprofilen werden [auf dieser Seite](../../segment/creating-test-profiles.md) beschrieben.
+1. **Erstellen von Testprofilen**. Testprofile sind bei Verwendung des [Testmodus](../../building-journeys/testing-the-journey.md) in einer Journey und [für eine Vorschau sowie zum Testen von Nachrichten](../../email/preview.md) vor dem Versand erforderlich. Die Schritte zum Erstellen von Testprofilen werden [auf dieser Seite](../../audience/creating-test-profiles.md) beschrieben.
 
 
 Um Nachrichten in Journeys senden zu können, müssen Sie außerdem **[!UICONTROL Datenquellen]**, **[!UICONTROL Ereignisse]** und **[!UICONTROL Aktionen]** konfigurieren. Weiterführende Informationen finden Sie [in diesem Abschnitt](../../configuration/about-data-sources-events-actions.md).

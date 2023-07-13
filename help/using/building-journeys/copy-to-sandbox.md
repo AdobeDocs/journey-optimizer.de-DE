@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 >title="Abhängige Objekte"
 >abstract="Dies ist die Liste der zugeordneten Objekte, die in der Journey verwendet werden. In dieser Liste werden der Name, der Objekttyp und die interne Journey Optimizer-ID angezeigt."
 
-Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey selbst kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Segmente, Oberflächen (d. h. Voreinstellungen), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](#limitations).
+Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Zielgruppen, Oberflächen (d. h. Vorgaben), Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](#limitations).
 
 >[!CAUTION]
 >
@@ -80,9 +80,9 @@ Möglicherweise werden nicht alle verknüpften Elemente in die Ziel-Sandbox kopi
 
 Die folgenden Objekte werden kopiert:
 
-* Segment
+* Zielgruppe 
 
-  Ein Segment kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachdem ein Segment kopiert wurde, kann es nicht mehr in der Ziel-Sandbox bearbeitet werden.
+  Eine Zielgruppe kann nur einmal von einer Sandbox in eine andere kopiert werden. Nachdem eine Zielgruppe kopiert wurde, kann sie nicht mehr in der Ziel-Sandbox bearbeitet werden.
 
 * Schema
 
@@ -94,7 +94,7 @@ Die folgenden Objekte werden kopiert:
 
 * Journey – Details der Arbeitsfläche
 
-  Die Darstellung der Journey auf der Arbeitsfläche, einschließlich der Objekte in der Journey, wie Bedingungen, Aktionen, Ereignisse, Lesesegmente usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
+  Die Darstellung der Journey auf der Arbeitsfläche, einschließlich der Objekte auf der Journey, wie Bedingungen, Aktionen, Ereignisse, Leserechte usw. Die Sprungaktivität ist von der Kopie ausgeschlossen.
 
 * Ereignis
 
@@ -106,6 +106,6 @@ Die folgenden Objekte werden kopiert:
 
 Oberflächen (d. h. Voreinstellungen) werden nicht kopiert. Das System wählt basierend auf dem Nachrichtentyp und dem Namen der Oberfläche automatisch die bestmögliche Übereinstimmung für die Ziel-Sandbox aus. Wenn keine Oberflächen in der Ziel-Sandbox gefunden werden, schlägt die Kopie der Oberfläche fehl. Dies bedeutet, dass die Nachrichtenkopie ebenfalls fehlschlägt, da für eine Nachricht eine Oberfläche zur Einrichtung verfügbar sein muss. In diesem Fall muss mindestens eine Oberfläche für den entsprechenden Kanal der Nachricht erstellt werden, damit eine Kopie durchgeführt werden kann.
 
-Für Schemata, Zusammenführungsrichtlinien und Segmente werden diese Objekte beim zweiten Versuch, sie zu kopieren, nur referenziert. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
+Bei Schemas, Zusammenführungsrichtlinien und Zielgruppen werden diese Objekte nur referenziert, wenn sie das zweite Mal versuchen, kopiert zu werden. Sie werden als bereits vorhandene Objekte behandelt und erneut kopiert. Dies bedeutet, dass diese Objekte nur einmal kopiert werden können.
 
-Es dauert fünf Minuten, bis Adobe Journey Optimizer auf Schemata, Zusammenführungsrichtlinien und Segmente verweisen kann, ohne dass während dieser Zeit auf der Arbeitsfläche ein Fehler angezeigt wird. Wenn Sie fünf Minuten warten, sind diese Referenzen verfügbar.
+Es dauert fünf Minuten, bis Adobe Journey Optimizer auf Schemas, Zusammenführungsrichtlinien und Zielgruppen verweisen kann, ohne dass auf der Arbeitsfläche ein Fehler angezeigt wird. Wenn Sie fünf Minuten warten, sind diese Referenzen verfügbar.

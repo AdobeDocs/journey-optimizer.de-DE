@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -201,7 +201,7 @@ Wenn die Zulassungsliste [aktiviert](#enable-allow-list) ist, gilt die folgende 
 
 >[!NOTE]
 >
->Die Profile mit dem Status **[!UICONTROL Nicht zugelassen]** werden beim Nachrichtenversand ausgeschlossen. Daher zeigen die **Journey-Berichte** zwar an, dass sich diese Profile durch die Journey bewegt haben (Aktivitäten [Segment lesen](../building-journeys/read-segment.md) und [Nachrichtenaktivitäten](../building-journeys/journeys-message.md)), sie sind aber nicht in der Metrik **[!UICONTROL Gesendet]** der **E-Mail-Berichte** enthalten, da sie vor dem E-Mail-Versand herausgefiltert werden.
+>Die Profile mit dem Status **[!UICONTROL Nicht zugelassen]** werden beim Nachrichtenversand ausgeschlossen. Daher muss während der **Journey-Berichte** zeigt diese Profile an, als ob sie sich durch die Journey bewegt haben ([Audience lesen](../building-journeys/read-audience.md) und [Nachrichtenaktivitäten](../building-journeys/journeys-message.md)), die **E-Mail-Berichte** werden sie nicht in die **[!UICONTROL Gesendet]** Metriken, da sie vor dem E-Mail-Versand herausgefiltert werden.
 >
 >Erfahren Sie mehr über den [Live-Bericht](../reports/live-report.md) und den [globalen Bericht](../reports/global-report.md).
 

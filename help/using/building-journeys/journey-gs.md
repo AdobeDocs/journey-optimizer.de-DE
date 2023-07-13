@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: Journey, zuerst, Start, Schnellstart, Segment, Ereignis, Aktion
+keywords: Journey, zuerst, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 100%
+source-wordcount: '1537'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 
    ![](assets/jo-event7bis.png)
 
-1. **Segment erstellen**: Ihre Journey kann auch Adobe Experience Platform-Segmente überwachen, um Nachrichten als Batch an einen bestimmten Satz von Profilen zu senden. Dazu müssen Sie Segmente erstellen. [Weitere Informationen](../segment/about-segments.md).
+1. **Erstellen einer Zielgruppe**: Ihre Journey kann auch Adobe Experience Platform-Audiences überwachen, um Nachrichten stapelweise an bestimmte Profile zu senden. Erstellen Sie hierfür Zielgruppen. [Weitere Informationen](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 **Überblick**: Auf dieser Registerkarte wird ein Dashboard mit Schlüsselmetriken für Ihre Journeys angezeigt:
 
 * **Verarbeitete Profile**: Gesamtzahl der in den letzten 24 Stunden verarbeiteten Profile.
-* **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journeys umfassen **unitäre Journeys** (ereignisbasiert) und **Batch-Journeys** (Segment lesen).
+* **Live-Journeys**: Gesamtzahl der Live-Journeys mit Traffic in den letzten 24 Stunden. Live-Journey beinhalten **Einzelne Journey** (ereignisbasiert) und **Batch-Journey** (Zielgruppe lesen).
 * **Fehlerrate**: Verhältnis aller fehlerhaften Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile.
 * **Verwerfungsrate**: Verhältnis aller verworfenen Profile in Bezug auf die Gesamtzahl der in den letzten 24 Stunden eingetretenen Profile. Ein verworfenes Profil stellt eine Person dar, die nicht zum Eintritt in die Journey berechtigt ist, z. B. aufgrund eines falschen Namespace oder aufgrund von Regeln für den erneuten Eintritt.
 
@@ -59,7 +59,7 @@ Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Regi
 
 ![](assets/journeys-browse.png)
 
-In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Die folgenden Typen sind möglich: **[!UICONTROL Unitäres Ereignis]**, **[!UICONTROL Segmentqualifikation]**, **[!UICONTROL Segment lesen]** oder **[!UICONTROL Geschäftsereignis]**.
+In der Liste der Journeys können Sie Journeys mit den **[!UICONTROL Status- und Versionsfiltern]** nach Status, Typ und Version filtern. Der Typ kann: **[!UICONTROL Einzelereignis]**, **[!UICONTROL Zielgruppenqualifikation]**, **[!UICONTROL Audience lesen]**, **[!UICONTROL Geschäftsereignis]** oder **[!UICONTROL Burst]**.
 
 Sie können festlegen, dass nur Journeys angezeigt werden sollen, die ein bestimmtes Ereignis, eine bestimmte Feldergruppe oder eine bestimmte Aktion aus den **[!UICONTROL Aktivitätsfiltern]** und **[!UICONTROL Datenfiltern]** verwenden. Mit den **[!UICONTROL Veröffentlichungsfiltern]** können Sie außerdem ein Veröffentlichungsdatum oder Benutzende auswählen. Sie können beispielsweise auswählen, dass die aktuellen Versionen von Live-Journeys, die am Vortag veröffentlicht wurden, angezeigt werden sollen. [Weitere Informationen](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Hier finden Sie die wichtigsten Schritte zum Senden von Nachrichten über Journe
 
    ![](assets/jo-properties.png)
 
-1. Ziehen Sie zuerst ein Ereignis oder die Aktivität **Segment lesen** per Drag-and-Drop aus der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
+1. Beginnen Sie mit dem Ziehen und Ablegen eines Ereignisses oder eines **Audience lesen** Aktivität von der Palette in die Arbeitsfläche. Weitere Informationen zum Entwerfen von Journeys finden Sie in [diesem Abschnitt](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
-Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
+Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld können Sie die Wartezeit definieren, bevor ein Profil die erneute Teilnahme an der Journey in einheitlichen Journey ermöglicht (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
 
 Weitere Informationen zur Verwaltung des Profileintritts finden Sie in [diesem Abschnitt](entry-management.md).
 
@@ -149,11 +149,11 @@ Weitere Informationen zum Zeitzonen-Management finden Sie auf [dieser Seite](../
 
 Sie können ein **Startdatum** festlegen. Wenn Sie dies nicht festgelegt haben, wird es automatisch zum Zeitpunkt der Veröffentlichung definiert.
 
-Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wird kein Enddatum angegeben, können Profile bis zum standardmäßigen Journey-Timeout bleiben (in der Regel 30 Tage, 7 Tage mit Add-on-Angebot für Healthcare Shield). Die einzige Ausnahme sind Journeys zum wiederkehrenden Lesen von Segmenten, bei denen die Option **Erneuten Eintritt für Intervall erzwingen** aktiviert ist und die am Startdatum des nächsten Vorkommens enden.
+Sie können außerdem ein **Enddatum** hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. Wird kein Enddatum angegeben, können Profile bis zum standardmäßigen Journey-Timeout bleiben (in der Regel 30 Tage, 7 Tage mit Add-on-Angebot für Healthcare Shield). Die einzige Ausnahme sind wiederkehrende Lesen von Audience-Journey mit **Wiedereintritt bei Wiederauftreten erzwingen** aktiviert, die am Startdatum des nächsten Vorkommens enden.
 
 ### Zeitüberschreitung und Fehler bei Journey-Aktivitäten {#timeout_and_error}
 
-Beim Bearbeiten einer Aktion- oder Bedingungsaktivität haben Sie die Möglichkeit, einen alternativen Pfad für den Fall eines Fehlers oder einer Zeitüberschreitung anzugeben. Wenn bei der Verarbeitung der Aktivität, bei der ein Drittanbietersystem abgefragt wird, die in den Journey-Eigenschaften angegebene Dauer für die Zeitüberschreitung und die Fehlerbehandlung überschritten wird (das Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um bei Bedarf eine Ausweichaktion auszuführen.
+Beim Bearbeiten einer Aktions- oder Bedingungsaktivität können Sie im Falle eines Fehlers oder einer Zeitüberschreitung einen alternativen Pfad definieren. Wenn die Verarbeitung der Aktivität, die ein Drittanbietersystem abfragt, die in den Eigenschaften der Journey festgelegte Dauer der maximalen Wartezeit überschreitet (Feld **[!UICONTROL Zeitüberschreitung und Fehler]**), wird der zweite Pfad ausgewählt, um eine potenzielle Ausweichaktion durchzuführen.
 
 Die zulässigen Werte liegen zwischen 1 und 30 Sekunden.
 

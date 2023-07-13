@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,13 @@ Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-
 
 Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
-* Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **im Batch** unter Verwendung von Adobe Experience Platform-Segmenten.
+* Echtzeit-Versand **Einzelversand** ausgelöst wird, wenn ein Ereignis empfangen wird, oder **in Batch** Verwendung von Adobe Experience Platform-Zielgruppen.
 
 * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
 * Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-* Erstellen Sie mit dem **Journey Designer** Ihre mehrstufigen Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität zum Lesen von Segmenten in den Arbeitsbereich, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+* Mit dem **Journey Designer**, erstellen Sie Ihre mehrstufigen Anwendungsfälle: Fügen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Audience-lesen-Aktivität hinzu, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Journey Optimizer verfügt über eine Arbeitsfläche für die Omnichannel-
 
 Auf [dieser Seite](journey-gs.md) finden sich Informationen zum Erstellen der ersten Journey.
 
-Der Omni-Channel-Journey-Designer unterstützt Sie beim Aufbau mehrstufiger Journeys, insbesondere bei der Zielgruppenbestimmung und bei der Einbindung von Aktualisierungen, die auf Echtzeitinteraktionen mit Kundschaft oder Unternehmen basieren. Außerdem können Sie Omni-Channel-Nachrichten über eine intuitive Drag-and-Drop-Oberfläche erstellen.
+Der Omnichannel-Journey-Designer hilft bei der Erstellung mehrstufiger Journeys – mit entsprechenden Zielgruppen, Aktualisierungen basierend auf Echtzeit-Kunden- bzw. Geschäftsinteraktionen sowie Omnichannel-Nachrichten mithilfe einer intuitiven Drag-&amp;-Drop-Oberfläche.
 
 ![](assets/journey38.png)
 

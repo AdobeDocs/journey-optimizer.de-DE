@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Schemata, XDM, Plattform, Streaming, Aufnahme, Journey
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Jedes XDM-Schema, das für [!DNL Journey Optimizer]-Ereignisse verwendet wird, s
 
 Mit Adobe Experience Platform können Sie Beziehungen zwischen Schemas definieren, um einen Datensatz als Lookup-Tabelle für einen anderen zu verwenden.
 
-Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen weiterhin über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise ein Segment für alle Kunden erstellen, die einen Laptop gekauft haben, ohne explizit alle Laptop-IDs auflisten oder alle Produktdetails aus Transaktionssystemen erfassen zu müssen.
+Nehmen wir an, Ihr Marken-Datenmodell verfügt über ein Schema zur Erfassung von Käufen. Sie verfügen weiterhin über ein Schema für den Produktkatalog. Sie können die Produkt-ID im Kaufschema erfassen und eine Beziehung verwenden, um vollständigere Produktdetails aus dem Produktkatalog nachzuschlagen. So können Sie beispielsweise eine Zielgruppe für alle Kunden erstellen, die einen Laptop gekauft haben, ohne alle Laptop-IDs explizit auflisten oder alle Produktdetails in Transaktionssystemen erfassen zu müssen.
 
 Um eine Beziehung zu definieren, benötigen Sie ein spezielles Feld im Quellschema, in diesem Fall das Feld „Produkt-ID“ im Kaufschema. Dieses Feld muss auf das Feld „Produkt-ID“ im Zielschema verweisen. Die Quell- und Zieltabellen müssen für Profile aktiviert sein und im Zielschema muss dieses gemeinsame Feld als primäre Identität definiert sein.
 

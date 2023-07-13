@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktion](using/building-journeys/reaction-events.md)
-      + [Segmentqualifizierung](using/building-journeys/segment-qualification-events.md)
+      + [Zielgruppenqualifikation](using/building-journeys/audience-qualification-events.md)
       + [Bedingung](using/building-journeys/condition-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
-      + [Segment lesen](using/building-journeys/read-segment.md)
+      + [Audience lesen](using/building-journeys/read-audience.md)
       + [E-Mail, In-App, Push, SMS](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
-+ Segmente, Profile und Identität{#segment}
-   + Segmente {#segments}
-      + [Erste Schritte mit Segmenten](using/segment/about-segments.md)
-      + [Erstellen von Segmenten](using/segment/creating-a-segment.md)
++ Zielgruppen, Profile und Identität{#audiences-profiles-identities}
+   + Zielgruppen {#audiences}
+      + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
+      + [Segmentdefinitionen erstellen](using/audience/creating-a-segment-definition.md)
    + Profile{#profiles}
-      + [Erste Schritte mit Profilen](using/segment/get-started-profiles.md)
-      + [Erstellen von Testprofilen](using/segment/creating-test-profiles.md)
-   + [Identitäten](using/segment/get-started-identity.md)
+      + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
+      + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
+   + [Identitäten](using/audience/get-started-identity.md)
    + Erstellen von Audiences {#audience-orchestration}
-      + [Erste Schritte mit der Audience-Komposition](using/segment/get-started-audience-orchestration.md)
-      + [Erstellen von Kompositions-Workflows](using/segment/create-compositions.md)
-      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/segment/composition-canvas.md)
-      + [Zugreifen auf und Verwalten von Audiences](using/segment/access-audiences.md)
-   + [Lizenznutzung](using/segment/license-usage.md)
+      + [Erste Schritte mit der Audience-Komposition](using/audience/get-started-audience-orchestration.md)
+      + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
+      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
+      + [Zugreifen auf und Verwalten von Audiences](using/audience/access-audiences.md)
+   + [Lizenznutzung](using/audience/license-usage.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
       + [Erste Schritte mit dem Live-Bericht](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [Verwalten von Opt-out](using/privacy/opt-out.md)
       + [Arbeiten mit Einverständnisrichtlinien](using/action/consent.md)
    + [Data Governance](using/action/action-privacy.md)
-   + [Einrichten und Verwalten von kundenverwalteten Schlüsseln](using/privacy/cmk.md)

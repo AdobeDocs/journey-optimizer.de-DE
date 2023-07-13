@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -59,6 +59,6 @@ Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwe
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Segmentzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
+Erfahren Sie, wie Sie einer Nachricht profilbasierte Personalisierung hinzufügen und wie Sie die Zielgruppenzugehörigkeit als Voraussetzung für einen Gestaltungsbaustein verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

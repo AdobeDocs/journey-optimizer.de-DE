@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Angebote, Entscheidung, E-Mails, Personalisierung, Entscheidung
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
 >[!NOTE]
 >
->Um Ihre Nachrichten in der Vorschau anzuzeigen, benötigen Sie Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../segment/creating-test-profiles.md).
+>Um Ihre Nachrichten in der Vorschau anzuzeigen, benötigen Sie Testprofile. Hier erfahren Sie, wie Sie ein [Testprofil erstellen](../audience/creating-test-profiles.md).
 
 1. Wählen Sie die Testprofile aus, die für die Angebotsvorschau verwendet werden sollen:
 
@@ -85,7 +85,7 @@ Gehen Sie wie folgt vor, um die verschiedenen Angebote anzuzeigen, die Teil der 
 
       >[!NOTE]
       >
-      >In diesem Beispiel verwenden wir den Namespace **E-Mail**. Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
+      >In diesem Beispiel verwenden wir den Namespace **E-Mail**. Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../audience/get-started-identity.md).
 
    1. Geben Sie im Feld **[!UICONTROL Identitätswert]** den Wert ein, der das Testprofil identifiziert . Geben Sie in diesem Beispiel die E-Mail-Adresse eines Testprofils ein.
 

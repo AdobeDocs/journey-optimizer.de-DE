@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Weitere Informationen über [Journey Optimizer und Customer Journey Analytics](.
 
 ## Adobe Analytics{#integration-aa}
 
-Sie können alle bereits erfassten und in die Adobe Experience Platform gestreamten verhaltensbezogenen Ereignisdaten aus Adobe Analytics nutzen, um in Echtzeit Journeys auszulösen und Erlebnisse für Ihre Kunden zu automatisieren. Diese Daten können auch verwendet werden, um Segmente zu erstellen, die mit Journey Optimizer angesteuert werden können.
+Sie können alle bereits erfassten und in die Adobe Experience Platform gestreamten verhaltensbezogenen Ereignisdaten aus Adobe Analytics nutzen, um in Echtzeit Journeys auszulösen und Erlebnisse für Ihre Kunden zu automatisieren. Diese Daten können auch zur Erstellung von Zielgruppen verwendet werden, die mit Journey Optimizer interagiert werden können.
 
 Weitere Informationen über [Journey Optimizer und Analytics](../event/about-analytics.md).
 

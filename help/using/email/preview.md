@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Vorschau, Inhalt, E-Mail, Testversand, Test, Profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Um mögliche Fehler im E-Mail-Inhalt oder bei Personalisierungseinstellungen zu 
 >
 >Um Ihre Nachrichten in der Vorschau darzustellen und einen Testversand durchzuführen, benötigen Sie Testprofile.
 >
->Auf [dieser Seite](../segment/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen.
+>Auf [dieser Seite](../audience/creating-test-profiles.md) erfahren Sie, wie Sie Testprofile erstellen.
 
 Zum Testen des E-Mail-Inhalts sind folgende Schritte erforderlich:
 
@@ -52,7 +52,7 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#email-rendering" text="E-Mail-Rendering"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#preview-email" text="Vorschau"
 
-Verwenden Sie [Testprofile](../segment/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
+Verwenden Sie [Testprofile](../audience/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
 
 Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um die Testprofile auszuwählen:
 
    ![](assets/previewselect-namespace.png)
 
-   Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../segment/get-started-identity.md).
+   Weitere Informationen zu den Identity-Namespaces der Adobe Experience Platform finden Sie [in diesem Abschnitt](../audience/get-started-identity.md).
 
    Im folgenden Beispiel verwenden wir den Namespace **E-Mail**.
 

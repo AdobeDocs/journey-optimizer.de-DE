@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -249,7 +249,7 @@ Gehen Sie wie folgt vor, um eine Vorschau Ihres geänderten Web-Erlebnisses anzu
 
 >[!CAUTION]
 >
->Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../segment/creating-test-profiles.md).
+>Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
 1. Wählen Sie auf dem Bildschirm zur Inhaltsbearbeitung der Web-Kampagne die Option **[!UICONTROL Inhalt simulieren]** aus.
 

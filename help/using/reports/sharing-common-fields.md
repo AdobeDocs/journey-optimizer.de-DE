@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
@@ -109,19 +109,11 @@ Kennung der Journey-Version. Diese Kennung stellt bei journeyStepEvent den Ident
 
 Typ: Zeichenfolge
 
->[!NOTE]
->
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
-
 ## journeyVersionName {#journeyversionname-field}
 
 Name der Journey-Version.
 
 Typ: Zeichenfolge
-
->[!NOTE]
->
->Zur Fehlerbehebung empfehlen wir bei der Abfrage von Journeys die Verwendung von journeyVersionID anstelle von journeyVersionName.
 
 ## journeyVersion {#journeyversion-field}
 

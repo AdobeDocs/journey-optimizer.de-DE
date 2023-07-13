@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, Funktion, Ausdruck, Journey
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
 # inSegment {#inSegment}
 
-Überprüft, ob ein Kontakt zu einem bestimmten Segment gehört.
+Überprüft, ob eine Person zu einer bestimmten Zielgruppe gehört.
 
 >[!NOTE]
 >
->Sie können bis zu 100 Segmente abrufen.
+>Sie können bis zu 100 Zielgruppen abrufen.
 
-Der Segmentname muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein.
+Der Zielgruppenname muss eine Zeichenfolgenkonstante sein. Er darf weder ein Feldverweis noch ein Ausdruck sein.
 
-Segmente werden in [Adobe Experience Platform](https://platform.adobe.com/segment/overview) definiert. Der Ausdruckseditor bietet eine automatisch ausgefüllte Segmentliste.
+Zielgruppen werden im Abschnitt [Adobe Experience Platform](https://platform.adobe.com/audience/overview). Der Ausdruckseditor bietet eine automatisch ausgefüllte Liste von Zielgruppen.
 
-Segmente können drei Status haben:
+Zielgruppen können drei Status haben:
 
-* vorhanden: Entität befindet sich weiterhin im Segment.
-* realisiert: Entität tritt in das Segment ein.
-* beendet: Entität verlässt das Segment.
+* vorhanden: -Entität befindet sich weiterhin in der Zielgruppe.
+* realisiert: -Entität in die Audience eingeben.
+* beendet: -Entität die Audience beendet.
 
-Nur Personen mit den Segmentteilnahmestatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
+Nur Personen mit der **Realisiert** und **Bestehend** Der Beteiligungsstatus von Zielgruppen wird als Mitglieder der Zielgruppe betrachtet. Weiterführende Informationen zur Audience-Evaluierung finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` bedeutet, dass Sie eine segmentMembership mit dem Status „eingetreten/vorhanden“ haben. 
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parameter | Beschreibung | Typ |
 |--- |--- |--- |
-| Segment | Der Segmentname | `<string>` |
+| Segment | Zielgruppenname | `<string>` |
 
 ## Signatur und zurückgegebener Typ
 
@@ -64,4 +64,4 @@ Gibt einen booleschen Wert zurück.
 
 Erklärung:
 
-Die Funktion gibt **[!UICONTROL true]** zurück, wenn der Kontakt in der Journey-Instanz Teil des Adobe Experience Platform-Segments namens „Herren über 50“ ist, andernfalls wird **[!UICONTROL false]** zurückgegeben.
+Die Funktion gibt **[!UICONTROL true]** wenn die Person innerhalb der Journey-Instanz Teil der Adobe Experience Platform-Zielgruppe mit dem Namen &quot;Herren über 50&quot;ist, **[!UICONTROL false]** andernfalls.

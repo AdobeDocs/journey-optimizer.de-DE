@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: Problembehebung, Fehlerbehebung, Journey, Überprüfen, Fehler
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1030'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Berichte zu Journey messen den Eintritt von Personen in eine Journey auf Echtzei
 
 Wenn Sie das Ereignis erfolgreich versenden, aber keinen Eintritt in die Journey erkennen können, bedeutet das, dass es zwischen dem Senden und Empfangen des Ereignisses in der Journey zu Problemen kommt.
 
-Sie können die Fehlerbehebung mit den folgenden Fragen beginnen:
+Im Folgenden sind einige Faktoren aufgeführt, die der Administrator überprüfen sollte:
 
 * Sind Sie sicher, dass sich die Journey, bei der Sie das eingehende Ereignis erwarten, im Testmodus befindet oder live ist?
 * Haben Sie das Ereignis gespeichert, bevor Sie die Payload aus der Payload-Vorschau kopiert haben?

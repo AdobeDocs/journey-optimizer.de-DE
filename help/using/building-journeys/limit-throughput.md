@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ Dies kann auf folgende Arten erfolgen:
 
 * **Benutzerdefinierte Aktionen**: um Informationen an externe Systeme zu senden, wie etwa zum Senden von E-Mails über eine externe Lösung mithilfe der Orchestrierungsfunktionen von Journey Optimizer zusammen mit Profilinformationen, Audience-Daten und dem Journey-Kontext.
 
-Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Durchsatz der Journey einschränken: bis zu 5.000 Instanzen/Sekunde für Einzelinstanzen und bis zu 20.000 Instanzen/Sekunde für segmentgesteuerte Instanzen.
+Wenn Sie mit externen Datenquellen oder benutzerdefinierten Aktionen arbeiten, sollten Sie Ihre externen Systeme schützen, indem Sie den Journey-Durchsatz einschränken: bis zu 5000 Instanzen/Sekunde für Einzelinstanzen und bis zu 20000 Instanzen/Sekunde für Zielgruppen-ausgelöste Instanzen.
 
 Für benutzerdefinierte Aktionen sind Einschränkungsfunktionen auf Produktebene verfügbar. Mehr dazu erfahren Sie auf [dieser Seite](../configuration/external-systems.md#capping).
 
@@ -37,7 +37,7 @@ Weiterführende Informationen zur Integration in externe Systeme finden Sie auf 
 
 ## Implementierung
 
-Für **segmentgesteuerte Journeys** können Sie die Drosselrate der Aktivität „Segment lesen“ definieren, die sich auf den Journey-Durchsatz auswirkt.  [Mehr dazu](../building-journeys/read-segment.md)
+Für **durch Zielgruppen ausgelöste Journey** können Sie die Drosselrate Ihrer Audience lesen -Aktivität definieren, die sich auf den Journey-Durchsatz auswirkt.  [Mehr dazu](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -45,9 +45,9 @@ Sie können diesen Wert von 500 bis 20.000 Instanzen pro Sekunde einstellen. Wen
 
 ![](assets/limit-throughput-2.png)
 
-Nehmen wir das Beispiel einer **segmentgesteuerten Journey** mit einer Population von **10.000 Profilen**, welche Daten an ein externes System sendet, das **100 Anfragen/Sekunde** unterstützt.
+Nehmen wir ein Beispiel für eine **durch Zielgruppen ausgelöste Journey** mit einer Bevölkerung von **10.000 Profile** und senden Sie Daten an ein externes System, das **100 Anforderungen/Sekunde**.
 
-1. Sie können „Segment lesen“ definieren, um Profile mit einem Durchsatz von 500 Profilen pro Sekunde zu lesen. Somit wird es 20 Sekunden dauern, um alle Ihre Profile zu lesen. Während der ersten Sekunde werden Sie 500 davon lesen, während der zweiten 500 weitere und so weiter.
+1. Sie können Ihre Audience lesen definieren, um Profile mit einem Durchsatz von 500 Profilen/Sekunde zu lesen. Das bedeutet, dass es 20 Sekunden dauern wird, alle Ihre Profile zu lesen. Während der ersten Sekunde werden Sie 500 davon lesen, während der zweiten 500 weitere und so weiter.
 
 1. Anschließend können Sie eine Bedingungsaktivität mit einer prozentualen Aufspaltung von 20 % hinzufügen, die pro Sekunde 100 Profile in jeder Verzeigung enthält.
 

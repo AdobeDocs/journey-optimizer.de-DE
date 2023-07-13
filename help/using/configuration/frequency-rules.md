@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 74db87267c2bc4a1aabfc506adaa29758467dd81
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 97%
+source-wordcount: '977'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 97%
 
 Mit [!DNL Journey Optimizer] können Sie steuern, wie oft Benutzer eine Nachricht erhalten oder in eine Journey eintreten, indem Sie kanalübergreifende Regeln festlegen, mit denen zu oft angesprochene Profile automatisch von Nachrichten und Aktionen ausgeschlossen werden.
 
-So könnte es beispielsweise für eine Marke vorkommen, ihren Kunden pro Monat maximal drei Marketing-Nachrichten zu senden. Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
+Nehmen wir an, Sie möchten verhindern, dass Ihre Marke monatlich mehr als drei Marketing-Nachrichten an Ihre Kunden sendet.
+
+Hierfür können Sie eine Häufigkeitsregel verwenden, die die Anzahl der gesendeten Nachrichten über einen oder mehrere Kanäle während eines monatlichen Kalenderzeitraums begrenzt.
 
 >[!NOTE]
 >
@@ -183,7 +185,7 @@ In diesem Szenario kann ein einzelnes Profil:
 
 >[!NOTE]
 >
->Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../segment/creating-test-profiles.md) zu beginnen, da es nach Erreichen des Häufigkeitslimits eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
+>Beim Testen von Häufigkeitsregeln kann es hilfreich sein, mit einem neu erstellten [Testprofil](../audience/creating-test-profiles.md) zu beginnen, da es nach Erreichen des Häufigkeitslimits eines Profils bis zum nächsten Monat nicht mehr möglich ist, den Zähler zurückzusetzen. Wenn Sie eine Regel deaktivieren, können Profile, für die die Begrenzung gilt, zwar Nachrichten empfangen, es werden aber keine Zählerschritte entfernt oder gelöscht.
 
 ## Anleitungsvideo {#video}
 

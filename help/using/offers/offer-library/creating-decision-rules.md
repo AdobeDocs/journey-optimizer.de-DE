@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 84%
 
 ---
 
@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
 1. Benennen Sie Ihre Regel, geben Sie eine Beschreibung ein und konfigurieren Sie dann die Regel entsprechend Ihren Anforderungen.
 
-   Dazu steht Ihnen der **Segment Builder** zur Verfügung, der Ihnen beim Erstellen der Regelbedingungen hilft. [Weitere Informationen](../../segment/about-segments.md)
+   Dazu bietet die Adobe Experience Platform **Segment Builder** ist verfügbar, um Ihnen beim Erstellen der Regelbedingungen zu helfen. [Erfahren Sie, wie Sie Segmentdefinitionen erstellen](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
    >[!NOTE]
    >
-   >Der zum Erstellen von Entscheidungsregeln bereitgestellte Segment Builder weist einige Besonderheiten im Vergleich zum **[!UICONTROL Segmentierungs]**-Service auf. Beispielsweise ist die Registerkarte **[!UICONTROL Segmente]** nicht verfügbar. Das in der [Segment Builder](../../segment/about-segments.md)-Dokumentation beschriebene globale Verfahren gilt jedoch weiter, um Entscheidungsregeln für Angebote zu erstellen. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
+   >Der zum Erstellen von Entscheidungsregeln bereitgestellte Segment Builder weist einige Besonderheiten im Vergleich zum **[!UICONTROL Segmentierungs]**-Service auf. Das in der [Segment Builder](../../audience/creating-a-segment-definition.md)-Dokumentation beschriebene globale Verfahren gilt jedoch weiter, um Entscheidungsregeln für Angebote zu erstellen. Weitere Informationen zu Datensätzen finden Sie in der [Dokumentation zum Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de).
 
-1. Während Sie neue Felder im Arbeitsbereich hinzufügen und konfigurieren, zeigt der Fensterbereich **[!UICONTROL Segmenteigenschaften]** Informationen zur geschätzten Anzahl der zum Segment gehörenden Profile an. Klicken Sie auf **[!UICONTROL Schätzung aktualisieren]**, um diese Daten zu aktualisieren.
+1. Wenn Sie neue Felder im Arbeitsbereich hinzufügen und konfigurieren, wird die **[!UICONTROL Zielgruppeneigenschaften]** enthält Informationen zu den geschätzten Profilen der Audience. Klicken Sie auf **[!UICONTROL Schätzung aktualisieren]**, um diese Daten zu aktualisieren.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

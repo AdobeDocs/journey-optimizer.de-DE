@@ -1,24 +1,24 @@
 ---
 title: Batch Decisioning-API
-description: Erfahren Sie, wie Sie mit der Batch Decisioning-API innerhalb eines vordefinierten Entscheidungsumfangs die besten Angebote für segmentierte Profile auswählen können.
+description: Erfahren Sie, wie Sie mit der Batch Decisioning-API die besten Angebote für Zielgruppenprofile innerhalb eines vordefinierten Entscheidungsbereichs auswählen können.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 
 # Unterbreiten von Angeboten mithilfe der [!DNL Batch Decisioning]-API {#deliver-offers-batch}
 
-Mit der [!DNL Batch Decisioning]-API können Unternehmen die Decisioning-Funktion mit einem einzigen Aufruf auf alle Profile in einem Segment anwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einen Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
+Die [!DNL Batch Decisioning] Mit der API können Unternehmen Entscheidungsfunktionen für alle Profile in einer bestimmten Zielgruppe in einem Aufruf verwenden. Der Angebotsinhalt für jedes Profil in der Audience wird in einem Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist.
 
-Mit der [!DNL Batch Decisioning]-API können Sie einen Datensatz mit den besten Angeboten für alle Profile in einem Adobe Experience Platform-Segment für gewisse Entscheidungsumfänge befüllen. Beispiel: Ein Unternehmen möchte [!DNL Batch Decisioning] ausführen, damit es Angebote an einen Nachrichtenversand-Anbieter senden kann. Diese Angebote werden dann als Inhalt verwendet, der für den Batch-Nachrichtenversand an dasselbe Benutzersegment gesendet wird.
+Mit dem [!DNL Batch Decisioning] API können Sie einen Datensatz mit den besten Angeboten für alle Profile in einer Adobe Experience Platform-Zielgruppe für Entscheidungsbereiche ausfüllen. Beispiel: Ein Unternehmen möchte [!DNL Batch Decisioning] ausführen, damit es Angebote an einen Nachrichtenversand-Anbieter senden kann. Diese Angebote werden dann als Inhalt verwendet, der zur Batch-Nachrichtenübermittlung an dieselbe Zielgruppe von Benutzern gesendet wird.
 
 Dazu muss das Unternehmen folgendermaßen vorgehen:
 
@@ -30,7 +30,7 @@ Dazu muss das Unternehmen folgendermaßen vorgehen:
 
 * Den Datensatz an die Nachrichtenversand-API des Anbieters exportieren
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Bevor Sie diese API verwenden, müssen Sie die folgenden Schritte ausführen.
 
 ### Entscheidungsvorbereitung {#prepare-decision}
 
-Um eine oder mehrere Entscheidungen vorzubereiten, stellen Sie sicher, dass Sie einen Datensatz, ein Segment und eine Entscheidung erstellt haben. Diese Voraussetzungen werden in [diesem Abschnitt](../../batch-delivery.md) näher erläutert.
+Um eine oder mehrere Entscheidungen vorzubereiten, stellen Sie sicher, dass Sie einen Datensatz, eine Zielgruppe und eine Entscheidung erstellt haben. Diese Voraussetzungen werden in [diesem Abschnitt](../../batch-delivery.md) näher erläutert.
 
 ### API-Anforderungen {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | Eigenschaft | Beschreibung | Beispiel |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | Der Wert ist ein Array, das die eindeutige Kennung des Segments enthält. Es darf nur einen einzigen Wert enthalten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | Der Wert ist ein Array, das die eindeutige Kennung der Zielgruppe enthält. Es darf nur einen einzigen Wert enthalten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | Der Ausgabedatensatz, in den Entscheidungsereignisse geschrieben werden können. | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | Ein Wrapper, der die `placementId` und die `activityId` enthält |  |
 | `xdm:activityId` | Die eindeutige Kennung der Entscheidung. | `xcore:offer-activity:1410cdcda196707b` |

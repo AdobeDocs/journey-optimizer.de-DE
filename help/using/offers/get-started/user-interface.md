@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie das **[!UICONTROL Angebote]**-Menü zur Verwaltung und Bereitstell
 * **[!UICONTROL Angebote]**: Erstellen und greifen Sie auf Ihre personalisierten Angebote und Fallback-Angebote zu. Erfahren Sie, wie Sie [Angebote](../offer-library/creating-personalized-offers.md) und [Fallback-Angebote](../offer-library/creating-fallback-offers.md) erstellen
 * **[!UICONTROL Sammlungen]**: Organisieren Sie Ihre Angebote in statischen und dynamischen Sammlungen. [Weitere Informationen](../offer-library/creating-collections.md)
 * **[!UICONTROL Entscheidungen]**: Erstellen und verwalten Sie Entscheidungen zur Bereitstellung Ihrer Angebote. [Weitere Informationen](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL Batch-Entscheidungsfindung]**: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einem bestimmten Adobe Experience Platform-Segment senden. [Weitere Informationen](../batch-delivery.md)
+* **[!UICONTROL Batch-Entscheidungsfindung]**: Angebotsentscheidungen an alle Profile einer bestimmten Adobe Experience Platform-Zielgruppe richten. [Weitere Informationen](../batch-delivery.md)
 * **[!UICONTROL Simulation]**: Zur Validierung Ihrer Entscheidungslogik können Sie simulieren, welche Angebote für eine bestimmte Platzierung an ein Testprofil gesendet werden. [Weitere Informationen](../offer-activities/simulation.md)
 
 Verwenden Sie das **[!UICONTROL Komponenten]**-Menü zum Erstellen und Verwalten von Komponenten, die zum Erstellen von Angeboten und Entscheidungen erforderlich sind:

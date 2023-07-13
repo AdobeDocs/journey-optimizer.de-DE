@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 93%
+source-wordcount: '1048'
+ht-degree: 74%
 
 ---
 
@@ -45,7 +45,6 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
 * Die Anzahl der Aktivitäten in einer Journey ist auf maximal 50 begrenzt. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. Dies unterstützt Lesbarkeit, Qualitätssicherung und Fehlerbehebung.
-* Während Sie Journey veröffentlichen, skalieren und passen wir automatisch an, um maximalen Durchsatz und maximale Stabilität zu gewährleisten. Wenn Sie den Meilenstein von 100 Live-Journey gleichzeitig erreichen, wird in der Benutzeroberfläche eine Benachrichtigung zu dieser Leistung angezeigt. Wenn Sie diese Benachrichtigung sehen und die Notwendigkeit haben, Ihre Journey über 100 Live-Journey hinaus zu erweitern, erstellen Sie bitte ein Ticket für die Kundenunterstützung und wir helfen Ihnen bei der Erreichung Ihrer Ziele.
 
 ### Allgemeine Aktionen {#general-actions-g}
 
@@ -53,16 +52,16 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen.
 * Mit dem integrierten Ereignis **Reaktion** können Sie auf vorkonfigurierte Aktionen reagieren. Weiterführende Informationen finden Sie auf [dieser Seite](../building-journeys/reaction-events.md). Wenn Sie auf eine Nachricht reagieren möchten, die über eine benutzerdefinierte Aktion gesendet wurde, müssen Sie ein spezielles Ereignis konfigurieren.
 * Sie können nicht zwei Aktionen parallel platzieren, sondern müssen sie nacheinander hinzufügen.
-* Ein Profil kann nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
+* In der Regel kann ein Profil nicht mehrmals zur gleichen Zeit in derselben Journey vorhanden sein. Wenn der erneute Eintritt aktiviert ist, kann ein Profil erneut in eine Journey eintreten, aber erst dann, wenn es die vorherige Instanz der Journey vollständig verlassen hat. [Weitere Informationen](../building-journeys/end-journey.md)
 
 ### Journey-Versionen {#journey-versions-g}
 
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Segmentqualifizierungsereignis** starten.
-* Eine Journey, die in Version 1 mit einer **Segmentqualifizierungsaktivität** beginnt, muss in weiteren Versionen immer mit einer **Segmentqualifizierung** beginnen.
-* Das Segment und der Namespace, die unter **Segmentqualifikation** (erster Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
-* Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit **Segment lesen** beginnt, kann in den nächsten Versionen nicht mit einem anderen Ereignis beginnen.
-* Sie können keine neue Version einer Lesesegment-Journey mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können keine Journey mit einer **Zielgruppenqualifikation** -Ereignis.
+* Eine Journey, die mit einer **Zielgruppenqualifikation** -Aktivität in v1 muss immer mit einer **Zielgruppenqualifikation** in weiteren Versionen.
+* Die in **Zielgruppenqualifikation** (erster Knoten) kann in neuen Versionen nicht geändert werden.
+* Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
+* Eine Journey, die mit einer **Audience lesen** kann nicht mit einem anderen Ereignis in den nächsten Versionen beginnen.
+* Es ist nicht möglich, eine neue Journey-Version einer gelesenen Audience mit inkrementellem Lesen zu erstellen. Sie müssen die Journey duplizieren.
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
@@ -76,9 +75,9 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 ### Ereignisse {#events-g}
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zum Starten einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
-* Geschäftsereignisse können nicht zusammen mit unitären Ereignissen oder Segmentqualifikationsaktivitäten verwendet werden.
-* Einzelne Journeys (beginnend mit einem Ereignis oder einer Segmentqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Ereignisse, die in Batches aufgenommen werden, oder Ereignissen aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, bei denen Sie keine Streaming-Ereignisse empfangen können, erstellen Sie ein auf diesen Ereignissen basierendes Segment und verwenden Sie die Aktivität **Segment lesen**. Die Segmentqualifikation kann zwar theoretisch verwendet werden, kann aber im späteren Verlauf abhängig von den verwendeten Aktionen zu Problemen führen.
+* Geschäftsereignisse können nicht zusammen mit Einzelereignissen oder Zielgruppenqualifikationsaktivitäten verwendet werden.
+* Einzelne Journey (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation) enthalten eine Schutzmaßnahme, die verhindert, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+* Journey Optimizer erfordert, dass Ereignisse an den Data Collection Core Service (DCCS) gestreamt werden, damit eine Journey ausgelöst werden kann. Ereignisse, die in Batches aufgenommen werden, oder Ereignissen aus internen Journey Optimizer-Datensätzen (Nachrichten-Feedback, E-Mail-Tracking usw.) können nicht zum Auslösen einer Journey verwendet werden. Für Anwendungsfälle, in denen Sie keine Streaming-Ereignisse erhalten können, erstellen Sie eine Zielgruppe, die auf diesen Ereignissen basiert, und verwenden Sie die **Audience lesen** Aktivität. Die Zielgruppenqualifizierung kann technisch verwendet werden, kann aber basierend auf den verwendeten Aktionen zu nachgelagerten Herausforderungen führen.
 
 ### Datenquellen {#data-sources-g}
 
@@ -97,13 +96,13 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
 
-### Segment lesen {#read-segment-g}
+### Audience lesen {#read-segment-g}
 
-* Streaming-Segmente sind stets auf dem neuesten Stand, Batch-Segmente werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
-* Bei Journeys, die die Aktivität „Segment lesen“ verwenden, gibt es eine maximale Anzahl von Journeys, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden zwar vom System durchgeführt, Sie sollten jedoch vermeiden, dass mehr als fünf Journeys (mit „Segment lesen“, geplant oder „so bald wie möglich“) exakt gleichzeitig beginnen, indem Sie sie über einen bestimmten Zeitraum verteilen, z. B. mit 5 bis 10 Minuten Abstand.
+* Streaming-Zielgruppen sind immer aktuell, Batch-Zielgruppen werden jedoch nicht zum Zeitpunkt des Abrufs berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
+* Bei Journey, die die Aktivität Audience lesen verwenden, gibt es eine maximale Anzahl von Journey, die exakt zur gleichen Zeit beginnen können. Weitere Zustellversuche werden vom System durchgeführt. Vermeiden Sie jedoch, dass mehr als fünf Journey (mit &quot;Audience lesen&quot;, geplant oder &quot;so bald wie möglich&quot; gestartet werden) exakt gleichzeitig beginnen, indem sie über einen bestimmten Zeitraum verteilt werden, z. B. zwischen 5 und 10 Minuten.
 
 ### Ausdruckseditor {#expression-editor}
 
-* Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Segment lesen“, „Segmentqualifikation“ oder „Geschäftsereignis“ beginnen. Sie müssen ein neues Segment erstellen und eine inSegment-Bedingung in der Journey verwenden.
+* Feldergruppen für Erlebnisereignisse können nicht in Journey verwendet werden, die mit der Aktivität Lesen der Zielgruppe, Zielgruppenqualifizierung oder Geschäftsereignis beginnen. Sie müssen eine neue Zielgruppe erstellen und eine Segmentbedingung in der Journey verwenden.
 
 

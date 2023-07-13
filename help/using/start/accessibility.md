@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -123,7 +123,7 @@ Konfigurationsbereich dieser Elemente:
   <tr>
     <td>
 
-Auslösen eines Ereignisses in einer segmentbasierten Journey, für die die Option **[!UICONTROL Jeweils ein Einzelprofil]** aktiviert ist
+Trigger eines Ereignisses in einer zielgruppenbasierten Journey, für die die **[!UICONTROL Jeweils ein einzelnes Profil]** Option ist aktiviert
 
 </td>
     <td>P</td>

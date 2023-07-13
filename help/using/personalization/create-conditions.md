@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 88%
 
 ---
 
 # Arbeiten mit bedingten Regeln {#conditions}
 
-Bedingte Regeln sind eine Reihe von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Segmentzugehörigkeit oder kontextuellen Ereignissen.
+Bedingte Regeln sind Regelsätze, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll, je nach verschiedenen Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextbezogenen Ereignissen.
 
 Bedingte Regeln werden mit dem Ausdruckseditor erstellt und können gespeichert werden, wenn Sie sie für Ihre Inhalte wiederverwenden möchten. [Erfahren Sie, wie Sie eine bedingte Regel in der Bibliothek speichern](#save)
 
@@ -56,17 +56,17 @@ Die Schritte zum Erstellen einer bedingten Regel sind:
 
 1. Erstellen Sie die bedingte Regel entsprechend Ihren Anforderungen. Ziehen Sie dazu die gewünschten Attribute aus dem linken Menü per Drag-and-Drop auf die Arbeitsfläche und ordnen Sie sie an.
 
-   Die Schritte zum Kombinieren von Attributen auf der Arbeitsfläche ähneln denen zum Erstellen von Segmenten. Weitere Informationen zum Arbeiten mit der Arbeitsfläche des Regel-Builders finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#rule-builder-canvas).
+   Die Schritte zum Kombinieren von Attributen auf der Arbeitsfläche ähneln dem Erlebnis zum Erstellen von Segmentdefinitionen. Weitere Informationen zum Arbeiten mit der Arbeitsfläche des Regel-Builders finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Attribute sind in drei Registerkarten unterteilt:
 
    * **[!UICONTROL Profil]**:
-      * **[!UICONTROL Segmentzugehörigkeit]** listet alle Segmentattribute (d. h. Status, Version usw.) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
+      * **[!UICONTROL Zielgruppen]** listet alle Zielgruppenattribute auf (d. h. Status, Version usw.) für den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
       * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem [Schema des Experience-Datenmodells (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind, das in Adobe Experience Platform definiert ist.
    * **[!UICONTROL Kontextuell]**: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextuelle Journey-Felder zur Verfügung.
-   * **[!UICONTROL Audiences]**: Listet alle Audiences auf, die aus Segmenten generiert wurden, die im [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) erstellt wurden.
+   * **[!UICONTROL Zielgruppen]**: listet alle Zielgruppen auf, die aus Segmentdefinitionen generiert wurden, die in [Adobe Experience Platform-Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
 
 1. Wenn Ihre bedingte Regel fertig ist, können Sie sie zu Ihrer Nachricht hinzufügen, um dynamische Inhalte zu erstellen. [Erfahren Sie, wie dynamische Inhalte hinzugefügt werden](dynamic-content.md)
 

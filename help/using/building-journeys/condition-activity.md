@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](assets/journey64.png)
 
-Wenn Sie zur Erstellung Ihrer Segmente den [Segmentierungsdienst von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) verwenden, können Sie die Segmente in Ihren Journey-Bedingungen nutzen.{target="_blank"} Siehe [Verwenden von Segmenten in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie die [Adobe Experience Platform-Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} um Ihre Zielgruppen zu erstellen, können Sie sie in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden der Zielgruppe in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
 ![](assets/profile-cap-condition.png)
 
-## Verwenden von Segmenten in Bedingungen {#using-a-segment}
+## Verwenden von Zielgruppen in Bedingungen {#using-a-segment}
 
-In diesem Abschnitt wird erläutert, wie sich ein Segment in einer Journey-Bedingung verwenden lässt. Weitere Informationen zu Segmenten und deren Aufbau finden Sie in [diesem Abschnitt](../segment/about-segments.md).
+In diesem Abschnitt wird beschrieben, wie Sie eine Zielgruppe in einer Journey-Bedingung verwenden. Weitere Informationen zu Zielgruppen und deren Erstellung finden Sie unter [diesem Abschnitt](../audience/about-audiences.md).
 
-Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
+Gehen Sie wie folgt vor, um eine Audience in einer Journey-Bedingung zu verwenden:
 
 1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Bedingung der Datenquelle**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Gehen Sie wie folgt vor, um in einer Journey-Bedingung ein Segment zu verwenden:
 
    ![](assets/segment3.png)
 
-1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Segmente]**. Legen Sie das Segment, das Sie für Ihre Bedingung verwenden möchten, im Arbeitsbereich ab. Standardmäßig lautet die Bedingung für das Segment „true“.
+1. Öffnen Sie auf der linken Seite die **[!UICONTROL Zielgruppen]** Knoten. Ziehen Sie die Zielgruppe, die Sie für Ihre Bedingung verwenden möchten, in den Arbeitsbereich. Standardmäßig ist die Bedingung für die Zielgruppe wahr.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Hinweis: Nur Personen mit den Segmentzugehörigkeitsstatus **Realisiert** und **Vorhanden** werden als Mitglieder des Segments betrachtet. Weitere Informationen zum Auswerten eines Segments finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target="_blank"}.
+   >Beachten Sie, dass nur die Personen mit dem **Realisiert** und **Bestehend** Der Beteiligungsstatus von Zielgruppen wird als Mitglieder der Zielgruppe betrachtet. Weiterführende Informationen zur Audience-Evaluierung finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target="_blank"}.

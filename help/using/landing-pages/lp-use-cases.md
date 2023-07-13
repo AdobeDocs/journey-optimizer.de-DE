@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Landing, Landingpage, Anwendungsfall
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -74,9 +74,9 @@ Zusätzlich können Sie eine Bestätigungs-E-Mail an die Empfänger senden, die 
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Erweitern Sie die Kategorie **[!UICONTROL Ereignisse]** und legen Sie eine Aktivität vom Typ **[!UICONTROL Segmentqualifikation]** in Ihrer Arbeitsfläche ab. [Weitere Informationen](../building-journeys/segment-qualification-events.md)
+1. Entfalten Sie die **[!UICONTROL Veranstaltungen]** Kategorie und Ablegen einer **[!UICONTROL Zielgruppenqualifikation]** -Aktivität in Ihre Arbeitsfläche. [Weitere Informationen](../building-journeys/audience-qualification-events.md)
 
-1. Klicken Sie in das Feld **[!UICONTROL Segment]** und wählen Sie die von Ihnen erstellte Abonnement-Liste aus.
+1. Klicken Sie in **[!UICONTROL Zielgruppe]** und wählen Sie die von Ihnen erstellte Abonnementliste aus.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

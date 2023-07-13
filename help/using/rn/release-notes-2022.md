@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Journeys**
 
-* Die Option **Erneuten Eintritt bei Wiederholung erzwingen** wurde zu den Planparametern für wiederkehrende Lesesegmente hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Die **Wiedereintritt erzwingen bei Wiederholung** wurde in den Planparametern für das wiederkehrende Lesen der Audience hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -176,7 +176,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Als Journey Optimizer-Benutzende können Sie jetzt über die Benutzeroberfläche auf Systemwarnungen zugreifen, um Benachrichtigungen zu erhalten, wenn Journeys nicht wie erwartet funktionieren. Sie können die verfügbaren Warnhinweise einsehen und abonnieren. Der erste Warnhinweis, der mit dieser Version verfügbar ist, warnt Sie, wenn eine Aktivität vom Typ „Segment lesen“ innerhalb des festgelegten Zeitraums kein Profil verarbeitet hat. Weitere werden folgen, sobald dieser Workflow freigeschaltet ist.</p>
+<p>Als Journey Optimizer-Benutzende können Sie jetzt über die Benutzeroberfläche auf Systemwarnungen zugreifen, um Benachrichtigungen zu erhalten, wenn Journeys nicht wie erwartet funktionieren. Sie können die verfügbaren Warnhinweise einsehen und abonnieren. Der erste Warnhinweis in dieser Version warnt Sie, wenn eine Aktivität vom Typ Audience lesen im festgelegten Zeitraum kein Profil verarbeitet hat. Weitere werden folgen, sobald dieser Workflow freigeschaltet ist.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 **Journeys**
 
 * Der **Entitätsdatensatz** ist jetzt als vordefinierter Datensatz in Adobe Journey Optimizer verfügbar. Dieser Lookup-Datensatz enthält Metadaten, um die Informationen der Tracking- und Feedback-Datensätze zu erweitern. Auf diese Weise können Sie Ihre Berichte und Abfragen mit leichter verständlichen Daten verbessern. [Weitere Informationen](../data/datasets-query-examples.md#entity-dataset)
-* Eine neue Sschutzmaßnahme wurde zu unitären Journeys hinzugefügt (beginnend mit einem Ereignis oder einer Segmentqualifikation), um zu verhindern, dass Journeys fälschlicherweise mehrfach für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. [Weitere Informationen](../start/guardrails.md#events-g)
+* Eine neue Limits wurde zu einheitlichen Journey hinzugefügt (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation), um zu verhindern, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. [Weitere Informationen](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -235,8 +235,8 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 ### Weitere Änderungen{#sept-2022-other}
 
 * Der Journey-Burst-Modus wurde durch den Kampagnen-Schnellversand-Modus ersetzt. [Weitere Informationen](../push/create-push.md#rapid-delivery)
-* Um die Leistung zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einem Lesesegment, einer Segmentqualifikation oder einer Geschäftsereignisaktivität beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
-* Die 1-Stunden-Beschränkung für geplante Segment-Lese-Journeys wurde entfernt. Diese Journeys können jetzt ohne Verzögerung ausgeführt werden.
+* Um die Leistung zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journey verwendet werden, beginnend mit einer Lesen der Audience, einer Audience-Qualifizierung oder einer Business Event-Aktivität. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
+* Die 1-Stunden-Beschränkung für Journey mit terminierten Lese-Zielgruppen wurde entfernt. Diese Journeys können jetzt ohne Verzögerung ausgeführt werden.
 
 
 
@@ -254,7 +254,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für ein bestimmtes Segment bereitzustellen. Bei der Verwendung von Journeys sind Aktionen so konzipiert, dass sie der Reihe nach ausgeführt werden. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan. </p>
+<p>Verwenden Sie Journey Optimizer-Kampagnen, um mithilfe verschiedener Kanäle einmalige Inhalte für eine bestimmte Zielgruppe bereitzustellen. Bei der Verwendung von Journeys sind Aktionen so konzipiert, dass sie der Reihe nach ausgeführt werden. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Wie Sie eine Kampagne erstellen, erfahren Sie in der <a href="../campaigns/get-started-with-campaigns.md">ausführlichen Dokumentation</a> und im <a href="https://video.tv.adobe.com/v/346680">Funktionsvideo</a>.
 </td>
@@ -290,7 +290,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -374,7 +374,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt personalisierte Optimierungsmodellsysteme im Entscheidungs-Management verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
+<p>Sie können jetzt personalisierte Optimierungsmodellsysteme im Entscheidungs-Management verwenden. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebotsleistung.</p>
 <p>Die Verwendung personalisierter KI-Modelle zur Optimierung ist derzeit auf ausgewählte Benutzende beschränkt und wird in einer zukünftigen Version in allen Umgebungen bereitgestellt.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
@@ -408,7 +408,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Entscheidungs-Management**
 
-* **Audience-Größe**: In der Benutzeroberfläche wird jetzt als neue Komponente eine Schätzung der Audience-Größe angezeigt, wenn eine Entscheidungsregel erstellt wird, ein Segment oder eine Regel zum Festlegen einer Angebotseignung ausgewählt wird oder ein Segment oder eine Regel zu einem Entscheidungsumfang hinzugefügt wird.
+* **Zielgruppengröße** - Eine neue Schätzung der Zielgruppengröße wird jetzt in der Benutzeroberfläche angezeigt, wenn eine Entscheidungsregel erstellt wird, wenn eine Zielgruppe oder eine Regel ausgewählt wird, um eine Angebotseignung festzulegen, oder wenn eine Zielgruppe oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.
 
 
 ## Version Juni 2022 {#june-2022-release}
@@ -477,7 +477,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Journeys**
 
-* **Segment lesen**: Einmalige Journeys mit dem Schritt „Segment lesen“ gehen jetzt 30 Tage nach der Ausführung der Journey in den Status „Beendet“ über. Folgt der Schritt „Segment lesen“ einem Zeitplan, wird er 30 Tage nach der letzten Ausführung beendet. [Weitere Informationen](../building-journeys/read-segment.md)
+* **Audience lesen** - Journey der Audience lesen wechseln 30 Tage nach der Journey-Ausführung in den Status Abgeschlossen . Bei geplanten Lesen von Zielgruppen ist dies 30 Tage nach der Ausführung des letzten Vorkommens der Fall. [Weitere Informationen](../building-journeys/read-audience.md)
 * **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/functiondistinct.md) und [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) hinzugefügt.
 
 **Administration**
 
-* **Aktualisierung des Lizenznutzungs-Dashboards**: Das in der Benutzeroberfläche von [!DNL Adobe Journey Optimizer] verfügbare Lizenznutzungs-Dashboard entspricht nun dem genauen Wert für die **lizenzierte** durchschnittliche Reichweite des Profils. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../segment/license-usage.md)
+* **Aktualisierung des Lizenznutzungs-Dashboards**: Das in der Benutzeroberfläche von [!DNL Adobe Journey Optimizer] verfügbare Lizenznutzungs-Dashboard entspricht nun dem genauen Wert für die **lizenzierte** durchschnittliche Reichweite des Profils. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../audience/license-usage.md)
 
 
 ## Version April 2022 {#april-2022-release}
@@ -673,7 +673,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 **Entscheidungs-Management**
 
 * Sie können jetzt definieren, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil bzw. für alle Platzierungen oder nur für eine einzeln Platzierung gelten soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Mit der Batch Decisioning-API können Unternehmen die Funktionalität des Entscheidungs-Managements für alle Profile in einem bestimmten Segment in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil im Segment wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Mit der Batch Decisioning-API können Unternehmen Entscheidungsverwaltungsfunktionen für alle Profile in einer bestimmten Zielgruppe in einem Aufruf verwenden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Journeys – Verbesserung beim Lesen von Segmenten</strong><br/></th>
+<th><strong>Journey - Verbesserung der Zielgruppe lesen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Option <strong>Inkrementelles Lesen</strong> wurde zu den wiederkehrenden <strong>Segment lesen</strong>-Aktivitäten hinzugefügt. Mit dieser Option haben Sie die Möglichkeit, nur die Personen anzusprechen, die seit der letzten Ausführung der Journey in das Segment eingetreten sind. Bei der ersten Ausführung sind immer alle Segmentmitglieder ausgewählt.</p>
-<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">ausführlichen Dokumentation</a>.
+<p>Die <strong>Inkrementelles Lesen</strong> wurde zur wiederkehrenden <strong>Audience lesen</strong> Aktivitäten. Mit dieser Option können Sie nur die Kontakte ansprechen, die seit der letzten Ausführung der Journey an der Audience teilgenommen haben. Die erste Ausführung richtet sich immer an alle Mitglieder der Zielgruppe.</p>
+<p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">ausführlichen Dokumentation</a>.
 </td>
 </tr>
 </tbody>

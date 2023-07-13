@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 91%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das KI-Modell an und wählen Sie dann die Art des KI-Modells, das Sie erstellen möchten:
 
    * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebotsleistung. [Weitere Informationen](auto-optimization-model.md)
-   * **[!UICONTROL Personalisierte Optimierung]** optimiert und personalisiert Angebote auf Grundlage von Segmenten und Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
+   * **[!UICONTROL Personalisierte]** optimiert und personalisiert Angebote auf der Basis von Zielgruppen und Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,15 +61,13 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
    >
    >In der Dropdown-Liste werden nur Datensätze angezeigt, die aus Schemas erstellt wurden, die mit der Feldergruppe (früher als Mixin bezeichnet) **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sind.
 
-1. Wenn Sie ein KI-Modell für die **[!UICONTROL personalisierte Optimierung]** erstellen, wählen Sie ein oder mehrere Segmente aus, die für das Training des KI-Modells verwendet werden sollen.
-
-   ➡️ [Entdecken Sie diese Funktion im Video](#video)
+1. Wenn Sie eine **[!UICONTROL Personalisierte Optimierung]** AI-Modell: Wählen Sie die Zielgruppen aus, die zum Trainieren des KI-Modells verwendet werden sollen.
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >Sie können bis zu 5 Segmente auswählen.
+   >Sie können bis zu fünf Zielgruppen auswählen.
 
 1. Speichern und aktivieren Sie das KI-Modell.
 

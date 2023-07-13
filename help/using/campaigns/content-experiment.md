@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -65,9 +65,9 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
    * **[!UICONTROL Name]**
    * **[!UICONTROL Beschreibung]**
 
-1. Definieren Sie die anzusprechende Audience. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../segment/about-segments.md)
+1. Definieren Sie die anzusprechende Audience. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
-   Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen](get-started-experiment.md#content-experiment-work)
+   Im **[!UICONTROL Identitäts-Namespace]** wählen Sie den Namespace aus, der zur Identifizierung der Kontakte aus der ausgewählten Audience verwendet werden soll. [Weitere Informationen](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

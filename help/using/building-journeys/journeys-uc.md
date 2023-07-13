@@ -9,22 +9,22 @@ role: User
 level: Intermediate
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
 # Anwendungsfall: Senden von Multi-Channel-Nachrichten{#send-multi-channel-messages}
 
-In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der „Segment lesen“, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
+In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der eine Audience lesen, ein Ereignis, Reaktionsereignisse und E-Mail-/Push-Nachrichten kombiniert.
 
 ![](assets/jo-uc1.png)
 
 ## Beschreibung des Anwendungsfalls
 
-Bei diesem Anwendungsfall möchten wir eine erste Nachricht (E-Mail und Push) an alle Kunden senden, die zu einem bestimmten Segment gehören.
+In diesem Anwendungsfall möchten wir eine erste Nachricht (E-Mail und Push-Benachrichtigung) an alle Kunden senden, die zu einer bestimmten Zielgruppe gehören.
 
 Abhängig von ihrer jeweiligen Reaktion auf die erste Nachricht möchten wir spezifische Nachrichten senden.
 
@@ -36,20 +36,20 @@ Dann warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu 
 
 Damit dieser Anwendungsfall funktioniert, müssen Sie Folgendes konfigurieren:
 
-* Ein Segment für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden
+* Eine Audience für alle Kunden, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
 * Ein Ereignis
 
-### Erstellen des Segments
+### Erstellen der Audience
 
-In unserer Journey möchten wir ein bestimmtes Kundensegment verwenden. Alle diesem Segment angehörenden Einzelpersonen treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel benötigen wir ein Segment, das alle Kunden enthält, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
+In unserer Journey möchten wir eine spezifische Kundenzielgruppe nutzen. Alle Personen, die der Audience angehören, treten in die Journey ein und folgen den verschiedenen Schritten. In unserem Beispiel brauchen wir eine Zielgruppe, die alle Kunden auswählt, die in Atlanta, San Francisco oder Seattle leben und nach 1980 geboren wurden.
 
-Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segment/about-segments.md).
+Weiterführende Informationen zu Zielgruppen finden Sie in diesem Abschnitt [page](../audience/about-audiences.md).
 
-1. Wählen Sie im Menüabschnitt KUNDE die Option **[!UICONTROL Segmente]** aus.
+1. Wählen Sie im Menübereich KUNDEN die Option **[!UICONTROL Zielgruppen]**.
 
-1. Klicken Sie oben rechts in der Segmentliste auf den Button **[!UICONTROL Segment erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Zielgruppe erstellen]** -Schaltfläche oben rechts in der Zielgruppenliste.
 
-1. Geben Sie im Bereich **[!UICONTROL Segmenteigenschaften]** einen Namen für das Segment ein.
+1. Im **[!UICONTROL Zielgruppeneigenschaften]** eingeben, geben Sie einen Namen für die Zielgruppe ein.
 
 1. Ziehen Sie die gewünschten Felder aus dem linken Bereich in den mittleren Arbeitsbereich und konfigurieren Sie die Felder dann entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir die Attributfelder **Stadt** und **Geburtsjahr**.
 
@@ -57,7 +57,7 @@ Weiterführende Informationen zu Segmenten finden Sie auf dieser [Seite](../segm
 
    ![](assets/add-attributes.png)
 
-Das Segment ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Mit der Aktivität **Segment lesen** können Sie alle Einzelpersonen des Segments in die Journey eintreten lassen.
+Die Audience ist jetzt erstellt und kann in Ihrer Journey verwendet werden. Verwenden eines **Audience lesen** -Aktivität, können Sie alle Kontakte, die zur Zielgruppe gehören, in die Journey einbinden.
 
 ### Konfigurieren des Ereignisses
 
@@ -85,7 +85,7 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
 ## Entwerfen der Journey
 
-1. Beginnen Sie die Journey mit einer Aktivität vom Typ **Segment lesen**. Wählen Sie das zuvor erstellte Segment aus. Alle dem Segment angehörenden Einzelpersonen treten in die Journey ein.
+1. Starten Sie die Journey mit einem **Audience lesen** Aktivität. Wählen Sie die zuvor erstellte Audience aus. Alle Personen, die der Audience angehören, treten in die Journey ein.
 
    ![](assets/jo-uc4.png)
 
@@ -95,7 +95,7 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
 1. Platzieren Sie den Cursor auf der Aktivität „E-Mail“ und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
 
-1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald ein zum Segment gehörender Kontaktdie Push-Version der ersten Nachricht öffnet.
+1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, wenn ein Kontakt, der zur Zielgruppe gehört, die Push-Version der ersten Nachricht öffnet.
 
 1. Fügen Sie im zweiten Pfad ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald der Kontakt die E-Mail öffnet.
 

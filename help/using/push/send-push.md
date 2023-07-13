@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
@@ -38,6 +38,7 @@ Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testpro
    ![](assets/push_preview_3.png)
 
 ## Validieren der Push-Benachrichtigung {#push-validate}
+
 
 Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 

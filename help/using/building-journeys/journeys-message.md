@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
 Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
 
-1. Beginnen Sie Ihre Journey mit einem [Ereignis](general-events.md) oder einer Aktivität vom Typ [Segment lesen](read-segment.md).
+1. Starten Sie Ihre Journey mit einem [Ereignis](general-events.md) oder [Audience lesen](read-audience.md) Aktivität.
 
 1. Ziehen Sie aus dem Abschnitt **Aktionen** der Palette eine **E-Mail**-, eine **In-App**-, eine **SMS-** oder eine **Push**-Aktivität auf die Arbeitsfläche und legen Sie sie dort ab.
 
@@ -115,6 +115,10 @@ Das Modell variiert je nachdem, ob es sich um Scoring oder Training handelt. Das
 * Scoring – die Anwendung eines Punktwerts auf einzelne Profile, basierend auf dem trainierten Modell
 
 Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführung der Journey referenziert, um Adobe Journey Optimizer mitzuteilen, wann Ihre Nachricht gesendet werden soll.
+
+>[!CAUTION]
+>
+>Diese Funktion ist nicht mit dem Burst-Modus kompatibel.
 
 ### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 

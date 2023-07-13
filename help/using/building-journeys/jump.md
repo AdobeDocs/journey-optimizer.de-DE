@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Springen, Aktivität, Journey, Aufspaltung, Aufspalten
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -58,8 +58,8 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
 
 * Die **[!UICONTROL Sprungaktivität]** ist nur in Journeys verfügbar, die einen Namespace verwenden.
 * Sie können nur in eine Journey springen, die denselben Namespace wie die Ursprungs-Journey verwendet.
-* Sie können nicht zu einer Journey springen, die mit einem **Segmentqualifizierungsereignis** oder einer Aktivität vom Typ **Segment lesen** beginnt.
-* Dieselbe Journey darf nicht gleichzeitig eine **[!UICONTROL Sprungaktivität]** und ein **Segmentqualifizierungsereignis** oder **Segment lesen** enthalten.
+* Sie können nicht zu einer Journey springen, die mit einer **Zielgruppenqualifikation** Ereignis oder **Audience lesen**.
+* Sie können keine **[!UICONTROL Sprung]** und eine **Zielgruppenqualifikation** Ereignis oder **Audience lesen** im selben Journey.
 * Sie können so viele **[!UICONTROL Sprungaktivitäten]** in eine Journey aufnehmen, wie Sie benötigen. Nach einem **[!UICONTROL Sprung]** können Sie jede erforderliche Aktivität hinzufügen.
 * Sie können beliebig viele Sprungstufen einfügen. So kann z. B. Journey A zu Journey B springen, welche zu Journey C springt, usw.
 * Auch die Ziel-Journey kann beliebig viele **[!UICONTROL Sprungaktivitäten]** umfassen.
@@ -81,7 +81,7 @@ In Journey B wird das erste Ereignis intern über die **[!UICONTROL Sprungaktivi
    ![](assets/jump2.png)
 
 1. Klicken Sie in das Feld **Ziel-Journey**.
-Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journeys, die einen anderen Namespace verwenden oder mit einem **Segmentqualifizierungsereignis** beginnen, sind nicht verfügbar. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
+Die Liste zeigt alle Journey-Versionen an, die sich im Entwurfs-, Live- oder Testmodus befinden. Journey, die einen anderen Namespace verwenden oder mit einem **Zielgruppenqualifikation** -Ereignis nicht verfügbar sind. Ziel-Journeys, die ein Schleifenmuster erzeugen würden, werden ebenfalls herausgefiltert.
 
    ![](assets/jump3.png)
 

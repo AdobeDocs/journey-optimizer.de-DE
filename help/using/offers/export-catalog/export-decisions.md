@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -95,7 +95,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** optionSelectionType
   **Titel:** Profileinschränkungstyp
-  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch eine oder mehrere Segmentzugehörigkeiten erfolgen.
+  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch ein oder mehrere Zielgruppenmitgliedschaften erfolgen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
@@ -156,29 +156,29 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraintType 
 **Titel:** Profileinschränkungstyp 
-**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Begrenzungen können durch eine Regel oder durch eine oder mehrere Segmentzugehörigkeiten festgelegt sein.
+**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Zielgruppenmitgliedschaften erfolgen.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
 * „none“ (Standard)
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
-* „anySegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu mindestens einem dieser Segmente zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
-* „allSegments“: „Die Profileinschränkung wird als ein oder mehrere Segmente ausgedrückt und das Profil muss zu allen diesen Segmenten zugehörig sein, bevor die eingeschränkte Aktion zulässig ist.“
+* &quot;anySegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied von mindestens einer dieser Zielgruppen sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
+* &quot;allSegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied aller sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
 * „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
 
 +++
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**Feld:** segmentIdentities 
-**Titel:** Segmentkennungen 
-**Beschreibung:** Kennungen der Segmente 
+**Feld:** segmentIdentities
+**Titel:** Segment-IDs
+**Beschreibung:** Kennungen der Zielgruppe.
 **Typ:** Array
 
 * Kennung
 
   **Feld:** _id
   **Titel:** Kennung
-  **Beschreibung:** Identität des Segments im betreffenden Namespace.
+  **Beschreibung:** Identität der Zielgruppe im zugehörigen Namespace.
   **Typ:** Zeichenfolge
 
 * Namespace

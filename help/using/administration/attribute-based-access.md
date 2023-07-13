@@ -9,10 +9,10 @@ role: Admin,Leader
 level: Intermediate
 keywords: ABAC, Attribut, Berechtigungen, Daten, Zugriff, vertraulich, Assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Mit der attributbasierten Zugriffssteuerung (ABAC) können Sie Berechtigungen definieren, um den Datenzugriff für bestimmte Teams oder Benutzergruppen zu verwalten. Sie dient dem Schutz sensibler digitaler Assets vor unbefugten Benutzenden und ermöglicht so einen weiteren Schutz personenbezogener Daten.
 
-In Adobe Journey Optimizer können Sie mit ABAC Daten schützen und spezifischen Zugriff auf bestimmte Feldelemente gewähren, darunter Experience-Datenmodell (XDM)-Schemas, Profilattribute und Segmente.
+In Adobe Journey Optimizer können Sie mit ABAC Daten schützen und spezifischen Zugriff auf bestimmte Feldelemente gewähren, darunter Experience-Datenmodell (XDM)-Schemas, Profilattribute und Zielgruppen.
 
 Eine detailliertere Liste der bei ABAC verwendeten Begriffe finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=de).
 
@@ -90,7 +90,7 @@ Die Benutzer in der **Eingeschränkten Rolle „Demografisch“** haben nun Zugr
 **[!UICONTROL Titel]** können verwendet werden, um bestimmte Funktionsbereiche mithilfe der attributbasierten Zugriffssteuerung zuzuweisen.
 In diesem Beispiel möchten wir den Zugriff auf das Feld **Staatsangehörigkeit** einschränken. Auf dieses Feld können nur Benutzer mit dem entsprechenden **[!UICONTROL Titel]** in ihrer **[!UICONTROL Rolle]** zugreifen.
 
-Beachten Sie, dass Sie **[!UICONTROL Titel]** auch zu **[!UICONTROL Schemas]**, **[!UICONTROL Datensätzen]** und **[!UICONTROL Segmenten]** hinzufügen können.
+Beachten Sie, dass Sie auch  **[!UICONTROL Titel]** nach  **[!UICONTROL Schema]**,  **[!UICONTROL Datensätze]** und  **[!UICONTROL Zielgruppen]**.
 
 1. Erstellen Sie Ihr **[!UICONTROL Schema]**. Weitere Informationen hierzu finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de).
 

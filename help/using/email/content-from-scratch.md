@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Inhalt, Editor, E-Mail, Start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -98,7 +98,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung des Ihrers Inhalts zu beginnen:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Segmentzugehörigkeiten, Kontextattributen und mehr anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenmitgliedschaften, Kontextattributen und mehr anzupassen. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

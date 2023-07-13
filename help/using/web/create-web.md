@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 1. Nachdem Sie die Web-Oberfläche definiert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Audience](../segment/about-segments.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Audience](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: benutzerdefiniert, allgemein, Ereignisse, Journey
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Für diesen Ereignistyp können Sie nur einen Titel und eine Beschreibung hinzuf
 
 ![](assets/general-events.png)
 
-Wenn Sie ein Geschäftsereignis ablegen, wird automatisch die Aktivität **Segment lesen** hinzugefügt. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
+Wenn Sie ein Geschäftsereignis ablegen, wird automatisch ein **Audience lesen** Aktivität. Weiterführende Informationen zu Geschäftsereignissen finden Sie in [diesem Abschnitt](../event/about-events.md).
 
 ## Überwachen von Ereignissen während eines bestimmten Zeitraums {#events-specific-time}
 

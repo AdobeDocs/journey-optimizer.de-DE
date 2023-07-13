@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2595'
+source-wordcount: '2453'
 ht-degree: 95%
 
 ---
@@ -22,46 +22,47 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-
-## Versionshinweise für Juni 2023 {#june-rn-2023}
-
 <!--
+## June 2023 early release notes {#june-rn-2023}
+
 Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Release date**: June 21-22, 2023-->
+**Release date**: June 21-22, 2023
 
-
-<!-- ### New capabilities{#june-2023-features}-->
+### New capabilities{#june-2023-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>API-ausgelöste Kampagnen für Marketing-Anwendungsfälle</strong><br/></th>
+<th><strong>API-triggered campaigns for marketing use cases</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt APIs verwenden, um Marketing-Kampagnen in Adobe Journey Optimizer von einem externen System aus auszulösen.</p>
-<p>Bis zu dieser Version bediente die Funktion für API-ausgelöste Kampagnen den Bedarf an verschiedenen operativen und transaktionalen Nachrichten, wie etwa Zurücksetzen des Passworts oder OTP-Token, sie konnte jedoch nicht zur Erstellung von Marketing-Kampagnen verwendet werden. Für API-ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.</p>
+<p>You can now use APIs to trigger marketing campaigns in Adobe Journey Optimizer from an external system.</p>
+<p>Until this release, API-triggered campaigns capability was covering various operational and transactional messaging needs like password resets or OTP token, but could not be used to create marketing campaigns. Available channels for API-triggered campaigns are: Email, SMS and Push messages.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-campaigns.md">detaillierten Dokumentation</a>.
+<p>For more information, refer to the <a href="../campaigns/api-triggered-campaigns.md">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 ### Improvements {#june-2023-improvements}
 
 
 **Audiences**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.	
+
 
 **Journeys**
 
-You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.	 
+
+* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
 ## Versionshinweise Mai 2023 {#may-rn-2023}
@@ -79,7 +80,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tr>
 <td>
 <p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
-<img src="../segment/assets/audiences-publish.png"/>
+<img src="../audience/assets/audiences-publish.png"/>
 <!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -170,7 +171,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 <tbody>
 <tr>
 <td>
-<p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Segmenten und der Angebotsleistung.</p>
+<p>KI-Ranking-Modelle für personalisierte Optimierung sind jetzt allgemein im Entscheidungs-Management verfügbar. Dieser neue Modelltyp ermöglicht die Optimierung und Personalisierung von Angeboten basierend auf Zielgruppen und der Angebotsleistung.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../offers/ranking/personalized-optimization-model.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -301,11 +302,9 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * Auf der Journey-Arbeitsfläche wird nun die Aktivitäts-ID für Nachrichtenaktivitäten und End-Tags angezeigt. Dies verbessert das Reporting und die erneute Zielgruppenbestimmung.
 * Das Layout des Konfigurationsbereichs, der in Aktionen, Datenquellen, Ereignissen und Journeys angezeigt wird, wurde verbessert.
+* Neue Erkenntnisse zur Anzahl der Knoten auf der Arbeitsfläche mit Sicherheitsvorkehrungen zur Unterstützung des Wachstums: Halten Sie Journeys leserfreundlich und führen Sie Qualitätssicherung und Fehlerbehebung mit einer maximalen Anzahl von 50 Knoten pro Journey durch. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 * Beim Hinzufügen einer [E-Mail](../email/create-email.md)-, [SMS](../sms/create-sms.md)- oder [Push](../push/create-push.md)-Aktion zu einer Journey ist die Oberfläche in der aktuellen Journey jetzt standardmäßig mit der zuletzt verwendeten Oberfläche für diesen Kanal vorausgefüllt.
 * Sie können jetzt in Ihren benutzerdefinierten Aktionen statische oder dynamische Abfrageparameter definieren. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
-* Neue Limits zur Steuerung des Wachstums von Erlebnissen, die von Journey bereitgestellt werden:
-   * Es wird empfohlen, die Anzahl der Knoten auf maximal 50 zu begrenzen, um die Leistung Ihrer Journey zu gewährleisten, die Lesbarkeit, Qualitätssicherung und Fehlerbehebung zu verbessern. Die Anzahl der Aktivitäten wird im oberen linken Bereich der Journey-Arbeitsfläche angezeigt. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
-   * Wenn Sie Journey entwickeln und starten, werden wir Sie benachrichtigen, sobald Sie sich dem Meilenstein von 100 Live-Journey nähern. Sollten Sie mehr als 100 Journey benötigen, erstellen Sie bitte ein Support-Ticket, nachdem Sie die Benachrichtigung erhalten haben. Wir helfen Ihnen gerne weiter. [Weitere Informationen](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Reporting**
 
@@ -378,7 +377,7 @@ You can now leverage API call responses in custom actions and orchestrate your j
 * Die Journey-Arbeitsfläche wurde verbessert, um das Benutzererlebnis zu vereinfachen und zu verbessern. Am Ende jedes Pfads auf der Arbeitsfläche wurden die leeren Platzhalter entfernt. Sie können Ihre Aktivitäten jetzt einfach hinzufügen, indem Sie sie an das Ende eines Pfads ziehen.
 * Auf der Journey-Arbeitsfläche ist der Namen der vorherigen Aktivität nicht mehr automatisch als Titel des **Ende**-Tags festgelegt. Benutzerinnen und Benutzer können bei Bedarf manuell eine benutzerdefinierte Bezeichnung hinzufügen.
 * Die standardmäßige Zeitüberschreitungs- und Fehlerdauer in den Journey-Eigenschaften wurde von 5 auf 30 Sekunden geändert. [Weitere Informationen](../configuration/external-systems.md#timeout)
-* Die standardmäßige Drosselungsrate in Aktivitäten mit Lesesegmenten wurde von 20.000 auf 5.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Die standardmäßige Drosselungsrate in Aktivitäten mit Lesen und Lesen von Zielgruppen wurde von 20.000 auf 5.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Dem Testmodus wurde ein Schutzmechanismus hinzugefügt, der nur Ereignisse überwacht, die über die Oberfläche gesendet werden. Ereignisse, die über ein externes Tool gesendet werden, werden nicht berücksichtigt. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 
 
@@ -509,9 +508,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Segmentqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
+* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld können Sie die Wartezeit definieren, bevor ein Profil die erneute Teilnahme an der Journey in einheitlichen Journey ermöglicht (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
 
-* Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Segment-lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
+* Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Audience lesen** Journey können Sie jetzt ein Enddatum hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -585,7 +584,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Beim Hinzufügen von **Segmentqualifizierung** oder **Segment lesen** in einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Siehe dazu die Abschnitte [Segmentqualifizierung](../building-journeys/segment-qualification-events.md#about-segment-qualification) und [Segment lesen](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Beim Hinzufügen von **Zielgruppenqualifikation** oder **Audience lesen** In einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Siehe Abschnitt [Zielgruppenqualifikation](../building-journeys/audience-qualification-events.md#about-segment-qualification) und [Audience lesen](../building-journeys/read-audience.md#configuring-segment-trigger-activity) Abschnitte.
 
 * Auf der Journey-Arbeitsfläche ist eine neue Schaltfläche in der Symbolleiste verfügbar, mit der Sie einen Screenshot Ihrer Journey herunterladen können.
 
