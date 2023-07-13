@@ -5,7 +5,7 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
       + [Segmentdefinitionen erstellen](using/audience/creating-a-segment-definition.md)
+      + Erstellen von Audiences {#audience-orchestration}
+         + [Erste Schritte mit der Audience-Komposition](using/audience/get-started-audience-orchestration.md)
+         + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
+         + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
+         + [Zugreifen auf und Verwalten von Audiences](using/audience/access-audiences.md)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
    + [Identitäten](using/audience/get-started-identity.md)
-   + Erstellen von Audiences {#audience-orchestration}
-      + [Erste Schritte mit der Audience-Komposition](using/audience/get-started-audience-orchestration.md)
-      + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
-      + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
-      + [Zugreifen auf und Verwalten von Audiences](using/audience/access-audiences.md)
    + [Lizenznutzung](using/audience/license-usage.md)
 + Nachverfolgen und Überwachen {#reporting}
    + Live-Bericht {#live-report}
