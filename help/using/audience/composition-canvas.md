@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 97%
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
 # Arbeiten mit der Arbeitsfläche für Kompositionen {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* [Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)
-* [Erstellen des ersten Kompositions-Workflows](create-compositions.md)
-* **[Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)**
-* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 Die Audience-Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Audiences erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 
@@ -151,6 +138,8 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
 
 >[!IMPORTANT]
+>
+>Die Anreicherung ist verfügbar für **[!UICONOTROL Adobe Journey Optimizer]** nur Benutzer.
 >
 >Derzeit werden Kennzeichnungen im Datensatz, ob auf Datensatz- oder auf Feldebene, nicht an die neu erstellte Audience weitergegeben. Dies kann sich auf die Zugriffskontrolle und/oder die Data Governance für die resultierende Audience auswirken. Verwenden Sie daher beim Erstellen von Audiences nur Testdaten.
 

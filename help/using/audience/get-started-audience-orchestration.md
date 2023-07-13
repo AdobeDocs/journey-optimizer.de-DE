@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -25,22 +23,7 @@ ht-degree: 91%
 >title="Erstellen einer Komposition"
 >abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Audiences zu erstellen."
 
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* **[Erste Schritte mit der Audience-Komposition](get-started-audience-orchestration.md)**
-* [Erstellen des ersten Kompositions-Workflows](create-compositions.md)
-* [Arbeiten mit der Arbeitsfläche für Kompositionen](composition-canvas.md)
-* [Zugreifen auf und Verwalten von Audiences](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Die Zielgruppenzusammensetzung ist derzeit nur für eine begrenzte Gruppe von Kundinnen und Kunden verfügbar. Wenden Sie sich bei Fragen an den Adobe-Support.
-
-Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Zielgruppen zu erstellen.
+Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
 
 Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden**, um Kunden anzusprechen. [Mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
 
