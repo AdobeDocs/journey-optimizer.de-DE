@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 97%
@@ -127,6 +127,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die L
 >[!NOTE]
 >
 >Für API-ausgelöste Kampagnen muss die Audience über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
+
 Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
