@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: E-Mail, Stil, CSS, Textkörper, Struktur
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 # Erste Schritte mit E-Mail-Stilen {#get-started-email-style}
 
-Nachdem Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer] begonnen haben, können Sie eine Reihe von Stilparametern und Attributen im Einstellungsfenster des E-Mail-Designers anpassen.
+Sobald Sie mit der Erstellung Ihres E-Mail-Inhalts in [!DNL Journey Optimizer] begonnen haben, können Sie eine Reihe von Stilparametern und Attributen im Bereich **[!UICONTROL Stil]** des E-Mail-Designers anpassen.
 
 Sie können Ihre Änderungen auf den E-Mail-Text, auf eine Strukturkomponente oder auf eine Inhaltskomponente anwenden.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_styles.png)
 
 Folgen Sie den unten stehenden Links, um zu erfahren, wie Sie Stileinstellungen in Ihrer E-Mail anpassen können.
 

@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: Kampagne, Standard, Integration, Begrenzung, Aktion
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Die Transaktionsnachricht in Campaign Standard und das zugehörige Ereignis müs
 
 * Die Adobe Campaign Standard-Integration wird über eine dedizierte integrierte Aktion in der Aktionsliste eingerichtet. Dies muss für jede Sandbox konfiguriert werden.
 
-* Sie können eine Campaign Standard-Aktion nicht mit einer Audience-Qualifizierung oder der Aktivität Audience lesen verwenden.
+* Sie können keine Campaign Standard-Aktion mit der Aktivität Zielgruppenqualifizierung oder Lesen der Zielgruppe verwenden.
 
 * Eine Journey kann nicht sowohl Nachrichten als auch Campaign Standard-Aktionen verwenden.
 

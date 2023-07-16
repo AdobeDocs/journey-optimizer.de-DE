@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: Produkt, Profile, Sandbox
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -109,7 +109,7 @@ Erstellen Sie unsere **Journey schreibgeschützt** **[!UICONTROL Rolle]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Sie können zwischen den verschiedenen Funktionen wie **[!DNL Journeys]**, **[!DNL Segments]**<!--CHECK--> oder **[!DNL Decision management]** auswählen, die in [!DNL Journey Optimizer] im Menü links verfügbar sind.
+1. Wählen Sie zwischen den verschiedenen Ressourcen aus, z. B. **[!DNL Journeys]**, **[!DNL Segments]** oder **[!DNL Decision management]** verfügbar unter [!DNL Journey Optimizer] im Menü auf der linken Seite.
 
    Hier wählen wir die **[!UICONTROL Journey]** Ressource.
 
