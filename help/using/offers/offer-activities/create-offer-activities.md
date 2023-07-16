@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 94%
+source-wordcount: '2164'
+ht-degree: 96%
 
 ---
 
@@ -128,9 +128,17 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_new-scope.png)
 
+   >[!NOTE]
+   >
+   >Beim Hinzufügen mehrerer Entscheidungsumfänge wird die Reihenfolge der Bewertungskriterien beeinflusst. [Weitere Informationen](#multiple-scopes)
+
 ### Reihenfolge der Bewertungskriterien {#evaluation-criteria-order}
 
 Wie oben beschrieben bestehen Bewertungskriterien aus einer Sammlung, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien angewendet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt angewendet werden.
+
+#### Mit nur einem Umfang {#one-scope}
+
+Innerhalb eines einzigen Entscheidungsumfangs bestimmen mehrere Kriterien und ihre Gruppierung die Priorität der Kriterien und die Rangfolge der geeigneten Angebote. Das erste Kriterium hat die höchste Priorität und die Kriterien, die in derselben „Gruppe“ zusammengefasst sind, haben die gleiche Priorität.
 
 Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und eine im Bewertungskriterien B. Die Anfrage sieht die Rücksendung von zwei Angeboten vor. Angenommen, es gibt zwei geeignete Angebote nach Bewertungskriterium A und drei geeignete Angebote nach Bewertungskriterium B.
 
@@ -141,6 +149,134 @@ Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und e
 * Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Bewertungskriterium A und drei geeignete Angebote für Bewertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
   ![](../assets/activity_same-rank-collections.png)
+
++++ **Beispiel mit mehreren Kriterien**
+
+Betrachten wir nun ein Beispiel, bei dem mehrere Kriterien für einen einzelnen Umfang in verschiedene Gruppen unterteilt sind.
+
+Sie haben drei Kriterien definiert. Die Kriterien 1 und 2 befinden sich beide in Gruppe 1, während Kriterium 3 unabhängig ist (Gruppe 2).
+
+Die geeigneten Angebote für jedes Kriterium und ihre Priorität (die bei der Bewertung der Ranglistenfunktion verwendet wird) sind wie folgt:
+
+* Gruppe 1:
+   * Kriterium 1 – (Angebot 1, Angebot 2, Angebot 3) – Priorität 1
+   * Kriterium 2 – (Angebot 3, Angebot 4, Angebot 5) – Priorität 1
+
+* Gruppe 2:
+   * Kriterium 3 – (Angebot 5, Angebot 6) – Priorität 0
+
+Die Angebote mit der höchsten Priorität werden zuerst ausgewertet und der Ranking-Liste der Angebote hinzugefügt.
+
+**Iteration 1:**
+
+Angebote mit Kriterium 1 und Kriterium 2 werden gemeinsam ausgewertet (Angebot 1, Angebot 2, Angebot 3, Angebot 4, Angebot 5). Nehmen wir an, das Ergebnis lautet:
+
+Angebot 1 - 10
+Angebot 2 - 20
+Angebot 3 - 30 aus Kriterium 1, 45 aus Kriterium 2. Der höchste Wert von beiden wird berücksichtigt, also 45.
+Angebot 4 - 40
+Angebot 5 - 50
+
+Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1.
+
+**Iteration 2:**
+
+Angebote mit Kriterium 3 werden bewertet (Angebot 5, Angebot 6). Nehmen wir an, das Ergebnis lautet:
+
+* Angebot 5 - wird nicht ausgewertet, da es bereits im obigen Ergebnis enthalten ist.
+* Angebot 6 - 60
+
+Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, Angebot 2, Angebot 1, Angebot 6.
+
++++
+
+#### Mit mehreren Umfängen {#multiple-scopes}
+
+**Wenn die Duplizierung deaktiviert ist**
+
+Wenn Sie einer Entscheidung mehrere Entscheidungsumfänge hinzufügen und keine Duplizierung zwischen Platzierungen zulässig ist, werden die geeigneten Angebote nacheinander in der Reihenfolge der Entscheidungsumfänge in der Anfrage ausgewählt.
+
+>[!NOTE]
+>
+>Der Parameter **[!UICONTROL Duplikate über Platzierungen hinweg zulassen]** wird auf der Platzierungsebene festgelegt. Wenn die Duplizierung bei einer Platzierung in einer Entscheidungsanfrage auf „false“ gesetzt ist, übernehmen alle Platzierungen in der Anfrage die Einstellung „false“. [Erfahren Sie mehr über Duplizierungsparameter](../offer-library/creating-placements.md)
+
+Nehmen wir ein Beispiel, in dem Sie zwei Entscheidungsumfänge hinzugefügt haben, z. B.:
+
+* Umfang 1: Es gibt vier geeignete Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage lautet, dass zwei Angebote zurückgeschickt werden sollen.
+* Umfang 2: Es gibt vier geeignete Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage lautet, dass zwei Angebote zurückgeschickt werden sollen.
+
++++ **Beispiel 1**
+
+Die findet folgendermaßen statt:
+
+1. Die zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 1, Angebot 2).
+1. Die verbleibenden zwei geeigneten Angebote aus Umfang 2 werden zurückgegeben (Angebot 3, Angebot 4).
+
++++
+
++++ **Beispiel 2**
+
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+
+Die findet folgendermaßen statt:
+
+1. Die verbleibenden zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 3).
+1. Das verbleibende geeignete Angebot aus Umfang 2 wird zurückgegeben (Angebot 4).
+
++++
+
++++ **Beispiel 3**
+
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+
+Die findet folgendermaßen statt:
+
+1. Die verbleibenden zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 4).
+1. Es gibt keine verbleibenden geeigneten Angebote für Umfang 2. Daher wird das [Fallback-Angebot](#add-fallback) zurückgegeben.
+
++++
+
+**Wenn die Duplizierung aktiviert ist**
+
+Wenn Duplizierungen für alle Platzierungen zulässig sind, kann dasselbe Angebot mehrmals für verschiedene Platzierungen vorgeschlagen werden. Wenn diese Option aktiviert ist, berücksichtigt das System dasselbe Angebot für mehrere Platzierungen. [Erfahren Sie mehr über Duplizierungsparameter](../offer-library/creating-placements.md)
+
+Nehmen wir dasselbe Beispiel wie oben, in dem Sie zwei Entscheidungsumfänge hinzugefügt haben, z. B.:
+
+* Umfang 1: Es gibt vier geeignete Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage lautet, dass zwei Angebote zurückgeschickt werden sollen.
+* Umfang 2: Es gibt vier geeignete Angebote (Angebot 1, Angebot 2, Angebot 3, Angebot 4) und die Anfrage lautet, dass zwei Angebote zurückgeschickt werden sollen.
+
++++ **Beispiel 1**
+
+Die findet folgendermaßen statt:
+
+1. Die zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 1, Angebot 2).
+1. Die beiden geeigneten Angebote aus Umfang 2 werden zurückgegeben (Angebot 1, Angebot 2).
+
++++
+
++++ **Beispiel 2**
+
+In diesem Beispiel erreichte Angebot 1 das Frequenzlimit. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+
+Die findet folgendermaßen statt:
+
+1. Die verbleibenden zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 3).
+
+1. Dieselben beiden verbleibenden geeigneten Angebote aus Umfang 2 werden zurückgegeben (Angebot 2, Angebot 3).
+
++++
+
++++ **Beispiel 3**
+
+In diesem Beispiel haben Angebot 1 und Angebot 3 ihr Frequenzlimit erreicht. [Erfahren Sie mehr über Frequenzlimitierung](../offer-library/add-constraints.md#capping)
+
+Die findet folgendermaßen statt:
+
+1. Die verbleibenden zwei geeigneten Angebote aus Umfang 1 werden zurückgegeben (Angebot 2, Angebot 4).
+
+1. Dieselben beiden verbleibenden geeigneten Angebote aus Umfang 2 werden zurückgegeben (Angebot 2, Angebot 4).
+
++++
 
 ## Hinzufügen eines Fallback-Angebots {#add-fallback}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 88%
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -32,18 +32,20 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="Bei einer Marketing-Nachricht, bei der das Versanddatum angegeben wird, ist der Typ **Geplant** am besten geeignet. Wenn Sie jedoch Transaktionsnachrichten, wie etwa jene zum Zurücksetzen des Kennworts oder bei einem Warenkorbabbruch, senden möchten, ist der Typ **API-ausgelöst** die beste Wahl."
+>abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von transaktionalen Nachrichten ab, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="Der Kategoriewert ist direkt mit dem Kampagnentyp-Wert verknüpft. Kampagnentyp „Geplant“ für die Kategorie **Marketing** und „API-gesteuert“ für die Kategorie **Transaktion**"
+>abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Wählen Sie für API-ausgelöste Kampagnen aus, ob Sie eine Nachricht des Typs **Marketing** oder **Transaktion** senden möchten. Beim Typ „Transaktion“ handelt es sich um eine Nachricht, die aufgrund einer von einem Kontakt durchgeführten Aktion gesendet wird: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw."
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 
-   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**.
+   * **[!UICONTROL Geplant]**: die Kampagne wird sofort oder an einem bestimmten Datum ausgeführt. Geplante Kampagnen dienen dem Versand von Nachrichten des Typs **Marketing**. Sie werden über die Benutzeroberfläche konfiguriert und ausgeführt.
 
-   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von **transaktionalen** Nachrichten ab, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+   * **[!UICONTROL API-ausgelöst]**: die Kampagne wird mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von Nachrichten des Typs **Marketing** oder **Transaktion** ab. Beim Typ „Transaktion“ handelt es sich um Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw. [Erfahren Sie, wie Sie eine Kampagne mithilfe von APIs auslösen](api-triggered-campaigns.md)
+
+1. Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Wählen Sie für API-ausgelöste Kampagnen aus, ob Sie eine Nachricht des Typs **Marketing** oder **Transaktion** senden möchten.
 
 1. Wählen Sie im Bereich **[!UICONTROL Aktionen]** den Kanal und die Kanaloberfläche aus, die Sie zum Senden Ihrer Nachricht verwenden möchten.
 
@@ -120,19 +122,18 @@ Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Ka
 
 ## Audience definieren {#audience}
 
-Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
+Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >Für API-ausgelöste Kampagnen muss die Audience über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
-
-Im **[!UICONTROL Identitäts-Namespace]** wählen Sie den Namespace aus, der zur Identifizierung der Kontakte aus der ausgewählten Audience verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace)
+Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
 >[!NOTE]
 >
->Personen, die zu einer Zielgruppe gehören, die nicht über die ausgewählte Identität (den ausgewählten Namespace) verfügt, werden von der Kampagne nicht als Ziel ausgewählt.
+>Personen, die zu einem Segment gehören, das nicht die ausgewählte Identität (den ausgewählten Namespace) hat, werden nicht in die Kampagne einbezogen.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
