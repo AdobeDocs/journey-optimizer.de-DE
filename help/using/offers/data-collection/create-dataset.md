@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
 
    >[!CAUTION]
    >
-   >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrer Rangfolgestrategie verwenden.
+   >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrem KI-Modell verwenden.
 
 1. Geben Sie einen Namen ein und speichern Sie das Schema.
 
@@ -66,4 +66,4 @@ Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Geh
 
 >[!NOTE]
 >
->Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [eine Rangfolgestrategie erstellt wird](#create-ranking-strategy).
+>Dieser Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [Erstellen eines KI-Modells](../ranking/create-ranking-strategies.md).

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
@@ -232,8 +232,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** orderEvaluationType
   **Titel:** Reihenfolgenbewertungstyp
-  **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder eine Rangfolgestrategie, die eine Liste erhält, um eine Sortierung vorzunehmen.
-
+  **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder ein AI-Modell, das eine Liste erhält, um sie zu ordnen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 

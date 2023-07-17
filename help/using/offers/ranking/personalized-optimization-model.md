@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -61,8 +61,8 @@ Im Grunde werden hierbei frühere Merkmalsinteraktionen erlernt und gespeichert 
 
 Das „Kaltstart“-Problem tritt auf, wenn es nicht genügend Daten gibt, um eine Empfehlung bereitzustellen. Bei der automatischen Personalisierung gibt es zwei Arten von „Kaltstart“-Problemen.
 
-* **Nachdem eine neue Rangfolgestrategie ohne historische Daten erstellt wurde**, werden die Angebote über einen bestimmten Zeitraum nach dem Zufallsprinzip bereitgestellt, um Daten zu sammeln, die dann zum Trainieren des ersten Modells verwendet werden.
-* **Nach der Freigabe des ersten Modells** werden 10 % des gesamten Traffics für die zufällige Auslieferung von Angeboten verwendet, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn also neue Angebote in die Rangfolgestrategie aufgenommen werden, würden sie als Teil der 10 % des Traffics bereitgestellt werden. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.
+* **Erstellen eines neuen KI-Modells ohne historische Daten**, werden Angebote für einen Zeitraum zufällig zur Datenerfassung bereitgestellt und die Daten werden zur Schulung des ersten Modells verwendet.
+* **Nach der Freigabe des ersten Modells** werden 10 % des gesamten Traffics für die zufällige Auslieferung von Angeboten verwendet, während 90 % des Traffics für Modellempfehlungen verwendet werden. Wenn dem KI-Modell also neue Angebote hinzugefügt würden, würden sie als Teil des 10 %-Traffics bereitgestellt. Die zu diesen Angeboten gesammelten Daten würden dann im Zuge der weiteren Aktualisierung des Modells bestimmen, wie oft diese Angebote unter den 90 % des Traffics ausgewählt werden.
 
 ## Erneutes Training {#re-training}
 

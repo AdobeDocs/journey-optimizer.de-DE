@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 83%
 
 ---
 
@@ -62,9 +62,9 @@ Wenn mehrere Angebote für diese Platzierung infrage kommen, verwendet die Entsc
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie eine Rangfolgestrategie auswählen. In [diesem Abschnitt](../ranking/create-ranking-strategies.md) erfahren Sie, wie Sie eine Rangfolgestrategie erstellen.
+Sie können auch ein trainiertes Modellsystem verwenden, das Angebote, die für ein bestimmtes Profil angezeigt werden sollen, automatisch nach Rang geordnet, indem Sie ein KI-Modell auswählen. Erfahren Sie, wie Sie ein KI-Modell in erstellen [diesem Abschnitt](../ranking/create-ranking-strategies.md).
 
-Nachdem Sie eine Rangfolgestrategie erstellt haben, können Sie sie einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
+Nachdem ein KI-Modell erstellt wurde, können Sie es einer Platzierung in einer Entscheidung zuweisen. Gehen Sie dazu wie folgt vor:
 
 1. Erstellen Sie eine Entscheidung oder bearbeiten Sie eine bestehende. Siehe [Erstellen von Entscheidungen](../offer-activities/create-offer-activities.md).
 
@@ -77,11 +77,11 @@ Nachdem Sie eine Rangfolgestrategie erstellt haben, können Sie sie einer Platzi
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Wählen Sie die von Ihnen erstellte Rangfolgestrategie aus. Alle Details der Rangfolgestrategie werden angezeigt.
+1. Wählen Sie das von Ihnen erstellte KI-Modell aus. Alle Details des Modells werden angezeigt.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Klicken Sie auf **[!UICONTROL Auswählen]**. Die Rangfolgestrategie ist nun mit der Platzierung verknüpft.
+1. Klicken Sie auf **[!UICONTROL Auswählen]**. Das KI-Modell ist jetzt mit der Platzierung verknüpft.
 
 Wenn mehrere Angebote geeignet sind, bestimmt das System mit trainierten Modellen, welches Angebot zuerst für eine bestimmte Platzierung gezeigt werden soll.
 
