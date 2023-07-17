@@ -12,7 +12,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Aktivität „Anreichern“"
->abstract="Verwenden Sie die Aktivität Anreicherung , um Ihre Zielgruppe mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anzureichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren."
+>abstract="Mit der Aktivität „Anreichern“ können Sie Ihre Zielgruppe mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Zielgruppe gesendeten Sendungen zu personalisieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
