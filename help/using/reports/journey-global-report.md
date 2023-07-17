@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
-workflow-type: ht
-source-wordcount: '2095'
-ht-degree: 100%
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+workflow-type: tm+mt
+source-wordcount: '2087'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
 
-* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die von Adobe Journey Orchestration bei einer Aktion wie den E-Mail- oder SMS-Versand angesprochen werden.
+* **[!UICONTROL Targeting]**: Anzahl der Profile, die für Aktionen wie den E-Mail- oder SMS-Versand ausgewählt wurden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -193,7 +193,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
 
-* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die von Adobe Journey Orchestration bei einer Aktion wie den E-Mail- oder SMS-Versand angesprochen werden.
+* **[!UICONTROL Targeting]**: Anzahl der Profile, die für Aktionen wie den E-Mail- oder SMS-Versand ausgewählt wurden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
