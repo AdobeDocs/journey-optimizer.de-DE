@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Experiment, Reporting, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 91%
 
 ---
 
@@ -49,11 +49,13 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen mindestens eine der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
+* Diese Datensätze müssen die **Erlebnisereignis - Interaktionen bei Vorschlägen** [Feldergruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}.
+
+* Diese Datensätze können auch eine der folgenden enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**.
 
   >[!NOTE]
   >
-  >Derzeit werden nur diese Feldergruppen unterstützt.
+  >Es können auch andere Feldergruppen einbezogen werden, aber in Journey Optimizer-Berichten werden derzeit nur die oben genannten Feldergruppen unterstützt.
 
   Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit der **Commerce-Details**-Feldergruppe erstellen.
 
