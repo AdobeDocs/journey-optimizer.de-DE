@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 98%
+source-wordcount: '1415'
+ht-degree: 90%
 
 ---
 
 # Arbeiten mit der Arbeitsfläche für Kompositionen {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Die Audience-Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Audiences erstellen und verschiedene Aktivitäten (Aufspaltung, Anreicherung usw.) verwenden können.
 
@@ -137,9 +143,11 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 
 Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
 
->[!IMPORTANT]
->
->Derzeit werden Kennzeichnungen im Datensatz, ob auf Datensatz- oder auf Feldebene, nicht an die neu erstellte Audience weitergegeben. Dies kann sich auf die Zugriffskontrolle und/oder die Data Governance für die resultierende Audience auswirken. Verwenden Sie daher beim Erstellen von Audiences nur Testdaten.
+Beachten Sie die folgenden Einschränkungen bei der Arbeit mit dem **[!UICONTROL Anreichern]** Aktivität:
+
+* **Datensätze** für die Anreicherung muss vom Typ Datensatz sein (im Gegensatz zum Ereignistyp), und es darf sich nicht um einen Systemdatensatz handeln oder für ein Profil markiert werden. Sie müssen unter 1 GB liegen.
+* **Die Anreicherung unterstützt einen 1:1-Join**. Wenn die Join-Schlüssel mehr als eine Übereinstimmung im Anreicherungsdatensatz aufweisen, wählt das System eine der Treffer aus und verwendet diese für den 1:1-Join.
+* **Zielgruppen können in RTCDP-Zielen aktiviert werden**, aber ihre Anreicherungsattribute, sofern vorhanden, können dies nicht tun.
 
 Gehen Sie wie folgt vor, um die Aktivität zu konfigurieren:
 

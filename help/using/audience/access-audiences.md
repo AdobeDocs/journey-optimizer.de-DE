@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 88%
+source-wordcount: '169'
+ht-degree: 71%
 
 ---
 
 # Zugreifen auf und Verwalten von Audiences {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Auf aus der Zielgruppenzusammensetzung resultierende Zielgruppen kann über die **[!UICONTROL Durchsuchen]** im **[!UICONTROL Zielgruppen]** Menü.
 
