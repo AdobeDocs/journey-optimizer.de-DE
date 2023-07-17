@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Journey, Einschränkung
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 84%
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
-## Allgemeine Aktionseinschränkungen
+## Allgemeine Aktionseinschränkungen {#action-limitations}
 
 * Es gibt keine Nachrichtendrosselung beim Versand. 
 * Im Falle eines Fehlers werden systematisch drei weitere Zustellversuche durchgeführt. Sie können die Anzahl der weiteren Zustellversuche nicht entsprechend der erhaltenen Fehlermeldung anpassen. 
@@ -35,7 +35,7 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
 * Eine Journey, die mit einer **Audience lesen** kann nicht mit einem anderen Ereignis in den nächsten Versionen beginnen.
  
-## Benutzerdefinierte Aktionen  Einschränkungen
+## Benutzerdefinierte Aktionen  Einschränkungen {#custom-actions-limitations}
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
 * Es werden nur POST- und PUT-Aufrufmethoden unterstützt. 
@@ -43,11 +43,11 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 * IP-Adressen sind nicht zulässig. 
 * Interne Adobe-Adressen (.adobe.) sind nicht zulässig.
  
-## Einschränkungen bei Ereignissen
+## Einschränkungen bei Ereignissen {#events-limitations}
 
 * Für systemgenerierte Ereignisse müssen Streaming-Daten, die zur Initiierung einer Customer Journey verwendet werden, zunächst innerhalb von Journey Optimizer konfiguriert werden, um eine eindeutige Orchestrierungs-ID zu erhalten. Diese Orchestrierungs-ID muss an die Streaming-Payload angehängt werden, die in Adobe Experience Platform eingeht. Diese Einschränkung gilt nicht für regelbasierte Ereignisse.
  
-## Datenquellen  Einschränkungen
+## Datenquellen  Einschränkungen {#data-sources-limitations}
 
 * Externe Datenquellen können in einer Customer Journey genutzt werden, um externe Daten in Echtzeit zu suchen. Diese Quellen müssen über die REST-API nutzbar sein, JSON unterstützen und in der Lage sein, das Anfragevolumen zu verarbeiten.
 
@@ -63,6 +63,6 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
 
-## Audience-Einschränkungen lesen
+## Audience-Einschränkungen lesen {#read-audiences-limitations}
 
 * Streaming-Zielgruppen sind immer aktuell, Batch-Zielgruppen werden jedoch nicht zum Zeitpunkt des Abrufs berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
