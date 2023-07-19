@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 90%
+source-wordcount: '1417'
+ht-degree: 88%
 
 ---
 
@@ -139,7 +139,7 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Anreicherungsattribute"
->abstract="Wählen Sie ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Audience verknüpft werden sollen. Nach der Veröffentlichung der Komposition werden diese Attribute mit der Audience verknüpft und können in Kampagnen zur Personalisierung von Sendungen genutzt werden."
+>abstract="Wählen Sie ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Audience verknüpft werden sollen. Nach der Veröffentlichung der Komposition werden diese Attribute mit der Zielgruppe verknüpft und können in Journey Optimizer-Kampagnen zur Personalisierung von Sendungen genutzt werden."
 
 Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
 
