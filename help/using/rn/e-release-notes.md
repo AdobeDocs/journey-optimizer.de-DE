@@ -5,7 +5,7 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
+source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 26%
@@ -73,7 +73,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können jetzt alle HTML-Inhalte im E-Mail-Editor von Journey Optimizer importieren und konvertieren. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: nutzt seine leistungsstarken Designfunktionen, um es zu aktualisieren und zu personalisieren!</p>
-<!--img src="../audience/assets/audiences-publish.png"/-->
+<img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
