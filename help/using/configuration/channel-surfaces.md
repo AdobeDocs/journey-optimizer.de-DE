@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
+source-git-commit: 73ef16b03f76b61da95b48a411b07854c59c6487
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1626'
 ht-degree: 96%
 
 ---
@@ -101,7 +101,8 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    > Beim Erstellen einer E-Mail-Oberfläche für eine Subdomain variiert die Verarbeitungszeit wie unten beschrieben:
    >
    > * Für **neue Subdomains**, kann der Prozess zur Erstellung der ersten Kanaloberfläche **10 Minuten bis 10 Tage**.
-   > * Für **Nicht-Produktions-Sandboxes** oder wenn die ausgewählte Subdomain **bereits verwendet** in einer anderen Kanaloberfläche nimmt der Prozess nur **3 Stunden**.
+   > * Für **Nicht-Produktions-Sandboxes** oder wenn die ausgewählte Subdomain **bereits verwendet** in einer anderen genehmigten Kanaloberfläche nimmt der Prozess nur bis zu **3 Stunden**.
+
 
    Zu diesen Prüfungen gehören Konfigurations- und technische Tests, die vom Adobe-Team durchgeführt werden:
 
