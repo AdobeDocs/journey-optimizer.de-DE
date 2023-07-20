@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 26%
+source-wordcount: '617'
+ht-degree: 27%
 
 ---
 
@@ -90,7 +90,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können Ihren Landingpages, Vorlagen, Inhaltsfragmenten und Abonnementlisten jetzt Adobe Experience Platform Unified Tags zuweisen - zusätzlich zu Kampagnen und Journey. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. Diese Funktion ist derzeit allgemein verfügbar (allgemein verfügbar).</p>
+<p>Zusätzlich zu Kampagnen und Journey können Sie Ihren Landingpages, Vorlagen, Inhaltsfragmenten und Abonnementlisten jetzt Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -103,6 +103,16 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
+**Journeys**
+
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+
+
+**Kampagnen**
+
+* Kontextereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü &quot;Kontextuelle Attribute&quot;des Personalisierungseditors verfügbar.
+
+
 **Zielgruppen**
 
 Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
@@ -114,13 +124,4 @@ Mit der Veröffentlichung des Portals &quot;Zielgruppenkomposition&quot;haben Ad
 
 Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
-
-**Journeys**
-
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
-
-
-**Kampagnen**
-
-* Kontextereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü &quot;Kontextuelle Attribute&quot;des Personalisierungseditors verfügbar.
 
