@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 1cfa4484329355310205421072af65f5dec32b5b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 28%
+source-wordcount: '626'
+ht-degree: 26%
 
 ---
 
@@ -55,9 +55,10 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer erweitert seine kanalübergreifenden Funktionen durch die Unterstützung des Briefpost-Kanals. Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.</p>
-<!--img src="assets/do-not-localize/web-authoring.gif"/>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p-->
+<p>Sie können jetzt Ihren Kampagnen und Journey Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, über den Sie die von Briefpost-Dienstleistern benötigten Dateien personalisieren und generieren können, um E-Mails an Ihre Kunden zu senden.</p>
+<p>Bei der Vorbereitung eines Briefpost-Versands erzeugt Journey Optimizer eine Datei mit allen Zielgruppenprofilen und den ausgewählten Kontaktinformationen (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.</p>
+<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>Weitere Informationen finden Sie in der <a href="../direct-mail/create-direct-mail.md">detaillierten Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
