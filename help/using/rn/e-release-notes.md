@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 27%
+source-wordcount: '636'
+ht-degree: 26%
 
 ---
 
@@ -106,6 +106,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Journeys**
 
 * Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
+
 
 
 **Kampagnen**
@@ -123,5 +125,6 @@ Mit der Veröffentlichung des Portals &quot;Zielgruppenkomposition&quot;haben Ad
 * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
 
 Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+
 
 
