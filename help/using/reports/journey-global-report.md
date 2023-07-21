@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2057'
 ht-degree: 98%
 
 ---
@@ -271,8 +271,6 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
-
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
@@ -280,8 +278,6 @@ Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfo
 Das Widget **[!UICONTROL SMS-Zusammenfassung]** präsentiert die wichtigsten Informationen zu Ihrer Nachricht mit einem Diagramm:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
