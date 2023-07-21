@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 24%
+source-wordcount: '740'
+ht-degree: 21%
 
 ---
 
@@ -26,6 +26,23 @@ Frühe Versionshinweise unten können bis zum Verfügbarkeitsdatum der Version o
 ### Neue Funktionen{#july-2023-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs für Inhaltsvorlagen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Adobe Journey Optimizer-Inhaltsvorlagen mithilfe dedizierter APIs erstellen und verwalten, um eine nahtlose Integration in Ihr vorhandenes Inhaltssystem zu ermöglichen.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
 
 
-
 **Kampagnen**
 
 * Kontextereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü &quot;Kontextuelle Attribute&quot;des Personalisierungseditors verfügbar.
@@ -126,5 +142,15 @@ Mit der Veröffentlichung des Portals &quot;Zielgruppenkomposition&quot;haben Ad
 
 Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
+**APIs**
+
+Authentifizierung der Adobe Journey Optimizer-APIs - Die JWT-Methode zum Generieren von Zugriffstoken wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der OAuth Server-zu-Server-Authentifizierungsmethode erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**Weitere Änderungen**
+
+Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt für alle Kunden verfügbar. Mit dieser Funktion können Sie eine Live-Verbindung mit Cloud-Speicherorten herstellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>Diese Funktion befindet sich derzeit in der Beta-Phase und kann geändert werden.</p>
