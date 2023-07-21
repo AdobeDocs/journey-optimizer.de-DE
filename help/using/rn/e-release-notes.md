@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 26%
+source-wordcount: '616'
+ht-degree: 24%
 
 ---
 
@@ -55,7 +55,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ihren Kampagnen und Journey Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, über den Sie die von Briefpost-Dienstleistern benötigten Dateien personalisieren und generieren können, um E-Mails an Ihre Kunden zu senden.</p>
+<p>Sie können jetzt Ihren Kampagnen Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, über den Sie die von Briefpost-Dienstleistern benötigten Dateien personalisieren und generieren können, um E-Mails an Ihre Kunden zu senden.</p>
 <p>Bei der Vorbereitung eines Briefpost-Versands erzeugt Journey Optimizer eine Datei mit allen Zielgruppenprofilen und den ausgewählten Kontaktinformationen (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>Weitere Informationen finden Sie in der <a href="../direct-mail/create-direct-mail.md">detaillierten Dokumentation</a>.</p>
@@ -90,7 +90,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Zusätzlich zu Kampagnen und Journey können Sie Ihren Landingpages, Vorlagen, Inhaltsfragmenten und Abonnementlisten jetzt Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
+<p>Zusätzlich zu Kampagnen und Journey können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnementlisten jetzt Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -105,7 +105,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
 
 
