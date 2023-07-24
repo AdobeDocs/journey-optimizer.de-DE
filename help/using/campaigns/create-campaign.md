@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '863'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Bevor Sie eine neue Kampagne erstellen, stellen Sie sicher, dass Sie über einen Oberflächenkanal (d. h. eine Nachrichtenvorgabe) und eine Adobe Experience Platform-Zielgruppe verfügen. Weitere Informationen finden Sie in den folgenden Abschnitten:
+>Bevor Sie eine neue Kampagne erstellen, überprüfen Sie, ob Sie über eine einsatzbereite Kanaloberfläche (d. h. Nachrichtenvoreinstellung) und Adobe Experience Platform-Zielgruppe verfügen. Weitere Informationen finden Sie in den folgenden Abschnitten:
 >
 >* [Erstellen von Kanaloberflächen](../configuration/channel-surfaces.md)
 >* [Erste Schritte mit Zielgruppen](../audience/about-audiences.md)
