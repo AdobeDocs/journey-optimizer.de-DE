@@ -9,9 +9,9 @@ level: Beginner
 keywords: Journey, Entdecken, erste Schritte
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Bitte [!DNL Journey Optimizer] verwenden, um Anwendungsfälle für die Echtzeit-
 
 Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
-* Echtzeit-Versand **Einzelversand** ausgelöst wird, wenn ein Ereignis empfangen wird, oder **in Batch** Verwendung von Adobe Experience Platform-Zielgruppen.
+* Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **als Batch** unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
 * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
 * Verwenden Sie die **integrierten Aktionen** zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-* Mit dem **Journey Designer**, erstellen Sie Ihre mehrstufigen Anwendungsfälle: Fügen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Audience-lesen-Aktivität hinzu, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+* Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 
 >[!NOTE]
