@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 
    ![](assets/push_create_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen zu definieren. [Weitere Informationen](../audience/about-audiences.md).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Zielgruppe aus der Liste der verfügbaren Adobe Experience Platform-Zielgruppen zu definieren. [Weitere Informationen](../audience/about-audiences.md).
 
-1. Im **[!UICONTROL Identitäts-Namespace]** wählen Sie den Namespace aus, der zur Identifizierung der Kontakte aus der ausgewählten Audience verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
+1. Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen in der ausgewählten Zielgruppe verwendet werden soll. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
