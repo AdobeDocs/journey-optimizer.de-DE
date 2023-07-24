@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ Bei der Nutzung von Angeboten werden Personalisierungsvoreinstellungen nicht aut
 >
 >Entscheidungsbereiche, die von in [!DNL Journey Optimizer] verfassten Kanälen verwendet werden, erfüllen diese Anforderung der Journey oder Kampagne, zu der sie gehören.
 
-1. Erstellen Sie eine [Adobe Experience Platform-Audience](../audience/access-audiences.md) mithilfe der [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"} und verwenden ein Profilattribut wie **[!UICONTROL Inhalt personalisieren = Ja (Opt-in)]** , um Benutzer anzusprechen, die der Personalisierung zugestimmt haben.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/access-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"} und verwenden Sie ein Profilattribut wie **[!UICONTROL Inhalt personalisieren = Ja (Opt-in)]**, um Benutzende anzusprechen, die sich mit einer Personalisierung einverstanden erklärt haben.
 
    ![](assets/perso-consent-od-audience.png)
 
-1. Beim Erstellen einer [Entscheidung](../offers/offer-activities/create-offer-activities.md), fügen Sie einen Entscheidungsbereich hinzu und definieren Sie eine auf dieser Zielgruppe basierende Eignungsbegrenzung für jede Bewertungskriterien-Kollektion, die personalisierte Angebote enthält.
+1. Fügen Sie beim Erstellen einer [Entscheidung](../offers/offer-activities/create-offer-activities.md) einen Entscheidungsumfang hinzu und definieren Sie eine auf dieser Zielgruppe basierende Eignungsbegrenzung für jede Sammlung von Auswertungskriterien, die personalisierte Angebote enthält.
 
    ![](assets/perso-consent-od-audience-decision.png)
 
@@ -93,87 +93,87 @@ Haben Benutzende:
 >
 >Das Einverständnis für die Verwendung von Profildaten in [Datenmodellierung](../offers/ranking/ai-models.md) wird noch nicht in [!DNL Journey Optimizer] unterstützt.
 
-## Im Ausdruckseditor:
+## Im Ausdruckseditor
 
 <!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
 
-Die [Ausdruckseditor](../personalization/personalization-build-expressions.md) selbst führt keine Einwilligungsüberprüfungen oder Durchsetzungsmaßnahmen durch, da diese nicht an der Zustellung von Nachrichten beteiligt sind.
+Der [Ausdruckseditor](../personalization/personalization-build-expressions.md) selbst führt keine Einverständnisprüfung oder -durchsetzung durch, da er nicht am Versand von Nachrichten beteiligt ist.
 
-Die Verwendung von Steuerelementen für den Zugriff auf rechte ermöglicht jedoch die Beschränkung der für die Personalisierung verwendbaren Felder. Die [Nachrichtenvorschau](../email/preview.md#preview-email) und [E-Mail-Rendering-Dienst](../email/preview.md#email-rendering) maskiert die mit sensiblen Informationen identifizierten Felder.
+Die Verwendung von berechtigungsbasierten Zugriffssteuerungskennzeichnungen ermöglicht jedoch die Beschränkung der für die Personalisierung verwendbaren Felder. Die [Nachrichtenvorschau](../email/preview.md#preview-email) und der [E-Mail-Rendering-Service](../email/preview.md#email-rendering) maskieren die Felder, in denen sensible Informationen identifiziert wurden.
 
 >[!NOTE]
 >
->Erfahren Sie mehr über die Zugriffskontrolle auf Objektebene (OLAC) in [diesem Abschnitt](../administration/object-based-access.md).
+>Weitere Informationen zur Zugriffssteuerung auf Objektebene (Object Level Access Control, OLAC) finden Sie in [diesem Abschnitt](../administration/object-based-access.md).
 
 
-In [!DNL Journey Optimizer] -Kampagnen wird die Einwilligungsrichtlinie wie folgt durchgesetzt:
+In [!DNL Journey Optimizer]-Kampagnen wird die Einverständnisrichtlinie wie folgt durchgesetzt:
 
-* Sie können Definitionen von Zustimmungsrichtlinien im Rahmen der Zielgruppenerstellung einbeziehen, um sicherzustellen, dass die für die Kampagne ausgewählte Zielgruppe bereits **Profile herausgefiltert, die nicht den Zustimmungskriterien entsprechen**.
+* Sie können Definitionen von Einverständnisrichtlinien als Teil der Zielgruppenerstellung einbeziehen, um sicherzustellen, dass die für die Kampagne ausgewählte Zielgruppe bereits **Profile herausgefiltert hat, die nicht den Einverständniskriterien entsprechen**.
 
-* [!DNL Journey Optimizer] führt auf Kanalebene eine allgemeine Zustimmungsprüfung durch, um **sicherstellen, dass Profile sich für** für den Empfang von Marketingnachrichten über den entsprechenden Kanal.
+* [!DNL Journey Optimizer] führt eine allgemeine Einverständnisprüfung auf Kanalebene durch, um **sicherzustellen, dass sich Profile per Opt-in auch wirklich dafür entschieden** haben, Marketing-Mitteilungen über den entsprechenden Kanal zu erhalten.
 
   >[!NOTE]
   >
-  >Die [!DNL Journey Optimizer] Das Kampagnenobjekt selbst führt derzeit keine zusätzlichen Prüfungen zur Durchsetzung der Einwilligungsrichtlinien durch.
+  >Das [!DNL Journey Optimizer]-Kampagnenobjekt selbst führt derzeit keine zusätzlichen Prüfungen zur Durchsetzung der Einverständnisrichtlinie durch.
 
-Um die Zustimmung zur Personalisierung in Kampagnen manuell zu erzwingen, führen Sie eine der folgenden Optionen aus.
+Um das Einverständnis zur Personalisierung in Kampagnen manuell durchzusetzen, nutzen Sie eine der folgenden Möglichkeiten.
 
-### Verwenden des Segmentregel-Builders
+### Verwenden des Segment-Regel-Builders
 
-Sie können den Segment Rule Builder verwenden, um eine Zielgruppe mit Opt-out-Profilen zu erstellen.
+Sie können den Segment-Regel-Builder verwenden, um eine Zielgruppe mit Opt-out-Profilen zu erstellen.
 
-1. Erstellen Sie eine [Adobe Experience Platform-Audience](../audience/access-audiences.md) mithilfe der [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"}.
+1. Erstellen Sie eine [Adobe Experience Platform-Zielgruppe](../audience/access-audiences.md) mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
-1. Wählen Sie ein Profilattribut aus, z. B. **[!UICONTROL Inhalt personalisieren = Nein (Opt-out)]** , um Benutzer auszuschließen, die der Personalisierung nicht zugestimmt haben.
+1. Wählen Sie ein Profilattribut aus, z. B. **[!UICONTROL Inhalt personalisieren = Nein (Opt-out)]**, um Benutzende auszuschließen, die sich nicht mit einer Personalisierung einverstanden erklärt haben.
 
    ![](assets/perso-consent-audience-no.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die der Personalisierung nicht zugestimmt haben.
+Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die sich nicht mit einer Personalisierung im Rahmen Ihrer Kampagnen einverstanden erklärt haben.
 
-### Verwendung einer Aufspaltungsaktivität in einem Komprimierungs-Workflow
+### Verwenden einer Aufteilungsaktivität in einem Kompositions-Workflow
 
-Sie können einer Audience auch eine Überprüfung der Personalisierungszustimmung hinzufügen, indem Sie eine Aufspaltungsaktivität zu einem Kompositions-Workflow hinzufügen.
+Sie können einer Zielgruppe auch eine Einverständnisprüfung für die Personalisierung hinzufügen, indem Sie eine Aufteilungssaktivität zu einem Kompositions-Workflow hinzufügen.
 
-1. Erstellen Sie eine Zielgruppe mithilfe der **[!UICONTROL Zielgruppe erstellen]** -Option. [Erfahren Sie mehr über das Erstellen eines Kompositionsarbeitsablaufs](../audience/create-compositions.md)
+1. Erstellen Sie eine Zielgruppe mithilfe der Option **[!UICONTROL Zielgruppe erstellen]**. [Weitere Informationen zum Erstellen eines Kompositions-Workflows](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
-1. Fügen Sie Ihre Zielgruppe über die dedizierte Schaltfläche rechts hinzu.
+1. Fügen Sie Ihre Ausgangszielgruppe über die dedizierte Schaltfläche rechts hinzu.
 
-1. Klicken Sie auf das Symbol + und wählen Sie **[!UICONTROL Aufspaltung]** , um eine aufgeteilte Zielgruppe zu erstellen. [Erfahren Sie mehr über die Aufspaltung .](../audience/composition-canvas.md#split)
+1. Klicken Sie auf das Symbol „+“ und wählen Sie **[!UICONTROL Aufteilung]** aus, um eine aufgespaltene Zielgruppe zu erstellen. [Weitere Informationen zur Aufteilungsaktivität](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Auswählen **[!UICONTROL Attributaufteilung]** als Aufspaltungstyp im rechten Bereich.
+1. Legen Sie rechts **[!UICONTROL Attributaufteilung]** als Aufteilungstyp fest.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
-1. Klicken Sie auf das Stiftsymbol neben dem **[!UICONTROL Attribut]** -Feld, um **[!UICONTROL Profilattribut auswählen]** Fenster.
+1. Klicken Sie auf das Stiftsymbol neben dem Feld **[!UICONTROL Attribut]**, um das Fenster **[!UICONTROL Profilattribut auswählen]** aufzurufen.
 
-1. Suchen Sie nach dem Personalisierungszustimmungsattribut (`profile.consents.personalize.content.val`) und wählen Sie sie aus.
+1. Suchen Sie nach dem Einverständnisattribut für die Personalisierung (`profile.consents.personalize.content.val`) und wählen Sie es aus.
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL Pfad 1]** ist die nicht personalisierte Zielgruppe. Wählen Sie einen entsprechenden Titel aus.
+1. **[!UICONTROL Pfad 1]** ist die nicht personalisierte Zielgruppe. Wählen Sie eine entsprechende Kennzeichnung.
 
-1. Wählen Sie den entsprechenden Wert aus diesem [Liste](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
+1. Wählen Sie den entsprechenden Wert aus dieser [Liste](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values){target="_blank"}.
 
-   In diesem Fall verwenden wir `n` , um anzugeben, dass Benutzer der Verwendung ihrer Daten zur Personalisierung nicht zustimmen.
+   In diesem Fall verwenden wir `n`, um anzugeben, dass Benutzende mit der Nutzung ihrer Daten zwecks Personalisierung nicht einverstanden sind.
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. Sie können einen separaten Pfad für andere Auswahlwerte erstellen. Sie können auch die verbleibenden Pfade löschen und aktivieren **[!UICONTROL Andere Profile]** um alle anderen Profile einzubeziehen, die nicht über den Auswahlwert `n`.
+1. Sie können einen separaten Pfad für andere Auswahlwerte erstellen. Sie können auch die verbleibenden Pfade löschen und **[!UICONTROL Sonstige Profile]** aktivieren, um alle anderen Profile einzubeziehen, die nicht über den Auswahlwert `n` verfügen.
 
-1. Klicken Sie abschließend auf **[!UICONTROL Zielgruppe speichern]** für jeden Pfad, um das Ergebnis Ihres Workflows in einer neuen Audience zu speichern. Für jeden Pfad wird eine Zielgruppe in Adobe Experience Platform gespeichert.
+1. Klicken Sie abschließend für jeden Pfad auf **[!UICONTROL Zielgruppe speichern]**, um das Ergebnis Ihres Workflows in einer neuen Zielgruppe zu speichern. Für jeden Pfad wird eine Zielgruppe in Adobe Experience Platform gespeichert.
 
 1. Veröffentlichen Sie nach Abschluss den Kompositions-Workflow.
 
-Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die der Personalisierung nicht zugestimmt haben.
+Sie können diese Zielgruppe nun verwenden, um die Profile herauszufiltern, die sich nicht mit einer Personalisierung im Rahmen Ihrer Kampagnen einverstanden erklärt haben.
 
 >[!NOTE]
 >
->Wenn Sie eine Audience erstellen, die der Personalisierung nicht zugestimmt hat, und diese Audience dann in einer Kampagne auswählen, bleiben die Personalisierungswerkzeuge verfügbar. Es liegt an Ihren Marketing-Benutzern, zu verstehen, dass sie, wenn sie mit einer Zielgruppe arbeiten, die keine Personalisierung erhält, keine Personalisierungswerkzeuge verwenden sollten.
+>Bei der Erstellung einer Zielgruppe, die kein Einverständnis für eine Personalisierung erteilt hat, und der anschließenden Auswahl dieser Zielgruppe in einer Kampagne sind Personalisierungs-Tools weiterhin verfügbar. Ihre Marketing-Anwendenden sind selbst dafür verantwortlich, keine Personalisierungs-Tools zu verwenden, wenn mit einer Zielgruppe gearbeitet wird, für die keine Personalisierung durchgeführt werden soll.
