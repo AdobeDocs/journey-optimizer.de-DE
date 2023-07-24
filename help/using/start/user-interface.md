@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Verwalten Sie Ihre Datenverbindungen mit anderen Apps und Clouds aus diesem Absc
 
 Verwalten Sie Ihre Zielgruppen und Profildaten aus diesem Abschnitt.
 
-* **[!UICONTROL Zielgruppen]** - Erstellen und verwalten Sie Zielgruppen der Experience Platform und verwenden Sie sie in Ihren Journey. [Weitere Informationen](../audience/about-audiences.md)
+* **[!UICONTROL Zielgruppen]**: Erstellen und verwalten Sie Adobe Experience Platform-Zielgruppen und nutzen Sie diese in Ihren Journeys. [Weitere Informationen](../audience/about-audiences.md)
 
 * **[!UICONTROL Abonnementlisten]** – In [!DNL Journey Optimizer] werden Kundinnen und Kunden, die sich für einen Abonnementdienst angemeldet haben, in einer Abonnementliste erfasst. [Weitere Informationen](../landing-pages/subscription-list.md)
 
