@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ In [!DNL Adobe Journey Optimizer] verknüpfen **Identitäten** Verbraucher gerä
 
 ![](assets/identities-home.png)
 
-Weitere Informationen zu **Identity Service** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
+Weitere Informationen zum **Identity Service** finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de){target="_blank"}.
 
 ## Identity-Namespaces {#identity-namespaces}
 
