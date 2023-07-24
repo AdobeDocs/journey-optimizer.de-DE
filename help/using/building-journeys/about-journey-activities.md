@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Die vom/von der technischen Benutzenden konfigurierten Ereignisse (siehe [diese 
 
 * [Allgemeine Ereignisse](../building-journeys/general-events.md)
 * [Reaktion](../building-journeys/reaction-events.md)
-* [Zielgruppenqualifikation](../building-journeys/audience-qualification-events.md)
+* [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ In der Palette auf der linken Seite des Bildschirms stehen die folgenden Orchest
 
 * [Bedingung](../building-journeys/condition-activity.md)
 * [Warten](../building-journeys/wait-activity.md)
-* [Audience lesen](../building-journeys/read-audience.md)
+* [Zielgruppe lesen](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 
