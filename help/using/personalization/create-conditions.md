@@ -10,15 +10,15 @@ level: Intermediate
 keywords: Ausdruck, Editor, bedingt, Regeln
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit bedingten Regeln {#conditions}
 
-Bedingte Regeln sind Regelsätze, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll, je nach verschiedenen Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextbezogenen Ereignissen.
+Bedingte Regeln sind Reihen von Regeln, die festlegen, welche Inhalte in Ihren Nachrichten angezeigt werden sollen. Sie sind abhängig von verschiedenen Kriterien wie Profilattributen, Zielgruppenzugehörigkeit oder kontextbezogenen Ereignissen.
 
 Bedingte Regeln werden mit dem Ausdruckseditor erstellt und können gespeichert werden, wenn Sie sie für Ihre Inhalte wiederverwenden möchten. [Erfahren Sie, wie Sie eine bedingte Regel in der Bibliothek speichern](#save)
 
@@ -60,13 +60,13 @@ Die Schritte zum Kombinieren von Attributen auf der Arbeitsfläche ähneln denen
 
     ![](assets/conditions-create.png)
     
-    Attribute sind in drei Registerkarten unterteilt:
+    Attribute sind auf drei Registerkarten aufgeteilt:
     
     * **[!UICONTROL Profil]**:
-    * **[!UICONTROL Zielgruppen]** listet alle Zielgruppenattribute auf (d. h. Status, Version usw.) für [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-    * **[!UICONTROL Individuelle XDM-Profile]** listet alle Profilattribute auf, die mit dem in Adobe Experience Platform definierten [Experience-Datenmodell (XDM)-Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) verknüpft sind.
-    * **[!UICONTROL Kontextuell]**: Wenn Ihre Nachricht in einer Journey verwendet wird, stehen Ihnen auf dieser Registerkarte kontextbezogene Journey-Felder zur Verfügung.
-    * **[!UICONTROL Zielgruppen]**: listet alle Zielgruppen auf, die aus Segmentdefinitionen generiert wurden, die in [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) erstellt wurden.
+    * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppenattribute (z. B. Status und Version) für den [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) auf.
+    * **[!UICONTROL XDM-Profile für Einzelpersonen]**: Listet alle Profilattribute auf, die mit dem in Adobe Experience Platform definierten [Experience-Datenmodell(XDM)-Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de) verknüpft sind.
+    * **[!UICONTROL Kontextuell]: Wenn die Nachricht in einer Journey verwendet wird, stehen auf dieser Registerkarte kontextuelle Journey-Felder zur Verfügung.
+    * **[!UICONTROL Zielgruppen]**: Listet alle Zielgruppen auf, die aus im [Adobe Experience Platform-Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de) generierten Segmentdefinitionen erstellt wurden.
 
 1. Wenn Ihre bedingte Regel fertig ist, können Sie sie zu Ihrer Nachricht hinzufügen, um dynamische Inhalte zu erstellen. [Erfahren Sie, wie dynamische Inhalte hinzugefügt werden](dynamic-content.md)
 
