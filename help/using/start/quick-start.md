@@ -9,15 +9,15 @@ role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # Schnellstart {#cjm-quick-start}
 
-Mit [!DNL Adobe Journey Optimizer]können Sie vorhandenen Nachrichteninhalt importieren oder einen neuen Inhalt erstellen, Nachrichten mit Kundenprofildaten personalisieren, Trigger-Nachrichten-Ereignisse erstellen, Zielgruppen definieren, Angebote erstellen und hinzufügen und auf einen vollständigen Satz von Reporting- und Überwachungstools zugreifen, um die Wirkung Ihrer Nachrichten und Journey zu messen.
+Mit [!DNL Adobe Journey Optimizer] können Sie vorhandene Nachrichteninhalte importieren und neue Inhalte entwerfen, Nachrichten mit Kundenprofildaten personalisieren, Ereignisse erstellen, die Nachrichten auslösen, Zielgruppen definieren, Angebote erstellen und hinzufügen und auf ein komplettes Set von Berichts- und Überwachungs-Tools zugreifen, um die Auswirkungen Ihrer Nachrichten und Customer Journeys zu messen.
 
 Abhängig von Ihrem Unternehmen können Sie verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
