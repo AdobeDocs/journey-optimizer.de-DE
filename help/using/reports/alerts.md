@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Informationen zum Abonnieren und Konfigurieren von Warnhinweisen finden Sie auf 
 
 >[!AVAILABILITY]
 >
->Einige Designänderungen werden für den Warnhinweis &quot;Audience Trigger nicht erfolgreich lesen&quot;durchgeführt. Daher wird dieser Warnhinweis vorerst angehalten und vorübergehend aus der Benutzeroberfläche entfernt. Sobald diese Änderungen veröffentlicht werden, wird der Warnhinweis erneut angezeigt und kann abonniert werden.
+>Einige Design-Änderungen werden derzeit für den Warnhinweis „Auslöser für Zielgruppenlesen erfolglos“ eingepflegt. Daher wird dieser Warnhinweis vorerst ausgesetzt und vorübergehend aus der Benutzeroberfläche entfernt. Sobald diese Änderungen veröffentlicht werden, wird der Warnhinweis erneut angezeigt und kann abonniert werden.
 >
 
 Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**.
