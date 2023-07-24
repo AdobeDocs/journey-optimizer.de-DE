@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
    {%/if%}
    ```
 
-1. **Bedingter Inhalt basierend auf Zielgruppenmitgliedschaft**
+1. **Bedingte Inhalte basierend auf Zielgruppenzugehörigkeit**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ Die `elseif`-Anweisung gibt eine weitere Bedingung an, die geprüft wird, wenn d
 
 >[!NOTE]
 >
->Weiterführende Informationen zu Zielgruppen und zum Segmentierungsdienst finden Sie in diesem Abschnitt [Abschnitt](../../audience/about-audiences.md).
+>Weitere Informationen zu Zielgruppen und zum Segmentierungs-Service finden Sie in diesem [Abschnitt](../../audience/about-audiences.md).
 
 
 ## Außer{#unless}
