@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 1. Geben Sie einen eindeutigen Namen und eine Beschreibung für das KI-Modell an und wählen Sie dann die Art des KI-Modells, das Sie erstellen möchten:
 
    * **[!UICONTROL Automatische Optimierung]** optimiert Angebote basierend auf der bisherigen Angebotsleistung. [Weitere Informationen](auto-optimization-model.md)
-   * **[!UICONTROL Personalisierte Optimierung]** optimiert und personalisiert Angebote auf der Basis von Zielgruppen und Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
+   * Die **[!UICONTROL personalisierte Optimierung]** optimiert und personalisiert Angebote auf Grundlage von Zielgruppen und Angebotsleistung. [Weitere Informationen](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um ein neues KI-Modell zu erstellen:
 
    >[!NOTE]
    >
-   >Sie können bis zu fünf Zielgruppen auswählen.
+   >Sie können bis zu 5 Zielgruppen auswählen.
 
 1. Speichern und aktivieren Sie das KI-Modell.
 
