@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Adobe Ex
 
    >[!NOTE]
    >
-   >Wenn Sie Adobe Journey Optimizer zusammen mit Echtzeit-Kundenprofilen verwenden, wird auf den Zielkarten die Schaltfläche &quot;Aktivieren&quot;angezeigt, über die Sie Datensätze exportieren und Zielgruppen für dieses Ziel aktivieren können. Dies hängt von den Berechtigungen ab, die Sie aktiviert haben.
+   >Wenn Sie Adobe Journey Optimizer zusammen mit Echtzeit-Kundenprofilen verwenden, wird auf den Zielkarten die Schaltfläche „Aktivieren“ angezeigt, mit der Sie abhängig von den aktivierten Berechtigungen sowohl Datensätze exportieren als auch Zielgruppen für dieses Ziel aktivieren können.
 
 1. **Wählen Sie die Datensätze aus**, die Sie an das ausgewählte Ziel exportieren möchten.
 
