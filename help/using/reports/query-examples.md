@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -431,9 +431,9 @@ ORDER BY DATE(timestamp) desc
 
 Die Abfrage gibt für den definierten Zeitraum die Anzahl der Profile zurück, die täglich in die Journey eingetreten sind. Wenn ein Profil über mehrere Identitäten eingetreten ist, wird es zweimal gezählt. Wenn der erneute Eintritt aktiviert ist, kann die Anzahl der Profile über unterschiedliche Tage hinweg mehrfach gezählt werden, wenn ein Profil an einem anderen Tag erneut in die Journey eingetreten ist.
 
-## Abfragen im Zusammenhang mit der Audience lesen {#read-segment-queries}
+## Abfragen im Zusammenhang mit „Zielgruppe lesen“ {#read-segment-queries}
 
-**Zeitaufwand zum Fertigstellen eines Zielgruppenexport-Auftrags**
+**Dauer bis zum Fertigstellen eines Zielgruppenexportvorgangs**
 
 _Data-Lake-Abfrage_
 
@@ -463,7 +463,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt, zu dem der Zielgruppenexport-Auftrag in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er schließlich beendet wurde.
+Die Abfrage gibt die Zeitdifferenz in Minuten zurück, die zwischen dem Zeitpunkt liegt, zu dem der Zielgruppenexportvorgang in die Warteschlange gestellt wurde, und dem Zeitpunkt, zu dem er beendet wurde.
 
 **Anzahl der Profile, die von der Journey verworfen wurden, weil sie Duplikate waren**
 
@@ -575,7 +575,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 Die Abfrage gibt alle Profil-IDs zurück, die von der Journey aufgrund eines internen Fehlers verworfen wurden.
 
-**Überblick über die Audience lesen für eine bestimmte Journey-Version**
+**Übersicht über „Zielgruppe lesen“ für eine bestimmte Journey-Version**
 
 _Data-Lake-Abfrage_
 
@@ -604,7 +604,7 @@ Es werden alle Service-Ereignisse im Zusammenhang mit der angegebenen Journey-Ve
 
 Zusätzlich können Probleme identifiziert werden wie z. B.:
 
-* Fehler bei der Erstellung von Themen oder Exportaufträgen (einschließlich Timeouts bei API-Aufrufen zum Zielgruppenexport)
+* Fehler bei der Erstellung des Themas oder Exportvorgangs (einschließlich Zeitüberschreitungen bei API-Aufrufen zum Zielgruppenexport)
 * Blockierte Exportvorgänge (wenn für eine Journey-Version kein Ereignis zur Beendigung des Exportvorgangs vorhanden ist)
 * Worker-Probleme, wenn ein Beendigungsereignis zum Exportvorgang, aber kein Beendigungsereignis zur Worker-Verarbeitung empfangen wurde.
 
@@ -613,7 +613,7 @@ WICHTIG: Wenn von dieser Abfrage kein Ereignis zurückgegeben wird, kann dies ei
 * Die Journey-Version hat die Planung nicht erreicht.
 * Die Journey-Version hätte den Exportvorgang durch Aufruf des Orchestrierers über einen Trigger auslösen sollen, aber im vorgelagerten Fluss ist ein Fehler aufgetreten: Problem bei der Journey-Bereitstellung, mit dem Geschäftsereignis oder mit der Planung.
 
-**Fehler vom Typ &quot;Lesen der Audience&quot;für eine bestimmte Journey-Version abrufen**
+**Abrufen von „Zielgruppe lesen“-Fehlern für eine bestimmte Journey-Version**
 
 _Data-Lake-Abfrage_
 
@@ -728,7 +728,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Abrufen aggregierter Metriken (Zielgruppenexport-Aufträge und -verwerfen) für alle Exportaufträge**
+**Abrufen aggregierter Metriken (Zielgruppenexportvorgänge und Verwerfen-Aktionen) für alle Exportvorgänge**
 
 _Data-Lake-Abfrage_
 
@@ -791,9 +791,9 @@ Diese Abfrage unterscheidet sich von der vorherigen.
 
 Es werden die Gesamtmetriken für eine bestimmte Journey-Version zurückgegeben, unabhängig von den Vorgängen, die dafür ausgeführt wurden (bei wiederkehrenden Journeys lösten Geschäftsereignisse diejenigen aus, die eine erneute Verwendung von Themen nutzten).
 
-## Abfragen im Zusammenhang mit der Zielgruppenqualifikation {#segment-qualification-queries}
+## Abfragen im Zusammenhang mit der Zielgruppen-Qualifizierung {#segment-qualification-queries}
 
-**Profil wird aufgrund einer anderen als der konfigurierten Zielgruppenrealisierung verworfen**
+**Profil verworfen, da eine andere als die konfigurierte Zielgruppe realisiert wurde**
 
 _Data-Lake-Abfrage_
 
@@ -815,9 +815,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Diese Abfrage gibt alle Profil-IDs zurück, die aufgrund einer falschen Zielgruppenrealisierung von der Journey-Version verworfen wurden.
+Diese Abfrage gibt alle Profil-IDs zurück, die von der Journey-Version aufgrund einer falschen Zielgruppenrealisierung verworfen wurden.
 
-**Ereignisse zur Zielgruppenqualifikation werden aus einem anderen Grund für ein bestimmtes Profil verworfen**
+**Zielgruppen-Qualifizierungsereignisse, die aus einem anderen Grund für ein bestimmtes Profil verworfen wurden**
 
 _Data-Lake-Abfrage_
 
@@ -841,7 +841,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Ereignisse zur Zielgruppenqualifizierung) zurück, die aufgrund anderer Gründe für ein Profil verworfen wurden.
+Diese Abfrage gibt alle Ereignisse (externe Ereignisse/Zielgruppen-Qualifizierungsereignisse) zurück, die aus einem anderen Grund für ein Profil verworfen wurden.
 
 ## Ereignisbasierte Abfragen {#event-based-queries}
 
