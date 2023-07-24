@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Um auf diese Funktion zuzugreifen, wählen Sie die Registerkarte **[!UICONTROL S
 >id="ajo_decisioning_simulation_test_profile"
 >title="Hinzufügen von Testprofilen"
 >abstract="Sie können ein Testprofil hinzufügen, indem Sie einen Identity-Namespace und die entsprechenden Identitätswerte auswählen. Sie müssen bereits über Testprofile verfügen, um diese für die Simulation verwenden zu können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Erstellen von Testprofilen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=de" text="Erstellen von Testprofilen"
 
 Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation verwenden möchten.
 
