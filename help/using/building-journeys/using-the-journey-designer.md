@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Design, Arbeitsfläche, Journey, Benutzeroberfläche, ziehen, ablegen
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1642'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ Wenn Sie Ihre Journey entwerfen, stellen Sie sich als Erstes die Frage, wie Prof
 
 1. **Beginn mit einem Ereignis**: Wenn eine Journey so eingestellt ist, dass sie auf Ereignisse wartet, treten Personen **einheitlich** in Echtzeit in die Journey ein. Nachrichten, die in Ihrer Journey enthalten sind, werden an die Person gesendet, die gerade in die Journey kommt. [Weitere Informationen zu Ereignissen](../event/about-events.md)
 
-1. **Beginnen mit einer Audience lesen**: Sie können Ihre Journey so einstellen, dass sie Adobe Experience Platform-Audiences überwacht. In diesem Fall treten alle Kontakte, die zur angegebenen Audience gehören, in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die Kontakte der Audience gesendet. Weitere Informationen [Audience lesen](read-audience.md).
+1. **Beginn mit der Aktivität „Zielgruppe lesen“**: Sie können Ihre Journey so einstellen, dass sie Adobe Experience Platform-Zielgruppen überwacht. In diesem Fall treten alle der angegebenen Zielgruppe angehörenden Personen in die Journey ein. Die in Ihrer Journey enthaltenen Nachrichten werden an die der Zielgruppe angehörenden Personen gesendet. Erfahren Sie mehr zur Aktivität [Zielgruppe lesen](read-audience.md).
 
-## Nächste Schritte definieren{#define-next-steps}
+## Definieren der nächsten Schritte{#define-next-steps}
 
-Nach dem ersten Ereignis oder Lesen von Zielgruppen können Sie die verschiedenen Aktivitäten kombinieren, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
+Nach dem ersten Ereignis oder „Zielgruppe lesen“ können Sie die verschiedenen Aktivitäten kombinieren, um mehrstufige Cross-Channel-Szenarien zu erstellen. Wählen Sie in der Palette die gewünschten Schritte aus.
 
 ### Ereignisse{#jo-event}
 
@@ -85,13 +85,13 @@ Sie können **mehrere Ereignisse** in Ihrer Journey hinzufügen, sofern sie dens
 
 Sie können nach einer Nachricht auch ein **Reaktions**-Ereignis hinzufügen, um auf Tracking-Daten im Zusammenhang mit der Nachricht zu reagieren. So können Sie z. B. eine weitere Nachricht senden, wenn der Kontakt die vorherige Nachricht geöffnet oder in ihr auf etwas geklickt hat. [Weitere Informationen zu Reaktionsereignissen](reaction-events.md).
 
-Verwendung **Zielgruppenqualifikation** Ereignisaktivität , um Kontakte dazu zu bringen, auf der Grundlage von Ein- und Austritten aus Adobe Experience Platform-Zielgruppen in eine Journey einzutreten oder in einer solchen fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](audience-qualification-events.md).
+Verwenden Sie die Ereignisaktivität **Zielgruppen-Qualifizierung**, um Personen auf der Grundlage von Adobe Experience Platform-Zielgruppeneintritten und -austritten zu veranlassen, in eine Journey einzutreten oder damit fortzufahren. Sie können alle neuen Silber-Kunden dazu bringen, in eine Journey einzutreten und ihnen personalisierte Nachrichten senden. Weiterführende Informationen finden Sie in diesem [Abschnitt](audience-qualification-events.md).
 
 ### Orchestrierung{#jo-orch}
 
 Orchestrierungsaktivitäten sind Bedingungen, die beim Bestimmen des nächsten Schritts der Journey helfen.
 
-Verwenden Sie in den Orchestrierungsaktivitäten die **Audience lesen** -Aktivität, um Ihre Journey so festzulegen, dass sie eine Adobe Experience Platform-Audience überwacht. [Erfahren Sie mehr über die Aktivität &quot;Audience lesen&quot;.](read-audience.md).
+In den Orchestrierungsaktivitäten können Sie die Aktivität **Zielgruppe lesen** verwenden, um Ihre Journey so einzurichten, dass sie eine Adobe Experience Platform-Zielgruppe überwacht. [Erfahren Sie mehr zur Aktivität „Zielgruppe lesen“](read-audience.md).
 
 Die anderen Aktivitäten ermöglichen es Ihnen, Bedingungen zu Ihrer Journey hinzuzufügen, um mehrere Pfade zu definieren, eine Wartezeit festzulegen, bevor Sie die nächste Aktivität ausführen, oder Ihre Journey zu beenden. [Weitere Informationen zu Orchestrierungsaktivitäten](about-journey-activities.md#orchestration-activities).
 
