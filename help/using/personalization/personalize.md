@@ -10,9 +10,9 @@ level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,6 +59,6 @@ Erfahren Sie, wie Sie kontextuelle Ereignisinformationen von einer Journey verwe
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Erfahren Sie, wie Sie einer Nachricht profilbasierte Personalisierung hinzufügen und wie Sie die Zielgruppenzugehörigkeit als Voraussetzung für einen Gestaltungsbaustein verwenden.
+Erfahren Sie, wie Sie einer Nachricht eine profilbasierte Personalisierung hinzufügen und die Zielgruppenzugehörigkeit als Vorbedingung für einen Personalisierungsbaustein verwenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
