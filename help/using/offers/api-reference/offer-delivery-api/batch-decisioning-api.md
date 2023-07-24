@@ -1,24 +1,24 @@
 ---
 title: Batch Decisioning-API
-description: Erfahren Sie, wie Sie mit der Batch Decisioning-API die besten Angebote für Zielgruppenprofile innerhalb eines vordefinierten Entscheidungsbereichs auswählen können.
+description: Erfahren Sie, wie Sie mit der Batch Decisioning-API innerhalb eines vordefinierten Entscheidungsumfangs die besten Angebote für Zielgruppenprofile auswählen können.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Unterbreiten von Angeboten mithilfe der [!DNL Batch Decisioning]-API {#deliver-offers-batch}
 
-Die [!DNL Batch Decisioning] Mit der API können Unternehmen Entscheidungsfunktionen für alle Profile in einer bestimmten Zielgruppe in einem Aufruf verwenden. Der Angebotsinhalt für jedes Profil in der Audience wird in einem Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist.
+Mit der [!DNL Batch Decisioning]-API können Unternehmen die Entscheidungsfunktion mit einem einzigen Aufruf auf alle Profile in einer bestimmten Zielgruppe anwenden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einen Adobe Experience Platform-Datensatz platziert, über den er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
 
-Mit dem [!DNL Batch Decisioning] API können Sie einen Datensatz mit den besten Angeboten für alle Profile in einer Adobe Experience Platform-Zielgruppe für Entscheidungsbereiche ausfüllen. Beispiel: Ein Unternehmen möchte [!DNL Batch Decisioning] ausführen, damit es Angebote an einen Nachrichtenversand-Anbieter senden kann. Diese Angebote werden dann als Inhalt verwendet, der zur Batch-Nachrichtenübermittlung an dieselbe Zielgruppe von Benutzern gesendet wird.
+Mit der [!DNL Batch Decisioning]-API können Sie einen Datensatz mit den besten Angeboten für alle Profile in einer Adobe Experience Platform-Zielgruppe für Entscheidungsumfänge auffüllen. Beispiel: Ein Unternehmen möchte [!DNL Batch Decisioning] ausführen, damit es Angebote an einen Nachrichtenversand-Anbieter senden kann. Diese Angebote werden dann als Inhalt verwendet, der für den Batch-Nachrichtenversand an dieselbe Benutzerzielgruppe gesendet wird.
 
 Dazu muss das Unternehmen folgendermaßen vorgehen:
 
