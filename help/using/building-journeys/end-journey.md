@@ -9,9 +9,9 @@ level: Beginner
 keywords: Erneut eintreten, Journey, Beenden, live, Stoppen
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Eine Journey kann aus den folgenden Gründen geschlossen werden:
 
 * Die Journey wird manuell über die Schaltfläche **[!UICONTROL Für neue Eintritte schließen]** geschlossen.
 * Eine segmentbasierte Journey zur einmaligen Ausführung wurde abgeschlossen.
-* Nach dem letzten Auftreten einer auf wiederkehrenden Zielgruppen basierenden Journey.
+* Nach dem letzten Vorkommen einer wiederkehrenden zielgruppenbasierten Journey.
 
 Sie können eine Journey manuell schließen. In diesem Fall können Kunden, die sich bereits in der Journey befinden, ihren Pfad bis zum Ende verfolgen, neue Benutzende können jedoch nicht in die Journey eintreten. Wenn eine Journey geschlossen wird (aus einem der oben genannten Gründe), weist sie den Status **[!UICONTROL Geschlossen]** auf. Die Journey stoppt den Eintritt neuer Personen. Personen, die sich bereits in der Journey befinden, können die Journey wie gewohnt beenden. Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wechselt die Journey zum Status **Beendet**. Weitere Informationen finden Sie in diesem [Abschnitt](../building-journeys/journey-gs.md#global_timeout).
 
