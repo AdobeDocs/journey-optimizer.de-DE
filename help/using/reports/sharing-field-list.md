@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -59,12 +59,12 @@ Dieses Mixin enthält alle Felder, die einem Profilexportvorgang entsprechen.
 
 | Feldname | Typ | Beschreibung |
 |---|---|------------|
-| ID | Zeichenfolge | Die Kennung des durch den Zielgruppenexport ausgelösten Auftrags |
-| status | Zeichenfolge | Der Status des Zielgruppenexport-Auftrags: in die Warteschlange gestellt, gestartet, fertig gestellt |
-| exportCountTotal | Ganzzahl | Der maximale Wert des Zielgruppenexport-Auftrags |
-| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl der Zielgruppen, die über den Auftrag exportiert wurden |
-| exportCountFailed | Ganzzahl | Die Anzahl der Zielgruppen, die beim Export durch den Auftrag fehlgeschlagen sind |
-| exportSegmentID | Zeichenfolge | Die Kennung der zu exportierenden Audience |
+| ID | Zeichenfolge | Die Kennung des ausgelösten Zielgruppenexportvorgangs |
+| status | Zeichenfolge | Der Status des Zielgruppenexportvorgangs: in der Warteschlange, gestartet, abgeschlossen |
+| exportCountTotal | Ganzzahl | Der maximale Wert des Zielgruppenexportvorgangs |
+| exportCountRealized | Ganzzahl | Die tatsächliche Anzahl von Zielgruppen, die über den Vorgang exportiert wurden |
+| exportCountFailed | Ganzzahl | Die Anzahl der Zielgruppen, bei denen der Export durch den Vorgang fehlgeschlagen ist |
+| exportSegmentID | Zeichenfolge | Die Kennung der exportierten Zielgruppe |
 | eventType | Zeichenfolge | Der Ereignistyp, der angibt, ob es sich um ein Fehlerereignis eines Informationsereignisses handelt: Info, Fehler |
 | eventCode | Zeichenfolge | Der Fehler-Code, der den Grund für den entsprechenden eventType angibt |
 
