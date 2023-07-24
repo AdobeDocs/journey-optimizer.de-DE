@@ -10,9 +10,9 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Statistische Methoden geben uns eine Möglichkeit, diese Unsicherheit zu formali
 
 +++ Formulieren Sie neue Hypothesen und testen Sie sie kontinuierlich
 
-Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experiment festhalten. Führen Sie stattdessen Experimente durch, indem Sie neue Hypothesen formulieren, neue Tests mit unterschiedlichen Änderungen durchführen, unterschiedliche Zielgruppen ansprechen und die Auswirkungen auf die verschiedenen Metriken untersuchen.
+Um echte geschäftliche Einblicke zu gewinnen, sollten Sie an nur einem Experiment festhalten. Allerdings sollten Sie im Anschluss an diese Experimente neue Hypothesen formulieren, neue Tests mit unterschiedlichen Änderungen für verschiedene Zielsegmente durchführen und die Auswirkungen auf die verschiedenen Metriken untersuchen.
 +++
 
 ## Interpretieren der Ergebnisse Ihrer Experimente {#interpret-results}
@@ -172,7 +172,7 @@ Nach der Durchführung eines Experiments gibt es mehrere mögliche Folgemaßnahm
 
 * **Durchführen von vertiefenden Analysen**
 
-  Die Behandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Behandlung für eine andere Zielgruppe. Detaillierte Analysen darüber, wie sich Behandlungen für verschiedene Zielgruppen verhalten haben, helfen dabei, Ideen für neue Tests zu entwickeln.
+  Die Behandlung, die bei einer Zielgruppe gut funktioniert, ist manchmal nicht die beste Behandlung für eine andere Zielgruppe. Vertiefende Analysen darüber, wie sich die Behandlungen in verschiedenen Zielgruppen ausgewirkt haben, helfen dabei, Ideen für neue Tests zu entwickeln.
 
   Ebenso kann die Untersuchung der Leistung der einzelnen Behandlungen mit verschiedenen Metriken einen umfassenderen Überblick über Ihre Experimente geben.
 
