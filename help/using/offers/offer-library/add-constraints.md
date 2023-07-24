@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2385'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definieren der Qualifikation"
->abstract="Standardmäßig ist jedes Profil berechtigt, das Angebot zu unterbreiten. Sie können jedoch Zielgruppen oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
+>abstract="Standardmäßig kann das Angebot jedem Profil unterbreitet werden, Sie können jedoch Zielgruppen oder Entscheidungsregeln verwenden, um das Angebot auf bestimmte Profile zu beschränken."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,21 +75,21 @@ Angenommen, Sie legen die folgenden Einschränkungen fest:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Gesamtprofilschätzung"
->abstract="Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, werden Informationen zu den geschätzten qualifizierten Profilen angezeigt."
+>abstract="Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen."
 
-Die **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profile beschränken, die Sie mithilfe von Zielgruppen oder Entscheidungsregeln definieren.
+Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profile beschränken, die Sie mithilfe von Zielgruppen oder Entscheidungsregeln definieren.
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwendung von **Zielgruppen** versus **Entscheidungsregeln** in [diesem Abschnitt](#segments-vs-decision-rules).
+>Weitere Informationen zum Verwenden von **Zielgruppen** und **Entscheidungsregeln** finden Sie in [diesem Abschnitt](#segments-vs-decision-rules).
 
-* Standardmäßig ist die Option **[!UICONTROL Alle Besucher]** aktiviert, d. h. das Angebot kann jedem Profil unterbreitet werden.
+* Standardmäßig ist die Option **[!UICONTROL Alle Besucher]** aktiviert, d. h. das Angebot kann jedem Profil unterbreitet werden.
 
   ![](../assets/offer-eligibility-default.png)
 
-* Sie können die Präsentation des Angebots auch auf die Mitglieder eines oder mehrerer [Adobe Experience Platform-Zielgruppen](../../audience/about-audiences.md).
+* Sie können die Präsentation eines Angebots auch auf die Mitglieder einer oder mehrerer [Adobe Experience Platform-Zielgruppen](../../audience/about-audiences.md) beschränken.
 
-  Aktivieren Sie dazu die **[!UICONTROL Besucher, die in eine oder mehrere Zielgruppen fallen]** -Option, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe der **[!UICONTROL und]** / **[!UICONTROL Oder]** logische Operatoren.
+  Aktivieren Sie dazu die Option **[!UICONTROL Besucherinnen und Besucher, die zu mindestens einer Zielgruppe passen]**, fügen Sie dann eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mit den logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ Die **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestimmte Profi
   >
   >Ereignisbasierte Angebote werden derzeit in [!DNL Journey Optimizer] nicht unterstützt. Wenn Sie eine Entscheidungsregel basierend auf einem [Ereignis](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} erstellen, können Sie sie nicht in einem Angebot nutzen.
 
-Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, werden Informationen zu den geschätzten qualifizierten Profilen angezeigt. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,15 +109,15 @@ Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, werden Informationen z
 >
 >Profilschätzungen sind nicht verfügbar, wenn Regelparameter Daten enthalten, die nicht im Profil enthalten sind, z. B. Kontextdaten. Beispielsweise eine Eignungsregel, für die die aktuelle Temperatur höher als 25 °C sein muss.
 
-### Verwenden von Zielgruppen und Entscheidungsregeln {#segments-vs-decision-rules}
+### Verwenden von Zielgruppen im Vergleich zu Entscheidungsregeln {#segments-vs-decision-rules}
 
-Um eine Einschränkung anzuwenden, können Sie die Auswahl von Angeboten auf die Mitglieder eines oder mehrerer **Adobe Experience Platform-Zielgruppen** oder Sie können eine **Entscheidungsregel**- beide Lösungen, die unterschiedlichen Verwendungen entsprechen.
+Um eine Einschränkung anzuwenden, können Sie die Auswahl von Angeboten auf Mitglieder einer oder mehrerer **Adobe Experience Platform-Zielgruppen** beschränken oder eine **Entscheidungsregel** verwenden. Diese beiden Lösungen werden in unterschiedlichen Fällen angewendet.
 
-Grundsätzlich handelt es sich bei der Ausgabe einer Audience um eine Profilliste, während eine Entscheidungsregel eine Funktion ist, die bei Bedarf während des Entscheidungsprozesses für ein einzelnes Profil ausgeführt wird. Der Unterschied zwischen diesen beiden Anwendungen wird im Folgenden beschrieben.
+Grundsätzlich liefert eine Zielgruppe eine Liste von Profilen, während es sich bei einer Entscheidungsregel um eine Funktion handelt, die während des Entscheidungsprozesses bei Bedarf für ein einzelnes Profil ausgeführt wird. Der Unterschied zwischen diesen beiden Verwendungen wird im Folgenden beschrieben.
 
 * **Zielgruppen**
 
-  Auf der einen Seite sind Zielgruppen eine Gruppe von Adobe Experience Platform-Profilen, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Das Angebotsmanagement berechnet die Zielgruppe jedoch nicht neu, was bei der Angebotsunterbreitung möglicherweise nicht aktuell ist.
+  Zielgruppen sind Adobe Experience Platform-Profile, die basierend auf Profilattributen und Erlebnisereignissen einer bestimmten Logik entsprechen. Jedoch wird beim Offer Decisioning-Prozess die Zielgruppe nicht neu berechnet, weshalb sie zum Zeitpunkt der Angebotsunterbreitung möglicherweise nicht aktuell ist.
 
   Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../../audience/about-audiences.md).
 
