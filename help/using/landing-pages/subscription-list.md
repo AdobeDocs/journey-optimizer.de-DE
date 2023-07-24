@@ -10,9 +10,9 @@ level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Folgende Status sind möglich:
 
 Nachdem die Abonnement-Liste erstellt wurde, kann sie in einer Landingpage verwendet werden. Die Profile, die sich über das Landingpage-Formular anmelden, werden der Liste hinzugefügt. [Weitere Informationen](design-lp.md)
 
-Sie können Abonnementlisten auch als Zielgruppen verwenden, wenn [Journey bauen](../building-journeys/journey-gs.md#jo-build) und Personalisierung hinzufügen.
+Abonnement-Listen können auch als Zielgruppen verwendet werden, wenn [Journeys erstellt werden](../building-journeys/journey-gs.md#jo-build) und Personalisierung hinzugefügt wird.
 
 >[!NOTE]
 >
