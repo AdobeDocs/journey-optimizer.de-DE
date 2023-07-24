@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Berechtigungen, Rechte, Einschränkungen, Zugriff, Sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 59%
 
 Die Benutzerverwaltung in [!DNL Journey Optimizer] basiert auf drei Konzepten:
 
-* **[!UICONTROL Rolle]**: Eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Siehe Abschnitt [Vordefinierte Rollen](ootb-product-profiles.md) Abschnitt.
+* **[!UICONTROL Rolle]**: Eine Reihe von Einzelrechten, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Weitere Informationen finden Sie im Abschnitt [Vorkonfigurierte Rollen](ootb-product-profiles.md).
 
-* **[!UICONTROL Berechtigungen]**: Einzelberechtigungen, mit denen Sie die den **[!UICONTROL Rollen]**. Jede Berechtigung wird unter Ressourcen erfasst, z. B. Journey oder Angebote, die die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer]. Siehe Abschnitt [Berechtigungsebenen](high-low-permissions.md).
+* **[!UICONTROL Berechtigungen]**: Einzelrechte, mit denen Sie die Autorisierungen definieren können, die **[!UICONTROL Rollen]** zugewiesen sind. Jede Berechtigung wird unter bestimmten Kategorien erfasst, z. B. „Journey“ oder „Angebote“, die für die verschiedenen Funktionen oder Objekte in [!DNL Journey Optimizer] stehen. Siehe Abschnitt [Berechtigungsebenen](high-low-permissions.md).
 
 * **[!UICONTROL Sandbox]**: Virtuelle Sandboxes, die Instanzen in separate, isolierte virtuelle Umgebungen unterteilen. Siehe [Verwenden von Sandboxes](sandboxes.md).
 
@@ -36,6 +36,6 @@ Jedes Konzept kann von **[!UICONTROL Produktadministratoren]** verwaltet werden,
 
 ## Anleitungsvideo{#video}
 
-Erfahren Sie mehr über das Zugriffskontrollsystem und benutzerdefinierte Probleme in Adobe Journey Optimizer. Erfahren Sie, wie Sie Rollen und Berechtigungen verwalten und Benutzer hinzufügen und verwalten können.
+Erfahren Sie mehr über das Zugriffssteuerungssystem und benutzerdefinierte Rollen in Adobe Journey Optimizer. Erfahren Sie, wie Sie Rollen und Berechtigungen verwalten sowie Benutzende hinzufügen und verwalten können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
