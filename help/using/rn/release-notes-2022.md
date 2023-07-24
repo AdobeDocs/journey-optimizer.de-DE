@@ -5,9 +5,9 @@ title: Versionshinweise 2022
 description: Versionshinweise zu Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3575'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Journeys**
 
-* Die **Wiedereintritt erzwingen bei Wiederholung** wurde in den Planparametern für das wiederkehrende Lesen der Audience hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Die Option **Erneuten Eintritt bei Wiederholung erzwingen** wurde zu den Planparametern für wiederkehrende Aktivitäten vom Typ „Zielgruppe lesen“ hinzugefügt. Mit dieser Option können Sie alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch entfernen. Wenn die Option deaktiviert ist, müssen Profile die Journey abschließen, bevor sie in einem anderen Vorkommen erneut eintreten können. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Administration**
 
@@ -176,7 +176,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Als Journey Optimizer-Benutzende können Sie jetzt über die Benutzeroberfläche auf Systemwarnungen zugreifen, um Benachrichtigungen zu erhalten, wenn Journeys nicht wie erwartet funktionieren. Sie können die verfügbaren Warnhinweise einsehen und abonnieren. Der erste Warnhinweis in dieser Version warnt Sie, wenn eine Aktivität vom Typ Audience lesen im festgelegten Zeitraum kein Profil verarbeitet hat. Weitere werden folgen, sobald dieser Workflow freigeschaltet ist.</p>
+<p>Als Journey Optimizer-Benutzende können Sie jetzt über die Benutzeroberfläche auf Systemwarnungen zugreifen, um Benachrichtigungen zu erhalten, wenn Journeys nicht wie erwartet funktionieren. Sie können die verfügbaren Warnhinweise einsehen und abonnieren. Der erste mit dieser Version verfügbare Warnhinweis weist Sie daraufhin, wenn eine Aktivität vom Typ „Zielgruppe lesen“ innerhalb des festgelegten Zeitraums kein Profil verarbeitet hat. Weitere werden folgen, sobald dieser Workflow freigeschaltet ist.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -207,7 +207,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 **Journeys**
 
 * Der **Entitätsdatensatz** ist jetzt als vordefinierter Datensatz in Adobe Journey Optimizer verfügbar. Dieser Lookup-Datensatz enthält Metadaten, um die Informationen der Tracking- und Feedback-Datensätze zu erweitern. Auf diese Weise können Sie Ihre Berichte und Abfragen mit leichter verständlichen Daten verbessern. [Weitere Informationen](../data/datasets-query-examples.md#entity-dataset)
-* Eine neue Limits wurde zu einheitlichen Journey hinzugefügt (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation), um zu verhindern, dass Journey fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. [Weitere Informationen](../start/guardrails.md#events-g)
+* Ein neuer Schutzmechanismus wurde zu unitären Journeys hinzugefügt (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung), um zu verhindern, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profileintritt wird jetzt standardmäßig fünf Minuten lang vorübergehend blockiert. [Weitere Informationen](../start/guardrails.md#events-g)
 
 **Administration**
 
@@ -235,8 +235,8 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 ### Weitere Änderungen{#sept-2022-other}
 
 * Der Journey-Burst-Modus wurde durch den Kampagnen-Schnellversand-Modus ersetzt. [Weitere Informationen](../push/create-push.md#rapid-delivery)
-* Um die Leistung zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journey verwendet werden, beginnend mit einer Lesen der Audience, einer Audience-Qualifizierung oder einer Business Event-Aktivität. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
-* Die 1-Stunden-Beschränkung für Journey mit terminierten Lese-Zielgruppen wurde entfernt. Diese Journeys können jetzt ohne Verzögerung ausgeführt werden.
+* Um die Leistung zu verbessern, können Feldergruppen für Erlebnisereignisse nicht mehr in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Diese Änderung gilt nur für neue Journeys. Bestehende Journeys behalten das aktuelle Verhalten bei. [Weitere Informationen](../start/guardrails.md#expression-editor)
+* Die 1-Stunden-Beschränkung für geplante „Zielgruppe lesen“-Journeys wurde entfernt. Diese Journeys können jetzt ohne Verzögerung ausgeführt werden.
 
 
 
@@ -408,7 +408,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Entscheidungs-Management**
 
-* **Zielgruppengröße** - Eine neue Schätzung der Zielgruppengröße wird jetzt in der Benutzeroberfläche angezeigt, wenn eine Entscheidungsregel erstellt wird, wenn eine Zielgruppe oder eine Regel ausgewählt wird, um eine Angebotseignung festzulegen, oder wenn eine Zielgruppe oder eine Regel zu einem Entscheidungsbereich hinzugefügt wird.
+* **Zielgruppengröße**: In der Benutzeroberfläche wird nun eine neue Komponente zur Schätzung der Zielgruppengröße angezeigt, wenn eine Entscheidungsregel erstellt, eine Zielgruppe oder Regel zum Festlegen einer Angebotseignung ausgewählt oder eine Zielgruppe oder Regel zu einem Entscheidungsumfang hinzugefügt wird.
 
 
 ## Version Juni 2022 {#june-2022-release}
@@ -615,7 +615,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Journeys**
 
-* **Audience lesen** - Journey der Audience lesen wechseln 30 Tage nach der Journey-Ausführung in den Status Abgeschlossen . Bei geplanten Lesen von Zielgruppen ist dies 30 Tage nach der Ausführung des letzten Vorkommens der Fall. [Weitere Informationen](../building-journeys/read-audience.md)
+* **Zielgruppe lesen**: Einmalige „Zielgruppe lesen“-Journeys wechseln nun 30 Tage nach der Ausführung der Journey in den Status „Beendet“. Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 30 Tage nach dem letzten Auftreten beendet. [Weitere Informationen](../building-journeys/read-audience.md)
 * **Ausdruckseditor**: Die Funktion [Limit](../building-journeys/functions/functionlimit.md) wurde hinzugefügt, um die Anzahl der Elemente einer Liste zu begrenzen. Mit der Funktion [Sortierung](../building-journeys/functions/functionsort.md) können Sie jetzt ein Listenobjekt sortieren. Die Unterstützung von listObject wurde auch den Funktionen [distinct](../building-journeys/functions/functiondistinct.md) und [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) hinzugefügt.
 
 **Administration**
@@ -673,7 +673,7 @@ Als Adobe Campaign Standard-Kunde können Sie jetzt mit Journey Optimizer E-Mail
 **Entscheidungs-Management**
 
 * Sie können jetzt definieren, ob die Angebotsbegrenzung für alle Benutzer oder für ein bestimmtes Profil bzw. für alle Platzierungen oder nur für eine einzeln Platzierung gelten soll. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Mit der Batch Decisioning-API können Unternehmen Entscheidungsverwaltungsfunktionen für alle Profile in einer bestimmten Zielgruppe in einem Aufruf verwenden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einem AEP-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Mit der Batch Decisioning-API können Unternehmen die Funktionalität „Entscheidungs-Management“ für alle Profile in einer bestimmten Zielgruppe in einem einzigen Aufruf verwenden. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird in einem AEP-Datensatz platziert, über den er für benutzerdefinierte Batch-Workflows zur Verfügung steht. [Weitere Informationen](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Administration**
 
@@ -800,13 +800,13 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Journey - Verbesserung der Zielgruppe lesen</strong><br/></th>
+<th><strong>Journeys – Verbesserung beim Lesen von Zielgruppen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die <strong>Inkrementelles Lesen</strong> wurde zur wiederkehrenden <strong>Audience lesen</strong> Aktivitäten. Mit dieser Option können Sie nur die Kontakte ansprechen, die seit der letzten Ausführung der Journey an der Audience teilgenommen haben. Die erste Ausführung richtet sich immer an alle Mitglieder der Zielgruppe.</p>
+<p>Die Option <strong>Inkrementelles Lesen</strong> wurde zu den wiederkehrenden Aktivitäten vom Typ <strong>Zielgruppe lesen</strong> hinzugefügt. Mit dieser Option haben Sie die Möglichkeit, nur die Personen anzusprechen, die seit der letzten Journey-Ausführung in die Zielgruppe eingetreten sind. Bei der ersten Ausführung sind immer alle Zielgruppenmitglieder ausgewählt.</p>
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">ausführlichen Dokumentation</a>.
 </td>
 </tr>
