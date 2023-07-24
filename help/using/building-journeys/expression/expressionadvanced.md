@@ -9,9 +9,9 @@ level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ In diesem Bildschirm können Sie Ihren Ausdruck manuell schreiben.
 Im linken Bildschirmbereich werden die verfügbaren Felder und Funktionen angezeigt:
 
 * **[!UICONTROL Ereignisse]**: Wählen Sie eines der Felder aus, die vom eingehenden Ereignis empfangen wurden. Die angezeigte Liste der Ereignisfelder ist kontextuell und variiert je nach Ereignissen, die in der Journey hinzugefügt werden. [Weitere Informationen](../../event/about-events.md)
-* **[!UICONTROL Zielgruppen]**: wenn Sie eine **[!UICONTROL Zielgruppenqualifikation]** -Ereignis verwenden, wählen Sie die Zielgruppe aus, die Sie in Ihrem Ausdruck verwenden möchten. [Weitere Informationen](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Zielgruppen]**: Wenn Sie ein **[!UICONTROL Zielgruppen-Qualifizierungsereignis]** eingefügt haben, wählen Sie die Zielgruppe aus, die in Ihrem Ausdruck verwendet werden soll. [Weitere Informationen](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Datenquellen]**: Wählen Sie aus der Liste der Felder, die in den Feldergruppen Ihrer Datenquellen verfügbar sind. [Weitere Informationen](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey-Eigenschaften]**: In diesem Abschnitt werden die technischen Felder der Journey für ein bestimmtes Profil zusammengefasst. [Weitere Informationen](journey-properties.md)
 * **[!UICONTROL Funktionen]**: Wählen Sie aus der Liste der integrierten Funktionen, die eine komplexe Filterung ermöglichen. Die Funktionen sind nach Kategorien geordnet. [Weitere Informationen](functions.md)
