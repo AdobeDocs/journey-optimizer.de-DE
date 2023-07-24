@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2164'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,17 +72,17 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
 1. Verwenden Sie das Feld **[!UICONTROL Eignung]**, um die Auswahl der Angebote für diese Platzierung zu beschränken.
 
-   Diese Einschränkung kann mithilfe eines **Entscheidungsregel** oder einer oder mehrerer **Adobe Experience Platform-Zielgruppen**. Beide werden in [diesem Abschnitt](../offer-library/add-constraints.md#segments-vs-decision-rules) genauer beschrieben.
+   Diese Einschränkung kann mithilfe einer **Entscheidungsregel** oder einer oder mehrerer **Adobe Experience Platform-Zielgruppen** angewendet werden. Beides wird in [diesem Abschnitt](../offer-library/add-constraints.md#segments-vs-decision-rules) genauer beschrieben.
 
-   * Um die Angebotsauswahl auf die Mitglieder einer Audience vom Typ Experience Platform zu beschränken, wählen Sie **[!UICONTROL Zielgruppen]** Klicken Sie auf **[!UICONTROL Zielgruppen hinzufügen]**.
+   * Um die Auswahl der Angebote auf die Mitglieder einer Experience Platform-Zielgruppe zu beschränken, wählen Sie **[!UICONTROL Zielgruppen]** aus und klicken Sie dann auf **[!UICONTROL Zielgruppen hinzufügen]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Fügen Sie eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie sie mithilfe des **[!UICONTROL und]** / **[!UICONTROL Oder]** logische Operatoren.
+     Fügen Sie eine oder mehrere Zielgruppen aus dem linken Bereich hinzu und kombinieren Sie diese mithilfe der logischen Operatoren **[!UICONTROL Und]**/**[!UICONTROL Oder]**.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Erfahren Sie, wie Sie mit Zielgruppen arbeiten in [diesem Abschnitt](../../audience/about-audiences.md).
+     Weitere Informationen zum Arbeiten mit Zielgruppen finden Sie in [diesem Abschnitt](../../audience/about-audiences.md).
 
    * Wenn Sie eine Auswahlbegrenzung mit einer Entscheidungsregel hinzufügen möchten, verwenden Sie die Option **[!UICONTROL Entscheidungsregel]** und wählen Sie die gewünschte Regel aus.
 
@@ -90,7 +90,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
      Weiterführende Informationen zum Erstellen einer Entscheidungsregel finden Sie in [diesem Abschnitt](../offer-library/creating-decision-rules.md).
 
-1. Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, werden Informationen zu den geschätzten qualifizierten Profilen angezeigt. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
+1. Wenn Sie Zielgruppen oder Entscheidungsregeln auswählen, können Sie Informationen zur geschätzten Anzahl der qualifizierten Profile sehen. Klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Daten zu aktualisieren.
 
    >[!NOTE]
    >
