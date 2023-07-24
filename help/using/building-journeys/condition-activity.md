@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Bedingung, Arbeitsfläche, Journey
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1465'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Im einfachen Modus können Sie einfache Abfragen anhand einer Kombination von Fe
 
 ![](assets/journey64.png)
 
-Wenn Sie die [Adobe Experience Platform-Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} um Ihre Zielgruppen zu erstellen, können Sie sie in Ihren Journey-Bedingungen nutzen. Siehe [Verwenden der Zielgruppe in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
+Wenn Sie zur Erstellung Ihrer Zielgruppen den [Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"} verwenden, können Sie die Zielgruppen in Ihren Journey-Bedingungen nutzen. Weitere Informationen finden Sie unter [Verwenden von Zielgruppen in Bedingungen](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -147,9 +147,9 @@ Die Profilbegrenzung wird im Testmodus nicht berücksichtigt.
 
 ## Verwenden von Zielgruppen in Bedingungen {#using-a-segment}
 
-In diesem Abschnitt wird beschrieben, wie Sie eine Zielgruppe in einer Journey-Bedingung verwenden. Weitere Informationen zu Zielgruppen und deren Erstellung finden Sie unter [diesem Abschnitt](../audience/about-audiences.md).
+In diesem Abschnitt wird erläutert, wie eine Zielgruppe in einer Journey-Bedingung verwendet wird. Weitere Informationen zu Zielgruppen und deren Erstellung finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
-Gehen Sie wie folgt vor, um eine Audience in einer Journey-Bedingung zu verwenden:
+Gehen Sie wie folgt vor, um in einer Journey-Bedingung eine Zielgruppe zu verwenden:
 
 1. Öffnen Sie eine Journey, legen Sie eine Aktivität vom Typ **[!UICONTROL Bedingung]** ab und wählen Sie die **Bedingung der Datenquelle**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Gehen Sie wie folgt vor, um eine Audience in einer Journey-Bedingung zu verwende
 
    ![](assets/segment3.png)
 
-1. Öffnen Sie auf der linken Seite die **[!UICONTROL Zielgruppen]** Knoten. Ziehen Sie die Zielgruppe, die Sie für Ihre Bedingung verwenden möchten, in den Arbeitsbereich. Standardmäßig ist die Bedingung für die Zielgruppe wahr.
+1. Erweitern Sie auf der linken Seite den Knoten **[!UICONTROL Zielgruppen]**. Legen Sie die Zielgruppe, die Sie für Ihre Bedingung verwenden möchten, per Drag-and-Drop ab. Standardmäßig lautet die Bedingung für die Zielgruppe „true“.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Beachten Sie, dass nur die Personen mit dem **Realisiert** und **Bestehend** Der Beteiligungsstatus von Zielgruppen wird als Mitglieder der Zielgruppe betrachtet. Weiterführende Informationen zur Audience-Evaluierung finden Sie im Abschnitt [Dokumentation zum Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target="_blank"}.
+   >Hinweis: Nur Personen mit den Zielgruppenzugehörigkeitsstatus **Realisiert** und **Vorhanden** werden als Mitglieder der Zielgruppe angesehen. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de){target="_blank"}.
