@@ -6,9 +6,9 @@ description: Als Journey-Anwender erfahren Sie mehr darüber, wie Journey Optimi
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Als **Marketer** oder **Journey-Anwendender** sind Sie für die Erstellung von A
 
 Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angebote und Assets hinzufügen und Nachrichten versenden:
 
-1. **Erstellen von Zielgruppen**. Mit Journey Optimizer können Sie Zielgruppen durch Segmentdefinitionen direkt aus dem **Zielgruppen** und nutzen Sie sie in Ihren Journey.  Weitere Informationen zu Zielgruppen [auf dieser Seite](../../audience/about-audiences.md). Erfahren Sie, wie Sie Segmentdefinitionen erstellen [in diesem Beispiel](../../audience/creating-a-segment-definition.md).
+1. **Erstellen von Zielgruppen**. Mit Journey Optimizer können Sie Zielgruppen durch Segmentdefinitionen direkt über das Menü **Zielgruppen** erstellen und in Ihren Journeys nutzen. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../../audience/about-audiences.md). [In diesem Beispiel](../../audience/creating-a-segment-definition.md) erfahren Sie, wie Sie Segmentdefinitionen erstellen.
 
 1. **Hinzufügen von Personalisierung und dynamischen Inhalten**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Botschaft an Ihre Audience anzupassen. Erhalten Sie weitere Informationen über [Personalisierung](../../personalization/personalize.md) und [dynamische Inhalte](../../personalization/get-started-dynamic-content.md).
 
@@ -34,13 +34,13 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
 1. **Entwerfen Sie Customer Journeys**, um Ihren Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit [!DNL Journey Optimizer] können Sie Anwendungsfälle für die Orchestrierung in Echtzeit erstellen und dabei kontextuelle Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Erstellen Sie mehrstufige fortgeschrittene Szenarien mit folgenden Funktionen:
 
-   * Echtzeit-Versand **Einzelversand** ausgelöst wird, wenn ein Ereignis empfangen wird, oder **in Batch** Verwendung von Adobe Experience Platform-Zielgruppen.
+   * Führen Sie einen **unitären Versand** in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder **als Batch** unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
    * Nutzen Sie **kontextuelle Daten** aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
    * Verwenden Sie die **integrierten Kanalaktionen** (E-Mail, SMS, Push-Benachrichtigung) zum Senden von in [!DNL Journey Optimizer] entworfenen Nachrichten oder erstellen Sie **benutzerspezifische Aktionen**, wenn Sie zum Senden Ihrer Nachrichten ein Drittanbietersystem verwenden.
 
-   * Mit dem **Journey Designer**, erstellen Sie Ihre mehrstufigen Anwendungsfälle: Fügen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Audience-lesen-Aktivität hinzu, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+   * Erstellen Sie mit dem **Journey-Designer** mehrstufige Anwendungsfälle: Ziehen Sie einfach per Drag-and-Drop ein Eintrittsereignis oder eine Aktivität vom Typ „Zielgruppe lesen“ in die Benutzeroberfläche, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
    ![](../assets/journey-design.png)
 
