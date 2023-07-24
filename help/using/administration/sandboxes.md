@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandboxes, virtuell, Umgebungen, Organisation, Plattform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 84%
 
 ## Verwenden von Sandboxes {#using-sandbox}
 
-[!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, so genannte Sandboxes, zu unterteilen.
-Sandboxes werden über Rollen in Berechtigungen zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
+[!DNL Journey Optimizer] ermöglicht es Ihnen, Ihre Instanz in separate virtuelle Umgebungen, sogenannte Sandboxes, zu unterteilen.
+Sandboxes werden über Rollen unter „Berechtigungen“ zugewiesen. [Erfahren Sie, wie Sie Sandboxes zuweisen](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] spiegelt die Adobe Experience Platform-Sandboxes wider, die für eine bestimmte Organisation erstellt wurden.
 Adobe Experience Platform-Sandboxes können über Ihre Adobe Experience Platform-Instanz erstellt oder zurückgesetzt werden. [Weitere Informationen finden sich im Sandbox-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de){target="_blank"}.
@@ -38,21 +38,21 @@ Das Steuerelement „Sandbox-Schalter“ finden Sie oben rechts auf Ihrem Bildsc
 >
 > Die Sandbox-Verwaltung kann nur von einem **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Administrator durchgeführt werden. Weiterführende Informationen dazu finden sich in der [Dokumentation zur Admin Console](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-Sie können vordefinierte oder benutzerdefinierte Sandboxes zuweisen **[!UICONTROL Rollen]**.
+Sie können vorkonfigurierten oder benutzerdefinierten **[!UICONTROL Rollen]** verschiedene Sandboxes zuweisen.
 
 So weisen Sie Sandboxes zu:
 
-1. In [!DNL Permissions]aus der **[!UICONTROL Rollen]** Registerkarte, wählen Sie eine **[!UICONTROL Rolle]**.
+1. Wählen Sie unter [!DNL Permissions] auf der Registerkarte **[!UICONTROL Rollen]** eine **[!UICONTROL Rolle]** aus.
 
    ![](assets/sandbox_1.png)
 
 1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Aus dem **[!UICONTROL Sandboxes]** Ressource aus, wählen Sie die Sandbox aus, die Ihrer Rolle zugewiesen wird.
+1. Wählen Sie aus dem Ressourcen-Dropdown **[!UICONTROL Sandboxes]** die Sandbox aus, die Ihrer Rolle zugewiesen werden soll.
 
    ![](assets/sandbox_3.png)
 
-1. Klicken Sie bei Bedarf auf das X-Symbol neben dem Entfernen des Sandbox-Zugriffs auf Ihre **[!UICONTROL Rolle]**.
+1. Klicken Sie bei Bedarf auf das X-Symbol daneben, um den Sandbox-Zugriff auf Ihre **[!UICONTROL Rolle]** zu entfernen.
 
    ![](assets/sandbox_4.png)
 
