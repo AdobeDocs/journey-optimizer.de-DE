@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Kampagne, ACC, Integration
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 
 ## Wichtige Hinweise {#important-notes}
 
-* Es gibt keine Drosselung der Nachrichten. Auf der Basis des aktuellen Campaign-SLA begrenzt das System die Anzahl der Nachrichten, die gesendet werden können, auf 4.000 pro 5 Minuten. Aus diesem Grund sollte Journey Optimizer nur in Einzelanwendungsfällen (Einzelereignisse, nicht Zielgruppen) verwendet werden.
+* Es gibt keine Drosselung der Nachrichten. Auf der Basis des aktuellen Campaign-SLA begrenzt das System die Anzahl der Nachrichten, die gesendet werden können, auf 4.000 pro 5 Minuten. Aus diesem Grund sollte Journey Optimizer nur in unitären Anwendungsfällen (einzelne Ereignisse, nicht für Zielgruppen) verwendet werden.
 
 * Sie müssen für jede Vorlage, die Sie verwenden möchten, eine Aktion auf der Arbeitsfläche konfigurieren. Sie müssen für jede Vorlage, die Sie von Adobe Campaign verwenden möchten, eine Aktion in Journey Optimizer konfigurieren.
 
@@ -41,7 +41,7 @@ Für jede konfigurierte Aktion ist eine Aktionsaktivität in der Journey-Designe
 
 * Es wird nicht überprüft, ob die Payload oder Campaign-Nachricht korrekt ist.
 
-* Es ist nicht möglich, eine Kampagnenaktion mit einem Ereignis zur Zielgruppenqualifizierung zu verwenden.
+* Sie können eine Campaign-Aktion nicht mit einem Zielgruppen-Qualifizierungsereignis verwenden.
 
 ## Voraussetzungen {#prerequisites}
 
