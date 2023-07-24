@@ -3,9 +3,9 @@ title: Batch-Entscheidungen
 description: Erfahren Sie, wie Sie Angebotsentscheidungen an alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe senden.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Mit Journey Optimizer können Sie Angebotsentscheidungen an alle Profile in einer bestimmten Adobe Experience Platform-Zielgruppe senden.
 
-Dazu müssen Sie eine Auftragsanfrage in Journey Optimizer erstellen, die Informationen über die Zielgruppe und die zu verwendende Angebotsentscheidung enthält. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird dann in einem Adobe Experience Platform-Datensatz platziert, wo er für benutzerdefinierte Batch-Workflows verfügbar ist.
+Dazu müssen Sie in Journey Optimizer eine Vorgangsanfrage erstellen, die Informationen zur gewünschten Zielgruppe und zur zu verwendenden Angebotsentscheidung enthält. Der Angebotsinhalt für jedes Profil in der Zielgruppe wird daraufhin in einen Adobe Experience Platform-Datensatz platziert, über den er für benutzerdefinierte Batch-Workflows zur Verfügung steht.
 
 Die Batch-Bereitstellung kann auch über APIs durchgeführt werden. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Batch Decisioning-API](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Bevor Sie eine Vorgangsanfrage konfigurieren, stellen Sie sicher, dass Sie Folge
 
 * **Einen Datensatz** in Adobe Experience Platform. Dieser Datensatz wird verwendet, um das Entscheidungsergebnis mithilfe des Schemas „ODE DecisionEvents“ zu speichern. Weitere Informationen finden Sie in der [Dokumentation zu Datensätzen](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=de).
 
-* **Zielgruppe** in Adobe Experience Platform. Die Zielgruppe sollte ausgewertet und dann aktualisiert werden. Erfahren Sie, wie Sie die Bewertung der Zielgruppenmitgliedschaft im Abschnitt aktualisieren. [Dokumentation zum Segmentierungsdienst](http://www.adobe.com/go/segmentation-overview-en_de)
+* **Eine Zielgruppe** in Adobe Experience Platform. Die Zielgruppe sollte ausgewertet und dann aktualisiert werden. Informationen zum Aktualisieren der Auswertung der Zielgruppenzugehörigkeit finden Sie in der [Dokumentation zum Segmentierungs-Service](http://www.adobe.com/go/segmentation-overview-en_de).
 
   >[!NOTE]
   >
-  >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Batch Decisioning begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot. Warten Sie bis zu 24 Stunden, nachdem Sie eine Zielgruppe erstellt haben, bevor Sie die Batch-Entscheidungs-API ausprobieren.
+  >Ein Batch-Vorgang wird auf Basis eines Profil-Snapshots ausgeführt, der einmal täglich erfolgt. Batch Decisioning begrenzt die Häufigkeit und lädt Profile immer aus dem neuesten Snapshot. Nach der Erstellung einer Zielgruppe müssen Sie mit einer Wartezeit von bis zu 24 Stunden rechnen, bevor Sie die Batch Decisioning-API verwenden können.
 
 * **Eine Entscheidung** in Adobe Journey Optimizer. [Erfahren Sie, wie Sie eine Entscheidung erstellen können](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Gehen Sie wie folgt vor, um eine neue Vorgangsanfrage zu erstellen.
 
 1. Benennen Sie Ihre Vorgangsanfrage und wählen Sie dann den Datensatz aus, in den die Vorgangsdaten gesendet werden sollen.
 
-1. Wählen Sie die Adobe Experience Platform-Zielgruppe aus.
+1. Wählen Sie die gewünschte Adobe Experience Platform-Zielgruppe aus.
 
-1. Wählen Sie einen oder mehrere Entscheidungsbereiche für Angebote aus, die Sie für die Bereitstellung von Angeboten an die Zielgruppe verwenden möchten:
+1. Wählen Sie mindestens einen Angebotsentscheidungs-Umfang aus, in dem der Zielgruppe Angebote unterbreitet werden sollen:
    1. Wählen Sie eine Platzierung aus der Liste aus.
    1. Die für die ausgewählte Platzierung verfügbaren Entscheidungen werden angezeigt. Wählen Sie die gewünschte Entscheidung aus und klicken Sie auf **[!UICONTROL Hinzufügen]**.
    1. Wiederholen Sie den Vorgang, um beliebig viele Entscheidungsumfänge hinzuzufügen.
@@ -93,11 +93,11 @@ Wenn während der Ausführung der Vorgangsanfrage ein Fehler auftritt, wird der 
 
 Die Gesamtzeit für jeden Batch-Vorgang ist die Dauer ab dem Zeitpunkt, an dem die Workload erstellt wird, bis zum Zeitpunkt, an dem das Entscheidungsergebnis im Ausgabedatensatz verfügbar ist.
 
-Die Zielgruppengröße ist der Hauptfaktor, der sich auf die End-to-End-Batch-Entscheidungszeit auswirkt. Wenn für das geeignete Angebot eine globale Häufigkeitsbegrenzung aktiviert ist, dauert die Batch-Entscheidung länger, bis sie abgeschlossen ist. Nachstehend finden Sie einige Näherungen der End-to-End-Verarbeitungszeit für die jeweilige Zielgruppengröße, sowohl mit als auch ohne Frequenzlimitierung für geeignete Angebote:
+Die Zielgruppengröße ist der Hauptfaktor, der sich auf die Gesamtzeit des Batch-Entscheidungsvorgangs auswirkt. Wenn für das geeignete Angebot eine globale Frequenzbegrenzung aktiviert ist, dauert die Batch-Entscheidung länger, bis sie abgeschlossen ist. Nachstehend finden Sie verschiedene Näherungswerte für die Gesamtverarbeitungszeit der jeweiligen Zielgruppengrößen, sowohl mit als auch ohne Frequenzbegrenzung für geeignete Angebote:
 
-Mit aktivierter Häufigkeitsbegrenzung für geeignete Angebote:
+Mit aktivierter Frequenzbegrenzung für geeignete Angebote:
 
-| Audience-Größe | Gesamtverarbeitungszeit |
+| Zielgruppengröße | Gesamtverarbeitungszeit |
 |--------------|----------------------------|
 | 10.000 Profile oder weniger | 7 Minuten |
 | 1 Million Profile oder weniger | 30 Minuten |
@@ -105,7 +105,7 @@ Mit aktivierter Häufigkeitsbegrenzung für geeignete Angebote:
 
 Ohne Häufigkeitsbegrenzung für geeignete Angebote:
 
-| Audience-Größe | Gesamtverarbeitungszeit |
+| Zielgruppengröße | Gesamtverarbeitungszeit |
 |--------------|----------------------------|
 | 10.000 Profile oder weniger | 6 Minuten |
 | 1 Million Profile oder weniger | 8 Minuten |
