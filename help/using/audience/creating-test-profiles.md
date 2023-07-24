@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1363'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -117,31 +117,31 @@ So können Sie ein vorhandenes Profil in ein Testprofil umwandeln: Sie können P
 
 Am einfachsten erreichen Sie das, indem Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** in einer Journey verwenden und das boolesche Feld **testProfile** von „false“ auf „true“ ändern.
 
-Ihre Journey besteht aus einer **[!UICONTROL Audience lesen]** und **[!UICONTROL Profil aktualisieren]** Aktivität. Zunächst müssen Sie eine Audience erstellen, die sich an die Profile richtet, die in Testprofile umgewandelt werden sollen.
+Ihre Journey besteht dann aus den Aktivitäten **[!UICONTROL Zielgruppe lesen]** und **[!UICONTROL Profil aktualisieren]**. Zunächst müssen Sie eine Zielgruppe erstellen, die die Profile anspricht, die in Testprofile umgewandelt werden sollen.
 
 >[!NOTE]
 >
 > Da Sie das Feld **testProfile** aktualisieren werden, müssen die ausgewählten Profile dieses Feld enthalten. Das zugehörige Schema muss die Feldgruppe **Testdetails des Profils** enthalten. Weitere Informationen finden Sie in [diesem Abschnitt](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Navigieren Sie zu **Zielgruppen**, dann **Zielgruppe erstellen**, oben rechts.
+1. Navigieren Sie zu **Zielgruppen** und dann oben rechts zu **Zielgruppe erstellen**.
    ![](assets/test-profiles-22.png)
-1. Definieren Sie einen Namen für Ihre Zielgruppe und erstellen Sie die Zielgruppe: Wählen Sie die gewünschten Felder und Werte aus.
+1. Definieren Sie einen Namen für Ihre Zielgruppe und erstellen Sie die Zielgruppe: Wählen Sie die Felder und Werte aus, um die gewünschten Profile anzusprechen.
    ![](assets/test-profiles-23.png)
-1. Klicken **Speichern** und überprüfen Sie, ob die Profile korrekt in der Audience enthalten sind.
+1. Klicken Sie auf **Speichern** und prüfen Sie, ob die Profile korrekt durch die Zielgruppe angesprochen werden.
    ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
    > Die Zielgruppenberechnung kann einige Zeit in Anspruch nehmen. Weitere Informationen zu Zielgruppen finden Sie in [diesem Abschnitt](../audience/about-audiences.md).
 
-1. Erstellen Sie jetzt eine neue Journey und beginnen Sie mit einer **[!UICONTROL Audience lesen]** Orchestrierungsaktivität.
-1. Wählen Sie die zuvor erstellte Audience und den Namespace aus, den Ihre Profile verwenden.
+1. Erstellen Sie jetzt eine neue Journey und beginnen Sie mit der Orchestrierungsaktivität **[!UICONTROL Zielgruppe lesen]**.
+1. Wählen Sie die zuvor erstellte Zielgruppe und den Namespace aus, den Ihre Profile verwenden.
    ![](assets/test-profiles-25.png)
 1. Fügen Sie die Aktionsaktivität **[!UICONTROL Profil aktualisieren]** hinzu.
 1. Wählen Sie das Schema, das Feld **testProfiles** und den Datensatz aus und legen Sie den Wert auf **true** fest. Klicken Sie dazu im Feld **[!UICONTROL WERT]** auf das **Stift**-Symbol rechts, wählen Sie **[!UICONTROL Erweiterter Modus]** aus und geben Sie **true** ein.
    ![](assets/test-profiles-26.png)
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**.
-1. Im **[!UICONTROL Zielgruppen]** überprüfen, ob die Profile korrekt aktualisiert wurden.
+1. Überprüfen Sie im Abschnitt **[!UICONTROL Zielgruppen]**, ob die Profile korrekt aktualisiert wurden.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
