@@ -5,9 +5,9 @@ title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt den Inhalt Ihrer Angebote mit Adobe Experience Platform-Profilattributen und -Audiences personalisieren und dabei dieselbe Ausdruckseditor-Komponente verwenden, die Sie in der Journey Optimizer-Benutzeroberfläche finden. </p>
+<p>Sie können jetzt den Inhalt Ihrer Angebote mit Profilattributen und Zielgruppen von Adobe Experience Platform personalisieren, indem Sie die Ausdruckseditor-Komponente in der Journey Optimizer-Benutzeroberfläche verwenden. </p>
 <p>Weitere Informationen finden Sie in der <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Journeys**
 
-* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie von einer Audience aus jetzt eine E-Mail-Adresse aus einer Abonnementliste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
+* **Ausdruckseditor** – Als Power User können Sie jetzt Funktionen verwenden, um mit Karten zu arbeiten. Diese Funktion kann mit den Abonnement-Listen genutzt werden. Beispielsweise können Sie jetzt in einer Zielgruppe eine E-Mail-Adresse aus einer Abonnement-Liste abrufen. [In diesem Beispiel erfahren Sie mehr](../building-journeys/message-to-subscribers-uc.md).
 
 * **Monitoring** – Step-Ereignisse für Live-Journeys und den Testmodus wurden verbessert. Es wurden [neue Felder](../reports/sharing-field-list.md#serviceevents) im Zusammenhang mit Profilexportvorgängen hinzugefügt. Für ein besseres Benutzererlebnis sind die Felder für Step-Ereignisse jetzt in verschiedenen Kategorien organisiert. Alle Felder für vorhergehende Step-Ereignisse sind weiterhin in der Kategorie [stepEvents](../reports/sharing-legacy-fields.md) verfügbar.
 * **Barrierefreiheit** – Es wurden Verbesserungen an der Barrierefreiheit von Journeys implementiert.
@@ -262,12 +262,12 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 * **Dynamische Header** – Sie können jetzt dynamische Daten in HTTP-Header-Parametern übergeben. Diese Parameter können von den Integrationssystemen verwendet werden, die die HTTP-Aufrufe der Journey-Aktion empfangen, z. B. Zeitstempel oder Tracking-ID. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-Pfade** – Sie können jetzt dynamische URL-Pfade für benutzerdefinierte Aktionen einrichten. [Weitere Informationen](../action/about-custom-action-configuration.md#url-configuration)
-* Die Gesamtdrosselungsrate für Zielgruppen zum Lesen wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Die Gesamteinschränkungsrate für die Aktivität „Zielgruppe lesen“ wurde von 17.000 auf 20.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Benutzeroberfläche**
 
 * **Suche** – Auf jeder Seite können Sie jetzt Geschäftsobjekte und Hilfeartikel direkt über das Suchfeld „Einheitliches Experience Cloud“ durchsuchen. [Weitere Informationen](../start/user-interface.md#unified-search)
-* **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Mit diesem Update umfassen die kürzlich aufgerufenen Verknüpfungen Nachrichten, Journey, Zielgruppen, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele. [Weitere Informationen](../action/about-custom-action-configuration.md#passing-collection)
+* **Zuletzt ausgewertet** – Die Anzeige von kürzlich aufgerufenen Elementen auf der Adobe Journey Optimizer-Startseite wird jetzt auf weitere Geschäftsobjekte erweitert. Diese Aktualisierung enthält Verknüpfungen zu kürzlich abgerufenen Elementen wie Nachrichten, Journeys, Zielgruppen, Schemata, Datensätzen, Datenquellen, Ereignissen, Aktionen, Quellen und Zielen. [Weitere Informationen](../action/about-custom-action-configuration.md#passing-collection)
 
 **Inhaltserstellung**
 
@@ -337,12 +337,12 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Journeys**
 
-* Die Gesamtdrosselungsrate aller Zielgruppen, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde beschränkt. [Mehr dazu](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Die Gesamteinschränkungsrate aller Aktivitäten „Zielgruppe lesen“, die gleichzeitig in derselben Sandbox ausgeführt werden, ist auf 17.000 Nachrichten pro Sekunde begrenzt. [Mehr dazu](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Das Feld **Aufbewahrungsfrist im Cache** wurde aus dem Konfigurationsbereich der Datenquelle entfernt. [Mehr dazu](../datasource/about-data-sources.md)
 * Für externe Datenquellen ist jetzt automatisch eine Begrenzungsregel von 15 Aufrufen pro Sekunde definiert. [Mehr dazu](../configuration/external-systems.md#capping)
 * Für Live-Journeys werden im Journey-Eigenschaftsfenster das Veröffentlichungsdatum und der Name des Benutzers angezeigt, der die Journey veröffentlicht hat. [Mehr dazu](../building-journeys/journey-gs.md#change-properties)
 * Im Journey-Listenfenster wurde ein Filter für den Journey-Typ hinzugefügt. [Mehr dazu](../start/user-interface.md#filter-lists)
-* Die **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität Audience lesen hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Der Parameter **[!UICONTROL Einschränkungsrate]** wurde in der Aktivität „Zielgruppe lesen“ hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Vorschau und Test**
 
