@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Journeys**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
+Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
 
 
 **Kampagnen**
 
-* Kontextereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü &quot;Kontextuelle Attribute&quot;des Personalisierungseditors verfügbar.
+Kontextereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü &quot;Kontextuelle Attribute&quot;des Personalisierungseditors verfügbar.
 
 
 **Zielgruppen**
 
-Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
-
-Mit der Veröffentlichung des Portals &quot;Zielgruppenkomposition&quot;haben Adobe Experience Platform und Adobe Journey Optimizer die Verwendung von &quot;Zielgruppen&quot;und &quot;Segmenten&quot;im System und in der Dokumentation aktualisiert.
+Die Zielgruppenauswahl in Journey- oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen. Mit der Veröffentlichung des Portals &quot;Zielgruppenkomposition&quot;haben Adobe Experience Platform und Adobe Journey Optimizer die Verwendung von &quot;Zielgruppen&quot;und &quot;Segmenten&quot;im System und in der Dokumentation aktualisiert.
 
 * Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
 * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
 
-Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+Daher werden in Adobe Journey Optimizer und der Benutzeroberfläche von Adobe Experience Platform &quot;Segmente&quot;durch &quot;Zielgruppen&quot;ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
 **APIs**
 
-Authentifizierung der Adobe Journey Optimizer-APIs - Die JWT-Methode zum Generieren von Zugriffstoken wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der OAuth Server-zu-Server-Authentifizierungsmethode erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Die JWT-Methode zum Generieren von Zugriffstoken für die Adobe Journey Optimizer API-Authentifizierung wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der OAuth Server-zu-Server-Authentifizierungsmethode erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Weitere Änderungen**
