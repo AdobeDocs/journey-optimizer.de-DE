@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühe Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 27%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 28%
 
 Frühe Versionshinweise unten können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden im [Versionshinweise](release-notes.md), am Veröffentlichungsdatum.
 
-
 ## Frühzeitige Versionshinweise vom Juli 2023 {#july-rn-2023}
 
 **Veröffentlichungsdatum**: 26.-27. Juli
@@ -26,23 +25,6 @@ Frühe Versionshinweise unten können bis zum Verfügbarkeitsdatum der Version o
 ### Neue Funktionen{#july-2023-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
-
-<table>
-<thead>
-<tr>
-<th><strong>APIs für Inhaltsvorlagen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Adobe Journey Optimizer-Inhaltsvorlagen mithilfe dedizierter APIs erstellen und verwalten, um eine nahtlose Integration in Ihr vorhandenes Inhaltssystem zu ermöglichen.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -62,23 +44,22 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Briefpost-Kanal</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Ihren Kampagnen Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, über den Sie die von Briefpost-Dienstleistern benötigten Dateien personalisieren und generieren können, um E-Mails an Ihre Kunden zu senden.</p>
-<p>Bei der Vorbereitung eines Briefpost-Versands erzeugt Journey Optimizer eine Datei mit allen Zielgruppenprofilen und den ausgewählten Kontaktinformationen (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Weitere Informationen finden Sie in der <a href="../direct-mail/create-direct-mail.md">ausführlichen Dokumentation</a>.</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <p>Zusätzlich zu Kampagnen und Journey können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnementlisten jetzt Adobe Experience Platform Unified Tags zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>APIs für Inhaltsvorlagen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Adobe Journey Optimizer-Inhaltsvorlagen mithilfe dedizierter APIs erstellen und verwalten, um eine nahtlose Integration in Ihr vorhandenes Inhaltssystem zu ermöglichen.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Authentifizierung der Adobe Journey Optimizer-APIs - Die JWT-Methode zum Generie
 
 **Weitere Änderungen**
 
-Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt für alle Kunden verfügbar. Mit dieser Funktion können Sie eine Live-Verbindung mit Cloud-Speicherorten herstellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
+Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt allen Kunden als öffentliche Beta-Version verfügbar. Mit dieser Funktion können Sie eine Live-Verbindung mit Cloud-Speicherorten herstellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->Diese Funktion befindet sich derzeit in der Beta-Phase und kann geändert werden.</p>
+
+
+
