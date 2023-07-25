@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activities-placement.png)
 
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um Bewertungskriterien für diese Platzierung auszuwählen.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um Auswertungskriterien für diese Platzierung auszuwählen.
 
    ![](../assets/activities-evaluation-criteria.png)
 
@@ -56,7 +56,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    >[!NOTE]
    >
-   >Es ist mindestens ein Bewertungskriterium erforderlich.
+   >Es ist mindestens ein Auswertungskriterium erforderlich.
 
 1. Wählen Sie die Angebotssammlung aus, die die zu berücksichtigenden Angebote enthält, und klicken Sie anschließend auf **[!UICONTROL Hinzufügen]**.
 
@@ -110,7 +110,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_add-collection.png)
 
-1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge bewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw. [Weitere Informationen](#evaluation-criteria-order)
+1. Wenn Sie mehrere Kriterien hinzufügen, werden diese in einer bestimmten Reihenfolge ausgewertet. Die erste Sammlung, die der Sequenz hinzugefügt wurde, wird zuerst ausgewertet usw. [Weitere Informationen](#evaluation-criteria-order)
 
    Um die Standardsequenz neu anzuordnen, können Sie die Sammlungen per Drag-and-drop nach Bedarf verschieben.
 
@@ -130,23 +130,23 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    >[!NOTE]
    >
-   >Beim Hinzufügen mehrerer Entscheidungsumfänge wird die Reihenfolge der Bewertungskriterien beeinflusst. [Weitere Informationen](#multiple-scopes)
+   >Beim Hinzufügen mehrerer Entscheidungsumfänge wird die Reihenfolge der Auswertungskriterien beeinflusst. [Weitere Informationen](#multiple-scopes)
 
-### Reihenfolge der Bewertungskriterien {#evaluation-criteria-order}
+### Reihenfolge der Auswertungskriterien {#evaluation-criteria-order}
 
-Wie oben beschrieben bestehen Bewertungskriterien aus einer Sammlung, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Bewertungskriterien angewendet werden sollen. Sie können aber auch mehrere Bewertungskriterien kombinieren, sodass sie zusammen und nicht getrennt angewendet werden.
+Wie oben beschrieben bestehen Auswertungskriterien aus einer Sammlung, Eignungsbegrenzungen und einer Ranking-Methode. Sie können die sequenzielle Reihenfolge festlegen, in der die Auswertungskriterien angewendet werden sollen. Sie können aber auch mehrere Auswertungskriterien kombinieren, sodass sie zusammen und nicht getrennt angewendet werden.
 
 #### Mit nur einem Umfang {#one-scope}
 
 Innerhalb eines einzigen Entscheidungsumfangs bestimmen mehrere Kriterien und ihre Gruppierung die Priorität der Kriterien und die Rangfolge der geeigneten Angebote. Das erste Kriterium hat die höchste Priorität und die Kriterien, die in derselben „Gruppe“ zusammengefasst sind, haben die gleiche Priorität.
 
-Sie haben beispielsweise zwei Sammlungen – eine im Bewertungskriterium A und eine im Bewertungskriterien B. Die Anfrage sieht die Rücksendung von zwei Angeboten vor. Angenommen, es gibt zwei geeignete Angebote nach Bewertungskriterium A und drei geeignete Angebote nach Bewertungskriterium B.
+Sie haben beispielsweise zwei Sammlungen – eine im Auswertungskriterium A und eine im Auswertungskriterien B. Die Anfrage sieht die Rücksendung von zwei Angeboten vor. Angenommen, es gibt zwei geeignete Angebote nach Auswertungskriterium A und drei geeignete Angebote nach Auswertungskriterium B.
 
-* Wenn die beiden Bewertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2) sind, werden die beiden geeignetsten Angebote aus den Bewertungskriterien in der ersten Zeile angezeigt. Gibt es für das erste Bewertungskriterium keine zwei geeigneten Angebote, geht die Entscheidungs-Engine zum nächsten Bewertungskriterium in der Reihenfolge über, um so viele Angebote zu finden, wie noch benötigt werden, und gibt schließlich bei Bedarf ein Fallback zurück.
+* Wenn die beiden Auswertungskriterien **nicht kombiniert** und/oder in sequenzieller Reihenfolge (1 und 2) sind, werden die beiden geeignetsten Angebote aus den Auswertungskriterien in der ersten Zeile angezeigt. Gibt es für das erste Auswertungskriterium keine zwei geeigneten Angebote, geht die Entscheidungs-Engine zum nächsten Auswertungskriterium in der Reihenfolge über, um so viele Angebote zu finden, wie noch benötigt werden, und gibt schließlich bei Bedarf ein Fallback zurück.
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Bewertungskriterium A und drei geeignete Angebote für Bewertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
+* Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Auswertungskriterium A und drei geeignete Angebote für Auswertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
   ![](../assets/activity_same-rank-collections.png)
 
@@ -156,7 +156,7 @@ Betrachten wir nun ein Beispiel, bei dem mehrere Kriterien für einen einzelnen 
 
 Sie haben drei Kriterien definiert. Die Kriterien 1 und 2 befinden sich beide in Gruppe 1, während Kriterium 3 unabhängig ist (Gruppe 2).
 
-Die geeigneten Angebote für jedes Kriterium und ihre Priorität (die bei der Bewertung der Ranglistenfunktion verwendet wird) sind wie folgt:
+Die geeigneten Angebote für jedes Kriterium und ihre Priorität (die bei der Auswertung der Ranglistenfunktion verwendet wird) sind wie folgt:
 
 * Gruppe 1:
    * Kriterium 1 – (Angebot 1, Angebot 2, Angebot 3) – Priorität 1
@@ -181,7 +181,7 @@ Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, A
 
 **Iteration 2:**
 
-Angebote mit Kriterium 3 werden bewertet (Angebot 5, Angebot 6). Nehmen wir an, das Ergebnis lautet:
+Angebote mit Kriterium 3 werden ausgewertet (Angebot 5, Angebot 6). Nehmen wir an, das Ergebnis lautet:
 
 * Angebot 5 - wird nicht ausgewertet, da es bereits im obigen Ergebnis enthalten ist.
 * Angebot 6 - 60

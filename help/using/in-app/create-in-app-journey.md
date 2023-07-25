@@ -12,12 +12,12 @@ exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
 source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 100%
 
 ---
 
-# Erstellen einer In-App-Nachricht in einer Journey erstellen. {#create-in-app-journey}
+# Erstellen einer In-App-Nachricht in einer Journey {#create-in-app-journey}
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 

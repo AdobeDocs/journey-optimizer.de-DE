@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Aktualisierungen vom Juli 2023
+## Aktualisierungen im Juli 2023
 
 <table>
 <thead>
@@ -33,11 +33,11 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Zusammensetzungs-Workflows erstellen, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Anreicherung..) zu nutzen, um neue Zielgruppen zu erstellen. Neu erstellte Zielgruppen werden zusammen mit bestehenden Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen für die Kundenansprache genutzt werden.</p>
+<p>Sie können nun einen Kompositions-Workflow erstellen, um vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufteilung, Anreicherung …) zum Erstellen neuer Zielgruppen zu nutzen. Neu erstellte Zielgruppen werden zusammen mit vorhandenen Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen zur Kundenansprache verwendet werden.</p>
 
 <img src="../audience/assets/audiences-publish.png"/>
 
-<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
 
 <p>Die Audience-Komposition ist vollständig in das neue Adobe Experience Platform-Menü "Zielgruppen"integriert, das als zentralisiertes Portal für Zielgruppen dient. Sie können jetzt eine Durchsuchen-Seite verwenden, die ein neues Dashboard mit Segmenttrends und Überschneidungen enthält, um neue Einblicke zu erhalten und Organisations-Tools für die Ordner- und Tagging-Verwaltung zu erkunden. Eingebettet in dieses Erlebnis sind Governance-Steuerelemente für standardisierte Zielgruppenbeschriftungen sowie Funktionen für das Zielgruppen-Lebenszyklusmanagement zur Verwaltung von Aktivierungs-Workflows. Mit diesem neuen Management-Erlebnis können Sie Zielgruppen jetzt einfach und sicher von einem Ort aus verwalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de" target="_blank">Adobe Experience Platform-Dokumentation</a>.</p></p>
 </td>
@@ -59,7 +59,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <p>Sie können jetzt APIs verwenden, um Marketing-Kampagnen in Adobe Journey Optimizer von einem externen System aus auszulösen.</p>
 <p>Bis zu dieser Version bediente die Funktion für API-ausgelöste Kampagnen den Bedarf an verschiedenen operativen und transaktionalen Nachrichten, wie etwa Zurücksetzen des Passworts oder OTP-Token, sie konnte jedoch nicht zur Erstellung von Marketing-Kampagnen verwendet werden. Für API-ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push-Benachrichtigungen zur Verfügung.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-campaigns.md">detaillierten Dokumentation</a>.
+<p>Weitere Informationen finden Sie in der <a href="../campaigns/api-triggered-campaigns.md">ausführlichen Dokumentation</a>.
 </td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Behandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Sie können jetzt Fragmente erstellen, verwenden und verwalten, um E-Mails und Inhaltsvorlagen schnell zusammenzustellen. Ein Fragment ist eine vordefinierte wiederverwendbare Komponente, die in Journey Optimizer-Kampagnen und -Journeys in mehreren E-Mails referenziert werden kann, um einen verbesserten und beschleunigten Design-Prozess zu ermöglichen.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../email/fragments.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -167,7 +167,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Sie können nun Ihren Kampagnen einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste. Die Funktion für einheitliche Tags befindet sich derzeit in der Betaphase.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -390,7 +390,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Die Journey-Arbeitsfläche wurde verbessert, um das Benutzererlebnis zu vereinfachen und zu verbessern. Am Ende jedes Pfads auf der Arbeitsfläche wurden die leeren Platzhalter entfernt. Sie können Ihre Aktivitäten jetzt einfach hinzufügen, indem Sie sie an das Ende eines Pfads ziehen.
 * Auf der Journey-Arbeitsfläche ist der Namen der vorherigen Aktivität nicht mehr automatisch als Titel des **Ende**-Tags festgelegt. Benutzerinnen und Benutzer können bei Bedarf manuell eine benutzerdefinierte Bezeichnung hinzufügen.
 * Die standardmäßige Zeitüberschreitungs- und Fehlerdauer in den Journey-Eigenschaften wurde von 5 auf 30 Sekunden geändert. [Weitere Informationen](../configuration/external-systems.md#timeout)
-* Die standardmäßige Drosselungsrate in Aktivitäten mit Lesen und Lesen von Zielgruppen wurde von 20.000 auf 5.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Die standardmäßige Einschränkungsrate in Aktivitäten vom Typ „Zielgruppe lesen“ wurde von 20.000 auf 5.000 Nachrichten pro Sekunde geändert. [Weitere Informationen](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Dem Testmodus wurde ein Schutzmechanismus hinzugefügt, der nur Ereignisse überwacht, die über die Oberfläche gesendet werden. Ereignisse, die über ein externes Tool gesendet werden, werden nicht berücksichtigt. [Weitere Informationen](../building-journeys/testing-the-journey.md)
 
 
@@ -521,9 +521,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld können Sie die Wartezeit definieren, bevor ein Profil die erneute Teilnahme an der Journey in einheitlichen Journey ermöglicht (beginnend mit einem Ereignis oder einer Zielgruppenqualifikation). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
+* Das Feld **Wartezeit bis zum erneuten Eintritt** wurde zu den Journey-Eigenschaften hinzugefügt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. [Weitere Informationen](../building-journeys/journey-gs.md#entrance)
 
-* Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Audience lesen** Journey können Sie jetzt ein Enddatum hinzufügen. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
+* Es wurden Verbesserungen in Bezug auf die **Start- und Enddaten einer Journey** vorgenommen. Wenn kein Startdatum angegeben wurde, wird es jetzt automatisch zum Veröffentlichungszeitpunkt hinzugefügt. Für **Zielgruppe lesen**-Journeys kann jetzt ein Enddatum hinzugefügt werden. Dadurch können Profile beim Erreichen des Datums automatisch die Journey verlassen. [Weitere Informationen](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -597,7 +597,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Beim Hinzufügen von **Zielgruppenqualifikation** oder **Audience lesen** In einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Siehe Abschnitt [Zielgruppenqualifikation](../building-journeys/audience-qualification-events.md#about-segment-qualification) und [Audience lesen](../building-journeys/read-audience.md#configuring-segment-trigger-activity) Abschnitte.
+* Beim Hinzufügen einer **Zielgruppen-Qualifizierung** oder Aktivität vom Typ **Zielgruppe lesen** in einer Journey ist der Namespace jetzt standardmäßig mit dem zuletzt verwendeten Namespace vorausgefüllt. Weitere Informationen finden Sie in den Abschnitten zur [Zielgruppen-Qualifizierung](../building-journeys/audience-qualification-events.md#about-segment-qualification) und zur Aktivität [Zielgruppe lesen](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
 * Auf der Journey-Arbeitsfläche ist eine neue Schaltfläche in der Symbolleiste verfügbar, mit der Sie einen Screenshot Ihrer Journey herunterladen können.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Zugreifen auf und Verwalten von Audiences
+title: Zugreifen auf und Verwalten von Zielgruppen
 description: Erfahren Sie, wie man Audiences aufruft und sie verwaltet
 feature: Journeys
 topic: Content Management
@@ -11,19 +11,19 @@ exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Zugreifen auf und Verwalten von Audiences {#access-manage-audiences}
+# Zugreifen auf und Verwalten von Zielgruppen {#access-manage-audiences}
 
 >[!BEGINSHADEBOX]
 
-Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [klicken Sie hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de).
 
 >[!ENDSHADEBOX]
 
-Auf aus der Zielgruppenzusammensetzung resultierende Zielgruppen kann über die **[!UICONTROL Durchsuchen]** im **[!UICONTROL Zielgruppen]** Menü.
+Zielgruppen, die im Rahmen der Zielgruppenkomposition entstanden sind, sind im Menü **[!UICONTROL Zielgruppen]** über die Registerkarte **[!UICONTROL Durchsuchen]** zugänglich.
 
 Auf dieser Registerkarte werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet. Audiences, die mithilfe von Audience-Kompositionen erstellt wurden, sind an der Herkunft **[!UICONTROL Audience-Komposition]** erkennbar.
 

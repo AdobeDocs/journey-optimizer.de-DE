@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,10 +53,10 @@ ht-degree: 99%
       + [Erste Schritte mit Journey-Aktivitäten](using/building-journeys/about-journey-activities.md)
       + [Allgemeine Ereignisse](using/building-journeys/general-events.md)
       + [Reaktion](using/building-journeys/reaction-events.md)
-      + [Zielgruppenqualifikation](using/building-journeys/audience-qualification-events.md)
+      + [Zielgruppen-Qualifizierung](using/building-journeys/audience-qualification-events.md)
       + [Bedingung](using/building-journeys/condition-activity.md)
       + [Warten](using/building-journeys/wait-activity.md)
-      + [Audience lesen](using/building-journeys/read-audience.md)
+      + [Zielgruppe lesen](using/building-journeys/read-audience.md)
       + [E-Mail, In-App, Push, SMS](using/building-journeys/journeys-message.md)
       + [Benutzerdefinierte Aktionen](using/building-journeys/using-custom-actions.md)
       + [Aktionen in Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -282,12 +282,12 @@ ht-degree: 99%
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
-      + [Segmentdefinitionen erstellen](using/audience/creating-a-segment-definition.md)
+      + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
       + Erstellen von Audiences {#audience-orchestration}
          + [Erste Schritte mit der Audience-Komposition](using/audience/get-started-audience-orchestration.md)
          + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
          + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
-         + [Zugreifen auf und Verwalten von Audiences](using/audience/access-audiences.md)
+         + [Zugreifen auf und Verwalten von Zielgruppen](using/audience/access-audiences.md)
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)

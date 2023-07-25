@@ -349,16 +349,16 @@ Helper werden auf [dieser Seite](helpers.md) näher beschrieben.
         <td><a href="helpers.md#each">Jeweils</a></td><td>Diese Funktion wird verwendet, um über ein Array zu iterieren</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#if-function">Wenn</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksevaluierung „true“ zurückgibt, wird der Block gerendert</td>
+        <td><a href="helpers.md#if-function">Wenn</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „true“ zurückgibt, wird der Block gerendert</td>
     </tr>
     <tr>
         <td><a href="helpers.md#let">Zulassen</a></td><td>Diese Funktion ermöglicht das Speichern eines Ausdrucks als Variable, die später in einer Abfrage verwendet werden kann</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">Außer</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksevaluierung „false“ zurückgibt, wird der Block gerendert</td>
+        <td><a href="helpers.md#unless">Außer</a></td><td>Mit dieser Funktion wird ein bedingter Block definiert. Wenn die Ausdrucksauswertung „false“ zurückgibt, wird der Block gerendert</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Evaluierungs-Token des Vorlagenteils zu ändern</td>
+        <td><a href="helpers.md#with">Mit</a></td><td>Diese Funktion wird verwendet, um das Auswertungs-Token des Vorlagenteils zu ändern</td>
     </tr>
 </table>
 

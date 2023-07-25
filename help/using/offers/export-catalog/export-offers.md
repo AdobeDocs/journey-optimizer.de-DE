@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -239,29 +239,29 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraintType 
 **Titel:** Profileinschränkungstyp 
-**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Zielgruppenmitgliedschaften erfolgen.
+**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
 * „none“ (Standard)
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
-* &quot;anySegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied von mindestens einer dieser Zielgruppen sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-* &quot;allSegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied aller sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-* „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
+* „anySegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss mindestens einer dieser Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“
+* „allSegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss allen Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“
+* „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
 
 +++
 
 +++_experience > decisioning > profileConstraints > Segment Identifiers
 
-**Feld:** segmentIdentities
-**Titel:** Segment-IDs
-**Beschreibung:** Kennungen der Zielgruppen
-**Typ:** array
+**Feld:** segmentIdentities 
+**Titel:** Segmentkennungen 
+**Beschreibung:** Kennungen der Zielgruppen 
+**Typ:** Array
 
 * **ID**
 
   **Feld:** _id
   **Titel:** Kennung
-  **Beschreibung:** Identität der Zielgruppen im zugehörigen Namespace.
+  **Beschreibung:** Identität der Zielgruppen im betreffenden Namespace.
   **Typ:** Zeichenfolge
 
 * **Namespace**
@@ -300,8 +300,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++_experience > decisioning > ranking > Order Evaluation
 
 **Feld:** order 
-**Titel:** Evaluierung der Rangfolge 
-**Beschreibung:** Evaluierung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
+**Titel:** Auswertung der Rangfolge 
+**Beschreibung:** Auswertung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
 **Typ:** Objekt
 
 * **Scoring-Funktion**
@@ -311,10 +311,10 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
   **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
   **Typ:** Zeichenfolge
 
-* **Reihenfolgenbewertungstyp**
+* **Reihenfolgenauswertungstyp**
 
   **Feld:** orderEvaluationType
-  **Titel:** Reihenfolgenbewertungstyp
+  **Titel:** Reihenfolgenauswertungstyp
   **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder ein AI-Modell, das eine Liste erhält, um sie zu ordnen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“

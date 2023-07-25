@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** optionSelectionType
   **Titel:** Profileinschränkungstyp
-  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch ein oder mehrere Zielgruppenmitgliedschaften erfolgen.
+  **Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann über eine Filterabfrage oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „none“ (Standard), „directList“, „filter“
 
@@ -103,7 +103,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** options
   **Titel:** Optionsliste
-  **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage zu bewerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
+  **Beschreibung:** Eine Liste, die die Optionen direkt angibt, ohne eine Filterabfrage auszuwerten. Es kann entweder eine Optionsliste oder eine Optionsfilterregel angegeben werden.
   **Typ:** Array
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
@@ -156,29 +156,29 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
 **Feld:** profileConstraintType 
 **Titel:** Profileinschränkungstyp 
-**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch ein oder mehrere Zielgruppenmitgliedschaften erfolgen.
+**Beschreibung:** Bestimmt, ob aktuell Einschränkungen festgelegt sind und wie sie ausgedrückt werden. Dies kann durch eine Regel oder durch die Zugehörigkeit zu einer oder mehreren Zielgruppen erfolgen.
 **Typ:** Zeichenfolge 
 **Mögliche Werte:**
 * „none“ (Standard)
 * „eligibilityRule“: „Die Profileinschränkung wird als einzelne Regel ausgedrückt, die als „true“ ausgewertet werden muss, bevor die einschränkende Aktion zulässig ist.“
-* &quot;anySegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied von mindestens einer dieser Zielgruppen sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-* &quot;allSegments&quot;: &quot;Die Profilbegrenzung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss Mitglied aller sein, bevor die eingeschränkte Aktion zulässig ist.&quot;
-* „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
+* „anySegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss mindestens einer dieser Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“
+* „allSegments“: „Die Profileinschränkung wird als eine oder mehrere Zielgruppen ausgedrückt und das Profil muss allen Zielgruppen angehören, damit die eingeschränkte Aktion zulässig ist.“
+* „rules“: „Die Profileinschränkung wird als eine Reihe verschiedener Regeln ausgedrückt, z. B. Gültigkeit, Anwendbarkeit, Eignung, die alle als „true“ ausgewertet werden müssen, bevor die eingeschränkte Aktion zulässig ist.“
 
 +++
 
 +++ _experience > decisioning > criteria > profileConstraints > segmentIdentities
 
-**Feld:** segmentIdentities
-**Titel:** Segment-IDs
-**Beschreibung:** Kennungen der Zielgruppe.
+**Feld:** segmentIdentities 
+**Titel:** Segmentkennungen 
+**Beschreibung:** Kennungen der Zielgruppe
 **Typ:** Array
 
 * Kennung
 
   **Feld:** _id
   **Titel:** Kennung
-  **Beschreibung:** Identität der Zielgruppe im zugehörigen Namespace.
+  **Beschreibung:** Identität der Zielgruppe im betreffenden Namespace.
   **Typ:** Zeichenfolge
 
 * Namespace
@@ -217,8 +217,8 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 +++_experience > decisioning > criteria > ranking > order
 
 **Feld:** order 
-**Titel:** Evaluierung der Rangfolge 
-**Beschreibung:** Evaluierung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
+**Titel:** Auswertung der Rangfolge 
+**Beschreibung:** Auswertung einer relativen Reihenfolge einer oder mehrerer Entscheidungsoptionen. Optionen mit höheren Ordinalzahlen werden vor Optionen mit niedrigeren Ordinalzahlen ausgewählt. Die durch diese Methode ermittelten Werte können geordnet werden, die Entfernungen zwischen ihnen können jedoch nicht gemessen werden. Außerdem können weder Summen noch Produkte berechnet werden. Der Medianwert und der Modus sind als einzige Messgrößen der zentralen Tendenz für Ordinaldaten verfügbar.
 **Typ:** Objekt
 
 * Scoring-Funktion
@@ -228,10 +228,10 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
   **Beschreibung:** Ein Verweis auf eine Funktion, die einen numerischen Wert für diese Entscheidungsoption berechnet. Entscheidungsoptionen werden dann nach diesem Wert sortiert (nach Rang geordnet). Der Wert dieser Eigenschaft ist die URI (@id) der Funktion, die jeweils mit einer Option aufgerufen werden soll. Siehe Schema https://ns.adobe.com/experience/decisioning/function.
   **Typ:** Zeichenfolge
 
-* Reihenfolgenbewertungstyp**
+* Reihenfolgenauswertungstyp**
 
   **Feld:** orderEvaluationType
-  **Titel:** Reihenfolgenbewertungstyp
+  **Titel:** Reihenfolgenauswertungstyp
   **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder ein AI-Modell, das eine Liste erhält, um sie zu ordnen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“

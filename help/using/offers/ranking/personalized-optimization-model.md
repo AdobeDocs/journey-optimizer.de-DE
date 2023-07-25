@@ -10,7 +10,7 @@ exl-id: c73b3092-e96d-4957-88e6-500e99542782
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Um die Vorteile der automatischen Personalisierung optimal nutzen zu können, m�
 
 * **Die Angebote sind so unterschiedlich, dass auch die Präferenzen der Benutzenden bezüglich der in Frage kommenden Angebote unterschiedlich sind**. Wenn die Angebote zu ähnlich sind, hat das resultierende Modell weniger Wirkung, da die Reaktionen scheinbar zufällig sind.
 Wenn eine Bank beispielsweise zwei Kreditkarten anbietet, deren einziger Unterschied die Farbe ist, hat die Empfehlung einer Karte weniger Auswirkung. Wenn aber an jede Karte unterschiedliche Bedingungen geknüpft sind, haben Kunden und Kundinnen einen bestimmten Grund, warum sie sich für eine der Karten entscheiden. Dies bietet deshalb einen ausreichenden Unterschied zwischen den Angeboten, sodass ein wirkungsvolleres Modell erstellt werden kann.
-* **Die Zusammensetzung des Traffics von Benutzenden ist stabil**. Wenn sich die Zusammensetzung des Benutzenden-Traffics während des Trainings der Modelle und der Vorhersagephase drastisch ändert, kann sich die Modellleistung verschlechtern. Angenommen, in der Modellschulungsphase sind nur Daten für Benutzer in Zielgruppe A verfügbar, aber das trainierte Modell wird verwendet, um Prognosen für Benutzer in Zielgruppe B zu generieren. Anschließend kann die Modellleistung beeinträchtigt werden.
+* **Die Zusammensetzung des Traffics von Benutzenden ist stabil**. Wenn sich die Zusammensetzung des Benutzenden-Traffics während des Trainings der Modelle und der Vorhersagephase drastisch ändert, kann sich die Modellleistung verschlechtern. Angenommen, in der Trainings-Phase des Modells sind nur Daten für Benutzende in Zielgruppe A verfügbar, aber das trainierte Modell wird verwendet, um Prognosen für Benutzende in Zielgruppe B zu generieren. In diesem Fall kann die Modellleistung beeinträchtigt werden.
 * **Die Leistungen der Angebote ändern sich innerhalb eines kurzen Zeitraums nicht dramatisch**, da dieses Modell wöchentlich aktualisiert wird und die Leistungsänderungen mit der Aktualisierung des Modells übermittelt werden. Ein Beispiel: Ein Produkt war früher sehr beliebt, aber in einem öffentlichen Bericht wird festgestellt, dass das Produkt gesundheitsschädlich ist, und das Produkt wird sehr schnell unpopulär. In diesem Szenario könnte das Modell dieses Produkt so lange empfehlen, bis das Modell aufgrund von Verhaltensänderungen der Benutzenden aktualisiert wird.
 
 ## Funktionsweise {#how}
@@ -38,7 +38,7 @@ Es gibt drei Arten von Funktionen:
 | Funktionstypen | Hinzufügen von Funktionen zu Modellen |
 |--------------|----------------------------|
 | Entscheidungs-Objekte (placementID, activityID, decisionScopeID) | Teil der Feedback-Erlebnisereignisse aus dem Entscheidungs-Management, die an AEP gesendet werden |
-| Zielgruppen | 0-50 Zielgruppen können bei der Erstellung des KI-Modells für Ranking als Funktionen hinzugefügt werden |
+| Zielgruppen | Bis zu 50 Zielgruppen können beim Erstellen des KI-Rangfolgenmodells als Funktionen hinzugefügt werden |
 | Kontextdaten | Teil der Feedback-Erlebnisereignisse aus dem Decisioning, die an AEP gesendet werden. Verfügbare Kontextdaten zum Hinzufügen zum Schema: Details zu Commerce, Kanal, Anwendung, Web, Umgebung und Gerät sowie placeContext |
 
 Das Modell umfasst zwei Phasen:

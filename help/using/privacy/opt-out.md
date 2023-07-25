@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Haben Benutzende:
 
 * der Personalisierung zugestimmt, bestimmt der Entscheidungsbereich das beste Angebot für dieses Profil.
 
-* der Personalisierung nicht zugestimmt, kommt das entsprechende Profil für keines der Angebote in den Bewertungskriterien infrage und erhält daher das nicht personalisierte Fallback-Angebot.
+* der Personalisierung nicht zugestimmt, kommt das entsprechende Profil für keines der Angebote in den Auswertungskriterien infrage und erhält daher das nicht personalisierte Fallback-Angebot.
 
 >[!NOTE]
 >

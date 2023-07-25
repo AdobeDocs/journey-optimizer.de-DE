@@ -12,7 +12,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,12 @@ Im Zusammenhang mit der Verwendung von Journeys gibt es diese Einschränkungen:
 
 ## Einschränkungen bei den Journey-Versionen {#journey-versions-limitations}
 
-* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können keine Journey mit einer **Zielgruppenqualifikation** -Ereignis.
-* Eine Journey, die mit einer **Zielgruppenqualifikation** -Aktivität in v1 muss immer mit einer **Zielgruppenqualifikation** in weiteren Versionen.
-* Die in **Zielgruppenqualifikation** (erster Knoten) kann in neuen Versionen nicht geändert werden.
-* Die Regel für den Wiedereintritt muss in allen Journey-Versionen gleich sein.
-* Eine Journey, die mit einer **Audience lesen** kann nicht mit einem anderen Ereignis in den nächsten Versionen beginnen.
- 
+* Eine Journey, die in Version 1 mit einer Ereignisaktivität beginnt, kann in weiteren Versionen nicht mit etwas anderem als einem Ereignis beginnen. Sie können eine Journey nicht mit einem **Zielgruppen-Qualifizierungsereignis** beginnen.
+* Eine Journey, die in Version 1 mit einer Aktivität vom Typ **Zielgruppen-Qualifizierung** beginnt, muss in weiteren Versionen immer mit einer **Zielgruppen-Qualifizierung** beginnen.
+* Die Zielgruppe und der Namespace, die unter **Zielgruppen-Qualifizierung** (dem ersten Knoten) ausgewählt wurden, können in neuen Versionen nicht geändert werden.
+* Die Regel für den erneuten Eintritt muss in allen Journey-Versionen gleich sein.
+* Eine Journey, die mit **Zielgruppe lesen** beginnt, kann in Folgeversionen nicht mit einem anderen Ereignis beginnen.
+ 
 ## Benutzerdefinierte Aktionen  Einschränkungen {#custom-actions-limitations}
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter. 
@@ -61,8 +61,8 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Fügen Sie nach dem ersten Ereignis eine Warteaktivität hinzu, um Adobe Experience Platform ausreichend Zeit zu geben, um die Aufnahme in den Profil-Service durchzuführen.
 
-* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw.).
+* Richten Sie eine Journey ein, bei der das Profil nicht sofort genutzt wird. Wenn die Journey beispielsweise dazu dient, eine Kontoerstellung zu bestätigen, könnte das Erlebnisereignis Informationen enthalten, die zum Senden der ersten Bestätigungsnachricht benötigt werden (Vorname, Nachname, E-Mail-Adresse usw).
 
-## Audience-Einschränkungen lesen {#read-audiences-limitations}
+## Einschränkungen beim Lesen von Zielgruppen {#read-audiences-limitations}
 
-* Streaming-Zielgruppen sind immer aktuell, Batch-Zielgruppen werden jedoch nicht zum Zeitpunkt des Abrufs berechnet. Sie werden nur jeden Tag zur täglichen Batch-Auswertung berechnet.
+* Streaming-Zielgruppen sind immer auf dem neuesten Stand, Batch-Zielgruppen werden jedoch zum Zeitpunkt des Abrufs nicht berechnet. Sie werden nur jeden Tag zum Zeitpunkt der täglichen Batch-Auswertung berechnet.

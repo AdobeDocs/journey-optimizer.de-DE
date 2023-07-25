@@ -5,7 +5,7 @@ title: Frühere Versionshinweise( 2021)
 description: Versionshinweise zu Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Entscheidungs-Management**
 
-* **Auswertungssequenzierung** – Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur einfacher zwischen Entscheidungsobjekten navigieren, sondern auch steuern, wie Angebotssammlungen von der Entscheidungs-Engine bewertet werden. Hierzu zählt auch die Frage, welche Sammlungen gemeinsam oder getrennt bewertet werden und in welcher Reihenfolge die Sammlungen bewertet werden sollen. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **Auswertungssequenzierung** – Mit dem neuen und verbesserten Entscheidungsfluss können Sie nicht nur einfacher zwischen Entscheidungsobjekten navigieren, sondern auch steuern, wie Angebotssammlungen von der Entscheidungs-Engine bewertet werden. Hierzu zählt auch die Frage, welche Sammlungen gemeinsam oder getrennt ausgewertet werden und in welcher Reihenfolge die Sammlungen ausgewertet werden sollen. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Fehlerbehebungen
 

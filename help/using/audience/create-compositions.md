@@ -11,7 +11,7 @@ exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [klicken Sie hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de).
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zie
 
 Gehen Sie wie folgt vor, um einen Kompositions-Workflow zu erstellen:
 
-1. Zugriff auf **[!UICONTROL Zielgruppen]** Menü und wählen Sie **[!UICONTROL Zielgruppe erstellen]**.
+1. Wählen Sie im Menü **[!UICONTROL Zielgruppen]** die Option **[!UICONTROL Zielgruppe erstellen]** aus.
 
 1. Wählen Sie **[!UICONTROL Audience erstellen]** aus.
 

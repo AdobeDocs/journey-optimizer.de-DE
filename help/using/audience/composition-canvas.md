@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie Adobe Journey Optimizer nicht verwenden, [klicken Sie hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de).
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Der erste Schritt bei der Erstellung einer Komposition besteht darin, eine oder 
 1. Wählen Sie die anzusprechende Zielgruppe:
 
    * Klicken Sie auf die Schaltfläche **[!UICONTROL Audience hinzufügen]**, um eine oder mehrere bestehende Audiences auszuwählen,
-   * Klicken Sie auf **[!UICONTROL Regel erstellen]** Schaltfläche zum Erstellen einer neuen Zielgruppendefinition mithilfe der [Segmentierungsdienst](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de).
+   * Klicken Sie auf die Schaltfläche **[!UICONTROL Regel erstellen]**, um mithilfe des [Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de) eine neue Zielgruppendefinition zu erstellen.
 
    ![](assets/audiences-choose-audience.png)
 
@@ -142,11 +142,11 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 
 Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
 
-Beachten Sie die folgenden Einschränkungen bei der Arbeit mit dem **[!UICONTROL Anreichern]** Aktivität:
+Beachten Sie die folgenden Einschränkungen bei der Aktivität **[!UICONTROL Anreichern]**:
 
-* **Datensätze** für die Anreicherung muss vom Typ Datensatz sein (im Gegensatz zum Ereignistyp), und es darf sich nicht um einen Systemdatensatz handeln oder für ein Profil markiert werden. Sie müssen unter 1 GB liegen.
-* **Die Anreicherung unterstützt einen 1:1-Join**. Wenn die Join-Schlüssel mehr als eine Übereinstimmung im Anreicherungsdatensatz aufweisen, wählt das System eine der Treffer aus und verwendet diese für den 1:1-Join.
-* **Zielgruppen können in RTCDP-Zielen aktiviert werden**, aber ihre Anreicherungsattribute, sofern vorhanden, können dies nicht tun.
+* **Datensätze** für die Anreicherung müssen vom Eintragstyp (und nicht vom Ereignistyp) sein. Sie dürfen weder Systemdatensätze sein noch für ein Profil markiert sein. Sie müssen kleiner sein als 1 GB.
+* **Die Anreicherung unterstützt 1:1-Joins**. Wenn es für die Join-Schlüssel mehr als eine Übereinstimmung im Anreicherungsdatensatz gibt, wählt das System eine Übereinstimmung aus und verwendet diese für den 1:1-Join.
+* **Zielgruppen können in RTCDP-Zielen aktiviert werden**, aber für ihre Anreicherungsattribute, sofern vorhanden, ist dies nicht möglich.
 
 Gehen Sie wie folgt vor, um die Aktivität zu konfigurieren:
 

@@ -85,7 +85,7 @@ Für die automatische Optimierung beginnen wir, wie im Beispiel oben gezeigt, mi
 **Verwandte Themen**:
 
 Um einen tieferen Einblick in das Thompson-Stichprobenverfahren zu erhalten, lesen Sie die folgenden Forschungsarbeiten:
-* [Eine empirische Bewertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Eine empirische Auswertung des Thompson-Stichprobenverfahrens](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
 * [Analyse des Thompson-Stichprobenverfahrens für das Mehrarmiger-Bandit-Problem](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## „Kaltstart“-Problem {#cold-start}

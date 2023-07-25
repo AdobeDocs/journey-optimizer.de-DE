@@ -10,7 +10,7 @@ level: Beginner
 keywords: Nachricht, Häufigkeit, Regeln, Druck
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Gehen Sie wie folgt vor, um eine Häufigkeitsregel auf eine Nachricht anzuwenden
 
    >[!NOTE]
    >
-   >Nachrichten, bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln bewertet.
+   >Nachrichten, bei denen die ausgewählte Kategorie **[!UICONTROL Transaktion]** ist, werden nicht mit den Häufigkeitsregeln ausgewertet.
 
 1. Die Anzahl der vom Versand ausgeschlossenen Profile können Sie im [globalen Bericht](../reports/global-report.md) und im [Live-Bericht](../reports/live-report.md) ansehen, wo die Häufigkeitsregeln als möglicher Grund für den Ausschluss von Benutzenden vom Versand angegeben sind.
 

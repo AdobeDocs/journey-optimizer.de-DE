@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-Diese Dokumentation enthält detaillierte Informationen zum Arbeiten mit der Zielgruppenzusammensetzung in Adobe Journey Optimizer. Wenn Sie nur Kunde des Echtzeit-Kundenprofils sind und Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zielgruppenkomposition in Adobe Journey Optimizer. Wenn Sie nur Kunde des Echtzeit-Kundenprofils sind und Adobe Journey Optimizer nicht verwenden, [Hier klicken](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=de).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 >
 >Kampagnen in Adobe Journey Optimizer sind noch nicht mit dem Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
 
-Auf die Zielgruppenzusammensetzung kann über Adobe Journey Optimizer zugegriffen werden **[!UICONTROL Zielgruppen]** Menü:
+Auf die Zielgruppenkomposition kann über das Menü **[!UICONTROL Zielgruppen]** von Adobe Journey Optimizer zugegriffen werden:
 
 ![](assets/audiences-browse.png)
 
-* Die **[!UICONTROL Übersicht]** -Tab bietet ein dediziertes Dashboard mit Schlüsselmetriken zu den Zielgruppendaten Ihres Unternehmens. Weitere Informationen finden Sie im [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=de).
+* Die Registerkarte **[!UICONTROL Überblick]** bietet ein dediziertes Dashboard mit Schlüsselmetriken, die sich auf die Zielgruppendaten Ihres Unternehmens beziehen. Weitere Informationen finden Sie im [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=de).
 
 * Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet.
 
@@ -57,6 +57,6 @@ Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Audience-Komposition
 <div><a href="create-compositions.md"><strong>Erstellen Ihres ersten Kompositions-Workflows</strong></a></div></td>
 <td><a href="composition-canvas.md"><img alt="Arbeiten mit der Arbeitsfläche für Kompositionen" src="../assets/do-not-localize/ao-canvas.jpg"></a>
 <div><a href="composition-canvas.md"><strong>Arbeiten mit der Arbeitsfläche für Kompositionen</strong></a></div></td>
-<td><a href="access-audiences.md"><img alt="Zugreifen auf und Verwalten von Audiences" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
-<div><a href="access-audiences.md"><strong>Zugreifen auf und Verwalten von Audiences</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Zugreifen auf und Verwalten von Zielgruppen" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Zugreifen auf und Verwalten von Zielgruppen</strong></a></div></td>
 </tr></table>

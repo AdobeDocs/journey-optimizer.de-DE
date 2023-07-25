@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -53,9 +53,9 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Zusammensetzungs-Workflows erstellen, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufspaltung, Anreicherung..) zu nutzen, um neue Zielgruppen zu erstellen. Neu erstellte Zielgruppen werden zusammen mit bestehenden Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen für die Kundenansprache genutzt werden.</p>
+<p>Sie können nun einen Kompositions-Workflow erstellen, um vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufteilung, Anreicherung …) zum Erstellen neuer Zielgruppen zu nutzen. Neu erstellte Zielgruppen werden zusammen mit vorhandenen Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen zur Kundenansprache verwendet werden.</p>
 <img src="../audience/assets/audiences-publish.png"/>
-<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
 <p>Die Audience-Komposition ist vollständig in das neue Adobe Experience Platform-Menü "Zielgruppen"integriert, das als zentralisiertes Portal für Zielgruppen dient. Sie können jetzt eine Durchsuchen-Seite verwenden, die ein neues Dashboard mit Segmenttrends und Überschneidungen enthält, um neue Einblicke zu erhalten und Organisations-Tools für die Ordner- und Tagging-Verwaltung zu erkunden. Eingebettet in dieses Erlebnis sind Governance-Steuerelemente für standardisierte Zielgruppenbeschriftungen sowie Funktionen für das Zielgruppen-Lebenszyklusmanagement zur Verwaltung von Aktivierungs-Workflows. Mit diesem neuen Management-Erlebnis können Sie Zielgruppen jetzt einfach und sicher von einem Ort aus verwalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de" target="_blank">Adobe Experience Platform-Dokumentation</a>.</p></p>
 </td>
 </tr>
@@ -75,7 +75,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <p>Sie können jetzt Ihren Kampagnen Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, über den Sie die von Briefpost-Dienstleistern benötigten Dateien personalisieren und generieren können, um E-Mails an Ihre Kunden zu senden.</p>
 <p>Bei der Vorbereitung eines Briefpost-Versands erzeugt Journey Optimizer eine Datei mit allen Zielgruppenprofilen und den ausgewählten Kontaktinformationen (z. B. Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der den tatsächlichen Versand vornimmt.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Weitere Informationen finden Sie in der <a href="../direct-mail/create-direct-mail.md">detaillierten Dokumentation</a>.</p>
+<p>Weitere Informationen finden Sie in der <a href="../direct-mail/create-direct-mail.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
