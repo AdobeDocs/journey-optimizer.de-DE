@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
+source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3105'
 ht-degree: 85%
 
 ---
@@ -127,10 +127,10 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Journeys**
+<!--**Journeys**
 
-<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion fehlschlägt.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+A new type of system alert has been introduced. You can now get notified when a custom action fails.-->
 
 
 **Kampagnen**
