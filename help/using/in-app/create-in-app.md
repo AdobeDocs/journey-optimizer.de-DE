@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 57%
+source-wordcount: '743'
+ht-degree: 58%
 
 ---
 
@@ -155,15 +155,13 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * Das folgende Video zeigt, wie Sie In-App-Nachrichten in Ihren Kampagnen erstellen, konfigurieren und veröffentlichen können.
 
-  +++Siehe Video
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-+++
+
 
 * Erfahren Sie im folgenden Video, wie Sie Inhaltsexperimente konfigurieren und analysieren, um In-App-Nachrichten mit A/B-Tests zu testen.
 
-  +++Siehe Video
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
-+++
+
 
 
 **Verwandte Themen:**
