@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Erstellung, Veröffentlichung
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 100%
+source-wordcount: '1604'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Die wichtigsten Schritte zum Erstellen von Landingpages sind wie folgt:
 
 1. Um der Landingpage benutzerdefinierte oder Core-Datennutzungsbezeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]**. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. Adobe Experience Platform-Tags aus dem **[!UICONTROL Tags]** -Feld, um Ihre Landingpage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
 1. Wählen Sie eine Voreinstellung aus. In [diesem Abschnitt](../landing-pages/lp-presets.md#lp-create-preset) erfahren Sie, wie Sie Landingpage-Voreinstellungen erstellen.
 

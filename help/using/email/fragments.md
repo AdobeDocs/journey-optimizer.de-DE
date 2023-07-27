@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 100%
+source-wordcount: '1495'
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ Sie können Fragmente nach dem Erstellungs- oder Änderungsdatum filtern. Sie k�
 Gehen Sie wie folgt vor, um ein Fragment zu bearbeiten.
 
 1. Klicken Sie auf das gewünschte Element in der **[!UICONTROL Fragmentliste]**.
-1. Über die Fragmenteigenschaften können Sie [Verweise erkunden](#explore-references), den [Zugriff verwalten](../administration/object-based-access.md) und die Fragmentdetails aktualisieren.
+1. In den Fragmenteigenschaften können Sie [Erkunden von Verweisen](#explore-references), [Zugriff verwalten](../administration/object-based-access.md)und aktualisieren Sie die Fragmentdetails, einschließlich [tags](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 
 1. Um dem Fragment benutzerdefinierte oder zentrale Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
+1. Adobe Experience Platform-Tags aus dem **[!UICONTROL Tags]** -Feld, um Ihr Fragment für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
 1. Der [E-Mail-Designer](get-started-email-design.md) wird angezeigt. Bearbeiten Sie Ihre Inhalte nach Bedarf, so wie Sie es bei jeder E-Mail innerhalb einer Journey oder einer Kampagne tun würden.
@@ -188,6 +190,8 @@ Beim Entwerfen einer [Inhaltsvorlage](content-templates.md) oder [E-Mail](get-st
    >Derzeit werden nur der Typ **[!UICONTROL Visuelles Fragment]** und der **E-Mail**-Kanal unterstützt.
 
 1. Um dem Fragment benutzerdefinierte oder zentrale Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
+
+1. Adobe Experience Platform-Tags aus dem **Tags** -Feld, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
 1. Klicken Sie erneut auf **[!UICONTROL Erstellen]**. Das Fragment wird in der **[!UICONTROL Fragmentliste]** gespeichert, auf die über das dedizierte Menü in [!DNL Journey Optimizer] zugegriffen werden kann.
 

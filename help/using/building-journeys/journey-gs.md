@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 100%
+source-wordcount: '1579'
+ht-degree: 95%
 
 ---
 
@@ -163,7 +163,7 @@ Bei Journeys wird auch eine maximale globale Wartezeit verwendet. Siehe [nächst
 
 ### Maximale globale Wartezeit der Journey {#global_timeout}
 
-Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Kontakte, die sich nach der maximalen Wartezeit noch in der Journey befinden, werden gestoppt und beim Reporting als Fehler gewertet.
+Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit](#timeout_and_error) gibt es auch eine maximale globale Journey-Wartezeit, die nicht auf der Benutzeroberfläche angezeigt wird und nicht geändert werden kann. Diese maximale Wartezeit stoppt den Fortschritt von Kontakten in der Journey 30 Tage nach ihrem Eintritt. Das bedeutet, dass die Journey eines Kontakts nicht länger als 30 Tage dauern kann. Nach Ablauf der maximalen Wartezeit von 30 Tagen werden die Daten des Kontakts gelöscht. Personen, die nach Ablauf des Timeout-Zeitraums noch im Journey sind, werden angehalten und bei der Berichterstellung nicht berücksichtigt. Sie könnten also mehr Menschen sehen, die in die Journey eintreten, als zu beenden.
 
 >[!NOTE]
 >
@@ -171,3 +171,4 @@ Zusätzlich zu der in den Journey-Aktivitäten verwendeten [maximalen Wartezeit]
 
 Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der erneute Eintritt nicht erlaubt ist, nicht sicherstellen, dass die Sperrung des erneuten Eintritts nach mehr als 30 Tagen erhalten bleibt. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte.
 
+Eine Person kann nur dann in eine Warteaktivität eintreten, wenn sie genügend Zeit im Journey hat, um die Wartezeit vor dem 30-tägigen Journey-Timeout abzuschließen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).

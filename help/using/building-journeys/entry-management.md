@@ -8,34 +8,40 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 64%
 
 ---
 
 
 # Profileintritt-Verwaltung {#entry-management}
 
-Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann.
+Es gibt zwei Haupttypen von Journey:
 
-![](assets/journey-re-entrance.png)
+* ereignisbasierte Journey: Beginnend mit einem Ereignis sind diese Journey einmalig und werden mit einer Person verknüpft. Wenn das Ereignis empfangen wird, tritt der Kontakt in die Journey ein. [Weitere Informationen](#entry-unitary)
+* Lesen von Audience-Journey: Beginnen Sie mit einer gelesenen Audience, dies sind Batch-Journey. Einzelpersonen, die zur Zielgruppe gehören, treten alle auf die gleiche Journey ein. Diese Journey können wiederkehrend oder einmalig sein. [Weitere Informationen](#entry-read-segment)
 
-Wenn eine Journey beendet wird, lautet ihr Status **[!UICONTROL Geschlossen]**. Neue Personen können nicht mehr in die Journey eintreten. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt.
-
-Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wird der Status der Journey in **Beendet** geändert.  [Weitere Informationen](journey-gs.md#global_timeout).
-
+Bei beiden Journey-Typen kann ein Profil nicht mehrmals im selben Journey vorhanden sein.
 
 ## Einheitliche Journeys{#entry-unitary}
 
-Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
-
-Zusätzlich:
+In einheitlichen Journey können Sie den Wiedereintritt aktivieren oder deaktivieren:
 
 * Wenn der erneute Eintritt aktiviert ist, kann ein Profil mehrmals in eine Journey eintreten, aber erst dann, wenn es aus der vorherigen Instanz der Journey vollständig ausgetreten ist.
 
 * Wenn der erneute Eintritt deaktiviert ist, kann ein Profil nicht mehrmals in dieselbe Journey eintreten.
+
+Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt. In diesem Fall möchten Sie nicht, dass der Kunde die Journey erneut betreten und das Angebot erneut wahrnehmen kann. Wenn eine Journey beendet wird, lautet ihr Status **[!UICONTROL Geschlossen]**. Neue Personen können nicht mehr an der Journey teilnehmen. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. [Weitere Informationen](journey-gs.md#entrance)
+
+![](assets/journey-re-entrance.png)
+
+Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wird der Status der Journey in **Beendet** geändert. Neue Personen können nicht mehr an der Journey teilnehmen. Personen, die sich bereits im Journey befinden, beenden die Journey normal. Aufgrund des 30-tägigen Journey-Timeouts, wenn der erneute Eintritt von Journey nicht erlaubt ist, können wir nicht sicherstellen, dass die Sperrung des Wiedereintritts mehr als 30 Tage dauert. Da wir alle Informationen über Personen, die an der Journey teilgenommen haben, 30 Tage nach deren Eintritt entfernen, können wir nicht wissen, dass die Person vor mehr als 30 Tagen bereits Eintritt hatte. [Weitere Informationen](journey-gs.md#global_timeout).
+
+Unitäre Journeys (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung) enthalten einen Schutzmechanismus, der verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Der erneute Profil-Eintritt wird standardmäßig fünf Minuten lang vorübergehend blockiert. Wenn beispielsweise ein Ereignis um 12:01 Uhr eine Journey für ein bestimmtes Profil auslöst und um 12:03 Uhr ein weiteres eintrifft (unabhängig davon, ob es sich um dasselbe Ereignis oder ein anderes handelt, das dieselbe Journey auslöst), wird diese Journey für dieses Profil nicht erneut gestartet.
+
+Der Schlüssel wird auch verwendet, um zu überprüfen, ob sich eine Person in einer Journey befindet. Eine Person kann nicht an zwei verschiedenen Stellen in derselben Journey sein. Das System lässt daher nicht zu, dass sich derselbe Schlüssel, z. B. der Schlüssel CRMID=3224, an verschiedenen Stellen in derselben Journey befindet.
 
 ## „Zielgruppe lesen“-Journeys{#entry-read-segment}
 
@@ -43,50 +49,10 @@ Bei einer „Zielgruppe lesen“-Journey gilt Folgendes:
 
 * Für nicht wiederkehrende Journeys: Das Profil tritt nur einmal in die Journey ein.
 
-* Für wiederkehrende Journeys: Das Profil tritt bei jeder Wiederkehr in die Journey ein, wenn es sich im erwarteten Zielgruppenstatus befindet. Wenn es sich noch in der Journey einer früheren Wiederkehr befindet, fängt es wieder von vorn an.
-
-Bei Geschäftsereignis-Journeys, die mit der Aktivität **Zielgruppe lesen** beginnen: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es für die erwartete Zielgruppe qualifiziert ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil gleichzeitig mehrfach in derselben Journey sein kann, jedoch dann im Kontext verschiedener Geschäftsereignisse.
-
-<!--
-# Profile entry management {#entry-management}
-
-There are two main types of journeys:
-
-* event-based journeys: starting with an event, these journeys are unitary, they are associated to one individual. When the event is received, the individual enters the journey. [Read more](#entry-unitary)
-* read segment journeys: starting with a read segment, these are batch journeys. Individuals belonging to the segment all enter the same journey. These journeys can be recurring or one-shot. [Read more](#entry-read-segment)
-
-In both journey types, a profile cannot be present multiple times in the same journey, at the same time.
-
-
-## Unitary journeys{#entry-unitary}
-
-In unitary journeys, you can enable or disable re-entrance:
-
-* If re-entrance is enabled, a profile can enter a journey several times, but cannot do it until he fully exited that previous instance of the journey.
-
-* If re-entrance is disabled, a profile cannot enter multiple times the same journey
-
-By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again. When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey finish the journey normally. [Learn more](journey-gs.md#entrance)
-
-![](assets/journey-re-entrance.png)
-
-After the default global timeout of 30 days, the journey switches to the **Finished** status. New individuals can no longer enter the journey. Persons already in the journey finish the journey normally.Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. [Learn more](journey-gs.md#global_timeout).
-
-Unitary journeys (starting with an event or a segment qualification) include a guardrail that prevents journeys from being erroneously triggered multiple times for the same event. Profile re-entrance is temporally blocked by default for 5 minutes. For instance, if an event triggers a journey at 12:01 for a specific profile and another one arrives at 12:03 (whether it is the same event or a different one triggering the same journey) that journey will not start again for this profile.
-
-The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
-
-## Read segment journeys{#entry-read-segment}
-
-In a read segment journey:
-
-* For non-recurring journeys: the profile enters once and only once the journey.
-
-* For recurring journeys: by default, all the profiles belonging to the segment enters the journey on each recurrence. They must finish the journey before they can reenter in another occurrence. 
+* Für wiederkehrende Journey: Standardmäßig werden bei jeder Wiederholung alle Profile der Audience auf die Journey gesetzt. Sie müssen die Journey beenden, bevor sie in einem anderen Vorkommen wieder eintreten können.
 
 >[!NOTE]
 >
->Two options are available for recurring read segment journeys. The **Force reentrance on recurrence** option makes all the profiles still present in the journey automatically exit it on the next execution. The **Incremental read** option only targets the individuals who entered the segment since the last execution of the journey. Refer to this [section](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+>Für wiederkehrende Journey von Leserichtlinien stehen zwei Optionen zur Verfügung. Die **Wiedereintritt erzwingen bei Wiederholung** -Option bewirkt, dass alle noch in der Journey vorhandenen Profile bei der nächsten Ausführung automatisch beendet werden. Die **Inkrementelles Lesen** -Option nur die Kontakte anspricht, die seit der letzten Ausführung der Journey in die Audience eingestiegen sind. Siehe diesen [Abschnitt](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
-In business event journeys starting with a **Read segment** activity: knowing that this journey is based on the reception of a business event, if the profile is qualified in the expected segment, they will enter the journey for each business event received, meaning that this profile can be multiple times in the same journey, at the same time, but in the context of different business events.
--->
+Bei Geschäftsereignis-Journeys, die mit der Aktivität **Zielgruppe lesen** beginnen: Da diese Journey auf dem Empfang eines Geschäftsereignisses basiert, tritt das Profil, wenn es für die erwartete Zielgruppe qualifiziert ist, bei jedem empfangenen Geschäftsereignis in die Journey ein. Dies bedeutet, dass dieses Profil gleichzeitig mehrfach in derselben Journey sein kann, jedoch dann im Kontext verschiedener Geschäftsereignisse.

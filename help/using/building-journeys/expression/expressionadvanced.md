@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: Ausdruckseditor, Daten, Journey
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Ein Syntaxvalidierungsverfahren überprüft die Integrität Ihres Codes. Fehler 
 
 **Bedarf an Parametern beim Erstellen von Bedingungen mit dem erweiterten Ausdruckseditor**
 
-Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss, siehe [diese Seite](../../datasource/external-data-sources.md). Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
+Wenn Sie ein Feld aus einer externen Datenquelle auswählen, für das ein Parameter aufgerufen werden muss (siehe [diese Seite](../../datasource/external-data-sources.md)), wird rechts eine neue Registerkarte angezeigt, auf der Sie diesen Parameter angeben können. Der Parameterwert kann aus den auf der Journey positionierten Ereignissen oder aus der Experience Platform-Datenquelle (und nicht aus anderen externen Datenquellen) stammen. Beispiel: In einer wetterbezogenen Datenquelle lautet ein häufig verwendeter Parameter „city“. Darum müssen Sie festlegen, wo Sie diesen Parameter „city“ abrufen möchten. Funktionen können auch auf Parameter angewendet werden, um Formatänderungen oder Verkettungen vorzunehmen.
 
 ![](../assets/journeyuc2_19.png)
 

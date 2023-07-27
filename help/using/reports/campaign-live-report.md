@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 91%
 
 ---
 
@@ -30,9 +30,11 @@ Die Seite **[!UICONTROL Live-Bericht]** in Campaign wird mit den folgenden Regis
 
 * [Campaign](#campaign-live)
 * [E-Mail](#email-live)
+* [In-App](#inapp-live)
 * [Push-Benachrichtigung](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Briefpost](#direct-mail-tab)
 
 Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ Die Widgets **[!UICONTROL Bounce-Gründe]**, **[!UICONTROL Bounce-Kategorien]** 
 In den Diagrammen und Tabellen **[!UICONTROL Fehlerursachen]** und **[!UICONTROL Ausschlussgründe]** sehen Sie, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 
 Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabelle zeigen, welche Domains von Empfängern am häufigsten zum Öffnen der E-Mail verwendet werden.
++++
+
+## Registerkarte „In-App“ {#inapp-live}
+
+In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL In-App]** im Tab werden die wichtigsten Informationen zu den in Ihrer Kampagne gesendeten In-App-Sendungen aufgeführt.
+
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
+
+Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+
+* **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Nutzer, an die die In-App-Nachricht gesendet wurde.
+
+* **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzer gesendeten In-App-Nachrichten.
+
+Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions für den betroffenen Zeitraum an.
+
+Das Diagramm und die Tabelle **[!UICONTROL Klicks nach Schaltfläche]** enthalten die verfügbaren Daten für das Empfängerverhalten je nach Schaltfläche:
+
+* **[!UICONTROL Klicks]**: Gesamtzahl der Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.
+
 +++
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-live}
@@ -180,6 +202,25 @@ Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informat
 Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Klicks) für den betroffenen Zeitraum an.
 
 Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit den verschiedenen Elementen auf Ihren Web-Seiten.
++++
+
+## Briefpost-Tab {#direct-mail-tab}
+
+In Ihrer Kampagne **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL Briefpost]** im Tab werden die wichtigsten Informationen zu Ihren Briefpostsendungen aufgeführt.
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Briefpost-Bericht verfügbar sind.
+
+Die **[!UICONTROL Briefpost - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
+
+* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden und die den Versand nicht erhalten haben.
+
+Die **[!UICONTROL Briefpost - Ausgeschlossene Gründe]** und **[!UICONTROL Briefpost - Fehlerursachen]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 +++
 
 ## Weitere Ressourcen

@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,11 @@ Weiterführende Informationen zur Integration in externe Systeme finden Sie auf 
 
 ## Implementierung
 
-Bei **durch Zielgruppen ausgelösten Journeys** können Sie die Einschränkungsrate der Aktivität „Zielgruppe lesen“ definieren, die sich auf den Journey-Durchsatz auswirkt.  [Mehr dazu](../building-journeys/read-audience.md)
+Bei **durch Zielgruppen ausgelösten Journeys** können Sie die Einschränkungsrate der Aktivität „Zielgruppe lesen“ definieren, die sich auf den Journey-Durchsatz auswirkt. [Weitere Informationen](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> Dies ist die maximale Anzahl von Profilen, die pro Sekunde die Audience lesen können. Dieser Satz gilt nur für diese und nicht für andere Aktivitäten in der Journey. [Mehr dazu](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1065'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenstän
 Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlagen außerhalb von Kampagnen oder Journeys. Personen, die Marketing betreiben, können diese eigenständigen Inhaltsvorlagen dann in ihren eigenen Journeys oder Kampagnen wiederverwenden und anpassen.
 
 Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journeys. Diese Person kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
+
+Sie können Inhaltsvorlagen auch mithilfe von APIs erstellen und verwalten. Weitere Informationen hierzu finden Sie im Abschnitt [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
 
 ➡️ [Erfahren Sie in diesem Video, wie Sie Vorlagen definieren und verwenden](#video-templates).
 
@@ -43,7 +45,7 @@ Sie können Inhaltsvorlagen nach Erstellungs- oder Änderungsdatum sortieren. Si
 
 Um einen Vorlageninhalt zu bearbeiten, klicken Sie in der Liste auf das gewünschte Element und wählen Sie **[!UICONTROL Inhalt bearbeiten]** aus.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Um eine Vorlage zu löschen, wählen Sie das Papierkorbsymbol neben der gewünschten Vorlage aus.
 
@@ -92,6 +94,8 @@ Gehen Sie wie folgt vor, um eine Inhaltsvorlage von Grund auf zu erstellen.
 
 1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
+1. Adobe Experience Platform-Tags aus dem **[!UICONTROL Tags]** -Feld, um Ihre Vorlage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]** und wählen Sie aus den verschiedenen Optionen aus, wie Sie Ihre Vorlage gestalten möchten:
 
    * [Erstellen Sie Ihre E-Mail von Grund auf](content-from-scratch.md) über die Benutzeroberfläche von E-Mail-Designer.
@@ -134,6 +138,10 @@ Beim Entwerfen einer [E-Mail](get-started-email-design.md) in einer Kampagne ode
 1. Fügen Sie dieser Vorlage einen Namen hinzu.
 
    ![](assets/email_designer-template-name.png)
+
+1. Um der Vorlage benutzerdefinierte oder grundlegende Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen](../administration/object-based-access.md).
+
+1. Wählen oder erstellen Sie ein Adobe Experience Platform-Tag aus dem **Tags** -Feld, um Ihre Vorlage zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 
 Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Journeys und -Kampagnen einfach klassifizieren, um die Suche über Listen zu verbessern.
 
->[!AVAILABILITY]
->
->Einheitliche Tags befinden sich derzeit in der Betaversion. Dokumentation und Funktionalitäten können sich ändern.
-
 ### Hinzufügen von Tags zu einem Objekt
 
-Über das Feld **Tags** in den [Journey](../building-journeys/journey-gs.md#change-properties)- oder [Kampagnen](../campaigns/create-campaign.md#create)-Eigenschaften können Sie Tags für Ihr Objekt definieren. Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen.
+Die **[!UICONTROL Tags]** -Feld können Sie Tags für Ihr Objekt definieren. Tags sind für die folgenden Objekte verfügbar:
 
-Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus. Wenn es nicht verfügbar ist, klicken Sie auf **Erstellen**, um ein neues zu erstellen und hinzuzufügen. Sie können beliebig viele Tags definieren.
+* [Journeys](../building-journeys/journey-gs.md#change-properties)
+* [Kampagnen](../campaigns/create-campaign.md#create)
+* [Vorlagen](../email/content-templates.md)
+* [Fragmente](../email/fragments.md)
+* [Abonnement-Listen](../landing-pages/subscription-list.md)
+* [Landingpages](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.
 
-Die Liste der definierten Tags wird unter dem Feld **Tags** angezeigt.
+1. Geben Sie den Namen des gewünschten Tags ein und/oder wählen Sie es aus der Liste aus.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > Bei Tags wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+
+1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf **[!UICONTROL Erstellen von &quot;&quot;]** um ein neues Objekt zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und für alle anderen Objekte verfügbar gemacht.
+
+   ![](assets/tags4.png)
+
+1. Die Liste der ausgewählten oder erstellten Tags wird unter dem **[!UICONTROL Tags]** -Feld. Sie können beliebig viele Tags definieren.
 
 >[!NOTE]
->
-> Bei Tags wird die Groß-/Kleinschreibung nicht beachtet.
 > 
-> Wenn Sie eine Journey duplizieren oder eine neue Version einer Journey bzw. Kampagne erstellen, bleiben Tags erhalten.
+> Wenn Sie eine neue Version eines Objekts duplizieren oder erstellen, bleiben Tags erhalten.
 
 ### Filtern nach Tags
 
-In den Journey- und Kampagnenlisten wird eine spezielle Spalte angezeigt, sodass Sie Ihre Tags einfach visualisieren können.
+Jede Objektliste enthält eine eigene Spalte, damit Sie Ihre Tags einfach visualisieren können.
 
-Es ist auch ein Filter verfügbar, um nur Journeys oder Kampagnen mit bestimmten Tags anzuzeigen.
+Ein Filter ist auch verfügbar, um nur Objekte mit bestimmten Tags anzuzeigen.
 
 ![](assets/tags2.png)
 
-Sie können Tags zu beliebigen Typen von Journeys oder Kampagnen (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie hierzu auf das Symbol **Mehr Aktionen** neben dem Objekt und wählen Sie **Tags bearbeiten** aus.
+Sie können Tags zu beliebigen Typen von Journeys oder Kampagnen (Live, Entwurf usw.) hinzufügen oder daraus entfernen. Klicken Sie hierzu auf das Symbol **[!UICONTROL Mehr Aktionen]** neben dem Objekt und wählen Sie **[!UICONTROL Tags bearbeiten]** aus.
 
 ![](assets/tags3.png)
 
 ### Verwalten von Tags
 
-Admins können Tags löschen und mithilfe des Menüs **Tags** unter **ADMINISTRATION** nach Kategorien organisieren. Weitere Informationen über die Verwaltung von Tags finden Sie in der [Dokumentation zu einheitlichen Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=de).
+Admins können Tags löschen und mithilfe des Menüs **[!UICONTROL Tags]** unter **[!UICONTROL ADMINISTRATION]** nach Kategorien organisieren. Weitere Informationen über die Verwaltung von Tags finden Sie in der [Dokumentation zu einheitlichen Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=de).
 
 >[!NOTE]
 >

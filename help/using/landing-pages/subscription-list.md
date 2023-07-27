@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Landing, Landingpage, Liste, Abonnement, Service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
@@ -57,6 +57,8 @@ Gehen Sie wie folgt vor, um eine Abonnement-Liste zu erstellen.
    >[!CAUTION]
    >
    >Derzeit können Sie im Feld **[!UICONTROL Titel]** keine Leerzeichen verwenden oder einen Namen eingeben, der bereits für eine andere Abonnementliste existiert.
+
+1. Adobe Experience Platform-Tags aus dem **[!UICONTROL Tags]** -Feld, um Ihre Landingpage für eine verbesserte Suche zu kategorisieren. [Weitere Informationen](../start/search-filter-categorize.md#tags)
 
 1. Sie können ein Start- und Enddatum definieren.
 

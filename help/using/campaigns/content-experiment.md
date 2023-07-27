@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Audience, Behandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 94%
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
@@ -108,6 +108,10 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
    Für unser Experiment wählen wir **[!UICONTROL Geöffnete E-Mails]**, um zu testen, ob Empfänger ihre E-Mails öffnen, wenn sich das Angebot in der Betreffzeile befindet.
 
    ![](assets/content_experiment_11.png)
+
+1. Beim Einrichten eines Experiments mit dem In-App- oder Webkanal und Auswählen der **[!UICONTROL Eingehende Klicks]**, **[!UICONTROL Eindeutige eingehende Klicks]** , **[!UICONTROL Seitenansichten]** oder **[!UICONTROL Metriken zu individuellen Seitenansichten]** , die **[!UICONTROL Aktion auswählen]**  -Dropdown-Liste ermöglicht es Ihnen, Klicks und Ansichten auf bestimmten Seiten genau zu verfolgen und zu überwachen.
+
+   ![](assets/content_experiment_20.png)
 
 1. Klicken Sie auf **[!UICONTROL Abwandlung hinzufügen]**, um so viele neue Abwandlungen wie nötig zu erstellen.
 

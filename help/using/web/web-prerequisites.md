@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 96%
 
 ---
 
@@ -23,12 +23,17 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 * Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen [hier](#delivery-prerequisites) detailliert definieren.
 
-## Vorsichtsmaßnahmen
+## Warnhinweise {#caution-notes-web}
 
-Derzeit können Sie Web-Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure)
+* Zurzeit in [!DNL Journey Optimizer] Sie können nur Web-Erlebnisse in erstellen **Kampagnen**. [Weitere Informationen](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
 
-[!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
+>[!AVAILABILITY]
+>
+>Derzeit steht der Webkanal nicht für Unternehmen zur Verfügung, die das Zusatzangebot Adobe Healthcare Shield erworben haben.
+>
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 

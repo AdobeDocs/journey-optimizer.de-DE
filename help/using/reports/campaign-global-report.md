@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 100%
+source-wordcount: '2498'
+ht-degree: 92%
 
 ---
 
@@ -36,6 +36,7 @@ Die Seite **[!UICONTROL Globaler Bericht]** in Campaign wird mit den folgenden R
 * [Push-Benachrichtigung](#push-global)
 * [SMS](#sms-global)
 * [Web](#web-tab)
+* [Briefpost](#direct-mail-global)
 
 Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
@@ -99,6 +100,15 @@ Die Tabelle enthält die folgenden Metriken:
 * **[!UICONTROL Eindeutige ausgehende Klicks/Profile]**: Gesamtwert der Erfolgskennzahl, die zuvor beim Erstellen der Experimente ausgewählt wurde, dividiert durch die Anzahl der Profile.
 
 Der Graph **[!UICONTROL Konfidenzintervall]** misst die Unsicherheit im Zusammenhang mit Verbesserungen. Er beschreibt den prozentualen Leistungsunterschied zwischen der Baseline und der Abwandlung mit der besten Leistung. [Weitere Informationen](../campaigns/experiment-calculations.md#confidence-intervals).
+
+![](assets/experimentation_report_4.png)
+
+Das letzte Widget stellt Daten im Zusammenhang mit dem **[!UICONTROL Erfolgsmetrik]** Sie zuvor für Ihre Behandlungen ausgewählt haben. Sie haben die Möglichkeit, eine andere Zielmetrik aus dem **[!UICONTROL Metrik]** Dropdown-Menü zur Verfolgung alternativer Daten.
+
+>[!CAUTION]
+>
+>Beachten Sie bei der Arbeit mit experimentierungsgefilterten Metriken, dass das Ändern der Metrikauswahl aus der Dropdown-Liste auf der Vergleichsseite für die Experimentierung den Filterwert nicht behält. Wenn Sie beispielsweise von &quot;Klicks&quot;zu &quot;Unique Clicks&quot;wechseln, geht der angewendete Filter verloren, was den Vergleich ungenau oder ungültig macht.
+
 +++
 
 Einen tiefen Einblick in diese Ergebnisse und ihre Interpretation finden Sie auf [dieser Seite](../campaigns/get-started-experiment.md#interpret-results).
@@ -349,6 +359,25 @@ Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informat
 Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Klicks) für den betroffenen Zeitraum.
 
 Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit den verschiedenen Elementen auf Ihren Web-Seiten.
++++
+
+## Briefpost-Tab {#direct-mail-global}
+
+In Ihrer Kampagne **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL Briefpost]** im Tab werden die wichtigsten Informationen zu Ihren Briefpostsendungen aufgeführt.
+
++++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Briefpost-Bericht verfügbar sind.
+
+Die **[!UICONTROL Briefpost - Versandstatistiken]** -Tabelle zeigt den Erfolg Ihres Versands:
+
+* **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
+
+* **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
+
+* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
+
+* **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen wurden und die den Versand nicht erhalten haben.
+
+Die **[!UICONTROL Briefpost - Ausgeschlossene Gründe]** und **[!UICONTROL Briefpost - Fehlerursachen]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 +++
 
 ## Weitere Ressourcen

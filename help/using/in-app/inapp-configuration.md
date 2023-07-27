@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 87%
 
 ---
 
@@ -26,9 +26,14 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
 
 1. Rufen Sie dann das Menü **[!UICONTROL Programmoberflächen]** auf und klicken Sie auf **[!UICONTROL Programmoberfläche erstellen]**.
 
+   >[!NOTE]
+   >
+   > Sie benötigen die **App-Konfiguration verwalten** Zugriffsberechtigung für die **[!UICONTROL Anwendungsoberflächen]** Menü. Weitere Informationen finden Sie unter [dieses Video](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. Fügen Sie Ihrer **[!UICONTROL Programmoberfläche]** einen Namen hinzu.
+
 
 1. Geben Sie in der Dropdown-Liste „Apple iOS“ Ihre **iOS-Paket-ID** ein. Weitere Informationen zur **Paket-ID** finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
 
@@ -70,3 +75,12 @@ Der In-App-Kanal ist jetzt konfiguriert. Sie können nun mit dem Versand von In-
 * [Erstellen einer Kampagne](../campaigns/create-campaign.md)
 * [Entwerfen der In-App-Nachricht](design-in-app.md)
 * [In-App-Bericht](../reports/campaign-global-report.md#inapp-report)
+
+
+## Anleitungsvideos{#video}
+
+* Im folgenden Video erfahren Sie, wie Sie die **App-Konfiguration verwalten** Zugriff auf das Menü App-Oberflächen .
+
+  +++Siehe Video
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++
