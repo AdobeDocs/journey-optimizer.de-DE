@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 46%
+source-wordcount: '165'
+ht-degree: 33%
 
 ---
 
@@ -30,9 +30,4 @@ Die wichtigsten Schritte zum Senden von Briefpost-Nachrichten sind:
 
 Briefpostnachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in API-basierten Kampagnen oder in Journeys verfügbar.
 
->[!IMPORTANT]
->
->Bevor Sie eine Briefpostnachricht senden, stellen Sie sicher, dass Sie Folgendes konfiguriert haben:
->
->1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
->1. Eine [Oberfläche für Briefpostnachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
+

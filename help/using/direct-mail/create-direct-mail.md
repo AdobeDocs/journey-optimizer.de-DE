@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 22%
+source-wordcount: '560'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 22%
 >title="Erstellung von Briefpost"
 >abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
 
+Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und konfigurieren Sie die Extraktionsdatei. Diese Datei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kunden zu senden.
+
+>[!IMPORTANT]
+>
+>Bevor Sie eine Briefpost-Nachricht erstellen, stellen Sie sicher, dass Sie Folgendes konfiguriert haben:
+>
+>1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
+>1. Eine [Oberfläche für Briefpostnachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
+
+
 ## Erstellen einer Briefpost-Kampagne{#create-dm-campaign}
+
+Gehen Sie wie folgt vor, um eine Briefpost-Kampagne zu erstellen:
 
 1. Erstellen Sie eine neue geplante Kampagne und wählen Sie **[!UICONTROL Briefpost]** als Aktion.
 
@@ -46,6 +58,8 @@ ht-degree: 22%
 Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ihren Briefpost-Dienstleister gesendet werden soll.
 
 ## Extraktionsdatei konfigurieren {#extraction-file}
+
+Die Extraktionsdatei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kunden zu senden. Gehen Sie wie folgt vor, um die Konfiguration der Extraktionsdatei zu definieren:
 
 1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche, um den Inhalt der Extraktionsdatei zu konfigurieren.
 
