@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
-hide: true
-hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 22%
 
 ---
 
@@ -24,68 +21,58 @@ ht-degree: 100%
 >title="Erstellung von Briefpost"
 >abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
 
->[!BEGINSHADEBOX]
+## Erstellen einer Briefpost-Kampagne{#create-dm-campaign}
 
-Inhalt dieser Dokumentation:
+1. Erstellen Sie eine neue geplante Kampagne und wählen Sie **[!UICONTROL Briefpost]** als Aktion.
 
-* **[Erstellen einer Briefpost](create-direct-mail.md)**
-* [Konfigurieren von Briefpost](direct-mail-configuration.md)
+1. Wählen Sie die **[!UICONTROL Briefpost-Oberfläche]** verwenden und auf **[!UICONTROL Erstellen]**. [Erfahren Sie, wie Sie eine Briefpost-Oberfläche erstellen](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->Briefpost ist zurzeit als private Beta-Version verfügbar und kann häufig ohne vorherige Ankündigung aktualisiert werden.
+1. Im **[!UICONTROL Eigenschaften]** bearbeiten, bearbeiten Sie die **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]**.
 
-Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.
+1. Um Ihre Zielgruppe zu definieren, klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]** und wählen Sie aus den verfügbaren Adobe Experience Platform-Zielgruppen aus. [Weitere Informationen](../audience/about-audiences.md).
 
-Beim Erstellen einer Briefpost generiert Journey Optimizer eine Datei, die alle Zielgruppenprofile und die ausgewählten Daten enthält (z. B. Postanschrift, Profilattribute). Ihr Briefpostanbieter kann dann diese Datei abrufen und übernimmt den eigentlichen Versand.
+   >[!IMPORTANT]
+   >
+   >Derzeit ist die Zielgruppenauswahl auf 3 Millionen Profile beschränkt. Diese Einschränkung kann auf Anfrage an Ihren Kundenbetreuer aufgehoben werden.
 
-Briefpostnachrichten können nur im Rahmen geplanter Kampagnen erstellt werden. Sie sind nicht für die Verwendung in API-basierten Kampagnen oder in Journeys verfügbar.
+1. Im **[!UICONTROL Identitäts-Namespace]** wählen Sie den entsprechenden Namespace aus, um Kontakte innerhalb der ausgewählten Zielgruppe zu identifizieren. [Weitere Informationen](../event/about-creating.md#select-the-namespace).
 
->[!IMPORTANT]
->
->Bevor Sie eine Briefpostnachricht senden, stellen Sie sicher, dass Sie Folgendes konfiguriert haben:
->
->1. Eine [Dateirouting-Konfiguration](../direct-mail/direct-mail-configuration.md#file-routing-configuration), die den Server angibt, auf den die Extraktionsdatei hochgeladen und gespeichert werden soll,
->1. Eine [Oberfläche für Briefpostnachrichten](../direct-mail/direct-mail-configuration.md#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
-## Erstellen Ihrer Briefpostnachricht {#create}
+1. Kampagnen können für ein bestimmtes Datum geplant oder in regelmäßigen Abständen wiederholt werden. Erfahren Sie in [diesem Abschnitt](../campaigns/create-campaign.md#schedule), wie Sie den **[!UICONTROL Zeitplan]** der Kampagne konfigurieren können.
 
-Gehen Sie wie folgt vor, um eine Briefpostnachricht zu erstellen und zu senden:
+Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ihren Briefpost-Dienstleister gesendet werden soll.
 
-1. Erstellen Sie eine neue geplante Kampagne, wählen Sie **[!UICONTROL Briefpost]** als Aktion aus und wählen Sie die zu verwendende Kanaloberfläche aus. [Erfahren Sie, wie Sie eine Briefpost-Oberfläche erstellen](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+## Extraktionsdatei konfigurieren {#extraction-file}
 
-   ![](assets/direct-mail-campaign.png)
+1. Klicken Sie im Konfigurationsbildschirm der Kampagne auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]** -Schaltfläche, um den Inhalt der Extraktionsdatei zu konfigurieren.
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]** und definieren Sie dann grundlegende Informationen zu Ihrer Kampagne (Name, Beschreibung). [Erfahren Sie, wie Sie eine Kampagne konfigurieren](../campaigns/create-campaign.md)
+1. Passen Sie die Eigenschaften der Extraktionsdatei an:
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um die Extraktionsdatei zu konfigurieren, die an Ihren Briefpostanbieter gesendet werden soll.
+   1. Geben Sie die gewünschte **[!UICONTROL Dateiname]** für die Extraktionsdatei.
 
-1. Definieren Sie den Namen der Extraktionsdatei im Feld **[!UICONTROL Dateiname]**.
+   1. Optional können Sie die **[!UICONTROL Zeitstempel an den Dateinamen des Exports anhängen]** , wenn Sie dem angegebenen Dateinamen einen automatischen Zeitstempel hinzufügen möchten.
 
-   Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu das Feld **[!UICONTROL Hinweise]** und geben Sie an, ob der Hinweis als Kopf- oder Fußzeile eingefügt werden soll.
+   1. Hin und wieder müssen Sie vielleicht Informationen am Beginn oder am Ende der Extraktionsdatei hinzufügen. Verwenden Sie dazu die **[!UICONTROL Hinweise]** und geben Sie an, ob die Notiz als Kopf- oder Fußzeile eingefügt werden soll.
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   ![](assets/direct-mail-properties.png)
+1. Konfigurieren Sie die Spalten und die Informationen, die in der Extraktionsdatei angezeigt werden sollen:
 
-1. Definieren Sie im linken Bereich die Informationen, die als Spalten in der Extraktionsdatei angezeigt werden sollen:
+   1. Klicken Sie auf **[!UICONTROL Hinzufügen]** -Schaltfläche, um eine neue Spalte zu erstellen.
 
-   1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um eine neue Spalte hinzuzufügen, und wählen Sie diese dann aus der Liste aus.
+   1. Die **[!UICONTROL Formatierung]** wird auf der rechten Seite angezeigt, sodass Sie die ausgewählte Spalte einrichten können. Geben Sie eine **[!UICONTROL Titel]** für die Spalte.
 
-   1. Geben Sie im Abschnitt **[!UICONTROL Formatierung]** einen Titel für die Spalte an und definieren Sie dann mit dem [Ausdruckseditor](../personalization/personalization-build-expressions.md) die Profilattribute, die angezeigt werden sollen.
+   1. Im **[!UICONTROL Daten]** Wählen Sie die Profilattribute aus, die mit dem [Ausdruckseditor](../personalization/personalization-build-expressions.md).
 
-      ![](assets/direct-mail-content.png)
+   1. Um die Extraktionsdatei mithilfe einer Spalte zu sortieren, wählen Sie die Spalte aus und schalten Sie die **[!UICONTROL Sortieren nach]** -Option. Die **[!UICONTROL Sortieren nach]** neben der Spaltenbeschriftung im **[!UICONTROL Datenfelder]** Abschnitt.
 
-   1. Um die Extraktionsdatei mithilfe der ausgewählten Spalte zu sortieren, können Sie die Option **[!UICONTROL Sortieren nach]** einschalten. Das Symbol **[!UICONTROL Sortieren nach]** wird dann neben der Spaltenbeschriftung in der Dateistruktur angezeigt.
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-1. Wiederholen Sie diese Schritte, um so viele Spalten wie nötig hinzuzufügen, um Ihre Extraktionsdatei zu erstellen. Beachten Sie, dass Sie bis zu 50 Spalten hinzufügen können.
+   1. Wiederholen Sie diese Schritte, um so viele Spalten hinzuzufügen, wie für Ihre Extraktionsdatei benötigt werden. Beachten Sie, dass Sie bis zu 50 Spalten hinzufügen können.
 
-   Sie können eine Spalte jederzeit löschen, indem Sie sie auswählen und im Abschnitt **[!UICONTROL Formatierung]** auf die Schaltfläche **[!UICONTROL Entfernen]** klicken.
+      Um die Position einer Spalte zu ändern, ziehen Sie sie an die gewünschte Position im **[!UICONTROL Datenfeld]** Abschnitt. Um eine Spalte zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL Entfernen]** im **[!UICONTROL Formatierung]** -Bereich.
 
-   ![](assets/direct-mail-complete.png)
-
-1. Sobald der Inhalt der Briefpost definiert worden ist, stellen Sie die Konfiguration Ihrer Kampagne fertig.
-
-   Wenn die Kampagne startet, wird die Extraktionsdatei automatisch generiert und zu dem Server exportiert, der in Ihrer [Datei-Routing-Konfiguration](../direct-mail/direct-mail-configuration.md) festgelegt ist.
+Jetzt können Sie Ihre Briefpost testen und an Ihre Audience senden. [Erfahren Sie, wie Sie Briefpost-Nachrichten testen und senden.](test-send-direct-mail.md)

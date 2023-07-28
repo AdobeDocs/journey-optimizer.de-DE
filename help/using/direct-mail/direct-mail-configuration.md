@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
 
 # Konfigurieren von Briefpost {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-Inhalt dieser Dokumentation:
-
-* [Erstellen einer Briefpost](create-direct-mail.md)
-* **[Konfigurieren von Briefpost](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, die von Briefpostanbietern benötigten Dateien zu personalisieren und zu generieren, um Briefe an Ihre Kunden zu senden.
 
@@ -80,13 +68,13 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL Datei-Routing-Konfiguration]** > **[!UICONTROL Datei-Routing]** auf und klicken Sie auf **[!UICONTROL Routing-Konfiguration erstellen]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Legen Sie einen Namen für Ihre Konfiguration fest.
 
 1. Wählen Sie den **[!UICONTROL Server-Typ]** aus, den Sie zum Exportieren der Briefpostdateien verwenden möchten.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
 1. Wenn Sie **[!UICONTROL Amazon S3]** ausgewählt haben, müssen Sie die **[!UICONTROL AWS-Region]** auswählen, in der sich die Server-Infrastruktur befinden wird.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
 
 1. Wählen Sie den Kanal **[!UICONTROL Briefpost]** aus.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Legen Sie die Briefpost-Einstellungen im entsprechenden Abschnitt der Kanaloberflächenkonfiguration fest.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
    >
    >Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Briefpost-Oberfläche erstellen. [Weitere Informationen](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
