@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 49%
+ht-degree: 46%
 
 ---
 
-# Erstellen einer Briefpostnachricht {#create-direct}
+# Erste Schritte mit Briefpost {#create-direct}
 
 >[!AVAILABILITY]
 >
 >Derzeit ist der Briefpost-Kanal nicht für Organisationen verfügbar, die das Zusatzangebot Adobe Healthcare Shield erworben haben.
+>
 
 Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.
 
