@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -207,6 +207,8 @@ Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Inform
 ## Briefpost-Tab {#direct-mail-tab}
 
 In Ihrer Kampagne **[!UICONTROL Globaler Bericht]**, die **[!UICONTROL Briefpost]** im Tab werden die wichtigsten Informationen zu Ihren Briefpostsendungen aufgeführt.
+
+![](assets/direct-mail-report_2.png)
 
 +++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Briefpost-Bericht verfügbar sind.
 
