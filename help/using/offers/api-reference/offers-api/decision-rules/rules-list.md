@@ -1,5 +1,5 @@
 ---
-title: Entscheidungsregeln auflisten
+title: Auflisten von Entscheidungsregeln
 description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Entscheidungsregeln auflisten {#list-decision-rules}
+# Auflisten von Entscheidungsregeln {#list-decision-rules}
 
 Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen. Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste der Entscheidungsregeln in einem Container anzeigen.
 

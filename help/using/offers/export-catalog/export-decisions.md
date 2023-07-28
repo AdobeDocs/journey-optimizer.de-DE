@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -232,7 +232,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** orderEvaluationType
   **Titel:** Reihenfolgenauswertungstyp
-  **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder ein AI-Modell, das eine Liste erhält, um sie zu ordnen.
+  **Beschreibung:** Gibt an, welcher Mechanismus zur Auswertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die einen numerischen Wert für jede Option berechnet, oder ein KI-Modell, das eine Liste erhält, um eine Sortierung vorzunehmen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 

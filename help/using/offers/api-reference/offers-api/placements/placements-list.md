@@ -1,5 +1,5 @@
 ---
-title: Platzierungen auflisten
+title: Auflisten von Platzierungen
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Platzierungen auflisten {#list-placements}
+# Auflisten von Platzierungen {#list-placements}
 
 Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 

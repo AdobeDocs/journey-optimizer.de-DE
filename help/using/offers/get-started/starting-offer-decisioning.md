@@ -37,7 +37,7 @@ Zu den Vorteilen zählen:
 
 >[!NOTE]
 >
->Wenn Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} Benutzer nutzen die **offer decisioning** Anwendungsdienst, gelten auch alle in diesem Abschnitt beschriebenen Funktionen zur Entscheidungsverwaltung für Sie.
+>Wenn Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target="_blank"} Benutzer nutzen die **Offer decisioning** Anwendungsdienst, gelten auch alle in diesem Abschnitt beschriebenen Funktionen zur Entscheidungsverwaltung für Sie.
 
 ## Über Angebote und Entscheidungen {#about-offers-and-decisions}
 

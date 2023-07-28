@@ -1,5 +1,5 @@
 ---
-title: Fallback-Angebote auflisten
+title: Auflisten von Fallback-Angeboten
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Fallback-Angebote auflisten {#list-fallback-offers}
+# Auflisten von Fallback-Angeboten {#list-fallback-offers}
 
 Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind. Die Schritte zum Einrichten eines Fallback-Angebots bestehen darin, eine oder mehrere Darstellungen zu erstellen (ähnlich wie beim Erstellen eines Angebots).
 

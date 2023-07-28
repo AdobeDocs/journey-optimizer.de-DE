@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2014'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Bei jeder Änderung eines Angebots wird der automatisch erstellte Datensatz für
 
 ![](../assets/dataset-offers.png)
 
-Der zuletzt erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
+Der letzte erfolgreiche Batch im Datensatz wird rechts angezeigt. Die hierarchische Ansicht des Schemas für den Datensatz wird im linken Bereich angezeigt.
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Im Folgenden finden Sie eine Liste aller Felder, die im Datensatz **[!UICONTROL 
 
   **Feld:** orderEvaluationType
   **Titel:** Reihenfolgenauswertungstyp
-  **Beschreibung:** Gibt an, welcher Mechanismus zur Bewertung der Reihenfolge verwendet wird, welche statische Priorität der Entscheidungsoptionen verwendet wird, welche Scoring-Funktion einen numerischen Wert für jede Option berechnet oder ein AI-Modell, das eine Liste erhält, um sie zu ordnen.
+  **Beschreibung:** Gibt an, welcher Mechanismus zur Auswertung der Reihenfolge verwendet wird: eine statische Priorität von Entscheidungsoptionen, eine Scoring-Funktion, die für jede Option einen numerischen Wert berechnet, oder ein KI-Modell, das eine Liste erhält, um eine Sortierung vorzunehmen.
   **Typ:** Zeichenfolge
   **Mögliche Werte:** „static“, „scoringFunction“, „rankingStrategy“
 

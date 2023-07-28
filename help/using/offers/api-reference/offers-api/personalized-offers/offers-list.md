@@ -1,5 +1,5 @@
 ---
-title: Personalisierte Angebote auflisten
+title: Auflisten personalisierter Angebote
 description: Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Personalisierte Angebote auflisten {#list-personalized-offers}
+# Auflisten personalisierter Angebote {#list-personalized-offers}
 
 Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 

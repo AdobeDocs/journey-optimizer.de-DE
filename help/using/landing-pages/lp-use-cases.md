@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor, um Empfängern einer Nachricht zu ermöglichen, dieses 
 
    >[!NOTE]
    >
-   >Referenzieren Sie die Unterseite im Abschnitt **[!UICONTROL Call to Action]** der **[!UICONTROL Formular]**-Komponente der Primärseite. [Weitere Informationen](design-lp.md)
+   >Referenzieren Sie die Unterseite im Abschnitt **[!UICONTROL Aktionsaufruf]** der **[!UICONTROL Formular]**-Komponente der Primärseite. [Weitere Informationen](design-lp.md)
 
 1. Nachdem Sie den Inhalt Ihrer Seiten konfiguriert und definiert haben, können Sie die Landingpage [veröffentlichen](create-lp.md#publish).
 

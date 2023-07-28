@@ -12,7 +12,7 @@ exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -92,7 +92,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_dimension"
 >title="Dimension"
->abstract="Wählen Sie die spezifische Dimension aus, die für Ihr Experiment verfolgt werden soll, z. B. spezifische Klicks oder Ansichten bestimmter Seiten."
+>abstract="Wählen Sie die spezifische Dimension aus, die für Ihr Experiment nachverfolgt werden soll, z. B. spezifische Klicks oder Ansichten bestimmter Seiten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_success_metric"

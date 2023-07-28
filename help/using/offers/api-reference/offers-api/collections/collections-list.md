@@ -1,5 +1,5 @@
 ---
-title: Sammlungen auflisten
+title: Auflisten von Sammlungen
 description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Sammlungen auflisten {#list-collections}
+# Auflisten von Sammlungen {#list-collections}
 
 Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 

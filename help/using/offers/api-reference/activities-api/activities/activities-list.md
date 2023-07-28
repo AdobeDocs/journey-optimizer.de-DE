@@ -1,5 +1,5 @@
 ---
-title: Entscheidungen auflisten
+title: Auflisten von Entscheidungen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Entscheidungen auflisten {#list-decisions}
+# Auflisten von Entscheidungen {#list-decisions}
 
 Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 

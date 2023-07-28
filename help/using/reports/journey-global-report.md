@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
 source-wordcount: '2057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
 
-* **[!UICONTROL Targeting]**: Anzahl der Profile, die für Aktionen wie den E-Mail- oder SMS-Versand ausgewählt wurden.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die bei einer Aktion wie etwa E-Mail- oder SMS-Versand angesprochen werden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 
@@ -193,7 +193,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
 
-* **[!UICONTROL Targeting]**: Anzahl der Profile, die für Aktionen wie den E-Mail- oder SMS-Versand ausgewählt wurden.
+* **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die bei einer Aktion wie etwa E-Mail- oder SMS-Versand angesprochen werden.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der gesendeten Nachrichten.
 

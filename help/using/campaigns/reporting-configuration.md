@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen die **Erlebnisereignis - Interaktionen bei Vorschlägen** [Feldergruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}.
+* Diese Datensätze müssen die [Feldergruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group) **Erlebnisereignis – Vorschlagsinteraktion** einschließen{target="_blank"}.
 
-* Diese Datensätze können auch eine der folgenden enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: **Anwendungsdetails**, **Commerce-Details**, **Webdetails**.
+* Diese Datensätze müssen außerdem mindestens eine der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
 
   >[!NOTE]
   >

@@ -105,7 +105,7 @@ Um spezifische Inhalte zu definieren, die es den Benutzenden ermöglichen, eine 
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Nachdem Sie alle gewünschten Kontrollkästchen und/oder Textfelder hinzugefügt haben, klicken Sie auf **[!UICONTROL Handlungsaufforderung]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
+1. Nachdem Sie alle gewünschten Kontrollkästchen und/oder Textfelder hinzugefügt haben, klicken Sie auf **[!UICONTROL Aktionsaufruf]**, um den entsprechenden Abschnitt zu erweitern. Damit können Sie das Verhalten der Schaltfläche in der **[!UICONTROL Formular]**-Komponente definieren.
 
    ![](assets/lp_designer-form-call-to-action.png)
 

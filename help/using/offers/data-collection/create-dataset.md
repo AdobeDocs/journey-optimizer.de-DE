@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -66,4 +66,4 @@ Sie können jetzt einen Datensatz unter Verwendung dieses Schemas erstellen. Geh
 
 >[!NOTE]
 >
->Dieser Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [Erstellen eines KI-Modells](../ranking/create-ranking-strategies.md).
+>Der Datensatz kann jetzt ausgewählt werden, um Ereignisdaten zu erfassen, wenn [ein KI-Modell erstellt wird](../ranking/create-ranking-strategies.md).
