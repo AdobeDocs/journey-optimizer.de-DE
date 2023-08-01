@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 100%
+source-wordcount: '1219'
+ht-degree: 98%
 
 ---
 
@@ -44,9 +44,9 @@ Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Drosselungsregel 
 
 >[!IMPORTANT]
 >
->**Begrenzungsregeln** werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL), jedoch global für alle Journeys dieser Sandbox konfiguriert.
+>**Begrenzungsregeln** werden auf Sandbox-Ebene für einen bestimmten Endpunkt (die aufgerufene URL), jedoch global für alle Journeys dieser Sandbox konfiguriert. Die Begrenzung ist sowohl für Datenquellen als auch für benutzerdefinierte Aktionen verfügbar.
 >
->**Drosselungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Einschränkungskonfiguration verwendet werden.
+>**Drosselungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Drosselungskonfiguration verwendet werden. Einschränkungen sind nur für benutzerdefinierte Aktionen verfügbar.
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
 
