@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -56,6 +56,12 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>Die **maxHttpConnections** ist optional. Dadurch können Sie die Anzahl der Verbindungen einschränken, die Journey Optimizer für das externe System öffnet.
+>
+>Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System je nach dynamischer Skalierung des Systems bis zu mehreren tausend Verbindungen öffnen.
 
 ### Beispiel:
 
@@ -67,9 +73,9 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
