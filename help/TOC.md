@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
+source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 99%
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
-   + [Testen und Senden einer Briefpost-Nachricht](using/direct-mail/test-send-direct-mail.md)
+   + [Testen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal{#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
@@ -471,6 +471,7 @@ ht-degree: 99%
          + [Konfigurieren einer Aktion](using/action/about-custom-action-configuration.md)
          + [Integration mit Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrieren mit Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Informationen zu Aktionen](using/action/action-response.md)
    + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
    + Zugriffskontrolle – Übersicht {#privacy}
