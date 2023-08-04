@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 17%
 
 ---
 
-# Verbesserungen bei benutzerdefinierten Aktionen {#configure-an-action}
+# Verbesserungen bei benutzerdefinierten Aktionen
 
 Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
 
 Diese Funktion war nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> Diese Funktion ist derzeit als private Beta-Version verfügbar.
+>Diese Funktion ist derzeit als private Beta-Version verfügbar.
 
 ## Definieren der benutzerdefinierten Aktion
 
 Bei der Definition der benutzerdefinierten Aktion wurden zwei Verbesserungen vorgenommen: das Hinzufügen der GET-Methode und das neue Payload-Antwortfeld. Die anderen Optionen und Parameter bleiben unverändert. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-### Endpunktkonfiguration {#url-configuration}
+### Endpunktkonfiguration
 
 Die **URL-Konfiguration** wurde umbenannt. **Endpunktkonfiguration**.
 
@@ -40,16 +40,16 @@ Im **Methode** in der Dropdown-Liste können Sie jetzt **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads {#url-configuration}
+### Payloads
 
 Die **Aktionsparameter** wurde umbenannt. **Payloads**. Es stehen zwei Felder zur Verfügung:
 
 * Die **Anfrage** -Feld: Dieses Feld ist nur für POST- und PUT-Aufrufmethoden verfügbar.
 * Die **Reaktion** -Feld: Dies ist die neue Funktion. Dieses Feld ist für alle Aufrufmethoden verfügbar.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Beide Felder sind optional.
+>Beide Felder sind optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ Sie können auch die **jo_status** -Code, um im Falle eines Fehlers einen neuen 
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Nur neu erstellte benutzerdefinierte Aktionen enthalten dieses Feld standardmäßig. Wenn Sie sie mit einer vorhandenen benutzerdefinierten Aktion verwenden möchten, müssen Sie die Aktion aktualisieren. Beispielsweise können Sie die Beschreibung aktualisieren und speichern.
+>Nur neu erstellte benutzerdefinierte Aktionen enthalten dieses Feld standardmäßig. Wenn Sie sie mit einer vorhandenen benutzerdefinierten Aktion verwenden möchten, müssen Sie die Aktion aktualisieren. Beispielsweise können Sie die Beschreibung aktualisieren und speichern.
 
 Hier finden Sie die möglichen Werte für dieses Feld:
 
@@ -148,9 +148,9 @@ Sie können Ihre Nachrichten mithilfe der Antwortfelder personalisieren. In unse
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> Der Aufruf wird nur einmal pro Profil in einer bestimmten Journey durchgeführt. Für mehrere Nachrichten werden keine neuen Aufrufe Trigger.
+>Der Aufruf wird nur einmal pro Profil in einer bestimmten Journey durchgeführt. Für mehrere Nachrichten werden keine neuen Aufrufe Trigger.
 
 ## Syntax von Ausdrücken
 
