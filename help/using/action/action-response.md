@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 17%
+source-wordcount: '497'
+ht-degree: 12%
 
 ---
 
 # Verbesserungen bei benutzerdefinierten Aktionen
 
-Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten orchestrieren.
 
 Diese Funktion war nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
 
@@ -55,11 +55,11 @@ Die **Aktionsparameter** wurde umbenannt. **Payloads**. Es stehen zwei Felder zu
 
 1. Klicken Sie in die **Reaktion** -Feld.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind (Zeichenfolge, Ganzzahl usw.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Klicken Sie auf **Speichern**.
 
@@ -121,15 +121,15 @@ Fügen Sie die benutzerdefinierte Aktion einfach einer Journey hinzu. Anschließ
 
 Sie können beispielsweise eine Bedingung hinzufügen, um die Windgeschwindigkeit zu überprüfen. Wenn die Person in den Surfshop kommt, können Sie eine Push-Benachrichtigung senden, wenn das Wetter zu windig ist.
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 In der Bedingung müssen Sie den erweiterten Editor verwenden, um die Aktionsreaktionsfelder unter der **Kontext** Knoten.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 Sie können auch die **jo_status** -Code, um im Falle eines Fehlers einen neuen Pfad zu erstellen.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Hier finden Sie die möglichen Werte für dieses Feld:
 * Begrenzungsfehler: **capped**
 * interner Fehler: **internalError**
 
+Weitere Informationen zu Journey-Aktivitäten finden Sie unter [diesem Abschnitt](../building-journeys/about-journey-activities.md).
+
 ### Personalisierung von Nachrichten
 
 Sie können Ihre Nachrichten mithilfe der Antwortfelder personalisieren. In unserem Beispiel personalisieren wir in der Push-Benachrichtigung den Inhalt mit dem Geschwindigkeitswert.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->Der Aufruf wird nur einmal pro Profil in einer bestimmten Journey durchgeführt. Für mehrere Nachrichten werden keine neuen Aufrufe Trigger.
+>Der Aufruf wird nur einmal pro Profil in einer bestimmten Journey durchgeführt. Für mehrere Nachrichten an dasselbe Profil werden keine neuen Aufrufe Trigger.
+
+Weitere Informationen zur Personalisierung von Nachrichten finden Sie unter [diesem Abschnitt](../personalization/personalize.md).
 
 ## Syntax von Ausdrücken
 
@@ -175,4 +179,4 @@ Im Folgenden finden Sie einige Beispiele:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Weitere Informationen zu Feldverweisen finden Sie unter [diesem Abschnitt](../building-journeys/expression/field-references.md).
