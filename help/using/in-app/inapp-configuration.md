@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
 
    >[!NOTE]
    >
-   > Sie benötigen die **App-Konfiguration verwalten** Zugriffsberechtigung für die **[!UICONTROL Anwendungsoberflächen]** Menü. Weitere Informationen finden Sie unter [dieses Video](#video).
+   > Sie benötigen die Berechtigung **App-Konfiguration verwalten**, um Zugriff auf das Menü **[!UICONTROL Programmoberflächen]** zu haben. Weiterführende Informationen finden Sie in [diesem Video](#video).
 
    ![](assets/inapp_config_1.png)
 
@@ -79,7 +79,7 @@ Der In-App-Kanal ist jetzt konfiguriert. Sie können nun mit dem Versand von In-
 
 ## Anleitungsvideos{#video}
 
-* Im folgenden Video erfahren Sie, wie Sie die **App-Konfiguration verwalten** Zugriff auf das Menü App-Oberflächen .
+* Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zuzugreifen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

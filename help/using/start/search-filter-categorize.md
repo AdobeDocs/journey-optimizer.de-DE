@@ -11,7 +11,7 @@ exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adob
 
 ### Hinzufügen von Tags zu einem Objekt
 
-Die **[!UICONTROL Tags]** -Feld können Sie Tags für Ihr Objekt definieren. Tags sind für die folgenden Objekte verfügbar:
+Mit dem Feld **[!UICONTROL Tags]** können Sie Tags für Ihr Objekt definieren. Tags sind für die folgenden Objekte verfügbar:
 
 * [Journeys](../building-journeys/journey-gs.md#change-properties)
 * [Kampagnen](../campaigns/create-campaign.md#create)
@@ -60,9 +60,9 @@ Die **[!UICONTROL Tags]** -Feld können Sie Tags für Ihr Objekt definieren. Tag
 * [Abonnement-Listen](../landing-pages/subscription-list.md)
 * [Landingpages](../landing-pages/create-lp.md)
 
-Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.
+Sie können entweder ein vorhandenes Tag auswählen oder ein neues erstellen. Gehen Sie dazu wie folgt vor.
 
-1. Geben Sie den Namen des gewünschten Tags ein und/oder wählen Sie es aus der Liste aus.
+1. Geben Sie den Anfang des Namens des gewünschten Tags ein und wählen Sie es aus der Liste aus.
 
    ![](assets/tags1.png)
 
@@ -70,11 +70,11 @@ Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. G
    >
    > Bei Tags wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 
-1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf **[!UICONTROL Erstellen von &quot;&quot;]** um ein neues Objekt zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und für alle anderen Objekte verfügbar gemacht.
+1. Wenn das gesuchte Tag nicht verfügbar ist, klicken Sie auf **[!UICONTROL „“ erstellen]**, um ein neues Objekt zu definieren. Es wird automatisch zum aktuellen Objekt hinzugefügt und für alle anderen Objekte verfügbar gemacht.
 
    ![](assets/tags4.png)
 
-1. Die Liste der ausgewählten oder erstellten Tags wird unter dem **[!UICONTROL Tags]** -Feld. Sie können beliebig viele Tags definieren.
+1. Die Liste der ausgewählten oder erstellten Tags wird unter dem Feld **[!UICONTROL Tags]** angezeigt. Sie können beliebig viele Tags definieren.
 
 >[!NOTE]
 > 
@@ -82,9 +82,9 @@ Sie können entweder eine vorhandenes Tag auswählen oder ein neues erstellen. G
 
 ### Filtern nach Tags
 
-Jede Objektliste enthält eine eigene Spalte, damit Sie Ihre Tags einfach visualisieren können.
+Jede Objektliste zeigt eine entsprechende Spalte an, sodass Sie Ihre Tags einfach visualisieren können.
 
-Ein Filter ist auch verfügbar, um nur Objekte mit bestimmten Tags anzuzeigen.
+Es ist auch ein Filter verfügbar, um nur Objekte mit bestimmten Tags anzuzeigen.
 
 ![](assets/tags2.png)
 

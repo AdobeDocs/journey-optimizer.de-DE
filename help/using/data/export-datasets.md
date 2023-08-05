@@ -11,7 +11,7 @@ exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Detaillierte Informationen zu den einzelnen Zielen finden Sie in der Adobe Exper
 
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit dem Exportieren Ihrer Datensätze beginnen:
 
-* Zum Exportieren von Datensätzen benötigen Sie die **Ziele anzeigen** und **Verwalten und Aktivieren von Datensatzzielen** [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions). Lesen Sie die [Übersicht über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
+* Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions) **Ziele anzeigen** und **Datensatzziele verwalten und aktivieren** Lesen Sie die [Übersicht über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
 
 * Stellen Sie sicher, dass der Datensatz, den Sie exportieren möchten, keine Daten der zweiten Generation enthält. Diese Funktion unterstützt nur den Export von Daten der ersten Generation, d. h. von Rohdaten, wie in der [Produktbeschreibung von Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html) definiert. Zu den Daten der ersten Generation gehören Datensätze, die über Adobe Experience Platform-Quellen übermittelt werden, oder Datensätze, die mithilfe von Adobe-Lösungen wie Analytics Data Connector und Journey Optimizer-Protokollen/-Berichtsdatensätzen erfasst wurden.
 

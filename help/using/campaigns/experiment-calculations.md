@@ -58,7 +58,7 @@ Der Unterschied zwischen Konfidenzsequenzen und Konfidenzintervallen für ein ei
 
 ![](assets/technote_2.gif)
 
-**Konfidenzsequenzen** verlagern den Schwerpunkt der Experimente auf die Schätzung und nicht auf die Hypothesenprüfung, d. h. sie konzentrieren sich auf die genaue Schätzung des Unterschieds der Mittelwerte zwischen den Behandlungen und nicht auf die Frage, ob eine Nullhypothese auf der Grundlage eines Schwellenwerts für die statistische Signifikanz verworfen werden soll oder nicht.
+**Konfidenzsequenzen** verlagern den Schwerpunkt der Experimente auf die Schätzung und nicht auf die Hypothesenprüfung, d. h. sie konzentrieren sich auf die genaue Schätzung des Unterschieds der Mittelwerte zwischen den Abwandlungen und nicht auf die Frage, ob eine Nullhypothese auf der Grundlage eines Schwellenwerts für die statistische Signifikanz verworfen werden soll oder nicht.
 
 Ähnlich wie bei der Beziehung zwischen `p-values`, oder **Konfidenz**, und **Konfidenzintervallen** gibt es jedoch auch eine Beziehung zwischen **Konfidenzsequenzen** und jederzeit gültigen `p-values` bzw. jederzeit gültiger Konfidenz. Angesichts der Bekanntheit von Größen wie der Konfidenz gibt Adobe in seinen Berichten sowohl die **Konfidenzsequenzen** als auch die jederzeit gültige Konfidenz an.
 
@@ -74,8 +74,8 @@ Es ist wichtig zu beachten, dass Konfidenzsequenzen, da sie „jederzeit gültig
 
 ![](assets/experimentation_report_2.png)
 
-Jedes Mal, wenn Sie sich den Experimentbericht anzeigen lassen, analysiert Adobe die Daten, die sich bis zu diesem Zeitpunkt im Experiment angesammelt haben, und erklärt ein Experiment als „schlüssig“, wenn die jederzeit gültige Konfidenz einen Schwellenwert von 95 % für mindestens eine der Behandlungen überschreitet.
+Jedes Mal, wenn Sie sich den Experimentbericht anzeigen lassen, analysiert Adobe die Daten, die sich bis zu diesem Zeitpunkt im Experiment angesammelt haben, und erklärt ein Experiment als „schlüssig“, wenn die jederzeit gültige Konfidenz einen Schwellenwert von 95 % für mindestens eine der Abwandlungen überschreitet.
 
-Zu diesem Zeitpunkt wird die Behandlung, die die beste Leistung aufweist (basierend auf der Konversionsrate oder dem profilnormierten Metrikwert), am oberen Rand des Berichtsbildschirms hervorgehoben und im tabellarischen Bericht mit einem Stern gekennzeichnet. Nur Behandlungen, die eine Konfidenz von mehr als 95 % aufweisen, sowie die Grundlinie werden bei dieser Bestimmung berücksichtigt.
+Zu diesem Zeitpunkt wird die Abwandlung, die die beste Leistung aufweist (basierend auf der Konversionsrate oder dem profilnormierten Metrikwert), am oberen Rand des Berichtsbildschirms hervorgehoben und im tabellarischen Bericht mit einem Stern gekennzeichnet. Nur Abwandlungen, die eine Konfidenz von mehr als 95 % aufweisen, sowie die Baseline werden bei dieser Bestimmung berücksichtigt.
 
-Wenn es mehr als zwei Behandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Behandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall erklärt Adobe Journey Optimizer die Behandlung mit der höchsten Konversionsrate (oder dem höchsten profilnormierten Metrikwert) zum besten Ergebnis.
+Wenn es mehr als zwei Abwandlungen gibt, wird die Verknüpfung mit der Bonferroni-Korrektur verwendet, um Probleme mit Mehrfachvergleichen zu korrigieren und die familienspezifische Fehlerquote zu kontrollieren. In diesem Szenario ist es auch möglich, dass es mehrere Abwandlungen gibt, deren Konfidenz größer als 95 % ist und deren Konfidenzintervalle sich überschneiden. In diesem Fall erklärt Adobe Journey Optimizer die Behandlung mit der höchsten Konversionsrate (oder dem höchsten profilnormierten Metrikwert) zum besten Ergebnis.

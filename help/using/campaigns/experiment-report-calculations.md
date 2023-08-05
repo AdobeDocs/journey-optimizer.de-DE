@@ -21,7 +21,7 @@ Beachten Sie, dass diese Seite für technische Benutzende gedacht ist.
 
 ## Konversionsrate
 
-Die Konversionsrate oder **Mittelwert**, μ<sub>ν</sub> für jede Behandlung `ν` in einem Experiment ist definiert als Verhältnis der Summe der Metrik zur Anzahl der dieser Metrik zugewiesenen Profile, N<sub>ν</sub>:
+Die Konversionsrate oder **Mittelwert**, μ<sub>ν</sub> für jede Abwandlung `ν` in einem Experiment ist definiert als Verhältnis der Summe der Metrik zur Anzahl der dieser Metrik zugewiesenen Profile, N<sub>ν</sub>:
 
 ![](assets/statistical_1.png){width="125" align="center"}
 
@@ -39,9 +39,9 @@ Der Anstieg zwischen einer Variante *ν* und der Kontrollvariante *ν<sub>0</sub
 
 </br>
 
-## Jederzeit gültige Konfidenzintervalle für einzelne Behandlungen
+## Jederzeit gültige Konfidenzintervalle für einzelne Abwandlungen
 
-Im Panel „Experimentieren“ in Journey werden „jederzeit gültige“ Konfidenzintervalle (Konfidenzsequenzen) für einzelne Behandlungen in einem Experiment angezeigt.
+Im Panel „Experimentieren“ in Journey werden „jederzeit gültige“ Konfidenzintervalle (Konfidenzsequenzen) für einzelne Abwandlungen in einem Experiment angezeigt.
 
 Die Konfidenzsequenz für eine bestimmte Variante `ν` ist von zentraler Bedeutung für die von Adobe verwendete statistische Methodik. Die Definition finden Sie auf [dieser Seite](https://doi.org/10.48550/arXiv.2103.06476) (reproduziert aus [Waudby-Smith et al.]).
 
@@ -70,13 +70,13 @@ Dabei gilt:
 
 ## Konfidenz {#confidence}
 
-Die von Adobe verwendete Konfidenz ist eine „jederzeit gültige“ Konfidenz, die durch Umkehrung der Konfidenzsequenz für den durchschnittlichen Behandlungseffekt erzielt wird.
+Die von Adobe verwendete Konfidenz ist eine „jederzeit gültige“ Konfidenz, die durch Umkehrung der Konfidenzsequenz für den durchschnittlichen Abwandlungseffekt erzielt wird.
 
-Genauer gesagt, gibt es in einem Test mit zwei Stichproben von *t*, bei dem auf den Unterschied zwischen den Mittelwerten zweier Varianten getestet wird, eine 1:1-Zuordnung zwischen dem *p*-Wert für diesen Test und das Konfidenzintervall für die Differenz der Mittelwerte. In Analogie dazu kann ein jederzeit gültiger *p*-Wert erlangt werden, indem die (jederzeit gültige) Konfidenzsequenz für die Schätzung des durchschnittlichen Behandlungseffekts invertiert wird:
+Genauer gesagt, gibt es in einem Test mit zwei Stichproben von *t*, bei dem auf den Unterschied zwischen den Mittelwerten zweier Varianten getestet wird, eine 1:1-Zuordnung zwischen dem *p*-Wert für diesen Test und das Konfidenzintervall für die Differenz der Mittelwerte. In Analogie dazu kann ein jederzeit gültiger *p*-Wert erlangt werden, indem die (jederzeit gültige) Konfidenzsequenz für die Schätzung des durchschnittlichen Abwandlungseffekts invertiert wird:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 
-Hierbei ist *E* eine Erwartung. Die verwendete Schätzung ist eine Schätzung mit umgekehrter Tendenzgewichtung (inverse propensity weighted, IPW). Angenommen, es gibt N = N<sub>0</sub> +N<sub>1</sub> Einheiten, mit Variantenzuweisungen für jede Einheit `i`, die durch A<sub>i</sub>=0,1 gekennzeichnet sind, wenn die Einheit der Variante `ν`=0,1 zugewiesen ist. Wenn den Benutzenden eine feste Wahrscheinlichkeit (Tendenz) π<sub>0</sub>, (1-π<sub>0</sub>) zugewiesen wird und ihre Ergebnismetrik Y<sub>i</sub> ist, dann ist die IPW-Schätzung für den durchschnittlichen Behandlungseffekt:
+Hierbei ist *E* eine Erwartung. Die verwendete Schätzung ist eine Schätzung mit umgekehrter Tendenzgewichtung (inverse propensity weighted, IPW). Angenommen, es gibt N = N<sub>0</sub> +N<sub>1</sub> Einheiten, mit Variantenzuweisungen für jede Einheit `i`, die durch A<sub>i</sub>=0,1 gekennzeichnet sind, wenn die Einheit der Variante `ν`=0,1 zugewiesen ist. Wenn den Benutzenden eine feste Wahrscheinlichkeit (Tendenz) π<sub>0</sub>, (1-π<sub>0</sub>) zugewiesen wird und ihre Ergebnismetrik Y<sub>i</sub> ist, dann ist die IPW-Schätzung für den durchschnittlichen Abwandlungseffekt:
 
 ![](assets/statistical_12.png){width="400" align="center"}
 
@@ -92,7 +92,7 @@ Beachten Sie als Nächstes, dass für einen regelmäßigen Hypothesentest mit Te
 
 ![](assets/statistical_9.png){width="500" align="center"}
 
-wobei `Φ` die kumulative Standard-Normalverteilung ist. Bei jederzeit gültigen `p`-Werten, können wir in Anbetracht der Konfidenzsequenz für den oben definierten durchschnittlichen Behandlungseffekt diese Beziehung umkehren:
+wobei `Φ` die kumulative Standard-Normalverteilung ist. Bei jederzeit gültigen `p`-Werten, können wir in Anbetracht der Konfidenzsequenz für den oben definierten durchschnittlichen Abwandlungseffekt diese Beziehung umkehren:
 
 ![](assets/statistical_10.png){width="600" align="center"}
 
@@ -104,7 +104,7 @@ Und schließlich ist die **jederzeit gültige Konfidenz**:
 
 Bei einem Experiment mit zwei Testverzweigungen zeigt das Panel „Experimentieren“ in Journey Optimizer eine Nachricht an, dass ein Experiment **schlüssig** ist, wenn die jederzeit gültige Konfidenz 95 % überschreitet (d. h. der jederzeit gültige `p`-Wert unter 5 % liegt).
 
-Wenn mehr als zwei Varianten vorhanden sind, wird die Bonferonni-Korrektur angewendet, um die familienspezifische Fehlerquote zu kontrollieren. Bei einem Experiment mit `K` Behandlungen und einer einzigen Grundlinienbehandlung (Kontrolle) gibt es `K-1` unabhängige Hypothesentests. Die Bonferonni-Korrektur bedeutet, dass wir die Null-Hypothese ablehnen, dass die Kontrolle und eine bestimmte Variante über die gleichen Mittelwerte verfügen, wenn der jederzeit gültige `p`-Wert (wie oben definiert) unterhalb des Schwellenwerts von `α/(K-1)` liegt.
+Wenn mehr als zwei Varianten vorhanden sind, wird die Bonferonni-Korrektur angewendet, um die familienspezifische Fehlerquote zu kontrollieren. Bei einem Experiment mit `K` Abwandlungen und einer einzigen Baseline-Abwandlung (Kontrolle) gibt es `K-1` unabhängige Hypothesentests. Die Bonferonni-Korrektur bedeutet, dass wir die Null-Hypothese ablehnen, dass die Kontrolle und eine bestimmte Variante über die gleichen Mittelwerte verfügen, wenn der jederzeit gültige `p`-Wert (wie oben definiert) unterhalb des Schwellenwerts von `α/(K-1)` liegt.
 
 ## Testverzweigung mit dem besten Ergebnis
 

@@ -10,7 +10,7 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und E
 
 >[!AVAILABILITY]
 >
->Derzeit ist der In-App-Kanal nicht für Organisationen verfügbar, die das Add-On-Angebot &quot;Adobe Healthcare Shield&quot;erworben haben.
+>Derzeit ist der In-App-Kanal nicht für Organisationen verfügbar, die das Zusatzangebot Adobe Healthcare Shield erworben haben.
 >
 
 ## Voraussetzungen{#prerequisites-in-app}

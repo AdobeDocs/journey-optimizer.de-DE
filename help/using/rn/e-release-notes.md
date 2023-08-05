@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
-—>
+-->
 
 **Kampagnen**
 
@@ -147,7 +147,7 @@ Authentifizierung der Adobe Journey Optimizer-APIs – Die JWT-Methode zum Gener
 
 **Weitere Änderungen**
 
-Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt allen Kunden als öffentliche Beta-Version verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
+Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt für alle Kundinnen und Kunden als öffentliche Beta verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
 
 
 

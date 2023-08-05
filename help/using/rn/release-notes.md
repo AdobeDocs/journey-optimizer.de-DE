@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 <td>
 <p>Sie können jetzt Ihren Kampagnen Briefpost-Nachrichten hinzufügen. Briefpost ist ein Offline-Kanal, mit dem Sie die Extraktionsdateien personalisieren und generieren können, die Briefpostanbieter zum Senden von Nachrichten an Ihre Kunden benötigen.</p>
 <p>Wenn Sie einen Briefpost-Versand vorbereiten, erzeugt Journey Optimizer eine Datei, die alle Zielgruppenprofile und die ausgewählten Kontaktinformationen enthält (z. B. die Postanschrift). Dann senden Sie diese Datei an Ihren Briefpost-Dienstleister, der sich um den tatsächlichen Versand kümmert.</p>
-<p>Derzeit ist der Briefpost-Kanal nicht für Organisationen verfügbar, die das Zusatzangebot Adobe Healthcare Shield erworben haben.</p>
+<p>Derzeit ist der Kanal „Briefpost“ nicht für Organisationen verfügbar, die das Zusatzangebot Adobe Healthcare Shield erworben haben.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../direct-mail/get-started-direct-mail.md">ausführlichen Dokumentation</a>.</p>
 </tr>
@@ -136,16 +136,16 @@ Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue S
 * Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
 * Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
 
-Daher werden in Adobe Journey Optimizer und der Benutzeroberfläche von Adobe Experience Platform &quot;Segmente&quot;durch &quot;Zielgruppen&quot;ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
+Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
 
 **APIs**
 
-Die JWT-Methode zum Generieren von Zugriffstoken für die Adobe Journey Optimizer API-Authentifizierung wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der Authentifizierungsmethode OAuth-Server-zu-Server erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Die JWT-Methode zum Generieren von Zugriffs-Token für die Authentifizierung von Adobe Journey Optimizer APIs wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der Authentifizierungsmethode OAuth-Server-zu-Server erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Weitere Änderungen**
 
-Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt allen Kunden als öffentliche Beta-Version verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
+Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt für alle Kundinnen und Kunden als öffentliche Beta verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
 
 
 
@@ -216,7 +216,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Behandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
+<p>Adobe Journey Optimizer unterstützt jetzt Experimente in Kampagnen. Bei Experimenten handelt es sich um randomisierte Test, was im Rahmen von Online-Tests bedeutet, dass Sie einigen zufällig ausgewählten Benutzenden eine bestimmte Variante einer Nachricht anbieten und einer anderen zufällig ausgewählten Gruppe von Benutzenden eine andere Variante oder Abwandlung anbieten. Nach dem Angebot können Sie die Ihre gewünschten Ergebnismetriken messen, z. B. Öffnung von E-Mails, Abonnements oder Käufe.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../campaigns/content-experiment.md">ausführlichen Dokumentation</a>.</p>
 </td>

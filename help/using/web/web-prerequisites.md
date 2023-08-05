@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 ## Warnhinweise {#caution-notes-web}
 
-* Zurzeit in [!DNL Journey Optimizer] Sie können nur Web-Erlebnisse in erstellen **Kampagnen**. [Weitere Informationen](../campaigns/create-campaign.md#configure)
+* Derzeit können Sie Web-Erlebnisse in [!DNL Journey Optimizer] nur mithilfe von **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer]-Web-Kampagnen zielen auf neue Profile ab, die zuvor noch nicht auf anderen Kanälen kontaktiert wurden. Dadurch erhöht sich die Gesamtzahl der kontaktierbaren Profile. Dies kann sich auf die Kosten auswirken, wenn die vertragliche Anzahl der von Ihnen erworbenen kontaktierbaren Profile überschritten wird. Lizenzmetriken für jedes Paket finden Sie auf der Seite [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html).
 
 
 >[!AVAILABILITY]
 >
->Derzeit steht der Webkanal nicht für Unternehmen zur Verfügung, die das Zusatzangebot Adobe Healthcare Shield erworben haben.
+>Derzeit steht der Web-Kanal nicht für Organisationen zur Verfügung, die das Zusatzangebot Adobe Healthcare Shield erworben haben.
 >
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}

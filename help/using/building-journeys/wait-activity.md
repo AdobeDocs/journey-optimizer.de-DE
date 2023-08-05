@@ -12,7 +12,7 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 
 Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
-Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
+Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
 
-Eine Person kann nur dann in eine Warteaktivität eintreten, wenn sie genügend Zeit im Journey hat, um die Wartezeit vor dem 30-tägigen Journey-Timeout abzuschließen. Wenn Sie beispielsweise zwei Warteaktivitäten hinzufügen, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite Wartezeit nach dem 30-Tage-Timeout endet. Die zweite Wartezeit wird daher ignoriert und der Kontakt verlässt die Journey, bevor er gestartet wird. In diesem Beispiel bleibt der Kunde insgesamt 20 Tage auf der Journey.
+Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Wenn Sie beispielsweise zwei Warteaktivitäten hinzufügen, die auf jeweils 20 Tage festgelegt sind, erkennt das System, dass die zweite Wartezeit nach dem 30-Tage-Timeout endet. Die zweite Wartezeit wird daher ignoriert und der Kontakt verlässt die Journey, bevor er sie beginnt. In diesem Beispiel bleibt die Kundin bzw. der Kunde insgesamt 20 Tage in der Journey.
 
-Es empfiehlt sich, keine Wartezeiten zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die **Wiedereintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#entrance).
+Es ist Best Practice, keine Wartezeiten zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#entrance).
 
 ## Wartezeit mit Dauer{#duration}
 
@@ -92,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-Könntest du bitte etwas dafür einbringen?
+Könnten Sie bitte etwas dazu entwerfen?

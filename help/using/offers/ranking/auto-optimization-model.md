@@ -99,8 +99,8 @@ Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne 
 
 ## Steigerungsmessung {#lift}
 
-Mit der Metrik „Steigerung“ wird die Leistung einer Strategie im Rangfolge-Service gegenüber einer Basisstrategie gemessen (d. h. der zufälligen Bereitstellung von Angeboten).
+Mit der Metrik „Steigerung“ wird die Leistung einer Strategie im Rangfolge-Service gegenüber einer Baseline-Strategie gemessen (d. h. der zufälligen Bereitstellung von Angeboten).
 
-Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahren) im Rangfolge-Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die „Steigerung“ der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
+Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahren) im Rangfolge-Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die „Steigerung“ der TS-Strategie gegenüber der Baseline-Strategie folgendermaßen definiert:
 
 ![](../assets/ai-ranking-lift.png)

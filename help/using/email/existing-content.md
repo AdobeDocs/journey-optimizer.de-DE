@@ -12,7 +12,7 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -37,19 +37,19 @@ Gehen Sie wie folgt vor, um eine Datei mit HTML-Inhalt zu importieren:
 
    ![](assets/html-imported_2.png)
 
-1. Sobald der HTML-Inhalt hochgeladen wurde, befindet sich Ihr Inhalt in **[!UICONTROL Kompatibilitätsmodus]**.
+1. Sobald der HTML-Inhalt hochgeladen wurde, befindet sich Ihr Inhalt im **[!UICONTROL Kompatibilitätsmodus]**.
 
    In diesem Modus können Sie nur Ihren Text personalisieren, Links hinzufügen oder Assets zu Ihrem Inhalt hinzufügen.
 
-1. Um die Inhaltskomponenten von Email Designer nutzen zu können, rufen Sie die **[!UICONTROL HTML-Konverter]** Registerkarte und klicken Sie auf **[!UICONTROL Konvertieren]**.
+1. Um die Inhaltskomponenten des E-Mail-Designers nutzen zu können, gehen Sie zur Registerkarte **[!UICONTROL HTML-Konverter]** und klicken Sie auf **[!UICONTROL Konvertieren]**.
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > Verwenden eines `<table>` -Tag als erste Ebene in einer HTML-Datei kann zu Stilverlusten führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
+   > Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-1. Jetzt können Sie Ihre importierte Datei nach Bedarf mit den Funktionen von Email Designer personalisieren [Weitere Infos](content-from-scratch.md).
+1. Jetzt können Sie Ihre importierte Datei nach Bedarf mit den Funktionen des E-Mail-Designers personalisieren. [Weitere Informationen](content-from-scratch.md).
 
 ## Anleitungsvideo {#video}
 
