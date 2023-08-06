@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 12%
+source-wordcount: '665'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ Diese Funktion war nur bei Verwendung von Datenquellen verfügbar. Sie können s
 >[!AVAILABILITY]
 >
 >Diese Funktion ist derzeit als private Beta-Version verfügbar.
+
+>[!WARNING]
+>
+>Benutzerdefinierte Aktionen sollten nur mit privaten oder internen Endpunkten verwendet und mit einer entsprechenden Begrenzung oder Einschränkung verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 ## Definieren der benutzerdefinierten Aktion
 
@@ -57,104 +61,80 @@ Die **Aktionsparameter** wurde umbenannt. **Payloads**. Es stehen zwei Felder zu
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind (Zeichenfolge, Ganzzahl usw.).
+1. Fügen Sie ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Überprüfen Sie, ob die Feldtypen korrekt sind (Zeichenfolge, Ganzzahl usw.). Hier ist ein Beispiel für die Antwort-Payload, die während des -Aufrufs erfasst wird. Unser lokaler Endpunkt sendet die Anzahl der Treuepunkte und den Status eines Profils.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab.
+
+1. Fügen wir auch die customerID als Abfrageparameter hinzu.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Klicken Sie auf **Speichern**.
 
-Jedes Mal, wenn die API aufgerufen wird, ruft das System alle im Payload-Beispiel enthaltenen Felder ab. Beachten Sie, dass Sie auf **Fügen Sie eine neue Payload ein** klicken können, wenn Sie die aktuell übergebene Payload ändern möchten.
-
-Hier ist ein Beispiel für eine Antwort-Payload, die beim Aufruf eines Wetter-API-Dienstes erfasst wird:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## Nutzung der Antwort in einer Journey
+## Verwenden der Antwort in einer Journey
 
 Fügen Sie die benutzerdefinierte Aktion einfach einer Journey hinzu. Anschließend können Sie die Antwort-Payload-Felder in Bedingungen, anderen Aktionen und der Nachrichtenpersonalisierung nutzen.
 
-### Bedingungen und Aktionen
-
-Sie können beispielsweise eine Bedingung hinzufügen, um die Windgeschwindigkeit zu überprüfen. Wenn die Person in den Surfshop kommt, können Sie eine Push-Benachrichtigung senden, wenn das Wetter zu windig ist.
+Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepunkte zu überprüfen. Wenn die Person das Restaurant betritt, sendet Ihr lokaler Endpunkt einen Aufruf mit den Treueinformationen des Profils. Sie können eine Push-Benachrichtigung versenden, wenn das Profil ein Goldkunde ist. Wenn beim Aufruf ein Fehler erkannt wird, senden Sie eine benutzerdefinierte Aktion, um den Systemadministrator zu benachrichtigen.
 
 ![](assets/action-response5.png)
 
-In der Bedingung müssen Sie den erweiterten Editor verwenden, um die Aktionsreaktionsfelder unter der **Kontext** Knoten.
+1. Fügen Sie Ihr Ereignis und die zuvor erstellte benutzerdefinierte Aktion &quot;Treueprogramm&quot;hinzu.
 
-![](assets/action-response6.png)
+1. Ordnen Sie in der benutzerdefinierten Aktion &quot;Loyalität&quot;den Abfrageparameter der Kunden-ID der Profil-ID zu. Aktivieren Sie die Option **Hinzufügen eines alternativen Pfads im Fall eines Timeouts oder Fehlers**.
 
-Sie können auch die **jo_status** -Code, um im Falle eines Fehlers einen neuen Pfad zu erstellen.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. Fügen Sie im ersten Zweig eine Bedingung hinzu und verwenden Sie den erweiterten Editor, um die Aktionsreaktionsfelder unter dem **Kontext** Knoten.
 
->[!WARNING]
->
->Nur neu erstellte benutzerdefinierte Aktionen enthalten dieses Feld standardmäßig. Wenn Sie sie mit einer vorhandenen benutzerdefinierten Aktion verwenden möchten, müssen Sie die Aktion aktualisieren. Beispielsweise können Sie die Beschreibung aktualisieren und speichern.
+   ![](assets/action-response6.png)
+
+1. Fügen Sie dann Ihre Push-Benachrichtigung hinzu und personalisieren Sie Ihre Nachricht mithilfe der Antwortfelder. In unserem Beispiel personalisieren wir den Inhalt anhand der Anzahl der Treuepunkte und des Kundenstatus. Die Aktionsreaktionsfelder sind unter verfügbar. **Kontextattribute** > **Journey Orchestration** > **Aktionen**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >Jedes Profil, das die benutzerdefinierte Aktion aufruft, Trigger einen -Aufruf. Auch wenn die Antwort immer gleich ist, führt Journey immer noch einen Aufruf pro Profil durch.
+
+1. Fügen Sie in der Verzweigung Timeout und Fehler eine Bedingung hinzu und nutzen Sie die integrierte **jo_status_code** -Feld. In unserem Beispiel verwenden wir die
+   **http_400** Fehlertyp. Weitere Informationen finden Sie in [diesem Abschnitt](#error-status).
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. Fügen Sie eine benutzerdefinierte Aktion hinzu, die an Ihre Organisation gesendet wird.
+
+   ![](assets/action-response11.png)
+
+## Fehlerstatus{#error-status}
+
+Die **jo_status_code** -Feld ist immer verfügbar, auch wenn keine Antwort-Payload definiert ist.
 
 Hier finden Sie die möglichen Werte für dieses Feld:
 
-* HTTP-Status-Code: Beispiel: **http_200** oder **http_400**
+* http status code: http_`<HTTP API call returned code>`, zum Beispiel http_200 oder http_400
 * Zeitüberschreitungsfehler: **timedout**
 * Begrenzungsfehler: **capped**
 * interner Fehler: **internalError**
 
-Weitere Informationen zu Journey-Aktivitäten finden Sie unter [diesem Abschnitt](../building-journeys/about-journey-activities.md).
+Ein Aktionsaufruf wird als fehlerhaft betrachtet, wenn der zurückgegebene HTTP-Code größer als 2xx ist oder wenn ein Fehler auftritt. In solchen Fällen wird die Journey an die dedizierte Zeitüberschreitung oder Fehlerverzweigung geleitet.
 
-### Personalisierung von Nachrichten
-
-Sie können Ihre Nachrichten mithilfe der Antwortfelder personalisieren. In unserem Beispiel personalisieren wir in der Push-Benachrichtigung den Inhalt mit dem Geschwindigkeitswert.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->Der Aufruf wird nur einmal pro Profil in einer bestimmten Journey durchgeführt. Für mehrere Nachrichten an dasselbe Profil werden keine neuen Aufrufe Trigger.
-
-Weitere Informationen zur Personalisierung von Nachrichten finden Sie unter [diesem Abschnitt](../personalization/personalize.md).
+>Nur neu erstellte benutzerdefinierte Aktionen enthalten **jo_status_code** vordefinierten Feld. Wenn Sie sie mit einer vorhandenen benutzerdefinierten Aktion verwenden möchten, müssen Sie die Aktion aktualisieren. Beispielsweise können Sie die Beschreibung aktualisieren und speichern.
 
 ## Syntax von Ausdrücken
 
