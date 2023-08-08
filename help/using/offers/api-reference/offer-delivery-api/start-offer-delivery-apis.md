@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -19,10 +19,6 @@ Sie können Angebote entweder mithilfe der **Decisioning**- oder **Edge Decision
 
 Auf dieser Seite finden Sie Informationen zu spezifischen Funktionen, die mit den **Decisioning**- und **Edge Decisioning**-APIs verfügbar sind. Zwar ermöglichen es Ihnen beide, Ihren Kunden Angebote zu unterbreiten, wir empfehlen jedoch, für eingehende Anwendungsfälle möglichst die **Edge Decisioning**-API zu verwenden, um auf Ihrer Plattform eine bessere Latenz und besseren Durchsatz sicherzustellen.
 
-|  | Anfragen/Sek. | Latenz |
-|---|---|---|
-| Decisioning-API | 2.000 | &lt;500ms |
-| Edge Decisioning-API | 5.000 | &lt;250ms |
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
 * [Decisioning-API](decisioning-api.md)
