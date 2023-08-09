@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 
    >[!NOTE]
    >
-   >Derzeit Amazon S3 und SFTP<!--and Azure--> unterstützt in [!DNL Journey Optimizer].
+   >Derzeit werden in [!DNL Journey Optimizer] nur Amazon S3 und SFTP<!--and Azure--> unterstützt.
 
 1. Geben Sie die Details und Anmeldedaten für Ihren Server ein, z. B. Server-Adresse, Zugriffsschlüssel usw.
 
@@ -135,7 +135,7 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
 
 1. Wählen Sie das Dateiformat aus: **[!UICONTROL CSV]** oder **[!UICONTROL Text mit Trennzeichen]**.
 
-1. Wenn Sie **[!UICONTROL Textgetrennt]**, definieren Sie das Spaltentrennzeichen Ihrer Wahl: Tabulation, Semikolon oder senkrechter Strich<!--or ampersand-->.
+1. Wenn Sie **[!UICONTROL Text mit Trennzeichen]** auswählen, definieren Sie das Spaltentrennzeichen Ihrer Wahl: Tabellierung, Semikolon oder senkrechter Strich<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
