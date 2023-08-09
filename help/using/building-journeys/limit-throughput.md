@@ -9,9 +9,9 @@ level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Bei **durch Zielgruppen ausgelösten Journeys** können Sie die Einschränkungsr
 
 >[!NOTE]
 >
-> Dies ist die maximale Anzahl von Profilen, die pro Sekunde Journey eingeben können. Dieser Satz gilt nur für diese Aktivität und nicht für andere Aktivitäten in der Journey. [Mehr dazu](../building-journeys/read-audience.md)
+> Dies ist die maximale Anzahl von Profilen, die pro Sekunde in die Journey eintreten können. Diese Rate gilt nur für diese und keine andere Aktivitäten in der Journey. [Mehr dazu](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
