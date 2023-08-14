@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 
 >[!IMPORTANT]
 >
->Die **maxHttpConnections** ist optional. Dadurch können Sie die Anzahl der Verbindungen einschränken, die Journey Optimizer für das externe System öffnet.
+>Der Parameter **maxHttpConnections** ist optional. Dadurch können Sie die Anzahl der Verbindungen einschränken, die Journey Optimizer für das externe System öffnet.
 >
->Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System je nach dynamischer Skalierung des Systems bis zu mehreren tausend Verbindungen öffnen.
+>Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System abhängig von seiner dynamischen Skalierung bis zu mehreren tausend Verbindungen öffnen.
 
 ### Beispiel:
 
