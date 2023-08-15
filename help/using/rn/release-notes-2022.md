@@ -620,7 +620,7 @@ Auf dieser Seite sind alle Funktionen und Verbesserungen für [!DNL Journey Opti
 
 **Administration**
 
-* **Aktualisierung des Lizenznutzungs-Dashboards**: Das in der Benutzeroberfläche von [!DNL Adobe Journey Optimizer] verfügbare Lizenznutzungs-Dashboard entspricht nun dem genauen Wert für die **lizenzierte** durchschnittliche Reichweite des Profils. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../audience/license-usage.md)
+* **Aktualisierung des Lizenznutzungs-Dashboards**: Das in der Benutzeroberfläche von [!DNL Adobe Journey Optimizer] verfügbare Lizenznutzungs-Dashboard entspricht nun dem genauen Wert für den **lizenzierten** durchschnittlichen Profilumfang. In dieser Metrikdarstellung wird ein Rückgang angezeigt, was bedeutet, dass die Lizenzbeschränkung jetzt korrekt gemeldet wird. [Weitere Informationen](../audience/license-usage.md)
 
 
 ## Version April 2022 {#april-2022-release}
