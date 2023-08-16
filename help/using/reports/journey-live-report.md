@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** erhalten Sie über die Registerka
 
 ![](assets/journey_live_1.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Journey-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Journey-Bericht verfügbar sind.
 
 Mit **[!UICONTROL Journey-Performance]** können Sie den Pfad Ihrer Zielprofile durch Ihre Journey Schritt für Schritt anzeigen.
 
@@ -72,7 +72,7 @@ In Ihrem **[!UICONTROL Journey-Live-Bericht]** finden Sie auf der Registerkarte 
 
 ![](assets/journey_live_2.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
 
 Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
@@ -131,7 +131,7 @@ In dem **[!UICONTROL Live-Bericht]** Ihrer Journey finden Sie auf der Registerka
 
 ![](assets/journey_live_3.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
@@ -160,7 +160,7 @@ Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTR
 
 ![](assets/journey_live_4.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
 
 Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg des Versands:
 
