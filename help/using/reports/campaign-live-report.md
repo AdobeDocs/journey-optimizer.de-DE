@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 ![](assets/campaign_report_live_1.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
 
 Das Widget **[!UICONTROL E-Mail-Versandstatistik]** enthält die wichtigsten Informationen zu Ihrer Nachricht:
 
@@ -127,7 +127,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 ![](assets/campaign_report_live_2.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
 Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
@@ -158,7 +158,7 @@ In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerka
 
 ![](assets/campaign_report_live_3.png)
 
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den SMS-Bericht verfügbar sind.
 
 Die Tabelle **[!UICONTROL SMS – Statistiken]** gibt Auskunft über den Erfolg Ihres Versands:
 
