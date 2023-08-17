@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Experiment, Reporting, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 75%
+source-wordcount: '636'
+ht-degree: 76%
 
 ---
 
@@ -59,7 +59,7 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
   Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit dem `Commerce Details` Feldergruppe.
 
-  Ebenso müssen Sie, wenn Sie über mobile Interaktionen berichten möchten, einen Datensatz mit Erlebnisereignissen mit der Feldergruppe &quot;Anwendungsdetails&quot;erstellen.
+  Wenn Sie einen Bericht über mobile Interaktionen erstellen möchten, müssen Sie außerdem einen Erlebnisereignis-Datensatz mit der Variablen `Application Details` Feldergruppe.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
