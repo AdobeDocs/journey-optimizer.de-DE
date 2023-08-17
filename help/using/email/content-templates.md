@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 95%
+source-wordcount: '1065'
+ht-degree: 100%
 
 ---
 
@@ -176,10 +176,6 @@ Sie können das Rendering einer beliebigen E-Mail-Inhaltsvorlage testen, unabhä
    * Vor dem Testversand müssen Sie die [E-Mail-Oberfläche](../configuration/channel-surfaces.md) auswählen, die zum Testen Ihres Inhalts verwendet wird.
 
      ![](assets/content-template-stimulate-proof-surface.png)
-
->[!CAUTION]
->
->Derzeit wird das Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt, d. h. Tracking-Ereignisse, UTM-Parameter und Landingpage-Links sind in den von einer Vorlage gesendeten Testsendungen nicht wirksam. So testen Sie das Tracking: [Inhaltsvorlage verwenden](email-templates.md) in einer E-Mail und [Testversand durchführen](preview.md#send-proofs).
 
 ## Anleitungsvideo {#video-templates}
 
