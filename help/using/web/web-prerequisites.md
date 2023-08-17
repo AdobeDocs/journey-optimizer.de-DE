@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '1060'
+ht-degree: 83%
 
 ---
 
@@ -40,6 +40,10 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 Derzeit werden zwei Arten von Implementierungen unterstützt, um die Erstellung und der Versand von Web-Kanal-Kampagnen in Ihren Web-Eigenschaften zu ermöglichen:
 
 * Nur Client-seitig – Um Änderungen an Ihrer Website vorzunehmen, müssen Sie das [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} auf Ihrer Website implementieren.
+
+  >[!NOTE]
+  >
+  >Stellen Sie sicher, dass Ihre AEP Web SDK-Version 2.16 oder höher ist.
 
 * Hybridmodus – Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} verwenden.
 
@@ -126,6 +130,24 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
   Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in [!DNL Journey Optimizer] verwendet, um eingehende Kampagnen auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=de){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
+
+Um Inhaltsexperimente für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) in Ihrer Web-Implementierung verwendet werden [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} auch in Ihrer Berichtskonfiguration vorhanden ist.
+
+Anders ausgedrückt: Wenn Sie beim Konfigurieren von Experimentberichten einen Datensatz hinzufügen, der nicht in Ihrem Webdatastream vorhanden ist, werden keine Webdaten in den Inhaltsexperimentberichten angezeigt.
+
+Erfahren Sie, wie Sie Datensätze für die Berichterstellung zu Inhaltsexperimenten hinzufügen in [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>Der Datensatz wird schreibgeschützt von der [!DNL Journey Optimizer] -Berichterstattungssystem verwendet werden und keine Auswirkungen auf die Datenerfassung oder -aufnahme haben.
+
+Wenn Sie **not** Verwendung der folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, und `Web Details`. Diese werden von der [!DNL Journey Optimizer] Inhaltsexperimentberichte, da sie verfolgen, an welchen Experimenten und Behandlungen die einzelnen Profile teilnehmen.
+
+>[!NOTE]
+>
+>Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, auf denen ein Experiment ausgeführt wird, sodass alle anderen Tracking unberührt bleiben.
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 

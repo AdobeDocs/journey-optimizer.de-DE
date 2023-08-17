@@ -9,19 +9,19 @@ role: Admin
 level: Intermediate
 keywords: Konfiguration, Experiment, Reporting, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 75%
 
 ---
 
-# Konfigurieren der Berichterstellung für Experimente {#reporting-configuration}
+# Konfigurieren von Berichten für Experimente {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Einrichten von Datensätzen für das Reporting"
->abstract="Mit der Reporting-Konfiguration können Sie zusätzliche Metriken abrufen, die in der Registerkarte „Ziele“ Ihrer Kampagnenberichte verwendet werden. Sie muss von einem/r technischen Anwender(in) durchgeführt werden."
+>abstract="Mit der Berichtskonfiguration können Sie zusätzliche Metriken abrufen, die in Ihren Kampagnenberichten verwendet werden. Sie muss von einem/r technischen Anwender(in) durchgeführt werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Mit der Konfiguration von Berichtsdatenquellen können Sie eine Verbindung zu einem System definieren, um zusätzliche Informationen zur Verwendung in Ihren Berichten abzurufen.
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -49,17 +49,17 @@ Bevor Sie der Reporting-Konfiguration einen Datensatz hinzufügen können, müss
 
 * Sie können nur Datensätze vom Typ „Ereignis“ hinzufügen.
 
-* Diese Datensätze müssen die [Feldergruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group) **Erlebnisereignis – Vorschlagsinteraktion** einschließen{target="_blank"}.
+* Diese Datensätze müssen die `Experience Event - Proposition Interactions` [Feldergruppe](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}.
 
-* Diese Datensätze müssen außerdem mindestens eine der folgenden [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} enthalten: **Anwendungsdetails**, **Commerce-Details**, **Web-Details**.
+* Diese Datensätze können auch eine der folgenden enthalten: [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
   >[!NOTE]
   >
   >Es können auch andere Feldergruppen einbezogen werden, aber in Journey Optimizer-Berichten werden derzeit nur die oben genannten Feldergruppen unterstützt.
 
-  Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit der **Commerce-Details**-Feldergruppe erstellen.
+  Wenn Sie beispielsweise wissen möchten, wie sich eine E-Mail-Kampagne auf Commerce-Daten wie Käufe oder Bestellungen auswirkt, müssen Sie einen Erlebnisereignis-Datensatz mit dem `Commerce Details` Feldergruppe.
 
-  Wenn Sie einen Bericht über mobile Interaktionen erstellen möchten, müssen Sie außerdem einen Erlebnisereignis-Datensatz mit der Feldergruppe **Anwendungsdetails** erstellen.
+  Ebenso müssen Sie, wenn Sie über mobile Interaktionen berichten möchten, einen Datensatz mit Erlebnisereignissen mit der Feldergruppe &quot;Anwendungsdetails&quot;erstellen.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >Wenn Sie einen Datensatz ausgewählt haben, der nicht vom Typ „Ereignis“ ist, können Sie nicht fortfahren.
+
+Beachten Sie, dass Sie bei Web- und In-App-Kanälen sicherstellen müssen, dass die [Datensatz](../data/get-started-datasets.md) für die Datenerfassung konfiguriert wurde, wird dieser Berichtskonfiguration ebenfalls hinzugefügt. Andernfalls werden Web- und In-App-Daten nicht in den Inhaltsexperimentberichten angezeigt.
+
+* Weitere Informationen zu Voraussetzungen für Inhaltsexperimente für Webkanäle finden Sie in [diesem Abschnitt](../web/web-prerequisites.md#experiment-prerequisites).
+
+* Weitere Informationen zur Konfiguration von In-App-Kanälen finden Sie in [diesem Abschnitt](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

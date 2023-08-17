@@ -5,16 +5,16 @@ role: Admin
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 78%
 
 ---
 
 # Konfigurieren des In-App-Kanals {#inapp-configuration}
 
-Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [!DNL Adobe Experience Platform Data Collection] konfigurieren.
+Bevor Sie In-App-Nachrichten senden, müssen Sie Ihren In-App-Kanal in [!DNL Adobe Experience Platform Data Collection].
 
 1. Rufen Sie von Ihrem [!DNL Adobe Experience Platform Data Collection]-Konto aus das Menü **[!UICONTROL Datenstrom]** auf und klicken Sie auf **[!UICONTROL Neuer Datenstrom]**. Weiterführende Informationen zur Erstellung von Datenströmen finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de).
 
@@ -24,7 +24,13 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
 
    ![](assets/inapp_config_6.png)
 
-1. Rufen Sie dann das Menü **[!UICONTROL Programmoberflächen]** auf und klicken Sie auf **[!UICONTROL Programmoberfläche erstellen]**.
+   >[!NOTE]
+   >
+   >Um Inhaltsexperimente für den In-App-Kanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) wird in Ihrer In-App-Nachricht verwendet [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} auch in Ihrer Berichtskonfiguration vorhanden ist - andernfalls werden In-App-Daten nicht in den Inhaltsexperimentberichten angezeigt. [Erfahren Sie, wie Sie Datensätze hinzufügen](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >Der Datensatz wird schreibgeschützt von der [!DNL Journey Optimizer] -Berichterstattungssystem verwendet werden und keine Auswirkungen auf die Datenerfassung oder -aufnahme haben.
+
+1. Rufen Sie dann die **[!UICONTROL Anwendungsoberflächen]** Menü und klicken Sie **[!UICONTROL Oberfläche &quot;App erstellen&quot;]**.
 
    >[!NOTE]
    >
