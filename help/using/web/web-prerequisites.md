@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 83%
@@ -133,7 +133,7 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 
-Um Inhaltsexperimente für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) in Ihrer Web-Implementierung verwendet werden [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} auch in Ihrer Berichtskonfiguration vorhanden ist.
+Um Inhaltsexperimente für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) in Ihrer Web-Implementierung verwendet werden [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} ist auch in Ihrer Berichtskonfiguration enthalten.
 
 Anders ausgedrückt: Wenn Sie beim Konfigurieren von Experimentberichten einen Datensatz hinzufügen, der nicht in Ihrem Webdatastream vorhanden ist, werden keine Webdaten in den Inhaltsexperimentberichten angezeigt.
 
