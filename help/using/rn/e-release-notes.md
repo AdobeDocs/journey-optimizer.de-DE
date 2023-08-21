@@ -5,7 +5,7 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 43%
@@ -102,4 +102,4 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 **Briefpost**
 
 * Unterstützung von Azure Blob als Routing-Ziel.
-* Unterstützung von &quot;&amp;&quot;als benutzerdefiniertes Trennzeichen.
+* Support `&` als benutzerdefiniertes Trennzeichen.
