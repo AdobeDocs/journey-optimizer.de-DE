@@ -5,9 +5,9 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '402'
 ht-degree: 43%
 
 ---
@@ -29,7 +29,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>In-App-Kanal in Journey</strong><br/></th>
+<th><strong>In-App-Nachrichten in Ihren Journey senden</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Inhaltsassistent für Text und Bilder</strong><br/></th>
+<th><strong>Generieren von Text und Bildern mit dem Inhaltsassistenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, stellen Sie mit dem Inhaltsassistenten die nächste Stufe Ihres Inhalts dar. Sie können jetzt den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als individuelle Behandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
+<p>Diese Funktion ist als private Betaversion verfügbar.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 
 * Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
+
+
+**Briefpost**
+
+* Unterstützung von Azure Blob als Routing-Ziel.
+* Unterstützung von &quot;&amp;&quot;als benutzerdefiniertes Trennzeichen.
