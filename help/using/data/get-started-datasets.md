@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ Standardmäßig werden nur die Datensätze angezeigt, die Sie aufgenommen haben.
 
 Wählen Sie den Namen eines Datensatzes aus, um auf seinen Datensatzaktivitäts-Bildschirm zuzugreifen und Details zum ausgewählten Datensatz anzuzeigen. Die Registerkarte „Aktivität“ enthält ein Diagramm, das die Rate der konsumierten Nachrichten sowie eine Liste erfolgreicher und fehlgeschlagener Batches visuell darstellt.
 
-Im Folgenden finden Sie die verschiedenen verfügbaren Datensätze:
+Die Systemdatensätze für Adobe Journey Optimizer sind unten aufgeführt.
+
+
+>[!CAUTION]
+>
+> Systemdatensätze **darf nicht geändert werden**. Jede Änderung wird bei jeder Produktaktualisierung automatisch rückgängig gemacht.
+>
 
 **Reporting**
 
