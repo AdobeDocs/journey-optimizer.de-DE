@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
+source-git-commit: b3a047977fc4ffcab6674b573ef50018076d156a
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '598'
 ht-degree: 82%
 
 ---
@@ -37,7 +37,7 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 
 ![](assets/journey-re-entrance.png)
 
-Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wird der Status der Journey in **Beendet** geändert. Profile, die sich bereits in der Journey befinden, beenden das Journey normal. Neue Profile können nicht mehr in die Journey eintreten. Um die Datenschutzbestimmungen einzuhalten, ist dieses Verhalten nur für 30 Tage festgelegt. Nach diesem Zeitraum können Profile erneut in die Journey eintreten. Um dies zu vermeiden, fügen Sie eine Bedingung hinzu, um zu testen, ob das Profil bereits eingegeben wurde oder nicht. Weitere Informationen zum Journey-Timeout finden Sie unter [diesem Abschnitt](journey-gs.md#global_timeout).
+Nach der standardmäßigen globalen maximalen Wartezeit von 30 Tagen wird der Status der Journey in **Beendet** geändert. Profile, die sich bereits in der Journey befinden, beenden das Journey normal. Neue Profile können nicht mehr in die Journey eintreten. Dieses Verhalten ist nur für 30 Tage festgelegt (Standardwert für Journey-Timeout). Nach diesem Zeitraum können Profile erneut in die Journey eintreten. Um dies zu vermeiden, fügen Sie eine Bedingung hinzu, um zu testen, ob das Profil bereits eingegeben wurde oder nicht. Weitere Informationen zum Journey-Timeout finden Sie unter [diesem Abschnitt](journey-gs.md#global_timeout).
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
