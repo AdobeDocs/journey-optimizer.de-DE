@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 43%
 
 ---
 
@@ -18,59 +18,42 @@ ht-degree: 100%
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise Juli 2023 {#july-rn-2023}
+## Frühzeitige Versionshinweise für August 2023 {#aug-rn-2023}
 
-**Veröffentlichtungsdatum**: 26.-27. Juli
+**Veröffentlichungsdatum**: 23.-24. August 2023
 
-### Neue Funktionen{#july-2023-features}
+### Neue Funktionen{#aug-2023-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
 <table>
 <thead>
 <tr>
-<th><strong>Zielgruppenkomposition</strong><br/></th>
+<th><strong>In-App-Kanal in Journey</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können nun einen Kompositions-Workflow erstellen, um vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren und verschiedene Aktivitäten (Aufteilung, Anreicherung …) zum Erstellen neuer Zielgruppen zu nutzen. Neu erstellte Zielgruppen werden zusammen mit vorhandenen Zielgruppen wieder in Adobe Experience Platform gespeichert und können in Journey Optimizer-Kampagnen zur Kundenansprache verwendet werden.</p>
-<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
-<p>Die Zielgruppenkomposition ist vollständig in das neue Adobe Experience Platform-Menü „Zielgruppen“ integriert, das als zentralisiertes Portal für Zielgruppen dient. Sie können jetzt eine Seite zum Durchsuchen verwenden, die ein neues Dashboard mit Segmenttrends und Überschneidungen enthält, um neue Einblicke zu erhalten und Organisations-Tools für die Ordner- und Tagging-Verwaltung zu erkunden. Eingebettet in dieses Erlebnis sind Governance-Steuerelemente für standardisierte Zielgruppenbeschriftungen sowie Funktionen für das Management des Zielgruppen-Lebenszyklus, um Aktivierungs-Workflows zu verwalten. Mit diesem neuen Management-Erlebnis können Sie Zielgruppen jetzt einfach und sicher von einem Ort aus verwalten. Weitere Informationen sind in der <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de" target="_blank">Dokumentation zu Adobe Experience Platform</a> verfügbar.</p></p>
-</td>
+<p>Sie können Ihren App-Benutzern jetzt innerhalb einer Journey personalisierte In-App-Nachrichten senden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
+<img src="assets/in_app_journey_1.png"/>
+<p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Direct mail channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="assets/do-not-localize/gif-dm.gif"/>
-<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
 <tr>
-<th><strong>Konvertieren von HTML-Inhalten für den E-Mail-Designer</strong><br/></th>
+<th><strong>E-Mails mit Seed-Listen validieren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt alle HTML-Inhalte in den E-Mail-Editor von Journey Optimizer importieren und dort konvertieren. Inhaltsbausteine werden automatisch identifiziert und stehen im E-Mail-Designer zur Verfügung: Nutzen Sie seine leistungsstarken Design-Funktionen, um sie zu aktualisieren und zu personalisieren!</p>
-<img src="../email/assets/html-imported_2.png">
+<p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus Test-E-Mail-Adressen, an die Sie eine E-Mail senden, bevor sie an Ihre eigentliche Audience gesendet werden. Mit dieser Funktion können Sie die gesendeten E-Mail-Kopien überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
+<img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -81,74 +64,35 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Verwenden von Tags in Journey Optimizer</strong><br/></th>
+<th><strong>Inhaltsassistent für Text und Bilder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Zusätzlich zu Kampagnen und Journeys können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnementlisten jetzt einheitliche Tags von Adobe Experience Platform zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
-<img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
+<p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, stellen Sie mit dem Inhaltsassistenten die nächste Stufe Ihres Inhalts dar. Sie können jetzt den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als individuelle Behandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>APIs für Inhaltsvorlagen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sie können jetzt Adobe Journey Optimizer-Inhaltsvorlagen mithilfe von dedizierten APIs erstellen und verwalten, um eine nahtlose Integration in Ihr vorhandenes Inhaltssystem zu ermöglichen.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
 
-
-### Verbesserungen {#july-2023-improvements}
+### Verbesserungen {#aug-2023-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-<!--
-**Journeys**
-
-* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
--->
-
-**Kampagnen**
-
-* Kontextbezogene Ereignisse im Zusammenhang mit Kampagnen sind jetzt im Menü „Kontextuelle Attribute“ des Personalisierungseditors verfügbar.
-
-
-**Zielgruppen**
-
-Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
-
-Mit der Veröffentlichung des Portals „Zielgruppenkomposition“ haben Adobe Experience Platform und Adobe Journey Optimizer die Verwendung der Begriffe „Zielgruppen“ und „Segment“ im System und in der Dokumentation aktualisiert.
-
-* Zielgruppe: eine Gruppe von Personen, Konten, Haushalten oder anderen Entitäten, die gemeinsame Merkmale und Verhaltensweisen aufweisen.
-* Segmentdefinition: In Adobe Experience Platform sind dies die Regeln zur Beschreibung der Hauptmerkmale oder des Verhaltens einer Zielgruppe. Dieser Begriff war früher einfach als „Segment“ bekannt.
-
-Daher wird in Adobe Journey Optimizer und auf der Benutzeroberfläche von Adobe Experience Platform „Segmente“ durch „Zielgruppen“ ersetzt, um diesen neuen Pfad der Zielgruppenerstellung und -verwaltung widerzuspiegeln.
-
 **APIs**
 
-Authentifizierung der Adobe Journey Optimizer-APIs – Die JWT-Methode zum Generieren von Zugriffstoken wird nicht mehr unterstützt. Alle neuen Integrationen müssen mit der Authentifizierungsmethode OAuth-Server-zu-Server erstellt werden. Adobe empfiehlt auch, Ihre vorhandenen Integrationen zur OAuth-Methode zu migrieren. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfügbar. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
 
+**E-Mail-Kanal**
 
-**Weitere Änderungen**
+* In den E-Mail-Oberflächeneinstellungen ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Kennwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
 
-Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt für alle Kundinnen und Kunden als öffentliche Beta verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren. [Weitere Informationen](../data/export-datasets.md)
+**Journeys**
 
-
-
-
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
