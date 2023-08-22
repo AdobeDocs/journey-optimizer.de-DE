@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## August 2023 {#august-2023}
 
-* Es wurde ein neuer Abschnitt zu den Voraussetzungen für Inhaltsexperimente für den Webkanal hinzugefügt - [Weitere Informationen](../web/web-prerequisites.md#experiment-prerequisites)
-* Es wurde ein Warnhinweis zur **Arbeiten mit Inhaltsvorlagen** -Seite, um anzugeben, dass das aktuelle Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../email/content-templates.md#test-template)
-* Mehrere Warnungen wurden im **Landingpages erstellen und veröffentlichen** um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie einfach die bei der Erstellung der Seite definierte URL in einen Webbrowser kopieren und einfügen, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
+* Es wurde ein neuer Abschnitt zu den Voraussetzungen für Inhaltsexperimente für den Web-Kanal hinzugefügt. [Weitere Informationen](../web/web-prerequisites.md#experiment-prerequisites)
+* Es wurde ein Warnhinweis zur Seite **Arbeiten mit Inhaltsvorlagen** hinzugefügt, um anzugeben, dass Tracking beim Testen von E-Mail-Inhaltsvorlagen derzeit nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../email/content-templates.md#test-template)
+* Es wurden mehrere Warnungen im Abschnitt **Erstellen und Veröffentlichen von Landingpages** hinzugefügt, um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie die bei der Erstellung der Seite definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
 
 ## Juli 2023 {#july-2023}
 

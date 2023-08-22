@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: bdebd6495b0147b606a86153025090bdcb5c96a7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ Sie können Ihre Links mithilfe der Bereiche **[!UICONTROL Einstellungen]** und 
 
 1. Wählen Sie in einer **[!UICONTROL Text]**-Komponente, in die ein Link eingefügt ist, Ihren Link aus.
 
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wie Ihre Audience umgeleitet werden soll:
+1. Wählen Sie auf der Registerkarte **[!UICONTROL Einstellungen]** in der Dropdown-Liste **[!UICONTROL Ziel]** aus, wie Ihre Zielgruppe umgeleitet werden soll:
 
    * **[!UICONTROL None]**: öffnet den Link in demselben Frame, in dem er angeklickt wurde (Standardwert).
    * **[!UICONTROL Blank]**: öffnet den Link in einem neuen Fenster oder auf einer neuen Registerkarte.

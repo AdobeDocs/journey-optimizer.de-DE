@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -133,21 +133,21 @@ Damit das Web-Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die f
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 
-Um Inhaltsexperimente für den Webkanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) in Ihrer Web-Implementierung verwendet werden [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} ist auch in Ihrer Berichtskonfiguration enthalten.
+Um Inhaltsexperimente für den Web-Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der im [Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} Ihrer Web-Implementierung verwendet wird, auch in Ihrer Reporting-Konfiguration enthalten ist.
 
-Anders ausgedrückt: Wenn Sie beim Konfigurieren von Experimentberichten einen Datensatz hinzufügen, der nicht in Ihrem Webdatastream vorhanden ist, werden keine Webdaten in den Inhaltsexperimentberichten angezeigt.
+Anders ausgedrückt: Wenn Sie beim Konfigurieren des Reportings für Experimente einen Datensatz hinzufügen, der nicht in Ihrem Web-Datenstrom vorhanden ist, werden keine Web-Daten in den Inhaltsexperimentberichten angezeigt.
 
-Erfahren Sie, wie Sie Datensätze für die Berichterstellung zu Inhaltsexperimenten hinzufügen in [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets).
-
->[!NOTE]
->
->Der Datensatz wird schreibgeschützt von der [!DNL Journey Optimizer] -Berichterstattungssystem verwendet werden und keine Auswirkungen auf die Datenerfassung oder -aufnahme haben.
-
-Wenn Sie **not** Verwendung der folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, und `Web Details`. Diese werden von der [!DNL Journey Optimizer] Inhaltsexperimentberichte, da sie verfolgen, an welchen Experimenten und Behandlungen die einzelnen Profile teilnehmen.
+In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
 
 >[!NOTE]
 >
->Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, auf denen ein Experiment ausgeführt wird, sodass alle anderen Tracking unberührt bleiben.
+>Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
+
+Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=de#add-field-groups){target="_blank"} verwenden, stellen Sie sicher, dass Sie die folgenden Feldergruppen hinzufügen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details` und `Web Details`. Diese werden vom Reporting zu Inhaltsexperimenten von [!DNL Journey Optimizer] verwendet, da sie verfolgen, an welchen Experimenten und Behandlungen die einzelnen Profile teilnehmen.
+
+>[!NOTE]
+>
+>Das Hinzufügen dieser Feldergruppen hat keine Auswirkungen auf die normale Datenerfassung. Dies ist nur für die Seiten nützlich, bei denen ein Experiment ausgeführt wird, sodass das Tracking aller anderen Seiten unberührt bleibt.
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 

@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 93%
 >
 >Um Landingpages testen und veröffentlichen zu können, müssen Sie über die Berechtigung zum **[!UICONTROL Veröffentlichen von Nachrichten]** verfügen.
 
-Um Ihre Kunden zu einer definierten Webseite zu leiten, die angezeigt werden soll, wenn sie auf einen bestimmten Link klicken, erstellen Sie eine Landingpage in [!DNL Journey Optimizer], konfigurieren Sie die primäre Seite und alle Unterseiten, testen Sie sie und veröffentlichen Sie sie.
+Um Ihre Kundinnen und Kunden zu einer definierten Web-Seite zu leiten, die angezeigt werden soll, wenn sie auf einen bestimmten Link klicken, erstellen Sie eine Landingpage in [!DNL Journey Optimizer], konfigurieren Sie die primäre Seite und alle Unterseiten, testen Sie sie und veröffentlichen Sie sie.
 
 >[!CAUTION]
 >
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie einfach die URL, die Sie beim [Erstellen der Seite](#create-landing-page), auch wenn veröffentlicht. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die URL, die beim [Erstellen der Seite](#create-landing-page) definiert wurde, einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
 ## Zugreifen auf Landingpages {#access-landing-pages}
 
@@ -103,7 +103,7 @@ Nachdem Sie die [Primärseite](#configure-primary-page) und die [Unterseiten](#c
 
 >[!CAUTION]
 >
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL einfach in einen Webbrowser kopieren, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
 ## Konfigurieren der Primärseite {#configure-primary-page}
 
@@ -205,7 +205,7 @@ Gehen Sie wie folgt vor, um die Einstellungen der Unterseite zu definieren.
    >
    >Die Landingpage-URL muss eindeutig sein.
    >
-   >Sie können nicht auf Ihre Unterseite zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren und einfügen, selbst wenn sie veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
 ![](assets/lp_subpage-settings.png)
 
@@ -308,6 +308,6 @@ Sie ist jetzt live und kann in einer [!DNL Journey Optimizer]-Nachricht, die üb
 
 >[!NOTE]
 >
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie einfach die URL, die Sie beim [Erstellen der Seite](#create-landing-page), auch wenn veröffentlicht. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die URL, die beim [Erstellen der Seite](#create-landing-page) definiert wurde, einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion wie in [diesem Abschnitt](#test-landing-page) beschrieben testen.
 
 Sie können die Wirkung Ihrer Landingpage mithilfe spezifischer Berichte überwachen. [Weitere Informationen](../reports/lp-report-live.md)
