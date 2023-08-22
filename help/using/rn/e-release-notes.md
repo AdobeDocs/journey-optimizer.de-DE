@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 42%
+source-wordcount: '362'
+ht-degree: 48%
 
 ---
 
@@ -52,7 +52,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus Test-E-Mail-Adressen, an die Sie eine E-Mail senden, bevor sie an Ihre eigentliche Audience gesendet werden. Mit dieser Funktion können Sie die gesendeten E-Mail-Kopien überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
+<p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Generieren von Text und Bildern mit dem Inhaltsassistenten</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, stellen Sie mit dem Inhaltsassistenten die nächste Stufe Ihres Inhalts dar. Sie können jetzt den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als individuelle Behandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
-<p>Diese Funktion ist derzeit als private Beta-Version verfügbar.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 
 **E-Mail-Kanal**
 
-* In den E-Mail-Oberflächeneinstellungen ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Kennwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
+In den E-Mail-Oberflächeneinstellungen ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Kennwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
 
 **Journeys**
 
@@ -102,5 +102,5 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 
 **Briefpost**
 
-* Unterstützung von Azure Blob als Routing-Ziel.
-* Support `&` als benutzerdefiniertes Trennzeichen.
+* Azure kann jetzt in der Konfiguration des Datei-Routing als Servertyp ausgewählt werden.
+* In den Einstellungen für die Briefpost-Oberfläche ist jetzt Ampersand als Spaltentrennfeld verfügbar.
