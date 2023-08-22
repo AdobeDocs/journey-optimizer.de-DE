@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 43%
+source-wordcount: '411'
+ht-degree: 42%
 
 ---
 
@@ -71,7 +71,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Nachdem Sie Ihre Nachricht erstellt und personalisiert haben, stellen Sie mit dem Inhaltsassistenten die nächste Stufe Ihres Inhalts dar. Sie können jetzt den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Jede Variante wird als individuelle Behandlung verwaltet, um zu messen und zu vergleichen, welcher Titel effektiv mehr Klicks generiert.</p>
-<p>Diese Funktion ist als private Betaversion verfügbar.</p>
+<p>Diese Funktion ist derzeit als private Beta-Version verfügbar.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -95,7 +95,7 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 
 **Journeys**
 
-* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren.
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar.
 * Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
 
 
