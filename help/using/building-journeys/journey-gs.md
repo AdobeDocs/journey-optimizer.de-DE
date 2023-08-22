@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 99%
 
 ---
 
@@ -121,13 +121,13 @@ Mit der Schaltfläche **Technische Details kopieren** lassen sich jederzeit tech
 
 ![](assets/journey32.png)
 
-### Eintritt{#entrance}
+### Eintritt und Wiedereintritt {#entrance}
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option **Erneuten Eintritt erlauben** für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, wenn eine Person einen Shop betritt.
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
 
-Weitere Informationen zur Verwaltung des Profileintritts finden Sie in [diesem Abschnitt](entry-management.md).
+Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen in [diesem Abschnitt](entry-management.md).
 
 ### Verwalten des Zugriffs {#access}
 
