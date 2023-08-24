@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 100%
@@ -122,7 +122,7 @@ Verwenden Sie die Komponente **[!UICONTROL Text]**, um Text in Ihre E-Mail einzu
    * **Schriftgröße**: Auswahl der Schriftgröße des Textes in Pixel.
    * **[!UICONTROL Textfarbe ändern]**: Wählen Sie die Schriftfarbe aus.
    * **[!UICONTROL Link einfügen]**: Fügen Sie Links jeder Art zu Ihrem Inhalt hinzu.
-   * **[!UICONTROL Bild bearbeiten]**: Einfügen eines Bildes oder Assets in Ihre Textkomponente. [Weitere Informationen über das Asset-Management](assets-essentials.md)
+   * **[!UICONTROL Bild bearbeiten]**: Einfügen eines Bildes oder Assets in Ihre Textkomponente. [Weitere Informationen über das Asset-Management](../content-management/assets-essentials.md)
    * **[!UICONTROL Textfarbe ändern]**: Wählen Sie die Schriftfarbe aus.
    * **[!UICONTROL Personalisierung hinzufügen]**: Einfügen von Personalisierungsfeldern zur Inhaltsanpassung auf der Basis von Profildaten. [Weitere Informationen über die Personalisierung von Inhalten](../personalization/personalize.md)
    * **[!UICONTROL Quellcode anzeigen]**: Anzeigen des Quell-Codes Ihres Textes (keine Änderungen möglich).
@@ -179,7 +179,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
    ![](assets/email_designer_10.png)
 
-1. Sie können auch **[!UICONTROL Nach ähnlichen Stockfotos suchen]**. [Weitere Informationen](stock.md)
+1. Sie können auch **[!UICONTROL Nach ähnlichen Stockfotos suchen]**. [Weitere Informationen](../content-management/stock.md)
 
 1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Audience zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** weiterzuleiten.
 

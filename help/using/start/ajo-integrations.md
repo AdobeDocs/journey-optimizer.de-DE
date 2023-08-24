@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Ex
 
 [!DNL Adobe Experience Manager Assets Essentials] kann direkt von [!DNL Adobe Journey Optimizer] aus über den Abschnitt **[!UICONTROL Assets]** im linken Menü aufgerufen werden.
 
-Erfahren Sie mehr über [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Erfahren Sie mehr über [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,12 +55,12 @@ Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und 
 
 Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Stock] in Ihre E-Mails hochladen und mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** zu Ihrem Ordner **[!UICONTROL Assets]** hinzufügen. Darüber hinaus hilft Ihnen die Option **[!UICONTROL Ähnliche Stockfotos suchen]**, Bilder zu finden, die in Inhalt, Farbe und Komposition dem in Ihrem Versand verwendeten Asset entsprechen.
 
-Erfahren Sie mehr über [Journey Optimizer + Stock](../email/stock.md).
+Erfahren Sie mehr über [Journey Optimizer + Stock](../content-management/stock.md).
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}
 
-Mit Adobe Intelligent Services, die in der Echtzeit-Kundendatenplattform integriert sind, können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich wären.
+Mit Adobe Intelligent Services, die in der Echtzeit-Kundendatenplattform integriert sind, können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analysten mithilfe von Konfigurationen auf Unternehmensebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 
 Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- oder Konversionswerte erstellen, die als Profilattribute in Adobe Experience Platform verfügbar sind und zur Personalisierung einer Journey verwendet werden können.
 

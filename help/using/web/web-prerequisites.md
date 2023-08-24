@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
-workflow-type: ht
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -151,4 +151,4 @@ Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experien
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 
-Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)
+Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)

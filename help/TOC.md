@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 98%
 
 ---
 
@@ -185,9 +185,6 @@ ht-degree: 100%
       + Gestalten von Inhalten {#add-content}
          + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
-         + Verwalten von Assets {#manage-asset}
-            + [Verwenden von Assets Essentials](using/email/assets-essentials.md)
-            + [Arbeiten mit Adobe Stock](using/email/stock.md)
          + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
          + [Generieren der Textversion](using/email/text-version-email.md)
          + [Hinzufügen eines Preheaders](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 100%
    + Konfigurieren von Landingpages {#lp-configuration}
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
++ Content-Management {#content-management}
+   + [Verwenden von Assets Essentials](using/content-management/assets-essentials.md)
+   + [Arbeiten mit Adobe Stock](using/content-management/stock.md)
+   + Arbeiten mit dem Inhaltsassistenten{#content-assistant}
+      + [Erste Schritte mit dem Inhaltsassistenten](using/content-management/gs-generative.md)
+      + [Titelgenerierung](using/content-management/generative-title.md)
+      + [Bildgenerierung](using/content-management/generative-image.md)
 + Personalisierung und dynamische Inhalte {#personalized-dynamic-content}
    + Personalisierung {#personalization}
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
