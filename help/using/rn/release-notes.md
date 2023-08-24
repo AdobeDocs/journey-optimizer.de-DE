@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3432'
+ht-degree: 96%
 
 ---
 
@@ -22,12 +22,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Frühzeitige Versionshinweise für August 2023 {#aug-rn-2023}
-
-Frühe Versionshinweise unten können bis zum Veröffentlichungsdatum ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
-
-
-**Veröffentlichungsdatum**: 23.-24. August 2023
+## Versionshinweise für August 2023 {#aug-rn-2023}
 
 ### Neue Funktionen{#aug-2023-features}
 
@@ -44,7 +39,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Sie können Ihren App-Benutzern jetzt innerhalb einer Journey personalisierte In-App-Nachrichten senden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../in-app/create-in-app-journey.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -61,7 +56,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Weitere Informationen finden Sie in der <a href="../configuration/seed-lists.md">ausführlichen Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
+<!--
 **APIs**
 
-Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfügbar. [Weitere Informationen](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**E-Mail-Kanal**
+<!--**Email channel**
 
-In den E-Mail-Oberflächeneinstellungen ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Kennwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Journeys**
 
-Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Diese Funktion ist als private Betaversion verfügbar. [Weitere Informationen](../action/action-response.md).
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt. [Weitere Informationen](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Briefpost**
 
-* Azure kann jetzt in der Konfiguration des Datei-Routing als Servertyp ausgewählt werden.
-* In den Einstellungen für die Briefpost-Oberfläche ist jetzt Ampersand als Spaltentrennfeld verfügbar.
+* Azure kann jetzt in der Konfiguration des Datei-Routing als Servertyp ausgewählt werden. [Weitere Informationen](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* In den Einstellungen für die Briefpost-Oberfläche ist jetzt Ampersand als Spaltentrennfeld verfügbar. [Weitere Informationen](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

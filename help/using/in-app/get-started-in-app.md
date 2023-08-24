@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ Vor dem Senden von In-App-Nachrichten müssen Sie Folgendes tun:
 
 * Konfigurieren Sie den In-App-Kanal. [Weitere Informationen](inapp-configuration.md)
 
-* Vergewissern Sie sich vor dem Start, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, auch wenn Sie nur In-App-Nachrichten in Journey verwenden möchten. Kampagnenberechtigungen sind weiterhin erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
 
