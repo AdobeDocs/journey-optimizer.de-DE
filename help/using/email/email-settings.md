@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 100%
+source-wordcount: '1941'
+ht-degree: 91%
 
 ---
 
@@ -181,6 +181,31 @@ Aktivieren Sie dazu auf der Ebene der Kanaloberfläche die optionale Funktion **
 Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse sicherzustellen, dass eine Subdomain mit einer gültigen MX-Eintragskonfiguration verwendet wird. Andernfalls schlägt die Verarbeitung der E-Mail-Oberfläche fehl.
 
 Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
+
+## Testliste {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Testliste hinzufügen"
+>abstract="Wählen Sie die von Ihnen ausgewählte Testliste aus, um automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. Diese Adressen werden zum Zeitpunkt der Ausführung des Versands hinzugefügt und erhalten aus Sicherheitsgründen eine exakte Kopie des Versands."
+
+Eine Testliste in [!DNL Journey Optimizer] ermöglicht Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Diese Funktion gilt derzeit nur für den E-Mail-Kanal.
+
+Wählen Sie die Liste aus, die für Sie relevant ist im **[!UICONTROL Testliste]** Abschnitt. Erfahren Sie, wie Sie eine Seed-Liste in [diesem Abschnitt](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Es kann jeweils nur eine Testliste ausgewählt werden.
+
+Wenn die aktuelle Oberfläche in einer Kampagne oder einer Journey verwendet wird, werden die E-Mail-Adressen in der ausgewählten Testliste zum Zeitpunkt der Versandausführung einbezogen, d. h. sie erhalten eine Kopie des Versands zu Sicherheitszwecken.
+
+Erfahren Sie, wie Sie eine Testliste in einer Kampagne oder einer Journey in [diesem Abschnitt](../configuration/seed-lists.md#use-seed-list).
 
 ## E-Mail-Wiederholungsparameter {#email-retry}
 
