@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 95%
+source-wordcount: '1344'
+ht-degree: 89%
 
 ---
 
@@ -34,6 +34,7 @@ Die Seite **[!UICONTROL Journey-Live-Bericht]** wird mit den folgenden Registerk
 * [E-Mail](#email-live)
 * [Push-Benachrichtigung](#push-live)
 * [SMS](#sms-live)
+* [In-App](#in-app-live)
 
 Der **[!UICONTROL Journey-Live-Bericht]** ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler der Journey detailliert darstellen. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md#modify-dashboard).
 
@@ -193,9 +194,17 @@ In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen 
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+Die **[!UICONTROL In-App-Leistung]** In KPIs werden die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten beschrieben, z. B.:
 
 * **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzer gesendeten In-App-Nachrichten.
+
+  >[!NOTE]
+  >
+  >Um sicherzustellen, dass eine Impression gezählt wird, muss der Benutzer zwei Kriterien erfüllen:
+  >* Qualifizierung innerhalb des In-App-Erlebnisses, das durch Erreichen der spezifischen In-App-Aktivität auf seiner Journey erreicht wird.
+  >* Erfüllung der in den Regeln des Triggers festgelegten Bedingungen.
+  > 
+  >Aufgrund des zweiten Kriteriums kann es erhebliche Unterschiede zwischen der Anzahl der Zielgruppenprofile und der Anzahl der individuellen Impressionen geben.
 
 * **[!UICONTROL Interaktionen]**: Gesamtzahl der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
 
