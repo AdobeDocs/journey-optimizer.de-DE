@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Archiv, Nachrichten, HIPAA, BCC, E-Mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 100%
+source-wordcount: '1137'
+ht-degree: 91%
 
 ---
 
@@ -35,9 +35,9 @@ Vorschriften wie HIPAA erfordern, dass [!DNL Journey Optimizer] eine Möglichkei
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definieren einer BCC-E-Mail-Adresse"
->abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass die BCC-Adress-Domain nicht mit der Subdomain übereinstimmen sollte, die Adobe zugewiesen wurde. Diese Funktion ist optional."
+>abstract="Sie können eine Kopie der gesendeten E-Mails aufbewahren, indem Sie sie an einen BCC-Posteingang senden. Geben Sie die E-Mail-Adresse Ihrer Wahl ein, sodass jede gesendete E-Mail blind an diese BCC-Adresse gesendet wird. Beachten Sie, dass sich die BCC-Adressdomäne von allen an Adobe delegierten Subdomains unterscheiden muss. Diese Funktion ist optional."
 
-Sie können eine identische Kopie (oder Blindkopie) einer von [!DNL Journey Optimizer] gesendeten E-Mail an einen BCC-Posteingang senden. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zu Zwecken der Archivierung senden. Dies ist für die Versandempfänger unsichtbar.
+Sie können eine blinde Kopie einer E-Mail senden, die von [!DNL Journey Optimizer] zu einer speziellen BCC-Adresse. Mit dieser optionalen Funktion können Sie Kopien der E-Mail-Nachrichten speichern, die Sie Ihren Benutzern zur Einhaltung der Vorschriften und/oder zu Zwecken der Archivierung senden. Die BCC-Adresse ist für andere Empfänger der Nachricht nicht sichtbar.
 
 ### Aktivieren von BCC-E-Mails {#enable-bcc}
 
@@ -55,11 +55,11 @@ Um die Option **[!UICONTROL BCC-E-Mail]** zu aktivieren, geben Sie die E-Mail-Ad
 
 ![](assets/preset-bcc.png)
 
-Alle E-Mail-Nachrichten, die diese Oberfläche verwenden, werden als BCC an die von Ihnen eingegebene BCC-E-Mail-Adresse gesendet. Von dort aus können sie mithilfe eines externen Systems verarbeitet und archiviert werden.
+Nach der Konfiguration werden alle auf dieser Oberfläche basierenden E-Mail-Nachrichten blind in die von Ihnen eingegebene BCC-E-Mail-Adresse kopiert. Von dort aus können Nachrichten mithilfe eines externen Systems verarbeitet und archiviert werden.
 
 >[!CAUTION]
 >
->Die Nutzung der BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Oberflächen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
+>Die Verwendung Ihrer BCC-Funktion wird auf die Anzahl der Nachrichten angerechnet, für die Sie lizenziert sind. Aktivieren Sie sie in den Oberflächen daher nur für wichtige Nachrichten, die Sie archivieren möchten. Prüfen Sie Ihren Vertrag auf das Lizenzvolumen.
 
 Die Einstellung der BCC-E-Mail-Adresse wird sofort auf der Ebene der Oberfläche gespeichert und verarbeitet. Wenn Sie mit dieser Oberfläche eine neue Nachricht erstellen, wird die BCC-E-Mail-Adresse automatisch angezeigt.
 
