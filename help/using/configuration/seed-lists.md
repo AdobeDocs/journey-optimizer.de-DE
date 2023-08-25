@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Testliste, Testliste, Testadressen, Konfiguration
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 13%
+source-wordcount: '919'
+ht-degree: 12%
 
 ---
 
@@ -71,14 +71,14 @@ Sie können auf den Namen einer Testliste klicken, um sie zu bearbeiten. <!--Use
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Testadressen definieren"
->abstract="Füllen Sie die Details der Testliste aus, um automatisch bestimmte Testadressen in Ihre Sendungen einzuschließen. Diese Adressen werden zum Zeitpunkt der Ausführung des Versands hinzugefügt und erhalten aus Sicherheitsgründen eine exakte Kopie des Versands."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Was sind Seed-Listen?"
+>title="Testliste definieren"
+>abstract="Verwenden Sie eine Seed-Liste, um aus Sicherheitsgründen automatisch bestimmte interne Adressen zu Ihrer Versand-Audience hinzuzufügen. Mit Testlisten können Sie die gesendeten Nachrichtenkopien überwachen, um sicherzustellen, dass alle Anzeigeelemente korrekt sind und Ihre Mailingliste schützen. Diese Funktion gilt derzeit nur für den E-Mail-Kanal."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Was sind Seed-Listen?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Zu verwendende Testadressen angeben"
->abstract="Fügen Sie die Testadressen hinzu, die automatisch in Ihre Sendungen eingeschlossen werden. Sie können entweder eine CSV-Datei importieren oder manuell E-Mail-Adressen eingeben."
+>title="Testadressen ausfüllen"
+>abstract="Wählen Sie die Adressen aus, die zum Zeitpunkt der Versandausführung enthalten sein werden und eine exakte Kopie Ihrer Nachricht erhalten. Sie können entweder eine CSV-Datei importieren oder manuell E-Mail-Adressen eingeben."
 
 Gehen Sie wie folgt vor, um eine Testliste zu erstellen.
 

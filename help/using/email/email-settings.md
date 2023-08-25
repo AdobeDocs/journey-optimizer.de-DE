@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 91%
+source-wordcount: '1967'
+ht-degree: 90%
 
 ---
 
@@ -187,7 +187,10 @@ Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Testliste hinzufügen"
->abstract="Wählen Sie die von Ihnen ausgewählte Testliste aus, um automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. Diese Adressen werden zum Zeitpunkt der Ausführung des Versands hinzugefügt und erhalten aus Sicherheitsgründen eine exakte Kopie des Versands."
+>abstract="Wählen Sie die Testliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Zeitpunkt der Ausführung des Versands hinzugefügt und erhalten aus Sicherheitsgründen eine exakte Kopie der Nachricht."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Was sind Seed-Listen?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Testlisten erstellen"
+
 
 Eine Testliste in [!DNL Journey Optimizer] ermöglicht Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
 
