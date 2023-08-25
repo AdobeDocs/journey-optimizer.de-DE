@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Testliste, Testliste, Testadressen, Konfiguration
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 12%
+source-wordcount: '912'
+ht-degree: 11%
 
 ---
 
@@ -49,9 +49,14 @@ Testadressen sind weder echte Profile noch Testprofile, da sie keine Profildetai
 
 Um auf die bereits erstellten Testlisten zuzugreifen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** und wählen Sie **[!UICONTROL Testliste]**.
 
+<!--
 >[!CAUTION]
 >
->Die Berechtigungen zum Anzeigen, Exportieren und Verwalten der Seed-Listen sind auf [Journey-Administratoren](../administration/ootb-product-profiles.md#journey-administrator). Weitere Informationen zur Verwaltung der Zugriffsberechtigungen für [!DNL Journey Optimizer]-Benutzende finden Sie in [diesem Abschnitt](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Um Seed-Listen anzeigen, bearbeiten und verwalten zu können, muss die **[!UICONTROL Auswahlliste verwalten]** -Berechtigung.
 
 ![](assets/seed-list-access.png)
 
