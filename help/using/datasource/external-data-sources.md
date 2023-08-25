@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 95%
 
 ---
 
@@ -91,8 +91,8 @@ Für den Parametersatz „long/lat“ erstellen wir eine Feldergruppe mit den fo
 
 Bei einer GET-Anfrage, die Parameter erfordert, geben Sie die Parameter in das Feld **[!UICONTROL Dynamische Werte]** ein und sie werden automatisch am Ende der Anfrage hinzugefügt. Bei einer POST-Anfrage müssen Sie:
 
-* die bei der Anfrage zu übergebenden Parameter im Feld **[!UICONTROL Dynamische Werte]** auflisten (im Beispiel unten: „identifier“).
-* diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: „param“: „Name Ihres Parameters“ (im folgenden Beispiel: „identifier“). Folgen Sie der Syntax unten:
+* die Parameter auflisten, die beim Aufruf der **[!UICONTROL Dynamische Werte]** -Feld (im Beispiel unten: &quot;identifier&quot;).
+* diese auch mit exakt derselben Syntax im Hauptteil der gesendeten Payload angeben. Dazu müssen Sie Folgendes hinzufügen: &quot;param&quot;: &quot;name of your parameter&quot;(im Beispiel unten: &quot;identifier&quot;). Folgen Sie der Syntax unten:
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,10 @@ Im Folgenden finden Sie ein Beispiel für den Bearer-Authentifizierungstyp:
 
 >[!NOTE]
 >
+>Das Authentifizierungstoken wird pro Journey zwischengespeichert: Wenn zwei Journey dieselbe benutzerdefinierte Aktion verwenden, hat jede Journey ein eigenes Token zwischengespeichert. Dieses Token wird von diesen Journey nicht geteilt.
+>
 >Die Aufbewahrungsfrist im Cache hilft, zu viele Aufrufe an die Authentifizierungsendpunkte zu vermeiden. Die Aufbewahrung des Authentifizierungs-Tokens erfolgt im Cache des entsprechenden Service. Er wird also nicht dauerhaft gespeichert. Wenn ein Service neu gestartet wird, beginnt er mit einem leeren Cache. Die Aufbewahrungsfrist im Cache beträgt standardmäßig 1 Stunde. Sie kann in der benutzerdefinierten Authentifizierungs-Payload angepasst werden, indem eine andere Aufbewahrungsfrist angegeben wird.
+>
 
 Im Folgenden finden Sie ein Beispiel für den Kopfzeilen-Authentifizierungstyp:
 

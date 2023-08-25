@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Konfigurieren einer benutzerdefinierten Aktion
-description: Erfahren Sie, wie Sie eine benutzerdefinierte Aktion konfigurieren können
+title: Verbesserungen bei benutzerdefinierten Aktionen
+description: Weitere Informationen zu den neuesten Verbesserungen bei benutzerdefinierten Aktionen
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 96%
 
 ---
 
-# Verbesserungen bei benutzerdefinierten Aktionen
+# Verbesserungen bei benutzerdefinierten Aktionen {#custom-action-enhancements}
 
 Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journeys basierend auf diesen Antworten orchestrieren.
 
-Diese Funktion war nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
+Diese Funktion war bisher nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Diese Funktion war nur bei Verwendung von Datenquellen verfügbar. Sie können s
 >
 >Benutzerdefinierte Aktionen sollten nur mit privaten oder internen Endpunkten und mit einer entsprechenden Begrenzung oder Drosselung verwendet werden. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
-## Definieren der benutzerdefinierten Aktion
+## Definieren der benutzerdefinierten Aktion {#define-custom-action}
 
 Bei der Definition der benutzerdefinierten Aktion wurden zwei Verbesserungen vorgenommen: die GET-Methode und das neue Payload-Antwortfeld wurden hinzugefügt. Die anderen Optionen und Parameter bleiben unverändert. Weitere Informationen finden Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
-### Endpunktkonfiguration
+### Endpunktkonfiguration {#endpoint-configuration}
 
 Der Abschnitt **URL-Konfiguration** wurde in **Endpunktkonfiguration** umbenannt.
 
@@ -44,7 +42,7 @@ Im Dropdown-Menü **Methode** können Sie jetzt **GET** auswählen.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads
+### Payloads {#payloads-new}
 
 Der Abschnitt **Aktionsparameter** wurde in **Payloads** umbenannt. Es sind zwei Felder verfügbar:
 
@@ -80,7 +78,7 @@ Der Abschnitt **Aktionsparameter** wurde in **Payloads** umbenannt. Es sind zwei
 
 1. Klicken Sie auf **Speichern**.
 
-## Nutzen der Antwort in einer Journey
+## Nutzen der Antwort in einer Journey {#response-in-journey}
 
 Fügen Sie die benutzerdefinierte Aktion einfach einer Journey hinzu. Anschließend können Sie die Felder der Antwort-Payload in Bedingungen, anderen Aktionen und der Nachrichtenpersonalisierung nutzen.
 
@@ -119,7 +117,7 @@ Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepu
 
    ![](assets/action-response11.png)
 
-## Fehlerstatus{#error-status}
+## Fehlerstatus {#error-status}
 
 Das Feld **jo_status_code** ist immer verfügbar, auch wenn keine Antwort-Payload definiert ist.
 
@@ -136,7 +134,7 @@ Ein Aktionsaufruf wird als fehlerhaft betrachtet, wenn der zurückgegebene HTTP-
 >
 >Nur neu erstellte benutzerdefinierte Aktionen enthalten das vordefinierte Feld **jo_status_code**. Wenn Sie sie mit einer vorhandenen benutzerdefinierten Aktion verwenden möchten, müssen Sie die Aktion aktualisieren. Beispielsweise können Sie die Beschreibung aktualisieren und speichern.
 
-## Syntax von Ausdrücken 
+## Syntax von Ausdrücken  {#exp-syntax}
 
 Die Syntax lautet:
 
@@ -160,3 +158,4 @@ Im Folgenden finden Sie einige Beispiele:
 ```
 
 Weitere Informationen zu den Feldverweisen finden Sie in [diesem Abschnitt](../building-journeys/expression/field-references.md).
+

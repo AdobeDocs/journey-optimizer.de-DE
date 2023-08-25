@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '3171'
-ht-degree: 100%
+source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+workflow-type: tm+mt
+source-wordcount: '3206'
+ht-degree: 99%
 
 ---
 
@@ -17,9 +17,11 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## August 2023 {#august-2023}
 
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 23. August wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurde ein neuer Abschnitt zu den Voraussetzungen für Inhaltsexperimente für den Web-Kanal hinzugefügt. [Weitere Informationen](../web/web-prerequisites.md#experiment-prerequisites)
 * Es wurde ein Warnhinweis zur Seite **Arbeiten mit Inhaltsvorlagen** hinzugefügt, um anzugeben, dass Tracking beim Testen von E-Mail-Inhaltsvorlagen derzeit nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../email/content-templates.md#test-template)
 * Es wurden mehrere Warnungen im Abschnitt **Erstellen und Veröffentlichen von Landingpages** hinzugefügt, um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie die bei der Erstellung der Seite definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie die Zustimmung für den Briefpost-Kanal verwaltet wird - [Weitere Informationen](../direct-mail/test-send-direct-mail.md)
 
 ## Juli 2023 {#july-2023}
 
