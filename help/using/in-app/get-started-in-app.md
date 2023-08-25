@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Audience interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
 
-Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen.
+Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen. Sie können In-App-Nachrichten hinzufügen [in einer Kampagne](create-in-app.md) und [in einer Journey](create-in-app-journey.md).
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und send
 <a href="create-in-app.md">
 <img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Erstellen einer In-App-Nachricht</strong>
+<div><a href="create-in-app.md"><strong>In-App-Nachricht in einer Kampagne erstellen</strong>
 </div>
 <p>
 </td>
@@ -57,7 +57,7 @@ Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und send
 <img alt="Validierung" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-App-Bericht</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-App-Bericht aufrufen</strong></a>
 </div>
 <p>
 </td>

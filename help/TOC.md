@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 98%
+source-wordcount: '1427'
+ht-degree: 97%
 
 ---
 
@@ -203,8 +203,8 @@ ht-degree: 98%
       + [Konfigurieren der Oberflächen-Einstellungen von E-Mails](using/email/email-settings.md)
 + In-App-Kanal{#in-app}
    + [Erste Schritte mit dem In-App-Kanal](using/in-app/get-started-in-app.md)
-   + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
-   + [Erstellen einer In-App-Nachricht in einer Journey](using/in-app/create-in-app-journey.md)
+   + [Erstellen einer In-App-Nachricht in einer Kampagne](using/in-app/create-in-app.md)
+   + [In-App-Nachricht in einer Journey erstellen](using/in-app/create-in-app-journey.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
    + [Testen und Senden von In-App-Benachrichtigung](using/in-app/send-in-app.md)
    + [Konfigurieren des In-App-Kanals](using/in-app/inapp-configuration.md)
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [Beispiele für Abfragen](using/data/datasets-query-examples.md)
       + [Integrierte Schemata >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de)
    + [Abfragen](using/data/get-started-queries.md)
-+ Konfiguration{#configuration}
++ Konfiguration {#configuration}
    + [Erste Schritte mit der Konfiguration von Journey Optimizer](using/configuration/get-started-configuration.md)
+   + [Einrichten von Kanaloberflächen](using/configuration/channel-surfaces.md)
    + Delegieren von E-Mail-Subdomains {#delegate-subdomains}
       + [Erste Schritte mit der Zuweisung von Subdomains](using/configuration/about-subdomain-delegation.md)
       + [Delegieren einer Subdomain](using/configuration/delegate-subdomain.md)
       + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
       + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)
       + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
-   + [Einrichten von Kanaloberflächen](using/configuration/channel-surfaces.md)
    + Überwachen von E-Mail-Adressen {#monitor-reputation}
       + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
       + [Weitere Zustellversuche](using/configuration/retries.md)
       + [Zulassungsliste](using/configuration/allow-list.md)
+   + [Testlisten verwenden](using/configuration/seed-lists.md)
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
+   + [Ausführungsadressen ändern](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
-   + [Verwalten von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Integrieren mit externen Systemen {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [Konfigurieren einer Aktion](using/action/about-custom-action-configuration.md)
          + [Integration mit Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrieren mit Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Informationen zu Aktionen](using/action/action-response.md)
+         + [Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen](using/action/action-response.md)
    + [Quellen](using/start/get-started-sources.md)
 + Zugriffskontrolle {#access-control}
    + Zugriffskontrolle – Übersicht {#privacy}
