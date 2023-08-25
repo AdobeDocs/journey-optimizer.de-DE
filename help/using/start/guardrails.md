@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -105,3 +105,19 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen. Sie müssen eine neue Zielgruppe erstellen und eine inaudience-Bedingung in der Journey verwenden.
 
+
+### Einschränkungen bei In-App-Aktivitäten {#in-app-activity-limitations}
+
+* Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
+
+* Personalisierung kann nur Profilattribute enthalten.
+
+* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
+
+* Im Testmodus hängt die Anzeige der App von der Journey-Lebensdauer ab. Um zu verhindern, dass die Journey während des Tests zu früh endet, passen Sie den **[!UICONTROL Wartezeit]**-Wert für Ihre **[!UICONTROL Warten]**-Aktivitäten an.
+
+* **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
+
+* Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
+
+* Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.

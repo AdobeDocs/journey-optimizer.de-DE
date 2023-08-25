@@ -4,7 +4,7 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
 ht-degree: 96%
@@ -38,8 +38,8 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Sie können Ihren App-Benutzern jetzt innerhalb einer Journey personalisierte In-App-Nachrichten senden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>Weitere Informationen finden Sie in der <a href="../in-app/create-in-app-journey.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>Weitere Informationen finden Sie in der <a href="../in-app/create-in-app.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
 </table>

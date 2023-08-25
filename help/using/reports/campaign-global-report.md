@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 100%
+source-wordcount: '2472'
+ht-degree: 94%
 
 ---
 
@@ -219,17 +219,11 @@ Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informatione
 
 * **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzer gesendeten In-App-Nachrichten.
 
-* **[!UICONTROL Klickrate]**: Prozentualer Anteil der Benutzer, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben, im Verhältnis zur Zahl der Benutzer, die die Nachricht gesehen haben.
+* **[!UICONTROL Interaktionsrate]**: Prozentsatz der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
 
-* **[!UICONTROL Abweisungsrate]**: Prozentsatz der In-App-Nachrichten, die von Empfängern abgewiesen wurden.
+Die **[!UICONTROL In-App-Zusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer In-App-Impressionen und -Interaktionen für den betroffenen Zeitraum an.
 
-Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions für den betroffenen Zeitraum an.
-
-Das Diagramm und die Tabelle **[!UICONTROL Klicks nach Schaltfläche]** enthalten die verfügbaren Daten für das Empfängerverhalten je nach Schaltfläche:
-
-* **[!UICONTROL Klicks]**: Gesamtzahl der Empfänger, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben.
-
-* **[!UICONTROL Klickrate]**: Prozentualer Anteil der Benutzer, die mit den in der In-App-Nachricht enthaltenen Schaltflächen interagiert haben, im Verhältnis zur Zahl der Benutzer, die die Nachricht gesehen haben.
+Die **[!UICONTROL Interaktionen nach Typ]** In Diagrammen und Tabellen wird beschrieben, wie Benutzer mit Ihrer In-App-Nachricht interagiert haben, indem sie Klicks, Verwerfungen oder Interaktionen verfolgen.
 +++
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-global}
@@ -354,11 +348,11 @@ Die KPIs der **[!UICONTROL Web-Performance]** enthalten die wichtigsten Informat
 
 * **[!UICONTROL Impressions]**: Gesamtanzahl der für alle Benutzer bereitgestellten Web-Erlebnisse.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Besuchenden, die mit den verschiedenen Elementen auf Ihren Web-Seiten interagiert haben.
+* **[!UICONTROL Interaktionsrate]**: Prozentsatz der Interaktionen mit Ihrer Webseite. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks oder andere Interaktionen.
 
-Das Diagramm **[!UICONTROL Web-Zusammenfassung]** zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressions, eindeutige Impressions und Klicks) für den betroffenen Zeitraum.
+Die **[!UICONTROL Webzusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer Web-Erlebnisse (Impressionen, einzigartige Impressionen und Interaktionen) für den betroffenen Zeitraum an.
 
-Die Tabelle **[!UICONTROL Klicks nach Element]** enthält die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit den verschiedenen Elementen auf Ihren Web-Seiten.
+Die **[!UICONTROL Interaktionen nach Element]** -Tabelle enthält die wichtigsten Informationen zur Interaktion Ihrer Besucher mit den verschiedenen Elementen auf Ihren Webseiten.
 +++
 
 ## Registerkarte „Briefpost“ {#direct-mail-global}

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '209'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 In-App-Nachrichten sind Benachrichtigungen, die an Benutzerinnen und Benutzer in Ihrer App gesendet werden können und sie zu bestimmten Punkten von Interesse führen. Diese Benachrichtigungen können für verschiedene Zwecke verwendet werden, z. B. zur Förderung neuer Funktionen, zur Präsentation von Sonderangeboten oder zur Erleichterung des Onboardings von Benutzenden. Mithilfe von In-App-Nachrichten können Sie effektiv mit Ihrer Audience interagieren und diese auf wichtige Aspekte Ihrer Anwendung lenken.
 
-Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen. Sie können In-App-Nachrichten hinzufügen [in einer Kampagne](create-in-app.md) und [in einer Journey](create-in-app-journey.md).
+Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und Erlebnisoptionen zu konfigurieren, einschließlich des Nachrichten-Layouts und der Anzeige-, Text- und Schaltflächenoptionen.
 
 >[!AVAILABILITY]
 >

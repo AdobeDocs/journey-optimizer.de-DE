@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 100%
+source-wordcount: '2258'
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,7 @@ Die Seite **[!UICONTROL Globaler Bericht]** zur Journey wird mit den folgenden R
 * [E-Mail](#email-global)
 * [Push-Benachrichtigung](#push-global)
 * [SMS](#sms-global)
+* [In-App](#in-app-global)
 
 Der **[!UICONTROL globale Bericht]** zur Journey ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihrer Journey detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen 
 
 Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
 
++++
+
+## Registerkarte „In-App“ {#in-app-global}
+
+Im **[!UICONTROL globalen Bericht]** Ihrer Journey finden Sie auf der Registerkarte **[!UICONTROL In-App]** die wichtigsten Informationen zu den In-App-Sendungen, die in Ihren Journeys versendet wurden.
+
+![](assets/in-app-journey-report.png)
+
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
+
+Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+
+* **[!UICONTROL Einzelimpressionen]**: Anzahl der Unique Users, für die die In-App-Nachricht angezeigt wurde.
+
+* **[!UICONTROL Impressionen]**: Gesamtzahl der In-App-Nachrichten, die allen Benutzern angezeigt werden.
+
+  >[!NOTE]
+  >
+  >Um sicherzustellen, dass eine Impression gezählt wird, muss der Benutzer zwei Kriterien erfüllen:
+  >* Qualifizierung innerhalb des In-App-Erlebnisses, das durch Erreichen der spezifischen In-App-Aktivität auf seiner Journey erreicht wird.
+  >* Erfüllung der in den Regeln des Triggers festgelegten Bedingungen.
+  > 
+  >Aufgrund des zweiten Kriteriums kann es erhebliche Unterschiede zwischen der Anzahl der Zielgruppenprofile und der Anzahl der individuellen Impressionen geben.
+
+* **[!UICONTROL Interaktionsrate]**: Prozentsatz der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
+
+Die **[!UICONTROL In-App-Zusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer In-App-Impressionen und -Interaktionen für den betroffenen Zeitraum an.
+
+Die **[!UICONTROL Interaktionen nach Typ]** In Diagrammen und Tabellen wird beschrieben, wie Benutzer mit Ihrer In-App-Nachricht interagiert haben, indem sie Klicks, Verwerfungen oder Interaktionen verfolgen.
 +++

@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 94%
+source-wordcount: '587'
+ht-degree: 92%
 
 ---
 
@@ -60,20 +62,6 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht zu einer Journey hinzuzufügen
 1. Sobald Ihre In-App-Nachricht fertig ist, schließen Sie die Konfiguration ab und veröffentlichen Sie Ihre Journey, um sie zu aktivieren.
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
-
-## Einschränkungen bei In-App-Aktivitäten {#in-app-activity-limitations}
-
-* Diese Funktion ist derzeit nicht für Kundinnen und Kunden im Gesundheitswesen verfügbar.
-
-* Personalisierung kann nur Profilattribute enthalten.
-
-* Die In-App-Anzeige ist an die Journey-Lebensdauer gebunden, d. h. wenn die Journey für ein Profil endet, werden alle In-App-Nachrichten innerhalb dieser Journey nicht mehr für dieses Profil angezeigt.  Daher ist es nicht möglich, eine In-App-Nachricht direkt von einer Journey-Aktivität aus zu stoppen. Stattdessen müssen Sie die gesamte Journey beenden, um zu verhindern, dass die In-App-Nachrichten dem Profil angezeigt werden.
-
-* Im Testmodus hängt die Anzeige der App von der Journey-Lebensdauer ab. Um zu verhindern, dass die Journey während des Tests zu früh endet, passen Sie den **[!UICONTROL Wartezeit]**-Wert für Ihre **[!UICONTROL Warten]**-Aktivitäten an.
-
-* **[!UICONTROL Reaktion]**-Aktivitäten können nicht verwendet werden, um auf ein Öffnen oder Klicken in der App zu reagieren.
-
-* Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
 
 ## In-App-Bericht {#inapp-report}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 100%
+source-wordcount: '1285'
+ht-degree: 95%
 
 ---
 
@@ -185,4 +185,22 @@ Das Diagramm **[!UICONTROL SMS-Zusammenfassung]** zeigt den Erfolg Ihres Versand
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
 In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen Sie, welche Fehler und Ausschlüsse während des Versands aufgetreten sind.
++++
+
+## Registerkarte „In-App“ {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
+
+Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+
+* **[!UICONTROL Impressions]**: Gesamtzahl der an alle Benutzer gesendeten In-App-Nachrichten.
+
+* **[!UICONTROL Interaktionen]**: Gesamtzahl der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
+
+Die **[!UICONTROL In-App-Zusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer In-App-Impressionen und -Interaktionen für den betroffenen Zeitraum an.
+
+Die **[!UICONTROL Interaktionen nach Typ]** In Diagrammen und Tabellen wird beschrieben, wie Benutzer mit Ihrer In-App-Nachricht interagiert haben, indem sie Klicks, Verwerfungen oder Interaktionen verfolgen.
+
 +++
