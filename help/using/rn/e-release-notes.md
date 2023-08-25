@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 45%
+ht-degree: 76%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 45%
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise für August 2023 {#aug-rn-2023}
+## Frühzeitige Versionshinweise August 2023 {#aug-rn-2023}
 
-**Veröffentlichungsdatum**: 23.-24. August 2023
+**Veröffentlichungsdatum**: 23.-24. August 2023
 
 ### Neue Funktionen{#aug-2023-features}
 
@@ -29,13 +29,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>In-App-Nachrichten in Ihren Journey senden</strong><br/></th>
+<th><strong>Senden von In-App-Nachrichten in Ihren Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können Ihren App-Benutzern jetzt innerhalb einer Journey personalisierte In-App-Nachrichten senden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
+<p>Es können nun innerhalb einer Journey personalisierte In-App-Nachrichten an Benutzende Ihrer App gesendet werden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
 <img src="assets/in_app_journey_1.png"/>
 <p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p>
 </tr>
@@ -46,13 +46,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>E-Mails mit Seed-Listen validieren</strong><br/></th>
+<th><strong>Validieren von E-Mails mit Testadressenlisten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
+<p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -91,7 +91,7 @@ Eine neue API zum Erstellen und Verwalten von Inhaltsfragmenten ist jetzt verfü
 
 **E-Mail-Kanal**
 
-In den E-Mail-Oberflächeneinstellungen ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Kennwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
+In den Einstellungen für die E-Mail-Oberfläche ist eine neue Option verfügbar, mit der E-Mail-Adressen eingeschlossen werden, die aufgrund von Spam-Beschwerden in Zielgruppen mit Transaktionsnachrichten unterdrückt wurden. Selbst wenn Marketing-Nachrichten als Spam gekennzeichnet wurden, können diese Profile Transaktionsnachrichten wie Passwortzurücksetzung oder Kontoauszüge erhalten. Standardmäßig ist diese Option deaktiviert.
 
 **Journeys**
 

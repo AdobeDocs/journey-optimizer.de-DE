@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>In-App-Nachrichten in Ihren Journey senden</strong><br/></th>
+<th><strong>Senden von In-App-Nachrichten in Ihren Journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können Ihren App-Benutzern jetzt innerhalb einer Journey personalisierte In-App-Nachrichten senden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
+<p>Es können nun innerhalb einer Journey personalisierte In-App-Nachrichten an Benutzende Ihrer App gesendet werden. Mit Journey Optimizer können Benachrichtigungen entworfen und das Nachrichten-Layout, die Anzeige, der Text und die Schaltflächen angepasst werden, um ein nahtloses Erlebnis zu schaffen.</p>
 <img src="assets/do-not-localize/in-app-GA.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../in-app/create-in-app.md">ausführlichen Dokumentation</a>.</p>
 </tr>
@@ -48,13 +48,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>E-Mails mit Seed-Listen validieren</strong><br/></th>
+<th><strong>Validieren von E-Mails mit Testadressenlisten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in Journey Optimizer Testlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
+<p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Weitere Informationen finden Sie in der <a href="../configuration/seed-lists.md">ausführlichen Dokumentation</a>.</p>
 </td>
