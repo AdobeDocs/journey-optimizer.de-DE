@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 96%
+source-wordcount: '1134'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ Sie können eine In-App-Nachricht zu einer Kampagne oder einem Journey hinzufüg
 >[!BEGINTABS]
 
 >[!TAB Hinzufügen einer In-App-Nachricht zu einer Journey]
+
+Gehen Sie wie folgt vor, um eine In-App-Nachricht zu einer Journey hinzuzufügen:
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
