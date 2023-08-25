@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
 workflow-type: tm+mt
-source-wordcount: '3206'
-ht-degree: 99%
+source-wordcount: '3279'
+ht-degree: 97%
 
 ---
 
@@ -18,10 +18,15 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 ## August 2023 {#august-2023}
 
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version vom 23. August wurden in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Der Hinweis zu **Verwaltung des Authentifizierungs-Cache** in Journey wurde aktualisiert, um detailliert zu zeigen, dass das Token nicht von verschiedenen Journey freigegeben wird. [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-mode)
+* Die Seite zum Journey **Eintragsverwaltung** wurde aktualisiert, um das Verhalten zu verdeutlichen. [Weitere Informationen](../building-journeys/entry-management.md)
+* Offer decisioning **Datensätze exportieren** sind jetzt standardmäßig aktiviert. Der Hinweis zum vorherigen Verhalten wurde entfernt.  [Weitere Informationen](../offers/export-catalog/get-started-export.md)
+* Verschiedene **Kampagnenberichtsmetriken** wurden sowohl in den Live- als auch in den Global-Berichten umbenannt. [Weitere Informationen](../reports/campaign-global-report.md)
 * Es wurde ein neuer Abschnitt zu den Voraussetzungen für Inhaltsexperimente für den Web-Kanal hinzugefügt. [Weitere Informationen](../web/web-prerequisites.md#experiment-prerequisites)
 * Es wurde ein Warnhinweis zur Seite **Arbeiten mit Inhaltsvorlagen** hinzugefügt, um anzugeben, dass Tracking beim Testen von E-Mail-Inhaltsvorlagen derzeit nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../email/content-templates.md#test-template)
 * Es wurden mehrere Warnungen im Abschnitt **Erstellen und Veröffentlichen von Landingpages** hinzugefügt, um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie die bei der Erstellung der Seite definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
-* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie die Zustimmung für den Briefpost-Kanal verwaltet wird - [Weitere Informationen](../direct-mail/test-send-direct-mail.md)
+* Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie **Einverständnis verwalten** für den Briefpost-Kanal. [Weitere Informationen](../direct-mail/test-send-direct-mail.md)
+
 
 ## Juli 2023 {#july-2023}
 
