@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 92%
 
 ---
 
@@ -32,12 +32,12 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. API-ausgelöste Kampagnen zielen auf den Versand von transaktionalen Nachrichten ab, d. h. Nachrichten, die nach einer von einem Kontakt durchgeführten Aktion verschickt werden: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw."
+>abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. Sie dienen dem Versand von Marketing-Nachrichten (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder Transaktionsnachrichten (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Wählen Sie für API-ausgelöste Kampagnen aus, ob Sie eine Nachricht des Typs **Marketing** oder **Transaktion** senden möchten. Beim Typ „Transaktion“ handelt es sich um eine Nachricht, die aufgrund einer von einem Kontakt durchgeführten Aktion gesendet wird: Zurücksetzen des Passworts, Verlassen des Warenkorbs usw."
+>abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Wählen Sie für API-gesteuerte Kampagnen aus, ob Sie eine **Marketing** message (Werbenachricht, die die Zustimmung des Benutzers erfordert) oder **transactional** Nachricht (nicht kommerzielle Nachricht, die auch in bestimmten Kontexten an abgemeldete Profile gesendet werden kann)."
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 
