@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 93%
+source-wordcount: '2257'
+ht-degree: 91%
 
 ---
 
@@ -286,7 +286,7 @@ Das Widget **[!UICONTROL SMS-Zusammenfassung]** präsentiert die wichtigsten Inf
 
 In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen Sie, welche Fehler und Ausschlüsse während des Versands aufgetreten sind.
 
-Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
+Die **[!UICONTROL SMS - Klicks nach Links]** und **[!UICONTROL SMS - Trackingstatistiken]** Widgets beschreiben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren URLs.
 
 +++
 
@@ -298,7 +298,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Journey finden Sie auf der Registerka
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+Die **[!UICONTROL In-App-Leistung]** In KPIs werden die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten beschrieben, z. B.:
 
 * **[!UICONTROL Einzelimpressionen]**: Anzahl der Unique Users, für die die In-App-Nachricht angezeigt wurde.
 
@@ -312,7 +312,7 @@ Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informatione
   > 
   >Aufgrund des zweiten Kriteriums kann es erhebliche Unterschiede zwischen der Anzahl der Zielgruppenprofile und der Anzahl der individuellen Impressionen geben.
 
-* **[!UICONTROL Interaktionsrate]**: Prozentsatz der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
+* **[!UICONTROL Interaction]**: Anzahl der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzern durchgeführten Aktionen, wie z. B. Klicks, Abweisungen oder andere Interaktionen.
 
 Die **[!UICONTROL In-App-Zusammenfassung]** -Diagramm zeigt die Entwicklung Ihrer In-App-Impressionen und -Interaktionen für den betroffenen Zeitraum an.
 
