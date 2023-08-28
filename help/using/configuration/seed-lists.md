@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Testliste, Testliste, Testadressen, Konfiguration
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '947'
 ht-degree: 11%
 
 ---
@@ -22,6 +22,8 @@ Testadressen in [!DNL Journey Optimizer] Sie können automatisch bestimmte Testa
 >[!CAUTION]
 >
 >Diese Funktion gilt derzeit nur für den E-Mail-Kanal.
+>
+>Varianten werden derzeit nicht unterstützt. Wie jedes Profil aus der Zielgruppe erhalten die Testadressen eine einzige Kopie der Nachricht und nicht alle Varianten (z. B. die unterschiedlichen Behandlungen einer [Inhaltsexperiment](../campaigns/get-started-experiment.md)).
 
 Testadressen ermöglichen den Versand an Empfänger, die nicht den vorliegenden Zielgruppenkriterien entsprechen. Auf diese Weise können Empfänger, die außerhalb des Versandperimeters liegen, die Nachricht so wie jeder andere Empfänger innerhalb der Zielgruppe erhalten.
 
