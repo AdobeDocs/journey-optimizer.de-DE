@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -146,7 +146,7 @@ Sie haben beispielsweise zwei Sammlungen – eine im Auswertungskriterium A und 
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Werden die beiden Sammlungen **gleichzeitig ausgewertet**, da es zwei geeignete Angebote für Auswertungskriterium A und drei geeignete Angebote für Auswertungskriterium B gibt, werden alle fünf Angebote anhand des von den jeweiligen Ranking-Methoden ermittelten Wertes zusammen gestapelt. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
+* Wenn die beiden Sammlungen **gleichzeitig ausgewertet** Da es aus den Bewertungskriterien A zwei infrage kommende Angebote und aus den Bewertungskriterien B drei infrage kommende Angebote gibt, werden die fünf Angebote alle auf der Grundlage des durch die jeweiligen Ranking-Methoden bestimmten Werts geordnet. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
 
   ![](../assets/activity_same-rank-collections.png)
 
