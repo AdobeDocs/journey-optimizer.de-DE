@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,10 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
    >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
 
 1. Rufen Sie dann das Menü **[!UICONTROL App-Oberflächen]** auf und klicken Sie auf **[!UICONTROL App-Oberfläche erstellen]**.
+
+   >[!NOTE]
+   >
+   > Sie benötigen die Berechtigung **App-Konfiguration verwalten**, um Zugriff auf das Menü **[!UICONTROL Programmoberflächen]** zu haben. Weiterführende Informationen finden Sie in [diesem Video](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ Der In-App-Kanal ist jetzt konfiguriert. Sie können nun mit dem Versand von In-
 
 * Im folgenden Video erfahren Sie, wie Sie die Berechtigung **App-Konfiguration verwalten** zuweisen, um auf das Menü „Programmoberflächen“ zuzugreifen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++Siehe Video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
