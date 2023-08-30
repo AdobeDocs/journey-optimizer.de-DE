@@ -8,10 +8,10 @@ role: User, Developer
 level: Experienced
 keywords: Journey, Datenquellen, Limit, Durchsatz, benutzerdefiniert, Aktionen
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
-workflow-type: ht
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Weiterführende Informationen zur Integration in externe Systeme finden Sie auf 
 
 ## Implementierung
 
-Bei **durch Zielgruppen ausgelösten Journeys** können Sie die Einschränkungsrate der Aktivität „Zielgruppe lesen“ definieren, die sich auf den Journey-Durchsatz auswirkt. [Weitere Informationen](../building-journeys/read-audience.md)
+Für **zielgruppengesteuerte Journey** können Sie die Leserate Ihrer Audience lesen -Aktivität definieren, die sich auf den Journey-Durchsatz auswirkt. [Weitere Informationen](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
