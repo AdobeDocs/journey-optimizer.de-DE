@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1967'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -182,33 +182,33 @@ Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse s
 
 Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
-## Testliste {#seed-list}
+## Testadressenliste {#seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Testliste hinzufügen"
->abstract="Wählen Sie die Testliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Zeitpunkt der Ausführung des Versands hinzugefügt und erhalten aus Sicherheitsgründen eine exakte Kopie der Nachricht."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Was sind Seed-Listen?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Testlisten erstellen"
+>title="Testadressenliste hinzufügen"
+>abstract="Wählen Sie die Testadressenliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#create-seed-list" text="Erstellen einer Testadressenliste"
 
 
-Eine Testliste in [!DNL Journey Optimizer] ermöglicht Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
+Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
->Diese Funktion gilt derzeit nur für den E-Mail-Kanal.
+>Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 
-Wählen Sie die Liste aus, die für Sie relevant ist im **[!UICONTROL Testliste]** Abschnitt. Erfahren Sie, wie Sie eine Seed-Liste in [diesem Abschnitt](../configuration/seed-lists.md#create-seed-list).
+Wählen Sie die Liste, die für Sie relevant ist, im Abschnitt **[!UICONTROL Testadressenliste]** aus. In [diesem Abschnitt](../configuration/seed-lists.md#create-seed-list) erfahren Sie, wie Sie eine Testadressenliste erstellen.
 
 ![](../configuration/assets/seed-list-surface.png)
 
 >[!NOTE]
 >
->Es kann jeweils nur eine Testliste ausgewählt werden.
+>Es kann jeweils nur eine Testadressenliste ausgewählt werden.
 
-Wenn die aktuelle Oberfläche in einer Kampagne oder einer Journey verwendet wird, werden die E-Mail-Adressen in der ausgewählten Testliste zum Zeitpunkt der Versandausführung einbezogen, d. h. sie erhalten eine Kopie des Versands zu Sicherheitszwecken.
+Wenn die aktuelle Oberfläche in einer Kampagne oder einer Journey verwendet wird, werden zum Zeitpunkt der Versandausführung die E-Mail-Adressen in der ausgewählten Testadressenliste einbezogen, d. h. sie erhalten zu Sicherheitszwecken eine Kopie des Versands.
 
-Erfahren Sie, wie Sie eine Testliste in einer Kampagne oder einer Journey in [diesem Abschnitt](../configuration/seed-lists.md#use-seed-list).
+In [diesem Abschnitt](../configuration/seed-lists.md#use-seed-list) erfahren Sie, wie Sie eine Testadressenliste in einer Kampagne oder einer Journey verwenden.
 
 ## E-Mail-Wiederholungsparameter {#email-retry}
 
