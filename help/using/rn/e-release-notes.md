@@ -6,9 +6,9 @@ description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testliste besteht aus internen Adressen, die zu Ihrer eigentlichen Audience hinzugefügt werden können und genau die gleiche Nachricht wie die Zielgruppenprofile zum Zeitpunkt der Versandausführung erhalten. Mit dieser Funktion können Sie die gesendeten Nachrichten überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
+<p>Sie können in Journey Optimizer jetzt Testadressenlisten erstellen und verwalten. Eine Testadressenliste besteht aus internen Adressen, die zu Ihrer eigentlichen Zielgruppe hinzugefügt werden können und zum Zeitpunkt der Versandausführung genau die gleiche Nachricht wie die angesprochenen Profile erhalten. Mit dieser Funktion können Sie die gesendeten Kommunikationen überwachen und sicherstellen, dass alle Anzeigeformate, URLs, Bilder und Links korrekt sind.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -102,5 +102,5 @@ In den Einstellungen für die E-Mail-Oberfläche ist eine neue Option verfügbar
 
 **Briefpost**
 
-* Azure kann jetzt in der Konfiguration des Datei-Routing als Servertyp ausgewählt werden.
-* In den Einstellungen für die Briefpost-Oberfläche ist jetzt Ampersand als Spaltentrennfeld verfügbar.
+* Azure kann jetzt in der Konfiguration des Datei-Routings als Server-Typ ausgewählt werden.
+* In den Einstellungen für die Briefpost-Oberfläche ist jetzt das kaufmännische Und-Zeichen als Spaltentrennfeld verfügbar.
