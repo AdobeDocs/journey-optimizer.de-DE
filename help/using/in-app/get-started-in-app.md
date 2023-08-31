@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vor dem Senden von In-App-Nachrichten müssen Sie Folgendes tun:
 
 * Konfigurieren Sie den In-App-Kanal. [Weitere Informationen](inapp-configuration.md)
 
-* Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, auch wenn Sie nur In-App-Nachrichten in Journey verwenden möchten. Kampagnenberechtigungen sind weiterhin erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Vergewissern Sie sich, dass Sie über die richtigen Berechtigungen für Journey Optimizer-Kampagnen verfügen, bevor Sie beginnen, selbst wenn Sie nur In-App-Nachrichten in Journeys verwenden möchten. Kampagnenberechtigungen sind nach wie vor erforderlich. [Weitere Informationen](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und senden. Wie Sie dies tun können, erfahren Sie in [diesem Abschnitt](create-in-app.md).
 
@@ -57,7 +57,7 @@ Danach können Sie Ihre erste In-App-Nachricht erstellen, konfigurieren und send
 <img alt="Validierung" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-App-Bericht aufrufen</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Aufrufen des In-App-Berichts</strong></a>
 </div>
 <p>
 </td>
