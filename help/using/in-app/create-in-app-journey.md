@@ -1,6 +1,6 @@
 ---
-title: In-App-Benachrichtigung in einer Journey erstellen
-description: Erfahren Sie, wie Sie eine In-App-Nachricht zu einer Journey hinzufügen
+title: Erstellen einer In-App-Benachrichtigung in einer Journey
+description: Erfahren Sie, wie Sie eine In-App-Nachricht in einer Journey hinzufügen können
 feature: Overview
 topic: Content Management
 role: User
@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Erstellen einer In-App-Nachricht in einer Journey {#create-in-app-journey}
 
-Gehen Sie wie folgt vor, um eine In-App-Nachricht zu einer Journey hinzuzufügen:
+Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen:
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
@@ -73,7 +73,7 @@ Erfahren Sie mehr über den [globalen Bericht zur Journey](../reports/journey-gl
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die **[!UICONTROL In-App-Leistung]** In KPIs werden die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten beschrieben, z. B.:
+Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
 
 * **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Nutzer, an die die In-App-Nachricht gesendet wurde.
 
