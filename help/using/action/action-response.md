@@ -10,9 +10,9 @@ level: Experienced
 badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journeys basierend auf diesen Antworten orchestrieren.
 
-Diese Funktion war bisher nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
+Diese Funktion war bislang nur bei Verwendung von Datenquellen verfügbar. Sie können sie jetzt mit benutzerdefinierten Aktionen verwenden.
 
 >[!AVAILABILITY]
 >
