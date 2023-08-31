@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können
 
 Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, wird das Feld **Wartezeit bis zum erneuten Eintritt** angezeigt. In diesem Feld kann die Wartezeit definiert werden, bevor es einem Profil erlaubt wird, in unitären Journeys erneut in die Journey einzutreten (beginnend mit einem Ereignis oder einer Zielgruppen-Qualifizierung). Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt.
 
-Erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen in [diesem Abschnitt](entry-management.md).
+In [diesem Abschnitt](entry-management.md) erfahren Sie mehr über die Verwaltung des Eintritts und Wiedereintritts von Profilen.
 
 ### Verwalten des Zugriffs {#access}
 
@@ -173,16 +173,16 @@ Aufgrund der maximalen Journey-Wartezeit von 30 Tagen können wir, wenn der ern
 
 Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch genügend Zeit hat, um die Wartezeit vor Ablauf der 30-tägigen maximalen Wartezeit der Journey zu erfüllen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/wait-activity.md).
 
-## Journey duplizieren {#duplicate-a-journey}
+## Duplizieren einer Journey {#duplicate-a-journey}
 
-Sie können eine vorhandene Journey aus der **Durchsuchen** Registerkarte. Alle Objekte und Einstellungen werden auf die Journey-Kopie dupliziert.
+Sie können eine vorhandene Journey über die Registerkarte **Durchsuchen** duplizieren. Alle Objekte und Einstellungen werden in der Journey-Kopie dupliziert.
 
 Gehen Sie dazu wie folgt vor:
 
-1. Navigieren Sie zu der Journey, die Sie kopieren möchten, und klicken Sie auf die **Mehr Aktionen** -Symbol (die drei Punkte neben dem Journey-Namen).
+1. Navigieren Sie zu der Journey, die Sie kopieren möchten, und klicken Sie auf das Symbol **Mehr Aktionen** (die drei Punkte neben dem Journey-Namen).
 1. Wählen Sie **Duplizieren** aus.
 
-   ![Journey duplizieren](assets/duplicate-jo.png)
+   ![Duplizieren einer Journey](assets/duplicate-jo.png)
 
 <!--1. Enter the name of the journey and confirm. 
 
