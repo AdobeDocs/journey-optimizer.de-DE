@@ -10,9 +10,9 @@ level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhaltsexperiment"
->abstract="Sie können den Nachrichteninhalt, den Betreff oder den Absender variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen."
+>abstract="Sie können den Inhalt der Nachricht, den Betreff oder den Absender ändern, um mehrfache Abwandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu ermitteln."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 >title="Erfolgsmetrik"
 >abstract="Die Erfolgsmetrik wird verwendet, um die Behandlung mit der besten Leistung in einem Experiment zu verfolgen und zu bewerten. Richten Sie Ihren Datensatz für bestimmte Metriken ein, bevor Sie ihn verwenden."
 
-1. Wenn Ihre Nachricht personalisiert wurde, klicken Sie auf der Seite mit der Kampagnenzusammenfassung auf **[!UICONTROL Experiment erstellen]** , um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
+1. Wenn Ihre Nachricht personalisiert ist, klicken Sie auf der Übersichtsseite der Kampagne auf **[!UICONTROL Experiment erstellen]**, um mit der Konfiguration Ihres Inhaltsexperiments zu beginnen.
 
    ![](assets/content_experiment_3.png)
 
 1. Wählen Sie die **[!UICONTROL Erfolgsmetrik]**, die Sie für Ihr Experiment festlegen möchten.
 
-   Wählen Sie für dieses Beispiel **[!UICONTROL Email open]** , um zu testen, ob Profile ihre E-Mails öffnen, wenn sich der Angebotscode in der Betreffzeile befindet.
+   Für unser Experiment wählen wir **[!UICONTROL E-Mail-Öffnung]**, um zu testen, ob Empfängerinnen und Empfänger ihre E-Mails öffnen, wenn sich der Promo-Code in der Betreffzeile befindet.
 
    ![](assets/content_experiment_11.png)
 
@@ -153,7 +153,7 @@ Das Ziel besteht nun darin zu beobachten, welche Empfänger mit welcher E-Mail-V
 
 1. Sobald Sie den Inhalt Ihrer Nachricht definiert haben, klicken Sie auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**, um das Rendering Ihres Versands zu kontrollieren und die Personalisierungseinstellungen mit Testprofilen zu überprüfen. [Weitere Informationen](../email/preview.md)
 
-1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf der Seite mit der Kampagnenübersicht auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Warnhinweise werden angezeigt, wenn Parameter falsch sind oder fehlen.
+1. Wenn Ihr Inhaltsexperiment fertig ist, können Sie auf der Seite mit der Kampagnenübersicht auf **[!UICONTROL Zum Aktivieren überprüfen]** klicken, um eine Zusammenfassung der Kampagne anzuzeigen. Es werden Warnhinweise angezeigt, wenn Parameter falsch sind oder fehlen.
 
    ![](assets/content_experiment_15.png)
 
