@@ -8,9 +8,9 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Datei-Routing-Konfiguration"
 >abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Audience generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Erstellen einer Briefpostnachricht"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=de" text="Erstellen einer Briefpostnachricht"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -133,7 +133,7 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
 
 1. Wählen Sie das Dateiformat aus: **[!UICONTROL CSV]** oder **[!UICONTROL Text mit Trennzeichen]**.
 
-1. Wenn Sie **[!UICONTROL Textgetrennt]**, definieren Sie das Spaltentrennzeichen Ihrer Wahl: Tabellenzeile, Semikolon, Strich oder Und-Zeichen.
+1. Wenn Sie **[!UICONTROL Text mit Trennzeichen]** auswählen, definieren Sie das Spaltentrennzeichen Ihrer Wahl: Tabulator, Semikolon, senkrechter Strich oder kaufmännisches Und-Zeichen.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
