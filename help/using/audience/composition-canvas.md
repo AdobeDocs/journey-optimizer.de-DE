@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 100%
+source-wordcount: '1482'
+ht-degree: 93%
 
 ---
 
@@ -116,9 +116,13 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 
   Wählen Sie das zu suchende Attribut aus und geben Sie dann den auszuschließenden Wert an. In diesem Beispiel schließen wir Profile mit einer Wohnadresse in Japan von der Komposition aus.
 
+  >[!NOTE]
+  >
+  >Es kann nur ein Ausschlusswert angegeben werden.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Anreichern {#enrich}
+### Aktivität „Anreichern“ {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Es stehen zwei Arten von Split-Operationen zur Verfügung:
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >Die Option **[!UICONTROL Andere Profile]** ermöglicht Ihnen, einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
+  So konfigurieren Sie eine attributbasierte Aufspaltungsaktivität:
+
+   1. auf die Schaltfläche neben **[!UICONTROL Attribut]** -Feld, um das Attribut auszuwählen, das als Kriterium ausgewählt werden soll.
+   1. Fügen Sie so viele Pfade wie gewünscht hinzu und geben Sie dann für jeden Pfad eine Beschriftung und den Wert an, die zur Auswahl der Profile verwendet werden sollen, die in den Pfad aufgenommen werden sollen.
+
+      >[!NOTE]
+      >
+      >Für jeden Pfad kann nur ein Wert angegeben werden.
+
+   1. Ein-/Ausschalten der **[!UICONTROL Andere Profile]** -Option, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
 
 ## Speichern Ihrer Audiences {#save}
 
