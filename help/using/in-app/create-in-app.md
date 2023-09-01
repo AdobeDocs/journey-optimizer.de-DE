@@ -1,5 +1,5 @@
 ---
-title: In-App-Benachrichtigung in Journey Optimizer erstellen
+title: Erstellen einer In-App-Benachrichtigung in Journey Optimizer
 description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht
 feature: Overview
 topic: Content Management
@@ -10,19 +10,19 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
 # Erstellen einer In-App-Nachricht {#create-in-app}
 
-Sie können eine In-App-Nachricht zu einer Kampagne oder einem Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
+Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
 
 >[!BEGINTABS]
 
 >[!TAB Hinzufügen einer In-App-Nachricht zu einer Journey]
 
-Gehen Sie wie folgt vor, um eine In-App-Nachricht zu einer Journey hinzuzufügen:
+Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen:
 
 1. Öffnen Sie Ihre Journey und ziehen Sie eine **[!UICONTROL In-App]**-Aktivität per Drag-and-Drop aus dem Bereich **[!UICONTROL Aktionen]** der Palette.
 
@@ -114,7 +114,7 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 >[!TAB Hinzufügen einer In-App-Nachricht zu einer Kampagne]
 
-Gehen Sie wie folgt vor, um einer Kampagne eine In-App-Nachricht hinzuzufügen:
+Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufügen:
 
 1. Rufen Sie das Menü **[!UICONTROL Kampagnen]** auf und klicken Sie auf **[!UICONTROL Kampagne erstellen]**.
 

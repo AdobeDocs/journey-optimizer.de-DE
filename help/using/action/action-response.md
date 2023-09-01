@@ -10,7 +10,7 @@ level: Experienced
 badge: label="Beta" type="Informative"
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 

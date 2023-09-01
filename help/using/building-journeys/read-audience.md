@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ Die Segmentierung kann basieren auf:
 * Daten aus Datenquellen
 * Kontext von Ereignissen, die Teil der Journey-Daten sind – Beispiel: Hat eine Person auf die Nachricht geklickt, die sie vor einer Stunde erhalten hat?
 * Datum – Beispiel: Sind wir im Juni, wenn eine Person durch die Journey navigiert?
-* Zeit, zum Beispiel: Ist es Morgen in der Zeitzone der Person?
+* Tageszeit – Beispiel: Ist es in der Zeitzone der Person morgens?
 * Algorithmus, der die in die Journey geführte Audience auf der Basis eines Prozentsatzes aufteilt – Beispiel: 90 % - 10 % für den Ausschluss einer Kontrollgruppe
 
 ![](assets/read-segment-audience1.png)
