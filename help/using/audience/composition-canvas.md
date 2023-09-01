@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 93%
 
 ---
@@ -224,10 +224,10 @@ Es stehen zwei Arten von Split-Operationen zur Verfügung:
 
   ![](assets/audiences-split.png)
 
-  So konfigurieren Sie eine attributbasierte Aufspaltungsaktivität:
+  Gehen Sie wie folgt vor, um eine attributbasierte Aufspaltungsaktivität einzurichten:
 
-   1. auf die Schaltfläche neben **[!UICONTROL Attribut]** -Feld, um das Attribut auszuwählen, das als Kriterium ausgewählt werden soll.
-   1. Fügen Sie so viele Pfade wie gewünscht hinzu und geben Sie dann für jeden Pfad eine Beschriftung und den Wert an, die zur Auswahl der Profile verwendet werden sollen, die in den Pfad aufgenommen werden sollen.
+   1. Klicken Sie auf die Schaltfläche neben **[!UICONTROL Attribut]** -Feld, um das Attribut auszuwählen, das als Aufspaltungskriterium verwendet werden soll.
+   1. Fügen Sie so viele Pfade wie nötig hinzu. Geben Sie für jeden Pfad einen Titel an und geben Sie den Wert an, der verwendet wird, um zu bestimmen, welche Profile in diesen Pfad aufgenommen werden sollen.
 
       >[!NOTE]
       >
