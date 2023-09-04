@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ In diesem Abschnitt können Sie Ihre Datenschutzverwaltung und -anfragen steuern
 
 * **[!UICONTROL Richtlinien]** – Adobe Experience Platform ermöglicht es Ihnen, Ihre Felder mit Bezeichnungen zu versehen und Marketing-Aktionen für jeden Kanal zu erstellen. Anschließend definieren Sie eine Governance-Richtlinie, die mit einer Bezeichnung und einer Marketing-Aktion verknüpft ist. [Weitere Informationen](../action/action-privacy.md)
 
-* **[!UICONTROL Anfragen]** – Datenschutzanfragen werden im Adobe Experience Platform Privacy Service verwaltet. Dieser bietet eine RESTful-API und eine Benutzeroberfläche, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. [Weitere Informationen](../privacy/requests.md)
+* **[!UICONTROL Anforderungen]** - Datenschutzanfragen werden in der Adobe Experience Platform Privacy Service verwaltet. Dieser bietet eine RESTful-API und eine Benutzeroberfläche, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. [Weitere Informationen](../privacy/requests.md)
 
 * **[!UICONTROL Audit]** – Navigieren Sie zu diesem Abschnitt, um die Aktivitätsprotokolle zu überprüfen. [Weitere Informationen](../privacy/audit-logs.md)
 
