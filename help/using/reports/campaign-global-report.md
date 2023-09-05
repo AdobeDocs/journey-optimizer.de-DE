@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 100%
+source-wordcount: '2466'
+ht-degree: 98%
 
 ---
 
@@ -145,9 +145,9 @@ Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versand
 
 Das Widget **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügbaren Daten zur Empfängeraktivität für Ihren Versand:
 
-* **[!UICONTROL Öffnungen]**: Gibt die Zahl der Öffnungen eines Versands an.
+* **[!UICONTROL Öffnungen]**: Gibt an, wie oft die E-Mail geöffnet wurde.
 
-* **[!UICONTROL Eindeutige Öffnungen]**: Prozentsatz der geöffneten zugestellten Nachrichten.
+* **[!UICONTROL Einzelöffnungen]**: Prozentsatz der geöffneten E-Mails.
 
 * **[!UICONTROL Öffnungsrate]**: Gesamtzahl der geöffneten Nachrichten im Vergleich zu den versendeten E-Mails.
 
@@ -196,7 +196,9 @@ Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabell
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für den Versand.
-* **[!UICONTROL Öffnungen]**: Gibt an, wie oft die Sendung in einem Versand geöffnet wurde.
+
+* **[!UICONTROL Öffnungen]**: Gibt an, wie oft die Nachricht geöffnet wurde.
+
 * **[!UICONTROL Klicks]**: Gibt an, wie oft ein Inhalt in einer E-Mail angeklickt wurde.
 
 Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in Abhängigkeit von der Versandmethode an: optimiert oder normal.
@@ -213,7 +215,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
 
-Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten an, z. B.:
+Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten an, z. B.:
 
 * **[!UICONTROL Eindeutige Impressions]**: Anzahl der eindeutigen Nutzer, an die die In-App-Nachricht gesendet wurde.
 
@@ -330,7 +332,7 @@ Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Inf
 
 Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Bounce-Ursachen]** und **[!UICONTROL Fehlerursachen]** sehen Sie, welche Fehler und Ausschlüsse bei Ihrem Versand aufgetreten sind.
 
-Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
+Die **[!UICONTROL SMS - Klicks nach Links]** und **[!UICONTROL SMS - Trackingstatistiken]** Widgets beschreiben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren URLs.
 
 +++
 
