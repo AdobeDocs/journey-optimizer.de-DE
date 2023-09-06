@@ -6,108 +6,58 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 35%
 
 ---
 
 # Nach einer Entscheidungsregel suchen {#lookup-decision-rule}
-
-Sie können nach einer einzelnen Entscheidungsregel suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die `@id` der Entscheidungsregel oder den Namen der Entscheidungsregel im Anfragepfad enthält.
+Sie können eine bestimmte Entscheidungsregel nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die Entscheidungsregel enthält `id` im Anfragepfad.
 
 **API-Format**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offer-rules/{ID}
 ```
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungsregeln befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | Definiert das Schema, das mit Entscheidungsregeln verbunden ist. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Eine Zeichenfolge, die zum Abgleich der `@id`-Eigenschaft der Entitäten dient. Die Zeichenfolge wird exakt abgeglichen. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Eine Zeichenfolge, die zum Abgleich der Eigenschaft xdm:name der Entitäten verwendet wird. Die Zeichenfolge wird exakt abgeglichen (mit Groß-/Kleinschreibung), es können jedoch Platzhalter genutzt werden. Die Parameter `id` und `name` können nicht zusammen verwendet werden. | `Sales rule` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `offerRule1234` |
 
 **Anfrage**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&name=Sales%20rule' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der jeweiligen Entscheidungsregel zurückgegeben, die Sie nachgeschlagen haben, einschließlich Informationen zur Container-ID, Instanz-ID und eindeutigen `@id` der Entscheidungsregel.
+Eine erfolgreiche Antwort gibt die Details der jeweiligen Entscheidungsregel zurück, die Sie nachgeschlagen haben, einschließlich Informationen zur eindeutigen Entscheidungsregel `@id`.
 
 ```json
-{
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3",
-    "requestTime": "2020-10-21T20:14:08.153670Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "eaa5af90-13d9-11eb-9472-194dee6dc381",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 1,
-                "repo:createdDate": "2020-10-21T20:13:43.048666Z",
-                "repo:lastModifiedDate": "2020-10-21T20:13:43.048666Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_score": 0,
-                "_instance": {
-                    "xdm:name": "Sales rule",
-                    "description": "Decisioning rule for sales",
-                    "xdm:definedOn": {
-                        "profile": {
-                            "xdm:schema": {
-                                "$ref": "https://ns.adobe.com/xdm/context/profile_union",
-                                "version": "1"
-                            },
-                            "xdm:referencePaths": [
-                                "person.name.firstName"
-                            ]
-                        }
-                    },
-                    "condition": {
-                        "format": "pql/text",
-                        "type": "PQL",
-                        "value": "profile.person.name.firstName.equals(\"Joe\", false)"
-                    },
-                    "@id": "xcore:eligibility-rule:124e0faf5b8ee89b"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3#eaa5af90-13d9-11eb-9472-194dee6dc381",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/eaa5af90-13d9-11eb-9472-194dee6dc381",
-                        "@type": "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
-                    }
-                }
-            }
-        ],
-        "total": 1,
-        "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3&name=Sales%20rule",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
-        }
+  {
+    "created": "2022-09-16T18:59:53.651+00:00",
+    "modified": "2022-09-16T18:59:53.651+00:00",
+    "etag": 1,
+    "schemas": [
+        "https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"
+    ],
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "offerRule1234",
+    "name": "Californians with one or more purchases greater than $1000",
+    "condition": {
+        "type": "PQL",
+        "format": "pql/text",
+        "value": "homeAddress.stateProvince.equals(\"CA\", false) and (select var1 from xEvent where var1.eventType.equals(\"purchase\", true) and (var1.commerce.order.priceTotal = 1000.0 and var1.commerce.order.currencyCode.equals(\"USD\", false)))"
     }
 }
 ```

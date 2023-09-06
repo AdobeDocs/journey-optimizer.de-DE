@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 88%
 
 ---
 
@@ -31,14 +31,13 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 **API-Format**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Fallback-Angebote befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | Die Instanz-ID des Fallback-Angebots. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Entität, die Sie aktualisieren möchten. | `fallbackOffer1234` |
 
 **Anfrage**
 
@@ -62,7 +61,7 @@ curl -X PATCH \
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen `add`, `replace` und `remove`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Zu den Vorgängen gehören: `add`, `replace`, `remove`, `copy` und `test`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
