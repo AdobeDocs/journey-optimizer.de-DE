@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 100%
+source-wordcount: '1054'
+ht-degree: 96%
 
 ---
 
@@ -107,13 +107,15 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 
 Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
 
-Wenn die Browser-Erweiterung „Visual Editing Helper“ korrekt installiert ist, die Website jedoch weiterhin nicht geladen werden kann oder sich unerwartet verhält, besteht eine mögliche Lösung darin, Ihre Website im Browser zu öffnen und Cookies zu akzeptieren, bevor Sie versuchen, sie im Web-Designer von [!DNL Journey Optimizer] zu laden.
+1. Stellen Sie sicher, dass die Browsererweiterung Visual Editing Helper korrekt installiert ist.
+
+1. Wenn sich die Website immer noch unerwartet verhält, stellen Sie sicher, dass in Ihrem Browser Drittanbieter-Cookies zugelassen sind. Andernfalls kann die Webseite nicht in der [!DNL Journey Optimizer] Webdesigner.
 
 Bei Seiten unter Authentifizierung, wenn die Anmeldeseite nicht geladen werden kann oder wenn Sie nach dem Anmeldeversuch immer noch nicht angemeldet sind:
 
-* Versuchen Sie zunächst, sich in einer neuen Browser-Registerkarte anzumelden, navigieren Sie zur gewünschten Seite, kopieren Sie dann die URL und versuchen Sie sie im Web-Designer von [!DNL Journey Optimizer] zu öffnen.
+1. Versuchen Sie zunächst, sich in einer neuen Browser-Registerkarte anzumelden, navigieren Sie zur gewünschten Seite, kopieren Sie dann die URL und versuchen Sie sie im Web-Designer von [!DNL Journey Optimizer] zu öffnen.
 
-* Wenn Sie Ihre Website weiterhin nicht in den Web-Designer von [!DNL Journey Optimizer] laden können, wenden Sie sich an die Kundenunterstützung von Adobe, um das Problem zu melden, und geben Sie dabei die fehlerhafte URL an.
+2. Wenn Sie Ihre Website weiterhin nicht in den Web-Designer von [!DNL Journey Optimizer] laden können, wenden Sie sich an die Kundenunterstützung von Adobe, um das Problem zu melden, und geben Sie dabei die fehlerhafte URL an.
 
 ## Versandvoraussetzungen {#delivery-prerequisites}
 
