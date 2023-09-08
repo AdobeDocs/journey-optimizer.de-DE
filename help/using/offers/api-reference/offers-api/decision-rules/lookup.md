@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der jeweiligen Entscheidungsregel zurückgegeben, die Sie nachgeschlagen haben, einschließlich Informationen zur Container-ID, Instanz-ID und eindeutigen `@id` der Entscheidungsregel.
+Eine erfolgreiche Antwort gibt die Details der jeweiligen Entscheidungsregel zurück, die Sie nachgeschlagen haben, einschließlich Informationen zur eindeutigen Entscheidungsregel `id`.
 
 ```json
 {
