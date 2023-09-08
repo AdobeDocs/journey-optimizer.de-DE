@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, Aktivitäten, erste Schritte, Ereignisse, Aktion
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 94%
 
 ---
 
@@ -71,6 +71,10 @@ Wenn Sie benutzerdefinierte Aktionen konfiguriert haben, werden diese hier ebenf
 Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]** zu definieren. Auf diese Weise können Sie dem Namen, der unter Ihrer Aktivität auf der Arbeitsfläche angezeigt wird, ein Suffix hinzufügen. Dies ist nützlich, wenn Sie dieselbe Aktivität mehrmals in Ihrer Journey verwenden und sie leichter identifizieren möchten. Außerdem wird die Problembehebung bei Fehlern und das Lesen von Berichten erleichtert. Sie können auch eine optionale **[!UICONTROL Beschreibung]** hinzufügen.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>Bei einigen Aktivitäten ist ihre ID auch im Bereich sichtbar. Diese ID kann in Berichten als stabilerer Schlüssel verwendet werden als die Beschriftung, die sich ändern kann.
 
 ### Verwalten erweiterter Parameter {#advanced-parameters}
 
