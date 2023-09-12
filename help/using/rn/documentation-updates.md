@@ -4,7 +4,7 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * In der Begrenzungsdokumentation wurden Informationen zu benutzerdefinierten Authentifizierungsendpunkten hinzugefügt. [Weitere Informationen](../configuration/external-systems.md)
 * Im Abschnitt zu externen Datenquellen wurde ein neues Beispiel für die benutzerdefinierte Authentifizierung hinzugefügt. [Weitere Informationen](../datasource/external-data-sources.md#custom-authentication-mode)
 * Es wurde ein Hinweis zum Data Collection Core Service (DCCS) für ereignisgesteuerte Journey hinzugefügt. [Weitere Informationen](../start/guardrails.md#events-g)
-* Ein Hinweis zum Abrufen von Identitäts-Namespaces wurde im [Audience lesen](../building-journeys/read-audience.md), [Segmentqualifizierung](../building-journeys/segment-qualification-events.md) und [Ereigniserstellung](../event/about-creating.md) Abschnitte.
+* Ein Hinweis zum Abrufen von Identitäts-Namespaces wurde im [Audience lesen](../building-journeys/read-audience.md), [Zielgruppenqualifikation](../building-journeys/audience-qualification-events.md) und [Ereigniserstellung](../event/about-creating.md) Abschnitte.
 * Barrierefreiheitsfunktionen in [!DNL Journey Optimizer] sind nun auf einer eigenen Seite gruppiert. [Mehr dazu](../start/accessibility.md)
 * Die Beispiele wurden im Abschnitt Operatoren der erweiterten Dokumentation zum Ausdruckseditor aktualisiert. [Weitere Informationen](../building-journeys/expression/operators.md)
 * Es wurde ein Hinweis über die Einschränkungen beim Suchen mit einem Array von Objekten hinzugefügt. [Mehr dazu](../event/experience-event-schema.md#relationships_limitations)
