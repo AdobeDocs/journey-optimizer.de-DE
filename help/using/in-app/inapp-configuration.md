@@ -5,10 +5,10 @@ role: Admin
 level: Intermediate
 keywords: In-App, Nachricht, Konfiguration, Plattform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 99%
+source-wordcount: '551'
+ht-degree: 67%
 
 ---
 
@@ -36,20 +36,47 @@ Bevor Sie In-App-Nachrichten senden können, müssen Sie Ihren In-App-Kanal in [
    >
    > Sie benötigen die Berechtigung **App-Konfiguration verwalten**, um Zugriff auf das Menü **[!UICONTROL Programmoberflächen]** zu haben. Weiterführende Informationen finden Sie in [diesem Video](#video).
 
-   >[!NOTE]
-   >
-   > Sie benötigen die Berechtigung **App-Konfiguration verwalten**, um Zugriff auf das Menü **[!UICONTROL Programmoberflächen]** zu haben. Weiterführende Informationen finden Sie in [diesem Video](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. Fügen Sie Ihrer **[!UICONTROL Programmoberfläche]** einen Namen hinzu.
 
+   ![](assets/inapp_config_2b.png)
 
-1. Geben Sie in der Dropdown-Liste „Apple iOS“ Ihre **iOS-Paket-ID** ein. Weitere Informationen zur **Paket-ID** finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
+1. Aus dem **[!UICONTROL Apple iOS]** in der Dropdown-Liste konfigurieren Sie Ihre Mobile App für Apple iOS.
 
-   ![](assets/inapp_config_2.png)
++++ Weitere Informationen
 
-1. Geben Sie in der Dropdown-Liste „Android“ Ihren **Android-Paketnamen** ein. Weitere Informationen zu **Paketnamen** finden Sie in der [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores).
+   1. Geben Sie Ihre **[!UICONTROL iOS Bundle-ID]**. Weitere Informationen zur **Paket-ID** finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
+
+   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]** wo Sie Push-Benachrichtigungen senden möchten. Beachten Sie, dass die Auswahl einer bestimmten Sandbox die erforderlichen Zugriffsberechtigungen erfordert.
+
+      Weiterführende Informationen zur Sandbox-Verwaltung finden Sie im Abschnitt [diese Seite](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Aktivieren Sie die **[!UICONTROL Push-Anmeldedaten]** -Option, um bei Bedarf die .p8-Schlüsseldatei per Drag-and-Drop zu verschieben.
+
+      Sie können auch die **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** -Option zum Kopieren und Einfügen Ihres APNs-Authentifizierungsschlüssels direkt.
+
+   1. Geben Sie Ihre **[!UICONTROL Schlüssel-ID]** und **[!UICONTROL Team-ID]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. Aus dem **[!UICONTROL Android]** in der Dropdown-Liste konfigurieren Sie Ihre Mobile App für Android.
+
++++ Weitere Informationen
+
+   1. Geben Sie Ihre **[!UICONTROL Android-Paketname]**. Weitere Informationen zu **Paketnamen** finden Sie in der [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores).
+
+   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]** wo Sie Push-Benachrichtigungen senden möchten. Beachten Sie, dass die Auswahl einer bestimmten Sandbox die erforderlichen Zugriffsberechtigungen erfordert.
+
+      Weiterführende Informationen zur Sandbox-Verwaltung finden Sie im Abschnitt [diese Seite](../administration/sandboxes.md#assign-sandboxes).
+
+   1. Aktivieren Sie die **[!UICONTROL Push-Anmeldedaten]** -Option, um bei Bedarf die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop zu verschieben.
+
+      Sie können auch die **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** Option zum Kopieren und Einfügen des privaten FCM-Schlüssels direkt aus.
+
+      ![](assets/inapp_config_7.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie die Konfiguration der **[!UICONTROL Programmoberfläche]** abgeschlossen haben.
 
