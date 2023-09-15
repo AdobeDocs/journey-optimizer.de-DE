@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhaltserstellung mit dem Content-Assistenten
+title: Generieren von Inhalten mit dem Inhaltsassistenten
 description: Erste Schritte mit dem Inhaltsassistenten
 feature: Overview
 topic: Content Management
@@ -13,11 +13,11 @@ hidefromtoc: true
 source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# Inhaltserstellung mit dem Content-Assistenten {#title-content-assistant}
+# Generieren von Inhalten mit dem Inhaltsassistenten {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
@@ -31,13 +31,13 @@ ht-degree: 58%
 
 Nachdem Sie Ihre Nachrichten erstellt und personalisiert haben, können Sie Ihre Inhalte mit dem Inhaltsassistenten auf die nächste Stufe bringen.
 
-Mithilfe des Content-Assistenten können Sie die Wirkung Ihrer Nachricht durch Experimente mit unterschiedlichen Inhalten optimieren. Jede Variante wird als individuelle Behandlung betrachtet, um zu messen und zu vergleichen, welcher Inhalt effektiv mehr Klicks generiert.
+Mithilfe des Inhaltsassistenten können Sie die Wirkung Ihrer Nachricht optimieren, indem Sie mit verschiedenen Inhalten experimentieren. Jede Variante wird als eindeutige Abwandlung verwaltet, um zu messen und zu vergleichen, welcher Inhalt effektiv mehr Klicks generiert.
 
 In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benachrichtigung mithilfe des Inhaltsexperiments senden. Führen Sie folgende Schritte aus:
 
-1. Klicken Sie nach der Erstellung und Konfiguration Ihrer Push-Benachrichtigungs-Kampagne auf **[!UICONTROL Inhalt erstellen]**.
+1. Klicken Sie nach der Erstellung und Konfiguration der Push-Benachrichtigungskampagne auf **[!UICONTROL Inhalt erstellen]**.
 
-1. Verwenden Sie den Generierungsassistenten, um die **[!UICONTROL Titel]**.
+1. Verwenden Sie den Generierungsassistenten, um den **[!UICONTROL Titel]** zu ändern.
 
    Klicken Sie neben dem Feld **[!UICONTROL Kopfzeile]** auf **[!UICONTROL Mit Textgenerierungsassistenten bearbeiten]**.
 
@@ -61,21 +61,21 @@ In diesem speziellen Beispiel erfahren Sie, wie Sie eine ansprechende Push-Benac
 
    ![](assets/gen-ai-title-4.png)
 
-1. Nach der Personalisierung des **[!UICONTROL body]** Ihrer Push-Benachrichtigung, wählen Sie **[!UICONTROL Inhaltsassistent anzeigen]**.
+1. Wählen Sie nach der Personalisierung des **[!UICONTROL Hauptteils]** der Push-Benachrichtigung **[!UICONTROL Inhaltsassistent anzeigen]** aus.
 
-   Hier ist bereits eine Liste mit Varianten mit Ihrem Originalinhalt verfügbar.
+   Hier ist bereits eine Liste mit Varianten mit dem Originalinhalt verfügbar.
 
    ![](assets/gen-ai-title-5.png)
 
-1. Passen Sie den Inhalt an, indem Sie beschreiben, was Sie generieren möchten.
+1. Beschreiben Sie, was generiert werden soll, um den Inhalt anzupassen.
 
-   Aktivieren Sie die **[!UICONTROL Erweiterung mit aktuellem Inhalt]** die Option Inhaltsassistent verwenden, um neuen Inhalt basierend auf Ihrer Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe zu personalisieren.
+   Aktivieren Sie die Option **[!UICONTROL Mit aktuellen Inhalten verbessern]**, damit der Inhaltsassistent neue Inhalte basierend auf der Nachricht, dem Kampagnennamen und der ausgewählten Zielgruppe personalisiert.
 
-1. Klicks **[!UICONTROL Ersetzen]** , um den Inhalt zu ändern oder mehrere **[!UICONTROL Variante]** erstellen **[!UICONTROL Behandlungen]** für Ihre Experimente verwenden und auf **X Behandlungen hinzufügen**.
+1. Klicken Sie auf **[!UICONTROL Ersetzen]**, um den Inhalt zu ändern oder mehrere **[!UICONTROL Varianten]** auszuwählen, um mit **X Behandlung(en) hinzufügen** **[!UICONTROL Behandlungen]** für Experimente zu erstellen.
 
    ![](assets/gen-ai-title-6.png)
 
-1. Zugriff auf **[!UICONTROL Experimenteinstellungen]** oder **[!UICONTROL Aktionen]** Menüs zur weiteren Personalisierung Ihres Experiments. [Weitere Informationen](../campaigns/content-experiment.md)
+1. Greifen Sie auf die Menüs **[!UICONTROL Experimenteinstellungen]** oder **[!UICONTROL Aktionen]** zur weiteren Personalisierung der Experimente zu. [Weitere Informationen](../campaigns/content-experiment.md)
 
    ![](assets/gen-ai-title-7.png)
 

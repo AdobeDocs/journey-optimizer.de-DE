@@ -12,12 +12,12 @@ exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# In-App-Nachricht in einer Journey erstellen {#create-in-app-journey}
+# Erstellen einer In-App-Nachricht in einer Journey {#create-in-app-journey}
 
 Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen:
 

@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ Um eine neue Kampagne zu erstellen, klicken Sie im Menü **[!UICONTROL Kampagnen
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Kampagnentyp"
->abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. Sie dienen dem Versand von Marketing-Nachrichten (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder Transaktionsnachrichten (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an abgemeldete Profile gesendet werden können)."
+>abstract="**Geplante Kampagnen** werden sofort oder an einem bestimmten Datum ausgeführt und dienen zum Senden von Nachrichten des Typs „Marketing“. **API-ausgelöste** Kampagnen werden mithilfe eines API-Aufrufs ausgeführt. Sie dienen dem Versand von Marketing-Nachrichten (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder von Transaktionsnachrichten (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an Profile mit storniertem Abo gesendet werden können)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Kampagnenkategorie"
->abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Wählen Sie für API-gesteuerte Kampagnen aus, ob Sie eine **Marketing** message (Werbenachricht, die die Zustimmung des Benutzers erfordert) oder **transactional** Nachricht (nicht kommerzielle Nachricht, die auch in bestimmten Kontexten an abgemeldete Profile gesendet werden kann)."
+>abstract="Wenn Sie eine geplante Kampagne erstellen, wird der Typ **Marketing** automatisch ausgewählt. Für API-ausgelöste Kampagnen wählen Sie, ob Sie eine **Marketing-Nachricht** (Werbenachrichten, für die eine Benutzerzustimmung erforderlich ist) oder eine **Transaktionsnachricht** (nicht kommerzielle Nachrichten, die in bestimmten Kontexten auch an Profile mit storniertem Abo gesendet werden können) senden möchten."
 
 1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** an, wann Sie die Kampagne ausführen möchten. Es stehen zwei Kampagnentypen zur Verfügung:
 

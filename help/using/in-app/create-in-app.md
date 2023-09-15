@@ -10,7 +10,7 @@ exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
 source-wordcount: '1940'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -44,21 +44,21 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 
    1. Klicken Sie auf die Ereignis-Dropdown-Liste, um Ihren Trigger bei Bedarf zu ändern.
 
-      ++ + Siehe verfügbare Trigger.
+      +++Siehe verfügbare Trigger.
 
-      | Package | Auslöser | Definition |
+      | Paket | Auslöser | Definition |
       |---|---|---|
-      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
-      | Core-Tracking | Aktion verfolgen | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
-      | Core-Tracking | Tracking-Status | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
-      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
+      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
+      | Core-Tracking | Aktion nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
+      | Core-Tracking | Status nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
+      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
       | Anwendungslebenszyklus | Anwendungsstart | Wird bei jeder Ausführung ausgelöst, einschließlich Abstürzen und Installationen. Wird auch bei einer Wiederaufnahme aus dem Hintergrund ausgelöst, wenn das Sitzungs-Timeout des Lebenszyklus überschritten wurde. |
       | Anwendungslebenszyklus | Anwendungsinstallation | Wird beim ersten Ausführen nach einer Installation oder Neuinstallation ausgelöst. |
       | Anwendungslebenszyklus | Anwendungsaktualisierung | Wird beim ersten Start nach einem Upgrade oder bei Änderung der Versionsnummer ausgelöst. |
-      | Anwendungslebenszyklus | Anwendungsschließen | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
+      | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
-      | Places | POI eingeben | Wird vom Places SDK ausgelöst, wenn Ihr Kunde den von Ihnen konfigurierten POI (Point of Interest) aufruft. |
-      | Places | Ausstiegspunkt | Wird vom Places-SDK ausgelöst, wenn Ihr Kunde den von Ihnen konfigurierten POI (Point of Interest) verlässt. |
+      | Places | POI eingeben | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) aufrufen. |
+      | Places | POI für Austritt | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) beenden. |
 
 +++
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 
       +++Sehen Sie sich die verfügbaren Eigenschaften an.
 
-      | Package | Eigenschaften  | Definition |
+      | Paket | Eigenschaften  | Definition |
       |---|---|---|
       | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
       | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Journey hinzuzufügen
 
       ![](assets/in_app_create_8.png)
 
-   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
 
       ![](assets/in_app_journey_3.png)
 
@@ -142,21 +142,21 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
    1. Klicken Sie auf die Ereignis-Dropdown-Liste, um Ihren Trigger bei Bedarf zu ändern.
 
-      ++ + Siehe verfügbare Trigger.
+      +++Siehe verfügbare Trigger.
 
-      | Package | Auslöser | Definition |
+      | Paket | Auslöser | Definition |
       |---|---|---|
-      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
-      | Core-Tracking | Aktion verfolgen | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
-      | Core-Tracking | Tracking-Status | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
-      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der mobilen Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
+      | Daten an Platform senden | Daten an Platform gesendet | Wird ausgelöst, wenn die Mobile App ein Edge-Erlebnisereignis ausgibt, um Daten an die Adobe Experience Platform zu senden. Normalerweise der API-Aufruf [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) aus der AEP Edge-Erweiterung. |
+      | Core-Tracking | Aktion nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) aufgerufen wird. |
+      | Core-Tracking | Status nachverfolgen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) aufgerufen wird. |
+      | Core-Tracking | PII erfassen | Wird ausgelöst, wenn die in der Mobile-Code-API angebotene ältere Funktionalität [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) aufgerufen wird. |
       | Anwendungslebenszyklus | Anwendungsstart | Wird bei jeder Ausführung ausgelöst, einschließlich Abstürzen und Installationen. Wird auch bei einer Wiederaufnahme aus dem Hintergrund ausgelöst, wenn das Sitzungs-Timeout des Lebenszyklus überschritten wurde. |
       | Anwendungslebenszyklus | Anwendungsinstallation | Wird beim ersten Ausführen nach einer Installation oder Neuinstallation ausgelöst. |
       | Anwendungslebenszyklus | Anwendungsaktualisierung | Wird beim ersten Start nach einem Upgrade oder bei Änderung der Versionsnummer ausgelöst. |
-      | Anwendungslebenszyklus | Anwendungsschließen | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
+      | Anwendungslebenszyklus | Schließen der Anwendung | Wird ausgelöst, wenn die Anwendung geschlossen wird. |
       | Anwendungslebenszyklus | Anwendungsabsturz | Wird ausgelöst, wenn die Anwendung beim Beenden nicht im Hintergrund ausgeführt wird. Das Ereignis wird gesendet, wenn die Anwendung nach dem Absturz gestartet wird. Adobe Mobile-Absturz-Reporting implementiert keinen globalen Handler für nicht abgefangene Ausnahmen. |
-      | Places | POI eingeben | Wird vom Places SDK ausgelöst, wenn Ihr Kunde den von Ihnen konfigurierten POI (Point of Interest) aufruft. |
-      | Places | Ausstiegspunkt | Wird vom Places-SDK ausgelöst, wenn Ihr Kunde den von Ihnen konfigurierten POI (Point of Interest) verlässt. |
+      | Places | POI eingeben | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) aufrufen. |
+      | Places | POI für Austritt | Wird vom Places-SDK ausgelöst, wenn Kundinnen oder Kunden den festgelegten Zielpunkt (Point of Interest, POI) beenden. |
 
 +++
 
@@ -170,7 +170,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
       +++Sehen Sie sich die verfügbaren Eigenschaften an.
 
-      | Package | Eigenschaften  | Definition |
+      | Paket | Eigenschaften  | Definition |
       |---|---|---|
       | Geräteinformationen | Betreibername | Wird ausgelöst, wenn einer der Betreibernamen aus der Liste vorliegt. |
       | Geräteinformationen | Gerätename | Wird ausgelöst, wenn einer der Gerätenamen vorliegt |
@@ -194,7 +194,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
       ![](assets/in_app_create_8.png)
 
-   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Trigger zu gruppieren.
+   1. Klicken Sie auf **[!UICONTROL Gruppe erstellen]**, um Auslöser zu gruppieren.
 
 1. Wählen Sie die Häufigkeit Ihres Auslösers aus, wenn Ihre In-App-Nachricht aktiv ist. Die folgenden Optionen sind verfügbar:
 
@@ -225,7 +225,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
 +++
 
-* Im folgenden Video erfahren Sie, wie Sie Inhaltsexperimente konfigurieren und analysieren, um In-App-Nachrichten mit A/B-Tests zu testen.
+* Informationen dazu, wie Inhaltsexperimente konfiguriert und analysiert werden können, um In-App-Nachrichten mit A/B-Tests zu testen, gibt es im folgenden Video.
 
   +++Siehe Video
 
@@ -233,7 +233,7 @@ Gehen Sie wie folgt vor, um eine In-App-Nachricht in einer Kampagne hinzuzufüge
 
 +++
 
-* Im folgenden Video erfahren Sie, wie Sie eine In-App-Nachricht auf einer Journey erstellen und Ihre Journey testen und veröffentlichen.
+* Das Video unten zeigt, wie eine In-App-Nachricht in einer Journey erstellt und wie die Journey getestet und veröffentlicht werden kann.
 
   +++Siehe Video
 

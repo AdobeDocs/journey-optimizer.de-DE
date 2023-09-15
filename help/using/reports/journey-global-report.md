@@ -11,7 +11,7 @@ exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
 source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
 source-wordcount: '2257'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -286,7 +286,7 @@ Das Widget **[!UICONTROL SMS-Zusammenfassung]** präsentiert die wichtigsten Inf
 
 In den Diagrammen und Tabellen zu den **[!UICONTROL Ausschlussgründen]** sehen Sie, welche Fehler und Ausschlüsse während des Versands aufgetreten sind.
 
-Die **[!UICONTROL SMS - Klicks nach Links]** und **[!UICONTROL SMS - Trackingstatistiken]** Widgets beschreiben die wichtigsten Informationen bezüglich der Interaktion Ihrer Besucher mit Ihren URLs.
+Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
 
 +++
 
@@ -312,7 +312,7 @@ Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informatione
   > 
   >Aufgrund des zweiten Kriteriums kann es erhebliche Unterschiede zwischen der Anzahl der angesprochenen Profile und der Anzahl der eindeutigen Impressions geben.
 
-* **[!UICONTROL Interaction]**: Anzahl der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzenden durchgeführten Aktionen, wie z. B. Klicks, Abbrechen oder andere Interaktionen.
+* **[!UICONTROL Interaktionen]**: Zahl der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzenden durchgeführten Aktionen, wie z. B. Klicks, Abbrechen oder andere Interaktionen.
 
 Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions und Interaktionen für den jeweiligen Zeitraum an.
 

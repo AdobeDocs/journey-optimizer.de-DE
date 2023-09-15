@@ -15,9 +15,9 @@ ht-degree: 92%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
-## September 2023 (#September-2023)
+## September 2023 (#september-2023)
 
-* Eine Liste von Einschränkungen, die bei der Erstellung von Entscheidungsregeln zu beachten sind, wurde der Dokumentation zur Entscheidungsverwaltung hinzugefügt. [Weitere Informationen](../offers/offer-library/creating-decision-rules.md)
+* Eine Liste der Einschränkungen, die bei der Erstellung von Entscheidungsregeln zu beachten sind, wurde der Dokumentation zum Entscheidungs-Management hinzugefügt. [Weitere Informationen](../offers/offer-library/creating-decision-rules.md)
 
 ## August 2023 {#august-2023}
 

@@ -11,7 +11,7 @@ exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -367,7 +367,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* **[!DNL Manage Seedlist]** -Berechtigung auf hoher Ebene ermöglicht es Benutzern, Seedlist zu lesen, zu erstellen, zu bearbeiten und zu löschen.
+* Die Berechtigung **[!DNL Manage Seedlist]** auf hoher Ebene erlaubt Benutzenden das Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 

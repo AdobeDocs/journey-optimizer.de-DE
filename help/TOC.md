@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ ht-degree: 99%
    + [Arbeiten mit Adobe Stock](using/content-management/stock.md)
    + Arbeiten mit dem Inhaltsassistenten{#content-assistant}
       + [Erste Schritte mit dem Inhaltsassistenten](using/content-management/gs-generative.md)
-      + [Inhaltserstellung](using/content-management/generative-content.md)
+      + [Inhaltsgenerierung](using/content-management/generative-content.md)
       + [Bildgenerierung](using/content-management/generative-image.md)
 + Personalisierung und dynamische Inhalte {#personalized-dynamic-content}
    + Personalisierung {#personalization}

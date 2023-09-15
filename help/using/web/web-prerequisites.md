@@ -9,7 +9,7 @@ exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
 source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,9 +107,9 @@ Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet all
 
 Wenn Sie bei Verwendung des Adobe [!DNL Journey Optimizer]-Web-Designers versuchen, eine Website zu laden, die nicht geladen werden kann, wird eine Meldung angezeigt, die die Installation der [Browser-Erweiterung Visual Editing Helper](#install-visual-editing-helper) empfiehlt.
 
-1. Stellen Sie sicher, dass die Browsererweiterung Visual Editing Helper korrekt installiert ist.
+1. Stellen Sie sicher, dass die Browser-Erweiterung „Visual Editing Helper“ korrekt installiert ist.
 
-1. Wenn sich die Website immer noch unerwartet verhält, stellen Sie sicher, dass in Ihrem Browser Drittanbieter-Cookies zugelassen sind. Andernfalls kann die Webseite nicht in der [!DNL Journey Optimizer] Webdesigner.
+1. Wenn sich die Website immer noch unerwartet verhält, vergewissern Sie sich, dass Cookies von Drittanbietern in Ihrem Browser zugelassen sind, sonst kann die Web-Seite nicht innerhalb des [!DNL Journey Optimizer]-Web-Designers geladen werden.
 
 Bei Seiten unter Authentifizierung, wenn die Anmeldeseite nicht geladen werden kann oder wenn Sie nach dem Anmeldeversuch immer noch nicht angemeldet sind:
 

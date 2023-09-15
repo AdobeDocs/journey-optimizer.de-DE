@@ -11,7 +11,7 @@ keywords: Testadressenliste, Testadresse, Konfiguration
 source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Testadressenlisten in [!DNL Journey Optimizer] ermöglichen es Ihnen, automatisc
 >
 >Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 >
->Varianten werden derzeit nicht unterstützt. Wie jedes Profil aus der Zielgruppe erhalten die Testadressen eine Kopie jeder Nachricht, jedoch nicht alle Varianten derselben Nachricht (z. B. die unterschiedlichen Behandlungen einer [Inhaltsexperiment](../campaigns/get-started-experiment.md)).
+>Varianten werden derzeit nicht unterstützt. Genauso wie jedes Profil aus der Zielgruppe erhalten die Testadressen eine Kopie jeder Nachricht, jedoch nicht alle Varianten derselben Nachricht (z. B. die unterschiedlichen Behandlungen eines [Inhaltsexperiments](../campaigns/get-started-experiment.md)).
 
 Testadressen ermöglichen den Versand an Empfängerinnen und Empfänger, die nicht den definierten Zielgruppenkriterien entsprechen. Auf diese Weise können Empfängerinnen und Empfänger, die außerhalb des Versandumfangs liegen, die Nachricht so erhalten, wie es jede andere Person innerhalb der Zielgruppe würde.
 
@@ -58,7 +58,7 @@ Um auf die bereits erstellten Testadressenlisten zuzugreifen, gehen Sie zu **[!U
 
 >[!CAUTION]
 >
->Um Seed-Listen anzeigen, bearbeiten und verwalten zu können, muss die **[!UICONTROL Auswahlliste verwalten]** -Berechtigung.
+>Um Testadressenlisten anzeigen, bearbeiten und verwalten zu können, müssen Sie die Berechtigung **[!UICONTROL Testadressenliste verwalten]** haben.
 
 ![](assets/seed-list-access.png)
 

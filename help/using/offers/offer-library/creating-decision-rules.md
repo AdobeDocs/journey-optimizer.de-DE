@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Sie können beispielsweise angeben, dass ein „Angebot von Winterkleidung für 
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video).
 
-Im Folgenden finden Sie eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
+Im Folgenden ist eine Liste der Einschränkungen, die bei der Arbeit mit Entscheidungsregeln zu beachten sind:
 
-* Beim Erstellen einer Regel können Sie historische Ereignisse verwenden, es gibt jedoch Einschränkungen hinsichtlich der Verwendbarkeit dieser Regeln.
+* Beim Erstellen einer Regel können historische Ereignisse verwendet werden, es gibt jedoch Einschränkungen hinsichtlich der Verwendbarkeit dieser Regeln.
 * Bei der Edge-Entscheidung wird das Edge-Profil verwendet, in dem keine Ereignisse gespeichert werden. Daher sind alle in einer Edge-Entscheidung verwendeten Regeln ungültig.
-* Journey, die Angebotsentscheidungen verwenden, werden keine Verlaufsereignisse anzeigen. Daher sind diese Regeln ungültig.
-* Entscheidungsanforderungen, die das Hub-Profil verwenden, betrachten die letzten 100 Erlebnisereignisse im Profil, um Regeln auszuwerten, die auf historische Erlebnisereignisse verweisen.
+* Bei Journeys, die Angebotsentscheidungen verwenden, werden keine Verlaufsereignisse berücksichtigt. Daher sind diese Regeln ungültig.
+* Entscheidungsanfragen, die das Hub-Profil verwenden, berücksichtigen die letzten 100 Erlebnisereignisse im Profil, um Regeln auszuwerten, die auf historische Erlebnisereignisse verweisen.
 
 ## Erstellen von Entscheidungsregeln {#create}
 

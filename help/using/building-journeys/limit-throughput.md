@@ -11,7 +11,7 @@ exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Weiterführende Informationen zur Integration in externe Systeme finden Sie auf 
 
 ## Implementierung
 
-Für **zielgruppengesteuerte Journey** können Sie die Leserate Ihrer Audience lesen -Aktivität definieren, die sich auf den Journey-Durchsatz auswirkt. [Weitere Informationen](../building-journeys/read-audience.md)
+Bei **durch Zielgruppen ausgelösten Journeys** kann die Leserate der Aktivität „Zielgruppe lesen“ definiert werden, die sich auf den Journey-Durchsatz auswirkt. [Weitere Informationen](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >

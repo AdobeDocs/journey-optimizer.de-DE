@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Der Inhaltsassistent von Adobe Journey Optimizer bietet proaktive Variantenvorsc
 
 
 
-Sie können den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenbehandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie können den Versandinhalt oder den Betreff variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../campaigns/content-experiment.md).
+Sie können den Inhaltsassistenten verwenden, um die Wirkung Ihrer Nachricht zu optimieren, indem Sie mit verschiedenen Haupttiteln und Bildern experimentieren. Generieren Sie mehrere Varianten und erstellen Sie ein Experiment, um sie zu vergleichen. Mit dem Journey Optimizer-Inhaltsexperiment können Sie mehrere Nachrichtenbehandlungen definieren, um zu messen, welche bei Ihrer Zielgruppe am besten ankommt. Sie haben die Möglichkeit, Inhalt oder Betreff des Versands zu variieren. Die Zielgruppe der Nachricht wird nach dem Zufallsprinzip jeder Abwandlung zugewiesen, um zu bestimmen, welche Abwandlung in Bezug auf die angegebene Metrik am besten funktioniert. Weiterführende Informationen zum Inhaltsexperiment finden Sie in [diesem Abschnitt](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]

@@ -9,7 +9,7 @@ exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Sie haben beispielsweise zwei Sammlungen – eine im Auswertungskriterium A und 
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Wenn die beiden Sammlungen **gleichzeitig ausgewertet** Da es aus den Bewertungskriterien A zwei infrage kommende Angebote und aus den Bewertungskriterien B drei infrage kommende Angebote gibt, werden die fünf Angebote alle auf der Grundlage des durch die jeweiligen Ranking-Methoden bestimmten Werts geordnet. Es werden zwei Angebote angefordert, daher werden die beiden geeignetsten Angebote aus diesen fünf Angeboten zurückgegeben.
+* Werden die beiden Sammlungen **gleichzeitig bewertet**, da es zwei geeignete Angebote nach Bewertungskriterien A und drei geeignete Angebote nach Bewertungskriterien B gibt, werden die fünf Angebote auf der Grundlage des von den jeweiligen Bewertungsmethoden ermittelten Wertes alle gemeinsam in eine Rangfolge gebracht. Es werden zwei Angebote angefordert, so dass von diesen fünf Angeboten die beiden geeignetsten zurückgegeben werden.
 
   ![](../assets/activity_same-rank-collections.png)
 

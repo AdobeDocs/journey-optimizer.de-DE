@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
-* POST-, PUT- und GET-Aufrufmethoden werden unterstützt
+* Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
 * IP-Adressen sind nicht zulässig
 * Interne Adobe-Adressen (`.adobe.*`) sind in URLs und APIs nicht zulässig.

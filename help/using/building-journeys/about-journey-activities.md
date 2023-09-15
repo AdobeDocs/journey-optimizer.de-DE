@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Die meisten Aktivitäten ermöglichen es Ihnen, eine **[!UICONTROL Bezeichnung]*
 
 >[!NOTE]
 >
->Bei einigen Aktivitäten ist ihre ID auch im Bereich sichtbar. Diese ID kann in Berichten als stabilerer Schlüssel verwendet werden als die Beschriftung, die sich ändern kann.
+>Bei einigen Aktivitäten ist ihre ID auch im Bereich sichtbar. Diese ID kann beim Reporting als stabilerer Schlüssel verwendet werden als die Bezeichnung, da letztere sich ändern kann.
 
 ### Verwalten erweiterter Parameter {#advanced-parameters}
 

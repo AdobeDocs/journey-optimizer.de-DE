@@ -11,7 +11,7 @@ exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
 source-wordcount: '1493'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ Mit der Aktivität **[!UICONTROL Ausschließen]** können Sie Profile aus Ihrer 
 >title="Anreicherungsattribute"
 >abstract="Wählen Sie ein oder mehrere Attribute aus dem Anreicherungsdatensatz aus, die mit der Audience verknüpft werden sollen. Nach der Veröffentlichung der Komposition werden diese Attribute mit der Zielgruppe verknüpft und können in Journey Optimizer zur Personalisierung von Sendungen genutzt werden."
 
-Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Audience gesendeten Sendungen zu personalisieren.
+Mit der Aktivität **[!UICONTROL Anreichern]** können Sie Ihre Audience mit zusätzlichen Attributen aus Adobe Experience Platform-Datensätzen anreichern. Sie können beispielsweise Informationen zum gekauften Produkt wie Namen, Preis oder Hersteller-ID hinzufügen und diese Informationen nutzen, um die an die Zielgruppe gesendeten Sendungen zu personalisieren.
 
 Beachten Sie die folgenden Einschränkungen bei der Aktivität **[!UICONTROL Anreichern]**:
 
@@ -224,16 +224,16 @@ Es stehen zwei Arten von Split-Operationen zur Verfügung:
 
   ![](assets/audiences-split.png)
 
-  Gehen Sie wie folgt vor, um eine attributbasierte Aufspaltungsaktivität einzurichten:
+  Gehen Sie wie folgt vor, um eine attributbasierte Aufteilungsaktivität einzurichten:
 
-   1. Klicken Sie auf die Schaltfläche neben **[!UICONTROL Attribut]** -Feld, um das Attribut auszuwählen, das als Aufspaltungskriterium verwendet werden soll.
-   1. Fügen Sie so viele Pfade wie nötig hinzu. Geben Sie für jeden Pfad einen Titel an und geben Sie den Wert an, der verwendet wird, um zu bestimmen, welche Profile in diesen Pfad aufgenommen werden sollen.
+   1. Klicken Sie auf die Schaltfläche neben dem Feld **[!UICONTROL Attribut]**, um das Attribut auszuwählen, das Sie als Aufteilungskriterium verwenden möchten.
+   1. Fügen Sie so viele Pfade wie nötig hinzu.  Geben Sie für jeden Pfad einen Titel an und geben Sie den Wert an, der verwendet wird, um zu bestimmen, welche Profile in diesen Pfad aufgenommen werden sollen.
 
       >[!NOTE]
       >
       >Für jeden Pfad kann nur ein Wert angegeben werden.
 
-   1. Ein-/Ausschalten der **[!UICONTROL Andere Profile]** -Option, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
+   1. Schalten Sie die Option **[!UICONTROL Andere Profile]** ein, um einen zusätzlichen Pfad mit den verbleibenden Profilen zu erstellen, die keiner der in den anderen Pfaden angegebenen Bedingungen entsprechen.
 
 ## Speichern Ihrer Audiences {#save}
 

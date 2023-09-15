@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 ## Native eingehende Keywords{#sms-native-keywords}
 
-Per Standard verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für gebührenfreie und Langwahlnummer-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei Verwendung mit Journey Optimizer unterstützen.
+Per Standard verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für gebührenfreie und Langwahlnummer-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
 
 Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter ausgelöst. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 
@@ -46,7 +46,7 @@ Allerdings unterstützt Journey Optimizer globale Opt-outs, die auf eingehenden 
 
 ## Alphanumerische Sender ID {#alphanumeric}
 
-Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und können keine eingehenden Nachrichten empfangen. Daher sind die Adobe Journey Optimizer-Schlüsselwörter SMS STOP, START und HELP nicht für Alpha-Sender-IDs verfügbar. Sie müssen andere Anweisungen geben, wie z. B. an das Support-Team zu schreiben, eine Support-Telefonnummer anzurufen oder eine andere Telefonnummer oder einen Code per SMS zu senden, damit die Benutzenden sich von den über die alphanumerische Sender ID gesendeten Nachrichten abmelden können.
+Alphanumerische Sender IDs sind nur für einseitige Nachrichten gedacht und können keine eingehenden Nachrichten empfangen. Daher sind die SMS-Keywords „STOP“, „START“, „HELP“ von Adobe Journey Optimizer für alphanumerische Sender IDs nicht anwendbar. Sie müssen andere Anweisungen geben, wie z. B. an das Support-Team zu schreiben, eine Support-Telefonnummer anzurufen oder eine andere Telefonnummer oder einen Code per SMS zu senden, damit die Benutzenden sich von den über die alphanumerische Sender ID gesendeten Nachrichten abmelden können.
 
 ## Video {#video-sms}
 
