@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 96%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 100%
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
    + [Testen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
-+ Web-Kanal{#web}
++ Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
    + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + [Verfassen von Web-Seiten](using/web/author-web.md)
    + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
++ Codebasiertes Erlebnis {#code-based-experience}
+   + [Erste Schritte mit dem code-basierten Kanal](using/code-based/get-started-code-based.md)
+   + [Codebasierte Voraussetzungen](using/code-based/code-based-prerequisites.md)
+   + [Codebasierte Implementierungsbeispiele](using/code-based/code-based-implementation-samples.md)
+   + [Codebasierte Erlebnisse erstellen](using/code-based/create-code-based.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -426,6 +431,17 @@ ht-degree: 100%
          + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ Erlebnisentscheidungen {#experience-decisioning}
+   + [Erste Schritte mit Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + Verwalten von Entscheidungselementen {#decision-items}
+      + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
+      + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
+      + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
+   + Elementauswahl konfigurieren {#selection}
+      + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
+      + [Erstellen von Ranking-Methoden](using/experience-decisioning/ranking.md)
+   + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
+   + [Entscheidungsrichtlinien erstellen](using/experience-decisioning/create-decision.md)
 + Daten-Management {#data-management}
    + [Erste Schritte mit dem Daten-Management](using/data/gs-data.md)
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
