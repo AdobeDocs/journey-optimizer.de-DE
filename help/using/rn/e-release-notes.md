@@ -5,9 +5,9 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 127e7cee6c474ba1e7519985e5c768be8abc6b20
+source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '514'
 ht-degree: 23%
 
 ---
@@ -80,10 +80,10 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-**Zielgruppen**
+<!--**Audiences**
 
-* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
-<!--* You can now target audiences resulting from composition workflows into journeys. -->
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences resulting from composition workflows into journeys. -->
 
 **Personalisierung**
 
