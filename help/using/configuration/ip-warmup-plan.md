@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ Inhalt dieses Dokumentationshandbuchs:
 * [IP-Warmup-Plan ausführen](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+Einmal [eine oder mehrere Kampagnen erstellt haben](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der IP-Warmup-Option, können Sie mit der Erstellung Ihres IP-Warmup-Plans beginnen.
 
 ## IP-Warmlaufpläne aufrufen und verwalten {#manage-ip-warmup-plans}
 

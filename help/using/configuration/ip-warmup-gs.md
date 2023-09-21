@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 33%
 
 ---
@@ -73,4 +73,4 @@ Die wichtigsten Schritte zur Implementierung eines IP-Warmup-Plans sind:
 
 1. Erstellen Sie einen IP-Warmup-Plan und laden Sie Ihren Plan hoch. [Weitere Informationen](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Passen Sie jede Phase Ihres Plans an und aktivieren Sie die Läufe. [Weitere Informationen](ip-warmup-running.md)
+1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-running.md)

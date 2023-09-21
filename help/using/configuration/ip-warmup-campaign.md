@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '251'
+ht-degree: 8%
 
 ---
 
@@ -39,11 +39,17 @@ Sie müssen eine oder mehrere Kampagnen mit aktivierter Option erstellen, damit 
 
 Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 
-1. Erstellen Sie eine [Oberfläche](channel-surfaces.md) für die Domain und die IPs, die Sie für Ihren Warmup-Plan identifiziert haben.<!--how do you identify these or who does it at the customer level?-->
+1. E-Mail erstellen [Oberfläche](channel-surfaces.md) für die Domain und die IPs, die Sie für Ihren Warmup-Plan identifiziert haben.<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >Erfahren Sie, wie Sie die Domäne und IPs auswählen, die auf einer E-Mail-Oberfläche verwendet werden sollen in [diesem Abschnitt](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. Erstellen Sie eine [Kampagne](../campaigns/create-campaign.md) und wählen Sie die [Email](../email/create-email.md#create-email-journey-campaign) Aktion.
 
 1. Wählen Sie die Oberfläche aus, die Sie für die IP-Wärme-Kopplung erstellt haben.
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   Die Kampagne [Zeitplan](../campaigns/create-campaign.md#schedule) wird von dem IP-Warmup-Plan gesteuert, mit dem er verknüpft wird, was bedeutet, dass der Zeitplan in der Kampagne selbst nicht mehr definiert ist.
+   Die Kampagne [Zeitplan](../campaigns/create-campaign.md#schedule) wird von der [IP-Warmup-Plan](ip-warmup-plan.md) wird mit verknüpft, was bedeutet, dass der Zeitplan in der Kampagne selbst nicht mehr definiert ist.
 
 1. [Aktivieren](../campaigns/review-activate-campaign.md) die Kampagne. Sobald es live ist, kann es in einem IP-Warmup-Plan verwendet werden.
 
