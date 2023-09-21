@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 20%
 
 ---
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung eines code-basierten Erlebnisses 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Verwenden des Code-Editors"
+>title="Verwenden des Ausdruckseditors"
 >abstract="Fügen Sie den Code ein und bearbeiten Sie ihn im Rahmen dieser code-basierten Erlebnisaktion."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Erste Schritte mit dem Ausdruckseditor"
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung eines code-basierten Erlebnisses 
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. Der Code-Editor wird geöffnet. Es handelt sich um eine nicht visuelle Erlebniserstellungsoberfläche.
+1. Die [Ausdruckseditor](../personalization/personalization-build-expressions.md) geöffnet. Es handelt sich dabei um eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen, mit der Sie Ihren Code erstellen können.
 
 1. Sie können den Authoring-Modus von HTML auf JSON umstellen und umgekehrt.
 
@@ -84,7 +84,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung eines code-basierten Erlebnisses 
    >
    >Das Ändern des Authoring-Modus führt zum Verlust des gesamten aktuellen Codes. Stellen Sie daher sicher, dass Sie die Modi wechseln, bevor Sie mit dem Authoring beginnen.
 
-1. Geben Sie Ihren Code nach Bedarf ein. Der Code-Editor nutzt die [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Geben Sie Ihren Code nach Bedarf ein. Sie können die [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um eine Vorschau Ihres geänderten code-basierten Erleb
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie entweder im Code-Editor oder im Bildschirm &quot;Inhalt bearbeiten&quot;die Option **[!UICONTROL Inhalt simulieren]**.
+1. Wählen Sie entweder im Ausdruckseditor oder im Bildschirm zum Bearbeiten von Inhalten die Option **[!UICONTROL Inhalt simulieren]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

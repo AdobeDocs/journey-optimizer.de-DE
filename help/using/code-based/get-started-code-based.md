@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ Um Webanwendungsfälle auszuführen, können Sie entweder den Webkanal oder das 
 * Es ist auf Marketingexperten ausgerichtet.
 
 **Codebasiertes Erlebnis**
-* Bearbeiten Sie den Inhalt mithilfe der [Code-Editor](create-code-based.md#edit-code).
+* Bearbeiten Sie den Inhalt mithilfe der [Ausdruckseditor](create-code-based.md#edit-code).
 * Das code-basierte Erlebnis erfordert vorherige Entwicklungsarbeiten an Ihrer Implementierung, um sicherzustellen, dass Ihre Oberflächen die Inhalte interpretieren und bereitstellen können, die auf der Edge-Seite von [!DNL Journey Optimizer] für diese Oberflächen. [Weitere Informationen](#surface-definition)
 * Es erfordert mehr Planung und kann nur die Dinge ändern, die Entwickler angeben. Daher ist es wichtig, die Komponenten zu identifizieren (Startseiten-Banner, Hero-Bild, Menüleiste usw.) auf den Oberflächen, die für Personalisierung oder Tests geändert werden müssen, und wenden Sie sich an Ihr Entwicklungsteam, um die für die Bearbeitung dieser Änderungen erforderliche Implementierung zu erstellen.
 * Damit können Sie JSON-Code-Inhalte verwenden.
@@ -133,7 +133,7 @@ Die wichtigsten Schritte zur Implementierung einer code-basierten Kampagne sind:
 
 1. Definieren Sie eine [Oberfläche](#surface-definition); dies ist im Grunde der Ort, an dem Sie Ihr code-basiertes Erlebnis hinzufügen und eine Kampagne in [!DNL Journey Optimizer] mit dieser Oberfläche. [Weitere Informationen](create-code-based.md#create-code-based-campaign)
 
-1. Erstellen Sie mithilfe der [!DNL Journey Optimizer] Code-Editor. [Weitere Informationen](create-code-based.md#edit-code)
+1. Erstellen Sie mithilfe der [!DNL Journey Optimizer] Ausdruckseditor. [Weitere Informationen](create-code-based.md#edit-code)
 
 1. Ihr App-Implementierungsteam sendet explizite API- oder SDK-Aufrufe, um Inhalte für die benannten Oberflächen abzurufen, z. B. &quot;Bannertext&quot;oder &quot;Recommendations Tray 1&quot;oder nicht UI-bezogene Entscheidungspunkte in einer Anwendung, z. B. &quot;Suchalgorithmparameter&quot;. In diesem Fall ist das Implementierungsteam für das Rendern oder anderweitige Interpretation und die Bearbeitung des zurückgegebenen Inhalts verantwortlich.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
