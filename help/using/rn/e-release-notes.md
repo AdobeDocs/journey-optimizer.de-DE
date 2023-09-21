@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
+source-git-commit: 2fb87752a3f9190a5e9b885f102423827545f9fe
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 39%
+source-wordcount: '517'
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <td>
 <p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Um auf das Menü "Bericht"zugreifen zu können, müssen Sie über die Berechtigung **Kanalberichte anzeigen** verfügen.</p>
 <img src="assets/channel-reports.png"/>
-<p>Weitere Informationen finden Sie in der <a href="../in-app/get-started-in-app.md">ausführlichen Dokumentation</a>.</p-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
