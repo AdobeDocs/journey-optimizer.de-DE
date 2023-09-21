@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 38%
+source-wordcount: '594'
+ht-degree: 29%
 
 ---
 
@@ -29,13 +29,28 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
+<th><strong>Speicherung der Anmeldeinformationen von Per-Sandbox-Mobile Apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dieser neuen Funktion können Sie Push-Anmeldeinformationen einfach in App-Oberflächen verwalten und mit einer dedizierten Sandbox verknüpfen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../in-app/inapp-configuration.md">ausführlichen Dokumentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Konsolidierte Kanalberichte</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Um auf das Menü "Bericht"zugreifen zu können, müssen Sie über die Berechtigung **Kanalberichte anzeigen** verfügen.</p>
+<p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Um auf das Menü "Bericht"zugreifen zu können, müssen Sie über die Berechtigung "Kanalberichte anzeigen"verfügen.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -78,7 +93,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Warnhinweise**
 
-Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn ein gelesenes Segment fehlschlägt.
+* Zwei neue Arten von Systemwarnungen wurden eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion oder ein Lesesegment fehlschlägt.
 
 **Web-Kanal**
 
@@ -88,9 +103,9 @@ Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachricht
 
 **Journeys**
 
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn eine benutzerdefinierte Aktion fehlschlägt.
+* Die benutzerdefinierten Reaktionsfunktionen für Aktionen sind jetzt allgemein verfügbar. Auf diese Weise können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle Zollaktionen auf 5000 Anrufe/s pro Endpunkt beschränkt werden können.
 * Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren.
-
+* Die maximale Dauer, die Sie in der Warteaktivität definieren können, beträgt jetzt 29 Tage anstelle von 30 Tagen.
 
 **E-Mail-Kanal**
 
