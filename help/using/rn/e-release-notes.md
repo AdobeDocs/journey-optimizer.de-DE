@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
-<table>
-<thead>
-<tr>
-<th><strong>Speicherung der Anmeldeinformationen von Per-Sandbox-Mobile Apps</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit dieser neuen Funktion können Sie Push-Anmeldeinformationen einfach in App-Oberflächen verwalten und mit einer dedizierten Sandbox verknüpfen.</p>
-<p>Weitere Informationen finden Sie in der <a href="../in-app/inapp-configuration.md">ausführlichen Dokumentation</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Speicherung der Anmeldeinformationen von Per-Sandbox-Mobile Apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dieser neuen Funktion können Sie Push-Anmeldeinformationen einfach in App-Oberflächen verwalten und mit einer dedizierten Sandbox verknüpfen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../in-app/inapp-configuration.md">ausführlichen Dokumentation</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Verbesserungen {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Zielgruppen**
 
 * Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
-* Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * Sie können nun Zielgruppen aus Kompositionsarbeitsabläufen in Journey ansprechen.
 
 **Personalisierung**
@@ -111,6 +111,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn deren E-Mail-Adressen auf der Adobe Journey Optimizer-Unterdrückungsliste stehen.
 
-**Entscheidungs-Management**
+<!--**Decision management**
 
-Die Zielgruppenauswahl in Journeys oder Kampagnen wurde verbessert, indem neue Spalten hinzugefügt werden, die die Herkunft und Aktualisierungshäufigkeit von Zielgruppen anzeigen.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
