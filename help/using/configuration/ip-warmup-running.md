@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ Auf Phasenebene stellt das System sicher, dass zuvor angesprochene + neue Profil
 
    * Es ist nicht möglich, eine Kampagne auszuwählen, die bereits in einer anderen IP-Warmup-Kampagne verwendet wird.
 
-1. Für jede Phase gilt Folgendes:
+1. Im **[!UICONTROL Profilausschluss]** -Abschnitt, können Sie sehen, dass die Profile aus den vorherigen Ausführungen dieser Phase immer ausgeschlossen sind. Wenn beispielsweise im Ausführen von #1 ein Profil in den ersten 4800 Zielgruppenempfängern behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung 2 nicht erhält.
 
-   * **[!UICONTROL Profilausschluss]** - Die Profile aus den vorherigen Ausführungen dieser Phase werden immer ausgeschlossen. Wenn beispielsweise Leo beim Ausführen von #1 in den ersten 6300 Personen, die angesprochen werden, behandelt wurde, stellt das System automatisch sicher, dass Leo die E-Mail nicht in Ausführung Nr. 2 erhält.
+1. Aus dem **[!UICONTROL Campaign-Zielgruppen ausgeschlossen]** die Zielgruppen aus anderen <!--executed/live?-->Kampagnen, die Sie aus der aktuellen Phase ausschließen möchten.
 
-   * **[!UICONTROL Campaign-Zielgruppen ausgeschlossen]** - Wählen Sie die Zielgruppen aus anderen <!--executed/live?-->Kampagnen, die Sie aus der aktuellen Phase ausschließen möchten.
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     Beispielsweise können Sie eine Phase ausführen, die aus jedem Grund geteilt werden musste. In diesem Fall möchten Sie in Phase 2 die in Phase 1 verwendete Kampagne in diesen Abschnitt aufnehmen, damit zuvor kontaktierte Personen aus Phase 1 in Phase 2 nicht einbezogen werden. Dies kann nicht nur mit Kampagnen erfolgen, die im selben IP-Warmup-Plan verwendet werden, sondern auch mit einem anderen IP-Warmup-Plan.
+   Während der Ausführung von Phase 1 mussten Sie beispielsweise [teilen](#split-phase) aus irgendeinem Grund. Daher können Sie die in Phase 1 verwendete Kampagne ausschließen, sodass zuvor kontaktierte Profile aus Phase 1 nicht in Phase 2 eingeschlossen sind. Sie können Kampagnen auch aus anderen IP-Aufwärmsplänen ausschließen.
 
-   * **[!UICONTROL Domänengruppen ausgeschlossen]** - Wählen Sie die Domänen aus, die Sie von dieser Phase ausschließen möchten, z. B. Gmail. <!--??-->
+1. Aus dem **[!UICONTROL Domänengruppen ausgeschlossen]** wählen Sie die Domänen aus, die Sie aus dieser Phase ausschließen möchten.
 
-     Nachdem Sie einige Tage lang IP-Warmup ausgeführt haben, erkennen Sie, dass der ISP-Ruf bei einer Domain sagt, dass Hotmail nicht gut ist und Sie es mit ISP lösen möchten, aber nicht den IP-Warmup-Plan stoppen möchten. In einem solchen Fall können Sie die Domain-Gruppe Hotmail in die ausgeschlossene Kategorie setzen.
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >Der Domänenausschluss erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise eine laufende Phase aufteilen, um Ausnahmen hinzuzufügen. Gleichermaßen müssen Sie, wenn die Domain-Gruppe keine OOTB-Domänengruppe ist, in Excel eine Domänengruppe erstellen und diese dann hochladen und ausschließen.
+   Wenn Sie beispielsweise einige Tage lang IP-Warmup ausgeführt haben, erkennen Sie, dass der ISP-Ruf bei einer Domain (d. h. Adobe) nicht gut ist, und möchten ihn beheben, ohne Ihren IP-Warmup-Plan zu stoppen. In diesem Fall können Sie die Adobe-Domain-Gruppe ausschließen.
+
+   >[!NOTE]
+   >
+   >Der Domänenausschluss erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise eine laufende Phase aufteilen, um Ausschlüsse hinzuzufügen. Wenn die Domain-Gruppe keine OOTB-Domain-Gruppe ist, müssen Sie diese Domain-Gruppe zur Excel-Datei hinzufügen, sie hochladen und dann die Domäne ausschließen.
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. Sie können bei Bedarf eine Phase hinzufügen. Diese wird nach der letzten aktuellen Phase hinzugefügt. Verwenden Sie die **[!UICONTROL Löschphase]** -Schaltfläche, um alle unerwünschten Phasen zu entfernen.
+1. Sie können bei Bedarf eine Phase hinzufügen. Sie wird nach der letzten aktuellen Phase hinzugefügt.
+
+1. Verwenden Sie die **[!UICONTROL Löschphase]** -Schaltfläche, um alle unerwünschten Phasen zu entfernen.
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ Auf Phasenebene stellt das System sicher, dass zuvor angesprochene + neue Profil
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Wählen Sie eine Endzeit aus, d. h. im Grunde das Fenster, in dem wir eine Warmup-Kampagne ausführen können, falls es zu Verzögerungen bei der Ausführung des Audience-Auftrags kommt. Wenn nichts angegeben wird, versuchen wir es zur Startzeit und schlagen fehl. Wenn die Endzeit angegeben ist, wird die Ausführung zwischen diesem Fenster ausgeführt.
+1. Wählen Sie eine Endzeit aus, die das Fenster definiert, in dem die IP-Aufwärmekampagne ausgeführt werden kann, falls es bei der Ausführung des Zielgruppensegmentierungsauftrags zu Verzögerungen kommt. Wenn keine Endzeit angegeben ist, wird die Ausführung zum Startzeitpunkt versucht und schlägt fehl, wenn die Segmentierung nicht abgeschlossen wurde.
 
 1. Aktivieren Sie jeden Lauf. Stellen Sie sicher, dass Sie eine Zeit so früh planen, dass der Segmentierungsauftrag ausgeführt werden kann. <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ Auf Phasenebene stellt das System sicher, dass zuvor angesprochene + neue Profil
    >
    >Jede Ausführung muss mindestens 12 Stunden vor der tatsächlichen Versandzeit aktiviert werden. Andernfalls kann die Segmentierung nicht abgeschlossen sein. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. Wenn die Kampagnenausführung noch nicht gestartet wurde, können Sie den Start stoppen.<!--why?-->
 
-   Sobald die Kampagnenausführung gestartet wurde, wird die **[!UICONTROL Anhalten]** -Schaltfläche nicht mehr verfügbar. <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >Sobald die Kampagnenausführung gestartet wurde, wird die **[!UICONTROL Anhalten]** -Schaltfläche nicht mehr verfügbar. <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ Auf Phasenebene stellt das System sicher, dass zuvor angesprochene + neue Profil
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. Wenn Sie jederzeit eine andere Kampagne verwenden möchten, die von einem bestimmten Lauf ausgehend beginnt, wählen Sie die **[!UICONTROL Option &quot;In neue Phase aufteilen&quot;]** über das Symbol mit den drei Punkten aus. Für die verbleibenden Phasen der aktuellen Phase wird eine neue Phase erstellt. Führen Sie die Schritte aus [above](#define-phases) , um die neue Phase zu definieren.
+## Aufspaltung einer Phase {#split-phase}
 
-   Wenn Sie beispielsweise diese Option für die Ausführung Nr. 4 auswählen, werden die Ausführungen Nr. 4 bis Nr. 8 in eine neue Phase verschoben.
+Wenn Sie jederzeit eine andere Kampagne verwenden möchten, die von einem bestimmten Lauf ausgehend beginnt, wählen Sie die **[!UICONTROL Option &quot;In neue Phase aufteilen&quot;]** über das Symbol mit den drei Punkten aus.
+
+Für die verbleibenden Phasen der aktuellen Phase wird eine neue Phase erstellt. Führen Sie die Schritte aus [above](#define-phases) , um die neue Phase zu definieren.
+
+Wenn Sie beispielsweise diese Option für Ausführen Nr. 4 auswählen, werden die Ausführungen Nr. 4 zu Nr. 8 in eine neue Phase verschoben.
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.

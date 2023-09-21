@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 5%
@@ -67,14 +67,11 @@ Einmal [eine oder mehrere Kampagnen erstellt haben](ip-warmup-campaign.md) mit e
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Einrichten von Kanaloberflächen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmekampagnen"
 
->[!CAUTION]
->
->Um die IP-Aufwärmspläne zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die **[!UICONTROL Zustellbarkeitsberater]** -Berechtigung.
-<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
-
 Wenn eine oder mehrere Live-Kampagnen mit **[!UICONTROL Aktivierung des IP-Warmlaufplans]** aktiviert sind, können Sie sie mit einem IP-Warmup-Plan verknüpfen.
 
 >[!CAUTION]
+>
+>Um die IP-Aufwärmspläne zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die **[!UICONTROL Zustellbarkeitsberater]** -Berechtigung. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 >
 >Wenden Sie sich an Ihren Zustellbarkeitsberater, um sicherzustellen, dass Ihre Vorlage für den IP-Warmup-Plan korrekt eingerichtet ist. <!--TBC-->
 
