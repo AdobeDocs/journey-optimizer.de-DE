@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '556'
+ht-degree: 22%
 
 ---
 
@@ -96,7 +96,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Web-Kanal**
 
-* Sie können jetzt auswählen, auf welche spezifischen Ansichten Sie die Änderungen Ihrer Webseite anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
+* Einzelseitenanwendungen (SPA) können jetzt im Web-Visual Editor erstellt werden. Sie können jetzt auswählen, auf welche spezifischen Ansichten Sie die Änderungen Ihrer Webseite anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist eine einmalige Einrichtung von Entwicklern erforderlich. Dadurch können Marketing-Experten Adobe Journey Optimizer-Webkampagnen auf SPA erstellen und ausführen.
+
 * Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie neue Änderungen direkt im Bereich Änderungen hinzufügen, ohne eine Komponente auswählen und in der Designer-Oberfläche bearbeiten zu müssen.
 * Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen - zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde.
 
