@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 22%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Warnhinweise**
 
-* Zwei neue Arten von Systemwarnungen wurden eingeführt. Sie können jetzt benachrichtigt werden, wenn eine benutzerdefinierte Aktion oder ein Lesesegment fehlschlägt.
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine gelesene Audience fehlschlägt.
 
 **Web-Kanal**
 
@@ -103,13 +103,20 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* Die benutzerdefinierten Reaktionsfunktionen für Aktionen sind jetzt allgemein verfügbar. Auf diese Weise können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle Zollaktionen auf 5000 Anrufe/s pro Endpunkt beschränkt werden können.
+* Unterstützung für benutzerdefinierte Aktionsantworten ist jetzt allgemein verfügbar. Auf diese Weise können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle Zollaktionen auf 5000 Anrufe/s pro Endpunkt beschränkt werden können.
 * Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren.
-* Die maximale Dauer, die Sie in der Warteaktivität definieren können, beträgt jetzt 29 Tage anstelle von 30 Tagen.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **E-Mail-Kanal**
 
 Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn deren E-Mail-Adressen auf der Adobe Journey Optimizer-Unterdrückungsliste stehen.
+
+**Reporting**
+
+Sie können jetzt Journey Optimizer-Berichte als CSV-Datei exportieren. [Weitere Informationen](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
