@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '475'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 
 >[!CAUTION]
 >
->Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist..
+>Datensätze können für den Echtzeit-Profildienst nicht aktiviert werden. Stellen Sie sicher, dass die Variable **[!UICONTROL Profil]** -Umschalter ist deaktiviert.
 
 [!DNL Journey Optimizer] sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 

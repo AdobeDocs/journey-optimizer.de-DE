@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 
 >[!NOTE]
 >
->Ab sofort wird der Schnellversand für Push-Benachrichtigungs-API-ausgelöste Kampagnen nicht mehr unterstützt.
+>Derzeit wird der Modus für einen schnellen Versand für Kampagnen, die von der Push-Benachrichtigungs-API ausgelöst werden, nicht unterstützt.
 
 ## Erstellen einer API-ausgelösten Kampagne {#create}
 
