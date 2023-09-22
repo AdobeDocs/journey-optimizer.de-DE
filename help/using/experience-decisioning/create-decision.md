@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 11%
 
 ---
@@ -182,11 +182,11 @@ Die Rangfolge der Angebote ist nun wie folgt: Angebot 5, Angebot 3, Angebot 4, A
 
 ## Entscheidungsrichtlinie im Code-Editor verwenden {#use-decision-policy}
 
-Nach der Erstellung kann die Entscheidungsrichtlinie im [Code-Editor](../code-based/create-code-based.md#edit-code). Gehen Sie dazu wie folgt vor.
+Nach der Erstellung kann die Entscheidungsrichtlinie im [Ausdruckseditor](../code-based/create-code-based.md#edit-code). Gehen Sie dazu wie folgt vor.
 
 >[!NOTE]
 >
->Der Code-Editor nutzt die [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+>Codebasiertes Erlebnis nutzt die [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
 1. Klicken Sie auf das Symbol + . Der Code, der der Entscheidungsrichtlinie entspricht, wird hinzugefügt. Jetzt können Sie alle Entscheidungsattribute hinzufügen, die Sie in diesem Code hinzufügen möchten.
 
@@ -198,7 +198,7 @@ Nach der Erstellung kann die Entscheidungsrichtlinie im [Code-Editor](../code-ba
 
 1. Klicken Sie auf die Entscheidungsrichtlinie. Die Entscheidungsattribute werden angezeigt.
 
-   Diese Attribute werden im **[!UICONTROL Angebote]** -Schema des Katalogs. Benutzerdefinierte Attribute werden im **_cjmstage** Ordner- und Standardattribute in **_experience** Ordner. [Weitere Informationen zum Schema des Angebotskatalogs](catalogs.md)
+   Diese Attribute werden im **[!UICONTROL Angebote]** -Schema des Katalogs. Benutzerdefinierte Attribute werden im **`_<imsOrg`>** Ordner- und Standardattribute in **`_experience`** Ordner. [Weitere Informationen zum Schema des Angebotskatalogs](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

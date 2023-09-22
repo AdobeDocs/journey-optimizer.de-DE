@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -168,10 +168,10 @@ In der folgenden Tabelle sind einige Beispiele für die Definition von Oberfläc
 | Web | web://domain.com/*#element | Platzhalteroberfläche - stellt ein einzelnes Element auf jeder Seite unter einer bestimmten Domäne dar. |
 | Desktop | desktop://com.vendor.bundle | Stellt ein bestimmtes Desktop-Programm dar. |
 | Desktop | desktop://com.vendor.bundle#element | Stellt ein bestimmtes Element in einer Anwendung dar, z. B. eine Schaltfläche, ein Menü, ein Hero-Banner usw. |
-| iOS-App | ios://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine Plattform dar, in diesem Fall die iOS-App. |
-| iOS-App | ios://com.vendor.bundle/activity | Stellt eine bestimmte Aktivität (Ansicht) in einer Mobile App dar. |
-| iOS-App | ios://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
-| Android-App | android://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine einzelne Plattform dar - in diesem Fall eine Android-App. |
+| iOS-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine Plattform dar, in diesem Fall die iOS-App. |
+| iOS-App | mobileapp://com.vendor.bundle/activity | Stellt eine bestimmte Aktivität (Ansicht) in einer Mobile App dar. |
+| iOS-App | mobileapp://com.vendor.bundle/activity#element | Stellt ein bestimmtes Element innerhalb einer Aktivität dar, z. B. eine Schaltfläche oder ein anderes Ansichtselement. |
+| Android-App | mobileapp://com.vendor.bundle | Stellt eine bestimmte Mobile App für eine einzelne Plattform dar - in diesem Fall eine Android-App. |
 | tvOS-App | tvos://com.vendor.bundle | Stellt eine bestimmte tvOS-App dar. |
 | TV-Programm | tvcd://com.vendor.bundle | Stellt eine bestimmte mit Smart TV oder TV verbundene Geräteanwendung dar - Bundle-ID. |
 | Service | service://servicename | Stellt einen serverseitigen Prozess oder eine andere manuelle Entität dar. |

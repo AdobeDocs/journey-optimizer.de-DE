@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 17%
@@ -271,7 +271,7 @@ Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge 
 
 ## Hybridimplementierung {#hybrid-implementation}
 
-Wenn Sie über eine hybride Implementierung verfügen, überprüfen Sie die folgenden Links.
+Wenn Sie über eine hybride Implementierung verfügen, sehen Sie sich die Links unten an.
 
 * Adobe Tech Blog: [Hybride Personalisierung im Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK-Dokumentation: [Hybride Personalisierung mit Web SDK und Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
