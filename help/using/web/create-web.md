@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 95%
 
 ---
 
@@ -79,13 +79,44 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
+## Testen der Web-Kampagne {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Vorschau des Web-Erlebnisses"
+>abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
+
+Einmal [Weberfahrung erstellen](edit-web-content.md) Mit dem Webdesigner können Sie vor der Aktivierung Ihrer Kampagne eine Vorschau der geänderten Webseiten anzeigen. Gehen Sie dazu wie folgt vor.
+
+>[!CAUTION]
+>
+>Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
+
+1. Wählen Sie entweder im Bildschirm &quot;Inhalt bearbeiten&quot;der Webkampagne oder im Webdesigner die Option **[!UICONTROL Inhalt simulieren]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein oder mehrere Testprofile auszuwählen.
+1. Es wird eine Vorschau der geänderten Web-Seite angezeigt.
+
+   ![](assets/web-designer-preview.png)
+
+1. Sie können sie auch im Standard-Browser öffnen oder die Test-URL kopieren, um sie in einen beliebigen Browser einzufügen. Auf diese Weise können Sie den Link für Ihr Team und Ihre Interessensgruppen freigeben, damit sie in der Lage sind, das neue Web-Erlebnis in einem beliebigen Browser in der Vorschau zu betrachten, bevor die Kampagne live geschaltet wird.
+
+   >[!NOTE]
+   >
+   >Beim Kopieren der Test-URL ist der angezeigte Inhalt derjenige, der für das Testprofil personalisiert wurde, das zum Zeitpunkt der Erstellung der Inhaltsimulation in [!DNL Journey Optimizer] verwendet wurde.
+
 ## Aktivieren der Web-Kampagne {#activate-web-campaign}
 
-Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgelegt und Ihren Inhalt wie gewünscht mit dem [Web-Designer](author-web.md) bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
+Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgelegt und Ihren Inhalt wie gewünscht mit dem [Web-Designer](edit-web-content.md#work-with-web-designer) bearbeitet haben, können Sie Ihre Web-Kampagne überprüfen und aktivieren. Führen Sie dazu folgende Schritte durch.
 
+<!--
 >[!NOTE]
 >
->Sie können vor der Aktivierung auch eine Vorschau des Web-Kampagneninhalts anzeigen. [Weitere Informationen](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 

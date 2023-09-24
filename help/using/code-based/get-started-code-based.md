@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ Verwendung des code-basierten Kanals anstelle des anderen [!DNL Journey Optimize
 
 * Sie können Code-basierte Erlebnisse jederzeit verwenden, wenn nicht über einen Webbrowser oder eine mobile App auf Ihre digitale Eigenschaft zugegriffen wird - in Fällen, in denen Sie die [!DNL Journey Optimizer] [Webkanal](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} -Kanal.
 
-* Sie können den code-basierten Kanal als Alternative zum [!DNL Journey Optimizer] Webkanal , wenn Ihre Website nicht in die [Web Visual Editor](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} , das visuelles Authoring für den Webkanal ermöglicht.
+* Sie können den code-basierten Kanal als Alternative zum [!DNL Journey Optimizer] Webkanal , wenn Ihre Website nicht in die [Webdesigner](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} , das visuelles Authoring für den Webkanal ermöglicht.
 
 * Sie können den code-basierten Kanal auch als Alternative zum [!DNL Journey Optimizer] Web- oder In-App-Kanäle, falls Sie über eine API-basierte, Headless- oder serverseitige Implementierung verfügen.
 
@@ -104,9 +104,9 @@ Verwendung des code-basierten Kanals anstelle des anderen [!DNL Journey Optimize
 Um Webanwendungsfälle auszuführen, können Sie entweder den Webkanal oder das code-basierte Erlebnis verwenden. Je nach Kontext ist jedoch eines der Erlebnisse angemessener als der andere. Die wichtigsten Unterschiede sind unten aufgeführt, sodass Sie eine fundierte Entscheidung darüber treffen können, wann Sie sie verwenden möchten.
 
 **Web**
-* Bearbeiten Sie den Inhalt mithilfe der [Visual Editor](../web/author-web.md){target="_blank"}.
+* Bearbeiten Sie den Inhalt mithilfe der [Webdesigner](../web/edit-web-content.md#work-with-web-designer){target="_blank"} Visual Editor.
 * Sie benötigen die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* Der Webkanal ermöglicht es Ihnen, alles auf Ihrer Seite zu ändern und verfügt über eine vordefinierte Liste von Aktionen, die Sie zum Vornehmen von Änderungen verwenden können. [Weitere Informationen](../web/author-web.md){target="_blank"}
+* Der Webkanal ermöglicht es Ihnen, alles auf Ihrer Seite zu ändern und verfügt über eine vordefinierte Liste von Aktionen, die Sie zum Vornehmen von Änderungen verwenden können. [Weitere Informationen](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Es ist einfach einzurichten und schnell zu gehen.
 * Es ist auf Marketingexperten ausgerichtet.
 
