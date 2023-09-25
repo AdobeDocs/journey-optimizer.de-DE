@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ Inhalt dieses Dokumentationshandbuchs:
 * **[IP-Warmup-Plan ausführen](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+Einmal [einen IP-Warmup-Plan erstellt hat](ip-warmup-plan.md) und die mit Ihrem Zustellbarkeitsberater vorbereitete Datei hochgeladen haben, können Sie die Phasen und Ausführungen Ihres Plans definieren.
+
+Jede Phase entspricht einem Zeitraum, der aus mehreren Ausführungen besteht und dem Sie eine Kampagne zuweisen.
+
+Sie haben für jede Ausführung eine bestimmte Anzahl von Empfängern und planen die Ausführung dieser Ausführung.
 
 ## Definieren der Phasen {#define-phases}
 
@@ -96,7 +102,7 @@ Auf Phasenebene stellt das System sicher, dass zuvor angesprochene + neue Profil
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Wählen Sie eine Endzeit aus, die das Fenster definiert, in dem die IP-Aufwärmekampagne ausgeführt werden kann, falls es bei der Ausführung des Zielgruppensegmentierungsauftrags zu Verzögerungen kommt. Wenn keine Endzeit angegeben ist, wird die Ausführung zum Startzeitpunkt versucht und schlägt fehl, wenn die Segmentierung nicht abgeschlossen wurde.
+1. Wählen Sie optional das Fenster aus, in dem die IP-Warmup-Kampagne ausgeführt werden kann, falls es zu Verzögerungen bei der Ausführung des Zielgruppensegmentierungsauftrags kommt. Wenn keine Endzeit angegeben ist, wird die Ausführung zum Startzeitpunkt versucht und schlägt fehl, wenn die Segmentierung nicht abgeschlossen wurde.
 
 1. Aktivieren Sie jeden Lauf. Stellen Sie sicher, dass Sie eine Zeit so früh planen, dass der Segmentierungsauftrag ausgeführt werden kann. <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## Plan überwachen
+## Plan als abgeschlossen markieren {#mark-as-completed}
 
-Eine Ausführung kann die folgenden Status haben:<!--TBC with Medha-->:
+Wenn Ihr Plan nicht gut genug läuft oder Sie ihn fallen lassen möchten, um einen weiteren zu erstellen, können Sie ihn als abgeschlossen markieren.
 
-* **[!UICONTROL Abgeschlossen]**:
-* **[!UICONTROL Fehlgeschlagen]**:
-* **[!UICONTROL Abgebrochen]**: Sie haben die Ausführung angehalten, bevor die Kampagnenausführung gestartet wurde.
+Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Mehr]** Schaltfläche oben rechts im IP-Warmup-Plan und wählen Sie **[!UICONTROL Kennzeichnen als abgeschlossen]**.
 
-Vorteile :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* Berichte werden weiterhin auf Kampagnenebene mit ähnlichen Funktionen wie heute angezeigt. Aber der IP-Aufwärtsplan dient auch als konsolidierter Bericht an einem einzigen Ort, an dem festgestellt wird, wie viele Hinrichtungen durchgeführt wurden und so weiter.
+Diese Option ist nur verfügbar, wenn alle im Plan ausgeführten Vorgänge in **[!UICONTROL Erfolgreich]** oder **[!UICONTROL Entwurf]** -Status. Es kann kein Run ausgeführt werden **[!UICONTROL Live]**.
 
-* Zentraler Ort, um zu verwalten und zu sehen, wie IP-Warm geht.
+Die verschiedenen Ausführungsstatus werden in [diesem Abschnitt](#monitor-plan).
 
-* Konsolidierter Bericht auf Kreativ-/Kampagnenebene, da alle für eine Phase ausgeführt werden
+## Plan überwachen {#monitor-plan}
+
+Um die Wirkung Ihres Plans zu messen, können Sie die Leistung Ihrer IP-Aufwärmekampagnen mithilfe von Berichten überprüfen. Weitere Informationen zur Kampagnen-E-Mail [Live-Bericht](../reports/campaign-live-report.md#email-live) und [globaler Bericht](../reports/campaign-global-report.md##email-global).
+
+Der IP-Warmup-Plan selbst dient auch als konsolidierter Bericht an einem zentralen Ort. Sie können Elemente wie die Anzahl der **[!UICONTROL Live]** oder **[!UICONTROL Erfolgreich]** wird für jede Phase ausgeführt und Sie können sehen, wie Ihr IP-Aufwärmplan voranschreitet.
+
+Ein Lauf kann die folgenden Status haben:
+
+* **[!UICONTROL Entwurf]** : jedes Mal, wenn eine Ausführung erstellt wird, entweder wenn [Hochladen eines neuen Plans](ip-warmup-plan.md) oder [Hinzufügen eines Vorgangs](#define-runs) von der Benutzeroberfläche aus, nimmt es die **[!UICONTROL Entwurf]** -Status.
+* **[!UICONTROL Live]**: Wenn Sie einen Run aktivieren, dauert es die **[!UICONTROL Live]** -Status.
+* **[!UICONTROL Erfolgreich]**<!--TBC-->: Die Kampagnenausführung für diesen Lauf ist abgeschlossen. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Abgebrochen]**: a **[!UICONTROL Live]** wurde mit der **[!UICONTROL Anhalten]** Schaltfläche. Diese Schaltfläche ist nur verfügbar, wenn die Ausführung der Kampagne noch nicht gestartet wurde. [Weitere Informationen](#define-runs)
+* **[!UICONTROL Fehlgeschlagen]**: Beim System ist ein Fehler aufgetreten oder die für die aktuelle Phase verwendete Kampagne wurde angehalten.<!--what should the user do in that case?-->.

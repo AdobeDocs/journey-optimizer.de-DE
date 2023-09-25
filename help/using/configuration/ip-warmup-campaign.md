@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 8%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -35,15 +35,17 @@ Inhalt dieses Dokumentationshandbuchs:
 
 >[!ENDSHADEBOX]
 
-Sie müssen eine oder mehrere Kampagnen mit aktivierter Option erstellen, damit sie in einem IP-Aufwärmplan verwendet werden können.
+Vor der Erstellung des IP-Warmup-Plans in [!DNL Journey Optimizer]müssen Sie zunächst eine oder mehrere Kampagnen mit aktivierter dedizierter Option erstellen, damit sie in einem IP-Warmup-Plan verwendet werden können.
 
 Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 
-1. E-Mail erstellen [Oberfläche](channel-surfaces.md) für die Domain und die IPs, die Sie für Ihren Warmup-Plan identifiziert haben.<!--how do you identify these or who does it at the customer level?-->
+1. Erstellen Sie eine [email](../email/email-settings.md) channel [Oberfläche](channel-surfaces.md) für die Domain und die IPs, die Sie für Ihren Warmup-Plan identifiziert haben.
 
    >[!NOTE]
    >
    >Erfahren Sie, wie Sie die Domäne und IPs auswählen, die auf einer E-Mail-Oberfläche verwendet werden sollen in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
+   >
+   >Arbeiten Sie bei Bedarf mit Ihrem Zustellbarkeitsberater zusammen, um die Domäne und IPs zu identifizieren, die für Ihren IP-Aufwärmsplan verwendet werden sollen.<!--TBC-->
 
 1. Erstellen Sie eine [Kampagne](../campaigns/create-campaign.md) und wählen Sie die [Email](../email/create-email.md#create-email-journey-campaign) Aktion.
 
@@ -59,15 +61,25 @@ Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   Die Kampagne [Zeitplan](../campaigns/create-campaign.md#schedule) wird von der [IP-Warmup-Plan](ip-warmup-plan.md) wird mit verknüpft, was bedeutet, dass der Zeitplan in der Kampagne selbst nicht mehr definiert ist.
+   Die Kampagne [Zeitplan](../campaigns/create-campaign.md#schedule) wird vom IP-Warmup-Plan gesteuert, mit dem er verknüpft wird, was bedeutet, dass der Zeitplan nicht mehr in der Kampagne selbst definiert ist.
 
-1. [Aktivieren](../campaigns/review-activate-campaign.md) die Kampagne. Sobald es live ist, kann es in einem IP-Warmup-Plan verwendet werden.
+1. Führen Sie die Schritte zum Erstellen einer E-Mail-Kampagne aus, z. B. die Definition der Kampagneneigenschaften, [audience](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, und [content](../email/get-started-email-design.md#key-steps).
 
->[!NOTE]
->
->Bei einer Live-Kampagne mit aktiviertem IP-Warmup-Plan wird die Variable **[!UICONTROL Löschen]** -Schaltfläche verfügbar, bis sie mit einem IP-Warmup-Plan verknüpft ist.
+   >[!NOTE]
+   >
+   >Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
+1. [Aktivieren](../campaigns/review-activate-campaign.md) die Kampagne.
+
+   >[!NOTE]
+   >
+   >Bei einer Live-Kampagne mit aktiviertem IP-Warmup-Plan wird die Variable **[!UICONTROL Löschen]** -Schaltfläche verfügbar, bis sie mit einem IP-Warmup-Plan verknüpft ist. Sobald die Kampagne in einem IP-Warmup-Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
+
+1. Die Kampagne wird im **[!UICONTROL Kampagnen]** Liste. Um alle in der aktuellen Sandbox erstellten IP-Warmup-Kampagnen einfach abzurufen, können Sie nach der Kampagnenoption filtern **[!UICONTROL IP-Wärme]**.
+
+   ![](assets/ip-warmup-campaign-filter.png)
+
+Sobald die Kampagne live ist, kann sie in einem IP-Warmup-Plan verwendet werden. [Weitere Informationen](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 

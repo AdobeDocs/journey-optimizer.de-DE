@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '798'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,57 @@ Inhalt dieses Dokumentationshandbuchs:
 
 >[!ENDSHADEBOX]
 
-Einmal [eine oder mehrere Kampagnen erstellt haben](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der IP-Warmup-Option, können Sie mit der Erstellung Ihres IP-Warmup-Plans beginnen.
+Nachdem Sie eine oder mehrere [IP-Warmup-Kampagnen](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der entsprechenden Option, können Sie mit der Erstellung Ihres IP-Warmup-Plans beginnen.
+
+## Vorlage für IP-Aufwärmung ausfüllen {#upload-plan}
+
+Bevor Sie in der Journey Optimizer-Benutzeroberfläche einen IP-Aufwärmplan erstellen können, müssen Sie eine Vorlage im Excel-Format mit allen Daten ausfüllen, die für Ihren Plan bestimmt sind.
+
+>[!CAUTION]
+>
+>Wenden Sie sich an Ihren Zustellbarkeitsberater, um sicherzustellen, dass Ihre IP-Warmup-Plandatei korrekt eingerichtet ist.
+
+Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Warmup-Plan.
+
+![](assets/ip-warmup-sample-file.png)
+
+### Registerkarte &quot;IP-Warmup-Plan&quot;
+
+IP-Aufwärmphase ist eine Aktivität, die darin besteht, die Anzahl der E-Mails, die von Ihren IPs und Ihrer Domain an die wichtigsten Internetdienstanbieter (ISPs) gesendet werden, schrittweise zu erhöhen, um Ihre Reputation als legitimer Absender zu etablieren.
+
+Diese Aktivität wird in der Regel mithilfe eines Zustellbarkeitsberaters oder -experten durchgeführt, der einen gut durchdachten Plan basierend auf der Branchendomäne, dem Anwendungsfall, der Region, den ISPs und verschiedenen anderen Faktoren erstellt.
+
+* In diesem Beispiel wurde ein Plan erstellt, der sich über 17 Tage erstreckt und ein Zielvolumen von xxx Profilen erreicht.
+
+* Die Ausführung erfolgt in sechs Phasen.
+
+* Sie können für die Domänen, an die Sie eine Bereitstellung durchführen möchten, so viele Spalten wie gewünscht haben. In diesem Beispiel ist der Plan in vier Spalten unterteilt, die den in Ihrem Plan verwendeten Domain-Gruppen entsprechen: Gmail, Adobe, Yahoo und andere.
+
+Die Idee besteht darin, in den ersten Phasen mehr Abläufe zu haben, die Anzahl der Zieladressen schrittweise zu erhöhen und gleichzeitig die Anzahl der Ausführungen zu reduzieren.
+
+Die Liste der vordefinierten Domänen lautet wie folgt:
+
+* Gmail
+* Adobe
+* WP
+* Comcast
+* Yahoo
+* Bigpond
+* Orange
+* Softbank
+* Docomo
+* Vereinigtes Internet
+* Microsoft
+* KDDI
+* Italia Online
+* La Poste
+* Apple
+
+### Registerkarte &quot;Benutzerspezifische Domänengruppe&quot;
+
+Sie können auch weitere Spalten mit Ihren benutzerdefinierten Domänengruppen hinzufügen.
+
+Verwenden Sie die **[!UICONTROL Benutzerspezifische Domänengruppe]** um eine neue Domäne zu definieren, und für jede Domäne können Sie alle darin enthaltenen Subdomains hinzufügen.<!--TBC-->
 
 ## IP-Warmlaufpläne aufrufen und verwalten {#manage-ip-warmup-plans}
 
@@ -40,10 +90,10 @@ Einmal [eine oder mehrere Kampagnen erstellt haben](ip-warmup-campaign.md) mit e
 
 1. Sie können nach Status filtern. Die verschiedenen Status sind:
 
-   * **Nicht gestartet**: Es wurde kein Lauf ausgeführt.
-   * **Gestartet**: sobald ein Lauf gestartet wurde <!--or is done?-->
-   * **Ausgesetzt**
-   * **Abgeschlossen**: alle Abläufe im Plan durchgeführt werden.
+   * **Nicht gestartet**: Es wurde noch keine Ausführung aktiviert. [Weitere Informationen](ip-warmup-running.md#define-runs)
+   * **Gestartet/Live**: Der Plan erhält diesen Status, sobald die erste Ausführung in der ersten Phase erfolgreich aktiviert wurde. [Weitere Informationen](ip-warmup-running.md#define-runs)
+   * **Abgeschlossen**: Der Plan wurde als abgeschlossen gekennzeichnet. Diese Option ist nur verfügbar, wenn alle im Plan ausgeführten Vorgänge in **[!UICONTROL Erfolgreich]** oder **[!UICONTROL Entwurf]** status (kein Run kann ausgeführt werden) **[!UICONTROL Live]**). [Weitere Informationen](ip-warmup-running.md#define-runs#mark-as-completed)
+   * **Ausgesetzt**<!--: to check (user action)-->
 
 1. Um einen IP-Aufwärmplan zu löschen, wählen Sie die **[!UICONTROL Löschen]** neben einem Listenelement klicken und den Löschvorgang bestätigen.
 
@@ -99,7 +149,7 @@ Wenn eine oder mehrere Live-Kampagnen mit **[!UICONTROL Aktivierung des IP-Warml
 
    ![](assets/ip-warmup-plan-phases.png)
 
-### Einen IP-Warmup-Plan erneut hochladen {#re-upload-plan}
+## Einen IP-Warmup-Plan erneut hochladen {#re-upload-plan}
 
 Sie können einen anderen IP-Warmup-Plan über die entsprechende Schaltfläche erneut hochladen.
 
@@ -108,17 +158,3 @@ Sie können einen anderen IP-Warmup-Plan über die entsprechende Schaltfläche e
 >[!NOTE]
 >
 >Die Details des IP-Warmup-Plans ändern sich entsprechend der neu hochgeladenen Datei. Die vollständigen Ausführungen und die aktivierten Ausführungen sind nicht betroffen.
-
-### Hochladen der Datei mit dem Plan {#upload-plan}
-
-Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Warmup-Plan.
-
-![](assets/ip-warmup-sample-file.png)
-
-Jede Phase entspricht einem Zeitraum, der aus mehreren Ausführungen besteht und dem Sie eine Kampagne zuweisen.
-
-Sie haben für jede Ausführung eine bestimmte Anzahl von Empfängern und legen fest, ab welchem Datum diese Ausführung ausgeführt werden soll.
-
-Sie können für die Domänen, an die Sie eine Bereitstellung durchführen möchten, so viele Spalten wie gewünscht haben. In diesem Beispiel haben Sie drei Spalten: Gmail, Adobe und andere, was bedeutet, dass
-
-Die Idee besteht darin, in den ersten Phasen mehr Abläufe zu haben, die Anzahl der Zieladressen schrittweise zu erhöhen und gleichzeitig die Anzahl der Ausführungen zu reduzieren.

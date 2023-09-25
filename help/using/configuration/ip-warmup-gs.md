@@ -10,10 +10,10 @@ level: Experienced
 keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 33%
+source-wordcount: '293'
+ht-degree: 32%
 
 ---
 
@@ -71,6 +71,6 @@ Die wichtigsten Schritte zur Implementierung eines IP-Warmup-Plans sind:
 
 1. Zunächst müssen Sie eine oder mehrere Kampagnen mit aktivierter IP-Warmup-Option erstellen. [Weitere Informationen](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Erstellen Sie einen IP-Warmup-Plan und laden Sie Ihren Plan hoch. [Weitere Informationen](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Erstellen Sie einen IP-Warmup-Plan in [!DNL Journey Optimizer] und laden Sie die Excel-Tabelle hoch, die zuvor mit Ihren IP-Warmup-Daten ausgefüllt wurde. [Weitere Informationen](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-running.md)
