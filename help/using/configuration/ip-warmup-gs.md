@@ -7,13 +7,13 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
+keywords: IP, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 32%
+source-wordcount: '295'
+ht-degree: 31%
 
 ---
 
@@ -33,7 +33,7 @@ Inhalt dieses Dokumentationshandbuchs:
 * **[Erste Schritte mit IP-Wärme](ip-warmup-gs.md)**
 * [Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)
 * [Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)
-* [IP-Warmup-Plan ausführen](ip-warmup-running.md)
+* [Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Mit [!DNL Journey Optimizer]können Sie IP-Warmup-Workflows einfach direkt über
 
 Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
 
-Um zu vermeiden, als Spam gekennzeichnet zu werden, können Sie das gesendete Volumen mithilfe der Funktion IP-Warmup Plan schrittweise erhöhen. Eine neue Option im **[!UICONTROL Administration]** bietet Ihnen die Möglichkeit, die Arbeit reibungsloser zu gestalten, anstatt komplexe tägliche Journey zu erstellen. Dies gewährleistet eine reibungslose Anlaufphase, da die Gesamtrate ungültiger Adressen verringert wird.
+Um zu vermeiden, als Spam gekennzeichnet zu werden, können Sie das gesendete Volumen mithilfe der Funktion IP-Warmup-Plan schrittweise erhöhen. Diese neue Option im **[!UICONTROL Administration]** -Menü können Sie es einfacher auf konsolidierter Weise tun, anstatt komplexe tägliche Journey zu erstellen. Dies gewährleistet eine reibungslose Anlaufphase, da die Gesamtrate ungültiger Adressen verringert wird.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 Die wichtigsten Schritte zur Implementierung eines IP-Warmup-Plans sind:
 
-1. Zunächst müssen Sie eine oder mehrere Kampagnen mit aktivierter IP-Warmup-Option erstellen. [Weitere Informationen](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. Zunächst müssen Sie eine oder mehrere Kampagnen mit aktivierter IP-Warmup-Option erstellen. [Weitere Informationen](ip-warmup-campaign.md)
 
-1. Erstellen Sie einen IP-Warmup-Plan in [!DNL Journey Optimizer] und laden Sie die Excel-Tabelle hoch, die zuvor mit Ihren IP-Warmup-Daten ausgefüllt wurde. [Weitere Informationen](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Erstellen Sie einen IP-Warmup-Plan in [!DNL Journey Optimizer] und laden Sie die Excel-Tabelle hoch, die mithilfe Ihres Zustellbarkeitsberaters erstellt wurde. [Weitere Informationen](ip-warmup-plan.md)
 
-1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-running.md)
+1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-execution.md)

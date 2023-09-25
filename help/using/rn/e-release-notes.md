@@ -5,9 +5,9 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '586'
 ht-degree: 23%
 
 ---
@@ -96,7 +96,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Web-Kanal**
 
-* Einzelseitenanwendungen (SPA) können jetzt im Visual Editor von Webdesigner erstellt werden. Sie können jetzt auswählen, auf welche spezifischen Ansichten Sie die Änderungen Ihrer Webseite anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwicklersetup erforderlich, damit Marketing-Experten Adobe Journey Optimizer-Webkampagnen auf SPA erstellen und ausführen können.
+* Einzelseitenanwendungen (SPA) können jetzt im Visual Editor von Webdesigner erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Webseitenänderungen anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Um Adobe Journey Optimizer-Webkampagnen auf SPA zu erstellen und auszuführen, ist ein einmaliges Entwicklersetup erforderlich, um die Ansichten in der Adobe Experience Platform Web SDK-Implementierung zu definieren.
 
 * Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie jetzt neue Änderungen direkt aus dem **Änderungen** -Bereich - ohne dass eine Komponente ausgewählt und über die Designer-Oberfläche bearbeitet werden muss.
 * Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen - zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde.

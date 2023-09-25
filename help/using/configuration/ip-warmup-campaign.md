@@ -6,13 +6,13 @@ description: Erfahren Sie, wie Sie eine IP-Warmup-Kampagne erstellen.
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, Pools, Gruppe, Subdomains, Zustellbarkeit
+level: Intermediate
+keywords: IP, Pools, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Aktivieren Sie die Option IP-Warmup-Plan ."
->abstract="Wählen Sie die Option zur Aktivierung des IP-Aufwärmungsplans aus. Sobald die Kampagne aktiv ist, kann sie mit einem IP-Warmup-Plan verknüpft werden."
+>abstract="Wenn Sie diese Option auswählen, kann die Kampagne in einem IP-Warmup-Plan verwendet werden. Der Kampagnenkalender wird dann durch den IP-Warmup-Plan gesteuert, mit dem er verbunden ist."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ Inhalt dieses Dokumentationshandbuchs:
 * [Erste Schritte mit IP-Wärme](ip-warmup-gs.md)
 * **[Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)**
 * [Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)
-* [IP-Warmup-Plan ausführen](ip-warmup-running.md)
+* [Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
    >
    >Erfahren Sie, wie Sie die Domäne und IPs auswählen, die auf einer E-Mail-Oberfläche verwendet werden sollen in [diesem Abschnitt](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Arbeiten Sie bei Bedarf mit Ihrem Zustellbarkeitsberater zusammen, um die Domäne und IPs zu identifizieren, die für Ihren IP-Aufwärmsplan verwendet werden sollen.<!--TBC-->
+   >Arbeiten Sie mit Ihrem Zustellbarkeitsberater zusammen, um die Domäne und IPs zu ermitteln, die für Ihren IP-Warmup-Plan verwendet werden sollen.<!--TBC-->
 
 1. Erstellen Sie eine [Kampagne](../campaigns/create-campaign.md) und wählen Sie die [Email](../email/create-email.md#create-email-journey-campaign) Aktion.
 
@@ -73,9 +73,9 @@ Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 
    >[!NOTE]
    >
-   >Bei einer Live-Kampagne mit aktiviertem IP-Warmup-Plan wird die Variable **[!UICONTROL Löschen]** -Schaltfläche verfügbar, bis sie mit einem IP-Warmup-Plan verknüpft ist. Sobald die Kampagne in einem IP-Warmup-Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
+   >Bei einer Live-Kampagne mit aktiviertem IP-Warmup-Plan wird die Variable **[!UICONTROL Löschen]** -Schaltfläche verfügbar, bis sie mit einem IP-Warmup-Plan verknüpft ist. Sobald die Kampagne in einem Plan verwendet wurde, kann sie nicht mehr gelöscht werden.
 
-1. Die Kampagne wird im **[!UICONTROL Kampagnen]** Liste. Um alle in der aktuellen Sandbox erstellten IP-Warmup-Kampagnen einfach abzurufen, können Sie nach der Kampagnenoption filtern **[!UICONTROL IP-Wärme]**.
+1. Die Kampagne wird im **[!UICONTROL Kampagnen]** Liste. Um alle in der aktuellen Sandbox erstellten IP-Warmup-Kampagnen einfach abzurufen, können Sie nach **[!UICONTROL IP-Wärme]** Kampagnenoption.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
