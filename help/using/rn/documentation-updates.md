@@ -4,9 +4,9 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
+source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
 workflow-type: tm+mt
-source-wordcount: '3597'
+source-wordcount: '3596'
 ht-degree: 92%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
-## September 2023 (#september-2023)
+## September 2023 {#september-2023}
 
 * Eine Liste der Einschränkungen, die bei der Erstellung von Entscheidungsregeln zu beachten sind, wurde der Dokumentation zum Entscheidungs-Management hinzugefügt. [Weitere Informationen](../offers/offer-library/creating-decision-rules.md)
 
