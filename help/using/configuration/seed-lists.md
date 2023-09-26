@@ -85,7 +85,7 @@ Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten.
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
 >title="Ausfüllen der Testadressenliste"
->abstract="Wählen Sie die Adressen aus, die zum Zeitpunkt der Versandausführung enthalten sein sollen und eine exakte Kopie Ihrer Nachricht erhalten sollen. Sie können entweder eine CSV-Datei importieren oder manuell E-Mail-Adressen eingeben."
+>abstract="Adressen auswählen, die zum Zeitpunkt der Versandausführung enthalten sein sollen und eine exakte Kopie der Nachricht erhalten sollen. Es kann entweder eine CSV-Datei importiert werden oder es können E-Mail-Adressen manuell eingegeben werden."
 
 Gehen Sie wie folgt vor, um eine Testadressenliste zu erstellen.
 
@@ -111,7 +111,7 @@ Gehen Sie wie folgt vor, um eine Testadressenliste zu erstellen.
    >
    >Es kann jeweils nur ein Testprofil ausgewählt werden.
 
-1. Fügen Sie die Testadressen hinzu, an die Sie Ihre Sendungen senden möchten. Sie können entweder eine CSV-Datei importieren oder manuell E-Mail-Adressen eingeben.
+1. Fügen Sie die Testadressen hinzu, an die Sie Ihre Sendungen senden möchten. Es kann entweder eine CSV-Datei importiert werden oder es können E-Mail-Adressen manuell eingegeben werden.
 
    ![](assets/seed-list-email-addresses.png)
 
