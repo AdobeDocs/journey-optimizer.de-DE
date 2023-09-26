@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
+source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
 workflow-type: tm+mt
-source-wordcount: '3976'
-ht-degree: 88%
+source-wordcount: '4024'
+ht-degree: 87%
 
 ---
 
@@ -30,6 +30,23 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 ### Neue Funktionen{#sept-2023-features}
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
+
+<table>
+<thead>
+<tr>
+<th><strong>Berechnete Attribute</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden.<br/><br/>
+Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">Detaillierte Dokumentation</a>.</p>
+<img src="assets/computed-attributes.png">
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -92,7 +109,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Personalisierung**
 
 * Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke.
-* Sie können jetzt berechnete Adobe Experience Platform-Attribute zur Personalisierung in Journey Optimizer verwenden. Berechnete Attribute sind aggregierte Werte, die anhand von in Adobe Experience Platform erfassten profilaktivierten Erlebnisereignis-Datensätzen berechnet werden.
 
 **Warnhinweise**
 
