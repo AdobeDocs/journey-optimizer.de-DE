@@ -79,7 +79,7 @@ Sie können auf den Namen einer Testadressenliste klicken, um sie zu bearbeiten.
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
 >title="Definieren einer Testadressenliste"
->abstract="Verwenden Sie eine Testadressenliste, um für Sicherheitszwecke automatisch bestimmte interne Adressen zu Ihrer Versandzielgruppe hinzuzufügen. Mit Testadressenlisten können Sie die gesendeten Nachrichtenkopien überwachen, um sicherzustellen, dass alle Anzeigeelemente korrekt sind, und Ihre Mailing-Liste zu schützen. Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar."
+>abstract="Eine Testadressenliste wird verwendet, um für Sicherheitszwecke automatisch bestimmte interne Adressen zu Versandzielgruppe hinzuzufügen. Mit Testadressenlisten können die gesendeten Nachrichtenkopien überwacht werden, um sicherzustellen, dass alle Anzeigelemente korrekt sind, und dass die Mailing-Liste geschützt ist. Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
 
 >[!CONTEXTUALHELP]
