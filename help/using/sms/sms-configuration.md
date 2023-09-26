@@ -36,7 +36,7 @@ Ihre Nutzung von SMS-Services unterliegt zusätzlichen Bedingungen des jeweilige
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Konfigurieren eines SMS-Anbieters mit Journey Optimizer"
->abstract="Wählen Sie Ihren Anbieter aus und geben Sie Ihre SMS-API-Anmeldeinformationen ein."
+>abstract="Anbieter auswählen und SMS-API-Anmeldeinformationen eingeben."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
