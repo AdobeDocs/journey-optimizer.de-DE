@@ -5,10 +5,10 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 23%
+source-wordcount: '634'
+ht-degree: 21%
 
 ---
 
@@ -76,6 +76,22 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Berechnete Attribute</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden. <br/>
+Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">Detaillierte Dokumentation</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
 ### Verbesserungen {#sept-2023-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
@@ -88,7 +104,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Personalisierung**
 
 * Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke.
-* Sie können jetzt berechnete Adobe Experience Platform-Attribute zur Personalisierung in Journey Optimizer verwenden. Berechnete Attribute sind aggregierte Werte, die anhand von in Adobe Experience Platform erfassten profilaktivierten Erlebnisereignis-Datensätzen berechnet werden.
 
 **Warnhinweise**
 
