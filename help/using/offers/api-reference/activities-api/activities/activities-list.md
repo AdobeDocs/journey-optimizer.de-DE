@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: a554786f15144923cb5b76c624960c2a602be020
+source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 41%
+source-wordcount: '178'
+ht-degree: 38%
 
 ---
 
@@ -49,11 +49,13 @@ Beim Auflisten von Ressourcen können Sie Abfrageparameter nutzen, um Ergebnisse
 
 Zu den häufigsten Abfrageparametern für das Paging gehören:
 
-| Parameter | Beschreibung | Beispiel |
-| --------- | ----------- | ------- |
-| `property` | Ein optionaler Eigenschaftenfilter: <br> <ul> - Die Eigenschaften werden nach UND-Vorgang gruppiert. <br><br> - Parameter können wie folgt wiederholt werden: property=<property-expr>[&amp;property=<property-expr2>...] oder property=<property-expr1>[,<property-expr2>...] <br><br> - Eigenschaftenausdrücke haben das Format [!]field[op]Wert, mit op in [==,!=,&lt;=,>=,&lt;,>,~]unterstützt reguläre Ausdrücke | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines - vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z-A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Entitäten ein. | `limit=5` |
+| Parameterbeschreibung | Beispiel |
+|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| `property` | Ein optionaler Eigenschaftenfilter: |
+- Die Eigenschaften werden nach UND-Vorgang gruppiert.
+- Parameter können wie folgt wiederholt werden: `property=<property-expr>[&property=<property-expr2>...]` oder `property=<property-expr1>[,<property-expr2>...]`
+- Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit op in `[==,!=,<=,>=,<,>,~]`unterstützt reguläre Ausdrücke | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Hinzufügen einer `-` vor name (orderby=-name) sortiert Elemente nach Namen in absteigender Reihenfolge (Z-A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name`                    | | `limit`    | Begrenzen Sie die Anzahl der zurückgegebenen Entitäten. | `limit=5`                                |
+
 
 **Antwort**
 
