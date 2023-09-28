@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 74%
+source-wordcount: '569'
+ht-degree: 70%
 
 ---
 
@@ -73,7 +73,10 @@ Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei e
 
 ## Exportieren der Berichte {#export-reports}
 
-Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exportieren, sodass Sie diese freigeben oder drucken können.
+Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exportieren, sodass Sie diese freigeben oder drucken können. Die Schritte zum Exportieren von Berichten werden in den folgenden Registerkarten beschrieben.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
 
 >[!ENDTABS]
+
+
+### Berichte exportieren (Video) {#video-csv}
+
+Im folgenden Anleitungsvideo erfahren Sie, wie Sie einen CSV-Bericht für einen Bericht und ein einzelnes Widget herunterladen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
