@@ -4,7 +4,7 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
 workflow-type: tm+mt
 source-wordcount: '4018'
 ht-degree: 87%
@@ -57,7 +57,7 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 <p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.</p>
 <p>So greifen Sie auf die <b>Bericht</b> Menü, müssen Sie über die <b>Anzeigen von Kanalberichten</b> -Berechtigung.</p>
 <img src="assets/channel-reports.png"/>
-<p>Weitere Informationen finden Sie im Abschnitt <a href="../reports/channel-report.md">Detaillierte Dokumentation</a>, und <a href="../reports/channel-report.md#how-to-video-channel-report-video">Anleitungsvideo</a>.</p>
+<p>Weitere Informationen finden Sie im Abschnitt <a href="../reports/channel-report.md">Detaillierte Dokumentation</a>, und <a href="../reports/channel-report.md#channel-report-video">Anleitungsvideo</a>.</p>
 </tr>
 </tbody>
 </table>
