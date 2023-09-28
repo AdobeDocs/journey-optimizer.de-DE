@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie mit berechneten Attributen arbeiten.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '546'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Jedes berechnete Attribut ist ein Profilattribut, das Sie für die Segmentierung
 
 Um berechnete Attribute zu erstellen, navigieren Sie zum **[!UICONTROL Berechnete Attribute]** im **[!UICONTROL Profile]** Menü auf der linken Seite.
 
-Auf diesem Bildschirm können Sie berechnete Attribute erstellen, indem Sie Regeln erstellen, die Ereignisattribute, Aggregatfunktionen und einen festgelegten Lookback-Zeitraum kombinieren. Sie können beispielsweise die Summe der Käufe in den letzten drei Monaten berechnen, den letzten Artikel identifizieren, der von einem Profil angezeigt wurde, das in der letzten Woche noch keinen Kauf getätigt hat, oder die von jedem Profil gesammelten Gesamtbelohnungspunkte addieren.
+Auf diesem Bildschirm können Sie berechnete Attribute erstellen, indem Sie Regeln erstellen, die Ereignisattribute und Aggregatfunktionen zusammen mit einem bestimmten Lookback-Zeitraum kombinieren. Sie können beispielsweise die Summe der Käufe der letzten drei Monate berechnen, den zuletzt angezeigten Artikel eines Profils ermitteln, das in der letzten Woche keinen Kauf getätigt hat, oder die von jedem Profil gesammelten Belohnungspunkte addieren.
 
 ![](assets/computed-attributes.png)
 
@@ -66,6 +66,6 @@ Detaillierte Informationen zum Hinzufügen von Feldergruppen zur Adobe Experienc
 
 Berechnete Attribute bieten eine Vielzahl von Funktionen innerhalb des Journey Optimierers. Sie können sie für verschiedene Zwecke verwenden, z. B. zum Personalisieren von Nachrichteninhalten, Erstellen neuer Zielgruppen oder Teilen von Journey basierend auf einem bestimmten berechneten Attribut. Beispielsweise können Sie einen Journey-Pfad anhand der Gesamteinkäufe eines Profils in den letzten drei Wochen aufteilen, indem Sie in einer Bedingungsaktivität ein einziges berechnetes Attribut hinzufügen. Sie können eine E-Mail auch personalisieren, indem Sie für jedes Profil das zuletzt angezeigte Element anzeigen.
 
-Da berechnete Attribute Profilattributfelder sind, die in Ihrem Profilvereinigungsschema erstellt wurden, können Sie über den Ausdruckseditor im **SystemComputedAttributes** Feldergruppe. Anschließend können Sie Ihren Ausdrücken das berechnete Attribut hinzufügen und sie wie jedes andere Profilattribut behandeln, um die gewünschten Vorgänge auszuführen.
+Da berechnete Attribute Profilattributfelder sind, die in Ihrem Profilvereinigungsschema erstellt wurden, können Sie über den Ausdruckseditor im **SystemComputedAttributes** Feldergruppe. Von dort aus können Sie berechnete Attribute zu Ihren Ausdrücken hinzufügen und sie wie jedes andere Profilattribut behandeln, um die gewünschten Vorgänge auszuführen.
 
 ![](assets/computed-attributes-ajo.png)
