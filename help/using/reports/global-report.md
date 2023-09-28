@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 74%
@@ -77,20 +77,6 @@ Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exporti
 
 >[!BEGINTABS]
 
->[!TAB Bericht als PDF-Datei exportieren]
-
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL PDF-Datei]**.
-
-   ![](assets/export_2.png)
-
-1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
-
-1. Wählen Sie, ob Sie Ihren Bericht als PDF drucken oder speichern möchten.
-
-1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie diesen gegebenenfalls um und klicken Sie auf Speichern.
-
-Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
-
 >[!TAB Bericht als CSV-Datei exportieren]
 
 1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL CSV-Datei]** , um eine CSV-Datei auf Berichtsebene zu generieren.
@@ -106,5 +92,21 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
    Wenn Sie die Datei auf Berichtsebene generiert haben, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
 
    Wenn Sie die Datei auf Widget-Ebene generiert haben, stellt sie speziell Daten für das ausgewählte Widget bereit.
+
+>[!TAB Bericht als PDF-Datei exportieren]
+
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL PDF-Datei]**.
+
+   ![](assets/export_2.png)
+
+1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
+
+1. Wählen Sie, ob Sie Ihren Bericht als PDF drucken oder speichern möchten.
+
+1. Suchen Sie den Ordner, in dem Sie die Datei speichern möchten, benennen Sie diesen gegebenenfalls um und klicken Sie auf Speichern.
+
+Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
+
+
 
 >[!ENDTABS]
