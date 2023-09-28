@@ -8,7 +8,8 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 903c1cb0-3e15-4f44-a9bf-bdb436316531
+source-git-commit: 979970d05f52fdbdb76d03a232d405af7097ba30
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 6%
@@ -66,5 +67,3 @@ Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
 1. **Erstellen von Auswahlstrategien**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangmethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 
 1. **Einbetten einer Entscheidungsrichtlinie in Ihre code-basierte Kampagne**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden Entscheidungselemente zu bestimmen.
-
-<!--## Glossary-->
