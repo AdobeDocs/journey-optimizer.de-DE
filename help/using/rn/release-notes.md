@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4024'
-ht-degree: 87%
+source-wordcount: '4069'
+ht-degree: 86%
 
 ---
 
@@ -137,6 +137,10 @@ Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand
 **SMS-Kanal**
 
 Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzer Antworten für eingehende Suchbegriffe anpassen können. Beachten Sie, dass dies nur für einzelne SMS-Provider verfügbar ist.
+
+**Briefpost-Kanal**
+
+Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können.
 
 **Reporting**
 
