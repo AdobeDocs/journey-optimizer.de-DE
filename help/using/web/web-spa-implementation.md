@@ -4,17 +4,15 @@ description: Erfahren Sie, wie Sie SPA Ansichten in Journey Optimizer implementi
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
 
-# Implementierung von Einzelseitenanwendungen {#web-spa-implementation}
+# Implementieren von Einzelseitenanwendungen (SPA) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der neuesten Generation, wie Single Page Applications (SPA), Personalisierungen ausführen kann.
 
@@ -24,7 +22,7 @@ Moderne Webanwendungen wie Einzelseiten-Apps (SPA) haben stattdessen ein Modell 
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Vorteile des AEP Web SDK für SPA
+## Vorteile des Adobe Experience Platform Web SDK für SPA {#web-spa-benefits}
 
 Hier einige Vorteile der Verwendung des Adobe Experience Platform Web SDK für Einzelseitenanwendungen:
 
@@ -32,7 +30,7 @@ Hier einige Vorteile der Verwendung des Adobe Experience Platform Web SDK für E
 * Das Benutzererlebnis auf Ihrer Site wird erheblich verbessert, da Angebote sofort über den Cache angezeigt werden, ohne dass durch herkömmliche Server-Aufrufe eine verzögerungsfreie Zeit entsteht.
 * Durch die einmalige Einrichtung von Entwicklern können Marketing-Experten Personalisierungs- und Experimentierungsaktivitäten über den Web-Visual-Editor von Adobe Journey Optimizer auf Ihrer SPA erstellen und ausführen.
 
-## XDM-Ansichten und Einzelseitenanwendungen
+## XDM-Ansichten und Einzelseitenanwendungen {#web-spa-xdm}
 
 Die Adobe **[!UICONTROL Journey Optimizer]** Der Web-Editor nutzt ein Konzept namens &quot;Ansichten&quot;: eine logische Gruppe visueller Elemente, aus denen zusammen ein SPA Erlebnis besteht. Eine Einzelseitenanwendung kann daher als Übergang durch Ansichten anstelle von URLs betrachtet werden, basierend auf Benutzerinteraktionen. Eine Ansicht kann normalerweise eine ganze Site, eine einzelne Seite oder gruppierte visuelle Elemente innerhalb einer Seite darstellen.
 
@@ -91,7 +89,7 @@ Dazu müssen Sie die folgenden Schritte ausführen, um eine einmalige Entwickler
 
 In diesem Abschnitt werden zwei Beispiele zum Aufrufen der `sendEvent()` -Funktion in React für eine hypothetische E-Commerce-SPA verwenden.
 
-### Beispiel 1: Startseite eines A/B-Tests
+### Beispiel 1: Startseite eines A/B-Tests {#web-spa-sample-1}
 
 Das Marketing-Team möchte A/B-Tests auf der gesamten Startseite durchführen.
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### Beispiel 2: Personalisierte Produkte
+### Beispiel 2: Personalisierte Produkte {#web-spa-sample-2}
 
 Das Marketing-Team möchte die zweite Reihe von Produkten personalisieren, indem es die Farbe der Preisbeschriftung in Rot ändert, nachdem ein Benutzer klickt, um alle Men-Produkte anzuzeigen.
 
