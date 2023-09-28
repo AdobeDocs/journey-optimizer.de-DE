@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## September 2023 {#september-2023}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. September wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Eine neue Seite mit Best Practices für die Skalierung und Anleitungen zum Echtzeit-Stitching wurde hinzugefügt - [Weitere Informationen](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* Für die Sendezeitoptimierung wurde der Abschnitt Häufig gestellte Fragen hinzugefügt. [Weitere Informationen](../building-journeys/journeys-message.md#faq-send-time)
+* Für die Aktivität Zielgruppenqualifizierung wurde ein Hinweis hinzugefügt - Es kann bis zu 10 Minuten dauern, bis Profile aktiv sind und die Audience aufrufen oder verlassen. [Weitere Informationen](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Eine Liste der Einschränkungen, die bei der Erstellung von Entscheidungsregeln zu beachten sind, wurde der Dokumentation zum Entscheidungs-Management hinzugefügt. [Weitere Informationen](../offers/offer-library/creating-decision-rules.md)
+* Die Links zur Dokumentation zur Zugriffskontrolle wurden aktualisiert - [Weitere Informationen](../administration/permissions.md)
+* Die Voraussetzungen für In-App-Kanäle wurden mit Adobe Experience Platform-Datenerfassungsdetails aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
+
+
+
 
 ## August 2023 {#august-2023}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1267'
+ht-degree: 96%
 
 ---
 
@@ -116,23 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
-Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie die Journey entweder mit einem unitären Profil oder mit 100 Testprofilen testen, die per Zufallsauswahl aus den für die Zielgruppe qualifizierten Profilen entnommen werden.
+Die **[!UICONTROL Audience lesen]** -Aktivität können Sie die Journey in einem Einzelprofil testen.
 
-Aktivieren Sie dazu den Testmodus und wählen Sie dann im linken Bereich die gewünschte Option aus.
+Aktivieren Sie dazu den Testmodus.
 
 ![](assets/read-segment-test-mode.png)
 
-Anschließend können Sie den Testmodus wie gewohnt konfigurieren und ausführen. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
+Konfigurieren Sie den Testmodus und führen Sie ihn wie gewohnt aus. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
-Sobald der Test ausgeführt wird, können Sie mit der Schaltfläche Protokolle **[!UICONTROL anzeigen]** die Testergebnisse entsprechend der ausgewählten Testoption anzeigen:
+Sobald der Test ausgeführt wird, wird die **[!UICONTROL Protokolle anzeigen]** -Schaltfläche können Sie die Testergebnisse anzeigen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Jeweils ein Einzelprofil]**: Die Testprotokolle zeigen dieselben Informationen an wie bei Verwendung des einheitlichen Testmodus. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL Bis zu 100 Profile gleichzeitig]**: Mithilfe der Testprotokolle können Sie den Verlauf des Zielgruppentexports aus Adobe Experience Platform sowie den individuellen Fortschritt aller Personen, die in die Journey eingetreten sind, verfolgen.
-
-  Beachten Sie, dass beim Testen der Journey mit bis zu 100 Profilen auf einmal der Fortschritt der einzelnen in der Journey enthaltenen Kontakte nicht über den visuellen Verlauf nachverfolgt werden kann.
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 Nach erfolgreichem Abschluss der Tests können Sie Ihre Journey veröffentlichen (siehe [Veröffentlichen der Journey](publishing-the-journey.md)). Personen, die zur Zielgruppe gehören, treten zu dem Datum und der Uhrzeit in die Journey ein, die im Abschnitt **[!UICONTROL Planung]** der Journey-Eigenschaften festgelegt sind.
 

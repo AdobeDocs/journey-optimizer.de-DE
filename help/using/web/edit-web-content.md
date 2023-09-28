@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 95%
+source-wordcount: '1114'
+ht-degree: 93%
 
 ---
 
@@ -166,6 +166,8 @@ Sie können über die entsprechende Schaltfläche vom Standardmodus **[!UICONTRO
 Im **[!UICONTROL Durchsuchen]**-Modus können Sie von der ausgewählten Oberfläche, die Sie personalisieren möchten, zur gewünschten Seite navigieren.
 
 Dies ist besonders nützlich, wenn es um Seiten geht, die sich hinter der Authentifizierung befinden oder nicht von Anfang an über eine bestimmte URL verfügbar sind. Sie können sich beispielsweise authentifizieren, zu Ihrer Kontoseite oder zu Ihrer Warenkorbseite navigieren und dann zurück in den **[!UICONTROL Design]**-Modus wechseln, um die Änderungen auf der gewünschten Seite durchzuführen.
+
+Verwenden **[!UICONTROL Durchsuchen]** -Modus können Sie auch bei der Erstellung von Einzelseitenanwendungen durch alle Ansichten Ihrer Website navigieren. [Weitere Informationen](web-spa.md)
 
 ### Ändern der Gerätegröße {#change-device-size}
 

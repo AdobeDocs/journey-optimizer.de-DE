@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 94%
+source-wordcount: '1521'
+ht-degree: 93%
 
 ---
 
@@ -232,11 +232,13 @@ ht-degree: 94%
 + Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
    + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
+   + [Implementierung von Einzelseitenanwendungen](using/web/web-spa-implementation.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + Verfassen von Web-Seiten {#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
       + [Webkampagnen überwachen](using/web/monitor-web-campaigns.md)
+      + [Einzelseitenanwendungen erstellen](using/web/web-spa.md)
    + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
 + Codebasiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem code-basierten Kanal](using/code-based/get-started-code-based.md)
@@ -303,6 +305,7 @@ ht-degree: 94%
    + Profile{#profiles}
       + [Erste Schritte mit Profilen](using/audience/get-started-profiles.md)
       + [Erstellen von Testprofilen](using/audience/creating-test-profiles.md)
+      + [Arbeiten mit berechneten Attributen](using/audience/computed-attributes.md)
    + [Identitäten](using/audience/get-started-identity.md)
    + [Lizenznutzung](using/audience/license-usage.md)
 + Nachverfolgen und Überwachen {#reporting}
@@ -321,6 +324,9 @@ ht-degree: 94%
       + [Zielbericht](using/reports/objective-report.md)
       + [Globaler Bericht zur Landingpage](using/reports/lp-report-global.md)
       + [Globaler Bericht zur Abonnement-Liste](using/reports/subscription-report-global.md)
+   + Kanalberichte {#channel-report}
+      + [Erste Schritte mit Kanalberichten](using/reports/channel-report-gs.md)
+      + [Kanalberichte](using/reports/channel-report.md)
    + Journey-Berichte {#reports}
       + [Erstellen von Journey-Berichten](using/reports/sharing-overview.md)
       + [Liste für Schrittereignisfelder](using/reports/sharing-field-list.md)

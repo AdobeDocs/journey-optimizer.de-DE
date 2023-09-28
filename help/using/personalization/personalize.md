@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,8 @@ Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experienc
 
 >[!CAUTION]
 >Das Schema **XDM-Kontaktprofil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.
+
+Darüber hinaus können Sie auch **berechnete Attribute** , um Ihren Inhalt zu personalisieren. Berechnete Attribute basieren auf profilaktivierten Erlebnisereignis-Datensätzen, die in Adobe Experience Platform erfasst werden, und dienen als aggregierte Datenpunkte, die in Kundenprofilen gespeichert sind und einzelne Verhaltensereignisse zusammenfassen. [Erfahren Sie, wie Sie mit berechneten Attributen arbeiten.](../audience/computed-attributes.md)
 
 ## Hinzufügen der Personalisierung in unterschiedlichen Kontexten {#contexts}
 

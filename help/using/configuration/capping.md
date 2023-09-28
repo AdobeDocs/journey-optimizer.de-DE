@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
@@ -62,6 +62,8 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 >Der Parameter **maxHttpConnections** ist optional. Dadurch können Sie die Anzahl der Verbindungen einschränken, die Journey Optimizer für das externe System öffnet.
 >
 >Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System abhängig von seiner dynamischen Skalierung bis zu mehreren tausend Verbindungen öffnen.
+>
+>Wenn bei der Bereitstellung der Begrenzungskonfiguration kein &quot;maxHttpConnection&quot;-Wert angegeben wurde, wird der bereitgestellten Konfiguration der Standardwert &quot;maxHttpConnection = -1&quot;hinzugefügt, was bedeutet, dass Journey Optimizer den Standardsystemwert verwendet.
 
 ### Beispiel:
 
@@ -73,14 +75,12 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 

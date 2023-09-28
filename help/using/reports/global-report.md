@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 74%
 
 ---
 
@@ -73,11 +73,15 @@ Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei e
 
 ## Exportieren der Berichte {#export-reports}
 
-Sie können Ihre Berichte einfach in PDF-Format exportieren, sodass Sie sie freigeben oder drucken können.
+Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exportieren, sodass Sie diese freigeben oder drucken können.
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]**.
+>[!BEGINTABS]
 
-   ![](assets/export_1.png)
+>[!TAB Bericht als PDF-Datei exportieren]
+
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL PDF-Datei]**.
+
+   ![](assets/export_2.png)
 
 1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
 
@@ -87,3 +91,20 @@ Sie können Ihre Berichte einfach in PDF-Format exportieren, sodass Sie sie frei
 
 Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
+>[!TAB Bericht als CSV-Datei exportieren]
+
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL CSV-Datei]** , um eine CSV-Datei auf Berichtsebene zu generieren.
+
+   ![](assets/export_1.png)
+
+1. Sie können auch Daten aus einem bestimmten Widget exportieren. Klicks **[!UICONTROL Exportieren von Widget-Daten in CSV]** neben dem ausgewählten Widget.
+
+   ![](assets/export_3.png)
+
+1. Ihre Datei wird automatisch heruntergeladen und kann sich in Ihren lokalen Dateien befinden.
+
+   Wenn Sie die Datei auf Berichtsebene generiert haben, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
+
+   Wenn Sie die Datei auf Widget-Ebene generiert haben, stellt sie speziell Daten für das ausgewählte Widget bereit.
+
+>[!ENDTABS]

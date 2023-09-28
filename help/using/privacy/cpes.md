@@ -7,10 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 58223b4b6e6e2ef5b7fc23c5b475e74ad72d0d13
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Gehen Sie wie folgt vor, um in der Zielgruppenkomposition eine aufgeteilte Zielg
 
 1. Wählen Sie unter Pfad 1 einen Titel, der Ihnen bei der Definition der nicht personalisierten Zielgruppe hilft.
 
-1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values
+1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
 
    In diesem Fall verwenden wir ein „n“, um NEIN entsprechend dem Opt-out von der Personalisierung anzugeben
 

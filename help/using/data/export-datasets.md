@@ -5,25 +5,20 @@ title: Exportieren von Datensätzen zu Orten im Cloud-Speicher
 description: Erfahren Sie, wie Sie Ihre Datensätze mit Adobe Experience Platform-Cloud-Speicherzielen exportieren können.
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 08f24547237c01c581248d675c55c834c261b173
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 48%
 
 ---
 
 # Exportieren von Datensätzen zu Orten im Cloud-Speicher {#export-datasets}
 
->[!AVAILABILITY]
->
->Die Funktion zum Exportieren von Datensätzen befindet sich derzeit in der Beta-Phase und ist für alle Benutzenden von Adobe Journey Optimizer verfügbar.
-
 Journey Optimizer ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren.
 
-Indem Sie Ihre Daten regelmäßig exportieren, können Sie sicherstellen, dass Sie über eine vollständige und aktuelle Aufzeichnung Ihrer Kundeninteraktionen verfügen, diese Informationen zu Berichts- oder Analysezwecken verwenden und die gesetzlichen Bestimmungen einhalten.
+Durch den periodischen Export Ihrer Daten können Sie sicherstellen, dass Sie über einen vollständigen und aktuellen Datensatz Ihrer Kundeninteraktionen verfügen, sodass diese jederzeit für Berichte, Archivierungen oder Datenanalysen verfügbar sind.
 
 ## Unterstützte Cloud-Speicher-Ziele {#destinations}
 
@@ -44,13 +39,19 @@ Detaillierte Informationen zu den einzelnen Zielen finden Sie in der Adobe Exper
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=de)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=de)
 
+## Für den Export verfügbare Journey Optimizer-Datensätze {#datasets}
+
+Verstehen Sie anhand der Tabelle, unter welcher Journey Optimizer-Datensätze Sie je nach Produktstufe exportieren können (siehe [Journey Optimizer-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |Datensatz|Beschreibung|Tier| | — | — | — | | AJO BCC Feedback Event Datensatz | AJO BCC Feedback Event Datensatz | Prime | | AJO-Klassifizierungsdatensatz | Datensatz für die Aufnahme von E-Mail- und Push-App-Feedback-Ereignissen aus Journey Optimizer. Erstellt über SDK. | Prime | | Datensatz des AJO-Einverständnisdienstes | Speichert Einverständnisinformationen eines Profils. | Prime | | AJO-E-Mail-Tracking-Erlebnis-Datensatz | Interaktionsprotokolle für den E-Mail-Kanal, die für Berichte- und Zielgruppenerstellungszwecke verwendet werden.  | Prime | | AJO-Entitätsdatensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an den Endbenutzer gesendet werden.  | Prime | | Ereignisdatensatz für eingehende AJO-Aktivitäten | Datensatz für Journey Optimizer-Web- und In-App-Kanäle für Versand- und Interaktionsereignisse. | Prime | | AJO Interactive Messaging Profile Datensatz | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen. | Prime | | AJO-Nachrichten-Feedback-Ereignis-Datensatz | Versandlogs der Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. | Prime | | AJO Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die &quot;counter_value&quot;und &quot;iryDate&quot;enthalten, die von &quot;counter_id&quot;eingegeben wurden | Prime | | AJO Push Profile DataSet | Speichert Push-Token eines Profils. | Prime | | AJO Push Tracking Experience Event Datensatz | Interaktionsprotokolle für den Push-Kanal, die für Berichte und die Erstellung von Zielgruppen verwendet werden.  | Prime | | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Schema &quot;Eingehende Journey Optimizer-Oberflächen&quot; | Prime | | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die in UPS zurückgeschrieben werden sollen | Prime | | Datensatz des Zielgruppen-Orchestrierungsprofils | Wird durch die Zielgruppenkomposition für Zielgruppen der Zielgruppenkomposition generiert. Enthält alle Audience COmposition-Zielgruppen, ihre Attribute und Anreicherungsdaten | Prime | | Decision Object Repository - Aktivitäten | auch als Entscheidungen in der Benutzeroberfläche bezeichnet. Dies sind jedoch die Objekte, die ein Benutzer erstellt, die alle Bausteine zusammenführen, einschließlich der Entscheidungslogik. Beispielsweise für eine bestimmte Platzierung (Position), welche Angebote (Angebotskollektion) berücksichtigt werden sollen und welche Rangmethode für diese Angebote verwendet werden soll. | Ultimate | | Decision Object Repository - Fallback-Angebote | Dies ist das Repository für den anderen Angebotstyp, den ein Benutzer erstellt. Insbesondere wenn sie nicht berechtigt sind, ein personalisiertes Angebot zu sehen, und etwas sehen müssen, sehen sie zumindest das Fallback-Angebot. Dieser Datensatz enthält die Attribute für diesen Angebotstyp | Ultimate | | Decision Object Repository - Personalisierte Angebote | Dies ist das Repository für einen Angebotstyp, den ein Benutzer erstellt. Dieser Datensatz enthält also die Attribute zu diesem Angebotstyp | Ultimate | | Decision Object Repository - Platzierungen | Dies ist das Repository von Objekten, die den Speicherort definieren, an dem ein Angebot angezeigt werden soll. | Ultimate | | Journey-Schrittereignisse | Erfasst alle von Journey Optimizer generierten Journey-Schritt-Erlebnisereignisse, die von Diensten wie Berichten genutzt werden können. | Prime | | JOURNEY | Informationen zum Metadaten-Datensatzgehäuse für jeden Schritt in einer Journey | Prime | | ODE DecisionEvents - prod decisioning | Jedes Mal, wenn wir eine auf einer Anfrage basierende Entscheidung treffen, zählen wir dies als Entscheidungsereignis | Ultimate |
+
 ## Voraussetzungen {#prerequisites}
 
-Überprüfen Sie die folgenden Voraussetzungen, bevor Sie mit dem Exportieren Ihrer Datensätze beginnen:
+Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions) unten aufgeführt. Lesen Sie die [Übersicht über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
 
-* Zum Exportieren von Datensätzen benötigen Sie die [Zugriffssteuerungsberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de#permissions) **Ziele anzeigen** und **Datensatzziele verwalten und aktivieren** Lesen Sie die [Übersicht über die Zugriffskontrolle](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=de) oder wenden Sie sich an Ihren Produktadministrator, um die erforderlichen Berechtigungen zu erhalten.
-
-* Stellen Sie sicher, dass der Datensatz, den Sie exportieren möchten, keine Daten der zweiten Generation enthält. Diese Funktion unterstützt nur den Export von Daten der ersten Generation, d. h. von Rohdaten, wie in der [Produktbeschreibung von Real-Time Customer Data Platform](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html) definiert. Zu den Daten der ersten Generation gehören Datensätze, die über Adobe Experience Platform-Quellen übermittelt werden, oder Datensätze, die mithilfe von Adobe-Lösungen wie Analytics Data Connector und Journey Optimizer-Protokollen/-Berichtsdatensätzen erfasst wurden.
+| Kategorie | Berechtigung |
+|--|--|
+| Ziele | Verwalten und Aktivieren von Datensatzzielen |
+| Data Management | Anzeigen von Datensätzen |
+| Ziele | Anzeigen von Zielen |
 
 ## Die wichtigsten Schritte zum Exportieren von Datensätzen {#main-steps}
 
@@ -72,7 +73,7 @@ Detaillierte Informationen zu den einzelnen Schritten finden Sie in der Adobe Ex
    >
    >Wenn Sie Adobe Journey Optimizer zusammen mit Echtzeit-Kundenprofilen verwenden, wird auf den Zielkarten die Schaltfläche „Aktivieren“ angezeigt, mit der Sie abhängig von den aktivierten Berechtigungen sowohl Datensätze exportieren als auch Zielgruppen für dieses Ziel aktivieren können.
 
-1. **Wählen Sie die Datensätze aus**, die Sie an das ausgewählte Ziel exportieren möchten.
+1. **Wählen Sie die Datensätze aus**, die Sie an das ausgewählte Ziel exportieren möchten. [Weitere Informationen zu zum Exportieren verfügbaren Journey Optimizer-Datensätzen](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 

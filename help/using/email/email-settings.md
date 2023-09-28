@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 100%
+source-wordcount: '2258'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ Die Konfiguration der E-Mail-Oberfläche wird nach der folgenden Logik für das 
 >title="Definieren der E-Mail-Kategorie"
 >abstract="Wählen Sie den Typ der E-Mails aus, die bei Verwendung dieser Oberfläche gesendet werden sollen: „Marketing“ für Werbenachrichten, für die das Einverständnis der Benutzenden erforderlich ist, oder „Transaktion“ für nicht kommerzielle Nachrichten, die in bestimmten Situationen auch an abgemeldete Profile gesendet werden können."
 
-Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **Marketing** oder **Transaktion**.
+Wählen Sie im Abschnitt **E-MAIL-TYP** die Art der Nachricht, die mit der Oberfläche gesendet werden soll: **[!UICONTROL Marketing]** oder **[!UICONTROL Transaktion]**.
 
 * Wählen Sie **Marketing** für Werbe-E-Mails aus, z. B. für wöchentliche Werbeaktionen eines Einzelhandelsgeschäfts. Diese Nachrichten erfordern die Zustimmung der Benutzerin bzw. des Benutzers.
 
@@ -182,6 +182,36 @@ Darüber hinaus ist bei der Definition der **[!UICONTROL BCC-E-Mail]**-Adresse s
 
 Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass der MX-Datensatz nicht für die Subdomain der eingegebenen Adresse konfiguriert ist. Sie können die Administrierenden kontaktieren, um den entsprechenden MX-Eintrag zu konfigurieren, oder eine andere Adresse mit einer gültigen MX-Eintragskonfiguration verwenden.
 
+## Senden an unterdrückte E-Mail-Adressen {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Unterdrückungslistenpriorität überschreiben"
+>abstract="Sie können Transaktionsnachrichten auch dann an Profile senden, wenn deren E-Mail-Adressen aufgrund von Spam-Beschwerden auf der Adobe Journey Optimizer-Unterdrückungsliste stehen. Standardmäßig ist diese Option deaktiviert."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Verwalten der Unterdrückungsliste"
+
+>[!IMPORTANT]
+>
+>Diese Option ist nur verfügbar, wenn Sie die **[!UICONTROL Transactional]** E-Mail-Typ [Weitere Informationen](#email-type)
+
+In [!DNL Journey Optimizer], werden alle E-Mail-Adressen, die als Hardbounces, Softbounces und Spam-Beschwerden gekennzeichnet sind, automatisch in der [Unterdrückungsliste](../configuration/manage-suppression-list.md) und vom Versand einer Journey oder Kampagne ausgeschlossen sind.
+
+Sie können jedoch entscheiden, Nachrichten der **transactional** Geben Sie Profile ein, auch wenn ihre E-Mail-Adressen aufgrund von Spam-Beschwerden des Benutzers auf der Unterdrückungsliste stehen.
+
+Transaktionsnachrichten enthalten im Allgemeinen nützliche und erwartete Informationen wie eine Bestellbestätigung oder eine Benachrichtigung zum Zurücksetzen des Kennworts. Selbst wenn eine Ihrer Marketing-Nachrichten als Spam gemeldet wurde, möchten Sie daher in den meisten Fällen, dass Ihre Kunden diese Art nicht kommerzieller E-Mails erhalten.
+
+Um E-Mail-Adressen, die aufgrund von Spam-Beschwerden unterdrückt wurden, in Ihre Zielgruppe mit Transaktionsnachrichten aufzunehmen, wählen Sie die entsprechende Option aus dem **[!UICONTROL An unterdrückte E-Mail-Adressen senden]** Abschnitt.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>Standardmäßig ist diese Option deaktiviert.
+
+Als Best Practice für die Zustellbarkeit ist diese Option standardmäßig deaktiviert, um sicherzustellen, dass Ihre Kunden, die sich abgemeldet haben, nicht kontaktiert werden. Sie können diese Standardoption jedoch ändern, sodass Sie dann Transaktionsnachrichten an Ihre Kunden senden können.
+
+Wenn diese Option aktiviert ist, kann ein Kunde zwar Ihre Marketing-E-Mail als Spam gekennzeichnet haben, aber seine Transaktionsnachrichten unter Verwendung der aktuellen Oberfläche empfangen. Achten Sie immer darauf, Opt-out-Voreinstellungen gemäß den Best Practices für die Zustellbarkeit zu verwalten.
+
 ## Testadressenliste {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass
 >title="Testadressenliste hinzufügen"
 >abstract="Wählen Sie die Testadressenliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#create-seed-list" text="Erstellen einer Testadressenliste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Erstellen einer Testadressenliste"
 
 
 Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)

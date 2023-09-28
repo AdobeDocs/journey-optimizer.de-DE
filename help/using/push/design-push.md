@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 96%
 
 ---
 
@@ -62,17 +62,15 @@ Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Sch
 
 Wenn der Gerätebildschirm gesperrt ist, werden diese Schaltflächen nicht angezeigt: Nur der **Titel** und die **Nachricht** der Benachrichtigung sind sichtbar. Wenn das Gerät entsperrt ist, sehen die Empfänger die Schaltflächen.
 
-In der iOS-Version können Sie bis zu vier Schaltflächen hinzufügen. In der Android-Version können Sie bis zu drei Schaltflächen hinzufügen.
+In der Android-Version können Sie bis zu drei Schaltflächen hinzufügen.
 
->[!NOTE]
->
->Verwenden Sie unter iOS das Feld **[!UICONTROL iOS-Kategorie]**, um Aktionen einer Benachrichtigungskategorie zuzuordnen.
+In der iOS-Version wird eine Kennung der Benachrichtigungskategorie angegeben. Benachrichtigungskategorien müssen in der iOS-App vorkonfiguriert sein, in der die anzuzeigenden Schaltflächen und die durchgeführten Aktionen definiert werden. Siehe [Apple-Dokumentation](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) für weitere Details.
 
 1. Klicken Sie auf die **[!UICONTROL Schaltfläche „Hinzufügen“]**, um die Einstellungen zu definieren: den Titel und die zugehörige Aktion. Mögliche Aktionen sind die gleichen wie für das [Verhalten bei Klick](#on-click-behavior).
 
 1. Verwenden Sie für eine Vorschau Ihrer personalisierten Schaltflächen das Symbol **[!UICONTROL Ansicht erweitern]** unter dem zentralen Vorschaubild.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## Senden einer stillen Benachrichtigung {#silent-notification}
 
