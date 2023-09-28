@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4059'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -137,10 +137,6 @@ Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfi
 **Briefpost-Kanal**
 
 Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
-
-**Briefpost-Kanal**
-
-Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können.
 
 **Reporting**
 
