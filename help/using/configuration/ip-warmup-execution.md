@@ -11,9 +11,9 @@ keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -47,6 +47,11 @@ Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne 
 >title="Ausschluss von Domain-Gruppen"
 >abstract="Wählen Sie die Domänen aus, die Sie aus der aktuellen Phase ausschließen möchten. Der Domänenausschluss erfordert eine nicht ausgeführte Phase, daher müssen Sie möglicherweise eine laufende Phase aufteilen, um Ausschlüsse hinzuzufügen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Aufspaltung einer Phase"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="Definieren der Phasen Ihres Plans"
+>abstract="Jede Phase besteht aus mehreren Ausführungen, denen Sie eine einzelne Kampagne zuweisen."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >Wenn Sie alle Phasen aus dem IP-Warmup-Plan löschen, wird empfohlen, einen Plan erneut hochzuladen. [Weitere Informationen](#re-upload-plan)
 
 ## Definieren der Ausführungen {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="Definieren jedes Vorgangs"
+>abstract="Definieren und aktivieren Sie jeden Lauf für alle Phasen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="Interaktionsfilter"
+>abstract="Diese Spalte ist ein Filter, der beispielsweise nur auf die Benutzer abzielt, die in den letzten 20 Tagen mit Ihrer Marke interagiert haben. Sie können diese Einstellung auch über die **Ausführen bearbeiten** -Option."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="Zeitfenster festlegen"
+>abstract="Sie können ein Zeitfenster definieren, in dem die IP-Aufwärmekampagne ausgeführt werden kann, falls sich der Segmentierungsauftrag verzögert."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="Abbrechen von Läufen mit Zielgruppenfehlern"
+>abstract="Wählen Sie diese Option, um einen Lauf abzubrechen, wenn die qualifizierten Profile kleiner als die Zielgruppenprofile sind, sobald die Audience für diesen Lauf ausgewertet wurde."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="Anzeigen der qualifizierten Profile"
+>abstract="In dieser Spalte wird die Anzahl der qualifizierten Profile angezeigt. Wenn die Audience für eine Ausführung ausgewertet wurde und mehr Zielgruppenprofile als qualifizierte Profile vorhanden sind, wird die Ausführung weiterhin ausgeführt, es sei denn, die **Pausierung für Fehler** aktiviert ist. In diesem Fall wird die Ausführung abgebrochen."
 
 1. Wählen Sie für jeden Lauf einen Zeitplan aus.
 

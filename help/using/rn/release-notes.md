@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand
 
 **SMS-Kanal**
 
-Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzer Antworten für eingehende Suchbegriffe anpassen können. Beachten Sie, dass dies nur für einzelne SMS-Provider verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md)
+* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzer Antworten für eingehende Suchbegriffe anpassen können. Beachten Sie, dass dies nur für einzelne SMS-Provider verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+
+* Die Abmeldung von SMS wird nicht mehr auf Kanalebene verwaltet. Sie ist jetzt nummernspezifisch, d. h. wenn einige Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer** Sie möchten eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md#message-preset-sms)
 
 **Briefpost-Kanal**
 

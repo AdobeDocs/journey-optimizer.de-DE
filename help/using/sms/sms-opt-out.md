@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
@@ -24,7 +24,7 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 >Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Adobe Journey Optimizer verarbeitet die Nachrichten an lange Vorwahlen und gebührenfreie Nummern wie unten beschrieben. Sie sollten sich jedoch an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden rechtlichen Anforderungen entsprechen.
 >
 
-## Native eingehende Keywords{#sms-native-keywords}
+## Native eingehende Keywords {#sms-native-keywords}
 
 Per Standard verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für gebührenfreie und Langwahlnummer-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
 
@@ -33,7 +33,7 @@ Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihre
 Es sind keine Schritte erforderlich, um sicherzustellen, dass die SMS-Opt-out-Funktionen in Adobe Journey Optimizer funktionieren, da die Keyword-Antworten STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE automatisch erkannt werden. Der Opt-out-Status von Profilen wird in Echtzeit in Adobe Journey Optimizer aktualisiert.
 
 
-## Blockierungslisten{#sms-blocklists}
+## Blockierungslisten {#sms-blocklists}
 
 Zusätzlich zu Adobe Journey Optimizer, das den Versand auf der Grundlage des Opt-out-Status stoppt (bei direkten Integrationen mit Twilio oder Sinch), führen die meisten SMS-Gateway-Anbieter auch eine Blockierungsliste, die sicherstellt, dass eine SMS-Nachricht nicht an einen Kontakt gesendet wird, die sich für ein Opt-out entschieden hat. Wenn Sie einen anderen Anbieter als Sinch oder Twilio verwenden und eine SMS-Nachricht über einen [benutzerdefinierten Kanal](../building-journeys/using-custom-actions.md) senden, müssen Sie dies von Ihrem Anbieter bestätigen lassen.
 
