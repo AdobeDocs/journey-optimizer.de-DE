@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: Testadressenliste, Testadresse, Konfiguration
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
-workflow-type: tm+mt
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+workflow-type: ht
 source-wordcount: '951'
 ht-degree: 100%
 
@@ -154,4 +155,3 @@ Jedes Mal, wenn eine E-Mail-Nachricht im Rahmen dieser Kampagne oder Journey an 
 >[!NOTE]
 >
 >Bei Journeys wird der E-Mail-Versand an die Testadressen nur bei der ersten Ausführung der Journey durchgeführt.
-
