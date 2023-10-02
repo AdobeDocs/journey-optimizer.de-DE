@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 18%
 
 ---
@@ -58,7 +58,7 @@ Sie können mühelos alle Komponenten, Anpassungen und Stile verwalten, die Sie 
 
 Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie neue Änderungen direkt aus dem **[!UICONTROL Änderungen]** -Bereich - ohne dass eine Komponente ausgewählt und über die Web-Designer-Oberfläche bearbeitet werden muss. Führen Sie dazu folgende Schritte durch.
 
-1. Aus dem **[!UICONTROL Änderungen]**, klicken Sie auf die **[!UICONTROL Mehr Aktionen]** Schaltfläche.
+1. Aus dem **[!UICONTROL Änderungen]** auf das **[!UICONTROL Mehr Aktionen]** Schaltfläche.
 
 1. Auswählen **[!UICONTROL Hinzufügen einer Änderung]**.
 
@@ -66,7 +66,7 @@ Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie neue Änderungen
 
 1. Wählen Sie den Änderungstyp aus:
 
-   * **[!UICONTROL CSS-Selektor]**- [Weitere Infos](#css-selector)
+   * **[!UICONTROL CSS-Selektor]** - [Weitere Infos](#css-selector)
    * **[!UICONTROL Seite`<Head>`]** - [Weitere Infos](#page-head)
 
 1. Geben Sie Ihren Inhalt ein und **[!UICONTROL Speichern]** Ihre Änderungen.
@@ -184,4 +184,3 @@ Jede Änderung erstellt ein neues Element im **[!UICONTROL Änderungen]** Bedien
 Wenn Sie die **[!UICONTROL Seite`<head>`]** -Änderungstyp für zwei Kampagnen, die dieselbe URL beeinflussen, wird das JavaScript von beiden Kampagnen in die Seite eingefügt. [!DNL Journey Optimizer] bestimmt automatisch die Reihenfolge der bereitgestellten Inhalte. Stellen Sie sicher, dass der Code nicht von der Platzierung abhängig ist. Es liegt an Ihnen sicherzustellen, dass es keine Konflikte im Code gibt.
 
 +++
-

@@ -4,9 +4,9 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. September wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Eine neue Seite mit Best Practices für die Skalierung und Anleitungen zum Echtzeit-Stitching wurde hinzugefügt - [Weitere Informationen](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * Für die Sendezeitoptimierung wurde der Abschnitt Häufig gestellte Fragen hinzugefügt. [Weitere Informationen](../building-journeys/journeys-message.md#faq-send-time)
 * Für die Aktivität Zielgruppenqualifizierung wurde ein Hinweis hinzugefügt - Es kann bis zu 10 Minuten dauern, bis Profile aktiv sind und die Audience aufrufen oder verlassen. [Weitere Informationen](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Eine Liste der Einschränkungen, die bei der Erstellung von Entscheidungsregeln zu beachten sind, wurde der Dokumentation zum Entscheidungs-Management hinzugefügt. [Weitere Informationen](../offers/offer-library/creating-decision-rules.md)
 * Die Links zur Dokumentation zur Zugriffskontrolle wurden aktualisiert - [Weitere Informationen](../administration/permissions.md)
 * Die Voraussetzungen für In-App-Kanäle wurden mit Adobe Experience Platform-Datenerfassungsdetails aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
-
-
-
+* Einige der in Beispielen für Ranking-Formeln dargestellten Ausdrücke wurden aktualisiert, um Überprüfungsfehler zu vermeiden. [Weitere Informationen](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## August 2023 {#august-2023}
 
@@ -42,7 +40,6 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Es wurde ein Warnhinweis zur Seite **Arbeiten mit Inhaltsvorlagen** hinzugefügt, um anzugeben, dass Tracking beim Testen von E-Mail-Inhaltsvorlagen derzeit nicht unterstützt wird. Zum Testen des Trackings müssen Sie die Inhaltsvorlage in einer E-Mail verwenden und einen Testversand durchführen. [Weitere Informationen](../email/content-templates.md#test-template)
 * Es wurden mehrere Warnungen im Abschnitt **Erstellen und Veröffentlichen von Landingpages** hinzugefügt, um anzugeben, dass Sie nicht auf Ihre Landingpage zugreifen können, indem Sie die bei der Erstellung der Seite definierte URL einfach in einen Webbrowser kopieren, selbst wenn die Seite bereits veröffentlicht wurde. Stattdessen können Sie sie mit der Vorschaufunktion testen. [Weitere Informationen](../landing-pages/create-lp.md)
 * Es wurde ein neuer Abschnitt hinzugefügt, in dem beschrieben wird, wie für den Briefpost-Kanal das **Einverständnis verwaltet wird**. [Weitere Informationen](../direct-mail/test-send-direct-mail.md)
-
 
 ## Juli 2023 {#july-2023}
 

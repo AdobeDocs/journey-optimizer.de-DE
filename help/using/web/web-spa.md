@@ -5,10 +5,11 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 9%
+source-wordcount: '464'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +23,9 @@ ht-degree: 9%
 >abstract="Die Änderungen werden nur für ausgewählte Ansichten angewendet. Ansichten können mithilfe des **Durchsuchen** und navigieren Sie zu ihnen. Kann die Ansicht, die Sie suchen, nicht finden?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
-**Einzelseitenanwendungen** (SPA) kann jetzt im visuellen Editor für Webdesigner erstellt werden. Auf diese Weise können Sie auswählen, auf welche spezifischen Ansichten Sie Ihre Webseitenänderungen anwenden möchten.
+**Einzelseitenanwendungen** (SPA) kann jetzt im visuellen Editor für Webdesigner erstellt werden. Auf diese Weise können Sie festlegen, welche **views** Sie möchten Ihre Webseitenänderungen auf anwenden.
+
+[In diesem Video erfahren Sie, wie Sie Einzelseitenanwendungen erstellen.](#video)
 
 Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
 
@@ -77,3 +80,14 @@ Nachdem Sie eine Änderung hinzugefügt haben, während Sie sich in einer bestim
 1. Tauschen Sie **[!UICONTROL Durchsuchen]** -Modus, um zu überprüfen, ob die Änderungen auf die gewünschten Seiten angewendet werden.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Anleitungsvideo{#video}
+
+In diesem Video wird Folgendes erläutert:
+
+* SPA mit **[!UICONTROL Durchsuchen]** mode
+* Bearbeiten der aktuellen Ansicht
+* Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
+* Massenaktionen für Änderungen durchführen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
