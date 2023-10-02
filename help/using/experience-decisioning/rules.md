@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '283'
 ht-degree: 8%
 
 ---
@@ -37,6 +38,8 @@ Inhalt dieses Dokumentationshandbuchs:
 Entscheidungsregeln ermöglichen es Ihnen, die Zielgruppe für Entscheidungselemente zu definieren, indem Sie Einschränkungen anwenden, entweder direkt auf der Entscheidungselementebene oder innerhalb einer bestimmten Auswahlstrategie. Dadurch können Sie genau steuern, welche Artikel wem präsentiert werden sollen.
 
 Nehmen wir beispielsweise ein Szenario, in dem Sie Entscheidungselemente mit Yoga-bezogenen Produkten für Frauen haben. Mit Entscheidungsregeln können Sie festlegen, dass diese Elemente nur für Profile angezeigt werden sollen, deren Geschlecht &quot;weiblich&quot;ist und die in &quot;Yoga&quot;einen &quot;Zielpunkt&quot;angegeben haben.
+
+Zusätzlich zu den Entscheidungsregeln auf Element- und Auswahlstrategieebene können Sie auch zusätzliche Parameter für Ihre gewünschte Zielgruppe auf Kampagnenebene erstellen. [Weitere Informationen](../campaigns/create-campaign.md)
 
 Die Liste der Entscheidungsregeln ist im **[!UICONTROL Konfiguration]** / **[!UICONTROL Entscheidungsregeln]** Menü.
 

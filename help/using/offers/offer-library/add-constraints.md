@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
 workflow-type: tm+mt
-source-wordcount: '2385'
-ht-degree: 100%
+source-wordcount: '2381'
+ht-degree: 99%
 
 ---
 
@@ -150,7 +150,7 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
    >[!CAUTION]
    >
-   >Es ist nicht möglich, die Frequenlimitierung für zuvor erstellte Angebote zu aktivieren oder zu deaktivieren. Dazu müssen Sie das Angebot duplizieren oder ein neues erstellen.
+   >Es ist nicht möglich, die Frequenlimitierung für zuvor erstellte Angebote zu aktivieren oder zu deaktivieren. Erstellen Sie dazu ein neues Angebot.
 
 1. Legen Sie fest, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird. [Weitere Informationen](#capping-event)
 

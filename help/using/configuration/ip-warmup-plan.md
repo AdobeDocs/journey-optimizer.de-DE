@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 4%
@@ -85,6 +86,8 @@ Verwenden Sie die **[!UICONTROL Benutzerspezifische Domänengruppe]** um eine ne
 
 Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Luma&quot;hinzufügen, sollen die folgenden Subdomains eingeschlossen sein: luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## IP-Warmlaufpläne aufrufen und verwalten {#manage-ip-warmup-plans}
 
 1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Aufwärmspläne]** Menü. Alle bisher erstellten IP-Warmup-Pläne werden angezeigt.
@@ -95,7 +98,7 @@ Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Luma&quot;hinzufüg
 
    * **Nicht gestartet**: Es wurde noch keine Ausführung aktiviert. [Weitere Informationen](ip-warmup-execution.md#define-runs)
    * **Live**: Der Plan erhält diesen Status, sobald die erste Ausführung in der ersten Phase erfolgreich aktiviert wurde. [Weitere Informationen](ip-warmup-execution.md#define-runs)
-   * **Abgeschlossen**: Der Plan wurde als abgeschlossen gekennzeichnet. Diese Option ist nur verfügbar, wenn alle im Plan ausgeführten Vorgänge in **[!UICONTROL Erfolgreich]** oder **[!UICONTROL Entwurf]** status (kein Run kann ausgeführt werden) **[!UICONTROL Live]**). [Weitere Informationen](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Abgeschlossen**: Der Plan wurde als abgeschlossen gekennzeichnet. Diese Option ist nur verfügbar, wenn alle im Plan ausgeführten Vorgänge in **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Entwurf]** status (kein Run kann ausgeführt werden) **[!UICONTROL Live]**). [Weitere Informationen](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Um einen IP-Aufwärmplan zu löschen, wählen Sie die **[!UICONTROL Löschen]** neben dem Namen eines Plans klicken und den Löschvorgang bestätigen.
