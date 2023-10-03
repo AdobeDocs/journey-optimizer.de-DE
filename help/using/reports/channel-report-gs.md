@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e812621c0b365e07432f6b517a012cf59c37f01f
+exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 15%
@@ -40,7 +41,7 @@ So weisen Sie Ihrer **[!UICONTROL Rolle]**:
 
    ![](assets/channel_permission_1.png)
 
-1. Ziehen Sie die **[!UICONTROL Bericht]** Ressource, um Berechtigungen zuzuweisen.
+1. Ziehen Sie die **[!UICONTROL Berichte]** Ressource, um Berechtigungen zuzuweisen.
 
    Aus dem **[!UICONTROL Bericht]** Ressourcen-Dropdown, wählen Sie die **[!UICONTROL Anzeigen von Kanalberichten]** -Berechtigung.
 

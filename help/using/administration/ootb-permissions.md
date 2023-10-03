@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 | Funktion | Berechtigungen |
 |-|-|
 | Kampagnen | **[!DNL Manage campaigns]**: Lesen, Erstellen, Bearbeiten und Löschen von Kampagnen. </br>**[!DNL Publish campaigns]**: Berechtigung zur Veröffentlichung von Kampagnen.</br>**[!DNL View campaigns]**: Nur-Lese-Zugriff auf Kampagnen. </br>**[!DNL View campaigns report]**: Lesen und Bearbeiten von Kampagnenberichten. |
+| Berichte | **[!DNL View channel reports]**: zum Lesen und Bearbeiten von Kanalberichten. |
 | Kanalkonfigurationen | **[!DNL Export suppression list]**: Zugriff auf das Exportieren der Unterdrückungsliste als CSV-Datei.</br>**[!DNL Manage alerts]**: Aktivieren/Deaktivieren von Warnhinweisen für Kampagnen, Nachrichten und Berechtigungen.</br> **[!DNL Manage IP pools]**: Lesen, Erstellen, Bearbeiten und Löschen von IP-Pools. </br>**[!DNL Manage landing page settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für Landingpages.</br> **[!DNL Manage messages general settings]**: Lesen, Erstellen, Bearbeiten und Löschen der allgemeinen Einstellungen für Nachrichten.</br>**[!DNL Manage messages presets]**: Lesen, Erstellen, Bearbeiten und Löschen von Inhalts-Branding.</br>**[!DNL Manage PTR records]**: Lesen und Bearbeiten von PTR-Einträgen. </br>**[!DNL Manage SMS settings]**: Lesen, Erstellen, Bearbeiten und Löschen der Einstellungen für SMS-Nachrichten.</br>**[!DNL Manage SMS subdomains]**: Lesen, Erstellen, Bearbeiten und Löschen von SMS-Subdomains. </br> **[!DNL Manage Seedlist]**: Lesen, Erstellen, Bearbeiten und Löschen von Testadressenlisten. </br> **[!DNL Manage subdomains delegation]**: Lesen, Erstellen, Bearbeiten und Löschen von Subdomain-Delegierungen. </br>**[!DNL Manage suppression rules]**: Zugriff auf das Lesen, Erstellen, Bearbeiten und Löschen von Unterdrückungsregeln.</br>**[!DNL View channel surfaces]**: Nur-Lese-Zugriff auf Kanaloberflächen.</br> **[!DNL View messages general settings]**: Nur-Lese-Zugriff auf allgemeine Nachrichteneinstellungen. </br> **[!DNL View messages presets]**: Nur-Lese-Zugriff auf Nachrichtenvoreinstellungen. </br> **[!DNL View PTR records]**: Nur-Lese-Zugriff auf PTR-Einträge.</br>**[!DNL View suppression list]**: Lesen und Exportieren der lokalen Unterdrückungsliste. |
 | Dashboards | **[!DNL View license usage dashboards]**: Nur-Lese-Zugriff auf das Lizenznutzungs-Dashboard. </br>**[!DNL Manage custom dashboards]**: Ermöglicht Ihnen, ein neues Dashboard zu erstellen oder ein vorhandenes Dashboard zu bearbeiten.</br>**[!DNL View custom dashboards]**: Nur-Lese-Zugriff auf benutzerdefinierte Dashboards. </br>**[!DNL View standard dashboards]**: Nur-Lese-Zugriff auf die Dashboards „Profile“, „Ziele“ und „Segmente“.</br>**[!DNL Manage standard dashboards]**: Ermöglicht Ihnen, benutzerdefinierte Widgets zu erstellen und das Widget-Schema über die Widget-Bibliothek zu bearbeiten. |
 | Datenerfassung | **[!DNL Manage datastream]**: Lesen, Erstellen und Bearbeiten von Datenströmen.</br>**[!DNL View datastream]**: Nur-Lese-Zugriff auf Datenströme. |
