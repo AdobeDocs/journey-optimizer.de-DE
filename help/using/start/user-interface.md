@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ Erstellen und verwalten Sie Inhalte aus diesem Abschnitt.
 
 * **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] ist ein zentralisiertes Repository von Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../content-management/assets-essentials.md)
 
-* **[!UICONTROL Inhaltsvorlagen]** - Für einen beschleunigten und verbesserten Design-Prozess erstellen Sie eigenständige Vorlagen, um benutzerdefinierte Inhalte in Journey Optimizer-Kampagnen und -Journeys einfach wiederzuverwenden. [Weitere Informationen](../email/content-templates.md)
+* **[!UICONTROL Inhaltsvorlagen]** - Für einen beschleunigten und verbesserten Design-Prozess erstellen Sie eigenständige Vorlagen, um benutzerdefinierte Inhalte in Journey Optimizer-Kampagnen und -Journeys einfach wiederzuverwenden. [Weitere Informationen](../content-management/content-templates.md)
 
-* **[!UICONTROL Fragmente]** - Erstellen und verwalten Sie Fragmente, um den E-Mail-Design-Prozess reibungslos zu gestalten: Erstellen Sie benutzerdefinierte Inhaltsbausteine, die zur schnellen Zusammenstellung von E-Mail-Inhalten verwendet werden können. [Weitere Informationen](../email/fragments.md)
+* **[!UICONTROL Fragmente]** - Erstellen und verwalten Sie Fragmente, um den E-Mail-Design-Prozess reibungslos zu gestalten: Erstellen Sie benutzerdefinierte Inhaltsbausteine, die zur schnellen Zusammenstellung von E-Mail-Inhalten verwendet werden können. [Weitere Informationen](../content-management/fragments.md)
 
 ### [!UICONTROL DATEN-MANAGEMENT] {#left-nav-data}
 

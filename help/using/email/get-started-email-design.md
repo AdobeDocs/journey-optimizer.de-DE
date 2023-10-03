@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: E-Mail, Design, Stock, Assets
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Nachdem Sie einer Journey oder Kampagne eine [E-Mail hinzugefügt](create-email.
 
    * **Importieren Sie vorhandenen HTML-Inhalt** aus einer Datei oder einem .zip-Ordner. In [diesem Abschnitt](existing-content.md) erfahren Sie, wie Sie E-Mail-Inhalte importieren.
 
-   * Wählen Sie aus einer Liste integrierter oder benutzerdefinierter Vorlagen einen **existierenden Inhalt aus**. Informationen zum Nutzen von E-Mail-Vorlagen finden Sie in [diesem Abschnitt](email-templates.md).
+   * Wählen Sie aus einer Liste integrierter oder benutzerdefinierter Vorlagen einen **existierenden Inhalt aus**. Informationen zum Nutzen von E-Mail-Vorlagen finden Sie in [diesem Abschnitt](../email/use-email-templates.md).
 
    ![](assets/email_designer_create_options.png)
 
