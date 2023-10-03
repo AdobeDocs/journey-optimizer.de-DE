@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
-workflow-type: ht
-source-wordcount: '2164'
-ht-degree: 100%
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,12 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
    Sie haben nun denselben Rang und werden daher gleichzeitig ausgewertet. [Weitere Informationen](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* Wenn [AI-Modell](../ranking/ai-models.md) in einer Bewertungskriterien-Gruppe verwendet wird, müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode verwenden und dasselbe spezifische KI-Modell verwenden.
+   >
+   >* Nur eine Bewertungskriterien-Gruppe kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsbereichs müssen andere Rangmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Rangmethoden](../offer-activities/configure-offer-selection.md)
 
 1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Neuer Umfang]**. Wiederholen Sie für jeden Entscheidungsumfang die obigen Schritte.
 
@@ -323,7 +329,7 @@ Wählen Sie die Schaltfläche **[!UICONTROL Bearbeiten]** aus, um zum Entscheidu
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey aufgenommen werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 Wählen Sie eine Live-Entscheidung aus und klicken Sie auf **[!UICONTROL Deaktivieren]**, um den Entscheidungsstatus wieder auf **[!UICONTROL Entwurf]** zu setzen.
 
