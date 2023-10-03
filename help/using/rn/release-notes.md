@@ -4,10 +4,10 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
 workflow-type: tm+mt
-source-wordcount: '4086'
-ht-degree: 86%
+source-wordcount: '4121'
+ht-degree: 85%
 
 ---
 
@@ -99,9 +99,9 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-<!--**Personalization**
+**Personalisierung**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke. [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
 
 <!--
 **Alerting**
