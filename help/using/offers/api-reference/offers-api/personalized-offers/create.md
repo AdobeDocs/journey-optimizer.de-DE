@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 60%
+source-wordcount: '157'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,6 @@ Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Fe
 | Header-Name | Wert |
 | ----------- | ----- |
 | Inhaltstyp | `application/json` |
-| Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **API-Format**
 
@@ -113,4 +112,4 @@ Bei einer erfolgreichen Antwort werden die Details des neu erstellten personalis
 
 ## Einschränkungen {#limitations}
 
-Angebotsdarstellungen und einige Angebotsbeschränkungen werden derzeit nicht mit den mobilen [!DNL Experience Edge]-Workflows unterstützt, zum Beispiel `Capping`. Der Wert des Feldes `Capping` gibt an, wie oft ein Angebot allen Benutzern angezeigt werden kann. Weitere Informationen finden Sie in der [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../offer-library/creating-personalized-offers.md).
+Angebotsdarstellungen und einige Angebotsbeschränkungen werden derzeit nicht mit den mobilen [!DNL Experience Edge]-Workflows unterstützt, zum Beispiel `Capping`. Der Wert des Feldes `Capping` gibt an, wie oft ein Angebot allen Benutzern angezeigt werden kann. Weitere Informationen finden Sie in der [Dokumentation zu Angebotseignungsregeln und Einschränkungen](../../../../offers/offer-library/creating-personalized-offers.md).

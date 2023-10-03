@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 55%
+source-wordcount: '119'
+ht-degree: 47%
 
 ---
 
@@ -33,8 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Der Container, in dem sich die Entscheidungsregeln befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Anfrage**
 
@@ -69,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidungsregel zurück, einschließlich Platzierung `id`. Sie können die `id` in späteren Schritten, um Ihre Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einem späteren Tutorial zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
+Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidungsregel zurück `id`. Sie können die `id` in späteren Schritten, um Ihre Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einem späteren Tutorial zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
 
 ```json
 {

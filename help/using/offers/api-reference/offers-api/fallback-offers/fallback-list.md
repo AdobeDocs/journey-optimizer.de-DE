@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
+source-git-commit: f7d2666c88dd2cfb1237fbab34c1ec3b141260b4
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 48%
+source-wordcount: '218'
+ht-degree: 47%
 
 ---
 
@@ -51,7 +51,7 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `property` | Ein optionaler Eigenschaftenfilter: <ul><li> Die Eigenschaften werden nach UND-Vorgang gruppiert. <br><br> - Parameter können wie folgt wiederholt werden: property=`<property-expr>`[&amp;property=`<property-expr2>`...] oder property=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br> - Eigenschaftenausdrücke haben das Format `[!]field[op]` Wert, mit op in `[==,!=,'<=',>=,<,>,~]`unterstützt reguläre Ausdrücke  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, die reguläre Ausdrücke unterstützen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines - vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z-A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Schränken Sie die Anzahl der zurückgegebenen Entitäten ein. | `limit=5` |
 

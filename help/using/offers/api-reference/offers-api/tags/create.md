@@ -6,64 +6,68 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 43%
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
 
+
 # Erstellen eines Sammlungskennzeichners {#create-tag}
 
-Sie können einen Sammlungsbezeichner (zuvor als &quot;Tag&quot;bezeichnet) erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] API.
+Sie können einen Sammlungsqualifizierer (ehemals als „Tag“ bezeichnet) erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
-| Inhaltstyp | `application/json` |
+| Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhaltstyp | `application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **API-Format**
 
 ```http
-POST /{ENDPOINT_PATH}/tags
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungsqualifizierer befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Anfrage**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
--H 'Content-Type: application/json' \
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"' \
 -H 'Authorization: Bearer {ACCESS_TOKEN}' \
 -H 'x-api-key: {API_KEY}' \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}' \
 -d '{        
-    "name": "Black Friday",
-    "description": "Tag for black friday"
+        "xdm:name": "Holiday sales and promotions"
 }'
 ```
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungsbezeichner zurückgegeben, einschließlich des zugehörigen `id`. Sie können es in späteren Schritten verwenden, um Ihren Sammlungsbezeichner zu aktualisieren oder zu löschen. Sie können die eindeutige `id` Ihres Sammlungsqualifizierers in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
+Bei einer erfolgreichen Antwort werden Informationen zum neu erstellten Sammlungsqualifizierer zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihren Sammlungsqualifizierer zu aktualisieren oder zu löschen. Sie können die eindeutige `@id` Ihres Sammlungsqualifizierers in späteren Tutorials zum Erstellen von Sammlungen und personalisierten Angeboten nutzen.
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "d48fd160-13dc-11eb-bc55-c11be7252432",
+    "@id": "xcore:tag:124e147572cd7866",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T20:34:34.486296Z",
+    "repo:lastModifiedDate": "2020-10-21T20:34:34.486296Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
