@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von SMS-Nachric
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1008'
 ht-degree: 89%
 
 ---
@@ -61,11 +61,11 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-      * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. [Weitere Informationen](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL Service-ID]** und **[!UICONTROL API-Token]**: Rufen Sie die API-Seite auf. Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS“. [Weitere Informationen](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
       * **[!UICONTROL Opt-in-Nachricht]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **[!UICONTROL Opt-in-Nachricht]**.
 
-      * **[!UICONTROL Hilfemeldung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **[!UICONTROL Hilfemeldung]**.
+      * **[!UICONTROL Hilfemeldung]**: Geben Sie die benutzerdefinierte Antwort ein, die automatisch als Ihre **Hilfemeldung**.
 
    * Für **[!DNL Twilio]**:
 
@@ -73,13 +73,13 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
       * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]**: Rufen Sie den Bereich mit den Kontoinformationen Ihrer Twilio Console-Dashboard-Seite auf. Dort finden Sie Ihre Anmeldedaten.
 
-      * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. [Weitere Informationen](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL Nachrichten-SID]**: Geben Sie die eindeutige Kennung ein, die jeder von der Twilio-API erstellten Nachricht zugewiesen ist. [Weitere Informationen](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * Für **[!DNL Infobip]**:
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-      * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. [Weitere Informationen](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Token]**: Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln auf. Dort finden Sie Ihre Anmeldedaten. [Weitere Informationen](https://www.infobip.com/docs/api){target="_blank"}.
 
    ![](assets/sms_7.png)
 
