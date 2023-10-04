@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 15%
 
 ---
@@ -57,12 +57,12 @@ Der E/A-Ereignis-Abonnementname, der dem Warnhinweis für benutzerdefinierte Akt
 
 ## Trigger lesen fehlgeschlagen {#alert-read-audiences}
 
-Dieser Warnhinweis warnt Sie, wenn ein **Segment lesen** -Aktivität hat kein Profil 10 Minuten nach der geplanten Ausführungszeit verarbeitet. Dieser Fehler kann durch technische Probleme verursacht werden oder weil die Zielgruppe leer ist.
+Dieser Warnhinweis warnt Sie, wenn ein **Audience lesen** -Aktivität hat kein Profil 10 Minuten nach der geplanten Ausführungszeit verarbeitet. Dieser Fehler kann durch technische Probleme verursacht werden oder weil die Zielgruppe leer ist.
 
 ![](assets/alerts1.png)
 
-Warnhinweise auf **Segment lesen** -Aktivitäten gelten nur für wiederkehrende Journey. **Segment lesen** Aktivitäten in Live-Journey mit einem Zeitplan für die Ausführung **Einmal** oder **So bald wie möglich** werden ignoriert.
+Warnhinweise auf **Audience lesen** -Aktivitäten gelten nur für wiederkehrende Journey. **Audience lesen** Aktivitäten in Live-Journey mit einem Zeitplan für die Ausführung **Einmal** oder **So bald wie möglich** werden ignoriert.
 
-Warnhinweise auf **Segment lesen** werden aufgelöst, wenn ein Profil **Segment lesen** Knoten.
+Warnhinweise auf **Audience lesen** werden aufgelöst, wenn ein Profil **Audience lesen** Knoten.
 
-Der Anmeldename für das E/A-Ereignis, der dem **Segment lesen** Warnhinweis **Journey Lesen von Segmentverzögerungen, Fehlern und Fehlern**.
+Der Anmeldename für das E/A-Ereignis, der dem **Trigger lesen fehlgeschlagen** Warnhinweis **Journey Lesen von Segmentverzögerungen, Fehlern und Fehlern**.

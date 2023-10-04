@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Warnhinweise**
 
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine gelesene Audience fehlschlägt. [Weitere Informationen](../reports/alerts.md).
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine **Audience lesen** -Aktivität schlägt fehl. [Weitere Informationen](../reports/alerts.md).
 
 **Web-Kanal**
 
@@ -117,7 +117,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren. [Weitere Informationen](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren. [Weitere Informationen](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie def
 
 **E-Mail-Kanal**
 
-Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn sich deren E-Mail-Adressen auf der Adobe befinden [!DNL Journey Optimizer] Unterdrückungsliste. [Weitere Informationen](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn sich deren E-Mail-Adressen auf der Adobe befinden [!DNL Journey Optimizer] Unterdrückungsliste. [Weitere Informationen](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS-Kanal**
 
@@ -137,15 +137,15 @@ Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand
 
 **Briefpost-Kanal**
 
-Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
+* Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 
 **Reporting**
 
-Sie können jetzt Journey Optimizer-Berichte als CSV-Datei exportieren. Weitere Informationen finden Sie unter [Detaillierte Dokumentation](../reports/global-report.md#export-reports) und [Anleitungsvideo](../reports/global-report.md#video-csv).
+* Sie können jetzt Journey Optimizer-Berichte als CSV-Datei exportieren. Weitere Informationen finden Sie unter [Detaillierte Dokumentation](../reports/global-report.md#export-reports) und [Anleitungsvideo](../reports/global-report.md#video-csv).
 
 **Assets**
 
-Mit einer neuen Option für Assets können Sie das Repository für Ihre Assets in Journey Optimizer auswählen. Sie können sich für ein Assets Essentials-Repository oder ein as a Cloud Service Asset-Repository entscheiden, sofern Sie über diese Lösung verfügen. [Weitere Informationen](../content-management/assets-essentials.md)
+* Mit einer neuen Option für Assets können Sie das Repository für Ihre Assets in Journey Optimizer auswählen. Sie können sich für ein Assets Essentials-Repository oder ein as a Cloud Service Asset-Repository entscheiden, sofern Sie über diese Lösung verfügen. [Weitere Informationen](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 
