@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 91%
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,9 @@ Sie können eine Entscheidung in Ihrem Container ändern oder aktualisieren, ind
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ Die folgende Tabelle zeigt die gültigen Werte, die den *Content-Type* und
+## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
+
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 61%
+source-wordcount: '107'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,12 @@ Sie können eine Entscheidung erstellen, indem Sie eine POST-Anfrage an die [!DN
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-    @@ -22,61 +22,67 @@ Die folgende Tabelle zeigt die gültigen Werte, die den *Content-Type* und
+Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* und *Accept* im Anfrage-Header enthalten:
+
+| Header-Name | Wert |
+| ----------- | ----- |
+| Inhaltstyp | `application/json` |
+
 **API-Format**
 
 ```http
