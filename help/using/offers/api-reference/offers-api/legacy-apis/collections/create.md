@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 70%
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
+
 
 # Erstellen von Sammlungen {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Der Container, in dem sich die Sammlungen befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Anfrage**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Kollektion zurückgegeben, einschließlich der zugehörigen `id`. Sie können die `id` in späteren Schritten, um Ihre Sammlung zu aktualisieren oder zu löschen, oder in einem späteren Tutorial zum Erstellen einer Entscheidung.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Sammlung zurückgegeben, einschließlich der eindeutigen Instanz-ID und der Platzierungs-`@id`. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Sammlung zu aktualisieren oder zu löschen. Sie können Ihre eindeutige Sammlungs-`@id` in einem späteren Tutorial zum Erstellen einer Entscheidung nutzen.
 
 ```json
 {

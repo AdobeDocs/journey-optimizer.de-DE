@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 95%
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,6 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 | ----------- | ----- |
 | Akzeptieren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Inhaltstyp | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
-ens35577 markiert dieses Gespräch als gelöst.
-Aufgelöst anzeigen
 
 **API-Format**
 
