@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -141,11 +141,11 @@ Sie können einer Zielgruppe auch eine Einverständnisprüfung für die Personal
 
 1. Fügen Sie Ihre Ausgangszielgruppe über die dedizierte Schaltfläche rechts hinzu.
 
-1. Klicken Sie auf das Symbol „+“ und wählen Sie **[!UICONTROL Aufteilung]** aus, um eine aufgespaltene Zielgruppe zu erstellen. [Weitere Informationen zur Aufteilungsaktivität](../audience/composition-canvas.md#split)
+1. Klicken Sie auf **+** Symbol und wählen Sie eine **[!UICONTROL Aufspaltung]** -Aktivität, um eine aufgeteilte Zielgruppe zu erstellen. [Weitere Informationen zur Aufteilungsaktivität](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Legen Sie rechts **[!UICONTROL Attributaufteilung]** als Aufteilungstyp fest.
+1. Wählen Sie im rechten Bereich **[!UICONTROL Attributaufteilung]** als Aufspaltungstyp.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
