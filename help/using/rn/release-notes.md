@@ -4,9 +4,9 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke. [Weitere Informationen](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**Warnhinweise**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine gelesene Audience fehlschlägt. [Weitere Informationen](../reports/alerts.md).
 
 **Web-Kanal**
 
