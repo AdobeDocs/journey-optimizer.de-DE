@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 10%
 
 ---
@@ -68,7 +68,7 @@ Gehen Sie wie folgt vor, um dem Inhalt Ausdrucksfragmente hinzuzufügen.
 
 >[!NOTE]
 >
->Wenn Sie ein Ausdrucksfragment erstellen, das mehrere Zeilenumbrüche enthält, und dieses in [SMS](../sms/create-sms.md#sms-content) oder [push](../push/design-push.md) -Inhalt, bleiben die Zeilenumbrüche erhalten. Stellen Sie daher sicher, dass Sie Ihre [SMS](../sms/send-sms.md) oder [push](../push/send-push.md) vor dem Versand.
+>Wenn Sie ein Ausdrucksfragment erstellen, das mehrere Zeilenumbrüche enthält, und dieses in [SMS](../sms/create-sms.md#sms-content) oder [push](../push/design-push.md) -Inhalt, bleiben die Zeilenumbrüche erhalten. Testen Sie daher Ihre [SMS](../sms/send-sms.md) oder [push](../push/send-push.md) vor dem Versand.
 
 ## Unterbrechen der Vererbung {#break-inheritance}
 
