@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 11%
+source-wordcount: '456'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 11%
 
 Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
->[!NOTE]
->
->Erfahren Sie, wie Sie Fragmente in erstellen und verwalten [diesem Abschnitt](../content-management/fragments.md).
+Erfahren Sie, wie Sie Fragmente in erstellen und verwalten [diesem Abschnitt](../content-management/fragments.md).
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Gehen Sie wie folgt vor, um dem Inhalt Ausdrucksfragmente hinzuzufügen.
 
 1. Anschließend können Sie Ihren Inhalt wie gewohnt anpassen und validieren, indem Sie alle Personalisierungs- und Authoring-Funktionen der [Ausdruckseditor](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Wenn Sie ein Ausdrucksfragment erstellen, das mehrere Zeilenumbrüche enthält, und dieses in [SMS](../sms/create-sms.md#sms-content) oder [push](../push/design-push.md) -Inhalt, bleiben die Zeilenumbrüche erhalten. Stellen Sie daher sicher, dass Sie Ihre [SMS](../sms/send-sms.md) oder [push](../push/send-push.md) vor dem Versand.
+
 ## Unterbrechen der Vererbung {#break-inheritance}
 
 Beim Hinzufügen einer Fragment-ID zum Ausdruckseditor werden die Änderungen am ursprünglichen Ausdrucksfragment synchronisiert.
@@ -79,13 +81,4 @@ Sie können jedoch auch den Inhalt eines Ausdrucksfragments in den Editor einfü
 In diesem Fall ist die Vererbung aus dem ursprünglichen Fragment fehlerhaft. Der Inhalt des Fragments wird in den Editor kopiert und die Änderungen werden nicht mehr synchronisiert.
 
 Es wird zu einem eigenständigen Element, das nicht mehr mit dem ursprünglichen Fragment verknüpft ist. Sie können es wie jedes andere Element im Code bearbeiten.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
