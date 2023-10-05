@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 78%
+source-wordcount: '1278'
+ht-degree: 77%
 
 ---
 
@@ -37,7 +37,7 @@ Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein 
 
 ## Best Practices{#custom-action-enhancements-best-practices}
 
-Eine Begrenzung von 5.000 Aufrufen/s ist für alle benutzerdefinierten Aktionen definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind. Sie müssen dies in Ihren zielgruppenbasierten Journey berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile bei Verwendung benutzerdefinierter Aktionen). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Capping/Throttling-APIs eine höhere Begrenzung oder Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind. Sie müssen dies in Ihren zielgruppenbasierten Journey berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile bei Verwendung benutzerdefinierter Aktionen). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Capping/Throttling-APIs eine höhere Begrenzung oder Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 Sie sollten öffentliche Endpunkte aus verschiedenen Gründen nicht mit benutzerdefinierten Aktionen ansprechen:
 
@@ -148,7 +148,7 @@ Sie können den Parametertyp definieren (z. B.: Zeichenfolge, Ganzzahl usw.).
 
 Sie können außerdem angeben, ob ein Parameter eine Konstante oder eine Variable ist:
 
-* **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Er ändert sich nicht und wird dem Marketing-Experten nicht angezeigt, wenn die benutzerdefinierte Aktion während der Journey verwendet wird. Er könnte beispielsweise eine ID sein, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der übergebene Wert.
+* **Konstante** bedeutet, dass der Wert des Parameters im Bereich für die Konfiguration der Aktion von einem technischen Anwender definiert wird. Der Wert bleibt über all Journeys hinweg immer gleich. Sie ändert sich nicht und wird dem Marketing-Experten bei Verwendung der benutzerdefinierten Aktion auf der Journey nicht angezeigt. Er könnte beispielsweise eine ID sein, die das Drittanbietersystem erwartet. In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der übergebene Wert.
 * **Variable** bedeutet, dass der Wert des Parameters variiert. Marketing-Experten, die diese benutzerdefinierte Aktion in einer Journey verwenden, können den von ihnen gewünschten Wert weitergeben oder angeben, wo der Wert für diesen Parameter abgerufen werden soll (z. B. vom Ereignis oder von Adobe Experience Platform). In diesem Fall ist das Feld rechts neben dem Umschalter zwischen Konstante und Variable der Titel, den der Marketing-Experte in der Journey sieht, um diesen Parameter zu benennen.
 
 ![](assets/customactionpayloadmessage2.png)

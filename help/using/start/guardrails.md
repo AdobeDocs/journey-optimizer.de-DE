@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 95%
 
 ---
@@ -66,7 +66,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 ### Benutzerdefinierte Aktionen  {#custom-actions-g}
 
-* Eine Begrenzung von 5.000 Aufrufen/s ist für alle benutzerdefinierten Aktionen definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind.
+* Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind.
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
