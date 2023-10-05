@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 98%
+source-wordcount: '1710'
+ht-degree: 97%
 
 ---
 
 # Erstellen Ihrer ersten Journey{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="Erstellen von Journeys"
+>abstract="Verwendung **Adobe Journey Optimizer** zum Erstellen von Anwendungsfällen für die Echtzeit-Orchestrierung der Customer Journey mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind."
 
 ## Voraussetzungen{#start-prerequisites}
 

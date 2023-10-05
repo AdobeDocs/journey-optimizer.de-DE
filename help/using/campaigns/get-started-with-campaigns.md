@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: Kampagne, Vorgehensweise, Starten, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 96%
 
 ---
 
 # Erste Schritte mit Kampagnen {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="Erstellen von Kampagnen"
+>abstract="Verwendung **Adobe Journey Optimizer** um einmalige Inhalte mithilfe verschiedener Kanäle für eine bestimmte Zielgruppe bereitzustellen. Bei Verwendung von Journeys werden die Aktionen nacheinander ausgeführt. Bei Kampagnen werden die Aktionen gleichzeitig ausgeführt, entweder sofort oder nach einem bestimmten Zeitplan."
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"

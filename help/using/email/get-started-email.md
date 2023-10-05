@@ -9,18 +9,19 @@ role: User
 level: Beginner
 keywords: E-Mail, Start, Erstellung, Vorschau
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 93%
 
 ---
 
 # Erste Schritte mit E-Mails {#get-started-email}
 
->[!IMPORTANT]
->
->Wenn Sie zum ersten Mal eine E-Mail erstellen, überprüfen Sie, ob zuvor der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](email-settings.md)
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card4"
+>title="Entwerfen von E-Mails"
+>abstract="Verwendung **Adobe Journey Optimizer** , um E-Mail-Nachrichten an Ihre Kunden zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen."
 
 Verwenden Sie [!DNL Journey Optimizer], um E-Mail-Nachrichten an Ihre Kunden zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
@@ -34,10 +35,16 @@ E-Mail-Sendungen können erstellt werden:
 
   Weitere Informationen zur Konfiguration einer Kampagne finden Sie auf [dieser Seite](../campaigns/create-campaign.md#configure).
 
+
+>[!IMPORTANT]
+>
+>Wenn Sie zum ersten Mal eine E-Mail erstellen, überprüfen Sie, ob zuvor der E-Mail-Kanal konfiguriert wurde. [Weitere Informationen](email-settings.md)
+
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Lead" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Erstellen von" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>E-Mail erstellen</strong>
 </div>
@@ -45,7 +52,7 @@ E-Mail-Sendungen können erstellt werden:
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Gelegentlich" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Design" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
 <a href="get-started-email-design.md"><strong>Erstellen einer E-Mail</strong></a>
@@ -53,7 +60,7 @@ E-Mail-Sendungen können erstellt werden:
 <p></td>
 <td>
 <a href="email-opt-out.md">
-<img alt="Validierung" src="../assets/do-not-localize/email-opt-out.jpg">
+<img alt="Opt-out" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
 <a href="email-opt-out.md"><strong>Opt-out-Verwaltung für E-Mails</strong></a>
@@ -62,7 +69,7 @@ E-Mail-Sendungen können erstellt werden:
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Validierung" src="../assets/do-not-localize/email-config.jpg">
+<img alt="Konfigurieren" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Konfigurieren des E-Mail-Kanals</strong></a>
