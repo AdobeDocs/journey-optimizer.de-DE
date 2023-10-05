@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
-workflow-type: ht
-source-wordcount: '1940'
-ht-degree: 100%
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
+workflow-type: tm+mt
+source-wordcount: '1987'
+ht-degree: 97%
 
 ---
 
 # Erstellen einer In-App-Nachricht {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="In-App-Trigger verwalten"
+>abstract="Kontrollieren Sie Ihre Trigger effizient, indem Sie die spezifischen Ereignisse und Kriterien auswählen, mit denen Ihre Nachrichten aktiviert werden. Mit dem Regel-Builder können Benutzer genaue Bedingungen und Werte definieren. Wenn diese Bedingungen erfüllt sind, initiieren sie eine Reihe von Aktionen, einschließlich der Bereitstellung von In-App-Nachrichten."
 
 Sie können eine In-App-Nachricht in einer Kampagne oder einer Journey hinzufügen. Gehen Sie wie folgt vor, um in beiden Kontexten eine In-App-Nachricht zu erstellen.
 
