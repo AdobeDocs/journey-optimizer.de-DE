@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: Assets, Essentials, Experience Manager, Integration
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 89%
@@ -49,8 +49,7 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
    ![](assets/media_library_4.png)
 
-+++
-Erfahren Sie, wie Sie das Asset-Repository wechseln.
++++ Erfahren Sie, wie Sie das Asset-Repository wechseln.
 
    Um Ihr Asset-Repository zu ändern, wählen Sie das Konto -Symbol oben rechts aus und klicken Sie auf **[!UICONTROL Repository auswählen]**.
 
