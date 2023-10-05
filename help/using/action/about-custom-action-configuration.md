@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 77%
@@ -132,7 +132,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie Folgendes defini
 
 1. Im **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Dienst gesendet werden soll. Dieses Feld ist optional und nur für POST- und PUT-Aufrufmethoden verfügbar.
 
-1. Im **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload einfügen. Dieses Feld ist optional und für alle Aufrufmethoden verfügbar. Ausführliche Informationen zur Verwendung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie unter [diese Seite](../action/action-response.md).
+1. Im **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload einfügen. Dieses Feld ist optional und für alle Aufrufmethoden verfügbar. Detaillierte Informationen zur Nutzung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie unter [diese Seite](../action/action-response.md).
 
 >[!NOTE]
 >

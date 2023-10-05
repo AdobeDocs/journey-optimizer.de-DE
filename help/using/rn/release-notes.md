@@ -4,7 +4,7 @@ product: journey optimizer
 title: Versionshinweise
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-* Unterstützung für benutzerdefinierte Aktionsantworten ist jetzt allgemein verfügbar. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neues Schutzschild hinzugefügt, mit dem alle Zollaktionen auf 15.000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
+* Unterstützung für benutzerdefinierte Aktionsantworten ist jetzt allgemein verfügbar. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neues Schutzschild hinzugefügt, mit dem alle Zollaktionen auf 150.000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
