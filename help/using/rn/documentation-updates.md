@@ -4,10 +4,10 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 90%
+source-wordcount: '3765'
+ht-degree: 88%
 
 ---
 
@@ -28,6 +28,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Links zur Dokumentation zur Zugriffskontrolle wurden aktualisiert - [Weitere Informationen](../administration/permissions.md)
 * Die Voraussetzungen für In-App-Kanäle wurden mit Adobe Experience Platform-Datenerfassungsdetails aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Einige der in Beispielen für Ranking-Formeln dargestellten Ausdrücke wurden aktualisiert, um Überprüfungsfehler zu vermeiden. [Weitere Informationen](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* Der **Definieren von Entscheidungsbereichen** um anzugeben, dass bei Verwendung des KI-Modells in einer Bewertungskriterien-Gruppe alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode mit demselben spezifischen KI-Modell verwenden müssen. Darüber hinaus kann nur eine Bewertungskriterien-Gruppe das KI-Modell verwenden. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## August 2023 {#august-2023}
 
