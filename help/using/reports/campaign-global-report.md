@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 98%
+source-wordcount: '2955'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,11 @@ Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken f
 ## Registerkarte „Kampagne“ {#campaign-global}
 
 ### Versand {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="Kampagnenstatistiken"
+>abstract="Das Statistikwidget von Campaign enthält die wichtigsten Informationen zu Ihrer Kampagne, wie z. B. eingegebene Profile und durchgeführte Aktionen."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in A
 
 ## Registerkarte „In-App“ {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="In-App-Leistung"
+>abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besucher mit In-App-Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="Interaktionen nach Typ"
+>abstract="Das Diagramm und die Tabelle Interaktionen nach Typ beschreiben, wie Benutzende mit Ihrer In-App-Nachricht interagiert haben, indem Klicks, Abbrechen oder Interaktionen verfolgt werden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="In-App-Zusammenfassung"
+>abstract="Das Übersichtsdiagramm der In-App-Nachricht veranschaulicht den Verlauf Ihrer In-App-Impressionen und -Interaktionen über den angegebenen Zeitraum."
+
 Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte **[!UICONTROL In-App]** die wichtigsten Informationen zu den In-App-Sendungen, die in Ihrer Kampagne versendet wurden.
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ Die KPIs der **[!UICONTROL In-App-Leistung]** geben die wichtigsten Informatione
 
 * **[!UICONTROL Interaktionsrate]**: Prozentsatz der Interaktionen mit Ihrer In-App-Nachricht. Dazu gehören alle von den Benutzenden durchgeführten Aktionen, wie z. B. Klicks, Abbrechen oder andere Interaktionen.
 
-Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions und Interaktionen für den jeweiligen Zeitraum an.
+Das Diagramm und die Tabelle **[!UICONTROL Interaktionen nach Typ]** beschreiben, wie Benutzende mit Ihrer In-App-Nachricht interagiert haben, indem Klicks, Abbrechen oder Interaktionen verfolgt werden.
 
-Das Diagramm und die Tabelle **[!UICONTROL Interaktionen nach Typ]** beschrieben, wie Benutzende mit Ihrer In-App-Nachricht interagiert haben, indem Klicks, Abbrechen oder Interaktionen verfolgt werden.
+Das Diagramm **[!UICONTROL In-App-Zusammenfassung]** zeigt die Entwicklung Ihrer In-App-Impressions und Interaktionen für den jeweiligen Zeitraum an.
 +++
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="Push-Benachrichtigung - Versandstatistiken"
+>abstract="Die Tabelle Statistiken zum Senden von Push-Benachrichtigungen enthält eine Zusammenfassung der wichtigsten Daten zu Ihren Push-Benachrichtigungen, z. B. zu Zielgruppen- oder zugestellten Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Push-Benachrichtigung - Trackingstatistiken"
+>abstract="Die Statistik zum Push-Tracking liefert Daten zur Empfängeraktivität für Ihren Versand."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Push-Benachrichtigung - Versandzusammenfassung"
+>abstract="Das Diagramm Zusammenfassung für Push-Benachrichtigungen zum Senden zeigt die Daten an, die für gesendete Push-Benachrichtigungen verfügbar sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Push-Benachrichtigung - Ausgeschlossene Gründe"
+>abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Push-Benachrichtigung - Fehlerursachen"
+>abstract="Anhand der Grafiken und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versands aufgetreten sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Push-Benachrichtigung - Verteilung nach Plattform"
+>abstract="Die Tabellen Aufschlüsselung nach Platform enthalten eine Aufschlüsselung des Erfolgs Ihrer Push-Benachrichtigungen nach Betriebssystem des Empfängers."
+
 Im **[!UICONTROL Globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den im Rahmen Ihrer Kampagne gesendeten Push-Nachrichten.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)Die KPIs zur In-App-Leistung enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten.
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
-Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
+Die **[!UICONTROL Push-Benachrichtigung - Versandstatistiken]** Die Tabelle enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Versandanalyse verarbeiteten Nachrichten.
 
@@ -295,14 +345,44 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihres Versands in A
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
-In der Grafik **[!UICONTROL Fehlergründe]** und der Tabelle unten können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
+Die **[!UICONTROL Fehlerursachen]** Anhand von Diagrammen und Tabellen können Sie sehen, welcher Fehler während des Versands aufgetreten ist.
 
-Das Diagramm und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die verschiedenen Gründe an, die verhindert haben, dass Nutzerprofile, die von den Zielprofilen ausgeschlossen wurden, die Nachricht erhalten haben.
+Die **[!UICONTROL Ausgeschlossene Gründe]** Grafiken und Tabellen zeigen die unterschiedlichen Gründe an, die verhindern, dass aus den Zielgruppenprofilen ausgeschlossene Benutzerprofile die Nachricht empfangen.
 
-Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTROL Senden nach Plattform]** und **[!UICONTROL Aufschlüsselung nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach dem Betriebssystem Ihres Empfängers.
+Die **[!UICONTROL Verteilung nach Plattform]** In Grafik und Tabelle wird der Erfolg Ihrer Push-Benachrichtigung entsprechend dem Betriebssystem des Empfängers beschrieben.
 +++
 
 ## Registerkarte „SMS“ {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS - Versandstatistiken"
+>abstract="Die Tabelle SMS-Versandstatistiken enthält eine Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten, wie z. B. Zielgerichtete oder zugestellte Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - Fehlerursachen"
+>abstract="Anhand der Diagramme und Tabellen SMS - Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versands aufgetreten sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS - Leistung nach Datum"
+>abstract="Das Widget SMS-Leistung nach Datum liefert wichtige Informationen über Ihre Nachrichten in einer grafischen Darstellung."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - Ausgeschlossene Gründe"
+>abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - Bounces-Gründe"
+>abstract="Die Diagramme und die Tabelle Bounces-Gründe enthalten die verfügbaren Daten zu Bounces-Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS - Klicks nach Links"
+>abstract="Das Widget SMS - Klicks nach Links bietet wichtige Einblicke in die Interaktion Ihrer Besucher mit den URLs in Ihren Nachrichten"
 
 Im **[!UICONTROL Globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte **[!UICONTROL SMS]** die wichtigsten Informationen zu den in Ihrer Kampagne versendeten SMS.
 
@@ -330,13 +410,28 @@ Das Widget **[!UICONTROL SMS-Leistung nach Datum]** enthält die wichtigsten Inf
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Bounce-Ursachen]** und **[!UICONTROL Fehlerursachen]** sehen Sie, welche Fehler und Ausschlüsse bei Ihrem Versand aufgetreten sind.
+Die **[!UICONTROL Ausschlussgründe]** und **[!UICONTROL Bounces-Gründe]** und **[!UICONTROL Fehlerursachen]** Mit Diagrammen und Tabellen können Sie sehen, welcher Fehler und welche Ausschlüsse während des Versands aufgetreten sind.
 
-Die Widgets **[!UICONTROL SMS – Klicks nach Links]** und **[!UICONTROL SMS – Tracking-Statistiken]** enthalten die wichtigsten Informationen zur Interaktion Ihrer Besucherinnen und Besucher mit Ihren URLs.
+Die **[!UICONTROL SMS - Klicks nach Links]** Widgets zeigen die wichtigsten Informationen im Zusammenhang mit der Interaktion Ihrer Besucher mit Ihren URLs an.
 
 +++
 
 ## Registerkarte „Web“ {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Webleistung"
+>abstract="Die Web Performance-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Webzusammenfassung"
+>abstract="Das Webzusammenfassungsdiagramm veranschaulicht den Verlauf Ihrer Web-Erlebnisse, einschließlich Impressionen, Unique Impressions und Interaktionen, über den angegebenen Zeitraum hinweg."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interaktionen nach Element"
+>abstract="Die Tabelle Interaktionen nach Element enthält wichtige Informationen zur Interaktion Ihrer Besucher mit verschiedenen Elementen auf Ihren Webseiten."
 
 Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte **[!UICONTROL Web]** die wichtigsten Informationen zu Ihren Web-Seiten aufgeführt.
 
@@ -358,6 +453,21 @@ Die Tabelle **[!UICONTROL Interaktionen nach Element]** enthält die wichtigsten
 +++
 
 ## Registerkarte „Briefpost“ {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="Briefpost - Versandstatistiken"
+>abstract="Die Tabelle Statistiken zum Briefpost-Versand enthält eine Zusammenfassung der wichtigsten Daten zu Ihren Briefpost-Nachrichten, wie z. B. Zielgerichtete oder zugestellte Nachrichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="Briefpost - Fehlerursachen"
+>abstract="Die Diagramme und Tabellen Briefpost - Fehlerursachen ermöglichen es Ihnen, die spezifischen Fehler zu identifizieren, die während des Versands aufgetreten sind."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="Briefpost - Ausgeschlossene Gründe"
+>abstract="Die Diagramme und Tabellen mit ausgeschlossenen Gründen für Direktversand veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
 
 Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte **[!UICONTROL Briefpost]** die wichtigsten Informationen zu Ihren Briefpost-Sendungen aufgeführt.
 
