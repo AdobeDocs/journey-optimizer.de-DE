@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 88%
 
 ---
 
@@ -20,15 +20,18 @@ Um Erlebnisereignisse zu erfassen, müssen Sie zunächst einen Datensatz erstell
 
 Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 
-1. Wählen Sie aus dem Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus und navigieren Sie zur Registerkarte **[!UICONTROL Durchsuchen]**.
+1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Schema]**.
 
-1. Klicken Sie auf **[!UICONTROL Schema erstellen]** und wählen Sie **[!UICONTROL XDM ExperienceEvent]** aus.
+1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts **[!UICONTROL Erlebnisereignis]** und klicken **Nächste**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
    >Weitere Informationen zu XDM-Schemata und Feldergruppen finden Sie in der [Dokumentation zur XDM-Systemübersicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+
+1. Geben Sie einen Namen und eine Beschreibung für Ihr Schema ein und klicken Sie auf **Beenden**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Feldergruppen]** auf der linken Seite **[!UICONTROL Hinzufügen]**.
 
@@ -44,7 +47,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
    >
    >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrem KI-Modell verwenden.
 
-1. Geben Sie einen Namen ein und speichern Sie das Schema.
+1. Schema speichern.
 
 >[!NOTE]
 >

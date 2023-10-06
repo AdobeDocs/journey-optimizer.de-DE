@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 100%
+source-wordcount: '1362'
+ht-degree: 96%
 
 ---
 
@@ -41,18 +41,18 @@ Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
 
 1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
    ![](assets/test-profiles-0.png)
-1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]** und wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**.
+1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts einen Schematyp aus, beispielsweise **Individuelles Profil** und klicken **Nächste**.
    ![](assets/test-profiles-1.png)
-1. Wählen Sie die entsprechenden Feldgruppen aus. Stellen Sie sicher, dass Sie die Feldgruppe **Profil-Testdetails** hinzufügen.
+1. Geben Sie einen Namen für Ihr Schema ein und klicken Sie auf **Beenden**.
+   ![](assets/test-profiles-1-bis.png)
+1. Im **Feldergruppen** -Bereich auf der linken Seite klicken Sie auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldgruppe **Profil-Testdetails** hinzufügen.
    ![](assets/test-profiles-1-ter.png)
 Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die Liste der Feldgruppen wird im Bildschirm „Schemaübersicht“ angezeigt.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Klicken Sie auf den Namen des Schemas, um es zu ändern und seine Eigenschaften zu aktualisieren.
-   >
-   >* Klicken Sie im Abschnitt „Feldgruppen“ auf die Schaltfläche **[!UICONTROL Hinzufügen]**, um andere Feldgruppen auszuwählen, die dem Schema hinzugefügt werden sollen.
+   >Klicken Sie auf den Namen des Schemas, um seine Eigenschaften zu aktualisieren.
 
 1. Klicken Sie in der Liste der Felder auf das Feld, das Sie als die primäre Identität definieren möchten.
    ![](assets/test-profiles-3.png)

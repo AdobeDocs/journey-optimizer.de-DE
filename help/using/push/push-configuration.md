@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Ihre Umgebung für das Senden von Push-Benach
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 100%
+source-wordcount: '1609'
+ht-degree: 96%
 
 ---
 
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [Dokumentation zu XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#schemas-and-data-ingestion){target="_blank"}.
 
-1. Gehen Sie im linken Menü zu **[!UICONTROL Schemas]**.
-
-1. Klicken Sie auf **[!UICONTROL Schema erstellen]** und wählen Sie dann **[!UICONTROL XDM ExperienceEvent]** aus.
-
+1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
+   ![](assets/test_push_1.png)
+1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts **[!UICONTROL Erlebnisereignis]** und klicken **Nächste**.
    ![](assets/test_push_2.png)
-
-1. Wählen Sie **[!UICONTROL Neue Feldergruppe erstellen]**.
+1. Geben Sie einen Namen und eine Beschreibung für Ihr Schema ein und klicken Sie auf **Beenden**.
+   ![](assets/test_push_3.png)
+1. Im **Feldergruppen** -Bereich auf der linken Seite klicken Sie auf **Hinzufügen** und wählen **[!UICONTROL Neue Feldergruppe erstellen]**.
 
 1. Geben Sie einen **[!UICONTROL Anzeigenamen]** und eine **[!UICONTROL Beschreibung]** ein. Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**. Weitere Informationen zum Erstellen von Feldergruppen finden Sie in der [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. Wählen Sie auf der linken Seite das Schema aus. Geben Sie im rechten Bereich den Namen Ihres Schemas und eine Beschreibung ein. Aktivieren Sie dieses Schema für das **[!UICONTROL Profil]**.
+1. Wählen Sie auf der linken Seite das Schema aus. Aktivieren Sie im rechten Bereich dieses Schema für **[!UICONTROL Profil]**.
 
    ![](assets/test_push_4b.png)
 
