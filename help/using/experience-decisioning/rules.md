@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
+source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 
@@ -27,11 +27,11 @@ Inhalt dieses Dokumentationshandbuchs:
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * [Erstellen von Entscheidungselementen](items.md)
    * [Verwalten von Elementsammlungen](collections.md)
-* Elementauswahl konfigurieren
+* Konfigurieren der Auswahl von Elementen
    * **[Entscheidungsregeln erstellen](rules.md)**
    * [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Entscheidungsrichtlinien erstellen](create-decision.md)
+* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +39,10 @@ Entscheidungsregeln ermöglichen es Ihnen, die Zielgruppe für Entscheidungselem
 
 Nehmen wir beispielsweise ein Szenario, in dem Sie Entscheidungselemente mit Yoga-bezogenen Produkten für Frauen haben. Mit Entscheidungsregeln können Sie festlegen, dass diese Elemente nur für Profile angezeigt werden sollen, deren Geschlecht &quot;weiblich&quot;ist und die in &quot;Yoga&quot;einen &quot;Zielpunkt&quot;angegeben haben.
 
-Zusätzlich zu den Entscheidungsregeln auf Element- und Auswahlstrategieebene können Sie auch zusätzliche Parameter für Ihre gewünschte Zielgruppe auf Kampagnenebene erstellen. [Weitere Informationen](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>Zusätzlich zu den Entscheidungsregeln auf Element- und Auswahlstrategieebene können Sie auch Ihre gewünschte Zielgruppe auf Kampagnenebene definieren. [Weitere Informationen](../campaigns/create-campaign.md#audience)
+
 
 Die Liste der Entscheidungsregeln ist im **[!UICONTROL Konfiguration]** / **[!UICONTROL Entscheidungsregeln]** Menü.
 
@@ -49,7 +52,7 @@ Die Liste der Entscheidungsregeln ist im **[!UICONTROL Konfiguration]** / **[!UI
 >
 >Vorerst werden Entscheidungsregeln mithilfe von Journey Optimizer verwaltet. **Entscheidungsmanagement** Menü. Daher wird die Variable **[!UICONTROL Entscheidungsregeln]** Liste in Experience Decisioning umfasst Regeln, die aus beiden Journey Optimizer erstellt wurden **[!UICONTROL Entscheidungsverwaltung]** oder **[!UICONTROL Erlebnisentscheidungen]** Menüs.
 
-Gehen Sie wie folgt vor, um eine Sammlung zu erstellen:
+Gehen Sie wie folgt vor, um eine Regel zu erstellen:
 
 1. Navigieren Sie zu **[!UICONTROL Konfiguration]** / **[!UICONTROL Entscheidungsregeln]**.
 1. Die Benutzeroberfläche für die Entscheidungsverwaltung von Journey Optimizer wird im zentralen Bereich angezeigt. Führen Sie die im Abschnitt [Dokumentation zur Entscheidungsverwaltung](../offers/offer-library/creating-decision-rules.md) um Ihre Regel auf Grundlage Ihrer Anforderungen zu erstellen.
