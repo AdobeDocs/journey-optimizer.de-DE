@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 96%
+source-wordcount: '1407'
+ht-degree: 85%
 
 ---
 
 # Gestalten einer Push-Benachrichtigung {#design-push-notification}
 
 ## Titel und Textkörper {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="Push-Benachrichtigung personalisieren."
+>abstract="Um eine Nachricht zu erstellen, geben Sie den Inhalt in die Felder Titel und Hauptteil ein. Um Personalisierungstoken einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
 
 Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
@@ -40,7 +45,12 @@ Sie können das Verhalten bestimmen, wenn ein Empfänger auf den Hauptteil der P
 
 ## Hinzufügen von Medien {#add-media-push}
 
-In der iOS-Version Ihrer Push-Benachrichtigung können Sie ein Bild, ein Video oder ein GIF hinzufügen, das in Ihrer Benachrichtigung angezeigt wird.
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="Medien zu Push-Benachrichtigungen hinzufügen"
+>abstract="Sie können ein Bild, ein Video oder eine GIF hinzufügen, die in Ihrer Benachrichtigung angezeigt werden."
+
+In der iOS-Version Ihrer Push-Benachrichtigung können Sie ein Bild, ein Video oder eine GIF hinzufügen, die in Ihrer Benachrichtigung angezeigt werden.
 
 In der Android-Version können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachrichtigungen hinzufügen.
 
@@ -57,6 +67,11 @@ Dazu sind zwei Optionen verfügbar. Sie haben folgende Möglichkeiten:
 Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachrichtigung angezeigt.
 
 ## Hinzufügen von Schaltflächen {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="Fügen Sie Schaltflächen hinzu, über die Benutzer mit Ihrer Push-Benachrichtigung interagieren können."
+>abstract="In diesem Abschnitt können Sie Aktionsaufruf-Schaltflächen zu Ihrer Nachricht hinzufügen. Geben Sie für iOS eine Kennung der Benachrichtigungskategorie an. Für Android können Sie für jede Schaltfläche benutzerdefinierten Text und Ziele hinzufügen."
 
 Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.
 
@@ -85,11 +100,21 @@ Wählen Sie die Option **[!UICONTROL Stille Benachrichtigung]** aus, um die Mobi
 
 Verwenden Sie den Abschnitt **[!UICONTROL Benutzerdefinierte Daten]**, um Schlüssel-Wert-Paare hinzuzufügen.
 
-## Benutzerspezifische Daten
+## Benutzerspezifische Daten {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="Konfigurieren Sie benutzerdefinierte Daten für Ihre Push-Benachrichtigung."
+>abstract="Fügen Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzu."
 
 Im Abschnitt **[!UICONTROL Benutzerdefinierte Daten]** können Sie der Payload je nach Konfiguration Ihrer Mobile App benutzerdefinierte Variablen hinzufügen. Weitere Informationen zum Einrichten von Push-Benachrichtigungen in Adobe Experience Platform und zu Adobe Launch finden Sie in [diesem Abschnitt](push-gs.md)
 
 ## Erweiterte Optionen {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="Konfigurieren Sie erweiterte Optionen für Ihre Push-Benachrichtigung."
+>abstract="In diesem Abschnitt können Sie die Personalisierung Ihrer Push-Benachrichtigung optimieren."
 
 Sie können **[!UICONTROL Erweiterte Optionen]** für Ihre Push-Benachrichtigung konfigurieren. Die verfügbaren Parameter sind unten aufgeführt:
 
