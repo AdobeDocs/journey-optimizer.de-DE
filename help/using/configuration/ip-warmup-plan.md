@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen eines IP-Warmup-Plans
+title: Erstellen eines IP-Aufwärmplans
 description: Erfahren Sie, wie Sie einen IP-Aufwärmplan in Journey Optimizer erstellen
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
-# Erstellen eines IP-Warmup-Plans {#ip-warmup}
+# Erstellen eines IP-Aufwärmplans {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit IP-Wärme](ip-warmup-gs.md)
-* [Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)
-* **[Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)**
-* [Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)
+* [Erste Schritte beim IP-Aufwärmen](ip-warmup-gs.md)
+* [Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)
+* **[Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)**
+* [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Luma&quot;hinzufüg
    >
    >Der ausgewählte IP-Warmup-Plan wird endgültig gelöscht.
 
-## Erstellen eines IP-Warmup-Plans {#create-ip-warmup-plan}
+## Erstellen eines IP-Aufwärmplans {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
@@ -121,7 +121,7 @@ Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Luma&quot;hinzufüg
 >title="Marketing-Oberfläche auswählen"
 >abstract="Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Einrichten von Kanaloberflächen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmekampagnen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmkampagnen"
 
 Wenn eine oder mehrere Live-Kampagnen mit **[!UICONTROL Aktivierung des IP-Warmlaufplans]** aktiviert sind, können Sie sie mit einem IP-Warmup-Plan verknüpfen.
 

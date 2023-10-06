@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 5%
@@ -65,6 +66,3 @@ Es gibt eine Reihe von Best Practices, die Sie anwenden können, um innerhalb de
 * Wenn dieselben Bedingungen über mehrere Journey hinweg wiederholt werden (Einverständnisprüfungen, Unterdrückungen), sollten Sie erwägen, sie als Teil der Segmentdefinition zu verschieben. Wenn Sie beispielsweise die Bedingung haben, dass die E-Mail-Adresse nicht leer ist, in mehreren Journey zu überprüfen, müssen Sie diese Bedingung als Teil der Segmentdefinition einbeziehen.
 * Wenn Ihre Journey mehrere Bedingungen hat, die die Zielgruppe aufteilen, um die Zahlen in jedem Schritt zu sehen, sollten Sie Customer Journey Analytics oder eine andere Berichterstellungslösung in Erwägung ziehen, die für die Analyse besser geeignet ist.
 * Wenn Sie sich der Grenze der Knoten auf der Arbeitsfläche nähern, sollten Sie die Konsolidierung von Aktionen mit dynamischen Parametern oder Inhalten erwägen, um den richtigen Inhalt anstelle expliziter Knoten bereitzustellen.
-
-
-

@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 43%
+ht-degree: 48%
 
 ---
 
@@ -21,10 +22,10 @@ ht-degree: 43%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit dem code-basierten Kanal](get-started-code-based.md)
-* **[Codebasierte Voraussetzungen](code-based-prerequisites.md)**
-* [Codebasierte Implementierungsbeispiele](code-based-implementation-samples.md)
-* [Codebasierte Erlebnisse erstellen](create-code-based.md)
+* [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
+* **[Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)**
+* [Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)
+* [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +37,7 @@ So können Sie Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] und di
 
 ## Warnhinweise {#caution-notes-web}
 
-* Der code-basierte Erlebniskanal ist derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+* Dieser Code-basierte Kanal ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 * Zurzeit in [!DNL Journey Optimizer] Sie können nur code-basierte Erlebnisse in **Kampagnen**. [Weitere Informationen](../campaigns/create-campaign.md#configure)
 
@@ -79,5 +80,3 @@ In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfa
 >[!NOTE]
 >
 >Der Datensatz wird schreibgeschützt vom Reporting-System von [!DNL Journey Optimizer] verwendet und hat keine Auswirkungen auf die Erfassung oder Aufnahme von Daten.
-
-

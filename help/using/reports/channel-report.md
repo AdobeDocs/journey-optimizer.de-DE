@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
-> So greifen Sie auf die **Bericht** Menü, müssen Sie über die **[!UICONTROL Anzeigen von Kanalberichten]** -Berechtigung. [Weitere Informationen](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Um auf das Menü **Bericht** zuzugreifen, müssen Sie über die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** verfügen. [Weitere Informationen](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 Die Kanalberichte bieten Benutzern einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Die Metriken werden aggregiert, um konsolidierte Werte für Aktionen aus dem ausgewählten Kanal darzustellen, die sich über verschiedene Kampagnen und Journey erstrecken.
 

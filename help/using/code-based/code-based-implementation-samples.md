@@ -1,5 +1,5 @@
 ---
-title: Codebasierte Implementierungsbeispiele
+title: Implementierungsbeispiele für Code-basierte Erlebnisse
 description: Auf dieser Seite finden Sie Beispiele für die Implementierungsmethode für die Code-basierte Journey Optimizer-Funktion.
 feature: Offers
 topic: Content Management
@@ -8,11 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 18%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit dem code-basierten Kanal](get-started-code-based.md)
-* [Codebasierte Voraussetzungen](code-based-prerequisites.md)
-* **[Codebasierte Implementierungsbeispiele](code-based-implementation-samples.md)**
-* [Codebasierte Erlebnisse erstellen](create-code-based.md)
+* [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
+* [Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)
+* **[Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)**
+* [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
 
 >[!ENDSHADEBOX]
 

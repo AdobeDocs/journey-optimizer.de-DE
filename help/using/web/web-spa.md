@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 8%
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 
 [In diesem Video erfahren Sie, wie Sie Einzelseitenanwendungen erstellen.](#video)
 
-Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
+Eine Ansicht kann als ganze Site oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
 
 Zum Definieren der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwicklersetup erforderlich. Auf diese Weise können Sie Adobe Journey Optimizer-Webkampagnen auf SPA erstellen und ausführen.
 
@@ -83,11 +83,11 @@ Nachdem Sie eine Änderung hinzugefügt haben, während Sie sich in einer bestim
 
 ## Anleitungsvideo{#video}
 
-In diesem Video wird Folgendes erläutert:
+In diesem Video wird Folgendes erklärt:
 
 * SPA mit **[!UICONTROL Durchsuchen]** mode
-* Bearbeiten der aktuellen Ansicht
-* Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
+* Verfassen in der aktuellen Ansicht
+* Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle entdeckten Ansichten
 * Massenaktionen für Änderungen durchführen
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

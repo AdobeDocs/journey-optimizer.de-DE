@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
 workflow-type: tm+mt
 source-wordcount: '1402'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Eine Journey, die mit **Zielgruppe lesen** beginnt, kann in Folgeversionen nicht mit einem anderen Ereignis beginnen.
 * Sie können keine neue Version einer „Zielgruppe lesen“-Journey mit inkrementellem Lesen erstellen. Sie müssen die Journey duplizieren.
 
-### Benutzerdefinierte Aktionen  {#custom-actions-g}
+### Benutzerdefinierte Aktionen {#custom-actions-g}
 
 * Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind. Sie müssen dies in Ihren zielgruppenbasierten Journey berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile bei Verwendung benutzerdefinierter Aktionen). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Capping/Throttling-APIs eine höhere Begrenzung oder Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.

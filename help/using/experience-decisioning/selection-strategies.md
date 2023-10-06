@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
@@ -26,11 +27,11 @@ Inhalt dieses Dokumentationshandbuchs:
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * [Erstellen von Entscheidungselementen](items.md)
    * [Verwalten von Elementsammlungen](collections.md)
-* Elementauswahl konfigurieren
+* Konfigurieren der Auswahl von Elementen
    * [Erstellen von Entscheidungsregeln](rules.md)
    * [Erstellen von Ranking-Methoden](ranking.md)
 * **[Erstellen von Auswahlstrategien](selection-strategies.md)**
-* [Entscheidungsrichtlinien erstellen](create-decision.md)
+* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
@@ -117,4 +118,3 @@ Nach der Erstellung können Sie diese Formel in einer Auswahlstrategie verwenden
 Sie können auch ein System mit trainierten Modellen verwenden, das automatisch eine Rangfolge der Angebote erstellt, die für ein bestimmtes Profil angezeigt werden sollen, indem Sie ein KI-Modell auswählen. In [diesem Abschnitt](ranking.md) erfahren Sie, wie Sie ein KI-Modell erstellen.
 
 Nachdem ein KI-Modell erstellt wurde, können Sie es in einer Auswahlstrategie verwenden. Wenn mehrere Angebote infrage kommen, bestimmt das trainierte Modellsystem, welches Angebot für diese Auswahlstrategie zuerst unterbreitet werden soll.
-

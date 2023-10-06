@@ -29,7 +29,7 @@ In den folgenden Abschnitten erfahren Sie mehr zu den einzelnen Themen:
 
 * [Verwalten von Änderungen](manage-web-modifications.md)
 
-* [Webkampagnen überwachen](monitor-web-campaigns.md)
+* [Web-Kampagnen überwachen](monitor-web-campaigns.md)
 
 ## Arbeiten mit dem Webdesigner {#work-with-web-designer}
 

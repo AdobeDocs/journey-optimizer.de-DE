@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -235,14 +235,14 @@ ht-degree: 93%
    + Verfassen von Web-Seiten {#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
-      + [Webkampagnen überwachen](using/web/monitor-web-campaigns.md)
+      + [Web-Kampagnen überwachen](using/web/monitor-web-campaigns.md)
       + [Einzelseitenanwendungen erstellen](using/web/web-spa.md)
    + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
-+ Codebasiertes Erlebnis {#code-based-experience}
-   + [Erste Schritte mit dem code-basierten Kanal](using/code-based/get-started-code-based.md)
-   + [Codebasierte Voraussetzungen](using/code-based/code-based-prerequisites.md)
-   + [Codebasierte Implementierungsbeispiele](using/code-based/code-based-implementation-samples.md)
-   + [Codebasierte Erlebnisse erstellen](using/code-based/create-code-based.md)
++ Code-basiertes Erlebnis {#code-based-experience}
+   + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
+   + [Voraussetzungen für Code-basierte Erlebnisse](using/code-based/code-based-prerequisites.md)
+   + [Implementierungsbeispiele für Code-basierte Erlebnisse](using/code-based/code-based-implementation-samples.md)
+   + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
    + [Erstellen einer Landingpage](using/landing-pages/create-lp.md)
@@ -483,17 +483,17 @@ ht-degree: 93%
          + [Decisioning-API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Erlebnisentscheidungen {#experience-decisioning}
++ Experience Decisioning {#experience-decisioning}
    + [Erste Schritte mit Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Verwalten von Entscheidungselementen {#decision-items}
       + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
       + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
       + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
-   + Elementauswahl konfigurieren {#selection}
+   + Konfigurieren der Auswahl von Elementen {#selection}
       + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
       + [Erstellen von Ranking-Methoden](using/experience-decisioning/ranking.md)
    + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
-   + [Entscheidungsrichtlinien erstellen](using/experience-decisioning/create-decision.md)
+   + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
 + Daten-Management {#data-management}
    + [Erste Schritte mit dem Daten-Management](using/data/gs-data.md)
    + [Arbeiten mit Schemata](using/data/get-started-schemas.md)
@@ -512,11 +512,11 @@ ht-degree: 93%
       + [Hinzufügen eines Google TXT-Eintrags](using/configuration/google-txt.md)
       + [Zugreifen auf und Bearbeiten von PTR-Einträgen](using/configuration/ptr-records.md)
       + [Erstellen von IP-Pools](using/configuration/ip-pools.md)
-   + Implementieren eines IP-Warmup-Plans {#implement-ip-warmup-plan}
-      + [Erste Schritte mit IP-Aufwärmeplänen](using/configuration/ip-warmup-gs.md)
-      + [Erstellen von IP-Aufwärmekampagnen](using/configuration/ip-warmup-campaign.md)
-      + [Erstellen eines IP-Warmup-Plans](using/configuration/ip-warmup-plan.md)
-      + [IP-Warmup-Plan ausführen](using/configuration/ip-warmup-execution.md)
+   + Implementieren eines IP-Aufwärmplans {#implement-ip-warmup-plan}
+      + [Erste Schritte mit IP-Aufwärmplänen](using/configuration/ip-warmup-gs.md)
+      + [Erstellen von IP-Aufwärmkampagnen](using/configuration/ip-warmup-campaign.md)
+      + [Erstellen eines IP-Aufwärmplans](using/configuration/ip-warmup-plan.md)
+      + [Ausführen des IP-Aufwärmplans](using/configuration/ip-warmup-execution.md)
    + Überwachen von E-Mail-Adressen {#monitor-reputation}
       + [Unterdrückungsliste](using/configuration/manage-suppression-list.md)
       + [Weitere Zustellversuche](using/configuration/retries.md)

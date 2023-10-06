@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit IP-Aufwärmeplänen
-description: Erfahren Sie, wie Sie einen IP-Warmup-Plan implementieren
+title: Erste Schritte mit IP-Aufwärmplänen
+description: Informationen zur Implementierung eines IP-Aufwärmplans
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -10,14 +10,15 @@ level: Experienced
 keywords: IP, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit IP-Aufwärmeplänen {#ip-warmup-gs}
+# Erste Schritte mit IP-Aufwärmplänen {#ip-warmup-gs}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -30,18 +31,18 @@ ht-degree: 31%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* **[Erste Schritte mit IP-Wärme](ip-warmup-gs.md)**
-* [Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)
-* [Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)
-* [Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)
+* **[Erste Schritte beim IP-Aufwärmen](ip-warmup-gs.md)**
+* [Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)
+* [Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)
+* [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Die IP-Warmup-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die IP-Aufwärmfunktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-Mit [!DNL Journey Optimizer]können Sie IP-Warmup-Workflows einfach direkt über die Benutzeroberfläche auf standardisierte und effiziente Weise durchführen, die den Best Practices für eine optimale Zustellbarkeit entspricht.
+Mit [!DNL Journey Optimizer] können Sie IP-Warmup-Workflows direkt von der Benutzeroberfläche aus auf standardisierte und effiziente Weise durchführen, die den Best Practices für optimale Zustellbarkeit folgt.
 
 >[!CAUTION]
 >
@@ -49,11 +50,11 @@ Mit [!DNL Journey Optimizer]können Sie IP-Warmup-Workflows einfach direkt über
 
 Wenn E-Mails über eine neue Plattform versendet werden, sind ISPs normalerweise misstrauisch gegenüber den neuen IP-Adressen. Das plötzliche Versenden großer Mengen an E-Mails veranlasst ISPs oft dazu, sie als Spam zu qualifizieren.
 
-Um zu vermeiden, als Spam gekennzeichnet zu werden, können Sie das gesendete Volumen mithilfe der Funktion IP-Warmup-Plan schrittweise erhöhen. Diese neue Option im **[!UICONTROL Administration]** -Menü können Sie es einfacher auf konsolidierter Weise tun, anstatt komplexe tägliche Journey zu erstellen. Dies gewährleistet eine reibungslose Anlaufphase, da die Gesamtrate ungültiger Adressen verringert wird.
+Um eine Einordnung als Spam zu vermeiden, können Sie das Sendevolumen mithilfe der IP-Aufwärmplan-Funktion schrittweise erhöhen. Mit dieser neuen Option im Menü **[!UICONTROL Administration]** können Sie dies einfach und konsolidiert tun, anstatt komplexe tägliche Journeys zu erstellen. Dies gewährleistet eine reibungslose Anlaufphase, wobei die Gesamtrate ungültiger Adressen verringert wird.
 
 >[!NOTE]
 >
->Erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming im [Best Practices für die Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de).
+>Im [Handbuch zu Best Practices bei der Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=de) finden sich Informationen dazu, wie die E-Mail-Reputation mit einer IP-Aufwärmung verbessert werden kann.
 
 <!--
 Benefits
@@ -67,10 +68,10 @@ Benefits
 * There is an expectation that with this, it will ease around 30% of effort and will be much better experience for consultant/partner/practitioner - right from planning to execution to reporting
 -->
 
-Die wichtigsten Schritte zur Implementierung eines IP-Warmup-Plans sind:
+Die wichtigsten Schritte zur Implementierung eines IP-Aufwärmplans sind:
 
-1. Zunächst müssen Sie eine oder mehrere Kampagnen mit aktivierter IP-Warmup-Option erstellen. [Weitere Informationen](ip-warmup-campaign.md)
+1. Zunächst müssen Sie eine oder mehrere Kampagnen mit aktivierter IP-Aufwärmoption erstellen. [Weitere Informationen](ip-warmup-campaign.md)
 
-1. Erstellen Sie einen IP-Warmup-Plan in [!DNL Journey Optimizer] und laden Sie die Excel-Tabelle hoch, die mithilfe Ihres Zustellbarkeitsberaters erstellt wurde. [Weitere Informationen](ip-warmup-plan.md)
+1. Erstellen Sie einen IP-Aufwärmplan in [!DNL Journey Optimizer] und laden Sie die Excel-Tabelle hoch, die mithilfe der Person, die Sie im Hinblick auf die Zustellbarkeit berät, erstellt wurde. [Weitere Informationen](ip-warmup-plan.md)
 
 1. Wählen Sie für jede Phase Ihres Plans eine Kampagne aus und aktivieren Sie die entsprechenden Ausführungen. [Weitere Informationen](ip-warmup-execution.md)

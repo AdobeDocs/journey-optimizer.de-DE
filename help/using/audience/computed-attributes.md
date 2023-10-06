@@ -6,13 +6,13 @@ description: Erfahren Sie, wie Sie mit berechneten Attributen arbeiten.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
-
 
 # Arbeiten mit berechneten Attributen {#computed-attributes}
 
@@ -34,7 +34,7 @@ Auf diesem Bildschirm können Sie berechnete Attribute erstellen, indem Sie Rege
 
 Sobald Ihre Regel fertig ist, veröffentlichen Sie das berechnete Attribut, um es in anderen nachgelagerten Diensten, einschließlich Journey Optimizer, verfügbar zu machen.
 
-Detaillierte Informationen zum Erstellen und Verwalten berechneter Attribute finden Sie im Abschnitt [Dokumentation zu berechneten Attributen](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+Detaillierte Informationen zum Erstellen und Verwalten berechneter Attribute finden Sie im Abschnitt [Dokumentation zu berechneten Attributen](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=de)
 
 ## Berechnete Attribute zur Adobe Experience Platform-Datenquelle hinzufügen {#source}
 

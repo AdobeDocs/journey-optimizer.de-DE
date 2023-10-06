@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Weitere Informationen zum Hochladen von Assets finden Sie in der [Dokumentation 
 
    ![](assets/media_library_1.png)
 
-1. Wählen Sie das Repository für Ihre Assets in Journey Optimizer aus. Sie können sich für ein Assets Essentials-Repository oder ein as a Cloud Service Asset-Repository entscheiden, sofern Sie über diese Lösung verfügen.
+1. Wählen Sie das Repository für Ihre Assets in Journey Optimizer aus. Sie können sich für ein Assets Essentials-Repository oder ein Asset as a Cloud Service-Repository entscheiden, sofern Sie über diese Lösung verfügen.
 
    ![](assets/media_library_4.png)
 

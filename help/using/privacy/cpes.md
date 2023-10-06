@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Verwalten von Opt-out
-description: Erfahren Sie, wie Sie Opt-out- und Datenschutzeinstellungen verwalten können
+description: Erfahren Sie, wie Sie Abwahl- und Datenschutzeinstellungen verwalten können
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,11 +10,11 @@ level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Implementieren der Zustimmung zum Opt-out von der Personalisierung {#cpes-opt-out}
+# Zustimmung zur Abwahl zur Personalisierung implementieren {#cpes-opt-out}
 
 
 ## Ausdruckseditor
@@ -47,9 +47,9 @@ Gehen Sie wie folgt vor, um in der Zielgruppenkomposition eine aufgeteilte Zielg
 
 1. Wählen Sie unter Pfad 1 einen Titel, der Ihnen bei der Definition der nicht personalisierten Zielgruppe hilft.
 
-1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. Wählen Sie den entsprechenden Wert aus dieser Liste aus: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=de#choice-values
 
-   In diesem Fall verwenden wir ein „n“, um NEIN entsprechend dem Opt-out von der Personalisierung anzugeben
+   In diesem Fall steht „n“ für NEIN als Abwahl zur Personalisierung
 
    Sie können einen separaten Pfad für andere Auswahlwerte erstellen oder verbleibende Pfade löschen und „andere Profile“ aktivieren, wodurch alle anderen Profile ohne den Auswahlwert „n“ eingeschlossen werden.
 

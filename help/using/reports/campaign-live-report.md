@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: e5dec38e5dc38904378fc0685f4b056e097f29a3
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 70%
+source-wordcount: '1352'
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Der **[!UICONTROL Live-Bericht]** in Campaign ist in verschiedene Widgets untert
 
 Eine detaillierte Liste aller in Adobe Journey Optimizer verfügbaren Metriken finden Sie auf [dieser Seite](live-report.md#list-of-components-live).
 
-## Registerkarte „Kampagne“ {#campaign-live}
+## Registerkarte „Kampagne“ {#campaign-global}
 
-### Versand {#delivery-live}
+### Versand {#delivery-global}
 
 Das Widget **[!UICONTROL Kampagnenstatistiken]** enthält die wichtigsten Informationen zu Ihrer Kampagne:
 
@@ -103,21 +103,6 @@ Das Diagramm **[!UICONTROL E-Mail – beste Empfänger-Domain]** und die Tabell
 
 ## Registerkarte „In-App“ {#inapp-live}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_inapp_performance"
->title="In-App-Leistung"
->abstract="Die KPIs zur In-App-Leistung bieten wichtige Einblicke in die Interaktion Ihrer Besucher mit In-App-Nachrichten in den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_inapp_interactions"
->title="Interaktionen nach Typ"
->abstract="In den Diagrammen und Tabellen Interaktionen nach Typ wird beschrieben, wie Benutzer mit Ihrer In-App-Nachricht interagiert haben, indem sie Klicks, Verwerfungen oder Interaktionen der letzten 24 Stunden verfolgen."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_inapp_summary"
->title="In-App-Zusammenfassung"
->abstract="Das Übersichtsdiagramm der In-App-Nachricht zeigt den Verlauf Ihrer In-App-Impressionen und -Interaktionen in den letzten 24 Stunden."
-
 Im **[!UICONTROL Live-Bericht]** Ihrer Kampagne finden Sie auf der Registerkarte **[!UICONTROL In-App]** die wichtigsten Informationen zu den In-App-Sendungen, die in Ihrer Kampagne versendet wurden.
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den In-App-Bericht verfügbar sind.
@@ -136,43 +121,13 @@ Das Diagramm und die Tabelle **[!UICONTROL Interaktionen nach Typ]** beschrieben
 
 ## Registerkarte „Push-Benachrichtigung“ {#push-live}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_sending_performance"
->title="Push-Benachrichtigung - Versandleistung"
->abstract="Das Leistungsdiagramm für Push-Benachrichtigungen zum Senden von Nachrichten fasst wichtige Daten zu Ihren Push-Benachrichtigungen zusammen, z. B. Fehler oder Zugestellte Nachrichten aus den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_statistics"
->title="Push notification - Statistics"
->abstract="Die Tabelle Push-Statistiken enthält Daten zur Empfängeraktivität für Ihren Versand aus den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_sending_summary"
->title="Push-Benachrichtigung - Versandzusammenfassung"
->abstract="Das Diagramm Zusammenfassung für Push-Benachrichtigungen zum Senden zeigt die Daten an, die für gesendete Push-Benachrichtigungen aus den letzten 24 Stunden verfügbar sind."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_excluded_reasons"
->title="Push-Benachrichtigung - Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen geführt haben, die von der Zielgruppe ausgeschlossen waren und die Nachricht in den letzten 24 Stunden nicht erhalten haben."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_error_reasons"
->title="Push-Benachrichtigung - Fehlerursachen"
->abstract="Anhand der Diagramme und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die in den letzten 24 Stunden Ihres Versands aufgetreten sind."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_push_breakdown_platform"
->title="Push-Benachrichtigung - Verteilung nach Plattform"
->abstract="Die Diagramme und Tabellen &quot;Aufschlüsselung nach Plattform&quot;enthalten eine Aufschlüsselung des Erfolgs Ihrer Push-Benachrichtigungen in den letzten 24 Stunden basierend auf dem Betriebssystem des Empfängers."
-
 In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL Push-Benachrichtigung]** die wichtigsten Informationen zu den Push-Benachrichtigungen, die in Ihrer Kampagne gesendet wurden.
 
 ![](assets/campaign_report_live_2.png)
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
-**[!UICONTROL Versandleistung von Push-Benachrichtigungen]**, **[!UICONTROL Zusammenfassung für Push-Benachrichtigungen]** und **[!UICONTROL Push notification - Statistics]** Widgets zeigen die wichtigsten Informationen zu Ihrer Nachricht an:
+Die Widgets **[!UICONTROL Performance des Push-Benachrichtigungsversandes]**, **[!UICONTROL Push-Benachrichtigungs-Zusammenfassung]** und **[!UICONTROL Sendemetriken – nach Push-Benachrichtigungen]** zeigen Details zu den wichtigsten Informationen in Bezug auf Ihre Nachricht:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendungen für den Versand.
 
@@ -196,31 +151,6 @@ Die Diagramme und Tabellen **[!UICONTROL Tracking nach Plattform]**, **[!UICONTR
 +++
 
 ## Registerkarte „SMS“ {#sms-live}
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_sms_statistics"
->title="SMS - Statistiken"
->abstract="Die Tabelle SMS-Versandstatistiken enthält eine Zusammenfassung der wichtigsten Daten zu Ihren SMS-Nachrichten, wie z. B. Zielgerichtete oder zugestellte Nachrichten aus den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_sms_performance"
->title="SMS - Leistung nach Datum"
->abstract="Das Widget SMS-Leistung nach Datum liefert wichtige Informationen aus den letzten 24 Stunden über Ihre Nachrichten in einer grafischen Darstellung."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_sms_error_reasons"
->title="SMS - Fehlerursachen"
->abstract="Anhand der Diagramme und Tabellen SMS - Fehlerursachen können Sie die spezifischen Fehler identifizieren, die in den letzten 24 Stunden Ihres Versands aufgetreten sind."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_sms_excluded_reasons"
->title="SMS - Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen geführt haben, die von der Zielgruppe ausgeschlossen waren und die Nachricht in den letzten 24 Stunden nicht erhalten haben."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_sms_bounces_reasons"
->title="SMS - Bounces-Gründe"
->abstract="Die Diagramme und die Tabelle Bounces-Gründe enthalten die Daten aus den letzten 24 Stunden bezüglich Bounce Messages."
 
 In Ihrem **[!UICONTROL Live-Bericht]** in Campaign finden Sie auf der Registerkarte **[!UICONTROL SMS]** die wichtigsten Informationen zu den SMS-Nachrichten, die in Ihrer Kampagne gesendet wurden.
 
@@ -255,21 +185,6 @@ Mit den Diagrammen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTR
 
 ## Registerkarte „Web“ {#web-tab}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_web_performance"
->title="Webleistung"
->abstract="Die Web Performance-KPIs bieten umfassende Informationen über die Interaktion Ihrer Besucher mit Ihren Web-Erlebnissen aus den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_web_summary"
->title="Webzusammenfassung"
->abstract="Das Webzusammenfassungsdiagramm veranschaulicht den Verlauf Ihrer Web-Erlebnisse, einschließlich Impressionen, Unique Impressions und Interaktionen, aus den letzten 24 Stunden."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_web_interactions"
->title="Interaktionen nach Element"
->abstract="Die Tabelle Interaktionen nach Element enthält wichtige Informationen zur Interaktion Ihrer Besucher mit verschiedenen Elementen auf Ihren Webseiten in den letzten 24 Stunden."
-
 Im **[!UICONTROL Live-Bericht]** Ihrer Kampagne werden auf der Registerkarte **[!UICONTROL Web]** die wichtigsten Informationen zu Ihren Web-Seiten aufgeführt.
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Web-Bericht verfügbar sind.
@@ -287,22 +202,7 @@ Die Tabelle **[!UICONTROL Interaktionen nach Element]** enthält die wichtigsten
 
 ## Registerkarte „Briefpost“ {#direct-mail-tab}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_direct_sending_statistics"
->title="Briefpost - Versandstatistiken"
->abstract="Die Tabelle Statistiken zum Briefpost-Versand enthält eine Zusammenfassung der wichtigsten Daten aus den letzten 24 Stunden zu Ihren Briefpost-Nachrichten, z. B. zielgerichteten oder zugestellten Nachrichten."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_direct_error_reasons"
->title="Briefpost - Fehlerursachen"
->abstract="Die Diagramme und Tabellen Briefpost - Fehlerursachen ermöglichen es Ihnen, die spezifischen Fehler zu identifizieren, die in den letzten 24 Stunden aufgetreten sind."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_live_direct_excluded_reasons"
->title="Briefpost - Ausgeschlossene Gründe"
->abstract="Die Diagramme und Tabellen mit den ausgeschlossenen Gründen für Briefpost veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen geführt haben, die von der Zielgruppe ausgeschlossen waren und die Nachricht in den letzten 24 Stunden nicht erhalten haben."
-
-In Ihrer Kampagne **[!UICONTROL Live-Bericht]**, die **[!UICONTROL Briefpost]** im Tab werden die wichtigsten Informationen zu Ihren Briefpostsendungen aufgeführt.
+Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte **[!UICONTROL Briefpost]** die wichtigsten Informationen zu Ihren Briefpost-Sendungen aufgeführt.
 
 ![](assets/direct-mail-report_2.png)
 

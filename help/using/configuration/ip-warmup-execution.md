@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP-Warmup-Plan ausführen
+title: Ausführen des IP-Aufwärmplans
 description: Erfahren Sie, wie Sie einen IP-Warmup-Plan ausführen und überwachen.
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Ausführen des IP-Aufwärmungsplans {#ip-warmup-running}
+# Ausführen des IP-Aufwärmplans {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit IP-Wärme](ip-warmup-gs.md)
-* [Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)
-* [Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)
-* **[Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)**
+* [Erste Schritte beim IP-Aufwärmen](ip-warmup-gs.md)
+* [Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)
+* [Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)
+* **[Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 

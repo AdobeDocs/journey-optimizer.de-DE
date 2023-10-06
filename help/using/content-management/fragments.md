@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
+source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 59%
@@ -127,7 +127,7 @@ Es gibt zwei Möglichkeiten, Fragmente zu erstellen:
 
 * Erstellen Sie ein Fragment mithilfe des Menüs für **[!UICONTROL Fragmente]** komplett neu. [Weitere Informationen](#create-from-scratch)
 
-* Speichern Sie beim Entwerfen von Inhalten einen Teil Ihres Inhalts als Fragment. [Weitere Informationen](#save-as-fragment)
+* Speichern Sie beim Entwerfen von Inhalten einen Teil Ihres Inhalts als Fragment. [Weitere Informationen](#save-as-template)
 
 Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampagne oder Vorlage verfügbar. Unabhängig davon, ob es von Grund auf neu oder aus einem vorhandenen Inhalt erstellt wurde, können Sie dieses Fragment jetzt beim Erstellen von Inhalten in [!DNL Journey Optimizer]. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Ausdrucksfragmente nutzen](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 
    ![](assets/fragment-details.png)
 
-1. Wählen Sie den Fragmenttyp aus: [Visual Fragment](#create-visual-fragment) oder [Ausdrucksfragment](#create-expression-fragment).
+1. Wählen Sie den Fragmenttyp aus: **[!UICONTROL Visual Fragment]** oder **[!UICONTROL Ausdrucksfragment]**.
 
 1. Um dem Fragment benutzerdefinierte oder zentrale Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 

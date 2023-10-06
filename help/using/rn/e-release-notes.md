@@ -5,11 +5,11 @@ title: Versionshinweise
 description: Frühzeitige Versionshinweise zu Journey Optimizer
 hide: true
 hidefromtoc: true
-exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise vom September 2023 {#sept-rn-2023}
+## September 2023 – frühzeitige Versionshinweise {#sept-rn-2023}
 
 **Veröffentlichungsdatum**: 26.-27. September 2023
 
@@ -37,7 +37,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Um auf das Menü "Bericht"zugreifen zu können, müssen Sie über die Berechtigung "Kanalberichte anzeigen"verfügen.</p>
+<p>Die Funktion „Kanalbericht“ bietet Analyse- und Marketing-Fachleuten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene. Um auf das Menü „Bericht“ zugreifen zu können, müssen Sie über die Berechtigung „Kanalberichte anzeigen“ verfügen.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -48,13 +48,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Datensatzexport-Ziele (GA)</strong><br/></th>
+<th><strong>Datensatzexportziele (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt allgemein verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren.</p>
+<p>Der Export von Journey Optimizer-Datensätzen in Cloud-Speicherziele ist jetzt allgemein verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -65,7 +65,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Speicherung der Anmeldeinformationen von Per-Sandbox-Mobile Apps</strong><br/></th>
+<th><strong>Speicherung von Mobile App-Anmeldeinformationen per Sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +87,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden.<br/><br/>
-Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">Detaillierte Dokumentation</a>.</p>
+Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie in der <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=de">detaillierten Dokumentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -105,23 +105,23 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Personalisierung**
 
-* Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke.
+* Neben visuellen Fragmenten können nun auch Ausdrucksfragmente aus der Journey Optimizer-Schnittstelle mithilfe des Ausdruckseditors erstellt, gespeichert und wiederverwendet werden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke.
 
 **Warnhinweise**
 
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine gelesene Audience fehlschlägt.
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn die Aktion „Zielgruppe lesen“ fehlschlägt.
 
 **Web-Kanal**
 
-* Einzelseitenanwendungen (SPA) können jetzt im Visual Editor von Webdesigner erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Webseitenänderungen anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Um Adobe Journey Optimizer-Webkampagnen auf SPA zu erstellen und auszuführen, ist ein einmaliges Entwicklersetup erforderlich, um die Ansichten in der Adobe Experience Platform Web SDK-Implementierung zu definieren.
+* Einzelseitenanwendungen (SPA) können jetzt im Visual Editor von Web-Designer erstellt werden. Dort können Sie auswählen, auf welche spezifischen Ansichten Sie Ihre Web-Seiten-Änderungen anwenden möchten. Eine Ansicht kann als ganze Site oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Um Adobe Journey Optimizer-Web-Kampagnen auf SPAs zu erstellen und auszuführen, ist ein einmaliges Entwicklungs-Setup erforderlich, damit Sie die Ansichten in der Adobe Experience Platform Web SDK-Implementierung definieren können.
 
-* Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie jetzt neue Änderungen direkt aus dem **Änderungen** -Bereich - ohne dass eine Komponente ausgewählt und über die Designer-Oberfläche bearbeitet werden muss.
-* Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen - zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde.
+* Bei der Bearbeitung einer Seite mit dem Web-Designer können Sie jetzt neue Änderungen direkt aus dem Bereich **Änderungen** in Ihren Inhalt übernehmen, ohne dass eine Komponente ausgewählt und über die Designer-Oberfläche bearbeitet werden muss.
+* Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen – zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde.
 
 **Journeys**
 
-* Unterstützung für benutzerdefinierte Aktionsantworten ist jetzt allgemein verfügbar. Auf diese Weise können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle Zollaktionen auf 5000 Anrufe/s pro Endpunkt beschränkt werden können.
-* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren.
+* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Sie können jetzt API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey auf Grundlage dieser Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle benutzerdefinierten Aktionen auf 5000 Aufrufe/s pro Endpunkt beschränkt werden können.
+* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie festlegen.
 
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
@@ -133,7 +133,7 @@ Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand
 
 **SMS-Kanal**
 
-Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzer Antworten für eingehende Suchbegriffe anpassen können. Beachten Sie, dass dies nur für einzelne SMS-Provider verfügbar ist.
+Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende die Antworten an eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist.
 
 **Reporting**
 

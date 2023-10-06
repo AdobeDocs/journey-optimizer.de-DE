@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,17 @@ In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung 
 Dieses Handbuch setzt ein Verständnis der folgenden Komponenten von Adobe Experience Platform voraus:
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}: Das standardisierte Framework, mit dem Kundenerlebnisdaten von [!DNL Experience Platform] organisiert werden.
-   * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}: Erfahren Sie mehr über die Grundbausteine von XDM-Schemas.
-* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten der Erlebnis-Entscheidungsfindung im Allgemeinen und insbesondere des Entscheidungs-Managements. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt wird.
+   * [Grundlagen der Schemakomposition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de){target="_blank"}: Erfahren Sie mehr über die Grundbausteine von XDM-Schemata.
+* [Entscheidungs-Management](../../../using/offers/get-started/starting-offer-decisioning.md): Beschreibt die Konzepte und Komponenten der Erlebnis-Entscheidungsfindung im Allgemeinen und insbesondere des Entscheidungs-Managements. Veranschaulicht die Strategien zur Auswahl der besten Option, die während eines Kundenerlebnisses angezeigt werden soll.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=de){target="_blank"}: PQL ist eine leistungsstarke Sprache zum Schreiben von Ausdrücken auf XDM-Instanzen. Zur Definition von Entscheidungsregeln wird PQL verwendet.
 
 ## Lesen von Beispiel-API-Aufrufen {#reading-sample-api-calls}
 
-In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=de#how-do-i-format-an-api-request){target="_blank"} im Handbuch zur Fehlerbehebung für [!DNL Experience Platform]
+In diesem Handbuch wird anhand von Beispielen für API-Aufrufe die korrekte Formatierung von Anfragen aufgezeigt. Dazu gehören Pfade, erforderliche Kopfzeilen und ordnungsgemäß formatierte Anfrage-Payloads. Außerdem wird ein Beispiel für eine von der API im JSON-Format zurückgegebene Antwort bereitgestellt. Informationen zu den Konventionen, die in der Dokumentation für Beispiel-API-Aufrufe verwendet werden, finden Sie im Abschnitt zum [Lesen von Beispiel-API-Aufrufen](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=de#how-do-i-format-an-api-request){target="_blank"} im Handbuch zur Fehlerbehebung für [!DNL Experience Platform].
 
 ## Sammeln von Werten für erforderliche Kopfzeilen {#gather-values-for-required-headers}
 
-Um Aufrufe an [!DNL Adobe Experience Platform] APIs verwenden, müssen Sie zunächst die [Authentifizierungs-Tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"}. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
+Um [!DNL Adobe Experience Platform]-APIs aufzurufen, müssen Sie zunächst das [Authentifizierungs-Tutorial](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=de){target="_blank"} lesen. Durch Abschluss des Authentifizierungs-Tutorials werden die Werte für die einzelnen erforderlichen Header in allen [!DNL Experience Platform]-API-Aufrufen bereitgestellt, wie unten dargestellt:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -47,7 +47,7 @@ Bei allen Anfragen mit einer Payload (POST, PUT, PATCH) ist eine zusätzliche Ko
 
 ## Nächste Schritte {#next-steps}
 
-In diesem Dokument wurden die erforderlichen Kenntnisse zum Aufrufen der [!DNL Offer Library] API. Sie können nun mit den Beispielaufrufen in diesem Entwicklerhandbuch fortfahren und den entsprechenden Anweisungen folgen.
+Dieses Dokument behandelt die erforderlichen Grundkenntnisse zum Aufrufen der [!DNL Offer Library]-API. Sie können nun mit den Beispielaufrufen in diesem Entwicklungshandbuch fortfahren und den entsprechenden Anweisungen folgen.
 <!--
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ badge: label="Beta"
 source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 10%
+ht-degree: 18%
 
 ---
 
@@ -26,11 +26,11 @@ Inhalt dieses Dokumentationshandbuchs:
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * [Erstellen von Entscheidungselementen](items.md)
    * [Verwalten von Elementsammlungen](collections.md)
-* Elementauswahl konfigurieren
+* Konfigurieren der Auswahl von Elementen
    * [Erstellen von Entscheidungsregeln](rules.md)
    * [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Entscheidungsrichtlinien erstellen](create-decision.md)
+* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 * **[Anwendungsbeispiele](experience-decisioning-uc.md)**
 
 >[!ENDSHADEBOX]
@@ -54,7 +54,7 @@ Zunächst müssen Sie Elemente erstellen, sie in Sammlungen gruppieren, Regeln e
 
 1. Build **Auswahlstrategien** die Sammlungen, Entscheidungsregeln und Rangmethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind. [Weitere Informationen](selection-strategies.md)
 
-## Entscheidungsrichtlinien erstellen
+## Erstellen von Entscheidungsrichtlinien
 
 Um Ihren Besuchern auf Ihrer Website oder in Ihrer mobilen App das beste dynamische Angebot und Erlebnis zu präsentieren, fügen Sie einer code-basierten Kampagne eine Entscheidungsrichtlinie hinzu.
 

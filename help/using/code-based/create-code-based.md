@@ -1,5 +1,5 @@
 ---
-title: Codebasierte Erlebnisse erstellen
+title: Erstellen von Code-basierten Erlebnissen
 description: Erfahren Sie, wie Sie in Journey Optimizer code-basierte Erlebnisse erstellen.
 feature: Offers
 topic: Content Management
@@ -8,29 +8,30 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
-# Codebasierte Erlebnisse erstellen {#create-code-based}
+# Erstellen von Code-basierten Erlebnissen {#create-code-based}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit dem code-basierten Kanal](get-started-code-based.md)
-* [Codebasierte Voraussetzungen](code-based-prerequisites.md)
-* [Codebasierte Implementierungsbeispiele](code-based-implementation-samples.md)
-* **[Codebasierte Erlebnisse erstellen](create-code-based.md)**
+* [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
+* [Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)
+* [Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)
+* **[Erstellen von Code-basierten Erlebnissen](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Der code-basierte Erlebniskanal ist derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Dieser Code-basierte Kanal ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
 ## Codebasierte Kampagne erstellen {#create-code-based-campaign}
 

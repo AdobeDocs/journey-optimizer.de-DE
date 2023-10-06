@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -26,11 +27,11 @@ Inhalt dieses Dokumentationshandbuchs:
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * **[Erstellen von Entscheidungselementen](items.md)**
    * [Verwalten von Elementsammlungen](collections.md)
-* Elementauswahl konfigurieren
+* Konfigurieren der Auswahl von Elementen
    * [Erstellen von Entscheidungsregeln](rules.md)
    * [Erstellen von Ranking-Methoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
-* [Entscheidungsrichtlinien erstellen](create-decision.md)
+* [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 

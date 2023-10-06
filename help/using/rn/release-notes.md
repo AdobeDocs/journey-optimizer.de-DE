@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 83%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
 
-## Versionshinweise vom September 2023 {#sept-rn-2023}
+## Versionshinweise für September 2023 {#sept-rn-2023}
 
 ### Neue Funktionen{#sept-2023-features}
 
@@ -44,7 +44,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>Berechnete Attribute ermöglichen eine einfache Zusammenfassung von Ereignisdaten in Profilattributen über eine intuitive Benutzeroberfläche für eine verbesserte verhaltensbasierte Segmentierung, Personalisierung und Aktivierung. Mit dieser Funktion können Sie berechnete Attribute selbstständig erstellen, verwalten und in Segmentierung, Echtzeit-Kundenprofilzielen oder Journey Optimizer verwenden.<br/><br/>
-Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie unter <a href="../audience/computed-attributes.md">Detaillierte Dokumentation</a>.</p>
+Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-Workflows vereinfacht, sodass Sie relevante Erlebnisse nahtlos bereitstellen können. Weitere Informationen finden Sie in der <a href="../audience/computed-attributes.md">detaillierten Dokumentation</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -60,10 +60,10 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 <tbody>
 <tr>
 <td>
-<p>Die Funktion Kanalbericht bietet Analysten und Marketingexperten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.</p>
-<p>So greifen Sie auf die <b>Bericht</b> Menü, müssen Sie über die <b>Anzeigen von Kanalberichten</b> -Berechtigung.</p>
+<p>Die Funktion „Kanalbericht“ bietet Analyse- und Marketing-Fachleuten einen umfassenden Überblick über Traffic- und Interaktionsmetriken auf Kanalebene.</p>
+<p>Um auf das Menü <b>Bericht</b> zuzugreifen, müssen Sie über die Berechtigung <b>Kanalberichte anzeigen</b> verfügen.</p>
 <img src="assets/channel-reports.png"/>
-<p>Weitere Informationen finden Sie im Abschnitt <a href="../reports/channel-report.md">Detaillierte Dokumentation</a>, und <a href="../reports/channel-report.md#channel-report-video">Anleitungsvideo</a>.</p>
+<p>Weiterführende Informationen finden Sie in der <a href="../reports/channel-report.md">detaillierten Dokumentation</a> und im <a href="../reports/channel-report.md#channel-report-video">Anleitungsvideo</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -72,13 +72,13 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 <table>
 <thead>
 <tr>
-<th><strong>Datensatzexport-Ziele (GA)</strong><br/></th>
+<th><strong>Datensatzexportziele (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Export von Journey Optimizer-Datensätzen in Cloud-Speicher-Ziele ist jetzt allgemein verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren.</p>
+<p>Der Export von Journey Optimizer-Datensätzen in Cloud-Speicherziele ist jetzt allgemein verfügbar. Diese Funktion ermöglicht es Ihnen, eine Live-Verbindung mit Zielen im Cloud-Speicher herzustellen, um den Inhalt Ihrer Datensätze zu exportieren.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>Weitere Informationen finden Sie in der <a href="../data/export-datasets.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -89,7 +89,7 @@ Darüber hinaus werden durch berechnete Attribute die Segmentierung und Journey-
 <table>
 <thead>
 <tr>
-<th><strong>Speicherung der Anmeldeinformationen von Per-Sandbox-Mobile Apps</strong><br/></th>
+<th><strong>Speicherung von Mobile App-Anmeldeinformationen per Sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -111,7 +111,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Personalisierung**
 
-* Neben visuellen Fragmenten ist es jetzt möglich, Ausdrucksfragmente über die Journey Optimizer-Benutzeroberfläche über den Ausdruckseditor zu erstellen, zu speichern und wiederzuverwenden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke. [Weitere Informationen](../personalization/use-expression-fragments.md)
+* Neben visuellen Fragmenten können nun auch Ausdrucksfragmente aus der Journey Optimizer-Schnittstelle mithilfe des Ausdruckseditors erstellt, gespeichert und wiederverwendet werden. Ausdrucksfragmente ersetzen die zuvor gespeicherten Ausdrücke. [Weitere Informationen](../personalization/use-expression-fragments.md)
 
 **Warnhinweise**
 
@@ -119,44 +119,44 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Web-Kanal**
 
-* Einzelseitenanwendungen (SPA) können jetzt im Web-Visual Editor erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Webseitenänderungen anwenden möchten. Eine Ansicht kann als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwicklersetup erforderlich, damit Marketing-Experten Adobe Journey Optimizer-Webkampagnen auf SPA erstellen und ausführen können. [Weitere Informationen](../web/web-spa.md)
+* Einzelseitenanwendungen (SPA) können jetzt im visuellen Web-Editor erstellt werden, mit dem Sie auswählen können, auf welche spezifischen Ansichten Sie Ihre Web-Seitenänderungen anwenden möchten. Eine Ansicht kann als ganze Site oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten. Zur Definition der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwickler-Setup erforderlich, damit Marketing-Fachleute Web-Kampagnen von Adobe Journey Optimizer auf Einzelseitenanwendungen erstellen und ausführen können. [Weitere Informationen](../web/web-spa.md)
 
-* Bei der Bearbeitung einer Seite mit dem Webdesigner können Sie neue Änderungen direkt im Bereich Änderungen hinzufügen, ohne eine Komponente auswählen und in der Designer-Oberfläche bearbeiten zu müssen. [Weitere Informationen](../web/manage-web-modifications.md#add-modifications)
+* Bei der Bearbeitung einer Seite mit dem Web-Designer können Sie neue Änderungen direkt im Bereich „Änderungen“ hinzufügen, ohne erst eine Komponente auswählen und in der Designer-Oberfläche bearbeiten zu müssen. [Weitere Informationen](../web/manage-web-modifications.md#add-modifications)
 
-* Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen - zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde. [Weitere Informationen](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* Beim Einrichten von Web-Subdomains haben Sie jetzt die Möglichkeit, Ihre eigene Subdomain hinzuzufügen – zusätzlich zur Verwendung einer Subdomain, die bereits an Adobe delegiert wurde. [Weitere Informationen](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Journeys**
 
-* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie definieren. [Weitere Informationen](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Beim Duplizieren einer Journey können Sie jetzt den Namen der Journey-Kopie festlegen. [Weitere Informationen](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 
-* Unterstützung für benutzerdefinierte Aktionsantworten ist jetzt allgemein verfügbar. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neues Schutzschild hinzugefügt, mit dem alle Zollaktionen auf 150.000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
+* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neues Schutzschild hinzugefügt, mit dem alle Zollaktionen auf 150.000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **E-Mail-Kanal**
 
-* Eine neue Option in der E-Mail-Oberflächenkonfiguration ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn sich deren E-Mail-Adressen auf der Adobe befinden [!DNL Journey Optimizer] Unterdrückungsliste. [Weitere Informationen](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Eine neue Option in der Konfiguration der E-Mail-Oberfläche ermöglicht den Versand von Transaktionsnachrichten an Profile, selbst wenn sich deren E-Mail-Adressen auf der Unterdrückungsliste von Adobe [!DNL Journey Optimizer] befinden. [Weitere Informationen](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS-Kanal**
 
-* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung** wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzer Antworten für eingehende Suchbegriffe anpassen können. Beachten Sie, dass dies nur für einzelne SMS-Provider verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md#create-api)
+* Zwei neue Felder, **Opt-in-Nachricht** und **Hilfemeldung**, wurden zum API-Konfigurationsbildschirm hinzugefügt, sodass Benutzende Antworten für eingehende Keywords anpassen können. Beachten Sie, dass dies nur für den SMS-Anbieter Sinch verfügbar ist. [Weitere Informationen](../sms/sms-configuration.md#create-api)
 
-* Die Abmeldung von SMS wird nicht mehr auf Kanalebene verwaltet. Sie ist jetzt nummernspezifisch, d. h. wenn einige Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer** Sie möchten eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md#message-preset-sms)
+* Das Opt-out von SMS wird nicht mehr auf Kanalebene verwaltet. Es ist jetzt nummernspezifisch, d. h. wenn Profile sich von einer bestimmten Nummer oder Kurzwahlnummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, die Sie möglicherweise zum Versand von SMS-Nachrichten verwenden. Eine neue Option ermöglicht die Auswahl der **Opt-out-Nummer**, die Sie für eine bestimmte Oberfläche verwenden. [Weitere Informationen](../sms/sms-configuration.md#message-preset-sms)
 
 **Briefpost-Kanal**
 
-* Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist im Konfigurationsbildschirm für das Dateirouting ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
+* Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist auf dem Konfigurationsbildschirm für das Datei-Routing ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 
 **Reporting**
 
-* Sie können jetzt Journey Optimizer-Berichte als CSV-Datei exportieren. Weitere Informationen finden Sie unter [Detaillierte Dokumentation](../reports/global-report.md#export-reports) und [Anleitungsvideo](../reports/global-report.md#video-csv).
+* Sie können jetzt Journey Optimizer-Berichte als CSV-Datei exportieren. Weitere Informationen finden Sie in der [detaillierten Dokumentation](../reports/global-report.md#export-reports) und im [Anleitungsvideo](../reports/global-report.md#video-csv).
 
 **Assets**
 
-* Mit einer neuen Option für Assets können Sie das Repository für Ihre Assets in Journey Optimizer auswählen. Sie können sich für ein Assets Essentials-Repository oder ein as a Cloud Service Asset-Repository entscheiden, sofern Sie über diese Lösung verfügen. [Weitere Informationen](../content-management/assets-essentials.md)
+* Mit einer neuen Option für Assets können Sie das Repository für Ihre Assets in Journey Optimizer auswählen. Sie können sich für ein Assets Essentials-Repository oder ein Asset as a Cloud Service-Repository entscheiden, sofern Sie über diese Lösung verfügen. [Weitere Informationen](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

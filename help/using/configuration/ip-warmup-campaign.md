@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen von IP-Aufwärmekampagnen
+title: Erstellen von IP-Aufwärmkampagnen
 description: Erfahren Sie, wie Sie eine IP-Warmup-Kampagne erstellen.
 feature: Application Settings
 topic: Administration
@@ -10,14 +10,15 @@ level: Intermediate
 keywords: IP, Pools, Zustellbarkeit
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
-# Erstellen von IP-Aufwärmekampagnen {#create-ip-warmup-campaign}
+# Erstellen von IP-Aufwärmkampagnen {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
@@ -28,10 +29,10 @@ ht-degree: 6%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit IP-Wärme](ip-warmup-gs.md)
-* **[Erstellen von IP-Aufwärmekampagnen](ip-warmup-campaign.md)**
-* [Erstellen eines IP-Warmup-Plans](ip-warmup-plan.md)
-* [Ausführen des IP-Aufwärmungsplans](ip-warmup-execution.md)
+* [Erste Schritte beim IP-Aufwärmen](ip-warmup-gs.md)
+* **[Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)**
+* [Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)
+* [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -82,4 +83,3 @@ Gehen Sie wie folgt vor, um eine IP-Warmup-Kampagne zu erstellen.
 Sobald die Kampagne live ist, kann sie in einem IP-Warmup-Plan verwendet werden. [Weitere Informationen](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-
