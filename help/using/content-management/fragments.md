@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 57%
+source-wordcount: '1548'
+ht-degree: 52%
 
 ---
 
 # Arbeiten mit Fragmenten {#fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="Eigene Fragmente definieren"
+>abstract="Erstellen und verwalten Sie eigenständige Fragmente, damit Ihre Inhalte über mehrere Journey und Kampagnen hinweg wiederverwendet werden können."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Erstellen von Fragmenten"
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann.
 
@@ -134,14 +140,9 @@ Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampag
 
 ### Neuerstellen von Fragmenten {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="Definieren eines eigenen Fragments"
->abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, damit Sie Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden können."
-
 Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 
-1. Greifen Sie im Menü links über **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
+1. [](#access-manage-fragments)Greifen Sie im Menü links über **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** auf die Fragmentliste zu.
 
 1. Wählen Sie **[!UICONTROL Fragment erstellen]** aus.
 
@@ -158,6 +159,12 @@ Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
 ### Erstellen eines visuellen Fragments {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="Wählen Sie den visuellen Typ"
+>abstract="Erstellen Sie ein eigenständiges visuelles Fragment, um Ihren Inhalt in einer E-Mail innerhalb einer Journey, einer Kampagne oder in einer Inhaltsvorlage wiederverwendbar zu machen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Hinzufügen visueller Fragmente zu E-Mails"
 
 1. [Fragment erstellen](#create-from-scratch) aus dem **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]** Menü links auswählen. **[!UICONTROL Visual Fragment]** Typ.
 
@@ -182,6 +189,12 @@ Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email-design.md) oder [Inhaltsvorlagen](content-templates.md) in [!DNL Journey Optimizer] verwendet werden. [Weitere Informationen](../email/use-visual-fragments.md)
 
 ### Ausdrucksfragment erstellen {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="Wählen Sie den Ausdruckstyp"
+>abstract="Erstellen Sie ein eigenständiges Ausdrucksfragment, damit Ihr Inhalt über mehrere Journey und Kampagnen hinweg wiederverwendet werden kann. Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Ausdrucksfragmente nutzen"
 
 1. [Fragment erstellen](#create-from-scratch) aus dem **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]** Menü links auswählen. **[!UICONTROL Ausdrucksfragment]** Typ.
 
