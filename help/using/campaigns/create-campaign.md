@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,11 @@ Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der z
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Planen der Kampagne {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="Kampagnenzeitplan"
+>abstract="Standardmäßig starten Kampagnen bei manueller Aktivierung und enden unmittelbar nach dem einmaligen Versand der Nachricht. Sie haben jedoch die Flexibilität, ein bestimmtes Datum und eine bestimmte Uhrzeit für den Versand der Nachricht festzulegen. Darüber hinaus können Sie ein Enddatum für wiederkehrende oder API-gesteuerte Kampagnen angeben. In den Triggern &quot;Aktion&quot;können Sie auch die Versandhäufigkeit der Nachrichten Ihren Vorlieben entsprechend konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
