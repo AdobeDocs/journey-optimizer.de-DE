@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
@@ -48,6 +48,9 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 ## Arbeiten mit einheitlichen Tags {#tags}
 
 Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Journeys und -Kampagnen einfach klassifizieren, um die Suche über Listen zu verbessern.
+
+![](../rn/assets/do-not-localize/campaigns-tag.gif)
+
 
 ### Hinzufügen von Tags zu einem Objekt
 
