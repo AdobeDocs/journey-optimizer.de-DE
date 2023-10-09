@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 93%
 
 ---
 
 # Entwicklerhandbuch für die Entscheidungs-Management-API {#decision-management-api-developer-guide}
+
+>[!CONTEXTUALHELP]
+>id="od_api_support"
+>title="Neue Entscheidungs-Management-APIs"
+>abstract="Es sind neue APIs für die Erstellung und Verwaltung von Entscheidungsverwaltungsobjekten verfügbar. Die veralteten APIs werden bis zum 27.03.2024 unterstützt."
 
 In diesem Entwicklerhandbuch finden Sie Anweisungen, wie Sie mit der Verwendung der [!DNL Offer Library]-API beginnen können. Das Handbuch enthält Beispiel-API-Aufrufe für die Durchführung wichtiger Operationen mit der Decisioning-Engine.
 
