@@ -36,7 +36,7 @@ In den folgenden Abschnitten erfahren Sie mehr zu den einzelnen Themen:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Bestätigen der URL zum Bearbeiten"
->abstract="Bestätigen Sie die URL der spezifischen Web-Seite, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Oberfläche angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
+>abstract="Die URL der spezifischen Web-Seite bestätigen, die für die Bearbeitung des Inhalts verwendet werden soll, welcher auf die oben definierte Web-Oberfläche angewendet wird. Die Web-Seite muss mithilfe des Adobe Experience Platform Web SDK implementiert werden."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
 >[!CONTEXTUALHELP]
