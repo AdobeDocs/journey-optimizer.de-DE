@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 59%
+source-wordcount: '1444'
+ht-degree: 57%
 
 ---
 
@@ -21,24 +21,25 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren [
 
 Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Marketing-Benutzern verwendet werden können, um E-Mail-Inhalte schnell in einem verbesserten Designprozess zusammenzustellen.
 
-➡️ [In diesen Videos erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](#video-fragments)
+![](../rn/assets/do-not-localize/fragments.gif)
 
->[!CAUTION]
->
->Zum Erstellen, Bearbeiten und Archivieren von Fragmenten benötigen Sie die Berechtigung **[!DNL Manage Library Items]** im **[!DNL Content Library Manager]**-Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+➡️ [In diesen Videos erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](#video-fragments)
 
 So nutzen Sie Fragmente am besten:
 
 * Erstellen Sie Ihre eigenen Fragmente. Sie können visuelle Fragmente oder Ausdrucksfragmente erstellen. [Weitere Informationen](#create-fragments)
+
 * Verwenden Sie sie so oft wie nötig in Ihrem Inhalt. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Ausdrucksfragmente nutzen](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->Zurzeit in [!DNL Journey Optimizer]:
->
->* Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar.
->
->* Ausdrucksfragmente sind nicht für die Web- und In-App-Kanäle verfügbar.
+## Vor Beginn {#fragment-prerequisites}
+
+Zum Erstellen, Bearbeiten und Archivieren von Fragmenten benötigen Sie die **[!DNL Manage Library Items]** -Berechtigung im **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
+
+In dieser Version gelten die folgenden Einschränkungen:
+
+* Visuelle Fragmente sind nur für den E-Mail-Kanal verfügbar
+
+* Ausdrucksfragmente sind nicht für Web- und In-App-Kanäle verfügbar
 
 ## Zugreifen auf und Verwalten von Fragmenten {#access-manage-fragments}
 
@@ -127,7 +128,7 @@ Es gibt zwei Möglichkeiten, Fragmente zu erstellen:
 
 * Erstellen Sie ein Fragment mithilfe des Menüs für **[!UICONTROL Fragmente]** komplett neu. [Weitere Informationen](#create-from-scratch)
 
-* Speichern Sie beim Entwerfen von Inhalten einen Teil Ihres Inhalts als Fragment. [Weitere Informationen](#save-as-template)
+* Speichern Sie beim Entwerfen von Inhalten einen Teil Ihres Inhalts als Fragment. [Weitere Informationen](#save-as-fragment)
 
 Nach dem Speichern ist das Fragment für die Verwendung in einer Journey, Kampagne oder Vorlage verfügbar. Unabhängig davon, ob es von Grund auf neu oder aus einem vorhandenen Inhalt erstellt wurde, können Sie dieses Fragment jetzt beim Erstellen von Inhalten in [!DNL Journey Optimizer]. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Ausdrucksfragmente nutzen](../personalization/use-expression-fragments.md)
 
@@ -148,7 +149,7 @@ Gehen Sie wie folgt vor, um ein Fragment komplett neu zu erstellen.
 
    ![](assets/fragment-details.png)
 
-1. Wählen Sie den Fragmenttyp aus: **[!UICONTROL Visual Fragment]** oder **[!UICONTROL Ausdrucksfragment]**.
+1. Wählen Sie den Fragmenttyp aus: [Visual Fragment](#create-visual-fragment) oder [Ausdrucksfragment](#create-expression-fragment).
 
 1. Um dem Fragment benutzerdefinierte oder zentrale Datennutzungskennzeichnungen zuzuweisen, wählen Sie **[!UICONTROL Zugriff verwalten]** aus. [Weitere Informationen zur Zugriffssteuerung auf Objektebene (OLAC)](../administration/object-based-access.md).
 
