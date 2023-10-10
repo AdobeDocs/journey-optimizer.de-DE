@@ -4,9 +4,9 @@ product: journey optimizer
 title: Dokumentation – Aktualisierungen
 description: Erfahren Sie mehr über die letzten Aktualisierungen der Dokumentation
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '3815'
+source-wordcount: '3829'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Es wurden GIF hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für die Entscheidungsverwaltung](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md), und [Inhaltsexperiment](../campaigns/content-experiment.md).
 * Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Adobe Experience Platform-Änderungen eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
+* Auf der Seite &quot;Limits und Einschränkungen&quot;wurden Limits für die Entscheidungsverwaltung hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
 
 ## September 2023 {#september-2023}
 

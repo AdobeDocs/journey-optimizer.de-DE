@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 95%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -123,3 +123,32 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 * Es kann eine Aktivierungsverzögerung zwischen dem Zeitpunkt auftreten, zu dem ein Benutzerprofil eine In-App-Aktivität auf der Arbeitsfläche erreicht, und dem Zeitpunkt, zu dem es diese In-App-Nachricht zu sehen beginnt.
 
 * Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
+
+## Entscheidungs-Management {#decision-management}
+
+### Leistungsgarantien {#performance-guardrails}
+
+Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Decision Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
+
+| API | Beschlüsse pro Sekunde |
+|---------|----------|
+| API-Anfragen für Entscheidungen | 500 pro Sekunde |
+| Edge Decisioning API-Anfragen | 5000 pro Sekunde |
+
+### Einschränkungen {#offers-limitations}
+
+Die Einschränkungen der Entscheidungsverwaltung sind unten aufgeführt.
+
+* **Genehmigte personalisierte Angebote + Fallback-Angebote** - Bis zu 10.000 kombinierte genehmigte personalisierte Angebote und genehmigte Fallback-Angebote.
+* **Entscheidungen** - bis zu 10 000 Beschlüsse.
+* **Live-Entscheidungen** - Offer decisioning App Service unterstützt bis zu 1.000 Live-Entscheidungen.
+* **Angebote, die pro Antwort zurückgegeben werden** - Offer decisioning unterstützt bis zu 100 Angebote, die pro Anfrage über alle Entscheidungsbereiche in der Anfrage zurückgegeben werden.
+* **Sammlungen** - Bis zu 10.000 Sammlungen.
+* **Sammlungen pro Entscheidung** - Bis zu 30 Sammlungen pro Entscheidung.
+* **Entscheidungsregeln + Ranking-Funktionen** Bis zu 10.000 kombinierte Entscheidungsregeln und Rangfunktionen.
+* **Praktika** - Bis zu 1.000 Platzierungen.
+* **Praktika pro Entscheidung** - Bis zu 30 Praktika pro Entscheidung.
+* **Ranking Method per Decision** - Offer decisioning App Service unterstützt bis zu 30 Ranking-Funktionen pro Entscheidung.
+* **AI-Ranking-Modell** - Offer decisioning App Service unterstützt bis zu 5 KI-Rangmodelle.
+* **Erfassungsqualifikation nach Angebot oder Sammlung** - Offer decisioning App Service unterstützt bis zu 20 Sammlungsqualifikatoren in jedem einzelnen personalisierten Angebot oder jeder einzelnen Sammlung.
+* **Gesamtanzahl der Sammlungsberechtigungen** - Offer decisioning App Service unterstützt bis zu 1.000 Sammlungsqualifikatoren.
