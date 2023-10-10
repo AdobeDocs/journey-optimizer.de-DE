@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Erstellen, Optimizer, Kampagne, Oberfläche, Nachrichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -122,7 +122,7 @@ Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Ka
 
 ## Audience definieren {#audience}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Audience auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Segmente anzuzeigen. [Weitere Informationen zu Segmenten](../audience/about-audiences.md)
+Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
 >[!NOTE]
 >
