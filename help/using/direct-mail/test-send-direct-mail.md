@@ -7,16 +7,21 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
 # Testen und Senden einer Briefpostnachricht {#direct-mail-test-send}
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_preview"
+>title="Dateivorschau extrahieren"
+>abstract="In diesem Bereich können Sie eine Vorschau der Extraktionsdatei für jedes im linken Bereich ausgewählte Testprofil anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie anhand von Testprofildaten prüfen, wie dieser Inhalt angezeigt wird."
 
 Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
