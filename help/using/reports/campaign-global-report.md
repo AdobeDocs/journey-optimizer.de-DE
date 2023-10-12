@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 50%
 
 ---
@@ -239,9 +239,9 @@ Die **[!UICONTROL Email - Top-URL]** In Diagrammen und Tabellen wird beschrieben
 
 Die **[!UICONTROL E-Mail - Top-Empfänger-Domain]** Anhand von Diagrammen und Tabellen erfahren Sie, welche Domänen von Profilen am häufigsten zum Öffnen der E-Mail verwendet werden.
 
->[!NOTE]
+>[!CAUTION]
 >
->Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]**  Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihre E-Mail aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+> Die **[!UICONTROL E-Mail - Top-Empfänger-Domain]** -Widget hat eine Genauigkeit von 99,95 %.
 
 Das Diagramm **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
 
@@ -256,6 +256,11 @@ Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihrer E-Mail in Abh
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der während des Versandvorgangs kumulierten Fehler und der automatischen Bounce-Verarbeitung in Bezug auf die Gesamtzahl der gesendeten Nachrichten.
+
+>[!NOTE]
+>
+>Die **[!UICONTROL Optimiert vs. nicht optimiert]** und **[!UICONTROL Versandzeitoptimierung]**  Widgets sind nur verfügbar, wenn die Option Sendezeitoptimierung für Ihre E-Mail aktiviert ist. Weitere Informationen zur Sendezeitoptimierung finden Sie auf [dieser Seite](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## Registerkarte „In-App“ {#inapp-global}
