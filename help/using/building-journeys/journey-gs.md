@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Journey, erste, Start, Schnellstart, Zielgruppe, Ereignis, Aktion
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 97%
+source-wordcount: '1727'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,11 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
    ![](assets/custom2.png)
 
 ## Zugreifen auf Journeys {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Journeys"
+>abstract="Entwerfen Sie Customer Journeys, um Ihren Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit Journey Optimizer können Sie Anwendungsfälle für die Echtzeit-Orchestrierung der Customer Journey mit Kontextdaten erstellen, die in Ereignissen oder Datenquellen gespeichert sind. Die **Übersicht** -Registerkarte ein Dashboard mit Schlüsselmetriken zu Ihren Journey anzeigen. Die **Durchsuchen** zeigt die Liste der vorhandenen Journey an."
 
 Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar:
 
@@ -77,11 +82,6 @@ In den Konfigurationsbereichen für Ereignis, Datenquelle und Aktion zeigt das F
 ![](assets/journey3bis.png)
 
 ## Erstellen Ihrer Journey{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Erstellen Ihrer Journey"
->abstract="Auf diesem Bildschirm wird die Liste der vorhandenen Journey angezeigt. Öffnen Sie eine Journey oder klicken Sie auf „Journey erstellen“ und kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um mehrstufige kanalübergreifende Szenarien zu erstellen."
 
 Dieser Schritt wird vom **Business-Anwender** ausgeführt. Hier erstellen Sie Ihre Journeys. Kombinieren Sie die verschiedenen Ereignis-, Orchestrierungs- und Aktionsaktivitäten, um Ihre mehrstufigen kanalübergreifenden Szenarien zu erstellen.
 
