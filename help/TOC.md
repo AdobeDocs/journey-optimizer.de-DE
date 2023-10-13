@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -230,14 +230,16 @@ ht-degree: 98%
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
-   + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
+   + Webkanal konfigurieren {#configure-web-channel}
+      + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
+      + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
+      + [Implementieren von Einzelseitenanwendungen](using/web/web-spa-implementation.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + Verfassen von Web-Seiten {#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
       + [Web-Kampagnen überwachen](using/web/monitor-web-campaigns.md)
       + [Einzelseitenanwendungen erstellen](using/web/web-spa.md)
-   + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
    + [Voraussetzungen für Code-basierte Erlebnisse](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 98%
    + [Unterstützung für Archivierung](using/configuration/archiving-support.md)
    + [Ändern von Ausführungsadressen](using/configuration/primary-email-addresses.md)
    + [Konfigurieren von Häufigkeitsregeln](using/configuration/frequency-rules.md)
-   + [Implementieren von Einzelseitenanwendungen](using/web/web-spa-implementation.md)
    + Konfigurieren von Journeys {#configure-journeys}
       + [Über Datenquellen, Ereignisse und Aktionen](using/configuration/about-data-sources-events-actions.md)
       + Integrieren mit externen Systemen {#external-systems}
