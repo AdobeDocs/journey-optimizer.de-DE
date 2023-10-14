@@ -1,12 +1,12 @@
 ---
 title: Auflisten von Entscheidungen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%

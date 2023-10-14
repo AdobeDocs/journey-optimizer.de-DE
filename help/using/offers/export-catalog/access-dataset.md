@@ -1,12 +1,12 @@
 ---
 title: Zugriff auf den exportierten Angebotskatalog
 description: Erfahren Sie, wie Sie auf den Angebotskatalog auf Adobe Experience Platform zugreifen können, nachdem er exportiert wurde.
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
