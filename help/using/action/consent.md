@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Experienced
 keywords: Richtlinien, Governance, Platform, Healthcare Shield, Einverständnis
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 77565a88d23f241a54a8622ceed0cd26fc4a31b2
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -58,7 +58,7 @@ There are two types of latency regarding the use of consent policies:
 ## Konfigurieren der benutzerdefinierten Aktion {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_admin"
+>id="ajo_consent_required_marketing_action"
 >title="Definieren einer erforderlichen Marketing-Aktion"
 >abstract="Mit der „Erforderlichen Marketing-Aktion“ können Sie die Marketing-Aktion für Ihre benutzerdefinierte Aktion definieren. Wenn Sie beispielsweise diese benutzerdefinierte Aktion zum Senden von E-Mails verwenden, können Sie E-Mail-Targeting auswählen. Bei Verwendung in einer Journey werden alle mit dieser Marketing-Aktion verknüpften Einverständniserklärungen abgerufen und genutzt. Dies kann nicht in der Arbeitsfläche geändert werden."
 
