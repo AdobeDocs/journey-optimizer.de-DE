@@ -10,10 +10,11 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
-source-git-commit: 42b1243f713743d299a60aa93546ed99d4dcf156
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: e79653c67da6ce125e5120c885260522e5e4a1c0
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -133,7 +134,7 @@ Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenbericht
 
 ## Mehrsprachiger Kampagnenbericht {#multilingual-campaign-report}
 
-Globale Berichte, auf die über das **Ganzzeit** -Registerkarte Ereignisse anzeigen, die mindestens vor zwei Stunden aufgetreten sind, und Ereignisse über einen ausgewählten Zeitraum abdecken. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
+Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
 Weitere Informationen zu den im Campaign-Bericht verfügbaren Daten finden Sie unter [diese Seite](../reports/campaign-global-report.md).
 

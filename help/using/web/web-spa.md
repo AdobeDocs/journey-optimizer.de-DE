@@ -1,6 +1,6 @@
 ---
-title: Einzelseitenanwendungen erstellen
-description: Erfahren Sie, wie Sie in Journey Optimizer SPA erstellen und Änderungen an verschiedenen Ansichten vornehmen können.
+title: Erstellen von Einzelseitenanwendungen
+description: Weitere Informationen dazu, wie SPAs in Journey Optimizer erstellt und Änderungen an verschiedenen Ansichten vorgenommen werden können.
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,45 +9,45 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
-# Einzelseitenanwendungen erstellen {#web-author-spas}
+# Erstellen von Einzelseitenanwendungen {#web-author-spas}
 
 ## Über Ansichten {#about-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
 >title="Anwenden von Änderungen auf ausgewählte Ansichten"
->abstract="Die Änderungen werden nur für ausgewählte Ansichten angewendet. Ansichten können mithilfe des **Durchsuchen** und navigieren Sie zu ihnen. Kann die Ansicht, die Sie suchen, nicht finden?"
+>abstract="Die Änderungen werden nur für ausgewählte Ansichten angewendet. Mit dem Modus **Durchsuchen** können Sie Ansichten entdecken und zu ihnen navigieren. Ist die gewünschte Ansicht nicht verfügbar?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de" text="Weitere Informationen"
 
-**Einzelseitenanwendungen** (SPA) kann jetzt im visuellen Editor für Webdesigner erstellt werden. Auf diese Weise können Sie festlegen, welche **views** Sie möchten Ihre Webseitenänderungen auf anwenden.
+**Einzelseitenanwendungen** (Single Page Applications, SPAs) können jetzt im visuellen Web-Designer-Editor erstellt werden. Auf diese Weise können Sie auswählen, auf welche **Ansichten** Sie Ihre Änderungen an der Web-Seite anwenden möchten.
 
-[In diesem Video erfahren Sie, wie Sie Einzelseitenanwendungen erstellen.](#video)
+[In diesem Video wird erklärt, wie Einzelseitenanwendungen erstellt werden können](#video)
 
-Eine Ansicht kann als ganze Site oder als Gruppe visueller Elemente auf einer Site definiert werden, z. B. als Startseite, die gesamte Produktseite oder den Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
+Eine Ansicht kann als ganze Seite oder als Gruppe visueller Elemente auf einer Seite definiert werden, z. B. als Startseite, als gesamte Produktseite oder als Rahmen für Versandvoreinstellungen auf allen Checkout-Seiten.
 
-Zum Definieren der Ansichten in der Adobe Experience Platform Web SDK-Implementierung ist ein einmaliges Entwicklersetup erforderlich. Auf diese Weise können Sie Adobe Journey Optimizer-Webkampagnen auf SPA erstellen und ausführen.
+Ein einmaliges Setup auf Entwicklerseite ist erforderlich, um die Ansichten in der Adobe Experience Platform Web SDK-Implementierung zu definieren. Auf diese Weise können Web-Kampagnen mit Adobe Journey Optimizer auf SPAs erstellt und ausgeführt werden.
 
-## Ansichten in der Web SDK-Implementierung definieren {#define-views}
+## Definieren von Ansichten in der Web SDK-Implementierung {#define-views}
 
-XDM-Ansichten können in Adobe genutzt werden [!DNL Journey Optimizer] , damit Marketing-Experten Web-Personalisierungs- und Erlebniskampagnen auf SPA über den Web-Visual-Editor ausführen können. [Weitere Informationen](web-spa-implementation.md)
+XDM-Ansichten können in Adobe [!DNL Journey Optimizer] genutzt werden, damit Marketing-Fachleute Web-Personalisierungs- und Erlebniskampagnen auf SPAs über den visuellen Web-Editor ausführen können. [Weitere Informationen](web-spa-implementation.md)
 
-Um auf Ansichten in der [!DNL Journey Optimizer] müssen Sie die in [diesem Abschnitt](web-spa-implementation.md#implement-xdm-views).
+Um auf die Ansichten in der Benutzeroberfläche von [!DNL Journey Optimizer] zugreifen und welche erstellen zu können, stellen Sie sicher, dass Sie die in [diesem Abschnitt](web-spa-implementation.md#implement-xdm-views) aufgeführten Schritte befolgen.
 
-## Ermitteln von Ansichten im Webdesigner {#discover-views}
+## Entdecken von Ansichten im Web-Designer {#discover-views}
 
-Nachdem SPA Einrichtung in der Adobe Experience Platform Web SDK-Implementierung durchgeführt wurde, müssen Sie durch alle Ansichten Ihrer Website navigieren, auf die Sie Änderungen anwenden möchten. Führen Sie dazu folgende Schritte durch.
+Nachdem das Setup des SPAs in der Adobe Experience Platform Web SDK-Implementierung durchgeführt wurde, müssen Sie durch alle Ansichten Ihrer Website navigieren, auf die Sie Änderungen anwenden möchten. Führen Sie dazu folgende Schritte durch.
 
-1. [Webkampagne erstellen](create-web.md) und greifen Sie auf [Webdesigner](edit-web-content.md).
+1. [Erstellen Sie eine Web-Kampagne](create-web.md) und rufen Sie den [Web-Designer](edit-web-content.md) auf.
 
-   Die Ansicht, in der Sie sich derzeit befinden, wird oben links angezeigt.
+   Die aktuelle Ansicht wird oben links angezeigt.
 
    ![](assets/web-designer-view-home.png)
 
-1. Tauschen Sie **[!UICONTROL Durchsuchen]** -Modus. [Weitere Informationen](../web/edit-web-content.md#browse-mode)
+1. Wechseln Sie in den Modus **[!UICONTROL Durchsuchen]**. [Weitere Informationen](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -57,27 +57,27 @@ Nachdem SPA Einrichtung in der Adobe Experience Platform Web SDK-Implementierung
 
 ## Anwenden von Änderungen auf andere Ansichten {#apply-modifications-views}
 
-Nachdem Sie eine Änderung hinzugefügt haben, während Sie sich in einer bestimmten Ansicht befinden, können Sie sie auf andere ausgewählte Ansichten anwenden. Führen Sie dazu folgende Schritte durch.
+Nachdem eine Änderung in einer bestimmten Ansicht hinzugefügt wurde, kann sie auf andere ausgewählte Ansichten angewendet werden. Führen Sie dazu folgende Schritte durch.
 
 >[!CAUTION]
 >
->Wenn Sie keine Ansichten mithilfe der **[!UICONTROL Durchsuchen]** -Modus können Sie sie nicht zur Anwendung Ihrer Änderungen auswählen. [Weitere Informationen](#discover-views)
+>Wenn Sie Ansichten nicht mit dem Modus **[!UICONTROL Durchsuchen]** entdeckt haben, können Sie sie nicht auswählen, um Ihre Änderungen vorzunehmen. [Weitere Informationen](#discover-views)
 
 1. Wählen Sie das Symbol **[!UICONTROL Änderungen]** aus, um den entsprechenden Bereich auf der linken Seite anzuzeigen.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. Wählen Sie eine Änderung aus und klicken Sie auf **[!UICONTROL Mehr Aktionen]** neben der Schaltfläche klicken. Auswählen **[!UICONTROL Anwenden auf weitere Ansichten]**.
+1. Wählen Sie eine Änderung aus und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Aktionen]** neben der Änderung. Wählen Sie **[!UICONTROL Auf mehr Ansichten anwenden]** aus.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
-1. Wählen Sie die Ansichten aus, auf die Sie Ihre Änderungen anwenden möchten.
+1. Wählen Sie die Ansichten aus, auf die die Änderungen angewendet werden sollen.
 
    ![](assets/web-designer-modifications-apply-to.png)
 
 1. Klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-1. Tauschen Sie **[!UICONTROL Durchsuchen]** -Modus, um zu überprüfen, ob die Änderungen auf die gewünschten Seiten angewendet werden.
+1. Wechseln Sie in den Modus **[!UICONTROL Durchsuchen]**, um zu überprüfen, ob die Änderungen auf die gewünschten Seiten angewendet werden.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,9 +85,9 @@ Nachdem Sie eine Änderung hinzugefügt haben, während Sie sich in einer bestim
 
 In diesem Video wird Folgendes erklärt:
 
-* SPA mit **[!UICONTROL Durchsuchen]** mode
+* Entdecken von SPA-Ansichten im Modus **[!UICONTROL Durchsuchen]**
 * Verfassen in der aktuellen Ansicht
-* Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle entdeckten Ansichten
-* Massenaktionen für Änderungen durchführen
+* Anwenden von Website-Änderungen auf mehrere Ansichten oder auf alle erkannten Ansichten
+* Durchführen von Massenaktionen für Änderungen
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

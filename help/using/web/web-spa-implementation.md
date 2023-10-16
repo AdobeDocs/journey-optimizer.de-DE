@@ -1,6 +1,6 @@
 ---
 title: Implementierung von Einzelseitenanwendungen
-description: Erfahren Sie, wie Sie SPA Ansichten in Journey Optimizer implementieren
+description: Weitere Informationen dazu, wie SPA-Ansichten in Journey Optimizer implementiert werden können
 feature: Web Channel
 topic: Content Management
 role: User
@@ -9,65 +9,65 @@ exl-id: c36d793d-0aa6-4a7a-94f2-dbfe6b644df8
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Implementieren von Einzelseitenanwendungen (SPA) {#web-spa-implementation}
+# Implementieren von Einzelseitenanwendungen (SPAs) {#web-spa-implementation}
 
-Adobe Experience Platform Web SDK bietet umfassende Funktionen, mit denen Ihr Unternehmen mithilfe von Client-seitigen Technologien der neuesten Generation, wie Single Page Applications (SPA), Personalisierungen ausführen kann.
+Adobe Experience Platform Web SDK bietet umfassende Funktionen, mit denen ein Unternehmen mithilfe von Client-seitigen Technologien wie Single Page Applications (SPAs) Personalisierungen der neuesten Generation ausführen kann.
 
-Herkömmliche Websites arbeiten mit &quot;page-to-page&quot;-Navigationsmodellen, auch als mehrseitige Anwendungen bezeichnet, bei denen Website-Designs eng an URLs gekoppelt sind und Übergänge von einer Webseite zu einer anderen einen Seitenladevorgang erfordern.
+Herkömmliche Websites arbeiten auf Basis von „Seite-zu-Seite“-Navigationsmodellen (auch als mehrseitige Anwendungen bekannt), bei denen Website-Designs eng an URLs gekoppelt sind, sodass der Übergang von einer Web-Seite zur anderen ein Laden der Seite erfordert.
 
-Moderne Webanwendungen wie Einzelseiten-Apps (SPA) haben stattdessen ein Modell übernommen, das die schnelle Nutzung des Browser-UI-Renderings ermöglicht, das häufig unabhängig von Seitenneuladungen ist. Diese Erlebnisse können durch Kundeninteraktionen wie Bildläufe, Klicks und Cursorbewegungen ausgelöst werden. Da sich die Paradigmen des modernen Webs weiterentwickelt haben, funktioniert die Relevanz herkömmlicher generischer Ereignisse wie Seitenladevorgänge für die Bereitstellung von Personalisierung und Experimenten nicht mehr.
+Moderne Web-Anwendungen wie z. B. Einzelseitenanwendungen (SPAs) nutzen stattdessen ein Modell, das die Rendering-Funktion der Browser-Oberfläche beschleunigt, wodurch oft keine Neuladungen von Seiten erforderlich sind. Diese Erlebnisse können durch Kundeninteraktionen wie Scrollen, Klicks und Cursor-Bewegungen ausgelöst werden. Da sich die Paradigmen des modernen Webs weiterentwickelt haben, ist die Relevanz herkömmlicher allgemeiner Ereignisse (z. B. das Laden einer Seite) für die Bereitstellung von Personalisierung und Experimenten nicht mehr gegeben.
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Vorteile des Adobe Experience Platform Web SDK für SPA {#web-spa-benefits}
+## Vorteile des Adobe Experience Platform Web SDK für SPAs {#web-spa-benefits}
 
-Hier einige Vorteile der Verwendung des Adobe Experience Platform Web SDK für Einzelseitenanwendungen:
+Hier einige Vorteile bei einer Verwendung des Adobe Experience Platform Web SDK für Einzelseitenanwendungen:
 
 * Möglichkeit zur Zwischenspeicherung aller Angebote beim Seitenladen, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren
-* Das Benutzererlebnis auf Ihrer Site wird erheblich verbessert, da Angebote sofort über den Cache angezeigt werden, ohne dass durch herkömmliche Server-Aufrufe eine verzögerungsfreie Zeit entsteht.
-* Durch die einmalige Einrichtung von Entwicklern können Marketing-Experten Personalisierungs- und Experimentierungsaktivitäten über den Web-Visual-Editor von Adobe Journey Optimizer auf Ihrer SPA erstellen und ausführen.
+* Drastische Verbesserung des Anwendererlebnisses auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass durch herkömmliche Server-Aufrufe Latenzzeit gebraucht wird
+* Durch das einmalige Setup auf Entwicklerseite können Marketing-Fachleute Personalisierungs- und Experimentierungsaktivitäten über den visuellen Web-Editor von Adobe Journey Optimizer auf Ihrer SPA erstellen und ausführen.
 
 ## XDM-Ansichten und Einzelseitenanwendungen {#web-spa-xdm}
 
-Die Adobe **[!UICONTROL Journey Optimizer]** Der Web-Editor nutzt ein Konzept namens &quot;Ansichten&quot;: eine logische Gruppe visueller Elemente, aus denen zusammen ein SPA Erlebnis besteht. Eine Einzelseitenanwendung kann daher als Übergang durch Ansichten anstelle von URLs betrachtet werden, basierend auf Benutzerinteraktionen. Eine Ansicht kann normalerweise eine ganze Site, eine einzelne Seite oder gruppierte visuelle Elemente innerhalb einer Seite darstellen.
+Der Web-Editor von Adobe **[!UICONTROL Journey Optimizer]** basiert auf einem Konzept namens Ansichten: Eine Ansicht entspricht einer logischen Gruppe visueller Elemente, aus denen sich ein SPA-Erlebnis zusammensetzt. Eine Einzelseitenanwendung kann also als eine Reihe von Ansichten, statt URLs, betrachtet werden, die je nach Benutzerinteraktion aufgerufen werden. Eine Ansicht umfasst in der Regel eine ganze Seite, eine einzelne Seite oder eine Gruppe visueller Elemente innerhalb einer Seite.
 
-Zur weiteren Erläuterung der Ansichten wird im folgenden Beispiel eine hypothetische E-Commerce-Website verwendet.
+Zur weiteren Erläuterung von Ansichten wird im folgenden Beispiel eine hypothetische E-Commerce-Site verwendet.
 
-* Nachdem Sie zur Startseite navigiert sind, fördert ein Hero-Bild saisonale Sammlungen sowie die verschiedenen Produktkataloge, die auf der Site verfügbar sind. In diesem Fall kann eine Ansicht für den gesamten Startbildschirm definiert werden. Diese Ansicht könnte einfach als &quot;Zuhause&quot;bezeichnet werden.
+* Nach dem Navigieren zur Startseite bewirbt ein Hero-Bild saisonale Sammlungen sowie die verschiedenen Produktkataloge, die auf der Site verfügbar sind. In diesem Fall kann der gesamte Startbildschirm als Ansicht definiert werden. Diese Ansicht könnte einfach als „Startseite“ bezeichnet werden.
 
   ![](assets/web-spa-home.png)
 
-* Wenn sich der Kunde mehr für die Produkte interessiert, die das Unternehmen verkauft, entscheidet er, auf die **Männer** -Link. Ähnlich wie bei der Startseite ist die gesamte **Männer** -Seite kann als Ansicht definiert werden. Diese Ansicht könnte &quot;Männer&quot;heißen.
+* Mit der Zeit interessieren sich Kundinnen und Kunden mehr und mehr für die Produkte, die das Unternehmen verkauft. Sie klicken auf den Link **Männer**. Ähnlich wie die Startseite kann die gesamte Seite **Männer** als eine Ansicht definiert werden. Diese Ansicht könnte „Männer“ heißen.
 
   ![](assets/web-spa-men.png)
 
-* Da eine Ansicht als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden kann, können die vier auf der Produktseite angezeigten Produkte gruppiert und als Ansicht betrachtet werden. Diese Ansicht könnte &quot;Produkte&quot;heißen.
+* Da eine Ansicht als ganze Site oder eine Gruppe visueller Elemente auf einer Site definiert werden kann, können die vier auf der Produktseite angezeigten Produkte gruppiert und als Ansicht betrachtet werden. Diese Ansicht könnte „Produkte“ heißen.
 
   ![](assets/web-spa-men-products.png)
 
-* Wenn der Kunde sich entscheidet, auf die **PRODUKTE ALLER MÄNNER** -Schaltfläche, um weitere Produkte auf der Site zu untersuchen, ändert sich die Website-URL in diesem Fall nicht, aber hier kann eine Ansicht erstellt werden, die nur die zweite Zeile der angezeigten Produkte darstellt. Der Ansichtsname könnte &quot;products-page-2&quot;lauten.
+* Wenn jemand auf die Schaltfläche **ALLE MÄNNERPRODUKTE** klickt, um sich weitere Produkte auf der Seite anzusehen, ändert sich die Webseite-URL in diesem Fall nicht, aber hier kann eine Ansicht erstellt werden, die nur die zweite Zeile der angezeigten Produkte darstellt. Der Ansichtsname könnte „Produktseite-2“ lauten.
 
-* Der Kunde beschließt, einige Produkte von der Site zu kaufen, und fährt mit dem Checkout-Bildschirm fort. Der Warenkorbbildschirm selbst kann mit einer Ansicht namens &quot;Warenkorb&quot;verknüpft werden. Oder Sie können eine andere Ansicht im Checkout-Bildschirm haben, um die unten empfohlenen Produkte zu verarbeiten.
+* Die Kundin oder der Kunde möchte einige Produkte von der Seite kaufen und fährt mit dem Checkout-Bildschirm fort. Der Warenkorbbildschirm selbst kann mit einer Ansicht namens „Warenkorb“ verknüpft werden. Alternativ können Sie eine andere Ansicht im Checkout-Bildschirm ansehen, um die unten empfohlenen Produkte zu verarbeiten.
 
   ![](assets/web-spa-cart.png)
 
-Das Konzept der Ansichten kann noch viel weiter ausgeweitet werden. Dies sind nur einige Beispiele für Ansichten, die auf einer Site definiert werden können.
+Das Konzept der Ansichten kann noch wesentlich stärker ausgeweitet werden. Dies sind nur einige Beispiele für Ansichten, die auf einer Site definiert werden können.
 
 ## Implementieren von XDM-Ansichten {#implement-xdm-views}
 
-XDM-Ansichten können in Adobe Journey Optimizer genutzt werden, um Marketingexperten zu ermöglichen, Web-Personalisierungs- und Erlebniskampagnen auf SPA über den Web-Visual-Editor von Journey Optimizer durchzuführen.
+XDM-Ansichten können in Adobe Journey Optimizer genutzt werden, damit Marketing-Fachleute Web-Personalisierungs- und Erlebniskampagnen auf SPAs über den visuellen Web-Editor in Journey Optimizer ausführen können.
 
-Dazu müssen Sie die folgenden Schritte ausführen, um eine einmalige Entwicklereinrichtung abzuschließen:
+Dazu müssen auf Entwicklerseite die folgenden Schritte ausgeführt werden, um ein einmaliges Setup abzuschließen:
 
-1. Installieren [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de){target="_blank"} und überprüfen Sie die [Voraussetzungen für Webkanäle](web-prerequisites.md) Seite.
+1. Installieren Sie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de){target="_blank"} und überprüfen Sie die Seite [Voraussetzungen für Web-Kanäle](web-prerequisites.md).
 
 2. Bestimmen Sie alle XDM-Ansichten in Ihrer Einzelseitenanwendung, die Sie personalisieren möchten.
 
-3. Nach dem Definieren der XDM-Ansichten müssen Sie, um Inhalte für diese Ansichten bereitzustellen, die `sendEvent()` Funktion mit `renderDecisions` auf `true` und der entsprechenden XDM-Ansicht in Ihrer Einzelseitenanwendung. Die XDM-Ansicht muss übergeben werden `xdm.web.webPageDetails.viewName`. Auf diese Weise können Marketingexperten diese Ansichten im Journey Optimizer-Web-Editor erkennen und Inhaltsänderungen darauf anwenden:
+3. Nach dem Definieren der XDM-Ansichten müssen Sie, um Inhalte für diese Ansichten bereitzustellen, in Ihrer Einzelseitenanwendung die Funktion `sendEvent()` mit `renderDecisions` auf `true` und der entsprechenden XDM-Ansicht einstellen. Die XDM-Ansicht muss im `xdm.web.webPageDetails.viewName` übergeben werden. Auf diese Weise können Marketing-Fachleute diese Ansichten im Web-Editor von Journey Optimizer entdecken und Inhaltsänderungen auf sie anwenden:
 
 ```
  alloy("sendEvent", {
@@ -84,11 +84,11 @@ Dazu müssen Sie die folgenden Schritte ausführen, um eine einmalige Entwickler
 
 >[!NOTE]
 >
->Zum ersten `sendEvent()` aufrufen, werden alle XDM-Ansichten abgerufen und zwischengespeichert, die an den Endbenutzer gerendert werden sollen. Nachstehend `sendEvent()` -Aufrufe mit übergebenen XDM-Ansichten werden aus dem Cache gelesen und ohne Serveraufruf gerendert.
+>Beim ersten `sendEvent()`-Aufruf werden alle XDM-Ansichten abgerufen und zwischengespeichert, die an die Endbenutzerin bzw. den Endbenutzer gerendert werden sollen. Nachstehende Aufrufe von `sendEvent()` mit XDM-Ansichten, die übermittelt wurden, werden aus dem Cache gelesen und ohne Server-Aufruf gerendert.
 
-## `sendEvent()` Funktionsbeispiele
+## `sendEvent()`-Funktionsbeispiele
 
-In diesem Abschnitt werden zwei Beispiele zum Aufrufen der `sendEvent()` -Funktion in React für eine hypothetische E-Commerce-SPA verwenden.
+In diesem Abschnitt werden zwei Beispiele zum Aufrufen der Funktion `sendEvent()` in React für eine hypothetische E-Commerce-SPA verwendet.
 
 ### Beispiel 1: Startseite eines A/B-Tests {#web-spa-sample-1}
 
@@ -96,7 +96,7 @@ Das Marketing-Team möchte A/B-Tests auf der gesamten Startseite durchführen.
 
 ![](assets/web-spa-home.png)
 
-So führen Sie A/B-Tests auf der gesamten Homepage durch: `sendEvent()` muss mit dem XDM aufgerufen werden `viewName` auf `home`:
+So können A/B-Tests auf der gesamten Startseite durchgeführt werden: `sendEvent()` muss aufgerufen werden, während der XDM-`viewName` auf `home` eingestellt ist:
 
 ```
 function onViewChange() {
@@ -137,7 +137,7 @@ history.listen(onViewChange);
 
 ### Beispiel 2: Personalisierte Produkte {#web-spa-sample-2}
 
-Das Marketing-Team möchte die zweite Reihe von Produkten personalisieren, indem es die Farbe der Preisbeschriftung in Rot ändert, nachdem ein Benutzer klickt, um alle Men-Produkte anzuzeigen.
+Das Marketing-Team möchte die zweite Reihe von Produkten personalisieren, indem es die Farbe der Preisbeschriftung in Rot ändert, nachdem jemand auf die Schaltfläche geklickt hat, um alle Männerprodukte anzuzeigen.
 
 ![](assets/web-spa-men-products.png)
 

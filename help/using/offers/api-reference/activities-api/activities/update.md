@@ -9,13 +9,13 @@ exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Entscheidung aktualisieren {#update-decision}
+# Aktualisieren von Entscheidungen {#update-decision}
 
-Sie können eine Entscheidung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library] API.
+Sie können eine Entscheidung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
 Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge, finden Sie in der offiziellen [JSON-Patch-Dokumentation](https://jsonpatch.com/).
 
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offer-decisions/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | Die ID der Entität, die Sie aktualisieren möchten. | `offerDecision1234` |
 
 **Anfrage**
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDeci
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Zu den Vorgängen gehören: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Entscheidung zurück, einschließlich der Entscheidung `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Entscheidung zurückgegeben, einschließlich der Entscheidungs-`id`.
 
 ```json
 {

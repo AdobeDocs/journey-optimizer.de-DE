@@ -98,7 +98,7 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Definieren Sie die Ranking-Methode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
+1. Definieren Sie die Rangfolgenmethode, die Sie zur Auswahl des besten Angebots für jedes Profil verwenden möchten. [Weitere Informationen](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 

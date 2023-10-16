@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -206,7 +206,7 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Der Ausdruckseditor wird geöffnet.
 
-1. Sie können die [!DNL Journey Optimizer] Ausdruckseditor mit allen Personalisierungs- und Bearbeitungsfunktionen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
+1. Sie können den Ausdruckseditor von [!DNL Journey Optimizer] mit allen Personalisierungs- und Bearbeitungsfunktionen nutzen. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 

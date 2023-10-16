@@ -13,7 +13,7 @@ ht-degree: 92%
 
 ---
 
-# Personalisiertes Angebot aktualisieren {#update-personalized-offer}
+# Aktualisieren personalisierter Angebote {#update-personalized-offer}
 
 Sie können ein personalisiertes Angebot ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 

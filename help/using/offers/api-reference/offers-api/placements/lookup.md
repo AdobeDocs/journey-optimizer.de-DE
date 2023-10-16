@@ -1,5 +1,5 @@
 ---
-title: Platzierung nachschlagen
+title: Nachschlagen einer Platzierung
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 feature: Offers, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
-# Platzierung nachschlagen {#look-up-placement}
+# Nachschlagen einer Platzierung {#look-up-placement}
 
-Sie können bestimmte Platzierungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die Platzierung enthält `id`.
+Sie können bestimmte Platzierungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die Platzierungs-`id` enthält.
 
 **API-Format**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/placements/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `offerPlacement1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerPlacement1234` |
 
 ```shell
 curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
@@ -39,7 +39,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement12
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der Platzierung einschließlich Informationen zur eindeutigen Platzierung zurückgegeben `id`.
+Bei einer erfolgreichen Antwort werden die Details der Platzierung einschließlich Informationen zur eindeutigen Platzierungs-`id` zurückgegeben.
 
 ```json
 {

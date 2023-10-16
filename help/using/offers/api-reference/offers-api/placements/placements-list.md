@@ -9,7 +9,7 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 51%
+ht-degree: 87%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden. Eine Platzierung hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle Ihrer Nachricht angezeigt wird. Wenn Sie Inhalte zu einem Angebot hinzufügen, werden Sie aufgefordert, eine Platzierung auszuwählen, an der diese Inhalte angezeigt werden können.
 
-Sie können eine Liste aller Platzierungen anzeigen, indem Sie eine einzige GET-Anfrage an die [!DNL Offer Library] API.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Platzierungen anzeigen.
 
 **API-Format**
 
@@ -40,7 +40,7 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, die reguläre Ausdrücke unterstützen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines - vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z-A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines „-“ vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z–A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 
 **Anfrage**
 
@@ -55,7 +55,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt eine Liste der Platzierungen zurück, die vorhanden sind und auf die Sie Zugriff haben.
+Bei einer erfolgreichen Antwort wird eine Liste von Platzierungen zurückgegeben, die vorhanden sind und auf die zugegriffen werden kann.
 
 ```json
 {

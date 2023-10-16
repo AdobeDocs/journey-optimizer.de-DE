@@ -11,31 +11,31 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 17%
+ht-degree: 98%
 
 ---
 
 # Erste Schritte mit Kanalberichten {#channel-report-gs}
 
-Die Kanalberichte sind ein leistungsstarkes Tool, das einen umfassenden Überblick über Traffic- und Interaktionsmetriken in einem einheitlichen Bericht für jeden Kanal bietet und alle Aktionen aller Kampagnen und Journey umfasst. Sie ist in verschiedene Widgets unterteilt, von denen jedes einen bestimmten Überblick über Ihre Journey- oder Kampagnenleistung bietet.
+Die Kanalberichte sind ein leistungsstarkes Tool, das in einem einheitlichen Bericht einen umfassenden Überblick über Traffic- und Interaktionsmetriken für jeden Kanal bietet und alle Aktionen aller Kampagnen und Journeys umfasst. Es ist in verschiedene Widgets unterteilt, von denen jedes einen bestimmten Überblick über die Leistung der Kampagne oder Journey bietet.
 
-Die Kanalberichte sind vollständig anpassbar, sodass Sie Widgets in der Größe ändern oder entfernen können, um ein Dashboard zu erstellen, das Ihren spezifischen Anforderungen entspricht. Sie können die Berichtsdaten auch zur weiteren Analyse in eine PDF- oder CSV-Datei exportieren.
+Die Kanalberichte sind vollständig anpassbar, sodass Widgets in der Größe geändert oder entfernt werden können, um ein Dashboard zu erstellen, das spezifischen Anforderungen entspricht. Die Berichtsdaten können auch zur weiteren Analyse in eine PDF- oder CSV-Datei exportiert werden.
 
-Weitere Informationen zu den verschiedenen Metriken und Widgets, die für die Kanalberichte verfügbar sind, finden Sie in diesem [page](channel-report.md).
+Weitere Informationen zu den verschiedenen Metriken und Widgets, die für die Kanalberichte verfügbar sind, sind auf dieser [Seite](channel-report.md) zu finden.
 
 ## Vor Beginn {#manage-reports-prereq}
 
-Bevor Sie beginnen, überprüfen Sie, ob Sie Zugriff auf die **[!UICONTROL Berichte]** Menü.
+Vor Beginn sollten Sie prüfen, ob Zugriff auf das Menü **[!UICONTROL Berichte]** besteht.
 
-Wenn die Variable **[!UICONTROL Berichte]** Menü, müssen Ihre Zugriffsberechtigungen erweitert werden, um die **[!UICONTROL Anzeigen von Kanalberichten]** -Berechtigung. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff auf die Adobe Experience Platform haben [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"} für Ihre Organisation. Wenden Sie sich andernfalls an Ihren Adobe Journey Optimizer-Administrator.
+Wenn das Menü **[!UICONTROL Berichte]** nicht angezeigt wird, müssen Ihre Zugriffsberechtigungen um die Berechtigung **[!UICONTROL Kanalberichte anzeigen]** erweitert werden. Sie können Ihre eigenen Berechtigungen erweitern, wenn Sie Zugriff zu den [Berechtigungen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=de){target="_blank"} in Adobe Experience Platform für Ihre Organisation haben. Falls nicht, wenden Sie sich an Ihre Adobe Journey Optimizer-Admins.
 
-+++Erfahren Sie, wie Sie Berichtsberechtigungen zuweisen
++++Mehr Informationen zum Zuweisen von Berichtsberechtigungen
 
-Beachten Sie, dass diese Berechtigung in der folgenden integrierten **[!UICONTROL Rollen]**: Campaign Manager, Campaign Approver, Campaign Viewer und Campaign Administrator.
+Hinweis: Diese Berechtigung ist in den folgenden integrierten **[!UICONTROL Rollen]** enthalten: Campaign Manager, Campaign Approver, Campaign Viewer und Campaign Administrator.
 
-So weisen Sie Ihrer **[!UICONTROL Rolle]**:
+So können entsprechende Berechtigungen für eine **[!UICONTROL Rolle]** zugewiesen werden:
 
-1. Aus dem [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** und wählen Sie die Rolle aus, die Sie mit der neuen **[!UICONTROL Anzeigen von Kanalberichten]** -Berechtigung.
+1. Navigieren Sie im Produkt [!DNL Permissions] zum Menü **[!UICONTROL Rollen]** und wählen Sie die Rolle aus, die Sie mit der neuen Berechtigung **[!UICONTROL Kanalberichte anzeigen]** aktualisieren möchten.
 
 1. Klicken Sie im Dashboard **[!UICONTROL Rolle]** auf **[!UICONTROL Bearbeiten]**.
 
@@ -43,31 +43,31 @@ So weisen Sie Ihrer **[!UICONTROL Rolle]**:
 
 1. Ziehen Sie die **[!UICONTROL Berichte]** Ressource, um Berechtigungen zuzuweisen.
 
-   Aus dem **[!UICONTROL Bericht]** Ressourcen-Dropdown, wählen Sie die **[!UICONTROL Anzeigen von Kanalberichten]** -Berechtigung.
+   Wählen Sie aus der Ressourcen-Dropdown-Liste **[!UICONTROL Bericht]** die Berechtigung zum **[!UICONTROL Anzeigen von Kanalberichten]** aus.
 
    ![](assets/channel_permission_2.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Hierfür zugewiesene Benutzer **[!UICONTROL Rolle]** kann jetzt auf die **[!UICONTROL Berichte]** Menü.
+Für diese **[!UICONTROL Rolle]** zugewiesene Benutzende können jetzt auf das Menü **[!UICONTROL Berichte]** zugreifen.
 
 +++
 
-## Bericht-Dashboard verwalten {#manage-reports}
+## Verwalten Ihres Berichts-Dashboards {#manage-reports}
 
-Gehen Sie wie folgt vor, um auf Ihre Kanalberichte zuzugreifen und sie zu verwalten:
+Führen Sie folgende Schritte aus, um auf Kanalberichte zuzugreifen und sie zu verwalten:
 
-1. Navigieren Sie zum **[!UICONTROL Berichte]** innerhalb des **[!UICONTROL Journey-Management]** Abschnitt.
+1. Navigieren Sie innerhalb des Abschnitts **[!UICONTROL Journey-Management]** zum Menü **[!UICONTROL Berichte]**.
 
    ![](assets/channel_report_1.png)
 
-1. Wählen Sie im Dashboard eine **Starten** und **[!UICONTROL Endzeit]** , um bestimmte Daten auszuwählen.
+1. Wählen Sie im Dashboard eine **Startzeit** und eine **[!UICONTROL Endzeit]** aus, um auf bestimmte Daten zuzugreifen.
 
-1. Aus dem **[!UICONTROL Aktion von]** in der Dropdown-Liste auswählen, ob Sie Kampagnen, Journey oder beides als Ziel auswählen möchten.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Aktion von]** aus, ob Sie Kampagnen, Reisen oder beides anvisieren möchten.
 
    ![](assets/channel_report_2.png)
 
-1. Klicks **[!UICONTROL Ändern]** um Widgets zu vergrößern oder zu entfernen, um ein Dashboard zu erstellen, das Ihren spezifischen Anforderungen entspricht.
+1. Wählen Sie **[!UICONTROL Ändern]** aus, um Widgets zu vergrößern oder zu entfernen und so ein Dashboard zu erstellen, das Ihren spezifischen Anforderungen entspricht.
 
    ![](assets/channel_report_3.png)
 
@@ -75,19 +75,19 @@ Gehen Sie wie folgt vor, um auf Ihre Kanalberichte zuzugreifen und sie zu verwal
 
 1. Je nach Widget können Sie zwischen Tabellen, Balkendiagrammen oder Ringdiagrammen wechseln.
 
-1. Klicken Sie auf das Prozentsymbol, um Ihre Daten als Raten anzuzeigen.
+1. Klicken Sie auf das Prozentsymbol, um die Daten als Raten anzuzeigen.
 
    ![](assets/channel_report_4.png)
 
-## Exportieren der Berichte {#export-reports}
+## Exportieren Ihrer Berichte {#export-reports}
 
-Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exportieren, um sie freizugeben, zu bearbeiten oder zu drucken. Die detaillierten Schritte zum Exportieren Ihrer Kanalberichte finden Sie auf den folgenden Registerkarten:
+Sie können die Berichte einfach in PDF- oder CSV-Format exportieren, sodass sie freigeben, geändert oder gedruckt werden können. Die detaillierten Schritte zum Exportieren von Kanalberichten sind auf den folgenden Registerkarten zu finden:
 
 >[!BEGINTABS]
 
->[!TAB Bericht als PDF-Datei exportieren]
+>[!TAB Exportieren Ihres Berichts als PDF-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL PDF-Datei]**.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL PDF-Datei]** aus.
 
 1. Konfigurieren Sie das Dokument wie gewünscht im Drucken-Fenster. Beachten Sie, dass die Optionen je nach Browser variieren können.
 
@@ -97,16 +97,16 @@ Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exporti
 
 Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
->[!TAB Bericht als CSV-Datei exportieren]
+>[!TAB Exportieren Ihres Berichts als CSV-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL CSV-Datei]** , um eine CSV-Datei auf Berichtsebene zu generieren.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL CSV-Datei]** aus, um eine CSV-Datei auf der allgemeinen Berichtsebene zu generieren.
 
-1. Sie können auch Daten aus einem bestimmten Widget exportieren. Klicks **[!UICONTROL Exportieren von Widget-Daten in CSV]** neben dem ausgewählten Widget.
+1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie auf **[!UICONTROL Widget-Daten in CSV exportieren]** neben dem ausgewählten Widget.
 
-1. Ihre Datei wird automatisch heruntergeladen und kann sich in Ihren lokalen Dateien befinden.
+1. Die Datei wird automatisch heruntergeladen und ist in Ihren lokalen Dateien zu finden.
 
-   Wenn Sie die Datei auf Berichtsebene generiert haben, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
+   Wenn die Datei auf Berichtsebene generiert wurde, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
 
-   Wenn Sie die Datei auf Widget-Ebene generiert haben, stellt sie speziell Daten für das ausgewählte Widget bereit.
+   Wenn die Datei auf Widget-Ebene generiert wurde, stellt sie speziell Daten für das ausgewählte Widget bereit.
 
 >[!ENDTABS]

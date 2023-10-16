@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
 # Fallback-Angebote nachschlagen {#look-up-fallback-offers}
 
-Sie können nach bestimmten Fallback-Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die Fallback-Angebots-ID im Anfragepfad enthält.
+Sie können nach bestimmten Fallback-Angeboten suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die Fallback-Angebots-ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `fallbackOffer1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `fallbackOffer1234` |
 
 **Anfrage**
 

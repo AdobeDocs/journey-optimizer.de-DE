@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Sammlung aktualisieren {#update-collection}
+# Aktualisieren von Sammlungen {#update-collection}
 
 Sie können eine Sammlung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 

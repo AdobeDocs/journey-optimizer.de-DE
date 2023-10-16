@@ -1,6 +1,6 @@
 ---
-title: Ranking methods
-description: Erfahren Sie, wie Sie mit Rangmethoden arbeiten.
+title: Rangfolgemethoden
+description: Weitere Informationen zur Arbeit mit Rangfolgemethoden
 feature: Offers
 topic: Integrations
 role: User
@@ -12,40 +12,40 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
-# Ranking methods {#rankings}
+# Rangfolgemethoden {#rankings}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)
-* Verwalten von Entscheidungselementen
+* [Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)
+* Verwalten Ihrer Entscheidungselemente
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * [Erstellen von Entscheidungselementen](items.md)
    * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Auswahl von Elementen
+* Konfigurieren der Elementauswahl
    * [Erstellen von Entscheidungsregeln](rules.md)
-   * **[Erstellen von Ranking-Methoden](ranking.md)**
+   * **[Erstellen von Rangfolgemethoden](ranking.md)**
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
-Mit Ranking-Methoden können Sie Elemente nach Rang ordnen, die für ein bestimmtes Profil angezeigt werden. Nachdem eine Rangmethode erstellt wurde, können Sie sie einer Entscheidungsstrategie zuweisen, um festzulegen, welche Elemente zuerst ausgewählt werden sollen.
+Mit Rangfolgemethoden können Elemente nach Rang geordnet werden, die für ein bestimmtes Profil angezeigt werden sollen. Nachdem eine Rangfolgemethode erstellt wurde, kann sie einer Entscheidungsstrategie zugewiesen werden, um festzulegen, welche Elemente zuerst ausgewählt werden sollen.
 
-Auf Rangmethoden kann über die **[!UICONTROL Konfiguration]** / **[!UICONTROL Ranking methods]** Menü. Es stehen zwei Arten von Ranking-Methoden zur Verfügung:
+Auf Rangfolgemethoden kann über das Menü **[!UICONTROL Konfiguration]**/**[!UICONTROL Rangfolgemethoden]** zugegriffen werden. Es stehen zwei Arten von Rangfolgemethoden zur Verfügung:
 
-* **Formeln** ermöglichen es Ihnen, Regeln zu definieren, die bestimmen, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte des Elements zu berücksichtigen.
+* Mithilfe von **Formeln** kann festgelegt werden, welches Element zuerst angezeigt werden soll, anstatt die Prioritätswerte der Elemente zu berücksichtigen.
 
-* **AI-Modelle** können Sie trainierte Modellsysteme verwenden, die mehrere Datenpunkte nutzen, um zu bestimmen, welches Element zuerst angezeigt werden soll.
+* **KI-Modelle** ermöglichen es, trainierte Modellsysteme zu verwenden, die mehrere Datenpunkte nutzen, um zu bestimmen, welches Element zuerst angezeigt werden soll.
 
 ![](assets/ranking-create.png)
 
-Ausführliche Informationen zu den einzelnen Ranking-Methoden und deren Erstellung finden Sie in der Dokumentation zur Entscheidungsverwaltung, die Sie hier finden:
+Ausführliche Informationen zu den einzelnen Rangfolgemethoden und deren Erstellung sind in der Dokumentation zum Entscheidungs-Management zu finden:
 
 * [Ranking-Formeln](../offers/ranking/create-ranking-formulas.md)
 * [KI-Modelle](../offers/ranking/ai-models.md)

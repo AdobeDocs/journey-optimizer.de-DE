@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Entscheidungen
+title: Erstellen einer Entscheidung
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers, API
 topic: Integrations

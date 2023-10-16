@@ -9,7 +9,7 @@ exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 44%
 
 Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 
-Sie können spezifische personalisierte Angebote nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die personalisierte Angebots-ID im Anfragepfad enthält.
+Sie können spezifische personalisierte Angebote nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die personalisierte Angebots-ID im Anfragepfad enthält.
 
 **API-Format**
 
@@ -27,8 +27,8 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `personalizedOffer1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `personalizedOffer1234` |
 
 **Anfrage**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des personalisierten Angebots zurückgegeben, einschließlich Informationen zu Ihrem individuellen personalisierten Angebot `id`.
+Bei einer erfolgreichen Antwort werden die Details des personalisierten Angebots zurückgegeben, einschließlich Informationen zu Ihrem einzigartigen personalisierten Angebot `id`.
 
 ```json
 {

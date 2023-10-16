@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 
    ![](assets/sms-surface-settings.png)
 
-   Wählen Sie zunächst **[!UICONTROL SMS-Typ]** wird mit der Oberfläche gesendet: **[!UICONTROL Transactional]** oder **[!UICONTROL Marketing]**.
+   Wählen Sie zunächst den **[!UICONTROL SMS-Typ]** aus, der mit der Oberfläche gesendet werden soll: **[!UICONTROL Transaktion]** oder **[!UICONTROL Marketing]**.
 
    * Wählen Sie **Marketing** für Werbe-SMS: Diese Nachrichten erfordern die Zustimmung der Benutzenden.
    * Wählen Sie **Transaktion** für nicht-kommerzielle Nachrichten, wie z. B. Bestellbestätigungen, Benachrichtigungen beim Zurücksetzen des Kennworts oder Versandinformationen.
@@ -140,11 +140,11 @@ Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
    >
    >Um eine Subdomain auswählen zu können, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben. [Weitere Informationen](sms-subdomains.md)
 
-1. Geben Sie die **[!UICONTROL Opt-out-Nummer]** Sie wollen für diese Oberfläche verwenden. Wenn sich Profile von dieser Nummer abmelden, können Sie ihnen weiterhin Nachrichten von anderen Nummern senden, mit denen Sie möglicherweise SMS-Nachrichten senden [!DNL Journey Optimizer].
+1. Geben Sie die **[!UICONTROL Opt-out-Nummer]** ein, die Sie für diese Oberfläche verwenden möchten. Wenn sich Profile von dieser Telefonnummer abmelden, können Sie ihnen immer noch Nachrichten von anderen Nummern senden, die Sie für den Versand von SMS-Nachrichten mit [!DNL Journey Optimizer] verwenden.
 
    >[!NOTE]
    >
-   >In [!DNL Journey Optimizer], wird die Abmeldung von SMS nicht mehr auf Kanalebene verwaltet. Er ist jetzt für eine Zahl spezifisch.
+   >In [!DNL Journey Optimizer] wird die Abmeldung von SMS nicht mehr auf Kanalebene verwaltet. Dies ist jetzt für eine Nummer spezifisch.
 
 1. Nachdem alle Parameter konfiguriert wurden, klicken Sie zur Bestätigung auf **[!UICONTROL Senden]**. Sie können die Kanaloberfläche auch als Entwurf speichern und ihre Konfiguration später fortsetzen.
 

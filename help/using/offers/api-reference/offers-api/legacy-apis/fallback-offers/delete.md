@@ -1,5 +1,5 @@
 ---
-title: Fallback-Angebot löschen
+title: Löschen von Fallback-Angeboten
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Fallback-Angebot löschen {#delete-fallback-offer}
+# Löschen von Fallback-Angeboten {#delete-fallback-offer}
 
 Gelegentlich kann es erforderlich sein, ein Fallback-Angebot zu entfernen (DELETE). Es können nur Fallback-Angebote gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der $id des Fallback-Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

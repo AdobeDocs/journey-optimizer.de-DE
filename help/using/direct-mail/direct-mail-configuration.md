@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Bei der [Erstellung von Briefpostnachrichten](../direct-mail/create-direct-mail.
 
 Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
-1. A [Dateirouting-Konfiguration](#file-routing-configuration) , um den Server anzugeben, auf dem die Datei exportiert werden soll, und die Datei bei Bedarf zu verschlüsseln.
+1. Eine [Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll, und die Datei bei Bedarf zu verschlüsseln.
 
 1. Eine [Briefpost-Oberfläche](#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
 
@@ -90,7 +90,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
    >
    >AWS-Regionen sind geografische Gebiete, die AWS zum Hosten seiner Cloud-Infrastrukturen verwendet. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt.
 
-1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in den **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]** -Feld.
+1. Um die Datei zu verschlüsseln, kopieren Sie den Verschlüsselungsschlüssel in das Feld **[!UICONTROL PGP/GPG-Verschlüsselungsschlüssel]**.
 
 1. Klicken Sie auf **[!UICONTROL Übermitteln]**. Die Datei-Routing-Konfiguration wird mit dem Status **[!UICONTROL Aktiv]** erstellt. Sie kann jetzt in einer [Briefpost-Oberfläche](#direct-mail-surface) verwendet werden.
 

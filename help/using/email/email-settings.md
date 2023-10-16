@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
 source-wordcount: '2258'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -186,21 +186,21 @@ Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="Unterdrückungslistenpriorität überschreiben"
+>title="Überschreiben der Unterdrückungslistenpriorität"
 >abstract="Sie können Transaktionsnachrichten auch dann an Profile senden, wenn deren E-Mail-Adressen aufgrund von Spam-Beschwerden auf der Adobe Journey Optimizer-Unterdrückungsliste stehen. Standardmäßig ist diese Option deaktiviert."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Verwalten der Unterdrückungsliste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de" text="Verwalten der Unterdrückungsliste"
 
 >[!IMPORTANT]
 >
->Diese Option ist nur verfügbar, wenn Sie die **[!UICONTROL Transactional]** E-Mail-Typ [Weitere Informationen](#email-type)
+>Diese Option ist nur verfügbar, wenn Sie den E-Mail-Typ **[!UICONTROL Transaktion]** ausgewählt haben. [Weitere Informationen](#email-type)
 
-In [!DNL Journey Optimizer], werden alle E-Mail-Adressen, die als Hardbounces, Softbounces und Spam-Beschwerden gekennzeichnet sind, automatisch in der [Unterdrückungsliste](../configuration/manage-suppression-list.md) und vom Versand einer Journey oder Kampagne ausgeschlossen sind.
+In [!DNL Journey Optimizer] werden alle E-Mail-Adressen, die als Hardbounces, Softbounces und Spam-Beschwerden gekennzeichnet sind, automatisch in der [Unterdrückungsliste](../configuration/manage-suppression-list.md) gesammelt und vom Versand in einer Journey oder Kampagne ausgeschlossen.
 
-Sie können jedoch entscheiden, Nachrichten der **transactional** Geben Sie Profile ein, auch wenn ihre E-Mail-Adressen aufgrund von Spam-Beschwerden des Benutzers auf der Unterdrückungsliste stehen.
+Sie können jedoch entscheiden, Nachrichten des Typs **Transaktion** an Profile zu senden, auch wenn ihre E-Mail-Adressen aufgrund von Spam-Beschwerden einer Benutzerin oder eines Benutzers auf der Unterdrückungsliste stehen.
 
-Transaktionsnachrichten enthalten im Allgemeinen nützliche und erwartete Informationen wie eine Bestellbestätigung oder eine Benachrichtigung zum Zurücksetzen des Kennworts. Selbst wenn eine Ihrer Marketing-Nachrichten als Spam gemeldet wurde, möchten Sie daher in den meisten Fällen, dass Ihre Kunden diese Art nicht kommerzieller E-Mails erhalten.
+Tatsächlich erhalten Transaktionsnachrichten im Allgemeinen nützliche und erwartete Informationen wie eine Bestellbestätigung oder eine Benachrichtigung zur Passwortzurücksetzung. Selbst wenn eine Ihrer Marketing-Nachrichten als Spam gemeldet wurde, möchten Sie in den meisten Fällen, dass Ihre Kunden diese Art nicht kommerzieller E-Mails erhalten.
 
-Um E-Mail-Adressen, die aufgrund von Spam-Beschwerden unterdrückt wurden, in Ihre Zielgruppe mit Transaktionsnachrichten aufzunehmen, wählen Sie die entsprechende Option aus dem **[!UICONTROL An unterdrückte E-Mail-Adressen senden]** Abschnitt.
+Um E-Mail-Adressen, die aufgrund von Spam-Beschwerden unterdrückt wurden, in Ihre Zielgruppe für Transaktionsnachrichten aufzunehmen, wählen Sie die entsprechende Option aus dem Abschnitt **[!UICONTROL An unterdrückte E-Mail-Adressen senden]** aus.
 
 ![](assets/preset-suppressed-email-addresses.png)
 
@@ -208,9 +208,9 @@ Um E-Mail-Adressen, die aufgrund von Spam-Beschwerden unterdrückt wurden, in Ih
 >
 >Standardmäßig ist diese Option deaktiviert.
 
-Als Best Practice für die Zustellbarkeit ist diese Option standardmäßig deaktiviert, um sicherzustellen, dass Ihre Kunden, die sich abgemeldet haben, nicht kontaktiert werden. Sie können diese Standardoption jedoch ändern, sodass Sie dann Transaktionsnachrichten an Ihre Kunden senden können.
+Als Best Practice für die Zustellbarkeit ist diese Option standardmäßig deaktiviert, um sicherzustellen, dass Ihre Kundinnen und Kunden, die sich abgemeldet haben, nicht kontaktiert werden. Sie können diese Standardoption jedoch ändern, sodass Sie dann Transaktionsnachrichten an Ihre Kundinnen und Kunden senden können.
 
-Wenn diese Option aktiviert ist, kann ein Kunde zwar Ihre Marketing-E-Mail als Spam gekennzeichnet haben, aber seine Transaktionsnachrichten unter Verwendung der aktuellen Oberfläche empfangen. Achten Sie immer darauf, Opt-out-Voreinstellungen gemäß den Best Practices für die Zustellbarkeit zu verwalten.
+Wenn diese Option aktiviert ist, kann eine Kundin bzw. ein Kunde zwar Ihre Marketing-E-Mail als Spam gekennzeichnet haben, wird jedoch Ihre Transaktionsnachrichten unter Verwendung der aktuellen Oberfläche empfangen können. Achten Sie immer darauf, Opt-out-Voreinstellungen gemäß den Best Practices für die Zustellbarkeit zu verwalten.
 
 ## Testadressenliste {#seed-list}
 
@@ -219,7 +219,7 @@ Wenn diese Option aktiviert ist, kann ein Kunde zwar Ihre Marketing-E-Mail als S
 >title="Testadressenliste hinzufügen"
 >abstract="Wählen Sie die Testadressenliste Ihrer Wahl aus, um automatisch bestimmte interne Adressen zu Ihren Zielgruppen hinzuzufügen. Diese Testadressen werden zum Ausführungszeitpunkt des Versands hinzugefügt und erhalten für Sicherheitszwecke eine exakte Kopie der Nachricht."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#use-seed-list" text="Was sind Testadressenlisten?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Erstellen einer Testadressenliste"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=de#create-seed-list" text="Erstellen einer Testadressenliste"
 
 
 Eine Testadressenliste in [!DNL Journey Optimizer] ermöglicht es Ihnen, automatisch bestimmte E-Mail-Testadressen in Ihre Sendungen einzuschließen. [Weitere Informationen](../configuration/seed-lists.md)

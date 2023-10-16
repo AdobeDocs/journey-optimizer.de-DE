@@ -36,7 +36,7 @@ Das Steuerelement „Sandbox-Schalter“ finden Sie oben rechts auf Ihrem Bildsc
 
 >[!IMPORTANT]
 >
-> Die Sandbox-Verwaltung kann nur von einem **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Administrator durchgeführt werden.
+> Die Sandbox-Verwaltung kann nur von **[!UICONTROL Produkt]**- oder **[!UICONTROL System]**-Admins durchgeführt werden.
 
 Sie können vorkonfigurierten oder benutzerdefinierten **[!UICONTROL Rollen]** verschiedene Sandboxes zuweisen.
 

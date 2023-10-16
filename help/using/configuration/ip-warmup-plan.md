@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Erstellen eines IP-Aufwärmplans
-description: Erfahren Sie, wie Sie einen IP-Aufwärmplan in Journey Optimizer erstellen
+description: Erfahren Sie, wie Sie einen IP-Aufwärmplan in Journey Optimizer erstellen.
 feature: Application Settings
 topic: Administration
 role: Admin
@@ -14,7 +14,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 9%
+ht-degree: 97%
 
 ---
 
@@ -24,43 +24,43 @@ ht-degree: 9%
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* [Erste Schritte beim IP-Aufwärmen](ip-warmup-gs.md)
+* [Erste Schritte mit IP-Aufwärmen](ip-warmup-gs.md)
 * [Erstellen von IP-Aufwärmkampagnen](ip-warmup-campaign.md)
 * **[Erstellen eines IP-Aufwärmplans](ip-warmup-plan.md)**
 * [Ausführen des IP-Aufwärmplans](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
-Nachdem Sie eine oder mehrere [IP-Warmup-Kampagnen](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der entsprechenden Option, können Sie mit der Erstellung Ihres IP-Warmup-Plans beginnen.
+Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 
-## Vorbereiten der Datei mit dem IP-Warmup-Plan {#prepare-file}
+## Vorbereiten der Datei mit dem IP-Aufwärmplan {#prepare-file}
 
-IP-Aufwärmphase ist eine Aktivität, die darin besteht, die Anzahl der E-Mails, die von Ihren IPs und Ihrer Domain an die wichtigsten Internet-Dienstanbieter (ISPs) gesendet werden, schrittweise zu erhöhen, um Ihre Reputation als legitimer Absender zu etablieren.
+IP-Aufwärmen ist eine Aktivität, die darin besteht, die Anzahl der E-Mails, die von Ihren IPs und Ihrer Domain an die wichtigsten Internet-Dienstanbieter (ISPs) gesendet werden, schrittweise zu erhöhen, um Ihre Reputation als legitimer Absender zu etablieren.
 
-Diese Aktivität wird in der Regel mithilfe eines Zustellbarkeitsexperten durchgeführt, der bei der Erstellung eines gut durchdachten Plans auf der Basis von Branchendomänen, Anwendungsfällen, Regionen, ISPs und verschiedenen anderen Faktoren hilft.
+Diese Aktivität wird in der Regel mithilfe von Zustellbarkeitsfachleuten durchgeführt, die bei der Erstellung eines gut durchdachten Plans auf der Basis von Branchen-Domains, Anwendungsfällen, Regionen, ISPs und verschiedenen anderen Faktoren helfen.
 
-Beim Arbeiten mit [!DNL Journey Optimizer] IP-Warmup-Funktion verwenden, besteht dieser Plan aus einer Excel-Datei, die eine Reihe vordefinierter Spalten enthalten muss. Bevor Sie einen IP-Warmup-Plan im [!DNL Journey Optimizer] -Schnittstelle verwenden, müssen Sie diese Vorlage mit allen Daten ausfüllen, die Ihren Plan begünstigen.
+Wenn Sie mit der IP-Aufwärmfunktion in [!DNL Journey Optimizer] arbeiten, besteht dieser Plan aus einer Excel-Datei, die eine Reihe vordefinierter Spalten enthalten muss. Bevor Sie einen IP-Aufwärmplan in der Oberfläche von [!DNL Journey Optimizer] verwenden, müssen Sie diese Vorlage mit allen Daten ausfüllen, die in Ihren Plan gespeist werden.
 
 >[!CAUTION]
 >
->Wenden Sie sich an Ihren Zustellbarkeitsberater, um sicherzustellen, dass Ihre IP-Warmup-Plandatei korrekt eingerichtet ist.
+>Arbeiten Sie mit der Person, die Sie im Hinblick auf die Zustellbarkeit berät, zusammen, um sicherzustellen, dass die Datei Ihres IP-Aufwärmplans korrekt eingerichtet ist.
 
-Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Warmup-Plan.
+Nachfolgend finden Sie ein Beispiel einer Datei mit einem IP-Aufwärmplan.
 
 ![](assets/ip-warmup-sample-file.png)
 
-### Registerkarte &quot;IP-Warmup-Plan&quot;
+### Die Registerkarte „IP-Aufwärmplan“
 
-* In diesem Beispiel wurde ein Plan über einen Zeitraum von 17 Tagen erstellt (mit der Bezeichnung **läutet**&quot;) , um ein Zielvolumen von über 1 Million Profilen zu erreichen.
+* In diesem Beispiel wurde ein Plan (mit dem Titel „**Ausführungen**“) erstellt, der sich über einen Zeitraum von 17 Tagen erstreckt, um ein Zielvolumen von über 1 Million Profilen zu erreichen.
 
-* Dies ist bis zum 6. **Phasen**, die jeweils mindestens eine Ausführung enthalten.
+* Dieser Plan wird in 6 **Phasen** ausgeführt, die jeweils mindestens eine Ausführung enthalten.
 
-* Sie können für die Domänen, an die Sie eine Bereitstellung durchführen möchten, so viele Spalten wie gewünscht haben. In diesem Beispiel ist der Plan in 6 Spalten unterteilt: 5 davon entsprechen dem **Hauptdomänengruppen** zur Verwendung in Ihrem Plan (Gmail, Microsoft, Yahoo, Orange und Apple) und in der sechsten Spalte, **sonstige** enthält alle verbleibenden Adressen aus anderen Domänen.
-* Die **Interaktionstage** zeigt an, dass nur die Profile angesprochen werden, die in den letzten 30 Tagen mit Ihrer Marke interagiert haben.
+* Sie können für die Domains, an die Sie versenden möchten, beliebig viele Spalten haben. In diesem Beispiel ist der Plan in 6 Spalten unterteilt: 5 davon entsprechen den **Haupt-Domain-Gruppen**, die in Ihrem Plan verwendet werden sollen (Gmail, Microsoft, Yahoo, Orange und Apple), und in der sechsten Spalte, **Sonstige**, sind alle verbleibenden Adressen aus anderen Domains enthalten.
+* Die Spalte **Interaktion – Tage** zeigt an, dass nur die Profile angesprochen werden, die in den letzten 30 Tagen mit Ihrer Marke interagiert haben.
 
 Die Idee besteht darin, die Anzahl der Zieladressen in jeder Ausführung schrittweise zu erhöhen und gleichzeitig die Anzahl der Ausführungen in jeder Phase zu reduzieren.
 
-Die nativen Hauptdomänengruppen, die Sie Ihrem Plan hinzufügen können, sind unten aufgeführt:
+Die nativen Haupt-Domain-Gruppen, die Sie Ihrem Plan hinzufügen können, sind hier aufgeführt:
 
 * Gmail
 * Adobe
@@ -71,85 +71,85 @@ Die nativen Hauptdomänengruppen, die Sie Ihrem Plan hinzufügen können, sind u
 * Orange
 * Softbank
 * Docomo
-* Vereinigtes Internet
+* United Internet
 * Microsoft
 * KDDI
 * Italia Online
 * La Poste
 * Apple
 
-### Registerkarte &quot;Benutzerspezifische Domänengruppe&quot;
+### Registerkarte „Benutzerdefinierte Domain-Gruppen“
 
-Sie können Ihrem Plan auch weitere Spalten hinzufügen, indem Sie benutzerdefinierte Domänengruppen hinzufügen.
+Sie können Ihrem Plan auch weitere Spalten hinzufügen, indem Sie benutzerdefinierte Domain-Gruppen hinzufügen.
 
-Verwenden Sie die **[!UICONTROL Benutzerspezifische Domänengruppe]** um eine neue Domain-Gruppe zu definieren. Für jede Domäne können Sie alle darin abgedeckten Subdomains hinzufügen.<!--TBC-->
+Verwenden Sie die Registerkarte **[!UICONTROL Benutzerdefinierte Domain-Gruppen]**, um eine neue Domain-Gruppe zu definieren. Für jede Domain können Sie alle von ihr abgedeckten Subdomains hinzufügen.<!--TBC-->
 
-Wenn Sie beispielsweise die benutzerdefinierte Domäne &quot;Luma&quot;hinzufügen, sollen die folgenden Subdomains eingeschlossen sein: luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw.
+Zum Beispiel: Wenn Sie die benutzerdefinierte Domain „Luma“ hinzufügen, sollen die folgenden Subdomains eingeschlossen sein: luma.com, luma.co.uk, luma.it, luma.fr, luma.de usw.
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
-## IP-Warmlaufpläne aufrufen und verwalten {#manage-ip-warmup-plans}
+## Aufrufen und Verwalten von IP-Aufwärmplänen {#manage-ip-warmup-plans}
 
-1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Aufwärmspläne]** Menü. Alle bisher erstellten IP-Warmup-Pläne werden angezeigt.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Aufwärmpläne]** auf. Es werden alle bisher erstellten IP-Aufwärmpläne angezeigt.
 
    ![](assets/ip-warmup-filter-list.png)
 
-1. Sie können nach Status filtern. Die verschiedenen Status sind:
+1. Sie können nach dem Status filtern. Die verschiedenen Status sind:
 
    * **Nicht gestartet**: Es wurde noch keine Ausführung aktiviert. [Weitere Informationen](ip-warmup-execution.md#define-runs)
    * **Live**: Der Plan erhält diesen Status, sobald die erste Ausführung in der ersten Phase erfolgreich aktiviert wurde. [Weitere Informationen](ip-warmup-execution.md#define-runs)
    * **Abgeschlossen**: Der Plan wurde als abgeschlossen gekennzeichnet. Diese Option ist nur verfügbar, wenn alle im Plan ausgeführten Vorgänge in **[!UICONTROL Abgeschlossen]** oder **[!UICONTROL Entwurf]** status (kein Run kann ausgeführt werden) **[!UICONTROL Live]**). [Weitere Informationen](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
-1. Um einen IP-Aufwärmplan zu löschen, wählen Sie die **[!UICONTROL Löschen]** neben dem Namen eines Plans klicken und den Löschvorgang bestätigen.
+1. Um einen IP-Aufwärmplan zu löschen, klicken Sie auf das Symbol **[!UICONTROL Löschen]** neben dem Namen eines Plans und bestätigen Sie den Löschvorgang.
 
    ![](assets/ip-warmup-delete-plan.png)
 
    >[!CAUTION]
    >
-   >Der ausgewählte IP-Warmup-Plan wird endgültig gelöscht.
+   >Der ausgewählte IP-Aufwärmplan wird endgültig gelöscht.
 
 ## Erstellen eines IP-Aufwärmplans {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="Geben Sie Ihren IP-Warmup-Plan an"
->abstract="Laden Sie die CSV-Vorlage herunter und füllen Sie sie mit Daten für IP-Warmup-Phasen und die Zielanzahl der Profile aus."
+>title="Angeben Ihres IP-Aufwärmplans"
+>abstract="Laden Sie die CSV-Vorlage herunter und füllen Sie sie mit Daten für IP-Aufwärmphasen und die Zielanzahl der Profile aus."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Marketing-Oberfläche auswählen"
->abstract="Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten."
+>title="Auswählen einer Marketing-Oberfläche"
+>abstract="Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne ausgewählte Oberfläche, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Einrichten von Kanaloberflächen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmkampagnen"
 
-Wenn eine oder mehrere Live-Kampagnen mit **[!UICONTROL Aktivierung des IP-Warmlaufplans]** aktiviert sind, können Sie sie mit einem IP-Warmup-Plan verknüpfen.
+Wenn eine oder mehrere Live-Kampagnen, bei denen die Option **[!UICONTROL Aktivierung des IP-Aufwärmplan]** aktiviert ist, können Sie sie mit einem IP-Aufwärmplan verknüpfen.
 
 >[!CAUTION]
 >
->Um die IP-Aufwärmspläne zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die **[!UICONTROL Zustellbarkeitsberater]** -Berechtigung. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Um die IP-Aufwärmpläne zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung **[!UICONTROL Zustellbarkeitsberater]**. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 
-1. Zugriff auf **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Aufwärmspläne]** Menü und klicken Sie auf **[!UICONTROL IP-Warmup-Plan erstellen]**.
+1. Rufen Sie das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL IP-Aufwärmpläne]** auf und klicken Sie dann auf **[!UICONTROL IP-Aufwärmplan erstellen]**.
 
    ![](assets/ip-warmup-create-plan.png)
 
-1. Füllen Sie die Details des IP-Warmup-Plans aus: Geben Sie ihm einen Namen und eine Beschreibung.
+1. Füllen Sie die Details des IP-Aufwärmplans aus: Geben Sie ihm einen Namen und eine Beschreibung.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Wählen Sie eine [Oberfläche](channel-surfaces.md). Es stehen nur Marketingflächen zur Auswahl. [Weitere Informationen zum E-Mail-Typ](../email/email-settings.md#email-type)
+1. Wählen Sie eine [Oberfläche](channel-surfaces.md) aus. Es stehen nur Marketing-Oberflächen zur Auswahl. [Weitere Informationen zum E-Mail-Typ](../email/email-settings.md#email-type)
 
    >[!CAUTION]
    >
-   >Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten. [Erfahren Sie, wie Sie eine IP-Warmup-Kampagne erstellen.](ip-warmup-campaign.md)
+   >Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne ausgewählte Oberfläche, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten. [Informationen zum Erstellen einer IP-Aufwärmkampagne](ip-warmup-campaign.md)
 
-1. Laden Sie die Excel-Datei hoch, die Ihren IP-Warmup-Plan enthält. [Weitere Informationen](#prepare-file)
+1. Laden Sie die Excel-Datei hoch, die Ihren IP-Aufwärmplan enthält. [Weitere Informationen](#prepare-file)
 
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalt, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch im [!DNL Journey Optimizer] -Schnittstelle. [Weitere Informationen](ip-warmup-execution.md)
+1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalt, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt. [Weitere Informationen](ip-warmup-execution.md)
 
    ![](assets/ip-warmup-plan-uploaded.png)

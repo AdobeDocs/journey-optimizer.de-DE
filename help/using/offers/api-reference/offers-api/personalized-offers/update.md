@@ -9,11 +9,11 @@ exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Personalisiertes Angebot aktualisieren {#update-personalized-offer}
+# Aktualisieren personalisierter Angebote {#update-personalized-offer}
 
 Sie können ein personalisiertes Angebot ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
@@ -21,7 +21,7 @@ Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge,
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die das Feld *Content-Type* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | Die ID der Entität, die Sie aktualisieren möchten. | `personalizedOffer1234` |
 
 **Anfrage**
@@ -63,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Zu den Vorgängen gehören: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 

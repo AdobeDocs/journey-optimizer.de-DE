@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Platzierung löschen {#delete-placement}
+# Löschen von Platzierungen {#delete-placement}
 
 Gelegentlich kann es erforderlich sein, eine Platzierung zu entfernen (DELETE). Es können nur Platzierungen gelöscht werden, die Sie im Mandanten-Container erstellen. Dies geschieht, indem Sie mit der Instanz-ID der Platzierung, die Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

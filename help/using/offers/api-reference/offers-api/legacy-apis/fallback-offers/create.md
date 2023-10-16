@@ -1,5 +1,5 @@
 ---
-title: Fallback-Angebot erstellen
+title: Erstellen eines Fallback-Angebotes
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Fallback-Angebot erstellen {#create-fallback-offer}
+# Erstellen eines Fallback-Angebotes {#create-fallback-offer}
 
 Sie können ein Fallback-Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 

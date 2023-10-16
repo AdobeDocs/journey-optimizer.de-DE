@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 47%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hin
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die das Feld *Content-Type* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Anfrage**
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidungsregel zurück `id`. Sie können die `id` in späteren Schritten, um Ihre Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einem späteren Tutorial zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
+Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidungsregel zurück `id`. Sie können `id` in späteren Schritten verwenden, um die Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einer späteren Anleitung zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
 
 ```json
 {

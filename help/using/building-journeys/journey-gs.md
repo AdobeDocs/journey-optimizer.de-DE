@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -189,7 +189,7 @@ Gehen Sie dazu wie folgt vor:
 
    ![Duplizieren einer Journey](assets/duplicate-jo.png)
 
-1. Geben Sie den Namen der Journey ein und bestätigen Sie Ihre Eingabe. Sie können den Namen auch im Bildschirm Journey-Eigenschaften ändern. Standardmäßig lautet der Name wie folgt: `[JOURNEY-NAME]_copy`
+1. Geben Sie den Namen der Journey ein und speichern Sie ihn. Sie können den Namen auch im Bildschirm „Journey-Eigenschaften“ ändern. Standardmäßig lautet der Name wie folgt: `[JOURNEY-NAME]_copy`
 
    ![](assets/duplicate-jo2.png)
 

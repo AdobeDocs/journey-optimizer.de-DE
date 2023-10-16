@@ -9,11 +9,11 @@ exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Sammlung aktualisieren {#update-collection}
+# Aktualisieren von Sammlungen {#update-collection}
 
 Sie können eine Sammlung ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
@@ -21,7 +21,7 @@ Weitere Informationen zu JSON Patch, einschließlich der verfügbaren Vorgänge,
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die das Feld *Content-Type* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{ID}` | Die ID der Entität, die Sie aktualisieren möchten. | `offerCollection1234` |
 
 **Anfrage**
@@ -63,13 +63,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCo
 
 | Parameter | Beschreibung |
 | --------- | ----------- |
-| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Zu den Vorgängen gehören: `add`, `replace`, `remove`, `copy` und `test`. |
+| `op` | Der Operationsaufruf, der für die Definition der zum Aktualisieren der Verbindung erforderlichen Aktion verwendet wird. Die Operationen umfassen: `add`, `replace`, `remove`, `copy` und `test`. |
 | `path` | Der Pfad des zu aktualisierenden Parameters. |
 | `value` | Der neue Wert, mit dem Sie Ihren Parameter aktualisieren möchten. |
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die aktualisierten Details der Sammlung zurückgegeben, einschließlich der eindeutigen Sammlung `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Sammlung zurückgegeben, einschließlich der eindeutigen Sammlungs-`id`.
 
 ```json
 {

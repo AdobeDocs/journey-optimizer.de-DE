@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Entscheidungen
+title: Erstellen einer Entscheidung
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Offers, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 53%
+ht-degree: 72%
 
 ---
 
-# Erstellen von Entscheidungen {#create-decision}
+# Erstellen einer Entscheidung {#create-decision}
 
-Sie können eine Entscheidung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] API.
+Sie können eine Entscheidung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/offer-decisions
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Anfrage**
 

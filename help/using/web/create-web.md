@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,13 +86,13 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >title="Vorschau des Web-Erlebnisses"
 >abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
-Einmal [Weberfahrung erstellen](edit-web-content.md) Mit dem Webdesigner können Sie vor der Aktivierung Ihrer Kampagne eine Vorschau der geänderten Webseiten anzeigen. Gehen Sie dazu wie folgt vor.
+Sobald das [Web-Erlebnis](edit-web-content.md) mit dem Web-Designer erstellt wurde, kann eine Vorschau der geänderten Web-Seiten vor dem Aktivieren der Kampagne anzeigt werden. Gehen Sie dazu wie folgt vor.
 
 >[!CAUTION]
 >
 >Sie müssen über Testprofile verfügen, um simulieren zu können, welche Angebote an sie gesendet werden. Hier erfahren Sie, wie Sie [Testprofile erstellen](../audience/creating-test-profiles.md).
 
-1. Wählen Sie entweder im Bildschirm &quot;Inhalt bearbeiten&quot;der Webkampagne oder im Webdesigner die Option **[!UICONTROL Inhalt simulieren]**.
+1. Wählen Sie entweder auf dem Bildschirm zur Inhaltsbearbeitung der Web-Kampagne oder im Web-Designer die Option **[!UICONTROL Inhalt simulieren]** aus.
 
    <!--![](assets/web-designer-simulate.png)-->
 

@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 80%
+ht-degree: 99%
 
 ---
 
@@ -127,21 +127,21 @@ Diese Informationen werden beim Benutzerprofil gespeichert und bei der Ausführu
 
 ### Häufig gestellte Fragen {#faq-send-time}
 
-Was kann die Sendezeitoptimierung tun? Wie werden neue Profile behandelt? Wird der Versand über ein 6/12/24-Stunden-Fenster verteilt?
+Was kann mit der Optimierung des Versandzeitpunkts erreicht werden? Wie werden neue Profile behandelt? Wird das Senden über ein 6/12/24-Stunden-Fenster verteilt?
 
-Die Sendezeitoptimierung versucht, die beste Zeit für die Interaktion mit Kunden vorherzusagen und die Öffnungs-/Klickraten von E-Mails zu optimieren. Die Punktzahl entspricht dem Format `3*7*24` -Attribute für jedes Profil. Die `7*24` -Attribute beschreiben die Rangfolge der prognostizierten besten Zeit für den Versand von E-Mails an den Empfänger und 3 dient der Optimierung der E-Mail-Öffnungsrate, der E-Mail-Klickrate und der Push-Öffnungsrate.
+Bei der Optimierung des Versandzeitpunkts wird versucht, den besten Zeitpunkt für die Interaktion mit Kundinnen oder Kunden vorherzusagen und die Öffnungs-/Klickraten von E-Mails zu optimieren. Die Punktzahl entspricht dem Format von `3*7*24`-Attributen für jedes Profil. Die `7*24`-Attribute beschreiben die Rangfolge der prognostizierten besten Zeit für den Versand von E-Mails an den Empfänger, und „3“ dient der Optimierung der E-Mail-Öffnungsrate, der E-Mail-Klickrate und der Push-Öffnungsrate.
 
 Wo kann ich die erwartete Sendezeit für jedes Profil sehen?
 
-Sie können das Gesamtergebnis im **Profile** -Schnittstelle. Für jeden der drei Sätze von 168 Scores liegen die Ränge zwischen -83 und 84. Je höher der Rang ist, desto besser wurde die Zeit für die Interaktion mit dem Empfänger ausgewählt. Da Sie den Start und die Dauer einer Journey bestimmen können, fällt der beste Rang (84) möglicherweise nicht in dieses Zeitfenster. In diesem Fall wird empfohlen, eine Stunde mit dem höchsten Rang auszuwählen.
+Sie können das Gesamtergebnis in der Schnittstelle **Profile** einsehen. Für jeden der drei Sätze mit 168 Punktzahlen liegt die Rangliste zwischen -83 und 84. Je höher der Rang ist, desto besser wurde die Zeit für die Interaktion mit der Empfängerin bzw. dem Empfänger ausgewählt. Da Sie den Start und die Dauer einer Journey frei bestimmen können, fällt der beste Rang (84) möglicherweise nicht in dieses Zeitfenster. In diesem Fall wird empfohlen, eine Stunde mit dem höchsten Rangwert auszuwählen.
 
 Welche Berichte stehen zur Verfügung?
 
-Greifen Sie auf Ihre Journey zu, klicken Sie auf das **Bericht anzeigen** rechts oben und wählen Sie die **Journey** auf der linken Seite. [Weitere Informationen](../reports/journey-global-report.md)
+Wählen Sie die Journey aus, klicken Sie auf die Schaltfläche **Bericht anzeigen** rechts oben und wählen Sie abschließend die Registerkarte **Journey** auf der linken Seite aus. [Weitere Informationen](../reports/journey-global-report.md)
 
-Wie wirken sich die Sendezeitoptimierungsdaten auf den Profilreichtum aus?
+Wie wirken sich die Daten der Optimierung des Versandzeitpunkts auf den Profilumfang aus?
 
-Die Sendezeitoptimierung fügt die Punktzahl/Attribute zu jedem Profil hinzu, es wird jedoch kein neues Profil erstellt.
+Bei einer Optimierung des Versandzeitpunkts werden die Punktzahl/Attribute zu jedem Profil hinzugefügt, es wird jedoch kein neues Profil erstellt.
 
 ### Aktivieren der Optimierung des Versandzeitpunkts{#activate-send-time-optimization}
 

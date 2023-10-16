@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # Erstellen von Platzierungen {#create-placement}
 
-Sie können eine Platzierung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] API.
+Sie können eine Platzierung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die das Feld *Content-Type* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -33,7 +33,7 @@ POST /{ENDPOINT_PATH}/placements
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Anfrage**
 
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der neu erstellten Platzierung und Platzierung zurück `id`. Sie können die Platzierung in späteren Schritten aktualisieren oder löschen. Sie können die eindeutige `id` Ihrer Platzierung in späteren Tutorials zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten nutzen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten Richtlinie sowie die `id` der Platzierung zurückgegeben. Sie können die Instanz-ID in späteren Schritten verwenden, um Ihre Platzierung zu aktualisieren oder zu löschen. Sie können die eindeutige `id` Ihrer Platzierung in späteren Tutorials zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten nutzen.
 
 ```json
 {

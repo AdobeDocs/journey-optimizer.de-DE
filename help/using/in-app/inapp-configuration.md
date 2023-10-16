@@ -8,7 +8,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 42a1efc45268688d371d83efbafef2aab9d757ac
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 63%
 
 ## Versandvoraussetzungen {#delivery-prerequisites}
 
-Damit In-App-Nachrichten ordnungsgemäß bereitgestellt werden können, müssen die folgenden Einstellungen definiert werden:
+Damit In-App-Nachrichten ordnungsgemäß zugestellt werden können, müssen die folgenden Einstellungen definiert werden:
 
-* Im [Adobe Experience Platform-Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"}, stellen Sie sicher, dass Sie einen Datastream definiert haben, z. B. unter der **[!UICONTROL Adobe Experience Platform]** -Dienst Sie haben Adobe Experience Platform Edge und **[!UICONTROL Adobe Journey Optimizer]** aktiviert ist.
+* Zur [Datenerfassung in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"} muss ein Datenstrom definiert sein. Dazu können beispielsweise für den **[!UICONTROL Adobe Experience Platform]**-Service die Optionen Adobe Experience Platform Edge und **[!UICONTROL Adobe Journey Optimizer]** aktiviert werden.
 
   Dadurch wird sichergestellt, dass die von Journey Optimizer eingehenden Ereignisse korrekt von Adobe Experience Platform Edge verarbeitet werden. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=de){target="_blank"}
 
@@ -32,45 +32,45 @@ Damit In-App-Nachrichten ordnungsgemäß bereitgestellt werden können, müssen 
 
 ## Voraussetzungen für die Kanalkonfiguration {#channel-prerequisites}
 
-1. Zugriff auf **[!UICONTROL Anwendungsoberflächen]** Menü und klicken Sie **[!UICONTROL Oberfläche &quot;App erstellen&quot;]**.
+1. Rufen Sie das Menü **[!UICONTROL App-Oberflächen]** auf und klicken Sie auf **[!UICONTROL App-Oberfläche erstellen]**.
 
 1. Fügen Sie Ihrer **[!UICONTROL Programmoberfläche]** einen Namen hinzu.
 
    ![](assets/inapp_config_2b.png)
 
-1. Aus dem **[!UICONTROL Apple iOS]** in der Dropdown-Liste konfigurieren Sie Ihre Mobile App für Apple iOS.
+1. Konfigurieren Sie in der Dropdown-Liste **[!UICONTROL Apple iOS]** Ihre Mobile App für Apple iOS.
 
 +++ Weitere Informationen
 
-   1. Geben Sie Ihre **[!UICONTROL iOS Bundle-ID]**. Weitere Informationen zur **Paket-ID** finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
+   1. Geben Sie Ihre **[!UICONTROL iOS Bundle-ID]** ein. Weitere Informationen zur **Bundle-ID** finden Sie in der [Apple-Dokumentation](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids).
 
-   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]** wo Sie Push-Benachrichtigungen senden möchten. Beachten Sie, dass die Auswahl einer bestimmten Sandbox die erforderlichen Zugriffsberechtigungen erfordert.
+   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]**, von der aus Sie Push-Benachrichtigungen senden möchten. Hinweis: Für die Auswahl einer bestimmten Sandbox sind bestimmte Zugriffsberechtigungen erforderlich.
 
-      Weiterführende Informationen zur Sandbox-Verwaltung finden Sie im Abschnitt [diese Seite](../administration/sandboxes.md#assign-sandboxes).
+      Weitere Informationen zum Sandbox-Management sind auf [dieser Seite](../administration/sandboxes.md#assign-sandboxes) zu finden.
 
-   1. Aktivieren Sie die **[!UICONTROL Push-Anmeldedaten]** -Option, um bei Bedarf die .p8-Schlüsseldatei per Drag-and-Drop zu verschieben.
+   1. Aktivieren Sie die Option **[!UICONTROL Push-Anmeldeinformationen]**, um Ihre .p8-Authentifizierungsschlüsseldatei per Drag-and-Drop abzulegen, falls erforderlich.
 
-      Sie können auch die **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** -Option zum Kopieren und Einfügen Ihres APNs-Authentifizierungsschlüssels direkt.
+      Es ist auch möglich, die Option **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** zu aktivieren, um Ihren APNs-Authentifizierungsschlüssel direkt zu kopieren und einzufügen.
 
-   1. Geben Sie Ihre **[!UICONTROL Schlüssel-ID]** und **[!UICONTROL Team-ID]**.
+   1. Geben Sie Ihre **[!UICONTROL Schlüssel-ID]** und **[!UICONTROL Team-ID]** ein.
 
       ![](assets/inapp_config_2.png)
 
 +++
 
-1. Aus dem **[!UICONTROL Android]** in der Dropdown-Liste konfigurieren Sie Ihre Mobile App für Android.
+1. Konfigurieren Sie in der Dropdown-Liste **[!UICONTROL Android]** Ihre Mobile App für Android.
 
 +++ Weitere Informationen
 
-   1. Geben Sie Ihre **[!UICONTROL Android-Paketname]**. Weitere Informationen zu **Paketnamen** finden Sie in der [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores).
+   1. Geben Sie Ihren **[!UICONTROL Android-Paketnamen]** ein. Weitere Informationen zu **Paketnamen** finden Sie in der [Android-Dokumentation](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores).
 
-   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]** wo Sie Push-Benachrichtigungen senden möchten. Beachten Sie, dass die Auswahl einer bestimmten Sandbox die erforderlichen Zugriffsberechtigungen erfordert.
+   1. (optional) Wählen Sie die **[!UICONTROL Sandbox]**, von der aus Sie Push-Benachrichtigungen senden möchten. Hinweis: Für die Auswahl einer bestimmten Sandbox sind bestimmte Zugriffsberechtigungen erforderlich.
 
-      Weiterführende Informationen zur Sandbox-Verwaltung finden Sie im Abschnitt [diese Seite](../administration/sandboxes.md#assign-sandboxes).
+      Weitere Informationen zum Sandbox-Management sind auf [dieser Seite](../administration/sandboxes.md#assign-sandboxes) zu finden.
 
-   1. Aktivieren Sie die **[!UICONTROL Push-Anmeldedaten]** -Option, um bei Bedarf die .json-Datei mit dem privaten Schlüssel per Drag-and-Drop zu verschieben.
+   1. Aktivieren Sie die Option **[!UICONTROL Push-Anmeldeinformationen]**, um bei Bedarf die private .json-Schlüsseldatei per Drag-and-Drop abzulegen.
 
-      Sie können auch die **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** Option zum Kopieren und Einfügen des privaten FCM-Schlüssels direkt aus.
+      Es ist auch möglich, die Option **[!UICONTROL Push-Anmeldeinformationen manuell eingeben]** zu aktivieren, um Ihren privaten FCM-Schlüssel direkt zu kopieren und einzufügen.
 
       ![](assets/inapp_config_7.png)
 
@@ -104,7 +104,7 @@ Der In-App-Kanal ist jetzt konfiguriert. Sie können nun mit dem Versand von In-
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 
-Um Inhaltsexperimente für den In-App-Kanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) wird in Ihrer In-App-Implementierung verwendet [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} ist auch in Ihrer Berichtskonfiguration enthalten.
+Um Inhaltsexperimente für den In-App-Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der im [Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} Ihrer In-App-Implementierung verwendet wird, auch in Ihrer Reporting-Konfiguration enthalten ist.
 
 Anders ausgedrückt: Wenn Sie beim Konfigurieren des Reportings für Experimente einen Datensatz hinzufügen, der nicht in Ihrem Web-Datenstrom vorhanden ist, werden keine Web-Daten in den Inhaltsexperimentberichten angezeigt.
 

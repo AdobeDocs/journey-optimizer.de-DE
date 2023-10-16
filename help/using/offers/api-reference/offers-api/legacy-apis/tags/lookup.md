@@ -9,13 +9,13 @@ exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # Nachschlagen eines Sammlungsqualifizierers {#look-up-tag}
 
-Sie können bestimmte Sammlungsbezeichner (zuvor als &quot;Tags&quot;bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die den Sammlungsbezeichner enthält `id` im Anfragepfad.
+Sie können einzelne Sammlungsqualifizierer (ehemals als „Tags“ bezeichnet) nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die `id` des Sammlungsqualifizierers im Anfragepfad enthält.
 
 **API-Format**
 
@@ -26,7 +26,7 @@ GET /{ENDPOINT_PATH}/tags/{ID}
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `tag1234` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `tag1234` |
 
 **Anfrage**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des Sammlungsqualifizierers zurückgegeben, einschließlich Informationen zu Ihrem eindeutigen Sammlungsbezeichner. `id`.
+Bei einer erfolgreichen Antwort werden die Details des Sammlungsqualifizierers zurückgegeben, einschließlich Informationen zu Ihrer eindeutigen `id` des Sammlungsqualifizierers.
 
 ```json
 {

@@ -9,7 +9,7 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 51%
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 51%
 
 Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können eine Liste aller Sammlungen anzeigen, indem Sie eine einzige GET an die [!DNL Offer Library] API.
+Durch Ausführung einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste aller Sammlungen anzeigen.
 
 **API-Format**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/offer-collections?{QUERY_PARAMS}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optionale Abfrageparameter zum Filtern der Ergebnisse. | `limit=2` |
 
 **Anfrage**
@@ -53,8 +53,8 @@ Zu den häufigsten Abfrageparametern für das Paging gehören:
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
 | `property` | Ein optionaler Eigenschaftenfilter: <ul><li>Die Eigenschaften werden nach UND-Vorgang gruppiert.</li><li>Parameter können wie folgt wiederholt werden: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] oder property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Eigenschaftenausdrücke haben das Format `[!]field[op]value`, mit `op` in `[==,!=,<=,>=,<,>,~]`, die reguläre Ausdrücke unterstützen.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines - vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z-A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
-| `limit` | Schränken Sie die Anzahl der zurückgegebenen Entitäten ein. | `limit=5` |
+| `orderBy` | Sortieren Sie die Ergebnisse nach einer bestimmten Eigenschaft. Durch Hinzufügen eines „-“ vor dem Namen (orderby=-name) werden Elemente nach Namen in absteigender Reihenfolge sortiert (Z–A). Pfadausdrücke haben die Form von durch Punkte getrennten Pfaden. Dieser Parameter kann wie folgt wiederholt werden: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Begrenzt die Anzahl der zurückgegebenen Entitäten. | `limit=5` |
 
 **Antwort**
 

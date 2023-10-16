@@ -1,6 +1,6 @@
 ---
-title: Codebasierte Erlebnisvoraussetzungen
-description: Um Apps und Webseiten mit der code-basierten Funktion von Journey Optimizer bearbeiten zu können, müssen Sie die Voraussetzungen auf dieser Seite erfüllen
+title: Voraussetzungen für Code-basierte Erlebnisse
+description: Um Apps und Web-Seiten mit der Code-basierten Funktion von Journey Optimizer bearbeiten zu können, befolgen Sie die Voraussetzungen auf dieser Seite
 feature: Offers
 topic: Content Management
 role: User
@@ -12,7 +12,7 @@ exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -23,39 +23,39 @@ ht-degree: 48%
 Inhalt dieses Dokumentationshandbuchs:
 
 * [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
-* **[Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)**
-* [Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)
+* **[Code-basierte Voraussetzungen](code-based-prerequisites.md)**
+* [Code-basierte Implementierungsbeispiele](code-based-implementation-samples.md)
 * [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
 
 >[!ENDSHADEBOX]
 
-So können Sie Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] und die Code-Inhalts-Payload bereitstellen, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
+Um Code-basierte Erlebnisaktionen in [!DNL Journey Optimizer] verwenden und die Payload des Code-Inhalts bereitstellen zu können, die von Ihren Anwendungen verwendet werden kann, müssen Sie die folgenden Voraussetzungen erfüllen:
 
 * Um Änderungen an Ihren Anwendungen hinzuzufügen, benötigen Sie eine bestimmte Implementierung. [Weitere Informationen](#implementation-prerequisites)
 
-* Damit die code-basierten Erlebnisse ordnungsgemäß bereitgestellt werden können, müssen Sie die Adobe Experience Platform-Einstellungen im Detail definieren [here](#delivery-prerequisites).
+* Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen Sie die Adobe Experience Platform-Einstellungen definieren, die [hier](#delivery-prerequisites) im Detail beschrieben werden.
 
 ## Warnhinweise {#caution-notes-web}
 
 * Dieser Code-basierte Kanal ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-* Zurzeit in [!DNL Journey Optimizer] Sie können nur code-basierte Erlebnisse in **Kampagnen**. [Weitere Informationen](../campaigns/create-campaign.md#configure)
+* Derzeit können Sie Code-basierte Erlebnisse in [!DNL Journey Optimizer] nur in **Kampagnen** erstellen. [Weitere Informationen](../campaigns/create-campaign.md#configure)
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
-Das codebasierte Erlebnis unterstützt alle Arten der Kundenimplementierung, wie in den folgenden Optionen dargestellt. Sie können für Ihre Eigenschaften entweder eine clientseitige, serverseitige oder eine hybride Implementierungsmethode verwenden:
+Das Code-basierte Erlebnis unterstützt alle Arten der Kundenimplementierung, wie in den folgenden Optionen dargestellt. Sie können für Ihre Eigenschaften entweder eine Client-seitige, eine Server-seitige oder eine hybride Implementierungsmethode verwenden:
 
-* Nur Client-seitig - Um Änderungen an Ihren Webseiten oder Apps hinzuzufügen, müssen Sie entweder die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in Ihren mobilen Apps.
+* Nur Client-seitig – Um Änderungen an Ihren Web-Seiten oder Apps hinzuzufügen, müssen Sie in jedem Fall die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=de){target="_blank"} on your website or [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in Ihren Mobile Apps implementieren.
 
 * Hybridmodus – Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=de){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"} verwenden.
 
-* Server-seitig - Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} , um eine serverseitige Personalisierung anzufordern. Ihr Entwicklungsteam muss die Antwort verarbeiten und die Änderungen Client-seitig in Ihrer App-Implementierung rendern.
+* Server-seitig – Sie können die [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de){target="_blank"} verwenden, um eine Server-seitige Personalisierung anzufordern. Ihr Entwicklungs-Team muss die Antwort verarbeiten und die Änderungen Client-seitig in Ihrer App-Implementierung rendern.
 
-Beispiele für die oben genannten Implementierungsmethoden finden Sie unter [diesem Abschnitt](code-based-implementation-samples.md).
+Beispiele für die oben genannten Implementierungsmethoden finden Sie in [diesem Abschnitt](code-based-implementation-samples.md).
 
 ## Versandvoraussetzungen {#delivery-prerequisites}
 
-Damit die code-basierten Erlebnisse ordnungsgemäß bereitgestellt werden können, müssen die folgenden Einstellungen definiert werden:
+Damit das Code-basierte Erlebnis ordnungsgemäß bereitgestellt werden kann, müssen die folgenden Einstellungen definiert werden:
 
 * Zur [Datenerfassung in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de){target="_blank"} muss ein Datenstrom definiert sein. Sie können beispielsweise für den **[!UICONTROL Adobe Experience Platform]**-Service die Option **[!UICONTROL Adobe Journey Optimizer]** aktivieren.
 
@@ -71,9 +71,9 @@ Damit die code-basierten Erlebnisse ordnungsgemäß bereitgestellt werden könne
 
 ## Voraussetzungen für Inhaltsexperimente {#experiment-prerequisites}
 
-Um Inhaltsexperimente für den code-basierten Kanal zu aktivieren, müssen Sie sicherstellen, dass die [Datensatz](../data/get-started-datasets.md) wird in der App-Implementierung verwendet [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} ist auch in Ihrer Berichtskonfiguration enthalten.
+Um Inhaltsexperimente für den Code-basierten Kanal zu aktivieren, müssen Sie sicherstellen, dass der [Datensatz](../data/get-started-datasets.md), der im [Datenstrom](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=de){target="_blank"} Ihrer Web-Implementierung verwendet wird, auch in Ihrer Reporting-Konfiguration enthalten ist.
 
-Wenn Sie also beim Konfigurieren von Experimentberichten einen Datensatz hinzufügen, der nicht im App-Datastream vorhanden ist, werden App-Daten nicht in den Inhaltsexperimentberichten angezeigt.
+Anders ausgedrückt: Wenn Sie beim Konfigurieren des Reportings für Experimente einen Datensatz hinzufügen, der nicht in Ihrem App-Datenstrom vorhanden ist, werden keine App-Daten in den Inhaltsexperimentberichten angezeigt.
 
 In [diesem Abschnitt](../campaigns/reporting-configuration.md#add-datasets) erfahren Sie, wie Sie Datensätze für das Reporting zu Inhaltsexperimenten hinzufügen.
 

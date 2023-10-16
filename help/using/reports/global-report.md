@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -73,32 +73,32 @@ Ihr Dashboard ist jetzt gespeichert. Ihre verschiedenen Änderungen werden bei e
 
 ## Exportieren der Berichte {#export-reports}
 
-Sie können Ihre verschiedenen Berichte einfach in PDF- oder CSV-Formate exportieren, sodass Sie diese freigeben oder drucken können. Die Schritte zum Exportieren von Berichten werden in den folgenden Registerkarten beschrieben.
+Sie können Ihre Berichte einfach in PDF- oder CSV-Format exportieren, sodass Sie sie freigeben oder drucken können. Die Schritte zum Exportieren von Berichten werden in den folgenden Registerkarten beschrieben.
 
 ➡️ [Entdecken Sie diese Funktion im Video](#video-csv)
 
 
 >[!BEGINTABS]
 
->[!TAB Bericht als CSV-Datei exportieren]
+>[!TAB Exportieren Ihres Berichts als CSV-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL CSV-Datei]** , um eine CSV-Datei auf Berichtsebene zu generieren.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL CSV-Datei]** aus, um eine CSV-Datei auf der allgemeinen Berichtsebene zu generieren.
 
    ![](assets/export_1.png)
 
-1. Sie können auch Daten aus einem bestimmten Widget exportieren. Klicks **[!UICONTROL Exportieren von Widget-Daten in CSV]** neben dem ausgewählten Widget.
+1. Daten können auch aus einem bestimmten Widget heraus exportiert werden. Klicken Sie auf **[!UICONTROL Widget-Daten in CSV exportieren]** neben dem ausgewählten Widget.
 
    ![](assets/export_3.png)
 
-1. Ihre Datei wird automatisch heruntergeladen und kann sich in Ihren lokalen Dateien befinden.
+1. Die Datei wird automatisch heruntergeladen und ist in Ihren lokalen Dateien zu finden.
 
-   Wenn Sie die Datei auf Berichtsebene generiert haben, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
+   Wenn die Datei auf Berichtsebene generiert wurde, enthält sie detaillierte Informationen für jedes Widget, einschließlich Titel und Daten.
 
-   Wenn Sie die Datei auf Widget-Ebene generiert haben, stellt sie speziell Daten für das ausgewählte Widget bereit.
+   Wenn die Datei auf Widget-Ebene generiert wurde, stellt sie speziell Daten für das ausgewählte Widget bereit.
 
->[!TAB Bericht als PDF-Datei exportieren]
+>[!TAB Exportieren Ihres Berichts als PDF-Datei]
 
-1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Export]** und wählen **[!UICONTROL PDF-Datei]**.
+1. Klicken Sie in Ihrem Bericht auf **[!UICONTROL Exportieren]** und wählen Sie **[!UICONTROL PDF-Datei]** aus.
 
    ![](assets/export_2.png)
 
@@ -117,7 +117,7 @@ Ihr Bericht kann jetzt in einer PDF-Datei angezeigt oder freigegeben werden.
 
 ### Berichte exportieren (Video) {#video-csv}
 
-Im folgenden Anleitungsvideo erfahren Sie, wie Sie einen CSV-Bericht für einen Bericht und ein einzelnes Widget herunterladen.
+Im folgenden Anleitungsvideo wird erklärt, wie ein CSV-Bericht für einen Bericht und für ein einzelnes Widget heruntergeladen werden kann.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 

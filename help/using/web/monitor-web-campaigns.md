@@ -1,5 +1,5 @@
 ---
-title: Web-Kampagnen überwachen
+title: Überwachen Ihrer Web-Kampagnen
 description: Erfahren Sie, wie Sie Ihre Web-Kampagnen in Journey Optimizer überwachen.
 feature: Web Channel
 topic: Content Management
@@ -9,21 +9,21 @@ exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# Web-Kampagnen überwachen {#monitor-web-campaigns}
+# Überwachen Ihrer Web-Kampagnen {#monitor-web-campaigns}
 
-## Webberichte überprüfen {#check-web-reports}
+## Überprüfen der Web-Berichte {#check-web-reports}
 
-Sobald Ihre Kampagne live ist, können Sie die **[!UICONTROL Web]** -Tab der Kampagnenberichte , um Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Interaktionen mit Ihrer Webseite zu vergleichen. Weitere Informationen finden Sie im Kampagnen-Web [Live-Bericht](../reports/campaign-live-report.md#web-tab) und [globaler Bericht](../reports/campaign-global-report.md#web-tab).
+Sobald Ihre Kampagne live ist, können Sie die Registerkarte **[!UICONTROL Web]** der Kampagnenberichte überprüfen, um Elemente wie die Anzahl der Impressionen, die Klickrate und die Anzahl der Interaktionen mit Ihrer Web-Seite zu vergleichen. Erfahren Sie mehr über den Web-[Live-Bericht](../reports/campaign-live-report.md#web-tab) und den [globalen Bericht](../reports/campaign-global-report.md#web-tab) der Kampagne.
 
-Um die Überwachung Ihrer Web-Erlebnisse weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Webberichten anzeigen. [Weitere Informationen](#use-click-tracing)
+Um die Überwachung von Web-Erlebnissen weiter zu verbessern, können Sie auch die Klicks auf ein bestimmtes Element Ihrer Website verfolgen. Auf diese Weise können Sie die Anzahl der Klicks auf dieses Element in den Web-Berichten anzeigen. [Weitere Informationen](#use-click-tracing)
 
 ## Verwenden von Klick-Tracking {#use-click-tracing}
 
-Mit dem Webdesigner können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen.
+Mit dem Web-Designer können Sie ein beliebiges Element Ihrer Website auswählen und die Klicks auf dieses Element verfolgen.
 
 Diese Informationen können zur Verbesserung des Benutzererlebnisses auf Ihrer Web-Site nützlich sein. Wenn beispielsweise die [Web-Berichte](../reports/campaign-global-report.md#web-tab) zeigen, dass häufig auf ein Element geklickt wurde, auf das eigentlich nicht geklickt werden kann, können Sie diesem Element einen Link hinzufügen.
 
@@ -47,4 +47,4 @@ Diese Informationen können zur Verbesserung des Benutzererlebnisses auf Ihrer W
 
 1. Um das Klick-Tracking für ein Element zu entfernen, wählen Sie das entsprechende Löschsymbol aus.
 
-Sobald Ihre Kampagne aktiv ist, können Sie die Anzahl der Klicks für jedes Element im Kampagnen-Web überprüfen [Live-Bericht](../reports/campaign-live-report.md#web-tab) und [globaler Bericht](../reports/campaign-global-report.md#web-tab).
+Sobald Ihre Kampagne aktiv ist, können Sie die Anzahl der Klicks für jedes Element im Web-[Live-Bericht](../reports/campaign-live-report.md#web-tab) und im [globalen Bericht](../reports/campaign-global-report.md#web-tab) der Kampagne überprüfen.

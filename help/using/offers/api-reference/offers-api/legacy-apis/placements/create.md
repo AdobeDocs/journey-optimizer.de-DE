@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Erstellen einer Platzierung {#create-placement}
+# Erstellen von Platzierungen {#create-placement}
 
 Sie können eine Platzierung erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten und dabei Ihre Container-ID angeben.
 

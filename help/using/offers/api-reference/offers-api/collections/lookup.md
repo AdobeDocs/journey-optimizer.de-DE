@@ -9,7 +9,7 @@ exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 50%
 
 Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 
-Sie können bestimmte Sammlungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die Sammlung enthält `id` im Anfragepfad.
+Sie können nach bestimmten Sammlungen suchen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die Sammlungs-`id` im Anfragepfad enthält.
 
 **API-Format**
 
@@ -27,8 +27,8 @@ GET /{ENDPOINT_PATH}/offer-collections/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `offerCollection1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerCollection1234` |
 
 **Anfrage**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details der Sammlung zurückgegeben, einschließlich Informationen zu Ihrer eindeutigen Sammlung. `id`.
+Bei einer erfolgreichen Antwort werden die Details der Sammlung zurückgegeben, einschließlich Informationen zu Ihrer eindeutigen Sammlungs-`id`.
 
 ```json
 {

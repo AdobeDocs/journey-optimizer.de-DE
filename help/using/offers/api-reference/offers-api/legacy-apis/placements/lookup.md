@@ -1,5 +1,5 @@
 ---
-title: Platzierung nachschlagen
+title: Nachschlagen einer Platzierung
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Platzierung nachschlagen {#look-up-placement}
+# Nachschlagen einer Platzierung {#look-up-placement}
 
 Sie können einzelne Platzierungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die entweder die Platzierungs-`@id` oder den Namen der Platzierung im Anfragepfad enthält.
 

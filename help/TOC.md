@@ -238,12 +238,12 @@ ht-degree: 98%
    + Verfassen von Web-Seiten {#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
       + [Verwalten von Änderungen](using/web/manage-web-modifications.md)
-      + [Web-Kampagnen überwachen](using/web/monitor-web-campaigns.md)
-      + [Einzelseitenanwendungen erstellen](using/web/web-spa.md)
+      + [Überwachen Ihrer Web-Kampagnen](using/web/monitor-web-campaigns.md)
+      + [Erstellen von Einzelseitenanwendungen](using/web/web-spa.md)
 + Code-basiertes Erlebnis {#code-based-experience}
    + [Erste Schritte mit dem Code-basierten Kanal](using/code-based/get-started-code-based.md)
-   + [Voraussetzungen für Code-basierte Erlebnisse](using/code-based/code-based-prerequisites.md)
-   + [Implementierungsbeispiele für Code-basierte Erlebnisse](using/code-based/code-based-implementation-samples.md)
+   + [Code-basierte Voraussetzungen](using/code-based/code-based-prerequisites.md)
+   + [Code-basierte Implementierungsbeispiele](using/code-based/code-based-implementation-samples.md)
    + [Erstellen von Code-basierten Erlebnissen](using/code-based/create-code-based.md)
 + Landingpages {#landing-pages}
    + [Erste Schritte mit Landingpages](using/landing-pages/get-started-lp.md)
@@ -408,7 +408,7 @@ ht-degree: 98%
             + [Nachschlagen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/lookup.md)
             + [Erstellen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/update.md)
-            + [Löschen von Entscheidungsregeln](using/offers/api-reference/offers-api/decision-rules/delete.md)
+            + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Sammlungsqualifizierer {#tags}
             + [Auflisten von Sammlungskennzeichnern](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/tags/lookup.md)
@@ -452,7 +452,7 @@ ht-degree: 98%
                + [Nachschlagen von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
                + [Erstellen von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                + [Aktualisieren von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
-               + [Löschen von Entscheidungsregeln](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+               + [Entscheidungsregel löschen](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
             + Sammlungsqualifizierer {#tags}
                + [Auflisten von Sammlungskennzeichnern](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                + [Nachschlagen eines Sammlungsqualifizierers](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
@@ -489,14 +489,14 @@ ht-degree: 98%
          + [Edge Decisioning-API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batch Decisioning-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Experience Decisioning {#experience-decisioning}
-   + [Erste Schritte mit Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + [Erste Schritte mit Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Verwalten von Entscheidungselementen {#decision-items}
       + [Konfigurieren des Elementkatalogs](using/experience-decisioning/catalogs.md)
       + [Erstellen von Entscheidungselementen](using/experience-decisioning/items.md)
       + [Verwalten von Elementsammlungen](using/experience-decisioning/collections.md)
    + Konfigurieren der Auswahl von Elementen {#selection}
       + [Erstellen von Entscheidungsregeln](using/experience-decisioning/rules.md)
-      + [Erstellen von Ranking-Methoden](using/experience-decisioning/ranking.md)
+      + [Erstellen von Rangfolgemethoden](using/experience-decisioning/ranking.md)
    + [Erstellen von Auswahlstrategien](using/experience-decisioning/selection-strategies.md)
    + [Erstellen von Entscheidungsrichtlinien](using/experience-decisioning/create-decision.md)
 + Daten-Management {#data-management}

@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 59%
 
 Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 
-Sie können ein personalisiertes Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library] API.
+Sie können ein personalisiertes Angebot erstellen, indem Sie eine POST-Anfrage an die [!DNL Offer Library]-API richten.
 
 ## Header „Accept“ und „Content-Type“ {#accept-and-content-type-headers}
 
-Die folgende Tabelle zeigt die gültigen Werte, aus denen die *Content-Type* -Feld in der Anfragekopfzeile:
+Die folgende Tabelle zeigt die gültigen Werte, die das Feld *Content-Type* im Anfrage-Header enthalten:
 
 | Header-Name | Wert |
 | ----------- | ----- |
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 
 **Anfrage**
 
@@ -94,7 +94,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **Antwort**
 
-Bei einer erfolgreichen Antwort werden die Details des neu erstellten personalisierten Angebots zurückgegeben, einschließlich der ID. Sie können die `id` in späteren Schritten, um Ihr personalisiertes Angebot zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden die Details der neu erstellten persönlichen Angebote zurückgegeben, einschließlich der ID. Sie können die `id` in späteren Schritten verwenden, um das personalisierte Angebot zu aktualisieren oder zu löschen.
 
 ```json
 {

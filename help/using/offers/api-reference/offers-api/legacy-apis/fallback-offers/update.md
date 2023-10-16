@@ -1,5 +1,5 @@
 ---
-title: Fallback-Angebot aktualisieren
+title: Aktualisieren von Fallback-Angeboten
 description: Ein Fallback-Angebot wird an Kunden gesendet, wenn keine anderen Angebote für sie geeignet sind.
 feature: Offers, API
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Fallback-Angebot aktualisieren {#update-fallback-offer}
+# Aktualisieren von Fallback-Angeboten {#update-fallback-offer}
 
 Sie können ein Fallback-Angebot in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 
@@ -70,7 +70,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details des Fallback-Angebots zurück, einschließlich der eindeutigen Instanz `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details des Fallback-Angebots zurückgegeben, einschließlich der eindeutigen Instanz-`id`.
 
 ```json
 {

@@ -12,13 +12,13 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Verwenden von API-Aufrufantworten in benutzerdefinierten Aktionen {#custom-action-enhancements}
 
-Sie können API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten orchestrieren.
+API-Aufrufantworten können in benutzerdefinierten Aktionen genutzt und Journeys basierend auf diesen Antworten orchestriert werden.
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
@@ -32,7 +32,7 @@ This capability was previously only available when using data sources. You can n
 * Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
 -->
 
-* Scalar-Arrays werden in der Antwort-Payload unterstützt:
+* Skalare Arrays werden in der Antwort-Payload unterstützt:
 
   ```
   "dummyScalarArray": [
@@ -90,7 +90,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ![](assets/action-response2.png){width="70%" align="left"}
 -->
 
-## Konfigurieren einer benutzerdefinierten Aktion {#config-response}
+## Konfigurieren der benutzerdefinierten Aktion {#config-response}
 
 1. Erstellen Sie die benutzerdefinierte Aktion. Mehr dazu erfahren Sie auf [dieser Seite](../action/about-custom-action-configuration.md).
 
@@ -158,7 +158,7 @@ Sie können beispielsweise eine Bedingung hinzufügen, um die Anzahl der Treuepu
 
 ## Testmodusprotokolle {#test-mode-logs}
 
-Sie können im Testmodus auf Statusprotokolle zugreifen, die sich auf benutzerdefinierte Aktionsantworten beziehen. Wenn Sie benutzerdefinierte Aktionen mit Antworten in Ihrer Journey definiert haben, wird eine **actionsHistory** in diesen Protokollen, die die vom externen Endpunkt zurückgegebene Payload anzeigen (als Antwort von dieser benutzerdefinierten Aktion). Dies kann im Hinblick auf das Debugging sehr nützlich sein.
+Im Testmodus kann auf Statusprotokolle zugegriffen werden, die mit benutzerdefinierten Aktionsantworten verwandt sind. Wenn Sie in Ihrer Journey benutzerdefinierte Aktionen mit Antworten definiert haben, wird ein Abschnitt **actionsHistory** in diesen Protokollen angezeigt, der die vom externen Endpunkt zurückgegebene Payload anzeigt (als Antwort auf diese benutzerdefinierten Aktion). Dies kann im Hinblick auf das Debugging sehr nützlich sein.
 
 ![](assets/action-response12.png)
 

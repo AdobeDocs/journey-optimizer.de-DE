@@ -1,5 +1,5 @@
 ---
-title: Platzierung aktualisieren
+title: Aktualisieren von Platzierungen
 description: Platzierungen sind Container, mit denen Ihre Angebote präsentiert werden.
 feature: Offers, API
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Platzierung aktualisieren {#update-placement}
+# Aktualisieren von Platzierungen {#update-placement}
 
 Sie können eine Platzierung in Ihrem Container ändern oder aktualisieren, indem Sie eine PATCH-Anfrage an die [!DNL Offer Library]-API richten.
 

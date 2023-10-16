@@ -10,7 +10,7 @@ exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ Die grundlegende Struktur einer Endpunktkonfiguration sieht wie folgt aus:
 >
 >Der maximale Wert, der festgelegt werden kann, ist 400. Wenn nichts angegeben ist, kann das System abhängig von seiner dynamischen Skalierung bis zu mehreren tausend Verbindungen öffnen.
 >
->Wenn bei der Bereitstellung der Begrenzungskonfiguration kein &quot;maxHttpConnection&quot;-Wert angegeben wurde, wird der bereitgestellten Konfiguration der Standardwert &quot;maxHttpConnection = -1&quot;hinzugefügt, was bedeutet, dass Journey Optimizer den Standardsystemwert verwendet.
+>Wenn bei der Bereitstellung der Begrenzungskonfiguration kein Wert für „maxHttpConnection“ angegeben wurde, wird der bereitgestellten Konfiguration der Standardwert „maxHttpConnection = -1“ hinzugefügt, was bedeutet, dass Journey Optimizer den Standardwert des Systems verwendet.
 
 ### Beispiel:
 

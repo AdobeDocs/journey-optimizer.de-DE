@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Entscheidung löschen {#delete-decision}
+# Löschen von Entscheidungen {#delete-decision}
 
 Gelegentlich kann es erforderlich sein, eine Entscheidung zu entfernen (DELETE). Es können nur Entscheidungen gelöscht werden, die Sie im Mandanten-Container erstellt haben. Dies geschieht, indem Sie mit der $id des Fallback-Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 

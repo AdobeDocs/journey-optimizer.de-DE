@@ -1,6 +1,6 @@
 ---
-title: Implementierungsbeispiele für Code-basierte Erlebnisse
-description: Auf dieser Seite finden Sie Beispiele für die Implementierungsmethode für die Code-basierte Journey Optimizer-Funktion.
+title: Code-basierte Implementierungsbeispiele
+description: Auf dieser Seite finden Sie Beispiele für die Implementierungsmethode für die Code-basierte Funktion in Journey Optimizer.
 feature: Offers
 topic: Content Management
 role: User
@@ -12,40 +12,40 @@ exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Beispiele für Code-basierte Implementierungsmethoden {#implementation-samples}
+# Beispiele für Implementierungsmethoden für Code-basierte Erlebnisse {#implementation-samples}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
 * [Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)
-* [Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)
+* [Code-basierte Voraussetzungen](code-based-prerequisites.md)
 * **[Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)**
 * [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
 
 >[!ENDSHADEBOX]
 
-Codebasiertes Erlebnis unterstützt jede Art von Kundenimplementierung. Auf dieser Seite finden Sie Beispiele für die einzelnen Implementierungsmethoden:
+Code-basierte Erlebnisse unterstützen jede Art von Kundenimplementierung. Auf dieser Seite finden Sie Beispiele für die einzelnen Implementierungsmethoden:
 
 * [Client-seitig](#client-side-implementation)
-* [Serverseitig](#server-side-implementation)
+* [Server-seitig](#server-side-implementation)
 * [Hybrid](#hybrid-implementation)
 
-Sie können auch [dieser Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Checken Sie sie aus und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der durchgängige Personalisierungsfluss funktioniert.
+Sie können auch [diesem Link](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} folgen, um Beispielimplementierungen für verschiedene Anwendungsfälle für Personalisierung und Experimente zu finden. Sehen Sie sich die Anwendungsfälle an und führen Sie sie aus, um besser zu verstehen, welche Implementierungsschritte erforderlich sind und wie der vollständige Personalisierungsfluss funktioniert.
 
-## Clientseitige Implementierung {#client-side-implementation}
+## Client-seitige Implementierung {#client-side-implementation}
 
-Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Client-SDKs verwenden: AEP Web SDK oder AEP Mobile SDK. Die folgenden Schritte beschreiben den Prozess des Abrufs der Inhalte, die von den code-basierten Erlebniskampagnen in einer Web SDK-Beispielimplementierung veröffentlicht wurden, und der Anzeige der personalisierten Inhalte.
+Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Client-SDKs verwenden: AEP Web SDK oder AEP Mobile SDK. Die folgenden Schritte beschreiben den Prozess, um die Inhalte abzurufen, die von den Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem Web SDK veröffentlicht wurden, und die personalisierten Inhalte anzuzeigen.
 
 ### Funktionsweise
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ist auf der Seite enthalten.
+1. Das [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target="_blank"} ist auf der Seite enthalten.
 
-1. Sie müssen die `sendEvent` und geben Sie den Oberflächen-URI an, um den Personalisierungsinhalt abzurufen.
+1. Sie müssen den Befehl `sendEvent` verwenden und den Oberflächen-URI angeben, um den Personalisierungsinhalt abzurufen.
 
    ```javascript
    alloy("sendEvent", {
@@ -56,9 +56,9 @@ Wenn Sie eine Client-seitige Implementierung haben, können Sie eines der AEP-Cl
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Codebasierte Erlebniselemente sollten vom Implementierungscode manuell angewendet werden (unter Verwendung der [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} -Methode), um das DOM basierend auf der Entscheidung zu aktualisieren.
+1. Elemente von Code-basierten Erlebnissen sollten vom Implementierungs-Code manuell angewendet werden (unter Verwendung der Methode [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}), um das DOM basierend auf der Entscheidung zu aktualisieren.
 
-1. Bei code-basierten Erlebniskampagnen müssen Anzeigeereignisse manuell gesendet werden, um anzugeben, wann der Inhalt angezeigt wurde. Dies geschieht über den Befehl `sendEvent`.
+1. Bei Code-basierten Erlebniskampagnen müssen Anzeigeereignisse manuell gesendet werden, um anzugeben, wann der Inhalt angezeigt wurde. Dies geschieht über den Befehl `sendEvent`.
 
 ```javascript
 function sendDisplayEvent(decision) {
@@ -84,38 +84,38 @@ function sendDisplayEvent(decision) {
 }
 ```
 
-### Wichtige Hinweise
+### Wichtige Beobachtungen
 
 **Cookies**
 
-Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen beizubehalten. Bei Verwendung einer clientseitigen Implementierung übernimmt das Web SDK während des Lebenszyklus der Anfrage automatisch das Speichern und Senden dieser Cookies.
+Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen beizubehalten. Bei Verwendung einer Hybridimplementierung übernimmt das Web SDK das Speichern und Senden dieser Cookies während des Lebenszyklus der Anfrage automatisch.
 
 | Cookie | Zweck | Gespeichert von | Gesendet von |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | Enthält Details zur Benutzeridentität | Web SDK | Web SDK |
-| kndctr_AdobeOrg_cluster | Gibt an, welcher Experience Edge-Cluster zur Erfüllung von Anforderungen verwendet werden soll | Web SDK | Web SDK |
+| kndctr_AdobeOrg_cluster | Gibt an, welcher Erlebnis-Edge-Cluster zur Erfüllung der Anfragen verwendet werden soll | Web SDK | Web SDK |
 
-**Platzierung anfordern**
+**Anfordern einer Platzierung**
 
-Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer clientseitigen Implementierung sendet das Web SDK diese Anfragen, wenn die Variable `sendEvent` verwendet wird.
+Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer Client-seitigen Implementierung sendet das Web SDK diese Anfragen, wenn der Befehl `sendEvent` verwendet wird.
 
 | Anfrage | Gemacht von |
 | ---------------------------------------------- | ----------------------------------- |
-| Interaktionsanforderung zum Abrufen von Vorschlägen | Web SDK mit dem Befehl sendEvent |
-| Interaktionsanforderung zum Senden von Anzeigebenachrichtigungen | Web SDK mit dem Befehl sendEvent |
+| Interaktionsanfrage zum Abrufen von Vorschlägen | Web SDK mit dem Befehl „sendEvent“ |
+| Interaktionsanfrage zum Senden von Anzeigebenachrichtigungen | Web SDK mit dem Befehl „sendEvent“ |
 
 **Flussdiagramm**
 
 ![](assets/code-based-client-side-implementation.png)
 
-## Serverseitige Implementierung {#server-side-implementation}
+## Server-seitige Implementierung {#server-side-implementation}
 
-Wenn Sie über eine serverseitige Implementierung verfügen, können Sie eine der AEP Edge Network API verwenden. Die folgenden Schritte beschreiben den Prozess des Abrufs der Inhalte, die von den code-basierten Erlebniskampagnen in einer Beispiel-Edge Network API-Implementierung für eine Webseite veröffentlicht wurden, und der Anzeige der personalisierten Inhalte.
+Bei einer Server-seitigen Implementierung, kann eine der AEP Edge Network-APIs verwendet werden. Die folgenden Schritte beschreiben den Prozess, um die Inhalte abzurufen, die von den Code-basierten Erlebniskampagnen in einer Beispielimplementierung mit dem Edge Network-API für eine Web-Seite veröffentlicht wurden und die personalisierten Inhalte anzeigen.
 
 ### Funktionsweise
 
-1. Die Webseite wird angefordert und alle Cookies, die zuvor vom Browser mit dem Präfix `kndctr_` sind enthalten.
-1. Wenn die Seite vom Anwendungs-Server angefordert wird, wird ein Ereignis an den [Endpunkt der interaktiven Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de) gesendet, um Personalisierungsinhalte abzurufen. Diese Beispielanwendung verwendet einige Hilfsmethoden, um das Erstellen und Senden von Anfragen an die API zu vereinfachen (siehe [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Aber die Anfrage ist einfach eine `POST` mit einer Payload, die ein Ereignis und eine Abfrage enthält. Die Cookies (sofern verfügbar) aus dem vorherigen Schritt werden in die Anfrage in der `meta>state>entries` Array.
+1. Die Web-Seite wird angefordert und alle Cookies, die zuvor vom Browser mit dem Präfix `kndctr_` gespeichert wurden, sind enthalten.
+1. Wenn die Seite vom Anwendungs-Server angefordert wird, wird ein Ereignis an den [Endpunkt der interaktiven Datenerfassung](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=de) gesendet, um Personalisierungsinhalte abzurufen. Diese Beispielanwendung verwendet Hilfsmethoden, um das Erstellen und Senden von Anfragen an die API zu vereinfachen (siehe [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Die Anfrage ist jedoch einfach eine `POST` mit einer Payload, die ein Ereignis und eine Abfrage enthält. Die Cookies (sofern verfügbar) aus dem vorherigen Schritt sind mit der Anfrage in dem Array `meta>state>entries` enthalten.
 
    ```javascript
    fetch(
@@ -196,8 +196,8 @@ Wenn Sie über eine serverseitige Implementierung verfügen, können Sie eine de
    ).then((res) => res.json());
    ```
 
-1. Das JSON-Erlebnis aus der code-basierten Erlebniskampagne wird aus der Antwort gelesen und bei der Erstellung der HTML-Antwort verwendet.
-1. Bei code-basierten Erlebniskampagnen müssen Anzeigeereignisse in der Implementierung manuell gesendet werden, um anzugeben, wann der Kampagneninhalt angezeigt wurde. In diesem Beispiel wird die Benachrichtigung während des Anfragelebenszyklus serverseitig gesendet.
+1. Das JSON-Erlebnis aus der Code-basierten Erlebniskampagne wird aus der Antwort gelesen und beim Erstellen der HTML-Antwort verwendet.
+1. Bei Code-basierten Erlebniskampagnen müssen Anzeigeereignisse manuell in der Implementierung gesendet werden, um anzugeben, wann der Kampagneninhalt angezeigt wurde. In diesem Beispiel wird die Benachrichtigung Server-seitig während des Lebenszyklus der Anfrage gesendet.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
@@ -246,25 +246,25 @@ Wenn Sie über eine serverseitige Implementierung verfügen, können Sie eine de
 
 1. Wenn die HTML-Antwort zurückgegeben wird, werden die Identitäts- und Cluster-Cookies in der Antwort vom Anwendungs-Server gesetzt.
 
-### Wichtige Hinweise
+### Wichtige Beobachtungen
 
 **Cookies**
 
-Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen beizubehalten. Bei der Verwendung einer serverseitigen Implementierung muss der Anwendungsserver die Speicherung und das Senden dieser Cookies während des Lebenszyklus der Anfrage verarbeiten.
+Cookies werden verwendet, um die Benutzeridentität und Cluster-Informationen beizubehalten. Bei Verwendung einer Server-seitigen Implementierung muss der Anwendungs-Server das Speichern und Senden dieser Cookies während des Lebenszyklus der Anfrage übernehmen.
 
 | Cookie | Zweck | Gespeichert von | Gesendet von |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
-| kndctr_AdobeOrg_identity | Enthält Details zur Benutzeridentität | Anwendungsserver | Anwendungsserver |
-| kndctr_AdobeOrg_cluster | Gibt an, welcher Experience Edge-Cluster zur Erfüllung von Anforderungen verwendet werden soll | Anwendungsserver | Anwendungsserver |
+| kndctr_AdobeOrg_identity | Enthält Details zur Benutzeridentität | Anwendungs-Server | Anwendungs-Server |
+| kndctr_AdobeOrg_cluster | Gibt an, welcher Erlebnis-Edge-Cluster zur Erfüllung der Anfragen verwendet werden soll | Anwendungs-Server | Anwendungs-Server |
 
-**Platzierung anfordern**
+**Anfordern einer Platzierung**
 
-Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer clientseitigen Implementierung sendet das Web SDK diese Anfragen, wenn die Variable `sendEvent` verwendet wird.
+Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge abzurufen und eine Benachrichtigung zur Anzeige zu senden. Bei Verwendung einer Client-seitigen Implementierung sendet das Web SDK diese Anfragen, wenn der Befehl `sendEvent` verwendet wird.
 
 | Anfrage | Gemacht von |
 | ---------------------------------------------- | ------------------------------------------------------------ |
-| Interaktionsanforderung zum Abrufen von Vorschlägen | Anwendungsserver, der die Adobe Experience Platform-API aufruft |
-| Interaktionsanforderung zum Senden von Anzeigebenachrichtigungen | Anwendungsserver, der die Adobe Experience Platform-API aufruft |
+| Interaktionsanfrage zum Abrufen von Vorschlägen | Anwendungs-Server, der die Adobe Experience Platform-API aufruft |
+| Interaktionsanfrage zum Senden von Anzeigebenachrichtigungen | Anwendungs-Server, der die Adobe Experience Platform-API aufruft |
 
 **Flussdiagramm**
 
@@ -272,7 +272,7 @@ Anfragen an die Adobe Experience Platform-API sind erforderlich, um Vorschläge 
 
 ## Hybridimplementierung {#hybrid-implementation}
 
-Wenn Sie über eine hybride Implementierung verfügen, sehen Sie sich die Links unten an.
+Wenn Sie eine hybride Implementierung haben, sehen Sie sich die folgenden Links an.
 
 * Adobe Tech Blog: [Hybride Personalisierung im Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/de/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK-Dokumentation: [Hybride Personalisierung mit Web SDK und Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK Dokumentation: [Hybride Personalisierung mit Web SDK und Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=de){target="_blank"}

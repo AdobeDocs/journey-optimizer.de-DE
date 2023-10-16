@@ -1,5 +1,5 @@
 ---
-title: Entscheidungsregel nachschlagen
+title: Nach einer Entscheidungsregel suchen
 description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 feature: Offers, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 # Nach einer Entscheidungsregel suchen {#lookup-decision-rule}
 
-Sie können eine bestimmte Entscheidungsregel nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die die Entscheidungsregel enthält `id` im Anfragepfad.
+Sie können eine bestimmte Entscheidungsregel nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die `id` der Entscheidungsregel im Anfragepfad enthält.
 
 **API-Format**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/offer-rules/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `offerRule1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerRule1234` |
 
 **Anfrage**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234' 
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der jeweiligen Entscheidungsregel zurück, die Sie nachgeschlagen haben, einschließlich Informationen zur eindeutigen Entscheidungsregel `id`.
+Bei einer erfolgreichen Antwort werden die Details der jeweiligen Entscheidungsregel zurückgegeben, die Sie nachgeschlagen haben, einschließlich Informationen zur eindeutigen `id` der Entscheidungsregel.
 
 ```json
   {

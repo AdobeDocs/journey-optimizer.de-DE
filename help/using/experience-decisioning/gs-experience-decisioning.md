@@ -1,6 +1,6 @@
 ---
-title: Erste Schritte mit Experience Decisioning
-description: Erfahren Sie mehr über Erlebnisentscheidungen
+title: Erste Schritte mit Offer Decisioning
+description: Weitere Informationen zu Offer Decisioning
 feature: Offers
 topic: Integrations
 role: User
@@ -12,58 +12,58 @@ exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Erste Schritte mit Experience Decisioning {#get-started-experience-decisioning}
+# Erste Schritte mit Offer Decisioning {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
 
 Inhalt dieses Dokumentationshandbuchs:
 
-* **[Erste Schritte mit Experience Decisioning](gs-experience-decisioning.md)**
-* Verwalten von Entscheidungselementen
+* **[Erste Schritte mit Offer Decisioning](gs-experience-decisioning.md)**
+* Verwalten Ihrer Entscheidungselemente
    * [Konfigurieren des Elementkatalogs](catalogs.md)
    * [Erstellen von Entscheidungselementen](items.md)
    * [Verwalten von Elementsammlungen](collections.md)
-* Konfigurieren der Auswahl von Elementen
+* Konfigurieren der Elementauswahl
    * [Erstellen von Entscheidungsregeln](rules.md)
-   * [Erstellen von Ranking-Methoden](ranking.md)
+   * [Erstellen von Rangfolgemethoden](ranking.md)
 * [Erstellen von Auswahlstrategien](selection-strategies.md)
 * [Erstellen von Entscheidungsrichtlinien](create-decision.md)
 
 >[!ENDSHADEBOX]
 
-## Was ist Erlebnisentscheidungen? {#about}
+## Was ist Offer Decisioning? {#about}
 
 >[!AVAILABILITY]
 >
->Die Entscheidungsfunktion für Erlebnisse ist derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die Offer Decisioning-Funktion ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-Experience Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als &quot;Entscheidungselemente&quot;bezeichnet werden, und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jede Person auszuwählen und darzustellen.
+Offer Decisioning vereinfacht die Personalisierung, indem es einen zentralisierten Katalog von Marketing-Angeboten, die als „Entscheidungselemente“ bezeichnet werden und eine ausgereifte Entscheidungs-Engine anbietet. Diese Engine nutzt Regeln und Ranking-Kriterien, um die relevantesten Entscheidungselemente für jeden Kontakt auszuwählen und darzustellen.
 
-Diese Entscheidungselemente sind über den neuen code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
+Diese Entscheidungselemente sind über den neuen Code-basierten Erlebniskanal, der jetzt in Journey Optimizer-Kampagnen verfügbar ist, nahtlos in eine breite Palette eingehender Oberflächen integriert.
 
 **Einschränkungen:**
 
-* Entscheidungsrichtlinien sind nur zur Verwendung in code-basierten Erlebniskampagnen verfügbar.
-* Derzeit ist die Frequenzlimitierung in Experience Decisioning nicht verfügbar.
+* Entscheidungsrichtlinien sind nur zur Verwendung in Code-basierten Erlebniskampagnen verfügbar.
+* Derzeit ist die Frequenzlimitierung in Offer Decisioning nicht verfügbar.
 
-## Wichtige Schritte bei Experience Decisioning {#steps}
+## Wichtige Schritte bei Offer Decisioning {#steps}
 
-Die wichtigsten Schritte für die Arbeit mit Experience Decisioning sind:
+Die wichtigsten Schritte für die Arbeit mit Offer Decisioning sind:
 
-1. **Benutzerdefinierte Attribute konfigurieren**: Passen Sie den Katalog der Entscheidungselemente an Ihre spezifischen Anforderungen an, indem Sie benutzerdefinierte Attribute im Schema des Katalogs einrichten.
+1. **Benutzerdefinierte Attribute konfigurieren**: Der Katalog der Entscheidungselemente kann an spezifische Anforderungen angepasst werden, indem benutzerdefinierte Attribute im Schema des Katalogs eingerichtet werden.
 
-1. **Erstellen von Entscheidungselementen** , um Ihrer Zielgruppe zu zeigen.
+1. **Entscheidungselemente erstellen**, um die Zielgruppe anzuzeigen.
 
-1. **Organisieren mit Sammlungen**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Integrieren Sie Sammlungen in Ihre Auswahlstrategien, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
+1. **Mit Sammlungen organisieren**: Verwenden Sie Sammlungen, um Entscheidungselemente basierend auf attributbasierten Regeln zu kategorisieren. Sammlungen können in Auswahlstrategien integriert werden, um zu bestimmen, welche Sammlung von Entscheidungselementen berücksichtigt werden soll.
 
 1. **Entscheidungsregeln erstellen**: Entscheidungsregeln werden in Entscheidungselementen und/oder Auswahlstrategien verwendet, um zu bestimmen, wem ein Entscheidungselement angezeigt werden kann.
 
-1. **Implementieren von Rangmethoden**: Erstellen Sie Rangmethoden und wenden Sie sie innerhalb von Entscheidungsstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen zu bestimmen.
+1. **Rangfolgemethoden implementieren**: Erstellen Sie Rangfolgemethoden und wenden Sie diese innerhalb von Entscheidungsstrategien an, um die Prioritätsreihenfolge für die Auswahl von Entscheidungselementen festzulegen.
 
-1. **Erstellen von Auswahlstrategien**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangmethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
+1. **Auswahlstrategien erstellen**: Erstellen Sie Auswahlstrategien, die Sammlungen, Entscheidungsregeln und Rangfolgemethoden nutzen, um die Entscheidungselemente zu identifizieren, die für die Anzeige in Profilen geeignet sind.
 
-1. **Einbetten einer Entscheidungsrichtlinie in Ihre code-basierte Kampagne**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden Entscheidungselemente zu bestimmen.
+1. **Eine Entscheidungsrichtlinie in die Code-basierte Kampagne einbetten**: Entscheidungsrichtlinien kombinieren mehrere Auswahlstrategien, um die für die gewünschte Zielgruppe anzuzeigenden geeigneten Entscheidungselemente zu bestimmen.

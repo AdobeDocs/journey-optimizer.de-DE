@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -37,12 +37,12 @@ Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein 
 
 ## Best Practices{#custom-action-enhancements-best-practices}
 
-Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die auf benutzerdefinierte Aktionen ausgerichtet sind. Sie müssen dies in Ihren zielgruppenbasierten Journey berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile bei Verwendung benutzerdefinierter Aktionen). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Capping/Throttling-APIs eine höhere Begrenzung oder Drosselung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 Sie sollten öffentliche Endpunkte aus verschiedenen Gründen nicht mit benutzerdefinierten Aktionen ansprechen:
 
-* Ohne ordnungsgemäße Begrenzung oder Drosselung besteht das Risiko, zu viele Aufrufe an einen öffentlichen Endpunkt zu senden, der ein solches Volumen möglicherweise nicht unterstützt.
-* Profildaten können über benutzerdefinierte Aktionen gesendet werden, sodass das Targeting eines öffentlichen Endpunkts dazu führen kann, dass personenbezogene Daten versehentlich extern freigegeben werden.
+* Ohne ordnungsgemäße Begrenzung oder Einschränkung besteht das Risiko, zu viele Aufrufe an einen öffentlichen Endpunkt zu senden, der ein solches Volumen möglicherweise nicht unterstützt.
+* Profildaten können über benutzerdefinierte Aktionen gesendet werden, sodass das Ansprechen eines öffentlichen Endpunkts dazu führen kann, dass personenbezogene Daten versehentlich extern freigegeben werden.
 * Sie haben keine Kontrolle über die Daten, die von öffentlichen Endpunkten zurückgegeben werden. Wenn ein Endpunkt seine API ändert oder damit beginnt, falsche Informationen zu senden, werden diese in gesendeten Nachrichten zur Verfügung gestellt, was negative Auswirkungen haben könnte.
 
 ## Einverständnis und Data Governance {#privacy}
@@ -82,7 +82,7 @@ Im Folgenden werden die wichtigsten Schritte beschrieben, die zum Konfigurieren 
 
 ## Endpunktkonfiguration {#url-configuration}
 
-Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie Folgendes definieren: **[!UICONTROL Endpunktkonfiguration]** Parameter:
+Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie die folgenden **[!UICONTROL Endpunkt-Konfigurationsparameter]** definieren:
 
 ![](assets/action-response1bis.png){width="70%" align="left"}
 
@@ -102,7 +102,7 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie Folgendes defini
    >
    >Bei der Definition einer benutzerdefinierten Aktion sind nur die Standard-Ports zulässig: 80 für http und 443 für https.
 
-1. Auswählen des Aufrufs **[!UICONTROL Methode]**: kann entweder **[!UICONTROL POST]**, **[!UICONTROL GET]** oder **[!UICONTROL PUT]**.
+1. Wählen Sie die **[!UICONTROL Aufrufmethode]** aus: Es kann entweder **[!UICONTROL POST]**, **[!UICONTROL GET]** oder **[!UICONTROL PUT]** sein.
 
    >[!NOTE]
    >
@@ -130,9 +130,9 @@ Beim Konfigurieren einer benutzerdefinierten Aktion müssen Sie Folgendes defini
 
 ## Definieren der Payload-Parameter {#define-the-message-parameters}
 
-1. Im **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Dienst gesendet werden soll. Dieses Feld ist optional und nur für POST- und PUT-Aufrufmethoden verfügbar.
+1. Fügen Sie im Abschnitt **[!UICONTROL Anfrage]** ein Beispiel der JSON-Payload ein, die an den externen Service gesendet werden soll. Dieses Feld ist optional und nur für die Aufrufmethoden „POST“ und „PUT“ verfügbar.
 
-1. Im **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload einfügen. Dieses Feld ist optional und für alle Aufrufmethoden verfügbar. Detaillierte Informationen zur Nutzung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie unter [diese Seite](../action/action-response.md).
+1. Fügen Sie im Abschnitt **[!UICONTROL Reaktion]** ein Beispiel der vom Aufruf zurückgegebenen Payload ein. Dieses Feld ist optional und ist für alle Aufrufmethoden verfügbar. Detaillierte Informationen zur Nutzung von API-Aufrufantworten in benutzerdefinierten Aktionen finden Sie unter [diese Seite](../action/action-response.md).
 
 >[!NOTE]
 >

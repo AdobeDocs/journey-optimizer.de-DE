@@ -11,7 +11,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Die Liste der weitergeleiteten XDM-Felder ist umfassend. Einige enthalten system
 
 >[!CAUTION]
 >
->Datensätze können für den Echtzeit-Profildienst nicht aktiviert werden. Stellen Sie sicher, dass die Variable **[!UICONTROL Profil]** -Umschalter ist deaktiviert.
+>Für den Echtzeit-Profildienst können keine Datensätze aktiviert werden. Stellen Sie sicher, dass der Umschalter **[!UICONTROL Profil]** deaktiviert ist.
 
 [!DNL Journey Optimizer] sendet Daten direkt im Streaming-Modus. Sie können diese Daten mit dem Query Service abfragen. Sie können eine Verbindung zu Customer Journey Analytics oder anderen BI-Tools herstellen, um Daten anzuzeigen, die mit diesen Schritten in Verbindung stehen.
 
@@ -53,12 +53,12 @@ Die folgenden Datensätze werden übergeben:
 
 Die Listen der XDM-Felder, die an Adobe Experience Platform übergeben werden, werden hier beschrieben:
 
-* [Liste der Step-Ereignisfelder](../reports/sharing-field-list.md)
+* [Liste für Schrittereignisfelder](../reports/sharing-field-list.md)
 * [Veraltete Felder für Step-Ereignisse](../reports/sharing-legacy-fields.md)
 
 ## Integration mit Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] Schrittereignisse können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"}.
+Schrittereignisse von [!DNL Journey Optimizer] können mit anderen Datensätzen in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=de){target="_blank"} verknüpft werden.
 
 Der allgemeine Workflow ist:
 

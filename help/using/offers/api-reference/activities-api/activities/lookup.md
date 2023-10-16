@@ -9,13 +9,13 @@ exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Nachschlagen von Entscheidungen {#look-up-decision}
 
-Sie können bestimmte Entscheidungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library] API, die Entscheidungen enthält `id` im Anfragepfad.
+Sie können einzelne Entscheidungen nachschlagen, indem Sie eine GET-Anfrage an die [!DNL Offer Library]-API richten, die die `id` der Entscheidung im Anfragepfad enthält.
 
 **API-Format**
 
@@ -25,8 +25,8 @@ GET /{ENDPOINT_PATH}/offer-decisions/{ID}
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | Die ID der Entität, die Sie nachschlagen möchten. | `offerDecision1234` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | Die ID der Identität, die Sie nachschlagen möchten. | `offerDecision1234` |
 
 **Anfrage**
 
@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecisi
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die Details der Entscheidung zurück, einschließlich Informationen zu Ihrer eindeutigen Entscheidung `id`.
+Bei einer erfolgreichen Antwort werden die Details der Entscheidung zurückgegeben, einschließlich Informationen zur eindeutigen `id` der Entscheidung.
 
 ```json
 {

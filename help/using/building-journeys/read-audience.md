@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '1267'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -116,15 +116,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Testen und Veröffentlichen der Journey {#testing-publishing}
 
-Die **[!UICONTROL Audience lesen]** -Aktivität können Sie die Journey in einem Einzelprofil testen.
+Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie die Journey anhand eines einheitlichen Profils testen.
 
-Aktivieren Sie dazu den Testmodus.
+Dazu muss der Testmodus aktiviert werden.
 
 ![](assets/read-segment-test-mode.png)
 
 Konfigurieren Sie den Testmodus und führen Sie ihn wie gewohnt aus. [Erfahren Sie, wie Sie eine Journey testen](testing-the-journey.md).
 
-Sobald der Test ausgeführt wird, wird die **[!UICONTROL Protokolle anzeigen]** -Schaltfläche können Sie die Testergebnisse anzeigen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](testing-the-journey.md#viewing_logs)
+Sobald der Test ausgeführt wird, können mit der Schaltfläche **[!UICONTROL Protokolle anzeigen]** die Testergebnisse angezeigt werden. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

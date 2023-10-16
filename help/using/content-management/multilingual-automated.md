@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -125,7 +125,7 @@ Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenbericht
 
 ## Mehrsprachiger Kampagnenbericht {#multilingual-campaign-report}
 
-Globale Berichte, auf die über das **Ganzzeit** -Registerkarte Ereignisse anzeigen, die mindestens vor zwei Stunden aufgetreten sind, und Ereignisse über einen ausgewählten Zeitraum abdecken. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
+Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
 Weitere Informationen zu den im Campaign-Bericht verfügbaren Daten finden Sie unter [diese Seite](../reports/campaign-global-report.md).
 

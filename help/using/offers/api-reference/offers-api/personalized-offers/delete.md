@@ -9,13 +9,13 @@ exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 # Personalisiertes Angebot löschen {#delete-personalized-offer}
 
-Gelegentlich kann es erforderlich sein, ein personalisiertes Angebot zu entfernen (DELETE). Dies geschieht durch Ausführung einer DELETE-Anfrage an die [!DNL Offer Library] API mit der ID des personalisierten Angebots, das Sie löschen möchten.
+Gelegentlich kann es erforderlich sein, ein personalisiertes Angebot zu entfernen (DELETE). Dies geschieht, indem Sie mit der ID des personalisierten Angebots, das Sie löschen möchten, eine DELETE-Anfrage an die [!DNL Offer Library]-API richten.
 
 **API-Format**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 
 | Parameter | Beschreibung | Beispiel |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Der Endpunktpfad für Persistenz-APIs. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für persistente APIs. | `https://platform.adobe.io/data/core/dps/` |
 | `{ID}` | Die ID der Entität, die Sie löschen möchten. | `personalizedOffer1234` |
 
 **Anfrage**
@@ -41,6 +41,6 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt den HTTP-Status 200 und einen leeren Text zurück.
+Bei einer erfolgreichen Antwort wird der HTTP-Status 200 und leerer Text zurückgegeben.
 
-Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) an das personalisierte Angebot senden und den HTTP-Status 404 (Nicht gefunden) erhalten, da das personalisierte Angebot entfernt wurde.
+Sie können den Löschvorgang bestätigen, indem Sie eine Nachschlageanfrage (GET) an das personalisierte Angebot richten. Sie sollten den HTTP-Status 404 (Nicht gefunden) erhalten, da das personalisierte Angebot entfernt wurde.

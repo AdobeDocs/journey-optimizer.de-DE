@@ -1,5 +1,5 @@
 ---
-title: Webinhalt bearbeiten
+title: Bearbeiten von Web-Inhalten
 description: Erfahren Sie, wie Sie in Journey Optimizer eine Web-Seite erstellen und ihren Inhalt bearbeiten
 feature: Web Channel
 topic: Content Management
@@ -9,11 +9,11 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Webinhalt bearbeiten {#edit-web-content}
+# Bearbeiten von Web-Inhalten {#edit-web-content}
 
 Nachdem Sie eine [Web-Aktion](create-web.md#create-web-campaign) zu Ihrer Kampagne hinzugefügt haben, können Sie den Inhalt Ihrer Site mit dem Web-Designer bearbeiten.
 
@@ -25,13 +25,13 @@ In [!DNL Journey Optimizer] basiert das Erstellen von Web-Seiten auf der Chrome-
 >
 >Um in der Benutzeroberfläche von [!DNL Journey Optimizer] auf Web-Seiten zuzugreifen oder sie dort zu erstellen, müssen Sie den Voraussetzungen in [diesem Abschnitt](web-prerequisites.md) folgen.
 
-In den folgenden Abschnitten erfahren Sie mehr zu den einzelnen Themen:
+In den folgenden Abschnitten sind weitere Informationen zu den einzelnen Themen zu finden:
 
 * [Verwalten von Änderungen](manage-web-modifications.md)
 
-* [Web-Kampagnen überwachen](monitor-web-campaigns.md)
+* [Überwachen Ihrer Web-Kampagnen](monitor-web-campaigns.md)
 
-## Arbeiten mit dem Webdesigner {#work-with-web-designer}
+## Arbeiten mit dem Web-Designer {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -138,7 +138,7 @@ Verwenden Sie die Komponente **[!UICONTROL Angebotsentscheidung]**, um [Angebote
 
 ## Navigieren durch den Web-Designer {#navigate-web-designer}
 
-In diesem Abschnitt werden die verschiedenen Methoden zum Navigieren durch den Webdesigner beschrieben. Informationen zum Anzeigen und Verwalten der Änderungen, die zu Ihrem Web-Erlebnis hinzugefügt wurden, finden Sie unter [diesem Abschnitt](manage-web-modifications.md).
+In diesem Abschnitt werden die verschiedenen Methoden beschrieben, wie Sie durch den Web-Designer navigieren können. Informationen zum Anzeigen und Verwalten der Änderungen, die zu Ihrem Web-Erlebnis hinzugefügt wurden, finden Sie in [diesem Abschnitt](manage-web-modifications.md).
 
 ### Verwenden von Breadcrumbs {#breadcrumbs}
 
@@ -167,7 +167,7 @@ Im **[!UICONTROL Durchsuchen]**-Modus können Sie von der ausgewählten Oberflä
 
 Dies ist besonders nützlich, wenn es um Seiten geht, die sich hinter der Authentifizierung befinden oder nicht von Anfang an über eine bestimmte URL verfügbar sind. Sie können sich beispielsweise authentifizieren, zu Ihrer Kontoseite oder zu Ihrer Warenkorbseite navigieren und dann zurück in den **[!UICONTROL Design]**-Modus wechseln, um die Änderungen auf der gewünschten Seite durchzuführen.
 
-Verwenden **[!UICONTROL Durchsuchen]** -Modus können Sie auch bei der Erstellung von Einzelseitenanwendungen durch alle Ansichten Ihrer Website navigieren. [Weitere Informationen](web-spa.md)
+Wenn Sie den Modus **[!UICONTROL Durchsuchen]** verwenden, können Sie auch durch alle Ansichten Ihrer Website navigieren, wenn Sie eine Einzelseitenanwendung erstellen. [Weitere Informationen](web-spa.md)
 
 ### Ändern der Gerätegröße {#change-device-size}
 

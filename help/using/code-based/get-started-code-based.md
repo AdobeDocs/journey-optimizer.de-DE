@@ -23,8 +23,8 @@ ht-degree: 100%
 Inhalt dieses Dokumentationshandbuchs:
 
 * **[Erste Schritte mit dem Code-basierten Kanal](get-started-code-based.md)**
-* [Voraussetzungen für Code-basierte Erlebnisse](code-based-prerequisites.md)
-* [Implementierungsbeispiele für Code-basierte Erlebnisse](code-based-implementation-samples.md)
+* [Code-basierte Voraussetzungen](code-based-prerequisites.md)
+* [Code-basierte Implementierungsbeispiele](code-based-implementation-samples.md)
 * [Erstellen von Code-basierten Erlebnissen](create-code-based.md)
 
 >[!ENDSHADEBOX]
