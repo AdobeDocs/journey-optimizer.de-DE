@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 53%
@@ -21,7 +21,7 @@ ht-degree: 53%
 >id="ajo_create_fragment"
 >title="Eigene Fragmente definieren"
 >abstract="Erstellen und verwalten Sie eigenständige Fragmente, damit Ihre Inhalte über mehrere Journey und Kampagnen hinweg wiederverwendet werden können."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="Erstellen von Fragmenten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Erstellen von Fragmenten"
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann.
 
@@ -194,7 +194,7 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 >id="ajo_create_expression_fragment"
 >title="Wählen Sie den Ausdruckstyp"
 >abstract="Erstellen Sie ein eigenständiges Ausdrucksfragment, damit Ihr Inhalt über mehrere Journey und Kampagnen hinweg wiederverwendet werden kann. Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="Ausdrucksfragmente nutzen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Ausdrucksfragmente nutzen"
 
 1. [Fragment erstellen](#create-from-scratch) aus dem **[!UICONTROL Content Management]** > **[!UICONTROL Fragmente]** Menü links auswählen. **[!UICONTROL Ausdrucksfragment]** Typ.
 
