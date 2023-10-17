@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +21,12 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 >[!IMPORTANT]
 >
->Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Adobe Journey Optimizer verarbeitet die Nachrichten an lange Vorwahlen und gebührenfreie Nummern wie unten beschrieben. Sie sollten sich jedoch an Ihren Rechtsbeistand wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden rechtlichen Anforderungen entsprechen.
+>Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Während Adobe Journey Optimizer wie unten beschrieben die Nachrichten zu Kurzwahlnummern, Langcodes und gebührenfreien Nummern verarbeitet, wenden Sie sich an Ihren Rechtsbeistand, um sicherzustellen, dass Ihre SMS-Kommunikation allen geltenden gesetzlichen Compliance-Anforderungen entspricht.
 >
 
 ## Native eingehende Keywords {#sms-native-keywords}
 
-Per Standard verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für gebührenfreie und Langwahlnummer-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
+Standardmäßig verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für Kurzwahlnummern, gebührenfreie und lange Code-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
 
 Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter ausgelöst. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 
