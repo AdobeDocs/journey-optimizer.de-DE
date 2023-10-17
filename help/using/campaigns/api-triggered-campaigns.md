@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 98%
 
 ---
 
 # Auslösen von Kampagnen mit APIs {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="Kampagnentyp"
+>abstract="Um eine Funktion der eingeschränkten Verfügbarkeit zu nutzen und Nachrichten ohne Erstellung von Profilen zu senden, führen Sie die in der Dokumentation beschriebenen Schritte aus."
 
 ## Über von einer API ausgelöste Kampagnen {#about}
 
