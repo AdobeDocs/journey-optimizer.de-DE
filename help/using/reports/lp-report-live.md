@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Live-Bericht zu Landingpages
 description: Erfahren Sie, wie Daten aus dem Live-Bericht zu Landingpages verwendet werden können
-feature: Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das
 
 ![](assets/landing_page_report.png)
 
-Der **[!UICONTROL Live-Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
+Die Landingpage **[!UICONTROL Live-Bericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](live-report.md).
 
 +++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Live-Bericht zur Landingpage verfügbar sind.
 

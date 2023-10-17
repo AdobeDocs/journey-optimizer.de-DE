@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Integration mit anderen Lösungen
 description: Erfahren Sie mehr über die Integration von Journey Optimizer in andere Lösungen.
-topic: Content Management
+feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Mit Adobe Journey Optimizer können Sie diese Daten einfach verwalten, speichern
 > Adobe Journey Optimizer basiert auf Adobe Experience Platform und ist nativ mit dem [Adobe Echtzeit-Kundenprofil](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=de){target="_blank"} verbunden. Diese integrierte Datenquelle ist vorkonfiguriert und dient dem Abrufen und Verwenden von Daten aus dem Echtzeit-Kundenprofil (beispielsweise um zu überprüfen, ob die Person, die an einer Journey teilgenommen hat, ein Kunde ist oder nicht). Sie ermöglicht Ihnen die Verwendung von Profildaten und Erlebnisereignisdaten. [Weitere Informationen](../datasource/adobe-experience-platform-data-source.md).
 >
 
-## Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics {#integration-cja}
 
 Mit Customer Journey Analytics können Sie erweiterte Analysen der von Journey Optimizer generierten Daten durchführen.
 
@@ -33,14 +33,14 @@ Nach der Erstellung Ihrer Journey in Journey Optimizer kann Customer Journey Ana
 
 Weitere Informationen über [Journey Optimizer und Customer Journey Analytics](../reports/cja-ajo.md).
 
-## Adobe Analytics{#integration-aa}
+## Adobe Analytics {#integration-aa}
 
 Sie können alle bereits erfassten und in die Adobe Experience Platform gestreamten verhaltensbezogenen Ereignisdaten aus Adobe Analytics nutzen, um in Echtzeit Journeys auszulösen und Erlebnisse für Ihre Kunden zu automatisieren. Diese Daten können auch verwendet werden, um Zielgruppen zu erstellen, die mithilfe von Journey Optimizer einbezogen werden können.
 
 Weitere Informationen über [Journey Optimizer und Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials{#integration-assets}
+## Adobe Experience Manager Assets Essentials {#integration-assets}
 
 Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Experience Manager Assets Essentials]. Nutzen Sie [!DNL Assets Essentials], das nativ mit [!DNL Adobe Journey Optimizer] integriert ist, um digitale Assets zu speichern, zu verwalten, zu erkunden und weiterzugeben. Es bietet ein zentrales Repository für Assets, die Sie für Ihre Nachrichten verwenden können.
 
@@ -49,7 +49,7 @@ Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Ex
 Erfahren Sie mehr über [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
-## Adobe Stock{#integration-stock}
+## Adobe Stock {#integration-stock}
 
 Das Plug-in für die Integration von E-Mail-Designer mit [!DNL Adobe Stock] und [!DNL Adobe Journey Optimizer] bietet Kundinnen und Kunden eine einfache Möglichkeit, zur Nachrichtenerstellung durch Bilder zu navigieren, sie zu lizenzieren und sie zu speichern.
 
@@ -58,7 +58,7 @@ Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Sto
 Erfahren Sie mehr über [Journey Optimizer + Stock](../content-management/stock.md).
 
 
-## Adobe Intelligent Services{#integration-intelligent-service}
+## Adobe Intelligent Services {#integration-intelligent-service}
 
 Mit Adobe Intelligent Services, die in der Echtzeit-Kundendatenplattform integriert sind, können Sie die Leistungsfähigkeit von künstlicher Intelligenz und maschinellem Lernen in Anwendungsfällen für Kundenerlebnisse nutzen. So können Marketing-Analystinnen und -Analysten mithilfe von Konfigurationen auf geschäftlicher Ebene spezifische Prognosen für die Anforderungen der Firma erstellen, ohne dass hierfür Kenntnisse aus der Datenwissenschaft erforderlich sind.
 
@@ -67,7 +67,7 @@ Mit Kunden-KI können Marken auf maschinellem Lernen basierende Abwanderungs- od
 [Weitere Informationen](../building-journeys/ai-services-overview.md).
 
 
-## Adobe Campaign{#integration-ac}
+## Adobe Campaign {#integration-ac}
 
 Für Adobe Campaign v7 und v8 ist eine Integration verfügbar. Diese Integration ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mithilfe der Transaktionsnachrichtenfunktionen von Adobe Campaign 
 
@@ -75,9 +75,9 @@ Weitere Informationen zu [Journey Optimizer und Campaign](../building-journeys/a
 
 Sie können auch eine Integration mit Adobe Campaign Standard einrichten, um Nachrichten in Ihren Journeys zu senden.
 
-Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-journeys/ajo-ac.md).
+Weitere Informationen zu [Journey Optimizer und Campaign Standard](../building-journeys/using-adobe-campaign-standard.md).
 
-## Benutzerdefinierte Kanäle{#integration-custom}
+## Benutzerdefinierte Kanäle {#integration-custom}
 
 Wenn Sie ein Drittanbietersystem für das Versenden von Nachrichten verwenden oder wenn Sie möchten, dass von Journeys API-Aufrufe an ein Drittanbietersystem gesendet werden, verwenden Sie benutzerdefinierte Aktionen, um die Verbindung zwischen dem System und Ihrer Journey zu konfigurieren. Sie können mit benutzerdefinierten Aktionen beispielsweise eine Verbindung zu den folgenden Systemen herstellen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase usw.
 
@@ -85,7 +85,7 @@ Benutzerdefinierte Aktionen sind zusätzliche Aktionen, die von technischen Benu
 
 Weitere Informationen über [benutzerdefinierte Aktionen](../action/about-custom-action-configuration.md).
 
-## Externe Datenquellen{#integration-external-systems}
+## Externe Datenquellen {#integration-external-systems}
 
 Mit Journey Optimizer können Sie Verbindungen zu externen Systemen über benutzerdefinierte Datenquellen und Aktionen konfigurieren. So können Sie beispielsweise Ihre Journey mit Daten aus einem externen Reservierungssystem anreichern.
 

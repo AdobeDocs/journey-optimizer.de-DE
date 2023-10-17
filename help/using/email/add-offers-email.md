@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Hinzufügen personalisierter Angebote
 description: Erfahren Sie, wie Sie Ihren Nachrichten personalisierte Angebote hinzufügen
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: Angebote, Entscheidung, E-Mails, Personalisierung, Entscheidung
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Sie können beispielsweise eine Entscheidung hinzufügen, die in Ihrer E-Mail ei
 
 >[!IMPORTANT]
 >
->Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey integriert werden und die Nachricht den neuesten Aktualisierungen entspricht.
+>Wenn Änderungen an einer Angebotsentscheidung vorgenommen werden, die in einer Journey-Nachricht verwendet wird, müssen Sie die Veröffentlichung der Journey aufheben und sie dann erneut veröffentlichen.  Dadurch wird sichergestellt, dass die Änderungen in die Journey aufgenommen werden und die Nachricht den neuesten Aktualisierungen entspricht.
 
 * Weiterführende Informationen zur Erstellung und Verwaltung von Angeboten finden Sie in [diesem Abschnitt](../offers/get-started/starting-offer-decisioning.md).
 * Ein **vollständiges Beispiel**, das zeigt, wie Angebote konfiguriert, in Entscheidungen verwendet und diese Entscheidungen in E-Mails eingesetzt werden, finden Sie in [diesem Abschnitt](../offers/offers-e2e.md#insert-decision-in-email).

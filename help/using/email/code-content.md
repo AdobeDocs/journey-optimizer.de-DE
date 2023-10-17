@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Codieren Ihres eigenen E-Mail-Inhalts
 description: Erfahren Sie, wie Sie Ihren eigenen E-Mail-Inhalt codieren
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Intermediate, Experienced
 keywords: Code, HTML, Editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%

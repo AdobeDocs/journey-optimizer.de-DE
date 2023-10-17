@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Globaler Bericht zu Landingpages
 description: Erfahren Sie, wie Daten aus dem globalen Bericht zu Landingpages verwendet werden können
-feature: Journeys
+feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das
 
 ![](assets/landing_page_report.png)
 
-Der **[!UICONTROL globale Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
+Die Landingpage **[!UICONTROL Globaler Bericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
 
 ![](assets/landing_page_global.png)
 
