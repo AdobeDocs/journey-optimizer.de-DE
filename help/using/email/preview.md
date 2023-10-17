@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: Vorschau, Inhalt, E-Mail, Testversand, Test, Profil
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
 
 # Vorschau und Test von E-Mails {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Nachrichtenvorschau und Testversand"
+>abstract="Sobald der Inhalt der Nachricht erstellt wurde, kann mithilfe von Testprofilen eine Vorschau erstellt und ein Testversand durchgeführt werden."
 
 Nachdem der Inhalt der E-Mail definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen und einen Testversand durchführen. Wenn Sie [personalisierten Inhalt](../personalization/personalize.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
@@ -44,13 +49,6 @@ Nutzen Sie außerdem Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um Ihr **
 ➡️ [Erfahren Sie in diesem Video, wie Sie Ihre E-Mail in der Vorschau anzeigen und einen Testversand durchführen können](#video-preview).
 
 ## Auswählen der Testprofile {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="Nachrichtenvorschau und Testversand"
->abstract="Sobald der Inhalt der Nachricht erstellt wurde, kann mithilfe von Testprofilen eine Vorschau erstellt und ein Testversand durchgeführt werden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#email-rendering" text="E-Mail-Rendering"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=de#preview-email" text="Vorschau"
 
 Verwenden Sie [Testprofile](../audience/creating-test-profiles.md), um zusätzliche Empfänger anzusprechen, die nicht den definierten Zielgruppenbestimmungskriterien entsprechen.
 
