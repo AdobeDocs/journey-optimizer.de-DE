@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
+source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 91%
 
 ---
 
@@ -33,9 +33,9 @@ Ein einmaliges Setup auf Entwicklerseite ist erforderlich, um die Ansichten in d
 
 ## Definieren von Ansichten in der Web SDK-Implementierung {#define-views}
 
-XDM-Ansichten können in Adobe [!DNL Journey Optimizer] genutzt werden, damit Marketing-Fachleute Web-Personalisierungs- und Erlebniskampagnen auf SPAs über den visuellen Web-Editor ausführen können. [Weitere Informationen](web-spa-implementation.md)
+XDM-Ansichten können in Adobe [!DNL Journey Optimizer] genutzt werden, damit Marketing-Fachleute Web-Personalisierungs- und Erlebniskampagnen auf SPAs über den visuellen Web-Editor ausführen können. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-Um auf die Ansichten in der Benutzeroberfläche von [!DNL Journey Optimizer] zugreifen und welche erstellen zu können, stellen Sie sicher, dass Sie die in [diesem Abschnitt](web-spa-implementation.md#implement-xdm-views) aufgeführten Schritte befolgen.
+Um auf Ansichten in der [!DNL Journey Optimizer] müssen Sie die in [diesem Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Entdecken von Ansichten im Web-Designer {#discover-views}
 
