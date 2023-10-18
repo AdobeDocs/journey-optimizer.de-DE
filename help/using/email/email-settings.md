@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 100%
+source-wordcount: '2340'
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,12 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 
 * **[!UICONTROL Antwort an (E-Mail)]**: Die E-Mail-Adresse, die verwendet wird, wenn der Empfänger in seiner E-Mail-Client-Software auf den Button **Antworten** klickt. [Weitere Informationen](#reply-to-email)
 
-* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces).
+* **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und die Anfechtungsantworten werden ebenfalls an diese Adresse gesendet.
+
+  >[!NOTE]
+  >
+  >Wenn Sie die Abwesenheitsbenachrichtigungen erhalten und die Antworten auf eine bestimmte E-Mail-Adresse herausfordern möchten, die nicht an Adobe delegiert ist, müssen Sie eine [Weiterleitungsprozess](#forward-email). Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.
+
 
 >[!CAUTION]
 >
@@ -137,9 +142,9 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 
 Bei der Definition der **[!UICONTROL Antwort an (E-Mail)]**-Adresse kann eine beliebige E-Mail-Adresse angegeben werden, vorausgesetzt es handelt sich um eine gültige Adresse in einem korrekten Format und ohne Tippfehler.
 
-Bitte die nachstehenden Empfehlungen befolgen, um eine ordnungsgemäße Antwortverwaltung sicherzustellen:
+Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails mit Ausnahme von Abwesenheitsbenachrichtigungen und Anfechtungsantworten, die auf der **[!UICONTROL Fehler-Email]** Adresse.
 
-* Der Posteingang, der für Antworten verwendet wird, erhält alle Antwort-E-Mails, einschließlich Abwesenheitsbenachrichtigungen und Anfechtungsantworten. Daher bitte sicherstellen, dass ein manueller oder automatisierter Prozess zur Verarbeitung der E-Mails vorhanden ist, die in diesen Posteingang eingehen.
+Bitte die nachstehenden Empfehlungen befolgen, um eine ordnungsgemäße Antwortverwaltung sicherzustellen:
 
 * Bitte sicherstellen, dass der dedizierte Posteingang über genügend Aufnahmekapazität verfügt, um alle Antwort-E-Mails zu empfangen, die über die E-Mail-Oberfläche gesendet werden. Wenn der Posteingang Bounce-Nachrichten zurückgibt, werden manche Antworten von den Kunden möglicherweise nicht empfangen.
 
@@ -157,18 +162,26 @@ Wenn beim Senden der E-Mail-Oberfläche ein Fehler auftritt, bedeutet dies, dass
 
 ### Weiterleiten von E-Mails {#forward-email}
 
-Wenn Sie alle von [!DNL Journey Optimizer] für die delegierte Subdomain empfangenen E-Mails an eine bestimmte E-Mail-Adresse weiterleiten möchten, wenden Sie sich an die Kundenunterstützung von Adobe. Sie müssen Folgendes angeben:
+Alle E-Mails, die von [!DNL Journey Optimizer] Wenden Sie sich für die zugewiesene Subdomain an die Adobe-Kundenunterstützung.
+
+>[!NOTE]
+>
+>Wenn die für die **[!UICONTROL Antwort an (E-Mail)]** -Adresse nicht an Adobe delegiert wird, kann die Weiterleitung für diese Adresse nicht funktionieren.
+
+Sie müssen Folgendes bereitstellen:
 
 * Die E-Mail-Weiterleitungsadresse Ihrer Wahl. Beachten Sie, dass die E-Mail-Adress-Domain für Weiterleitungen nicht mit einer an Adobe delegierten Subdomain übereinstimmen darf.
 * Ihren Sandbox-Namen.
-* Der Name der Oberfläche, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
-* Die aktuelle **[!UICONTROL Antwort an (E-Mail)]**-Adresse, die auf der Ebene der Kanaloberfläche definiert ist.
+* Der Oberflächenname oder die Subdomain, für die die Weiterleitungs-E-Mail-Adresse verwendet wird.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Pro Subdomain kann nur eine Weiterleitungs-E-Mail-Adresse verwendet werden. Wenn mehrere Oberflächen dieselbe Subdomain verwenden, muss daher für alle dieselbe Weiterleitungs-E-Mail-Adresse verwendet werden.
 
 Die Weiterleitungs-E-Mail-Adresse wird von Adobe eingerichtet. Dies kann 3 bis 4 Tage dauern.
+
+Nach Abschluss des Vorgangs werden alle Nachrichten auf der **[!UICONTROL Antwort an (E-Mail)]** und **[!UICONTROL Fehler-Email]** Die Adressen werden an die von Ihnen angegebene E-Mail-Adresse weitergeleitet.
 
 ## BCC-E-Mail-Adresse {#bcc-email}
 
