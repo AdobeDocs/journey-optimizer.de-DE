@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Exportieren von Datensätzen zu Orten im Cloud-Speicher
 description: Erfahren Sie, wie Sie Ihre Datensätze mit Adobe Experience Platform-Cloud-Speicherzielen exportieren können.
+feature: Datasets
 role: User
 level: Beginner
 keywords: Plattform, Data Lake, Erstellen, Lake, Datensätze, Profil
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 100%
@@ -46,11 +47,9 @@ Verstehen Sie anhand der folgenden Tabelle, welche Journey Optimizer-Datensätze
 | AJO-Einverständnis-Service-Datensatz | Speichert die Einverständnisinformationen eines Profils. | Prime | 
 | AJO-E-Mail-Tracking-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den E-Mail-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. | Prime | 
 | AJO-Entitätsdatensatz | Datensatz zum Speichern von Entitätsmetadaten für Nachrichten, die an die Endbenutzerin bzw. den Endbenutzer gesendet werden. | Prime |
-| AJO-Ereignisdatensatz für eingehende Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse.   Prime  
-  AJO-Profildatensatz für interaktives Messaging   Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen.   Prime  
-  AJO-Ereignisdatensatz für Nachrichten-Feedback   Versandlogs für Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet.   Prime  
-  AJO-Profile Counters-Erweiterung   Enthält eine Zuordnung von Objekten, die „counter_value“ und „expiryDate“ enthalten und nach „counter_id“ geordnet sind   Prime  
-  AJO-Push-Profil-Datensatz   Speichert Push-Token eines Profils. | Prime |
+| AJO-Ereignisdatensatz für eingehende Aktivitäten | Datensatz für Web- und In-App-Kanäle von Journey Optimizer für Versand- und Interaktionsereignisse. | Prime | 
+|  AJO-Profildatensatz für interaktives Messaging | Speichert Profile, die erstellt wurden, um API-gesteuerte Kampagnen zu unterstützen. | Prime | |  AJO-Ereignisdatensatz für Nachrichten-Feedback | Versandlogs für Nachrichten. Informationen über den gesamten Nachrichtenversand von Journey Optimizer zu Zwecken des Reportings und der Zielgruppenerstellung. In diesem Datensatz wird auch das Feedback von E-Mail-ISPs zu Bounces aufgezeichnet. | Prime | 
+| AJO-Profile Counters-Erweiterung | Enthält eine Zuordnung von Objekten, die „counter_value“ und „iryDate“ enthalten und nach „counter_id“ geordnet sind | Prime | | AJO-Push-Profil-Datensatz | Speichert Push-Token eines Profils. | Prime |
 | AJO-Push-Tracking-Erlebnisereignis-Datensatz | Interaktionsprotokolle für den Push-Kanal, der zu Zwecken des Reportings und der Zielgruppenerstellung genutzt wird. | Prime |
 | AJO-Oberflächen-Datensatz | Leerer Datensatz im Zusammenhang mit dem Journey Optimizer-Schema „Eingehende Oberflächen“ | Prime |
 | AOOutputForUPSDataset | Enthält alle AO-Zielgruppenmitgliedschaften, die zu UPS zurückgeschrieben werden sollen | Prime |
