@@ -1,12 +1,12 @@
 ---
 title: Erstellen von Fallback-Angeboten
 description: Erfahren Sie, wie Sie Fallback-Angebote erstellen, die Kunden angezeigt werden, die für kein Angebot infrage kommen
-Feature: Offers
+Feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%

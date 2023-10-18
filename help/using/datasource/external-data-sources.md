@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Externe Datenquellen
 description: Erfahren Sie, wie Sie externe Datenquellen konfigurieren
-feature: Data Sources, Integrations
+feature: Journeys, Data Sources, Integrations
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: extern, Quellen, Daten, Konfiguration, Verbindung, Drittanbieter
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%

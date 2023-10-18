@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Anwendungsfälle für Journeys
 description: Anwendungsfälle für Journeys
-feature: Journeys
+feature: Journeys, Use cases, Email, Push
 topic: Content Management
-role: User
-level: Intermediate
+role: User, Data Engineer
+level: Intermediate, Experienced
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 100%

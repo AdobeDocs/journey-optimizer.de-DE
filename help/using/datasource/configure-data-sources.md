@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Konfigurieren einer Datenquelle
 description: Erfahren Sie, wie Sie eine Datenquelle konfigurieren
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: Daten, Quelle, Konfiguration, Feld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%

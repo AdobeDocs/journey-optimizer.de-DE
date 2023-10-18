@@ -1,12 +1,12 @@
 ---
 title: Entscheidungsregel erstellen
 description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 90%

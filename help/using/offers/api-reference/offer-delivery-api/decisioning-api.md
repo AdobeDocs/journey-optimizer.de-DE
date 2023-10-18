@@ -1,15 +1,15 @@
 ---
 title: Angebote bereitstellen
 description: Entscheidungs-Management ist eine Sammlung von Services und Benutzeroberflächenprogrammen, mit denen Marketing-Experten personalisierte Angebotserlebnisse für Endbenutzer erstellen und bereitstellen können – über verschiedene Kanäle und Anwendungen hinweg und unter Verwendung von Business-Logik und Entscheidungsregeln.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -116,7 +116,7 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions` | Dieses Objekt ist die Kontrollstruktur der Deduplizierungsregeln. Es besteht aus einer Reihe von Flags, die angeben, ob dieselbe Option für eine bestimmte Dimension vorgeschlagen werden kann. Wenn ein Flag auf „true“ gesetzt ist, sind Duplikate erlaubt und sollten in der durch das Flag angegebenen Kategorie nicht entfernt werden. Wenn ein Flag auf „false“ gesetzt ist, sollte die Entscheidungs-Engine nicht denselben Vorschlag für die gesamte Dimension machen und stattdessen die nächste beste Option für eine der Unterentscheidungen auswählen. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Wenn auf „true“ gesetzt, kann mehreren Entscheidungen dieselbe Option zugewiesen werden. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Wenn auf „true“ gesetzt, kann mehreren Platzierungen dieselbe Option zugewiesen werden. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Gibt die Zusammenführungsrichtlinie an, nach der die vom Profilzugriffsdienst zurückgegebenen Daten verwaltet werden. Wenn in der Anfrage keine angegeben ist, gibt das Entscheidungs-Management nichts an den Profilzugriffs-Service weiter, andernfalls wird die vom Aufrufer bereitgestellte ID übergeben. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Gibt die Zusammenführungsrichtlinie an, nach der die vom Profilzugriffsdienst zurückgegebenen Daten verwaltet werden. Wenn in der Anfrage nichts angegeben ist, wird der Entscheidungsmanagement keinen Profilzugriffsdienst weitergeben. Andernfalls wird die vom Aufrufer angegebene ID weitergegeben. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Eine Reihe von Flags, die den Inhalt der Antwort formatieren. |
 | `xdm:responseFormat.xdm:includeContent` | Ein boolescher Wert, der den Inhalt der Antwort einschließt, wenn er auf `true` gesetzt wird. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Ein Objekt, mit dem festgelegt wird, welche zusätzlichen Metadaten zurückgegeben werden. Wenn diese Eigenschaft nicht enthalten ist, werden standardmäßig `xdm:id` und `repo:etag` zurückgegeben. | `name` |

@@ -1,12 +1,12 @@
 ---
 title: Erstellen von Sammlungen
 description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
-feature: Offers, API, Collections
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

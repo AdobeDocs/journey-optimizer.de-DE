@@ -1,12 +1,12 @@
 ---
 title: Verwenden personalisierter Angebote in einer E-Mail
 description: Hier finden Sie ein Beispiel, das alle notwendigen Schritte zur Konfiguration von Angeboten und deren Verwendung in einer E-Mail zeigt.
-feature: Offers
+feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 100%
