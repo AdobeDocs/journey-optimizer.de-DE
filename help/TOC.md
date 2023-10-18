@@ -5,9 +5,9 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 93f4f4edcce7c7e9f7472a871c96cefa276bdda1
+source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1663'
 ht-degree: 98%
 
 ---
@@ -233,7 +233,6 @@ ht-degree: 98%
    + Webkanal konfigurieren {#configure-web-channel}
       + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
       + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
-      + [Implementieren von Einzelseitenanwendungen](using/web/web-spa-implementation.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
    + Verfassen von Web-Seiten {#author-web-pages}
       + [Bearbeiten der Inhalte von Web-Seiten](using/web/edit-web-content.md)
