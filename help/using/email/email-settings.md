@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: Einstellungen, E-Mail, Konfiguration
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 92%
@@ -123,10 +123,7 @@ Geben Sie im Abschnitt **[!UICONTROL Kopfzeilenparameter]** die Absendernamen un
 
 * **[!UICONTROL E-Mail-Fehler]**: An dieser Adresse werden alle Fehlermeldungen empfangen, die von ISPs nach mehreren Tagen der E-Mail-Zustellung erzeugt wurden (asynchrone Bounces). Die Abwesenheitsbenachrichtigungen und die Anfechtungsantworten werden ebenfalls an diese Adresse gesendet.
 
-  >[!NOTE]
-  >
-  >Wenn Sie die Abwesenheitsbenachrichtigungen erhalten und die Antworten auf eine bestimmte E-Mail-Adresse herausfordern möchten, die nicht an Adobe delegiert ist, müssen Sie eine [Weiterleitungsprozess](#forward-email). Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.
-
+  Wenn Sie die Abwesenheitsbenachrichtigungen erhalten und die Antworten auf eine bestimmte E-Mail-Adresse herausfordern möchten, die nicht an Adobe delegiert ist, müssen Sie eine [Weiterleitungsprozess](#forward-email). Vergewissern Sie sich in diesem Fall, dass Sie über eine manuelle oder automatisierte Lösung verfügen, mit der die in diesen Posteingang eingehenden E-Mails verarbeitet werden können.
 
 >[!CAUTION]
 >
