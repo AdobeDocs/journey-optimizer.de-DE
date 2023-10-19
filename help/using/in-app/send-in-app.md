@@ -1,20 +1,20 @@
 ---
-title: Testen und Senden von In-App-Benachrichtigung
-description: Erfahren Sie, wie Sie in Journey Optimizer eine In-App-Nachricht testen und senden
+title: Überprüfen und Senden Ihrer In-App-Benachrichtigung
+description: Erfahren Sie, wie Sie eine In-App-Nachricht in Journey Optimizer überprüfen und senden können.
 feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 96%
+ht-degree: 88%
 
 ---
 
-# Testen und Senden von In-App-Benachrichtigung {#create-in-app}
+# Überprüfen und Senden Ihrer In-App-Benachrichtigung {#create-in-app}
 
 ## Vorschau auf Gerät {#preview-device}
 

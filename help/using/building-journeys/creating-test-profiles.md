@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: Testprofile, Testen, Test, Journey
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 96%
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 # Erstellen von Testprofilen {#create-test-profiles}
 
-Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../building-journeys/testing-the-journey.md) verwenden und [eine Vorschau anzeigen und Ihre Inhalte testen möchten](../email/preview.md).
+Testprofile sind erforderlich, wenn Sie in einer Journey den [Testmodus](../building-journeys/testing-the-journey.md) verwenden und [eine Vorschau anzeigen und Ihre Inhalte testen möchten](../content-management/preview-test.md).
 
 Es gibt mehrere Möglichkeiten, Testprofile zu erstellen. Auf dieser Seite finden Sie Details für Folgendes:
 

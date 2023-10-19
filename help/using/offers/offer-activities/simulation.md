@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
@@ -85,8 +85,6 @@ Zunächst müssen Sie die Testprofile auswählen, die Sie für die Simulation ve
    >Die ausgewählten Profile verbleiben von Sitzung zu Sitzung als Testprofile in der Registerkarte **[!UICONTROL Simulation]**, bis sie mithilfe von **[!UICONTROL Profil verwalten]** entfernt werden.
 
 1. Sie können auf den Link **[!UICONTROL Profildetails]** klicken, um die ausgewählten Profildaten anzuzeigen.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Hinzufügen von Entscheidungsumfängen {#add-decision-scopes}
 

@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Vorschau und Test Ihre Push-Benachrichtigung
-description: Weitere Informationen dazu, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer in der Vorschau anzeigen und testen können
+title: Push-Benachrichtigung überprüfen und senden
+description: Erfahren Sie, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer überprüfen und senden können.
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 76%
 
 ---
 
-# Vorschau und Test Ihre Push-Benachrichtigung {#send-push}
+# Push-Benachrichtigung überprüfen und senden {#send-push}
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
-Sobald der Inhalt der Nachricht erstellt wurde, können Sie mithilfe von Testprofilen eine Vorschau erstellen und einen Testversand durchführen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen dessen Inhalt in der Vorschau anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]**.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie dann ein Testprofil hinzu. Sie können dann den Gerätetyp auswählen, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
-1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein Testprofil hinzuzufügen.
+![](assets/push_preview_3.png)
 
-1. Suchen Sie Ihr Testprofil mit den Feldern **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Identitätswert]**. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
-
-   ![](assets/push_preview_1.png)
-
-1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie das Fenster **[!UICONTROL Testprofil hinzufügen]** schließen.
-
-1. Im Fenster **Vorschau und Test** werden die Daten des Testprofils zum Inhalt der Nachricht hinzugefügt.
-
-   Wählen Sie den Gerätetyp aus, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
 
 ## Validieren der Push-Benachrichtigung {#push-validate}
-
 
 Sie müssen die Warnmeldungen im oberen Bereich des Editors überprüfen. Einige davon sind einfache Warnungen, aber andere können Sie daran hindern, die Nachricht zu senden. Es gibt zwei Arten von Warnungen: Warnungen und Fehler.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1106'
 ht-degree: 99%
 
 ---
@@ -164,21 +164,17 @@ Sie können diese Vorlage jetzt beim Erstellen von [E-Mails](../email/get-starte
 
 Sie können das Rendering einer beliebigen E-Mail-Inhaltsvorlage testen, unabhängig davon, ob sie von Grund auf neu oder aus einer E-Mail erstellt wurde. Gehen Sie dazu wie folgt vor.
 
->[!CAUTION]
->
->Um Inhalte zu simulieren, müssen Sie über die Berechtigung **[!DNL Manage Simulate Content]** im **[!DNL Content Library Manager]**-Produktprofil verfügen. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. Sie können über das Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Inhaltsvorlagen]** auf die Inhaltsvorlagenliste zugreifen und eine beliebige Vorlage auswählen.
 
 1. Klicken Sie in den **[!UICONTROL Vorlageneigenschaften]** auf **[!UICONTROL Inhalt bearbeiten]**.
 
-1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie ein Testprofil aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. [Weitere Informationen](../email/preview.md)
+1. Klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie ein Testprofil aus, um Ihr E-Mail-Rendering zu überprüfen. Sie können zwischen der Desktop- oder der Mobile-Ansicht wählen. [Weitere Informationen](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. Sie können einen Testversand durchführen, um Ihren Inhalt zu testen und ihn von einigen internen Benutzern genehmigen zu lassen, bevor Sie ihn in einer Journey oder Kampagne verwenden.
 
-   * Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und folgen Sie den Schritten, die in [diesem Abschnitt](../email/preview.md#send-proofs) beschrieben werden.
+   * Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Testversand durchführen]** und folgen Sie den Schritten, die in [diesem Abschnitt](../content-management/proofs.md) beschrieben werden.
 
    * Vor dem Testversand müssen Sie die [E-Mail-Oberfläche](../configuration/channel-surfaces.md) auswählen, die zum Testen Ihres Inhalts verwendet wird.
 
@@ -186,7 +182,7 @@ Sie können das Rendering einer beliebigen E-Mail-Inhaltsvorlage testen, unabhä
 
 >[!CAUTION]
 >
->Derzeit wird Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt, d. h. die Nachverfolgung von Ereignissen, UTM-Parametern und Landingpage-Links ist in den Testsendungen, die von einer Vorlage gesendet werden, nicht wirksam. Um Tracking zu testen, [verwenden Sie die Inhaltsvorlage](../email/use-email-templates.md) in einer E-Mail und [führen Sie einen Testversand durch](../email/preview.md#send-proofs).
+>Derzeit wird Tracking beim Testen von E-Mail-Inhaltsvorlagen nicht unterstützt, d. h. die Nachverfolgung von Ereignissen, UTM-Parametern und Landingpage-Links ist in den Testsendungen, die von einer Vorlage gesendet werden, nicht wirksam. Um Tracking zu testen, [verwenden Sie die Inhaltsvorlage](../email/use-email-templates.md) in einer E-Mail und [führen Sie einen Testversand durch](../content-management/preview-test.md#send-proofs).
 
 ## Anleitungsvideo {#video-templates}
 

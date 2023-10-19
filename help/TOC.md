@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 98%
+source-wordcount: '1686'
+ht-degree: 96%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 98%
          + [Bearbeiten von Hintergrundeinstellungen](using/email/backgrounds.md)
          + [Anpassen der vertikalen Ausrichtung und des Abstands](using/email/alignment-and-padding.md)
          + [Hinzufügen von Inline-Stilattributen](using/email/inline-styling.md)
-   + [Vorschau und Test von E-Mails](using/email/preview.md)
    + [Verwenden von Experience Manager-Vorlagen](using/email/aem-templates.md)
    + [Verwalten von E-Mail-Opt-outs](using/email/email-opt-out.md)
    + Konfigurieren eines E-Mail-Kanals {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 98%
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
-   + [Testen und Senden von In-App-Benachrichtigung](using/in-app/send-in-app.md)
+   + [Überprüfen und Senden Ihrer In-App-Benachrichtigung](using/in-app/send-in-app.md)
 + Push-Benachrichtigungs-Kanal{#push}
    + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
    + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
    + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
-   + [Senden der Push-Benachrichtigung](using/push/send-push.md)
+   + [Push-Benachrichtigung überprüfen und senden](using/push/send-push.md)
    + Konfigurieren von Push-Benachrichtigungen{#push-config}
       + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
       + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 98%
 + SMS-Kanal{#sms}
    + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)
-   + [Vorschau und Test Ihrer SMS-Nachricht](using/sms/send-sms.md)
+   + [SMS überprüfen und senden](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
    + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
-   + [Testen und Senden einer Briefpostnachricht](using/direct-mail/test-send-direct-mail.md)
+   + [Briefpost-Nachricht überprüfen und senden](using/direct-mail/test-send-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
@@ -257,15 +256,16 @@ ht-degree: 98%
    + Konfigurieren von Landingpages {#lp-configuration}
       + [Konfigurieren von Landingpage-Subdomains](using/landing-pages/lp-subdomains.md)
       + [Definieren der Landingpage-Voreinstellungen](using/landing-pages/lp-presets.md)
-+ Content-Management {#content-management}
-   + [Verwenden von Assets Essentials](using/content-management/assets-essentials.md)
-   + [Arbeiten mit Adobe Stock](using/content-management/stock.md)
++ Content Management {#content-management}
    + Arbeiten mit dem Inhaltsassistenten{#content-assistant}
       + [Erste Schritte mit dem Inhaltsassistenten](using/content-management/gs-generative.md)
       + [Inhaltsgenerierung](using/content-management/generative-content.md)
       + [Bildgenerierung](using/content-management/generative-image.md)
    + Mehrsprachige Inhalte verwenden{#content-multilingual}
       + [Mehrsprachige Inhalte erstellen](using/content-management/multilingual-manual.md)
+   + Assets/Bilder {#assets-images}
+      + [Verwenden von Assets Essentials](using/content-management/assets-essentials.md)
+      + [Arbeiten mit Adobe Stock](using/content-management/stock.md)
    + Personalisierung {#personalization}
       + [Erste Schritte bei der Personalisierung](using/personalization/personalize.md)
       + [Personalisierungskontexte](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 98%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
+   + Vorschau erstellen und Inhalt testen {#preview-test}
+      + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
+      + [Auswählen der Testprofile](using/content-management/test-profiles.md)
+      + [Vorschau des Inhalts anzeigen](using/content-management/preview.md)
+      + [E-Mail-Testsendungen durchführen](using/content-management/proofs.md)
+      + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)

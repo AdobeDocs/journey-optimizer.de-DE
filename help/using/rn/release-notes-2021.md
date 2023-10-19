@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 98%
@@ -275,7 +275,7 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Inhaltserstellung**
 
-* **Hintergrund** – Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](../email/preview.md)
+* **Hintergrund** – Hintergrundbilder werden jetzt in der Live-Vorschau unterstützt. [Weitere Informationen](../content-management/preview-test.md)
 * **Ein-Klick-Opt-out-Link** – Sie können einen neuen Link-Typ in Ihren E-Mail-Inhalt einfügen: Mit dem **Opt-out**-Link können sich Benutzer vom Erhalt Ihrer Nachrichten mit nur einem Klick abmelden, ohne zu einer Landingpage weitergeleitet zu werden, um die Abmeldung zu bestätigen. [Weitere Informationen](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalisierung**
@@ -350,9 +350,9 @@ Siehe auch [Adobe Experience Platform – Versionshinweise Oktober](https://expe
 
 **Vorschau und Test**
 
-* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../email/preview.md#preview-your-messages)
+* Identität und Namespace sind nun im Bildschirm **[!UICONTROL Vorschau]** sichtbar. [Mehr dazu](../content-management/preview-test.md#preview-your-messages)
 * Die Anzahl der Test-E-Mails für Testsendungen ist jetzt auf 10 beschränkt.
-* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Mehr dazu](../email/preview.md#send-proofs)
+* Die Anzahl der für das **Präfix der Betreffzeile** in Testsendungen zulässigen Zeichen ist jetzt begrenzt. [Mehr dazu](../content-management/preview-test.md#send-proofs)
 
 **Ausdruckseditor für Personalisierung**
 

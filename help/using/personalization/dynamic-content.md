@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Sobald Ihr Inhalt fertig ist, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** eine Vorschau der verschiedenen Varianten anzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../email/preview.md)
+1. Sobald Ihr Inhalt fertig ist, können Sie mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** eine Vorschau der verschiedenen Varianten anzeigen. [Erfahren Sie, wie Sie Nachrichten testen und in der Vorschau anzeigen](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

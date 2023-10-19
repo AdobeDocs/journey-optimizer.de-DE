@@ -1,40 +1,30 @@
 ---
-title: Testen und Senden einer Briefpostnachricht
-description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpostnachricht erstellen
+title: Briefpost-Nachricht prüfen und senden
+description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpost-Nachricht überprüfen und senden können.
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
-# Testen und Senden einer Briefpostnachricht {#direct-mail-test-send}
+# Briefpost-Nachricht prüfen und senden {#direct-mail-test-send}
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
 
 Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-1. Klicken Sie im Konfigurationsbildschirm der Extraktionsdatei auf **[!UICONTROL Inhalt simulieren]**.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie dann ein Testprofil hinzu, um zu überprüfen, wie die Extraktionsdatei mithilfe der Testprofildaten gerendert wird.
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. Klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um ein Testprofil hinzuzufügen.
-
-1. Suchen Sie Ihr Testprofil mit den Feldern **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Identitätswert]**. Klicken Sie anschließend auf **[!UICONTROL Profil hinzufügen]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. Nachdem Sie Ihr Testprofil ausgewählt haben, können Sie das Fenster **[!UICONTROL Testprofil hinzufügen]** schließen.
-
-1. Im Fenster **Vorschau und Test** werden dem Inhalt der Extraktionsdatei Testprofildaten hinzugefügt, sodass Sie eine Vorschau sehen können, wie die Datei dargestellt werden wird.
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
 
 Sobald der Inhalt der Datei versandbereit ist, schließen Sie den Simulationsbildschirm und klicken Sie auf die Schaltfläche **[!UICONTROL Zum Aktivieren überprüfen]**.
 
