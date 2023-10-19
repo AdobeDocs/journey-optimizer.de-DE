@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 97%
+source-wordcount: '3845'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 97%
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
 
-
-
 ## Oktober 2023 {#oct-2023}
 
 * Es wurden GIF hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für die Entscheidungsverwaltung](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md), und [Inhaltsexperiment](../campaigns/content-experiment.md).
 * Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Adobe Experience Platform-Änderungen eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
 * Auf der Seite &quot;Limits und Einschränkungen&quot;wurden Limits für die Entscheidungsverwaltung hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
+* Ein neuer Abschnitt über die Vorschau und den Test Ihres Inhalts wurde erstellt - [Weitere Informationen](../content-management/preview-test.md)
 
 ## September 2023 {#september-2023}
 
