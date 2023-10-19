@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeits
 
 Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur für Beta mit Sinch verfügbar ist.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Zusammengesetzte Zielgruppen in Journey</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt in Komposition-Workflows in Ihren Journey erstellte Zielgruppen verwenden, um Kunden anzusprechen. Nachdem eine Audience-Komposition veröffentlicht und die Audience gespeichert wurde, verwenden Sie die Aktivität Audience lesen , um diese neue Audience auf Ihrer Journey-Arbeitsfläche auszuwählen.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur für Beta mit Sinch verfügbar ist.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Verbesserungen {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Zielgruppen**
 
 * Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
-* Sie können jetzt Zielgruppen aus Kompositionsarbeitsabläufen in Ihren Journey ansprechen.
 
 **Spam-Bewertung für E-Mails**
 
