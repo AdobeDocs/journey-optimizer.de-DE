@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
+source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 24%
 
 ---
@@ -40,7 +40,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Sie können die Sandbox-Tool-Funktion in Adobe Journey Optimizer verwenden, um verschiedene Objekte auszuwählen und sie in ein Package zu exportieren. Ein Paket kann aus einem einzelnen Objekt, mehreren Objekten oder einer gesamten Sandbox bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
+<p>Sandbox-Tools ermöglichen es Ihnen, Objekte über mehrere Sandboxes hinweg zu kopieren, indem Sie Package-Export und -Import nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
