@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 24%
+source-wordcount: '364'
+ht-degree: 27%
 
 ---
 
@@ -48,21 +48,21 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Zusammengesetzte Zielgruppen in Journey</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt in Komposition-Workflows in Ihren Journey erstellte Zielgruppen verwenden, um Kunden anzusprechen. Nachdem eine Audience-Komposition veröffentlicht und die Audience gespeichert wurde, verwenden Sie die Aktivität Audience lesen , um diese neue Audience auf Ihrer Journey-Arbeitsfläche auszuwählen.</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
