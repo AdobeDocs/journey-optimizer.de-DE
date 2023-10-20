@@ -4,14 +4,19 @@ description: Erfahren Sie, wie Sie Testprofile auswählen, um Inhalte in der Vor
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 48%
+source-wordcount: '230'
+ht-degree: 42%
 
 ---
 
 # Auswählen der Testprofile {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="Verwenden Sie Testprofile, um Ihren Inhalt zu überprüfen."
+>abstract="Verwenden Sie Testprofile, um Ihre Inhalte in der Vorschau anzuzeigen und zu testen. Wenn Sie personalisierte Felder hinzugefügt haben, können Sie anhand von Testprofildaten prüfen, wie diese angezeigt werden."
 
 Vor der Vorschau oder dem Testen Ihres Inhalts müssen Sie zunächst Testprofile auswählen, bei denen es sich um zusätzliche Empfänger handelt, die nicht den definierten Targeting-Kriterien entsprechen. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
 

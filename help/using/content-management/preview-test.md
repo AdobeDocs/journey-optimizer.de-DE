@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Inhalte in der Vorschau anzeigen und tes
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '308'
+ht-degree: 26%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Nachrichtenvorschau und Testversand"
->abstract="Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen dessen Inhalt in der Vorschau anzeigen."
+>title="Überprüfen der Inhaltsdarstellung"
+>abstract="Sobald Ihr Inhalt definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau davon anzeigen und überprüfen, ob das Rendering je nach verwendetem Kanal korrekt ist."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="Überprüfen der Inhaltsdarstellung"
+>abstract="Nachdem Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 ## Über Inhaltsvorschau und -test {#about}
 
