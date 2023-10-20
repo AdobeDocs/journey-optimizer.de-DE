@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 87%
 
 ---
 
 # Sammlungen {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="Erstellen von Sammlungen"
+>abstract="Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Diese Kategorien werden durch das Verfassen von Regeln erstellt, die die Attribute von Entscheidungselementen nutzen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="Definieren von Regeln für Ihre Sammlung"
+>abstract="Fügen Sie eine oder mehrere Regeln hinzu, um die Elemente zu bestimmen, die in die Sammlung aufgenommen werden sollen. Wählen Sie ein Elementattribut aus, das als Kriterium verwendet werden soll. Wählen Sie den gewünschten Operator aus und geben Sie den Wert ein, nach dem gefiltert werden soll. Fügen Sie so viele Regeln wie nötig hinzu."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="Wählen Sie eine Sammlung aus"
+>abstract="Wählen Sie die Kollektion aus, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Sie können beispielsweise eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert &quot;Yoga&quot;im benutzerdefinierten Attribut &quot;Kategorie&quot;enthält."
 
 >[!BEGINSHADEBOX]
 

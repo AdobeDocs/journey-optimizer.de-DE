@@ -9,14 +9,27 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 84%
 
 ---
 
 # Erstellen von Auswahlstrategien {#selection-strategies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_strategies"
+>title="Auswahlstrategien definieren"
+>abstract="Eine Auswahlstrategie ist ein wiederverwendbares Element, das aus einer Sammlung besteht, die mit einer Eignungsbegrenzung verknüpft ist, und einer Rangfolgenmethode, mit der bestimmt wird, welche Angebote angezeigt werden, wenn sie in einer Entscheidungsrichtlinie ausgewählt sind."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_eligibility"
+>title="Eingrenzen der förderfähigen Profile"
+>abstract="Sie können die Auswahl der Angebote für diese Auswahlstrategie einschränken. Standardmäßig sind alle Profile berechtigt. Sie können jedoch Zielgruppen oder Regeln verwenden, um die Angebotsauswahl auf bestimmte Profile zu beschränken."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Verwenden von Zielgruppen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Entscheidungsregeln verwenden"
 
 >[!BEGINSHADEBOX]
 
@@ -69,7 +82,7 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 
    ![](assets/strategy-create-screen.png)
 
-1. Wählen Sie die [Angebotssammlung](collections.md) aus, die die zu berücksichtigenden Angebote enthält.
+1. Wählen Sie die [collection](collections.md) , der die zu berücksichtigenden Angebote enthält.
 
 1. Verwenden Sie das Feld **[!UICONTROL Eignung]**, um die Auswahl der Angebote für diese Platzierung zu beschränken.
 
@@ -90,6 +103,12 @@ Gehen Sie wie folgt vor, um eine neue Auswahlstrategie zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Es kann jetzt in einer [Entscheidung](create-decision.md) verwendet werden
 
 ## Auswählen einer Rangfolgenmethode {#select-ranking-method}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_ranking"
+>title="Festlegen der Rangfolge von Angeboten"
+>abstract="Wenn mehrere Angebote für eine bestimmte Auswahlstrategie infrage kommen, wählen Sie bei der Erstellung einer Auswahlstrategie die Methode aus, die das beste Angebot für jedes Profil auswählt: Priorität oder Rangansicht."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Erstellen von Entscheidungsrichtlinien"
 
 Wenn mehrere Angebote für eine bestimmte Platzierung infrage kommen, können Sie beim Erstellen einer Entscheidungsstrategie die Methode wählen, die für jedes Profil das beste Angebot auswählt. Sie können Angebote nach folgenden Kriterien sortieren:
 
