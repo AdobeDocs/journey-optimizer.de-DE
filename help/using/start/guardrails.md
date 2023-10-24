@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 86%
+source-wordcount: '1650'
+ht-degree: 85%
 
 ---
 
@@ -124,7 +124,11 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
 
-## Entscheidungs-Management {#decision-management}
+## Limits für Zielgruppen {#audience}
+
+* Sie können bis zu 10 Zielgruppenkompositionen in einer bestimmten Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+
+## Schutzmaßnahmen beim Entscheidungs-Management {#decision-management}
 
 ### Leistungsgarantien {#performance-guardrails}
 
