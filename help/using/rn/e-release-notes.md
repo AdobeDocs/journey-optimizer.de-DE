@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Weitere Informationen finden Sie in der <a href="../audience/get-started-audience-orchestration.md">ausführlichen Dokumentation</a>.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur für Beta mit Sinch verfügbar ist.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Verbesserungen {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 **Zielgruppen**
 
 * Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
+* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenzusammensetzung erstellt wurden, und Anreicherungsattribute in Journey nutzen.
 
-**Spam-Bewertung für E-Mails**
+>[!AVAILABILITY]
+>
+>Diese Funktionen sind derzeit als private Beta-Version verfügbar.
 
-* Bei der Simulation eines E-Mail-Inhalts können Sie mit einer neuen Option die Leistung Ihres Inhalts in Bezug auf die Filterung von Postfächern nach Spam überprüfen. Diese Funktion wird derzeit nur einer Reihe von Kunden vorgeschlagen (eingeschränkte Verfügbarkeit) und ist für den E-Mail-Kanal verfügbar.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Warnhinweise**
 
-* Neue Warnhinweise zu Journey Optimizer-Kampagnen sind jetzt im Abschnitt **Warnhinweise** Menü.
+* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt.
 
 **Kampagnen**
 
@@ -86,8 +108,16 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Journeys**
 
-* Die maximale Dauer, die Sie in der Warteaktivität definieren können, beträgt jetzt 29 Tage anstelle von 30 Tagen.
+* Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Dies gilt für:
+
+   * die **Dauer** im Feld [Warteaktivität](../building-journeys/wait-activity.md)
+   * die **Wartezeit beim erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
+   * die **Warten auf** -Feld in der Timeout-Definition von [Allgemein](../building-journeys/general-events.md#events-specific-time) und [Reaktion](../building-journeys/reaction-events.md) -Ereignisse.
 
 **Einverständnis in der Kanalkonfiguration**
 
 * Jetzt können Sie eine Marketing-Aktion auf der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kunden zu respektieren.
+
+**Entscheidungs-Management**
+
+* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Entscheidungs-Verwaltungsoberfläche wurden aktualisiert.

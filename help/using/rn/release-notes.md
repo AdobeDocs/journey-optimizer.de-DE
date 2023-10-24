@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '4254'
-ht-degree: 97%
+source-wordcount: '4606'
+ht-degree: 90%
 
 ---
 
@@ -31,6 +31,110 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
+## Frühzeitige Versionshinweise vom Oktober 2023 {#oct-rn-2023}
+
+Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden am Veröffentlichungsdatum veröffentlicht.
+
+**Veröffentlichungsdatum**: 25.-26. Oktober 2023
+
+### Neue Funktionen{#oct-2023-features}
+
+Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
+
+<table>
+<thead>
+<tr>
+<th><strong>Sandbox-Tools</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sandbox-Tools ermöglichen es Ihnen, Objekte über mehrere Sandboxes hinweg zu kopieren, indem Sie Package-Export und -Import nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Composed audiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur für Beta mit Sinch verfügbar ist.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#oct-2023-improvements}
+
+Diese Version enthält die unten aufgeführten Verbesserungen.
+
+**Zielgruppen**
+
+* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
+* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenzusammensetzung erstellt wurden, und Anreicherungsattribute in Journey nutzen.
+
+>[!AVAILABILITY]
+>
+>Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**Warnhinweise**
+
+* Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt.
+
+**Kampagnen**
+
+* Jetzt können Sie eine Live-einmalige Kampagne stoppen, Änderungen vornehmen und sie wieder fortsetzen. Diese Verbesserung ist in der Betaversion verfügbar.
+
+**Journeys**
+
+* Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Dies gilt für:
+
+   * die **Dauer** im Feld [Warteaktivität](../building-journeys/wait-activity.md)
+   * die **Wartezeit beim erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
+   * die **Warten auf** -Feld in der Timeout-Definition von [Allgemein](../building-journeys/general-events.md#events-specific-time) und [Reaktion](../building-journeys/reaction-events.md) -Ereignisse.
+
+**Landingpages**
+
+* Bei Verwendung der Formularkomponente der Landingpage können Sie jetzt ein E-Mail-Feld mit eigenen spezifischen Optionen hinzufügen.
+
+**Einverständnis in der Kanalkonfiguration**
+
+* Jetzt können Sie eine Marketing-Aktion auf der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kunden zu respektieren.
+
+**Entscheidungs-Management**
+
+* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Entscheidungs-Verwaltungsoberfläche wurden aktualisiert.
 
 ## Versionshinweise für September 2023 {#sept-rn-2023}
 
