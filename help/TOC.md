@@ -5,10 +5,10 @@ user-guide-title: Handbuch für Journey Optimizer
 user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene, kontextuelle und personalisierte Erlebnisse für Kunden erstellen und bereitstellen.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 96%
+source-wordcount: '1703'
+ht-degree: 95%
 
 ---
 
@@ -262,7 +262,10 @@ ht-degree: 96%
       + [Inhaltsgenerierung](using/content-management/generative-content.md)
       + [Bildgenerierung](using/content-management/generative-image.md)
    + Mehrsprachige Inhalte verwenden{#content-multilingual}
-      + [Mehrsprachige Inhalte erstellen](using/content-management/multilingual-manual.md)
+      + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
+      + [Mehrsprachige Inhalte mit manueller Übersetzung erstellen](using/content-management/multilingual-manual.md)
+      + [Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](using/content-management/multilingual-automated.md)
+      + [Mehrsprachiger Kampagnenbericht](using/content-management/multilingual-report.md)
    + Assets/Bilder {#assets-images}
       + [Verwenden von Assets Essentials](using/content-management/assets-essentials.md)
       + [Arbeiten mit Adobe Stock](using/content-management/stock.md)

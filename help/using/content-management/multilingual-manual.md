@@ -10,17 +10,35 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 18%
+source-wordcount: '658'
+ht-degree: 7%
 
 ---
 
-# Mehrsprachige Inhalte erstellen {#multilingual}
+# Mehrsprachige Inhalte mit manueller Übersetzung erstellen {#multilingual-manual}
 
-Die mehrsprachige Funktion ermöglicht es Ihnen, mühelos Inhalte in mehreren Sprachen innerhalb einer Kampagne zu erstellen. Mit dieser Funktion können Sie bei der Bearbeitung Ihrer Kampagne zwischen Sprachen wechseln, den gesamten Bearbeitungsvorgang optimieren und Ihre Fähigkeit zur effizienten Verwaltung mehrsprachiger Inhalte verbessern.
+>[!BEGINSHADEBOX]
+
+**Inhaltsverzeichnis**
+
+* [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
+* **[Mehrsprachige Inhalte mit manueller Übersetzung erstellen](multilingual-manual.md)**
+* [Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](multilingual-automated.md)
+* [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Mithilfe des manuellen Workflows können Sie Ihren Inhalt mühelos direkt in Ihre E-Mail-, Push-Benachrichtigung- oder SMS-Kampagne übersetzen, wodurch Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten erhalten. Darüber hinaus können Sie bereits vorhandene mehrsprachige Inhalte mit der Option HTML importieren einfach importieren.
+
+Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mit manueller Übersetzung zu erstellen:
+
+1. [Gebietsschema erstellen](#create-locale).
+
+1. [Spracheinstellungen erstellen](#create-language-settings).
+
+1. [Mehrsprachige Kampagne erstellen](#create-a-multilingual-campaign).
 
 ## Gebietsschema erstellen {#create-locale}
 
@@ -86,7 +104,9 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 
 ## Mehrsprachige Kampagne erstellen {#create-multilingual-campaign}
 
-1. Erstellen und konfigurieren Sie zunächst Ihre Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
+Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne entwerfen und den Inhalt für jedes Ihrer ausgewählten Gebietsschemas anpassen.
+
+1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
 
 1. Navigieren Sie zum **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Inhalt bearbeiten]**.
 
@@ -132,34 +152,6 @@ Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht w
 
 Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten messen.
 
-## Mehrsprachiger Kampagnenbericht {#multilingual-campaign-report}
-
-Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
-
-Weitere Informationen zu den im Campaign-Bericht verfügbaren Daten finden Sie unter [diese Seite](../reports/campaign-global-report.md).
-
-+++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für Ihren mehrsprachigen Inhalt verfügbar sind.
-
-![](assets/report_multilingual.png)
-
-Die **[!UICONTROL Versandstatistiken von E-Mails nach Sprachen]** Widget erläutert den Erfolg Ihres Versands in Abhängigkeit von Ihrer **[!UICONTROL Gebietsschemata]**:
-
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
-
-* **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
-
-Die **[!UICONTROL Statistiken des E-Mail-Trackings nach Sprachen]** Widget enthält die für die Empfängeraktivität für Ihren Versand verfügbaren Daten. **[!UICONTROL Gebietsschemata]**:
-
-* **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
-
-* **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen der Nachricht.
-
-* **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt.
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -167,14 +159,4 @@ Die **[!UICONTROL Statistiken des E-Mail-Trackings nach Sprachen]** Widget enth�
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->
