@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
-ht-degree: 90%
+source-wordcount: '4584'
+ht-degree: 91%
 
 ---
 
@@ -120,10 +120,6 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
    * die **Dauer** im Feld [Warteaktivität](../building-journeys/wait-activity.md)
    * die **Wartezeit beim erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
    * die **Warten auf** -Feld in der Timeout-Definition von [Allgemein](../building-journeys/general-events.md#events-specific-time) und [Reaktion](../building-journeys/reaction-events.md) -Ereignisse.
-
-**Landingpages**
-
-* Bei Verwendung der Formularkomponente der Landingpage können Sie jetzt ein E-Mail-Feld mit eigenen spezifischen Optionen hinzufügen.
 
 **Einverständnis in der Kanalkonfiguration**
 
