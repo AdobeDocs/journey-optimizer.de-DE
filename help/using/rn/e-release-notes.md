@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 24%
+source-wordcount: '350'
+ht-degree: 26%
 
 ---
 
@@ -100,7 +100,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Kampagnen**
 
-* Jetzt können Sie eine Live-einmalige Kampagne stoppen, Änderungen vornehmen und sie wieder fortsetzen. Diese Verbesserung ist in der Betaversion verfügbar.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * Tritt in einer Ihrer Kampagnen ein Fehler auf, wird in der Kampagnenliste neben dem Status der Kampagne nun ein Warnsymbol angezeigt.
 
 **Journeys**
