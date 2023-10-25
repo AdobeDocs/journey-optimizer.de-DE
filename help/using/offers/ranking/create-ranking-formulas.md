@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
@@ -40,6 +40,10 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
    In diesem Beispiel möchten wir die Priorität aller Angebote durch Hinzufügen des Attributs „heiß“ erhöhen, wenn das Wetter heiß ist. Zu diesem Zweck wurde **contextData.weather=hot** im Entscheidungsaufruf übergeben.
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >Bei der Erstellung einer Rangformel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. Wenn Sie beispielsweise ein Erlebnisereignis angeben, das im letzten Monat als Komponente der Formel aufgetreten ist. Bei jedem Versuch, einen Lookback-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler Trigger.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
 
