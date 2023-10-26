@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Es ist Best Practice, keine Wartezeiten zu verwenden, um den erneuten Eintritt z
 
 ## Wartezeit mit Dauer{#duration}
 
-Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus.
+Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus. Die maximale Dauer beträgt 29 Tage.
 
 ![](assets/journey55.png)
 

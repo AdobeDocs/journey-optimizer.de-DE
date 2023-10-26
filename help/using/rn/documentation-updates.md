@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 96%
+source-wordcount: '3956'
+ht-degree: 94%
 
 ---
 
@@ -21,10 +21,15 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Oktober 2023 {#oct-2023}
 
+* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Oktober wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurden GIF hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für die Entscheidungsverwaltung](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md), und [Inhaltsexperiment](../campaigns/content-experiment.md).
 * Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Adobe Experience Platform-Änderungen eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
 * Auf der Seite &quot;Limits und Einschränkungen&quot;wurden Limits für die Entscheidungsverwaltung hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
+* Der Abschnitt zu Kopfzeilenparametern wurde aktualisiert, um die Handhabung von Abwesenheitsbenachrichtigungen und Anforderungsantworten widerzuspiegeln (sie werden auf der Seite **[!UICONTROL Fehler-Email]**). [Weitere Informationen](../email/email-settings.md#email-header)
 * Ein neuer Abschnitt über die Vorschau und den Test Ihres Inhalts wurde erstellt - [Weitere Informationen](../content-management/preview-test.md)
+* Die Seite Einseitige Anwendungen implementieren wurde in die Dokumentation zum Adobe Experience Platform Web SDK verschoben. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* Der Abschnitt &quot;Begrenzung&quot;wurde aktualisiert, um die Beschriftungsänderungen im Zusammenhang mit der Angebotsbegrenzung in der Entscheidungs-Management-Oberfläche widerzuspiegeln. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Der Abschnitt zum Hinzufügen dynamischer Inhalte zu E-Mails wurde aktualisiert und enthält jetzt Informationen zum Löschen einer Variante - [Weitere Informationen](../personalization/dynamic-content.md#emails)
 
 ## September 2023 {#september-2023}
 
@@ -39,7 +44,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Links zur Dokumentation zur Zugriffssteuerung wurden aktualisiert. [Weitere Informationen](../administration/permissions.md)
 * Die Voraussetzungen für In-App-Kanäle wurden mit Details zur Datenerfassung von Adobe Experience Platform aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Einige der in Beispielen für Ranking-Formeln dargestellten Ausdrücke wurden aktualisiert, um Validierungsfehler zu vermeiden. [Weitere Informationen](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Der **Definieren von Entscheidungsbereichen** um anzugeben, dass bei Verwendung des KI-Modells in einer Bewertungskriterien-Gruppe alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode mit demselben spezifischen KI-Modell verwenden müssen. Darüber hinaus kann nur eine Bewertungskriterien-Gruppe das KI-Modell verwenden. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Im Abschnitt Entscheidungsbereiche definieren wurde eine Warnung hinzugefügt, die spezifiziert, dass bei Verwendung des KI-Modells in einer Bewertungskriterien-Gruppe alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode mit demselben spezifischen KI-Modell verwenden müssen. Darüber hinaus kann nur eine Bewertungskriterien-Gruppe das KI-Modell verwenden. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## August 2023 {#august-2023}
 
@@ -173,7 +178,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version August 2022 wurden in der Dokumentation beschrieben. [Mehr dazu](release-notes.md)
 * Der Abschnitt zu den Häufigkeitsregeln wurde aktualisiert, um den neuen Ablauf für Inline-Messaging widerzuspiegeln. [Mehr dazu](../configuration/frequency-rules.md#apply-frequency-rule)
 * Im Abschnitt zu den ersten Schritten mit Landingpages wird jetzt auf ein Video verwiesen, in dem die Konfiguration von Abonnements und die Erstellung von Landingpages erläutert wird. [Mehr dazu](../landing-pages/get-started-lp.md#video)
-* Für Journeys, bei denen Aktivitäten vom Typ „Zielgrupppe lesen“ verwendet werden, wurde eine Einschränkung hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md)
+* Für Journeys, bei denen Aktivitäten vom Typ „Zielgruppe lesen“ verwendet werden, wurde eine Einschränkung hinzugefügt. [Weitere Informationen](../building-journeys/read-audience.md)
 * Die Seite mit den Operatoren des Ausdruckseditors wurde verbessert. [Mehr dazu](../building-journeys/expression/operators.md)
 * Es wurde ein Abschnitt über die Planung einer Kampagne hinzugefügt. [Mehr dazu](../campaigns/create-campaign.md)
 * Der Abschnitt mit allgemeinen Syntaxregeln für den Ausdruckseditor wurde aktualisiert, um die neue Regel bezüglich Escaping des umgekehrten Schrägstrichs in literalen Funktionen zu berücksichtigen. Die vorhandenen veröffentlichten Nachrichten sind von dieser Änderung nicht betroffen. Nur neue Nachrichten oder Nachrichtenentwürfe müssen aktualisiert werden. [Mehr dazu](../personalization/personalization-syntax.md#general-rules)

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 90%
 
 ---
 
@@ -60,13 +60,13 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
 Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer zu erstellen:
 
-1. Wählen Sie in E-Mail-Designer eine Inhaltskomponente aus und klicken Sie dann auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
+1. Im [Email Designer](../email/content-from-scratch.md), wählen Sie eine Inhaltskomponente aus und klicken Sie auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Seite angezeigt. In diesem Bereich können Sie mithilfe von Bedingungen mehrere Varianten der ausgewählten Inhaltskomponente erstellen.
 
-   Konfigurieren Sie Ihre erste Variante, indem Sie auf die Schaltfläche **[!UICONTROL Bedingung anwenden]** klicken.
+   Konfigurieren Sie Ihre erste Variante, indem Sie die **[!UICONTROL Bedingung auswählen]** Schaltfläche.
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
 
    Sie können auch eine neue Regel erstellen, indem Sie auf **[!UICONTROL Neu erstellen]** klicken. [Erfahren Sie, wie Sie Bedingungen erstellen](create-conditions.md)
 
-1. Die bedingte Regel ist mit der Variante verknüpft. Um die Lesbarkeit zu verbessern, empfiehlt es sich, die Variante durch Klicken auf das Menü mit den Auslassungspunkten umzubenennen.
+1. Die bedingte Regel ist mit der Variante verknüpft. Benennen Sie die Variante um, indem Sie die Option **[!UICONTROL Umbenennen]** Aktion über das Symbol Mehr Aktionen .
 
-   Konfigurieren Sie jetzt, wie die Komponente angezeigt werden soll, wenn die Regel beim Senden der Nachricht erfüllt ist. In diesem Beispiel soll der Text auf Französisch angezeigt werden, wenn dies die bevorzugte Sprache des Empfängers ist.
+   ![](assets/conditions-rename.png)
+
+1. Konfigurieren Sie, wie die Komponente angezeigt werden soll, wenn die Regel beim Senden der Nachricht erfüllt ist. In diesem Beispiel soll der Text auf Französisch angezeigt werden, wenn dies die bevorzugte Sprache des Empfängers ist.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
    >Wenn beim Senden der Nachricht keine der in den Varianten definierten Regeln erfüllt ist, zeigt die Inhaltskomponente den in der **[!UICONTROL Standardvariante]** definierten Inhalt an.
    >
    >Bedingte Inhalte werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der die Varianten angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
+
+1. Um eine Variante zu löschen, klicken Sie auf das Symbol Mehr Aktionen neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]**.
+
+   ![](assets/conditions-delete.png)

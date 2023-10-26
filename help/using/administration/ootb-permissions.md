@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 99%
+source-wordcount: '726'
+ht-degree: 95%
 
 ---
 
 # Integrierte Berechtigungen {#ootb-permissions}
+
+Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die zugewiesen werden können **[!UICONTROL Rolle]** , um den Benutzerzugriff auf Journey Optimizer zu optimieren. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene, siehe [diese Seite](high-low-permissions.md).
 
 | Funktion | Berechtigungen |
 |-|-|

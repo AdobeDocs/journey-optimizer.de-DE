@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 99%
+source-wordcount: '2386'
+ht-degree: 92%
 
 ---
 
@@ -95,7 +95,7 @@ Im Abschnitt **[!UICONTROL Angebotseignung]** können Sie das Angebot auf bestim
 
 * Wenn Sie eine bestimmte [Entscheidungsregel](../offer-library/creating-decision-rules.md) mit dem Angebot verknüpfen möchten, wählen Sie **[!UICONTROL Nach definierter Entscheidungsregel]** aus und ziehen Sie die gewünschte Regel dann aus dem linken Bereich in den Bereich **[!UICONTROL Entscheidungsregel]**.
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ Durch die Begrenzung der Anzeige von Angeboten vermeiden Sie, dass Ihre Kunden �
 
 Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
-1. Stellen Sie sicher, dass die Umschalt-Schaltfläche **[!UICONTROL Begrenzung einschließen]** ausgewählt ist. Die Begrenzung ist standardmäßig eingeschlossen.
+1. Stellen Sie sicher, dass **[!UICONTROL Begrenzung aktivieren]** Die Umschalter-Schaltfläche ist ausgewählt. Die Begrenzung ist standardmäßig aktiviert.
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ Gehen Sie wie folgt vor, um Begrenzungen festzulegen.
 
 1. Legen Sie die **[!UICONTROL Häufigkeit]** fest, um festzulegen, wie oft die Begrenzungsanzahl zurückgesetzt wird. [Weitere Informationen](#frequency-capping)
 
-1. Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten. [Weitere Informationen](#placements)
+1. Wenn Sie mehrere [Darstellungen](add-representations.md) Geben Sie für Ihr Angebot an, ob Sie eine Begrenzung anwenden möchten. **über alle Platzierungen hinweg** oder **zu jeder Platzierung**. [Weitere Informationen](#placements)
 
 1. Wenn das Angebot nach dem Speichern und der Genehmigung entsprechend den von Ihnen festgelegten Kriterien und dem Zeitrahmen so oft präsentiert wurde, wie Sie in diesem Feld angegeben haben, wird es nicht mehr bereitgestellt.
 
@@ -179,7 +179,7 @@ Die Häufigkeit, mit der ein Angebot vorgeschlagen wird, wird zum Zeitpunkt der 
 >title="Impression"
 >abstract="Die Verwendung von Impressions als Begrenzungsereignisse ist nur für eingehende Kanäle verfügbar."
 
-Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches **[!UICONTROL Begrenzungsereignis]** für die Erhöhung des Zählers berücksichtigt wird.
+Die **[!UICONTROL Begrenzungsereignis]** -Feld können Sie definieren, welches Ereignis zur Erhöhung des Zählers berücksichtigt werden soll:
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ Mit dem Feld **[!UICONTROL Begrenzungsereignis]** können Sie festlegen, welches
 
 ### Begrenzungsanzahl {#capping-count}
 
-Mit dem Feld **[!UICONTROL Begrenzungsanzahl]** können Sie angeben, wie oft das Angebot unterbreitet werden kann.
+Die **[!UICONTROL Begrenzung der Anzahl]** -Feld können Sie angeben, wie oft das Angebot unterbreitet werden kann.
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ Mit dem Feld **[!UICONTROL Begrenzungsanzahl]** können Sie angeben, wie oft das
 >
 >Der Wert muss eine Ganzzahl größer 0 sein.
 
-Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Begrenzungsanzahl]** 10 eingeben, werden nach 10 Checkouts keine Angebote mehr gesendet.
+Sie haben beispielsweise festgelegt, dass ein benutzerdefiniertes Begrenzungsereignis wie etwa die Anzahl von Checkouts berücksichtigt wird. Wenn Sie im Feld **[!UICONTROL Begrenzung der Anzahl]** -Feld, werden nach 10 Checkouts keine Angebote mehr gesendet.
 
 ### Begrenzungstyp {#capping-type}
 
@@ -258,7 +258,7 @@ Im Abschnitt **[!UICONTROL Häufigkeit]** können Sie festlegen, wie oft die Beg
 >
 >Das Zurücksetzen erfolgt um 12 Uhr UTC an dem von Ihnen festgelegten Tag oder gegebenenfalls am ersten Tag der Woche bzw. des Monats. Der erste Tag der Woche ist der Sonntag. Die von Ihnen gewählte Dauer darf 2 Jahre nicht überschreiten (d. h. die entsprechende Anzahl von Monaten, Wochen oder Tagen).
 
-Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** in der Dropdown-Liste **[!UICONTROL Wiederholen]** und den Typ **2** im anderen Feld aus. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
+Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möchten, wählen Sie **[!UICONTROL Wöchentlich]** aus der entsprechenden Dropdown-Liste aus und geben Sie **2** im anderen Feld. Das Zurücksetzen erfolgt jeden zweiten Sonntag um 24:00 Uhr UTC.
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ Wenn Sie beispielsweise die Begrenzungsanzahl alle 2 Wochen zurücksetzen möcht
 
 ### Begrenzung und Platzierungen {#placements}
 
-Wenn Sie mehrere [Darstellungen](add-representations.md) für Ihr Angebot haben, geben Sie an, ob Sie eine Begrenzung auf **[!UICONTROL alle Platzierungen]** oder **[!UICONTROL auf eine einzelne Platzierung]** anwenden möchten.
+Wenn Sie mehrere [Darstellungen](add-representations.md) Geben Sie für Ihr Angebot an, ob Sie eine Begrenzung für alle Platzierungen oder für jede Platzierung anwenden möchten.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Alle Platzierungen]**: Die Begrenzungswerte beziehen sich auf alle Entscheidungen in allen Platzierungen, die mit dem Angebot verbunden sind.
+* **[!UICONTROL Begrenzung auf alle Platzierungen anwenden]**: Durch Begrenzungszahlen werden alle Entscheidungen über die mit dem Angebot verknüpften Platzierungen hinweg zusammengefasst.
 
   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung mit **2 pro Profil für alle Platzierungen** festlegen, kann jedes Profil unabhängig vom Platzierungs-Mix das Angebot insgesamt bis zu zweimal erhalten.
 
-* **[!UICONTROL Einzelne Platzierung]**: Die Begrenzungswerte beziehen sich auf jede einzelne Platzierung.
+* **[!UICONTROL Begrenzung auf jede Platzierung anwenden]**: Begrenzungszahlen wenden die Entscheidungszählungen für jede Platzierung separat an.
 
   Wenn beispielsweise ein Angebot eine **E-Mail**-Platzierung und eine **Web**-Platzierung hat und Sie die Begrenzung auf **2 pro Profil für jede Platzierung** festlegen, kann jedes Profil das Angebot bis zu zweimal für die E-Mail-Platzierung und zusätzlich zweimal für die Web-Platzierung erhalten.
 

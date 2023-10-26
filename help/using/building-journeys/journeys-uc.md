@@ -9,10 +9,10 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 87%
 
 ---
 
@@ -24,13 +24,13 @@ In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der die Aktivität „Z
 
 ## Beschreibung des Anwendungsfalls
 
-Bei diesem Anwendungsfall möchten wir eine erste Nachricht (E-Mail und Push-Benachrichtigung) an alle Kundinnen und Kunden senden, die zu einer bestimmten Zielgruppe gehören.
+In diesem Anwendungsfall möchten wir eine erste E-Mail-Nachricht an alle Kunden senden, die zu einer bestimmten Zielgruppe gehören.
 
 Abhängig von ihrer jeweiligen Reaktion auf die erste Nachricht möchten wir spezifische Nachrichten senden.
 
-Nach der ersten Nachricht warten wir einen Tag lang, bis Kunden die Push- oder E-Mail-Nachricht öffnen. Wenn keine Reaktion erfolgt, senden wir eine Follow-up-E-Mail.
+Wenn der Kunde die E-Mail öffnet, warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu danken.
 
-Dann warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu danken.
+Wenn keine Reaktion erfolgt, senden wir eine Follow-up-E-Mail.
 
 ## Voraussetzungen
 
@@ -93,21 +93,13 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
    ![](assets/jo-uc5.png)
 
-1. Platzieren Sie den Cursor auf der Aktivität „E-Mail“ und klicken Sie auf das Pluszeichen „+“, um einen neuen Pfad zu erstellen.
+1. Hinzufügen einer **Reaktion** Ereignis und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, wenn eine der Zielgruppe angehörende Person die E-Mail öffnet.
 
-1. Fügen Sie im ersten Pfad ein Ereignis **Reaktion** hinzu und wählen Sie **Push-Benachrichtigung geöffnet**. Das Ereignis wird ausgelöst, sobald eine zur Zielgruppe gehörende Person die Push-Version der ersten Nachricht öffnet.
-
-1. Fügen Sie im zweiten Pfad ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald der Kontakt die E-Mail öffnet.
-
-1. Markieren Sie in einer der Reaktionsaktivitäten die Option **Maximale Wartezeit für das Ereignis definieren**, definieren Sie die Dauer (1 Tag in unserem Beispiel) und aktivieren Sie **Zeitüberschreitungspfad einrichten**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
-
-   >[!NOTE]
-   >
-   >Beim Konfigurieren der maximalen Wartezeit für mehrere Ereignisse (in diesem Fall die beiden Reaktionen) müssen Sie die maximale Wartezeit nur für eines dieser Ereignisse konfigurieren.
+1. Überprüfen Sie die **Definieren des Ereignis-Timeouts** ein, legen Sie eine Dauer fest (in unserem Beispiel einen Tag) und aktivieren Sie die Option **Zeitüberschreitungspfad festlegen**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
 1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Benachrichtigung öffnen. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
-1. Verbinden Sie die drei Pfade mit dem zuvor erstellten Kaufereignis. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
+1. Fügen Sie im ersten Pfad das zuvor erstellte Kaufereignis hinzu. Dieses Ereignis wird ausgelöst, wenn ein Kontakt einen Kauf tätigt.
 
 1. Legen Sie nach dem Ereignis die Aktionsaktivität **Push** im Arbeitsbereich ab und definieren Sie den Inhalt der Dankesnachricht. In diesem [Abschnitt](../push/create-push.md) erfahren Sie, wie Sie eine Push-Benachrichtigung konfigurieren und gestalten können.
 

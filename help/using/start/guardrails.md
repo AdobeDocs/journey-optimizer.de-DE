@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 85%
+source-wordcount: '1698'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,13 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Die **Formular**-Komponente kann nicht in Unterseiten verwendet werden.
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
+
+## Limits bei SMS {#sms-guardrails}
+
+* MMS-Funktion ist nur für Sinch verfügbar.
+* Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
+* Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
+* Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
 ## Schutzmaßnahmen bei Journeys {#journeys-guardrails}
 
