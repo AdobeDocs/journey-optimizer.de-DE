@@ -11,10 +11,10 @@ keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 86%
+source-wordcount: '1730'
+ht-degree: 84%
 
 ---
 
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. Wählen Sie für jede Phase die Kampagne aus, die Sie mit dieser Phase des IP-Aufwärmplans verbinden möchten.
 
+   >[!NOTE]
+   >
+   >Sie können keine Kampagne auswählen, die bereits in einem anderen IP-Warmup-Plan verwendet wird. Dieselbe Kampagne kann jedoch in einer oder mehreren Phasen desselben IP-Warmup-Plans verwendet werden.
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * Nur Kampagnen, für die die Option **[!UICONTROL Aktivierung des IP-Aufwärmplans]** aktiviert ist, <!--and live?--> stehen zur Auswahl zur Verfügung. [Weitere Informationen](#create-ip-warmup-campaign)
+   >* Nur Kampagnen, für die die Option **[!UICONTROL Aktivierung des IP-Aufwärmplans]** aktiviert ist,  stehen zur Auswahl zur Verfügung. [Weitere Informationen](#create-ip-warmup-campaign)
    >
    >* Sie müssen eine Kampagne auswählen, die dieselbe Oberfläche wie die für den aktuellen IP-Aufwärmplan ausgewählte Oberfläche verwendet.
-   >
-   >* Sie können keine Kampagne auswählen, die bereits in einem anderen IP-Warmup-Plan verwendet wird.
-
 
 1. Im Abschnitt **[!UICONTROL Profilausschluss]** können Sie sehen, dass die Profile aus den vorherigen Ausführungen dieser Phase immer ausgeschlossen sind. Wenn beispielsweise in der Ausführung Nr. 1 ein Profil aus den ersten 4800 angesprochenen Personen behandelt wurde, stellt das System automatisch sicher, dass dasselbe Profil die E-Mail in Ausführung Nr. 2 nicht erhält.
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Ausgeschlossene Kampagnenzielgruppen]** die Zielgruppen aus anderen <!--executed/live?-->Kampagnen, die Sie aus der aktuellen Phase ausschließen möchten.
+1. Aus dem **[!UICONTROL Campaign-Zielgruppen ausgeschlossen]** und wählen Sie die Kampagnenzielgruppen aus anderen <!--executed/live?-->Kampagnen, die Sie aus der aktuellen Phase ausschließen möchten.
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Wenn Sie die **[!UICONTROL Letzte Interaktion]** auf die aktuelle Ausführung setzen, auf 0 setzen.
+   >Wenn Sie keinen Interaktionszeitraum auf einen Lauf anwenden möchten, geben Sie 0 in das Feld **[!UICONTROL Letzte Interaktion]** -Feld.
 
 1. Wählen Sie die Option **[!UICONTROL Pausierung für Fehler]** aus, um eine Ausführung abzubrechen, wenn die qualifizierten Profile weniger sind als die Zielgruppenprofile, nachdem die Zielgruppe für diese Ausführung ausgewertet wurde.
 
