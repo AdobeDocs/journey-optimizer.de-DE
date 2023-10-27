@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 98%
@@ -35,7 +35,7 @@ Wenn Sie warten möchten, bevor Sie die nächste Aktivität im Pfad ausführen, 
 
 ## Informationen zur Warteaktivität{#about_wait}
 
-Die maximale Wartezeit beträgt 30 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
+Die maximale Wartezeit beträgt 29 Tage. Im Testmodus können Sie mit dem Parameter **[!UICONTROL Wartezeit im Test]** die Dauer jeder Warteaktivität festlegen. Der Standardwert ist 10 Sekunden. Dadurch erhalten Sie die Testergebnisse schnell. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
 Seien Sie vorsichtig, wenn Sie mehrere Aktivitäten vom Typ „Warten“ in einer Journey verwenden, da die globale maximale Wartezeit für Journeys 30 Tage beträgt, d. h., ein Profil wird immer 30 Tage nach seinem Eintritt aus der Journey ausgeschlossen. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#global_timeout).
 
