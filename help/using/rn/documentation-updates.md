@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
 source-wordcount: '4010'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -22,9 +22,9 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 ## Oktober 2023 {#oct-2023}
 
 * Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Oktober wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
-* Es wurden GIF hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für die Entscheidungsverwaltung](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md), und [Inhaltsexperiment](../campaigns/content-experiment.md).
-* Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Adobe Experience Platform-Änderungen eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
-* Auf der Seite &quot;Limits und Einschränkungen&quot;wurden Limits für die Entscheidungsverwaltung hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
+* Es wurden GIFs hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für das Entscheidungs-Management](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md) und [Inhaltsexperimente](../campaigns/content-experiment.md).
+* Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Änderungen an Adobe Experience Platform eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
+* Auf der Seite „Limits und Einschränkungen“ wurden Leitlinien für das Entscheidungs-Management hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
 * Der Abschnitt zu Kopfzeilenparametern wurde aktualisiert, um die Handhabung von Abwesenheitsbenachrichtigungen und Anforderungsantworten widerzuspiegeln (sie werden auf der Seite **[!UICONTROL Fehler-Email]**). [Weitere Informationen](../email/email-settings.md#email-header)
 * Ein neuer Abschnitt über die Vorschau und den Test Ihres Inhalts wurde erstellt - [Weitere Informationen](../content-management/preview-test.md)
 * Die Seite Einseitige Anwendungen implementieren wurde in die Dokumentation zum Adobe Experience Platform Web SDK verschoben. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}

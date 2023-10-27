@@ -1,5 +1,5 @@
 ---
-title: Auflisten von Sammlungen
+title: Sammlungen auflisten
 description: Sammlungen sind Untergruppen von Angeboten, die auf von einem Marketing-Experten vordefinierten Bedingungen basieren, z. B. der Kategorie des Angebots.
 feature: Decision Management, API, Collections
 topic: Integrations

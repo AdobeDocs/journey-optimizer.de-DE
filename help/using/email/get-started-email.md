@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="Entwerfen von E-Mails"
->abstract="Verwendung **Adobe Journey Optimizer** , um E-Mail-Nachrichten an Ihre Kunden zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen."
+>abstract="Senden Sie mit **Adobe Journey Optimizer** E-Mail-Nachrichten an Ihre Kundinnen und Kunden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen."
 
 Verwenden Sie [!DNL Journey Optimizer], um E-Mail-Nachrichten an Ihre Kunden zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
@@ -44,9 +44,9 @@ E-Mail-Sendungen können erstellt werden:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Erstellen von" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Erstellen" src="../assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="create-email.md"><strong>E-Mail erstellen</strong>
+<div><a href="create-email.md"><strong>Erstellen einer E-Mail</strong>
 </div>
 <p>
 </td>
@@ -55,7 +55,7 @@ E-Mail-Sendungen können erstellt werden:
 <img alt="Design" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Erstellen einer E-Mail</strong></a>
+<a href="get-started-email-design.md"><strong>Entwerfen einer E-Mail</strong></a>
 </div>
 <p></td>
 <td>

@@ -11,20 +11,20 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Gestalten einer Push-Benachrichtigung {#design-push-notification}
 
-## Titel und Textkörper {#push-title-body}
+## Titel und Hauptteil {#push-title-body}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
->title="Push-Benachrichtigung personalisieren."
->abstract="Um eine Nachricht zu erstellen, geben Sie den Inhalt in die Felder Titel und Hauptteil ein. Um Personalisierungstoken einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
+>title="Personalisieren Sie Ihre Push-Benachrichtigung."
+>abstract="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder „Titel“ und „Hauptteil“ ein. Um Personalisierungs-Token einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
 
-Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Textkörper]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
+Um eine Nachricht zu erstellen, klicken Sie auf die Felder **[!UICONTROL Titel]** und **[!UICONTROL Hauptteil]**. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren, Daten zu personalisieren und dynamische Inhalte hinzuzufügen. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
 Im Bereich für die Gerätevorschau sehen Sie, wie die Push-Benachrichtigung auf iOS- und Android-Geräten dargestellt wird.
 
@@ -47,10 +47,10 @@ Sie können das Verhalten bestimmen, wenn ein Empfänger auf den Hauptteil der P
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
->title="Medien zu Push-Benachrichtigungen hinzufügen"
->abstract="Sie können ein Bild, ein Video oder eine GIF hinzufügen, die in Ihrer Benachrichtigung angezeigt werden."
+>title="Hinzufügen von Medien zu Push-Benachrichtigungen"
+>abstract="Sie können ein Bild, ein Video oder ein GIF hinzufügen, das in Ihrer Benachrichtigung angezeigt wird."
 
-In der iOS-Version Ihrer Push-Benachrichtigung können Sie ein Bild, ein Video oder eine GIF hinzufügen, die in Ihrer Benachrichtigung angezeigt werden.
+In der iOS-Version Ihrer Push-Benachrichtigung können Sie ein Bild, ein Video oder ein GIF hinzufügen, das in Ihrer Benachrichtigung angezeigt wird.
 
 In der Android-Version können Sie nur ein Bildsymbol und ein Bild für erweiterte Benachrichtigungen hinzufügen.
 
@@ -70,7 +70,7 @@ Nach dem Hinzufügen werden die Medien rechts neben dem Textkörper der Benachri
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
->title="Fügen Sie Schaltflächen hinzu, über die Benutzer mit Ihrer Push-Benachrichtigung interagieren können."
+>title="Fügen Sie Schaltflächen hinzu, über die Benutzende mit Ihrer Push-Benachrichtigung interagieren können."
 >abstract="In diesem Abschnitt können Sie Aktionsaufruf-Schaltflächen zu Ihrer Nachricht hinzufügen. Geben Sie für iOS eine Kennung der Benachrichtigungskategorie an. Für Android können Sie für jede Schaltfläche benutzerdefinierten Text und Ziele hinzufügen."
 
 Erstellen Sie eine verwertbare Benachrichtigung, indem Sie Ihrem Push-Inhalt Schaltflächen hinzufügen.

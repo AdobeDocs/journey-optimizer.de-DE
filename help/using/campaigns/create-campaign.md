@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -122,7 +122,7 @@ Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Ka
 
 ## Audience definieren {#audience}
 
-Klicken Sie auf **[!UICONTROL Zielgruppe auswählen]** -Schaltfläche, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
+Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ Personen, die zu einem Segment gehören, das nicht die ausgewählte Identität (
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Kampagnenzeitplan"
->abstract="Standardmäßig starten Kampagnen bei manueller Aktivierung und enden unmittelbar nach dem einmaligen Versand der Nachricht. Sie haben jedoch die Flexibilität, ein bestimmtes Datum und eine bestimmte Uhrzeit für den Versand der Nachricht festzulegen. Darüber hinaus können Sie ein Enddatum für wiederkehrende oder API-gesteuerte Kampagnen angeben. In den Triggern &quot;Aktion&quot;können Sie auch die Versandhäufigkeit der Nachrichten Ihren Vorlieben entsprechend konfigurieren."
+>abstract="Standardmäßig starten Kampagnen bei manueller Aktivierung und enden unmittelbar nach dem einmaligen Versand der Nachricht. Sie haben jedoch die Möglichkeit, ein bestimmtes Datum und eine bestimmte Uhrzeit für den Versand der Nachricht festzulegen. Darüber hinaus können Sie ein Enddatum für wiederkehrende oder API-gesteuerte Kampagnen angeben. In den Aktionsauslösern können Sie auch die Versandhäufigkeit der Nachrichten nach eigenen Wünschen konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

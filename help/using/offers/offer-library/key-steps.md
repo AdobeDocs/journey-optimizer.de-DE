@@ -31,7 +31,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 
 1. **Erstellen Sie Sammlungsqualifizierer** (ehemals als „Tags“ bezeichnet), die Sie mit den Angeboten verknüpfen, damit Sie Angebote einfach organisieren und in der Bibliothek suchen können.
 
-1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie **eine Rangfolgenformel** erstellen.
+1. Wenn Sie Regeln definieren möchten, die bestimmen, welches Angebot für eine bestimmte Platzierung zuerst unterbreitet werden soll (anstatt die Prioritätswerte der Angebote zu berücksichtigen), können Sie **eine Ranglisteformel erstellen**.
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -58,7 +58,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <td>
 <img src="../../assets/do-not-localize/icon-ranking.svg" width="60px">
 <div>
-<a href="../ranking/create-ranking-formulas.md">Rangfolgeformeln erstellen</a>
+<a href="../ranking/create-ranking-formulas.md">Ranglisteformeln erstellen</a>
 </div>
 <p>
 </td>
@@ -78,7 +78,7 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <td>
 <img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
 <div>
-<a href="../offer-library/creating-personalized-offers.md">Angebote erstellen</a>
+<a href="../offer-library/creating-personalized-offers.md">Erstellen von Angeboten</a>
 </div>
 <p>
 </td>
@@ -119,14 +119,14 @@ Bevor Sie mit dem Erstellen von Angeboten beginnen, müssen Sie mehrere Komponen
 <td>
 <img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md#add-offers">Entscheidungen konfigurieren</a>
+<a href="../offer-activities/create-offer-activities.md#add-offers">Konfigurieren von Entscheidungen</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
 <div>
-<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Rangfolge zuweisen</a>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Zuweisen einer Rangfolge</a>
 </div>
 <p>
 </td>

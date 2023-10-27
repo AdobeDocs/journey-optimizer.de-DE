@@ -12,7 +12,7 @@ exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
 >title="Benutzerdefinierte Aktionen"
->abstract="Wenn Sie über Adobe Campaign Standard verfügen, ist eine Integration verfügbar. Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign."
+>abstract="Für Adobe Campaign Standard ist eine Integration verfügbar. Sie ermöglicht Ihnen das Senden von E-Mails, Push-Benachrichtigungen und SMS mit der Transaktionsnachrichtenfunktion von Adobe Campaign."
 
 Wenn Sie über Adobe Campaign Standard verfügen, stehen die folgenden integrierten Aktionsaktivitäten zur Verfügung: **[!UICONTROL E-Mail]**, **[!UICONTROL Push-Benachrichtigung]** und **[!UICONTROL SMS]**.
 

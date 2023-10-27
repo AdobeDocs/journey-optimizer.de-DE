@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verwenden visueller Fragmente
-description: Erfahren Sie, wie Sie visuelle Fragmente beim Erstellen von E-Mails in Journey Optimizer-Kampagnen und -Journey verwenden
+title: Verwenden von visuellen Fragmenten
+description: Erfahren Sie, wie Sie visuelle Fragmente zur Erstellen von E-Mails in Journey Optimizer-Kampagnen und -Journeys verwenden
 feature: Email Design, Fragments
 topic: Content Management
 role: User
@@ -11,21 +11,21 @@ exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# Hinzufügen visueller Fragmente zu E-Mails {#use-visual-fragments}
+# Hinzufügen visueller Fragmente zu Ihren E-Mails {#use-visual-fragments}
 
-Sie können ein visuelles Fragment in einem [email](get-started-email-design.md) innerhalb einer Journey oder einer Kampagne oder in einer [Inhaltsvorlage](../content-management/content-templates.md).
+Im Rahmen einer Journey oder Kampagne können Sie ein visuelles Fragment in einer [E-Mail](get-started-email-design.md) oder einer [Inhaltsvorlage](../content-management/content-templates.md) verwenden.
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie Fragmente in erstellen und verwalten [diesem Abschnitt](../content-management/fragments.md).
+>In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie Fragmente erstellen und verwalten.
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Fragmente verwalten, erstellen und verwenden.](../content-management/fragments.md#video-fragments)
 
-## Fragmente verwenden {#use-fragment}
+## Verwenden eines Fragments {#use-fragment}
 
 1. Öffnen Sie eine beliebige E-Mail oder Inhaltsvorlage mit dem [E-Mail-Designer](get-started-email-design.md).
 
@@ -33,7 +33,7 @@ Sie können ein visuelles Fragment in einem [email](get-started-email-design.md)
 
    ![](assets/fragments-in-designer.png)
 
-1. Die Liste aller in der aktuellen Sandbox erstellten visuellen Fragmente wird angezeigt. Sie haben folgende Möglichkeiten:
+1. Es wird eine Liste aller in der aktuellen Sandbox erstellten Fragmente angezeigt. Sie haben folgende Möglichkeiten:
 
    * Suchen Sie nach einem bestimmten Fragment, indem Sie mit der Eingabe der zugehörigen Kennzeichnung beginnen.
    * Sortieren Sie Fragmente in auf- oder absteigender Reihenfolge.
@@ -81,7 +81,7 @@ Wenn Sie ein visuelles Fragment bearbeiten, werden die Änderungen synchronisier
 
 Wenn Fragmente zu einer E-Mail oder Inhaltsvorlage hinzugefügt werden, werden sie standardmäßig synchronisiert.
 
-Sie können allerdings die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in den aktuellen Entwurf kopiert und die Änderungen werden nicht mehr synchronisiert.
+Sie können allerdings die Vererbung vom ursprünglichen Fragment unterbrechen. In diesem Fall wird der Inhalt des Fragments in das aktuelle Design kopiert, die Änderungen jedoch nicht mehr synchronisiert.
 
 Gehen Sie wie folgt vor, um die Vererbung zu unterbrechen:
 

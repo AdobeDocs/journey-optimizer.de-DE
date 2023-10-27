@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 
 ### Benutzerdefinierte Aktionen {#custom-actions-g}
 
-* Für alle benutzerdefinierten Aktionen wird eine Begrenzung von 150.000 Aufrufen über 30 Sekunden definiert. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+* Für alle benutzerdefinierten Aktionen ist eine Begrenzung von 150.000 Anrufen über 30 Sekunden festgelegt. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 * Die URL einer benutzerdefinierten Aktion unterstützt keine dynamischen Parameter.
 * Es werden die Aufrufmethoden POST, PUT und GET unterstützt
 * Der Name des Abfrageparameters oder der Kopfzeile darf nicht mit „.“ oder „$“ beginnen.
@@ -139,27 +139,27 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 ### Leistungsgarantien {#performance-guardrails}
 
-Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Decision Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
+Der Versanddurchsatz entspricht der Anzahl der Entscheidungsantworten, die vom Entscheidungs Management-App-Dienst innerhalb einer bestimmten Zeit bereitgestellt werden können. Die Anzahl der Entscheidungen pro Sekunde ist in der nachstehenden Tabelle aufgeführt.
 
-| API | Beschlüsse pro Sekunde |
+| API | Entscheidungen pro Sekunde |
 |---------|----------|
-| API-Anfragen für Entscheidungen | 500 pro Sekunde |
-| Edge Decisioning API-Anfragen | 5000 pro Sekunde |
+| Decisioning-API-Anfragen | 500 pro Sekunde |
+| Edge Decisioning-API-Anfragen | 5.000 pro Sekunde |
 
 ### Einschränkungen {#offers-limitations}
 
-Die Einschränkungen der Entscheidungsverwaltung sind unten aufgeführt.
+Die Einschränkungen des Entscheidungs-Managements sind unten aufgeführt.
 
-* **Genehmigte personalisierte Angebote + Fallback-Angebote** - Bis zu 10.000 kombinierte genehmigte personalisierte Angebote und genehmigte Fallback-Angebote.
-* **Entscheidungen** - bis zu 10 000 Beschlüsse.
-* **Live-Entscheidungen** - Offer decisioning App Service unterstützt bis zu 1.000 Live-Entscheidungen.
-* **Angebote, die pro Antwort zurückgegeben werden** - Offer decisioning unterstützt bis zu 100 Angebote, die pro Anfrage über alle Entscheidungsbereiche in der Anfrage zurückgegeben werden.
-* **Sammlungen** - Bis zu 10.000 Sammlungen.
-* **Sammlungen pro Entscheidung** - Bis zu 30 Sammlungen pro Entscheidung.
-* **Entscheidungsregeln + Ranking-Funktionen** Bis zu 10.000 kombinierte Entscheidungsregeln und Rangfunktionen.
-* **Praktika** - Bis zu 1.000 Platzierungen.
-* **Praktika pro Entscheidung** - Bis zu 30 Praktika pro Entscheidung.
-* **Ranking Method per Decision** - Offer decisioning App Service unterstützt bis zu 30 Ranking-Funktionen pro Entscheidung.
-* **AI-Ranking-Modell** - Offer decisioning App Service unterstützt bis zu 5 KI-Rangmodelle.
-* **Erfassungsqualifikation nach Angebot oder Sammlung** - Offer decisioning App Service unterstützt bis zu 20 Sammlungsqualifikatoren in jedem einzelnen personalisierten Angebot oder jeder einzelnen Sammlung.
-* **Gesamtanzahl der Sammlungsberechtigungen** - Offer decisioning App Service unterstützt bis zu 1.000 Sammlungsqualifikatoren.
+* **Genehmigte personalisierte Angebote + Fallback-Angebote** – Bis zu 10.000 kombinierte genehmigte personalisierte Angebote und genehmigte Fallback-Angebote.
+* **Entscheidungen** – bis zu 10.000 Entscheidungen.
+* **Live-Entscheidungen** – Der Offer Decisioning App-Dienst unterstützt bis zu 1.000 Live-Entscheidungen.
+* **Angebote, die pro Antwort zurückgegeben werden** – Offer Decisioning unterstützt bis zu 100 Angebote, die pro Anfrage über alle Entscheidungsbereiche in der Anfrage zurückgegeben werden.
+* **Sammlungen** – Bis zu 10.000 Sammlungen.
+* **Sammlungen pro Entscheidung** – Bis zu 30 Sammlungen pro Entscheidung.
+* **Entscheidungsregeln + Rangfolgefunktionen** – Bis zu 10.000 kombinierte Entscheidungsregeln und Rangfolgefunktionen.
+* **Platzierungen** – Bis zu 1.000 Platzierungen.
+* **Platzierungen pro Entscheidung** – Bis zu 30 Platzierungen pro Entscheidung.
+* **Rangfolgemethode pro Entscheidung** – Der Offer Decisioning App-Dienst unterstützt bis zu 30 Rangfolgefunktionen pro Entscheidung.
+* **KI-Rangfolgemodell** – Der Offer Decisioning App-Dienst unterstützt bis zu 5 KI-Rangfolgemodelle.
+* **Sammlungsqualifikatoren pro Angebot oder Sammlung** – Der Offer Decisioning App-Dienst unterstützt bis zu 20 Sammlungsqualifikatoren in jedem einzelnen personalisierten Angebot oder jeder einzelnen Sammlung.
+* **Gesamtanzahl der Sammlungsqualifikatoren** – Der Offer Decisioning App-Dienst unterstützt bis zu 1.000 Sammlungsqualifikatoren.

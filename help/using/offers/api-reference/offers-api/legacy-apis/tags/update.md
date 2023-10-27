@@ -9,7 +9,7 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,8 @@ Die folgende Tabelle zeigt die gültigen Werte, die die Felder *Content-Type* un
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parameter | Beschreibung | Beispiel | | `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
+| Parameter | Beschreibung | Beispiel |
+| `{ENDPOINT_PATH}` | Der Endpunktpfad für Repository-APIs. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Der Container, in dem sich die Tags befinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | Die Instanz-ID des Tags, das Sie aktualisieren möchten. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hinzufügen einer Nachricht zu einer Journey
+title: Eine Nachricht zu einer Journey hinzufügen
 description: Erfahren Sie, wie Sie ein Nachricht zu einer Journey hinzufügen können
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
@@ -12,7 +12,7 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="Aktivität „Nachricht“"
+>title="Nachrichtenaktivität"
 >abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
 [!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.

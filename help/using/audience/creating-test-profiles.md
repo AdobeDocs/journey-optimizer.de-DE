@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Um Profile erstellen zu können, müssen Sie zunächst ein Schema und einen Date
 
 Gehen Sie wie folgt vor, um **ein Schema zu erstellen**:
 
-1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
+1. Klicken Sie im Menüabschnitt „DATEN-MANAGEMENT“ auf **[!UICONTROL Schemata]**.
    ![](assets/test-profiles-0.png)
-1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts einen Schematyp aus, beispielsweise **Individuelles Profil** und klicken **Nächste**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Schema erstellen]**, wählen Sie dann einen Schematyp aus, z. B. **Einzelnes XDM-Profil**, und klicken Sie auf **Weiter**.
    ![](assets/test-profiles-1.png)
 1. Geben Sie einen Namen für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![](assets/test-profiles-1-bis.png)
-1. Im **Feldergruppen** -Bereich auf der linken Seite klicken Sie auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldgruppe **Profil-Testdetails** hinzufügen.
+1. Klicken Sie links im Bereich **Feldergruppen** auf **Hinzufügen** und wählen Sie die entsprechenden Feldergruppen aus. Stellen Sie sicher, dass Sie die Feldgruppe **Profil-Testdetails** hinzufügen.
    ![](assets/test-profiles-1-ter.png)
 Klicken Sie abschließend auf **[!UICONTROL Feldgruppen hinzufügen]**: Die Liste der Feldgruppen wird im Bildschirm „Schemaübersicht“ angezeigt.
    ![](assets/test-profiles-2.png)

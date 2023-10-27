@@ -10,7 +10,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1609'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 >
 
 
-## Vor Beginn {#before-starting}
+## Bevor Sie beginnen {#before-starting}
 
 <!--
 ### Check provisioning
@@ -268,13 +268,13 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Damit diese Journey funktioniert, müssen Sie ein XDM-Schema erstellen. Weitere Informationen finden Sie in der [Dokumentation zu XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de#schemas-and-data-ingestion){target="_blank"}.
 
-1. Klicken Sie im Menüabschnitt DATEN-MANAGEMENT auf **[!UICONTROL Schemas]**.
+1. Klicken Sie im Menüabschnitt „DATEN-MANAGEMENT“ auf **[!UICONTROL Schemata]**.
    ![](assets/test_push_1.png)
-1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts **[!UICONTROL Erlebnisereignis]** und klicken **Nächste**.
+1. Klicken Sie auf **[!UICONTROL Schema erstellen]**, wählen Sie oben rechts die Option **[!UICONTROL Erlebnisereignis]** und klicken Sie auf **Weiter**.
    ![](assets/test_push_2.png)
 1. Geben Sie einen Namen und eine Beschreibung für Ihr Schema ein und klicken Sie auf **Beenden**.
    ![](assets/test_push_3.png)
-1. Im **Feldergruppen** -Bereich auf der linken Seite klicken Sie auf **Hinzufügen** und wählen **[!UICONTROL Neue Feldergruppe erstellen]**.
+1. Klicken Sie im Abschnitt **Feldergruppen** links auf **Hinzufügen** und dann auf **[!UICONTROL Neue Feldergruppe erstellen]**.
 
 1. Geben Sie einen **[!UICONTROL Anzeigenamen]** und eine **[!UICONTROL Beschreibung]** ein. Klicken Sie abschließend auf **[!UICONTROL Feldergruppen hinzufügen]**. Weitere Informationen zum Erstellen von Feldergruppen finden Sie in der [XDM-Systemdokumentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=de){target="_blank"}.
 

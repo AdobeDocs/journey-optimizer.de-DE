@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Diese Funktion ermöglicht inhaltsorientierten Benutzenden die Arbeit an Vorlage
 
 >[!NOTE]
 >
->Derzeit ist nur der **email** Inhaltsvorlagen werden unterstützt.
+>Derzeit werden nur die **E-Mail**-Inhaltsvorlagen unterstützt.
 
 Zum Beispiel: Eine Person in Ihrem Unternehmen ist nur für Inhalte zuständig und hat daher keinen Zugriff auf Kampagnen oder Journeys. Diese Person kann jedoch eine E-Mail-Vorlage erstellen, die die Marketing-Fachleute Ihrer Organisation für die Verwendung in allen E-Mails als Ausgangspunkt auswählen können.
 

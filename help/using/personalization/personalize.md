@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Personalisieren von Erlebnissen"
->abstract="Verwendung **Adobe Journey Optimizer** , um Ihre Nachrichten an jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen nutzen. Dabei kann es sich z. B. um den Vornamen des Empfängers, seine Interessen, seinen Wohnort oder zuvor gekaufte Artikel handeln."
+>abstract="Passen Sie Ihre Nachrichten mit **Adobe Journey Optimizer** mithilfe der über die jeweiligen Empfängerinnen und Empfänger verfügbaren Daten und Informationen an sie an. Dabei kann es sich z. B. um den Vornamen der Person, ihre Interessen, ihren Wohnort oder zuvor gekaufte Artikel handeln."
 
 
-Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich z. B. um den Vornamen des Empfängers, seine Interessen, seinen Wohnort oder zuvor gekaufte Artikel handeln.
+Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich z. B. um den Vornamen der Person, ihre Interessen, ihren Wohnort oder zuvor gekaufte Artikel handeln.
 
 ➡️ [In diesen Videos erfahren Sie, wie Sie eine Nachricht personalisieren](#video-perso)
 ➡️ [Entdecken Sie Anwendungsfälle, die Personalisierung nutzen](personalization-use-case.md)
@@ -38,11 +38,11 @@ Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer]
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Journey Optimizer den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wird zu &quot;Hallo Max Mustermann&quot;.
+Bei der Verarbeitung der Nachricht (E-Mail und Push-Benachrichtigung) ersetzt Journey Optimizer den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten: So wird etwa `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` zu „Hallo, Max Mustermann“.
 
 ## Nutzen von Profildaten, um Ihre Nachrichten zu personalisieren {#data}
 
-Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Kontaktprofil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de){target="_blank"}.
+Die Personalisierung basiert auf den Profildaten, die von dem in Adobe Experience Platform definierten Schema **XDM-Kontaktprofil** verwaltet werden. Weitere Informationen finden Sie in der [Dokumentation zum Adobe Experience Platform-Datenmodell (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}.
 
 >[!CAUTION]
 >Das Schema **XDM-Kontaktprofil** ist das einzige, das Sie zum Personalisieren von Inhalten in [!DNL Journey Optimizer] verwenden können.

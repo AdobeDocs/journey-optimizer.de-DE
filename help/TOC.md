@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 94%
          + [Verwenden von E-Mail-Vorlagen](using/email/use-email-templates.md)
       + Gestalten von Inhalten {#add-content}
          + [Verwenden von Inhaltskomponenten](using/email/content-components.md)
-         + [Verwenden visueller Fragmente](using/email/use-visual-fragments.md)
+         + [Nutzen von visuellen Fragmenten](using/email/use-visual-fragments.md)
          + [Hinzufügen von Links und Verfolgen von Nachrichten](using/email/message-tracking.md)
          + [Einfügen von personalisierten Angeboten](using/email/add-offers-email.md)
          + [Generieren der Textversion](using/email/text-version-email.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
-   + Webkanal konfigurieren {#configure-web-channel}
+   + Konfigurieren des Webkanals {#configure-web-channel}
       + [Voraussetzungen für Web-Kanäle](using/web/web-prerequisites.md)
       + [Konfigurieren von Web-Subdomains](using/web/web-delegated-subdomains.md)
    + [Erstellen von Web-Erlebnissen](using/web/create-web.md)
@@ -262,7 +262,7 @@ ht-degree: 94%
       + [Erste Schritte mit dem Inhaltsassistenten](using/content-management/gs-generative.md)
       + [Inhaltsgenerierung](using/content-management/generative-content.md)
       + [Bildgenerierung](using/content-management/generative-image.md)
-   + Mehrsprachige Inhalte verwenden{#content-multilingual}
+   + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
       + [Mehrsprachige Inhalte mit manueller Übersetzung erstellen](using/content-management/multilingual-manual.md)
       + [Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](using/content-management/multilingual-automated.md)
@@ -277,7 +277,7 @@ ht-degree: 94%
       + Arbeiten mit dem Ausdruckseditor {#expression-editor}
          + [Über den Ausdruckseditor](using/personalization/personalization-build-expressions.md)
          + [Hinzufügen von Attributen zu Favoriten](using/personalization/personalization-favorites.md)
-         + [Ausdrucksfragmente verwenden](using/personalization/use-expression-fragments.md)
+         + [Verwenden von Ausdrucksfragmenten](using/personalization/use-expression-fragments.md)
          + [Validierung der Personalisierung](using/personalization/personalization-validation.md)
       + Helper-Funktionen {#functions}
          + [Erste Schritte mit Helper-Funktionen](using/personalization/functions/functions.md)
@@ -294,7 +294,7 @@ ht-degree: 94%
       + Anwendungsfälle für die Personalisierung{#personalization-use-cases}
          + [Benachrichtigung zum Bestellstatus](using/personalization/personalization-use-case.md)
          + [E-Mail zum Warenkorbabbruch](using/personalization/personalization-use-case-helper-functions.md)
-   + Wiederverwendbaren Inhalt verwalten {#reusable-content}
+   + Verwalten von wiederverwendbaren Inhalten {#reusable-content}
       + [Arbeiten mit Inhaltsvorlagen](using/content-management/content-templates.md)
       + [Arbeiten mit Fragmenten](using/content-management/fragments.md)
    + Dynamische Inhalte {#dynamic}
@@ -448,8 +448,8 @@ ht-degree: 94%
             + [Erstellen einer Entscheidung](using/offers/api-reference/activities-api/activities/create.md)
             + [Aktualisieren von Entscheidungen](using/offers/api-reference/activities-api/activities/update.md)
             + [Löschen von Entscheidungen](using/offers/api-reference/activities-api/activities/delete.md)
-         + Alte APIs {#legacy-api}
-            + [Über veraltete APIs](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+         + Veraltete APIs {#legacy-api}
+            + [Informationen zu veralteten APIs](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
             + Platzierungen {#placements}
                + [Auflisten von Platzierungen](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                + [Nachschlagen von Platzierungen](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)

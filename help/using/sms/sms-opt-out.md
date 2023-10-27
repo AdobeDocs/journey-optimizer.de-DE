@@ -11,7 +11,7 @@ exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS
 
 >[!IMPORTANT]
 >
->Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Während Adobe Journey Optimizer wie unten beschrieben die Nachrichten zu Kurzwahlnummern, Langcodes und gebührenfreien Nummern verarbeitet, wenden Sie sich an Ihren Rechtsbeistand, um sicherzustellen, dass Ihre SMS-Kommunikation allen geltenden gesetzlichen Compliance-Anforderungen entspricht.
+>Die Kommunikation per Textnachricht kann je nach Art der Nachricht, dem Ort, von dem aus Sie Ihre Textnachrichten versenden, und dem Standort Ihrer Empfängerinnen oder Empfänger verschiedenen rechtlichen Anforderungen unterliegen. Adobe Journey Optimizer verarbeitet die Nachrichten an Kurz-, Lang- und gebührenfreie Nummern wie unten beschrieben. Sie sollten sich jedoch an Ihre Rechtsabteilung wenden, um sicherzustellen, dass Ihre Textnachrichten allen geltenden rechtlichen Anforderungen entsprechen.
 >
 
 ## Native eingehende Keywords {#sms-native-keywords}
 
-Standardmäßig verarbeitet Adobe Journey Optimizer die folgenden standardmäßigen englischsprachigen Antwortnachrichten für Kurzwahlnummern, gebührenfreie und lange Code-Nachrichten: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
+Standardmäßig verarbeitet Adobe Journey Optimizer folgende standardmäßige englischsprachige Antwortnachrichten an gebührenfreie und Langnummen: STOP, UNSTOP, START, QUIT, CANCEL, END und UNSUBSCRIBE. Beachten Sie, dass nur Sinch und Infobip native Keywords bei der Verwendung mit Journey Optimizer unterstützen.
 
 Mit diesen Keywords wird in der Regel eine automatische Standardantwort von Ihrem Drittanbieter ausgelöst. Sie können dies direkt mit Ihrem Provider oder über dessen Dokumentations-Website abklären.
 

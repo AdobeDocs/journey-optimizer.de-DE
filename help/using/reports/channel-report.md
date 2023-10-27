@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -45,63 +45,63 @@ Die Berichtseite wird mit den folgenden Registerkarten angezeigt:
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="E-Mail - Versandstatistiken insgesamt"
->abstract="Die KPIs für die Versandstatistiken von E-Mails fassen die wichtigsten Daten zu Ihren Push-Benachrichtigungen, wie z. B. Zielgerichtete oder zugestellte Nachrichten, zusammen."
+>title="Gesamtstatistik E-Mail – Versand"
+>abstract="Die KPIs „Gesamtstatistik E-Mail – Versand“ fassen die wichtigsten Daten zu Ihren Push-Benachrichtigungen, wie z. B. „Angesprochen“ oder „Zugestellte Nachrichten“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="E-Mail - Tracking-Statistiken insgesamt"
->abstract="Die KPIs für die Gesamtverfolgungsstatistiken von E-Mails liefern Daten zur Profilaktivität Ihrer E-Mails."
+>title="Gesamtstatistik E-Mail – Tracking"
+>abstract="Die KPIs „Gesamtstatistik E-Mail – Tracking“ liefern Daten zur Profilaktivität für Ihre E-Mails."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
->title="E-Mail - Versandstatistiken im Zeitverlauf"
->abstract="Das Diagramm E-Mail - Versandstatistiken im Zeitverlauf enthält Daten zu gesendeten E-Mails, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="E-Mail – Versandstatistik im Zeitverlauf"
+>abstract="Der Graph „E-Mail – Versandstatistik im Zeitverlauf“ enthält Daten zu gesendeten E-Mails, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
->title="E-Mail - Trackingstatistiken im Zeitverlauf"
->abstract="Das Diagramm E-Mail - Trackingstatistiken im Zeitverlauf enthält Daten zur Profilaktivität Ihrer E-Mails, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="E-Mail – Tracking-Statistik im Zeitverlauf"
+>abstract="Der Graph „E-Mail – Tracking-Statistik im Zeitverlauf“ enthält Daten zur Profilaktivität Ihrer E-Mails, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
 >title="Bounce-Kategorien"
->abstract="Die Diagramme und Tabellen der Bounce-Kategorien enthalten Daten zu temporären und permanenten Fehlern."
+>abstract="Die Graphen und die Tabelle „Bounce-Kategorien“ enthalten Daten zu temporären und permanenten Fehlern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
 >title="Bounce-Gründe"
->abstract="Die Diagramme und die Tabelle Bounces-Gründe enthalten die verfügbaren Daten zu Bounces-Nachrichten."
+>abstract="Die Graphen und die Tabelle „Bounce-Gründe“ enthalten die verfügbaren Daten zu Bounce-Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_error_reasons"
 >title="Fehlerursachen"
->abstract="Anhand der Diagramme und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
+>abstract="Anhand der Graphen und der Tabelle „Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="Gesendet und von Domänen bereitgestellt"
->abstract="Das Diagramm und die Tabelle Gesendet und bereitgestellt von Domänen stellen die Verteilung der wichtigsten E-Mail-Versanddaten auf Domänenebene dar."
+>title="Von Domains gesendet und bereitgestellt"
+>abstract="Der Graph und die Tabelle „Von Domains gesendet und bereitgestellt“ stellen die Verteilung der wichtigsten E-Mail-Versanddaten auf Domain-Ebene dar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Bounces und Fehler nach Domänen"
->abstract="Das Diagramm und die Tabelle &quot;Absprünge und Fehler nach Domains&quot;zeigt die Verteilung der spezifischen Fehler auf Domänenebene, die während des Versandvorgangs aufgetreten sind."
+>title="Bounces und Fehler nach Domains"
+>abstract="Der Graph und die Tabelle „Bounces und Fehler nach Domains“ zeigen die Verteilung der während des Versandvorgangs aufgetretenen spezifischen Fehler auf Domain-Ebene."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Öffnungen und Klicks nach Domänen"
->abstract="Das Diagramm und die Tabelle &quot;Öffnungen und Klicks nach Domänen&quot;zeigt die Verteilung der Interaktionen Ihrer Besucher mit Ihrer E-Mail auf Domänenebene."
+>title="Aufrufe und Klicks nach Domains"
+>abstract="Der Graph und die Tabelle „Aufrufe und Klicks nach Domains“ zeigen eine Aufschlüsselung der Interaktionen Ihrer Besucherinnen und Besucher mit Ihrer E-Mail auf Domain-Ebene."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
 >title="Bounce-Gründe nach Domain"
->abstract="Die Bounce-Gründe nach Domain-Diagramm und -Tabelle stellen die Verteilung der Daten auf Domänenebene für temporäre und permanente Fehler dar."
+>abstract="Der Graph und die Tabelle „Bounce-Gründe nach Domain“ zeigen eine Aufschlüsselung temporärer sowie permanenter Fehlerdaten auf Domain-Ebene."
 
 In den Kanalberichten werden im Menü „E-Mail“ die wichtigsten Informationen zu E-Mails aufgeführt, die in den Kampagnen und Journeys gesendet werden. Die Metriken werden nachfolgend beschrieben.
 
@@ -109,7 +109,7 @@ In den Kanalberichten werden im Menü „E-Mail“ die wichtigsten Informationen
 
 +++ Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den E-Mail-Bericht verfügbar sind.
 
-Der Graph **[!UICONTROL Gesamte E-Mail-Sendestatistik]** gibt Aufschluss über den Erfolg Ihrer E-Mails:
+Das Diagramm **[!UICONTROL E-Mail - Gesamtstatistiken Versand]** gibt Aufschluss über den Erfolg Ihrer E-Mails:
 
 * **[!UICONTROL Angesprochen]**: Gesamtzahl der verarbeiteten E-Mails.
 
@@ -131,7 +131,7 @@ Der Graph **[!UICONTROL Gesamte E-Mail-Sendestatistik]** gibt Aufschluss über d
 
 * **[!UICONTROL Ausschlussrate]**: Prozentsatz der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
-Die **[!UICONTROL Trackingstatistiken in E-Mails]** -Widget enthält die verfügbaren Daten für die Profilaktivität für Ihre E-Mails:
+Das Widget **[!UICONTROL Gesamtstatistik E-Mail – Nachverfolgung]** enthält die verfügbaren Daten zur Profilaktivität Ihrer E-Mails:
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen der Nachricht.
 
@@ -182,49 +182,49 @@ Die Tabellen und Graphen **[!UICONTROL Bounce-Gründe nach Domain]**, **[!UICONT
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
->title="Push-Benachrichtigungen - Versandstatistiken insgesamt"
->abstract="Die KPIs der Push-Benachrichtigungen - Gesamtstatistiken des Versands fassen wichtige Daten zu Ihren Push-Benachrichtigungen zusammen, z. B. &quot;Zielkontakte&quot;oder &quot;Zugestellt&quot;."
+>title="Gesamtstatistik Push-Benachrichtigungen – Versand"
+>abstract="Die KPIs „Gesamtstatistik Push-Benachrichtigungen – Versand“ fassen wichtige Daten zu Ihren Push-Benachrichtigungen zusammen, z. B.  „Angesprochen“ oder „Zugestellt“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
->title="Push-Benachrichtigung - Tracking-Statistiken insgesamt"
->abstract="Die Statistiken zur Push-Benachrichtigung - Gesamtverfolgung liefern Daten zur Profilaktivität Ihrer Push-Benachrichtigungen."
+>title="Gesamtstatistik Push-Benachrichtigung – Tracking"
+>abstract="Die Gesamtstatistik „Push-Benachrichtigung – Tracking“ liefert Daten zur Profilaktivität für Ihre Push-Benachrichtigungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
->title="Push-Benachrichtigungen - Versandstatistiken im Zeitverlauf"
->abstract="Die Statistik zum Versand von Push-Benachrichtigungen im Zeitverlauf enthält Daten zu gesendeten Push-Benachrichtigungen, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="Push-Benachrichtigungen – Versandstatistik im Zeitverlauf"
+>abstract="Das Diagramm „Push-Benachrichtigung – Versandstatistik im Zeitverlauf“ enthält Daten zu gesendeten Push-Benachrichtigungen, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="Push-Benachrichtigungen - Trackingstatistiken im Zeitverlauf"
->abstract="Das Diagramm Push-Benachrichtigungen - Trackingstatistiken im Zeitverlauf liefert Daten zur Profilaktivität Ihrer Push-Benachrichtigungen, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="Push-Benachrichtigungen – Tracking-Statistik im Zeitverlauf"
+>abstract="Das Diagramm „Push-Benachrichtigungen – Tracking-Statistik im Zeitverlauf“ liefert Daten zur Profilaktivität Ihrer Push-Benachrichtigungen, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
 >title="Fehlerursachen"
->abstract="Anhand der Diagramme und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
+>abstract="Anhand der Graphen und der Tabelle „Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
->title="Trackingstatistiken nach Plattform"
->abstract="Die Trackingstatistiken nach Plattformdiagramm und Tabelle enthalten je nach Betriebssystem Ihres Profils Daten zur Profilaktivität für Ihre Push-Benachrichtigungen."
+>title="Tracking-Statistik nach Plattform"
+>abstract="Der Graph und die Tabelle „Tracking-Statistik nach Plattform“ enthalten je nach Betriebssystem Ihres Profils Daten zur Profilaktivität Ihrer Push-Benachrichtigungen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
->title="Versandstatistiken nach Plattform"
->abstract="Die Tabelle Versandstatistiken nach Plattformdiagramm und -diagramm enthält Daten zu gesendeten Push-Benachrichtigungen."
+>title="Tracking-Statistik nach Plattform"
+>abstract="Der Graph und die Tabelle „Tracking-Statistik nach Plattform“ enthalten Daten zu gesendeten Push-Benachrichtigungen."
 
 In Ihren Kanalberichten werden im Menü „Push-Benachrichtigung“ die wichtigsten Informationen zu Push-Benachrichtigungen aufgeführt, die in Ihren Kampagnen und Journeys gesendet werden. Die Metrik wird nachfolgend beschrieben.
 
 ![](assets/push_channel_1.png)
 
-+++  Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
++++  Erfahren Sie mehr über die verschiedenen für den Push-Bericht verfügbaren Metriken und Widgets.
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Gesamte Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Graph und KPIs:
 
@@ -248,7 +248,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Gesamte Sendestatistiken]** 
 
 * **[!UICONTROL Ausschlussrate]**: Prozentsatz der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
-Die **[!UICONTROL Push-Benachrichtigung - Tracking-Statistiken insgesamt]** enthält die verfügbaren Daten für die Profilaktivität Ihrer Push-Benachrichtigungen:
+Die **[!UICONTROL Gesamtstatistik Push-Benachrichtigung – Tracking]** enthält die verfügbaren Daten zur Profilaktivität für Ihre Push-Benachrichtigungen:
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft eine Push-Benachrichtigung geöffnet wurde.
 
@@ -274,45 +274,45 @@ Der Graph und die Tabelle **[!UICONTROL Ausschlussgründe]** zeigen die verschie
 
 Der Graph und die Tabelle **[!UICONTROL Fehlergründe]** zeigen, welcher Fehler aufgetreten ist.
 
-Die **[!UICONTROL Tracking nach Plattform]** und **[!UICONTROL Versand nach Plattform]** Grafiken und Tabellen zeigen den Erfolg Ihrer Push-Benachrichtigung in Abhängigkeit vom Betriebssystem Ihres Profils.
+Die Graphen und Tabellen **[!UICONTROL Tracking nach Plattform]** und **[!UICONTROL Versand nach Plattform]** geben einen Überblick über den Erfolg Ihrer Push-Benachrichtigung, aufgeschlüsselt nach dem Betriebssystem Ihres Profils.
 +++
 
 ## SMS {#sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
->title="SMS - Versandstatistiken insgesamt"
->abstract="Die KPIs für die Versandstatistiken von SMS fassen die wichtigsten Daten zu Ihren SMS-Nachrichten, z. B. &quot;Zielkontakte&quot; oder &quot;Zugestellt&quot;, zusammen."
+>title="Gesamtstatistik SMS – Versand"
+>abstract="Die KPIs „Gesamtstatistik SMS – Versand“ enthalten wichtige Daten zu Ihren SMS-Nachrichten, wie „Angesprochen“ oder „Zugestellt“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
->title="SMS - Trackingstatistiken insgesamt"
->abstract="Die SMS - Tracking-Statistiken insgesamt liefern Daten zur Profilaktivität Ihrer SMS-Nachrichten."
+>title="Gesamtstatistik SMS – Nachverfolgung"
+>abstract="Die Gesamtstatistik „SMS – Nachverfolgung“ liefert Daten zur Profilaktivität Ihrer SMS-Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
->title="SMS - Versandstatistiken im Zeitverlauf"
->abstract="Das Diagramm SMS - Versandstatistiken im Zeitverlauf zeigt Daten zu gesendeten SMS-Nachrichten, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="SMS – Versandstatistik im Zeitverlauf"
+>abstract="Der Graph „SMS – Versandstatistik im Zeitverlauf“ zeigt Daten zu gesendeten SMS-Nachrichten an, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
->title="SMS - Trackingstatistiken im Zeitverlauf"
->abstract="Das Diagramm SMS - Trackingstatistiken im Zeitverlauf enthält Daten zur Profilaktivität Ihrer SMS-Nachrichten, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
+>title="SMS – Tracking-Statistik im Zeitverlauf"
+>abstract="Der Graph „SMS – Tracking-Statistik im Zeitverlauf“ enthält Daten zur Profilaktivität Ihrer SMS-Nachrichten, aufgeschlüsselt nach Stunden, Tagen, Wochen oder Monaten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
 >title="Bounce-Gründe"
->abstract="Die Diagramme und die Tabelle Bounces-Gründe enthalten die verfügbaren Daten zu Bounces-Nachrichten."
+>abstract="Die Graphen und die Tabelle „Bounce-Gründe“ enthalten die verfügbaren Daten zu Bounce-Nachrichten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_error_reasons"
 >title="Fehlerursachen"
->abstract="Anhand der Diagramme und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
+>abstract="Anhand der Graphen und der Tabelle „Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 In den Kanalberichten werden im Menü „SMS“ die wichtigsten Informationen zu SMS-Nachrichten aufgeführt, die in Ihren Kampagnen und Journeys versendet wurden. Die Metriken werden nachfolgend beschrieben.
 
@@ -346,7 +346,7 @@ Das Widget **[!UICONTROL SMS – Tracking-Statistiken gesamt]** enthält die wic
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf einen Inhalt in einer SMS-Nachricht.
 
-* **[!UICONTROL Klickrate]**: Prozentsatz der Benutzenden, die mit der SMS-Nachricht interagiert haben.
+* **[!UICONTROL Klickrate]**:Anzahl der Benutzenden, die mit der SMS-Nachricht interagiert haben, in Prozent.
 
 Das Widget **[!UICONTROL SMS – Versandstatistiken im Zeitverlauf]** enthält die wichtigsten Informationen zu den Nachricht in Form eines Graphen:
 
@@ -366,18 +366,18 @@ Die Graphen und Tabellen **[!UICONTROL Ausschlussursachen]**, **[!UICONTROL Boun
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
->title="Briefpost - Versandstatistiken insgesamt"
->abstract="Die KPIs für die Versandstatistiken von Briefpost fassen die wesentlichen Daten zu Ihren Briefpost-Nachrichten wie &quot;Zielkontaktiert&quot;oder &quot;Zugestellt&quot;zusammen."
+>title="Briefpost – Gesamtstatistik Versand"
+>abstract="Die KPIs „Briefpost – Gesamtstatistik Versand“ enthalten wichtige Daten zu Ihren Nachrichten per Briefpost, wie „Angesprochen“ oder „Zugestellt“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="Ausgeschlossene Gründe"
->abstract="Die Diagramme und die Tabelle Ausgeschlossene Gründe veranschaulichen die verschiedenen Faktoren, die zu Benutzerprofilen führten, die von der Zielgruppe ausgeschlossen waren und die Nachricht nicht erhielten."
+>abstract="Die Graphen und die Tabelle „Ausgeschlossene Gründe“ veranschaulichen die verschiedenen Faktoren, die dazu führten, dass Benutzerprofile aus der Zielgruppe ausgeschlossen wurden und die Nachricht nicht erhielten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
 >title="Fehlerursachen"
->abstract="Anhand der Diagramme und der Tabelle Fehlerursachen können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
+>abstract="Anhand der Graphen und der Tabelle „Fehlerursachen“ können Sie die spezifischen Fehler identifizieren, die während des Versandvorgangs aufgetreten sind."
 
 In den Kanalberichten werden im Menü „Briefpost“ die wichtigsten Informationen zu Briefpost-Nachrichten aufgeführt, die in Ihren Kampagnen und Journeys gesendet werden. Die Metriken werden nachfolgend beschrieben.
 
@@ -406,13 +406,13 @@ In den Graphen und Tabellen **[!UICONTROL Ausschlussursachen]** und **[!UICONTRO
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
->title="In-App - Interaktion insgesamt"
->abstract="Die KPIs für die Interaktion in der App - Gesamtanzahl enthalten umfassende Informationen über die Interaktion Ihrer Besucher mit Ihren In-App-Nachrichten, einschließlich Metriken wie Impressionen und Interaktionen."
+>title="In-App – Interaktionen insgesamt"
+>abstract="Die KPIs „In-App – Interaktionen Insgesamt“ liefern umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren In-App-Nachrichten, einschließlich Metriken wie „Impressions“ und „Interaktionen“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
->title="In-App - Interaktionsüberstunden"
->abstract="Das Diagramm In-App - Interaktion über einen Zeitverlauf verfolgt In-App-Impressionen und -Interaktionen und bietet stündliche, tägliche, wöchentliche und monatliche Aufschlüsselungen."
+>title="In-App – Interaktionen im Zeitverlauf"
+>abstract="Der Graph „In-App – Interaktionen im Zeitverlauf“ verfolgt In-App-Impressions und Interaktionen, aufgeschlüsselt nach Stunden, Tagen, Wochen und Monaten."
 
 In den Kanalberichten werden im Menü „In-App“ die wichtigsten Informationen zu In-App-Nachrichten aufgeführt, die in den Kampagnen und Journeys gesendet werden. Die Metriken werden nachfolgend beschrieben.
 
@@ -426,9 +426,9 @@ Die KPIs der **[!UICONTROL In-App-Interaktionen gesamt]** geben die wichtigsten 
 
 * **[!UICONTROL Interaktionen]**: Gesamtzahl der Interaktionen mit der In-App-Nachricht. Dazu gehören alle von den Benutzenden durchgeführten Aktionen, wie z. B. Klicks, Abbrechen oder andere Interaktionen.
 
-* **[!UICONTROL Abweisungen]**: Gesamtzahl der In-App-Nachrichten, die von Profilen verworfen wurden, indem diese entweder die Schließen-Schaltfläche oder die automatische Funktion zum Entfernen der Nachricht verwendet haben.
+* **[!UICONTROL Abbrüche]**: Gesamtzahl der In-App-Nachrichten, die von Profilen über die Schaltfläche „Schließen“ oder die automatische Verwerfungsfunktion verworfen wurden.
 
-* **[!UICONTROL Abbruchrate]**: Prozentsatz der In-App-Nachrichten, die von Profilen verworfen wurden
+* **[!UICONTROL Abbruchrate]**: Prozentsatz der In-App-Nachrichten, die von Profilen verworfen wurden.
 
 Die Grafik **[!UICONTROL In-App-Interaktionen im Zeitverlauf]** zeigt die Entwicklung der In-App-Impressions und -Interaktionen für den jeweiligen Zeitraum an, indem Impressions, Abbrechen oder Interaktionen verfolgt werden.
 
@@ -438,13 +438,13 @@ Die Grafik **[!UICONTROL In-App-Interaktionen im Zeitverlauf]** zeigt die Entwic
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
->title="Web - Interaktion insgesamt"
->abstract="Die Interaktions-KPIs Web - Gesamtanzahl liefern umfassende Informationen über die Interaktion Ihrer Besucher mit Ihren Webseiten, einschließlich Metriken wie Impressionen und Interaktionen."
+>title="Web – Interaktionen insgesamt"
+>abstract="Die KPIs „Web – Interaktionen insgesamt“ liefern umfassende Informationen über die Interaktion Ihrer Besucherinnen und Besucher mit Ihren Web-Seiten, einschließlich Metriken wie „Impressions“ und „Interaktionen“."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web - Gesamtinteraktionsüberstunden"
->abstract="Das Diagramm Web - Interaktion im Zeitverlauf verfolgt die Impressionen und Interaktionen Ihrer Webseiten und bietet stündliche, tägliche, wöchentliche und monatliche Aufschlüsselungen."
+>title="Web – Gesamtinteraktionen im Zeitverlauf"
+>abstract="Der Graph „Web – Interaktionen im Zeitverlauf“ verfolgt die Impressions und Interaktionen Ihrer Web-Seiten, aufgeschlüsselt nach Stunden, Tagen, Wochen und Monaten."
 
 In den Kanalberichten werden im Menü „Web“ die wichtigsten Informationen zu Web-Seiten aufgeführt, die in Ihren Kampagnen und Journeys versendet wurden. Die Metriken werden nachfolgend beschrieben.
 
@@ -458,11 +458,11 @@ Die KPIs der **[!UICONTROL Web-Interaktionen gesamt]** geben die wichtigsten Inf
 
 * **[!UICONTROL Interaktionen]**: Gesamtzahl der Interaktionen mit Ihrer Web-Seite. Dazu gehören alle von den Benutzenden durchgeführten Aktionen, wie z. B. Klicks oder andere Interaktionen.
 
-* **[!UICONTROL Abweisungen]**: Gesamtzahl der Webseiten, die von Profilen verworfen wurden.
+* **[!UICONTROL Abbrüche]**: Gesamtzahl der Web-Seiten, die von Profilen verworfen wurden.
 
-* **[!UICONTROL Abbruchrate]**: Prozentsatz der Webseiten, die Profile verworfen haben.
+* **[!UICONTROL Abbruchrate]**: Prozentsatz der Web-Seiten, die von Profilen verworfen wurden.
 
-Die Grafik **[!UICONTROL Web-Interaktion im Zeitverlauf]** enthält die wichtigsten Informationen zur Interaktion der Besuchenden mit den Web-Seiten.
+Der Graph **[!UICONTROL Web-Interaktion im Zeitverlauf]** enthält die wichtigsten Informationen zur Interaktion der Besucherinnen und Besucher mit Ihren Web-Seiten.
 
 +++
 

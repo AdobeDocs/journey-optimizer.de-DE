@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 50%
+ht-degree: 89%
 
 ---
 
@@ -32,19 +32,19 @@ ht-degree: 50%
 
 Globale Berichte, auf die über die Registerkarte **Gesamte Zeit** zugegriffen werden kann, zeigen Ereignisse an, die vor mindestens zwei Stunden aufgetreten sind, und decken Ereignisse über einen ausgewählten Zeitraum ab. Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
-Weitere Informationen zu den im Campaign-Bericht verfügbaren Daten finden Sie unter [diese Seite](../reports/campaign-global-report.md).
+Weitere Informationen zu den im Kampagnenbericht verfügbaren Daten finden Sie auf [dieser Seite](../reports/campaign-global-report.md).
 
 ![](assets/report_multilingual.png)
 
-Die **[!UICONTROL Versandstatistiken von E-Mails nach Sprachen]** Widget erläutert den Erfolg Ihres Versands in Abhängigkeit von Ihrer **[!UICONTROL Gebietsschemata]**:
+Das Widget **[!UICONTROL E-Mail-Versandstatistik nach Sprache]** informiert über den Erfolg Ihres Versands je nach **[!UICONTROL Gebietsschemata]**:
 
-* **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
+* **[!UICONTROL Zugestellt]**: anzahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Bounces]**: Gesamtzahl der kumulierten Fehler bei Versand und automatischer Bounce-Verarbeitung in Relation zur Gesamtzahl der gesendeten Nachrichten.
 
 * **[!UICONTROL Fehler]**: Gesamtanzahl der Fehler, die während des Versands aufgetreten sind und die Zustellung an Profile verhinderten.
 
-Die **[!UICONTROL Statistiken des E-Mail-Trackings nach Sprachen]** Widget enthält die für die Empfängeraktivität für Ihren Versand verfügbaren Daten. **[!UICONTROL Gebietsschemata]**:
+Das Widget **[!UICONTROL E-Mail-Tracking-Statistik nach Sprache]** enthält die verfügbaren Daten über die Empfängeraktivität zu Ihrem Versand je nach **[!UICONTROL Gebietsschemata]**:
 
 * **[!UICONTROL Abmeldungen]**: Anzahl der Klicks auf den Abmelde-Link.
 

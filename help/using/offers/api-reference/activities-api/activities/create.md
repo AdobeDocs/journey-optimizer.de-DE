@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Entscheidung
+title: Eine Entscheidung erstellen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Decision Management, API
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidung zurück, einschließlich der eindeutigen `id`. Sie können die `id` in späteren Schritten, um Ihre Entscheidung zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidung zurückgegeben, einschließlich der einzigartigen `id`. Sie können die `id` in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
 
 ```json
 {

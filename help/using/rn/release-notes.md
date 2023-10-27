@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
 workflow-type: tm+mt
 source-wordcount: '4525'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="Neuigkeiten?"
+>title="Neue Funktionen"
 >abstract="**Adobe Journey Optimizer** bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert."
 
 [!DNL Adobe Journey Optimizer] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in der letzten Woche jedes Monats in diesen Versionshinweisen konsolidiert.
@@ -205,7 +205,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* Es sind neue APIs für die Erstellung und Verwaltung von Entscheidungsverwaltungsobjekten verfügbar. Diese APIs bieten eine höhere Leistung und ein verbessertes Benutzererlebnis. Die alten APIs werden bis zum 27.03.2024 unterstützt. [Weitere Informationen](../offers/api-reference/getting-started.md)
+* Es sind neue APIs für die Erstellung und Verwaltung von Entscheidungs-Management-Objekten verfügbar. Diese APIs bieten eine höhere Leistung und ein verbessertes Benutzererlebnis. Die alten APIs werden noch bis zum 27.03.2024 unterstützt. [Weitere Informationen](../offers/api-reference/getting-started.md)
 
 **Personalisierung**
 
@@ -213,7 +213,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Warnhinweise**
 
-* Eine neue Art von Systemwarnung wurde eingeführt. Sie können jetzt benachrichtigt werden, wenn eine **Audience lesen** -Aktivität schlägt fehl. [Weitere Informationen](../reports/alerts.md).
+* Eine neue Art von Systemwarnung wurde eingeführt. Sie können sich jetzt benachrichtigen lassen, wenn die Aktion **Zielgruppe lesen** fehlschlägt. [Weitere Informationen](../reports/alerts.md).
 
 **Web-Kanal**
 
@@ -229,7 +229,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 
 
-* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey basierend auf diesen Antworten koordinieren. Darüber hinaus wurde ein neues Schutzschild hinzugefügt, mit dem alle Zollaktionen auf 150.000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
+* Benutzerdefinierte Aktionsantworten werden jetzt allgemein unterstützt. Mit dieser Funktion können Sie API-Aufrufantworten in benutzerdefinierten Aktionen nutzen und Ihre Journey auf Grundlage dieser Antworten koordinieren. Darüber hinaus wurde ein neuer Schutzmechanismus hinzugefügt, mit dem alle benutzerdefinierten Aktionen auf 150,000 Aufrufe über 30 Sekunden pro Endpunkt beschränkt werden können. [Weitere Informationen](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Briefpost-Kanal**
 
-* Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Dienstleister bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist auf dem Konfigurationsbildschirm für das Datei-Routing ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
+* Sie können jetzt Dateien verschlüsseln, die für Ihre Briefpost-Anbieter bestimmt sind, wenn sie auf einen Server übertragen werden. Zu diesem Zweck ist auf dem Konfigurationsbildschirm für das Datei-Routing ein neues Feld verfügbar, über das Sie Ihren Verschlüsselungsschlüssel kopieren und einfügen können. [Weitere Informationen](../direct-mail/direct-mail-configuration.md)
 
 **Reporting**
 

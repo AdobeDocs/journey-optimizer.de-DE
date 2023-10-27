@@ -11,7 +11,7 @@ exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ In den Listen können Sie für jedes Element grundlegende Aktionen durchführen.
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="Tags"
->abstract="In diesem Feld können Sie Ihrer Kampagne Adobe Experience Platform Unified Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste."
+>abstract="Über dieses Feld können Sie Ihrer Kampagne einheitliche Adobe Experience Platform-Tags zuweisen. Dies ermöglicht eine einfache Klassifizierung und verbesserte Suche über die Kampagnenliste."
 
-Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journey Optimizer-Journeys und -Kampagnen einfach klassifizieren, um die Suche über Listen zu verbessern.
+Mit [einheitlichen Adobe Experience Platform-Tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=de) können Sie Ihre Journeys und Kampagnen in Journey Optimizer einfach klassifizieren, um die Suche über Listen zu verbessern.
 
 ![](../rn/assets/do-not-localize/campaigns-tag.gif)
 

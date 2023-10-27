@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Entscheidung
+title: Eine Entscheidung erstellen
 description: Eine Entscheidung enthält die Logik, die über die Auswahl eines Angebots bestimmt.
 feature: Decision Management, API
 topic: Integrations
@@ -9,7 +9,7 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidung zurück, einschließlich der eindeutigen `id`. Sie können `id` in späteren Schritten, um Ihre Entscheidung zu aktualisieren oder zu löschen.
+Bei einer erfolgreichen Antwort werden Informationen zur neu erstellten Entscheidung zurückgegeben, einschließlich der einzigartigen `id`. Sie können die `id` in späteren Schritten verwenden, um Ihre Entscheidung zu aktualisieren oder zu löschen.
 
 ```json
 {

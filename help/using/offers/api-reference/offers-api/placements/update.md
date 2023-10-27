@@ -9,7 +9,7 @@ exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Platzierung zurück, einschließlich der eindeutigen Platzierung `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Platzierung zurückgegeben, einschließlich der eindeutigen Platzierungs-`id`.
 
 ```json
 {

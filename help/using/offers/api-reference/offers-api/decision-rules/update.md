@@ -9,7 +9,7 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/offerRule1234
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt die aktualisierten Details der Entscheidungsregel zurück, einschließlich der eindeutigen Entscheidungsregel `id`.
+Bei einer erfolgreichen Antwort werden die aktualisierten Details der Entscheidungsregel zurückgegeben, einschließlich der eindeutigen Entscheidungsregel-`id`.
 
 ```json
 {

@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Antwort**
 
-Eine erfolgreiche Antwort gibt Informationen zur neu erstellten Entscheidungsregel zurück `id`. Sie können `id` in späteren Schritten verwenden, um die Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einer späteren Anleitung zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
+Bei einer erfolgreichen Antwort werden Informationen zur `id` der neu erstellten Entscheidungsregel zurückgegeben. Sie können die `id` in späteren Schritten verwenden, um die Entscheidungsregel zu aktualisieren oder zu löschen oder sie in einer späteren Anleitung zum Erstellen von Entscheidungen, Entscheidungsregeln und Fallback-Angeboten zu verwenden.
 
 ```json
 {

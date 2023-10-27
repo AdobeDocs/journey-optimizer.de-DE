@@ -11,39 +11,39 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit Warnhinweisen {#alerts}
 
-## Warnungen aufrufen und abonnieren {#alerting-capabilities}
+## Abrufen und Abonnieren von Warnhinweisen {#alerting-capabilities}
 
-Wenn ein Fehler auftritt, können Sie Systemwarnungen im Journey Optimizer-Benachrichtigungszentrum (In-App-Warnungen) erhalten und/oder eine E-Mail erhalten.
+Wenn ein Fehler auftritt, können Sie im Journey Optimizer-Benachrichtigungszentrum (In-App-Warnungen) Systemwarnungen und/oder eine E-Mail erhalten.
 
-Aus dem **Warnhinweise** können Sie die verfügbaren Warnungen anzeigen und abonnieren. Wenn bestimmte Bedingungen in Ihren Vorgängen erreicht werden (z. B. ein potenzielles Problem, wenn das System einen Schwellenwert überschreitet), werden Warnhinweise an alle Benutzer in Ihrer Organisation gesendet, die sich für sie angemeldet haben.
+Über das Menü **Warnhinweise** können Sie die verfügbaren Warnhinweise aufrufen und abonnieren. Wenn bei Ihren Vorgängen ein bestimmter Bedingungssatz erfüllt wird (wie beispielsweise ein mögliches Problem bei Überschreitung des Schwellenwerts), werden Warnmeldungen an alle Benutzerinnen und Benutzer in Ihrem Unternehmen gesendet, die diese abonniert haben.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Weitere Informationen zu Warnhinweisen in Adobe Experience Platform in [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
+Weitere Informationen zu Warnhinweisen in Adobe Experience Platform finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=de){target="_blank"}.
 
-Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Es stehen zwei vorkonfigurierte Warnhinweise für Journey Optimizer zur Verfügung: die [Journey Benutzerdefinierter Aktionsfehler](#alert-custom-actions) und [Trigger lesen fehlgeschlagen](#alert-read-audiences) Warnhinweis. Diese Warnungen werden nachfolgend beschrieben.
+Klicken Sie im linken Menü unter **Administration** auf **Warnhinweise**. Es stehen zwei vorkonfigurierte Warnhinweise für Journey Optimizer zur Verfügung: [Benutzerdefinierte Journey-Aktion fehlgeschlagen](#alert-custom-actions) und [Segmentauslöser konnte nicht gelesen werden](#alert-read-audiences). Diese Warnhinweise werden nachfolgend beschrieben.
 
-Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die **Abonnieren** Option aus der **Warnhinweise** Dashboard. Verwenden Sie dieselbe Methode, um sich abzumelden.
+Sie können jeden Warnhinweis einzeln über die Benutzeroberfläche abonnieren, indem Sie die Option **Abonnieren** im Dashboard **Warnhinweise** auswählen. Auf dieselbe Weise können Sie sich auch wieder abmelden.
 
 ![](assets/alert-subscribe.png)
 
-Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"}. Warnregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden nachfolgend beschrieben.
+Sie können Warnhinweise auch über [E/A-Ereignisbenachrichtigungen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=de){target="_blank"} abonnieren. Warnregeln sind in verschiedene Abonnementpakete unterteilt. Abonnements für Ereignisse, die den jeweiligen Journey Optimizer-Warnhinweisen entsprechen, werden nachfolgend beschrieben.
 
-Wenn ein unerwartetes Verhalten auftritt, wird eine Warnmeldung an die Abonnenten gesendet. Basierend auf den Benutzereinstellungen werden Warnhinweise per E-Mail und/oder direkt im Journey Optimizer-Benachrichtigungszentrum in der oberen rechten Ecke der Benutzeroberfläche gesendet. Standardmäßig ist nur In-App-Warnhinweise aktiviert. Informationen zur Aktivierung der E-Mail-Benachrichtigung finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Wenn ein unerwartetes Verhalten auftritt, wird eine Warnmeldung an die Abonnentinnen und Abonnenten gesendet. Je nach den Benutzereinstellungen werden Warnhinweise per E-Mail und/oder direkt im Journey Optimizer-Benachrichtigungszentrum oben rechts in der Benutzeroberfläche gesendet. Standardmäßig sind nur In-App-Warnhinweise aktiviert. Informationen zur Aktivierung von E-Mail-Benachrichtigungen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=de#enable-email-alerts){target="_blank"}.
 
-Wenn ein Warnhinweis aufgelöst wird, erhalten Abonnenten die Benachrichtigung &quot;Gelöscht&quot;.
+Wenn ein Warnhinweis aufgelöst wurde, erhalten die Abonnentinnen und Abonnenten die Benachrichtigung „Aufgelöst“.
 
 >[!CAUTION]
 >
->Adobe Journey Optimizer-spezifische Warnhinweise gelten nur für **live** Journey. Warnhinweise werden für Journey im Testmodus nicht ausgelöst.
+>Adobe Journey Optimizer-spezifische Warnhinweise gelten nur für **Live**-Journeys. Warnhinweise werden für Journeys im Testmodus nicht ausgelöst.
 
-## Journey Benutzerdefinierter Aktionsfehler {#alert-custom-actions}
+## Benutzerdefinierte Journey-Aktion fehlgeschlagen {#alert-custom-actions}
 
 Dieser Warnhinweis warnt Sie, wenn eine benutzerdefinierte Aktion fehlschlägt. Wir gehen davon aus, dass die Aktion fehlgeschlagen ist, wenn in den letzten 5 Minuten bei einer bestimmten benutzerdefinierten Aktion mehr als 1 % Fehler aufgetreten sind. Dies wird alle 30 Sekunden ausgewertet.
 
@@ -51,20 +51,20 @@ Dieser Warnhinweis warnt Sie, wenn eine benutzerdefinierte Aktion fehlschlägt. 
 
 Warnhinweise zu benutzerdefinierten Aktionen werden aufgelöst, wenn in den letzten 5 Minuten:
 
-* bei dieser benutzerdefinierten Aktion kein Fehler aufgetreten ist (oder Fehler unterhalb des Schwellenwerts von 1 %),
+* bei dieser benutzerdefinierten Aktion keine Fehler (oder nur Fehler unter dem Schwellenwert von 1 %) aufgetreten sind.
 
 * oder kein Profil diese benutzerdefinierte Aktion erreicht hat.
 
-Der E/A-Ereignis-Abonnementname, der dem Warnhinweis für benutzerdefinierte Aktionen entspricht, lautet **Journey Benutzerdefinierter Aktionsfehler**.
+Der Name des E/A-Ereignissabonnements, der dem Warnhinweis für benutzerdefinierte Aktionen entspricht, lautet: **Benutzerdefinierte Journey-Aktion fehlgeschlagen**.
 
-## Trigger lesen fehlgeschlagen {#alert-read-audiences}
+## Segmentauslöser konnte nicht gelesen werden {#alert-read-audiences}
 
-Dieser Warnhinweis warnt Sie, wenn ein **Audience lesen** -Aktivität hat kein Profil 10 Minuten nach der geplanten Ausführungszeit verarbeitet. Dieser Fehler kann durch technische Probleme verursacht werden oder weil die Zielgruppe leer ist.
+Dieser Warnhinweis erscheint, wenn eine Aktivität **Zielgruppe lesen** 10 Minuten nach der festgelegten Ausführungszeit kein Profil bearbeitet hat. Dieser Fehler kann durch technische Probleme oder eine leere Zielgruppe verursacht werden.
 
 ![](assets/alerts1.png)
 
-Warnhinweise auf **Audience lesen** -Aktivitäten gelten nur für wiederkehrende Journey. **Audience lesen** Aktivitäten in Live-Journey mit einem Zeitplan für die Ausführung **Einmal** oder **So bald wie möglich** werden ignoriert.
+Warnhinweise zu **Zielgruppe lesen** gelten nur für wiederkehrende Journey. Aktivitäten vom Typ **Zielgruppe lesen** in Live-Journeys, für deren Ausführung **Einmal** oder **So bald wie möglich** festgelegt wurde, werden ignoriert.
 
-Warnhinweise auf **Audience lesen** werden aufgelöst, wenn ein Profil **Audience lesen** Knoten.
+Warnhinweise zu **Zielgruppe lesen** werden aufgelöst, wenn ein Profil den Knoten **Zielgruppe lesen** erreicht.
 
-Der Anmeldename für das E/A-Ereignis, der dem **Trigger lesen fehlgeschlagen** Warnhinweis **Journey Lesen von Segmentverzögerungen, Fehlern und Fehlern**.
+Der Name des E/A-Ereignisabonnements, der dem Warnhinweis **Segmentauslöser konnte nicht gelesen werden** entspricht, lautet **Verzögerungen und Fehler beim Lesen des Journey-Segments**.

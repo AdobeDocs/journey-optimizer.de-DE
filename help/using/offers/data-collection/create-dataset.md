@@ -10,7 +10,7 @@ exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Um Erlebnisereignisse zu erfassen, müssen Sie zunächst einen Datensatz erstell
 
 Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll:
 
-1. Aus dem **[!UICONTROL Data Management]** Menü auswählen **[!UICONTROL Schema]**.
+1. Wählen Sie im Menü **[!UICONTROL Daten-Management]** die Option **[!UICONTROL Schema]** aus.
 
-1. Klicks **[!UICONTROL Schema erstellen]** Wählen Sie oben rechts **[!UICONTROL Erlebnisereignis]** und klicken **Nächste**.
+1. Klicken Sie auf **[!UICONTROL Schema erstellen]**, wählen Sie oben rechts die Option **[!UICONTROL Erlebnisereignis]** aus und klicken Sie auf **Weiter**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -47,7 +47,7 @@ Erstellen Sie zunächst das Schema, das in Ihrem Datensatz verwendet werden soll
    >
    >Mit dem Schema, das in Ihrem Datensatz verwendet wird, muss die Feldergruppe **[!UICONTROL Erlebnisereignis – Vorschlagsinteraktionen]** verknüpft sein. Andernfalls können Sie es nicht in Ihrem KI-Modell verwenden.
 
-1. Schema speichern.
+1. Speichern Sie das Schema.
 
 >[!NOTE]
 >

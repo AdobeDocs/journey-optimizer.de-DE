@@ -1,5 +1,5 @@
 ---
-title: Auflisten von Sammlungskennzeichnern
+title: Sammlungsqualifizierer auflisten
 description: Mit Sammlungsqualifizierern können Sie Ihre Angebote besser organisieren und sortieren.
 feature: Decision Management, API
 topic: Integrations

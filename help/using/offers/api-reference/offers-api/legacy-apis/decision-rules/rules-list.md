@@ -1,5 +1,5 @@
 ---
-title: Auflisten von Entscheidungsregeln
+title: Entscheidungsregeln auflisten
 description: Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen.
 feature: Decision Management, API
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Auflisten von Entscheidungsregeln {#list-decision-rules}
 
-Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen. Sie können eine Liste der vorhandenen Entscheidungsregeln in einem Container anzeigen, indem Sie eine einzige GET-Anfrage an die [!DNL Offer Library] API.
+Entscheidungsregeln sind Begrenzungen, die zu einem personalisierten Angebot hinzugefügt und auf ein Profil angewendet werden, um dessen Eignung zu bestimmen. Mit einer einzelnen GET-Anfrage an die [!DNL Offer Library]-API können Sie eine Liste der Entscheidungsregeln in einem Container anzeigen.
 
 **API-Format**
 

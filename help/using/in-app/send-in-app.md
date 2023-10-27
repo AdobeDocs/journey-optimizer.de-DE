@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Gehen Sie dazu wie folgt vor:
 
 1. Klicken Sie im Fenster **[!UICONTROL Mit Gerät verbinden]** auf **[!UICONTROL Start]**.
 
-1. Geben Sie die **[!UICONTROL Basis-URL]** und klicken Sie auf **[!UICONTROL Nächste]**.
+1. Geben Sie die **[!UICONTROL Basis-URL]** Ihrer Anwendung ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/in_app_create_7.png)
 

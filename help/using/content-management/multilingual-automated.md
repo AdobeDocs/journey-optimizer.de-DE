@@ -13,11 +13,11 @@ hidefromtoc: true
 source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 4%
+ht-degree: 39%
 
 ---
 
-# Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen {#multilingual-automated}
+# Erstellen mehrsprachiger Inhalte mit automatisierter Übersetzung {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
@@ -38,41 +38,41 @@ Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der au
 
 1. [Erstellen eines Sprachprojekts](#create-translation-project).
 
-1. [Spracheinstellungen erstellen](#create-language-settings).
+1. [Erstellen von Spracheinstellungen](#create-language-settings).
 
-1. [Mehrsprachige Kampagne erstellen](#create-a-multilingual-campaign).
+1. [Erstellen einer mehrsprachigen Kampagne](#create-a-multilingual-campaign).
 
 1. [Überprüfen Sie Ihre Übersetzungsaufgabe (optional)](#review-translation-project).
 
-## Gebietsschema erstellen {#create-locale}
+## Erstellen eines Gebietsschemas {#create-locale}
 
-Beim Konfigurieren der Spracheinstellungen, wie im Abschnitt [Spracheinstellungen erstellen](#language-settings) Wenn für Ihre mehrsprachigen Inhalte kein bestimmtes Gebietsschema verfügbar ist, können Sie mit der Variablen **[!UICONTROL Übersetzung]** Menü.
+Wenn bei der Konfiguration der Spracheinstellungen, wie im Abschnitt [Erstellen von Spracheinstellungen](#language-settings) beschrieben, ein bestimmtes Gebietsschema für mehrsprachige Inhalte nicht verfügbar ist, können Sie über das Menü **[!UICONTROL Übersetzung]** beliebig viele Gebietsschemata erstellen.
 
-1. Aus dem **[!UICONTROL Administration]** Menü, Zugriff **[!UICONTROL Kanal]**.
+1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
 
-   Im Menü Übersetzungen können Sie auf die Liste der aktivierten Gebietsschemata zugreifen.
+   Über das Menü „Übersetzungen“ können Sie auf die Liste der aktivierten Gebietsschemata zugreifen.
 
-1. Aus dem **[!UICONTROL Gebietsschema-Wörterbuch]** Registerkarte, klicken **[!UICONTROL Gebietsschema hinzufügen]**.
+1. Klicken Sie in der Registerkarte **[!UICONTROL Gebietsschema-Wörterbuch]** auf **[!UICONTROL Gebietsschema hinzufügen]**.
 
    ![](assets/locale_1.png)
 
-1. Wählen Sie Ihren Gebietsschema-Code aus der **[!UICONTROL Sprache]** und der zugehörigen **[!UICONTROL Region]**.
+1. Wählen Sie Ihren Gebietsschema-Code aus der Liste **[!UICONTROL Sprache]** sowie die zugehörige **[!UICONTROL Region]** aus.
 
-1. Klicks **[!UICONTROL Speichern]** , um Ihr Gebietsschema zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um Ihr Gebietsschema zu erstellen.
 
    ![](assets/locale_2.png)
 
-## Übersetzungsprojekt erstellen {#translation-project}
+## Erstellen eines Übersetzungsprojekts {#translation-project}
 
 Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben und dabei die spezifische Sprache oder Region für Ihren Inhalt angeben. Sie können dann Ihren Übersetzungsanbieter auswählen.
 
-1. Aus dem **[!UICONTROL Übersetzungsprojekte]** Menü unter **[!UICONTROL Content Management]** klicken **[!UICONTROL Projekt erstellen]**.
+1. Klicken Sie im Menü **[!UICONTROL Übersetzungsprojekte]** unter **[!UICONTROL Content-Management]** auf **[!UICONTROL Projekt erstellen]**.
 
    ![](assets/translation_project_1.png)
 
-1. Eingeben eines **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]**.
+1. Geben Sie einen **[!UICONTROL Namen]** und eine **[!UICONTROL Beschreibung]** ein.
 
-1. Wählen Sie die **[!UICONTROL Gebietsschema der Quelle]**.
+1. Wählen Sie das **[!UICONTROL Gebietsschema der Ausgangssprache]**.
 
    ![](assets/translation_project_2.png)
 
@@ -81,47 +81,47 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
    * **[!UICONTROL Automatische Veröffentlichung genehmigter Übersetzungen]**: Sobald Übersetzungen validiert wurden, werden sie automatisch in die Kampagne integriert, ohne dass ein manuelles Eingreifen erforderlich ist.
    * **[!UICONTROL Überprüfungs-Workflow aktivieren]**: Gilt nur für von Menschen übersetzte Gebietsschemata. Dadurch kann ein interner Validierer übersetzte Inhalte effizient auswerten und genehmigen oder ablehnen. [Weitere Informationen](#review-translation-project)
 
-1. Klicks **[!UICONTROL Gebietsschema hinzufügen]** , um auf das Menü zuzugreifen und die Sprachen für Ihr Übersetzungsprojekt zu definieren.
+1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, um auf das Menü zuzugreifen und die Sprachen für Ihr Übersetzungsprojekt festzulegen.
 
-   Wenn eine **[!UICONTROL Gebietsschema]** fehlt, können Sie es manuell im Voraus erstellen über **[!UICONTROL Übersetzung]** Menü oder nach API. Siehe Abschnitt [Neues Gebietsschema erstellen](#create-locale).
+   Wenn ein **[!UICONTROL Gebietsschema]** fehlt, können Sie es über das Menü **[!UICONTROL Übersetzung]** oder per API manuell im Voraus erstellen. Siehe [Erstellen eines neuen Gebietsschemas](#create-locale).
 
    ![](assets/translation_project_3.png)
 
-1. Wählen Sie aus der Liste Ihre **[!UICONTROL Zielgebietsschema(e)]** und wählen Sie **[!UICONTROL Übersetzungsanbieter]** Sie möchten für jedes Gebietsschema verwenden.
+1. Wählen Sie aus der Liste Ihr(e) **[!UICONTROL Zielgebietsschema(ta)]** und den **[!UICONTROL Übersetzungsanbieter]** aus, die Sie für das jeweilige Gebietsschema verwenden möchten.
 
-1. Klicks **[!UICONTROL Gebietsschema hinzufügen]** wenn Sie die Verknüpfung Ihres Target-Gebietsschemas mit dem richtigen Übersetzungsanbieter abgeschlossen haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, wenn Sie Ihr Ziel-Gebietsschema mit dem richtigen Übersetzungsanbieter verknüpft haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Beachten Sie, dass ein Provider, der für ein Zielgebietsschema ausgegraut ist, anzeigt, dass er dieses Gebietsschema nicht unterstützt.
 
    ![](assets/translation_project_4.png)
 
-1. Klicks **[!UICONTROL Speichern]** wenn Ihr Übersetzungsprojekt konfiguriert ist.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie Ihr Übersetzungsprojekt konfiguriert haben.
 
 Ihr Übersetzungsprojekt ist jetzt erstellt und kann in einer mehrsprachigen Kampagne verwendet werden.
 
-## Spracheinstellungen erstellen {#language-settings}
+## Erstellen von Spracheinstellungen {#language-settings}
 
-In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie Informationen zur Profilsprache nachschlagen möchten.
+In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten.
 
-1. Aus dem **[!UICONTROL Administration]** Menü, Zugriff **[!UICONTROL Kanal]**.
+1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
 
-1. Im **[!UICONTROL Spracheinstellungen]** Menü, klicken **[!UICONTROL Spracheinstellungen erstellen]**.
+1. Klicken Sie im Menü **[!UICONTROL Spracheinstellungen]** auf **[!UICONTROL Spracheinstellungen erstellen]**.
 
    ![](assets/language_settings_1.png)
 
-1. Geben Sie den Namen Ihrer **[!UICONTROL Spracheinstellungen]**.
+1. Geben Sie den Namen Ihrer **[!UICONTROL Spracheinstellungen]** ein.
 
-1. Wählen Sie die **[!UICONTROL Übersetzungsprojekt]** -Option.
+1. Wählen Sie die Option **[!UICONTROL Übersetzungsprojekt]**.
 
-1. Aus dem **[!UICONTROL Übersetzungsprojekt]** Feld, klicken Sie auf **[!UICONTROL Bearbeiten]** und wählen Sie die zuvor erstellte **[!UICONTROL Übersetzungsprojekt]**.
+1. Klicken Sie im Feld **[!UICONTROL Übersetzungsprojekt]** auf **[!UICONTROL Bearbeiten]** und wählen Sie Ihr zuvor erstelltes **[!UICONTROL Übersetzungsprojekt]** aus.
 
    Ihre zuvor konfigurierten Gebietsschemata werden automatisch importiert.
 
    ![](assets/language_settings_2.png)
 
-1. Aus dem **[!UICONTROL Versandpräferenz]** wählen Sie das Attribut aus, nach dem Sie nach Informationen zu Profilsprachen suchen möchten.
+1. Wählen Sie im Menü **[!UICONTROL Versandvoreinstellung]** das Attribut aus, mit dem Sie nach Informationen zu Profilsprachen suchen möchten.
 
-1. Klicks **[!UICONTROL Bearbeiten]** neben **[!UICONTROL Gebietsschema]** , um sie weiter zu personalisieren und hinzuzufügen **[!UICONTROL Profilvoreinstellungen]**.
+1. Klicken Sie neben Ihrem **[!UICONTROL Gebietsschema]** auf **[!UICONTROL Bearbeiten]**, um es weiter zu personalisieren und **[!UICONTROL Profilvoreinstellungen]** hinzuzufügen.
 
    ![](assets/language_settings_3.png)
 
@@ -129,7 +129,7 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 
    ![](assets/language_settings_4.png)
 
-1. Klicks **[!UICONTROL Einsenden]** , um **[!UICONTROL Spracheinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre **[!UICONTROL Spracheinstellungen]** zu erstellen.
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -139,7 +139,7 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Mehrsprachige Kampagne erstellen {#create-multilingual-campaign}
+## Erstellen einer mehrsprachigen Kampagne {#create-multilingual-campaign}
 
 Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne erstellen und Ihren Inhalt für Ihre verschiedenen Gebietsschemata anpassen.
 
@@ -183,7 +183,7 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    ![](assets/translation_review_9.png)
 
-1. Klicks **[!UICONTROL Aktivieren]** um eine Zusammenfassung der Kampagne anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Zum Aktivieren überprüfen]**, um eine Zusammenfassung der Kampagne anzuzeigen.
 
    In der Zusammenfassung können Sie die Kampagne bei Bedarf ändern und überprüfen, ob ein Parameter falsch ist oder fehlt.
 
@@ -193,9 +193,9 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
 1. Vergewissern Sie sich, dass Ihre Kampagne korrekt konfiguriert ist, und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
-Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht wird sofort oder am angegebenen Datum gesendet. Beachten Sie, dass Ihre Kampagne, sobald sie live ist, nicht mehr geändert werden kann. Um Inhalte wiederzuverwenden, können Sie Ihre Kampagne duplizieren.
+Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht wird sofort bzw. zum angegebenen Datum versendet. Beachten Sie, dass Ihre Kampagne nicht mehr geändert werden kann, sobald sie live ist. Um Inhalte wiederzuverwenden, können Sie Ihre Kampagne duplizieren.
 
-Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten messen.
+Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten ermitteln.
 
 ## Verwalten des internen Übersetzungsprojekts {#manage-ht-project}
 

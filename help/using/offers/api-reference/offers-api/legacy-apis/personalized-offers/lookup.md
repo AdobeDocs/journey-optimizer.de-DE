@@ -9,7 +9,7 @@ exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Ein personalisiertes Angebot ist eine anpassbare Marketing-Nachricht, die auf Eignungsregeln und Einschränkungen basiert.
 
-Sie können spezifische personalisierte Angebote nachschlagen, indem Sie eine GET-Anfrage an die **Angebotsbibliothek** API mit entweder einem personalisierten Angebot `@id` oder den Namen des personalisierten Angebots im Anfragepfad.
+Sie können nach einzelnen personalisierten Angeboten suchen, indem Sie eine GET-Anfrage an die **Angebotsbibliothek**-API richten, die entweder die `@id` des personalisierten Angebots oder den Namen des personalisierten Angebots im Anfragepfad enthält.
 
 **API-Format**
 

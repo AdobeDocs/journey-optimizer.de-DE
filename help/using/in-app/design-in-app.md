@@ -1,5 +1,5 @@
 ---
-title: Gestalten Ihrer In-App-Inhalte
+title: Ihre In-App-Inhalte gestalten
 description: Erfahren Sie, wie Sie In-App-Inhalte in Journey Optimizer erstellen
 feature: In App
 topic: Content Management
@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 78%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
->title="In-App-Inhalte definieren"
->abstract="Passen Sie Inhalt und Stil Ihrer In-App-Nachrichten an. Sie können auch Medien- und Aktionsschaltflächen hinzufügen, um Ihre Nachrichten ansprechender und effektiver zu gestalten."
+>title="Definieren Ihrer In-App-Inhalte"
+>abstract="Passen Sie Inhalt und Stil Ihrer In-App-Nachrichten an. Sie können auch Medien und Aktionsschaltflächen hinzufügen, um Ihre Nachrichten ansprechender und effektiver zu gestalten."
 
 Sie können die In-App-Inhalte bearbeiten, um Erlebnisoptionen zu konfigurieren:
 
@@ -39,8 +39,8 @@ Nachdem Sie Ihre In-App-Nachricht erstellt und deren Inhalt definiert und person
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
->title="In-App-Inhalte definieren"
->abstract="Das Layout der Nachricht bietet häufig verwendete Vorlagen zum Erstellen eines Frames für Ihre Nachricht. Benutzerdefiniertes Layout bietet Optionen zum Hochladen oder Erstellen benutzerdefinierter HTML-Nachrichten."
+>title="Definieren Ihrer In-App-Inhalte"
+>abstract="Das Nachrichten-Layout bietet häufig verwendete Vorlagen zum Erstellen eines Frames für Ihre Nachricht. Das benutzerdefinierte Layout bietet Optionen zum Hochladen oder Erstellen benutzerdefinierter HTML-Nachrichten."
 
 Wählen Sie eine der vier Layout-Optionen aus dem Bereich **[!UICONTROL Nachrichten-Layout]** aus, die Ihnen je nach Messaging-Anforderung zur Auswahl angeboten werden.
 
@@ -68,14 +68,14 @@ Wählen Sie eine der vier Layout-Optionen aus dem Bereich **[!UICONTROL Nachrich
 
 ## Registerkarte „Inhalt“ {#content-tab}
 
-Aus dem **Inhalt** den Inhalt der Benachrichtigung und den Stil der **Schließen** Schaltfläche. Ebenso können Sie von dieser Registerkarte aus auch Medien zu Ihrer In-App-Benachrichtigung hinzufügen und Aktionsschaltflächen ergänzen.
+Über die Registerkarte **Inhalt** können Sie den Inhalt der Benachrichtigung und den Stil der Schaltfläche **Schließen** festlegen. Ebenso können Sie von dieser Registerkarte aus auch Medien zu Ihrer In-App-Benachrichtigung hinzufügen und Aktionsschaltflächen ergänzen.
 
 ### Schaltfläche „Schließen“ {#close-button}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"
->title="Wählen Sie den Stil Ihrer Schaltfläche Schließen."
->abstract="Im Bereich Schließen-Schaltfläche stehen Optionen zur Auswahl von Varianten der Schließen-Schaltfläche der Nachricht und eine Option zum Hochladen eines benutzerdefinierten Bildes zur Verfügung."
+>title="Wählen des Stils Ihrer Schließen-Schaltfläche."
+>abstract="Im Bereich „Schließen-Schaltfläche“ können Sie verschiedene Schaltflächenversionen zum Schließen einer Nachricht und eine Option zum Hochladen eines benutzerdefinierten Bilds auswählen."
 
 ![](assets/in_app_content_2.png)
 
@@ -97,8 +97,8 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_media"
->title="Fügen Sie Ihrer In-App-Nachricht Medien hinzu, um für Endbenutzer ein attraktives Erlebnis zu schaffen."
->abstract="Stellen Sie entweder einen direkten Link zu Inhalten bereit oder wählen Sie mit der Asset-Auswahl Medien in Asset-Grundlagen aus, um sie zu Ihrer Nachricht hinzuzufügen."
+>title="Bieten Sie Endbenutzerinnen und -benutzern ein ansprechendes Erlebnis, indem Sie Medien zu Ihrer In-App-Benachrichtigung hinzufügen."
+>abstract="Stellen Sie entweder einen direkten Link zu Inhalten bereit oder wählen Sie mit der Asset-Auswahl Medien in Asset Essentials aus, um sie zu Ihrer Nachricht hinzuzufügen."
 
 Über das Feld **[!UICONTROL Medien]** können Sie Medien zu Ihrer In-App-Nachricht hinzufügen, um das Erlebnis für die Endbenutzenden attraktiv zu gestalten.
 
@@ -117,8 +117,8 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_content"
->title="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder Kopfzeile und Hauptteil ein."
->abstract="Hier können sowohl Kopfzeilen- als auch Textkörper hinzugefügt werden. Um Personalisierungstoken einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
+>title="Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder für Kopfzeile und Hauptteil ein."
+>abstract="Hier können sowohl Kopfzeilen als auch Textkörper hinzugefügt werden. Um Personalisierungs-Token einzuschließen, öffnen Sie das Personalisierungsdialogfeld."
 
 Um Ihre Nachricht zu erstellen, geben Sie den Inhalt in die Felder **[!UICONTROL Kopfzeile]** und **[!UICONTROL Hauptteil]** ein.
 
@@ -141,7 +141,7 @@ Wenn der Modus **[!UICONTROL Erweiterte Formatierung]** eingeschaltet ist, könn
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_buttons"
 >title="Fügen Sie Schaltflächen hinzu, über die Benutzende mit Ihrer In-App-Nachricht interagieren können."
->abstract="In diesem Abschnitt können Sie Aktionsaufruf-Schaltflächen zu Ihrer Nachricht hinzufügen. Sie können für jede Schaltfläche benutzerdefinierten Text und Ziele hinzufügen."
+>abstract="In diesem Abschnitt können Sie Aktionsaufruf-Schaltflächen zu Ihrer Nachricht hinzufügen. Sie können für jede Schaltfläche benutzerdefinierte Texte und Ziele hinzufügen."
 
 Fügen Sie Schaltflächen hinzu, über die Benutzende mit Ihrer In-App-Nachricht interagieren können.
 
@@ -179,8 +179,8 @@ Auf der Registerkarte **Einstellungen** können Sie das Nachrichten-Layout defin
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_preview"
->title="Vorschau Ihrer In-App-Nachricht anzeigen."
->abstract="Dies ist das Vorschaubild, das angezeigt wird, wenn Ihre Nachricht an die Nachrichtenzusammenfassung des Geräts gesendet wird."
+>title="Sehen Sie sich Ihre In-App-Benachrichtigungen in der Vorschau an."
+>abstract="Dieses Vorschaubild wird angezeigt, wenn Ihre Nachricht an die Nachrichtenübersicht des Geräts gesendet wird."
 
 ![](assets/in_app_content_6.png)
 
@@ -196,8 +196,8 @@ Die **[!UICONTROL App-Vorschau]** ermöglicht das Hinzufügen eines Hintergrunds
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"
->title="Definieren Sie das Nachrichtenlayout Ihrer In-App-Nachricht."
->abstract="In diesem Abschnitt können Sie Ihrer In-App-Nachricht einen Hintergrund hinzufügen. Dazu muss die Übernahme der Benutzeroberfläche aktiviert sein."
+>title="Legen Sie das Layout Ihrer In-App-Benachrichtigung fest."
+>abstract="In diesem Abschnitt können Sie zu Ihrer In-App-Benachrichtigung einen Hintergrund hinzufügen. Dazu muss die Übernahme der Benutzeroberfläche aktiviert sein."
 
 ![](assets/in_app_content_7.png)
 
@@ -211,7 +211,7 @@ Mit dem Feld **[!UICONTROL Hintergrundbild]** können Sie Ihrer In-App-Nachricht
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_advanced"
->title="Definieren Sie die erweiterten Nachrichteneinstellungen."
+>title="Konfigurieren Sie die erweiterten Nachrichteneinstellungen."
 >abstract="In diesem Abschnitt können Sie die Personalisierung Ihrer In-App-Inhalte optimieren, insbesondere wenn die erweiterte Formatierung aktiviert ist."
 
 ![](assets/in_app_content_8.png)

@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -62,12 +62,12 @@ Jetzt können Sie mit der Konfiguration der Extraktionsdatei beginnen, die an Ih
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Datenfelder"
->abstract="Fügen Sie die Spalten und die Informationen hinzu, die in der Extraktionsdatei angezeigt werden sollen, die von Briefpost-Dienstleistern benötigt werden, um E-Mails an Ihre Kunden zu senden. Sie können bis zu 50 Spalten hinzufügen."
+>abstract="Fügen Sie die Spalten und die Informationen hinzu, die in der Extraktionsdatei angezeigt werden sollen, die von Briefpostanbietern benötigt wird, um E-Mails an Ihre Kundinnen und Kunden zu senden, und konfigurieren Sie sie. Sie können bis zu 50 Spalten hinzufügen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="Dateiformatierung extrahieren"
->abstract="Geben Sie für jedes Feld einen Titel und die Informationen an, die mit dem Ausdruckseditor angezeigt werden sollen. <br/><br/> Die <b>Sortieren nach</b> können Sie die Spalten der Extraktionsdatei im ausgewählten Feld sortieren."
+>title="Formatieren der Extraktionsdatei"
+>abstract="Geben Sie mit dem Ausdruckseditor für jedes Feld eine Beschreibung und die Informationen an, die angezeigt werden sollen. <br/><br/> Die Option <b>Sortieren nach</b> ermöglicht es Ihnen, die Spalten der Extraktionsdatei mithilfe des ausgewählten Feldes zu sortieren."
 
 1. Konfigurieren Sie die Spalten und die Informationen, die in der Extraktionsdatei angezeigt werden sollen:
 

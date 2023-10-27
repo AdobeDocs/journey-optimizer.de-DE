@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
->title="Kampagnenzielgruppe auswählen"
->abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Audience gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
+>title="Auswählen der Kampagnenzielgruppe"
+>abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
 Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Zielgruppen]** erstellen sowie nutzen und diese Zielgruppen in Ihre Journeys oder Kampagnen einbinden.
 
-Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 

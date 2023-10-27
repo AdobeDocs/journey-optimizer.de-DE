@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Erstellen von Journeys"
->abstract="Verwendung **Adobe Journey Optimizer** zum Erstellen von Anwendungsfällen für die Echtzeit-Orchestrierung der Customer Journey mithilfe von Kontextdaten, die in Ereignissen oder Datenquellen gespeichert sind."
+>abstract="Erstellen Sie mit **Adobe Journey Optimizer** anhand von in Ereignissen oder Datenquellen gespeicherten kontexbezogenen Daten Echtzeit-Orchestrierungsfälle."
 
 ## Voraussetzungen{#start-prerequisites}
 
@@ -48,7 +48,7 @@ Um Nachrichten mit Journeys zu senden, sind folgende Konfigurationen notwendig:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Journeys"
->abstract="Entwerfen Sie Customer Journeys, um Ihren Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit Journey Optimizer können Sie Anwendungsfälle für die Echtzeit-Orchestrierung der Customer Journey mit Kontextdaten erstellen, die in Ereignissen oder Datenquellen gespeichert sind. Die **Übersicht** -Registerkarte ein Dashboard mit Schlüsselmetriken zu Ihren Journey anzeigen. Die **Durchsuchen** zeigt die Liste der vorhandenen Journey an."
+>abstract="Entwerfen Sie Customer Journeys, um Ihren Kundinnen und Kunden personalisierte, kontextuelle Erlebnisse zu bieten. Mit Journey Optimizer können Sie anhand von in Ereignissen oder Datenquellen gespeicherten kontextbezogenen Daten Echtzeit-Orchestrierungsfälle erstellen. In der Registerkarte **Übersicht** wird ein Dashboard mit Schlüsselmetriken zu Ihren Journeys angezeigt. Auf der Registerkarte **Durchsuchen** wird eine Liste der vorhandenen Journeys angezeigt."
 
 Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Zwei Registerkarten sind verfügbar:
 
