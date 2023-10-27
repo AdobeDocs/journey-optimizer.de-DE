@@ -10,7 +10,7 @@ level: Intermediate
 keywords: E-Mail, Import, Inhalt, HTML, ZIP, CSS
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
