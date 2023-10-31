@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 41%
+source-wordcount: '718'
+ht-degree: 34%
 
 ---
 
@@ -44,6 +44,10 @@ Sandbox Tooling ermöglicht es Ihnen, Objekte über mehrere Sandboxes hinweg zu 
 
 Auf dieser Seite wird der Anwendungsfall der Sandbox-Tools im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion selbst finden Sie im Abschnitt [Experience Platform-Dokumentation](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Diese Funktion erfordert die folgenden Berechtigungen: manage-sandbox (oder view-sandbox) und manage-package.
+
 ## Erste Schritte mit Sandbox Tooling{#sandbox-gs}
 
 Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine andere kopieren. Sie können beispielsweise eine Journey aus Ihrer Staging-Sandbox-Umgebung in Ihre Produktions-Sandbox kopieren. Zusätzlich zur Journey kopiert Journey Optimizer auch die meisten Objekte, von denen die Journey abhängig ist: Zielgruppen, Schemata, Ereignisse und Aktionen. Weiterführende Informationen zu kopierten Objekten finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine a
 
 Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. Auf diese Weise können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen. Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
 
-## Journey exportieren {#export}
+Der Kopiervorgang erfolgt über einen Package-Export und -Import zwischen der Quell- und der Ziel-Sandbox. Im Folgenden finden Sie die allgemeinen Schritte zum Kopieren einer Journey von einer Sandbox in eine andere:
 
-Gehen Sie wie folgt vor, um eine Journey in eine andere Sandbox zu kopieren:
+1. Fügen Sie die Journey als Paket in die Quell-Sandbox ein.
+1. Exportieren Sie das Paket in die Ziel-Sandbox.
+
+## Journey als Paket hinzufügen{#export}
+
+Um eine Journey in eine andere Sandbox zu kopieren, müssen Sie zunächst die Journey als Paket in die Quell-Sandbox einfügen. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
 
 1. Suchen Sie nach der Journey, die Sie kopieren möchten, und klicken Sie auf die **Mehr Aktionen** (die drei Punkte neben dem Journey-Namen) und klicken Sie auf **Zu Paket hinzufügen**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-Die **Zu Paket hinzufügen** angezeigt.
+   Die **Zu Paket hinzufügen** angezeigt.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Wählen Sie aus, ob Sie die Journey zu einem vorhandenen Paket hinzufügen oder ein neues Paket erstellen möchten:
 
@@ -85,9 +94,11 @@ Die **Zu Paket hinzufügen** angezeigt.
 
    ![](assets/journey-sandbox9.png)
 
-## Journey importieren {#import}
+## Exportieren des Pakets in die Ziel-Sandbox {#import}
 
-1. Klicken Sie in der Paketliste auf das Symbol + neben dem Paketnamen.
+Nachdem das Paket veröffentlicht wurde, müssen Sie es in die Ziel-Sandbox exportieren.
+
+1. Klicken Sie in der Quell-Sandbox auf die **[!UICONTROL Sandboxes]** auswählen, wählen Sie die **Pakete** und klicken Sie auf das Symbol + neben dem Package, das Sie exportieren möchten.
 
    ![](assets/journey-sandbox5.png)
 
