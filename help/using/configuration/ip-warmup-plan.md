@@ -230,7 +230,7 @@ Jede Domäne wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="Auswählen einer Marketing-Oberfläche"
->abstract="Sie müssen dieselbe Oberfläche auswählen wie die in der Kampagne ausgewählte Oberfläche, die Sie mit Ihrem IP-Aufwärmplan verbinden möchten."
+>abstract="Es muss dieselbe Oberfläche ausgewählt werden wie die in der Kampagne, die mit Ihrem IP-Aufwärmplan verbunden werden soll. "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Einrichten von Kanaloberflächen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=de" text="Erstellen von IP-Aufwärmkampagnen"
 

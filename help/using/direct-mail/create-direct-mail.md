@@ -8,7 +8,7 @@ level: Beginner
 keywords: Direkt-Mail, Nachricht, Kampagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Erstellung von Briefpost"
->abstract="Erstellen Sie Briefpostnachrichten in geplanten Kampagnen und entwerfen Sie die Extraktionsdateien, die von Briefpostanbietern benötigt werden, um E-Mails an Ihre Kunden zu senden."
+>abstract="Briefpostnachrichten in geplanten Kampagnen erstellen und die Extraktionsdateien entwerfen, die von Briefpostanbietern benötigt werden, um E-Mails an Kunden zu senden."
 
 Um Briefpost-Nachrichten zu erstellen, erstellen Sie eine geplante Kampagne und konfigurieren Sie die Extraktionsdatei. Diese Datei wird von Briefpost-Dienstleistern benötigt, um E-Mails an Ihre Kundinnen bzw. Kunden zu senden.
 
