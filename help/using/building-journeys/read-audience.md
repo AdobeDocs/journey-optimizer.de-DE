@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 97%
+source-wordcount: '1356'
+ht-degree: 94%
 
 ---
 
@@ -47,13 +47,13 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
 1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu (optional).
 
-1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**.
-
-   Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
+1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Nur Personen mit den Zielgruppenteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
+   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+
+   Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Nur Personen mit den Zielgruppenteilnahmestatus **Realisiert** und **Vorhanden** können in die Journey eintreten. Weitere Informationen zum Auswerten einer Zielgruppe finden Sie in der [Dokumentation zum Segmentierungs-Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=de#interpret-segment-results){target="_blank"}.
 
 1. Wählen Sie im Feld **[!UICONTROL Namespace]** den Namespace aus, der zur Identifizierung der Kontakte verwendet werden soll. Standardmäßig ist das Feld mit dem zuletzt verwendeten Namespace vorausgefüllt. [Weitere Informationen über Namespaces](../event/about-creating.md#select-the-namespace).
 

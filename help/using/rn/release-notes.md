@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Versionshinweise zu Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4525'
+source-wordcount: '4527'
 ht-degree: 95%
 
 ---
@@ -92,7 +92,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
+* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenzusammensetzung erstellt wurden, und Anreicherungsattribute in Journey nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
