@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1078'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ Es ist gesetzlich vorgeschrieben, den Empfängerinnen und Empfängern die Mögli
 Beim Versand von Nachrichten von Journeys oder Kampagnen müssen Sie stets sicherstellen, dass sich Kunden von der künftigen Kommunikation abmelden können. Nach der Kündigung des Abos werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
 **[!DNL Journey Optimizer]** bietet Möglichkeiten zum Verwalten des Opt-outs in E-Mails und SMS-Nachrichten. Push-Benachrichtigungen erfordern hingegen keine Maßnahme Ihrerseits, da sich Empfänger selbst über ihre Geräte abmelden können. Beispielsweise können sie den Versand von Benachrichtigungen beim Herunterladen oder bei der Nutzung Ihrer Mobile App deaktivieren. Ebenso können sie die Benachrichtigungseinstellungen über das mobile Betriebssystem ändern.
+
+>[!NOTE]
+>
+>Darüber hinaus können Sie Journey Optimizer nutzen **Unterdrückungs-REST-API** um Ihre ausgehenden Nachrichten mithilfe von Unterdrückung und Zulassungslisten zu steuern. [Erfahren Sie, wie Sie mit der Unterdrückungs-REST-API arbeiten](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de)
+
 
 In den folgenden Abschnitten erfahren Sie, wie Sie Opt-out-Verfahren in E-Mails und SMS-Nachrichten von Journey Optimizer verwalten:
 
@@ -93,7 +98,7 @@ Haben Benutzende:
 >
 >Das Einverständnis für die Verwendung von Profildaten in [Datenmodellierung](../offers/ranking/ai-models.md) wird noch nicht in [!DNL Journey Optimizer] unterstützt.
 
-## Im Ausdruckseditor {#opt-out-expression-editor}
+### Im Ausdruckseditor {#opt-out-expression-editor}
 
 Der [Ausdruckseditor](../personalization/personalization-build-expressions.md) selbst führt keine Einverständnisprüfung oder -durchsetzung durch, da er nicht am Versand von Nachrichten beteiligt ist.
 

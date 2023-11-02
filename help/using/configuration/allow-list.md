@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Zulassungsliste, Liste, sicher, Konfiguration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: ht
-source-wordcount: '1129'
-ht-degree: 100%
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 96%
 
 ---
 
@@ -22,17 +22,15 @@ Es ist möglich, auf [Sandbox](../administration/sandboxes.md)-Ebene eine spezif
 
 Mit der Zulassungsliste können einzelne E-Mail-Adressen oder Domains angegeben werden, die die einzigen Empfänger oder Domains sind, die zum Empfang der von einer bestimmten Sandbox gesendeten E-Mails berechtigt sind.
 
->[!NOTE]
+>[!CAUTION]
 >
->Diese Funktion ist jetzt sowohl in Produktions-Sandboxes als auch Nicht-Produktions-Sandboxes verfügbar.
+>Diese Funktion ist nur für den E-Mail-Kanal verfügbar. Sie ist für Produktions- und Nicht-Produktions-Sandboxes verfügbar.
 
 Auf einer produktionsfremden Instanz, bei der Fehler auftreten können, stellt die Zulassungsliste beispielsweise sicher, dass kein Risiko besteht, dass unerwünschte Nachrichten an reale Kundenadressen gesendet werden; dies ist daher eine sichere Umgebung für Testzwecke.
 
 Wenn die Zulassungsliste aktiv, aber leer ist, wird keine E-Mail gesendet. Wenn Sie also auf ein großes Problem stoßen, können Sie diese Funktion verwenden, um alle von [!DNL Journey Optimizer] ausgehenden Nachrichten zu stoppen, bis Sie das Problem behoben haben. Erfahren Sie mehr über die [Logik der Zulassungsliste](#logic).
 
->[!CAUTION]
->
->Diese Funktion ist nur für den E-Mail-Kanal verfügbar.
+Darüber hinaus können Sie Journey Optimizer nutzen **Unterdrückungs-REST-API** um Ihre ausgehenden Nachrichten mithilfe von Unterdrückung und Zulassungslisten zu steuern. [Erfahren Sie, wie Sie mit der Unterdrückungs-REST-API arbeiten](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de)
 
 ## Zugriff auf die Zulassungsliste {#access-allowed-list}
 

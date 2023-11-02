@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 98%
+source-wordcount: '1578'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,8 @@ So nutzen Sie Fragmente am besten:
 * Erstellen Sie Ihre eigenen Fragmente. Sie können visuelle Fragmente oder Ausdrucksfragmente erstellen. [Weitere Informationen](#create-fragments)
 
 * Diese können beliebig oft in E-Mails verwendet werden. Siehe [Hinzufügen visueller Fragmente](../email/use-visual-fragments.md) und [Nutzen von Ausdrucksfragmenten](../personalization/use-expression-fragments.md)
+
+Darüber hinaus können Sie Journey Optimizer nutzen **Content REST API** um Inhaltsfragmente zu verwalten. Weiterführende Informationen finden Sie in der [Dokumentation zu Journey Optimizer-APIs](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Bevor Sie beginnen {#fragment-prerequisites}
 
