@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
+source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 34%
@@ -42,7 +42,7 @@ ht-degree: 34%
 
 Sandbox Tooling ermöglicht es Ihnen, Objekte über mehrere Sandboxes hinweg zu kopieren, indem Sie Package-Export und -Import nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.
 
-Auf dieser Seite wird der Anwendungsfall der Sandbox-Tools im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion selbst finden Sie im Abschnitt [Experience Platform-Dokumentation](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Auf dieser Seite wird der Anwendungsfall der Sandbox-Tools im Kontext von Journey Optimizer beschrieben. Weitere Informationen zur Funktion selbst finden Sie im Abschnitt [Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
