@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 * Derzeit wird die Verwendung von Zielgruppen [aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) oder [Zusammensetzungs-Workflows](../audience/get-started-audience-orchestration.md) in Journey ist als private Beta verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-### Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
+## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
 So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >Einmalige „Zielgruppe lesen“-Journeys wechseln 30 Tage nach der Ausführung der Journey in den Status „Beendet“. Folgt die Aktivität „Zielgruppe lesen“ einem Zeitplan, wird sie 30 Tage nach dem letzten Auftreten beendet.
 
-### Testen und Veröffentlichen der Journey {#testing-publishing}
+## Testen und Veröffentlichen der Journey {#testing-publishing}
 
 Mit der Aktivität **[!UICONTROL Zielgruppe lesen]** können Sie die Journey anhand eines einheitlichen Profils testen.
 
