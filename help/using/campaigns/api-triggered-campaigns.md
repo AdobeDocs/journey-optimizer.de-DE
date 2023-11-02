@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: Kampagnen, API-ausgelöst, REST, Optimizer, Nachrichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 98%
+source-wordcount: '967'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,8 @@ Für von einer API ausgelöste Kampagnen stehen die Kanäle E-Mail, SMS und Push
 >[!NOTE]
 >
 >Ab sofort wird der Schnellversand-Modus für Kampagnen, die durch die Push-Benachrichtigungs-API ausgelöst werden, nicht mehr unterstützt.
+
+➡️ [Entdecken Sie diese Funktion im Video](#video)
 
 ## Erstellen einer API-ausgelösten Kampagne {#create}
 
@@ -132,3 +134,9 @@ Um die Profilerstellung bei der Kampagnenausführung zu aktivieren, schalten Sie
 >[!NOTE]
 >
 >Unbekannte Profile werden im **Profil-Datensatz von AJO Interactive Messaging** erstellt, und zwar in drei Standard-Namespaces (E-Mail, Telefon und ECID) für jeden ausgehenden Kanal (E-Mail, SMS und Push).
+
+## Anleitungsvideo {#video}
+
+Erfahren Sie, wie Sie mithilfe der REST-API für die interaktive Nachrichtenausführung eine Kampagne erstellen und von einem externen Trigger aus auf Benutzerinteraktionen basierenden System abrufen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
