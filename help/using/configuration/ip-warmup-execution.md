@@ -11,7 +11,7 @@ keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 96%
@@ -190,7 +190,7 @@ Planen Sie ausreichend Zeit für die Ausführung des [Segmentierungsvorgangs](ht
 >
 >Jede Ausführung muss mindestens 12 Stunden vor der tatsächlichen Versandzeit aktiviert werden. Andernfalls könnte die Segmentierung nicht abgeschlossen sein.
 
-Wenn Sie eine Ausführung aktivieren, werden mehrere Segmente automatisch erstellt.
+Wenn Sie eine Ausführung aktivieren, werden automatisch mehrere Zielgruppen erstellt.
 
 * Wenn Sie die erste Ausführung einer Phase aktivieren:
 
