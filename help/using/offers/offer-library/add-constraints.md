@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2396'
 ht-degree: 92%
 
 ---
@@ -44,6 +44,10 @@ Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebo
 1. Definieren Sie die **[!UICONTROL Priorität]** des Angebots gegenüber anderen, wenn der Benutzer für mehr als ein Angebot geeignet ist. Je höher die Priorität eines Angebots ist, desto höher ist seine Priorität gegenüber anderen Angeboten.
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >Die Angebotspriorität muss ein ganzzahliger Wert sein (keine Dezimalstellen).
 
 1. Geben Sie die **[!UICONTROL Begrenzung]** des Angebots an, d. h. wie häufig das Angebot unterbreitet werden soll. [Weitere Informationen](#capping)
 
