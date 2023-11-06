@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Inhalt dieses Dokumentationshandbuchs:
 
 >[!ENDSHADEBOX]
 
-Vor der Erstellung des IP-Warmup-Plans in [!DNL Journey Optimizer]müssen Sie zunächst eine oder mehrere Kampagnen erstellen, die speziell für die Verwendung in einem IP-Warmup-Plan entwickelt wurden.<!--through a dedicated option-->.
+Bevor Sie den eigentlichen IP-Warmup-Plan in [!DNL Journey Optimizer] erstellen, müssen Sie zunächst eine oder mehrere Kampagnen erstellen, die speziell für die Verwendung in einem IP-Warmup-Plan<!--through a dedicated option--> konzipiert sind.
 
 Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus.
 
@@ -48,7 +48,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
    >
    >Arbeiten Sie mit Ihren Fachleuten für Zustellbarkeit zusammen, um die Domain und die IPs zu identifizieren, die für Ihren IP-Aufwärmplan verwendet werden sollen.<!--TBC-->
 
-1. Geplantes Marketing erstellen [Kampagne](../campaigns/create-campaign.md) und wählen Sie die [Email](../email/create-email.md#create-email-journey-campaign) Aktion.
+1. Erstellen Sie eine geplante [Kampagne](../campaigns/create-campaign.md) und wählen Sie die Aktion [E-Mail](../email/create-email.md#create-email-journey-campaign).
 
    <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
 
@@ -72,7 +72,7 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
    >
    >Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Seite](../campaigns/get-started-with-campaigns.md).
 
-1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie die Kampagne. Der Status ändert sich in **[!UICONTROL Live]**.
+1. [Aktivieren](../campaigns/review-activate-campaign.md) Sie die Kampagne. Der Status ändert sich in **[!UICONTROL Live]**
 
    >[!NOTE]
    >
@@ -84,9 +84,9 @@ Um eine IP-Aufwärmkampagne zu erstellen, führen Sie die folgenden Schritte aus
 
 Sobald die Kampagne live ist, kann sie in einem IP-Aufwärmplan verwendet werden. [Weitere Informationen](ip-warmup-plan.md)
 
-Eine IP-Warmup-Kampagne kann nur in einem IP-Warmup-Plan verwendet werden. Dieselbe Kampagne kann jedoch in einer oder mehreren Phasen desselben IP-Warmup-Plans verwendet werden. [Weitere Informationen](ip-warmup-plan.md#define-phases)
+Eine IP-Warmup-Kampagne kann in nur einem IP-Warmup-Plan verwendet werden. Dieselbe Kampagne kann jedoch in einer oder mehreren Phasen desselben IP-Aufwärmplans verwendet werden. [Weitere Informationen](ip-warmup-plan.md#define-phases)
 
 >[!NOTE]
 >
->Wenn eine Live-Kampagne in einem IP-Aufwärmplan verwendet wird, nachdem der Plan abgeschlossen ist [als abgeschlossen markiert](ip-warmup-execution.md#mark-as-completed), ändert sich der Status dieser Kampagne in **[!UICONTROL Angehalten]**.
+>Wenn eine Live-Kampagne in einem IP-Warmup-Plan verwendet wird, ändert sich der Status dieser Kampagne, nachdem der Plan als [abgeschlossen](ip-warmup-execution.md#mark-as-completed) markiert wurde, in **[!UICONTROL gestoppt]**.
 
