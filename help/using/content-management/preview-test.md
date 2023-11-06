@@ -1,35 +1,36 @@
 ---
-title: Vorschau erstellen und Inhalt testen
-description: Erfahren Sie, wie Sie Ihre Inhalte in der Vorschau anzeigen und testen können.
+title: Vorschau und Test Ihres Inhalts
+description: Erfahren Sie, wie Sie Ihren Inhalt in der Vorschau darstellen und testen können.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
-workflow-type: tm+mt
+exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
-# Vorschau erstellen und Inhalt testen {#preview-test}
+# Vorschau und Test Ihres Inhalts {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Überprüfen der Inhaltsdarstellung"
+>title="Überprüfen des Inhalt-Renderings"
 >abstract="Sobald Ihr Inhalt definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau davon anzeigen und überprüfen, ob das Rendering je nach verwendetem Kanal korrekt ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_simulate"
->title="Überprüfen der Inhaltsdarstellung"
+>title="Überprüfen des Inhalt-Renderings"
 >abstract="Nachdem Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
-## Über Inhaltsvorschau und -test {#about}
+## Mehr Informationen zu Vorschau und Test Ihres Inhalts {#about}
 
-Sobald Ihr Inhalt definiert wurde, können Sie Testprofile für [Vorschau](preview.md) Inhalt vor dem Versand der Nachricht. Dies ist ein wichtiger Schritt, um sicherzustellen, dass es korrekt, aber auch fehlerfrei ist, sowohl in den Inhalts- als auch in den Personalisierungseinstellungen.
+Sobald der Inhalt der definiert worden ist, können Sie ihn vor dem Senden der Nachricht mithilfe von Testprofilen in der [Vorschau](preview.md) ansehen. Dies ist ein entscheidender Schritt, um sicherzustellen, dass er präzise, aber auch frei von Fehlern ist, sowohl im Inhalt als auch in den Personalisierungseinstellungen.
 
-Darüber hinaus können Sie auch [Testsendungen durchführen](proofs.md) (Testsendungen) Ihrer E-Mail-Nachrichten an bestimmte Empfänger oder Abonnenten zum Testen und Validieren und [Überprüfen des Renderings](rendering.md) in beliebten Desktop-, Mobile- und Web-basierten Clients.
+Darüber hinaus können Sie auch [Testsendungen Ihrer E-Mail-Nachrichten an bestimmte Empfängerinnen und Empfänger oder Abonnentinnen bzw. Abonnenten zum Testen und Validieren senden](proofs.md) sowie ihr [Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients überprüfen](rendering.md).
 
-Alle diese Aktionen können mit dem **[!UICONTROL Inhalt simulieren]** auf die Sie über den Bildschirm &quot;Inhalt bearbeiten&quot;Ihrer Nachricht oder über die E-Mail- und Webdesigner für die E-Mail- und Webkanäle zugreifen können.
+Alle diese Aktionen können mit der Schaltfläche **[!UICONTROL Inhalt simulieren]** durchgeführt werden, auf die Sie über den Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder über die E-Mail- und Web-Designer für die E-Mail- bzw. Web-Kanäle zugreifen können.
 
 ![](../email/assets/email-preview-button.png)
 
@@ -41,9 +42,9 @@ Alle diese Aktionen können mit dem **[!UICONTROL Inhalt simulieren]** auf die S
 
 ## Voraussetzungen {#prerequisites}
 
-Um Inhalte zu simulieren, benötigen Sie die **[!DNL Manage Simulate Content]** -Berechtigung im **[!DNL Content Library Manager]** Produktprofil. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
+Um Inhalte zu simulieren, müssen Sie über die Berechtigung **[!DNL Manage Simulate Content]** im Produktprofil **[!DNL Content Library Manager]** verfügen. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
 
-Außerdem müssen Testprofile verfügbar sein, damit Sie eine Vorschau Ihrer Nachrichten anzeigen können. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
+Um Ihre Nachrichten in der Vorschau anzuzeigen, benötigen Sie außerdem Testprofile. [Hier erfahren Sie, wie Sie Testprofile erstellen](../audience/creating-test-profiles.md)
 
 ## Anleitungsvideo {#video-preview}
 
