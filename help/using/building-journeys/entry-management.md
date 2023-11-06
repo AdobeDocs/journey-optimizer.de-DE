@@ -9,9 +9,9 @@ level: Intermediate
 keywords: Wiedereintritt, Journey, Profil, wiederkehrend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ In einheitlichen Journey können Sie den Wiedereintritt aktivieren oder deaktivi
 
 Standardmäßig ist bei neuen Journeys der erneute Eintritt erlaubt. Sie können die Option für „einmalige“ Journeys deaktivieren, z. B. wenn Sie ein einmaliges Geschenk anbieten möchten, sobald eine Person einen Shop betritt. In diesem Fall müssen Sie vermeiden, dass die Kundin bzw. der Kunde erneut in die Journey eintritt und das Angebot erneut erhält. Wenn eine Journey beendet wird, lautet ihr Status **[!UICONTROL Geschlossen]**. Neue Kontakte können nicht mehr in die Journey eintreten. Personen, die sich bereits in der Journey befinden, beenden die Journey wie gewohnt. [Weitere Informationen](journey-gs.md#entrance)
 
-Wenn die Variable **Wiedereintritt erlauben** aktiviert ist, wird die **Wartezeit beim erneuten Eintritt** -Feld können Sie die Wartezeit definieren, bevor Sie einem Profil erlauben, die Journey erneut einzugeben. Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Dauer beträgt 29 Tage.
+Wenn die Option **Erneuten Eintritt erlauben** aktiviert ist, können Sie im Feld **Wartezeit bis zum erneuten Eintritt** die Zeitspanne festlegen, die vergehen soll, bevor Sie einem Profil den erneuten Eintritt in die Journey erlauben. Dadurch wird verhindert, dass Journeys fälschlicherweise mehrmals für dasselbe Ereignis ausgelöst werden. Standardmäßig ist das Feld auf 5 Minuten eingestellt. Die maximale Wartezeit beträgt 29 Tage.
 
 ![](assets/journey-re-entrance.png)
 
