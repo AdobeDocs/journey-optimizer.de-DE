@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: Anwendungsfall, mehrere Kanäle, Nachrichten, Journey, Kanal, Ereignisse, Push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ In diesem Abschnitt wird ein Anwendungsfall vorgestellt, der die Aktivität „Z
 
 ## Beschreibung des Anwendungsfalls
 
-In diesem Anwendungsfall möchten wir eine erste E-Mail-Nachricht an alle Kunden senden, die zu einer bestimmten Zielgruppe gehören.
+Bei diesem Anwendungsfall möchten wir eine erste E-Mail-Nachricht an alle Kundinnen und Kunden senden, die zu einer bestimmten Zielgruppe gehören.
 
 Abhängig von ihrer jeweiligen Reaktion auf die erste Nachricht möchten wir spezifische Nachrichten senden.
 
-Wenn der Kunde die E-Mail öffnet, warten wir auf einen Kauf und senden eine Push-Nachricht, um dem Kunden zu danken.
+Wenn die Kundin oder der Kunde die E-Mail öffnet, warten wir auf einen Kauf und senden eine Push-Nachricht, um der Kundin bzw. dem Kunden zu danken.
 
-Wenn keine Reaktion erfolgt, senden wir eine Follow-up-E-Mail.
+Wenn keine Reaktion erfolgt, senden wir eine Folge-E-Mail.
 
 ## Voraussetzungen
 
@@ -93,9 +93,9 @@ Das Ereignis ist jetzt konfiguriert und kann in Ihrer Journey verwendet werden. 
 
    ![](assets/jo-uc5.png)
 
-1. Hinzufügen einer **Reaktion** Ereignis und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, wenn eine der Zielgruppe angehörende Person die E-Mail öffnet.
+1. Fügen Sie ein Ereignis vom Typ **Reaktion** hinzu und wählen Sie **E-Mail geöffnet**. Das Ereignis wird ausgelöst, sobald ein zur Zielgruppe gehörender Kontakt die E-Mail öffnet.
 
-1. Überprüfen Sie die **Definieren des Ereignis-Timeouts** ein, legen Sie eine Dauer fest (in unserem Beispiel einen Tag) und aktivieren Sie die Option **Zeitüberschreitungspfad festlegen**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
+1. Markieren Sie das Kästchen **Maximale Wartezeit für das Ereignis definieren**, definieren Sie eine Dauer (in unserem Beispiel 1 Tag) und markieren Sie **Pfad für maximale Wartezeit festlegen**. Dadurch wird ein weiterer Pfad für Einzelpersonen erstellt, die die erste Push- oder E-Mail-Nachricht nicht öffnen.
 
 1. Legen Sie im Pfad der maximalen Wartezeit die Aktionsaktivität **E-Mail** ab und definieren sie den Inhalt der Folgenachricht. Diese Nachricht wird an Personen gesendet, die am nächsten Tag weder die erste E-Mail noch die erste Push-Benachrichtigung öffnen. In diesem [Abschnitt](../email/create-email.md) erfahren Sie, wie Sie eine E-Mail konfigurieren und gestalten können.
 
