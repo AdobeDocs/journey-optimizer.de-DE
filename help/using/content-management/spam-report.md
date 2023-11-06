@@ -1,41 +1,42 @@
 ---
-title: Spam-Bericht verwenden
-description: Erfahren Sie, wie Sie den Spam-Bericht verwenden.
+title: Verwenden eines Spam-Berichts
+description: Erfahren Sie, wie Sie den Spam-Bericht verwenden
 feature: Preview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
-workflow-type: tm+mt
+exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Spam-Bericht verwenden {#spam-report}
+# Verwenden eines Spam-Berichts {#spam-report}
 
 >[!AVAILABILITY]
 >
->Die Funktion für den Spam-Bericht ist derzeit als Beta-Version verfügbar, um nur Benutzer auszuwählen. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
+>Die Spam-Bericht-Funktion ist derzeit nur als Betaversion für ausgewählte Benutzende verfügbar. Wenden Sie sich an die Kundenunterstützung von Adobe, um am Beta-Programm teilzunehmen.
 
-[!DNL Journey Optimizer] ermöglicht Ihnen, die Leistung Ihres Inhalts gegen Spam-Filterung zu überprüfen und sicherzustellen, dass Ihre Nachrichten in den Postfächern Ihrer Kunden landen - nicht in Spam.
+Mit [!DNL Journey Optimizer] können Sie die Leistung Ihres Inhalts gegen Spam-Filterung überprüfen und sicherstellen, dass Ihre Nachrichten in den Postfächern Ihrer Kundschaft landen und nicht im Spam.
 
 >[!CAUTION]
 >
 >* Diese Funktion ist derzeit nur für den E-Mail-Kanal verfügbar.
 >
->* Zunächst kann die Spam-Berichtsanalyse nur für englischsprachige Inhalte durchgeführt werden.
+>* Derzeit kann die Spam-Berichtsanalyse nur für englischsprachige Inhalte durchgeführt werden.
 
-Wenn Sie Inhalte bearbeiten oder in der Vorschau anzeigen, wird die **[!UICONTROL Spam-Bericht]** bietet eine Bewertung und Ratschläge zur Verbesserung der Bewertungen für jedes aufgelistete Element.
+Wenn Sie Inhalte bearbeiten oder in der Vorschau anzeigen, bietet die Option **[!UICONTROL Spam-Bericht]** eine Bewertung und Ratschläge zur Verbesserung der Bewertungen für jedes aufgelistete Element.
 
 Auf diese Weise können Sie feststellen, ob eine Nachricht von den Anti-Spam-Tools, die bei Erhalt verwendet werden, als Spam eingestuft wird, und Maßnahmen ergreifen, falls dies nicht der Fall ist.
 
 >[!CAUTION]
 >
->Der Spam-Bericht enthält nur Hinweise und Warnungen. Beachten Sie, dass Sie nicht daran gehindert werden, Nachrichten zu senden, wenn der Spam-Bericht anzeigt, dass Ihr Inhalt als Spam gilt. Es ist Ihre Wahl, entsprechend dem Ergebnis und den vorgeschlagenen Verbesserungen zu handeln.
+>Der Spam-Bericht enthält nur Hinweise und Warnungen. Beachten Sie, dass Sie nicht daran gehindert werden, Nachrichten zu senden, wenn der Spam-Bericht anzeigt, dass Ihr Inhalt als Spam gilt. Es ist Ihre Entscheidung, ob Sie die Bewertung und die Verbesserungsvorschläge befolgen.
 
-So verwenden Sie die **[!UICONTROL Spam-Bericht]** Gehen Sie wie folgt vor.
+Zur Verwendung der Funktion für **[!UICONTROL Spam-Berichte]** gehen Sie wie folgt vor.
 
 <!--For example spam scoring tool can tell that there are too many Images compared to the text. Retailers tend to do this even though the spam score gets worse because the content is more engaging.-->
 
@@ -47,7 +48,7 @@ They should be able to get scores for each individual items as shown by market s
 
 They should also get suggestions on how to improve the score better to be confident that the messages don't get categorised as spam.-->
 
-1. Aus dem **[!UICONTROL Simulieren]** klicken Sie auf das **[!UICONTROL Spam-Bericht]** Schaltfläche.
+1. Klicken Sie auf dem Bildschirm **[!UICONTROL Simulieren]** auf die Schaltfläche **[!UICONTROL Spam-Bericht]**.
 
    ![](assets/spam-report-button.png)
 
@@ -57,17 +58,17 @@ They should also get suggestions on how to improve the score better to be confid
     ![](assets/spam-report-check-score.png)
 -->
 
-1. Eine Anti-Spam-Prüfung wird automatisch durchgeführt und die **[!UICONTROL Spam-Bericht]** zeigt die Ergebnisse an. Er zeigt die Leistung Ihres Inhalts in Bezug auf das Textlayout, die Struktur, die Bildgröße, ggf. Spam-Trigger-Wörter usw.
+1. Eine Anti-Spam-Prüfung wird automatisch durchgeführt und der **[!UICONTROL Spam-Bericht]** zeigt die Ergebnisse an. Er zeigt die Leistung Ihres Inhalts in Bezug auf das Text-Layout, die Struktur, die Bildgröße, ggf. Wörter, die Spam triggern usw.
 
    ![](assets/spam-report-high-score.png)
 
 1. Überprüfen Sie die Bewertungen und Beschreibungen für jedes Element.
 
-   Wenn der Wert größer als 5 ist, wird ein Warnhinweis angezeigt. Er weist darauf hin, dass manche Nachrichten beim Empfang von Anti-Spam-Tools blockiert oder als Spam gekennzeichnet werden können.
+   Wenn der Wert größer als 5 ist, wird eine Warnung angezeigt. Sie weist darauf hin, dass beim Empfang manche Nachrichten von Anti-Spam-Tools blockiert oder als Spam gekennzeichnet werden können.
 
-1. Basierend auf dieser Bewertung können Sie, wenn Sie der Ansicht sind, dass einige Elemente verbessert werden können, mithilfe der [Email Designer](../email/content-from-scratch.md) und nehmen Sie die erforderlichen Aktualisierungen vor.
+1. Basierend auf dieser Bewertung können Sie, wenn Sie der Ansicht sind, dass einige Elemente verbessert werden können, in Ihren Inhalten mithilfe von [E-Mail-Designer](../email/content-from-scratch.md) die erforderlichen Aktualisierungen vornehmen.
 
-1. Sobald Ihre Änderungen vorgenommen wurden, kehren Sie zum **[!UICONTROL Spam-Bericht]** angezeigt, um sicherzustellen, dass Ihr Ergebnis verbessert wurde.
+1. Sobald Sie Ihre Änderungen vorgenommen haben, kehren Sie zum Bildschirm **[!UICONTROL Spam-Bericht]** zurück, um sicherzustellen, dass sich Ihre Bewertung verbessert hat.
 
    ![](assets/spam-report-low-score.png)
 
@@ -79,6 +80,3 @@ They should also get suggestions on how to improve the score better to be confid
 
     ![](assets/spam-report-alert.png)
 -->
-
-
-
