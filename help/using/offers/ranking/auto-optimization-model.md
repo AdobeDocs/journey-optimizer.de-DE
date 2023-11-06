@@ -8,15 +8,15 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1365'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Modelle für die automatische Optimierung {#auto-optimization-model}
 
-Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und wird auf der Grundlage der &quot;globalen&quot;Leistung der Angebote optimiert.
+Mit einem Modell mit automatischer Optimierung werden Angebote geschaltet, die den von den Geschäftskunden festgelegten Gewinn (KPIs) maximieren. Diese KPIs können in Form von Konversionsraten, Umsatz usw. vorliegen. Im Moment bezieht sich die automatische Optimierung auf die Optimierung von Angebotsklicks mit dem Ziel der Angebotskonvertierung. Die automatische Optimierung ist nicht personalisiert und erfolgt auf der Grundlage der „globalen“ Leistung der Angebote.
 
 ## Einschränkungen {#limitations}
 
@@ -39,7 +39,7 @@ Bei der automatisierten Optimierung sind die folgenden Begriffe hilfreich:
 
 Der Algorithmus, der der automatischen Optimierung zugrunde liegt, ist das **Thompson-Stichprobenverfahren**. In diesem Abschnitt besprechen wir die Idee hinter dem Thompson-Stichprobenverfahren.
 
-Beim [Thompson-Stichprobenverfahren](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, oder „Bayes&#39;sche Banditen“, handelt es sich um einen Bayes&#39;schen Ansatz für das Problem des mehrarmigen Banditen.  Die Grundidee besteht darin, die durchschnittliche Belohnung ?? aus jedem Angebot als **Zufallsvariable** und nutzen Sie die bisher gesammelten Daten, um unseren &quot;Glauben&quot; über die durchschnittliche Belohnung zu aktualisieren. Dieser &quot;Glaube&quot;wird mathematisch durch eine **posteriale Wahrscheinlichkeitsverteilung** - im Wesentlichen ein Wertebereich für die durchschnittliche Belohnung sowie die Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
+Beim [Thompson-Stichprobenverfahren](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, oder „Bayes&#39;sche Banditen“, handelt es sich um einen Bayes&#39;schen Ansatz für das Problem des mehrarmigen Banditen.  Die Grundidee besteht darin, die durchschnittliche Belohnung von jedem Angebot als **Zufallsvariable** zu behandeln und die bisher gesammelten Daten zu verwenden, um unsere „Überzeugung“ hinsichtlich der durchschnittlichen Belohnung zu aktualisieren. Diese „Überzeugung“ wird mathematisch durch eine **A-posteriori-Wahrscheinlichkeitsverteilung** dargestellt – im Prinzip ein Bereich von Werten für die durchschnittliche Belohnung gemeinsam mit der Plausibilität (oder Wahrscheinlichkeit), dass die Belohnung diesen Wert für jedes Angebot hat. Danach entnehmen wir für jede Entscheidung **einen Punkt aus jeder dieser A-posteriori-Belohnungsverteilungen** und wählen das Angebot aus, dessen Belohnung den höchsten Wert hatte.
 
 Dieser Vorgang wird in der folgenden Abbildung veranschaulicht, in der wir drei verschiedene Angebote haben. Anfänglich haben wir keine Erkenntnisse aus den Daten und nehmen an, dass alle Angebote eine einheitliche A-posteriori-Belohnungsverteilung haben. Wir ziehen eine Stichprobe aus der A-posteriori-Belohnungsverteilung eines jeden Angebots. Die aus der Verteilung von Angebot 2 ausgewählte Stichprobe hat den höchsten Wert. Dies ist ein Beispiel für eine **Exploration**. Nach der Anzeige von Angebot 2 erfassen wir jede potenzielle Belohnung (z. B. Konversion/Keine Konversion) und aktualisieren die A-posteriori-Verteilung von Angebot 2 mithilfe des Satzes von Bayes, wie unten beschrieben.  Wir setzen diesen Prozess fort und aktualisieren die A-posteriori-Verteilungen jedes Mal, wenn ein Angebot angezeigt und die Belohnung erfasst wird. In der zweiten Abbildung wird Angebot 3 ausgewählt. Obwohl Angebot 1 die höchste durchschnittliche Belohnung hat (die A-posteriori-Belohnungsverteilung ist am weitesten rechts), hat der Prozess der Stichprobenziehung aus jeder Verteilung dazu geführt, dass wir das scheinbar suboptimale Angebot 3 ausgewählt haben. Damit geben wir uns die Möglichkeit, mehr über die wahre Belohnungsverteilung von Angebot 3 zu erfahren.
 
@@ -59,7 +59,7 @@ Wenn ein Angebot (z. B. Angebot 1) ein eindeutiger Gewinner ist, wird seine A-po
 
 +++**Technische Details**
 
-Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(??i | data)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert **??i** auf der Basis der bisher für dieses Angebot gesammelten Daten ist.
+Zur Berechnung/Aktualisierung der Verteilungen verwenden wir den **Satz von Bayes**. Für jedes Angebot ***i*** möchten wir sein ***P(𝛍i | data)*** berechnen, d. h. für jedes Angebot ***i*** möchten wir feststellen, wie wahrscheinlich der Belohnungswert **𝛍i** auf der Basis der bisher für dieses Angebot gesammelten Daten ist.
 
 Nach dem Satz von Bayes:
 
@@ -99,8 +99,8 @@ Das „Kaltstart“-Problem tritt auf, wenn ein neues Angebot zu einer Kampagne 
 
 ## Steigerungsmessung {#lift}
 
-&quot;Steigerung&quot;ist die Metrik, die verwendet wird, um die Leistung einer beliebigen Strategie zu messen, die im Rang-Service bereitgestellt wird, im Vergleich zur Basisstrategie (Bereitstellung von Angeboten einfach zufällig).
+Mit der Metrik „Steigerung“ wird die Leistung einer Strategie im Rangfolgen-Service gegenüber einer Basisstrategie (d. h. nur zufällig bereitgestellte Angebote) gemessen.
 
-Wenn wir z. B. die Performance einer Thompson Sampling (TS)-Strategie messen möchten, die im Ranking Service verwendet wird, und der KPI die Konversionsrate (CVR) ist, wird die &quot;Steigerung&quot;der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
+Wenn wir z. B. die Performance einer TS-Strategie (Thompson-Stichprobenverfahren) im Rangfolgen-Service messen möchten und der KPI die Konversionsrate (CVR) ist, wird die „Steigerung“ der TS-Strategie gegenüber der Basisstrategie folgendermaßen definiert:
 
 ![](../assets/ai-ranking-lift.png)
