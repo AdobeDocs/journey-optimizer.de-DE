@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Gehen Sie wie folgt vor, um eine neue Rangfolgeformel zu erstellen:
 
    >[!IMPORTANT]
    >
-   >Bei der Erstellung einer Rangformel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. Wenn Sie beispielsweise ein Erlebnisereignis angeben, das im letzten Monat als Komponente der Formel aufgetreten ist. Bei jedem Versuch, einen Lookback-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler Trigger.
+   >Beim Erstellen einer Ranglistenformel wird ein Rückblick in einen vorherigen Zeitraum nicht unterstützt. So kann es beispielsweise sein, dass Sie als Bestandteil der Formel ein Erlebnisereignis angeben, das innerhalb des letzten Monats stattgefunden hat. Bei jedem Versuch, einen Rückblick-Zeitraum während der Formelerstellung einzubeziehen, wird beim Speichern ein Fehler ausgelöst.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Ihre Rangfolgeformel wird erstellt. Sie können sie aus der Liste auswählen, um Details abzurufen und sie zu bearbeiten oder zu löschen.
 
