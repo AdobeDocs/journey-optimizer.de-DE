@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Warten, Aktivität, Journey, weiter, Arbeitsfläche
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ Ein Kontakt kann nur dann eine Warteaktivität annehmen, wenn er oder sie noch g
 
 Es ist Best Practice, keine Wartezeiten zu verwenden, um den erneuten Eintritt zu blockieren. Verwenden Sie stattdessen die Option **Erneuten Eintritt erlauben** auf der Ebene der Journey-Eigenschaften. Weitere Informationen finden Sie auf [dieser Seite](../building-journeys/journey-gs.md#entrance).
 
-## Wartezeit mit Dauer{#duration}
+## Dauer der Wartezeit{#duration}
 
-Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus. Die maximale Dauer beträgt 29 Tage.
+Wählen Sie die Dauer der Wartezeit vor der Ausführung der nächsten Aktivität aus. Die maximale Wartezeit beträgt 29 Tage.
 
 ![](assets/journey55.png)
 
