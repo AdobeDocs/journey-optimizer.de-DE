@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Ausdruck, Editor, dynamisch, Inhalt
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ Gehen Sie wie folgt vor, um dynamische Inhalte in Ausdrücke einzufügen:
 
 Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer zu erstellen:
 
-1. Im [Email Designer](../email/content-from-scratch.md), wählen Sie eine Inhaltskomponente aus und klicken Sie auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
+1. Wählen Sie im [E-Mail-Designer](../email/content-from-scratch.md) eine Inhaltskomponente aus und klicken Sie dann auf **[!UICONTROL Bedingten Inhalt aktivieren]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Seite angezeigt. In diesem Bereich können Sie mithilfe von Bedingungen mehrere Varianten der ausgewählten Inhaltskomponente erstellen.
 
-   Konfigurieren Sie Ihre erste Variante, indem Sie die **[!UICONTROL Bedingung auswählen]** Schaltfläche.
+   Konfigurieren Sie Ihre erste Variante, indem Sie auf die Schaltfläche **[!UICONTROL Bedingung auswählen]** klicken.
 
    ![](assets/conditions-apply.png)
 
@@ -76,7 +76,7 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
 
    Sie können auch eine neue Regel erstellen, indem Sie auf **[!UICONTROL Neu erstellen]** klicken. [Erfahren Sie, wie Sie Bedingungen erstellen](create-conditions.md)
 
-1. Die bedingte Regel ist mit der Variante verknüpft. Benennen Sie die Variante um, indem Sie die Option **[!UICONTROL Umbenennen]** Aktion über das Symbol Mehr Aktionen .
+1. Die bedingte Regel ist mit der Variante verknüpft. Benennen Sie die Variante für eine bessere Lesbarkeit um, indem Sie über das Symbol „Mehr Aktionen“ die Aktion **[!UICONTROL Umbenennen]** auswählen.
 
    ![](assets/conditions-rename.png)
 
@@ -91,6 +91,6 @@ Gehen Sie wie folgt vor, um Varianten einer Inhaltskomponente in E-Mail-Designer
    >
    >Bedingte Inhalte werden anhand der zugehörigen Regeln in der Reihenfolge ausgewertet, in der die Varianten angezeigt werden. Die Standardvariante wird immer angezeigt, wenn keine anderen Bedingungen erfüllt sind.
 
-1. Um eine Variante zu löschen, klicken Sie auf das Symbol Mehr Aktionen neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]**.
+1. Um eine Variante zu löschen, klicken Sie auf das Symbol „Mehr Aktionen“ neben der gewünschten Variante und wählen Sie **[!UICONTROL Löschen]** aus.
 
    ![](assets/conditions-delete.png)
