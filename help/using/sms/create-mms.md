@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: MMS erstellen
-description: Erfahren Sie, wie Sie in Journey Optimizer ein MMS erstellen.
+title: Erstellen einer MMS
+description: Erfahren Sie, wie eine MMS in Journey Optimizer erstellt wird
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '1093'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# MMS-Nachricht erstellen {#create-mms}
+# Erstellen einer MMS-Nachricht {#create-mms}
 
 ## Voraussetzungen{#sms-prerequisites}
 
@@ -24,7 +25,7 @@ Bevor Sie Ihre SMS-Nachricht erstellen, müssen Sie zunächst Ihren SMS-Anbieter
 
 * Vor dem SMS-Versand müssen Sie die Provider-Einstellungen in Journey Optimizer integrieren.
 
-+++ Erfahren Sie, wie Sie eine neue Single-MMS-API-Berechtigung erstellen.
++++ Erfahren Sie, wie Sie neue Sinch-MMS-API-Anmeldedaten erstellen.
 
    1. Navigieren Sie in der linken Leiste zu **[!UICONTROL Administration]** > **[!UICONTROL Kanal]** und wählen Sie das Menü **[!UICONTROL API-Anmeldedaten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue API-Anmeldedaten erstellen]**.
 
@@ -36,7 +37,7 @@ Bevor Sie Ihre SMS-Nachricht erstellen, müssen Sie zunächst Ihren SMS-Anbieter
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-      * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü Conversation API können Sie Ihre Anmeldedaten im Menü App finden.  [Weitere Informationen](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
+      * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü „Konversations-API“ können Sie Ihre Anmeldedaten im App-Menü finden.  [Weitere Informationen](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
      ![](assets/mms_provider.png)
 
@@ -169,7 +170,7 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 >[!ENDTABS]
 
-## MMS-Inhalt definieren{#mms-content}
+## Definieren Ihrer MMS-Inhalte{#mms-content}
 
 1. Klicken Sie auf dem Bildschirm der Journey- oder Kampagnenkonfiguration auf die Schaltfläche **[!UICONTROL Inhalt bearbeiten]**, um den SMS-Inhalt zu konfigurieren.
 
@@ -179,17 +180,17 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Verwenden Sie den Ausdruckseditor, um Inhalte zu definieren und dynamische Inhalte hinzuzufügen. Sie können jedes Attribut verwenden, sowie z. B. Profilnamen oder Stadt. Weitere Informationen zu [Personalisierung](../personalization/personalize.md) und [dynamischen Inhalten](../personalization/get-started-dynamic-content.md) finden Sie im Ausdruckseditor.
 
-1. Aktivieren Sie die MMS-Option, um Ihrem SMS-Inhalt Medien hinzuzufügen.
+1. Aktivieren Sie die MMS-Option, um Medien zu Ihrem SMS-Inhalt hinzuzufügen.
 
    >[!NOTE]
    >
-   > Die MMS-Option ist nur mit Sinch verfügbar. Sie müssen eine bestimmte API-Berechtigung erstellen, um MMS zu erstellen. [Weitere Informationen](sms-configuration.md#create-new-api)
+   > Die MMS-Option ist nur mit Sinch verfügbar. Sie müssen eine spezielle API-Berechtigung erstellen, um MMS zu erstellen. [Weitere Informationen](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
-1. Hinzufügen einer **[!UICONTROL Titel]** auf Ihre Medien.
+1. Fügen Sie einen **[!UICONTROL Titel]** zu Ihrem Medium hinzu.
 
-1. Geben Sie die URL Ihres Mediums im **[!UICONTROL Medien]** -Feld.
+1. Geben Sie die URL des Mediums in das Feld **[!UICONTROL Medien]** ein.
 
    ![](assets/sms_create_7.png)
 
