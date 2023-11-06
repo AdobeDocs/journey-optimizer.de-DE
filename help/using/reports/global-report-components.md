@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr> 
   <tr> 
    <td> Einzelklicks<br/> </td> 
-   <td> Die Anzahl der Empfänger, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als individuelle Klicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als individuelle Klicks betrachtet.<br/> </td> 
+   <td> Die Anzahl der Empfängerinnen bzw. Empfänger, die auf einen Inhalt in einer E-Mail geklickt haben.<br> Beachten Sie, dass bei der Berechnung von Einzelklicks die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Klicks innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelklicks gezählt. Wenn jedoch ein Profil zwei Klicks im Abstand von mehr als 10 Tagen aufweist, werden diese nicht als Einzelklicks betrachtet.<br/> </td> 
 </tr> 
   <tr> 
    <td>Einzelklickrate<br/> </td> 
@@ -160,7 +160,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
-   <td>Zahl der Empfänger, die den Versand geöffnet haben. <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als individuelle Öffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als individuelle Öffnungen betrachtet.<br/> </td> 
+   <td>Zahl der Empfängerinnen bzw. Empfänger, die den Versand geöffnet haben. <br> Beachten Sie, dass bei der Berechnung von Einzelöffnungen die letzten 10 Tage berücksichtigt werden. Wenn ein Profil mehrere Öffnungen innerhalb des Zeitraums von 10 Tagen registriert, werden diese als Einzelöffnungen gezählt. Wenn ein Profil jedoch zwei Öffnungen hat, die mehr als 10 Tage voneinander entfernt sind, werden sie nicht als Einzelöffnungen betrachtet.<br/> </td> 
 </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 
@@ -254,7 +254,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </table>
 -->
 
-## In-App-Metriken         {#inapp-metrics}
+## In-App-Metriken {#inapp-metrics}
 
 <table> 
  <thead> 
@@ -287,7 +287,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-## Metriken zu Push-Benachrichtigungen            
+## Metriken zu Push-Benachrichtigungen
 
 <table> 
  <thead> 
