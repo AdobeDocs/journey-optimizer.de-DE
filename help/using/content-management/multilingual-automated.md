@@ -10,10 +10,11 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
-workflow-type: tm+mt
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '1260'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -24,23 +25,23 @@ ht-degree: 39%
 **Inhaltsverzeichnis**
 
 * [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
-* [Mehrsprachige Inhalte mit manueller Übersetzung erstellen](multilingual-manual.md)
-* **[Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](multilingual-automated.md)**
+* [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)
+* **[Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)**
 * [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
 
 >[!ENDSHADEBOX]
 
-Mithilfe des automatisierten Workflows können Sie einfach Ihre Zielsprache und Ihren Sprachdienstleister auswählen. Ihr Inhalt wird dann direkt an die Übersetzung gesendet und kann nach Abschluss einer endgültigen Überprüfung unterzogen werden.
+Mithilfe des automatisierten Fluss können Sie einfach Ihre Zielsprache und Ihren Sprachdienstleister auswählen. Ihre Inhalte werden dann direkt an die Übersetzung weitergeleitet, die sie nach der Fertigstellung einer Endkontrolle unterzieht.
 
 Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der automatisierten Übersetzung zu erstellen:
 
-1. [Gebietsschema erstellen](#create-locale).
+1. [Erstellen Sie Ihr Gebietsschema](#create-locale).
 
-1. [Erstellen eines Sprachprojekts](#create-translation-project).
+1. [Erstellen Sie ein Sprachprojekt](#create-translation-project).
 
-1. [Erstellen von Spracheinstellungen](#create-language-settings).
+1. [Erstellen Sie Spracheinstellungen](#create-language-settings).
 
-1. [Erstellen einer mehrsprachigen Kampagne](#create-a-multilingual-campaign).
+1. [Erstellen Sie eine mehrsprachige Kampagne](#create-a-multilingual-campaign).
 
 1. [Überprüfen Sie Ihre Übersetzungsaufgabe (optional)](#review-translation-project).
 
@@ -78,8 +79,8 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
 
 1. Wählen Sie aus, ob Sie die folgenden Optionen aktivieren möchten:
 
-   * **[!UICONTROL Automatische Veröffentlichung genehmigter Übersetzungen]**: Sobald Übersetzungen validiert wurden, werden sie automatisch in die Kampagne integriert, ohne dass ein manuelles Eingreifen erforderlich ist.
-   * **[!UICONTROL Überprüfungs-Workflow aktivieren]**: Gilt nur für von Menschen übersetzte Gebietsschemata. Dadurch kann ein interner Validierer übersetzte Inhalte effizient auswerten und genehmigen oder ablehnen. [Weitere Informationen](#review-translation-project)
+   * **[!UICONTROL Genehmigte Übersetzungen automatisch veröffentlichen]**: Sobald Übersetzungen validiert wurden, werden sie automatisch in die Kampagne integriert, ohne dass ein manuelles Eingreifen erforderlich ist.
+   * **[!UICONTROL Überprüfungs-Workflow aktivieren]**: Gilt nur für von Menschen übersetzte Gebietsschemata. Dadurch kann eine interne Prüfperson übersetzte Inhalte effizient auswerten und genehmigen oder ablehnen. [Weitere Informationen](#review-translation-project)
 
 1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, um auf das Menü zuzugreifen und die Sprachen für Ihr Übersetzungsprojekt festzulegen.
 
@@ -89,9 +90,9 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
 
 1. Wählen Sie aus der Liste Ihr(e) **[!UICONTROL Zielgebietsschema(ta)]** und den **[!UICONTROL Übersetzungsanbieter]** aus, die Sie für das jeweilige Gebietsschema verwenden möchten.
 
-1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, wenn Sie Ihr Ziel-Gebietsschema mit dem richtigen Übersetzungsanbieter verknüpft haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, wenn Sie Ihr Zielgebietsschema mit dem richtigen Übersetzungsanbieter verknüpft haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   Beachten Sie, dass ein Provider, der für ein Zielgebietsschema ausgegraut ist, anzeigt, dass er dieses Gebietsschema nicht unterstützt.
+   Wenn ein Anbieter für ein Zielgebietsschema ausgegraut ist, bedeutet dies, dass der Anbieter das betreffende Gebietsschema nicht unterstützt.
 
    ![](assets/translation_project_4.png)
 
@@ -125,7 +126,7 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 
    ![](assets/language_settings_3.png)
 
-1. Wenn **[!UICONTROL Übersetzungsprojekt]** aktualisiert wird, klicken Sie auf **[!UICONTROL Aktualisieren]** , um diese Änderungen in Ihren **[!UICONTROL Spracheinstellungen]**.
+1. Wenn Ihr **[!UICONTROL Übersetzungsprojekt]** aktualisiert wird, klicken Sie auf **[!UICONTROL Aktualisieren]**, um diese Änderungen in Ihren **[!UICONTROL Spracheinstellungen]** zu berücksichtigen.
 
    ![](assets/language_settings_4.png)
 
@@ -141,21 +142,21 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 
 ## Erstellen einer mehrsprachigen Kampagne {#create-multilingual-campaign}
 
-Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne erstellen und Ihren Inhalt für Ihre verschiedenen Gebietsschemata anpassen.
+Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet haben, können Sie Ihre Kampagne erstellen und Ihren Inhalt für die verschiedenen Gebietsschemata anpassen.
 
 1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
 
-1. Nachdem der Hauptinhalt erstellt wurde, klicken Sie auf **[!UICONTROL Speichern]** und gehen Sie zurück zum Kampagnenkonfigurationsbildschirm.
+1. Sobald Sie Ihre Hauptinhalte erstellt haben, klicken Sie auf **[!UICONTROL Speichern]** und gehen Sie zurück zum Kampagnenkonfigurationsbildschirm.
 
-1. Klicks **[!UICONTROL Sprachen hinzufügen]**.  [Weitere Informationen](#create-language-settings)
+1. Klicken Sie auf **[!UICONTROL Sprachen hinzufügen]**.  [Weitere Informationen](#create-language-settings)
 
    ![](assets/multilingual-campaign-automated-1.png)
 
-1. Wählen Sie die zuvor erstellte **[!UICONTROL Spracheinstellungen]**.
+1. Wählen Sie Ihre zuvor erstellten **[!UICONTROL Spracheinstellungen]**.
 
    ![](assets/multilingual-campaign-automated-2.png)
 
-1. Nachdem Sie Ihre Gebietsschemata importiert haben, klicken Sie auf **[!UICONTROL Zu übersetzen senden]** , um Ihre Inhalte an den zuvor ausgewählten Übersetzungsanbieter weiterzuleiten.
+1. Klicken Sie nach dem Import Ihrer Gebietsschemata auf **[!UICONTROL Zur Übersetzung senden]**, um Ihre Inhalte an den zuvor ausgewählten Übersetzungsanbieter weiterzuleiten.
 
    ![](assets/multilingual-campaign-automated-3.png)
 
@@ -165,7 +166,7 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    ![](assets/multilingual-campaign-automated-4.png)
 
-1. Klicks **[!UICONTROL Übersetzung öffnen]** , um auf Ihr Übersetzungsprojekt zuzugreifen und es zu überprüfen.
+1. Klicken Sie auf **[!UICONTROL Übersetzung öffnen]**, um auf Ihr Übersetzungsprojekt zuzugreifen und es zu überprüfen.
 
    ![](assets/multilingual-campaign-automated-5.png)
 
@@ -173,9 +174,9 @@ Sobald Sie Ihr Übersetzungsprojekt und Ihre Spracheinstellungen eingerichtet ha
 
    * **[!UICONTROL Übersetzung in Bearbeitung]**: Ihr Dienstleister arbeitet aktiv an der Übersetzung.
    * **[!UICONTROL Bereit zur Überprüfung]**: Der Überprüfungsprozess kann jetzt gestartet werden, sodass Sie auf die Übersetzung zugreifen und sie ablehnen oder genehmigen können.
-   * **[!UICONTROL Überarbeitet]**: Die Übersetzung wurde genehmigt und kann an die Kampagne gesendet werden.
-   * **[!UICONTROL Veröffentlichungsbereit]**: Die maschinelle Übersetzung wurde abgeschlossen und kann jetzt an Ihre Kampagne gesendet werden.
-   * **[!UICONTROL Abgeschlossen]**: Übersetzung ist jetzt in Ihrer Kampagne verfügbar.
+   * **[!UICONTROL Überprüft]**: Die Übersetzung wurde genehmigt und kann an die Kampagne gesendet werden.
+   * **[!UICONTROL Bereit zur Veröffentlichung]**: Die maschinelle Übersetzung wurde abgeschlossen und kann jetzt an Ihre Kampagne gesendet werden.
+   * **[!UICONTROL Abgeschlossen]**: Die Übersetzung ist jetzt in Ihrer Kampagne verfügbar.
 
    ![](assets/multilingual-campaign-automated-6.png)
 
@@ -197,69 +198,69 @@ Ihre Kampagne ist jetzt aktiviert. Die in der Kampagne konfigurierte Nachricht w
 
 Nach dem Versand können Sie die Wirkung Ihrer Kampagnen in den Kampagnenberichten ermitteln.
 
-## Verwalten des internen Übersetzungsprojekts {#manage-ht-project}
+## Verwalten eines internen Übersetzungsprojekts {#manage-ht-project}
 
-Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option Interne Übersetzung ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
+Wenn Sie bei der Konfiguration Ihrer Spracheinstellungen die Option „Interne Übersetzung“ ausgewählt haben, können Sie Ihre Inhalte direkt in Ihrem Übersetzungsprojekt übersetzen.
 
-1. Von Ihrem **[!UICONTROL Übersetzungsprojekt]**, greifen Sie auf **[!UICONTROL Mehr Aktionen]** Menü und wählen Sie **[!UICONTROL Interne Übersetzung]**.
+1. Rufen Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** das Menü **[!UICONTROL Weitere Aktionen]** auf und wählen Sie **[!UICONTROL Interne Übersetzung]**.
 
    ![](assets/inhouse-translation-1.png)
 
-1. Sie können Ihre CSV-Datei zur Übersetzung mit externer Übersetzungssoftware exportieren. Alternativ können Sie die CSV-Datei wieder in Ihr Übersetzungsprojekt importieren, indem Sie auf **[!UICONTROL CSV importieren]** Schaltfläche.
+1. Sie können Ihre CSV-Datei zur Übersetzung mit externer Übersetzungs-Software exportieren. Alternativ können Sie die CSV-Datei auch wieder in Ihr Übersetzungsprojekt importieren, indem Sie auf die Schaltfläche **[!UICONTROL CSV importieren]** klicken.
 
    ![](assets/inhouse-translation-3.png)
 
-1. Klicks **[!UICONTROL Bearbeiten]** , um Ihre Übersetzungsinhalte hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um den Inhalt Ihrer Übersetzung hinzuzufügen.
 
    ![](assets/inhouse-translation-2.png)
 
-1. Wenn Sie den übersetzten Text veröffentlichen möchten, klicken Sie auf **[!UICONTROL Fertigstellen]**.
+1. Wenn Sie bereit sind, den übersetzten Text zu veröffentlichen, klicken Sie auf **[!UICONTROL Fertigstellen]**.
 
-## Überprüfen Sie Ihr Übersetzungsprojekt. {#review-translation-project}
+## Überprüfen Ihres Übersetzungsprojekts {#review-translation-project}
 
-Wenn Sie die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** in **[!UICONTROL Übersetzungsprojekt]** können Sie die Übersetzung direkt in Journey Optimizer überprüfen, nachdem Sie von Ihrem ausgewählten Übersetzungsanbieter fertig gestellt wurden.
+Wenn Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** die Option **[!UICONTROL Überprüfungs-Workflow aktivieren]** gewählt haben, können Sie die Übersetzung nach der Fertigstellung durch den von Ihnen gewählten Übersetzungsanbieter direkt in Journey Optimizer überprüfen.
 
-Beachten Sie, dass bei deaktivierter Option nach Abschluss der Übersetzung durch Ihren Provider der Status der Übersetzungsaufgabe automatisch auf **[!UICONTROL Überarbeitet]**, sodass Sie durch Klicken auf **[!UICONTROL Veröffentlichen]**.
+Beachten Sie, dass bei deaktivierter Option der Status der Übersetzungsaufgabe automatisch auf **[!UICONTROL Überprüft]** gesetzt wird, sobald die Übersetzung durch Ihren Anbieter abgeschlossen ist. So können Sie schnell fortfahren, indem Sie auf **[!UICONTROL Veröffentlichen]** klicken.
 
-1. Sobald Ihre Übersetzung von Ihrem Dienstleister abgeschlossen ist, können Sie von Ihrem **[!UICONTROL Übersetzungsprojekt]** oder direkt von Ihrem **[!UICONTROL Kampagne]**.
+1. Sobald Ihre Übersetzung von Ihrem Dienstleister fertiggestellt wurde, können Sie die Übersetzung zur Überprüfung über Ihr **[!UICONTROL Übersetzungsprojekt]** oder direkt über Ihre **[!UICONTROL Kampagne]** aufrufen.
 
-   Aus dem **[!UICONTROL Mehr Aktionen]** Menü, klicken **[!UICONTROL Überprüfen]**.
+   Klicken Sie im Menü **[!UICONTROL Weitere Aktionen]** auf **[!UICONTROL Überprüfen]**.
 
    ![](assets/translation_review_1.png)
 
-1. Durchsuchen Sie im Überprüfungsfenster Ihre übersetzten Inhalte und akzeptieren oder lehnen Sie jede Übersetzungszeichenfolge ab.
+1. Blättern Sie im Überprüfungsfenster durch Ihre übersetzten Inhalte und akzeptieren oder verwerfen Sie die einzelnen Übersetzungszeichenfolgen.
 
    ![](assets/translation_review_3.png)
 
-1. Klicks **[!UICONTROL Bearbeiten]** , um den Inhalt Ihrer Übersetzungszeichenfolge zu ändern.
+1. Klicken Sie auf **[!UICONTROL Bearbeiten]**, um den Inhalt einer Übersetzungszeichenfolge zu ändern.
 
    ![](assets/translation_review_2.png)
 
-1. Geben Sie Ihre aktualisierte Übersetzung ein und klicken Sie auf **[!UICONTROL Bestätigen]** wenn fertig.
+1. Geben Sie Ihre aktualisierte Übersetzung ein und klicken Sie auf **[!UICONTROL Bestätigen]**, wenn Sie fertig sind.
 
    ![](assets/translation_review_4.png)
 
-1. Sie können auch **[!UICONTROL Alle ablehnen]** oder **[!UICONTROL Alle genehmigen]** direkt.
+1. Sie können auch direkt **[!UICONTROL Alle ablehnen]** oder **[!UICONTROL Alle genehmigen]** wählen.
 
-   Bei Auswahl von **[!UICONTROL Alle ablehnen]**, Kommentare hinzufügen und auf **[!UICONTROL Ablehnen]**.
+   Wenn Sie **[!UICONTROL Alle ablehnen]** wählen, fügen Sie einen Kommentar hinzu und klicken Sie auf **[!UICONTROL Ablehnen]**.
 
-1. Klicks **[!UICONTROL Vorschau]** um die Darstellung Ihrer übersetzten Inhalte in jeder Sprache zu überprüfen.
+1. Klicken Sie auf **[!UICONTROL Vorschau]**, um die Darstellung Ihres übersetzten Inhalts in jeder Sprache zu überprüfen.
 
-1. Wenn Sie den übersetzten Text veröffentlichen möchten, klicken Sie auf **[!UICONTROL Fertigstellen]**.
+1. Wenn Sie bereit sind, den übersetzten Text zu veröffentlichen, klicken Sie auf **[!UICONTROL Fertigstellen]**.
 
    ![](assets/translation_review_5.png)
 
-1. Von Ihrem **[!UICONTROL Übersetzungsprojekt]** wählen Sie eines Ihrer Projekte aus, um weitere Details aufzurufen. Wenn Sie die Übersetzung abgelehnt haben, können Sie sie an die Übersetzung zurücksenden.
+1. Wählen Sie in Ihrem **[!UICONTROL Übersetzungsprojekt]** eines Ihrer Projekte aus, um weitere Details aufzurufen. Wenn Sie die Übersetzung abgelehnt haben, können Sie sie zur Übersetzung zurücksenden.
 
    ![](assets/translation_review_6.png)
 
-1. Einmal **[!UICONTROL Übersetzungsprojekt]** den Status &quot;Überprüfen&quot;hat, können Sie ihn an Ihre Kampagne senden.
+1. Sobald Ihr **[!UICONTROL Übersetzungsprojekt]** den Status „Überprüft“ hat, können Sie es an Ihr Campaign senden.
 
-   Aus dem **[!UICONTROL Mehr Aktionen]** Menü, klicken **[!UICONTROL Veröffentlichen]**.
+   Klicken Sie im Menü **[!UICONTROL Weitere Aktionen]** auf **[!UICONTROL Veröffentlichen]**.
 
    ![](assets/translation_review_7.png)
 
-1. Überprüfen Sie in Ihrer Kampagne, ob Ihr Übersetzungsstatus in **[!UICONTROL Übersetzung abgeschlossen]**. Sie können jetzt Ihre mehrsprachigen Inhalte senden, siehe Schritt 10 unter [diesem Abschnitt](#create-multilingual-campaign).
+1. Überprüfen Sie in Ihrem Campaign, ob der Übersetzungsstatus in **[!UICONTROL Übersetzung abgeschlossen]** geändert wurde. Sie können jetzt Ihre mehrsprachigen Inhalte senden. Siehe dazu Schritt 10 in [diesem Abschnitt](#create-multilingual-campaign).
 
    ![](assets/translation_review_9.png)
 
