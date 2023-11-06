@@ -1,17 +1,18 @@
 ---
-title: E-Mail-Testsendungen durchführen
-description: Erfahren Sie, wie Sie E-Mail-Testsendungen durchführen.
+title: Senden von E-Mail-Testsendungen
+description: Erfahren Sie, wie Sie E-Mail-Testsendungen versenden.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+exl-id: e742c04e-2987-4466-84af-bdaf4d714552
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# E-Mail-Testsendungen durchführen {#send-proofs}
+# Senden von E-Mail-Testsendungen {#send-proofs}
 
 Ein Testversand dient der Validierung einer Nachricht, bevor sie an die wichtigste Audience gesendet wird. Die Empfänger des Testversands sind für die Überprüfung der Nachricht verantwortlich: Darstellung, Inhalt, Personalisierungseinstellungen, Konfiguration.
 
@@ -27,9 +28,9 @@ Sobald [Testprofile](test-profiles.md) ausgewählt sind, können Sie den Testver
 
    ![](../email/assets/send-proof-add.png)
 
-1. Wählen Sie die **Testprofile** zur Personalisierung des Nachrichteninhalts.
+1. Wählen Sie die **Testprofile** aus, die zur Personalisierung des Nachrichteninhalts verwendet werden.
 
-   Jeder Empfänger des Testversands erhält so viele Nachrichten wie die Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
+   Die Anzahl der Testversandnachrichten, die jede Person erhält, entspricht der Anzahl der ausgewählten Testprofile. Wenn Sie beispielsweise fünf Empfänger-E-Mails hinzugefügt und zehn Testprofile ausgewählt haben, senden Sie fünfzig Testversandnachrichten, von denen jeder Empfänger zehn erhält.
 
 1. Bei Bedarf können Sie der Betreffzeile des Testversands ein Präfix hinzufügen. Nur alphanumerische Zeichen und Sonderzeichen, wie etwa . - _ ( ) [ ], sind als Präfix für die Betreffzeile zulässig.
 
