@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_collection"
 >title="Wählen Sie eine Sammlung aus"
->abstract="Wählen Sie die Kollektion aus, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Sie können beispielsweise eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert &quot;Yoga&quot;im benutzerdefinierten Attribut &quot;Kategorie&quot;enthält."
+>abstract="Wählen Sie die Sammlung aus, die die zu berücksichtigenden Angebote enthält. Dieser Schritt ist bei der Erstellung einer Auswahlstrategie obligatorisch. Mit Sammlungen können Sie Ihre Entscheidungselemente nach Ihren Vorstellungen kategorisieren und gruppieren. Beispielsweise können Sie eine Sammlung erstellen, die alle Entscheidungselemente mit dem Wert „Yoga“ im benutzerdefinierten Attribut „Kategorie“ enthält."
 
 >[!BEGINSHADEBOX]
 
