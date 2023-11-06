@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie das E-Mail-Rendering testen.
 feature: Preview
 role: User
 level: Beginner
-source-git-commit: b6872806b3961bb2afbfc03999d984384492cc6d
-workflow-type: tm+mt
+exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +18,7 @@ Nutzen Sie Ihr **Litmus**-Konto in [!DNL Journey Optimizer], um das **E-Mail-Ren
 
 Gehen Sie wie folgt vor, um das E-Mail-Rendering zu überprüfen:
 
-1. Klicken Sie im Bildschirm &quot;Inhalt bearbeiten&quot;Ihrer Nachricht oder in Email Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL E-Mail rendern]** aus.
 
