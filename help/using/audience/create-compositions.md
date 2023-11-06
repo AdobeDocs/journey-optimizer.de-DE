@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ Kompositionen können mehrere Status aufweisen:
 
 >[!NOTE]
 >
->Die Zielgruppenzusammensetzung ist derzeit nicht in die Sandbox-Funktion zum Zurücksetzen integriert. Bevor Sie einen Sandbox-Reset starten, müssen Sie Ihre Kompositionen manuell löschen, um sicherzustellen, dass die zugehörigen Zielgruppendaten ordnungsgemäß bereinigt werden. Detaillierte Informationen finden Sie in Adobe Experience Platform . [Sandbox-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>Die Zielgruppenkomposition ist derzeit nicht in die Funktion zum Zurücksetzen der Sandbox integriert. Bevor Sie das Zurücksetzen der Sandbox starten, müssen Sie Ihre Kompositionen manuell löschen, um sicherzustellen, dass die zugehörigen Zielgruppendaten ordnungsgemäß bereinigt werden. Detaillierte Informationen finden Sie in der [Sandbox-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de#delete-audience-compositions) von Adobe Experience Platform:
