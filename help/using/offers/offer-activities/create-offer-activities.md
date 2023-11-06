@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,9 +126,9 @@ Bevor Sie eine Entscheidung erstellen, prüfen Sie, ob die folgenden Komponenten
 
    >[!CAUTION]
    >
-   >* Wenn [AI-Modell](../ranking/ai-models.md) in einer Bewertungskriterien-Gruppe verwendet wird, müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode verwenden und dasselbe spezifische KI-Modell verwenden.
+   >* Bei der Verwendung eines [KI-Modells](../ranking/ai-models.md) in einer Gruppe von Bewertungskriterien müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangfolgenmethode und dasselbe spezifische KI-Modell verwenden.
    >
-   >* Nur eine Bewertungskriterien-Gruppe kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsbereichs müssen andere Rangmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Rangmethoden](../offer-activities/configure-offer-selection.md)
+   >* Nur eine der Bewertungskriterien-Gruppen kann das KI-Modell verwenden. Alle anderen Gruppen innerhalb eines Entscheidungsumfangs müssen andere Ranglistenmethoden verwenden (Priorität oder Formel). [Erfahren Sie mehr über Rangfolgenmethoden](../offer-activities/configure-offer-selection.md)
 
 1. Um im Rahmen dieser Entscheidung eine weitere Platzierung für Ihre Angebote hinzuzufügen, verwenden Sie die Schaltfläche **[!UICONTROL Neuer Umfang]**. Wiederholen Sie für jeden Entscheidungsumfang die obigen Schritte.
 
