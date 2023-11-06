@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 26%
 
 Die nachfolgenden frühzeitigen Versionshinweise können bis zum Verfügbarkeitsdatum der Version ohne vorherige Ankündigung geändert werden. Links, Bildschirme und aktualisierte Dokumentation werden in den [Versionshinweisen](release-notes.md) am Veröffentlichungsdatum veröffentlicht.
 
-## Frühzeitige Versionshinweise vom Oktober 2023 {#oct-rn-2023}
+## Frühzeitige Versionshinweise Oktober 2023 {#oct-rn-2023}
 
-**Veröffentlichungsdatum**: 25.-26. Oktober 2023
+**Veröffentlichungsdatum**: 25.–26. Oktober 2023
 
 ### Neue Funktionen{#oct-2023-features}
 
@@ -34,13 +34,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Sandbox-Tools</strong><br/></th>
+<th><strong>Sandbox-Werkzeuge</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sandbox-Tools ermöglichen es Ihnen, Objekte über mehrere Sandboxes hinweg zu kopieren, indem Sie Package-Export und -Import nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
+<p>Mit Sandbox-Werkzeugen können Sie Objekte über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -73,7 +73,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur für Beta mit Sinch verfügbar ist.</p>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur für Beta und mit Sinch verfügbar ist.</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -86,12 +86,12 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden.
-* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenzusammensetzung erstellt wurden, und Anreicherungsattribute in Journey nutzen.
+* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journeys und Kampagnen hochgeladen wurden.
+* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenkomposition erstellt wurden, und Anreicherungsattribute in Journeys nutzen.
 
 >[!AVAILABILITY]
 >
->Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+>Diese Funktionen sind als private Betaversion verfügbar.
 
 <!--
 **Spam scoring for emails**
@@ -107,14 +107,14 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Dies gilt für:
 
-   * die **Dauer** im Feld [Warteaktivität](../building-journeys/wait-activity.md)
-   * die **Wartezeit beim erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
-   * die **Warten auf** -Feld in der Timeout-Definition von [Allgemein](../building-journeys/general-events.md#events-specific-time) und [Reaktion](../building-journeys/reaction-events.md) -Ereignisse.
+   * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
+   * die **Wartezeit beim erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
+   * das Feld **Warten auf** in der Timeout-Definition von [allgemeinen](../building-journeys/general-events.md#events-specific-time) und [reaktiven](../building-journeys/reaction-events.md) Ereignissen.
 
 **Einverständnis in der Kanalkonfiguration**
 
-* Jetzt können Sie eine Marketing-Aktion auf der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kunden zu respektieren.
+* Jetzt können Sie eine Marketing-Aktion auf der Ebene der Kanaloberfläche auswählen. Bei Verwendung in einer Oberfläche werden alle mit dieser Marketing-Aktion verknüpften Zustimmungsrichtlinien genutzt, um die Voreinstellungen Ihrer Kundinnen und Kunden zu respektieren.
 
 **Entscheidungs-Management**
 
-* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Entscheidungs-Verwaltungsoberfläche wurden aktualisiert.
+* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Benutzeroberfläche für das Entscheidungs-Management wurden aktualisiert.
