@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um Ihren SMS-Anbieter in Journey Optimizer zu konfiguri
 
       * **[!UICONTROL Name]**: Wählen Sie einen Namen für Ihre API-Anmeldedaten.
 
-      * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü Conversation API können Sie Ihre Anmeldedaten im Menü App finden.  [Weitere Informationen](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
+      * **[!UICONTROL Projekt-ID]**, **[!UICONTROL App-ID]** und **[!UICONTROL API-Token]**: Im Menü „Konversations-API“ können Sie Ihre Anmeldedaten im App-Menü finden.  [Weitere Informationen](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * Für **[!DNL Twilio]**:
 
