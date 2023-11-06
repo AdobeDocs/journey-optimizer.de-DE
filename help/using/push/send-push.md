@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Push-Benachrichtigung überprüfen und senden
-description: Erfahren Sie, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer überprüfen und senden können.
+title: Überprüfen und Senden Ihrer Push-Benachrichtigung
+description: Weitere Informationen dazu, wie Sie Ihre Push-Benachrichtigung in Journey Optimizer überprüfen und senden können.
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Push-Benachrichtigung überprüfen und senden {#send-push}
+# Überprüfen und Senden Ihrer Push-Benachrichtigung {#send-push}
 
 ## Vorschau der Push-Benachrichtigung {#preview-push}
 
-Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen dessen Inhalt in der Vorschau anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Inhalt der Nachricht definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie dann ein Testprofil hinzu. Sie können dann den Gerätetyp auswählen, um Inhalte in der Vorschau anzuzeigen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu. Sie können den Typ des Geräts auswählen, auf dem Inhalte in der Vorschau angezeigt werden sollen: **[!UICONTROL iOS]** oder **[!UICONTROL Android]**.
 
 ![](assets/push_preview_3.png)
 
-Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 ## Validieren der Push-Benachrichtigung {#push-validate}
 
