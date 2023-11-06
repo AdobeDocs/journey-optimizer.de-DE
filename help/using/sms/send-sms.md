@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-Nachricht überprüfen und testen
-description: Erfahren Sie, wie Sie Ihre SMS-Nachricht in Journey Optimizer überprüfen und senden können.
+title: Überprüfen und Testen Ihrer SMS-Nachricht
+description: Weitere Informationen dazu, wie Sie Ihre SMS-Nachricht in Journey Optimizer überprüfen und senden können.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# SMS-Nachricht überprüfen und senden {#send-sms}
+# Überprüfen und Senden Ihrer SMS-Nachricht {#send-sms}
 
-## Vorschau Ihrer SMS-Nachricht {#preview-sms}
+## Vorschau Ihrer SMS {#preview-sms}
 
-Sobald Ihr Nachrichteninhalt definiert wurde, können Sie mithilfe von Testprofilen dessen Inhalt in der Vorschau anzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
+Sobald der Inhalt der Nachricht definiert wurde, können Sie mithilfe von Testprofilen eine Vorschau anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
 
 ![](assets/sms_preview_2.png)
 
-Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 ## Validieren Ihrer SMS{#sms-validate}
 
