@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Im Panel „Experimentieren“ in Journey werden „jederzeit gültige“ Konfid
 
 Die Konfidenzsequenz für eine bestimmte Variante `ν` ist von zentraler Bedeutung für die von Adobe verwendete statistische Methodik. Die Definition finden Sie auf [dieser Seite](https://doi.org/10.48550/arXiv.2103.06476) (reproduziert aus [Waudby-Smith et al.]).
 
-Wenn Sie einen Zielparameter schätzen möchten `ψ` z. B. die Konversionsrate einer Variante in einem Experiment, die Dichotomie zwischen einer Sequenz von &quot;festen&quot;Konfidenzintervallen (CIs) und einer zeiteinheitlichen Konfidenzsequenz (CS) kann wie folgt zusammengefasst werden:
+Wenn Sie an der Schätzung eines Zielgruppen-Parameters `ψ` interessiert sind, z. B. der Konversionsrate einer Variante in einem Experiment, kann die Dichotomie zwischen einer Sequenz von „zeitlich festen“ Konfidenzintervallen (CIs) und einer zeiteinheitlichen Konfidenzsequenz (CS) wie folgt zusammengefasst werden:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
