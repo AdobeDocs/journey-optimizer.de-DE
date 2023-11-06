@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '4527'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Frühere Versionshinweise finden Sie auf [dieser Seite](release-notes-2022.md). 
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Registrieren Sie sich noch heute für den [vierteljährlichen Adobe Journey Optimizer-Newsletter](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}, um jedes Quartal die neuesten Produktaktualisierungen, spannende Geschichten, Anwendungsbeispiele, Tipps und vieles mehr direkt in Ihrem Posteingang zu erhalten.
 
-## Versionshinweise vom Oktober 2023 {#oct-rn-2023}
+## Versionshinweise für Oktober 2023 {#oct-rn-2023}
 
 ### Neue Funktionen{#oct-2023-features}
 
@@ -40,13 +40,13 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <table>
 <thead>
 <tr>
-<th><strong>Sandbox-Tools</strong><br/></th>
+<th><strong>Sandbox-Werkzeuge</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sandbox-Tools ermöglichen es Ihnen, Objekte über mehrere Sandboxes hinweg zu kopieren, indem Sie Package-Export und -Import nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
+<p>Mit Sandbox-Werkzeugen können Sie Objekte über mehrere Sandboxes hinweg kopieren, indem Sie den Export und Import von Paketen nutzen. Ein Paket kann aus einem oder mehreren Objekten bestehen. Alle Objekte, die in einem Paket enthalten sind, müssen aus derselben Sandbox stammen.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>Weitere Informationen finden Sie in der <a href="../building-journeys/copy-to-sandbox.md">ausführlichen Dokumentation</a>.</p>
 </td>
@@ -79,7 +79,7 @@ Mit dieser Version werden die unten aufgeführten neuen Funktionen eingeführt.
 <tbody>
 <tr>
 <td>
-<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIF oder Videos für Ihre Kunden freigeben können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
+<p>Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) senden, sodass Sie Bilder, GIFs oder Videos mit Ihren Kundinnen und Kunden teilen können. Beachten Sie, dass diese Funktion derzeit nur mit Sinch verfügbar ist.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../sms/create-sms.md#sms-content">ausführlichen Dokumentation</a>.</p>
 </tr>
@@ -92,12 +92,12 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Zielgruppen**
 
-* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journey und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenzusammensetzung erstellt wurden, und Anreicherungsattribute in Journey nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
+* Sie können jetzt Zielgruppen auswählen, die aus einer CSV-Datei in Journeys und Kampagnen hochgeladen wurden. [Weitere Informationen](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Sie können jetzt Zielgruppen auswählen, die durch die Zielgruppenkomposition erstellt wurden, und Anreicherungsattribute in Journeys nutzen. [Weitere Informationen](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
->Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+>Diese Funktionen sind als private Betaversion verfügbar.
 
 <!--
 **Spam scoring for emails**
@@ -113,9 +113,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * Die maximale Dauer, die Sie in einer beliebigen Wartezeit definieren können, beträgt jetzt 29 Tage anstelle von 30. Diese Verbesserung wurde eingeführt, um zu verhindern, dass Wartezeiten die Journey-Lebensdauer von 30 Tagen überschreiten. Dies gilt für:
 
-   * die **Dauer** im Feld [Warteaktivität](../building-journeys/wait-activity.md)
-   * die **Wartezeit beim erneuten Eintritt** in [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
-   * die **Warten auf** -Feld in der Timeout-Definition von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
+   * das Feld **Dauer** in der [Warteaktivität](../building-journeys/wait-activity.md)
+   * das Feld **Wartezeit bis zum erneuten Eintritt** in den [Journey-Eigenschaften](../building-journeys/journey-gs.md#entrance)
+   * das Feld **Warten auf** in der Definition der maximalen Wartezeit von [Ereignisaktivitäten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -124,7 +124,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 **Entscheidungs-Management**
 
-* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Entscheidungs-Verwaltungsoberfläche wurden aktualisiert. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Mehrere Bezeichnungen zur Angebotsbegrenzung in der Benutzeroberfläche für das Entscheidungs-Management wurden aktualisiert. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
 
 ## Versionshinweise für September 2023 {#sept-rn-2023}
 

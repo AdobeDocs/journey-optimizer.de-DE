@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 1. [Fügen Sie den Einbettungs-Code hinzu](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=de)
 
-1. Installieren und konfigurieren Sie die Adobe Experience Platform Web SDK-Erweiterung mit dem von Ihnen erstellten Datastream, indem Sie die Konfiguration aus der Dropdown-Liste &quot;Datastream&quot;auswählen. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de).
+1. Installieren und konfigurieren Sie die Web SDK-Erweiterung von Adobe Experience Platform mit dem von Ihnen erstellten Datenstrom, indem Sie die Konfiguration aus der Dropdown-Liste „Datenstrom“ auswählen. Weitere Informationen zu Datensätzen finden Sie in der Dokumentation zu [Erweiterungen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=de).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
@@ -76,7 +76,7 @@ Diese Option ist benutzerfreundlicher für Personen, die über weniger Programmi
 
 1. Erstellen Sie Ihre [Regeln](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=de):
 
-   Fügen Sie die Aktion &quot;Ereignis senden&quot;des Platform Web SDK hinzu und fügen Sie die relevanten decisionScopes zur Konfiguration dieser Aktion hinzu.
+   Fügen Sie eine Aktion „Ereignis senden“ des Platform Web SDK hinzu und geben Sie bei der Konfiguration dieser Aktion die relevanten Entscheidungsumfänge an.
 
    ![Angebot rendern](../../assets/rule-render-offer.png)
 

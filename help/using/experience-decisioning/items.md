@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="Verwalten von Entscheidungselementen"
->abstract="Mit Journey Optimizer können Sie Marketing-Angebote, die als Entscheidungselemente bezeichnet werden, erstellen und in einem zentralen Katalog und in Sammlungen organisieren. Derzeit sind alle erstellten Entscheidungselemente in einem einzigen &quot;Angebote&quot;-Katalog konsolidiert. Auf diesem Bildschirm können Sie auch mithilfe der **Schema bearbeiten** und erstellen Sie benutzerdefinierte Attribute für Ihre Entscheidungselemente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Konfigurieren des Elementkatalogs"
+>abstract="Mit Journey Optimizer können Sie Marketing-Angebote, die als Entscheidungselemente bezeichnet werden, erstellen und in einem zentralen Katalog und in Sammlungen organisieren. Derzeit sind alle erstellten Entscheidungselemente in einem einzigen „Angebote“-Katalog konsolidiert. Über diesen Bildschirm können Sie auch mithilfe der Schaltfläche **Schema bearbeiten** auf das Schema des Katalogs zugreifen und benutzerdefinierte Attribute für Ihre Entscheidungselemente erstellen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=de" text="Konfigurieren des Elementkatalogs"
 
 >[!BEGINSHADEBOX]
 
@@ -49,21 +49,21 @@ Bevor Sie ein Entscheidungselement erstellen, stellen Sie sicher, dass Sie eine 
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
->title="Definieren der Priorität des Entscheidungspunkts"
->abstract="Wenn ein Profil für mehrere Elemente qualifiziert ist, ermöglicht die Priorität den Vergleich dieses Entscheidungselements mit anderen. Eine höhere Priorität gewährt dem Element Vorrang vor anderen."
+>title="Definieren der Priorität des Entscheidungselements"
+>abstract="Wenn ein Profil für mehrere Elemente geeignet ist, ermöglicht die Priorität den Vergleich dieses Entscheidungselements mit anderen. Eine höhere Priorität gewährt dem Element Vorrang vor anderen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="Benutzerdefinierte Attribute definieren"
+>title="Definieren der benutzerdefinierten Attribute"
 >abstract="Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente erstellt. Dieser Abschnitt wird nur angezeigt, wenn Sie dem Katalogschema mindestens ein benutzerdefiniertes Attribut hinzugefügt haben."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Konfigurieren des Elementkatalogs"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=de" text="Konfigurieren des Elementkatalogs"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
->title="Zielgruppen oder Entscheidungsregeln hinzufügen"
->abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu empfangen. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Verwenden von Zielgruppen"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Entscheidungsregeln verwenden"
+>title="Hinzufügen von Zielgruppen oder Entscheidungsregeln"
+>abstract="Standardmäßig sind alle Profile berechtigt, das Entscheidungselement zu erhalten. Sie können jedoch Zielgruppen oder Regeln verwenden, um das Element auf bestimmte Profile zu beschränken."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=de" text="Verwenden von Zielgruppen"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=de" text="Verwenden von Entscheidungsregeln"
 
 Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 

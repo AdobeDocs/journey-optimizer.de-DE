@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Nehmen wir als Beispiel die Zielgruppe „Öffnen der Luma-App und Checkout“, 
 
 * Feldergruppen für Erlebnisereignisse können nicht in Journeys verwendet werden, die mit einer Aktivität vom Typ „Zielgruppe lesen“, „Zielgruppen-Qualifizierung“ oder „Geschäftsereignis“ beginnen.
 
-* Derzeit wird die Verwendung von Zielgruppen [aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) oder [Zusammensetzungs-Workflows](../audience/get-started-audience-orchestration.md) in Journey ist als private Beta verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
+* Derzeit ist in Journeys die Verwendung von Zielgruppen, [die aus einer CSV-Datei importiert werden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience) oder aus [Kompositions-Workflows](../audience/get-started-audience-orchestration.md) resultieren, als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 ## Konfigurieren der Aktivität {#configuring-segment-trigger-activity}
 
@@ -51,7 +51,7 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 

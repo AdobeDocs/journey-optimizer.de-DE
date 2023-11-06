@@ -160,7 +160,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
 </tr>
   <tr> 
    <td> Einzelöffungen<br/> </td> 
-   <td>Anzahl der Empfänger, die den Versand geöffnet haben<br/> </td> 
+   <td>Zahl der Empfängerinnen bzw. Empfänger, die den Versand geöffnet haben.<br/> </td> 
 </tr> 
   <tr> 
    <td> Abmeldungen<br/> </td> 

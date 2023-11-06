@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 >id="ajo_create_fragment"
 >title="Definieren Ihrer eigenen Fragmente"
 >abstract="Erstellen und verwalten Sie eigenständige Fragmente, um Ihre Inhalte über mehrere Journeys und Kampagnen hinweg wiederzuverwenden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Erstellen von Fragmenten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=de#create-fragments" text="Erstellen von Fragmenten"
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren [!DNL Journey Optimizer]-Kampagnen und -Journeys referenziert werden kann.
 
@@ -196,7 +196,7 @@ Dieses Fragment kann nun beim Erstellen von [E-Mails](../email/get-started-email
 >id="ajo_create_expression_fragment"
 >title="Auswählen des Ausdruckstyps"
 >abstract="Erstellen Sie ein komplett neues, eigenständiges Fragment, um Ihre Inhalte für mehrere Journeys und Kampagnen wiederverwenden zu können. Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt wurden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Nutzen von Ausdrucksfragmenten"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=de" text="Nutzen von Ausdrucksfragmenten"
 
 1. Wählen Sie die Option [Fragment erstellen](#create-from-scratch) im linken Menü **[!UICONTROL Content-Management]** > **[!UICONTROL Fragmente]** und dann den Typ **[!UICONTROL Ausdrucksfragment]**.
 

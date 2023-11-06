@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die
 
 >[!IMPORTANT]
 >
->Derzeit wird die Verwendung von Zielgruppen [aus einer CSV-Datei importiert](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) in Kampagnen ist als private Beta-Version verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Derzeit ist die Verwendung von Zielgruppen, [die aus einer CSV-Datei in Kampagnen importiert werden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience), als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
 >Für API-ausgelöste Kampagnen muss die Audience über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
 

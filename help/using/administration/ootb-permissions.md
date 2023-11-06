@@ -12,13 +12,13 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
 # Integrierte Berechtigungen {#ootb-permissions}
 
-Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die zugewiesen werden können **[!UICONTROL Rolle]** , um den Benutzerzugriff auf Journey Optimizer zu optimieren. Berechtigungen auf hoher Ebene umfassen Berechtigungen auf niedriger Ebene, siehe [diese Seite](high-low-permissions.md).
+Integrierte Berechtigungen stellen die verschiedenen Berechtigungen dar, die der **[!UICONTROL Rolle]** zugewiesen werden können, um den Benutzerzugriff auf Journey Optimizer zu optimieren. Berechtigungen auf hoher Ebene schließen Berechtigungen auf niedriger Ebene mit ein, wie auf [dieser Seite](high-low-permissions.md) erläutert.
 
 | Funktion | Berechtigungen |
 |-|-|

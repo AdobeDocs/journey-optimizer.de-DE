@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 >title="Auswählen der Kampagnenzielgruppe"
 >abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
-Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Zielgruppen]** erstellen sowie nutzen und diese Zielgruppen in Ihre Journeys oder Kampagnen einbinden. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de).
+Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Zielgruppen]** erstellen sowie nutzen und diese Zielgruppen in Ihre Journeys oder Kampagnen einbinden. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -35,7 +35,7 @@ Sie können in Kampagnen und Journey eine beliebige Adobe Experience Platform-Zi
 
 >[!NOTE]
 >
->Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind derzeit als private Beta-Version verfügbar.
+>Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 

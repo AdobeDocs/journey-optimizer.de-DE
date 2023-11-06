@@ -12,13 +12,13 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 100%
 
 ---
 
-# Erstellen mehrsprachiger Inhalte mit automatisierter Übersetzung {#multilingual-automated}
+# Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
