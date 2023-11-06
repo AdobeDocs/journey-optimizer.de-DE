@@ -10,15 +10,15 @@ level: Intermediate
 keywords: Berechtigungen, Authoring, Nachrichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Integrierte Rollen {#ootb-product-profiles}
 
-Integrierte Rollen sind eine Reihe von Einzelrechten, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. Siehe Abschnitt [diese Seite](ootb-permissions.md) für die Liste der verfügbaren Berechtigungen zum Erstellen Ihrer Rolle.
+Integrierte Rollen sind eine Reihe von vereinheitlichten Rechten, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Schnittstelle ermöglichen. Auf [dieser Seite](ootb-permissions.md) finden Sie eine Liste der verfügbaren Berechtigungen zur Erstellung Ihrer Rolle.
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
