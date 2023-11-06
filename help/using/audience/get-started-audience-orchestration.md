@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen m
 
 >[!IMPORTANT]
 >
->Derzeit ist die Verwendung von Zielgruppen, die aus Komposition-Workflows in Journey resultieren, als private Beta-Version verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Derzeit ist in Journeys die Verwendung von Zielgruppen, die aus Kompositions-Workflows resultieren, als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
 >Kampagnen in Adobe Journey Optimizer sind noch nicht mit dem Richtliniendurchsetzungs-Service integriert. Daher werden Datennutzungskennzeichnungen, die Sie auf Ihre Zielgruppenattribute anwenden, in Journey Optimizer-Kampagnen nicht erzwungen.
 
