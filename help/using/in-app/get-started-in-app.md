@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Verwenden Sie Journey Optimizer, um In-App-Benachrichtigungen zu erstellen und E
 
 >[!AVAILABILITY]
 >
->Derzeit ist der In-App-Kanal nicht für Unternehmen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Für Organisationen, die Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist der In-App-Kanal derzeit nicht verfügbar.
 
 ## Voraussetzungen{#prerequisites-in-app}
 
