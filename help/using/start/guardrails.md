@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ Die Benutzeroberfläche von Adobe [!DNL Journey Optimizer] wurde für eine optim
 * Sie können keine Preheader zu einer Landingpage hinzufügen.
 * Sie können die Option **Eigene Codierung** nicht auswählen, wenn Sie eine primäre Landingpage entwerfen.
 
-## Limits bei SMS {#sms-guardrails}
+## SMS-Leitlinien {#sms-guardrails}
 
-* MMS-Funktion ist nur für Sinch verfügbar.
-* Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
+* Die MMS-Funktion ist nur für Sinch verfügbar.
+* Mediendateien für MMS können über eine unterstützte URL eingeschlossen werden. Bitte stellen Sie sicher, dass die Mediendatei separat hochgeladen wird.
 * Die Synchronisierung von Nachrichten-Feedback ist derzeit nicht für MMS verfügbar.
 * Die Einverständnisverwaltung erfolgt auf SMS-Kanalebene für MMS.
 
-## Schutzmaßnahmen bei Journeys {#journeys-guardrails}
+## Leitlinien für Journeys {#journeys-guardrails}
 
 ### Allgemeine Limits für Journey {#journeys-guardrails-journeys}
 
@@ -131,11 +131,11 @@ Sie können aus einer der beiden folgenden Lösungen wählen:
 
 * Die Inhaltsgröße von In-App-Nachrichten ist auf 2 MB beschränkt. Das Einschließen großer Bilder kann den Veröffentlichungsprozess behindern.
 
-## Limits für Zielgruppen {#audience}
+## Leitlinien für Zielgruppen {#audience}
 
-* Sie können bis zu 10 Zielgruppenkompositionen in einer bestimmten Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
+* Sie können bis zu 10 Zielgruppenkompositionen in einer Sandbox veröffentlichen. Wenn Sie diesen Schwellenwert erreicht haben, müssen Sie eine Komposition löschen, um Speicherplatz freizumachen, und eine neue veröffentlichen.
 
-## Schutzmaßnahmen beim Entscheidungs-Management {#decision-management}
+## Leitlinien beim Entscheidungs-Management {#decision-management}
 
 ### Leistungsgarantien {#performance-guardrails}
 
