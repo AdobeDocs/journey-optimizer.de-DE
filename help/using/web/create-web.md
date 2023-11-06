@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 >title="Vorschau des Web-Erlebnisses"
 >abstract="Betrachten Sie in einer Simulation, wie Ihr Web-Erlebnis aussehen wird."
 
-Einmal [Weberfahrung erstellen](edit-web-content.md) Mit dem Webdesigner können Sie Testprofile verwenden, um Ihre geänderten Webseiten in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie anhand von Testprofildaten prüfen, wie dieser Inhalt dargestellt wird.
+Sobald Sie mit dem Web-Designer [das Web-Erlebnis erstellt haben](edit-web-content.md), können Sie mithilfe der Testprofile eine Vorschau der geänderten Web-Seiten anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte angezeigt werden.
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie entweder im Bildschirm zur Inhaltsbearbeitung einer Webkampagne oder im Webdesigner ein Testprofil hinzu, um Ihre Webseite mithilfe der Testprofildaten zu überprüfen.
+Klicken Sie dazu entweder im Bildschirm zur Inhaltsbearbeitung einer Web-Kampagne oder im Web-Designer auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Web-Seite mithilfe der Testprofildaten zu überprüfen.
 
 ![](assets/web-designer-preview.png)
 
@@ -98,7 +98,7 @@ Sie können sie auch im Standard-Browser öffnen oder die Test-URL kopieren, um 
 >
 >Beim Kopieren der Test-URL ist der angezeigte Inhalt derjenige, der für das Testprofil personalisiert wurde, das zum Zeitpunkt der Erstellung der Inhaltsimulation in [!DNL Journey Optimizer] verwendet wurde.
 
-Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 ## Aktivieren der Web-Kampagne {#activate-web-campaign}
 
