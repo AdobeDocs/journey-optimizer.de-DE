@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Um auf Ihre Berichte zuzugreifen, wählen Sie **[!UICONTROL Bericht]** über das
 
 ![](assets/landing_page_report.png)
 
-Die Landingpage **[!UICONTROL Globaler Bericht]** ist in verschiedene Widgets unterteilt, in denen der Erfolg und die Fehler Ihres Versands detailliert beschrieben werden. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
+Der **[!UICONTROL Globale Bericht]** zu Landingpages ist in verschiedene Widgets unterteilt, die den Erfolg und die Fehler Ihres Versands detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](global-report.md).
 
 ![](assets/landing_page_global.png)
 
