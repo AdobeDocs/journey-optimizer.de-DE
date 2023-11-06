@@ -6,9 +6,9 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,12 +205,12 @@ ht-degree: 96%
    + [Voraussetzungen für In-App-Kanäle](using/in-app/inapp-configuration.md)
    + [Erstellen einer In-App-Nachricht](using/in-app/create-in-app.md)
    + [Gestalten Ihrer In-App-Inhalte](using/in-app/design-in-app.md)
-   + [Überprüfen und Senden Ihrer In-App-Benachrichtigung](using/in-app/send-in-app.md)
+   + [Überprüfen und Senden von In-App-Benachrichtigungen](using/in-app/send-in-app.md)
 + Push-Benachrichtigungs-Kanal{#push}
    + [Erste Schritte mit Push-Benachrichtigungen](using/push/get-started-push.md)
    + [Erstellen einer Push-Benachrichtigung](using/push/create-push.md)
    + [Gestalten der Push-Benachrichtigung](using/push/design-push.md)
-   + [Push-Benachrichtigung überprüfen und senden](using/push/send-push.md)
+   + [Überprüfen und Senden Ihrer Push-Benachrichtigung](using/push/send-push.md)
    + Konfigurieren von Push-Benachrichtigungen{#push-config}
       + [Fluss der Push-Benachrichtigung](using/push/push-gs.md)
       + [Konfigurieren des Kanals für Push-Benachrichtigungen](using/push/push-configuration.md)
@@ -218,15 +218,15 @@ ht-degree: 96%
 + SMS-Kanal{#sms}
    + [Erste Schritte mit SMS](using/sms/get-started-sms.md)
    + [Erstellen einer SMS-Nachricht](using/sms/create-sms.md)
-   + [MMS-Nachricht erstellen](using/sms/create-mms.md)
-   + [SMS überprüfen und senden](using/sms/send-sms.md)
+   + [Erstellen einer MMS-Nachricht](using/sms/create-mms.md)
+   + [Überprüfen und Senden der SMS](using/sms/send-sms.md)
    + [Verwalten von SMS-Opt-outs](using/sms/sms-opt-out.md)
    + [Konfigurieren des SMS-Kanals](using/sms/sms-configuration.md)
    + [Einrichten von SMS-Subdomains](using/sms/sms-subdomains.md)
 + Briefpost {#direct-mail}
    + [Erste Schritte mit Briefpost](using/direct-mail/get-started-direct-mail.md)
    + [Erstellen einer Briefpost](using/direct-mail/create-direct-mail.md)
-   + [Briefpost-Nachricht überprüfen und senden](using/direct-mail/test-send-direct-mail.md)
+   + [Überprüfen und Senden einer Briefpost-Nachricht](using/direct-mail/test-send-direct-mail.md)
    + [Konfigurieren von Briefpost](using/direct-mail/direct-mail-configuration.md)
 + Web-Kanal {#web}
    + [Erste Schritte mit dem Web-Kanal](using/web/get-started-web.md)
@@ -264,8 +264,8 @@ ht-degree: 96%
       + [Bildgenerierung](using/content-management/generative-image.md)
    + Arbeiten mit mehrsprachigen Inhalten{#content-multilingual}
       + [Erste Schritte mit mehrsprachigen Inhalten](using/content-management/multilingual-gs.md)
-      + [Mehrsprachige Inhalte mit manueller Übersetzung erstellen](using/content-management/multilingual-manual.md)
-      + [Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](using/content-management/multilingual-automated.md)
+      + [Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](using/content-management/multilingual-manual.md)
+      + [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](using/content-management/multilingual-automated.md)
       + [Mehrsprachiger Kampagnenbericht](using/content-management/multilingual-report.md)
    + Assets/Bilder {#assets-images}
       + [Verwenden von Assets Essentials](using/content-management/assets-essentials.md)
@@ -301,13 +301,13 @@ ht-degree: 96%
       + [Erste Schritte mit dynamischen Inhalten](using/personalization/get-started-dynamic-content.md)
       + [Erstellen bedingter Regeln](using/personalization/create-conditions.md)
       + [Erstellen von dynamischen Inhalten](using/personalization/dynamic-content.md)
-   + Vorschau erstellen und Inhalt testen {#preview-test}
+   + Vorschau und Testen der Inhalte {#preview-test}
       + [Erste Schritte mit Vorschau und Test](using/content-management/preview-test.md)
       + [Auswählen der Testprofile](using/content-management/test-profiles.md)
-      + [Vorschau des Inhalts anzeigen](using/content-management/preview.md)
-      + [E-Mail-Testsendungen durchführen](using/content-management/proofs.md)
+      + [Anzeigen Ihres Inhalts in der Vorschau](using/content-management/preview.md)
+      + [Senden von E-Mail-Testsendungen](using/content-management/proofs.md)
       + [Testen des E-Mail-Rendering](using/content-management/rendering.md)
-      + [Spam-Bericht verwenden](using/content-management/spam-report.md)
+      + [Verwenden eines Spam-Berichts](using/content-management/spam-report.md)
 + Zielgruppen, Profile und Identität{#audiences-profiles-identities}
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
