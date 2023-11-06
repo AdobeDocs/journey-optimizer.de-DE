@@ -10,10 +10,11 @@ level: Beginner
 keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
-workflow-type: tm+mt
+exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,21 +25,21 @@ ht-degree: 83%
 **Inhaltsverzeichnis**
 
 * [Erste Schritte mit mehrsprachigen Inhalten](multilingual-gs.md)
-* **[Mehrsprachige Inhalte mit manueller Übersetzung erstellen](multilingual-manual.md)**
-* [Mehrsprachige Inhalte mit automatisierter Übersetzung erstellen](multilingual-automated.md)
+* **[Erstellen von mehrsprachigen Inhalten mit manueller Übersetzung](multilingual-manual.md)**
+* [Erstellen von mehrsprachigen Inhalten mit automatisierter Übersetzung](multilingual-automated.md)
 * [Mehrsprachiger Kampagnenbericht](multilingual-report.md)
 
 >[!ENDSHADEBOX]
 
-Mithilfe des manuellen Workflows können Sie Ihren Inhalt mühelos direkt in Ihre E-Mail-, Push-Benachrichtigung- oder SMS-Kampagne übersetzen, wodurch Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten erhalten. Darüber hinaus können Sie bereits vorhandene mehrsprachige Inhalte mit der Option HTML importieren einfach importieren.
+Mithilfe des manuellen Flusses können Sie Ihren Inhalt mühelos direkt in Ihre E-Mail-, Push-Benachrichtigung- oder SMS-Kampagne übersetzen. So erhalten Sie präzise Steuerungsmöglichkeiten und Anpassungsoptionen für Ihre mehrsprachigen Nachrichten. Darüber hinaus können Sie mit der Option „HTML importieren“ bereits vorhandene mehrsprachige Inhalte ganz einfach importieren.
 
-Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mit manueller Übersetzung zu erstellen:
+Führen Sie die folgenden Schritte aus, um mehrsprachige Inhalte mithilfe der manuellen Übersetzung zu erstellen:
 
-1. [Gebietsschema erstellen](#create-locale).
+1. [Erstellen Sie Ihr Gebietsschema](#create-locale).
 
-1. [Erstellen von Spracheinstellungen](#create-language-settings).
+1. [Erstellen Sie Spracheinstellungen](#create-language-settings).
 
-1. [Erstellen einer mehrsprachigen Kampagne](#create-a-multilingual-campaign).
+1. [Erstellen Sie eine mehrsprachige Kampagne](#create-a-multilingual-campaign).
 
 ## Erstellen eines Gebietsschemas {#create-locale}
 
@@ -104,7 +105,7 @@ In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebiets
 
 ## Erstellen einer mehrsprachigen Kampagne {#create-multilingual-campaign}
 
-Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne entwerfen und den Inhalt für jedes Ihrer ausgewählten Gebietsschemas anpassen.
+Nach der Einrichtung Ihres mehrsprachigen Inhalts können Sie Ihre Kampagne gestalten und den Inhalt für jedes Ihrer ausgewählten Gebietsschemata anpassen.
 
 1. Erstellen und konfigurieren Sie zunächst Ihre E-Mail-, SMS- oder Push-Benachrichtigungs-Kampagne entsprechend Ihren Anforderungen. [Weitere Informationen](../campaigns/create-campaign.md)
 
