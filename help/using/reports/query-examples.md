@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Stellen Sie sicher, dass die in Ihren Abfragen verwendeten Felder im entsprechen
 
 * ID: eindeutig für alle Schrittereignis-Einträge. Zwei verschiedene Schrittereignisse können nicht dieselbe ID aufweisen.
 * instanceID: instanceID ist für alle Schrittereignisse identisch, die einem Profil innerhalb einer Journey-Ausführung zugeordnet sind. Wenn ein Profil die Journey erneut aufruft, wird eine andere instanceID verwendet. Diese neue instanceID ist für alle Schrittereignisse der wieder aufgerufenen Instanz gleich (von Anfang bis Ende).
-* profileID: die Identität des Profils entsprechend dem Journey-Namespace.
+* profileID: die Identität des Profils, die dem Namespace der Journey entspricht.
 
 >[!NOTE]
 >
