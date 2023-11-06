@@ -1,6 +1,6 @@
 ---
-title: Briefpost-Nachricht prüfen und senden
-description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpost-Nachricht überprüfen und senden können.
+title: Überprüfen und Senden einer Briefpostnachricht
+description: Erfahren Sie, wie Sie in Journey Optimizer eine Briefpostnachricht überprüfen und senden
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
@@ -8,23 +8,23 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Briefpost-Nachricht prüfen und senden {#direct-mail-test-send}
+# Überprüfen und Senden einer Briefpostnachricht {#direct-mail-test-send}
 
 ## Anzeigen der Extraktionsdatei in der Vorschau {#preview-dm}
 
 Sobald der Inhalt der Extraktionsdatei definiert wurde, können Sie Testprofile verwenden, um sie in der Vorschau anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** Fügen Sie dann ein Testprofil hinzu, um zu überprüfen, wie die Extraktionsdatei mithilfe der Testprofildaten gerendert wird.
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um zu prüfen, wie die Extraktionsdatei unter Verwendung der Testprofildaten gerendert wird.
 
 ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content Management](../content-management/preview-test.md) Abschnitt.
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 Sobald der Inhalt der Datei versandbereit ist, schließen Sie den Simulationsbildschirm und klicken Sie auf die Schaltfläche **[!UICONTROL Zum Aktivieren überprüfen]**.
 
