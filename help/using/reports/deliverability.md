@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die Zustellbarkeit ist ein Maßstab für den Erfolg Ihrer Sendungen, die Postein
 
 >[!NOTE]
 >
->Für Kunden, die den Gesundheitsschild lizenzieren, nutzt Adobe Transport Layer Security (TLS) 1.2, um den Datenaustausch zwischen den Systemen (Empfängern) der Benutzer und Journey Optimizer (Absender) zu sichern. Wenn der empfangende E-Mail-Server TLS 1.2 nicht unterstützt, treten bei Kunden und Kundinnen Probleme mit der Zustellbarkeit auf, einschließlich der Rücksendung der E-Mail zum ursprünglichen Absender.
+>Für Kundinnen und Kunden mit einer Lizenz für Healthcare Shield nutzt Adobe Transport Layer Security (TLS) 1.2, um den Datenaustausch zwischen den Systemen der Benutzenden (Empfänger) und Journey Optimizer (Absender) zu schützen. Wenn der empfangende E-Mail-Server TLS 1.2 nicht unterstützt, treten bei Kunden und Kundinnen Probleme mit der Zustellbarkeit auf, einschließlich der Rücksendung der E-Mail zum ursprünglichen Absender.
 
 **E-Mail-Zustellbarkeit** bezieht sich auf jene Merkmale, die über die Fähigkeit einer Nachricht entscheiden, innerhalb kurzer Zeit über eine persönliche E-Mail-Adresse ihr Ziel zu erreichen – mit der erwarteten Qualität in Bezug auf Inhalt und Format. Diese Merkmale lassen sich in vier Kategorien einteilen: Datenqualität, Nachrichten und Inhalte, Sendeinfrastruktur und Reputation. Gemeinsam bilden sie die Grundlage eines erfolgreichen Email Deliverability-Programms.
 
