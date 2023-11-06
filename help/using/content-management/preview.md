@@ -1,21 +1,22 @@
 ---
-title: Vorschau des Inhalts anzeigen
-description: Erfahren Sie, wie Sie eine Vorschau Ihres Inhalts anzeigen können.
+title: Anzeigen Ihres Inhalts in der Vorschau
+description: Erfahren Sie, wie Sie Ihren Inhalt in der Vorschau anzeigen können.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# Vorschau des Inhalts anzeigen {#preview}
+# Anzeigen Ihres Inhalts in der Vorschau {#preview}
 
-Einmal [Testprofile](test-profiles.md) ausgewählt sind, können Sie eine Vorschau Ihres Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
+Nach der Auswahl von [Testprofilen](test-profiles.md) können Sie eine Vorschau des E-Mail-Inhalts anzeigen. Führen Sie dazu folgende Schritte durch:
 
-1. Klicken Sie im Bildschirm &quot;Inhalt bearbeiten&quot;Ihrer Nachricht oder in Email Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]** Schaltfläche.
+1. Klicken Sie auf dem Bildschirm „Inhalt bearbeiten“ Ihrer Nachricht oder im E-Mail-Designer auf die Schaltfläche **[!UICONTROL Inhalt simulieren]**.
 
 1. Wählen Sie ein Testprofil aus. Überprüfen Sie die in den Spalten aufgeführten Werte. Verwenden Sie die Pfeile nach rechts oder links, um Daten zu durchsuchen.
 
@@ -35,4 +36,4 @@ Einmal [Testprofile](test-profiles.md) ausgewählt sind, können Sie eine Vorsch
 
    ![](../email/assets/preview-test-profile.png)
 
-1. Wählen Sie weitere Testprofile aus, um Ihre E-Mail für jede Nachrichtenvariante in der Vorschau anzuzeigen.
+1. Wählen Sie andere Testprofile aus, um Ihre E-Mail für jede Variante Ihrer Nachricht in der Vorschau anzuzeigen.
