@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1059'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Sie müssen folgende Voraussetzungen erfüllen, um Web-Seiten in der Benutzerobe
 
 >[!AVAILABILITY]
 >
->Derzeit ist der Webkanal nicht für Unternehmen verfügbar, die die Adobe erworben haben **Gesundheitsschild** und **Datenschutz und Sicherheitsschild** Add-On-Angebote.
+>Für Organisationen, die Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist der Web-Kanal derzeit nicht verfügbar.
 
 ## Voraussetzungen für die Implementierung {#implementation-prerequisites}
 
