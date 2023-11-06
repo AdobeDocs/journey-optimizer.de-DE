@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,19 +21,19 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 ## Oktober 2023 {#oct-2023}
 
-* Alle neuen Funktionen und Verbesserungen [!DNL Journey Optimizer] Die Version vom 23. Oktober wurde in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
+* Alle neuen Funktionen und Verbesserungen der [!DNL Journey Optimizer]-Version Oktober 2023 sind in der Dokumentation beschrieben. [Weitere Informationen](release-notes.md)
 * Es wurden GIFs hinzugefügt, um einige wichtige Funktionen zu veranschaulichen, z. B.: [Inhaltsvorlagen](../content-management/content-templates.md), [Fragmente](../content-management/fragments.md), [Berechnete Attribute](../audience/computed-attributes.md), [Briefpost](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimierungsmodelle für das Entscheidungs-Management](../offers/ranking/personalized-optimization-model.md), [API-gesteuerte Kampagnen](../campaigns/api-triggered-campaigns.md) und [Inhaltsexperimente](../campaigns/content-experiment.md).
 * Der Prozess zur Schemaerstellung wurde aktualisiert, um die neuesten Aktualisierungen der Benutzeroberfläche widerzuspiegeln, die mit Änderungen an Adobe Experience Platform eingeführt wurden. [Weitere Informationen](../audience/creating-test-profiles.md)
 * Auf der Seite „Limits und Einschränkungen“ wurden Leitlinien für das Entscheidungs-Management hinzugefügt. [Weitere Informationen](../start/guardrails.md#decision-management)
-* Der Abschnitt zu Kopfzeilenparametern wurde aktualisiert, um die Handhabung von Abwesenheitsbenachrichtigungen und Anforderungsantworten widerzuspiegeln (sie werden auf der Seite **[!UICONTROL Fehler-Email]**). [Weitere Informationen](../email/email-settings.md#email-header)
-* Ein neuer Abschnitt über die Vorschau und den Test Ihres Inhalts wurde erstellt - [Weitere Informationen](../content-management/preview-test.md)
-* Die Seite Einseitige Anwendungen implementieren wurde in die Dokumentation zum Adobe Experience Platform Web SDK verschoben. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
-* Der Abschnitt &quot;Begrenzung&quot;wurde aktualisiert, um die Beschriftungsänderungen im Zusammenhang mit der Angebotsbegrenzung in der Entscheidungs-Management-Oberfläche widerzuspiegeln. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
-* Der Abschnitt zum Hinzufügen dynamischer Inhalte zu E-Mails wurde aktualisiert und enthält jetzt Informationen zum Löschen einer Variante - [Weitere Informationen](../personalization/dynamic-content.md#emails)
+* Der Abschnitt zu Kopfzeilenparametern wurde aktualisiert, um die Handhabung von Abwesenheitsbenachrichtigungen und Challenge-Responses widerzuspiegeln (sie werden an der **[!UICONTROL Fehler-E-Mail-Adresse]** empfangen). [Weitere Informationen](../email/email-settings.md#email-header)
+* Es wurde ein neuer Abschnitt dazu erstellt, wie Sie Ihren Inhalt in der Vorschau anzeigen und testen können. [Weitere Informationen](../content-management/preview-test.md)
+* Die Seite zum Implementieren von Einzelseitenanwendungen wurde in die Dokumentation zum Adobe Experience Platform Web SDK verschoben. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=de){target="_blank"}
+* Der Abschnitt „Begrenzung“ wurde aktualisiert, um die Beschriftungsänderungen im Zusammenhang mit der Angebotsbegrenzung in der Entscheidungs-Management-Oberfläche widerzuspiegeln. [Weitere Informationen](../offers/offer-library/add-constraints.md#capping)
+* Der Abschnitt zum Hinzufügen dynamischer Inhalte zu E-Mails wurde aktualisiert und enthält jetzt auch Informationen zum Löschen einer Variante. [Weitere Informationen](../personalization/dynamic-content.md#emails)
 * Das Beispiel für Konfigurationen für Begrenzungen und Einschränkungen wurde aktualisiert. [Weitere Informationen](../configuration/external-systems.md)
 * Die Beschränkung für skalare Arrays wurde aus dem Abschnitt zur externen Datenquelle entfernt. [Weitere Informationen](../datasource/external-data-sources.md)
-* Das Anwendungsbeispiel für Journey mit mehreren Kanälen wurde aktualisiert - [Weitere Informationen](../building-journeys/journeys-uc.md)
-* Der Journey Optimizer-Dokumentationssatz wurde aktualisiert, um den neuen Erstellungsprozess für Experience Platform-Schemas widerzuspiegeln.
+* Der Anwendungsfall für Journeys mit mehreren Kanälen wurde aktualisiert. [Weitere Informationen](../building-journeys/journeys-uc.md)
+* Der Journey Optimizer-Dokumentationssatz wurde aktualisiert, um den neuen Erstellungsprozess für Experience Platform-Schemata widerzuspiegeln.
 
 ## September 2023 {#september-2023}
 
@@ -48,7 +48,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 * Die Links zur Dokumentation zur Zugriffssteuerung wurden aktualisiert. [Weitere Informationen](../administration/permissions.md)
 * Die Voraussetzungen für In-App-Kanäle wurden mit Details zur Datenerfassung von Adobe Experience Platform aktualisiert. [Weitere Informationen](../in-app/inapp-configuration.md)
 * Einige der in Beispielen für Ranking-Formeln dargestellten Ausdrücke wurden aktualisiert, um Validierungsfehler zu vermeiden. [Weitere Informationen](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Im Abschnitt Entscheidungsbereiche definieren wurde eine Warnung hinzugefügt, die spezifiziert, dass bei Verwendung des KI-Modells in einer Bewertungskriterien-Gruppe alle Bewertungskriterien in dieser Gruppe die KI-Rangmethode mit demselben spezifischen KI-Modell verwenden müssen. Darüber hinaus kann nur eine Bewertungskriterien-Gruppe das KI-Modell verwenden. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Es wurde ein Warnhinweis zum Abschnitt „Definieren von Entscheidungsbereichen“ hinzugefügt. Bei der Verwendung eines KI-Modells in einer Bewertungskriterien-Gruppe müssen alle Bewertungskriterien in dieser Gruppe die KI-Rangfolgenmethode mit demselben spezifischen KI-Modell verwenden. Darüber hinaus kann nur eine Bewertungskriterien-Gruppe das KI-Modell verwenden. [Weitere Informationen](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## August 2023 {#august-2023}
 
