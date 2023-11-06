@@ -10,9 +10,9 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 97%
 Jede Rolle besteht aus Berechtigungen, die Benutzenden den Zugriff auf die verschiedenen Funktionen ermöglichen.
 Sie können in zwei Typen unterteilt werden:
 
-* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die zugewiesen werden können. **[!UICONTROL Rolle]**, beispielsweise **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden im Abschnitt [diese Seite](ootb-permissions.md).
+* **Berechtigung auf hoher Ebene**: stellt die verschiedenen Berechtigungen dar, die **[!UICONTROL Rolle]** zugewiesen werden können, wie **[!DNL Publish journeys]** und **[!DNL Manage subdomains delegation]**. Berechtigungen auf hoher Ebene beinhalten Berechtigungen auf niedriger Ebene. Berechtigungen auf hoher Ebene werden auf [dieser Seite](ootb-permissions.md) näher beschrieben.
 
-* **Berechtigung auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
+* **Berechtigungen auf niedriger Ebene**: beinhalten die verschiedenen Berechtigungen, die von der Berechtigung auf hoher Ebene stammen.
 
 Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[!DNL Manage journeys]** zugewiesen. Aus dieser Berechtigung stammen die Berechtigungen auf niedriger Ebene, die es Journey-Admins ermöglichen, Journeys zu schreiben, zu lesen und zu löschen.
 
