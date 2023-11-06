@@ -9,9 +9,9 @@ level: Beginner
 keywords: extern, API, Optimizer, Begrenzung
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Nehmen wir beispielsweise an, Sie haben eine Begrenzungs- oder Drosselungsregel 
 >
 >**Drosselungsregeln** werden nur für Produktions-Sandboxes und für einen bestimmten Endpunkt konfiguriert, jedoch global für alle Journeys über alle Sandboxes hinweg. Pro Organisation kann nur eine Drosselungskonfiguration verwendet werden. Drosselung ist nur für benutzerdefinierte Aktionen verfügbar.
 >
->Die **maxCallsCount** -Wert größer als 1 sein.
+>Der Wert von **maxCallsCount** muss größer als 1 sein.
 
 Weiterführende Informationen zur Verwendung der APIs finden Sie in diesen Abschnitten:
 
