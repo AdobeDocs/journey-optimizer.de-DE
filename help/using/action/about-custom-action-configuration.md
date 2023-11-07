@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: Aktion, Drittanbieter, benutzerdefiniert, Journeys, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,9 @@ Beachten Sie auch, dass bei den Parametern für benutzerdefinierte Aktionen ein 
 
 ## Best Practices{#custom-action-enhancements-best-practices}
 
-Für alle benutzerdefinierten Aktionen ist eine Begrenzung von 150.000 Anrufen über 30 Sekunden festgelegt. Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
+Für alle benutzerdefinierten Aktionen ist eine Begrenzung von 300.000 Aufrufen über eine Minute definiert. Darüber hinaus wird die standardmäßige Begrenzung pro Host und Sandbox durchgeführt. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B.: `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host adobe.com . &quot;endpoint1&quot;und &quot;endpoint2&quot;verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt die Grenze erreicht, wirkt sich dies auf den anderen Endpunkt aus.
+
+Diese Beschränkung wurde auf der Grundlage der Kundennutzung festgelegt, um externe Endpunkte zu schützen, die von benutzerdefinierten Aktionen angesprochen werden. Sie müssen dies in Ihren zielgruppenbasierten Journeys berücksichtigen, indem Sie eine geeignete Leserate definieren (5000 Profile pro Sekunde, wenn benutzerdefinierte Aktionen verwendet werden). Bei Bedarf können Sie diese Einstellung überschreiben, indem Sie über unsere Begrenzungs- oder Drosselungs-API eine höhere Begrenzung oder Einschränkung definieren. Weitere Informationen finden Sie auf [dieser Seite](../configuration/external-systems.md).
 
 Sie sollten öffentliche Endpunkte aus verschiedenen Gründen nicht mit benutzerdefinierten Aktionen ansprechen:
 

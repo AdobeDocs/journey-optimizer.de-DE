@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '4010'
-ht-degree: 100%
+source-wordcount: '4103'
+ht-degree: 97%
 
 ---
 
 # Dokumentation – Aktualisierungen {#latest-updates}
 
 Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journey Optimizer] aufgelistet.
+
+## November 2023 {#nov-2023}
+
+* Die Limits, die alle benutzerdefinierten Aktionen einschränken, wurden von 150.000 Aufrufen über 30 Sekunden auf 300.000 Aufrufe über eine Minute geändert. Darüber hinaus gilt die Standardbegrenzung nicht mehr für jeden Endpunkt. Er wird jetzt pro Host und Sandbox ausgeführt. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B.: `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host adobe.com . &quot;endpoint1&quot;und &quot;endpoint2&quot;verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt die Grenze erreicht, wirkt sich dies auf den anderen Endpunkt aus. [Weitere Informationen](../action/about-custom-action-configuration.md)
 
 ## Oktober 2023 {#oct-2023}
 
