@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -89,6 +89,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <tr> 
    <td> Fehlerrate<br/> </td> 
    <td> Prozentsatz der Fehler, die während des Versands auftraten und die Zustellung verhinderten, im Vergleich zur Zahl der gesendeten E-Mails.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Fehlerursache<br/> </td> 
+   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="error-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
@@ -332,7 +337,11 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
   <tr> 
    <td> Fehlerrate<br/> </td> 
    <td> Prozentualer Anteil der Fehler, die während eines Versands aufgetreten sind und den Versand verhindert haben, im Vergleich zu den gesendeten Push-Benachrichtigungen.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Fehlerursache<br/> </td> 
+   <td> Name der spezifischen ursprünglichen Fehlerursache. <a href="error-list.md">Weitere Informationen zu Fehlerursachen</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Ausgeschlossen<br/> </td> 
    <td> Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.<br/> </td> 
@@ -356,7 +365,7 @@ In den Tabellen unten finden Sie nach Versandtyp geordnet die Liste der Metriken
  </tbody> 
 </table>
 
-### Landingpage-Metriken {#landing-page-metrics}
+## Landingpage-Metriken {#landing-page-metrics}
 
 <table> 
  <thead> 

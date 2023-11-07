@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 100%
+source-wordcount: '3357'
+ht-degree: 93%
 
 ---
 
@@ -173,6 +173,8 @@ Im **[!UICONTROL globalen Bericht]** in Campaign finden Sie auf der Registerkart
 
 Im Graphen **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihrer E-Mail beschrieben:
 
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Zielgruppe auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Versandvorgang verarbeiteten Nachrichten.
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge für Ihre E-Mail.
@@ -194,6 +196,8 @@ Im Graphen **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihrer E-Mail b
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 Das Widget **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügbaren Daten zur Profilaktivität für Ihre E-Mail:
+
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Zielgruppe auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen der E-Mail.
 
@@ -243,7 +247,7 @@ Der Graph und die Tabelle **[!UICONTROL E-Mail – Beste Empfänger-Domain]** z
 >
 > Das Widget **[!UICONTROL E-Mail – Beste Empfänger-Domain]** hat eine Genauigkeit von 99,95 %.
 
-Der Graph **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, egal ob sie optimiert wurden oder nicht:
+Die **[!UICONTROL E-Mail - Optimiert vs. Normal]** -Diagramm zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -251,7 +255,7 @@ Der Graph **[!UICONTROL Optimiert vs. nicht optimiert]** zeigt die wichtigsten I
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
 
-Die **[!UICONTROL Versandzeitoptimierung]** zeigt den Erfolg Ihrer E-Mail in Abhängigkeit von der Versandmethode an: optimiert oder normal.
+Die **[!UICONTROL E-Mail - Sendezeitoptimierung]** zeigt den Erfolg Ihrer E-Mail in Abhängigkeit von der Versandmethode an: optimiert oder normal.
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -337,7 +341,9 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Push-Bericht verfügbar sind.
 
-Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen.
+Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen.:
+
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Analyse verarbeiteten Nachrichten.
 
@@ -358,6 +364,8 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält d
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Profile, die durch Adobe Journey Optimizer ausgeschlossen wurden.
 
 **[!UICONTROL Push-Benachrichtigung – Tracking-Statistiken]** enthält die verfügbaren Daten zur Profilaktivität für Ihre Push-Benachrichtigung:
+
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft Ihre Push-Benachrichtigung geöffnet wurde.
 
@@ -446,6 +454,8 @@ Im **[!UICONTROL Globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg Ihrer SMS-Nachricht:
 
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden SMS-Nachricht. Um nur eine oder mehrere wiederkehrende SMS-Nachrichten auszuwählen, wählen Sie sie aus dem **[!UICONTROL Ausführungszeit]** angezeigt.
+
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
 * **[!UICONTROL Ausgeschlossen]**: Anzahl der Benutzerprofile, die von den Zielgruppenprofilen ausgeschlossen waren und die die Nachricht nicht erhalten haben.
@@ -530,6 +540,8 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte 
 +++Erfahren Sie mehr über die verschiedenen Metriken und Widgets, die für den Briefpost-Bericht verfügbar sind.
 
 Die Tabelle **[!UICONTROL Briefpost – Versandstatistik]** gibt Auskunft über den Erfolg Ihrer Briefpost:
+
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Briefpost. Um nur eine oder mehrere wiederkehrende Briefpost als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Briefpostversand eignen.
 

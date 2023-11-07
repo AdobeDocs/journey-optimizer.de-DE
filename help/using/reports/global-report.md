@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,12 @@ Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern de
 1. Wählen Sie aus Ihrem globalen Bericht eine Start- und Endzeit aus, um auf bestimmte Daten zuzugreifen.
 
    ![](assets/report_modify_1.png)
+
+1. Für Ihre Journey-Berichte, die mehrere konfigurierte **[!UICONTROL Aktionen]**, wählen Sie eine bestimmte **[!UICONTROL Aktion]** aus dem Dropdown-Menü.
+
+1. Wenn Sie nur eine oder mehrere wiederkehrende Nachrichten als Ziel auswählen möchten, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+
+   ![](assets/report_modify_12.png)
 
 1. Sie können mit der Umschaltleiste auswählen, ob Sie Testereignisse aus Ihren Berichten ausschließen möchten. Weitere Informationen zu Testereignissen finden Sie auf [dieser Seite](../building-journeys/testing-the-journey.md).
 
