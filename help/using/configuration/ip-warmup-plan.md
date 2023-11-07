@@ -224,8 +224,8 @@ Jede Domain wird nun in einer anderen Spalte in derselben Zeile angezeigt.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="Angeben Ihres IP-Aufwärmplans"
->abstract="Laden Sie die CSV-Vorlage herunter und füllen Sie sie mit Daten für IP-Aufwärmphasen und die Zielanzahl der Profile aus."
+>title="IP-Aufwärmplan angeben"
+>abstract="Die CSV-Vorlage herunterladen und sie mit Daten für IP-Aufwärmphasen und die Zielanzahl der Profile ausfüllen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
