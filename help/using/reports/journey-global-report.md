@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 93%
+source-wordcount: '2394'
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Im Diagramm **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihres Versands beschrieben:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail in Ihrer Journey. Um nur eine oder mehrere wiederkehrende E-Mails als Zielgruppe auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Journey-Ausführung im Fall wiederkehrender Journey. Um nur eine oder mehrere Wiederholungen als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die bei einer Aktion wie etwa E-Mail- oder SMS-Versand angesprochen werden.
 
@@ -198,7 +198,7 @@ In Ihrem **[!UICONTROL globalen Bericht]** zur Journey finden Sie auf der Regist
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen mit Diagrammen und KPIs:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung in Ihrer Journey. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Journey-Ausführung im Fall wiederkehrender Journey. Um nur eine oder mehrere Wiederholungen als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Zielgruppe]**: Anzahl der Profile, die bei einer Aktion wie etwa E-Mail- oder SMS-Versand angesprochen werden.
 
@@ -218,7 +218,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistiken]** enthält
 
 Die **[!UICONTROL Push-Benachrichtigung – Tracking-Statistik]** enthält die verfügbaren Daten zur Aktivität der Empfänger für Ihren Versand:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung in Ihrer Journey. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Journey-Ausführung im Fall wiederkehrender Journey. Um nur eine oder mehrere Wiederholungen als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen einer Nachricht in einem Versand.
 
@@ -274,7 +274,7 @@ Die SMS **[!UICONTROL Globaler Bericht]** ist in verschiedene Widgets unterteilt
 
 Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg des Versands:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden SMS-Nachricht in Ihrer Journey. Um nur eine oder mehrere wiederkehrende SMS-Nachrichten auszuwählen, wählen Sie sie aus dem **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Journey-Ausführung im Fall wiederkehrender Journey. Um nur eine oder mehrere Wiederholungen als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
 
 * **[!UICONTROL Ausgewählt]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
