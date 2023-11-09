@@ -98,7 +98,7 @@ Um eine Typänderung der **CSS-Auswahl** hinzuzufügen, gehen Sie wie folgt vor.
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
 >title="Hinzufügen von benutzerdefiniertem Code"
->abstract="Das HEAD-Element ist ein Container für Metadaten und wird zwischen dem HTML-Tag und dem BODY-Tag platziert. Fügen Sie nur SCRIPT- und STYLE-Elemente hinzu. Das Hinzufügen von DIV-Tags und anderen Elementen kann dazu führen, dass die verbleibenden HEAD-Elemente in den BODY springen."
+>abstract="Das HEAD-Element ist ein Container für Metadaten und wird zwischen dem HTML-Tag und dem BODY-Tag platziert. Nur SCRIPT- und STYLE-Elemente hinzufügen. Das Hinzufügen von DIV-Tags und anderen Elementen kann dazu führen, dass die verbleibenden HEAD-Elemente in den BODY springen."
 
 Sie können benutzerdefinierten Code mithilfe des Änderungstyps **[!UICONTROL Seite`<head>`]** hinzufügen.
 
