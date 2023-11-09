@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '777'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-Einträge der Subdomains"
->abstract="Nachdem in Journey Optimizer eine Subdomain an Adobe delegiert wurde, wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft."
+>abstract="Nachdem die erste Subdomain in Journey Optimizer an Adobe delegiert wurde, werden PTR-Datensätze automatisch erstellt."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 
@@ -36,7 +36,7 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Nachdem [eine Subdomain in Adobe Journey Optimizer zugewiesen wurde](delegate-subdomain.md), wird automatisch ein PTR-Eintrag erstellt und mit dieser Subdomain verknüpft. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
+Einmal [delegate](delegate-subdomain.md) Ihre erste Subdomäne zum Adobe [!DNL Journey Optimizer], werden PTR-Datensätze automatisch für Ihre IPs erstellt. Sie können über die **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Datensätze]** Menü.
 
 ![](assets/ptr-records.png)
 

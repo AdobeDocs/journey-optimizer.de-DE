@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: Kanal, Oberfläche, technisch, Parameter, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Mit [!DNL Journey Optimizer] können Sie Kanaloberflächen (z. B. Nachrichtenvo
 
 >[!CAUTION]
 >
-> * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung zur [Verwaltung von Kanaloberflächen](../administration/high-low-permissions.md#manage-channel-surface).
+> * Um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen, muss die [Verwalten von Nachrichtenvorgaben](../administration/high-low-permissions.md#administration-permissions) -Berechtigung.
 >
 > * Bevor Sie Kanaloberflächen erstellen können, müssen Sie die Schritte zur Konfiguration von [E-Mails](../email/get-started-email-config.md), [Push-Benachrichtigungen](../push/push-configuration.md) und [SMS](../sms/sms-configuration.md) ausführen.
 
@@ -47,7 +47,7 @@ Sobald die Kanaloberflächen konfiguriert wurden, können Sie sie beim Erstellen
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Kanaloberflächeneinstellungen"
->abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung zum Verwalten der Kanaloberfläche verfügen, um Kanaloberflächen zu erstellen, zu bearbeiten und zu löschen."
+>abstract="Um Aktionen wie E-Mails aus einer Journey oder einer Kampagne erstellen zu können, müssen Sie zunächst eine Kanaloberfläche erstellen, die alle für Ihre Nachrichten erforderlichen technischen Parameter definiert. Sie müssen über die Berechtigung Nachrichtenvorgaben verwalten verfügen, um Kanaloberflächen erstellen, bearbeiten und löschen zu können."
 
 Gehen Sie wie folgt vor, um eine Kanaloberfläche zu erstellen:
 

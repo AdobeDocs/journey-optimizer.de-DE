@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 100%
+source-wordcount: '1079'
+ht-degree: 98%
 
 ---
 
@@ -288,20 +288,6 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 ## Kanalkonfigurationsressource {#administration-permissions}
 
-* Mit der Berechtigung **[!DNL Manage channel surface]** auf hoher Ebene können Benutzende Kanaloberflächen kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
-
-+++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
-
-   * Spezifisch für Journey Optimizer:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (aus Adobe Experience Platform Launch)
-
-+++
-
 * Mit der Berechtigung **[!DNL Manage IP pools]** auf hoher Ebene können Benutzende eine Affinitätsdefinition erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
@@ -341,7 +327,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* Mit der Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene können Benutzende Inhalts-Branding lesen, erstellen, bearbeiten und löschen.
+* **[!DNL Manage messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Kanaloberflächen kanalübergreifend auf Sandbox-Ebene lesen, erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -353,7 +339,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * IP_pools.read
 
    * Spezifisch für die Datenerfassung:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* Mit der Berechtigung **[!DNL Manage subdomains delegation]** auf hoher Ebene können Benutzende Delegierungen von Subdomains (einschließlich IP-Pool) erstellen, bearbeiten und löschen.
+* Mit der Berechtigung **[!DNL Manage subdomains delegations]** auf hoher Ebene können Benutzende Delegierungen von Subdomains (einschließlich IP-Pool) erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * Spezifisch für Journey Optimizer:
