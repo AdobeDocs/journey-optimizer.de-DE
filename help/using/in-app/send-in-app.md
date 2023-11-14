@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,14 @@ Gehen Sie dazu wie folgt vor:
 1. Scannen Sie den QR-Code mit Ihrem Gerät und geben Sie den angezeigten PIN-Code ein.
 
 Ihre In-App-Nachricht kann jetzt direkt auf Ihrem Gerät ausgelöst werden, sodass Sie Ihre Nachricht auf einem Gerät in der Vorschau anzeigen und überprüfen können.
+
+## Vorschau mit Testprofilen {#simulate}
+
+Sobald Ihre In-App-Nachricht definiert wurde, können Sie sie mit Testprofilen in der Vorschau anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+
+Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
+
+Detaillierte Informationen zur Auswahl von Testprofilen und zur Vorschau Ihres Inhalts finden Sie im Abschnitt [Content-Management](../content-management/preview-test.md).
 
 ## Überprüfen und Aktivieren Ihrer In-App-Benachrichtigung{#in-app-review}
 
