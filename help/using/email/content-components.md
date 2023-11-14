@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 94%
 
 ---
 
@@ -168,11 +168,17 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
    ![](assets/email_designer_image_content.png)
 
-1. Klicken Sie auf **[!UICONTROL Durchsuchen]**, um eine in Ihren Assets gespeicherte Bilddatei auszuwählen.
+1. Aus dem **[!UICONTROL Einstellungen]** Registerkarte, klicken **[!UICONTROL Durchsuchen]** zur Auswahl einer Bilddatei aus Ihren Assets oder **[!UICONTROL Medien importieren]** , um ein Asset in Assets Essentials hochzuladen.
 
    Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
 
-1. Klicken Sie auf die neu hinzugefügte Komponente und richten Sie Ihre Bildeigenschaften auf der Registerkarte **[!UICONTROL Einstellungen]** ein:
+   >[!NOTE]
+   >
+   > Um sicherzustellen, dass Ihre Links aktiv bleiben und keine Ablaufprobleme auftreten, empfehlen wir die Verwendung von Adobe Assets, anstatt sich auf eine Quell-URL für Ihre Bilder zu verlassen.
+
+1. Sie können auch direkt in Adobe Stock suchen mit der **[!UICONTROL Adobe Stock-Fotos suchen]** -Option.
+
+1. Klicken Sie auf die neu hinzugefügte Komponente und richten Sie Ihre Bildeigenschaften ein:
 
    * **[!UICONTROL Bildtitel]** erlaubt Ihnen, den Titel für das Bild zu definieren.
    * Mit **[!UICONTROL Alt-Text]** legen Sie die Bildunterschrift fest. Dies entspricht dem HTML-Attribut „alt“.
