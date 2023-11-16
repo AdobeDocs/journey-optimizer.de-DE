@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1126'
+ht-degree: 95%
 
 ---
 
@@ -288,6 +288,17 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 ## Kanalkonfigurationsressource {#administration-permissions}
 
+* **[!DNL Manage file routing]** Mit Berechtigungen auf hoher Ebene können Benutzer Dateirouting-Konfigurationen erstellen, bearbeiten und löschen.
+
++++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+   * Spezifisch für Journey Optimizer:
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * Mit der Berechtigung **[!DNL Manage IP pools]** auf hoher Ebene können Benutzende eine Affinitätsdefinition erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
@@ -399,13 +410,12 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* Mit der Berechtigung **[!DNL View PTR records]** auf hoher Ebene können Benutzende PTR-Einträge anzeigen, die basierend auf der Subdomain konfiguriert wurden.
+* **[!DNL View file routing]** Mit Berechtigungen auf hoher Ebene können Benutzer Dateirouting-Konfigurationen anzeigen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * Spezifisch für Journey Optimizer:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
       * Mobile_setting.read
 
 +++
+
+* Mit der Berechtigung **[!DNL View PTR records]** auf hoher Ebene können Benutzende PTR-Einträge anzeigen, die basierend auf der Subdomain konfiguriert wurden.
+
++++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
+   * Spezifisch für Journey Optimizer:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
