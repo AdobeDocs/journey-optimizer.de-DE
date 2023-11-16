@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] ermöglicht es Ihnen, die von Briefpostanbietern benötigten Dateien zu personalisieren und zu generieren, um Briefe an Ihre Kunden zu senden.
 
-Bei der [Erstellung von Briefpostnachrichten](../direct-mail/create-direct-mail.md) definieren Sie die Daten der anvisierten Audience, einschließlich der ausgewählten Kontaktinformationen (z. B. die Postanschrift). Es wird dann automatisch eine Datei mit diesen Daten generiert und auf einen Server exportiert, von dem aus Ihr Briefpostanbieter sie abrufen und die Nachricht versenden kann.
+Bei der [Erstellung von Briefpostnachrichten](../direct-mail/create-direct-mail.md) definieren Sie die Daten der anvisierten Zielgruppe, einschließlich der ausgewählten Kontaktinformationen (z. B. die Postanschrift). Es wird dann automatisch eine Datei mit diesen Daten generiert und auf einen Server exportiert, von dem aus Ihr Briefpostanbieter sie abrufen und die Nachricht versenden kann.
 
 Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
 1. Eine [Datei-Routing-Konfiguration](#file-routing-configuration), um den Server anzugeben, zu dem die Datei exportiert werden soll, und die Datei bei Bedarf zu verschlüsseln.
 
-1. Eine [Briefpost-Oberfläche](#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist.
+   >[!CAUTION]
+   >
+   >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die **[!DNL Manage file routing]** integrierte Berechtigung. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Briefpost-Oberfläche erstellen.
+1. Eine [Briefpost-Oberfläche](#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Briefpost-Oberfläche erstellen.
 
 ## Konfigurieren des Datei-Routings {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definieren der Datei-Routing-Konfiguration"
->abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Audience generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
+>abstract="Nach der Erstellung einer Briefpostnachricht wird die Datei mit den Daten der anvisierten Zielgruppe generiert und an einen Server exportiert. Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefpost verwenden kann."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=de" text="Erstellen einer Briefpostnachricht"
 
 >[!CONTEXTUALHELP]
@@ -58,7 +58,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 >title="Auswählen der AWS-Region"
 >abstract="Wählen Sie die geografische Region des AWS-Servers aus, auf den Sie Ihre Briefpostdateien exportieren möchten. In der Regel empfIehlt es sich, die Region auszuwählen, die dem Standort Ihres Briefpostanbieters am nächsten liegt."
 
-Zum Versand einer Briefpostnachricht generiert [!DNL Journey Optimizer] die Datei mit den Daten der anvisierten Audience und exportiert sie auf einen Server.
+Zum Versand einer Briefpostnachricht generiert [!DNL Journey Optimizer] die Datei mit den Daten der anvisierten Zielgruppe und exportiert sie auf einen Server.
 
 Sie müssen die Server-Details angeben, damit Ihr Briefpostanbieter auf diese Datei zugreifen und sie für den Versand von Briefen verwenden kann.
 
@@ -103,7 +103,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definieren der Briefpost-Einstellungen"
->abstract="Eine Briefpost-Oberfläche enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Audience enthält und vom Briefpostanbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
+>abstract="Eine Briefpost-Oberfläche enthält die Formatierungseinstellungen der Datei, die die Daten der anvisierten Zielgruppe enthält und vom Briefpostanbieter verwendet wird. Sie müssen auch festlegen, wohin die Datei exportiert werden soll. Wählen Sie dazu die entsprechende Datei-Routing-Konfiguration aus."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=de#file-routing-configuration" text="Konfigurieren des Datei-Routings"
 
 <!--
@@ -115,7 +115,7 @@ Gehen Sie zur Konfiguration des Datei-Routings wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="Festlegen des Schwellenwerts zur Dateiaufspaltung"
->abstract="Für jede Datei, die Audience-Daten enthält, müssen Sie die maximale Anzahl von Datensätzen festlegen. Sie können eine beliebige Zahl zwischen 1 und 200.000 auswählen. Nachdem der festgelegte Schwellenwert erreicht wurde, wird eine neue Datei für die verbleibenden Datensätze erstellt."
+>abstract="Für jede Datei, die Zielgruppen-Daten enthält, müssen Sie die maximale Anzahl von Datensätzen festlegen. Sie können eine beliebige Zahl zwischen 1 und 200.000 auswählen. Nachdem der festgelegte Schwellenwert erreicht wurde, wird eine neue Datei für die verbleibenden Datensätze erstellt."
 
 Um über [!DNL Journey Optimizer] Briefpost senden zu können, müssen Sie eine Kanaloberfläche erstellen. Darin können Sie die Formatierungseinstellungen für die Datei festlegen, die vom Briefpostanbieter verwendet werden soll.
 
@@ -151,7 +151,7 @@ Eine Briefpost-Oberfläche muss auch die Datei-Routing-Konfiguration enthalten, 
 
 1. Senden Sie die Briefpost-Oberfläche ab.
 
-Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../direct-mail/create-direct-mail.md). Nach Beginn der Kampagne wird die Datei mit den Daten der ausgewählten Audience dann automatisch auf den von Ihnen definierten Server exportiert. Der Briefpostanbieter kann dann diese Datei abrufen und sie zum Versand der Briefpost verwenden.
+Sie können jetzt innerhalb einer Kampagne [Briefpostnachrichten erstellen](../direct-mail/create-direct-mail.md). Nach Beginn der Kampagne wird die Datei mit den Daten der ausgewählten Zielgruppe dann automatisch auf den von Ihnen definierten Server exportiert. Der Briefpostanbieter kann dann diese Datei abrufen und sie zum Versand der Briefpost verwenden.
 
 >[!NOTE]
 >
