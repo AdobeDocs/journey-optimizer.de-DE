@@ -46,7 +46,7 @@ Wählen Sie eine der vier Layout-Optionen aus dem Bereich **[!UICONTROL Nachrich
 
 ![](assets/in_app_content_1.png)
 
-* **[!UICONTROL Vollbild]**: Mit dieser Einstellung wird der gesamte Bildschirm der Geräte Ihrer Audience ausgefüllt.
+* **[!UICONTROL Vollbild]**: Mit dieser Einstellung wird der gesamte Bildschirm der Geräte Ihrer Zielgruppe ausgefüllt.
 
   Unterstützt werden Medien- (Bild, Video), Text- und Schaltflächenkomponenten.
 

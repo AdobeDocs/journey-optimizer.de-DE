@@ -120,7 +120,7 @@ Erstellen Sie im Bereich **[!UICONTROL Aktionen]** die Nachricht, die mit der Ka
 
    Die Tracking-Ergebnisse sind nach Ausführung der Kampagne im Kampagnenbericht verfügbar. [Weitere Informationen zu Kampagnenberichten](../reports/campaign-global-report.md)
 
-## Audience definieren {#audience}
+## Zielgruppe definieren {#audience}
 
 Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die Liste der verfügbaren Adobe Experience Platform-Zielgruppen anzuzeigen. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)
 
@@ -128,7 +128,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Zielgruppe auswählen]**, um die
 >
 >Derzeit ist die Verwendung von Zielgruppen, [die aus einer CSV-Datei in Kampagnen importiert werden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience), als private Betaversion verfügbar. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
->Für API-ausgelöste Kampagnen muss die Audience über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
+>Für API-ausgelöste Kampagnen muss die Zielgruppe über einen API-Aufruf festgelegt werden. [Weitere Informationen](api-triggered-campaigns.md)
 
 Wählen Sie im Feld **[!UICONTROL Identity-Namespace]** den Namespace aus, der zur Identifizierung der Personen im ausgewählten Segment verwendet werden soll.
 

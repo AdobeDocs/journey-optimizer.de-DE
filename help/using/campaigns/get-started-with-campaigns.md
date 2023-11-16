@@ -72,7 +72,7 @@ Die wichtigsten Schritte zum Erstellen einer Kampagne sind wie folgt:
 
 +++
 
-1. **Sie benötigen eine Audience**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../audience/about-audiences.md).
+1. **Sie benötigen eine Zielgruppe**. Zielgruppen müssen vor der Erstellung der Kampagne verfügbar sein. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../audience/about-audiences.md).
 1. **Sie benötigen eine Kanaloberfläche**. Um einen Kanal auswählen zu können, muss die entsprechende Kanaloberfläche (d. h. Voreinstellung) erstellt und verfügbar sein. Weitere Informationen zu Kanaloberflächen finden Sie [auf dieser Seite](../configuration/channel-surfaces.md).
 
 ## Anleitungsvideo {#video}

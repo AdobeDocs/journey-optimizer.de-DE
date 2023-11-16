@@ -239,7 +239,7 @@ Geben Sie an, ob die Begrenzung für alle Benutzenden oder für ein bestimmtes P
 
 ![](../assets/offer-capping-total.png)
 
-* Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Ziel-Audience vorgeschlagen werden kann, d. h. für alle Benutzer.
+* Wählen Sie **[!UICONTROL Insgesamt]** aus, um festzulegen, wie oft ein Angebot für die gesamte Zielgruppe vorgeschlagen werden kann, d. h. für alle Benutzer.
 
   Wenn Sie z. B. ein Elektronikhändler sind, der einen Fernseher im Angebot hat, möchten Sie, dass das Angebot allen Profilen nur 200-mal angezeigt wird.
 
