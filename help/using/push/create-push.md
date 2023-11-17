@@ -101,7 +101,7 @@ Gehen Sie wie folgt vor, um eine Push-Benachrichtigung zu erstellen:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Schnellversand-Modus"
->abstract="Der Schnellversand-Modus ermöglicht den extrem schnellen Nachrichtenversand über den Push-Kanal an eine Audience von weniger als 30 Millionen Kontakten."
+>abstract="Der Schnellversand-Modus ermöglicht den extrem schnellen Nachrichtenversand über den Push-Kanal an eine Zielgruppe von weniger als 30 Millionen Kontakten."
 
 Der Schnellversand-Modus ist ein Add-on für [!DNL Journey Optimizer], das den sehr schnellen Versand von Push-Nachrichten in großen Mengen im Rahmen von Kampagnen ermöglicht.
 
@@ -115,7 +115,7 @@ Für Nachrichten mit Schnellversand gelten folgende Anforderungen:
 
 * Der Schnellversand ist nur für **[!UICONTROL geplante]** Kampagnen verfügbar und nicht für Kampagnen, die über eine API ausgelöst werden.
 * In der Push-Benachrichtigung ist keine Personalisierung zulässig,
-* Die Audience muss weniger als 30 Millionen Profile enthalten.
+* Die Zielgruppe muss weniger als 30 Millionen Profile enthalten.
 * Im Schnellversand-Modus können Sie bis zu 5 Kampagnen gleichzeitig ausführen.
 
 ### Aktivieren des Schnellversand-Modus
@@ -124,10 +124,10 @@ Für Nachrichten mit Schnellversand gelten folgende Anforderungen:
 
 ![](assets/create-campaign-burst.png)
 
-1. Konfigurieren Sie den Inhalt der Nachricht und wählen Sie die Audience aus. [Erfahren Sie, wie Sie eine Kampagne erstellen](#create)
+1. Konfigurieren Sie den Inhalt der Nachricht und wählen Sie die Zielgruppe aus. [Erfahren Sie, wie Sie eine Kampagne erstellen](#create)
 
    >[!IMPORTANT]
    >
-   >Stellen Sie sicher, dass der Inhalt der Nachricht keine Personalisierung enthält und dass die Audience weniger als 30 Millionen Profile umfasst.
+   >Stellen Sie sicher, dass der Inhalt der Nachricht keine Personalisierung enthält und dass die Zielgruppe weniger als 30 Millionen Profile umfasst.
 
 1. Überprüfen und aktivieren Sie Ihre Kampagne wie gewohnt. Beachten Sie, dass im Testmodus Nachrichten nicht über den Schnellversand-Modus gesendet werden.

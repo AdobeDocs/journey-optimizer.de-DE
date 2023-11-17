@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erste Schritte mit der Audience-Komposition
-description: Weitere Informationen zur Komposition von Audiences
+title: Erste Schritte mit der Zielgruppen-Komposition
+description: Weitere Informationen zur Komposition von Zielgruppen
 feature: Audiences, Profiles
 topic: Content Management
 role: User
@@ -15,12 +15,12 @@ ht-degree: 100%
 
 ---
 
-# Erste Schritte mit der Audience-Komposition {#get-start-audience-composition}
+# Erste Schritte mit der Zielgruppen-Komposition {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Erstellen einer Komposition"
->abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Audiences zu erstellen."
+>abstract="Erstellen Sie einen Workflow für die Komposition, um bestehende Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche zu kombinieren, und nutzen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss ...), um neue Zielgruppen zu erstellen."
 
 >[!BEGINSHADEBOX]
 
@@ -28,7 +28,7 @@ Diese Dokumentation enthält ausführliche Informationen zum Arbeiten mit der Zi
 
 >[!ENDSHADEBOX]
 
-Mit der Komposition von Audiences können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Audiences in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Audiences zu erstellen.
+Mit der Komposition von Zielgruppen können Sie **Kompositions-Workflows** erstellen, in denen Sie vorhandene Adobe Experience Platform-Zielgruppen in einer visuellen Arbeitsfläche kombinieren und verschiedene Aktivitäten (Aufspaltung, Ausschluss ...) nutzen können, um neue Zielgruppen zu erstellen.
 
 Nach Abschluss des Vorgangs werden die **resultierenden Zielgruppen** zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können **in Kampagnen genutzt werden**, um Kunden anzusprechen. [Mit Kampagnen arbeiten](../campaigns/get-started-with-campaigns.md)
 
@@ -46,11 +46,11 @@ Auf die Zielgruppenkomposition kann über das Menü **[!UICONTROL Zielgruppen]**
 
 * Die Registerkarte **[!UICONTROL Überblick]** bietet ein dediziertes Dashboard mit Schlüsselmetriken, die sich auf die Zielgruppendaten Ihres Unternehmens beziehen. Weitere Informationen finden Sie im [Handbuch zu Adobe Experience Platform Dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=de).
 
-* Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experience Platform gespeicherten Audiences aufgelistet.
+* Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experience Platform gespeicherten Zielgruppen aufgelistet.
 
-* Auf der Registerkarte **[!UICONTROL Kompositionen]** können Sie Kompositions-Workflows erstellen, in denen Sie Audiences kombinieren und anordnen können, um neue Audiences zu erstellen.
+* Auf der Registerkarte **[!UICONTROL Kompositionen]** können Sie Kompositions-Workflows erstellen, in denen Sie Zielgruppen kombinieren und anordnen können, um neue Zielgruppen zu erstellen.
 
-Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Audience-Komposition arbeiten können:
+Klicken Sie auf jede Karte, um zu erfahren, wie Sie mit der Zielgruppen-Komposition arbeiten können:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="create-compositions.md"><img alt="Erstellen von Kompositions-Workflows" src="../assets/do-not-localize/ao-workflows.jpg"></a>

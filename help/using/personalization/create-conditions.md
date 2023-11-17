@@ -43,12 +43,12 @@ Bedingte Regeln werden im Menü **[!UICONTROL Bedingungen]** im Ausdruckseditor 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
 >title="Erstellen einer Bedingung"
->abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
+>abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Zielgruppen, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
 >title="Erstellen einer Bedingung"
->abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Audiences, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
+>abstract="Kombinieren Sie Profilattribute, kontextuelle Ereignisse oder Zielgruppen, um Regeln zu erstellen, die festlegen, welcher Inhalt in Ihren Nachrichten angezeigt werden soll."
 
 Die Schritte zum Erstellen einer bedingten Regel sind:
 
