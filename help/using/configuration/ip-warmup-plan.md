@@ -11,10 +11,10 @@ keywords: IP, Gruppe, Subdomains, Zustellbarkeit
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 86%
 
 ---
 
@@ -33,9 +33,43 @@ Inhalt dieses Dokumentationshandbuchs:
 
 Nachdem Sie eine oder mehrere [IP-Aufwärmkampagnen](ip-warmup-campaign.md) mit einer dedizierten Oberfläche und der entsprechenden Option erstellt haben, können Sie mit der Erstellung Ihres IP-Aufwärmplans beginnen.
 
->[!CAUTION]
->
->Um die IP-Aufwärmpläne einzusehen, zu bearbeiten und zu löschen, benötigen Sie die Berechtigung **[!UICONTROL Zustellbarkeitsberater]**. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Um auf die IP-Aufwärmspläne zugreifen, sie erstellen, bearbeiten und löschen zu können, benötigen Sie die **[!UICONTROL Zustellbarkeitsberater]** Rolle oder IP-Wärme-Kopplung plant verwandte Berechtigungen.
+
++++ Erfahren Sie, wie Sie die Rolle des Zustellbarkeits-Beraters oder IP-Aufwärmspläne mit entsprechenden Berechtigungen zuweisen.
+
+So weisen Sie die entsprechende Berechtigung einer bestimmten **[!UICONTROL Rolle]**:
+
+1. Aus dem [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** und wählen Sie die Rolle aus, die Sie mit der neuen **[!UICONTROL IP-Warmup-Konfigurationen]** Berechtigungen.
+
+1. Klicken Sie im Dashboard **[!UICONTROL Rolle]** auf **[!UICONTROL Bearbeiten]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. Ziehen Sie die **[!UICONTROL IP-Warmup-Konfigurationen]** Ressource, um Berechtigungen zuzuweisen.
+
+1. Aus dem **[!UICONTROL IP-Warmup-Konfigurationen]** Ressource in der Dropdown-Liste auswählen, welche Berechtigung(en) Ihr Benutzer benötigt.
+
+   ![](assets/ip_permissions_2.png)
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+So weisen Sie die entsprechende Rolle einem **[!UICONTROL Benutzer]**:
+
+1. Aus dem [!DNL Permissions] Produkt, navigieren Sie zur **[!UICONTROL Rollen]** und wählen Sie **[!UICONTROL Zustellbarkeitsberater]** integrierte Rolle.
+
+1. Von Ihrem **[!UICONTROL Rolle]** Dashboard, öffnen Sie die **[!UICONTROL Benutzer]** Registerkarte.
+
+   ![](assets/ip_permissions_3.png)
+
+1. Klicks **[!UICONTROL Benutzer hinzufügen]** , um die **[!UICONTROL Zustellbarkeitsberater]** integrierte Rolle.
+
+   ![](assets/ip_permissions_4.png)
+
+1. Wählen Sie **[!UICONTROL Benutzer]** und klicken **[!UICONTROL Speichern]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## Vorbereiten der Datei mit dem IP-Aufwärmplan {#prepare-file}
 
@@ -264,5 +298,9 @@ Um einen IP-Aufwärmplan zu erstellen, führen Sie die folgenden Schritte aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Alle Phasen, Ausführungen, Spalten und deren Inhalte, die in der von Ihnen hochgeladenen Datei definiert sind, werden automatisch in der Oberfläche von [!DNL Journey Optimizer] angezeigt.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >Die **[!UICONTROL Targeting]** zeigt die Summe aller Profile an, die für jeden Lauf in die Zielgruppe aufgenommen wurden, d. h. alle Profile aus den von Ihnen definierten Domain-Gruppen, einschließlich der **sonstige** gegebenenfalls Spalte.
 
 Jetzt können Sie Ihren IP-Aufwärmplan ausführen. [Weitere Informationen](ip-warmup-execution.md)
