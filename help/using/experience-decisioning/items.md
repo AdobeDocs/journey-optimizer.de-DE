@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um eine Entscheidungsregel zu erstellen:
 
    >[!NOTE]
    >
-   >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (keine Dezimalstellen) enthalten.
+   >Die Priorität ist ein ganzzahliger Datentyp. Alle Attribute, bei denen es sich um ganzzahlige Datentypen handelt, sollten ganzzahlige Werte (ohne Dezimalstellen) enthalten.
 
 1. Benutzerdefinierte Attribute sind spezifische Attribute, die auf Ihre Anforderungen zugeschnitten sind und die Sie einem Entscheidungselement zuweisen können. Sie werden im Katalogschema der Entscheidungselemente definiert. [Erfahren Sie, wie Sie mit Vorlagen arbeiten](catalogs.md)
 
