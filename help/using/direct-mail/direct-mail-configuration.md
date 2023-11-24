@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Briefpost
+title: Konfigurieren von Direkt-Mails
 description: Erfahren Sie, wie Sie einen Briefpostkanal in Journey Optimizer konfigurieren
 feature: Direct Mail, Surface
 topic: Content Management
@@ -8,9 +8,9 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Bevor Sie diese Datei generieren können, müssen Sie Folgendes erstellen:
 
    >[!CAUTION]
    >
-   >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die **[!DNL Manage file routing]** integrierte Berechtigung. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
+   >Zum Erstellen einer Datei-Routing-Konfiguration benötigen Sie die integrierte Berechtigung **[!DNL Manage file routing]**. [Weitere Informationen](../administration/ootb-product-profiles.md#content-library-manager).
 
 1. Eine [Briefpost-Oberfläche](#direct-mail-surface), die auf die Datei-Routing-Konfiguration verweist. Wenn Sie keine Datei-Routing-Option konfiguriert haben, können Sie keine Briefpost-Oberfläche erstellen.
 
