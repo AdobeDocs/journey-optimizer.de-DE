@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3357'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Im **[!UICONTROL globalen Bericht]** in Campaign finden Sie auf der Registerkart
 
 Im Graphen **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihrer E-Mail beschrieben:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Zielgruppe auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der beim Versandvorgang verarbeiteten Nachrichten.
 
@@ -197,7 +197,7 @@ Im Graphen **[!UICONTROL E-Mail-Sendestatistik]** wird der Erfolg Ihrer E-Mail b
 
 Das Widget **[!UICONTROL E-Mail – Tracking-Statistik]** enthält die verfügbaren Daten zur Profilaktivität für Ihre E-Mail:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Zielgruppe auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden E-Mail. Um nur eine oder mehrere wiederkehrende E-Mails als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
 * **[!UICONTROL Öffnungen]**: Anzahl der Öffnungen der E-Mail.
 
@@ -247,7 +247,7 @@ Der Graph und die Tabelle **[!UICONTROL E-Mail – Beste Empfänger-Domain]** z
 >
 > Das Widget **[!UICONTROL E-Mail – Beste Empfänger-Domain]** hat eine Genauigkeit von 99,95 %.
 
-Die **[!UICONTROL E-Mail - Optimiert vs. Normal]** -Diagramm zeigt die wichtigsten Informationen bezüglich Ihrer Nachricht an, ob sie optimiert wurden oder nicht:
+Die Grafik **[!UICONTROL E-Mail - Optimiert vs. nicht optimiert]** zeigt die wichtigsten Informationen zur Optimierung Ihrer Nachricht an:
 
 * **[!UICONTROL Gesendet]**: Gesamtzahl der Sendevorgänge.
 
@@ -255,7 +255,7 @@ Die **[!UICONTROL E-Mail - Optimiert vs. Normal]** -Diagramm zeigt die wichtigst
 
 * **[!UICONTROL Klicks]**: Anzahl der Klicks auf Inhalt einer E-Mail.
 
-Die **[!UICONTROL E-Mail - Sendezeitoptimierung]** zeigt den Erfolg Ihrer E-Mail in Abhängigkeit von der Versandmethode an: optimiert oder normal.
+Die Details **[!UICONTROL E-Mail - Versandzeitoptimierung]** zeigt den Erfolg Ihrer E-Mail je nach Versandmethode an: optimiert oder normal.
 
 * **[!UICONTROL Zugestellt]**: Zahl der erfolgreich gesendeten Nachrichten im Vergleich zur Gesamtzahl der gesendeten Nachrichten.
 
@@ -343,7 +343,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält die wichtigsten Informationen zu Ihren Push-Benachrichtigungen.:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
 * **[!UICONTROL Zielgruppe]**: Gesamtzahl der bei der Analyse verarbeiteten Nachrichten.
 
@@ -365,7 +365,7 @@ Die Tabelle **[!UICONTROL Push-Benachrichtigung – Sendestatistik]** enthält d
 
 **[!UICONTROL Push-Benachrichtigung – Tracking-Statistiken]** enthält die verfügbaren Daten zur Profilaktivität für Ihre Push-Benachrichtigung:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Push-Benachrichtigung. Um nur eine oder mehrere wiederkehrende Push-Benachrichtigungen als Ziel auszuwählen, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
 * **[!UICONTROL Öffnungen]**: Gibt an, wie oft Ihre Push-Benachrichtigung geöffnet wurde.
 
@@ -454,7 +454,7 @@ Im **[!UICONTROL Globalen Bericht]** Ihrer Kampagne finden Sie auf der Registerk
 
 Die Tabelle **[!UICONTROL SMS – Sendestatistik]** gibt Auskunft über den Erfolg Ihrer SMS-Nachricht:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden SMS-Nachricht. Um nur eine oder mehrere wiederkehrende SMS-Nachrichten auszuwählen, wählen Sie sie aus dem **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden SMS-Nachricht. Um nur eine oder mehrere wiederkehrende SMS-Nachrichten auszuwählen, wählen Sie die gewünschte Option in der Dropdown-Liste **[!UICONTROL Ausführungszeit]** aus.
 
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Versand eignen.
 
@@ -541,7 +541,7 @@ Im **[!UICONTROL globalen Bericht]** Ihrer Kampagne werden in der Registerkarte 
 
 Die Tabelle **[!UICONTROL Briefpost – Versandstatistik]** gibt Auskunft über den Erfolg Ihrer Briefpost:
 
-* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Briefpost. Um nur eine oder mehrere wiederkehrende Briefpost als Ziel auszuwählen, wählen Sie sie im **[!UICONTROL Ausführungszeit]** angezeigt.
+* **[!UICONTROL Ausführungszeit]**: Startzeit jeder Ausführung Ihrer wiederkehrenden Briefpost. Um nur eine oder mehrere wiederkehrende Briefpost festzulegen, wählen Sie die gewünschte Option in der Dropdown-Liste **[!UICONTROL Ausführungszeit]** aus.
 
 * **[!UICONTROL Angesprochen]**: Anzahl der Benutzerprofile, die sich als Zielgruppenprofile für diesen Briefpostversand eignen.
 
