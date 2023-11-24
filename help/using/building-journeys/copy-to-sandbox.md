@@ -10,9 +10,9 @@ level: Experienced
 keywords: Sandbox, Journey, Kopieren, Umgebung
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Auf dieser Seite wird der Anwendungsfall der Sandbox-Werkzeuge im Kontext von Jo
 
 >[!NOTE]
 >
->Diese Funktion erfordert die folgenden Berechtigungen: manage-sandbox (oder view-sandbox) und manage-package.
+>Diese Funktion erfordert folgende Berechtigungen: manage-sandbox (oder view-sandbox) und manage-package.
 
 ## Erste Schritte mit Sandbox-Werkzeugen{#sandbox-gs}
 
@@ -58,16 +58,16 @@ Mit Journey Optimizer können Sie eine ganze Journey von einer Sandbox in eine a
 
 Die kopierten Objekte in der Ziel-Sandbox sind eindeutig, sodass kein Risiko besteht, vorhandene Elemente zu überschreiben. Sowohl die Journey als auch alle Nachrichten innerhalb der Journey werden im Entwurfsmodus übergeben. Auf diese Weise können Sie vor der Veröffentlichung in der Ziel-Sandbox eine gründliche Validierung durchführen. Der Kopiervorgang kopiert nur die Metadaten über die Journey und die Objekte in dieser Journey. Im Rahmen dieses Prozesses werden keine Profil- oder Datensatzdaten kopiert.
 
-Der Kopiervorgang erfolgt über einen Package-Export und -Import zwischen der Quell- und der Ziel-Sandbox. Im Folgenden finden Sie die allgemeinen Schritte zum Kopieren einer Journey von einer Sandbox in eine andere:
+Der Kopiervorgang erfolgt über den Export und Import eines Pakets zwischen der Quell- und der Ziel-Sandbox. Nachfolgend erfahren Sie, wie Sie eine Journey von einer Sandbox in eine andere kopieren:
 
-1. Fügen Sie die Journey als Paket in die Quell-Sandbox ein.
+1. Fügen Sie die Journey als Paket zur Quell-Sandbox hinzu.
 1. Exportieren Sie das Paket in die Ziel-Sandbox.
 
-Darüber hinaus können Sie Journey Optimizer nutzen **Object Copy Service REST API** zum Verwalten von Sandbox-Objekten. [Erfahren Sie, wie Sie mit der REST-API des Object Copy Service arbeiten](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+Darüber hinaus können Sie Sandbox-Objekte mithilfe der **Objektkopierdienst-REST-API** von Journey Optimizer verwalten. [Erfahren Sie, wie Sie mit der Objektkopierdienst-REST-API arbeiten](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
-## Journey als Paket hinzufügen{#export}
+## Hinzufügen der Journey als Paket{#export}
 
-Um eine Journey in eine andere Sandbox zu kopieren, müssen Sie zunächst die Journey als Paket in die Quell-Sandbox einfügen. Führen Sie folgende Schritte aus:
+Um eine Journey in eine andere Sandbox zu kopieren, müssen Sie sie zunächst als Paket zur Quell-Sandbox hinzufügen. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie im Menü JOURNEY-MANAGEMENT auf **[!UICONTROL Journeys]**. Die Liste der Journeys wird angezeigt.
 
@@ -98,9 +98,9 @@ Um eine Journey in eine andere Sandbox zu kopieren, müssen Sie zunächst die Jo
 
 ## Exportieren des Pakets in die Ziel-Sandbox {#import}
 
-Nachdem das Paket veröffentlicht wurde, müssen Sie es in die Ziel-Sandbox exportieren.
+Nach der Veröffentlichung müssen Sie das Paket in die Ziel-Sandbox exportieren.
 
-1. Klicken Sie in der Quell-Sandbox auf die **[!UICONTROL Sandboxes]** auswählen, wählen Sie die **Pakete** und klicken Sie auf das Symbol + neben dem Package, das Sie exportieren möchten.
+1. Klicken Sie in der Quell-Sandbox auf das Menü **[!UICONTROL Sandboxes]**, öffnen Sie die Registerkarte **Pakete** und klicken Sie auf das Plus-Symbol (+) neben dem Paket, das Sie exportieren möchten.
 
    ![](assets/journey-sandbox5.png)
 
