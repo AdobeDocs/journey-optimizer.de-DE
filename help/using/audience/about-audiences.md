@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 55%
+source-wordcount: '933'
+ht-degree: 59%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 55%
 >title="Auswählen der Kampagnenzielgruppe"
 >abstract="Diese Liste zeigt alle verfügbaren Adobe Experience Platform-Zielgruppen an. Wählen Sie die Zielgruppe aus, die mit Ihrer Kampagne angesprochen werden soll. Die in der Kampagne konfigurierte Nachricht wird an alle Kontakte gesendet, die zur ausgewählten Zielgruppe gehören. [Weitere Informationen zu Zielgruppen](../audience/about-audiences.md)"
 
-Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Zielgruppen]** erstellen sowie nutzen und diese Zielgruppen in Ihre Journeys oder Kampagnen einbinden. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Über [!DNL Journey Optimizer] können Sie Adobe Experience Platform-Zielgruppen mithilfe von Echtzeit-Kundenprofildaten direkt im Menü **[!UICONTROL Zielgruppen]** erstellen sowie nutzen und diese Zielgruppen in Ihre Journeys oder Kampagnen einbinden. Weitere Informationen finden Sie in der [Dokumentation zum Segmentierungs-Service in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=de){target="_blank"}.
 
 ## Verwenden von Zielgruppen in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Sie können in Kampagnen und Journey eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md).
+Sie können in Kampagnen und Journeys eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
 
 >[!NOTE]
 >
->Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
+>Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
 
 Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise nutzen:
 
@@ -111,7 +111,7 @@ Vermeiden Sie daher für eine Streaming-Segmentierung der optimalen Leistung die
 
 * **Nachricht gesendet** Feedback-Status-Ereignis
 
-  Die **Nachricht gesendet** Das Feedback-Ereignis wird oft vor dem Senden einer E-Mail zur Prüfung der Häufigkeit oder Unterdrückung verwendet. Adobe empfiehlt, dies möglichst zu vermeiden, da es Platz in der aktuellen Gesamtkapazität der Stream-Anzahl von Ereignissen pro Sekunde benötigt.
+  Die **Nachricht gesendet** Das Feedback-Ereignis wird oft vor dem Senden einer E-Mail zur Prüfung der Häufigkeit oder Unterdrückung verwendet. Adobe empfiehlt, dies zu vermeiden, da dies die Leistung beeinträchtigt und zu einer Verschlechterung des Systems führen kann.
 
   Verwenden Sie daher für die Häufigkeits- oder Unterdrückungslogik Geschäftsregeln anstelle von **Nachricht gesendet** Feedback-Ereignisse. Beachten Sie, dass in Kürze tägliche Frequenzobergrenzen für einzelne Profile verfügbar sein werden, was die bestehende monatliche Häufigkeit für Geschäftsregeln ergänzt.
 
