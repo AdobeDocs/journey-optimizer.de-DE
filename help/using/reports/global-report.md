@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ Jedes Berichts-Dashboard kann durch das Ändern des Zeitraums und das Ändern de
 
    ![](assets/report_modify_1.png)
 
-1. Für Ihre Journey-Berichte, die mehrere konfigurierte **[!UICONTROL Aktionen]**, wählen Sie eine bestimmte **[!UICONTROL Aktion]** aus dem Dropdown-Menü.
+1. Wählen Sie für Ihre Journey-Berichte, die mehrere konfigurierte **[!UICONTROL Aktionen]** umfassen, eine bestimmte **[!UICONTROL Aktion]** aus dem Dropdown-Menü.
 
-1. Wenn Sie nur eine oder mehrere wiederkehrende Nachrichten als Ziel auswählen möchten, wählen Sie diese aus der **[!UICONTROL Ausführungszeit]** angezeigt.
+1. Wenn Sie nur eine oder mehrere wiederkehrende Nachrichten als Ziel auswählen möchten, wählen Sie diese aus der Dropdown-Liste **[!UICONTROL Ausführungszeit]**.
 
    ![](assets/report_modify_12.png)
 
