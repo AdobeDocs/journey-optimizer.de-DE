@@ -6,7 +6,7 @@ user-guide-description: Mit Journey Optimizer können Sie miteinander verbundene
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
 ht-degree: 100%
 
@@ -312,8 +312,8 @@ ht-degree: 100%
    + Zielgruppen {#audiences}
       + [Erste Schritte mit Zielgruppen](using/audience/about-audiences.md)
       + [Erstellen von Segmentdefinitionen](using/audience/creating-a-segment-definition.md)
-      + Erstellen von Audiences {#audience-orchestration}
-         + [Erste Schritte mit der Audience-Komposition](using/audience/get-started-audience-orchestration.md)
+      + Erstellen von Zielgruppen {#audience-orchestration}
+         + [Erste Schritte mit der Zielgruppen-Komposition](using/audience/get-started-audience-orchestration.md)
          + [Erstellen von Kompositions-Workflows](using/audience/create-compositions.md)
          + [Arbeiten mit der Arbeitsfläche für Kompositionen](using/audience/composition-canvas.md)
          + [Zugreifen auf und Verwalten von Zielgruppen](using/audience/access-audiences.md)
