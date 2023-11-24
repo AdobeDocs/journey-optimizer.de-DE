@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: Komponenten, E-Mail-Designer, Editor, E-Mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Fügen Sie beispielsweise die Komponente **[!UICONTROL Container]** hinzu, und f
 
 ## Schaltfläche {#button}
 
-Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrere Schaltflächen in Ihre E-Mail einzufügen und Ihre E-Mail-Audience auf eine andere Seite weiterzuleiten.
+Verwenden Sie die Komponente **[!UICONTROL Schaltfläche]**, um eine oder mehrere Schaltflächen in Ihre E-Mail einzufügen und Ihre E-Mail-Zielgruppe auf eine andere Seite weiterzuleiten.
 
 1. Platzieren Sie in **[!UICONTROL Inhaltskomponenten]** die Komponente **[!UICONTROL Schaltfläche]** per Drag-and-Drop in eine **[!UICONTROL Strukturkomponente]**.
 
@@ -168,17 +168,17 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
    ![](assets/email_designer_image_content.png)
 
-1. Aus dem **[!UICONTROL Einstellungen]** Registerkarte, klicken **[!UICONTROL Durchsuchen]** zur Auswahl einer Bilddatei aus Ihren Assets oder **[!UICONTROL Medien importieren]** , um ein Asset in Assets Essentials hochzuladen.
+1. Klicken Sie in der Registerkarte **[!UICONTROL Einstellungen]** auf **[!UICONTROL Durchsuchen]**, um Ihre Assets nach einer Bilddatei zu durchsuchen, oder auf **[!UICONTROL Medien importieren]**, um ein Asset in Assets Essentials hochzuladen.
 
    Weitere Informationen zu [!DNL Assets Essentials] finden Sie in der [Dokumentation zu Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=de){target="_blank"}.
 
    >[!NOTE]
    >
-   > Um sicherzustellen, dass Ihre Links aktiv bleiben und keine Ablaufprobleme auftreten, empfehlen wir die Verwendung von Adobe Assets, anstatt sich auf eine Quell-URL für Ihre Bilder zu verlassen.
+   > Um sicherzustellen, dass Ihre Links aktiv bleiben und keine Gültigkeitsprobleme auftreten, empfehlen wir die Verwendung von Adobe Assets, anstatt sich auf die Quell-URL Ihrer Bilder zu verlassen.
 
-1. Sie können auch direkt in Adobe Stock suchen mit der **[!UICONTROL Adobe Stock-Fotos suchen]** -Option.
+1. Mit der Option **[!UICONTROL Adobe Stock-Fotos suchen]** können Sie auch direkt in Adobe Stock suchen.
 
-1. Klicken Sie auf die neu hinzugefügte Komponente und richten Sie Ihre Bildeigenschaften ein:
+1. Klicken Sie auf die neu hinzugefügte Komponente und konfigurieren Sie Ihre Bildeigenschaften:
 
    * **[!UICONTROL Bildtitel]** erlaubt Ihnen, den Titel für das Bild zu definieren.
    * Mit **[!UICONTROL Alt-Text]** legen Sie die Bildunterschrift fest. Dies entspricht dem HTML-Attribut „alt“.
@@ -187,7 +187,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um eine Bilddatei von Ihrem 
 
 1. Sie können auch **[!UICONTROL Nach ähnlichen Stockfotos suchen]**. [Weitere Informationen](../content-management/stock.md)
 
-1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Audience zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** weiterzuleiten.
+1. Passen Sie auf der Registerkarte **[!UICONTROL Stile]** die anderen Stilattribute wie Rand, Rahmen usw. an oder fügen Sie einen Link hinzu, um Ihre Zielgruppe zu einem anderen Inhalt über das Bedienfeld **[!UICONTROL Komponenteneinstellungen]** weiterzuleiten.
 
 ## Social Media {#social}
 
@@ -203,7 +203,7 @@ Verwenden Sie die Komponente **[!UICONTROL Social]**, um Links zu Social-Media-S
 
 1. Wählen Sie die Größe Ihrer Symbole im entsprechenden Feld aus.
 
-1. Klicken Sie auf jedes Ihrer Social-Media-Symbole, um die **[!UICONTROL URL]** zu konfigurieren, zu der Ihre Audience weitergeleitet wird.
+1. Klicken Sie auf jedes Ihrer Social-Media-Symbole, um die **[!UICONTROL URL]** zu konfigurieren, zu der Ihre Zielgruppe weitergeleitet wird.
 
    ![](assets/email_designer_21.png)
 
