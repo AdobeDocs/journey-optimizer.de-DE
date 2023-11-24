@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Mit Einschränkungen können Sie festlegen, unter welchen Bedingungen ein Angebo
 
    >[!NOTE]
    >
-   >Die Angebotspriorität muss ein ganzzahliger Wert sein (keine Dezimalstellen).
+   >Die Angebotspriorität muss ein ganzzahliger Wert sein (ohne Dezimalstellen).
 
 1. Geben Sie die **[!UICONTROL Begrenzung]** des Angebots an, d. h. wie häufig das Angebot unterbreitet werden soll. [Weitere Informationen](#capping)
 
