@@ -10,9 +10,9 @@ level: Experienced
 keywords: Subdomain, PTR, Einträge, DNS, Domain, E-Mail
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-Einträge der Subdomains"
->abstract="Nachdem die erste Subdomain in Journey Optimizer an Adobe delegiert wurde, werden PTR-Datensätze automatisch erstellt."
+>abstract="Nachdem die erste Subdomain in Journey Optimizer an Adobe delegiert wurde, werden automatisch PTR-Einträge erstellt."
 
 ## Informationen zu PTR-Einträgen {#about-ptr-records}
 
@@ -36,11 +36,11 @@ Mit PTR-Einträgen können E-Mail-Empfangs-Server die Authentizität der E-Mail-
 
 ## Zugriff auf PTR-Einträge Ihrer Subdomains {#access-ptr-records}
 
-Einmal [delegate](delegate-subdomain.md) Ihre erste Subdomäne zum Adobe [!DNL Journey Optimizer], werden PTR-Datensätze automatisch für Ihre IPs erstellt. Sie können über die **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Datensätze]** Menü.
+Sobald Sie Ihre erste Subdomain in [!DNL Journey Optimizer] an Adobe  [delegiert](delegate-subdomain.md) haben, werden automatisch PTR-Einträge für Ihre IP erstellt. Sie können darauf über das Menü **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]** > **[!UICONTROL E-Mail-Konfiguration]** > **[!UICONTROL PTR-Einträge]** zugreifen.
 
 ![](assets/ptr-records.png)
 
-Die Liste zeigt die PTR-Datensätze an, die mit der folgenden Syntax generiert wurden:
+Die Liste zeigt die PTR-Einträge an, die mit folgender Syntax generiert wurden:
 
 * „r“ für Eintrag (record),
 * „xx“ für die beiden letzten Zahlen der IP-Adresse,
