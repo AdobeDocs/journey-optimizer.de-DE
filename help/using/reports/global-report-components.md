@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Liste von Komponenten
+title: Komponentenliste
 description: Erfahren Sie, wie Sie Daten aus dem globalen Bericht verwenden
 feature: Reporting
 topic: Content Management
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
 source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
