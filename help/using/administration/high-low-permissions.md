@@ -10,9 +10,9 @@ level: Experienced
 keywords: Berechtigung, hohe Ebene, niedrige Ebene, Profil, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1126'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 ## Journey-Ressource {#journey-capability}
 
-* **[!DNL Manage journeys]** Die Berechtigung auf hoher Ebene ermöglicht es Benutzenden, neue Journeys zu erstellen und bestehende Journeys zu bearbeiten/löschen sowie auf die Objekte zuzugreifen, die zur Erstellung des Journey-Flusses auf der Journey-Benutzeroberfläche verwendet werden.
+* **[!DNL Manage journeys]** Die Berechtigung auf hoher Ebene ermöglicht es Benutzenden, neue Journeys zu erstellen und bestehende Journeys zu bearbeiten/löschen sowie auf die Objekte zuzugreifen, die zur Erstellung des Journey-Flusses auf der Journey-Arbeitsfläche verwendet werden.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -288,7 +288,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 ## Kanalkonfigurationsressource {#administration-permissions}
 
-* **[!DNL Manage file routing]** Mit Berechtigungen auf hoher Ebene können Benutzer Dateirouting-Konfigurationen erstellen, bearbeiten und löschen.
+* Mit der Berechtigung **[!DNL Manage file routing]** auf hoher Ebene können Benutzende Datei-Routing-Konfigurationen erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * Spezifisch für Journey Optimizer:
@@ -338,7 +338,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* **[!DNL Manage messages presets]** Mit Berechtigung auf hoher Ebene können Benutzer Kanaloberflächen kanalübergreifend auf Sandbox-Ebene lesen, erstellen, bearbeiten und löschen.
+* Mit der Berechtigung **[!DNL Manage messages presets]** auf hoher Ebene können Benutzende Kanaloberflächen kanalübergreifend auf Sandbox-Ebene erstellen, bearbeiten und löschen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
 
@@ -410,7 +410,7 @@ Der Rolle **[!DNL Journey administrator]** ist zum Beispiel die Berechtigung **[
 
 +++
 
-* **[!DNL View file routing]** Mit Berechtigungen auf hoher Ebene können Benutzer Dateirouting-Konfigurationen anzeigen.
+* Mit der Berechtigung **[!DNL View file routing]** auf hoher Ebene können Benutzende Datei-Routing-Konfigurationen anzeigen.
 
 +++ Sie umfasst die folgenden Berechtigungen auf niedriger Ebene:
    * Spezifisch für Journey Optimizer:
