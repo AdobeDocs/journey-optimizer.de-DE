@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 96%
+source-wordcount: '401'
+ht-degree: 88%
 
 ---
 
@@ -55,6 +55,10 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
    * **Ereignisse**: Profile, die das Luma-Programm innerhalb der letzten 7 Tage geöffnet und innerhalb von 2 Stunden nach dem Öffnen eine Bestellung abgeschlossen haben.
 
      ![](assets/add-events.png)
+
+     >[!NOTE]
+     >
+     >Adobe empfiehlt, keine offenen und Sendeereignisse mit Streaming-Segmentierung zu verwenden. Verwenden Sie stattdessen reale Benutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für Häufigkeit oder Unterdrückungslogik Geschäftsregeln, anstatt Ereignisse zu senden. [Weitere Informationen](about-audiences.md#open-and-send-event-guardrails)
 
 1. Wenn Sie im Arbeitsbereich neue Felder hinzufügen und konfigurieren, wird der Bereich **[!UICONTROL Zielgruppeneigenschaften]** automatisch mit Informationen zur geschätzten Anzahl der zur Zielgruppe gehörenden Profile aktualisiert.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: Qualifizierung, Ereignisse, Zielgruppe, Journey, Plattform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,7 @@ Diese Art von Ereignis kann als erster Schritt oder auch später in der Journey 
 
    Nachdem die Zielgruppe hinzugefügt wurde, können Sie mit der Schaltfläche **[!UICONTROL Kopieren]** deren Namen und ID kopieren:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ Wenn die Batch-Zielgruppe neu erstellt und in einer Journey unmittelbar verwende
 
 Bei Verwendung der Zielgruppen-Qualifizierung für Streaming-Zielgruppen besteht aufgrund der kontinuierlichen Auswertung der Zielgruppe ein geringeres Risiko, dass es bei Ein-/Austritten zu großen Spitzen kommt. Wenn die Zielgruppendefinition dazu führt, dass sich eine große Zahl von Kundinnen und Kunden gleichzeitig qualifiziert, sind jedoch ebenfalls Spitzen möglich.
 
-Weitere Informationen zur Streaming-Segmentierung finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
+Vermeiden Sie die Verwendung von Öffnungs- und Sendeereignissen mit Streaming-Segmentierung. Verwenden Sie stattdessen reale Benutzeraktivitätssignale wie Klicks, Käufe oder Beacon-Daten. Verwenden Sie für Häufigkeit oder Unterdrückungslogik Geschäftsregeln, anstatt Ereignisse zu senden. [Weitere Informationen](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+Weitere Informationen zur Streaming-Segmentierung finden Sie unter [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=de#api).
 
 ### So vermeiden Sie Überlastungen{#overloads-speed-segment-qualification}
 
