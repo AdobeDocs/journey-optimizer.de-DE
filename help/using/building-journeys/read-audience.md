@@ -10,9 +10,9 @@ level: Intermediate
 keywords: Aktivität, Journey, Lesen, Zielgruppe, Plattform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1356'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ So konfigurieren Sie die Aktivität „Zielgruppe lesen“:
 
 1. Fügen Sie der Aktivität einen **[!UICONTROL Titel]** hinzu (optional).
 
-1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md).
+1. Wählen Sie im Feld **[!UICONTROL Zielgruppe]** die Adobe Experience Platform-Zielgruppe aus, die in die Journey eintreten soll, und klicken Sie dann auf **[!UICONTROL Speichern]**. Sie können eine beliebige Adobe Experience Platform-Zielgruppe auswählen, die mit [Segmentdefinitionen](../audience/creating-a-segment-definition.md) generiert wurde.
 
    >[!NOTE]
    >
-   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) oder [Hochladen aus einer CSV-Datei](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
+   >Darüber hinaus können Sie Adobe Experience Platform-Zielgruppen ansprechen, die mit [Zielgruppenkompositionen](../audience/get-started-audience-orchestration.md) erstellt oder [aus einer CSV-Datei hochgeladen wurden](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=de#import-audience){target="_blank"}. Diese Funktionen sind als private Betaversion verfügbar.
 
    Beachten Sie, dass Sie die in der Liste angezeigten Spalten anpassen und sortieren können.
 
