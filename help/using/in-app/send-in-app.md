@@ -8,9 +8,9 @@ level: Beginner
 keywords: In-App, Nachricht, Erstellung, Starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 ## Vorschau auf Gerät {#preview-device}
 
-Wenn Sie eine Vorschau der In-App-Benachrichtigung erhalten möchten, bevor diese für alle Benutzerinnen und Benutzer live geschaltet wird, können Sie eine Vorschau von ihr auf einem bestimmten Gerät sehen. Mit dieser Funktion können Sie sicherstellen, dass die Benachrichtigung wie gewünscht auf dem ausgewählten Gerät aussieht und funktioniert, und so eine bessere Benutzererfahrung für Ihre Audience bieten.
+Wenn Sie eine Vorschau der In-App-Benachrichtigung erhalten möchten, bevor diese für alle Benutzerinnen und Benutzer live geschaltet wird, können Sie eine Vorschau von ihr auf einem bestimmten Gerät sehen. Mit dieser Funktion können Sie sicherstellen, dass die Benachrichtigung wie gewünscht auf dem ausgewählten Gerät aussieht und funktioniert, und so eine bessere Benutzererfahrung für Ihre Zielgruppe bieten.
 
 Gehen Sie dazu wie folgt vor:
 
@@ -38,7 +38,7 @@ Ihre In-App-Nachricht kann jetzt direkt auf Ihrem Gerät ausgelöst werden, soda
 
 ## Vorschau mit Testprofilen {#simulate}
 
-Sobald Ihre In-App-Nachricht definiert wurde, können Sie sie mit Testprofilen in der Vorschau anzeigen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
+Sobald Sie Ihre In-App-Nachricht erstellt haben, können Sie mithilfe von Testprofilen eine Vorschau erstellen. Wenn Sie personalisierte Inhalte eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie diese Inhalte in der Nachricht angezeigt werden.
 
 Klicken Sie dazu auf **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
 
