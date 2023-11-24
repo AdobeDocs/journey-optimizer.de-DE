@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Verwenden Sie [!DNL Journey Optimizer], um Textnachrichten an die mobilen Gerät
 
 SMS-Versand-Erstellung möglich:
 
-* In einer **Journey**: Nachdem eine SMS-Aktivität zur Journey hinzugefügt und die Grundeinstellungen festgelegt wurden, bitte den rechten Bereich **[!UICONTROL Aktionen: SMS]** verwenden, um den Inhalt für die SMS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
+* In einer **Journey**: Nachdem eine SMS-Aktivität zur Journey hinzugefügt und die Grundeinstellungen festgelegt wurden, verwenden Sie den rechten Bereich **[!UICONTROL Aktionen: SMS]**, um den Inhalt für die SMS-Nachricht zu erstellen. [Erfahren Sie, wie Sie eine Journey erstellen](../building-journeys/journey-gs.md)
 
-* In einer **Kampagne**: Nach Erstellen einer Kampagne „SMS“ als Aktion auswählen und die Grundeinstellungen definieren. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/create-campaign.md#configure)
+* In einer **Kampagne**: Wählen Sie nach Erstellen einer Kampagne „SMS“ als Aktion aus und definieren Sie die Grundeinstellungen. [Erfahren Sie, wie Sie eine Kampagne erstellen](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
