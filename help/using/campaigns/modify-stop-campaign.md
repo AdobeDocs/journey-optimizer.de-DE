@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Verwalten von Kampagnen, Status, Zeitplan, Zugriff, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ Kampagnen können mehrere Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Kampagne wird noch bearbeitet, sie wurde nicht aktiviert.
 * **[!UICONTROL Wird aktiviert]**: Die Kampagne wird aktiviert.
+* **[!UICONTROL Verarbeitung]** *(nur E-Mail-Kampagnen)*: Der Zielgruppenexport ist abgeschlossen, die Kampagne wird veröffentlicht.
 * **[!UICONTROL Live]**: Die Kampagne wurde aktiviert.
 * **[!UICONTROL Geplant]**: Die Kampagne wurde so konfiguriert, dass sie an einem bestimmten Startdatum aktiviert wird.
 * **[!UICONTROL Gestoppt]**: Die Kampagne wurde manuell gestoppt. Sie können sie nicht mehr aktivieren oder wiederverwenden. [Informationen zum Stoppen einer Kampagne](modify-stop-campaign.md#stop)

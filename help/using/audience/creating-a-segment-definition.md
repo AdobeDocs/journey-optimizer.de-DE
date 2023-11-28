@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 88%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ In diesem Beispiel erstellen wir eine Zielgruppe für alle Kundinnen und Kunden,
 
 ➡️ [In diesem Video erfahren Sie, wie Sie Zielgruppen erstellen.](#video-segment)
 
-1. Aus dem **[!UICONTROL Zielgruppen]** auf das **[!UICONTROL Erstellen einer Zielgruppe]** Schaltfläche und wählen Sie **[!UICONTROL Regel erstellen]**.
+1. Klicken Sie im Menü **[!UICONTROL Zielgruppen]** auf **[!UICONTROL Zielgruppe erstellen]** und wählen Sie **[!UICONTROL Regel erstellen]**.
 
    ![](assets/create-segment.png)
 
@@ -70,6 +70,6 @@ Die Zielgruppe kann nun in Ihren Journeys verwendet werden. Weiterführende Info
 
 ## Anleitungsvideo{#video-segment}
 
-Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Sie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwenden.
+Erfahren Sie, wie Journey Optimizer Regeln zum Generieren von Zielgruppen verwendet und wie Sie Attribute, Ereignisse und vorhandene Zielgruppen zum Erstellen einer Zielgruppe verwenden können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

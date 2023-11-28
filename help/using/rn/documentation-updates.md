@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: ht
-source-wordcount: '4103'
-ht-degree: 100%
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+workflow-type: tm+mt
+source-wordcount: '4120'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,7 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 ## November 2023 {#nov-2023}
 
 * Der Grenzwert zur Einschränkung aller benutzerdefinierten Aktionen wurden von 150.000 Aufrufen über 30 Sekunden in 300.000 Aufrufe über eine Minute geändert. Darüber hinaus gilt die Standardbegrenzung nicht mehr für jeden Endpunkt. Er wird jetzt pro Host und Sandbox angewendet. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B. `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host adobe.com. „Endpunkt1“ und „Endpunkt2“ verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt diesen Wert erreicht, wirkt sich dies auch auf den anderen Endpunkt aus. [Weitere Informationen](../action/about-custom-action-configuration.md)
+* Der Liste der Kampagnenstatus wurde ein neuer Status für E-Mail-Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
 
 ## Oktober 2023 {#oct-2023}
 
