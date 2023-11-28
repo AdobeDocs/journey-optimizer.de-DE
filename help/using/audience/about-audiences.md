@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 59%
@@ -51,7 +51,7 @@ Sie können Zielgruppen in **[!DNL Journey Optimizer]** auf verschiedene Weise n
 
 * Verwenden Sie die Aktivität **Bedingung** in einer Journey, um Bedingungen zu erstellen, die auf der Zielgruppenzugehörigkeit basieren. [Erfahren Sie, wie Sie Zielgruppen in Bedingungen verwenden](../building-journeys/condition-activity.md#using-a-segment).
 
-## Methoden zur Zielgruppen-Auswertung{#evaluation-method-in-journey-optimizer}
+## Methoden zur Zielgruppen-Auswertung {#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer werden Zielgruppen mithilfe einer der drei unten stehenden Auswertungsmethoden aus Segmentdefinitionen generiert.
 
@@ -97,11 +97,11 @@ Nachdem Sie eine Zielgruppe zum ersten Mal definiert haben, werden Profile zur Z
 
 Das Auffüllen der Zielgruppe anhand früherer Daten kann bis zu 24 Stunden dauern. Nachdem die Audience aufgefüllt wurde, wird sie kontinuierlich aktuell gehalten und ist immer für die Zielgruppenbestimmung bereit.
 
-### Ereignisverwendung mit Streaming-Segmentierung {#open-and-send-event-guardrails}
+### Ereignisverwendung mit Streaming-Segmentierung {#streaming-segmentation-events-guardrails}
 
 Streaming-Segmentierung ist für die Echtzeit-Personalisierung mit hochwertigen Anwendungsfällen nützlich. Es ist jedoch wichtig, das Recht zu wählen [events](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=de#events){target="_blank"} zur Verwendung als Segmentierungskriterien.
 
-Vermeiden Sie daher für eine Streaming-Segmentierung der optimalen Leistung die Verwendung der folgenden Ereignisse:
+Um eine optimale Leistung bei Streaming-Segmentierung zu erzielen, sollten Sie daher die folgenden Ereignisse vermeiden:
 
 * **Nachricht geöffnet** Interaktionstyp-Ereignis
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '4120'
-ht-degree: 99%
+source-wordcount: '4174'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ Auf dieser Seite werden alle Aktualisierungen der Dokumentation für [!DNL Journ
 
 * Der Grenzwert zur Einschränkung aller benutzerdefinierten Aktionen wurden von 150.000 Aufrufen über 30 Sekunden in 300.000 Aufrufe über eine Minute geändert. Darüber hinaus gilt die Standardbegrenzung nicht mehr für jeden Endpunkt. Er wird jetzt pro Host und Sandbox angewendet. Wenn Sie beispielsweise in einer Sandbox zwei Endpunkte mit demselben Host haben (z. B. `https://www.adobe.com/endpoint1` und `https://www.adobe.com/endpoint2`), gilt die Begrenzung für alle Endpunkte unter dem Host adobe.com. „Endpunkt1“ und „Endpunkt2“ verwenden dieselbe Begrenzungskonfiguration. Wenn ein Endpunkt diesen Wert erreicht, wirkt sich dies auch auf den anderen Endpunkt aus. [Weitere Informationen](../action/about-custom-action-configuration.md)
 * Der Liste der Kampagnenstatus wurde ein neuer Status für E-Mail-Kampagnen hinzugefügt. [Weitere Informationen](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* Der Abschnitt Erste Schritte mit Adobe Experience Platform-Zielgruppen wurde aktualisiert, um die verfügbaren Zielgruppenbewertungsmethoden und deren Auswahl widerzuspiegeln. [Weitere Informationen](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Es wurde ein neuer Unterabschnitt hinzugefügt, in dem festgelegt wird, welche Ereignisse beim Erstellen Ihrer Zielgruppe vermieden werden sollen, wenn Sie die Auswertungsmethode für Streaming-Segmentierung verwenden. [Weitere Informationen](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Oktober 2023 {#oct-2023}
 
