@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: Ausdruck, Editor, Bibliothek, Personalisierung
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Nutzen von Ausdrucksfragmenten {#use-expression-fragments}
 
-Bei Verwendung des Ausdruckseditors können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
+Bei Verwendung von **Ausdruckseditor** können Sie alle Ausdrucksfragmente nutzen, die in der aktuellen Sandbox erstellt oder gespeichert wurden.
 
 In [diesem Abschnitt](../content-management/fragments.md) erfahren Sie, wie Sie Fragmente erstellen und verwalten.
 
