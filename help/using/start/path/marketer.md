@@ -7,8 +7,8 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
 
@@ -22,13 +22,13 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Angeb
 
 1. **Erstellen von Zielgruppen**. Mit Journey Optimizer können Sie Zielgruppen durch Segmentdefinitionen direkt über das Menü **Zielgruppen** erstellen und in Ihren Journeys nutzen. Weitere Informationen zu Zielgruppen finden Sie [auf dieser Seite](../../audience/about-audiences.md). [In diesem Beispiel](../../audience/creating-a-segment-definition.md) erfahren Sie, wie Sie Segmentdefinitionen erstellen.
 
-1. **Hinzufügen von Personalisierung und dynamischen Inhalten**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Botschaft an Ihre Audience anzupassen. Erhalten Sie weitere Informationen über [Personalisierung](../../personalization/personalize.md) und [dynamische Inhalte](../../personalization/get-started-dynamic-content.md).
+1. **Hinzufügen von Personalisierung und dynamischen Inhalten**. Nutzen Sie die Personalisierungsfunktionen von Journey Optimizer, um Ihre Botschaft an Ihre Zielgruppe anzupassen. Erhalten Sie weitere Informationen über [Personalisierung](../../personalization/personalize.md) und [dynamische Inhalte](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
-1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets Essentials] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weitere Informationen finden Sie [in diesem Abschnitt](../../content-management/assets-essentials.md).
+1. **Erstellen und Verwalten von Assets**. [!DNL Adobe Experience Manager Assets] bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. Weitere Informationen finden Sie [in diesem Abschnitt](../../content-management/assets.md).
 
-1. **Hinzufügen von Angeboten**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden auf allen Kontaktpunkten zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Audiences senden. Weitere Informationen zum Entscheidungs-Management finden Sie [in diesem Abschnitt](../../offers/get-started/starting-offer-decisioning.md).
+1. **Hinzufügen von Angeboten**. Verwenden Sie [!DNL Journey Optimizer], um Ihren Kunden auf allen Kontaktpunkten zur richtigen Zeit das beste Angebot und Erlebnis zu bieten. Nach der Erstellung können Sie personalisierte Angebote an Ihre Zielgruppen senden. Weitere Informationen zum Entscheidungs-Management finden Sie [in diesem Abschnitt](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
