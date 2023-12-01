@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Sie können alle bereits erfassten und in die Adobe Experience Platform gestream
 Weitere Informationen über [Journey Optimizer und Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Experience Manager Assets Essentials]. Nutzen Sie [!DNL Assets Essentials], das nativ mit [!DNL Adobe Journey Optimizer] integriert ist, um digitale Assets zu speichern, zu verwalten, zu erkunden und weiterzugeben. Es bietet ein zentrales Repository für Assets, die Sie für Ihre Nachrichten verwenden können.
+Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Experience Manager Assets]. Nutzen Sie [!DNL Adobe Experience Manager Assets], das nativ mit [!DNL Adobe Journey Optimizer] integriert ist, um digitale Assets zu speichern, zu verwalten, zu erkunden und weiterzugeben. Es bietet ein zentrales Repository für Assets, die Sie für Ihre Nachrichten verwenden können.
 
-[!DNL Adobe Experience Manager Assets Essentials] kann direkt von [!DNL Adobe Journey Optimizer] aus über den Abschnitt **[!UICONTROL Assets]** im linken Menü aufgerufen werden.
+[!DNL Adobe Experience Manager Assets] kann direkt von [!DNL Adobe Journey Optimizer] aus über den Abschnitt **[!UICONTROL Assets]** im linken Menü aufgerufen werden.
 
-Erfahren Sie mehr über [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
+Weitere Informationen [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}

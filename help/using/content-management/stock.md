@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Stock, Bilder, Integration, Fotos
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Mit [!DNL Adobe Journey Optimizer] können Sie Bilder direkt aus [!DNL Adobe Sto
 
 Die Optionen **[!UICONTROL Adobe Stock-Fotos suchen]** und **[!UICONTROL Ähnliches Bild suchen]** stehen Benutzenden zur Verfügung, die Zugriff auf ein AEM Assets Essentials-Produktprofil haben.
 
-Mehr dazu finden Sie in der [Dokumentation zu Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=de#add-users-to-essentials){target="_blank"}.
+Weitere Informationen hierzu finden Sie unter [Experience Manager Assets-Dokumentation](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=de#add-users-to-essentials){target="_blank"}.
 
 ## Einfügen eines Bildes aus [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ Gehen Sie wie folgt vor, um Ihr Bild zu lizenzieren und herunterzuladen:
 
    ![](assets/stock_6.png)
 
-1. Wählen Sie aus, in welchem Ordner Sie Ihr Asset speichern möchten. Weiterführende Informationen zu [!DNL Assets Essentials] finden Sie auf dieser [Seite](assets-essentials.md#get-started-assets-essentials).
+1. Wählen Sie aus, in welchem Ordner Sie Ihr Asset speichern möchten. Weiterführende Informationen zu [!DNL Experience Manager Assets] finden Sie auf dieser [Seite](assets.md#get-started-assets).
 
 ## Verwandte Themen{#stock-related-topics}
 

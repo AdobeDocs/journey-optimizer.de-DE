@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
@@ -146,4 +146,4 @@ Wenn Sie **nicht** die folgenden vordefinierten [Feldergruppen](https://experien
 
 ## Marken-Domains für Assets {#branded-domains-for-assets}
 
-Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)
+Wenn Sie beim Erstellen von Web-Erlebnissen Inhalte aus der [Adobe Experience Manager Assets ](../content-management/assets.md)-Bibliothek verwenden, müssen Sie die Subdomain einrichten, die zum Veröffentlichen dieses Inhalts verwendet wird. [Weitere Informationen](web-delegated-subdomains.md)
