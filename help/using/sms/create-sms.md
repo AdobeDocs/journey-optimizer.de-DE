@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Erstellen einer SMS-Nachricht
-description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS-Nachricht erstellen.
+title: SMS/MMS-Nachricht erstellen
+description: Erfahren Sie, wie Sie in Journey Optimizer eine SMS/MMS-Nachricht erstellen.
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 87%
 
 ---
 
-# Erstellen einer SMS-Nachricht {#create-sms}
+# SMS/MMS-Nachricht erstellen {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Erstellen einer SMS-Nachricht"
 >abstract="Fügen Sie Ihre SMS-Nachricht hinzu und beginnen Sie, sie mit dem Ausdruckseditor zu personalisieren."
 
-## Hinzufügen einer SMS-Nachricht {#create-sms-journey-campaign}
+## SMS/MMS-Nachricht hinzufügen {#create-sms-journey-campaign}
 
 Auf den folgenden Registerkarten finden Sie weitere Informationen dazu, wie Sie eine SMS-Nachricht in einer Kampagne oder Journey hinzufügen können.
 
@@ -110,13 +110,30 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Fügen Sie in das Feld `originalUrl` die URL ein, die gekürzt werden soll, und klicken Sie auf **[!UICONTROL Speichern]**.
 
+1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** verwenden, um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## Definieren Ihrer MMS-Inhalte{#mms-content}
+
+Mit dem SMS-Kanal können Sie Ihre Kommunikation verbessern, indem Sie MMS-Nachrichten (Multimedia Message Service) versenden und so die Freigabe von Bildern, GIF oder Videos für Ihre Kunden ermöglichen.
+
+
+>[!NOTE]
+>
+> Diese Funktion ist derzeit mit **Sinch** nur.
+>
+> Der MMS-Kanal weist einige Einschränkungen auf, die unter [diese Seite](../start/guardrails.md#sms-guardrails).
+
+Gehen Sie wie folgt vor, um MMS-Inhalte zu erstellen:
+
+1. Erstellen Sie eine SMS wie in [diesem Abschnitt](#create-sms-journey-campaign).
+
+1. Bearbeiten Sie den SMS-Inhalt wie im Abschnitt [diesem Abschnitt](#sms-content).
+
 1. Aktivieren Sie die MMS-Option, um Medien zu Ihrem SMS-Inhalt hinzuzufügen.
-
-   MMS ist mit einigen Einschränkungen verbunden, die auf [dieser Seite](../start/guardrails.md#sms-guardrails) aufgeführt sind.
-
-   >[!NOTE]
-   >
-   > Die MMS-Option ist nur mit Sinch verfügbar. Sie müssen eine spezielle API-Berechtigung erstellen, um MMS zu erstellen. [Weitere Informationen](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ Sie können jetzt mit der Erstellung des Inhalts Ihrer SMS-Nachricht beginnen, i
 
 1. Klicken Sie auf **[!UICONTROL Speichern]** und überprüfen Sie Ihre Nachricht in der Vorschau. Sie können **[!UICONTROL Inhalt simulieren]** verwenden, um Ihre gekürzten URLs oder personalisierten Inhalte in der Vorschau anzuzeigen.
 
-   ![](assets/sms-content-preview.png)
+## Nachrichten testen und senden {#sms-mms-test}
 
-Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Audience senden. [Weitere Informationen](send-sms.md)
+Sie können jetzt Ihre SMS-Nachricht testen und an Ihre Zielgruppe senden. [Weitere Informationen](send-sms.md)
+
+
 Nach dem Versand können Sie die Wirkung Ihrer SMS in den Kampagnen- oder Journey-Berichten messen. Weiterführende Informationen zum Reporting finden Sie in [diesem Abschnitt](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >
 >In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. [Informationen über die Verwaltung des Opt-outs](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **Verwandte Themen**
 
 * [Vorschau, Test und Versand Ihrer SMS-Nachricht](send-sms.md)
