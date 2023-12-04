@@ -8,7 +8,7 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '833'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Erstellen einer Matching-Regel für Seiten"
->abstract="Eine Matching-Regel für Seiten macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn Sie die Änderungen an einem Hero-Banner auf einer ganzen Web-Site anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Web-Site angezeigt wird."
+>abstract="Eine Matching-Regel für Seiten macht es möglich, mehrere URLs, die derselben Regel entsprechen, als Ziel auszuwählen. Dies ist zum Beispiel praktisch, wenn Sie die Änderungen an einem Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen möchten, das auf allen Produktseiten einer Website angezeigt wird."
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine Kampagne zu beginnen.
 
@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Web-Erlebnisses durch eine 
 
 1. Nachdem Sie die Web-Oberfläche definiert haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Audience](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Führen Sie die Schritte zur Erstellung einer Web-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -111,7 +111,7 @@ Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgeleg
 
 1. Wählen Sie in Ihrer Web-Kampagne die Option **[!UICONTROL Zur Aktivierung überprüfen]** aus.
 
-1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Audience und Zeitplan.
+1. Überprüfen und bearbeiten Sie bei Bedarf Inhalt, Eigenschaften, Oberfläche, Zielgruppe und Zeitplan.
 
 1. Wählen Sie **[!UICONTROL Aktivieren]** aus.
 
@@ -121,7 +121,7 @@ Nachdem Sie Ihre [Web-Kampagneneinstellungen](#configure-web-campaign) festgeleg
    >
    >Nachdem Sie auf **[!UICONTROL Aktivieren]** geklickt haben, kann es bis zu 15 Minuten dauern, bis Web-Kampagnenänderungen auf Ihrer Website live sind.
 
-Ihre Web-Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Audience sichtbar. Jeder Empfänger Ihrer Kampagne kann die Änderungen sehen, die Sie Ihrer Website mithilfe des Web-Designers von [!DNL Journey Optimizer] hinzugefügt haben.
+Ihre Web-Kampagne geht in den **[!UICONTROL Live]**-Status über und ist nun für die ausgewählte Zielgruppe sichtbar. Jeder Empfänger Ihrer Kampagne kann die Änderungen sehen, die Sie Ihrer Website mithilfe des Web-Designers von [!DNL Journey Optimizer] hinzugefügt haben.
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ Weitere Informationen zur Aktivierung von Kampagnen finden Sie in [diesem Abschn
 
 ## Stoppen einer Web-Kampagne {#stop-web-campaign}
 
-Wenn eine Web-Kampagne live ist, können Sie sie stoppen, um zu verhindern, dass Ihre Änderungen für Ihre Audience sichtbar werden. Führen Sie dazu folgende Schritte durch.
+Wenn eine Web-Kampagne live ist, können Sie sie stoppen, um zu verhindern, dass Ihre Änderungen für Ihre Zielgruppe sichtbar werden. Führen Sie dazu folgende Schritte durch.
 
 1. Wählen Sie eine Live-Kampagne aus der Liste aus.
 
@@ -141,7 +141,7 @@ Wenn eine Web-Kampagne live ist, können Sie sie stoppen, um zu verhindern, dass
 
    ![](assets/web-campaign-stop.png)
 
-1. Die hinzugefügten Änderungen sind dann für die von Ihnen definierte Audience nicht mehr sichtbar.
+1. Die hinzugefügten Änderungen sind dann für die von Ihnen definierte Zielgruppe nicht mehr sichtbar.
 
 >[!NOTE]
 >
