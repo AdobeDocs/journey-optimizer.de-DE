@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-Opt-out-Verwaltung
-description: Erfahren Sie, wie Sie das Opt-out mit SMS-Nachrichten verwalten können
+title: Opt-out-Verwaltung für Textnachrichten
+description: Erfahren Sie, wie Sie das Opt-out mit SMS/MMS-Nachrichten verwalten.
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 95%
 
 ---
 
-# SMS-Opt-out-Verwaltung {#sms-opt-out}
+# Opt-out-Verwaltung für Textnachrichten {#sms-opt-out}
 
 In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abo einfach zu kündigen. [Erfahren Sie mehr über Datenschutz und Opt-out-Verwaltung](../privacy/opt-out.md)
 

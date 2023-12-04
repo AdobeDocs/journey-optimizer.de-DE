@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Personalisieren von Inhalten in Journey Optimizer
-description: Erste Schritte bei der Personalisierung.
+description: Erste Schritte mit der Personalisierung
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="ajo_homepage_card5"
 >title="Personalisieren von Erlebnissen"
 >abstract="Passen Sie Ihre Nachrichten mit **Adobe Journey Optimizer** mithilfe der über die jeweiligen Empfängerinnen und Empfänger verfügbaren Daten und Informationen an sie an. Dabei kann es sich z. B. um den Vornamen der Person, ihre Interessen, ihren Wohnort oder zuvor gekaufte Artikel handeln."
-
 
 Erkunden Sie die Personalisierungs-Funktionen von [!DNL Adobe Journey Optimizer], um Ihre Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich z. B. um den Vornamen der Person, ihre Interessen, ihren Wohnort oder zuvor gekaufte Artikel handeln.
 
@@ -57,7 +56,7 @@ Darüber hinaus können Sie auch **berechnete Attribute** nutzen, um Ihre Inhalt
 
 [!DNL Journey Optimizer] bietet einen Ausdruckseditor, in dem Sie alle Daten auswählen, anordnen, anpassen und validieren können, um eine individuelle Personalisierung für Ihre Inhalte zu erstellen.
 
-Es stehen verschiedene Tools zur Verfügung, die Sie bei der Erstellung Ihres Personalisierungsinhalts unterstützen (Hilfsfunktionen, Bibliothek mit vordefinierten Ausdrücken, Favorisierung von Attributen usw.).
+Es stehen verschiedene Tools zur Verfügung, mit denen Sie Ihren Personalisierungsinhalt erstellen können, z. B.: Funktionen für Stipendiaten, Bibliothek mit vordefinierten Ausdrücken, beliebte Attribute und mehr.
 
 Weitere Informationen zum [!DNL Journey Optimizer] Ausdruckseditor finden Sie in [diesem Abschnitt](personalization-build-expressions.md)
 
