@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: Journey, Nachricht, Push, SMS, E-Mail, In-App
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 100%
+source-wordcount: '1167'
+ht-degree: 94%
 
 ---
 
-# E-Mail, In-App, Push, SMS{#add-a-message-in-a-journey}
+# E-Mail, In-App, Push, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Nachrichtenaktivität"
->abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
+>abstract="Journey Optimizer verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-Benachrichtigung (SMS/MMS), eine In-App- oder E-Mail-Nachricht in Ihre Journey einfügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet."
 
-[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-, In-App- oder E-Mail-Nachrichtenaktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte festlegen. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
+[!DNL Journey Optimizer] verfügt über integrierte Nachrichtenfunktionen. Sie können einfach eine Push-, SMS-/MMS-, In-App- oder E-Mail-Nachricht-Aktivität zu Ihrer Journey hinzufügen und Einstellungen und Inhalte definieren. Sie wird dann ausgeführt und innerhalb der Journey gesendet.
 
 Sie können auch bestimmte Aktionen zum Senden von Nachrichten einrichten:
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Nachricht zu einer Journey hinzuzufügen:
    <img alt="Validierung" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>SMS-Nachrichten erstellen</strong></a>
+   <a href="../sms/create-sms.md"><strong>SMS/MMS erstellen</strong></a>
    </div>
    <p>
    </td>
