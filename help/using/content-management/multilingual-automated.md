@@ -11,10 +11,10 @@ keywords: erste Schritte, Start, Inhalt, Experiment
 hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1315'
+ht-degree: 94%
 
 ---
 
@@ -90,6 +90,14 @@ Starten Sie Ihr Übersetzungsprojekt, indem Sie das Zielgebietsschema angeben un
 
 1. Wählen Sie aus der Liste Ihr(e) **[!UICONTROL Zielgebietsschema(ta)]** und den **[!UICONTROL Übersetzungsanbieter]** aus, die Sie für das jeweilige Gebietsschema verwenden möchten.
 
+   **[!UICONTROL Übersetzungsanbieter]** Die Einstellungen können über **[!UICONTROL Übersetzung]** im Menü **[!UICONTROL Administration]** Menüabschnitt.
+
+   >[!NOTE]
+   >
+   >Die Vertragsverwaltung mit dem Übersetzungsanbieter fällt nicht in den Anwendungsbereich dieser Funktion. Bitte stellen Sie sicher, dass Sie über einen gültigen und aktiven Vertrag mit dem dafür vorgesehenen Übersetzungspartner verfügen.
+   >
+   ></br>Der Übersetzungsanbieter ist Eigentümer der Qualität der übersetzten Inhalte.
+
 1. Klicken Sie auf **[!UICONTROL Gebietsschema hinzufügen]**, wenn Sie Ihr Zielgebietsschema mit dem richtigen Übersetzungsanbieter verknüpft haben. Klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Wenn ein Anbieter für ein Zielgebietsschema ausgegraut ist, bedeutet dies, dass der Anbieter das betreffende Gebietsschema nicht unterstützt.
@@ -102,7 +110,7 @@ Ihr Übersetzungsprojekt ist jetzt erstellt und kann in einer mehrsprachigen Kam
 
 ## Erstellen von Spracheinstellungen {#language-settings}
 
-In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie nach Informationen zur Profilsprache suchen möchten.
+In diesem Abschnitt können Sie Ihre Primärsprache und die zugehörigen Gebietsschemata zur Verwaltung Ihrer mehrsprachigen Inhalte festlegen. Sie können auch das Attribut auswählen, mit dem Sie Informationen zur Profilsprache nachschlagen möchten.
 
 1. Öffnen Sie im Menü **[!UICONTROL Administration]** die Option **[!UICONTROL Kanal]**.
 
