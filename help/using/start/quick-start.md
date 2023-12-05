@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Schnellstart
-description: Marketing-Experten, Administratoren und Datentechniker können hier anhand einer schrittweisen Anleitung Adobe Journey Optimizer kennenlernen und erkunden..
+description: Als Marketing-Fachkraft, Admin oder Dateningenieurin bzw. -ingenieur können Sie die Leistungsfähigkeit von Adobe Journey Optimizer anhand von schrittweisen Anleitungen erlernen und entdecken.
 feature: Overview
 topic: Content Management
 role: User
@@ -31,7 +31,7 @@ Wählen Sie Ihr Profil aus, um mit einer schrittweisen Anleitung die Leistungsf�
 
 * Ich bin **Datentechniker**
 
-  Importieren von Profilen, Erstellen von Audiences, Erstellen von Schemas und Datensätzen. [Weitere Informationen](path/data-engineer.md)
+  Importieren von Profilen, Erstellen von Zielgruppen, Erstellen von Schemas und Datensätzen. [Weitere Informationen](path/data-engineer.md)
 
 * Ich bin **Marketing-Experte**
 
