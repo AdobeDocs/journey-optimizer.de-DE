@@ -5,7 +5,7 @@ description: Verwenden von Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## Neue Funktionen
 
-Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Journey Optimizer-Produkts und der Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie im [Versionshinweise](using/rn/release-notes.md).  Aktuelle Informationen zu den neuesten Änderungen in unserer Dokumentation erhalten Sie im Abschnitt [Seite mit Dokumentationsaktualisierungen](using/rn/documentation-updates.md).
+Hier erhalten Sie einen Einblick in die neuesten Verbesserungen des Journey Optimizer-Produkts und der Dokumentation! Eine umfassende Liste der Funktionen, Verbesserungen und Fehlerbehebungen finden Sie im [Versionshinweise](using/rn/release-notes.md). Aktuelle Informationen zu den neuesten Änderungen in unserer Dokumentation erhalten Sie im Abschnitt [Seite mit Dokumentationsaktualisierungen](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ Mit dem SMS-Kanal können Sie Ihre Kommunikation jetzt verbessern, indem Sie MMS
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Content Management</strong><br/><a href="using/content-management/assets-essentials.md">Assets/Bilder</a> - <a href="using/personalization/personalize.md">Personalisierung</a> - <a href="using/content-management/content-templates.md">Wiederverwendbar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamisch</a> content - <a href="using/content-management/preview-test.md">Testen und Vorschau von Inhalten</a>
+      <strong>Content Management</strong><br/><a href="using/content-management/assets.md">Assets/Bilder</a> - <a href="using/personalization/personalize.md">Personalisierung</a> - <a href="using/content-management/content-templates.md">Wiederverwendbar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamisch</a> content - <a href="using/content-management/preview-test.md">Testen und Vorschau von Inhalten</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
