@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 87%
+source-wordcount: '908'
+ht-degree: 84%
 
 ---
 
@@ -44,7 +44,7 @@ So erstellen Sie eine E-Mail in [!DNL Journey Optimizer], fügen Sie eine **[!UI
 
 >[!NOTE]
 >
->Wenn Sie eine E-Mail über eine Journey senden, können Sie die Sendezeitoptimierungsfunktion von Adobe Journey Optimizer nutzen. Damit können Sie die beste Sendezeit für die Nachricht vorhersagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/journeys-message.md#send-time-optimization)
+>Sie können die Option Sendezeitoptimierung verwenden, um die beste Sendezeit für die Nachricht vorherzusagen und so die Interaktion basierend auf historischen Öffnungs- und Klickraten zu maximieren. [Erfahren Sie, wie Sie die Sendezeitoptimierung verwenden.](../building-journeys/journeys-message.md#send-time-optimization)
 
 Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Seite](../building-journeys/journey-gs.md).
 
