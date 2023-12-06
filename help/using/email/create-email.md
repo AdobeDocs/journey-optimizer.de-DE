@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: Erstellen, E-Mail, Starten, Journey, Kampagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 87%
 
 ---
 
@@ -21,13 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="E-Mail-Erstellung"
->abstract="Definieren Sie Ihre E-Mail-Parameter in drei einfachen Schritten."
+>abstract="Definieren Sie die Betreffzeile Ihrer E-Mail und öffnen Sie Email Designer , um den Inhalt der E-Mail zu erstellen."
 
-Gehen Sie wie folgt vor, um eine neue E-Mail in [!DNL Journey Optimizer] zu erstellen.
 
-## Erstellen einer E-Mail in einer Journey oder Kampagne {#create-email-journey-campaign}
+## E-Mail-Aktion hinzufügen {#email-action}
 
-Fügen Sie einer Journey oder einer Kampagne eine **[!UICONTROL E-Mail]**-Aktion hinzu und führen Sie die folgenden Schritte entsprechend Ihrem Fall aus.
+So erstellen Sie eine E-Mail in [!DNL Journey Optimizer], fügen Sie eine **[!UICONTROL Email]** -Aktion auf eine Journey oder eine Kampagne. Führen Sie dann je nach Fall die folgenden Schritte aus.
 
 >[!BEGINTABS]
 
@@ -59,7 +58,7 @@ Weitere Informationen zur Konfiguration einer Journey finden Sie auf [dieser Sei
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Audience](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
+1. Führen Sie die Schritte zur Erstellung einer E-Mail-Kampagne aus, z. B. die Kampagneneigenschaften, [Zielgruppe](../audience/about-audiences.md) und [Zeitplan](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,13 +85,13 @@ Weitere Informationen zur Konfiguration Ihrer Kampagne finden Sie auf [dieser Se
 
    ![](assets/email_campaign_edit_content.png)
 
-1. Im Abschnitt **[!UICONTROL Kopfzeile]** des Bildschirms **[!UICONTROL Inhalt bearbeiten]** entsprechen die Felder **[!UICONTROL Absendername]**, **[!UICONTROL Absender-E-Mail]** und **[!UICONTROL BCC]** der von Ihnen ausgewählten E-Mail-Oberfläche. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
+   Im **[!UICONTROL Kopfzeile]** Abschnitt **[!UICONTROL Inhalt bearbeiten]** -Bildschirm, **[!UICONTROL Name des Empfängers]**, **[!UICONTROL Aus E-Mail]** und **[!UICONTROL BCC]** -Feld in der von Ihnen ausgewählten E-Mail-Oberfläche konfiguriert werden. [Weitere Informationen](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Sie können eine Betreffzeile hinzufügen. Geben Sie Text direkt in das entsprechende Feld ein oder verwenden Sie den [Ausdruckseditor](../personalization/personalization-build-expressions.md), um die Betreffzeile zu personalisieren.
+1. Fügen Sie eine Betreffzeile für Ihre Nachricht hinzu. Um die Betreffzeile mit dem Ausdruckseditor zu konfigurieren und zu personalisieren, klicken Sie auf das **[!UICONTROL Personalisierungsdialogfeld öffnen]** Symbol. [Weitere Informationen](../personalization/personalization-build-expressions.md)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL E-Mail-Textkörper bearbeiten]**, um Ihren Inhalt mithilfe des E-Mail-Designers von [!DNL Journey Optimizer] zu erstellen. [Weitere Informationen](get-started-email-design.md)
+1. Klicken Sie auf **[!UICONTROL Bearbeiten des E-Mail-Hauptteils]** auf Email Designer zugreifen und mit der Erstellung Ihres Inhalts beginnen. [Weitere Informationen](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
