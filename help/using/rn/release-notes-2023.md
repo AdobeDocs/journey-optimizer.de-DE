@@ -7,7 +7,8 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
+source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
 workflow-type: tm+mt
 source-wordcount: '4125'
 ht-degree: 99%
@@ -308,7 +309,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Zusätzlich zu Kampagnen und Journeys können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnementlisten jetzt einheitliche Tags von Adobe Experience Platform zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
+<p>Zusätzlich zu Kampagnen und Journeys können Sie Ihren Landingpages, Inhaltsvorlagen, Fragmenten und Abonnement-Listen jetzt einheitliche Tags von Adobe Experience Platform zuweisen. Auf diese Weise können Sie sie einfach klassifizieren und die Suche und Navigation in allen Listen verbessern. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Weitere Informationen finden Sie in der <a href="../start/search-filter-categorize.md#tags">ausführlichen Dokumentation</a>.</p>
 </td>

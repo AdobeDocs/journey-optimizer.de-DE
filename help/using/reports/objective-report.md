@@ -10,16 +10,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+badge: label="Beta" type="Informative"
+source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
 
 # Globaler Bericht zu Kampagnen {#objective-report}
 
-Globaler Bericht zu Kampagnen ist mit der Schaltfläche **[!UICONTROL Bericht anzeigen]** direkt über Ihre Kampagne verfügbar.
+Über die Schaltfläche **[!UICONTROL Bericht anzeigen]** ist der direkte Zugriff in einer Campaign-Instanz auf den globalen Bericht in Campaign möglich.
 
 Der **[!UICONTROL Globale Bericht]** in Campaign ist in verschiedene Widgets unterteilt, die Erfolge und Fehler bei Ihrer Kampagne detailliert beschreiben. Jedes Widget kann bei Bedarf angepasst und gelöscht werden. Weiterführende Informationen dazu finden Sie in diesem [Abschnitt](../reports/global-report.md#modify-dashboard).
 
